@@ -522,167 +522,237 @@
 </main>
 
 <script>
-    // 15 progressive hybrid questions per language (1-10 progressive CEFR, 11-15 standardized active speaking task simulations)
+    // 20 progressive hybrid questions per language (Progressive difficulty alternating between Grammar and Vocabulary: 1-10 progressive CEFR, 11-15 Conversational Fluency, 16-20 Speech Confidence)
     const QUESTIONS = {
         en: [
-            // 1. A1 Receptive Grammar
+            // 1. A1 Receptive Grammar (Grammar Q1)
             { q: "Excuse me, how much ___ these red apples? 🍎", a: ["is", "are", "am"], c: 1 },
-            // 2. A1 Receptive Auxiliary
-            { q: "She has two brothers, but she ___ have any sisters.", a: ["doesn't", "don't", "isn't"], c: 0 },
-            // 3. A2 Receptive Irregular Past
+            // 2. A1 Receptive Phrasal Verbs (Vocab Q1)
+            { q: "Please turn ___ the lights before you go to bed.", a: ["off", "out", "down"], c: 0 },
+            // 3. A2 Receptive Irregular Past (Grammar Q2)
             { q: "We ___ to the cinema last night and saw a great comedy.", a: ["went", "go", "have gone"], c: 0 },
-            // 4. A2 Receptive Comparative
+            // 4. A2 Receptive Comparatives (Vocab Q2)
             { q: "This smartphone is much ___ than the one I bought last year.", a: ["cheaper", "cheapest", "more cheap"], c: 0 },
-            // 5. B1 Receptive Duration
-            { q: "I ___ living in London for five years, and I still love it here.", a: ["had been", "am", "have been"], c: 2 },
-            // 6. B1 Receptive Conditionals
+            // 5. B1 Receptive Conditionals (Grammar Q3)
             { q: "If we ___ early, we would have caught the train.", a: ["left", "had left", "would leave"], c: 1 },
-            // 7. B2 Receptive Regrets
-            { q: "I really regret ___ her what he said; it caused a huge argument.", a: ["to tell", "telling", "tell"], c: 1 },
-            // 8. B2 Receptive Prepositional Collocations
+            // 6. B1 Receptive Research Collocations (Vocab Q3)
+            { q: "I've been ___ research on this topic for several months.", a: ["doing", "making", "having"], c: 0 },
+            // 7. B2 Receptive Prepositional Collocations (Grammar Q4)
             { q: "She succeeded ___ passing the exam despite the extremely difficult questions.", a: ["in", "at", "on"], c: 0 },
-            // 9. C1 Receptive Inversion
+            // 8. B2 Receptive Regrets / Verb Patterns (Vocab Q4)
+            { q: "I really regret ___ her what he said; it caused a huge argument.", a: ["telling", "to tell", "tell"], c: 0 },
+            // 9. C1 Receptive Inversion (Grammar Q5)
             { q: "Hardly ___ entered the room when the phone started ringing.", a: ["had I", "I had", "did I"], c: 0 },
-            // 10. C2 Receptive Lexical Idioms
+            // 10. C2 Receptive Lexical Idioms (Vocab Q5)
             { q: "It was only when he spoke that his accent ___ him away as a foreigner.", a: ["gave", "threw", "let"], c: 0 },
-            // 11. Active Speaking Simulation: Restaurant (A1/A2 task)
-            { q: "💬 <strong>SPEAKING CHECKPOINT:</strong> In a restaurant abroad, if you need to order food and ask for the bill...", a: ["I freeze, point at the menu, or struggle to find basic words.", "I can order and pay comfortably using simple, practiced sentences.", "I can easily chat with the waiter, make jokes, and handle issues effortlessly."], c: -1 },
-            // 12. Active Speaking Simulation: Storytelling (B1 task)
-            { q: "💬 <strong>SPEAKING CHECKPOINT:</strong> If you need to describe a memorable trip or tell a story about an accident to a friend...", a: ["I struggle to connect ideas and speak in short, broken fragments.", "I can narrate it linearly, though I search for words and make mistakes.", "I can tell it fluently with rich details, natural transitions, and emotions."], c: -1 },
-            // 13. Active Speaking Simulation: Debating (B2 task)
-            { q: "💬 <strong>SPEAKING CHECKPOINT:</strong> When participating in a fast-paced conversation or debate about controversial topics...", a: ["I feel too slow, anxious, or unable to form arguments on the spot.", "I can express my opinion and defend it, though with some effort.", "I can debate effortlessly, using humor, subtext, and advanced vocabulary."], c: -1 },
-            // 14. Active Speaking Simulation: Presentation (C1/C2 task)
-            { q: "💬 <strong>SPEAKING CHECKPOINT:</strong> If you are asked to speak spontaneously about highly abstract concepts or deliver an unprepared presentation...", a: ["I struggle to structure my thoughts and have to pause constantly.", "I can speak clearly and maintain a coherent flow, with only minor hesitations.", "I can articulate extremely subtle nuances spontaneously and effortlessly."], c: -1 },
-            // 15. Active Speaking Simulation: Anxiety / Blank Test
-            { q: "💬 <strong>SPEAKING CHECKPOINT:</strong> When a native speaker unexpectedly puts you on the spot and asks you a complex question...", a: ["My mind goes blank and I can say nothing, even if I passively understand the language.", "I feel nervous and need a few seconds to translate, but can eventually answer.", "I can respond instantly and naturally, without translating in my head."], c: -1 }
+
+            // Active Conversational Fluency (11-15)
+            // 11. Restaurant
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> In a restaurant abroad, if you need to order food and ask for the bill...", a: ["I freeze, point at the menu, or struggle to find basic words.", "I can order and pay comfortably using simple, practiced sentences.", "I can easily chat with the waiter, make jokes, and handle issues effortlessly."], c: -1 },
+            // 12. Storytelling
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> If you need to describe a memorable trip or tell a story about an accident to a friend...", a: ["I struggle to connect ideas and speak in short, broken fragments.", "I can narrate it linearly, though I search for words and make mistakes.", "I can tell it fluently with rich details, natural transitions, and emotions."], c: -1 },
+            // 13. Debating
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> When participating in a fast-paced conversation or debate about controversial topics...", a: ["I feel too slow, anxious, or unable to form arguments on the spot.", "I can express my opinion and defend it, though with some effort.", "I can debate effortlessly, using humor, subtext, and advanced vocabulary."], c: -1 },
+            // 14. Presentation
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> If you are asked to speak spontaneously about highly abstract concepts or deliver an unprepared presentation...", a: ["I struggle to structure my thoughts and have to pause constantly.", "I can speak clearly and maintain a coherent flow, with only minor hesitations.", "I can articulate extremely subtle nuances spontaneously and effortlessly."], c: -1 },
+            // 15. Synonyms & Paraphrasing
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> When talking to native speakers, how easily do you find synonyms and paraphrase when you forget a word?", a: ["I get completely stuck and the conversation grinds to a halt.", "I can usually paraphrase with some effort, but it interrupts my flow.", "I navigate it seamlessly without the listener even noticing I forgot a word."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Spot complex question
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> When a native speaker unexpectedly puts you on the spot and asks you a complex question...", a: ["My mind goes blank and I can say nothing, even if I passively understand the language.", "I feel nervous and need a few seconds to translate, but can eventually answer.", "I can respond instantly and naturally, without translating in my head."], c: -1 },
+            // 17. Noisy Environment
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> How comfortable do you feel speaking your target language on a phone call or in a noisy environment?", a: ["Terrified; I avoid phone calls at all costs and cannot filter background noise.", "Anxious, but I can get through the call with some repetition and deep concentration.", "Completely relaxed; I can communicate clearly and focus on the conversation."], c: -1 },
+            // 18. Mistake Management
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> When you make a grammatical mistake while speaking, what is your typical reaction?", a: ["I freeze, lose confidence, and feel too embarrassed to keep speaking.", "I notice the error and hesitate, but try to correct myself and continue.", "I smoothly self-correct or carry on without letting it affect my flow."], c: -1 },
+            // 19. Speaking in Front of Group
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> If you have to speak in the target language in front of a small group of people (like a meeting or class)...", a: ["I experience physical anxiety (racing heart, shaking) and struggle to speak.", "I feel nervous but can deliver my thoughts with moderate hesitation.", "I feel confident, voice my thoughts clearly, and engage with the group comfortably."], c: -1 },
+            // 20. Mental Translation
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> How often do you feel the need to mentally translate from your native language before speaking?", a: ["Always; I have to construct every single sentence in my native tongue first.", "Frequently for complex sentences, though basic phrases come automatically.", "Rarely or never; I think directly in the target language when speaking."], c: -1 }
         ],
         fr: [
-            // 1. A1 Receptive
+            // 1. A1 Receptive Grammar (Grammar Q1)
             { q: "Bonjour ! Comment ___ vous ?", a: ["allez", "vas", "vont"], c: 0 },
-            // 2. A1 Receptive
+            // 2. A1 Receptive (Vocab Q1)
             { q: "J'habite ___ Paris, une très belle ville. 🇫🇷", a: ["à", "en", "au"], c: 0 },
-            // 3. A2 Receptive
+            // 3. A2 Receptive (Grammar Q2)
             { q: "Hier, nous ___ un excellent film au cinéma.", a: ["avons regardé", "regardions", "regarderons"], c: 0 },
-            // 4. A2 Receptive
-            { q: "Pendant mes vacances, je ___ tous les jours à la plage.", a: ["suis allé", "allais", "irai"], c: 1 },
-            // 5. B1 Receptive
+            // 4. A2 Receptive (Vocab Q2)
+            { q: "Pendant mes vacances, je ___ tous les jours à la plage.", a: ["allais", "suis allé", "irai"], c: 1 },
+            // 5. B1 Receptive (Grammar Q3)
             { q: "Si j'avais assez d'argent, je ___ un voyage autour du monde.", a: ["ferais", "ferai", "faisais"], c: 0 },
-            // 6. B1 Receptive
+            // 6. B1 Receptive (Vocab Q3)
             { q: "Elle habite en France ___ trois ans et parle couramment français.", a: ["depuis", "pendant", "pour"], c: 0 },
-            // 7. B2 Receptive
+            // 7. B2 Receptive (Grammar Q4)
             { q: "Bien que ce travail ___ fatigant, il l'adore.", a: ["soit", "est", "était"], c: 0 },
-            // 8. B2 Receptive
+            // 8. B2 Receptive (Vocab Q4)
             { q: "Tu ___ me prévenir de ton retard, je me suis beaucoup inquiété !", a: ["aurais dû", "devrais", "as dû"], c: 0 },
-            // 9. C1 Receptive
+            // 9. C1 Receptive (Grammar Q5)
             { q: "Quoi que vous ___ , ne révélez pas ce secret.", a: ["disiez", "dites", "direz"], c: 0 },
-            // 10. C2 Receptive
+            // 10. C2 Receptive (Vocab Q5)
             { q: "Pourriez-vous, le cas ___ , nous envoyer un justificatif ?", a: ["échéant", "arrivant", "survenant"], c: 0 },
-            // 11. Active
-            { q: "💬 <strong>TEST D'EXPRESSION ORALE :</strong> Au restaurant à l'étranger, pour commander un repas et demander l'addition...", a: ["Je bloque, je montre le menu du doigt ou je cherche mes mots avec difficulté.", "Je peux commander en utilisant des phrases simples et préparées.", "Je peux échanger facilement avec le serveur, plaisanter et gérer un imprévu."], c: -1 },
-            // 12. Active
-            { q: "💬 <strong>TEST D'EXPRESSION ORALE :</strong> Si vous devez raconter un souvenir de voyage ou expliquer un problème à un ami...", a: ["Je struggle à connecter mes idées et parle par mots isolés ou phrases hachées.", "Je peux raconter les événements dans l'ordre, bien que je cherche mes mots.", "Je peux raconter l'histoire de manière fluide, avec des détails et des émotions."], c: -1 },
-            // 13. Active
-            { q: "💬 <strong>TEST D'EXPRESSION ORALE :</strong> Lors d'un débat rapide ou d'une discussion animée sur un sujet de société...", a: ["Je me sens trop lent, anxieux ou incapable d'argumenter spontanément.", "Je peux exprimer mon opinion et la défendre, bien que cela me demande un effort.", "Je peux débattre sans effort, en utilisant l'humour, le second degré et un vocabulaire riche."], c: -1 },
-            // 14. Active
-            { q: "💬 <strong>TEST D'EXPRESSION ORALE :</strong> S'il vous faut parler de concepts abstraits ou faire une présentation improvisée...", a: ["J'ai du mal à structurer mes idées et je dois m'interrompre constamment.", "Je peux m'exprimer clairement et maintenir un discours cohérent sans trop d'hésitations.", "Je peux exprimer des nuances très subtiles de manière spontanée et naturelle."], c: -1 },
-            // 15. Active
-            { q: "💬 <strong>TEST D'EXPRESSION ORALE :</strong> Quand un locuteur natif vous pose une question complexe de manière inattendue...", a: ["C'est le trou noir : je n'arrive pas à parler, même si je comprends tout.", "Je stress et dois traduire dans ma tête, mais je finis par répondre.", "Je réponds instantanément et naturellement, sans traduire dans ma tête."], c: -1 }
+
+            // Active Conversational Fluency (11-15)
+            // 11. Restaurant
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> Au restaurant à l'étranger, pour commander un repas et demander l'addition...", a: ["Je bloque, je montre le menu du doigt ou je cherche mes mots avec difficulté.", "Je peux commander en utilisant des phrases simples et préparées.", "Je peux échanger facilement avec le serveur, plaisanter et gérer un imprévu."], c: -1 },
+            // 12. Recit
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> Si vous devez raconter un souvenir de voyage ou expliquer un problème à un ami...", a: ["Je struggle à connecter mes idées et parle par mots isolés ou phrases hachées.", "Je peux raconter les événements dans l'ordre, bien que je cherche mes mots.", "Je peux raconter l'histoire de manière fluide, avec des détails et des émotions."], c: -1 },
+            // 13. Debat
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> Lors d'un débat rapide ou d'une discussion animée sur un sujet de société...", a: ["Je me sens trop lent, anxieux ou incapable d'argumenter spontanément.", "Je peux exprimer mon opinion et la défendre, bien que cela me demande un effort.", "Je peux débattre sans effort, en utilisant l'humour, le second degré et un vocabulaire riche."], c: -1 },
+            // 14. Abstraction
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> S'il vous faut parler de concepts abstraits ou faire une présentation improvisée...", a: ["J'ai du mal à structurer mes idées et je dois m'interrompre constamment.", "Je peux m'exprimer clairement et maintenir un discours cohérent sans trop d'hésitations.", "Je peux exprimer des nuances très subtiles de manière spontanée et naturelle."], c: -1 },
+            // 15. Synonymes
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> Comment réagissez-vous si vous oubliez un mot précis au milieu d'une phrase ?", a: ["Je m'arrête complètement de parler et je suis bloqué.", "Je cherche une périphrase avec effort, ce qui coupe le rythme de ma phrase.", "Je trouve instantanément un synonyme ou j'explique l'idée avec naturel."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Imprevu
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> Quand un locuteur natif vous pose une question complexe de manière inattendue...", a: ["C'est le trou noir : je n'arrive pas à parler, même si je comprends tout.", "Je stress et dois traduire dans ma tête, mais je finis par répondre.", "Je réponds instantanément et naturellement, sans traduire dans ma tête."], c: -1 },
+            // 17. Telephone
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> Quelle est votre aisance pour parler au téléphone ou dans un endroit très bruyant ?", a: ["C'est terrifiant ; j'évite absolument les appels et ne comprends plus rien avec le bruit.", "Stressant, mais je m'en sors en faisant répéter et en me concentrant intensément.", "Totalement à l'aise ; je peux communiquer clairement et ignorer le bruit de fond."], c: -1 },
+            // 18. Erreurs
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> Quand vous faites une erreur de grammaire ou de prononciation en parlant...", a: ["Je perds tous mes moyens, je me sens embarrassé et j'ai du mal à continuer.", "Je remarque l'erreur, j'hésite un peu, mais j'essaie de me corriger et de continuer.", "Je me corrige rapidement de façon fluide ou je continue sans perturber mon élocution."], c: -1 },
+            // 19. Groupe
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> Si vous devez prendre la parole devant un petit groupe (réunion, classe, atelier)...", a: ["Je ressens une forte anxiété physique (cœur qui bat, tremblements) et j'ai du mal à parler.", "Je suis nerveux mais je parviens à exprimer mes idées avec quelques hésitations.", "Je me sens à l'aise, je partage mes idées clairement et j'interagis avec le groupe."], c: -1 },
+            // 20. Traduction mentale
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> À quelle fréquence devez-vous traduire mentalement depuis votre langue maternelle ?", a: ["Toujours ; je dois construire chaque phrase dans ma langue d'origine d'abord.", "Souvent pour les phrases complexes, mais les expressions simples sortent d'elles-mêmes.", "Rarement ou jamais ; je pense directement en français quand je m'exprime."], c: -1 }
         ],
         it: [
-            // 1. A1 Receptive
+            // 1. A1 Receptive Grammar (Grammar Q1)
             { q: "Ciao! Io ___ Marco e vengo da Roma.", a: ["sono", "sei", "è"], c: 0 },
-            // 2. A1 Receptive
+            // 2. A1 Receptive (Vocab Q1)
             { q: "La borsa è ___ tavolo in cucina.", a: ["sul", "nel", "con"], c: 0 },
-            // 3. A2 Receptive
+            // 3. A2 Receptive (Grammar Q2)
             { q: "Sabato scorso noi ___ al mare con gli amici.", a: ["siamo andati", "abbiamo andato", "andiamo"], c: 0 },
-            // 4. A2 Receptive
-            { q: "Da piccolo, mio nonno ___ sempre a piedi a scuola.", a: ["andava", "è andato", "andrà"], c: 0 },
-            // 5. B1 Receptive
+            // 4. A2 Receptive (Vocab Q2)
+            { q: "Da piccolo, mio nonno ___ sempre a piedi a scuola.", a: ["andava", "è stato andato", "andrà"], c: 0 },
+            // 5. B1 Receptive (Grammar Q3)
             { q: "Se io ___ più tempo, farei un corso di cucina.", a: ["avessi", "avrei", "ho"], c: 0 },
-            // 6. B1 Receptive
+            // 6. B1 Receptive (Vocab Q3)
             { q: "Non penso che Maria ___ ancora arrivata in ufficio.", a: ["sia", "è", "sarà"], c: 0 },
-            // 7. B2 Receptive
+            // 7. B2 Receptive (Grammar Q4)
             { q: "Penso che quel film ___ molto interessante, dovresti vederlo.", a: ["sia", "è", "fosse"], c: 0 },
-            // 8. B2 Receptive
+            // 8. B2 Receptive (Vocab Q4)
             { q: "Se mi avessi ascoltato, non ___ in questo pasticcio!", a: ["ti saresti trovato", "ti fossi trovato", "ti troverai"], c: 0 },
-            // 9. C1 Receptive
+            // 9. C1 Receptive (Grammar Q5)
             { q: "Sebbene ___ molto stanco, ha continuato a lavorare tutta la notte.", a: ["fosse", "era", "sarebbe"], c: 0 },
-            // 10. C2 Receptive
+            // 10. C2 Receptive (Vocab Q5)
             { q: "È un circolo vizioso, un cane che si ___ la coda. 🐕", a: ["morde", "rincorre", "scuote"], c: 0 },
-            // 11. Active
-            { q: "💬 <strong>CHECKPOINT DI PRODUZIONE ORALE:</strong> In un ristorante all'estero, se devi ordinare del cibo e chiedere il conto...", a: ["Mi blocco, indico il menu o fatico molto a trovare le parole.", "Posso ordinare quello che voglio usando frasi semplici e già provate.", "Posso conversare facilmente col cameriere, scherzare e gestire imprevisti."], c: -1 },
-            // 12. Active
-            { q: "💬 <strong>CHECKPOINT DI PRODUZIONE ORALE:</strong> Se devi raccontare un viaggio memorabile o spiegare un problema a un amico...", a: ["Fatico a collegare le idee e parlo con frasi brevi e spezzate.", "Posso narrare gli eventi in ordine, anche se cerco le parole e faccio errori.", "Posso raccontare la storia fluidamente, con dettagli, emozioni e naturalezza."], c: -1 },
-            // 13. Active
-            { q: "💬 <strong>CHECKPOINT DI PRODUZIONE ORALE:</strong> Durante un dibattito veloce o una discussione accesa su temi sociali complessi...", a: ["Mi sento troppo lento, ansioso o incapace di formulare argomenti sul momento.", "Posso esprimere la mia opinione e difenderla, anche se con un certo sforzo.", "Posso discutere senza sforzo, usando ironia, sfumature e un vocabolario avanzato."], c: -1 },
-            // 14. Active
-            { q: "💬 <strong>CHECKPOINT DI PRODUZIONE ORALE:</strong> Se ti viene chiesto di parlare spontaneamente di concetti astratti o fare una presentazione improvvisata...", a: ["Faticherei a strutturare i pensieri e dovrei fare continue pause.", "Posso parlare chiaramente e mantenere un flusso coerente, con minime esitazioni.", "Posso esprimere sfumature estremamente sottili in modo spontaneo e naturale."], c: -1 },
-            // 15. Active
-            { q: "💬 <strong>CHECKPOINT DI PRODUZIONE ORALE:</strong> Quando un madrelingua ti fa una domanda complessa all'improvviso...", a: ["La mia mente si svuota completamente e non riesco a parlare, anche se capisco tutto.", "Mi sento nervoso e ho bisogno di tradurre nella mente, ma alla fine rispondo.", "Posso rispondere all'istante e in modo naturale, senza tradurre nella mente."], c: -1 }
+
+            // Active Conversational Fluency (11-15)
+            // 11. Ristorante
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> In un ristorante all'estero, se devi ordinare del cibo e chiedere il conto...", a: ["Mi blocco, indico il menu o fatico molto a trovare le parole.", "Posso ordinare quello che voglio usando frasi semplici e già provate.", "Posso conversare facilmente col cameriere, scherzare e gestire imprevisti."], c: -1 },
+            // 12. Viaggio
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> Se devi raccontare un viaggio memorabile o spiegare un problema a un amico...", a: ["Fatico a collegare le idee e parlo con frasi brevi e spezzate.", "Posso narrare gli eventi in ordine, anche se cerco le parole e faccio errori.", "Posso raccontare la storia fluidamente, con dettagli, emozioni e naturalezza."], c: -1 },
+            // 13. Dibattito
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> Durante un dibattito veloce o una discussione accesa su temi sociali complessi...", a: ["Mi sento troppo lento, ansioso o incapace di formulare argomenti sul momento.", "Posso esprimere la mia opinione e difenderla, anche se con un certo sforzo.", "Posso discutere senza sforzo, usando ironia, sfumature e un vocabolario avanzato."], c: -1 },
+            // 14. Abstratto
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> Se ti viene chiesto di parlare spontaneamente di concetti astratti o fare una presentazione improvvisata...", a: ["Faticherei a strutturare i pensieri e dovrei fare continue pause.", "Posso parlare chiaramente e mantenere un flusso coerente, con minime esitazioni.", "Posso esprimere sfumature estremamente sottili in modo spontaneo e naturale."], c: -1 },
+            // 15. Sinonimi
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> Come ti comporti se ti sfugge una parola precisa mentre stai parlando?", a: ["Mi blocco completamente e la conversazione si interrompe.", "Cerco di parafrasare con fatica, interrompendo la fluidità della frase.", "Trovo subito un sinonimo o spiego l'idea in modo naturale."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Domanda Improvvisa
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Quando un madrelingua ti fa una domanda complessa all'improvviso...", a: ["La mia mente si svuota completamente e non riesco a parlare, anche se capisco tutto.", "Mi sento nervoso e ho bisogno di tradurre nella mente, ma alla fine rispondo.", "Posso rispondere all'istante e in modo naturale, senza tradurre nella mente."], c: -1 },
+            // 17. Telefono
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Come ti senti a parlare al telefono o in un ambiente molto rumoroso?", a: ["Terrorizzato; evito le telefonate a tutti i costi e non capisco nulla col rumore.", "Ansioso, ma me la cavo facendomi ripetere le cose e concentrandomi molto.", "Completamente a mio agio; posso comunicare chiaramente e ignorare il rumore."], c: -1 },
+            // 18. Errore
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Quando fai un errore di grammatica o di pronuncia mentre parli...", a: ["Mi scoraggio subito, mi sento in imbarazzo e fatico a continuare a parlare.", "Noto l'errore ed esito, ma provo a correggermi e continuo il discorso.", "Mi autocorreggo in modo fluido o continuo senza farmi influenzare."], c: -1 },
+            // 19. Gruppo
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Se devi parlare in pubblico davanti a un piccolo gruppo (riunione, corso, presentazione)...", a: ["Provo una forte ansia fisica (battito accelerato, tremore) e fatico a parlare.", "Sono nervoso ma riesco a esprimere le mie idee con qualche esitazione.", "Mi sento sicuro, espongo chiaramente i miei pensieri e interagisco con facilità."], c: -1 },
+            // 20. Traduzione mentale
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Quanto spesso senti il bisogno di tradurre mentalmente dalla tua lingua madre prima di parlare?", a: ["Sempre; devo costruire ogni singola frase prima nella mia lingua madre.", "Spesso per concetti complessi, mentre le frasi semplici mi vengono automatiche.", "Raramente o mai; penso direttamente in italiano quando mi esprimo."], c: -1 }
         ],
         ru: [
-            // 1. A1 Receptive
+            // 1. A1 Receptive Grammar (Grammar Q1)
             { q: "Привет! Меня ___ Анна. Как тебя зовут?", a: ["зовут", "зовутт", "звать"], c: 0 },
-            // 2. A1 Receptive
+            // 2. A1 Receptive (Vocab Q1)
             { q: "Где моя книга? Она лежит ___ столе. 📕", a: ["на", "в", "у"], c: 0 },
-            // 3. A2 Receptive
+            // 3. A2 Receptive (Grammar Q2)
             { q: "Вчера мы ___ в новый ресторан в центре города.", a: ["ходили", "шли", "поедем"], c: 0 },
-            // 4. A2 Receptive
-            { q: "Моя сестра ___ меня на три года.", a: ["старше", "старый", "самый старый"], c: 0 },
-            // 5. B1 Receptive
+            // 4. A2 Receptive (Vocab Q2)
+            { q: "Моша сестра ___ меня на три года.", a: ["старше", "старый", "самый старый"], c: 0 },
+            // 5. B1 Receptive (Grammar Q3)
             { q: "Если бы у меня было больше свободного времени, я ___ на гитаре.", a: ["играл бы", "буду играть", "играю"], c: 0 },
-            // 6. B1 Receptive
+            // 6. B1 Receptive (Vocab Q3)
             { q: "Я учусь в этом университете ___ двух лет.", a: ["в течение", "за", "через"], c: 0 },
-            // 7. B2 Receptive
+            // 7. B2 Receptive (Grammar Q4)
             { q: "Мы решили отложить прогулку, несмотря ___ плохую погоду.", a: ["на", "за", "против"], c: 0 },
-            // 8. B2 Receptive
+            // 8. B2 Receptive (Vocab Q4)
             { q: "Вам ___ предупредить нас об изменениях заранее!", a: ["следовало", "должны", "нужно"], c: 0 },
-            // 9. C1 Receptive
+            // 9. C1 Receptive (Grammar Q5)
             { q: "Этот проект заслуживает внимания, ___ его высокую стоимость.", a: ["невзирая на", "благодаря", "согласно"], c: 0 },
-            // 10. C2 Receptive
+            // 10. C2 Receptive (Vocab Q5)
             { q: "После долгих дебатов стороны наконец пришли ___ .", a: ["к общему знаменателю", "в тупик", "на попятную"], c: 0 },
-            // 11. Active
-            { q: "💬 <strong>ПРОВЕРКА РАЗГОВОРНОЙ РЕЧИ:</strong> Если в ресторане за границей вам нужно заказать еду и попросить счет...", a: ["Я зависаю, просто показываю пальцем в меню или с трудом подбираю слова.", "Я могу заказать все необходимое простыми, заранее отрепетированными фразами.", "Я могу легко пообщаться с официантом, пошутить или решить возникшую проблему."], c: -1 },
-            // 12. Active
-            { q: "💬 <strong>ПРОВЕРКА РАЗГОВОРНОЙ РЕЧИ:</strong> Если вам нужно рассказать другу о запоминающейся поездке или истории из жизни...", a: ["Мне трудно связывать мысли, и я говорю короткими, отрывочными фразами.", "Я могу рассказать всё по порядку, хотя часто ищу слова и делаю ошибки.", "Я могу рассказать историю бегло, во всех деталях, выражая эмоции и нюансы."], c: -1 },
-            // 13. Active
-            { q: "💬 <strong>ПРОВЕРКА РАЗГОВОРНОЙ РЕЧИ:</strong> При участии в быстром споре или обсуждении сложных социальных тем...", a: ["Я чувствую себя слишком медлительным, нервничаю или не могу аргументировать на ходу.", "Я могу выразить свое мнение и защитить его, хотя это требует усилий.", "Я могу спорить без усилий, используя юмор, подтекст и богатый словарный запас."], c: -1 },
-            // 14. Active
-            { q: "💬 <strong>ПРОВЕРКА РАЗГОВОРНОЙ РЕЧИ:</strong> Если вас попросят спонтанно рассуждать на абстрактные темы или выступить без подготовки...", a: ["Мне будет трудно структурировать мысли, придется постоянно делать паузы.", "Я могу говорить ясно и поддерживать связную речь с минимальными заминками.", "Я могу выражать тончайшие оттенки смысла спонтанно и абсолютно свободно."], c: -1 },
-            // 15. Active
-            { q: "💬 <strong>ПРОВЕРКА РАЗГОВОРНОЙ РЕЧИ:</strong> Когда носитель языка неожиданно задает вам сложный вопрос в лоб...", a: ["В голове наступает полная пустота, и я не могу ничего сказать, хотя всё понимаю.", "Я нервничаю и трачу время на мысленный перевод, но в итоге отвечаю.", "Я могу ответить мгновенно и естественно, не переводя фразы в голове."], c: -1 }
+
+            // Active Conversational Fluency (11-15)
+            // 11. Ресторан
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> Если в ресторане за границей вам нужно заказать еду и попросить счет...", a: ["Я зависаю, просто показываю пальцем в меню или с трудом подбираю слова.", "Я могу заказать все необходимое простыми, заранее отрепетированными фразами.", "Я могу легко пообщаться с официантом, пошутить или решить возникшую проблему."], c: -1 },
+            // 12. Рассказ
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> Если вам нужно рассказать другу о запоминающейся поездке или истории из жизни...", a: ["Мне трудно связывать мысли, и я говорю короткими, отрывочными фразами.", "Я могу рассказать всё по порядку, хотя часто ищу слова и делаю ошибки.", "Я могу рассказать историю бегло, во всех деталях, выражая эмоции и нюансы."], c: -1 },
+            // 13. Спор
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> При участии в быстром споре или обсуждении сложных социальных тем...", a: ["Я чувствую себя слишком медлительным, нервничаю или не могу аргументировать на ходу.", "Я могу выразить свое мнение и защитить его, хотя это требует усилий.", "Я могу спорить без усилий, используя юмор, подтекст и богатый словарный запас."], c: -1 },
+            // 14. Спонтанность
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> Если вас попросят спонтанно рассуждать на абстрактные темы или выступить без подготовки...", a: ["Мне будет трудно структурировать мысли, придется постоянно делать паузы.", "Я могу говорить ясно и поддерживать связную речь с минимальными заминками.", "Я могу выражать тончайшие оттенки смысла спонтанно и абсолютно свободно."], c: -1 },
+            // 15. Забытое слово
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> Как вы поступаете, если забыли точное слово во время разговора?", a: ["Я полностью останавливаюсь и не могу продолжить беседу.", "Я пытаюсь с трудом перефразировать мысль, что сильно сбивает темп речи.", "Я мгновенно нахожу синоним или легко объясняю понятие другими словами."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Неожиданный вопрос
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Когда носитель языка неожиданно задает вам сложный вопрос в лоб...", a: ["В голове наступает полная пустота, и я не могу ничего сказать, хотя всё понимаю.", "Я нервничаю и трачу время на мысленный перевод, но в итоге отвечаю.", "Я могу ответить мгновенно и естественно, не переводя фразы в голове."], c: -1 },
+            // 17. Телефон/Шум
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Насколько уверенно вы чувствуете себя при разговоре по телефону или в шумном месте?", a: ["Ужасно; я всеми силами избегаю звонков и теряюсь от любого шума.", "Немного тревожно, но я справляюсь, прося повторить и сильно концентрируясь.", "Абсолютно спокойно; могу общаться четко и абстрагироваться от шума."], c: -1 },
+            // 18. Реакция на ошибки
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Какова ваша реакция на собственную грамматическую ошибку во время речи?", a: ["Я расстраиваюсь, теряю уверенность и стесняюсь продолжать говорить.", "Замечаю ошибку и запинаюсь, но стараюсь исправиться и продолжить.", "Спокойно исправляюсь на ходу или говорю дальше, не теряя темпа."], c: -1 },
+            // 19. Публика
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Если вам нужно высказаться перед небольшой группой людей (совещание, урок, презентация)...", a: ["Я чувствую физический страх (сердцебиение, дрожь) и с трудом выдавливаю слова.", "Нервничаю, но могу изложить свои мысли с небольшими запинками.", "Чувствую себя уверенно, выражаю мысли ясно и легко веду диалог."], c: -1 },
+            // 20. Мысленный перевод
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Как часто вам приходится мысленно переводить фразы с родного языка перед тем, как сказать?", a: ["Постоянно; сначала конструирую каждое предложение на родном языке.", "Часто при сложных фразах, но простые выражения приходят автоматически.", "Редко или никогда; я сразу думаю на целевом языке, когда говорю."], c: -1 }
         ],
         el: [
-            // 1. A1 Receptive
+            // 1. A1 Receptive Grammar (Grammar Q1)
             { q: "Γεια σας! Πώς ___ ;", a: ["είστε", "είμαι", "είναι"], c: 0 },
-            // 2. A1 Receptive
+            // 2. A1 Receptive (Vocab Q1)
             { q: "Το βιβλίο μου είναι ___ στο τραπέζι. 📘", a: ["πάνω", "κάτω", "μέσα"], c: 0 },
-            // 3. A2 Receptive
+            // 3. A2 Receptive (Grammar Q2)
             { q: "Χθες ___ στο σινεμά και είδαμε μια ωραία ταινία.", a: ["πήγαμε", "πηγαίνουμε", "θα πάμε"], c: 0 },
-            // 4. A2 Receptive
+            // 4. A2 Receptive (Vocab Q2)
             { q: "Αυτό το αυτοκίνητο είναι ___ από το δικό μου. 🚗", a: ["γρηγορότερο", "γρήγορο", "γρηγορότερα"], c: 0 },
-            // 5. B1 Receptive
+            // 5. B1 Receptive (Grammar Q3)
             { q: "Αν ___ χρόνο, θα ερχόμουν μαζί σας στο πάρτι.", a: ["είχα", "έχω", "θα έχω"], c: 0 },
-            // 6. B1 Receptive
+            // 6. B1 Receptive (Vocab Q3)
             { q: "Μαθαίνω ελληνικά ___ δύο χρόνια και μου αρέσουν πολύ.", a: ["εδώ και", "από", "για"], c: 0 },
-            // 7. B2 Receptive
+            // 7. B2 Receptive (Grammar Q4)
             { q: "Παρόλο που ___ κουρασμένος, συνέχισε να διαβάζει.", a: ["ήταν", "είναι", "θα είναι"], c: 0 },
-            // 8. B2 Receptive
+            // 8. B2 Receptive (Vocab Q4)
             { q: "Δεν μπορώ να ___ αυτή την απαράδεκτη συμπεριφορά.", a: ["ανεχτώ", "αντέξω", "κάνω"], c: 0 },
-            // 9. C1 Receptive
+            // 9. C1 Receptive (Grammar Q5)
             { q: "Υπό την προϋπόθεση ότι όλοι ___ σύμφωνοι, μπορούμε να ξεκινήσουμε.", a: ["είναι", "θα είναι", "ήταν"], c: 0 },
-            // 10. C2 Receptive
+            // 10. C2 Receptive (Vocab Q5)
             { q: "Η προσπάθειά του να τους πείσει απέβη ___ , καθώς κανείς δεν τον πίστεψε.", a: ["άκαρπη", "άδικη", "άτοπη"], c: 0 },
-            // 11. Active
-            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΠΡΟΦΟΡΙΚΟΥ ΛΟΓΟΥ:</strong> Σε ένα εστιατόριο στο εξωτερικό, αν πρέπει να παραγγείλετε φαγητό και να ζητήσετε τον λογαριασμό...", a: ["Θα μπλόκαρα, θα έδειχνα το μενού ή θα δυσκολευόμουν πολύ να βρω τις λέξεις.", "Μπορώ να παραγγείλω αυτό που θέλω χρησιμοποιώντας απλές, εξασκημένες προτάσεις.", "Μπορώ εύκολα να συνομιλήσω με τον σερβιτόρο, να κάνω αστεία και να λύσω τυχόν θέματα."], c: -1 },
-            // 12. Active
-            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΠΡΟΦΟΡΙΚΟΥ ΛΟΓΟΥ:</strong> Αν πρέπει να περιγράψετε ένα αξέχαστο ταξίδι ή να διηγηθείτε μια ιστορία σε έναν φίλο...", a: ["Δυσκολεύομαι να συνδέσω τις ιδέες μου και μιλάω με σύντομες, σκόρπιες φράσεις.", "Μπορώ να διηγηθώ τα γεγονότα με τη σειρά, αν και ψάχνω λέξεις και κάνω λάθη.", "Μπορώ να πω την ιστορία με ευχέρεια, πλούσιες λεπτομέρειες, συναίσθημα και φυσικότητα."], c: -1 },
-            // 13. Active
-            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΠΡΟΦΟΡΙΚΟΥ ΛΟΓΟΥ:</strong> Όταν συμμετέχετε σε μια γρήγορη συζήτηση ή αντιπαράθεση για κοινωνικά θέματα...", a: ["Νιώθω πολύ αργός, αγχωμένος ή ανίκανος να διατυπώσω επιχειρήματα εκείνη τη στιγμή.", "Μπορώ να εκφράσω τη γνώμη μου και να την υπερασπιστώ, αν και με κάποια προσπάθεια.", "Μπορώ να συζητήσω αβίαστα, χρησιμοποιώντας χιούμορ, υπονοούμενα και προχωρημένο λεξιλόγιο."], c: -1 },
-            // 14. Active
-            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΠΡΟΦΟΡΙΚΟΥ ΛΟΓΟΥ:</strong> Αν σας ζητηθεί να μιλήσετε αυθόρμητα για αφηρημένες έννοιες ή να κάνετε μια παρουσίαση χωρίς προετοιμασία...", a: ["Θα δυσκολευόμουν να δομήσω τις σκέψεις μου και θα έκανα συνεχείς παύσεις.", "Μπορώ να μιλήσω καθαρά και να διατηρήσω μια συνεχή ροή, με ελάχιστους δισταγμούς.", "Μπορώ να εκφράσω εξαιρετικά λεπτές αποχρώσεις νοήματος αυθόρμητα και αβίαστα."], c: -1 },
-            // 15. Active
-            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΠΡΟΦΟΡΙΚΟΥ ΛΟΓΟΥ:</strong> Όταν ένας φυσικός ομιλητής σάς κάνει ξαφνικά μια δύσκολη ερώτηση...", a: ["Το μυαλό μου αδειάζει τελείως και δεν μπορώ να μιλήσω, παρόλο που καταλαβαίνω τα πάντα.", "Νιώθω άγχος και χρειάζομαι χρόνο για να μεταφράσω στο μυαλό μου, αλλά τελικά απαντώ.", "Μπορώ να απαντήσω αμέσως και φυσικά, χωρίς να κάνω μετάφραση στο μυαλό μου."], c: -1 }
+
+            // Active Conversational Fluency (11-15)
+            // 11. Εστιατόριο
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Σε ένα εστιατόριο στο εξωτερικό, αν πρέπει να παραγγείλετε φαγητό και να ζητήσετε τον λογαριασμό...", a: ["Θα μπλόκαρα, θα έδειχνα το μενού ή θα δυσκολευόμουν πολύ να βρω τις λέξεις.", "Μπορώ να παραγγείλω αυτό που θέλω χρησιμοποιώντας απλές, εξασκημένες προτάσεις.", "Μπορώ εύκολα να συνομιλήσω με τον σερβιτόρο, να κάνω αστεία και να λύσω τυχόν θέματα."], c: -1 },
+            // 12. Διήγηση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Αν πρέπει να περιγράψετε ένα αξέχαστο ταξίδι ή να διηγηθείτε μια ιστορία σε έναν φίλο...", a: ["Δυσκολεύομαι να συνδέσω τις ιδέες μου και μιλάω με σύντομες, σκόρπιες φράσεις.", "Μπορώ να διηγηθώ τα γεγονότα με τη σειρά, αν και ψάχνω λέξεις και κάνω λάθη.", "Μπορώ να πω την ιστορία με ευχέρεια, πλούσιες λεπτομέρειες, συναίσθημα και φυσικότητα."], c: -1 },
+            // 13. Συζήτηση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Όταν συμμετέχετε σε μια γρήγορη συζήτηση ή αντιπαράθεση για κοινωνικά θέματα...", a: ["Νιώθω πολύ αργός, αγχωμένος ή ανίκανος να διατυπώσω επιχειρήματα εκείνη τη στιγμή.", "Μπορώ να εκφράσω τη γνώμη μου και να την υπερασπιστώ, αν και με κάποια προσπάθεια.", "Μπορώ να συζητήσω αβίαστα, χρησιμοποιώντας χιούμορ, υπονοούμενα και προχωρημένο λεξιλόγιο."], c: -1 },
+            // 14. Παρουσίαση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Αν σας ζητηθεί να μιλήσετε αυθόρμητα για αφηρημένες έννοιες ή να κάνετε μια παρουσίαση χωρίς προετοιμασία...", a: ["Θα δυσκολευόμουν να δομήσω τις σκέψεις μου και θα έκανα συνεχείς παύσεις.", "Μπορώ να μιλήσω καθαρά και να διατηρήσω μια συνεχή ροή, με ελάχιστους δισταγμούς.", "Μπορώ να εκφράσω εξαιρετικά λεπτές αποχρώσεις νοήματος αυθόρμητα και αβίαστα."], c: -1 },
+            // 15. Ξεχασμένη λέξη
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Τι κάνετε αν ξεχάσετε μια συγκεκριμένη λέξη κατά τη διάρκεια μιας συνομιλίας;", a: ["Κολλάω τελείως και η συζήτηση σταματά απότομα.", "Προσπαθώ να περιγράψω αυτό που θέλω με δυσκολία, διακόπτοντας τη ροή μου.", "Βρίσκω αμέσως ένα συνώνυμο ή εξηγώ την ιδέα με απόλυτα φυσικό τρόπο."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Ξαφνική ερώτηση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Όταν ένας φυσικός ομιλητής σάς κάνει ξαφνικά μια δύσκολη ερώτηση...", a: ["Το μυαλό μου αδειάζει τελείως και δεν μπορώ να μιλήσω, παρόλο που καταλαβαίνω τα πάντα.", "Νιώθω άγχος και χρειάζομαι χρόνο για να μεταφράσω στο μυαλό μου, αλλά τελικά απαντώ.", "Μπορώ να απαντήσω αμέσως και φυσικά, χωρίς να κάνω μετάφραση στο μυαλό μου."], c: -1 },
+            // 17. Θόρυβος / Τηλέφωνο
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Πόσο άνετα νιώθετε να μιλάτε στο τηλέφωνο ή σε ένα περιβάλλον με πολύ θόρυβο;", a: ["Τρομοκρατημένος/η. Αποφεύγω τα τηλεφωνήματα και χάνω κάθε συγκέντρωση με τον θόρυβο.", "Αγχωμένος/η, αλλά τα καταφέρνω ζητώντας επαναλήψεις και με μεγάλη προσπάθεια.", "Απόλυτα άνετα. Μπορώ να επικοινωνήσω καθαρά και να αγνοήσω τον θόρυβο."], c: -1 },
+            // 18. Λάθη
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Όταν κάνετε ένα γραμματικό ή εκφωνητικό λάθος καθώς μιλάτε...", a: ["Απογοητεύομαι, χάνω την αυτοπεποίθησή μου και ντρέπομαι να συνεχίσω.", "Παρατηρώ το λάθος και διστάζω, αλλά προσπαθώ να διορθωθώ και να συνεχίσω.", "Διορθώνομαι ομαλά ή συνεχίζω να μιλάω χωρίς να επηρεαστεί η ροή μου."], c: -1 },
+            // 19. Ομάδα
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Αν πρέπει να μιλήσετε μπροστά σε μια μικρή ομάδα (π.χ. σε μια συνάντηση ή μάθημα)...", a: ["Νιώθω σωματικό άγχος (ταχυπαλμία, τρέμουλο) και δυσκολεύομαι να αρθρώσω λέξη.", "Αγχώνομαι αλλά καταφέρνω να εκφράσω τις σκέψεις μου με κάποιους δισταγμούς.", "Νιώθω σιγουριά, εκφράζομαι καθαρά και αλληλεπιδρώ άνετα με την ομάδα."], c: -1 },
+            // 20. Μετάφραση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Πόσο συχνά νιώθετε την ανάγκη να μεταφράζετε από τη μητρική σας γλώσσα προτού μιλήσετε;", a: ["Πάντα. Πρέπει να κατασκευάσω κάθε πρόταση στη μητρική μου γλώσσα πρώτα.", "Συχνά για περίπλοκες προτάσεις, αν και οι απλές εκφράσεις βγαίνουν αυτόματα.", "Σπάνια έως ποτέ. Σκέφτομαι απευθείας στη γλώσσα-στόχο όταν μιλάω."], c: -1 }
         ]
     };
 
@@ -738,6 +808,8 @@
     let vocabScore = 0;
     let fluencyScore = 0;
     let anxietyScore = 0;
+    let receptiveFailures = 0;
+    let hasPivoted = false;
     let isTransitioning = false;
 
     function startQuiz(lang) {
@@ -750,6 +822,8 @@
         vocabScore = 0;
         fluencyScore = 0;
         anxietyScore = 0;
+        receptiveFailures = 0;
+        hasPivoted = false;
 
         document.getElementById('step-lang').style.display = 'none';
         document.getElementById('quiz-intro-text').style.display = 'none';
@@ -760,10 +834,10 @@
 
     function showQuestion() {
         const questions = QUESTIONS[selectedLang];
-        const progressText = `Question ${currentQuestionIdx + 1} of 15`;
+        const progressText = `Question ${currentQuestionIdx + 1} of 20`;
         document.getElementById('quiz-progress-text').textContent = progressText;
 
-        const percent = ((currentQuestionIdx) / 15) * 100;
+        const percent = ((currentQuestionIdx) / 20) * 100;
         document.getElementById('progress-bar').style.width = `${percent}%`;
 
         const q = questions[currentQuestionIdx];
@@ -788,60 +862,84 @@
         const q = questions[currentQuestionIdx];
         const buttons = document.querySelectorAll('.option-btn');
 
-        // Disable all options and show feedback
+        // Disable all options and show neutral selection feedback without revealing correctness
         buttons.forEach((btn, idx) => {
             btn.classList.add('disabled');
-            if (currentQuestionIdx < 10) {
-                // Receptive questions have single correct answers
-                if (idx === q.c) {
-                    btn.classList.add('correct');
-                    btn.innerHTML += ' &nbsp;&nbsp;✅';
-                } else if (idx === ansIdx) {
-                    btn.classList.add('incorrect');
-                    btn.innerHTML += ' &nbsp;&nbsp;❌';
-                }
-            } else {
-                // Active communicative check-points just highlight selection
-                if (idx === ansIdx) {
-                    btn.classList.add('selected');
-                    btn.innerHTML += ' &nbsp;&nbsp;⭐';
-                }
+            if (idx === ansIdx) {
+                btn.classList.add('selected');
             }
         });
+
+        let triggeredPivot = false;
 
         if (currentQuestionIdx < 10) {
             const isCorrect = (ansIdx === q.c);
             if (isCorrect) {
                 passiveScore++;
-                // Grammar Q indices: 0, 1, 2, 3, 5, 8
-                if ([0, 1, 2, 3, 5, 8].includes(currentQuestionIdx)) {
+                // Grammar Q indices: 0, 2, 4, 6, 8
+                if ([0, 2, 4, 6, 8].includes(currentQuestionIdx)) {
                     grammarScore++;
                 } else {
-                    // Vocabulary Q indices: 4, 6, 7, 9
+                    // Vocabulary Q indices: 1, 3, 5, 7, 9
                     vocabScore++;
+                }
+            } else {
+                if (currentQuestionIdx < 6) {
+                    receptiveFailures++;
                 }
             }
         } else {
             activeScore += ansIdx;
-            // Fluency Q indices: 10, 11, 12, 13
-            if ([10, 11, 12, 13].includes(currentQuestionIdx)) {
+            // Fluency Q indices: 10, 11, 12, 13, 14
+            if (currentQuestionIdx < 15) {
                 fluencyScore += ansIdx;
-            } else if (currentQuestionIdx === 14) {
-                // Anxiety Q index: 14
+            } else {
+                // Confidence Q indices: 15, 16, 17, 18, 19
                 anxietyScore += ansIdx;
             }
         }
 
+        if (currentQuestionIdx < 6 && receptiveFailures >= 2 && !hasPivoted) {
+            hasPivoted = true;
+            triggeredPivot = true;
+        }
+
         currentQuestionIdx++;
 
-        setTimeout(() => {
-            isTransitioning = false;
-            if (currentQuestionIdx < 15) {
-                showQuestion();
-            } else {
-                showResults();
-            }
-        }, 1200);
+        if (triggeredPivot) {
+            // Adaptive Pivot Transition Card
+            setTimeout(() => {
+                const pivotHtml = `
+                    <div class="question-card" style="display: block; text-align: center; padding: 2.5rem 1.5rem; border: 2px dashed var(--honey-dark, #b7791f); border-radius: 12px; background: #fffaf0; box-shadow: 0 4px 15px rgba(183,121,31,0.05); animation: fadeIn 0.4s ease;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
+                        <div class="question-text" style="color: var(--honey-dark, #b7791f); font-family: 'Lora', serif; font-size: 1.45rem; margin-bottom: 1rem;">Adaptive Level Calibration</div>
+                        <p style="font-size: 1.05rem; color: #744210; line-height: 1.6; max-width: 500px; margin: 0 auto 1.5rem;">
+                            Receptive baseline established. We are dynamically optimizing your testing path and pivoting directly to the Conversational Speaking checkpoints to calibrate your active production.
+                        </p>
+                    </div>
+                `;
+                document.getElementById('question-container').innerHTML = pivotHtml;
+                // Fast-forward progress bar to 50% (the end of passive section)
+                document.getElementById('progress-bar').style.width = '50%';
+
+                // Jump directly to index 10 (Question 11 - first active speaking task)
+                currentQuestionIdx = 10;
+
+                setTimeout(() => {
+                    isTransitioning = false;
+                    showQuestion();
+                }, 3500);
+            }, 1200);
+        } else {
+            setTimeout(() => {
+                isTransitioning = false;
+                if (currentQuestionIdx < 20) {
+                    showQuestion();
+                } else {
+                    showResults();
+                }
+            }, 1200);
+        }
     }
 
     function showResults() {
@@ -857,27 +955,27 @@
         else if (passiveScore >= 3) { passiveLvl = 'A2'; passiveRank = 2; }
         else { passiveLvl = 'A1'; passiveRank = 1; }
 
-        // 2. Determine Active Level Baseline
+        // 2. Determine Active Level Baseline (out of 20)
         let activeLvl = 'A1';
-        if (activeScore >= 8) { activeLvl = 'C1'; }
-        else if (activeScore >= 5) { activeLvl = 'B2'; }
-        else if (activeScore >= 3) { activeLvl = 'B1'; }
-        else if (activeScore >= 1) { activeLvl = 'A2'; }
+        if (activeScore >= 16) { activeLvl = 'C1'; }
+        else if (activeScore >= 11) { activeLvl = 'B2'; }
+        else if (activeScore >= 6) { activeLvl = 'B1'; }
+        else if (activeScore >= 2) { activeLvl = 'A2'; }
         else { activeLvl = 'A0'; }
 
         // 3. Dynamic Calibration Engine
         let finalRank = passiveRank;
         let gapDetected = false;
 
-        if (activeScore <= 2) {
+        if (activeScore <= 4) {
             // Severe speaking anxiety or block
             finalRank = Math.max(1, passiveRank - 2); // Dial down by 2 full CEFR levels
             gapDetected = (passiveRank - finalRank) >= 1;
-        } else if (activeScore <= 5) {
+        } else if (activeScore <= 10) {
             // Moderate speaking anxiety/struggle
             finalRank = Math.max(1, passiveRank - 1); // Dial down by 1 full CEFR level
             gapDetected = (passiveRank - finalRank) >= 1;
-        } else if (activeScore >= 8 && passiveScore >= 9) {
+        } else if (activeScore >= 16 && passiveScore >= 9) {
             // Outstanding passive and active
             finalRank = 6; // C2 Proficiency
         }
@@ -962,17 +1060,17 @@
                 </div>
                 <div class="breakdown-card">
                     <div class="breakdown-title">🗣️ ${metricTitles[selectedLang].active}</div>
-                    <div class="breakdown-metric">${activeScore} / 10</div>
+                    <div class="breakdown-metric">${activeScore} / 20</div>
                     <div class="breakdown-desc">Evaluated through real-world task scenarios, speech flow speed, and anxiety checkpoints.</div>
                 </div>
             </div>
         `;
 
         // 4. Detailed Skill Diagnostic Calculation and Localization
-        const grammarPct = Math.round((grammarScore / 6) * 100);
-        const vocabPct = Math.round((vocabScore / 4) * 100);
-        const fluencyPct = Math.round((fluencyScore / 8) * 100);
-        const anxietyPct = Math.round((anxietyScore / 2) * 100);
+        const grammarPct = Math.round((grammarScore / 5) * 100);
+        const vocabPct = Math.round((vocabScore / 5) * 100);
+        const fluencyPct = Math.round((fluencyScore / 10) * 100);
+        const anxietyPct = Math.round((anxietyScore / 10) * 100);
 
         const diagnosticTranslations = {
             en: {

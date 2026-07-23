@@ -26,15 +26,20 @@ const path = require('path');
   await page.click('text=🇬🇧 English');
   await page.waitForTimeout(1000);
 
-  console.log('Answering all 10 receptive questions correctly (Option 0)...');
-  for (let i = 0; i < 10; i++) {
-    const options = page.locator('.option-btn');
-    await options.nth(0).click();
-    await page.waitForTimeout(1300);
-  }
+  console.log('Answering 2 questions incorrectly to trigger the adaptive pivot...');
+  // Q1
+  await page.locator('.option-btn').nth(2).click();
+  await page.waitForTimeout(1300);
 
-  console.log('Answering 5 active speaking questions with Option 0 (High anxiety / Freeze)...');
-  for (let i = 10; i < 15; i++) {
+  // Q2
+  await page.locator('.option-btn').nth(2).click();
+  await page.waitForTimeout(1500); // Allow calibration card to display briefly
+
+  console.log('Waiting for the adaptive calibration transition to finish...');
+  await page.waitForTimeout(4000);
+
+  console.log('Now completing the remaining 10 active speaking questions...');
+  for (let i = 10; i < 20; i++) {
     const options = page.locator('.option-btn');
     await options.nth(0).click();
     await page.waitForTimeout(1300);
