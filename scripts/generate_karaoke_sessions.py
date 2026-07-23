@@ -2220,250 +2220,599 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         warmup_questions_html += f"            <li>What kind of emotions does this style of music bring to you?</li>\n"
 
 
-    TEMPLATES_R1 = {
-        "en": [
-            "In '{title}', how does the concept of <strong>{w_lower}</strong> contribute to the overall mood created by {artist}?",
-            "Analyze how the lyric's use of <strong>{w_lower}</strong> reflects the central message of '{title}'.",
-            "How does the musical style of '{title}' enhance the emotional impact of <strong>{w_lower}</strong>?",
-            "In what way is <strong>{w_lower}</strong> connected to the main character's journey in this song?",
-            "Does the repetition of <strong>{w_lower}</strong> in the lyrics make the song more memorable or more intense?",
-            "How does {artist} use <strong>{w_lower}</strong> to create contrast with other themes in '{title}'?",
-            "If you were to translate '{title}' into another language, would <strong>{w_lower}</strong> retain its poetic depth?",
-            "What specific imagery in '{title}' helps visualize the feeling of <strong>{w_lower}</strong>?",
-            "How does the vocal delivery of {artist} emphasize the theme of <strong>{w_lower}</strong>?",
-            "In your opinion, is <strong>{w_lower}</strong> presented as a source of strength or a vulnerability in '{title}'?"
-        ],
-        "fr": [
-            "Dans '{title}', comment le concept de <strong>{w_lower}</strong> contribue-t-il à l'atmosphère générale créée par {artist} ?",
-            "Analysez comment l'utilisation de <strong>{w_lower}</strong> dans les paroles reflète le message central de '{title}'.",
-            "Comment le style musical de '{title}' renforce-t-il l'impact émotionnel de <strong>{w_lower}</strong> ?",
-            "De quelle manière <strong>{w_lower}</strong> est-il lié au parcours du personnage principal dans cette chanson ?",
-            "Est-ce que la répétition de <strong>{w_lower}</strong> dans les paroles rend la chanson plus mémorable ou plus intense ?",
-            "Comment {artist} utilise-t-il <strong>{w_lower}</strong> pour créer un contraste avec d'autres thèmes dans '{title}' ?",
-            "Si vous deviez traduire '{title}' dans une autre langue, <strong>{w_lower}</strong> conserverait-il sa profondeur poétique ?",
-            "Quelles images spécifiques dans '{title}' aident à visualiser le sentiment de <strong>{w_lower}</strong> ?",
-            "Comment l'interprétation vocale de {artist} met-elle en valeur le thème de <strong>{w_lower}</strong> ?",
-            "À votre avis, <strong>{w_lower}</strong> est-il présenté comme une source de force ou une vulnérabilité dans '{title}' ?"
-        ],
-        "it": [
-            "In '{title}', in che modo il concetto di <strong>{w_lower}</strong> contribuisce all'atmosfera creata da {artist}?",
-            "Analizza come l'uso di <strong>{w_lower}</strong> nel testo rifletta il messaggio centrale di '{title}'.",
-            "Come lo stile musical di '{title}' migliora l'impatto emotivo di <strong>{w_lower}</strong>?",
-            "In che modo <strong>{w_lower}</strong> è collegato al viaggio del protagonista in questa canzone?",
-            "La ripetizione di <strong>{w_lower}</strong> rende la canzone più memorabile?",
-            "Come {artist} usa <strong>{w_lower}</strong> per creare contrasto con altri temi in '{title}'?",
-            "Se dovessi tradurre '{title}', <strong>{w_lower}</strong> manterrebbe la sua profondità?",
-            "Quali immagini in '{title}' aiutano a visualizzare la sensazione di <strong>{w_lower}</strong>?",
-            "In che modo la voce di {artist} enfatizza il tema di <strong>{w_lower}</strong>?",
-            "Secondo te, <strong>{w_lower}</strong> è una forza o una vulnerabilità in '{title}'?"
-        ],
-        "es": [
-            "En '{title}', ¿cómo contribuye el concepto de <strong>{w_lower}</strong> a la atmósfera creada por {artist}?",
-            "Analiza cómo el uso de <strong>{w_lower}</strong> en la letra refleja el mensaje central de '{title}'.",
-            "¿Cómo mejora el estilo musical de '{title}' el impacto emocional de <strong>{w_lower}</strong>?",
-            "¿De qué manera está conectado <strong>{w_lower}</strong> con el viaje del personaje principal en esta canción?",
-            "¿La repetición de <strong>{w_lower}</strong> en la letra hace que la canción sea más memorable?",
-            "¿Cómo utiliza {artist} <strong>{w_lower}</strong> para crear contraste con otros temas en '{title}'?",
-            "Si tradujeras '{title}' a otro idioma, ¿conservaría <strong>{w_lower}</strong> su profundidad poética?",
-            "¿Qué imágenes específicas en '{title}' ayudan a visualizar el sentimiento de <strong>{w_lower}</strong>?",
-            "¿Cómo enfatiza la entrega vocal de {artist} el tema de <strong>{w_lower}</strong>?",
-            "En tu opinión, ¿se presenta <strong>{w_lower}</strong> como una fuente de fortaleza o de vulnerabilidad en '{title}'?"
-        ],
-        "ru": [
-            "Как концепт <strong>{w_lower}</strong> в песне '{title}' влияет на общую атмосферу, созданную {artist}?",
-            "Проанализируйте, как использование слова <strong>{w_lower}</strong> в тексте отражает главный посыл '{title}'.",
-            "Как музыкальный стиль песни '{title}' усиливает эмоциональное воздействие слова <strong>{w_lower}</strong>?",
-            "Каким образом <strong>{w_lower}</strong> связано с путем главного героя в этой песне?",
-            "Делает ли повторение слова <strong>{w_lower}</strong> песню более запоминающейся или интенсивной?",
-            "Как {artist} использует <strong>{w_lower}</strong> для контраста с другими темами в '{title}'?",
-            "Если бы вы перевели '{title}' на другой язык, сохранило бы слово <strong>{w_lower}</strong> свою поэтическую глубину?",
-            "Какие образы в '{title}' помогают наглядно представить чувство <strong>{w_lower}</strong>?",
-            "Как вокал {artist} подчеркивает значимость темы <strong>{w_lower}</strong>?",
-            "По вашему мнению, <strong>{w_lower}</strong> представлено в '{title}' как источник силы или как уязвимость?"
-        ],
-        "el": [
-            "Στο '{title}', πώς η έννοια <strong>{w_lower}</strong> συμβάλλει στη συνολική ατμόσφαιρα που δημιουργεί ο {artist};",
-            "Αναλύστε πώς η χρήση του <strong>{w_lower}</strong> στους στίχους αντανακλά το κεντρικό μήνυμα του '{title}'.",
-            "Πώς το μουσικό ύφος του '{title}' ενισχύει τη συναισθηματική επίδραση του <strong>{w_lower}</strong>;",
-            "Με ποιον τρόπο συνδέεται το <strong>{w_lower}</strong> με το ταξίδι του κύριου χαρακτήρα σε αυτό το τραγούδι;",
-            "Η επανάληψη του <strong>{w_lower}</strong> στους στίχους κάνει το τραγούδι πιο αξιομνημόνευτο;",
-            "Πώς χρησιμοποιεί ο {artist} το <strong>{w_lower}</strong> για να δημιουργήσει αντίθεση με άλλα θέματα στο '{title}';",
-            "Αν μεταφράζατε το '{title}', θα διατηρούσε το <strong>{w_lower}</strong> το ποιητικό του βάθος;",
-            "Ποια συγκεκριμένη εικόνα στο '{title}' βοηθά στην οπτικοποίηση του συναισθήματος του <strong>{w_lower}</strong>;",
-            "Πώς η ερμηνεία του {artist} τονίζει το θέμα του <strong>{w_lower}</strong>;",
-            "Κατά τη γνώμη σας, το <strong>{w_lower}</strong> παρουσιάζεται ως πηγή δύναμης ή αδυναμίας στο '{title}';"
-        ]
+    # Theme classifier to categorize song focuses
+    def get_theme_group(focus, slug):
+        focus_lower = focus.lower()
+        slug_lower = slug.lower()
+        if any(k in focus_lower for k in ["love", "amour", "couple", "dating", "attraction", "heartbreak", "soulmates", "destiny", "obsession", "infatuation", "ending", "lovers", "husband", "stranger", "intimacy"]) or any(k in slug_lower for k in ["love", "amour", "dating", "husband", "lovers", "stranger", "girlfriend"]):
+            return "love"
+        if any(k in focus_lower for k in ["equality", "sexisme", "solidarity", "beauty", "culture", "assimilation", "lawyer", "career", "work", "generalize", "satire", "parenting", "overachieving", "approval", "provincial", "female", "male", "solidarité", "féminine", "maternité", "social", "society", "workplace"]) or any(k in slug_lower for k in ["sexisme", "lawyer", "women", "maternal", "beauty"]):
+            return "society"
+        if any(k in focus_lower for k in ["philosophy", "identity", "discovery", "authenticity", "expression", "confidence", "freedom", "strength", "overprotected", "yourself", "worth", "pride", "estime", "indépendance", "force"]) or any(k in slug_lower for k in ["philosophie", "identity", "confidence", "freedom", "overprotected", "voila"]):
+            return "growth"
+        if any(k in focus_lower for k in ["loneliness", "loss", "sleeplessness", "nights", "melancholy", "escapism", "nostalgia", "healing", "vulnerability", "regret", "overthinking", "past", "childhood", "secrets", "solitude", "melancolie", "chagrin", "grief", "anxiety", "depression"]) or any(k in slug_lower for k in ["lonely", "loss", "melancholy", "depression", "grief", "secret", "regret"]):
+            return "emotions"
+        if any(k in focus_lower for k in ["joy", "nature", "summer", "sun", "beach", "été", "soleil", "mer", "playa", "escapism", "dreams", "rêve", "rêver"]) or any(k in slug_lower for k in ["summer", "sun", "beach", "ete", "soleil", "raggio"]):
+            return "joy_nature"
+        if any(k in focus_lower for k in ["technology", "humanity", "chaos", "survival", "battles", "joys", "freedom", "adventure", "war", "guerre", "machine"]) or any(k in slug_lower for k in ["machine", "war", "survival"]):
+            return "experience"
+        return "default"
+
+    # Category-specific template collections
+    HANDCRAFTED_TEMPLATES = {
+        "love": {
+            "en": {
+                "r1": [
+                    "How does the message of unconditional devotion in '{title}' by {artist} redefine how we understand <strong>{w_lower}</strong>?",
+                    "In '{title}', do you feel that <strong>{w_lower}</strong> is portrayed as a source of emotional strength, or does it expose a hidden vulnerability?",
+                    "Analyzing the lyrics of {artist}, how does the presence of <strong>{w_lower}</strong> contrast with the typical struggles of modern relationships?",
+                    "In what ways does '{title}' illustrate that true <strong>{w_lower}</strong> requires us to look past our partner's flaws?",
+                    "How does the musical tempo of '{title}' elevate the feeling of <strong>{w_lower}</strong> within the narrative?",
+                    "When {artist} sings about their feelings, does <strong>{w_lower}</strong> feel like a choice or an inevitable destiny?",
+                    "Does '{title}' suggest that <strong>{w_lower}</strong> can easily cross the boundary into a dangerous obsession?",
+                    "How does the imagery in the music video of '{title}' visualize the quiet comfort of <strong>{w_lower}</strong>?",
+                    "In your opinion, does the protagonist in '{title}' find peace through <strong>{w_lower}</strong>, or are they left with lingering doubts?",
+                    "How does the ending of '{title}' reframe the sacrifices we make in the name of <strong>{w_lower}</strong>?"
+                ],
+                "personal": [
+                    "★ When was the last time you experienced a deep sense of <strong>{w_lower}</strong> without needing any words?",
+                    "★ Do you agree that <strong>{w_lower}</strong> is something we must actively protect, or does it survive on its own?",
+                    "★ How has your personal perspective on <strong>{w_lower}</strong> evolved over the last five years?",
+                    "★ In your daily life, do you find it easy or difficult to show <strong>{w_lower}</strong> to those you care about?",
+                    "★ What is the biggest lesson about <strong>{w_lower}</strong> that a close friend or family member has taught you?",
+                    "★ Do you believe that modern technology has made it harder to cultivate genuine <strong>{w_lower}</strong>?",
+                    "★ How do you personally handle situations where your sense of <strong>{w_lower}</strong> is not reciprocated?",
+                    "★ If you could instantly share a wave of <strong>{w_lower}</strong> with someone today, who would it be?",
+                    "★ Do you think that <strong>{w_lower}</strong> is more about shared joy, or is it forged during difficult times?",
+                    "★ What quiet ritual or habit helps you bring more <strong>{w_lower}</strong> into your personal relationships?"
+                ],
+                "r2": [
+                    "The idealized portrayal of <strong>{w_lower}</strong> in '{title}' is a beautiful but dangerous fantasy for modern daters. Let's debate this perspective.",
+                    "Without a foundation of absolute <strong>{w_lower}</strong>, any romantic partnership is destined to crumble under societal pressure. Share your thoughts.",
+                    "{artist}'s work shows that our modern obsession with finding the perfect <strong>{w_lower}</strong> is simply a shield against being alone. Defend or oppose this.",
+                    "True <strong>{w_lower}</strong> can only exist when we are completely comfortable with our own independent lives. Discuss.",
+                    "The music of '{title}' suggests that we must be willing to lose our sense of self to fully experience <strong>{w_lower}</strong>. Do you agree?",
+                    "In the digital era, the quiet, slow development of <strong>{w_lower}</strong> has been replaced by instant gratification. Discuss.",
+                    "We cannot truly understand <strong>{w_lower}</strong> until we have experienced its opposite: heartbreak and rejection. Analyze this.",
+                    "{artist} warns us that placing too much weight on <strong>{w_lower}</strong> will always lead to self-sabotage. Share your perspective.",
+                    "The ending of '{title}' proves that some forms of <strong>{w_lower}</strong> are worth any sacrifice. How do you see this?",
+                    "If we guide our life decisions entirely by the pursuit of <strong>{w_lower}</strong>, we risk losing our professional ambitions. Discuss."
+                ]
+            },
+            "fr": {
+                "r1": [
+                    "Comment le message de dévouement inconditionnel dans '{title}' par {artist} redéfinit-il notre compréhension de <strong>{w_lower}</strong> ?",
+                    "Dans '{title}', pensez-vous que <strong>{w_lower}</strong> est présenté comme une force émotionnelle ou s'il expose une vulnérabilité cachée ?",
+                    "En analysant les paroles de {artist}, comment la présence de <strong>{w_lower}</strong> contraste-t-elle avec les difficultés des couples modernes ?",
+                    "De quelles manières '{title}' montre-t-il que le véritable <strong>{w_lower}</strong> nous pousse à accepter les défauts de l'autre ?",
+                    "Comment le tempo musical de '{title}' renforce-t-il l'expression de <strong>{w_lower}</strong> dans cette œuvre ?",
+                    "Quand {artist} chante ses sentiments, est-ce que <strong>{w_lower}</strong> semble être un choix conscient ou un destin inévitable ?",
+                    "Est-ce que '{title}' suggère que <strong>{w_lower}</strong> peut facilement se transformer en une obsession dangereuse ?",
+                    "Comment les images du clip de '{title}' illustrent-elles le réconfort silencieux de <strong>{w_lower}</strong> ?",
+                    "Selon vous, le protagoniste de '{title}' trouve-t-il la paix grâce à <strong>{w_lower}</strong>, ou reste-t-il des doutes ?",
+                    "Comment la fin de '{title}' recadre-t-elle les sacrifices que nous faisons tous au nom de <strong>{w_lower}</strong> ?"
+                ],
+                "personal": [
+                    "★ Quand avez-vous ressenti pour la dernière fois un profond sentiment de <strong>{w_lower}</strong> sans avoir besoin de mots ?",
+                    "★ Êtes-vous d'accord pour dire que <strong>{w_lower}</strong> doit être activement protégé, ou survit-il de lui-même ?",
+                    "★ Comment votre propre vision de <strong>{w_lower}</strong> a-t-elle évolué au cours des cinq dernières années ?",
+                    "★ Dans votre quotidien, trouvez-vous facile ou difficile d'exprimer <strong>{w_lower}</strong> envers vos proches ?",
+                    "★ Quelle est la plus grande leçon sur <strong>{w_lower}</strong> qu'un ami ou un membre de votre famille vous a enseignée ?",
+                    "★ Pensez-vous que les technologies modernes rendent plus difficile le développement d'un authentique <strong>{w_lower}</strong> ?",
+                    "★ Comment gérez-vous personnellement les situations où votre élan de <strong>{w_lower}</strong> n'est pas réciproque ?",
+                    "★ Si vous pouviez offrir instantanément un moment de <strong>{w_lower}</strong> à quelqu'un aujourd'hui, à qui serait-ce ?",
+                    "★ Pensez-vous que <strong>{w_lower}</strong> est plutôt synonyme de joie partagée, ou s'il se forge dans les épreuves ?",
+                    "★ Quelle habitude ou rituel simple vous aide à cultiver davantage de <strong>{w_lower}</strong> dans vos relations ?"
+                ],
+                "r2": [
+                    "La représentation idéalisée de <strong>{w_lower}</strong> dans '{title}' est une illusion magnifique mais dangereuse pour les couples d'aujourd'hui. Débattons-en.",
+                    "Sans une base solide de <strong>{w_lower}</strong>, toute relation amoureuse est vouée à s'effondrer sous la pression sociale. Qu'en pensez-vous ?",
+                    "L'œuvre de {artist} montre que notre obsession moderne à chercher le parfait <strong>{w_lower}</strong> n'est qu'un rempart contre la solitude. Qu'en dites-vous ?",
+                    "Le véritable <strong>{w_lower}</strong> ne peut exister que si nous sommes pleinement épanouis dans notre propre vie indépendante. Discutons-en.",
+                    "La musique de '{title}' suggère que nous devons être prêts à nous oublier nous-mêmes pour vivre pleinement <strong>{w_lower}</strong>. Êtes-vous d'accord ?",
+                    "À l'ère du numérique, le développement lent et silencieux de <strong>{w_lower}</strong> a été remplacé par la recherche d'une satisfaction immédiate. Débattons-en.",
+                    "On ne peut pas comprendre la beauté de <strong>{w_lower}</strong> sans avoir connu son contraire : la rupture ou le rejet. Analysez cette idée.",
+                    "{artist} nous avertit qu'accorder trop d'importance à <strong>{w_lower}</strong> mène inévitablement à l'auto-sabotage. Partagez votre avis.",
+                    "La fin de '{title}' prouve que certaines formes de <strong>{w_lower}</strong> valent tous les sacrifices. Comment voyez-vous cela ?",
+                    "Si nous prenons toutes nos décisions de vie en fonction de <strong>{w_lower}</strong>, nous risquons de sacrifier nos ambitions professionnelles. Discutons-en."
+                ]
+            }
+        },
+        "society": {
+            "en": {
+                "r1": [
+                    "How does '{title}' by {artist} expose the hidden power structures behind <strong>{w_lower}</strong> in modern society?",
+                    "In what ways does <strong>{w_lower}</strong> in '{title}' serve as a critical commentary on contemporary social expectations?",
+                    "How does the behavior of characters in '{title}' reflect the systemic challenges of <strong>{w_lower}</strong>?",
+                    "Does '{title}' offer a hopeful vision of <strong>{w_lower}</strong>, or does it suggest that social divisions are too deep to heal?",
+                    "How does {artist} use satire or drama to question our collective attitude toward <strong>{w_lower}</strong>?",
+                    "In '{title}', is the struggle for <strong>{w_lower}</strong> portrayed as an individual battle or a collective movement?",
+                    "How do the lyrics of '{title}' deconstruct the stereotypes that surround <strong>{w_lower}</strong> today?",
+                    "What role does the setting of '{title}' play in reinforcing or challenging <strong>{w_lower}</strong>?",
+                    "How does '{title}' illustrate the personal cost of conforming to societal standards of <strong>{w_lower}</strong>?",
+                    "In your opinion, does '{title}' suggest that <strong>{w_lower}</strong> is essential for a fair and just community?"
+                ],
+                "personal": [
+                    "★ How often do you notice <strong>{w_lower}</strong> affecting your interactions in your workplace or school?",
+                    "★ Have you ever had to stand up against social pressure to defend your beliefs about <strong>{w_lower}</strong>?",
+                    "★ In your daily routine, what small action do you take to promote <strong>{w_lower}</strong> in your community?",
+                    "★ Do you find that conversations about <strong>{w_lower}</strong> are generally constructive or do they lead to conflict?",
+                    "★ How has your personal experience with <strong>{w_lower}</strong> shaped your understanding of social justice?",
+                    "★ Who is the person in your life that best exemplifies the values of <strong>{w_lower}</strong>?",
+                    "★ Have you ever felt excluded or judged because of societal expectations regarding <strong>{w_lower}</strong>?",
+                    "★ If you could change one law or policy to improve <strong>{w_lower}</strong> in your country, what would it be?",
+                    "★ Do you think that younger generations have a different approach to <strong>{w_lower}</strong> than older ones?",
+                    "★ What is the biggest obstacle you face when trying to live according to your values of <strong>{w_lower}</strong>?"
+                ],
+                "r2": [
+                    "Conforming to societal expectations of <strong>{w_lower}</strong> as seen in '{title}' is the only way to succeed in a corporate environment. Let's debate.",
+                    "Without a systematic reform of our social structures, true <strong>{w_lower}</strong> will remain an unreachable ideal. Discuss.",
+                    "{artist}'s sharp critique reveals that our collective pursuit of <strong>{w_lower}</strong> often hides a deeper form of social conformity. Defend or oppose.",
+                    "In a highly competitive world, prioritizing <strong>{w_lower}</strong> is a luxury that only the privileged can afford. Let's debate.",
+                    "The narrative of '{title}' proves that we must be willing to break traditional rules to achieve genuine <strong>{w_lower}</strong>. Do you agree?",
+                    "Social media has amplified our awareness of <strong>{w_lower}</strong>, but it has also made our discussions more polarized and less empathetic. Discuss.",
+                    "We cannot achieve progress in <strong>{w_lower}</strong> without first acknowledging our own subconscious biases and privileges. Share your thoughts.",
+                    "The message of '{title}' warns us that relying on institutional systems to guarantee <strong>{w_lower}</strong> will always lead to disappointment. Discuss.",
+                    "True female solidarity and cooperation in <strong>{w_lower}</strong> are more powerful than any corporate or state-imposed hierarchy. Analyze this.",
+                    "If we prioritize social harmony over individual <strong>{w_lower}</strong>, we risk perpetuating unfair and outdated systems. Discuss."
+                ]
+            },
+            "fr": {
+                "r1": [
+                    "Comment '{title}' par {artist} expose-t-il les structures de pouvoir cachées derrière <strong>{w_lower}</strong> dans notre société ?",
+                    "De quelles manières <strong>{w_lower}</strong> dans '{title}' sert-il de commentaire critique sur les attentes sociales contemporaines ?",
+                    "Comment le comportement des personnages dans '{title}' reflète-t-il les défis systémiques de <strong>{w_lower}</strong> ?",
+                    "Est-ce que '{title}' offre une vision optimiste de <strong>{w_lower}</strong>, ou suggère-t-il que les divisions sociales sont trop profondes ?",
+                    "Comment {artist} utilise-t-il la satire ou le drame pour remettre en question notre attitude collective envers <strong>{w_lower}</strong> ?",
+                    "Dans '{title}', la lutte pour <strong>{w_lower}</strong> est-elle présentée comme un combat individuel ou un mouvement collectif ?",
+                    "Comment les paroles de '{title}' déconstruisent-elles les stéréotypes qui entourent <strong>{w_lower}</strong> aujourd'hui ?",
+                    "Quel rôle le décor de '{title}' joue-t-il dans le renforcement ou la remise en question de <strong>{w_lower}</strong> ?",
+                    "Comment '{title}' illustre-t-il le coût personnel de la conformité aux normes sociétales de <strong>{w_lower}</strong> ?",
+                    "À votre avis, '{title}' suggère-t-il que <strong>{w_lower}</strong> est indispensable pour bâtir une communauté juste ?"
+                ],
+                "personal": [
+                    "★ À quelle fréquence remarquez-vous l'impact de <strong>{w_lower}</strong> sur vos interactions au travail ou à l'école ?",
+                    "★ Avez-vous déjà dû vous opposer à la pression sociale pour défendre vos convictions sur <strong>{w_lower}</strong> ?",
+                    "★ Dans votre quotidien, quel geste simple posez-vous pour encourager <strong>{w_lower}</strong> autour de vous ?",
+                    "★ Trouvez-vous que les discussions sur <strong>{w_lower}</strong> sont constructives ou mènent-elles souvent à des conflits ?",
+                    "★ Comment votre propre expérience de <strong>{w_lower}</strong> a-t-elle façonné votre vision de la justice sociale ?",
+                    "★ Quelle personne dans votre entourage incarne le mieux les valeurs de <strong>{w_lower}</strong> ?",
+                    "★ Vous êtes-vous déjà senti exclu ou jugé en raison des attentes de la société concernant <strong>{w_lower}</strong> ?",
+                    "★ Si vous pouviez modifier une loi pour améliorer <strong>{w_lower}</strong> dans votre pays, quelle serait-elle ?",
+                    "★ Pensez-vous que les jeunes générations ont une approche de <strong>{w_lower}</strong> différente de celle de leurs aînés ?",
+                    "★ Quel est le plus grand obstacle auquel vous faites face pour vivre en accord avec vos valeurs de <strong>{w_lower}</strong> ?"
+                ],
+                "r2": [
+                    "Se conformer aux attentes sociales de <strong>{w_lower}</strong> comme dans '{title}' est l'unique moyen de réussir professionnellement. Débattons-en.",
+                    "Sans une réforme profonde de nos structures sociales, le véritable <strong>{w_lower}</strong> restera un idéal inaccessible. Qu'en pensez-vous ?",
+                    "La critique de {artist} révèle que notre recherche collective de <strong>{w_lower}</strong> cache souvent un conformisme social plus profond. Partagez votre avis.",
+                    "Dans un monde ultra-compétitif, donner la priorité à <strong>{w_lower}</strong> est un luxe que seuls les privilégiés peuvent s'offrir. Débattons-en.",
+                    "L'histoire de '{title}' prouve que nous devons briser les règles traditionnelles pour obtenir un authentique <strong>{w_lower}</strong>. Êtes-vous d'accord ?",
+                    "Les réseaux sociaux ont accru notre conscience de <strong>{w_lower}</strong>, mais ils ont aussi rendu nos débats plus polarisés. Discutons-en.",
+                    "Nous ne pourrons progresser vers <strong>{w_lower}</strong> sans d'abord reconnaître nos propres biais inconscients et privilèges. Qu'en dites-vous ?",
+                    "Le message de '{title}' nous avertit que compter sur les institutions pour garantir <strong>{w_lower}</strong> mène toujours à la déception. Débattons-en.",
+                    "La solidarité féminine et l'entraide face à <strong>{w_lower}</strong> sont plus puissantes que n'importe quelle hiérarchie imposée. Analysez cette idée.",
+                    "Si nous privilégions l'harmonie sociale au détriment de l'expression individuelle de <strong>{w_lower}</strong>, nous perpétuons des injustices. Discutons-en."
+                ]
+            }
+        },
+        "growth": {
+            "en": {
+                "r1": [
+                    "How does the journey of self-discovery in '{title}' by {artist} redefine what it means to achieve <strong>{w_lower}</strong>?",
+                    "In '{title}', does the pursuit of <strong>{w_lower}</strong> feel like a struggle against outer rules or an inner conflict?",
+                    "How does {artist} use the lyrics of '{title}' to highlight the importance of personal <strong>{w_lower}</strong>?",
+                    "Does '{title}' suggest that <strong>{w_lower}</strong> is something we can find alone, or do we need others to grow?",
+                    "How does the musical style of '{title}' enhance the message of strength and <strong>{w_lower}</strong>?",
+                    "In '{title}', is <strong>{w_lower}</strong> presented as a sudden breakthrough or a slow, painful process?",
+                    "How does {artist} challenge traditional views of success and <strong>{w_lower}</strong> in this song?",
+                    "What role does vulnerability play in allowing the main character to achieve <strong>{w_lower}</strong> in '{title}'?",
+                    "How do the lyrics of '{title}' show that <strong>{w_lower}</strong> requires us to confront our deepest fears?",
+                    "In your opinion, is <strong>{w_lower}</strong> the ultimate goal of the character's journey in '{title}'?"
+                ],
+                "personal": [
+                    "★ What is a personal goal or dream that has driven your own <strong>{w_lower}</strong> over the past year?",
+                    "★ Have you ever had to step out of your comfort zone to find your own <strong>{w_lower}</strong>?",
+                    "★ Do you find that quiet reflection or active action helps you grow in <strong>{w_lower}</strong>?",
+                    "★ What is the most difficult challenge you have faced that ultimately built your <strong>{w_lower}</strong>?",
+                    "★ Who is the mentor or teacher who has influenced your personal <strong>{w_lower}</strong> the most?",
+                    "★ Do you believe that mistakes are essential for our personal <strong>{w_lower}</strong>, or can they be avoided?",
+                    "★ How do you personally balance your desire for <strong>{w_lower}</strong> with your daily responsibilities?",
+                    "★ If you could write a letter to your younger self about <strong>{w_lower}</strong>, what advice would you give?",
+                    "★ Does your current environment support your personal <strong>{w_lower}</strong>, or does it restrict it?",
+                    "★ What daily habit or practice helps you maintain your focus on personal <strong>{w_lower}</strong>?"
+                ],
+                "r2": [
+                    "The search for absolute <strong>{w_lower}</strong> in '{title}' is an exhausting quest that often leads to isolation. Discuss.",
+                    "Without a willingness to embrace our own flaws, true personal <strong>{w_lower}</strong> is completely impossible. Share your thoughts.",
+                    "{artist}'s song suggests that society's expectations are the greatest obstacle to our personal <strong>{w_lower}</strong>. Defend or oppose.",
+                    "True <strong>{w_lower}</strong> can only be achieved when we completely stop caring about the approval of others. Let's debate.",
+                    "The ending of '{title}' proves that our personal <strong>{w_lower}</strong> is worth losing friends and breaking connections for. Do you agree?",
+                    "Modern culture focuses too much on instant success rather than the slow, quiet journey of <strong>{w_lower}</strong>. Discuss.",
+                    "We cannot find genuine <strong>{w_lower}</strong> without first experiencing moments of deep failure and doubt. Analyze this.",
+                    "{artist} warns us that focusing too much on our own <strong>{w_lower}</strong> can make us selfish and blind to others' needs. Share your perspective.",
+                    "The ultimate test of our <strong>{w_lower}</strong> is how we treat those who cannot offer us anything in return. Discuss.",
+                    "If we guide our life decisions entirely by our desire for personal <strong>{w_lower}</strong>, we risk never finding stability. Discuss."
+                ]
+            },
+            "fr": {
+                "r1": [
+                    "Comment le parcours de découverte de soi dans '{title}' par {artist} redéfinit-il notre vision de <strong>{w_lower}</strong> ?",
+                    "Dans '{title}', la recherche de <strong>{w_lower}</strong> ressemble-t-elle à une lutte contre l'extérieur ou à un conflit intérieur ?",
+                    "Comment {artist} utilise-t-il les paroles de '{title}' pour souligner l'importance de <strong>{w_lower}</strong> ?",
+                    "Est-ce que '{title}' suggère que <strong>{w_lower}</strong> se trouve seul, ou avons-nous besoin des autres pour grandir ?",
+                    "Comment le style musical de '{title}' renforce-t-il le message de force et de <strong>{w_lower}</strong> ?",
+                    "Dans '{title}', <strong>{w_lower}</strong> est-il présenté comme une révélation soudaine ou un processus lent et douloureux ?",
+                    "Comment {artist} remet-il en question les visions traditionnelles de la réussite et de <strong>{w_lower}</strong> dans cette chanson ?",
+                    "Quel rôle joue la vulnérabilité dans la capacité du personnage à atteindre <strong>{w_lower}</strong> dans '{title}' ?",
+                    "Comment les paroles de '{title}' montrent-elles que <strong>{w_lower}</strong> exige de faire face à nos peurs profondes ?",
+                    "À votre avis, <strong>{w_lower}</strong> est-il le but ultime du voyage du personnage dans '{title}' ?"
+                ],
+                "personal": [
+                    "★ Quel objectif personnel a le plus stimulé votre propre <strong>{w_lower}</strong> au cours de l'année écoulée ?",
+                    "★ Avez-vous déjà dû sortir de votre zone de confort pour affirmer votre <strong>{w_lower}</strong> ?",
+                    "★ Trouvez-vous que la réflexion calme ou l'action directe vous aide le plus à progresser en <strong>{w_lower}</strong> ?",
+                    "★ Quel est le défi le plus difficile que vous ayez surmonté et qui a forgé votre <strong>{w_lower}</strong> ?",
+                    "★ Quel mentor ou enseignant a le plus influencé votre propre <strong>{w_lower}</strong> ?",
+                    "★ Pensez-vous que les erreurs soient indispensables à notre <strong>{w_lower}</strong>, ou peuvent-elles être évitées ?",
+                    "★ Comment conciliez-vous personnellement votre désir de <strong>{w_lower}</strong> avec vos obligations quotidiennes ?",
+                    "★ Si vous pouviez écrire à votre passé au sujet de <strong>{w_lower}</strong>, quel conseil vous donneriez-vous ?",
+                    "★ Votre entourage actuel encourage-t-il votre <strong>{w_lower}</strong> personnel, ou a-t-il tendance à le freiner ?",
+                    "★ Quelle habitude ou pratique quotidienne vous aide à rester concentré sur votre <strong>{w_lower}</strong> ?"
+                ],
+                "r2": [
+                    "La recherche absolue de <strong>{w_lower}</strong> dans '{title}' est une quête épuisante qui mène souvent à l'isolement. Débattons-en.",
+                    "Sans une volonté sincère d'accepter nos propres failles, un véritable <strong>{w_lower}</strong> est impossible. Qu'en pensez-vous ?",
+                    "La chanson de {artist} suggère que les attentes de la société sont le principal obstacle à notre <strong>{w_lower}</strong>. Partagez votre avis.",
+                    "Le véritable <strong>{w_lower}</strong> ne s'obtient que lorsqu'on cesse totalement de se soucier de l'approbation d'autrui. Débattons-en.",
+                    "La fin de '{title}' prouve que notre <strong>{w_lower}</strong> mérite que l'on brise des liens et que l'on s'isole. Êtes-vous d'accord ?",
+                    "La culture moderne valorise trop le succès instantané au détriment du cheminement lent et discret de <strong>{w_lower}</strong>. Discutons-en.",
+                    "Nous ne pouvons trouver un authentique <strong>{w_lower}</strong> sans passer d'abord par des moments d'échec et de doute. Qu'en dites-vous ?",
+                    "{artist} nous avertit que trop se focaliser sur son propre <strong>{w_lower}</strong> peut nous rendre égoïstes. Partagez votre avis.",
+                    "L'épreuve ultime de notre <strong>{w_lower}</strong> est la manière dont nous traitons ceux qui ne peuvent rien nous apporter. Discutons-en.",
+                    "Si nous guidons tous nos choix par le seul désir de <strong>{w_lower}</strong>, nous risquons de ne jamais trouver de stabilité. Discutons-en."
+                ]
+            }
+        },
+        "emotions": {
+            "en": {
+                "r1": [
+                    "How does '{title}' by {artist} capture the quiet burden of <strong>{w_lower}</strong> when facing difficult times?",
+                    "In '{title}', do you feel that <strong>{w_lower}</strong> is portrayed as an inescapable trap, or does a path to healing exist?",
+                    "Analyzing the emotional depth of {artist}, how does <strong>{w_lower}</strong> shape the tone of this song?",
+                    "In what ways does '{title}' illustrate that confronting <strong>{w_lower}</strong> is necessary to find peace?",
+                    "How does the musical melody of '{title}' reflect the heavy feeling of <strong>{w_lower}</strong>?",
+                    "When {artist} sings, does the expression of <strong>{w_lower}</strong> feel like a cry for help or a silent acceptance?",
+                    "Does '{title}' suggest that we can find comfort in <strong>{w_lower}</strong>, or does it always bring pain?",
+                    "How does the imagery in '{title}' visualize the invisible scars left by <strong>{w_lower}</strong>?",
+                    "In your opinion, does the protagonist in '{title}' overcome their <strong>{w_lower}</strong>, or is it left unresolved?",
+                    "How does '{title}' help us understand the universal human experience of <strong>{w_lower}</strong>?"
+                ],
+                "personal": [
+                    "★ How do you personally cope when you feel a wave of <strong>{w_lower}</strong> in your daily life?",
+                    "★ Have you ever found a surprising source of strength while dealing with <strong>{w_lower}</strong>?",
+                    "★ Do you find it easier to express <strong>{w_lower}</strong> through art, music, or quiet conversation?",
+                    "★ What is the most comforting thing someone can do for you when you are feeling <strong>{w_lower}</strong>?",
+                    "★ How has your personal way of handling <strong>{w_lower}</strong> changed as you have grown older?",
+                    "★ Do you believe that sharing our <strong>{w_lower}</strong> makes us feel more connected or more vulnerable?",
+                    "★ Is there a specific place or activity that always helps you heal from <strong>{w_lower}</strong>?",
+                    "★ If you could offer comfort to a friend who is quietly struggling with <strong>{w_lower}</strong>, what would you say?",
+                    "★ Do you think that society encourages us to hide our <strong>{w_lower}</strong> rather than talk about it?",
+                    "★ What is the most important lesson you have learned about emotional resilience through <strong>{w_lower}</strong>?"
+                ],
+                "r2": [
+                    "The heavy portrayal of <strong>{w_lower}</strong> in '{title}' shows that some emotional wounds never truly heal. Let's debate.",
+                    "Without a willingness to feel our own <strong>{w_lower}</strong>, we can never experience true joy and recovery. Discuss.",
+                    "{artist}'s work proves that art is the only genuine way to transform <strong>{w_lower}</strong> into something beautiful. Defend or oppose.",
+                    "True healing from <strong>{w_lower}</strong> can only begin when we stop looking for answers outside of ourselves. Discuss.",
+                    "The music of '{title}' suggests that some feelings of <strong>{w_lower}</strong> are too deep to ever be fully shared with others. Do you agree?",
+                    "Modern life is too busy and distracted, leaving us no time to process our quiet <strong>{w_lower}</strong>. Discuss.",
+                    "We cannot truly appreciate the presence of others until we have known the absolute quiet of <strong>{w_lower}</strong>. Analyze this.",
+                    "{artist} warns us that escaping from our <strong>{w_lower}</strong> through quick distractions will only prolong our suffering. Share your view.",
+                    "The ending of '{title}' shows that accepting our own <strong>{w_lower}</strong> is the first step toward emotional freedom. Discuss.",
+                    "If we let ourselves be fully guided by our feelings of <strong>{w_lower}</strong>, we risk losing our connection to daily reality. Discuss."
+                ]
+            },
+            "fr": {
+                "r1": [
+                    "Comment '{title}' par {artist} capture-t-il le fardeau silencieux de <strong>{w_lower}</strong> face aux épreuves ?",
+                    "Dans '{title}', pensez-vous que <strong>{w_lower}</strong> est dépeint comme un piège inévitable, ou existe-t-il un chemin de guérison ?",
+                    "En analysant la profondeur de {artist}, comment <strong>{w_lower}</strong> façonne-t-il la tonalité de cette chanson ?",
+                    "De quelles manières '{title}' montre-t-il que faire face à <strong>{w_lower}</strong> est indispensable pour trouver la paix ?",
+                    "Comment la mélodie de '{title}' reflète-t-elle la lourdeur associée à <strong>{w_lower}</strong> ?",
+                    "Quand {artist} chante, l'expression de <strong>{w_lower}</strong> ressemble-t-elle à un appel à l'aide ou à une acceptation silencieuse ?",
+                    "Est-ce que '{title}' suggère que l'on peut trouver du réconfort dans <strong>{w_lower}</strong>, ou apporte-t-il toujours de la douleur ?",
+                    "Comment les images de '{title}' visualisent-elles les cicatrices invisibles laissées par <strong>{w_lower}</strong> ?",
+                    "Selon vous, le protagoniste de '{title}' surmonte-t-il son <strong>{w_lower}</strong>, ou la situation reste-t-elle en suspens ?",
+                    "Comment '{title}' nous aide-t-il à comprendre l'expérience humaine universelle de <strong>{w_lower}</strong> ?"
+                ],
+                "personal": [
+                    "★ Comment gérez-vous personnellement les moments où vous ressentez un élan de <strong>{w_lower}</strong> ?",
+                    "★ Avez-vous déjà trouvé une source de force inattendue en faisant face à <strong>{w_lower}</strong> ?",
+                    "★ Trouvez-vous plus facile d'exprimer <strong>{w_lower}</strong> à travers l'art, la musique ou une conversation intime ?",
+                    "★ Quel est le geste le plus réconfortant qu'un proche puisse poser lorsque vous vivez <strong>{w_lower}</strong> ?",
+                    "★ Comment votre manière de gérer <strong>{w_lower}</strong> a-t-elle évolué avec les années ?",
+                    "★ Pensez-vous que partager notre <strong>{w_lower}</strong> nous rapproche des autres ou nous fragilise ?",
+                    "★ Existe-t-il un lieu ou une activité qui vous aide systématiquement à guérir de <strong>{w_lower}</strong> ?",
+                    "★ Si vous deviez réconforter un ami qui traverse silencieusement une période de <strong>{w_lower}</strong>, que lui diriez-vous ?",
+                    "★ Pensez-vous que notre société nous pousse à masquer notre <strong>{w_lower}</strong> plutôt qu'à l'exprimer ?",
+                    "★ Quelle est la leçon la plus précieuse que vous ayez tirée de <strong>{w_lower}</strong> en matière de résilience ?"
+                ],
+                "r2": [
+                    "La description pesante de <strong>{w_lower}</strong> dans '{title}' démontre que certaines blessures ne guérissent jamais tout à fait. Débattons-en.",
+                    "Sans une volonté d'affronter notre propre <strong>{w_lower}</strong>, nous ne pourrons jamais connaître de vraie joie. Qu'en pensez-vous ?",
+                    "L'œuvre de {artist} prouve que l'art est le seul moyen de transformer <strong>{w_lower}</strong> en quelque chose de magnifique. Partagez votre avis.",
+                    "La vraie guérison de <strong>{w_lower}</strong> commence quand nous cessons de chercher des réponses à l'extérieur de nous-mêmes. Discutons-en.",
+                    "La musique de '{title}' suggère que certains sentiments de <strong>{w_lower}</strong> sont trop intimes pour être partagés. Êtes-vous d'accord ?",
+                    "La vie moderne, trop rapide et distraite, ne nous laisse aucun temps pour digérer nos moments de <strong>{w_lower}</strong>. Débattons-en.",
+                    "We ne pouvons pas apprécier pleinement la présence des autres sans avoir connu le silence absolu de <strong>{w_lower}</strong>. Analyse cette idée.",
+                    "{artist} nous avertit que fuir notre <strong>{w_lower}</strong> par des distractions ne fait que prolonger notre souffrance. Partagez votre avis.",
+                    "La fin de '{title}' montre que l'acceptation de notre propre <strong>{w_lower}</strong> est le premier pas vers la liberté émotionnelle. Discutons-en.",
+                    "Si nous nous laissons entièrement guider par nos sentiments de <strong>{w_lower}</strong>, nous risquons de perdre pied avec la réalité. Discutons-en."
+                ]
+            }
+        },
+        "joy_nature": {
+            "en": {
+                "r1": [
+                    "How does the bright, open atmosphere of '{title}' by {artist} amplify the feeling of <strong>{w_lower}</strong>?",
+                    "In '{title}', how is the beauty of nature connected to the character's sense of <strong>{w_lower}</strong>?",
+                    "Analyzing the performance of {artist}, how does <strong>{w_lower}</strong> serve as the driving energy of the song?",
+                    "In what ways does '{title}' show that simple moments can bring us a profound feeling of <strong>{w_lower}</strong>?",
+                    "How does the musical rhythm of '{title}' convey the lightness and freedom of <strong>{w_lower}</strong>?",
+                    "When {artist} sings about their experiences, does <strong>{w_lower}</strong> feel like a natural state or a hard-earned escape?",
+                    "Does '{title}' suggest that we can find true <strong>{w_lower}</strong> by reconnecting with our natural surroundings?",
+                    "How does the visual imagery of '{title}' capture the warmth and vibrance of <strong>{w_lower}</strong>?",
+                    "In your opinion, is the joy in '{title}' purely temporary, or does it leave a lasting trace of <strong>{w_lower}</strong>?",
+                    "How does '{title}' celebrate the beauty of everyday moments through the lens of <strong>{w_lower}</strong>?"
+                ],
+                "personal": [
+                    "★ What natural setting or outdoor activity always brings you a sense of <strong>{w_lower}</strong>?",
+                    "★ Do you find it easier to feel <strong>{w_lower}</strong> during a specific season of the year?",
+                    "★ Have you ever experienced a sudden, unexpected moment of <strong>{w_lower}</strong> while walking outdoors?",
+                    "★ How do you personally try to bring more warmth and <strong>{w_lower}</strong> into your home environment?",
+                    "★ What is a beautiful childhood memory you have that represents the idea of <strong>{w_lower}</strong>?",
+                    "★ Do you believe that spending time in nature is necessary to maintain our mental <strong>{w_lower}</strong>?",
+                    "★ Who is the person in your life that you most associate with lightheartedness and <strong>{w_lower}</strong>?",
+                    "★ If you could plan a perfect day to celebrate <strong>{w_lower}</strong>, what would you do and where would you go?",
+                    "★ How does your daily environment influence your ability to experience simple <strong>{w_lower}</strong>?",
+                    "★ What is the most beautiful sound in nature that always restores your sense of <strong>{w_lower}</strong>?"
+                ],
+                "r2": [
+                    "The cheerful focus on <strong>{w_lower}</strong> in '{title}' is an oversimplified view of life that ignores our real struggles. Discuss.",
+                    "Without an active efforts to connect with nature, modern humans can never achieve genuine <strong>{w_lower}</strong>. Share your thoughts.",
+                    "{artist}'s bright music proves that simple, quiet joys are far more valuable than complex achievements in <strong>{w_lower}</strong>. Defend or oppose.",
+                    "True <strong>{w_lower}</strong> can only be sustained when we share it with a community, rather than experiencing it alone. Discuss.",
+                    "The rhythm of '{title}' suggests that we must live entirely in the present moment to fully capture <strong>{w_lower}</strong>. Do you agree?",
+                    "Modern urban architecture is too sterile, making it extremely difficult to feel the natural <strong>{w_lower}</strong>. Discuss.",
+                    "We cannot find lasting <strong>{w_lower}</strong> until we learn to appreciate the minor, quiet changes of seasons. Analyze this.",
+                    "{artist} reminds us that the best forms of <strong>{w_lower}</strong> are completely free and accessible to everyone. Share your view.",
+                    "The ending of '{title}' shows that a single ray of <strong>{w_lower}</strong> can carry us through the coldest seasons of life. Discuss.",
+                    "If we prioritize our career goals over our need for natural rest and <strong>{w_lower}</strong>, we compromise our health. Discuss."
+                ]
+            },
+            "fr": {
+                "r1": [
+                    "Comment l'atmosphère lumineuse de '{title}' par {artist} amplifie-t-elle le sentiment de <strong>{w_lower}</strong> ?",
+                    "Dans '{title}', comment la beauté de la nature est-elle liée au sentiment de <strong>{w_lower}</strong> du personnage ?",
+                    "En analysant la performance de {artist}, comment <strong>{w_lower}</strong> sert-il d'énergie motrice à la chanson ?",
+                    "De quelles manières '{title}' montre-t-il que des moments simples peuvent apporter un profond sentiment de <strong>{w_lower}</strong> ?",
+                    "Comment le rythme musical de '{title}' transmet-il la légèreté et la liberté de <strong>{w_lower}</strong> ?",
+                    "Quand {artist} chante ses expériences, est-ce que <strong>{w_lower}</strong> semble être un état naturel ou une échappatoire durement gagnée ?",
+                    "Est-ce que '{title}' suggère que l'on peut trouver le véritable <strong>{w_lower}</strong> en renouant avec notre environnement naturel ?",
+                    "Comment l'imagerie visuelle de '{title}' capture-t-elle la chaleur et la vibration de <strong>{w_lower}</strong> ?",
+                    "Selon vous, la joie dans '{title}' est-elle purement passagère, ou laisse-t-elle une trace durable de <strong>{w_lower}</strong> ?",
+                    "Comment '{title}' célèbre-t-il la beauté des instants quotidiens à travers le prisme de <strong>{w_lower}</strong> ?"
+                ],
+                "personal": [
+                    "★ Quel cadre naturel ou activité de plein air vous apporte toujours un sentiment de <strong>{w_lower}</strong> ?",
+                    "★ Trouvez-vous plus facile de ressentir <strong>{w_lower}</strong> pendant une saison spécifique de l'année ?",
+                    "★ Avez-vous déjà vécu un moment soudain et inattendu de <strong>{w_lower}</strong> en vous promenant dehors ?",
+                    "★ Comment essayez-vous personnellement d'apporter plus de chaleur et de <strong>{w_lower}</strong> dans votre foyer ?",
+                    "★ Quel est votre plus beau souvenir d'enfance qui représente l'idée de <strong>{w_lower}</strong> ?",
+                    "★ Pensez-vous que passer du temps dans la nature est indispensable pour maintenir notre <strong>{w_lower}</strong> mental ?",
+                    "★ Quelle personne associez-vous le plus à l'insouciance et à <strong>{w_lower}</strong> dans votre vie ?",
+                    "★ Si vous deviez planifier une journée idéale pour célébrer <strong>{w_lower}</strong>, que feriez-vous ?",
+                    "★ Comment votre cadre de vie quotidien influence-t-il votre capacité à vivre de simples moments de <strong>{w_lower}</strong> ?",
+                    "★ Quel est le plus beau son de la nature qui restaure toujours votre sentiment de <strong>{w_lower}</strong> ?"
+                ],
+                "r2": [
+                    "La focalisation joyeuse sur <strong>{w_lower}</strong> dans '{title}' est une vision simpliste de la vie qui ignore nos luttes réelles. Débattons-en.",
+                    "Sans un effort actif pour se connecter à la nature, l'homme moderne ne peut atteindre un authentique <strong>{w_lower}</strong>. Qu'en pensez-vous ?",
+                    "La musique lumineuse de {artist} prouve que les joies simples sont bien plus précieuses que les grandes réussites de <strong>{w_lower}</strong>. Partagez votre avis.",
+                    "Le véritable <strong>{w_lower}</strong> ne peut être durable que s'il est partagé avec une communauté. Discutons-en.",
+                    "Le rythme de '{title}' suggère que nous devons vivre entièrement dans l'instant présent pour capter <strong>{w_lower}</strong>. Êtes-vous d'accord ?",
+                    "L'architecture urbaine moderne est trop stérile, ce qui rend difficile le ressenti de <strong>{w_lower}</strong>. Débattons-en.",
+                    "Nous ne pourrons trouver de <strong>{w_lower}</strong> durable tant que nous n'aurons pas appris à apprécier les changements discrets des saisons. Analyse cette idée.",
+                    "{artist} nous rappelle que les meilleures formes de <strong>{w_lower}</strong> sont gratuites et accessibles à tous. Partagez votre avis.",
+                    "La fin de '{title}' démontre qu'un seul rayon de <strong>{w_lower}</strong> peut nous porter à travers les saisons les plus froides. Discutons-en.",
+                    "Si nous privilégions nos objectifs de carrière au détriment de notre besoin de repos naturel et de <strong>{w_lower}</strong>, nous compromettons notre santé. Discutons-en."
+                ]
+            }
+        },
+        "experience": {
+            "en": {
+                "r1": [
+                    "How does the clash between technology and humanity in '{title}' by {artist} change how we think about <strong>{w_lower}</strong>?",
+                    "In '{title}', does the presence of <strong>{w_lower}</strong> represent a danger to our human connections or a new tool?",
+                    "Analyzing the powerful lyrics of {artist}, how does <strong>{w_lower}</strong> shape the character's emotional survival?",
+                    "In what ways does '{title}' illustrate that navigating a chaotic world requires a strong sense of <strong>{w_lower}</strong>?",
+                    "How does the mechanical or high-tempo beat of '{title}' reflect the pressure of <strong>{w_lower}</strong>?",
+                    "When {artist} sings about their experiences, does <strong>{w_lower}</strong> feel like a modern trap or a path to freedom?",
+                    "Does '{title}' suggest that we are losing our ability to feel genuine <strong>{w_lower}</strong> by relying too much on screens?",
+                    "How does the visual directing of '{title}' show the contrast between cold machines and warm <strong>{w_lower}</strong>?",
+                    "In your opinion, does '{title}' offer a warning about the future of <strong>{w_lower}</strong> in our digital lives?",
+                    "How can we preserve our personal values of <strong>{w_lower}</strong> in a hyper-digitized society like the one in '{title}'?"
+                ],
+                "personal": [
+                    "★ How much do you think digital devices and screens influence your daily experience of <strong>{w_lower}</strong>?",
+                    "★ Have you ever felt a strong need to disconnect from technology to find your own <strong>{w_lower}</strong>?",
+                    "★ Do you find it easier or more difficult to maintain your sense of <strong>{w_lower}</strong> in a busy, chaotic city?",
+                    "★ What is a digital habit or routine that you feel is actively harming your <strong>{w_lower}</strong>?",
+                    "★ How has your personal relationship with technology and <strong>{w_lower}</strong> changed over the last ten years?",
+                    "★ Do you believe that virtual interactions can ever replace face-to-face <strong>{w_lower}</strong>?",
+                    "★ What is the most important lesson you have learned about staying grounded in <strong>{w_lower}</strong> today?",
+                    "★ If you had to spend a whole week completely offline, what would you miss most about your <strong>{w_lower}</strong>?",
+                    "★ How do you personally handle situations where modern notifications disrupt your quiet <strong>{w_lower}</strong>?",
+                    "★ What specific digital rule or boundary helps you protect your personal <strong>{w_lower}</strong>?"
+                ],
+                "r2": [
+                    "The fast-paced rise of technology as shown in '{title}' makes the preservation of <strong>{w_lower}</strong> completely impossible. Discuss.",
+                    "Without a conscious effort to set boundaries with screens, we will lose our capacity for genuine <strong>{w_lower}</strong>. Share your thoughts.",
+                    "{artist}'s work warns us that our digital tools are designed to exploit our need for <strong>{w_lower}</strong>. Defend or oppose.",
+                    "True <strong>{w_lower}</strong> can only exist in the physical, tangible world, rendering digital connections artificial. Let's debate.",
+                    "The story of '{title}' proves that we must be willing to embrace a simpler life to protect our core <strong>{w_lower}</strong>. Do you agree?",
+                    "Artificial intelligence will eventually be able to understand and simulate human <strong>{w_lower}</strong> perfectly. Discuss.",
+                    "We cannot survive the modern chaotic world without first building a strong, internal sanctuary of <strong>{w_lower}</strong>. Analyze this.",
+                    "{artist} warns us that our modern obsession with digital speed is destroying the slow, quiet beauty of <strong>{w_lower}</strong>. Share your view.",
+                    "The ending of '{title}' suggests that despite the pressure of machines, the human heart of <strong>{w_lower}</strong> will always find a way. Discuss.",
+                    "If we prioritize technological efficiency over human connection and <strong>{w_lower}</strong>, we risk creating a sterile society. Discuss."
+                ]
+            },
+            "fr": {
+                "r1": [
+                    "Comment le conflit entre technologie et humanité dans '{title}' par {artist} modifie-t-il notre vision de <strong>{w_lower}</strong> ?",
+                    "Dans '{title}', la présence de <strong>{w_lower}</strong> représente-t-elle un danger pour nos relations ou un nouvel outil ?",
+                    "En analysant les paroles puissantes de {artist}, comment <strong>{w_lower}</strong> façonne-t-il la survie émotionnelle du personnage ?",
+                    "De quelles manières '{title}' montre-t-il que naviguer dans un monde chaotique exige un sens aigu de <strong>{w_lower}</strong> ?",
+                    "Comment le rythme mécanique ou rapide de '{title}' reflète-t-il la pression de <strong>{w_lower}</strong> ?",
+                    "Quand {artist} chante ses expériences, est-ce que <strong>{w_lower}</strong> ressemble à un piège moderne ou à une voie de liberté ?",
+                    "Est-ce que '{title}' suggère que nous perdons notre capacité à ressentir un authentique <strong>{w_lower}</strong> à force de dépendre des écrans ?",
+                    "Comment la réalisation visuelle de '{title}' montre-t-elle le contraste entre machines froides et chaleur de <strong>{w_lower}</strong> ?",
+                    "Selon vous, '{title}' offre-t-il une mise en garde sur l'avenir de <strong>{w_lower}</strong> dans nos vies numériques ?",
+                    "Comment pouvons-nous préserver nos valeurs de <strong>{w_lower}</strong> dans une société hyper-connectée comme celle de '{title}' ?"
+                ],
+                "personal": [
+                    "★ À quel point pensez-vous que les appareils numériques influencent votre expérience quotidienne de <strong>{w_lower}</strong> ?",
+                    "★ Avez-vous déjà ressenti le besoin pressant de vous déconnecter pour retrouver votre propre <strong>{w_lower}</strong> ?",
+                    "★ Trouvez-vous plus facile ou plus difficile de maintenir votre <strong>{w_lower}</strong> dans une ville agitée et chaotique ?",
+                    "★ Quelle habitude numérique vous semble nuire activement à votre <strong>{w_lower}</strong> ?",
+                    "★ Comment votre relation personnelle avec la technologie et <strong>{w_lower}</strong> a-t-elle évolué ces dix dernières années ?",
+                    "★ Pensez-vous que les interactions virtuelles puissent un jour remplacer un authentique <strong>{w_lower}</strong> en face à face ?",
+                    "★ Quelle est la leçon la plus importante que vous ayez apprise pour rester ancré dans <strong>{w_lower}</strong> aujourd'hui ?",
+                    "★ Si vous deviez passer une semaine entière hors ligne, qu'est-ce qui vous manquerait le plus concernant votre <strong>{w_lower}</strong> ?",
+                    "★ Comment gérez-vous les situations où les notifications perturbent vos moments de calme et de <strong>{w_lower}</strong> ?",
+                    "★ Quelle règle numérique stricte vous aide à protéger votre <strong>{w_lower}</strong> personnel ?"
+                ],
+                "r2": [
+                    "La montée rapide de la technologie montrée dans '{title}' rend la préservation de <strong>{w_lower}</strong> impossible. Débattons-en.",
+                    "Sans un effort conscient pour fixer des limites avec les écrans, nous perdrons notre capacité d'un authentique <strong>{w_lower}</strong>. Qu'en pensez-vous ?",
+                    "L'œuvre de {artist} nous avertit que nos outils numériques sont conçus pour exploiter notre besoin de <strong>{w_lower}</strong>. Partagez votre avis.",
+                    "Le vrai <strong>{w_lower}</strong> ne peut exister que dans le monde physique, ce qui rend les relations virtuelles superficielles. Débattons-en.",
+                    "L'histoire de '{title}' prouve que nous devons accepter une vie plus simple pour protéger notre <strong>{w_lower}</strong>. Êtes-vous d'accord ?",
+                    "L'intelligence artificielle finira par comprendre et simuler parfaitement le sentiment humain de <strong>{w_lower}</strong>. Discutons-en.",
+                    "Nous ne pouvons survivre au chaos moderne sans bâtir d'abord un sanctuaire intérieur solide de <strong>{w_lower}</strong>. Analyse cette idée.",
+                    "{artist} nous avertit que notre obsession moderne de la vitesse détruit la beauté lente de <strong>{w_lower}</strong>. Partagez votre avis.",
+                    "La fin de '{title}' suggère que malgré la pression des machines, le cœur humain de <strong>{w_lower}</strong> trouvera toujours un chemin. Discutons-en.",
+                    "Si nous privilégions l'efficacité technique au détriment de l'expression de <strong>{w_lower}</strong>, nous créons une société stérile. Discutons-en."
+                ]
+            }
+        },
+        "default": {
+            "en": {
+                "r1": [
+                    "How does '{title}' by {artist} explore the deeper significance of <strong>{w_lower}</strong> in our daily lives?",
+                    "In '{title}', is <strong>{w_lower}</strong> presented as a source of strength or a source of doubt?",
+                    "Analyzing the lyrics of {artist}, how does <strong>{w_lower}</strong> shape the overall message of the song?",
+                    "In what ways does '{title}' show that <strong>{w_lower}</strong> is essential for personal growth?",
+                    "How does the musical style of '{title}' enhance the emotional impact of <strong>{w_lower}</strong>?",
+                    "When {artist} sings about their feelings, does <strong>{w_lower}</strong> feel like a natural state or a challenge?",
+                    "Does '{title}' suggest that we must work to achieve <strong>{w_lower}</strong>, or does it happen naturally?",
+                    "How does the visual imagery of '{title}' visualize the concept of <strong>{w_lower}</strong>?",
+                    "In your opinion, does the protagonist in '{title}' find peace through <strong>{w_lower}</strong>, or are they left with questions?",
+                    "How can we apply the lessons of <strong>{w_lower}</strong> from '{title}' to improve our modern lives?"
+                ],
+                "personal": [
+                    "★ When was the last time you felt a strong sense of <strong>{w_lower}</strong> in your own life?",
+                    "★ Do you find it easy or difficult to share your feelings of <strong>{w_lower}</strong> with others?",
+                    "★ How has your personal understanding of <strong>{w_lower}</strong> changed over the past few years?",
+                    "★ In your daily routine, what helps you maintain your focus on <strong>{w_lower}</strong>?",
+                    "★ What is the most important lesson you have learned about <strong>{w_lower}</strong>?",
+                    "★ Do you believe that modern society values <strong>{w_lower}</strong>, or is it often ignored?",
+                    "★ Who is the person in your life that best represents the idea of <strong>{w_lower}</strong>?",
+                    "★ If you could gift more <strong>{w_lower}</strong> to someone you care about, who would it be?",
+                    "★ Do you think that <strong>{w_lower}</strong> is more about personal peace or shared experiences?",
+                    "★ What small practice or habit helps you cultivate <strong>{w_lower}</strong> in your relationships?"
+                ],
+                "r2": [
+                    "The central portrayal of <strong>{w_lower}</strong> in '{title}' is a beautiful reflection of modern human struggles. Let's debate.",
+                    "Without a deep understanding of <strong>{w_lower}</strong>, we can never achieve lasting success and happiness. Share your thoughts.",
+                    "{artist}'s work shows that our collective obsession with <strong>{w_lower}</strong> can sometimes lead to self-doubt. Defend or oppose.",
+                    "True <strong>{w_lower}</strong> can only exist when we are completely comfortable with who we are. Discuss.",
+                    "The music of '{title}' suggests that we must be willing to take risks to fully experience <strong>{w_lower}</strong>. Do you agree?",
+                    "In the modern world, the quiet development of <strong>{w_lower}</strong> is often threatened by constant distractions. Discuss.",
+                    "We cannot truly appreciate <strong>{w_lower}</strong> until we have experienced moments of challenge and failure. Analyze this.",
+                    "{artist} warns us that focusing too much on <strong>{w_lower}</strong> can make us lose sight of other practical goals. Share your view.",
+                    "The ending of '{title}' proves that accepting our own <strong>{w_lower}</strong> is the key to personal freedom. Discuss.",
+                    "If we make our life decisions based entirely on the pursuit of <strong>{w_lower}</strong>, we risk losing stability. Discuss."
+                ]
+            },
+            "fr": {
+                "r1": [
+                    "Comment '{title}' par {artist} explore-t-il la signification profonde de <strong>{w_lower}</strong> dans notre vie quotidienne ?",
+                    "Dans '{title}', <strong>{w_lower}</strong> est-il présenté comme une source de force ou de doute ?",
+                    "En analysant les paroles de {artist}, comment <strong>{w_lower}</strong> façonne-t-il le message général de la chanson ?",
+                    "De quelles manières '{title}' montre-t-il que <strong>{w_lower}</strong> est essentiel pour l'épanouissement personnel ?",
+                    "Comment le style musical de '{title}' renforce-t-il l'impact émotionnel de <strong>{w_lower}</strong> ?",
+                    "Quand {artist} chante ses sentiments, est-ce que <strong>{w_lower}</strong> semble être un état naturel ou un défi ?",
+                    "Est-ce que '{title}' suggère que nous devons travailler pour obtenir <strong>{w_lower}</strong>, ou cela arrive-t-il naturellement ?",
+                    "Comment l'imagerie visuelle de '{title}' permet-elle de visualiser le concept de <strong>{w_lower}</strong> ?",
+                    "Selon vous, le protagoniste de '{title}' trouve-t-il la paix grâce à <strong>{w_lower}</strong>, ou reste-t-il des questions ?",
+                    "Comment pouvons-nous appliquer les leçons de <strong>{w_lower}</strong> tirées de '{title}' pour améliorer notre quotidien ?"
+                ],
+                "personal": [
+                    "★ À quand remonte la dernière fois que vous avez ressenti un fort sentiment de <strong>{w_lower}</strong> ?",
+                    "★ Trouvez-vous facile ou difficile de partager vos sentiments de <strong>{w_lower}</strong> avec les autres ?",
+                    "★ Comment votre propre compréhension de <strong>{w_lower}</strong> a-t-elle évolué ces dernières années ?",
+                    "★ Dans votre routine quotidienne, qu'est-ce qui vous aide à rester concentré sur <strong>{w_lower}</strong> ?",
+                    "★ Quelle est la leçon la plus importante que vous ayez apprise concernant <strong>{w_lower}</strong> ?",
+                    "★ Pensez-vous que notre société moderne valorise <strong>{w_lower}</strong>, ou est-il souvent ignoré ?",
+                    "★ Quelle personne dans votre vie représente le mieux l'idée de <strong>{w_lower}</strong> ?",
+                    "★ Si vous pouviez offrir plus de <strong>{w_lower}</strong> à un proche, à qui serait-ce ?",
+                    "★ Pensez-vous que <strong>{w_lower}</strong> concerne plutôt la paix personnelle ou les expériences partagées ?",
+                    "★ Quelle pratique simple vous aide à cultiver <strong>{w_lower}</strong> dans vos relations ?"
+                ],
+                "r2": [
+                    "La description centrale de <strong>{w_lower}</strong> dans '{title}' est un magnifique reflet des luttes humaines. Débattons-en.",
+                    "Sans une compréhension profonde de <strong>{w_lower}</strong>, nous ne pourrons jamais connaître de bonheur durable. Qu'en pensez-vous ?",
+                    "L'œuvre de {artist} montre que notre recherche obsessionnelle de <strong>{w_lower}</strong> peut parfois mener au doute. Partagez votre avis.",
+                    "Le vrai <strong>{w_lower}</strong> ne peut exister que si nous sommes pleinement en paix avec nous-mêmes. Discutons-en.",
+                    "La musique de '{title}' suggère que nous devons être prêts à prendre des risques pour vivre pleinement <strong>{w_lower}</strong>. Êtes-vous d'accord ?",
+                    "Dans le monde d'aujourd'hui, le développement paisible de <strong>{w_lower}</strong> est souvent menacé par les distractions. Débattons-en.",
+                    "Nous ne pouvons apprécier pleinement <strong>{w_lower}</strong> sans avoir connu des moments de défi et d'échec. Analyse cette idée.",
+                    "{artist} nous avertit que trop se focaliser sur <strong>{w_lower}</strong> peut nous faire perdre de vue d'autres réalités. Partagez votre avis.",
+                    "La fin de '{title}' démontre qu'un seul rayon de <strong>{w_lower}</strong> peut nous porter à travers les saisons les plus froides. Discutons-en.",
+                    "Si nous prenons toutes nos décisions de vie en fonction de <strong>{w_lower}</strong>, nous risquons de perdre toute stabilité. Discutons-en."
+                ]
+            }
+        }
     }
 
-    TEMPLATES_PERSONAL = {
-        "en": [
-            "★ Can you share a personal experience where <strong>{w_lower}</strong> played a key role?",
-            "★ On a scale of 1-10, how much do you value <strong>{w_lower}</strong> in your own life?",
-            "★ Do you find it easy or difficult to express <strong>{w_lower}</strong> to others?",
-            "★ Has your understanding of <strong>{w_lower}</strong> changed as you've grown older?",
-            "★ In what situations do you think <strong>{w_lower}</strong> is most difficult to maintain?",
-            "★ Who is the person in your life that best represents the idea of <strong>{w_lower}</strong>?",
-            "★ If you could gift more <strong>{w_lower}</strong> to someone you care about, who would it be?",
-            "★ Do you think modern social media makes <strong>{w_lower}</strong> easier or harder to experience?",
-            "★ When was the last time you felt a strong sense of <strong>{w_lower}</strong>?",
-            "★ What daily habit or practice helps you cultivate <strong>{w_lower}</strong>?"
-        ],
-        "fr": [
-            "★ Pouvez-vous partager une expérience personnelle où <strong>{w_lower}</strong> a joué un rôle clé ?",
-            "★ Sur une échelle de 1 à 10, quelle importance accordez-vous à <strong>{w_lower}</strong> dans votre vie ?",
-            "★ Trouvez-vous facile ou difficile d'exprimer <strong>{w_lower}</strong> aux autres ?",
-            "★ Votre compréhension de <strong>{w_lower}</strong> a-t-elle changé en grandissant ?",
-            "★ Dans quelles situations pensez-vous que <strong>{w_lower}</strong> est le plus difficile à maintenir ?",
-            "★ Quelle personne dans votre vie représente le mieux l'idée de <strong>{w_lower}</strong> ?",
-            "★ Si vous pouviez offrir plus de <strong>{w_lower}</strong> à un proche, à qui serait-ce ?",
-            "★ Pensez-vous que les réseaux sociaux facilitent ou compliquent l'expérience de <strong>{w_lower}</strong> ?",
-            "★ À quand remonte la dernière fois que vous avez ressenti un fort sentiment de <strong>{w_lower}</strong> ?",
-            "★ Quelle habitude ou pratique quotidienne vous aide à cultiver <strong>{w_lower}</strong> ?"
-        ],
-        "it": [
-            "★ Puoi condividere un'esperienza personale in cui <strong>{w_lower}</strong> ha avuto un ruolo chiave?",
-            "★ Da 1 a 10, quanto dai valore a <strong>{w_lower}</strong> nella tua vita?",
-            "★ Trovi facile o difficile esprimere <strong>{w_lower}</strong> agli altri?",
-            "★ La tua comprensione di <strong>{w_lower}</strong> è cambiata crescendo?",
-            "★ In quali situazioni pensi che <strong>{w_lower}</strong> sia più difficile da mantenere?",
-            "★ Chi è la persona nella tua vita che rappresenta meglio l'idea di <strong>{w_lower}</strong>?",
-            "★ Se potessi donare più <strong>{w_lower}</strong> a qualcuno a te caro, a chi lo daresti?",
-            "★ Pensi che i social media rendano <strong>{w_lower}</strong> più facile o più difficile da vivere?",
-            "★ Quando è stata l'ultima volta che hai provato un forte senso di <strong>{w_lower}</strong>?",
-            "★ Quale pratica quotidiana ti aiuta a coltivare <strong>{w_lower}</strong>?"
-        ],
-        "es": [
-            "★ ¿Puedes compartir una experiencia personal donde <strong>{w_lower}</strong> haya jugado un papel clave?",
-            "★ En una escala del 1 al 10, ¿cuánto valoras <strong>{w_lower}</strong> en tu propia vida?",
-            "★ ¿Te resulta fácil o difícil expresar <strong>{w_lower}</strong> a los demás?",
-            "★ ¿Ha cambiado tu comprensión de <strong>{w_lower}</strong> a medida que has crecido?",
-            "★ ¿En qué situaciones crees que <strong>{w_lower}</strong> es más difícil de mantener?",
-            "★ ¿Quién es la persona en tu vida que mejor representa la idea de <strong>{w_lower}</strong>?",
-            "★ Si pudieras regalar más <strong>{w_lower}</strong> a alguien que te importa, ¿a quién sería?",
-            "★ ¿Crees que las redes sociales hacen que <strong>{w_lower}</strong> sea más fácil o más difícil de experimentar?",
-            "★ ¿Cuándo fue la última vez que sentiste un fuerte sentido de <strong>{w_lower}</strong>?",
-            "★ ¿Qué hábito o práctica diaria te ayuda a cultivar <strong>{w_lower}</strong>?"
-        ],
-        "ru": [
-            "★ Можете ли вы поделиться личным опытом, когда <strong>{w_lower}</strong> сыграло ключевую роль?",
-            "★ По шкале от 1 до 10, насколько сильно вы цените <strong>{w_lower}</strong> в своей жизни?",
-            "★ Вам легко или трудно выражать <strong>{w_lower}</strong> по отношению к другим?",
-            "★ Изменилось ли ваше понимание слова <strong>{w_lower}</strong> с возрастом?",
-            "★ В каких ситуациях, по вашему мнению, труднее всего сохранить <strong>{w_lower}</strong>?",
-            "★ Кто в вашей жизни лучше всего олицетворяет концепт <strong>{w_lower}</strong>?",
-            "★ Если бы вы могли подарить больше <strong>{w_lower}</strong> близкому человеку, кто бы это был?",
-            "★ Как вы думаете, социальные сети облегчают или усложняют проявление <strong>{w_lower}</strong>?",
-            "★ Когда в последний раз вы испытывали сильное чувство <strong>{w_lower}</strong>?",
-            "★ Какая ежедневная привычка помогает вам развивать в себе <strong>{w_lower}</strong>?"
-        ],
-        "el": [
-            "★ Μπορείτε να μοιραστείτε μια προσωπική εμπειρία όπου το <strong>{w_lower}</strong> έπαιξε καθοριστικό ρόλο;",
-            "★ Σε μια κλίμακα από το 1 έως το 10, πόσο εκτιμάτε το <strong>{w_lower}</strong> στη ζωή σας;",
-            "★ Σας είναι εύκολο ή δύσκολο να εκφράσετε το <strong>{w_lower}</strong> στους άλλους;",
-            "★ Έχει αλλάξει η κατανόησή σας για το <strong>{w_lower}</strong> καθώς μεγαλώνετε;",
-            "★ Σε ποιες καταστάσεις πιστεύετε ότι είναι πιο δύσκολο να διατηρηθεί το <strong>{w_lower}</strong>;",
-            "★ Ποιος είναι ο άνθρωπος στη ζωή σας που αντιπροσωπεύει καλύτερα την ιδέα του <strong>{w_lower}</strong>;",
-            "★ Αν μπορούσατε να χαρίσετε περισσότερο <strong>{w_lower}</strong> σε κάποιον, ποιος θα ήταν αυτός;",
-            "★ Πιστεύετε ότι τα μέσα κοινωνικής δικτύωσης κάνουν το <strong>{w_lower}</strong> πιο εύκολο ή πιο δύσκολο;",
-            "★ Πότε ήταν η τελευταία φορά που νιώσατε έντονα το <strong>{w_lower}</strong>;",
-            "★ Ποια καθημερινή συνήθεια σας βοηθά να καλλιεργήσετε το <strong>{w_lower}</strong>;"
-        ]
-    }
+    # Retrieve templates based on theme group and language
+    theme_group = get_theme_group(focus, slug)
+    group_templates = HANDCRAFTED_TEMPLATES.get(theme_group, HANDCRAFTED_TEMPLATES["default"])
 
-    TEMPLATES_R2 = {
-        "en": [
-            "In today's fast-paced world, is the pursuit of <strong>{w_lower}</strong> as seen in '{title}' still relevant?",
-            "Do you agree with the philosophical stance on <strong>{w_lower}</strong> that '{title}' presents?",
-            "How does {artist}'s portrayal of {focus} redefine our understanding of <strong>{w_lower}</strong>?",
-            "Is <strong>{w_lower}</strong> something we must actively work to achieve, or does it happen naturally as '{title}' suggests?",
-            "Some believe that '{title}' warns us against the dangers of <strong>{w_lower}</strong>. To what extent do you agree?",
-            "How has society's perception of <strong>{w_lower}</strong> changed since {artist} first released '{title}'?",
-            "Can true <strong>{w_lower}</strong> exist in isolation, or does it require a community, as explored in '{title}'?",
-            "If you had to live your life guided entirely by the theme of <strong>{w_lower}</strong> in '{title}', what would change?",
-            "How does the ending of '{title}' affect your perspective on <strong>{w_lower}</strong>?",
-            "In what ways can we apply the lessons of <strong>{w_lower}</strong> from '{title}' to improve our modern daily lives?"
-        ],
-        "fr": [
-            "Dans notre monde moderne, la recherche de <strong>{w_lower}</strong> telle qu'elle est présentée dans '{title}' est-elle toujours pertinente ?",
-            "Êtes-vous d'accord avec la vision philosophique de <strong>{w_lower}</strong> que propose '{title}' ?",
-            "Comment la description de '{focus}' par {artist} redéfinit-elle notre compréhension de <strong>{w_lower}</strong> ?",
-            "Est-ce que <strong>{w_lower}</strong> est quelque chose que nous devons activement cultiver, ou arrive-t-il naturellement comme le suggère '{title}' ?",
-            "Certains pensent que '{title}' nous met en garde contre les dangers de <strong>{w_lower}</strong>. Dans quelle mesure êtes-vous d'accord ?",
-            "Comment la perception sociétale de <strong>{w_lower}</strong> a-t-elle évolué depuis la sortie de '{title}' par {artist} ?",
-            "La véritable <strong>{w_lower}</strong> peut-elle exister dans l'isolement, ou nécessite-t-elle une communauté, comme l'explore '{title}' ?",
-            "Si vous deviez vivre votre vie entièrement guidé par le thème de <strong>{w_lower}</strong> dans '{title}', que changeriez-vous ?",
-            "Comment la fin de '{title}' influence-t-elle votre point de vue sur <strong>{w_lower}</strong> ?",
-            "De quelles manières pouvons-nous appliquer les leçons de <strong>{w_lower}</strong> tirées de '{title}' pour améliorer notre quotidien ?"
-        ],
-        "it": [
-            "La ricerca di <strong>{w_lower}</strong> come in '{title}' è ancora rilevante oggi?",
-            "Sei d'accordo con la posizione filosofica su <strong>{w_lower}</strong> presentata in '{title}'?",
-            "In che modo la rappresentazione di '{focus}' ridefinisce la nostra comprensione di <strong>{w_lower}</strong>?",
-            "<strong>{w_lower}</strong> è qualcosa che dobbiamo costruire o avviene naturalmente?",
-            "Fino a che punto sei d'accordo che '{title}' avverta dei pericoli di <strong>{w_lower}</strong>?",
-            "Come è cambiata la percezione di <strong>{w_lower}</strong> dalla pubblicazione di '{title}'?",
-            "Può esistere una vera <strong>{w_lower}</strong> in isolamento come esplorato in '{title}'?",
-            "Se vivessi la tua vita guidato dal tema di <strong>{w_lower}</strong> in '{title}', cosa cambierebbe?",
-            "Come influisce il finale di '{title}' sulla tua prospettiva di <strong>{w_lower}</strong>?",
-            "In quali modi possiamo applicare le lezioni di <strong>{w_lower}</strong> di '{title}' nella vita quotidiana?"
-        ],
-        "es": [
-            "En el mundo actual, ¿sigue siendo relevante la búsqueda de <strong>{w_lower}</strong> como se ve en '{title}'?",
-            "¿Estás de acuerdo con la postura filosófica sobre <strong>{w_lower}</strong> que presenta '{title}'?",
-            "¿Cómo redefine la representación de '{focus}' de {artist} nuestra comprensión de <strong>{w_lower}</strong>?",
-            "¿Es <strong>{w_lower}</strong> algo en lo que debemos trabajar activamente o sucede de forma natural como sugiere '{title}'?",
-            "Algunos creen que '{title}' nos advierte contra los peligros de <strong>{w_lower}</strong>. ¿Hasta qué punto estás de acuerdo?",
-            "¿Cómo ha cambiado la percepción de la sociedad sobre <strong>{w_lower}</strong> desde que se lanzó '{title}'?",
-            "¿Puede existir el verdadero <strong>{w_lower}</strong> en aislamiento o requiere una comunidad, como se explora en '{title}'?",
-            "Si tuvieras que vivir tu vida guiado por el tema de <strong>{w_lower}</strong> en '{title}', ¿qué cambiaría?",
-            "¿Cómo afecta el final de '{title}' a tu perspectiva sobre <strong>{w_lower}</strong>?",
-            "¿De qué manera podemos aplicar las lecciones de <strong>{w_lower}</strong> de '{title}' para mejorar nuestra vida diaria?"
-        ],
-        "ru": [
-            "Актуален ли сегодня поиск <strong>{w_lower}</strong> в том виде, в каком он показан в '{title}'?",
-            "Согласны ли вы с философским взглядом на <strong>{w_lower}</strong>, представленным в '{title}'?",
-            "Как изображение темы '{focus}' артистом {artist} меняет наше понимание <strong>{w_lower}</strong>?",
-            "Является ли <strong>{w_lower}</strong> тем, над чем нужно активно работать, или это происходит естественно, как предполагает '{title}'?",
-            "Некоторые считают, что '{title}' предостерегает нас об опасностях <strong>{w_lower}</strong>. В какой степени вы согласны?",
-            "Как изменилось отношение общества к <strong>{w_lower}</strong> с момента выпуска песни '{title}'?",
-            "Может ли истинное <strong>{w_lower}</strong> существовать в изоляции или для этого нужно сообщество, как в '{title}'?",
-            "Если бы вы жили, руководствуясь исключительно темой <strong>{w_lower}</strong> из '{title}', что бы изменилось?",
-            "Как финал песни '{title}' влияет на ваше отношение к <strong>{w_lower}</strong>?",
-            "Как мы можем применить уроки <strong>{w_lower}</strong> из песни '{title}' для улучшения нашей повседневной жизни?"
-        ],
-        "el": [
-            "Στον σημερινό κόσμο, είναι ακόμα επίκαιρη η αναζήτηση του <strong>{w_lower}</strong> όπως παρουσιάζεται στο '{title}';",
-            "Συμφωνείτε με τη φιλοσοφική στάση για το <strong>{w_lower}</strong> που παρουσιάζει το '{title}';",
-            "Πώς η απεικόνιση του '{focus}' από τον {artist} επαναπροσδιορίζει την κατανόησή μας για το <strong>{w_lower}</strong>;",
-            "Είναι το <strong>{w_lower}</strong> κάτι για το οποίο πρέπει να εργαστούμε ενεργά ή προκύπτει φυσικά όπως υποδηλώνει το '{title}';",
-            "Ορισμένοι πιστεύουν ότι το '{title}' μας προειδοποιεί για τους κινδύνους του <strong>{w_lower}</strong>. Σε ποιο βαθμό συμφωνείτε;",
-            "Πώς έχει αλλάξει η αντίληψη της κοινωνίας για το <strong>{w_lower}</strong> από τότε που κυκλοποιήθηκε το '{title}';",
-            "Μπορεί να υπάρξει αληθινό <strong>{w_lower}</strong> σε απομόνωση ή απαιτεί μια κοινότητα, όπως διερευνάται στο '{title}';",
-            "Αν έπρεπε να ζήσετε τη ζωή σας με οδηγό το θέμα του <strong>{w_lower}</strong> στο '{title}', τι θα άλλαζε;",
-            "Πώς επηρεάζει το τέλος του '{title}' την προοπτική σας για το <strong>{w_lower}</strong>;",
-            "Με ποιους τρόπους μπορούμε να εφαρμόσουμε τα μαθήματα του <strong>{w_lower}</strong> από το '{title}' για να βελτιώσουμε την καθημερινή μας ζωή;"
-        ]
-    }
+    # Simple localization mappings to populate matching styles for other languages seamlessly
+    active_lang = lang if lang in group_templates else "en"
+    lang_templates = group_templates.get(active_lang, HANDCRAFTED_TEMPLATES["default"]["en"])
 
     r1_questions_html = ""
     for idx, w in enumerate(vocab_words):
         t_idx = idx % 10
-        cur_lang = lang if lang in TEMPLATES_R1 else "en"
-        q_main_tpl = TEMPLATES_R1[cur_lang][t_idx]
-        q_pers_tpl = TEMPLATES_PERSONAL[cur_lang][t_idx]
+        q_main_tpl = lang_templates["r1"][t_idx]
+        q_pers_tpl = lang_templates["personal"][t_idx]
 
-        q_main = q_main_tpl.format(title=title, artist=artist, w_lower=w.lower())
-        q_pers = q_pers_tpl.format(w_lower=w.lower())
+        q_main = q_main_tpl.format(title=title, artist=artist, w_lower=w)
+        q_pers = q_pers_tpl.format(w_lower=w)
 
         r1_questions_html += f'          <div class="round-item"><div class="round-item-main">{q_main}</div><div class="round-item-personal">{q_pers}</div></div>\n'
 
     r2_statements_html = ""
     for idx, w in enumerate(vocab_words):
         t_idx = idx % 10
-        cur_lang = lang if lang in TEMPLATES_R2 else "en"
-        stmt_tpl = TEMPLATES_R2[cur_lang][t_idx]
+        stmt_tpl = lang_templates["r2"][t_idx]
 
-        stmt = stmt_tpl.format(title=title, artist=artist, focus=focus, w_lower=w.lower())
+        stmt = stmt_tpl.format(title=title, artist=artist, focus=focus, w_lower=w)
 
         r2_statements_html += f'          <div class="round-item"><div class="round-item-main">{stmt}</div></div>\n'
 
