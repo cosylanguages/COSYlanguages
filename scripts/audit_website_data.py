@@ -314,7 +314,7 @@ def check_speaking_club_sessions():
                     round_2 = soup.find(class_="round-2")
 
                     if is_cinema_session:
-                        expected_items = 5
+                        expected_items = 10
                         strict_count = True
                     elif is_karaoke_session:
                         expected_items = 1 # Any number >= 1 is fine
