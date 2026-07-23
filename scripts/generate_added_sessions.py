@@ -66,6 +66,20 @@ EN_R2_PERS = [
     "★ If a machine could perfectly replicate your experience of <strong>{word}</strong>, would you still value it?"
 ]
 
+# Pensive, hypothetical second/third conditional structures for Mind Matters Round 2
+EN_MM_R2_MAIN = [
+    "If you could artificially enhance your capacity for <strong>{word}</strong>, would you do it even if it cost you some peace of mind?",
+    "If society were to completely lose its appreciation for <strong>{word}</strong>, what kind of dystopian reality would we live in?",
+    "If you had to choose between a life of deep <strong>{word}</strong> and one of pure, effortless bliss, which would you pick?",
+    "If a pill could guarantee a perfect level of <strong>{word}</strong> but made it impossible to feel intense joy, would you take it?",
+    "If children were never taught the concept of <strong>{word}</strong>, would they develop it naturally on their own as adults?",
+    "If we were to build a futuristic city governed entirely by <strong>{word}</strong>, would it be a utopia or an unbearable prison?",
+    "If your closest companion lacked any form of <strong>{word}</strong>, would you still be able to maintain a deep bond with them?",
+    "If you had to sacrifice a significant portion of your wealth to double your <strong>{word}</strong>, would you consider it a worthy trade?",
+    "If you were given a chance to see your future level of <strong>{word}</strong>, would you look, or would you rather let the future unfold naturally?",
+    "If a machine could perfectly replicate and share your inner experience of <strong>{word}</strong> with others, would you allow it?"
+]
+
 # Templates for French
 FR_R1_MAIN = [
     "Comment la quête de <strong>{word}</strong> influence-t-elle notre perception de la réussite dans la vie moderne ?",
@@ -399,7 +413,7 @@ def clean_vocab_word(word, lang):
             clean = clean[4:]
     return clean.strip()
 
-def get_discussion_rounds(lang, vocab_list):
+def get_discussion_rounds(lang, vocab_list, is_mind_matters=False):
     if lang == "fr":
         r1_main_tpl = FR_R1_MAIN
         r1_pers_tpl = FR_R1_PERS
@@ -413,7 +427,10 @@ def get_discussion_rounds(lang, vocab_list):
     else:
         r1_main_tpl = EN_R1_MAIN
         r1_pers_tpl = EN_R1_PERS
-        r2_main_tpl = EN_R2_MAIN
+        if is_mind_matters:
+            r2_main_tpl = EN_MM_R2_MAIN
+        else:
+            r2_main_tpl = EN_R2_MAIN
         r2_pers_tpl = EN_R2_PERS
 
     round_1 = []
@@ -501,7 +518,12 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
 
     r2_html = ""
     for main_item, pers_item in round_2_items:
-        r2_html += f"""          <div class="round-item">
+        if is_mind_matters:
+            r2_html += f"""          <div class="round-item">
+            <div class="round-item-main">{main_item}</div>
+          </div>\n"""
+        else:
+            r2_html += f"""          <div class="round-item">
             <div class="round-item-main">{main_item}</div>
             <div class="round-item-personal">{pers_item}</div>
           </div>\n"""
@@ -1183,7 +1205,7 @@ def generate_sessions():
             depth_prefix = "../../../"
 
         # Construct rounds items
-        round_1_items, round_2_items = get_discussion_rounds(lang, vocab_list)
+        round_1_items, round_2_items = get_discussion_rounds(lang, vocab_list, is_mind_matters=is_mind_matters)
 
         # Build complete HTML
         html = make_session_html(
