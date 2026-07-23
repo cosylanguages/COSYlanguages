@@ -1,5 +1,7 @@
 # COSYlanguages × ProgressMe — Integration guide
 
+> 🎓 **Teacher Resource**: Looking for ways to use COSY speaking club sessions inside your standard lessons instead of running them as extra-curricular events? Read our comprehensive **[ProgressMe Lessons Integration Guide](progressme-lessons-guide.md)**.
+
 ## Identity bridge
 
 Each student has:
