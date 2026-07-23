@@ -13,7 +13,7 @@ const path = require('path');
       dir: '/home/jules/verification/videos',
       size: { width: 1280, height: 720 }
     },
-    viewport: { width: 1280, height: 720 }
+    viewport: { width: 1280, height: 1200 } // height 1200 to capture everything!
   });
 
   const page = await context.newPage();
@@ -40,10 +40,18 @@ const path = require('path');
     await page.waitForTimeout(1300);
   }
 
-  console.log('We should be on the results screen. Holding for video and taking screenshot...');
+  console.log('We should be on the results screen. Scrolling down to capture full diagnostic and action plan...');
   await page.waitForTimeout(2000);
+
+  // Scroll down to the diagnostic section
+  await page.evaluate(() => {
+    const diagnostic = document.getElementById('dynamic-diagnostic');
+    if (diagnostic) diagnostic.scrollIntoView();
+  });
+  await page.waitForTimeout(1500);
+
   await page.screenshot({ path: '/home/jules/verification/screenshots/verification.png' });
-  await page.waitForTimeout(2000);
+  await page.waitForTimeout(1000);
 
   await context.close();
   await browser.close();
