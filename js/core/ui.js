@@ -605,6 +605,369 @@
         });
     };
 
+    /* ─── COSY TOUR GUIDE & NAV HELP SYSTEM ───────────────────────── */
+    const TOUR_STEPS = [
+        {
+            target: '#cosy-nav',
+            title: 'Main Navigation 🧭',
+            desc: 'Explore all major sections of COSYlanguages from here: Free Practice, Games, Events, and more! ☝️',
+            position: 'bottom'
+        },
+        {
+            target: '.hero-ctas',
+            title: 'Start Your Journey 📝',
+            desc: 'Chat with us directly on WhatsApp, take our quick Placement Quiz to find your level, or pin the app to your Home Screen! 👇',
+            position: 'bottom'
+        },
+        {
+            target: '#tools .tool-card:nth-child(1) .tool-link',
+            title: 'Free Practice Hub 💡',
+            desc: 'Master vocabulary, grammar, and speaking exercises at your own pace. Keep up your streak and earn COSY points! 👈',
+            position: 'top'
+        },
+        {
+            target: '#tools .tool-card:nth-child(2) .tool-link',
+            title: 'Interactive Language Games 🎮',
+            desc: 'Boost your fluency with 14 interactive multiplayer and solo games like Action Hero, Fluency Flow, and Word Linker! 👉',
+            position: 'top'
+        },
+        {
+            target: '.events-row',
+            title: 'Live Speaking Clubs & Cinema 🎉',
+            desc: 'Join live conversational speaking clubs and original language movie nights led by real native and expert teachers! ☝️',
+            position: 'top'
+        },
+        {
+            target: '#languages',
+            title: 'Learn 5+ Beautiful Languages 🌍',
+            desc: 'Explore English, French, Italian, Russian, Greek, and upcoming languages, along with free learning materials for each! 👇',
+            position: 'top'
+        },
+        {
+            target: '#calculator',
+            title: 'Transparent Pricing Calculator 🧮',
+            desc: 'See exactly what you will pay. Customise your language, course type, lesson duration, package size, and currency. No hidden fees! 👇',
+            position: 'top'
+        },
+        {
+            target: '#dict-fab',
+            title: 'Interactive Dictionary Harvesting 📖',
+            desc: 'See any word you do not know? Just **double-click** it anywhere on any page on our site to harvest it into your dictionary! 💡',
+            position: 'top'
+        },
+        {
+            target: '#cosy-tour-fab',
+            title: 'Always Here to Help! ✨',
+            desc: 'Whenever you want to retake this tour or need general navigation help on other pages, just click this friendly compass! 🧭',
+            position: 'top'
+        }
+    ];
+
+    let currentTourStep = 0;
+    let activeHighlightedEl = null;
+
+    const positionTooltip = (targetEl, position) => {
+        const rect = targetEl.getBoundingClientRect();
+        const tooltip = document.getElementById('cosy-tour-tooltip');
+        if (!tooltip) return;
+
+        const scrollY = window.scrollY;
+        const scrollX = window.scrollX;
+
+        let top = 0;
+        let left = 0;
+
+        if (position === 'bottom') {
+            top = rect.bottom + scrollY + 15;
+            left = rect.left + scrollX + rect.width / 2 - tooltip.offsetWidth / 2;
+        } else if (position === 'top') {
+            top = rect.top + scrollY - tooltip.offsetHeight - 15;
+            left = rect.left + scrollX + rect.width / 2 - tooltip.offsetWidth / 2;
+        } else if (position === 'left') {
+            top = rect.top + scrollY + rect.height / 2 - tooltip.offsetHeight / 2;
+            left = rect.left + scrollX - tooltip.offsetWidth - 15;
+        } else if (position === 'right') {
+            top = rect.top + scrollY + rect.height / 2 - tooltip.offsetHeight / 2;
+            left = rect.right + scrollX + 15;
+        }
+
+        // Prevent tooltip from overflowing left/right of screen
+        const padding = 15;
+        if (left < padding) {
+            left = padding;
+        } else if (left + tooltip.offsetWidth > window.innerWidth - padding) {
+            left = window.innerWidth - tooltip.offsetWidth - padding;
+        }
+
+        // Prevent tooltip from overflowing top of screen
+        if (top < padding) {
+            top = padding;
+        }
+
+        tooltip.style.top = `${top}px`;
+        tooltip.style.left = `${left}px`;
+        tooltip.style.display = 'block';
+    };
+
+    const positionPointer = (targetEl, position) => {
+        const rect = targetEl.getBoundingClientRect();
+        const pointer = document.getElementById('cosy-tour-pointer');
+        if (!pointer) return;
+
+        let top = 0;
+        let left = 0;
+        let emoji = '👇';
+        let bounceClass = 'bounce-down';
+
+        const scrollY = window.scrollY;
+        const scrollX = window.scrollX;
+
+        if (position === 'bottom') {
+            top = rect.top + scrollY - 50;
+            left = rect.left + scrollX + rect.width / 2 - 20;
+            emoji = '👇';
+            bounceClass = 'bounce-down';
+        } else if (position === 'top') {
+            top = rect.bottom + scrollY + 10;
+            left = rect.left + scrollX + rect.width / 2 - 20;
+            emoji = '☝️';
+            bounceClass = 'bounce-up';
+        } else if (position === 'left') {
+            top = rect.top + scrollY + rect.height / 2 - 20;
+            left = rect.right + scrollX + 10;
+            emoji = '👈';
+            bounceClass = 'bounce-left';
+        } else if (position === 'right') {
+            top = rect.top + scrollY + rect.height / 2 - 20;
+            left = rect.left + scrollX - 50;
+            emoji = '👉';
+            bounceClass = 'bounce-right';
+        }
+
+        pointer.style.top = `${top}px`;
+        pointer.style.left = `${left}px`;
+        pointer.innerHTML = emoji;
+        pointer.className = `cosy-tour-pointer ${bounceClass}`;
+        pointer.style.display = 'block';
+    };
+
+    window.startHomepageTour = function() {
+        currentTourStep = 0;
+
+        let tooltip = document.getElementById('cosy-tour-tooltip');
+        if (!tooltip) {
+            tooltip = document.createElement('div');
+            tooltip.id = 'cosy-tour-tooltip';
+            tooltip.className = 'cosy-tour-bubble';
+            document.body.appendChild(tooltip);
+        }
+
+        let pointer = document.getElementById('cosy-tour-pointer');
+        if (!pointer) {
+            pointer = document.createElement('div');
+            pointer.id = 'cosy-tour-pointer';
+            pointer.className = 'cosy-tour-pointer';
+            document.body.appendChild(pointer);
+        }
+
+        let backdrop = document.getElementById('cosy-tour-backdrop');
+        if (!backdrop) {
+            backdrop = document.createElement('div');
+            backdrop.id = 'cosy-tour-backdrop';
+            backdrop.className = 'cosy-tour-backdrop-overlay';
+            document.body.appendChild(backdrop);
+        }
+
+        backdrop.style.display = 'block';
+        showTourStep(0);
+    };
+
+    window.endHomepageTour = function() {
+        if (activeHighlightedEl) {
+            activeHighlightedEl.classList.remove('cosy-tour-highlight');
+            activeHighlightedEl = null;
+        }
+
+        const tooltip = document.getElementById('cosy-tour-tooltip');
+        if (tooltip) tooltip.style.display = 'none';
+
+        const pointer = document.getElementById('cosy-tour-pointer');
+        if (pointer) pointer.style.display = 'none';
+
+        const backdrop = document.getElementById('cosy-tour-backdrop');
+        if (backdrop) backdrop.style.display = 'none';
+
+        try {
+            const url = new URL(window.location);
+            if (url.searchParams.has('startTour')) {
+                url.searchParams.delete('startTour');
+                window.history.replaceState({}, '', url);
+            }
+        } catch (e) {}
+    };
+
+    window.nextTourStep = function() {
+        if (currentTourStep < TOUR_STEPS.length - 1) {
+            currentTourStep++;
+            showTourStep(currentTourStep);
+        } else {
+            window.endHomepageTour();
+            if (window.COSY && typeof window.COSY.showToast === 'function') {
+                window.COSY.showToast('Tour completed! Enjoy learning! 🎉');
+            }
+        }
+    };
+
+    window.prevTourStep = function() {
+        if (currentTourStep > 0) {
+            currentTourStep--;
+            showTourStep(currentTourStep);
+        }
+    };
+
+    function showTourStep(index) {
+        const step = TOUR_STEPS[index];
+        if (!step) return;
+
+        if (activeHighlightedEl) {
+            activeHighlightedEl.classList.remove('cosy-tour-highlight');
+        }
+
+        const targetEl = document.querySelector(step.target);
+        if (!targetEl) {
+            console.warn(`[COSY Tour] Target element not found: ${step.target}`);
+            if (index > currentTourStep) {
+                currentTourStep = index;
+                window.nextTourStep();
+            } else {
+                currentTourStep = index;
+                window.prevTourStep();
+            }
+            return;
+        }
+
+        currentTourStep = index;
+        activeHighlightedEl = targetEl;
+        targetEl.classList.add('cosy-tour-highlight');
+
+        targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+        setTimeout(() => {
+            const tooltip = document.getElementById('cosy-tour-tooltip');
+            const pointer = document.getElementById('cosy-tour-pointer');
+            if (!tooltip || !pointer) return;
+
+            tooltip.innerHTML = `
+                <div class="ctb-header">
+                    <span class="ctb-step-tag">✨ Step ${index + 1} of ${TOUR_STEPS.length}</span>
+                    <button class="ctb-close" onclick="window.endHomepageTour()">✕</button>
+                </div>
+                <h4 class="ctb-title">${step.title}</h4>
+                <p class="ctb-desc">${step.desc}</p>
+                <div class="ctb-actions">
+                    <button class="ctb-btn-skip" onclick="window.endHomepageTour()">Skip</button>
+                    <div style="display:flex; gap: 8px;">
+                        ${index > 0 ? `<button class="ctb-btn-back" onclick="window.prevTourStep()">← Back</button>` : ''}
+                        <button class="ctb-btn-next" onclick="window.nextTourStep()">${index === TOUR_STEPS.length - 1 ? 'Finish 🎉' : 'Next →'}</button>
+                    </div>
+                </div>
+            `;
+
+            positionTooltip(targetEl, step.position);
+            positionPointer(targetEl, step.position);
+        }, 300);
+    }
+
+    window.showNavigationHelpModal = function() {
+        let modal = document.getElementById('cosy-nav-help-modal');
+        if (!modal) {
+            modal = document.createElement('div');
+            modal.id = 'cosy-nav-help-modal';
+            modal.className = 'cosy-tour-modal-overlay';
+
+            const p = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '/';
+
+            modal.innerHTML = `
+                <div class="cosy-tour-modal">
+                    <div class="ctm-header">
+                        <h3>🧭 COSY Navigation Help & Guide</h3>
+                        <button class="ctm-close-btn" onclick="document.getElementById('cosy-nav-help-modal').style.display='none'">×</button>
+                    </div>
+                    <div class="ctm-body">
+                        <p class="ctm-intro">Welcome! Need help finding your way around COSYlanguages? Here is a quick guide to our main sections: ✨</p>
+                        <div class="ctm-map">
+                            <div class="ctm-map-item">
+                                <span class="cmi-icon">🏡</span>
+                                <div class="cmi-content">
+                                    <strong><a href="${p}index.html">Home Page</a></strong>
+                                    <p>Our main gateway. Explore our courses, transparent pricing calculator, and meet our active languages grid.</p>
+                                </div>
+                            </div>
+                            <div class="ctm-map-item">
+                                <span class="cmi-icon">💡</span>
+                                <div class="cmi-content">
+                                    <strong><a href="${p}practice/index.html">Free Practice Hub</a></strong>
+                                    <p>Interactive self-paced exercises for grammar, vocabulary, and daily speaking habits.</p>
+                                </div>
+                            </div>
+                            <div class="ctm-map-item">
+                                <span class="cmi-icon">🎮</span>
+                                <div class="cmi-content">
+                                    <strong><a href="${p}games/index.html">Language Games</a></strong>
+                                    <p>Play 14 interactive multiplayer & solo games like Action Hero or Fluency Flow to build speaking confidence.</p>
+                                </div>
+                            </div>
+                            <div class="ctm-map-item">
+                                <span class="cmi-icon">🎉</span>
+                                <div class="cmi-content">
+                                    <strong><a href="${p}events/index.html">Live Events & Clubs</a></strong>
+                                    <p>Speaking clubs and foreign-language film nights with native-level teachers.</p>
+                                </div>
+                            </div>
+                            <div class="ctm-map-item">
+                                <span class="cmi-icon">📖</span>
+                                <div class="cmi-content">
+                                    <strong>Double-Click Reader</strong>
+                                    <p>Double-click *any word* on *any page* on our site to immediately harvest it to your personal Vocabulary Notebook!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ctm-footer">
+                        <button class="btn-secondary" onclick="document.getElementById('cosy-nav-help-modal').style.display='none'">Close</button>
+                        <a href="${p}index.html?startTour=true" class="btn-primary" style="text-decoration:none;">🏡 Take Interactive Homepage Tour →</a>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+        modal.style.display = 'flex';
+    };
+
+    window.addEventListener('resize', () => {
+        const tooltip = document.getElementById('cosy-tour-tooltip');
+        if (tooltip && tooltip.style.display === 'block' && activeHighlightedEl) {
+            const step = TOUR_STEPS[currentTourStep];
+            if (step) {
+                positionTooltip(activeHighlightedEl, step.position);
+                positionPointer(activeHighlightedEl, step.position);
+            }
+        }
+    });
+
+    window.addEventListener('keydown', (e) => {
+        const tooltip = document.getElementById('cosy-tour-tooltip');
+        if (tooltip && tooltip.style.display === 'block') {
+            if (e.key === 'ArrowRight') {
+                window.nextTourStep();
+            } else if (e.key === 'ArrowLeft') {
+                window.prevTourStep();
+            } else if (e.key === 'Escape') {
+                window.endHomepageTour();
+            }
+        }
+    });
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
@@ -643,6 +1006,36 @@
         setupEmbeddedArticles();
         setupLyricsDisclaimers();
         setupDoubleClickHarvesting();
+
+        // Floating Guide Button Injection
+        if (!document.getElementById('cosy-tour-fab')) {
+            const btn = document.createElement('button');
+            btn.id = 'cosy-tour-fab';
+            btn.className = 'cosy-tour-fab';
+            btn.title = 'Take a site tour! 🧭';
+            btn.innerHTML = '<span class="ct-fab-icon">🧭</span> Guide';
+            document.body.appendChild(btn);
+
+            btn.addEventListener('click', () => {
+                const isHomepage = document.getElementById('calculator') !== null;
+                if (isHomepage) {
+                    window.startHomepageTour();
+                } else {
+                    window.showNavigationHelpModal();
+                }
+            });
+
+            // Check for tour query param on homepage
+            const isHomepage = document.getElementById('calculator') !== null;
+            if (isHomepage) {
+                const urlParams = new URLSearchParams(window.location.search);
+                if (urlParams.get('startTour') === 'true') {
+                    setTimeout(() => {
+                        window.startHomepageTour();
+                    }, 800);
+                }
+            }
+        }
     };
 
     window.updateDailyDose = function() {
