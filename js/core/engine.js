@@ -12,6 +12,91 @@
 ;(function () { 'use strict'
 
 /* ═══════════════════════════════════════════════════════════════
+   LOCAL FAMILY PROFILES SYSTEM & LOCALSTORAGE INTERCEPTOR
+   ═══════════════════════════════════════════════════════════════ */
+window.COSY_PROFILES = {
+    getActiveProfile() {
+        return localStorage.getItem('cosy_active_profile') || 'Guest';
+    },
+    getProfileList() {
+        try {
+            const list = localStorage.getItem('cosy_profile_list');
+            return list ? JSON.parse(list) : ['Guest'];
+        } catch (e) {
+            return ['Guest'];
+        }
+    },
+    setActiveProfile(name) {
+        if (!name) return;
+        localStorage.setItem('cosy_active_profile', name);
+        window.location.reload();
+    },
+    createProfile(name) {
+        name = name.trim();
+        if (!name) return false;
+        const list = this.getProfileList();
+        if (list.includes(name)) return false;
+        list.push(name);
+        localStorage.setItem('cosy_profile_list', JSON.stringify(list));
+        return true;
+    },
+    deleteProfile(name) {
+        if (name === 'Guest') return;
+        let list = this.getProfileList();
+        list = list.filter(p => p !== name);
+        localStorage.setItem('cosy_profile_list', JSON.stringify(list));
+        if (this.getActiveProfile() === name) {
+            localStorage.setItem('cosy_active_profile', 'Guest');
+        }
+        window.location.reload();
+    },
+    getPrefixedKey(key) {
+        const active = this.getActiveProfile();
+        if (active === 'Guest') return key;
+        return `profile_${active}_${key}`;
+    }
+};
+
+function getPrefixedKey(key) {
+    if (window.COSY_PROFILES && typeof window.COSY_PROFILES.getPrefixedKey === 'function') {
+        return window.COSY_PROFILES.getPrefixedKey(key);
+    }
+    return key;
+}
+
+(function() {
+    const originalGetItem = localStorage.getItem;
+    const originalSetItem = localStorage.setItem;
+    const EXCLUDED_GLOBAL_KEYS = ['cosy_theme', 'cosy_active_profile', 'cosy_profile_list'];
+
+    localStorage.getItem = function(key) {
+        if (typeof key === 'string' && !EXCLUDED_GLOBAL_KEYS.includes(key) && (
+            key.startsWith('cosy_') ||
+            key === 'practice_streak' ||
+            key === 'cosy_practice' ||
+            key === 'cosy_notebook'
+        )) {
+            const prefixedKey = getPrefixedKey(key);
+            return originalGetItem.call(localStorage, prefixedKey);
+        }
+        return originalGetItem.call(localStorage, key);
+    };
+
+    localStorage.setItem = function(key, value) {
+        if (typeof key === 'string' && !EXCLUDED_GLOBAL_KEYS.includes(key) && (
+            key.startsWith('cosy_') ||
+            key === 'practice_streak' ||
+            key === 'cosy_practice' ||
+            key === 'cosy_notebook'
+        )) {
+            const prefixedKey = getPrefixedKey(key);
+            return originalSetItem.call(localStorage, prefixedKey, value);
+        }
+        return originalSetItem.call(localStorage, key, value);
+    };
+})();
+
+/* ═══════════════════════════════════════════════════════════════
    1. CONSTANTS & KEYS
    ═══════════════════════════════════════════════════════════════ */
 
@@ -164,6 +249,10 @@ function renderNavLinks(mode) {
 function navFree () {
     const p = getPrefix();
     const t = getNavLabel;
+    const isDark = (localStorage.getItem('cosy_theme') || 'light') === 'dark';
+    const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
+    const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
+    const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
     return `
       <a class="nav-logo" href="${p}index.html" aria-label="${t('home_aria', 'COSYlanguages Home')}">
         <img src="${p}images/logos/cosylanguages.png" alt="COSYlanguages logo" onerror="this.style.display='none'">
@@ -173,7 +262,14 @@ function navFree () {
         ${renderNavLinks('free')}
       </ul>
       <div id="cosy-nav-context" class="nav-context"></div>
-      <div class="nav-right">
+      <div class="nav-right" style="display:flex; align-items:center; gap:8px;">
+        <select id="profile-switcher" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
+          ${profileOptions}
+          <option value="__create__">+ New...</option>
+        </select>
+        <button class="theme-toggle-btn" onclick="COSY.toggleTheme()" aria-label="Toggle Theme" style="background:none; border:none; font-size:1.2rem; cursor:pointer; padding:6px; display:inline-flex; align-items:center; margin-right: 4px;">
+            ${isDark ? '☀️' : '🌙'}
+        </button>
         <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" data-translate-key="nav_contact">${t('contact', '💬 Contact us')}</a>
         <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false">☰</button>
       </div>`
@@ -219,12 +315,23 @@ function applyMode () {
 
 function mobileMenuHTML (mode) {
     const p = getPrefix();
+    const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
+    const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
+    const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
     return `
       <a href="${p}index.html" data-translate-key="nav_home">Home</a>
       <a href="${p}practice/index.html" data-translate-key="nav_practice">💡 Practice</a>
       <a href="${p}games/index.html" data-translate-key="nav_games">🎮 Games</a>
       <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
       <a href="${p}about/index.html" data-translate-key="nav_about">ℹ️ About</a>
+      <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
+      <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
+         <span style="font-size: 0.9rem; color: var(--ink-soft);">Profile:</span>
+         <select id="profile-switcher-mobile" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
+            ${profileOptions}
+            <option value="__create__">+ New...</option>
+         </select>
+      </div>
       <div class="mm-divider"></div>
       <a href="https://wa.me/330766784195" target="_blank" class="mm-cta" data-translate-key="nav_contact">💬 Contact us on WhatsApp</a>`
 }
@@ -415,6 +522,56 @@ window.COSY = {
     get notebook() { return STATE.notebook },
     get dictionary() { return dictionary },
     getPrefix,
+
+    initTheme() {
+        const theme = localStorage.getItem('cosy_theme') || 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        if (theme === 'dark') {
+            document.body.classList.add('theme-dark');
+        } else {
+            document.body.classList.remove('theme-dark');
+        }
+    },
+
+    toggleTheme() {
+        const currentTheme = localStorage.getItem('cosy_theme') || 'light';
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('cosy_theme', newTheme);
+        document.documentElement.setAttribute('data-theme', newTheme);
+        if (newTheme === 'dark') {
+            document.body.classList.add('theme-dark');
+        } else {
+            document.body.classList.remove('theme-dark');
+        }
+        const toggles = document.querySelectorAll('.theme-toggle-btn');
+        toggles.forEach(btn => {
+            btn.innerHTML = newTheme === 'dark' ? '☀️' : '🌙';
+        });
+        if (window.COSY && typeof window.COSY.showToast === 'function') {
+            window.COSY.showToast(`Theme switched to ${newTheme}!`);
+        }
+    },
+
+    switchProfile(name) {
+        if (name === '__create__') {
+            const newName = prompt('Enter name for the new profile:');
+            if (newName && newName.trim()) {
+                const created = window.COSY_PROFILES.createProfile(newName);
+                if (created) {
+                    window.COSY_PROFILES.setActiveProfile(newName.trim());
+                } else {
+                    alert('Profile name already exists or is invalid!');
+                    const switcher = document.getElementById('profile-switcher') || document.getElementById('profile-switcher-mobile');
+                    if (switcher) switcher.value = window.COSY_PROFILES.getActiveProfile();
+                }
+            } else {
+                const switcher = document.getElementById('profile-switcher') || document.getElementById('profile-switcher-mobile');
+                if (switcher) switcher.value = window.COSY_PROFILES.getActiveProfile();
+            }
+        } else {
+            window.COSY_PROFILES.setActiveProfile(name);
+        }
+    },
 
     toggleMobileMenu () {
       const mm = document.getElementById('cosy-mobile-menu')
@@ -641,11 +798,13 @@ window.COSY = {
 
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
+        COSY.initTheme();
         inject();
         COSY.registerSW();
         updateNavActiveState();
     });
 } else {
+    COSY.initTheme();
     inject();
     COSY.registerSW();
     updateNavActiveState();

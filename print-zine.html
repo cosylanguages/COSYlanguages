@@ -180,7 +180,7 @@
 <body class="print-preview">
 
 <div class="print-controls">
-    <select id="sel-lang" onchange="loadCategoryData()">
+    <select id="sel-lang" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
         <option value="en">🇬🇧 English</option>
         <option value="fr">🇫🇷 Français</option>
         <option value="it">🇮🇹 Italiano</option>
@@ -188,7 +188,26 @@
         <option value="el">🇬🇷 Ελληνικά</option>
     </select>
 
-    <button onclick="window.print()" class="btn-action" style="background-color: var(--honey-dark, #b7791f);">🖨️ Print Pocket Zine</button>
+    <select id="sel-level" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+        <option value="A1">Starter (A1)</option>
+        <option value="A2">Elementary (A2)</option>
+        <option value="B1">Intermediate (B1)</option>
+        <option value="B2">Upper-Intermediate (B2)</option>
+        <option value="C1">Advanced (C1)</option>
+        <option value="C2">Proficiency (C2)</option>
+    </select>
+
+    <select id="sel-topic" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+        <option value="adjectives">🏷️ Adjectives</option>
+        <option value="verbs">🏃 Verbs</option>
+        <option value="vocabulary">📖 General Vocab</option>
+        <option value="locations">🗺️ Locations</option>
+        <option value="people">👥 People</option>
+        <option value="dishes">🍕 Dishes &amp; Food</option>
+        <option value="notebook_dict" style="color: var(--sage-dark); font-weight: bold;">⚡ Load My Notebook</option>
+    </select>
+
+    <button onclick="window.print()" class="btn-action" style="background-color: var(--honey-dark, #b7791f); height: 36px;">🖨️ Print Pocket Zine</button>
 </div>
 
 <main class="print-container">
@@ -223,19 +242,46 @@
 
     function loadCategoryData() {
         const lang = document.getElementById('sel-lang').value;
-        const scriptId = 'adjectives-script';
+        const level = document.getElementById('sel-level').value;
+        const topic = document.getElementById('sel-topic').value;
+        const scriptId = 'zine-vocab-script';
+
+        if (topic === 'notebook_dict') {
+            const saved = localStorage.getItem('cosy_dict_free_guest');
+            const dict = saved ? JSON.parse(saved) : {};
+            const list = Object.values(dict);
+            if (list.length > 0) {
+                currentZineWords = list.slice(0, 6);
+            } else {
+                currentZineWords = [
+                    { word: "My Notebook", emoji: "📓", definitions: [{ text: "Harvest words from speaking clubs by double-clicking them!" }] }
+                ];
+            }
+            renderZine();
+            return;
+        }
 
         const oldScript = document.getElementById(scriptId);
         if (oldScript) oldScript.remove();
 
         const script = document.createElement('script');
         script.id = scriptId;
-        script.src = `vocabulary/${lang}/A1/adjectives.js`;
+        script.src = `vocabulary/${lang}/${level}/${topic}.js`;
         script.onload = () => {
             const list = window.vocabularyData[lang] || [];
             if (list.length > 0) {
                 currentZineWords = list.slice(0, 6);
+            } else {
+                currentZineWords = [
+                    { word: "Category not found", emoji: "⚠️", definitions: [{ text: "This language/level doesn't have this category yet." }] }
+                ];
             }
+            renderZine();
+        };
+        script.onerror = () => {
+            currentZineWords = [
+                { word: "Data not available", emoji: "⚠️", definitions: [{ text: "This category/level is not available in this language." }] }
+            ];
             renderZine();
         };
         document.head.appendChild(script);
@@ -243,35 +289,35 @@
 
     function renderZine() {
         const grid = document.getElementById('zine-grid');
+        if (!grid) return;
         grid.innerHTML = '';
 
-        // Standard 8-page mapping for Pocket Zine (Top row rotated 180 deg)
-        // Panel 1 (Top Left, Upside-Down): Page 8 (Back Cover)
-        // Panel 2 (Top Mid-Left, Upside-Down): Page 1 (Front Cover)
-        // Panel 3 (Top Mid-Right, Upside-Down): Page 2 (Word 1)
-        // Panel 4 (Top Right, Upside-Down): Page 7 (Word 6)
-        // Panel 5 (Bottom Left, Upright): Page 3 (Word 2)
-        // Panel 6 (Bottom Mid-Left, Upright): Page 4 (Word 3)
-        // Panel 7 (Bottom Mid-Right, Upright): Page 5 (Word 4)
-        // Panel 8 (Bottom Right, Upright): Page 6 (Word 5)
+        const topicName = document.getElementById('sel-topic').options[document.getElementById('sel-topic').selectedIndex].text;
+        const levelName = document.getElementById('sel-level').options[document.getElementById('sel-level').selectedIndex].text;
+
+        // If less than 6 words, pad to 6
+        const listToRender = [...currentZineWords];
+        while (listToRender.length < 6) {
+            listToRender.push({ word: "---", emoji: "📖", definitions: [{ text: "Add more words!" }] });
+        }
 
         const panels = [
             // Panel 1: Page 8 (Back Cover)
             { type: 'back', text: 'Page 8 (Back Cover)', title: 'My COSY Diary', desc: 'Write down your progress in this booklet.', rotation: 'upside-down' },
             // Panel 2: Page 1 (Front Cover)
-            { type: 'cover', text: 'Page 1 (Front Cover)', title: 'Pocket Dictionary', subtitle: '6 Essential Words', rotation: 'upside-down' },
+            { type: 'cover', text: 'Page 1 (Front Cover)', title: 'Pocket Dictionary', subtitle: `${topicName} (${levelName})`, rotation: 'upside-down' },
             // Panel 3: Page 2 (Word 1)
-            { type: 'word', text: 'Page 2', word: currentZineWords[0], rotation: 'upside-down' },
+            { type: 'word', text: 'Page 2', word: listToRender[0], rotation: 'upside-down' },
             // Panel 4: Page 7 (Word 6)
-            { type: 'word', text: 'Page 7', word: currentZineWords[5], rotation: 'upside-down' },
+            { type: 'word', text: 'Page 7', word: listToRender[5], rotation: 'upside-down' },
             // Panel 5: Page 3 (Word 2)
-            { type: 'word', text: 'Page 3', word: currentZineWords[1], rotation: 'upright' },
+            { type: 'word', text: 'Page 3', word: listToRender[1], rotation: 'upright' },
             // Panel 6: Page 4 (Word 3)
-            { type: 'word', text: 'Page 4', word: currentZineWords[2], rotation: 'upright' },
+            { type: 'word', text: 'Page 4', word: listToRender[2], rotation: 'upright' },
             // Panel 7: Page 5 (Word 4)
-            { type: 'word', text: 'Page 5', word: currentZineWords[3], rotation: 'upright' },
+            { type: 'word', text: 'Page 5', word: listToRender[3], rotation: 'upright' },
             // Panel 8: Page 6 (Word 5)
-            { type: 'word', text: 'Page 6', word: currentZineWords[4], rotation: 'upright' }
+            { type: 'word', text: 'Page 6', word: listToRender[4], rotation: 'upright' }
         ];
 
         panels.forEach(p => {
@@ -299,12 +345,13 @@
                 `;
             } else {
                 const w = p.word || { word: "---", emoji: "📖", definitions: [{ text: "No word loaded." }] };
+                const defText = w.definition || (w.definitions && w.definitions[0] ? w.definitions[0].text : '');
                 contentHtml = `
                     <div class="zine-panel ${p.rotation}">
                         <div class="zine-content">
                             <div class="zine-emoji">${w.emoji || '📖'}</div>
                             <div class="zine-word">${w.word}</div>
-                            <div class="zine-def">${w.definitions && w.definitions[0] ? w.definitions[0].text : ''}</div>
+                            <div class="zine-def">${defText}</div>
                         </div>
                         <div class="zine-page-num">${p.text}</div>
                     </div>
@@ -315,7 +362,7 @@
     }
 
     window.onload = () => {
-        renderZine();
+        loadCategoryData();
     };
 </script>
 

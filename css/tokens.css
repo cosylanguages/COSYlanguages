@@ -107,3 +107,32 @@
     --ere-col: var(--gh-orange);
     --ire-col: #9B59B6;
 }
+
+html[data-theme="dark"], body.theme-dark {
+    --cream:      #1a1f1a;
+    --cream-dark: #141914;
+    --warm-white: #222b22;
+    --ink:        #e8f0e9;
+    --ink-soft:   #c8d8c9;
+    --ink-muted:  #c8d8c9;
+    --ink-faint:  #8a9e8b;
+    --muted:      #8a9e8b;
+    --border:     rgba(107,143,113,.2);
+    --border-hover: rgba(107,143,113,.35);
+
+    /* Sage Theme dark variations */
+    --sage:       #5a7a5f;
+    --sage-dark:  #8a9e8b;
+    --sage-deep:  #e8f0e9;
+    --sage-pale:  #222c23;
+    --sage-mist:  #1f2720;
+    --sage-light: #222c23;
+
+    --paper-bg:   #1a1f1a;
+    --paper-txt:  #e8f0e9;
+
+    --background-color: var(--cream);
+    --surface-color:    #222b22;
+    --text-color:       var(--ink);
+    --light-gray:       var(--cream-dark);
+}
