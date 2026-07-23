@@ -840,6 +840,20 @@ def get_calibrated_templates(level):
             "'The film <em>{title}</em> is an important movie that shows what people worry about.' Explain using <strong>{grammar_focus}</strong>.",
             "'For young people today, the story in <em>{title}</em> moves too slowly.' Say if you agree or not using <strong>{grammar_focus}</strong>."
         ]
+        r2_theme_personal = [
+            "★ In modern life, have you ever chased a goal of <strong>{word}</strong> that turned out to be a mistake? How did you handle it?",
+            "★ Do you think modern society focuses too much on making <strong>{word}</strong> look beautiful, or is it okay to enjoy it? Share your thoughts.",
+            "★ Have you ever met someone whose obsession with <strong>{word}</strong> made life harder for those around them?",
+            "★ Do you prefer simple, feel-good stories about <strong>{word}</strong>, or do you enjoy movies with more complicated emotions?",
+            "★ In your daily life, do you find that problems about <strong>{word}</strong> are easy or difficult to solve?"
+        ]
+        r2_cinematic_personal = [
+            "★ If you could write a script for a movie about your own life, would you want a happy ending or something more open-ended?",
+            "★ Which of your real-life relationships with friends or family resembles the strong bonds shown in the film?",
+            "★ When you watch movies, do you care more about beautiful visuals or interesting dialogues?",
+            "★ What is the biggest worry in modern society that you think filmmakers should make more movies about?",
+            "★ Do you think modern people have too short of an attention span to enjoy slow-paced, classic movies?"
+        ]
     elif is_c1:
         r1_theme = [
             "Deconstruct the profound socio-psychological undercurrents and existential pressures bearing down upon {protagonist} within the highly charged milieu of {setting}. How does their internalization of <strong>{word}</strong> dictate their complex interpersonal dynamics with {key_figures}? Deploy <strong>{grammar_focus}</strong> to formulate a sophisticated philosophical critique of their choices.",
@@ -882,6 +896,20 @@ def get_calibrated_templates(level):
             "'The sensory cinematography and meticulous editing of {setting} are far more eloquent at conveying the unspoken grief than the explicit dialogue.' Assess this using <strong>{grammar_focus}</strong>.",
             "'Within the broader canon of world cinema, <em>{title}</em> stands as an indispensable sociological document that perfectly captures the zeitgeist of its era.' Argue this thesis using <strong>{grammar_focus}</strong>.",
             "'For the contemporary viewer, the deliberateness of the character development and narrative pacing in <em>{title}</em> is anachronistic and fails to engage.' Oppose or defend using <strong>{grammar_focus}</strong>."
+        ]
+        r2_theme_personal = [
+            "★ How do you personally navigate the fine line between healthy ambition and the tragic hubris of pursuing <strong>{word}</strong> in your professional life?",
+            "★ To what extent does contemporary media aestheticize the systemic trauma of <strong>{word}</strong>, and how does this affect your own consumption of news and entertainment?",
+            "★ Have you ever had to sever ties with an individual whose pathological obsession with <strong>{word}</strong> threatened your own peace of mind?",
+            "★ Do you find that modern artistic works tend to oversimplify complex concepts like <strong>{word}</strong>, or do they successfully deconstruct them?",
+            "★ When faced with unresolved or ambiguous conflicts regarding <strong>{word}</strong> in your personal life, do you seek absolute closure or do you tolerate the uncertainty?"
+        ]
+        r2_cinematic_personal = [
+            "★ If you were to deconstruct your life journey using a non-linear narrative structure, which key turning points would emerge as the most existentially significant?",
+            "★ Do you agree that the psychological friction between distinct personalities is the only truly compelling element in human relationships?",
+            "★ In your own life, do you find that silent, unspoken moments and atmospheric environments are more eloquent than explicit verbal communications?",
+            "★ Which contemporary film or series do you believe serves as an indispensable sociological document of our current generation's existential anxieties?",
+            "★ How do you personally guard your focus and cognitive presence against the hyper-accelerated pacing of modern, short-form media?"
         ]
     else:
         # Standard Intermediate templates
@@ -927,8 +955,22 @@ def get_calibrated_templates(level):
             "'In the grand scheme of cinema history, <em>{title}</em> serves as an essential cultural touchstone that perfectly encapsulates its generation's anxieties.' Discuss this philosophical angle using <strong>{grammar_focus}</strong>.",
             "'For a modern audience, the character development and pacing in <em>{title}</em> are too slow-paced and fail to hold the attention of younger viewers.' Defend or oppose this using <strong>{grammar_focus}</strong>."
         ]
+        r2_theme_personal = [
+            "★ Have you ever felt that a personal pursuit of <strong>{word}</strong> was a delusion rather than a realistic goal? What did you learn?",
+            "★ In modern life, do we tend to glamorize the harsh reality of <strong>{word}</strong> on social media? How do you perceive this?",
+            "★ Have you ever known someone whose extreme reliance on <strong>{word}</strong> ended up hurting their friends or family?",
+            "★ Do you prefer films that challenge your views on <strong>{word}</strong>, or do you find comfort in predictable, feel-good movie tropes?",
+            "★ Are there any deep ideological obsessions with <strong>{word}</strong> in your own life that you find difficult to resolve or let go of?"
+        ]
+        r2_cinematic_personal = [
+            "★ If you had to rewrite a major decision in your past to have a more ambiguous or open ending, which one would it be?",
+            "★ Do you agree that the friction in relationships is what makes them interesting, or do you prefer absolute peace and harmony?",
+            "★ When trying to understand a complex emotional situation, do you rely more on visual cues or on direct spoken words?",
+            "★ Which movie or show in your life has acted as a crucial cultural touchstone, perfectly reflecting your own generation's struggles?",
+            "★ Do you find yourself losing patience with slow-paced movies, or do you appreciate deliberate, slow character development?"
+        ]
 
-    return r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_cinematic
+    return r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_theme_personal, r2_cinematic, r2_cinematic_personal
 
 def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
     themes, slangs = parse_themes_and_slangs(focus_raw, slang_raw)
@@ -1333,7 +1375,7 @@ for idx, r in enumerate(rows):
   </div>"""
 
     # Resolve level-calibrated templates for Round 1 & Round 2
-    r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_cinematic = get_calibrated_templates(level_short)
+    r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_theme_personal, r2_cinematic, r2_cinematic_personal = get_calibrated_templates(level_short)
 
     # Generate 10 items for Round 1, each using one of the 10 vocab words
     round1_html = ""
@@ -1398,6 +1440,15 @@ for idx, r in enumerate(rows):
                 conflict=details["conflict"],
                 grammar_focus=grammar_focus
             )
+            r2_personal = r2_theme_personal[r2_idx].format(
+                word=word_lower,
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
         else:
             r2_main = r2_cinematic[r2_idx - 5].format(
                 title=title,
@@ -1407,8 +1458,17 @@ for idx, r in enumerate(rows):
                 conflict=details["conflict"],
                 grammar_focus=grammar_focus
             )
+            r2_personal = r2_cinematic_personal[r2_idx - 5].format(
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
         round2_html += f"""          <div class="round-item">
             <div class="round-item-main">{r2_main}</div>
+            <div class="round-item-personal">{r2_personal}</div>
           </div>\n"""
 
     # Resolve Mistakes Catalog based on Level
