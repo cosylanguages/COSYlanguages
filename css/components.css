@@ -184,10 +184,10 @@
 
 .sec-tag {
     font-size: .75rem;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: .1em;
-    color: var(--ink-muted);
+    color: var(--sage-dark);
     margin-bottom: .6rem;
     display: block;
     text-align: center;
@@ -257,12 +257,14 @@
 }
 
 .hstat {
-    background: rgba(255,255,255,.12);
-    border: 1px solid rgba(255,255,255,.2);
+    background: rgba(26, 43, 29, 0.45);
+    border: 1px solid rgba(255,255,255,.15);
     padding: 1.2rem;
     border-radius: var(--r-lg);
     text-align: center;
     color: #fff;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 /* ── Toasts ────────────────────────────────────────── */
