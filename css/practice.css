@@ -59,7 +59,7 @@
 }
 
 .setup-card, .setup-group, .advanced-options {
-  background: #fff;
+  background: var(--surface-color);
   border-radius: var(--radius);
   padding: 1.4rem 1.6rem;
   box-shadow: var(--shadow-sm);
@@ -193,7 +193,7 @@
 }
 
 .choice-btn {
-    background-color: #fff;
+    background-color: var(--surface-color);
     border: 3px solid var(--border);
     padding: 1.2rem;
     border-radius: 25px;

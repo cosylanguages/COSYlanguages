@@ -247,7 +247,8 @@
         const scriptId = 'zine-vocab-script';
 
         if (topic === 'notebook_dict') {
-            const saved = localStorage.getItem('cosy_dict_free_guest');
+            const key = window.COSY_PROFILES ? window.COSY_PROFILES.getPrefixedKey('cosy_dict_free_guest') : 'cosy_dict_free_guest';
+            const saved = localStorage.getItem(key);
             const dict = saved ? JSON.parse(saved) : {};
             const list = Object.values(dict);
             if (list.length > 0) {
