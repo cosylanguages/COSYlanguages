@@ -793,142 +793,314 @@ def calibrate_text_for_level(text, level, type_="example"):
         text = text.replace("uses", "expertly deploys")
     return text
 
-def get_calibrated_templates(level):
+def get_calibrated_templates(level, film_idx=0):
     is_a2 = "A2" in level or "A1" in level or "starter" in level.lower() or "elementary" in level.lower()
     is_c1 = "C1" in level or "C2" in level or "advanced" in level.lower()
 
     if is_a2:
-        r1_theme = [
-            "Look at how {protagonist} feels in the world of {setting}. How does <strong>{word}</strong> change how they talk to {key_figures}? Use <strong>{grammar_focus}</strong> to give them some advice.",
-            "Is the way {protagonist} deals with <strong>{word}</strong> good or bad? How can we say what is right or wrong here using <strong>{grammar_focus}</strong>?",
-            "How does the film show <strong>{word}</strong> in {setting}? Does it look like our real world? Talk about it using <strong>{grammar_focus}</strong>.",
-            "Talk about {protagonist} and {key_figures}. How does <strong>{word}</strong> make their lives harder? Try using <strong>{grammar_focus}</strong>.",
-            "Find an important part in the film <em>{title}</em> where <strong>{word}</strong> changes the whole story of {conflict}. Explain it using <strong>{grammar_focus}</strong>."
+        r1_theme_pool = [
+            "How does {protagonist} feel about <strong>{word}</strong> in {setting}? Use <strong>{grammar_focus}</strong> to talk about their feelings.",
+            "Is <strong>{word}</strong> a good thing or a bad thing in '{title}'? Tell us what you think using <strong>{grammar_focus}</strong>.",
+            "How does the movie show <strong>{word}</strong> in the world of {setting}? Describe it with <strong>{grammar_focus}</strong>.",
+            "Talk about {protagonist} and {key_figures}. How does <strong>{word}</strong> make their lives difficult? Use <strong>{grammar_focus}</strong>.",
+            "Find a scene in '{title}' where <strong>{word}</strong> changes the story of {conflict}. Explain it using <strong>{grammar_focus}</strong>.",
+            "Does {protagonist} want <strong>{word}</strong>, or are they afraid of it? Tell us using <strong>{grammar_focus}</strong>.",
+            "How do the characters talk about <strong>{word}</strong> when they meet in {setting}? Discuss using <strong>{grammar_focus}</strong>.",
+            "Why is <strong>{word}</strong> important for the ending of '{title}'? Explain with <strong>{grammar_focus}</strong>.",
+            "Do you think {protagonist} makes a mistake because of <strong>{word}</strong>? Answer using <strong>{grammar_focus}</strong>.",
+            "How does <strong>{word}</strong> help {protagonist} solve the problem of {conflict}? Share your ideas with <strong>{grammar_focus}</strong>."
         ]
-        r1_theme_personal = [
-            "★ If you were in {setting}, how would you stay safe from <strong>{word}</strong>?",
-            "★ Have you ever had a hard time where you had to choose <strong>{word}</strong> over a friend like {key_figures}?",
+        r1_theme_personal_pool = [
+            "★ If you were in {setting}, how would you live with <strong>{word}</strong>?",
+            "★ Have you ever had a problem where you had to think about <strong>{word}</strong>?",
             "★ Does the story of <strong>{word}</strong> in the movie feel like real life to you?",
-            "★ If you had a problem about <strong>{word}</strong> with {key_figures}, what would you do?",
-            "★ Do you remember a time in your life when <strong>{word}</strong> changed your own goals?"
+            "★ If you had a fight about <strong>{word}</strong> with a friend, what would you do?",
+            "★ Can you remember a time when <strong>{word}</strong> changed your own plans?",
+            "★ Would you like to have more <strong>{word}</strong> in your daily life? Why?",
+            "★ Do you talk about <strong>{word}</strong> with your family or friends?",
+            "★ What is the best way to handle <strong>{word}</strong> when you are stressed?",
+            "★ If you could help {protagonist} with <strong>{word}</strong>, what would you say?",
+            "★ Do you think <strong>{word}</strong> is easy or hard to find in the real world?"
         ]
-        r1_slang = [
-            "The characters in <em>{title}</em> use the word <strong>'{word}'</strong>. In what scene do they say it to {key_figures}? Use <strong>{grammar_focus}</strong>.",
-            "How does using words like <strong>'{word}'</strong> help us understand the characters in {setting}? Discuss using <strong>{grammar_focus}</strong>.",
-            "In <em>{title}</em>, the phrase <strong>'{word}'</strong> is used in a funny or tense scene between {protagonist} and {key_figures}. Explain it using <strong>{grammar_focus}</strong>.",
-            "The characters use <strong>'{word}'</strong> to hide what they really think during {conflict}. What are they hiding? Explain using <strong>{grammar_focus}</strong>.",
-            "What other interesting words or <strong>{grammar_focus}</strong> did you notice in their conversations?"
+        r1_slang_pool = [
+            "The characters in '{title}' use the word <strong>'{word}'</strong>. When do they say it to {key_figures}? Answer using <strong>{grammar_focus}</strong>.",
+            "How does using words like <strong>'{word}'</strong> make the dialogue in {setting} sound natural? Use <strong>{grammar_focus}</strong>.",
+            "In '{title}', the phrase <strong>'{word}'</strong> is used in a funny or tense scene. Explain what happens using <strong>{grammar_focus}</strong>.",
+            "Why do the characters say <strong>'{word}'</strong> during {conflict}? What does it mean? Explain using <strong>{grammar_focus}</strong>.",
+            "What other interesting words or <strong>{grammar_focus}</strong> did you hear in the conversations?",
+            "Who says <strong>'{word}'</strong> first, and why do they say it? Talk about it using <strong>{grammar_focus}</strong>.",
+            "Does the word <strong>'{word}'</strong> sound polite or impolite in {setting}? Explain with <strong>{grammar_focus}</strong>.",
+            "How does {protagonist} react when someone says <strong>'{word}'</strong>? Use <strong>{grammar_focus}</strong>.",
+            "Can you find another scene where <strong>'{word}'</strong> would fit perfectly? Explain with <strong>{grammar_focus}</strong>.",
+            "Does <strong>'{word}'</strong> help us understand the characters better? Tell us using <strong>{grammar_focus}</strong>."
         ]
-        r1_slang_personal = [
-            "★ Have you or your friends ever used a word like <strong>'{word}'</strong> in real life? Tell us about it using <strong>{grammar_focus}</strong>.",
-            "★ Do you like learning slang words like <strong>'{word}'</strong>, or do you prefer normal words? Share your ideas using <strong>{grammar_focus}</strong>.",
-            "★ Is there a word like <strong>'{word}'</strong> in your own language? How is it different?",
-            "★ When you talk, do you use local words like <strong>'{word}'</strong> or normal, formal words?",
-            "★ Have you ever had a mistake when using a slang word like <strong>'{word}'</strong>? Share your story."
+        r1_slang_personal_pool = [
+            "★ Have you ever heard a word like <strong>'{word}'</strong> in other movies?",
+            "★ Do you like learning slang words like <strong>'{word}'</strong>, or do you prefer normal words?",
+            "★ Is there a word like <strong>'{word}'</strong> in your own language? What is it?",
+            "★ When you speak English, do you use slang like <strong>'{word}'</strong>?",
+            "★ Have you ever made a mistake with a slang word like <strong>'{word}'</strong>?",
+            "★ Do you think it is fun to use words like <strong>'{word}'</strong> with friends?",
+            "★ How do you feel when you understand slang like <strong>'{word}'</strong> in a film?",
+            "★ Would you teach <strong>'{word}'</strong> to other English learners?",
+            "★ What is your favorite new word from the movie '{title}'?",
+            "★ Do you find informal words like <strong>'{word}'</strong> easy to remember?"
         ]
-        r2_theme = [
-            "'{protagonist}'s goal of <strong>{word}</strong> is a bad dream, and they should listen to {key_figures}.' Talk about this using <strong>{grammar_focus}</strong>.",
-            "'The style of {setting} makes <strong>{word}</strong> look too beautiful, but it has a high cost.' Debate this using <strong>{grammar_focus}</strong>.",
-            "'{protagonist} is not a nice person because their focus on <strong>{word}</strong> hurts everyone.' Say if you agree or not using <strong>{grammar_focus}</strong>.",
-            "'The movie <em>{title}</em> uses simple stories about <strong>{word}</strong> instead of deep feelings.' Talk about this using <strong>{grammar_focus}</strong>.",
-            "'The problem of {conflict} never ends because they only care about <strong>{word}</strong>.' Say if you agree or not using <strong>{grammar_focus}</strong>."
+        r2_theme_pool = [
+            "'{protagonist}'s story of <strong>{word}</strong> in '{title}' is very sad, and they should be more careful.' Do you agree? Use <strong>{grammar_focus}</strong>.",
+            "'{protagonist}'s movie makes the world of {setting} look too beautiful, but it has a high cost.' Discuss using <strong>{grammar_focus}</strong>.",
+            "'{protagonist} is not a nice person because they only care about <strong>{word}</strong>.' Give your opinion using <strong>{grammar_focus}</strong>.",
+            "'{protagonist}'s movie '{title}' is too simple and does not show deep feelings about <strong>{word}</strong>.' Talk about this with <strong>{grammar_focus}</strong>.",
+            "'{protagonist}'s problem of {conflict} never ends because they cannot agree on <strong>{word}</strong>.' Explain using <strong>{grammar_focus}</strong>.",
+            "'I think <strong>{word}</strong> is the most important lesson in this film.' Share your thoughts using <strong>{grammar_focus}</strong>.",
+            "'The movie shows that <strong>{word}</strong> can solve any problem.' Do you agree? Answer using <strong>{grammar_focus}</strong>.",
+            "'Without <strong>{word}</strong>, the story of '{title}' would be very boring.' Discuss with <strong>{grammar_focus}</strong>.",
+            "'The characters in {setting} are very lucky to learn about <strong>{word}</strong>.' Explain using <strong>{grammar_focus}</strong>.",
+            "'The film '{title}' teaches us that <strong>{word}</strong> can change a person.' Talk about this using <strong>{grammar_focus}</strong>."
         ]
-        r2_cinematic = [
-            "'The script of <em>{title}</em> would be better if {protagonist} had a different ending.' Suggest a different ending using <strong>{grammar_focus}</strong>.",
-            "'The relationship between {protagonist} and {key_figures} is the best part of the script.' Talk about this using <strong>{grammar_focus}</strong>.",
-            "'The beautiful pictures and scenes in {setting} are better than the words spoken.' Discuss using <strong>{grammar_focus}</strong>.",
-            "'The film <em>{title}</em> is an important movie that shows what people worry about.' Explain using <strong>{grammar_focus}</strong>.",
-            "'For young people today, the story in <em>{title}</em> moves too slowly.' Say if you agree or not using <strong>{grammar_focus}</strong>."
+        r2_theme_personal_pool = [
+            "★ If you were a film maker, would you make a movie about <strong>{word}</strong>?",
+            "★ Do you like movies with beautiful pictures or movies with great dialogue?",
+            "★ Do you like the ending of the movie '{title}', or do you want a different ending?",
+            "★ If you had to choose a song for the movie '{title}', what kind of music would it be?",
+            "★ Do you like stories that have a happy ending?",
+            "★ Did your ideas about <strong>{word}</strong> change after watching this movie?",
+            "★ Would you like to live in {setting} for a day?",
+            "★ Who was your favorite character in the movie?",
+            "★ Do you think movies should teach us good things about life?",
+            "★ What was the most beautiful scene in the movie?"
+        ]
+        r2_cinematic_pool = [
+            "'The movie '{title}' would be better if {protagonist} had a happy ending.' Talk about this using <strong>{grammar_focus}</strong>.",
+            "'The friendship between {protagonist} and {key_figures} is the best part of the movie.' Explain using <strong>{grammar_focus}</strong>.",
+            "'The music and pictures in {setting} are better than the words spoken.' Share your ideas using <strong>{grammar_focus}</strong>.",
+            "'The film '{title}' is an important movie for young people today.' Discuss using <strong>{grammar_focus}</strong>.",
+            "'The story in '{title}' moves too slowly for a modern audience.' Agree or disagree using <strong>{grammar_focus}</strong>.",
+            "'The director does a great job showing {setting} in a realistic way.' Explain using <strong>{grammar_focus}</strong>.",
+            "'I did not like the main conflict of {conflict} because it was too simple.' Answer using <strong>{grammar_focus}</strong>.",
+            "'The movie was very exciting to watch from start to finish.' Tell us why using <strong>{grammar_focus}</strong>.",
+            "'The secondary characters in '{title}' are more fun to watch than the main characters.' Explain with <strong>{grammar_focus}</strong>.",
+            "'The scenes in {setting} make me want to visit that place.' Share your thoughts with <strong>{grammar_focus}</strong>."
+        ]
+        r2_cinematic_personal_pool = [
+            "★ Would you like to act in a movie like '{title}'?",
+            "★ What kind of movies make you feel happy?",
+            "★ If you could meet {protagonist}, what would you say to them?",
+            "★ Do you watch movies to learn a language or just for fun?",
+            "★ Do you like old movies or new movies more?",
+            "★ Who is your favorite film actor or actress?",
+            "★ Does the music in a film make you feel sad or excited?",
+            "★ What is the best movie you have ever seen?",
+            "★ Do you prefer watching movies at home or in a cinema?",
+            "★ If you could make a movie, what would it be about?"
         ]
     elif is_c1:
-        r1_theme = [
-            "Deconstruct the profound socio-psychological undercurrents and existential pressures bearing down upon {protagonist} within the highly charged milieu of {setting}. How does their internalization of <strong>{word}</strong> dictate their complex interpersonal dynamics with {key_figures}? Deploy <strong>{grammar_focus}</strong> to formulate a sophisticated philosophical critique of their choices.",
-            "To what extent does {protagonist}'s pursuit of <strong>{word}</strong> challenge conventional ethical boundaries and subvert the moral architecture of {setting}? Discuss the ethical ramifications using <strong>{grammar_focus}</strong>.",
+        r1_theme_pool = [
+            "Deconstruct the profound socio-psychological undercurrents bearing down upon {protagonist} within the highly charged milieu of {setting}. How does their internalization of <strong>{word}</strong> dictate their complex interpersonal dynamics with {key_figures}? Deploy <strong>{grammar_focus}</strong> to formulate a sophisticated philosophical critique.",
+            "To what extent does the pursuit of <strong>{word}</strong> in '{title}' challenge conventional ethical boundaries and subvert the moral architecture of {setting}? Discuss the ethical ramifications using <strong>{grammar_focus}</strong>.",
             "Analyze how the systemic representation of <strong>{word}</strong> in {setting} acts as an allegorical commentary on contemporary socio-political frameworks. Formulate your critical synthesis using <strong>{grammar_focus}</strong>.",
-            "Investigate the highly complex, emotionally fraught dynamics between {protagonist} and {key_figures}. How does the friction surrounding <strong>{word}</strong> manifest as an irreconcilable ideological divide, and how is this reflected in the syntax of <strong>{grammar_focus}</strong>?",
-            "Identify the pivotal cinematic watershed moment in <em>{title}</em> where the focus on <strong>{word}</strong> fundamentally alters the narrative trajectory of {conflict}. Scrutinize this transformation employing <strong>{grammar_focus}</strong>."
+            "Investigate the psychological friction between {protagonist} and {key_figures}. In what ways does <strong>{word}</strong> manifest as an irreconcilable ideological divide, and how is this reflected in the syntax of <strong>{grammar_focus}</strong>?",
+            "Identify the pivotal cinematic watershed moment in '{title}' where the focus on <strong>{word}</strong> fundamentally alters the narrative trajectory of {conflict}. Scrutinize this transformation employing <strong>{grammar_focus}</strong>.",
+            "How does the director use the spatial politics of {setting} to externalize the internal turmoil of {protagonist} grappling with <strong>{word}</strong>? Analyze using <strong>{grammar_focus}</strong>.",
+            "To what degree is the narrative of '{title}' a critique of the commodification or idealization of <strong>{word}</strong>? Critique using <strong>{grammar_focus}</strong>.",
+            "Explore the subtextual nuances in the conversations between {protagonist} and {key_figures}, highlighting how the shadow of <strong>{word}</strong> dominates their verbal exchanges. Frame your analysis with <strong>{grammar_focus}</strong>.",
+            "Synthesize the thematic intersection of <strong>{word}</strong>, the setting of {setting}, and the resolution of {conflict}. Deploy <strong>{grammar_focus}</strong> to support your thesis.",
+            "Does the screenplay position <strong>{word}</strong> as an agent of existential liberation or as a psychological prison for {protagonist}? Elaborate utilizing <strong>{grammar_focus}</strong>."
         ]
-        r1_theme_personal = [
-            "★ Extrapolating from the milieu of {setting}, how would you personally insulate your core values against the corrosive influence of <strong>{word}</strong>?",
-            "★ Recall a high-stakes scenario in your own experience where you were forced to negotiate a compromise between <strong>{word}</strong> and a vital relationship resembling {key_figures}.",
-            "★ To what degree does the film's portrayal of <strong>{word}</strong> resonate with or challenge your personal weltanschauung regarding modern societal structures?",
-            "★ If you were tasked with mediating an ideological conflict regarding <strong>{word}</strong> with {key_figures}, what sophisticated strategies would you utilize?",
-            "★ Can you reflect on a profound personal transition where the reality of <strong>{word}</strong> necessitated a complete re-evaluation of your existential priorities?"
+        r1_theme_personal_pool = [
+            "★ If you were tasked with navigating the existential anxieties of {setting}, how would you personally insulate your core values against <strong>{word}</strong>?",
+            "★ Have you ever navigated a high-stakes ethical crossroads where you had to sacrifice a relationship with someone like {key_figures} to preserve your stance on <strong>{word}</strong>?",
+            "★ To what extent does the film's cynical or idealized portrayal of <strong>{word}</strong> resonate with your personal observations of modern institutional values?",
+            "★ If you were called upon to mitigate the ideological rift regarding <strong>{word}</strong> between {protagonist} and {key_figures}, what conflict-resolution strategy would you employ?",
+            "★ Can you reflect on a profound personal transition where the reality of <strong>{word}</strong> necessitated a complete re-evaluation of your existential priorities?",
+            "★ How would you advise someone exhibiting the same self-destructive patterns as {protagonist} concerning their relationship with <strong>{word}</strong>?",
+            "★ In your estimation, does modern society overvalue <strong>{word}</strong>, or is it a necessary prerequisite for genuine individual autonomy?",
+            "★ Have you ever felt alienated by the dominant cultural narratives surrounding <strong>{word}</strong> in your professional or academic circle?",
+            "★ What cognitive strategies do you utilize to maintain equilibrium when your personal values regarding <strong>{word}</strong> are systematically challenged?",
+            "★ If you had the agency to intervene at a critical decision-making juncture for {protagonist} regarding <strong>{word}</strong>, which path would you force them to take?"
         ]
-        r1_slang = [
-            "Within the dialogic architecture of <em>{title}</em>, the screenplay deploys the nuanced colloquialism <strong>'{word}'</strong>. How does this specific lexical choice illuminate the underlying subtext between {protagonist} and {key_figures}? Frame your analysis utilizing <strong>{grammar_focus}</strong>.",
+        r1_slang_pool = [
+            "Within the dialogic architecture of '{title}', the screenplay deploys the nuanced colloquialism <strong>'{word}'</strong>. How does this specific lexical choice illuminate the underlying power dynamics between {protagonist} and {key_figures}? Frame your analysis utilizing <strong>{grammar_focus}</strong>.",
             "Analyze how the organic integration of authentic idioms like <strong>'{word}'</strong> serves as a vital stylistic mechanism to establish verisimilitude and atmosphere in {setting}. Discuss employing <strong>{grammar_focus}</strong>.",
-            "In <em>{title}</em>, the phrase <strong>'{word}'</strong> serves as a highly charged linguistic signifier of tension or irony between {protagonist} and {key_figures}. Deconstruct the shifting tonal registers of this scene using <strong>{grammar_focus}</strong>.",
+            "In '{title}', the phrase <strong>'{word}'</strong> serves as a highly charged linguistic signifier of tension or irony between {protagonist} and {key_figures}. Deconstruct the shifting tonal registers of this scene using <strong>{grammar_focus}</strong>.",
             "The screenplay expertly utilizes the colloquial expression <strong>'{word}'</strong> to convey rich emotional subtext that the characters deliberately avoid verbalizing during {conflict}. What hidden desires or anxieties does this reveal? Formulate your thesis using <strong>{grammar_focus}</strong>.",
-            "Examine how the vernacular exchanges containing <strong>'{word}'</strong> reflect broader socio-linguistic shifts and regional varieties. Highlight specific structural patterns of <strong>{grammar_focus}</strong> in your answer."
+            "Examine how the vernacular exchanges containing <strong>'{word}'</strong> reflect broader socio-linguistic shifts and regional varieties. Highlight specific structural patterns of <strong>{grammar_focus}</strong> in your answer.",
+            "Critically assess why the writer opted for the slang term <strong>'{word}'</strong> rather than a more formal lexical equivalent to articulate {protagonist}'s psychological state. Address this using <strong>{grammar_focus}</strong>.",
+            "How does the sudden introduction of colloquial language like <strong>'{word}'</strong> disrupt the established linguistic register and escalate the drama of {conflict}? Evaluate using <strong>{grammar_focus}</strong>.",
+            "In what ways does the usage of <strong>'{word}'</strong> by {key_figures} delineate their sociological positioning and cultural alignment relative to {protagonist}? Scrutinize with <strong>{grammar_focus}</strong>.",
+            "How does a precise reading of colloquial expressions like <strong>'{word}'</strong> deepen our comprehension of the screenplay's overarching critique of {setting}? Discuss employing <strong>{grammar_focus}</strong>.",
+            "Deconstruct the dramatic irony of a scene where <strong>'{word}'</strong> is used to mask a profound existential vulnerability from {key_figures}. Frame your critique using <strong>{grammar_focus}</strong>."
         ]
-        r1_slang_personal = [
-            "★ Have you ever integrated a highly localized idiom like <strong>'{word}'</strong> into your conversational repertoire? Detail the communicative outcome using <strong>{grammar_focus}</strong>.",
-            "★ Do you find that acquiring highly idiomatic registers like <strong>'{word}'</strong> enhances your linguistic empathy, or do you prefer mastering formal, standardized registers? Provide a reasoned defense using <strong>{grammar_focus}</strong>.",
+        r1_slang_personal_pool = [
+            "★ Have you ever integrated a highly localized idiom like <strong>'{word}'</strong> into your conversational repertoire? Detail the communicative outcome.",
+            "★ Do you find that acquiring highly idiomatic registers like <strong>'{word}'</strong> enhances your linguistic empathy, or do you prefer mastering formal, standardized registers?",
             "★ What cultural or conceptual challenges arise when attempting to translate a specialized expression like <strong>'{word}'</strong> into your native tongue?",
             "★ In high-stakes personal communications, do you tend to resort to indirect colloquial markers like <strong>'{word}'</strong> to soften your delivery, or do you rely on direct syntactic clarity?",
-            "★ Relate an instance where a subtle misunderstanding of a regional idiom like <strong>'{word}'</strong> altered the dynamic of an interaction. Frame your narrative using <strong>{grammar_focus}</strong>."
+            "★ Relate an instance where a subtle misunderstanding of a regional idiom like <strong>'{word}'</strong> altered the dynamic of an interaction.",
+            "★ To what extent does the mastery of slang like <strong>'{word}'</strong> indicate true acculturation rather than mere linguistic competence?",
+            "★ Do you believe that the proliferation of global media is homogenizing colloquial expressions, rendering local idioms like <strong>'{word}'</strong> obsolete?",
+            "★ How do you navigate conversations when a speaker continuously deploys unfamiliar vernacular like <strong>'{word}'</strong> without coming across as defensive?",
+            "★ What does your favorite piece of idiomatic dialogue from '{title}' reveal about your own aesthetic preferences in dramatic writing?",
+            "★ If you were compile a glossary of socio-cultural markers for '{title}', how would you contextualize the resonance of <strong>'{word}'</strong>?"
         ]
-        r2_theme = [
-            "'{protagonist}'s relentless pursuit of <strong>{word}</strong> represents an exercise in tragic hubris rather than a heroic endeavor, rendering their conflict with {key_figures} entirely self-inflicted.' Critically evaluate this assertion utilizing <strong>{grammar_focus}</strong>.",
+        r2_theme_pool = [
+            "'The protagonist's relentless pursuit of <strong>{word}</strong> represents an exercise in tragic hubris rather than a heroic endeavor, rendering their conflict with {key_figures} entirely self-inflicted.' Critically evaluate this assertion utilizing <strong>{grammar_focus}</strong>.",
             "'The stylistic aestheticization of {setting} serves to romanticize the systemic trauma of <strong>{word}</strong>, thereby diluting its raw human cost.' Debate this philosophical proposition using <strong>{grammar_focus}</strong>.",
             "'{protagonist} is portrayed as a fundamentally flawed archetype whose pathological obsession with <strong>{word}</strong> acts as a catalyst for the ruin of {key_figures}.' Defend or refute using <strong>{grammar_focus}</strong>.",
-            "'As an intellectual cinematic piece, <em>{title}</em> transcends predictable conventions of <strong>{word}</strong>, opting instead for a highly complex psychological deconstruction.' Evaluate using <strong>{grammar_focus}</strong>.",
-            "'The resolution of {conflict} remains intentionally ambiguous because the characters' worldview is permanently compromised by their ideological focus on <strong>{word}</strong>.' Synthesize your argument using <strong>{grammar_focus}</strong>."
+            "'As an intellectual cinematic piece, '{title}' transcends predictable conventions of <strong>{word}</strong>, opting instead for a highly complex psychological deconstruction.' Evaluate using <strong>{grammar_focus}</strong>.",
+            "'The resolution of {conflict} remains intentionally ambiguous because the characters' worldview is permanently compromised by their ideological focus on <strong>{word}</strong>.' Synthesize your argument using <strong>{grammar_focus}</strong>.",
+            "'The film's exploration of <strong>{word}</strong> exposes the inherent decay of the institutions depicted in {setting}.' Discuss this critical interpretation using <strong>{grammar_focus}</strong>.",
+            "'The thematic weight of <strong>{word}</strong> acts as an existential mirror, forcing the audience to confront their own complicity in similar social structures.' Elaborate utilizing <strong>{grammar_focus}</strong>.",
+            "'Without the structural anchor of <strong>{word}</strong>, the dramatic tension between {protagonist} and {key_figures} would dissolve into mere melodrama.' Assess this critique using <strong>{grammar_focus}</strong>.",
+            "'The screenplay implies that <strong>{word}</strong> is ultimately a destructive fiction created to sustain the oppressive atmosphere of {setting}.' Argue this thesis using <strong>{grammar_focus}</strong>.",
+            "'The director employs <strong>{word}</strong> not as a simple narrative device, but as a metaphysical inquiry into human isolation.' Evaluate using <strong>{grammar_focus}</strong>."
         ]
-        r2_cinematic = [
-            "'The screenplay of <em>{title}</em> would have achieved a far more profound existential resonance had the director opted for a non-linear structure for {protagonist}.' Propound an alternative narrative strategy using <strong>{grammar_focus}</strong>.",
+        r2_theme_personal_pool = [
+            "★ If you were tasked with directing a film, what visual metaphors and spatial arrangements would you deploy to symbolize <strong>{word}</strong>?",
+            "★ Do you contend that a film's sensory and aesthetic execution is inherently more articulate than its literary screenplay?",
+            "★ Have you ever analyzed a film whose alternative screenplay path or deleted scenes would have fundamentally subverted its commercial message?",
+            "★ If you were to curate a sonic palette or score to encapsulate the psychological weight of <strong>{word}</strong> in your own life, what genres would you select?",
+            "★ Do you lean toward cinematic narratives that refuse to offer resolution, or do you view ambiguous endings as an artistic cop-out?",
+            "★ In what ways has your intellectual appreciation of a complex theme like <strong>{word}</strong> evolved over the course of your life?",
+            "★ If you were forced to inhabit the hostile setting of {setting}, how would you strategically preserve your psychological integrity?",
+            "★ Which character in '{title}' did you find most intellectually challenging to empathize with, and why?",
+            "★ Do you believe that serious cinema has a moral obligation to act as a catalyst for societal reflection on issues like <strong>{word}</strong>?",
+            "★ What specific sequence in '{title}' do you consider a masterpiece of visual storytelling, and how did it influence your thinking?"
+        ]
+        r2_cinematic_pool = [
+            "'The screenplay of '{title}' would have achieved a far more profound existential resonance had the director opted for a non-linear structure for {protagonist}.' Propound an alternative narrative strategy using <strong>{grammar_focus}</strong>.",
             "'The psychological friction between {protagonist} and {key_figures} constitutes the sole redeeming thematic thread, rendering the rest of the screenplay auxiliary.' Critique this view using <strong>{grammar_focus}</strong>.",
             "'The sensory cinematography and meticulous editing of {setting} are far more eloquent at conveying the unspoken grief than the explicit dialogue.' Assess this using <strong>{grammar_focus}</strong>.",
-            "'Within the broader canon of world cinema, <em>{title}</em> stands as an indispensable sociological document that perfectly captures the zeitgeist of its era.' Argue this thesis using <strong>{grammar_focus}</strong>.",
-            "'For the contemporary viewer, the deliberateness of the character development and narrative pacing in <em>{title}</em> is anachronistic and fails to engage.' Oppose or defend using <strong>{grammar_focus}</strong>."
+            "'Within the broader canon of world cinema, '{title}' stands as an indispensable sociological document that perfectly captures the zeitgeist of its era.' Argue this thesis using <strong>{grammar_focus}</strong>.",
+            "'For the contemporary viewer, the deliberateness of the character development and narrative pacing in '{title}' is anachronistic and fails to engage.' Oppose or defend using <strong>{grammar_focus}</strong>.",
+            "'The director's precise framing and use of negative space in {setting} visually represent the inescapable entrapment of {protagonist}.' Deconstruct using <strong>{grammar_focus}</strong>.",
+            "'The script suffers from a reliance on narrative contrivances that undermine the psychological authenticity of {conflict}.' Critique employing <strong>{grammar_focus}</strong>.",
+            "'The film's ultimate worldview is one of uncompromising nihilism, offerring no avenues of redemption for {protagonist}.' Analyze utilizing <strong>{grammar_focus}</strong>.",
+            "'The supporting cast, specifically {key_figures}, serve as the true ideological engine of the film, overshadowing the main protagonist.' Evaluate using <strong>{grammar_focus}</strong>.",
+            "'The recursive visual motifs throughout '{title}' function as a sophisticated subtextual dialogue with the viewer.' Discuss using <strong>{grammar_focus}</strong>."
+        ]
+        r2_cinematic_personal_pool = [
+            "★ Under what circumstances would you consider translating your personal autobiographical experiences into a dramatic screenplay?",
+            "★ Which aspect of cinematic craftsmanship (sound design, color grading, editing tempo) do you find has the most visceral impact on your emotions?",
+            "★ If you were executive producing a contemporary reimagining of '{title}', what structural modifications would you introduce?",
+            "★ Do you prefer to engage with cinema as a purely aesthetic escape, or do you view it as a primary medium for philosophical inquiry?",
+            "★ How does your cognitive engagement shift when a film demands active interpretation of non-linear sequences and unreliable narrators?",
+            "★ If you were granted an audience with the director of '{title}', what specific stylistic choice would you ask them to defend?",
+            "★ To what extent does a meticulously constructed cinematic setting alter or dictate your perception of character morality?",
+            "★ What is your personal philosophy regarding the artistic necessity of alternative or director-cut endings?",
+            "★ How do you think the democratization of film production and distribution has influenced the artistic risks taken by modern screenwriters?",
+            "★ If you were to archive a single frame from '{title}' as a representative artifact of modern visual culture, which would you select?"
         ]
     else:
-        # Standard Intermediate templates
-        r1_theme = [
-            "Analyze the intense psychological pressures on {protagonist} in the high-stakes environment of {setting}. How does their <strong>{word}</strong> shape their reactions to {key_figures}? Try using <strong>{grammar_focus}</strong> to formulate a piece of advice or warning you would give them.",
-            "Does {protagonist}'s approach to <strong>{word}</strong> raise significant moral or ethical questions in their pursuit of {conflict}? How would you express an ethical judgment about this using <strong>{grammar_focus}</strong>?",
-            "How does the depiction of <strong>{word}</strong> in {setting} serve as a mirror or critique of real-world societal structures? Can you construct a sharp critique using <strong>{grammar_focus}</strong>?",
-            "Discuss the complex, mature relational dynamics between {protagonist} and {key_figures}. In what ways does the struggle over <strong>{word}</strong> create an irreconcilable rift, and how does <strong>{grammar_focus}</strong> manifest in their dialogue?",
-            "Identify a crucial turning point in <em>{title}</em> where <strong>{word}</strong> completely alters the course of {conflict}. How would you describe the shift using <strong>{grammar_focus}</strong>?"
+        # Standard Intermediate
+        r1_theme_pool = [
+            "In the world of {setting}, how does {protagonist}'s attitude toward <strong>{word}</strong> influence their relationship with {key_figures}? Formulate your thoughts using <strong>{grammar_focus}</strong>.",
+            "Does the pursuit of <strong>{word}</strong> in '{title}' create an irreversible ethical dilemma for {protagonist}? Frame your judgment using <strong>{grammar_focus}</strong>.",
+            "How is <strong>{word}</strong> depicted in '{title}' as a reflection of larger social issues within {setting}? Analyze this using <strong>{grammar_focus}</strong>.",
+            "Deconstruct the friction between {protagonist} and {key_figures}. In what ways does <strong>{word}</strong> fuel their conflict, and how is this expressed through <strong>{grammar_focus}</strong>?",
+            "Identify the exact point in the screenplay of '{title}' where <strong>{word}</strong> completely redirects the course of {conflict}. Describe the shift using <strong>{grammar_focus}</strong>.",
+            "How does the atmosphere of {setting} reinforce the struggle of {protagonist} as they cope with <strong>{word}</strong>? Answer utilizing <strong>{grammar_focus}</strong>.",
+            "To what extent is {protagonist} defined by their obsession with <strong>{word}</strong> during {conflict}? Discuss with <strong>{grammar_focus}</strong>.",
+            "How do the conversations between {protagonist} and {key_figures} reveal hidden anxieties about <strong>{word}</strong>? Focus on <strong>{grammar_focus}</strong>.",
+            "If you analyze '{title}' closely, how does the theme of <strong>{word}</strong> tie together the setting of {setting} and the central conflict? Use <strong>{grammar_focus}</strong>.",
+            "Does the director portray <strong>{word}</strong> as a source of strength or a profound vulnerability for {protagonist}? Explain using <strong>{grammar_focus}</strong>."
         ]
-        r1_theme_personal = [
-            "★ If you found yourself in {setting}, how would you personally protect your own values against <strong>{word}</strong>?",
-            "★ Have you ever faced a high-stakes dilemma where you had to prioritize <strong>{word}</strong> over your relationship with someone like {key_figures}?",
-            "★ How does the portrayal of <strong>{word}</strong> in the film align with your personal views on modern societal values?",
-            "★ If you had to resolve a clash about <strong>{word}</strong> with {key_figures}, what strategy would you adopt?",
-            "★ Can you recall a major turning point in your own life where <strong>{word}</strong> redefined your personal goals?"
+        r1_theme_personal_pool = [
+            "★ If you were placed in {setting}, how would you personally handle the challenges of <strong>{word}</strong>?",
+            "★ Have you ever had to choose between your personal values regarding <strong>{word}</strong> and a close relationship like {key_figures}?",
+            "★ Does the cinematic portrayal of <strong>{word}</strong> in '{title}' match your own experiences in the real world?",
+            "★ How would you resolve a major disagreement about <strong>{word}</strong> if you were in {protagonist}'s shoes?",
+            "★ Can you recall a specific moment in your own life where <strong>{word}</strong> forced you to change your future goals?",
+            "★ If a friend of yours behaved like {protagonist} regarding <strong>{word}</strong>, what kind of advice would you give them?",
+            "★ In your view, is <strong>{word}</strong> generally a positive trait in modern society, or does it cause more harm than good?",
+            "★ Have you ever felt overwhelmed by the social expectations of <strong>{word}</strong> in your own environment?",
+            "★ What is your personal strategy for keeping <strong>{word}</strong> in balance when facing stressful situations?",
+            "★ If you had the opportunity to change one choice made by {protagonist} regarding <strong>{word}</strong>, what would it be?"
         ]
-        r1_slang = [
-            "During a crucial conversation in {setting}, the screenplay of <em>{title}</em> features the expression/slang <strong>'{word}'</strong>. In what context do the characters use it to express their feelings towards {key_figures}? Integrate <strong>{grammar_focus}</strong> in your response.",
-            "How does the use of authentic dialogue like <strong>'{word}'</strong> help the director establish character depth and the unique atmosphere of {setting}? Discuss using <strong>{grammar_focus}</strong>.",
-            "In <em>{title}</em>, the phrase <strong>'{word}'</strong> highlights a moment of tension or humor between {protagonist} and {key_figures}. How does the tone of this scene shift, and how would you describe it utilizing <strong>{grammar_focus}</strong>?",
-            "The characters use the expression <strong>'{word}'</strong> to convey subtext that they might not want to say directly during {conflict}. What are they hiding, and how can we describe their motive using <strong>{grammar_focus}</strong>?",
-            "Analyzing dialogue containing <strong>'{word}'</strong> provides insights into the film's social context. What other linguistic nuances or <strong>{grammar_focus}</strong> patterns did you observe in these verbal exchanges?"
+        r1_slang_pool = [
+            "During a memorable exchange in '{title}', the screenplay introduces the colloquialism <strong>'{word}'</strong>. In what context do the characters use it when dealing with {key_figures}? Integrate <strong>{grammar_focus}</strong>.",
+            "How does the authentic dialogue of '{title}', specifically the expression <strong>'{word}'</strong>, add realistic color to the atmosphere of {setting}? Respond using <strong>{grammar_focus}</strong>.",
+            "In the dialogue between {protagonist} and {key_figures}, the phrase <strong>'{word}'</strong> highlights a moment of deep tension or humor. Analyze this scene using <strong>{grammar_focus}</strong>.",
+            "The script uses <strong>'{word}'</strong> to convey underlying motives that characters avoid saying directly during {conflict}. What is being hidden? Frame your thoughts using <strong>{grammar_focus}</strong>.",
+            "Deconstruct the social context of '{title}' by examining how the slang <strong>'{word}'</strong> is received by {key_figures}. Focus on <strong>{grammar_focus}</strong>.",
+            "Why does {protagonist} choose an informal expression like <strong>'{word}'</strong> instead of more formal language in {setting}? Analyze with <strong>{grammar_focus}</strong>.",
+            "How does the tone shift when <strong>'{word}'</strong> is spoken during a critical turning point of {conflict}? Incorporate <strong>{grammar_focus}</strong>.",
+            "What does the screenplay's use of <strong>'{word}'</strong> tell us about the social class or background of the characters? Discuss using <strong>{grammar_focus}</strong>.",
+            "In what ways does learning authentic expressions like <strong>'{word}'</strong> help you connect with the emotional weight of '{title}'? Use <strong>{grammar_focus}</strong>.",
+            "How does <strong>'{word}'</strong> function as a subtextual cue during a confrontation between {protagonist} and {key_figures}? Explain using <strong>{grammar_focus}</strong>."
         ]
-        r1_slang_personal = [
-            "★ Have you or your friends ever used a similar colloquial expression like <strong>'{word}'</strong> in a real-life conversation? Describe the scenario using <strong>{grammar_focus}</strong>.",
-            "★ Do you enjoy learning authentic slang like <strong>'{word}'</strong>, or do you prefer focusing on formal language registers? Share your thoughts using <strong>{grammar_focus}</strong>.",
-            "★ Can you think of an equivalent slang expression in your native language for <strong>'{word}'</strong>? How does it compare in terms of cultural nuance?",
-            "★ When you want to convey a hidden meaning, do you use local idioms/slang like <strong>'{word}'</strong> or do you rely on direct, formal communication?",
-            "★ Have you ever had a misunderstanding when using a regional expression or slang word like <strong>'{word}'</strong>? Describe the experience."
+        r1_slang_personal_pool = [
+            "★ Have you ever used a slang term or colloquial expression like <strong>'{word}'</strong> in your own life? Tell us about it.",
+            "★ Do you think learning informal slang like <strong>'{word}'</strong> is essential for fluency, or do you prefer formal language?",
+            "★ Is there an equivalent idiom in your native language for the expression <strong>'{word}'</strong>? How does it compare?",
+            "★ When you want to express a complex feeling, do you rely on direct words or colloquial markers like <strong>'{word}'</strong>?",
+            "★ Have you ever had a funny or awkward misunderstanding when using an informal phrase like <strong>'{word}'</strong>?",
+            "★ Do you find that movie slang like <strong>'{word}'</strong> helps you understand the culture of the characters better?",
+            "★ In what situations do you think using informal slang like <strong>'{word}'</strong> is inappropriate or risky?",
+            "★ How do you usually react when someone uses unfamiliar regional expressions like <strong>'{word}'</strong> during a conversation?",
+            "★ What is your favorite piece of informal dialogue from '{title}', and why does it stick with you?",
+            "★ If you had to explain the meaning of <strong>'{word}'</strong> to a language learner, what examples would you give?"
         ]
-        r2_theme = [
-            "'{protagonist}'s ultimate pursuit of <strong>{word}</strong> is a tragic delusion rather than a noble quest, and they should have surrendered to {key_figures}.' Analyze this statement using <strong>{grammar_focus}</strong>.",
-            "'The director's aesthetic choices in {setting} glamorize the harsh reality of <strong>{word}</strong> instead of depicting its true personal cost.' Debate this using <strong>{grammar_focus}</strong>.",
-            "'{protagonist} is fundamentally an unsympathetic character whose reliance on <strong>{word}</strong> brings down everyone around them.' Argue your stance using <strong>{grammar_focus}</strong>.",
-            "'As a piece of mature cinema, <em>{title}</em> relies too heavily on predictable tropes of <strong>{word}</strong> instead of exploring more nuanced psychological territories.' Evaluate using <strong>{grammar_focus}</strong>.",
-            "'The central conflict of {conflict} is never truly resolved because the characters are trapped by their own ideological obsession with <strong>{word}</strong>.' Prove or disprove this using <strong>{grammar_focus}</strong>."
+        r2_theme_pool = [
+            "'{protagonist}'s ultimate struggle for <strong>{word}</strong> in '{title}' is a tragic illusion that only leads to the isolation of {protagonist}.' Evaluate this claim using <strong>{grammar_focus}</strong>.",
+            "''The visual aesthetic of {setting} glamorizes the harsh reality of <strong>{word}</strong> rather than showing its true human cost.' Debate this perspective using <strong>{grammar_focus}</strong>.",
+            "'{protagonist} is deeply unsympathetic character because of their focus on <strong>{word}</strong>.' Argue your stance using <strong>{grammar_focus}</strong>.",
+            "'Rather than exploring deep psychology, '{title}' relies on convenient stereotypes of <strong>{word}</strong> to move the plot forward.' Critically assess using <strong>{grammar_focus}</strong>.",
+            "'The central conflict of {conflict} remains fundamentally unresolved because the characters are trapped by <strong>{word}</strong>.' Defend or refute using <strong>{grammar_focus}</strong>.",
+            "'The thematic treatment of <strong>{word}</strong> in '{title}' is highly relevant to the challenges of modern society.' Discuss this comparison using <strong>{grammar_focus}</strong>.",
+            "'The director uses the tragedy of <strong>{word}</strong> to make a broader philosophical point about human nature.' Analyze using <strong>{grammar_focus}</strong>.",
+            "'Without the overarching motif of <strong>{word}</strong>, the interactions in {setting} would lose all emotional impact.' Evaluate using <strong>{grammar_focus}</strong>.",
+            "'The film suggests that <strong>{word}</strong> is a luxury that only characters like {key_figures} can afford.' Discuss this angle using <strong>{grammar_focus}</strong>.",
+            "'The screenplay uses <strong>{word}</strong> to build a bridge of empathy between the audience and {protagonist}.' Assess using <strong>{grammar_focus}</strong>."
         ]
-        r2_cinematic = [
-            "'The screenplay of <em>{title}</em> would have had a much more profound impact if the director had chosen a more ambiguous ending for {protagonist}.' Propose an alternative screenplay path using <strong>{grammar_focus}</strong>.",
-            "'The relationship between {protagonist} and {key_figures} is the only redeeming quality of the screenplay, as the rest of the plot feels secondary.' Critically assess this using <strong>{grammar_focus}</strong>.",
-            "'The cinematography and visual directing in {setting} are far more effective at conveying the story's emotional weight than the actual written dialogue.' Formulate your analysis using <strong>{grammar_focus}</strong>.",
-            "'In the grand scheme of cinema history, <em>{title}</em> serves as an essential cultural touchstone that perfectly encapsulates its generation's anxieties.' Discuss this philosophical angle using <strong>{grammar_focus}</strong>.",
-            "'For a modern audience, the character development and pacing in <em>{title}</em> are too slow-paced and fail to hold the attention of younger viewers.' Defend or oppose this using <strong>{grammar_focus}</strong>."
+        r2_theme_personal_pool = [
+            "★ If you were a director, how would you visually represent the abstract concept of <strong>{word}</strong>?",
+            "★ Do you agree that the visual environment of a film is more powerful than its written dialogue?",
+            "★ Have you ever felt that a movie's alternative ending would have been more meaningful than the actual one?",
+            "★ If you had to select a soundtrack from your own life to match the theme of <strong>{word}</strong>, what would it be?",
+            "★ Do you prefer stories that leave conflicts unresolved, or do you crave a happy ending?",
+            "★ How has your personal perspective on a theme like <strong>{word}</strong> changed as you have grown older?",
+            "★ If you had to live in {setting} for a week, how would you adapt to its unique social pressures?",
+            "★ Which character's choices in '{title}' did you find most difficult to empathize with?",
+            "★ Do you think cinema has a responsibility to teach moral lessons about themes like <strong>{word}</strong>?",
+            "★ What was the most visually striking scene in '{title}' that made you pause and reflect?"
+        ]
+        r2_cinematic_pool = [
+            "'The screenplay of '{title}' would have been far more impactful if {protagonist} had a completely different fate.' Propose an alternative path using <strong>{grammar_focus}</strong>.",
+            "'The relationship between {protagonist} and {key_figures} is the only part of the script that feels genuine.' Critique this statement using <strong>{grammar_focus}</strong>.",
+            "'The cinematography in {setting} is much better at conveying emotional truth than any of the spoken dialogue.' Formulate your analysis using <strong>{grammar_focus}</strong>.",
+            "'In modern cinema history, '{title}' stands out as a crucial cultural milestone that captures a generation's fears.' Discuss using <strong>{grammar_focus}</strong>.",
+            "'For contemporary viewers, the pacing and character development in '{title}' are too slow to hold attention.' Agree or disagree using <strong>{grammar_focus}</strong>.",
+            "'The director's choice of framing and camera movement inside {setting} highlights the isolation of {protagonist}.' Analyze using <strong>{grammar_focus}</strong>.",
+            "'The screenplay relies too heavily on predictable twists instead of natural character growth.' Evaluate with <strong>{grammar_focus}</strong>.",
+            "'The ultimate message of '{title}' is one of cynical despair rather than hope.' Debate this using <strong>{grammar_focus}</strong>.",
+            "'The secondary characters, particularly {key_figures}, are far more interesting than the main protagonist.' Critique using <strong>{grammar_focus}</strong>.",
+            "'The film's visual motifs are so subtle that they require multiple viewings to fully appreciate.' Discuss using <strong>{grammar_focus}</strong>."
+        ]
+        r2_cinematic_personal_pool = [
+            "★ Would you ever want to write a screenplay based on your own life experiences? Why or why not?",
+            "★ Which cinematic technique (lighting, music, camera angles) do you find has the most visceral impact on your emotions?",
+            "★ If you were casting a remake of '{title}', which modern actors would you choose for {protagonist}?",
+            "★ Do you enjoy analyzing films on a technical level, or do you prefer to just enjoy the story?",
+            "★ How do you feel when a movie uses a non-linear timeline to tell its story?",
+            "★ If you could interview the director of '{title}', what is the number one question you would ask?",
+            "★ Does a film's setting usually play a major role in how you perceive the main characters?",
+            "★ What is your favorite alternative ending scenario for a film that disappointed you?",
+            "★ How do you think streaming platforms have changed the artistic quality of modern films?",
+            "★ If you could preserve only one scene from '{title}' for future generations, which one would it be?"
         ]
 
-    return r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_cinematic
+    r1_theme = [r1_theme_pool[(film_idx + i) % len(r1_theme_pool)] for i in range(5)]
+    r1_theme_personal = [r1_theme_personal_pool[(film_idx + i) % len(r1_theme_personal_pool)] for i in range(5)]
+    r1_slang = [r1_slang_pool[(film_idx + i) % len(r1_slang_pool)] for i in range(5)]
+    r1_slang_personal = [r1_slang_personal_pool[(film_idx + i) % len(r1_slang_personal_pool)] for i in range(5)]
+
+    r2_theme = [r2_theme_pool[(film_idx + i) % len(r2_theme_pool)] for i in range(5)]
+    r2_theme_personal = [r2_theme_personal_pool[(film_idx + i) % len(r2_theme_personal_pool)] for i in range(5)]
+    r2_cinematic = [r2_cinematic_pool[(film_idx + i) % len(r2_cinematic_pool)] for i in range(5)]
+    r2_cinematic_personal = [r2_cinematic_personal_pool[(film_idx + i) % len(r2_cinematic_personal_pool)] for i in range(5)]
+
+    return r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_theme_personal, r2_cinematic, r2_cinematic_personal
 
 def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
     themes, slangs = parse_themes_and_slangs(focus_raw, slang_raw)
@@ -1333,7 +1505,7 @@ for idx, r in enumerate(rows):
   </div>"""
 
     # Resolve level-calibrated templates for Round 1 & Round 2
-    r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_cinematic = get_calibrated_templates(level_short)
+    r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_theme_personal, r2_cinematic, r2_cinematic_personal = get_calibrated_templates(level_short, idx)
 
     # Generate 10 items for Round 1, each using one of the 10 vocab words
     round1_html = ""
@@ -1398,6 +1570,15 @@ for idx, r in enumerate(rows):
                 conflict=details["conflict"],
                 grammar_focus=grammar_focus
             )
+            r2_personal = r2_theme_personal[r2_idx].format(
+                word=word_lower,
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
         else:
             r2_main = r2_cinematic[r2_idx - 5].format(
                 title=title,
@@ -1407,8 +1588,17 @@ for idx, r in enumerate(rows):
                 conflict=details["conflict"],
                 grammar_focus=grammar_focus
             )
+            r2_personal = r2_cinematic_personal[r2_idx - 5].format(
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
         round2_html += f"""          <div class="round-item">
             <div class="round-item-main">{r2_main}</div>
+            <div class="round-item-personal">{r2_personal}</div>
           </div>\n"""
 
     # Resolve Mistakes Catalog based on Level
