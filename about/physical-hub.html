@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physical Workspace & Monolingual Hub — COSYlanguages</title>
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <style>
+        .hub-hero {
+            padding: 6rem 2rem 3.5rem;
+            background: var(--paper-bg);
+            text-align: center;
+        }
+        .hub-content {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .hub-section {
+            margin-bottom: 5rem;
+        }
+        .hub-section h2 {
+            font-family: 'Lora', serif;
+            font-size: 1.8rem;
+            color: var(--sage-deep);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+        .hub-desc {
+            font-size: 1.05rem;
+            color: var(--ink-soft);
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+
+        /* Catalog Grid */
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        .book-card {
+            background: var(--surface-color, #fff);
+            border: 1px solid var(--border);
+            border-radius: var(--r-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .book-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+        }
+        .book-cover-mock {
+            height: 180px;
+            background: linear-gradient(135deg, var(--sage), var(--sage-deep));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-family: 'Fraunces', serif;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+        .book-title {
+            font-family: 'Lora', serif;
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--sage-deep);
+            margin-bottom: 0.5rem;
+        }
+        .book-meta {
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--honey-dark);
+            margin-bottom: 0.75rem;
+        }
+        .book-desc {
+            font-size: 0.88rem;
+            color: var(--ink-soft);
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Library Browser */
+        .library-filters {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .lib-input {
+            flex: 1;
+            min-width: 200px;
+            padding: 0.6rem 1.2rem;
+            border-radius: var(--r-sm);
+            border: 1.5px solid var(--border);
+            background: var(--surface-color);
+            color: var(--ink);
+            font-family: inherit;
+            font-size: 0.95rem;
+        }
+        .lib-select {
+            padding: 0.6rem 1.2rem;
+            border-radius: var(--r-sm);
+            border: 1.5px solid var(--border);
+            background: var(--surface-color);
+            color: var(--ink);
+            font-family: inherit;
+            font-size: 0.95rem;
+            cursor: pointer;
+        }
+
+        .lib-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 1.5rem;
+        }
+        .lib-item-card {
+            background: var(--surface-color, #fff);
+            border: 1px solid var(--border);
+            border-radius: var(--r-md);
+            padding: 1.25rem;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .lib-item-title {
+            font-family: 'Lora', serif;
+            font-weight: bold;
+            font-size: 1.05rem;
+            color: var(--sage-deep);
+            margin-bottom: 0.25rem;
+        }
+        .lib-item-author {
+            font-size: 0.8rem;
+            color: var(--ink-faint);
+            margin-bottom: 0.75rem;
+        }
+        .lib-item-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            background: var(--sage-pale);
+            color: var(--sage-dark);
+            border-radius: 100px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            align-self: flex-start;
+            margin-bottom: 1rem;
+        }
+        .btn-reserve {
+            width: 100%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1.5px solid var(--sage-deep);
+            background: transparent;
+            color: var(--sage-deep);
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 0.82rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-reserve:hover {
+            background: var(--sage-pale);
+        }
+        .btn-reserve.reserved {
+            background: var(--green-light);
+            border-color: var(--green);
+            color: var(--green);
+        }
+
+        /* Wishlist Box */
+        .wishlist-panel {
+            background: var(--cream-dark);
+            border: 1.5px dashed var(--border);
+            border-radius: var(--r-lg);
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        .wishlist-title {
+            font-family: 'Lora', serif;
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--sage-deep);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .wishlist-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .wishlist-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.9rem;
+        }
+        .wishlist-item:last-child {
+            border-bottom: none;
+        }
+        .btn-remove-wish {
+            background: none;
+            border: none;
+            color: var(--coral);
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 0.8rem;
+        }
+        .btn-remove-wish:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="hub-hero">
+    <h1 style="font-family: 'Lora', serif; font-size: 2.8rem; margin-bottom: 0.8rem;">Physical Workspace & Immersion Hub 🏡</h1>
+    <p class="hero-sub">Our upcoming brick-and-mortar study offices, premium book catalogs, and community monolingual libraries.</p>
+</header>
+
+<main class="hub-content">
+
+    <!-- CATALOG SECTION -->
+    <section class="hub-section">
+        <h2>📚 The Book Series Curriculum</h2>
+        <p class="hub-desc">Preview our premium upcoming physical manuals designed specifically for adult-teen active learners, fully mapped to the COSY speaking-first curriculum.</p>
+
+        <div class="catalog-grid">
+            <!-- Book 1 -->
+            <div class="book-card">
+                <div>
+                    <div class="book-cover-mock" style="background: linear-gradient(135deg, #2e4a33, #1e3021);">
+                        COSY Grammar<br>Manual (Vol. I)
+                    </div>
+                    <div class="book-title">Grammar Manual</div>
+                    <div class="book-meta">Volume I — Theory &amp; Maps</div>
+                    <div class="book-desc">Comprehensive structural roadmaps, morphological comparison flowcharts, and zero-leakage monolingual examples for A1-C2 level mastery.</div>
+                </div>
+                <button class="btn-reserve" onclick="alert('Physical workbook preview coming soon!')">📙 Preview Manual</button>
+            </div>
+
+            <!-- Book 2 -->
+            <div class="book-card">
+                <div>
+                    <div class="book-cover-mock" style="background: linear-gradient(135deg, #c4522a, #8a3a1d);">
+                        COSY Grammar<br>Drills (Vol. II)
+                    </div>
+                    <div class="book-title">Exercises for Grammar</div>
+                    <div class="book-meta">Volume II — Speaking Practice</div>
+                    <div class="book-desc">Practical drills, gap-fill activities, sentence constructors, and spoken translation exercises designed to move grammar instantly to spoken fluency.</div>
+                </div>
+                <button class="btn-reserve" onclick="alert('Physical workbook preview coming soon!')">📙 Preview Exercises</button>
+            </div>
+
+            <!-- Book 3 -->
+            <div class="book-card">
+                <div>
+                    <div class="book-cover-mock" style="background: linear-gradient(135deg, #7a5c3a, #4a3a2a);">
+                        COSY Vocab<br>Lexicon (Vol. III)
+                    </div>
+                    <div class="book-title">Vocabulary Manual</div>
+                    <div class="book-meta">Volume III — Thematic Lists</div>
+                    <div class="book-desc">Exactly 10 units per speaking session. Features thematic opposite mappings, antonym and synonym collocations, and contextual definitions.</div>
+                </div>
+                <button class="btn-reserve" onclick="alert('Physical workbook preview coming soon!')">📙 Preview Lexicon</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIBRARY SECTION -->
+    <section class="hub-section">
+        <h2>📖 Monolingual Library Browser</h2>
+        <p class="hub-desc">Browse through the physical library books available in our upcoming COSY study office. Wishlist or reserve books offline directly on your active profile!</p>
+
+        <div class="library-filters">
+            <input type="text" id="lib-search" placeholder="Search by title, author, or keyword..." class="lib-input" oninput="filterLibrary()">
+            <select id="lib-lang" class="lib-select" onchange="filterLibrary()">
+                <option value="all">🌍 All Languages</option>
+                <option value="en">🇬🇧 English</option>
+                <option value="fr">🇫🇷 Français</option>
+                <option value="it">🇮🇹 Italiano</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="el">🇬🇷 Ελληνικά</option>
+            </select>
+            <select id="lib-genre" class="lib-select" onchange="filterLibrary()">
+                <option value="all">🏷️ All Genres</option>
+                <option value="fiction">Fiction</option>
+                <option value="non-fiction">Non-fiction</option>
+                <option value="educational">Educational</option>
+            </select>
+        </div>
+
+        <div class="lib-grid" id="lib-grid">
+            <!-- Rendered dynamically -->
+        </div>
+
+        <!-- Wishlist / Reservation Panel -->
+        <div class="wishlist-panel">
+            <div class="wishlist-title">
+                <span>👤 Active Profile Wishlist:</span>
+                <span id="active-profile-name" style="color: var(--sage-dark); font-weight: bold;">Guest</span>
+            </div>
+            <div id="wishlist-empty-msg" style="color: var(--ink-faint); font-size: 0.9rem;">No reserved or wishlisted books yet. Click "Add to Wishlist" below!</div>
+            <ul class="wishlist-list" id="wishlist-list">
+                <!-- Rendered dynamically -->
+            </ul>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_courses">Courses</h5>
+      <a href="../courses/general/" data-translate-key="course_general">General Course 📖</a>
+      <a href="../courses/spoken/" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="../courses/exam/" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="../courses/travelling/" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="../courses/professional/" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="../courses/relocation/" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_explore">Explore</h5>
+      <a href="../#languages" data-translate-key="nav_languages">Languages 🌍</a>
+      <a href="../practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
+      <a href="../events/index.html" data-translate-key="nav_events">Events 🎉</a>
+      <a href="../games/index.html" data-translate-key="nav_games">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h5>Project</h5>
+      <a href="../about/index.html">About COSY ℹ️</a>
+      <a href="../about/roadmap.html">Roadmap 🗺️</a>
+      <a href="../about/changelog.html">Changelog 📜</a>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+      <a href="https://github.com/cosylanguages/COSYlanguages" target="_blank">GitHub Repo 🛠️</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_contact">Contact</h5>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div>
+
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+
+<script>
+    const LIBRARY_DATABASE = [
+        { id: "book_1", title: "Le Petit Prince", author: "Antoine de Saint-Exupéry", lang: "fr", genre: "fiction", emoji: "👑" },
+        { id: "book_2", title: "L'Étranger", author: "Albert Camus", lang: "fr", genre: "fiction", emoji: "☀️" },
+        { id: "book_3", title: "The Great Gatsby", author: "F. Scott Fitzgerald", lang: "en", genre: "fiction", emoji: "🍸" },
+        { id: "book_4", title: "Sapiens: A Brief History of Humankind", author: "Yuval Noah Harari", lang: "en", genre: "non-fiction", emoji: "🐒" },
+        { id: "book_5", title: "La Divina Commedia", author: "Dante Alighieri", lang: "it", genre: "fiction", emoji: "🏛️" },
+        { id: "book_6", title: "Il Gattopardo", author: "Giuseppe Tomasi di Lampedusa", lang: "it", genre: "fiction", emoji: "🐆" },
+        { id: "book_7", title: "Crime and Punishment", author: "Fyodor Dostoevsky", lang: "ru", genre: "fiction", emoji: "⚖️" },
+        { id: "book_8", title: "The Cherry Orchard", author: "Anton Chekhov", lang: "ru", genre: "fiction", emoji: "🌸" },
+        { id: "book_9", title: "The Odyssey", author: "Homer", lang: "el", genre: "fiction", emoji: "⛵" },
+        { id: "book_10", title: "COSY English Speaking Manual", author: "James Cosy", lang: "en", genre: "educational", emoji: "🗣️" },
+        { id: "book_11", title: "COSY French Grammar Compendium", author: "James Cosy", lang: "fr", genre: "educational", emoji: "📐" },
+        { id: "book_12", title: "Greek Myth & Language", author: "Dr. Sofia Pappas", lang: "el", genre: "educational", emoji: "🏛️" }
+    ];
+
+    function filterLibrary() {
+        const query = document.getElementById('lib-search').value.toLowerCase();
+        const lang = document.getElementById('lib-lang').value;
+        const genre = document.getElementById('lib-genre').value;
+
+        const filtered = LIBRARY_DATABASE.filter(item => {
+            const matchesQuery = item.title.toLowerCase().includes(query) || item.author.toLowerCase().includes(query);
+            const matchesLang = lang === 'all' || item.lang === lang;
+            const matchesGenre = genre === 'all' || item.genre === genre;
+            return matchesQuery && matchesLang && matchesGenre;
+        });
+
+        renderLibraryGrid(filtered);
+    }
+
+    function renderLibraryGrid(items) {
+        const grid = document.getElementById('lib-grid');
+        if (!grid) return;
+        grid.innerHTML = '';
+
+        const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
+        const reservedIds = getReservedList(activeProfile);
+
+        if (items.length === 0) {
+            grid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; color: var(--ink-faint); padding: 2rem;">No matching library books found. Try adjusting filters!</div>`;
+            return;
+        }
+
+        items.forEach(book => {
+            const isReserved = reservedIds.includes(book.id);
+            const btnText = isReserved ? "❤️ In Wishlist" : "➕ Add to Wishlist";
+            const btnClass = isReserved ? "btn-reserve reserved" : "btn-reserve";
+
+            grid.innerHTML += `
+                <div class="lib-item-card">
+                    <div>
+                        <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">${book.emoji}</div>
+                        <div class="lib-item-title">${book.title}</div>
+                        <div class="lib-item-author">by ${book.author}</div>
+                    </div>
+                    <div>
+                        <div class="lib-item-tag">${book.lang.toUpperCase()} • ${book.genre}</div>
+                        <button class="${btnClass}" onclick="toggleReserve('${book.id}')">${btnText}</button>
+                    </div>
+                </div>
+            `;
+        });
+    }
+
+    // Reservation LocalStorage State Helpers (Profile isolated)
+    function getReservedList(profile) {
+        const key = `cosy_wishlist_${profile}`;
+        try {
+            return JSON.parse(localStorage.getItem(key)) || [];
+        } catch {
+            return [];
+        }
+    }
+
+    function saveReservedList(profile, list) {
+        const key = `cosy_wishlist_${profile}`;
+        localStorage.setItem(key, JSON.stringify(list));
+    }
+
+    function toggleReserve(bookId) {
+        const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
+        let reserved = getReservedList(activeProfile);
+
+        if (reserved.includes(bookId)) {
+            reserved = reserved.filter(id => id !== bookId);
+            if (window.COSY && typeof window.COSY.showToast === 'function') {
+                window.COSY.showToast("Removed from your wishlist!");
+            }
+        } else {
+            reserved.push(bookId);
+            if (window.COSY && typeof window.COSY.showToast === 'function') {
+                window.COSY.showToast("Added to your wishlist! 📚");
+            }
+        }
+
+        saveReservedList(activeProfile, reserved);
+        filterLibrary();
+        renderWishlist();
+    }
+
+    function renderWishlist() {
+        const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
+        const listEl = document.getElementById('wishlist-list');
+        const emptyMsg = document.getElementById('wishlist-empty-msg');
+        const profileEl = document.getElementById('active-profile-name');
+
+        if (profileEl) profileEl.textContent = activeProfile;
+
+        const reservedIds = getReservedList(activeProfile);
+
+        if (reservedIds.length === 0) {
+            if (listEl) listEl.innerHTML = '';
+            if (emptyMsg) emptyMsg.style.display = 'block';
+            return;
+        }
+
+        if (emptyMsg) emptyMsg.style.display = 'none';
+        if (listEl) {
+            listEl.innerHTML = '';
+            reservedIds.forEach(id => {
+                const book = LIBRARY_DATABASE.find(b => b.id === id);
+                if (book) {
+                    listEl.innerHTML += `
+                        <li class="wishlist-item">
+                            <div><strong>${book.emoji} ${book.title}</strong> <span style="color: var(--ink-faint); font-size: 0.8rem;">(${book.lang.toUpperCase()})</span></div>
+                            <button class="btn-remove-wish" onclick="toggleReserve('${book.id}')">Remove</button>
+                        </li>
+                    `;
+                }
+            });
+        }
+    }
+
+    // Initial page load hooks
+    window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(() => {
+            filterLibrary();
+            renderWishlist();
+        }, 100);
+    });
+</script>
+
+</body>
+</html>
