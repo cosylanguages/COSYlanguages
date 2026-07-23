@@ -20,21 +20,29 @@
             text-align: center;
         }
         .roadmap-content {
-            max-width: 900px;
+            max-width: 940px;
             margin: 0 auto;
             padding: 3rem 2rem;
         }
         .roadmap-section {
-            margin-bottom: 4rem;
+            margin-bottom: 5rem;
+            position: relative;
         }
         .roadmap-section h2 {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
-            margin-bottom: 2rem;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
             padding-bottom: 0.5rem;
             border-bottom: 2px solid var(--border);
             font-family: 'Lora', serif;
+            font-size: 1.8rem;
+        }
+        .phase-subtitle {
+            font-size: 1.05rem;
+            color: var(--ink-soft);
+            margin-bottom: 2rem;
+            line-height: 1.6;
         }
         .roadmap-table-wrap {
             overflow-x: auto;
@@ -42,6 +50,7 @@
             border-radius: 15px;
             border: 1px solid var(--border);
             margin-bottom: 1rem;
+            box-shadow: var(--shadow-sm);
         }
         table {
             width: 100%;
@@ -49,7 +58,7 @@
             font-size: 0.9rem;
         }
         th, td {
-            padding: 1rem;
+            padding: 1.1rem;
             text-align: left;
             border-bottom: 1px solid var(--border);
         }
@@ -68,6 +77,19 @@
         .priority-medium { color: var(--honey-dark); font-weight: 700; }
         .priority-low { color: var(--sage-dark); font-weight: 700; }
         .shipped-label { color: #2e7d32; font-weight: 700; }
+
+        .stage-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 100px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .stage-completed { background: var(--green-light); color: var(--green); }
+        .stage-active { background: var(--gold-light); color: var(--honey-dark); }
+        .stage-planned { background: var(--blue-light); color: var(--blue); }
     </style>
 </head>
 <body>
@@ -75,139 +97,144 @@
 <nav id="cosy-nav"></nav>
 
 <header class="roadmap-hero">
-    <h1 style="font-family: 'Lora', serif;">Project Roadmap 🗺️</h1>
-    <p class="hero-sub">Tracking physical office spaces, offline tooling, and pedagogical features shaping the future of COSYlanguages.</p>
+    <h1 style="font-family: 'Lora', serif; font-size: 2.8rem; margin-bottom: 0.8rem;">Project Roadmap 🗺️</h1>
+    <p class="hero-sub">Phased development stages shaping physical office spaces, offline tooling, and pedagogical features.</p>
 </header>
 
 <main class="roadmap-content">
+
+    <!-- PHASE I -->
     <section class="roadmap-section">
-        <h2 class="priority-high">🔥 High Priority (The Slow-Tech & Office Era)</h2>
+        <h2 style="color: var(--sage-deep);">🎨 Phase I: Visual Harmony & Accessibility</h2>
+        <p class="phase-subtitle">Focusing on high-contrast accessibility (WCAG AA/AAA compliance), clean layout, modern typography, responsive visual flows, and seamless student guidance.</p>
+
         <div class="roadmap-table-wrap">
             <table>
                 <thead>
                     <tr>
-                        <th>Feature / Goal</th>
-                        <th>Area</th>
-                        <th>Notes</th>
+                        <th style="width: 20%;">Stage</th>
+                        <th style="width: 30%;">Initiative / Feature</th>
+                        <th style="width: 50%;">Details & Impact</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>Physical Project Office 🏡</strong></td>
-                        <td>In-Person Space</td>
-                        <td>Open a brick-and-mortar COSY languages workspace: an amiable, welcoming community space for quiet studying, a monolingual library, and screen-free face-to-face meetups.</td>
+                        <td><span class="stage-badge stage-completed">✅ Completed</span></td>
+                        <td><strong>Contrast & Accessibility Uplift 💡</strong></td>
+                        <td>Darkened stats card backgrounds (`rgba(26,43,29,0.45)`) with glassmorphic backdrop blur; updated category subtitles and action links to high-contrast emerald greens (`var(--sage-dark)`) for AA/AAA compliance.</td>
                     </tr>
                     <tr>
-                        <td><strong>COSYlanguages Book Series 📖</strong></td>
-                        <td>Physical Print</td>
-                        <td>Developing comprehensive manuals for English, French, Italian, Russian, and Greek: <em>Grammar Manual</em>, <em>Exercises for Grammar</em>, <em>Vocabulary Manual</em>, and <em>Spoken for Vocabulary</em> workbooks.</td>
+                        <td><span class="stage-badge stage-completed">✅ Completed</span></td>
+                        <td><strong>Clean Layout & Typography ✍️</strong></td>
+                        <td>Harmonized body paragraph spacing and swapped complex colored paragraph fonts on the landing page for high-legibility dark charcoal colors (`var(--ink-soft)`) over warm sand and gold backgrounds.</td>
                     </tr>
                     <tr>
-                        <td><strong>COSYlanguages Board Game 🏆</strong></td>
-                        <td>Tabletop Games</td>
-                        <td>A custom, premium physical tabletop board game designed to package conversational drills, speaking prompts, and letter-card chains in a social game box.</td>
+                        <td><span class="stage-badge stage-completed">✅ Completed</span></td>
+                        <td><strong>Interactive Accessibility Cues 🔗</strong></td>
+                        <td>Polished footer notes and calculator footnotes to use distinct underlined green brand links, featuring micro-interactive smooth color transitions on hover.</td>
                     </tr>
                     <tr>
-                        <td>Printable Leitner Flashcards</td>
-                        <td>"Paper Web" Studio</td>
-                        <td>A generator allowing users to print 3x5 double-sided vocabulary flashcards straight from their Personal Notebook for offline Leitner box study.</td>
-                    </tr>
-                    <tr>
-                        <td>Print-and-Play Board Games</td>
-                        <td>Games & Tabletop</td>
-                        <td>Printable card decks, game mats, and rulebooks to adapt our digital gaming suite (e.g., Battle of Wits, Action Hero) into tabletop card games.</td>
-                    </tr>
-                    <tr>
-                        <td>Audio pronunciation integration</td>
-                        <td>Practice & Games</td>
-                        <td>Browser-synthesized offline Web Audio native speech support for target vocabulary.</td>
+                        <td><span class="stage-badge stage-completed">✅ Completed</span></td>
+                        <td><strong>Interactive Tour & Compass FAB 🧭</strong></td>
+                        <td>Injected the interactive 9-step floating `🧭 Guide` walkthrough widget to smoothly navigate visitors through core hubs (Games, Practice, Events).</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </section>
 
+    <!-- PHASE II -->
     <section class="roadmap-section">
-        <h2 class="priority-medium">⚡ Medium Priority (Offline & Desktop Tools)</h2>
-        <div class="roadmap-table-wrap">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Feature / Goal</th>
-                        <th>Area</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mini-Zine folded brochure prints</td>
-                        <td>"Paper Web" Studio</td>
-                        <td>Turn any 10-unit vocabulary grid or session topic into a printable, single-sheet A4 page that folds into an 8-page pocket glossary.</td>
-                    </tr>
-                    <tr>
-                        <td>Local Multi-User Profiles</td>
-                        <td>PWA Storage</td>
-                        <td>Support independent local dictionary logs, point tallies, and mistake reviews for families sharing the same offline tablet or PC.</td>
-                    </tr>
-                    <tr>
-                        <td>Dark Mode theme support</td>
-                        <td>Global Layout</td>
-                        <td>Toggle a comfortable dark background (preserving warm sand/sage undertones), saved entirely offline in LocalStorage.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
+        <h2 style="color: var(--honey-dark);">⚡ Phase II: Hybrid Digital & Physical Toolkit</h2>
+        <p class="phase-subtitle">Bridging offline-first desktop apps, dynamic print utilities, multi-user local profile storage, and screen-free study resources.</p>
 
-    <section class="roadmap-section">
-        <h2 class="shipped-label">✅ Completed & Shipped (Recent Upgrades)</h2>
         <div class="roadmap-table-wrap">
             <table>
                 <thead>
                     <tr>
-                        <th>Feature / Goal</th>
-                        <th>Area</th>
-                        <th>Shipped Details</th>
+                        <th style="width: 20%;">Stage</th>
+                        <th style="width: 30%;">Initiative / Feature</th>
+                        <th style="width: 50%;">Details & Impact</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Student progress tracking</td>
-                        <td>Personal Portal</td>
+                        <td><span class="stage-badge stage-completed">✅ Completed</span></td>
+                        <td><strong>Student progress tracking 📈</strong></td>
                         <td>Track completed lessons, scores, streaks per language and level via Local Personal Notebook.</td>
                     </tr>
                     <tr>
-                        <td>Vocabulary Notebook 📓</td>
-                        <td>Personal Portal</td>
-                        <td>Implemented a comprehensive personal notebook with custom vocabulary savers, export tools, and review stats.</td>
+                        <td><span class="stage-badge stage-active">⚡ Active</span></td>
+                        <td><strong>Vocabulary Notebook & Exporter 📓</strong></td>
+                        <td>A fully integrated user dictionary allowing custom word harvested entries, local data exports, and offline practice revision statistics.</td>
                     </tr>
                     <tr>
-                        <td>Monolingual Symbolic Practice 🧩</td>
-                        <td>Practice Hub</td>
-                        <td>Transitioned practice structures into fully monolingual layouts utilizing symbolic operators (=, ≈, ≠, 🧩, 🔊) with zero English leakage.</td>
+                        <td><span class="stage-badge stage-active">⚡ Active</span></td>
+                        <td><strong>PWA Caching & Offline Support 📴</strong></td>
+                        <td>Service worker cache assets management (`sw.js`) to cache lessons, stylesheets, and practice tools to let users learn completely without network.</td>
                     </tr>
                     <tr>
-                        <td>Dynamic Print-CSS Stylesheets</td>
-                        <td>Linguistics</td>
-                        <td>Completed print-friendly styling rules across morphology tables to let users print beautiful reference guides on physical paper.</td>
+                        <td><span class="stage-badge stage-active">⚡ Active</span></td>
+                        <td><strong>Printable Leitner Flashcards 🖨️</strong></td>
+                        <td>Leitner Box printable standard templates and print studios to let users print physical cards from their active dictionary lists.</td>
                     </tr>
                     <tr>
-                        <td>Interactive Gamification Audio</td>
-                        <td>Language Games</td>
-                        <td>Wired native Web Audio Synth sound chimes, buzzes, fanfares, and combo multipliers.</td>
+                        <td><span class="stage-badge stage-planned">⏳ Planned</span></td>
+                        <td><strong>Pocket-Sized Folding Zines 📖</strong></td>
+                        <td>A custom template to turn any 10-unit vocabulary grid into a printable single-sheet A4 PDF that folds into an 8-page pocket-sized study zine.</td>
                     </tr>
                     <tr>
-                        <td>Progressive Web App Offline Caching</td>
-                        <td>PWA Foundation</td>
-                        <td>Implemented a Service Worker caching foundation (`sw.js`) to load static application codes, icons, stylesheets, and core components without network.</td>
+                        <td><span class="stage-badge stage-planned">⏳ Planned</span></td>
+                        <td><strong>Local Family Profiles 👥</strong></td>
+                        <td>LocalStorage multi-user index storage allowing family members sharing the same computer or tablet to keep independent dictionaries and score streaks.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="stage-badge stage-planned">⏳ Planned</span></td>
+                        <td><strong>Adaptive Dark Mode Theme 🌙</strong></td>
+                        <td>Saveable comfortable native dark theme background option (preserving cozy warm sage accents) for comfortable nocturnal studying.</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </section>
 
-    <p style="text-align: center; color: var(--ink-soft); font-size: 0.85rem;">
-        Check our open source repository for direct contributions: <a href="https://github.com/cosylanguages/COSYlanguages">GitHub Repository</a>.
+    <!-- PHASE III -->
+    <section class="roadmap-section">
+        <h2 style="color: var(--coral);">🔥 Phase III: Analog Spaces & Board Games (High Priority)</h2>
+        <p class="phase-subtitle">The ultimate vision: transitioning COSYlanguages into brick-and-mortar office hubs, tabletop board games, and printed language curricula.</p>
+
+        <div class="roadmap-table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 20%;">Stage</th>
+                        <th style="width: 30%;">Initiative / Feature</th>
+                        <th style="width: 50%;">Details & Impact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="stage-badge stage-planned">⏳ Planned</span></td>
+                        <td><strong>Brick-and-Mortar COSY Office 🏡</strong></td>
+                        <td>Opening physical, quiet, welcoming community libraries and quiet study workspaces for screen-free immersion study and face-to-face meetups.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="stage-badge stage-planned">⏳ Planned</span></td>
+                        <td><strong>COSYlanguages Book Series 📚</strong></td>
+                        <td>Publishing premium comprehensive handbooks for all active languages (English, French, Italian, Russian, Greek), including full Grammar and Spoken manuals.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="stage-badge stage-planned">⏳ Planned</span></td>
+                        <td><strong>Physical Tabletop Board Game 🏆</strong></td>
+                        <td>A complete social physical tabletop game designed to drill speaking structures, sentence chains, vocabulary associations, and interactive card deck prompt battles.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <p style="text-align: center; color: var(--ink-soft); font-size: 0.85rem; margin-top: 3rem;">
+        Check our open source repository for direct contributions: <a href="https://github.com/cosylanguages/COSYlanguages" style="text-decoration: underline; color: var(--sage-dark); font-weight: 700;">GitHub Repository</a>.
     </p>
 </main>
 
