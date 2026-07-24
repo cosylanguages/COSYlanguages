@@ -3333,18 +3333,18 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
       <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
       <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
-      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
       <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
-      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
       <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
     </div>
     <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
       <span>🎵 Warm-up (10%)</span>
       <span>📚 Vocabulary (15%)</span>
-      <span>🎧 Listening (20%)</span>
+      <span>🎧 Listening (15%)</span>
       <span>💬 Discussion (45%)</span>
       <span>✨ Language Focus (10%)</span>
-      <span>🎭 Final Challenge (10%)</span>
+      <span>🎭 Final Challenge (5%)</span>
     </div>
   </div>
 
@@ -3591,18 +3591,18 @@ for song in all_karaoke_data:
           <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
             <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
             <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
-            <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+            <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
             <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
-            <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+            <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
             <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
           </div>
           <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
             <span>{loc["warmup_title"]} (10%)</span>
             <span>{loc["vocab_title"]} (15%)</span>
-            <span>{loc["listening_title"]} (20%)</span>
+            <span>{loc["listening_title"]} (15%)</span>
             <span>{loc["discussion_title"]} (45%)</span>
             <span>{loc["lang_focus_title"]} (10%)</span>
-            <span>{loc["final_challenge_title"]} (10%)</span>
+            <span>{loc["final_challenge_title"]} (5%)</span>
           </div>
         </div>
 
