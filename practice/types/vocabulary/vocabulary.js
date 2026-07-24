@@ -344,18 +344,57 @@
                         while (selectedPairs.length < 4) {
                             selectedPairs.push({
                                 word: `WordFallback_${selectedPairs.length}`,
-                                definitions: [{ text: `DefFallback_${selectedPairs.length}` }]
+                                definitions: [{ text: `DefFallback_${selectedPairs.length}` }],
+                                emoji: '💡',
+                                transcription: `[${selectedPairs.length}]`
                             });
                         }
 
-                        // Map each pair
-                        const pairs = selectedPairs.map((p, idx) => ({
-                            id: idx,
-                            word: p.word,
-                            definition: p.definitions?.[0]?.text || p.definition || p.translation || p.word
-                        }));
+                        // Determine available modes dynamically based on item fields
+                        let possibleModes = ['definition'];
 
-                        qText = "🧩 Match the pairs";
+                        const hasEmojis = selectedPairs.filter(p => p.emoji).length >= 3;
+                        if (hasEmojis) possibleModes.push('emoji');
+
+                        const hasTranscriptions = selectedPairs.filter(p => p.transcription).length >= 3;
+                        if (hasTranscriptions) possibleModes.push('transcription');
+
+                        const hasAntonyms = selectedPairs.filter(p => p.opposite || (p.antonyms && p.antonyms.length > 0)).length >= 2;
+                        if (hasAntonyms) possibleModes.push('antonym');
+
+                        const selectedMode = possibleModes[Math.floor(Math.random() * possibleModes.length)];
+
+                        // Map each pair based on the chosen mode
+                        const pairs = selectedPairs.map((p, idx) => {
+                            let matchValue = '';
+                            if (selectedMode === 'emoji') {
+                                matchValue = p.emoji || '💡';
+                            } else if (selectedMode === 'transcription') {
+                                matchValue = p.transcription || `[${p.word}]`;
+                            } else if (selectedMode === 'antonym') {
+                                matchValue = p.opposite || p.antonyms?.[0] || `≠ ${p.word}`;
+                            } else {
+                                matchValue = p.definitions?.[0]?.text || p.definition || p.translation || p.word;
+                            }
+
+                            return {
+                                id: idx,
+                                word: p.word,
+                                definition: matchValue
+                            };
+                        });
+
+                        // Set a fully monolingual descriptive title based on selected mode
+                        if (selectedMode === 'emoji') {
+                            qText = "🧩 Match the words with their images";
+                        } else if (selectedMode === 'transcription') {
+                            qText = "🧩 Match the words with their pronunciation symbols";
+                        } else if (selectedMode === 'antonym') {
+                            qText = "🧩 Match the words with their opposites (antonyms)";
+                        } else {
+                            qText = "🧩 Match the words with their definitions";
+                        }
+
                         ans = pairs; // Array of { id, word, definition }
                     } else if (type === 'mc') {
                         const mcQ = buildMCQuestion(item, pool);
