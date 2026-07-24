@@ -2182,11 +2182,15 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
             if norm_w in OPPOSITES_MAP:
                 opp_word = OPPOSITES_MAP[norm_w]
                 opp_label = loc["opp_label"]
-                opp_html = f'\n            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>{opp_label}</strong> <span class="vocab-opp-word" style="font-weight: 600;">{opp_word}</span></div>'
+                opp_html = f'\n<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>{opp_label}</strong> <span class="vocab-opp-word" style="font-weight: 600;">{opp_word}</span></div>'
 
             escaped_def = definition.replace("'", "\\'")
             escaped_ex = example.replace("'", "\\'")
-            html_block += f"""            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{w}</div><div class="vocab-def">{definition}</div><div class="vocab-example">{example}</div>{opp_html}<button class="btn-add-dict" onclick="COSY.addToDict({{word:\'{w}\', definition:\'{escaped_def}\', example:\'{escaped_ex}\'}}, this)">+ Dictionary</button></div>\n"""
+            html_block += f"""<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{w}</div>
+<div class="vocab-def">{definition}</div>
+<div class="vocab-example">{example}</div>{opp_html}
+<button class="btn-add-dict" onclick="COSY.addToDict({{word:\'{w}\', definition:\'{escaped_def}\', example:\'{escaped_ex}\'}}, this)">+ Dictionary</button>
+</div>\n"""
         return html_block
 
     vocab_cards_html += build_cards_block(part1, cat1_hdr)
@@ -2809,7 +2813,7 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         q_main = q_main_tpl.format(title=title, artist=artist, w_lower=w)
         q_pers = q_pers_tpl.format(w_lower=w)
 
-        r1_questions_html += f'          <div class="round-item"><div class="round-item-main">{q_main}</div><div class="round-item-personal">{q_pers}</div></div>\n'
+        r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
 
     r2_statements_html = ""
     for idx, w in enumerate(vocab_words):
@@ -2818,7 +2822,7 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
 
         stmt = stmt_tpl.format(title=title, artist=artist, focus=focus, w_lower=w)
 
-        r2_statements_html += f'          <div class="round-item"><div class="round-item-main">{stmt}</div></div>\n'
+        r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
 
     mistakes_html = ""
     m_list = MISTAKES_DB[lang] if lang in MISTAKES_DB else MISTAKES_DB["en"]
