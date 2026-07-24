@@ -170,13 +170,13 @@
             }
 
             return `<div class="mc-options">` + finalOpts.map((o, i) =>
-                `<button class="mc-opt" onclick="checkMC(${i})">${o}</button>`).join('') + `</div>`;
+                `<button class="mc-opt" id="mc-opt-${i}" onclick="checkMC(${i})"><span class="keycap-badge">${i + 1}</span> ${o}</button>`).join('') + `</div>`;
         },
 
         renderTF() {
             return `<div class="tf-btns">
-                <button class="tf-btn" onclick="checkTF(true)">✅ True</button>
-                <button class="tf-btn" onclick="checkTF(false)">❌ False</button>
+                <button class="tf-btn tf-btn-true" id="tf-btn-true" onclick="checkTF(true)"><span class="keycap-badge">1</span> ✅ True</button>
+                <button class="tf-btn tf-btn-false" id="tf-btn-false" onclick="checkTF(false)"><span class="keycap-badge">2</span> ❌ False</button>
             </div>`;
         },
 
@@ -192,12 +192,12 @@
             return `<div class="scramble-container">
                       <div id="sc-assembly" class="scramble-assembly"></div>
                       <div id="sc-tokens" class="scramble-tokens">
-                        ${words.map(w => `<button class="sc-tile" onclick="window.assembleWord(this)">${w}</button>`).join('')}
+                        ${words.map((w, i) => `<button class="sc-tile" id="sc-tile-${i}" onclick="window.assembleWord(this)"><span class="keycap-badge">${i + 1}</span>${w}</button>`).join('')}
                       </div>
                     </div>
                     <div style="display:flex; gap:10px; margin-top:1rem;">
-                      <button class="btn-outline" onclick="window.clearScramble()">Clear 🔄</button>
-                      <button class="btn-start" style="flex:1" onclick="window.checkScramble()">Check Scramble ✅</button>
+                      <button class="btn-outline" onclick="window.clearScramble()">Clear 🔄 <span class="keycap-badge">C</span></button>
+                      <button class="btn-start" style="flex:1" onclick="window.checkScramble()">Check Scramble ✅ <span class="keycap-badge">Enter</span></button>
                     </div>`;
         },
 
@@ -227,10 +227,10 @@
             // Listen and select usually provides audio and then MC options (IPA or words)
             let finalOpts = q.opts || [];
             return `<div style="text-align:center; margin-bottom: 1.5rem;">
-                <button class="btn-outline" onclick="window.gameUtils.speak('${q.item?.word || q.ans}', '${lang}')">🔊 Play Audio</button>
+                <button class="btn-outline" onclick="window.gameUtils.speak('${q.item?.word || q.ans}', '${lang}')">🔊 Play Audio <span class="keycap-badge">S</span></button>
             </div>
             <div class="mc-options">` + finalOpts.map((o, i) =>
-                `<button class="mc-opt" onclick="checkMC(${i})">${o}</button>`).join('') + `</div>`;
+                `<button class="mc-opt" id="mc-opt-${i}" onclick="checkMC(${i})"><span class="keycap-badge">${i + 1}</span> ${o}</button>`).join('') + `</div>`;
         }
     };
 
