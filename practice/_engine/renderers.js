@@ -202,9 +202,24 @@
         },
 
         renderConv(q) {
-            return `<div class="info-card glass" style="text-align:center; padding: 2rem;">
-                <p style="margin-bottom:1.5rem; font-size:1.1rem;">${q.q || 'Speak the prompt aloud.'}</p>
-                <button class="btn-start" onclick="cosyPracticeEngine.awardPoints(10); nextQuestion()">Mark as done ✅</button>
+            return `<div class="info-card glass" style="text-align:center; padding: 2rem; position: relative;">
+                <p style="margin-bottom:1.5rem; font-size:1.1rem; font-weight: 500;">${q.q || 'Speak the prompt aloud.'}</p>
+
+                <div class="speaking-widget-container">
+                    <button id="speaking-mic-btn" class="speaking-mic-btn" onclick="window.cosyToggleAudioRecording()">
+                        <span class="mic-pulse"></span>
+                        <span class="mic-icon">🎙️</span>
+                    </button>
+                    <div id="speaking-timer" class="speaking-timer">Tap mic to speak</div>
+                    <div class="waveform-wrap">
+                        <canvas id="speaking-waveform" class="waveform-canvas" width="320" height="80"></canvas>
+                    </div>
+                </div>
+
+                <div style="margin-top: 1.5rem; display: flex; gap: 12px; justify-content: center; align-items: center;">
+                    <button class="btn-outline" onclick="window.cosyCleanupAudio(); cosyPracticeEngine.awardPoints(10); nextQuestion()">Skip & Mark Done ✅</button>
+                    <button id="speaking-submit-btn" class="btn-start" style="opacity: 0.5; pointer-events: none;" onclick="window.cosySubmitAudioRecording()">Submit Recording 🚀</button>
+                </div>
             </div>`;
         },
 
