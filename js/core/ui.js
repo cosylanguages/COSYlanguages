@@ -1898,6 +1898,15 @@
         setupLyricsDisclaimers();
         setupDoubleClickHarvesting();
 
+        // Initialize first country tab on language pages if present
+        const firstTab = document.querySelector('.ctab');
+        if (firstTab) {
+            const firstCountry = firstTab.getAttribute('data-country');
+            if (firstCountry) {
+                window.showCountry(firstCountry);
+            }
+        }
+
         // Floating Guide Button Injection
         if (!document.getElementById('cosy-tour-fab')) {
             const btn = document.createElement('button');
@@ -1928,6 +1937,20 @@
                 }
             }
         }
+    };
+
+    window.showCountry = function(code) {
+        const panels = document.querySelectorAll('.country-panel');
+        panels.forEach(p => p.classList.remove('show'));
+
+        const tabs = document.querySelectorAll('.ctab');
+        tabs.forEach(t => t.classList.remove('active'));
+
+        const targetPanel = document.getElementById(`country-${code}`);
+        if (targetPanel) targetPanel.classList.add('show');
+
+        const targetTab = document.querySelector(`.ctab[data-country="${code}"]`);
+        if (targetTab) targetTab.classList.add('active');
     };
 
     window.updateDailyDose = function() {

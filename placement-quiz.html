@@ -413,7 +413,7 @@
         .results-score {
             font-size: 1.3rem;
             font-weight: bold;
-            color: #666;
+            color: var(--muted);
             margin-bottom: 0.5rem;
         }
 
@@ -428,7 +428,7 @@
         .results-desc {
             font-size: 1.15rem;
             line-height: 1.7;
-            color: #4a5568;
+            color: var(--ink-soft);
             max-width: 600px;
             margin: 0 auto 2.5rem;
         }
@@ -465,7 +465,7 @@
         }
 
         .btn-secondary {
-            background: #fff;
+            background: var(--surface-color);
             color: var(--sage-deep, #3d5a45);
             border: 2px solid var(--sage-deep, #3d5a45);
         }
@@ -516,15 +516,66 @@
             <p class="results-desc" id="results-desc-text">You can handle everyday conversations. Let's work on fluency and confidence!</p>
 
             <div class="results-actions">
-                <a href="index.html" class="btn btn-primary">Go to Homepage 🏡</a>
-                <a href="practice/index.html" class="btn btn-secondary">Try Free Practice 💡</a>
-                <button onclick="resetQuiz()" class="btn btn-secondary">Retake Quiz 🔄</button>
+                <a href="index.html" class="btn btn-primary" id="btn-results-home">Go to Homepage 🏡</a>
+                <a href="practice/index.html" class="btn btn-secondary" id="btn-results-practice">Try Free Practice 💡</a>
+                <button onclick="resetQuiz()" class="btn btn-secondary" id="btn-results-retake">Retake Quiz 🔄</button>
             </div>
         </div>
     </div>
 </main>
 
 <script>
+    const ACTION_BUTTON_TRANSLATIONS = {
+        en: {
+            home: "Go to Homepage 🏡",
+            practice: "Try Free Practice 💡",
+            retake: "Retake Quiz 🔄"
+        },
+        fr: {
+            home: "Aller à l'accueil 🏡",
+            practice: "Essayer l'entraînement gratuit 💡",
+            retake: "Refaire le test 🔄"
+        },
+        it: {
+            home: "Vai alla Homepage 🏡",
+            practice: "Prova la pratica gratuita 💡",
+            retake: "Rifai il quiz 🔄"
+        },
+        ru: {
+            home: "На главную 🏡",
+            practice: "Бесплатная практика 💡",
+            retake: "Пройти еще раз 🔄"
+        },
+        el: {
+            home: "Αρχική Σελίδα 🏡",
+            practice: "Δωρεάν Εξάσκηση 💡",
+            retake: "Επανάληψη Τεστ 🔄"
+        }
+    };
+
+    const PIVOT_TRANSLATIONS = {
+        en: {
+            title: "Adaptive Level Calibration",
+            desc: "Receptive baseline established. We are dynamically optimizing your testing path and pivoting directly to the Conversational Speaking checkpoints to calibrate your active production."
+        },
+        fr: {
+            title: "Étalonnage adaptatif du niveau",
+            desc: "Ligne de base réceptive établie. Nous optimisons dynamiquement votre parcours de test et pivotons directement vers les points de contrôle de l'expression orale pour calibrer votre production active."
+        },
+        it: {
+            title: "Calibrazione adattiva del livello",
+            desc: "Livello di base ricettivo stabilito. Stiamo ottimizzando dinamicamente il percorso del test e passando direttamente ai punti di controllo della conversazione per calibrare la tua produzione attiva."
+        },
+        ru: {
+            title: "Адаптивная калибровка уровня",
+            desc: "Базовый уровень пассивных знаний установлен. Мы оптимизируем ваш путь тестирования и переходим непосредственно к разговорным заданиям для оценки вашей активной речи."
+        },
+        el: {
+            title: "Προσαρμοστική Βαθμονόμηση Επιπέδου",
+            desc: "Η παθητική βάση καθορίστηκε. Βελτιστοποιούμε δυναμικά την πορεία του τεστ και μεταβαίνουμε απευθείας στα σημεία ελέγχου προφορικού λόγου για να βαθμονομήσουμε την ενεργό παραγωγή σας."
+        }
+    };
+
     // 20 progressive hybrid questions per language (Progressive difficulty alternating between Grammar and Vocabulary: 1-10 progressive CEFR, 11-15 Conversational Fluency, 16-20 Speech Confidence)
     const QUESTIONS = {
         en: [
@@ -912,12 +963,13 @@
         if (triggeredPivot) {
             // Adaptive Pivot Transition Card
             setTimeout(() => {
+                const pt = PIVOT_TRANSLATIONS[selectedLang] || PIVOT_TRANSLATIONS['en'];
                 const pivotHtml = `
                     <div class="question-card" style="display: block; text-align: center; padding: 2.5rem 1.5rem; border: 2px dashed var(--honey-dark, #b7791f); border-radius: 12px; background: var(--honey-pale); box-shadow: 0 4px 15px rgba(183,121,31,0.05); animation: fadeIn 0.4s ease;">
                         <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
-                        <div class="question-text" style="color: var(--honey-dark, #b7791f); font-family: 'Lora', serif; font-size: 1.45rem; margin-bottom: 1rem;">Adaptive Level Calibration</div>
+                        <div class="question-text" style="color: var(--honey-dark, #b7791f); font-family: 'Lora', serif; font-size: 1.45rem; margin-bottom: 1rem;">${pt.title}</div>
                         <p style="font-size: 1.05rem; color: var(--ink-soft); line-height: 1.6; max-width: 500px; margin: 0 auto 1.5rem;">
-                            Receptive baseline established. We are dynamically optimizing your testing path and pivoting directly to the Conversational Speaking checkpoints to calibrate your active production.
+                            ${pt.desc}
                         </p>
                     </div>
                 `;
@@ -997,6 +1049,12 @@
         document.getElementById('results-level-text').textContent = exp.name;
         document.getElementById('results-desc-text').textContent = exp.desc;
 
+        // Dynamic results buttons translation
+        const btns = ACTION_BUTTON_TRANSLATIONS[selectedLang] || ACTION_BUTTON_TRANSLATIONS['en'];
+        document.getElementById('btn-results-home').innerHTML = btns.home;
+        document.getElementById('btn-results-practice').innerHTML = btns.practice;
+        document.getElementById('btn-results-retake').innerHTML = btns.retake;
+
         // Custom speaking gap / balanced communicative warning block
         let gapHtml = '';
         if (gapDetected) {
@@ -1054,17 +1112,40 @@
             el: { passive: "Παθητική κατανόηση", active: "Προφορική αυτοπεποίθηση" }
         };
 
+        const metricDescs = {
+            en: {
+                passive: "Based on progressive CEFR-aligned multiple choice grammar, collocations, and idiomatic questions.",
+                active: "Evaluated through real-world task scenarios, speech flow speed, and anxiety checkpoints."
+            },
+            fr: {
+                passive: "Basé sur des questions progressives de grammaire, de collocations et d'idiomes alignées sur le CECRL.",
+                active: "Évalué à travers des scénarios de tâches réelles, la vitesse d'élocution et des points de contrôle de l'anxiété."
+            },
+            it: {
+                passive: "Basato su domande a scelta multipla progressive di grammatica, collocazioni e idiomi allineate al QCER.",
+                active: "Valutato attraverso scenari di compiti reali, velocità del flusso del parlato e punti di controllo dell'ansia."
+            },
+            ru: {
+                passive: "На основе прогрессивных вопросов с множественным выбором по грамматике, коллокациям и идиомам, соответствующих шкале CEFR.",
+                active: "Оценивается на основе сценариев реального общения, скорости речи и психологических барьеров."
+            },
+            el: {
+                passive: "Βασισμένο σε προοδευτικές ερωτήσεις πολλαπλής επιλογής γραμματικής, συνδυασμών λέξεων και ιδιωματισμών ευθυγραμμισμένων με το CEFR.",
+                active: "Αξιολογείται μέσω σεναρίων πραγματικών εργασιών, ταχύτητας ροής λόγου και σημείων ελέγχου άγχους."
+            }
+        };
+
         const breakdownHtml = `
             <div class="breakdown-grid" id="dynamic-breakdown">
                 <div class="breakdown-card">
                     <div class="breakdown-title">📖 ${metricTitles[selectedLang].passive}</div>
                     <div class="breakdown-metric">${passiveScore} / 10</div>
-                    <div class="breakdown-desc">Based on progressive CEFR-aligned multiple choice grammar, collocations, and idiomatic questions.</div>
+                    <div class="breakdown-desc">${metricDescs[selectedLang].passive}</div>
                 </div>
                 <div class="breakdown-card">
                     <div class="breakdown-title">🗣️ ${metricTitles[selectedLang].active}</div>
                     <div class="breakdown-metric">${activeScore} / 20</div>
-                    <div class="breakdown-desc">Evaluated through real-world task scenarios, speech flow speed, and anxiety checkpoints.</div>
+                    <div class="breakdown-desc">${metricDescs[selectedLang].active}</div>
                 </div>
             </div>
         `;
