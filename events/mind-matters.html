@@ -20,7 +20,26 @@
   .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
   .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
 </style>
-</head>
+<style>
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--cream, #FAF7F2);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover {
+    background: var(--border);
+  }
+  .filter-btn.active {
+    background: #993556;
+    color: white;
+    border-color: #993556;
+  }
+</style></head>
 <body>
 <nav id="cosy-nav"></nav>
 <header class="club-hero">
@@ -50,47 +69,47 @@
 <div class="history-block" id="mm-hist" style="margin-top: 2rem;">
 <div class="section-header" style="margin-bottom: 1rem;">
 <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
-</div>
-<div class="history-body" style="display: block; padding: 0; border: none;"><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="club-filters" style="justify-content: flex-start; margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap;"><button class="filter-btn active" data-level="all">All Levels</button><button class="filter-btn" data-level="a1">A1</button><button class="filter-btn" data-level="a2">A2</button><button class="filter-btn" data-level="b1">B1</button><button class="filter-btn" data-level="b2">B2</button><button class="filter-btn" data-level="c1">C1</button><button class="filter-btn" data-level="c2">C2</button></div>
+<div class="history-body" style="display: block; padding: 0; border: none;"><div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Mind and Great Literature</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 January 2027</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/mind-great-literature.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Georg Simmel: Objective Freedom</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 January 2027</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/simmel-objective-freedom.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Moving and the True Self</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 January 2027</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/moving-new-city-true-self.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">The Bye-Now Effect</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">17 November 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/the-bye-now-effect.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Is AI Inevitable?</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 November 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/why-do-they-say-ai-is-inevitable.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Bluewashing: The Corporate Shield of Global Pacts</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">13 October 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/bluewashing.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;display:flex;align-items:center;gap:8px;">
   Redwashing: The Illusion of Solidarity
   <span class="club-tag" style="background:#FFF5F5; color:#E53E3E; border-color:#FED7D7; font-weight:600; font-size:0.7rem; padding: 2px 6px;">⚠️ Sensitive</span>
@@ -99,225 +118,225 @@
 </div>
 <a class="view-btn" href="sessions/mind-matters/redwashing.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Sportswashing: Prestige, Power, and Play</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">29 September 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/sportswashing.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Purple Washing: The Instrumentalisation of Feminism</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">22 September 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/purple-washing.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Whitewashing: The Sanitization of History</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 September 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/whitewashing.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Pinkwashing: The Commodification of Diversity</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">08 September 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/pinkwashing.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Brainwashing: The Architecture of Coercive Persuasion</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 September 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/brainwashing.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Jane Elliott's "Blue Eyes - Brown Eyes" Experiment</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 August 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/blue-eyes-brown-eyes-experiment.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">How to Trick Your Brain Into Liking Discipline</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 August 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/brain-discipline-dopamine.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 c2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#FAF5FF; color:#6B46C1; border-color:#E9D8FD; border:1px solid #E9D8FD; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C2</span></div>
 <h4 style="margin:0;font-size:1rem;">The Guilt of Moving Abroad</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 August 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/guilt-moving-abroad.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Why Experts Defend Language Mistakes</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 July 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/expert-defend-language-mistakes.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">How to Love Your Work</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 July 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/how-to-love-your-work.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span><span class="club-tag" style="background:#FFF5F5; color:#E53E3E; border-color:#FED7D7; border:1px solid #FED7D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px;">🔞 18+ / Sensitive</span></div>
 <h4 style="margin:0;font-size:1rem;display:flex;align-items:center;gap:8px;">Nazi Race Propaganda — Would you survive? <span style="font-size:0.75rem; color:#E53E3E; background:#FFF5F5; border:1px solid #FED7D7; padding:2px 6px; border-radius:4px; font-weight:600;">⚠️ Sensitive Topic</span></h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 July 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/nazi-race-propaganda.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Benjamin Franklin Effect</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 July 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/benjamin-franklin-effect.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Bounded Rationality &amp; Decisions</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 June 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/bounded-rationality.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Aspiration vs. Inspiration</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">08 June 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/aspiration-vs-inspiration.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Maze of Biases</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">27 May 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/maze-of-biases.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Finding the Right Person</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 January 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/finding-the-right-person.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Fear of Love</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">18 January 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/fear-of-love-control.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Depersonalization</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">04 January 2026</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/depersonalization.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Broken Children</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">21 December 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/broken-children-grown-bodies.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Anticipatory Grief</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">14 December 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/anticipatory-grief.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Law of Attraction</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">07 December 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/law-of-attraction.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Impersonation</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">23 November 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/impersonation.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Limerence</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">19 October 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/limerence.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Kidlin's Law</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 September 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/kidlins-law.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Murphy's Law</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">22 September 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/murphys-law.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Wilson's Law</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">18 September 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/wilsons-law.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Gilbert's Law</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 September 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/gilberts-law.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Science of Sleep</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 August 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/science-of-sleep.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Psychology of Smiles</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">12 July 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/psychology-of-smiles.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">The Conversations People Avoid</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">08 July 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/conversations-avoid-enjoy.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Psychology of Action Bias</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 June 2025</span>
 </div>
 <a class="view-btn" href="sessions/mind-matters/psychology-of-action-bias.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Power of Habits</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 May 2025</span>
 </div>
@@ -353,5 +372,28 @@
 <script src="../js/core/ui.js"></script>
 <script src="../js/data/pricing.js"></script>
 <script src="../js/config.js"></script>
-</body>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.filter-btn');
+  const sessions = document.querySelectorAll('.history-session');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const selectedLevel = btn.getAttribute('data-level');
+
+      sessions.forEach(sess => {
+        const levels = (sess.getAttribute('data-level') || '').split(' ');
+        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
+          sess.style.display = 'flex';
+        } else {
+          sess.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script></body>
 </html>
