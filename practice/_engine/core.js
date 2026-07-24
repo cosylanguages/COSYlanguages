@@ -826,15 +826,21 @@
         const assembly = document.getElementById('sc-assembly');
         if (!assembly) return;
         const clone = btn.cloneNode(true);
-        clone.onclick = () => { clone.remove(); btn.style.display = 'inline-block'; };
+        clone.className = 'sc-tile';
+        clone.onclick = () => {
+            clone.remove();
+            btn.classList.remove('placed');
+        };
         assembly.appendChild(clone);
-        btn.style.display = 'none';
+        btn.classList.add('placed');
     };
 
     window.clearScramble = () => {
         const assembly = document.getElementById('sc-assembly');
         if (assembly) assembly.innerHTML = '';
-        document.querySelectorAll('#sc-tokens button').forEach(b => b.style.display = 'inline-block');
+        document.querySelectorAll('#sc-tokens .sc-tile').forEach(b => {
+            b.classList.remove('placed');
+        });
     };
 
     window.checkScramble = () => {

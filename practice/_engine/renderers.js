@@ -189,14 +189,16 @@
 
         renderScramble(q) {
             const words = q.ans.split(' ').sort(() => Math.random() - 0.5);
-            return `<div id="sc-assembly" style="min-height:60px; border-bottom:2px solid var(--border); margin-bottom:1rem; display:flex; flex-wrap:wrap; gap:8px; padding:10px;"></div>
-                   <div id="sc-tokens" class="mc-options" style="grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));">
-                     ${words.map(w => `<button class="mc-opt" onclick="window.assembleWord(this)">${w}</button>`).join('')}
-                   </div>
-                   <div style="display:flex; gap:10px; margin-top:1rem;">
-                     <button class="btn-outline" onclick="window.clearScramble()">Clear 🔄</button>
-                     <button class="btn-start" style="flex:1" onclick="window.checkScramble()">Check Scramble ✅</button>
-                   </div>`;
+            return `<div class="scramble-container">
+                      <div id="sc-assembly" class="scramble-assembly"></div>
+                      <div id="sc-tokens" class="scramble-tokens">
+                        ${words.map(w => `<button class="sc-tile" onclick="window.assembleWord(this)">${w}</button>`).join('')}
+                      </div>
+                    </div>
+                    <div style="display:flex; gap:10px; margin-top:1rem;">
+                      <button class="btn-outline" onclick="window.clearScramble()">Clear 🔄</button>
+                      <button class="btn-start" style="flex:1" onclick="window.checkScramble()">Check Scramble ✅</button>
+                    </div>`;
         },
 
         renderConv(q) {
