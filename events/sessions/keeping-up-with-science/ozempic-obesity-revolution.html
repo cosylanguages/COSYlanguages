@@ -16,7 +16,7 @@
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #073b2d);">
+<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #07372b);">
 <div class="club-tag">Keeping Up with Science</div>
 <h1>Ozempic &amp; the Obesity Revolution</h1>
 <p class="session-date">19 June 2026</p>
@@ -33,7 +33,7 @@
 <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
 <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
 <div class="meta-item"><h4>Level</h4><p>Intermediate (B1-B2)</p></div>
-<div class="meta-item"><h4>Resources</h4><p><a href="https://www.sciencedaily.com/releases/2026/06/260619020504.htm" target="_blank">Full Article 📖</a></p></div>
+<div class="meta-item"><h4>Topic</h4><p>Pharmacology / Metabolic Health</p></div><div class="meta-item"><h4>Resources</h4><p><a href="https://www.sciencedaily.com/releases/2026/06/260619020504.htm" target="_blank">Full Article 📖</a></p></div>
 </div>
 <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
 <p>This session examines the scientific impact of Ozempic and similar GLP-1 drugs on weight management and obesity treatment. We will analyze the biological mechanisms of appetite suppression and how these medications are transforming modern healthcare. Participants will also discuss the potential long-term side effects and societal debates surrounding pharmaceutical weight loss.</p>
@@ -41,16 +41,56 @@
 <section id="vocabulary">
 <h2 class="section-title">📖 Session Vocabulary</h2>
 <div class="vocab-grid-10">
-<div class="vocab-card"><div class="vocab-word">Medication</div><div class="vocab-def">a substance used for medical treatment, especially a medicine or drug.</div><div class="vocab-example">He has to take his blood pressure medication every morning.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Medication', definition:'a substance used for medical treatment, especially a medicine or drug.', example:'He has to take his blood pressure medication every morning.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Revolution</div><div class="vocab-def">a dramatic and wide-reaching change in conditions, attitudes, or operation.</div><div class="vocab-example">The discovery of penicillin caused a revolution in medicine.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Revolution', definition:'a dramatic and wide-reaching change in conditions, attitudes, or operation.', example:'The discovery of penicillin caused a revolution in medicine.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Obesity</div><div class="vocab-def">the state of being grossly fat or overweight.</div><div class="vocab-example">Obesity is a major risk factor for type 2 diabetes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Obesity', definition:'the state of being grossly fat or overweight.', example:'Obesity is a major risk factor for type 2 diabetes.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Treatment</div><div class="vocab-def">medical care given to a patient for an illness or injury.</div><div class="vocab-example">The patient responded very well to the new cancer treatment.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Treatment', definition:'medical care given to a patient for an illness or injury.', example:'The patient responded very well to the new cancer treatment.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Suppress</div><div class="vocab-def">to forcibly put an end to, or prevent the development of (e.g., appetite).</div><div class="vocab-example">These weight loss injections work because they suppress hunger.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Suppress', definition:'to prevent the development of or end a process.', example:'These weight loss injections work because they suppress hunger.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Satiety</div><div class="vocab-def">the feeling or state of being sated or full.</div><div class="vocab-example">Fiber-rich foods help you achieve a longer feeling of satiety.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Satiety', definition:'the feeling or state of being sated or full.', example:'Fiber-rich foods help you achieve a longer feeling of satiety.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Metabolism</div><div class="vocab-def">the chemical processes that occur within a living organism in order to maintain life.</div><div class="vocab-example">Regular physical exercise can help speed up your metabolism.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Metabolism', definition:'the chemical processes that occur within a living organism in order to maintain life.', example:'Regular physical exercise can help speed up your metabolism.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Chronic</div><div class="vocab-def">persisting for a long time or constantly recurring.</div><div class="vocab-example">Obesity is now officially classified as a chronic disease.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Chronic', definition:'persisting for a long time or constantly recurring.', example:'Obesity is now officially classified as a chronic disease.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Side effect</div><div class="vocab-def">a secondary, typically undesirable effect of a drug or medical treatment.</div><div class="vocab-example">Nausea is a common side effect of many medications.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Side effect', definition:'a secondary, typically undesirable effect of a drug or medical treatment.', example:'Nausea is a common side effect of many medications.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Prescribe</div><div class="vocab-def">to advise and authorize the use of a medicine or treatment.</div><div class="vocab-example">Doctors usually prescribe antibiotics only for bacterial infections.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Prescribe', definition:'to advise and authorize the use of a medicine or treatment.', example:'Doctors usually prescribe antibiotics only for bacterial infections.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Medication</div>
+<div class="vocab-def">a substance used for medical treatment, especially a medicine or drug.</div>
+<div class="vocab-example">He has to take his blood pressure medication every morning.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Medication', definition:'a substance used for medical treatment, especially a medicine or drug.', example:'He has to take his blood pressure medication every morning.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Revolution</div>
+<div class="vocab-def">a dramatic and wide-reaching change in conditions, attitudes, or operation.</div>
+<div class="vocab-example">The discovery of penicillin caused a revolution in medicine.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Revolution', definition:'a dramatic and wide-reaching change in conditions, attitudes, or operation.', example:'The discovery of penicillin caused a revolution in medicine.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Obesity</div>
+<div class="vocab-def">the state of being grossly fat or overweight.</div>
+<div class="vocab-example">Obesity is a major risk factor for type 2 diabetes.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Obesity', definition:'the state of being grossly fat or overweight.', example:'Obesity is a major risk factor for type 2 diabetes.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Treatment</div>
+<div class="vocab-def">medical care given to a patient for an illness or injury.</div>
+<div class="vocab-example">The patient responded very well to the new cancer treatment.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Treatment', definition:'medical care given to a patient for an illness or injury.', example:'The patient responded very well to the new cancer treatment.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Suppress</div>
+<div class="vocab-def">to forcibly put an end to, or prevent the development of (e.g., appetite).</div>
+<div class="vocab-example">These weight loss injections work because they suppress hunger.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Suppress', definition:'to prevent the development of or end a process.', example:'These weight loss injections work because they suppress hunger.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Satiety</div>
+<div class="vocab-def">the feeling or state of being sated or full.</div>
+<div class="vocab-example">Fiber-rich foods help you achieve a longer feeling of satiety.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Satiety', definition:'the feeling or state of being sated or full.', example:'Fiber-rich foods help you achieve a longer feeling of satiety.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Metabolism</div>
+<div class="vocab-def">the chemical processes that occur within a living organism in order to maintain life.</div>
+<div class="vocab-example">Regular physical exercise can help speed up your metabolism.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Metabolism', definition:'the chemical processes that occur within a living organism in order to maintain life.', example:'Regular physical exercise can help speed up your metabolism.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Chronic</div>
+<div class="vocab-def">persisting for a long time or constantly recurring.</div>
+<div class="vocab-example">Obesity is now officially classified as a chronic disease.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Chronic', definition:'persisting for a long time or constantly recurring.', example:'Obesity is now officially classified as a chronic disease.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Side effect</div>
+<div class="vocab-def">a secondary, typically undesirable effect of a drug or medical treatment.</div>
+<div class="vocab-example">Nausea is a common side effect of many medications.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Side effect', definition:'a secondary, typically undesirable effect of a drug or medical treatment.', example:'Nausea is a common side effect of many medications.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Prescribe</div>
+<div class="vocab-def">to advise and authorize the use of a medicine or treatment.</div>
+<div class="vocab-example">Doctors usually prescribe antibiotics only for bacterial infections.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Prescribe', definition:'to advise and authorize the use of a medicine or treatment.', example:'Doctors usually prescribe antibiotics only for bacterial infections.'}, this)">Add to Dictionary</button>
+</div>
 </div>
 </section>
 <section id="structure">
@@ -61,7 +101,7 @@
 <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<div class="vim-instruction">Short introduction to wellness and weight.</div>
+<div class="vim-instruction">Wellness and Weight</div>
 <ul class="round-questions">
 <li>Have you ever tried a specific diet? Did it work for you?</li>
 <li>Why do you think it is so difficult for many people to lose weight?</li>
@@ -72,17 +112,37 @@
 <div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;"><span>🔵 Round 1 — Theoretical Discussion</span><span class="round-toggle">▲</span></div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Questions</div>
-<div class="vim-instruction">Discuss the science and impact of Ozempic on obesity treatment.</div>
-<div class="round-item"><div class="round-item-main">How does Ozempic act as a revolutionary <strong>treatment</strong> for <strong>obesity</strong>?</div><div class="round-item-personal">★ How do you personally maintain a healthy balance in your diet and lifestyle?</div></div>
-<div class="round-item"><div class="round-item-main">Why is this medication causing a healthcare <strong>revolution</strong> worldwide?</div><div class="round-item-personal">★ Do you believe that weight loss is primarily a matter of willpower or biological genetics?</div></div>
-<div class="round-item"><div class="round-item-main">How does appetite <strong>suppression</strong> help achieve <strong>satiety</strong>?</div><div class="round-item-personal">★ What is your reaction when you hear about 'miracle' weight-loss drugs in the media?</div></div>
-<div class="round-item"><div class="round-item-main">How does <strong>metabolism</strong> change as we grow older?</div><div class="round-item-personal">★ How often do you think about body image and societal pressure in your daily life?</div></div>
-<div class="round-item"><div class="round-item-main">Why is obesity classified as a <strong>chronic</strong> disease by doctors?</div><div class="round-item-personal">★ Have you ever tried a strict diet or fitness program? What was the hardest part?</div></div>
-<div class="round-item"><div class="round-item-main">What are the potential risks of taking weight-loss drugs without a doctor's advice?</div><div class="round-item-personal">★ Do you think doctors rely too much on prescribing medicine instead of lifestyle changes?</div></div>
-<div class="round-item"><div class="round-item-main">How should doctors decide when to <strong>prescribe</strong> Ozempic?</div><div class="round-item-personal">★ How do you feel about the pharmaceutical industry making massive profits from weight loss?</div></div>
-<div class="round-item"><div class="round-item-main">What are the most common <strong>side effects</strong> of GLP-1 medications?</div><div class="round-item-personal">★ What is the healthiest meal you know how to cook? Do you enjoy preparing it?</div></div>
-<div class="round-item"><div class="round-item-main">Should governments subsidize weight-loss drugs to improve public health?</div><div class="round-item-personal">★ Do you think processed foods should be taxed more heavily to encourage healthy eating?</div></div>
-<div class="round-item"><div class="round-item-main">Will these drugs reduce the popularity of fast food chains?</div><div class="round-item-personal">★ What is your favorite form of physical exercise, and how does it make you feel?</div></div>
+
+<div class="round-item"><div class="round-item-main">How does Ozempic act as a revolutionary <strong>treatment</strong> for <strong>obesity</strong>?</div>
+<div class="round-item-personal">★ How do you personally maintain a healthy balance in your diet and lifestyle?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Why is this medication causing a healthcare <strong>revolution</strong> worldwide?</div>
+<div class="round-item-personal">★ Do you believe that weight loss is primarily a matter of willpower or biological genetics?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does appetite <strong>suppression</strong> help achieve <strong>satiety</strong>?</div>
+<div class="round-item-personal">★ What is your reaction when you hear about 'miracle' weight-loss drugs in the media?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does <strong>metabolism</strong> change as we grow older?</div>
+<div class="round-item-personal">★ How often do you think about body image and societal pressure in your daily life?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Why is obesity classified as a <strong>chronic</strong> disease by doctors?</div>
+<div class="round-item-personal">★ Have you ever tried a strict diet or fitness program? What was the hardest part?</div>
+</div>
+<div class="round-item"><div class="round-item-main">What are the potential risks of taking weight-loss drugs without a doctor's advice?</div>
+<div class="round-item-personal">★ Do you think doctors rely too much on prescribing medicine instead of lifestyle changes?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How should doctors decide when to <strong>prescribe</strong> Ozempic?</div>
+<div class="round-item-personal">★ How do you feel about the pharmaceutical industry making massive profits from weight loss?</div>
+</div>
+<div class="round-item"><div class="round-item-main">What are the most common <strong>side effects</strong> of GLP-1 medications?</div>
+<div class="round-item-personal">★ What is the healthiest meal you know how to cook? Do you enjoy preparing it?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Should governments subsidize weight-loss drugs to improve public health?</div>
+<div class="round-item-personal">★ Do you think processed foods should be taxed more heavily to encourage healthy eating?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Will these drugs reduce the popularity of fast food chains?</div>
+<div class="round-item-personal">★ What is your favorite form of physical exercise, and how does it make you feel?</div>
+</div>
 </div>
 </div>
 <div class="round-block lst open" id="s-lst">
@@ -101,17 +161,37 @@
 <div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;"><span>🟢 Round 2 — The Future: Agree or Disagree?</span><span class="round-toggle">▲</span></div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Projections</div>
-<div class="vim-instruction">Debate these predictions about biotechnology and healthcare.</div>
-<div class="round-item"><div class="round-item-main">In the future, obesity will be completely eliminated thanks to weight-loss drugs.</div><div class="round-item-personal">★ Would you take a safe weight-loss pill even if you only wanted to lose a few pounds?</div></div>
-<div class="round-item"><div class="round-item-main">People will stop exercising because medication will keep them fit automatically.</div><div class="round-item-personal">★ Do you think obesity will be completely eradicated by medical science within 50 years?</div></div>
-<div class="round-item"><div class="round-item-main">Fast food restaurants will go bankrupt as appetite-suppressing drugs become standard.</div><div class="round-item-personal">★ Should health insurance companies pay for weight-loss medications for everyone who wants them?</div></div>
-<div class="round-item"><div class="round-item-main">Insurance companies will require clients to take GLP-1 drugs to lower their premium rates.</div><div class="round-item-personal">★ Do you think weight-loss drugs will make people care less about healthy eating and exercise?</div></div>
-<div class="round-item"><div class="round-item-main">We will discover severe, long-term side effects that will force us to ban Ozempic within 10 years.</div><div class="round-item-personal">★ How can society promote body positivity while still encouraging medical health?</div></div>
-<div class="round-item"><div class="round-item-main">The pharmaceutical industry will make weight-loss drugs as cheap and common as aspirin.</div><div class="round-item-personal">★ Would you support a ban on advertising fast food to children on television and online?</div></div>
-<div class="round-item"><div class="round-item-main">Future societies will view obesity as a choice rather than a medical disease.</div><div class="round-item-personal">★ Do you think future school lunches will be scientifically customized to fit each child's metabolism?</div></div>
-<div class="round-item"><div class="round-item-main">Future governments will add appetite suppressants to municipal tap water to improve public health.</div><div class="round-item-personal">★ What is the most important lesson about physical wellness you have learned?</div></div>
-<div class="round-item"><div class="round-item-main">In the future, using biotechnology to change our weight will be seen by many as unethical and a violation of natural limits.</div><div class="round-item-personal">★ Do you believe that fast-food companies are intentionally designing addictive food products?</div></div>
-<div class="round-item"><div class="round-item-main">The next medical revolution will focus on genetic therapies to optimize human metabolism.</div><div class="round-item-personal">★ How has your own attitude toward diet and fitness changed over the last five years?</div></div>
+
+<div class="round-item"><div class="round-item-main">In the future, obesity will be completely eliminated thanks to weight-loss drugs.</div>
+<div class="round-item-personal">★ Would you take a safe weight-loss pill even if you only wanted to lose a few pounds?</div>
+</div>
+<div class="round-item"><div class="round-item-main">People will stop exercising because medication will keep them fit automatically.</div>
+<div class="round-item-personal">★ Do you think obesity will be completely eradicated by medical science within 50 years?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Fast food restaurants will go bankrupt as appetite-suppressing drugs become standard.</div>
+<div class="round-item-personal">★ Should health insurance companies pay for weight-loss medications for everyone who wants them?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Insurance companies will require clients to take GLP-1 drugs to lower their premium rates.</div>
+<div class="round-item-personal">★ Do you think weight-loss drugs will make people care less about healthy eating and exercise?</div>
+</div>
+<div class="round-item"><div class="round-item-main">We will discover severe, long-term side effects that will force us to ban Ozempic within 10 years.</div>
+<div class="round-item-personal">★ How can society promote body positivity while still encouraging medical health?</div>
+</div>
+<div class="round-item"><div class="round-item-main">The pharmaceutical industry will make weight-loss drugs as cheap and common as aspirin.</div>
+<div class="round-item-personal">★ Would you support a ban on advertising fast food to children on television and online?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Future societies will view obesity as a choice rather than a medical disease.</div>
+<div class="round-item-personal">★ Do you think future school lunches will be scientifically customized to fit each child's metabolism?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Future governments will add appetite suppressants to municipal tap water to improve public health.</div>
+<div class="round-item-personal">★ What is the most important lesson about physical wellness you have learned?</div>
+</div>
+<div class="round-item"><div class="round-item-main">In the future, using biotechnology to change our weight will be seen by many as unethical and a violation of natural limits.</div>
+<div class="round-item-personal">★ Do you believe that fast-food companies are intentionally designing addictive food products?</div>
+</div>
+<div class="round-item"><div class="round-item-main">The next medical revolution will focus on genetic therapies to optimize human metabolism.</div>
+<div class="round-item-personal">★ How has your own attitude toward diet and fitness changed over the last five years?</div>
+</div>
 </div>
 </div>
 <div class="mistake-block open" id="s-mistakes">

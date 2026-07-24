@@ -16,7 +16,7 @@
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #07382d);">
+<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #07372b);">
 <div class="club-tag">Keeping Up with Science</div>
 <h1>Spider-like Creatures and the Origins of Fatherhood</h1>
 <p class="session-date">12 July 2026</p>
@@ -33,7 +33,7 @@
 <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
 <div class="meta-item"><h4>Languages</h4><p>🇬🇧 English</p></div>
 <div class="meta-item"><h4>Level</h4><p>Intermediate (B1-B2)</p></div>
-<div class="meta-item"><h4>Resources</h4><p>
+<div class="meta-item"><h4>Topic</h4><p>Evolutionary Zoology / Parental Behavior</p></div><div class="meta-item"><h4>Resources</h4><p>
 <a href="https://www.sciencedaily.com/releases/2026/07/260712011737.htm" style="color:var(--teal);" target="_blank">ScienceDaily Article 📖</a>
 </p></div>
 </div>
@@ -43,16 +43,56 @@
 <section id="vocabulary">
 <h2 class="section-title">📖 Session Vocabulary</h2>
 <div class="vocab-grid-10">
-<div class="vocab-card"><div class="vocab-word">Arachnid</div><div class="vocab-def">an arthropod of the class Arachnida, such as a spider, scorpion, or harvestman.</div><div class="vocab-example">The harvestman is a prehistoric arachnid that lives under old fallen logs.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Arachnid', definition:'an arthropod of the class Arachnida, such as a spider, scorpion, or harvestman.', example:'The harvestman is a prehistoric arachnid that lives under old fallen logs.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Paternal</div><div class="vocab-def">relating to a father; displaying the characteristics of a caring father.</div><div class="vocab-example">Male harvestmen display intense paternal care by guarding egg nests from predators.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Paternal', definition:'relating to a father; displaying the characteristics of a caring father.', example:'Male harvestmen display intense paternal care by guarding egg nests from predators.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Offspring</div><div class="vocab-def">a person's child or children; an animal's young.</div><div class="vocab-example">Many insects abandon their offspring immediately after laying eggs on leaves.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Offspring', definition:'a person\'s child or children; an animal\'s young.', example:'Many insects abandon their offspring immediately after laying eggs on leaves.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Evolutionary</div><div class="vocab-def">relating to the gradual development of something, especially organisms over generations.</div><div class="vocab-example">Developing paternal care offers clear evolutionary advantages for the survival of the species.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Evolutionary', definition:'relating to the gradual development of something, especially organisms over generations.', example:'Developing paternal care offers clear evolutionary advantages for the survival of the species.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Anomalous</div><div class="vocab-def">deviating from what is standard, normal, or expected.</div><div class="vocab-example">Male childcare is highly anomalous in most insect and spider families.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Anomalous', definition:'deviating from what is standard, normal, or expected.', example:'Male childcare is highly anomalous in most insect and spider families.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Guard</div><div class="vocab-def">watch over in order to protect or control.</div><div class="vocab-example">The father spider will actively guard the nest against invading ants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Guard', definition:'watch over in order to protect or control.', example:'The father spider will actively guard the nest against invading ants.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Altruism</div><div class="vocab-def">disinterested and selfless concern for the well-being of others.</div><div class="vocab-example">Guarding eggs without feeding is an example of biological altruism.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Altruism', definition:'disinterested and selfless concern for the well-being of others.', example:'Guarding eggs without feeding is an example of biological altruism.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Hypothesis</div><div class="vocab-def">a proposed explanation made on the basis of limited evidence as a starting point for further investigation.</div><div class="vocab-example">Scientists tested the hypothesis that paternal care increases offspring survival rates.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Hypothesis', definition:'a proposed explanation made on the basis of limited evidence as a starting point for further investigation.', example:'Scientists tested the hypothesis that paternal care increases offspring survival rates.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Reproductive ≠ Sterile</div><div class="vocab-def">relating to the production of offspring ≠ unable to produce offspring.</div><div class="vocab-example">The reproductive adults defend the hive, while the sterile worker bees forage for sweet nectar.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reproductive ≠ Sterile', definition:'relating to the production of offspring ≠ unable to produce offspring.', example:'The reproductive adults defend the hive, while the sterile worker bees forage for sweet nectar.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Predator</div><div class="vocab-def">an animal that naturally preys on others.</div><div class="vocab-example">A tiny ant is a dangerous predator for unprotected arachnid eggs.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Predator', definition:'an animal that naturally preys on others.', example:'A tiny ant is a dangerous predator for unprotected arachnid eggs.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Arachnid</div>
+<div class="vocab-def">an arthropod of the class Arachnida, such as a spider, scorpion, or harvestman.</div>
+<div class="vocab-example">The harvestman is a prehistoric arachnid that lives under old fallen logs.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Arachnid', definition:'an arthropod of the class Arachnida, such as a spider, scorpion, or harvestman.', example:'The harvestman is a prehistoric arachnid that lives under old fallen logs.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Paternal</div>
+<div class="vocab-def">relating to a father; displaying the characteristics of a caring father.</div>
+<div class="vocab-example">Male harvestmen display intense paternal care by guarding egg nests from predators.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Paternal', definition:'relating to a father; displaying the characteristics of a caring father.', example:'Male harvestmen display intense paternal care by guarding egg nests from predators.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Offspring</div>
+<div class="vocab-def">a person's child or children; an animal's young.</div>
+<div class="vocab-example">Many insects abandon their offspring immediately after laying eggs on leaves.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Offspring', definition:'a person\'s child or children; an animal\'s young.', example:'Many insects abandon their offspring immediately after laying eggs on leaves.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Evolutionary</div>
+<div class="vocab-def">relating to the gradual development of something, especially organisms over generations.</div>
+<div class="vocab-example">Developing paternal care offers clear evolutionary advantages for the survival of the species.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Evolutionary', definition:'relating to the gradual development of something, especially organisms over generations.', example:'Developing paternal care offers clear evolutionary advantages for the survival of the species.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Anomalous</div>
+<div class="vocab-def">deviating from what is standard, normal, or expected.</div>
+<div class="vocab-example">Male childcare is highly anomalous in most insect and spider families.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Anomalous', definition:'deviating from what is standard, normal, or expected.', example:'Male childcare is highly anomalous in most insect and spider families.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Guard</div>
+<div class="vocab-def">watch over in order to protect or control.</div>
+<div class="vocab-example">The father spider will actively guard the nest against invading ants.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Guard', definition:'watch over in order to protect or control.', example:'The father spider will actively guard the nest against invading ants.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Altruism</div>
+<div class="vocab-def">disinterested and selfless concern for the well-being of others.</div>
+<div class="vocab-example">Guarding eggs without feeding is an example of biological altruism.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Altruism', definition:'disinterested and selfless concern for the well-being of others.', example:'Guarding eggs without feeding is an example of biological altruism.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Hypothesis</div>
+<div class="vocab-def">a proposed explanation made on the basis of limited evidence as a starting point for further investigation.</div>
+<div class="vocab-example">Scientists tested the hypothesis that paternal care increases offspring survival rates.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Hypothesis', definition:'a proposed explanation made on the basis of limited evidence as a starting point for further investigation.', example:'Scientists tested the hypothesis that paternal care increases offspring survival rates.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Reproductive ≠ Sterile</div>
+<div class="vocab-def">relating to the production of offspring ≠ unable to produce offspring.</div>
+<div class="vocab-example">The reproductive adults defend the hive, while the sterile worker bees forage for sweet nectar.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Reproductive ≠ Sterile', definition:'relating to the production of offspring ≠ unable to produce offspring.', example:'The reproductive adults defend the hive, while the sterile worker bees forage for sweet nectar.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Predator</div>
+<div class="vocab-def">an animal that naturally preys on others.</div>
+<div class="vocab-example">A tiny ant is a dangerous predator for unprotected arachnid eggs.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Predator', definition:'an animal that naturally preys on others.', example:'A tiny ant is a dangerous predator for unprotected arachnid eggs.'}, this)">Add to Dictionary</button>
+</div>
 </div>
 </section>
 <section id="structure">
@@ -73,16 +113,36 @@
 <div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;"><span>🔵 Round 1 — Theoretical Discussion</span><span class="round-toggle">▲</span></div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Discussion</div>
-<div class="round-item"><div class="round-item-main">What is the most surprising thing about a male <strong>arachnid</strong> displaying <strong>paternal</strong> care?</div><div class="round-item-personal">★ How do you feel when you see a spider or insect in your house? Do you catch it or run?</div></div>
-<div class="round-item"><div class="round-item-main">How does protecting egg nests from a dangerous <strong>predator</strong> provide an <strong>evolutionary</strong> advantage?</div><div class="round-item-personal">★ What is the most unique or surprising animal behavior you have ever seen in a documentary?</div></div>
-<div class="round-item"><div class="round-item-main">Why is fatherhood historically considered highly <strong>anomalous</strong> in the insect world?</div><div class="round-item-personal">★ Who was the main father figure or nurturing presence in your childhood?</div></div>
-<div class="round-item"><div class="round-item-main">How do we test the <strong>hypothesis</strong> that paternal egg guarding is a form of biological <strong>altruism</strong>?</div><div class="round-item-personal">★ Do you think animal parents show genuine emotional love, or is it just survival instinct?</div></div>
-<div class="round-item"><div class="round-item-main">Do we often project human social standards onto animal evolutionary traits?</div><div class="round-item-personal">★ Have you ever had a pet that showed protective or parental behaviors?</div></div>
-<div class="round-item"><div class="round-item-main">What is the most interesting animal fact you have discovered recently?</div><div class="round-item-personal">★ What is the most important lesson about cooperation you have observed in nature?</div></div>
-<div class="round-item"><div class="round-item-main">Why are mother birds often praised for sacrifice while father birds are ignored?</div><div class="round-item-personal">★ Do you find insect biology and ecosystems fascinating or slightly frightening?</div></div>
-<div class="round-item"><div class="round-item-main">How does nature distribute reproductive responsibilities in non-mammal species?</div><div class="round-item-personal">★ How did your parents divide childcare duties when you were growing up?</div></div>
-<div class="round-item"><div class="round-item-main">Do spiders deserve more public sympathy and ecological protection?</div><div class="round-item-personal">★ Have you ever taken care of a helpless creature, like an injured bird or lost kitten?</div></div>
-<div class="round-item"><div class="round-item-main">What are the main differences between parental care in insects and mammals?</div><div class="round-item-personal">★ What animal do you think has the most admirable parenting style of all?</div></div>
+<div class="round-item"><div class="round-item-main">What is the most surprising thing about a male <strong>arachnid</strong> displaying <strong>paternal</strong> care?</div>
+<div class="round-item-personal">★ How do you feel when you see a spider or insect in your house? Do you catch it or run?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does protecting egg nests from a dangerous <strong>predator</strong> provide an <strong>evolutionary</strong> advantage?</div>
+<div class="round-item-personal">★ What is the most unique or surprising animal behavior you have ever seen in a documentary?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Why is fatherhood historically considered highly <strong>anomalous</strong> in the insect world?</div>
+<div class="round-item-personal">★ Who was the main father figure or nurturing presence in your childhood?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How do we test the <strong>hypothesis</strong> that paternal egg guarding is a form of biological <strong>altruism</strong>?</div>
+<div class="round-item-personal">★ Do you think animal parents show genuine emotional love, or is it just survival instinct?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Do we often project human social standards onto animal evolutionary traits?</div>
+<div class="round-item-personal">★ Have you ever had a pet that showed protective or parental behaviors?</div>
+</div>
+<div class="round-item"><div class="round-item-main">What is the most interesting animal fact you have discovered recently?</div>
+<div class="round-item-personal">★ What is the most important lesson about cooperation you have observed in nature?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Why are mother birds often praised for sacrifice while father birds are ignored?</div>
+<div class="round-item-personal">★ Do you find insect biology and ecosystems fascinating or slightly frightening?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does nature distribute reproductive responsibilities in non-mammal species?</div>
+<div class="round-item-personal">★ How did your parents divide childcare duties when you were growing up?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Do spiders deserve more public sympathy and ecological protection?</div>
+<div class="round-item-personal">★ Have you ever taken care of a helpless creature, like an injured bird or lost kitten?</div>
+</div>
+<div class="round-item"><div class="round-item-main">What are the main differences between parental care in insects and mammals?</div>
+<div class="round-item-personal">★ What animal do you think has the most admirable parenting style of all?</div>
+</div>
 </div>
 </div>
 <div class="round-block lst open" id="s-lst">
@@ -101,12 +161,32 @@
 <div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;"><span>🟢 Round 2 — The Future: Agree or Disagree?</span><span class="round-toggle">▲</span></div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Predictions</div>
-<div class="round-item"><div class="round-item-main">In the future, evolutionary biology will completely redefine gender roles as fluid and contextual across all species.</div><div class="round-item-personal">★ Would you live in a green city where insects and arachnids are fully integrated for ecology?</div></div>
-<div class="round-item"><div class="round-item-main">We will develop mechanical insects to protect endangered arachnid nests from climate change.</div><div class="round-item-personal">★ Do you think modern technology has made human parenting easier or more complicated?</div></div>
-<div class="round-item"><div class="round-item-main">Parental instincts will be recognized as purely social constructs in future sociological literature.</div><div class="round-item-personal">★ Should paid parental leave be divided equally between mothers and fathers by law?</div></div>
-<div class="round-item"><div class="round-item-main">In the future, we will learn valuable lessons about shared community protection by studying ancient arthropods.</div><div class="round-item-personal">★ Would you feel comfortable using bio-engineered harmless insects to clean your home?</div></div>
-<div class="round-item"><div class="round-item-main">True altruistic behavior will disappear as resources become scarcer due to ecological crises.</div><div class="round-item-personal">★ If humans could temporarily share the consciousness of animal parents, would you try it?</div></div>
-<div class="round-item"><div class="round-item-main">Synthetic ecosystems will allow us to observe centuries of evolutionary changes in a few weeks.</div><div class="round-item-personal">★ Do you think evolutionary biology will eventually prove that gender roles are completely fluid?</div></div><div class="round-item"><div class="round-item-main">Future educational systems will use animal mating and parenting patterns as the primary model for teaching ethics.</div><div class="round-item-personal">★ Would you trust a futuristic automated robotic crib to babysit a child for an hour?</div></div><div class="round-item"><div class="round-item-main">Human-animal neural links will enable fathers of different species to share parenting instincts directly.</div><div class="round-item-personal">★ What is the most valuable piece of advice about patience you have learned in life?</div></div><div class="round-item"><div class="round-item-main">Bio-engineered insects will be used as domestic babysitters in futuristic smart homes.</div><div class="round-item-personal">★ Do you think nature is inherently cruel, or is it beautifully balanced?</div></div><div class="round-item"><div class="round-item-main">Evolutionary forecasting algorithms will predict how human parenting styles will change over the next ten thousand years.</div><div class="round-item-personal">★ How do you think human parenting styles will evolve over the next thousand years?</div></div></div>
+<div class="round-item"><div class="round-item-main">In the future, evolutionary biology will completely redefine gender roles as fluid and contextual across all species.</div>
+<div class="round-item-personal">★ Would you live in a green city where insects and arachnids are fully integrated for ecology?</div>
+</div>
+<div class="round-item"><div class="round-item-main">We will develop mechanical insects to protect endangered arachnid nests from climate change.</div>
+<div class="round-item-personal">★ Do you think modern technology has made human parenting easier or more complicated?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Parental instincts will be recognized as purely social constructs in future sociological literature.</div>
+<div class="round-item-personal">★ Should paid parental leave be divided equally between mothers and fathers by law?</div>
+</div>
+<div class="round-item"><div class="round-item-main">In the future, we will learn valuable lessons about shared community protection by studying ancient arthropods.</div>
+<div class="round-item-personal">★ Would you feel comfortable using bio-engineered harmless insects to clean your home?</div>
+</div>
+<div class="round-item"><div class="round-item-main">True altruistic behavior will disappear as resources become scarcer due to ecological crises.</div>
+<div class="round-item-personal">★ If humans could temporarily share the consciousness of animal parents, would you try it?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Synthetic ecosystems will allow us to observe centuries of evolutionary changes in a few weeks.</div>
+<div class="round-item-personal">★ Do you think evolutionary biology will eventually prove that gender roles are completely fluid?</div>
+</div><div class="round-item"><div class="round-item-main">Future educational systems will use animal mating and parenting patterns as the primary model for teaching ethics.</div>
+<div class="round-item-personal">★ Would you trust a futuristic automated robotic crib to babysit a child for an hour?</div>
+</div><div class="round-item"><div class="round-item-main">Human-animal neural links will enable fathers of different species to share parenting instincts directly.</div>
+<div class="round-item-personal">★ What is the most valuable piece of advice about patience you have learned in life?</div>
+</div><div class="round-item"><div class="round-item-main">Bio-engineered insects will be used as domestic babysitters in futuristic smart homes.</div>
+<div class="round-item-personal">★ Do you think nature is inherently cruel, or is it beautifully balanced?</div>
+</div><div class="round-item"><div class="round-item-main">Evolutionary forecasting algorithms will predict how human parenting styles will change over the next ten thousand years.</div>
+<div class="round-item-personal">★ How do you think human parenting styles will evolve over the next thousand years?</div>
+</div></div>
 </div>
 <div class="mistake-block open" id="s-mistakes">
 <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">

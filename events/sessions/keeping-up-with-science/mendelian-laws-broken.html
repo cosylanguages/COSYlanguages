@@ -33,7 +33,7 @@
 <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
 <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
 <div class="meta-item"><h4>Level</h4><p>Advanced (C1)</p></div>
-<div class="meta-item"><h4>Resources</h4><p><a href="https://www.sciencedaily.com/releases/2026/05/260530053420.htm" target="_blank">Breaking Mendel's Laws 📖</a></p></div>
+<div class="meta-item"><h4>Topic</h4><p>Genetics / Heredity</p></div><div class="meta-item"><h4>Resources</h4><p><a href="https://www.sciencedaily.com/releases/2026/05/260530053420.htm" target="_blank">Breaking Mendel's Laws 📖</a></p></div>
 </div>
 <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
 <p>Gregor Mendel's laws of inheritance have been the foundation of genetics for over a century, but new research is revealing cases where these "unbreakable" rules are bypassed. This session explores the fascinating world of non-Mendelian inheritance, including gene drive and epigenetic factors that challenge our understanding of biological destiny. We will discuss the implications of these discoveries for medicine, agriculture, and our fundamental view of the evolutionary process.</p>
@@ -41,16 +41,56 @@
 <section id="vocabulary">
 <h2 class="section-title">📖 Session Vocabulary</h2>
 <div class="vocab-grid-10">
-<div class="vocab-card"><div class="vocab-word">Inheritance</div><div class="vocab-def">the process by which genetic information is passed from parent to offspring.</div><div class="vocab-example">Mendel studied the inheritance of traits in pea plants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Inheritance', definition:'passing genetic info to offspring.', example:'Mendel studied the inheritance of traits in pea plants.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Trait</div><div class="vocab-def">a distinguishing quality or characteristic, typically one belonging to a person.</div><div class="vocab-example">Eye color is a common physical trait passed down through genes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Trait', definition:'distinguishing quality/characteristic.', example:'Eye color is a common physical trait passed down through genes.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Allele</div><div class="vocab-def">one of two or more alternative forms of a gene that arise by mutation.</div><div class="vocab-example">Each parent contributes one allele for every gene to their child.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Allele', definition:'alternative form of a gene.', example:'Each parent contributes one allele for every gene to their child.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Mutation</div><div class="vocab-def">the changing of the structure of a gene, resulting in a variant form.</div><div class="vocab-example">Some mutations can lead to the development of new, beneficial traits.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Mutation', definition:'change in gene structure.', example:'Some mutations can lead to the development of new, beneficial traits.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Dominant</div><div class="vocab-def">an allele that expresses its phenotype even in the presence of a recessive allele.</div><div class="vocab-example">The gene for brown eyes is usually dominant over the gene for blue eyes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Dominant', definition:'allele expressing phenotype over others.', example:'The gene for brown eyes is usually dominant over the gene for blue eyes.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Recessive</div><div class="vocab-def">an allele that only expresses its phenotype when two copies are present.</div><div class="vocab-example">Blue eyes are a recessive trait, meaning both parents must carry the gene.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Recessive', definition:'allele needing two copies to express.', example:'Blue eyes are a recessive trait, meaning both parents must carry the gene.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Genome</div><div class="vocab-def">the complete set of genes or genetic material present in a cell or organism.</div><div class="vocab-example">The human genome project took over a decade to complete.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Genome', definition:'complete set of genetic material.', example:'The human genome project took over a decade to complete.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Epigenetics</div><div class="vocab-def">the study of changes in organisms caused by modification of gene expression.</div><div class="vocab-example">Epigenetics shows how environment can affect which genes are active.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Epigenetics', definition:'study of gene expression changes.', example:'Epigenetics shows how environment can affect which genes are active.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Probability</div><div class="vocab-def">the extent to which an event is likely to occur.</div><div class="vocab-example">Mendel used probability to predict the traits of future plant generations.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Probability', definition:'likelihood of an event occurring.', example:'Mendel used probability to predict the traits of future plant generations.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Anomaly</div><div class="vocab-def">something that deviates from what is standard, normal, or expected.</div><div class="vocab-example">The breaking of Mendelian laws is considered a significant biological anomaly.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Anomaly', definition:'deviation from the standard.', example:'The breaking of Mendelian laws is considered a significant biological anomaly.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Inheritance</div>
+<div class="vocab-def">the process by which genetic information is passed from parent to offspring.</div>
+<div class="vocab-example">Mendel studied the inheritance of traits in pea plants.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Inheritance', definition:'passing genetic info to offspring.', example:'Mendel studied the inheritance of traits in pea plants.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Trait</div>
+<div class="vocab-def">a distinguishing quality or characteristic, typically one belonging to a person.</div>
+<div class="vocab-example">Eye color is a common physical trait passed down through genes.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Trait', definition:'distinguishing quality/characteristic.', example:'Eye color is a common physical trait passed down through genes.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Allele</div>
+<div class="vocab-def">one of two or more alternative forms of a gene that arise by mutation.</div>
+<div class="vocab-example">Each parent contributes one allele for every gene to their child.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Allele', definition:'alternative form of a gene.', example:'Each parent contributes one allele for every gene to their child.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Mutation</div>
+<div class="vocab-def">the changing of the structure of a gene, resulting in a variant form.</div>
+<div class="vocab-example">Some mutations can lead to the development of new, beneficial traits.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Mutation', definition:'change in gene structure.', example:'Some mutations can lead to the development of new, beneficial traits.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Dominant</div>
+<div class="vocab-def">an allele that expresses its phenotype even in the presence of a recessive allele.</div>
+<div class="vocab-example">The gene for brown eyes is usually dominant over the gene for blue eyes.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Dominant', definition:'allele expressing phenotype over others.', example:'The gene for brown eyes is usually dominant over the gene for blue eyes.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Recessive</div>
+<div class="vocab-def">an allele that only expresses its phenotype when two copies are present.</div>
+<div class="vocab-example">Blue eyes are a recessive trait, meaning both parents must carry the gene.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Recessive', definition:'allele needing two copies to express.', example:'Blue eyes are a recessive trait, meaning both parents must carry the gene.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Genome</div>
+<div class="vocab-def">the complete set of genes or genetic material present in a cell or organism.</div>
+<div class="vocab-example">The human genome project took over a decade to complete.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Genome', definition:'complete set of genetic material.', example:'The human genome project took over a decade to complete.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Epigenetics</div>
+<div class="vocab-def">the study of changes in organisms caused by modification of gene expression.</div>
+<div class="vocab-example">Epigenetics shows how environment can affect which genes are active.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Epigenetics', definition:'study of gene expression changes.', example:'Epigenetics shows how environment can affect which genes are active.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Probability</div>
+<div class="vocab-def">the extent to which an event is likely to occur.</div>
+<div class="vocab-example">Mendel used probability to predict the traits of future plant generations.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Probability', definition:'likelihood of an event occurring.', example:'Mendel used probability to predict the traits of future plant generations.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Anomaly</div>
+<div class="vocab-def">something that deviates from what is standard, normal, or expected.</div>
+<div class="vocab-example">The breaking of Mendelian laws is considered a significant biological anomaly.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Anomaly', definition:'deviation from the standard.', example:'The breaking of Mendelian laws is considered a significant biological anomaly.'}, this)">Add to Dictionary</button>
+</div>
 </div>
 </section>
 <section id="structure">
@@ -72,16 +112,36 @@
 <div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;"><span>🔵 Round 1 — Theoretical Discussion</span><span class="round-toggle">▲</span></div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Questions</div>
-<div class="round-item"><div class="round-item-main">What were Mendel’s primary laws of inheritance?</div><div class="round-item-personal">★ What physical traits or talents did you inherit directly from your parents?</div></div>
-<div class="round-item"><div class="round-item-main">How does the discovery of "broken laws" change our view of evolutionary biology, especially when considering the role of <strong>Trait</strong>?</div><div class="round-item-personal">★ Do you think you resemble your father's or your mother's side of the family more?</div></div>
-<div class="round-item"><div class="round-item-main">What is "gene drive" and why is it considered a violation of standard inheritance, especially when considering the role of <strong>Allele</strong>?</div><div class="round-item-personal">★ What is the most interesting family story you have heard about your ancestors?</div></div>
-<div class="round-item"><div class="round-item-main">How does epigenetics challenge the idea of "biological destiny", especially when considering the role of <strong>Mutation</strong>?</div><div class="round-item-personal">★ Have you ever taken a DNA or ancestry test? What did you hope to find?</div></div>
-<div class="round-item"><div class="round-item-main">Why are certain traits passed down more frequently than Mendelian probability predicts, especially when considering the role of <strong>Dominant</strong>?</div><div class="round-item-personal">★ Do you believe that personality is mostly determined by genetics or by upbringing?</div></div>
-<div class="round-item"><div class="round-item-main">What role does natural selection play when inheritance rules are bypassed, especially when considering the role of <strong>Recessive</strong>?</div><div class="round-item-personal">★ Are there any unique family resemblances that span multiple generations in your family?</div></div>
-<div class="round-item"><div class="round-item-main">How could these discoveries lead to new medical treatments for genetic disorders, especially when considering the role of <strong>Genome</strong>?</div><div class="round-item-personal">★ Do you find genetic science exciting, or does it make you feel slightly uneasy?</div></div>
-<div class="round-item"><div class="round-item-main">Is it ethical to "edit" the genome of a species to follow non-Mendelian rules, especially when considering the role of <strong>Epigenetics</strong>?</div><div class="round-item-personal">★ What is a physical feature you are proud of inheriting from your family?</div></div>
-<div class="round-item"><div class="round-item-main">How does the environment interact with genes to break traditional rules, especially when considering the role of <strong>Probability</strong>?</div><div class="round-item-personal">★ Do you think scientists should be allowed to modify genes to make crops more resilient?</div></div>
-<div class="round-item"><div class="round-item-main">Does this discovery make the world of biology feel more or less predictable, especially when considering the role of <strong>Anomaly</strong>?</div><div class="round-item-personal">★ How has your understanding of your own health been shaped by your family's medical history?</div></div>
+<div class="round-item"><div class="round-item-main">What were Mendel’s primary laws of inheritance?</div>
+<div class="round-item-personal">★ What physical traits or talents did you inherit directly from your parents?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does the discovery of "broken laws" change our view of evolutionary biology, especially when considering the role of <strong>Trait</strong>?</div>
+<div class="round-item-personal">★ Do you think you resemble your father's or your mother's side of the family more?</div>
+</div>
+<div class="round-item"><div class="round-item-main">What is "gene drive" and why is it considered a violation of standard inheritance, especially when considering the role of <strong>Allele</strong>?</div>
+<div class="round-item-personal">★ What is the most interesting family story you have heard about your ancestors?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does epigenetics challenge the idea of "biological destiny", especially when considering the role of <strong>Mutation</strong>?</div>
+<div class="round-item-personal">★ Have you ever taken a DNA or ancestry test? What did you hope to find?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Why are certain traits passed down more frequently than Mendelian probability predicts, especially when considering the role of <strong>Dominant</strong>?</div>
+<div class="round-item-personal">★ Do you believe that personality is mostly determined by genetics or by upbringing?</div>
+</div>
+<div class="round-item"><div class="round-item-main">What role does natural selection play when inheritance rules are bypassed, especially when considering the role of <strong>Recessive</strong>?</div>
+<div class="round-item-personal">★ Are there any unique family resemblances that span multiple generations in your family?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How could these discoveries lead to new medical treatments for genetic disorders, especially when considering the role of <strong>Genome</strong>?</div>
+<div class="round-item-personal">★ Do you find genetic science exciting, or does it make you feel slightly uneasy?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Is it ethical to "edit" the genome of a species to follow non-Mendelian rules, especially when considering the role of <strong>Epigenetics</strong>?</div>
+<div class="round-item-personal">★ What is a physical feature you are proud of inheriting from your family?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does the environment interact with genes to break traditional rules, especially when considering the role of <strong>Probability</strong>?</div>
+<div class="round-item-personal">★ Do you think scientists should be allowed to modify genes to make crops more resilient?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Does this discovery make the world of biology feel more or less predictable, especially when considering the role of <strong>Anomaly</strong>?</div>
+<div class="round-item-personal">★ How has your understanding of your own health been shaped by your family's medical history?</div>
+</div>
 </div>
 </div>
 <div class="round-block lst open" id="s-lst">
@@ -100,16 +160,36 @@
 <div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;"><span>🟢 Round 2 — The Future: Agree or Disagree?</span><span class="round-toggle">▲</span></div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Projections</div>
-<div class="round-item"><div class="round-item-main">By 2050, we will be able to choose all the traits of our children using "broken" laws. (How does <strong>Inheritance</strong> affect this statement?)</div><div class="round-item-personal">★ Would you choose to know all the genetic diseases you might develop in the future?</div></div>
-<div class="round-item"><div class="round-item-main">Epigenetic therapy will allow us to reverse the effects of aging within 30 years. (How does <strong>Trait</strong> affect this statement?)</div><div class="round-item-personal">★ Should parents be allowed to choose their child's eye color or physical traits before birth?</div></div>
-<div class="round-item"><div class="round-item-main">Traditional "family resemblances" will disappear as we standardize genetic beauty. (How does <strong>Allele</strong> affect this statement?)</div><div class="round-item-personal">★ Do you think genetic engineering will eventually create a permanent division in society?</div></div>
-<div class="round-item"><div class="round-item-main">Human evolution will be directed by scientists rather than natural selection. (How does <strong>Mutation</strong> affect this statement?)</div><div class="round-item-personal">★ Would you eat bio-engineered meat if it was cheaper and better for the environment?</div></div>
-<div class="round-item"><div class="round-item-main">We will discover that our thoughts can directly change our genetic code. (How does <strong>Dominant</strong> affect this statement?)</div><div class="round-item-personal">★ Should genetic testing be mandatory for all newborns to plan early healthcare?</div></div>
-<div class="round-item"><div class="round-item-main">Insurance companies will require genetic tests and charge more for "non-standard" genomes. (How does <strong>Recessive</strong> affect this statement?)</div><div class="round-item-personal">★ Do you think human cloning will become a normal reality within the next century?</div></div>
-<div class="round-item"><div class="round-item-main">A new species of "genetically optimized" humans will emerge by the end of the century. (How does <strong>Genome</strong> affect this statement?)</div><div class="round-item-personal">★ Would you modify your own genetic traits if it guaranteed immunity to all viruses?</div></div>
-<div class="round-item"><div class="round-item-main">The definition of "human" will have to be legally updated to include modified genomes. (How does <strong>Epigenetics</strong> affect this statement?)</div><div class="round-item-personal">★ What is the ethical limit when it comes to modifying animal or insect genomes?</div></div>
-<div class="round-item"><div class="round-item-main">Breaking Mendelian laws will lead to an ecological disaster as species lose their diversity. (How does <strong>Probability</strong> affect this statement?)</div><div class="round-item-personal">★ Do you believe that science will eventually eliminate all genetic diseases completely?</div></div>
-<div class="round-item"><div class="round-item-main">Genetic privacy will become the most important human right of the future. (How does <strong>Anomaly</strong> affect this statement?)</div><div class="round-item-personal">★ If you could genetically inherit any single talent (like perfect pitch), what would it be?</div></div>
+<div class="round-item"><div class="round-item-main">By 2050, we will be able to choose all the traits of our children using "broken" laws. (How does <strong>Inheritance</strong> affect this statement?)</div>
+<div class="round-item-personal">★ Would you choose to know all the genetic diseases you might develop in the future?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Epigenetic therapy will allow us to reverse the effects of aging within 30 years. (How does <strong>Trait</strong> affect this statement?)</div>
+<div class="round-item-personal">★ Should parents be allowed to choose their child's eye color or physical traits before birth?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Traditional "family resemblances" will disappear as we standardize genetic beauty. (How does <strong>Allele</strong> affect this statement?)</div>
+<div class="round-item-personal">★ Do you think genetic engineering will eventually create a permanent division in society?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Human evolution will be directed by scientists rather than natural selection. (How does <strong>Mutation</strong> affect this statement?)</div>
+<div class="round-item-personal">★ Would you eat bio-engineered meat if it was cheaper and better for the environment?</div>
+</div>
+<div class="round-item"><div class="round-item-main">We will discover that our thoughts can directly change our genetic code. (How does <strong>Dominant</strong> affect this statement?)</div>
+<div class="round-item-personal">★ Should genetic testing be mandatory for all newborns to plan early healthcare?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Insurance companies will require genetic tests and charge more for "non-standard" genomes. (How does <strong>Recessive</strong> affect this statement?)</div>
+<div class="round-item-personal">★ Do you think human cloning will become a normal reality within the next century?</div>
+</div>
+<div class="round-item"><div class="round-item-main">A new species of "genetically optimized" humans will emerge by the end of the century. (How does <strong>Genome</strong> affect this statement?)</div>
+<div class="round-item-personal">★ Would you modify your own genetic traits if it guaranteed immunity to all viruses?</div>
+</div>
+<div class="round-item"><div class="round-item-main">The definition of "human" will have to be legally updated to include modified genomes. (How does <strong>Epigenetics</strong> affect this statement?)</div>
+<div class="round-item-personal">★ What is the ethical limit when it comes to modifying animal or insect genomes?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Breaking Mendelian laws will lead to an ecological disaster as species lose their diversity. (How does <strong>Probability</strong> affect this statement?)</div>
+<div class="round-item-personal">★ Do you believe that science will eventually eliminate all genetic diseases completely?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Genetic privacy will become the most important human right of the future. (How does <strong>Anomaly</strong> affect this statement?)</div>
+<div class="round-item-personal">★ If you could genetically inherit any single talent (like perfect pitch), what would it be?</div>
+</div>
 </div>
 </div>
 <div class="mistake-block open" id="s-mistakes">

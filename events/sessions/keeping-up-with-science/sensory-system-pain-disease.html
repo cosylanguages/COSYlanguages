@@ -16,7 +16,7 @@
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #073b2d);">
+<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #07372b);">
 <div class="club-tag">Keeping Up with Science</div>
 <h1>Nervous System Networks &amp; Pain</h1>
 <p class="session-date">09 July 2026</p>
@@ -33,7 +33,7 @@
 <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
 <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
 <div class="meta-item"><h4>Level</h4><p>Intermediate (B1-B2)</p></div>
-<div class="meta-item"><h4>Resources</h4><p><a href="https://www.sciencedaily.com/releases/2026/07/260709160641.htm" target="_blank">Full Article 📖</a></p></div>
+<div class="meta-item"><h4>Topic</h4><p>Sensory Neuroscience / Pain Management</p></div><div class="meta-item"><h4>Resources</h4><p><a href="https://www.sciencedaily.com/releases/2026/07/260709160641.htm" target="_blank">Full Article 📖</a></p></div>
 </div>
 <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
 <p>This session covers recent neurobiology studies exploring the body's largest sensory and neural networks. We will analyze how these intricate biological pathways are specifically built to control pain, react to injuries, and combat diseases. The discussion will highlight the future of neurological therapies in managing chronic pain conditions.</p>
@@ -41,16 +41,56 @@
 <section id="vocabulary">
 <h2 class="section-title">📖 Session Vocabulary</h2>
 <div class="vocab-grid-10">
-<div class="vocab-card"><div class="vocab-word">Nervous system</div><div class="vocab-def">the network of nerve cells and fibers which transmits nerve impulses between parts of the body.</div><div class="vocab-example">Our nervous system coordinates rapid motor reactions to external stimuli.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nervous system', definition:'the network of nerve cells and fibers which transmits nerve impulses between parts of the body.', example:'Our nervous system coordinates rapid motor reactions to external stimuli.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Sensory</div><div class="vocab-def">relating to sensation or the physical senses; transmitting impulses from sense organs.</div><div class="vocab-example">Sensory receptors in our skin detect changes in temperature and pressure.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sensory', definition:'relating to sensation or the physical senses.', example:'Sensory receptors in our skin detect changes in temperature and pressure.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Network</div><div class="vocab-def">a group or system of interconnected people or things.</div><div class="vocab-example">The brain consists of a highly complex network of billions of neurons.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Network', definition:'a group or system of interconnected people or things.', example:'The brain consists of a highly complex network of billions of neurons.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Pain</div><div class="vocab-def">highly unpleasant physical sensation caused by illness or injury.</div><div class="vocab-example">Nerve damage can cause chronic pain that is very difficult to treat.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Pain', definition:'highly unpleasant physical sensation caused by illness or injury.', example:'Nerve damage can cause chronic pain that is very difficult to treat.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Injury</div><div class="vocab-def">an instance of being injured; physical damage to the body.</div><div class="vocab-example">He recovered quickly from his knee injury after physical therapy.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Injury', definition:'an instance of being injured; physical damage to the body.', example:'He recovered quickly from his knee injury after physical therapy.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Disease</div><div class="vocab-def">a disorder of structure or function in a human, animal, or plant.</div><div class="vocab-example">Medical researchers are striving to cure many hereditary diseases.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Disease', definition:'a disorder of structure or function in a human, animal, or plant.', example:'Medical researchers are striving to cure many hereditary diseases.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Intricate</div><div class="vocab-def">very complicated or detailed.</div><div class="vocab-example">The human eye has an intricate network of tiny blood vessels.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Intricate', definition:'very complicated or detailed.', example:'The human eye has an intricate network of tiny blood vessels.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Therapy</div><div class="vocab-def">treatment intended to relieve or heal a disorder.</div><div class="vocab-example">Physical therapy can help restore movement after a stroke.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Therapy', definition:'treatment intended to relieve or heal a disorder.', example:'Physical therapy can help restore movement after a stroke.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Chronic</div><div class="vocab-def">persisting for a long time or constantly recurring.</div><div class="vocab-example">Many elderly people suffer from chronic joint inflammation.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Chronic', definition:'persisting for a long time or constantly recurring.', example:'Many elderly people suffer from chronic joint inflammation.'}, this)">Add to Dictionary</button></div>
-<div class="vocab-card"><div class="vocab-word">Pathway</div><div class="vocab-def">a route, way, or path (especially a neural or metabolic one).</div><div class="vocab-example">Scientists mapped the specific neural pathway that regulates fear.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Pathway', definition:'a route, way, or path.', example:'Scientists mapped the specific neural pathway that regulates fear.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Nervous system</div>
+<div class="vocab-def">the network of nerve cells and fibers which transmits nerve impulses between parts of the body.</div>
+<div class="vocab-example">Our nervous system coordinates rapid motor reactions to external stimuli.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Nervous system', definition:'the network of nerve cells and fibers which transmits nerve impulses between parts of the body.', example:'Our nervous system coordinates rapid motor reactions to external stimuli.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Sensory</div>
+<div class="vocab-def">relating to sensation or the physical senses; transmitting impulses from sense organs.</div>
+<div class="vocab-example">Sensory receptors in our skin detect changes in temperature and pressure.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Sensory', definition:'relating to sensation or the physical senses.', example:'Sensory receptors in our skin detect changes in temperature and pressure.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Network</div>
+<div class="vocab-def">a group or system of interconnected people or things.</div>
+<div class="vocab-example">The brain consists of a highly complex network of billions of neurons.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Network', definition:'a group or system of interconnected people or things.', example:'The brain consists of a highly complex network of billions of neurons.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Pain</div>
+<div class="vocab-def">highly unpleasant physical sensation caused by illness or injury.</div>
+<div class="vocab-example">Nerve damage can cause chronic pain that is very difficult to treat.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Pain', definition:'highly unpleasant physical sensation caused by illness or injury.', example:'Nerve damage can cause chronic pain that is very difficult to treat.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Injury</div>
+<div class="vocab-def">an instance of being injured; physical damage to the body.</div>
+<div class="vocab-example">He recovered quickly from his knee injury after physical therapy.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Injury', definition:'an instance of being injured; physical damage to the body.', example:'He recovered quickly from his knee injury after physical therapy.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Disease</div>
+<div class="vocab-def">a disorder of structure or function in a human, animal, or plant.</div>
+<div class="vocab-example">Medical researchers are striving to cure many hereditary diseases.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Disease', definition:'a disorder of structure or function in a human, animal, or plant.', example:'Medical researchers are striving to cure many hereditary diseases.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Intricate</div>
+<div class="vocab-def">very complicated or detailed.</div>
+<div class="vocab-example">The human eye has an intricate network of tiny blood vessels.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Intricate', definition:'very complicated or detailed.', example:'The human eye has an intricate network of tiny blood vessels.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Therapy</div>
+<div class="vocab-def">treatment intended to relieve or heal a disorder.</div>
+<div class="vocab-example">Physical therapy can help restore movement after a stroke.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Therapy', definition:'treatment intended to relieve or heal a disorder.', example:'Physical therapy can help restore movement after a stroke.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Chronic</div>
+<div class="vocab-def">persisting for a long time or constantly recurring.</div>
+<div class="vocab-example">Many elderly people suffer from chronic joint inflammation.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Chronic', definition:'persisting for a long time or constantly recurring.', example:'Many elderly people suffer from chronic joint inflammation.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word">Pathway</div>
+<div class="vocab-def">a route, way, or path (especially a neural or metabolic one).</div>
+<div class="vocab-example">Scientists mapped the specific neural pathway that regulates fear.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Pathway', definition:'a route, way, or path.', example:'Scientists mapped the specific neural pathway that regulates fear.'}, this)">Add to Dictionary</button>
+</div>
 </div>
 </section>
 <section id="structure">
@@ -61,7 +101,7 @@
 <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<div class="vim-instruction">Short introduction to reflexes and feelings.</div>
+<div class="vim-instruction">Reflexes and Feelings</div>
 <ul class="round-questions">
 <li>Have you ever touched something hot and reacted without thinking?</li>
 <li>Do you think pain is always a bad thing, or is it useful?</li>
@@ -72,17 +112,37 @@
 <div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;"><span>🔵 Round 1 — Theoretical Discussion</span><span class="round-toggle">▲</span></div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Questions</div>
-<div class="vim-instruction">Analyze how biological networks manage physical sensations.</div>
-<div class="round-item"><div class="round-item-main">How does the <strong>nervous system</strong> transmit sensory information to the brain?</div><div class="round-item-personal">★ Do you consider yourself to have a high or low physical pain tolerance?</div></div>
-<div class="round-item"><div class="round-item-main">Why are our <strong>sensory</strong> receptors so densely concentrated in our hands and face?</div><div class="round-item-personal">★ What is your favorite physical sense (sight, sound, smell, touch, taste), and why?</div></div>
-<div class="round-item"><div class="round-item-main">How does an intricate neural <strong>network</strong> coordinate complex movements?</div><div class="round-item-personal">★ Have you ever experienced sensory overload in a crowded, noisy city or event?</div></div>
-<div class="round-item"><div class="round-item-main">Why is the feeling of <strong>pain</strong> essential for our survival from <strong>injury</strong>?</div><div class="round-item-personal">★ What is the most soothing sound or smell that immediately helps you relax?</div></div>
-<div class="round-item"><div class="round-item-main">How does a <strong>chronic</strong> <strong>disease</strong> alter our daily life and mental health?</div><div class="round-item-personal">★ How do you usually react when you feel physical discomfort: do you take medicine or wait?</div></div>
-<div class="round-item"><div class="round-item-main">What makes nerve <strong>pathways</strong> so <strong>intricate</strong> and difficult to study?</div><div class="round-item-personal">★ Do you think modern life is too loud and visually overwhelming for our nervous systems?</div></div>
-<div class="round-item"><div class="round-item-main">How does modern medical <strong>therapy</strong> help relieve long-term pain?</div><div class="round-item-personal">★ Have you ever had a temporary loss of a sense (like losing taste during a cold)?</div></div>
-<div class="round-item"><div class="round-item-main">Why do some injuries take much longer to heal than others?</div><div class="round-item-personal">★ Do you find that quiet, natural settings physically heal your mind and body?</div></div>
-<div class="round-item"><div class="round-item-main">How does stress affect our physical sensitivity to discomfort?</div><div class="round-item-personal">★ How often do you practice mindfulness or deep breathing to calm your senses?</div></div>
-<div class="round-item"><div class="round-item-main">To what extent should we use painkillers to block natural responses?</div><div class="round-item-personal">★ What is a physical activity that makes you feel highly connected to your senses?</div></div>
+
+<div class="round-item"><div class="round-item-main">How does the <strong>nervous system</strong> transmit sensory information to the brain?</div>
+<div class="round-item-personal">★ Do you consider yourself to have a high or low physical pain tolerance?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Why are our <strong>sensory</strong> receptors so densely concentrated in our hands and face?</div>
+<div class="round-item-personal">★ What is your favorite physical sense (sight, sound, smell, touch, taste), and why?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does an intricate neural <strong>network</strong> coordinate complex movements?</div>
+<div class="round-item-personal">★ Have you ever experienced sensory overload in a crowded, noisy city or event?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Why is the feeling of <strong>pain</strong> essential for our survival from <strong>injury</strong>?</div>
+<div class="round-item-personal">★ What is the most soothing sound or smell that immediately helps you relax?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does a <strong>chronic</strong> <strong>disease</strong> alter our daily life and mental health?</div>
+<div class="round-item-personal">★ How do you usually react when you feel physical discomfort: do you take medicine or wait?</div>
+</div>
+<div class="round-item"><div class="round-item-main">What makes nerve <strong>pathways</strong> so <strong>intricate</strong> and difficult to study?</div>
+<div class="round-item-personal">★ Do you think modern life is too loud and visually overwhelming for our nervous systems?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does modern medical <strong>therapy</strong> help relieve long-term pain?</div>
+<div class="round-item-personal">★ Have you ever had a temporary loss of a sense (like losing taste during a cold)?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Why do some injuries take much longer to heal than others?</div>
+<div class="round-item-personal">★ Do you find that quiet, natural settings physically heal your mind and body?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does stress affect our physical sensitivity to discomfort?</div>
+<div class="round-item-personal">★ How often do you practice mindfulness or deep breathing to calm your senses?</div>
+</div>
+<div class="round-item"><div class="round-item-main">To what extent should we use painkillers to block natural responses?</div>
+<div class="round-item-personal">★ What is a physical activity that makes you feel highly connected to your senses?</div>
+</div>
 </div>
 </div>
 <div class="round-block lst open" id="s-lst">
@@ -101,17 +161,37 @@
 <div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;"><span>🟢 Round 2 — The Future: Agree or Disagree?</span><span class="round-toggle">▲</span></div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Projections</div>
-<div class="vim-instruction">Debate these predictions about neurobiology and medical engineering.</div>
-<div class="round-item"><div class="round-item-main">In the future, we will have neural chips that can selectively turn off chronic pain signals permanently.</div><div class="round-item-personal">★ Would you choose to have a neural chip that selectively turns off chronic pain forever?</div></div>
-<div class="round-item"><div class="round-item-main">We will develop fully synthetic sensory networks for prosthetic limbs that feel exactly like real skin.</div><div class="round-item-personal">★ Do you think a world without any physical pain would be highly dangerous for human survival?</div></div>
-<div class="round-item"><div class="round-item-main">Future societies will use virtual reality therapies to treat most neurological diseases without any pills.</div><div class="round-item-personal">★ Would you wear a device that allows you to feel the physical touch of friends in virtual reality?</div></div>
-<div class="round-item"><div class="round-item-main">We will discover how to completely regenerate damaged spinal cord tissues within 20 years.</div><div class="round-item-personal">★ Should public spaces have mandatory quiet zones to protect citizens from noise pollution?</div></div>
-<div class="round-item"><div class="round-item-main">The definition of 'pain' will change as we learn to control our brain's sensory interpretations.</div><div class="round-item-personal">★ Do you think future medicine will cure all sensory blindness and deafness permanently?</div></div>
-<div class="round-item"><div class="round-item-main">Future medicine will focus on customizing therapies based on a person's exact genetic network.</div><div class="round-item-personal">★ Would you trust an AI doctor to perform delicate surgery on your eyes or ears?</div></div>
-<div class="round-item"><div class="round-item-main">Blocking all physical pain would be dangerous and lead to a shorter average lifespan.</div><div class="round-item-personal">★ How do you think our sensory systems will adapt if humans live in space for generations?</div></div>
-<div class="round-item"><div class="round-item-main">We should use genetic engineering to create future humans who do not feel any physical discomfort.</div><div class="round-item-personal">★ Do you believe that virtual reality will eventually feel indistinguishable from real life?</div></div>
-<div class="round-item"><div class="round-item-main">In the future, mental stress will be officially recognized as the primary cause of chronic physical pain in modern populations.</div><div class="round-item-personal">★ Would you try a sensory deprivation tank to quiet your overstimulated mind?</div></div>
-<div class="round-item"><div class="round-item-main">Artificial intelligence will become better at diagnosing complex neurological disorders than human doctors by 2040.</div><div class="round-item-personal">★ What is the most beautiful natural landscape you have ever seen, and how did it affect you?</div></div>
+
+<div class="round-item"><div class="round-item-main">In the future, we will have neural chips that can selectively turn off chronic pain signals permanently.</div>
+<div class="round-item-personal">★ Would you choose to have a neural chip that selectively turns off chronic pain forever?</div>
+</div>
+<div class="round-item"><div class="round-item-main">We will develop fully synthetic sensory networks for prosthetic limbs that feel exactly like real skin.</div>
+<div class="round-item-personal">★ Do you think a world without any physical pain would be highly dangerous for human survival?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Future societies will use virtual reality therapies to treat most neurological diseases without any pills.</div>
+<div class="round-item-personal">★ Would you wear a device that allows you to feel the physical touch of friends in virtual reality?</div>
+</div>
+<div class="round-item"><div class="round-item-main">We will discover how to completely regenerate damaged spinal cord tissues within 20 years.</div>
+<div class="round-item-personal">★ Should public spaces have mandatory quiet zones to protect citizens from noise pollution?</div>
+</div>
+<div class="round-item"><div class="round-item-main">The definition of 'pain' will change as we learn to control our brain's sensory interpretations.</div>
+<div class="round-item-personal">★ Do you think future medicine will cure all sensory blindness and deafness permanently?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Future medicine will focus on customizing therapies based on a person's exact genetic network.</div>
+<div class="round-item-personal">★ Would you trust an AI doctor to perform delicate surgery on your eyes or ears?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Blocking all physical pain would be dangerous and lead to a shorter average lifespan.</div>
+<div class="round-item-personal">★ How do you think our sensory systems will adapt if humans live in space for generations?</div>
+</div>
+<div class="round-item"><div class="round-item-main">We should use genetic engineering to create future humans who do not feel any physical discomfort.</div>
+<div class="round-item-personal">★ Do you believe that virtual reality will eventually feel indistinguishable from real life?</div>
+</div>
+<div class="round-item"><div class="round-item-main">In the future, mental stress will be officially recognized as the primary cause of chronic physical pain in modern populations.</div>
+<div class="round-item-personal">★ Would you try a sensory deprivation tank to quiet your overstimulated mind?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Artificial intelligence will become better at diagnosing complex neurological disorders than human doctors by 2040.</div>
+<div class="round-item-personal">★ What is the most beautiful natural landscape you have ever seen, and how did it affect you?</div>
+</div>
 </div>
 </div>
 <div class="mistake-block open" id="s-mistakes">
