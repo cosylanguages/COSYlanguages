@@ -1280,11 +1280,82 @@
         }
     });
 
+    /* ─── CLUB FILTER EMPTY STATE LOGIC ─────────────────────────── */
+    const setupClubFilters = () => {
+        const buttons = document.querySelectorAll('.filter-btn');
+        const sessions = document.querySelectorAll('.history-session');
+        const historyBody = document.querySelector('.history-body');
+
+        if (buttons.length > 0 && sessions.length > 0 && historyBody) {
+            // Check if we already created the message
+            let noSessionsMsg = document.getElementById('no-sessions-msg');
+            if (!noSessionsMsg) {
+                noSessionsMsg = document.createElement('div');
+                noSessionsMsg.id = 'no-sessions-msg';
+                noSessionsMsg.style.cssText = 'text-align: center; padding: 3rem 1.5rem; background: var(--cream, #FAF7F2); border-radius: 16px; border: 1.5px dashed var(--border); margin: 1.5rem 0; width: 100%; box-sizing: border-box;';
+
+                const docLang = document.documentElement.lang || 'en';
+                const msgs = {
+                    en: {
+                        title: 'No past sessions found',
+                        desc: 'Please try selecting a different language level or check back later!'
+                    },
+                    fr: {
+                        title: 'Aucune session passée trouvée',
+                        desc: 'Veuillez essayer de sélectionner un autre niveau de langue !'
+                    },
+                    ru: {
+                        title: 'Прошедшие сессии не найдены',
+                        desc: 'Пожалуйста, попробуйте выбрать другой языковой уровень!'
+                    }
+                };
+                const msg = msgs[docLang.toLowerCase()] || msgs['en'];
+
+                noSessionsMsg.innerHTML = `
+                    <span style="font-size: 2.5rem; display: block; margin-bottom: 1rem; animation: pulse 2s infinite ease-in-out;">🔍</span>
+                    <h4 style="margin: 0 0 0.5rem; color: var(--ink-soft); font-family: 'Playfair Display', serif; font-size: 1.3rem;">${msg.title}</h4>
+                    <p style="margin: 0; font-size: 0.9rem; color: var(--muted);">${msg.desc}</p>
+                `;
+                noSessionsMsg.style.display = 'none';
+                historyBody.appendChild(noSessionsMsg);
+            }
+
+            buttons.forEach(btn => {
+                if (btn.dataset.filterBound === 'true') return;
+                btn.dataset.filterBound = 'true';
+
+                btn.addEventListener('click', () => {
+                    buttons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    const selectedLevel = btn.getAttribute('data-level');
+                    let visibleCount = 0;
+
+                    sessions.forEach(sess => {
+                        const levelsAttr = sess.getAttribute('data-level') || '';
+                        const levels = levelsAttr.split(/\s+/);
+                        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
+                            sess.style.display = 'flex';
+                            visibleCount++;
+                        } else {
+                            sess.style.display = 'none';
+                        }
+                    });
+
+                    if (noSessionsMsg) {
+                        noSessionsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
+                    }
+                });
+            });
+        }
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
         setupBackToTop();
         setupScrollReveal();
+        setupClubFilters();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
 
         // FAQ Toggle
