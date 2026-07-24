@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ouvrir les yeux — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>Ouvrir les yeux</h1>
+  <p class="session-date">Maëlle • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Accueil</a> <span class="sep">/</span>
+    <a href="../../">Événements</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">Ouvrir les yeux</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Retour au club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B1)</p></div>
+    <div class="meta-item"><h4>Thème</h4><p>Solitude & Espoir</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=mk8GXdUGGjo" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=mk8GXdUGGjo" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Thème: Solitude & Espoir</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Nous allons discuter de:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Cœur</li>
+      <li>Désespoir</li>
+      <li>Mémoire</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (15%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (5%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Étape 1 : Échauffement</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Quelle est l'importance de ce thème de discussion dans votre vie quotidienne ?</li>
+            <li>Regardez le titre 'Ouvrir les yeux' et l'artiste 'Maëlle'. Selon vous, de quoi parle cette chanson ? (Question de prédiction)</li>
+            <li>Quelles émotions ou quels sentiments ce style de musique vous inspire-t-il ?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Étape 2 : Vocabulaire</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concepts clés & Émotions</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le cœur</div>
+<div class="vocab-def">organe musculaire creux, symbole de la vie et des sentiments.</div>
+<div class="vocab-example">Elle écoute toujours son cœur pour prendre des décisions.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le cœur', definition:'organe musculaire creux, symbole de la vie et des sentiments.', example:'Elle écoute toujours son cœur pour prendre des décisions.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Désespoir</div>
+<div class="vocab-def">état de détresse extrême, perte de tout espoir.</div>
+<div class="vocab-example">Elle a surmonté son grand désespoir grâce au soutien de ses amis.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">L'espoir</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Désespoir', definition:'état de détresse extrême, perte de tout espoir.', example:'Elle a surmonté son grand désespoir grâce au soutien de ses amis.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La mémoire</div>
+<div class="vocab-def">faculté de conserver et de se rappeler des états de conscience passés.</div>
+<div class="vocab-example">Elle a une excellente mémoire pour retenir les dates historiques.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La mémoire', definition:'faculté de conserver et de se rappeler des états de conscience passés.', example:'Elle a une excellente mémoire pour retenir les dates historiques.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Prisonnière</div>
+<div class="vocab-def">personne privée de sa liberté, enfermée.</div>
+<div class="vocab-example">Elle se sent prisonnière de ses propres pensées négatives.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Libre</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Prisonnière', definition:'personne privée de sa liberté, enfermée.', example:'Elle se sent prisonnière de ses propres pensées négatives.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le monde</div>
+<div class="vocab-def">Target vocabulary word meaning in 'Ouvrir les yeux'.</div>
+<div class="vocab-example">This is an elegant example of using 'Le monde'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le monde', definition:'Target vocabulary word meaning in \'Ouvrir les yeux\'.', example:'This is an elegant example of using \'Le monde\'.'}, this)">+ Dictionary</button>
+</div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vie, Actions & Connexion</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Seule</div>
+<div class="vocab-def">Target vocabulary word meaning in 'Ouvrir les yeux'.</div>
+<div class="vocab-example">This is an elegant example of using 'Seule'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Seule', definition:'Target vocabulary word meaning in \'Ouvrir les yeux\'.', example:'This is an elegant example of using \'Seule\'.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Froid</div>
+<div class="vocab-def">Target vocabulary word meaning in 'Ouvrir les yeux'.</div>
+<div class="vocab-example">This is an elegant example of using 'Froid'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Froid', definition:'Target vocabulary word meaning in \'Ouvrir les yeux\'.', example:'This is an elegant example of using \'Froid\'.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Oublier</div>
+<div class="vocab-def">Target vocabulary word meaning in 'Ouvrir les yeux'.</div>
+<div class="vocab-example">This is an elegant example of using 'Oublier'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Oublier', definition:'Target vocabulary word meaning in \'Ouvrir les yeux\'.', example:'This is an elegant example of using \'Oublier\'.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La chaleur</div>
+<div class="vocab-def">Target vocabulary word meaning in 'Ouvrir les yeux'.</div>
+<div class="vocab-example">This is an elegant example of using 'La chaleur'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La chaleur', definition:'Target vocabulary word meaning in \'Ouvrir les yeux\'.', example:'This is an elegant example of using \'La chaleur\'.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le ciel</div>
+<div class="vocab-def">Target vocabulary word meaning in 'Ouvrir les yeux'.</div>
+<div class="vocab-example">This is an elegant example of using 'Le ciel'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le ciel', definition:'Target vocabulary word meaning in \'Ouvrir les yeux\'.', example:'This is an elegant example of using \'Le ciel\'.'}, this)">+ Dictionary</button>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Étape 3 : Écoute</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">cœur</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">désespoir</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">mémoire</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">prisonnière</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">monde</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">[Couplet 1]<br>Et me voilà<br>Seule sans toi<br>Mon <input type="text" class="lyrics-gap-input" data-answer="cœur" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> est devenu froid<br>Mais je le vois<br>Qu'il me ressemble<br>On veut juste oublier<br>Nous oublier<br><br>[Pré-Refrain]<br>Mais la chaleur réchauffe mon <input type="text" class="lyrics-gap-input" data-answer="désespoir" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 99px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Et ça n'vient pas de toi<br>Mes états d’âmes sont en retard<br>Je bois en ta <input type="text" class="lyrics-gap-input" data-answer="mémoire" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>En attendant, le ciel est noir<br>Il est bien dans mes bras<br>Il y restera ou pas ?<br><br>[Refrain]<br>Danse, ne vois-tu pas<br>Que je suis <input type="text" class="lyrics-gap-input" data-answer="prisonnière" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 121px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> du tmps qui passe ?<br>Danse, ne t'arrêt pas<br>Que je puisse continuer mes pas<br>Danse, ne vois-tu pas<br>Que je suis prise au piège d'un <input type="text" class="lyrics-gap-input" data-answer="monde" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> sans toi ?<br>Sans toi<br><br>[Couplet 2]<br>Es-tu là-bas ?<br>Dans ces draps<br>Ton <input type="text" class="lyrics-gap-input" data-answer="cœur" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> est brisé comme moi<br>Enfin je crois<br>Est-ce qu'elle me ressemble ?<br>J'espère qu'elle t'écoutera<br>Qu'elle t'écoutera<br><br>[Pré-Refrain]<br>Mais la chaleur réchauffe mon <input type="text" class="lyrics-gap-input" data-answer="désespoir" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 99px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Et ça n'vient pas de toi<br>Mes états d’âmes sont en retard<br>Je bois en ta <input type="text" class="lyrics-gap-input" data-answer="mémoire" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>En attendant, le ciel est noir<br>Il est bien dans mes bras (Il est bien dans mes bras)<br>Il y restera ou pas ?<br><br>[Refrain]<br>Danse, ne vois-tu pas (Danse, ne vois-tu pas)<br>Que je suis <input type="text" class="lyrics-gap-input" data-answer="prisonnière" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 121px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> du temps qui passe ?<br>Danse, ne t'arrête pas<br>Que je puisse continuer mes pas<br>Danse, ne vois-tu pas<br>Que je suis prise au piège d'un <input type="text" class="lyrics-gap-input" data-answer="monde" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> sans toi ?<br>Sans toi<br><br><br>[Pont]<br>Danse, ne vois-tu pas<br>Que je suis <input type="text" class="lyrics-gap-input" data-answer="prisonnière" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 121px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> du temps qui passe ?<br>Danse, ne t'arrête pas<br>Que je puisse continuer mes pas<br>Danse, ne vois-tu pas<br>Que je suis prise au piège d'un <input type="text" class="lyrics-gap-input" data-answer="monde" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> sans toi ?<br>Sans toi<br><br>[Refrain]<br>Danse, ne vois-tu pas<br>Que je suis <input type="text" class="lyrics-gap-input" data-answer="prisonnière" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 121px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> du temps qui passe ?<br>Danse, ne t'arrête pas<br>Que je puisse continuer mes pas<br>Danse, ne vois-tu pas<br>Que je suis prise au piège d'un <input type="text" class="lyrics-gap-input" data-answer="monde" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> sans toi ?<br>Sans toi<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Étape 4 : Discussion</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+<div class="round-item"><div class="round-item-main">Comment 'Ouvrir les yeux' par Maëlle capture-t-il le fardeau silencieux de <strong>Le cœur</strong> face aux épreuves ?</div>
+<div class="round-item-personal">★ Comment gérez-vous personnellement les moments où vous ressentez un élan de <strong>Le cœur</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Dans 'Ouvrir les yeux', pensez-vous que <strong>Désespoir</strong> est dépeint comme un piège inévitable, ou existe-t-il un chemin de guérison ?</div>
+<div class="round-item-personal">★ Avez-vous déjà trouvé une source de force inattendue en faisant face à <strong>Désespoir</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">En analysant la profondeur de Maëlle, comment <strong>La mémoire</strong> façonne-t-il la tonalité de cette chanson ?</div>
+<div class="round-item-personal">★ Trouvez-vous plus facile d'exprimer <strong>La mémoire</strong> à travers l'art, la musique ou une conversation intime ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">De quelles manières 'Ouvrir les yeux' montre-t-il que faire face à <strong>Prisonnière</strong> est indispensable pour trouver la paix ?</div>
+<div class="round-item-personal">★ Quel est le geste le plus réconfortant qu'un proche puisse poser lorsque vous vivez <strong>Prisonnière</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment la mélodie de 'Ouvrir les yeux' reflète-t-elle la lourdeur associée à <strong>Le monde</strong> ?</div>
+<div class="round-item-personal">★ Comment votre manière de gérer <strong>Le monde</strong> a-t-elle évolué avec les années ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Quand Maëlle chante, l'expression de <strong>Seule</strong> ressemble-t-elle à un appel à l'aide ou à une acceptation silencieuse ?</div>
+<div class="round-item-personal">★ Pensez-vous que partager notre <strong>Seule</strong> nous rapproche des autres ou nous fragilise ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Est-ce que 'Ouvrir les yeux' suggère que l'on peut trouver du réconfort dans <strong>Froid</strong>, ou apporte-t-il toujours de la douleur ?</div>
+<div class="round-item-personal">★ Existe-t-il un lieu ou une activité qui vous aide systématiquement à guérir de <strong>Froid</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment les images de 'Ouvrir les yeux' visualisent-elles les cicatrices invisibles laissées par <strong>Oublier</strong> ?</div>
+<div class="round-item-personal">★ Si vous deviez réconforter un ami qui traverse silencieusement une période de <strong>Oublier</strong>, que lui diriez-vous ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Selon vous, le protagoniste de 'Ouvrir les yeux' surmonte-t-il son <strong>La chaleur</strong>, ou la situation reste-t-elle en suspens ?</div>
+<div class="round-item-personal">★ Pensez-vous que notre société nous pousse à masquer notre <strong>La chaleur</strong> plutôt qu'à l'exprimer ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment 'Ouvrir les yeux' nous aide-t-il à comprendre l'expérience humaine universelle de <strong>Le ciel</strong> ?</div>
+<div class="round-item-personal">★ Quelle est la leçon la plus précieuse que vous ayez tirée de <strong>Le ciel</strong> en matière de résilience ?</div>
+</div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+<div class="round-item"><div class="round-item-main">La description pesante de <strong>Le cœur</strong> dans 'Ouvrir les yeux' démontre que certaines blessures ne guérissent jamais tout à fait. Débattons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Sans une volonté d'affronter notre propre <strong>Désespoir</strong>, nous ne pourrons jamais connaître de vraie joie. Qu'en pensez-vous ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">L'œuvre de Maëlle prouve que l'art est le seul moyen de transformer <strong>La mémoire</strong> en quelque chose de magnifique. Partagez votre avis.</div>
+</div>
+<div class="round-item"><div class="round-item-main">La vraie guérison de <strong>Prisonnière</strong> commence quand nous cessons de chercher des réponses à l'extérieur de nous-mêmes. Discutons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">La musique de 'Ouvrir les yeux' suggère que certains sentiments de <strong>Le monde</strong> sont trop intimes pour être partagés. Êtes-vous d'accord ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">La vie moderne, trop rapide et distraite, ne nous laisse aucun temps pour digérer nos moments de <strong>Seule</strong>. Débattons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">We ne pouvons pas apprécier pleinement la présence des autres sans avoir connu le silence absolu de <strong>Froid</strong>. Analyse cette idée.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Maëlle nous avertit que fuir notre <strong>Oublier</strong> par des distractions ne fait que prolonger notre souffrance. Partagez votre avis.</div>
+</div>
+<div class="round-item"><div class="round-item-main">La fin de 'Ouvrir les yeux' montre que l'acceptation de notre propre <strong>La chaleur</strong> est le premier pas vers la liberté émotionnelle. Discutons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Si nous nous laissons entièrement guider par nos sentiments de <strong>Le ciel</strong>, nous risquons de perdre pied avec la réalité. Discutons-en.</div>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Étape 5 : Point de langue</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">L'expression de la condition avec 'Si'</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Pour exprimer une hypothèse réelle ou imaginaire, on utilise 'si' suivi du présent ou de l'imparfait.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Si tu écoutes attentivement, tu comprendras les paroles.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Si j'avais le temps, je chanterais tous les jours.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Si nous partageons notre passion, nous progresserons ensemble.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Étape 6 : Défi final</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imaginez la suite de cette chanson : jouez une conversation entre les personnages principaux 5 ans plus tard.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Je suis d'accord avec ta philosophie</span>
+            <span class="mistake-note-text">(Utilisez la préposition 'avec' après 'être d'accord'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Il a fait beaucoup <span class="mistake-highlight">des</span> sacrifices</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Il a fait beaucoup de sacrifices</span>
+            <span class="mistake-note-text">(Utilisez 'de' après l'adverbe de quantité 'beaucoup'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ses paroles m'ont blessé <span class="mistake-highlight">beaucoup</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
+            <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

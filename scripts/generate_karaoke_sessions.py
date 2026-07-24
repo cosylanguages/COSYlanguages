@@ -11,6 +11,22 @@ from master_lyrics import LYRICS_DATA
 
 # Proposed overarching themes mapped by song slug and language
 SONG_THEMES = {
+    "leffet-de-masse": {
+        "en": "Peer Pressure & Isolation",
+        "fr": "Effet de masse & Isolement"
+    },
+    "ouvrir-les-yeux": {
+        "en": "Loneliness & Hope",
+        "fr": "Solitude & Espoir"
+    },
+    "seventeen": {
+        "en": "Youth & Hope for Normalcy",
+        "fr": "Jeunesse & Espoir de normalité"
+    },
+    "lifeboat": {
+        "en": "Social Pressure & Survival",
+        "fr": "Pression sociale & Survie"
+    },
     "toutes-les-machines-ont-le-coeur": {
         "en": "Technology & Humanity",
         "fr": "Technologie & Humanité"
@@ -357,6 +373,10 @@ CHALLENGE_MAP = {
 }
 
 SONG_LINKS = {
+    "leffet-de-masse": "https://www.youtube.com/watch?v=6zUxsrJqg14",
+    "ouvrir-les-yeux": "https://www.youtube.com/watch?v=mk8GXdUGGjo",
+    "seventeen": "https://www.youtube.com/watch?v=jg3z-Dw6Bpo",
+    "lifeboat": "https://www.youtube.com/watch?v=mMjHPilNnpY",
     "unlikely-lovers": "https://www.youtube.com/watch?v=5OGNf3OuGhk",
     "where-is-my-husband": "https://www.youtube.com/watch?v=rK5TyISxZ_M",
     "love-kernels": "https://www.youtube.com/watch?v=bkAjUBtn_TM",
@@ -579,6 +599,38 @@ LOCALIZATIONS_NEW = {
 
 # Standardized opposites database
 OPPOSITES_MAP = {
+    "La classe": "Le dehors",
+    "L'histoire": "L'oubli",
+    "La masse": "L'individu",
+    "Isoler": "Intégrer",
+    "L'idiot": "Le sage",
+    "Le bureau": "Le terrain",
+    "Le regard": "L'indifférence",
+    "Meilleur": "Pire",
+    "La rue": "La maison",
+    "Le couloir": "La chambre",
+    "Désespoir": "L'espoir",
+    "La mémoire": "L'oubli",
+    "Prisonnière": "Libre",
+    "damaged": "intact",
+    "normal": "abnormal",
+    "special": "ordinary",
+    "different": "identical",
+    "movies": "live theater",
+    "dancing": "standing still",
+    "tonight": "today",
+    "choose": "reject",
+    "right": "wrong",
+    "ocean": "desert",
+    "lifeboat": "ship",
+    "sink": "float",
+    "captain": "crew",
+    "weakest": "strongest",
+    "fighting": "surrendering",
+    "storm": "calm",
+    "wrong_opposite": "right",
+    "outfit": "uniform",
+    "crowded": "empty",
     # French
     "Le cœur": "La raison",
     "La machine": "L'être humain",
@@ -1203,6 +1255,36 @@ FINAL_CHALLENGE_DB = {
 
 
 VOCAB_DB = {
+    "La classe": ("groupe d'élèves qui reçoivent ensemble le même enseignement, ou la salle.", "La classe de français est toujours très dynamique et interactive."),
+    "L'histoire": ("récit d'événements passés, réels ou imaginaires.", "Elle adore raconter une histoire passionnante à ses enfants."),
+    "La masse": ("grand nombre de personnes formant un ensemble, la foule.", "L'effet de masse pousse parfois les gens à agir sans réfléchir."),
+    "Isoler": ("séparer quelqu'un d'un groupe, le mettre à l'écart.", "Il ne faut jamais isoler un élève qui se sent différent."),
+    "L'idiot": ("personne qui manque d'intelligence ou de bon sens.", "C'est un comportement complètement idiot de se moquer des autres."),
+    "Le bureau": ("meuble de travail ou pièce où l'on travaille.", "Elle passe ses journées devant son ordinateur au bureau."),
+    "Le couloir": ("passage étroit qui dessert plusieurs pièces.", "Les enfants courent joyeusement dans le couloir de l'école."),
+    "La rue": ("voie de circulation urbaine bordée de bâtiments.", "Il y a beaucoup de cafés agréables dans cette rue piétonne."),
+    "Désespoir": ("état de détresse extrême, perte de tout espoir.", "Elle a surmonté son grand désespoir grâce au soutien de ses amis."),
+    "La mémoire": ("faculté de conserver et de se rappeler des états de conscience passés.", "Elle a une excellente mémoire pour retenir les dates historiques."),
+    "Prisonnière": ("personne privée de sa liberté, enfermée.", "Elle se sent prisonnière de ses propres pensées négatives."),
+    "damaged": ("harmed or spoiled; not in perfect condition.", "The old guitar was damaged during the long journey."),
+    "normal": ("conforming to a standard; usual, typical, or expected.", "It is completely normal to feel nervous before a big presentation."),
+    "special": ("better, greater, or otherwise different from what is usual.", "She prepared a special dinner to celebrate her promotion."),
+    "different": ("not the same as another or each other; unlike in nature.", "They have completely different opinions about the new movie."),
+    "movies": ("motion pictures or films shown in a theater.", "They love to watch bad movies on a rainy Sunday afternoon."),
+    "dancing": ("the activity of moving the body to music.", "Dancing is a beautiful way to express your emotions and joy."),
+    "tonight": ("on the present or coming night.", "We are going to attend a live music concert tonight."),
+    "choose": ("pick out or select someone or something as being the best.", "You must choose a career path that truly inspires you."),
+    "right": ("morally good, justified, or acceptable; correct.", "She did the right thing by telling the truth to her friend."),
+    "ocean": ("a very large expanse of sea, in particular, each of the main areas of saline water.", "The vast blue ocean stretched as far as the eye could see."),
+    "lifeboat": ("a small boat kept on a ship for use in an emergency.", "The ship was equipped with enough lifeboats for everyone on board."),
+    "sink": ("go down below the surface of something, especially in liquid.", "The heavy iron anchor will sink quickly to the bottom of the sea."),
+    "captain": ("the person in command of a ship, aircraft, or team.", "The experienced captain guided the ship safely through the storm."),
+    "weakest": ("lacking physical strength or resolve; the least strong.", "We must protect and support the weakest members of our community."),
+    "fighting": ("the action of defeating or resisting something; struggling.", "Fighting for social justice requires courage and perseverance."),
+    "storm": ("a violent disturbance of the atmosphere with strong winds and rain.", "The loud thunder and lightning of the storm woke me up."),
+    "wrong": ("not correct or true; incorrect.", "He gave the wrong answer to the simple physics question."),
+    "outfit": ("a set of clothes worn together, typically for a particular occasion.", "She picked out a beautiful and stylish outfit for the wedding."),
+    "crowded": ("not clean or full of people, leaving little or no room.", "The popular shopping mall is always crowded on weekends."),
     "sexy": ("sexually attractive or appealing.", "She picked out a sexy dress for her weekend date."),
     "waxing": ("the process of removing hair from the skin using wax.", "Waxing can be a highly painful beauty procedure."),
     "plucking": ("pulling out hair or feathers with fingers or tweezers.", "Plucking eyebrows requires a steady hand and patience."),
@@ -2872,6 +2954,42 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     }
 
 NEW_SONGS_METADATA = {
+    "leffet-de-masse": {
+        "title": "L'effet de masse",
+        "artist": "Maëlle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Peer Pressure & Isolation",
+        "vocab": ["La classe", "L'histoire", "La masse", "Isoler", "L'idiot", "Le bureau", "Le regard", "Meilleur", "La rue", "Le couloir"]
+    },
+    "ouvrir-les-yeux": {
+        "title": "Ouvrir les yeux",
+        "artist": "Maëlle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Loneliness & Hope",
+        "vocab": ["Le cœur", "Désespoir", "La mémoire", "Prisonnière", "Le monde", "Seule", "Froid", "Oublier", "La chaleur", "Le ciel"]
+    },
+    "seventeen": {
+        "title": "Seventeen",
+        "artist": "Heathers Cast",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Youth & Hope for Normalcy",
+        "vocab": ["damaged", "normal", "special", "different", "movies", "summer", "dancing", "tonight", "choose", "right"]
+    },
+    "lifeboat": {
+        "title": "Lifeboat",
+        "artist": "Heathers Cast",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Social Pressure & Survival",
+        "vocab": ["ocean", "lifeboat", "sink", "captain", "weakest", "fighting", "storm", "wrong", "outfit", "crowded"]
+    },
     "im-afraid-of-americans": {
         "title": "I'm Afraid of Americans",
         "artist": "David Bowie",
@@ -3084,6 +3202,10 @@ NEW_SONGS_METADATA = {
 # STEP 1: Parse all songs dynamically from their existing files
 
 COMPLETE_SONG_VOCAB = {
+    "leffet-de-masse": ["La classe", "L'histoire", "La masse", "Isoler", "L'idiot", "Le bureau", "Le regard", "Meilleur", "La rue", "Le couloir"],
+    "ouvrir-les-yeux": ["Le cœur", "Désespoir", "La mémoire", "Prisonnière", "Le monde", "Seule", "Froid", "Oublier", "La chaleur", "Le ciel"],
+    "seventeen": ["damaged", "normal", "special", "different", "movies", "summer", "dancing", "tonight", "choose", "right"],
+    "lifeboat": ["ocean", "lifeboat", "sink", "captain", "weakest", "fighting", "storm", "wrong", "outfit", "crowded"],
     "me-and-i": ["Dual", "Conflict", "Reflect", "Personality", "Mirror", "Opposite", "Dialogue", "In harmony", "Acceptance", "Regret"],
     "la-tour-eiffel-est-pour-moi": ["Paris", "La liberté", "La beauté", "La fierté", "Le monument", "Se promener", "Le rêve", "Le ciel", "La joie", "Le souvenir"],
     "a-diagnosis": ["diagnosis", "neurosis", "label", "free", "supposed", "relief", "clarity", "mental", "illness", "name"],
