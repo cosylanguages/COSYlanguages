@@ -64,15 +64,15 @@ This document outlines the structured development phases and logical stages of t
 
 ---
 
-## 🟣 Phase 4: Offline Printable Toolkits & Interactive Sign-Ups (Planned)
+## 🟣 Phase 4: Offline Printable Toolkits & Interactive Sign-Ups (Completed)
 *Focus: Enhancing administrative tools and hybrid classroom synchronization.*
 
 ### **Stage 4.1: Standardized PDF Print Templates**
 - **Goal:** Optimize speaking club handouts for offline classroom printing.
-- **Implementation:** Develop dedicated print stylesheets (`@media print`) that cleanly format session vocabulary lists into foldable dual-column layouts and automatically hide digital-only navigation/videos.
-- **Status:** *Planned (Phase 4 Milestone)*
+- **Implementation:** Developed and polished `@media print` stylesheets in `css/events.css` to expand session details, hide redundant interactive UI (videos, sidebars, navigation FABs), and format vocabulary grids into premium, foldable dual-column templates (`repeat(2, 1fr)`) for Letter/A4 printing.
+- **Status:** **Completed** ✅
 
 ### **Stage 4.2: Automated Classroom Sync Split Views**
 - **Goal:** Let teachers load interactive practice questions directly alongside speaking session material.
-- **Implementation:** Map session vocabulary lists directly into the `classroom-sync.html` split interface to support flipped classroom prep.
-- **Status:** *Planned (Phase 4 Milestone)*
+- **Implementation:** Implemented a robust client-side Speaking Session Loader in `classroom-sync.html` that allows teachers to dynamically choose featured sessions, parsed via `DOMParser`, and synchronize questions, notes, and vocabulary cards over PeerJS WebRTC to students.
+- **Status:** **Completed** ✅
