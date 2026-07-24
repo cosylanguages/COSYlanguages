@@ -61,6 +61,24 @@
             padding: 2rem;
             margin-bottom: 2rem;
         }
+        .add-word-form {
+            display: grid;
+            grid-template-columns: 1.5fr 2.5fr 1fr;
+            gap: 1.25rem;
+            align-items: end;
+        }
+
+        @media (max-width: 768px) {
+            .add-word-form {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            .add-word-form button {
+                width: 100%;
+                justify-content: center;
+                padding: 12px !important;
+            }
+        }
 
         .lang-tabs-mini {
             display: flex;
@@ -199,11 +217,49 @@
             background: var(--warm-white);
             border: 1px solid var(--border);
             border-radius: var(--r-lg);
-            padding: 1.5rem;
+            padding: 1.75rem 1.5rem;
             text-align: center;
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+            box-shadow: 0 4px 12px rgba(28,25,23,0.02);
+            position: relative;
+            overflow: hidden;
         }
-        .stat-val { font-family: 'Fraunces', serif; font-size: 2rem; font-weight: 600; color: var(--ink); }
-        .stat-lbl { font-size: 0.75rem; color: var(--ink-faint); text-transform: uppercase; }
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(28,25,23,0.08);
+            border-color: var(--border-hover);
+        }
+        .stat-card:nth-child(1) {
+            border-top: 4px solid var(--gold);
+        }
+        .stat-card:nth-child(2) {
+            border-top: 4px solid var(--coral);
+        }
+        .stat-card:nth-child(3) {
+            border-top: 4px solid var(--teal);
+        }
+        .stat-val {
+            font-family: 'Fraunces', serif;
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 4px;
+        }
+        .stat-lbl {
+            font-size: 0.72rem;
+            color: var(--ink-muted);
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        .info-card-empty {
+            text-align: center;
+            padding: 3rem 1.5rem;
+            color: var(--ink-muted);
+            font-size: 0.9rem;
+            font-style: italic;
+        }
 
         /* Reuse some Practice hub styles */
         .recent-list, .mistake-list {
@@ -223,8 +279,11 @@
                 <h1 class="dash-greeting" data-translate-key="notebook_h1">My Personal <strong>Notebook</strong> 📓</h1>
                 <p style="color:var(--ink-muted); font-size:0.9rem; margin-top:0.5rem;" data-translate-key="notebook_sub">Expanding your linguistic horizons, one word at a time.</p>
             </div>
-            <div class="hero-ctas">
-                <button class="btn-outline" onclick="COSY.exportDict()" style="background: #fff;">Export Data 📥</button>
+            <div class="hero-ctas" style="display: flex; gap: 8px; flex-wrap: wrap;">
+                <button class="btn-outline" onclick="COSY.exportDict()" style="background: #fff; padding: 10px 16px; font-size: 0.85rem;" data-translate-key="btn_export_txt">Export Data 📥</button>
+                <button class="btn-outline" onclick="backupDictJSON()" style="background: #fff; padding: 10px 16px; font-size: 0.85rem;" data-translate-key="btn_backup_json">Backup (JSON) 📤</button>
+                <button class="btn-outline" onclick="document.getElementById('import-file-input').click()" style="background: #fff; padding: 10px 16px; font-size: 0.85rem;" data-translate-key="btn_restore_json">Restore Backup 📥</button>
+                <input type="file" id="import-file-input" accept=".json" style="display: none;" onchange="importDictJSON(event)">
             </div>
         </header>
 
@@ -239,7 +298,7 @@
             <div id="tab-vocab" class="tab-content active">
                 <div class="add-word-section">
                     <h2 class="sec-title"><span data-translate-key="add_custom_word">Add Custom Word</span> <span data-translate-key="build_own_list">Build your own list</span></h2>
-                    <div style="display: grid; grid-template-columns: 1fr 2fr auto; gap: 1rem; align-items: end;">
+                    <div class="add-word-form">
                         <div>
                             <label class="field-label" data-translate-key="label_word">Word</label>
                             <input type="text" id="manual-word" data-translate-placeholder="placeholder_word" placeholder="e.g. Serendipity" class="styled-select" style="background: #fff; appearance: none; background-image: none;">
@@ -248,7 +307,7 @@
                             <label class="field-label" data-translate-key="label_def">Definition or notes</label>
                             <input type="text" id="manual-def" data-translate-placeholder="placeholder_def" placeholder="What does it mean?" class="styled-select" style="background: #fff; appearance: none; background-image: none;">
                         </div>
-                        <button onclick="addManualWord()" class="btn-start" style="padding: 10px 24px;" data-translate-key="btn_save">+ Save</button>
+                        <button onclick="addManualWord()" class="btn-start" style="padding: 10px 24px; height: 42px;" data-translate-key="btn_save">+ Save</button>
                     </div>
                 </div>
 
@@ -343,6 +402,108 @@
     <script>
         let currentLangFilter = 'all';
 
+        function speakNotebookWord(text, lang) {
+            if (!window.speechSynthesis) return;
+            window.speechSynthesis.cancel();
+
+            const langMap = {
+                'en': 'en-GB', 'fr': 'fr-FR', 'it': 'it-IT', 'ru': 'ru-RU', 'el': 'el-GR',
+                'es': 'es-ES', 'de': 'de-DE', 'pt': 'pt-PT', 'hy': 'hy-AM', 'ka': 'ka-GE',
+                'tt': 'ru-RU', 'ba': 'ru-RU', 'br': 'fr-FR'
+            };
+            const targetLang = langMap[(lang || 'en').toLowerCase()] || lang || 'en-GB';
+
+            let cleanText = text.replace(/\((он|она|оно|они|м|ж|ср|м\/ж|f|m)\)/gi, '').trim();
+            cleanText = cleanText.replace(/\s*≠\s*/g, ', ').trim();
+
+            const utterance = new SpeechSynthesisUtterance(cleanText);
+            utterance.lang = targetLang;
+
+            if (window.speechSynthesis.getVoices) {
+                const voices = window.speechSynthesis.getVoices();
+                let voice = voices.find(v => v.lang === targetLang);
+                if (!voice) voice = voices.find(v => v.lang.startsWith(targetLang.split('-')[0]));
+                if (voice) utterance.voice = voice;
+            }
+
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function backupDictJSON() {
+            const vocab = window.COSY.dictionary;
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(vocab, null, 2));
+            const downloadAnchor = document.createElement('a');
+            downloadAnchor.setAttribute("href", dataStr);
+            downloadAnchor.setAttribute("download", "cosy-notebook-backup.json");
+            document.body.appendChild(downloadAnchor);
+            downloadAnchor.click();
+            downloadAnchor.remove();
+
+            if (window.COSY && typeof window.COSY.showToast === 'function') {
+                window.COSY.showToast('Structured JSON backup downloaded! 💾');
+            }
+        }
+
+        async function importDictJSON(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = async function(e) {
+                try {
+                    const imported = JSON.parse(e.target.result);
+                    if (!imported || typeof imported !== 'object') {
+                        throw new Error('Invalid backup format');
+                    }
+
+                    const wordsToImport = Object.entries(imported);
+                    if (wordsToImport.length === 0) {
+                        alert('Backup is empty!');
+                        return;
+                    }
+
+                    const mode = confirm(`Found ${wordsToImport.length} words in backup.\n\nClick OK to MERGE (keep existing words and add new ones).\nClick Cancel to OVERWRITE (replace everything with backup).`);
+
+                    if (mode === false) { // Overwrite
+                        // Clear existing dictionary first
+                        const keys = Object.keys(window.COSY.dictionary);
+                        for (const k of keys) {
+                            await window.COSY.removeFromDict(k);
+                        }
+                    }
+
+                    // Import and save each word
+                    for (const [word, data] of wordsToImport) {
+                        const wordData = typeof data === 'string' ? { word: word, definition: data } : {
+                            word: word,
+                            definition: data.definition || '',
+                            example: data.example || '',
+                            synonyms: data.synonyms || [],
+                            antonyms: data.antonyms || [],
+                            lang: data.lang || 'en'
+                        };
+                        await window.COSY.addToDict(wordData);
+                    }
+
+                    // Refresh tab and stats
+                    renderVocabulary();
+                    renderStats();
+
+                    if (window.COSY && typeof window.COSY.showToast === 'function') {
+                        window.COSY.showToast('Backup restored successfully! 🎉');
+                    }
+
+                    alert('Dictionary backup successfully restored!');
+                } catch (err) {
+                    alert('Error importing dictionary. Make sure it is a valid COSY JSON backup file.');
+                    console.error(err);
+                }
+                // Clear the input
+                event.target.value = '';
+            };
+            reader.readAsText(file);
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             renderTabs();
             // Listen for changes
@@ -418,7 +579,10 @@
 
                 el.innerHTML = `
                     <button class="btn-remove" style="position: absolute; top: 1rem; right: 1rem;" title="Remove">✕</button>
-                    <div class="vocab-word"></div>
+                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+                        <div class="vocab-word" style="margin-bottom: 0;"></div>
+                        <button class="btn-pronounce" title="Listen Pronunciation" aria-label="Listen pronunciation" style="background:none; border:none; font-size:1.1rem; cursor:pointer; opacity:0.6; transition:all 0.2s; padding:0; display:inline-flex; align-items:center; justify-content:center;"></button>
+                    </div>
                     <div class="vocab-def"></div>
                     <div class="vocab-details">${detailsHtml}</div>
                     <div class="vocab-actions">
@@ -430,6 +594,18 @@
                 `;
 
                 el.querySelector('.vocab-word').textContent = word;
+
+                const btnSpeak = el.querySelector('.btn-pronounce');
+                if (btnSpeak) {
+                    btnSpeak.innerHTML = '🔊';
+                    btnSpeak.addEventListener('mouseenter', () => btnSpeak.style.opacity = '1');
+                    btnSpeak.addEventListener('mouseleave', () => btnSpeak.style.opacity = '0.6');
+                    btnSpeak.onclick = (e) => {
+                        e.stopPropagation();
+                        speakNotebookWord(word, data.lang || 'en');
+                    };
+                }
+
                 el.querySelector('.vocab-def').textContent = def || 'No definition saved';
                 if (ex) el.querySelector('.vocab-ex').textContent = `"${ex}"`;
                 if (syns.length > 0) el.querySelector('.v-syns').textContent = syns.join(', ');
