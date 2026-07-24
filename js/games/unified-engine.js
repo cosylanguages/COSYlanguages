@@ -1746,19 +1746,38 @@
                 // Add styling details dynamically for inline styles to avoid breaking layout
                 const styleEl = document.createElement('style');
                 styleEl.innerHTML = `
+                    .btn-gender {
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 700;
+                        padding: 12px 24px !important;
+                        border-radius: 100px !important;
+                        cursor: pointer;
+                        border: 2px solid var(--border);
+                        background: #fff;
+                        transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+                        box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+                    }
+                    .btn-gender:hover:not(:disabled) {
+                        transform: translateY(-2px);
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+                    }
+                    .btn-gender:active:not(:disabled) {
+                        transform: translateY(1px);
+                    }
+
                     .masculine-btn { border-color: #3182ce !important; color: #2b6cb0 !important; }
-                    .masculine-btn:hover:not(:disabled) { background: #ebf8ff !important; }
-                    .masculine-btn.correct-choice { background: #3182ce !important; color: white !important; border-color: #2b6cb0 !important; }
+                    .masculine-btn:hover:not(:disabled) { background: #ebf8ff !important; border-color: #2b6cb0 !important; }
+                    .masculine-btn.correct-choice { background: #3182ce !important; color: white !important; border-color: #2b6cb0 !important; box-shadow: 0 4px 14px rgba(49, 130, 206, 0.35) !important; }
 
                     .feminine-btn { border-color: #d53f8c !important; color: #b83280 !important; }
-                    .feminine-btn:hover:not(:disabled) { background: #fff5f7 !important; }
-                    .feminine-btn.correct-choice { background: #d53f8c !important; color: white !important; border-color: #b83280 !important; }
+                    .feminine-btn:hover:not(:disabled) { background: #fff5f7 !important; border-color: #b83280 !important; }
+                    .feminine-btn.correct-choice { background: #d53f8c !important; color: white !important; border-color: #b83280 !important; box-shadow: 0 4px 14px rgba(213, 63, 140, 0.35) !important; }
 
                     .neuter-btn { border-color: #dd6b20 !important; color: #c05621 !important; }
-                    .neuter-btn:hover:not(:disabled) { background: #fffaf0 !important; }
-                    .neuter-btn.correct-choice { background: #dd6b20 !important; color: white !important; border-color: #c05621 !important; }
+                    .neuter-btn:hover:not(:disabled) { background: #fffaf0 !important; border-color: #c05621 !important; }
+                    .neuter-btn.correct-choice { background: #dd6b20 !important; color: white !important; border-color: #c05621 !important; box-shadow: 0 4px 14px rgba(221, 107, 32, 0.35) !important; }
 
-                    .wrong-choice { background: #feb2b2 !important; border-color: #e53e3e !important; color: #9b2c2c !important; text-decoration: line-through !important; }
+                    .wrong-choice { background: #fee2e2 !important; border-color: #ef4444 !important; color: #991b1b !important; text-decoration: line-through !important; opacity: 0.8; box-shadow: none !important; }
                 `;
                 body.appendChild(styleEl);
 
