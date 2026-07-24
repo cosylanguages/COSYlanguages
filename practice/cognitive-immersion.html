@@ -249,6 +249,24 @@
             border-color: var(--coral);
             box-shadow: 0 0 10px rgba(196, 82, 42, 0.1);
         }
+        html[data-theme="dark"] .cog-section {
+            background: var(--warm-white);
+        }
+        html[data-theme="dark"] .sim-display {
+            background: var(--cream-dark);
+        }
+        html[data-theme="dark"] .vac-mnemonic {
+            background: var(--cream-dark);
+        }
+        html[data-theme="dark"] .cognate-table-wrap {
+            background: var(--cream-dark);
+        }
+        html[data-theme="dark"] #speedtest-results {
+            background: var(--cream-dark);
+        }
+        html[data-theme="dark"] .chart-legend {
+            background: var(--cream-dark);
+        }
         .sim-track-title {
             font-family: var(--font-sans);
             font-weight: 800;
@@ -658,7 +676,7 @@
                 </p>
 
                 <div class="checklist-item" onclick="toggleCheck('chk-os')">
-                    <input type="checkbox" id="chk-os" onclick="event.stopPropagation(); updateImmersionProgress();">
+                    <input type="checkbox" id="chk-os" onclick="event.stopPropagation(); updateImmersionProgress(true);">
                     <div class="checklist-content">
                         <h4>Mobile & OS Language Flip 📱</h4>
                         <p>Change your phone, browser, and computer interface to your target language. Yields 150+ daily micro-exposures.</p>
@@ -666,7 +684,7 @@
                 </div>
 
                 <div class="checklist-item" onclick="toggleCheck('chk-social')">
-                    <input type="checkbox" id="chk-social" onclick="event.stopPropagation(); updateImmersionProgress();">
+                    <input type="checkbox" id="chk-social" onclick="event.stopPropagation(); updateImmersionProgress(true);">
                     <div class="checklist-content">
                         <h4>Native Audio & Podcasts 📻</h4>
                         <p>Play native podcasts, local radio, or songs in the background. Retrains your brain’s acoustic phoneme filters.</p>
@@ -674,7 +692,7 @@
                 </div>
 
                 <div class="checklist-item" onclick="toggleCheck('chk-read')">
-                    <input type="checkbox" id="chk-read" onclick="event.stopPropagation(); updateImmersionProgress();">
+                    <input type="checkbox" id="chk-read" onclick="event.stopPropagation(); updateImmersionProgress(true);">
                     <div class="checklist-content">
                         <h4>Interactive Reading (No Translate) 📖</h4>
                         <p>Read news or short books. Guess unknown words from context and emojis without ever using translation tools.</p>
@@ -682,7 +700,7 @@
                 </div>
 
                 <div class="checklist-item" onclick="toggleCheck('chk-video')">
-                    <input type="checkbox" id="chk-video" onclick="event.stopPropagation(); updateImmersionProgress();">
+                    <input type="checkbox" id="chk-video" onclick="event.stopPropagation(); updateImmersionProgress(true);">
                     <div class="checklist-content">
                         <h4>Target Language Media with TL Subtitles 🎬</h4>
                         <p>Watch YouTube or series strictly with target-language subtitles. Never use L1 translation text overlays.</p>
@@ -690,7 +708,7 @@
                 </div>
 
                 <div class="checklist-item" onclick="toggleCheck('chk-labels')">
-                    <input type="checkbox" id="chk-labels" onclick="event.stopPropagation(); updateImmersionProgress();">
+                    <input type="checkbox" id="chk-labels" onclick="event.stopPropagation(); updateImmersionProgress(true);">
                     <div class="checklist-content">
                         <h4>Physical Environment Labeling 🏷️</h4>
                         <p>Place handwritten sticky notes with target words directly onto physical home appliances (e.g., <em>frigorifero</em> on your fridge).</p>
@@ -717,10 +735,16 @@
     <section class="cog-section">
         <h2 class="cog-section-title">⏱️ Monolingual vs. Translation Cognitive Simulator</h2>
         <p class="cog-section-desc">
-            How much time do you lose by translating? Run the simulation below to compare standard translation routes against the direct, monolingual Palteca immersion route.
+            How much time do you lose by translating? Run the simulation or test your direct-concept recognition reflexes dynamically below.
         </p>
 
-        <div class="simulator-box">
+        <div class="brain-tabs-header" style="margin-bottom: 1.5rem;">
+            <button class="brain-tab-btn active-tab" id="sim-tab-simulator" onclick="switchSimulatorMode('simulator')">🤖 Concept Pathway Simulator</button>
+            <button class="brain-tab-btn" id="sim-tab-speedtest" onclick="switchSimulatorMode('speedtest')">⚡ Direct Concept Speed Test</button>
+        </div>
+
+        <!-- Mode A: Concept Pathway Simulator -->
+        <div id="mode-simulator-view" class="simulator-box">
             <div class="sim-controls">
                 <button class="sim-btn" onclick="startCognitiveSimulation('sole')">Simulate 'Sole ☀️' (Italian)</button>
                 <button class="sim-btn secondary" onclick="startCognitiveSimulation('chien')">Simulate 'Chien 🐕' (French)</button>
@@ -762,6 +786,40 @@
                 <div id="sim-summary" class="sim-timer" style="display:none; color: var(--sage-deep); margin-top:1.5rem;"></div>
             </div>
         </div>
+
+        <!-- Mode B: Direct Concept Speed Test Game -->
+        <div id="mode-speedtest-view" class="simulator-box" style="display: none;">
+            <div id="speedtest-intro">
+                <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1.5rem; color: var(--ink-soft);">
+                    Can you connect the foreign word directly to the physical concept (emoji) without reciting its English name? Test your sub-second neural reaction pathways below!
+                </p>
+                <button class="sim-btn" onclick="startSpeedTest()">Start Concept Speed Test 🚀</button>
+            </div>
+
+            <div id="speedtest-gameplay" style="display: none; text-align: center;">
+                <div style="display: flex; justify-content: space-between; max-width: 400px; margin: 0 auto 1rem; font-size: 0.9rem; font-weight: bold; color: var(--sage-deep);">
+                    <span id="speedtest-progress">Question 1/5</span>
+                    <span id="speedtest-timer" style="font-family: monospace;">Time: 0.00s</span>
+                </div>
+                <div id="speedtest-word" class="sim-word-bubble" style="font-size: 3rem; margin-bottom: 2rem;">---</div>
+
+                <div id="speedtest-options" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; max-width: 450px; margin: 0 auto 1.5rem;">
+                    <!-- Dynamically generated choice buttons -->
+                </div>
+            </div>
+
+            <div id="speedtest-results" style="display: none; max-width: 600px; margin: 0 auto; text-align: center; background: #fff; padding: 2rem; border-radius: 16px; border: 1px solid var(--border);">
+                <h3 style="font-family: var(--font-serif); color: var(--sage-deep); margin-bottom: 0.5rem;" id="speedtest-results-title">Test Complete!</h3>
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🧠⚡</div>
+                <p id="speedtest-results-stats" style="font-size: 1.2rem; font-weight: bold; color: var(--coral); margin-bottom: 1rem;"></p>
+                <p id="speedtest-results-feedback" style="font-size: 0.95rem; line-height: 1.5; color: var(--ink-soft); margin-bottom: 1.5rem;"></p>
+
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <button class="sim-btn" onclick="startSpeedTest()">Retry Test 🔁</button>
+                    <button class="sim-btn secondary" onclick="switchSimulatorMode('simulator')">Back to Simulator 🤖</button>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Section 3: Brain-Type Customizer -->
@@ -784,7 +842,7 @@
             <p style="font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
                 Visual brains need spatial and pictorial cues. Each card pairs a word with an instant visual scene instead of a dry L1 translation.
             </p>
-            <div class="visual-cards-grid">
+            <div class="visual-cards-grid" id="static-visual-cards">
                 <div class="visual-assoc-card">
                     <div class="vac-word">Mariposa 🦋 <span style="font-size:1rem; font-weight:normal; color:var(--ink-faint);">/maɾiˈposa/</span></div>
                     <div class="vac-translation">Butterfly (Spanish)</div>
@@ -805,6 +863,36 @@
                     <div class="vac-mnemonic">
                         <strong>Mental Image Association:</strong> Picture a gentle wind blowing through dry leaves, making a quiet <strong>"sussur...rare"</strong> sound in a quiet forest.
                     </div>
+                </div>
+            </div>
+
+            <!-- Dynamic Personal Mnemonic Notebook -->
+            <div style="margin-top: 3rem; background: var(--cream-dark); padding: 2rem; border-radius: 20px; border: 1px dashed var(--sage);">
+                <h3 style="font-family: var(--font-serif); color: var(--sage-deep); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    📓 Personal Mnemonic Notebook
+                </h3>
+                <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
+                    The absolute best mnemonics are those formulated by your own brain! Build your personal, translation-free dictionary of visual mnemonics below.
+                </p>
+
+                <form id="mnemonic-form" onsubmit="addPersonalMnemonic(event)" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) auto; gap: 1rem; align-items: end; margin-bottom: 2rem;">
+                    <div>
+                        <label for="m-word" style="display: block; font-size: 0.8rem; font-weight: bold; margin-bottom: 0.25rem; color: var(--sage-deep);">Word / Phrase</label>
+                        <input type="text" id="m-word" required placeholder="e.g. Papillon 🦋" style="width: 100%; padding: 0.6rem; border: 1px solid var(--border); border-radius: 8px;">
+                    </div>
+                    <div>
+                        <label for="m-meaning" style="display: block; font-size: 0.8rem; font-weight: bold; margin-bottom: 0.25rem; color: var(--sage-deep);">Direct Meaning</label>
+                        <input type="text" id="m-meaning" required placeholder="e.g. Butterfly (French)" style="width: 100%; padding: 0.6rem; border: 1px solid var(--border); border-radius: 8px;">
+                    </div>
+                    <div>
+                        <label for="m-association" style="display: block; font-size: 0.8rem; font-weight: bold; margin-bottom: 0.25rem; color: var(--sage-deep);">Visual Mental Association</label>
+                        <input type="text" id="m-association" required placeholder="e.g. Picture a papillon dog flying with butterfly wings!" style="width: 100%; padding: 0.6rem; border: 1px solid var(--border); border-radius: 8px;">
+                    </div>
+                    <button type="submit" class="sim-btn" style="height: fit-content; padding: 0.65rem 1.5rem;">Add Card ➕</button>
+                </form>
+
+                <div id="personal-mnemonics-list" class="visual-cards-grid">
+                    <!-- Dynamic personal mnemonic cards render here -->
                 </div>
             </div>
         </div>
@@ -943,12 +1031,19 @@
         <div class="chart-box">
             <h3 style="font-family: var(--font-serif); margin-bottom: 0.5rem; color: var(--sage-deep); text-align:center;">Interactive Forgetting Curve Slider</h3>
             <p style="font-size: 0.85rem; color: var(--ink-soft); text-align:center; margin-bottom: 1.5rem;">
-                Click review intervals to see how spaced repetition rescues your brain from the steep slope of forgetfulness!
+                Adjust the review intervals below to visualize how spaced reviews actively combat memory decay and secure long-term retrieval!
             </p>
 
-            <div style="text-align:center; margin-bottom: 1rem;">
-                <button class="sim-btn" onclick="setChartType('ignore')" style="background-color: var(--coral)">Simulate No Review 📉</button>
-                <button class="sim-btn" onclick="setChartType('review')" style="background-color: var(--sage-dark)">Simulate Spaced Repetition 📈</button>
+            <div style="max-width: 500px; margin: 0 auto 1.5rem; text-align: center;">
+                <label for="curve-slider" style="display: block; font-size: 0.9rem; font-weight: bold; margin-bottom: 0.5rem; color: var(--sage-deep);" id="slider-interval-label">Review Interval: No Reviews</label>
+                <input type="range" id="curve-slider" min="1" max="5" value="5" oninput="onSliderChange(this.value)" style="width: 100%; accent-color: var(--sage-dark); cursor: pointer;">
+                <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--ink-faint); margin-top: 0.25rem;">
+                    <span>No Reviews</span>
+                    <span>1 Review</span>
+                    <span>2 Reviews</span>
+                    <span>3 Reviews</span>
+                    <span>Spaced Repetition Mastery</span>
+                </div>
             </div>
 
             <div class="svg-chart-container">
@@ -980,10 +1075,13 @@
                 </svg>
             </div>
 
-            <div class="chart-legend">
-                <div class="legend-item">
-                    <div class="legend-color" id="legend-color-box"></div>
-                    <span id="legend-label-text">Loading simulation...</span>
+            <div class="chart-legend" style="background: white; padding: 1rem; border-radius: 12px; border: 1px solid var(--border);">
+                <div class="legend-item" style="display: flex; align-items: flex-start; gap: 0.75rem;">
+                    <div class="legend-color" id="legend-color-box" style="margin-top: 0.25rem;"></div>
+                    <div>
+                        <strong style="display: block; font-size: 0.95rem; color: var(--sage-deep);" id="legend-label-title">Loading simulation...</strong>
+                        <span id="legend-label-text" style="font-size: 0.85rem; color: var(--ink-soft); line-height: 1.4;"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1134,16 +1232,32 @@
         const chk = document.getElementById(id);
         if (chk) {
             chk.checked = !chk.checked;
-            updateImmersionProgress();
+            updateImmersionProgress(true);
         }
     }
 
-    function updateImmersionProgress() {
+    function updateImmersionProgress(save = true) {
         const checkboxes = ['chk-os', 'chk-social', 'chk-read', 'chk-video', 'chk-labels'];
         let checkedCount = 0;
+        const state = {};
+
         checkboxes.forEach(id => {
-            if (document.getElementById(id)?.checked) checkedCount++;
+            const chk = document.getElementById(id);
+            if (chk?.checked) {
+                checkedCount++;
+                state[id] = true;
+            } else {
+                state[id] = false;
+            }
         });
+
+        if (save) {
+            try {
+                localStorage.setItem('cosy_immersion_checklist', JSON.stringify(state));
+            } catch (e) {
+                console.error("Failed to save checklist state:", e);
+            }
+        }
 
         const pct = (checkedCount / checkboxes.length) * 100;
 
@@ -1178,6 +1292,26 @@
 
         document.getElementById('status-title').textContent = titles[checkedCount];
         document.getElementById('status-desc').textContent = descs[checkedCount];
+    }
+
+    // Simulator Mode Switcher
+    function switchSimulatorMode(mode) {
+        const tabSim = document.getElementById('sim-tab-simulator');
+        const tabSpeed = document.getElementById('sim-tab-speedtest');
+        const viewSim = document.getElementById('mode-simulator-view');
+        const viewSpeed = document.getElementById('mode-speedtest-view');
+
+        if (mode === 'simulator') {
+            tabSim.classList.add('active-tab');
+            tabSpeed.classList.remove('active-tab');
+            viewSim.style.display = 'block';
+            viewSpeed.style.display = 'none';
+        } else {
+            tabSim.classList.remove('active-tab');
+            tabSpeed.classList.add('active-tab');
+            viewSim.style.display = 'none';
+            viewSpeed.style.display = 'block';
+        }
     }
 
     // Cognitive Delay Simulation Engine
@@ -1252,6 +1386,126 @@
         }, 100);
     }
 
+    // Speed Test Game variables and Logic
+    const speedTestPool = [
+        { word: "Sole ☀️", choices: ["☀️", "🌧️", "🐕", "🍎"], correct: "☀️", lang: "Italian" },
+        { word: "Chien 🐕", choices: ["🐈", "🐕", "🦉", "🦋"], correct: "🐕", lang: "French" },
+        { word: "Mela 🍎", choices: ["🍋", "🍇", "🍎", "🍐"], correct: "🍎", lang: "Italian" },
+        { word: "Mariposa 🦋", choices: ["🐝", "🐞", "🦋", "🕷️"], correct: "🦋", lang: "Spanish" },
+        { word: "Casa 🏡", choices: ["🚗", "🌲", "⛵", "🏡"], correct: "🏡", lang: "Spanish/Italian" },
+        { word: "Eau 💧", choices: ["🔥", "💧", "💨", "🌱"], correct: "💧", lang: "French" },
+        { word: "Noche 🌙", choices: ["☀️", "⚡", "🌈", "🌙"], correct: "🌙", lang: "Spanish" },
+        { word: "Livre 📖", choices: ["✏️", "🎨", "📖", "🔑"], correct: "📖", lang: "French" }
+    ];
+
+    let speedTestCurrentIndex = 0;
+    let speedTestQuestions = [];
+    let speedTestTimes = [];
+    let speedTestTimerInterval = null;
+    let speedTestQuestionStartTime = 0;
+
+    function startSpeedTest() {
+        document.getElementById('speedtest-intro').style.display = 'none';
+        document.getElementById('speedtest-results').style.display = 'none';
+        document.getElementById('speedtest-gameplay').style.display = 'block';
+
+        // Shuffle pool and select 5 questions
+        speedTestQuestions = [...speedTestPool].sort(() => 0.5 - Math.random()).slice(0, 5);
+        speedTestCurrentIndex = 0;
+        speedTestTimes = [];
+
+        loadSpeedTestQuestion();
+    }
+
+    function loadSpeedTestQuestion() {
+        if (speedTestCurrentIndex >= speedTestQuestions.length) {
+            endSpeedTest();
+            return;
+        }
+
+        const current = speedTestQuestions[speedTestCurrentIndex];
+        document.getElementById('speedtest-progress').textContent = `Question ${speedTestCurrentIndex + 1}/${speedTestQuestions.length}`;
+        document.getElementById('speedtest-word').textContent = current.word.split(' ')[0]; // Hide emoji in word to test recognition!
+
+        // Generate options
+        const optionsBox = document.getElementById('speedtest-options');
+        optionsBox.innerHTML = '';
+
+        // Shuffle current.choices
+        const shuffledChoices = [...current.choices].sort(() => 0.5 - Math.random());
+
+        shuffledChoices.forEach(choice => {
+            const btn = document.createElement('button');
+            btn.className = 'sim-btn secondary';
+            btn.style.fontSize = '2rem';
+            btn.style.padding = '1rem';
+            btn.innerHTML = choice;
+            btn.onclick = () => handleSpeedTestChoice(choice, current.correct);
+            optionsBox.appendChild(btn);
+        });
+
+        // Start Question Timer
+        speedTestQuestionStartTime = performance.now();
+        if (speedTestTimerInterval) clearInterval(speedTestTimerInterval);
+
+        speedTestTimerInterval = setInterval(() => {
+            const elapsed = (performance.now() - speedTestQuestionStartTime) / 1000;
+            document.getElementById('speedtest-timer').textContent = `Time: ${elapsed.toFixed(2)}s`;
+        }, 30);
+    }
+
+    function handleSpeedTestChoice(selected, correct) {
+        clearInterval(speedTestTimerInterval);
+        const elapsed = (performance.now() - speedTestQuestionStartTime) / 1000;
+
+        // If incorrect, add a 2.0-second "Translation Penalty"!
+        const penalty = (selected === correct) ? 0 : 2.0;
+        const totalTimeForQuestion = elapsed + penalty;
+        speedTestTimes.push({
+            time: elapsed,
+            penalty: penalty,
+            total: totalTimeForQuestion,
+            correct: selected === correct
+        });
+
+        speedTestCurrentIndex++;
+        loadSpeedTestQuestion();
+    }
+
+    function endSpeedTest() {
+        if (speedTestTimerInterval) clearInterval(speedTestTimerInterval);
+        document.getElementById('speedtest-gameplay').style.display = 'none';
+        document.getElementById('speedtest-results').style.display = 'block';
+
+        const totalReactionTime = speedTestTimes.reduce((acc, curr) => acc + curr.time, 0);
+        const totalPenalties = speedTestTimes.reduce((acc, curr) => acc + curr.penalty, 0);
+        const overallScore = totalReactionTime + totalPenalties;
+        const correctCount = speedTestTimes.filter(t => t.correct).length;
+
+        document.getElementById('speedtest-results-stats').innerHTML = `
+            Accuracy: ${correctCount}/5 Correct<br>
+            Raw Reaction Time: ${totalReactionTime.toFixed(2)}s<br>
+            Translation Penalties: +${totalPenalties.toFixed(1)}s
+        `;
+
+        let feedbackTitle = "";
+        let feedbackDesc = "";
+
+        if (correctCount === 5 && overallScore < 4.0) {
+            feedbackTitle = "⚡ Neuro-Linguistic God! ⚡";
+            feedbackDesc = `Your raw reaction average is ${(totalReactionTime/5).toFixed(2)}s per word with 100% accuracy. You are bypassing L1 translations completely and wiring words directly to physical concepts. Keep this up!`;
+        } else if (correctCount >= 4 && overallScore < 7.0) {
+            feedbackTitle = "🌊 Fluent Concept Synthesizer 🌊";
+            feedbackDesc = `Average reaction time is ${(totalReactionTime/5).toFixed(2)}s. You're exhibiting quick direct-concept comprehension with minor cognitive latency. Fantastic work!`;
+        } else {
+            feedbackTitle = "🐢 Translation Fallback Zone 🐢";
+            feedbackDesc = `Average overall speed is ${(overallScore/5).toFixed(2)}s (including penalties). Your brain is likely running dictionary search algorithms translating back to English. Flip more devices to your target language using our Palteca Checklist above!`;
+        }
+
+        document.getElementById('speedtest-results-title').textContent = feedbackTitle;
+        document.getElementById('speedtest-results-feedback').textContent = feedbackDesc;
+    }
+
     // Brain Type Tabs Switcher
     function switchBrainTab(tabId) {
         document.querySelectorAll('.brain-tab-btn').forEach(btn => {
@@ -1270,10 +1524,14 @@
         if (activePane) activePane.classList.add('active-pane');
     }
 
-    // SVG Chart Dynamic Manipulation
-    const chartPaths = {
-        ignore: {
-            path: "M 50,20 L 135,115 L 220,180 L 305,200 L 390,205 L 475,210",
+    // SVG Chart Dynamic Manipulation with Slider Interval Mapping
+    const sliderCurves = {
+        "1": {
+            label: "No Reviews",
+            title: "Memory Forgetting Curve 📉",
+            desc: "Without reviews, memory retention collapses rapidly within 30 days due to standard biological neural decay. Only about 2% is retained.",
+            color: "var(--rose)",
+            path: "M 50,20 Q 135,140 220,180 T 390,205 T 475,210",
             dots: [
                 {x: 50, y: 20, val: "100%"},
                 {x: 135, y: 115, val: "50%"},
@@ -1281,11 +1539,58 @@
                 {x: 305, y: 200, val: "10%"},
                 {x: 390, y: 205, val: "5%"},
                 {x: 475, y: 210, val: "2%"}
-            ],
-            color: "var(--coral)",
-            label: "Memory Forgetting Curve: Rapid Regression down to 2% within 30 days of unreviewed exposure."
+            ]
         },
-        review: {
+        "2": {
+            label: "1 Review (Day 1)",
+            title: "Single Passive Recovery Curve 📉",
+            desc: "A single review on Day 1 boosts retention back to 100%, but because it is not spaced iteratively, the decay curve remains steep, fading down to 15% by Day 30.",
+            color: "var(--coral)",
+            path: "M 50,20 L 135,20 Q 220,110 305,150 T 475,190",
+            dots: [
+                {x: 50, y: 20, val: "100%"},
+                {x: 135, y: 20, val: "100% (Review 1)"},
+                {x: 220, y: 100, val: "55%"},
+                {x: 305, y: 140, val: "30%"},
+                {x: 390, y: 170, val: "20%"},
+                {x: 475, y: 190, val: "15%"}
+            ]
+        },
+        "3": {
+            label: "2 Reviews (Days 1, 3)",
+            title: "Iterative Reinforcement Curve 📈",
+            desc: "Adding a second review on Day 3 strengthens memory consolidation pathways. By widening the decay slope, the final retention level is elevated to 45% by Day 30.",
+            color: "var(--honey)",
+            path: "M 50,20 L 135,20 L 220,25 Q 305,80 390,110 T 475,130",
+            dots: [
+                {x: 50, y: 20, val: "100%"},
+                {x: 135, y: 20, val: "100% (Review 1)"},
+                {x: 220, y: 25, val: "97% (Review 2)"},
+                {x: 305, y: 70, val: "70%"},
+                {x: 390, y: 105, val: "55%"},
+                {x: 475, y: 130, val: "45%"}
+            ]
+        },
+        "4": {
+            label: "3 Reviews (Days 1, 3, 7)",
+            title: "Multi-Interval Consolidation Curve 📈",
+            desc: "Reviewing on Days 1, 3, and 7 prompts deep contextual mapping. The memory decay is arrested effectively, ensuring a robust 75% retention after 30 days.",
+            color: "var(--sage)",
+            path: "M 50,20 L 135,20 L 220,25 L 305,20 Q 390,50 475,70",
+            dots: [
+                {x: 50, y: 20, val: "100%"},
+                {x: 135, y: 20, val: "100% (Review 1)"},
+                {x: 220, y: 25, val: "97% (Review 2)"},
+                {x: 305, y: 20, val: "100% (Review 3)"},
+                {x: 390, y: 45, val: "85%"},
+                {x: 475, y: 70, val: "75%"}
+            ]
+        },
+        "5": {
+            label: "Spaced Repetition Mastery (Intervals: 1, 3, 7, 14, 30)",
+            title: "Spaced Repetition Mastery Curve 🚀",
+            desc: "Perfect Spaced Repetition Mastery! Every review hits right at the optimal forgetting threshold, flattening the forgetting curve and keeping retention above 95% permanently.",
+            color: "var(--sage-dark)",
             path: "M 50,20 L 135,20 L 220,25 L 305,20 L 390,25 L 475,20",
             dots: [
                 {x: 50, y: 20, val: "100%"},
@@ -1294,55 +1599,179 @@
                 {x: 305, y: 20, val: "100% (Review 3)"},
                 {x: 390, y: 25, val: "97% (Review 4)"},
                 {x: 475, y: 20, val: "100% (Stable)"}
-            ],
-            color: "var(--sage-dark)",
-            label: "Spaced Repetition Recovery Curve: Consistently maintaining retention above 95%."
+            ]
         }
     };
 
-    function setChartType(type) {
-        const config = chartPaths[type];
+    function onSliderChange(value) {
+        const config = sliderCurves[value];
         if (!config) return;
+
+        // Update Slider Label
+        const labelEl = document.getElementById('slider-interval-label');
+        if (labelEl) {
+            labelEl.textContent = `Review Interval: ${config.label}`;
+        }
 
         // Path
         const pathEl = document.getElementById('chart-path');
-        pathEl.setAttribute('d', config.path);
-        pathEl.setAttribute('stroke', config.color);
+        if (pathEl) {
+            pathEl.setAttribute('d', config.path);
+            pathEl.setAttribute('stroke', config.color);
+        }
 
-        // Legend label & color
-        const labelEl = document.getElementById('legend-label-text');
+        // Legend title, description & color
+        const titleEl = document.getElementById('legend-label-title');
+        const descEl = document.getElementById('legend-label-text');
         const colorBox = document.getElementById('legend-color-box');
-        labelEl.textContent = config.label;
-        colorBox.style.backgroundColor = config.color;
+
+        if (titleEl) titleEl.textContent = config.title;
+        if (descEl) descEl.textContent = config.desc;
+        if (colorBox) colorBox.style.backgroundColor = config.color;
 
         // Dots & text values
         const dotsContainer = document.getElementById('chart-dots');
-        dotsContainer.innerHTML = "";
-        config.dots.forEach(dot => {
-            const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-            circle.setAttribute("cx", dot.x);
-            circle.setAttribute("cy", dot.y);
-            circle.setAttribute("r", 6);
-            circle.setAttribute("fill", config.color);
-            circle.setAttribute("stroke", "#fff");
-            circle.setAttribute("stroke-width", "2");
+        if (dotsContainer) {
+            dotsContainer.innerHTML = "";
+            config.dots.forEach(dot => {
+                const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                circle.setAttribute("cx", dot.x);
+                circle.setAttribute("cy", dot.y);
+                circle.setAttribute("r", 6);
+                circle.setAttribute("fill", config.color);
+                circle.setAttribute("stroke", "#fff");
+                circle.setAttribute("stroke-width", "2");
 
-            const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-            text.setAttribute("x", dot.x - 10);
-            text.setAttribute("y", dot.y - 12);
-            text.setAttribute("fill", "#555");
-            text.setAttribute("font-size", "9px");
-            text.setAttribute("font-weight", "700");
-            text.textContent = dot.val;
+                const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                text.setAttribute("x", dot.x - 10);
+                text.setAttribute("y", dot.y - 12);
+                text.setAttribute("fill", "var(--ink)");
+                text.setAttribute("font-size", "9px");
+                text.setAttribute("font-weight", "700");
+                text.textContent = dot.val;
 
-            dotsContainer.appendChild(circle);
-            dotsContainer.appendChild(text);
+                dotsContainer.appendChild(circle);
+                dotsContainer.appendChild(text);
+            });
+        }
+    }
+
+    // Personal Mnemonic Notebook Logic
+    let personalMnemonics = [];
+
+    function loadPersonalMnemonics() {
+        try {
+            const stored = localStorage.getItem('cosy_personal_mnemonics');
+            if (stored) {
+                personalMnemonics = JSON.parse(stored);
+            }
+        } catch (e) {
+            console.error("Failed to load personal mnemonics:", e);
+        }
+        renderPersonalMnemonics();
+    }
+
+    function savePersonalMnemonics() {
+        try {
+            localStorage.setItem('cosy_personal_mnemonics', JSON.stringify(personalMnemonics));
+        } catch (e) {
+            console.error("Failed to save personal mnemonics:", e);
+        }
+    }
+
+    function renderPersonalMnemonics() {
+        const listEl = document.getElementById('personal-mnemonics-list');
+        if (!listEl) return;
+
+        listEl.innerHTML = '';
+
+        if (personalMnemonics.length === 0) {
+            listEl.innerHTML = `
+                <div style="grid-column: 1 / -1; text-align: center; color: var(--ink-faint); padding: 2rem; font-style: italic;">
+                    No personal mnemonics added yet. Use the form above to capture your first association!
+                </div>
+            `;
+            return;
+        }
+
+        personalMnemonics.forEach((item, index) => {
+            const card = document.createElement('div');
+            card.className = 'visual-assoc-card';
+            card.style.animation = 'fadeIn 0.3s ease-in-out';
+            card.innerHTML = `
+                <button onclick="deletePersonalMnemonic(${index})" aria-label="Delete card" style="position: absolute; top: 0.75rem; right: 0.75rem; background: none; border: none; cursor: pointer; font-size: 1rem; color: var(--coral);">🗑️</button>
+                <div class="vac-word" style="padding-right: 1.5rem;">${escapeHTML(item.word)}</div>
+                <div class="vac-translation">${escapeHTML(item.meaning)}</div>
+                <div class="vac-mnemonic">
+                    <strong>Mental Image Association:</strong> ${escapeHTML(item.association)}
+                </div>
+            `;
+            listEl.appendChild(card);
         });
+    }
+
+    function addPersonalMnemonic(event) {
+        event.preventDefault();
+        const wordInput = document.getElementById('m-word');
+        const meaningInput = document.getElementById('m-meaning');
+        const assocInput = document.getElementById('m-association');
+
+        if (!wordInput || !meaningInput || !assocInput) return;
+
+        const newItem = {
+            word: wordInput.value.trim(),
+            meaning: meaningInput.value.trim(),
+            association: assocInput.value.trim()
+        };
+
+        personalMnemonics.push(newItem);
+        savePersonalMnemonics();
+        renderPersonalMnemonics();
+
+        // Clear fields
+        wordInput.value = '';
+        meaningInput.value = '';
+        assocInput.value = '';
+    }
+
+    function deletePersonalMnemonic(index) {
+        personalMnemonics.splice(index, 1);
+        savePersonalMnemonics();
+        renderPersonalMnemonics();
+    }
+
+    function escapeHTML(str) {
+        return str
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
     }
 
     // Initialize with spaced repetition on page load
     document.addEventListener("DOMContentLoaded", () => {
-        setChartType('review');
+        onSliderChange("5");
+
+        // Restore checklist state from localStorage
+        try {
+            const savedStateStr = localStorage.getItem('cosy_immersion_checklist');
+            if (savedStateStr) {
+                const state = JSON.parse(savedStateStr);
+                Object.keys(state).forEach(id => {
+                    const chk = document.getElementById(id);
+                    if (chk) {
+                        chk.checked = !!state[id];
+                    }
+                });
+            }
+        } catch (e) {
+            console.error("Failed to load checklist state:", e);
+        }
+        updateImmersionProgress(false);
+
+        // Load personal mnemonics
+        loadPersonalMnemonics();
     });
 </script>
 
