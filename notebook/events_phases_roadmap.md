@@ -22,6 +22,11 @@ This document outlines the structured development phases and logical stages of t
 - **Implementation:** Corrected Card A ("Speaking Club") descriptive redirect badge from "See all 6 clubs" to "See all 9 clubs" to accurately reflect the actual number of speaking, singing, and cinema clubs active on the live site.
 - **Status:** **Completed** ✅
 
+### **Stage 1.4: Premium Cinema Hall Theming & Badge Standardization**
+- **Goal:** Unify individual cinema session visual identities under a dedicated `.theme-cinema` stylesheet namespace.
+- **Implementation:** Custom-styled the Cinema parent page and all 91 programmatically generated sub-session pages using `<body class="theme-cinema">`. Standardized CEFR level tags (`.tag-a1`, `.tag-a2`, `.tag-b1`, `.tag-b2`, `.tag-c1`, `.tag-c2`) and the mature film age advisory indicator (`.tag-sensitive`) with matching visual backgrounds and border highlights. Added context-appropriate brown/chocolate hover accents to navigation links, vocabulary cards, pronunciation widgets, and trailer triggers.
+- **Status:** **Completed** ✅
+
 ---
 
 ## 🟢 Phase 2: Static Quality Gates & Pedagogical Validations
@@ -60,6 +65,11 @@ This document outlines the structured development phases and logical stages of t
 ### **Stage 3.2: Multi-Level CEFR Filtering**
 - **Goal:** Offer intuitive level switches to separate Beginner (A1-A2), Intermediate (B1-B2), and Advanced (C1-C2) content.
 - **Implementation:** Configured responsive button selectors checking lowercase levels in `data-level` attributes on past session cards.
+- **Status:** **Completed** ✅
+
+### **Stage 3.3: Redundant Script Decoupling & Empty States**
+- **Goal:** Consolidate UI actions into a robust centralized script, preventing double-binding of level transition event handlers.
+- **Implementation:** Removed duplicate local filtering scripts on the parent page `events/cinema-club.html`, shifting absolute control of level transitions and dynamic "No sessions found" empty-state feedbacks to `setupClubFilters` inside the global `js/core/ui.js` module.
 - **Status:** **Completed** ✅
 
 ---
