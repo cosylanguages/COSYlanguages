@@ -320,7 +320,7 @@
             qs = pool.map(item => {
                 const isVocabOrGrammar = (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary');
                 if (isVocabOrGrammar) {
-                    let types = ['mc', 'tf', 'type', 'sc', 'ls'];
+                    let types = ['mc', 'tf', 'type', 'sc', 'ls', 'mp'];
                     let type = types[Math.floor(Math.random() * types.length)];
 
                     // FIX 3 — Guard against missing examples for scramble questions
@@ -334,7 +334,69 @@
                     let qText = '', ans = null, opts = null;
                     const definition = item.definitions?.[0]?.text || item.definition || item.translation || item.word || "...";
 
-                    if (type === 'mc') {
+                    if (type === 'mp') {
+                        // Match Pairs: Current item + 3 other random items
+                        const otherItems = pool
+                            .filter(p => p.id !== item.id && p.word && (p.definitions?.[0]?.text || p.definition || p.translation))
+                            .sort(() => Math.random() - 0.5);
+
+                        const selectedPairs = [item, ...otherItems.slice(0, 3)];
+                        while (selectedPairs.length < 4) {
+                            selectedPairs.push({
+                                word: `WordFallback_${selectedPairs.length}`,
+                                definitions: [{ text: `DefFallback_${selectedPairs.length}` }],
+                                emoji: '💡',
+                                transcription: `[${selectedPairs.length}]`
+                            });
+                        }
+
+                        // Determine available modes dynamically based on item fields
+                        let possibleModes = ['definition'];
+
+                        const hasEmojis = selectedPairs.filter(p => p.emoji).length >= 3;
+                        if (hasEmojis) possibleModes.push('emoji');
+
+                        const hasTranscriptions = selectedPairs.filter(p => p.transcription).length >= 3;
+                        if (hasTranscriptions) possibleModes.push('transcription');
+
+                        const hasAntonyms = selectedPairs.filter(p => p.opposite || (p.antonyms && p.antonyms.length > 0)).length >= 2;
+                        if (hasAntonyms) possibleModes.push('antonym');
+
+                        const selectedMode = possibleModes[Math.floor(Math.random() * possibleModes.length)];
+
+                        // Map each pair based on the chosen mode
+                        const pairs = selectedPairs.map((p, idx) => {
+                            let matchValue = '';
+                            if (selectedMode === 'emoji') {
+                                matchValue = p.emoji || '💡';
+                            } else if (selectedMode === 'transcription') {
+                                matchValue = p.transcription || `[${p.word}]`;
+                            } else if (selectedMode === 'antonym') {
+                                matchValue = p.opposite || p.antonyms?.[0] || `≠ ${p.word}`;
+                            } else {
+                                matchValue = p.definitions?.[0]?.text || p.definition || p.translation || p.word;
+                            }
+
+                            return {
+                                id: idx,
+                                word: p.word,
+                                definition: matchValue
+                            };
+                        });
+
+                        // Set a fully monolingual descriptive title based on selected mode
+                        if (selectedMode === 'emoji') {
+                            qText = "🧩 Match the words with their images";
+                        } else if (selectedMode === 'transcription') {
+                            qText = "🧩 Match the words with their pronunciation symbols";
+                        } else if (selectedMode === 'antonym') {
+                            qText = "🧩 Match the words with their opposites (antonyms)";
+                        } else {
+                            qText = "🧩 Match the words with their definitions";
+                        }
+
+                        ans = pairs; // Array of { id, word, definition }
+                    } else if (type === 'mc') {
                         const mcQ = buildMCQuestion(item, pool);
                         qText = mcQ.q;
                         ans = mcQ.ans;

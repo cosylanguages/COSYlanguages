@@ -863,6 +863,96 @@
         }
     };
 
+    window.selectMPItem = (type, id) => {
+        const sess = engine.session;
+        if (!sess) return;
+
+        if (type === 'left') {
+            const el = document.getElementById(`mp-left-${id}`);
+            if (!el || el.classList.contains('matched')) return;
+
+            if (engine.mpSelectedLeft !== null && engine.mpSelectedLeft !== undefined) {
+                const prev = document.getElementById(`mp-left-${engine.mpSelectedLeft}`);
+                if (prev) prev.classList.remove('active');
+            }
+
+            engine.mpSelectedLeft = id;
+            el.classList.add('active');
+        } else {
+            const el = document.getElementById(`mp-right-${id}`);
+            if (!el || el.classList.contains('matched')) return;
+
+            if (engine.mpSelectedRight !== null && engine.mpSelectedRight !== undefined) {
+                const prev = document.getElementById(`mp-right-${engine.mpSelectedRight}`);
+                if (prev) prev.classList.remove('active');
+            }
+
+            engine.mpSelectedRight = id;
+            el.classList.add('active');
+        }
+
+        // Check matching
+        if (engine.mpSelectedLeft !== null && engine.mpSelectedLeft !== undefined &&
+            engine.mpSelectedRight !== null && engine.mpSelectedRight !== undefined) {
+            const selLeft = engine.mpSelectedLeft;
+            const selRight = engine.mpSelectedRight;
+
+            const elL = document.getElementById(`mp-left-${selLeft}`);
+            const elR = document.getElementById(`mp-right-${selRight}`);
+
+            if (selLeft === selRight) {
+                // Correct Match!
+                if (elL) { elL.classList.remove('active'); elL.classList.add('matched'); }
+                if (elR) { elR.classList.remove('active'); elR.classList.add('matched'); }
+
+                engine.mpSelectedLeft = null;
+                engine.mpSelectedRight = null;
+                engine.mpMatchedCount = (engine.mpMatchedCount || 0) + 1;
+
+                // Play simple success chime
+                try {
+                    const AudioContext = window.AudioContext || window.webkitAudioContext;
+                    if (AudioContext) {
+                        const ctx = new AudioContext();
+                        const osc = ctx.createOscillator();
+                        const gain = ctx.createGain();
+                        osc.type = 'sine';
+                        osc.frequency.setValueAtTime(659.25, ctx.currentTime);
+                        gain.gain.setValueAtTime(0.05, ctx.currentTime);
+                        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.15);
+                        osc.connect(gain);
+                        gain.connect(ctx.destination);
+                        osc.start();
+                        osc.stop(ctx.currentTime + 0.15);
+                    }
+                } catch (e) {}
+
+                if (engine.mpMatchedCount === 4) {
+                    engine.awardPoints(10);
+                    showBottomFeedback(true, 'Match Complete!', '+10 PTS 🎉 All pairs matched successfully.', 1500);
+                }
+            } else {
+                // Incorrect Match!
+                if (elL) { elL.classList.remove('active'); elL.classList.add('wrong-match'); }
+                if (elR) { elR.classList.remove('active'); elR.classList.add('wrong-match'); }
+
+                engine.recordMistake(null);
+
+                const currentLeft = selLeft;
+                const currentRight = selRight;
+                setTimeout(() => {
+                    const eL = document.getElementById(`mp-left-${currentLeft}`);
+                    const eR = document.getElementById(`mp-right-${currentRight}`);
+                    if (eL) eL.classList.remove('wrong-match');
+                    if (eR) eR.classList.remove('wrong-match');
+                }, 400);
+
+                engine.mpSelectedLeft = null;
+                engine.mpSelectedRight = null;
+            }
+        }
+    };
+
     if (document.readyState === 'complete') engine.init();
     else window.addEventListener('load', () => engine.init());
 })();
