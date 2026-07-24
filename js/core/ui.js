@@ -1350,12 +1350,520 @@
         }
     };
 
+    /* ─── SESSION SWITCHER ENGINE ───────────────────────────────── */
+    const SWITCHER_LOCALES = {
+        en: {
+            languages: "Available Languages:",
+            levels: "Available Levels:"
+        },
+        fr: {
+            languages: "Langues disponibles :",
+            levels: "Niveaux disponibles :"
+        },
+        ru: {
+            languages: "Доступные языки:",
+            levels: "Доступные уровни:"
+        }
+    };
+
+    const SWITCHER_GROUPS = [
+        {
+            id: "4-day-work-week",
+            pages: [
+                { lang: "en", path: "events/sessions/debatable-relatable/4-day-work-week.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/debatable-relatable/la-semaine-de-4-jours.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "events/ru/sessions/debatable-relatable/4-dnevnaya-rabochaya-nedelya.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+            ]
+        },
+        {
+            id: "assisted-dying",
+            pages: [
+                { lang: "en", path: "events/sessions/debatable-relatable/assisted-dying.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/debatable-relatable/l-aide-active-a-mourir.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "short-holiday-vs-long-holiday",
+            pages: [
+                { lang: "en", path: "events/sessions/debatable-relatable/short-holiday-vs-long-holiday-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "events/sessions/debatable-relatable/short-holiday-vs-long-holiday-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+            ]
+        },
+        {
+            id: "typing-vs-handwriting",
+            pages: [
+                { lang: "en", path: "events/sessions/debatable-relatable/typing-vs-handwriting-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "events/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+            ]
+        },
+        {
+            id: "ape-laughter-speech-origin",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/ape-laughter-speech-origin-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/ape-laughter-speech-origin-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+            ]
+        },
+        {
+            id: "museums-movies-theater-stay-younger",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+            ]
+        },
+        {
+            id: "where-you-live-shapes-dementia-risk",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+            ]
+        },
+        {
+            id: "impersonation-accounts",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/impersonation-accounts.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/keeping-up-with-science/impersonation-accounts.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "feynman-knowledge-isnt-free",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+            ]
+        },
+        {
+            id: "feynman-study-hard",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-study-hard.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-study-hard-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+            ]
+        },
+        {
+            id: "madonna-ai-art-quote",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/madonna-ai-art-quote-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "events/sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+            ]
+        },
+        {
+            id: "dolto-difficult-child-quote",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/dolto-difficult-child-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/dolto-difficult-child-quote.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/dolto-difficult-child-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+            ]
+        },
+        {
+            id: "accept-gay-child",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/accept-gay-child.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/accept-gay-child.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "events/ru/sessions/mind-matters/syn-vlyubilsya-v-druga.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+            ]
+        },
+        {
+            id: "ai-opposite-of-art",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
+            ]
+        },
+        {
+            id: "dangerous-blindness-perspective",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/dangerous-blindness-perspective.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/dangerous-blindness-perspective.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "favorite-days-not-happened",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/favorite-days-not-happened.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/favorite-days-not-happened.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "home-is-a-time",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/home-is-a-time.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/home-is-a-time.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        {
+            id: "must-die-first",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/must-die-first.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/must-die-first.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "saudade",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/saudade.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/saudade.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        {
+            id: "sonder",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/sonder.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/sonder.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
+            ]
+        },
+        {
+            id: "women-mothers-tragedy",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/women-mothers-tragedy.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/women-mothers-tragedy.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "you-are-a-soul",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/you-are-a-soul.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/you-are-a-soul.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        {
+            id: "voltaire-read-dance-quote",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/voltaire-read-dance-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/voltaire-read-dance-quote.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        {
+            id: "anticipatory-grief",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/anticipatory-grief.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/anticipatory-grief.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "broken-children-grown-bodies",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/broken-children-grown-bodies.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/broken-children-grown-bodies.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "depersonalization",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/depersonalization.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/depersonalization.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "fear-of-love-control",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/fear-of-love-control.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/fear-of-love-control.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "finding-the-right-person",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/finding-the-right-person.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/finding-the-right-person.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "gilberts-law",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/gilberts-law.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/gilberts-law.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "impersonation",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/impersonation.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/impersonation.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "kidlins-law",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/kidlins-law.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/kidlins-law.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "law-of-attraction",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/law-of-attraction.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/law-of-attraction.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "limerence",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/limerence.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/limerence.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "murphys-law",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/murphys-law.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/murphys-law.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "wilsons-law",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/wilsons-law.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/mind-matters/wilsons-law.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "dostoevsky-loving-power-quote",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+            ]
+        },
+        {
+            id: "dostoevsky-politics-religion-quote",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+            ]
+        },
+        {
+            id: "neufeld-resistance-quote",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/neufeld-resistance-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/neufeld-resistance-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+            ]
+        },
+        {
+            id: "langle-suppressed-child-quote",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/langle-suppressed-child-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/langle-suppressed-child-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+            ]
+        },
+        {
+            id: "think-for-yourself-quote",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/think-for-yourself-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/think-for-yourself-quote.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+            ]
+        },
+        {
+            id: "wisdom-of-socrates",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/wisdom-of-socrates.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/la-sagesse-de-socrate.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+            ]
+        },
+        {
+            id: "expert-defend-language-mistakes",
+            pages: [
+                { lang: "en", path: "events/sessions/mind-matters/expert-defend-language-mistakes.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "ru", path: "events/ru/sessions/mind-matters/ne-ispravlyay-rech.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+            ]
+        }
+    ];
+
+    const setupSessionSwitcher = () => {
+        const currentPathname = window.location.pathname;
+        const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
+
+        let relativePath = currentPathname;
+        if (relativePath.startsWith(prefix)) {
+            relativePath = relativePath.slice(prefix.length);
+        }
+
+        // Normalize path separators to forward slashes
+        relativePath = relativePath.replace(/\\/g, '/');
+        if (relativePath.startsWith('/')) {
+            relativePath = relativePath.slice(1);
+        }
+
+        // Find if current path is in one of our switcher groups
+        const matchedGroup = SWITCHER_GROUPS.find(group =>
+            group.pages.some(page => page.path === relativePath)
+        );
+
+        if (!matchedGroup) return; // No multi-level or multilingual session detected
+
+        // Ensure <main class="content-container"> is present
+        const mainContainer = document.querySelector('main.content-container');
+        if (!mainContainer) return;
+
+        // Determine current document language
+        let docLang = (document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+        if (!['en', 'fr', 'ru'].includes(docLang)) {
+            docLang = 'en';
+        }
+
+        const loc = SWITCHER_LOCALES[docLang] || SWITCHER_LOCALES['en'];
+
+        // Create switcher element
+        const switcherEl = document.createElement('div');
+        switcherEl.className = 'session-switcher';
+
+        // Check if there are multiple languages
+        const uniqueLangs = new Set(matchedGroup.pages.map(p => p.lang));
+        const hasMultilingual = uniqueLangs.size > 1;
+
+        // Check if there are multiple levels
+        const uniqueLevels = new Set(matchedGroup.pages.map(p => p.level));
+        const hasMultiLevel = uniqueLevels.size > 1;
+
+        let htmlContent = '';
+
+        // 1. Languages Row
+        if (hasMultilingual) {
+            htmlContent += `
+                <div class="session-switcher-row">
+                    <span class="session-switcher-label">${loc.languages}</span>
+                    <div class="session-switcher-btn-group">
+            `;
+
+            // Get unique languages and map to their representing pages
+            const langPages = [];
+            const seenLangs = new Set();
+            matchedGroup.pages.forEach(p => {
+                if (!seenLangs.has(p.lang)) {
+                    seenLangs.add(p.lang);
+                    langPages.push(p);
+                }
+            });
+
+            langPages.forEach(p => {
+                const isActive = p.path === relativePath;
+                const activeClass = isActive ? 'active' : '';
+                const url = prefix + p.path;
+                htmlContent += `
+                    <a href="${isActive ? '#' : url}" class="session-switcher-btn ${activeClass}" aria-label="Switch language to ${p.label}">
+                        ${p.label}
+                    </a>
+                `;
+            });
+
+            htmlContent += `
+                    </div>
+                </div>
+            `;
+        }
+
+        // 2. Levels Row
+        if (hasMultiLevel) {
+            htmlContent += `
+                <div class="session-switcher-row" style="${hasMultilingual ? 'margin-top: 0.5rem;' : ''}">
+                    <span class="session-switcher-label">${loc.levels}</span>
+                    <div class="session-switcher-btn-group">
+            `;
+
+            matchedGroup.pages.forEach(p => {
+                const isActive = p.path === relativePath;
+                const activeClass = isActive ? 'active' : '';
+                const url = prefix + p.path;
+                htmlContent += `
+                    <a href="${isActive ? '#' : url}" class="session-switcher-btn ${activeClass}" aria-label="Switch level to ${p.levelLabel}">
+                        ${p.levelLabel}
+                    </a>
+                `;
+            });
+
+            htmlContent += `
+                    </div>
+                </div>
+            `;
+        }
+
+        switcherEl.innerHTML = htmlContent;
+
+        // Inject styles to head
+        const styleId = 'cosy-session-switcher-styles';
+        if (!document.getElementById(styleId)) {
+            const styleEl = document.createElement('style');
+            styleEl.id = styleId;
+            styleEl.textContent = `
+                .session-switcher {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.75rem;
+                    background: var(--cream-dark);
+                    border: 1px solid var(--border);
+                    padding: 1rem 1.5rem;
+                    border-radius: var(--r-md, 14px);
+                    margin-top: 1rem;
+                    margin-bottom: 2rem;
+                    box-sizing: border-box;
+                }
+                .session-switcher-row {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    flex-wrap: wrap;
+                }
+                .session-switcher-label {
+                    font-weight: 700;
+                    font-size: 0.85rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.05em;
+                    color: var(--muted);
+                    min-width: 140px;
+                    margin: 0;
+                }
+                .session-switcher-btn-group {
+                    display: flex;
+                    gap: 0.5rem;
+                    flex-wrap: wrap;
+                }
+                .session-switcher-btn {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 0.4rem;
+                    padding: 0.35rem 0.9rem;
+                    background: var(--surface-color, #ffffff);
+                    border: 1px solid var(--border);
+                    border-radius: 50px;
+                    font-size: 0.85rem;
+                    font-weight: 600;
+                    color: var(--ink-soft);
+                    text-decoration: none !important;
+                    cursor: pointer;
+                    transition: all 0.2s ease-in-out;
+                }
+                .session-switcher-btn:hover {
+                    background: var(--sage-pale);
+                    border-color: var(--sage-soft);
+                    color: var(--sage-dark);
+                    transform: translateY(-1px);
+                    box-shadow: var(--shadow-sm);
+                }
+                .session-switcher-btn.active {
+                    background: var(--sage-dark);
+                    border-color: var(--sage-dark);
+                    color: white !important;
+                    cursor: default;
+                    pointer-events: none;
+                    box-shadow: var(--shadow-sm);
+                }
+            `;
+            document.head.appendChild(styleEl);
+        }
+
+        // Find best place to inject the switcher in main container
+        const targetAnchor = mainContainer.querySelector('.back-link') || mainContainer.querySelector('.cosy-breadcrumbs') || mainContainer.firstElementChild;
+        if (targetAnchor) {
+            targetAnchor.parentNode.insertBefore(switcherEl, targetAnchor.nextSibling);
+        } else {
+            mainContainer.prepend(switcherEl);
+        }
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
         setupBackToTop();
         setupScrollReveal();
         setupClubFilters();
+        setupSessionSwitcher();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
 
         // FAQ Toggle
