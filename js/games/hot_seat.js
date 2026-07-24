@@ -34,14 +34,14 @@
           buildQuestion(item, type) {
             switch(type) {
               case 'plural':
-                if (!item.plural || item.plural === item.word + 's') return { text: `Give a quick definition of "${item.word}"`, answer: item.definitions?.[0]?.text || '', emoji: item.emoji, accept: null, selfAssess: true };
-                return { text: `What's the plural of "${item.word}"?`, answer: item.plural, emoji: item.emoji, accept: [item.plural.toLowerCase()] };
+                if (!item.plural || item.plural === item.word + 's') return { text: `<strong>${item.word}</strong> = 📖 ???`, answer: item.definitions?.[0]?.text || '', emoji: item.emoji, accept: null, selfAssess: true };
+                return { text: `<strong>${item.word}</strong> ➔ 👥 ???`, answer: item.plural, emoji: item.emoji, accept: [item.plural.toLowerCase()] };
               case 'definition':
-                return { text: `Give a quick definition of "${item.word}"`, answer: item.definitions?.[0]?.text || '', emoji: item.emoji, accept: null, selfAssess: true };
+                return { text: `<strong>${item.word}</strong> = 📖 ???`, answer: item.definitions?.[0]?.text || '', emoji: item.emoji, accept: null, selfAssess: true };
               case 'use_in_sentence':
-                return { text: `Use "${item.word}" in a sentence!`, answer: item.definitions?.[0]?.examples?.[0]?.text || item.definitions?.[0]?.examples?.[0] || '', emoji: item.emoji, accept: null, selfAssess: true };
+                return { text: `🧩 <strong>${item.word}</strong> ➔ ✍️ ???`, answer: item.definitions?.[0]?.examples?.[0]?.text || item.definitions?.[0]?.examples?.[0] || '', emoji: item.emoji, accept: null, selfAssess: true };
               default:
-                return { text: `Say something about "${item.word}"!`, answer: item.definitions?.[0]?.text || '', emoji: item.emoji, accept: null, selfAssess: true };
+                return { text: `<strong>${item.word}</strong> = 📖 ???`, answer: item.definitions?.[0]?.text || '', emoji: item.emoji, accept: null, selfAssess: true };
             }
           },
 
@@ -61,26 +61,24 @@
                 </div>
                 ${q.selfAssess ? `
                   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
-                    <button onclick="hotSeatAnswer(false)" style="height:60px;border-radius:12px;background:#fcebeb;border:2px solid #a32d2d;color:#a32d2d;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;cursor:pointer">✗ Missed it</button>
-                    <button onclick="hotSeatAnswer(true)" style="height:60px;border-radius:12px;background:#e5f4ec;border:2px solid #1a6b45;color:#1a6b45;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;cursor:pointer">✓ Got it!</button>
+                    <button onclick="hotSeatAnswer(false)" style="height:60px;border-radius:12px;background:#fcebeb;border:2px solid #a32d2d;color:#a32d2d;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;cursor:pointer">✗</button>
+                    <button onclick="hotSeatAnswer(true)" style="height:60px;border-radius:12px;background:#e5f4ec;border:2px solid #1a6b45;color:#1a6b45;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;cursor:pointer">✓</button>
                   </div>
-                  <div style="font-size:.78rem;color:#aaa;margin-top:8px">Example: "${q.answer}"</div>
+                  <div style="font-size:.78rem;color:#aaa;margin-top:8px">💡: "${q.answer}"</div>
                 ` : `
-                  <input id="hs-input" type="text" placeholder="Type your answer..." style="width:100%;height:52px;border-radius:10px;border:2px solid rgba(107,143,113,.2);background:#fdf8f0;font-family:'Nunito',sans-serif;font-size:1rem;font-weight:700;padding:0 16px;outline:none;margin-bottom:10px;" onkeydown="if(event.key==='Enter')hotSeatSubmit()" />
-                  <button onclick="hotSeatSubmit()" style="width:100%;height:48px;border-radius:999px;background:#6b8f71;color:#fff;border:none;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;cursor:pointer">Submit ✓</button>
+                  <input id="hs-input" type="text" placeholder="..." style="width:100%;height:52px;border-radius:10px;border:2px solid rgba(107,143,113,.2);background:#fdf8f0;font-family:'Nunito',sans-serif;font-size:1rem;font-weight:700;padding:0 16px;outline:none;margin-bottom:10px;" onkeydown="if(event.key==='Enter')hotSeatSubmit()" />
+                  <button onclick="hotSeatSubmit()" style="width:100%;height:48px;border-radius:999px;background:#6b8f71;color:#fff;border:none;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;cursor:pointer">✓</button>
                 `}
               </div>
             `;
           },
 
           buildSummary() {
-            const pct = Math.round(this.score / this.questions.length * 100);
             return `
               <div style="font-family:'Nunito',sans-serif;padding:20px;text-align:center;">
-                <div style="font-size:3rem;margin-bottom:8px">${pct >= 80 ? '🏆' : pct >= 50 ? '💪' : '📚'}</div>
+                <div style="font-size:3rem;margin-bottom:8px">🏁</div>
                 <div style="font-family:'Lora',serif;font-size:1.6rem;font-weight:700;color:#2e4a33;margin-bottom:4px">${this.score} / ${this.questions.length}</div>
-                <div style="font-size:.9rem;color:#aaa;margin-bottom:24px">${pct >= 80 ? 'Outstanding! 🔥' : pct >= 50 ? 'Good effort! Keep going 💪' : 'Good practice — try again!'}</div>
-                <button onclick="hotSeatRestart()" style="width:100%;height:52px;border-radius:999px;background:#6b8f71;color:#fff;border:none;font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer">Play Again 🔄</button>
+                <button onclick="hotSeatRestart()" style="width:100%;height:52px;border-radius:999px;background:#6b8f71;color:#fff;border:none;font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer">↺</button>
               </div>
             `;
           }

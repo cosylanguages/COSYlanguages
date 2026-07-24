@@ -1004,17 +1004,17 @@
 
                 body.innerHTML = `
                   <div class="score-bar">
-                    <div class="sb-item"><div class="sb-val" id="wl-score">${wlScore}</div><div class="sb-lbl">Score</div></div>
-                    <div class="sb-item"><div class="sb-val">${wlQ}</div><div class="sb-lbl">Question</div></div>
+                    <div class="sb-item"><div class="sb-val" id="wl-score">${wlScore}</div><div class="sb-lbl">⭐</div></div>
+                    <div class="sb-item"><div class="sb-val">${wlQ}</div><div class="sb-lbl">🧩</div></div>
                   </div>
                   <div class="game-card">
-                    <div class="game-label">🔗 ${hasOdd ? 'Find the odd one out' : 'What connects these words?'}</div>
+                    <div class="game-label">🔗 ${hasOdd ? '❌ ≠ ???' : '🔗 ≈ ???'}</div>
                     <div class="word-options">
                       ${shuffled.map(w => `<button class="word-opt" onclick="COSY_ENGINE.wlGuess(this,'${w}','${q.odd}','${q.link}','${q.oddReason.replace(/'/g,"\\'")}',${hasOdd})">${w}</button>`).join('')}
                     </div>
                     <div class="feedback-bar" id="wl-fb"></div>
                     <div class="game-controls">
-                      <button class="btn-g-primary" id="wl-next" onclick="COSY_ENGINE._nextWL()" style="display:none">Next →</button>
+                      <button class="btn-g-primary" id="wl-next" onclick="COSY_ENGINE._nextWL()" style="display:none">➔</button>
                       <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('wordlinker')">⬅ Setup</button>
                     </div>
                   </div>`;
@@ -1031,7 +1031,7 @@
                   el.classList.add('correct');
                   if (fb) {
                       fb.className = 'feedback-bar show ok';
-                      fb.innerHTML = `✓ The link is: <strong>${link}</strong>`;
+                      fb.innerHTML = `✓ 🔗 ≈ <strong>${link}</strong>`;
                   }
                   wlScore++;
                   const scoreEl = document.getElementById('wl-score');
@@ -1043,7 +1043,7 @@
                   el.classList.add('correct');
                   if (fb) {
                       fb.className = 'feedback-bar show ok';
-                      fb.innerHTML = `✓ Correct! <strong>${odd}</strong> is the odd one out. ${reason}. The others are: ${link}.`;
+                      fb.innerHTML = `✓ ❌ = <strong>${odd}</strong> · ${reason}`;
                   }
                   wlScore++;
                   const scoreEl = document.getElementById('wl-score');
@@ -1053,7 +1053,7 @@
                   document.querySelectorAll('.word-opt').forEach(b => { if (b.textContent === odd) b.classList.add('correct'); });
                   if (fb) {
                       fb.className = 'feedback-bar show bad';
-                      fb.innerHTML = `✗ Not quite. The odd one out was <strong>${odd}</strong>. ${reason}.`;
+                      fb.innerHTML = `✗ ❌ = <strong>${odd}</strong> · ${reason}`;
                   }
                 }
             };
@@ -1223,30 +1223,30 @@
                 const types = ['plural', 'definition', 'sentence'];
                 const type = pick(types);
 
-                let prompt = '', answer = '', example = '';
+                let prompt = '', answer = '';
                 if (type === 'plural') {
-                    prompt = `What is the plural of <strong>${item.word}</strong>?`;
+                    prompt = `<strong>${item.word}</strong> ➔ 👥 ???`;
                     answer = item.plural || (item.word + 's');
                 } else if (type === 'definition') {
-                    prompt = `Define the word <strong>${item.word}</strong>.`;
+                    prompt = `<strong>${item.word}</strong> = 📖 ???`;
                     answer = item.definitions?.[0]?.text || '...';
                 } else {
-                    prompt = `Use <strong>${item.word}</strong> in a sentence.`;
+                    prompt = `🧩 <strong>${item.word}</strong> ➔ ✍️ ???`;
                     answer = item.definitions?.[0]?.examples?.[0]?.text || item.definitions?.[0]?.examples?.[0] || '...';
                 }
 
                 body.innerHTML = `
                     <div class="score-bar">
-                        <div class="sb-item"><div class="sb-val">${score}</div><div class="sb-lbl">Score</div></div>
-                        <div class="sb-item"><div class="sb-val" id="hs-timer">${timeLeft}</div><div class="sb-lbl">Sec</div></div>
+                        <div class="sb-item"><div class="sb-val">${score}</div><div class="sb-lbl">⭐</div></div>
+                        <div class="sb-item"><div class="sb-val" id="hs-timer">${timeLeft}</div><div class="sb-lbl">⏱️</div></div>
                     </div>
                     <div class="game-card" style="text-align:center">
                         <div class="game-label">🎯 Hot Seat</div>
                         <div class="game-prompt" style="font-size:1.4rem">${prompt}</div>
-                        <div style="font-size:.8rem; color:var(--ink-faint); margin: 1rem 0;">Suggested: "${answer}"</div>
+                        <div style="font-size:.8rem; color:var(--ink-faint); margin: 1rem 0;">💡: "${answer}"</div>
                         <div class="game-controls" style="justify-content:center; gap:1rem">
-                            <button class="btn-g-primary" style="background:var(--green)" onclick="COSY_ENGINE.hsResult(true)">✓ Got it!</button>
-                            <button class="btn-g-secondary" onclick="COSY_ENGINE.hsResult(false)">✗ Missed</button>
+                            <button class="btn-g-primary" style="background:var(--green)" onclick="COSY_ENGINE.hsResult(true)">✓</button>
+                            <button class="btn-g-secondary" onclick="COSY_ENGINE.hsResult(false)">✗</button>
                         </div>
                     </div>`;
             };
@@ -1262,11 +1262,11 @@
                 body.innerHTML = `
                     <div class="round-end">
                         <div class="re-icon">🏆</div>
-                        <div class="re-title">Round Over!</div>
-                        <div class="re-sub">You answered <strong>${score}</strong> questions.</div>
+                        <div class="re-title">🏁</div>
+                        <div class="re-sub">⭐ <strong>${score}</strong></div>
                         <div class="re-actions">
-                            <button class="btn-g-primary" onclick="COSY_ENGINE.startHotSeat()">Play again ↺</button>
-                            <button class="btn-g-secondary" onclick="closeGame()">Back to hub</button>
+                            <button class="btn-g-primary" onclick="COSY_ENGINE.startHotSeat()">↺</button>
+                            <button class="btn-g-secondary" onclick="closeGame()">⬅</button>
                         </div>
                     </div>`;
             });
