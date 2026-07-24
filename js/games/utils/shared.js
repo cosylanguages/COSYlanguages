@@ -638,14 +638,18 @@
             ['fluency', 'opinions', 'battle', 'critic', 'identity', 'wordlinker', 'etymology', 'storychain'].forEach(k => {
                 const pool = ld[k] || ld[k.replace(/s$/, '')]; // Handle singular/plural
                 if (Array.isArray(pool)) {
+                    let filteredPool = [];
                     // Only use data that matches the selected level
                     if (level !== 'all') {
-                        data[k] = JSON.parse(JSON.stringify(pool)).filter(item => {
+                        filteredPool = JSON.parse(JSON.stringify(pool)).filter(item => {
                             if (!item.level) return true; // Keep "universal" items (strings or objects without level)
                             return window.getLevelCode(item.level) === level;
                         });
                     } else {
-                        data[k] = JSON.parse(JSON.stringify(pool));
+                        filteredPool = JSON.parse(JSON.stringify(pool));
+                    }
+                    if (filteredPool.length > 0) {
+                        data[k] = [...(data[k] || []), ...filteredPool];
                     }
                 }
             });
@@ -660,7 +664,10 @@
         });
 
         // 2. Merge specialized data from window.speakingData (modern speaking tasks)
-        const s = window.speakingData?.[lang] || {};
+        let s = window.speakingData?.[lang] || {};
+        if (!s.talkThatTalk && !s.opinions && !s.debates && !s.quotes && lang !== 'en') {
+            s = window.speakingData?.['en'] || {};
+        }
         const extractText = (item) => typeof item === 'string' ? item : (item.topic || item.text || item.t || item.word || '');
 
         const mergeSpecialized = (key, specializedArray) => {
@@ -687,6 +694,9 @@
         // 3. Enrichment from vocabulary pool
         // Strictly use the vocabulary for the target language
         let vocabPool = (window.vocabularyData && window.vocabularyData[lang]) ? [...window.vocabularyData[lang]] : [];
+        if (vocabPool.length === 0 && lang !== 'en') {
+            vocabPool = (window.vocabularyData && window.vocabularyData['en']) ? [...window.vocabularyData['en']] : [];
+        }
         if (window.phrasesData && window.phrasesData[lang]) {
             Object.values(window.phrasesData[lang]).flat().forEach(p => {
                 vocabPool.push({

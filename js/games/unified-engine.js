@@ -15,6 +15,368 @@
     'use strict';
 
     /* ══════════════════════════════════════
+       LOCALIZATION DICTIONARY (Stage 2.3)
+    ══════════════════════════════════════ */
+    const G_LOCALES = {
+        en: {
+            topics_done: "Topics done",
+            per_topic: "Per topic",
+            your_topic: "Your topic",
+            start_speaking: "Start speaking",
+            pause: "Pause",
+            resume: "Resume",
+            done_next_topic: "Done! Next topic",
+            new_topic: "New topic",
+            setup: "Setup",
+            statement: "Statement",
+            agree: "Agree",
+            disagree: "Disagree",
+            choose_side: "Choose side",
+            start_debate: "Start debate",
+            round: "Round",
+            of: "of",
+            arguing_for: "Arguing for",
+            done_round: "Round done!",
+            turn: "turn",
+            vote_winner: "Who argued most convincingly?",
+            play_again: "Play again",
+            back_to_games: "Back to games",
+            famous_quote: "Famous quote",
+            excellent_analysis: "Excellent analysis!",
+            new_quote: "New quote",
+            hold_forehead: "Hold to forehead",
+            others_describe: "Others describe this word — you guess!",
+            got_it: "Got it!",
+            skip: "Skip",
+            correct: "Correct",
+            skipped: "Skipped",
+            round_over: "Round over!",
+            times_up_results: "Time's up — here's how you did:",
+            host_only_secret: "Host only — keep secret!",
+            clue_for_you: "Clue for you",
+            identity_instructions: "Others ask yes/no questions. You can only answer: Yes / No / Maybe / Partly.",
+            questions_asked: "Questions asked",
+            each_click_records: "Each click records a question.",
+            plus_one_question: "+1 Question asked",
+            they_guessed_it: "They guessed it!",
+            guessed_in: "Guessed in",
+            questions: "questions",
+            new_identity: "New identity",
+            where_does_this_come_from: "Where does this word come from?",
+            exit: "Exit",
+            next_concept: "Next Concept",
+            complete: "Complete!",
+            score: "Score"
+        },
+        fr: {
+            topics_done: "Sujets terminés",
+            per_topic: "Par sujet",
+            your_topic: "Votre sujet",
+            start_speaking: "Commencer à parler",
+            pause: "Pause",
+            resume: "Reprendre",
+            done_next_topic: "Terminé ! Sujet suivant",
+            new_topic: "Nouveau sujet",
+            setup: "Configuration",
+            statement: "Déclaration",
+            agree: "D'accord",
+            disagree: "Pas d'accord",
+            choose_side: "Choisissez votre camp",
+            start_debate: "Commencer le débat",
+            round: "Tour",
+            of: "sur",
+            arguing_for: "Argumentation pour",
+            done_round: "Tour terminé !",
+            turn: "tour",
+            vote_winner: "Qui a été le plus convaincant ?",
+            play_again: "Rejouer",
+            back_to_games: "Retour aux jeux",
+            famous_quote: "Citation célèbre",
+            excellent_analysis: "Excellente analyse !",
+            new_quote: "Nouvelle citation",
+            hold_forehead: "Tenez sur le front",
+            others_describe: "Les autres décrivent le mot — devinez !",
+            got_it: "Trouvé !",
+            skip: "Passer",
+            correct: "Correct",
+            skipped: "Passé",
+            round_over: "Partie terminée !",
+            times_up_results: "Temps écoulé — voici vos résultats :",
+            host_only_secret: "Hôte uniquement — gardez secret !",
+            clue_for_you: "Indice pour vous",
+            identity_instructions: "Les autres posent des questions oui/non. Répondez uniquement : Oui / Non / Peut-être / En partie.",
+            questions_asked: "Questions posées",
+            each_click_records: "Chaque clic enregistre une question.",
+            plus_one_question: "+1 Question posée",
+            they_guessed_it: "Ils ont deviné !",
+            guessed_in: "Deviné en",
+            questions: "questions",
+            new_identity: "Nouvelle identité",
+            where_does_this_come_from: "D'où vient ce mot ?",
+            exit: "Quitter",
+            next_concept: "Concept suivant",
+            complete: "Terminé !",
+            score: "Score"
+        },
+        ru: {
+            topics_done: "Темы завершены",
+            per_topic: "На тему",
+            your_topic: "Ваша тема",
+            start_speaking: "Начать говорить",
+            pause: "Пауза",
+            resume: "Продолжить",
+            done_next_topic: "Готово! Следующая тема",
+            new_topic: "Новая тема",
+            setup: "Настройка",
+            statement: "Утверждение",
+            agree: "Согласен",
+            disagree: "Не согласен",
+            choose_side: "Выберите сторону",
+            start_debate: "Начать дебаты",
+            round: "Раунд",
+            of: "из",
+            arguing_for: "Аргумент за",
+            done_round: "Раунд завершен!",
+            turn: "ход",
+            vote_winner: "Кто был наиболее убедителен?",
+            play_again: "Играть снова",
+            back_to_games: "Назад к играм",
+            famous_quote: "Известная цитата",
+            excellent_analysis: "Отличный анализ!",
+            new_quote: "Новая цитата",
+            hold_forehead: "Прижмите ко лбу",
+            others_describe: "Другие описывают слово — угадывайте!",
+            got_it: "Угадал!",
+            skip: "Пропустить",
+            correct: "Верно",
+            skipped: "Пропущено",
+            round_over: "Раунд окончен!",
+            times_up_results: "Время вышло — ваши результаты:",
+            host_only_secret: "Только для ведущего — держите в секрете!",
+            clue_for_you: "Подсказка для вас",
+            identity_instructions: "Другие задают вопросы да/нет. Отвечайте только: Да / Нет / Возможно / Частично.",
+            questions_asked: "Задано вопросов",
+            each_click_records: "Каждое нажатие записывает вопрос.",
+            plus_one_question: "+1 вопрос",
+            they_guessed_it: "Они угадали!",
+            guessed_in: "Угадано за",
+            questions: "вопросов",
+            new_identity: "Новая личность",
+            where_does_this_come_from: "Откуда происходит это слово?",
+            exit: "Выйти",
+            next_concept: "Следующее понятие",
+            complete: "Готово!",
+            score: "Счёт"
+        },
+        es: {
+            topics_done: "Temas completados",
+            per_topic: "Por tema",
+            your_topic: "Tu tema",
+            start_speaking: "Empezar a hablar",
+            pause: "Pausa",
+            resume: "Continuar",
+            done_next_topic: "¡Hecho! Siguiente tema",
+            new_topic: "Nuevo tema",
+            setup: "Configuración",
+            statement: "Declaración",
+            agree: "De acuerdo",
+            disagree: "En desacuerdo",
+            choose_side: "Elige bando",
+            start_debate: "Empezar debate",
+            round: "Ronda",
+            of: "de",
+            arguing_for: "Argumentando a favor de",
+            done_round: "¡Ronda completada!",
+            turn: "turno",
+            vote_winner: "¿Quién argumentó de manera más convincente?",
+            play_again: "Jugar de nuevo",
+            back_to_games: "Volver a juegos",
+            famous_quote: "Frase famosa",
+            excellent_analysis: "¡Excelente análisis!",
+            new_quote: "Nueva frase",
+            hold_forehead: "Sostén en la frente",
+            others_describe: "Otros describen la palabra — ¡adivina!",
+            got_it: "¡Lo tengo!",
+            skip: "Pasar",
+            correct: "Correcto",
+            skipped: "Pasado",
+            round_over: "¡Fin de la ronda!",
+            times_up_results: "Tiempo agotado — así te fue:",
+            host_only_secret: "Solo para el anfitrión — ¡mantén en secreto!",
+            clue_for_you: "Pista para ti",
+            identity_instructions: "Otros hacen preguntas de sí/no. Responde solo: Sí / No / Quizá / En parte.",
+            questions_asked: "Preguntas formuladas",
+            each_click_records: "Cada clic registra una pregunta.",
+            plus_one_question: "+1 Pregunta formulada",
+            they_guessed_it: "¡Lo adivinaron!",
+            guessed_in: "Adivinado en",
+            questions: "preguntas",
+            new_identity: "Nueva identidad",
+            where_does_this_come_from: "¿De dónde viene esta palabra?",
+            exit: "Salir",
+            next_concept: "Siguiente concepto",
+            complete: "¡Completado!",
+            score: "Puntuación"
+        },
+        it: {
+            topics_done: "Temi completati",
+            per_topic: "Per tema",
+            your_topic: "Il tuo tema",
+            start_speaking: "Inizia a parlare",
+            pause: "Pausa",
+            resume: "Riprendi",
+            done_next_topic: "Fatto! Prossimo tema",
+            new_topic: "Nuovo tema",
+            setup: "Configurazione",
+            statement: "Dichiarazione",
+            agree: "D'accordo",
+            disagree: "In disaccordo",
+            choose_side: "Scegli una parte",
+            start_debate: "Inizia dibattito",
+            round: "Ronda",
+            of: "di",
+            arguing_for: "Argomentando per",
+            done_round: "Ronda completata!",
+            turn: "turno",
+            vote_winner: "Chi ha argomentato in modo più convincente?",
+            play_again: "Gioca ancora",
+            back_to_games: "Torna ai giochi",
+            famous_quote: "Citazione famosa",
+            excellent_analysis: "Analisi eccellente!",
+            new_quote: "Nuova citazione",
+            hold_forehead: "Tieni sulla fronte",
+            others_describe: "Gli altri descrivono la parola — indovina!",
+            got_it: "Preso!",
+            skip: "Passa",
+            correct: "Corretto",
+            skipped: "Passato",
+            round_over: "Fine del gioco!",
+            times_up_results: "Tempo scaduto — ecco come è andata:",
+            host_only_secret: "Solo ospite — mantieni segreto!",
+            clue_for_you: "Indizio per te",
+            identity_instructions: "Gli altri fanno domande sì/no. Rispondi solo: Sì / No / Forse / In parte.",
+            questions_asked: "Domande fatte",
+            each_click_records: "Ogni clic registra una domanda.",
+            plus_one_question: "+1 Domanda fatta",
+            they_guessed_it: "Hanno indovinato!",
+            guessed_in: "Indovinato in",
+            questions: "domande",
+            new_identity: "Nuova identità",
+            where_does_this_come_from: "Da dove viene questa parola?",
+            exit: "Esci",
+            next_concept: "Prossimo concetto",
+            complete: "Completato!",
+            score: "Punteggio"
+        },
+        de: {
+            topics_done: "Themen abgeschlossen",
+            per_topic: "Pro Thema",
+            your_topic: "Dein Thema",
+            start_speaking: "Anfangen zu sprechen",
+            pause: "Pause",
+            resume: "Fortsetzen",
+            done_next_topic: "Fertig! Nächstes Thema",
+            new_topic: "Neues Thema",
+            setup: "Einstellungen",
+            statement: "Aussage",
+            agree: "Zustimmen",
+            disagree: "Nicht zustimmen",
+            choose_side: "Seite wählen",
+            start_debate: "Debatte starten",
+            round: "Runde",
+            of: "von",
+            arguing_for: "Argumentieren für",
+            done_round: "Runde abgeschlossen!",
+            turn: "Reihe",
+            vote_winner: "Wer hat am überzeugendsten argumentiert?",
+            play_again: "Nochmals spielen",
+            back_to_games: "Zurück zu Spielen",
+            famous_quote: "Berühmtes Zitat",
+            excellent_analysis: "Hervorragende Analyse!",
+            new_quote: "Neues Zitat",
+            hold_forehead: "An die Stirn halten",
+            others_describe: "Andere beschreiben das Wort — rate!",
+            got_it: "Gefunden!",
+            skip: "Überspringen",
+            correct: "Richtig",
+            skipped: "Übersprungen",
+            round_over: "Runde vorbei!",
+            times_up_results: "Zeit abgelaufen — so hast du abgeschnitten:",
+            host_only_secret: "Nur für den Gastgeber — geheim halten!",
+            clue_for_you: "Hinweis für dich",
+            identity_instructions: "Andere stellen Ja/Nein-Fragen. Antworte nur mit: Ja / Nein / Vielleicht / Teilweise.",
+            questions_asked: "Gestellte Fragen",
+            each_click_records: "Jeder Klick zeichnet eine Frage auf.",
+            plus_one_question: "+1 Frage gestellt",
+            they_guessed_it: "Sie haben es erraten!",
+            guessed_in: "Erraten in",
+            questions: "Fragen",
+            new_identity: "Neue Identität",
+            where_does_this_come_from: "Woher kommt dieses Wort?",
+            exit: "Beenden",
+            next_concept: "Nächstes Konzept",
+            complete: "Abgeschlossen!",
+            score: "Punkte"
+        },
+        el: {
+            topics_done: "Θέματα που ολοκληρώθηκαν",
+            per_topic: "Ανά θέμα",
+            your_topic: "Το θέμα σας",
+            start_speaking: "Ξεκινήστε να μιλάτε",
+            pause: "Παύση",
+            resume: "Συνέχεια",
+            done_next_topic: "Έγινε! Επόμενο θέμα",
+            new_topic: "Νέο θέμα",
+            setup: "Ρυθμίσεις",
+            statement: "Δήλωση",
+            agree: "Συμφωνώ",
+            disagree: "Διαφωνώ",
+            choose_side: "Επιλέξτε πλευρά",
+            start_debate: "Έναρξη αντιπαράθεσης",
+            round: "Γύρος",
+            of: "από",
+            arguing_for: "Επιχειρηματολογία υπέρ",
+            done_round: "Ολοκλήρωση γύρου!",
+            turn: "σειρά",
+            vote_winner: "Ποιος επιχειρηματολόγησε πιο πειστικά;",
+            play_again: "Παίξτε ξανά",
+            back_to_games: "Επιστροφή στα παιχνίδια",
+            famous_quote: "Διάσημο ρητό",
+            excellent_analysis: "Εξαιρετική ανάλυση!",
+            new_quote: "Νέο ρητό",
+            hold_forehead: "Κρατήστε στο μέτωπο",
+            others_describe: "Οι άλλοι περιγράφουν τη λέξη — βρείτε την!",
+            got_it: "Το βρήκα!",
+            skip: "Παράλειψη",
+            correct: "Σωστό",
+            skipped: "Παραλείφθηκε",
+            round_over: "Τέλος γύρου!",
+            times_up_results: "Ο χρόνος τελείωσε — πώς τα πήγατε:",
+            host_only_secret: "Μόνο για τον οικοδεσπότη — κρατήστε το μυστικό!",
+            clue_for_you: "Στοιχείο για εσάς",
+            identity_instructions: "Οι άλλοι κάνουν ερωτήσεις ναι/όχι. Απαντήστε μόνο: Ναι / Όχι / Ίσως / Εν μέρει.",
+            questions_asked: "Ερωτήσεις που έγιναν",
+            each_click_records: "Κάθε κλικ καταγράφει μια ερώτηση.",
+            plus_one_question: "+1 Ερώτηση έγινε",
+            they_guessed_it: "Το βρήκαν!",
+            guessed_in: "Βρέθηκε σε",
+            questions: "ερωτήσεις",
+            new_identity: "Νέα ταυτότητα",
+            where_does_this_come_from: "Από πού προέρχεται αυτή η λέξη;",
+            exit: "Έξοδος",
+            next_concept: "Επόμενη έννοια",
+            complete: "Ολοκληρώθηκε!",
+            score: "Σκορ"
+        }
+    };
+
+    function gl(key, lang) {
+        const l = lang || getLangCode() || 'en';
+        const dict = G_LOCALES[l] || G_LOCALES['en'];
+        return dict[key] || G_LOCALES['en'][key] || key;
+    }
+
+    /* ══════════════════════════════════════
        GAME DATA HELPERS (Centralized in shared.js)
     ══════════════════════════════════════ */
     const loadLevelData = (lang, level) => window.gameUtils.loadLevelData(lang, level);
@@ -491,23 +853,23 @@
 
               body.innerHTML = `
                 <div class="score-bar">
-                  <div class="sb-item"><div class="sb-val" id="ff-score">${sessionScore}</div><div class="sb-lbl">Topics done</div></div>
-                  <div class="sb-item"><div class="sb-val">${durStr}</div><div class="sb-lbl">Per topic</div></div>
+                  <div class="sb-item"><div class="sb-val" id="ff-score">${sessionScore}</div><div class="sb-lbl">${gl('topics_done', lang)}</div></div>
+                  <div class="sb-item"><div class="sb-val">${durStr}</div><div class="sb-lbl">${gl('per_topic', lang)}</div></div>
                 </div>
                 <div class="game-card">
-                  <div class="game-label">🗣️ Your topic</div>
+                  <div class="game-label">🗣️ ${gl('your_topic', lang)}</div>
                   <div class="game-prompt" id="ff-topic">${esc(topic)}</div>
                   ${hints.length > 0 ? `
-                    <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin: .5rem 0 .5rem;">💡 Ideas for you:</div>
+                    <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin: .5rem 0 .5rem;">💡:</div>
                     <ul style="font-size:.85rem; text-align:left; margin:0 0 1rem 1rem; padding:0; line-height:1.4">
                         ${hints.map(h => `<li>${esc(h)}</li>`).join('')}
                     </ul>` : ''}
-                  <div class="game-sub">Speak about this topic for <strong>${durStr}</strong> without stopping. Don't worry about mistakes — keep talking!</div>
+                  <div class="game-sub">🗣️ ⏱️ <strong>${durStr}</strong></div>
                   ${renderTimerRing(dur, dur)}
                   <div class="game-controls">
-                    <button class="btn-g-primary" id="ff-btn" onclick="COSY_ENGINE.ffToggle(${dur})">▶ Start speaking</button>
-                    <button class="btn-g-secondary" onclick="COSY_ENGINE.startFluency()">New topic ↺</button>
-                    <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('fluency')">⬅ Setup</button>
+                    <button class="btn-g-primary" id="ff-btn" onclick="COSY_ENGINE.ffToggle(${dur})">▶ ${gl('start_speaking', lang)}</button>
+                    <button class="btn-g-secondary" onclick="COSY_ENGINE.startFluency()">${gl('new_topic', lang)} ↺</button>
+                    <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('fluency')">⬅ ${gl('setup', lang)}</button>
                   </div>
                 </div>`;
             }
@@ -515,7 +877,7 @@
             window.COSY_ENGINE.ffToggle = (total) => {
                 if (!running) {
                   running = true;
-                  document.getElementById('ff-btn').textContent = '⏸ Pause';
+                  document.getElementById('ff-btn').textContent = `⏸ ${gl('pause', lang)}`;
                   startTimer(total, (t) => updateTimerRing(t, total), () => {
                     running = false;
                     sessionScore++;
@@ -523,13 +885,13 @@
                     if (scoreEl) scoreEl.textContent = sessionScore;
                     const btn = document.getElementById('ff-btn');
                     if (btn) {
-                        btn.textContent = '✓ Done! Next topic →';
+                        btn.textContent = `✓ ${gl('done_next_topic', lang)} ➔`;
                         btn.onclick = () => { showTopic(); };
                     }
                   });
                 } else {
                   clearInterval(TIMER_INTERVAL); running = false;
-                  document.getElementById('ff-btn').textContent = '▶ Resume';
+                  document.getElementById('ff-btn').textContent = `▶ ${gl('resume', lang)}`;
                 }
             };
 
@@ -559,47 +921,48 @@
             body = document.getElementById('go-body');
             body.innerHTML = `
               <div class="game-card">
-                <div class="game-label">🏟️ Statement</div>
+                <div class="game-label">🏟️ ${gl('statement', lang)}</div>
                 <div class="game-prompt">"${esc(stmt)}"</div>
                 ${hints.length > 0 ? `
-                    <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin: .5rem 0 .5rem;">💡 Ideas for you:</div>
+                    <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin: .5rem 0 .5rem;">💡:</div>
                     <ul style="font-size:.85rem; text-align:left; margin:0 0 1rem 1rem; padding:0; line-height:1.4">
                         ${hints.map(h => `<li>${esc(h)}</li>`).join('')}
                     </ul>` : ''}
-                <div class="game-sub" style="margin-top:.6rem">Do you agree or disagree? Choose a side, then speak for 90 seconds defending your view.</div>
+                <div class="game-sub" style="margin-top:.6rem">⚖️ ⏱️ 90s</div>
               </div>
               <div class="setup-options" style="margin-bottom:1rem">
-                <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'stance');document.getElementById('op-start').disabled=false" data-val="agree">${window.t('oa_agree_btn', lang)}</div>
-                <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'stance');document.getElementById('op-start').disabled=false" data-val="disagree">${window.t('oa_disagree_btn', lang)}</div>
+                <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'stance');document.getElementById('op-start').disabled=false" data-val="agree">${gl('agree', lang)}</div>
+                <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'stance');document.getElementById('op-start').disabled=false" data-val="disagree">${gl('disagree', lang)}</div>
               </div>
               <div class="game-controls">
-                <button class="btn-g-primary" id="op-start" disabled onclick="COSY_ENGINE.opSpeak('${stmt.replace(/'/g,"\\'")}',${DUR})">▶ Start speaking</button>
-                <button class="btn-g-secondary" onclick="COSY_ENGINE.startOpinion()">New statement ↺</button>
-                <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('opinion')">⬅ Setup</button>
+                <button class="btn-g-primary" id="op-start" disabled onclick="COSY_ENGINE.opSpeak('${stmt.replace(/'/g,"\\'")}',${DUR})">▶ ${gl('start_speaking', lang)}</button>
+                <button class="btn-g-secondary" onclick="COSY_ENGINE.startOpinion()">${gl('statement', lang)} ↺</button>
+                <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('opinion')">⬅ ${gl('setup', lang)}</button>
               </div>`;
         },
 
         opSpeak(stmt, dur) {
+            const lang = getLangCode();
             const body = document.getElementById('go-body');
             body.innerHTML = `
               <div class="game-card">
-                <div class="game-label">🏟️ Speak now</div>
+                <div class="game-label">🏟️ 🗣️</div>
                 <div class="game-prompt" style="font-size:1rem;margin-bottom:.4rem">"${stmt}"</div>
-                <div class="game-sub">Keep speaking until the timer runs out. Stay in your target language!</div>
+                <div class="game-sub">🗣️ ⏱️ 90s</div>
                 ${renderTimerRing(dur, dur)}
                 <div class="game-controls">
-                  <button class="btn-g-secondary" onclick="COSY_ENGINE.startOpinion()">New statement ↺</button>
-                  <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('opinion')">⬅ Setup</button>
+                  <button class="btn-g-secondary" onclick="COSY_ENGINE.startOpinion()">${gl('statement', lang)} ↺</button>
+                  <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('opinion')">⬅ ${gl('setup', lang)}</button>
                 </div>
               </div>`;
             startTimer(dur, t => updateTimerRing(t, dur), () => {
               document.getElementById('go-body').insertAdjacentHTML('beforeend', `
                 <div class="game-card" style="text-align:center">
                   <div style="font-size:1.8rem;margin-bottom:.5rem">🏆</div>
-                  <div class="game-prompt" style="font-size:1.1rem">Time's up!</div>
-                  <div class="game-sub">Great job defending your position. Play again?</div>
+                  <div class="game-prompt" style="font-size:1.1rem">⏱️ 🏁</div>
+                  <div class="game-sub">${gl('excellent_analysis', lang)}</div>
                   <div class="game-controls" style="justify-content:center;margin-top:.75rem">
-                    <button class="btn-g-primary" onclick="COSY_ENGINE.startOpinion()">New statement ↺</button>
+                    <button class="btn-g-primary" onclick="COSY_ENGINE.startOpinion()">${gl('statement', lang)} ↺</button>
                   </div>
                 </div>`);
             });
@@ -631,21 +994,22 @@
 
             body.innerHTML = `
               <div class="game-card">
-                <div class="game-label">⚖️ Choose your side</div>
+                <div class="game-label">⚖️ ${gl('choose_side', lang)}</div>
                 <div class="game-prompt">${topic}</div>
                 <div class="setup-options" style="margin:1rem 0">
                   <div class="setup-opt sel" onclick="COSY_ENGINE.selectOpt(this,'side')" data-val="0"><span class="setup-opt-icon">🅰️</span>${sideA}</div>
                   <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'side')" data-val="1"><span class="setup-opt-icon">🅱️</span>${sideB}</div>
                 </div>
-                <div class="game-sub">Each side gets 2 minutes to argue their case. Then the group votes!</div>
+                <div class="game-sub">🗣️ ⏱️ 2m</div>
                 <div class="game-controls" style="margin-top:.5rem">
-                  <button class="btn-g-primary" onclick="COSY_ENGINE.battleSpeak(${JSON.stringify(debate).replace(/"/g, '&quot;')},${DUR})">▶ Start debate</button>
-                  <button class="btn-g-secondary" onclick="COSY_ENGINE.startBattle()">New topic ↺</button>
+                  <button class="btn-g-primary" onclick="COSY_ENGINE.battleSpeak(${JSON.stringify(debate).replace(/"/g, '&quot;')},${DUR})">▶ ${gl('start_debate', lang)}</button>
+                  <button class="btn-g-secondary" onclick="COSY_ENGINE.startBattle()">${gl('new_topic', lang)} ↺</button>
                 </div>
               </div>`;
         },
 
         battleSpeak(debate, dur) {
+            const lang = getLangCode();
             let battleRound = 0;
             const sides = [
                 { name: debate.sideA || debate[0], ideas: debate.ideasA || [] },
@@ -657,22 +1021,22 @@
               const body = document.getElementById('go-body');
               body.innerHTML = `
                 <div class="game-card">
-                  <div class="game-label">⚖️ Round ${battleRound+1} of 2</div>
-                  <div class="game-prompt">Arguing for: <em>${esc(currentSide.name)}</em></div>
+                  <div class="game-label">⚖️ ${gl('round', lang)} ${battleRound+1} ${gl('of', lang)} 2</div>
+                  <div class="game-prompt">${gl('arguing_for', lang)}: <em>${esc(currentSide.name)}</em></div>
 
                   ${currentSide.ideas.length > 0 ? `
                     <div style="background:var(--sage-light); padding:1rem; border-radius:var(--r-md); margin:1rem 0; border: 1px solid var(--border);">
-                        <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin-bottom:.5rem;">💡 Ideas for you:</div>
+                        <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin-bottom:.5rem;">💡:</div>
                         <ul style="font-size:.85rem; padding-left:1.2rem; color:var(--ink-muted); line-height:1.4;">
                             ${currentSide.ideas.map(i => `<li>${esc(i)}</li>`).join('')}
                         </ul>
                     </div>
                   ` : ''}
 
-                  <div class="game-sub">Speak for 2 minutes. Be convincing!</div>
+                  <div class="game-sub">🗣️ ⏱️ 2m</div>
                   ${renderTimerRing(dur, dur)}
                   <div class="game-controls">
-                    <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('battle')">⬅ Setup</button>
+                    <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('battle')">⬅ ${gl('setup', lang)}</button>
                   </div>
                 </div>`;
               startTimer(dur, t => updateTimerRing(t, dur), () => {
@@ -681,9 +1045,9 @@
                   body.innerHTML = `
                     <div class="game-card" style="text-align:center">
                       <div style="font-size:1.8rem;margin-bottom:.5rem">👏</div>
-                      <div class="game-prompt">Round ${battleRound} done!</div>
-                      <div class="game-sub">Now it's <strong>${sides[battleRound].name}</strong>'s turn.</div>
-                      <button class="btn-g-primary" style="margin:1rem auto 0;display:block" onclick="COSY_ENGINE._doRound()">▶ Start round ${battleRound+1}</button>
+                      <div class="game-prompt">✓ ${gl('done_round', lang)}</div>
+                      <div class="game-sub">👉 <strong>${sides[battleRound].name}</strong> ${gl('turn', lang)}</div>
+                      <button class="btn-g-primary" style="margin:1rem auto 0;display:block" onclick="COSY_ENGINE._doRound()">▶ ${gl('round', lang)} ${battleRound+1}</button>
                     </div>`;
                    // Export internal helper
                    window.COSY_ENGINE._doRound = doRound;
@@ -691,15 +1055,15 @@
                   body.innerHTML = `
                     <div class="round-end">
                       <div class="re-icon">🗳️</div>
-                      <div class="re-title">Both sides heard!</div>
-                      <div class="re-sub">Now vote — who argued most convincingly?</div>
+                      <div class="re-title">🗳️</div>
+                      <div class="re-sub">${gl('vote_winner', lang)}</div>
                       <div class="setup-options" style="margin-bottom:1.2rem">
                         <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'vote')"><span>🅰️</span>${sides[0].name}</div>
                         <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'vote')"><span>🅱️</span>${sides[1].name}</div>
                       </div>
                       <div class="re-actions">
-                        <button class="btn-g-primary" onclick="COSY_ENGINE.startBattle()">Play again ↺</button>
-                        <button class="btn-g-secondary" onclick="closeGame()">Back to games</button>
+                        <button class="btn-g-primary" onclick="COSY_ENGINE.startBattle()">${gl('play_again', lang)} ↺</button>
+                        <button class="btn-g-secondary" onclick="closeGame()">${gl('back_to_games', lang)}</button>
                       </div>
                     </div>`;
                 }
@@ -755,12 +1119,12 @@
 
             body.innerHTML = `
               <div class="game-card">
-                <div class="game-label">🎭 Famous quote ${category ? '· ' + category : ''}</div>
+                <div class="game-label">🎭 ${gl('famous_quote', lang)} ${category ? '· ' + category : ''}</div>
                 <div class="game-prompt" style="font-style:italic;font-size:1.1rem">"${qText}"</div>
                 ${author ? `<div style="text-align:right; font-weight:700; margin-top:.5rem; color:var(--ink-muted)">— ${author}${origin ? `, <span style="font-weight:400; font-style:italic">${origin}</span>` : ''}</div>` : ''}
 
                 <div style="background:var(--sage-light); border-radius:12px; padding:14px; margin-top:1.25rem; border:1px solid rgba(107,143,113,.2); text-align:left;">
-                    <div style="font-size:.65rem; text-transform:uppercase; font-weight:900; color:var(--sage-dark); margin-bottom:.4rem; letter-spacing:.05em;">${t('cc_task_label')}</div>
+                    <div style="font-size:.65rem; text-transform:uppercase; font-weight:900; color:var(--sage-dark); margin-bottom:.4rem; letter-spacing:.05em;">📝</div>
                     <div style="font-size:.9rem; line-height:1.5; color:var(--ink); font-weight:700;">${task}</div>
                 </div>
 
@@ -771,23 +1135,24 @@
                 </div>
 
                 <div class="game-controls" style="margin-top:1.5rem">
-                  <button class="btn-g-primary" id="cc-btn" onclick="COSY_ENGINE.ccStart(${DUR})">▶ Start speaking</button>
-                  <button class="btn-g-secondary" onclick="COSY_ENGINE.startCritic()">New quote ↺</button>
-                  <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('critic')">⬅ Setup</button>
+                  <button class="btn-g-primary" id="cc-btn" onclick="COSY_ENGINE.ccStart(${DUR})">▶ ${gl('start_speaking', lang)}</button>
+                  <button class="btn-g-secondary" onclick="COSY_ENGINE.startCritic()">${gl('new_quote', lang)} ↺</button>
+                  <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('critic')">⬅ ${gl('setup', lang)}</button>
                 </div>
               </div>`;
         },
 
         ccStart(dur) {
+            const lang = getLangCode();
             const btn = document.getElementById('cc-btn');
             if (btn) btn.style.display = 'none';
             startTimer(dur, t => updateTimerRing(t, dur), () => {
               document.getElementById('go-body').insertAdjacentHTML('beforeend',`
                 <div class="game-card" style="text-align:center">
                   <div style="font-size:1.8rem;margin-bottom:.5rem">🎓</div>
-                  <div class="game-prompt" style="font-size:1.1rem">Excellent analysis!</div>
+                  <div class="game-prompt" style="font-size:1.1rem">${gl('excellent_analysis', lang)}</div>
                   <div class="re-actions" style="margin-top:.75rem">
-                    <button class="btn-g-primary" onclick="COSY_ENGINE.startCritic()">New quote ↺</button>
+                    <button class="btn-g-primary" onclick="COSY_ENGINE.startCritic()">${gl('new_quote', lang)} ↺</button>
                   </div>
                 </div>`);
             });
@@ -806,8 +1171,14 @@
             await loadLevelData(lang, level);
 
             const data = getGameData(lang, level);
-            const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
-            const verbs = (window.verbsData && window.verbsData[lang]) || [];
+            let vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            let verbs = (window.verbsData && window.verbsData[lang]) || [];
+            if (vocab.length === 0 && lang !== 'en') {
+                vocab = (window.vocabularyData && window.vocabularyData['en']) || [];
+            }
+            if (verbs.length === 0 && lang !== 'en') {
+                verbs = (window.verbsData && window.verbsData['en']) || [];
+            }
 
             // Combine and strictly filter by level
             const combined = [...vocab, ...verbs].filter(v => window.getLevelCode(v.level) === level);
@@ -842,16 +1213,16 @@
               body = document.getElementById('go-body');
               body.innerHTML = `
                 <div class="game-card" style="text-align:center">
-                  <div class="game-label">🎭 Hold to forehead · ${DUR}s</div>
+                  <div class="game-label">🎭 ${gl('hold_forehead', lang)} · ${DUR}s</div>
                   <div class="game-prompt" style="font-size:2.5rem;letter-spacing:.05em">${words[idx]}</div>
-                  <div class="game-sub">Others describe this word — you guess!</div>
+                  <div class="game-sub">${gl('others_describe', lang)}</div>
                   ${renderTimerRing(DUR, DUR)}
                   <div class="game-controls" style="justify-content:center;gap:1rem">
-                    <button class="btn-g-primary" style="background:var(--green)" onclick="COSY_ENGINE.ahResult(true)">✓ Got it!</button>
-                    <button class="btn-g-secondary" onclick="COSY_ENGINE.ahResult(false)">Skip →</button>
+                    <button class="btn-g-primary" style="background:var(--green)" onclick="COSY_ENGINE.ahResult(true)">✓ ${gl('got_it', lang)}</button>
+                    <button class="btn-g-secondary" onclick="COSY_ENGINE.ahResult(false)">${gl('skip', lang)} ➔</button>
                   </div>
                 </div>
-                <div style="text-align:center;font-size:.8rem;color:var(--ink-faint);margin-top:.5rem">✓ ${correct} correct · ↷ ${skipped} skipped</div>`;
+                <div style="text-align:center;font-size:.8rem;color:var(--ink-faint);margin-top:.5rem">✓ ${correct} · ↷ ${skipped}</div>`;
 
               startTimer(DUR, t => updateTimerRing(t, DUR), showActionEnd);
             }
@@ -861,15 +1232,15 @@
               document.getElementById('go-body').innerHTML = `
                 <div class="round-end">
                   <div class="re-icon">🏆</div>
-                  <div class="re-title">Round over!</div>
-                  <div class="re-sub">Time's up — here's how you did:</div>
+                  <div class="re-title">${gl('round_over', lang)}</div>
+                  <div class="re-sub">${gl('times_up_results', lang)}</div>
                   <div class="re-stats">
-                    <div class="sb-item"><div class="re-stat-val" style="color:var(--green)">${correct}</div><div class="re-stat-lbl">✓ Correct</div></div>
-                    <div class="sb-item"><div class="re-stat-val" style="color:var(--ink-muted)">${skipped}</div><div class="re-stat-lbl">↷ Skipped</div></div>
+                    <div class="sb-item"><div class="re-stat-val" style="color:var(--green)">${correct}</div><div class="re-stat-lbl">✓ ${gl('correct', lang)}</div></div>
+                    <div class="sb-item"><div class="re-stat-val" style="color:var(--ink-muted)">${skipped}</div><div class="re-stat-lbl">↷ ${gl('skipped', lang)}</div></div>
                   </div>
                   <div class="re-actions">
-                    <button class="btn-g-primary" onclick="COSY_ENGINE.startAction()">Play again ↺</button>
-                    <button class="btn-g-secondary" onclick="closeGame()">Back to games</button>
+                    <button class="btn-g-primary" onclick="COSY_ENGINE.startAction()">${gl('play_again', lang)} ↺</button>
+                    <button class="btn-g-secondary" onclick="closeGame()">${gl('back_to_games', lang)}</button>
                   </div>
                 </div>`;
             }
@@ -896,8 +1267,11 @@
             const data = getGameData(lang, level);
 
             // Enrichment from vocabularyData based on category - STRICTLY filtered by level
-            const vocab = ((window.vocabularyData && window.vocabularyData[lang]) || [])
-                .filter(v => window.getLevelCode(v.level) === level);
+            let vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            if (vocab.length === 0 && lang !== 'en') {
+                vocab = (window.vocabularyData && window.vocabularyData['en']) || [];
+            }
+            vocab = vocab.filter(v => window.getLevelCode(v.level) === level);
 
             let pool = (data.identity || []).filter(item => !item.level || window.getLevelCode(item.level) === level);
 
@@ -940,18 +1314,18 @@
 
             body.innerHTML = `
               <div class="game-card">
-                <div class="game-label">👤 Host only — keep this secret!</div>
+                <div class="game-label">👤 ${gl('host_only_secret', lang)}</div>
                 <div class="game-prompt">${identity.person}</div>
-                <div class="game-sub">Clue for you: "${identity.clue}"<br><br>Others ask yes/no questions. You can only answer: <strong>Yes / No / Maybe / Partly</strong>.</div>
+                <div class="game-sub">${gl('clue_for_you', lang)}: "${identity.clue}"<br><br>${gl('identity_instructions', lang)}</div>
               </div>
               <div class="game-card">
-                <div class="game-label">💬 Questions asked</div>
+                <div class="game-label">💬 ${gl('questions_asked', lang)}</div>
                 <div style="font-family:'Fraunces',serif;font-size:2rem;font-weight:600;color:var(--teal);margin-bottom:.3rem" id="im-qcount">0 / ${maxQ}</div>
-                <div style="font-size:.82rem;color:var(--ink-muted);margin-bottom:1rem">Each click records a question.</div>
+                <div style="font-size:.82rem;color:var(--ink-muted);margin-bottom:1rem">${gl('each_click_records', lang)}</div>
                 <div class="game-controls">
-                  <button class="btn-g-primary" onclick="COSY_ENGINE.imQuestion(${maxQ}, '${identity.person.replace(/'/g,"\\'")}')">+1 Question asked</button>
-                  <button class="btn-g-secondary" onclick="COSY_ENGINE.imReveal('${identity.person.replace(/'/g,"\\'")}')">🎉 They guessed it!</button>
-                  <button class="btn-g-danger" onclick="COSY_ENGINE.startIdentity()">New identity ↺</button>
+                  <button class="btn-g-primary" onclick="COSY_ENGINE.imQuestion(${maxQ}, '${identity.person.replace(/'/g,"\\'")}')">+1 💬</button>
+                  <button class="btn-g-secondary" onclick="COSY_ENGINE.imReveal('${identity.person.replace(/'/g,"\\'")}')">🎉 ${gl('they_guessed_it', lang)}</button>
+                  <button class="btn-g-danger" onclick="COSY_ENGINE.startIdentity()">${gl('new_identity', lang)} ↺</button>
                 </div>
               </div>`;
 
@@ -966,10 +1340,10 @@
                 <div class="round-end">
                   <div class="re-icon">🎉</div>
                   <div class="re-title">${person}</div>
-                  <div class="re-sub">Guessed in ${questions} question${questions !== 1 ? 's' : ''}!</div>
+                  <div class="re-sub">🎉 ${gl('guessed_in', lang)} ${questions} ${gl('questions', lang)}!</div>
                   <div class="re-actions">
-                    <button class="btn-g-primary" onclick="COSY_ENGINE.startIdentity()">New identity ↺</button>
-                    <button class="btn-g-secondary" onclick="closeGame()">Back to games</button>
+                    <button class="btn-g-primary" onclick="COSY_ENGINE.startIdentity()">${gl('new_identity', lang)} ↺</button>
+                    <button class="btn-g-secondary" onclick="closeGame()">${gl('back_to_games', lang)}</button>
                   </div>
                 </div>`;
             };
@@ -1074,20 +1448,20 @@
 
             body.innerHTML = `
               <div class="score-bar">
-                <div class="sb-item"><div class="sb-val" id="ll-score">0</div><div class="sb-lbl">Chain length</div></div>
-                <div class="sb-item"><div class="sb-val" id="ll-next-letter">—</div><div class="sb-lbl">Must start with</div></div>
+                <div class="sb-item"><div class="sb-val" id="ll-score">0</div><div class="sb-lbl">🔗</div></div>
+                <div class="sb-item"><div class="sb-val" id="ll-next-letter">—</div><div class="sb-lbl">🔤</div></div>
               </div>
               <div class="game-card">
-                <div class="game-label">🔤 Word chain</div>
-                <div class="chain-display" id="ll-chain">Type the first word to start the chain…</div>
+                <div class="game-label">🔤</div>
+                <div class="chain-display" id="ll-chain">🏁 ➔ ✍️ ...</div>
                 <div class="input-row">
-                  <input class="game-input" id="ll-input" placeholder="Type a word…" autocomplete="off" autocorrect="off" spellcheck="false">
-                  <button class="btn-g-primary" onclick="COSY_ENGINE.llSubmit()">Add →</button>
+                  <input class="game-input" id="ll-input" placeholder="✍️ ..." autocomplete="off" autocorrect="off" spellcheck="false">
+                  <button class="btn-g-primary" onclick="COSY_ENGINE.llSubmit()">➔</button>
                 </div>
                 <div class="feedback-bar" id="ll-fb"></div>
                 <div class="game-controls">
-                  <button class="btn-g-secondary" onclick="COSY_ENGINE.startLastLetter()">Restart ↺</button>
-                  <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('lastletter')">⬅ Setup</button>
+                  <button class="btn-g-secondary" onclick="COSY_ENGINE.startLastLetter()">↺</button>
+                  <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('lastletter')">⚙️</button>
                 </div>
               </div>`;
 
@@ -1102,18 +1476,18 @@
                 input.value = '';
 
                 if (!word || word.length < 2) {
-                  showFB(fb, 'bad', 'Please enter a word with at least 2 letters.');
+                  showFB(fb, 'bad', '⚠️ < 2 🔤');
                   return;
                 }
                 if (LL_USED.has(word)) {
-                  showFB(fb, 'bad', `"${word}" was already used! Try another.`);
+                  showFB(fb, 'bad', `⚠️ 🔁 "${word}"`);
                   input.classList.add('bad'); setTimeout(() => input.classList.remove('bad'), 600);
                   return;
                 }
                 if (llChain.length > 0) {
                   const lastChar = llChain[llChain.length - 1].slice(-1).toLowerCase();
                   if (word[0] !== lastChar) {
-                    showFB(fb, 'bad', `"${word}" doesn't start with <strong>${lastChar.toUpperCase()}</strong>. Try again!`);
+                    showFB(fb, 'bad', `⚠️ ❌ 🔤 [${lastChar.toUpperCase()}]`);
                     input.classList.add('bad'); setTimeout(() => input.classList.remove('bad'), 600);
                     return;
                   }
@@ -1130,7 +1504,7 @@
                 ).join(' → ');
 
                 input.classList.add('ok'); setTimeout(() => input.classList.remove('ok'), 400);
-                showFB(fb, 'ok', `✓ "${word}" accepted! Next word must start with <strong>${word.slice(-1).toUpperCase()}</strong>.`);
+                showFB(fb, 'ok', `✓ "${word}" ➔ 🔤 [${word.slice(-1).toUpperCase()}]`);
                 input.focus();
             };
         },
@@ -1145,8 +1519,11 @@
             await loadLevelData(lang, level);
             const data = getGameData(lang, level);
             let story = [], pool = data.storychain || [];
-            const vocab = ((window.vocabularyData && window.vocabularyData[lang]) || [])
-                .filter(v => window.getLevelCode(v.level) === level);
+            let vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            if (vocab.length === 0 && lang !== 'en') {
+                vocab = (window.vocabularyData && window.vocabularyData['en']) || [];
+            }
+            vocab = vocab.filter(v => window.getLevelCode(v.level) === level);
             if (pool.length === 0 && vocab.length > 5) pool = vocab.map(v => v.word);
             if (pool.length === 0) {
                 const shortLvl = window.getLevelCode(level, 'short');
@@ -1165,22 +1542,22 @@
             const renderStory = (reveal = false) => {
                 body.innerHTML = `
                     <div class="game-card">
-                        <div class="game-label">🤫 Host only — keep secret!</div>
+                        <div class="game-label">🤫 👤</div>
                         <div class="game-prompt" id="sc-word">${currentWord}</div>
-                        <div class="game-sub">Use this word in a sentence. Don't say it! Others must guess.</div>
+                        <div class="game-sub">🤫 💬 ➔ 🧩</div>
                     </div>
                     <div class="game-card">
-                        <div class="game-label">📖 The Story So Far</div>
+                        <div class="game-label">📖 ➔ ...</div>
                         <div class="chain-display" style="font-size:.9rem; line-height:1.5; min-height:100px;">
-                            ${story.length ? story.map(s => `<div style="margin-bottom:8px; border-bottom:1px solid var(--border); padding-bottom:4px;">${esc(s.sentence)} ${reveal ? `(<strong style="color:var(--gold)">${esc(s.word)}</strong>)` : ''}</div>`).join('') : 'No sentences yet…'}
+                            ${story.length ? story.map(s => `<div style="margin-bottom:8px; border-bottom:1px solid var(--border); padding-bottom:4px;">${esc(s.sentence)} ${reveal ? `(<strong style="color:var(--gold)">${esc(s.word)}</strong>)` : ''}</div>`).join('') : '... 💬'}
                         </div>
                         <div class="input-row">
-                            <input class="game-input" id="sc-input" placeholder="Type your sentence…" autocomplete="off" onkeydown="if(event.key==='Enter') COSY_ENGINE.scAdd()">
-                            <button class="btn-g-primary" onclick="COSY_ENGINE.scAdd()">Add sentence</button>
+                            <input class="game-input" id="sc-input" placeholder="✍️ ..." autocomplete="off" onkeydown="if(event.key==='Enter') COSY_ENGINE.scAdd()">
+                            <button class="btn-g-primary" onclick="COSY_ENGINE.scAdd()">➔</button>
                         </div>
                         <div class="game-controls" style="margin-top:1rem">
-                            <button class="btn-g-secondary" onclick="COSY_ENGINE.scReveal()">Reveal words</button>
-                            <button class="btn-g-danger" onclick="COSY_ENGINE.startStoryChain()">New story ↺</button>
+                            <button class="btn-g-secondary" onclick="COSY_ENGINE.scReveal()">👁️ 🧩</button>
+                            <button class="btn-g-danger" onclick="COSY_ENGINE.startStoryChain()">↺</button>
                         </div>
                     </div>`;
             };
@@ -1210,8 +1587,11 @@
             body = document.getElementById('go-body');
             let score = 0, timeLeft = 60, active = true;
 
-            const vocab = ((window.vocabularyData && window.vocabularyData[lang]) || [])
-                .filter(v => window.getLevelCode(v.level) === level);
+            let vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            if (vocab.length === 0 && lang !== 'en') {
+                vocab = (window.vocabularyData && window.vocabularyData['en']) || [];
+            }
+            vocab = vocab.filter(v => window.getLevelCode(v.level) === level);
             if (vocab.length < 5) {
                 renderNoContent('hotseat', lang, level);
                 return;
@@ -1225,13 +1605,13 @@
 
                 let prompt = '', answer = '';
                 if (type === 'plural') {
-                    prompt = `<strong>${item.word}</strong> ➔ 👥 ???`;
+                    prompt = `<strong>${item.word}</strong> + 👥 = ???`;
                     answer = item.plural || (item.word + 's');
                 } else if (type === 'definition') {
                     prompt = `<strong>${item.word}</strong> = 📖 ???`;
                     answer = item.definitions?.[0]?.text || '...';
                 } else {
-                    prompt = `🧩 <strong>${item.word}</strong> ➔ ✍️ ???`;
+                    prompt = `<strong>${item.word}</strong> ➔ ✍️ ???`;
                     answer = item.definitions?.[0]?.examples?.[0]?.text || item.definitions?.[0]?.examples?.[0] || '...';
                 }
 
@@ -1286,8 +1666,11 @@
             const data = getGameData(lang, level);
             body = document.getElementById('go-body');
 
-            const vocab = ((window.vocabularyData && window.vocabularyData[lang]) || [])
-                .filter(v => window.getLevelCode(v.level) === level);
+            let vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            if (vocab.length === 0 && lang !== 'en') {
+                vocab = (window.vocabularyData && window.vocabularyData['en']) || [];
+            }
+            vocab = vocab.filter(v => window.getLevelCode(v.level) === level);
 
             const personKeywords = ['profession', 'job', 'people', 'person', 'nationality', 'famous'];
             let objects = vocab.filter(v => v.theme && !personKeywords.some(k => v.theme.toLowerCase().includes(k)));
@@ -1337,8 +1720,11 @@
             if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
 
             await loadLevelData(lang, level);
-            const vocab = ((window.vocabularyData && window.vocabularyData[lang]) || [])
-                .filter(v => window.getLevelCode(v.level) === level);
+            let vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            if (vocab.length === 0 && lang !== 'en') {
+                vocab = (window.vocabularyData && window.vocabularyData['en']) || [];
+            }
+            vocab = vocab.filter(v => window.getLevelCode(v.level) === level);
 
             if (mode === 'guess') {
                 const pool = vocab.filter(v => v.emoji).slice(0, 20);
@@ -1561,26 +1947,26 @@
                     body.innerHTML = `
                         <div class="round-end">
                             <div class="re-icon">🏆</div>
-                            <div class="re-title">Game Over!</div>
-                            <div class="re-sub">You scored <strong>${score}</strong>.</div>
-                            <button class="btn-g-primary" onclick="COSY_ENGINE.startEtymology()">Play again ↺</button>
+                            <div class="re-title">${gl('round_over', lang)}</div>
+                            <div class="re-sub">${gl('score', lang)}: <strong>${score}</strong></div>
+                            <button class="btn-g-primary" onclick="COSY_ENGINE.startEtymology()">${gl('play_again', lang)} ↺</button>
                         </div>`;
                     return;
                 }
                 const item = words[idx];
                 body.innerHTML = `
-                    <div class="score-bar"><div class="sb-item"><div class="sb-val">${score}</div><div class="sb-lbl">Score</div></div></div>
+                    <div class="score-bar"><div class="sb-item"><div class="sb-val">${score}</div><div class="sb-lbl">${gl('score', lang)}</div></div></div>
                     <div class="game-card">
-                        <div class="game-label">📜 Origin of...</div>
+                        <div class="game-label">📜</div>
                         <div class="game-prompt" style="font-size:2.5rem">${item.word}</div>
-                        <div class="game-sub">Where does this word come from?</div>
+                        <div class="game-sub">${gl('where_does_this_come_from', lang)}</div>
                         <div class="word-options" style="margin-top:1.5rem">
                             ${item.options.map(o => `<button class="word-opt" onclick="COSY_ENGINE.etCheck(this,'${o}','${item.answer}','${item.path.replace(/'/g,"\\'")}')">${o}</button>`).join('')}
                         </div>
                         <div class="feedback-bar" id="et-fb"></div>
                         <div class="game-controls">
-                            <button class="btn-g-primary" id="et-next" style="display:none" onclick="COSY_ENGINE._nextEt()">Next →</button>
-                            <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('etymology')">⬅ Setup</button>
+                            <button class="btn-g-primary" id="et-next" style="display:none" onclick="COSY_ENGINE._nextEt()">➔</button>
+                            <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('etymology')">⚙️</button>
                         </div>
                     </div>`;
                 window.COSY_ENGINE._nextEt = () => { idx++; showEtym(); };
@@ -1699,22 +2085,22 @@
                     </div>
 
                     <div class="gender-options" style="display:flex; gap:10px; justify-content:center; margin:1rem 0;">
-                        <button class="btn-gender masculine-btn" data-gender="masculine" style="padding:10px 20px; font-weight:700; border-radius:20px; cursor:pointer; border:2px solid var(--border); background:white;">Masculine ♂️</button>
-                        <button class="btn-gender feminine-btn" data-gender="feminine" style="padding:10px 20px; font-weight:700; border-radius:20px; cursor:pointer; border:2px solid var(--border); background:white;">Feminine ♀️</button>
-                        ${hasNeuter ? `<button class="btn-gender neuter-btn" data-gender="neuter" style="padding:10px 20px; font-weight:700; border-radius:20px; cursor:pointer; border:2px solid var(--border); background:white;">Neuter ⚧️</button>` : ''}
+                        <button class="btn-gender masculine-btn" data-gender="masculine" style="padding:10px 20px; font-weight:700; border-radius:20px; cursor:pointer; border:2px solid var(--border); background:white;">♂️</button>
+                        <button class="btn-gender feminine-btn" data-gender="feminine" style="padding:10px 20px; font-weight:700; border-radius:20px; cursor:pointer; border:2px solid var(--border); background:white;">♀️</button>
+                        ${hasNeuter ? `<button class="btn-gender neuter-btn" data-gender="neuter" style="padding:10px 20px; font-weight:700; border-radius:20px; cursor:pointer; border:2px solid var(--border); background:white;">⚧️</button>` : ''}
                     </div>
 
                     <div class="feedback-bar" id="gender-fb"></div>
 
                     <!-- Explanations & Reveals (initially hidden) -->
                     <div id="reveal-area" style="display:none; text-align:left;">
-                        <div style="font-size: 1.1rem; font-weight: 700; color: var(--ink-muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em;">Concept: ${conceptObj.concept}</div>
+                        <div style="font-size: 1.1rem; font-weight: 700; color: var(--ink-muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em;">🧩: ${conceptObj.concept}</div>
                         <div class="why-container" style="background:#f7fafc; border-left:4px solid var(--teal); padding:10px; border-radius:4px; margin-top:1rem;">
-                            <div class="why-title" style="font-size:.75rem; font-weight:800; text-transform:uppercase; color:var(--teal); margin-bottom:4px; letter-spacing:.05em;">💡 Why? (Historical & Linguistic Context)</div>
+                            <div class="why-title" style="font-size:.75rem; font-weight:800; text-transform:uppercase; color:var(--teal); margin-bottom:4px; letter-spacing:.05em;">💡</div>
                             <div class="why-text" style="font-size:.85rem; line-height:1.4; color:var(--ink);">${conceptObj.explanation}</div>
                         </div>
 
-                        <div style="font-size: .75rem; font-weight: 800; text-transform: uppercase; color: var(--ink-muted); margin-top: 1rem; text-align: left; letter-spacing: 0.05em;">Genders in other languages:</div>
+                        <div style="font-size: .75rem; font-weight: 800; text-transform: uppercase; color: var(--ink-muted); margin-top: 1rem; text-align: left; letter-spacing: 0.05em;">🌐:</div>
                         <div class="gender-grid-reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px; margin-top: 8px; border-top: 1px dashed var(--border); padding-top: 8px;">
                             ${Object.entries(conceptObj.translations).map(([lang, info]) => {
                                 const lObj = GENDER_LANGUAGES.find(l => l.code === lang);
@@ -1825,24 +2211,23 @@
             };
 
             const showEnd = () => {
-                let rankTitle = "Gender Novice 🌱";
+                let rankTitle = "🌱";
                 if (sessionScore >= 90) {
-                    rankTitle = "Linguistic Scholar 🧠🎓";
+                    rankTitle = "🧠🎓";
                 } else if (sessionScore >= 70) {
-                    rankTitle = "Grammar Champion 🏆";
+                    rankTitle = "🏆";
                 } else if (sessionScore >= 40) {
-                    rankTitle = "Gender Adept ⚖️";
+                    rankTitle = "⚖️";
                 }
 
                 body.innerHTML = `
                     <div class="setup-screen" style="text-align:center;">
-                      <h2>Gender Study Complete! 🎓</h2>
+                      <h2>🎓 ${gl('complete', lang)}</h2>
                       <div class="final-score" style="font-size: 2.5rem; font-weight: 800; color: var(--teal); margin: 0.5rem 0;">${sessionScore} / ${maxRounds * 10}</div>
-                      <div style="font-size: 1.1rem; font-weight: 700; color: var(--coral); margin-bottom: 1.5rem;">Rank: ${rankTitle}</div>
-                      <p style="font-size:.85rem; line-height:1.4; color:var(--ink-muted); max-width:400px; margin:0 auto 1.5rem;">Fascinating, isn't it? Knowing grammatical gender helps with agreements and reveals deep historical links across languages.</p>
+                      <div style="font-size: 2.2rem; font-weight: 700; color: var(--coral); margin-bottom: 1.5rem;">${rankTitle}</div>
                       <div style="display:flex; gap:10px; justify-content:center;">
-                        <button class="btn-g-primary" onclick="COSY_ENGINE.startGender()">Play Again ↺</button>
-                        <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('gender')">Setup ⬅</button>
+                        <button class="btn-g-primary" onclick="COSY_ENGINE.startGender()">${gl('play_again', lang)} ↺</button>
+                        <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('gender')">⚙️</button>
                       </div>
                     </div>`;
             };
