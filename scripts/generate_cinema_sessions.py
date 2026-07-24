@@ -1270,6 +1270,81 @@ FALLBACK_SLANGS = [
     "Mise-en-scène", "Subtext", "Monologue", "Tone marker", "Genre convention"
 ]
 
+# Localized labels for Theme Snapshot block
+LOCALIZED_LABELS = {
+    "en": {
+        "theme_snapshot": "Theme Snapshot",
+        "discuss": "In this session, we will discuss:",
+        "protagonist": "Protagonist",
+        "key_figures": "Supporting Figures",
+        "setting": "Setting",
+        "conflict": "Core Conflict",
+        "grammar": "Grammar Focus",
+        "watch_trailer": "Watch Official Trailer 🎥"
+    },
+    "fr": {
+        "theme_snapshot": "Aperçu du Thème",
+        "discuss": "Dans cette session, nous aborderons :",
+        "protagonist": "Protagoniste",
+        "key_figures": "Personnages secondaires",
+        "setting": "Cadre de l'histoire",
+        "conflict": "Conflit principal",
+        "grammar": "Focus Grammatical",
+        "watch_trailer": "Regarder la bande-annonce officielle 🎥"
+    },
+    "ru": {
+        "theme_snapshot": "Обзор темы",
+        "discuss": "На этой сессии мы обсудим:",
+        "protagonist": "Главный герой",
+        "key_figures": "Второстепенные персонажи",
+        "setting": "Место действия",
+        "conflict": "Главный конфликт",
+        "grammar": "Грамматический фокус",
+        "watch_trailer": "Смотреть официальный трейлер 🎥"
+    },
+    "es": {
+        "theme_snapshot": "Resumen del Tema",
+        "discuss": "En esta sesión, discutiremos:",
+        "protagonist": "Protagonista",
+        "key_figures": "Personajes secundarios",
+        "setting": "Escenario",
+        "conflict": "Conflicto principal",
+        "grammar": "Enfoque Gramatical",
+        "watch_trailer": "Ver Tráiler Oficial 🎥"
+    }
+}
+
+# Curated high-impact trailer links for centralized YouTube player conversion
+TRAILER_LINKS = {
+    "The Devil Wears Prada": "https://www.youtube.com/watch?v=6ZOZw3ofJHg",
+    "Fleabag": "https://www.youtube.com/watch?v=I5Uv6cb9YvA",
+    "Ratatouille": "https://www.youtube.com/watch?v=NgsQ8mPk7XE",
+    "Serebryanye Konki (Silver Skates)": "https://www.youtube.com/watch?v=l_N4K36yCgo",
+    "La Valla (The Barrier)": "https://www.youtube.com/watch?v=Vl8b3Z-Rj9A",
+    "Breakfast at Tiffany's": "https://www.youtube.com/watch?v=urHVUXZ6b98",
+    "Crazy Ex-Girlfriend": "https://www.youtube.com/watch?v=H7S86X8rV7g",
+    "The Others": "https://www.youtube.com/watch?v=0bMEGtUxajY",
+    "Don't Worry Darling": "https://www.youtube.com/watch?v=Co0tW9gSgQM",
+    "How I Live Now": "https://www.youtube.com/watch?v=R9XvILe93_M",
+    "A Quiet Place": "https://www.youtube.com/watch?v=WR7cc5t7tvA",
+    "Bohemian Rhapsody": "https://www.youtube.com/watch?v=mP0VHJYFO0Y",
+    "The Queen's Gambit": "https://www.youtube.com/watch?v=oDx7K0fB8M0",
+    "Mrs. Harris Goes to Paris": "https://www.youtube.com/watch?v=iO9JQP_pBy8",
+    "About Time": "https://www.youtube.com/watch?v=T7A810duHvw",
+    "Free Guy": "https://www.youtube.com/watch?v=X2m-08cOAbc",
+    "Now You See Me": "https://www.youtube.com/watch?v=KzJNYYkkhzc",
+    "The Hunger Games": "https://www.youtube.com/watch?v=PbA63a7H0bo",
+    "Gone Girl": "https://www.youtube.com/watch?v=2-_-1nJf8Vg",
+    "Midsommar": "https://www.youtube.com/watch?v=1VnghdsjZ-s",
+    "V for Vendetta": "https://www.youtube.com/watch?v=lSA7mAHolAw",
+    "The Pianist": "https://www.youtube.com/watch?v=u_jE7-6Uv74",
+    "Kinky Boots": "https://www.youtube.com/watch?v=2G9WdtP9p3E",
+    "Heathers: The Musical": "https://www.youtube.com/watch?v=gTsh5z1mH2o",
+    "Mamma Mia": "https://www.youtube.com/watch?v=8R71_O66Eis",
+    "Lost": "https://www.youtube.com/watch?v=K7A2O-D9At8",
+    "Lucy": "https://www.youtube.com/watch?v=MVt32qoyhi0"
+}
+
 # Parse all 91 films from the markdown file
 with open(MD_PATH, "r", encoding="utf-8") as f:
     text = f.read()
@@ -1322,6 +1397,8 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
   </div>
 
   {sensitive_html}
+
+  {theme_box_html}
 
   <section id="vocabulary">
     <h2 class="section-title">🎬 Session Vocabulary</h2>
@@ -1504,6 +1581,26 @@ for idx, r in enumerate(rows):
     </div>
   </div>"""
 
+    # Theme Snapshot block generation
+    loc = LOCALIZED_LABELS.get(lang, LOCALIZED_LABELS["en"])
+    trailer_url = TRAILER_LINKS.get(title, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+trailer")
+    theme_box_html = f"""  <!-- THEME SNAPSHOT BLOCK -->
+  <div class="theme-box">
+    <h3>🎬 {loc["theme_snapshot"]}: {title}</h3>
+    <p>{loc["discuss"]}</p>
+    <ul>
+      <li><strong>{loc["protagonist"]}:</strong> {details["protagonist"]}</li>
+      <li><strong>{loc["setting"]}:</strong> {details["setting"]}</li>
+      <li><strong>{loc["conflict"]}:</strong> {details["conflict"]}</li>
+      <li><strong>{loc["grammar"]}:</strong> {grammar_focus}</li>
+    </ul>
+    <div class="theme-video-link" style="margin-top: 1rem;">
+      <a href="{trailer_url}" target="_blank" class="btn-trailer">
+        <span>🎬</span> {loc["watch_trailer"]}
+      </a>
+    </div>
+  </div>"""
+
     # Resolve level-calibrated templates for Round 1 & Round 2
     r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_theme_personal, r2_cinematic, r2_cinematic_personal = get_calibrated_templates(level_short, idx)
 
@@ -1626,6 +1723,7 @@ for idx, r in enumerate(rows):
             vocab_generic_html=vocab_generic_html,
             vocab_authentic_html=vocab_authentic_html,
             sensitive_html=sensitive_html,
+            theme_box_html=theme_box_html,
             round1_html=round1_html,
             round2_html=round2_html,
             mistakes_html=mistakes_html

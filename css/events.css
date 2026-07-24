@@ -284,6 +284,64 @@ vim-choice { margin-bottom: 1.5rem; }
   50% { transform: scale(1.1); opacity: 1; }
 }
 
+/* ── Theme Snapshot Box (Cinema Club / Karaoke Club) ── */
+.theme-box {
+  background: var(--cream);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px dashed var(--border);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.theme-box:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+.theme-box h3 {
+  margin-top: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  color: var(--indigo);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.theme-box p {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.theme-box ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+.theme-box li {
+  margin-bottom: 0.4rem;
+}
+.theme-box li:last-child {
+  margin-bottom: 0;
+}
+.theme-box .btn-trailer {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--teal) !important;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.theme-box .btn-trailer:hover {
+  color: var(--indigo) !important;
+  transform: translateX(3px);
+}
+
 /* ── Print/PDF Styles ── */
 @media print {
   /* Hide interactive elements and navigation/footer */
@@ -603,4 +661,110 @@ vim-choice { margin-bottom: 1.5rem; }
   .dir-links-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* ─── Premium Cinema Hub Ticket Grid ─── */
+.cinema-history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.cinema-ticket-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cinema-ticket-card::before,
+.cinema-ticket-card::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  background: var(--cream, #FAF7F2);
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  z-index: 10;
+}
+
+.cinema-ticket-card::before {
+  left: -7px;
+  transform: translateY(-50%);
+  box-shadow: inset -2px 0 3px rgba(0,0,0,0.05);
+}
+
+.cinema-ticket-card::after {
+  right: -7px;
+  transform: translateY(-50%);
+  box-shadow: inset 2px 0 3px rgba(0,0,0,0.05);
+}
+
+.cinema-ticket-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--teal-light);
+}
+
+.cinema-ticket-banner {
+  background: linear-gradient(135deg, #3D2B1F, #1F140D);
+  padding: 0.8rem 1.2rem;
+  color: white;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px dashed var(--border);
+}
+
+.cinema-ticket-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cinema-ticket-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--grey-darkest);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+}
+
+.cinema-ticket-desc {
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  flex-grow: 1;
+}
+
+.cinema-ticket-footer {
+  margin-top: auto;
+  border-top: 1px dashed var(--border);
+  padding-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.cinema-ticket-view {
+  color: var(--teal);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: bold;
 }
