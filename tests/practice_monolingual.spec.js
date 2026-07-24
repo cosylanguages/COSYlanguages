@@ -65,25 +65,25 @@ test.describe('Practice Monolingual & Symbolic Verification', () => {
 
             // Move to the next question by either answering or skipping
             // To be robust, let's select an option if MC, otherwise trigger next/skip
-            const mcOpts = page.locator('.mc-opt');
-            const tfBtns = page.locator('.tf-btn');
-            const checkBtn = page.locator('.type-wrap button');
+            const mcOpts = page.locator('.mc-opt:not([disabled])');
+            const tfBtns = page.locator('.tf-btn:not([disabled])');
+            const checkBtn = page.locator('.type-wrap button:not([disabled])');
             const nextBtn = page.locator('#pe-next');
 
-            if (await mcOpts.first().isVisible()) {
+            if (await mcOpts.count() > 0 && await mcOpts.first().isVisible()) {
                 await mcOpts.first().click();
-                await page.waitForTimeout(600); // Wait for transition
-            } else if (await tfBtns.first().isVisible()) {
+                await page.waitForTimeout(1000); // Wait for transition
+            } else if (await tfBtns.count() > 0 && await tfBtns.first().isVisible()) {
                 await tfBtns.first().click();
-                await page.waitForTimeout(600);
-            } else if (await checkBtn.isVisible()) {
-                await checkBtn.click();
-                await page.waitForTimeout(600);
+                await page.waitForTimeout(1000);
+            } else if (await checkBtn.count() > 0 && await checkBtn.first().isVisible()) {
+                await checkBtn.first().click();
+                await page.waitForTimeout(1000);
             } else {
                 // Skip/Next if any other type
                 if (await nextBtn.isVisible()) {
                     await nextBtn.click();
-                    await page.waitForTimeout(600);
+                    await page.waitForTimeout(1000);
                 }
             }
         }
