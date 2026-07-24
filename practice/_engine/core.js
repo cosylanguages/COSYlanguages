@@ -1052,7 +1052,7 @@
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
             }
-            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 600);
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 1200);
         } else {
             engine.recordMistake(q);
             if (fb) {
@@ -1061,7 +1061,7 @@
             }
             const correctOpt = q.opts ? q.opts[ans] : '';
             const desc = correctOpt ? `Correct answer: ${correctOpt}` : '';
-            showBottomFeedback(false, 'Incorrect', desc, 600);
+            showBottomFeedback(false, 'Incorrect', desc);
         }
     };
 
@@ -1078,14 +1078,14 @@
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
             }
-            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 600);
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 1200);
         } else {
             engine.recordMistake(q);
             if (fb) {
                 fb.className = 'pe-feedback show bad';
                 fb.innerHTML = '❌ Incorrect.';
             }
-            showBottomFeedback(false, 'Incorrect', `Correct answer: ${q.ans ? 'True' : 'False'}`, 600);
+            showBottomFeedback(false, 'Incorrect', `Correct answer: ${q.ans ? 'True' : 'False'}`);
         }
     };
 
