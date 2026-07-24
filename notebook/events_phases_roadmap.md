@@ -42,6 +42,11 @@ This document outlines the structured development phases and logical stages of t
 - **Implementation:** Overhauled session mistake cards to show authentic, level-appropriate grammatical contrasts (e.g. spelling out specific modal rule explanations or past-tense agreements) instead of duplicate identical text templates.
 - **Status:** **Completed** ✅
 
+### **Stage 2.4: Monolingual & Non-Translation Enforcement**
+- **Goal:** Adhere strictly to the platform's core "no translation fallback" principle across all multilingual event pages (English, French, Russian, etc.).
+- **Implementation:** Designed all session page environments to be 100% in their target language (e.g., French sessions in French, Russian sessions in Russian), utilizing localized "Teacher's Notes" blocks, symbolic indicators (like `→` and `✏️`), and icons/emojis rather than native-language translation fallbacks. This preserves the immersive, monolingual speaking club atmosphere.
+- **Status:** **Completed** ✅
+
 ---
 
 ## 🟡 Phase 3: Interactive Discovery & Filter Mechanics
