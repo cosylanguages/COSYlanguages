@@ -72,7 +72,8 @@
             ls: '🔊 Listen',
             sc: '🧩 Scramble',
             op: '≠ Antonym',
-            np: '👥 Plural'
+            np: '👥 Plural',
+            mp: '🔗 Match'
         };
         return m[t] || t;
     }
@@ -84,7 +85,7 @@
             html += `<div class="pe-question">${formatQuestionText(q)}</div>`;
 
             // Visual helper (Emoji/Word)
-            if (q.item && form !== 'sc') {
+            if (q.item && form !== 'sc' && form !== 'mp') {
                 html += `<div class="pe-question-card">
                             <div class="pe-card-emoji">${q.item.emoji || '💡'}</div>
                             <div class="pe-card-word">${(form === 'ls' || form === 'type' || form === 'op' || form === 'np') ? '???' : (q.item.word || q.item.text || '')}</div>`;
@@ -111,6 +112,43 @@
                 html += this.renderConv(q);
             } else if (form === 'ls') {
                 html += this.renderLS(q, session, lang);
+            } else if (form === 'mp') {
+                html += this.renderMP(q, session, lang);
+            }
+
+            return html;
+        },
+
+        renderMP(q, session, lang) {
+            const pairs = q.ans; // Array of { id, word, definition }
+
+            // Shuffle left and right independently
+            const leftItems = pairs.map(p => ({ id: p.id, text: p.word })).sort(() => Math.random() - 0.5);
+            const rightItems = pairs.map(p => ({ id: p.id, text: p.definition })).sort(() => Math.random() - 0.5);
+
+            let html = `<div class="match-pairs-container">`;
+
+            // Left column (Words)
+            html += `<div class="mp-column left-col">`;
+            leftItems.forEach(item => {
+                html += `<div class="mp-item" id="mp-left-${item.id}" onclick="window.selectMPItem('left', ${item.id})">${item.text}</div>`;
+            });
+            html += `</div>`;
+
+            // Right column (Definitions)
+            html += `<div class="mp-column right-col">`;
+            rightItems.forEach(item => {
+                html += `<div class="mp-item" id="mp-right-${item.id}" onclick="window.selectMPItem('right', ${item.id})">${item.text}</div>`;
+            });
+            html += `</div>`;
+
+            html += `</div>`;
+
+            // Initialize select state variables in engine context or state
+            if (window.cosyPracticeEngine) {
+                window.cosyPracticeEngine.mpSelectedLeft = null;
+                window.cosyPracticeEngine.mpSelectedRight = null;
+                window.cosyPracticeEngine.mpMatchedCount = 0;
             }
 
             return html;

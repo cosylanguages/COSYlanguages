@@ -320,7 +320,7 @@
             qs = pool.map(item => {
                 const isVocabOrGrammar = (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary');
                 if (isVocabOrGrammar) {
-                    let types = ['mc', 'tf', 'type', 'sc', 'ls'];
+                    let types = ['mc', 'tf', 'type', 'sc', 'ls', 'mp'];
                     let type = types[Math.floor(Math.random() * types.length)];
 
                     // FIX 3 — Guard against missing examples for scramble questions
@@ -334,7 +334,30 @@
                     let qText = '', ans = null, opts = null;
                     const definition = item.definitions?.[0]?.text || item.definition || item.translation || item.word || "...";
 
-                    if (type === 'mc') {
+                    if (type === 'mp') {
+                        // Match Pairs: Current item + 3 other random items
+                        const otherItems = pool
+                            .filter(p => p.id !== item.id && p.word && (p.definitions?.[0]?.text || p.definition || p.translation))
+                            .sort(() => Math.random() - 0.5);
+
+                        const selectedPairs = [item, ...otherItems.slice(0, 3)];
+                        while (selectedPairs.length < 4) {
+                            selectedPairs.push({
+                                word: `WordFallback_${selectedPairs.length}`,
+                                definitions: [{ text: `DefFallback_${selectedPairs.length}` }]
+                            });
+                        }
+
+                        // Map each pair
+                        const pairs = selectedPairs.map((p, idx) => ({
+                            id: idx,
+                            word: p.word,
+                            definition: p.definitions?.[0]?.text || p.definition || p.translation || p.word
+                        }));
+
+                        qText = "🧩 Match the pairs";
+                        ans = pairs; // Array of { id, word, definition }
+                    } else if (type === 'mc') {
                         const mcQ = buildMCQuestion(item, pool);
                         qText = mcQ.q;
                         ans = mcQ.ans;
