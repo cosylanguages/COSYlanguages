@@ -33,7 +33,7 @@
 .session-info td:first-child { color: var(--muted); width: 86px; }
 
 /* Discussion Rounds */
-.round-block { border: 1px solid var(--border); border-radius: 24px; overflow: hidden; margin-bottom: 1rem; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: all 0.2s; }
+.round-block { border: 1px solid var(--border); border-radius: 24px; overflow: hidden; margin-bottom: 1rem; background: var(--surface-color); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: all 0.2s; }
 .round-block:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
 .round-header { display: flex; align-items: center; justify-content: space-between; padding: .8rem 1.2rem; cursor: pointer; user-select: none; font-size: .85rem; font-weight: 700; transition: background 0.2s; }
 .round-toggle { font-size: .72rem; color: var(--muted); transition: transform .2s; }
@@ -50,18 +50,18 @@
 
 /* Let's Speak Together grid */
 .lst-grid { margin-top: .8rem; }
-.lst-item { background: white; padding: 1rem; border-radius: 16px; border: 1px solid var(--border); transition: transform 0.2s; }
+.lst-item { background: var(--surface-color); padding: 1rem; border-radius: 16px; border: 1px solid var(--border); transition: transform 0.2s; }
 .lst-item:hover { transform: scale(1.02); border-color: var(--teal-light); }
 
 /* Mistake Notes - Cosy "Teacher's Note" Style */
-.mistake-block { border: 1px dashed #d66161; border-radius: 24px; overflow: hidden; margin-top: 1.5rem; background: #FFFDF5; position: relative; }
-.mistake-header { display: flex; align-items: center; justify-content: space-between; padding: .8rem 1.2rem; cursor: pointer; user-select: none; font-size: .85rem; font-weight: 700; background: #FFF8F0; color: #8c2e2e; }
+.mistake-block { border: 1px dashed #d66161; border-radius: 24px; overflow: hidden; margin-top: 1.5rem; background: var(--mistake-bg); position: relative; }
+.mistake-header { display: flex; align-items: center; justify-content: space-between; padding: .8rem 1.2rem; cursor: pointer; user-select: none; font-size: .85rem; font-weight: 700; background: var(--mistake-header-bg); color: var(--mistake-header-text); }
 .mistake-body { display: none; padding: 1rem 1.2rem; border-top: 1px dashed rgba(214, 97, 97, 0.2); }
 .mistake-block.open .mistake-body { display: block; }
 
 .mistake-item { display: flex; align-items: flex-start; gap: .6rem; margin-bottom: .65rem; font-size: .83rem; line-height: 1.5; }
-.mistake-wrong { color: #C0392B; text-decoration: line-through; font-weight: 500; }
-.mistake-right { color: #1A7A4A; font-weight: 500; }
+.mistake-wrong { color: var(--mistake-wrong-color); text-decoration: line-through; font-weight: 500; }
+.mistake-right { color: var(--mistake-right-color); font-weight: 500; }
 
 
 
@@ -168,7 +168,7 @@ vim-choice { margin-bottom: 1.5rem; }
 
 /* Vocabulary Grid for Session pages */
 .vocab-grid-10 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
-.vocab-card { background: white; border: 1px solid var(--border); border-radius: 24px; padding: 1.5rem; transition: all 0.3s cubic-bezier(.34,1.56,.64,1); box-shadow: var(--shadow-sm); }
+.vocab-card { background: var(--surface-color); border: 1px solid var(--border); border-radius: 24px; padding: 1.5rem; transition: all 0.3s cubic-bezier(.34,1.56,.64,1); box-shadow: var(--shadow-sm); }
 .vocab-card:hover { transform: translateY(-5px); border-color: var(--teal-light); box-shadow: var(--shadow); }
 
 /* ── Navigation & History ── */
@@ -201,7 +201,7 @@ vim-choice { margin-bottom: 1.5rem; }
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
-    background: white;
+    background: var(--surface-color);
     border-radius: 24px;
     box-shadow: var(--shadow-sm);
     transition: all 0.3s cubic-bezier(.34,1.56,.64,1);
@@ -238,7 +238,7 @@ vim-choice { margin-bottom: 1.5rem; }
   flex-wrap: wrap;
 }
 .filter-btn {
-  background: white;
+  background: var(--surface-color);
   border: 1px solid var(--border);
   color: var(--ink-soft);
   border-radius: 50px;
@@ -477,7 +477,7 @@ vim-choice { margin-bottom: 1.5rem; }
   border: 1.5px solid var(--border);
   font-family: var(--font-sans);
   font-size: 1rem;
-  background: white;
+  background: var(--surface-color);
   color: var(--ink);
   box-shadow: var(--shadow-sm);
   transition: all 0.25s ease;
@@ -499,7 +499,7 @@ vim-choice { margin-bottom: 1.5rem; }
   border: 1.5px solid var(--border);
   border-radius: var(--r-md);
   overflow: hidden;
-  background: white;
+  background: var(--surface-color);
   transition: all 0.25s ease;
   box-shadow: var(--shadow-sm);
 }
@@ -570,7 +570,7 @@ vim-choice { margin-bottom: 1.5rem; }
   text-decoration: none;
   padding: 0.65rem 0.9rem;
   border-radius: var(--r-sm);
-  background: white;
+  background: var(--surface-color);
   border: 1px solid var(--border);
   color: var(--ink-soft);
   font-size: 0.88rem;

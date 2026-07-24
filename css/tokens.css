@@ -50,6 +50,20 @@
 
     --accent-color: #d66161;
 
+    /* ── Mistake block variables ── */
+    --mistake-bg:          #FFFDF5;
+    --mistake-header-bg:   #FFF8F0;
+    --mistake-header-text: #8c2e2e;
+    --mistake-wrong-color: #C0392B;
+    --mistake-right-color: #1A7A4A;
+
+    /* ── Dictionary Panel variables ── */
+    --dict-panel-bg:       rgba(255, 255, 255, 0.95);
+    --harvest-card-bg:     rgba(255, 255, 255, 0.98);
+
+    /* ── Homepage Note variables ── */
+    --group-note-bg:       #fff8e7;
+
     /* ── Grammar Hub (Teal Theme) ──────────────────────── */
     --gh-teal:     #00B5A3;
     --gh-teal-dk:  #008F80;
@@ -135,4 +149,29 @@ html[data-theme="dark"], body.theme-dark {
     --surface-color:    #222b22;
     --text-color:       var(--ink);
     --light-gray:       var(--cream-dark);
+
+    /* ── Dark overrides for light color tints ── */
+    --honey-pale:  #2d2417;
+    --honey-mid:   #35291b;
+    --coral-light: #2d1a15;
+    --gold-light:  #2d2417;
+    --plum-light:  #26201a;
+    --blue-light:  #1a202d;
+    --green-light: #15241b;
+    --rose-light:  #2d1515;
+    --navy-light:  #141a29;
+
+    /* ── Mistake block variables ── */
+    --mistake-bg:          #241a15;
+    --mistake-header-bg:   #2e211a;
+    --mistake-header-text: #fca5a5;
+    --mistake-wrong-color: #f87171;
+    --mistake-right-color: #4ade80;
+
+    /* ── Dictionary Panel variables ── */
+    --dict-panel-bg:       rgba(34, 43, 34, 0.95);
+    --harvest-card-bg:     rgba(34, 43, 34, 0.98);
+
+    /* ── Homepage Note variables ── */
+    --group-note-bg:       #2d261a;
 }

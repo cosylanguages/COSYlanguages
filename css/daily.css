@@ -92,7 +92,7 @@
 
 /* Week Grid */
 .week-section {
-    background: white;
+    background: var(--surface-color);
     border: 1px solid var(--border);
     border-radius: 1.5rem;
     padding: 1.5rem;
@@ -172,7 +172,7 @@
 }
 
 .lang-pill {
-    background: white;
+    background: var(--surface-color);
     border: 1px solid var(--border);
     padding: 0.4rem 0.8rem;
     border-radius: 100px;
@@ -182,7 +182,7 @@
 
 /* Challenge Card */
 .challenge-card {
-    background: white;
+    background: var(--surface-color);
     border: 1px solid var(--border);
     border-radius: 2rem;
     overflow: hidden;
@@ -253,7 +253,7 @@
 }
 
 .ltab.on {
-    background: white;
+    background: var(--surface-color);
     color: var(--ink);
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
