@@ -68,6 +68,12 @@
   align-items: center;
   gap: 10px;
   min-width: 110px;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.dash-stat:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(28,25,23,0.06);
+  border-color: var(--border-hover);
 }
 .ds-icon { font-size: 1.3rem; }
 .ds-val { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.25rem; line-height: 1; }
@@ -1475,5 +1481,57 @@
   .sc-tile {
     padding: 6px 12px;
     font-size: 0.88rem;
+  }
+}
+
+/* ── BREADCRUMBS STYLING ── */
+.cosy-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.cosy-breadcrumbs a {
+  color: var(--ink-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.cosy-breadcrumbs a:hover {
+  color: var(--teal);
+}
+.cosy-breadcrumbs .sep {
+  opacity: 0.3;
+}
+.cosy-breadcrumbs .current {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* ── ACCESSIBILITY SKIP LINK ── */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1.5rem;
+  background: var(--teal);
+  color: white;
+  padding: 8px 16px;
+  z-index: 10000;
+  transition: top 0.2s ease;
+  font-weight: bold;
+  border-radius: 0 0 var(--r-sm) var(--r-sm);
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 0;
+  outline: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .practice-page-new.has-active-bottom-bar .page {
+    padding-bottom: 13rem !important;
   }
 }
