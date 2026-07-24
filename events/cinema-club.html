@@ -14,33 +14,8 @@
 <link href="../css/components.css" rel="stylesheet"/>
 <link href="../css/layout.css" rel="stylesheet"/>
 <link href="../css/events.css" rel="stylesheet"/>
-<style>
-  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
-  .club-hero { background: linear-gradient(135deg, #3D2B1F, #1F140D); color: #FAF7F2; padding: 4rem 2rem; text-align: center; }
-  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; color: #FAF7F2; }
-  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
-</style>
-<style>
-  .filter-btn {
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    border: 1px solid var(--border);
-    background: var(--cream, #FAF7F2);
-    cursor: pointer;
-    font-size: 0.85rem;
-    font-weight: 600;
-    transition: all 0.2s ease;
-  }
-  .filter-btn:hover {
-    background: var(--border);
-  }
-  .filter-btn.active {
-    background: #3D2B1F;
-    color: white;
-    border-color: #3D2B1F;
-  }
-</style></head>
-<body>
+</head>
+<body class="theme-cinema">
 <nav id="cosy-nav"></nav>
 <header class="club-hero">
 <span style="font-size: 3.5rem; display: block; margin-bottom: 1rem;">🎬</span>
@@ -141,7 +116,7 @@
 <div class="cinema-ticket-card history-session" data-level="c1">
 <div class="cinema-ticket-banner">
 <div style="display: flex; gap: 0.3rem;">
-<span class="club-tag tag-c1">C1</span> <span class="club-tag tag-🔞 18+ / sensitive">🔞 18+ / Sensitive</span>
+<span class="club-tag tag-c1">C1</span> <span class="club-tag tag-sensitive">🔞 18+ / Sensitive</span>
 </div>
 <span style="font-size: 1rem;">🇬🇧</span>
 </div>
@@ -189,7 +164,7 @@
 <div class="cinema-ticket-card history-session" data-level="b2">
 <div class="cinema-ticket-banner">
 <div style="display: flex; gap: 0.3rem;">
-<span class="club-tag tag-b2">B2</span> <span class="club-tag tag-🔞 18+ / sensitive">🔞 18+ / Sensitive</span>
+<span class="club-tag tag-b2">B2</span> <span class="club-tag tag-sensitive">🔞 18+ / Sensitive</span>
 </div>
 <span style="font-size: 1rem;">🇪🇸</span>
 </div>
@@ -1021,7 +996,7 @@
 <div class="cinema-ticket-card history-session" data-level="b2">
 <div class="cinema-ticket-banner">
 <div style="display: flex; gap: 0.3rem;">
-<span class="club-tag tag-b2">B2</span> <span class="club-tag tag-🔞 18+ / sensitive">🔞 18+ / Sensitive</span>
+<span class="club-tag tag-b2">B2</span> <span class="club-tag tag-sensitive">🔞 18+ / Sensitive</span>
 </div>
 <span style="font-size: 1rem;">🇺🇸</span>
 </div>
@@ -1469,7 +1444,7 @@
 <div class="cinema-ticket-card history-session" data-level="c1">
 <div class="cinema-ticket-banner">
 <div style="display: flex; gap: 0.3rem;">
-<span class="club-tag tag-c1">C1</span> <span class="club-tag tag-🔞 18+ / sensitive">🔞 18+ / Sensitive</span>
+<span class="club-tag tag-c1">C1</span> <span class="club-tag tag-sensitive">🔞 18+ / Sensitive</span>
 </div>
 <span style="font-size: 1rem;">🇺🇸</span>
 </div>
@@ -1512,28 +1487,5 @@
 <script src="../js/core/ui.js"></script>
 <script src="../js/data/pricing.js"></script>
 <script src="../js/config.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll('.filter-btn');
-  const sessions = document.querySelectorAll('.history-session');
-
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const selectedLevel = btn.getAttribute('data-level');
-
-      sessions.forEach(sess => {
-        const levels = (sess.getAttribute('data-level') || '').split(' ');
-        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
-          sess.style.display = 'flex';
-        } else {
-          sess.style.display = 'none';
-        }
-      });
-    });
-  });
-});
-</script></body>
+</body>
 </html>
