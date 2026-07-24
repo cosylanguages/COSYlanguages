@@ -8,8 +8,8 @@
       buildExplanation(item, reason) {
         return `
           <div style="background:#e8f0e9;border-radius:10px;padding:12px 14px;font-family:'Nunito',sans-serif;margin-top:8px;border-left:3px solid #6b8f71;">
-            <div style="font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;color:#4a6b50;margin-bottom:4px">Why it's different:</div>
-            <div style="font-size:.88rem;color:#2e4a33;line-height:1.55">${reason || item.explanation || "This word belongs to a different logical group."}</div>
+            <div style="font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;color:#4a6b50;margin-bottom:4px">💡:</div>
+            <div style="font-size:.88rem;color:#2e4a33;line-height:1.55">${reason || item.explanation || ""}</div>
           </div>
         `;
       }
@@ -146,7 +146,7 @@
                         btn.textContent = opt;
                         btn.onclick = () => {
                             if (opt === current.word) {
-                                feedback.textContent = t('correct');
+                                feedback.innerHTML = `✓ 🔗 ≈ <strong>${current.theme ? current.theme.replace(/_/g, ' ') : ''}</strong>`;
                                 feedback.style.color = 'var(--primary-color)';
                                 if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
                                 speak(opt, lang);
@@ -155,7 +155,7 @@
 
                                 setTimeout(showNext, 3000);
                             } else {
-                                feedback.textContent = t('incorrect');
+                                feedback.textContent = '✗';
                                 feedback.style.color = 'var(--accent-color)';
                             }
                         };
@@ -181,7 +181,7 @@
                         return;
                     }
 
-                    cluesArea.innerHTML = `<span class="badge glass" style="padding: 15px 25px; border-radius: 30px; font-weight: 700; color: var(--accent-color);">${t('linker_odd_one_prompt')}</span>`;
+                    cluesArea.innerHTML = `<span class="badge glass" style="padding: 15px 25px; border-radius: 30px; font-weight: 700; color: var(--accent-color);">❌ ≠ ???</span>`;
                     feedback.textContent = '';
 
                     let options = [current.word, ...belongingWords].sort(() => Math.random() - 0.5);
@@ -195,7 +195,7 @@
                         btn.textContent = opt;
                         btn.onclick = () => {
                             if (opt === current.word) {
-                                feedback.textContent = t('correct');
+                                feedback.innerHTML = `✓ ❌ = <strong>${current.word}</strong>`;
                                 feedback.style.color = 'var(--primary-color)';
                                 if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
                                 speak(opt, lang);
@@ -204,7 +204,7 @@
 
                                 setTimeout(showNext, 3000);
                             } else {
-                                feedback.textContent = t('incorrect');
+                                feedback.textContent = '✗';
                                 feedback.style.color = 'var(--accent-color)';
                             }
                         };
