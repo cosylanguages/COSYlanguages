@@ -1410,7 +1410,7 @@
                         <button class="btn-g-secondary" onclick="COSY_ENGINE.startCrossword()">New Grid ↺</button>
                     </div>
                 </div>
-                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin-top:1rem">
+                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:10px; margin-top:1rem">
                     <div class="game-card" style="padding:1rem">
                         <div class="game-label">Across</div>
                         <div id="cw-clues-across" style="font-size:.8rem; text-align:left"></div>
