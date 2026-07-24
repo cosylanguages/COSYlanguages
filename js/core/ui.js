@@ -218,6 +218,37 @@
           const panel = document.getElementById('dict-panel');
           if (panel) panel.classList.toggle('open');
         };
+
+        window.COSY.checkGap = function(inputEl) {
+            const typed = inputEl.value.trim();
+            const ans = inputEl.getAttribute('data-answer') || '';
+
+            if (typed === '') {
+                inputEl.style.background = 'transparent';
+                inputEl.style.borderColor = 'var(--border)';
+                return;
+            }
+
+            const normalize = (str) => {
+                return str.normalize("NFD")
+                          .replace(/[\u0300-\u036f]/g, "")
+                          .toLowerCase()
+                          .replace(/œ/g, "oe")
+                          .replace(/æ/g, "ae")
+                          .replace(/[^a-z0-9а-яёα-ωίϊΐόάέύϋΰήώ]/gi, "")
+                          .trim();
+            };
+
+            if (normalize(typed) === normalize(ans)) {
+                inputEl.style.background = '#E1F5EE';
+                inputEl.style.borderColor = '#1A7A4A';
+                inputEl.style.color = '#1A7A4A';
+            } else {
+                inputEl.style.background = '#FAEEE8';
+                inputEl.style.borderColor = '#C0392B';
+                inputEl.style.color = '#C0392B';
+            }
+        };
     }
 
     /* ─── VIM CUSTOM ELEMENTS ──────────────────────────────────── */

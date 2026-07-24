@@ -2103,7 +2103,7 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     helpers = song["helpers"]
     slug = sub_slug or song["slug"]
 
-    # Process lyrics to perform case-insensitive and accent-insensitive replacement of helpers with [__________]
+    # Process lyrics to perform case-insensitive and accent-insensitive replacement of helpers with interactive gap-fill inputs
     raw_lyrics = song["lyrics"]
 
     # Custom gap-fill logic
@@ -2112,7 +2112,11 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         escaped_h = re.escape(h)
         # Match case-insensitively using unicode boundary lookahead/lookbehind
         pattern = re.compile(rf'(?i)(?<![a-zA-Z0-9\u00c0-\u00ff\u0400-\u04ff\u0370-\u03ff]){escaped_h}(?![a-zA-Z0-9\u00c0-\u00ff\u0400-\u04ff\u0370-\u03ff])')
-        raw_lyrics = pattern.sub('[__________]', raw_lyrics)
+        def build_input(match):
+            ans = match.group(0)
+            width = max(60, len(ans) * 11)
+            return f'<input type="text" class="lyrics-gap-input" data-answer="{ans}" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: {width}px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">'
+        raw_lyrics = pattern.sub(build_input, raw_lyrics)
 
     lyrics_text = raw_lyrics.replace("\n", "<br>")
 
