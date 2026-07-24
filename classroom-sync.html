@@ -317,7 +317,24 @@
                     <h4 style="margin: 0 0 0.5rem; font-family:'Lora', serif;">Synchronized Interactive Content</h4>
                     <p style="font-size: 0.85rem; color:#666; margin: 0 0 1rem;">Click questions to highlight them, or click vocabulary cards to reveal/hide them on the student's screen in real-time.</p>
 
-                    <div class="lesson-card">
+                    <!-- Dynamic Session Loader Dropdown -->
+                    <div style="margin-bottom: 1.25rem;">
+                        <label for="session-select" style="display: block; font-size: 0.82rem; font-weight: 800; text-transform: uppercase; color: var(--sage-deep, #3d5a45); margin-bottom: 0.35rem; letter-spacing: 0.05em;">📖 Active Speaking Session Loader</label>
+                        <select id="session-select" onchange="loadSessionData(this.value)" style="width: 100%; padding: 0.6rem 0.8rem; border-radius: 8px; border: 2px solid var(--sage-deep, #3d5a45); font-family: inherit; font-size: 0.9rem; font-weight: bold; background: white; cursor: pointer; color: var(--sage-deep, #3d5a45);">
+                            <option value="">-- Choose a Speaking Session to Sync --</option>
+                            <option value="events/sessions/keeping-up-with-science/ai-reality-delusion.html">Science: AI - Reality or Delusion</option>
+                            <option value="events/sessions/keeping-up-with-science/grandmother-evolutionary-mystery.html">Science: Grandmother Evolutionary Mystery</option>
+                            <option value="events/sessions/keeping-up-with-science/living-most-creative-time.html">Science: Living in Most Creative Time</option>
+                            <option value="events/sessions/mind-matters/power-of-habits.html">Mind Matters: Power of Habits</option>
+                            <option value="events/sessions/mind-matters/science-of-sleep.html">Mind Matters: Science of Sleep</option>
+                            <option value="events/sessions/mind-matters/how-to-love-your-work.html">Mind Matters: How to Love Your Work</option>
+                            <option value="events/sessions/the-greatest-quotes/wisdom-of-socrates.html">Greatest Quotes: Wisdom of Socrates</option>
+                            <option value="events/sessions/the-greatest-quotes/feynman-no-shame-knowing-quote.html">Greatest Quotes: No Shame in Not Knowing</option>
+                            <option value="events/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html">Greatest Quotes: Loving Means Power</option>
+                        </select>
+                    </div>
+
+                    <div class="lesson-card" id="teacher-lesson-card">
                         <div class="lesson-question active-highlight" id="t-q1" onclick="teacherClickQuestion(1)">Round 1: Talk about your favorite movie. 🎬</div>
                         <div class="lesson-question" id="t-q2" onclick="teacherClickQuestion(2)">Round 2: What will cinema look like in 50 years? 🚀</div>
 
@@ -346,7 +363,7 @@
                     <h4 style="margin: 0 0 0.5rem; font-family:'Lora', serif;">Active Slide</h4>
                     <p style="font-size: 0.85rem; color:#666; margin: 0 0 1rem;">This screen responds instantly to your teacher's pointer highlights and card reveal commands.</p>
 
-                    <div class="lesson-card" style="border-left-color: var(--honey-dark, #b7791f);">
+                    <div class="lesson-card" id="student-lesson-card" style="border-left-color: var(--honey-dark, #b7791f);">
                         <div class="lesson-question active-highlight" id="s-q1">Round 1: Talk about your favorite movie. 🎬</div>
                         <div class="lesson-question" id="s-q2">Round 2: What will cinema look like in 50 years? 🚀</div>
 
@@ -370,6 +387,145 @@
     let timerSeconds = 30;
     let timerRunning = false;
 
+    // Dynamic Session Cache
+    let currentVocabMap = { 1: "Nostalgia 🧠", 2: "Masterpiece 🌟", 3: "Screenplay 📜" };
+
+    // Fetch and parse Speaking Session Page dynamically
+    async function loadSessionData(relativeUrl) {
+        if (!relativeUrl) return;
+
+        try {
+            const response = await fetch(relativeUrl);
+            if (!response.ok) throw new Error("Failed to fetch session HTML");
+            const htmlText = await response.text();
+
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(htmlText, "text/html");
+
+            // 1. Extract questions from .round-item-main / .round-item-personal
+            const roundItems = doc.querySelectorAll('.round-item');
+            const questions = [];
+            roundItems.forEach((item, i) => {
+                const mainEl = item.querySelector('.round-item-main');
+                const personalEl = item.querySelector('.round-item-personal');
+                let mainText = mainEl ? mainEl.innerText.trim() : '';
+                let personalText = personalEl ? personalEl.innerText.trim() : '';
+
+                if (mainText) {
+                    questions.push({
+                        id: i + 1,
+                        text: mainText,
+                        personal: personalText
+                    });
+                }
+            });
+
+            // Fallback: extract from standard ul/li if .round-item doesn't exist
+            if (questions.length === 0) {
+                const listItems = doc.querySelectorAll('.round-questions li');
+                listItems.forEach((item, i) => {
+                    questions.push({
+                        id: i + 1,
+                        text: item.innerText.trim(),
+                        personal: ''
+                    });
+                });
+            }
+
+            // Cap questions at 10 items
+            const finalQuestions = questions.slice(0, 10);
+
+            // 2. Extract vocabulary cards from .vocab-card
+            const vocabCards = doc.querySelectorAll('.vocab-card');
+            const vocabulary = [];
+            vocabCards.forEach((card, i) => {
+                const wordEl = card.querySelector('.vocab-word');
+                const defEl = card.querySelector('.vocab-def');
+                if (wordEl) {
+                    vocabulary.push({
+                        id: i + 1,
+                        word: wordEl.innerText.trim(),
+                        definition: defEl ? defEl.innerText.trim() : ''
+                    });
+                }
+            });
+
+            // Cap vocabulary at 10 items
+            const finalVocabulary = vocabulary.slice(0, 10);
+
+            // 3. Render teacher's views
+            renderSessionToPanel('teacher', finalQuestions, finalVocabulary);
+
+            // Update teacher's local vocab map
+            currentVocabMap = {};
+            finalVocabulary.forEach(v => {
+                currentVocabMap[v.id] = v.word;
+            });
+
+            // 4. Sync state with student
+            broadcastState({
+                loadedSession: {
+                    questions: finalQuestions,
+                    vocabulary: finalVocabulary
+                }
+            });
+        } catch (err) {
+            console.error("Error loading session:", err);
+            alert("Could not load speaking session data dynamically: " + err.message);
+        }
+    }
+
+    function renderSessionToPanel(role, questions, vocabulary) {
+        const card = document.getElementById(`${role}-lesson-card`);
+        if (!card) return;
+
+        card.innerHTML = '';
+
+        // Render Questions
+        questions.forEach(q => {
+            const qDiv = document.createElement('div');
+            qDiv.id = `${role[0]}-q${q.id}`;
+            qDiv.className = 'lesson-question';
+            qDiv.innerHTML = `<strong>${q.id}.</strong> ${q.text}`;
+            if (role === 'teacher') {
+                qDiv.onclick = () => teacherClickQuestion(q.id);
+            }
+            card.appendChild(qDiv);
+
+            if (q.personal) {
+                const pDiv = document.createElement('div');
+                pDiv.className = 'round-item-personal';
+                pDiv.style.fontSize = '0.85rem';
+                pDiv.style.color = '#718096';
+                pDiv.style.paddingLeft = '1rem';
+                pDiv.style.borderLeft = '2px solid #edf2f7';
+                pDiv.style.marginBottom = '0.5rem';
+                pDiv.style.fontStyle = 'italic';
+                pDiv.textContent = q.personal;
+                card.appendChild(pDiv);
+            }
+        });
+
+        // Render Vocabulary Spacer
+        const spacer = document.createElement('div');
+        spacer.style.marginTop = '1rem';
+        card.appendChild(spacer);
+
+        // Render Vocabulary Cards
+        vocabulary.forEach(v => {
+            const vDiv = document.createElement('div');
+            vDiv.id = `${role[0]}-v${v.id}`;
+            vDiv.className = 'vocab-word';
+            if (role === 'teacher') {
+                vDiv.textContent = v.word;
+                vDiv.onclick = () => teacherClickVocab(v.id);
+            } else {
+                vDiv.textContent = 'Hidden Card 🔒';
+            }
+            card.appendChild(vDiv);
+        });
+    }
+
     // Simulation/Local Sync Callback Fallback (Always active out-of-the-box!)
     function broadcastState(state) {
         if (conn && conn.open) {
@@ -392,6 +548,19 @@
                 clearInterval(timerInterval);
             }
         }
+        if (state.loadedSession !== undefined) {
+            const questions = state.loadedSession.questions;
+            const vocabulary = state.loadedSession.vocabulary;
+
+            // Re-render student panel dynamically
+            renderSessionToPanel('student', questions, vocabulary);
+
+            // Set student's local vocabulary mapping
+            currentVocabMap = {};
+            vocabulary.forEach(v => {
+                currentVocabMap[v.id] = v.word;
+            });
+        }
         if (state.activeQuestion !== undefined) {
             document.querySelectorAll('.student .lesson-question').forEach(el => el.classList.remove('active-highlight'));
             const qEl = document.getElementById(`s-q${state.activeQuestion}`);
@@ -400,12 +569,11 @@
         if (state.revealedVocab !== undefined) {
             const index = state.revealedVocab;
             const revealed = state.isRevealed;
-            const vocabMap = { 1: "Nostalgia 🧠", 2: "Masterpiece 🌟", 3: "Screenplay 📜" };
 
             const vEl = document.getElementById(`s-v${index}`);
             if (vEl) {
                 if (revealed) {
-                    vEl.textContent = vocabMap[index];
+                    vEl.textContent = currentVocabMap[index] || "Revealed!";
                     vEl.classList.add('revealed');
                 } else {
                     vEl.textContent = "Hidden Card 🔒";

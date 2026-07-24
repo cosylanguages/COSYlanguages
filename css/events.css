@@ -323,8 +323,8 @@ vim-choice { margin-bottom: 1.5rem; }
 
   /* Vocabulary layout */
   .vocab-grid-10 {
-    grid-template-columns: 1fr !important;
-    gap: 1rem !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.25rem !important;
   }
 
   .vocab-card {
