@@ -27,7 +27,9 @@
             max-width: 800px;
             margin: 4rem auto;
             padding: 2rem;
-            background: #fff;
+            background: var(--surface-color);
+            color: var(--ink);
+            border: 1px solid var(--border);
             border-radius: 16px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.05);
             border-top: 8px solid var(--sage-deep, #3d5a45);
@@ -44,7 +46,7 @@
 
         .quiz-intro {
             text-align: center;
-            color: #555;
+            color: var(--ink-soft);
             font-size: 1.1rem;
             margin-bottom: 2.5rem;
             line-height: 1.6;
@@ -59,8 +61,9 @@
         }
 
         .lang-option {
-            background: #fff;
-            border: 2px solid #e2e8f0;
+            background: var(--surface-color);
+            border: 2px solid var(--border);
+            color: var(--ink);
             border-radius: 12px;
             padding: 1rem;
             text-align: center;
@@ -94,7 +97,7 @@
         .progress-bar-container {
             width: 100%;
             height: 6px;
-            background: #edf2f7;
+            background: var(--cream-dark);
             border-radius: 3px;
             margin-bottom: 2rem;
             overflow: hidden;
@@ -132,8 +135,8 @@
         }
 
         .option-btn {
-            background: #fff;
-            border: 2px solid #e2e8f0;
+            background: var(--surface-color);
+            border: 2px solid var(--border);
             border-radius: 10px;
             padding: 1rem;
             text-align: left;
@@ -141,30 +144,30 @@
             font-size: 1.05rem;
             cursor: pointer;
             transition: all 0.2s ease;
-            color: var(--black, #222);
+            color: var(--ink);
         }
 
         .option-btn:hover {
             border-color: var(--sage-deep, #3d5a45);
-            background: #f7fafc;
+            background: var(--cream-dark);
         }
 
         .option-btn.selected {
             border-color: var(--sage-deep, #3d5a45);
-            background: #edfdf1;
-            color: var(--sage-deep, #3d5a45);
+            background: var(--green-light);
+            color: var(--green);
         }
 
         .option-btn.correct {
-            border-color: #38a169 !important;
-            background-color: #f0fff4 !important;
-            color: #276749 !important;
+            border-color: var(--green) !important;
+            background-color: var(--green-light) !important;
+            color: var(--green) !important;
         }
 
         .option-btn.incorrect {
-            border-color: #e53e3e !important;
-            background-color: #fff5f5 !important;
-            color: #9b2c2c !important;
+            border-color: var(--rose) !important;
+            background-color: var(--rose-light) !important;
+            color: var(--rose) !important;
         }
 
         .option-btn.disabled {
@@ -182,8 +185,8 @@
         }
 
         .breakdown-card {
-            background: #fcfbfa;
-            border: 2px solid #edf2f7;
+            background: var(--cream-dark);
+            border: 2px solid var(--border);
             border-radius: 12px;
             padding: 1.25rem;
             box-shadow: 0 4px 6px rgba(0,0,0,0.02);
@@ -207,19 +210,19 @@
         .breakdown-metric {
             font-size: 1.8rem;
             font-weight: 900;
-            color: var(--black, #222);
+            color: var(--ink);
             margin-bottom: 0.5rem;
         }
 
         .breakdown-desc {
             font-size: 0.95rem;
-            color: #4a5568;
+            color: var(--ink-soft);
             line-height: 1.5;
         }
 
         /* Speaking Gap Notice Box */
         .gap-notice-box {
-            background: #fffaf0;
+            background: var(--honey-pale);
             border-left: 5px solid var(--honey-dark, #b7791f);
             padding: 1.25rem;
             border-radius: 8px;
@@ -239,14 +242,14 @@
 
         .gap-notice-text {
             font-size: 0.95rem;
-            color: #744210;
+            color: var(--ink-soft);
             line-height: 1.6;
         }
 
         /* Detailed Sub-Skill Diagnostics */
         .diagnostic-section {
-            background: #fff;
-            border: 2px solid #edf2f7;
+            background: var(--surface-color);
+            border: 2px solid var(--border);
             border-radius: 12px;
             padding: 1.5rem;
             margin: 2rem 0;
@@ -260,7 +263,7 @@
             font-weight: 700;
             color: var(--sage-deep, #3d5a45);
             margin-bottom: 1.2rem;
-            border-bottom: 2px solid #f7fafc;
+            border-bottom: 2px solid var(--border);
             padding-bottom: 0.5rem;
             display: flex;
             align-items: center;
@@ -281,7 +284,7 @@
             font-weight: 700;
             font-size: 0.95rem;
             margin-bottom: 0.4rem;
-            color: #2d3748;
+            color: var(--ink-soft);
         }
 
         .skill-percentage {
@@ -290,7 +293,7 @@
 
         .skill-track {
             height: 10px;
-            background: #edf2f7;
+            background: var(--cream-dark);
             border-radius: 5px;
             overflow: hidden;
             width: 100%;
@@ -306,8 +309,8 @@
 
         /* Hyper-Personalized Action Plan */
         .action-plan-box {
-            background: #fcfbfa;
-            border: 2px dashed #cbd5e0;
+            background: var(--cream-dark);
+            border: 2px dashed var(--border);
             border-radius: 12px;
             padding: 1.5rem;
             margin: 2rem 0;
@@ -338,7 +341,7 @@
             align-items: flex-start;
             gap: 0.75rem;
             font-size: 1rem;
-            color: #4a5568;
+            color: var(--ink-soft);
             line-height: 1.5;
         }
 
@@ -380,7 +383,7 @@
         }
 
         .action-cta-secondary {
-            background: #fff;
+            background: var(--surface-color);
             color: var(--sage-deep, #3d5a45);
             border: 2px solid var(--sage-deep, #3d5a45);
         }
@@ -910,10 +913,10 @@
             // Adaptive Pivot Transition Card
             setTimeout(() => {
                 const pivotHtml = `
-                    <div class="question-card" style="display: block; text-align: center; padding: 2.5rem 1.5rem; border: 2px dashed var(--honey-dark, #b7791f); border-radius: 12px; background: #fffaf0; box-shadow: 0 4px 15px rgba(183,121,31,0.05); animation: fadeIn 0.4s ease;">
+                    <div class="question-card" style="display: block; text-align: center; padding: 2.5rem 1.5rem; border: 2px dashed var(--honey-dark, #b7791f); border-radius: 12px; background: var(--honey-pale); box-shadow: 0 4px 15px rgba(183,121,31,0.05); animation: fadeIn 0.4s ease;">
                         <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
                         <div class="question-text" style="color: var(--honey-dark, #b7791f); font-family: 'Lora', serif; font-size: 1.45rem; margin-bottom: 1rem;">Adaptive Level Calibration</div>
-                        <p style="font-size: 1.05rem; color: #744210; line-height: 1.6; max-width: 500px; margin: 0 auto 1.5rem;">
+                        <p style="font-size: 1.05rem; color: var(--ink-soft); line-height: 1.6; max-width: 500px; margin: 0 auto 1.5rem;">
                             Receptive baseline established. We are dynamically optimizing your testing path and pivoting directly to the Conversational Speaking checkpoints to calibrate your active production.
                         </p>
                     </div>
@@ -1035,9 +1038,9 @@
             };
 
             gapHtml = `
-                <div class="gap-notice-box" id="dynamic-gap-notice" style="border-left-color: #38a169; background: #f0fff4;">
-                    <div class="gap-notice-title" style="color: #276749;">${balancedTitles[selectedLang]}</div>
-                    <div class="gap-notice-text" style="color: #276749;">${balancedTexts[selectedLang]}</div>
+                <div class="gap-notice-box" id="dynamic-gap-notice" style="border-left-color: var(--green); background: var(--green-light);">
+                    <div class="gap-notice-title" style="color: var(--green);">${balancedTitles[selectedLang]}</div>
+                    <div class="gap-notice-text" style="color: var(--ink-soft);">${balancedTexts[selectedLang]}</div>
                 </div>
             `;
         }

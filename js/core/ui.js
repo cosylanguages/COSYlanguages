@@ -232,9 +232,9 @@
 
         this.innerHTML = `
           <div class="vim-choice-tabs" style="display:flex;gap:5px;margin-bottom:10px;overflow-x:auto;padding-bottom:5px;">
-            ${titles.map((t, i) => `<button class="vim-tab-btn ${i === 0 ? 'active' : ''}" data-idx="${i}" style="padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:#fff;cursor:pointer;font-size:.75rem;white-space:nowrap;">${t}</button>`).join('')}
+            ${titles.map((t, i) => `<button class="vim-tab-btn ${i === 0 ? 'active' : ''}" data-idx="${i}" style="padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:var(--surface-color);color:var(--ink);cursor:pointer;font-size:.75rem;white-space:nowrap;">${t}</button>`).join('')}
           </div>
-          <div class="vim-choice-content" style="border:1px solid var(--border);border-radius:10px;padding:15px;background:#fff;">
+          <div class="vim-choice-content" style="border:1px solid var(--border);border-radius:10px;padding:15px;background:var(--surface-color);color:var(--ink);">
             ${contents.map((c, i) => `<div class="vim-tab-pane" style="display:${i === 0 ? 'block' : 'none'};">${c}</div>`).join('')}
           </div>
         `;
@@ -261,7 +261,7 @@
       connectedCallback() {
         const importance = this.getAttribute('importance') || 'basic';
         const content = this.innerHTML;
-        this.innerHTML = `<blockquote class="vim-bq-${importance}" style="margin:0;padding:15px;border-radius:8px;background:#f9f9f9;border-left:4px solid var(--border);font-size:.9rem;">${content}</blockquote>`;
+        this.innerHTML = `<blockquote class="vim-bq-${importance}" style="margin:0;padding:15px;border-radius:8px;background:var(--cream-dark);border-left:4px solid var(--border);font-size:.9rem;color:var(--ink);">${content}</blockquote>`;
       }
     }
 
