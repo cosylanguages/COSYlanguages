@@ -297,7 +297,52 @@
         showHint: () => window.showHint && window.showHint()
     };
 
+    function renderThemeProgressTrackers() {
+        const listEl = document.getElementById('progress-trackers-list');
+        if (!listEl) return;
+
+        // Pull stored mastery map or initialize empty
+        let mastery = {};
+        try {
+            mastery = JSON.parse(localStorage.getItem('cosy_theme_mastery') || '{}');
+        } catch (e) {
+            mastery = {};
+        }
+
+        const themes = window.COSY_THEME_TREE ? Object.keys(window.COSY_THEME_TREE) : [
+            'Psychology_&_Mind', 'Society_&_Politics', 'Influences_&_Biases',
+            'Habits_&_Addiction', 'Food,_Drink_&_Health', 'Science_&_Technology',
+            'Philosophy_&_Ethics', 'Art,_Culture_&_Entertainment',
+            'Work,_Career_&_Education', 'Travel_&_Nature'
+        ];
+
+        listEl.innerHTML = themes.map(theme => {
+            const progress = mastery[theme] || 0;
+            const displayName = (window.t && window.t('theme_' + theme)) || theme.replace(/_/g, ' ');
+
+            // Choose nice colors for progress indicators
+            let progressColor = 'var(--teal)';
+            if (progress < 30) progressColor = 'var(--coral)';
+            else if (progress < 70) progressColor = 'var(--gold)';
+
+            return `
+                <div class="progress-tracker-row">
+                    <div class="progress-tracker-info">
+                        <span class="tracker-theme-name">${displayName}</span>
+                        <span class="tracker-theme-val" style="color: ${progressColor}">${progress}%</span>
+                    </div>
+                    <div class="tracker-progress-bg">
+                        <div class="tracker-progress-bar" style="width: ${progress}%; background: ${progressColor};"></div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
     function initSetupUI() {
+        // Render progress trackers
+        renderThemeProgressTrackers();
+
         // Popoulate Languages
         const langContainer = document.getElementById('lang-pills');
         if (langContainer && window.COSY_LANGUAGES) {
@@ -327,6 +372,9 @@
         updateThemes();
         generateDailyChallenge();
     }
+
+    // Expose progress rendering globally
+    window.cosyRenderThemeProgressTrackers = renderThemeProgressTrackers;
 
     document.addEventListener('DOMContentLoaded', () => {
         initSetupUI();

@@ -1119,3 +1119,253 @@
     font-size: 0.82rem;
   }
 }
+
+/* ── THEME MASTERY PROGRESS TRACKER PANEL ── */
+.setup-dashboard-wrapper {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+.theme-progress-panel {
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 1.1rem;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.02);
+}
+.progress-title {
+  font-family: 'Fraunces', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: var(--ink);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+.progress-trackers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 250px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+.progress-trackers-list::-webkit-scrollbar {
+  width: 4px;
+}
+.progress-trackers-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.progress-trackers-list::-webkit-scrollbar-thumb {
+  background: var(--border-hover);
+  border-radius: 4px;
+}
+.progress-tracker-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.progress-tracker-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.76rem;
+  font-weight: 500;
+}
+.tracker-theme-name {
+  color: var(--ink-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 140px;
+}
+.tracker-theme-val {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+}
+.tracker-progress-bg {
+  height: 6px;
+  background: rgba(28, 25, 23, 0.06);
+  border-radius: 100px;
+  overflow: hidden;
+}
+.tracker-progress-bar {
+  height: 100%;
+  border-radius: 100px;
+  transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (max-width: 768px) {
+  .setup-dashboard-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── SPEAKING WAVEFORM WIDGET STYLES ── */
+.speaking-widget-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background: var(--cream);
+  padding: 1.5rem;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+  margin: 1rem auto;
+  max-width: 360px;
+}
+.speaking-mic-btn {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 2px solid var(--teal);
+  background: var(--warm-white);
+  color: var(--teal);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 4px 12px rgba(45, 125, 111, 0.15);
+  outline: none;
+}
+.speaking-mic-btn .mic-icon {
+  font-size: 2rem;
+  z-index: 5;
+}
+.speaking-mic-btn .mic-pulse {
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid var(--teal);
+  opacity: 0;
+  transform: scale(1);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.speaking-mic-btn.recording {
+  background: var(--coral-light);
+  border-color: var(--coral);
+  color: var(--coral);
+  box-shadow: 0 0 16px rgba(196, 82, 42, 0.4);
+}
+.speaking-mic-btn.recording .mic-pulse {
+  animation: mic-pulsate 1.5s infinite;
+  border-color: var(--coral);
+  opacity: 1;
+}
+@keyframes mic-pulsate {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.3); opacity: 0; }
+}
+.speaking-timer {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+.waveform-wrap {
+  width: 100%;
+  height: 80px;
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.waveform-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ── SCRAMBLE EXERCISE STYLES ── */
+.scramble-container {
+  margin: 1.5rem 0;
+}
+.scramble-assembly {
+  min-height: 70px;
+  background: var(--cream);
+  border: 2px dashed var(--border-hover);
+  border-radius: var(--r-lg);
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  position: relative;
+  transition: all 0.2s ease;
+  margin-bottom: 1.5rem;
+}
+.scramble-assembly:empty::before {
+  content: "Tap the word tiles to build your sentence...";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--ink-faint);
+  font-size: 0.88rem;
+  font-style: italic;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.scramble-tokens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.sc-tile {
+  background: var(--warm-white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 8px 16px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  color: var(--ink);
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(28,25,23,0.03);
+  transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+.sc-tile:hover:not(.disabled) {
+  border-color: var(--teal);
+  box-shadow: 0 4px 8px rgba(45,125,111,0.08);
+  transform: translateY(-1px);
+}
+.sc-tile:active {
+  transform: translateY(1px);
+}
+.sc-tile.placed {
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+  transform: scale(0.95);
+  box-shadow: none;
+}
+.scramble-assembly .sc-tile {
+  background: var(--teal-light);
+  border-color: var(--teal);
+  color: var(--teal);
+  animation: popTile 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.15) forwards;
+}
+@keyframes popTile {
+  0% { transform: scale(0.85); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .scramble-assembly {
+    min-height: 60px;
+    padding: 8px;
+  }
+  .sc-tile {
+    padding: 6px 12px;
+    font-size: 0.88rem;
+  }
+}

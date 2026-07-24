@@ -189,20 +189,37 @@
 
         renderScramble(q) {
             const words = q.ans.split(' ').sort(() => Math.random() - 0.5);
-            return `<div id="sc-assembly" style="min-height:60px; border-bottom:2px solid var(--border); margin-bottom:1rem; display:flex; flex-wrap:wrap; gap:8px; padding:10px;"></div>
-                   <div id="sc-tokens" class="mc-options" style="grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));">
-                     ${words.map(w => `<button class="mc-opt" onclick="window.assembleWord(this)">${w}</button>`).join('')}
-                   </div>
-                   <div style="display:flex; gap:10px; margin-top:1rem;">
-                     <button class="btn-outline" onclick="window.clearScramble()">Clear 🔄</button>
-                     <button class="btn-start" style="flex:1" onclick="window.checkScramble()">Check Scramble ✅</button>
-                   </div>`;
+            return `<div class="scramble-container">
+                      <div id="sc-assembly" class="scramble-assembly"></div>
+                      <div id="sc-tokens" class="scramble-tokens">
+                        ${words.map(w => `<button class="sc-tile" onclick="window.assembleWord(this)">${w}</button>`).join('')}
+                      </div>
+                    </div>
+                    <div style="display:flex; gap:10px; margin-top:1rem;">
+                      <button class="btn-outline" onclick="window.clearScramble()">Clear 🔄</button>
+                      <button class="btn-start" style="flex:1" onclick="window.checkScramble()">Check Scramble ✅</button>
+                    </div>`;
         },
 
         renderConv(q) {
-            return `<div class="info-card glass" style="text-align:center; padding: 2rem;">
-                <p style="margin-bottom:1.5rem; font-size:1.1rem;">${q.q || 'Speak the prompt aloud.'}</p>
-                <button class="btn-start" onclick="cosyPracticeEngine.awardPoints(10); nextQuestion()">Mark as done ✅</button>
+            return `<div class="info-card glass" style="text-align:center; padding: 2rem; position: relative;">
+                <p style="margin-bottom:1.5rem; font-size:1.1rem; font-weight: 500;">${q.q || 'Speak the prompt aloud.'}</p>
+
+                <div class="speaking-widget-container">
+                    <button id="speaking-mic-btn" class="speaking-mic-btn" onclick="window.cosyToggleAudioRecording()">
+                        <span class="mic-pulse"></span>
+                        <span class="mic-icon">🎙️</span>
+                    </button>
+                    <div id="speaking-timer" class="speaking-timer">Tap mic to speak</div>
+                    <div class="waveform-wrap">
+                        <canvas id="speaking-waveform" class="waveform-canvas" width="320" height="80"></canvas>
+                    </div>
+                </div>
+
+                <div style="margin-top: 1.5rem; display: flex; gap: 12px; justify-content: center; align-items: center;">
+                    <button class="btn-outline" onclick="window.cosyCleanupAudio(); cosyPracticeEngine.awardPoints(10); nextQuestion()">Skip & Mark Done ✅</button>
+                    <button id="speaking-submit-btn" class="btn-start" style="opacity: 0.5; pointer-events: none;" onclick="window.cosySubmitAudioRecording()">Submit Recording 🚀</button>
+                </div>
             </div>`;
         },
 
