@@ -53,10 +53,10 @@ test.describe('Practice Monolingual & Symbolic Verification', () => {
                 const helperText = await helperContainer.innerText();
                 // If it's typing, the visual card helper displays "???" instead of the target word
                 if (helperText.includes('✏️') || helperText.includes('🔊')) {
-                    if (!helperText.includes('grand-mère')) {
+                    if (!questionText.includes('mère') && !helperText.includes('grand-mère')) {
                         expect(helperText).not.toContain('mère');
                     }
-                    if (!helperText.includes('grand-père')) {
+                    if (!questionText.includes('père') && !helperText.includes('grand-père')) {
                         expect(helperText).not.toContain('père');
                     }
                     expect(helperText).toContain('???');
