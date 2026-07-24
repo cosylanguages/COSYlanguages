@@ -283,6 +283,24 @@
                     if (!q) return;
                     const form = q.form || q.type;
 
+                    // Support pressing 'S' key to play listening audio
+                    if ((e.key === 's' || e.key === 'S') && form === 'ls') {
+                        const playBtn = Array.from(document.querySelectorAll('.btn-outline')).find(b => b.textContent.includes('Play Audio')) || document.querySelector('button[onclick*="speak"]');
+                        if (playBtn) {
+                            e.preventDefault();
+                            playBtn.click();
+                            playBtn.classList.add('active');
+                            setTimeout(() => playBtn.classList.remove('active'), 150);
+                        }
+                    }
+
+                    // Support pressing 'C' key to Clear scramble
+                    if ((e.key === 'c' || e.key === 'C') && form === 'sc') {
+                        e.preventDefault();
+                        window.clearScramble();
+                        return;
+                    }
+
                     if (e.key === 'Enter') {
                         const nextBtn = document.getElementById('pe-next');
                         const isNextVisible = nextBtn && nextBtn.style.display !== 'none';
@@ -290,23 +308,42 @@
                             e.preventDefault();
                             this.nextQuestion();
                         }
-                    } else if (['1', '2', '3', '4'].includes(e.key)) {
+                    } else if (['1', '2', '3', '4', '5', '6', '7', '8', '9'].includes(e.key)) {
                         if (form === 'mc' || form === 'ls') {
                             const idx = parseInt(e.key) - 1;
                             const buttons = document.querySelectorAll('.mc-opt');
                             if (buttons[idx] && !buttons[idx].disabled) {
                                 e.preventDefault();
+                                buttons[idx].classList.add('active');
+                                setTimeout(() => buttons[idx].classList.remove('active'), 150);
                                 buttons[idx].click();
                             }
                         } else if (form === 'tf') {
                             if (e.key === '1') {
                                 e.preventDefault();
-                                const btn = document.querySelector('.tf-btn:first-child');
-                                if (btn && !btn.disabled) btn.click();
+                                const btn = document.querySelector('.tf-btn-true');
+                                if (btn && !btn.disabled) {
+                                    btn.classList.add('active');
+                                    setTimeout(() => btn.classList.remove('active'), 150);
+                                    btn.click();
+                                }
                             } else if (e.key === '2') {
                                 e.preventDefault();
-                                const btn = document.querySelector('.tf-btn:last-child');
-                                if (btn && !btn.disabled) btn.click();
+                                const btn = document.querySelector('.tf-btn-false');
+                                if (btn && !btn.disabled) {
+                                    btn.classList.add('active');
+                                    setTimeout(() => btn.classList.remove('active'), 150);
+                                    btn.click();
+                                }
+                            }
+                        } else if (form === 'sc') {
+                            const idx = parseInt(e.key) - 1;
+                            const tile = document.getElementById(`sc-tile-${idx}`);
+                            if (tile && !tile.classList.contains('placed')) {
+                                e.preventDefault();
+                                tile.classList.add('active');
+                                setTimeout(() => tile.classList.remove('active'), 150);
+                                tile.click();
                             }
                         }
                     }
@@ -509,8 +546,10 @@
             document.getElementById('score-count').textContent = '0';
             document.getElementById('streak-count').textContent = this.state.streak;
 
-            document.getElementById('practice-section').classList.remove('hidden');
-            document.getElementById('practice-section').classList.add('active');
+            const practiceSec = document.getElementById('practice-section');
+            if (practiceSec) {
+                practiceSec.className = 'practice-engine active cat-' + cat.toLowerCase();
+            }
 
             const summaryModal = document.getElementById('summary-modal');
             if (summaryModal) summaryModal.style.display = 'none';

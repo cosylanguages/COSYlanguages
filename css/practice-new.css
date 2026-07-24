@@ -317,6 +317,7 @@
 }
 .cat-pill:hover { border-color: var(--border-hover); color: var(--ink); }
 .cat-pill.active { border-color: var(--teal); background: var(--teal-light); color: var(--teal); font-weight: 500; }
+.cat-pill[data-value="Vocabulary"].active, .cat-pill[data-value="vocabulary"].active { border-color: var(--teal); background: var(--teal-light); color: var(--teal); }
 .cat-pill[data-value="Grammar"].active, .cat-pill[data-value="grammar"].active { border-color: var(--plum); background: var(--plum-light); color: var(--plum); }
 .cat-pill[data-value="Speaking"].active, .cat-pill[data-value="speaking"].active { border-color: var(--coral); background: var(--coral-light); color: var(--coral); }
 .cat-pill[data-value="Pronunciation"].active, .cat-pill[data-value="pronunciation"].active { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
@@ -480,7 +481,40 @@
 .pec-lbl { font-size: .6rem; opacity: .5; text-transform: uppercase; letter-spacing: .05em; }
 
 .pe-progress-bar { height: 4px; background: rgba(255,255,255,.15); }
-.pe-progress-fill { height: 100%; background: var(--teal); transition: width .4s ease; }
+.pe-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--teal), #3e9e8e);
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 8px rgba(45, 125, 111, 0.6);
+  position: relative;
+}
+.practice-engine.cat-vocabulary .pe-progress-fill {
+  background: linear-gradient(90deg, var(--teal), #3e9e8e);
+  box-shadow: 0 0 8px rgba(45, 125, 111, 0.6);
+}
+.practice-engine.cat-grammar .pe-progress-fill {
+  background: linear-gradient(90deg, var(--plum), #9c6cb0);
+  box-shadow: 0 0 8px rgba(107, 63, 124, 0.6);
+}
+.practice-engine.cat-speaking .pe-progress-fill {
+  background: linear-gradient(90deg, var(--coral), #e07b55);
+  box-shadow: 0 0 8px rgba(196, 82, 42, 0.6);
+}
+.practice-engine.cat-pronunciation .pe-progress-fill {
+  background: linear-gradient(90deg, var(--blue), #5e8dd1);
+  box-shadow: 0 0 8px rgba(46, 95, 163, 0.6);
+}
+.pe-progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
+  animation: progress-shimmer 2s infinite linear;
+}
+@keyframes progress-shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
 
 .pe-body { padding: 2rem; }
 .pe-task-type { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-faint); margin-bottom: .5rem; }
@@ -504,10 +538,38 @@
 
 /* true/false */
 .tf-btns { display: flex; gap: 10px; margin-bottom: 1.4rem; }
-.tf-btn { flex: 1; border: 1.5px solid var(--border); background: var(--cream); border-radius: var(--r-lg); padding: 1rem; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: .95rem; font-weight: 500; color: var(--ink-muted); transition: all .18s; display: flex; align-items: center; justify-content: center; gap: 8px; }
-.tf-btn:hover:not(:disabled) { border-color: var(--border-hover); color: var(--ink); }
-.tf-btn.correct { border-color: var(--green); background: var(--green-light); color: var(--green); }
-.tf-btn.wrong { border-color: var(--coral); background: var(--coral-light); color: var(--coral); }
+.tf-btn {
+  flex: 1;
+  border: 1.5px solid var(--border);
+  background: var(--cream);
+  border-radius: var(--r-lg);
+  padding: 1rem;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  font-size: .95rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 2px 4px rgba(28,25,23,0.02);
+}
+.tf-btn-true:hover:not(:disabled) {
+  border-color: var(--green);
+  background: var(--green-light);
+  color: var(--green);
+  transform: translateY(-1px);
+}
+.tf-btn-false:hover:not(:disabled) {
+  border-color: var(--coral);
+  background: var(--coral-light);
+  color: var(--coral);
+  transform: translateY(-1px);
+}
+.tf-btn.correct { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; }
+.tf-btn.wrong { border-color: var(--coral) !important; background: var(--coral-light) !important; color: var(--coral) !important; }
 .tf-btn:disabled { cursor: default; }
 
 /* feedback bar */
@@ -548,9 +610,18 @@
   font-size: .84rem;
   padding: 10px 16px;
   cursor: pointer;
-  transition: all .15s;
+  transition: all .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.pe-btn-hint:hover { border-color: var(--border-hover); color: var(--ink); }
+.pe-btn-hint:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+  background: var(--teal-light);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(45,125,111,0.06);
+}
+.pe-btn-hint:active {
+  transform: translateY(1px);
+}
 .pe-btn-exit {
   background: none;
   border: none;
@@ -1165,6 +1236,13 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-color 0.2s ease;
+  padding: 4px;
+  border-radius: var(--r-sm);
+}
+.progress-tracker-row:hover {
+  transform: translateX(4px);
+  background-color: rgba(28, 25, 23, 0.02);
 }
 .progress-tracker-info {
   display: flex;
@@ -1200,6 +1278,33 @@
   .setup-dashboard-wrapper {
     grid-template-columns: 1fr;
   }
+}
+
+/* ── KEYCAP SHORTCUT BADGE STYLES ── */
+.keycap-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--warm-white);
+  border: 1.5px solid var(--border);
+  border-bottom-width: 3px;
+  border-radius: var(--r-sm);
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  color: var(--ink-muted);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  user-select: none;
+  pointer-events: none;
+  vertical-align: middle;
+}
+.mc-opt.active, .tf-btn.active, .btn-outline.active {
+  transform: scale(0.96) !important;
+  box-shadow: none !important;
+  border-bottom-width: 1.5px !important;
 }
 
 /* ── SPEAKING WAVEFORM WIDGET STYLES ── */
@@ -1353,6 +1458,9 @@
   border-color: var(--teal);
   color: var(--teal);
   animation: popTile 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.15) forwards;
+}
+.scramble-assembly .keycap-badge {
+  display: none !important;
 }
 @keyframes popTile {
   0% { transform: scale(0.85); opacity: 0; }
