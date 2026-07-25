@@ -1123,3 +1123,224 @@ vim-choice { margin-bottom: 1.5rem; }
 .celebrate-theme-item span {
   color: var(--muted);
 }
+
+/* 🧪 SCIENCE CLUB: Laboratory Microscope Glass Slides & Field Journal Specimen Cards */
+.science-history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.science-card {
+  background: var(--surface-color, #FFF);
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 15px 15px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 24px; /* Space for the pipette ruler */
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.science-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: #0F6E56;
+}
+
+/* Left-edge vertical graduated pipette/beaker ruler scale */
+.science-ruler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 100%;
+  border-right: 1px solid rgba(15, 110, 86, 0.2);
+  background: rgba(15, 110, 86, 0.03);
+  box-sizing: border-box;
+}
+
+.science-ruler::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 9px,
+    rgba(15, 110, 86, 0.3) 9px,
+    rgba(15, 110, 86, 0.3) 10px
+  );
+}
+
+.science-ruler::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 49px,
+    rgba(15, 110, 86, 0.6) 49px,
+    rgba(15, 110, 86, 0.6) 50px
+  );
+}
+
+/* Level tags styled as Periodic Table element squares */
+.periodic-element {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: 2px solid #0F6E56;
+  border-radius: 8px;
+  background: var(--surface-color, #FFF);
+  font-family: 'DM Sans', sans-serif;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+  line-height: 1.1;
+}
+
+.periodic-element .elem-num {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.periodic-element .elem-symbol {
+  font-size: 1.05rem;
+  font-weight: 900;
+  color: #0F6E56;
+  margin-top: 3px;
+}
+
+.periodic-element .elem-name {
+  font-size: 0.45rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
+.science-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 0.5rem 0.75rem;
+}
+
+.science-card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0 1rem 1rem 0.75rem;
+}
+
+.science-card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: var(--ink-deep, #1A1A1A);
+  line-height: 1.3;
+}
+
+.science-card-desc {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+  margin: 0 0 1rem 0;
+  flex-grow: 1;
+}
+
+.science-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px dashed var(--border);
+  padding-top: 0.75rem;
+  margin-top: auto;
+}
+
+.science-date {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.science-view-btn {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #0F6E56;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.science-view-btn:hover {
+  color: var(--sage-deep);
+}
+
+/* 📓 SCIENCE: Laboratory Field Journal Research Log Box */
+.science-journal-box {
+  background: rgba(15, 110, 86, 0.03);
+  border: 1px solid rgba(15, 110, 86, 0.15);
+  border-left: 4px solid #0F6E56;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  background-image:
+    linear-gradient(rgba(15, 110, 86, 0.02) 1px, transparent 1px);
+  background-size: 100% 20px;
+}
+
+.science-journal-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0F6E56;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.science-journal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.science-journal-item h5 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 0 0 0.25rem 0;
+}
+
+.science-journal-item p {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  margin: 0;
+  line-height: 1.4;
+}

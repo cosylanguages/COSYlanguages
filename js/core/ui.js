@@ -1473,21 +1473,93 @@
             id: "museums-movies-theater-stay-younger",
             pages: [
                 { lang: "en", path: "events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+                { lang: "en", path: "events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "where-you-live-shapes-dementia-risk",
             pages: [
                 { lang: "en", path: "events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+                { lang: "en", path: "events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "impersonation-accounts",
             pages: [
-                { lang: "en", path: "events/sessions/keeping-up-with-science/impersonation-accounts.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "events/fr/sessions/keeping-up-with-science/impersonation-accounts.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+                { lang: "en", path: "events/sessions/keeping-up-with-science/impersonation-accounts.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/keeping-up-with-science/impersonation-accounts.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        {
+            id: "your-fingers-hold-secret-brain-evolution",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/your-fingers-hold-secret-brain-evolution-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/your-fingers-hold-secret-brain-evolution-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "spider-creatures-origins-of-fatherhood",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/spider-creatures-origins-of-fatherhood-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/spider-creatures-origins-of-fatherhood-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "sensory-system-pain-disease",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/sensory-system-pain-disease-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/sensory-system-pain-disease-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "climate-scientist-warming-report",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/climate-scientist-warming-report-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/climate-scientist-warming-report-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "ozempic-obesity-revolution",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/ozempic-obesity-revolution-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/ozempic-obesity-revolution-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "animal-cooperation-language",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/animal-cooperation-language-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/animal-cooperation-language-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "hidden-regenerative-powers",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/hidden-regenerative-powers-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/hidden-regenerative-powers-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "brain-improving-in-90s",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/brain-improving-in-90s-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/brain-improving-in-90s-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "football-beats-shamrock",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/football-beats-shamrock-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/football-beats-shamrock-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "ai-and-the-brain",
+            pages: [
+                { lang: "en", path: "events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/ai-and-the-brain-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
