@@ -7,7 +7,7 @@ HANDCRAFTED_QUESTIONS = {
     "ai-reality-delusion.html": {
         "r1": [
             "★ Have you ever felt that an AI was just telling you what you wanted to hear?",
-            "★ Do you actively seek out opinions that disagree with yours to avoid confirmation bias?",
+            "★ Do you actively seek out opinions that disagree with yours to avoid bias?",
             "★ Would you ever become emotionally attached to an AI companion?",
             "★ Do you think loneliness is becoming a bigger problem in modern society?",
             "★ Have you ever met someone who strongly believed an online conspiracy theory?",
