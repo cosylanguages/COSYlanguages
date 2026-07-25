@@ -2991,16 +2991,54 @@ Oh, to be in love
 And never get out again"""
     },
     "one-of-the-greats": {
-        "helpers": ['Greatness', 'Haunting', 'Surrender', 'Struggle', 'Legacy'],
-        "lyrics": """She was one of the greats, they say
-Walking down her own unique way
-An aura of absolute [__________] around her
-With a beautiful and [__________] melody
+        "helpers": ['greats', 'trophies', 'stain', 'hungover', 'sadness'],
+        "lyrics": """[Verse 1]
+I crawled up from under the earth
+Broken nails and coughing dirt
+Spitting out my songs so you could sing along, oh
+And with each bedraggled breath, I knew I came back from the dead
+To show you how it's done, to show you what it takes
+To conquer and to crucify, to become one of the greats
+One of the greats
 
-She refused to [__________] to defeat
-Despite the intense [__________] on the street
-Leaving a powerful and lasting [__________]
-For generations to come and see"""
+[Verse 2]
+I kept a scream inside my chest, killed everyone I'd ever kissed
+Hung them on the wall like trophies, each name, a stain upon my lips
+I told the truth but could never see it through
+You see yourself hung on the wall but that song is not about you
+I wrote down all my fumbling visions transmitted by a television
+Got everything I thought I wanted and cried hungover in a hotel closet
+
+[Pre-Chorus]
+Did I get it right? Do I win the prize?
+Do you regret bringing me back to life?
+
+[Chorus]
+Arms outstretched, back from the dead
+Streetlights bursting overhead
+Arms outstretched, back from the dead
+Streetlights bursting overhead
+
+[Verse 3]
+I did my best, tried to impress, my childhood dream made flesh
+And my dresses and my flowering sadness, so like a woman to profit from her madness
+I was only beautiful under the lights, only powerful there
+Burned down at thirty-six
+Why did you dig me up for this?
+
+[Chorus]
+Arms outstretched, back from the dead
+Streetlights bursting overhead
+Arms outstretched, back from the dead
+Streetlights bursting overhead
+
+[Bridge]
+You'll bury me again, you'll say it's all pretend
+That I could never be great being held up against such male tastes
+Because who really gets to be one of the greats, one of the greats?
+But I've really done it this time (Ah-ah), this one is all mine
+I'll be up there with the man and the ten other women (Ah-ah)
+And the hundred greatest records of all time (Ah-ah)"""
     },
     "oui-ou-non": {
         "helpers": ['doute', 'réponse', 'message', 'choix', 'incertitude'],
@@ -4210,16 +4248,65 @@ N'ont pas soupçonné tant, ils étaient émerveillés
 Qu'un premier amour, leur premier amour était si fort"""
     },
     "un-raggio-di-sole": {
-        "helpers": ['raggio', 'sole', 'luce', 'gioia', 'natura'],
-        "lyrics": """Un raggio di sole per te
-Che illumina tutto intorno a me
-Un piccolo [__________] dorato
-In questo cielo stellato
+        "helpers": ['gabbia', 'sabbia', 'tacco', 'comico', 'lunatica'],
+        "lyrics": """Che lingua parli tu?
+Se dico vita, dimmi cosa intendi
+E come vivi tu?
+Se dico forza, attacchi o ti difendi
+T'ho detto amore e tu m'hai messo in gabbia
+M'hai scritto sempre ma era written sulla sabbia
+T'ho detto eccomi e volevi cambiarmi
+T'ho detto basta e m'hai detto non lasciarmi
 
-Sotto la calda luce del [__________]
-Il mio cuore si è risvegliato
-Una grande [__________] ci accompagna
-Attraverso questa bella [__________]"""
+Abbiamo fatto l'amore e mi hai detto mi dispiace
+Mi hai lanciato una scarpa col tacco e poi abbiamo fatto pace
+Abbiamo rifatto l'amore e ti è piaciuto un sacco
+E dopo un po' mi hai lanciato la solita scarpa col tacco
+Gridandomi di andare e di non tornare più
+Io ho fatto finta di uscire e tu hai acceso la TV
+E mentre un comico faceva ridere io ti ho sentito che piangevi
+Allora son tornato ma tanto già lo sapevi
+
+Che tornavo da te
+Senza niente da dire, senza tante parole
+Ma con in mano un raggio di sole per te
+Che sei lunatica
+Niente teorie con te soltanto pratica
+Praticamente amore
+Ti porto in dono un raggio di sole per te
+Un raggio di sole per te
+
+Che cosa pensi tu?
+Se dico amore, dimmi cosa intendi
+Siamo andati al mare e mi parlavi di montagna
+Abbiamo preso una casa in città e sogni la campagna
+Con gli uccellini, le anatre, e le oche
+I delfini, i conigli, le api, i papaveri, e le foche
+E ogni tanto ti perdo o mi perdo nei miei guai
+Ho lo zaino già pronto all'ingresso ma poi tanto tu già lo sai
+
+Che ritorno da te
+Senza niente da dire, senza tante parole
+Ma con in mano un raggio di sole per te
+Che sei lunatica
+Niente teorie con te soltanto pratica
+Praticamente amore
+Ti porto in dono un raggio di sole per te
+Un raggio di sole per te
+
+Che ritorno da te
+Senza niente da dire, senza tante parole
+Ma con in mano un raggio di sole per te
+Un raggio di sole per te
+Un raggio di sole per te
+
+Un raggio di sole per te
+Oh, oh
+Un raggio di sole per te
+Oh, oh
+Un raggio di sole per te
+Oh, oh
+Un raggio di sole, un raggio di sole per te"""
     },
     "unatta-estate": {
         "helpers": ['estate', 'spiaggia', 'mare', 'sole', 'libertà'],
@@ -4754,13 +4841,105 @@ Diamond (Yes), diamond (Yes), diamond (Yes), diamond (Yes), diamond (Yes), oh (O
 Where is my husband? (Ah)"""
     },
     "wheres-the-bathroom": {
-        "helpers": ['bathroom', 'dirty', 'apartment', 'pictures', 'wash'],
-        "lyrics": """Where's the [__________], where's the door?
-I've never seen such a [__________] floor!
-Why is your [__________] so extremely small?
-There are no [__________] on the wall!
-I need to [__________] my hands right now
-Show me where to go and how"""
+        "helpers": ['bathroom', 'hovel', 'chunky', 'eczema', 'vendetta'],
+        "lyrics": """[Naomi]
+Where's the bathroom?
+Where's the bathroom?
+I need to use the bathroom
+Tell me that you have a bathroom
+In this hovel you call home
+
+I don't know which was bumpier
+The plane ride or the taxi
+All these freeways are a nightmare
+Where's my purse? I need my comb!
+
+By the way, you’re looking healthy
+And by healthy I mean chunky
+I don't mean that as an insult
+I'm just stating it as fact
+
+I see your eczema is back
+
+Are you using the lotion that I sent you?
+If you're not gonna use it I’ll return it to the store
+God, I give you everything
+And still you just want more-more-more-more-more
+
+Where's the bathroom?
+Where's the bathroom?
+You haven't told me where your bathroom is!
+
+[Rebecca]
+It's upstairs!
+
+[Naomi]
+Okay, fine, I need the walk
+
+Well, your house is dot-dot-dot charming
+Though some florals wouldn't kill you
+Do you ever get a maid here?
+It's so nice to sit and talk
+
+Since when do you have a vendetta against vases?
+When did you stop wearing makeup?
+Are you sure that you’re not gay?
+I'd still love you if you were gay
+It would explain this vase vendetta
+Please just tell me if you're gay!
+
+[Rebecca]
+Again, I am not gay!
+
+[Naomi]
+Don't interrupt me!
+You're always with the talking
+I just got off a plane
+Give me a moment to catch my breath
+It's the least you can do since you
+Lived inside me for nine months
+And you still haven't told me
+Where
+The hell
+Your stupid bathroom is
+
+[Rebecca]
+Again, it’s upstairs!
+
+[Naomi]
+Oh, right! Thank you
+
+You call that a bathroom?
+That’s what passes for a bathroom?
+There were no bowls of rocks
+Or any decorative soaps
+
+You don't even have a bathmat
+Who doesn't have a bathmat?
+If you need a bathmat I can, oh, did you hear?
+
+A bishop in Wisconsin said something anti-Semitic
+So the temple has decided to boycott cheddar cheese
+Everyone asks how you’re doing
+How is widdle Becky?
+Is she still a bigshot lawyer?
+And to that, I just say please!
+
+You won't get a husband this way
+At least you have your career
+Oh wait, you threw out your career
+To chase this California dream
+I wasted all that dough on Harvard and Yale
+For you to be living in a dump
+
+In Nowhere, USA
+Getting fatter by the minute
+On this greasy, goyish food
+Just put my luggage in my room
+Could I get a glass of water?
+I'll be back in a moment
+I need to use the bathroom
+Again!"""
     },
     "whos-the-new-guy": {
         "helpers": ['ratings', 'episodes', 'painting', 'bomb', 'character'],
