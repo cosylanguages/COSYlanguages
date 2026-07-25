@@ -19,28 +19,8 @@
   .club-hero { background: linear-gradient(135deg, #0F6E56, #073b2d); color: white; padding: 4rem 2rem; text-align: center; }
   .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
   .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
-</style>
-<style>
-  .filter-btn {
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    border: 1px solid var(--border);
-    background: var(--cream, #FAF7F2);
-    cursor: pointer;
-    font-size: 0.85rem;
-    font-weight: 600;
-    transition: all 0.2s ease;
-  }
-  .filter-btn:hover {
-    background: var(--border);
-  }
-  .filter-btn.active {
-    background: #0F6E56;
-    color: white;
-    border-color: #0F6E56;
-  }
 </style></head>
-<body>
+<body class="theme-science">
 <nav id="cosy-nav"></nav>
 <header class="club-hero">
 <img alt="Science logo" src="../images/keepingupwithscience.png" style="height: 100px; width: auto; margin-bottom: 1.5rem;"/>
@@ -71,181 +51,483 @@
 <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
 </div><div class="club-filters" style="justify-content: flex-start; margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap;"><button class="filter-btn active" data-level="all">All Levels</button><button class="filter-btn" data-level="a1">A1</button><button class="filter-btn" data-level="a2">A2</button><button class="filter-btn" data-level="b1">B1</button><button class="filter-btn" data-level="b2">B2</button><button class="filter-btn" data-level="c1">C1</button><button class="filter-btn" data-level="c2">C2</button></div>
 <div class="history-body" style="display: block; padding: 0; border: none;">
-<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
-<h4 style="margin:0;font-size:1rem;">Why Your Grandmother Is an Evolutionary Mystery</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">10 August 2026</span>
+<div class="science-history-grid" id="science-history-grid">
+
+<!-- 1 -->
+<div class="science-specimen-card history-session" data-level="c1">
+<div class="science-slide-banner">
+<span class="club-tag tag-c1" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span>
+<span>10 August 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/grandmother-evolutionary-mystery.html" style="background:var(--indigo);">View Full Session →</a>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">👵</span>
 </div>
-<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
-<h4 style="margin:0;font-size:1rem;">We Are Living in the Most Creative Time Ever</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">30 July 2026</span>
+<h4 class="science-slide-title">Why Your Grandmother Is an Evolutionary Mystery</h4>
+<p class="science-slide-desc">Explore the biological hypothesis of post-reproductive longevity and how cooperative grandmothers helped shape early human brain evolution and survival.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-C1-01</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/grandmother-evolutionary-mystery.html">Analyze Slide →</a>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/living-most-creative-time.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Your Fingers Hold a Secret of Human Brain Evolution</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">17 July 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/your-fingers-hold-secret-brain-evolution.html" style="background:var(--indigo);">View Full Session →</a>
+
+<!-- 2 -->
+<div class="science-specimen-card history-session" data-level="c1">
+<div class="science-slide-banner">
+<span class="club-tag tag-c1" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span>
+<span>30 July 2026</span>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Culture Helps Your Body Stay Younger (Intermediate)</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">14 July 2026</span>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🎨</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/museums-movies-theater-stay-younger-intermediate.html" style="background:var(--indigo);">View Full Session →</a>
+<h4 class="science-slide-title">We Are Living in the Most Creative Time Ever</h4>
+<p class="science-slide-desc">Analyze the democratization of tools, content monetization, algorithm recommendations, and the rise of digital saturation versus genuine craftsmanship.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-C1-02</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/living-most-creative-time.html">Analyze Slide →</a>
 </div>
-<div class="history-session" data-level="a2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7; border:1px solid #F5CBA7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span></div>
-<h4 style="margin:0;font-size:1rem;">Culture Helps Your Body Stay Younger (Elementary)</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">14 July 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/museums-movies-theater-stay-younger-elementary.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Where You Live Shapes Your Dementia Risk (Intermediate)</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">13 July 2026</span>
+
+<!-- 3 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>17 July 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-intermediate.html" style="background:var(--indigo);">View Full Session →</a>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🖐️</span>
 </div>
-<div class="history-session" data-level="a2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7; border:1px solid #F5CBA7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span></div>
-<h4 style="margin:0;font-size:1rem;">Where You Live Shapes Your Dementia Risk (Elementary)</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">13 July 2026</span>
+<h4 class="science-slide-title">Your Fingers Hold a Secret of Human Brain Evolution</h4>
+<p class="science-slide-desc">Discover the biological correlation between manual dexterity, opposable thumbs, and neural network expansion that powered early human technological milestones.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-03</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/your-fingers-hold-secret-brain-evolution.html">Analyze Slide →</a>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-elementary.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Spider-like Creatures and the Origins of Fatherhood</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">12 July 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/spider-creatures-origins-of-fatherhood.html" style="background:var(--indigo);">View Full Session →</a>
+
+<!-- 4 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>14 July 2026</span>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Nervous System Networks &amp; Pain</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">09 July 2026</span>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🏛️</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/sensory-system-pain-disease.html" style="background:var(--indigo);">View Full Session →</a>
+<h4 class="science-slide-title">Culture Helps Your Body Stay Younger (Intermediate)</h4>
+<p class="science-slide-desc">Unpack neurobiological research showing how regular engagement with museums, cinema, and theatre stimulates cognitive reserves and slows somatic aging.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-04</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/museums-movies-theater-stay-younger-intermediate.html">Analyze Slide →</a>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Great Ape Laughter &amp; Human Speech</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">26 June 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/ape-laughter-speech-origin-intermediate.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Climate Scientist Warming Controversy</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">25 June 2026</span>
+
+<!-- 5 -->
+<div class="science-specimen-card history-session" data-level="a2">
+<div class="science-slide-banner">
+<span class="club-tag tag-a2" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7; border:1px solid #F5CBA7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span>
+<span>14 July 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/climate-scientist-warming-report.html" style="background:var(--indigo);">View Full Session →</a>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🎭</span>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Ozempic &amp; the Obesity Revolution</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">19 June 2026</span>
+<h4 class="science-slide-title">Culture Helps Your Body Stay Younger (Elementary)</h4>
+<p class="science-slide-desc">A simplified biological overview of how social and cultural interactions trigger neurochemical boosts, helping maintain emotional and physical youth.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-A2-05</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/museums-movies-theater-stay-younger-elementary.html">Analyze Slide →</a>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/ozempic-obesity-revolution.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">The Secret Language Behind Animal Cooperation</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">19 June 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/animal-cooperation-language.html" style="background:var(--indigo);">View Full Session →</a>
+
+<!-- 6 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>13 July 2026</span>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Humans May Have Hidden Regenerative Powers</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">17 June 2026</span>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">📍</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/hidden-regenerative-powers.html" style="background:var(--indigo);">View Full Session →</a>
+<h4 class="science-slide-title">Where You Live Shapes Your Dementia Risk (Intermediate)</h4>
+<p class="science-slide-desc">Deconstruct epidemiological studies mapping environmental stressors, walkability, green spaces, and air quality against chronic neurodegenerative risks.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-06</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-intermediate.html">Analyze Slide →</a>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Your Brain Can Keep Improving Into Your 90s</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">14 June 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/brain-improving-in-90s.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
-<h4 style="margin:0;font-size:1rem;">Why Grandparents Matter</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">13 June 2026</span>
+
+<!-- 7 -->
+<div class="science-specimen-card history-session" data-level="a2">
+<div class="science-slide-banner">
+<span class="club-tag tag-a2" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7; border:1px solid #F5CBA7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span>
+<span>13 July 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/grandparents-mental-health.html" style="background:var(--indigo);">View Full Session →</a>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🏡</span>
 </div>
-<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
-<h4 style="margin:0;font-size:1rem;">Social Decisions &amp; the Brain</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">02 June 2026</span>
+<h4 class="science-slide-title">Where You Live Shapes Your Dementia Risk (Elementary)</h4>
+<p class="science-slide-desc">Learn basic vocabulary related to neighborhood infrastructure and see how daily surroundings affect cognitive health and long-term memory protection.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-A2-07</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-elementary.html">Analyze Slide →</a>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/social-decisions-brain.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
-<h4 style="margin:0;font-size:1rem;">Mendelian Laws Broken</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">30 May 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/mendelian-laws-broken.html" style="background:var(--indigo);">View Full Session →</a>
+
+<!-- 8 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>12 July 2026</span>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">Why 'Football' Beats 'Shamrock'</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">20 May 2026</span>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🕷️</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/football-beats-shamrock.html" style="background:var(--indigo);">View Full Session →</a>
+<h4 class="science-slide-title">Spider-like Creatures and the Origins of Fatherhood</h4>
+<p class="science-slide-desc">Study harvestmen arachnids to understand evolutionary biological models of paternal care, egg guarding, and the genetic tradeoffs of raising offspring.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-08</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/spider-creatures-origins-of-fatherhood.html">Analyze Slide →</a>
 </div>
-<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
-<h4 style="margin:0;font-size:1rem;">Human Right-Handedness</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">17 May 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/right-handedness.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" data-level="b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">AI: Reality or Delusion</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">09 May 2026</span>
+
+<!-- 9 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>09 July 2026</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/ai-reality-delusion.html" style="background:var(--indigo);">View Full Session →</a>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🧠</span>
 </div>
-<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
-<h4 style="margin:0;font-size:1rem;">Impersonation Accounts</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">30 November 2025</span>
+<h4 class="science-slide-title">Nervous System Networks & Pain</h4>
+<p class="science-slide-desc">Deconstruct nociceptive signaling networks, neurological pathways, somatic pain receptors, and how psychological states alter chronic sensory perception.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-09</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/sensory-system-pain-disease.html">Analyze Slide →</a>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/impersonation-accounts.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" data-level="b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">The Future of Fusion Energy</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 August 2025</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/fusion-energy.html" style="background:var(--indigo);">View Full Session →</a>
+
+<!-- 10 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>26 June 2026</span>
 </div>
-<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
-<h4 style="margin:0;font-size:1rem;">Losing Spoken Words</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">30 June 2025</span>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🦍</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/losing-spoken-words.html" style="background:var(--indigo);">View Full Session →</a>
+<h4 class="science-slide-title">Great Ape Laughter & Human Speech</h4>
+<p class="science-slide-desc">Explore evolutionary primatology tracking the phonetic roots of laughter, breathing dynamics, and the neurological transition from primate calls to syntax.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-10</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/ape-laughter-speech-origin-intermediate.html">Analyze Slide →</a>
 </div>
-<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
-<h4 style="margin:0;font-size:1rem;">AI &amp; the Brain</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">12 May 2025</span>
 </div>
-<a class="view-btn" href="sessions/keeping-up-with-science/ai-and-the-brain.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
+
+<!-- 11 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>25 June 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🌡️</span>
+</div>
+<h4 class="science-slide-title">Climate Scientist Warming Controversy</h4>
+<p class="science-slide-desc">Discuss scientific methodology, peer-reviewed climate modeling, political controversies over reporting thresholds, and the socio-economic impacts of climate policy.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-11</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/climate-scientist-warming-report.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 12 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>19 June 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">💊</span>
+</div>
+<h4 class="science-slide-title">Ozempic & the Obesity Revolution</h4>
+<p class="science-slide-desc">Unpack GLP-1 receptor agonists, endocrine system modifications, neurological pathways controlling appetite, and the major societal, ethical, and clinical outcomes.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-12</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/ozempic-obesity-revolution.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 13 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>19 June 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🐝</span>
+</div>
+<h4 class="science-slide-title">The Secret Language Behind Animal Cooperation</h4>
+<p class="science-slide-desc">Analyze social behavioral biology: chemical communication in ants, bio-acoustics in marine mammals, and the evolutionary trade-offs of cooperative altruism.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-13</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/animal-cooperation-language.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 14 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>17 June 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🦎</span>
+</div>
+<h4 class="science-slide-title">Humans May Have Hidden Regenerative Powers</h4>
+<p class="science-slide-desc">Investigate stem cell research, cellular reprogramming, blastema formation in lower vertebrates, and whether silent human genes could be re-activated for tissue healing.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-14</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/hidden-regenerative-powers.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 15 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>14 June 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">⚡</span>
+</div>
+<h4 class="science-slide-title">Your Brain Can Keep Improving Into Your 90s</h4>
+<p class="science-slide-desc">Examine adult neurogenesis, structural synaptic plasticity, myelination dynamics, and how demanding lifelong learning protects the aging prefrontal cortex.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-15</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/brain-improving-in-90s.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 16 -->
+<div class="science-specimen-card history-session" data-level="b1">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+<span>13 June 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🧸</span>
+</div>
+<h4 class="science-slide-title">Why Grandparents Matter</h4>
+<p class="science-slide-desc">Study the psychological and sociological impacts of intergenerational ties on mental health metrics, stress reduction, and community emotional safety.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B1-16</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/grandparents-mental-health.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 17 -->
+<div class="science-specimen-card history-session" data-level="c1">
+<div class="science-slide-banner">
+<span class="club-tag tag-c1" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span>
+<span>02 June 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">⚖️</span>
+</div>
+<h4 class="science-slide-title">Social Decisions & the Brain</h4>
+<p class="science-slide-desc">Analyze neuroeconomics, cognitive neuroscience, fMRI imaging tracking game theory decisions, and how the amygdala and prefrontal cortex weigh social fairness.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-C1-17</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/social-decisions-brain.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 18 -->
+<div class="science-specimen-card history-session" data-level="c1">
+<div class="science-slide-banner">
+<span class="club-tag tag-c1" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span>
+<span>30 May 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🧬</span>
+</div>
+<h4 class="science-slide-title">Mendelian Laws Broken</h4>
+<p class="science-slide-desc">Deconstruct molecular genetics: gene drives, epigenetic modifications, parental imprinting, and how synthetic biology challenges classic Mendelian models.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-C1-18</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/mendelian-laws-broken.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 19 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>20 May 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">☘️</span>
+</div>
+<h4 class="science-slide-title">Why 'Football' Beats 'Shamrock'</h4>
+<p class="science-slide-desc">Investigate psycholinguistic and cognitive science studies checking memory retrieval speeds, word frequency mapping, and emotional associations of nouns.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-19</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/football-beats-shamrock.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 20 -->
+<div class="science-specimen-card history-session" data-level="b1">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+<span>17 May 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">✍️</span>
+</div>
+<h4 class="science-slide-title">Human Right-Handedness</h4>
+<p class="science-slide-desc">Explore evolutionary biology and hemispheric brain lateralization theories explaining why right-handedness dominates human populations.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B1-20</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/right-handedness.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 21 -->
+<div class="science-specimen-card history-session" data-level="b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>09 May 2026</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🤖</span>
+</div>
+<h4 class="science-slide-title">AI: Reality or Delusion</h4>
+<p class="science-slide-desc">Examine artificial neural networks, deep learning logic, pattern recognition vs. genuine semantic comprehension, and the risk of automated hallucinations.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-21</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/ai-reality-delusion.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 22 -->
+<div class="science-specimen-card history-session" data-level="b1">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+<span>30 November 2025</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🎭</span>
+</div>
+<h4 class="science-slide-title">Impersonation Accounts</h4>
+<p class="science-slide-desc">Analyze social engineering, digital identity duplication, visual deepfakes, and the cognitive biases that allow online manipulation to succeed.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B1-22</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/impersonation-accounts.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 23 -->
+<div class="science-specimen-card history-session" data-level="b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>15 August 2025</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">⚛️</span>
+</div>
+<h4 class="science-slide-title">The Future of Fusion Energy</h4>
+<p class="science-slide-desc">Study plasma physics, tokamak reactors, magnetic confinement mechanics, net energy gain thresholds, and the scaling of sustainable green energy.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-23</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/fusion-energy.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 24 -->
+<div class="science-specimen-card history-session" data-level="b1">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+<span>30 June 2025</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🗣️</span>
+</div>
+<h4 class="science-slide-title">Losing Spoken Words</h4>
+<p class="science-slide-desc">Explore cognitive linguistics and neurological studies analyzing why active speech recall decreases under chronic screen-based visual distraction.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B1-24</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/losing-spoken-words.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
+<!-- 25 -->
+<div class="science-specimen-card history-session" data-level="b1 b2">
+<div class="science-slide-banner">
+<span class="club-tag tag-b1" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag tag-b2" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span>12 May 2025</span>
+</div>
+<div class="science-slide-body">
+<div class="science-chamber-outer">
+<span class="science-specimen-emoji">🔌</span>
+</div>
+<h4 class="science-slide-title">AI &amp; the Brain</h4>
+<p class="science-slide-desc">Deconstruct the comparative mechanics of deep reinforcement learning models against biological neural networks, synaptic plasticity, and energy efficiency.</p>
+<div class="science-slide-footer">
+<span class="science-slide-id">LOT: SCI-B2-25</span>
+<a class="science-slide-view" href="sessions/keeping-up-with-science/ai-and-the-brain.html">Analyze Slide →</a>
+</div>
+</div>
+</div>
+
 </div>
 </div>
 </div>
@@ -276,28 +558,5 @@
 <script src="../js/core/ui.js"></script>
 <script src="../js/data/pricing.js"></script>
 <script src="../js/config.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll('.filter-btn');
-  const sessions = document.querySelectorAll('.history-session');
-
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const selectedLevel = btn.getAttribute('data-level');
-
-      sessions.forEach(sess => {
-        const levels = (sess.getAttribute('data-level') || '').split(' ');
-        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
-          sess.style.display = 'flex';
-        } else {
-          sess.style.display = 'none';
-        }
-      });
-    });
-  });
-});
-</script></body>
+</body>
 </html>

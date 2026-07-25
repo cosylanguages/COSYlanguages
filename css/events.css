@@ -874,3 +874,176 @@ vim-choice { margin-bottom: 1.5rem; }
   color: #C53030;
   border-color: #FEB2B2;
 }
+
+/* ─── Premium Science Hub Microscope Slide Grid ─── */
+.science-history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.science-specimen-card {
+  background: var(--warm-white);
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  background-image: radial-gradient(rgba(15, 110, 86, 0.03) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.science-specimen-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(7, 55, 43, 0.12);
+  border-color: #0F6E56;
+}
+
+.science-slide-banner {
+  background: linear-gradient(135deg, #0F6E56, #07372b);
+  padding: 0.65rem 1rem;
+  color: white;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid var(--border);
+}
+
+.science-slide-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+/* Specimen microscope focal ring */
+.science-chamber-outer {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 52px;
+  height: 52px;
+  border: 2px dashed rgba(15, 110, 86, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0 0 6px rgba(15, 110, 86, 0.1);
+  transition: transform 0.4s ease, border-color 0.3s ease;
+}
+
+.science-specimen-card:hover .science-chamber-outer {
+  transform: rotate(45deg) scale(1.08);
+  border-color: #0F6E56;
+  border-style: solid;
+}
+
+.science-specimen-emoji {
+  font-size: 1.6rem;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+.science-specimen-card:hover .science-specimen-emoji {
+  transform: scale(1.1);
+}
+
+.science-slide-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--grey-darkest);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+  padding-right: 55px; /* Leave space for microscope chamber */
+}
+
+.science-slide-desc {
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  flex-grow: 1;
+}
+
+.science-slide-footer {
+  margin-top: auto;
+  border-top: 1px dashed var(--border);
+  padding-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.science-slide-id {
+  font-family: monospace;
+  background: rgba(15, 110, 86, 0.08);
+  color: #0F6E56;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.science-slide-view {
+  color: #0F6E56;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.science-specimen-card:hover .science-slide-view {
+  color: #07372b;
+}
+
+/* ─── Science Parent Theme Overrides (.theme-science) ─── */
+.theme-science .club-hero {
+  background: linear-gradient(135deg, #0F6E56, #07372b);
+  color: white;
+}
+
+.theme-science .filter-btn.active {
+  background: #0F6E56;
+  color: white;
+  border-color: #0F6E56;
+}
+
+.theme-science .filter-btn:hover:not(.active) {
+  border-color: #0F6E56;
+  color: #0F6E56;
+}
+
+.theme-science .back-link:hover {
+  color: #0F6E56;
+}
+
+.theme-science .cosy-breadcrumbs a:hover {
+  color: #0F6E56;
+}
+
+.theme-science .vocab-card:hover {
+  border-color: #0F6E56;
+  box-shadow: 0 8px 24px rgba(15, 110, 86, 0.1);
+}
+
+.theme-science .btn-add-dict:hover {
+  background: var(--cream);
+  border-color: #0F6E56;
+  color: #0F6E56;
+}
+
+.theme-science .btn-pronounce:hover {
+  border-color: #0F6E56;
+  color: #0F6E56;
+}
