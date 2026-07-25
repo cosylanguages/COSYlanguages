@@ -2,7 +2,7 @@ from playwright.sync_api import sync_playwright
 import os
 
 def run_cuj(page):
-    # Navigate to Let's Celebrate page
+    # 1. Navigate to Let's Celebrate parent page
     page.goto("http://localhost:8080/events/lets-celebrate.html")
     page.wait_for_timeout(1000)
 
@@ -10,26 +10,26 @@ def run_cuj(page):
     page.locator('#lc-hist').scroll_into_view_if_needed()
     page.wait_for_timeout(500)
 
-    # Take screenshot of all celebration past sessions cards (showing the beautiful grid of tags)
-    page.screenshot(path="verification/screenshots/celebrate_cards_all.png")
+    # Take screenshot of all 15 celebration past sessions cards (showing split levels)
+    page.screenshot(path="verification/screenshots/celebrate_cards_split_all.png")
     page.wait_for_timeout(500)
 
-    # Click on A1 level filter button (should show Simplicity, Workaholics, Urban Beekeeping)
-    page.locator('.filter-btn[data-level="a1"]').click()
-    page.wait_for_timeout(1000)
-    page.screenshot(path="verification/screenshots/celebrate_cards_a1.png")
+    # 2. Click on the first card view link (Urban Beekeeping Day Starter A1)
+    page.locator('.celebrate-card-view').first.click()
+    page.wait_for_timeout(1500)
 
-    # Click back to All Levels
-    page.locator('.filter-btn[data-level="all"]').click()
-    page.wait_for_timeout(1000)
+    # Take screenshot of the session page, including the Available Levels switcher and the Celebration Snapshot Box!
+    page.screenshot(path="verification/screenshots/celebrate_session_page.png")
+    page.wait_for_timeout(500)
 
-    # Hover over the first celebrate card to trigger the sway/rotate hover animation
-    page.locator('.celebrate-card').first.hover()
-    page.wait_for_timeout(1000)
-
-    # Take screenshot while hovering
-    page.screenshot(path="verification/screenshots/celebrate_cards_hover.png")
-    page.wait_for_timeout(1000)  # Hold final state for video
+    # 3. Click on the "Elementary (A2)" level switcher button to test interactive navigation
+    # It should have a switcher button matching text 'Elementary' or similar. Let's find it.
+    level_btn = page.get_by_role("link", name="Elementary (A2)")
+    if level_btn.is_visible():
+        level_btn.click()
+        page.wait_for_timeout(1500)
+        # Take a screenshot of the switched A2 page
+        page.screenshot(path="verification/screenshots/celebrate_session_switched_a2.png")
 
 if __name__ == "__main__":
     with sync_playwright() as p:

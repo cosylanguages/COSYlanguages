@@ -1059,3 +1059,67 @@ vim-choice { margin-bottom: 1.5rem; }
   color: #5c390b;
   transform: translateX(2px);
 }
+
+/* ─── Premium Let's Celebrate Theme Snapshot Box ─── */
+.celebrate-theme-box {
+  background: var(--surface-color, #FFFDF9);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+  box-sizing: border-box;
+}
+
+/* Gold foil-pressed dashed inner border matching parent page */
+.celebrate-theme-box::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  border: 1px dashed rgba(186, 117, 23, 0.35);
+  border-radius: 12px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.celebrate-theme-box h3 {
+  font-family: 'Playfair Display', serif;
+  color: #BA7517;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  z-index: 2;
+  position: relative;
+}
+
+.celebrate-theme-box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  z-index: 2;
+  position: relative;
+}
+
+.celebrate-theme-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.celebrate-theme-item strong {
+  color: var(--text-color, var(--ink));
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.celebrate-theme-item span {
+  color: var(--muted);
+}
