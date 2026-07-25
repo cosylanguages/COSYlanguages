@@ -6,11 +6,15 @@ DATABASE = {
     "national-simplicity-day.html": {
         "level": "Beginner (A1)",
         "focus": "Simple Present Structure",
-        "explanation": "The <strong>Simple Present Structure</strong> is used to talk about regular habits, routines, and permanent facts. For third-person singular subjects (he/she/it), we add <strong>-s</strong> or <strong>-es</strong> to the base verb (e.g., <em>tidy</em> becomes <em>tidies</em>, <em>go</em> becomes <em>goes</em>). Use <em>do/does</em> for questions and <em>don't/doesn't</em> for negative sentences.",
+        "explanation": "The <strong>Simple Present Structure</strong> is used to talk about regular habits, routines, and permanent facts.",
+        "rule_part_a": "Complete the rule: For general habits or routines, we use the Simple Present. For third-person singular (he/she/it), we add <strong>_____</strong> to the base verb. We use the auxiliary verb <strong>_____</strong> or <strong>_____</strong> for questions and negatives.",
+        "rule_answers": "-s/-es, do, does",
         "tasks": [
-            "He always <strong>_____</strong> (tidy) his desk every Saturday morning. <em>(Answer: tidies)</em>",
-            "We <strong>_____</strong> (not / live) in a noisy city; we prefer a quiet cottage. <em>(Answer: do not live / don't live)</em>",
-            "<strong>_____</strong> you <strong>_____</strong> (spend) time in nature often? <em>(Answer: Do, spend)</em>"
+            "She <strong>_____</strong> (tidy) her room every Saturday morning. <em>(Answer: tidies)</em>",
+            "They <strong>_____</strong> (not / like) busy city noise. <em>(Answer: do not like / don't like)</em>",
+            "<strong>_____</strong> you <strong>_____</strong> (spend) time in nature often? <em>(Answer: Do, spend)</em>",
+            "He <strong>_____</strong> (have) a very simple daily routine. <em>(Answer: has)</em>",
+            "My neighborhood <strong>_____</strong> (be) exceptionally peaceful and quiet. <em>(Answer: is)</em>"
         ],
         "speaking": "Describe your daily morning routine to your partner in 3 simple sentences using the Simple Present tense.",
         "r1": [
@@ -41,11 +45,15 @@ DATABASE = {
     "national-workaholics-day.html": {
         "level": "Beginner (A1)",
         "focus": "Modal Verbs of Obligation",
-        "explanation": "Modal verbs of obligation (<strong>must</strong>, <strong>have to</strong>, <strong>should</strong>) express rules, necessity, and advice. Use <strong>must</strong> and <strong>have to</strong> for strong, mandatory obligations (e.g., <em>'I must work overtime'</em>). Use <strong>should</strong> for recommendation, suggestions, or good advice (e.g., <em>'You should take a holiday'</em>). Remember that modal verbs are followed by the base form of the verb without <em>'to'</em> (except <em>have to</em>).",
+        "explanation": "Modal verbs of obligation (<strong>must</strong>, <strong>have to</strong>, <strong>should</strong>) express rules, necessity, and advice.",
+        "rule_part_a": "Complete the rule: To express a strong duty, we use <strong>_____</strong> or <strong>_____</strong>. For soft recommendations or advice, we use <strong>_____</strong>.",
+        "rule_answers": "must, have to, should",
         "tasks": [
-            "To avoid extreme stress, you <strong>_____</strong> (take) a holiday. <em>(Answer: should take)</em>",
-            "Employees <strong>_____</strong> (finish) their daily tasks before they leave. <em>(Answer: must finish / have to finish)</em>",
-            "We <strong>_____</strong> (not work) on Sundays; it is a strict company rule. <em>(Answer: must not work / don't have to work)</em>"
+            "You look exhausted; you <strong>_____</strong> (take) a holiday. <em>(Answer: should take)</em>",
+            "Employees <strong>_____</strong> (finish) their daily tasks before leaving. <em>(Answer: must finish / have to finish)</em>",
+            "We <strong>_____</strong> (not work) on Sundays; it is a strict company rule. <em>(Answer: must not work / don't have to work)</em>",
+            "She <strong>_____</strong> (arrive) at the office by 9:00 AM every day. <em>(Answer: has to arrive / must arrive)</em>",
+            "You <strong>_____</strong> (not / stress) too much about this small issue. <em>(Answer: should not stress / shouldn't stress)</em>"
         ],
         "speaking": "Tell your partner 3 things you \"must\" or \"have to\" do in your job, and 2 things you \"should\" do to relax.",
         "r1": [
@@ -76,11 +84,15 @@ DATABASE = {
     "urban-beekeeping-day-starter.html": {
         "level": "Starter / Beginner (A1)",
         "focus": "Simple Present & Singular/Plural Nouns",
-        "explanation": "Use <strong>Simple Present</strong> for general facts. For singular nouns (one thing), add <strong>-s</strong> or <strong>-es</strong> to the verb (e.g., <em>The bee fly<strong>s</strong></em> -> <em>The bee fl<strong>ies</strong></em>). For plural nouns (more than one, usually ending in <strong>-s</strong> like <em>bees</em>, <em>flowers</em>), use the base verb (e.g., <em>Bees fly</em>).",
+        "explanation": "Use <strong>Simple Present</strong> for general facts, matching the singular or plural forms of the nouns.",
+        "rule_part_a": "Complete the rule: Plural nouns usually end with <strong>_____</strong>. When the subject is singular (e.g., 'a bee'), the verb takes <strong>_____</strong>. When the subject is plural (e.g., 'bees'), we use the <strong>_____</strong> verb.",
+        "rule_answers": "-s, -s/-es, base",
         "tasks": [
             "A beekeeper <strong>_____</strong> (help) the bees in the garden. <em>(Answer: helps)</em>",
             "Many beautiful <strong>_____</strong> (flower) grow near my house. <em>(Answer: flowers)</em>",
-            "Bees <strong>_____</strong> (make) sweet honey. <em>(Answer: make)</em>"
+            "Bees <strong>_____</strong> (make) sweet honey. <em>(Answer: make)</em>",
+            "This small insect <strong>_____</strong> (fly) very fast. <em>(Answer: flies)</em>",
+            "Two green <strong>_____</strong> (tree) stand in front of my window. <em>(Answer: trees)</em>"
         ],
         "speaking": "Look around your room. Name 3 singular objects (e.g., 'a chair') and 3 plural objects (e.g., 'books') and describe what they are or do.",
         "r1": [
@@ -111,11 +123,15 @@ DATABASE = {
     "urban-beekeeping-day-elementary.html": {
         "level": "Elementary (A2)",
         "focus": "Adverbs of Frequency & Prepositions of Place",
-        "explanation": "<strong>Adverbs of frequency</strong> (<em>always, often, usually, sometimes, never</em>) describe how often we do things. They go <strong>before</strong> main verbs, but <strong>after</strong> the verb <em>'to be'</em>. <strong>Prepositions of place</strong> (<em>in, on, at, under, next to</em>) show where things are.",
+        "explanation": "<strong>Adverbs of frequency</strong> describe how often we do things, and <strong>prepositions of place</strong> show where things are.",
+        "rule_part_a": "Complete the rule: Adverbs of frequency go <strong>_____</strong> the main verb, but <strong>_____</strong> the verb 'to be'. Prepositions of place show <strong>_____</strong> something is located.",
+        "rule_answers": "before, after, where",
         "tasks": [
             "Bees are <strong>_____</strong> (often) found <strong>_____</strong> (in) beautiful gardens. <em>(Answer: often, in)</em>",
             "He <strong>_____</strong> (never) puts honey <strong>_____</strong> (on) his warm toast. <em>(Answer: never, on)</em>",
-            "We <strong>_____</strong> (sometimes) sit <strong>_____</strong> (under) the big green tree. <em>(Answer: sometimes, under)</em>"
+            "We <strong>_____</strong> (sometimes) sit <strong>_____</strong> (under) the big green tree. <em>(Answer: sometimes, under)</em>",
+            "The beekeeper <strong>_____</strong> (always) works <strong>_____</strong> (at) the hive. <em>(Answer: always, at / next to)</em>",
+            "There is a sweet flower <strong>_____</strong> (next to) the wooden box. <em>(Answer: next to)</em>"
         ],
         "speaking": "Describe where you usually keep honey and plants in your home using frequency adverbs and prepositions of place (e.g., 'I always keep flowers on the table').",
         "r1": [
@@ -146,11 +162,15 @@ DATABASE = {
     "diwali-festival.html": {
         "level": "Intermediate (B1)",
         "focus": "Narrative Past Tenses",
-        "explanation": "Use <strong>Past Simple</strong> for completed past actions (e.g., <em>'We lit diyas last night'</em>). Use <strong>Past Continuous</strong> for background events in progress in the past (e.g., <em>'We were preparing the feast when guests arrived'</em>). Use <strong>Past Perfect</strong> for actions that had completed before another point in the past (e.g., <em>'They had cleansed the house before the festivity began'</em>).",
+        "explanation": "Use <strong>Past Simple</strong>, <strong>Past Continuous</strong>, and <strong>Past Perfect</strong> to tell historical or personal past stories.",
+        "rule_part_a": "Complete the rule: Use <strong>_____</strong> for completed past actions, <strong>_____</strong> for background actions in progress, and <strong>_____</strong> for actions that occurred before another past action.",
+        "rule_answers": "Past Simple, Past Continuous, Past Perfect",
         "tasks": [
             "While she <strong>_____</strong> (decorate) the floor with rangoli, guests arrived. <em>(Answer: was decorating)</em>",
             "We <strong>_____</strong> (already cleanse) the entire house before the festival started. <em>(Answer: had already cleansed)</em>",
-            "Last year, they <strong>_____</strong> (celebrate) Diwali with a grand feast. <em>(Answer: celebrated)</em>"
+            "Last year, they <strong>_____</strong> (celebrate) Diwali with a grand feast. <em>(Answer: celebrated)</em>",
+            "When we arrived, they <strong>_____</strong> (light) dozens of colorful diyas. <em>(Answer: were lighting)</em>",
+            "My grandfather <strong>_____</strong> (tell) us many myths that he had learned in his youth. <em>(Answer: told)</em>"
         ],
         "speaking": "Describe a memorable holiday celebration from your childhood. What were you doing when it started, and what had your family prepared beforehand?",
         "r1": [
@@ -181,11 +201,15 @@ DATABASE = {
     "family-remittances-day.html": {
         "level": "Intermediate (B1)",
         "focus": "Expressing Support & Subjunctive Wishes",
-        "explanation": "To express wishes and hopes for support, we use patterns like <strong>I wish + Past Simple / would</strong> for unlikely/imaginary present situations (e.g., <em>'I wish my family were here'</em>), and subjunctive-like structures such as <strong>It is crucial / essential that + Subject + base verb</strong> (e.g., <em>'It is essential that he send the remittance on time'</em>). We can also use <strong>I hope + Present Simple</strong> for realistic future wishes.",
+        "explanation": "To express support and subjunctive wishes, use <strong>I wish + Past Simple / would</strong> or <strong>It is crucial / essential that + Subject + base verb</strong>.",
+        "rule_part_a": "Complete the rule: To express hypothetical wishes for others' welfare, use <strong>I wish + _____</strong>. For urgent importance, use <strong>It is crucial/essential that + Subject + _____</strong>.",
+        "rule_answers": "Past Simple / would, base verb",
         "tasks": [
             "It is essential that the migrant worker <strong>_____</strong> (receive) fair treatment. <em>(Answer: receive)</em>",
             "I wish my family <strong>_____</strong> (live) closer so we could celebrate together. <em>(Answer: lived)</em>",
-            "We hope that this financial support <strong>_____</strong> (help) them open a new business. <em>(Answer: helps)</em>"
+            "We hope that this financial support <strong>_____</strong> (help) them open a new business. <em>(Answer: helps)</em>",
+            "It is crucial that he <strong>_____</strong> (transfer) the household income today. <em>(Answer: transfer)</em>",
+            "I wish the transaction fees <strong>_____</strong> (be) much lower. <em>(Answer: were)</em>"
         ],
         "speaking": "Share 3 wishes or hopes you have for your family's future financial stability and prosperity using 'I wish' and 'I hope' structures.",
         "r1": [
@@ -216,11 +240,15 @@ DATABASE = {
     "international-asteroid-day-intermediate.html": {
         "level": "Intermediate (B1)",
         "focus": "Speculative Future Predictions",
-        "explanation": "To make speculative future predictions, we use modal verbs like <strong>will</strong>, <strong>may</strong>, <strong>might</strong>, or the phrase <strong>is/are likely to</strong> + base verb. Use <strong>will</strong> when you are certain, <strong>may/might</strong> when you are unsure or speculating, and <strong>is likely to</strong> for probable events.",
+        "explanation": "To make speculative future predictions, we use modal verbs like <strong>will</strong>, <strong>may</strong>, <strong>might</strong>, or the phrase <strong>is/are likely to</strong>.",
+        "rule_part_a": "Complete the rule: To express absolute future certainty, we use <strong>_____</strong>. For less certain predictions or speculations, we use <strong>_____</strong> or <strong>_____</strong>.",
+        "rule_answers": "will, may, might",
         "tasks": [
             "Scientists <strong>_____</strong> (probably discover) a new asteroid next year. <em>(Answer: will probably discover)</em>",
             "We <strong>_____</strong> (not colonize) Mars in this century, but it is possible. <em>(Answer: might not colonize / may not colonize)</em>",
-            "Space tourism <strong>_____</strong> (be) likely to become cheaper soon. <em>(Answer: is likely to be)</em>"
+            "Space tourism <strong>_____</strong> (be) likely to become cheaper soon. <em>(Answer: is)</em>",
+            "A major collision <strong>_____</strong> (cause) global climate changes. <em>(Answer: will / might / may)</em>",
+            "Astronomers <strong>_____</strong> (detect) small objects using the new telescope. <em>(Answer: will / might / may)</em>"
         ],
         "speaking": "Share 2 speculative predictions about what space exploration and planet protection will look like in 50 years using 'might' and 'will'.",
         "r1": [
@@ -251,11 +279,15 @@ DATABASE = {
     "international-asteroid-day-upper-intermediate.html": {
         "level": "Upper-Intermediate (B2)",
         "focus": "Speculative Future Predictions",
-        "explanation": "For advanced future speculation, use <strong>Future Continuous</strong> (<em>will be + verb-ing</em>) for actions in progress in the future, and <strong>Future Perfect</strong> (<em>will have + past participle</em>) for actions completed before a certain future point. You can also use speculative modals like <strong>may well</strong>, <strong>could</strong>, or <strong>should</strong> to express varying levels of certainty.",
+        "explanation": "Use <strong>Future Continuous</strong> and <strong>Future Perfect</strong> alongside advanced speculative modal helpers.",
+        "rule_part_a": "Complete the rule: To describe an action in progress in the future, use <strong>_____</strong>. To describe an action completed by a specific future point, use <strong>_____</strong>.",
+        "rule_answers": "Future Continuous, Future Perfect",
         "tasks": [
             "By 2050, scientists <strong>_____</strong> (establish) a permanent lunar observatory. <em>(Answer: will have established)</em>",
             "This time next year, astronauts <strong>_____</strong> (train) for the deep-space mission. <em>(Answer: will be training)</em>",
-            "Space agencies <strong>_____</strong> well have diverted the asteroid by the end of the decade. <em>(Answer: may / could / should)</em>"
+            "Space agencies <strong>_____</strong> well have diverted the asteroid by the end of the decade. <em>(Answer: may / could)</em>",
+            "By the turn of the next century, humans <strong>_____</strong> (explore) far beyond Mars. <em>(Answer: will have explored)</em>",
+            "Scientists <strong>_____</strong> (monitor) solar storms continuously over the next few years. <em>(Answer: will be monitoring)</em>"
         ],
         "speaking": "What major astronomical or defensive milestone will humanity have achieved by 2080? Explain what scientists will be working on then.",
         "r1": [
@@ -286,11 +318,15 @@ DATABASE = {
     "international-peace-love-day-intermediate.html": {
         "level": "Intermediate (B1)",
         "focus": "Phrasal Verbs of Connection",
-        "explanation": "Phrasal verbs of connection describe how we relate to, communicate with, and unite with others. Common examples include: <strong>bring together</strong> (to unite), <strong>bond with</strong> (to form a close relationship), <strong>reach out to</strong> (to contact or offer help), <strong>get along with</strong> (to have a friendly relationship), and <strong>connect with</strong>.",
+        "explanation": "Use phrasal verbs of connection like <strong>bring together</strong>, <strong>bond with</strong>, and <strong>reach out to</strong>.",
+        "rule_part_a": "Complete the rule: Phrasal verbs consist of a <strong>_____</strong> + a particle. For connections, 'to bring people together' means to <strong>_____</strong>, and 'to bond with someone' means to <strong>_____</strong>.",
+        "rule_answers": "verb, unite, form a close relationship",
         "tasks": [
             "Festivals are wonderful because they bring people <strong>_____</strong> (together). <em>(Answer: together)</em>",
             "It is easy to bond <strong>_____</strong> (with) others over a delicious traditional meal. <em>(Answer: with)</em>",
-            "We should reach <strong>_____</strong> (out) to lonely neighbors during major holidays. <em>(Answer: out)</em>"
+            "We should reach <strong>_____</strong> (out) to lonely neighbors during major holidays. <em>(Answer: out)</em>",
+            "How well do you get <strong>_____</strong> (along) with your neighbors? <em>(Answer: along)</em>",
+            "Art helps us connect <strong>_____</strong> (with) diverse communities. <em>(Answer: with)</em>"
         ],
         "speaking": "Describe a time when a holiday, festival, or group activity helped you bond with someone new or bring your friends together.",
         "r1": [
@@ -321,11 +357,15 @@ DATABASE = {
     "international-peace-love-day-upper-intermediate.html": {
         "level": "Upper-Intermediate (B2)",
         "focus": "Phrasal Verbs of Connection",
-        "explanation": "Use advanced phrasal verbs and prepositional collocations to discuss connection and social unity. Key structures include: <strong>bridge the gap between</strong> (to reduce differences), <strong>open up to</strong> (to become receptive/express feelings), <strong>stand up for</strong> (to defend/support), <strong>reach out to</strong> (to initiate contact), and <strong>bond with</strong>.",
+        "explanation": "Use advanced phrasal verbs such as <strong>bridge the gap</strong>, <strong>open up to</strong>, and <strong>stand up for</strong>.",
+        "rule_part_a": "Complete the rule: To connect across differences is to <strong>_____</strong> the gap. To defend or support someone is to <strong>_____</strong> up for them. To become receptive or reveal feelings is to <strong>_____</strong> up.",
+        "rule_answers": "bridge, stand, open",
         "tasks": [
             "Cultural exchange programs help bridge the <strong>_____</strong> between divided nations. <em>(Answer: gap)</em>",
             "It takes courage for individuals to open <strong>_____</strong> to unfamiliar perspectives. <em>(Answer: up)</em>",
-            "We must stand <strong>_____</strong> for marginalized groups to ensure social justice. <em>(Answer: up)</em>"
+            "We must stand <strong>_____</strong> for marginalized groups to ensure social justice. <em>(Answer: up)</em>",
+            "Global communities need to reach <strong>_____</strong> to international partners. <em>(Answer: out)</em>",
+            "Shared artistic celebrations help colleagues bond <strong>_____</strong> each other. <em>(Answer: with)</em>"
         ],
         "speaking": "Discuss how international artistic collaborations can bridge the gap between competing nations. How do creators bond with each other during such tasks?",
         "r1": [
@@ -356,11 +396,15 @@ DATABASE = {
     "lunar-new-year.html": {
         "level": "Intermediate (B1)",
         "focus": "Zodiac Descriptions & Cultural Prepositions",
-        "explanation": "When describing zodiac signs, personality traits, and cultural habits, pay close attention to correct prepositional collocations: <strong>associated with</strong> (not <em>'to'</em>), <strong>rely on</strong> (not <em>'to'</em>), <strong>celebrated in</strong> a month (e.g., <em>'in February'</em>) or <strong>on</strong> a day (e.g., <em>'on Monday'</em>), <strong>famous for</strong> (not <em>'about'</em>), and <strong>symbolizes a shift in</strong>.",
+        "explanation": "Zodiac traits and traditions require specific prepositional collocations.",
+        "rule_part_a": "Complete the rule: When describing traits, use the prepositions: associated <strong>_____</strong>, rely <strong>_____</strong>, famous <strong>_____</strong>, and celebrated <strong>_____</strong> a specific month.",
+        "rule_answers": "with, on, for, in",
         "tasks": [
             "The Tiger is closely associated <strong>_____</strong> bravery and strength. <em>(Answer: with)</em>",
             "Families heavily rely <strong>_____</strong> traditional reunions to maintain their bonds. <em>(Answer: on)</em>",
-            "Lunar New Year is celebrated <strong>_____</strong> late January or early February. <em>(Answer: in)</em>"
+            "Lunar New Year is celebrated <strong>_____</strong> late January or early February. <em>(Answer: in)</em>",
+            "This ancient festival is famous <strong>_____</strong> its vibrant dragon dances. <em>(Answer: for)</em>",
+            "Red envelopes symbolize a positive shift <strong>_____</strong> fortune. <em>(Answer: in)</em>"
         ],
         "speaking": "Describe your own birth year or favorite zodiac animal. What personality traits are associated with it, and what do people rely on it for?",
         "r1": [
@@ -391,11 +435,15 @@ DATABASE = {
     "national-someone-day-intermediate.html": {
         "level": "Intermediate (B1)",
         "focus": "Relative Clauses & Infinitive of Purpose",
-        "explanation": "Use <strong>Relative Clauses</strong> with relative pronouns (<em>who, which, that, where</em>) to define or give extra information about a person, place, or thing (e.g., <em>'Someone <strong>who</strong> inspires me'</em>, <em>'A card <strong>that</strong> says thanks'</em>). Use <strong>Infinitive of Purpose</strong> (<em>to + verb</em>) to explain <strong>why</strong> you do an action (e.g., <em>'I called her <strong>to say</strong> thank you'</em>).",
+        "explanation": "Define people and things using relative pronouns (<em>who, which, that</em>) and clarify purpose using <em>to + verb</em>.",
+        "rule_part_a": "Complete the rule: We use relative pronouns like <strong>_____</strong> for people, <strong>_____</strong> for things, and <strong>_____</strong> for places. To explain the purpose of an action, we use <strong>_____</strong> + verb.",
+        "rule_answers": "who/that, which/that, where, to",
         "tasks": [
             "She is a person <strong>_____</strong> always helps others when they are in trouble. <em>(Answer: who / that)</em>",
             "I went to the florist <strong>_____</strong> (buy) some fresh flowers for my mother. <em>(Answer: to buy)</em>",
-            "This is the park <strong>_____</strong> we first met on a sunny afternoon. <em>(Answer: where)</em>"
+            "This is the park <strong>_____</strong> we first met on a sunny afternoon. <em>(Answer: where)</em>",
+            "Gratitude is a habit <strong>_____</strong> (keep) our minds positive and healthy. <em>(Answer: to keep / that keeps)</em>",
+            "He wrote a heartfelt card <strong>_____</strong> (say) thank you to his mentor. <em>(Answer: to say)</em>"
         ],
         "speaking": "Describe someone who is very important in your life using a relative clause, and explain what you did recently to show them your appreciation using an infinitive of purpose.",
         "r1": [
@@ -426,11 +474,15 @@ DATABASE = {
     "national-someone-day-upper-intermediate.html": {
         "level": "Upper-Intermediate (B2)",
         "focus": "Relative Clauses & Infinitive of Purpose",
-        "explanation": "Distinguish between <strong>defining</strong> and <strong>non-defining</strong> relative clauses (non-defining clauses require commas and cannot use <em>'that'</em>). Use advanced relative structures like <strong>whose</strong>, <strong>whom</strong>, or prepositions with relative pronouns (e.g., <em>'the person to whom we owe thanks'</em>). For purpose, elevate your writing using <strong>in order to</strong>, <strong>so as to</strong>, or <strong>with the aim of + -ing</strong>.",
+        "explanation": "Differentiate between defining and non-defining clauses and use advanced purpose constructions.",
+        "rule_part_a": "Complete the rule: In formal contexts, use <strong>_____</strong> as a relative pronoun for ownership, and <strong>_____</strong> for people as objects. For advanced purpose, use <strong>_____</strong> order to or <strong>_____</strong> as to.",
+        "rule_answers": "whose, whom, in, so",
         "tasks": [
             "My mentor, <strong>_____</strong> lives in Canada, sent me a lovely appreciation card. <em>(Answer: who)</em>",
             "We organized a surprise celebration in order <strong>_____</strong> (show) our deep respect. <em>(Answer: to show)</em>",
-            "This is the colleague, the efforts of <strong>_____</strong> saved our project from failure. <em>(Answer: whom)</em>"
+            "This is the colleague, the efforts of <strong>_____</strong> saved our project from failure. <em>(Answer: whom)</em>",
+            "He designed a personalized gift so <strong>_____</strong> to honor her milestone. <em>(Answer: as)</em>",
+            "We must cherish those mentors upon <strong>_____</strong> we rely for wisdom. <em>(Answer: whom)</em>"
         ],
         "speaking": "Describe an esteemed colleague or family member whose impact on your life is profound. What steps did you take in order to convey your appreciation to them?",
         "r1": [
@@ -461,11 +513,15 @@ DATABASE = {
     "pandemonium-day-intermediate.html": {
         "level": "Intermediate (B1)",
         "focus": "Speculative Conditional Clauses",
-        "explanation": "Use the <strong>Second Conditional</strong> (<em>If + Past Simple, would + base verb</em>) to talk about imaginary, highly unlikely, or speculative situations in the present or future (e.g., <em>'If there were no rules, society would face total chaos'</em>). You can also use <em>could</em> or <em>might</em> to express potential possibility.",
+        "explanation": "The Second Conditional is used to talk about speculative, highly unlikely, or imaginary situations.",
+        "rule_part_a": "Complete the rule: In the Second Conditional, the if-clause uses the <strong>_____</strong> tense, and the main clause uses <strong>_____</strong> + base verb to speculate about imaginary present/future situations.",
+        "rule_answers": "Past Simple, would",
         "tasks": [
             "If there <strong>_____</strong> (be) no rules, society would be in total chaos. <em>(Answer: were / was)</em>",
             "I <strong>_____</strong> (join) the public flash mob if I had more free time. <em>(Answer: would join)</em>",
-            "If you had to choose between absolute silence and total noise, which <strong>_____</strong> you prefer? <em>(Answer: would)</em>"
+            "If you had to choose between absolute silence and total noise, which <strong>_____</strong> you prefer? <em>(Answer: would)</em>",
+            "If your home <strong>_____</strong> (fall) into chaos, what would you do first? <em>(Answer: fell)</em>",
+            "If you could live a completely unpredictable life, where <strong>_____</strong> you go? <em>(Answer: would)</em>"
         ],
         "speaking": "If you could create a brand-new national holiday to celebrate something chaotic, what would it be and how would people celebrate it?",
         "r1": [
@@ -496,11 +552,15 @@ DATABASE = {
     "pandemonium-day-upper-intermediate.html": {
         "level": "Upper-Intermediate (B2)",
         "focus": "Speculative Conditional Clauses",
-        "explanation": "Master the <strong>Third Conditional</strong> (<em>If + Past Perfect, would have + past participle</em>) to speculate about imaginary past events and their hypothetical past outcomes. Use <strong>Mixed Conditionals</strong> (e.g., <em>If + Past Perfect, would + base verb</em>) to connect a hypothetical past action with a present state (e.g., <em>'If they had planned the festival better, there wouldn't be so much chaos now'</em>).",
+        "explanation": "Master the Third Conditional and Mixed Conditionals to speculate about hypothetical past events and present situations.",
+        "rule_part_a": "Complete the rule: In the Third Conditional, the if-clause uses the <strong>_____</strong> tense, and the main clause uses <strong>_____</strong> + past participle to speculate about hypothetical past outcomes.",
+        "rule_answers": "Past Perfect, would have",
         "tasks": [
             "If they <strong>_____</strong> (plan) the event better, there wouldn't be so much chaos now. <em>(Answer: had planned)</em>",
             "If I had not attended the festival, I <strong>_____</strong> (not meet) my best friend. <em>(Answer: would not have met)</em>",
-            "If the government <strong>_____</strong> (not intervene) yesterday, pandemonium would still be ongoing. <em>(Answer: had not intervened)</em>"
+            "If the government <strong>_____</strong> (not intervene) yesterday, pandemonium would still be ongoing. <em>(Answer: had not intervened)</em>",
+            "If security forces had not controlled the access points, the crowd <strong>_____</strong> (cause) stampedes. <em>(Answer: would have caused)</em>",
+            "If you <strong>_____</strong> (be) there, would you have been afraid? <em>(Answer: had been)</em>"
         ],
         "speaking": "Reflect on a chaotic or highly unpredictable event in your past. How would your life or current situation be different today if that event had never occurred?",
         "r1": [
@@ -553,7 +613,7 @@ def process_file(filename):
     if existing_grammar:
         existing_grammar.decompose()
 
-    # 2. Build the new grammar section
+    # 2. Build the new grammar section (Task 1 Part A & Part B, Task 2)
     tasks_html_list = "".join(f"<li>{t}</li>\n" for t in data["tasks"])
     grammar_html = f"""<section id="grammar" style="margin-bottom: 2.5rem;">
 <h2 class="section-title">⚡ Grammar Practice — {data['focus']}</h2>
@@ -564,7 +624,12 @@ def process_file(filename):
 </p>
 <div class="grammar-practice-tasks" style="display: flex; flex-direction: column; gap: 1rem; z-index: 2; position: relative; margin-top: 1rem;">
 <div class="grammar-task-item" style="background: rgba(186, 117, 23, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #BA7517; box-shadow: var(--shadow-sm);">
-<strong style="display: block; margin-bottom: 0.5rem; color: #5c390b;">📝 Task 1 — Structure Application:</strong>
+<strong style="display: block; margin-bottom: 0.5rem; color: #5c390b;">📝 Task 1 — Part A: Rule Formulation:</strong>
+<p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink); line-height: 1.6;">
+{data['rule_part_a']}<br>
+<span style="display: block; margin-top: 0.5rem; font-size: 0.85rem; color: var(--muted);"><em>(Key Options: {data['rule_answers']})</em></span>
+</p>
+<strong style="display: block; margin-bottom: 0.5rem; color: #5c390b;">📝 Task 1 — Part B: Structured Practice:</strong>
 <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.95rem; color: var(--ink); line-height: 1.6;">
 {tasks_html_list}</ul>
 </div>
@@ -628,7 +693,6 @@ def process_file(filename):
 
     # 6. Re-save modified content
     with open(filepath, "w", encoding="utf-8") as f:
-        # Avoid BeautifulSoup adding redundant wrappers
         f.write("<!DOCTYPE html>\n" + str(soup).replace("<!DOCTYPE html>\n", "").replace("<!DOCTYPE html>", ""))
 
     print(f"Successfully enriched: {filename}")
