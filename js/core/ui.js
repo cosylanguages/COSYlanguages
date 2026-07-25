@@ -1398,6 +1398,83 @@
     };
 
     const SWITCHER_GROUPS = [
+        // 🌌 I Couldn't Help But Wonder Multilingual Groups
+        {
+            id: "wonder-ugly-produce",
+            pages: [
+                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        {
+            id: "wonder-adhd",
+            pages: [
+                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        {
+            id: "wonder-parenting-instinct",
+            pages: [
+                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        {
+            id: "wonder-feeling-empty",
+            pages: [
+                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        {
+            id: "wonder-death-album",
+            pages: [
+                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/death-of-the-album.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/death-of-the-album.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+            ]
+        },
+        // 🎉 Let's Celebrate Multilingual Groups
+        {
+            id: "celebrate-lunar-new-year",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/lunar-new-year.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/lets-celebrate/lunar-new-year.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "events/ru/sessions/lets-celebrate/lunar-new-year.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+            ]
+        },
+        {
+            id: "celebrate-diwali-festival",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/diwali-festival.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/lets-celebrate/diwali-festival.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "events/ru/sessions/lets-celebrate/diwali-festival.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+            ]
+        },
+        {
+            id: "celebrate-national-simplicity-day",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/national-simplicity-day.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
+                { lang: "fr", path: "events/fr/sessions/lets-celebrate/national-simplicity-day.html", level: "A1", label: "🇫🇷 Français", levelLabel: "Débutant (A1)" },
+                { lang: "ru", path: "events/ru/sessions/lets-celebrate/national-simplicity-day.html", level: "A1", label: "🇷🇺 Русский", levelLabel: "Начинающий (A1)" }
+            ]
+        },
+        {
+            id: "celebrate-national-workaholics-day",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/national-workaholics-day.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
+                { lang: "fr", path: "events/fr/sessions/lets-celebrate/national-workaholics-day.html", level: "A1", label: "🇫🇷 Français", levelLabel: "Débutant (A1)" },
+                { lang: "ru", path: "events/ru/sessions/lets-celebrate/national-workaholics-day.html", level: "A1", label: "🇷🇺 Русский", levelLabel: "Начинающий (A1)" }
+            ]
+        },
+        {
+            id: "celebrate-family-remittances-day",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/family-remittances-day.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "events/fr/sessions/lets-celebrate/family-remittances-day.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "events/ru/sessions/lets-celebrate/family-remittances-day.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+            ]
+        },
         {
             id: "urban-beekeeping-day",
             pages: [
