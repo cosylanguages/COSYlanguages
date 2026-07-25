@@ -874,3 +874,188 @@ vim-choice { margin-bottom: 1.5rem; }
   color: #C53030;
   border-color: #FEB2B2;
 }
+
+/* ─── Premium Let's Celebrate Hanging Gift Tag & Greeting Card Grid ─── */
+.celebrate-history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.celebrate-card {
+  background: var(--surface-color, #FFFDF9);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  overflow: visible; /* To allow the string & eyelet to protrude at the top */
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  padding: 1.5rem 1.25rem 1.25rem;
+  margin-top: 1.2rem; /* Space for the hanging loop */
+  box-sizing: border-box;
+}
+
+/* Elegant gold foil-pressed dashed inner border */
+.celebrate-card::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  border: 1px dashed rgba(186, 117, 23, 0.35);
+  border-radius: 12px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* The Hanging Punch Hole (Eyelet) */
+.celebrate-eyelet {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  background: #E6C687;
+  border: 2px solid #BA7517;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  z-index: 11;
+  pointer-events: none;
+}
+
+/* The Hanging Loop Thread (Cord) */
+.celebrate-loop {
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  width: 16px;
+  height: 20px;
+  border: 1.5px solid #BA7517;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  transform: translateX(-50%);
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.celebrate-card:hover {
+  border-color: #BA7517;
+  box-shadow: 0 12px 28px rgba(186, 117, 23, 0.16);
+  animation: celebrateSway 2s ease-in-out infinite alternate;
+}
+
+@keyframes celebrateSway {
+  0% {
+    transform: translateY(-6px) rotate(-0.5deg);
+  }
+  100% {
+    transform: translateY(-6px) rotate(0.5deg);
+  }
+}
+
+.celebrate-card-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  z-index: 2;
+}
+
+.celebrate-card-banner .club-tag {
+  font-weight: 700;
+  font-size: 0.72rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* Badge colors for levels */
+.celebrate-card-banner .tag-a1 {
+  background: #FFF5F5;
+  color: #E53E3E;
+  border-color: #FED7D7;
+}
+.celebrate-card-banner .tag-a2 {
+  background: #FAEEE8;
+  color: #C0392B;
+  border-color: #F5CBA7;
+}
+.celebrate-card-banner .tag-b1 {
+  background: #E1F5EE;
+  color: #1A7A4A;
+  border-color: #A3E4D7;
+}
+.celebrate-card-banner .tag-b2 {
+  background: #EBF8FF;
+  color: #2B6CB0;
+  border-color: #BEE3F8;
+}
+.celebrate-card-banner .tag-c1 {
+  background: #EEEDFE;
+  color: #534AB7;
+  border-color: #D2CFFE;
+}
+.celebrate-card-banner .tag-c2 {
+  background: #EBF8FF;
+  color: #2B6CB0;
+  border-color: #BEE3F8;
+}
+
+.celebrate-card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  z-index: 2;
+}
+
+.celebrate-card-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--text-color, var(--ink));
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+}
+
+.celebrate-card-desc {
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0 0 1.2rem 0;
+  flex-grow: 1;
+}
+
+.celebrate-card-footer {
+  margin-top: auto;
+  border-top: 1px dashed var(--border);
+  padding-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.celebrate-card-view {
+  color: #BA7517;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.celebrate-card-view:hover {
+  color: #5c390b;
+  transform: translateX(2px);
+}
