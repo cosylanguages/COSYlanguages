@@ -101,6 +101,13 @@ To maintain a highly premium experience, we map selected cinema items to appropr
 | 89 | **The Age of Adaline** | **B2** (Upper-Intermediate) | American English | Frozen age, accidental immortality, love under fake IDs. | *"Ageless"*, *"runaway"*, *"coincidence"*, *"immortality"*. | **INCLUDED** |
 | 90 | **Why Women Kill** | **B2** (Upper-Intermediate) | American English | Infidelity through decades, murder plots, suburban secrets. | *"Infidelity"*, *"alibi"*, *"motive"*, *"suburb"*. | **INCLUDED** |
 | 91 | **The Substance** | **C1** (Advanced) | American English | Hollywood aging fear, cell division cloning, celebrity monster. | *"Replicate"*, *"side effect"*, *"substance"*, *"beauty"*. | **INCLUDED** |
+| 92 | **The Odyssey** | **B2** (Upper-Intermediate) | British English | Overcoming unhealthy relationships, self-discovery, emotional healing. | *"Break free"*, *"unhealthy dynamic"*, *"catharsis"*, *"self-discovery"*. | **INCLUDED** |
+| 93 | **Lending My Wings** | **B1** (Intermediate) | Spanish Language | Psychological support, empathy, therapeutic trust, emotional vulnerability. | *"Abrirse"*, *"vulnerabilidad"*, *"empatía"*, *"confianza"*. | **INCLUDED** |
+| 94 | **L'attente** | **B1** (Intermediate) | French Language | Patience, expectation, subconscious illusions, romantic tension. | *"Attente"*, *"patience"*, *"tension"*, *"illusion"*. | **INCLUDED** |
+| 95 | **Karlik Nos (Dwarf Nose)** | **B1** (Intermediate) | Russian Language | Kindheartedness, overcoming curses, inner beauty, loyalty. | *"Проклятие"*, *"колдовство"*, *"доброта"*, *"превращение"*. | **INCLUDED** |
+| 96 | **Destino** | **A2** (Elementary) | American English | Surrealism, destiny, artistic collaboration, time, subconscious desires. | *"Surreal"*, *"artistic spark"*, *"destiny"*, *"time loop"*. | **INCLUDED** |
+| 97 | **Once Upon A Time...** | **B1** (Intermediate) | French Language | Simplicity in fashion, revolutionary millinery, starting an entrepreneurship. | *"Chapeau"*, *"simplicité"*, *"haute société"*, *"couture"*. | **INCLUDED** |
+| 98 | **Once and Forever** | **B2** (Upper-Intermediate) | French / English | Artistic challenging personalities, acting roles, older Coco Chanel reflection. | *"Challenging role"*, *"fame"*, *"personality clash"*, *"elegance"*. | **INCLUDED** |
 
 ---
 
