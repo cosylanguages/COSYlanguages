@@ -1399,6 +1399,41 @@
 
     const SWITCHER_GROUPS = [
         {
+            id: "urban-beekeeping-day",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/urban-beekeeping-day-starter.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
+                { lang: "en", path: "events/sessions/lets-celebrate/urban-beekeeping-day-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" }
+            ]
+        },
+        {
+            id: "national-someone-day",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/national-someone-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/lets-celebrate/national-someone-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "pandemonium-day",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/pandemonium-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/lets-celebrate/pandemonium-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "international-peace-love-day",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/international-peace-love-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/lets-celebrate/international-peace-love-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "international-asteroid-day",
+            pages: [
+                { lang: "en", path: "events/sessions/lets-celebrate/international-asteroid-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/lets-celebrate/international-asteroid-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
             id: "4-day-work-week",
             pages: [
                 { lang: "en", path: "events/sessions/debatable-relatable/4-day-work-week.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
