@@ -516,6 +516,93 @@ FILM_DETAILS = {'101 & 102 Dalmatians': {'conflict': "escaping Cruella's obsessi
                         'protagonist': 'the young actress',
                         'setting': 'Parisian film studios and lavish dress rehearsals'}}
 
+CLEAN_FILM_DETAILS = {k.replace('"', '').strip(): v for k, v in FILM_DETAILS.items()}
+
+HANDCRAFTED_LANG_EXTRAS = {
+    "Ratatouille": {
+        "themes": ["cuisine de Paris", "passion du goût", "chef de cuisine"],
+        "slangs": ["bonne recette", "restaurateur"]
+    },
+    "Incendies": {
+        "themes": ["secret de famille", "promesse de mère", "recherche de vérité"],
+        "slangs": ["testament", "notaire"]
+    },
+    "Radin": {
+        "themes": ["obsession d'argent", "économie extrême", "générosité cachée"],
+        "slangs": ["banquier", "calculateur"]
+    },
+    "L'attente": {
+        "themes": ["patience et silence", "illusion amoureuse", "espoir sur le quai"],
+        "slangs": ["retrouvailles", "chemin de fer"]
+    },
+    "Once Upon A Time...": {
+        "themes": ["création de mode", "couture révolutionnaire", "haute société de Deauville"],
+        "slangs": ["boutique de chapeaux", "simplicité moderne"]
+    },
+    "Serebryanye Konki (Silver Skates)": {
+        "themes": ["петербургские каналы", "классовые барьеры", "кража на льду"],
+        "slangs": ["карманники", "зимний дворец"]
+    },
+    "Karlik Nos (Dwarf Nose)": {
+        "themes": ["ведьмино проклятие", "верная гусыня", "рыночная площадь"],
+        "slangs": ["чудо-зелье", "королевский повар"]
+    },
+    "La Valla (The Barrier)": {
+        "themes": ["barrera de Madrid", "resistencia clandestina", "control de fronteras"],
+        "slangs": ["salvoconducto", "toque de queda"]
+    },
+    "Lending My Wings": {
+        "themes": ["vulnerabilidad mental", "empatía terapéutica", "búsqueda de confianza"],
+        "slangs": ["psicoterapeuta", "sesión de apoyo"]
+    }
+}
+
+def get_film_specific_extras(title, details, lang="en"):
+    title_clean = title.replace('"', '').strip()
+    if title_clean in HANDCRAFTED_LANG_EXTRAS:
+        return (
+            HANDCRAFTED_LANG_EXTRAS[title_clean]["themes"],
+            HANDCRAFTED_LANG_EXTRAS[title_clean]["slangs"]
+        )
+
+    setting_raw = details.get("setting", "the cinematic world")
+    setting_clean = setting_raw.split(" in ")[0].split(" during ")[0].strip()
+    for prefix in ["a ", "an ", "the ", "A ", "An ", "The "]:
+        if setting_clean.startswith(prefix):
+            setting_clean = setting_clean[len(prefix):].strip()
+            break
+    setting_clean = setting_clean.rstrip(",. ")
+    setting_clean = setting_clean[0].upper() + setting_clean[1:] if setting_clean else "Cinematic"
+
+    protagonist_raw = details.get("protagonist", "the main characters")
+    protagonist_clean = protagonist_raw.split(" and ")[0].split(" / ")[0].strip()
+    for prefix in ["the ", "The "]:
+        if protagonist_clean.startswith(prefix):
+            protagonist_clean = protagonist_clean[len(prefix):].strip()
+            break
+    protagonist_clean = protagonist_clean.rstrip(",. ")
+    protagonist_clean = protagonist_clean[0].upper() + protagonist_clean[1:] if protagonist_clean else "Protagonist"
+
+    conflict_raw = details.get("conflict", "the central conflict")
+    conflict_clean = conflict_raw.split(" by ")[0].split(" to ")[0].split(" under ")[0].strip()
+    for prefix in ["escaping ", "surviving ", "facing ", "overcoming ", "combating ", "navigating ", "balancing ", "proving "]:
+        if conflict_clean.startswith(prefix):
+            conflict_clean = conflict_clean[len(prefix):].strip()
+            break
+    conflict_clean = conflict_clean.rstrip(",. ")
+    conflict_clean = conflict_clean[0].upper() + conflict_clean[1:] if conflict_clean else "Conflict"
+
+    extra_themes = [
+        f"{setting_clean} dynamics",
+        f"{protagonist_clean}'s personal journey",
+        f"Confronting {conflict_clean}"
+    ]
+    extra_slangs = [
+        f"pivotal {protagonist_clean} moment",
+        f"{protagonist_clean}'s perspective"
+    ]
+    return extra_themes, extra_slangs
+
 SENSITIVE_FILMS = {'A Quiet Place': 'intense survival horror, dread, family tragedy, and creature violence',
  'Angels & Demons': 'religious conspiracies, Vatican murders, self-harm, and high-stakes bomb threats',
  'Beautiful Thing': 'working-class LGBTQ+ youth struggles and societal pressure',
@@ -1133,10 +1220,22 @@ def get_calibrated_templates(level, film_idx=0):
 def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
     themes, slangs = parse_themes_and_slangs(focus_raw, slang_raw)
 
+    details = CLEAN_FILM_DETAILS.get(title.replace('"', '').strip(), {
+        "protagonist": "the main characters",
+        "key_figures": "other figures in the story",
+        "setting": "the cinematic world",
+        "conflict": "the central conflict"
+    })
+
+    extra_themes, extra_slangs = get_film_specific_extras(title, details)
+
     # Pad themes to exactly 5
     t_idx = 0
     while len(themes) < 5:
-        candidate = FALLBACK_THEMES[(idx + t_idx) % len(FALLBACK_THEMES)]
+        if t_idx < len(extra_themes):
+            candidate = extra_themes[t_idx]
+        else:
+            candidate = FALLBACK_THEMES[(idx + t_idx) % len(FALLBACK_THEMES)]
         t_idx += 1
         if candidate.lower() not in [t.lower() for t in themes]:
             themes.append(candidate)
@@ -1144,20 +1243,16 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
     # Pad slangs to exactly 5
     s_idx = 0
     while len(slangs) < 5:
-        candidate = FALLBACK_SLANGS[(idx + s_idx) % len(FALLBACK_SLANGS)]
+        if s_idx < len(extra_slangs):
+            candidate = extra_slangs[s_idx]
+        else:
+            candidate = FALLBACK_SLANGS[(idx + s_idx) % len(FALLBACK_SLANGS)]
         s_idx += 1
         if candidate.lower() not in [s.lower() for s in slangs]:
             slangs.append(candidate)
 
     themes = themes[:5]
     slangs = slangs[:5]
-
-    details = FILM_DETAILS.get(title, {
-        "protagonist": "the main characters",
-        "key_figures": "other figures in the story",
-        "setting": "the cinematic world",
-        "conflict": "the central conflict"
-    })
 
     vocab_items = []
     # Process themes (first 5)
@@ -1608,7 +1703,7 @@ for idx, r in enumerate(rows):
             f"</div>\n"
         )
 
-    details = FILM_DETAILS.get(title, {
+    details = CLEAN_FILM_DETAILS.get(title.replace('"', '').strip(), {
         "protagonist": "the main characters",
         "key_figures": "other figures in the story",
         "setting": "the cinematic world",
