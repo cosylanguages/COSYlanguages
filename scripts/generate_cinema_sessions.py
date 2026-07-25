@@ -486,7 +486,35 @@ FILM_DETAILS = {'101 & 102 Dalmatians': {'conflict': "escaping Cruella's obsessi
  'Yentl': {'conflict': 'disguising herself as a boy to study forbidden theological scriptures',
            'key_figures': 'Avigdor, Hadass, and traditional Talmudic scholars',
            'protagonist': 'Yentl Mendel',
-           'setting': 'a conservative Eastern European shtetl in the early 20th century'}}
+           'setting': 'a conservative Eastern European shtetl in the early 20th century'},
+ 'The Odyssey': {'conflict': 'overcoming unhealthy relationships and finding emotional healing',
+                 'key_figures': 'her past partners, storm spirits, and inner shadows',
+                 'protagonist': 'Florence',
+                 'setting': 'stormy seas, nostalgic motel rooms, and abstract landscapes'},
+ 'Lending My Wings': {'conflict': 'building therapeutic trust and exploring emotional vulnerability',
+                      'key_figures': 'her patients, colleagues, and family members',
+                      'protagonist': 'the therapist',
+                      'setting': 'a quiet counseling office and personal memory spaces'},
+ "L'attente": {'conflict': 'navigating patience, romantic tension, and expectation under subconscious illusions',
+               'key_figures': 'the loved one, passing strangers, and inner voice',
+               'protagonist': 'the waiting protagonist',
+               'setting': 'a nostalgic Parisian train station and quiet platforms'},
+ 'Karlik Nos (Dwarf Nose)': {'conflict': 'overcoming a witch\'s curse, discovering inner beauty, and proving loyalty',
+                             'key_figures': 'the evil witch, the goose Mimi, and his family',
+                             'protagonist': 'Jacob (the dwarf Nose)',
+                             'setting': 'a bustling fairy tale marketplace and the royal palace kitchen'},
+ 'Destino': {'conflict': 'chasing destiny across surreal desert landscapes and shifting monuments of time',
+             'key_figures': 'Chronos, the stone statues, and the flying dancers',
+             'protagonist': 'the mortal woman',
+             'setting': 'Salvador Dali\'s surreal desert dreamscapes and hollow monuments'},
+ '"Once Upon A Time..."': {'conflict': 'launching a revolutionary millinery boutique against traditional standards of high society',
+                           'key_figures': 'her sister Antoinette, Boy Capel, and wealthy society customers',
+                           'protagonist': 'Gabrielle Chanel',
+                           'setting': 'her hat shop in 1913 Deauville, France'},
+ '"Once and Forever"': {'conflict': 'confronting artistic vanity, challenging acting roles, and the legacy of Coco Chanel',
+                        'key_figures': 'the film director, the older Coco Chanel, and the film crew',
+                        'protagonist': 'the young actress',
+                        'setting': 'Parisian film studios and lavish dress rehearsals'}}
 
 SENSITIVE_FILMS = {'A Quiet Place': 'intense survival horror, dread, family tragedy, and creature violence',
  'Angels & Demons': 'religious conspiracies, Vatican murders, self-harm, and high-stakes bomb threats',
@@ -1342,7 +1370,14 @@ TRAILER_LINKS = {
     "Heathers: The Musical": "https://www.youtube.com/watch?v=gTsh5z1mH2o",
     "Mamma Mia": "https://www.youtube.com/watch?v=8R71_O66Eis",
     "Lost": "https://www.youtube.com/watch?v=K7A2O-D9At8",
-    "Lucy": "https://www.youtube.com/watch?v=MVt32qoyhi0"
+    "Lucy": "https://www.youtube.com/watch?v=MVt32qoyhi0",
+    "The Odyssey": "https://youtu.be/HajiEqEtIRY?is=SwZf-7TAvBn2sgQw",
+    "Lending My Wings": "https://youtu.be/YMzl7wmHFj4?is=IOOcxWbdTb5gjkSX",
+    "L'attente": "https://youtu.be/T-k7Bu3UCwY?is=w_6nzVvBrdy2QnEL",
+    "Karlik Nos (Dwarf Nose)": "https://youtu.be/1_JB2Qtt7DQ?is=_8owWIXniBcVhGxx",
+    "Destino": "https://youtu.be/y_TlaxmOKqs?is=kMbEE-8Kn6Sy2Y22",
+    "Once Upon A Time...": "https://youtu.be/0o9dTCl0hkY?is=1GK1Iv51ILFdjI4m",
+    "Once and Forever": "https://youtu.be/6O2gmRPj-UI?is=pAvUaMuOprrFjtz-"
 }
 
 # Parse all 91 films from the markdown file
@@ -1502,6 +1537,15 @@ def get_slug(title):
     t = re.sub(r'[\s\-\(\)]+', '-', t)
     return t.strip("-")
 
+DISCLAIMERS = {
+    "en": "Note: This material is used strictly for educational purposes only.",
+    "fr": "Note : Ce matériel est utilisé uniquement à des fins éducatives.",
+    "ru": "Примечание: Данный материал используется исключительно в образовательных целях.",
+    "es": "Nota: Este material se utiliza únicamente con fines educativos.",
+    "it": "Nota: Questo materiale viene utilizzato esclusivamente a scopo didattico.",
+    "el": "Σημείωση: Αυτό το υλικό χρησιμοποιείται αποκλειστικά για εκπαιδευτικούς σκοπούς."
+}
+
 for idx, r in enumerate(rows):
     title = r[1].strip()
     level_short = r[2].strip()
@@ -1543,24 +1587,26 @@ for idx, r in enumerate(rows):
         escaped_word = escape_js(word)
         escaped_def = escape_js(definition)
         escaped_ex = escape_js(example)
-        vocab_generic_html += f"""      <div class="vocab-card">
-        <div class="vocab-word">{word}</div>
-        <div class="vocab-def">{definition}</div>
-        <div class="vocab-example">{example}</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({{word:'{escaped_word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">Add to Dictionary</button>
-      </div>\n"""
+        vocab_generic_html += (
+            f"      <div class=\"vocab-card\"><div class=\"vocab-word\">{word}</div>\n"
+            f"<div class=\"vocab-def\">{definition}</div>\n"
+            f"<div class=\"vocab-example\">{example}</div>\n"
+            f"<button class=\"btn-add-dict\" onclick=\"COSY.addToDict({{word:'{escaped_word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)\">Add to Dictionary</button>\n"
+            f"</div>\n"
+        )
 
     vocab_authentic_html = ""
     for word, definition, example in authentic_vocab:
         escaped_word = escape_js(word)
         escaped_def = escape_js(definition)
         escaped_ex = escape_js(example)
-        vocab_authentic_html += f"""      <div class="vocab-card">
-        <div class="vocab-word">{word}</div>
-        <div class="vocab-def">{definition}</div>
-        <div class="vocab-example">{example}</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({{word:'{escaped_word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">Add to Dictionary</button>
-      </div>\n"""
+        vocab_authentic_html += (
+            f"      <div class=\"vocab-card\"><div class=\"vocab-word\">{word}</div>\n"
+            f"<div class=\"vocab-def\">{definition}</div>\n"
+            f"<div class=\"vocab-example\">{example}</div>\n"
+            f"<button class=\"btn-add-dict\" onclick=\"COSY.addToDict({{word:'{escaped_word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)\">Add to Dictionary</button>\n"
+            f"</div>\n"
+        )
 
     details = FILM_DETAILS.get(title, {
         "protagonist": "the main characters",
@@ -1584,6 +1630,7 @@ for idx, r in enumerate(rows):
     # Theme Snapshot block generation
     loc = LOCALIZED_LABELS.get(lang, LOCALIZED_LABELS["en"])
     trailer_url = TRAILER_LINKS.get(title, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+trailer")
+    disclaimer_text = DISCLAIMERS.get(lang, DISCLAIMERS["en"])
     theme_box_html = f"""  <!-- THEME SNAPSHOT BLOCK -->
   <div class="theme-box">
     <h3>🎬 {loc["theme_snapshot"]}: {title}</h3>
@@ -1598,6 +1645,7 @@ for idx, r in enumerate(rows):
       <a href="{trailer_url}" target="_blank" class="btn-trailer">
         <span>🎬</span> {loc["watch_trailer"]}
       </a>
+      <p class="video-disclaimer" style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--muted); font-style: italic;">{disclaimer_text}</p>
     </div>
   </div>"""
 
@@ -1647,10 +1695,11 @@ for idx, r in enumerate(rows):
                 conflict=details["conflict"],
                 grammar_focus=grammar_focus
             )
-        round1_html += f"""          <div class="round-item">
-            <div class="round-item-main">{r1_main}</div>
-            <div class="round-item-personal">{r1_personal}</div>
-          </div>\n"""
+        round1_html += (
+            f"          <div class=\"round-item\"><div class=\"round-item-main\">{r1_main}</div>\n"
+            f"<div class=\"round-item-personal\">{r1_personal}</div>\n"
+            f"</div>\n"
+        )
 
     # Generate 10 items for Round 2, using themes for 0-4 and general cinematic debate for 5-9
     round2_html = ""
@@ -1693,10 +1742,11 @@ for idx, r in enumerate(rows):
                 conflict=details["conflict"],
                 grammar_focus=grammar_focus
             )
-        round2_html += f"""          <div class="round-item">
-            <div class="round-item-main">{r2_main}</div>
-            <div class="round-item-personal">{r2_personal}</div>
-          </div>\n"""
+        round2_html += (
+            f"          <div class=\"round-item\"><div class=\"round-item-main\">{r2_main}</div>\n"
+            f"<div class=\"round-item-personal\">{r2_personal}</div>\n"
+            f"</div>\n"
+        )
 
     # Resolve Mistakes Catalog based on Level
     is_advanced_mistake = "B2" in level_short or "C1" in level_short or "C2" in level_short or "advanced" in level_label.lower()
@@ -1729,4 +1779,4 @@ for idx, r in enumerate(rows):
             mistakes_html=mistakes_html
         ))
 
-print("Successfully generated all 91 Cinema Club sessions with 100% unique cinema-specific vocabulary, 10-unit discussion structure, and screen-specific Grammar Focus!")
+print(f"Successfully generated all {len(rows)} Cinema Club sessions with 100% unique cinema-specific vocabulary, 10-unit discussion structure, and screen-specific Grammar Focus!")
