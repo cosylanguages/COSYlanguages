@@ -16,16 +16,16 @@ DATA = {
             ("If a pill could permanently erase daytime <strong>Drowsiness</strong>, would you still choose to sleep for 8 hours?", "★ What would you do with the extra 6 hours every day?")
         ],
         "r2": [
-            "If schools and offices were to start at 10 AM, how would aligning with our <strong>Circadian rhythm</strong> improve public health within a single year?",
-            "If you had optimized your sleep environment years ago, would you have successfully cured your <strong>Insomnia</strong> and been more productive?",
-            "If a company fired you for protecting your <strong>REM sleep</strong> and ignoring midnight emails, would you take legal action?",
-            "If a brain implant could compress sleep into 1 hour, would traditional <strong>Sleep hygiene</strong> become completely obsolete?",
-            "If managing somnolence were mandatory, would it boost collective <strong>Cognitive function</strong> and make colleagues more professional?",
-            "If you had avoided your phone last night, would the natural surge of <strong>Melatonin</strong> have made you feel more alert today?",
-            "If scientists proved that dreams predict the future, would fear-induced <strong>Sleep deprivation</strong> become a global crisis?",
-            "If we required no sleep, how would we handle the cognitive <strong>Consolidation</strong> of knowledge without down-time?",
-            "If recording your dreams revealed chronic daytime <strong>Somnolence</strong> to your friends, would you feel embarrassed?",
-            "If society valued rest as much as work, would eliminating constant <strong>Drowsiness</strong> have accelerated our progress?"
+            ("If schools and offices were to start at 10 AM, how would aligning with our <strong>Circadian rhythm</strong> improve public health within a single year?", "★ How would your own morning routine and energy levels change if you had this extra time?"),
+            ("If you had optimized your sleep environment years ago, would you have successfully cured your <strong>Insomnia</strong> and been more productive?", "★ What is one simple change you could make tonight to make your bedroom more sleep-friendly?"),
+            ("If a company fired you for protecting your <strong>REM sleep</strong> and ignoring midnight emails, would you take legal action?", "★ Have you ever had to choose between a job's demands and your physical well-being?"),
+            ("If a brain implant could compress sleep into 1 hour, would traditional <strong>Sleep hygiene</strong> become completely obsolete?", "★ Would you personally choose to get this implant to gain 7 extra hours every day?"),
+            ("If managing somnolence were mandatory, would it boost collective <strong>Cognitive function</strong> and make colleagues more professional?", "★ How does your own cognitive performance suffer on days when you feel extremely tired?"),
+            ("If you had avoided your phone last night, would the natural surge of <strong>Melatonin</strong> have made you feel more alert today?", "★ What was the latest time you looked at a screen last night, and did it affect your sleep?"),
+            ("If scientists proved that dreams predict the future, would fear-induced <strong>Sleep deprivation</strong> become a global crisis?", "★ Have you ever had a dream that seemed to come true, or felt like a warning?"),
+            ("If we required no sleep, how would we handle the cognitive <strong>Consolidation</strong> of knowledge without down-time?", "★ If you suddenly had 8 more hours of conscious time, what skill would you want to learn first?"),
+            ("If recording your dreams revealed chronic daytime <strong>Somnolence</strong> to your friends, would you feel embarrassed?", "★ Do you often feel the need to hide how tired you are from others during the workday?"),
+            ("If society valued rest as much as work, would eliminating constant <strong>Drowsiness</strong> have accelerated our progress?", "★ Have you ever felt guilty for taking a nap or resting when you had work to do?")
         ]
     },
     "benjamin-franklin-effect.html": {
@@ -42,16 +42,16 @@ DATA = {
             ("If our feelings can change simply because of our own actions, is the law of <strong>Reciprocity</strong> more powerful than we realize?", "★ Has understanding psychology ever changed the way you see yourself?")
         ],
         "r2": [
-            "If you discovered that your closest friendship began because of a strategic <strong>Favor</strong> rather than genuine chemistry, would that change your appreciation of the bond?",
-            "If you had known this psychological effect ten years ago, would any of your major life decisions or a key <strong>Relationship</strong> have turned out differently?",
-            "If you were forced to end a conflict by asking your opponent for a favor, would you be able to rebuild mutual <strong>Trust</strong>?",
-            "If we were impossible to persuade by psychological tricks, would we still be able to form a meaningful social <strong>Connection</strong> as easily?",
-            "If scientists proved that we only value those we assist, would you actively seek out new people to <strong>Cooperate</strong> with?",
-            "If you were an employer, how would you change your <strong>Attitude</strong> toward a candidate who actively asks for help?",
-            "If you had to become friends with an enemy, would you attempt to <strong>Persuade</strong> them by asking them for assistance?",
-            "If you were in a high-stakes professional <strong>Conflict</strong>, would you dare to ask your opponent for a small, simple favor to break the ice?",
-            "If everyone had forgotten every favor you ever did, would you still <strong>Appreciate</strong> the silent psychological benefits of your past kindness?",
-            "If an AI chose your future partner based on moments of mutual cooperation, would you trust the algorithm to manage <strong>Reciprocity</strong> more than your own intuition?"
+            ("If you discovered that your closest friendship began because of a strategic <strong>Favor</strong> rather than genuine chemistry, would that change your appreciation of the bond?", "★ Would you ever do someone a favor simply to get them to like you more?"),
+            ("If you had known this psychological effect ten years ago, would any of your major life decisions or a key <strong>Relationship</strong> have turned out differently?", "★ Is there a past relationship you wish you had handled with more psychological awareness?"),
+            ("If you were forced to end a conflict by asking your opponent for a favor, would you be able to rebuild mutual <strong>Trust</strong>?", "★ How easy is it for you to swallow your pride and ask an adversary for help?"),
+            ("If we were impossible to persuade by psychological tricks, would we still be able to form a meaningful social <strong>Connection</strong> as easily?", "★ Have you ever felt like someone was trying to manipulate you into being their friend?"),
+            ("If scientists proved that we only value those we assist, would you actively seek out new people to <strong>Cooperate</strong> with?", "★ Who is someone in your life you recently helped, and did it make you feel closer to them?"),
+            ("If you were an employer, how would you change your <strong>Attitude</strong> toward a candidate who actively asks for help?", "★ Do you find it difficult to ask your colleagues or boss for guidance at work?"),
+            ("If you had to become friends with an enemy, would you attempt to <strong>Persuade</strong> them by asking them for assistance?", "★ Have you ever turned an enemy or a rival into a friend? How did it happen?"),
+            ("If you were in a high-stakes professional <strong>Conflict</strong>, would you dare to ask your opponent for a small, simple favor to break the ice?", "★ What is your usual strategy for breaking the ice during a tense disagreement?"),
+            ("If everyone had forgotten every favor you ever did, would you still <strong>Appreciate</strong> the silent psychological benefits of your past kindness?", "★ Do you keep a subconscious 'scorecard' of the favors you do for others?"),
+            ("If an AI chose your future partner based on moments of mutual cooperation, would you trust the algorithm to manage <strong>Reciprocity</strong> more than your own intuition?", "★ Would you let an AI manage your daily social interactions if it guaranteed zero conflicts?")
         ]
     },
     "maze-of-biases.html": {
@@ -68,16 +68,16 @@ DATA = {
             ("Which cognitive bias causes the most uncomfortable <strong>Dissonance</strong> in your daily life when your beliefs are challenged?", "★ Do you think education can help people overcome these mental traps?")
         ],
         "r2": [
-            "If you had been fully aware of your own <strong>Cognitive Bias</strong>, would you have made the same choice in your last major purchase?",
-            "If you were in charge of a large company, how would you prevent <strong>Confirmation Bias</strong> from ruining your recruitment choices?",
-            "If you could eliminate <strong>Hindsight Bias</strong>, would you be more forgiving of your past mistakes?",
-            "If you had no initial numbers to act as an <strong>Anchor</strong>, how would you calculate the fair value of a new home?",
-            "If social media didn't feed our primitive need for a quick <strong>Heuristic</strong>, would our political biases be less extreme?",
-            "If you had realized your own limitations of <strong>Rationality</strong> sooner, would your career path have been different?",
-            "If an AI were perfectly objective, would you trust its logical <strong>Inference</strong> to make your medical decisions?",
-            "If we didn't search for a <strong>Correlation</strong> in random events, would the world feel more chaotic?",
-            "If you moved to a different culture, how would your <strong>Perception</strong> of success and failure be altered?",
-            "If you had to pick one bias to eliminate to reduce cognitive <strong>Dissonance</strong> from the world, which would it be?"
+            ("If you had been fully aware of your own <strong>Cognitive Bias</strong>, would you have made the same choice in your last major purchase?", "★ What is the most expensive thing you bought recently, and do you secretly regret it?"),
+            ("If you were in charge of a large company, how would you prevent <strong>Confirmation Bias</strong> from ruining your recruitment choices?", "★ Have you ever hired or worked with someone because they agreed with all your opinions?"),
+            ("If you could eliminate <strong>Hindsight Bias</strong>, would you be more forgiving of your past mistakes?", "★ What is one past decision where you often tell yourself 'I should have known better'?"),
+            ("If you had no initial numbers to act as an <strong>Anchor</strong>, how would you calculate the fair value of a new home?", "★ Have you ever been persuaded to pay too much for something because of a high original price tag?"),
+            ("If social media didn't feed our primitive need for a quick <strong>Heuristic</strong>, would our political biases be less extreme?", "★ How much time do you spend on social media daily, and does it leave you feeling angry or satisfied?"),
+            ("If you had realized your own limitations of <strong>Rationality</strong> sooner, would your career path have been different?", "★ What is a career goal you abandoned because you realized it was based on an illusion?"),
+            ("If an AI were perfectly objective, would you trust its logical <strong>Inference</strong> to make your medical decisions?", "★ Would you trust an AI doctor more than a human doctor who has a warm, empathetic bedside manner?"),
+            ("If we didn't search for a <strong>Correlation</strong> in random events, would the world feel more chaotic?", "★ Do you believe in luck, signs, or coincidences, or do you view life as purely random?"),
+            ("If you moved to a different culture, how would your <strong>Perception</strong> of success and failure be altered?", "★ How do you personally define success, and does your family agree with that definition?"),
+            ("If you had to pick one bias to eliminate to reduce cognitive <strong>Dissonance</strong> from the world, which would it be?", "★ When was the last time you felt a deep sense of internal conflict because your actions didn't match your values?")
         ]
     },
     "conversations-avoid-enjoy.html": {
@@ -94,16 +94,16 @@ DATA = {
             ("How does a <strong>Self-fulfilling prediction</strong> shape the outcome of a social interaction before it even begins?", "★ Do you think confidence changes outcomes or just feelings?")
         ],
         "r2": [
-            "If you were told that most strangers secretly enjoy being talked to, would you start more conversations or would your <strong>Cognitive bias</strong> still hold you back?",
-            "If you could see a 'probability score' above people’s heads showing how likely a conversation is to go well, would that alter your <strong>Social perception</strong> of strangers?",
-            "If you had to choose, would you rather relive the <strong>Anticipatory anxiety</strong> of every conversation you avoided, or the awkwardness of those you had?",
-            "If you were permanently free from any <strong>Negative expectation</strong>, do you think your personality would become more open?",
-            "If you discovered that your best future friend was sitting next to you on a train today, would you speak to them to claim that <strong>Social reward</strong>?",
-            "If we always trusted our negative <strong>Emotional forecasting</strong>, would we ever be pleasantly surprised by a new interaction?",
-            "If your past self could prove that <strong>Perceived awkwardness</strong> is actually quite normal, would you be more confident today?",
-            "If every conversation you avoided resulted in a feeling of regret, would you finally stop your habits of <strong>Social avoidance</strong>?",
-            "If you had to live in a world where every <strong>Interpersonal connection</strong> was guaranteed to be safe but boring, how would you find excitement?",
-            "If you realized that confidence is simply a <strong>Self-fulfilling prediction</strong>, would your social life have been different?"
+            ("If you were told that most strangers secretly enjoy being talked to, would you start more conversations or would your <strong>Cognitive bias</strong> still hold you back?", "★ When was the last time a stranger started a conversation with you, and did you enjoy it?"),
+            ("If you could see a 'probability score' above people’s heads showing how likely a conversation is to go well, would that alter your <strong>Social perception</strong> of strangers?", "★ Would you feel comfortable if other people could see your own 'friendliness score' above your head?"),
+            ("If you had to choose, would you rather relive the <strong>Anticipatory anxiety</strong> of every conversation you avoided, or the awkwardness of those you had?", "★ Which conversation do you most regret avoiding in your past?"),
+            ("If you were permanently free from any <strong>Negative expectation</strong>, do you think your personality would become more open?", "★ How do you prepare yourself mentally before entering a room full of strangers?"),
+            ("If you discovered that your best future friend was sitting next to you on a train today, would you speak to them to claim that <strong>Social reward</strong>?", "★ Have you ever met a close friend in a completely random or unexpected place?"),
+            ("If we always trusted our negative <strong>Emotional forecasting</strong>, would we ever be pleasantly surprised by a new interaction?", "★ Can you share a moment when a social event you dreaded turned out to be incredibly fun?"),
+            ("If your past self could prove that <strong>Perceived awkwardness</strong> is actually quite normal, would you be more confident today?", "★ How do you personally handle a moment of awkward silence during a conversation?"),
+            ("If every conversation you avoided resulted in a feeling of regret, would you finally stop your habits of <strong>Social avoidance</strong>?", "★ What is your favorite excuse or strategy for avoiding a social gathering?"),
+            ("If you had to live in a world where every <strong>Interpersonal connection</strong> was guaranteed to be safe but boring, how would you find excitement?", "★ Do you prefer deep, serious conversations with a few people, or light and playful banter with many?"),
+            ("If you realized that confidence is simply a <strong>Self-fulfilling prediction</strong>, would your social life have been different?", "★ What is one piece of advice you would give to your younger, less-confident self?")
         ]
     },
     "psychology-of-action-bias.html": {
@@ -120,16 +120,16 @@ DATA = {
             ("If a bias toward action is built into modern life, how can we prevent ourselves from making a <strong>Hasty</strong> and destructive choice?", "★ When do you manage to slow your thinking down?")
         ],
         "r2": [
-            "If you were forced to wait 24 hours before making any decision, how would you manage your own subconscious <strong>Action bias</strong>?",
-            "If humans hadn't evolved to fear <strong>Uncertainty</strong>, would we still have survived as a species?",
-            "If you had never acted on your first <strong>Impulse</strong>, would you be in the same profession you are in today?",
-            "If society rewarded patience more than speed, would the pressure to look <strong>Decisive</strong> completely disappear?",
-            "If you could always anticipate when you were about to feel <strong>Regret</strong>, would you make more slow, deliberate decisions?",
-            "If you were to start your life over with more willingness to <strong>Gather information</strong>, which major mistake would you have avoided?",
-            "If an AI could instantly <strong>Weigh the pros and cons</strong> of every personal decision for you, would you trust its advice?",
-            "If you had to choose between never feeling regret and having infinite <strong>Patience</strong>, which would be more valuable to you?",
-            "If your career had been free from any professional <strong>Pressure</strong>, how would your level of achievement look today?",
-            "If you lived in a world where nothing was ever urgent, would you still be prone to making a <strong>Hasty</strong> decision?"
+            ("If you were forced to wait 24 hours before making any decision, how would you manage your own subconscious <strong>Action bias</strong>?", "★ Have you ever made a major purchase or sent an email that you immediately regretted within minutes?"),
+            ("If humans hadn't evolved to fear <strong>Uncertainty</strong>, would we still have survived as a species?", "★ How do you personally cope when you are waiting for important, life-changing news?"),
+            ("If you had never acted on your first <strong>Impulse</strong>, would you be in the same profession you are in today?", "★ What was your very first career dream, and how close are you to it now?"),
+            ("If society rewarded patience more than speed, would the pressure to look <strong>Decisive</strong> completely disappear?", "★ Have you ever pretended to have a solid plan just to make others feel secure?"),
+            ("If you could always anticipate when you were about to feel <strong>Regret</strong>, would you make more slow, deliberate decisions?", "★ Is there a decision from your past that still causes you occasional feelings of regret?"),
+            ("If you were to start your life over with more willingness to <strong>Gather information</strong>, which major mistake would you have avoided?", "★ Do you tend to research things extensively before buying, or do you trust your gut feeling?"),
+            ("If an AI could instantly <strong>Weigh the pros and cons</strong> of every personal decision for you, would you trust its advice?", "★ Would you let an AI decide which job offer you should accept?"),
+            ("If you had to choose between never feeling regret and having infinite <strong>Patience</strong>, which would be more valuable to you?", "★ Who is the most patient person you know, and what have they taught you?"),
+            ("If your career had been free from any professional <strong>Pressure</strong>, how would your level of achievement look today?", "★ Do you work better under a tight deadline, or do you prefer having ample, unstructured time?"),
+            ("If you lived in a world where nothing was ever urgent, would you still be prone to making a <strong>Hasty</strong> decision?", "★ What is one daily activity where you always find yourself rushing, even when you have time?")
         ]
     },
     "psychology-of-smiles.html": {
@@ -146,16 +146,16 @@ DATA = {
             ("How much of your smiling behavior is natural, and how much is governed by your community's <strong>Cultural display rules</strong>?", "★ Have you noticed big differences in smiling behavior between cultures?")
         ],
         "r2": [
-            "If you could instantly identify a genuine <strong>Duchenne smile</strong>, how would your professional interactions change?",
-            "If you lived in a culture where people never had <strong>To fake a smile</strong>, would you find it easier to make friends?",
-            "If you were banned from using a <strong>Social smile</strong>, how would you navigate polite, professional greetings?",
-            "If people could see your exact <strong>Facial cues</strong> at all times, would you feel too exposed and vulnerable?",
-            "If you had mastered the detection of every <strong>Micro-expression</strong>, would you have avoided major personal conflicts?",
-            "If a genuine smile requires <strong>Eye involvement</strong>, can we ever train ourselves to fake true happiness perfectly?",
-            "In a high-stakes meeting, how do you prevent <strong>Emotional leakage</strong> when receiving disappointing news?",
-            "If you stopped using polite <strong>Non-verbal communication</strong> for a week, how many of your daily chats would become awkward?",
-            "If you could eliminate one form of <strong>Social masking</strong> from your workspace, which one would it be?",
-            "How do you adapt your smile when traveling to a country with completely different <strong>Cultural display rules</strong>?"
+            ("If you could instantly identify a genuine <strong>Duchenne smile</strong>, how would your professional interactions change?", "★ Have you ever smiled at a colleague or client when you were secretly furious with them?"),
+            ("If you lived in a culture where people never had <strong>To fake a smile</strong>, would you find it easier to make friends?", "★ Do you find it easy to tell when a friend is hiding their sadness behind a happy expression?"),
+            ("If you were banned from using a <strong>Social smile</strong>, how would you navigate polite, professional greetings?", "★ How do you greet strangers in your country — with a smile, a nod, or a handshake?"),
+            ("If people could see your exact <strong>Facial cues</strong> at all times, would you feel too exposed and vulnerable?", "★ Are you good at hiding your emotions, or is your face an 'open book' for everyone to read?"),
+            ("If you had mastered the detection of every <strong>Micro-expression</strong>, would you have avoided major personal conflicts?", "★ Have you ever caught a split-second look of anger or disappointment on someone's face?"),
+            ("If a genuine smile requires <strong>Eye involvement</strong>, can we ever train ourselves to fake true happiness perfectly?", "★ How do you practice looking happy or confident before an important meeting or presentation?"),
+            ("In a high-stakes meeting, how do you prevent <strong>Emotional leakage</strong> when receiving disappointing news?", "★ What is your primary physical tell when you are feeling stressed or uncomfortable?"),
+            ("If you stopped using polite <strong>Non-verbal communication</strong> for a week, how many of your daily chats would become awkward?", "★ Have you ever had a conversation where the other person's body language felt completely mismatched to their words?"),
+            ("If you could eliminate one form of <strong>Social masking</strong> from your workspace, which one would it be?", "★ Do you feel you have to wear a different 'mask' when talking to your family compared to your colleagues?"),
+            ("How do you adapt your smile when traveling to a country with completely different <strong>Cultural display rules</strong>?", "★ Have you ever felt uncomfortable in a foreign country because people smiled too much or too little?")
         ]
     },
     "power-of-habits.html": {
@@ -172,16 +172,16 @@ DATA = {
             ("How much of our daily behavior is governed by <strong>Subconscious</strong> patterns rather than conscious choices?", "★ Is there something you could start today using only one minute?")
         ],
         "r2": [
-            "If you had started your most important habit five years earlier, would you have needed as much <strong>Willpower</strong> to succeed?",
-            "If schools taught habit management, would students build the lifelong <strong>Consistency</strong> needed for self-study?",
-            "If you could delete any bad habit instantly with an implant, would that destroy your capacity for self-<strong>Discipline</strong>?",
-            "If you hadn't removed every negative environmental <strong>Trigger</strong> this morning, would you have been more productive?",
-            "If we lived in a world without instant <strong>Gratification</strong>, would it be much easier to maintain positive habits?",
-            "If you focused entirely on making <strong>Incremental</strong> improvements, how would your career look in five years?",
-            "If your brain resisted positive <strong>Habituation</strong>, would you ever be able to learn a new language?",
-            "If we had to think about every action instead of relying on <strong>Automation</strong>, would we be completely exhausted by noon?",
-            "If you could see the <strong>Compound</strong> interest of your daily efforts in real-time, would you work harder?",
-            "If you were fully conscious of every decision, would you lose the speed and comfort of <strong>Subconscious</strong> behaviors?"
+            ("If you had started your most important habit five years earlier, would you have needed as much <strong>Willpower</strong> to succeed?", "★ What is one habit you wish you had started in your early childhood?"),
+            ("If schools taught habit management, would students build the lifelong <strong>Consistency</strong> needed for self-study?", "★ Did your parents teach you specific routines, or did you have to build your habits on your own?"),
+            ("If you could delete any bad habit instantly with an implant, would that destroy your capacity for self-<strong>Discipline</strong>?", "★ What is one bad habit you would instantly delete from your brain if you could?"),
+            ("If you hadn't removed every negative environmental <strong>Trigger</strong> this morning, would you have been more productive?", "★ What is the biggest source of distraction on your desk right now?"),
+            ("If we lived in a world without instant <strong>Gratification</strong>, would it be much easier to maintain positive habits?", "★ What is your favorite 'guilty pleasure' that always distracts you from your goals?"),
+            ("If you focused entirely on making <strong>Incremental</strong> improvements, how would your career look in five years?", "★ What is a tiny, 1-minute positive change you could add to your routine tomorrow morning?"),
+            ("If your brain resisted positive <strong>Habituation</strong>, would you ever be able to learn a new language?", "★ At what point in your language studies did attending sessions begin to feel like a natural habit?"),
+            ("If we had to think about every action instead of relying on <strong>Automation</strong>, would we be completely exhausted by noon?", "★ What is the most automated part of your daily morning routine?"),
+            ("If you could see the <strong>Compound</strong> interest of your daily efforts in real-time, would you work harder?", "★ Can you think of a small daily habit that had a massive positive outcome for you later in life?"),
+            ("If you were fully conscious of every decision, would you lose the speed and comfort of <strong>Subconscious</strong> behaviors?", "★ Do you ever find yourself driving or walking somewhere on 'autopilot' without remembering the journey?")
         ]
     }
 }
@@ -263,16 +263,16 @@ def fix_all():
                 # Re-add elements
                 # 1. badge
                 badge = soup.new_tag('div', attrs={"class": "round-type-badge"})
-                badge.string = "Debate"
+                badge.string = "Dilemmas & Projections"
                 body.append(badge)
 
                 # 2. instruction
                 vi = soup.new_tag('div', attrs={"class": "vim-instruction"})
-                vi.string = "10 items required. Deep dilemma or future thinking about mental health."
+                vi.string = "10 items required. Speculate, brainstorm, and share your personal opinions and ideas."
                 body.append(vi)
 
-                # 3. 10 round items (only main questions for Mind Matters R2!)
-                for main_q in data["r2"]:
+                # 3. 10 round items (both main questions AND personal questions starting with ★!)
+                for main_q, pers_q in data["r2"]:
                     item_div = soup.new_tag('div', attrs={"class": "round-item"})
 
                     main_div = soup.new_tag('div', attrs={"class": "round-item-main"})
@@ -280,7 +280,14 @@ def fix_all():
                     for element in list(main_soup.contents):
                         main_div.append(element)
 
+                    pers_div = soup.new_tag('div', attrs={"class": "round-item-personal"})
+                    pers_soup = BeautifulSoup(pers_q, 'html.parser')
+                    for element in list(pers_soup.contents):
+                        pers_div.append(element)
+
                     item_div.append(main_div)
+                    item_div.append('\n')
+                    item_div.append(pers_div)
                     item_div.append('\n')
                     body.append(item_div)
                     body.append('\n')
