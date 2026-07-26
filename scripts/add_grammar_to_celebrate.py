@@ -1,5 +1,6 @@
 import os
 import re
+import random
 from bs4 import BeautifulSoup
 
 DATABASE = {
@@ -7,15 +8,15 @@ DATABASE = {
         "level": "Beginner (A1)",
         "focus": "Simple Present Structure",
         "explanation": "The <strong>Simple Present Structure</strong> is used to talk about regular habits, routines, and permanent facts.",
-        "rule_part_a": "Complete the rule: For general habits or routines, we use the Simple Present. For third-person singular (he/she/it), we add <strong>_____</strong> to the base verb. We use the auxiliary verb <strong>_____</strong> or <strong>_____</strong> for questions and negatives.",
-        "rule_answers": "-s/-es, do, does",
+        "rule_part_a_html": "Complete the rule: For general habits or routines, we use the Simple Present. For third-person singular (he/she/it), we add <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"-s/-es\">_____</span> to the base verb. We use the auxiliary verb <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"do\">_____</span> or <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"does\">_____</span> for questions and negatives.",
         "tasks": [
-            "She <strong>_____</strong> (tidy) her room every Saturday morning. <em>(Answer: tidies)</em>",
-            "They <strong>_____</strong> (not / like) busy city noise. <em>(Answer: do not like / don't like)</em>",
-            "<strong>_____</strong> you <strong>_____</strong> (spend) time in nature often? <em>(Answer: Do, spend)</em>",
-            "He <strong>_____</strong> (have) a very simple daily routine. <em>(Answer: has)</em>",
-            "My neighborhood <strong>_____</strong> (be) exceptionally peaceful and quiet. <em>(Answer: is)</em>"
+            "She <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"tidies\">_____</span> her room every Saturday morning.",
+            "They <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"do not like\">_____</span> busy city noise.",
+            "Do you <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"spend\">_____</span> time in nature often?",
+            "He <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"has\">_____</span> a very simple daily routine.",
+            "My neighborhood <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"is\">_____</span> exceptionally peaceful and quiet."
         ],
+        "chips": ["-s/-es", "do", "does", "tidies", "do not like", "spend", "has", "is"],
         "speaking": "Describe your daily morning routine to your partner in 3 simple sentences using the Simple Present tense.",
         "r1": [
             {"main": "What <strong>does</strong> it mean to live a <strong>simple</strong> life, and how <strong>do</strong> you start?", "personal": "What is one simple thing that makes you very happy?"},
@@ -46,15 +47,16 @@ DATABASE = {
         "level": "Beginner (A1)",
         "focus": "Modal Verbs of Obligation",
         "explanation": "Modal verbs of obligation (<strong>must</strong>, <strong>have to</strong>, <strong>should</strong>) express rules, necessity, and advice.",
-        "rule_part_a": "Complete the rule: To express a strong duty, we use <strong>_____</strong> or <strong>_____</strong>. For soft recommendations or advice, we use <strong>_____</strong>.",
+        "rule_part_a_html": "Complete the rule: To express a strong duty, we use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"must\">_____</span> or <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"have to\">_____</span>. For soft recommendations or advice, we use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"should\">_____</span>.",
         "rule_answers": "must, have to, should",
         "tasks": [
-            "You look exhausted; you <strong>_____</strong> (take) a holiday. <em>(Answer: should take)</em>",
-            "Employees <strong>_____</strong> (finish) their daily tasks before leaving. <em>(Answer: must finish / have to finish)</em>",
-            "We <strong>_____</strong> (not work) on Sundays; it is a strict company rule. <em>(Answer: must not work / don't have to work)</em>",
-            "She <strong>_____</strong> (arrive) at the office by 9:00 AM every day. <em>(Answer: has to arrive / must arrive)</em>",
-            "You <strong>_____</strong> (not / stress) too much about this small issue. <em>(Answer: should not stress / shouldn't stress)</em>"
+            "You look exhausted; you <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"should take\">_____</span> a holiday.",
+            "Employees <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"must finish\">_____</span> their daily tasks before leaving.",
+            "We <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"must not work\">_____</span> on Sundays; it is a strict company rule.",
+            "She <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"has to arrive\">_____</span> at the office by 9:00 AM every day.",
+            "You <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"should not stress\">_____</span> too much about this small issue."
         ],
+        "chips": ["must", "have to", "should", "should take", "must finish", "must not work", "has to arrive", "should not stress"],
         "speaking": "Tell your partner 3 things you \"must\" or \"have to\" do in your job, and 2 things you \"should\" do to relax.",
         "r1": [
             {"main": "Why <strong>must</strong> we maintain a healthy work-life <strong>balance</strong> to protect our mental health?", "personal": "What is the most important thing for your daily balance?"},
@@ -85,15 +87,16 @@ DATABASE = {
         "level": "Starter / Beginner (A1)",
         "focus": "Simple Present & Singular/Plural Nouns",
         "explanation": "Use <strong>Simple Present</strong> for general facts, matching the singular or plural forms of the nouns.",
-        "rule_part_a": "Complete the rule: Plural nouns usually end with <strong>_____</strong>. When the subject is singular (e.g., 'a bee'), the verb takes <strong>_____</strong>. When the subject is plural (e.g., 'bees'), we use the <strong>_____</strong> verb.",
+        "rule_part_a_html": "Complete the rule: Plural nouns usually end with <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"-s\">_____</span>. When the subject is singular (e.g., 'a bee'), the verb takes <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"-s/-es\">_____</span>. When the subject is plural (e.g., 'bees'), we use the <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"base\">_____</span> verb.",
         "rule_answers": "-s, -s/-es, base",
         "tasks": [
-            "A beekeeper <strong>_____</strong> (help) the bees in the garden. <em>(Answer: helps)</em>",
-            "Many beautiful <strong>_____</strong> (flower) grow near my house. <em>(Answer: flowers)</em>",
-            "Bees <strong>_____</strong> (make) sweet honey. <em>(Answer: make)</em>",
-            "This small insect <strong>_____</strong> (fly) very fast. <em>(Answer: flies)</em>",
-            "Two green <strong>_____</strong> (tree) stand in front of my window. <em>(Answer: trees)</em>"
+            "A beekeeper <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"helps\">_____</span> the bees in the garden.",
+            "Many beautiful <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"flowers\">_____</span> grow near my house.",
+            "Bees <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"make\">_____</span> sweet honey.",
+            "This small insect <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"flies\">_____</span> very fast.",
+            "Two green <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"trees\">_____</span> stand in front of my window."
         ],
+        "chips": ["-s", "-s/-es", "base", "helps", "flowers", "make", "flies", "trees"],
         "speaking": "Look around your room. Name 3 singular objects (e.g., 'a chair') and 3 plural objects (e.g., 'books') and describe what they are or do.",
         "r1": [
             {"main": "Where <strong>does</strong> a yellow <strong>bee</strong> live, and what <strong>does</strong> it do?", "personal": "Do you see bees in your town?"},
@@ -124,15 +127,16 @@ DATABASE = {
         "level": "Elementary (A2)",
         "focus": "Adverbs of Frequency & Prepositions of Place",
         "explanation": "<strong>Adverbs of frequency</strong> describe how often we do things, and <strong>prepositions of place</strong> show where things are.",
-        "rule_part_a": "Complete the rule: Adverbs of frequency go <strong>_____</strong> the main verb, but <strong>_____</strong> the verb 'to be'. Prepositions of place show <strong>_____</strong> something is located.",
+        "rule_part_a_html": "Complete the rule: Adverbs of frequency go <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"before\">_____</span> the main verb, but <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"after\">_____</span> the verb 'to be'. Prepositions of place show <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"where\">_____</span> something is located.",
         "rule_answers": "before, after, where",
         "tasks": [
-            "Bees are <strong>_____</strong> (often) found <strong>_____</strong> (in) beautiful gardens. <em>(Answer: often, in)</em>",
-            "He <strong>_____</strong> (never) puts honey <strong>_____</strong> (on) his warm toast. <em>(Answer: never, on)</em>",
-            "We <strong>_____</strong> (sometimes) sit <strong>_____</strong> (under) the big green tree. <em>(Answer: sometimes, under)</em>",
-            "The beekeeper <strong>_____</strong> (always) works <strong>_____</strong> (at) the hive. <em>(Answer: always, at / next to)</em>",
-            "There is a sweet flower <strong>_____</strong> (next to) the wooden box. <em>(Answer: next to)</em>"
+            "Bees are <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"often\">_____</span> found <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"in\">_____</span> beautiful gardens.",
+            "He <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"never\">_____</span> puts honey <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"on\">_____</span> his warm toast.",
+            "We <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"sometimes\">_____</span> sit <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"under\">_____</span> the big green tree.",
+            "The beekeeper <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"always\">_____</span> works <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"at\">_____</span> the hive.",
+            "There is a sweet flower <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"next to\">_____</span> the wooden box."
         ],
+        "chips": ["before", "after", "where", "often", "in", "never", "on", "sometimes", "under", "always", "at", "next to"],
         "speaking": "Describe where you usually keep honey and plants in your home using frequency adverbs and prepositions of place (e.g., 'I always keep flowers on the table').",
         "r1": [
             {"main": "What green spaces do you <strong>always</strong> find in your <strong>urban</strong> area?", "personal": "Do you prefer living in urban cities or quiet villages?"},
@@ -163,15 +167,16 @@ DATABASE = {
         "level": "Intermediate (B1)",
         "focus": "Narrative Past Tenses",
         "explanation": "Use <strong>Past Simple</strong>, <strong>Past Continuous</strong>, and <strong>Past Perfect</strong> to tell historical or personal past stories.",
-        "rule_part_a": "Complete the rule: Use <strong>_____</strong> for completed past actions, <strong>_____</strong> for background actions in progress, and <strong>_____</strong> for actions that occurred before another past action.",
+        "rule_part_a_html": "Complete the rule: Use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"Past Simple\">_____</span> for completed past actions, <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"Past Continuous\">_____</span> for background actions in progress, and <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"Past Perfect\">_____</span> for actions that occurred before another past action.",
         "rule_answers": "Past Simple, Past Continuous, Past Perfect",
         "tasks": [
-            "While she <strong>_____</strong> (decorate) the floor with rangoli, guests arrived. <em>(Answer: was decorating)</em>",
-            "We <strong>_____</strong> (already cleanse) the entire house before the festival started. <em>(Answer: had already cleansed)</em>",
-            "Last year, they <strong>_____</strong> (celebrate) Diwali with a grand feast. <em>(Answer: celebrated)</em>",
-            "When we arrived, they <strong>_____</strong> (light) dozens of colorful diyas. <em>(Answer: were lighting)</em>",
-            "My grandfather <strong>_____</strong> (tell) us many myths that he had learned in his youth. <em>(Answer: told)</em>"
+            "While she <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"was decorating\">_____</span> the floor with rangoli, guests arrived.",
+            "We <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"had already cleansed\">_____</span> the entire house before the festival started.",
+            "Last year, they <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"celebrated\">_____</span> Diwali with a grand feast.",
+            "When we arrived, they <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"were lighting\">_____</span> dozens of colorful diyas.",
+            "My grandfather <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"told\">_____</span> us many myths that he had learned in his youth."
         ],
+        "chips": ["Past Simple", "Past Continuous", "Past Perfect", "was decorating", "had already cleansed", "celebrated", "were lighting", "told"],
         "speaking": "Describe a memorable holiday celebration from your childhood. What were you doing when it started, and what had your family prepared beforehand?",
         "r1": [
             {"main": "Why did lighting tiny clay <strong>diyas</strong> hold such a profound emotional significance when families <strong>were celebrating</strong> in the past?", "personal": "Are there any multi-religious festivals in your country?"},
@@ -202,15 +207,16 @@ DATABASE = {
         "level": "Intermediate (B1)",
         "focus": "Expressing Support & Subjunctive Wishes",
         "explanation": "To express support and subjunctive wishes, use <strong>I wish + Past Simple / would</strong> or <strong>It is crucial / essential that + Subject + base verb</strong>.",
-        "rule_part_a": "Complete the rule: To express hypothetical wishes for others' welfare, use <strong>I wish + _____</strong>. For urgent importance, use <strong>It is crucial/essential that + Subject + _____</strong>.",
-        "rule_answers": "Past Simple / would, base verb",
+        "rule_part_a_html": "Complete the rule: To express hypothetical wishes for others' welfare, use <strong>I wish + <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"Past Simple\">_____</span></strong>. For urgent importance, use <strong>It is crucial/essential that + Subject + <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"base verb\">_____</span></strong>.",
+        "rule_answers": "Past Simple, base verb",
         "tasks": [
-            "It is essential that the migrant worker <strong>_____</strong> (receive) fair treatment. <em>(Answer: receive)</em>",
-            "I wish my family <strong>_____</strong> (live) closer so we could celebrate together. <em>(Answer: lived)</em>",
-            "We hope that this financial support <strong>_____</strong> (help) them open a new business. <em>(Answer: helps)</em>",
-            "It is crucial that he <strong>_____</strong> (transfer) the household income today. <em>(Answer: transfer)</em>",
-            "I wish the transaction fees <strong>_____</strong> (be) much lower. <em>(Answer: were)</em>"
+            "It is essential that the migrant worker <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"receive\">_____</span> fair treatment.",
+            "I wish my family <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"lived\">_____</span> closer so we could celebrate together.",
+            "We hope that this financial support <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"helps\">_____</span> them open a new business.",
+            "It is crucial that he <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"transfer\">_____</span> the household income today.",
+            "I wish the transaction fees <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"were\">_____</span> much lower."
         ],
+        "chips": ["Past Simple", "base verb", "receive", "lived", "helps", "transfer", "were"],
         "speaking": "Share 3 wishes or hopes you have for your family's future financial stability and prosperity using 'I wish' and 'I hope' structures.",
         "r1": [
             {"main": "I wish that sending a regular <strong>remittance</strong> <strong>were</strong> less complicated for separated families who require immediate help.", "personal": "Is sending money abroad a common practice in your community?"},
@@ -241,15 +247,16 @@ DATABASE = {
         "level": "Intermediate (B1)",
         "focus": "Speculative Future Predictions",
         "explanation": "To make speculative future predictions, we use modal verbs like <strong>will</strong>, <strong>may</strong>, <strong>might</strong>, or the phrase <strong>is/are likely to</strong>.",
-        "rule_part_a": "Complete the rule: To express absolute future certainty, we use <strong>_____</strong>. For less certain predictions or speculations, we use <strong>_____</strong> or <strong>_____</strong>.",
+        "rule_part_a_html": "Complete the rule: To express absolute future certainty, we use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"will\">_____</span>. For less certain predictions or speculations, we use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"may\">_____</span> or <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"might\">_____</span>.",
         "rule_answers": "will, may, might",
         "tasks": [
-            "Scientists <strong>_____</strong> (probably discover) a new asteroid next year. <em>(Answer: will probably discover)</em>",
-            "We <strong>_____</strong> (not colonize) Mars in this century, but it is possible. <em>(Answer: might not colonize / may not colonize)</em>",
-            "Space tourism <strong>_____</strong> (be) likely to become cheaper soon. <em>(Answer: is)</em>",
-            "A major collision <strong>_____</strong> (cause) global climate changes. <em>(Answer: will / might / may)</em>",
-            "Astronomers <strong>_____</strong> (detect) small objects using the new telescope. <em>(Answer: will / might / may)</em>"
+            "Scientists <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"will probably discover\">_____</span> a new asteroid next year.",
+            "We <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"might not colonize\">_____</span> Mars in this century, but it is possible.",
+            "Space tourism <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"is\">_____</span> likely to become cheaper soon.",
+            "A major collision <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"might cause\">_____</span> global climate changes.",
+            "Astronomers <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"will detect\">_____</span> small objects using the new telescope."
         ],
+        "chips": ["will", "may", "might", "will probably discover", "might not colonize", "is", "might cause", "will detect"],
         "speaking": "Share 2 speculative predictions about what space exploration and planet protection will look like in 50 years using 'might' and 'will'.",
         "r1": [
             {"main": "What scientific methods <strong>will</strong> astronomers use to detect a distant <strong>asteroid</strong>?", "personal": "Do you enjoy reading news about outer space and astronomical discoveries?"},
@@ -279,16 +286,17 @@ DATABASE = {
     "international-asteroid-day-upper-intermediate.html": {
         "level": "Upper-Intermediate (B2)",
         "focus": "Speculative Future Predictions",
-        "explanation": "Use <strong>Future Continuous</strong> and <strong>Future Perfect</strong> alongside advanced speculative modal helpers.",
-        "rule_part_a": "Complete the rule: To describe an action in progress in the future, use <strong>_____</strong>. To describe an action completed by a specific future point, use <strong>_____</strong>.",
+        "explanation": "For advanced future speculation, use <strong>Future Continuous</strong> (<em>will be + verb-ing</em>) and <strong>Future Perfect</strong> (<em>will have + past participle</em>).",
+        "rule_part_a_html": "Complete the rule: To describe an action in progress in the future, use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"Future Continuous\">_____</span>. To describe an action completed by a specific future point, use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"Future Perfect\">_____</span>.",
         "rule_answers": "Future Continuous, Future Perfect",
         "tasks": [
-            "By 2050, scientists <strong>_____</strong> (establish) a permanent lunar observatory. <em>(Answer: will have established)</em>",
-            "This time next year, astronauts <strong>_____</strong> (train) for the deep-space mission. <em>(Answer: will be training)</em>",
-            "Space agencies <strong>_____</strong> well have diverted the asteroid by the end of the decade. <em>(Answer: may / could)</em>",
-            "By the turn of the next century, humans <strong>_____</strong> (explore) far beyond Mars. <em>(Answer: will have explored)</em>",
-            "Scientists <strong>_____</strong> (monitor) solar storms continuously over the next few years. <em>(Answer: will be monitoring)</em>"
+            "By 2050, scientists <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"will have established\">_____</span> a permanent lunar observatory.",
+            "This time next year, astronauts <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"will be training\">_____</span> for the deep-space mission.",
+            "Space agencies <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"may\">_____</span> well have diverted the asteroid by the end of the decade.",
+            "By the turn of the next century, humans <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"will have explored\">_____</span> far beyond Mars.",
+            "Scientists <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"will be monitoring\">_____</span> solar storms continuously over the next few years."
         ],
+        "chips": ["Future Continuous", "Future Perfect", "will have established", "will be training", "may", "will have explored", "will be monitoring"],
         "speaking": "What major astronomical or defensive milestone will humanity have achieved by 2080? Explain what scientists will be working on then.",
         "r1": [
             {"main": "What warning signs <strong>will</strong> astronomers <strong>have identified</strong> before a hazardous <strong>asteroid</strong> approaches Earth?", "personal": "Are you optimistic about humanity's ability to survive space threats?"},
@@ -318,16 +326,17 @@ DATABASE = {
     "international-peace-love-day-intermediate.html": {
         "level": "Intermediate (B1)",
         "focus": "Phrasal Verbs of Connection",
-        "explanation": "Use phrasal verbs of connection like <strong>bring together</strong>, <strong>bond with</strong>, and <strong>reach out to</strong>.",
-        "rule_part_a": "Complete the rule: Phrasal verbs consist of a <strong>_____</strong> + a particle. For connections, 'to bring people together' means to <strong>_____</strong>, and 'to bond with someone' means to <strong>_____</strong>.",
-        "rule_answers": "verb, unite, form a close relationship",
+        "explanation": "Phrasal verbs of connection describe how we relate to, communicate with, and unite with others.",
+        "rule_part_a_html": "Complete the rule: Phrasal verbs consist of a <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"verb\">_____</span> + a particle. For connections, 'to bring people together' means to <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"unite\">_____</span>, and 'to bond with someone' means to <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"form a relationship\">_____</span>.",
+        "rule_answers": "verb, unite, form a relationship",
         "tasks": [
-            "Festivals are wonderful because they bring people <strong>_____</strong> (together). <em>(Answer: together)</em>",
-            "It is easy to bond <strong>_____</strong> (with) others over a delicious traditional meal. <em>(Answer: with)</em>",
-            "We should reach <strong>_____</strong> (out) to lonely neighbors during major holidays. <em>(Answer: out)</em>",
-            "How well do you get <strong>_____</strong> (along) with your neighbors? <em>(Answer: along)</em>",
-            "Art helps us connect <strong>_____</strong> (with) diverse communities. <em>(Answer: with)</em>"
+            "Festivals are wonderful because they bring people <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"together\">_____</span>.",
+            "It is easy to bond <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"with\">_____</span> others over a delicious traditional meal.",
+            "We should reach <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"out\">_____</span> to lonely neighbors during major holidays.",
+            "How well do you get <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"along\">_____</span> with your neighbors?",
+            "Art helps us connect <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"with\">_____</span> diverse communities."
         ],
+        "chips": ["verb", "unite", "form a relationship", "together", "with", "out", "along", "with"],
         "speaking": "Describe a time when a holiday, festival, or group activity helped you bond with someone new or bring your friends together.",
         "r1": [
             {"main": "How does art help us <strong>connect with</strong> others and cultivate <strong>empathy</strong> in divided communities?", "personal": "Do you find it easy to connect with people who have different opinions?"},
@@ -357,16 +366,17 @@ DATABASE = {
     "international-peace-love-day-upper-intermediate.html": {
         "level": "Upper-Intermediate (B2)",
         "focus": "Phrasal Verbs of Connection",
-        "explanation": "Use advanced phrasal verbs such as <strong>bridge the gap</strong>, <strong>open up to</strong>, and <strong>stand up for</strong>.",
-        "rule_part_a": "Complete the rule: To connect across differences is to <strong>_____</strong> the gap. To defend or support someone is to <strong>_____</strong> up for them. To become receptive or reveal feelings is to <strong>_____</strong> up.",
+        "explanation": "Use advanced phrasal verbs and prepositional collocations to discuss connection and social unity.",
+        "rule_part_a_html": "Complete the rule: To connect across differences is to <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"bridge\">_____</span> the gap. To defend or support someone is to <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"stand\">_____</span> up for them. To become receptive or reveal feelings is to <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"open\">_____</span> up.",
         "rule_answers": "bridge, stand, open",
         "tasks": [
-            "Cultural exchange programs help bridge the <strong>_____</strong> between divided nations. <em>(Answer: gap)</em>",
-            "It takes courage for individuals to open <strong>_____</strong> to unfamiliar perspectives. <em>(Answer: up)</em>",
-            "We must stand <strong>_____</strong> for marginalized groups to ensure social justice. <em>(Answer: up)</em>",
-            "Global communities need to reach <strong>_____</strong> to international partners. <em>(Answer: out)</em>",
-            "Shared artistic celebrations help colleagues bond <strong>_____</strong> each other. <em>(Answer: with)</em>"
+            "Cultural exchange programs help bridge the <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"gap\">_____</span> between divided nations.",
+            "It takes courage for individuals to open <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"up\">_____</span> to unfamiliar perspectives.",
+            "We must stand <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"up\">_____</span> for marginalized groups to ensure social justice.",
+            "Global communities need to reach <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"out\">_____</span> to international partners.",
+            "Shared artistic celebrations help colleagues bond <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"with\">_____</span> each other."
         ],
+        "chips": ["bridge", "stand", "open", "gap", "up", "up", "out", "with"],
         "speaking": "Discuss how international artistic collaborations can bridge the gap between competing nations. How do creators bond with each other during such tasks?",
         "r1": [
             {"main": "How does public art enable us to <strong>connect with</strong> diverse audiences and stimulate deep <strong>empathy</strong>?", "personal": "Do you believe that art has a genuine power to change political opinions?"},
@@ -397,15 +407,16 @@ DATABASE = {
         "level": "Intermediate (B1)",
         "focus": "Zodiac Descriptions & Cultural Prepositions",
         "explanation": "Zodiac traits and traditions require specific prepositional collocations.",
-        "rule_part_a": "Complete the rule: When describing traits, use the prepositions: associated <strong>_____</strong>, rely <strong>_____</strong>, famous <strong>_____</strong>, and celebrated <strong>_____</strong> a specific month.",
+        "rule_part_a_html": "Complete the rule: When describing traits, use the prepositions: associated <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"with\">_____</span>, rely <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"on\">_____</span>, famous <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"for\">_____</span>, and celebrated <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"in\">_____</span> a specific month.",
         "rule_answers": "with, on, for, in",
         "tasks": [
-            "The Tiger is closely associated <strong>_____</strong> bravery and strength. <em>(Answer: with)</em>",
-            "Families heavily rely <strong>_____</strong> traditional reunions to maintain their bonds. <em>(Answer: on)</em>",
-            "Lunar New Year is celebrated <strong>_____</strong> late January or early February. <em>(Answer: in)</em>",
-            "This ancient festival is famous <strong>_____</strong> its vibrant dragon dances. <em>(Answer: for)</em>",
-            "Red envelopes symbolize a positive shift <strong>_____</strong> fortune. <em>(Answer: in)</em>"
+            "The Tiger is closely associated <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"with\">_____</span> bravery and strength.",
+            "Families heavily rely <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"on\">_____</span> traditional reunions to maintain their bonds.",
+            "Lunar New Year is celebrated <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"in\">_____</span> late January or early February.",
+            "This ancient festival is famous <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"for\">_____</span> its vibrant dragon dances.",
+            "Red envelopes symbolize a positive shift <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"in\">_____</span> fortune."
         ],
+        "chips": ["with", "on", "for", "in", "with", "on", "in", "for", "in"],
         "speaking": "Describe your own birth year or favorite zodiac animal. What personality traits are associated with it, and what do people rely on it for?",
         "r1": [
             {"main": "How does the intense focus on welcoming financial <strong>prosperity</strong>, which is associated <strong>with</strong> the color red, affect modern families' expectations?", "personal": "Is it common to see these celebrations in your city?"},
@@ -436,15 +447,16 @@ DATABASE = {
         "level": "Intermediate (B1)",
         "focus": "Relative Clauses & Infinitive of Purpose",
         "explanation": "Define people and things using relative pronouns (<em>who, which, that</em>) and clarify purpose using <em>to + verb</em>.",
-        "rule_part_a": "Complete the rule: We use relative pronouns like <strong>_____</strong> for people, <strong>_____</strong> for things, and <strong>_____</strong> for places. To explain the purpose of an action, we use <strong>_____</strong> + verb.",
-        "rule_answers": "who/that, which/that, where, to",
+        "rule_part_a_html": "Complete the rule: We use relative pronouns like <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"who\">_____</span> for people, <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"which\">_____</span> for things, and <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"where\">_____</span> for places. To explain the purpose of an action, we use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"to\">_____</span> + verb.",
+        "rule_answers": "who, which, where, to",
         "tasks": [
-            "She is a person <strong>_____</strong> always helps others when they are in trouble. <em>(Answer: who / that)</em>",
-            "I went to the florist <strong>_____</strong> (buy) some fresh flowers for my mother. <em>(Answer: to buy)</em>",
-            "This is the park <strong>_____</strong> we first met on a sunny afternoon. <em>(Answer: where)</em>",
-            "Gratitude is a habit <strong>_____</strong> (keep) our minds positive and healthy. <em>(Answer: to keep / that keeps)</em>",
-            "He wrote a heartfelt card <strong>_____</strong> (say) thank you to his mentor. <em>(Answer: to say)</em>"
+            "She is a person <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"who\">_____</span> always helps others when they are in trouble.",
+            "I went to the florist <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"to buy\">_____</span> some fresh flowers for my mother.",
+            "This is the park <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"where\">_____</span> we first met on a sunny afternoon.",
+            "Gratitude is a habit <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"to keep\">_____</span> our minds positive and healthy.",
+            "He wrote a heartfelt card <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"to say\">_____</span> thank you to his mentor."
         ],
+        "chips": ["who", "which", "where", "to", "who", "to buy", "where", "to keep", "to say"],
         "speaking": "Describe someone who is very important in your life using a relative clause, and explain what you did recently to show them your appreciation using an infinitive of purpose.",
         "r1": [
             {"main": "Who is <strong>someone who</strong> has played a major role in your life, and what did they do <strong>to help</strong> you?", "personal": "Do you find it easy to express gratitude to people in your daily life?"},
@@ -475,15 +487,16 @@ DATABASE = {
         "level": "Upper-Intermediate (B2)",
         "focus": "Relative Clauses & Infinitive of Purpose",
         "explanation": "Differentiate between defining and non-defining clauses and use advanced purpose constructions.",
-        "rule_part_a": "Complete the rule: In formal contexts, use <strong>_____</strong> as a relative pronoun for ownership, and <strong>_____</strong> for people as objects. For advanced purpose, use <strong>_____</strong> order to or <strong>_____</strong> as to.",
+        "rule_part_a_html": "Complete the rule: In formal contexts, use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"whose\">_____</span> as a relative pronoun for ownership, and <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"whom\">_____</span> for people as objects. For advanced purpose, use <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"in\">_____</span> order to or <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"so\">_____</span> as to.",
         "rule_answers": "whose, whom, in, so",
         "tasks": [
-            "My mentor, <strong>_____</strong> lives in Canada, sent me a lovely appreciation card. <em>(Answer: who)</em>",
-            "We organized a surprise celebration in order <strong>_____</strong> (show) our deep respect. <em>(Answer: to show)</em>",
-            "This is the colleague, the efforts of <strong>_____</strong> saved our project from failure. <em>(Answer: whom)</em>",
-            "He designed a personalized gift so <strong>_____</strong> to honor her milestone. <em>(Answer: as)</em>",
-            "We must cherish those mentors upon <strong>_____</strong> we rely for wisdom. <em>(Answer: whom)</em>"
+            "My mentor, <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"who\">_____</span> lives in Canada, sent me a lovely appreciation card.",
+            "We organized a surprise celebration in order <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"to show\">_____</span> our deep respect.",
+            "This is the colleague, the efforts of <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"whom\">_____</span> saved our project from failure.",
+            "He designed a personalized gift so <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"as\">_____</span> to honor her milestone.",
+            "We must cherish those mentors upon <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"whom\">_____</span> we rely for wisdom."
         ],
+        "chips": ["whose", "whom", "in", "so", "who", "to show", "whom", "as", "whom"],
         "speaking": "Describe an esteemed colleague or family member whose impact on your life is profound. What steps did you take in order to convey your appreciation to them?",
         "r1": [
             {"main": "Who is <strong>someone whose</strong> guidance has fundamentally shaped your career, and what did you do <strong>so as to</strong> reciprocate?", "personal": "Do you find it natural to articulate your appreciation to professional mentors?"},
@@ -514,15 +527,16 @@ DATABASE = {
         "level": "Intermediate (B1)",
         "focus": "Speculative Conditional Clauses",
         "explanation": "The Second Conditional is used to talk about speculative, highly unlikely, or imaginary situations.",
-        "rule_part_a": "Complete the rule: In the Second Conditional, the if-clause uses the <strong>_____</strong> tense, and the main clause uses <strong>_____</strong> + base verb to speculate about imaginary present/future situations.",
+        "rule_part_a_html": "Complete the rule: In the Second Conditional, the if-clause uses the <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"Past Simple\">_____</span> tense, and the main clause uses <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"would\">_____</span> + base verb.",
         "rule_answers": "Past Simple, would",
         "tasks": [
-            "If there <strong>_____</strong> (be) no rules, society would be in total chaos. <em>(Answer: were / was)</em>",
-            "I <strong>_____</strong> (join) the public flash mob if I had more free time. <em>(Answer: would join)</em>",
-            "If you had to choose between absolute silence and total noise, which <strong>_____</strong> you prefer? <em>(Answer: would)</em>",
-            "If your home <strong>_____</strong> (fall) into chaos, what would you do first? <em>(Answer: fell)</em>",
-            "If you could live a completely unpredictable life, where <strong>_____</strong> you go? <em>(Answer: would)</em>"
+            "If there <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"were\">_____</span> no rules, society would be in total chaos.",
+            "I <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"would join\">_____</span> the public flash mob if I had more free time.",
+            "If you had to choose between absolute silence and total noise, which <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"would\">_____</span> you prefer?",
+            "If your home <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"fell\">_____</span> into chaos, what would you do first?",
+            "If you could live a completely unpredictable life, where <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"would\">_____</span> you go?"
         ],
+        "chips": ["Past Simple", "would", "were", "would join", "would", "fell", "would"],
         "speaking": "If you could create a brand-new national holiday to celebrate something chaotic, what would it be and how would people celebrate it?",
         "r1": [
             {"main": "If you had to describe <strong>pandemonium</strong> using only sounds, what noisy instruments <strong>would</strong> you choose?", "personal": "Do you prefer a quiet, calm home environment or a lively, noisy one?"},
@@ -553,15 +567,16 @@ DATABASE = {
         "level": "Upper-Intermediate (B2)",
         "focus": "Speculative Conditional Clauses",
         "explanation": "Master the Third Conditional and Mixed Conditionals to speculate about hypothetical past events and present situations.",
-        "rule_part_a": "Complete the rule: In the Third Conditional, the if-clause uses the <strong>_____</strong> tense, and the main clause uses <strong>_____</strong> + past participle to speculate about hypothetical past outcomes.",
+        "rule_part_a_html": "Complete the rule: In the Third Conditional, the if-clause uses the <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"Past Perfect\">_____</span> tense, and the main clause uses <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"would have\">_____</span> + past participle.",
         "rule_answers": "Past Perfect, would have",
         "tasks": [
-            "If they <strong>_____</strong> (plan) the event better, there wouldn't be so much chaos now. <em>(Answer: had planned)</em>",
-            "If I had not attended the festival, I <strong>_____</strong> (not meet) my best friend. <em>(Answer: would not have met)</em>",
-            "If the government <strong>_____</strong> (not intervene) yesterday, pandemonium would still be ongoing. <em>(Answer: had not intervened)</em>",
-            "If security forces had not controlled the access points, the crowd <strong>_____</strong> (cause) stampedes. <em>(Answer: would have caused)</em>",
-            "If you <strong>_____</strong> (be) there, would you have been afraid? <em>(Answer: had been)</em>"
+            "If they <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"had planned\">_____</span> the event better, there wouldn't be so much chaos now.",
+            "If I had not attended the festival, I <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"would not have met\">_____</span> my best friend.",
+            "If the government <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"had not intervened\">_____</span> yesterday, pandemonium would still be ongoing.",
+            "If security forces had not controlled the access points, the crowd <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"would have caused\">_____</span> stampedes.",
+            "If you <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"had been\">_____</span> there, would you have been afraid?"
         ],
+        "chips": ["Past Perfect", "would have", "had planned", "would not have met", "had not intervened", "would have caused", "had been"],
         "speaking": "Reflect on a chaotic or highly unpredictable event in your past. How would your life or current situation be different today if that event had never occurred?",
         "r1": [
             {"main": "If you had been asked to define <strong>pandemonium</strong> using only historical events, which chaotic eras <strong>would</strong> you <strong>have highlighted</strong>?", "personal": "Do you find historical biographies or fictional accounts of chaos more compelling?"},
@@ -608,30 +623,63 @@ def process_file(filename):
 
     soup = BeautifulSoup(content, "html.parser")
 
-    # 1. Remove any existing grammar section if it was previously added (to avoid duplicates)
+    # 1. Remove any existing grammar sections
     existing_grammar = soup.find(id="grammar")
     if existing_grammar:
         existing_grammar.decompose()
 
-    # 2. Build the new grammar section (Task 1 Part A & Part B, Task 2)
-    tasks_html_list = "".join(f"<li>{t}</li>\n" for t in data["tasks"])
-    grammar_html = f"""<section id="grammar" style="margin-bottom: 2.5rem;">
-<h2 class="section-title">⚡ Grammar Practice — {data['focus']}</h2>
-<div class="celebrate-theme-box" style="border-color: #BA7517;">
+    # Decompose if any is found inside rounds container as well
+    for el in soup.find_all(id="s-grammar"):
+        el.decompose()
+
+    # 2. Build the new interactive, game-logic grammar section
+    # Shuffle or randomize the chips to make it a fun challenge!
+    chips = list(data["chips"])
+    # Filter out duplicates to keep it clean
+    unique_chips = list(dict.fromkeys(chips))
+    random.shuffle(unique_chips)
+
+    chips_html_list = []
+    for chip in unique_chips:
+        chips_html_list.append(f'<span class="grammar-tap-chip" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;" onclick="COSY.selectGrammarChip(this)">{chip}</span>')
+    chips_html = "\n            ".join(chips_html_list)
+
+    tasks_html_list = []
+    for t in data["tasks"]:
+        tasks_html_list.append(f'<li>{t}</li>')
+    tasks_html = "\n            ".join(tasks_html_list)
+
+    grammar_html = f"""<div class="round-block grammar open" id="s-grammar">
+<div class="round-header" onclick="COSY.toggleRound('s-grammar')" style="background:#FFF3E0; border-left: 5px solid #BA7517;">
+<span>⚡ Grammar Practice — {data['focus']}</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block; padding:1.5rem 1.25rem;">
+<div class="grammar-interactive-game" style="position:relative; z-index:2;">
 <h3>⚡ Grammar Explanation ({data['level']})</h3>
-<p style="margin-bottom: 1.5rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem; z-index: 2; position: relative;">
+<p style="margin-bottom: 1.5rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
 {data['explanation']}
 </p>
-<div class="grammar-practice-tasks" style="display: flex; flex-direction: column; gap: 1rem; z-index: 2; position: relative; margin-top: 1rem;">
-<div class="grammar-task-item" style="background: rgba(186, 117, 23, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #BA7517; box-shadow: var(--shadow-sm);">
+<div style="background: rgba(186, 117, 23, 0.03); border: 1px dashed rgba(186, 117, 23, 0.3); padding: 1.25rem; border-radius: 12px; margin-bottom: 1.5rem;">
+<strong style="display: block; margin-bottom: 0.5rem; color: #5c390b;">🧩 Interactive Word Bank:</strong>
+<p style="font-size:0.82rem; color:var(--muted); margin:0 0 0.75rem 0;">Tap a word chip below, then tap any empty bracket <code>[_____]</code> to place it!</p>
+<div class="grammar-word-bank" style="display:flex; flex-wrap:wrap; gap:8px;">
+{chips_html}
+</div>
+</div>
+<div class="grammar-task-item" style="background: rgba(186, 117, 23, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #BA7517; box-shadow: var(--shadow-sm); margin-bottom:1.5rem;">
 <strong style="display: block; margin-bottom: 0.5rem; color: #5c390b;">📝 Task 1 — Part A: Rule Formulation:</strong>
-<p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink); line-height: 1.6;">
-{data['rule_part_a']}<br>
-<span style="display: block; margin-top: 0.5rem; font-size: 0.85rem; color: var(--muted);"><em>(Key Options: {data['rule_answers']})</em></span>
+<p style="margin: 0; font-size: 0.95rem; color: var(--ink); line-height: 1.8;">
+{data['rule_part_a_html']}
 </p>
+</div>
+<div class="grammar-task-item" style="background: rgba(186, 117, 23, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #BA7517; box-shadow: var(--shadow-sm); margin-bottom:1.5rem;">
 <strong style="display: block; margin-bottom: 0.5rem; color: #5c390b;">📝 Task 1 — Part B: Structured Practice:</strong>
-<ul style="margin: 0; padding-left: 1.2rem; font-size: 0.95rem; color: var(--ink); line-height: 1.6;">
-{tasks_html_list}</ul>
+<ol style="margin: 0; padding-left: 1.2rem; font-size: 0.95rem; color: var(--ink); line-height: 2.0;">
+{tasks_html}</ol>
+</div>
+<div style="display:flex; gap:10px; margin-bottom:1.5rem;">
+<button class="btn-verify" style="background:#0F6E56; color:white; border:none; padding:10px 20px; border-radius:30px; cursor:pointer; font-weight:700; font-size:0.9rem; transition:all 0.2s;" onclick="COSY.verifyGrammarGame(this)">Check Answers</button>
+<button class="btn-reset" style="background:transparent; border:1px solid var(--border); color:var(--muted); padding:10px 20px; border-radius:30px; cursor:pointer; font-weight:700; font-size:0.9rem; transition:all 0.2s;" onclick="COSY.resetGrammarGame(this)">Reset Board</button>
 </div>
 <div class="grammar-task-item" style="background: rgba(186, 117, 23, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #BA7517; box-shadow: var(--shadow-sm);">
 <strong style="display: block; margin-bottom: 0.5rem; color: #5c390b;">🗣️ Task 2 — Interactive Speaking:</strong>
@@ -641,17 +689,22 @@ def process_file(filename):
 </div>
 </div>
 </div>
-</section>"""
+</div>"""
 
-    # Parse grammar HTML
-    grammar_soup = BeautifulSoup(grammar_html, "html.parser")
+    # Parse grammar block HTML
+    grammar_block_soup = BeautifulSoup(grammar_html, "html.parser")
 
-    # 3. Insert grammar section right after vocabulary section
-    vocab_section = soup.find(id="vocabulary")
-    if vocab_section:
-        vocab_section.insert_after(grammar_soup)
+    # 3. Find Warm-up block to insert grammar right after it
+    warmup_block = soup.find(id="s-warm")
+    if warmup_block:
+        warmup_block.insert_after(grammar_block_soup)
     else:
-        print(f"Warning: vocabulary section not found in {filename}")
+        # Fallback to rounds-container top
+        rounds_container = soup.find(class_="rounds-container")
+        if rounds_container:
+            rounds_container.insert(0, grammar_block_soup)
+        else:
+            print(f"Warning: rounds container not found in {filename}")
 
     # 4. Update Round 1 items
     r1_block = soup.find(class_="round-1")

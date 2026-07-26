@@ -249,6 +249,137 @@
                 inputEl.style.color = '#C0392B';
             }
         };
+
+        window.COSY.activeGrammarChip = null;
+
+        window.COSY.selectGrammarChip = function(chipEl) {
+            const container = chipEl.closest('.grammar-interactive-game') || chipEl.closest('#grammar') || chipEl.closest('.round-block');
+            if (!container) return;
+
+            container.querySelectorAll('.grammar-tap-chip').forEach(c => {
+                if (c !== chipEl) c.classList.remove('selected');
+            });
+
+            if (chipEl.classList.contains('used')) {
+                return;
+            }
+
+            chipEl.classList.toggle('selected');
+            if (chipEl.classList.contains('selected')) {
+                window.COSY.activeGrammarChip = chipEl;
+            } else {
+                window.COSY.activeGrammarChip = null;
+            }
+        };
+
+        window.COSY.placeGrammarChip = function(gapEl) {
+            const container = gapEl.closest('.grammar-interactive-game') || gapEl.closest('#grammar') || gapEl.closest('.round-block');
+            if (!container) return;
+
+            const activeChip = window.COSY.activeGrammarChip;
+
+            if (activeChip && activeChip.closest('.grammar-interactive-game') === container) {
+                const oldWord = gapEl.getAttribute('data-filled-word');
+                if (oldWord) {
+                    container.querySelectorAll('.grammar-tap-chip').forEach(c => {
+                        if (c.textContent.trim() === oldWord) {
+                            c.classList.remove('used');
+                            c.style.opacity = '1';
+                        }
+                    });
+                }
+
+                gapEl.textContent = activeChip.textContent.trim();
+                gapEl.setAttribute('data-filled-word', activeChip.textContent.trim());
+                gapEl.classList.add('filled');
+                gapEl.style.color = '#BA7517';
+                gapEl.style.borderBottomColor = '#BA7517';
+
+                activeChip.classList.remove('selected');
+                activeChip.classList.add('used');
+                activeChip.style.opacity = '0.35';
+
+                window.COSY.activeGrammarChip = null;
+            } else {
+                const oldWord = gapEl.getAttribute('data-filled-word');
+                if (oldWord) {
+                    container.querySelectorAll('.grammar-tap-chip').forEach(c => {
+                        if (c.textContent.trim() === oldWord) {
+                            c.classList.remove('used');
+                            c.style.opacity = '1';
+                        }
+                    });
+                    gapEl.textContent = '_____';
+                    gapEl.removeAttribute('data-filled-word');
+                    gapEl.classList.remove('filled');
+                    gapEl.style.color = 'var(--ink-soft)';
+                    gapEl.style.borderBottomColor = '#BA7517';
+                }
+            }
+        };
+
+        window.COSY.verifyGrammarGame = function(btnEl) {
+            const container = btnEl.closest('.grammar-interactive-game') || btnEl.closest('#grammar') || btnEl.closest('.round-block');
+            if (!container) return;
+
+            const gaps = container.querySelectorAll('.grammar-gap');
+            let allCorrect = true;
+
+            gaps.forEach(gapEl => {
+                const rawAns = (gapEl.getAttribute('data-answer') || '').trim().toLowerCase();
+                const typed = (gapEl.getAttribute('data-filled-word') || '').trim().toLowerCase();
+                const correctOpts = rawAns.split('/');
+
+                const clean = s => s.replace(/[^a-z0-9а-яёα-ωίϊΐόάέύϋΰήώ\-\/]/gi, '');
+
+                const isCorrect = (clean(rawAns) === clean(typed)) || correctOpts.some(opt => clean(opt) === clean(typed));
+
+                if (typed === '') {
+                    gapEl.style.color = '#D9381E';
+                    gapEl.style.borderBottomColor = '#D9381E';
+                    allCorrect = false;
+                } else if (isCorrect) {
+                    gapEl.style.color = '#0F6E56';
+                    gapEl.style.borderBottomColor = '#0F6E56';
+                    gapEl.style.fontWeight = 'bold';
+                } else {
+                    gapEl.style.color = '#D9381E';
+                    gapEl.style.borderBottomColor = '#D9381E';
+                    allCorrect = false;
+                }
+            });
+
+            if (allCorrect) {
+                if (window.COSY && typeof window.COSY.showToast === 'function') {
+                    window.COSY.showToast('🎉 Excellent! All answers are correct!');
+                }
+            } else {
+                if (window.COSY && typeof window.COSY.showToast === 'function') {
+                    window.COSY.showToast('❌ Some answers are incorrect. Try again!');
+                }
+            }
+        };
+
+        window.COSY.resetGrammarGame = function(btnEl) {
+            const container = btnEl.closest('.grammar-interactive-game') || btnEl.closest('#grammar') || btnEl.closest('.round-block');
+            if (!container) return;
+
+            container.querySelectorAll('.grammar-gap').forEach(gapEl => {
+                gapEl.textContent = '_____';
+                gapEl.removeAttribute('data-filled-word');
+                gapEl.classList.remove('filled');
+                gapEl.style.color = 'var(--ink-soft)';
+                gapEl.style.borderBottomColor = '#BA7517';
+                gapEl.style.fontWeight = 'normal';
+            });
+
+            container.querySelectorAll('.grammar-tap-chip').forEach(c => {
+                c.classList.remove('selected', 'used');
+                c.style.opacity = '1';
+            });
+
+            window.COSY.activeGrammarChip = null;
+        };
     }
 
     /* ─── VIM CUSTOM ELEMENTS ──────────────────────────────────── */
