@@ -636,6 +636,319 @@
         });
     };
 
+    /* ─── VOCAB HOVER TOOLTIP SYSTEM ────────────────────────────── */
+    const setupVocabHover = () => {
+        const cards = document.querySelectorAll('.vocab-card');
+        if (cards.length === 0) return;
+
+        // Parse vocabulary items from the page
+        const vocabMap = {};
+        const allWords = [];
+
+        cards.forEach(card => {
+            const wordEl = card.querySelector('.vocab-word');
+            if (!wordEl) return;
+
+            // Clone word to get clean text (ignoring pronunciation speaker button if present)
+            const clonedWord = wordEl.cloneNode(true);
+            const pronBtn = clonedWord.querySelector('.btn-pronounce');
+            if (pronBtn) pronBtn.remove();
+            const originalWordText = clonedWord.textContent.trim();
+            if (!originalWordText) return;
+
+            const defEl = card.querySelector('.vocab-def');
+            const defText = defEl ? defEl.textContent.trim() : '';
+
+            const exEl = card.querySelector('.vocab-example');
+            const exText = exEl ? exEl.textContent.trim() : '';
+
+            // Clean wordText for matching (e.g. "Resilience ≠ Fragility" or "A ≠ B")
+            // We split on common separators like ≠, ≈, /, , to find words we want to hover
+            const separators = /[≠≈/,]/;
+            const wordVariants = originalWordText.split(separators).map(w => w.trim()).filter(Boolean);
+
+            // Save word metadata under each variant, plus the original full word itself
+            const allVariants = [originalWordText, ...wordVariants];
+
+            allVariants.forEach(variant => {
+                const normalized = variant.toLowerCase();
+                // Ensure we don't overwrite if variant is already added
+                if (!vocabMap[normalized]) {
+                    vocabMap[normalized] = {
+                        word: originalWordText,
+                        variant: variant,
+                        definition: defText,
+                        example: exText
+                    };
+                    if (variant.length >= 3) { // Avoid hovering extremely short words like "A", "I", "To"
+                        allWords.push(variant);
+                    }
+                }
+            });
+        });
+
+        if (allWords.length === 0) return;
+
+        // Sort words by length descending to match longer phrases first (e.g. "Self-worth" before "Self")
+        allWords.sort((a, b) => b.length - a.length);
+
+        // Find elements that we want to scan and insert triggers in (discussion questions/prompts)
+        const targets = document.querySelectorAll('.round-item-main, .round-item-personal, .round-questions li, .lst-item div');
+
+        // Function to process a text node and highlight matches
+        const highlightTextNode = (node, wordsMap, sortedWords) => {
+            const text = node.nodeValue;
+            if (!text.trim()) return;
+
+            let earliestMatch = null;
+
+            for (const word of sortedWords) {
+                const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const boundaryChars = "a-zA-Z0-9а-яА-ЯёЁα-ωΑ-Ωίϊΐόάέύϋΰήώçéèàùâêîôûëïüäößœæç";
+                let regex;
+                try {
+                    regex = new RegExp('(?<=^|[^' + boundaryChars + '])(' + escaped + ')(?=$|[^' + boundaryChars + '])', 'i');
+                } catch (e) {
+                    // Fallback RegExp if lookbehinds are not supported
+                    regex = new RegExp('()(' + escaped + ')()', 'i');
+                }
+
+                const match = regex.exec(text);
+                if (match) {
+                    const index = match.index;
+                    if (earliestMatch === null || index < earliestMatch.index) {
+                        earliestMatch = {
+                            index: index,
+                            length: match[0].length,
+                            wordText: match[0],
+                            matchedKey: word.toLowerCase()
+                        };
+                    }
+                }
+            }
+
+            if (earliestMatch) {
+                const beforeText = text.substring(0, earliestMatch.index);
+                const matchText = text.substring(earliestMatch.index, earliestMatch.index + earliestMatch.length);
+                const afterText = text.substring(earliestMatch.index + earliestMatch.length);
+
+                const parent = node.parentNode;
+                if (!parent) return;
+
+                const trigger = document.createElement('span');
+                trigger.className = 'vocab-hover-trigger';
+                trigger.setAttribute('data-vocab-word', earliestMatch.matchedKey);
+                trigger.textContent = matchText;
+
+                const beforeNode = document.createTextNode(beforeText);
+                const afterNode = document.createTextNode(afterText);
+
+                parent.insertBefore(beforeNode, node);
+                parent.insertBefore(trigger, node);
+                parent.insertBefore(afterNode, node);
+                parent.removeChild(node);
+
+                // Recurse on the remaining after text node
+                highlightTextNode(afterNode, wordsMap, sortedWords);
+            }
+        };
+
+        // Scan all target elements using a TreeWalker to safely find and modify text nodes
+        targets.forEach(target => {
+            const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT, null, false);
+            const textNodes = [];
+            while (walker.nextNode()) {
+                // Ensure we are not inside an existing link, button, or trigger element
+                const parent = walker.currentNode.parentNode;
+                if (parent && !parent.closest('a, button, .vocab-hover-trigger, .btn-pronounce')) {
+                    textNodes.push(walker.currentNode);
+                }
+            }
+
+            textNodes.forEach(node => {
+                highlightTextNode(node, vocabMap, allWords);
+            });
+        });
+
+        // Set up global tooltip element
+        let tooltip = document.getElementById('vocab-hover-tooltip');
+        if (!tooltip) {
+            tooltip = document.createElement('div');
+            tooltip.id = 'vocab-hover-tooltip';
+            document.body.appendChild(tooltip);
+        }
+
+        let hoverTimeout = null;
+        let activeTrigger = null;
+
+        const showTooltip = (triggerEl, e) => {
+            if (hoverTimeout) clearTimeout(hoverTimeout);
+
+            const wordKey = triggerEl.getAttribute('data-vocab-word');
+            const data = vocabMap[wordKey];
+            if (!data) return;
+
+            activeTrigger = triggerEl;
+            triggerEl.classList.add('active');
+
+            // Check if word is already in user's dictionary
+            const isSaved = window.COSY && window.COSY.dictionary && window.COSY.dictionary[data.word];
+
+            // Render tooltip contents
+            tooltip.innerHTML = `
+                <div class="vht-header">
+                    <span class="vht-word">${data.word}</span>
+                    <button class="vht-close" aria-label="Close tooltip">×</button>
+                </div>
+                <div class="vht-body">
+                    <span class="vht-def-label">Definition</span>
+                    <span class="vht-def">${data.definition}</span>
+                    ${data.example ? `
+                        <span class="vht-example-label">Example</span>
+                        <span class="vht-example">${data.example}</span>
+                    ` : ''}
+                </div>
+                <div class="vht-footer">
+                    <button class="vht-add-btn ${isSaved ? 'saved' : ''}" ${isSaved ? 'disabled' : ''}>
+                        ${isSaved ? '✓ Saved' : 'Add to Notebook 📓'}
+                    </button>
+                </div>
+            `;
+
+            // Setup "Add to Dictionary" click action
+            const addBtn = tooltip.querySelector('.vht-add-btn');
+            if (addBtn && !isSaved) {
+                addBtn.addEventListener('click', (ev) => {
+                    ev.stopPropagation();
+                    if (window.COSY && typeof window.COSY.addToDict === 'function') {
+                        window.COSY.addToDict({
+                            word: data.word,
+                            definition: data.definition,
+                            example: data.example
+                        }, addBtn);
+
+                        addBtn.textContent = '✓ Saved';
+                        addBtn.classList.add('saved');
+                        addBtn.disabled = true;
+
+                        // Also update any other buttons or lists
+                        const otherBtns = document.querySelectorAll('.vocab-add-btn, .btn-add-dict');
+                        otherBtns.forEach(ob => {
+                            const oc = ob.getAttribute('onclick') || '';
+                            if (oc.includes(data.word)) {
+                                ob.textContent = '✓ Saved';
+                                ob.classList.add('saved');
+                            }
+                        });
+                    }
+                });
+            }
+
+            // Setup close button click action
+            const closeBtn = tooltip.querySelector('.vht-close');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', hideTooltip);
+            }
+
+            // Position and show tooltip
+            tooltip.style.display = 'block';
+
+            // Calculate absolute position
+            const rect = triggerEl.getBoundingClientRect();
+            const scrollY = window.scrollY;
+            const scrollX = window.scrollX;
+
+            let top = rect.top + scrollY - tooltip.offsetHeight - 10;
+            let left = rect.left + scrollX + (rect.width / 2) - (tooltip.offsetWidth / 2);
+
+            // Bounds check for viewport top overflow
+            if (rect.top - tooltip.offsetHeight - 15 < 0) {
+                // Show below instead
+                top = rect.bottom + scrollY + 10;
+            }
+
+            // Bounds check for viewport left/right overflow
+            const margin = 16;
+            if (left < margin) {
+                left = margin;
+            } else if (left + tooltip.offsetWidth > window.innerWidth - margin) {
+                left = window.innerWidth - tooltip.offsetWidth - margin;
+            }
+
+            tooltip.style.top = `${top}px`;
+            tooltip.style.left = `${left}px`;
+            tooltip.classList.add('visible');
+        };
+
+        const hideTooltip = () => {
+            if (hoverTimeout) clearTimeout(hoverTimeout);
+            tooltip.classList.remove('visible');
+            if (activeTrigger) {
+                activeTrigger.classList.remove('active');
+                activeTrigger = null;
+            }
+            // Keep display block for fade-out, then none
+            hoverTimeout = setTimeout(() => {
+                if (!tooltip.classList.contains('visible')) {
+                    tooltip.style.display = 'none';
+                }
+            }, 200);
+        };
+
+        // Event listeners for triggers
+        document.querySelectorAll('.vocab-hover-trigger').forEach(trigger => {
+            // Touch devices (Mobile/Tablets)
+            trigger.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (activeTrigger === trigger) {
+                    hideTooltip();
+                } else {
+                    showTooltip(trigger, e);
+                }
+            });
+
+            // Hover (Desktop)
+            trigger.addEventListener('mouseenter', (e) => {
+                if (window.matchMedia('(hover: hover)').matches) {
+                    showTooltip(trigger, e);
+                }
+            });
+
+            trigger.addEventListener('mouseleave', () => {
+                if (window.matchMedia('(hover: hover)').matches) {
+                    // Let the user hover into the tooltip before hiding it
+                    hoverTimeout = setTimeout(hideTooltip, 300);
+                }
+            });
+        });
+
+        // Hover events on tooltip itself so it doesn't close
+        tooltip.addEventListener('mouseenter', () => {
+            if (window.matchMedia('(hover: hover)').matches && hoverTimeout) {
+                clearTimeout(hoverTimeout);
+            }
+        });
+
+        tooltip.addEventListener('mouseleave', () => {
+            if (window.matchMedia('(hover: hover)').matches) {
+                hoverTimeout = setTimeout(hideTooltip, 300);
+            }
+        });
+
+        // Close on clicking outside or Esc key
+        document.addEventListener('click', (e) => {
+            if (activeTrigger && !tooltip.contains(e.target) && !activeTrigger.contains(e.target)) {
+                hideTooltip();
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                hideTooltip();
+            }
+        });
+    };
+
     /* ─── COSY TOUR GUIDE & NAV HELP SYSTEM ───────────────────────── */
     const TOUR_TRANSLATIONS = {
         en: {
@@ -2112,6 +2425,7 @@
         setupEmbeddedArticles();
         setupLyricsDisclaimers();
         setupDoubleClickHarvesting();
+        setupVocabHover();
 
         // Initialize first country tab on language pages if present
         const firstTab = document.querySelector('.ctab');

@@ -857,3 +857,138 @@
     padding: 14px;
   }
 }
+
+/* ─── VOCAB HOVER TOOLTIP & TRIGGERS ────────────────────────── */
+.vocab-hover-trigger {
+  position: relative;
+  border-bottom: 2px dashed var(--sage, #4e6e53);
+  cursor: help;
+  color: var(--sage-dark, #1a2b1d);
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  padding: 0 2px;
+  border-radius: 4px;
+}
+
+.vocab-hover-trigger:hover,
+.vocab-hover-trigger.active {
+  background-color: var(--sage-pale, #f0f4f1);
+  border-bottom-style: solid;
+  color: var(--indigo, #3b5998);
+}
+
+#vocab-hover-tooltip {
+  position: absolute;
+  z-index: 9999;
+  width: 320px;
+  max-width: calc(100vw - 32px);
+  background: var(--surface-color, #ffffff);
+  border: 1px solid var(--border, #d2d7d2);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 1rem 1.25rem;
+  font-family: var(--font-sans, 'DM Sans', sans-serif);
+  font-size: 0.85rem;
+  color: var(--ink, #1a231b);
+  display: none;
+  pointer-events: auto; /* Allow interacting with content inside tooltip, e.g. Add to Notebook button */
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+
+#vocab-hover-tooltip.visible {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.vht-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px dashed var(--border, #d2d7d2);
+  padding-bottom: 0.4rem;
+}
+
+.vht-word {
+  font-family: var(--font-serif, 'Playfair Display', serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--indigo, #1a1e3a);
+}
+
+.vht-close {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: var(--ink-faint, #a0aaa1);
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 4px;
+}
+
+.vht-close:hover {
+  color: var(--ink, #1a231b);
+}
+
+.vht-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.vht-def-label,
+.vht-example-label {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  color: var(--muted, #6a756b);
+}
+
+.vht-def {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--ink-soft, #2b352c);
+}
+
+.vht-example {
+  font-style: italic;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--muted, #5a655b);
+  border-left: 2px solid var(--border, #d2d7d2);
+  padding-left: 8px;
+}
+
+.vht-footer {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px dashed var(--border, #d2d7d2);
+  padding-top: 0.5rem;
+}
+
+.vht-add-btn {
+  background: var(--sage-dark, #1f3022);
+  color: #ffffff;
+  border: none;
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.vht-add-btn:hover {
+  background: var(--indigo, #2a3c2d);
+  transform: translateY(-1px);
+}
+
+.vht-add-btn.saved {
+  background: var(--sage, #4e6e53);
+  cursor: default;
+}
