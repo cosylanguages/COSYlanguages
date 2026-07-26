@@ -111,6 +111,51 @@
         </div>
       </div>
 
+      <!-- GRAMMAR PRACTICE -->
+      <div class="round-block grammar open" id="s-grammar">
+        <div class="round-header" onclick="COSY.toggleRound('s-grammar')" style="background:#EEEDFE; border-left: 5px solid #3F2B96;">
+          <span>⚡ Grammar Practice — [Topic/Focus]</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block; padding:1.5rem 1.25rem;">
+          <div class="grammar-interactive-game" style="position:relative; z-index:2;">
+            <h3>⚡ Grammar Explanation (Level)</h3>
+            <p style="margin-bottom: 1.5rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+              [Explanation of grammatical rules]
+            </p>
+            <div style="background: rgba(63, 43, 150, 0.03); border: 1px dashed rgba(63, 43, 150, 0.3); padding: 1.25rem; border-radius: 12px; margin-bottom: 1.5rem;">
+              <strong style="display: block; margin-bottom: 0.5rem; color: #1F104D;">🧩 Interactive Word Bank:</strong>
+              <p style="font-size:0.82rem; color:var(--muted); margin:0 0 0.75rem 0;">Tap a word chip below, then tap any empty bracket <code>[_____]</code> to place it!</p>
+              <div class="grammar-word-bank" style="display:flex; flex-wrap:wrap; gap:8px;">
+                <span class="grammar-tap-chip" style="background:#FFFDF9; border:1px solid #3F2B96; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#3F2B96; font-size:0.85rem; user-select:none; transition:all 0.2s;" onclick="COSY.selectGrammarChip(this)">[Chip 1]</span>
+                <!-- More chips... -->
+              </div>
+            </div>
+            <div class="grammar-task-item" style="background: rgba(63, 43, 150, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #3F2B96; box-shadow: var(--shadow-sm); margin-bottom:1.5rem;">
+              <strong style="display: block; margin-bottom: 0.5rem; color: #1F104D;">📝 Task 1 — Part A: Rule Formulation:</strong>
+              <p style="margin: 0; font-size: 0.95rem; color: var(--ink); line-height: 1.8;">
+                [Rule text with <span class="grammar-gap" data-answer="[Answer]" onclick="COSY.placeGrammarChip(this)">_____</span> gaps]
+              </p>
+            </div>
+            <div class="grammar-task-item" style="background: rgba(63, 43, 150, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #3F2B96; box-shadow: var(--shadow-sm); margin-bottom:1.5rem;">
+              <strong style="display: block; margin-bottom: 0.5rem; color: #1F104D;">📝 Task 1 — Part B: Structured Practice:</strong>
+              <ol style="margin: 0; padding-left: 1.2rem; font-size: 0.95rem; color: var(--ink); line-height: 2.0;">
+                <li>[Sentence 1 with <span class="grammar-gap" data-answer="[Answer 1]" onclick="COSY.placeGrammarChip(this)">_____</span> gap]</li>
+              </ol>
+            </div>
+            <div style="display:flex; gap:10px; margin-bottom:1.5rem;">
+              <button class="btn-verify" style="background:#3F2B96; color:white; border:none; padding:10px 20px; border-radius:30px; cursor:pointer; font-weight:700; font-size:0.9rem; transition:all 0.2s;" onclick="COSY.verifyGrammarGame(this)">Check Answers</button>
+              <button class="btn-reset" style="background:transparent; border:1px solid var(--border); color:var(--muted); padding:10px 20px; border-radius:30px; cursor:pointer; font-weight:700; font-size:0.9rem; transition:all 0.2s;" onclick="COSY.resetGrammarGame(this)">Reset Board</button>
+            </div>
+            <div class="grammar-task-item" style="background: rgba(63, 43, 150, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #3F2B96; box-shadow: var(--shadow-sm);">
+              <strong style="display: block; margin-bottom: 0.5rem; color: #1F104D;">🗣️ Task 2 — Interactive Speaking:</strong>
+              <p style="margin: 0; font-size: 0.95rem; color: var(--ink); line-height: 1.6;">
+                [Speaking prompt prompt]
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- ROUND 1 (10 QUESTIONS WITH PERSONAL TOUCH) -->
       <div class="round-block round-1 open" id="s-r1">
         <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
