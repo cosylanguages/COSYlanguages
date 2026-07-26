@@ -1218,85 +1218,57 @@ def get_calibrated_templates(level, film_idx=0):
     return r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_theme_personal, r2_cinematic, r2_cinematic_personal
 
 def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
-    themes, slangs = parse_themes_and_slangs(focus_raw, slang_raw)
+    import sys
+    sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+    from cinema_vocab_db import CINEMA_FILMS_VOCAB
 
-    details = CLEAN_FILM_DETAILS.get(title.replace('"', '').strip(), {
-        "protagonist": "the main characters",
-        "key_figures": "other figures in the story",
-        "setting": "the cinematic world",
-        "conflict": "the central conflict"
-    })
-
-    extra_themes, extra_slangs = get_film_specific_extras(title, details)
-
-    # Pad themes to exactly 5
-    t_idx = 0
-    while len(themes) < 5:
-        if t_idx < len(extra_themes):
-            candidate = extra_themes[t_idx]
-        else:
-            candidate = FALLBACK_THEMES[(idx + t_idx) % len(FALLBACK_THEMES)]
-        t_idx += 1
-        if candidate.lower() not in [t.lower() for t in themes]:
-            themes.append(candidate)
-
-    # Pad slangs to exactly 5
-    s_idx = 0
-    while len(slangs) < 5:
-        if s_idx < len(extra_slangs):
-            candidate = extra_slangs[s_idx]
-        else:
-            candidate = FALLBACK_SLANGS[(idx + s_idx) % len(FALLBACK_SLANGS)]
-        s_idx += 1
-        if candidate.lower() not in [s.lower() for s in slangs]:
-            slangs.append(candidate)
-
-    themes = themes[:5]
-    slangs = slangs[:5]
+    title_clean = title.replace('"', '').strip()
+    if title_clean in CINEMA_FILMS_VOCAB:
+        film_data = CINEMA_FILMS_VOCAB[title_clean]
+        themes = film_data['themes']
+        slangs = film_data['slangs']
+        defs = film_data['defs']
+    else:
+        # Fallback if somehow not found (covered in audit)
+        themes = ["Cinematography", "Narrative pacing", "Character arc", "Visual motifs", "Climax"]
+        slangs = ["Opening scene", "Pivotal moment", "Dramatic irony", "Subtext", "Dialogue"]
+        defs = {}
 
     vocab_items = []
+
     # Process themes (first 5)
     for word in themes:
         w_norm = normalize_word(word)
         if w_norm in OPPOSITES_MAP:
             new_word, definition, example = OPPOSITES_MAP[w_norm]
-            # Level calibration for opposites
-            definition = calibrate_text_for_level(definition, level, "definition")
-            example = calibrate_text_for_level(example, level, "example")
-            vocab_items.append((new_word, definition, example))
+        elif word in defs:
+            new_word = word
+            definition, example = defs[word]
         else:
-            w_low = word.lower()
-            if w_low in VOCAB_DB:
-                definition, example_orig = VOCAB_DB[w_low]
-                example = f"In the movie '{title}', the story deeply explores {w_low} as {details['protagonist']} copes with {details['conflict']}."
-            else:
-                definition = f"The core thematic concept of {w_low} as explored and highlighted in '{title}'."
-                example = f"The narrative of '{title}' brilliantly dissects {w_low} to build character depth as {details['protagonist']} confronts {details['conflict']}."
+            new_word = word
+            definition = f"The central concept of {word.lower()} as explored through the characters' decisions and storyline."
+            example = f"Analyzing '{word.lower()}' helps us understand the emotional weight of {title}'s plot."
 
-            definition = calibrate_text_for_level(definition, level, "definition")
-            example = calibrate_text_for_level(example, level, "example")
-            vocab_items.append((word, definition, example))
+        definition = calibrate_text_for_level(definition, level, "definition")
+        example = calibrate_text_for_level(example, level, "example")
+        vocab_items.append((new_word, definition, example))
 
     # Process slangs (next 5)
     for word in slangs:
         w_norm = normalize_word(word)
         if w_norm in OPPOSITES_MAP:
             new_word, definition, example = OPPOSITES_MAP[w_norm]
-            definition = calibrate_text_for_level(definition, level, "definition")
-            example = calibrate_text_for_level(example, level, "example")
-            vocab_items.append((new_word, definition, example))
+        elif word in defs:
+            new_word = word
+            definition, example = defs[word]
         else:
-            w_low = word.lower()
-            if w_low in VOCAB_DB:
-                definition, _ = VOCAB_DB[w_low]
-                example = f"The screenplay of '{title}' utilizes '{word}' to express how {details['protagonist']} reacts in '{details['setting']}'."
-            else:
-                definition = f"An authentic slang term, colloquialism, or key dialogue featured in '{title}' to establish context."
-                example = f"The characters in '{title}' use the expression '{word}' during a pivotal scene inside {details['setting']} to emphasize the drama."
+            new_word = word
+            definition = f"An authentic conversational expression used by characters to convey emotion and attitude."
+            example = f"The phrase '{word}' adds realistic, authentic flavor to the dialogue in {title}."
 
-            definition = calibrate_text_for_level(definition, level, "definition")
-            example = calibrate_text_for_level(example, level, "example")
-            vocab_items.append((word, definition, example))
+        definition = calibrate_text_for_level(definition, level, "definition")
+        example = calibrate_text_for_level(example, level, "example")
+        vocab_items.append((new_word, definition, example))
 
     return vocab_items
 
