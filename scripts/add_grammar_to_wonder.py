@@ -65,19 +65,19 @@ DATABASE_EN = {
         "keywords": ["should have", "would have", "could have", "if only", "had", "regret"]
     },
     "why-do-we-try-to-relate-to-adhd.html": {
-        "focus": "Distraction Adverbs & Hypotheses",
-        "explanation": "Use <strong>frequency adverbs</strong> (<em>constantly, often</em>) and <strong>possibility modifiers</strong> (<em>perhaps, likely</em>) to formulate psychological hypotheses and describe daily behavioral struggles.",
-        "rule_part_a": "Complete the rule: Words like 'perhaps' or 'likely' express <span class=\"grammar-gap\" data-answer=\"possibility\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>. Adverbs of frequency like 'constantly' show <span class=\"grammar-gap\" data-answer=\"continuous\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> or repeated actions, typically placed <span class=\"grammar-gap\" data-answer=\"before\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> the main verb.",
+        "focus": "Adverbs of Degree & Mitigators",
+        "explanation": "Use <strong>Adverbs of Degree</strong> (<em>virtually, barely, slightly, highly, somewhat, mildly</em>) to express precise levels of intensity and carefully qualify psychological claims.",
+        "rule_part_a": "Complete the rule: To express almost 100% or complete similarity, use <span class=\"grammar-gap\" data-answer=\"virtually\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>. To show a very small, almost non-existent level of degree or struggle, use <span class=\"grammar-gap\" data-answer=\"barely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>.",
         "tasks": [
-            "He is <span class=\"grammar-gap\" data-answer=\"constantly\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> checking his phone, which ruins his focus.",
-            "<span class=\"grammar-gap\" data-answer=\"Perhaps\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> our short attention spans are caused by social media algorithms.",
-            "People who are easily distracted are <span class=\"grammar-gap\" data-answer=\"likely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> to struggle in silent classrooms.",
-            "How <span class=\"grammar-gap\" data-answer=\"often\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> do you find yourself daydreaming during work meetings?",
-            "We can <span class=\"grammar-gap\" data-answer=\"easily\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> relate to ADHD symptoms without actually having the condition."
+            "With modern distractions, it is <span class=\"grammar-gap\" data-answer=\"virtually\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> impossible for some to read a full page without checking their phone.",
+            "I could <span class=\"grammar-gap\" data-answer=\"barely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> focus during that two-hour lecture because of the constant noise.",
+            "Many of us relate <span class=\"grammar-gap\" data-answer=\"somewhat\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> to the symptoms of ADHD without actually having the condition.",
+            "The student felt <span class=\"grammar-gap\" data-answer=\"mildly\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> distracted, but managed to complete the exam successfully.",
+            "Psychologists are <span class=\"grammar-gap\" data-answer=\"highly\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> critical of self-diagnoses made on social media platforms."
         ],
-        "chips": ["possibility", "continuous", "before", "constantly", "Perhaps", "likely", "often", "easily"],
-        "speaking": "Hypothesize about why modern people struggle to read long books. Is it constantly changing technology, or perhaps just a lack of practice?",
-        "keywords": ["constantly", "perhaps", "likely", "often", "easily", "probably"]
+        "chips": ["virtually", "barely", "somewhat", "mildly", "highly"],
+        "speaking": "How easily do you get distracted? Do you find it virtually impossible to study without music, or can you barely tolerate any background noise?",
+        "keywords": ["virtually", "barely", "somewhat", "mildly", "highly", "symptom", "distraction"]
     },
     "does-euthanasia-reduce-suicide-rates.html": {
         "focus": "Complex Modals & Ethical Assertions",
@@ -140,19 +140,19 @@ DATABASE_EN = {
         "keywords": ["watching", "feeling", "reminiscing", "to return", "to write", "avoid", "struggled to"]
     },
     "death-of-the-album.html": {
-        "focus": "Narrative Transitions",
-        "explanation": "Use <strong>Narrative Transitions</strong> (<strong>prior to</strong>, <strong>subsequently</strong>, <strong>meanwhile</strong>, <strong>consequently</strong>) to establish a clear chronological order and cause-effect relationships in historical discussions.",
-        "rule_part_a": "Complete the rule: Use <span class=\"grammar-gap\" data-answer=\"prior to\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> before a noun or gerund as a synonym for 'before'. Use <span class=\"grammar-gap\" data-answer=\"meanwhile\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> to describe an action happening at the same time in another place.",
+        "focus": "Habits in the Past vs. Present",
+        "explanation": "Use structures like <strong>used to</strong>, <strong>would</strong> + base verb, and <strong>be/get used to</strong> to contrast bygone consumption habits with modern digital norms.",
+        "rule_part_a": "Complete the rule: For past habits or states that are no longer true, we use <span class=\"grammar-gap\" data-answer=\"used to\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>. For past repeated actions, we can also use <span class=\"grammar-gap\" data-answer=\"would\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>. To talk about things that are familiar now, we use be/get <span class=\"grammar-gap\" data-answer=\"used to\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> + verb-ing.",
         "tasks": [
-            "<span class=\"grammar-gap\" data-answer=\"Prior to\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> the rise of digital streaming, fans bought physical albums.",
-            "Streaming platforms launched; <span class=\"grammar-gap\" data-answer=\"consequently\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>, album sales plummeted.",
-            "The artist released a single; <span class=\"grammar-gap\" data-answer=\"subsequently\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>, they announced a full stadium tour.",
-            "Musicians are struggling for royalties; <span class=\"grammar-gap\" data-answer=\"meanwhile\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>, tech companies are recording record profits.",
-            "We listened to vinyl records <span class=\"grammar-gap\" data-answer=\"before\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> streaming services existed."
+            "We <span class=\"grammar-gap\" data-answer=\"used to buy\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> physical records and listen to them from start to finish.",
+            "Every Friday, my friends and I <span class=\"grammar-gap\" data-answer=\"would sit\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> together just to appreciate a new release.",
+            "Now, listeners are <span class=\"grammar-gap\" data-answer=\"used to skipping\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> tracks after hearing only a ten-second snippet.",
+            "We eventually <span class=\"grammar-gap\" data-answer=\"got used to having\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> millions of songs available in our pockets.",
+            "I never thought I <span class=\"grammar-gap\" data-answer=\"would prefer\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> single tracks over a cohesive album."
         ],
-        "chips": ["prior to", "meanwhile", "Prior to", "consequently", "subsequently", "before"],
-        "speaking": "Contrast how people consumed music prior to the internet versus how they consume it today. How has this consequently changed our attention spans?",
-        "keywords": ["prior to", "subsequently", "meanwhile", "consequently", "before", "after"]
+        "chips": ["used to", "would", "used to", "used to buy", "would sit", "used to skipping", "got used to having", "would prefer"],
+        "speaking": "Contrast your own past music habits with your current ones. What did you use to do that you no longer do now? Are you fully used to algorithmic playlists?",
+        "keywords": ["used to", "would", "used to", "get used to", "nostalgia", "modernity", "tracklist"]
     },
     "always-watched-in-a-crowd.html": {
         "focus": "Passive vs Active Voice",
@@ -203,19 +203,19 @@ DATABASE_FR = {
         "keywords": ["parfaitement", "totalement", "profondément", "particulièrement", "extrêmement", "ridicule"]
     },
     "why-do-we-try-to-relate-to-adhd.html": {
-        "focus": "Adverbes de distraction et hypothèses psychologiques",
-        "explanation": "Utilisez des <strong>adverbes de fréquence</strong> (<em>constamment, souvent</em>) et des <strong>indicateurs d'hypothèse</strong> (<em>peut-être, probablement</em>) pour parler de l'attention et formuler des hypothèses psychologiques.",
-        "rule_part_a": "Complétez la règle : Pour formuler une hypothèse, on utilise <span class=\"grammar-gap\" data-answer=\"peut-être\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> ou 'probablement'. Les adverbes comme 'constamment' indiquent une action <span class=\"grammar-gap\" data-answer=\"répétée\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>.",
+        "focus": "Adverbes d'intensité et atténuateurs",
+        "explanation": "Utilisez des <strong>Adverbes d'intensité</strong> (<em>pratiquement, à peine, légèrement, hautement, quelque peu</em>) pour nuancer vos affirmations et exprimer des degrés précis de ressenti.",
+        "rule_part_a": "Complétez la règle : Pour exprimer une quasi-totalité (presque 100%), on utilise <span class=\"grammar-gap\" data-answer=\"pratiquement\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>. Pour exprimer un degré extrêmement faible ou une difficulté d'action, on utilise <span class=\"grammar-gap\" data-answer=\"à peine\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>.",
         "tasks": [
-            "Elle regarde <span class=\"grammar-gap\" data-answer=\"constamment\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> ses notifications pendant les réunions.",
-            "<span class=\"grammar-gap\" data-answer=\"Peut-être\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> que notre distraction est liée au rythme de la vie moderne.",
-            "Les personnes distraites ont <span class=\"grammar-gap\" data-answer=\"souvent\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> du mal à se concentrer sur de longs textes.",
-            "Il est <span class=\"grammar-gap\" data-answer=\"facilement\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> influencé par le bruit environnant.",
-            "Nous pouvons <span class=\"grammar-gap\" data-answer=\"probablement\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> retrouver des symptômes du TDAH dans notre quotidien sans être diagnostiqués."
+            "Avec les distractions modernes, il est <span class=\"grammar-gap\" data-answer=\"pratiquement\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> impossible de rester concentré sans son téléphone.",
+            "J'arrivais <span class=\"grammar-gap\" data-answer=\"à peine\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> à écouter le professeur à cause du bruit dans la rue.",
+            "Nous nous identifions <span class=\"grammar-gap\" data-answer=\"quelque peu\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> aux symptômes du TDAH sans pour autant être diagnostiqués.",
+            "Elle s'est sentie <span class=\"grammar-gap\" data-answer=\"légèrement\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> distraite par les notifications de sa montre.",
+            "Les experts sont <span class=\"grammar-gap\" data-answer=\"hautement\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> sceptiques face aux diagnostics amateurs sur TikTok."
         ],
-        "chips": ["peut-être", "répétée", "constamment", "Peut-être", "souvent", "facilement", "probablement"],
-        "speaking": "Formulez une hypothèse sur l'impact des réseaux sociaux sur notre concentration. S'agit-il d'un changement temporaire ou d'une évolution durable ?",
-        "keywords": ["constamment", "peut-être", "souvent", "facilement", "probablement"]
+        "chips": ["pratiquement", "à peine", "quelque peu", "légèrement", "hautement"],
+        "speaking": "Parvenez-vous facilement à vous concentrer ? Est-ce pratiquement impossible pour vous dans un environnement bruyant, ou y arrivez-vous à peine ?",
+        "keywords": ["pratiquement", "à peine", "quelque peu", "légèrement", "hautement", "symptôme", "distraction"]
     },
     "is-parenting-instinct-a-real-thing-or-scam.html": {
         "focus": "Verbes et prépositions",
@@ -248,19 +248,19 @@ DATABASE_FR = {
         "keywords": ["éviter de", "décidé de", "terminé de", "adore", "penser", "partager"]
     },
     "death-of-the-album.html": {
-        "focus": "Mots de transition",
-        "explanation": "Utilisez des <strong>Mots de transition</strong> (<em>avant de, par conséquent, pendant ce temps, ensuite</em>) pour ordonner chronologiquement vos récits.",
-        "rule_part_a": "Complétez la règle : On utilise <span class=\"grammar-gap\" data-answer=\"avant de\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> suivi d'un infinitif pour exprimer une antériorité. On utilise <span class=\"grammar-gap\" data-answer=\"par conséquent\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> pour exprimer une conséquence logique.",
+        "focus": "Habitudes passées et présentes",
+        "explanation": "Utilisez <strong>l'imparfait</strong>, l'expression <strong>avoir l'habitude de</strong> ou le verbe <strong>s'habituer à</strong> pour contraster les habitudes d'écoute d'autrefois avec l'époque moderne.",
+        "rule_part_a": "Complétez la règle : Pour décrire une habitude passée révolue, on utilise généralement <span class=\"grammar-gap\" data-answer=\"l'imparfait\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>. Pour parler d'un processus d'adaptation en cours ou achevé, on utilise le verbe <span class=\"grammar-gap\" data-answer=\"s'habituer à\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>.",
         "tasks": [
-            "<span class=\"grammar-gap\" data-answer=\"Avant de\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> l'arrivée du streaming, les gens achetaient des disques physiques.",
-            "Le marché du disque a chuté ; <span class=\"grammar-gap\" data-answer=\"par conséquent\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>, les artistes se tournent vers les concerts.",
-            "Elle a écouté l'album ; <span class=\"grammar-gap\" data-answer=\"ensuite\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>, elle l'a recommandé à ses proches.",
-            "Les plateformes gagnent des millions ; <span class=\"grammar-gap\" data-answer=\"pendant ce temps\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>, les créateurs peinent à toucher leurs redevances.",
-            "Les auditeurs ont changé d'habitudes <span class=\"grammar-gap\" data-answer=\"après\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> la révolution du MP3."
+            "Avant, nous <span class=\"grammar-gap\" data-answer=\"achetions\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> des albums complets sans pouvoir sauter les morceaux.",
+            "Chaque week-end, j'<span class=\"grammar-gap\" data-answer=\"avais l'habitude d'\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> écouter un vinyle entier dans mon salon.",
+            "Aujourd'hui, nous <span class=\"grammar-gap\" data-answer=\"sommes habitués à\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> consommer des playlists générées par des algorithmes.",
+            "Les jeunes générations <span class=\"grammar-gap\" data-answer=\"s'habituent\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> rapidement aux formats de dix secondes.",
+            "Je ne pensais pas que je <span class=\"grammar-gap\" data-answer=\"finirais\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> par abandonner l'écoute d'albums physiques."
         ],
-        "chips": ["avant de", "par conséquent", "Avant de", "par conséquent", "ensuite", "pendant ce temps", "après"],
-        "speaking": "Comment écoutiez-vous la musique avant l'arrivée du streaming ? Comment cela a-t-il par conséquent changé votre rapport aux albums ?",
-        "keywords": ["avant de", "par conséquent", "pendant ce temps", "ensuite", "après"]
+        "chips": ["l'imparfait", "s'habituer à", "achetions", "avais l'habitude d'", "sommes habitués à", "s'habituent", "finirais"],
+        "speaking": "Comparez vos habitudes d'écoute passées avec vos habitudes actuelles. Étiez-vous plus patient autrefois ? Vous êtes-vous habitué au streaming ?",
+        "keywords": ["habitude", "habitués", "achetions", "s'habituent", "nostalgie", "modernité"]
     }
 }
 
