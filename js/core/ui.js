@@ -1920,35 +1920,35 @@
             ]
         },
         {
-            id: "urban-beekeeping-day",
+            id: "celebrate-urban-beekeeping-day",
             pages: [
                 { lang: "en", path: "events/sessions/lets-celebrate/urban-beekeeping-day-starter.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
                 { lang: "en", path: "events/sessions/lets-celebrate/urban-beekeeping-day-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" }
             ]
         },
         {
-            id: "national-someone-day",
+            id: "celebrate-national-someone-day",
             pages: [
                 { lang: "en", path: "events/sessions/lets-celebrate/national-someone-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
                 { lang: "en", path: "events/sessions/lets-celebrate/national-someone-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
-            id: "pandemonium-day",
+            id: "celebrate-pandemonium-day",
             pages: [
                 { lang: "en", path: "events/sessions/lets-celebrate/pandemonium-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
                 { lang: "en", path: "events/sessions/lets-celebrate/pandemonium-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
-            id: "international-peace-love-day",
+            id: "celebrate-international-peace-love-day",
             pages: [
                 { lang: "en", path: "events/sessions/lets-celebrate/international-peace-love-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
                 { lang: "en", path: "events/sessions/lets-celebrate/international-peace-love-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
-            id: "international-asteroid-day",
+            id: "celebrate-international-asteroid-day",
             pages: [
                 { lang: "en", path: "events/sessions/lets-celebrate/international-asteroid-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
                 { lang: "en", path: "events/sessions/lets-celebrate/international-asteroid-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
@@ -2087,7 +2087,8 @@
             id: "feynman-knowledge-isnt-free",
             pages: [
                 { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
@@ -2101,7 +2102,8 @@
             id: "madonna-ai-art-quote",
             pages: [
                 { lang: "en", path: "events/sessions/the-greatest-quotes/madonna-ai-art-quote-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+                { lang: "en", path: "events/sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/the-greatest-quotes/madonna-ai-art-quote-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
@@ -2121,8 +2123,17 @@
             ]
         },
         {
+            id: "robin-williams-quote",
+            pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/robin-williams-quote-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/the-greatest-quotes/robin-williams-quote-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
             id: "ai-opposite-of-art",
             pages: [
+                { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
                 { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
                 { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
             ]
