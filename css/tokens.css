@@ -17,6 +17,8 @@
     --ink-muted:  #4a4a4a;
     --ink-faint:  #6b6b6b;
     --muted:      #6b6b6b;
+    --ink-deep:   #1A1A1A;
+    --grey-darkest: #1a1a1a;
 
     /* ── UI Palette ────────────────────────────────────── */
     --teal:       var(--sage);
@@ -131,6 +133,8 @@ html[data-theme="dark"], body.theme-dark {
     --ink-muted:  #c8d8c9;
     --ink-faint:  #8a9e8b;
     --muted:      #8a9e8b;
+    --ink-deep:   #ffffff;
+    --grey-darkest: #ffffff;
     --border:     rgba(107,143,113,.2);
     --border-hover: rgba(107,143,113,.35);
 

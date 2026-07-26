@@ -1345,6 +1345,112 @@ vim-choice { margin-bottom: 1.5rem; }
   line-height: 1.4;
 }
 
+/* ─── Robust Dark Theme Overrides ─────────────────── */
+html[data-theme="dark"], body.theme-dark {
+    /* Footers */
+    footer {
+        background: var(--cream-dark) !important;
+        border-top-color: var(--border) !important;
+    }
+
+    /* History and Pinned Challenges Sessions */
+    .history-session {
+        background: var(--surface-color) !important;
+        border-color: var(--border) !important;
+        color: var(--ink) !important;
+    }
+
+    /* Role bar */
+    .role-bar {
+        background: var(--cream-dark) !important;
+        border-color: var(--border) !important;
+        color: var(--ink-soft) !important;
+    }
+
+    /* Conversation Rounds headers (overriding light/colored inline backgrounds) */
+    .round-block.warm-up .round-header,
+    .round-block[id*="warm"] .round-header {
+        background: var(--coral-light) !important;
+        color: var(--ink) !important;
+    }
+    .round-block.grammar .round-header,
+    .round-block[id*="grammar"] .round-header {
+        background: var(--gold-light) !important;
+        color: var(--ink) !important;
+        border-left-color: var(--honey) !important;
+    }
+    .round-block.round-1 .round-header,
+    .round-block[id*="r1"] .round-header {
+        background: var(--blue-light) !important;
+        color: var(--ink) !important;
+    }
+    .round-block.lst .round-header,
+    .round-block[id*="lst"] .round-header {
+        background: var(--plum-light) !important;
+        color: var(--ink) !important;
+    }
+    .round-block.round-2 .round-header,
+    .round-block[id*="r2"] .round-header {
+        background: var(--green-light) !important;
+        color: var(--ink) !important;
+    }
+
+    /* Grammar Interactive Games inside Rounds */
+    .grammar-interactive-game {
+        color: var(--ink) !important;
+    }
+    .grammar-interactive-game h3 {
+        color: var(--ink) !important;
+    }
+    .grammar-interactive-game p {
+        color: var(--ink-soft) !important;
+    }
+    .grammar-interactive-game strong {
+        color: var(--ink) !important;
+    }
+    .grammar-interactive-game div[style*="background"] {
+        background: var(--cream-dark) !important;
+        border-color: var(--border) !important;
+    }
+    .grammar-tap-chip {
+        background: var(--surface-color) !important;
+        border-color: var(--border) !important;
+        color: var(--ink) !important;
+    }
+    .grammar-task-item {
+        background: var(--cream-dark) !important;
+        border-left-color: var(--sage-soft) !important;
+        color: var(--ink) !important;
+    }
+    .grammar-task-item li {
+        color: var(--ink) !important;
+    }
+    .grammar-gap {
+        color: var(--ink-soft);
+    }
+
+    /* Cinema Club overrides */
+    .theme-cinema .filter-btn:hover:not(.active) {
+        color: var(--ink) !important;
+        border-color: var(--border) !important;
+    }
+    .theme-cinema .cinema-ticket-view,
+    .theme-cinema .back-link:hover,
+    .theme-cinema .cosy-breadcrumbs a:hover {
+        color: var(--sage-soft) !important;
+    }
+
+    /* Wonder Club */
+    .wonder-column-title {
+        color: #a78bfa !important;
+    }
+
+    /* Science Club */
+    .science-journal-title {
+        color: var(--sage-soft) !important;
+    }
+}
+
 /* 🌌 I COULDN'T HELP BUT WONDER: Typewritten Newspaper Column Clippings & Diary Notebook Entries */
 .wonder-history-grid {
   display: grid;
