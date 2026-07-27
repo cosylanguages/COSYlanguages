@@ -48,4 +48,11 @@ test.describe('Wonder Club and Session Verification', () => {
     await expect(page.locator('.vocab-card')).toHaveCount(10);
     await expect(page.locator('.vocab-card').first().locator('.vocab-word')).toContainText('Speculate');
   });
+
+  test('I Have No Time for It session page should load correctly', async ({ page }) => {
+    await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html');
+    await expect(page.locator('h1')).toContainText('I Have No Time for It');
+    await expect(page.locator('.vocab-card')).toHaveCount(10);
+    await expect(page.locator('.vocab-card').first().locator('.vocab-word')).toContainText('Bulletproof');
+  });
 });

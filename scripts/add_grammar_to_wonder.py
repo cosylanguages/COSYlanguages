@@ -228,6 +228,21 @@ DATABASE_EN = {
         "chips": ["that", "to-infinitive", "is believed that", "thought to hold", "considered to be", "is said that", "known to create"],
         "speaking": "Discuss whether local customs are believed to be useful for modern city life, or if they are thought to limit individual freedom. Use at least three passive reporting structures.",
         "keywords": ["is said to", "is believed to", "is thought to", "is considered to", "it is said that", "it is believed that", "is believed that", "is said that", "thought to hold", "considered to be", "known to create"]
+    },
+    "i-have-no-time-for-it.html": {
+        "focus": "Focus Adverbs",
+        "explanation": "Use <strong>Focus Adverbs</strong> (<em>particularly, merely, simply, solely, precisely</em>) to limit, emphasize, or draw attention to specific parts of your statements regarding time and desire.",
+        "rule_part_a": "Complete the rule: We use <span class=\"grammar-gap\" data-answer=\"merely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> to mean 'just' or 'only' with a softening effect. We use <span class=\"grammar-gap\" data-answer=\"precisely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> to add exact emphasis or to indicate complete agreement.",
+        "tasks": [
+            "Saying we don't have enough hours is <span class=\"grammar-gap\" data-answer=\"merely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> a convenient pretext to hide our lack of interest.",
+            "Our decisions about what to do with our free time are guided <span class=\"grammar-gap\" data-answer=\"solely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> by our personal motivation.",
+            "I am <span class=\"grammar-gap\" data-answer=\"simply\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> too exhausted to prioritize socializing after a grueling week at the office.",
+            "This issue is <span class=\"grammar-gap\" data-answer=\"particularly\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> relevant in fast-paced metropolitan cities like New York.",
+            "That is <span class=\"grammar-gap\" data-answer=\"precisely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> why we must learn to set healthy boundaries and say no."
+        ],
+        "chips": ["merely", "precisely", "solely", "simply", "particularly", "merely", "precisely"],
+        "speaking": "Discuss a goal or habit you've been putting off on the pretext of 'no time'. Use focus adverbs to explain whether it's truly a time issue or simply a lack of motivation.",
+        "keywords": ["merely", "precisely", "solely", "simply", "particularly", "pretext", "apathy", "prioritize", "armor", "decoy", "brushing off", "elusive", "bulletproof", "scarcity", "reckon"]
     }
 }
 
