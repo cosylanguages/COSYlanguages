@@ -213,6 +213,21 @@ DATABASE_EN = {
         "chips": ["Past Perfect", "base form", "had listened", "would not be", "would not feel", "would have", "had built", "would experience"],
         "speaking": "Reflect on a major environmental or political decision from the past. How would your daily life or the state of the world be different today if a different choice had been made? Use mixed conditionals.",
         "keywords": ["if", "had", "would be", "would feel", "would have", "mixed conditional", "consequences"]
+    },
+    "are-traditions-hidden-monogamy-upper-intermediate.html": {
+        "focus": "Passive Reporting Verbs",
+        "explanation": "Use <strong>Passive Reporting Verbs</strong> (<strong>it is said that</strong>, <strong>is believed to</strong>, <strong>is thought to be</strong>, <strong>is considered to</strong>) to talk about general beliefs, customs, and traditional expectations without mentioning a specific subject.",
+        "rule_part_a": "Complete the rule: We form passive reporting verbs in two main ways: 1) 'It' + passive reporting verb + <span class=\"grammar-gap\" data-answer=\"that\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>-clause (e.g., 'It is believed that...'), or 2) Subject + passive reporting verb + <span class=\"grammar-gap\" data-answer=\"to-infinitive\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> (e.g., 'He is said to be...').",
+        "tasks": [
+            "It <span class=\"grammar-gap\" data-answer=\"is believed that\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> our ancestors started this autumn festival to celebrate the harvest.",
+            "Old family heirlooms are <span class=\"grammar-gap\" data-answer=\"thought to hold\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> a deep emotional connection to the past.",
+            "Traditional customs are generally <span class=\"grammar-gap\" data-answer=\"considered to be\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> essential for preserving social conformity.",
+            "It <span class=\"grammar-gap\" data-answer=\"is said that\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> breaking a mirror brings seven years of bad luck.",
+            "Holiday rituals are <span class=\"grammar-gap\" data-answer=\"known to create\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> a strong sense of community belonging."
+        ],
+        "chips": ["that", "to-infinitive", "is believed that", "thought to hold", "considered to be", "is said that", "known to create"],
+        "speaking": "Discuss whether local customs are believed to be useful for modern city life, or if they are thought to limit individual freedom. Use at least three passive reporting structures.",
+        "keywords": ["is said to", "is believed to", "is thought to", "is considered to", "it is said that", "it is believed that", "is believed that", "is said that", "thought to hold", "considered to be", "known to create"]
     }
 }
 

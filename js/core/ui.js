@@ -1844,6 +1844,13 @@
     const SWITCHER_GROUPS = [
         // 🌌 I Couldn't Help But Wonder Multilingual Groups
         {
+            id: "wonder-are-traditions-hidden-monogamy",
+            pages: [
+                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" }
+            ]
+        },
+        {
             id: "wonder-ugly-produce",
             pages: [
                 { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
