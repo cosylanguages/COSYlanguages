@@ -118,7 +118,47 @@ VOCAB_DB = {'addiction': ('the state of being physically or mentally dependent o
  'vigilante': ('a member of a self-appointed group of citizens who undertake law enforcement.',
                'The masked vigilante fights against authoritarian political rule.'),
  'vulnerability': ('the quality of being exposed to emotional or physical harm.',
-                   'Admitting fear is portrayed as a source of strength and emotional vulnerability.')}
+                   'Admitting fear is portrayed as a source of strength and emotional vulnerability.'),
+ 'cinematography': ('the art of making motion pictures, including camera work and lighting.',
+                    'The film is celebrated for its stunning cinematography and visual storytelling.'),
+ 'narrative pacing': ('the speed at which a story unfolds, balancing fast action with slow reflection.',
+                      'The director uses tight narrative pacing to maintain continuous tension.'),
+ 'character arc': ('the evolutionary journey of a character over the course of a story.',
+                   'Her compelling character arc shows a shift from vulnerability to complete independence.'),
+ 'visual motifs': ('recurring visual elements or symbols that carry thematic significance.',
+                   'The movie utilizes recurring visual motifs of shadows to highlight isolation.'),
+ 'climax': ('the most intense, exciting, or important point of the story.',
+            'The dramatic climax of the film resolves the long-standing conflict.'),
+ 'protagonist': ('the leading character or one of the major characters in a drama.',
+                 'The protagonist struggles to find truth amidst a web of deception.'),
+ 'antagonist': ('a person who actively opposes or is hostile to someone or something; an adversary.',
+                'The antagonist orchestrates a complex plan to control the city.'),
+ 'screenplay': ('the written text of a play, movie, or broadcast.',
+                'The brilliant screenplay features sharp dialogues and deep emotional layers.'),
+ 'dialogue': ('conversation between two or more people in a film or play.',
+              'The natural, witty dialogue adds realism to the high-society setting.'),
+ 'thematic depth': ('the profound exploration of complex ideas and universal human truths.',
+                    'The film achieves incredible thematic depth by exploring grief and devotion.'),
+ 'opening scene': ('the introductory sequence that sets the tone, style, and context of the film.',
+                   'The opening scene immediately immerses the audience in the chaotic setting.'),
+ 'pivotal moment': ('a critical turning point that significantly influences the outcome of the story.',
+                    'A pivotal moment occurs when the main characters decide to escape.'),
+ 'dramatic irony': ('a literary technique where the audience knows full well what the characters do not.',
+                    'The film uses dramatic irony to build suspense as the deception unfolds.'),
+ 'cinematic adaptation': ('the transfer of a written work, such as a novel, to a feature film.',
+                          'This cinematic adaptation preserves the emotional essence of the original book.'),
+ 'fourth-wall break': ('an instance where a character addresses the audience directly, bypassing the story barrier.',
+                       'Her frequent fourth-wall breaks create a unique, humorous connection with the viewer.'),
+ 'mise-en-scène': ('the arrangement of scenery, props, and stage properties in a film.',
+                   'The meticulous mise-en-scène evokes a warm, nostalgic atmosphere.'),
+ 'subtext': ('the underlying or implicit meaning of a spoken dialogue or scene.',
+             'The intense dinner scene is filled with silent subtext and unvoiced resentment.'),
+ 'monologue': ('a long speech by one actor in a play or movie.',
+               'His passionate monologue at the courtroom is the emotional peak of the story.'),
+ 'tone marker': ('a linguistic or visual cue that indicates the emotional register of a scene.',
+                 'The sudden shift in music acts as a dark tone marker for the upcoming scene.'),
+ 'genre convention': ('a common element, trope, or technique associated with a specific film genre.',
+                      'The director subverts standard horror genre conventions to surprise the audience.')}
 
 FILM_DETAILS = {'101 & 102 Dalmatians': {'conflict': "escaping Cruella's obsession with fur coats and luxury possessions",
                           'key_figures': 'Cruella de Vil, her designer Monsieur Le Pelt, and puppy owners',
@@ -564,44 +604,7 @@ def get_film_specific_extras(title, details, lang="en"):
             HANDCRAFTED_LANG_EXTRAS[title_clean]["themes"],
             HANDCRAFTED_LANG_EXTRAS[title_clean]["slangs"]
         )
-
-    setting_raw = details.get("setting", "the cinematic world")
-    setting_clean = setting_raw.split(" in ")[0].split(" during ")[0].strip()
-    for prefix in ["a ", "an ", "the ", "A ", "An ", "The "]:
-        if setting_clean.startswith(prefix):
-            setting_clean = setting_clean[len(prefix):].strip()
-            break
-    setting_clean = setting_clean.rstrip(",. ")
-    setting_clean = setting_clean[0].upper() + setting_clean[1:] if setting_clean else "Cinematic"
-
-    protagonist_raw = details.get("protagonist", "the main characters")
-    protagonist_clean = protagonist_raw.split(" and ")[0].split(" / ")[0].strip()
-    for prefix in ["the ", "The "]:
-        if protagonist_clean.startswith(prefix):
-            protagonist_clean = protagonist_clean[len(prefix):].strip()
-            break
-    protagonist_clean = protagonist_clean.rstrip(",. ")
-    protagonist_clean = protagonist_clean[0].upper() + protagonist_clean[1:] if protagonist_clean else "Protagonist"
-
-    conflict_raw = details.get("conflict", "the central conflict")
-    conflict_clean = conflict_raw.split(" by ")[0].split(" to ")[0].split(" under ")[0].strip()
-    for prefix in ["escaping ", "surviving ", "facing ", "overcoming ", "combating ", "navigating ", "balancing ", "proving "]:
-        if conflict_clean.startswith(prefix):
-            conflict_clean = conflict_clean[len(prefix):].strip()
-            break
-    conflict_clean = conflict_clean.rstrip(",. ")
-    conflict_clean = conflict_clean[0].upper() + conflict_clean[1:] if conflict_clean else "Conflict"
-
-    extra_themes = [
-        f"{setting_clean} dynamics",
-        f"{protagonist_clean}'s personal journey",
-        f"Confronting {conflict_clean}"
-    ]
-    extra_slangs = [
-        f"pivotal {protagonist_clean} moment",
-        f"{protagonist_clean}'s perspective"
-    ]
-    return extra_themes, extra_slangs
+    return [], []
 
 SENSITIVE_FILMS = {'A Quiet Place': 'intense survival horror, dread, family tragedy, and creature violence',
  'Angels & Demons': 'religious conspiracies, Vatican murders, self-harm, and high-stakes bomb threats',
@@ -1218,7 +1221,23 @@ def get_calibrated_templates(level, film_idx=0):
     return r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_theme_personal, r2_cinematic, r2_cinematic_personal
 
 def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
-    themes, slangs = parse_themes_and_slangs(focus_raw, slang_raw)
+    themes_raw, slangs_raw = parse_themes_and_slangs(focus_raw, slang_raw)
+
+    # 1. Deduplicate themes and slangs while keeping order
+    seen_words = set()
+    themes = []
+    for t in themes_raw:
+        t_norm = normalize_word(t)
+        if t_norm not in seen_words:
+            themes.append(t)
+            seen_words.add(t_norm)
+
+    slangs = []
+    for s in slangs_raw:
+        s_norm = normalize_word(s)
+        if s_norm not in seen_words:
+            slangs.append(s)
+            seen_words.add(s_norm)
 
     details = CLEAN_FILM_DETAILS.get(title.replace('"', '').strip(), {
         "protagonist": "the main characters",
@@ -1229,7 +1248,7 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
 
     extra_themes, extra_slangs = get_film_specific_extras(title, details)
 
-    # Pad themes to exactly 5
+    # 2. Pad themes with extra_themes or fallback themes to exactly 5
     t_idx = 0
     while len(themes) < 5:
         if t_idx < len(extra_themes):
@@ -1237,10 +1256,12 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
         else:
             candidate = FALLBACK_THEMES[(idx + t_idx) % len(FALLBACK_THEMES)]
         t_idx += 1
-        if candidate.lower() not in [t.lower() for t in themes]:
+        candidate_norm = normalize_word(candidate)
+        if candidate_norm not in seen_words:
             themes.append(candidate)
+            seen_words.add(candidate_norm)
 
-    # Pad slangs to exactly 5
+    # 3. Pad slangs with extra_slangs or fallback slangs to exactly 5
     s_idx = 0
     while len(slangs) < 5:
         if s_idx < len(extra_slangs):
@@ -1248,8 +1269,10 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
         else:
             candidate = FALLBACK_SLANGS[(idx + s_idx) % len(FALLBACK_SLANGS)]
         s_idx += 1
-        if candidate.lower() not in [s.lower() for s in slangs]:
+        candidate_norm = normalize_word(candidate)
+        if candidate_norm not in seen_words:
             slangs.append(candidate)
+            seen_words.add(candidate_norm)
 
     themes = themes[:5]
     slangs = slangs[:5]
