@@ -106,8 +106,7 @@ const NAV_CONFIG = {
         { key: 'practice', href: 'practice/index.html',  icon: '💡' },
         { key: 'notebook', href: 'notebook/index.html',  icon: '📓' },
         { key: 'games',    href: 'games/index.html',     icon: '🎮' },
-        { key: 'events',   href: 'events/index.html',    icon: '🎉' },
-        { key: 'about',    href: 'about/index.html',     icon: 'ℹ️' }
+        { key: 'events',   href: 'events/index.html',    icon: '🎉' }
     ]
 };
 
@@ -323,7 +322,6 @@ function mobileMenuHTML (mode) {
       <a href="${p}practice/index.html" data-translate-key="nav_practice">💡 Practice</a>
       <a href="${p}games/index.html" data-translate-key="nav_games">🎮 Games</a>
       <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
-      <a href="${p}about/index.html" data-translate-key="nav_about">ℹ️ About</a>
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);">Profile:</span>
