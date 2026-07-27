@@ -183,6 +183,36 @@ DATABASE_EN = {
         "chips": ["base form", "to-infinitive", "get", "make", "have", "get", "make"],
         "speaking": "Discuss social media influence. Do platforms make us replicate other people's lives, or do they simply get us to express ourselves in a modern way?",
         "keywords": ["make", "get", "have", "copycat", "mirroring", "authentic"]
+    },
+    "are-traditions-hidden-monogamy.html": {
+        "focus": "Inversion with Negative Adverbials",
+        "explanation": "Use inversion after negative or restrictive adverbials (<strong>rarely</strong>, <strong>seldom</strong>, <strong>not only</strong>, <strong>under no circumstances</strong>, <strong>only when</strong>) to add dramatic emphasis, formal tone, or rhetorical power to your arguments.",
+        "rule_part_a": "Complete the rule: When we place a negative or restrictive adverbial at the beginning of a sentence, we must invert the subject and the <span class=\"grammar-gap\" data-answer=\"auxiliary verb\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>. If there is no auxiliary verb, we use the appropriate form of <span class=\"grammar-gap\" data-answer=\"do\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>.",
+        "tasks": [
+            "<span class=\"grammar-gap\" data-answer=\"Rarely do we\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> question the customs we inherit from our ancestors.",
+            "Not only <span class=\"grammar-gap\" data-answer=\"do traditions provide\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> a sense of community, but they also offer comfort in times of crisis.",
+            "Under no circumstances <span class=\"grammar-gap\" data-answer=\"should we allow\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> outdated rituals to compromise basic human rights.",
+            "Seldom <span class=\"grammar-gap\" data-answer=\"has a society\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> progressed without challenging its most sacred dogmas.",
+            "Only when we step away from our comfort zone <span class=\"grammar-gap\" data-answer=\"can we see\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> the arbitrary nature of our habits."
+        ],
+        "chips": ["auxiliary verb", "do", "Rarely do we", "do traditions provide", "should we allow", "has a society", "can we see"],
+        "speaking": "Discuss whether we should actively break old traditions. Start at least three sentences with negative or restrictive adverbials to add emphasis.",
+        "keywords": ["rarely", "not only", "under no circumstances", "seldom", "only when", "inversion", "adverbial"]
+    },
+    "collective-guilt-global-crisis.html": {
+        "focus": "Mixed Conditionals",
+        "explanation": "Use mixed conditionals (<strong>If + Past Perfect, would + base verb</strong>) to connect past decisions, actions, or historical failures to their direct consequences in the present day.",
+        "rule_part_a": "To connect a hypothetical past action with a present result, use 'if' + <span class=\"grammar-gap\" data-answer=\"Past Perfect\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> in the condition clause, and 'would' / 'could' + <span class=\"grammar-gap\" data-answer=\"base form\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> in the result clause.",
+        "tasks": [
+            "If we <span class=\"grammar-gap\" data-answer=\"had listened\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> to early environmental warnings in the 1970s, our planet <span class=\"grammar-gap\" data-answer=\"would not be\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> in such a critical state today.",
+            "If major powers had resolved their diplomatic differences years ago, citizens <span class=\"grammar-gap\" data-answer=\"would not feel\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> this constant anxiety about global conflict now.",
+            "If they had regulated plastic production earlier, oceans <span class=\"grammar-gap\" data-answer=\"would have\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> far less microplastic pollution today.",
+            "If our ancestors <span class=\"grammar-gap\" data-answer=\"had built\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> sustainable infrastructure, we would not struggle to find eco-friendly options.",
+            "If society had prioritized global cooperation, we <span class=\"grammar-gap\" data-answer=\"would experience\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> much less collective guilt today."
+        ],
+        "chips": ["Past Perfect", "base form", "had listened", "would not be", "would not feel", "would have", "had built", "would experience"],
+        "speaking": "Reflect on a major environmental or political decision from the past. How would your daily life or the state of the world be different today if a different choice had been made? Use mixed conditionals.",
+        "keywords": ["if", "had", "would be", "would feel", "would have", "mixed conditional", "consequences"]
     }
 }
 
