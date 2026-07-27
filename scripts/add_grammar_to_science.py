@@ -19,6 +19,20 @@ GRAMMAR_DATA_EN = {
         "chips": ["Past Simple", "Past Perfect", "would have", "had not developed", "lacked", "were", "would have survived", "would"],
         "speaking": "If humans had never developed the dexterity to create fire or tools, how would we be living today?"
     },
+    "causative verbs": {
+        "focus": "Causative Verbs (make, let, have, get)",
+        "explanation": "Causative verbs describe how a person, AI, or event causes another to act or feel. Use 'make / let' + object + base form of verb (no 'to'). Use 'get' + object + infinitive ('to' + verb). Use 'have' + object + base form of verb.",
+        "rule_part_a": "Complete the rule: Causative verbs 'make' and 'let' are followed by the <span class=\"grammar-gap\" data-answer=\"base form\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> of the verb. In contrast, 'get' requires a full <span class=\"grammar-gap\" data-answer=\"infinitive\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> with 'to'.",
+        "tasks": [
+            "Chatbots can make vulnerable users <span class=\"grammar-gap\" data-answer=\"believe\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> elaborate conspiracy theories.",
+            "The developer had the AI <span class=\"grammar-gap\" data-answer=\"generate\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> a comforting response.",
+            "It is dangerous to let distorted beliefs <span class=\"grammar-gap\" data-answer=\"flourish\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> without any human intervention.",
+            "How can we get people <span class=\"grammar-gap\" data-answer=\"to question\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> information they receive from chatbots?",
+            "Talking to a chatbot makes me <span class=\"grammar-gap\" data-answer=\"feel\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> reassured but slightly uneasy."
+        ],
+        "chips": ["base form", "infinitive", "believe", "generate", "flourish", "to question", "feel"],
+        "speaking": "How does interacting with AI chatbots make people feel? Can they get users to change their core beliefs?"
+    },
     "past perfect vs past simple": {
         "focus": "Past Perfect vs Past Simple",
         "explanation": "Use the Past Simple for completed past actions, and the Past Perfect (had + past participle) for actions that happened before another past action.",
@@ -373,6 +387,20 @@ GRAMMAR_DATA_FR = {
         ],
         "chips": ["look into", "look forward to", "look into", "look out for", "look up to", "look forward to", "look over"],
         "speaking": "Quels types de progrès technologiques ou de mesures de sécurité avez-vous hâte de voir à l'avenir ?"
+    },
+    "le conditionnel présent": {
+        "focus": "Le conditionnel présent (les hypothèses de sécurité)",
+        "explanation": "Le conditionnel présent est utilisé pour exprimer des actions soumises à une condition (si + imparfait -> conditionnel présent) ou pour formuler des conseils et des hypothèses de manière douce.",
+        "rule_part_a": "Complétez la règle : Pour exprimer une hypothèse sur le présent, on utilise le <span class=\"grammar-gap\" data-answer=\"conditionnel présent\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> dans la proposition principale, tandis que la proposition introduite par 'si' est à l'<span class=\"grammar-gap\" data-answer=\"imparfait\" onclick=\"COSY.placeGrammarChip(this)\">_____</span>.",
+        "tasks": [
+            "Si un pirate <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"obtenait\">_____</span> mes identifiants, il pourrait accéder à mes données.",
+            "Nous <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"devrions\">_____</span> activer la vérification à deux facteurs pour plus de sécurité.",
+            "S'ils <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"faisaient\">_____</span> plus attention, ils éviteraient le hameçonnage.",
+            "Je <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"voudrais\">_____</span> bien changer mes mots de passe régulièrement.",
+            "Dans un monde idéal, aucun profil frauduleux ne <span class=\"grammar-gap\" onclick=\"COSY.placeGrammarChip(this)\" data-answer=\"pourrait\">_____</span> exister."
+        ],
+        "chips": ["conditionnel présent", "imparfait", "obtenait", "devrions", "faisaient", "voudrais", "pourrait"],
+        "speaking": "Si vous étiez victime d'une usurpation d'identité en ligne, quelles mesures immédiates prendriez-vous pour sécuriser vos comptes ?"
     }
 }
 
@@ -630,6 +658,8 @@ def enrich_file_with_grammar(filepath, lang):
         "double comparatives": ["the more", "the greater", "the harder", "the faster"],
         "used to / would for childhood memories": ["used to", "would", "remember"],
         "relative clauses": ["whose", "where", "whom", "who", "which"],
+        "causative verbs": ["make", "let", "have", "get", "believe", "generate", "flourish", "feel", "question"],
+        "le conditionnel présent": ["obtenait", "devrions", "faisaient", "voudrais", "pourrait", "si"],
         "distinguishing 'make' vs 'do'": ["make", "do", "research", "experiment", "decision"],
         "phrasal verbs with 'look'": ["look into", "look forward to", "look out for", "look up to"],
         "future passive voice": ["will be", "commercialized", "achieved", "built", "reduced"],
