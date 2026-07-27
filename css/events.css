@@ -1603,6 +1603,242 @@ html[data-theme="dark"] .philosophers-ledger:hover .quotes-theme-stamp {
   line-height: 1.4;
 }
 
+/* ⚖️ My Life With & Without Ledger Style */
+.life-balance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.life-balance-card {
+  background: var(--surface-color, #FFFDF9);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md, 14px);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Dual visual split representation */
+.life-balance-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: repeating-linear-gradient(to bottom, var(--border), var(--border) 4px, transparent 4px, transparent 8px);
+  opacity: 0.5;
+}
+
+.life-balance-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--sage-soft, #3B6D11);
+}
+
+.life-balance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.life-balance-emoji {
+  font-size: 1.3rem;
+  opacity: 0.8;
+  transition: transform 0.3s ease;
+}
+
+.life-balance-card:hover .life-balance-emoji {
+  transform: rotate(15deg) scale(1.1);
+}
+
+.life-balance-body {
+  flex-grow: 1;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+
+.life-balance-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  margin: 0 0 0.5rem 0;
+  color: var(--ink-deep, #1A1A1A);
+  font-weight: 700;
+}
+
+.life-balance-desc {
+  font-size: 0.85rem;
+  color: var(--ink-soft, #666666);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.life-balance-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--border);
+  padding-top: 0.75rem;
+  position: relative;
+  z-index: 2;
+}
+
+.life-balance-date {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.life-balance-view {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--sage-deep, #3B6D11);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: color 0.2s ease;
+}
+
+.life-balance-card:hover .life-balance-view {
+  color: var(--sage-dark, #1d3608);
+}
+
+/* ⚖️ My Life With & Without Session Ledgers */
+.life-ledger-box {
+  background: var(--surface-color, #FFFDF9);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md, 14px);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.life-ledger-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--sage-deep, #3B6D11);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.life-ledger-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .life-ledger-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.life-ledger-column {
+  background: rgba(59, 109, 17, 0.02);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.life-ledger-column.with {
+  border-left: 3px solid #3B6D11;
+}
+
+.life-ledger-column.without {
+  border-left: 3px solid #E67E22; /* warm contrast orange */
+}
+
+.life-ledger-column h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.life-ledger-column.with h5 {
+  color: #3B6D11;
+}
+
+.life-ledger-column.without h5 {
+  color: #D35400;
+}
+
+.life-ledger-column p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+
+.life-ledger-focus {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(83, 74, 183, 0.03);
+  border-left: 3px solid var(--indigo);
+  border-radius: var(--r-sm, 6px);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.life-ledger-focus strong {
+  color: var(--indigo);
+}
+
+/* Dark mode override for high contrast compatibility */
+html[data-theme="dark"] .life-balance-card,
+body.theme-dark .life-balance-card,
+html[data-theme="dark"] .life-ledger-box,
+body.theme-dark .life-ledger-box {
+  background: #1a1e1b;
+  border-color: #2d332f;
+}
+
+html[data-theme="dark"] .life-balance-card::before,
+body.theme-dark .life-balance-card::before {
+  background: repeating-linear-gradient(to bottom, #2d332f, #2d332f 4px, transparent 4px, transparent 8px);
+}
+
+html[data-theme="dark"] .life-balance-title,
+body.theme-dark .life-balance-title {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .life-ledger-column,
+body.theme-dark .life-ledger-column {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: #2d332f;
+}
+
+html[data-theme="dark"] .life-ledger-column.with h5,
+body.theme-dark .life-ledger-column.with h5 {
+  color: #a3e4d7;
+}
+
+html[data-theme="dark"] .life-ledger-column.without h5,
+body.theme-dark .life-ledger-column.without h5 {
+  color: #f5b041;
+}
+
 /* 🧠 MIND MATTERS: Clinical Case Study Folder Index Grid */
 .mind-history-grid {
   display: grid;
