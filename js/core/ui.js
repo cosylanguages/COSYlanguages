@@ -1842,6 +1842,28 @@
     };
 
     const SWITCHER_GROUPS = [
+        // ⚖️ My Life With & Without Level-Switching Groups
+        {
+            id: "life-obsolete-jobs",
+            pages: [
+                { lang: "en", path: "events/sessions/my-life-with-without/obsolete-jobs-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/my-life-with-without/obsolete-jobs-advanced.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" }
+            ]
+        },
+        {
+            id: "life-high-rise-skyscrapers",
+            pages: [
+                { lang: "en", path: "events/sessions/my-life-with-without/high-rise-skyscrapers-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/my-life-with-without/high-rise-skyscrapers-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "life-private-cars",
+            pages: [
+                { lang: "en", path: "events/sessions/my-life-with-without/private-cars-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/my-life-with-without/private-cars-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
         // 🌌 I Couldn't Help But Wonder Multilingual Groups
         {
             id: "wonder-ugly-produce",
