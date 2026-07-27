@@ -1994,22 +1994,31 @@
         {
             id: "assisted-dying",
             pages: [
-                { lang: "en", path: "events/sessions/debatable-relatable/assisted-dying.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "events/fr/sessions/debatable-relatable/l-aide-active-a-mourir.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+                { lang: "en", path: "events/sessions/debatable-relatable/assisted-dying.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
+                { lang: "fr", path: "events/fr/sessions/debatable-relatable/l-aide-active-a-mourir.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
             ]
         },
         {
             id: "short-holiday-vs-long-holiday",
             pages: [
                 { lang: "en", path: "events/sessions/debatable-relatable/short-holiday-vs-long-holiday-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/debatable-relatable/short-holiday-vs-long-holiday-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+                { lang: "en", path: "events/sessions/debatable-relatable/short-holiday-vs-long-holiday-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/debatable-relatable/short-holiday-vs-long-holiday-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "typing-vs-handwriting",
             pages: [
                 { lang: "en", path: "events/sessions/debatable-relatable/typing-vs-handwriting-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+                { lang: "en", path: "events/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/debatable-relatable/typing-vs-handwriting-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "human-cloning",
+            pages: [
+                { lang: "en", path: "events/sessions/debatable-relatable/human-cloning-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/debatable-relatable/human-cloning-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {

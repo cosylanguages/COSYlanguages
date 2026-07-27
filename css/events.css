@@ -2210,3 +2210,201 @@ body.theme-dark .life-ledger-column.without h5 {
   margin: 0;
   line-height: 1.4;
 }
+
+/* ─── Premium Debatable & Relatable Duel Placard Grid ─── */
+.debate-history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.debate-placard-card {
+  background: var(--surface-color, #FFFDF9);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+/* Diagonal / Dual-contrast split background on hover/active */
+.debate-placard-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(153, 60, 29, 0.03); /* subtle red/warm tone on the left */
+  border-right: 1px dashed rgba(153, 60, 29, 0.15);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.debate-placard-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(43, 108, 176, 0.02); /* subtle blue/cool tone on the right */
+  pointer-events: none;
+  z-index: 1;
+}
+
+.debate-placard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: #993C1D;
+}
+
+/* Central Flame vs Badge Stamp */
+.debate-vs-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: linear-gradient(135deg, #993C1D, #4d1e0f);
+  color: white;
+  font-weight: 800;
+  font-size: 0.72rem;
+  padding: 3px 8px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(153, 60, 29, 0.25);
+  z-index: 10;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.debate-card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  z-index: 2;
+  position: relative;
+  height: 100%;
+}
+
+.debate-card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ink-deep, #1C1917);
+  margin: 0;
+  line-height: 1.35;
+  padding-right: 2.5rem; /* prevent overlap with the vs badge */
+}
+
+.debate-card-date {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.debate-card-footer {
+  margin-top: auto;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #993C1D;
+}
+
+.debate-card-footer .view-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Dark mode support */
+html[data-theme="dark"] .debate-placard-card {
+  background: #252220;
+}
+html[data-theme="dark"] .debate-placard-card::before {
+  background: rgba(153, 60, 29, 0.08);
+  border-right-color: rgba(153, 60, 29, 0.3);
+}
+html[data-theme="dark"] .debate-placard-card::after {
+  background: rgba(43, 108, 176, 0.05);
+}
+html[data-theme="dark"] .debate-card-title {
+  color: #FAF7F2;
+}
+
+/* ─── Premium Debatable & Relatable Custom Theme Duel Arena Box ─── */
+.debate-duel-box {
+  background: var(--surface-color, #FFFDF9);
+  border: 1px solid var(--border);
+  border-left: 6px solid #993C1D;
+  border-right: 6px solid #2B6CB0; /* Dueling border colors! */
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.debate-duel-box h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  color: var(--ink-deep, #1C1917);
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.debate-duel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .debate-duel-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.debate-duel-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.debate-duel-item strong {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.debate-duel-item span {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--ink-soft, #44403C);
+}
+
+html[data-theme="dark"] .debate-duel-box {
+  background: #252220;
+}
+html[data-theme="dark"] .debate-duel-box h3 {
+  color: #FAF7F2;
+}
+html[data-theme="dark"] .debate-duel-item span {
+  color: #E7E5E4;
+}
