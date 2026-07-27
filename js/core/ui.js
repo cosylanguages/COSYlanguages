@@ -2025,7 +2025,8 @@
             id: "ape-laughter-speech-origin",
             pages: [
                 { lang: "en", path: "events/sessions/keeping-up-with-science/ape-laughter-speech-origin-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/keeping-up-with-science/ape-laughter-speech-origin-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+                { lang: "en", path: "events/sessions/keeping-up-with-science/ape-laughter-speech-origin-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/keeping-up-with-science/ape-laughter-speech-origin-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
@@ -2173,7 +2174,8 @@
                 { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
                 { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
                 { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/ai-opposite-of-art-intermediate.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/ai-opposite-of-art-upper-intermediate.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire-Supérieur (B2)" }
             ]
         },
         {
