@@ -2371,6 +2371,105 @@
                 { lang: "en", path: "events/sessions/mind-matters/expert-defend-language-mistakes.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
                 { lang: "ru", path: "events/ru/sessions/mind-matters/ne-ispravlyay-rech.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
             ]
+        },
+        // 🎬 Cinema Club Level-Switching Groups (Split B1/B2)
+        {
+            id: "cinema-the-devil-wears-prada",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/the-devil-wears-prada-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/the-devil-wears-prada-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-beautiful-thing",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/beautiful-thing-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/beautiful-thing-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-the-pianist",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/the-pianist-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/the-pianist-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-the-first-wives-club",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/the-first-wives-club-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/the-first-wives-club-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-stepmom",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/stepmom-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/stepmom-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-roman-holiday",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/roman-holiday-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/roman-holiday-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-glee",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/glee-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/glee-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-hello-dolly",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/hello-dolly-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/hello-dolly-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-the-mummy",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/the-mummy-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/the-mummy-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-the-notebook",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/the-notebook-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/the-notebook-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-what-women-want",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/what-women-want-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/what-women-want-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-free-guy",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/free-guy-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/free-guy-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-julie-and-julia",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/julie-and-julia-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/julie-and-julia-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
+        },
+        {
+            id: "cinema-coda",
+            pages: [
+                { lang: "en", path: "events/sessions/cinema-club/coda-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "events/sessions/cinema-club/coda-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+            ]
         }
     ];
 

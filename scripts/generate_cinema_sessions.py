@@ -869,6 +869,7 @@ def escape_js(text):
 
 def calibrate_text_for_level(text, level, type_="example"):
     is_a2 = "A2" in level or "A1" in level or "starter" in level.lower() or "elementary" in level.lower()
+    is_b1 = "B1" in level or "intermediate" in level.lower() and "upper" not in level.lower()
     is_c1 = "C1" in level or "C2" in level or "advanced" in level.lower()
 
     if is_a2:
@@ -901,6 +902,12 @@ def calibrate_text_for_level(text, level, type_="example"):
         text = text.replace("utilized", "uses").replace("utilizes", "uses")
         text = text.replace("colloquialism", "local word")
         text = text.replace("establish context", "show the story")
+    elif is_b1:
+        text = text.replace("meticulously", "carefully").replace("scrutinizes", "examines")
+        text = text.replace("existential", "personal").replace("sociological", "social")
+        text = text.replace("psychological", "mental").replace("paradigm", "model")
+        text = text.replace("deconstruct", "analyze").replace("Deconstruct", "Analyze")
+        text = text.replace("ramifications", "consequences")
     elif is_c1:
         text = text.replace("shows", "delineates").replace("dissects", "scrutinizes")
         text = text.replace("explores", "meticulously investigates")
@@ -1664,6 +1671,8 @@ DISCLAIMERS = {
     "el": "Σημείωση: Αυτό το υλικό χρησιμοποιείται αποκλειστικά για εκπαιδευτικούς σκοπούς."
 }
 
+# Construct the expanded list of sessions to generate (splitting B1/B2 as requested)
+sessions_to_generate = []
 for idx, r in enumerate(rows):
     title = r[1].strip()
     level_short = r[2].strip()
@@ -1672,17 +1681,17 @@ for idx, r in enumerate(rows):
     focus = r[5].strip()
     slang_raw = r[6].strip()
 
-    slug = get_slug(title)
-    if "serebryanye" in slug:
-        slug = "serebryanye-konki"
-    elif "barrier" in slug:
-        slug = "la-valla"
-    elif "tiffanys" in slug:
-        slug = "breakfast-at-tiffanys"
-    elif "prada" in slug:
-        slug = "the-devil-wears-prada"
-    elif "queens" in slug:
-        slug = "the-queens-gambit"
+    slug_base = get_slug(title)
+    if "serebryanye" in slug_base:
+        slug_base = "serebryanye-konki"
+    elif "barrier" in slug_base:
+        slug_base = "la-valla"
+    elif "tiffanys" in slug_base:
+        slug_base = "breakfast-at-tiffanys"
+    elif "prada" in slug_base:
+        slug_base = "the-devil-wears-prada"
+    elif "queens" in slug_base:
+        slug_base = "the-queens-gambit"
 
     if "french language" in variety.lower() or "french / arabic" in variety.lower():
         lang = "fr"
@@ -1692,6 +1701,54 @@ for idx, r in enumerate(rows):
         lang = "es"
     else:
         lang = "en"
+
+    if level_short == "B1/B2":
+        # Split B1/B2 into B1 and B2 separate sessions
+        sessions_to_generate.append({
+            "idx": idx,
+            "title": title,
+            "level_short": "B1",
+            "level_label": "Intermediate (B1)",
+            "variety": variety,
+            "focus": focus,
+            "slang_raw": slang_raw,
+            "slug": f"{slug_base}-intermediate",
+            "lang": lang
+        })
+        sessions_to_generate.append({
+            "idx": idx,
+            "title": title,
+            "level_short": "B2",
+            "level_label": "Upper-Intermediate (B2)",
+            "variety": variety,
+            "focus": focus,
+            "slang_raw": slang_raw,
+            "slug": f"{slug_base}-upper-intermediate",
+            "lang": lang
+        })
+    else:
+        sessions_to_generate.append({
+            "idx": idx,
+            "title": title,
+            "level_short": level_short,
+            "level_label": level_label,
+            "variety": variety,
+            "focus": focus,
+            "slang_raw": slang_raw,
+            "slug": slug_base,
+            "lang": lang
+        })
+
+for s_idx, session_data in enumerate(sessions_to_generate):
+    idx = session_data["idx"]
+    title = session_data["title"]
+    level_short = session_data["level_short"]
+    level_label = session_data["level_label"]
+    variety = session_data["variety"]
+    focus = session_data["focus"]
+    slang_raw = session_data["slang_raw"]
+    slug = session_data["slug"]
+    lang = session_data["lang"]
 
     grammar_focus = get_grammar_focus(title)
     vocab_items = build_10_vocabulary(title, focus, slang_raw, idx, level_short)
@@ -1745,25 +1802,38 @@ for idx, r in enumerate(rows):
     </div>
   </div>"""
 
-    # Theme Snapshot block generation
+    # Theme Snapshot block generation: Retro Director's Production Slate layout
     loc = LOCALIZED_LABELS.get(lang, LOCALIZED_LABELS["en"])
     trailer_url = TRAILER_LINKS.get(title, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+trailer")
     disclaimer_text = DISCLAIMERS.get(lang, DISCLAIMERS["en"])
-    theme_box_html = f"""  <!-- THEME SNAPSHOT BLOCK -->
-  <div class="theme-box">
+    theme_box_html = f"""  <!-- THEME SNAPSHOT BLOCK: DIRECTOR'S PRODUCTION SLATE -->
+  <div class="cinema-slate-box">
+    <div class="clapper-strip" style="margin: -1.5rem -1.5rem 1.5rem -1.5rem;"></div>
     <h3>🎬 {loc["theme_snapshot"]}: {title}</h3>
-    <p>{loc["discuss"]}</p>
-    <ul>
-      <li><strong>{loc["protagonist"]}:</strong> {details["protagonist"]}</li>
-      <li><strong>{loc["setting"]}:</strong> {details["setting"]}</li>
-      <li><strong>{loc["conflict"]}:</strong> {details["conflict"]}</li>
-      <li><strong>{loc["grammar"]}:</strong> {grammar_focus}</li>
-    </ul>
-    <div class="theme-video-link" style="margin-top: 1rem;">
-      <a href="{trailer_url}" target="_blank" class="btn-trailer">
+    <p style="color: rgba(250, 247, 242, 0.8); margin-bottom: 1.5rem;">{loc["discuss"]}</p>
+    <div class="cinema-slate-grid">
+      <div class="cinema-slate-item">
+        <strong>{loc["protagonist"]}</strong>
+        <span>{details["protagonist"]}</span>
+      </div>
+      <div class="cinema-slate-item">
+        <strong>{loc["setting"]}</strong>
+        <span>{details["setting"]}</span>
+      </div>
+      <div class="cinema-slate-item">
+        <strong>{loc["conflict"]}</strong>
+        <span>{details["conflict"]}</span>
+      </div>
+      <div class="cinema-slate-item">
+        <strong>{loc["grammar"]}</strong>
+        <span>{grammar_focus}</span>
+      </div>
+    </div>
+    <div class="theme-video-link" style="margin-top: 1.5rem; border-top: 1px dashed rgba(250, 247, 242, 0.25); padding-top: 1rem;">
+      <a href="{trailer_url}" target="_blank" class="btn-trailer" style="color: #BA7517 !important;">
         <span>🎬</span> {loc["watch_trailer"]}
       </a>
-      <p class="video-disclaimer" style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--muted); font-style: italic;">{disclaimer_text}</p>
+      <p class="video-disclaimer" style="margin-top: 0.5rem; font-size: 0.75rem; color: rgba(250, 247, 242, 0.5); font-style: italic;">{disclaimer_text}</p>
     </div>
   </div>"""
 
@@ -1897,4 +1967,4 @@ for idx, r in enumerate(rows):
             mistakes_html=mistakes_html
         ))
 
-print(f"Successfully generated all {len(rows)} Cinema Club sessions with 100% unique cinema-specific vocabulary, 10-unit discussion structure, and screen-specific Grammar Focus!")
+print(f"Successfully generated all {len(sessions_to_generate)} Cinema Club sessions with 100% unique cinema-specific vocabulary, 10-unit discussion structure, and screen-specific Grammar Focus!")
