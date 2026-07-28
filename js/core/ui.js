@@ -2751,8 +2751,90 @@
                 });
         };
 
-        // Always attempt to play on load/entry
-        playMusic();
+        // Detect parent/hub page and inject toggle button
+        const isParentPage = currentPathname.includes('i-couldnt-help-but-wonder') && !currentPathname.includes('sessions/i-couldnt-help-but-wonder/');
+        if (isParentPage) {
+            const heroHeader = document.querySelector('.club-hero');
+            if (heroHeader && !document.getElementById('wonder-music-toggle-container')) {
+                const isFrench = currentPathname.includes('/fr/');
+                const activeState = sessionStorage.getItem('cosy_wonder_music_playing') !== 'false';
+
+                const btnContainer = document.createElement('div');
+                btnContainer.id = 'wonder-music-toggle-container';
+                btnContainer.style.marginTop = '1.5rem';
+
+                const enPlayLabel = '🎵 Play Background Music';
+                const enPauseLabel = '🎵 Pause Background Music';
+                const frPlayLabel = "🎵 Jouer la musique d'ambiance";
+                const frPauseLabel = "🎵 Suspendre la musique d'ambiance";
+
+                const initialLabel = activeState
+                    ? (isFrench ? frPauseLabel : enPauseLabel)
+                    : (isFrench ? frPlayLabel : enPlayLabel);
+
+                btnContainer.innerHTML = `
+                    <button id="wonder-music-toggle-btn" class="wonder-music-btn">${initialLabel}</button>
+                `;
+
+                heroHeader.appendChild(btnContainer);
+
+                if (!document.getElementById('wonder-music-toggle-styles')) {
+                    const styleEl = document.createElement('style');
+                    styleEl.id = 'wonder-music-toggle-styles';
+                    styleEl.textContent = `
+                        .wonder-music-btn {
+                            background: rgba(255, 255, 255, 0.15);
+                            color: white;
+                            border: 1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 30px;
+                            padding: 0.6rem 1.5rem;
+                            font-size: 0.9rem;
+                            font-weight: 600;
+                            cursor: pointer;
+                            transition: all 0.2s ease;
+                            display: inline-flex;
+                            align-items: center;
+                            gap: 8px;
+                        }
+                        .wonder-music-btn:hover {
+                            background: rgba(255, 255, 255, 0.25);
+                            border-color: white;
+                            transform: translateY(-1px);
+                        }
+                        .wonder-music-btn:active {
+                            transform: translateY(1px);
+                        }
+                    `;
+                    document.head.appendChild(styleEl);
+                }
+
+                const toggleBtn = document.getElementById('wonder-music-toggle-btn');
+                toggleBtn.addEventListener('click', () => {
+                    if (audio.paused) {
+                        audio.play()
+                            .then(() => {
+                                sessionStorage.setItem('cosy_wonder_music_playing', 'true');
+                                toggleBtn.textContent = isFrench ? frPauseLabel : enPauseLabel;
+                            })
+                            .catch(e => console.log(e));
+                    } else {
+                        audio.pause();
+                        sessionStorage.setItem('cosy_wonder_music_playing', 'false');
+                        toggleBtn.textContent = isFrench ? frPlayLabel : enPlayLabel;
+                    }
+                });
+            }
+        }
+
+        // Always attempt to play on load/entry unless explicitly muted or on a session page
+        const isMuted = sessionStorage.getItem('cosy_wonder_music_playing') === 'false';
+        const isWonderSession = currentPathname.includes('sessions/i-couldnt-help-but-wonder/');
+
+        if (!isMuted && !isWonderSession) {
+            playMusic();
+        } else if (isMuted) {
+            audio.pause();
+        }
 
         // PJAX Interceptor for seamless in-club navigation
         if (!window.cosyWonderNavigationInterceptorSetup) {
@@ -2866,6 +2948,316 @@
         }
     };
 
+    /* ─── WONDER CLUB SESSION AUDIO PLAYER ───────────────────────── */
+    const setupWonderSessionAudio = () => {
+        const currentPathname = window.location.pathname;
+        const isWonderSession = currentPathname.includes('sessions/i-couldnt-help-but-wonder/');
+
+        // Clean up any existing session audio when navigating away from a wonder session page
+        if (!isWonderSession) {
+            if (window.cosyWonderSessionAudio) {
+                window.cosyWonderSessionAudio.pause();
+                window.cosyWonderSessionAudio = null;
+            }
+            return;
+        }
+
+        // Parse filename and look up draft number
+        const filename = currentPathname.split('/').pop().split('#')[0].split('?')[0];
+        const WONDER_DRAFT_MAPPING = {
+            'i-have-no-time-for-it.html': 1,
+            'collective-guilt-global-crisis.html': 2,
+            'are-traditions-hidden-monogamy-upper-intermediate.html': 3,
+            'are-traditions-hidden-monogamy.html': 4,
+            'is-parenting-instinct-a-real-thing-or-scam.html': 5,
+            'why-do-we-try-to-relate-to-adhd.html': 6,
+            'appreciating-amy-winehouse-after-death.html': 7,
+            'does-euthanasia-reduce-suicide-rates.html': 8,
+            'ugly-produce-anti-waste.html': 9,
+            'death-of-the-album.html': 10,
+            'feeling-empty-after-series.html': 11,
+            'why-is-everyone-copying-me.html': 12,
+            'always-watched-in-a-crowd.html': 13,
+            'is-bad-weather-gods-anger.html': 14,
+            'do-insects-hide-when-it-rains.html': 15,
+            'whether-raindrops-select-where-to-fall.html': 16
+        };
+
+        const draftNum = WONDER_DRAFT_MAPPING[filename];
+        if (!draftNum) return;
+
+        // Clean up any old audio instances before starting a new one
+        if (window.cosyWonderSessionAudio) {
+            window.cosyWonderSessionAudio.pause();
+            window.cosyWonderSessionAudio = null;
+        }
+
+        const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
+        const audioUrl = prefix + "sounds/draft" + draftNum + ".mp3";
+
+        const audio = new Audio(audioUrl);
+        window.cosyWonderSessionAudio = audio;
+
+        // Determine language
+        const isFrench = currentPathname.includes('/fr/');
+        const playerTitle = isFrench
+            ? `🎙️ Brouillon audio de la chronique de Carrie (Session ${draftNum})`
+            : `🎙️ Carrie's Audio Column Draft (Session ${draftNum})`;
+        const playText = isFrench ? `▶ Écouter le brouillon` : `▶ Play Column Draft`;
+        const pauseText = isFrench ? `⏸ Suspendre le brouillon` : `⏸ Pause Draft`;
+
+        // Create player elements
+        const playerContainer = document.createElement('div');
+        playerContainer.className = 'wonder-audio-player';
+        playerContainer.innerHTML = `
+            <div class="player-header">
+                <span class="player-title-text">${playerTitle}</span>
+                <span class="player-status-badge">draft_active.wav</span>
+            </div>
+            <div class="player-controls">
+                <button class="player-btn" id="wonder-draft-play-btn">${playText}</button>
+                <div class="player-progress-container" id="wonder-draft-progress-container">
+                    <div class="player-progress-bar" id="wonder-draft-progress"></div>
+                </div>
+                <span class="player-time" id="wonder-draft-time">0:00 / 0:00</span>
+            </div>
+        `;
+
+        // Inject the player container
+        const wonderColumnBox = document.querySelector('.wonder-column-box');
+        const contentContainer = document.querySelector('.content-container');
+        if (wonderColumnBox) {
+            wonderColumnBox.parentNode.insertBefore(playerContainer, wonderColumnBox);
+        } else if (contentContainer) {
+            const metaGrid = document.querySelector('.session-meta-grid');
+            if (metaGrid) {
+                metaGrid.parentNode.insertBefore(playerContainer, metaGrid.nextSibling);
+            } else {
+                contentContainer.prepend(playerContainer);
+            }
+        }
+
+        // Add player styles if not already added to head
+        if (!document.getElementById('wonder-audio-player-styles')) {
+            const styleEl = document.createElement('style');
+            styleEl.id = 'wonder-audio-player-styles';
+            styleEl.textContent = `
+                .wonder-audio-player {
+                    background: var(--surface-color, #fffcf5);
+                    border: 2px dashed var(--sage, #9d81d9);
+                    border-radius: 16px;
+                    padding: 1.5rem;
+                    margin: 2rem 0;
+                    font-family: 'Courier New', Courier, monospace;
+                    color: var(--text-color, #4c3185);
+                    box-shadow: var(--shadow-sm);
+                    transition: all 0.3s ease;
+                }
+                .player-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 1rem;
+                    border-bottom: 1px dashed var(--border, rgba(157, 129, 217, 0.3));
+                    padding-bottom: 0.5rem;
+                }
+                .player-title-text {
+                    font-weight: bold;
+                    font-size: 1rem;
+                }
+                .player-status-badge {
+                    font-size: 0.75rem;
+                    text-transform: uppercase;
+                    opacity: 0.7;
+                    letter-spacing: 0.05em;
+                }
+                .player-controls {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+                .player-btn {
+                    background: var(--sage, #9d81d9);
+                    color: white;
+                    border: none;
+                    border-radius: 20px;
+                    padding: 0.5rem 1.2rem;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 0.85rem;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: all 0.2s;
+                    white-space: nowrap;
+                    box-shadow: var(--shadow-sm);
+                }
+                .player-btn:hover {
+                    opacity: 0.9;
+                    transform: translateY(-1px);
+                }
+                .player-progress-container {
+                    flex-grow: 1;
+                    height: 8px;
+                    background: rgba(157, 129, 217, 0.15);
+                    border-radius: 4px;
+                    position: relative;
+                    cursor: pointer;
+                    overflow: hidden;
+                }
+                .player-progress-bar {
+                    height: 100%;
+                    width: 0%;
+                    background: var(--sage, #9d81d9);
+                    border-radius: 4px;
+                    transition: width 0.1s linear;
+                }
+                .player-time {
+                    font-size: 0.85rem;
+                    opacity: 0.8;
+                    min-width: 85px;
+                    text-align: right;
+                }
+                /* Dark Theme Adaptations */
+                body.theme-wonder-amy .wonder-audio-player,
+                body.theme-wonder-album .wonder-audio-player,
+                body.theme-wonder-watched .wonder-audio-player {
+                    background: #18141c;
+                    border: 2px dashed var(--section-title-color, #e11d48);
+                    color: #f1f0f3;
+                }
+                body.theme-wonder-amy .player-progress-container,
+                body.theme-wonder-album .player-progress-container,
+                body.theme-wonder-watched .player-progress-container {
+                    background: rgba(255, 255, 255, 0.1);
+                }
+                body.theme-wonder-amy .player-progress-bar,
+                body.theme-wonder-amy .player-btn {
+                    background: #e11d48;
+                }
+                body.theme-wonder-album .player-progress-bar,
+                body.theme-wonder-album .player-btn {
+                    background: #8b5cf6;
+                }
+                body.theme-wonder-watched .player-progress-bar,
+                body.theme-wonder-watched .player-btn {
+                    background: #10b981;
+                }
+            `;
+            document.head.appendChild(styleEl);
+        }
+
+        const playBtn = document.getElementById('wonder-draft-play-btn');
+        const progressBar = document.getElementById('wonder-draft-progress');
+        const progressContainer = document.getElementById('wonder-draft-progress-container');
+        const timeDisplay = document.getElementById('wonder-draft-time');
+
+        // Format duration helper
+        const formatTime = (seconds) => {
+            if (isNaN(seconds)) return "0:00";
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+        };
+
+        // Pause ambient background music when draft audio plays
+        const pauseBackgroundMusic = () => {
+            if (window.cosyWonderAudio) {
+                window.cosyWonderAudio.pause();
+            }
+        };
+
+        // Resume ambient background music if it was playing before
+        const resumeBackgroundMusic = () => {
+            const originallyPlaying = sessionStorage.getItem('cosy_wonder_music_playing') === 'true';
+            if (window.cosyWonderAudio && originallyPlaying) {
+                window.cosyWonderAudio.play().catch(e => console.log("Background music resume blocked:", e));
+            }
+        };
+
+        // Playback controls
+        const togglePlay = () => {
+            if (audio.paused) {
+                pauseBackgroundMusic();
+                audio.play()
+                    .then(() => {
+                        playBtn.textContent = pauseText;
+                    })
+                    .catch(err => {
+                        console.log("Audio play blocked, waiting for interaction", err);
+                    });
+            } else {
+                audio.pause();
+                playBtn.textContent = playText;
+                resumeBackgroundMusic();
+            }
+        };
+
+        if (playBtn) playBtn.addEventListener('click', togglePlay);
+
+        // Update progress and time
+        audio.addEventListener('timeupdate', () => {
+            const percent = (audio.currentTime / audio.duration) * 100;
+            if (progressBar) progressBar.style.width = `${percent}%`;
+            if (timeDisplay) timeDisplay.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+        });
+
+        // Loaded metadata to set initial duration
+        audio.addEventListener('loadedmetadata', () => {
+            if (timeDisplay) timeDisplay.textContent = `0:00 / ${formatTime(audio.duration)}`;
+        });
+
+        // Handle ended state
+        audio.addEventListener('ended', () => {
+            if (playBtn) playBtn.textContent = playText;
+            if (progressBar) progressBar.style.width = '0%';
+            resumeBackgroundMusic();
+        });
+
+        // Scrubbing/seeking support
+        if (progressContainer) {
+            progressContainer.addEventListener('click', (e) => {
+                const rect = progressContainer.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const width = rect.width;
+                const clickPercent = clickX / width;
+                if (!isNaN(audio.duration)) {
+                    audio.currentTime = clickPercent * audio.duration;
+                }
+            });
+        }
+
+        // Automatic autoplay attempt
+        const tryAutoplay = () => {
+            pauseBackgroundMusic();
+            audio.play()
+                .then(() => {
+                    if (playBtn) playBtn.textContent = pauseText;
+                })
+                .catch(() => {
+                    // Autoplay blocked by browser. Add one-time user interaction listeners to play
+                    const playOnInteraction = () => {
+                        pauseBackgroundMusic();
+                        audio.play()
+                            .then(() => {
+                                if (playBtn) playBtn.textContent = pauseText;
+                                removeListeners();
+                            })
+                            .catch(e => console.log(e));
+                    };
+                    const removeListeners = () => {
+                        document.removeEventListener('click', playOnInteraction);
+                        document.removeEventListener('keydown', playOnInteraction);
+                        document.removeEventListener('touchstart', playOnInteraction);
+                    };
+                    document.addEventListener('click', playOnInteraction);
+                    document.addEventListener('keydown', playOnInteraction);
+                    document.addEventListener('touchstart', playOnInteraction);
+                });
+        };
+
+        // Attempt autoplay
+        tryAutoplay();
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         if (window.COSY) {
@@ -2877,6 +3269,7 @@
         setupClubFilters();
         setupSessionSwitcher();
         setupWonderMusic();
+        setupWonderSessionAudio();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
 
         // FAQ Toggle
