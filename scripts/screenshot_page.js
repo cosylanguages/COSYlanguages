@@ -12,10 +12,10 @@ const { chromium } = require('playwright');
   // Take screenshot of the history grid section
   const grid = await page.$('.cinema-history-grid');
   if (grid) {
-    await grid.screenshot({ path: 'cinema-club-grid-visual.png' });
+    await grid.screenshot({ path: 'images/cinema-club-grid-visual.png' });
     console.log('Visual screenshot of the grid saved successfully.');
   } else {
-    await page.screenshot({ path: 'cinema-club-full-page.png' });
+    await page.screenshot({ path: 'images/cinema-club-full-page.png' });
     console.log('Full page screenshot saved since grid was not found.');
   }
 
