@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const manifestPath = path.join(__dirname, '..', 'vocabulary', 'manifest.json');
+const manifestPath = path.join(__dirname, '..', '..', 'vocabulary', 'manifest.json');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
 
 const LANGS = Object.keys(manifest);
@@ -16,7 +16,7 @@ console.log('--- Verifying Manifest ---');
 LANGS.forEach(lang => {
     Object.keys(manifest[lang]).forEach(level => {
         manifest[lang][level].forEach(file => {
-            const filePath = path.join(__dirname, '..', 'vocabulary', lang, level, file);
+            const filePath = path.join(__dirname, '..', '..', 'vocabulary', lang, level, file);
             if (!fs.existsSync(filePath)) {
                 console.error(`❌ Missing file: ${filePath} (listed in manifest)`);
                 errors++;
@@ -36,7 +36,7 @@ LANGS.forEach(lang => {
 });
 
 // 2. Identify orphaned files
-const vocabRoot = path.join(__dirname, '..', 'vocabulary');
+const vocabRoot = path.join(__dirname, '..', '..', 'vocabulary');
 fs.readdirSync(vocabRoot).forEach(lang => {
     const langDir = path.join(vocabRoot, lang);
     if (fs.statSync(langDir).isDirectory()) {

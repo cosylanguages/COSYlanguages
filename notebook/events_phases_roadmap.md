@@ -34,7 +34,7 @@ This document outlines the structured development phases and logical stages of t
 
 ### **Stage 2.1: Redundant Script Purging**
 - **Goal:** Eliminate obsolete site-wide script loads to improve page speed and performance.
-- **Implementation:** Purged outdated references to `pricing.js` and `config.js` at the bottom of Keep Up with Science session files, ensuring compliance with the validator `scripts/audit_website_data.py`.
+- **Implementation:** Purged outdated references to `pricing.js` and `config.js` at the bottom of Keep Up with Science session files, ensuring compliance with the validator `scripts/audits/audit_website_data.py`.
 - **Status:** **Completed** ✅
 
 ### **Stage 2.2: Mistake Cardinality Alignment**

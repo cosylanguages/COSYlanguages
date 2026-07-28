@@ -44,7 +44,7 @@ This directory contains standardized templates for adding new languages or conte
 
 ### 6. Etymology & Data Enrichment
 - New vocabulary entries should include `synonyms`, `antonyms`, `collocations`, and `etymology` where possible.
-- Use `scripts/build_etymology_dict.js` to bulk-generate etymology data from Wiktextract dumps. Run `node scripts/build_etymology_dict.js --help` for usage details.
+- Use `scripts/content-build/build_etymology_dict.js` to bulk-generate etymology data from Wiktextract dumps. Run `node scripts/content-build/build_etymology_dict.js --help` for usage details.
 
 ---
 
