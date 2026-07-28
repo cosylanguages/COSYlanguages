@@ -2426,6 +2426,9 @@ body.theme-dark .life-ledger-column.without h5 {
 /* ─── Bespoke Theme Overrides for I Couldn't Help But Wonder ─── */
 
 /* 1. Bad Weather Gods Anger */
+body.theme-wonder-weather {
+  background: radial-gradient(circle at top right, rgba(157, 129, 217, 0.15), transparent), linear-gradient(to bottom, #f4f0ff, #fbfafc) !important;
+}
 .theme-wonder-weather .wonder-column-box {
   background: linear-gradient(135deg, rgba(63, 43, 150, 0.04), rgba(31, 16, 77, 0.08));
   border: 1px solid rgba(63, 43, 150, 0.3);
@@ -2439,6 +2442,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 2. Do Insects Hide When It Rains */
+body.theme-wonder-insects {
+  background: radial-gradient(circle at bottom left, rgba(34, 197, 94, 0.12), transparent), linear-gradient(to bottom, #f7fee7, #fcfdfa) !important;
+}
 .theme-wonder-insects .wonder-column-box {
   background: rgba(34, 197, 94, 0.03);
   border: 1px solid rgba(34, 197, 94, 0.2);
@@ -2451,6 +2457,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 3. Ugly Produce Anti-waste */
+body.theme-wonder-organic {
+  background: radial-gradient(circle at top left, rgba(234, 179, 8, 0.12), transparent), linear-gradient(to bottom, #fefce8, #fffdf5) !important;
+}
 .theme-wonder-organic .wonder-column-box {
   background: rgba(234, 179, 8, 0.03);
   border: 1px solid rgba(234, 179, 8, 0.2);
@@ -2463,6 +2472,41 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 4. Appreciating Amy Winehouse */
+body.theme-wonder-amy {
+  background: #0f0c11 !important;
+  color: #f1f0f3 !important;
+}
+body.theme-wonder-amy .section-title {
+  color: #e11d48 !important;
+}
+body.theme-wonder-amy .vocab-card {
+  background: #18141c !important;
+  border-color: #3a3245 !important;
+  color: #f1f0f3 !important;
+}
+body.theme-wonder-amy .round-block {
+  background: #18141c !important;
+  border-color: #3a3245 !important;
+}
+body.theme-wonder-amy .round-header {
+  background: #251d2d !important;
+  color: #f1f0f3 !important;
+}
+body.theme-wonder-amy .round-questions li {
+  color: #d1cbdc !important;
+}
+body.theme-wonder-amy .round-item-main {
+  color: #f1f0f3 !important;
+}
+body.theme-wonder-amy .round-item-personal {
+  color: #ff85a2 !important;
+}
+body.theme-wonder-amy .back-link, body.theme-wonder-amy .cosy-breadcrumbs {
+  color: #d1cbdc !important;
+}
+body.theme-wonder-amy .cosy-breadcrumbs .current {
+  color: #e11d48 !important;
+}
 .theme-wonder-amy .wonder-column-box {
   background: #18141c;
   border: 1px solid #3a3245;
@@ -2479,6 +2523,10 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 5. ADHD Neurodiversity */
+body.theme-wonder-adhd {
+  background: linear-gradient(rgba(6, 182, 212, 0.05) 1px, transparent 1px) 0 0 / 20px 20px,
+              linear-gradient(90deg, rgba(6, 182, 212, 0.05) 1px, #fbfdfd 1px) 0 0 / 20px 20px !important;
+}
 .theme-wonder-adhd .wonder-column-box {
   background: rgba(6, 182, 212, 0.03);
   border: 1px solid rgba(6, 182, 212, 0.25);
@@ -2491,6 +2539,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 6. Euthanasia */
+body.theme-wonder-euthanasia {
+  background: radial-gradient(circle at center, rgba(14, 165, 233, 0.08), transparent), linear-gradient(to bottom, #f0f9ff, #ffffff) !important;
+}
 .theme-wonder-euthanasia .wonder-column-box {
   background: rgba(14, 165, 233, 0.02);
   border: 1px solid rgba(14, 165, 233, 0.15);
@@ -2503,6 +2554,41 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 7. Death of the Album */
+body.theme-wonder-album {
+  background: #111116 !important;
+  color: #e5e5ec !important;
+}
+body.theme-wonder-album .section-title {
+  color: #8b5cf6 !important;
+}
+body.theme-wonder-album .vocab-card {
+  background: #1a1a24 !important;
+  border-color: #33334d !important;
+  color: #e5e5ec !important;
+}
+body.theme-wonder-album .round-block {
+  background: #1a1a24 !important;
+  border-color: #33334d !important;
+}
+body.theme-wonder-album .round-header {
+  background: #232334 !important;
+  color: #e5e5ec !important;
+}
+body.theme-wonder-album .round-questions li {
+  color: #c7c7d3 !important;
+}
+body.theme-wonder-album .round-item-main {
+  color: #e5e5ec !important;
+}
+body.theme-wonder-album .round-item-personal {
+  color: #c084fc !important;
+}
+body.theme-wonder-album .back-link, body.theme-wonder-album .cosy-breadcrumbs {
+  color: #c7c7d3 !important;
+}
+body.theme-wonder-album .cosy-breadcrumbs .current {
+  color: #8b5cf6 !important;
+}
 .theme-wonder-album .wonder-column-box {
   background: #1a1a24;
   border: 1px solid #33334d;
@@ -2519,6 +2605,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 8. Feeling Empty After Series */
+body.theme-wonder-series {
+  background: radial-gradient(circle at top left, rgba(236, 72, 153, 0.12), transparent), linear-gradient(to bottom, #fdf2f8, #fffbfe) !important;
+}
 .theme-wonder-series .wonder-column-box {
   background: rgba(236, 72, 153, 0.03);
   border: 1px solid rgba(236, 72, 153, 0.2);
@@ -2531,6 +2620,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 9. Why is Everyone Copying Me */
+body.theme-wonder-copying {
+  background: radial-gradient(#a855f7 8%, transparent 8%) 0 0 / 16px 16px, #fdfafc !important;
+}
 .theme-wonder-copying .wonder-column-box {
   background: linear-gradient(90deg, rgba(139, 92, 246, 0.02) 50%, rgba(236, 72, 153, 0.02) 50%);
   border: 1px solid rgba(139, 92, 246, 0.2);
@@ -2544,6 +2636,41 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 10. Always Watched in a Crowd */
+body.theme-wonder-watched {
+  background: #09080e !important;
+  color: #e2e1e7 !important;
+}
+body.theme-wonder-watched .section-title {
+  color: #10b981 !important;
+}
+body.theme-wonder-watched .vocab-card {
+  background: #0d0c13 !important;
+  border-color: #332d4a !important;
+  color: #e2e1e7 !important;
+}
+body.theme-wonder-watched .round-block {
+  background: #0d0c13 !important;
+  border-color: #332d4a !important;
+}
+body.theme-wonder-watched .round-header {
+  background: #15131f !important;
+  color: #e2e1e7 !important;
+}
+body.theme-wonder-watched .round-questions li {
+  color: #c4c2ce !important;
+}
+body.theme-wonder-watched .round-item-main {
+  color: #e2e1e7 !important;
+}
+body.theme-wonder-watched .round-item-personal {
+  color: #34d399 !important;
+}
+body.theme-wonder-watched .back-link, body.theme-wonder-watched .cosy-breadcrumbs {
+  color: #c4c2ce !important;
+}
+body.theme-wonder-watched .cosy-breadcrumbs .current {
+  color: #10b981 !important;
+}
 .theme-wonder-watched .wonder-column-box {
   background: #0d0c13;
   border: 1px solid #332d4a;
@@ -2560,6 +2687,11 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 11. Whether Raindrops Select Where to Fall */
+body.theme-wonder-raindrops {
+  background: linear-gradient(to bottom, rgba(59, 130, 246, 0.08), transparent),
+              repeating-linear-gradient(45deg, rgba(59, 130, 246, 0.02) 0px, rgba(59, 130, 246, 0.02) 2px, transparent 2px, transparent 10px),
+              #eff6ff !important;
+}
 .theme-wonder-raindrops .wonder-column-box {
   background: rgba(59, 130, 246, 0.03);
   border: 1px solid rgba(59, 130, 246, 0.15);
@@ -2572,6 +2704,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 12. I Have No Time For It */
+body.theme-wonder-time {
+  background: radial-gradient(circle at bottom right, rgba(249, 115, 22, 0.12), transparent), linear-gradient(to bottom, #fff7ed, #fffdfb) !important;
+}
 .theme-wonder-time .wonder-column-box {
   background: rgba(249, 115, 22, 0.03);
   border: 1px solid rgba(249, 115, 22, 0.15);
@@ -2584,6 +2719,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 13. Are Traditions Hidden Monogamy - B2 */
+body.theme-wonder-monogamy-b2 {
+  background: radial-gradient(circle at top right, rgba(244, 63, 94, 0.12), transparent), linear-gradient(to bottom, #fff1f2, #fffafb) !important;
+}
 .theme-wonder-monogamy-b2 .wonder-column-box {
   background: rgba(244, 63, 94, 0.03);
   border: 1px solid rgba(244, 63, 94, 0.15);
@@ -2596,6 +2734,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 14. Are Traditions Hidden Monogamy - C1 */
+body.theme-wonder-monogamy-c1 {
+  background: radial-gradient(circle at bottom left, rgba(120, 113, 108, 0.08), transparent), linear-gradient(to bottom, #fafaf9, #f5f5f4) !important;
+}
 .theme-wonder-monogamy-c1 .wonder-column-box {
   background: rgba(120, 113, 108, 0.03);
   border: 1px solid rgba(120, 113, 108, 0.15);
@@ -2608,6 +2749,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 15. Collective Guilt / Global Crisis */
+body.theme-wonder-collective {
+  background: linear-gradient(to bottom, #fef2f2, #fffbeb), radial-gradient(circle at top left, rgba(220, 38, 38, 0.08), transparent) !important;
+}
 .theme-wonder-collective .wonder-column-box {
   background: rgba(139, 92, 246, 0.03);
   border: 1px solid rgba(139, 92, 246, 0.2);
@@ -2620,6 +2764,9 @@ body.theme-dark .life-ledger-column.without h5 {
 }
 
 /* 16. Parenting Instinct */
+body.theme-wonder-parenting {
+  background: linear-gradient(135deg, #fff5f7 0%, #f0fdf4 100%) !important;
+}
 .theme-wonder-parenting .wonder-column-box {
   background: rgba(168, 85, 247, 0.03);
   border: 1px solid rgba(168, 85, 247, 0.15);
