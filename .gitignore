@@ -1,4 +1,9 @@
+# Debug and command-output artifacts
+*_output.txt
+*_results.txt
 server.log
+*_check.txt
+
 *.log
 node_modules/
 test-results/
