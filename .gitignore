@@ -1,4 +1,10 @@
+# Stray debug and command-output patterns
+*_output.txt
+*_results.txt
 server.log
+*_check.txt
+
+# Existing ignores
 *.log
 node_modules/
 test-results/
@@ -9,7 +15,5 @@ failure-*.png
 Thumbs.db
 .env
 js/config.js
-node_modules/
 package-lock.json
-test-results/
 venv/
