@@ -25,6 +25,33 @@ test.describe('Sounds and Music System', () => {
     expect(isPlaying).toBeNull();
   });
 
+  test('Seamless PJAX transition maintains the exact same audio context and eliminates gap/stop', async ({ page }) => {
+    // 1. Visit Wonder Club main page
+    await page.goto('http://localhost:8080/events/i-couldnt-help-but-wonder.html');
+    await page.click('body');
+
+    // 2. Attach a unique tag to the active audio element to verify it is NOT destroyed
+    await page.evaluate(() => {
+      if (window.cosyWonderAudio) {
+        (window as any).cosyWonderAudio.__uniqueTag = 'perfect-gapless-match';
+      }
+    });
+
+    // 3. Click one of the past session links (this should trigger PJAX fetch instead of full load)
+    await page.click('a[href="sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html"]');
+
+    // 4. Wait for the URL and content to transition
+    await page.waitForURL('**/do-insects-hide-when-it-rains.html');
+    await expect(page.locator('.current')).toContainText('Do Insects Hide When It Rains?');
+
+    // 5. Check if the window context was preserved and the audio element is still the exact same instance
+    const hasSameAudio = await page.evaluate(() => {
+      return window.cosyWonderAudio && (window as any).cosyWonderAudio.__uniqueTag === 'perfect-gapless-match';
+    });
+
+    expect(hasSameAudio).toBe(true);
+  });
+
   test('Practice Hub playPracticeSound handles localized reaction sound files', async ({ page }) => {
     await page.goto('http://localhost:8080/practice/index.html');
 
