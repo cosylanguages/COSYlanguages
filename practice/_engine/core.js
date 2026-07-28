@@ -9,6 +9,38 @@
 
     function playPracticeSound(type) {
         try {
+            // Helper to get reaction sound URL
+            const getReactionSoundUrl = (soundType, lang) => {
+                const p = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '/';
+                const reactionsDir = p + 'sounds/reactions/';
+                const sounds = {
+                    fr: {
+                        correct: ['bien sur.ogg', 'ouioui.ogg', 'ouais.ogg'],
+                        wrong: ['mais non ca va pas.ogg', 'mais pourquoi.ogg']
+                    },
+                    en: {
+                        correct: ['yes.ogg', 'of course.ogg'],
+                        wrong: ['no.ogg', 'why.ogg', 'oh really.ogg']
+                    }
+                };
+                const langKey = (lang && lang.toLowerCase() === 'fr') ? 'fr' : 'en';
+                const list = sounds[langKey][soundType];
+                if (!list || list.length === 0) return null;
+                const randomSound = list[Math.floor(Math.random() * list.length)];
+                return reactionsDir + encodeURIComponent(randomSound);
+            };
+
+            // Play voice reaction if applicable
+            const sessionLang = engine.session ? engine.session.lang : 'en';
+            if (type === 'correct' || type === 'wrong') {
+                const reactionUrl = getReactionSoundUrl(type, sessionLang);
+                if (reactionUrl) {
+                    const reactionAudio = new Audio(reactionUrl);
+                    reactionAudio.volume = 0.5;
+                    reactionAudio.play().catch(e => console.warn("Reaction audio play blocked:", e));
+                }
+            }
+
             const AudioContext = window.AudioContext || window.webkitAudioContext;
             if (!AudioContext) return;
             const ctx = new AudioContext();

@@ -2664,6 +2664,73 @@
         }
     };
 
+    /* ─── WONDER CLUB BACKGROUND MUSIC ──────────────────────────── */
+    const setupWonderMusic = () => {
+        const currentPathname = window.location.pathname;
+        const isWonderClub = currentPathname.includes('i-couldnt-help-but-wonder');
+
+        if (!isWonderClub) {
+            // Clean up session storage states when user leaves the club
+            sessionStorage.removeItem('cosy_wonder_music_time');
+            sessionStorage.removeItem('cosy_wonder_music_playing');
+            return;
+        }
+
+        const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
+        const musicUrl = prefix + "sounds/music/I couldn't help but wonder_background.mp3";
+        const audio = new Audio(musicUrl);
+        audio.loop = true;
+        audio.volume = 0.15; // Low volume, not very loud
+
+        // Restore playback time if saved
+        const savedTime = sessionStorage.getItem('cosy_wonder_music_time');
+        if (savedTime) {
+            audio.currentTime = parseFloat(savedTime);
+        }
+
+        // Keep updating sessionStorage with current time
+        const saveTime = () => {
+            if (audio && !audio.paused) {
+                sessionStorage.setItem('cosy_wonder_music_time', audio.currentTime.toString());
+            }
+        };
+
+        audio.addEventListener('timeupdate', saveTime);
+        window.addEventListener('beforeunload', () => {
+            saveTime();
+            sessionStorage.setItem('cosy_wonder_music_playing', (!audio.paused).toString());
+        });
+
+        // Autoplay play helper
+        const playMusic = () => {
+            audio.play()
+                .then(() => {
+                    sessionStorage.setItem('cosy_wonder_music_playing', 'true');
+                })
+                .catch(err => {
+                    console.log("Autoplay blocked, waiting for user interaction.", err);
+                    // Add interactive trigger listeners
+                    const startOnInteraction = () => {
+                        audio.play().then(() => {
+                            sessionStorage.setItem('cosy_wonder_music_playing', 'true');
+                            removeInteractionListeners();
+                        }).catch(e => console.log(e));
+                    };
+                    const removeInteractionListeners = () => {
+                        document.removeEventListener('click', startOnInteraction);
+                        document.removeEventListener('keydown', startOnInteraction);
+                        document.removeEventListener('touchstart', startOnInteraction);
+                    };
+                    document.addEventListener('click', startOnInteraction);
+                    document.addEventListener('keydown', startOnInteraction);
+                    document.addEventListener('touchstart', startOnInteraction);
+                });
+        };
+
+        // Always attempt to play on load/entry
+        playMusic();
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
@@ -2671,6 +2738,7 @@
         setupScrollReveal();
         setupClubFilters();
         setupSessionSwitcher();
+        setupWonderMusic();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
 
         // FAQ Toggle
