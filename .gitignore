@@ -18,3 +18,7 @@ node_modules/
 package-lock.json
 test-results/
 venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
