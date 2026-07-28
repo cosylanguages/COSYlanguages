@@ -23,7 +23,7 @@ To protect our open-source ecosystem, the following security standards must be s
 
 ### B. Branch Protections & Access Control
 *   **Protected `main` Branch:** Direct pushes to the `main` branch should be restricted. All code changes must proceed through Pull Requests (PRs).
-*   **Mandatory Status Checks:** Configure PR rules to require passing unit tests and structural audits (such as our Playwright suite and `scripts/audit_website_data.py`) before changes can be merged.
+*   **Mandatory Status Checks:** Configure PR rules to require passing unit tests and structural audits (such as our Playwright suite and `scripts/audits/audit_website_data.py`) before changes can be merged.
 *   **Least Privilege Access:** Collaborator permissions must follow the principle of least privilege. Administrative keys and credentials must be restricted to project leads only.
 
 ### C. Dependency Hygiene
