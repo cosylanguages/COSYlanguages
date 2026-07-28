@@ -3817,6 +3817,87 @@ body.theme-wonder-watched {
   --cream: #14131d !important;
 }
 
+/* 4. Appreciating Amy Winehouse (Contrast & Background Overrides) */
+body.theme-wonder-amy {
+  background: radial-gradient(circle at 50% 15%, #2a111a 0%, #0d0812 60%, #050307 100%) !important;
+}
+body.theme-wonder-amy .vocab-card,
+body.theme-wonder-amy .round-block {
+  background: rgba(28, 22, 36, 0.85) !important;
+  border: 1px solid rgba(225, 29, 72, 0.25) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 15px rgba(225, 29, 72, 0.05) !important;
+  backdrop-filter: blur(12px);
+}
+body.theme-wonder-amy .round-header {
+  background: #251d2d !important;
+  border-bottom: 2px solid #e11d48 !important;
+}
+body.theme-wonder-amy .carrie-diary {
+  background: rgba(28, 22, 36, 0.85) !important;
+  border: 2px dashed #e11d48 !important;
+  color: #f1f0f3 !important;
+  box-shadow: 0 10px 30px rgba(225, 29, 72, 0.15) !important;
+}
+body.theme-wonder-amy .wonder-column-box {
+  background: rgba(28, 22, 36, 0.8) !important;
+  border: 1px solid rgba(225, 29, 72, 0.3) !important;
+  border-left: 5px solid #e11d48 !important;
+}
+
+/* 7. Death of the Album (Contrast & Background Overrides) */
+body.theme-wonder-album {
+  background: radial-gradient(circle at 50% 15%, #181432 0%, #090812 60%, #040408 100%) !important;
+}
+body.theme-wonder-album .vocab-card,
+body.theme-wonder-album .round-block {
+  background: rgba(26, 26, 38, 0.85) !important;
+  border: 1px solid rgba(139, 92, 246, 0.25) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 15px rgba(139, 92, 246, 0.05) !important;
+  backdrop-filter: blur(12px);
+}
+body.theme-wonder-album .round-header {
+  background: #232334 !important;
+  border-bottom: 2px solid #8b5cf6 !important;
+}
+body.theme-wonder-album .carrie-diary {
+  background: rgba(26, 26, 38, 0.85) !important;
+  border: 2px dashed #8b5cf6 !important;
+  color: #e5e5ec !important;
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.15) !important;
+}
+body.theme-wonder-album .wonder-column-box {
+  background: rgba(26, 26, 38, 0.8) !important;
+  border: 1px solid rgba(139, 92, 246, 0.3) !important;
+  border-left: 5px solid #8b5cf6 !important;
+}
+
+/* 10. Always Watched in a Crowd (Contrast & Background Overrides) */
+body.theme-wonder-watched {
+  background: radial-gradient(circle at 50% 15%, #05241b 0%, #050a09 60%, #020404 100%) !important;
+}
+body.theme-wonder-watched .vocab-card,
+body.theme-wonder-watched .round-block {
+  background: rgba(13, 12, 19, 0.85) !important;
+  border: 1px solid rgba(16, 185, 129, 0.25) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 15px rgba(16, 185, 129, 0.05) !important;
+  backdrop-filter: blur(12px);
+}
+body.theme-wonder-watched .round-header {
+  background: #15131f !important;
+  border-bottom: 2px solid #10b981 !important;
+}
+body.theme-wonder-watched .carrie-diary {
+  background: rgba(13, 12, 19, 0.85) !important;
+  border: 2px dashed #10b981 !important;
+  color: #e2e1e7 !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15) !important;
+}
+body.theme-wonder-watched .wonder-column-box {
+  background: rgba(13, 12, 19, 0.8) !important;
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
+  border-left: 5px solid #10b981 !important;
+}
+
 /* Ensure Related Club Callouts are perfectly readable */
 body.theme-wonder-amy .related-club-callout,
 body.theme-wonder-album .related-club-callout,

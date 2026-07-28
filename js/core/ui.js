@@ -2678,6 +2678,26 @@
         }
     };
 
+    /* ─── WONDER CLUB DRAFT MAPPING ─────────────────────────────── */
+    const WONDER_DRAFT_MAPPING = {
+        'whether-raindrops-select-where-to-fall.html': 1,
+        'do-insects-hide-when-it-rains.html': 2,
+        'is-bad-weather-gods-anger.html': 3,
+        'always-watched-in-a-crowd.html': 4,
+        'why-is-everyone-copying-me.html': 5,
+        'feeling-empty-after-series.html': 6,
+        'death-of-the-album.html': 7,
+        'ugly-produce-anti-waste.html': 8,
+        'does-euthanasia-reduce-suicide-rates.html': 9,
+        'appreciating-amy-winehouse-after-death.html': 10,
+        'why-do-we-try-to-relate-to-adhd.html': 11,
+        'is-parenting-instinct-a-real-thing-or-scam.html': 12,
+        'are-traditions-hidden-monogamy.html': 13,
+        'collective-guilt-global-crisis.html': 14,
+        'are-traditions-hidden-monogamy-upper-intermediate.html': 15,
+        'i-have-no-time-for-it.html': 16
+    };
+
     /* ─── WONDER CLUB BACKGROUND MUSIC ──────────────────────────── */
     const setupWonderMusic = () => {
         const currentPathname = window.location.pathname;
@@ -2826,13 +2846,12 @@
             }
         }
 
-        // Always attempt to play on load/entry unless explicitly muted or on a session page
+        // Always attempt to play on load/entry unless explicitly muted
         const isMuted = sessionStorage.getItem('cosy_wonder_music_playing') === 'false';
-        const isWonderSession = currentPathname.includes('sessions/i-couldnt-help-but-wonder/');
 
-        if (!isMuted && !isWonderSession) {
+        if (!isMuted) {
             playMusic();
-        } else if (isMuted) {
+        } else {
             audio.pause();
         }
 
@@ -2895,6 +2914,10 @@
                         document.addEventListener = originalAddEventListener;
                         window.addEventListener = originalWindowAddEventListener;
 
+                        if (pushState) {
+                            history.pushState({ cosyWonderPjax: true }, '', url);
+                        }
+
                         // Reinitialize all components
                         if (window.COSY && typeof window.COSY.reinit === 'function') {
                             window.COSY.reinit();
@@ -2902,10 +2925,6 @@
 
                         // Scroll to top
                         window.scrollTo(0, 0);
-
-                        if (pushState) {
-                            history.pushState({ cosyWonderPjax: true }, '', url);
-                        }
                     })
                     .catch(err => {
                         console.error('Seamless transition failed, falling back to browser navigate:', err);
@@ -2933,6 +2952,29 @@
                 // If navigating within the wonder club (from wonder page to wonder page)
                 if (targetIsWonder && currentIsWonder) {
                     e.preventDefault();
+
+                    // Pre-play target session's draft audio synchronously on user click to bypass autoplay restrictions
+                    const isTargetSession = targetPath.includes('sessions/i-couldnt-help-but-wonder/');
+                    if (isTargetSession) {
+                        const targetFilename = targetPath.split('/').pop().split('#')[0].split('?')[0];
+                        const draftNum = WONDER_DRAFT_MAPPING[targetFilename];
+                        if (draftNum) {
+                            // Lower background ambient music volume immediately
+                            if (window.cosyWonderAudio) {
+                                window.cosyWonderAudio.volume = 0.03;
+                            }
+                            // Clean up any old draft audio
+                            if (window.cosyWonderSessionAudio) {
+                                window.cosyWonderSessionAudio.pause();
+                            }
+                            const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
+                            const audioUrl = prefix + "sounds/draft" + draftNum + ".mp3";
+                            const audio = new Audio(audioUrl);
+                            window.cosyWonderSessionAudio = audio;
+                            audio.play().catch(err => console.log("Direct synchronous pre-play failed:", err));
+                        }
+                    }
+
                     handleNavigate(absoluteUrl.href, true);
                 }
             });
@@ -2964,39 +3006,26 @@
 
         // Parse filename and look up draft number
         const filename = currentPathname.split('/').pop().split('#')[0].split('?')[0];
-        const WONDER_DRAFT_MAPPING = {
-            'i-have-no-time-for-it.html': 1,
-            'collective-guilt-global-crisis.html': 2,
-            'are-traditions-hidden-monogamy-upper-intermediate.html': 3,
-            'are-traditions-hidden-monogamy.html': 4,
-            'is-parenting-instinct-a-real-thing-or-scam.html': 5,
-            'why-do-we-try-to-relate-to-adhd.html': 6,
-            'appreciating-amy-winehouse-after-death.html': 7,
-            'does-euthanasia-reduce-suicide-rates.html': 8,
-            'ugly-produce-anti-waste.html': 9,
-            'death-of-the-album.html': 10,
-            'feeling-empty-after-series.html': 11,
-            'why-is-everyone-copying-me.html': 12,
-            'always-watched-in-a-crowd.html': 13,
-            'is-bad-weather-gods-anger.html': 14,
-            'do-insects-hide-when-it-rains.html': 15,
-            'whether-raindrops-select-where-to-fall.html': 16
-        };
-
         const draftNum = WONDER_DRAFT_MAPPING[filename];
         if (!draftNum) return;
-
-        // Clean up any old audio instances before starting a new one
-        if (window.cosyWonderSessionAudio) {
-            window.cosyWonderSessionAudio.pause();
-            window.cosyWonderSessionAudio = null;
-        }
 
         const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
         const audioUrl = prefix + "sounds/draft" + draftNum + ".mp3";
 
-        const audio = new Audio(audioUrl);
-        window.cosyWonderSessionAudio = audio;
+        let audio = window.cosyWonderSessionAudio;
+        let isReused = false;
+
+        // Verify if we can reuse the existing pre-played audio
+        if (audio && (audio.src === audioUrl || audio.src.endsWith("sounds/draft" + draftNum + ".mp3") || audio.src === new URL(audioUrl, window.location.href).href)) {
+            isReused = true;
+        } else {
+            if (window.cosyWonderSessionAudio) {
+                window.cosyWonderSessionAudio.pause();
+                window.cosyWonderSessionAudio = null;
+            }
+            audio = new Audio(audioUrl);
+            window.cosyWonderSessionAudio = audio;
+        }
 
         // Determine language
         const isFrench = currentPathname.includes('/fr/');
@@ -3160,16 +3189,21 @@
 
         // Pause ambient background music when draft audio plays
         const pauseBackgroundMusic = () => {
+            audio.volume = 1.0; // Draft is nice and loud
             if (window.cosyWonderAudio) {
-                window.cosyWonderAudio.pause();
+                window.cosyWonderAudio.volume = 0.03; // Lower ambient music significantly
+                // If the user hasn't explicitly muted the background music, make sure it is playing
+                const isAmbientMuted = sessionStorage.getItem('cosy_wonder_music_playing') === 'false';
+                if (!isAmbientMuted && window.cosyWonderAudio.paused) {
+                    window.cosyWonderAudio.play().catch(e => console.log("Ambient music play failed:", e));
+                }
             }
         };
 
         // Resume ambient background music if it was playing before
         const resumeBackgroundMusic = () => {
-            const originallyPlaying = sessionStorage.getItem('cosy_wonder_music_playing') === 'true';
-            if (window.cosyWonderAudio && originallyPlaying) {
-                window.cosyWonderAudio.play().catch(e => console.log("Background music resume blocked:", e));
+            if (window.cosyWonderAudio) {
+                window.cosyWonderAudio.volume = 0.15; // Restore normal ambient volume
             }
         };
 
@@ -3194,11 +3228,17 @@
         if (playBtn) playBtn.addEventListener('click', togglePlay);
 
         // Update progress and time
-        audio.addEventListener('timeupdate', () => {
-            const percent = (audio.currentTime / audio.duration) * 100;
-            if (progressBar) progressBar.style.width = `${percent}%`;
-            if (timeDisplay) timeDisplay.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
-        });
+        const updateProgressBar = () => {
+            const percent = (audio.currentTime / (audio.duration || 1)) * 100;
+            if (progressBar && !isNaN(percent)) progressBar.style.width = `${percent}%`;
+            if (timeDisplay) {
+                const currentStr = formatTime(audio.currentTime);
+                const durationStr = formatTime(audio.duration);
+                timeDisplay.textContent = `${currentStr} / ${durationStr}`;
+            }
+        };
+
+        audio.addEventListener('timeupdate', updateProgressBar);
 
         // Loaded metadata to set initial duration
         audio.addEventListener('loadedmetadata', () => {
@@ -3225,9 +3265,16 @@
             });
         }
 
+        // Initialize UI values
+        updateProgressBar();
+
         // Automatic autoplay attempt
         const tryAutoplay = () => {
             pauseBackgroundMusic();
+            if (isReused && !audio.paused) {
+                if (playBtn) playBtn.textContent = pauseText;
+                return;
+            }
             audio.play()
                 .then(() => {
                     if (playBtn) playBtn.textContent = pauseText;
