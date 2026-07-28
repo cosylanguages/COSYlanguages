@@ -14,12 +14,12 @@
 <link href="../../../css/layout.css" rel="stylesheet"/>
 <link href="../../../css/events.css" rel="stylesheet"/>
 </head>
-<body>
+<body class="theme-science-aibrain">
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #073b2d);">
 <div class="club-tag">Keeping Up with Science</div>
 <h1>AI And The Brain</h1>
-<p class="session-date">12 May 2025</p>
+<p class="session-date">12 May 2026</p>
 </header>
 <main class="content-container">
 <nav class="cosy-breadcrumbs">
@@ -33,6 +33,7 @@
 <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
 <div class="meta-item"><h4>Languages</h4><p>🇬🇧 English</p></div>
 <div class="meta-item"><h4>Level</h4><p>Upper-Intermediate (B2)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>Synaptic vs Artificial Node Learning</p></div>
 <div class="meta-item"><h4>Resources</h4><p><a href="https://www.nature.com/articles/d41586-023-03975-y" style="color:var(--teal);" target="_blank">Nature Article 📖</a></p></div>
 </div>
 <div class="science-journal-box">
@@ -56,17 +57,10 @@
 </div>
 </div>
 </div>
-<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">This session analyzes ai and the brain and its scientific implications. We will explore current hypotheses, review empirical findings from recent research studies, and discuss the global impact. Participants will engage in active vocabulary study and discuss both immediate somatic effects and long-term societal projections.</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">This session analyzes AI and the brain and its scientific implications. We will explore current hypotheses, review empirical findings from recent research studies, and discuss the global impact. Participants will engage in active vocabulary study and discuss both immediate somatic effects and long-term societal projections.</div>
 <section id="vocabulary">
 <h2 class="section-title">📖 Session Vocabulary</h2>
-<div class="vim-instruction">
-<strong>Developer Vocabulary Guidelines:</strong><br/>
-      1. <strong>Direct Extraction:</strong> All vocabulary, collocations, or set phrases must be extracted directly from targeted session sources (articles, videos, songs, films, series, etc.). Read or watch the source material completely before compiling.<br/>
-      2. <strong>Diversified Types:</strong> Do not limit entries to single word units. Include relevant set phrases, collocations, idioms, or useful phrasal verbs that are highly applicable to the discussion.<br/>
-      3. <strong>10-10-10 Rule:</strong> Exactly 10 units are required. Each entry must have a word, definition, and example ending with a period.
-    </div>
 <div class="vocab-grid-10">
-<!-- 10 units required. Format: Word – definition. Example: Sentence. -->
 <div class="vocab-card"><div class="vocab-word">Backpropagation</div>
 <div class="vocab-def">an algorithm for training artificial neural networks through feedback.</div>
 <div class="vocab-example">Biological synapses do not utilize backpropagation to modify connections.</div>
@@ -92,10 +86,10 @@
 <div class="vocab-example">Neuromorphic chips attempt to replicate synaptic spikes on silicon.</div>
 <button class="btn-add-dict" onclick="COSY.addToDict({word:'Neuromorphic', definition:'engineered to mimic the physical structure of biological neurons.', example:'Neuromorphic chips attempt to replicate synaptic spikes on silicon.'}, this)">Add to Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word">Backpropagation</div>
-<div class="vocab-def">the standard weight-adjustment method in artificial neural nets.</div>
-<div class="vocab-example">Deep learning relies heavily on continuous backpropagation calculations.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Backpropagation', definition:'the standard weight-adjustment method in artificial neural nets.', example:'Deep learning relies heavily on continuous backpropagation calculations.'}, this)">Add to Dictionary</button>
+<div class="vocab-card"><div class="vocab-word">Algorithm</div>
+<div class="vocab-def">a precise step-by-step mathematical rule or process used by computers.</div>
+<div class="vocab-example">A deep learning algorithm requires massive training data to recognize images.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Algorithm', definition:'a precise step-by-step mathematical rule or process used by computers.', example:'A deep learning algorithm requires massive training data to recognize images.'}, this)">Add to Dictionary</button>
 </div>
 <div class="vocab-card"><div class="vocab-word">Dendrite</div>
 <div class="vocab-def">a short branched extension of a nerve cell, receiving signals.</div>
@@ -124,13 +118,12 @@
 <div class="rounds-container">
 <div class="round-block warm-up open" id="s-warm">
 <div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
-<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+<span>🟠 Warm-up — Silicon vs Brain</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<div class="vim-instruction">Short introduction to the scientific topic.</div>
 <ul class="round-questions">
-<li>Question 1?</li>
-<li>Question 2?</li>
+<li>Are you comfortable with the idea of AI outperforming human intelligence in analytical tasks?</li>
+<li>What is one human brain capability that you think computers will never be able to duplicate?</li>
 </ul>
 </div>
 </div><div class="round-block grammar open" id="s-grammar">
@@ -147,12 +140,12 @@ Contrast connectors show a difference. Connectors like 'whereas' link two clause
 <strong style="display: block; margin-bottom: 0.5rem; color: #07372b;">🧩 Interactive Word Bank:</strong>
 <p style="font-size:0.82rem; color:var(--muted); margin:0 0 0.75rem 0;">Tap a word chip below, then tap any empty bracket <code>[_____]</code> to place it!</p>
 <div class="grammar-word-bank" style="display:flex; flex-wrap:wrap; gap:8px;">
-<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">whereas</span>
-<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">while</span>
-<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">in spite of</span>
-<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">Despite</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">conversely</span>
+<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">whereas</span>
+<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">Despite</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">despite</span>
+<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">in spite of</span>
+<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #0F6E56; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#0F6E56; font-size:0.85rem; user-select:none; transition:all 0.2s;">while</span>
 </div>
 </div>
 <div class="grammar-task-item" style="background: rgba(15, 110, 86, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #0F6E56; box-shadow: var(--shadow-sm); margin-bottom:1.5rem;">
@@ -189,46 +182,44 @@ Contrast biological brains with artificial neural networks using contrast connec
 </div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Questions</div>
-<div class="vim-instruction">10 items required. Use .round-item-main and .round-item-personal.</div>
-<!-- 10 round items -->
-<div class="round-item"><div class="round-item-main">Science question 1?</div>
-<div class="round-item-personal">★ Personal application 1?</div>
+<div class="round-item"><div class="round-item-main">How does the <strong>backpropagation</strong> algorithm in artificial neural networks differ from how humans learn from mistakes?</div>
+<div class="round-item-personal">★ Describe a major life mistake that taught you an invaluable lesson. How did your thinking shift?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Science question 2?</div>
-<div class="round-item-personal">★ Personal application 2?</div>
+<div class="round-item"><div class="round-item-main">Why is <strong>synaptic plasticity</strong> considered the ultimate foundation of biological intelligence and adaptability?</div>
+<div class="round-item-personal">★ How quickly do you adapt to major changes in your daily routine or living environment?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Science question 3?</div>
-<div class="round-item-personal">★ Personal application 3?</div>
+<div class="round-item"><div class="round-item-main">Can we ever achieve true <strong>energy efficiency</strong> in artificial systems without copying the biological brain?</div>
+<div class="round-item-personal">★ What habits do you practice to conserve physical and mental energy during a busy week?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Science question 4?</div>
-<div class="round-item-personal">★ Personal application 4?</div>
+<div class="round-item"><div class="round-item-main">How does the brain utilize <strong>sparse coding</strong> to process vast amounts of sensory data with minimal power?</div>
+<div class="round-item-personal">★ When surrounded by noise or distractions, how do you focus your attention on a single task?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Science question 5?</div>
-<div class="round-item-personal">★ Personal application 5?</div>
+<div class="round-item"><div class="round-item-main">What are the main challenges in developing <strong>neuromorphic</strong> computing systems that mimic brain biology?</div>
+<div class="round-item-personal">★ Do you prefer things that are natural and organic, or do you appreciate high-tech synthetic designs?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Science question 6?</div>
-<div class="round-item-personal">★ Personal application 6?</div>
+<div class="round-item"><div class="round-item-main">How does the mathematical <strong>algorithm</strong> of deep learning compare to the intuitive reasoning of the human mind?</div>
+<div class="round-item-personal">★ Do you consider yourself more of an analytical thinker or an intuitive, creative thinker?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Science question 7?</div>
-<div class="round-item-personal">★ Personal application 7?</div>
+<div class="round-item"><div class="round-item-main">What is the role of a single <strong>dendrite</strong> in a biological neuron, and how does it make brain cells so complex?</div>
+<div class="round-item-personal">★ What is the most complex concept or theory you have ever had to explain to someone else?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Science question 8?</div>
-<div class="round-item-personal">★ Personal application 8?</div>
+<div class="round-item"><div class="round-item-main">Why is an artificial network <strong>node</strong> fundamentally limited compared to a living, dynamic neuron?</div>
+<div class="round-item-personal">★ How do you maintain strong connections with friends and family in our highly digital world?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Science question 9?</div>
-<div class="round-item-personal">★ Personal application 9?</div>
+<div class="round-item"><div class="round-item-main">How does cognitive <strong>plasticity</strong> change as we age, and can we actively prevent mental decline?</div>
+<div class="round-item-personal">★ What new hobby or subject have you started learning recently to challenge your mind?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Science question 10?</div>
-<div class="round-item-personal">★ Personal application 10?</div>
+<div class="round-item"><div class="round-item-main">In what ways does brain computation operate close to the <strong>thermodynamic</strong> limits of physical efficiency?</div>
+<div class="round-item-personal">★ How do you manage your physical comfort (like temperature and lighting) to optimize your focus?</div>
 </div>
 </div>
 </div>
 <div class="round-block lst open" id="s-lst">
 <div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
-<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+<span>🟣 Let's Speak Together — The Ultimate Learning System</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<p class="round-note">Visual explanation or collaborative brainstorming.</p>
+<p class="round-note">If neuromorphic hardware achieves thermodynamic parity with human brain cells, will the boundary between computer engineering and neurobiology completely dissolve?</p>
 </div>
 </div>
 <div class="round-block round-2 open" id="s-r2">
@@ -237,37 +228,35 @@ Contrast biological brains with artificial neural networks using contrast connec
 </div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Projections</div>
-<div class="vim-instruction">10 items required. Future scenario or speculative question.</div>
-<!-- 10 round items -->
-<div class="round-item"><div class="round-item-main">Projection 1</div>
-<div class="round-item-personal">★ Personal angle 1</div>
+<div class="round-item"><div class="round-item-main">Within fifty years, silicon-based chips will be fully replaced by organic <strong>neuromorphic</strong> processors.</div>
+<div class="round-item-personal">★ Would you feel comfortable using technology built from living biological components?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Projection 2</div>
-<div class="round-item-personal">★ Personal angle 2</div>
+<div class="round-item"><div class="round-item-main"><strong>Backpropagation</strong> will be abandoned for algorithms that learn instantly from a single exposure, like human children.</div>
+<div class="round-item-personal">★ Do you learn things better through repetitive practice or through hands-on experience?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Projection 3</div>
-<div class="round-item-personal">★ Personal angle 3</div>
+<div class="round-item"><div class="round-item-main"><strong>Neuromorphic</strong> systems will allow robots to develop a genuine form of empathy based on shared physical sensations.</div>
+<div class="round-item-personal">★ If a robot saved a human life at the cost of its own existence, would you feel a sense of gratitude?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Projection 4</div>
-<div class="round-item-personal">★ Personal angle 4</div>
+<div class="round-item"><div class="round-item-main">To solve the climate crisis, governments will restrict AI models that fail to meet strict <strong>thermodynamic</strong> standards.</div>
+<div class="round-item-personal">★ Are you willing to reduce your personal use of streaming or cloud services for the environment?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Projection 5</div>
-<div class="round-item-personal">★ Personal angle 5</div>
+<div class="round-item"><div class="round-item-main">Neural implants will use <strong>sparse coding</strong> to stream information directly to our visual cortex, bypassing screens entirely.</div>
+<div class="round-item-personal">★ What would you miss most about physical screens or books if technology became completely invisible?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Projection 6</div>
-<div class="round-item-personal">★ Personal angle 6</div>
+<div class="round-item"><div class="round-item-main">Advanced <strong>synaptic plasticity</strong> maps will allow humans to back up and restore their memories to a digital cloud.</div>
+<div class="round-item-personal">★ If you could relive one perfect day from your past in high-definition virtual reality, which day would it be?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Projection 7</div>
-<div class="round-item-personal">★ Personal angle 7</div>
+<div class="round-item"><div class="round-item-main">Artificial <strong>nodes</strong> will become so small and integrated that they will flow through our blood to repair minor brain damage.</div>
+<div class="round-item-personal">★ Would you allow microscopic medical nanobots to operate inside your brain to prevent cognitive decline?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Projection 8</div>
-<div class="round-item-personal">★ Personal angle 8</div>
+<div class="round-item"><div class="round-item-main">The difference between biological <strong>dendrite</strong> complexity and artificial connections will be solved, making AI truly conscious.</div>
+<div class="round-item-personal">★ If an AI claimed it was afraid of being turned off, would you support its right to remain active?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Projection 9</div>
-<div class="round-item-personal">★ Personal angle 9</div>
+<div class="round-item"><div class="round-item-main">The contrast in processing efficiency will flip, with biological brains becoming slower and obsolete in every field.</div>
+<div class="round-item-personal">★ How do you deal with the feeling of being overwhelmed by the rapid pace of technological change?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Projection 10</div>
-<div class="round-item-personal">★ Personal angle 10</div>
+<div class="round-item"><div class="round-item-main">Society will develop a deep philosophical split between "biological purists" and "digitally enhanced hominids."</div>
+<div class="round-item-personal">★ Which side of this split do you think you would naturally align with, and why?</div>
 </div>
 </div>
 </div>
@@ -276,34 +265,23 @@ Contrast biological brains with artificial neural networks using contrast connec
 <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
 </div>
 <div class="mistake-body" style="display:block;">
-<div class="vim-instruction">
-<strong>Developer Correction &amp; Feedback Guidelines:</strong><br/>
-            1. <u>Do not cross out or strike through</u> the whole sentence or phrase. Instead, <strong>accentuate/highlight/underline</strong> the specific error (using &lt;u&gt; tags or background classes) so students see exactly where the grammatical or lexical break occurs.<br/>
-            2. <strong>Level-Appropriate Diversification:</strong><br/>
-               - <em>Starter/Elementary (A1-A2):</em> Direct grammatical corrections, spelling, and basic structural alignments (e.g., subject-verb agreement).<br/>
-               - <em>Intermediate (B1-B2):</em> Word choice improvements, better alternatives, and common prepositional collocations.<br/>
-               - <em>Advanced (C1-C2):</em> Sophisticated synonyms, more precise or specific lexical options, and stylistic/register adjustments.
-          </div>
-<!-- Starter/Elementary Example -->
 <div class="mistake-item">
-<span class="mistake-wrong">He <u>have</u> went to Paris</span>
+<span class="mistake-wrong">This network is more <u>efficienter</u> than that.</span>
 <span class="mistake-arrow">→</span>
-<span class="mistake-right">He has gone to Paris</span>
-<span class="mistake-note-text">(Underlined error: 'have' and auxiliary usage. Correction: Present perfect singular 'has' + past participle 'gone')</span>
+<span class="mistake-right">This network is <strong>significantly more efficient / far more efficient</strong> than that.</span>
+<span class="mistake-note-text">(Double comparison: 'efficient' takes 'more', do not add '-er' to create 'efficienter')</span>
 </div>
-<!-- Intermediate Example -->
 <div class="mistake-item">
-<span class="mistake-wrong">We discussed <u>about the problem</u></span>
+<span class="mistake-wrong">We reached to a <u>conclusion</u> about the experiment.</span>
 <span class="mistake-arrow">→</span>
-<span class="mistake-right">We discussed the problem / had a discussion <strong>about</strong> the problem</span>
-<span class="mistake-note-text">(Underlined prepositional error. Better collocation: 'discuss' is transitive and takes no preposition, or use 'have a discussion about')</span>
+<span class="mistake-right">We reached a conclusion / arrived at a conclusion about the experiment.</span>
+<span class="mistake-note-text">(Preposition correction: 'reach' is transitive and does not take 'to' before its object, unlike 'arrive at')</span>
 </div>
-<!-- Advanced Example -->
 <div class="mistake-item">
-<span class="mistake-wrong">His explanation was very <u>clear</u></span>
+<span class="mistake-wrong">He is working <u>for improving</u> synaptic speed.</span>
 <span class="mistake-arrow">→</span>
-<span class="mistake-right">His explanation was <strong>exceptionally lucid / crystal clear / coherent</strong></span>
-<span class="mistake-note-text">(Elevating vocabulary with highly specific advanced options and sophisticated synonyms)</span>
+<span class="mistake-right">He is working <strong>to improve</strong> synaptic speed.</span>
+<span class="mistake-note-text">(Infinitive of purpose: Use 'to + verb' rather than 'for + gerund' to state the intention or purpose of an action)</span>
 </div>
 </div>
 </div>
