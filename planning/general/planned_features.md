@@ -24,7 +24,7 @@
 | Focus styles for accessibility | CSS | Restore visible focus ring — do not use outline:none globally |
 | Language comparison tool | Grammar | Side-by-side grammar comparison (e.g. French vs Italian) |
 | Teacher blog / tips section | Homepage | James writes short language learning articles |
-| i18n.js rewrite | JS core | Must follow _planned/i18n_spec.md exactly — implement in Stage 2 |
+| i18n.js rewrite | JS core | Must follow planning/general/i18n_spec.md exactly — implement in Stage 2 |
 | match_pairs practice type | Practice engine | Drag-or-tap word matching — needs touch event handling |
 | sentence_order practice type | Practice engine | Drag-to-reorder words — needs drag API or a simple tap-based alternative |
 | listening practice type | Practice engine | Requires audio field in vocabulary JSON — do not build until audio content exists |
