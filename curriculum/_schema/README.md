@@ -18,7 +18,7 @@ Organised by: language → course type → CEFR level file.
 > 5. Create the matching course page in `courses/[course_type]/`
 
 ## Planned course types (not yet active)
-See `_planned/planned_courses.md` for course types that are designed but not yet built.
+See `planning/general/planned_courses.md` for course types that are designed but not yet built.
 
 ## Non-translation rule
 All lesson titles and teacher notes are in the target language.

@@ -1,4 +1,4 @@
-# _planned — Future features and missing elements
+# planning/general — Future features and missing elements
 
 This folder is the single source of truth for everything designed, discussed, or intended
 but not yet built on COSYlanguages.
