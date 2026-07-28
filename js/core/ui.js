@@ -3053,17 +3053,15 @@
         `;
 
         // Inject the player container
+        const metaGrid = document.querySelector('.session-meta-grid');
         const wonderColumnBox = document.querySelector('.wonder-column-box');
         const contentContainer = document.querySelector('.content-container');
-        if (wonderColumnBox) {
+        if (metaGrid) {
+            metaGrid.parentNode.insertBefore(playerContainer, metaGrid.nextSibling);
+        } else if (wonderColumnBox) {
             wonderColumnBox.parentNode.insertBefore(playerContainer, wonderColumnBox);
         } else if (contentContainer) {
-            const metaGrid = document.querySelector('.session-meta-grid');
-            if (metaGrid) {
-                metaGrid.parentNode.insertBefore(playerContainer, metaGrid.nextSibling);
-            } else {
-                contentContainer.prepend(playerContainer);
-            }
+            contentContainer.prepend(playerContainer);
         }
 
         // Add player styles if not already added to head
