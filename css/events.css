@@ -2423,6 +2423,214 @@ body.theme-dark .life-ledger-column.without h5 {
   line-height: 1.4;
 }
 
+/* ─── Bespoke Theme Overrides for I Couldn't Help But Wonder ─── */
+
+/* 1. Bad Weather Gods Anger */
+.theme-wonder-weather .wonder-column-box {
+  background: linear-gradient(135deg, rgba(63, 43, 150, 0.04), rgba(31, 16, 77, 0.08));
+  border: 1px solid rgba(63, 43, 150, 0.3);
+  border-left: 5px solid #ff9f1c;
+  box-shadow: inset 0 0 15px rgba(255, 159, 28, 0.05);
+}
+.theme-wonder-weather .carrie-diary {
+  background: #f4f0ff !important;
+  border: 2px dashed #ff9f1c !important;
+  box-shadow: 0 8px 24px rgba(255, 159, 28, 0.15) !important;
+}
+
+/* 2. Do Insects Hide When It Rains */
+.theme-wonder-insects .wonder-column-box {
+  background: rgba(34, 197, 94, 0.03);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-left: 5px solid #22c55e;
+}
+.theme-wonder-insects .carrie-diary {
+  background: #f7fee7 !important;
+  border: 2px dashed #84cc16 !important;
+  box-shadow: 0 8px 20px rgba(132, 204, 22, 0.1) !important;
+}
+
+/* 3. Ugly Produce Anti-waste */
+.theme-wonder-organic .wonder-column-box {
+  background: rgba(234, 179, 8, 0.03);
+  border: 1px solid rgba(234, 179, 8, 0.2);
+  border-left: 5px solid #eab308;
+}
+.theme-wonder-organic .carrie-diary {
+  background: #fefce8 !important;
+  border: 2px dashed #ca8a0ca1 !important;
+  box-shadow: 0 8px 20px rgba(234, 179, 8, 0.1) !important;
+}
+
+/* 4. Appreciating Amy Winehouse */
+.theme-wonder-amy .wonder-column-box {
+  background: #18141c;
+  border: 1px solid #3a3245;
+  border-left: 5px solid #e11d48;
+}
+.theme-wonder-amy .wonder-column-box p, .theme-wonder-amy .wonder-column-box h5, .theme-wonder-amy .wonder-column-title {
+  color: #f1f0f3 !important;
+}
+.theme-wonder-amy .carrie-diary {
+  background: #0f0c11 !important;
+  border: 2px dashed #e11d48 !important;
+  color: #f1f0f3 !important;
+  box-shadow: 0 8px 24px rgba(225, 29, 72, 0.25) !important;
+}
+
+/* 5. ADHD Neurodiversity */
+.theme-wonder-adhd .wonder-column-box {
+  background: rgba(6, 182, 212, 0.03);
+  border: 1px solid rgba(6, 182, 212, 0.25);
+  border-left: 5px solid #06b6d4;
+}
+.theme-wonder-adhd .carrie-diary {
+  background: #ecfeff !important;
+  border: 2px dashed #06b6d4 !important;
+  box-shadow: 0 8px 20px rgba(6, 182, 212, 0.15) !important;
+}
+
+/* 6. Euthanasia */
+.theme-wonder-euthanasia .wonder-column-box {
+  background: rgba(14, 165, 233, 0.02);
+  border: 1px solid rgba(14, 165, 233, 0.15);
+  border-left: 5px solid #38bdf8;
+}
+.theme-wonder-euthanasia .carrie-diary {
+  background: #f0f9ff !important;
+  border: 2px dashed #0284c7 !important;
+  box-shadow: 0 8px 20px rgba(2, 132, 199, 0.08) !important;
+}
+
+/* 7. Death of the Album */
+.theme-wonder-album .wonder-column-box {
+  background: #1a1a24;
+  border: 1px solid #33334d;
+  border-left: 5px solid #8b5cf6;
+}
+.theme-wonder-album .wonder-column-box p, .theme-wonder-album .wonder-column-box h5, .theme-wonder-album .wonder-column-title {
+  color: #e5e5ec !important;
+}
+.theme-wonder-album .carrie-diary {
+  background: #111116 !important;
+  border: 2px dashed #8b5cf6 !important;
+  color: #e5e5ec !important;
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.2) !important;
+}
+
+/* 8. Feeling Empty After Series */
+.theme-wonder-series .wonder-column-box {
+  background: rgba(236, 72, 153, 0.03);
+  border: 1px solid rgba(236, 72, 153, 0.2);
+  border-left: 5px solid #ec4899;
+}
+.theme-wonder-series .carrie-diary {
+  background: #fdf2f8 !important;
+  border: 2px dashed #db2777 !important;
+  box-shadow: 0 8px 20px rgba(219, 39, 119, 0.1) !important;
+}
+
+/* 9. Why is Everyone Copying Me */
+.theme-wonder-copying .wonder-column-box {
+  background: linear-gradient(90deg, rgba(139, 92, 246, 0.02) 50%, rgba(236, 72, 153, 0.02) 50%);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-left: 5px solid #a855f7;
+  box-shadow: 4px 4px 0px rgba(139, 92, 246, 0.08);
+}
+.theme-wonder-copying .carrie-diary {
+  background: #fdfafc !important;
+  border: 2px dashed #a855f7 !important;
+  box-shadow: 6px 6px 0px rgba(168, 85, 247, 0.12) !important;
+}
+
+/* 10. Always Watched in a Crowd */
+.theme-wonder-watched .wonder-column-box {
+  background: #0d0c13;
+  border: 1px solid #332d4a;
+  border-left: 5px solid #10b981;
+}
+.theme-wonder-watched .wonder-column-box p, .theme-wonder-watched .wonder-column-box h5, .theme-wonder-watched .wonder-column-title {
+  color: #e2e1e7 !important;
+}
+.theme-wonder-watched .carrie-diary {
+  background: #09080e !important;
+  border: 2px dashed #10b981 !important;
+  color: #fff !important;
+  box-shadow: 0px 0px 20px rgba(16, 185, 129, 0.2) !important;
+}
+
+/* 11. Whether Raindrops Select Where to Fall */
+.theme-wonder-raindrops .wonder-column-box {
+  background: rgba(59, 130, 246, 0.03);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  border-left: 5px solid #3b82f6;
+}
+.theme-wonder-raindrops .carrie-diary {
+  background: #eff6ff !important;
+  border: 2px dashed #3b82f6 !important;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.1) !important;
+}
+
+/* 12. I Have No Time For It */
+.theme-wonder-time .wonder-column-box {
+  background: rgba(249, 115, 22, 0.03);
+  border: 1px solid rgba(249, 115, 22, 0.15);
+  border-left: 5px solid #f97316;
+}
+.theme-wonder-time .carrie-diary {
+  background: #fff7ed !important;
+  border: 2px dashed #ea580c !important;
+  box-shadow: 0 8px 20px rgba(234, 88, 12, 0.1) !important;
+}
+
+/* 13. Are Traditions Hidden Monogamy - B2 */
+.theme-wonder-monogamy-b2 .wonder-column-box {
+  background: rgba(244, 63, 94, 0.03);
+  border: 1px solid rgba(244, 63, 94, 0.15);
+  border-left: 5px solid #f43f5e;
+}
+.theme-wonder-monogamy-b2 .carrie-diary {
+  background: #fff1f2 !important;
+  border: 2px dashed #e11d48 !important;
+  box-shadow: 0 8px 20px rgba(225, 29, 72, 0.08) !important;
+}
+
+/* 14. Are Traditions Hidden Monogamy - C1 */
+.theme-wonder-monogamy-c1 .wonder-column-box {
+  background: rgba(120, 113, 108, 0.03);
+  border: 1px solid rgba(120, 113, 108, 0.15);
+  border-left: 5px solid #78716c;
+}
+.theme-wonder-monogamy-c1 .carrie-diary {
+  background: #fafaf9 !important;
+  border: 2px dashed #78716c !important;
+  box-shadow: 0 8px 20px rgba(120, 113, 108, 0.08) !important;
+}
+
+/* 15. Collective Guilt / Global Crisis */
+.theme-wonder-collective .wonder-column-box {
+  background: rgba(139, 92, 246, 0.03);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-left: 5px solid #dc2626;
+}
+.theme-wonder-collective .carrie-diary {
+  background: #fef2f2 !important;
+  border: 2px dashed #dc2626 !important;
+  box-shadow: 0 8px 20px rgba(220, 38, 38, 0.1) !important;
+}
+
+/* 16. Parenting Instinct */
+.theme-wonder-parenting .wonder-column-box {
+  background: rgba(168, 85, 247, 0.03);
+  border: 1px solid rgba(168, 85, 247, 0.15);
+  border-left: 5px solid #ec4899;
+}
+.theme-wonder-parenting .carrie-diary {
+  background: #fff5f7 !important;
+  border: 2px dashed #ec4899 !important;
+  box-shadow: 0 8px 20px rgba(236, 72, 153, 0.1) !important;
+}
+
 /* ─── Premium Debatable & Relatable Duel Placard Grid ─── */
 .debate-history-grid {
   display: grid;
