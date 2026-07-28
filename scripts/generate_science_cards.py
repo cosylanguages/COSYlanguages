@@ -47,168 +47,168 @@ PAST_SESSIONS_EN = [
         "file": "living-most-creative-time.html"
     },
     {
-        "title": "Your Fingers Hold a Secret of Human Brain Evolution (Intermediate)",
+        "title": "Your Fingers Hold a Secret of Human Brain Evolution",
         "desc": "Explore how the anatomy of thumb opposition and precision grip accelerated early human tool-making.",
         "level": "b1",
         "date": "17 July 2026",
         "file": "your-fingers-hold-secret-brain-evolution-intermediate.html"
     },
     {
-        "title": "Your Fingers Hold a Secret of Human Brain Evolution (Upper-Intermediate)",
+        "title": "Your Fingers Hold a Secret of Human Brain Evolution",
         "desc": "Deconstruct how precise hand opposition and motor dexterity co-evolved with speech and cognitive complexity.",
         "level": "b2",
         "date": "17 July 2026",
         "file": "your-fingers-hold-secret-brain-evolution-upper-intermediate.html"
     },
     {
-        "title": "Culture Helps Your Body Stay Younger (Intermediate)",
+        "title": "Culture Helps Your Body Stay Younger",
         "desc": "Analyze how active cultural and artistic engagement helps reduce stress and promotes physical longevity.",
         "level": "b1",
         "date": "14 July 2026",
         "file": "museums-movies-theater-stay-younger-intermediate.html"
     },
     {
-        "title": "Culture Helps Your Body Stay Younger (Upper-Intermediate)",
+        "title": "Culture Helps Your Body Stay Younger",
         "desc": "Examine the endocrine and somatic effects of regular museum and theater attendance on cortisol levels.",
         "level": "b2",
         "date": "14 July 2026",
         "file": "museums-movies-theater-stay-younger-upper-intermediate.html"
     },
     {
-        "title": "Culture Helps Your Body Stay Younger (Elementary)",
+        "title": "Culture Helps Your Body Stay Younger",
         "desc": "Learn how visiting museums, movies, and theater can keep our body and mind healthy and young.",
         "level": "a2",
         "date": "14 July 2026",
         "file": "museums-movies-theater-stay-younger-elementary.html"
     },
     {
-        "title": "Where You Live Shapes Your Dementia Risk (Intermediate)",
+        "title": "Where You Live Shapes Your Dementia Risk",
         "desc": "Discuss how local environmental factors and neighborhood greenery affect cognitive health.",
         "level": "b1",
         "date": "13 July 2026",
         "file": "where-you-live-shapes-dementia-risk-intermediate.html"
     },
     {
-        "title": "Where You Live Shapes Your Dementia Risk (Upper-Intermediate)",
+        "title": "Where You Live Shapes Your Dementia Risk",
         "desc": "Deconstruct the spatial epidemiology of cognitive decline and environmental neurology in cities.",
         "level": "b2",
         "date": "13 July 2026",
         "file": "where-you-live-shapes-dementia-risk-upper-intermediate.html"
     },
     {
-        "title": "Where You Live Shapes Your Dementia Risk (Elementary)",
+        "title": "Where You Live Shapes Your Dementia Risk",
         "desc": "Learn how our neighborhoods and parks help protect our brains and keep our memory strong.",
         "level": "a2",
         "date": "13 July 2026",
         "file": "where-you-live-shapes-dementia-risk-elementary.html"
     },
     {
-        "title": "Spider-like Creatures and the Origins of Fatherhood (Intermediate)",
+        "title": "Spider-like Creatures and the Origins of Fatherhood",
         "desc": "Analyze the unusual paternal care and nesting behaviors observed in harvestmen arachnids.",
         "level": "b1",
         "date": "12 July 2026",
         "file": "spider-creatures-origins-of-fatherhood-intermediate.html"
     },
     {
-        "title": "Spider-like Creatures and the Origins of Fatherhood (Upper-Intermediate)",
+        "title": "Spider-like Creatures and the Origins of Fatherhood",
         "desc": "Deconstruct paternal investment, nesting territory defense, and behavioral ecology milestones.",
         "level": "b2",
         "date": "12 July 2026",
         "file": "spider-creatures-origins-of-fatherhood-upper-intermediate.html"
     },
     {
-        "title": "Nervous System Networks & Pain (Intermediate)",
+        "title": "Nervous System Networks & Pain",
         "desc": "Explore how our sensory nervous system transmits discomfort signals and pain sensitivity.",
         "level": "b1",
         "date": "09 July 2026",
         "file": "sensory-system-pain-disease-intermediate.html"
     },
     {
-        "title": "Nervous System Networks & Pain (Upper-Intermediate)",
+        "title": "Nervous System Networks & Pain",
         "desc": "Deconstruct chronic pathological pain, synaptic transmission, and system network attenuation.",
         "level": "b2",
         "date": "09 July 2026",
         "file": "sensory-system-pain-disease-upper-intermediate.html"
     },
     {
-        "title": "Great Ape Laughter & Human Speech (Elementary)",
+        "title": "Great Ape Laughter & Human Speech",
         "desc": "Learn how laughter in wild apes shows a fun connection to human language and speech.",
         "level": "a2",
         "date": "26 June 2026",
         "file": "ape-laughter-speech-origin-elementary.html"
     },
     {
-        "title": "Great Ape Laughter & Human Speech (Intermediate)",
+        "title": "Great Ape Laughter & Human Speech",
         "desc": "Explore the comparative primatology of ape tickle-laughter and early phonetic evolution.",
         "level": "b1",
         "date": "26 June 2026",
         "file": "ape-laughter-speech-origin-intermediate.html"
     },
     {
-        "title": "Climate Scientist Warming Controversy (Intermediate)",
+        "title": "Climate Scientist Warming Controversy",
         "desc": "Analyze the public debate and scientific consensus surrounding rising global temperatures.",
         "level": "b1",
         "date": "25 June 2026",
         "file": "climate-scientist-warming-report-intermediate.html"
     },
     {
-        "title": "Climate Scientist Warming Controversy (Upper-Intermediate)",
+        "title": "Climate Scientist Warming Controversy",
         "desc": "Examine self-censorship, socio-political pressures, and mitigation consensus in climate modeling.",
         "level": "b2",
         "date": "25 June 2026",
         "file": "climate-scientist-warming-report-upper-intermediate.html"
     },
     {
-        "title": "Ozempic & the Obesity Revolution (Intermediate)",
+        "title": "Ozempic & the Obesity Revolution",
         "desc": "Discuss the weight loss hormone therapy taking the world by storm and its health results.",
         "level": "b1",
         "date": "19 June 2026",
         "file": "ozempic-obesity-revolution-intermediate.html"
     },
     {
-        "title": "Ozempic & the Obesity Revolution (Upper-Intermediate)",
+        "title": "Ozempic & the Obesity Revolution",
         "desc": "Deconstruct GLP-1 satiety agonists, hypothalamic reward circuitry, and metabolic endocrine therapy.",
         "level": "b2",
         "date": "19 June 2026",
         "file": "ozempic-obesity-revolution-upper-intermediate.html"
     },
     {
-        "title": "The Secret Language Behind Animal Cooperation (Intermediate)",
+        "title": "The Secret Language Behind Animal Cooperation",
         "desc": "Learn how meerkats, birds, and other animals use voice calls to cooperate and warn of danger.",
         "level": "b1",
         "date": "19 June 2026",
         "file": "animal-cooperation-language-intermediate.html"
     },
     {
-        "title": "The Secret Language Behind Animal Cooperation (Upper-Intermediate)",
+        "title": "The Secret Language Behind Animal Cooperation",
         "desc": "Examine predator-specific warning signals, contextual syntax, and cognitive communication syntax.",
         "level": "b2",
         "date": "19 June 2026",
         "file": "animal-cooperation-language-upper-intermediate.html"
     },
     {
-        "title": "Humans May Have Hidden Regenerative Powers (Intermediate)",
+        "title": "Humans May Have Hidden Regenerative Powers",
         "desc": "Explore how our bodies heal skin wounds and our potential for biological regeneration.",
         "level": "b1",
         "date": "17 June 2026",
         "file": "hidden-regenerative-powers-intermediate.html"
     },
     {
-        "title": "Humans May Have Hidden Regenerative Powers (Upper-Intermediate)",
+        "title": "Humans May Have Hidden Regenerative Powers",
         "desc": "Analyze blastema reactivation, cellular signaling cascades, and somatic growth-factor pathways.",
         "level": "b2",
         "date": "17 June 2026",
         "file": "hidden-regenerative-powers-upper-intermediate.html"
     },
     {
-        "title": "Your Brain Can Keep Improving Into Your 90s (Intermediate)",
+        "title": "Your Brain Can Keep Improving Into Your 90s",
         "desc": "Discuss how reading, puzzle-solving, and clean lifestyles help keep our memory sharp as we age.",
         "level": "b1",
         "date": "14 June 2026",
         "file": "brain-improving-in-90s-intermediate.html"
     },
     {
-        "title": "Your Brain Can Keep Improving Into Your 90s (Upper-Intermediate)",
+        "title": "Your Brain Can Keep Improving Into Your 90s",
         "desc": "Analyze hippocampal neurogenesis, lifelong neuroplasticity, and cognitive reserve in nonagenarians.",
         "level": "b2",
         "date": "14 June 2026",
@@ -236,14 +236,14 @@ PAST_SESSIONS_EN = [
         "file": "mendelian-laws-broken.html"
     },
     {
-        "title": "Why 'Football' Beats 'Shamrock' (Intermediate)",
+        "title": "Why 'Football' Beats 'Shamrock'",
         "desc": "Learn why concrete real nouns are much easier to store and recall than abstract symbols.",
         "level": "b1",
         "date": "20 May 2026",
         "file": "football-beats-shamrock-intermediate.html"
     },
     {
-        "title": "Why 'Football' Beats 'Shamrock' (Upper-Intermediate)",
+        "title": "Why 'Football' Beats 'Shamrock'",
         "desc": "Analyze recall latency, hierarchical semantic networking, and sensory-motor word retention.",
         "level": "b2",
         "date": "20 May 2026",
@@ -285,14 +285,14 @@ PAST_SESSIONS_EN = [
         "file": "losing-spoken-words.html"
     },
     {
-        "title": "AI & the Brain (Intermediate)",
+        "title": "AI & the Brain",
         "desc": "Compare biological neural networks and digital learning systems from an energy standpoint.",
         "level": "b1",
         "date": "12 May 2025",
         "file": "ai-and-the-brain-intermediate.html"
     },
     {
-        "title": "AI & the Brain (Upper-Intermediate)",
+        "title": "AI & the Brain",
         "desc": "Analyze backpropagation, sparse spike coding, and the thermodynamics of biological learning.",
         "level": "b2",
         "date": "12 May 2025",

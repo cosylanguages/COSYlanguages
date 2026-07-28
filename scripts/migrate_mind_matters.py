@@ -563,8 +563,8 @@ def parse_and_split(filepath, filename):
     b1_rounds_html = simplify_rounds_for_b1(original_rounds_html, vocab_keys)
 
     b1_content = content
-    b1_content = b1_content.replace(f"<title>{original_title} — COSYlanguages</title>", f"<title>{original_title} (Intermediate) — COSYlanguages</title>")
-    b1_content = b1_content.replace(f"<h1>{original_h1}</h1>", f"<h1>{original_h1.split(':')[0]} (Intermediate)</h1>")
+    b1_content = b1_content.replace(f"<title>{original_title} — COSYlanguages</title>", f"<title>{original_title} — COSYlanguages</title>")
+    b1_content = b1_content.replace(f"<h1>{original_h1}</h1>", f"<h1>{original_h1.split(':')[0]}</h1>")
     b1_content = b1_content.replace(f'<span class="current">{original_current}</span>', f'<span class="current">{original_current} (B1)</span>')
 
     b1_content = re.sub(r'<h4>Level</h4><p>.*?</p>', f'<h4>Level</h4><p>{b1_level_label}</p>', b1_content)

@@ -538,7 +538,7 @@ def split_and_adapt_sessions():
         soup_b1 = BeautifulSoup(str(soup), "html.parser")
 
         if soup_b1.find("title"):
-            soup_b1.find("title").string = f"{clean_title} (Intermediate) — COSYlanguages"
+            soup_b1.find("title").string = f"{clean_title} — COSYlanguages"
 
         meta_grid_b1 = soup_b1.find(class_="session-meta-grid")
         if meta_grid_b1:
@@ -637,7 +637,7 @@ def split_and_adapt_sessions():
         soup_b2 = BeautifulSoup(str(soup), "html.parser")
 
         if soup_b2.find("title"):
-            soup_b2.find("title").string = f"{clean_title} (Upper-Intermediate) — COSYlanguages"
+            soup_b2.find("title").string = f"{clean_title} — COSYlanguages"
 
         meta_grid_b2 = soup_b2.find(class_="session-meta-grid")
         if meta_grid_b2:
