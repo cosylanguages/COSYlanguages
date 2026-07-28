@@ -6,6 +6,8 @@
 (function() {
     'use strict';
 
+    window.COSY = window.COSY || {};
+
     /* ─── THEME CONFIGURATION ────────────────────────────────────── */
     window.COMMON_THEMES = [
         { id: "numbers_math", label: "common_theme_numbers_math" },
@@ -96,10 +98,15 @@
     const setupHeaderShrink = () => {
         const nav = document.getElementById('cosy-nav') || document.getElementById('main-nav');
         if (!nav) return;
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) nav.classList.add('shrunk');
-            else nav.classList.remove('shrunk');
-        });
+        if (!window.cosyHeaderShrinkSetup) {
+            window.cosyHeaderShrinkSetup = true;
+            window.addEventListener('scroll', () => {
+                const activeNav = document.getElementById('cosy-nav') || document.getElementById('main-nav');
+                if (!activeNav) return;
+                if (window.scrollY > 50) activeNav.classList.add('shrunk');
+                else activeNav.classList.remove('shrunk');
+            });
+        }
     };
 
     const setupBackToTop = () => {
@@ -688,6 +695,9 @@
 
     /* ─── DOUBLE-CLICK VOCABULARY HARVESTING ──────────────────────── */
     const setupDoubleClickHarvesting = () => {
+        if (window.cosyDoubleClickHarvestingSetup) return;
+        window.cosyDoubleClickHarvestingSetup = true;
+
         document.addEventListener('dblclick', (e) => {
             // Avoid inputs, links, buttons, select boxes
             const target = e.target;
@@ -1053,31 +1063,35 @@
             });
         });
 
-        // Hover events on tooltip itself so it doesn't close
-        tooltip.addEventListener('mouseenter', () => {
-            if (window.matchMedia('(hover: hover)').matches && hoverTimeout) {
-                clearTimeout(hoverTimeout);
-            }
-        });
+        if (!window.cosyVocabHoverDocListenersSetup) {
+            window.cosyVocabHoverDocListenersSetup = true;
 
-        tooltip.addEventListener('mouseleave', () => {
-            if (window.matchMedia('(hover: hover)').matches) {
-                hoverTimeout = setTimeout(hideTooltip, 300);
-            }
-        });
+            // Hover events on tooltip itself so it doesn't close
+            tooltip.addEventListener('mouseenter', () => {
+                if (window.matchMedia('(hover: hover)').matches && hoverTimeout) {
+                    clearTimeout(hoverTimeout);
+                }
+            });
 
-        // Close on clicking outside or Esc key
-        document.addEventListener('click', (e) => {
-            if (activeTrigger && !tooltip.contains(e.target) && !activeTrigger.contains(e.target)) {
-                hideTooltip();
-            }
-        });
+            tooltip.addEventListener('mouseleave', () => {
+                if (window.matchMedia('(hover: hover)').matches) {
+                    hoverTimeout = setTimeout(hideTooltip, 300);
+                }
+            });
 
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                hideTooltip();
-            }
-        });
+            // Close on clicking outside or Esc key
+            document.addEventListener('click', (e) => {
+                if (activeTrigger && !tooltip.contains(e.target) && !activeTrigger.contains(e.target)) {
+                    hideTooltip();
+                }
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    hideTooltip();
+                }
+            });
+        }
     };
 
     /* ─── COSY TOUR GUIDE & NAV HELP SYSTEM ───────────────────────── */
@@ -2671,6 +2685,10 @@
 
         if (!isWonderClub) {
             // Clean up session storage states when user leaves the club
+            if (window.cosyWonderAudio) {
+                window.cosyWonderAudio.pause();
+                window.cosyWonderAudio = null;
+            }
             sessionStorage.removeItem('cosy_wonder_music_time');
             sessionStorage.removeItem('cosy_wonder_music_playing');
             return;
@@ -2678,31 +2696,37 @@
 
         const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
         const musicUrl = prefix + "sounds/music/I couldn't help but wonder_background.mp3";
-        const audio = new Audio(musicUrl);
-        audio.loop = true;
-        audio.volume = 0.15; // Low volume, not very loud
 
-        // Restore playback time if saved
-        const savedTime = sessionStorage.getItem('cosy_wonder_music_time');
-        if (savedTime) {
-            audio.currentTime = parseFloat(savedTime);
-        }
+        let audio = window.cosyWonderAudio;
+        if (!audio) {
+            audio = new Audio(musicUrl);
+            audio.loop = true;
+            audio.volume = 0.15; // Low volume, not very loud
+            window.cosyWonderAudio = audio;
 
-        // Keep updating sessionStorage with current time
-        const saveTime = () => {
-            if (audio && !audio.paused) {
-                sessionStorage.setItem('cosy_wonder_music_time', audio.currentTime.toString());
+            // Restore playback time if saved
+            const savedTime = sessionStorage.getItem('cosy_wonder_music_time');
+            if (savedTime) {
+                audio.currentTime = parseFloat(savedTime);
             }
-        };
 
-        audio.addEventListener('timeupdate', saveTime);
-        window.addEventListener('beforeunload', () => {
-            saveTime();
-            sessionStorage.setItem('cosy_wonder_music_playing', (!audio.paused).toString());
-        });
+            // Keep updating sessionStorage with current time
+            const saveTime = () => {
+                if (audio && !audio.paused) {
+                    sessionStorage.setItem('cosy_wonder_music_time', audio.currentTime.toString());
+                }
+            };
+
+            audio.addEventListener('timeupdate', saveTime);
+            window.addEventListener('beforeunload', () => {
+                saveTime();
+                sessionStorage.setItem('cosy_wonder_music_playing', (!audio.paused).toString());
+            });
+        }
 
         // Autoplay play helper
         const playMusic = () => {
+            if (!audio.paused) return; // Already playing
             audio.play()
                 .then(() => {
                     sessionStorage.setItem('cosy_wonder_music_playing', 'true');
@@ -2729,10 +2753,124 @@
 
         // Always attempt to play on load/entry
         playMusic();
+
+        // PJAX Interceptor for seamless in-club navigation
+        if (!window.cosyWonderNavigationInterceptorSetup) {
+            window.cosyWonderNavigationInterceptorSetup = true;
+
+            const handleNavigate = (url, pushState = true) => {
+                fetch(url)
+                    .then(response => response.text())
+                    .then(html => {
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(html, 'text/html');
+
+                        // Update title
+                        document.title = doc.title;
+
+                        // Swap body classes and inner HTML
+                        document.body.className = doc.body.className;
+                        document.body.innerHTML = doc.body.innerHTML;
+
+                        // Temporarily stub addEventListener to run DOMContentLoaded/load callbacks immediately
+                        const originalAddEventListener = document.addEventListener;
+                        const originalWindowAddEventListener = window.addEventListener;
+
+                        document.addEventListener = function(type, listener, options) {
+                            if (type === 'DOMContentLoaded') {
+                                try {
+                                    listener();
+                                } catch (e) {
+                                    console.error('DOMContentLoaded callback failed:', e);
+                                }
+                            } else {
+                                originalAddEventListener.call(document, type, listener, options);
+                            }
+                        };
+
+                        window.addEventListener = function(type, listener, options) {
+                            if (type === 'load') {
+                                try {
+                                    listener();
+                                } catch (e) {
+                                    console.error('load callback failed:', e);
+                                }
+                            } else {
+                                originalWindowAddEventListener.call(window, type, listener, options);
+                            }
+                        };
+
+                        // Execute script tags that might be in the swapped body
+                        const scripts = document.body.querySelectorAll('script');
+                        scripts.forEach(oldScript => {
+                            if (oldScript.src) return; // Do not re-run external scripts
+                            const newScript = document.createElement('script');
+                            newScript.appendChild(document.createTextNode(oldScript.innerHTML));
+                            oldScript.parentNode.replaceChild(newScript, oldScript);
+                        });
+
+                        // Restore original addEventListener
+                        document.addEventListener = originalAddEventListener;
+                        window.addEventListener = originalWindowAddEventListener;
+
+                        // Reinitialize all components
+                        if (window.COSY && typeof window.COSY.reinit === 'function') {
+                            window.COSY.reinit();
+                        }
+
+                        // Scroll to top
+                        window.scrollTo(0, 0);
+
+                        if (pushState) {
+                            history.pushState({ cosyWonderPjax: true }, '', url);
+                        }
+                    })
+                    .catch(err => {
+                        console.error('Seamless transition failed, falling back to browser navigate:', err);
+                        window.location.href = url;
+                    });
+            };
+
+            document.addEventListener('click', (e) => {
+                const link = e.target.closest('a');
+                if (!link) return;
+
+                const href = link.getAttribute('href');
+                if (!href || href.startsWith('#') || href.startsWith('javascript:')) return;
+
+                // Resolve absolute URL
+                const absoluteUrl = new URL(href, window.location.href);
+
+                // Only intercept if we are staying within the same origin and navigating to/from wonder-club
+                if (absoluteUrl.origin !== window.location.origin) return;
+
+                const targetPath = absoluteUrl.pathname;
+                const targetIsWonder = targetPath.includes('i-couldnt-help-but-wonder');
+                const currentIsWonder = window.location.pathname.includes('i-couldnt-help-but-wonder');
+
+                // If navigating within the wonder club (from wonder page to wonder page)
+                if (targetIsWonder && currentIsWonder) {
+                    e.preventDefault();
+                    handleNavigate(absoluteUrl.href, true);
+                }
+            });
+
+            window.addEventListener('popstate', (e) => {
+                const isWonder = window.location.pathname.includes('i-couldnt-help-but-wonder');
+                if (isWonder) {
+                    handleNavigate(window.location.href, false);
+                } else {
+                    window.location.reload();
+                }
+            });
+        }
     };
 
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
+        if (window.COSY) {
+            window.COSY.reinit = init;
+        }
         setupHeaderShrink();
         setupBackToTop();
         setupScrollReveal();
