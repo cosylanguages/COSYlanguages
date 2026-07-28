@@ -15,7 +15,7 @@ Add an entry every time a stage is merged to main.
 - Added README.md, LANGUAGES.md, CHANGELOG.md
 - Added .gitignore
 - Deleted server.log
-- Created _planned/ folder with planned feature tracking files:
+- Created planning/general/ folder with planned feature tracking files:
   planned_features.md, planned_grammar_tables.md, planned_security.md,
   planned_seo.md, planned_onboarding.md, planned_pwa.md, planned_images.md,
   planned_languages.md, planned_courses.md, planned_grammar.md, planned_vocabulary.md
@@ -27,7 +27,7 @@ Add an entry every time a stage is merged to main.
 - Ensured correct CSS link order in the <head>
 
 ### [Stage 1b — i18n Specification] · 2026-05-24
-- Created _planned/i18n_spec.md — full spec for language mode detection and UI string system
+- Created planning/general/i18n_spec.md — full spec for language mode detection and UI string system
 - No code was changed in this stage
 
 ### [Stage 2 — JS Architecture] · 2026-05-24
@@ -47,5 +47,5 @@ Add an entry every time a stage is merged to main.
 - Moved existing vocabulary .js data files to the new folder structure
 
 ### [Stage 6b — Practice System Spec] · 2026-05-24
-- Created _planned/practice_spec.md — full spec for practice session structure, types, scoring, hints, keyboard nav
+- Created planning/general/practice_spec.md — full spec for practice session structure, types, scoring, hints, keyboard nav
 - No code was changed in this stage

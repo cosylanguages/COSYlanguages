@@ -28,7 +28,7 @@ On completion it is cleared and the result is written to `cosy_progress`.
 | `dictation` | Hear a sentence, type it exactly | Audio + text input | vocabulary or curriculum JSON |
 
 **For Stage 7, implement only:** `multiple_choice` and `fill_blank`.
-Mark `match_pairs`, `sentence_order`, `listening`, and `dictation` as planned in `_planned/planned_features.md`.
+Mark `match_pairs`, `sentence_order`, `listening`, and `dictation` as planned in `planning/general/planned_features.md`.
 
 ## Scoring system
 - Correct answer: 10 points base

@@ -3,12 +3,12 @@
 import os
 import re
 
-MD_PATH = "notebook/cinema_club_brainstorm.md"
-GRAMMAR_MD_PATH = "notebook/grammatical_topics_brainstorm.md"
+MD_PATH = "planning/notebook/cinema_club_brainstorm.md"
+GRAMMAR_MD_PATH = "planning/notebook/grammatical_topics_brainstorm.md"
 OUTPUT_DIR = "events/sessions/cinema-club"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Parse grammar mappings from notebook/grammatical_topics_brainstorm.md
+# Parse grammar mappings from planning/notebook/grammatical_topics_brainstorm.md
 GRAMMAR_MAPPINGS = {}
 if os.path.exists(GRAMMAR_MD_PATH):
     with open(GRAMMAR_MD_PATH, "r", encoding="utf-8") as gf:

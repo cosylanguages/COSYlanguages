@@ -2004,9 +2004,9 @@ def parse_existing_vocab(slug):
         vocab_data[w.strip()] = (d.strip(), e.strip())
     return vocab_data
 
-# Parse grammar mappings from notebook/grammatical_topics_brainstorm.md for Karaoke
+# Parse grammar mappings from planning/notebook/grammatical_topics_brainstorm.md for Karaoke
 BRAINSTORM_KARAOKE_MAP = {}
-GRAMMAR_MD_PATH = "notebook/grammatical_topics_brainstorm.md"
+GRAMMAR_MD_PATH = "planning/notebook/grammatical_topics_brainstorm.md"
 if os.path.exists(GRAMMAR_MD_PATH):
     with open(GRAMMAR_MD_PATH, "r", encoding="utf-8") as gf:
         g_text = gf.read()
