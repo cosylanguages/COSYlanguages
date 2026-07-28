@@ -4,8 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>A1 Curriculum Roadmap — COSYlanguages</title>
-<script src="../../js/data/curriculum/en_a1.js"></script>
-<link rel="icon" href="../../../images/logos/cosylanguages.png">
+
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -573,7 +572,7 @@ function buildContent(){
     <div class="vp-title">📐 A1 Grammar — 16 structures introduced</div>
     <div class="gp-grid">`;
 
-  const allGrammar=UNITS.flatMap(u=>u.grammar_summary);
+  const allGrammar=UNITS.flatMap(u=>u.grammar_summary || []).filter(Boolean);
   allGrammar.forEach(g=>{
     const href = g.ref ? (g.ref.includes('.html') ? `../../${g.ref}` : `../../grammar-reference.html#${g.ref}`) : '../../grammar-reference.html';
     grammarHtml+=`<a href="${href}" style="text-decoration:none;"><div class="gp-item">
@@ -595,7 +594,7 @@ function buildContent(){
       const lessonId = parseInt(l.code.split('-')[1]);
 
       // Vocab pills (show first 8 to avoid overflow)
-      const vocabDisplay=[...new Set([...l.vocab,...l.verbs,...l.adj])].slice(0,12);
+      const vocabDisplay=[...new Set([...(l.vocab || []),...(l.verbs || []),...(l.adj || [])])].slice(0,12);
 
       return `<div class="lesson-card${isDone?' done':''}${isOpen?' open':''}"
                id="lesson-${l.code}">
@@ -651,7 +650,7 @@ function buildContent(){
           <div class="uh-arc">${u.arc}</div>
           <div class="uh-tags">
             <span class="uh-tag">${u.lessons_count} lessons</span>
-            ${u.vocab_themes.map(t=>`<span class="uh-tag">${t}</span>`).join('')}
+            ${(u.vocab_themes || []).map(t=>`<span class="uh-tag">${t}</span>`).join('')}
             <span class="uh-tag" style="color:${u.color};border-color:${u.color}">${pct}% complete</span>
           </div>
         </div>
