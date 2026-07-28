@@ -3770,3 +3770,193 @@ body.theme-science-laughter {
   background: #443221 !important;
   border-left: 5px solid #d97706;
 }
+
+/* ==========================================================================
+   WONDER CLUB DARK THEME READABILITY AND CONTRAST OVERRIDES
+   ========================================================================== */
+body.theme-wonder-amy,
+body.theme-wonder-album,
+body.theme-wonder-watched {
+  /* High contrast text variables for dark mode */
+  --ink: #f1f0f3 !important;
+  --ink-soft: #d1cbdc !important;
+  --ink-muted: #d1cbdc !important;
+  --ink-faint: #a29cb3 !important;
+  --muted: #a29cb3 !important;
+
+  /* Redefine basic block layout variables to dark mode colors */
+  --warm-white: #18141c !important;
+  --border: #3a3245 !important;
+  --cream: #221a2d !important;
+
+  /* Accent tints for tasks and grammar boxes */
+  --coral-light: #2c1a24 !important;
+  --gold-light: #2c251a !important;
+  --blue-light: #1c223a !important;
+  --green-light: #142a1f !important;
+  --rose-light: #2e1a1e !important;
+
+  /* Mistake block variables (high-contrast red/green) */
+  --mistake-bg: #241a15 !important;
+  --mistake-header-bg: #2e211a !important;
+  --mistake-header-text: #fca5a5 !important;
+  --mistake-wrong-color: #f87171 !important;
+  --mistake-right-color: #4ade80 !important;
+}
+
+/* Specific theme refinements */
+body.theme-wonder-album {
+  --warm-white: #1a1a24 !important;
+  --border: #33334d !important;
+  --cream: #1e1e2d !important;
+}
+
+body.theme-wonder-watched {
+  --warm-white: #0d0c13 !important;
+  --border: #332d4a !important;
+  --cream: #14131d !important;
+}
+
+/* Ensure Related Club Callouts are perfectly readable */
+body.theme-wonder-amy .related-club-callout,
+body.theme-wonder-album .related-club-callout,
+body.theme-wonder-watched .related-club-callout {
+  background: rgba(243, 156, 18, 0.08) !important;
+  border-left: 4px solid #f39c12 !important;
+  border-top: 1px solid rgba(243, 156, 18, 0.2) !important;
+  border-right: 1px solid rgba(243, 156, 18, 0.2) !important;
+  border-bottom: 1px solid rgba(243, 156, 18, 0.2) !important;
+  color: #f1f0f3 !important;
+}
+body.theme-wonder-amy .related-club-callout strong,
+body.theme-wonder-album .related-club-callout strong,
+body.theme-wonder-watched .related-club-callout strong {
+  color: #fff !important;
+}
+body.theme-wonder-amy .related-club-callout a,
+body.theme-wonder-album .related-club-callout a,
+body.theme-wonder-watched .related-club-callout a {
+  color: #f39c12 !important;
+  text-decoration: underline !important;
+}
+
+/* Session Meta Grid High-Contrast style */
+body.theme-wonder-amy .session-meta-grid,
+body.theme-wonder-album .session-meta-grid,
+body.theme-wonder-watched .session-meta-grid {
+  background: var(--warm-white) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+}
+body.theme-wonder-amy .meta-item h4,
+body.theme-wonder-album .meta-item h4,
+body.theme-wonder-watched .meta-item h4 {
+  color: var(--muted) !important;
+}
+body.theme-wonder-amy .meta-item p,
+body.theme-wonder-album .meta-item p,
+body.theme-wonder-watched .meta-item p {
+  color: var(--ink) !important;
+}
+
+/* Grammar Interactive Games high-contrast styles */
+body.theme-wonder-amy .grammar-interactive-game h3,
+body.theme-wonder-album .grammar-interactive-game h3,
+body.theme-wonder-watched .grammar-interactive-game h3 {
+  color: #fff !important;
+}
+body.theme-wonder-amy .grammar-interactive-game p,
+body.theme-wonder-album .grammar-interactive-game p,
+body.theme-wonder-watched .grammar-interactive-game p {
+  color: var(--ink-soft) !important;
+}
+body.theme-wonder-amy .grammar-interactive-game strong,
+body.theme-wonder-album .grammar-interactive-game strong,
+body.theme-wonder-watched .grammar-interactive-game strong {
+  color: #fff !important;
+}
+body.theme-wonder-amy .grammar-interactive-game ol,
+body.theme-wonder-album .grammar-interactive-game ol,
+body.theme-wonder-watched .grammar-interactive-game ol,
+body.theme-wonder-amy .grammar-interactive-game li,
+body.theme-wonder-album .grammar-interactive-game li,
+body.theme-wonder-watched .grammar-interactive-game li {
+  color: var(--ink) !important;
+}
+
+/* Tap Chips on dark mode */
+body.theme-wonder-amy .grammar-tap-chip {
+  background: #251d2d !important;
+  border: 1px solid #e11d48 !important;
+  color: #f1f0f3 !important;
+}
+body.theme-wonder-album .grammar-tap-chip {
+  background: #232334 !important;
+  border: 1px solid #8b5cf6 !important;
+  color: #e5e5ec !important;
+}
+body.theme-wonder-watched .grammar-tap-chip {
+  background: #15131f !important;
+  border: 1px solid #10b981 !important;
+  color: #e2e1e7 !important;
+}
+
+/* Empty brackets/gaps in grammar tasks */
+body.theme-wonder-amy .grammar-gap,
+body.theme-wonder-album .grammar-gap,
+body.theme-wonder-watched .grammar-gap {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-bottom: 2px solid var(--section-title-color, #e11d48) !important;
+  color: #fff !important;
+}
+
+/* Buttons in Grammar practice */
+body.theme-wonder-amy .btn-verify {
+  background: #e11d48 !important;
+}
+body.theme-wonder-album .btn-verify {
+  background: #8b5cf6 !important;
+}
+body.theme-wonder-watched .btn-verify {
+  background: #10b981 !important;
+}
+
+/* Interactive elements section rules */
+body.theme-wonder-amy .grammar-interactive-game div[style*="background:"],
+body.theme-wonder-album .grammar-interactive-game div[style*="background:"],
+body.theme-wonder-watched .grammar-interactive-game div[style*="background:"] {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border-color: var(--border) !important;
+}
+body.theme-wonder-amy .grammar-interactive-game code,
+body.theme-wonder-album .grammar-interactive-game code,
+body.theme-wonder-watched .grammar-interactive-game code {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #fff !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+}
+body.theme-wonder-amy .grammar-task-item,
+body.theme-wonder-album .grammar-task-item,
+body.theme-wonder-watched .grammar-task-item {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-left-color: var(--section-title-color, #e11d48) !important;
+}
+body.theme-wonder-album .grammar-task-item {
+  border-left-color: #8b5cf6 !important;
+}
+body.theme-wonder-watched .grammar-task-item {
+  border-left-color: #10b981 !important;
+}
+
+/* Mistake arrow and notes colors */
+body.theme-wonder-amy .mistake-arrow,
+body.theme-wonder-album .mistake-arrow,
+body.theme-wonder-watched .mistake-arrow {
+  color: #fff !important;
+}
+body.theme-wonder-amy .mistake-note-text,
+body.theme-wonder-album .mistake-note-text,
+body.theme-wonder-watched .mistake-note-text {
+  color: #d1cbdc !important;
+}
