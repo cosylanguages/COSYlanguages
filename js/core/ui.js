@@ -144,7 +144,7 @@
       mobileNav.innerHTML = `
         <a href="${p}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
         <a href="${p}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-        <a href="${p}index.html#languages" class="mobile-nav-item" id="mnav-languages"><span class="mn-icon">🌍</span><span>Languages</span></a>
+        <a href="${p}events/index.html" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
         <a href="${p}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
 
       const path = window.location.pathname;
@@ -161,6 +161,14 @@
         if (currentFilename === 'index.html' || currentFilename === '/') {
             if (hash.includes('languages')) active = (item.id === 'mnav-languages');
             else if (!hash) active = (item.id === 'mnav-home');
+        }
+
+        if (path.includes('/practice/')) {
+            active = (item.id === 'mnav-practice');
+        } else if (path.includes('/games/')) {
+            active = (item.id === 'mnav-games');
+        } else if (path.includes('/events/')) {
+            active = (item.id === 'mnav-events');
         }
 
         item.classList.toggle('active', active);
@@ -3367,7 +3375,7 @@
             nav.innerHTML = `
                 <a href="${prefix}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
                 <a href="${prefix}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-                <a href="${prefix}index.html#languages" class="mobile-nav-item" id="mnav-languages"><span class="mn-icon">🌍</span><span>Languages</span></a>
+                <a href="${prefix}events/index.html" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
                 <a href="${prefix}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
             document.body.appendChild(nav);
         }
