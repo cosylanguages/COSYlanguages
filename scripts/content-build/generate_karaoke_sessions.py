@@ -612,6 +612,16 @@ OPPOSITES_MAP = {
     "Désespoir": "L'espoir",
     "La mémoire": "L'oubli",
     "Prisonnière": "Libre",
+    "Mixed-up": "Orderly",
+    "Guidance": "Misdirection",
+    "Contradiction": "Consistency",
+    "Faith": "Doubt",
+    "Cynicism": "Optimism",
+    "Control": "Helplessness",
+    "Strength": "Weakness",
+    "Tough": "Fragile",
+    "Low": "High",
+    "Insane": "Sane",
     "damaged": "intact",
     "normal": "abnormal",
     "special": "ordinary",
@@ -1054,6 +1064,17 @@ OPPOSITES_MAP = {
 
 # Standardized Language Focus points
 LANGUAGE_FOCUS_DB = {
+    "mixed-up-world": {
+        "en": {
+            "title": "Adjectival Participles ('mixed-up') & Relatives",
+            "explanation": "In English, we can use past participles as adjectives (like 'mixed-up', 'messed up', 'shattered') to express emotional states or chaotic situations. Relatives like 'because', 'who', and 'that' allow us to connect these feelings to the people and moments that cause them.",
+            "examples": [
+                "I feel mixed-up because there are so many contradictory voices in my head.",
+                "People who help us find guidance are rare and precious.",
+                "The moments that change us often begin with feeling completely confused."
+            ]
+        }
+    },
     "toutes-les-machines-ont-le-coeur": {
         "en": {
             "title": "Verbe irrégulier 'battre' au présent",
@@ -1215,6 +1236,9 @@ LANGUAGE_FOCUS_DB = {
 
 # Standardized Final Challenges
 FINAL_CHALLENGE_DB = {
+    "mixed-up-world": {
+        "en": "Imagine Sophie Ellis-Bextor writes 'Mixed-Up World Part II'. What has changed in her life? Has her world become more orderly or more hopeful? Work in pairs to invent the sequel and describe the new chorus."
+    },
     "toutes-les-machines-ont-le-coeur": {
         "en": "Write a short 3-sentence message to a robot explaining what makes the human heart fragile yet strong.",
         "fr": "Écrivez un court message de 3 phrases à un robot pour lui expliquer ce qui rend le cœur humain fragile mais fort."
@@ -1266,6 +1290,16 @@ VOCAB_DB = {
     "Désespoir": ("état de détresse extrême, perte de tout espoir.", "Elle a surmonté son grand désespoir grâce au soutien de ses amis."),
     "La mémoire": ("faculté de conserver et de se rappeler des états de conscience passés.", "Elle a une excellente mémoire pour retenir les dates historiques."),
     "Prisonnière": ("personne privée de sa liberté, enfermée.", "Elle se sent prisonnière de ses propres pensées négatives."),
+    "Mixed-up": ("feeling confused, bewildered, or disorganized.", "He felt completely mixed-up after hearing conflicting instructions."),
+    "Guidance": ("advice or information aimed at resolving a problem or difficulty.", "She turned to her mentor for some much-needed guidance during the crisis."),
+    "Contradiction": ("a combination of statements, ideas, or features which are opposed to one another.", "There is a clear contradiction between his words and his actual actions."),
+    "Faith": ("complete trust or confidence in someone or something.", "Despite the setbacks, she never lost her faith in the success of the project."),
+    "Cynicism": ("an inclination to believe that people are motivated purely by self-interest.", "Her natural cynicism made it difficult for her to trust new acquaintances."),
+    "Control": ("the power to influence or direct people's behavior or the course of events.", "She struggled to regain control of her emotions after the shocking news."),
+    "Strength": ("the quality or state of being physically or mentally strong.", "It takes immense inner strength to admit when you are wrong and apologize."),
+    "Tough": ("strong enough to withstand adverse conditions or rough handling.", "She proved to be a tough negotiator during the business merger."),
+    "Low": ("feeling depressed, quiet, or lacking energy.", "She has been feeling a bit low lately due to the dark winter weather."),
+    "Insane": ("extremely foolish, irrational, or mentally deranged.", "It is completely insane to expect different results while doing the exact same thing."),
     "damaged": ("harmed or spoiled; not in perfect condition.", "The old guitar was damaged during the long journey."),
     "normal": ("conforming to a standard; usual, typical, or expected.", "It is completely normal to feel nervous before a big presentation."),
     "special": ("better, greater, or otherwise different from what is usual.", "She prepared a special dinner to celebrate her promotion."),
@@ -2033,6 +2067,13 @@ if os.path.exists(GRAMMAR_MD_PATH):
                     }
 
 def get_language_focus(slug, lang):
+    if slug in LANGUAGE_FOCUS_DB:
+        entry = LANGUAGE_FOCUS_DB[slug]
+        if lang in entry:
+            return entry[lang]
+        if "en" in entry:
+            return entry["en"]
+
     if slug in BRAINSTORM_KARAOKE_MAP:
         bdata = BRAINSTORM_KARAOKE_MAP[slug]
         focus = bdata["focus"]
@@ -2906,6 +2947,69 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
 
         r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
 
+    if slug == "mixed-up-world":
+        warmup_questions_html = """            <li>How important is this discussion theme in your daily life?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> Based on the title 'Mixed Up World' and the artist: Do you think this song is sad and hopeless, or upbeat and energetic?</li>
+            <li>Have you ever felt that your life was "mixed up" even though everything looked fine from the outside? (Personalizing the title)</li>
+            <li>Look at the title 'mixed up world' and the artist 'Sophie Ellis-Bextor'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+        """
+
+        r1_questions_html = ""
+        mixed_up_r1 = [
+            ("In the song, the singer feels \"mixed up.\" Why do you think she uses this phrase instead of saying she is \"sad\" or \"unhappy\"?", "★ Have you ever felt that your life was \"mixed up\" even though everything looked fine from the outside?"),
+            ("The singer says she needs <strong>Guidance</strong>. Why do you think she doesn't trust herself at that moment?", "★ Who is the first person you turn to when you need <strong>Guidance</strong> in your life?"),
+            ("The singer says \"all I see is <strong>Contradiction</strong>.\" What are some everyday contradictions you notice in modern society?", "★ Have you ever had to deal with a <strong>Contradiction</strong> in your own goals or feelings?"),
+            ("The lyrics mention a \"lack of <strong>Faith</strong>.\" How does a lack of faith in those around us affect our daily peace of mind?", "★ What is one thing that always restores your <strong>Faith</strong> in humanity when you are feeling low?"),
+            ("The singer believes that \"<strong>Cynicism</strong> rules the day.\" Do you think cynicism is a realistic defense mechanism or just a negative outlook?", "★ How do you protect yourself from <strong>Cynicism</strong> in a world full of negative news?"),
+            ("The chorus urges us \"to start to take <strong>Control</strong>.\" When everything feels chaotic, what is the first small thing you try to take control of?", "★ Do you find it easy or difficult to accept when things are completely out of your <strong>Control</strong>?"),
+            ("At the end of the song, do you think the singer feels stronger than at the beginning, finding her inner <strong>Strength</strong>?", "★ What is a personal experience that has tested your inner <strong>Strength</strong> and helped you grow?"),
+            ("The chorus says \"remember you're a real <strong>Tough</strong> girl.\" Does \"being tough\" mean hiding your tears, or is there strength in vulnerability?", "★ Who is the toughest (<strong>Tough</strong>) person you know, and what makes them so resilient?"),
+            ("The pre-chorus says \"I've never felt so <strong>Low</strong>.\" During low moments, is it more helpful to listen to upbeat music or sad music?", "★ What quiet activity always helps you when you are feeling a bit <strong>Low</strong>?"),
+            ("The singer asks \"Why has this world gone <strong>Insane</strong>?\" What is one modern habit or trend that seems completely insane to you?", "★ How do you preserve your own sanity (<strong>Insane</strong>) and balance when the world around you gets too hectic?")
+        ]
+        for q_main, q_pers in mixed_up_r1:
+            r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+        r1_questions_html += """
+        <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>Before Listening:</strong> Predict based on the title 'Mixed Up World' and the artist: Do you think this song is sad and hopeless, or upbeat and energetic?</li>
+            <li><strong>After Verse 1 (Pause &amp; Predict):</strong> Pause the track. The singer says she's feeling \"all messed up\" and needs guidance. What do you think her next step will be?</li>
+            <li><strong>After Chorus (Rhythmic Repetition):</strong> Why do you think the line \"it's a mixed up world\" repeats so often? How does the tempo match this repetitive message?</li>
+            <li><strong>After Bridge (Musical Mood Shift):</strong> Listen to the shift in mood when she asks \"Why has this world gone insane?\". Has her tone changed from vulnerable to determined?</li>
+            <li><strong>After Singing/Listening (Lyrical Takeaway):</strong> Which lyric will stay with you tomorrow? Choose one line and explain why.</li>
+          </ul>
+        </div>
+        """
+
+        r2_statements_html = ""
+        mixed_up_r2 = [
+            "The song suggests that everyone feels lost sometimes, making <strong>Mixed-up</strong> feelings a universal human experience. Agree or disagree?",
+            "Looking for <strong>Guidance</strong> from others is a sign of strength, not weakness. Agree or disagree?",
+            "It is impossible to find peace of mind when your actions are in constant <strong>Contradiction</strong> with your beliefs. Agree or disagree?",
+            "In a chaotic world, finding <strong>Faith</strong> in a community is more important than personal success. Agree or disagree?",
+            "A certain amount of <strong>Cynicism</strong> is necessary to survive and protect oneself in modern society. Agree or disagree?",
+            "True <strong>Control</strong> over our lives is an illusion; we can only control our reactions. Agree or disagree?",
+            "We cannot truly appreciate our inner <strong>Strength</strong> until we have experienced moments of deep failure and doubt. Agree or disagree?",
+            "Labeling someone as <strong>Tough</strong> puts too much pressure on them to hide their pain. Agree or disagree?",
+            "The best way to heal during <strong>Low</strong> moments is to help someone else who is struggling. Agree or disagree?",
+            "The world has always been <strong>Insane</strong>; modern media just makes us more aware of it. Agree or disagree?"
+        ]
+        for stmt in mixed_up_r2:
+            r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+        r2_statements_html += """
+        <div class="lyrics-checkpoint" style="background: #FAEEE8; border-left: 4px solid var(--orange); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--orange); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">❤️ Emotional &amp; Creative Reaction Activities</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>The Lyric Spotlight:</strong> Which lyric speaks to you most today? Choose one line and explain why. (There are no right or wrong answers!)</li>
+            <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"The world feels mixed up when...\"</em></li>
+          </ul>
+        </div>
+        """
+
     mistakes_html = ""
     m_list = MISTAKES_DB[lang] if lang in MISTAKES_DB else MISTAKES_DB["en"]
     for wrong, right, explanation in m_list:
@@ -3234,7 +3338,8 @@ COMPLETE_SONG_VOCAB = {
     "whos-the-new-guy": ["office", "mysterious", "tribe", "investigate", "trouble", "new", "career", "curiosity", "change", "welcome"],
     "without-love-you-can-save-the-world": ["love", "focus", "drama", "explore", "door", "save", "world", "free", "crying", "public"],
     "women-gotta-stick-together": ["together", "support", "journey", "rivalry", "unity", "stick", "storm", "rivals", "stronger", "friendship"],
-    "you-stupid-bitch": ["ruined", "ring", "mess", "strife", "dying", "stupid", "lose", "crying", "regret", "dark"]
+    "you-stupid-bitch": ["ruined", "ring", "mess", "strife", "dying", "stupid", "lose", "crying", "regret", "dark"],
+    "mixed-up-world": ["Mixed-up", "Guidance", "Contradiction", "Faith", "Cynicism", "Control", "Strength", "Tough", "Low", "Insane"]
 }
 
 songs_list = []
