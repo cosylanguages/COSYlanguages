@@ -382,7 +382,7 @@ def refactor_file(filename, spec_key):
         soup = BeautifulSoup(f, 'html.parser')
 
     # Detect level B1 or B2
-    is_b1 = "-intermediate.html" in filename or "brainwashing-intermediate" in filename
+    is_b1 = ("-intermediate.html" in filename or "brainwashing-intermediate" in filename) and "-upper-intermediate.html" not in filename
     level_suffix = " (B1)" if is_b1 else " (B2)"
     level_full = "Intermediate (B1)" if is_b1 else "Upper-Intermediate (B2)"
 
@@ -410,7 +410,7 @@ def refactor_file(filename, spec_key):
     if meta_grid:
         for item in meta_grid.find_all(class_='meta-item'):
             h4 = item.find('h4')
-            if h4 and h4.string == "Level":
+            if h4 and h4.get_text(strip=True) == "Level":
                 p = item.find('p')
                 if p:
                     p.string = level_full
