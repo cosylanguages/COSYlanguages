@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 # Hand-crafted content and configurations for all 15 English "I Couldn't Help But Wonder" sessions
-WONDER_CONFIG = {
+WONDER_CONFIG_EN = {
     "always-watched-in-a-crowd.html": {
         "warmup": """
 <ul class="round-questions">
@@ -366,9 +366,133 @@ WONDER_CONFIG = {
     }
 }
 
+# Hand-crafted configurations and translations in French for the 5 French sessions
+WONDER_CONFIG_FR = {
+    "death-of-the-album.html": {
+        "warmup": """
+<ul class="round-questions">
+<li>Pourquoi avons-nous troqué l'engagement d'un album de 45 minutes pour la commodité d'une playlist algorithmique ?</li>
+<li>Est-ce que notre capacité d'attention de dix secondes nous rend incapables d'apprécier une histoire cohérente ?</li>
+</ul>
+""",
+        "rank_items": [
+            {"emoji": "💿", "text": "Perte de narration"},
+            {"emoji": "⏩", "text": "Attention de 10 secondes"},
+            {"emoji": "🤖", "text": "Régime algorithmique"},
+            {"emoji": "🎵", "text": "Bruit de fond"}
+        ],
+        "honesty_pairs": [
+            {
+                "polite": '"J\'adore découvrir de nouveaux artistes sur Spotify."',
+                "raw": '"Je zappe les morceaux après dix secondes car mon attention est ruinée."',
+                "comments": {
+                    "polite": "✍️ La pensée de Carrie : 'On dit qu\'on explore, mais en réalité on laisse une machine nous nourrir de dopamine. C\'est une reddition très polie.'",
+                    "raw": "✍️ La pensée de Carrie : 'Aïe. Si on ne peut pas écouter une chanson de quatre minutes, comment espérer survivre à un engagement de quarante ans ?'"
+                }
+            }
+        ]
+    },
+    "feeling-empty-after-series.html": {
+        "warmup": """
+<ul class="round-questions">
+<li>Pourquoi ressentons-nous un deuil sincère pour des personnages fictifs, tout en ignorant nos voisins dans la vraie vie ?</li>
+<li>Notre obsession pour le binge-watching est-elle un bouclier contre la solitude de nos propres pensées ?</li>
+</ul>
+""",
+        "rank_items": [
+            {"emoji": "📺", "text": "Attachement fictif"},
+            {"emoji": "🏃", "text": "Échapper à la réalité"},
+            {"emoji": "🖤", "text": "Vide post-série"},
+            {"emoji": "🤐", "text": "Limites non résolues"}
+        ],
+        "honesty_pairs": [
+            {
+                "polite": '"Je suis profondément attaché à ces personnages."',
+                "raw": '"J\'utilise cette série comme un leurre pour éviter mon propre calendrier vide."',
+                "comments": {
+                    "polite": "✍️ La pensée de Carrie : 'Les personnages de fiction sont les amants les plus sûrs. Ils ne partent jamais, ne se disputent jamais, et ont toujours un scénario parfait.'",
+                    "raw": "✍️ La pensée de Carrie : 'Brutal. Quand l\'écran devient noir et qu\'on voit notre propre reflet dans la vitre, le silence absolu de la pièce peut être assourdissant.'"
+                }
+            }
+        ]
+    },
+    "is-parenting-instinct-a-real-thing-or-scam.html": {
+        "warmup": """
+<ul class="round-questions">
+<li>L\'instinct maternel est-il un miracle biologique, ou une construction commerciale brillante pour vendre des livres de parentalité ?</li>
+<li>Est-ce que la parentalité compétitive sous caméras et applis aide nos enfants, ou nourrit-elle simplement notre anxiété sociale ?</li>
+</ul>
+""",
+        "rank_items": [
+            {"emoji": "🍼", "text": "Pression biologique"},
+            {"emoji": "📚", "text": "Culpabilité commerciale"},
+            {"emoji": "👶", "text": "Parentalité compétitive"},
+            {"emoji": "🔥", "text": "Épuisement maternel"}
+        ],
+        "honesty_pairs": [
+            {
+                "polite": '"Je veux le meilleur absolu pour mon enfant."',
+                "raw": '"Je joue la perfection maternelle pour échapper au jugement social."',
+                "comments": {
+                    "polite": "✍️ La pensée de Carrie : 'La dévotion maternelle est un magnifique bouclier. Elle enveloppe notre anxiété dans une couverture d\'amour absolu.'",
+                    "raw": "✍️ La pensée de Carrie : 'Franchement honnête. C\'est tellement plus facile d\'acheter des purées bio que d\'admettre que la parentalité est une boucle terrifiante et sans structure.'"
+                }
+            }
+        ]
+    },
+    "ugly-produce-anti-waste.html": {
+        "warmup": """
+<ul class="round-questions">
+<li>Achèteriez-vous une tomate déformée et bosselée simplement pour son prix, ou exigez-vous une perfection visuelle ?</li>
+<li>Filtrons-nous nos partenaires amoureux avec les mêmes critères esthétiques que nous utilisons pour choisir nos légumes au supermarché ?</li>
+</ul>
+""",
+        "rank_items": [
+            {"emoji": "🥕", "text": "Carotte tordue"},
+            {"emoji": "🥔", "text": "Pomme de terre bosselée"},
+            {"emoji": "👑", "text": "Perfection de surface"},
+            {"emoji": "🌱", "text": "Réalité organique asymétrique"}
+        ],
+        "honesty_pairs": [
+            {
+                "polite": '"Je filtre sur la perfection visuelle (Sécurité esthétique)"',
+                "raw": '"J\'accepte les réalités organiques et désordonnées (Vérité organique)"',
+                "comments": {
+                    "polite": "✍️ La pensée de Carrie : 'Ah, le rayon supermarché de la vie. Standardisé, brillant, et parfaitement prévisible. Idéal pour l\'affichage, mais a-t-il du goût ?'",
+                    "raw": "✍️ La pensée de Carrie : 'S\'ouvrir aux bosses, aux courbes bizarres, à la vérité brute. C\'est asymétrique, imprévisible, et extrêmement réel.'"
+                }
+            }
+        ]
+    },
+    "why-do-we-try-to-relate-to-adhd.html": {
+        "warmup": """
+<ul class="round-questions">
+<li>Trouvez-vous pratiquement impossible de vous concentrer sur une tâche sans regarder votre téléphone, ou tolérez-vous à peine les distractions ?</li>
+<li>Quand vous lisez des symptômes psychologiques en ligne, vous y identifiez-vous immédiatement, ou restez-vous sceptique ?</li>
+</ul>
+""",
+        "rank_items": [
+            {"emoji": "📂", "text": "Plus de 10 onglets ouverts"},
+            {"emoji": "📺", "text": "Scroller devant la télé"},
+            {"emoji": "🚪", "text": "Oublier pourquoi je suis entré"},
+            {"emoji": "🛡️", "text": "Défenses cliniques"}
+        ],
+        "honesty_pairs": [
+            {
+                "polite": '"J\'ai un déficit de l\'attention biochimique (Perspective clinique)"',
+                "raw": '"Mon environnement a été optimisé pour me distraire (Perspective systémique)"',
+                "comments": {
+                    "polite": "✍️ La pensée de Carrie : 'Un label clinique, une défense biochimique sûre. Cela offre une communauté, un nom pour le chaos, et une armure très douce.'",
+                    "raw": "✍️ La pensée de Carrie : 'Une matrice structurelle optimisée pour voler votre attention et monétiser votre distraction. Le problème n\'est pas dans votre tête, il est sur votre écran.'"
+                }
+            }
+        ]
+    }
+}
 
-def enrich_session_systemic(filepath, key):
-    data = WONDER_CONFIG[key]
+
+def enrich_session_systemic(filepath, key, is_fr=False):
+    data = WONDER_CONFIG_FR[key] if is_fr else WONDER_CONFIG_EN[key]
     print(f"Reading {filepath}...")
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
@@ -385,8 +509,8 @@ def enrich_session_systemic(filepath, key):
 
     # 2. Extract LST Meta options from existing list-grid
     lst_block = soup.find(id="s-lst")
-    opt1_text = "A Curated Life of Armor"
-    opt2_text = "An Open Life of Desire"
+    opt1_text = "Un deuil sincère" if is_fr else "A Curated Life of Armor"
+    opt2_text = "Un simple leurre" if is_fr else "An Open Life of Desire"
     opt1_emoji = "🛡️"
     opt2_emoji = "🔓"
 
@@ -434,25 +558,34 @@ def enrich_session_systemic(filepath, key):
 """)
     pairs_cards_html = "\n".join(pairs_html_list)
 
+    # Localized Labels
+    act1_title = "⚡ Activité 1 — Le Tier de Priorité" if is_fr else "⚡ Activity 1 — The Priority Tier"
+    act1_desc = "Pourquoi adoptons-nous ces comportements ? Appuyez sur les choix ci-dessous pour assembler votre profil psychologique !" if is_fr else "Why do we perform these behaviors? Tap on the choices below to assemble your personal psychological priority profile!"
+    reset_btn_label = "Réinitialiser le profil 🔄" if is_fr else "Reset Profile 🔄"
+    act2_title = "⚖️ Activité 2 — Le Spectre de l'Honnêteté" if is_fr else "⚖️ Activity 2 — The Honesty Spectrum"
+    act2_desc = "Dans la communication adulte, nous adoucissons souvent nos réalités. Appuyez sur l'une ou l'autre déclaration de chaque paire pour choisir celle qui est sincèrement la plus honnête, et découvrez le commentaire secret de Carrie !" if is_fr else "In adult communication, we often soften our realities. Tap on either statement in each pair to choose which one is genuinely more honest, and read Carrie's secret commentary!"
+    act3_title = "🧭 Activité 3 — La Décision Finale" if is_fr else "🧭 Activity 3 — The Final Decision"
+    act3_desc = "Quel chemin préféreriez-vous emprunter ? Pourquoi ?" if is_fr else "Which path would you rather walk? Why?"
+
     # 5. Inject custom Let's Speak Together layout
     lst_replacement_html = f"""
 <!-- PRIORITY COPE SCALE -->
 <div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
-<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">⚡ Activity 1 — The Priority Tier</h4>
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">{act1_title}</h4>
 <p style="font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 1rem; line-height: 1.5;">
-Why do we perform these behaviors? Tap on the choices below to assemble your personal psychological priority profile!
+{act1_desc}
 </p>
 <div class="ranker-container" id="propitiation-ranker" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; margin-bottom: 1rem;">
 {ranker_cards_html}
 </div>
-<button class="btn-primary" onclick="resetRanking()" style="background:#9d81d9; color:white; border:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.8rem; cursor:pointer; font-weight:700;">Reset Profile 🔄</button>
+<button class="btn-primary" onclick="resetRanking()" style="background:#9d81d9; color:white; border:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.8rem; cursor:pointer; font-weight:700;">{reset_btn_label}</button>
 </div>
 
 <!-- COINCIDENCE DECODER -->
 <div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
-<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">⚖️ Activity 2 — The Honesty Spectrum</h4>
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">{act2_title}</h4>
 <p style="font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 1rem; line-height: 1.5;">
-In adult communication, we often soften our realities. Tap on either statement in each pair to choose which one is genuinely more honest, and read Carrie's secret commentary!
+{act2_desc}
 </p>
 <div class="honesty-spectrums-grid" style="display: flex; flex-direction: column; gap: 15px;">
 {pairs_cards_html}
@@ -461,12 +594,12 @@ In adult communication, we often soften our realities. Tap on either statement i
 
 <!-- CLOSING METAPHOR -->
 <div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; box-shadow: var(--shadow-sm);">
-<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">🧭 Activity 3 — The Final Decision</h4>
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">{act3_title}</h4>
 <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px; margin-bottom: 1rem;">
 <div class="lst-item" style="text-align:center; background: white; padding: 15px; border-radius: 12px; border: 1px solid var(--border);"><span style="font-size:2.5rem;">{opt1_emoji}</span><div style="font-weight:600; margin-top: 5px;">{opt1_text}</div></div>
 <div class="lst-item" style="text-align:center; background: white; padding: 15px; border-radius: 12px; border: 1px solid var(--border);"><span style="font-size:2.5rem;">{opt2_emoji}</span><div style="font-weight:600; margin-top: 5px;">{opt2_text}</div></div>
 </div>
-<p style="margin-top:1rem; text-align:center; font-weight: 600; color: #3F2B96;">Which path would you rather walk? Why?</p>
+<p style="margin-top:1rem; text-align:center; font-weight: 600; color: #3F2B96;">{act3_desc}</p>
 </div>
 """
 
@@ -568,11 +701,19 @@ document.addEventListener('DOMContentLoaded', () => {{
 
 
 def main():
+    # 1. Enrich all English files
     en_dir = "events/sessions/i-couldnt-help-but-wonder/"
-    for filename in WONDER_CONFIG.keys():
+    for filename in WONDER_CONFIG_EN.keys():
         filepath = os.path.join(en_dir, filename)
         if os.path.exists(filepath):
-            enrich_session_systemic(filepath, filename)
+            enrich_session_systemic(filepath, filename, is_fr=False)
+
+    # 2. Enrich all French files
+    fr_dir = "events/fr/sessions/i-couldnt-help-but-wonder/"
+    for filename in WONDER_CONFIG_FR.keys():
+        filepath = os.path.join(fr_dir, filename)
+        if os.path.exists(filepath):
+            enrich_session_systemic(filepath, filename, is_fr=True)
 
 
 if __name__ == "__main__":
