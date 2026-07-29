@@ -612,6 +612,16 @@ OPPOSITES_MAP = {
     "Désespoir": "L'espoir",
     "La mémoire": "L'oubli",
     "Prisonnière": "Libre",
+    "Lucrative": "Unprofitable",
+    "Prestigious": "Obscure",
+    "Vocation": "Chore",
+    "Hesitation": "Alacrity",
+    "Ruin": "Restore",
+    "Inherently": "Superficially",
+    "Debt": "Asset",
+    "Regret": "Satisfaction",
+    "Expertise": "Incompetence",
+    "Avoid": "Confront",
     "Mixed-up": "Orderly",
     "Guidance": "Misdirection",
     "Contradiction": "Consistency",
@@ -1075,6 +1085,17 @@ LANGUAGE_FOCUS_DB = {
             ]
         }
     },
+    "dont-be-a-lawyer": {
+        "en": {
+            "title": "Imperative Verbs & Modals of Strong Advice ('should / must / ought to')",
+            "explanation": "The song uses direct imperatives (e.g., 'Don't be a lawyer!') to express powerful warnings. Combined with modals of strong advice like 'should', 'must', and 'ought to', we can construct compelling, persuasive arguments about life, work, and following one's passion.",
+            "examples": [
+                "Don't study law unless you are prepared to spend eighty hours a week workin' on pharmaceutical mergers.",
+                "You should avoid choosing a lucrative career if it inherently ruins your peace of mind.",
+                "We must listen to our true vocation instead of rushing into decisions with too much hesitation."
+            ]
+        }
+    },
     "toutes-les-machines-ont-le-coeur": {
         "en": {
             "title": "Verbe irrégulier 'battre' au présent",
@@ -1239,6 +1260,9 @@ FINAL_CHALLENGE_DB = {
     "mixed-up-world": {
         "en": "Imagine Sophie Ellis-Bextor writes 'Mixed-Up World Part II'. What has changed in her life? Has her world become more orderly or more hopeful? Work in pairs to invent the sequel and describe the new chorus."
     },
+    "dont-be-a-lawyer": {
+        "en": "The Career Pivot: Five years after leaving their corporate law firm to follow a happier career path, what is the protagonist doing now? Role-play a catch-up conversation between the former lawyer and an old high-school friend who is still working eighty hours a week."
+    },
     "toutes-les-machines-ont-le-coeur": {
         "en": "Write a short 3-sentence message to a robot explaining what makes the human heart fragile yet strong.",
         "fr": "Écrivez un court message de 3 phrases à un robot pour lui expliquer ce qui rend le cœur humain fragile mais fort."
@@ -1290,6 +1314,16 @@ VOCAB_DB = {
     "Désespoir": ("état de détresse extrême, perte de tout espoir.", "Elle a surmonté son grand désespoir grâce au soutien de ses amis."),
     "La mémoire": ("faculté de conserver et de se rappeler des états de conscience passés.", "Elle a une excellente mémoire pour retenir les dates historiques."),
     "Prisonnière": ("personne privée de sa liberté, enfermée.", "Elle se sent prisonnière de ses propres pensées négatives."),
+    "Lucrative": ("producing a great deal of profit; profitable.", "He decided to leave his low-paying job to pursue a more lucrative career in tech."),
+    "Prestigious": ("inspiring respect and admiration; having high status.", "Glendale University is not exactly a prestigious Ivy League school."),
+    "Vocation": ("a strong feeling of suitability for a particular career or occupation; a calling.", "She always felt that teaching was her true vocation, not just a way to pay the bills."),
+    "Hesitation": ("the action of pausing or hesitating before saying or doing something.", "She accepted the job offer without a moment's hesitation."),
+    "Ruin": ("to damage or destroy something completely.", "Working eighty hours a week is the quickest way to ruin your mental health."),
+    "Inherently": ("in a permanent, essential, or characteristic way.", "Many people believe that corporate law is inherently stressful and unhappy."),
+    "Debt": ("something, typically money, that is owed or due.", "Going to law school left him with a mountain of student debt."),
+    "Regret": ("a feeling of sadness, repentance, or disappointment over something done or omitted.", "Despite the low salary, he has no regret about choosing to become a tailor."),
+    "Expertise": ("expert skill or knowledge in a particular field.", "His primary expertise lies in tax law and small business consulting."),
+    "Avoid": ("to keep away from or stop oneself from doing something.", "If you want to be happy, you should avoid toxic work environments."),
     "Mixed-up": ("feeling confused, bewildered, or disorganized.", "He felt completely mixed-up after hearing conflicting instructions."),
     "Guidance": ("advice or information aimed at resolving a problem or difficulty.", "She turned to her mentor for some much-needed guidance during the crisis."),
     "Contradiction": ("a combination of statements, ideas, or features which are opposed to one another.", "There is a clear contradiction between his words and his actual actions."),
@@ -2947,7 +2981,69 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
 
         r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
 
-    if slug == "mixed-up-world":
+    if slug == "dont-be-a-lawyer":
+        warmup_questions_html = """            <li>How important is your choice of career to your overall happiness?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "Don't Be a Lawyer". Do you think this is a serious warning, or a satirical/humorous take on the profession?</li>
+            <li>What makes some job fields (like law, medicine, or finance) seem highly desirable from the outside?</li>
+            <li>Have you ever spent a lot of time on a path that you quickly realized was not right for you?</li>
+        """
+
+        r1_questions_html = ""
+        dont_lawyer_r1 = [
+            ("The song warns against choosing a career path just because it seems <strong>Lucrative</strong>. Why do people often prioritize money over passion?", "★ If you won the lottery tomorrow, would you still continue in your current field, or do something less <strong>Lucrative</strong>?"),
+            ("The protagonist was accepted into Glendale U because it was a 'safe bet' for a <strong>Prestigious</strong> vocation. Does prestige guarantee job satisfaction?", "★ Have you ever felt pressure from your parents or peers to attend a <strong>Prestigious</strong> institution or choose a specific high-status job?"),
+            ("Jim says he became an attorney 'without a moment's hesitation' because it seemed like a solid <strong>Vocation</strong>. What is your true calling?", "★ Do you believe that everyone has one specific <strong>Vocation</strong>, or can we find fulfillment in many different careers?"),
+            ("Rushing into a huge career choice with too much <strong>Hesitation</strong> can lead to deep regret. How can we make better life choices?", "★ Tell us about a time you made a major decision without any <strong>Hesitation</strong>. Did it turn out well?"),
+            ("The lyrics advise that corporate law is the quickest way to <strong>Ruin</strong> your life. How does overworking affect our personal lives?", "★ What is one bad habit or stressor that has the potential to <strong>Ruin</strong> a perfectly good weekend for you?"),
+            ("The singer claims the job of an attorney is <strong>Inherently</strong> crappy. What makes a work environment inherently unhappy?", "★ Do you think that high-stress jobs are <strong>Inherently</strong> bad, or does it depend entirely on the person's attitude and coping skills?"),
+            ("Law school is notorious for leaving graduates with massive student <strong>Debt</strong>. Is a high-status degree worth the financial burden?", "★ What is the best financial advice you've ever received for managing or avoiding personal <strong>Debt</strong>?"),
+            ("The song contrasts daily professional <strong>Regret</strong> with simple, happy trades like tailoring. Why do simple jobs bring so much peace?", "★ What is one choice in your past that you initially questioned, but now look back on with absolutely zero <strong>Regret</strong>?"),
+            ("Jim jokes that your only <strong>Expertise</strong> as a lawyer is 'runnin' up fees and speakin' legalese.' What is your main professional strength?", "★ Is there a specific skill or area of <strong>Expertise</strong> you would love to master in the next five years?"),
+            ("The song tells us that it is never too late to <strong>Avoid</strong> this unhappy fate. How can someone successfully pivot their career?", "★ What is a toxic type of conversation or situation at work that you always try your best to <strong>Avoid</strong>?")
+        ]
+        for q_main, q_pers in dont_lawyer_r1:
+            r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+        r1_questions_html += """
+        <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>Before Listening:</strong> Predict based on the title 'Don't Be a Lawyer': Do you think this song is an intense, dramatic warning, or a lighthearted, fast-paced parody?</li>
+            <li><strong>After Verse 1 (Pause &amp; Predict):</strong> Pause after Jim says he got accepted at Glendale U. What kind of future is he setting up? Do you expect him to be happy or miserable?</li>
+            <li><strong>After the first Chorus (Rhythmic Delivery):</strong> How does the fast, energetic rhythm and the backup dancers' enthusiasm contrast with the extremely negative advice being given?</li>
+            <li><strong>During the Specialty Law QA (Musical Comedy):</strong> Listen to the section where characters ask about 'human rights law', 'environmental law', and 'immigration law'. Why does Jim keep repeating 'No money, plus it's a bummer'?</li>
+            <li><strong>After Singing/Listening (Lyrical Takeaway):</strong> Which specific warning or joke in the song made you laugh or think the most? Why?</li>
+          </ul>
+        </div>
+        """
+
+        r2_statements_html = ""
+        dont_lawyer_r2 = [
+            "Pursuing a highly <strong>Lucrative</strong> career is pointless if the daily work is inherently miserable. Agree or disagree?",
+            "Society places too much value on <strong>Prestigious</strong> titles (like doctor, lawyer, or executive) instead of actual happiness. Agree or disagree?",
+            "Most people don't find their true <strong>Vocation</strong> until they are in their thirties or forties. Agree or disagree?",
+            "Taking a year off to travel or reflect is a sign of wisdom, not lazy <strong>Hesitation</strong>. Agree or disagree?",
+            "Working eighty hours a week will eventually <strong>Ruin</strong> any personal relationship. Agree or disagree?",
+            "No job is <strong>Inherently</strong> perfect; satisfaction is entirely what you make of it. Agree or disagree?",
+            "Going into heavy financial <strong>Debt</strong> for education is a sensible investment in your future. Agree or disagree?",
+            "It is far better to change your path late in life than to live with the <strong>Regret</strong> of what could have been. Agree or disagree?",
+            "In the modern job market, having broad adaptability is more valuable than highly narrow technical <strong>Expertise</strong>. Agree or disagree?",
+            "The best way to <strong>Avoid</strong> professional burnout is to strictly separate your job from your personal identity. Agree or disagree?"
+        ]
+        for stmt in dont_lawyer_r2:
+            r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+        r2_statements_html += """
+        <div class="lyrics-checkpoint" style="background: #FAEEE8; border-left: 4px solid var(--orange); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--orange); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">❤️ Emotional &amp; Creative Reaction Activities</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>The Lyric Spotlight:</strong> Which advice line from Jim speaks to you most directly? Choose one line and explain why. (e.g., 'Find any other job to pick' or 'It's a guaranteed soul destroyer').</li>
+            <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"A job is inherently satisfying when...\"</em></li>
+          </ul>
+        </div>
+        """
+
+    elif slug == "mixed-up-world":
         warmup_questions_html = """            <li>How important is this discussion theme in your daily life?</li>
             <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> Based on the title 'Mixed Up World' and the artist: Do you think this song is sad and hopeless, or upbeat and energetic?</li>
             <li>Have you ever felt that your life was "mixed up" even though everything looked fine from the outside? (Personalizing the title)</li>
@@ -3315,7 +3411,7 @@ COMPLETE_SONG_VOCAB = {
     "a-diagnosis": ["diagnosis", "neurosis", "label", "free", "supposed", "relief", "clarity", "mental", "illness", "name"],
     "after-everything-ive-done-for-you": ["done", "direction", "affection", "face", "place", "support", "treat", "help", "anger", "lonely"],
     "antidepressants-are-so-not-a-big-deal": ["deal", "heal", "day", "shame", "better", "antidepressants", "brain", "shadow", "help", "therapy"],
-    "dont-be-a-lawyer": ["lawyer", "greedy", "stress", "ceiling", "guidance", "job", "hours", "passion", "money", "follow"],
+    "dont-be-a-lawyer": ["Lucrative", "Prestigious", "Vocation", "Hesitation", "Ruin", "Inherently", "Debt", "Regret", "Expertise", "Avoid"],
     "eleven-oclock": ["awake", "mistake", "decision", "fight", "answers", "eleven", "thinking", "painful", "spinning", "resolution"],
     "face-your-fears": ["Insecurity", "fear", "tiptoe", "frightened", "stare", "scary", "courage", "scared", "brave", "run"],
     "fit-hot-guys-have-problems-too": ["problems", "perfect", "screen", "insecurities", "tears", "sad", "dream", "fears", "silent", "guys"],
