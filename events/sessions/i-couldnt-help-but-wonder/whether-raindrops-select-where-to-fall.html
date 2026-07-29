@@ -139,10 +139,9 @@
 <span>🟠 Warm-up — The Relationship Question</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<div class="vim-instruction">Wonder, Curiosity &amp; Rain</div>
 <ul class="round-questions">
-<li>Do you find rainy days peaceful, or do they make you feel uninspired?</li>
-<li>Have you ever spent time looking at a windowpane, wondering about the paths of raindrops?</li>
+<li>Do you believe our life paths are chosen by a higher design, or do we drift like raindrops falling on random pavements?</li>
+<li>Is the belief in "fate" and "coincidence" just a clever pretext to avoid taking accountability for our actions?</li>
 </ul>
 </div>
 </div><div class="round-block grammar open" id="s-grammar">
@@ -238,11 +237,61 @@ Discuss whether our life paths are chosen by design or by pure coincidence, usin
 <span>🟣 Let's Speak Together — The Ultimate Speculation</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🌧️</span><div style="font-weight:600;">Nature's Blessing</div></div>
-<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">⚡</span><div style="font-weight:600;">Chaotic Hazard</div></div>
+<!-- PRIORITY COPE SCALE -->
+<div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">⚡ Activity 1 — The Priority Tier</h4>
+<p style="font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 1rem; line-height: 1.5;">
+Why do we perform these behaviors? Tap on the choices below to assemble your personal psychological priority profile!
+</p>
+<div class="ranker-container" id="propitiation-ranker" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; margin-bottom: 1rem;">
+<div class="rank-card" data-reason="Cosmic Fate" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">✨</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Cosmic Fate</span>
+<span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
 </div>
-<p style="margin-top:1rem; text-align:center;">Which view of environmental phenomena do you resonate with more in your daily life?</p>
+<div class="rank-card" data-reason="Random Coincidence" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">🌪️</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Random Coincidence</span>
+<span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
+</div>
+<div class="rank-card" data-reason="Avoiding Accountability" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">🤐</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Avoiding Accountability</span>
+<span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
+</div>
+<div class="rank-card" data-reason="Surrendering Control" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">🔓</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Surrendering Control</span>
+<span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
+</div>
+</div>
+<button class="btn-primary" onclick="resetRanking()" style="background:#9d81d9; color:white; border:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.8rem; cursor:pointer; font-weight:700;">Reset Profile 🔄</button>
+</div>
+<!-- COINCIDENCE DECODER -->
+<div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">⚖️ Activity 2 — The Honesty Spectrum</h4>
+<p style="font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 1rem; line-height: 1.5;">
+In adult communication, we often soften our realities. Tap on either statement in each pair to choose which one is genuinely more honest, and read Carrie's secret commentary!
+</p>
+<div class="honesty-spectrums-grid" style="display: flex; flex-direction: column; gap: 15px;">
+<div class="honesty-pair" style="background: white; border: 1px solid var(--border); border-radius: 12px; padding: 1rem;">
+<div style="display: flex; gap: 10px; justify-content: stretch; align-items: stretch; flex-wrap: wrap;">
+<button class="honesty-btn" onclick="revealHonestyComment(this, 1, 'polite')" style="flex: 1; min-width: 200px; padding: 10px; border: 1px solid #3F2B96; background: transparent; color: #3F2B96; font-weight: 500; border-radius: 8px; cursor: pointer; transition: all 0.2s;">"Our meeting was written in the stars."</button>
+<button class="honesty-btn" onclick="revealHonestyComment(this, 1, 'raw')" style="flex: 1; min-width: 200px; padding: 10px; border: 1px solid #3F2B96; background: transparent; color: #3F2B96; font-weight: 500; border-radius: 8px; cursor: pointer; transition: all 0.2s;">"I am using the pretext of fate because I am too afraid to make a choice."</button>
+</div>
+<div class="comment-reveal-box" id="comment-1" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; margin-top: 0; font-family: var(--font-serif); font-style: italic; color: #4c3185; font-size: 0.95rem; padding-left: 0.5rem; border-left: 2px dashed #9d81d9;"></div>
+</div>
+</div>
+</div>
+<!-- CLOSING METAPHOR -->
+<div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; box-shadow: var(--shadow-sm);">
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">🧭 Activity 3 — The Final Decision</h4>
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px; margin-bottom: 1rem;">
+<div class="lst-item" style="text-align:center; background: white; padding: 15px; border-radius: 12px; border: 1px solid var(--border);"><span style="font-size:2.5rem;">🌧️</span><div style="font-weight:600; margin-top: 5px;">Nature's Blessing</div></div>
+<div class="lst-item" style="text-align:center; background: white; padding: 15px; border-radius: 12px; border: 1px solid var(--border);"><span style="font-size:2.5rem;">⚡</span><div style="font-weight:600; margin-top: 5px;">Chaotic Hazard</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center; font-weight: 600; color: #3F2B96;">Which path would you rather walk? Why?</p>
+</div>
 </div>
 </div>
 <div class="round-block round-2 open" id="s-r2">
@@ -321,9 +370,9 @@ Discuss whether our life paths are chosen by design or by pure coincidence, usin
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const quotes = [
-    '"Maybe some people are like raindrops... falling haphazardly through life, hoping that when they finally land, it\'s on someone who has been waiting in a heatwave just for them."',
-    '"Is it possible that destiny isn\'t a pre-planned map, but rather a series of beautiful, wet coincidences that make us appreciate the sunshine?"',
-    '"I couldn\'t help but wonder... If we spent less time calculating our life\'s trajectory, would we find our perfect landing spot by pure instinct?"'
+    '"Is \'I have no time\' the single most polite way of saying \'You simply do not make my heart beat fast enough\'?"',
+    '"We complain about packed schedules and relentless rush, but maybe we secretly crave the chaos to avoid sitting quietly with our own desires."',
+    '"If we can magically find two hours to binge-watch a new TV series, do we really get to claim that we are too busy to call a friend?"'
   ];
   let index = 0;
   const quoteText = document.getElementById('diary-quote');
@@ -335,6 +384,60 @@ document.addEventListener('DOMContentLoaded', () => {
       quoteText.innerText = quotes[index];
     });
   }
+
+  // Priority Ranker Logic
+  let currentRank = 1;
+  window.toggleRankItem = function(card) {
+    const badge = card.querySelector('.rank-badge');
+    if (card.classList.contains('ranked')) {
+      return;
+    }
+    card.classList.add('ranked');
+    card.style.borderColor = '#3F2B96';
+    card.style.background = '#EEEDFE';
+    badge.innerText = currentRank;
+    badge.style.background = '#3F2B96';
+    badge.style.color = '#fff';
+    currentRank++;
+  };
+
+  window.resetRanking = function() {
+    currentRank = 1;
+    const cards = document.querySelectorAll('.rank-card');
+    cards.forEach(card => {
+      card.classList.remove('ranked');
+      card.style.borderColor = 'var(--border)';
+      card.style.background = '#fff';
+      const badge = card.querySelector('.rank-badge');
+      badge.innerText = '?';
+      badge.style.background = '#e2e8f0';
+      badge.style.color = '#4a5568';
+    });
+  };
+
+  // Honesty Spectrum logic
+  const honestyComments = {1: {'polite': "✍️ Carrie's thought: 'Fate is the most romantic pillow. It whispers that the giant universe has designed a map just for your small heart.'", 'raw': "✍️ Carrie's thought: 'Ouch. Declaring destiny is a bulletproof way of avoiding the terrifying freedom of our own decisions.'"}};
+
+  window.revealHonestyComment = function(btn, pairId, type) {
+    // Reset other button styles in the same pair
+    const pairContainer = btn.closest('.honesty-pair');
+    const buttons = pairContainer.querySelectorAll('.honesty-btn');
+    buttons.forEach(b => {
+      b.style.background = 'transparent';
+      b.style.color = '#3F2B96';
+    });
+
+    // Highlight the clicked button
+    btn.style.background = '#3F2B96';
+    btn.style.color = 'white';
+
+    const commentBox = pairContainer.querySelector('.comment-reveal-box');
+    if (commentBox) {
+      commentBox.innerText = honestyComments[pairId][type];
+      commentBox.style.marginTop = '1rem';
+      commentBox.style.maxHeight = '200px';
+    }
+  };
 });
 </script>
 </body>

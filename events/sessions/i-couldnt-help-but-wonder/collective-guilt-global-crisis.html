@@ -139,10 +139,9 @@
 <span>🟠 Warm-up — The Relationship Question</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<div class="vim-instruction">When you see someone throw recyclable waste in a general bin, do you say something, or stay quiet and carry the silent judgment?</div>
 <ul class="round-questions">
-<li>Does the pressure of saving the planet feel like a bad relationship where you do all the work and get zero reassurance?</li>
-<li>What is one small environmental sacrifice you find incredibly annoying to make?</li>
+<li>When you read about global climate disasters, do you feel a sincere, personal responsibility, or a numb, protective apathy?</li>
+<li>Is sorting our recycling just a modern superstition we perform to appease our climate guilt?</li>
 </ul>
 </div>
 </div><div class="round-block grammar open" id="s-grammar">
@@ -241,11 +240,61 @@ Reflect on a major environmental or political decision from the past. How would 
 <span>🟣 Let's Speak Together — The Ultimate Speculation</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🌍</span><div style="font-weight:600;">The Activist Mind</div></div>
-<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🛌</span><div style="font-weight:600;">The Peaceful Apathist</div></div>
+<!-- PRIORITY COPE SCALE -->
+<div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">⚡ Activity 1 — The Priority Tier</h4>
+<p style="font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 1rem; line-height: 1.5;">
+Why do we perform these behaviors? Tap on the choices below to assemble your personal psychological priority profile!
+</p>
+<div class="ranker-container" id="propitiation-ranker" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; margin-bottom: 1rem;">
+<div class="rank-card" data-reason="Sincere Helplessness" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">🌍</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Sincere Helplessness</span>
+<span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
 </div>
-<p style="margin-top:1rem; text-align:center;">Would you rather live with a highly sensitive conscience, carrying the weight of the world's problems, or live in a state of comfortable, worry-free ignorance?</p>
+<div class="rank-card" data-reason="Corporate Deflection" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">🏭</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Corporate Deflection</span>
+<span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
+</div>
+<div class="rank-card" data-reason="Performative Recycling" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">🔋</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Performative Recycling</span>
+<span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
+</div>
+<div class="rank-card" data-reason="Existential Dread" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">🔥</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Existential Dread</span>
+<span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
+</div>
+</div>
+<button class="btn-primary" onclick="resetRanking()" style="background:#9d81d9; color:white; border:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.8rem; cursor:pointer; font-weight:700;">Reset Profile 🔄</button>
+</div>
+<!-- COINCIDENCE DECODER -->
+<div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">⚖️ Activity 2 — The Honesty Spectrum</h4>
+<p style="font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 1rem; line-height: 1.5;">
+In adult communication, we often soften our realities. Tap on either statement in each pair to choose which one is genuinely more honest, and read Carrie's secret commentary!
+</p>
+<div class="honesty-spectrums-grid" style="display: flex; flex-direction: column; gap: 15px;">
+<div class="honesty-pair" style="background: white; border: 1px solid var(--border); border-radius: 12px; padding: 1rem;">
+<div style="display: flex; gap: 10px; justify-content: stretch; align-items: stretch; flex-wrap: wrap;">
+<button class="honesty-btn" onclick="revealHonestyComment(this, 1, 'polite')" style="flex: 1; min-width: 200px; padding: 10px; border: 1px solid #3F2B96; background: transparent; color: #3F2B96; font-weight: 500; border-radius: 8px; cursor: pointer; transition: all 0.2s;">"I am doing my part to save the planet."</button>
+<button class="honesty-btn" onclick="revealHonestyComment(this, 1, 'raw')" style="flex: 1; min-width: 200px; padding: 10px; border: 1px solid #3F2B96; background: transparent; color: #3F2B96; font-weight: 500; border-radius: 8px; cursor: pointer; transition: all 0.2s;">"I am performing minor rituals to escape my overwhelming guilt."</button>
+</div>
+<div class="comment-reveal-box" id="comment-1" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; margin-top: 0; font-family: var(--font-serif); font-style: italic; color: #4c3185; font-size: 0.95rem; padding-left: 0.5rem; border-left: 2px dashed #9d81d9;"></div>
+</div>
+</div>
+</div>
+<!-- CLOSING METAPHOR -->
+<div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; box-shadow: var(--shadow-sm);">
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">🧭 Activity 3 — The Final Decision</h4>
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px; margin-bottom: 1rem;">
+<div class="lst-item" style="text-align:center; background: white; padding: 15px; border-radius: 12px; border: 1px solid var(--border);"><span style="font-size:2.5rem;">🌍</span><div style="font-weight:600; margin-top: 5px;">The Activist Mind</div></div>
+<div class="lst-item" style="text-align:center; background: white; padding: 15px; border-radius: 12px; border: 1px solid var(--border);"><span style="font-size:2.5rem;">🛌</span><div style="font-weight:600; margin-top: 5px;">The Peaceful Apathist</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center; font-weight: 600; color: #3F2B96;">Which path would you rather walk? Why?</p>
+</div>
 </div>
 </div>
 <div class="round-block round-2 open" id="s-r2">
@@ -328,9 +377,9 @@ Reflect on a major environmental or political decision from the past. How would 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const quotes = [
-    '"Why do we carry such a heavy individual self-guilt for crises we didn\'t start? Is this modern shame a productive cure or just a silent tax on comfort?"',
-    '"Are we genuinely responsible for saving a wounded planet, or are we just treating eco-anxiety as the latest, must-have psychological accessory?"',
-    '"I couldn\'t help but wonder... In a world where corporate giants pollute with impunity, is our small, personalized guilt just a way of feeling powerful when we are completely helpless?"'
+    '"Is \'I have no time\' the single most polite way of saying \'You simply do not make my heart beat fast enough\'?"',
+    '"We complain about packed schedules and relentless rush, but maybe we secretly crave the chaos to avoid sitting quietly with our own desires."',
+    '"If we can magically find two hours to binge-watch a new TV series, do we really get to claim that we are too busy to call a friend?"'
   ];
   let index = 0;
   const quoteText = document.getElementById('diary-quote');
@@ -342,6 +391,60 @@ document.addEventListener('DOMContentLoaded', () => {
       quoteText.innerText = quotes[index];
     });
   }
+
+  // Priority Ranker Logic
+  let currentRank = 1;
+  window.toggleRankItem = function(card) {
+    const badge = card.querySelector('.rank-badge');
+    if (card.classList.contains('ranked')) {
+      return;
+    }
+    card.classList.add('ranked');
+    card.style.borderColor = '#3F2B96';
+    card.style.background = '#EEEDFE';
+    badge.innerText = currentRank;
+    badge.style.background = '#3F2B96';
+    badge.style.color = '#fff';
+    currentRank++;
+  };
+
+  window.resetRanking = function() {
+    currentRank = 1;
+    const cards = document.querySelectorAll('.rank-card');
+    cards.forEach(card => {
+      card.classList.remove('ranked');
+      card.style.borderColor = 'var(--border)';
+      card.style.background = '#fff';
+      const badge = card.querySelector('.rank-badge');
+      badge.innerText = '?';
+      badge.style.background = '#e2e8f0';
+      badge.style.color = '#4a5568';
+    });
+  };
+
+  // Honesty Spectrum logic
+  const honestyComments = {1: {'polite': "✍️ Carrie's thought: 'We sort our plastic like ancient priests offering sacrifices to the weather gods. It is a quiet plea for absolution.'", 'raw': "✍️ Carrie's thought: 'Brutal honesty. It's much easier to carry a canvas tote bag than it is to face the collapse of our economic systems.'"}};
+
+  window.revealHonestyComment = function(btn, pairId, type) {
+    // Reset other button styles in the same pair
+    const pairContainer = btn.closest('.honesty-pair');
+    const buttons = pairContainer.querySelectorAll('.honesty-btn');
+    buttons.forEach(b => {
+      b.style.background = 'transparent';
+      b.style.color = '#3F2B96';
+    });
+
+    // Highlight the clicked button
+    btn.style.background = '#3F2B96';
+    btn.style.color = 'white';
+
+    const commentBox = pairContainer.querySelector('.comment-reveal-box');
+    if (commentBox) {
+      commentBox.innerText = honestyComments[pairId][type];
+      commentBox.style.marginTop = '1rem';
+      commentBox.style.maxHeight = '200px';
+    }
+  };
 });
 </script>
 </body>

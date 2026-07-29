@@ -246,36 +246,41 @@ How easily do you get distracted? Do you find it virtually impossible to study w
 <span>🟣 Let's Speak Together — The Ultimate Speculation</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<!-- DISTRACTION CHECKLIST -->
+<!-- PRIORITY COPE SCALE -->
 <div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
-<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">🧠 Activity 1 — The Distraction Checklist</h4>
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">⚡ Activity 1 — The Priority Tier</h4>
 <p style="font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 1rem; line-height: 1.5;">
-Are you clinical, or just modern? Tap the symptoms below that you have experienced today to calculate your attention profile!
+Why do we perform these behaviors? Tap on the choices below to assemble your personal psychological priority profile!
 </p>
 <div class="ranker-container" id="propitiation-ranker" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; margin-bottom: 1rem;">
-<div class="rank-card" data-reason="Multiple Tabs" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<div class="rank-card" data-reason="Over 10 Browser Tabs" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
 <span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">📂</span>
-<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Over 10 browser tabs open</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Over 10 Browser Tabs</span>
 <span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
 </div>
-<div class="rank-card" data-reason="Double Screen" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<div class="rank-card" data-reason="Scrolling While Watching TV" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
 <span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">📺</span>
-<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Scrolling while watching TV</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Scrolling While Watching TV</span>
 <span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
 </div>
-<div class="rank-card" data-reason="Forgot purpose" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<div class="rank-card" data-reason="Forgot Why I Entered a Room" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
 <span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">🚪</span>
-<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Forgot why I entered a room</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Forgot Why I Entered a Room</span>
+<span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
+</div>
+<div class="rank-card" data-reason="Clinical Defenses" onclick="toggleRankItem(this)" style="background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 10px; cursor: pointer; text-align: center; position: relative; transition: all 0.2s; user-select: none;">
+<span style="font-size: 1.5rem; display: block; margin-bottom: 4px;">🛡️</span>
+<span style="font-size: 0.85rem; font-weight: 500; color: var(--ink);">Clinical Defenses</span>
 <span class="rank-badge" style="position: absolute; top: -5px; right: -5px; background: #e2e8f0; color: #4a5568; font-size: 0.7rem; font-weight: bold; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">?</span>
 </div>
 </div>
-<button class="btn-primary" onclick="resetRanking()" style="background:#9d81d9; color:white; border:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.8rem; cursor:pointer; font-weight:700;">Reset Checklist 🔄</button>
+<button class="btn-primary" onclick="resetRanking()" style="background:#9d81d9; color:white; border:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.8rem; cursor:pointer; font-weight:700;">Reset Profile 🔄</button>
 </div>
-<!-- DIAGNOSIS ANALYZER -->
+<!-- COINCIDENCE DECODER -->
 <div class="activity-box" style="background: rgba(63, 43, 150, 0.03); border: 2px solid rgba(63, 43, 150, 0.15); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
-<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">⚖️ Activity 2 — Clinical Label vs Modern Environment</h4>
+<h4 style="margin: 0 0 1rem 0; font-family: var(--font-serif); font-size: 1.2rem; color: #1F104D;">⚖️ Activity 2 — The Honesty Spectrum</h4>
 <p style="font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 1rem; line-height: 1.5;">
-Why can't you focus? Tap an explanation below to reveal Carrie's diagnostic entry on our fragmented lives!
+In adult communication, we often soften our realities. Tap on either statement in each pair to choose which one is genuinely more honest, and read Carrie's secret commentary!
 </p>
 <div class="honesty-spectrums-grid" style="display: flex; flex-direction: column; gap: 15px;">
 <div class="honesty-pair" style="background: white; border: 1px solid var(--border); border-radius: 12px; padding: 1rem;">
@@ -424,14 +429,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // Honesty Spectrum logic
-
-  const honestyComments = {
-    1: {
-      polite: "✍️ Carrie's thought: 'A clinical label, a safe, biochemical defense. It provides a community, a name for the chaos, and a very soft armor. But does it cure the notifications?'",
-      raw: "✍️ Carrie's thought: 'A structural matrix optimized to steal your attention and monetize your distraction. The problem isn't in your head, it's on your screen.'"
-    }
-  };
-
+  const honestyComments = {1: {'polite': "✍️ Carrie's thought: 'A clinical label, a safe, biochemical defense. It provides a community, a name for the chaos, and a very soft armor.'", 'raw': "✍️ Carrie's thought: 'A structural matrix optimized to steal your attention and monetize your distraction. The problem isn't in your head, it's on your screen.'"}};
 
   window.revealHonestyComment = function(btn, pairId, type) {
     // Reset other button styles in the same pair
