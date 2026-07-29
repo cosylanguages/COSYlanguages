@@ -612,6 +612,36 @@ OPPOSITES_MAP = {
     "Désespoir": "L'espoir",
     "La mémoire": "L'oubli",
     "Prisonnière": "Libre",
+    "Karma": "Fate-less",
+    "Festering": "Healing",
+    "Boulder": "Pebble",
+    "Crush": "Elate",
+    "Defeat": "Triumph",
+    "Self-pity": "Self-compassion",
+    "Shards": "Whole",
+    "Deceive": "Be truthful",
+    "Deserve": "Forfeit",
+    "Folly": "Wisdom",
+    "Lucrative": "Unprofitable",
+    "Prestigious": "Obscure",
+    "Vocation": "Chore",
+    "Hesitation": "Alacrity",
+    "Ruin": "Restore",
+    "Inherently": "Superficially",
+    "Debt": "Asset",
+    "Regret": "Satisfaction",
+    "Expertise": "Incompetence",
+    "Avoid": "Confront",
+    "Mixed-up": "Orderly",
+    "Guidance": "Misdirection",
+    "Contradiction": "Consistency",
+    "Faith": "Doubt",
+    "Cynicism": "Optimism",
+    "Control": "Helplessness",
+    "Strength": "Weakness",
+    "Tough": "Fragile",
+    "Low": "High",
+    "Insane": "Sane",
     "damaged": "intact",
     "normal": "abnormal",
     "special": "ordinary",
@@ -1054,6 +1084,39 @@ OPPOSITES_MAP = {
 
 # Standardized Language Focus points
 LANGUAGE_FOCUS_DB = {
+    "mixed-up-world": {
+        "en": {
+            "title": "Adjectival Participles ('mixed-up') & Relatives",
+            "explanation": "In English, we can use past participles as adjectives (like 'mixed-up', 'messed up', 'shattered') to express emotional states or chaotic situations. Relatives like 'because', 'who', and 'that' allow us to connect these feelings to the people and moments that cause them.",
+            "examples": [
+                "I feel mixed-up because there are so many contradictory voices in my head.",
+                "People who help us find guidance are rare and precious.",
+                "The moments that change us often begin with feeling completely confused."
+            ]
+        }
+    },
+    "you-stupid-bitch": {
+        "en": {
+            "title": "Expressing Regret & Hypotheticals using 'Should Have' and 'Could Have'",
+            "explanation": "The song deals with deep feelings of self-sabotage and regret ('You ruined everything'). In English, we express regret about past actions that cannot be changed using 'should have + past participle' and past possibilities using 'could have + past participle'.",
+            "examples": [
+                "I should have told the truth instead of letting my lies fester and ruin our trust.",
+                "I could have been so close to paradise if I hadn't made such a foolish decision.",
+                "She should not have allowed her self-pity to drive her to deceive the people she loves."
+            ]
+        }
+    },
+    "dont-be-a-lawyer": {
+        "en": {
+            "title": "Imperative Verbs & Modals of Strong Advice ('should / must / ought to')",
+            "explanation": "The song uses direct imperatives (e.g., 'Don't be a lawyer!') to express powerful warnings. Combined with modals of strong advice like 'should', 'must', and 'ought to', we can construct compelling, persuasive arguments about life, work, and following one's passion.",
+            "examples": [
+                "Don't study law unless you are prepared to spend eighty hours a week workin' on pharmaceutical mergers.",
+                "You should avoid choosing a lucrative career if it inherently ruins your peace of mind.",
+                "We must listen to our true vocation instead of rushing into decisions with too much hesitation."
+            ]
+        }
+    },
     "toutes-les-machines-ont-le-coeur": {
         "en": {
             "title": "Verbe irrégulier 'battre' au présent",
@@ -1215,6 +1278,15 @@ LANGUAGE_FOCUS_DB = {
 
 # Standardized Final Challenges
 FINAL_CHALLENGE_DB = {
+    "mixed-up-world": {
+        "en": "Imagine Sophie Ellis-Bextor writes 'Mixed-Up World Part II'. What has changed in her life? Has her world become more orderly or more hopeful? Work in pairs to invent the sequel and describe the new chorus."
+    },
+    "dont-be-a-lawyer": {
+        "en": "The Career Pivot: Five years after leaving their corporate law firm to follow a happier career path, what is the protagonist doing now? Role-play a catch-up conversation between the former lawyer and an old high-school friend who is still working eighty hours a week."
+    },
+    "you-stupid-bitch": {
+        "en": "The Redemption Arc: Imagine Rebecca Bunch writes a sequel to this song where she makes peace with her mistakes and forgives herself. Work in pairs to describe this redemption song: What is the new, self-compassionate title, and what are some of the key lyric lines?"
+    },
     "toutes-les-machines-ont-le-coeur": {
         "en": "Write a short 3-sentence message to a robot explaining what makes the human heart fragile yet strong.",
         "fr": "Écrivez un court message de 3 phrases à un robot pour lui expliquer ce qui rend le cœur humain fragile mais fort."
@@ -1266,6 +1338,36 @@ VOCAB_DB = {
     "Désespoir": ("état de détresse extrême, perte de tout espoir.", "Elle a surmonté son grand désespoir grâce au soutien de ses amis."),
     "La mémoire": ("faculté de conserver et de se rappeler des états de conscience passés.", "Elle a une excellente mémoire pour retenir les dates historiques."),
     "Prisonnière": ("personne privée de sa liberté, enfermée.", "Elle se sent prisonnière de ses propres pensées négatives."),
+    "Karma": ("the sum of a person's actions in this and previous states of existence, viewed as deciding their fate in future existences.", "She believes that helping others brings good karma back to her life."),
+    "Festering": ("becoming worse or more intense, especially through long-term neglect or indifference.", "Leaving an argument unresolved leads to festering resentment between friends."),
+    "Boulder": ("a large rock, typically one that has been worn smooth by erosion.", "The sudden financial crisis felt like a massive boulder crushing his plans."),
+    "Crush": ("to deform, pulverize, or force inwards by compressing forcefully.", "The heavy weight of his mistakes threatened to crush his confidence."),
+    "Defeat": ("an instance of defeating or being defeated; failure to win or succeed.", "Accepting defeat gracefully is an essential step toward future improvement."),
+    "Self-pity": ("excessive, self-indulgent, and self-centered sorrow over one's own sufferings.", "Instead of wallowing in self-pity after the setback, she started looking for solutions."),
+    "Shards": ("pieces of broken ceramic, metal, glass, or stone, typically having sharp edges.", "She carefully swept up the shards of the shattered glass vase."),
+    "Deceive": ("to deliberately cause someone to believe something that is not true, especially for personal gain.", "It is never a good idea to deceive the people who support you."),
+    "Deserve": ("to do something or have or show qualities worthy of reward or punishment.", "Everyone makes mistakes, but we all deserve a second chance to fix them."),
+    "Folly": ("lack of good sense; foolishness.", "It was complete folly to believe that his lies would never be discovered."),
+    "Lucrative": ("producing a great deal of profit; profitable.", "He decided to leave his low-paying job to pursue a more lucrative career in tech."),
+    "Prestigious": ("inspiring respect and admiration; having high status.", "Glendale University is not exactly a prestigious Ivy League school."),
+    "Vocation": ("a strong feeling of suitability for a particular career or occupation; a calling.", "She always felt that teaching was her true vocation, not just a way to pay the bills."),
+    "Hesitation": ("the action of pausing or hesitating before saying or doing something.", "She accepted the job offer without a moment's hesitation."),
+    "Ruin": ("to damage or destroy something completely.", "Working eighty hours a week is the quickest way to ruin your mental health."),
+    "Inherently": ("in a permanent, essential, or characteristic way.", "Many people believe that corporate law is inherently stressful and unhappy."),
+    "Debt": ("something, typically money, that is owed or due.", "Going to law school left him with a mountain of student debt."),
+    "Regret": ("a feeling of sadness, repentance, or disappointment over something done or omitted.", "Despite the low salary, he has no regret about choosing to become a tailor."),
+    "Expertise": ("expert skill or knowledge in a particular field.", "His primary expertise lies in tax law and small business consulting."),
+    "Avoid": ("to keep away from or stop oneself from doing something.", "If you want to be happy, you should avoid toxic work environments."),
+    "Mixed-up": ("feeling confused, bewildered, or disorganized.", "He felt completely mixed-up after hearing conflicting instructions."),
+    "Guidance": ("advice or information aimed at resolving a problem or difficulty.", "She turned to her mentor for some much-needed guidance during the crisis."),
+    "Contradiction": ("a combination of statements, ideas, or features which are opposed to one another.", "There is a clear contradiction between his words and his actual actions."),
+    "Faith": ("complete trust or confidence in someone or something.", "Despite the setbacks, she never lost her faith in the success of the project."),
+    "Cynicism": ("an inclination to believe that people are motivated purely by self-interest.", "Her natural cynicism made it difficult for her to trust new acquaintances."),
+    "Control": ("the power to influence or direct people's behavior or the course of events.", "She struggled to regain control of her emotions after the shocking news."),
+    "Strength": ("the quality or state of being physically or mentally strong.", "It takes immense inner strength to admit when you are wrong and apologize."),
+    "Tough": ("strong enough to withstand adverse conditions or rough handling.", "She proved to be a tough negotiator during the business merger."),
+    "Low": ("feeling depressed, quiet, or lacking energy.", "She has been feeling a bit low lately due to the dark winter weather."),
+    "Insane": ("extremely foolish, irrational, or mentally deranged.", "It is completely insane to expect different results while doing the exact same thing."),
     "damaged": ("harmed or spoiled; not in perfect condition.", "The old guitar was damaged during the long journey."),
     "normal": ("conforming to a standard; usual, typical, or expected.", "It is completely normal to feel nervous before a big presentation."),
     "special": ("better, greater, or otherwise different from what is usual.", "She prepared a special dinner to celebrate her promotion."),
@@ -2033,6 +2135,13 @@ if os.path.exists(GRAMMAR_MD_PATH):
                     }
 
 def get_language_focus(slug, lang):
+    if slug in LANGUAGE_FOCUS_DB:
+        entry = LANGUAGE_FOCUS_DB[slug]
+        if lang in entry:
+            return entry[lang]
+        if "en" in entry:
+            return entry["en"]
+
     if slug in BRAINSTORM_KARAOKE_MAP:
         bdata = BRAINSTORM_KARAOKE_MAP[slug]
         focus = bdata["focus"]
@@ -2906,6 +3015,193 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
 
         r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
 
+    if slug == "you-stupid-bitch":
+        warmup_questions_html = """            <li>Have you ever experienced a moment where you felt like you 'ruined everything' after making a mistake?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "You Stupid Bitch". Do you think this song is an angry attack on someone else, or a deeply self-critical song?</li>
+            <li>Why is it often much harder to forgive ourselves for mistakes than it is to forgive others?</li>
+            <li>What kind of emotional atmosphere do you expect from a song with such an intense, dramatic title?</li>
+        """
+
+        r1_questions_html = ""
+        you_bitch_r1 = [
+            ("Rebecca sings that <strong>Karma</strong> has come to tap her on the shoulder. Do you believe in karma as a balancing force in life?", "★ Have you ever felt that a bad decision immediately brought negative <strong>Karma</strong> back to you?"),
+            ("The lyrics describe her lies as '<strong>Festering</strong>.' Why do secrets and lies feel like they are decaying or festering over time?", "★ How do you prevent a small misunderstanding with a friend from <strong>Festering</strong> into a major conflict?"),
+            ("The song says her dishonesty is coming to crush her like a <strong>Boulder</strong>. What is the heaviest emotional weight you've had to carry?", "★ When a task feels as massive as moving a <strong>Boulder</strong>, how do you motivate yourself to start?"),
+            ("Her self-sabotaging actions threaten to <strong>Crush</strong> her happiness. Why do people sometimes ruin their own good situations?", "★ What is one piece of negative criticism that you had to make sure did not <strong>Crush</strong> your spirit?"),
+            ("The singer feels she is incredibly close to absolute <strong>Defeat</strong>. What is the difference between failing and accepting permanent defeat?", "★ Tell us about a setback that felt like a major <strong>Defeat</strong> at the time, but actually taught you a valuable lesson."),
+            ("Rebecca admits she won't stop her <strong>Self-pity</strong> because she is 'on a roll.' Why can wallowing in self-pity be strangely addictive?", "★ What is your favorite way to break out of a cycle of <strong>Self-pity</strong> and focus on positive actions?"),
+            ("She uses broken glass <strong>Shards</strong> as a metaphor for her soul. What other physical objects make great metaphors for emotional states?", "★ Have you ever had to carefully pick up the <strong>Shards</strong> of a broken project or plan and start over?"),
+            ("She is angry with herself because she chose to <strong>Deceive</strong> the people she loves. Why is deception of loved ones so uniquely painful?", "★ Have you ever had to apologize after realizing you accidentally chose to <strong>Deceive</strong> or mislead someone?"),
+            ("Rebecca feels she is a horrible person who completely <strong>Deserves</strong> this painful situation. Is self-punishment ever helpful?", "★ What is an achievement or reward in your life that you feel you truly worked hard to <strong>Deserve</strong>?"),
+            ("Looking back, her elaborate schemes were complete <strong>Folly</strong>. Why do highly intelligent people sometimes make foolish mistakes?", "★ Tell us about a minor, funny <strong>Folly</strong> or silly mistake you made recently that made you laugh at yourself.")
+        ]
+        for q_main, q_pers in you_bitch_r1:
+            r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+        r1_questions_html += """
+        <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>Before Listening:</strong> Predict based on the title: Do you expect a highly aggressive punk rock song, or a slow, melancholic theatrical ballad?</li>
+            <li><strong>After Verse 1 (Pause &amp; Predict):</strong> Pause after 'coming now to crush you like a boulder'. Why does Rebecca sound almost proud or dramatic about her own ruin?</li>
+            <li><strong>During the Chorus (Self-criticism):</strong> Why does the song use a grand, sweeping orchestral style while the lyrics are incredibly harsh and self-abusing? How does this contrast feel?</li>
+            <li><strong>During the Audience Participation:</strong> Listen to the moment she asks the audience to sing along 'You ruined everything, you stupid bitch!'. What is the psychological effect of having an audience join in self-abuse?</li>
+            <li><strong>After Singing/Listening (Lyrical Takeaway):</strong> Which specific metaphor (like 'shards', 'boulder', or 'festering') speaks to you most about regret? Why?</li>
+          </ul>
+        </div>
+        """
+
+        r2_statements_html = ""
+        you_bitch_r2 = [
+            "Believing in <strong>Karma</strong> helps people cope with unfair situations, even if the universe isn't actually keeping score. Agree or disagree?",
+            "It is far healthier to express anger immediately than to let your feelings keep <strong>Festering</strong> inside. Agree or disagree?",
+            "We often amplify our small mistakes into a massive <strong>Boulder</strong> of guilt because we love drama. Agree or disagree?",
+            "Experiencing hardships that <strong>Crush</strong> our expectations is the only way to build genuine emotional resilience. Agree or disagree?",
+            "Accepting <strong>Defeat</strong> early in a hopeless project is a sign of high intelligence, not weakness. Agree or disagree?",
+            "A short period of <strong>Self-pity</strong> is a natural and necessary part of grieving a major mistake. Agree or disagree?",
+            "When a relationship breaks into <strong>Shards</strong>, it is better to walk away than to try to glue it back together. Agree or disagree?",
+            "It is sometimes acceptable to <strong>Deceive</strong> others if the truth would cause them unnecessary, non-constructive pain. Agree or disagree?",
+            "Everyone, regardless of their past mistakes or bad choices, <strong>Deserves</strong> compassion and forgiveness. Agree or disagree?",
+            "Learning from our own historical <strong>Folly</strong> is much more powerful than reading any self-help book. Agree or disagree?"
+        ]
+        for stmt in you_bitch_r2:
+            r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+        r2_statements_html += """
+        <div class="lyrics-checkpoint" style="background: #FAEEE8; border-left: 4px solid var(--orange); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--orange); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">❤️ Emotional &amp; Creative Reaction Activities</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>The Lyric Spotlight:</strong> Which line of self-talk or regret in the song feels most honest or relatable? Why?</li>
+            <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"It is important to forgive ourselves when...\"</em></li>
+          </ul>
+        </div>
+        """
+
+    elif slug == "dont-be-a-lawyer":
+        warmup_questions_html = """            <li>How important is your choice of career to your overall happiness?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "Don't Be a Lawyer". Do you think this is a serious warning, or a satirical/humorous take on the profession?</li>
+            <li>What makes some job fields (like law, medicine, or finance) seem highly desirable from the outside?</li>
+            <li>Have you ever spent a lot of time on a path that you quickly realized was not right for you?</li>
+        """
+
+        r1_questions_html = ""
+        dont_lawyer_r1 = [
+            ("The song warns against choosing a career path just because it seems <strong>Lucrative</strong>. Why do people often prioritize money over passion?", "★ If you won the lottery tomorrow, would you still continue in your current field, or do something less <strong>Lucrative</strong>?"),
+            ("The protagonist was accepted into Glendale U because it was a 'safe bet' for a <strong>Prestigious</strong> vocation. Does prestige guarantee job satisfaction?", "★ Have you ever felt pressure from your parents or peers to attend a <strong>Prestigious</strong> institution or choose a specific high-status job?"),
+            ("Jim says he became an attorney 'without a moment's hesitation' because it seemed like a solid <strong>Vocation</strong>. What is your true calling?", "★ Do you believe that everyone has one specific <strong>Vocation</strong>, or can we find fulfillment in many different careers?"),
+            ("Rushing into a huge career choice with too much <strong>Hesitation</strong> can lead to deep regret. How can we make better life choices?", "★ Tell us about a time you made a major decision without any <strong>Hesitation</strong>. Did it turn out well?"),
+            ("The lyrics advise that corporate law is the quickest way to <strong>Ruin</strong> your life. How does overworking affect our personal lives?", "★ What is one bad habit or stressor that has the potential to <strong>Ruin</strong> a perfectly good weekend for you?"),
+            ("The singer claims the job of an attorney is <strong>Inherently</strong> crappy. What makes a work environment inherently unhappy?", "★ Do you think that high-stress jobs are <strong>Inherently</strong> bad, or does it depend entirely on the person's attitude and coping skills?"),
+            ("Law school is notorious for leaving graduates with massive student <strong>Debt</strong>. Is a high-status degree worth the financial burden?", "★ What is the best financial advice you've ever received for managing or avoiding personal <strong>Debt</strong>?"),
+            ("The song contrasts daily professional <strong>Regret</strong> with simple, happy trades like tailoring. Why do simple jobs bring so much peace?", "★ What is one choice in your past that you initially questioned, but now look back on with absolutely zero <strong>Regret</strong>?"),
+            ("Jim jokes that your only <strong>Expertise</strong> as a lawyer is 'runnin' up fees and speakin' legalese.' What is your main professional strength?", "★ Is there a specific skill or area of <strong>Expertise</strong> you would love to master in the next five years?"),
+            ("The song tells us that it is never too late to <strong>Avoid</strong> this unhappy fate. How can someone successfully pivot their career?", "★ What is a toxic type of conversation or situation at work that you always try your best to <strong>Avoid</strong>?")
+        ]
+        for q_main, q_pers in dont_lawyer_r1:
+            r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+        r1_questions_html += """
+        <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>Before Listening:</strong> Predict based on the title 'Don't Be a Lawyer': Do you think this song is an intense, dramatic warning, or a lighthearted, fast-paced parody?</li>
+            <li><strong>After Verse 1 (Pause &amp; Predict):</strong> Pause after Jim says he got accepted at Glendale U. What kind of future is he setting up? Do you expect him to be happy or miserable?</li>
+            <li><strong>After the first Chorus (Rhythmic Delivery):</strong> How does the fast, energetic rhythm and the backup dancers' enthusiasm contrast with the extremely negative advice being given?</li>
+            <li><strong>During the Specialty Law QA (Musical Comedy):</strong> Listen to the section where characters ask about 'human rights law', 'environmental law', and 'immigration law'. Why does Jim keep repeating 'No money, plus it's a bummer'?</li>
+            <li><strong>After Singing/Listening (Lyrical Takeaway):</strong> Which specific warning or joke in the song made you laugh or think the most? Why?</li>
+          </ul>
+        </div>
+        """
+
+        r2_statements_html = ""
+        dont_lawyer_r2 = [
+            "Pursuing a highly <strong>Lucrative</strong> career is pointless if the daily work is inherently miserable. Agree or disagree?",
+            "Society places too much value on <strong>Prestigious</strong> titles (like doctor, lawyer, or executive) instead of actual happiness. Agree or disagree?",
+            "Most people don't find their true <strong>Vocation</strong> until they are in their thirties or forties. Agree or disagree?",
+            "Taking a year off to travel or reflect is a sign of wisdom, not lazy <strong>Hesitation</strong>. Agree or disagree?",
+            "Working eighty hours a week will eventually <strong>Ruin</strong> any personal relationship. Agree or disagree?",
+            "No job is <strong>Inherently</strong> perfect; satisfaction is entirely what you make of it. Agree or disagree?",
+            "Going into heavy financial <strong>Debt</strong> for education is a sensible investment in your future. Agree or disagree?",
+            "It is far better to change your path late in life than to live with the <strong>Regret</strong> of what could have been. Agree or disagree?",
+            "In the modern job market, having broad adaptability is more valuable than highly narrow technical <strong>Expertise</strong>. Agree or disagree?",
+            "The best way to <strong>Avoid</strong> professional burnout is to strictly separate your job from your personal identity. Agree or disagree?"
+        ]
+        for stmt in dont_lawyer_r2:
+            r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+        r2_statements_html += """
+        <div class="lyrics-checkpoint" style="background: #FAEEE8; border-left: 4px solid var(--orange); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--orange); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">❤️ Emotional &amp; Creative Reaction Activities</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>The Lyric Spotlight:</strong> Which advice line from Jim speaks to you most directly? Choose one line and explain why. (e.g., 'Find any other job to pick' or 'It's a guaranteed soul destroyer').</li>
+            <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"A job is inherently satisfying when...\"</em></li>
+          </ul>
+        </div>
+        """
+
+    elif slug == "mixed-up-world":
+        warmup_questions_html = """            <li>How important is this discussion theme in your daily life?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> Based on the title 'Mixed Up World' and the artist: Do you think this song is sad and hopeless, or upbeat and energetic?</li>
+            <li>Have you ever felt that your life was "mixed up" even though everything looked fine from the outside? (Personalizing the title)</li>
+            <li>Look at the title 'mixed up world' and the artist 'Sophie Ellis-Bextor'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+        """
+
+        r1_questions_html = ""
+        mixed_up_r1 = [
+            ("In the song, the singer feels \"mixed up.\" Why do you think she uses this phrase instead of saying she is \"sad\" or \"unhappy\"?", "★ Have you ever felt that your life was \"mixed up\" even though everything looked fine from the outside?"),
+            ("The singer says she needs <strong>Guidance</strong>. Why do you think she doesn't trust herself at that moment?", "★ Who is the first person you turn to when you need <strong>Guidance</strong> in your life?"),
+            ("The singer says \"all I see is <strong>Contradiction</strong>.\" What are some everyday contradictions you notice in modern society?", "★ Have you ever had to deal with a <strong>Contradiction</strong> in your own goals or feelings?"),
+            ("The lyrics mention a \"lack of <strong>Faith</strong>.\" How does a lack of faith in those around us affect our daily peace of mind?", "★ What is one thing that always restores your <strong>Faith</strong> in humanity when you are feeling low?"),
+            ("The singer believes that \"<strong>Cynicism</strong> rules the day.\" Do you think cynicism is a realistic defense mechanism or just a negative outlook?", "★ How do you protect yourself from <strong>Cynicism</strong> in a world full of negative news?"),
+            ("The chorus urges us \"to start to take <strong>Control</strong>.\" When everything feels chaotic, what is the first small thing you try to take control of?", "★ Do you find it easy or difficult to accept when things are completely out of your <strong>Control</strong>?"),
+            ("At the end of the song, do you think the singer feels stronger than at the beginning, finding her inner <strong>Strength</strong>?", "★ What is a personal experience that has tested your inner <strong>Strength</strong> and helped you grow?"),
+            ("The chorus says \"remember you're a real <strong>Tough</strong> girl.\" Does \"being tough\" mean hiding your tears, or is there strength in vulnerability?", "★ Who is the toughest (<strong>Tough</strong>) person you know, and what makes them so resilient?"),
+            ("The pre-chorus says \"I've never felt so <strong>Low</strong>.\" During low moments, is it more helpful to listen to upbeat music or sad music?", "★ What quiet activity always helps you when you are feeling a bit <strong>Low</strong>?"),
+            ("The singer asks \"Why has this world gone <strong>Insane</strong>?\" What is one modern habit or trend that seems completely insane to you?", "★ How do you preserve your own sanity (<strong>Insane</strong>) and balance when the world around you gets too hectic?")
+        ]
+        for q_main, q_pers in mixed_up_r1:
+            r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+        r1_questions_html += """
+        <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>Before Listening:</strong> Predict based on the title 'Mixed Up World' and the artist: Do you think this song is sad and hopeless, or upbeat and energetic?</li>
+            <li><strong>After Verse 1 (Pause &amp; Predict):</strong> Pause the track. The singer says she's feeling \"all messed up\" and needs guidance. What do you think her next step will be?</li>
+            <li><strong>After Chorus (Rhythmic Repetition):</strong> Why do you think the line \"it's a mixed up world\" repeats so often? How does the tempo match this repetitive message?</li>
+            <li><strong>After Bridge (Musical Mood Shift):</strong> Listen to the shift in mood when she asks \"Why has this world gone insane?\". Has her tone changed from vulnerable to determined?</li>
+            <li><strong>After Singing/Listening (Lyrical Takeaway):</strong> Which lyric will stay with you tomorrow? Choose one line and explain why.</li>
+          </ul>
+        </div>
+        """
+
+        r2_statements_html = ""
+        mixed_up_r2 = [
+            "The song suggests that everyone feels lost sometimes, making <strong>Mixed-up</strong> feelings a universal human experience. Agree or disagree?",
+            "Looking for <strong>Guidance</strong> from others is a sign of strength, not weakness. Agree or disagree?",
+            "It is impossible to find peace of mind when your actions are in constant <strong>Contradiction</strong> with your beliefs. Agree or disagree?",
+            "In a chaotic world, finding <strong>Faith</strong> in a community is more important than personal success. Agree or disagree?",
+            "A certain amount of <strong>Cynicism</strong> is necessary to survive and protect oneself in modern society. Agree or disagree?",
+            "True <strong>Control</strong> over our lives is an illusion; we can only control our reactions. Agree or disagree?",
+            "We cannot truly appreciate our inner <strong>Strength</strong> until we have experienced moments of deep failure and doubt. Agree or disagree?",
+            "Labeling someone as <strong>Tough</strong> puts too much pressure on them to hide their pain. Agree or disagree?",
+            "The best way to heal during <strong>Low</strong> moments is to help someone else who is struggling. Agree or disagree?",
+            "The world has always been <strong>Insane</strong>; modern media just makes us more aware of it. Agree or disagree?"
+        ]
+        for stmt in mixed_up_r2:
+            r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+        r2_statements_html += """
+        <div class="lyrics-checkpoint" style="background: #FAEEE8; border-left: 4px solid var(--orange); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--orange); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">❤️ Emotional &amp; Creative Reaction Activities</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>The Lyric Spotlight:</strong> Which lyric speaks to you most today? Choose one line and explain why. (There are no right or wrong answers!)</li>
+            <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"The world feels mixed up when...\"</em></li>
+          </ul>
+        </div>
+        """
+
     mistakes_html = ""
     m_list = MISTAKES_DB[lang] if lang in MISTAKES_DB else MISTAKES_DB["en"]
     for wrong, right, explanation in m_list:
@@ -3211,7 +3507,7 @@ COMPLETE_SONG_VOCAB = {
     "a-diagnosis": ["diagnosis", "neurosis", "label", "free", "supposed", "relief", "clarity", "mental", "illness", "name"],
     "after-everything-ive-done-for-you": ["done", "direction", "affection", "face", "place", "support", "treat", "help", "anger", "lonely"],
     "antidepressants-are-so-not-a-big-deal": ["deal", "heal", "day", "shame", "better", "antidepressants", "brain", "shadow", "help", "therapy"],
-    "dont-be-a-lawyer": ["lawyer", "greedy", "stress", "ceiling", "guidance", "job", "hours", "passion", "money", "follow"],
+    "dont-be-a-lawyer": ["Lucrative", "Prestigious", "Vocation", "Hesitation", "Ruin", "Inherently", "Debt", "Regret", "Expertise", "Avoid"],
     "eleven-oclock": ["awake", "mistake", "decision", "fight", "answers", "eleven", "thinking", "painful", "spinning", "resolution"],
     "face-your-fears": ["Insecurity", "fear", "tiptoe", "frightened", "stare", "scary", "courage", "scared", "brave", "run"],
     "fit-hot-guys-have-problems-too": ["problems", "perfect", "screen", "insecurities", "tears", "sad", "dream", "fears", "silent", "guys"],
@@ -3234,7 +3530,8 @@ COMPLETE_SONG_VOCAB = {
     "whos-the-new-guy": ["office", "mysterious", "tribe", "investigate", "trouble", "new", "career", "curiosity", "change", "welcome"],
     "without-love-you-can-save-the-world": ["love", "focus", "drama", "explore", "door", "save", "world", "free", "crying", "public"],
     "women-gotta-stick-together": ["together", "support", "journey", "rivalry", "unity", "stick", "storm", "rivals", "stronger", "friendship"],
-    "you-stupid-bitch": ["ruined", "ring", "mess", "strife", "dying", "stupid", "lose", "crying", "regret", "dark"]
+    "you-stupid-bitch": ["Karma", "Festering", "Boulder", "Crush", "Defeat", "Self-pity", "Shards", "Deceive", "Deserve", "Folly"],
+    "mixed-up-world": ["Mixed-up", "Guidance", "Contradiction", "Faith", "Cynicism", "Control", "Strength", "Tough", "Low", "Insane"]
 }
 
 songs_list = []
