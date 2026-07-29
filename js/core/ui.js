@@ -3303,6 +3303,37 @@
         tryAutoplay();
     };
 
+    const autoCollapseFoldableSections = () => {
+        const foldables = document.querySelectorAll('.round-block, .mistake-block');
+        foldables.forEach(el => {
+            const id = el.id;
+            if (!id) return;
+            // Keep vocabulary open
+            if (id === 'vocabulary' || id.startsWith('vocabulary-')) {
+                return;
+            }
+            // Keep description open
+            if (id === 'description' || id.startsWith('description-')) {
+                return;
+            }
+
+            // Remove open class
+            el.classList.remove('open');
+
+            // Handle body element visibility
+            const body = el.querySelector('.round-body, .vocab-body, .history-body, .history-session-body, .mistake-body');
+            if (body) {
+                body.style.display = 'none';
+            }
+
+            // Handle arrow toggle text
+            const toggle = el.querySelector('.round-toggle');
+            if (toggle) {
+                toggle.textContent = '▼';
+            }
+        });
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         if (window.COSY) {
@@ -3313,6 +3344,7 @@
         setupScrollReveal();
         setupClubFilters();
         setupSessionSwitcher();
+        autoCollapseFoldableSections();
         setupWonderMusic();
         setupWonderSessionAudio();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();

@@ -9,6 +9,9 @@ test.describe('Vocabulary Hover Tooltip Feature', () => {
     const tooltip = page.locator('#vocab-hover-tooltip');
     await expect(tooltip).not.toBeVisible();
 
+    // Since sections are collapsed by default, expand the warm-up section first
+    await page.locator('#s-warm .round-header').click();
+
     // Find the trigger for the word 'Criticism' (usually inside discussion questions or prompts)
     const trigger = page.locator('.vocab-hover-trigger', { hasText: /^Criticism$/i }).first();
     await expect(trigger).toBeVisible();
