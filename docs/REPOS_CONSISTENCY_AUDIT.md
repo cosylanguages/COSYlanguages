@@ -1,0 +1,2853 @@
+# Repository-Wide Consistency Audit Report
+
+This report is the result of a comprehensive repository-wide scan auditing naming, heading styles, markdown formatting, templates, links, images, metadata, filenames, capitalization, navigation, and script/asset references.
+
+
+## 1. Inconsistent Naming (330 items)
+
+- File `events/fr/sessions/debatable-relatable/l-aide-active-a-mourir.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('L'aide active à mourir : oui ou non ? — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/debatable-relatable/la-semaine-de-4-jours.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('La semaine de 4 jours — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/death-of-the-album.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('I Couldn't Help But Wonder — La Mort de l'Album — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('I Couldn't Help But Wonder — Le Vide Post-Série — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('L'instinct parental est-il une réalité ou une illusion ? — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('I Couldn't Help But Wonder — Légumes Moches & Anti-Gaspillage — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Pourquoi essayons-nous de nous identifier au TDAH ? — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/accept-gay-child.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Si vous n'acceptez pas un enfant gay... — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/ai-opposite-of-art.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('L'IA est l'opposé de la prise de risque... — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/dangerous-blindness-perspective.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('La forme la plus dangereuse de cécité... — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('L'enfant difficile — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/favorite-days-not-happened.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Certains de vos jours préférés... — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/home-is-a-time.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Le foyer n'est pas un lieu - c'est un temps — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/la-sagesse-de-socrate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('La sagesse de Socrate — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/must-die-first.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Les gens ont de belles choses à dire sur vous... — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/saudade.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Saudade — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/sonder.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Sonder — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/voltaire-read-dance-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Lire et danser — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/women-mothers-tragedy.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Toutes les femmes deviennent comme leur mère... — COSYlanguages') or `<h1>`.
+- File `events/fr/sessions/the-greatest-quotes/you-are-a-soul.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Vous n'avez pas d'âme. Vous êtes une âme. — COSYlanguages') or `<h1>`.
+- File `events/ru/sessions/debatable-relatable/4-dnevnaya-rabochaya-nedelya.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('4-дневная рабочая неделя — COSYlanguages') or `<h1>`.
+- File `events/ru/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Право быть трудным — COSYlanguages') or `<h1>`.
+- File `events/ru/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Любовь и доверие — COSYlanguages') or `<h1>`.
+- File `events/ru/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Политика и религия — COSYlanguages') or `<h1>`.
+- File `events/ru/sessions/the-greatest-quotes/langle-suppressed-child-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Удобный ребенок — COSYlanguages') or `<h1>`.
+- File `events/ru/sessions/the-greatest-quotes/neufeld-resistance-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Когда ребенок перестает сопротивляться — COSYlanguages') or `<h1>`.
+- File `events/ru/sessions/the-greatest-quotes/prishvin-convenient-people-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Удобные люди — COSYlanguages') or `<h1>`.
+- File `events/ru/sessions/the-greatest-quotes/sukhomlinsky-obedience-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Привычка подчиняться — COSYlanguages') or `<h1>`.
+- File `events/ru/sessions/the-greatest-quotes/think-for-yourself-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Ты так думаешь? — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/101-and-102-dalmatians.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('101 & 102 Dalmatians — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/16-wishes.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('16 Wishes — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/a-quiet-place.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('A Quiet Place — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/about-time.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('About Time — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/adolescence.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Adolescence — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/angels-and-demons.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Angels & Demons — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/beautiful-thing-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Beautiful Thing — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/beautiful-thing-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Beautiful Thing — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/bird-box.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Bird Box — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/black-mirror.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Black Mirror — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/bohemian-rhapsody.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Bohemian Rhapsody — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/breakfast-at-tiffanys.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Breakfast at Tiffany's — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/call-me-by-your-name.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Call Me by Your Name — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/charade.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Charade — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/cloud-atlas.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Cloud Atlas — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/coda-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('CODA — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/coda-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('CODA — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/countdown.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Countdown — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/crazy-ex-girlfriend.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Crazy Ex-Girlfriend — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/death-becomes-her.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Death Becomes Her — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/destino.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Destino — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/dont-look-up.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Don't Look Up — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/dont-worry-darling.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Don't Worry Darling — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/equals.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Equals — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/fleabag.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Fleabag — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/free-guy-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Free Guy — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/free-guy-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Free Guy — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/funny-girl.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Funny Girl — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/glee-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Glee — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/glee-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Glee — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/gone-girl.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Gone Girl — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/heathers-the-musical.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Heathers: The Musical — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/hello-dolly-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Hello Dolly — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/hello-dolly-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Hello Dolly — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/hereditary.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Hereditary — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/homeward-bound.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Homeward Bound — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/how-i-live-now.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('How I Live Now — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/how-to-be-single.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('How to Be Single — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/incendies.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Incendies — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/its-complicated.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('It's Complicated — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/julie-and-julia-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Julie & Julia — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/julie-and-julia-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Julie & Julia — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/just-my-luck.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Just My Luck — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/karlik-nos-dwarf-nose.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Karlik Nos (Dwarf Nose) — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/kill-bill.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Kill Bill — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/killing-eve.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Killing Eve — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/kinky-boots.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Kinky Boots — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/la-valla.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('La Valla (The Barrier) — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/lattente.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('L'attente — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/leave-the-world-behind.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Leave the World Behind — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/lending-my-wings.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Lending My Wings — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/lost.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Lost — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/love-and-other-drugs.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Love & Other Drugs — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/luck.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Luck — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/lucy.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Lucy — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/mamma-mia.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Mamma Mia — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/midsommar.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Midsommar — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/miss-you-already.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Miss You Already — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/missing-searching.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Missing / Searching — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/mrs.-harris-goes-to-paris.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Mrs. Harris Goes to Paris — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/now-you-see-me.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Now You See Me — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/nuts.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Nuts — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/odd-thomas.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Odd Thomas — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/on-a-clear-day-you-can-see....html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('On a Clear Day You Can See... — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/once-and-forever.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Once and Forever — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/once-upon-a-time....html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Once Upon A Time... — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/personal-shopper.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Personal Shopper — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/queendom.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Queendom — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/radin.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Radin — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/ratatouille.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Ratatouille — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/roman-holiday-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Roman Holiday — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/roman-holiday-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Roman Holiday — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/run.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Run — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/serebryanye-konki.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Serebryanye Konki (Silver Skates) — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/sex-and-the-city.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Sex and the City — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/shes-the-man.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('She's the Man — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/spoiler-alert.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Spoiler Alert — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/stepmom-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Stepmom — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/stepmom-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Stepmom — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/still-alice.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Still Alice — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/suspiria-2018.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Suspiria (2018) — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-act.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Act — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-age-of-adaline.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Age of Adaline — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-call.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Call — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-da-vinci-code.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Da Vinci Code — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-devil-wears-prada-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Devil Wears Prada — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-devil-wears-prada-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Devil Wears Prada — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-first-wives-club-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The First Wives Club — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-first-wives-club-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The First Wives Club — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-hunger-games.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Hunger Games — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-invasion.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Invasion — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-iron-lady.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Iron Lady — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-mirror-has-two-faces.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Mirror Has Two Faces — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-mummy-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Mummy — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-mummy-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Mummy — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-notebook-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Notebook — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-notebook-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Notebook — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-odyssey.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Odyssey — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-others.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Others — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-owl-and-the-pussycat.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Owl and the Pussycat — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-pianist-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Pianist — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-pianist-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Pianist — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-queens-gambit.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Queen's Gambit — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-regime.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Regime — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-shape-of-water.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Shape of Water — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-substance.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Substance — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/the-swan-princess.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('The Swan Princess — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/v-for-vendetta.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('V for Vendetta — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/what-women-want-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('What Women Want — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/what-women-want-upper-intermediate.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('What Women Want — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/why-women-kill.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Why Women Kill — COSYlanguages') or `<h1>`.
+- File `events/sessions/cinema-club/yentl.html` in club `Cinema Club` is missing standard sequential numbering prefixes (such as Reel #, Bobine #) in its `<title>` ('Yentl — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/4-day-work-week.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('The 4-Day Work Week — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/ai-and-art.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('AI and Art — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/assisted-dying.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Assisted Dying: Yes or No — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/homework-ban.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Homework should be banned — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/human-cloning-intermediate.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Human Cloning — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/human-cloning-upper-intermediate.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Human Cloning — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/meta-subscriptions.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Paid Subscriptions — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/pedagogy-and-practice.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Pedagogy & Practice — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/short-holiday-vs-long-holiday-elementary.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Short Holiday vs Long Holiday — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/short-holiday-vs-long-holiday-intermediate.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Short Holiday vs Long Holiday — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/short-holiday-vs-long-holiday-upper-intermediate.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Short Holiday vs Long Holiday — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/the-future-proof-educator.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('The Future-Proof Educator — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-elementary.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Typing vs Handwriting — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Typing vs Handwriting — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-upper-intermediate.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Typing vs Handwriting — COSYlanguages') or `<h1>`.
+- File `events/sessions/debatable-relatable/upbringing-old-vs-modern.html` in club `Debatable & Relatable` is missing standard sequential numbering prefixes (such as Debate #, Controversy #) in its `<title>` ('Old Upbringing vs Modern Upbringing — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/always-watched-in-a-crowd.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Why I Feel Like I'm Always Being Watched in a Crowd — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/appreciating-amy-winehouse-after-death.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Why Do We Appreciate Amy Winehouse Only After Her Death? — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy-upper-intermediate.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Are Traditions a Hidden Monogamy? (B2) — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Are Traditions a Hidden Monogamy? — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Do We Carry a Collective Self-Guilt for the Planet? — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/death-of-the-album.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('I Couldn't Help But Wonder — The Death of the Album — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Do Insects Hide When it Rains? — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/does-euthanasia-reduce-suicide-rates.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Does Euthanasia Reduce Suicide Rates? — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('I Couldn't Help But Wonder — The Post-Series Void — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('I Have No Time for It — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Is Bad Weather About Gods Being Angry? — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Is Parenting Instinct a Real Thing or Just a Scam? — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('I Couldn't Help But Wonder — Ugly Produce & Anti-Waste — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/whether-raindrops-select-where-to-fall.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Do Raindrops Select Where to Fall? — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Why Do We Try to Relate to ADHD? — COSYlanguages') or `<h1>`.
+- File `events/sessions/i-couldnt-help-but-wonder/why-is-everyone-copying-me.html` in club `I Couldn't Help But Wonder` is missing standard sequential numbering prefixes (such as Draft #, Brouillon #, Wonder #) in its `<title>` ('Why Do I Feel Like Everyone Is Copying Me? — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/a-diagnosis.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('A Diagnosis — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/abba-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('ABBA Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/after-everything-ive-done-for-you.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('After Everything I've Done for You — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/amor-libre.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('amor libre — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/angele-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Angèle Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/angeleyes.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('angeleyes — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/angelina-wismes-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Angelina Wismes Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/antidepressants-are-so-not-a-big-deal.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Antidepressants Are So Not a Big Deal — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/arletta-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Arletta Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/army-dreamers.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Army Dreamers — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/as-it-was.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('as it was — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/balance-ton-quoi.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('balance ton quoi — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/bien-plus-fort.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('bien plus fort — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/california-dreaming.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('California dreaming — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/cass-elliot-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Cass Elliot Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/casualties-of-war.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('casualties of war — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/chi-sara-con-te.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('chi sarà con te — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/coming-around-again.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Coming Around Again — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/crazy-ex-girlfriend-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Crazy Ex-Girlfriend Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/diva.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Diva — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/dont-be-a-lawyer.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Don't Be a Lawyer — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/due-grosse-lacrime-bianche.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('due grosse lacrime bianche — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/eleven-oclock.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Eleven O'Clock — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/esteman-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Esteman Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/face-your-fears.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Face Your Fears — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/fit-hot-guys-have-problems-too.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Fit Hot Guys Have Problems Too — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/group-hang.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Group Hang — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/i-hate-everything-but-you.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('I Hate Everything But You — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/im-a-good-person.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('I'm a Good Person — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/im-afraid-of-americans.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('I'm Afraid of Americans — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/im-the-villain-in-my-own-story.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('I'm the Villain in My Own Story — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/immobile.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('immobile — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/its-getting-better.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('It's Getting Better — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/je-taime-comme-je-taime.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('je t'aime comme je t'aime — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/jim-beam.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Jim Beam — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/kapoies-nychtes.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('kapoies nychtes — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/kate-bush-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Kate Bush Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/la-nuit-nen-finit-plus.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('la nuit n'en finit plus — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/la-tour-eiffel-est-pour-moi.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('la tour eiffel est pour moi — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/la-zarra-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('La Zarra Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/lamore-e-un-attimo.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('l'amore è un attimo — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/laziza.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('l'aziza — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/le-soleil-noir.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('le soleil noir — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/leffet-de-masse.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('L'effet de masse — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/left-outside-alone.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('left outside alone — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/lets-generalize-about-men.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Let's Generalize About Men — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/lifeboat.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Lifeboat — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/love-kernels.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Love Kernels — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/luomo-che-amava-le-donne.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('l'uomo che amava le donne — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/ma-philosophie.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Ma Philosophie — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/maelle-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Maëlle Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/make-your-own-kind-of-music.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Make Your Own Kind of Music — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/massimo-ranieri-challenge.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Massimo Ranieri Challenge — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/me-and-i.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('me & I — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/mixed-up-world.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('mixed up world — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/na-i-agapi-na.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('na i agapi na — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/nos-ames-sont.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('nos âmes sont — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/nuevo-verano.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('nuevo verano — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/o-gatos.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('o gatos — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/oh-my-god-i-think-i-like-you.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Oh My God I Think I Like You — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/oh-to-be-in-love.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Oh To Be in Love — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/one-of-the-greats.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('one of the greats — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/oui-ou-non.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('oui ou non — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/ouvrir-les-yeux.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Ouvrir les yeux — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/overprotected.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Overprotected — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/quelquun-pour-toi.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('quelqu'un pour toi — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/salut.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('salut — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/second-hand-rose.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Second Hand Rose — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/settle-for-me.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Settle for Me — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/seventeen.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Seventeen — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/sex-with-a-stranger.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Sex with a Stranger — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/sexy-french-depression.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Sexy French Depression — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/sexy-getting-ready-song.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Sexy Getting Ready Song — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/slow-motion.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Slow Motion — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/so-maternal.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('So Maternal — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/te-alejas-mas-de-mi.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('te alejas mas de mi — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/the-greatest.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('The Greatest — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/to-idio-to-theo.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('To Idio To Theo — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/toi-mon-amour.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('toi mon amour — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/toutes-les-machines-ont-le-coeur.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Toutes les machines ont le cœur — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/tu-ten-iras.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Tu t'en iras — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/u-mamy-est-sekret.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('у мамы есть секрет — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/un-premier-amour.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('un premier amour — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/un-raggio-di-sole.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('un raggio di sole — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/unatta-estate.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('un'altra estate — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/unlikely-lovers.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Unlikely Lovers — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/voila.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('voila — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/vyshe-domov.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('выше домов — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/whatll-it-be.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('What'll It Be — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/where-is-my-husband.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Where Is My Husband? — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/wheres-the-bathroom.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Where's the Bathroom — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/whos-the-new-guy.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Who's the New Guy — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/without-love-you-can-save-the-world.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Without Love You Can Save the World — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/women-gotta-stick-together.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('Women Gotta Stick Together — COSYlanguages') or `<h1>`.
+- File `events/sessions/karaoke-club/you-stupid-bitch.html` in club `Karaoke Club` is missing standard sequential numbering prefixes (such as Ticket #, Music #, Karaoke #) in its `<title>` ('You Stupid Bitch — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/car-life.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without a Car — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/celebrity-life.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('Life With & Without Celebrities — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/diversity-life.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('Diversity (Cultural, Linguistic, etc.) — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/fridge-life.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without a Fridge — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/high-rise-skyscrapers-intermediate.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without Skyscrapers (B1) — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/high-rise-skyscrapers-upper-intermediate.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without Skyscrapers (B2) — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/holidays-vacations.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without Holidays — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/italian-gestures.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('Italian Gestures & Expression — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/obsolete-jobs-advanced.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without Obsolete Jobs (C1) — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/obsolete-jobs-intermediate.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without Obsolete Jobs (B1) — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/pets-life.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without Pets — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/private-cars-intermediate.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without Private Cars (B1) — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/private-cars-upper-intermediate.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('My Life With & Without Private Cars (B2) — COSYlanguages') or `<h1>`.
+- File `events/sessions/my-life-with-without/social-media-life.html` in club `My Life With & Without` is missing standard sequential numbering prefixes (such as Life #, Episode #) in its `<title>` ('Social Media Life — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/ability-to-notice-beauty-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Ability to Notice Beauty — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/accept-gay-child.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Accepting a Gay Child — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/ai-opposite-of-art-intermediate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('AI is the Opposite of Art — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/ai-opposite-of-art-upper-intermediate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('AI is the Opposite of Art (B2) — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/amish-tripathi-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Apathy vs. Love — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/barbra-streisand-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Barbra Streisand Quote — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/brianna-pastor-proud-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Pay Attention — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/compass-and-clock.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('The Compass and the Clock — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/dangerous-blindness-perspective.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Dangerous Blindness — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/disappear-with-art-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Disappear with Art — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Difficult Children — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Loving Means Power — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Politics and Religion — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/einstein-passionately-curious-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Passionately Curious — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/favorite-days-not-happened.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Favorite Days That Never Happened — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/feynman-education-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Education vs Intelligence — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-elementary.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Richard Feynman Quote — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Knowledge Isn't Free — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-upper-intermediate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Richard Feynman Quote (B2) — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/feynman-no-shame-knowing-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('No Shame in Not Knowing — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/feynman-study-hard-intermediate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Study Hard what Interests You — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/feynman-study-hard.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Study Hard what Interests You (B2) — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/home-is-a-time.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Home is a Time — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/jim-kwik-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Criticism & Advice — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/langle-suppressed-child-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('The Convenient Child — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/madonna-ai-art-quote-elementary.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Madonna Quote on AI & Art — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Madonna Quote on AI & Art — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/madonna-ai-art-quote-upper-intermediate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Madonna Quote on AI & Art (B2) — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/memory-cards-storage-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Pay for Storage — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/must-die-first.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('You Must Die First — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/neufeld-resistance-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('When Kids Stop Resisting — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/rain-seller-umbrella-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('The Same Rain — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/robin-williams-quote-intermediate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Robin Williams Quote — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/robin-williams-quote-upper-intermediate.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Robin Williams Quote (B2) — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/sadia-hakim-humanity-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Ocean of People — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/saudade.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Saudade — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/sonder.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Sonder — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/stay-free-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Stay Free — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/steve-jobs-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Stay Hungry, Stay Foolish — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/think-for-yourself-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Who Told You to Think So? — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/turn-off-ai-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Turn Off AI — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/underpaid-politicians-teachers-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Politicians and Teachers — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/virginia-woolf-trigger-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Pen or Paintbrush — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/voltaire-read-dance-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Read and Dance — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/weird-people-dreams-quote.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('Weird People with Big Dreams — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/wisdom-of-socrates.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('The Wisdom of Socrates — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/women-mothers-tragedy.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('The Tragedy of Women — COSYlanguages') or `<h1>`.
+- File `events/sessions/the-greatest-quotes/you-are-a-soul.html` in club `The Greatest Quotes` is missing standard sequential numbering prefixes (such as Quote #, Thought #) in its `<title>` ('You Are a Soul — COSYlanguages') or `<h1>`.
+
+## 2. Different Heading Styles (0 items)
+
+🎉 No issues detected in this category.
+
+
+## 3. Different Markdown Formatting (33 items)
+
+- File `events/index.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... 🎶 **Note:** Karaoke Club features over **90 high-energy song challenges ...`
+- File `events/sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... ain">Is our survival instinct **solely** about protecting ourselves, o ...`
+- File `events/sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... expected to stay and perform, **whereas** a natural instinct tells us t ...`
+- File `events/sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... uate a difficult conversation **merely** because it felt too uncomfort ...`
+- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... nevolent nature, or is nature **simply** indifferent to our human hope ...`
+- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... o we buy things we don't need **merely** to feel safe?</div> ...`
+- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... oscopes and personality tests **merely** a form of ancient superstitio ...`
+- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` has 8 more occurrences of raw Markdown bold syntax.
+- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... ="round-item-main">Why are we **<strong>utterly</strong>** repulsed by minor physical fl ...`
+- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... Is a slightly blemished apple **<strong>perfectly</strong>** acceptable to you, or do you ...`
+- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... en was the last time you felt **<strong>utterly</strong>** critical of a partner's minor ...`
+- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` has 38 more occurrences of raw Markdown bold syntax.
+- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... bad day on your "temperament" **solely** to avoid apologizing for your ...`
+- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... ound-item-main">Why are we so **<strong>highly</strong>** anxious to adopt clinical lab ...`
+- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... struggles? Is it a convenient **pretext** to avoid personal accountabil ...`
+- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` has 44 more occurrences of raw Markdown bold syntax.
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... ard Feynman mean when he says **Knowledge** isn't free, and what is its t ...`
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... d-item-main">Why does sitting **Passive** in a lecture hall fail to hel ...`
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... had to pay undivided, intense **Attention** to a highly complex topic?</d ...`
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html` has 37 more occurrences of raw Markdown bold syntax.
+- File `events/sessions/the-greatest-quotes/feynman-study-hard.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... agnosing logic was completely **unorthodox**?</div> ...`
+- File `events/sessions/the-greatest-quotes/feynman-study-hard.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... g only candidates with highly **unorthodox** self-taught portfolios. — Do ...`
+- File `events/sessions/the-greatest-quotes/feynman-study-hard.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... s to focus purely on creative **pioneering**. — Do you agree or disagree?< ...`
+- File `events/sessions/the-greatest-quotes/feynman-study-hard.html` has 11 more occurrences of raw Markdown bold syntax.
+- File `events/sessions/the-greatest-quotes/jim-kwik-quote.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... **Advice** from?</div> ...`
+- File `events/sessions/the-greatest-quotes/jim-kwik-quote.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... he advises us to never accept **Criticism** from someone we wouldn't take ...`
+- File `events/sessions/the-greatest-quotes/jim-kwik-quote.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... received a piece of negative **Criticism** that made you question your a ...`
+- File `events/sessions/the-greatest-quotes/jim-kwik-quote.html` has 39 more occurrences of raw Markdown bold syntax.
+- File `events/sessions/the-greatest-quotes/steve-jobs-quote.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... enjoy, keep, risk</em>) or an **Infinitive** (<em>to + verb</em>, like <em ...`
+- File `events/sessions/the-greatest-quotes/steve-jobs-quote.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... ns are followed strictly by a **Gerund** (<em>-ing</em>, like <em>avoi ...`
+- Markdown file `SECURITY.md` uses mixed list bullet styles: {'-', '*'}. Stick to one character.
+- Markdown file `planning/notebook/analog_offline_strategy.md` uses mixed list bullet styles: {'-', '*'}. Stick to one character.
+- Markdown file `planning/notebook/videos_speaking_club_mapping.md` uses mixed list bullet styles: {'-', '*'}. Stick to one character.
+
+## 4. Duplicate Templates (9 items)
+
+- High similarity found between templates: `templates/events/celebrate-session-template.html` and `templates/events/debate-session-template.html` (86.9% match). Consider consolidating them.
+- High similarity found between templates: `templates/events/celebrate-session-template.html` and `templates/events/life-session-template.html` (90.6% match). Consider consolidating them.
+- High similarity found between templates: `templates/events/celebrate-session-template.html` and `templates/events/quotes-session-template.html` (85.7% match). Consider consolidating them.
+- High similarity found between templates: `templates/events/celebrate-session-template.html` and `templates/events/science-session-template.html` (91.1% match). Consider consolidating them.
+- High similarity found between templates: `templates/events/life-session-template.html` and `templates/events/mind-session-template.html` (88.4% match). Consider consolidating them.
+- High similarity found between templates: `templates/events/life-session-template.html` and `templates/events/quotes-session-template.html` (90.6% match). Consider consolidating them.
+- High similarity found between templates: `templates/events/life-session-template.html` and `templates/events/science-session-template.html` (96.5% match). Consider consolidating them.
+- High similarity found between templates: `templates/events/science-session-template.html` and `templates/events/mind-session-template.html` (88.6% match). Consider consolidating them.
+- High similarity found between templates: `templates/events/science-session-template.html` and `templates/events/quotes-session-template.html` (91.2% match). Consider consolidating them.
+
+## 5. Broken Links (604 items)
+
+- File `courses/exam/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `courses/general/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `courses/professional/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `courses/relocation/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `courses/spoken/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `courses/travelling/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `events/cinema-club.html` points to non-existent relative link `../` (resolved as `.`).
+- File `events/cinema-club.html` points to non-existent relative link `sessions/cinema-club/roman-holiday.html` (resolved as `events/sessions/cinema-club/roman-holiday.html`).
+- File `events/fr/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `events/fr/index.html` points to non-existent relative link `sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html` (resolved as `events/fr/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html`).
+- File `events/fr/index.html` points to non-existent relative link `sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html` (resolved as `events/fr/sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html`).
+- File `events/fr/index.html` points to non-existent relative link `sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html` (resolved as `events/fr/sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html`).
+- File `events/fr/sessions/debatable-relatable/l-aide-active-a-mourir.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/debatable-relatable/l-aide-active-a-mourir.html` points to non-existent relative link `../index.html` (resolved as `events/fr/sessions/index.html`).
+- File `events/fr/sessions/debatable-relatable/la-semaine-de-4-jours.html` points to non-existent relative link `../index.html` (resolved as `events/fr/sessions/index.html`).
+- File `events/fr/sessions/i-couldnt-help-but-wonder/death-of-the-album.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/keeping-up-with-science/impersonation-accounts.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/keeping-up-with-science/impersonation-accounts.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/lets-celebrate/diwali-festival.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/lets-celebrate/family-remittances-day.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/lets-celebrate/lunar-new-year.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/lets-celebrate/national-simplicity-day.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/lets-celebrate/national-workaholics-day.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/fr/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/fr/sessions/the-greatest-quotes.html`).
+- File `events/fr/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/fr/sessions/the-greatest-quotes.html`).
+- File `events/fr/sessions/the-greatest-quotes/voltaire-read-dance-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/fr/sessions/the-greatest-quotes.html`).
+- File `events/fr/sessions/the-greatest-quotes/voltaire-read-dance-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/fr/sessions/the-greatest-quotes.html`).
+- File `events/index.html` points to non-existent relative link `../#languages` (resolved as `.`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/beautiful-thing.html` (resolved as `events/sessions/cinema-club/beautiful-thing.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/coda.html` (resolved as `events/sessions/cinema-club/coda.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/free-guy.html` (resolved as `events/sessions/cinema-club/free-guy.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/glee.html` (resolved as `events/sessions/cinema-club/glee.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/hello-dolly.html` (resolved as `events/sessions/cinema-club/hello-dolly.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/julie-and-julia.html` (resolved as `events/sessions/cinema-club/julie-and-julia.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/roman-holiday.html` (resolved as `events/sessions/cinema-club/roman-holiday.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/stepmom.html` (resolved as `events/sessions/cinema-club/stepmom.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/the-devil-wears-prada.html` (resolved as `events/sessions/cinema-club/the-devil-wears-prada.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/the-first-wives-club.html` (resolved as `events/sessions/cinema-club/the-first-wives-club.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/the-mummy.html` (resolved as `events/sessions/cinema-club/the-mummy.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/the-notebook.html` (resolved as `events/sessions/cinema-club/the-notebook.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/the-pianist.html` (resolved as `events/sessions/cinema-club/the-pianist.html`).
+- File `events/index.html` points to non-existent relative link `sessions/cinema-club/what-women-want.html` (resolved as `events/sessions/cinema-club/what-women-want.html`).
+- File `events/index.html` points to non-existent relative link `sessions/debatable-relatable/human-cloning.html` (resolved as `events/sessions/debatable-relatable/human-cloning.html`).
+- File `events/index.html` points to non-existent relative link `sessions/keeping-up-with-science/ai-and-the-brain.html` (resolved as `events/sessions/keeping-up-with-science/ai-and-the-brain.html`).
+- File `events/index.html` points to non-existent relative link `sessions/keeping-up-with-science/animal-cooperation-language.html` (resolved as `events/sessions/keeping-up-with-science/animal-cooperation-language.html`).
+- File `events/index.html` points to non-existent relative link `sessions/keeping-up-with-science/brain-improving-in-90s.html` (resolved as `events/sessions/keeping-up-with-science/brain-improving-in-90s.html`).
+- File `events/index.html` points to non-existent relative link `sessions/keeping-up-with-science/climate-scientist-warming-report.html` (resolved as `events/sessions/keeping-up-with-science/climate-scientist-warming-report.html`).
+- File `events/index.html` points to non-existent relative link `sessions/keeping-up-with-science/football-beats-shamrock.html` (resolved as `events/sessions/keeping-up-with-science/football-beats-shamrock.html`).
+- File `events/index.html` points to non-existent relative link `sessions/keeping-up-with-science/hidden-regenerative-powers.html` (resolved as `events/sessions/keeping-up-with-science/hidden-regenerative-powers.html`).
+- File `events/index.html` points to non-existent relative link `sessions/keeping-up-with-science/ozempic-obesity-revolution.html` (resolved as `events/sessions/keeping-up-with-science/ozempic-obesity-revolution.html`).
+- File `events/index.html` points to non-existent relative link `sessions/keeping-up-with-science/sensory-system-pain-disease.html` (resolved as `events/sessions/keeping-up-with-science/sensory-system-pain-disease.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/aspiration-vs-inspiration.html` (resolved as `events/sessions/mind-matters/aspiration-vs-inspiration.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/bluewashing.html` (resolved as `events/sessions/mind-matters/bluewashing.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/bounded-rationality.html` (resolved as `events/sessions/mind-matters/bounded-rationality.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/brainwashing.html` (resolved as `events/sessions/mind-matters/brainwashing.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/conversations-avoid-enjoy.html` (resolved as `events/sessions/mind-matters/conversations-avoid-enjoy.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/guilt-moving-abroad.html` (resolved as `events/sessions/mind-matters/guilt-moving-abroad.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/pinkwashing.html` (resolved as `events/sessions/mind-matters/pinkwashing.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/purple-washing.html` (resolved as `events/sessions/mind-matters/purple-washing.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/redwashing.html` (resolved as `events/sessions/mind-matters/redwashing.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/sportswashing.html` (resolved as `events/sessions/mind-matters/sportswashing.html`).
+- File `events/index.html` points to non-existent relative link `sessions/mind-matters/whitewashing.html` (resolved as `events/sessions/mind-matters/whitewashing.html`).
+- File `events/index.html` points to non-existent relative link `sessions/the-greatest-quotes/ai-opposite-of-art.html` (resolved as `events/sessions/the-greatest-quotes/ai-opposite-of-art.html`).
+- File `events/index.html` points to non-existent relative link `sessions/the-greatest-quotes/robin-williams-quote.html` (resolved as `events/sessions/the-greatest-quotes/robin-williams-quote.html`).
+- File `events/karaoke-club.html` points to non-existent relative link `../` (resolved as `.`).
+- File `events/ru/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `events/ru/index.html` points to non-existent relative link `sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html` (resolved as `events/ru/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html`).
+- File `events/ru/index.html` points to non-existent relative link `sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html` (resolved as `events/ru/sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html`).
+- File `events/ru/index.html` points to non-existent relative link `sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html` (resolved as `events/ru/sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html`).
+- File `events/ru/sessions/lets-celebrate/diwali-festival.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/ru/sessions/lets-celebrate/family-remittances-day.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/ru/sessions/lets-celebrate/lunar-new-year.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/ru/sessions/lets-celebrate/national-simplicity-day.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/ru/sessions/lets-celebrate/national-workaholics-day.html` points to non-existent relative link `../../../../` (resolved as `.`).
+- File `events/ru/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/langle-suppressed-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/langle-suppressed-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/neufeld-resistance-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/neufeld-resistance-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/prishvin-convenient-people-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/prishvin-convenient-people-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/sukhomlinsky-obedience-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/sukhomlinsky-obedience-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/think-for-yourself-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/ru/sessions/the-greatest-quotes/think-for-yourself-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/ru/sessions/the-greatest-quotes.html`).
+- File `events/sessions/cinema-club/101-and-102-dalmatians.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/16-wishes.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/a-quiet-place.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/about-time.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/adolescence.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/angels-and-demons.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/beautiful-thing-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/beautiful-thing-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/bird-box.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/black-mirror.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/bohemian-rhapsody.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/breakfast-at-tiffanys.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/call-me-by-your-name.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/charade.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/cloud-atlas.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/coda-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/coda-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/countdown.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/crazy-ex-girlfriend.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/death-becomes-her.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/destino.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/dont-look-up.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/dont-worry-darling.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/equals.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/fleabag.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/free-guy-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/free-guy-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/funny-girl.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/glee-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/glee-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/gone-girl.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/heathers-the-musical.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/hello-dolly-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/hello-dolly-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/hereditary.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/homeward-bound.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/how-i-live-now.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/how-to-be-single.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/incendies.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/its-complicated.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/julie-and-julia-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/julie-and-julia-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/just-my-luck.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/karlik-nos-dwarf-nose.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/kill-bill.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/killing-eve.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/kinky-boots.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/la-valla.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/lattente.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/leave-the-world-behind.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/lending-my-wings.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/lost.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/love-and-other-drugs.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/luck.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/lucy.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/mamma-mia.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/midsommar.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/miss-you-already.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/missing-searching.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/mrs.-harris-goes-to-paris.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/now-you-see-me.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/nuts.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/odd-thomas.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/on-a-clear-day-you-can-see....html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/once-and-forever.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/once-upon-a-time....html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/personal-shopper.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/queendom.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/radin.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/ratatouille.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/roman-holiday-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/roman-holiday-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/run.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/serebryanye-konki.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/sex-and-the-city.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/shes-the-man.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/spoiler-alert.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/stepmom-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/stepmom-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/still-alice.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/suspiria-2018.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-act.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-age-of-adaline.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-call.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-da-vinci-code.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-devil-wears-prada-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-devil-wears-prada-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-first-wives-club-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-first-wives-club-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-hunger-games.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-invasion.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-iron-lady.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-mirror-has-two-faces.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-mummy-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-mummy-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-notebook-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-notebook-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-odyssey.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-others.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-owl-and-the-pussycat.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-pianist-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-pianist-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-queens-gambit.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-regime.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-shape-of-water.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-substance.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/the-swan-princess.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/v-for-vendetta.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/what-women-want-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/what-women-want-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/why-women-kill.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/cinema-club/yentl.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/4-day-work-week.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/4-day-work-week.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/debatable-relatable/ai-and-art.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/ai-and-art.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/debatable-relatable/assisted-dying.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/assisted-dying.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/debatable-relatable/homework-ban.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/homework-ban.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/debatable-relatable/human-cloning-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/human-cloning-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/meta-subscriptions.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/meta-subscriptions.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/debatable-relatable/pedagogy-and-practice.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/pedagogy-and-practice.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/debatable-relatable/short-holiday-vs-long-holiday-elementary.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/short-holiday-vs-long-holiday-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/short-holiday-vs-long-holiday-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/template-debate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/template-debate.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/debatable-relatable/the-future-proof-educator.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/the-future-proof-educator.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-elementary.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-elementary.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/upbringing-old-vs-modern.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/debatable-relatable/upbringing-old-vs-modern.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/i-couldnt-help-but-wonder/always-watched-in-a-crowd.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/appreciating-amy-winehouse-after-death.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/appreciating-amy-winehouse-after-death.html` points to non-existent relative link `../celebrity-life.html` (resolved as `events/sessions/celebrity-life.html`).
+- File `events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/death-of-the-album.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/does-euthanasia-reduce-suicide-rates.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/whether-raindrops-select-where-to-fall.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/i-couldnt-help-but-wonder/why-is-everyone-copying-me.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/a-diagnosis.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/abba-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/after-everything-ive-done-for-you.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/amor-libre.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/angele-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/angeleyes.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/angelina-wismes-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/antidepressants-are-so-not-a-big-deal.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/arletta-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/army-dreamers.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/as-it-was.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/balance-ton-quoi.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/bien-plus-fort.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/california-dreaming.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/cass-elliot-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/casualties-of-war.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/chi-sara-con-te.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/coming-around-again.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/crazy-ex-girlfriend-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/diva.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/dont-be-a-lawyer.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/due-grosse-lacrime-bianche.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/eleven-oclock.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/esteman-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/face-your-fears.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/fit-hot-guys-have-problems-too.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/group-hang.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/i-hate-everything-but-you.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/im-a-good-person.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/im-afraid-of-americans.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/im-the-villain-in-my-own-story.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/immobile.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/its-getting-better.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/je-taime-comme-je-taime.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/jim-beam.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/kapoies-nychtes.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/kate-bush-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/la-nuit-nen-finit-plus.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/la-tour-eiffel-est-pour-moi.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/la-zarra-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/lamore-e-un-attimo.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/laziza.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/le-soleil-noir.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/leffet-de-masse.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/left-outside-alone.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/lets-generalize-about-men.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/lifeboat.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/love-kernels.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/luomo-che-amava-le-donne.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/ma-philosophie.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/maelle-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/make-your-own-kind-of-music.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/massimo-ranieri-challenge.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/me-and-i.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/mixed-up-world.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/na-i-agapi-na.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/nos-ames-sont.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/nuevo-verano.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/o-gatos.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/oh-my-god-i-think-i-like-you.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/oh-to-be-in-love.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/one-of-the-greats.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/oui-ou-non.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/ouvrir-les-yeux.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/overprotected.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/quelquun-pour-toi.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/salut.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/second-hand-rose.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/settle-for-me.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/seventeen.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/sex-with-a-stranger.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/sexy-french-depression.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/sexy-getting-ready-song.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/slow-motion.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/so-maternal.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/te-alejas-mas-de-mi.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/template-karaoke.html` points to non-existent relative link `../../games/index.html` (resolved as `events/games/index.html`).
+- File `events/sessions/karaoke-club/template-karaoke.html` points to non-existent relative link `../../practice/index.html` (resolved as `events/practice/index.html`).
+- File `events/sessions/karaoke-club/template-karaoke.html` points to non-existent relative link `../` (resolved as `events/sessions`).
+- File `events/sessions/karaoke-club/template-karaoke.html` points to non-existent relative link `../index.html` (resolved as `events/sessions/index.html`).
+- File `events/sessions/karaoke-club/template-karaoke.html` points to non-existent relative link `../karaoke-club.html` (resolved as `events/sessions/karaoke-club.html`).
+- File `events/sessions/karaoke-club/template-karaoke.html` points to non-existent relative link `../karaoke-club.html` (resolved as `events/sessions/karaoke-club.html`).
+- File `events/sessions/karaoke-club/the-greatest.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/to-idio-to-theo.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/toi-mon-amour.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/toutes-les-machines-ont-le-coeur.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/tu-ten-iras.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/u-mamy-est-sekret.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/un-premier-amour.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/un-raggio-di-sole.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/unatta-estate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/unlikely-lovers.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/voila.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/vyshe-domov.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/whatll-it-be.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/where-is-my-husband.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/wheres-the-bathroom.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/whos-the-new-guy.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/without-love-you-can-save-the-world.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/women-gotta-stick-together.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/karaoke-club/you-stupid-bitch.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/ai-and-the-brain-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/ai-reality-delusion.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/animal-cooperation-language-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/animal-cooperation-language-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/ape-laughter-speech-origin-elementary.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/ape-laughter-speech-origin-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/brain-improving-in-90s-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/brain-improving-in-90s-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/climate-scientist-warming-report-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/climate-scientist-warming-report-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/football-beats-shamrock-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/football-beats-shamrock-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/fusion-energy.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/grandmother-evolutionary-mystery.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/grandparents-mental-health.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/hidden-regenerative-powers-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/hidden-regenerative-powers-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/impersonation-accounts.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/living-most-creative-time.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/losing-spoken-words.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/mendelian-laws-broken.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-elementary.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/ozempic-obesity-revolution-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/ozempic-obesity-revolution-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/right-handedness.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/sensory-system-pain-disease-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/sensory-system-pain-disease-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/social-decisions-brain.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/spider-creatures-origins-of-fatherhood-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/spider-creatures-origins-of-fatherhood-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/template-science.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/template.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-elementary.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/your-fingers-hold-secret-brain-evolution-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/keeping-up-with-science/your-fingers-hold-secret-brain-evolution-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/diwali-festival.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/family-remittances-day.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/international-asteroid-day-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/international-asteroid-day-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/international-peace-love-day-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/international-peace-love-day-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/lunar-new-year.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/national-simplicity-day.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/national-someone-day-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/national-someone-day-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/national-workaholics-day.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/pandemonium-day-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/pandemonium-day-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/template-celebrate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/urban-beekeeping-day-elementary.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/lets-celebrate/urban-beekeeping-day-starter.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/anticipatory-grief.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/aspiration-vs-inspiration-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/aspiration-vs-inspiration-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/benjamin-franklin-effect.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/blue-eyes-brown-eyes-experiment.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/bluewashing-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/bluewashing-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/bounded-rationality-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/bounded-rationality-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/brain-discipline-dopamine.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/brainwashing-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/brainwashing-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/broken-children-grown-bodies.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/conversations-avoid-enjoy-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/conversations-avoid-enjoy-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/depersonalization.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/expert-defend-language-mistakes.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/fear-of-love-control.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/finding-the-right-person.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/gilberts-law.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/guilt-moving-abroad-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/guilt-moving-abroad-proficiency.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/how-to-love-your-work.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/impersonation.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/kidlins-law.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/law-of-attraction.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/limerence.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/maze-of-biases.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/mind-great-literature.html` points to non-existent relative link `../mind-matters.html` (resolved as `events/sessions/mind-matters.html`).
+- File `events/sessions/mind-matters/mind-great-literature.html` points to non-existent relative link `../mind-matters.html` (resolved as `events/sessions/mind-matters.html`).
+- File `events/sessions/mind-matters/moving-new-city-true-self.html` points to non-existent relative link `../mind-matters.html` (resolved as `events/sessions/mind-matters.html`).
+- File `events/sessions/mind-matters/moving-new-city-true-self.html` points to non-existent relative link `../mind-matters.html` (resolved as `events/sessions/mind-matters.html`).
+- File `events/sessions/mind-matters/murphys-law.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/nazi-race-propaganda.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/pinkwashing-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/pinkwashing-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/power-of-habits.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/psychology-of-action-bias.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/psychology-of-smiles.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/purple-washing-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/purple-washing-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/redwashing-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/redwashing-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/science-of-sleep.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/simmel-objective-freedom.html` points to non-existent relative link `../mind-matters.html` (resolved as `events/sessions/mind-matters.html`).
+- File `events/sessions/mind-matters/simmel-objective-freedom.html` points to non-existent relative link `../mind-matters.html` (resolved as `events/sessions/mind-matters.html`).
+- File `events/sessions/mind-matters/sportswashing-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/sportswashing-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/template-mind.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/the-bye-now-effect-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/the-bye-now-effect-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/whitewashing-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/whitewashing-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/why-do-they-say-ai-is-inevitable-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/why-do-they-say-ai-is-inevitable-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/mind-matters/wilsons-law.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/car-life.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/celebrity-life.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/celebrity-life.html` points to non-existent relative link `i-couldnt-help-but-wonder/appreciating-amy-winehouse-after-death.html` (resolved as `events/sessions/my-life-with-without/i-couldnt-help-but-wonder/appreciating-amy-winehouse-after-death.html`).
+- File `events/sessions/my-life-with-without/diversity-life.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/fridge-life.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/high-rise-skyscrapers-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/high-rise-skyscrapers-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/holidays-vacations.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/italian-gestures.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/obsolete-jobs-advanced.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/obsolete-jobs-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/pets-life.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/private-cars-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/private-cars-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/social-media-life.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/my-life-with-without/template-life.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/accept-gay-child.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/ai-opposite-of-art-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/ai-opposite-of-art-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/amish-tripathi-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/amish-tripathi-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/barbra-streisand-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/barbra-streisand-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/brianna-pastor-proud-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/brianna-pastor-proud-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/compass-and-clock.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/compass-and-clock.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/dangerous-blindness-perspective.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/disappear-with-art-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/disappear-with-art-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/einstein-passionately-curious-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/einstein-passionately-curious-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/favorite-days-not-happened.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-elementary.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/feynman-no-shame-knowing-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/feynman-no-shame-knowing-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/home-is-a-time.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/jim-kwik-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/jim-kwik-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/langle-suppressed-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/langle-suppressed-child-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/madonna-ai-art-quote-elementary.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/madonna-ai-art-quote-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/memory-cards-storage-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/memory-cards-storage-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/must-die-first.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/neufeld-resistance-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/neufeld-resistance-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/robin-williams-quote-upper-intermediate.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/sadia-hakim-humanity-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/sadia-hakim-humanity-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/saudade.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/sonder.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/stay-free-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/stay-free-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/steve-jobs-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/steve-jobs-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/template-quotes.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `events/sessions/the-greatest-quotes/turn-off-ai-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/turn-off-ai-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/underpaid-politicians-teachers-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/underpaid-politicians-teachers-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/virginia-woolf-trigger-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/virginia-woolf-trigger-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/voltaire-read-dance-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/voltaire-read-dance-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/weird-people-dreams-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/weird-people-dreams-quote.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `events/sessions/the-greatest-quotes.html`).
+- File `events/sessions/the-greatest-quotes/women-mothers-tragedy.html` points to non-existent relative link `../../../` (resolved as `.`).
+- File `games/index.html` points to non-existent relative link `../#languages` (resolved as `.`).
+- File `languages/coming-soon.html` points to non-existent relative link `../#languages` (resolved as `.`).
+- File `languages/el/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `languages/en/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `languages/fr/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `languages/it/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `languages/ru/index.html` points to non-existent relative link `../../#languages` (resolved as `.`).
+- File `notebook/index.html` points to non-existent relative link `../#languages` (resolved as `.`).
+- File `practice/cognitive-immersion.html` points to non-existent relative link `../#languages` (resolved as `.`).
+- File `practice/index.html` points to non-existent relative link `../#languages` (resolved as `.`).
+- File `templates/events/celebrate-session-template.html` points to non-existent relative link `../../` (resolved as `.`).
+- File `templates/events/celebrate-session-template.html` points to non-existent relative link `../` (resolved as `templates`).
+- File `templates/events/celebrate-session-template.html` points to non-existent relative link `../index.html` (resolved as `templates/index.html`).
+- File `templates/events/celebrate-session-template.html` points to non-existent relative link `../lets-celebrate.html` (resolved as `templates/lets-celebrate.html`).
+- File `templates/events/celebrate-session-template.html` points to non-existent relative link `../lets-celebrate.html` (resolved as `templates/lets-celebrate.html`).
+- File `templates/events/debate-session-template.html` points to non-existent relative link `../../` (resolved as `.`).
+- File `templates/events/debate-session-template.html` points to non-existent relative link `../` (resolved as `templates`).
+- File `templates/events/debate-session-template.html` points to non-existent relative link `../debatable-relatable.html` (resolved as `templates/debatable-relatable.html`).
+- File `templates/events/debate-session-template.html` points to non-existent relative link `../debatable-relatable.html` (resolved as `templates/debatable-relatable.html`).
+- File `templates/events/debate-session-template.html` points to non-existent relative link `../index.html` (resolved as `templates/index.html`).
+- File `templates/events/karaoke-session-template.html` points to non-existent relative link `../../` (resolved as `.`).
+- File `templates/events/karaoke-session-template.html` points to non-existent relative link `../` (resolved as `templates`).
+- File `templates/events/karaoke-session-template.html` points to non-existent relative link `../index.html` (resolved as `templates/index.html`).
+- File `templates/events/karaoke-session-template.html` points to non-existent relative link `../karaoke-club.html` (resolved as `templates/karaoke-club.html`).
+- File `templates/events/karaoke-session-template.html` points to non-existent relative link `../karaoke-club.html` (resolved as `templates/karaoke-club.html`).
+- File `templates/events/life-session-template.html` points to non-existent relative link `../../` (resolved as `.`).
+- File `templates/events/life-session-template.html` points to non-existent relative link `../` (resolved as `templates`).
+- File `templates/events/life-session-template.html` points to non-existent relative link `../index.html` (resolved as `templates/index.html`).
+- File `templates/events/life-session-template.html` points to non-existent relative link `../my-life-with-without.html` (resolved as `templates/my-life-with-without.html`).
+- File `templates/events/life-session-template.html` points to non-existent relative link `../my-life-with-without.html` (resolved as `templates/my-life-with-without.html`).
+- File `templates/events/mind-session-template.html` points to non-existent relative link `../../` (resolved as `.`).
+- File `templates/events/mind-session-template.html` points to non-existent relative link `../` (resolved as `templates`).
+- File `templates/events/mind-session-template.html` points to non-existent relative link `../index.html` (resolved as `templates/index.html`).
+- File `templates/events/mind-session-template.html` points to non-existent relative link `../mind-matters.html` (resolved as `templates/mind-matters.html`).
+- File `templates/events/mind-session-template.html` points to non-existent relative link `../mind-matters.html` (resolved as `templates/mind-matters.html`).
+- File `templates/events/quotes-session-template.html` points to non-existent relative link `../../` (resolved as `.`).
+- File `templates/events/quotes-session-template.html` points to non-existent relative link `../` (resolved as `templates`).
+- File `templates/events/quotes-session-template.html` points to non-existent relative link `../index.html` (resolved as `templates/index.html`).
+- File `templates/events/quotes-session-template.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `templates/the-greatest-quotes.html`).
+- File `templates/events/quotes-session-template.html` points to non-existent relative link `../the-greatest-quotes.html` (resolved as `templates/the-greatest-quotes.html`).
+- File `templates/events/science-session-template.html` points to non-existent relative link `../../` (resolved as `.`).
+- File `templates/events/science-session-template.html` points to non-existent relative link `../` (resolved as `templates`).
+- File `templates/events/science-session-template.html` points to non-existent relative link `../index.html` (resolved as `templates/index.html`).
+- File `templates/events/science-session-template.html` points to non-existent relative link `../keeping-up-with-science.html` (resolved as `templates/keeping-up-with-science.html`).
+- File `templates/events/science-session-template.html` points to non-existent relative link `../keeping-up-with-science.html` (resolved as `templates/keeping-up-with-science.html`).
+- File `templates/events/session-template.html` points to non-existent relative link `../../` (resolved as `.`).
+- File `templates/events/session-template.html` points to non-existent relative link `../` (resolved as `templates`).
+- File `templates/events/session-template.html` points to non-existent relative link `../club-index.html` (resolved as `templates/club-index.html`).
+- File `templates/events/session-template.html` points to non-existent relative link `../club-index.html` (resolved as `templates/club-index.html`).
+- File `templates/events/session-template.html` points to non-existent relative link `../index.html` (resolved as `templates/index.html`).
+- File `templates/events/wonder-session-template.html` points to non-existent relative link `../../` (resolved as `.`).
+- File `templates/events/wonder-session-template.html` points to non-existent relative link `../` (resolved as `templates`).
+- File `templates/events/wonder-session-template.html` points to non-existent relative link `../i-couldnt-help-but-wonder.html` (resolved as `templates/i-couldnt-help-but-wonder.html`).
+- File `templates/events/wonder-session-template.html` points to non-existent relative link `../i-couldnt-help-but-wonder.html` (resolved as `templates/i-couldnt-help-but-wonder.html`).
+- File `templates/events/wonder-session-template.html` points to non-existent relative link `../index.html` (resolved as `templates/index.html`).
+- File `templates/grammar/roadmap-template.html` points to non-existent relative link `../grammar-reference.html` (resolved as `templates/grammar-reference.html`).
+- File `templates/grammar/roadmap-template.html` points to non-existent relative link `el.html` (resolved as `templates/grammar/el.html`).
+- File `templates/grammar/roadmap-template.html` points to non-existent relative link `en.html` (resolved as `templates/grammar/en.html`).
+- File `templates/grammar/roadmap-template.html` points to non-existent relative link `fr.html` (resolved as `templates/grammar/fr.html`).
+- File `templates/grammar/roadmap-template.html` points to non-existent relative link `it.html` (resolved as `templates/grammar/it.html`).
+- File `templates/grammar/roadmap-template.html` points to non-existent relative link `morphology/xx-lesson.html` (resolved as `templates/grammar/morphology/xx-lesson.html`).
+- File `templates/grammar/roadmap-template.html` points to non-existent relative link `ru.html` (resolved as `templates/grammar/ru.html`).
+
+## 6. Missing Images (3 items)
+
+- CSS `css/events.css` references missing background image `%23noiseFilter` (resolved as `css/%23noiseFilter`).
+- File `404.html` contains broken `<img>` src `` (resolved as `.`).
+- File `events/ru/the-greatest-quotes.html` contains broken `<img>` src `../../images/greatestquotes.png` (resolved as `images/greatestquotes.png`).
+
+## 7. Missing Metadata (823 items)
+
+- File `404.html` is missing `<meta name="description">` or it has empty content.
+- File `classroom-sync.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/el/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/el/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/el/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/el/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/el/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/en/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/en/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/en/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/en/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/en/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/fr/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/fr/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/fr/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/fr/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/fr/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/it/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/it/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/it/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/it/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/it/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/ru/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/ru/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/ru/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/ru/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/exam/ru/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/el/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/el/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/el/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/el/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/el/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/el/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/el/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/en/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/en/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/en/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/en/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/en/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/en/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/en/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/fr/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/fr/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/fr/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/fr/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/fr/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/fr/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/fr/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/it/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/it/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/it/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/it/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/it/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/it/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/it/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/ru/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/ru/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/ru/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/ru/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/ru/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/ru/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/general/ru/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/el/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/el/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/el/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/el/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/el/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/en/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/en/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/en/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/en/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/en/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/fr/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/fr/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/fr/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/fr/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/fr/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/it/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/it/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/it/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/it/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/it/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/ru/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/ru/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/ru/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/ru/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/professional/ru/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/el/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/el/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/el/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/el/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/el/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/en/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/en/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/en/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/en/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/en/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/fr/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/fr/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/fr/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/fr/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/fr/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/it/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/it/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/it/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/it/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/it/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/ru/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/ru/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/ru/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/ru/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/relocation/ru/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/el/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/el/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/el/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/el/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/el/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/el/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/el/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/en/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/en/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/en/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/en/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/en/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/en/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/en/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/fr/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/fr/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/fr/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/fr/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/fr/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/fr/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/fr/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/it/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/it/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/it/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/it/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/it/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/it/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/it/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/ru/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/ru/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/ru/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/ru/B2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/ru/C1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/ru/C2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/spoken/ru/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/el/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/el/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/el/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/el/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/en/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/en/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/en/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/en/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/fr/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/fr/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/fr/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/fr/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/it/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/it/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/it/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/it/index.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/ru/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/ru/A2.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/ru/B1.html` is missing `<meta name="description">` or it has empty content.
+- File `courses/travelling/ru/index.html` is missing `<meta name="description">` or it has empty content.
+- File `curriculum/el/general/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `curriculum/en/general/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `curriculum/fr/general/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `curriculum/it/general/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `curriculum/ru/general/A1.html` is missing `<meta name="description">` or it has empty content.
+- File `events/cinema-club.html` is missing `<meta name="description">` or it has empty content.
+- File `events/debatable-relatable.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/debatable-relatable.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/i-couldnt-help-but-wonder.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/index.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/keeping-up-with-science.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/lets-celebrate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/mind-matters.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/my-life-with-without.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/debatable-relatable/l-aide-active-a-mourir.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/debatable-relatable/la-semaine-de-4-jours.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/death-of-the-album.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/keeping-up-with-science/impersonation-accounts.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/lets-celebrate/diwali-festival.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/lets-celebrate/family-remittances-day.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/lets-celebrate/lunar-new-year.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/lets-celebrate/national-simplicity-day.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/lets-celebrate/national-workaholics-day.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/anticipatory-grief.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/broken-children-grown-bodies.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/depersonalization.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/fear-of-love-control.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/finding-the-right-person.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/gilberts-law.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/impersonation.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/kidlins-law.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/law-of-attraction.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/limerence.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/murphys-law.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/mind-matters/wilsons-law.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/accept-gay-child.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/ai-opposite-of-art.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/dangerous-blindness-perspective.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/favorite-days-not-happened.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/home-is-a-time.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/la-sagesse-de-socrate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/must-die-first.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/saudade.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/sonder.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/voltaire-read-dance-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/women-mothers-tragedy.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/sessions/the-greatest-quotes/you-are-a-soul.html` is missing `<meta name="description">` or it has empty content.
+- File `events/fr/the-greatest-quotes.html` is missing `<meta name="description">` or it has empty content.
+- File `events/i-couldnt-help-but-wonder.html` is missing `<meta name="description">` or it has empty content.
+- File `events/index.html` is missing `<meta name="description">` or it has empty content.
+- File `events/karaoke-club.html` is missing `<meta name="description">` or it has empty content.
+- File `events/keeping-up-with-science.html` is missing `<meta name="description">` or it has empty content.
+- File `events/lets-celebrate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/mind-matters.html` is missing `<meta name="description">` or it has empty content.
+- File `events/my-life-with-without.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/debatable-relatable.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/index.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/keeping-up-with-science.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/lets-celebrate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/mind-matters.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/my-life-with-without.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/debatable-relatable/4-dnevnaya-rabochaya-nedelya.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/keeping-up-with-science/vliyanie-propagandy-deti.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/lets-celebrate/diwali-festival.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/lets-celebrate/family-remittances-day.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/lets-celebrate/lunar-new-year.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/lets-celebrate/national-simplicity-day.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/lets-celebrate/national-workaholics-day.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/mind-matters/ne-ispravlyay-rech.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/mind-matters/syn-vlyubilsya-v-druga.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/the-greatest-quotes/langle-suppressed-child-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/the-greatest-quotes/neufeld-resistance-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/the-greatest-quotes/prishvin-convenient-people-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/the-greatest-quotes/sukhomlinsky-obedience-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/sessions/the-greatest-quotes/think-for-yourself-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/ru/the-greatest-quotes.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/101-and-102-dalmatians.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/16-wishes.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/a-quiet-place.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/about-time.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/adolescence.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/angels-and-demons.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/beautiful-thing-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/beautiful-thing-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/bird-box.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/black-mirror.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/bohemian-rhapsody.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/breakfast-at-tiffanys.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/call-me-by-your-name.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/charade.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/cloud-atlas.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/coda-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/coda-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/countdown.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/crazy-ex-girlfriend.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/death-becomes-her.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/destino.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/dont-look-up.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/dont-worry-darling.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/equals.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/fleabag.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/free-guy-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/free-guy-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/funny-girl.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/glee-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/glee-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/gone-girl.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/heathers-the-musical.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/hello-dolly-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/hello-dolly-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/hereditary.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/homeward-bound.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/how-i-live-now.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/how-to-be-single.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/incendies.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/its-complicated.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/julie-and-julia-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/julie-and-julia-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/just-my-luck.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/karlik-nos-dwarf-nose.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/kill-bill.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/killing-eve.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/kinky-boots.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/la-valla.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/lattente.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/leave-the-world-behind.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/lending-my-wings.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/lost.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/love-and-other-drugs.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/luck.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/lucy.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/mamma-mia.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/midsommar.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/miss-you-already.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/missing-searching.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/mrs.-harris-goes-to-paris.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/now-you-see-me.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/nuts.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/odd-thomas.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/on-a-clear-day-you-can-see....html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/once-and-forever.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/once-upon-a-time....html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/personal-shopper.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/queendom.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/radin.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/ratatouille.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/roman-holiday-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/roman-holiday-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/run.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/serebryanye-konki.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/sex-and-the-city.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/shes-the-man.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/spoiler-alert.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/stepmom-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/stepmom-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/still-alice.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/suspiria-2018.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-act.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-age-of-adaline.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-call.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-da-vinci-code.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-devil-wears-prada-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-devil-wears-prada-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-first-wives-club-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-first-wives-club-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-hunger-games.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-invasion.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-iron-lady.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-mirror-has-two-faces.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-mummy-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-mummy-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-notebook-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-notebook-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-odyssey.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-others.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-owl-and-the-pussycat.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-pianist-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-pianist-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-queens-gambit.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-regime.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-shape-of-water.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-substance.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/the-swan-princess.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/v-for-vendetta.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/what-women-want-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/what-women-want-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/why-women-kill.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/cinema-club/yentl.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/4-day-work-week.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/ai-and-art.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/assisted-dying.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/homework-ban.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/human-cloning-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/human-cloning-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/meta-subscriptions.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/pedagogy-and-practice.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/short-holiday-vs-long-holiday-elementary.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/short-holiday-vs-long-holiday-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/short-holiday-vs-long-holiday-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/template-debate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/the-future-proof-educator.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-elementary.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/typing-vs-handwriting-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/debatable-relatable/upbringing-old-vs-modern.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/always-watched-in-a-crowd.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/appreciating-amy-winehouse-after-death.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/death-of-the-album.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/does-euthanasia-reduce-suicide-rates.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/whether-raindrops-select-where-to-fall.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/i-couldnt-help-but-wonder/why-is-everyone-copying-me.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/a-diagnosis.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/abba-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/after-everything-ive-done-for-you.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/amor-libre.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/angele-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/angeleyes.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/angelina-wismes-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/antidepressants-are-so-not-a-big-deal.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/arletta-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/army-dreamers.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/as-it-was.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/balance-ton-quoi.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/bien-plus-fort.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/california-dreaming.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/cass-elliot-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/casualties-of-war.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/chi-sara-con-te.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/coming-around-again.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/crazy-ex-girlfriend-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/diva.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/dont-be-a-lawyer.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/due-grosse-lacrime-bianche.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/eleven-oclock.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/esteman-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/face-your-fears.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/fit-hot-guys-have-problems-too.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/group-hang.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/i-hate-everything-but-you.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/im-a-good-person.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/im-afraid-of-americans.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/im-the-villain-in-my-own-story.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/immobile.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/its-getting-better.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/je-taime-comme-je-taime.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/jim-beam.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/kapoies-nychtes.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/kate-bush-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/la-nuit-nen-finit-plus.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/la-tour-eiffel-est-pour-moi.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/la-zarra-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/lamore-e-un-attimo.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/laziza.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/le-soleil-noir.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/leffet-de-masse.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/left-outside-alone.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/lets-generalize-about-men.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/lifeboat.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/love-kernels.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/luomo-che-amava-le-donne.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/ma-philosophie.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/maelle-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/make-your-own-kind-of-music.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/massimo-ranieri-challenge.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/me-and-i.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/mixed-up-world.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/na-i-agapi-na.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/nos-ames-sont.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/nuevo-verano.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/o-gatos.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/oh-my-god-i-think-i-like-you.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/oh-to-be-in-love.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/one-of-the-greats.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/oui-ou-non.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/ouvrir-les-yeux.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/overprotected.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/quelquun-pour-toi.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/salut.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/second-hand-rose.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/settle-for-me.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/seventeen.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/sex-with-a-stranger.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/sexy-french-depression.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/sexy-getting-ready-song.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/slow-motion.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/so-maternal.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/te-alejas-mas-de-mi.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/template-karaoke.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/the-greatest.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/to-idio-to-theo.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/toi-mon-amour.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/toutes-les-machines-ont-le-coeur.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/tu-ten-iras.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/u-mamy-est-sekret.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/un-premier-amour.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/un-raggio-di-sole.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/unatta-estate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/unlikely-lovers.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/voila.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/vyshe-domov.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/whatll-it-be.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/where-is-my-husband.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/wheres-the-bathroom.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/whos-the-new-guy.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/without-love-you-can-save-the-world.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/women-gotta-stick-together.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/karaoke-club/you-stupid-bitch.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/ai-and-the-brain-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/ai-reality-delusion.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/animal-cooperation-language-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/animal-cooperation-language-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/ape-laughter-speech-origin-elementary.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/ape-laughter-speech-origin-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/brain-improving-in-90s-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/brain-improving-in-90s-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/climate-scientist-warming-report-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/climate-scientist-warming-report-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/football-beats-shamrock-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/football-beats-shamrock-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/fusion-energy.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/grandmother-evolutionary-mystery.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/grandparents-mental-health.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/hidden-regenerative-powers-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/hidden-regenerative-powers-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/impersonation-accounts.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/living-most-creative-time.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/losing-spoken-words.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/mendelian-laws-broken.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-elementary.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/museums-movies-theater-stay-younger-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/ozempic-obesity-revolution-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/ozempic-obesity-revolution-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/right-handedness.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/sensory-system-pain-disease-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/sensory-system-pain-disease-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/social-decisions-brain.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/spider-creatures-origins-of-fatherhood-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/spider-creatures-origins-of-fatherhood-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/template-science.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/template.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-elementary.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/where-you-live-shapes-dementia-risk-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/your-fingers-hold-secret-brain-evolution-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/keeping-up-with-science/your-fingers-hold-secret-brain-evolution-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/diwali-festival.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/family-remittances-day.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/international-asteroid-day-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/international-asteroid-day-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/international-peace-love-day-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/international-peace-love-day-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/lunar-new-year.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/national-simplicity-day.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/national-someone-day-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/national-someone-day-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/national-workaholics-day.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/pandemonium-day-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/pandemonium-day-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/template-celebrate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/urban-beekeeping-day-elementary.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/lets-celebrate/urban-beekeeping-day-starter.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/anticipatory-grief.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/aspiration-vs-inspiration-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/aspiration-vs-inspiration-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/benjamin-franklin-effect.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/blue-eyes-brown-eyes-experiment.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/bluewashing-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/bluewashing-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/bounded-rationality-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/bounded-rationality-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/brain-discipline-dopamine.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/brainwashing-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/brainwashing-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/broken-children-grown-bodies.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/conversations-avoid-enjoy-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/conversations-avoid-enjoy-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/depersonalization.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/expert-defend-language-mistakes.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/fear-of-love-control.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/finding-the-right-person.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/gilberts-law.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/guilt-moving-abroad-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/guilt-moving-abroad-proficiency.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/how-to-love-your-work.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/impersonation.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/kidlins-law.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/law-of-attraction.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/limerence.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/maze-of-biases.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/mind-great-literature.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/moving-new-city-true-self.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/murphys-law.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/nazi-race-propaganda.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/pinkwashing-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/pinkwashing-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/power-of-habits.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/psychology-of-action-bias.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/psychology-of-smiles.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/purple-washing-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/purple-washing-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/redwashing-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/redwashing-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/science-of-sleep.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/simmel-objective-freedom.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/sportswashing-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/sportswashing-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/template-mind.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/the-bye-now-effect-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/the-bye-now-effect-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/whitewashing-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/whitewashing-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/why-do-they-say-ai-is-inevitable-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/why-do-they-say-ai-is-inevitable-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/mind-matters/wilsons-law.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/car-life.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/celebrity-life.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/diversity-life.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/fridge-life.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/high-rise-skyscrapers-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/high-rise-skyscrapers-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/holidays-vacations.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/italian-gestures.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/obsolete-jobs-advanced.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/obsolete-jobs-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/pets-life.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/private-cars-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/private-cars-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/social-media-life.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/my-life-with-without/template-life.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/ability-to-notice-beauty-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/accept-gay-child.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/ai-opposite-of-art-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/ai-opposite-of-art-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/amish-tripathi-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/barbra-streisand-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/brianna-pastor-proud-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/compass-and-clock.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/dangerous-blindness-perspective.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/disappear-with-art-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/dolto-difficult-child-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/einstein-passionately-curious-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/favorite-days-not-happened.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/feynman-education-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-elementary.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/feynman-no-shame-knowing-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/feynman-study-hard-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/feynman-study-hard.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/home-is-a-time.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/jim-kwik-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/langle-suppressed-child-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/madonna-ai-art-quote-elementary.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/madonna-ai-art-quote-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/memory-cards-storage-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/must-die-first.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/neufeld-resistance-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/rain-seller-umbrella-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/robin-williams-quote-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/robin-williams-quote-upper-intermediate.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/sadia-hakim-humanity-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/saudade.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/sonder.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/stay-free-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/steve-jobs-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/template-quotes.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/think-for-yourself-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/turn-off-ai-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/underpaid-politicians-teachers-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/virginia-woolf-trigger-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/voltaire-read-dance-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/weird-people-dreams-quote.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/wisdom-of-socrates.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/women-mothers-tragedy.html` is missing `<meta name="description">` or it has empty content.
+- File `events/sessions/the-greatest-quotes/you-are-a-soul.html` is missing `<meta name="description">` or it has empty content.
+- File `events/the-greatest-quotes.html` is missing `<meta name="description">` or it has empty content.
+- File `games/_template.html` is missing `<meta name="description">` or it has empty content.
+- File `games/action_hero/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/battle_of_wits/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/cosy_crossword/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/critics_corner/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/emoji_odyssey/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/etymology_explorer/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/fluency_flow/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/hot_seat/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/identity_mystery/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/last_letter/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/lucky_numbers/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/object_quest/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/opinion_arena/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/story_chain/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/what_gender_is_it/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/word_linker/index.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/de/de.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/de/morphology/de-artikel.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/de/morphology/de-haben.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/de/morphology/de-sein.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/de/morphology/de-verben.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/de/morphology/de-verben.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/el/el.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/el/morphology/el-articles.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/el/morphology/el-be.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/el/morphology/el-pronouns.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/en.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/morphology/en-articles.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/morphology/en-be.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/morphology/en-future-going-to.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/morphology/en-have.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/morphology/en-past-simple.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/morphology/en-plurals.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/morphology/en-possessives.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/morphology/en-present-simple.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/morphology/en-pronouns.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/syntax/en-there-is.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/en/syntax/en-word-order.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/es/es.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/es/morphology/es-articulos.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/es/morphology/es-estar.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/es/morphology/es-presente-reg.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/es/morphology/es-pronombres.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/es/morphology/es-ser.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/fr/fr.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/fr/morphology/fr-articles-partitifs.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/fr/morphology/fr-articles.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/fr/morphology/fr-articles.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/fr/morphology/fr-avoir.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/fr/morphology/fr-avoir.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/fr/morphology/fr-etre.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/fr/morphology/fr-etre.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/fr/morphology/fr-pronoms.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/fr/morphology/fr-verbes-er.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/fr/morphology/fr-verbes-er.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/fr/syntax/fr-negation.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/fr/syntax/fr-negation.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/index.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/it/it.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/it/morphology/it-articoli.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/it/morphology/it-articoli.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/it/morphology/it-avere.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/it/morphology/it-avere.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/it/morphology/it-essere-1.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/it/morphology/it-essere-2.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/it/morphology/it-plurali.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/it/morphology/it-pronomi.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/it/morphology/it-verbi.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/pt/morphology/pt-artigos.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/pt/morphology/pt-artigos.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/pt/morphology/pt-ser-estar.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/pt/morphology/pt-verbos.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/pt/morphology/pt-verbos.html` is missing `<meta name="viewport" ...>`.
+- File `grammar/pt/pt.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/ru/morphology/ru-be.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/ru/morphology/ru-nouns-gender.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/ru/morphology/ru-pronouns.html` is missing `<meta name="description">` or it has empty content.
+- File `grammar/ru/ru.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/ba/index.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/br/index.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/coming-soon.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/de/index.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/el.html` is missing `<meta charset="...">`.
+- File `languages/el.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/el.html` is missing `<meta name="viewport" ...>`.
+- File `languages/el.html` is missing `<title>`.
+- File `languages/el/curriculum.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/el/grammar.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/el/pronunciation.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/el/vocabulary.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/en.html` is missing `<meta charset="...">`.
+- File `languages/en.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/en.html` is missing `<meta name="viewport" ...>`.
+- File `languages/en.html` is missing `<title>`.
+- File `languages/en/curriculum.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/en/grammar.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/en/pronunciation.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/en/vocabulary.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/es/index.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/fr.html` is missing `<meta charset="...">`.
+- File `languages/fr.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/fr.html` is missing `<meta name="viewport" ...>`.
+- File `languages/fr.html` is missing `<title>`.
+- File `languages/fr/curriculum.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/fr/grammar.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/fr/pronunciation.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/fr/vocabulary.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/hy/index.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/it.html` is missing `<meta charset="...">`.
+- File `languages/it.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/it.html` is missing `<meta name="viewport" ...>`.
+- File `languages/it.html` is missing `<title>`.
+- File `languages/it/curriculum.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/it/grammar.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/it/pronunciation.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/it/vocabulary.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/ka/index.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/pt/index.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/ru.html` is missing `<meta charset="...">`.
+- File `languages/ru.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/ru.html` is missing `<meta name="viewport" ...>`.
+- File `languages/ru.html` is missing `<title>`.
+- File `languages/ru/curriculum.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/ru/grammar.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/ru/pronunciation.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/ru/vocabulary.html` is missing `<meta name="description">` or it has empty content.
+- File `languages/tt/index.html` is missing `<meta name="description">` or it has empty content.
+- File `notebook/index.html` is missing `<meta name="description">` or it has empty content.
+- File `placement-quiz.html` is missing `<meta name="description">` or it has empty content.
+- File `practice/types/flashcard/index.html` is missing `<meta name="description">` or it has empty content.
+- File `practice/types/grammar/index.html` is missing `<meta name="description">` or it has empty content.
+- File `practice/types/listening/index.html` is missing `<meta name="description">` or it has empty content.
+- File `practice/types/reading/index.html` is missing `<meta name="description">` or it has empty content.
+- File `practice/types/vocabulary/index.html` is missing `<meta name="description">` or it has empty content.
+- File `practice/types/writing/index.html` is missing `<meta name="description">` or it has empty content.
+- File `print-boardgame.html` is missing `<meta name="description">` or it has empty content.
+- File `print-box.html` is missing `<meta name="description">` or it has empty content.
+- File `print-cards.html` is missing `<meta name="description">` or it has empty content.
+- File `print-grammar.html` is missing `<meta name="description">` or it has empty content.
+- File `print-zine.html` is missing `<meta name="description">` or it has empty content.
+- File `privacy.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/events/celebrate-session-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/events/debate-session-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/events/karaoke-session-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/events/life-session-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/events/mind-session-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/events/quotes-session-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/events/science-session-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/events/session-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/events/wonder-session-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/games/scaffold/index.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/grammar/lesson-template.html` is missing `<meta name="description">` or it has empty content.
+- File `templates/grammar/roadmap-template.html` is missing `<meta name="description">` or it has empty content.
+- File `vocabulary/en/en.html` is missing `<meta name="description">` or it has empty content.
+- File `vocabulary/index.html` is missing `<meta name="description">` or it has empty content.
+
+## 8. Inconsistent Filenames (213 items)
+
+- Filename `courses/_coming_soon/README.md` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/el/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/el/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/el/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/el/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/en/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/en/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/en/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/en/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/fr/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/fr/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/fr/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/fr/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/it/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/it/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/it/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/it/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/ru/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/ru/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/ru/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/exam/ru/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/el/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/el/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/el/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/el/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/el/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/el/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/en/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/en/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/en/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/en/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/en/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/en/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/fr/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/fr/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/fr/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/fr/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/fr/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/fr/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/it/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/it/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/it/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/it/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/it/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/it/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/ru/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/ru/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/ru/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/ru/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/ru/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/general/ru/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/el/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/el/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/el/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/el/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/en/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/en/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/en/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/en/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/fr/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/fr/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/fr/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/fr/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/it/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/it/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/it/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/it/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/ru/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/ru/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/ru/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/professional/ru/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/el/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/el/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/el/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/el/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/en/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/en/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/en/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/en/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/fr/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/fr/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/fr/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/fr/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/it/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/it/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/it/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/it/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/ru/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/ru/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/ru/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/relocation/ru/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/el/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/el/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/el/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/el/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/el/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/el/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/en/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/en/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/en/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/en/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/en/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/en/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/fr/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/fr/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/fr/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/fr/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/fr/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/fr/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/it/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/it/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/it/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/it/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/it/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/it/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/ru/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/ru/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/ru/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/ru/B2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/ru/C1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/spoken/ru/C2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/el/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/el/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/el/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/en/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/en/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/en/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/fr/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/fr/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/fr/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/it/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/it/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/it/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/ru/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/ru/A2.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `courses/travelling/ru/B1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/_schema/README.md` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/ba/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/ba/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/br/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/br/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/de/general/A1.js` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/de/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/de/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/el/exam/C1.js` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/el/exam/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/el/general/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/el/general/A1.js` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/el/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/en/general/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/en/general/A1.js` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/en/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/en/general/A2.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/en/general/B1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/en/general/B2.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/en/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/en/general/C2.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/es/general/A1.js` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/es/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/es/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/fr/general/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/fr/general/A1.js` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/fr/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/fr/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/hy/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/hy/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/it/general/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/it/general/A1.js` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/it/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/it/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/ka/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/ka/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/pt/general/A1.js` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/pt/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/pt/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/ru/general/A1.html` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/ru/general/A1.js` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/ru/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/ru/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/tt/general/A1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `curriculum/tt/general/C1.json` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `data/index/README.md` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `docs/PLAN.md` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `grammar/_schema/README.md` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/README.md` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/actions/to watch TV.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Australia.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Brazil.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Canada.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/China.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Egypt.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/France.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Germany.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/India.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Ireland.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Italy.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Japan.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Mexico.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Portugal.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Russia.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/South Korea.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Spain.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/The UK. The United Kingdom.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/The USA. The United States of America.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/countries/Turkey.Turkie.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/devices/TV.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/devices/laptop.computer studies.IT.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/hobbies/basketball.physical education.PE.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `images/ui/vocabulary/jobs/IT specialist.png` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `planning/general/README.md` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `templates/README.md` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `verification/videos/Intro.mp4` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+- Filename `vocabulary/_schema/README.md` uses CamelCase/PascalCase naming style instead of standard lowercase kebab-case or snake_case.
+
+## 9. Inconsistent Capitalization (0 items)
+
+🎉 No issues detected in this category.
+
+
+## 10. Missing Navigation (399 items)
+
+- Page `classroom-sync.html` is missing `<footer>` element.
+- Page `courses/exam/el/B1.html` is missing `<footer>` element.
+- Page `courses/exam/el/B2.html` is missing `<footer>` element.
+- Page `courses/exam/el/C1.html` is missing `<footer>` element.
+- Page `courses/exam/el/C2.html` is missing `<footer>` element.
+- Page `courses/exam/el/index.html` is missing `<footer>` element.
+- Page `courses/exam/en/B1.html` is missing `<footer>` element.
+- Page `courses/exam/en/B2.html` is missing `<footer>` element.
+- Page `courses/exam/en/C1.html` is missing `<footer>` element.
+- Page `courses/exam/en/C2.html` is missing `<footer>` element.
+- Page `courses/exam/en/index.html` is missing `<footer>` element.
+- Page `courses/exam/fr/B1.html` is missing `<footer>` element.
+- Page `courses/exam/fr/B2.html` is missing `<footer>` element.
+- Page `courses/exam/fr/C1.html` is missing `<footer>` element.
+- Page `courses/exam/fr/C2.html` is missing `<footer>` element.
+- Page `courses/exam/fr/index.html` is missing `<footer>` element.
+- Page `courses/exam/it/B1.html` is missing `<footer>` element.
+- Page `courses/exam/it/B2.html` is missing `<footer>` element.
+- Page `courses/exam/it/C1.html` is missing `<footer>` element.
+- Page `courses/exam/it/C2.html` is missing `<footer>` element.
+- Page `courses/exam/it/index.html` is missing `<footer>` element.
+- Page `courses/exam/ru/B1.html` is missing `<footer>` element.
+- Page `courses/exam/ru/B2.html` is missing `<footer>` element.
+- Page `courses/exam/ru/C1.html` is missing `<footer>` element.
+- Page `courses/exam/ru/C2.html` is missing `<footer>` element.
+- Page `courses/exam/ru/index.html` is missing `<footer>` element.
+- Page `courses/general/el/A1.html` is missing `<footer>` element.
+- Page `courses/general/el/A2.html` is missing `<footer>` element.
+- Page `courses/general/el/B1.html` is missing `<footer>` element.
+- Page `courses/general/el/B2.html` is missing `<footer>` element.
+- Page `courses/general/el/C1.html` is missing `<footer>` element.
+- Page `courses/general/el/C2.html` is missing `<footer>` element.
+- Page `courses/general/el/index.html` is missing `<footer>` element.
+- Page `courses/general/en/A1.html` is missing `<footer>` element.
+- Page `courses/general/en/A2.html` is missing `<footer>` element.
+- Page `courses/general/en/B1.html` is missing `<footer>` element.
+- Page `courses/general/en/B2.html` is missing `<footer>` element.
+- Page `courses/general/en/C1.html` is missing `<footer>` element.
+- Page `courses/general/en/C2.html` is missing `<footer>` element.
+- Page `courses/general/en/index.html` is missing `<footer>` element.
+- Page `courses/general/fr/A1.html` is missing `<footer>` element.
+- Page `courses/general/fr/A2.html` is missing `<footer>` element.
+- Page `courses/general/fr/B1.html` is missing `<footer>` element.
+- Page `courses/general/fr/B2.html` is missing `<footer>` element.
+- Page `courses/general/fr/C1.html` is missing `<footer>` element.
+- Page `courses/general/fr/C2.html` is missing `<footer>` element.
+- Page `courses/general/fr/index.html` is missing `<footer>` element.
+- Page `courses/general/it/A1.html` is missing `<footer>` element.
+- Page `courses/general/it/A2.html` is missing `<footer>` element.
+- Page `courses/general/it/B1.html` is missing `<footer>` element.
+- Page `courses/general/it/B2.html` is missing `<footer>` element.
+- Page `courses/general/it/C1.html` is missing `<footer>` element.
+- Page `courses/general/it/C2.html` is missing `<footer>` element.
+- Page `courses/general/it/index.html` is missing `<footer>` element.
+- Page `courses/general/ru/A1.html` is missing `<footer>` element.
+- Page `courses/general/ru/A2.html` is missing `<footer>` element.
+- Page `courses/general/ru/B1.html` is missing `<footer>` element.
+- Page `courses/general/ru/B2.html` is missing `<footer>` element.
+- Page `courses/general/ru/C1.html` is missing `<footer>` element.
+- Page `courses/general/ru/C2.html` is missing `<footer>` element.
+- Page `courses/general/ru/index.html` is missing `<footer>` element.
+- Page `courses/professional/el/B1.html` is missing `<footer>` element.
+- Page `courses/professional/el/B2.html` is missing `<footer>` element.
+- Page `courses/professional/el/C1.html` is missing `<footer>` element.
+- Page `courses/professional/el/C2.html` is missing `<footer>` element.
+- Page `courses/professional/el/index.html` is missing `<footer>` element.
+- Page `courses/professional/en/B1.html` is missing `<footer>` element.
+- Page `courses/professional/en/B2.html` is missing `<footer>` element.
+- Page `courses/professional/en/C1.html` is missing `<footer>` element.
+- Page `courses/professional/en/C2.html` is missing `<footer>` element.
+- Page `courses/professional/en/index.html` is missing `<footer>` element.
+- Page `courses/professional/fr/B1.html` is missing `<footer>` element.
+- Page `courses/professional/fr/B2.html` is missing `<footer>` element.
+- Page `courses/professional/fr/C1.html` is missing `<footer>` element.
+- Page `courses/professional/fr/C2.html` is missing `<footer>` element.
+- Page `courses/professional/fr/index.html` is missing `<footer>` element.
+- Page `courses/professional/it/B1.html` is missing `<footer>` element.
+- Page `courses/professional/it/B2.html` is missing `<footer>` element.
+- Page `courses/professional/it/C1.html` is missing `<footer>` element.
+- Page `courses/professional/it/C2.html` is missing `<footer>` element.
+- Page `courses/professional/it/index.html` is missing `<footer>` element.
+- Page `courses/professional/ru/B1.html` is missing `<footer>` element.
+- Page `courses/professional/ru/B2.html` is missing `<footer>` element.
+- Page `courses/professional/ru/C1.html` is missing `<footer>` element.
+- Page `courses/professional/ru/C2.html` is missing `<footer>` element.
+- Page `courses/professional/ru/index.html` is missing `<footer>` element.
+- Page `courses/relocation/el/A2.html` is missing `<footer>` element.
+- Page `courses/relocation/el/B1.html` is missing `<footer>` element.
+- Page `courses/relocation/el/B2.html` is missing `<footer>` element.
+- Page `courses/relocation/el/C1.html` is missing `<footer>` element.
+- Page `courses/relocation/el/index.html` is missing `<footer>` element.
+- Page `courses/relocation/en/A2.html` is missing `<footer>` element.
+- Page `courses/relocation/en/B1.html` is missing `<footer>` element.
+- Page `courses/relocation/en/B2.html` is missing `<footer>` element.
+- Page `courses/relocation/en/C1.html` is missing `<footer>` element.
+- Page `courses/relocation/en/index.html` is missing `<footer>` element.
+- Page `courses/relocation/fr/A2.html` is missing `<footer>` element.
+- Page `courses/relocation/fr/B1.html` is missing `<footer>` element.
+- Page `courses/relocation/fr/B2.html` is missing `<footer>` element.
+- Page `courses/relocation/fr/C1.html` is missing `<footer>` element.
+- Page `courses/relocation/fr/index.html` is missing `<footer>` element.
+- Page `courses/relocation/it/A2.html` is missing `<footer>` element.
+- Page `courses/relocation/it/B1.html` is missing `<footer>` element.
+- Page `courses/relocation/it/B2.html` is missing `<footer>` element.
+- Page `courses/relocation/it/C1.html` is missing `<footer>` element.
+- Page `courses/relocation/it/index.html` is missing `<footer>` element.
+- Page `courses/relocation/ru/A2.html` is missing `<footer>` element.
+- Page `courses/relocation/ru/B1.html` is missing `<footer>` element.
+- Page `courses/relocation/ru/B2.html` is missing `<footer>` element.
+- Page `courses/relocation/ru/C1.html` is missing `<footer>` element.
+- Page `courses/relocation/ru/index.html` is missing `<footer>` element.
+- Page `courses/spoken/el/A1.html` is missing `<footer>` element.
+- Page `courses/spoken/el/A2.html` is missing `<footer>` element.
+- Page `courses/spoken/el/B1.html` is missing `<footer>` element.
+- Page `courses/spoken/el/B2.html` is missing `<footer>` element.
+- Page `courses/spoken/el/C1.html` is missing `<footer>` element.
+- Page `courses/spoken/el/C2.html` is missing `<footer>` element.
+- Page `courses/spoken/el/index.html` is missing `<footer>` element.
+- Page `courses/spoken/en/A1.html` is missing `<footer>` element.
+- Page `courses/spoken/en/A2.html` is missing `<footer>` element.
+- Page `courses/spoken/en/B1.html` is missing `<footer>` element.
+- Page `courses/spoken/en/B2.html` is missing `<footer>` element.
+- Page `courses/spoken/en/C1.html` is missing `<footer>` element.
+- Page `courses/spoken/en/C2.html` is missing `<footer>` element.
+- Page `courses/spoken/en/index.html` is missing `<footer>` element.
+- Page `courses/spoken/fr/A1.html` is missing `<footer>` element.
+- Page `courses/spoken/fr/A2.html` is missing `<footer>` element.
+- Page `courses/spoken/fr/B1.html` is missing `<footer>` element.
+- Page `courses/spoken/fr/B2.html` is missing `<footer>` element.
+- Page `courses/spoken/fr/C1.html` is missing `<footer>` element.
+- Page `courses/spoken/fr/C2.html` is missing `<footer>` element.
+- Page `courses/spoken/fr/index.html` is missing `<footer>` element.
+- Page `courses/spoken/it/A1.html` is missing `<footer>` element.
+- Page `courses/spoken/it/A2.html` is missing `<footer>` element.
+- Page `courses/spoken/it/B1.html` is missing `<footer>` element.
+- Page `courses/spoken/it/B2.html` is missing `<footer>` element.
+- Page `courses/spoken/it/C1.html` is missing `<footer>` element.
+- Page `courses/spoken/it/C2.html` is missing `<footer>` element.
+- Page `courses/spoken/it/index.html` is missing `<footer>` element.
+- Page `courses/spoken/ru/A1.html` is missing `<footer>` element.
+- Page `courses/spoken/ru/A2.html` is missing `<footer>` element.
+- Page `courses/spoken/ru/B1.html` is missing `<footer>` element.
+- Page `courses/spoken/ru/B2.html` is missing `<footer>` element.
+- Page `courses/spoken/ru/C1.html` is missing `<footer>` element.
+- Page `courses/spoken/ru/C2.html` is missing `<footer>` element.
+- Page `courses/spoken/ru/index.html` is missing `<footer>` element.
+- Page `courses/travelling/el/A1.html` is missing `<footer>` element.
+- Page `courses/travelling/el/A2.html` is missing `<footer>` element.
+- Page `courses/travelling/el/B1.html` is missing `<footer>` element.
+- Page `courses/travelling/el/index.html` is missing `<footer>` element.
+- Page `courses/travelling/en/A1.html` is missing `<footer>` element.
+- Page `courses/travelling/en/A2.html` is missing `<footer>` element.
+- Page `courses/travelling/en/B1.html` is missing `<footer>` element.
+- Page `courses/travelling/en/index.html` is missing `<footer>` element.
+- Page `courses/travelling/fr/A1.html` is missing `<footer>` element.
+- Page `courses/travelling/fr/A2.html` is missing `<footer>` element.
+- Page `courses/travelling/fr/B1.html` is missing `<footer>` element.
+- Page `courses/travelling/fr/index.html` is missing `<footer>` element.
+- Page `courses/travelling/it/A1.html` is missing `<footer>` element.
+- Page `courses/travelling/it/A2.html` is missing `<footer>` element.
+- Page `courses/travelling/it/B1.html` is missing `<footer>` element.
+- Page `courses/travelling/it/index.html` is missing `<footer>` element.
+- Page `courses/travelling/ru/A1.html` is missing `<footer>` element.
+- Page `courses/travelling/ru/A2.html` is missing `<footer>` element.
+- Page `courses/travelling/ru/B1.html` is missing `<footer>` element.
+- Page `courses/travelling/ru/index.html` is missing `<footer>` element.
+- Page `curriculum/el/general/A1.html` is missing `<footer>` element.
+- Page `curriculum/en/general/A1.html` is missing `<footer>` element.
+- Page `curriculum/fr/general/A1.html` is missing `<footer>` element.
+- Page `curriculum/it/general/A1.html` is missing `<footer>` element.
+- Page `curriculum/ru/general/A1.html` is missing `<footer>` element.
+- Page `games/_template.html` is missing `<footer>` element.
+- Page `games/action_hero/index.html` is missing `<footer>` element.
+- Page `games/battle_of_wits/index.html` is missing `<footer>` element.
+- Page `games/cosy_crossword/index.html` is missing `<footer>` element.
+- Page `games/critics_corner/index.html` is missing `<footer>` element.
+- Page `games/emoji_odyssey/index.html` is missing `<footer>` element.
+- Page `games/etymology_explorer/index.html` is missing `<footer>` element.
+- Page `games/fluency_flow/index.html` is missing `<footer>` element.
+- Page `games/hot_seat/index.html` is missing `<footer>` element.
+- Page `games/identity_mystery/index.html` is missing `<footer>` element.
+- Page `games/last_letter/index.html` is missing `<footer>` element.
+- Page `games/lucky_numbers/index.html` is missing `<footer>` element.
+- Page `games/object_quest/index.html` is missing `<footer>` element.
+- Page `games/opinion_arena/index.html` is missing `<footer>` element.
+- Page `games/story_chain/index.html` is missing `<footer>` element.
+- Page `games/what_gender_is_it/index.html` is missing `<footer>` element.
+- Page `games/word_linker/index.html` is missing `<footer>` element.
+- Page `grammar/de/de.html` is missing `<footer>` element.
+- Page `grammar/de/de.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/de/morphology/de-artikel.html` is missing `<footer>` element.
+- Page `grammar/de/morphology/de-artikel.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/de/morphology/de-haben.html` is missing `<footer>` element.
+- Page `grammar/de/morphology/de-haben.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/de/morphology/de-sein.html` is missing `<footer>` element.
+- Page `grammar/de/morphology/de-sein.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/de/morphology/de-verben.html` is missing `<footer>` element.
+- Page `grammar/de/morphology/de-verben.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/el/el.html` is missing `<footer>` element.
+- Page `grammar/el/el.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/el/morphology/el-articles.html` is missing `<footer>` element.
+- Page `grammar/el/morphology/el-articles.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/el/morphology/el-be.html` is missing `<footer>` element.
+- Page `grammar/el/morphology/el-be.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/el/morphology/el-pronouns.html` is missing `<footer>` element.
+- Page `grammar/el/morphology/el-pronouns.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/en.html` is missing `<footer>` element.
+- Page `grammar/en/en.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/morphology/en-articles.html` is missing `<footer>` element.
+- Page `grammar/en/morphology/en-articles.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/morphology/en-be.html` is missing `<footer>` element.
+- Page `grammar/en/morphology/en-be.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/morphology/en-future-going-to.html` is missing `<footer>` element.
+- Page `grammar/en/morphology/en-future-going-to.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/morphology/en-have.html` is missing `<footer>` element.
+- Page `grammar/en/morphology/en-have.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/morphology/en-past-simple.html` is missing `<footer>` element.
+- Page `grammar/en/morphology/en-past-simple.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/morphology/en-plurals.html` is missing `<footer>` element.
+- Page `grammar/en/morphology/en-plurals.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/morphology/en-possessives.html` is missing `<footer>` element.
+- Page `grammar/en/morphology/en-possessives.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/morphology/en-present-simple.html` is missing `<footer>` element.
+- Page `grammar/en/morphology/en-present-simple.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/morphology/en-pronouns.html` is missing `<footer>` element.
+- Page `grammar/en/morphology/en-pronouns.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/syntax/en-there-is.html` is missing `<footer>` element.
+- Page `grammar/en/syntax/en-there-is.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/en/syntax/en-word-order.html` is missing `<footer>` element.
+- Page `grammar/en/syntax/en-word-order.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/es/es.html` is missing `<footer>` element.
+- Page `grammar/es/es.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/es/morphology/es-articulos.html` is missing `<footer>` element.
+- Page `grammar/es/morphology/es-articulos.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/es/morphology/es-estar.html` is missing `<footer>` element.
+- Page `grammar/es/morphology/es-estar.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/es/morphology/es-presente-reg.html` is missing `<footer>` element.
+- Page `grammar/es/morphology/es-presente-reg.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/es/morphology/es-pronombres.html` is missing `<footer>` element.
+- Page `grammar/es/morphology/es-pronombres.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/es/morphology/es-ser.html` is missing `<footer>` element.
+- Page `grammar/es/morphology/es-ser.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/fr/fr.html` is missing `<footer>` element.
+- Page `grammar/fr/fr.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/fr/morphology/fr-articles-partitifs.html` is missing `<footer>` element.
+- Page `grammar/fr/morphology/fr-articles-partitifs.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/fr/morphology/fr-articles.html` is missing `<footer>` element.
+- Page `grammar/fr/morphology/fr-articles.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/fr/morphology/fr-avoir.html` is missing `<footer>` element.
+- Page `grammar/fr/morphology/fr-avoir.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/fr/morphology/fr-etre.html` is missing `<footer>` element.
+- Page `grammar/fr/morphology/fr-etre.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/fr/morphology/fr-pronoms.html` is missing `<footer>` element.
+- Page `grammar/fr/morphology/fr-pronoms.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/fr/morphology/fr-verbes-er.html` is missing `<footer>` element.
+- Page `grammar/fr/morphology/fr-verbes-er.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/fr/syntax/fr-negation.html` is missing `<footer>` element.
+- Page `grammar/fr/syntax/fr-negation.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/index.html` is missing `<footer>` element.
+- Page `grammar/it/it.html` is missing `<footer>` element.
+- Page `grammar/it/it.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/it/morphology/it-articoli.html` is missing `<footer>` element.
+- Page `grammar/it/morphology/it-articoli.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/it/morphology/it-avere.html` is missing `<footer>` element.
+- Page `grammar/it/morphology/it-avere.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/it/morphology/it-essere-1.html` is missing `<footer>` element.
+- Page `grammar/it/morphology/it-essere-1.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/it/morphology/it-essere-2.html` is missing `<footer>` element.
+- Page `grammar/it/morphology/it-essere-2.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/it/morphology/it-plurali.html` is missing `<footer>` element.
+- Page `grammar/it/morphology/it-plurali.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/it/morphology/it-pronomi.html` is missing `<footer>` element.
+- Page `grammar/it/morphology/it-pronomi.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/it/morphology/it-verbi.html` is missing `<footer>` element.
+- Page `grammar/it/morphology/it-verbi.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/pt/morphology/pt-artigos.html` is missing `<footer>` element.
+- Page `grammar/pt/morphology/pt-artigos.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/pt/morphology/pt-ser-estar.html` is missing `<footer>` element.
+- Page `grammar/pt/morphology/pt-ser-estar.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/pt/morphology/pt-verbos.html` is missing `<footer>` element.
+- Page `grammar/pt/morphology/pt-verbos.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/pt/pt.html` is missing `<footer>` element.
+- Page `grammar/pt/pt.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/ru/morphology/ru-be.html` is missing `<footer>` element.
+- Page `grammar/ru/morphology/ru-be.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/ru/morphology/ru-nouns-gender.html` is missing `<footer>` element.
+- Page `grammar/ru/morphology/ru-nouns-gender.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/ru/morphology/ru-pronouns.html` is missing `<footer>` element.
+- Page `grammar/ru/morphology/ru-pronouns.html` is missing `<nav id="cosy-nav">` element.
+- Page `grammar/ru/ru.html` is missing `<footer>` element.
+- Page `grammar/ru/ru.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/ba/index.html` is missing `<footer>` element.
+- Page `languages/ba/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/br/index.html` is missing `<footer>` element.
+- Page `languages/br/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/de/index.html` is missing `<footer>` element.
+- Page `languages/de/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/el.html` is missing `<footer>` element.
+- Page `languages/el.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/el/curriculum.html` is missing `<footer>` element.
+- Page `languages/el/grammar.html` is missing `<footer>` element.
+- Page `languages/el/grammar.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/el/pronunciation.html` is missing `<footer>` element.
+- Page `languages/el/pronunciation.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/el/vocabulary.html` is missing `<footer>` element.
+- Page `languages/el/vocabulary.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/en.html` is missing `<footer>` element.
+- Page `languages/en.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/en/curriculum.html` is missing `<footer>` element.
+- Page `languages/en/grammar.html` is missing `<footer>` element.
+- Page `languages/en/grammar.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/en/pronunciation.html` is missing `<footer>` element.
+- Page `languages/en/pronunciation.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/en/vocabulary.html` is missing `<footer>` element.
+- Page `languages/en/vocabulary.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/es/index.html` is missing `<footer>` element.
+- Page `languages/es/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/fr.html` is missing `<footer>` element.
+- Page `languages/fr.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/fr/curriculum.html` is missing `<footer>` element.
+- Page `languages/fr/grammar.html` is missing `<footer>` element.
+- Page `languages/fr/grammar.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/fr/pronunciation.html` is missing `<footer>` element.
+- Page `languages/fr/pronunciation.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/fr/vocabulary.html` is missing `<footer>` element.
+- Page `languages/fr/vocabulary.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/hy/index.html` is missing `<footer>` element.
+- Page `languages/hy/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/it.html` is missing `<footer>` element.
+- Page `languages/it.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/it/curriculum.html` is missing `<footer>` element.
+- Page `languages/it/grammar.html` is missing `<footer>` element.
+- Page `languages/it/grammar.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/it/pronunciation.html` is missing `<footer>` element.
+- Page `languages/it/pronunciation.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/it/vocabulary.html` is missing `<footer>` element.
+- Page `languages/it/vocabulary.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/ka/index.html` is missing `<footer>` element.
+- Page `languages/ka/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/pt/index.html` is missing `<footer>` element.
+- Page `languages/pt/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/ru.html` is missing `<footer>` element.
+- Page `languages/ru.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/ru/curriculum.html` is missing `<footer>` element.
+- Page `languages/ru/grammar.html` is missing `<footer>` element.
+- Page `languages/ru/grammar.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/ru/pronunciation.html` is missing `<footer>` element.
+- Page `languages/ru/pronunciation.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/ru/vocabulary.html` is missing `<footer>` element.
+- Page `languages/ru/vocabulary.html` is missing `<nav id="cosy-nav">` element.
+- Page `languages/tt/index.html` is missing `<footer>` element.
+- Page `languages/tt/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `placement-quiz.html` is missing `<footer>` element.
+- Page `practice/types/flashcard/index.html` is missing `<footer>` element.
+- Page `practice/types/flashcard/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `practice/types/grammar/index.html` is missing `<footer>` element.
+- Page `practice/types/grammar/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `practice/types/listening/index.html` is missing `<footer>` element.
+- Page `practice/types/listening/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `practice/types/reading/index.html` is missing `<footer>` element.
+- Page `practice/types/reading/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `practice/types/vocabulary/index.html` is missing `<footer>` element.
+- Page `practice/types/vocabulary/index.html` is missing `<nav id="cosy-nav">` element.
+- Page `print-boardgame.html` is missing `<footer>` element.
+- Page `print-boardgame.html` is missing `<nav id="cosy-nav">` element.
+- Page `print-box.html` is missing `<footer>` element.
+- Page `print-box.html` is missing `<nav id="cosy-nav">` element.
+- Page `print-cards.html` is missing `<footer>` element.
+- Page `print-cards.html` is missing `<nav id="cosy-nav">` element.
+- Page `print-grammar.html` is missing `<footer>` element.
+- Page `print-grammar.html` is missing `<nav id="cosy-nav">` element.
+- Page `print-zine.html` is missing `<footer>` element.
+- Page `print-zine.html` is missing `<nav id="cosy-nav">` element.
+- Page `vocabulary/en/en.html` is missing `<footer>` element.
+- Page `vocabulary/index.html` is missing `<footer>` element.
+- Session page `events/fr/sessions/debatable-relatable/la-semaine-de-4-jours.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/anticipatory-grief.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/broken-children-grown-bodies.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/depersonalization.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/fear-of-love-control.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/finding-the-right-person.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/gilberts-law.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/impersonation.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/kidlins-law.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/law-of-attraction.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/limerence.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/murphys-law.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/mind-matters/wilsons-law.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/accept-gay-child.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/ai-opposite-of-art.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/dangerous-blindness-perspective.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/favorite-days-not-happened.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/home-is-a-time.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/la-sagesse-de-socrate.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/must-die-first.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/saudade.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/sonder.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/women-mothers-tragedy.html` is missing `.cosy-breadcrumbs` navigation element.
+- Session page `events/fr/sessions/the-greatest-quotes/you-are-a-soul.html` is missing `.cosy-breadcrumbs` navigation element.
+
+## 11. Missing References (391 items)
+
+- File `404.html` contains stylesheet link `` pointing to non-existent file `.`.
+- File `404.html` contains stylesheet link `` pointing to non-existent file `.`.
+- File `404.html` contains stylesheet link `` pointing to non-existent file `.`.
+- File `404.html` contains stylesheet link `` pointing to non-existent file `.`.
+- File `courses/exam/el/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/el/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/el/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/el/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/el/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/el/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/el/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/el/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/el/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/el/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/en/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/en/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/en/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/en/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/en/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/en/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/en/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/en/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/en/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/en/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/fr/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/fr/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/fr/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/fr/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/fr/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/fr/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/fr/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/fr/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/fr/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/fr/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/it/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/it/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/it/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/it/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/it/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/it/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/it/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/it/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/it/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/it/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/ru/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/ru/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/ru/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/ru/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/ru/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/ru/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/ru/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/ru/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/exam/ru/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/exam/ru/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/el/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/el/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/el/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/el/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/el/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/el/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/el/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/el/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/el/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/el/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/el/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/el/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/el/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/el/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/en/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/en/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/en/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/en/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/en/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/en/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/en/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/en/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/en/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/en/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/en/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/en/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/en/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/en/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/fr/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/fr/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/fr/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/fr/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/fr/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/fr/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/fr/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/fr/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/fr/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/fr/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/fr/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/fr/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/fr/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/fr/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/it/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/it/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/it/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/it/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/it/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/it/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/it/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/it/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/it/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/it/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/it/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/it/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/it/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/it/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/ru/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/ru/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/ru/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/ru/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/ru/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/ru/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/ru/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/ru/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/ru/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/ru/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/ru/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/ru/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/general/ru/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/general/ru/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/index.html` contains script src `../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/index.html` contains script src `../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/el/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/el/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/el/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/el/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/el/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/el/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/el/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/el/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/el/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/el/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/en/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/en/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/en/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/en/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/en/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/en/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/en/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/en/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/en/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/en/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/fr/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/fr/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/fr/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/fr/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/fr/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/fr/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/fr/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/fr/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/fr/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/fr/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/it/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/it/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/it/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/it/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/it/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/it/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/it/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/it/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/it/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/it/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/ru/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/ru/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/ru/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/ru/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/ru/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/ru/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/ru/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/ru/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/professional/ru/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/professional/ru/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/el/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/el/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/el/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/el/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/el/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/el/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/el/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/el/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/el/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/el/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/en/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/en/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/en/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/en/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/en/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/en/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/en/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/en/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/en/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/en/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/fr/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/fr/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/fr/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/fr/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/fr/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/fr/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/fr/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/fr/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/fr/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/fr/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/it/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/it/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/it/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/it/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/it/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/it/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/it/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/it/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/it/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/it/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/ru/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/ru/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/ru/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/ru/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/ru/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/ru/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/ru/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/ru/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/relocation/ru/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/relocation/ru/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/el/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/el/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/el/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/el/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/el/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/el/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/el/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/el/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/el/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/el/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/el/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/el/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/el/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/el/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/en/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/en/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/en/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/en/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/en/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/en/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/en/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/en/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/en/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/en/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/en/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/en/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/en/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/en/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/fr/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/fr/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/fr/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/fr/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/fr/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/fr/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/fr/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/fr/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/fr/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/fr/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/fr/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/fr/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/fr/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/fr/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/it/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/it/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/it/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/it/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/it/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/it/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/it/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/it/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/it/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/it/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/it/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/it/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/it/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/it/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/ru/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/ru/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/ru/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/ru/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/ru/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/ru/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/ru/B2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/ru/B2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/ru/C1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/ru/C1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/ru/C2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/ru/C2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/spoken/ru/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/spoken/ru/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/el/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/el/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/el/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/el/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/el/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/el/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/el/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/el/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/en/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/en/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/en/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/en/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/en/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/en/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/en/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/en/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/fr/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/fr/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/fr/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/fr/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/fr/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/fr/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/fr/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/fr/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/it/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/it/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/it/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/it/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/it/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/it/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/it/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/it/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/ru/A1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/ru/A1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/ru/A2.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/ru/A2.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/ru/B1.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/ru/B1.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `courses/travelling/ru/index.html` contains script src `../../../js/core/init.js` pointing to non-existent file `js/core/init.js`.
+- File `courses/travelling/ru/index.html` contains script src `../../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `events/sessions/karaoke-club/template-karaoke.html` contains script src `../../js/core/engine.js` pointing to non-existent file `events/js/core/engine.js`.
+- File `events/sessions/karaoke-club/template-karaoke.html` contains script src `../../js/core/ui.js` pointing to non-existent file `events/js/core/ui.js`.
+- File `events/sessions/karaoke-club/template-karaoke.html` contains stylesheet link `../../css/base.css` pointing to non-existent file `events/css/base.css`.
+- File `events/sessions/karaoke-club/template-karaoke.html` contains stylesheet link `../../css/components.css` pointing to non-existent file `events/css/components.css`.
+- File `events/sessions/karaoke-club/template-karaoke.html` contains stylesheet link `../../css/events.css` pointing to non-existent file `events/css/events.css`.
+- File `events/sessions/karaoke-club/template-karaoke.html` contains stylesheet link `../../css/layout.css` pointing to non-existent file `events/css/layout.css`.
+- File `events/sessions/karaoke-club/template-karaoke.html` contains stylesheet link `../../css/tokens.css` pointing to non-existent file `events/css/tokens.css`.
+- File `games/_template.html` contains script src `../../js/core/engine.js` pointing to non-existent file `../js/core/engine.js`.
+- File `games/_template.html` contains script src `../../js/core/i18n.js` pointing to non-existent file `../js/core/i18n.js`.
+- File `games/_template.html` contains script src `../../js/core/router.js` pointing to non-existent file `../js/core/router.js`.
+- File `games/_template.html` contains script src `../../js/core/ui.js` pointing to non-existent file `../js/core/ui.js`.
+- File `games/_template.html` contains script src `../../js/data/emojis.js` pointing to non-existent file `../js/data/emojis.js`.
+- File `games/_template.html` contains script src `../../js/data/languages.js` pointing to non-existent file `../js/data/languages.js`.
+- File `games/_template.html` contains script src `../../js/data/numbers.js` pointing to non-existent file `../js/data/numbers.js`.
+- File `games/_template.html` contains script src `../../js/games/utils/shared.js` pointing to non-existent file `../js/games/utils/shared.js`.
+- File `games/_template.html` contains script src `../_engine/game_session.js` pointing to non-existent file `_engine/game_session.js`.
+- File `games/_template.html` contains script src `../_engine/loader.js` pointing to non-existent file `_engine/loader.js`.
+- File `games/_template.html` contains script src `../_engine/scores.js` pointing to non-existent file `_engine/scores.js`.
+- File `games/_template.html` contains script src `game.js` pointing to non-existent file `games/game.js`.
+- File `games/_template.html` contains stylesheet link `../../css/base.css` pointing to non-existent file `../css/base.css`.
+- File `games/_template.html` contains stylesheet link `../../css/components.css` pointing to non-existent file `../css/components.css`.
+- File `games/_template.html` contains stylesheet link `../../css/games.css` pointing to non-existent file `../css/games.css`.
+- File `games/_template.html` contains stylesheet link `../../css/layout.css` pointing to non-existent file `../css/layout.css`.
+- File `games/_template.html` contains stylesheet link `../../css/tokens.css` pointing to non-existent file `../css/tokens.css`.
+- File `games/action_hero/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/battle_of_wits/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/cosy_crossword/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/critics_corner/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/emoji_odyssey/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/hot_seat/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/identity_mystery/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/last_letter/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/lucky_numbers/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/object_quest/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/opinion_arena/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/story_chain/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `games/word_linker/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `grammar/index.html` contains script src `../js/core/router.js` pointing to non-existent file `js/core/router.js`.
+- File `grammar/index.html` references deprecated/dead script `../js/data/grammar_config.js`.
+- File `print-grammar.html` references deprecated/dead script `js/data/grammar_config.js`.
+- File `templates/games/scaffold/index.html` contains script src `../../_engine/game_session.js` pointing to non-existent file `templates/_engine/game_session.js`.
+- File `templates/games/scaffold/index.html` contains script src `../../_engine/unified-engine.js` pointing to non-existent file `templates/_engine/unified-engine.js`.
+- File `templates/games/scaffold/index.html` contains stylesheet link `../../_engine/ui.css` pointing to non-existent file `templates/_engine/ui.css`.
+- File `templates/grammar/lesson-template.html` contains stylesheet link `../../../css/base.css` pointing to non-existent file `../css/base.css`.
+- File `templates/grammar/lesson-template.html` contains stylesheet link `../../../css/components.css` pointing to non-existent file `../css/components.css`.
+- File `templates/grammar/lesson-template.html` contains stylesheet link `../../../css/layout.css` pointing to non-existent file `../css/layout.css`.
+- File `templates/grammar/lesson-template.html` contains stylesheet link `../../../css/tokens.css` pointing to non-existent file `../css/tokens.css`.
+- File `vocabulary/en/en.html` contains script src `A1/clothing.js` pointing to non-existent file `vocabulary/en/A1/clothing.js`.
+- File `vocabulary/en/en.html` contains script src `A1/education.js` pointing to non-existent file `vocabulary/en/A1/education.js`.
+- File `vocabulary/en/en.html` contains script src `A1/food.js` pointing to non-existent file `vocabulary/en/A1/food.js`.
+- File `vocabulary/en/en.html` contains script src `A1/home.js` pointing to non-existent file `vocabulary/en/A1/home.js`.
+- File `vocabulary/en/en.html` contains script src `A1/leisure.js` pointing to non-existent file `vocabulary/en/A1/leisure.js`.
+- File `vocabulary/en/en.html` contains script src `A1/tech.js` pointing to non-existent file `vocabulary/en/A1/tech.js`.
+- File `vocabulary/en/en.html` contains script src `A1/transport.js` pointing to non-existent file `vocabulary/en/A1/transport.js`.
+- File `vocabulary/en/en.html` contains script src `A1/weather.js` pointing to non-existent file `vocabulary/en/A1/weather.js`.
+
+
+## Audit Summary
+
+- **Total Consistency Issues Detected:** 2805
+
+The repository is mostly in a very solid, highly-pedagogical state. The minor inconsistencies flagged above can be streamlined to guarantee pixel-perfect uniformity across all languages and sessions.
