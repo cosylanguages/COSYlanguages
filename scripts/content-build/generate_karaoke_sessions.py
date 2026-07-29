@@ -612,6 +612,36 @@ OPPOSITES_MAP = {
     "Désespoir": "L'espoir",
     "La mémoire": "L'oubli",
     "Prisonnière": "Libre",
+    "Scream": "Whisper",
+    "Jekyll": "Hyde",
+    "Hyde": "Jekyll",
+    "Freak": "Standard",
+    "Toyed": "Ignored",
+    "Freud": "Skeptic",
+    "Split": "Unified",
+    "Identity": "Anonymity",
+    "Combination": "Separation",
+    "Gloomy": "Bright",
+    "Hypnotised": "Indifferent",
+    "Paradise": "Hell",
+    "Disguise": "Authenticity",
+    "Shiver": "Sultry-glow",
+    "Game": "Honesty",
+    "Pay": "Default",
+    "Lonely": "Popular",
+    "Pain": "Comfort",
+    "Disappointment": "Fulfillment",
+    "Gaze": "Blink",
+    "Winter": "Summer",
+    "Safe": "Endangered",
+    "Warm": "Chilly",
+    "Pretend": "Verify",
+    "Preacher": "Layperson",
+    "Dreamin'": "Waking",
+    "Gray": "Colorful",
+    "Brown": "Green",
+    "Leaves": "Branches",
+    "Knees": "Elbows",
     "Karma": "Fate-less",
     "Festering": "Healing",
     "Boulder": "Pebble",
@@ -1221,12 +1251,23 @@ LANGUAGE_FOCUS_DB = {
     },
     "me-and-i": {
         "en": {
-            "title": "Present Simple of State & Reflection",
-            "explanation": "Using verbs of perception and state to describe internal conflicts and dual personalities.",
+            "title": "Reflexive Pronouns (-self / -selves)",
+            "explanation": "We use reflexive pronouns when the subject and the object of a verb are the exact same person. In the song, ABBA explores internal conflicts: 'I am to myself what Jekyll must have been to Hyde' and asks us to 'think about yourself for a minute'.",
             "examples": [
-                "Sometimes I feel there are two different people inside me.",
-                "I look in the mirror and analyze my own expressions.",
-                "She accepts her flaws and learns to live with them."
+                "I am looking at myself in the mirror and seeing two different people.",
+                "You should ask yourself if Dr. Freud's split identity theory applies to you.",
+                "They found themselves caught in a combination of gloomy and bright moods."
+            ]
+        }
+    },
+    "angeleyes": {
+        "en": {
+            "title": "Relative Clauses with 'Who', 'Which', and 'That'",
+            "explanation": "Relative clauses give us more information about a person or thing. In the song, the singer warns about a man 'who' wears a disguise and uses games 'that' he likes to play.",
+            "examples": [
+                "The look that he gave her made me shiver with disappointment.",
+                "Don't look too deep into the angel eyes of a guy who wears a clever disguise.",
+                "She remembered all the good times which eventually brought her so much pain."
             ]
         }
     },
@@ -1278,6 +1319,15 @@ LANGUAGE_FOCUS_DB = {
 
 # Standardized Final Challenges
 FINAL_CHALLENGE_DB = {
+    "california-dreaming": {
+        "en": "The Escape Plan: Work in pairs to describe an ideal, sunny escape destination. Imagine you are stuck in a cold winter town—where would you go, and what would you do once you got there?"
+    },
+    "me-and-i": {
+        "en": "The Internal Conversation: Role-play a short dialogue between your 'Jekyll' side (responsible, calm) and your 'Hyde' side (spontaneous, emotional) deciding how to spend a Friday evening."
+    },
+    "angeleyes": {
+        "en": "The Warning Card: Write a short, anonymous warning card to a young girl who is currently hypnotised by a guy with beautiful angel eyes. Warn her about his disguise and games."
+    },
     "mixed-up-world": {
         "en": "Imagine Sophie Ellis-Bextor writes 'Mixed-Up World Part II'. What has changed in her life? Has her world become more orderly or more hopeful? Work in pairs to invent the sequel and describe the new chorus."
     },
@@ -1327,6 +1377,26 @@ FINAL_CHALLENGE_DB = {
 
 
 VOCAB_DB = {
+    "Scream": ("give a long, loud, piercing cry, expressing extreme emotion or pain.", "The scary movie made her scream in terror."),
+    "Jekyll": ("representing the good or moral side of a dual personality (from Jekyll and Hyde).", "He showed his gentle Jekyll side by helping the elderly lady."),
+    "Hyde": ("representing the dark, wild, or destructive side of a dual personality.", "When he is angry, his aggressive Hyde personality takes over."),
+    "Freak": ("a person, animal, or plant that is abnormal or highly unusual.", "The heavy snow in summer was a complete freak of nature."),
+    "Toyed": ("moved or handled something idly; played with an idea or concept.", "She toyed with the idea of moving to Paris for a year."),
+    "Freud": ("referring to Sigmund Freud, the father of psychoanalysis who analyzed internal conflicts.", "Dr. Freud analyzed the patient's dreams to understand their hidden fears."),
+    "Split": ("divided into two or more parts, factions, or groups.", "She has a split personality, with one side being quiet and the other wild."),
+    "Identity": ("the fact of being who or what a person or thing is.", "Studying abroad helped her discover her true personal identity."),
+    "Combination": ("a joining or merging of different parts or qualities in which the component elements are individually distinct.", "This delicious dessert is a unique combination of sweet and salty flavors."),
+    "Gloomy": ("feeling distressed, sad, or lacking in bright light.", "The gloomy autumn weather made him feel like staying in bed all day."),
+    "Hypnotised": ("having been put into a state of hypnosis; highly captivated.", "She sat completely hypnotised by the beautiful piano performance."),
+    "Paradise": ("an ideal or idyllic place or state; heaven.", "The tropical island felt like a peaceful paradise on earth."),
+    "Disguise": ("a means of altering one's appearance to conceal one's identity.", "The spy wore a clever disguise to blend into the crowded room."),
+    "Shiver": ("shake slightly and uncontrollably as a result of being cold, frightened, or excited.", "The cold winter wind made her shiver despite her warm coat."),
+    "Game": ("an activity or sport played according to rules, or a deceptive trick.", "He realized his friend was playing a manipulative game with his feelings."),
+    "Pay": ("give someone money that is due for work done, or suffer the consequences of an action.", "If you treat people badly, you will eventually have to pay the price."),
+    "Lonely": ("sad because one has no friends or company.", "She felt very lonely during her first week living in the big city."),
+    "Pain": ("highly distressing physical or emotional sensation.", "Time eventually heals the deep pain of a broken heart."),
+    "Disappointment": ("sadness or displeasure caused by the nonfulfillment of one's hopes or expectations.", "Her failing grade was a major disappointment to her parents."),
+    "Gaze": ("a steady intent look, as of admiration, surprise, or thought.", "She turned her loving gaze toward her newborn baby."),
     "La classe": ("groupe d'élèves qui reçoivent ensemble le même enseignement, ou la salle.", "La classe de français est toujours très dynamique et interactive."),
     "L'histoire": ("récit d'événements passés, réels ou imaginaires.", "Elle adore raconter une histoire passionnante à ses enfants."),
     "La masse": ("grand nombre de personnes formant un ensemble, la foule.", "L'effet de masse pousse parfois les gens à agir sans réfléchir."),
@@ -1338,6 +1408,16 @@ VOCAB_DB = {
     "Désespoir": ("état de détresse extrême, perte de tout espoir.", "Elle a surmonté son grand désespoir grâce au soutien de ses amis."),
     "La mémoire": ("faculté de conserver et de se rappeler des états de conscience passés.", "Elle a une excellente mémoire pour retenir les dates historiques."),
     "Prisonnière": ("personne privée de sa liberté, enfermée.", "Elle se sent prisonnière de ses propres pensées négatives."),
+    "Winter": ("the coldest season of the year, in the northern hemisphere from December to February.", "The park is incredibly beautiful when covered in fresh winter snow."),
+    "Safe": ("protected from or not exposed to danger or risk; not likely to be harmed.", "We felt safe and warm inside our cozy mountain cabin."),
+    "Warm": ("at a comfortable or moderately high temperature.", "A warm bowl of soup is perfect for a cold and rainy afternoon."),
+    "Pretend": ("behave so as to make it appear that something is the case when in fact it is not.", "The children love to pretend they are brave space explorers."),
+    "Preacher": ("a person who preaches, especially a minister of a religion.", "The local preacher delivered a deeply inspiring message of hope."),
+    "Dreamin'": ("experiencing dreams, or indulging in daydreaming and fantasies.", "He spent the entire afternoon dreamin' of a sunny beach vacation."),
+    "Gray": ("of a color intermediate between black and white, as of ashes or lead.", "The sky turned gray just before the heavy rain started to fall."),
+    "Brown": ("of a color produced by mixing red, yellow, and black, as of dark wood or rich soil.", "All the autumn leaves turned brown and fell from the trees."),
+    "Leaves": ("the main organs of photosynthesis and transpiration in plants, typically green and needle-like.", "The dry leaves made a satisfying crunching sound as we walked along the path."),
+    "Knees": ("the joints between the thigh and the lower leg in humans.", "He fell to his knees to search for the small dropped key."),
     "Karma": ("the sum of a person's actions in this and previous states of existence, viewed as deciding their fate in future existences.", "She believes that helping others brings good karma back to her life."),
     "Festering": ("becoming worse or more intense, especially through long-term neglect or indifference.", "Leaving an argument unresolved leads to festering resentment between friends."),
     "Boulder": ("a large rock, typically one that has been worn smooth by erosion.", "The sudden financial crisis felt like a massive boulder crushing his plans."),
@@ -3015,7 +3095,193 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
 
         r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
 
-    if slug == "you-stupid-bitch":
+    if slug == "angeleyes":
+        warmup_questions_html = """            <li>Do you believe that some people have an exceptionally charming look or 'gaze' that can easily win trust?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "Angeleyes". Do you think this is a song of pure love, or a cautionary warning about deception?</li>
+            <li>Have you ever been completely charmed by someone, only to find out they were wearing a 'disguise' or pretending to be someone else?</li>
+            <li>What kind of emotional atmosphere do you expect from an ABBA song with such a beautiful, classic title?</li>
+        """
+
+        r1_questions_html = ""
+        angeleyes_r1 = [
+            ("The singer gets completely <strong>Hypnotised</strong> by his look. Why is charisma such a powerful tool in dating and relationships?", "★ Tell us about a performer, actor, or person who completely <strong>Hypnotised</strong> or captivated you with their talent."),
+            ("He makes people feel like they are in <strong>Paradise</strong> before breaking their hearts. Why is the beginning of a romance often so perfect?", "★ What is your personal idea of a perfect <strong>Paradise</strong> vacation to escape daily worries?"),
+            ("The chorus warns that 'he wears a <strong>Disguise</strong>.' How can we distinguish between someone's authentic personality and their social disguise?", "★ Have you ever had to wear a clever <strong>Disguise</strong> or costume for a themed event or party?"),
+            ("The look that he gave her made her <strong>Shiver</strong>. Why do physical sensations like shivering or getting goosebumps carry such strong emotional meanings?", "★ Does the cold winter wind make you <strong>Shiver</strong> more, or do you shiver from excitement before a big event?"),
+            ("The protagonist realizes too late that 'it's a <strong>Game</strong> he likes to play.' Why do some people enjoy playing with other people's emotions?", "★ What is your absolute favorite board <strong>Game</strong> or card game to play with friends on a cozy evening?"),
+            ("The song tells us that 'you must <strong>Pay</strong> the price' for falling too fast. What are the emotional costs of trusting the wrong person?", "★ Do you prefer to <strong>Pay</strong> with cash, card, or your phone when shopping for daily groceries?"),
+            ("The singer admits she feels deeply <strong>Lonely</strong> when remembering him. Is it better to be lonely and safe, or to take emotional risks?", "★ What is a great hobby or routine that keeps you from feeling <strong>Lonely</strong> when you are home by yourself?"),
+            ("Every memory of him brings back all the <strong>Pain</strong> of the betrayal. How does time eventually heal emotional wounds?", "★ What is a great physical or mental exercise that helps you relieve neck or back <strong>Pain</strong> after long hours at a desk?"),
+            ("Discovering his lies was a crushing <strong>Disappointment</strong>. How do you handle major disappointments in your personal or professional life?", "★ Tell us about a minor <strong>Disappointment</strong> (like a bad movie or cold meal) that you had to laugh off recently."),
+            ("She warns us not to look too deep into his charming <strong>Gaze</strong>. What can a person's eyes tell you about their true intentions?", "★ Do you find it easy or difficult to maintain a steady <strong>Gaze</strong> when giving a public presentation?")
+        ]
+        for q_main, q_pers in angeleyes_r1:
+            r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+        r1_questions_html += """
+        <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>Before Listening:</strong> Predict based on the title 'Angeleyes': Do you expect a slow, sad, acoustic ballad, or a bright, energetic, and highly harmonized dance track?</li>
+            <li><strong>After Verse 1 (Pause &amp; Predict):</strong> Pause after 'it's a game he likes to play'. Why does she want to warn the other young girl? Should she actually walk up and say it?</li>
+            <li><strong>During the Chorus (The Warning):</strong> Listen to how the upbeat, happy 'Ah-ha-ha' backup vocals contrast with the dark warning 'you must pay the price'. Why did ABBA structure the song this way?</li>
+            <li><strong>After Verse 2 (The Relapse of Memory):</strong> She says 'it hurts to remember all the good times'. Why are happy memories often more painful than bad ones after a breakup?</li>
+            <li><strong>After Singing/Listening (Lyrical Takeaway):</strong> Which lyric line or warning about deception will stay with you tomorrow?</li>
+          </ul>
+        </div>
+        """
+
+        r2_statements_html = ""
+        angeleyes_r2 = [
+            "No matter how charming someone is, we can eventually see through their attempts to get us <strong>Hypnotised</strong>. Agree or disagree?",
+            "The idea of a perfect relationship is a myth; there is no such thing as an emotional <strong>Paradise</strong>. Agree or disagree?",
+            "In the modern professional world, everyone must wear a <strong>Disguise</strong> of confidence to succeed. Agree or disagree?",
+            "Physical reactions like a <strong>Shiver</strong> of intuition are often more reliable than logical reasoning. Agree or disagree?",
+            "Dating has inherently become a competitive <strong>Game</strong> of power, rather than a search for genuine connection. Agree or disagree?",
+            "It is better to love and lose—and <strong>Pay</strong> the price of heartbreak—than to never risk loving at all. Agree or disagree?",
+            "You can feel completely <strong>Lonely</strong> even when you are surrounded by a large crowd of friendly people. Agree or disagree?",
+            "Experiencing deep emotional <strong>Pain</strong> is a necessary catalyst for personal growth and artistic creativity. Agree or disagree?",
+            "High expectations always lead to major <strong>Disappointment</strong>; it is safer to expect very little from others. Agree or disagree?",
+            "You can instantly recognize a dishonest or untrustworthy person just by studying their <strong>Gaze</strong>. Agree or disagree?"
+        ]
+        for stmt in angeleyes_r2:
+            r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+        r2_statements_html += """
+        <div class="lyrics-checkpoint" style="background: #FAEEE8; border-left: 4px solid var(--orange); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--orange); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">❤️ Emotional &amp; Creative Reaction Activities</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>The Lyric Spotlight:</strong> Which line of warning or regret in 'Angeleyes' feels most powerful to you? Why?</li>
+            <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"We wear a social disguise when... but we show our true self when...\"</em></li>
+          </ul>
+        </div>
+        """
+
+    elif slug == "me-and-i":
+        warmup_questions_html = """            <li>Do you ever feel like there are two different 'sides' or voices inside your head competing for attention?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "Me and I". Do you think this represents a peaceful harmony or an internal struggle between two halves?</li>
+            <li>Have you ever reacted strongly to a situation and then immediately regretted how you acted?</li>
+            <li>Do you believe that everyone has a small, quirky 'freak' side to their personality?</li>
+        """
+
+        r1_questions_html = ""
+        me_i_r1 = [
+            ("Sometimes when we are angry, we <strong>Scream</strong> or act rashly. How do you handle sudden, intense bursts of anger?", "★ What is something that makes you want to <strong>Scream</strong> in frustration when you see it happen?"),
+            ("The song references Dr. <strong>Jekyll</strong>, the calm side of a dual personality. How do you cultivate your own inner calm and reason?", "★ In what situations do you feel your gentle, patient <strong>Jekyll</strong> side is most needed?"),
+            ("Mr. <strong>Hyde</strong> represents the wilder, uncontrolled side of the self. What triggers your more impulsive or impatient side?", "★ Have you ever let your impulsive <strong>Hyde</strong> side make a spontaneous decision that you later enjoyed?"),
+            ("The chorus claims that 'everyone's a <strong>Freak</strong>.' Do you find comfort in knowing that nobody is completely normal?", "★ What is a funny quirk or '<strong>Freak</strong>' habit you have that you are proud of?"),
+            ("ABBA sings that they have '<strong>Toyed</strong>' with psychological ideas. Have you ever toyed with a major life change without actually doing it?", "★ What is an artistic project or hobby you've <strong>Toyed</strong> with starting recently?"),
+            ("The lyrics mention ideas from 'good old Dr. <strong>Freud</strong>.' Do you find psychoanalysis helpful for understanding your dreams and behaviors?", "★ Have you ever analyzed a dream or feeling using ideas you heard about Dr. <strong>Freud</strong> or psychology?"),
+            ("The song explores a '<strong>Split</strong> identity' or dual nature. Is it possible to be completely consistent in our behavior all the time?", "★ Tell us about a time you felt completely <strong>Split</strong> between two different choices or desires."),
+            ("Discovering our true personal <strong>Identity</strong> is a lifelong journey. How has your identity changed since you were younger?", "★ What is one core value or part of your <strong>Identity</strong> that you hope will never change?"),
+            ("We are described as a 'funny <strong>Combination</strong>' of gloomy moods and inspiration. What is your favorite combination of opposite things?", "★ What unique <strong>Combination</strong> of skills or experiences makes you great at your job?"),
+            ("When feeling in a <strong>Gloomy</strong> mood, how do you find inspiration and positive energy again?", "★ What is your favorite activity to lift your spirits when the weather is cold and <strong>Gloomy</strong>?")
+        ]
+        for q_main, q_pers in me_i_r1:
+            r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+        r1_questions_html += """
+        <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>Before Listening:</strong> Predict based on the title: Do you expect a highly dramatic, dark ballad, or an upbeat synth-pop track with catchy hooks?</li>
+            <li><strong>After Verse 1 (Pause &amp; Predict):</strong> Pause after 'Jekyll must have been to Hyde'. Why does she feel Jekyll and Hyde is the perfect metaphor for her internal feelings?</li>
+            <li><strong>During the Chorus (Sun &amp; Rain):</strong> How does the metaphor of 'sun and rainy weather' explain the relationship between 'Me' and 'I'? How does the tempo match this dual comparison?</li>
+            <li><strong>After Verse 2 (The Freud Connection):</strong> Pause after 'split identity'. Why does she bring up Dr. Freud? Is she being serious, or is it a playful self-deprecation?</li>
+            <li><strong>After Singing/Listening (Lyrical Takeaway):</strong> Which lyric line about internal struggle or dual nature resonates with you the most? Why?</li>
+          </ul>
+        </div>
+        """
+
+        r2_statements_html = ""
+        me_i_r2 = [
+            "Screaming or expressing anger loudly is a healthy way to release tension. Agree or disagree?",
+            "Most people are much more like the reasonable Dr. <strong>Jekyll</strong> than they are willing to admit. Agree or disagree?",
+            "It is important to embrace our inner <strong>Hyde</strong> because too much self-control makes life boring. Agree or disagree?",
+            "The fear of being labeled a <strong>Freak</strong> prevents people from pursuing their unique passions. Agree or disagree?",
+            "It is dangerous to keep <strong>Toyed</strong> with ideas of leaving your job or relationship if you aren't ready to act. Agree or disagree?",
+            "Dr. <strong>Freud</strong> was right: our unconscious mind and childhood determine almost everything we do. Agree or disagree?",
+            "Having a <strong>Split</strong> personality or changing how you act around different people is a necessary social skill, not hypocrisy. Agree or disagree?",
+            "Our digital <strong>Identity</strong> on social media is a completely false representation of who we really are. Agree or disagree?",
+            "The best partnerships are a <strong>Combination</strong> of opposite personalities who balance each other. Agree or disagree?",
+            "A rainy, <strong>Gloomy</strong> afternoon is much more productive for study and work than a bright, sunny day. Agree or disagree?"
+        ]
+        for stmt in me_i_r2:
+            r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+        r2_statements_html += """
+        <div class="lyrics-checkpoint" style="background: #FAEEE8; border-left: 4px solid var(--orange); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--orange); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">❤️ Emotional &amp; Creative Reaction Activities</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>The Lyric Spotlight:</strong> Which lyric line about internal struggle or dual nature feels most honest or relatable to you? Why?</li>
+            <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"My inner Jekyll takes over when... but my Hyde wants to...\"</em></li>
+          </ul>
+        </div>
+        """
+
+    elif slug == "california-dreaming":
+        warmup_questions_html = """            <li>How do you feel when the weather is very cold, gray, and dark?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "California Dreaming". Do you think this song is about actually being in California, or wanting to be there?</li>
+            <li>Have you ever wanted to escape your current city or routine to go somewhere warm and sunny?</li>
+            <li>What kind of emotional atmosphere do you expect from a song with such a nostalgic, beautiful title?</li>
+        """
+
+        r1_questions_html = ""
+        california_r1 = [
+            ("The singer describes a cold <strong>Winter</strong> day. What are the best and worst parts of winter in your opinion?", "★ How do you stay cozy and active during the dark <strong>Winter</strong> months?"),
+            ("L.A. represents a <strong>Safe</strong> and warm haven in the song. Where is your ultimate safe place when life gets overwhelming?", "★ Do you feel <strong>Safe</strong> and secure living in your current city, or do you worry about changes?"),
+            ("The song repeats the desire to be in a <strong>Warm</strong> place. Why is physical warmth so closely linked to emotional comfort?", "★ What is your favorite <strong>Warm</strong> drink or comfort food to have on a freezing afternoon?"),
+            ("The protagonist got down on their knees to <strong>Pretend</strong> to pray in a church. Why do people sometimes pretend to hold beliefs they don't actually have?", "★ Tell us about a time you had to <strong>Pretend</strong> to be excited or interested in something to be polite."),
+            ("The singer notes that the <strong>Preacher</strong> likes the cold because it keeps people inside. What kind of person is attracted to leadership roles?", "★ Have you ever listened to a speech by a <strong>Preacher</strong> or public speaker that stayed with you for a long time?"),
+            ("The phrase 'California <strong>Dreamin\'</strong>' is iconic. What does 'California' represent to people outside of America?", "★ What is something you spend a lot of time <strong>Dreamin\'</strong> about or wishing for your future?"),
+            ("The sky is described as a gloomy <strong>Gray</strong>. How does a gray sky affect your motivation and productivity?", "★ Do you prefer bright, sunny days or peaceful, <strong>Gray</strong>, rainy days for working?"),
+            ("The singer notices that all the leaves are <strong>Brown</strong>. What emotions does the color palette of autumn/winter bring to you?", "★ Do you prefer the rich <strong>Brown</strong> tones of autumn or the vibrant greens of spring?"),
+            ("The falling <strong>Leaves</strong> signal the change of seasons. Why is change often accompanied by a feeling of nostalgia?", "★ How do you feel when you see the first autumn <strong>Leaves</strong> begin to fall?"),
+            ("The singer got down on their <strong>Knees</strong> to pretend to pray. What are some physical gestures that carry deep cultural meaning?", "★ Have you ever had to bend your <strong>Knees</strong> or squat down for a long time to fix something?")
+        ]
+        for q_main, q_pers in california_r1:
+            r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+        r1_questions_html += """
+        <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>Before Listening:</strong> Predict based on the title: Do you expect a highly energetic pop-electronic track, or a smooth, harmonies-focused acoustic folk-rock classic?</li>
+            <li><strong>After Verse 1 (Pause &amp; Predict):</strong> Pause after 'If I was in L.A.' Why does the singer want to escape to California so badly? Is it just the weather, or something deeper?</li>
+            <li><strong>During the Flute Solo (Musical Mood Shift):</strong> Listen to the flute solo in the middle. How does this beautiful acoustic solo change the emotional tone of the song compared to the vocal parts?</li>
+            <li><strong>After the Second Verse:</strong> The singer says 'If I didn't tell her, I could leave today'. Who do you think 'she' is? Why is he keeping his escape plans a secret?</li>
+            <li><strong>After Singing/Listening (Lyrical Takeaway):</strong> Which vocal harmony or lyric line remains stuck in your head? Why?</li>
+          </ul>
+        </div>
+        """
+
+        r2_statements_html = ""
+        california_r2 = [
+            "A change of climate is the quickest way to cure a gloomy, <strong>Winter</strong> depression. Agree or disagree?",
+            "It is impossible to feel truly <strong>Safe</strong> in a large, crowded metropolis like L.A. Agree or disagree?",
+            "A <strong>Warm</strong>, supportive community is more important for happiness than financial success. Agree or disagree?",
+            "We all have to <strong>Pretend</strong> to be someone else sometimes just to fit into society. Agree or disagree?",
+            "A local <strong>Preacher</strong> or community leader should focus entirely on charity rather than spiritual rules. Agree or disagree?",
+            "Spending too much time <strong>Dreamin\'</strong> about the perfect future prevents us from enjoying the present. Agree or disagree?",
+            "A <strong>Gray</strong>, quiet environment is the best atmosphere for creative writing and artistic work. Agree or disagree?",
+            "The transition of leaves to a rustic <strong>Brown</strong> reminds us that endings can be beautiful. Agree or disagree?",
+            "Autumn <strong>Leaves</strong> falling remind us that letting go of the past is a natural part of life. Agree or disagree?",
+            "Falling to our <strong>Knees</strong> in humility is a sign of ultimate personal growth and strength. Agree or disagree?"
+        ]
+        for stmt in california_r2:
+            r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+        r2_statements_html += """
+        <div class="lyrics-checkpoint" style="background: #FAEEE8; border-left: 4px solid var(--orange); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--orange); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">❤️ Emotional &amp; Creative Reaction Activities</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>The Lyric Spotlight:</strong> Which harmony or line from 'California Dreaming' feels most nostalgic or evocative to you? Why?</li>
+            <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"I dream of a warm, safe place when...\"</em></li>
+          </ul>
+        </div>
+        """
+
+    elif slug == "you-stupid-bitch":
         warmup_questions_html = """            <li>Have you ever experienced a moment where you felt like you 'ruined everything' after making a mistake?</li>
             <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "You Stupid Bitch". Do you think this song is an angry attack on someone else, or a deeply self-critical song?</li>
             <li>Why is it often much harder to forgive ourselves for mistakes than it is to forgive others?</li>
@@ -3531,7 +3797,10 @@ COMPLETE_SONG_VOCAB = {
     "without-love-you-can-save-the-world": ["love", "focus", "drama", "explore", "door", "save", "world", "free", "crying", "public"],
     "women-gotta-stick-together": ["together", "support", "journey", "rivalry", "unity", "stick", "storm", "rivals", "stronger", "friendship"],
     "you-stupid-bitch": ["Karma", "Festering", "Boulder", "Crush", "Defeat", "Self-pity", "Shards", "Deceive", "Deserve", "Folly"],
-    "mixed-up-world": ["Mixed-up", "Guidance", "Contradiction", "Faith", "Cynicism", "Control", "Strength", "Tough", "Low", "Insane"]
+    "mixed-up-world": ["Mixed-up", "Guidance", "Contradiction", "Faith", "Cynicism", "Control", "Strength", "Tough", "Low", "Insane"],
+    "california-dreaming": ["Winter", "Safe", "Warm", "Pretend", "Preacher", "Dreamin'", "Gray", "Brown", "Leaves", "Knees"],
+    "me-and-i": ["Scream", "Jekyll", "Hyde", "Freak", "Toyed", "Freud", "Split", "Identity", "Combination", "Gloomy"],
+    "angeleyes": ["Hypnotised", "Paradise", "Disguise", "Shiver", "Game", "Pay", "Lonely", "Pain", "Disappointment", "Gaze"]
 }
 
 songs_list = []
