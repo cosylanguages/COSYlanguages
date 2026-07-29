@@ -153,9 +153,9 @@ Zodiac traits and traditions require specific prepositional collocations.
 <strong style="display: block; margin-bottom: 0.5rem; color: #5c390b;">🧩 Interactive Word Bank:</strong>
 <p style="font-size:0.82rem; color:var(--muted); margin:0 0 0.75rem 0;">Tap a word chip below, then tap any empty bracket <code>[_____]</code> to place it!</p>
 <div class="grammar-word-bank" style="display:flex; flex-wrap:wrap; gap:8px;">
+<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">on</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">for</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">with</span>
-<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">on</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">in</span>
 </div>
 </div>
@@ -226,15 +226,45 @@ Describe your own birth year or favorite zodiac animal. What personality traits 
 </div>
 </div>
 <div class="round-block lst open" id="s-lst">
-<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
-<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE; border-left: 5px solid #6366f1;">
+<span>🟣 Let's Speak Together — Collaborative Activities</span><span class="round-toggle">▲</span>
 </div>
-<div class="round-body" style="display:block;">
-<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🏮</span><div style="font-weight:600;">Lanterns</div></div>
-<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🧨</span><div style="font-weight:600;">Firecrackers</div></div>
+<div class="round-body" style="display:block; padding: 1.5rem 1.25rem;">
+<div style="background: rgba(99, 102, 241, 0.03); border: 1px solid rgba(99, 102, 241, 0.2); padding: 1.25rem; border-radius: 12px; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
+<h4 style="margin: 0 0 0.5rem 0; color: #4f46e5; display: flex; align-items: center; gap: 8px;">🐉 Activity 1: The Chinese Zodiac Affinity Chart</h4>
+<p style="margin: 0 0 1rem 0; font-size: 0.9rem; line-height: 1.5; color: var(--ink-soft);">
+Each zodiac animal carries traits that people rely on. Together with your partner, evaluate these three iconic signs. Decide which sign's values are most critical for overcoming modern-day societal stress. Focus on correct prepositional usage (<em>associated with</em>, <em>rely on</em>, <em>famous for</em>):
+</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+<div style="background: #ffffff; border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; box-shadow: var(--shadow-sm);">
+<span style="font-size: 2rem;">🐉</span>
+<h5 style="margin: 0.5rem 0 0.25rem 0; font-size: 0.95rem;">The Dragon</h5>
+<p style="margin: 0; font-size: 0.8rem; color: var(--muted);">Associated <strong>with</strong> absolute charisma, strength, and visionary ambition.</p>
 </div>
-<p style="margin-top:1rem; text-align:center;">Which one represents the New Year better for you?</p>
+<div style="background: #ffffff; border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; box-shadow: var(--shadow-sm);">
+<span style="font-size: 2rem;">🐇</span>
+<h5 style="margin: 0.5rem 0 0.25rem 0; font-size: 0.95rem;">The Rabbit</h5>
+<p style="margin: 0; font-size: 0.8rem; color: var(--muted);">Famous <strong>for</strong> deep diplomacy, gentle peace, and emotional sensitivity.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; box-shadow: var(--shadow-sm);">
+<span style="font-size: 2rem;">🐂</span>
+<h5 style="margin: 0.5rem 0 0.25rem 0; font-size: 0.95rem;">The Ox</h5>
+<p style="margin: 0; font-size: 0.8rem; color: var(--muted);">People rely <strong>on</strong> its silent resilience, hard work, and loyalty.</p>
+</div>
+</div>
+</div>
+<div style="background: rgba(16, 185, 129, 0.03); border: 1px solid rgba(16, 185, 129, 0.2); padding: 1.25rem; border-radius: 12px; box-shadow: var(--shadow-sm);">
+<h4 style="margin: 0 0 0.5rem 0; color: #059669; display: flex; align-items: center; gap: 8px;">🏮 Closing: The Lantern Wish Ceremony</h4>
+<p style="margin: 0 0 1rem 0; font-size: 0.9rem; line-height: 1.5; color: var(--ink-soft);">
+As the spring festival closes, we release paper lanterns to carry our hopes into the sky. If you could release one lantern with a single wish for your family, which hope would you prioritize?
+</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+<span class="grammar-tap-chip" onclick="this.style.background='#059669'; this.style.color='white';" style="background:#FFFDF9; border:1px solid #059669; padding:6px 14px; border-radius:20px; font-weight:600; color:#059669; font-size:0.85rem; cursor:pointer;">📈 Enduring Financial Prosperity</span>
+<span class="grammar-tap-chip" onclick="this.style.background='#059669'; this.style.color='white';" style="background:#FFFDF9; border:1px solid #059669; padding:6px 14px; border-radius:20px; font-weight:600; color:#059669; font-size:0.85rem; cursor:pointer;">❤️ Harmonious Relationships &amp; Unity</span>
+<span class="grammar-tap-chip" onclick="this.style.background='#059669'; this.style.color='white';" style="background:#FFFDF9; border:1px solid #059669; padding:6px 14px; border-radius:20px; font-weight:600; color:#059669; font-size:0.85rem; cursor:pointer;">🍏 Robust Health &amp; Long Life</span>
+<span class="grammar-tap-chip" onclick="this.style.background='#059669'; this.style.color='white';" style="background:#FFFDF9; border:1px solid #059669; padding:6px 14px; border-radius:20px; font-weight:600; color:#059669; font-size:0.85rem; cursor:pointer;">✈️ Safe Journeys &amp; New Adventures</span>
+</div>
+</div>
 </div>
 </div>
 <div class="round-block round-2 open" id="s-r2">

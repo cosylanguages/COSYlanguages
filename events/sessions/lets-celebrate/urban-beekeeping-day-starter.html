@@ -140,14 +140,14 @@ Use <strong>Simple Present</strong> for general facts, matching the singular or 
 <strong style="display: block; margin-bottom: 0.5rem; color: #5c390b;">🧩 Interactive Word Bank:</strong>
 <p style="font-size:0.82rem; color:var(--muted); margin:0 0 0.75rem 0;">Tap a word chip below, then tap any empty bracket <code>[_____]</code> to place it!</p>
 <div class="grammar-word-bank" style="display:flex; flex-wrap:wrap; gap:8px;">
+<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">-s</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">helps</span>
-<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">flies</span>
+<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">trees</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">flowers</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">-s/-es</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">base</span>
-<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">-s</span>
+<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">flies</span>
 <span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">make</span>
-<span class="grammar-tap-chip" onclick="COSY.selectGrammarChip(this)" style="background:#FFFDF9; border:1px solid #BA7517; padding:5px 12px; border-radius:20px; cursor:pointer; font-weight:600; color:#BA7517; font-size:0.85rem; user-select:none; transition:all 0.2s;">trees</span>
 </div>
 </div>
 <div class="grammar-task-item" style="background: rgba(186, 117, 23, 0.04); padding: 1.25rem; border-radius: 12px; border-left: 4px solid #BA7517; box-shadow: var(--shadow-sm); margin-bottom:1.5rem;">
@@ -184,47 +184,68 @@ Look around your room. Name 3 singular objects (e.g., 'a chair') and 3 plural ob
 </div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Quiz / Discussion</div>
-<div class="round-item"><div class="round-item-main">Where <strong>does</strong> a yellow <strong>bee</strong> live, and what <strong>does</strong> it do?</div>
-<div class="round-item-personal">★ Do you see bees in your town?</div>
+<div class="round-item"><div class="round-item-main">How <strong>does</strong> a little yellow <strong>bee</strong> find sweet <strong>flowers</strong> in a big city?</div>
+<div class="round-item-personal">★ Do you see busy bees flying near your house?</div>
 </div>
-<div class="round-item"><div class="round-item-main"><strong>Do</strong> you eat <strong>honey</strong> in the morning, and <strong>does</strong> it taste sweet?</div>
-<div class="round-item-personal">★ Do you put honey in your warm tea?</div>
+<div class="round-item"><div class="round-item-main">Why <strong>do</strong> bees make <strong>honey</strong>, and how <strong>does</strong> it taste?</div>
+<div class="round-item-personal">★ Do you like to eat sweet honey on your bread?</div>
 </div>
-<div class="round-item"><div class="round-item-main"><strong>Is</strong> there a green <strong>garden</strong> near your school, and <strong>do</strong> trees grow in it?</div>
-<div class="round-item-personal">★ Do you like to walk in a green garden?</div>
+<div class="round-item"><div class="round-item-main"><strong>Does</strong> an urban <strong>garden</strong> have many plants, and who <strong>helps</strong> water them?</div>
+<div class="round-item-personal">★ Is there a beautiful park or garden near your home?</div>
 </div>
-<div class="round-item"><div class="round-item-main">What color <strong>is</strong> your favorite <strong>flower</strong>, and where <strong>does</strong> it grow?</div>
-<div class="round-item-personal">★ Do you have a flower on your window?</div>
+<div class="round-item"><div class="round-item-main">Why <strong>does</strong> a colorful <strong>flower</strong> grow best when it has water and sunlight?</div>
+<div class="round-item-personal">★ Do you have a favorite flower?</div>
 </div>
-<div class="round-item"><div class="round-item-main"><strong>Does</strong> a big <strong>tree</strong> help the environment in a city?</div>
-<div class="round-item-personal">★ Do you like to sit under a big tree?</div>
+<div class="round-item"><div class="round-item-main">How <strong>does</strong> a big green <strong>tree</strong> help clean the air in our crowded streets?</div>
+<div class="round-item-personal">★ Are there many tall trees in your neighborhood?</div>
 </div>
-<div class="round-item"><div class="round-item-main">How <strong>do</strong> you <strong>help</strong> plants grow in your flat?</div>
-<div class="round-item-personal">★ Do you help your friends water their plants?</div>
+<div class="round-item"><div class="round-item-main"><strong>Do</strong> you want to <strong>help</strong> local beekeepers protect wild hives?</div>
+<div class="round-item-personal">★ Do you help your friends keep their balconies clean?</div>
 </div>
-<div class="round-item"><div class="round-item-main">What <strong>makes</strong> your favorite drink so <strong>sweet</strong>?</div>
-<div class="round-item-personal">★ Do you like sweet fruit or sweet chocolate?</div>
+<div class="round-item"><div class="round-item-main">What <strong>makes</strong> fresh, natural honey so incredibly <strong>sweet</strong>?</div>
+<div class="round-item-personal">★ Do you prefer sweet fruit or sugary candies?</div>
 </div>
-<div class="round-item"><div class="round-item-main"><strong>Is</strong> your <strong>city</strong> very big, and <strong>do</strong> many people live there?</div>
-<div class="round-item-personal">★ Do you like your city, or do you prefer the countryside?</div>
+<div class="round-item"><div class="round-item-main">How <strong>does</strong> a modern <strong>city</strong> change when citizens grow plants on every balcony?</div>
+<div class="round-item-personal">★ Do you live in a big city or a small village?</div>
 </div>
-<div class="round-item"><div class="round-item-main"><strong>Does</strong> a green park near your <strong>house</strong> help you relax?</div>
-<div class="round-item-personal">★ Do you live in a house or a flat?</div>
+<div class="round-item"><div class="round-item-main"><strong>Does</strong> a quiet green <strong>house</strong> feel more relaxed than a noisy city apartment?</div>
+<div class="round-item-personal">★ Do you live in a multi-story house or a single-floor flat?</div>
 </div>
-<div class="round-item"><div class="round-item-main"><strong>Do</strong> you feel afraid when a small <strong>insect</strong> flies near you?</div>
-<div class="round-item-personal">★ What is your favorite small insect?</div>
+<div class="round-item"><div class="round-item-main">Why <strong>do</strong> some people feel afraid when a small <strong>insect</strong> flies near their face?</div>
+<div class="round-item-personal">★ What is your favorite small insect in nature?</div>
 </div>
 </div>
 </div>
 <div class="round-block lst open" id="s-lst">
 <div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
-<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+<span>🟣 Let's Speak Together — The Balcony Garden Blueprint</span><span class="round-toggle">▲</span>
 </div>
 <div class="round-body" style="display:block;">
-<p class="round-note">Visual matching: Match the bee with its favorite flowers.</p>
+<div style="margin-bottom: 2rem;">
+<h3 style="color:#BA7517; margin-bottom:0.5rem;">🌻 Visual Layout: The Bee Friendly Balcony</h3>
+<p class="round-note" style="margin-top:0;">Look at the layout of a modern green balcony and name the prepositions of place:</p>
 <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🌻</span><div style="font-weight:600;">Sunflower</div></div>
-<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🍯</span><div style="font-weight:600;">Honey Jar</div></div>
+<div class="lst-item" style="text-align:center; padding: 1rem; border: 1px solid var(--border); border-radius: 8px; background: rgba(0,0,0,0.02);"><span style="font-size:2.5rem;">🌻</span><div style="font-weight:600; margin-top:0.5rem;">The Flower Pots</div><p style="font-size:0.85rem; color:var(--ink-soft); margin:5px 0 0 0;">Yellow sunflowers <strong>on</strong> the wooden table.</p></div>
+<div class="lst-item" style="text-align:center; padding: 1rem; border: 1px solid var(--border); border-radius: 8px; background: rgba(186, 117, 23, 0.05); border-color: rgba(186, 117, 23, 0.3);"><span style="font-size:2.5rem;">🪵</span><div style="font-weight:600; margin-top:0.5rem; color: #5c390b;">The Bee Hotel</div><p style="font-size:0.85rem; color:var(--ink-soft); margin:5px 0 0 0;">A cozy wooden house hanging <strong>above</strong> the plants.</p></div>
+</div>
+</div>
+<div style="margin-bottom: 2rem; padding: 1.25rem; border-radius: 12px; background: rgba(186, 117, 23, 0.03); border: 1px dashed rgba(186, 117, 23, 0.3);">
+<h3 style="color:#BA7517; margin-top:0; margin-bottom:0.5rem;">🌱 Activity 1: What is on your balcony?</h3>
+<p style="font-size:0.95rem; color:var(--ink-soft); margin-top:0;">Talk with your partner. Where do you put these items to help city nature?</p>
+<ul style="font-size:0.95rem; color:var(--ink); line-height:1.8; padding-left:1.5rem; margin-bottom:0;">
+<li>💧 A small water bowl for thirsty bees</li>
+<li>🌿 Green herbs (mint, lavender) to attract insects</li>
+<li>🪵 Small wooden boxes for birds to build nests</li>
+</ul>
+</div>
+<div style="padding: 1.25rem; border-radius: 12px; background: rgba(15, 110, 86, 0.05); border: 1px solid rgba(15, 110, 86, 0.2);">
+<h3 style="color:#0F6E56; margin-top:0; margin-bottom:0.5rem;">🐝 Closing: The Bee Code</h3>
+<p style="font-size:0.95rem; color:var(--ink-soft); margin-top:0; margin-bottom:0.75rem;">Name 3 simple rules city humans should follow to make streets safe for small pollinators:</p>
+<div style="display:flex; flex-wrap:wrap; gap:8px;">
+<span style="background:white; border:1px solid #ccc; padding:4px 10px; border-radius:15px; font-size:0.85rem; color:var(--ink);">🌸 Plant more flowers</span>
+<span style="background:white; border:1px solid #ccc; padding:4px 10px; border-radius:15px; font-size:0.85rem; color:var(--ink);">🚫 No chemical sprays</span>
+<span style="background:white; border:1px solid #ccc; padding:4px 10px; border-radius:15px; font-size:0.85rem; color:var(--ink);">💧 Put water bowls outside</span>
+</div>
 </div>
 </div>
 </div>
@@ -234,35 +255,35 @@ Look around your room. Name 3 singular objects (e.g., 'a chair') and 3 plural ob
 </div>
 <div class="round-body" style="display:block;">
 <div class="round-type-badge">Predictions</div>
-<div class="round-item"><div class="round-item-main">In the future, every <strong>house</strong> in the city <strong>has</strong> a small green roof with flowers.</div>
-<div class="round-item-personal">★ Do you want to have flowers on the roof of your <strong>house</strong>?</div>
+<div class="round-item"><div class="round-item-main">In the future, every <strong>house</strong> in the city <strong>has</strong> a small green roof with flowers to attract bees.</div>
+<div class="round-item-personal">★ Do you want to have a colorful flower garden on the roof of your <strong>house</strong>?</div>
 </div>
-<div class="round-item"><div class="round-item-main">People <strong>do</strong> not buy sugar, they only <strong>use</strong> <strong>sweet</strong> honey.</div>
-<div class="round-item-personal">★ Do you prefer <strong>sweet</strong> honey or white sugar?</div>
+<div class="round-item"><div class="round-item-main">People <strong>do</strong> not buy sugar, they only <strong>use</strong> <strong>sweet</strong> honey as a healthy alternative.</div>
+<div class="round-item-personal">★ Do you prefer to use <strong>sweet</strong> honey or white sugar in your warm tea?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Every school <strong>has</strong> a beautiful <strong>garden</strong> with fruit trees.</div>
+<div class="round-item"><div class="round-item-main">Every school <strong>has</strong> a beautiful <strong>garden</strong> with fruit trees to teach kids about pollination.</div>
 <div class="round-item-personal">★ Do you want to help water plants in a school <strong>garden</strong>?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Robots <strong>protect</strong> every green <strong>tree</strong> in the forest.</div>
-<div class="round-item-personal">★ Do you like to climb a big <strong>tree</strong>?</div>
+<div class="round-item"><div class="round-item-main">Robots <strong>protect</strong> every green <strong>tree</strong> in the urban forest from destruction.</div>
+<div class="round-item-personal">★ Do you like to sit under a big green <strong>tree</strong> to read a book?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Children <strong>learn</strong> about every <strong>insect</strong> from computer games, not from nature.</div>
-<div class="round-item-personal">★ Do you prefer to look at an <strong>insect</strong> in nature or in a game?</div>
+<div class="round-item"><div class="round-item-main">Children <strong>learn</strong> about every <strong>insect</strong> from real observation, not from computer screens.</div>
+<div class="round-item-personal">★ Do you prefer to look at a small <strong>insect</strong> in nature or in a video game?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Cars <strong>do</strong> not enter the <strong>city</strong>, only small electric bikes.</div>
-<div class="round-item-personal">★ Do you like to ride a bike in your <strong>city</strong>?</div>
+<div class="round-item"><div class="round-item-main">Cars <strong>do</strong> not enter the <strong>city</strong> center, making the streets safe for local bee colonies.</div>
+<div class="round-item-personal">★ Do you like to ride an electric bike or walk in your <strong>city</strong>?</div>
 </div>
-<div class="round-item"><div class="round-item-main">All children <strong>learn</strong> how to <strong>help</strong> animals and birds at school.</div>
-<div class="round-item-personal">★ Do you like to <strong>help</strong> street animals?</div>
+<div class="round-item"><div class="round-item-main">All citizens <strong>learn</strong> how to <strong>help</strong> keep local parks clean and green.</div>
+<div class="round-item-personal">★ Do you like to <strong>help</strong> street animals in your area?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Every balcony <strong>has</strong> a red <strong>flower</strong> to make bees happy.</div>
-<div class="round-item-personal">★ Do you have a red <strong>flower</strong> at home?</div>
+<div class="round-item"><div class="round-item-main">Every urban balcony <strong>has</strong> a red <strong>flower</strong> to create a massive corridor for bees.</div>
+<div class="round-item-personal">★ Do you have a colorful <strong>flower</strong> at home?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Beekeepers <strong>build</strong> warm hotels for every little <strong>bee</strong> during the cold winter.</div>
-<div class="round-item-personal">★ Do you want to build a small house for a <strong>bee</strong>?</div>
+<div class="round-item"><div class="round-item-main">Beekeepers <strong>build</strong> warm wooden hotels for every little <strong>bee</strong> to survive the winter.</div>
+<div class="round-item-personal">★ Do you want to help build a small house for a <strong>bee</strong>?</div>
 </div>
-<div class="round-item"><div class="round-item-main">People <strong>live</strong> in green forests and <strong>make</strong> delicious <strong>honey</strong> every day.</div>
-<div class="round-item-personal">★ Would you like to live in a forest and collect <strong>honey</strong>?</div>
+<div class="round-item"><div class="round-item-main">People <strong>live</strong> in harmony with nature and <strong>make</strong> delicious, organic <strong>honey</strong> in their backyards.</div>
+<div class="round-item-personal">★ Would you like to collect fresh <strong>honey</strong> with a beekeeper?</div>
 </div>
 </div>
 </div>
