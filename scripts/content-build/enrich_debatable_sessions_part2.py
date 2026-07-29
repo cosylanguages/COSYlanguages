@@ -82,8 +82,8 @@ MAPPINGS_PART2 = {
 <div class="round-item"><div class="round-item-main"><strong>A:</strong> Spending significant portions of a short trip in transit maximizes travel <strong>logistics</strong> stress. <br/><strong>B:</strong> Immersion in a completely different culture for a long period can cause significant cultural fatigue or culture shock.</div>
 <div class="round-item-personal">★ Personal angle: How do you handle stressful <strong>logistics</strong> or unexpected delays when traveling?</div>
 </div>
-<div class="round-item"><div class="round-item-main"><strong>A:</strong> Taking multiple flights throughout the year is highly <strong>detrimental</strong> to the environment. <br/><strong>B:</strong> Long-term travel requires rigid, meticulous planning which leaves very little room for spontaneous changes of mind.</div>
-<div class="round-item-personal">★ Personal angle: Do you think flying frequently is too <strong>detrimental</strong> to be justified for holidays?</div>
+<div class="round-item"><div class="round-item-main"><strong>A:</strong> Taking multiple flights throughout the year is not <strong>beneficial</strong> to the environment. <br/><strong>B:</strong> Long-term travel requires rigid, meticulous planning which leaves very little room for spontaneous changes of mind.</div>
+<div class="round-item-personal">★ Do you think flying frequently is not <strong>beneficial</strong> enough to be justified for holidays?</div>
 </div>
 <div class="round-item"><div class="round-item-main"><strong>A:</strong> Frequent short trips without real disconnect can lead to severe professional <strong>burnout</strong>. <br/><strong>B:</strong> Spending several weeks in close quarters can strain relationships with travel partners, leading to conflict.</div>
 <div class="round-item-personal">★ Personal angle: Have you ever experienced professional <strong>burnout</strong>, and did holiday rest resolve it?</div>
@@ -291,9 +291,9 @@ def main():
         f.write(hb_content)
     print("Inlined update for homework-ban.html")
 
-    # Inline update for human-cloning.html
-    # Let's read and parse human-cloning.html
-    with open('events/sessions/debatable-relatable/human-cloning.html', 'r', encoding='utf-8') as f:
+    # Inline update for human-cloning-intermediate.html
+    # Let's read and parse human-cloning-intermediate.html
+    with open('events/sessions/debatable-relatable/human-cloning-intermediate.html', 'r', encoding='utf-8') as f:
         hc_soup = BeautifulSoup(f.read(), 'html.parser')
 
     # Round 1 edits:
@@ -338,9 +338,9 @@ def main():
         "★ Do you think cloning represents real medical <strong>progress</strong>?"
     )
 
-    with open('events/sessions/debatable-relatable/human-cloning.html', 'w', encoding='utf-8') as f:
+    with open('events/sessions/debatable-relatable/human-cloning-intermediate.html', 'w', encoding='utf-8') as f:
         f.write(str(hc_soup))
-    print("Updated human-cloning.html")
+    print("Updated human-cloning-intermediate.html")
 
 if __name__ == "__main__":
     main()
