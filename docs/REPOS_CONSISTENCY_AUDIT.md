@@ -341,7 +341,7 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 🎉 No issues detected in this category.
 
 
-## 3. Different Markdown Formatting (16 items)
+## 3. Different Markdown Formatting (13 items)
 
 - File `events/index.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... 🎶 **Note:** Karaoke Club features over **90 high-energy song challenges ...`
 - File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... d to a non-benevolent nature, **<strong>whereas</strong>** modern technology feeds the d ...`
@@ -356,9 +356,6 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 - File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... ound-item-main">Why are we so **<strong>highly</strong>** anxious to adopt clinical lab ...`
 - File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... taying focused on a long book **<strong>virtually</strong>** impossible today, or do we <s ...`
 - File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` has 1 more occurrences of raw Markdown bold syntax.
-- Markdown file `SECURITY.md` uses mixed list bullet styles: {'-', '*'}. Stick to one character.
-- Markdown file `planning/notebook/analog_offline_strategy.md` uses mixed list bullet styles: {'-', '*'}. Stick to one character.
-- Markdown file `planning/notebook/videos_speaking_club_mapping.md` uses mixed list bullet styles: {'-', '*'}. Stick to one character.
 
 ## 4. Duplicate Templates (9 items)
 
@@ -933,12 +930,13 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 - File `templates/grammar/roadmap-template.html` points to non-existent relative link `morphology/xx-lesson.html` (resolved as `templates/grammar/morphology/xx-lesson.html`).
 - File `templates/grammar/roadmap-template.html` points to non-existent relative link `ru.html` (resolved as `templates/grammar/ru.html`).
 
-## 6. Missing Images (2 items)
+## 6. Missing Images (3 items)
 
 - CSS `css/events.css` references missing background image `%23noiseFilter` (resolved as `css/%23noiseFilter`).
 - File `404.html` contains broken `<img>` src `` (resolved as `.`).
+- File `events/ru/the-greatest-quotes.html` contains broken `<img>` src `../../images/thethegreatestquotes.png` (resolved as `images/thethegreatestquotes.png`).
 
-## 7. Missing Metadata (823 items)
+## 7. Missing Metadata (803 items)
 
 - File `404.html` is missing `<meta name="description">` or it has empty content.
 - File `classroom-sync.html` is missing `<meta name="description">` or it has empty content.
@@ -1690,46 +1688,26 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 - File `languages/br/index.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/coming-soon.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/de/index.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/el.html` is missing `<meta charset="...">`.
-- File `languages/el.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/el.html` is missing `<meta name="viewport" ...>`.
-- File `languages/el.html` is missing `<title>`.
 - File `languages/el/curriculum.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/el/grammar.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/el/pronunciation.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/el/vocabulary.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/en.html` is missing `<meta charset="...">`.
-- File `languages/en.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/en.html` is missing `<meta name="viewport" ...>`.
-- File `languages/en.html` is missing `<title>`.
 - File `languages/en/curriculum.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/en/grammar.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/en/pronunciation.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/en/vocabulary.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/es/index.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/fr.html` is missing `<meta charset="...">`.
-- File `languages/fr.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/fr.html` is missing `<meta name="viewport" ...>`.
-- File `languages/fr.html` is missing `<title>`.
 - File `languages/fr/curriculum.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/fr/grammar.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/fr/pronunciation.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/fr/vocabulary.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/hy/index.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/it.html` is missing `<meta charset="...">`.
-- File `languages/it.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/it.html` is missing `<meta name="viewport" ...>`.
-- File `languages/it.html` is missing `<title>`.
 - File `languages/it/curriculum.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/it/grammar.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/it/pronunciation.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/it/vocabulary.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/ka/index.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/pt/index.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/ru.html` is missing `<meta charset="...">`.
-- File `languages/ru.html` is missing `<meta name="description">` or it has empty content.
-- File `languages/ru.html` is missing `<meta name="viewport" ...>`.
-- File `languages/ru.html` is missing `<title>`.
 - File `languages/ru/curriculum.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/ru/grammar.html` is missing `<meta name="description">` or it has empty content.
 - File `languages/ru/pronunciation.html` is missing `<meta name="description">` or it has empty content.
@@ -2437,6 +2415,6 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 
 ## Audit Summary
 
-- **Total Consistency Issues Detected:** 2394
+- **Total Consistency Issues Detected:** 2372
 
 The repository is mostly in a very solid, highly-pedagogical state. The minor inconsistencies flagged above can be streamlined to guarantee pixel-perfect uniformity across all languages and sessions.

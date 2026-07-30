@@ -33,15 +33,15 @@ To make the digital application a truly self-sustaining, zero-internet-connectio
 
 ### A. Full Static Bundling in Service Worker (`sw.js`)
 Currently, `sw.js` caches a list of static files, but dynamically loaded JSON resources (like grammar files in `grammar/` or speaking files in `vocabulary/`) are requested over the network on demand.
-* **Enhancement:** Define a pre-cache manifest for all stable vocabulary, grammar, and game datasets. On the first install, the Service Worker will fetch and cache these files, rendering 100% of the game and learning suite available anywhere.
+- **Enhancement:** Define a pre-cache manifest for all stable vocabulary, grammar, and game datasets. On the first install, the Service Worker will fetch and cache these files, rendering 100% of the game and learning suite available anywhere.
 
 ### B. Offline Data Portability (The "Floppy Disk" Protocol)
 Since we don't use cloud databases, a learner's notebook in `notebook/index.html` is isolated to their current browser.
-* **Enhancement:** Expand the "Export Data 📥" button with an "Import Data 📤" capability. This allows learners to export a single, lightweight JSON file containing their entire dictionary, mistake logs, and stats, which they can send to another device (via Bluetooth, USB, or local file sharing) and import instantly.
+- **Enhancement:** Expand the "Export Data 📥" button with an "Import Data 📤" capability. This allows learners to export a single, lightweight JSON file containing their entire dictionary, mistake logs, and stats, which they can send to another device (via Bluetooth, USB, or local file sharing) and import instantly.
 
 ### C. Local Multi-User Profiles (Family Mode)
 Allow multiple learners using the same physical computer or tablet (e.g., a family or classroom sharing an iPad) to switch profiles.
-* **Enhancement:** Implement client-side profile slots (e.g., `cosy_profile_1`, `cosy_profile_2`) stored as namespaces within `localStorage`. This allows offline users to keep independent stats, notebook words, and streaks on a single offline shared machine.
+- **Enhancement:** Implement client-side profile slots (e.g., `cosy_profile_1`, `cosy_profile_2`) stored as namespaces within `localStorage`. This allows offline users to keep independent stats, notebook words, and streaks on a single offline shared machine.
 
 ---
 

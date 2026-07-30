@@ -17,18 +17,18 @@ COSYlanguages does **not** collect, store, or track any student or teacher data.
 To protect our open-source ecosystem, the following security standards must be strictly maintained in our GitHub repository:
 
 ### A. Environment & Secret Management
-*   **Never Hardcode Secrets:** All external API endpoints, keys, and configurations (such as temporary testing databases or future integration credentials) must be managed using **GitHub Secrets**.
-*   **Secret Injection at Deploy Time:** Credentials must only be injected dynamically during the deployment build process (as implemented in `.github/workflows/deploy.yml` using `${{ secrets.COSY_SUPABASE_URL }}`).
-*   **Secret Scanning:** Enable GitHub Secret Scanning under repository settings to automatically scan for accidentally committed keys, tokens, or personal identifiers.
+- **Never Hardcode Secrets:** All external API endpoints, keys, and configurations (such as temporary testing databases or future integration credentials) must be managed using **GitHub Secrets**.
+- **Secret Injection at Deploy Time:** Credentials must only be injected dynamically during the deployment build process (as implemented in `.github/workflows/deploy.yml` using `${{ secrets.COSY_SUPABASE_URL }}`).
+- **Secret Scanning:** Enable GitHub Secret Scanning under repository settings to automatically scan for accidentally committed keys, tokens, or personal identifiers.
 
 ### B. Branch Protections & Access Control
-*   **Protected `main` Branch:** Direct pushes to the `main` branch should be restricted. All code changes must proceed through Pull Requests (PRs).
-*   **Mandatory Status Checks:** Configure PR rules to require passing unit tests and structural audits (such as our Playwright suite and `scripts/audits/audit_website_data.py`) before changes can be merged.
-*   **Least Privilege Access:** Collaborator permissions must follow the principle of least privilege. Administrative keys and credentials must be restricted to project leads only.
+- **Protected `main` Branch:** Direct pushes to the `main` branch should be restricted. All code changes must proceed through Pull Requests (PRs).
+- **Mandatory Status Checks:** Configure PR rules to require passing unit tests and structural audits (such as our Playwright suite and `scripts/audits/audit_website_data.py`) before changes can be merged.
+- **Least Privilege Access:** Collaborator permissions must follow the principle of least privilege. Administrative keys and credentials must be restricted to project leads only.
 
 ### C. Dependency Hygiene
-*   **Vulnerability Scanning:** Utilize GitHub Dependabot to automatically audit and alert developers regarding vulnerabilities in our developer toolchain (`package.json`).
-*   **Keep DevTools Decoupled:** Keep production scripts entirely vanilla and static. No heavy, vulnerable Node.js frameworks are shipped to production.
+- **Vulnerability Scanning:** Utilize GitHub Dependabot to automatically audit and alert developers regarding vulnerabilities in our developer toolchain (`package.json`).
+- **Keep DevTools Decoupled:** Keep production scripts entirely vanilla and static. No heavy, vulnerable Node.js frameworks are shipped to production.
 
 ---
 
@@ -36,8 +36,8 @@ To protect our open-source ecosystem, the following security standards must be s
 
 If you discover a security vulnerability or a potential code execution exploit within COSYlanguages, please contact us directly:
 
-*   **Email:** cosylanguages@gmail.com
-*   **Telegram:** [@cosylanguagesproject](https://t.me/cosylanguagesproject)
+- **Email:** cosylanguages@gmail.com
+- **Telegram:** [@cosylanguagesproject](https://t.me/cosylanguagesproject)
 
 Please do **not** open a public GitHub issue for security exploits. We will review and patch all reported vulnerabilities within 48 hours.
 
