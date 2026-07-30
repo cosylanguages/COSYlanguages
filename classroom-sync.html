@@ -262,6 +262,23 @@
         .btn-timer:hover {
             background: var(--cream);
         }
+
+        /* Lesson Selector Styles */
+        .lesson-selector-container {
+            background: var(--cream-dark);
+            border: 1px solid var(--border);
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+        }
+        .lesson-select {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            font-weight: bold;
+            color: var(--sage-deep, #3d5a45);
+        }
     </style>
 </head>
 <body>
@@ -299,6 +316,18 @@
             </div>
         </div>
 
+        <!-- Lesson Selector (Stage 4.2) -->
+        <div class="lesson-selector-container">
+            <label for="lesson-selector" style="font-weight: bold; display: block; margin-bottom: 0.5rem; color: var(--sage-deep, #3d5a45);">📚 Load COSY Session Template:</label>
+            <select id="lesson-selector" class="lesson-select" onchange="loadSelectedLesson()">
+                <option value="default">Default Demo: AI and the Brain (Cinema / Science hybrid)</option>
+                <option value="science-aibrain">Science Club: AI and the Brain (Intermediate)</option>
+                <option value="wonder-time">Wonder Club: I Have No Time For It (Advanced)</option>
+                <option value="quotes-dostoevsky">Quotes Club: Dostoevsky on Politics & Religion (B2)</option>
+                <option value="debate-4day">Debatable & Relatable: 4-Day Work Week (B1)</option>
+            </select>
+        </div>
+
         <!-- Synchronizer Lesson Panel Dashboard -->
         <div class="sync-grid">
             <!-- Left Side: Teacher Control Panel -->
@@ -323,11 +352,11 @@
                     <h4 style="margin: 0 0 0.5rem; font-family:'Lora', serif;">Synchronized Interactive Content</h4>
                     <p style="font-size: 0.85rem; color:var(--ink-soft); margin: 0 0 1rem;">Click questions to highlight them, or click vocabulary cards to reveal/hide them on the student's screen in real-time.</p>
 
-                    <div class="lesson-card">
+                    <div class="lesson-card" id="teacher-lesson-card">
                         <div class="lesson-question active-highlight" id="t-q1" onclick="teacherClickQuestion(1)">Round 1: Talk about your favorite movie. 🎬</div>
                         <div class="lesson-question" id="t-q2" onclick="teacherClickQuestion(2)">Round 2: What will cinema look like in 50 years? 🚀</div>
 
-                        <div style="margin-top: 1rem;">
+                        <div style="margin-top: 1rem;" id="teacher-vocab-container">
                             <div class="vocab-word" id="t-v1" onclick="teacherClickVocab(1)">Nostalgia 🧠</div>
                             <div class="vocab-word" id="t-v2" onclick="teacherClickVocab(2)">Masterpiece 🌟</div>
                             <div class="vocab-word" id="t-v3" onclick="teacherClickVocab(3)">Screenplay 📜</div>
@@ -352,11 +381,11 @@
                     <h4 style="margin: 0 0 0.5rem; font-family:'Lora', serif;">Active Slide</h4>
                     <p style="font-size: 0.85rem; color:#666; margin: 0 0 1rem;">This screen responds instantly to your teacher's pointer highlights and card reveal commands.</p>
 
-                    <div class="lesson-card" style="border-left-color: var(--honey-dark, #b7791f);">
+                    <div class="lesson-card" style="border-left-color: var(--honey-dark, #b7791f);" id="student-lesson-card">
                         <div class="lesson-question active-highlight" id="s-q1">Round 1: Talk about your favorite movie. 🎬</div>
                         <div class="lesson-question" id="s-q2">Round 2: What will cinema look like in 50 years? 🚀</div>
 
-                        <div style="margin-top: 1rem;">
+                        <div style="margin-top: 1rem;" id="student-vocab-container">
                             <div class="vocab-word" id="s-v1">Hidden Card 🔒</div>
                             <div class="vocab-word" id="s-v2">Hidden Card 🔒</div>
                             <div class="vocab-word" id="s-v3">Hidden Card 🔒</div>
@@ -369,6 +398,122 @@
 </main>
 
 <script>
+    // ─────────────── SESSIONS DATA MAPPING (Stage 4.2) ───────────────
+    const SESSIONS_DATA = {
+        default: {
+            questions: [
+                "Round 1: Talk about your favorite movie. 🎬",
+                "Round 2: What will cinema look like in 50 years? 🚀"
+            ],
+            vocab: ["Nostalgia 🧠", "Masterpiece 🌟", "Screenplay 📜"]
+        },
+        "science-aibrain": {
+            questions: [
+                "According to the study, how does biological synapse learning differ from backpropagation? 🧠",
+                "Will neuromorphic computers ever match the 10,000x energy efficiency of a biological brain? ⚡",
+                "Contrast biological learning pathways with static artificial weights. 📊"
+            ],
+            vocab: ["Synapse 🔌", "Plasticity 🌊", "Efficiency 🌱", "Neuromorphic 🔬"]
+        },
+        "wonder-time": {
+            questions: [
+                "Do we genuinely have 'no time', or do we simply suffer from an attention prioritization crisis? ⏳",
+                "How has the acceleration of modern capitalism forced adults to commodify their leisure hours? 💼",
+                "Speculate: What if future societies implement a universal time credit system instead of monetary currency? 🌟"
+            ],
+            vocab: ["Commodify 🪙", "Prioritize 📌", "Temporal ⏳", "Leisure ☕"]
+        },
+        "quotes-dostoevsky": {
+            questions: [
+                "Dostoevsky suggests taboos define character. How does a person's attitude toward religion reveal their values? 🕯️",
+                "Can deep, intimate family closeness be sustained when family members hold opposite political beliefs? ⚖️",
+                "Does seeking external approval for our morals prevent genuine self-actualization? 🧠"
+            ],
+            vocab: ["Acceptance 🤝", "Vulnerability 🛡️", "Empathy 💗", "Confrontation 💥"]
+        },
+        "debate-4day": {
+            questions: [
+                "Is the 4-day work week a luxury of wealthy tech corporations, or a human-centric baseline? 📅",
+                "Would you accept a 10% salary cut in exchange for a guaranteed three-day weekend? ⚖️",
+                "Speculate: How would active community and parenting habits change with an extra rest day? 🏡"
+            ],
+            vocab: ["Workaholism 💼", "Productivity 🚀", "Burnout 🛑", "Well-being 🍀"]
+        }
+    };
+
+    let activeLessonKey = "default";
+
+    function loadSelectedLesson() {
+        const selector = document.getElementById("lesson-selector");
+        const key = selector.value;
+        activeLessonKey = key;
+
+        const data = SESSIONS_DATA[key];
+        if (!data) return;
+
+        // Render Teacher View
+        const tCard = document.getElementById("teacher-lesson-card");
+        tCard.innerHTML = "";
+
+        data.questions.forEach((q, i) => {
+            const qIdx = i + 1;
+            const qEl = document.createElement("div");
+            qEl.className = "lesson-question" + (qIdx === 1 ? " active-highlight" : "");
+            qEl.id = `t-q${qIdx}`;
+            qEl.setAttribute("onclick", `teacherClickQuestion(${qIdx})`);
+            qEl.textContent = q;
+            tCard.appendChild(qEl);
+        });
+
+        const tVocabCont = document.createElement("div");
+        tVocabCont.style.marginTop = "1rem";
+        tVocabCont.id = "teacher-vocab-container";
+
+        data.vocab.forEach((v, i) => {
+            const vIdx = i + 1;
+            const vEl = document.createElement("div");
+            vEl.className = "vocab-word";
+            vEl.id = `t-v${vIdx}`;
+            vEl.setAttribute("onclick", `teacherClickVocab(${vIdx})`);
+            vEl.textContent = v;
+            tVocabCont.appendChild(vEl);
+        });
+        tCard.appendChild(tVocabCont);
+
+        // Render Student View (Initially Hidden)
+        const sCard = document.getElementById("student-lesson-card");
+        sCard.innerHTML = "";
+
+        data.questions.forEach((q, i) => {
+            const qIdx = i + 1;
+            const qEl = document.createElement("div");
+            qEl.className = "lesson-question" + (qIdx === 1 ? " active-highlight" : "");
+            qEl.id = `s-q${qIdx}`;
+            qEl.textContent = q;
+            sCard.appendChild(qEl);
+        });
+
+        const sVocabCont = document.createElement("div");
+        sVocabCont.style.marginTop = "1rem";
+        sVocabCont.id = "student-vocab-container";
+
+        data.vocab.forEach((v, i) => {
+            const vIdx = i + 1;
+            const vEl = document.createElement("div");
+            vEl.className = "vocab-word";
+            vEl.id = `s-v${vIdx}`;
+            vEl.textContent = "Hidden Card 🔒";
+            sVocabCont.appendChild(vEl);
+        });
+        sCard.appendChild(sVocabCont);
+
+        // Notify client side live rooms
+        broadcastState({
+            loadLesson: key,
+            activeQuestion: 1
+        });
+    }
+
     // ─────────────── P2P COMMUNICATION & SIMULATION LOGIC ───────────────
     let peer = null;
     let conn = null;
@@ -386,6 +531,10 @@
     }
 
     function applyStateToStudent(state) {
+        if (state.loadLesson !== undefined && state.loadLesson !== activeLessonKey) {
+            document.getElementById("lesson-selector").value = state.loadLesson;
+            loadSelectedLesson();
+        }
         if (state.timerSeconds !== undefined) {
             timerSeconds = state.timerSeconds;
             updateTimerDisplays();
@@ -406,12 +555,12 @@
         if (state.revealedVocab !== undefined) {
             const index = state.revealedVocab;
             const revealed = state.isRevealed;
-            const vocabMap = { 1: "Nostalgia 🧠", 2: "Masterpiece 🌟", 3: "Screenplay 📜" };
+            const vocabList = SESSIONS_DATA[activeLessonKey].vocab;
 
             const vEl = document.getElementById(`s-v${index}`);
             if (vEl) {
                 if (revealed) {
-                    vEl.textContent = vocabMap[index];
+                    vEl.textContent = vocabList[index - 1] || "Revealed Card";
                     vEl.classList.add('revealed');
                 } else {
                     vEl.textContent = "Hidden Card 🔒";

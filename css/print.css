@@ -1,8 +1,181 @@
 /* ── Print Grammar Specific Styles ─────────────────── */
 @media print {
-    body { background: #fff; color: #000; }
-    nav, footer, .wa-fab, #toast { display: none !important; }
-    main { padding: 0; max-width: 100%; }
+    body { background: #fff; color: #000; font-size: 10pt; line-height: 1.4; }
+
+    /* Hide digital-only non-printable components */
+    nav, footer, .wa-fab, #toast, #dict-fab, #dict-panel, .back-link,
+    .cosy-breadcrumbs, .session-switcher, .btn-pronounce, .btn-add-dict,
+    .cosy-video-wrapper, .cosy-article-wrapper, .cosy-lyrics-disclaimer,
+    .grammar-word-bank, .btn-verify, .btn-reset, #wonder-music-toggle-container,
+    .wonder-audio-player, .mobile-nav, #cosy-tour-fab, .cosy-tour-backdrop-overlay,
+    .cosy-tour-bubble, .cosy-tour-pointer, .cosy-tour-modal-overlay {
+        display: none !important;
+    }
+
+    main { padding: 0; max-width: 100%; margin: 0; }
+
+    /* Foldable dual-column styling for vocabulary lists */
+    .vocab-grid-10 {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 0.5rem !important;
+        page-break-inside: avoid;
+    }
+
+    .vocab-card {
+        border: 1px solid #ccc !important;
+        padding: 0.5rem 0.75rem !important;
+        border-radius: 6px !important;
+        background: #fff !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .vocab-word {
+        font-weight: bold;
+        font-size: 11pt;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    /* Clean up session meta layouts */
+    .session-meta-grid {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 0.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .meta-item {
+        border: 1px solid #ccc !important;
+        padding: 0.4rem !important;
+        border-radius: 4px !important;
+        text-align: center;
+    }
+
+    .meta-item h4 { margin: 0 0 0.2rem 0 !important; font-size: 8pt !important; text-transform: uppercase; color: #555; }
+    .meta-item p { margin: 0 !important; font-size: 9pt !important; font-weight: bold; }
+
+    /* Science Journal box print scaling */
+    .science-journal-box {
+        border: 1px solid #000 !important;
+        background: #fdfdfd !important;
+        padding: 0.75rem !important;
+        margin-bottom: 1rem !important;
+        page-break-inside: avoid;
+    }
+
+    .science-journal-grid {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 0.5rem !important;
+    }
+
+    /* Discussion Blocks */
+    .rounds-container {
+        display: block !important;
+    }
+
+    .round-block, .mistake-block {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        border: 1px solid #ccc !important;
+        background: #fff !important;
+        box-shadow: none !important;
+        margin-bottom: 1rem !important;
+        border-radius: 8px !important;
+        overflow: hidden;
+    }
+
+    .round-header, .mistake-header {
+        background: #eee !important;
+        color: #000 !important;
+        padding: 0.5rem 0.75rem !important;
+        font-weight: bold !important;
+        border-bottom: 1px solid #ccc !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .round-toggle { display: none !important; }
+
+    .round-body, .mistake-body {
+        display: block !important; /* Force reveal collapsed foldable sections for print! */
+        padding: 0.75rem !important;
+    }
+
+    .round-questions, .round-item {
+        margin: 0 !important;
+        padding: 0 !important;
+        list-style: none !important;
+    }
+
+    .round-questions li {
+        padding: 0.35rem 0 !important;
+        border-bottom: 1px dashed #ddd;
+    }
+
+    .round-item {
+        padding: 0.4rem 0 !important;
+        border-bottom: 1px dashed #ddd;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .round-item-main {
+        font-weight: bold;
+        font-size: 10pt;
+    }
+
+    .round-item-personal {
+        font-style: italic;
+        color: #444;
+        font-size: 9.5pt;
+        margin-top: 0.15rem;
+    }
+
+    /* Let's speak together split view grid printing */
+    .lst-grid {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 1rem !important;
+    }
+
+    .lst-item {
+        border: 1px dashed #ccc !important;
+        padding: 0.5rem !important;
+        border-radius: 6px;
+    }
+
+    /* Linguistic Corrections Mistakes Print Layout */
+    .mistake-item {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 0.5rem !important;
+        padding: 0.4rem 0 !important;
+        border-bottom: 1px solid #eee;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .mistake-wrong {
+        text-decoration: line-through;
+        color: #7d0000 !important;
+    }
+
+    .mistake-right {
+        font-weight: bold;
+        color: #004d00 !important;
+    }
+
+    .mistake-note-text {
+        color: #555;
+        font-size: 8.5pt;
+    }
+
     section { break-inside: avoid; border: 1px solid #ccc; box-shadow: none; margin-bottom: 1rem; }
     .gtable { border: 1px solid #000; }
     .gtable td, .gtable th { border: 1px solid #000; color: #000 !important; }
