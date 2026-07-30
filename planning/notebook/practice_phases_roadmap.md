@@ -76,20 +76,20 @@ This document outlines the structured development phases and logical stages of t
 
 ---
 
-## 🟣 Phase 4: Future Extensibility & Adaptive Formats (Planned)
+## 🟣 Phase 4: Future Extensibility & Adaptive Formats
 *Focus: Implementing advanced interactive exercise layouts.*
 
 ### **Stage 4.1: Interactive Match Pairs**
 - **Goal:** Connect words directly with semantic imagery in an adaptive board.
-- **Implementation:** Design drag-and-drop or tap-to-match card components utilizing custom pointer event controllers.
-- **Status:** *Planned (Phase 4 Milestone)*
+- **Implementation:** Designed tap-to-match card blocks that dynamically render vocabulary terms alongside contextual images, allowing students to verify translations with instant visual feedback.
+- **Status:** **Completed** ✅
 
 ### **Stage 4.2: Scramble Board Scaffolding**
 - **Goal:** Order vocabulary words according to syntax-specific grammar trees.
-- **Implementation:** Fully map the syntax order scrambling logic into an interactive sentence token block inside `practice/_engine/renderers.js`.
-- **Status:** *Planned (Phase 4 Milestone)*
+- **Implementation:** Programmed scrambling/unscrambling logic inside the core engine `practice/_engine/renderers.js` that splits sentences into interactively draggable and sortable word blocks, checking structural grammar alignment on drop.
+- **Status:** **Completed** ✅
 
 ### **Stage 4.3: Waveform Pronunciation & Phonic Feedback**
 - **Goal:** Capture student speech and provide phonetic overlays.
-- **Implementation:** Integrate Web Audio API recording triggers to draw live waveforms, matching output with native audio vectors.
-- **Status:** *Planned (Phase 4 Milestone)*
+- **Implementation:** Fully integrated the Web Audio API to capture student voice inputs, render real-time waveforms dynamically on screen, and overlay native pronunciation paths for comparison.
+- **Status:** **Completed** ✅
