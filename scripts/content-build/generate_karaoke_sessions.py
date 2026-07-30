@@ -2194,7 +2194,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <link rel="stylesheet" href="../../../css/layout.css">
 <link rel="stylesheet" href="../../../css/events.css">
 </head>
-<body>
+<body class="theme-karaoke-{theme_group}">
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
   <div class="club-tag">Karaoke Club</div>
@@ -2209,6 +2209,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <span class="current">{title}</span>
   </nav>
   <a href="../../karaoke-club.html" class="back-link">{back_link}</a>
+  {retro_cassette_card}
   <div class="session-meta-grid">
     <div class="meta-item"><h4>{dur_label}</h4><p>{dur_val}</p></div>
     <div class="meta-item"><h4>{lang_label}</h4><p>{variety_lang}</p></div>
@@ -2346,7 +2347,7 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 <link rel="stylesheet" href="../../../css/layout.css">
 <link rel="stylesheet" href="../../../css/events.css">
 </head>
-<body>
+<body class="theme-karaoke-{theme_group}">
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
   <div class="club-tag">Karaoke Club</div>
@@ -2361,6 +2362,7 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
     <span class="current">{title}</span>
   </nav>
   <a href="../../karaoke-club.html" class="back-link">{back_link}</a>
+  {retro_cassette_card}
   <div class="session-meta-grid">
     <div class="meta-item"><h4>{dur_label}</h4><p>{dur_val}</p></div>
     <div class="meta-item"><h4>{lang_label}</h4><p>{variety_lang}</p></div>
@@ -2569,6 +2571,297 @@ def get_language_focus(slug, lang):
     }
     return fallbacks.get(lang, fallbacks["en"])
 
+
+THEME_AESTHETICS = {
+    "love": {
+        "primary": "#D81B60",
+        "secondary": "#F48FB1",
+        "gradient": "linear-gradient(135deg, #880E4F 0%, #D81B60 50%, #FF80AB 100%)",
+        "bg_color": "#FFF5F7",
+        "accent": "#C2185B",
+        "icon": "💖",
+        "tape_bg": "#FCE4EC",
+        "emoji": "🎙️"
+    },
+    "society": {
+        "primary": "#00796B",
+        "secondary": "#80CBC4",
+        "gradient": "linear-gradient(135deg, #004D40 0%, #00796B 50%, #4DB6AC 100%)",
+        "bg_color": "#F2FAF8",
+        "accent": "#00695C",
+        "icon": "⚖️",
+        "tape_bg": "#E0F2F1",
+        "emoji": "📢"
+    },
+    "growth": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "gradient": "linear-gradient(135deg, #1B5E20 0%, #2E7D32 50%, #81C784 100%)",
+        "bg_color": "#F4FAF5",
+        "accent": "#37474F",
+        "icon": "🌱",
+        "tape_bg": "#E8F5E9",
+        "emoji": "⚡"
+    },
+    "emotions": {
+        "primary": "#3F51B5",
+        "secondary": "#9FA8DA",
+        "gradient": "linear-gradient(135deg, #1A237E 0%, #3F51B5 50%, #7986CB 100%)",
+        "bg_color": "#F5F6FC",
+        "accent": "#283593",
+        "icon": "🥀",
+        "tape_bg": "#E8EAF6",
+        "emoji": "🔮"
+    },
+    "joy_nature": {
+        "primary": "#E65100",
+        "secondary": "#FFB74D",
+        "gradient": "linear-gradient(135deg, #5D4037 0%, #E65100 50%, #FFB74D 100%)",
+        "bg_color": "#FFFBF5",
+        "accent": "#D84315",
+        "icon": "☀️",
+        "tape_bg": "#FFE0B2",
+        "emoji": "🌴"
+    },
+    "experience": {
+        "primary": "#7B1FA2",
+        "secondary": "#CE93D8",
+        "gradient": "linear-gradient(135deg, #4A148C 0%, #7B1FA2 50%, #BA68C8 100%)",
+        "bg_color": "#FAF5FC",
+        "accent": "#6A1B9A",
+        "icon": "🌌",
+        "tape_bg": "#F3E5F5",
+        "emoji": " cassette"
+    },
+    "default": {
+        "primary": "#4A154B",
+        "secondary": "#9D81D9",
+        "gradient": "linear-gradient(135deg, #2A0A35 0%, #4A154B 50%, #9D81D9 100%)",
+        "bg_color": "#FAF7F2",
+        "accent": "#3F2B96",
+        "icon": "🎵",
+        "tape_bg": "#F5EEFA",
+        "emoji": "🎙️"
+    }
+}
+
+
+LINER_INSIGHTS = {
+    "mixed-up-world": {
+        "quote": "It's a mixed-up world, but I'll find my way through the chaos. Optimism is our ultimate strength.",
+        "vibe": "✨ Euphoric Disco-Pop / Resilient & Bold"
+    },
+    "dont-be-a-lawyer": {
+        "quote": "There are so many other jobs you can choose. Happiness is worth more than a prestigious, soul-crushing routine.",
+        "vibe": "🎷 Satirical Broadway / Career Empowerment"
+    },
+    "you-stupid-bitch": {
+        "quote": "I ruined everything, but in every self-sabotaging moment lies a painful first step toward forgiving yourself.",
+        "vibe": "🥀 Dramatic Orchestral / Introspective Regret"
+    },
+    "california-dreaming": {
+        "quote": "Dreaming of a warm, safe California haven while walking through the cold, gray winter leaves of our routine.",
+        "vibe": "☀️ Nostalgic Folk-Rock / Warm Escapism"
+    },
+    "me-and-i": {
+        "quote": "My inner Jekyll and Hyde are always in conflict, but accepting our dual nature is the key to identity.",
+        "vibe": "🔮 Retro Synth-Pop / Psychological Playfulness"
+    },
+    "angeleyes": {
+        "quote": "Do not look too deep into those charming angel eyes. Disguises can be incredibly beautiful yet deceptive.",
+        "vibe": "🎙️ Uptempo Pop Warning / Deceptive Glamour"
+    },
+    "leffet-de-masse": {
+        "quote": "L'effet de masse nous pousse à l'isolement, mais le vrai courage commence en choisissant d'être soi-même.",
+        "vibe": "📢 Chanson Française Émouvante / Force Sociale"
+    },
+    "ouvrir-les-yeux": {
+        "quote": "Ouvrir les yeux sur notre solitude nous permet de voir la chaleur et la lumière qui nous attendent.",
+        "vibe": "💫 Ballade Rêveuse / Espoir & Douceur"
+    },
+    "seventeen": {
+        "quote": "Fine, we're damaged, but can we just be seventeen? We deserve a simple, normal life together.",
+        "vibe": "⚡ Powerful Rock Duet / Youthful Rebellion"
+    },
+    "lifeboat": {
+        "quote": "Social pressure makes us feel like we're fighting to survive in a crowded lifeboat. We are stronger together.",
+        "vibe": "🌊 Intimate Acoustic / Anti-Pressure"
+    }
+}
+
+
+A2_ROUNDS_OVERRIDES = {
+    "as-it-was": {
+        "en": {
+            "r1": [
+                ("The singer feels a bit <strong>damaged</strong> by life's changes. How do we heal after a hard time?", "★ Have you ever fixed a <strong>damaged</strong> book or toy?"),
+                ("He wishes things could go back to <strong>normal</strong>. What is normal to you?", "★ What is your <strong>normal</strong> morning routine?"),
+                ("Some moments in life feel incredibly <strong>special</strong>. What makes a day special?", "★ What is a <strong>special</strong> memory from your childhood?"),
+                ("The world is very <strong>different</strong> now than it was. Do you like change?", "★ Do you have a <strong>different</strong> opinion than your friends?"),
+                ("He sings about watching old <strong>movies</strong> alone. What movies do you like?", "★ When was the last time you went to the <strong>movies</strong>?"),
+                ("The song brings back memories of <strong>summer</strong> freedom. Why is summer so magical?", "★ What is your favorite <strong>summer</strong> activity?"),
+                ("He describes <strong>dancing</strong> alone in his room. Does dancing help you relax?", "★ Do you like <strong>dancing</strong> at parties?"),
+                ("He is planning a phone call <strong>tonight</strong>. Who will you call tonight?", "★ What are your plans for <strong>tonight</strong>?"),
+                ("We must <strong>choose</strong> our own path forward. Is it hard to choose?", "★ How do you <strong>choose</strong> what to wear?"),
+                ("He wants to make the <strong>right</strong> decision. How do we know what is right?", "★ Did you make the <strong>right</strong> choice today?")
+            ],
+            "r2": [
+                "A <strong>damaged</strong> relationship can never be fully repaired.",
+                "There is no such thing as a <strong>normal</strong> person.",
+                "Every weekend should feel like a <strong>special</strong> occasion.",
+                "Being <strong>different</strong> from others is a great advantage.",
+                "Watching <strong>movies</strong> is better than reading books.",
+                "We should have a six-month <strong>summer</strong> vacation every year.",
+                "Everyone should practice <strong>dancing</strong> for good health.",
+                "Nothing good ever happens after midnight <strong>tonight</strong>.",
+                "It is better to let others <strong>choose</strong> for us to avoid stress.",
+                "There is always a <strong>right</strong> answer to every problem."
+            ]
+        }
+    },
+    "california-dreaming": {
+        "en": {
+            "r1": [
+                ("The song describes a cold <strong>Winter</strong> day. Why does cold weather make us want to travel?", "★ Do you like the <strong>Winter</strong> season?"),
+                ("L.A. is a <strong>Safe</strong> and warm place in the song. Where do you feel safest?", "★ Where is your <strong>Safe</strong> place?"),
+                ("The singer wants to be in a <strong>Warm</strong> town. Why is warm weather so popular?", "★ Do you prefer <strong>Warm</strong> food or cold food in winter?"),
+                ("The singer has to <strong>Pretend</strong> to pray. Is it okay to pretend sometimes?", "★ Did you <strong>Pretend</strong> to be a superhero when you were a child?"),
+                ("The <strong>Preacher</strong> likes the cold weather. What does a preacher do?", "★ Have you ever talked to a <strong>Preacher</strong> or priest?"),
+                ("California <strong>Dreamin'</strong> is about wishing for a sunny life. What do you dream of?", "★ What are you <strong>Dreamin'</strong> of today?"),
+                ("The sky is dark and <strong>Gray</strong> in the town. How does a gray sky feel?", "★ Do you like <strong>Gray</strong> clothes?"),
+                ("The leaves turn <strong>Brown</strong> in autumn. Why do leaves change colors?", "★ Is <strong>Brown</strong> your favorite autumn color?"),
+                ("All the falling <strong>Leaves</strong> show that winter is here. Do you like autumn leaves?", "★ Do you collect autumn <strong>Leaves</strong>?"),
+                ("The singer fell to his <strong>Knees</strong> in the church. What are some polite gestures?", "★ Do your <strong>Knees</strong> hurt after running?")
+            ],
+            "r2": [
+                "Cold <strong>Winter</strong> is the best time to read books.",
+                "Our home is the only truly <strong>Safe</strong> place in the world.",
+                "People are friendlier in <strong>Warm</strong> countries.",
+                "It is important to <strong>Pretend</strong> to be happy at work.",
+                "A <strong>Preacher</strong> should only speak about love and kindness.",
+                "Day <strong>Dreamin'</strong> is a waste of productive time.",
+                "A dark <strong>Gray</strong> room is perfect for sleeping.",
+                "The color <strong>Brown</strong> makes a house feel cozy.",
+                "Autumn <strong>Leaves</strong> are more beautiful than spring flowers.",
+                "We should bend our <strong>Knees</strong> in respect to elders."
+            ]
+        }
+    },
+    "make-your-own-kind-of-music": {
+        "en": {
+            "r1": [
+                ("The singer tells us to <strong>be yourself</strong> even if others are different. Why is this important?", "★ Is it easy to <strong>be yourself</strong> around strangers?"),
+                ("You must sing your song even if it is <strong>late</strong> to start. Is it ever too late to change?", "★ Are you usually <strong>late</strong> for meetings?"),
+                ("A sweet <strong>melody</strong> can lift our spirits. What makes a melody beautiful?", "★ What is your favorite song <strong>melody</strong>?"),
+                ("The singer says you don't need to join the <strong>choir</strong>. Do you like singing in a group?", "★ Have you ever sung in a school <strong>choir</strong>?"),
+                ("A catchy <strong>chorus</strong> is the heart of a pop song. Why are choruses so easy to remember?", "★ Can you hum the <strong>chorus</strong> of your favorite song?"),
+                ("Singing a <strong>solo</strong> requires a lot of courage. Would you sing a solo on stage?", "★ Do you prefer working alone or doing a <strong>solo</strong> project?"),
+                ("The track brings a very <strong>happy</strong> and positive vibe. What makes a song feel happy?", "★ What simple thing makes you <strong>happy</strong>?"),
+                ("A true <strong>friend</strong> supports your unique choices. What makes a good friend?", "★ Who is your oldest <strong>friend</strong>?"),
+                ("Everyone must find their own <strong>path</strong> in life. Is your path clear to you?", "★ Did you choose your career <strong>path</strong> early?"),
+                ("Singing in perfect <strong>harmony</strong> is a beautiful experience. How can we live in harmony?", "★ Does your home feel in <strong>harmony</strong>?")
+            ],
+            "r2": [
+                "It is always easy to <strong>be yourself</strong> when you are with family.",
+                "Arriving <strong>late</strong> is a sign of disrespect in all cultures.",
+                "A song must have a great <strong>melody</strong> to be successful.",
+                "Singing in a <strong>choir</strong> is better than singing alone.",
+                "A great <strong>chorus</strong> is the most important part of music.",
+                "Performing a <strong>solo</strong> is too stressful for most people.",
+                "We can choose to be <strong>happy</strong> every single day.",
+                "A dog is a better <strong>friend</strong> than most humans.",
+                "Following a traditional <strong>path</strong> is safer and happier.",
+                "Living in perfect <strong>harmony</strong> with everyone is impossible."
+            ]
+        }
+    },
+    "its-getting-better": {
+        "en": {
+            "r1": [
+                ("The song says life is getting <strong>better</strong> every day. What makes your day better?", "★ Are you feeling <strong>better</strong> than yesterday?"),
+                ("Finding true joy makes us <strong>happy</strong>. What is your favorite hobby to feel happy?", "★ Does sunny weather make you <strong>happy</strong>?"),
+                ("We all want to live a peaceful <strong>life</strong>. What does a good life look like?", "★ Where do you want to spend your <strong>life</strong>?"),
+                ("The <strong>world</strong> is full of beautiful places to see. What part of the world do you love?", "★ Do you want to travel around the <strong>world</strong>?"),
+                ("Every single <strong>day</strong> brings a fresh start. How do you plan your day?", "★ Did you have a busy <strong>day</strong> today?"),
+                ("Good <strong>friends</strong> support us during hard times. How do friends help you?", "★ Do you have many close <strong>friends</strong>?"),
+                ("The track describes a deep <strong>love</strong> for life. Is love the key to happiness?", "★ What do you <strong>love</strong> doing on Sundays?"),
+                ("The warm sun is <strong>shining</strong> in the sky. Do you like a shining sun?", "★ Is the sun <strong>shining</strong> in your city today?"),
+                ("There is always hope for <strong>tomorrow</strong>. What are your goals for tomorrow?", "★ What will you cook <strong>tomorrow</strong>?"),
+                ("A friendly <strong>smile</strong> can make a stranger feel welcome. Do you smile often?", "★ Did someone make you <strong>smile</strong> today?")
+            ],
+            "r2": [
+                "Life gets <strong>better</strong> as we grow older and wiser.",
+                "Money cannot buy a <strong>happy</strong> and peaceful mind.",
+                "A simple <strong>life</strong> in the countryside is better than city life.",
+                "The <strong>world</strong> is becoming a safer and friendlier place.",
+                "We should start every <strong>day</strong> with a short meditation.",
+                "It is better to have one true <strong>friend</strong> than many acquaintance friends.",
+                "True <strong>love</strong> always lasts forever.",
+                "A <strong>shining</strong> sun is the best cure for sadness.",
+                "We should focus on today instead of worrying about <strong>tomorrow</strong>.",
+                "A warm <strong>smile</strong> is the most powerful communication tool."
+            ]
+        }
+    },
+    "salut": {
+        "fr": {
+            "r1": [
+                ("Le chanteur offre un simple <strong>salut</strong> après des années. Pourquoi saluer est-il si important ?", "★ Faites-vous un <strong>salut</strong> de la main aux voisins ?"),
+                ("La chanson célèbre <strong>le retour</strong> d'un vieil ami. Aimez-vous revenir chez vous ?", "★ Quel a été votre plus beau <strong>retour</strong> de vacances ?"),
+                ("On ressent de <strong>la nostalgie</strong> en repensant au passé. Est-ce un sentiment agréable ?", "★ Avez-vous de <strong>la nostalgie</strong> pour votre enfance ?"),
+                ("Le chanteur dit que <strong>le temps</strong> passe trop vite. Êtes-vous d'accord ?", "★ Comment organisez-vous votre <strong>temps</strong> libre ?"),
+                ("Ils se retrouvent autour d'un bon <strong>café</strong>. Pourquoi le café réunit-il les gens ?", "★ Buvez-vous du <strong>café</strong> ou du thé le matin ?"),
+                ("Il est merveilleux de <strong>retrouver</strong> des personnes perdues. Qui aimeriez-vous retrouver ?", "★ Avez-vous réussi à <strong>retrouver</strong> un vie일 objet perdu ?"),
+                ("Les choses finissent par <strong>changer</strong> avec les années. Le changement vous fait-il peur ?", "★ Souhaitez-vous <strong>changer</strong> d'appartement bientôt ?"),
+                ("Un beau <strong>souvenir</strong> reste gravé dans notre mémoire. Quel est votre plus vieux souvenir ?", "★ Quel <strong>souvenir</strong> gardez-vous de votre premier jour d'école ?"),
+                ("Un bon <strong>ami</strong> est précieux dans les moments difficiles. Qu'est-ce qu'un véritable ami ?", "★ Parlez-vous souvent à votre meilleur <strong>ami</strong> ?"),
+                ("Ils se disent au revoir près de <strong>la gare</strong>. Aimez-vous voyager en train ?", "★ Y a-t-il une jolie <strong>gare</strong> dans votre ville ?")
+            ],
+            "r2": [
+                "Un simple <strong>salut</strong> peut changer la journée d'une personne.",
+                "Le jour de notre <strong>retour</strong> de voyage est toujours triste.",
+                "Avoir trop de <strong>la nostalgie</strong> empêche d'avancer dans la vie.",
+                "Nous manquons tous de <strong>temps</strong> dans le monde moderne.",
+                "Prendre un <strong>café</strong> ensemble est la meilleure façon de discuter.",
+                "Il est impossible de <strong>retrouver</strong> la complicité d'autrefois.",
+                "Vouloir tout <strong>changer</strong> est une erreur.",
+                "Un mauvais <strong>souvenir</strong> s'efface plus vite qu'un bon.",
+                "On ne peut pas avoir plus de trois vrais <strong>amis</strong>.",
+                "Attendre quelqu'un à <strong>la gare</strong> est très romantique."
+            ]
+        }
+    },
+    "o-gatos": {
+        "el": {
+            "r1": [
+                ("Ο <strong>γάτος</strong> της γειτονιάς είναι πάντα ελεύθερος. Σας αρέσουν οι γάτες;", "★ Έχετε έναν <strong>γάτο</strong> στο σπίτι σας;"),
+                ("Η <strong>κεραμίδα</strong> είναι το αγαπημένο μέρος του γάτου. Πού σας αρέσει να κάθεστε;", "★ Έχετε δει ποτέ γάτο πάνω σε <strong>κεραμίδα</strong>;"),
+                ("Η ζωή του γάτου είναι μια καθημερινή <strong>περιπέτεια</strong>. Σας αρέσουν οι περιπέτειες;", "★ Ποια ήταν η μεγαλύτερη <strong>περιπέτεια</strong> της ζωής σας;"),
+                ("Η <strong>ελευθερία</strong> είναι το πιο σημαντικό πράγμα για έναν γάτο. Τι σημαίνει ελευθερία για εσάς;", "★ Νιώθετε απόλυτη <strong>ελευθερία</strong> στη δουλειά σας;"),
+                ("Ο <strong>δρόμος</strong> είναι γεμάτος εκπλήξεις για τα ζώα. Περπατάτε συχνά στους δρόμους της πόλης;", "★ Είναι ο <strong>δρόμος</strong> σας ήσυχος το βράδυ;"),
+                ("Το <strong>νιαούρισμα</strong> του γάτου είναι ένας τρόπος επικοινωνίας. Πώς επικοινωνούν τα ζώα;", "★ Σας ξυπνάει το <strong>νιαούρισμα</strong> μιας γάτας το πρωί;"),
+                ("Το <strong>κυνήγι</strong> είναι το παιχνίδι του γάτου. Είναι καλό ένστικτο;", "★ Έχετε παίξει ποτέ <strong>κυνήγι</strong> κρυμμένου θησαυρού;"),
+                ("Η <strong>αυλή</strong> του σπιτιού είναι ένας ασφαλής χώρος. Έχετε αυλή στο σπίτι σας;", "★ Σας αρέσει να πίνετε καφέ στην <strong>αυλή</strong>;"),
+                ("Το <strong>σπίτι</strong> μας προσφέρει ζεστασιά και ασφάλεια. Τι κάνει ένα σπίτι φιλόξενο;", "★ Είναι το <strong>σπίτι</strong> σας κοντά στο κέντρο της πόλης;"),
+                ("Η <strong>νύχτα</strong> είναι η ώρα που ο γάτος εξερευνά τη γειτονιά. Σας αρέσει η νύχτα;", "★ Προτιμάτε τη μέρα ή τη <strong>νύχτα</strong> για εργασία;")
+            ],
+            "r2": [
+                "Ο <strong>γάτος</strong> είναι πιο έξυπνος από τον σκύλο.",
+                "Μια κόκκινη <strong>κεραμίδα</strong> κάνει το σπίτι να φαίνεται παραδοσιακό.",
+                "Η καθημερινή <strong>περιπέτεια</strong> είναι απαραίτητη για να μη βαριόμαστε.",
+                "Η απόλυτη <strong>ελευθερία</strong> φέρνει και μεγάλες ευθύνες.",
+                "Ο <strong>δρόμος</strong> της επιτυχίας είναι πάντα δύσκολος.",
+                "Το <strong>νιαούρισμα</strong> μιας γάτας είναι ο πιο γλυκός ήχος.",
+                "Το <strong>κυνήγι</strong> της ευτυχίας δεν σταματά ποτέ.",
+                "Μια μεγάλη <strong>αυλή</strong> είναι το καλύτερο μέρος για τα παιδιά.",
+                "Το δικό μας <strong>σπίτι</strong> είναι το πιο όμορφο μέρος στον κόσμο.",
+                "Η <strong>νύχτα</strong> είναι η καλύτερη ώρα για βαθιές σκέψεις."
+            ]
+        }
+    }
+}
+
+
 def get_final_challenge(slug, lang):
     if slug in FINAL_CHALLENGE_DB:
         entry = FINAL_CHALLENGE_DB[slug]
@@ -2718,24 +3011,6 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         warmup_questions_html += f"            <li>Look at the title '{title}' and the artist '{artist}'. What do you predict this song is about? (Prediction question)</li>\n"
         warmup_questions_html += f"            <li>What kind of emotions does this style of music bring to you?</li>\n"
 
-
-    # Theme classifier to categorize song focuses
-    def get_theme_group(focus, slug):
-        focus_lower = focus.lower()
-        slug_lower = slug.lower()
-        if any(k in focus_lower for k in ["love", "amour", "couple", "dating", "attraction", "heartbreak", "soulmates", "destiny", "obsession", "infatuation", "ending", "lovers", "husband", "stranger", "intimacy"]) or any(k in slug_lower for k in ["love", "amour", "dating", "husband", "lovers", "stranger", "girlfriend"]):
-            return "love"
-        if any(k in focus_lower for k in ["equality", "sexisme", "solidarity", "beauty", "culture", "assimilation", "lawyer", "career", "work", "generalize", "satire", "parenting", "overachieving", "approval", "provincial", "female", "male", "solidarité", "féminine", "maternité", "social", "society", "workplace"]) or any(k in slug_lower for k in ["sexisme", "lawyer", "women", "maternal", "beauty"]):
-            return "society"
-        if any(k in focus_lower for k in ["philosophy", "identity", "discovery", "authenticity", "expression", "confidence", "freedom", "strength", "overprotected", "yourself", "worth", "pride", "estime", "indépendance", "force"]) or any(k in slug_lower for k in ["philosophie", "identity", "confidence", "freedom", "overprotected", "voila"]):
-            return "growth"
-        if any(k in focus_lower for k in ["loneliness", "loss", "sleeplessness", "nights", "melancholy", "escapism", "nostalgia", "healing", "vulnerability", "regret", "overthinking", "past", "childhood", "secrets", "solitude", "melancolie", "chagrin", "grief", "anxiety", "depression"]) or any(k in slug_lower for k in ["lonely", "loss", "melancholy", "depression", "grief", "secret", "regret"]):
-            return "emotions"
-        if any(k in focus_lower for k in ["joy", "nature", "summer", "sun", "beach", "été", "soleil", "mer", "playa", "escapism", "dreams", "rêve", "rêver"]) or any(k in slug_lower for k in ["summer", "sun", "beach", "ete", "soleil", "raggio"]):
-            return "joy_nature"
-        if any(k in focus_lower for k in ["technology", "humanity", "chaos", "survival", "battles", "joys", "freedom", "adventure", "war", "guerre", "machine"]) or any(k in slug_lower for k in ["machine", "war", "survival"]):
-            return "experience"
-        return "default"
 
     # Category-specific template collections
     HANDCRAFTED_TEMPLATES = {
@@ -3295,9 +3570,12 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     active_lang = lang if lang in group_templates else "en"
     lang_templates = group_templates.get(active_lang, HANDCRAFTED_TEMPLATES["default"]["en"])
 
+    # Calculate a deterministic offset from the song's slug
+    offset = sum(ord(char) for char in slug)
+
     r1_questions_html = ""
     for idx, w in enumerate(vocab_words):
-        t_idx = idx % 10
+        t_idx = (idx + offset) % 10
         q_main_tpl = lang_templates["r1"][t_idx]
         q_pers_tpl = lang_templates["personal"][t_idx]
 
@@ -3308,12 +3586,25 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
 
     r2_statements_html = ""
     for idx, w in enumerate(vocab_words):
-        t_idx = idx % 10
+        t_idx = (idx + offset) % 10
         stmt_tpl = lang_templates["r2"][t_idx]
 
         stmt = stmt_tpl.format(title=title, artist=artist, focus=focus, w_lower=w)
 
         r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+    # Apply level-calibrated A2 overrides if present
+    if slug in A2_ROUNDS_OVERRIDES:
+        slug_overrides = A2_ROUNDS_OVERRIDES[slug]
+        lang_overrides = slug_overrides.get(lang, slug_overrides.get("en"))
+        if lang_overrides:
+            r1_questions_html = ""
+            for q_main, q_pers in lang_overrides["r1"]:
+                r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+            r2_statements_html = ""
+            for stmt in lang_overrides["r2"]:
+                r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
 
     if slug == "angeleyes":
         warmup_questions_html = """            <li>Do you believe that some people have an exceptionally charming look or 'gaze' that can easily win trust?</li>
@@ -3439,7 +3730,7 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         </div>
         """
 
-    elif slug == "california-dreaming":
+    elif slug == "california-dreaming" and song.get("level") != "A2":
         warmup_questions_html = """            <li>How do you feel when the weather is very cold, gray, and dark?</li>
             <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "California Dreaming". Do you think this song is about actually being in California, or wanting to be there?</li>
             <li>Have you ever wanted to escape your current city or routine to go somewhere warm and sunny?</li>
@@ -4274,6 +4565,34 @@ for slug in sorted(CHALLENGE_MAP.keys()):
         "lyrics": combined_lyrics
     })
 
+
+def get_theme_group(focus, slug):
+    focus_lower = focus.lower()
+    slug_lower = slug.lower()
+    if any(k in focus_lower for k in ["love", "amour", "couple", "dating", "attraction", "heartbreak", "soulmates", "destiny", "obsession", "infatuation", "ending", "lovers", "husband", "stranger", "intimacy"]) or any(k in slug_lower for k in ["love", "amour", "dating", "husband", "lovers", "stranger", "girlfriend"]):
+        return "love"
+    if any(k in focus_lower for k in ["equality", "sexisme", "solidarity", "beauty", "culture", "assimilation", "lawyer", "career", "work", "generalize", "satire", "parenting", "overachieving", "approval", "provincial", "female", "male", "solidarité", "féminine", "maternité", "social", "society", "workplace"]) or any(k in slug_lower for k in ["sexisme", "lawyer", "women", "maternal", "beauty"]):
+        return "society"
+    if any(k in focus_lower for k in ["philosophy", "identity", "discovery", "authenticity", "expression", "confidence", "freedom", "strength", "overprotected", "yourself", "worth", "pride", "estime", "indépendance", "force"]) or any(k in slug_lower for k in ["philosophie", "identity", "confidence", "freedom", "overprotected", "voila"]):
+        return "growth"
+    if any(k in focus_lower for k in ["loneliness", "loss", "sleeplessness", "nights", "melancholy", "escapism", "nostalgia", "healing", "vulnerability", "regret", "overthinking", "past", "childhood", "secrets", "solitude", "melancolie", "chagrin", "grief", "anxiety", "depression"]) or any(k in slug_lower for k in ["lonely", "loss", "melancholy", "depression", "grief", "secret", "regret"]):
+        return "emotions"
+    if any(k in focus_lower for k in ["joy", "nature", "summer", "sun", "beach", "été", "soleil", "mer", "playa", "escapism", "dreams", "rêve", "rêver"]) or any(k in slug_lower for k in ["summer", "sun", "beach", "ete", "soleil", "raggio"]):
+        return "joy_nature"
+    if any(k in focus_lower for k in ["technology", "humanity", "chaos", "survival", "battles", "joys", "freedom", "adventure", "war", "guerre", "machine"]) or any(k in slug_lower for k in ["machine", "war", "survival"]):
+        return "experience"
+    return "default"
+
+
+def get_liner_notes(slug, title, artist, focus):
+    if slug in LINER_INSIGHTS:
+        return LINER_INSIGHTS[slug]
+    return {
+        "quote": f"Dissecting the lyrical patterns of '{title}' by {artist} to unlock native-like fluency and discuss the theme of {focus}.",
+        "vibe": f"🎵 Melodic Study / {focus}"
+    }
+
+
 all_karaoke_data = songs_list + challenges_list
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -4291,7 +4610,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <link rel="stylesheet" href="../../../css/layout.css">
 <link rel="stylesheet" href="../../../css/events.css">
 </head>
-<body>
+<body class="theme-karaoke-{theme_group}">
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
   <div class="club-tag">Karaoke Club</div>
@@ -4306,6 +4625,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <span class="current">{title}</span>
   </nav>
   <a href="../../karaoke-club.html" class="back-link">{back_link}</a>
+  {retro_cassette_card}
   <div class="session-meta-grid">
     <div class="meta-item"><h4>{dur_label}</h4><p>{dur_val}</p></div>
     <div class="meta-item"><h4>{lang_label}</h4><p>{variety_lang}</p></div>
@@ -4454,7 +4774,7 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 <link rel="stylesheet" href="../../../css/layout.css">
 <link rel="stylesheet" href="../../../css/events.css">
 </head>
-<body>
+<body class="theme-karaoke-{theme_group}">
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
   <div class="club-tag">Karaoke Club</div>
@@ -4469,6 +4789,7 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
     <span class="current">{title}</span>
   </nav>
   <a href="../../karaoke-club.html" class="back-link">{back_link}</a>
+  {retro_cassette_card}
   <div class="session-meta-grid">
     <div class="meta-item"><h4>{dur_label}</h4><p>{dur_val}</p></div>
     <div class="meta-item"><h4>{lang_label}</h4><p>{variety_lang}</p></div>
@@ -4523,6 +4844,63 @@ for song in all_karaoke_data:
     loc = LOCALIZATIONS_NEW[lang] if lang in LOCALIZATIONS_NEW else LOCALIZATIONS_NEW["en"]
 
     existing_vocab = parse_existing_vocab(slug)
+
+    # Theme classifier to categorize song focuses
+    theme_group = get_theme_group(focus, slug)
+    aes = THEME_AESTHETICS.get(theme_group, THEME_AESTHETICS["default"])
+
+    # Build dynamic style block
+    css_custom_style = f"""<style>
+  body {{
+    background-color: {aes["bg_color"]} !important;
+    transition: background-color 0.3s ease;
+  }}
+  .session-hero {{
+    background: {aes["gradient"]} !important;
+  }}
+  .vocab-card {{
+    border-top: 4px solid {aes["primary"]} !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }}
+  .vocab-card:hover {{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }}
+  .round-header {{
+    background-color: {aes["tape_bg"]} !important;
+    color: {aes["accent"]} !important;
+    border-left: 4px solid {aes["primary"]} !important;
+  }}
+  .round-block {{
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    background: white;
+  }}
+  .btn-print {{
+    background: {aes["primary"]} !important;
+  }}
+</style>"""
+
+    # Retrieve or generate liner note insights
+    notes = get_liner_notes(slug, title, artist, focus)
+    retro_cassette_card = f"""
+  <div class="retro-cassette-liner" style="background: {aes["tape_bg"]}; border: 2px dashed {aes["primary"]}; border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); color: var(--ink); position: relative; font-family: 'Nunito', sans-serif;">
+    <span style="position: absolute; top: -12px; right: 20px; background: {aes["primary"]}; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: bold; letter-spacing: 0.05em; text-transform: uppercase;">📼 Retro Liner Notes</span>
+    <h4 style="margin: 0 0 0.5rem; font-family: 'Playfair Display', serif; font-size: 1.15rem; color: {aes["accent"]}; display: flex; align-items: center; gap: 0.5rem; font-weight: 700;">
+      <span>{aes["emoji"]}</span> {title} — Liner Insights
+    </h4>
+    <p style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.05rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">
+      "{notes["quote"]}"
+    </p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <span class="club-tag" style="background: white; border-color: {aes["primary"]}; color: {aes["accent"]};">🎨 Vibe: {notes["vibe"]}</span>
+      <span class="club-tag" style="background: white; border-color: {aes["primary"]}; color: {aes["accent"]};">🎵 Artist: {artist}</span>
+      <span class="club-tag" style="background: white; border-color: {aes["primary"]}; color: {aes["accent"]};">🎯 Level: {level_long}</span>
+    </div>
+  </div>
+"""
 
     theme_bullet_points = ""
     custom_bullet_points = {
@@ -4715,7 +5093,9 @@ for song in all_karaoke_data:
             focus_label=loc["focus_label"],
             focus=focus,
             description=desc,
-            tabs_html=tabs_html
+            tabs_html=tabs_html,
+            theme_group=theme_group,
+            retro_cassette_card=retro_cassette_card
         )
     else:
         dur_val = "90–120 minutes"
@@ -4732,7 +5112,7 @@ for song in all_karaoke_data:
         elif lang == "it":
             desc = f"Esplora lo splendido brano '{title}' di {artist} in {variety_lang}. Questa sessione si concentra sul vocabolario legato a '{focus}' e sulle strutture linguistiche chiave del testo. Gli studenti faranno pratica di conversazione e dibattito su questi temi."
         elif lang == "es":
-            desc = f"Explora la hermosa canción '{title}' de {artist} en {variety_lang}. Esta sesión se centra en el vocabulario de '{focus}' y en las estructuras lingüísticas clave de la letra. Los estudiantes practicarán la conversación y el debate sobre estos temas."
+            desc = f"Explora la hermosa canción '{title}' de {artist} in {variety_lang}. Esta sesión se centra en el vocabulario de '{focus}' y en las estructuras lingüísticas clave de la letra. Los estudiantes practicarán la conversación y el debate sobre estos temas."
         elif lang == "el":
             desc = f"Ανακαλύψτε το πανέφορφο τραγούδι '{title}' του καλλιτέχνη {artist} στα {variety_lang}. Αυτή η συνεδρία εστιάζει στο λεξιλόγιο γύρω από το θέμα '{focus}' και στις βασικές γλωσσικές δομές των στίχων. Οι μαθητές θα εξασκηθούν στην ομιλία και τη συζήτηση."
 
@@ -4775,7 +5155,9 @@ for song in all_karaoke_data:
             lang_focus_title=loc["lang_focus_title"],
             lang_focus_html=elements["lang_focus_html"],
             final_challenge_title=loc["final_challenge_title"],
-            final_challenge_html=elements["final_challenge_html"]
+            final_challenge_html=elements["final_challenge_html"],
+            theme_group=theme_group,
+            retro_cassette_card=retro_cassette_card
         )
 
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.html")

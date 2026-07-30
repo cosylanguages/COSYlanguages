@@ -4062,6 +4062,173 @@ body[class*="theme-science"]::after {
   pointer-events: none;
   z-index: -1;
 }
+
+/* --- KARAOKE CLUB THEME GROUPS --- */
+body[class*="theme-karaoke-"] {
+  transition: background-color 0.3s ease;
+}
+
+body.theme-karaoke-love {
+  background-color: #FFF5F7 !important;
+}
+body.theme-karaoke-love .session-hero {
+  background: linear-gradient(135deg, #880E4F 0%, #D81B60 50%, #FF80AB 100%) !important;
+}
+body.theme-karaoke-love .vocab-card {
+  border-top: 4px solid #D81B60 !important;
+}
+body.theme-karaoke-love .round-header {
+  background-color: #FCE4EC !important;
+  color: #C2185B !important;
+  border-left: 4px solid #D81B60 !important;
+}
+body.theme-karaoke-love .btn-print {
+  background-color: #D81B60 !important;
+}
+
+body.theme-karaoke-society {
+  background-color: #F2FAF8 !important;
+}
+body.theme-karaoke-society .session-hero {
+  background: linear-gradient(135deg, #004D40 0%, #00796B 50%, #4DB6AC 100%) !important;
+}
+body.theme-karaoke-society .vocab-card {
+  border-top: 4px solid #00796B !important;
+}
+body.theme-karaoke-society .round-header {
+  background-color: #E0F2F1 !important;
+  color: #00695C !important;
+  border-left: 4px solid #00796B !important;
+}
+body.theme-karaoke-society .btn-print {
+  background-color: #00796B !important;
+}
+
+body.theme-karaoke-growth {
+  background-color: #F4FAF5 !important;
+}
+body.theme-karaoke-growth .session-hero {
+  background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 50%, #81C784 100%) !important;
+}
+body.theme-karaoke-growth .vocab-card {
+  border-top: 4px solid #2E7D32 !important;
+}
+body.theme-karaoke-growth .round-header {
+  background-color: #E8F5E9 !important;
+  color: #37474F !important;
+  border-left: 4px solid #2E7D32 !important;
+}
+body.theme-karaoke-growth .btn-print {
+  background-color: #2E7D32 !important;
+}
+
+body.theme-karaoke-emotions {
+  background-color: #F5F6FC !important;
+}
+body.theme-karaoke-emotions .session-hero {
+  background: linear-gradient(135deg, #1A237E 0%, #3F51B5 50%, #7986CB 100%) !important;
+}
+body.theme-karaoke-emotions .vocab-card {
+  border-top: 4px solid #3F51B5 !important;
+}
+body.theme-karaoke-emotions .round-header {
+  background-color: #E8EAF6 !important;
+  color: #283593 !important;
+  border-left: 4px solid #3F51B5 !important;
+}
+body.theme-karaoke-emotions .btn-print {
+  background-color: #3F51B5 !important;
+}
+
+body.theme-karaoke-joy_nature {
+  background-color: #FFFBF5 !important;
+}
+body.theme-karaoke-joy_nature .session-hero {
+  background: linear-gradient(135deg, #5D4037 0%, #E65100 50%, #FFB74D 100%) !important;
+}
+body.theme-karaoke-joy_nature .vocab-card {
+  border-top: 4px solid #E65100 !important;
+}
+body.theme-karaoke-joy_nature .round-header {
+  background-color: #FFE0B2 !important;
+  color: #D84315 !important;
+  border-left: 4px solid #E65100 !important;
+}
+body.theme-karaoke-joy_nature .btn-print {
+  background-color: #E65100 !important;
+}
+
+body.theme-karaoke-experience {
+  background-color: #FAF5FC !important;
+}
+body.theme-karaoke-experience .session-hero {
+  background: linear-gradient(135deg, #4A148C 0%, #7B1FA2 50%, #BA68C8 100%) !important;
+}
+body.theme-karaoke-experience .vocab-card {
+  border-top: 4px solid #7B1FA2 !important;
+}
+body.theme-karaoke-experience .round-header {
+  background-color: #F3E5F5 !important;
+  color: #6A1B9A !important;
+  border-left: 4px solid #7B1FA2 !important;
+}
+body.theme-karaoke-experience .btn-print {
+  background-color: #7B1FA2 !important;
+}
+
+body.theme-karaoke-default {
+  background-color: #FAF7F2 !important;
+}
+body.theme-karaoke-default .session-hero {
+  background: linear-gradient(135deg, #2A0A35 0%, #4A154B 50%, #9D81D9 100%) !important;
+}
+body.theme-karaoke-default .vocab-card {
+  border-top: 4px solid #4A154B !important;
+}
+body.theme-karaoke-default .round-header {
+  background-color: #F5EEFA !important;
+  color: #3F2B96 !important;
+  border-left: 4px solid #4A154B !important;
+}
+body.theme-karaoke-default .btn-print {
+  background-color: #4A154B !important;
+}
+
+/* Global Karaoke micro-interactions and layout cards */
+.theme-karaoke-love .vocab-card,
+.theme-karaoke-society .vocab-card,
+.theme-karaoke-growth .vocab-card,
+.theme-karaoke-emotions .vocab-card,
+.theme-karaoke-joy_nature .vocab-card,
+.theme-karaoke-experience .vocab-card,
+.theme-karaoke-default .vocab-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.theme-karaoke-love .vocab-card:hover,
+.theme-karaoke-society .vocab-card:hover,
+.theme-karaoke-growth .vocab-card:hover,
+.theme-karaoke-emotions .vocab-card:hover,
+.theme-karaoke-joy_nature .vocab-card:hover,
+.theme-karaoke-experience .vocab-card:hover,
+.theme-karaoke-default .vocab-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.theme-karaoke-love .round-block,
+.theme-karaoke-society .round-block,
+.theme-karaoke-growth .round-block,
+.theme-karaoke-emotions .round-block,
+.theme-karaoke-joy_nature .round-block,
+.theme-karaoke-experience .round-block,
+.theme-karaoke-default .round-block {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  background: white;
+}
 body[class*="theme-quotes"]::after {
   content: "📜";
   position: fixed;
