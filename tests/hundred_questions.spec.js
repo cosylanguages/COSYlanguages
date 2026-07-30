@@ -84,6 +84,25 @@ test('100 Questions standalone game flow verification', async ({ page }) => {
     // Verify second question text adapted for Canada
     await expect(gameCard).toContainText('Name one of the longest rivers or major oceans bordering Canada.');
 
+    // 11. Navigate back to start and test Netflix deck
+    await page.click('button:has-text("🎓 Levels")');
+    await page.click('.levels-screen button:has-text("← Back")');
+
+    // Switch to Netflix deck
+    await deckSelect.selectOption('netflix');
+    await page.click('button:has-text("Continue →")');
+    await page.click('button:has-text("▶ Start Game")');
+
+    // Verify Netflix levels are present
+    const netflixLevels = page.locator('.levels-screen .lvl-card');
+    await expect(netflixLevels).toHaveCount(5);
+    await expect(netflixLevels.first()).toContainText('The Hook & Opening Scene');
+
+    // Select LEVEL 01 of Netflix doc
+    await netflixLevels.first().click();
+    await expect(page.locator('.score-bar')).toContainText('The Hook & Opening Scene');
+    await expect(gameCard).toContainText('drone shot');
+
     // Take a premium verification screenshot
     await page.screenshot({ path: 'verification/hundred_questions_gameplay.png', fullPage: true });
 });

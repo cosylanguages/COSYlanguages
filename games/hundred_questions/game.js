@@ -300,6 +300,7 @@
                         <option value="student" ${state.deckKey === 'student' ? 'selected' : ''}>🧑‍🎓 ${esc(window.HUNDRED_QUESTIONS_DECKS.student.title[state.lang])}</option>
                         <option value="family" ${state.deckKey === 'family' ? 'selected' : ''}>🏠 ${esc(window.HUNDRED_QUESTIONS_DECKS.family.title[state.lang])}</option>
                         <option value="civic" ${state.deckKey === 'civic' ? 'selected' : ''}>🧭 ${esc(window.HUNDRED_QUESTIONS_DECKS.civic.title[state.lang])}</option>
+                        <option value="netflix" ${state.deckKey === 'netflix' ? 'selected' : ''}>🎬 ${esc(window.HUNDRED_QUESTIONS_DECKS.netflix.title[state.lang])}</option>
                         <option value="interview" ${state.deckKey === 'interview' ? 'selected' : ''}>💼 ${esc(window.HUNDRED_QUESTIONS_DECKS.interview.title[state.lang])}</option>
                     </select>
                 </div>
