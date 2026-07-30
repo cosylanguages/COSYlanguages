@@ -48,6 +48,15 @@ def clean_word(word):
     # Strip whitespace and standard separators
     return word.strip().replace("’", "'")
 
+def get_base_noun(w):
+    w = w.lower().strip().replace("’", "'")
+    w = w.split("≠")[0].strip()
+    for art in ["le ", "la ", "l'", "les ", "un ", "une ", "des "]:
+        if w.startswith(art):
+            w = w[len(art):]
+            break
+    return w.strip()
+
 def escape_js(text):
     return text.replace("'", "\\'")
 
@@ -118,20 +127,21 @@ def process_song_file(filename):
             word_raw = word_div.text.strip()
             word_clean = clean_word(word_raw)
 
-            # Lookup in VOCAB_FRENCH
-            # Sometimes the word in the dictionary does not have ≠, but card has it, or vice versa.
+            # Lookup in VOCAB_FRENCH using the smart base noun matching helper
             lookup_key = None
             for k in VOCAB_FRENCH:
-                if clean_word(k) == word_clean or clean_word(k).split("≠")[0].strip() == word_clean.split("≠")[0].strip():
+                if get_base_noun(k) == get_base_noun(word_clean):
                     lookup_key = k
                     break
 
             if lookup_key:
                 definition, example = VOCAB_FRENCH[lookup_key]
+                word_display = lookup_key
             else:
                 # Fallback if somehow not defined
                 definition = card.find("div", class_="vocab-def").text.strip() if card.find("div", class_="vocab-def") else "Définition à compléter."
                 example = card.find("div", class_="vocab-example").text.strip() if card.find("div", class_="vocab-example") else "Exemple à compléter."
+                word_display = word_raw
 
             # Check opposite
             opposite_html = ""
@@ -149,15 +159,15 @@ def process_song_file(filename):
                 if existing_opp:
                     opposite_html = str(existing_opp)
 
-            escaped_word = escape_js(word_raw)
+            escaped_word = escape_js(word_display)
             escaped_def = escape_js(definition)
             escaped_ex = escape_js(example)
 
-            card_html = f"""<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{word_raw}</div>
+            card_html = f"""<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{word_display}</div>
 <div class="vocab-def">{definition}</div>
 <div class="vocab-example">{example}</div>
 {opposite_html}
-<button class="btn-add-dict" onclick="COSY.addToDict({{word:'{escaped_word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">+ Dictionary</button>
+<button class="btn-add-dict" onclick="COSY.addToDict({{word:'{escaped_word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">+ Dictionnaire</button>
 </div>"""
             new_cards_html.append(card_html)
 
@@ -209,7 +219,45 @@ def process_song_file(filename):
             disclaimer = p_tag.find("span", class_="lyrics-disclaimer")
             if disclaimer:
                 disclaimer.decompose()
-            p_tag.append(BeautifulSoup('\n<span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: \'Nunito\', sans-serif; font-style: normal;">Lyrics excerpted here for educational purposes only.</span>', "html.parser"))
+            p_tag.append(BeautifulSoup('\n<span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: \'Nunito\', sans-serif; font-style: normal;">Paroles extraites uniquement à des fins éducatives.</span>', "html.parser"))
+
+    # 4.5 Localize Speaking Time Gauge
+    gauge = soup.find("div", class_="speaking-time-gauge")
+    if gauge:
+        # replace any span text
+        for span in gauge.find_all("span"):
+            text = span.text.strip()
+            if "Speaking Time Gauge" in text:
+                span.string = "🗣️ Répartition du temps de parole"
+            elif "Session" in text:
+                span.string = text.replace("Session", "").strip() + " de session"
+            elif "Warm-up" in text:
+                span.string = text.replace("Warm-up", "Échauffement")
+            elif "Vocabulary" in text:
+                span.string = text.replace("Vocabulary", "Vocabulaire")
+            elif "Listening" in text:
+                span.string = text.replace("Listening", "Écoute")
+            elif "Discussion" in text:
+                span.string = text.replace("Discussion", "Discussion")
+            elif "Language Focus" in text:
+                span.string = text.replace("Language Focus", "Point de langue")
+            elif "Final Challenge" in text:
+                span.string = text.replace("Final Challenge", "Défi final")
+        # replace any title attributes in the bar divs
+        for div in gauge.find_all("div", title=True):
+            title = div["title"]
+            if "Warm-up" in title:
+                div["title"] = title.replace("Warm-up", "Échauffement")
+            elif "Vocabulary" in title:
+                div["title"] = title.replace("Vocabulary", "Vocabulaire")
+            elif "Listening" in title:
+                div["title"] = title.replace("Listening", "Écoute")
+            elif "Discussion" in title:
+                div["title"] = title.replace("Discussion", "Discussion")
+            elif "Language Focus" in title:
+                div["title"] = title.replace("Language Focus", "Point de langue")
+            elif "Final Challenge" in title:
+                div["title"] = title.replace("Final Challenge", "Défi final")
 
     # 5. Overwrite Discussion Rounds
     disc_block = soup.find("div", id="discussion")
@@ -247,9 +295,9 @@ def process_song_file(filename):
     # 6. Overwrite Language Focus and Final Challenge with correct French localized text
     lf_block = soup.find("div", id="lang-focus")
     if lf_block:
-        for tag in lf_block.find_all(text=True):
-            if "This is an elegant example" in tag or "Target vocabulary word" in tag:
-                pass
+        for strong_tag in lf_block.find_all("strong"):
+            if "Let's Practise" in strong_tag.text or "Let’s Practise" in strong_tag.text:
+                strong_tag.string = "Mise en pratique — Trois exemples :"
 
     # 7. Add Works Cited / Sources Section
     existing_sources = soup.find("section", class_="sources-section")
@@ -273,13 +321,13 @@ def process_song_file(filename):
     works_cited_html = f"""
   <!-- Sources Section -->
   <section class="sources-section" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
-    <h4 style="margin-bottom: 0.5rem; color: var(--ink);">Sources &amp; Citations (Works Cited)</h4>
+    <h4 style="margin-bottom: 0.5rem; color: var(--ink);">Sources &amp; Citations</h4>
     <ul style="list-style-type: none; padding-left: 0; margin-bottom: 1rem;">
-      <li style="margin-bottom: 0.4rem;">Genius. "{artist_str} – {title_str} Lyrics." <em>Genius</em>, <a href="{genius_url}" target="_blank" style="color: var(--teal);">{genius_url}</a>. Consulté le 30 juillet 2026.</li>
-      <li>"{title_str}." <em>YouTube</em>, téléchargé par {artist_str}, <a href="{yt_url}" target="_blank" style="color: var(--teal);">{yt_url}</a>.</li>
+      <li style="margin-bottom: 0.4rem;">Genius. « {artist_str} – {title_str} (Paroles) » <em>Genius</em>, <a href="{genius_url}" target="_blank" style="color: var(--teal);">{genius_url}</a>. Consulté le 30 juillet 2026.</li>
+      <li>« {title_str} » <em>YouTube</em>, téléchargé par {artist_str}, <a href="{yt_url}" target="_blank" style="color: var(--teal);">{yt_url}</a>.</li>
     </ul>
     <p style="font-style: italic; margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
-      Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+      Paroles extraites uniquement à des fins éducatives. Tous les droits sur les paroles et l'enregistrement appartiennent aux auteurs-compositeurs, interprètes et détenteurs de droits d'origine.
     </p>
   </section>
 """
@@ -430,3 +478,50 @@ if __name__ == "__main__":
 
     for c_slug, subs in challenges.items():
         sync_challenge_file(c_slug, subs)
+
+    # Localize parent page descriptions to French
+    FRENCH_CARD_DESCRIPTIONS = {
+        "toutes-les-machines-ont-le-coeur.html": "Discutez de la connexion émotionnelle, des sentiments humains dans un monde numérique et de la résilience dans ce chef-d'œuvre mélancolique de Maëlle.",
+        "je-taime-comme-je-taime.html": "Analysez l'attachement profond, le doux fardeau du romantisme et la complexité de l'amour moderne dans ce superbe titre pop de Maëlle.",
+        "salut.html": "Déconstruisez la nostalgie, le temps qui passe, les retrouvailles douces-amères et l'art du récit de la chanson française classique.",
+        "toi-mon-amour.html": "Explorez la dévotion amoureuse, le destin partagé, l'intimité émotionnelle et la beauté de la narration en duo.",
+        "oui-ou-non.html": "Analysez l'hésitation, les messages modernes, l'anxiété de l'attente et l'ambiguïté amoureuse dans ce hit pop spirituel d'Angèle.",
+        "balance-ton-quoi.html": "Discutez du respect, du féminisme, de l'égalité et de la lutte contre le sexisme dans ce hit français spirituel et engagé d'Angèle.",
+        "laziza.html": "Analysez la tolérance interculturelle, la diversité, la paix et l'engagement contre l'exclusion dans cet hymne légendaire de Balavoine.",
+        "nos-ames-sont.html": "Déconstruisez les connexions spirituelles profondes, les liens invisibles, la sensibilité et le mystère de l'empathie humaine.",
+        "immobile.html": "Analysez la vulnérabilité émotionnelle, la peur du changement et le pouvoir de l'immobilité dans cette ballade passionnée de Louane.",
+        "la-nuit-nen-finit-plus.html": "Explorez la mélancolie pensive, l'insomnie de minuit, la solitude et le son intemporel de la pop française des années 1960.",
+        "le-soleil-noir.html": "Déconstruisez le deuil, la perte, l'ombre de la tristesse et le symbolisme poétique profond de cette chanson classique de Barbara.",
+        "la-tour-eiffel-est-pour-moi.html": "Célébrez Paris, le romantisme architectural, la fierté et la joie de trouver la beauté dans les rues de la ville.",
+        "quelquun-pour-toi.html": "Discutez du soutien profond, de l'empathie, de la solidarité envers les autres et de la présence humaine inconditionnelle.",
+        "bien-plus-fort.html": "Analysez l'intensité émotionnelle, la passion débordante, la dévotion absolue et la force d'une connexion sincère.",
+        "un-premier-amour.html": "Explorez la jeunesse, l'innocence, la pureté amoureuse et le souvenir doux-amer d'un tout premier amour.",
+        "voila.html": "Déconstruisez la vulnérabilité artistique, la présentation de soi sans fard et le désir intense d'être entendu et vu.",
+        "la-complainte-de-la-serveuse-automate.html": "Déconstruisez la routine, l'aliénation et les rêves simples dans cette touchante ballade acoustique de Starmania.",
+        "le-monde-est-stone.html": "Analysez l'épuisement, le désespoir et l'engourdissement existentiel dans ce magnifique et dramatique chef-d'œuvre de Starmania.",
+        "un-garcon-pas-comme-les-autres.html": "Discutez de l'amour non partagé, des attractions interdites et de l'amitié profonde dans ce classique emblématique de Starmania.",
+        "les-uns-contre-les-autres.html": "Déconstruisez la connexion réciproque et la solitude existentielle dans ce magnifique et touchant morceau."
+    }
+
+    parent_path = "events/karaoke-club.html"
+    with open(parent_path, "r", encoding="utf-8") as f:
+        parent_soup = BeautifulSoup(f.read(), "html.parser")
+
+    sessions = parent_soup.find_all("div", class_="history-session")
+    modified = 0
+    for s in sessions:
+        links = s.find_all("a")
+        for link in links:
+            href = link.get("href", "")
+            for filename, french_desc in FRENCH_CARD_DESCRIPTIONS.items():
+                if filename in href:
+                    p_tag = s.find("p")
+                    if p_tag and not p_tag.text.strip().startswith("Notre défi") and not p_tag.text.strip().startswith("Notre "):
+                        p_tag.string = french_desc
+                        modified += 1
+                        break
+
+    if modified > 0:
+        with open(parent_path, "w", encoding="utf-8") as f:
+            f.write(str(parent_soup))
+        print(f"✓ Localised {modified} parent card descriptions in {parent_path}")
