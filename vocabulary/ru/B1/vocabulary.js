@@ -739,7 +739,7 @@
         "_legacy": {
             "gender": "neuter",
             "classification": "regular",
-            "opposite": "неравенство"
+            "antonyms": ["неравенство"]
         }
     },
     {
@@ -785,7 +785,7 @@
         "_legacy": {
             "gender": "neuter",
             "classification": "regular",
-            "opposite": "равенство"
+            "antonyms": ["равенство"]
         }
     },
     {

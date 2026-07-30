@@ -17,9 +17,7 @@
                 ]
             }
         ],
-        "subtext": "related to numbers 0 9",
-        "opposite": null,
-        "transcription": "ˈnəmbər",
+        "subtext": "related to numbers 0 9","transcription": "ˈnəmbər",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",

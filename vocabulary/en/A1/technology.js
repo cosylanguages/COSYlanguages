@@ -46,9 +46,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "ˈsmɑːrtfoʊn",
+        "subtext": "related to basic technology devices","transcription": "ˈsmɑːrtfoʊn",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -70,9 +68,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "ˈlæpˌtɑp",
+        "subtext": "related to basic technology devices","transcription": "ˈlæpˌtɑp",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -94,9 +90,7 @@
                     "We watch the news on television."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈtɛləˌvɪʒən",
+        ],"transcription": "ˈtɛləˌvɪʒən",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -118,9 +112,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "ˈkæmərə",
+        "subtext": "related to basic technology devices","transcription": "ˈkæmərə",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -142,9 +134,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "kəmˈpjutər",
+        "subtext": "related to basic technology devices","transcription": "kəmˈpjutər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -166,9 +156,7 @@
                 ]
             }
         ],
-        "subtext": "related to using smartphone",
-        "opposite": null,
-        "transcription": "ˈɪntərˌnɛt",
+        "subtext": "related to using smartphone","transcription": "ˈɪntərˌnɛt",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -190,9 +178,7 @@
                 ]
             }
         ],
-        "subtext": "related to using smartphone",
-        "opposite": null,
-        "transcription": "ˈwɛbˌsaɪt",
+        "subtext": "related to using smartphone","transcription": "ˈwɛbˌsaɪt",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -240,9 +226,7 @@
                 ]
             }
         ],
-        "subtext": "related to using smartphone",
-        "opposite": null,
-        "transcription": "ˈmɛsɪʤ",
+        "subtext": "related to using smartphone","transcription": "ˈmɛsɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -264,9 +248,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "ˈnuzˌpeɪpər",
+        "subtext": "related to basic technology devices","transcription": "ˈnuzˌpeɪpər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -288,9 +270,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "ˈmægəˌzin",
+        "subtext": "related to basic technology devices","transcription": "ˈmægəˌzin",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -312,9 +292,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "ˈkiˌbɔrd",
+        "subtext": "related to basic technology devices","transcription": "ˈkiˌbɔrd",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -336,9 +314,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "skrin",
+        "subtext": "related to basic technology devices","transcription": "skrin",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -361,9 +337,7 @@
                     "I found the information on the website."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˌɪnfəˈmeɪʃn",
+        ],"transcription": "ˌɪnfəˈmeɪʃn",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -386,9 +360,7 @@
                     "Have you heard the news?"
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "nuz",
+        ],"transcription": "nuz",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -410,9 +382,7 @@
                     "He is writing a letter to his parents."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈlɛtər",
+        ],"transcription": "ˈlɛtər",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -434,9 +404,7 @@
                     "I lost my mobile."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈmoʊbəl",
+        ],"transcription": "ˈmoʊbəl",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -458,9 +426,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "ˈreɪdiˌoʊ",
+        "subtext": "related to basic technology devices","transcription": "ˈreɪdiˌoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -482,9 +448,7 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices",
-        "opposite": null,
-        "transcription": "ˈprɪnər",
+        "subtext": "related to basic technology devices","transcription": "ˈprɪnər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",

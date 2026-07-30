@@ -19,7 +19,7 @@
         "transcription": "-",
         "emoji": "♻️",
         "_legacy": {
-            "opposite": "insostenibile"
+            "antonyms": ["insostenibile"]
         }
     }
 ];

@@ -1017,7 +1017,7 @@
             "plural": "incomes",
             "countability": "countable",
             "subtext": "annual income, disposable income",
-            "opposite": "expense",
+            "antonyms": ["expense"],
             "oppositeEmoji": "💸"
         }
     },
@@ -1247,7 +1247,7 @@
             "plural": null,
             "countability": "uncountable",
             "subtext": "mutual trust, lack of trust",
-            "opposite": "distrust"
+            "antonyms": ["distrust"]
         }
     },
     {
@@ -1273,7 +1273,7 @@
             "plural": "conflicts",
             "countability": "countable",
             "subtext": "resolve conflict, armed conflict",
-            "opposite": "harmony",
+            "antonyms": ["harmony"],
             "oppositeEmoji": "🕊️"
         }
     },
@@ -1377,7 +1377,7 @@
             "plural": "divorces",
             "countability": "countable",
             "subtext": "get a divorce, divorce rate",
-            "opposite": "marriage",
+            "antonyms": ["marriage"],
             "oppositeEmoji": "💍"
         }
     },
@@ -1405,7 +1405,7 @@
             "plural": null,
             "countability": "uncountable",
             "subtext": "gender equality, racial equality",
-            "opposite": "inequality"
+            "antonyms": ["inequality"]
         }
     },
     {
@@ -1431,7 +1431,7 @@
             "plural": "freedoms",
             "countability": "uncountable",
             "subtext": "freedom of speech, individual freedom",
-            "opposite": "slavery"
+            "antonyms": ["slavery"]
         }
     },
     {
@@ -1458,7 +1458,7 @@
             "plural": "inequalities",
             "countability": "uncountable",
             "subtext": "income inequality, social inequality",
-            "opposite": "equality"
+            "antonyms": ["equality"]
         }
     },
     {
@@ -1586,7 +1586,7 @@
             "plural": null,
             "countability": "uncountable",
             "subtext": "solar power, wind energy",
-            "opposite": "fossil fuels"
+            "antonyms": ["fossil fuels"]
         }
     },
     {

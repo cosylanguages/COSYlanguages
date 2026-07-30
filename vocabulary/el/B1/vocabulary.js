@@ -735,7 +735,7 @@
         "_legacy": {
             "article": "η",
             "classification": "regular",
-            "opposite": "ανισότητα"
+            "antonyms": ["ανισότητα"]
         }
     },
     {
@@ -782,7 +782,7 @@
             "article": "η",
             "classification": "regular",
             "plural": "ανισότητες",
-            "opposite": "ισότητα"
+            "antonyms": ["ισότητα"]
         }
     },
     {

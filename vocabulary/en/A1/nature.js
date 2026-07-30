@@ -17,9 +17,7 @@
                     "The sun is very strong today."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "sən",
+        ],"transcription": "sən",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -46,9 +44,7 @@
                     "There is a lot of rain in autumn."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "reɪn",
+        ],"transcription": "reɪn",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -74,9 +70,7 @@
                     "The wind is very strong today."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "wɪnd",
+        ],"transcription": "wɪnd",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -101,9 +95,7 @@
                 ]
             }
         ],
-        "subtext": "related to seasons climate",
-        "opposite": null,
-        "transcription": "spərɪŋ",
+        "subtext": "related to seasons climate","transcription": "spərɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -124,9 +116,7 @@
                 ]
             }
         ],
-        "subtext": "related to seasons climate",
-        "opposite": null,
-        "transcription": "ˈsəmər",
+        "subtext": "related to seasons climate","transcription": "ˈsəmər",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -150,9 +140,7 @@
                     "Leaves fall in autumn."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈɔtəm",
+        ],"transcription": "ˈɔtəm",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -173,9 +161,7 @@
                 ]
             }
         ],
-        "subtext": "related to seasons climate",
-        "opposite": null,
-        "transcription": "ˈwɪntər",
+        "subtext": "related to seasons climate","transcription": "ˈwɪntər",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -197,9 +183,7 @@
                 ]
             }
         ],
-        "subtext": "related to weather",
-        "opposite": null,
-        "transcription": "ˈəmˌbrɛlə",
+        "subtext": "related to weather","transcription": "ˈəmˌbrɛlə",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -222,9 +206,7 @@
                     "The weather is very nice."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈweðə(r)",
+        ],"transcription": "ˈweðə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -247,9 +229,7 @@
                     "Check the temperature."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈtemprətʃə(r)",
+        ],"transcription": "ˈtemprətʃə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -272,9 +252,7 @@
                 ]
             }
         ],
-        "subtext": "related to weather",
-        "opposite": null,
-        "transcription": "snoʊ",
+        "subtext": "related to weather","transcription": "snoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -298,9 +276,7 @@
                     "Do you want ice in your drink?"
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "aɪs",
+        ],"transcription": "aɪs",
         "lang": "en",
         "level": "starter",
         "theme": "nature",

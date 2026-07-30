@@ -97,9 +97,7 @@
                     "I work five days a week."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "wik",
+        ],"transcription": "wik",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -121,9 +119,7 @@
                     "I relax at the weekend."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈwiˌkɪnd",
+        ],"transcription": "ˈwiˌkɪnd",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -200,9 +196,7 @@
                     "I don't have much time."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "taɪm",
+        ],"transcription": "taɪm",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -227,9 +221,7 @@
                 ]
             }
         ],
-        "subtext": "related to days week",
-        "opposite": null,
-        "transcription": "ˈmənˌdeɪ",
+        "subtext": "related to days week","transcription": "ˈmənˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -250,9 +242,7 @@
                 ]
             }
         ],
-        "subtext": "related to days week",
-        "opposite": null,
-        "transcription": "ˈtuzˌdeɪ",
+        "subtext": "related to days week","transcription": "ˈtuzˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -273,9 +263,7 @@
                 ]
             }
         ],
-        "subtext": "related to days week",
-        "opposite": null,
-        "transcription": "ˈwɛnzˌdeɪ",
+        "subtext": "related to days week","transcription": "ˈwɛnzˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -296,9 +284,7 @@
                 ]
             }
         ],
-        "subtext": "related to days week",
-        "opposite": null,
-        "transcription": "ˈθərzˌdeɪ",
+        "subtext": "related to days week","transcription": "ˈθərzˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -319,9 +305,7 @@
                 ]
             }
         ],
-        "subtext": "related to days week",
-        "opposite": null,
-        "transcription": "ˈfraɪˌdeɪ",
+        "subtext": "related to days week","transcription": "ˈfraɪˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -342,9 +326,7 @@
                 ]
             }
         ],
-        "subtext": "related to days week",
-        "opposite": null,
-        "transcription": "ˈsæˌtɪˌdeɪ",
+        "subtext": "related to days week","transcription": "ˈsæˌtɪˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -365,9 +347,7 @@
                 ]
             }
         ],
-        "subtext": "related to days week",
-        "opposite": null,
-        "transcription": "ˈsənˌdi",
+        "subtext": "related to days week","transcription": "ˈsənˌdi",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -388,9 +368,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "ˈʤænjuˌɛri",
+        "subtext": "related to months year","transcription": "ˈʤænjuˌɛri",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -411,9 +389,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "ˈfɛbruˌɛri",
+        "subtext": "related to months year","transcription": "ˈfɛbruˌɛri",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -434,9 +410,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "mɑrʧ",
+        "subtext": "related to months year","transcription": "mɑrʧ",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -457,9 +431,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "ˈeɪprəl",
+        "subtext": "related to months year","transcription": "ˈeɪprəl",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -480,9 +452,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "meɪ",
+        "subtext": "related to months year","transcription": "meɪ",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -503,9 +473,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "ʤun",
+        "subtext": "related to months year","transcription": "ʤun",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -526,9 +494,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "ˌʤuˈlaɪ",
+        "subtext": "related to months year","transcription": "ˌʤuˈlaɪ",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -549,9 +515,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "ˈɔgəst",
+        "subtext": "related to months year","transcription": "ˈɔgəst",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -572,9 +536,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "sɛpˈtɛmbər",
+        "subtext": "related to months year","transcription": "sɛpˈtɛmbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -595,9 +557,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "ɑkˈtoʊbər",
+        "subtext": "related to months year","transcription": "ɑkˈtoʊbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -618,9 +578,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "noʊˈvɛmbər",
+        "subtext": "related to months year","transcription": "noʊˈvɛmbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -641,9 +599,7 @@
                 ]
             }
         ],
-        "subtext": "related to months year",
-        "opposite": null,
-        "transcription": "dɪˈsɛmbər",
+        "subtext": "related to months year","transcription": "dɪˈsɛmbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -662,9 +618,7 @@
                 ]
             }
         ],
-        "subtext": "related to frequency adverbs",
-        "opposite": null,
-        "transcription": "əˈgɛn",
+        "subtext": "related to frequency adverbs","transcription": "əˈgɛn",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -683,9 +637,7 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions",
-        "opposite": null,
-        "transcription": "əˈgoʊ",
+        "subtext": "related to duration expressions","transcription": "əˈgoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -703,9 +655,7 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions time",
-        "opposite": null,
-        "emoji": "🎁",
+        "subtext": "related to prepositions time","emoji": "🎁",
         "transcription": "fər",
         "lang": "en",
         "level": "starter",
@@ -748,9 +698,7 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions",
-        "opposite": null,
-        "transcription": "naʊ",
+        "subtext": "related to duration expressions","transcription": "naʊ",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -769,9 +717,7 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions",
-        "opposite": null,
-        "transcription": "sun",
+        "subtext": "related to duration expressions","transcription": "sun",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -790,9 +736,7 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions",
-        "opposite": null,
-        "transcription": "ˈleɪtər",
+        "subtext": "related to duration expressions","transcription": "ˈleɪtər",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -814,9 +758,7 @@
                 ]
             }
         ],
-        "subtext": "related to telling time",
-        "opposite": null,
-        "transcription": "aʊər",
+        "subtext": "related to telling time","transcription": "aʊər",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -838,9 +780,7 @@
                 ]
             }
         ],
-        "subtext": "related to telling time",
-        "opposite": null,
-        "transcription": "ˈmɪnət",
+        "subtext": "related to telling time","transcription": "ˈmɪnət",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -862,9 +802,7 @@
                 ]
             }
         ],
-        "subtext": "related to telling time",
-        "opposite": null,
-        "transcription": "ˈsɛkənd",
+        "subtext": "related to telling time","transcription": "ˈsɛkənd",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -886,9 +824,7 @@
                 ]
             }
         ],
-        "subtext": "related to dates years",
-        "opposite": null,
-        "transcription": "jɪr",
+        "subtext": "related to dates years","transcription": "jɪr",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -907,9 +843,7 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions",
-        "opposite": null,
-        "transcription": "ɔˈrɛdi",
+        "subtext": "related to duration expressions","transcription": "ɔˈrɛdi",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -928,9 +862,7 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions",
-        "opposite": null,
-        "transcription": "stɪl",
+        "subtext": "related to duration expressions","transcription": "stɪl",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -949,9 +881,7 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions",
-        "opposite": null,
-        "transcription": "jɛt",
+        "subtext": "related to duration expressions","transcription": "jɛt",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -970,9 +900,7 @@
                 ]
             }
         ],
-        "subtext": "related to times day",
-        "opposite": null,
-        "transcription": "təˈnaɪt",
+        "subtext": "related to times day","transcription": "təˈnaɪt",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -994,9 +922,7 @@
                     "What is the date today?"
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "deɪt",
+        ],"transcription": "deɪt",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -1018,9 +944,7 @@
                 ]
             }
         ],
-        "subtext": "related to dates years",
-        "opposite": null,
-        "transcription": "mənθ",
+        "subtext": "related to dates years","transcription": "mənθ",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -1038,9 +962,7 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions time",
-        "opposite": null,
-        "emoji": "⌛",
+        "subtext": "related to prepositions time","emoji": "⌛",
         "transcription": "ˈdʊrɪŋ",
         "lang": "en",
         "level": "starter",
