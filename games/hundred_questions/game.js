@@ -10,8 +10,8 @@
 
     // Core UI and State Controller Logic
     let state = {
-        deckKey: 'friends', // 'friends', 'teacher', 'interview', 'student', 'family'
-        subgroup: 'mother', // 'mother', 'father', 'grandparents', 'sibling' (only when family selected)
+        deckKey: 'friends', // 'friends', 'teacher', 'interview', 'student', 'family', 'civic'
+        subgroup: 'mother', // 'mother', 'father', 'grandparents', 'sibling' (for family) or 'us'/'uk'/'canada'/'france'/'russia' (for civic)
         familyTarget: 'grandma', // 'grandma'/'grandpa' or 'brother'/'sister'
         lessonType: 'individual', // 'individual' / 'group'
         lang: 'en',        // 'en', 'ru', 'fr'
@@ -30,6 +30,7 @@
             subgroup_lbl: "Select Subgroup",
             lesson_type_lbl: "Lesson Type",
             target_role_lbl: "Target Relation",
+            region_lbl: "Select Country / Region",
             btn_continue: "Continue →",
             btn_back: "← Back",
             btn_start: "▶ Start Game",
@@ -69,6 +70,7 @@
             subgroup_lbl: "Выберите подгруппу",
             lesson_type_lbl: "Тип урока",
             target_role_lbl: "Цель беседы",
+            region_lbl: "Выберите страну / регион",
             btn_continue: "Продолжить →",
             btn_back: "← Назад",
             btn_start: "▶ Начать игру",
@@ -108,6 +110,7 @@
             subgroup_lbl: "Sélectionner le sous-groupe",
             lesson_type_lbl: "Type de cours",
             target_role_lbl: "Relation cible",
+            region_lbl: "Sélectionner le pays / région",
             btn_continue: "Continuer →",
             btn_back: "← Retour",
             btn_start: "▶ Commencer",
@@ -209,7 +212,7 @@
                     r_en = 'grandfather'; r_ru = 'дедушка'; r_fr = 'grand-père';
                     rp_en = "grandfather's"; rp_ru = 'дедушки'; rp_fr = 'de grand-père';
                 } else {
-                    r_en = 'grandmother'; r_ru = 'бабушка'; r_fr = 'бабушка'; r_fr = 'grand-mère';
+                    r_en = 'grandmother'; r_ru = 'бабушка'; r_fr = 'grand-mère';
                     rp_en = "grandmother's"; rp_ru = 'бабушки'; rp_fr = 'de grand-mère';
                 }
             } else if (state.subgroup === 'sibling') {
@@ -235,6 +238,36 @@
                      .replace(/{role_possessive}/g, rp_fr)
                      .replace(/{companion}/g, comp_fr);
             }
+        }
+
+        // 3. Civic Deck Replacements
+        if (state.deckKey === 'civic') {
+            let c_name = 'the United States', l_title = 'President', motto_val = 'In God We Trust';
+            if (state.subgroup === 'us') {
+                c_name = lang === 'ru' ? 'США' : (lang === 'fr' ? 'les États-Unis' : 'the United States');
+                l_title = lang === 'ru' ? 'президент' : (lang === 'fr' ? 'président' : 'President');
+                motto_val = 'In God We Trust';
+            } else if (state.subgroup === 'uk') {
+                c_name = lang === 'ru' ? 'Великобритания' : (lang === 'fr' ? 'le Royaume-Uni' : 'the United Kingdom');
+                l_title = lang === 'ru' ? 'премьер-министр' : (lang === 'fr' ? 'premier ministre' : 'Prime Minister');
+                motto_val = 'Dieu et mon droit';
+            } else if (state.subgroup === 'canada') {
+                c_name = lang === 'ru' ? 'Канада' : (lang === 'fr' ? 'le Canada' : 'Canada');
+                l_title = lang === 'ru' ? 'премьер-министр' : (lang === 'fr' ? 'premier ministre' : 'Prime Minister');
+                motto_val = 'A Mari Usque Ad Mare';
+            } else if (state.subgroup === 'france') {
+                c_name = lang === 'ru' ? 'Франция' : (lang === 'fr' ? 'la France' : 'France');
+                l_title = lang === 'ru' ? 'президент' : (lang === 'fr' ? 'président' : 'Président');
+                motto_val = 'Liberté, Égalité, Fraternité';
+            } else if (state.subgroup === 'russia') {
+                c_name = lang === 'ru' ? 'Россия' : (lang === 'fr' ? 'la Russie' : 'Russia');
+                l_title = lang === 'ru' ? 'президент' : (lang === 'fr' ? 'président' : 'President');
+                motto_val = lang === 'ru' ? 'С нами Бог' : 'God with us';
+            }
+
+            t = t.replace(/{country_name}/g, c_name)
+                 .replace(/{leader_title}/g, l_title)
+                 .replace(/{motto_val}/g, motto_val);
         }
 
         return t;
@@ -266,6 +299,7 @@
                         <option value="teacher" ${state.deckKey === 'teacher' ? 'selected' : ''}>🎓 ${esc(window.HUNDRED_QUESTIONS_DECKS.teacher.title[state.lang])}</option>
                         <option value="student" ${state.deckKey === 'student' ? 'selected' : ''}>🧑‍🎓 ${esc(window.HUNDRED_QUESTIONS_DECKS.student.title[state.lang])}</option>
                         <option value="family" ${state.deckKey === 'family' ? 'selected' : ''}>🏠 ${esc(window.HUNDRED_QUESTIONS_DECKS.family.title[state.lang])}</option>
+                        <option value="civic" ${state.deckKey === 'civic' ? 'selected' : ''}>🧭 ${esc(window.HUNDRED_QUESTIONS_DECKS.civic.title[state.lang])}</option>
                         <option value="interview" ${state.deckKey === 'interview' ? 'selected' : ''}>💼 ${esc(window.HUNDRED_QUESTIONS_DECKS.interview.title[state.lang])}</option>
                     </select>
                 </div>
@@ -346,6 +380,36 @@
                 </div>
                 <div id="family-target-container"></div>
             `;
+        } else if (state.deckKey === 'civic') {
+            // Filter regions depending on selected language
+            let regionOptions = '';
+            if (state.lang === 'en') {
+                regionOptions = `
+                    <option value="us" ${state.subgroup === 'us' ? 'selected' : ''}>United States 🇺🇸</option>
+                    <option value="uk" ${state.subgroup === 'uk' ? 'selected' : ''}>United Kingdom 🇬🇧</option>
+                    <option value="canada" ${state.subgroup === 'canada' ? 'selected' : ''}>Canada 🇨🇦</option>
+                `;
+            } else if (state.lang === 'fr') {
+                regionOptions = `
+                    <option value="france" ${state.subgroup === 'france' ? 'selected' : ''}>France 🇫🇷</option>
+                    <option value="canada" ${state.subgroup === 'canada' ? 'selected' : ''}>Canada 🇨🇦</option>
+                `;
+            } else { // Russian/others
+                regionOptions = `
+                    <option value="russia" ${state.subgroup === 'russia' ? 'selected' : ''}>Russia 🇷🇺</option>
+                `;
+            }
+
+            fieldsHTML = `
+                <div class="setup-field" style="margin-bottom: 1.5rem;">
+                    <label style="font-weight: 700; margin-bottom: 0.5rem; display: block; font-size: 0.9rem; color: var(--ink-muted); text-transform: uppercase;">
+                        ${UI_TEXTS[state.lang].region_lbl}
+                    </label>
+                    <select class="styled-sel" id="s-subgroup" style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--card-bg); color: var(--ink); font-size: 1rem; cursor: pointer;">
+                        ${regionOptions}
+                    </select>
+                </div>
+            `;
         }
 
         container.innerHTML = fieldsHTML;
@@ -367,6 +431,15 @@
                 });
             }
             updateFamilyTargetFields();
+        } else if (state.deckKey === 'civic') {
+            const selectSubgroup = document.getElementById('s-subgroup');
+            if (selectSubgroup) {
+                // Initialize default subgroup
+                state.subgroup = selectSubgroup.value;
+                selectSubgroup.addEventListener('change', () => {
+                    state.subgroup = selectSubgroup.value;
+                });
+            }
         }
     }
 
