@@ -346,6 +346,34 @@ SONG_THEMES = {
     "eleven-oclock": {
         "en": "Overthinking & Decisive Moments",
         "fr": "Surréflexion & Moments décisifs"
+    },
+    "faros": {
+        "en": "Love as a Guiding Light",
+        "el": "Η αγάπη ως καθοδηγητικό φως"
+    },
+    "an-einai-i-agapi-amartia": {
+        "en": "Love, Taboos & Social Defiance",
+        "el": "Αγάπη, ταμπού & κοινωνική αντίσταση"
+    },
+    "la-complainte-de-la-serveuse-automate": {
+        "en": "Routine, Alienation & Simple Dreams",
+        "fr": "Routine, aliénation & rêves simples"
+    },
+    "le-monde-est-stone": {
+        "en": "Exhaustion, Despair & Existential Numbness",
+        "fr": "Épuisement, désespoir & léthargie existentielle"
+    },
+    "un-garcon-pas-comme-les-autres": {
+        "en": "Unrequited Love & Forbidden Attractions",
+        "fr": "Amour non partagé & attractions interdites"
+    },
+    "les-uns-contre-les-autres": {
+        "en": "Existential Loneliness & Human Connection",
+        "fr": "Solitude existentielle & connexion humaine"
+    },
+    "fabienne-thibeault-challenge": {
+        "en": "Existential Desires & Human Connection",
+        "fr": "Désirs existentiels & Connexion humaine"
     }
 }
 
@@ -369,6 +397,10 @@ CHALLENGE_MAP = {
         "after-everything-ive-done-for-you", "whos-the-new-guy", "a-diagnosis", "fit-hot-guys-have-problems-too",
         "without-love-you-can-save-the-world", "dont-be-a-lawyer", "i-hate-everything-but-you",
         "antidepressants-are-so-not-a-big-deal", "slow-motion", "eleven-oclock"
+    ),
+    "fabienne-thibeault-challenge": (
+        "la-complainte-de-la-serveuse-automate", "le-monde-est-stone",
+        "un-garcon-pas-comme-les-autres", "les-uns-contre-les-autres"
     ),
 }
 
@@ -456,7 +488,13 @@ SONG_LINKS = {
     "i-hate-everything-but-you": "https://www.youtube.com/watch?v=6g8ajNob9z8",
     "antidepressants-are-so-not-a-big-deal": "https://www.youtube.com/watch?v=OG6HZMMDEYA",
     "slow-motion": "https://www.youtube.com/watch?v=tAC-J65S8dY",
-    "eleven-oclock": "https://www.youtube.com/watch?v=fH_8w7WAIyk"
+    "eleven-oclock": "https://www.youtube.com/watch?v=fH_8w7WAIyk",
+    "faros": "https://www.youtube.com/watch?v=KbhbwIhKuiA",
+    "an-einai-i-agapi-amartia": "https://www.youtube.com/watch?v=bFuSg9cKE4c",
+    "la-complainte-de-la-serveuse-automate": "https://www.youtube.com/watch?v=CzkNDfmcG6g",
+    "le-monde-est-stone": "https://www.youtube.com/watch?v=SwJDxxYuEks",
+    "un-garcon-pas-comme-les-autres": "https://www.youtube.com/watch?v=u6i-dx76Rnk",
+    "les-uns-contre-les-autres": "https://www.youtube.com/watch?v=Mf9EJ-oFdm4"
 }
 
 # Translation / Localization resources for all 6 supported languages
@@ -1109,7 +1147,54 @@ OPPOSITES_MAP = {
     "Ο δρόμος": "Το αδιέξοδο",
     "Το νιαούρισμα": "Το γάβγισμα",
     "Το κυνήγι": "Η φυγή",
-    "Η αυλή": "Το δωμάτιο"
+    "Η αυλή": "Το δωμάτιο",
+
+    # Greek additions
+    "καύσιμο": "εμπόδιο",
+    "ορόσημο": "ασήμαντο",
+    "κύματα": "γαλήνη",
+    "φάρος": "σκοτάδι",
+    "άπειρο": "όριο",
+    "δικαίωμα": "υποχρέωση",
+    "λατρεία": "μίσος",
+    "αμαρτωλή": "αθώα",
+    "περιφρονούνε": "εκτιμούν",
+    "λαχταρώ": "αδιαφορώ",
+
+    # French additions
+    "loyer": "propriété",
+    "automate": "être humain",
+    "cultiver": "négliger",
+    "tomates": "mauvaises herbes",
+    "souterrain": "aérien",
+    "pareils": "différents",
+    "néon": "obscurité",
+    "éteint": "allumé",
+    "éclate": "s'apaise",
+    "dormir": "veiller",
+    "asphalte": "nature",
+    "mourir": "naître",
+    "stone": "lucide",
+    "tourne": "s'arrête",
+    "cinéma": "réalité",
+    "battre": "abandonner",
+    "empires": "ruines",
+    "châteaux": "cabanes",
+    "folle": "sage",
+    "faute": "mérite",
+    "aimera": "haïra",
+    "pleuré": "ri",
+    "disques": "fichiers",
+    "boutique": "hypermarché",
+    "galaxie": "Terre",
+    "dort": "s'éveille",
+    "caresse": "gifle",
+    "cajole": "brutalise",
+    "comprend": "ignore",
+    "console": "afflige",
+    "déteste": "adore",
+    "déchire": "réconcilie",
+    "détruit": "construit"
 }
 
 # Standardized Language Focus points
@@ -1314,6 +1399,72 @@ LANGUAGE_FOCUS_DB = {
                 "Do not run away when situations get scary."
             ]
         }
+    },
+    "faros": {
+        "en": {
+            "title": "The use of 'Θέλω' + Subjunctive to express desires",
+            "explanation": "In Greek, we express our wishes, desires, and dreams using the verb 'θέλω' (to want) followed by 'να' and the subjunctive mood of the verb.",
+            "examples": [
+                "Θέλω να με ρίχνεις μες στα κύματα όταν στεγνώνει η καρδιά μου.",
+                "Θέλουμε να μας λες πάντα την αλήθεια.",
+                "Θέλει να γίνει ο φάρος που θα καθοδηγεί τα βήματά μας."
+            ]
+        }
+    },
+    "an-einai-i-agapi-amartia": {
+        "en": {
+            "title": "Conditional structures with 'Αν είναι'",
+            "explanation": "To express a real condition or hypothesis in the present/future, Greek uses 'αν' followed by the indicative present ('είναι') in the protasis, and the future tense or imperative in the apodosis.",
+            "examples": [
+                "Αν είναι η αγάπη αμαρτία, θα βγω να το φωνάξω με λατρεία.",
+                "Αν είσαι έτοιμος, έλα να ξεκινήσουμε το ταξίδι μας.",
+                "Αν θέλεις να με βρεις, τρέξε γρήγορα."
+            ]
+        }
+    },
+    "la-complainte-de-la-serveuse-automate": {
+        "en": {
+            "title": "Expressing Wishes with Conditional 'Voudrais' & 'Pas demandé à'",
+            "explanation": "In French, we use the conditionnel présent of 'vouloir' ('voudrais') to express polite wishes or dreams. The negation 'ne ... pas' combined with passé composé expresses things that happened without our choice.",
+            "examples": [
+                "Je voudrais seulement qu'on me fiche la paix.",
+                "Je n'ai pas demandé à venir au monde, mais je veux réussir.",
+                "Nous voudrions faire quelque chose que nous aimons vraiment."
+            ]
+        }
+    },
+    "le-monde-est-stone": {
+        "en": {
+            "title": "Hypothetical clauses with 'Si' and Present Indicative",
+            "explanation": "To express realistic hypotheses in French, we use 'si' + present indicative. The main clause can be in the present, future, or imperative.",
+            "examples": [
+                "Je ne sais pas si c'est la Terre qui tourne à l'envers.",
+                "Si tu te laisses mourir, tu manqueras les plus beaux soleils.",
+                "Si nous bâtissons des empires de cartes, le vent les détruira."
+            ]
+        }
+    },
+    "un-garcon-pas-comme-les-autres": {
+        "en": {
+            "title": "Concessive clauses with 'Même si' (Even if)",
+            "explanation": "In French, 'même si' is followed by the indicative to express a concession or obstacle that does not prevent the main action.",
+            "examples": [
+                "Même si je sais qu'il ne m'aimera jamais, je continue de chanter.",
+                "Même si la première fois était étrange, on a beaucoup ri.",
+                "Je l'aime passionnément même si c'est une folle idée."
+            ]
+        }
+    },
+    "les-uns-contre-les-autres": {
+        "en": {
+            "title": "Reciprocal Pronouns 'les uns... les autres'",
+            "explanation": "In French, 'les uns ... les autres' (or 'les uns avec les autres', 'les uns après les autres') is used to express reciprocal actions between several people.",
+            "examples": [
+                "On vit les uns avec les autres mais on se sent parfois seuls.",
+                "Ils dansent les uns avec les autres toute la nuit.",
+                "Nous courons les uns après les autres sans jamais nous rattraper."
+            ]
+        }
     }
 }
 
@@ -1372,6 +1523,28 @@ FINAL_CHALLENGE_DB = {
     "face-your-fears": {
         "en": "Role-play giving absurd but hilarious advice to someone who is terrified of public speaking.",
         "fr": "Jouez à donner des conseils absurdes mais hilarants à quelqu'un qui a le trac de parler en public."
+    },
+    "faros": {
+        "en": "The Guiding Light: Work in pairs. Imagine you are lost in a stormy situation in life or work. Who or what is your 'lighthouse' (φάρος)? Describe how they give you strength."
+    },
+    "an-einai-i-agapi-amartia": {
+        "en": "Defying the Taboos: Role-play a short conversation where one person is afraid of what society will say about their unusual choice (e.g. career pivot, relationship), and the other encourages them to be bold and defy the taboos."
+    },
+    "la-complainte-de-la-serveuse-automate": {
+        "en": "The Dream Orchard: Imagine Marie-Jeanne finally escapes her job to cultivate tomatoes in the sun. Write a short postcard she sends to her former customers at the Underground Café describing her new life.",
+        "fr": "Le verger de rêve : Imaginez que Marie-Jeanne échappe enfin à son travail pour cultiver des tomates au soleil. Écrivez une courte carte postale qu'elle envoie à ses anciens clients du café Underground décrivant sa nouvelle vie."
+    },
+    "le-monde-est-stone": {
+        "en": "Empires of Cards: Discuss in groups. Why do we build 'empires' (careers, material wealth) that can be easily destroyed like castles of cards? What is a more stable foundation for happiness?",
+        "fr": "Empires de cartes : Discutez en groupe. Pourquoi construisons-nous des 'empires' (carrières, richesse matérielle) qui peuvent être facilement détruits comme des châteaux de cartes ? Quel est le fondement le plus stable du bonheur ?"
+    },
+    "un-garcon-pas-comme-les-autres": {
+        "en": "Unconventional Friendship: Role-play a catch-up conversation between Marie-Jeanne and Ziggy. Marie-Jeanne expresses her affection, and Ziggy explains his world. How do they maintain their deep friendship despite the boundaries?",
+        "fr": "Amitié non conventionnelle : Jouez une conversation de retrouvailles entre Marie-Jeanne et Ziggy. Marie-Jeanne exprime son affection, et Ziggy explique son monde. Comment maintiennent-ils leur amitié profonde malgré les limites ?"
+    },
+    "les-uns-contre-les-autres": {
+        "en": "The Paradox of Loneliness: Conduct a 3-minute debate on this lyric: 'But in the end, we realize we are always completely alone in the world'. Is existential loneliness unavoidable even in a crowded city?",
+        "fr": "Le paradoxe de la solitude : Menez un débat de 3 minutes sur cette phrase : 'Mais au bout du compte, on se rend compte qu'on est toujours tout seul au monde'. La solitude existentielle est-elle inévitable même dans une ville bondée ?"
     }
 }
 
@@ -1922,7 +2095,54 @@ VOCAB_DB = {
     "Ο δρόμος": ("η οδός, το πέρασμα.", "Περπατούσε στον έρημο δρόμο σκεπτικός."),
     "Το νιαούρισμα": ("η φωνή της γάτας.", "Το νιαούρισμα της γάτας ακουγόταν έξω από την πόρτα."),
     "Το κυνήγι": ("η δράση του να κυνηγά κανείς ζώα ή στόχους.", "Οι γάτες λατρεύουν το κυνήγι των ποντικιών."),
-    "Η αυλή": ("ο ανοιχτός χώρος γύρω από το σπίτι.", "Παίζαμε πάντα στην αυλή του σπιτιού μας.")
+    "Η αυλή": ("ο ανοιχτός χώρος γύρω από το σπίτι.", "Παίζαμε πάντα στην αυλή του σπιτιού μας."),
+
+    # Greek additions
+    "καύσιμο": ("κάθε υλικό που μπορεί να παράγει ενέργεια, μεταφορικά η πηγή δύναμης.", "Η αγάπη της οικογένειας είναι το καλύτερο καύσιμο για να πετύχεις τους στόχους σου."),
+    "ορόσημο": ("ένα σημαντικό γεγονός ή σημείο που σηματοδοτεί μια νέα φάση.", "Η αποφοίτησή του από το πανεπιστήμιο ήταν ένα σπουδαίο ορόσημο στη ζωή του."),
+    "κύματα": ("οι διαταραχές στην επιφάνεια του νερού, μεταφορικά οι δυσκολίες της ζωής.", "Τα κύματα της θάλασσας χτυπούσαν απαλά τα βράχια της ακτής."),
+    "φάρος": ("ένας πύργος με ισχυρό φως που καθοδηγεί τα πλοία, μεταφορικά ο οδηγός.", "Στις δύσκολες στιγμές, οι συμβουλές της μητέρας της ήταν ο φάρος της."),
+    "άπειρο": ("κάτι που δεν έχει όρια ή τέλος στο χώρο ή στο χρόνο.", "Κοιτάζοντας τον έναστρο ουρανό, ένιωσε δέος μπροστά στο άπειρο."),
+    "δικαίωμα": ("η ηθική ή νομική ελευθερία να κάνει κάποιος κάτι.", "Όλοι οι άνθρωποι έχουν το δικαίωμα να ζουν ελεύθεροι."),
+    "λατρεία": ("η βαθιά και απεριόριστη αγάπη ή σεβασμός προς κάποιο πρόσωπο.", "Της έχει τεράστια λατρεία και δεν της χαλάει ποτέ χατίρι."),
+    "αμαρτωλή": ("αυτή που έχει διαπράξει κάποιο ηθικό ή θρησκευτικό σφάλμα.", "Στα παλιά παραμύθια, η μάγισσα παρουσιαζόταν ως μια αμαρτωλή ψυχή."),
+    "περιφρονούνε": ("δείχνουν έλλειψη σεβασμού ή εκτίμησης προς κάποιον.", "Δεν πρέπει να περιφρονούμε τους συνανθρώπους μας για τις επιλογές τους."),
+    "λαχταρώ": ("επιθυμώ κάτι πάρα πολύ έντονα και με ανυπομονησία.", "Λαχταρώ τη στιγμή που θα επιστρέψω στην πατρίδα μου."),
+
+    # French additions
+    "loyer": ("somme d'argent payée périodiquement par un locataire pour occuper un logement.", "Il doit travailler dur chaque mois pour pouvoir payer son loyer à temps."),
+    "automate": ("machine qui exécute des mouvements réguliers ou imite les gestes d'un être vivant.", "Elle se sent comme un automate à force de répéter les mêmes gestes à l'usine."),
+    "cultiver": ("travailler la terre pour faire pousser des plantes, ou développer ses connaissances.", "Mon grand-père adore cultiver de bons légumes frais dans son jardin."),
+    "tomates": ("fruits rouges et juteux largement cultivés et consommés comme légumes.", "Elle a cueilli de belles tomates bien mûres pour préparer sa salade."),
+    "souterrain": ("qui se trouve sous le niveau du sol, sombre et fermé.", "Les passagers attendent le métro dans la station souterraine."),
+    "pareils": ("qui se ressemblent parfaitement ou sont de même nature.", "Pour elle, tous les jours de la semaine sont absolument pareils."),
+    "néon": ("tube lumineux produisant une lumière vive, souvent utilisé dans les enseignes.", "L'enseigne en néon du café brillait intensément dans la nuit sombre."),
+    "éteint": ("qui ne brille plus ou dont la lumière a été coupée.", "Le néon éteint de la boutique montrait que le magasin était fermé."),
+    "éclate": ("se briser avec violence, ou souffrir d'une vive tension à la tête.", "J'ai la tête qui éclate après cette longue journée de travail intense."),
+    "dormir": ("être dans un état de sommeil, se reposer physiquement et mentalement.", "Il a besoin de dormir au moins huit heures par nuit pour être en forme."),
+    "asphalte": ("mélange de bitume et de graviers utilisé pour revêtir les routes.", "La pluie d'été laissait une odeur fraîche sur l'asphalte chaud de la rue."),
+    "mourir": ("cesser de vivre, arriver au terme de sa vie.", "Les fleurs finissent par mourir si on oublie de les arroser."),
+    "stone": ("état de torpeur ou d'hébétement, indifférent au monde extérieur.", "Après avoir pris ce médicament, elle se sentait complètement stone."),
+    "tourne": ("mouvement de rotation autour d'un axe.", "La Terre tourne constamment autour du Soleil dans l'espace."),
+    "cinéma": ("art de faire des films, ou métaphoriquement faire de la comédie ou du drame.", "Arrête de te faire du cinéma et regarde la réalité en face."),
+    "battre": ("frapper de manière répétée, ou lutter avec force contre une difficulté.", "Il faut continuer à se battre pour réaliser nos rêves."),
+    "empires": ("vasti territoires ou organisations sous l'autorité d'une seule puissance.", "Les hommes d'affaires ambitieux cherchent à bâtir de grands empires."),
+    "châteaux": ("grandes demeures seigneuriales fortifiées ou châteaux de sable/cartes fragiles.", "Les enfants s'amusent à construire des châteaux de sable sur la plage."),
+    "folle": ("qui a perdu la raison, ou qui ressent une passion extrême pour quelqu'un.", "Elle est complètement folle de lui et ne pense qu'à le revoir."),
+    "faute": ("manquement à une règle, ou responsabilité d'une erreur ou d'un dommage.", "Ce n'est pas de ma faute si le train a eu un long retard."),
+    "aimera": ("éprouver de l'amour ou de l'affection pour quelqu'un dans l'avenir.", "Elle sait bien qu'il ne l'aimera jamais comme elle l'aime."),
+    "pleuré": ("verser des larmes sous le coup d'une vive emotion ou de la douleur.", "Ils ont ri et pleuré ensemble en se racontant leurs souvenirs."),
+    "disques": ("supports plats et circulaires enregistrant des sons musicaux.", "Il passe ses après-midis à écouter de vieux disques de vinyle."),
+    "boutique": ("petit magasin de commerce de détail.", "Elle travaille comme vendeuse dans une jolie boutique de vêtements."),
+    "galaxie": ("vaste ensemble d'étoiles et de matière céleste, ou monde lointain.", "On dirait qu'il vit dans une autre galaxie tant il est distrait."),
+    "dort": ("être endormi, se reposer.", "Le chat dort paisiblement sur le canapé du salon."),
+    "caresse": ("geste affectueux consistant à passer doucement la main.", "Elle fait une douce caresse sur la joue de son enfant."),
+    "cajole": ("manifester de la tendresse par des caresses et des paroles flatteuses.", "La maman cajole tendrement son bébé pour le calmer."),
+    "comprend": ("saisir par l'esprit, concevoir la signification de quelque chose.", "Elle comprend parfaitement la détresse de sa meilleure amie."),
+    "console": ("apporter du réconfort à quelqu'un qui est triste ou affligé.", "Il console son frère après la perte de son animal de compagnie."),
+    "déteste": ("éprouver une profonde aversion ou de la haine pour quelque chose.", "Elle déteste le mensonge et privilégie toujours la vérité."),
+    "déchire": ("diviser ou mettre en pièces, ou métaphoriquement souffrir profondément.", "Ce terrible conflit déchire la communauté depuis des années."),
+    "détruit": ("mettre à bas, ruiner ou faire disparaître complètement.", "La tempête a détruit plusieurs arbres séculaires dans le parc.")
 }
 
 # Standard catalog of common localized mistakes & corrections per language
@@ -3758,6 +3978,60 @@ NEW_SONGS_METADATA = {
         "variety": "American English",
         "focus": "Overthinking & Decisive Moments",
         "vocab": ["awake", "mistake", "decision", "fight", "answers"]
+    },
+    "faros": {
+        "title": "Φάρος",
+        "artist": "Kostis Maraveyas",
+        "level": "B1",
+        "lang": "el",
+        "variety": "Greek",
+        "focus": "Love as a Guiding Light",
+        "vocab": ["καύσιμο", "ορόσημο", "κύματα", "φάρος", "άπειρο"]
+    },
+    "an-einai-i-agapi-amartia": {
+        "title": "Αν είναι η αγάπη αμαρτία",
+        "artist": "Έλενα Παπαρίζου",
+        "level": "B1",
+        "lang": "el",
+        "variety": "Greek",
+        "focus": "Love, Taboos & Social Defiance",
+        "vocab": ["δικαίωμα", "λατρεία", "αμαρτωλή", "περιφρονούνε", "λαχταρώ"]
+    },
+    "la-complainte-de-la-serveuse-automate": {
+        "title": "La complainte de la serveuse automate",
+        "artist": "Fabienne Thibeault",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Routine, Alienation & Simple Dreams",
+        "vocab": ["loyer", "automate", "cultiver", "tomates", "souterrain", "pareils", "néon", "éteint", "La paix", "Le soleil"]
+    },
+    "le-monde-est-stone": {
+        "title": "Le monde est stone",
+        "artist": "Fabienne Thibeault",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Exhaustion, Despair & Existential Numbness",
+        "vocab": ["éclate", "dormir", "asphalte", "mourir", "stone", "tourne", "cinéma", "battre", "empires", "châteaux"]
+    },
+    "un-garcon-pas-comme-les-autres": {
+        "title": "Un garçon pas comme les autres",
+        "artist": "Fabienne Thibeault",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Unrequited Love & Forbidden Attractions",
+        "vocab": ["folle", "faute", "aimera", "pleuré", "disques", "boutique", "galaxie", "La rue", "Le café", "Oublier"]
+    },
+    "les-uns-contre-les-autres": {
+        "title": "Les uns contre les autres",
+        "artist": "Fabienne Thibeault",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Existential Loneliness & Human Connection",
+        "vocab": ["dort", "caresse", "cajole", "comprend", "console", "déteste", "déchire", "détruit", "La solitude", "Seul"]
     }
 }
 
@@ -3800,7 +4074,13 @@ COMPLETE_SONG_VOCAB = {
     "mixed-up-world": ["Mixed-up", "Guidance", "Contradiction", "Faith", "Cynicism", "Control", "Strength", "Tough", "Low", "Insane"],
     "california-dreaming": ["Winter", "Safe", "Warm", "Pretend", "Preacher", "Dreamin'", "Gray", "Brown", "Leaves", "Knees"],
     "me-and-i": ["Scream", "Jekyll", "Hyde", "Freak", "Toyed", "Freud", "Split", "Identity", "Combination", "Gloomy"],
-    "angeleyes": ["Hypnotised", "Paradise", "Disguise", "Shiver", "Game", "Pay", "Lonely", "Pain", "Disappointment", "Gaze"]
+    "angeleyes": ["Hypnotised", "Paradise", "Disguise", "Shiver", "Game", "Pay", "Lonely", "Pain", "Disappointment", "Gaze"],
+    "faros": ["καύσιμο", "ορόσημο", "κύματα", "φάρος", "άπειρο"],
+    "an-einai-i-agapi-amartia": ["δικαίωμα", "λατρεία", "αμαρτωλή", "περιφρονούνε", "λαχταρώ"],
+    "la-complainte-de-la-serveuse-automate": ["loyer", "automate", "cultiver", "tomates", "souterrain", "pareils", "néon", "éteint", "La paix", "Le soleil"],
+    "le-monde-est-stone": ["éclate", "dormir", "asphalte", "mourir", "stone", "tourne", "cinéma", "battre", "empires", "châteaux"],
+    "un-garcon-pas-comme-les-autres": ["folle", "faute", "aimera", "pleuré", "disques", "boutique", "galaxie", "La rue", "Le café", "Oublier"],
+    "les-uns-contre-les-autres": ["dort", "caresse", "cajole", "comprend", "console", "déteste", "déchire", "détruit", "La solitude", "Seul"]
 }
 
 songs_list = []
@@ -3881,54 +4161,78 @@ for slug in sorted(LYRICS_DATA.keys()):
     })
 
 # STEP 2: Parse all 11 challenges dynamically from their existing files
+NEW_CHALLENGES_METADATA = {
+    "fabienne-thibeault-challenge": {
+        "title": "Fabienne Thibeault Challenge",
+        "artist": "Fabienne Thibeault",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Existential Desires & Human Connection",
+        "vocab": []
+    }
+}
+
 challenges_list = []
 for slug in sorted(CHALLENGE_MAP.keys()):
     path = f"events/sessions/karaoke-club/{slug}.html"
     if not os.path.exists(path):
         path = f"events/sessions/{slug}.html"
+
     if not os.path.exists(path):
-        continue
-    with open(path, "r", encoding="utf-8") as f:
-        html = f.read()
+        if slug in NEW_CHALLENGES_METADATA:
+            meta = NEW_CHALLENGES_METADATA[slug]
+            title = meta["title"]
+            artist = meta["artist"]
+            level_short = meta["level"]
+            lang = meta["lang"]
+            variety = meta["variety"]
+            focus = meta["focus"]
+            vocab_cleaned = meta["vocab"]
+        else:
+            continue
+    else:
+        with open(path, "r", encoding="utf-8") as f:
+            html = f.read()
 
-    title_m = re.search(r"<h1>(.*?)</h1>", html)
-    title = title_m.group(1).strip() if title_m else slug.replace("-", " ").title()
+        title_m = re.search(r"<h1>(.*?)</h1>", html)
+        title = title_m.group(1).strip() if title_m else slug.replace("-", " ").title()
 
-    date_m = re.search(r'<p class="session-date">(.*?) • (.*?)</p>', html)
-    artist = date_m.group(1).strip() if date_m else ""
-    level_raw = date_m.group(2).strip() if date_m else "B1"
+        date_m = re.search(r'<p class="session-date">(.*?) • (.*?)</p>', html)
+        artist = date_m.group(1).strip() if date_m else ""
+        level_raw = date_m.group(2).strip() if date_m else "B1"
 
-    lang_m = re.search(r'<html lang="(.*?)">', html)
-    lang = lang_m.group(1).strip() if lang_m else "en"
+        lang_m = re.search(r'<html lang="(.*?)">', html)
+        lang = lang_m.group(1).strip() if lang_m else "en"
 
-    variety_m = re.search(r"<h4>(?:Variety/Language|Language|Langue|Язык|Lingua|Idioma|Γλώσσα|Variety)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
-    variety = variety_m.group(1).strip() if variety_m else "English"
+        variety_m = re.search(r"<h4>(?:Variety/Language|Language|Langue|Язык|Lingua|Idioma|Γλώσσα|Variety)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
+        variety = variety_m.group(1).strip() if variety_m else "English"
 
-    focus_m = re.search(r"<h4>(?:Thematic Focus|Focus|Thème|Тема|Tema|Θέμα)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
-    focus = focus_m.group(1).strip() if focus_m else ""
+        focus_m = re.search(r"<h4>(?:Thematic Focus|Focus|Thème|Тема|Tema|Θέμα)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
+        focus = focus_m.group(1).strip() if focus_m else ""
 
-    if slug in SONG_THEMES:
-        focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
+        if slug in SONG_THEMES:
+            focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
-    vocab = re.findall(r'<div class="vocab-word"[^>]*>(.*?)</div>', html)
-    vocab_cleaned = []
-    for v in vocab:
-        v_stripped = v.strip()
-        if "style=" in v_stripped:
-            sub_m = re.search(r'>(.*?)<', v_stripped)
-            if sub_m:
-                v_stripped = sub_m.group(1).strip()
-        vocab_cleaned.append(v_stripped)
-    if slug in COMPLETE_SONG_VOCAB:
-        vocab_cleaned = COMPLETE_SONG_VOCAB[slug]
+        vocab = re.findall(r'<div class="vocab-word"[^>]*>(.*?)</div>', html)
+        vocab_cleaned = []
+        for v in vocab:
+            v_stripped = v.strip()
+            if "style=" in v_stripped:
+                sub_m = re.search(r'>(.*?)<', v_stripped)
+                if sub_m:
+                    v_stripped = sub_m.group(1).strip()
+            vocab_cleaned.append(v_stripped)
+        if slug in COMPLETE_SONG_VOCAB:
+            vocab_cleaned = COMPLETE_SONG_VOCAB[slug]
 
-    level_short = "B1"
-    if any(k in level_raw for k in ["A2", "Débutant", "Στοιχειώδες", "Beginner"]):
-        level_short = "A2"
-    elif any(k in level_raw for k in ["B2", "Upper Intermediate", "Intermédiaire Supérieur"]):
-        level_short = "B2"
-    elif "C1" in level_raw:
-        level_short = "C1"
+        level_short = "B1"
+        if any(k in level_raw for k in ["A2", "Débutant", "Στοιχειώδες", "Beginner"]):
+            level_short = "A2"
+        elif any(k in level_raw for k in ["B2", "Upper Intermediate", "Intermédiaire Supérieur"]):
+            level_short = "B2"
+        elif "C1" in level_raw:
+            level_short = "C1"
 
     sub_slugs = CHALLENGE_MAP[slug]
 

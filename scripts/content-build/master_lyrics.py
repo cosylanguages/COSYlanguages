@@ -5054,4 +5054,241 @@ Which is a horrible, stupid, dumb and ugly
 Fat and stupid, simple self-hating
 Bitch!"""
     },
+    "faros": {
+        "helpers": ["καύσιμο", "ορόσημο", "κύματα", "φάρος", "άπειρο"],
+        "lyrics": """Θέλω την αγάπη σου για καύσιμο
+Να δραπετεύω από τις άγουρες τις μέρες
+Θέλω την αγάπη σου ορόσημο
+Να τη φοράω τις μουντές Δευτέρες
+
+Θέλω να με ρίχνεις μες στα κύματα
+Όταν στεγνώνει η καρδιά μου από σκέψεις
+Θέλω να μου λες πάντα πως μ' αγαπάς
+Και να μπορείς και να μ' αντέξεις
+
+Αγάπα με όσο μπορείς να παίρνω δύναμη
+Να σ' αγαπώ κι εγώ να παίρνω θάρρος
+Κι όταν σαλπάρω στ' ανοιχτά
+Όταν τα βράχια είναι κοντά
+Εσύ φως μου να 'σαι ο φάρος
+
+Θέλω την αγάπη σου σαν θάλασσα
+Που αγκαλιάζει καλοτάξιδα καράβια
+Θέλω την αγάπη σου σαν άνεμο
+Στου Αιγαίου τα φεγγάρια
+
+Θέλω την αγάπη σου για καύσιμο
+Να εκτοξευτώ ψυχή μου ως το άπειρο
+Να σκίσω αιθέρες και στρατόσφαιρα
+Να γίνω ήλιος, άστρο διάπυρο"""
+    },
+    "an-einai-i-agapi-amartia": {
+        "helpers": ["δικαίωμα", "λατρεία", "αμαρτωλή", "περιφρονούνε", "λαχταρώ"],
+        "lyrics": """Δεν έχουν το δικαίωμα για σένανε, μου λένε
+τα στήθια μου να καίνε
+Να τρέχω σαν τρελή για να σε βρω
+να λιώνω, να πονώ, _  να λαχταρώ
+
+Αν είναι η αγάπη αμαρτία
+θα βγω να το φωνάξω με λατρεία
+Θα βγω να το φωνάξω να το πω
+πως είμαι αμαρτωλή που σ' αγαπώ
+
+
+Θα βγω να το φωνάξω να το πω
+πως είμαι αμαρτωλή που σ' αγαπώ
+
+
+Δεν έχουν το δικαίωμα να με περιφρονούνε
+μαζί σου σαν με δούνε
+Να λένε ότι είμαι αμαρτωλή
+που λιώνω στο δικό σου __ το φιλί
+
+Αν είναι η αγάπη αμαρτία
+θα βγω να το φωνάξω με λατρεία
+Θα βγω να το φωνάξω να το πω
+πως είμαι αμαρτωλή που σ' αγαπώ
+
+
+Θα βγω να το φωνάξω να το πω
+πως είμαι αμαρτωλή  __ που σ' α-γα -πώ"""
+    },
+    "la-complainte-de-la-serveuse-automate": {
+        "helpers": ["loyer", "automate", "cultiver", "tomates", "souterrain", "pareils", "néon", "éteint", "La paix", "Le soleil"],
+        "lyrics": """[Marie-Jeanne]
+J'ai pas demandé à venir au monde
+J'voudrais seulement qu'on m'fiche la paix
+J'ai pas envie d'faire comme tout l'monde
+Mais faut bien que j'paie mon loyer
+J'travaille à l'Underground Café
+
+[Choeurs]
+Un jour vous verrez
+La serveuse automate
+S'en aller cultiver ses tomates
+Au soleil
+
+[Marie-Jeanne]
+Qu'est-ce que j'vais faire aujourd'hui?
+Qu'est-ce que j'vais faire demain?
+C'est c'que j'me dis tous les matins
+
+Qu'est-ce que j'vais faire de ma vie?
+Moi, j'ai envie de rien
+J'gi juste envie d'être bien
+
+J'veux pas travailler, juste pour travailler
+Pour gagner ma vie, comme on dit
+J'voudrais seulement faire quelque chose que j'aime
+J'sais pas c'que j'aime, c'est mon problème
+
+Y'a longtemps qu'j'ai pas vu l'Soleil
+Dans mon univers souterrain
+Pour moi, tous les jours sont pareils
+Pour moi, la vie ça sert à rien
+Je suis comme un néon éteint
+J'travaille à l'Underground Café
+
+[Choeurs]
+Un jour vous verrez
+La serveuse automate
+S'en aller cultiver ses tomates
+Au soleil
+
+[Marie-Jeanne]
+Qu'est-ce que j'vais faire aujourd'hui?
+Qu'est-ce que j'vais faire demain?
+C'est c'que j'me dis tous les matins
+Qu'est-ce que j'vais faire de ma vie?
+Moi, j'ai envie de rien
+J'ai juste envie d'être bien
+
+Un jour vous verrez
+La serveuse automate
+S'en aller cultiver ses tomates
+Au soleil"""
+    },
+    "le-monde-est-stone": {
+        "helpers": ["éclate", "dormir", "asphalte", "mourir", "stone", "tourne", "cinéma", "battre", "empires", "châteaux"],
+        "lyrics": """J'ai la tête qui éclate
+J'voudrais seulement dormir
+M'étendre sur l'asphalte
+Et me laisser mourir
+Stone
+Le monde est stone
+Je cherche le soleil
+Au milieu de la nuit
+J'sais pas si c'est la Terre
+Qui tourne à l'envers
+Ou bien si c'est moi
+Qui m'fait du cinéma
+Qui m'fait mon cinéma
+
+Je cherche le soleil
+Au milieu de ma nuit
+Stone
+Le monde est stone
+J'ai plus envie d'me battre
+J'ai plus envie d'courir
+Comme tous ces automates
+Qui bâtissent des empires
+Que le vent peut détruire
+Comme des châteaux de cartes
+
+Stone
+Le monde est stone
+Laissez moi me débattre
+Venez pas m'secourir
+Venez plutôt m'abattre
+Pour m'empêcher d'souffrir
+J'ai la tête qui éclate
+J'voudrais seulement dormir
+
+M'étendre sur l'asphalte
+Et me laisser mourir"""
+    },
+    "un-garcon-pas-comme-les-autres": {
+        "helpers": ["folle", "faute", "aimera", "pleuré", "disques", "boutique", "galaxie", "La rue", "Le café", "Oublier"],
+        "lyrics": """Ziggy il s'appelle Ziggy
+Je suis folle de lui
+C'est un garçon pas comme les autres
+Mais moi je l'aime, c'est pas d'ma faute
+Même si je sais
+Qu'il ne m'aimera jamais
+
+Ziggy il s'appelle Ziggy
+Je suis folle de lui
+La première fois que je l'ai vu
+J'me suis j'tée sur lui dans la rue
+J'lui ai seul'ment dit
+Que j'avais envie de lui
+
+Il était quatre heures du matin
+J'étais seule et j'avais besoin
+De parler à quelqu'un
+Il m'a dit : "Viens prendre un café"
+On s'est raconté nos vies
+On a ri on a pleuré
+
+Ziggy il s'appelle Ziggy
+C'est mon seul ami
+Dans sa tête il y a que d'la musique
+Il vend des disques dans une boutique
+On dirait qu'il vit
+Dans une autre galaxie
+
+Tous les soirs il m'emmène danser
+Dans des endroits très très gais
+Où il a des tas d'amis
+Oui je sais il aime les garçons
+Je devrais me faire une raison
+Essayer de l'oublier... mais
+
+Ziggy il s'appelle Ziggy
+Je suis folle de lui
+C'est un garçon pas comme les autres
+And moi je l'aime c'est pas d'ma faute
+Même si je sais
+Qu'il ne m'aimera jamais"""
+    },
+    "les-uns-contre-les-autres": {
+        "helpers": ["dort", "caresse", "cajole", "comprend", "console", "déteste", "déchire", "détruit", "La solitude", "Seul"],
+        "lyrics": """On dort les uns contre les autres
+On vit les uns avec les autres
+On se caresse, on se cajole
+On se comprend, on se console
+Mais au bout du compte
+On se rend compte
+Qu'on est toujours tout seul au monde
+
+On danse les uns avec les autres
+On court les uns après les autres
+On se déteste, on se déchire
+On se détruit, on se désire
+Mais au bout du compte
+On se rend compte
+Qu'on est toujours tout seul au monde
+
+On dort les uns contre les autres
+On vit les uns avec les autres
+On se caresse, on se cajole
+On se comprend, on se console
+Mais au bout du compte
+On se rend compte
+Qu'on est toujours tout seul au monde
+
+On danse les uns avec les autres
+On court les uns après les autres
+On se déteste, on se déchire
+On se détruit, on se désire
+Mais au bout du compte
+On se rend compte
+Qu'on est toujours tout seul au monde
+
+Mais au bout du compte
+On se rend compte
+Qu'on est toujours tout seul au monde
+
+Qu'on est toujours tout seul au monde"""
+    },
 }
