@@ -19,9 +19,7 @@
                     "No problem!"
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈprɑbləm",
+        ],"transcription": "ˈprɑbləm",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -40,9 +38,7 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions",
-        "opposite": null,
-        "transcription": "hu",
+        "subtext": "related to asking answering questions","transcription": "hu",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -61,9 +57,7 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions",
-        "opposite": null,
-        "transcription": "wət",
+        "subtext": "related to asking answering questions","transcription": "wət",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -82,9 +76,7 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions",
-        "opposite": null,
-        "transcription": "wɛr",
+        "subtext": "related to asking answering questions","transcription": "wɛr",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -103,9 +95,7 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions",
-        "opposite": null,
-        "transcription": "wɪn",
+        "subtext": "related to asking answering questions","transcription": "wɪn",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -124,9 +114,7 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions",
-        "opposite": null,
-        "transcription": "waɪ",
+        "subtext": "related to asking answering questions","transcription": "waɪ",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -146,9 +134,7 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions",
-        "opposite": null,
-        "transcription": "haʊ",
+        "subtext": "related to asking answering questions","transcription": "haʊ",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -158,9 +144,7 @@
         "id": "en_starter_asking_answering_questions_013",
         "word": "yes",
         "emoji": "✅",
-        "form": "adverb",
-        "opposite": null,
-        "definitions": [
+        "form": "adverb","definitions": [
             {
                 "text": "Used to give a positive answer.",
                 "examples": [
@@ -179,9 +163,7 @@
         "id": "en_starter_asking_answering_questions_014",
         "word": "no",
         "emoji": "❌",
-        "form": "adverb",
-        "opposite": null,
-        "definitions": [
+        "form": "adverb","definitions": [
             {
                 "text": "Used to give a negative answer.",
                 "examples": [
@@ -212,9 +194,7 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions",
-        "opposite": null,
-        "transcription": "ˌkɑnvərˈseɪʃən",
+        "subtext": "related to asking answering questions","transcription": "ˌkɑnvərˈseɪʃən",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -233,9 +213,7 @@
                 ]
             }
         ],
-        "subtext": "related to conjunctions connectors",
-        "opposite": null,
-        "transcription": "ˈɔlsoʊ",
+        "subtext": "related to conjunctions connectors","transcription": "ˈɔlsoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -300,9 +278,7 @@
                 ]
             }
         ],
-        "subtext": "related to describing things",
-        "opposite": null,
-        "transcription": "ˈsəmθɪŋ",
+        "subtext": "related to describing things","transcription": "ˈsəmθɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -324,9 +300,7 @@
                 ]
             }
         ],
-        "subtext": "related to describing things",
-        "opposite": null,
-        "transcription": "θɪŋ",
+        "subtext": "related to describing things","transcription": "θɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -349,9 +323,7 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions",
-        "opposite": null,
-        "transcription": "kˈwɛʃən",
+        "subtext": "related to asking answering questions","transcription": "kˈwɛʃən",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -402,9 +374,7 @@
                     "Make a shopping list."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "lɪst",
+        ],"transcription": "lɪst",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1019,9 +989,7 @@
     {
         "id": "en_starter_describing_106",
         "word": "proud",
-        "form": "adjective",
-        "opposite": null,
-        "definitions": [
+        "form": "adjective","definitions": [
             {
                 "text": "Feeling pleased about an achievement.",
                 "examples": [
@@ -1701,9 +1669,7 @@
         "id": "en_starter_describing_131",
         "word": "creative",
         "emoji": "🎨",
-        "form": "adjective",
-        "opposite": null,
-        "subtext": "very creative / creative ideas",
+        "form": "adjective","subtext": "very creative / creative ideas",
         "synonyms": [
             "imaginative",
             "artistic"
@@ -2192,9 +2158,7 @@
         "id": "en_starter_describing_148",
         "word": "fine",
         "emoji": "😊",
-        "form": "adjective",
-        "opposite": null,
-        "definitions": [
+        "form": "adjective","definitions": [
             {
                 "text": "Good or acceptable; healthy.",
                 "examples": [

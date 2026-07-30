@@ -20,9 +20,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "fʊt",
+        "subtext": "related to body parts","transcription": "fʊt",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -49,9 +47,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "feɪs",
+        "subtext": "related to body parts","transcription": "feɪs",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -73,9 +69,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "heə(r)",
+        "subtext": "related to body parts","transcription": "heə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -99,9 +93,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "tuːθ",
+        "subtext": "related to body parts","transcription": "tuːθ",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -128,9 +120,7 @@
                     "He nodded his head."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "hɛd",
+        ],"transcription": "hɛd",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -158,9 +148,7 @@
                     "Give me your hand."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "hænd",
+        ],"transcription": "hænd",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -187,9 +175,7 @@
                     "I have two legs."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "lɛg",
+        ],"transcription": "lɛg",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -212,9 +198,7 @@
                     "She has blue eyes."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "aɪ",
+        ],"transcription": "aɪ",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -241,9 +225,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "noʊz",
+        "subtext": "related to body parts","transcription": "noʊz",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -270,9 +252,7 @@
                     "Open your mouth."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "maʊθ",
+        ],"transcription": "maʊθ",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -299,9 +279,7 @@
                     "I have two ears."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ɪr",
+        ],"transcription": "ɪr",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -328,9 +306,7 @@
                     "I have pain in my back."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "bæk",
+        ],"transcription": "bæk",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -352,9 +328,7 @@
                     "She broke her arm."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ɑrm",
+        ],"transcription": "ɑrm",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -381,9 +355,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "nɛk",
+        "subtext": "related to body parts","transcription": "nɛk",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -405,9 +377,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "ˈʃoʊldər",
+        "subtext": "related to body parts","transcription": "ˈʃoʊldər",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -429,9 +399,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "ˈfɪŋgər",
+        "subtext": "related to body parts","transcription": "ˈfɪŋgər",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -453,9 +421,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "toʊ",
+        "subtext": "related to body parts","transcription": "toʊ",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -477,9 +443,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "ˈstəmək",
+        "subtext": "related to body parts","transcription": "ˈstəmək",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -501,9 +465,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "ni",
+        "subtext": "related to body parts","transcription": "ni",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -525,9 +487,7 @@
                 ]
             }
         ],
-        "subtext": "related to body parts",
-        "opposite": null,
-        "transcription": "hɑrt",
+        "subtext": "related to body parts","transcription": "hɑrt",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -553,9 +513,7 @@
                 ]
             }
         ],
-        "subtext": "related to health body",
-        "opposite": null,
-        "transcription": "ˈbɑdi",
+        "subtext": "related to health body","transcription": "ˈbɑdi",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -765,9 +723,7 @@
         "aspect": "action",
         "v2": "touched",
         "v3": "touched",
-        "group": "regular",
-        "opposite": null,
-        "transcription": "təʧ",
+        "group": "regular","transcription": "təʧ",
         "lang": "en",
         "level": "starter",
         "theme": "five_senses",

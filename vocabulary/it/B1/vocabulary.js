@@ -765,7 +765,7 @@
             "article": "l'",
             "classification": "regular",
             "plural": "uguaglianze",
-            "opposite": "disuguaglianza"
+            "antonyms": ["disuguaglianza"]
         }
     },
     {
@@ -812,7 +812,7 @@
             "article": "la",
             "classification": "regular",
             "plural": "disuguaglianze",
-            "opposite": "uguaglianza"
+            "antonyms": ["uguaglianza"]
         }
     },
     {

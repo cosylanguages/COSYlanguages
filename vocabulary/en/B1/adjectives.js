@@ -60,7 +60,7 @@
         "emoji": "🧑‍💻",
         "_legacy": {
             "subtext": "freelance, work for yourself",
-            "opposite": "employed"
+            "antonyms": ["employed"]
         }
     },
     {

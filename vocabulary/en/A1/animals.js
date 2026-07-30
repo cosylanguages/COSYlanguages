@@ -20,9 +20,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "kæt",
+        "subtext": "related to animals","transcription": "kæt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -51,9 +49,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "dɔg",
+        "subtext": "related to animals","transcription": "dɔg",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -80,9 +76,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "bərd",
+        "subtext": "related to animals","transcription": "bərd",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -109,9 +103,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "fɪʃ",
+        "subtext": "related to animals","transcription": "fɪʃ",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -137,9 +129,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "laɪən",
+        "subtext": "related to animals","transcription": "laɪən",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -165,9 +155,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "ˈɛləfənt",
+        "subtext": "related to animals","transcription": "ˈɛləfənt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -193,9 +181,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "ˈræbɪt",
+        "subtext": "related to animals","transcription": "ˈræbɪt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -222,9 +208,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "hɔrs",
+        "subtext": "related to animals","transcription": "hɔrs",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -250,9 +234,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "kaʊ",
+        "subtext": "related to animals","transcription": "kaʊ",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -278,9 +260,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "pɪg",
+        "subtext": "related to animals","transcription": "pɪg",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -306,9 +286,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "ʃip",
+        "subtext": "related to animals","transcription": "ʃip",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -332,9 +310,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "maʊs",
+        "subtext": "related to animals","transcription": "maʊs",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -356,9 +332,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "sneɪk",
+        "subtext": "related to animals","transcription": "sneɪk",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -384,9 +358,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "ˈməŋki",
+        "subtext": "related to animals","transcription": "ˈməŋki",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -412,9 +384,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "ˈspaɪdər",
+        "subtext": "related to animals","transcription": "ˈspaɪdər",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -440,9 +410,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "bi",
+        "subtext": "related to animals","transcription": "bi",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -468,9 +436,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "dək",
+        "subtext": "related to animals","transcription": "dək",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -492,9 +458,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "bɛr",
+        "subtext": "related to animals","transcription": "bɛr",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -516,9 +480,7 @@
                 ]
             }
         ],
-        "subtext": "related to pets",
-        "opposite": null,
-        "transcription": "pɛt",
+        "subtext": "related to pets","transcription": "pɛt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -540,9 +502,7 @@
                 ]
             }
         ],
-        "subtext": "related to pets",
-        "opposite": null,
-        "transcription": "ˈhæmstər",
+        "subtext": "related to pets","transcription": "ˈhæmstər",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -564,9 +524,7 @@
                 ]
             }
         ],
-        "subtext": "related to pets",
-        "opposite": null,
-        "transcription": "ˈlɪzərd",
+        "subtext": "related to pets","transcription": "ˈlɪzərd",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -588,9 +546,7 @@
                 ]
             }
         ],
-        "subtext": "related to pets",
-        "opposite": null,
-        "transcription": "ˈtərtəl",
+        "subtext": "related to pets","transcription": "ˈtərtəl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -612,9 +568,7 @@
                 ]
             }
         ],
-        "subtext": "related to animals",
-        "opposite": null,
-        "transcription": "ˈkrɑkəˌdaɪl",
+        "subtext": "related to animals","transcription": "ˈkrɑkəˌdaɪl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -636,9 +590,7 @@
                 ]
             }
         ],
-        "subtext": "related to sea animals",
-        "opposite": null,
-        "transcription": "ʃɑrk",
+        "subtext": "related to sea animals","transcription": "ʃɑrk",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -660,9 +612,7 @@
                 ]
             }
         ],
-        "subtext": "related to sea animals",
-        "opposite": null,
-        "transcription": "weɪl",
+        "subtext": "related to sea animals","transcription": "weɪl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -684,9 +634,7 @@
                 ]
             }
         ],
-        "subtext": "related to sea animals",
-        "opposite": null,
-        "transcription": "ˈdɑlfən",
+        "subtext": "related to sea animals","transcription": "ˈdɑlfən",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -708,9 +656,7 @@
                 ]
             }
         ],
-        "subtext": "related to sea animals",
-        "opposite": null,
-        "transcription": "ˈɑktəˌpʊs",
+        "subtext": "related to sea animals","transcription": "ˈɑktəˌpʊs",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -732,9 +678,7 @@
                 ]
             }
         ],
-        "subtext": "related to insects",
-        "opposite": null,
-        "transcription": "ˈbətərˌflaɪ",
+        "subtext": "related to insects","transcription": "ˈbətərˌflaɪ",
         "lang": "en",
         "level": "starter",
         "theme": "insects",
@@ -760,9 +704,7 @@
                 ]
             }
         ],
-        "subtext": "related to insects",
-        "opposite": null,
-        "transcription": "ænt",
+        "subtext": "related to insects","transcription": "ænt",
         "lang": "en",
         "level": "starter",
         "theme": "insects",
@@ -788,9 +730,7 @@
                     "I like animals."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈænəməl",
+        ],"transcription": "ˈænəməl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",

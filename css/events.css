@@ -4046,3 +4046,59 @@ body.theme-wonder-watched .mistake-note-text {
 .hidden-vocab-card {
   display: none !important;
 }
+
+/* ── Club-Specific Thematic Watermarks (Priority 4) ── */
+body.theme-science-aibrain, body.theme-science-impersonation {
+  background-image: radial-gradient(rgba(15, 110, 86, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+body[class*="theme-science"]::after {
+  content: "🔬";
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  font-size: 6rem;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: -1;
+}
+body[class*="theme-quotes"]::after {
+  content: "📜";
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  font-size: 6rem;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: -1;
+}
+body[class*="theme-mind"]::after {
+  content: "🧠";
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  font-size: 6rem;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: -1;
+}
+body.theme-cinema::after {
+  content: "🎬";
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  font-size: 6rem;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: -1;
+}
+body[class*="theme-wonder"]::after {
+  content: "🌌";
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  font-size: 6rem;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: -1;
+}

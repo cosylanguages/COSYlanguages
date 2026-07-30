@@ -18,9 +18,7 @@
                     "I have no cash, can I pay by card?"
                 ]
             }
-        ],
-        "opposite": null,
-        "lang": "en",
+        ],"lang": "en",
         "level": "starter",
         "theme": "shopping",
         "sub_theme": null
@@ -42,9 +40,7 @@
                     "I will pay by card."
                 ]
             }
-        ],
-        "opposite": null,
-        "lang": "en",
+        ],"lang": "en",
         "level": "starter",
         "theme": "shopping",
         "sub_theme": null
@@ -65,9 +61,7 @@
                     "I have money in my bag."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈməni",
+        ],"transcription": "ˈməni",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -89,9 +83,7 @@
                     "The price of food is high."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "praɪs",
+        ],"transcription": "praɪs",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -141,9 +133,7 @@
                     "A birthday gift."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "gɪft",
+        ],"transcription": "gɪft",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -165,9 +155,7 @@
                 ]
             }
         ],
-        "subtext": "related to everyday shopping",
-        "opposite": null,
-        "transcription": "pərs",
+        "subtext": "related to everyday shopping","transcription": "pərs",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -189,9 +177,7 @@
                 ]
             }
         ],
-        "subtext": "related to everyday shopping",
-        "opposite": null,
-        "transcription": "ˈkəstəmər",
+        "subtext": "related to everyday shopping","transcription": "ˈkəstəmər",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -217,9 +203,7 @@
                     "The minimum wage is increasing."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "weɪʤ",
+        ],"transcription": "weɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",

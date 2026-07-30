@@ -17,9 +17,7 @@
                     "His car is red."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "kɑr",
+        ],"transcription": "kɑr",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -41,9 +39,7 @@
                     "I take the bus to work."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "bəs",
+        ],"transcription": "bəs",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -65,9 +61,7 @@
                     "The train is fast."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "treɪn",
+        ],"transcription": "treɪn",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -89,9 +83,7 @@
                 ]
             }
         ],
-        "subtext": "related to public transport",
-        "opposite": null,
-        "transcription": "kəmˈjut",
+        "subtext": "related to public transport","transcription": "kəmˈjut",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -113,9 +105,7 @@
                 ]
             }
         ],
-        "subtext": "related to public transport",
-        "opposite": null,
-        "transcription": "hoʊˈtɛl",
+        "subtext": "related to public transport","transcription": "hoʊˈtɛl",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -165,9 +155,7 @@
                     "The plane lands at nine o'clock."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "pleɪn",
+        ],"transcription": "pleɪn",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -189,9 +177,7 @@
                     "He cycles to work on his bike."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "baɪk",
+        ],"transcription": "baɪk",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -213,9 +199,7 @@
                 ]
             }
         ],
-        "subtext": "related to public transport",
-        "opposite": null,
-        "transcription": "ˈɛrˌpɔrt",
+        "subtext": "related to public transport","transcription": "ˈɛrˌpɔrt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -237,9 +221,7 @@
                 ]
             }
         ],
-        "subtext": "related to modes of transport",
-        "opposite": null,
-        "transcription": "boʊt",
+        "subtext": "related to modes of transport","transcription": "boʊt",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -257,9 +239,7 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions movement",
-        "opposite": null,
-        "emoji": "➡️",
+        "subtext": "related to prepositions movement","emoji": "➡️",
         "transcription": "tɪ",
         "lang": "en",
         "level": "starter",
@@ -282,9 +262,7 @@
                 ]
             }
         ],
-        "subtext": "related to travel vocabulary basics",
-        "opposite": null,
-        "transcription": "ˈpæˌspɔrt",
+        "subtext": "related to travel vocabulary basics","transcription": "ˈpæˌspɔrt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -306,9 +284,7 @@
                 ]
             }
         ],
-        "subtext": "related to travel vocabulary basics",
-        "opposite": null,
-        "transcription": "ˈtɪkɪt",
+        "subtext": "related to travel vocabulary basics","transcription": "ˈtɪkɪt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -330,9 +306,7 @@
                 ]
             }
         ],
-        "subtext": "related to travel vocabulary basics",
-        "opposite": null,
-        "transcription": "trɪp",
+        "subtext": "related to travel vocabulary basics","transcription": "trɪp",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -400,9 +374,7 @@
                 ]
             }
         ],
-        "subtext": "related to modes of transport",
-        "opposite": null,
-        "transcription": "ˈtæksi",
+        "subtext": "related to modes of transport","transcription": "ˈtæksi",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -425,9 +397,7 @@
                 ]
             }
         ],
-        "subtext": "related to directions navigation",
-        "opposite": null,
-        "transcription": "weɪ",
+        "subtext": "related to directions navigation","transcription": "weɪ",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -549,9 +519,7 @@
                 ]
             }
         ],
-        "subtext": "related to modes of transport",
-        "opposite": null,
-        "transcription": "ˈskutər",
+        "subtext": "related to modes of transport","transcription": "ˈskutər",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -573,9 +541,7 @@
                 ]
             }
         ],
-        "subtext": "related to modes of transport",
-        "opposite": null,
-        "transcription": "ˈmoʊtərˌbaɪk",
+        "subtext": "related to modes of transport","transcription": "ˈmoʊtərˌbaɪk",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -600,9 +566,7 @@
                     "The truck is carrying food to the supermarket."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "trək",
+        ],"transcription": "trək",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -624,9 +588,7 @@
                 ]
             }
         ],
-        "subtext": "related to travel vocabulary basics",
-        "opposite": null,
-        "transcription": "ˈsutˌkeɪs",
+        "subtext": "related to travel vocabulary basics","transcription": "ˈsutˌkeɪs",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -648,9 +610,7 @@
                     "He goes to work by bicycle."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈbaɪsɪkəl",
+        ],"transcription": "ˈbaɪsɪkəl",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -675,9 +635,7 @@
                     "The traffic is very heavy this morning."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈtræfɪk",
+        ],"transcription": "ˈtræfɪk",
         "lang": "en",
         "level": "starter",
         "theme": "travel",

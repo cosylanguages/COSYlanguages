@@ -40,9 +40,7 @@
                 ]
             }
         ],
-        "subtext": "related to local places services",
-        "opposite": null,
-        "transcription": "ˈmɑːkɪt",
+        "subtext": "related to local places services","transcription": "ˈmɑːkɪt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -76,9 +74,7 @@
                 ]
             }
         ],
-        "subtext": "related to local places services",
-        "opposite": null,
-        "transcription": "pɑrk",
+        "subtext": "related to local places services","transcription": "pɑrk",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -101,9 +97,7 @@
                 ]
             }
         ],
-        "subtext": "related to local places services",
-        "opposite": null,
-        "transcription": "skul",
+        "subtext": "related to local places services","transcription": "skul",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -129,9 +123,7 @@
                     "The shop is open."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ʃɑp",
+        ],"transcription": "ʃɑp",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -181,9 +173,7 @@
                     "My neighbours are very nice."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈneɪbər",
+        ],"transcription": "ˈneɪbər",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -205,9 +195,7 @@
                     "He went to the hospital by ambulance."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈhɑˌspɪtəl",
+        ],"transcription": "ˈhɑˌspɪtəl",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -234,9 +222,7 @@
                     "We go to a restaurant on Fridays."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈrɛˌstrɑnt",
+        ],"transcription": "ˈrɛˌstrɑnt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -263,9 +249,7 @@
                     "The bank is near my office."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "bæŋk",
+        ],"transcription": "bæŋk",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -292,9 +276,7 @@
                     "The station is ten minutes from here."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈsteɪʃən",
+        ],"transcription": "ˈsteɪʃən",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -321,9 +303,7 @@
                     "I go to the supermarket on Saturdays."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈsupərˌmɑrkɪt",
+        ],"transcription": "ˈsupərˌmɑrkɪt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -350,9 +330,7 @@
                 ]
             }
         ],
-        "subtext": "related to address location",
-        "opposite": null,
-        "transcription": "strit",
+        "subtext": "related to address location","transcription": "strit",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -374,9 +352,7 @@
                 ]
             }
         ],
-        "subtext": "related to address location",
-        "opposite": null,
-        "transcription": "ˈbɪldɪŋ",
+        "subtext": "related to address location","transcription": "ˈbɪldɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -398,9 +374,7 @@
                 ]
             }
         ],
-        "subtext": "related to local places services",
-        "opposite": null,
-        "transcription": "kəˈfeɪ",
+        "subtext": "related to local places services","transcription": "kəˈfeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -422,9 +396,7 @@
                     "The bank is in the city centre."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈsɛntər",
+        ],"transcription": "ˈsɛntər",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -446,9 +418,7 @@
                 ]
             }
         ],
-        "subtext": "related to address location",
-        "opposite": null,
-        "transcription": "ˈɛriə",
+        "subtext": "related to address location","transcription": "ˈɛriə",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -467,9 +437,7 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place",
-        "opposite": null,
-        "transcription": "ðɛr",
+        "subtext": "related to prepositions place","transcription": "ðɛr",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -491,9 +459,7 @@
                 ]
             }
         ],
-        "subtext": "related to cities towns",
-        "opposite": null,
-        "transcription": "ˈsɪti",
+        "subtext": "related to cities towns","transcription": "ˈsɪti",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
@@ -519,9 +485,7 @@
                 ]
             }
         ],
-        "subtext": "related to cities towns",
-        "opposite": null,
-        "transcription": "taʊn",
+        "subtext": "related to cities towns","transcription": "taʊn",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
@@ -547,9 +511,7 @@
                 ]
             }
         ],
-        "subtext": "related to cities towns",
-        "opposite": null,
-        "transcription": "ˈvɪlɪʤ",
+        "subtext": "related to cities towns","transcription": "ˈvɪlɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
@@ -571,9 +533,7 @@
                 ]
             }
         ],
-        "subtext": "related to countries capitals",
-        "opposite": null,
-        "transcription": "ˈkəntri",
+        "subtext": "related to countries capitals","transcription": "ˈkəntri",
         "lang": "en",
         "level": "starter",
         "theme": "countries_capitals",
@@ -582,9 +542,7 @@
     {
         "id": "en_starter_prepositions_place_010",
         "word": "with",
-        "form": "preposition",
-        "opposite": null,
-        "definitions": [
+        "form": "preposition","definitions": [
             {
                 "text": "In the company of or including.",
                 "examples": [
@@ -603,9 +561,7 @@
     {
         "id": "en_starter_prepositions_place_011",
         "word": "without",
-        "form": "preposition",
-        "opposite": null,
-        "definitions": [
+        "form": "preposition","definitions": [
             {
                 "text": "Not having or including something.",
                 "examples": [
@@ -633,9 +589,7 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place",
-        "opposite": null,
-        "emoji": "⬅️",
+        "subtext": "related to prepositions place","emoji": "⬅️",
         "transcription": "frəm",
         "lang": "en",
         "level": "starter",
@@ -658,9 +612,7 @@
                 ]
             }
         ],
-        "subtext": "related to countries capitals",
-        "opposite": null,
-        "transcription": "wərld",
+        "subtext": "related to countries capitals","transcription": "wərld",
         "lang": "en",
         "level": "starter",
         "theme": "countries_capitals",
@@ -682,9 +634,7 @@
                 ]
             }
         ],
-        "subtext": "related to local places services",
-        "opposite": null,
-        "transcription": "pleɪs",
+        "subtext": "related to local places services","transcription": "pleɪs",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -707,9 +657,7 @@
                     "Please write your address here."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "əˈdres",
+        ],"transcription": "əˈdres",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -734,9 +682,7 @@
                     "I bought a dictionary at the bookshop."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈbʊkˌʃɑp",
+        ],"transcription": "ˈbʊkˌʃɑp",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -758,9 +704,7 @@
                     "The road is very busy."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "roʊd",
+        ],"transcription": "roʊd",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -873,9 +817,7 @@
                     "Call the police!"
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "pəˈlis",
+        ],"transcription": "pəˈlis",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -900,9 +842,7 @@
                     "They live on a big farm."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "fɑrm",
+        ],"transcription": "fɑrm",
         "lang": "en",
         "level": "starter",
         "theme": "places",

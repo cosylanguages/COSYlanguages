@@ -28,9 +28,7 @@
                     "Doctors wear white coats."
                 ]
             }
-        ],
-        "opposite": null,
-        "lang": "en",
+        ],"lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
         "sub_theme": null
@@ -51,9 +49,7 @@
                     "I am writing a report."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "rɪˈpɔːt",
+        ],"transcription": "rɪˈpɔːt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -61,9 +57,7 @@
     },
     {
         "id": "en_starter_job_titles_professions_003",
-        "word": "teacher",
-        "opposite": null,
-        "emoji": "🧑‍🏫",
+        "word": "teacher","emoji": "🧑‍🏫",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,9 +128,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "ʤɑb",
+        "subtext": "related to job titles professions","transcription": "ʤɑb",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -158,9 +150,7 @@
                     "My boss is very friendly."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "bɔs",
+        ],"transcription": "bɔs",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -182,9 +172,7 @@
                 ]
             }
         ],
-        "subtext": "related to workplace basics",
-        "opposite": null,
-        "transcription": "ˈkɑlig",
+        "subtext": "related to workplace basics","transcription": "ˈkɑlig",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -207,9 +195,7 @@
                     "The meeting is in the office."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈmitɪŋ",
+        ],"transcription": "ˈmitɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -261,9 +247,7 @@
                     "The bus driver was friendly."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈdraɪvər",
+        ],"transcription": "ˈdraɪvər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -285,9 +269,7 @@
                     "My manager works very long hours."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈmænɪʤər",
+        ],"transcription": "ˈmænɪʤər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -309,9 +291,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "ˈæktər",
+        "subtext": "related to job titles professions","transcription": "ˈæktər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -333,9 +313,7 @@
                 ]
             }
         ],
-        "subtext": "related to workplace basics",
-        "opposite": null,
-        "transcription": "ˈbɪznɪs",
+        "subtext": "related to workplace basics","transcription": "ˈbɪznɪs",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -357,9 +335,7 @@
                 ]
             }
         ],
-        "subtext": "related to workplace basics",
-        "opposite": null,
-        "transcription": "ˈkəmpəˌni",
+        "subtext": "related to workplace basics","transcription": "ˈkəmpəˌni",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -381,9 +357,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "ˈfɑrmər",
+        "subtext": "related to job titles professions","transcription": "ˈfɑrmər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -405,9 +379,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "ˈpaɪlət",
+        "subtext": "related to job titles professions","transcription": "ˈpaɪlət",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -429,9 +401,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "ˈweɪtər",
+        "subtext": "related to job titles professions","transcription": "ˈweɪtər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -453,9 +423,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "ˈweɪtrəs",
+        "subtext": "related to job titles professions","transcription": "ˈweɪtrəs",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -477,9 +445,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "ˈdɛntɪst",
+        "subtext": "related to job titles professions","transcription": "ˈdɛntɪst",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -501,9 +467,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "pəˈlis ˈɔfɪsər",
+        "subtext": "related to job titles professions","transcription": "pəˈlis ˈɔfɪsər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -525,9 +489,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "ˈfaɪrˌfaɪtər",
+        "subtext": "related to job titles professions","transcription": "ˈfaɪrˌfaɪtər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -549,9 +511,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "ˈsoʊlʤər",
+        "subtext": "related to job titles professions","transcription": "ˈsoʊlʤər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -573,9 +533,7 @@
                     "Let's take a fifteen-minute break."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "breɪk",
+        ],"transcription": "breɪk",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -597,9 +555,7 @@
                     "He is a famous writer."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈraɪtər",
+        ],"transcription": "ˈraɪtər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -625,9 +581,7 @@
                     "The hospital staff are very helpful."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "stæf",
+        ],"transcription": "stæf",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -649,9 +603,7 @@
                     "She wants to start a career in nursing."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "kərɪr",
+        ],"transcription": "kərɪr",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -677,9 +629,7 @@
                     "Teaching is a difficult profession."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "prəˈfɛʃən",
+        ],"transcription": "prəˈfɛʃən",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -701,9 +651,7 @@
                 ]
             }
         ],
-        "subtext": "related to workplace basics",
-        "opposite": null,
-        "transcription": "ˈfæktəri",
+        "subtext": "related to workplace basics","transcription": "ˈfæktəri",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -725,9 +673,7 @@
                 ]
             }
         ],
-        "subtext": "related to workplace basics",
-        "opposite": null,
-        "transcription": "faɪl",
+        "subtext": "related to workplace basics","transcription": "faɪl",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -749,9 +695,7 @@
                 ]
             }
         ],
-        "subtext": "related to workplace basics",
-        "opposite": null,
-        "transcription": "ˈdɑkjəmɛnt",
+        "subtext": "related to workplace basics","transcription": "ˈdɑkjəmɛnt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -773,9 +717,7 @@
                 ]
             }
         ],
-        "subtext": "related to job titles professions",
-        "opposite": null,
-        "transcription": "prəˈfɛsər",
+        "subtext": "related to job titles professions","transcription": "prəˈfɛsər",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -800,9 +742,7 @@
                     "We work in a small group."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "grup",
+        ],"transcription": "grup",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -827,9 +767,7 @@
                     "She is a famous actress."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈæktrəs",
+        ],"transcription": "ˈæktrəs",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -1281,9 +1219,7 @@
         "v2": "met",
         "v3": "met",
         "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "mit",
+        "group": "irregular","transcription": "mit",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1504,9 +1440,7 @@
         "v3": "got up",
         "emoji": "🛌",
         "form": "verb",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "gɪt əp",
+        "group": "irregular","transcription": "gɪt əp",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1533,9 +1467,7 @@
         "v3": "had breakfast",
         "emoji": "🍳",
         "form": "verb",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "hæv ˈbrɛkfəst",
+        "group": "irregular","transcription": "hæv ˈbrɛkfəst",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1559,9 +1491,7 @@
         "v3": "come back",
         "emoji": "🔙",
         "form": "verb",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "kəm bæk",
+        "group": "irregular","transcription": "kəm bæk",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1585,9 +1515,7 @@
         "v3": "gone to bed",
         "emoji": "🛌",
         "form": "verb",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "goʊ tɪ bɛd",
+        "group": "irregular","transcription": "goʊ tɪ bɛd",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2112,9 +2040,7 @@
         "aspect": "action",
         "v2": "set",
         "v3": "set",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "sɛt",
+        "group": "irregular","transcription": "sɛt",
         "lang": "en",
         "level": "starter",
         "theme": "work",

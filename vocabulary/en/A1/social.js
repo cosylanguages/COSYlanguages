@@ -48,9 +48,7 @@
                     "We have a holiday in July."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈhɑlɪˌdeɪ",
+        ],"transcription": "ˈhɑlɪˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -71,9 +69,7 @@
                 ]
             }
         ],
-        "subtext": "related to leisure activities",
-        "opposite": null,
-        "transcription": "fri taɪm",
+        "subtext": "related to leisure activities","transcription": "fri taɪm",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -95,9 +91,7 @@
                     "Let's go to the cinema tonight."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈsɪnəmə",
+        ],"transcription": "ˈsɪnəmə",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -119,9 +113,7 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure",
-        "opposite": null,
-        "transcription": "mˈjuziəm",
+        "subtext": "related to places culture leisure","transcription": "mˈjuziəm",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -143,9 +135,7 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure",
-        "opposite": null,
-        "transcription": "ˈlaɪbrɛˌri",
+        "subtext": "related to places culture leisure","transcription": "ˈlaɪbrɛˌri",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -167,9 +157,7 @@
                 ]
             }
         ],
-        "subtext": "related to sports equipment",
-        "opposite": null,
-        "transcription": "bɔl",
+        "subtext": "related to sports equipment","transcription": "bɔl",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -191,9 +179,7 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure",
-        "opposite": null,
-        "transcription": "ɑrt",
+        "subtext": "related to places culture leisure","transcription": "ɑrt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -215,9 +201,7 @@
                 ]
             }
         ],
-        "subtext": "related to music",
-        "opposite": null,
-        "transcription": "bænd",
+        "subtext": "related to music","transcription": "bænd",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -239,9 +223,7 @@
                 ]
             }
         ],
-        "subtext": "related to music",
-        "opposite": null,
-        "transcription": "ˈkɑnsərt",
+        "subtext": "related to music","transcription": "ˈkɑnsərt",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -263,9 +245,7 @@
                 ]
             }
         ],
-        "subtext": "related to leisure activities",
-        "opposite": null,
-        "transcription": "geɪm",
+        "subtext": "related to leisure activities","transcription": "geɪm",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -287,9 +267,7 @@
                 ]
             }
         ],
-        "subtext": "related to music",
-        "opposite": null,
-        "transcription": "mˈjuzɪk",
+        "subtext": "related to music","transcription": "mˈjuzɪk",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -311,9 +289,7 @@
                 ]
             }
         ],
-        "subtext": "related to music",
-        "opposite": null,
-        "transcription": "sɔŋ",
+        "subtext": "related to music","transcription": "sɔŋ",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -335,9 +311,7 @@
                 ]
             }
         ],
-        "subtext": "related to common sports",
-        "opposite": null,
-        "transcription": "spɔrt",
+        "subtext": "related to common sports","transcription": "spɔrt",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -362,9 +336,7 @@
                     "They are playing football in the park."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈfʊtˌbɔl",
+        ],"transcription": "ˈfʊtˌbɔl",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -386,9 +358,7 @@
                 ]
             }
         ],
-        "subtext": "related to common sports",
-        "opposite": null,
-        "transcription": "ˈtɛnɪs",
+        "subtext": "related to common sports","transcription": "ˈtɛnɪs",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -410,9 +380,7 @@
                 ]
             }
         ],
-        "subtext": "related to music",
-        "opposite": null,
-        "transcription": "gɪˈtɑr",
+        "subtext": "related to music","transcription": "gɪˈtɑr",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -434,9 +402,7 @@
                 ]
             }
         ],
-        "subtext": "related to music",
-        "opposite": null,
-        "transcription": "piˈænə",
+        "subtext": "related to music","transcription": "piˈænə",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -458,9 +424,7 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure",
-        "opposite": null,
-        "transcription": "zu",
+        "subtext": "related to places culture leisure","transcription": "zu",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -485,9 +449,7 @@
                     "We are going to the theatre tonight."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈθiətər",
+        ],"transcription": "ˈθiətər",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -509,9 +471,7 @@
                 ]
             }
         ],
-        "subtext": "related to toys games",
-        "opposite": null,
-        "transcription": "tɔɪ",
+        "subtext": "related to toys games","transcription": "tɔɪ",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -533,9 +493,7 @@
                 ]
             }
         ],
-        "subtext": "related to toys games",
-        "opposite": null,
-        "transcription": "dɑl",
+        "subtext": "related to toys games","transcription": "dɑl",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -557,9 +515,7 @@
                 ]
             }
         ],
-        "subtext": "related to toys games",
-        "opposite": null,
-        "transcription": "ˈroʊˌbət",
+        "subtext": "related to toys games","transcription": "ˈroʊˌbət",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -581,9 +537,7 @@
                 ]
             }
         ],
-        "subtext": "related to toys games",
-        "opposite": null,
-        "transcription": "ˈmɑnstər",
+        "subtext": "related to toys games","transcription": "ˈmɑnstər",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -605,9 +559,7 @@
                 ]
             }
         ],
-        "subtext": "related to toys games",
-        "opposite": null,
-        "transcription": "ˈeɪliən",
+        "subtext": "related to toys games","transcription": "ˈeɪliən",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -629,9 +581,7 @@
                 ]
             }
         ],
-        "subtext": "related to toys games",
-        "opposite": null,
-        "transcription": "kaɪt",
+        "subtext": "related to toys games","transcription": "kaɪt",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -653,9 +603,7 @@
                 ]
             }
         ],
-        "subtext": "related to toys games",
-        "opposite": null,
-        "transcription": "bəˈlun",
+        "subtext": "related to toys games","transcription": "bəˈlun",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -677,9 +625,7 @@
                 ]
             }
         ],
-        "subtext": "related to hobbies interests",
-        "opposite": null,
-        "transcription": "ˈhɑbi",
+        "subtext": "related to hobbies interests","transcription": "ˈhɑbi",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -701,9 +647,7 @@
                 ]
             }
         ],
-        "subtext": "related to leisure activities",
-        "opposite": null,
-        "transcription": "ˈpleɪˌgraʊnd",
+        "subtext": "related to leisure activities","transcription": "ˈpleɪˌgraʊnd",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -726,9 +670,7 @@
                 ]
             }
         ],
-        "subtext": "related to books reading",
-        "opposite": null,
-        "transcription": "ˈstɔri",
+        "subtext": "related to books reading","transcription": "ˈstɔri",
         "lang": "en",
         "level": "starter",
         "theme": "books_reading",
@@ -750,9 +692,7 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure",
-        "opposite": null,
-        "transcription": "ˈpeɪnɪŋ",
+        "subtext": "related to places culture leisure","transcription": "ˈpeɪnɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -774,9 +714,7 @@
                 ]
             }
         ],
-        "subtext": "related to common sports",
-        "opposite": null,
-        "transcription": "ˈbæskətˌbɔl",
+        "subtext": "related to common sports","transcription": "ˈbæskətˌbɔl",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -798,9 +736,7 @@
                 ]
             }
         ],
-        "subtext": "related to common sports",
-        "opposite": null,
-        "transcription": "ˈbeɪsˈbɔl",
+        "subtext": "related to common sports","transcription": "ˈbeɪsˈbɔl",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -822,9 +758,7 @@
                 ]
             }
         ],
-        "subtext": "related to sports equipment",
-        "opposite": null,
-        "transcription": "bæt",
+        "subtext": "related to sports equipment","transcription": "bæt",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -846,9 +780,7 @@
                 ]
             }
         ],
-        "subtext": "related to musical instruments",
-        "opposite": null,
-        "transcription": "vaɪəˈlɪn",
+        "subtext": "related to musical instruments","transcription": "vaɪəˈlɪn",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -870,9 +802,7 @@
                 ]
             }
         ],
-        "subtext": "related to musical instruments",
-        "opposite": null,
-        "transcription": "drəmz",
+        "subtext": "related to musical instruments","transcription": "drəmz",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -894,9 +824,7 @@
                 ]
             }
         ],
-        "subtext": "related to musical instruments",
-        "opposite": null,
-        "transcription": "flut",
+        "subtext": "related to musical instruments","transcription": "flut",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -918,9 +846,7 @@
                     "I like watching films."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "fɪlm",
+        ],"transcription": "fɪlm",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -942,9 +868,7 @@
                     "Let's watch a movie tonight."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈmuvi",
+        ],"transcription": "ˈmuvi",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -966,9 +890,7 @@
                     "We are having a party on Saturday."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈpɑrti",
+        ],"transcription": "ˈpɑrti",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -990,9 +912,7 @@
                     "Can I take a photo of you?"
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈfoʊˌtoʊ",
+        ],"transcription": "ˈfoʊˌtoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -1014,9 +934,7 @@
                     "The children are drawing pictures."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈpɪkʧər",
+        ],"transcription": "ˈpɪkʧər",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -1038,9 +956,7 @@
                 ]
             }
         ],
-        "subtext": "related to leisure activities",
-        "opposite": null,
-        "transcription": "gɛst",
+        "subtext": "related to leisure activities","transcription": "gɛst",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -1065,9 +981,7 @@
                     "I go to the gym three times a week."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ʤɪm",
+        ],"transcription": "ʤɪm",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -1231,9 +1145,7 @@
         "aspect": "action",
         "v2": "drew",
         "v3": "drawn",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "drɔ",
+        "group": "irregular","transcription": "drɔ",
         "lang": "en",
         "level": "starter",
         "theme": "social",

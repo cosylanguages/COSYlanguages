@@ -18,9 +18,7 @@
                 ]
             }
         ],
-        "subtext": "related to accessories",
-        "opposite": null,
-        "lang": "en",
+        "subtext": "related to accessories","lang": "en",
         "level": "starter",
         "theme": "accessories",
         "sub_theme": null
@@ -42,9 +40,7 @@
                 ]
             }
         ],
-        "subtext": "related to accessories",
-        "opposite": null,
-        "lang": "en",
+        "subtext": "related to accessories","lang": "en",
         "level": "starter",
         "theme": "accessories",
         "sub_theme": null
@@ -66,9 +62,7 @@
                 ]
             }
         ],
-        "subtext": "related to accessories",
-        "opposite": null,
-        "lang": "en",
+        "subtext": "related to accessories","lang": "en",
         "level": "starter",
         "theme": "accessories",
         "sub_theme": null
@@ -90,9 +84,7 @@
                     "He wears a suit to work."
                 ]
             }
-        ],
-        "opposite": null,
-        "lang": "en",
+        ],"lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
         "sub_theme": "formal",
@@ -118,9 +110,7 @@
                     "He is wearing a leather jacket."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈdʒækɪt",
+        ],"transcription": "ˈdʒækɪt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -146,9 +136,7 @@
                     "He wears a white shirt to work."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ʃɜːt",
+        ],"transcription": "ʃɜːt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -174,9 +162,7 @@
                     "I am wearing a white t-shirt."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈtiˌsərt",
+        ],"transcription": "ˈtiˌsərt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -201,9 +187,7 @@
                     "I need new pants."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "pænts",
+        ],"transcription": "pænts",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -230,9 +214,7 @@
                     "Put on your shoes."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ʃu",
+        ],"transcription": "ʃu",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -258,9 +240,7 @@
                     "She is wearing a beautiful hat."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "hæt",
+        ],"transcription": "hæt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -282,9 +262,7 @@
                     "Put on your coat — it's cold."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "koʊt",
+        ],"transcription": "koʊt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -306,9 +284,7 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing",
-        "opposite": null,
-        "transcription": "sɑks",
+        "subtext": "related to items of clothing","transcription": "sɑks",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -333,9 +309,7 @@
                     "It's cold, wear a sweater."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "sˈwɛtər",
+        ],"transcription": "sˈwɛtər",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -357,9 +331,7 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing",
-        "opposite": null,
-        "transcription": "drɛs",
+        "subtext": "related to items of clothing","transcription": "drɛs",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -381,9 +353,7 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing",
-        "opposite": null,
-        "transcription": "skərt",
+        "subtext": "related to items of clothing","transcription": "skərt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -405,9 +375,7 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing",
-        "opposite": null,
-        "transcription": "buts",
+        "subtext": "related to items of clothing","transcription": "buts",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -429,9 +397,7 @@
                 ]
             }
         ],
-        "subtext": "related to accessories",
-        "opposite": null,
-        "transcription": "ˈglæsɪz",
+        "subtext": "related to accessories","transcription": "ˈglæsɪz",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -453,9 +419,7 @@
                 ]
             }
         ],
-        "subtext": "related to accessories",
-        "opposite": null,
-        "transcription": "wɔʧ",
+        "subtext": "related to accessories","transcription": "wɔʧ",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -477,9 +441,7 @@
                     "I am wearing blue jeans."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ʤinz",
+        ],"transcription": "ʤinz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -506,9 +468,7 @@
                 ]
             }
         ],
-        "subtext": "related to accessories",
-        "opposite": null,
-        "transcription": "bɛlt",
+        "subtext": "related to accessories","transcription": "bɛlt",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -530,9 +490,7 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing",
-        "opposite": null,
-        "transcription": "taɪ",
+        "subtext": "related to items of clothing","transcription": "taɪ",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -554,9 +512,7 @@
                 ]
             }
         ],
-        "subtext": "related to accessories",
-        "opposite": null,
-        "transcription": "rɪŋ",
+        "subtext": "related to accessories","transcription": "rɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -578,9 +534,7 @@
                 ]
             }
         ],
-        "subtext": "related to accessories",
-        "opposite": null,
-        "transcription": "ˈnɛkləs",
+        "subtext": "related to accessories","transcription": "ˈnɛkləs",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -602,9 +556,7 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing",
-        "opposite": null,
-        "transcription": "pəˈdʒɑːməz",
+        "subtext": "related to items of clothing","transcription": "pəˈdʒɑːməz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -631,9 +583,7 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing",
-        "opposite": null,
-        "transcription": "ʃɔrts",
+        "subtext": "related to items of clothing","transcription": "ʃɔrts",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -658,9 +608,7 @@
                     "I need a new pair of trainers."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈtreɪnərz",
+        ],"transcription": "ˈtreɪnərz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -683,9 +631,7 @@
                     "She is wearing beautiful clothes."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz",
+        ],"transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -707,9 +653,7 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing",
-        "opposite": null,
-        "transcription": "ˈpɑkət",
+        "subtext": "related to items of clothing","transcription": "ˈpɑkət",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -731,9 +675,7 @@
                     "Take off your shoes."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ʃuz",
+        ],"transcription": "ʃuz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -755,9 +697,7 @@
                     "She is wearing a lot of jewelry."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈʤuəlri",
+        ],"transcription": "ˈʤuəlri",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",

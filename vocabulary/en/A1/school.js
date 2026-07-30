@@ -8,9 +8,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "students",
-        "opposite": null,
-        "definitions": [
+        "plural": "students","definitions": [
             {
                 "text": "A person who is studying at a school or university.",
                 "examples": [
@@ -46,9 +44,7 @@
                 ]
             }
         ],
-        "subtext": "related to learning studying",
-        "opposite": null,
-        "transcription": "ˈklæsˌmeɪt",
+        "subtext": "related to learning studying","transcription": "ˈklæsˌmeɪt",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -70,9 +66,7 @@
                 ]
             }
         ],
-        "subtext": "related to types of education",
-        "opposite": null,
-        "transcription": "ˈkɑlɪʤ",
+        "subtext": "related to types of education","transcription": "ˈkɑlɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "types_of_education",
@@ -94,9 +88,7 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language",
-        "opposite": null,
-        "transcription": "mæp",
+        "subtext": "related to classroom language","transcription": "mæp",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -118,9 +110,7 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language",
-        "opposite": null,
-        "transcription": "ˈrulər",
+        "subtext": "related to classroom language","transcription": "ˈrulər",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -142,9 +132,7 @@
                 ]
             }
         ],
-        "subtext": "related to school subjects",
-        "opposite": null,
-        "transcription": "ˈhɪstəri",
+        "subtext": "related to school subjects","transcription": "ˈhɪstəri",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -171,9 +159,7 @@
                 ]
             }
         ],
-        "subtext": "related to school subjects",
-        "opposite": null,
-        "transcription": "saɪəns",
+        "subtext": "related to school subjects","transcription": "saɪəns",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -203,9 +189,7 @@
                     "Maths is my favorite subject."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "mæθs",
+        ],"transcription": "mæθs",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -232,9 +216,7 @@
                 ]
             }
         ],
-        "subtext": "related to school subjects",
-        "opposite": null,
-        "transcription": "ʤiˈɑgrəfi",
+        "subtext": "related to school subjects","transcription": "ʤiˈɑgrəfi",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -261,9 +243,7 @@
                 ]
             }
         ],
-        "subtext": "related to learning studying",
-        "opposite": null,
-        "transcription": "ˈlɛsən",
+        "subtext": "related to learning studying","transcription": "ˈlɛsən",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -290,9 +270,7 @@
                 ]
             }
         ],
-        "subtext": "related to learning studying",
-        "opposite": null,
-        "transcription": "ˈhoʊmˌwərk",
+        "subtext": "related to learning studying","transcription": "ˈhoʊmˌwərk",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -314,9 +292,7 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language",
-        "opposite": null,
-        "transcription": "ˈdɪkʃəˌnɛri",
+        "subtext": "related to classroom language","transcription": "ˈdɪkʃəˌnɛri",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -342,9 +318,7 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language",
-        "opposite": null,
-        "transcription": "wərd",
+        "subtext": "related to classroom language","transcription": "wərd",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -367,9 +341,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "bɔrd",
+        "subtext": "related to school stationery","transcription": "bɔrd",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -394,9 +366,7 @@
                     "Can I borrow your eraser?"
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ɪˈreɪsər",
+        ],"transcription": "ɪˈreɪsər",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -418,9 +388,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "ˈpɛnsəl keɪs",
+        "subtext": "related to school stationery","transcription": "ˈpɛnsəl keɪs",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -442,9 +410,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "ˈnoʊtˌbʊk",
+        "subtext": "related to school stationery","transcription": "ˈnoʊtˌbʊk",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -466,9 +432,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "ˈtɛkstˌbʊk",
+        "subtext": "related to school stationery","transcription": "ˈtɛkstˌbʊk",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -490,9 +454,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "ˈbækˌpæk",
+        "subtext": "related to school stationery","transcription": "ˈbækˌpæk",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -514,9 +476,7 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language",
-        "opposite": null,
-        "transcription": "ˈpoʊstər",
+        "subtext": "related to classroom language","transcription": "ˈpoʊstər",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -538,9 +498,7 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language",
-        "opposite": null,
-        "transcription": "ˈsɛntəns",
+        "subtext": "related to classroom language","transcription": "ˈsɛntəns",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -562,9 +520,7 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language",
-        "opposite": null,
-        "transcription": "peɪʤ",
+        "subtext": "related to classroom language","transcription": "peɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -586,9 +542,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "ˈɛnvəˌloʊp",
+        "subtext": "related to school stationery","transcription": "ˈɛnvəˌloʊp",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -610,9 +564,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "stæmp",
+        "subtext": "related to school stationery","transcription": "stæmp",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -634,9 +586,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "ˈsteɪpələr",
+        "subtext": "related to school stationery","transcription": "ˈsteɪpələr",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -658,9 +608,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "glu",
+        "subtext": "related to school stationery","transcription": "glu",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -682,9 +630,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "ˈsɪzərz",
+        "subtext": "related to school stationery","transcription": "ˈsɪzərz",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -706,9 +652,7 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery",
-        "opposite": null,
-        "transcription": "ˈkælkjəˌleɪtər",
+        "subtext": "related to school stationery","transcription": "ˈkælkjəˌleɪtər",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -730,9 +674,7 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language",
-        "opposite": null,
-        "transcription": "gloʊb",
+        "subtext": "related to classroom language","transcription": "gloʊb",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -754,9 +696,7 @@
                     "I have an English exam tomorrow."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ɪgˈzæm",
+        ],"transcription": "ɪgˈzæm",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -778,9 +718,7 @@
                     "Can you give me an example?"
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ɪgˈzæmpəl",
+        ],"transcription": "ɪgˈzæmpəl",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -802,9 +740,7 @@
                     "I have a maths test today."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "tɛst",
+        ],"transcription": "tɛst",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -826,9 +762,7 @@
                     "She is studying at university."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˌjunəˈvərsəti",
+        ],"transcription": "ˌjunəˈvərsəti",
         "lang": "en",
         "level": "starter",
         "theme": "types_of_education",
@@ -855,9 +789,7 @@
                     "She has good communication skills."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "skɪl",
+        ],"transcription": "skɪl",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -879,9 +811,7 @@
                     "I have an English class at nine o'clock."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "klæs",
+        ],"transcription": "klæs",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -903,9 +833,7 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language",
-        "opposite": null,
-        "transcription": "ˈklæsˌrum",
+        "subtext": "related to classroom language","transcription": "ˈklæsˌrum",
         "lang": "en",
         "level": "starter",
         "theme": "language",

@@ -320,6 +320,7 @@ function mobileMenuHTML (mode) {
     return `
       <a href="${p}index.html" data-translate-key="nav_home">Home</a>
       <a href="${p}practice/index.html" data-translate-key="nav_practice">💡 Practice</a>
+      <a href="${p}notebook/index.html" data-translate-key="nav_notebook">📓 Notebook</a>
       <a href="${p}games/index.html" data-translate-key="nav_games">🎮 Games</a>
       <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>

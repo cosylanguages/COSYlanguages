@@ -18,9 +18,7 @@
                 ]
             }
         ],
-        "subtext": "related to immediate family",
-        "opposite": null,
-        "transcription": "ˈməðər",
+        "subtext": "related to immediate family","transcription": "ˈməðər",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -48,9 +46,7 @@
                 ]
             }
         ],
-        "subtext": "related to immediate family",
-        "opposite": null,
-        "transcription": "ˈfɑðər",
+        "subtext": "related to immediate family","transcription": "ˈfɑðər",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -77,9 +73,7 @@
                 ]
             }
         ],
-        "subtext": "related to immediate family",
-        "opposite": null,
-        "transcription": "ˈfæməli",
+        "subtext": "related to immediate family","transcription": "ˈfæməli",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -101,9 +95,7 @@
                 ]
             }
         ],
-        "subtext": "related to immediate family",
-        "opposite": null,
-        "transcription": "frɛnd",
+        "subtext": "related to immediate family","transcription": "frɛnd",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -121,9 +113,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "husbands",
-        "opposite": null,
-        "subtext": "related to immediate family",
+        "plural": "husbands","subtext": "related to immediate family",
         "synonyms": [
             "spouse",
             "partner"
@@ -149,9 +139,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "wives",
-        "opposite": null,
-        "subtext": "related to immediate family",
+        "plural": "wives","subtext": "related to immediate family",
         "synonyms": [
             "spouse",
             "partner"
@@ -219,9 +207,7 @@
                     "My parents live in the north."
                 ]
             }
-        ],
-        "opposite": null,
-        "transcription": "ˈpɛrənt",
+        ],"transcription": "ˈpɛrənt",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -234,9 +220,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "sisters",
-        "opposite": null,
-        "subtext": "elder sister, younger sister",
+        "plural": "sisters","subtext": "elder sister, younger sister",
         "definitions": [
             {
                 "text": "A girl or woman who has the same parents as another person.",
@@ -264,9 +248,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "brothers",
-        "opposite": null,
-        "subtext": "elder brother, younger brother",
+        "plural": "brothers","subtext": "elder brother, younger brother",
         "definitions": [
             {
                 "text": "A boy or man who has the same parents as another person.",
@@ -294,9 +276,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "sons",
-        "opposite": null,
-        "definitions": [
+        "plural": "sons","definitions": [
             {
                 "text": "A person's male child.",
                 "examples": [
@@ -323,9 +303,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "daughters",
-        "opposite": null,
-        "definitions": [
+        "plural": "daughters","definitions": [
             {
                 "text": "A person's female child.",
                 "examples": [
@@ -352,9 +330,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "grandfathers",
-        "opposite": null,
-        "definitions": [
+        "plural": "grandfathers","definitions": [
             {
                 "text": "The father of your father or mother.",
                 "examples": [
@@ -376,9 +352,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "grandmothers",
-        "opposite": null,
-        "definitions": [
+        "plural": "grandmothers","definitions": [
             {
                 "text": "The mother of your father or mother.",
                 "examples": [
@@ -400,9 +374,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "uncles",
-        "opposite": null,
-        "definitions": [
+        "plural": "uncles","definitions": [
             {
                 "text": "The brother of your mother or father, or the husband of your aunt.",
                 "examples": [
@@ -424,9 +396,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "aunts",
-        "opposite": null,
-        "definitions": [
+        "plural": "aunts","definitions": [
             {
                 "text": "The sister of your mother or father, or the wife of your uncle.",
                 "examples": [
@@ -457,9 +427,7 @@
                 ]
             }
         ],
-        "subtext": "related to extended family",
-        "opposite": null,
-        "transcription": "ˈkəzən",
+        "subtext": "related to extended family","transcription": "ˈkəzən",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -481,9 +449,7 @@
                 ]
             }
         ],
-        "subtext": "related to immediate family",
-        "opposite": null,
-        "transcription": "ˈbeɪbi",
+        "subtext": "related to immediate family","transcription": "ˈbeɪbi",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -505,9 +471,7 @@
                 ]
             }
         ],
-        "subtext": "related to immediate family",
-        "opposite": null,
-        "transcription": "dæd",
+        "subtext": "related to immediate family","transcription": "dæd",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -529,9 +493,7 @@
                 ]
             }
         ],
-        "subtext": "related to immediate family",
-        "opposite": null,
-        "transcription": "məm",
+        "subtext": "related to immediate family","transcription": "məm",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -544,9 +506,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "nephews",
-        "opposite": null,
-        "definitions": [
+        "plural": "nephews","definitions": [
             {
                 "text": "The son of your brother or sister.",
                 "examples": [
@@ -568,9 +528,7 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "nieces",
-        "opposite": null,
-        "definitions": [
+        "plural": "nieces","definitions": [
             {
                 "text": "The daughter of your brother or sister.",
                 "examples": [
