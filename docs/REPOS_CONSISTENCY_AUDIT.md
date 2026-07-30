@@ -341,24 +341,12 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 🎉 No issues detected in this category.
 
 
-## 3. Different Markdown Formatting (16 items)
+## 3. Different Markdown Formatting (4 items)
 
 - File `events/index.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... 🎶 **Note:** Karaoke Club features over **90 high-energy song challenges ...`
-- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... d to a non-benevolent nature, **<strong>whereas</strong>** modern technology feeds the d ...`
-- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... itiate their fears of nature, **<strong>whereas</strong>** modern city dwellers <strong> ...`
-- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... mens to schedule their labor, **<strong>whereas</strong>** modern humans view any natura ...`
-- File `events/sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html` has 1 more occurrences of raw Markdown bold syntax.
-- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... ="round-item-main">Why are we **<strong>utterly</strong>** repulsed by minor physical fl ...`
-- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... Is a slightly blemished apple **<strong>perfectly</strong>** acceptable to you, or do you ...`
-- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... en was the last time you felt **<strong>utterly</strong>** critical of a partner's minor ...`
-- File `events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html` has 11 more occurrences of raw Markdown bold syntax.
-- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... esponsibilities while feeling **<strong>highly</strong>** motivated by digital distract ...`
-- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... ound-item-main">Why are we so **<strong>highly</strong>** anxious to adopt clinical lab ...`
-- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` contains raw Markdown bold syntax `**` instead of HTML `<strong>`: `... taying focused on a long book **<strong>virtually</strong>** impossible today, or do we <s ...`
-- File `events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html` has 1 more occurrences of raw Markdown bold syntax.
-- Markdown file `SECURITY.md` uses mixed list bullet styles: {'-', '*'}. Stick to one character.
-- Markdown file `planning/notebook/analog_offline_strategy.md` uses mixed list bullet styles: {'-', '*'}. Stick to one character.
-- Markdown file `planning/notebook/videos_speaking_club_mapping.md` uses mixed list bullet styles: {'-', '*'}. Stick to one character.
+- Markdown file `SECURITY.md` uses mixed list bullet styles: {'*', '-'}. Stick to one character.
+- Markdown file `planning/notebook/analog_offline_strategy.md` uses mixed list bullet styles: {'*', '-'}. Stick to one character.
+- Markdown file `planning/notebook/videos_speaking_club_mapping.md` uses mixed list bullet styles: {'*', '-'}. Stick to one character.
 
 ## 4. Duplicate Templates (9 items)
 
@@ -938,7 +926,7 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 - CSS `css/events.css` references missing background image `%23noiseFilter` (resolved as `css/%23noiseFilter`).
 - File `404.html` contains broken `<img>` src `` (resolved as `.`).
 
-## 7. Missing Metadata (823 items)
+## 7. Missing Metadata (824 items)
 
 - File `404.html` is missing `<meta name="description">` or it has empty content.
 - File `classroom-sync.html` is missing `<meta name="description">` or it has empty content.
@@ -1616,6 +1604,7 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 - File `games/etymology_explorer/index.html` is missing `<meta name="description">` or it has empty content.
 - File `games/fluency_flow/index.html` is missing `<meta name="description">` or it has empty content.
 - File `games/hot_seat/index.html` is missing `<meta name="description">` or it has empty content.
+- File `games/hundred_questions/index.html` is missing `<meta name="description">` or it has empty content.
 - File `games/identity_mystery/index.html` is missing `<meta name="description">` or it has empty content.
 - File `games/last_letter/index.html` is missing `<meta name="description">` or it has empty content.
 - File `games/lucky_numbers/index.html` is missing `<meta name="description">` or it has empty content.
@@ -1985,7 +1974,7 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 🎉 No issues detected in this category.
 
 
-## 10. Missing Navigation (399 items)
+## 10. Missing Navigation (400 items)
 
 - Page `classroom-sync.html` is missing `<footer>` element.
 - Page `courses/exam/el/B1.html` is missing `<footer>` element.
@@ -2167,6 +2156,7 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 - Page `games/etymology_explorer/index.html` is missing `<footer>` element.
 - Page `games/fluency_flow/index.html` is missing `<footer>` element.
 - Page `games/hot_seat/index.html` is missing `<footer>` element.
+- Page `games/hundred_questions/index.html` is missing `<footer>` element.
 - Page `games/identity_mystery/index.html` is missing `<footer>` element.
 - Page `games/last_letter/index.html` is missing `<footer>` element.
 - Page `games/lucky_numbers/index.html` is missing `<footer>` element.
@@ -2387,7 +2377,7 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 - Session page `events/fr/sessions/the-greatest-quotes/women-mothers-tragedy.html` is missing `.cosy-breadcrumbs` navigation element.
 - Session page `events/fr/sessions/the-greatest-quotes/you-are-a-soul.html` is missing `.cosy-breadcrumbs` navigation element.
 
-## 11. Missing References (44 items)
+## 11. Missing References (45 items)
 
 - File `404.html` contains stylesheet link `` pointing to non-existent file `.`.
 - File `404.html` contains stylesheet link `` pointing to non-existent file `.`.
@@ -2416,6 +2406,7 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 - File `games/_template.html` contains stylesheet link `../../css/games.css` pointing to non-existent file `../css/games.css`.
 - File `games/_template.html` contains stylesheet link `../../css/layout.css` pointing to non-existent file `../css/layout.css`.
 - File `games/_template.html` contains stylesheet link `../../css/tokens.css` pointing to non-existent file `../css/tokens.css`.
+- File `games/hundred_questions/index.html` contains script src `../../js/core/router.js` pointing to non-existent file `js/core/router.js`.
 - File `grammar/index.html` references deprecated/dead script `../js/data/grammar_config.js`.
 - File `print-grammar.html` references deprecated/dead script `js/data/grammar_config.js`.
 - File `templates/games/scaffold/index.html` contains script src `../../_engine/game_session.js` pointing to non-existent file `templates/_engine/game_session.js`.
@@ -2437,6 +2428,6 @@ This report is the result of a comprehensive repository-wide scan auditing namin
 
 ## Audit Summary
 
-- **Total Consistency Issues Detected:** 2394
+- **Total Consistency Issues Detected:** 2385
 
 The repository is mostly in a very solid, highly-pedagogical state. The minor inconsistencies flagged above can be streamlined to guarantee pixel-perfect uniformity across all languages and sessions.
