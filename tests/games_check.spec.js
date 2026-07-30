@@ -20,4 +20,7 @@ test('Games Hub loads and Action Hero setup opens', async ({ page }) => {
 
     // Verify setup screen for Action Hero is rendered
     await expect(page.locator('.setup-screen h2')).toHaveText('Action Hero 🎭');
+
+    // Capture screenshot of improved UI
+    await page.screenshot({ path: 'verification/games_hub_enhanced.png', fullPage: true });
 });
