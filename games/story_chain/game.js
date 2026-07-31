@@ -80,17 +80,48 @@
                     </div>`;
             };
 
+            const CONNECTORS = {
+              en: ["because", "although", "while", "however", "therefore", "since", "which", "who", "whom", "whose", "where", "when", "that", "if", "unless"],
+              fr: ["parce que", "bien que", "tandis que", "mais", "cependant", "donc", "puisque", "qui", "que", "où", "dont", "comme", "si"],
+              ru: ["что", "потому что", "хотя", "когда", "который", "поэтому", "так как", "если", "но", "однако"],
+              it: ["perché", "sebbene", "mentre", "tuttavia", "quindi", "poiché", "che", "chi", "dove", "quando", "se", "ma"],
+              es: ["porque", "aunque", "mientras", "sin embargo", "por lo tanto", "ya que", "que", "quien", "donde", "cuando", "si", "pero"]
+            };
+
             window.COSY_GAME.scAdd = () => {
+                const input = document.getElementById('sc-input');
+                if (!input || !input.value.trim()) return;
+
                 if (!COSYGame.nextRound()) {
                     COSY_GAME.renderEnd();
                     return;
                 }
-                const input = document.getElementById('sc-input');
-                if (!input || !input.value.trim()) return;
-                story.push({ sentence: input.value.trim(), word: currentWord });
+
+                const sentence = input.value.trim();
+                let points = 10;
+                let bonusMsg = "";
+
+                // Complexity Analyzer (Stage 5.1)
+                const langConnectors = CONNECTORS[lang] || CONNECTORS['en'];
+                const foundConnector = langConnectors.find(c => sentence.toLowerCase().includes(c));
+
+                if (foundConnector) {
+                    points += 5;
+                    bonusMsg = `✨ Complexity Bonus! +5 XP (used: "${foundConnector}")`;
+                }
+
+                story.push({ sentence: sentence, word: currentWord });
                 currentWord = drawBag.next();
-                COSYGame.addScore(10);
+                COSYGame.addScore(points);
+
                 renderStory();
+
+                if (bonusMsg) {
+                    gameUtils.showGameMessage(body, bonusMsg, 'success');
+                    gameUtils.playGameSound('success');
+                } else {
+                    gameUtils.playGameSound('click');
+                }
             };
 
             window.COSY_GAME.scReveal = () => renderStory(true);
