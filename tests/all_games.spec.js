@@ -18,7 +18,9 @@ const games = [
     { id: 'lastletter', title: 'Last Letter', setupText: 'Language', levels: true },
     { id: 'emoji', title: 'Emoji Odyssey', setupText: 'Mode', levels: true },
     { id: 'crossword', title: 'Cosy Crossword', setupText: 'Language', levels: true },
-    { id: 'bingo', title: 'Lucky Numbers', setupText: 'Role', levels: false, infoText: 'Level: Starter (A1)', types: ['Alphabet (A-Z)', 'Listening Practice 👂'] }
+    { id: 'bingo', title: 'Lucky Numbers', setupText: 'Role', levels: false, infoText: 'Level: Starter (A1)', types: ['Alphabet (A-Z)', 'Listening Practice 👂'] },
+    { id: 'etymology', title: 'Etymology Explorer', setupText: 'Language', levels: true },
+    { id: 'gender', title: 'What Gender Is It?', setupText: 'Language', levels: true }
 ];
 
 for (const game of games) {
