@@ -1311,6 +1311,54 @@ HANDCRAFTED_VOCAB_DB = {
         ("Guilt-stricken", "experiencing severe feelings of guilt or remorse.", "The silent subtext of the screenplay suggests that Grace is guilt-stricken over her actions before the servants arrived."),
         ("Revelation", "a surprising and previously unknown fact, especially one that is disclosed in a dramatic way.", "The final revelation shifts the audience's entire understanding of who is actually haunting the Victorian mansion."),
         ("Macabre", "disturbing and horrifying because of involvement with or depiction of death and injury.", "The old album filled with photos of deceased individuals adds a chilling, macabre element to the scene study.")
+    ],
+    "Don't Look Up": [
+        ("Anti-intellectualism ≠ Scientific rigor", "hostility to or mistrust of intellect, intellectuals, and intellectual pursuits.", "The screenplay satirizes anti-intellectualism as talk show hosts laugh off warnings about the doomsday comet."),
+        ("Media hysteria ≠ Objective analysis", "exaggerated, panic-filled or highly sensationalized coverage of events by news outlets.", "Rather than logical discussion, public debate surrounding the comet quickly devolves into media hysteria."),
+        ("Existential threat ≠ Escapism", "a threat that poses a risk of complete annihilation of humanity, contrasted with distraction or reality avoidance.", "The characters face a clear existential threat, but the public prefers the comfort of mindless entertainment and escapism."),
+        ("Corporate greed ≠ Public safety", "ruthless pursuit of profit at the expense of human lives or public well-being.", "The decision to abort the deflection mission is driven by corporate greed as politicians seek to mine the comet."),
+        ("Political opportunism ≠ Ethical leadership", "exploiting a public crisis for political gains or ratings instead of acting with ethical responsibility.", "The president's delayed response to the crisis is a classic example of political opportunism to bolster poll numbers."),
+        ("Doomsday", "complete final destruction, ruin, or the end of the world.", "Dr. Randall Mindy struggles to explain the impending doomsday scenario to a disinterested, tech-obsessed president."),
+        ("Media spin", "the biased or highly selective interpretation of an event to influence public opinion.", "The government utilizes slick media spin to convince the public that the comet holds precious economic opportunities."),
+        ("Apocalypse", "the complete, final destruction of the world.", "As the comet becomes visible in the night sky, any denial of the upcoming apocalypse completely shatters."),
+        ("Comet", "a celestial object consisting of a nucleus of ice and dust, forming a tail when near the sun.", "The discovery of a massive comet on a direct collision course with Earth sets off the film's chaotic plot."),
+        ("Look Up", "the central symbolic call to acknowledge a visible, objective reality rather than denying it.", "The global population is split between those who urge everyone to look up and those who politically deny the threat.")
+    ],
+    "What Women Want": [
+        ("Gender empathy ≠ Egocentrism", "the emotional understanding and feeling of another gender's experiences, contrasted with self-centeredness.", "Nick Marshall's journey is one of acquiring gender empathy as he starts hearing women's private, inner thoughts."),
+        ("Workplace chauvinism ≠ Meritocracy", "sexism, prejudice, or bias favoring men in a professional environment, rather than promoting based on talent.", "The advertising agency initially breeds workplace chauvinism, underestimating Darcy's superior strategic insights."),
+        ("Vulnerability ≠ Facade", "the state of being emotionally open and exposed, contrasted with a confident or defensive outward mask.", "Nick must surrender his arrogant facade and embrace true vulnerability to establish a genuine connection with Darcy."),
+        ("Inner monologue ≠ Spoken dialogue", "a character's unspoken thoughts and feelings, contrasted with what they choose to speak out loud.", "The comedic core of the screenplay relies on the sharp contrast between women's inner monologue and their polite spoken dialogue."),
+        ("Advertising pitch ≠ Creative authenticity", "a commercial presentation designed to sell a product, contrasted with real artistic truth.", "Darcy challenges the team to move beyond superficial advertising pitches and reach for creative authenticity."),
+        ("Mind-reading", "the supposed ability to perceive another person's thoughts without communication.", "A freak electrical accident grants Nick the superpower of mind-reading, turning his worldview upside down."),
+        ("Focus group", "a group of people assembled to participate in a guided discussion about a product or campaign.", "Nick is forced to test female beauty products to prepare for a crucial marketing focus group."),
+        ("Man's man", "a man who is traditionally masculine and highly admired by other men.", "Nick is proud of being a man's man, but his chauvinistic charm is completely useless once he hears what women actually think."),
+        ("Empathetic listener", "someone who listens with deep emotional focus, respect, and cognitive understanding.", "By truly hearing women's thoughts, Nick evolves from a selfish playboy into a deeply empathetic listener."),
+        ("Advertising mogul", "an extremely influential, powerful, or successful executive in the advertising industry.", "Nick expects to be promoted to advertising mogul, but the agency hires Darcy instead to target the female market.")
+    ],
+    "The First Wives Club": [
+        ("Sisterhood ≠ Isolation", "mutual support, solidarity, and empowerment among women, contrasted with being alone.", "The three divorcées discover that their collective sisterhood is a powerful shield against emotional isolation."),
+        ("Marital betrayal ≠ Marital devotion", "the violation of trust or fidelity in a marriage, contrasted with lifelong loyalty.", "The plot is set in motion by marital betrayal as their ex-husbands discard them for younger women."),
+        ("Retribution ≠ Resignation", "seeking justice, active retaliation, or getting even, contrasted with passive acceptance of unfair loss.", "Instead of wallowing in resignation, the main characters plan a brilliant, strategic retribution."),
+        ("Ageism ≠ Lifelong relevance", "prejudice or discrimination against individuals based on their age, especially older women in society.", "Elise fights societal ageism as Hollywood producers suggest she is too old to play leading romantic roles."),
+        ("Emotional triumph ≠ Self-pity", "overcoming personal grief victoriously, contrasted with dwelling in sadness or victimhood.", "The film concludes with an emotional triumph as they establish a women's crisis center in New York City."),
+        ("Pre-nup", "a prenuptial agreement made before marriage to outline asset division in case of divorce.", "The characters utilize legal secrets, including an old pre-nup, to seize control of their ex-husbands' assets."),
+        ("Get even", "to inflict equal harm or take revenge on someone who has wronged you.", "The film's famous tagline reminds us that you don't get mad, you get even."),
+        ("Divorcée", "a divorced woman.", "The three old college friends find themselves reunited as middle-aged divorcées facing new life beginnings."),
+        ("Gold digger", "a person who associates with or marries someone purely for their wealth.", "The ex-husbands find themselves manipulated by younger, opportunistic gold diggers who drain their finances."),
+        ("Alimony", "financial support provided to a spouse after divorce or legal separation.", "The wives strategically manipulate business deals to demand heavy alimony and charity funding from their exes.")
+    ],
+    "On a Clear Day You Can See...": [
+        ("Subconscious memory ≠ Conscious amnesia", "thoughts, feelings, and memories below the conscious level, contrasted with active forgetting.", "Under hypnosis, Daisy reveals a rich subconscious memory that contradicts her quiet, ordinary conscious self."),
+        ("Past-life regression ≠ Rational skepticism", "a therapeutic technique using hypnosis to recover memories of supposed past incarnations, contrasted with logical disbelief.", "The psychiatrist struggles with his own rational skepticism when confronted with a genuine past-life regression."),
+        ("Hypnotic trance ≠ Awoken state", "a sleep-like state of deep focus and suggestibility induced by a hypnotist, contrasted with alert consciousness.", "Daisy enters a deep hypnotic trance, speaking in the voice of a sophisticated 19th-century English noblewoman."),
+        ("Clairvoyance ≠ Direct observation", "the supposed power of perceiving future events or things beyond normal sensory contact.", "Her past-life persona possesses an effortless clairvoyance that mystifies everyone in the psychiatric office."),
+        ("Spiritual healing ≠ Clinical therapy", "restoring wellness through spiritual or soul connection, contrasted with conventional mental health methods.", "The therapist realizes that Daisy's past-life memories are a key to her spiritual healing and self-discovery."),
+        ("Ethereal", "extremely delicate, light, or spiritual in a way that seems too perfect for this world.", "The musical score highlights the ethereal connection between the psychiatrist and Daisy's historical persona."),
+        ("Regression", "a return to a former state, or the hypnotic process of travelling back to a previous time or lifetime.", "Each regression session brings forth more details about Melinda's tragic life in historical London."),
+        ("Hypnotist", "a specialist who practices hypnotism to help patients explore their minds or modify habits.", "Dr. Marc Chabot is an experienced hypnotist who inadvertently falls in love with his patient's past-life persona."),
+        ("Subconscious gift", "an intuitive, creative, or intellectual talent originating deep within the subconscious mind.", "Daisy's extraordinary subconscious gift for helping plants grow is tied to her hidden historical identity."),
+        ("Past incarnation", "the physical rebirth of a soul in a previous historical body or lifetime.", "The screenplay explores whether Melinda is a real past incarnation of Daisy or a psychological projection.")
     ]
 }
 
