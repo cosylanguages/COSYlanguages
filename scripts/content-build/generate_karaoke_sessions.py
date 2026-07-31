@@ -374,6 +374,22 @@ SONG_THEMES = {
     "fabienne-thibeault-challenge": {
         "en": "Existential Desires & Human Connection",
         "fr": "Désirs existentiels & Connexion humaine"
+    },
+    "couleur": {
+        "en": "Diversity, Equality & Anti-Racism",
+        "fr": "Diversité, Égalité & Anti-racisme"
+    },
+    "speed": {
+        "en": "Waking Up & Heart Rhythms",
+        "fr": "Éveil & Rythmes du cœur"
+    },
+    "je-suis-un-homme": {
+        "en": "Consumerism, Illusion & Human Nature",
+        "fr": "Consommation, Illusion & Nature humaine"
+    },
+    "fovamai": {
+        "en": "Fear, Passion & Emotional Distances",
+        "el": "Φόβος, Πάθος & Συναισθηματικές Αποστάσεις"
     }
 }
 
@@ -401,6 +417,12 @@ CHALLENGE_MAP = {
     "fabienne-thibeault-challenge": (
         "la-complainte-de-la-serveuse-automate", "le-monde-est-stone",
         "un-garcon-pas-comme-les-autres", "les-uns-contre-les-autres"
+    ),
+    "zazie-challenge": (
+        "nos-ames-sont", "couleur", "speed", "je-suis-un-homme"
+    ),
+    "mple-challenge": (
+        "to-idio-to-theo", "fovamai"
     ),
 }
 
@@ -494,7 +516,11 @@ SONG_LINKS = {
     "la-complainte-de-la-serveuse-automate": "https://www.youtube.com/watch?v=CzkNDfmcG6g",
     "le-monde-est-stone": "https://www.youtube.com/watch?v=SwJDxxYuEks",
     "un-garcon-pas-comme-les-autres": "https://www.youtube.com/watch?v=u6i-dx76Rnk",
-    "les-uns-contre-les-autres": "https://www.youtube.com/watch?v=Mf9EJ-oFdm4"
+    "les-uns-contre-les-autres": "https://www.youtube.com/watch?v=Mf9EJ-oFdm4",
+    "couleur": "https://www.youtube.com/watch?v=km3T0wSr4F8",
+    "speed": "https://www.youtube.com/watch?v=LA7T0GSjzg0",
+    "je-suis-un-homme": "https://www.youtube.com/watch?v=oSIoP7h4B_M",
+    "fovamai": "https://www.youtube.com/watch?v=aaQcgyToH1Y"
 }
 
 # Translation / Localization resources for all 6 supported languages
@@ -896,6 +922,46 @@ OPPOSITES_MAP = {
     "Reflection": "Absorption",
 
     # New opposites for added songs
+    "Gènes": "Environnement",
+    "Peinture": "Réalité",
+    "Clarté": "Obscurité",
+    "Espoir": "Désespoir",
+    "Guerre": "Paix",
+    "Violence": "Douceur",
+    "Sauvage": "Civilisé",
+    "Mœurs": "Instincts",
+    "Peau": "Esprit",
+    "Drapeau": "Frontière",
+    "Caverne": "Extérieur",
+    "Hiberner": "S'éveiller",
+    "Cacher": "Révéler",
+    "Vibrer": "S'éteindre",
+    "Debout": "Couché",
+    "Mort": "Vivant",
+    "Libre": "Enchaîné",
+    "Sage": "Fou",
+    "Âge": "Jeunesse",
+    "Cage": "Liberté",
+    "Singe": "Humain",
+    "Poisson": "Oiseau",
+    "Saison": "Éternité",
+    "Ambition": "Apathie",
+    "Illusion": "Réalité",
+    "Béton": "Nature",
+    "Prison": "Liberté",
+    "Consommation": "Production",
+    "Maître": "Esclave",
+    "Nature": "Artifice",
+    "Μαλλιά": "Δέρμα",
+    "Στιγμή": "Αιωνιότητα",
+    "Χέρι": "Πόδι",
+    "Στίχος": "Πεζό",
+    "Κοντά": "Μακριά",
+    "Μακριά": "Κοντά",
+    "Όνομα": "Ανωνυμία",
+    "Ψυχή": "Σώμα",
+    "Φιλί": "Χαστούκι",
+    "Χρόνος": "Στασιμότητα",
     "America": "Foreign land",
     "Grocery": "Restaurant",
     "Stage": "Audience",
@@ -1465,6 +1531,50 @@ LANGUAGE_FOCUS_DB = {
                 "Nous courons les uns après les autres sans jamais nous rattraper."
             ]
         }
+    },
+    "couleur": {
+        "en": {
+            "title": "La concession avec 'Même si' et l'expression de l'espoir",
+            "explanation": "In French, expressing concession and contrast with 'même si' (even if) helps structure complex societal and personal arguments.",
+            "examples": [
+                "Même si nos gènes sont différents, nous partageons la même humanité.",
+                "Même si la violence fait rage, je garde l'espoir dans mon cœur.",
+                "Je porterai ce drapeau même si le monde s'y oppose."
+            ]
+        }
+    },
+    "speed": {
+        "en": {
+            "title": "L'impératif pour encourager et motiver",
+            "explanation": "The imperative mood is used to give orders, advice, or intense encouragement. In 'speed', Zazie uses it to urge her sleeping heart to wake up.",
+            "examples": [
+                "Réveille-toi, sors de ta cage et vis pleinement !",
+                "Ne cache pas tes sentiments sous des airs d'ours mal léché.",
+                "Speede encore et bats plus vite que ton âge !"
+            ]
+        }
+    },
+    "je-suis-un-homme": {
+        "en": {
+            "title": "L'expression de la restriction avec 'Ne ... que' et la condition",
+            "explanation": "To limit an action to a single thing (equivalent to 'only'), French uses the restrictive structure 'ne ... que'. Combined with conditional clauses, it critiques modern society.",
+            "examples": [
+                "Je ne suis qu'un singe sur cette Terre en toute saison.",
+                "L'homme ne construit que des prisons en béton s'il oublie la nature.",
+                "Même si j'étais le maître du monde, je ne ferais que tourner en rond."
+            ]
+        }
+    },
+    "fovamai": {
+        "en": {
+            "title": "Η χρήση του υποτακτικού 'να' για την έκφραση επιθυμίας και φόβου",
+            "explanation": "In Greek, we express our desires, wishes, or anxieties/fears using 'να' followed by the subjunctive mood. In 'Φοβάμαι', Ble combines fear and raw passion.",
+            "examples": [
+                "Φοβάμαι να σου πω πόσο πολύ σε θέλω.",
+                "Θέλω να λιώνω πάνω στα δυο χέρια σου.",
+                "Μην ακούς τι λέω, θέλω μόνο να είμαι μαζί σου."
+            ]
+        }
     }
 }
 
@@ -1545,6 +1655,22 @@ FINAL_CHALLENGE_DB = {
     "les-uns-contre-les-autres": {
         "en": "The Paradox of Loneliness: Conduct a 3-minute debate on this lyric: 'But in the end, we realize we are always completely alone in the world'. Is existential loneliness unavoidable even in a crowded city?",
         "fr": "Le paradoxe de la solitude : Menez un débat de 3 minutes sur cette phrase : 'Mais au bout du compte, on se rend compte qu'on est toujours tout seul au monde'. La solitude existentielle est-elle inévitable même dans une ville bondée ?"
+    },
+    "couleur": {
+        "en": "The Colorful Flag: Design a collaborative flag or emblem representing a united world without borders. Present its symbolic meanings and values in French.",
+        "fr": "Le drapeau de l'espoir : Concevez un emblème ou un drapeau représentant un monde uni sans frontières. Présentez ses symboles et valeurs en français."
+    },
+    "speed": {
+        "en": "Waking Up: Role-play a dialogue between a very discouraged person ('sleeping in a cave') and their best friend trying to motivate them to go out and live again.",
+        "fr": "L'éveil du cœur : Jouez un dialogue entre une personne découragée (endormie dans sa caverne) et son meilleur ami qui essaie de la motiver à revivre."
+    },
+    "je-suis-un-homme": {
+        "en": "The Illusion of Success: Conduct a debate on whether modern consumerism, cars, and concrete buildings have alienated human nature and created 'prisons for the heart'.",
+        "fr": "L'illusion du progrès : Menez un débat sur la question de savoir si la société de consommation et le béton ont aliéné l'être humain."
+    },
+    "fovamai": {
+        "en": "The Paradox of Distance: Discuss in pairs how someone can feel 'too close yet too far' from the person they love. Is emotional distance more scary than physical distance?",
+        "el": "Το παράδοξο της απόστασης: Συζητήστε σε ζευγάρια πώς μπορεί κάποιος να αισθάνεται «πολύ κοντά αλλά και πολύ μακριά» από τον άνθρωπο που αγαπά. Είναι η συναισθηματική απόσταση πιο τρομακτική από τη φυσική απόσταση;"
     }
 }
 
@@ -1570,6 +1696,46 @@ VOCAB_DB = {
     "Pain": ("highly distressing physical or emotional sensation.", "Time eventually heals the deep pain of a broken heart."),
     "Disappointment": ("sadness or displeasure caused by the nonfulfillment of one's hopes or expectations.", "Her failing grade was a major disappointment to her parents."),
     "Gaze": ("a steady intent look, as of admiration, surprise, or thought.", "She turned her loving gaze toward her newborn baby."),
+    "Gènes": ("unités d'hérédité contrôlant les caractères des êtres vivants.", "Les gènes déterminent en partie la couleur des yeux de l'enfant."),
+    "Peinture": ("représentation artistique avec des pigments, ou une image.", "Il ne peut plus voir cette situation en peinture tant elle est difficile."),
+    "Clarté": ("qualité de ce qui est lumineux ou facile à comprendre.", "La clarté de ses explications a été très appréciée par l'élève."),
+    "Espoir": ("sentiment de confiance en l'avenir, attente optimiste.", "L'espoir d'un monde plus juste l'aide à surmonter les épreuves."),
+    "Guerre": ("conflit armé entre états ou groupes humains.", "La guerre détruit des vies et déchire les communautés."),
+    "Violence": ("utilisation de la force physique ou morale pour blesser.", "La violence dans les rues est un problème sociétal majeur."),
+    "Sauvage": ("qui n'est pas civilisé, ou qui vit à l'état naturel.", "L'ours est un animal sauvage qui vit dans les forêts profondes."),
+    "Mœurs": ("habitudes et comportements d'un groupe social.", "La musique adoucit les mœurs et rapproche les peuples."),
+    "Peau": ("tissu protecteur externe du corps humain.", "Prendre soin de sa peau sous le soleil est essentiel."),
+    "Drapeau": ("pièce d'étoffe servant d'emblème à une nation.", "Je porte fièrement toutes les couleurs de l'humanité sur mon drapeau."),
+    "Caverne": ("cavité naturelle dans la roche, ou lieu de repli.", "L'ours sauvage s'est réfugié dans sa caverne pour l'hiver."),
+    "Hiberner": ("passer l'hiver dans un état d'engourdissement ou d'inactivité.", "Après des mois à hiberner chez elle, elle a enfin décidé de sortir."),
+    "Cacher": ("dissimuler quelque chose aux yeux des autres.", "T'as beau tout faire pour cacher ta tristesse, je la vois."),
+    "Vibrer": ("frémir ou ressentir une vive ébauche d'émotion.", "Son cœur continue de vibrer à l'écoute de cette mélodie."),
+    "Debout": ("en position verticale, sur ses pieds.", "Allez, debout, il est temps de sortir et de relever le défi !"),
+    "Mort": ("qui a cessé de vivre, sans vie ou inactif.", "Réveille-toi et fais pas le mort face aux difficultés de la vie."),
+    "Libre": ("qui a le pouvoir d'agir selon ses propres choix.", "Tu es enfin libre de choisir ton propre chemin professionnel."),
+    "Sage": ("qui fait preuve de bon sens, de calme et de mesure.", "Il est important de rester sage mais d'oser prendre des risques."),
+    "Âge": ("durée de vie écoulée depuis la naissance d'un être.", "Son cœur bat bien plus vite que ne l'indique son âge réel."),
+    "Cage": ("structure fermée servant à enfermer des animaux ou des esprits.", "Il faut sortir de ta cage mentale pour libérer ton potentiel."),
+    "Singe": ("mammifère primate proche de l'homme par son anatomie.", "Le singe se déplace avec agilité de branche en branche."),
+    "Poisson": ("animal vertébré aquatique muni de nageoires et de branchies.", "Le poisson nage tranquillement dans les eaux claires du lac."),
+    "Saison": ("période de l'année caractérisée par un climat spécifique.", "Sur la Terre en toute saison, la nature change de couleur."),
+    "Ambition": ("désir ardent de réussite, de pouvoir ou d'honneurs.", "Il est un jeune homme plein d'ambition professionnelle."),
+    "Illusion": ("fausse apparence ou croyance erronée.", "La publicité crée souvent l'illusion d'un bonheur matériel facile."),
+    "Béton": ("matériau de construction très résistant composé de ciment.", "Notre monde moderne est coulé dans l'or et le béton des villes."),
+    "Prison": ("lieu de détention pour les personnes condamnées, ou restriction.", "Il a le sentiment que son cœur est enfermé dans une prison dorée."),
+    "Consommation": ("action d'utiliser des biens et des services pour satisfaire des besoins.", "We are all products of the consumer society in modern times."),
+    "Maître": ("personne qui domine, dirige ou possède quelque chose.", "He believes he is the master of the world."),
+    "Nature": ("ensemble des éléments du monde physique non modifiés par l'homme.", "We make terrible mistakes against nature."),
+    "Μαλλιά": ("το σύνολο των τριχών της κεφαλής του ανθρώπου.", "Μέσα στα μαλλιά σου πετάω και ξεχνάω τις έγνοιες μου."),
+    "Στιγμή": ("πολύ μικρό χρονικό διάστημα, ακαριαία χρονική μονάδα.", "Θέλω να κρατήσω αυτή τη στιγμή για πάντα στη μνήμη μου."),
+    "Χέρι": ("το μέλος του σώματος από τον ώμο ως τα δάχτυλα.", "Πάνω στα δυο σου χέρια λιώνω από αγάπη."),
+    "Στίχος": ("σειρά λέξεων με ρυθμό, τμήμα ποιήματος ή τραγουδιού.", "Ένας όμορφος στίχος μπορεί να εκφράσει βαθιά συναισθήματα."),
+    "Κοντά": ("σε μικρή απόσταση, πλησίον.", "Όταν είσαι κοντά μου, νιώθω απόλυτη ασφάλεια."),
+    "Μακριά": ("σε μεγάλη απόσταση, μακράν.", "Όταν είσαι μακριά, η μοναξιά με κυριεύει."),
+    "Όνομα": ("η λέξη με την οποία προσδιορίζεται ένα πρόσωπο ή πράγμα.", "Σβήνω το όνομά σου από το ημερολόιο για να σε ξεχάσω."),
+    "Ψυχή": ("το πνευματικό και άυλο μέρος του ανθρώπου.", "Σου αφήνω τη ψυχή μου σε ένα φιλί που καίει."),
+    "Φιλί": ("το άγγιγμα με τα χείλη σε ένδειξη αγάπης ή φιλίας.", "Ένα ζεστό φιλί μπορεί να λιώσει και τον πιο σκληρό χειμώνα."),
+    "Χρόνος": ("η διάρκεια των πραγμάτων, η διαδοχή των στιγμών.", "Ο χρόνος κυλάει τόσο γρήγορα όταν περνάμε όμορφα μαζί."),
     "La classe": ("groupe d'élèves qui reçoivent ensemble le même enseignement, ou la salle.", "La classe de français est toujours très dynamique et interactive."),
     "L'histoire": ("récit d'événements passés, réels ou imaginaires.", "Elle adore raconter une histoire passionnante à ses enfants."),
     "La masse": ("grand nombre de personnes formant un ensemble, la foule.", "L'effet de masse pousse parfois les gens à agir sans réfléchir."),
@@ -2778,6 +2944,44 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
                     "If we guide our life decisions entirely by the pursuit of <strong>{w_lower}</strong>, we risk losing our professional ambitions. Discuss."
                 ]
             },
+            "el": {
+                "r1": [
+                    "Πώς το '{title}' από τον/την {artist} διερευνά τη βαθύτερη σημασία του/της <strong>{w_lower}</strong> στην καθημερινή μας ζωή;",
+                    "Στο '{title}', το/η <strong>{w_lower}</strong> παρουσιάζεται ως πηγή δύναμης ή ως πηγή αμφιβολίας;",
+                    "Αναλύοντας τους στίχους του/της {artist}, πώς το/η <strong>{w_lower}</strong> διαμορφώνει το συνολικό μήνυμα του τραγουδιού;",
+                    "Με ποιους τρόπους δείχνει το '{title}' ότι το/η <strong>{w_lower}</strong> είναι απαραίτητο/η για την προσωπική ανάπτυξη;",
+                    "Πώς το μουσικό ύφος του '{title}' ενισχύει τη συναισθηματική επίδραση του/της <strong>{w_lower}</strong>;",
+                    "Όταν ο/η {artist} τραγουδάει για τα συναισθήματά του/της, το/η <strong>{w_lower}</strong> μοιάζει με μια φυσική κατάσταση ή με μια πρόκληση;",
+                    "Υποδηλώνει το '{title}' ότι πρέπει να προσπαθήσουμε για να πετύχουμε το/τη <strong>{w_lower}</strong>, ή ότι αυτό συμβαίνει φυσικά;",
+                    "Πώς οι εικόνες του '{title}' οπτικοποιούν την έννοια του/της <strong>{w_lower}</strong>;",
+                    "Κατά τη γνώμη σας, βρίσκει ο πρωταγωνιστής στο '{title}' γαλήνη μέσα από το/τη <strong>{w_lower}</strong>, ή μένει με ερωτήματα;",
+                    "Πώς μπορούμε να εφαρμόσουμε τα μαθήματα του/της <strong>{w_lower}</strong> από το '{title}' για να βελτιώσουμε τη σύγχρονη ζωή μας;"
+                ],
+                "personal": [
+                    "★ Πότε ήταν η τελευταία φορά που νιώσατε μια έντονη αίσθηση του/της <strong>{w_lower}</strong> στη δική σας ζωή;",
+                    "★ Βρίσκετε εύκολο ή δύσκολο να μοιράζεστε τα συναισθήματά σας για το/τη <strong>{w_lower}</strong> με άλλους;",
+                    "★ Πώς έχει αλλάξει η προσωπική σας κατανόηση για το/τη <strong>{w_lower}</strong> τα τελευταία χρόνια;",
+                    "★ Στην καθημερινή σας ρουτίνα, τι σας βοηθά να διατηρήσετε την εστίασή σας στο/τη <strong>{w_lower}</strong>;",
+                    "★ Ποιο είναι το πιο σημαντικό μάθημα που έχετε μάθει για το/τη <strong>{w_lower}</strong>;",
+                    "★ Πιστεύετε ότι η σύγχρονη κοινωνία εκτιμά το/τη <strong>{w_lower}</strong>, ή μήπως συχνά το αγνοεί;",
+                    "★ Ποιο είναι το πρόσωπο στη ζωή σας που αντιπροσωπεύει καλύτερα την ιδέα του/της <strong>{w_lower}</strong>;",
+                    "★ Αν μπορούσατε να χαρίσετε περισσότερο/η <strong>{w_lower}</strong> σε κάποιον που νοιάζεστε, ποιος θα ήταν αυτός;",
+                    "★ Πιστεύετε ότι το/η <strong>{w_lower}</strong> αφορά περισσότερο την προσωπική ειρήνη ή τις κοινές εμπειρίες;",
+                    "★ Ποια μικρή πρακτική ή συνήθεια σας βοηθά να καλλιεργήσετε το/τη <strong>{w_lower}</strong> στις σχέσεις σας;"
+                ],
+                "r2": [
+                    "Η κεντρική απεικόνιση του/της <strong>{w_lower}</strong> στο '{title}' είναι μια όμορφη αντανάκλαση των σύγχρονων ανθρώπινων αγώνων. Ας συζητήσουμε.",
+                    "Χωρίς μια βαθιά κατανόηση του/της <strong>{w_lower}</strong>, δεν μπορούμε ποτέ να επιτύχουμε διαρκή επιτυχία και ευτυχία. Μοιραστείτε τις σκέψεις σας.",
+                    "Το έργο του/της {artist} δείχνει ότι η συλλογική μας εμμονή με το/τη <strong>{w_lower}</strong> μπορεί μερικές φορές να οδηγήσει σε αυτοαμφισβήτηση. Υπερασπιστείτε ή αντιταχθείτε.",
+                    "Το/η αληθινό/ή <strong>{w_lower}</strong> μπορεί να υπάρξει μόνο όταν είμαστε απόλυτα άνετα με αυτό που είμαστε. Συζητήστε.",
+                    "Η μουσική του '{title}' υποδηλώνει ότι πρέπει να είμαστε πρόθυμοι να πάρουμε ρίσκα για να βιώσουμε πλήρως το/τη <strong>{w_lower}</strong>. Συμφωνείτε;",
+                    "Στον σύγχρονο κόσμο, η ήσυχη ανάπτυξη του/της <strong>{w_lower}</strong> απειλείται συχνά από συνεχείς περισπασμούς. Συζητήστε.",
+                    "Δεν μπορούμε να εκτιμήσουμε πραγματικά το/τη <strong>{w_lower}</strong> μέχρι να ζήσουμε στιγμές πρόκλησης και αποτυχίας. Αναλύστε το.",
+                    "Ο/Η {artist} μας προειδοποιεί ότι η υπερβολική εστίαση στο/τη <strong>{w_lower}</strong> μπορεί να μας κάνει να χάσουμε την επαφή με άλλους πρακτικούς στόχους. Μοιραστείτε την άποψή σας.",
+                    "Το τέλος του '{title}' αποδεικνύει ότι η αποδοχή του/της δικού/ης μας <strong>{w_lower}</strong> είναι το κλειδί για την προσωπική ελευθερία. Συζητήστε.",
+                    "Αν πάρουμε τις αποφάσεις της ζωής μας βασιζόμενοι εξ ολοκλήρου στην επιδίωξη του/της <strong>{w_lower}</strong>, κινδυνεύουμε να χάσουμε τη σταθερότητα. Συζητήστε."
+                ]
+            },
             "fr": {
                 "r1": [
                     "Comment le message de dévouement inconditionnel dans '{title}' par {artist} redéfinit-il notre compréhension de <strong>{w_lower}</strong> ?",
@@ -2814,6 +3018,44 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
                     "{artist} nous avertit qu'accorder trop d'importance à <strong>{w_lower}</strong> mène inévitablement à l'auto-sabotage. Partagez votre avis.",
                     "La fin de '{title}' prouve que certaines formes de <strong>{w_lower}</strong> valent tous les sacrifices. Comment voyez-vous cela ?",
                     "Si nous prenons toutes nos décisions de vie en fonction de <strong>{w_lower}</strong>, nous risquons de sacrifier nos ambitions professionnelles. Discutons-en."
+                ]
+            },
+            "el": {
+                "r1": [
+                    "Πώς το μήνυμα της απόλυτης αφοσίωσης στο '{title}' από {artist} επαναπροσδιορίζει τον τρόπο με τον οποίο κατανοούμε το/τη <strong>{w_lower}</strong>;",
+                    "Στο '{title}', πιστεύετε ότι το/η <strong>{w_lower}</strong> παρουσιάζεται ως πηγή συναισθηματικής δύναμης ή αποκαλύπτει μια κρυφή ευαισθησία;",
+                    "Αναλύοντας τους στίχους του/της {artist}, πώς η παρουσία του/της <strong>{w_lower}</strong> έρχεται σε αντίθεση με τις συνήθεις δυσκολίες των σύγχρονων σχέσεων;",
+                    "Με ποιους τρόπους δείχνει το '{title}' ότι το/η αληθινό/ή <strong>{w_lower}</strong> απαιτεί να ξεπεράσουμε τα ελαττώματα του συντρόφου μας;",
+                    "Πώς ο μουσικός ρυθμός του '{title}' ανεβάζει το συναίσθημα του/της <strong>{w_lower}</strong> μέσα στην αφήγηση;",
+                    "Όταν ο/η {artist} τραγουδάει για τα συναισθήματά του/της, το/η <strong>{w_lower}</strong> μοιάζει με επιλογή ή με αναπόφευκτο πεπρωμένο;",
+                    "Μήπως το '{title}' υποδηλώνει ότι το/η <strong>{w_lower}</strong> μπορεί εύκολα να ξεπεράσει το όριο και να γίνει μια επικίνδυνη εμμονή;",
+                    "Πώς οι εικόνες στο βίντεο κλιπ του '{title}' οπτικοποιούν την ήσυχη άνεση του/της <strong>{w_lower}</strong>;",
+                    "Κατά τη γνώμη σας, βρίσκει ο πρωταγωνιστής στο '{title}' γαλήνη μέσα από το/τη <strong>{w_lower}</strong> ή μένει με αμφιβολίες;",
+                    "Πώς το τέλος του '{title}' επαναπροσδιορίζει τις θυσίες που κάνουμε στο όνομα του/της <strong>{w_lower}</strong>;"
+                ],
+                "personal": [
+                    "★ Πότε ήταν η τελευταία φορά που νιώσατε μια βαθιά αίσθηση του/της <strong>{w_lower}</strong> χωρίς να χρειάζονται λόγια;",
+                    "★ Συμφωνείτε ότι το/η <strong>{w_lower}</strong> είναι κάτι που πρέπει να προστατεύουμε ενεργά, ή επιβιώνει από μόνο του;",
+                    "★ Πώς έχει εξελιχθεί η προσωπική σας οπτική για το/τη <strong>{w_lower}</strong> τα τελευταία πέντε χρόνια;",
+                    "★ Στην καθημερινή σας ζωή, βρίσκετε εύκολο ή δύσκολο να δείχνετε <strong>{w_lower}</strong> σε αυτούς που νοιάζεστε;",
+                    "★ Ποιο είναι το μεγαλύτερο μάθημα για το/τη <strong>{w_lower}</strong> που σας έχει διδάξει ένας στενός φίλος ή συγγενής;",
+                    "★ Πιστεύετε ότι η σύγχρονη τεχνολογία έχει κάνει πιο δύσκολη την καλλιέργεια γνήσιου/ας <strong>{w_lower}</strong>;",
+                    "★ Πώς χειρίζεστε προσωπικά καταστάσεις όπου η αίσθηση του/της <strong>{w_lower}</strong> δεν είναι αμοιβαία;",
+                    "★ Αν μπορούσατε να μοιραστείτε αμέσως ένα κύμα του/της <strong>{w_lower}</strong> με κάποιον σήμερα, ποιος θα ήταν αυτός;",
+                    "★ Πιστεύετε ότι το/η <strong>{w_lower}</strong> συνδέεται περισσότερο με την προσωπική ειρήνη ή με τις κοινές εμπειρίες;",
+                    "★ Ποια μικρή πρακτική ή συνήθεια σας βοηθά να καλλιεργήσετε το/τη <strong>{w_lower}</strong> στις σχέσεις σας;"
+                ],
+                "r2": [
+                    "Η κεντρική απεικόνιση του/της <strong>{w_lower}</strong> στο '{title}' είναι μια όμορφη αντανάκλαση των σύγχρονων ανθρώπινων αγώνων. Ας συζητήσουμε.",
+                    "Χωρίς μια βαθιά κατανόηση του/της <strong>{w_lower}</strong>, δεν μπορούμε ποτέ να επιτύχουμε διαρκή επιτυχία και ευτυχία. Μοιραστείτε τις σκέψεις σας.",
+                    "Το έργο του/της {artist} δείχνει ότι η συλλογική μας εμμονή με το/τη <strong>{w_lower}</strong> μπορεί μερικές φορές να οδηγήσει σε αυτοαμφισβήτηση. Υπερασπιστείτε ή αντιταχθείτε.",
+                    "Το/η αληθινό/ή <strong>{w_lower}</strong> μπορεί να υπάρξει μόνο όταν είμαστε απόλυτα άνετα με αυτό που είμαστε. Συζητήστε.",
+                    "Η μουσική του '{title}' υποδηλώνει ότι πρέπει να είμαστε πρόθυμοι να πάρουμε ρίσκα για να βιώσουμε πλήρως το/τη <strong>{w_lower}</strong>. Συμφωνείτε;",
+                    "Στον σύγχρονο κόσμο, η ήσυχη ανάπτυξη του/της <strong>{w_lower}</strong> απειλείται συχνά από συνεχείς περισπασμούς. Συζητήστε.",
+                    "Δεν μπορούμε να εκτιμήσουμε πραγματικά το/τη <strong>{w_lower}</strong> μέχρι να ζήσουμε στιγμές πρόκλησης και αποτυχίας. Αναλύστε το.",
+                    "Ο/Η {artist} μας προειδοποιεί ότι η υπερβολική εστίαση στο/τη <strong>{w_lower}</strong> μπορεί να μας κάνει να χάσουμε την επαφή με άλλους πρακτικούς στόχους. Μοιραστείτε την άποψή σας.",
+                    "Το τέλος του '{title}' αποδεικνύει ότι η αποδοχή του/της δικού/ης μας <strong>{w_lower}</strong> είναι το κλειδί για την προσωπική ελευθερία. Συζητήστε.",
+                    "Αν πάρουμε τις αποφάσεις της ζωής μας βασιζόμενοι εξ ολοκλήρου στην επιδίωξη του/της <strong>{w_lower}</strong>, κινδυνεύουμε να χάσουμε τη σταθερότητα. Συζητήστε."
                 ]
             }
         },
@@ -3208,6 +3450,44 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
             }
         },
         "default": {
+            "el": {
+                "r1": [
+                    "Πώς το '{title}' από τον/την {artist} διερευνά τη βαθύτερη σημασία του/της <strong>{w_lower}</strong> στην καθημερινή μας ζωή;",
+                    "Στο '{title}', το/η <strong>{w_lower}</strong> παρουσιάζεται ως πηγή δύναμης ή ως πηγή αμφιβολίας;",
+                    "Αναλύοντας τους στίχους του/της {artist}, πώς το/η <strong>{w_lower}</strong> διαμορφώνει το συνολικό μήνυμα του τραγουδιού;",
+                    "Με ποιους τρόπους δείχνει το '{title}' ότι το/η <strong>{w_lower}</strong> είναι απαραίτητο/η για την προσωπική ανάπτυξη;",
+                    "Πώς το μουσικό ύφος του '{title}' ενισχύει τη συναισθηματική επίδραση του/της <strong>{w_lower}</strong>;",
+                    "Όταν ο/η {artist} τραγουδάει για τα συναισθήματά του/της, το/η <strong>{w_lower}</strong> μοιάζει με μια φυσική κατάσταση ή με μια πρόκληση;",
+                    "Υποδηλώνει το '{title}' ότι πρέπει να προσπαθήσουμε για να πετύχουμε το/τη <strong>{w_lower}</strong>, ή ότι αυτό συμβαίνει φυσικά;",
+                    "Πώς οι εικόνες του '{title}' οπτικοποιούν την έννοια του/της <strong>{w_lower}</strong>;",
+                    "Κατά τη γνώμη σας, βρίσκει ο πρωταγωνιστής στο '{title}' γαλήνη μέσα από το/τη <strong>{w_lower}</strong>, ή μένει με ερωτήματα;",
+                    "Πώς μπορούμε να εφαρμόσουμε τα μαθήματα του/της <strong>{w_lower}</strong> από το '{title}' για να βελτιώσουμε τη σύγχρονη ζωή μας;"
+                ],
+                "personal": [
+                    "★ Πότε ήταν η τελευταία φορά που νιώσατε μια έντονη αίσθηση του/της <strong>{w_lower}</strong> στη δική σας ζωή;",
+                    "★ Βρίσκετε εύκολο ή δύσκολο να μοιράζεστε τα συναισθήματά σας για το/τη <strong>{w_lower}</strong> με άλλους;",
+                    "★ Πώς έχει αλλάξει η προσωπική σας κατανόηση για το/τη <strong>{w_lower}</strong> τα τελευταία χρόνια;",
+                    "★ Στην καθημερινή σας ρουτίνα, τι σας βοηθά να διατηρήσετε την εστίασή σας στο/τη <strong>{w_lower}</strong>;",
+                    "★ Ποιο είναι το πιο σημαντικό μάθημα που έχετε μάθει για το/τη <strong>{w_lower}</strong>;",
+                    "★ Πιστεύετε ότι η σύγχρονη κοινωνία εκτιμά το/τη <strong>{w_lower}</strong>, ή μήπως συχνά το αγνοεί;",
+                    "★ Ποιο είναι το πρόσωπο στη ζωή σας που αντιπροσωπεύει καλύτερα την ιδέα του/της <strong>{w_lower}</strong>;",
+                    "★ Αν μπορούσατε να χαρίσετε περισσότερο/η <strong>{w_lower}</strong> σε κάποιον που νοιάζεστε, ποιος θα ήταν αυτός;",
+                    "★ Πιστεύετε ότι το/η <strong>{w_lower}</strong> αφορά περισσότερο την προσωπική ειρήνη ή τις κοινές εμπειρίες;",
+                    "★ Ποια μικρή πρακτική ή συνήθεια σας βοηθά να καλλιεργήσετε το/τη <strong>{w_lower}</strong> στις σχέσεις σας;"
+                ],
+                "r2": [
+                    "Η κεντρική απεικόνιση του/της <strong>{w_lower}</strong> στο '{title}' είναι μια όμορφη αντανάκλαση των σύγχρονων ανθρώπινων αγώνων. Ας συζητήσουμε.",
+                    "Χωρίς μια βαθιά κατανόηση του/της <strong>{w_lower}</strong>, δεν μπορούμε ποτέ να επιτύχουμε διαρκή επιτυχία και ευτυχία. Μοιραστείτε τις σκέψεις σας.",
+                    "Το έργο του/της {artist} δείχνει ότι η συλλογική μας εμμονή με το/τη <strong>{w_lower}</strong> μπορεί μερικές φορές να οδηγήσει σε αυτοαμφισβήτηση. Υπερασπιστείτε ή αντιταχθείτε.",
+                    "Το/η αληθινό/ή <strong>{w_lower}</strong> μπορεί να υπάρξει μόνο όταν είμαστε απόλυτα άνετα με αυτό που είμαστε. Συζητήστε.",
+                    "Η μουσική του '{title}' υποδηλώνει ότι πρέπει να είμαστε πρόθυμοι να πάρουμε ρίσκα για να βιώσουμε πλήρως το/τη <strong>{w_lower}</strong>. Συμφωνείτε;",
+                    "Στον σύγχρονο κόσμο, η ήσυχη ανάπτυξη του/της <strong>{w_lower}</strong> απειλείται συχνά από συνεχείς περισπασμούς. Συζητήστε.",
+                    "Δεν μπορούμε να εκτιμήσουμε πραγματικά το/τη <strong>{w_lower}</strong> μέχρι να ζήσουμε στιγμές πρόκλησης και αποτυχίας. Αναλύστε το.",
+                    "Ο/Η {artist} μας προειδοποιεί ότι η υπερβολική εστίαση στο/τη <strong>{w_lower}</strong> μπορεί να μας κάνει να χάσουμε την επαφή με άλλους πρακτικούς στόχους. Μοιραστείτε την άποψή σας.",
+                    "Το τέλος του '{title}' αποδεικνύει ότι η αποδοχή του/της δικού/ης μας <strong>{w_lower}</strong> είναι το κλειδί για την προσωπική ελευθερία. Συζητήστε.",
+                    "Αν πάρουμε τις αποφάσεις της ζωής μας βασιζόμενοι εξ ολοκλήρου στην επιδίωξη του/της <strong>{w_lower}</strong>, κινδυνεύουμε να χάσουμε τη σταθερότητα. Συζητήστε."
+                ]
+            },
             "en": {
                 "r1": [
                     "How does '{title}' by {artist} explore the deeper significance of <strong>{w_lower}</strong> in our daily lives?",
@@ -4032,6 +4312,42 @@ NEW_SONGS_METADATA = {
         "variety": "Français",
         "focus": "Existential Loneliness & Human Connection",
         "vocab": ["dort", "caresse", "cajole", "comprend", "console", "déteste", "déchire", "détruit", "La solitude", "Seul"]
+    },
+    "couleur": {
+        "title": "Couleur",
+        "artist": "Zazie",
+        "level": "B2",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Diversity, Equality & Anti-Racism",
+        "vocab": ["Gènes", "Peinture", "Clarté", "Espoir", "Guerre", "Violence", "Sauvage", "Mœurs", "Peau", "Drapeau"]
+    },
+    "speed": {
+        "title": "Speed",
+        "artist": "Zazie",
+        "level": "B2",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Waking Up & Heart Rhythms",
+        "vocab": ["Caverne", "Hiberner", "Cacher", "Vibrer", "Debout", "Mort", "Libre", "Sage", "Âge", "Cage"]
+    },
+    "je-suis-un-homme": {
+        "title": "Je suis un homme",
+        "artist": "Zazie",
+        "level": "B2",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Consumerism, Illusion & Human Nature",
+        "vocab": ["Singe", "Poisson", "Saison", "Ambition", "Illusion", "Béton", "Prison", "Consommation", "Maître", "Nature"]
+    },
+    "fovamai": {
+        "title": "Φοβάμαι",
+        "artist": "Μπλε",
+        "level": "B2",
+        "lang": "el",
+        "variety": "Greek",
+        "focus": "Fear, Passion & Emotional Distances",
+        "vocab": ["Μαλλιά", "Στιγμή", "Χέρι", "Στίχος", "Κοντά", "Μακριά", "Όνομα", "Ψυχή", "Φιλί", "Χρόνος"]
     }
 }
 
@@ -4080,7 +4396,11 @@ COMPLETE_SONG_VOCAB = {
     "la-complainte-de-la-serveuse-automate": ["loyer", "automate", "cultiver", "tomates", "souterrain", "pareils", "néon", "éteint", "La paix", "Le soleil"],
     "le-monde-est-stone": ["éclate", "dormir", "asphalte", "mourir", "stone", "tourne", "cinéma", "battre", "empires", "châteaux"],
     "un-garcon-pas-comme-les-autres": ["folle", "faute", "aimera", "pleuré", "disques", "boutique", "galaxie", "La rue", "Le café", "Oublier"],
-    "les-uns-contre-les-autres": ["dort", "caresse", "cajole", "comprend", "console", "déteste", "déchire", "détruit", "La solitude", "Seul"]
+    "les-uns-contre-les-autres": ["dort", "caresse", "cajole", "comprend", "console", "déteste", "déchire", "détruit", "La solitude", "Seul"],
+    "couleur": ["Gènes", "Peinture", "Clarté", "Espoir", "Guerre", "Violence", "Sauvage", "Mœurs", "Peau", "Drapeau"],
+    "speed": ["Caverne", "Hiberner", "Cacher", "Vibrer", "Debout", "Mort", "Libre", "Sage", "Âge", "Cage"],
+    "je-suis-un-homme": ["Singe", "Poisson", "Saison", "Ambition", "Illusion", "Béton", "Prison", "Consommation", "Maître", "Nature"],
+    "fovamai": ["Μαλλιά", "Στιγμή", "Χέρι", "Στίχος", "Κοντά", "Μακριά", "Όνομα", "Ψυχή", "Φιλί", "Χρόνος"]
 }
 
 songs_list = []
@@ -4169,6 +4489,24 @@ NEW_CHALLENGES_METADATA = {
         "lang": "fr",
         "variety": "Français",
         "focus": "Existential Desires & Human Connection",
+        "vocab": []
+    },
+    "zazie-challenge": {
+        "title": "Zazie Challenge",
+        "artist": "Zazie",
+        "level": "B2",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Complexity of Human Relations & Emotions",
+        "vocab": []
+    },
+    "mple-challenge": {
+        "title": "Mple Challenge",
+        "artist": "Μπλε",
+        "level": "B2",
+        "lang": "el",
+        "variety": "Greek",
+        "focus": "Passionate Devotion & Inner Fears",
         "vocab": []
     }
 }
@@ -4416,6 +4754,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 {final_challenge_html}      </div>
     </div>
 
+{sources_html}
+
     <div class="mistake-block open" id="s-mistakes">
       <div class="mistake-header" onclick="COSY.toggleBlock(\'s-mistakes\')">
         <span>{teacher_note_title}</span><span class="round-toggle">▲</span>
@@ -4500,21 +4840,23 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 
 for song in all_karaoke_data:
     slug = song["slug"]
+    if slug not in ["couleur", "speed", "je-suis-un-homme", "fovamai", "zazie-challenge", "mple-challenge"]:
+        continue
     title = song["title"]
     artist = song["artist"]
     level_short = song["level"]
     level_long = "Intermediate (B1)" if level_short == "B1" else ("Beginner (A2)" if level_short == "A2" else ("Upper Intermediate (B2)" if level_short == "B2" else "Advanced (C1)"))
 
     if song["lang"] == "fr":
-        level_long = "Intermédiaire (B1)" if level_short == "B1" else ("Débutant (A2)" if level_short == "A2" else "Intermédiaire Supérieur (B2)")
+        level_long = "Intermédiaire (B1)" if level_short == "B1" else ("Débutant (A2)" if level_short == "A2" else ("Intermédiaire Supérieur (B2)" if level_short == "B2" else "Avancé (C1)"))
     elif song["lang"] == "ru":
-        level_long = "Средний (B1)"
+        level_long = "Средний (B1)" if level_short == "B1" else ("Начинающий (A2)" if level_short == "A2" else ("Выше среднего (B2)" if level_short == "B2" else "Продвинутый (C1)"))
     elif song["lang"] == "it":
-        level_long = "Intermedio (B1)"
+        level_long = "Intermedio (B1)" if level_short == "B1" else ("Principiante (A2)" if level_short == "A2" else ("Intermedio Superiore (B2)" if level_short == "B2" else "Avanzato (C1)"))
     elif song["lang"] == "es":
-        level_long = "Intermedio (B1)"
+        level_long = "Intermedio (B1)" if level_short == "B1" else ("Principiante (A2)" if level_short == "A2" else ("Intermedio Superior (B2)" if level_short == "B2" else "Avanzado (C1)"))
     elif song["lang"] == "el":
-        level_long = "Μεσαίο (B1)" if level_short == "B1" else "Στοιχειώδες (A2)"
+        level_long = "Μεσαίο (B1)" if level_short == "B1" else ("Στοιχειώδες (A2)" if level_short == "A2" else ("Ανώτερο Μεσαίο (B2)" if level_short == "B2" else "Προχωρημένο (C1)"))
 
     lang = song["lang"]
     variety_lang = song["variety_lang"] if "variety_lang" in song else song.get("variety", "English")
@@ -4718,7 +5060,7 @@ for song in all_karaoke_data:
             tabs_html=tabs_html
         )
     else:
-        dur_val = "90–120 minutes"
+        dur_val = loc.get("dur_val", "90–120 minutes")
         song_link = SONG_LINKS.get(slug, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
         song_link_backup = song_link
 
@@ -4735,6 +5077,39 @@ for song in all_karaoke_data:
             desc = f"Explora la hermosa canción '{title}' de {artist} en {variety_lang}. Esta sesión se centra en el vocabulario de '{focus}' y en las estructuras lingüísticas clave de la letra. Los estudiantes practicarán la conversación y el debate sobre estos temas."
         elif lang == "el":
             desc = f"Ανακαλύψτε το πανέφορφο τραγούδι '{title}' του καλλιτέχνη {artist} στα {variety_lang}. Αυτή η συνεδρία εστιάζει στο λεξιλόγιο γύρω από το θέμα '{focus}' και στις βασικές γλωσσικές δομές των στίχων. Οι μαθητές θα εξασκηθούν στην ομιλία και τη συζήτηση."
+
+        GENIUS_LINKS = {
+            "couleur": "https://genius.com/Zazie-couleur-lyrics",
+            "speed": "https://genius.com/Zazie-speed-lyrics",
+            "je-suis-un-homme": "https://genius.com/Zazie-je-suis-un-homme-lyrics",
+            "fovamai": "https://genius.com/Mple-fovame-lyrics"
+        }
+        genius_link = GENIUS_LINKS.get(slug, "")
+        youtube_link = song_link
+        if lang == "el":
+            sources_html = f"""<!-- Sources Section -->
+<section class="sources-section" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
+  <h4 style="margin-bottom: 0.5rem; color: var(--ink);">Πηγές &amp; Αναφορές</h4>
+  <ul style="list-style-type: none; padding-left: 0; margin-bottom: 1rem;">
+    <li style="margin-bottom: 0.4rem;">Genius. « {artist} – {title} (Στίχοι) » <em>Genius</em>, <a href="{genius_link}" style="color: var(--teal);" target="_blank">{genius_link}</a>.</li>
+    <li>« {title} » <em>YouTube</em>, από {artist}, <a href="{youtube_link}" style="color: var(--teal);" target="_blank">{youtube_link}</a>.</li>
+  </ul>
+  <p style="font-style: italic; margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
+    Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+  </p>
+</section>"""
+        else:
+            sources_html = f"""<!-- Sources Section -->
+<section class="sources-section" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
+  <h4 style="margin-bottom: 0.5rem; color: var(--ink);">Sources &amp; Citations</h4>
+  <ul style="list-style-type: none; padding-left: 0; margin-bottom: 1rem;">
+    <li style="margin-bottom: 0.4rem;">Genius. « {artist} – {title} (Paroles) » <em>Genius</em>, <a href="{genius_link}" style="color: var(--teal);" target="_blank">{genius_link}</a>. Consulté en juillet 2026.</li>
+    <li>« {title} » <em>YouTube</em>, téléchargé par {artist}, <a href="{youtube_link}" style="color: var(--teal);" target="_blank">{youtube_link}</a>.</li>
+  </ul>
+  <p style="font-style: italic; margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
+    Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+  </p>
+</section>"""
 
         formatted_html = HTML_TEMPLATE.format(
             lang=lang,
@@ -4775,7 +5150,8 @@ for song in all_karaoke_data:
             lang_focus_title=loc["lang_focus_title"],
             lang_focus_html=elements["lang_focus_html"],
             final_challenge_title=loc["final_challenge_title"],
-            final_challenge_html=elements["final_challenge_html"]
+            final_challenge_html=elements["final_challenge_html"],
+            sources_html=sources_html
         )
 
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.html")
