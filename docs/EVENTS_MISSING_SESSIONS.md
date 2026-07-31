@@ -6,32 +6,13 @@ This report lists every broken `sessions/` link found in `events/index.html` and
 
 | Club | Missing Session Links |
 | :--- | :---: |
-| `cinema-club` | 14 |
+| `cinema-club` | 0 |
 | `debatable-relatable` | 1 |
 | `i-couldnt-help-but-wonder` | 6 |
 | `keeping-up-with-science` | 8 |
 | `mind-matters` | 11 |
 | `the-greatest-quotes` | 2 |
-| **Total** | **42** |
-
-## Cinema Club (Bobine / Reel) (`cinema-club`)
-
-| Session Title / Topic | Relative `href` Link | Referenced In | Expected Disk Path |
-| :--- | :--- | :--- | :--- |
-| **Beautiful Thing** | `sessions/cinema-club/beautiful-thing.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/beautiful-thing.html` |
-| **Coda** | `sessions/cinema-club/coda.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/coda.html` |
-| **Free Guy** | `sessions/cinema-club/free-guy.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/free-guy.html` |
-| **Glee** | `sessions/cinema-club/glee.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/glee.html` |
-| **Hello Dolly** | `sessions/cinema-club/hello-dolly.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/hello-dolly.html` |
-| **Julie & Julia** | `sessions/cinema-club/julie-and-julia.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/julie-and-julia.html` |
-| **Roman Holiday** | `sessions/cinema-club/roman-holiday.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/roman-holiday.html` |
-| **Stepmom** | `sessions/cinema-club/stepmom.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/stepmom.html` |
-| **The Devil Wears Prada** | `sessions/cinema-club/the-devil-wears-prada.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/the-devil-wears-prada.html` |
-| **The First Wives Club** | `sessions/cinema-club/the-first-wives-club.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/the-first-wives-club.html` |
-| **The Mummy** | `sessions/cinema-club/the-mummy.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/the-mummy.html` |
-| **The Notebook** | `sessions/cinema-club/the-notebook.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/the-notebook.html` |
-| **The Pianist** | `sessions/cinema-club/the-pianist.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/the-pianist.html` |
-| **What Women Want** | `sessions/cinema-club/what-women-want.html` | English Landing Page (`events/index.html`) | `events/sessions/cinema-club/what-women-want.html` |
+| **Total** | **28** |
 
 ## Debatable Relatable (Controversial Debates) (`debatable-relatable`)
 
