@@ -1781,7 +1781,7 @@
     const setupClubFilters = () => {
         const buttons = document.querySelectorAll('.filter-btn');
         const sessions = document.querySelectorAll('.history-session');
-        const historyBody = document.querySelector('.history-body');
+        const historyBody = document.querySelector('.history-body') || document.querySelector('.history-block');
 
         if (buttons.length > 0 && sessions.length > 0 && historyBody) {
             // Check if we already created the message
@@ -1817,33 +1817,54 @@
                 historyBody.appendChild(noSessionsMsg);
             }
 
+            const applyFilters = () => {
+                const activeLangBtn = document.querySelector('.club-filters-lang .filter-btn.active');
+                const activeLevelBtn = document.querySelector('.club-filters-level .filter-btn.active') || document.querySelector('.club-filters .filter-btn.active');
+
+                const selectedLang = activeLangBtn ? activeLangBtn.getAttribute('data-lang') : 'all';
+                const selectedLevel = activeLevelBtn ? activeLevelBtn.getAttribute('data-level') : 'all';
+
+                let visibleCount = 0;
+
+                sessions.forEach(sess => {
+                    const langAttr = sess.getAttribute('data-lang') || 'en';
+                    const levelsAttr = sess.getAttribute('data-level') || '';
+                    const levels = levelsAttr.split(/\s+/);
+
+                    const matchLang = (selectedLang === 'all' || langAttr === selectedLang);
+                    const matchLevel = (selectedLevel === 'all' || levels.includes(selectedLevel));
+
+                    if (matchLang && matchLevel) {
+                        sess.style.display = 'flex';
+                        visibleCount++;
+                    } else {
+                        sess.style.display = 'none';
+                    }
+                });
+
+                if (noSessionsMsg) {
+                    noSessionsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
+                }
+            };
+
             buttons.forEach(btn => {
                 if (btn.dataset.filterBound === 'true') return;
                 btn.dataset.filterBound = 'true';
 
                 btn.addEventListener('click', () => {
-                    buttons.forEach(b => b.classList.remove('active'));
+                    // Find brother buttons in the same container and deactivate them
+                    const container = btn.parentElement;
+                    if (container) {
+                        container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    }
                     btn.classList.add('active');
 
-                    const selectedLevel = btn.getAttribute('data-level');
-                    let visibleCount = 0;
-
-                    sessions.forEach(sess => {
-                        const levelsAttr = sess.getAttribute('data-level') || '';
-                        const levels = levelsAttr.split(/\s+/);
-                        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
-                            sess.style.display = 'flex';
-                            visibleCount++;
-                        } else {
-                            sess.style.display = 'none';
-                        }
-                    });
-
-                    if (noSessionsMsg) {
-                        noSessionsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
-                    }
+                    applyFilters();
                 });
             });
+
+            // Initial filter application
+            applyFilters();
         }
     };
 

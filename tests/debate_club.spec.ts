@@ -4,7 +4,7 @@ test.describe('Debate Club and Assisted Dying Session Verification', () => {
   test('English club page should load and display the new session', async ({ page }) => {
     await page.goto('http://localhost:8080/events/debatable-relatable.html');
     await expect(page.locator('h1')).toContainText('Debatable & Relatable');
-    await expect(page.locator('h4:has-text("Assisted Dying: Yes or No")')).toBeVisible();
+    await expect(page.locator('a:has-text("Assisted Dying")').first()).toBeVisible();
   });
 
   test('French club page should load and display the new session', async ({ page }) => {
