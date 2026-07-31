@@ -1,6 +1,7 @@
 /**
  * games/action_hero/game.js
  * Standalone logic for Action Hero.
+ * Enhanced with Phase 3 (Sensory FX & Confetti) and Phase 4 (Mobile Tilt Gestures).
  */
 (function() {
     const GAME_ID = 'action';
@@ -8,8 +9,6 @@
     const GAME_META = 'Mystery · Group';
     const LEVEL_OPTS = ['Starter (A1)','Primary (A2)','Intermediate (B1)','Upper (B2)','Advanced (C1)','Proficiency (C2)'];
     const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷'];
-
-    function shuffle(arr) { return [...arr].sort(() => Math.random() - .5); }
 
     function renderSetup() {
         document.getElementById('go-title').textContent = GAME_TITLE;
@@ -19,6 +18,17 @@
             <div class="setup-screen">
               <h2>Action Hero 🎭</h2>
               <p>Hold your phone to your forehead (screen facing others). They describe the word — you guess. Each round is 60 seconds. Pass or guess as many words as you can.</p>
+
+              <!-- Hands-free sensory tip -->
+              <div style="background: var(--cream-dark); border: 1.5px dashed var(--border); border-radius: 12px; padding: 1rem; margin-bottom: 1.5rem; text-align: left; font-size: 0.88rem; line-height: 1.5;">
+                📱 <strong>Hands-Free Tilt Mode (Phase 4):</strong><br>
+                Once active, you can control the game simply by tilting your phone!
+                <ul>
+                  <li>• <strong>Tilt Down (towards floor):</strong> ✓ Got it!</li>
+                  <li>• <strong>Tilt Up (towards ceiling):</strong> Skip →</li>
+                </ul>
+              </div>
+
               <div class="setup-field"><label>Category</label>
                 <select class="styled-sel" id="s-cat">
                   <option value="all">All vocabulary</option>
@@ -71,6 +81,40 @@
             let correct = 0, skipped = 0;
             const DUR = 60;
 
+            // Define physical tilt gesture handler (Phase 4)
+            let lastTiltTime = 0;
+            const handleTilt = (event) => {
+                const now = Date.now();
+                if (now - lastTiltTime < 1500) return; // 1.5s debounce to allow returning upright
+
+                const beta = event.beta; // Tilt angle [-180, 180]
+                if (beta === null) return;
+
+                if (beta < 55) {
+                    lastTiltTime = now;
+                    COSY_GAME.ahResult(true); // Correct!
+                } else if (beta > 125) {
+                    lastTiltTime = now;
+                    COSY_GAME.ahResult(false); // Skip!
+                }
+            };
+
+            // Request mobile browser permission and bind sensor listener
+            const requestOrientation = () => {
+                if (typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function') {
+                    DeviceOrientationEvent.requestPermission()
+                        .then(state => {
+                            if (state === 'granted') {
+                                window.addEventListener('deviceorientation', handleTilt);
+                            }
+                        })
+                        .catch(err => console.warn("Orientation permission denied:", err));
+                } else {
+                    window.addEventListener('deviceorientation', handleTilt);
+                }
+            };
+            requestOrientation();
+
             const showWord = () => {
               if (!COSYGame.nextRound()) {
                 showActionEnd();
@@ -99,9 +143,19 @@
 
             const showActionEnd = () => {
               gameUtils.stopTimer();
+              window.removeEventListener('deviceorientation', handleTilt); // Clean up listener!
+
               COSYGame.score = correct * 5;
               COSYScores.save(GAME_ID, lang, level, COSYGame.score);
               const best = COSYScores.best(GAME_ID, lang);
+
+              // Play ending fanfares/sound triggers (Phase 3)
+              if (correct > 0) {
+                gameUtils.playGameSound('success');
+                gameUtils.createConfetti();
+              } else {
+                gameUtils.playGameSound('error');
+              }
 
               document.getElementById('go-body').innerHTML = `
                 <div class="round-end">
@@ -121,6 +175,8 @@
             }
 
             window.COSY_GAME.ahResult = (got) => {
+              // Play click feedback sound on results (Phase 3)
+              gameUtils.playGameSound(got ? 'success' : 'click');
               if (got) correct++; else skipped++;
               showWord();
             };

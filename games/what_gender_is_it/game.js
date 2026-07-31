@@ -192,6 +192,9 @@
                 // Normalize 'both' for languages like Spanish 'mar'
                 const isCorrect = (selectedGender === correctGender) || (correctGender === 'both');
 
+                // Play haptic feedback sound (Phase 3)
+                gameUtils.playGameSound(isCorrect ? 'success' : 'error');
+
                 if (isCorrect) {
                     clickedBtn.classList.add('correct-choice');
                     if (fb) {
@@ -224,6 +227,14 @@
             const best = COSYScores.best(GAME_ID, lang);
             const body = document.getElementById('go-body');
             if (!body) return;
+
+            // Trigger sensory feedback / confetti triggers (Phase 3)
+            if (COSYGame.score >= 50) {
+                gameUtils.playGameSound('success');
+                gameUtils.createConfetti();
+            } else {
+                gameUtils.playGameSound('error');
+            }
 
             // Compute Rank Title based on score
             let rankTitle = "Gender Novice 🌱";
