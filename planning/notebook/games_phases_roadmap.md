@@ -11,7 +11,7 @@ This document outlines the structured, phased roadmap for implementing the **COS
   (Completed ✅)          (Completed ✅)              (Completed ✅)
                                                                    │
   [ Phase 5: Verification ] 🖲️ [ Phase 4: Device/Sensors ] 🗲 <─────┘
-  (CI Audits, Full Coverage)   (DeviceOrientation, Accelerometer)  (Next Up 🚀)
+  (Next Up 🚀)                 (DeviceOrientation, Accelerometer)  (Completed ✅)
 ```
 
 ---
@@ -75,24 +75,24 @@ This document outlines the structured, phased roadmap for implementing the **COS
 
 ---
 
-## Phase 4: Mobile & Sensor Capabilities (Next Up 🚀)
+## Phase 4: Mobile & Sensor Capabilities (Completed ✅)
 *Focus: Optimize games for on-the-go smartphones and leverage native mobile hardware triggers.*
 
-- [ ] **Stage 4.1: DeviceOrientation Accelerometer Integration (Action Hero)**
+- [x] **Stage 4.1: DeviceOrientation Accelerometer Integration (Action Hero)**
   - For the mobile "Action Hero" party game, hook into the HTML5 `DeviceOrientation` API.
   - Enable hands-free gameplay by translating physical tilt gestures:
     - *Tilt Phone Down:* Triggers Green Correct Guess.
     - *Tilt Phone Up / Back:* Triggers Red Skip.
-- [ ] **Stage 4.2: Tactile Haptics**
+- [x] **Stage 4.2: Tactile Haptics**
   - Utilize the native `navigator.vibrate()` API (where supported) to send discrete physical feedback:
     - Double short vibration (50ms, 50ms) on success.
     - One long vibration (250ms) on failure/timeout.
-- [ ] **Stage 4.3: Mobile Anti-Scroll Bounding**
+- [x] **Stage 4.3: Mobile Anti-Scroll Bounding**
   - Audit CSS viewports inside active overlays to ensure all game controls are tightly bounded within `100vh` on mobile screens (preventing awkward swiping/scrolling to find inputs).
 
 ---
 
-## Phase 5: Advanced Game-by-Game Features & Economy
+## Phase 5: Advanced Game-by-Game Features & Economy (Next Up 🚀)
 *Focus: Enhance gameplay mechanics for specific card, puzzle, and conversational games, and integrate them with the student portal.*
 
 - [ ] **Stage 5.1: Complexity Analyzer (Story Chain & Fluency)**
