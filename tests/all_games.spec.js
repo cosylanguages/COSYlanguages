@@ -8,12 +8,12 @@ const games = [
     { id: 'fluency', title: 'Fluency Flow', setupText: 'Duration', levels: true },
     { id: 'battle', title: 'Battle of Wits', setupText: 'Language', levels: true },
     { id: 'opinion', title: 'Opinion Arena', setupText: 'Language', levels: true },
-    { id: 'critic', title: "Critic's Corner", setupText: 'Language', levels: true, minLevel: 'Upper-Intermediate (B2)' },
+    { id: 'critic', title: "Critic's Corner", setupText: 'Language', levels: true, minLevel: 'Intermediate (B1)' },
     { id: 'storychain', title: 'Story Chain', setupText: 'Language', levels: true },
     { id: 'hotseat', title: 'Hot Seat', setupText: 'Language', levels: true },
-    { id: 'action', title: 'Action Hero', setupText: 'Category', levels: true, categories: ['Verbs 🏃‍♂️', 'Animals 🐾', 'Nature 🌿'] },
+    { id: 'action', title: 'Action Hero', setupText: 'Category', levels: true, categories: ['Verbs 🏃‍♂️', 'Animals & Nature 🐾'] },
     { id: 'identity', title: 'Identity Mystery', setupText: 'Category', levels: true, categories: ['Famous People 🌟', 'Jobs & Professions 💼'] },
-    { id: 'objectquest', title: 'Object Quest', setupText: 'Category', levels: true, categories: ['Animals 🐾', 'Nature 🌿', 'Food & Drink 🍕'] },
+    { id: 'objectquest', title: 'Object Quest', setupText: 'Category', levels: true, categories: ['Animals & Nature 🐾', 'Food & Drink 🍕'] },
     { id: 'wordlinker', title: 'Word Linker', setupText: 'Mode', levels: true, modes: ['Odd One Out ❌', 'Common Connection 🔗'] },
     { id: 'lastletter', title: 'Last Letter', setupText: 'Language', levels: true },
     { id: 'emoji', title: 'Emoji Odyssey', setupText: 'Mode', levels: true },
@@ -84,8 +84,8 @@ for (const game of games) {
             }
         }
 
-        // Close overlay
+        // Close overlay (navigates back to games hub index)
         await page.click('.go-back');
-        await expect(overlay).not.toHaveClass(/open/);
+        await expect(page).toHaveURL(/.*\/games\/index.html/);
     });
 }
