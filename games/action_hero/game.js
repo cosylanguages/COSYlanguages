@@ -92,10 +92,10 @@
 
                 if (beta < 55) {
                     lastTiltTime = now;
-                    COSY_GAME.ahResult(true); // Correct!
+                    window.COSY_GAME.ahResult(true); // Correct!
                 } else if (beta > 125) {
                     lastTiltTime = now;
-                    COSY_GAME.ahResult(false); // Skip!
+                    window.COSY_GAME.ahResult(false); // Skip!
                 }
             };
 
