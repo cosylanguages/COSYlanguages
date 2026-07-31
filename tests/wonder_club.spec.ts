@@ -9,9 +9,9 @@ test.describe('Wonder Club and Session Verification', () => {
     // Check for all 5 past sessions
     await expect(page.locator('h4:has-text("Why Do I Feel Like Everyone Is Copying Me?")')).toBeVisible();
     await expect(page.locator('h4:has-text("Why Do I Feel Like I\'m Always Being Watched in a Crowd?")')).toBeVisible();
-    await expect(page.locator('h4:has-text("Is Bad Weather Really About Gods Being Angry?")')).toBeVisible();
-    await expect(page.locator('h4:has-text("Do Insects Hide When It Rains?")')).toBeVisible();
-    await expect(page.locator('h4:has-text("Do Raindrops Select Where to Fall?")')).toBeVisible();
+    await expect(page.locator('a:has-text("Bad Weather")').first()).toBeVisible();
+    await expect(page.locator('a:has-text("Insects Shelter")').first()).toBeVisible();
+    await expect(page.locator('a:has-text("Raindrops Match")').first()).toBeVisible();
   });
 
   test('Do Insects Hide session page should load correctly', async ({ page }) => {
