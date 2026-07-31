@@ -29,14 +29,14 @@
   </nav>
   <a href="../../karaoke-club.html" class="back-link">← Torna al club</a>
   <div class="session-meta-grid">
-    <div class="meta-item"><h4>Durata</h4><p>90 minutes</p></div>
+    <div class="meta-item"><h4>Durata</h4><p>90 minuti</p></div>
     <div class="meta-item"><h4>Lingua</h4><p>Italiano</p></div>
     <div class="meta-item"><h4>Livello</h4><p>Intermedio (B1)</p></div>
-    <div class="meta-item"><h4>Tema</h4><p>Destino & Amore</p></div>
+    <div class="meta-item"><h4>Tema</h4><p>Destino, nostalgia e sentimenti fugaci</p></div>
     <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Completa questa speciale sfida di karaoke composta da 2 canzoni classiche: chi sarà con te, l'amore è un attimo. Esercitati e confronta il loro vocabolario, i testi e il significato culturale!</p>
+    <p>Benvenuto in questa speciale sfida musicale! Esercitati con due dei brani più celebri e intensi di Massimo Ranieri, confrontando i loro testi carichi di emozione, i rispettivi focus linguistici ed i grandi temi che sollevano.</p>
   </div>
 
   <vim-choice>
@@ -44,136 +44,99 @@
       <vim-choice-option-title>chi sarà con te</vim-choice-option-title>
       <vim-choice-option-content>
         <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
-          <div class="meta-item"><h4>Resources</h4><p>
+          <div class="meta-item"><h4>Risorse</h4><p>
             <a href="https://www.youtube.com/watch?v=rq8lpdP2JYg" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
             <a href="https://www.youtube.com/watch?v=rq8lpdP2JYg" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
           </p></div>
         </div>
 
         <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
-          <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Tema: Compagnia per la vita</h3>
+          <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Tema: Nostalgia, vecchi amori e l'incertezza del futuro</h3>
           <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Discuteremo di:</p>
           <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
-                  <li>Compagnia</li>
-      <li>Il futuro</li>
-      <li>Il destino</li>
-      <li>Personal reflection</li>
+            <li>L'appuntamento, l'unione fisica e la distanza emotiva</li>
+            <li>Il tormento dei confronti tra partner del presente e del passato</li>
+            <li>La nostalgia urbana e le strade inesplorate</li>
+            <li>Riflessione personale</li>
           </ul>
         </div>
 
-        <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
-          <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
-            <span>🗣️ Speaking Time Gauge</span>
-            <span>90-120 min Session</span>
-          </div>
-          <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
-            <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
-            <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
-            <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
-            <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
-            <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
-            <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
-          </div>
-          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
-            <span>🎵 Fase 1: Riscaldamento (10%)</span>
-            <span>📚 Fase 2: Vocabolario (15%)</span>
-            <span>🎧 Fase 3: Ascolto (15%)</span>
-            <span>💬 Fase 4: Discussione (45%)</span>
-            <span>✨ Fase 5: Focus linguistico (10%)</span>
-            <span>🎭 Fase 6: Sfida finale (5%)</span>
-          </div>
-        </div>
-
-        <div class="rounds-container">
-          <div class="round-block warm-up open" id="s-warm-chi-sara-con-te">
-            <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm-chi-sara-con-te')">
-              <span>🎵 Fase 1: Riscaldamento</span><span class="round-toggle">▲</span>
-            </div>
-            <div class="round-body" style="display:block;">
-              <ul class="round-questions">
-            <li>Quanto ritieni importante questo tema di discussione nella tua vita quotidiana?</li>
-            <li>Guarda il titolo 'chi sarà con te' e l'artista 'Massimo Ranieri'. Secondo te, di cosa parlerà questa canzone? (Domanda di predizione)</li>
-            <li>Quali emozioni ti trasmette questo stile di musica?</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="round-block open" id="vocabulary-chi-sara-con-te">
-            <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-chi-sara-con-te')">
-              <span>📚 Fase 2: Vocabolario</span><span class="round-toggle">▲</span>
+        <div class="rounds-container" style="border: none; padding: 0;">
+          <div class="round-block open" id="c1-vocabulary" style="margin-top: 0;">
+            <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('c1-vocabulary')">
+              <span>📚 Fase 2: Vocabolario (Chi sarà con te)</span><span class="round-toggle">▲</span>
             </div>
             <div class="round-body" style="display:block; padding-top: 1.5rem;">
               <div class="vocab-grid-10">
-        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concetti chiave & Emozioni</h3>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La compagnia</div>
-<div class="vocab-def">stato di chi è insieme ad altri.</div>
-<div class="vocab-example">Preferisco viaggiare in compagnia dei miei migliori amici.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La compagnia', definition:'stato di chi è insieme ad altri.', example:'Preferisco viaggiare in compagnia dei miei migliori amici.'}, this)">+ Dictionary</button>
+                <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concetti chiave & Emozioni</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'appuntamento</div>
+<div class="vocab-def">incontro fissato tra due o più persone a un'ora e in un luogo stabiliti.</div>
+<div class="vocab-example">Ricordo ancora l'emozione del nostro primo appuntamento sotto la pioggia.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'appuntamento', definition:'incontro fissato tra due o più persone a un\'ora e in un luogo stabiliti.', example:'Ricordo ancora l\'emozione del nostro primo appuntamento sotto la pioggia.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il futuro</div>
-<div class="vocab-def">tempo che deve ancora venire.</div>
-<div class="vocab-example">Nessuno può prevedere con certezza cosa riserverà il futuro.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il futuro', definition:'tempo che deve ancora venire.', example:'Nessuno può prevedere con certezza cosa riserverà il futuro.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La mano</div>
+<div class="vocab-def">parte terminale del braccio umano; simbolo di contatto, unione o conforto.</div>
+<div class="vocab-example">Prese la sua mano per infonderle coraggio prima dell'inizio dello spettacolo.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La mano', definition:'parte terminale del braccio umano; simbolo di contatto, unione o conforto.', example:'Prese la sua mano per infonderle coraggio prima dell\'inizio dello spettacolo.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il destino</div>
-<div class="vocab-def">forza misteriosa che regola la vita umana.</div>
-<div class="vocab-example">Ha deciso di prendere in mano le redini del proprio destino.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il destino', definition:'forza misteriosa che regola la vita umana.', example:'Ha deciso di prendere in mano le redini del proprio destino.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le labbra</div>
+<div class="vocab-def">le primi parti carnose che delimitano la bocca, usate per baciare o parlare.</div>
+<div class="vocab-example">Sfiorò le sue labbra con un bacio leggero, quasi impercettibile.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le labbra', definition:'le primi parti carnose che delimitano la bocca, usate per baciare o parlare.', example:'Sfiorò le sue labbra con un bacio leggero, quasi impercettibile.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La promessa</div>
-<div class="vocab-def">impegno formale di fare o dare qualcosa.</div>
-<div class="vocab-example">Ha mantenuto la promessa di scrivergli ogni settimana.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La promessa', definition:'impegno formale di fare o dare qualcosa.', example:'Ha mantenuto la promessa di scrivergli ogni settimana.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La vetrina</div>
+<div class="vocab-def">grande lastra di vetro di un negozio in cui si espone la merce alla vista.</div>
+<div class="vocab-example">Passeggiavano pigramente guardando le vetrine illuminate del centro storico.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La vetrina', definition:'grande lastra di vetro di un negozio in cui si espone la merce alla vista.', example:'Passeggiavano pigramente guardando le vetrine illuminate del centro storico.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La speranza</div>
-<div class="vocab-def">sentimento di fiduciosa attesa di un bene futuro.</div>
-<div class="vocab-example">La speranza è l'ultima a morire nei momenti difficili.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La speranza', definition:'sentimento di fiduciosa attesa di un bene futuro.', example:'La speranza è l\'ultima a morire nei momenti difficili.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'innamorato</div>
+<div class="vocab-def">persona che prova un profondo sentimento d'amore per un'altra.</div>
+<div class="vocab-example">Il parco in primavera è sempre pieno di giovani innamorati che passeggiano.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'innamorato', definition:'persona che prova un profondo sentimento d\'amore per un\'altra.', example:'Il parco in primavera è sempre pieno di giovani innamorati che passeggiano.'}, this)">+ Dictionary</button>
 </div>
-        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vita, Azioni & Connessione</h3>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Proteggere</div>
-<div class="vocab-def">difendere qualcuno o qualcosa da un pericolo.</div>
-<div class="vocab-example">Dobbiamo proteggere la natura per le future generazioni.</div>
-<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contrario :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Attaccare</span></div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Proteggere', definition:'difendere qualcuno o qualcosa da un pericolo.', example:'Dobbiamo proteggere la natura per le future generazioni.'}, this)">+ Dictionary</button>
+                <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vita, Azioni & Connessione</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Sconosciuto</div>
+<div class="vocab-def">che non si conosce affatto, estraneo, non familiare.</div>
+<div class="vocab-example">Perdersi tra le strade sconosciute di una nuova città può essere un'avventura.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Sconosciuto', definition:'che non si conosce affatto, estraneo, non familiare.', example:'Perdersi tra le strade sconosciute di una nuova città può essere un\'avventura.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il cammino</div>
-<div class="vocab-def">strada o percorso da compiere, progresso.</div>
-<div class="vocab-example">Il cammino verso l'uguaglianza è ancora lungo ma necessario.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il cammino', definition:'strada o percorso da compiere, progresso.', example:'Il cammino verso l\'uguaglianza è ancora lungo ma necessario.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Assomigliare</div>
+<div class="vocab-def">avere tratti somatici, gesti o caratteristiche simili a qualcun altro.</div>
+<div class="vocab-example">Questo bambino assomiglia in modo straordinario a suo padre.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Assomigliare', definition:'avere tratti somatici, gesti o caratteristiche simili a qualcun altro.', example:'Questo bambino assomiglia in modo straordinario a suo padre.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La fedeltà</div>
-<div class="vocab-def">qualità di chi è fedele e costante.</div>
-<div class="vocab-example">La fedeltà del suo amico è stata una grande consolazione.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La fedeltà', definition:'qualità di chi è fedele e costante.', example:'La fedeltà del suo amico è stata una grande consolazione.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il fuoco</div>
+<div class="vocab-def">combustione visibile; qui, metafora del riaccendersi della passione o dei ricordi.</div>
+<div class="vocab-example">Anche dopo anni, il fuoco dei ricordi di gioventù non si era mai spento.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il fuoco', definition:'combustione visibile; qui, metafora del riaccendersi della passione o dei ricordi.', example:'Anche dopo anni, il fuoco dei ricordi di gioventù non si era mai spento.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'attesa</div>
-<div class="vocab-def">l'atto di attendere l'arrivo di qualcuno o qualcosa.</div>
-<div class="vocab-example">L'attesa dei risultati dell'esame è stata molto stressante.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attesa', definition:'l\'atto di attendere l\'arrivo di qualcuno o qualcosa.', example:'L\'attesa dei risultati dell\'esame è stata molto stressante.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La nostalgia</div>
+<div class="vocab-def">sentimento di malinconioso rimpianto per cose, persone o luoghi passati.</div>
+<div class="vocab-example">Provo sempre una dolce nostalgia quando ascolto le canzoni della mia infanzia.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La nostalgia', definition:'sentimento di malinconioso rimpianto per cose, persone o luoghi passati.', example:'Provo sempre una dolce nostalgia quando ascolto le canzoni della mia infanzia.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'unione</div>
-<div class="vocab-def">il congiungersi insieme, legame.</div>
-<div class="vocab-example">L'unione fa la forza nei momenti di grande difficoltà.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'L'unione', definition:'il congiungersi insieme, legame.', example:'L\'unione fa la forza nei momenti di grande difficoltà.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Stringere</div>
+<div class="vocab-def">abbracciare con molta energia o tenere saldamente stretto a sé.</div>
+<div class="vocab-example">Lo strinse forte in un abbraccio affettuoso prima di salutarlo per sempre.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Stringere', definition:'abbracciare con molta energia o tenere saldamente stretto a sé.', example:'Lo strinse forte in un abbraccio affettuoso prima di salutarlo per sempre.'}, this)">+ Dictionary</button>
 </div>
               </div>
             </div>
           </div>
 
-          <div class="round-block open" id="listening-exercise-chi-sara-con-te">
-            <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-chi-sara-con-te')">
-              <span>🎧 Fase 3: Ascolto</span><span class="round-toggle">▲</span>
+          <div class="round-block open" id="c1-listening">
+            <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('c1-listening')">
+              <span>🎧 Fase 3: Ascolto (Chi sarà con te)</span><span class="round-toggle">▲</span>
             </div>
             <div class="round-body" style="display:block; padding-top: 1.5rem;">
               <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
                 <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
                 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-        <span class="club-tag" style="background: white; border-color: var(--border);">compagnia</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">futuro</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">destino</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">promessa</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">speranza</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">appuntamento</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">mano</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">nostalgia</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">innamorati</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">fuoco</span>
                 </div>
               </div>
 
@@ -183,400 +146,336 @@
             </div>
           </div>
 
-          <div class="round-block open" id="discussion-chi-sara-con-te">
-            <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion-chi-sara-con-te')">
-              <span>💬 Fase 4: Discussione</span><span class="round-toggle">▲</span>
+          <div class="round-block open" id="c1-discussion">
+            <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('c1-discussion')">
+              <span>💬 Fase 4: Discussione (Chi sarà con te)</span><span class="round-toggle">▲</span>
             </div>
             <div class="round-body" style="display:block; padding-top: 1.5rem;">
               <div class="round-1" style="margin-bottom: 2rem;">
-                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
-<div class="round-item"><div class="round-item-main">How does 'chi sarà con te' by Massimo Ranieri explore the deeper significance of <strong>La compagnia</strong> in our daily lives?</div>
-<div class="round-item-personal">★ When was the last time you felt a strong sense of <strong>La compagnia</strong> in your own life?</div>
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Analisi del testo e discussione</h3>
+<div class="round-item"><div class="round-item-main">Il brano inizia ricordando il primo <strong>L'appuntamento</strong>. Quali sensazioni o dettagli del tuo primo incontro con qualcuno di importante ricordi ancora chiaramente?</div>
+<div class="round-item-personal">★ Secondo te, perché i primissimi incontri sentimentali tendono a rimanere impressi così a lungo nella memoria?</div>
 </div>
-<div class="round-item"><div class="round-item-main">In 'chi sarà con te', is <strong>Il futuro</strong> presented as a source of strength or a source of doubt?</div>
-<div class="round-item-personal">★ Do you find it easy or difficult to share your feelings of <strong>Il futuro</strong> with others?</div>
+<div class="round-item"><div class="round-item-main">Il protagonista stringe <strong>La mano</strong> di una nuova persona mentre pensa ancora alla sua ex. Quanto è complicato essere emotivamente pronti per un nuovo inizio?</div>
+<div class="round-item-personal">★ Ti è mai successo di confrontare involontariamente una nuova presenza con una figura del tuo passato? Come hai gestito la situazione?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Analyzing the lyrics of Massimo Ranieri, how does <strong>Il destino</strong> shape the overall message of the song?</div>
-<div class="round-item-personal">★ How has your personal understanding of <strong>Il destino</strong> changed over the past few years?</div>
+<div class="round-item"><div class="round-item-main">L'autore sfiora <strong>Le labbra</strong> della nuova compagna, ma il pensiero vola ancora a chi c'era prima. È corretto iniziare un rapporto prima di aver elaborato il passato?</div>
+<div class="round-item-personal">★ Credi che la celebre teoria "chiodo schiaccia chiodo" in amore sia un valido rimedio o una pericolosa illusione?</div>
 </div>
-<div class="round-item"><div class="round-item-main">In what ways does 'chi sarà con te' show that <strong>La promessa</strong> is essential for personal growth?</div>
-<div class="round-item-personal">★ In your daily routine, what helps you maintain your focus on <strong>La promessa</strong>?</div>
+<div class="round-item"><div class="round-item-main">Il testo menziona le "lucide vetrine" della città. In che modo ritieni che lo scenario urbano (come una luminosa <strong>La vetrina</strong>) possa rispecchiare le nostre malinconie?</div>
+<div class="round-item-personal">★ Ti piace passeggiare da solo per la città per riflettere e fare ordine tra i tuoi sentimenti più complessi?</div>
 </div>
-<div class="round-item"><div class="round-item-main">How does the musical style of 'chi sarà con te' enhance the emotional impact of <strong>La speranza</strong>?</div>
-<div class="round-item-personal">★ What is the most important lesson you have learned about <strong>La speranza</strong>?</div>
+<div class="round-item"><div class="round-item-main">Le strade del centro diventano metaforici specchi per ogni <strong>L'innamorato</strong>. Come cambia la percezione della realtà circostante quando proviamo questo sentimento?</div>
+<div class="round-item-personal">★ Ritieni che l'amore renda le persone generalmente più empatiche e ottimiste verso il mondo esterno?</div>
 </div>
-<div class="round-item"><div class="round-item-main">When Massimo Ranieri sings about their feelings, does <strong>Proteggere</strong> feel like a natural state or a challenge?</div>
-<div class="round-item-personal">★ Do you believe that modern society values <strong>Proteggere</strong>, or is it often ignored?</div>
+<div class="round-item"><div class="round-item-main">La coppia cammina attraverso strade del tutto <strong>Sconosciuto</strong> (sconosciute). Ti spaventa l'idea dell'ignoto o sei stimolato dalle deviazioni inaspettate del destino?</div>
+<div class="round-item-personal">★ In che modo affronti di solito i cambiamenti improvvisi che ti portano a imboccare strade non familiari?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Does 'chi sarà con te' suggest that we must work to achieve <strong>Il cammino</strong>, or does it happen naturally?</div>
-<div class="round-item-personal">★ Who is the person in your life that best represents the idea of <strong>Il cammino</strong>?</div>
+<div class="round-item"><div class="round-item-main">Il protagonista sottolinea che lei "**Assomigliare**" (assomiglia) in parte alla persona persa. Pensi che inconsciamente cerchiamo sempre lo stesso modello relazionale?</div>
+<div class="round-item-personal">★ Credi che ognuno di noi abbia un archetipo ideale da cui è attratto, o l'amore sa scardinare qualsiasi schema precostituito?</div>
 </div>
-<div class="round-item"><div class="round-item-main">How does the visual imagery of 'chi sarà con te' visualize the concept of <strong>La fedeltà</strong>?</div>
-<div class="round-item-personal">★ If you could gift more <strong>La fedeltà</strong> to someone you care about, who would it be?</div>
+<div class="round-item"><div class="round-item-main">Questo nuovo incontro finisce per riaccendere <strong>Il fuoco</strong> sopito dei ricordi passati. Può un piccolo elemento risvegliare una scintilla che ritenevamo spenta?</div>
+<div class="round-item-personal">★ C'è un odore, un sapore o una melodia particolare capace di rievocare all'istante in te un capitolo del tuo passato?</div>
 </div>
-<div class="round-item"><div class="round-item-main">In your opinion, does the protagonist in 'chi sarà con te' find peace through <strong>L'attesa</strong>, or are they left with questions?</div>
-<div class="round-item-personal">★ Do you think that <strong>L'attesa</strong> is more about personal peace or shared experiences?</div>
+<div class="round-item"><div class="round-item-main">Massimo Ranieri canta: "un po' di <strong>La nostalgia</strong> mi prende". Pensi che la nostalgia sia una risorsa preziosa o un freno che impedisce di vivere il presente?</div>
+<div class="round-item-personal">★ Quali sono i momenti o gli aspetti della tua gioventù per i quali provi maggiore nostalgia oggi?</div>
 </div>
-<div class="round-item"><div class="round-item-main">How can we apply the lessons of <strong>L'unione</strong> from 'chi sarà con te' to improve our modern lives?</div>
-<div class="round-item-personal">★ What small practice or habit helps you cultivate <strong>L'unione</strong> in your relationships?</div>
+<div class="round-item"><div class="round-item-main">Chiedersi chi saprà <strong>Stringere</strong> (stringerà) la mano dell'ex partner tradisce gelosia e affetto rimasto. Si può desiderare con sincerità il bene di chi ci ha lasciato?</div>
+<div class="round-item-personal">★ Secondo la tua opinione, dove si colloca il sottile confine tra un affettuoso ricordo e un possesso egoistico che fa male?</div>
 </div>
               </div>
               <div class="round-2" style="margin-top: 2rem;">
-                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
-<div class="round-item"><div class="round-item-main">The central portrayal of <strong>La compagnia</strong> in 'chi sarà con te' is a beautiful reflection of modern human struggles. Let's debate.</div>
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Grandi temi e dibattito filosofico</h3>
+<div class="round-item"><div class="round-item-main">Il protagonista riconosce di essere il responsabile della separazione ("se l'ho voluto io"), eppure soffre ancora. È possibile rimpiangere sinceramente una scelta presa in modo lucido e razionale? Esponi il tuo punto di vista.</div>
 </div>
-<div class="round-item"><div class="round-item-main">Without a deep understanding of <strong>Il futuro</strong>, we can never achieve lasting success and happiness. Share your thoughts.</div>
+<div class="round-item"><div class="round-item-main">La paura di restare soli spinge molti ad intraprendere immediate relazioni di "rimbalzo". Si tratta di un cammino utile per ripartire o di un comportamento che finisce per ferire nuove persone innocenti? Dibattiamo.</div>
 </div>
-<div class="round-item"><div class="round-item-main">Massimo Ranieri's work shows that our collective obsession with <strong>Il destino</strong> can sometimes lead to self-doubt. Defend or oppose.</div>
-</div>
-<div class="round-item"><div class="round-item-main">True <strong>La promessa</strong> can only exist when we are completely comfortable with who we are. Discuss.</div>
-</div>
-<div class="round-item"><div class="round-item-main">The music of 'chi sarà con te' suggests that we must be willing to take risks to fully experience <strong>La speranza</strong>. Do you agree?</div>
-</div>
-<div class="round-item"><div class="round-item-main">In the modern world, the quiet development of <strong>Proteggere</strong> is often threatened by constant distractions. Discuss.</div>
-</div>
-<div class="round-item"><div class="round-item-main">We cannot truly appreciate <strong>Il cammino</strong> until we have experienced moments of challenge and failure. Analyze this.</div>
-</div>
-<div class="round-item"><div class="round-item-main">Massimo Ranieri warns us that focusing too much on <strong>La fedeltà</strong> can make us lose sight of other practical goals. Share your view.</div>
-</div>
-<div class="round-item"><div class="round-item-main">The ending of 'chi sarà con te' proves that accepting our own <strong>L'attesa</strong> is the key to personal freedom. Discuss.</div>
-</div>
-<div class="round-item"><div class="round-item-main">If we make our life decisions based entirely on the pursuit of <strong>L'unione</strong>, we risk losing stability. Discuss.</div>
+<div class="round-item"><div class="round-item-main">La memoria emotiva tende a idealizzare il passato, nascondendone i difetti e accentuandone la bellezza perduta. Come ci si può difendere da questo inganno della nostalgia per vivere serenamente il presente? Condividi i tuoi pensieri.</div>
 </div>
               </div>
             </div>
           </div>
 
-          <div class="round-block open" id="lang-focus-chi-sara-con-te">
-            <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus-chi-sara-con-te')">
-              <span>✨ Fase 5: Focus linguistico</span><span class="round-toggle">▲</span>
+          <div class="round-block open" id="c1-focus">
+            <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('c1-focus')">
+              <span>✨ Focus linguistico (Chi sarà con te)</span><span class="round-toggle">▲</span>
             </div>
             <div class="round-body" style="display:block; padding-top: 1.5rem;">
-
-    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Focus linguistico: Simple Future Tense (*Il Futuro Semplice*)</h3>
-      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Nella canzone <strong>Chi Sara Con Te</strong>, il frammento ripetitivo <em>"Chi sarà con te quando...?"</em> evidenzia l'uso di <strong>Simple Future Tense (*Il Futuro Semplice*)</strong>. Questa struttura aiuta a: Pledging lifelong companionship and promises.</p>
-      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
-      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
-        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Esempio 1: Usa attivamente questa struttura durante la discussione.</li>
-        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Esempio 2: Nota la ripetizione di questo schema nel testo.</li>
-        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Esempio 3: Applica questo schema nel tuo esercizio finale.</li>
-      </ul>
-    </div>
-                </div>
-          </div>
-
-          <div class="round-block open" id="final-challenge-chi-sara-con-te">
-            <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge-chi-sara-con-te')">
-              <span>🎭 Fase 6: Sfida finale</span><span class="round-toggle">▲</span>
+              <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+                <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Focus linguistico: Il Futuro Semplice dei verbi regolari e irregolari</h3>
+                <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Nella celebre canzone <strong>Chi sarà con te</strong> di Massimo Ranieri, la costante domanda <em>"Chi sarà con te...?"</em> ed il verbo <em>"stringerà"</em> evidenziano l'uso del <strong>futuro semplice indicativo</strong>. In italiano, questa struttura verbale serve per fare proiezioni sul futuro, formulare ipotesi su eventi incerti o esprimere dubbi e speranze profonde.</p>
+                <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Pratichiamo — Tre esempi reali d'uso:</strong>
+                <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+                  <li style="margin-bottom: 0.5rem; font-size: 0.9rem;"><strong>Esempio 1 (Ipotesi sul futuro)</strong>: Chi <em>sarà</em> con te domani e chi <em>stringerà</em> la tua mano forte come facevo io?</li>
+                  <li style="margin-bottom: 0.5rem; font-size: 0.9rem;"><strong>Esempio 2 (Intenzione nel tempo)</strong>: Presto <em>capirò</em> se questa nuova storia d'amore mi <em>aiuterà</em> a voltare pagina.</li>
+                  <li style="margin-bottom: 0.5rem; font-size: 0.9rem;"><strong>Esempio 3 (Previsione o speranza)</strong>: Spero che tutto si <em>ripeterà</em> ma questa volta senza la malinconia del passato.</li>
+                </ul>
+              </div>
             </div>
-            <div class="round-body" style="display:block; padding-top: 1.5rem;">
-
-    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
-      <span style="font-size: 2rem;">🎭</span>
-      <div>
-        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Immagina il seguito di questa canzone: fai un gioco di ruolo di una conversazione tra i personaggi principali 5 anni dopo.</p>
-      </div>
-    </div>
-                </div>
           </div>
 
-          <div class="mistake-block open" id="s-mistakes-chi-sara-con-te">
-            <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-chi-sara-con-te')">
-              <span>✏️ Note dell'Insegnante (Correzioni Linguistiche)</span><span class="round-toggle">▲</span>
+          <div class="sources-section" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; margin-top: 2rem; margin-bottom: 2rem; border: 1px solid var(--border);">
+            <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--indigo); margin-bottom: 0.75rem;">📚 Fonti e Citazioni (Works Cited)</h3>
+            <p style="font-size: 0.85rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 0.5rem; font-style: normal; font-family: 'Nunito', sans-serif;">
+              Genius. "Massimo Ranieri – Chi sarà con te Lyrics." <em>Genius</em>, <a href="https://genius.com/Massimo-ranieri-chi-sara-con-te-lyrics" target="_blank" style="color: var(--teal); text-decoration: underline;">https://genius.com/Massimo-ranieri-chi-sara-con-te-lyrics</a>. Accessed 30 July 2026.<br>
+              "Chi sarà con te." <em>YouTube</em>, uploaded by Massimo Ranieri, <a href="https://www.youtube.com/watch?v=rq8lpdP2JYg" target="_blank" style="color: var(--teal); text-decoration: underline;">https://www.youtube.com/watch?v=rq8lpdP2JYg</a>.
+            </p>
+            <p style="font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 0.5rem; margin-top: 0.5rem; font-family: 'Nunito', sans-serif; font-style: italic;">
+              Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+            </p>
+          </div>
+
+          <div class="mistake-block open" id="c1-mistakes">
+            <div class="mistake-header" onclick="COSY.toggleBlock('c1-mistakes')">
+              <span>✏️ Note dell'Insegnante (Correzioni Linguistiche — Chi sarà con te)</span><span class="round-toggle">▲</span>
             </div>
             <div class="mistake-body" style="display:block;">
-          <div class="mistake-item">
-            <span class="mistake-wrong">Sono d'accordo <span class="mistake-highlight">di</span> questa decisione</span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Sono d'accordo con questa decisione</span>
-            <span class="mistake-note-text">(Usa la preposizione 'con' per esprimere accordo.)</span>
-          </div>
-          <div class="mistake-item">
-            <span class="mistake-wrong">Ho fatto un viaggio <span class="mistake-highlight">per</span> Roma</span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Ho fatto un viaggio a Roma</span>
-            <span class="mistake-note-text">(Usa la preposizione 'a' prima del nome di una città.)</span>
-          </div>
-          <div class="mistake-item">
-            <span class="mistake-wrong">Mi piace ascoltare <span class="mistake-highlight">alla</span> musica</span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Mi piace ascoltare la musica</span>
-            <span class="mistake-note-text">(Il verbo 'ascoltare' è transitivo e non richiede preposizione.)</span>
-          </div>
+              <div class="mistake-item">
+                <span class="mistake-wrong">Oggi aspetto <span class="mistake-highlight">per</span> un'altra donna</span>
+                <span class="mistake-arrow">→</span>
+                <span class="mistake-right">Oggi aspetto un'altra donna</span>
+                <span class="mistake-note-text">(Il verbo 'aspettare' regge l'oggetto diretto in italiano, non richiede la preposizione 'per'.)</span>
+              </div>
+              <div class="mistake-item">
+                <span class="mistake-wrong">Camminiamo <span class="mistake-highlight">per</span> un poco di tempo</span>
+                <span class="mistake-arrow">→</span>
+                <span class="mistake-right">Camminiamo un poco</span>
+                <span class="mistake-note-text">(Usa la forma avverbiale 'un poco' o 'un po'' direttamente dopo il verbo per indicare brevità o misura.)</span>
+              </div>
+              <div class="mistake-item">
+                <span class="mistake-wrong">Lei <span class="mistake-highlight">assomiglia di</span> mia sorella</span>
+                <span class="mistake-arrow">→</span>
+                <span class="mistake-right">Lei assomiglia a mia sorella</span>
+                <span class="mistake-note-text">(Il verbo 'assomigliare' richiede la preposizione 'a' per introdurre il termine di paragone.)</span>
+              </div>
             </div>
           </div>
         </div>
       </vim-choice-option-content>
-    </vim-choice-option>    <vim-choice-option>
+    </vim-choice-option>
+
+    <vim-choice-option>
       <vim-choice-option-title>l'amore è un attimo</vim-choice-option-title>
       <vim-choice-option-content>
         <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
-          <div class="meta-item"><h4>Resources</h4><p>
+          <div class="meta-item"><h4>Risorse</h4><p>
             <a href="https://www.youtube.com/watch?v=Z-pMF6xaRtY" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
             <a href="https://www.youtube.com/watch?v=Z-pMF6xaRtY" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
           </p></div>
         </div>
 
+        <!-- SENSITIVE TOPIC / SEPARATION NOTE -->
+        <div class="sensitive-topic-warning" style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(229, 62, 62, 0.05); border-left: 4px solid #E53E3E; border-radius: 12px; font-size: 0.92rem; line-height: 1.5; color: #9B2C2C; display: flex; align-items: flex-start; gap: 12px; box-shadow: var(--shadow-sm);">
+          <span style="font-size: 1.2rem;">⚠️</span>
+          <div>
+            <strong style="color: #9B2C2C;">Nota su temi sensibili:</strong> Questa sessione affronta tematiche legate alla <strong>separazione, alla malinconia profonda e alle lettere d'addio</strong>. La discussione è progettata per essere affrontata con rispetto, empatia e sensibilità reciproca.
+          </div>
+        </div>
+
         <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
-          <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Tema: La natura fugace dell'amore</h3>
+          <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Tema: Rotture sentimentali, lontananza e malinconia del ritorno</h3>
           <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Discuteremo di:</p>
           <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
-                  <li>Amore</li>
-      <li>Attimo</li>
-      <li>Scintilla</li>
-      <li>Personal reflection</li>
+            <li>L'amore come attimo fugace rispetto alla stabilità</li>
+            <li>Il tormento delle lettere d'addio mai spedite</li>
+            <li>Il treno del ritorno e l'inevitabile malinconia</li>
+            <li>Riflessione personale</li>
           </ul>
         </div>
 
-        <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
-          <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
-            <span>🗣️ Speaking Time Gauge</span>
-            <span>90-120 min Session</span>
-          </div>
-          <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
-            <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
-            <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
-            <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
-            <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
-            <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
-            <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
-          </div>
-          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
-            <span>🎵 Fase 1: Riscaldamento (10%)</span>
-            <span>📚 Fase 2: Vocabolario (15%)</span>
-            <span>🎧 Fase 3: Ascolto (15%)</span>
-            <span>💬 Fase 4: Discussione (45%)</span>
-            <span>✨ Fase 5: Focus linguistico (10%)</span>
-            <span>🎭 Fase 6: Sfida finale (5%)</span>
-          </div>
-        </div>
-
-        <div class="rounds-container">
-          <div class="round-block warm-up open" id="s-warm-lamore-e-un-attimo">
-            <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm-lamore-e-un-attimo')">
-              <span>🎵 Fase 1: Riscaldamento</span><span class="round-toggle">▲</span>
-            </div>
-            <div class="round-body" style="display:block;">
-              <ul class="round-questions">
-            <li>Quanto ritieni importante questo tema di discussione nella tua vita quotidiana?</li>
-            <li>Guarda il titolo 'l'amore è un attimo' e l'artista 'Massimo Ranieri'. Secondo te, di cosa parlerà questa canzone? (Domanda di predizione)</li>
-            <li>Quali emozioni ti trasmette questo stile di musica?</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="round-block open" id="vocabulary-lamore-e-un-attimo">
-            <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-lamore-e-un-attimo')">
-              <span>📚 Fase 2: Vocabolario</span><span class="round-toggle">▲</span>
+        <div class="rounds-container" style="border: none; padding: 0;">
+          <div class="round-block open" id="c2-vocabulary" style="margin-top: 0;">
+            <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('c2-vocabulary')">
+              <span>📚 Fase 2: Vocabolario (L'amore è un attimo)</span><span class="round-toggle">▲</span>
             </div>
             <div class="round-body" style="display:block; padding-top: 1.5rem;">
               <div class="vocab-grid-10">
-        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concetti chiave & Emozioni</h3>
+                <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concetti chiave & Emozioni</h3>
 <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'amore</div>
-<div class="vocab-def">profondo sentimento di affetto o attrazione.</div>
-<div class="vocab-example">L'amore per l'arte lo accompagna da tutta la vita.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amore', definition:'profondo sentimento di affetto o attrazione.', example:'L\'amore per l\'arte lo accompagna da tutta la vita.'}, this)">+ Dictionary</button>
+<div class="vocab-def">sentimento di profondo affetto, attrazione e devozione verso una persona.</div>
+<div class="vocab-example">L'amore sa essere travolgente, ma richiede anche cura e dedizione quotidiana.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'amore', definition:'sentimento di profondo affetto, attrazione e devozione verso una persona.', example:'L\'amore sa essere travolgente, ma richiede anche cura e dedizione quotidiana.'}, this)">+ Dictionary</button>
 </div>
 <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'attimo</div>
-<div class="vocab-def">Target vocabulary word meaning in 'l'amore è un attimo'.</div>
-<div class="vocab-example">This is an elegant example of using 'L'attimo'.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attimo', definition:'Target vocabulary word meaning in \'l\'amore è un attimo\'.', example:'This is an elegant example of using \'L\'attimo\'.'}, this)">+ Dictionary</button>
+<div class="vocab-def">uno spazio di tempo brevissimo, un istante fugace.</div>
+<div class="vocab-example">La felicità spesso si nasconde in un singolo attimo di distrazione.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'attimo', definition:'uno spazio di tempo brevissimo, un istante fugace.', example:'La felicità spesso si nasconde in un singolo attimo di distrazione.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La scintilla</div>
-<div class="vocab-def">minuscolo frammento di materia incandescente.</div>
-<div class="vocab-example">Una piccola scintilla può dare origine a un grande fuoco.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La scintilla', definition:'minuscolo frammento di materia incandescente.', example:'Una piccola scintilla può dare origine a un grande fuoco.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La lettera</div>
+<div class="vocab-def">foglio di carta scritto indirizzato a qualcuno per comunicare un messaggio.</div>
+<div class="vocab-example">Ricevere una lettera scritta a mano conserva un fascino d'altri tempi.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La lettera', definition:'foglio di carta scritto indirizzato a qualcuno per comunicare un messaggio.', example:'Ricevere una lettera scritta a mano conserva un fascino d\'altri tempi.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il bacio</div>
-<div class="vocab-def">il toccare con le labbra in segno d'affetto.</div>
-<div class="vocab-example">Si sono scambiati un tenero bacio prima di salutarsi.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il bacio', definition:'il toccare con le labbra in segno d\'affetto.', example:'Si sono scambiati un tenero bacio prima di salutarsi.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Strappare</div>
+<div class="vocab-def">lacerare o ridurre in pezzi con la forza qualcosa di cartaceo o fragile.</div>
+<div class="vocab-example">Ha deciso di strappare i vecchi fogli per non pensare più agli errori passati.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Strappare', definition:'lacerare o ridurre in pezzi con la forza qualcosa di cartaceo o fragile.', example:'Ha deciso di strappare i vecchi fogli per non pensare più agli errori passati.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il ricordo</div>
-<div class="vocab-def">immagine conservata nella memoria.</div>
-<div class="vocab-example">Conservo un bellissimo ricordo della nostra infanzia insieme.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il ricordo', definition:'immagine conservata nella memoria.', example:'Conservo un bellissimo ricordo della nostra infanzia insieme.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il vento</div>
+<div class="vocab-def">movimento d'aria; qui, simbolo delle forze travolgenti ed incontrollabili del destino.</div>
+<div class="vocab-example">Il forte vento autunnale faceva turbinare le foglie colorate nel parco.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il vento', definition:'movimento d\'aria; qui, simbolo delle forze travolgenti ed incontrollabili del destino.', example:'Il forte vento autunnale faceva turbinare le foglie colorate nel parco.'}, this)">+ Dictionary</button>
 </div>
-        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vita, Azioni & Connessione</h3>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il battito</div>
-<div class="vocab-def">colpo ritmico, battito del cuore.</div>
-<div class="vocab-example">Sentiva il battito accelerato del cuore per l'emozione.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il battito', definition:'colpo ritmico, battito del cuore.', example:'Sentiva il battito accelerato del cuore per l\'emozione.'}, this)">+ Dictionary</button>
+                <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vita, Azioni & Connessione</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La tristezza</div>
+<div class="vocab-def">stato d'animo malinconico e doloroso, opposto della gioia.</div>
+<div class="vocab-example">Un velo di tristezza le scese sugli occhi quando sentì quella vecchia melodia.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La tristezza', definition:'stato d\'animo malinconico e doloroso, opposto della gioia.', example:'Un velo di tristezza le scese sugli occhi quando sentì quella vecchia melodia.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La passione</div>
-<div class="vocab-def">forte sentimento di amore o entusiasmo.</div>
-<div class="vocab-example">La musica classica è la sua più grande passione fin da bambina.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La passione', definition:'forte sentimento di amore o entusiasmo.', example:'La musica classica è la sua più grande passione fin da bambina.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La ferita</div>
+<div class="vocab-def">lesione della pelle o dello spirito; dolore morale non ancora rimarginato.</div>
+<div class="vocab-example">Con il tempo anche le ferite dell'anima più profonde tendono a guarire.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La ferita', definition:'lesione della pelle o dello spirito; dolore morale non ancora rimarginato.', example:'Con il tempo anche le ferite dell\'anima più profonde tendono a guarire.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il soffio</div>
-<div class="vocab-def">leggera corrente d'aria prodotta dalla bocca.</div>
-<div class="vocab-example">Un soffio di vento ha spento la candela sul tavolo.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il soffio', definition:'leggera corrente d\'aria prodotta dalla bocca.', example:'Un soffio di vento ha spento la candela sul tavolo.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La neve</div>
+<div class="vocab-def">precipitazione atmosferica sotto forma di cristalli di ghiaccio bianchi e soffici.</div>
+<div class="vocab-example">Sotto la neve invernale riposano i semi che fioriranno con il primo sole.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La neve', definition:'precipitazione atmosferica sotto forma di cristalli di ghiaccio bianchi e soffici.', example:'Sotto la neve invernale riposano i semi che fioriranno con il primo sole.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Svanire</div>
-<div class="vocab-def">dileguarsi o scomparire rapidamente.</div>
-<div class="vocab-example">I dubbi sono iniziati a svanire dopo le sue spiegazioni.</div>
-<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contrario :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Apparire</span></div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Svanire', definition:'dileguarsi o scomparire rapidamente.', example:'I dubbi sono iniziati a svanire dopo le sue spiegazioni.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La malinconia</div>
+<div class="vocab-def">dolce e rassegnata tristezza dell'anima, spesso priva di una causa immediata.</div>
+<div class="vocab-example">La pioggia che batteva sul vetro aumentava la sua dolce malinconia.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La malinconia', definition:'dolce e rassegnata tristezza dell\'anima, spesso priva di una causa immediata.', example:'La pioggia che batteva sul vetro aumentava la sua dolce malinconia.'}, this)">+ Dictionary</button>
 </div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'infinito</div>
-<div class="vocab-def">spazio o tempo senza limiti.</div>
-<div class="vocab-example">Il cielo stellato ci fa percepire il senso dell'infinito.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'L'infinito', definition:'spazio o tempo senza limiti.', example:'Il cielo stellato ci fa percepire il senso dell\'infinito.'}, this)">+ Dictionary</button>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il treno</div>
+<div class="vocab-def">mezzo di trasporto su rotaia; qui, metafora del viaggio di ritorno e di riflessione.</div>
+<div class="vocab-example">Salire sul treno di sera ha sempre il sapore nostalgico di un nuovo inizio.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Il treno', definition:'mezzo di trasporto su rotaia; qui, metafora del viaggio di ritorno e di riflessione.', example:'Salire sul treno di sera ha sempre il sapore nostalgico di un nuovo inizio.'}, this)">+ Dictionary</button>
 </div>
               </div>
             </div>
           </div>
 
-          <div class="round-block open" id="listening-exercise-lamore-e-un-attimo">
-            <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-lamore-e-un-attimo')">
-              <span>🎧 Fase 3: Ascolto</span><span class="round-toggle">▲</span>
+          <div class="round-block open" id="c2-listening">
+            <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('c2-listening')">
+              <span>🎧 Fase 3: Ascolto (L'amore è un attimo)</span><span class="round-toggle">▲</span>
             </div>
             <div class="round-body" style="display:block; padding-top: 1.5rem;">
               <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
                 <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
                 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-        <span class="club-tag" style="background: white; border-color: var(--border);">amore</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">attimo</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">scintilla</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">bacio</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">ricordo</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">amore</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">attimo</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">lettera</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">vento</span>
+                  <span class="club-tag" style="background: white; border-color: var(--border);">neve</span>
                 </div>
               </div>
 
               <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-                <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Ciao perdono <input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> mio<br>Stasera scrivo a te l'ultima lettera<br>Ne ho strappate mille sai<br>Perché ti lascerò ma non so dirtelo<br>Mai dicevi nascerà chi dividerci potrà<br>L'<input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> è un <input type="text" class="lyrics-gap-input" data-answer="attimo" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> l'<input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> è un <input type="text" class="lyrics-gap-input" data-answer="attimo" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Però la vita è un vento forte più di noi<br>E va tristezza va per lei c'è un pensiero e una lacrima<br>Addio felicità<br>Vedrai le ferite si chiudono<br>Chissà se un fiore c'à la sotto la neve per te<br>E' passato un mese e già non mi difendo più dalla malinconia<br>Il mio solo amico qui<br>È questo treno che va verso casa mia<br>Mai dicevi nascerà chi dividerci potrà<br>L'<input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> è un <input type="text" class="lyrics-gap-input" data-answer="attimo" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> l'<input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> è un <input type="text" class="lyrics-gap-input" data-answer="attimo" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Però la vita è un vento forte più di me<br>E va tristezza va per lei c'è un pensiero e una lacrima<br>Addio felicità vedrai le ferite si chiudono<br>Chissà se un fiore c'è la sotto la neve per te<br>Chiss้า σε un fiore c'è la sotto la neve per te<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
+                <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Ciao perdono <input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> mio<br>Stasera scrivo a te l'ultima lettera<br>Ne ho strappate mille sai<br>Perché ti lascerò ma non so dirtelo<br>Mai dicevi nascerà chi dividerci potrà<br>L'<input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> è un <input type="text" class="lyrics-gap-input" data-answer="attimo" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> l'<input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> è un <input type="text" class="lyrics-gap-input" data-answer="attimo" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Però la vita è un vento forte più di noi<br>E va tristezza va per lei c'è un pensiero e una lacrima<br>Addio felicità<br>Vedrai le ferite si chiudono<br>Chissà se un fiore c'è la sotto la neve per te<br>E' passato un mese e già non mi difendo più dalla malinconia<br>Il mio solo amico qui<br>È questo treno che va verso casa mia<br>Mai dicevi nascerà chi dividerci potrà<br>L'<input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> è un <input type="text" class="lyrics-gap-input" data-answer="attimo" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> l'<input type="text" class="lyrics-gap-input" data-answer="amore" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> è un <input type="text" class="lyrics-gap-input" data-answer="attimo" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Però la vita è un vento forte più di me<br>E va tristezza va per lei c'è un pensiero e una lacrima<br>Addio felicità vedrai le ferite si chiudono<br>Chissà se un fiore c'è la sotto la neve per te<br>Chissà se un fiore c'è la sotto la neve per te<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
               </div>
             </div>
           </div>
 
-          <div class="round-block open" id="discussion-lamore-e-un-attimo">
-            <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion-lamore-e-un-attimo')">
-              <span>💬 Fase 4: Discussione</span><span class="round-toggle">▲</span>
+          <div class="round-block open" id="c2-discussion">
+            <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('c2-discussion')">
+              <span>💬 Fase 4: Discussione (L'amore è un attimo)</span><span class="round-toggle">▲</span>
             </div>
             <div class="round-body" style="display:block; padding-top: 1.5rem;">
               <div class="round-1" style="margin-bottom: 2rem;">
-                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
-<div class="round-item"><div class="round-item-main">How does 'l'amore è un attimo' by Massimo Ranieri explore the deeper significance of <strong>L'amore</strong> in our daily lives?</div>
-<div class="round-item-personal">★ When was the last time you felt a strong sense of <strong>L'amore</strong> in your own life?</div>
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Analisi del testo e discussione</h3>
+<div class="round-item"><div class="round-item-main">Il brano afferma in modo perentorio che <strong>L'amore</strong> è solo un attimo. Pensi che il sentimento amoroso sia intrinsecamente fugace o che possa aspirare all'eternità?</div>
+<div class="round-item-personal">★ Qual è l'insegnamento relazionale più prezioso che hai saputo trarre dalle tue passate esperienze sentimentali?</div>
 </div>
-<div class="round-item"><div class="round-item-main">In 'l'amore è un attimo', is <strong>L'attimo</strong> presented as a source of strength or a source of doubt?</div>
-<div class="round-item-personal">★ Do you find it easy or difficult to share your feelings of <strong>L'attimo</strong> with others?</div>
+<div class="round-item"><div class="round-item-main">Massimo Ranieri canta che l'intero sentimento si consuma in un singolo <strong>L'attimo</strong>. Quanto valore attribuisci alla spontaneità di un momento rispetto alla solida pianificazione del futuro?</div>
+<div class="round-item-personal">★ Sapresti indicare un singolo e fugace istante del tuo passato che ha finito per cambiare radicalmente la direzione della tua vita?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Analyzing the lyrics of Massimo Ranieri, how does <strong>La scintilla</strong> shape the overall message of the song?</div>
-<div class="round-item-personal">★ How has your personal understanding of <strong>La scintilla</strong> changed over the past few years?</div>
+<div class="round-item"><div class="round-item-main">Il protagonista sceglie di comunicare il proprio addio scrivendo una <strong>La lettera</strong>. Ritieni che la scrittura sia un canale più maturo ed efficace rispetto a un confronto di persona?</div>
+<div class="round-item-personal">★ Preferisci esprimere i tuoi pensieri e le tue emozioni più intime parlando direttamente o scrivendo una lettera con calma?</div>
 </div>
-<div class="round-item"><div class="round-item-main">In what ways does 'l'amore è un attimo' show that <strong>Il bacio</strong> is essential for personal growth?</div>
-<div class="round-item-personal">★ In your daily routine, what helps you maintain your focus on <strong>Il bacio</strong>?</div>
+<div class="round-item"><div class="round-item-main">Il protagonista confessa di avre dovuto <strong>Strappare</strong> (strappate) mille lettere prima di trovare il coraggio di lasciarla. Perché è così difficile trovare le parole adatte a dirsi addio?</div>
+<div class="round-item-personal">★ Ti è mai capitato di riscrivere molte volte un messaggio cruciale per il timore di non essere correttamente interpretato?</div>
 </div>
-<div class="round-item"><div class="round-item-main">How does the musical style of 'l'amore è un attimo' enhance the emotional impact of <strong>Il ricordo</strong>?</div>
-<div class="round-item-personal">★ What is the most important lesson you have learned about <strong>Il ricordo</strong>?</div>
+<div class="round-item"><div class="round-item-main">Il testo paragona l'esistenza a <strong>Il vento</strong> forte "più di noi". Ti senti solitamente in grado di governare il tuo destino o preferisci lasciarti trasportare dagli eventi?</div>
+<div class="round-item-personal">★ In che modo reagisci quando un improvviso vento contrario scompiglia e distrugge del tutto i tuoi progetti di vita?</div>
 </div>
-<div class="round-item"><div class="round-item-main">When Massimo Ranieri sings about their feelings, does <strong>Il battito</strong> feel like a natural state or a challenge?</div>
-<div class="round-item-personal">★ Do you believe that modern society values <strong>Il battito</strong>, or is it often ignored?</div>
+<div class="round-item"><div class="round-item-main">Il protagonista si rivolge a <strong>La tristezza</strong> dicendole "va, tristezza va". Pensi che i sentimenti dolorosi vadano attivamente combattuti o semplicemente accettati come parte dell'esperienza umana?</div>
+<div class="round-item-personal">★ Quali piccole strategie utilizzi per ritrovare il tuo equilibrio mentale quando senti la tristezza bussare alla tua porta?</div>
 </div>
-<div class="round-item"><div class="round-item-main">Does 'l'amore è un attimo' suggest that we must work to achieve <strong>La passione</strong>, or does it happen naturally?</div>
-<div class="round-item-personal">★ Who is the person in your life that best represents the idea of <strong>La passione</strong>?</div>
+<div class="round-item"><div class="round-item-main">La canzone promette con certezza che "le ferite si chiudono". Qual è il vero segreto per superare <strong>La ferita</strong> emotiva provocata da un abbandono?</div>
+<div class="round-item-personal">★ Ritieni che il perdono (verso l'altro o verso se stessi) sia una condizione necessaria affinché una ferita del cuore si rimargini?</div>
 </div>
-<div class="round-item"><div class="round-item-main">How does the visual imagery of 'l'amore è un attimo' visualize the concept of <strong>Il soffio</strong>?</div>
-<div class="round-item-personal">★ If you could gift more <strong>Il soffio</strong> to someone you care about, who would it be?</div>
+<div class="round-item"><div class="round-item-main">L'immagine di un fiore che resiste sotto <strong>La neve</strong> evoca una profonda speranza. Come riesci a preservare la tua fiducia nel futuro durante i periodi più gelidi e cupi?</div>
+<div class="round-item-personal">★ C'è un sogno o un progetto importante che stai tenendo "sotto la neve" in attesa della stagione giusta per sbocciare?</div>
 </div>
-<div class="round-item"><div class="round-item-main">In your opinion, does the protagonist in 'l'amore è un attimo' find peace through <strong>Svanire</strong>, or are they left with questions?</div>
-<div class="round-item-personal">★ Do you think that <strong>Svanire</strong> is more about personal peace or shared experiences?</div>
+<div class="round-item"><div class="round-item-main">L'interprete ammette con onestà di non sapersi difendere da <strong>La malinconia</strong>. Si può imparare a convivere pacificamente con questo stato d'animo?</div>
+<div class="round-item-personal">★ Qual è la tua forma d'arte preferita (un film, un romanzo, un album) a cui ti rivolgi quando desideri cullare un dolce momento di malinconia?</div>
 </div>
-<div class="round-item"><div class="round-item-main">How can we apply the lessons of <strong>L'infinito</strong> from 'l'amore è un attimo' to improve our modern lives?</div>
-<div class="round-item-personal">★ What small practice or habit helps you cultivate <strong>L'infinito</strong> in your relationships?</div>
+<div class="round-item"><div class="round-item-main">La canzone si chiude con il protagonista che viaggia verso casa a bordo di <strong>Il treno</strong>. Cosa rappresenta per te l'idea di "casa" dopo una tempesta emotiva?</div>
+<div class="round-item-personal">★ Ti capita mai di salire su un treno o su un mezzo pubblico con l'unico scopo di guardare fuori dal finestrino e riflettere con calma?</div>
 </div>
               </div>
               <div class="round-2" style="margin-top: 2rem;">
-                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
-<div class="round-item"><div class="round-item-main">The central portrayal of <strong>L'amore</strong> in 'l'amore è un attimo' is a beautiful reflection of modern human struggles. Let's debate.</div>
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Grandi temi e dibattito filosofico</h3>
+<div class="round-item"><div class="round-item-main">Se, come recita il brano, "l'amore è un attimo che vola via", ha ancora senso investire anni di energie nella costruzione di legami a largo termine, o dovremmo unicamente massimizzare la felicità dell'istante presente? Dibattiamo.</div>
 </div>
-<div class="round-item"><div class="round-item-main">Without a deep understanding of <strong>L'attimo</strong>, we can never achieve lasting success and happiness. Share your thoughts.</div>
+<div class="round-item"><div class="round-item-main">Molte persone oggi decidono di interrompere relazioni significative tramite un messaggio o una lettera per evitare l'onere del confronto ("ti lascerò ma non so dirtelo"). È una forma di codardia egoistica o un tentativo di proteggere entrambi da una sofferenza inutile? Condividi le tue riflessioni.</div>
 </div>
-<div class="round-item"><div class="round-item-main">Massimo Ranieri's work shows that our collective obsession with <strong>La scintilla</strong> can sometimes lead to self-doubt. Defend or oppose.</div>
-</div>
-<div class="round-item"><div class="round-item-main">True <strong>Il bacio</strong> can only exist when we are completely comfortable with who we are. Discuss.</div>
-</div>
-<div class="round-item"><div class="round-item-main">The music of 'l'amore è un attimo' suggests that we must be willing to take risks to fully experience <strong>Il ricordo</strong>. Do you agree?</div>
-</div>
-<div class="round-item"><div class="round-item-main">In the modern world, the quiet development of <strong>Il battito</strong> is often threatened by constant distractions. Discuss.</div>
-</div>
-<div class="round-item"><div class="round-item-main">We cannot truly appreciate <strong>La passione</strong> until we have experienced moments of challenge and failure. Analyze this.</div>
-</div>
-<div class="round-item"><div class="round-item-main">Massimo Ranieri warns us that focusing too much on <strong>Il soffio</strong> can make us lose sight of other practical goals. Share your view.</div>
-</div>
-<div class="round-item"><div class="round-item-main">The ending of 'l'amore è un attimo' proves that accepting our own <strong>Svanire</strong> is the key to personal freedom. Discuss.</div>
-</div>
-<div class="round-item"><div class="round-item-main">If we make our life decisions based entirely on the pursuit of <strong>L'infinito</strong>, we risk losing stability. Discuss.</div>
+<div class="round-item"><div class="round-item-main">La vita viene sovente dipinta come un vento ingovernabile che ci spinge verso mete non volute. Quanto potere possiede in realtà la nostra determinazione individuale di fronte alle correnti del destino? Esponi la tua tesi.</div>
 </div>
               </div>
             </div>
           </div>
 
-          <div class="round-block open" id="lang-focus-lamore-e-un-attimo">
-            <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus-lamore-e-un-attimo')">
-              <span>✨ Fase 5: Focus linguistico</span><span class="round-toggle">▲</span>
+          <div class="round-block open" id="c2-focus">
+            <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('c2-focus')">
+              <span>✨ Focus linguistico (L'amore è un attimo)</span><span class="round-toggle">▲</span>
             </div>
             <div class="round-body" style="display:block; padding-top: 1.5rem;">
-
-    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Focus linguistico: Relative Clauses with Subject *Che*</h3>
-      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Nella canzone <strong>Lamore E Un Attimo</strong>, il frammento ripetitivo <em>"L'amore è un attimo che vola via"</em> evidenzia l'uso di <strong>Relative Clauses with Subject *Che*</strong>. Questa struttura aiuta a: Describing fleeting moments of romantic destiny.</p>
-      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
-      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
-        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Esempio 1: Usa attivamente questa struttura durante la discussione.</li>
-        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Esempio 2: Nota la ripetizione di questo schema nel testo.</li>
-        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Esempio 3: Applica questo schema nel tuo esercizio finale.</li>
-      </ul>
-    </div>
-                </div>
-          </div>
-
-          <div class="round-block open" id="final-challenge-lamore-e-un-attimo">
-            <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge-lamore-e-un-attimo')">
-              <span>🎭 Fase 6: Sfida finale</span><span class="round-toggle">▲</span>
+              <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+                <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Focus linguistico: Le proposizioni relative con il pronome "Che" soggetto</h3>
+                <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Nel corso del brano <strong>L'amore è un attimo</strong> di Massimo Ranieri, espressioni come <em>"questo treno che va..."</em> ed <em>"un attimo che vola via"</em> mettono in evidenza l'uso del pronome relativo <strong>che</strong> con valore di soggetto. In italiano, questo pronome invariabile permette di congiungere elegantemente due proposizioni correlate evitando ripetizioni prolisse.</p>
+                <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Pratichiamo — Tre esempi reali d'uso:</strong>
+                <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+                  <li style="margin-bottom: 0.5rem; font-size: 0.9rem;"><strong>Esempio 1 (Pronome Soggetto)</strong>: È questo treno <em>che</em> va verso casa mia e mi riporta alla realtà.</li>
+                  <li style="margin-bottom: 0.5rem; font-size: 0.9rem;"><strong>Esempio 2 (Pronome Soggetto)</strong>: L'amore vero è un attimo fugace <em>che</em> vola via se non viene protetto.</li>
+                  <li style="margin-bottom: 0.5rem; font-size: 0.9rem;"><strong>Esempio 3 (Pronome Soggetto)</strong>: Cerco un fiore forte <em>che</em> sappia resistere sotto la neve fredda.</li>
+                </ul>
+              </div>
             </div>
-            <div class="round-body" style="display:block; padding-top: 1.5rem;">
-
-    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
-      <span style="font-size: 2rem;">🎭</span>
-      <div>
-        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Immagina il seguito di questa canzone: fai un gioco di ruolo di una conversazione tra i personaggi principali 5 anni dopo.</p>
-      </div>
-    </div>
-                </div>
           </div>
 
-          <div class="mistake-block open" id="s-mistakes-lamore-e-un-attimo">
-            <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-lamore-e-un-attimo')">
-              <span>✏️ Note dell'Insegnante (Correzioni Linguistiche)</span><span class="round-toggle">▲</span>
+          <div class="sources-section" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; margin-top: 2rem; margin-bottom: 2rem; border: 1px solid var(--border);">
+            <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--indigo); margin-bottom: 0.75rem;">📚 Fonti e Citazioni (Works Cited)</h3>
+            <p style="font-size: 0.85rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 0.5rem; font-style: normal; font-family: 'Nunito', sans-serif;">
+              Genius. "Massimo Ranieri – L'amore è un attimo Lyrics." <em>Genius</em>, <a href="https://genius.com/Massimo-ranieri-lamore-e-un-attimo-lyrics" target="_blank" style="color: var(--teal); text-decoration: underline;">https://genius.com/Massimo-ranieri-lamore-e-un-attimo-lyrics</a>. Accessed 30 July 2026.<br>
+              "L'amore è un attimo." <em>YouTube</em>, uploaded by Massimo Ranieri, <a href="https://www.youtube.com/watch?v=Z-pMF6xaRtY" target="_blank" style="color: var(--teal); text-decoration: underline;">https://www.youtube.com/watch?v=Z-pMF6xaRtY</a>.
+            </p>
+            <p style="font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 0.5rem; margin-top: 0.5rem; font-family: 'Nunito', sans-serif; font-style: italic;">
+              Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+            </p>
+          </div>
+
+          <div class="mistake-block open" id="c2-mistakes">
+            <div class="mistake-header" onclick="COSY.toggleBlock('c2-mistakes')">
+              <span>✏️ Note dell'Insegnante (Correzioni Linguistiche — L'amore è un attimo)</span><span class="round-toggle">▲</span>
             </div>
             <div class="mistake-body" style="display:block;">
-          <div class="mistake-item">
-            <span class="mistake-wrong">Sono d'accordo <span class="mistake-highlight">di</span> questa decisione</span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Sono d'accordo con questa decisione</span>
-            <span class="mistake-note-text">(Usa la preposizione 'con' per esprimere accordo.)</span>
-          </div>
-          <div class="mistake-item">
-            <span class="mistake-wrong">Ho fatto un viaggio <span class="mistake-highlight">per</span> Roma</span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Ho fatto un viaggio a Roma</span>
-            <span class="mistake-note-text">(Usa la preposizione 'a' prima del nome di una città.)</span>
-          </div>
-          <div class="mistake-item">
-            <span class="mistake-wrong">Mi piace ascoltare <span class="mistake-highlight">alla</span> musica</span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Mi piace ascoltare la musica</span>
-            <span class="mistake-note-text">(Il verbo 'ascoltare' è transitivo e non richiede preposizione.)</span>
-          </div>
+              <div class="mistake-item">
+                <span class="mistake-wrong">Ho scritto mille <span class="mistake-highlight">lettere di</span> te</span>
+                <span class="mistake-arrow">→</span>
+                <span class="mistake-right">Ho scritto mille lettere a te</span>
+                <span class="mistake-note-text">(Usa la preposizione 'a' prima del destinatario indiretto dell'azione dello scrivere.)</span>
+              </div>
+              <div class="mistake-item">
+                <span class="mistake-wrong">Il treno va <span class="mistake-highlight">a</span> casa mia</span>
+                <span class="mistake-arrow">→</span>
+                <span class="mistake-right">Il treno va verso casa mia</span>
+                <span class="mistake-note-text">(Usa la preposizione 'verso' per esprimere direzione o moto in direzione di un luogo.)</span>
+              </div>
+              <div class="mistake-item">
+                <span class="mistake-wrong">Non mi difendo <span class="mistake-highlight">di</span> la malinconia</span>
+                <span class="mistake-arrow">→</span>
+                <span class="mistake-right">Non mi difendo dalla malinconia</span>
+                <span class="mistake-note-text">(Il verbo riflessivo 'difendersi' regge la preposizione articolata 'da' [da + la = dalla].)</span>
+              </div>
             </div>
           </div>
         </div>
       </vim-choice-option-content>
-    </vim-choice-option>  </vim-choice>
+    </vim-choice-option>
+  </vim-choice>
 
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
