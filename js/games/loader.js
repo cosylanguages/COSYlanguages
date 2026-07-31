@@ -1,11 +1,39 @@
 /**
  * js/games/loader.js
- * Game logic for loader.js.
- */
-/**
- * Games Loader & Filter Logic
+ * Modernized Games Hub controller: handles card filtering, standalone page routing,
+ * and backward-compatible launch parameter redirections.
  */
 (function() {
+    'use strict';
+
+    const GAME_PATH_MAP = {
+      fluency: 'fluency_flow/index.html',
+      battle: 'battle_of_wits/index.html',
+      opinion: 'opinion_arena/index.html',
+      critic: 'critics_corner/index.html',
+      storychain: 'story_chain/index.html',
+      hotseat: 'hot_seat/index.html',
+      action: 'action_hero/index.html',
+      identity: 'identity_mystery/index.html',
+      objectquest: 'object_quest/index.html',
+      wordlinker: 'word_linker/index.html',
+      lastletter: 'last_letter/index.html',
+      emoji: 'emoji_odyssey/index.html',
+      crossword: 'cosy_crossword/index.html',
+      bingo: 'lucky_numbers/index.html',
+      etymology: 'etymology_explorer/index.html',
+      gender: 'what_gender_is_it/index.html'
+    };
+
+    window.openGame = function(id) {
+        const path = GAME_PATH_MAP[id];
+        if (path) {
+            location.href = path;
+        } else {
+            console.error('Game not found in route map:', id);
+        }
+    };
+
     function initFilters() {
         const filters = document.querySelectorAll('.fpill');
         if (filters.length === 0) return;
@@ -26,34 +54,20 @@
                         card.style.display = 'none';
                     }
                 });
-
-                // Sync with Unified Engine if available
-                if (window.setFilter && typeof window.setFilter === 'function') {
-                    // This is just to ensure both internal states match if applicable
-                }
             };
         });
     }
 
-    /**
-     * Restore openGameSheet logic for compatibility with the new UI
-     */
-    window.openGameSheet = function(name, icon, mode) {
-        if (typeof window.launchGame === 'function') {
-            // New Boutique UI defaults
-            const settings = {
-                selectedLang: document.getElementById("global-lang-select")?.value || localStorage.getItem('language') || 'en',
-                selectedLevel: document.getElementById("global-level-select")?.value || 'starter',
-                selectedTheme: 'all',
-                selectedType: (name === 'Lucky Numbers' ? '1' : (name === 'Emoji Odyssey' ? 'guess' : (name === 'Word Linker' ? 'association' : undefined))),
-                selectedTimer: (['Fluency Flow', 'Battle of Wits', 'Opinion Arena', "Critic's Corner"].includes(name) ? '120' : '60'),
-                selectedBingoContent: 'numbers'
-            };
-            window.launchGame(name, mode, settings);
-        } else {
-            console.error("launchGame function not found in mobile.js");
+    function checkRedirectParams() {
+        const params = new URLSearchParams(window.location.search);
+        const gameParam = params.get('game');
+        if (gameParam && GAME_PATH_MAP[gameParam]) {
+            location.href = GAME_PATH_MAP[gameParam];
         }
-    };
+    }
 
-    document.addEventListener('DOMContentLoaded', initFilters);
+    document.addEventListener('DOMContentLoaded', () => {
+        initFilters();
+        checkRedirectParams();
+    });
 })();

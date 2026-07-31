@@ -8,7 +8,7 @@ This document outlines the structured, phased roadmap for implementing the **COS
                                  COSY GAMES ROADMAP
 
   [ Phase 1: UI/UX ] ──➔ [ Phase 2: Monolingual ] ──➔ [ Phase 3: Gamification ]
-  (Completed ✅)          (Next Up 🚀)                (Audio Synth, Combo Streaks)
+  (Completed ✅)          (Completed ✅)              (Next Up 🚀)
                                                                    │
   [ Phase 5: Verification ] 🖲️ [ Phase 4: Device/Sensors ] 🗲 <─────┘
   (CI Audits, Full Coverage)   (DeviceOrientation, Accelerometer)
@@ -37,14 +37,14 @@ This document outlines the structured, phased roadmap for implementing the **COS
 
 ---
 
-## Phase 2: Monolingual Data Engine & Universal Loader (Next Up 🚀)
+## Phase 2: Monolingual Data Engine & Universal Loader (Completed ✅)
 *Focus: Decouple game logic from static arrays and implement a dynamic, language-agnostic loader leveraging our 23,000+ item master database.*
 
-- [ ] **Stage 2.1: Master Vocab & Speaking Loader**
+- [x] **Stage 2.1: Master Vocab & Speaking Loader**
   - Bind the unified games engine to `window.vocabularyData[lang]` and `window.speakingData[lang]`.
   - Filter content dynamically based on the active game session's chosen CEFR level (Starter A1, Elementary A2, etc.).
   - Implement fallback routines to `universal.js` (for etymology and custom philosopher collections) in case of minor language data gaps.
-- [ ] **Stage 2.2: Pure Symbolic Equation Conversions**
+- [x] **Stage 2.2: Pure Symbolic Equation Conversions**
   - Deprecate English linguistic instructions inside the viewport across all puzzle/vocabulary games.
   - Integrate the **Symbolic Equation Engine** to render visual challenges:
     - Definition Mode: `[Word] = [Target Language Definition]`
@@ -52,12 +52,12 @@ This document outlines the structured, phased roadmap for implementing the **COS
     - Synonym Mode: `[Word] ≈ ???`
     - Antonym Mode: `[Word] ≠ ???`
     - Scramble/Syntax Mode: `🧩 [Words Group]`
-- [ ] **Stage 2.3: Internationalized Fallbacks (`i18n`)**
+- [x] **Stage 2.3: Internationalized Fallbacks (`i18n`)**
   - Fully integrate static UI label keys with the `window.t()` localized translation dictionary to ensure control labels (like "Score", "Time Left", "Start Game", "Next") adapt automatically to the user's interface language.
 
 ---
 
-## Phase 3: Sensory & Gamification Upgrade
+## Phase 3: Sensory & Gamification Upgrade (Next Up 🚀)
 *Focus: Introduce rich psychological retention triggers (sound, particle physics, active streak tracking) directly in-browser.*
 
 - [ ] **Stage 3.1: Web Audio Synthesis (Zero-Latency FX)**
