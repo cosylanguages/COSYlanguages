@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heathers Challenge — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>Heathers Challenge</h1>
+  <p class="session-date">Musical Theatre Special • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Home</a> <span class="sep">/</span>
+    <a href="../../">Events</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">Heathers Challenge</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>90 minutes</p></div>
+    <div class="meta-item"><h4>Variety/Language</h4><p>American English</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+    <div class="meta-item"><h4>Thematic Focus</h4><p>Social Pressure &amp; Hope</p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Complete this special Karaoke Challenge consisting of 2 classic songs from Heathers: Seventeen and Lifeboat. Practice and compare their vocabulary, lyrics, and school-yard survival themes!</p>
+  </div>
+
+  <vim-choice>
+    <vim-choice-option>
+      <vim-choice-option-title>Seventeen</vim-choice-option-title>
+      <vim-choice-option-content>
+        <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Variety/Language</h4><p>American English</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+    <div class="meta-item"><h4>Thematic Focus</h4><p>Youth & Hope for Normalcy</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=jg3z-Dw6Bpo" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=jg3z-Dw6Bpo" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Theme: Youth & Hope for Normalcy</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">We'll discuss:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Damaged</li>
+      <li>Normal</li>
+      <li>Special</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (15%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (5%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm-seventeen">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm-seventeen')">
+        <span>🎵 Stage 1: Warm-up</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>How important is this discussion theme in your daily life?</li>
+            <li>Look at the title 'Seventeen' and the artist 'Heathers Cast'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary-seventeen">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-seventeen')">
+        <span>📚 Stage 2: Vocabulary</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts & Feelings</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">damaged</div>
+<div class="vocab-def">harmed or spoiled; not in perfect condition.</div>
+<div class="vocab-example">The old guitar was damaged during the long journey.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">intact</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'damaged', definition:'harmed or spoiled; not in perfect condition.', example:'The old guitar was damaged during the long journey.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">normal</div>
+<div class="vocab-def">conforming to a standard; usual, typical, or expected.</div>
+<div class="vocab-example">It is completely normal to feel nervous before a big presentation.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">abnormal</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'normal', definition:'conforming to a standard; usual, typical, or expected.', example:'It is completely normal to feel nervous before a big presentation.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">special</div>
+<div class="vocab-def">better, greater, or otherwise different from what is usual.</div>
+<div class="vocab-example">She prepared a special dinner to celebrate her promotion.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">ordinary</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'special', definition:'better, greater, or otherwise different from what is usual.', example:'She prepared a special dinner to celebrate her promotion.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">different</div>
+<div class="vocab-def">not the same as another or each other; unlike in nature.</div>
+<div class="vocab-example">They have completely different opinions about the new movie.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">identical</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'different', definition:'not the same as another or each other; unlike in nature.', example:'They have completely different opinions about the new movie.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">movies</div>
+<div class="vocab-def">motion pictures or films shown in a theater.</div>
+<div class="vocab-example">They love to watch bad movies on a rainy Sunday afternoon.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">live theater</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'movies', definition:'motion pictures or films shown in a theater.', example:'They love to watch bad movies on a rainy Sunday afternoon.'}, this)">+ Dictionary</button>
+</div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Life, Actions & Connection</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">summer</div>
+<div class="vocab-def">The warmest season of the year, associated with holidays and relaxation.</div>
+<div class="vocab-example">They spent the entire summer dreaming of a normal, peaceful life away from high school drama.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'summer', definition:'The warmest season of the year, associated with holidays and relaxation.', example:'They spent the entire summer dreaming of a normal, peaceful life away from high school drama.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">dancing</div>
+<div class="vocab-def">the activity of moving the body to music.</div>
+<div class="vocab-example">Dancing is a beautiful way to express your emotions and joy.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">standing still</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'dancing', definition:'the activity of moving the body to music.', example:'Dancing is a beautiful way to express your emotions and joy.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">tonight</div>
+<div class="vocab-def">on the present or coming night.</div>
+<div class="vocab-example">We are going to attend a live music concert tonight.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">today</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'tonight', definition:'on the present or coming night.', example:'We are going to attend a live music concert tonight.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">choose</div>
+<div class="vocab-def">pick out or select someone or something as being the best.</div>
+<div class="vocab-example">You must choose a career path that truly inspires you.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">reject</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'choose', definition:'pick out or select someone or something as being the best.', example:'You must choose a career path that truly inspires you.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">right</div>
+<div class="vocab-def">morally good, justified, or acceptable; correct.</div>
+<div class="vocab-example">She did the right thing by telling the truth to her friend.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">wrong</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'right', definition:'morally good, justified, or acceptable; correct.', example:'She did the right thing by telling the truth to her friend.'}, this)">+ Dictionary</button>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise-seventeen">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-seventeen')">
+        <span>🎧 Stage 3: Listening</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">damaged</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">normal</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">seventeen</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">dancing</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">tonight</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">[VERONICA]<br>Fine, we're <input type="text" class="lyrics-gap-input" data-answer="damaged" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">, really <input type="text" class="lyrics-gap-input" data-answer="damaged" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>But that does not make us wise<br>We're not special, we're not different<br>We don't choose who lives or dies<br>Let's be <input type="text" class="lyrics-gap-input" data-answer="normal" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">, see bad movies<br>Sneak a beer and watch TV<br>We'll bake brownies or go bowling<br>Don't you want a life with me?<br><br>Can't we be <input type="text" class="lyrics-gap-input" data-answer="seventeen" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 99px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">?<br>That's all I want to do<br>If you could let me in<br>I could be good with you<br><br>[VERONICA, J.D.]<br>People hurt us or they vanish<br>And you're right, it really blows<br>But we let go, take a deep breath<br>Then go buy some summer clothes<br>We'll go camping, play some poker<br>And we'll eat some chili fries<br>Maybe prom night, maybe <input type="text" class="lyrics-gap-input" data-answer="dancing" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Don't stop looking in my eyes (Your eyes)<br><br>[VERONICA & J.D.]<br>Can't we be <input type="text" class="lyrics-gap-input" data-answer="seventeen" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 99px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">?<br>Is that so hard to do?<br>If you could let me in<br>I could be good with you<br>Let us be <input type="text" class="lyrics-gap-input" data-answer="seventeen" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 99px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>If we've still got the right<br><br>[VERONICA, J.D., VERONICA & J.D.]<br>So what's it gonna be?<br>I wanna be with you<br>I wanna be with you (Wanna be with you)<br><input type="text" class="lyrics-gap-input" data-answer="Tonight" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br><br>Yeah, we're <input type="text" class="lyrics-gap-input" data-answer="damaged" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">, badly <input type="text" class="lyrics-gap-input" data-answer="damaged" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>But your love's too good to lose<br>Hold me tighter, even closer<br>I'll stay if I'm what you choose<br>Can't we be <input type="text" class="lyrics-gap-input" data-answer="seventeen" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 99px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">? (If I am what you choose)<br>If we've still got the right ('Cause you're the one I choose)<br>You're the one I choose<br>You're the one I choose<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion-seventeen">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion-seventeen')">
+        <span>💬 Stage 4: Discussion</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+<div class="round-item"><div class="round-item-main">The song features a famous, raw confession: "people hurt us / Or we're damaged." In what ways do painful life experiences leave us feeling emotionally <strong>damaged</strong>, and how can we begin to heal?</div>
+<div class="round-item-personal">★ Have you ever felt that a difficult situation left you feeling a bit <strong>damaged</strong>, but you still found a way to recover?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Veronica pleads passionately: "Can't we be seventeen? / That's all I want to do... / Let's go be normal." Why is a simple, peaceful, and <strong>normal</strong> life often undervalued until it is threatened by chaos?</div>
+<div class="round-item-personal">★ What represents a comforting, <strong>normal</strong> day or routine for you when you are feeling stressed?</div>
+</div>
+<div class="round-item"><div class="round-item-main">JD's character believes they are too unique for standard life, but Veronica wants to reject that: "We don't need to be special." Why is the modern obsession with being 'extraordinary' or <strong>special</strong> sometimes a source of deep anxiety?</div>
+<div class="round-item-personal">★ What is a <strong>special</strong> quality or talent you have that you are proud of, even if it is very simple?</div>
+</div>
+<div class="round-item"><div class="round-item-main">She wants to try a fresh start: "Let's go be normal, see bad movies / Sneak out and drink beer." Why is choosing a simple, healthy routine so <strong>different</strong> and challenging when recovering from a toxic environment?</div>
+<div class="round-item-personal">★ What is something completely <strong>different</strong> that you would love to try doing next weekend?</div>
+</div>
+<div class="round-item"><div class="round-item-main">She suggests simple teenage dates: "see bad <strong>movies</strong>." Why do low-stakes, shared activities like watching movies with friends or partners build such strong, comfortable connections?</div>
+<div class="round-item-personal">★ What is one of your favorite bad <strong>movies</strong> that you love to watch just for a good laugh?</div>
+</div>
+<div class="round-item"><div class="round-item-main">She sings about typical youth experiences: "We'll laugh and we'll cry / And we'll watch the summer die." Why do seasons like <strong>summer</strong> carry such a strong, universal sense of fleeting youth and transition?</div>
+<div class="round-item-personal">★ What is your favorite memory from last <strong>summer</strong> that always makes you smile when you think of it?</div>
+</div>
+<div class="round-item"><div class="round-item-main">The lyrics describe standard social activities: "We'll go <strong>dancing</strong>." How do lighthearted activities like dancing and listening to music help heal our minds after periods of high stress?</div>
+<div class="round-item-personal">★ When was the last time you went <strong>dancing</strong> or let loose to a favorite upbeat song?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Veronica urges action immediately: "Let's start <strong>tonight</strong>." Why is it so crucial to set boundaries and make healthy changes 'tonight' instead of waiting for a perfect moment in the future?</div>
+<div class="round-item-personal">★ What is one small, positive action or goal you want to achieve before you go to sleep <strong>tonight</strong>?</div>
+</div>
+<div class="round-item"><div class="round-item-main">She asks him to choose a better path: "Let's pick a fight / Or just sit tight." When we are in conflict, how do we learn to <strong>pick</strong> our battles wisely and know when it is safer to walk away?</div>
+<div class="round-item-personal">★ How do you usually <strong>pick</strong> or choose the gifts you buy for your friends' birthdays?</div>
+</div>
+<div class="round-item"><div class="round-item-main">JD's dangerous behavior is driven by his belief that he is morally <strong>right</strong>. Why is the absolute conviction that you are entirely right and others are wrong so dangerous in relationships and society?</div>
+<div class="round-item-personal">★ What was a time you realized you were not <strong>right</strong> about something, and how did you admit it?</div>
+</div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+<div class="round-item"><div class="round-item-main">The desire to live a simple, predictable, and 'normal' life is a more courageous and authentic choice than the exhausting pursuit of being 'special.' Debate.</div>
+</div>
+<div class="round-item"><div class="round-item-main">To heal from emotional damage and toxic relationships, we must actively choose to let go of our desire for vengeance or absolute control. Discuss.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Youth ('being seventeen') is romanticized as a time of pure freedom, but it is actually a period of high vulnerability and intense social pressure. Agree or disagree?</div>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus-seventeen">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus-seventeen')">
+        <span>✨ Stage 5: Language Focus</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">The Modal Verb 'Must' for Obligation and Deduction</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">We use 'must' to express a strong obligation or a logical deduction directly from the lyrics.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">We must dare to make our own music.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">The song is so beautiful, she must be a great artist.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">You must listen carefully to fill in the missing gaps.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge-seventeen">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge-seventeen')">
+        <span>🎭 Stage 6: Final Challenge</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imagine the sequel of this song: Role-play a conversation between the main characters 5 years later.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+  <div class="theme-box" style="background: var(--warm-white); border-radius: 16px; padding: 1.5rem; margin-top: 2rem; border: 1px solid var(--border); font-family: 'Nunito', sans-serif;">
+    <h4 style="margin-top: 0; margin-bottom: 0.75rem; font-family: 'Playfair Display', serif; color: var(--indigo); font-size: 1.1rem;">📚 Sources / Works Cited</h4>
+    <p style="font-size: 0.85rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 0.5rem; font-style: normal;">
+      Genius. "Barrett Wilbert Weed and Ryan McCartan – Seventeen Lyrics." <em>Genius</em>, <a href="https://genius.com/Barrett-wilbert-weed-and-ryan-mccartan-seventeen-lyrics" target="_blank" style="color: var(--teal); text-decoration: underline;">https://genius.com/Barrett-wilbert-weed-and-ryan-mccartan-seventeen-lyrics</a>. Accessed 31 July 2026.<br>
+      "Seventeen." <em>YouTube</em>, uploaded by Heathers Cast, <a href="https://www.youtube.com/watch?v=jg3z-Dw6Bpo" target="_blank" style="color: var(--teal); text-decoration: underline;">https://www.youtube.com/watch?v=jg3z-Dw6Bpo</a>.
+    </p>
+    <p style="font-size: 0.75rem; line-height: 1.5; color: var(--muted); margin-bottom: 0; border-top: 1px dashed var(--border); padding-top: 0.5rem; font-style: italic;">
+      Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+    </p>
+  </div>
+
+    <div class="mistake-block open" id="s-mistakes-seventeen">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-seventeen')">
+        <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">There is a big improvement <span class="mistake-highlight">of</span> my English</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">There is a big improvement in my English</span>
+            <span class="mistake-note-text">(Use 'in' after 'improvement' to express domain.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">It was a great relief <span class="mistake-highlight">of</span> hearing the news</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">It was a great relief to hear the news</span>
+            <span class="mistake-note-text">(Use 'relief' + infinitive 'to hear'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">She is in the choir <span class="mistake-highlight">since</span> three years</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">She has been in the choir for three years</span>
+            <span class="mistake-note-text">(Use present perfect + 'for' to show duration of state.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+      </vim-choice-option-content>
+    </vim-choice-option>
+    <vim-choice-option>
+      <vim-choice-option-title>Lifeboat</vim-choice-option-title>
+      <vim-choice-option-content>
+        <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Variety/Language</h4><p>American English</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+    <div class="meta-item"><h4>Thematic Focus</h4><p>Social Pressure & Survival</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=mMjHPilNnpY" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=mMjHPilNnpY" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Theme: Social Pressure & Survival</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">We'll discuss:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Ocean</li>
+      <li>Lifeboat</li>
+      <li>Sink</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (15%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (5%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm-lifeboat">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm-lifeboat')">
+        <span>🎵 Stage 1: Warm-up</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>How important is this discussion theme in your daily life?</li>
+            <li>Look at the title 'Lifeboat' and the artist 'Heathers Cast'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary-lifeboat">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-lifeboat')">
+        <span>📚 Stage 2: Vocabulary</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts & Feelings</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">ocean</div>
+<div class="vocab-def">a very large expanse of sea, in particular, each of the main areas of saline water.</div>
+<div class="vocab-example">The vast blue ocean stretched as far as the eye could see.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">desert</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'ocean', definition:'a very large expanse of sea, in particular, each of the main areas of saline water.', example:'The vast blue ocean stretched as far as the eye could see.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">lifeboat</div>
+<div class="vocab-def">a small boat kept on a ship for use in an emergency.</div>
+<div class="vocab-example">The ship was equipped with enough lifeboats for everyone on board.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">ship</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'lifeboat', definition:'a small boat kept on a ship for use in an emergency.', example:'The ship was equipped with enough lifeboats for everyone on board.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">sink</div>
+<div class="vocab-def">go down below the surface of something, especially in liquid.</div>
+<div class="vocab-example">The heavy iron anchor will sink quickly to the bottom of the sea.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">float</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'sink', definition:'go down below the surface of something, especially in liquid.', example:'The heavy iron anchor will sink quickly to the bottom of the sea.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">captain</div>
+<div class="vocab-def">the person in command of a ship, aircraft, or team.</div>
+<div class="vocab-example">The experienced captain guided the ship safely through the storm.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">crew</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'captain', definition:'the person in command of a ship, aircraft, or team.', example:'The experienced captain guided the ship safely through the storm.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">weakest</div>
+<div class="vocab-def">lacking physical strength or resolve; the least strong.</div>
+<div class="vocab-example">We must protect and support the weakest members of our community.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">strongest</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'weakest', definition:'lacking physical strength or resolve; the least strong.', example:'We must protect and support the weakest members of our community.'}, this)">+ Dictionary</button>
+</div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Life, Actions & Connection</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">fighting</div>
+<div class="vocab-def">the action of defeating or resisting something; struggling.</div>
+<div class="vocab-example">Fighting for social justice requires courage and perseverance.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">surrendering</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'fighting', definition:'the action of defeating or resisting something; struggling.', example:'Fighting for social justice requires courage and perseverance.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">storm</div>
+<div class="vocab-def">a violent disturbance of the atmosphere with strong winds and rain.</div>
+<div class="vocab-example">The loud thunder and lightning of the storm woke me up.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">calm</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'storm', definition:'a violent disturbance of the atmosphere with strong winds and rain.', example:'The loud thunder and lightning of the storm woke me up.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">wrong</div>
+<div class="vocab-def">not correct or true; incorrect.</div>
+<div class="vocab-example">He gave the wrong answer to the simple physics question.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'wrong', definition:'not correct or true; incorrect.', example:'He gave the wrong answer to the simple physics question.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">outfit</div>
+<div class="vocab-def">a set of clothes worn together, typically for a particular occasion.</div>
+<div class="vocab-example">She picked out a beautiful and stylish outfit for the wedding.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">uniform</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'outfit', definition:'a set of clothes worn together, typically for a particular occasion.', example:'She picked out a beautiful and stylish outfit for the wedding.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">crowded</div>
+<div class="vocab-def">full of people, leaving little or no room.</div>
+<div class="vocab-example">The popular beach was very crowded on the warm summer weekend.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">empty</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'crowded', definition:'full of people, leaving little or no room.', example:'The popular beach was very crowded on the warm summer weekend.'}, this)">+ Dictionary</button>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise-lifeboat">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-lifeboat')">
+        <span>🎧 Stage 3: Listening</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">boat</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">ocean</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">lifeboat</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">sink</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">captain</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">[HEATHER MCNAMARA]<br>I float in a <input type="text" class="lyrics-gap-input" data-answer="boat" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> in a raging black <input type="text" class="lyrics-gap-input" data-answer="ocean" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Low in the water and nowhere to go<br>The tiniest <input type="text" class="lyrics-gap-input" data-answer="lifeboat" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 88px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> with people I know<br>Cold, clammy, and crowded<br>The people smell desperate<br>We'll <input type="text" class="lyrics-gap-input" data-answer="sink" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> any minute, so someone must go<br>The tiniest <input type="text" class="lyrics-gap-input" data-answer="lifeboat" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 88px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> with people I know<br><br>Everyone's pushing, everyone's fighting<br>Storms are approaching, there's nowhere to hide<br>If I say the wrong thing, or I wear the wrong outfit<br>They'll throw me right over the side<br><br>I'm hugging my knees and the <input type="text" class="lyrics-gap-input" data-answer="captain" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> is pointing<br>Well, who made her <input type="text" class="lyrics-gap-input" data-answer="captain" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">?<br>Still, the weakest must go<br>The tiniest <input type="text" class="lyrics-gap-input" data-answer="lifeboat" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 88px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> full of people I know<br>The tiniest <input type="text" class="lyrics-gap-input" data-answer="lifeboat" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 88px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> full of people I know<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion-lifeboat">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion-lifeboat')">
+        <span>💬 Stage 4: Discussion</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+<div class="round-item"><div class="round-item-main">The singer describes her environment: "I float in a boat in a raging black ocean." How does the metaphor of a "raging black ocean" represent the chaotic and unpredictable nature of adolescent or office social structures?</div>
+<div class="round-item-personal">★ Have you ever felt that you were swimming or floating in a giant, unpredictable <strong>ocean</strong> of professional or academic changes?</div>
+</div>
+<div class="round-item"><div class="round-item-main">She feels trapped in a small, unstable space: "The tiniest lifeboat with people I know." Why is the "lifeboat" such a powerful symbol of a high-pressure, closed ecosystem like high school or a small work department?</div>
+<div class="round-item-personal">★ What is the first thing you try to do to survive or stay calm when you feel trapped in a metaphorical <strong>lifeboat</strong> with difficult personalities?</div>
+</div>
+<div class="round-item"><div class="round-item-main">She sings in terror: "We'll sink any minute, so someone must go." Why does the fear that a group or team will "sink" lead people to turn on each other instead of cooperating?</div>
+<div class="round-item-personal">★ What is a practical step or action you take to prevent your team or plans from beginning to <strong>sink</strong> during a crisis?</div>
+</div>
+<div class="round-item"><div class="round-item-main">She questions authority: "And the captain is pointing... Well, who made her captain?" What qualities allow certain dominant personalities to take control as "captain" of a social circle?</div>
+<div class="round-item-personal">★ What has your experience shown you about what makes a great, supportive team <strong>captain</strong> versus a dictatorial one?</div>
+</div>
+<div class="round-item"><div class="round-item-main">The song observes the cruel reality of social Darwinism: "Still, the weakest must go." Why does a high-stress environment make people so willing to sacrifice or exclude the <strong>weakest</strong> members?</div>
+<div class="round-item-personal">★ How can we actively support and stand up for the <strong>weakest</strong> or most vulnerable person in our group or workplace?</div>
+</div>
+<div class="round-item"><div class="round-item-main">She observes the chaos on board: "Everyone's pushing, everyone's fighting." Why do you think people resort to <strong>fighting</strong> for status rather than helping each other survive?</div>
+<div class="round-item-personal">★ How do you personally handle a situation where colleagues are constantly <strong>fighting</strong> for credit or attention?</div>
+</div>
+<div class="round-item"><div class="round-item-main">The threat is growing: "Storms are approaching, there's nowhere to hide." In our personal or professional life, how do we find a safe space to recover when we see a major "storm" of conflict approaching?</div>
+<div class="round-item-personal">★ What comforting routine or hobby acts as your personal shelter during a stressful <strong>storm</strong> in your life?</div>
+</div>
+<div class="round-item"><div class="round-item-main">She fears making any mistake: "If I say the wrong thing..." Why is the fear of saying the <strong>wrong</strong> thing so paralyzing in high-stakes social circles or workplaces?</div>
+<div class="round-item-personal">★ Tell us about a time you made a minor, <strong>wrong</strong> assumption about a situation and how you corrected it.</div>
+</div>
+<div class="round-item"><div class="round-item-main">She worries about superficial judgments: "or I wear the wrong outfit." How does the pressure to conform in superficial ways, like wearing the right <strong>outfit</strong> or using the right slang, restrict our personal freedom?</div>
+<div class="round-item-personal">★ Do you enjoy picking out a creative <strong>outfit</strong> for special occasions, or do you prefer a simple, predictable uniform?</div>
+</div>
+<div class="round-item"><div class="round-item-main">The lifeboat is described as "cold, clammy, and crowded." Why is feeling completely lonely in a <strong>crowded</strong> room of people we know one of the most painful human experiences?</div>
+<div class="round-item-personal">★ Do you prefer to spend your free time in quiet, cozy places, or do you thrive in <strong>crowded</strong>, highly energetic settings?</div>
+</div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+<div class="round-item"><div class="round-item-main">The intense social pressure to conform and fit into high school or professional cliques is a form of survival instinct, and true individuality is a high-risk luxury. Debate.</div>
+</div>
+<div class="round-item"><div class="round-item-main">The captain or leader of a toxic social group only has power because the rest of the group is too afraid of being 'thrown over the side' to question them. Discuss.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Modern society is structured more like a competitive 'lifeboat' where the weakest are left behind, rather than a cooperative ship where everyone is helped. Agree or disagree?</div>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus-lifeboat">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus-lifeboat')">
+        <span>✨ Stage 5: Language Focus</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">The Modal Verb 'Must' for Obligation and Deduction</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">We use 'must' to express a strong obligation or a logical deduction directly from the lyrics.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">We must dare to make our own music.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">The song is so beautiful, she must be a great artist.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">You must listen carefully to fill in the missing gaps.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge-lifeboat">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge-lifeboat')">
+        <span>🎭 Stage 6: Final Challenge</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imagine the sequel of this song: Role-play a conversation between the main characters 5 years later.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+  <div class="theme-box" style="background: var(--warm-white); border-radius: 16px; padding: 1.5rem; margin-top: 2rem; border: 1px solid var(--border); font-family: 'Nunito', sans-serif;">
+    <h4 style="margin-top: 0; margin-bottom: 0.75rem; font-family: 'Playfair Display', serif; color: var(--indigo); font-size: 1.1rem;">📚 Sources / Works Cited</h4>
+    <p style="font-size: 0.85rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 0.5rem; font-style: normal;">
+      Genius. "Elle McLemore – Lifeboat Lyrics." <em>Genius</em>, <a href="https://genius.com/Elle-mclemore-lifeboat-lyrics" target="_blank" style="color: var(--teal); text-decoration: underline;">https://genius.com/Elle-mclemore-lifeboat-lyrics</a>. Accessed 31 July 2026.<br>
+      "Lifeboat." <em>YouTube</em>, uploaded by Heathers Cast, <a href="https://www.youtube.com/watch?v=mMjHPilNnpY" target="_blank" style="color: var(--teal); text-decoration: underline;">https://www.youtube.com/watch?v=mMjHPilNnpY</a>.
+    </p>
+    <p style="font-size: 0.75rem; line-height: 1.5; color: var(--muted); margin-bottom: 0; border-top: 1px dashed var(--border); padding-top: 0.5rem; font-style: italic;">
+      Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+    </p>
+  </div>
+
+    <div class="mistake-block open" id="s-mistakes-lifeboat">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-lifeboat')">
+        <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">There is a big improvement <span class="mistake-highlight">of</span> my English</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">There is a big improvement in my English</span>
+            <span class="mistake-note-text">(Use 'in' after 'improvement' to express domain.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">It was a great relief <span class="mistake-highlight">of</span> hearing the news</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">It was a great relief to hear the news</span>
+            <span class="mistake-note-text">(Use 'relief' + infinitive 'to hear'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">She is in the choir <span class="mistake-highlight">since</span> three years</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">She has been in the choir for three years</span>
+            <span class="mistake-note-text">(Use present perfect + 'for' to show duration of state.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+      </vim-choice-option-content>
+    </vim-choice-option>
+  </vim-choice>
+
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>
