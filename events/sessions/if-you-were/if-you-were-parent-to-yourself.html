@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>If You Were a Parent to Yourself 🪞 — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+<style>
+  .perspective-mirror-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    background: rgba(79, 70, 229, 0.04);
+    border: 1.5px dashed #4F46E5;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  .mirror-panel {
+    background: white;
+    padding: 1.25rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  .mirror-panel h4 {
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    color: #4F46E5;
+  }
+  .mirror-panel p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--ink-soft);
+  }
+  .session-hero {
+    background: linear-gradient(135deg, #4F46E5, #1E1B4B) !important;
+  }
+</style>
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero">
+  <div class="club-tag" style="background: rgba(255,255,255,0.15); color: white;">If You Were</div>
+  <h1>If You Were a Parent to Yourself</h1>
+  <p class="session-date">15 August 2026</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Home</a> <span class="sep">/</span>
+    <a href="../../index.html">Events</a> <span class="sep">/</span>
+    <a href="../../if-you-were.html">If You Were</a> <span class="sep">/</span>
+    <span class="current">If You Were a Parent to Yourself</span>
+  </nav>
+  <a href="../../if-you-were.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+    <div class="meta-item"><h4>Level</h4><p>B1 – B2</p></div>
+    <div class="meta-item"><h4>Grammar Engine</h4><p>Third Conditional &amp; Should/Could have</p></div>
+  </div>
+
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>This session is a profound exercise in temporal empathy and hindsight. Students assume the role of their own mother or father, time-traveling to guide their younger teenage selves through critical developmental milestones. We discuss validating early anxieties, setting realistic expectations, balancing lenient freedom with necessary protection, and practicing self-forgiveness.</p>
+  </div>
+
+  <div class="perspective-mirror-box">
+    <div class="mirror-panel">
+      <h4>Reality 🌎</h4>
+      <p>Looking back at our younger selves with self-criticism, lingering regrets, or confusion about why we struggled.</p>
+    </div>
+    <div class="mirror-panel">
+      <h4>The Mirror ⚖️</h4>
+      <p>Stepping back to provide parental protection, comfort, validation, and forgiveness. You are the architect of your own growth.</p>
+    </div>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Hindsight</div>
+        <div class="vocab-def">Understanding of a situation or event only after it has happened.</div>
+        <div class="vocab-example">With perfect hindsight, we see that our teenage heartbreaks were small milestones, not the end of the world.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Hindsight', definition:'Understanding of a situation or event only after it has happened.', example:'With perfect hindsight, we see that our teenage heartbreaks were small milestones, not the end of the world.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Nurture</div>
+        <div class="vocab-def">To care for and encourage the growth or development of someone.</div>
+        <div class="vocab-example">If you parented yourself, you would actively nurture your creative talents instead of forcing scientific rules.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Nurture', definition:'To care for and encourage the growth or development of someone.', example:'If you parented yourself, you would actively nurture your creative talents instead of forcing scientific rules.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Forgive</div>
+        <div class="vocab-def">To stop feeling angry or resentful toward someone for an offense, flaw, or mistake.</div>
+        <div class="vocab-example">You need to forgive your teenage self for making silly mistakes; they had no adult knowledge.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Forgive', definition:'To stop feeling angry or resentful toward someone for an offense, flaw, or mistake.', example:'You need to forgive your teenage self for making silly mistakes; they had no adult knowledge.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Protect</div>
+        <div class="vocab-def">To keep safe from harm, injury, or severe emotional distress.</div>
+        <div class="vocab-example">Would you seek to protect your younger self from failure, or would you let them experience the pain?</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Protect', definition:'To keep safe from harm, injury, or severe emotional distress.', example:'Would you seek to protect your younger self from failure, or would you let them experience the pain.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Lenient</div>
+        <div class="vocab-def">Permissive, merciful, or tolerant; not strict.</div>
+        <div class="vocab-example">Perhaps your real parents were too strict, so you would choose to be more lenient with your curfews.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Lenient', definition:'Permissive, merciful, or tolerant; not strict.', example:'Perhaps your real parents were too strict, so you would choose to be more lenient with your curfews.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Redirect</div>
+        <div class="vocab-def">To direct to a new, different, or better channel or direction.</div>
+        <div class="vocab-example">It is vital to redirect your younger self’s high anxiety into productive creative habits.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Redirect', definition:'To direct to a new, different, or better channel or direction.', example:'It is vital to redirect your younger self’s high anxiety into productive creative habits.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Validate</div>
+        <div class="vocab-def">To recognize, establish, or confirm the worth, value, or reality of someone's feelings.</div>
+        <div class="vocab-example">A supportive parent should validate their child's fears, showing that feeling lost is completely natural.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Validate', definition:'To recognize, establish, or confirm the worth, value, or reality of someone\'s feelings.', example:'A supportive parent should validate their child\'s fears, showing that feeling lost is completely natural.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Milestone</div>
+        <div class="vocab-def">A significant stage or event in the development of something or someone.</div>
+        <div class="vocab-example">Graduation is a major milestone, but simple self-forgiveness can be a much bigger emotional milestone.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Milestone', definition:'A significant stage or event in the development of something or someone.', example:'Graduation is a major milestone, but simple self-forgiveness can be a much bigger emotional milestone.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Guide</div>
+        <div class="vocab-def">To show the way, advise, or direct someone through a process or environment.</div>
+        <div class="vocab-example">Your primary duty as a self-parent is to guide your teenage self through social pressures.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Guide', definition:'To show the way, advise, or direct someone through a process or environment.', example:'Your primary duty as a self-parent is to guide your teenage self through social pressures.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Expectations</div>
+        <div class="vocab-def">Beliefs about what someone should achieve or how they should behave.</div>
+        <div class="vocab-example">Having unrealistic expectations can cause children to suppress their genuine feelings and desires.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Expectations', definition:'Beliefs about what someone should achieve or how they should behave.', example:'Having unrealistic expectations can cause children to suppress their genuine feelings and desires.'}, this)">Add to Dictionary</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+    <div class="rounds-container">
+
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up: The Meeting Room</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Complete the sentence: "If I met my fifteen-year-old self in a café today, the first thing I would buy them is..."</p>
+          <ul class="round-questions">
+            <li>What was your absolute favorite music band or style when you were fifteen?</li>
+            <li>What is the first major physical advice you would give to your younger self (e.g. sleep, posture, sport)?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Inside the Shoes (Radical Empathy)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">First-Person Roleplay</div>
+          <div class="round-item">
+            <div class="round-item-main">If you met your younger self at a major developmental <strong>milestone</strong> of high anxiety, how would you <strong>validate</strong> their feelings?</div>
+            <div class="round-item-personal">★ What was the most anxious or stressful milestone of your own teenage years?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">With your mature <strong>hindsight</strong>, what major career mistake would you help your younger self avoid?</div>
+            <div class="round-item-personal">★ If you had studied a completely different subject, what career would you have today?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Would you be more <strong>lenient</strong> with your younger self’s social mistakes, or would you set higher <strong>expectations</strong>?</div>
+            <div class="round-item-personal">★ Do you believe your real parents set realistic expectations for you when you were growing up?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How would you <strong>nurture</strong> your younger self's unique hobbies, even if they seemed completely impractical?</div>
+            <div class="round-item-personal">★ What childhood or teenage hobby did you stop doing that you wish you had kept?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you saw your younger self hanging out with untrustworthy friends, would you <strong>protect</strong> them or let them learn the hard lesson?</div>
+            <div class="round-item-personal">★ Have you ever had to step away from a friendship or group because they were bad for you?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How would you help your teenage self <strong>forgive</strong> themselves for a major embarrassing social failure?</div>
+            <div class="round-item-personal">★ Is it easy for you to forgive yourself when you make mistakes in your adult life?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you saw your younger self crying over a broken heart, how would you <strong>guide</strong> them through the grief?</div>
+            <div class="round-item-personal">★ What was your very first experience of heartbreak, and how did you cope with it?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How would you <strong>redirect</strong> your teenage self's energy if you saw them wasting months on addictive, unhealthy habits?</div>
+            <div class="round-item-personal">★ What is one bad habit you had as a teenager that you successfully overcame as an adult?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you could change exactly one major decision your younger self made, would you do it, or would that destroy your current identity?</div>
+            <div class="round-item-personal">★ What is the single best decision you have ever made in your entire life?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If your younger self refused to listen to your advice, saying you were "too old," how would you connect with them?</div>
+            <div class="round-item-personal">★ Did you usually listen to adult advice when you were a teenager, or did you rebel?</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together: The Parental Archetype</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Which primary parenting philosophy would you adopt for your younger self?</p>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid var(--border); text-align: center;">
+              <span style="font-size: 2rem;">🛡️</span>
+              <h5 style="margin: 0.5rem 0;">The Protective Shield</h5>
+              <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">Stopping mistakes before they happen, avoiding embarrassing social failures, preventing bad heartbreaks, and ensuring a smooth, safe growth.</p>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid var(--border); text-align: center;">
+              <span style="font-size: 2rem;">🌱</span>
+              <h5 style="margin: 0.5rem 0;">The Supportive Mentor</h5>
+              <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">Allowing mistakes to happen, letting them fail curfews and experience breakups, but always being there to validate and comfort them afterward.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — The Echo Chamber (Speculative Projections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Global Ripples</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> If everyone had the opportunity to be parented by their own adult self in a virtual reality simulation, generational trauma would be completely eradicated.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> In the future, school counselors will use temporal roleplay to help students view their own anxieties from a compassionate distance.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> If parents were lenient with every single mistake, children would grow up without basic resilience.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> In a world with perfect temporal hindsight, human life would become boring due to the complete absence of unexpected failures.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Future societies will view traditional parenting as a highly primitive method compared to structured, peer-to-peer mentoring.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> If we validated every single emotional whim of teenagers, societal order would collapse.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> One day, a specialized tech will let adults temporarily travel to the physical past, acting as anonymous mentors to protect themselves.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> If societies replaced competitive academic expectations with individual character development, global happiness would double.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> In the future, legal systems will require parents to undergo intensive licensing courses before having children.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> If human memory could easily forget all teenage regrets, we would stop learning from hindsight.</div></div>
+        </div>
+      </div>
+
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">If I was there, I <u>should help</u> him.</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">If I had been there, I <strong>would have helped</strong> him. / I <strong>should have helped</strong> him.</span>
+            <span class="mistake-note-text">(Third conditional/past regret: use 'had been' in the if-clause, and 'would/should/could have' + past participle in the main clause)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">I should <u>told</u> myself to relax.</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">I should <strong>have told</strong> myself to relax.</span>
+            <span class="mistake-note-text">(Past regret: use 'should have' + past participle 'told' instead of modal + past tense)</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Closing Rituals -->
+  <section style="margin-top: 3rem; padding: 2rem; background: var(--cream-dark); border-radius: 16px;">
+    <h3 style="font-family: 'Playfair Display', serif; margin-top: 0;">🏁 Closing Mic Drop Rituals</h3>
+    <p style="font-size: 0.9rem; line-height: 1.5; color: var(--ink-soft);">
+      <strong>1. The Final Adjective:</strong> Complete the sentence: <em>"If I parented myself, my younger self’s life would be... [one adjective] because..."</em><br>
+      <strong>2. The Year 2125 Cosmic Choice:</strong> Scientists invent the "Hindsight Loop". It lets you relive any teenage memory and make different choices, but blocks you from ever returning to your current physical adult timeline. Would you enter the loop, or choose to remain in the present with your current identity?
+    </p>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>If You Were a Child Again 🧸 — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+<style>
+  .perspective-mirror-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    background: rgba(79, 70, 229, 0.04);
+    border: 1.5px dashed #4F46E5;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  .mirror-panel {
+    background: white;
+    padding: 1.25rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  .mirror-panel h4 {
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    color: #4F46E5;
+  }
+  .mirror-panel p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--ink-soft);
+  }
+  .session-hero {
+    background: linear-gradient(135deg, #4F46E5, #1E1B4B) !important;
+  }
+</style>
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero">
+  <div class="club-tag" style="background: rgba(255,255,255,0.15); color: white;">If You Were</div>
+  <h1>If You Were a Child Again</h1>
+  <p class="session-date">20 August 2026</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Home</a> <span class="sep">/</span>
+    <a href="../../index.html">Events</a> <span class="sep">/</span>
+    <a href="../../if-you-were.html">If You Were</a> <span class="sep">/</span>
+    <span class="current">If You Were a Child Again</span>
+  </nav>
+  <a href="../../if-you-were.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+    <div class="meta-item"><h4>Level</h4><p>A2 – B1</p></div>
+    <div class="meta-item"><h4>Grammar Engine</h4><p>Used to &amp; Wishes (Wish / If only)</p></div>
+  </div>
+
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>This session invites students to travel back in time, stepping into the unburdened world of childhood with the benefit of adult knowledge. We discuss creative play, simple pleasures, nostalgically remembered spaces, and spontaneous exploration. Students explore how reclaiming early wonder can heal adult stress and redesign our priorities.</p>
+  </div>
+
+  <div class="perspective-mirror-box">
+    <div class="mirror-panel">
+      <h4>Reality 🌎</h4>
+      <p>Life is filled with strict schedules, financial pressures, adult responsibilities, and constant future anxieties.</p>
+    </div>
+    <div class="mirror-panel">
+      <h4>The Mirror ⚖️</h4>
+      <p>Life is an open playground. The world is filled with endless imagination, spontaneous games, and naive curiosity.</p>
+    </div>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Carefree</div>
+        <div class="vocab-def">Free from anxiety or responsibility.</div>
+        <div class="vocab-example">When you were seven, your summer days felt completely carefree, with no schedules or deadlines.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Carefree', definition:'Free from anxiety or responsibility.', example:'When you were seven, your summer days felt completely carefree, with no schedules or deadlines.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Naive</div>
+        <div class="vocab-def">Showing a lack of experience, wisdom, or judgment; innocent and trusting.</div>
+        <div class="vocab-example">Looking back, our naive childhood beliefs about the world were exceptionally sweet and simple.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Naive', definition:'Showing a lack of experience, wisdom, or judgment; innocent and trusting.', example:'Looking back, our naive childhood beliefs about the world were exceptionally sweet and simple.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Nostalgic</div>
+        <div class="vocab-def">Feeling or expressing a sentimental longing for the past.</div>
+        <div class="vocab-example">We often get nostalgic when we smell a childhood dish or see an old playground.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgic', definition:'Feeling or expressing a sentimental longing for the past.', example:'We often get nostalgic when we smell a childhood dish or see an old playground.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Imagination</div>
+        <div class="vocab-def">The faculty of forming new ideas, or images of external objects not present to the senses.</div>
+        <div class="vocab-example">With a little imagination, a simple cardboard box could become a high-tech spaceship.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Imagination', definition:'The faculty of forming new ideas, or images of external objects not present to the senses.', example:'With a little imagination, a simple cardboard box could become a high-tech spaceship.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Curiosity</div>
+        <div class="vocab-def">A strong desire to know or learn something.</div>
+        <div class="vocab-example">Our native curiosity drove us to catch bugs, climb trees, and ask endless questions.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Curiosity', definition:'A strong desire to know or learn something.', example:'Our native curiosity drove us to catch bugs, climb trees, and ask endless questions.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Spontaneous</div>
+        <div class="vocab-def">Performed or occurring as a result of a sudden impulse, without premeditation.</div>
+        <div class="vocab-example">Children are incredibly spontaneous, starting a new game instantly without hours of planning.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Spontaneous', definition:'Performed or occurring as a result of a sudden impulse, without premeditation.', example:'Children are incredibly spontaneous, starting a new game instantly without hours of planning.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Unburdened</div>
+        <div class="vocab-def">Free from worry, stress, or heavy emotional loads.</div>
+        <div class="vocab-example">If you were unburdened by financial worries, how would you spend your morning play?</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Unburdened', definition:'Free from worry, stress, or heavy emotional loads.', example:'If you were unburdened by financial worries, how would you spend your morning play?'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Wander</div>
+        <div class="vocab-def">To walk or move in a leisurely, casual, or aimless way.</div>
+        <div class="vocab-example">We used to wander around the neighborhood on our bicycles until the streetlights came on.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Wander', definition:'To walk or move in a leisurely, casual, or aimless way.', example:'We used to wander around the neighborhood on our bicycles until the streetlights came on.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Simple</div>
+        <div class="vocab-def">Easily understood or done; presenting no difficulty; plain.</div>
+        <div class="vocab-example">Childhood pleasures were so simple, like eating ice cream on a hot day.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Simple', definition:'Easily understood or done; presenting no difficulty; plain.', example:'Childhood pleasures were so simple, like eating ice cream on a hot day.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Protect</div>
+        <div class="vocab-def">To keep safe from harm or injury.</div>
+        <div class="vocab-example">It is essential that adults protect children’s innocence, allowing them to remain naive for a while.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Protect', definition:'To keep safe from harm or injury.', example:'It is essential that adults protect children’s innocence, allowing them to remain naive for a while.'}, this)">Add to Dictionary</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+    <div class="rounds-container">
+
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up: The Nostalgic Memory</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Complete the sentence: "If I could play one childhood game again right now, it would be..."</p>
+          <ul class="round-questions">
+            <li>What was the name of your best friend when you were eight years old?</li>
+            <li>What is the earliest childhood smell or taste you can clearly remember?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Inside the Shoes (Radical Empathy)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">First-Person Roleplay</div>
+          <div class="round-item">
+            <div class="round-item-main">If you could spend one full day with your childhood <strong>imagination</strong> but keep your adult knowledge, what would you spend it doing?</div>
+            <div class="round-item-personal">★ What was your absolute favorite imaginary world or story when you were a child?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you were suddenly <strong>unburdened</strong> by bills and jobs, how would you fill your afternoon without technology?</div>
+            <div class="round-item-personal">★ Do you find it difficult to disconnect from your phone during your free weekends?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Do you sometimes feel <strong>nostalgic</strong> for a time when your only task was to play and <strong>wander</strong> in the yard?</div>
+            <div class="round-item-personal">★ What physical place from your childhood do you miss the most today?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How would you react if you woke up tomorrow and realized you had to live through school rules again, feeling young and <strong>naive</strong>?</div>
+            <div class="round-item-personal">★ Were you an obedient student who followed every school rule, or did you like to break them?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How would you use your native <strong>curiosity</strong> to explore a new city, as though you had never seen a map?</div>
+            <div class="round-item-personal">★ When visiting a new town, do you prefer following a guidebook or getting lost on purpose?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Do you believe it is essential that parents <strong>protect</strong> their children from knowing about global problems?</div>
+            <div class="round-item-personal">★ How old were you when you first started paying attention to global news and politics?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you had to choose a completely <strong>spontaneous</strong> activity right now, what would you do?</div>
+            <div class="round-item-personal">★ What is the most spontaneous trip or decision you have ever made in your life?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Why are children able to find absolute joy in such <strong>simple</strong> things like mud or colorful stones?</div>
+            <div class="round-item-personal">★ What is one simple, inexpensive activity that always improves your mood today?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you were a <strong>carefree</strong> child again, what adult worry would you laugh at the most?</div>
+            <div class="round-item-personal">★ What adult responsibility did you think was extremely exciting when you were seven?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you could write a letter to your childhood self, what would you tell them about their future?</div>
+            <div class="round-item-personal">★ Are you currently living the life that your seven-year-old self dreamed of?</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together: The Play Archetype</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Which childhood setting would you choose to explore today?</p>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid var(--border); text-align: center;">
+              <span style="font-size: 2rem;">🎒</span>
+              <h5 style="margin: 0.5rem 0;">The Safe Playground</h5>
+              <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">Comfortable boundaries, toys, supervised games, and total security under adult protection.</p>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid var(--border); text-align: center;">
+              <span style="font-size: 2rem;">🚲</span>
+              <h5 style="margin: 0.5rem 0;">The Unsupervised Adventure</h5>
+              <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">Riding bikes to the local river, climbing tall trees, exploring abandoned buildings, and taking small risks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — The Echo Chamber (Speculative Projections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Global Ripples</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> If governments legally mandated a one-month "childhood sabbatical" for all adults annually, global burnout rates would drop to zero.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> In the future, children will grow up in fully digital virtual realities, making physical sandboxes and slides obsolete.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> If toys were banned, children’s native imagination and spontaneous play would increase dramatically.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> In a world with zero adult supervision, children would build a highly efficient and peaceful society on their own.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Future education will completely reject classrooms, allowing children to wander and learn from nature until age twelve.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> If we protected child naive beliefs forever, global innovation and scientific progress would stop.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> One day, advanced tech will let adults temporarily store their mature memories, experiencing a weekend with total carefree childhood perception.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> If simple lifestyles were celebrated, high-stress corporate consumerism would naturally disappear.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> In the future, adults will be required to consult children before making major ecological and urban planning decisions.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> If childhood memories were completely erasable, people would live much happier adult lives without nostalgia.</div></div>
+        </div>
+      </div>
+
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">I <u>used to playing</u> with Legos.</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">I <strong>used to play</strong> with Legos.</span>
+            <span class="mistake-note-text">(Past habits: 'used to' is followed directly by the bare infinitive 'play' instead of gerund 'playing')</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">I wish I <u>am</u> a child again.</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">I wish I <strong>were</strong> a child again.</span>
+            <span class="mistake-note-text">(Hypothetical wish: use past subjunctive 'were' for present/future imaginary states)</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Closing Rituals -->
+  <section style="margin-top: 3rem; padding: 2rem; background: var(--cream-dark); border-radius: 16px;">
+    <h3 style="font-family: 'Playfair Display', serif; margin-top: 0;">🏁 Closing Mic Drop Rituals</h3>
+    <p style="font-size: 0.9rem; line-height: 1.5; color: var(--ink-soft);">
+      <strong>1. The Final Adjective:</strong> Complete the sentence: <em>"If I were a child again, my primary daily activity would be... [one adjective] because..."</em><br>
+      <strong>2. The Year 2125 Cosmic Choice:</strong> Scientists invent the "Wonder Shot". It permanently resets your brain's sensory pathways so everything you see feels fresh, magical, and simple, but removes all mature, analytical logic. Would you take it, or reject it to keep adult intellect?
+    </p>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

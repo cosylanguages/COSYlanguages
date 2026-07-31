@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>If You Were 🎭 — COSYlanguages</title>
+<link href="../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../css/tokens.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/components.css" rel="stylesheet"/>
+<link href="../css/layout.css" rel="stylesheet"/>
+<link href="../css/events.css" rel="stylesheet"/>
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: linear-gradient(135deg, #4F46E5, #312E81); color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+</style>
+<style>
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--cream, #FAF7F2);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover {
+    background: var(--border);
+  }
+  .filter-btn.active {
+    background: #4F46E5;
+    color: white;
+    border-color: #4F46E5;
+  }
+  .life-balance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .life-balance-card {
+    background: var(--warm-white, #FAF9F6);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .life-balance-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+  }
+  .life-balance-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .life-balance-emoji {
+    font-size: 1.5rem;
+  }
+  .life-balance-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--ink);
+  }
+  .life-balance-desc {
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.5;
+    margin: 0;
+  }
+  .life-balance-footer {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    padding-top: 0.85rem;
+  }
+  .life-balance-date {
+    color: var(--muted);
+  }
+  .life-balance-view {
+    color: #4F46E5;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .life-balance-view:hover {
+    text-decoration: underline;
+  }
+</style></head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="club-hero">
+<div class="club-emoji" style="font-size: 3rem; margin-bottom: 1rem;">🎭</div>
+<h1>If You Were...</h1>
+<p>Step out of your identity. Assume a new temporal, physical, sensory, or abstract existence. Experience radical perspective shifts and speak through a new mask.</p>
+</header>
+<section class="container" style="padding: 2rem 1.5rem 5rem;">
+<a class="back-link" href="index.html" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Speaking Clubs</a>
+<div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+<div class="club-main">
+<!-- STUDENT/TEACHER/ADMIN CONTENT -->
+<div>
+<div class="section-header" style="margin-bottom: 1.5rem;">
+<h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
+</div>
+<div class="session-info"><table>
+<tr><td>Theme</td><td>If you were Death 💀</td></tr>
+<tr><td>Description</td><td>A deep, philosophical journey roleplaying Death as a compassionate transition guide.</td></tr>
+<tr><td>Schedule</td><td>Planned — TBC</td></tr>
+<tr><td>Duration</td><td>60 min</td></tr>
+<tr><td>Languages</td><td>🇬🇧 🇫🇷 🇷🇺</td></tr>
+</table></div>
+<a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20If%20You%20Were%20Speaking%20Club." style="background: #4F46E5; color: white;">💬 Register interest</a>
+<!-- HISTORY -->
+<div class="history-block" id="iyw-hist" style="margin-top: 2rem;">
+<div class="section-header" style="margin-bottom: 1rem;">
+<h2 style="font-size: 1.5rem;">🕒 Active Sessions</h2>
+</div>
+<div class="club-filters-lang" style="justify-content: flex-start; margin-bottom: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<button class="filter-btn active" data-lang="all">All Languages</button>
+<button class="filter-btn" data-lang="en">🇬🇧 English</button>
+</div>
+<div class="club-filters-level" style="justify-content: flex-start; margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<button class="filter-btn active" data-level="all">All Levels</button>
+<button class="filter-btn" data-level="a2">A2</button>
+<button class="filter-btn" data-level="b1">B1</button>
+<button class="filter-btn" data-level="b2">B2</button>
+<button class="filter-btn" data-level="c1">C1</button>
+</div>
+<div class="history-body" style="display: block; padding: 0; border: none;">
+<!-- 📌 PINNED NARRATIVE BATCHES -->
+<div class="pinned-challenges-section" style="margin-bottom: 3.5rem; background: rgba(79, 70, 229, 0.03); border: 2px dashed #4F46E5; border-radius: 28px; padding: 2rem;">
+<h3 style="margin-top: 0; margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.5rem; display: flex; align-items: center; gap: 0.75rem; color: #4F46E5;">
+<span>📌</span> Perspective Shifts Batches (60 min)
+  </h3>
+<div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
+<!-- Batch 1 -->
+<div class="history-session" data-lang="en" data-level="a2 b1 b2 c1" style="border:1px solid var(--border);border-radius:24px;overflow:hidden;background:#FAF7F2;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem; width: 100%; box-sizing: border-box;">
+<div style="flex: 1; min-width: 250px;">
+<div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+<span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span>
+<span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+<span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span class="club-tag" style="background:#FEEBC8; color:#C05621; border-color:#FEEBC8; border:1px solid #FEEBC8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span>
+</div>
+<h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700; color: var(--ink);">🎭 Radical Shifting of Identities</h4>
+<p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">De-construct standard identity frameworks. Play as Death, experience visual sensory loss, or step into professional, nostalgic, and developmental roles.<br/>
+<span style="font-size:0.82rem; display:block; margin-top:0.4rem; color: #4F46E5;">
+          Sessions:
+          <a href="sessions/if-you-were/if-you-were-death.html" style="color:#4F46E5; text-decoration:underline; font-weight:600;">If you were Death (B2/C1)</a> •
+          <a href="sessions/if-you-were/if-you-were-blind.html" style="color:#4F46E5; text-decoration:underline; font-weight:600;">If you were Blind (B1/B2)</a> •
+          <a href="sessions/if-you-were/if-you-were-teacher.html" style="color:#4F46E5; text-decoration:underline; font-weight:600;">If you were a Teacher (A2/B1)</a> •
+          <a href="sessions/if-you-were/if-you-were-child-again.html" style="color:#4F46E5; text-decoration:underline; font-weight:600;">If you were a Child Again (A2/B1)</a> •
+          <a href="sessions/if-you-were/if-you-were-parent-to-yourself.html" style="color:#4F46E5; text-decoration:underline; font-weight:600;">If you were a Parent to Yourself (B1/B2)</a>
+</span></p>
+</div>
+<a class="view-btn" href="sessions/if-you-were/if-you-were-death.html" style="background:#4F46E5; color:#FAF7F2; border-radius:12px; font-weight:600; padding:0.6rem 1.2rem; text-decoration:none;">Enter Batch →</a>
+</div>
+</div>
+</div>
+<div class="life-balance-grid" id="life-balance-grid">
+
+<!-- 1. If you were Death -->
+<div class="life-balance-card history-session" data-lang="en" data-level="b2 c1">
+<div class="life-balance-header">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span>
+</div>
+<span class="life-balance-emoji">💀</span>
+</div>
+<div class="life-balance-body">
+<h4 class="life-balance-title">If You Were Death</h4>
+<p class="life-balance-desc">Step into the cosmic role of Death, acting as a compassionate transition guide carrying the ultimate responsibilities.</p>
+</div>
+<div class="life-balance-footer">
+<span class="life-balance-date">01 September 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-death.html">View Session →</a>
+</div>
+</div>
+
+<!-- 2. If you were Blind -->
+<div class="life-balance-card history-session" data-lang="en" data-level="b1 b2">
+<div class="life-balance-header">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+<span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+</div>
+<span class="life-balance-emoji">👁️</span>
+</div>
+<div class="life-balance-body">
+<h4 class="life-balance-title">If You Were Blind</h4>
+<p class="life-balance-desc">Deconstruct your sight-centric existence to fully experience acoustic and tactile landscapes.</p>
+</div>
+<div class="life-balance-footer">
+<span class="life-balance-date">28 August 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-blind.html">View Session →</a>
+</div>
+</div>
+
+<!-- 3. If you were a Teacher -->
+<div class="life-balance-card history-session" data-lang="en" data-level="a2 b1">
+<div class="life-balance-header">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#FEEBC8; color:#C05621; border-color:#FEEBC8; border:1px solid #FEEBC8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span>
+<span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+</div>
+<span class="life-balance-emoji">🍎</span>
+</div>
+<div class="life-balance-body">
+<h4 class="life-balance-title">If You Were a Teacher</h4>
+<p class="life-balance-desc">Assume the role of educational architect, directing curricula, establishing authority, and managing rules.</p>
+</div>
+<div class="life-balance-footer">
+<span class="life-balance-date">25 August 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-teacher.html">View Session →</a>
+</div>
+</div>
+
+<!-- 4. If you were a Child Again -->
+<div class="life-balance-card history-session" data-lang="en" data-level="a2 b1">
+<div class="life-balance-header">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#FEEBC8; color:#C05621; border-color:#FEEBC8; border:1px solid #FEEBC8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span>
+<span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+</div>
+<span class="life-balance-emoji">🧸</span>
+</div>
+<div class="life-balance-body">
+<h4 class="life-balance-title">If You Were a Child Again</h4>
+<p class="life-balance-desc">Revisit early life with your adult knowledge, reclaiming play, imagination, and unburdened curiosity.</p>
+</div>
+<div class="life-balance-footer">
+<span class="life-balance-date">20 August 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-child-again.html">View Session →</a>
+</div>
+</div>
+
+<!-- 5. If you were a Parent to Yourself -->
+<div class="life-balance-card history-session" data-lang="en" data-level="b1 b2">
+<div class="life-balance-header">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+<span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+</div>
+<span class="life-balance-emoji">🪞</span>
+</div>
+<div class="life-balance-body">
+<h4 class="life-balance-title">If You Were a Parent to Yourself</h4>
+<p class="life-balance-desc">Step back in time to nurture, protect, forgive, and guide your younger teenage self through milestones.</p>
+</div>
+<div class="life-balance-footer">
+<span class="life-balance-date">15 August 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-parent-to-yourself.html">View Session →</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- /logged-in content -->
+<!-- /club-main -->
+<div class="club-sidebar">
+<div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+<h3 style="font-size: 1rem; margin-bottom: .5rem; color: #4F46E5;">🎭 Radical Empathy</h3>
+<p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">This club shifts your perspective. By assuming a new persona, sensory condition, or concept, you acquire context-specific language naturally and communicate without boundaries.</p>
+</div>
+</div>
+<!-- /grid -->
+</div></section>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/data/pricing.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.filter-btn');
+  const sessions = document.querySelectorAll('.history-session');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.parentElement.classList.contains('club-filters-lang')) {
+        document.querySelectorAll('.club-filters-lang .filter-btn').forEach(b => b.classList.remove('active'));
+      } else {
+        document.querySelectorAll('.club-filters-level .filter-btn').forEach(b => b.classList.remove('active'));
+      }
+      btn.classList.add('active');
+
+      const activeLang = document.querySelector('.club-filters-lang .filter-btn.active').getAttribute('data-lang');
+      const activeLevel = document.querySelector('.club-filters-level .filter-btn.active').getAttribute('data-level');
+
+      sessions.forEach(sess => {
+        const lang = sess.getAttribute('data-lang') || '';
+        const levels = (sess.getAttribute('data-level') || '').split(' ');
+
+        const langMatch = (activeLang === 'all' || lang === activeLang);
+        const levelMatch = (activeLevel === 'all' || levels.includes(activeLevel));
+
+        if (langMatch && levelMatch) {
+          sess.style.display = 'flex';
+        } else {
+          sess.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script></body>
+</html>

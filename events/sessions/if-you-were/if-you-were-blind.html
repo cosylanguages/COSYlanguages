@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>If You Were Blind 👁️ — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+<style>
+  .perspective-mirror-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    background: rgba(79, 70, 229, 0.04);
+    border: 1.5px dashed #4F46E5;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  .mirror-panel {
+    background: white;
+    padding: 1.25rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  .mirror-panel h4 {
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    color: #4F46E5;
+  }
+  .mirror-panel p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--ink-soft);
+  }
+  .session-hero {
+    background: linear-gradient(135deg, #4F46E5, #1E1B4B) !important;
+  }
+</style>
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero">
+  <div class="club-tag" style="background: rgba(255,255,255,0.15); color: white;">If You Were</div>
+  <h1>If You Were Blind</h1>
+  <p class="session-date">28 August 2026</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Home</a> <span class="sep">/</span>
+    <a href="../../index.html">Events</a> <span class="sep">/</span>
+    <a href="../../if-you-were.html">If You Were</a> <span class="sep">/</span>
+    <span class="current">If You Were Blind</span>
+  </nav>
+  <a href="../../if-you-were.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+    <div class="meta-item"><h4>Level</h4><p>B1 – B2</p></div>
+    <div class="meta-item"><h4>Grammar Engine</h4><p>As if / As though &amp; Modals of Deduction</p></div>
+  </div>
+
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>This session challenges students to deconstruct their sight-centric habits and imagine a completely different sensory landscape. We explore navigating spaces, evaluating social cues, and experiencing aesthetics through acoustic resonance and tactile textures. By stepping into this condition, students cultivate deep empathy and discover how language adapts to other sensory dimensions.</p>
+  </div>
+
+  <div class="perspective-mirror-box">
+    <div class="mirror-panel">
+      <h4>Reality 🌎</h4>
+      <p>The world is heavily visual. Navigation, design, and initial social impressions are processed subconsciously through sight.</p>
+    </div>
+    <div class="mirror-panel">
+      <h4>The Mirror ⚖️</h4>
+      <p>The world is acoustic, tactile, and thermal. Navigation and interaction require conscious acoustic listening and active physical touch.</p>
+    </div>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Acute</div>
+        <div class="vocab-def">Highly sensitive; sharp and precise.</div>
+        <div class="vocab-example">Without sight, your hearing must become incredibly acute to identify minor sounds in the distance.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Acute', definition:'Highly sensitive; sharp and precise.', example:'Without sight, your hearing must become incredibly acute to identify minor sounds in the distance.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Tactile</div>
+        <div class="vocab-def">Relating to the sense of touch.</div>
+        <div class="vocab-example">Sensing tactile differences on the sidewalk helps you navigate safely through urban environments.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Tactile', definition:'Relating to the sense of touch.', example:'Sensing tactile differences on the sidewalk helps you navigate safely through urban environments.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Spatial</div>
+        <div class="vocab-def">Relating to the position, area, and size of things in space.</div>
+        <div class="vocab-example">Building a strong spatial map of your home allows you to move freely without bumping into furniture.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Spatial', definition:'Relating to the position, area, and size of things in space.', example:'Building a strong spatial map of your home allows you to move freely without bumping into furniture.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Resonance</div>
+        <div class="vocab-def">The quality in a sound of being deep, full, and reverberating.</div>
+        <div class="vocab-example">The resonance of your footsteps inside a room tells you immediately if the space is wide or narrow.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Resonance', definition:'The quality in a sound of being deep, full, and reverberating.', example:'The resonance of your footsteps inside a room tells you immediately if the space is wide or narrow.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Navigate</div>
+        <div class="vocab-def">To find one's way or plan a course of movement through an area.</div>
+        <div class="vocab-example">Using a cane or a guide dog, blind people learn to navigate busy streets with remarkable accuracy.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Navigate', definition:'To find one\'s way or plan a course of movement through an area.', example:'Using a cane or a guide dog, blind people learn to navigate busy streets with remarkable accuracy.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Intuitive</div>
+        <div class="vocab-def">Using what seems to be true without conscious reasoning; instinctive.</div>
+        <div class="vocab-example">Finding your keys in the dark becomes completely intuitive once you stop searching visually.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Intuitive', definition:'Using what seems to be true without conscious reasoning; instinctive.', example:'Finding your keys in the dark becomes completely intuitive once you stop searching visually.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Block out</div>
+        <div class="vocab-def">To obstruct or prevent something from entering or being perceived.</div>
+        <div class="vocab-example">Closing your eyes allows you to block out visual noise and focus entirely on the symphony.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Block out', definition:'To obstruct or prevent something from entering or being perceived.', example:'Closing your eyes allows you to block out visual noise and focus entirely on the symphony.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Texture</div>
+        <div class="vocab-def">The feel, appearance, or consistency of a surface or a substance.</div>
+        <div class="vocab-example">You can feel the rich texture of a leaf, noting its delicate veins and soft surface.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Texture', definition:'The feel, appearance, or consistency of a surface or a substance.', example:'You can feel the rich texture of a leaf, noting its delicate veins and soft surface.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Echo</div>
+        <div class="vocab-def">A sound or series of sounds caused by the reflection of sound waves.</div>
+        <div class="vocab-example">Listening to the echo of your voice off a wall is an effective way to estimate distance.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Echo', definition:'A sound or series of sounds caused by the reflection of sound waves.', example:'Listening to the echo of your voice off a wall is an effective way to estimate distance.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Landscape</div>
+        <div class="vocab-def">The visible features of an area, or a mental mapping of an environment.</div>
+        <div class="vocab-example">An acoustic landscape is filled with the calls of birds, the hum of traffic, and the rustle of trees.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Landscape', definition:'The visible features of an area, or a mental mapping of an environment.', example:'An acoustic landscape is filled with the calls of birds, the hum of traffic, and the rustle of trees.'}, this)">Add to Dictionary</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+    <div class="rounds-container">
+
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up: The Sensory Swap</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Complete the sentence: "If I closed my eyes right now, the loudest sound in my room would be..."</p>
+          <ul class="round-questions">
+            <li>What is the most distinct physical sensation you can feel right now, other than sight?</li>
+            <li>If you had to describe your favorite food to someone using only touch and sound, what would you say?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Inside the Shoes (Radical Empathy)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">First-Person Roleplay</div>
+          <div class="round-item">
+            <div class="round-item-main">How would you redesign your current living room to ensure your <strong>spatial</strong> movement felt safe and <strong>intuitive</strong>?</div>
+            <div class="round-item-personal">★ Do you often bump into things in your home, or do you have a precise mental map of your spaces?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you entered a room, how would you use the acoustic <strong>resonance</strong> and <strong>echo</strong> of your voice to estimate the size of the space?</div>
+            <div class="round-item-personal">★ What is the most acoustic-heavy room you have ever stood in, and how did it make you feel?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you wanted to buy a piece of art, would you choose it based entirely on its physical <strong>texture</strong> and <strong>tactile</strong> qualities?</div>
+            <div class="round-item-personal">★ When shopping for clothes, is the physical texture of the fabric more important to you than the color?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Without visual cues, how would you listen to someone’s tone of voice to tell if they were lying, as if your hearing had become incredibly <strong>acute</strong>?</div>
+            <div class="round-item-personal">★ Can you easily identify when someone is unhappy or tired just by hearing their first "hello" on the phone?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How would you <strong>navigate</strong> a busy forest trail, listening to the natural <strong>landscape</strong> around you?</div>
+            <div class="round-item-personal">★ What is your absolute favorite sound in nature, and why does it bring you peace?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Do you believe it is easier to <strong>block out</strong> negative thoughts and focus on meditation when you live in complete visual silence?</div>
+            <div class="round-item-personal">★ Do you find it easier to concentrate on work with total silence, or with some background noise?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you had to cook a gourmet dinner entirely by touch and smell, how would you know when a steak was cooked perfectly?</div>
+            <div class="round-item-personal">★ Do you cook based on precise recipes and timers, or do you cook by intuition and taste?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How would you choose a partner if you couldn't rely on visual attraction, focusing instead on character and warmth?</div>
+            <div class="round-item-personal">★ What personality trait do you value most in a close friend or romantic partner?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you met a stranger, how would you build an initial image of their identity, as though they were a collection of sounds and movements?</div>
+            <div class="round-item-personal">★ Do you form immediate impressions of people when you first meet them, or do you wait to know them?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">If you could feel the warmth of the sun on your face, how would you define the concept of daylight without ever seeing it?</div>
+            <div class="round-item-personal">★ How does your mood change when the weather changes from sunny to rainy?</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together: The Mirror Choice</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Which primary sense would you lean on to navigate this visual silence?</p>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid var(--border); text-align: center;">
+              <span style="font-size: 2rem;">🎵</span>
+              <h5 style="margin: 0.5rem 0;">The Acoustic Guide</h5>
+              <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">Relying on footstep resonance, echoes, voices, animal calls, and acute sonic vibrations to build a mental map.</p>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid var(--border); text-align: center;">
+              <span style="font-size: 2rem;">🖐️</span>
+              <h5 style="margin: 0.5rem 0;">The Tactile Explorer</h5>
+              <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">Relying on surface textures, temperature changes, direct hand touch, and floor tiles to navigate environments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — The Echo Chamber (Speculative Projections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Global Ripples</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> If all of humanity suddenly lost the sense of sight for a single year, global consumerism and visual branding would completely collapse.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> In the future, urban architects will design entire cities without streetlights, focusing instead on acoustic signals and tactile maps.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> If visual media vanished, storytelling would reach a golden age of acoustic radio dramas and spoken-word poetry.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> In a world built on sensory parity, visual fashion would be replaced entirely by clothes designed for their rich fabric textures.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> If everyone closed their eyes for one hour daily, global stress levels would decrease significantly.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Future smartphones will have zero screens, operating entirely through tactile Braille grids and intuitive voice assistants.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> If physical appearance was unknown, romantic relationships would become incredibly stable and long-lasting.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> In the future, neural chips will allow blind individuals to "feel" colours as distinct acoustic tones, changing their artistic landscapes.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> If we relied purely on tone of voice, political leaders would be chosen for their deep, calm resonance rather than their physical presence.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> One day, humanity will realize that sight-centric hyper-focus has severely damaged our other four physical senses.</div></div>
+        </div>
+      </div>
+
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">It sounds <u>like</u> a peaceful room.</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">It sounds <strong>as if</strong> it were a peaceful room. / It sounds peaceful.</span>
+            <span class="mistake-note-text">(Metaphorical deduction: use 'as if' + past subjunctive, or use the direct adjective 'sounds peaceful')</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">I can feel the wall <u>good</u>.</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">I can feel the wall <strong>well</strong>.</span>
+            <span class="mistake-note-text">(Adverb modification: use the adverb 'well' to modify the verb 'feel' instead of the adjective 'good')</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Closing Rituals -->
+  <section style="margin-top: 3rem; padding: 2rem; background: var(--cream-dark); border-radius: 16px;">
+    <h3 style="font-family: 'Playfair Display', serif; margin-top: 0;">🏁 Closing Mic Drop Rituals</h3>
+    <p style="font-size: 0.9rem; line-height: 1.5; color: var(--ink-soft);">
+      <strong>1. The Final Adjective:</strong> Complete the sentence: <em>"If I were blind, my experience of language would be... [one adjective] because..."</em><br>
+      <strong>2. The Year 2125 Cosmic Choice:</strong> Scientists invent a device that allows humans to experience "extra-sensory radar". It lets you navigate in total darkness, but blocks out the soft, natural tactile textures of physical human touch. Would you accept it, or reject it to keep physical warmth?
+    </p>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>
