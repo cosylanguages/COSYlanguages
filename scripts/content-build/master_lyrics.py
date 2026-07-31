@@ -5291,4 +5291,146 @@ Qu'on est toujours tout seul au monde
 
 Qu'on est toujours tout seul au monde"""
     },
+    "couleur": {
+        "helpers": ['gènes', 'peinture', 'couleur', 'espoir', 'drapeau'],
+        "lyrics": """[Couplet 1]
+Dans mes [__________], rien, rien qui gêne
+Je suis brune ou blonde, tout le monde m’aime
+Dans la rue, dans la vie, je me promène
+En jouant au cow-boy, ou plutôt à l’indienne
+Dans tes gènes, et bien, oui, c’est pareil
+Si ta peau prend moins de coups de soleil
+Dans la rue, sous les coups, il s’avère que tu meurs
+Le monde t’en fait voir de toutes les [__________]
+
+[Pré-refrain]
+Ce monde, j’peux plus le voir en [__________]
+Ça fait trop longtemps que ça dure
+Que ça soit clair, que ça soit clair
+
+[Refrain]
+Je suis noire, blanche, je suis de la couleur
+De l’[__________], et blanche, et noire, et dans mon cœur
+Je suis Floyd, Blake, flamme qui veille les morts
+Pour que toutes les couleurs brillent encore
+
+[Couplet 2]
+Dans notre ADN, hélas, un gène fout la guerre
+Une graine de violence qui masque nos crimes en faits-divers
+Quand ça voit rouge, tire sur tout ce qui bouge, c’est pas net
+Pas sûr que le sauvage soit celui qu’on arrête
+Mais puisqu’il paraît que la musique adoucit les mœurs
+Je t’envoie ces quelques notes du haut de mon cœur
+Peu m’importe la couleur de ta peau
+Je porte toutes les couleurs à mon [__________]"""
+    },
+    "speed": {
+        "helpers": ['caverne', 'hibernes', 'debout', 'libre', 'cage'],
+        "lyrics": """[Couplet 1]
+Depuis le temps que tu dors
+Ça fait des mois
+Des mois, que tu [__________]
+Que tu sors pas de ta [__________]
+T'as beau tout faire pour le cacher
+Sous tes airs d'ours mal léché
+Tu vibres encore
+Tu vires encore
+Allez, [__________], allez sors
+Je te sens battre au fond de moi
+T'es pas tout neuf, mais pas si vieux
+Non, t'es flambant vieux
+
+[Pré-refrain]
+Et tu speed encore
+Oui, tu speed encore
+Réveille-toi, fais pas le mort
+L'univers ne s'arrête pas
+Parce qu'on n'a plus voulu de toi
+Allez hop
+Tu es [__________] alors
+Oui, libre encore
+Allez, quitte ce corps sage
+Bats plus vite que ton âge
+Sors de ta [__________]
+
+[Refrain]
+Allez hop
+Speed encore
+Speed encore
+Bats mon cœur
+Cogne et sors
+De ce corps"""
+    },
+    "je-suis-un-homme": {
+        "helpers": ['poisson', 'ambition', 'révolution', 'prison', 'nature'],
+        "lyrics": """[Couplet 1]
+Je suis un homme de Cro-Magnon
+Je suis un singe ou un [__________]
+Sur la Terre en toute saison
+Moi je tourne en rond, je tourne en rond
+Je suis un seul puis des millions
+Je suis un homme au cœur de lion
+À la guerre en toute saison
+Moi je tourne en rond, je tourne en rond
+Je suis un homme plein d'[__________]
+Belle voiture et belle maison
+Dans la chambre ou dans le salon
+Moi je tourne en rond, je tourne en rond
+Je fais l'amour et la [__________]
+Je fais le tour de la question
+J'avance, avance à reculons
+Et je tourne en rond, je tourne en rond
+
+[Refrain]
+Tu vois, j'suis pas un homme
+Je suis le roi de l'illusion
+Au fond, qu'on me pardonne
+Je suis le roi, le roi des cons
+
+[Couplet 2]
+Je fais le monde à ma façon
+Coulé dans l'or et le béton
+Corps en cage et cœur en [__________]
+Moi je tourne en rond, je tourne en rond
+Assis devant ma télévision
+Je suis de l'homme, la négation
+Pur produit de consommation
+Oui, mon compte est bon, mon compte est bon
+
+[Pont]
+C'est moi, le maître du feu
+Le maître du jeu, le maître du monde
+Et vois ce que j'en ai fait
+Une Terre glacée, une Terre brûlée
+La Terre des hommes que les hommes abandonnent
+
+[Couplet 3]
+Je suis un homme au pied du mur
+Comme une erreur de la [__________]
+Sur la Terre sans d'autres raisons
+Moi je tourne en rond, je tourne en rond"""
+    },
+    "fovamai": {
+        "helpers": ['μαλλιά', 'στίχο', 'κοντά', 'μακριά', 'ψυχή'],
+        "lyrics": """Μέσα στα [__________] σου πετάω
+Τις στιγμές μου μεθάω
+Σ' αγαπώ και φεύγω
+
+Πάνω στα δυο χέρια σου λιώνω
+Ένα [__________] σκοτώνω
+Πάρε με μαζί σου
+
+Είσαι πολύ [__________],
+Είσαι πολύ [__________]
+
+Φοβάμαι, φοβάμαι
+Φοβάμαι, μην ακούς τι λέω
+
+Σβήνω τ' όνομα σου και σβήνω
+Τη [__________] μου αφήνω
+Σε φιλιά που καίνε
+Κοίτα πόσο έχω αλλάξει
+Σα Θεός έχω στάξει
+Κυριακή ο χρόνος"""
+    },
 }
