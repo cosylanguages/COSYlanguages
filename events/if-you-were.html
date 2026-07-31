@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>If You Were 🔮 — COSYlanguages</title>
+<link href="../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../css/tokens.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/components.css" rel="stylesheet"/>
+<link href="../css/layout.css" rel="stylesheet"/>
+<link href="../css/events.css" rel="stylesheet"/>
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: linear-gradient(135deg, #4F46E5, #1e1b4b); color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+</style>
+<style>
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--cream, #FAF7F2);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover {
+    background: var(--border);
+  }
+  .filter-btn.active {
+    background: #4F46E5;
+    color: white;
+    border-color: #4F46E5;
+  }
+</style></head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="club-hero">
+<div style="font-size: 4rem; margin-bottom: 1rem;">🔮</div>
+<h1>If You Were</h1>
+<p>Step into another skin, another role, or another reality. Speculative hypotheses and radical empathy to restructure your mind and speaking skills.</p>
+</header>
+<section class="container" style="padding: 2rem 1.5rem 5rem;">
+<a class="back-link" href="index.html" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Speaking Clubs</a>
+<div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+<div class="club-main">
+<!-- STUDENT/TEACHER/ADMIN CONTENT -->
+<div>
+<div class="section-header" style="margin-bottom: 1.5rem;">
+<h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
+</div>
+<div class="session-info"><table>
+<tr><td>Theme</td><td>If You Were Deaf</td></tr>
+<tr><td>Description</td><td>A deep exploration of silence, non-verbal communication, and spatial acoustics.</td></tr>
+<tr><td>Schedule</td><td>Planned — TBC</td></tr>
+<tr><td>Duration</td><td>60 min</td></tr>
+<tr><td>Languages</td><td>🇬🇧 🇫🇷 🇷🇺</td></tr>
+</table></div>
+<a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20the%20If%20You%20Were%20Speaking%20Club.">💬 Register interest</a>
+<!-- HISTORY -->
+<div class="history-block" id="iyw-hist" style="margin-top: 2rem;">
+<div class="section-header" style="margin-bottom: 1rem;">
+<h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
+</div>
+<div class="club-filters-lang" style="justify-content: flex-start; margin-bottom: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<button class="filter-btn active" data-lang="all">All Languages</button>
+<button class="filter-btn" data-lang="en">🇬🇧 English</button>
+</div>
+<div class="club-filters-level" style="justify-content: flex-start; margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<button class="filter-btn active" data-level="all">All Levels</button>
+<button class="filter-btn" data-level="a2">A2</button>
+<button class="filter-btn" data-level="b1">B1</button>
+<button class="filter-btn" data-level="b2">B2</button>
+<button class="filter-btn" data-level="c1">C1</button>
+</div>
+<div class="history-body" style="display: block; padding: 0; border: none;">
+<div class="life-balance-grid" id="life-balance-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+
+<!-- If You Were Deaf -->
+<div class="life-balance-card history-session" data-lang="en" data-level="b2" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s;">
+<div class="life-balance-header" style="padding: 1.5rem 1.5rem 0.5rem; display: flex; justify-content: space-between; align-items: center;">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+</div>
+<span class="life-balance-emoji">🔮</span>
+</div>
+<div class="life-balance-body" style="padding: 0 1.5rem 1.5rem; flex-grow: 1;">
+<h4 class="life-balance-title" style="margin: 0.5rem 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ink);">If You Were Deaf</h4>
+<p class="life-balance-desc" style="margin: 0; font-size: 0.88rem; color: var(--muted); line-height: 1.5;">Navigating morning routines, sign language nuance, peripheral vision, and cosmic silence.</p>
+</div>
+<div class="life-balance-footer" style="padding: 1rem 1.5rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; background: #FAF7F2;">
+<span class="life-balance-date" style="font-size: 0.75rem; color: var(--muted);">28 October 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-deaf.html" style="font-size: 0.85rem; font-weight: 700; color: #4F46E5; text-decoration: none;">Explore Perspective →</a>
+</div>
+</div>
+
+<!-- If You Were Blind -->
+<div class="life-balance-card history-session" data-lang="en" data-level="b2 c1" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s;">
+<div class="life-balance-header" style="padding: 1.5rem 1.5rem 0.5rem; display: flex; justify-content: space-between; align-items: center;">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+<span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span>
+</div>
+<span class="life-balance-emoji">🔮</span>
+</div>
+<div class="life-balance-body" style="padding: 0 1.5rem 1.5rem; flex-grow: 1;">
+<h4 class="life-balance-title" style="margin: 0.5rem 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ink);">If You Were Blind</h4>
+<p class="life-balance-desc" style="margin: 0; font-size: 0.88rem; color: var(--muted); line-height: 1.5;">Experiencing forest walks, acoustic mapping, tactile clothing, and non-visual emotional intimacy.</p>
+</div>
+<div class="life-balance-footer" style="padding: 1rem 1.5rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; background: #FAF7F2;">
+<span class="life-balance-date" style="font-size: 0.75rem; color: var(--muted);">25 October 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-blind.html" style="font-size: 0.85rem; font-weight: 700; color: #4F46E5; text-decoration: none;">Explore Perspective →</a>
+</div>
+</div>
+
+<!-- If You Were a Teacher -->
+<div class="life-balance-card history-session" data-lang="en" data-level="b1 b2" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s;">
+<div class="life-balance-header" style="padding: 1.5rem 1.5rem 0.5rem; display: flex; justify-content: space-between; align-items: center;">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+<span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span>
+</div>
+<span class="life-balance-emoji">🔮</span>
+</div>
+<div class="life-balance-body" style="padding: 0 1.5rem 1.5rem; flex-grow: 1;">
+<h4 class="life-balance-title" style="margin: 0.5rem 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ink);">If You Were a Teacher</h4>
+<p class="life-balance-desc" style="margin: 0; font-size: 0.88rem; color: var(--muted); line-height: 1.5;">Handling assignment rebellions, professional classroom boundaries, school chaos, and grading reforms.</p>
+</div>
+<div class="life-balance-footer" style="padding: 1rem 1.5rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; background: #FAF7F2;">
+<span class="life-balance-date" style="font-size: 0.75rem; color: var(--muted);">22 October 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-teacher.html" style="font-size: 0.85rem; font-weight: 700; color: #4F46E5; text-decoration: none;">Explore Perspective →</a>
+</div>
+</div>
+
+<!-- If You Were a Child Again -->
+<div class="life-balance-card history-session" data-lang="en" data-level="a2 b1" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s;">
+<div class="life-balance-header" style="padding: 1.5rem 1.5rem 0.5rem; display: flex; justify-content: space-between; align-items: center;">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7; border:1px solid #F5CBA7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span>
+<span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span>
+</div>
+<span class="life-balance-emoji">🔮</span>
+</div>
+<div class="life-balance-body" style="padding: 0 1.5rem 1.5rem; flex-grow: 1;">
+<h4 class="life-balance-title" style="margin: 0.5rem 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ink);">If You Were a Child Again</h4>
+<p class="life-balance-desc" style="margin: 0; font-size: 0.88rem; color: var(--muted); line-height: 1.5;">Reclaiming play, cardboard box adventures, bedtime restrictions, and pocket money freedoms.</p>
+</div>
+<div class="life-balance-footer" style="padding: 1rem 1.5rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; background: #FAF7F2;">
+<span class="life-balance-date" style="font-size: 0.75rem; color: var(--muted);">18 October 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-child-again.html" style="font-size: 0.85rem; font-weight: 700; color: #4F46E5; text-decoration: none;">Explore Perspective →</a>
+</div>
+</div>
+
+<!-- If You Were a Parent to Yourself -->
+<div class="life-balance-card history-session" data-lang="en" data-level="c1" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s;">
+<div class="life-balance-header" style="padding: 1.5rem 1.5rem 0.5rem; display: flex; justify-content: space-between; align-items: center;">
+<div class="club-tag-container">
+<span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span>
+</div>
+<span class="life-balance-emoji">🔮</span>
+</div>
+<div class="life-balance-body" style="padding: 0 1.5rem 1.5rem; flex-grow: 1;">
+<h4 class="life-balance-title" style="margin: 0.5rem 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ink);">If You Were a Parent to Yourself</h4>
+<p class="life-balance-desc" style="margin: 0; font-size: 0.88rem; color: var(--muted); line-height: 1.5;">Healing teenage trauma, corrective self-discipline, generational echoes, and compassionate guidance.</p>
+</div>
+<div class="life-balance-footer" style="padding: 1rem 1.5rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; background: #FAF7F2;">
+<span class="life-balance-date" style="font-size: 0.75rem; color: var(--muted);">15 October 2026</span>
+<a class="life-balance-view" href="sessions/if-you-were/if-you-were-parent-to-yourself.html" style="font-size: 0.85rem; font-weight: 700; color: #4F46E5; text-decoration: none;">Explore Perspective →</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="club-sidebar">
+<div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+<h3 style="font-size: 1rem; margin-bottom: .5rem;">Specular Improv</h3>
+<p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Speculative thought-experiments force the brain to form complex syntactic pathways, expanding vocabulary with fluid creativity.</p>
+</div>
+</div>
+</div></section>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/data/pricing.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.filter-btn');
+  const sessions = document.querySelectorAll('.history-session');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const selectedLevel = btn.getAttribute('data-level');
+
+      sessions.forEach(sess => {
+        const levels = (sess.getAttribute('data-level') || '').split(' ');
+        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
+          sess.style.display = 'flex';
+        } else {
+          sess.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script></body>
+</html>
