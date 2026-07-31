@@ -49,7 +49,7 @@
                 "Once per evening you can say \"pass\". Without explanation.",
                 "Levels go from easy to difficult. Do not skip them.",
                 "And most importantly: this is a way to get to know a person whom you \"already know\".",
-                "Two-sided cards: Student and Family decks have a children-friendly side. Click/Tap the card to reveal the Adult-friendly side!"
+                "Two-sided cards: Student, Family, and Myself decks have a children-friendly side. Click/Tap the card to reveal the Adult-friendly side!"
             ],
             level_select_title: "Select Level 🗺️",
             level_select_desc: "Levels are carefully structured from safe and easy to deep and daring. Do not skip levels!",
@@ -89,7 +89,7 @@
                 "Раз за вечер можно сказать «пропускаю». Без объяснений.",
                 "Уровни идут от лёгких к трудным. Не перескакивайте.",
                 "И главное: это способ узнать человека, которого вы «и так знаете».",
-                "Двусторонние карты: в колодах студента и семьи есть детская сторона. Кликните на карту, чтобы открыть взрослую!"
+                "Двусторонние карты: в колодах студента, семьи и себя есть детская сторона. Кликните на карту, чтобы открыть взрослую!"
             ],
             level_select_title: "Выберите уровень 🗺️",
             level_select_desc: "Уровни идут от легких к трудным. Рекомендуется проходить их последовательно!",
@@ -129,7 +129,7 @@
                 "Une fois par soirée, vous pouvez dire « je passe ». Sans explication.",
                 "Les niveaux vont du plus facile au plus difficile. Ne sautez pas les étapes.",
                 "C'est une façon de découvrir une personne que vous « connaissez déjà ».",
-                "Cartes double-face: les paquets Élève et Famille ont une face enfant. Cliquez sur la carte pour révéler la face Adulte !"
+                "Cartes double-face: les paquets Élève, Famille et Moi-même ont une face enfant. Cliquez sur la carte pour révéler la face Adulte !"
             ],
             level_select_title: "Sélectionner le niveau 🗺️",
             level_select_desc: "Les niveaux sont structurés du plus simple au plus profond. Ne sautez pas les étapes !",
@@ -299,6 +299,7 @@
                         <option value="teacher" ${state.deckKey === 'teacher' ? 'selected' : ''}>🎓 ${esc(window.HUNDRED_QUESTIONS_DECKS.teacher.title[state.lang])}</option>
                         <option value="student" ${state.deckKey === 'student' ? 'selected' : ''}>🧑‍🎓 ${esc(window.HUNDRED_QUESTIONS_DECKS.student.title[state.lang])}</option>
                         <option value="family" ${state.deckKey === 'family' ? 'selected' : ''}>🏠 ${esc(window.HUNDRED_QUESTIONS_DECKS.family.title[state.lang])}</option>
+                        <option value="myself" ${state.deckKey === 'myself' ? 'selected' : ''}>🪞 ${esc(window.HUNDRED_QUESTIONS_DECKS.myself.title[state.lang])}</option>
                         <option value="civic" ${state.deckKey === 'civic' ? 'selected' : ''}>🧭 ${esc(window.HUNDRED_QUESTIONS_DECKS.civic.title[state.lang])}</option>
                         <option value="netflix" ${state.deckKey === 'netflix' ? 'selected' : ''}>🎬 ${esc(window.HUNDRED_QUESTIONS_DECKS.netflix.title[state.lang])}</option>
                         <option value="interview" ${state.deckKey === 'interview' ? 'selected' : ''}>💼 ${esc(window.HUNDRED_QUESTIONS_DECKS.interview.title[state.lang])}</option>
@@ -349,6 +350,17 @@
         const selectDeck = document.getElementById('s-deck');
         if (selectDeck) state.deckKey = selectDeck.value;
 
+        // Reset default subgroups when shifting decks
+        if (state.deckKey === 'myself') {
+            if (state.subgroup !== 'current' && state.subgroup !== 'past' && state.subgroup !== 'future') {
+                state.subgroup = 'current';
+            }
+        } else if (state.deckKey === 'family') {
+            if (state.subgroup !== 'mother' && state.subgroup !== 'father' && state.subgroup !== 'grandparents' && state.subgroup !== 'sibling') {
+                state.subgroup = 'mother';
+            }
+        }
+
         const container = document.getElementById('dynamic-fields-container');
         if (!container) return;
 
@@ -380,6 +392,29 @@
                     </select>
                 </div>
                 <div id="family-target-container"></div>
+            `;
+        } else if (state.deckKey === 'myself') {
+            let currentLbl = 'Current Self', pastLbl = 'Past Self', futureLbl = 'Future Self';
+            if (state.lang === 'ru') {
+                currentLbl = 'Настоящее я';
+                pastLbl = 'Прошлое я';
+                futureLbl = 'Будущее я';
+            } else if (state.lang === 'fr') {
+                currentLbl = 'Moi actuel';
+                pastLbl = 'Moi passé';
+                futureLbl = 'Moi futur';
+            }
+            fieldsHTML = `
+                <div class="setup-field" style="margin-bottom: 1.5rem;">
+                    <label style="font-weight: 700; margin-bottom: 0.5rem; display: block; font-size: 0.9rem; color: var(--ink-muted); text-transform: uppercase;">
+                        ${UI_TEXTS[state.lang].subgroup_lbl}
+                    </label>
+                    <select class="styled-sel" id="s-subgroup" style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--card-bg); color: var(--ink); font-size: 1rem; cursor: pointer;">
+                        <option value="current" ${state.subgroup === 'current' ? 'selected' : ''}>⏳ ${currentLbl}</option>
+                        <option value="past" ${state.subgroup === 'past' ? 'selected' : ''}>🕰️ ${pastLbl}</option>
+                        <option value="future" ${state.subgroup === 'future' ? 'selected' : ''}>🚀 ${futureLbl}</option>
+                    </select>
+                </div>
             `;
         } else if (state.deckKey === 'civic') {
             // Filter regions depending on selected language
@@ -437,6 +472,13 @@
             if (selectSubgroup) {
                 // Initialize default subgroup
                 state.subgroup = selectSubgroup.value;
+                selectSubgroup.addEventListener('change', () => {
+                    state.subgroup = selectSubgroup.value;
+                });
+            }
+        } else if (state.deckKey === 'myself') {
+            const selectSubgroup = document.getElementById('s-subgroup');
+            if (selectSubgroup) {
                 selectSubgroup.addEventListener('change', () => {
                     state.subgroup = selectSubgroup.value;
                 });
@@ -541,6 +583,7 @@
             const t = UI_TEXTS[state.lang];
             const body = document.getElementById('go-body');
             const deck = window.HUNDRED_QUESTIONS_DECKS[state.deckKey];
+            const levels = state.deckKey === 'myself' ? deck[state.subgroup].levels : deck.levels;
 
             body.innerHTML = `
                 <div class="levels-screen" style="max-width: 600px; margin: 0 auto; padding: 2rem 1rem;">
@@ -548,7 +591,7 @@
                     <p style="color: var(--ink-muted); margin-bottom: 2rem; text-align: center; font-size: 0.95rem; line-height: 1.4;">${t.level_select_desc}</p>
 
                     <div style="display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 2rem;">
-                        ${deck.levels.map((lvl, idx) => {
+                        ${levels.map((lvl, idx) => {
                             const name = lvl.name[state.lang] || lvl.name['en'] || 'Level';
                             return `
                                 <div class="lvl-card" onclick="COSY_GAME.startLevel(${idx})" style="background: var(--card-bg, rgba(255,255,255,0.7)); backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 16px; padding: 16px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: transform 0.2s, border-color 0.2s;">
@@ -578,7 +621,7 @@
         },
 
         toggleCardFlip() {
-            if (state.deckKey === 'student' || state.deckKey === 'family') {
+            if (state.deckKey === 'student' || state.deckKey === 'family' || state.deckKey === 'myself') {
                 state.cardFlipped = !state.cardFlipped;
                 COSY_GAME.renderQuestion();
             }
@@ -588,16 +631,16 @@
             const t = UI_TEXTS[state.lang];
             const body = document.getElementById('go-body');
             const deck = window.HUNDRED_QUESTIONS_DECKS[state.deckKey];
-            const level = deck.levels[state.currentLevelIdx];
+            const level = (state.deckKey === 'myself' ? deck[state.subgroup].levels : deck.levels)[state.currentLevelIdx];
             const q = level.questions[state.currentQuestionIdx];
 
             const lvlName = level.name[state.lang] || level.name['en'] || 'Level';
             const progressNum = state.currentQuestionIdx + 1;
             const progressMax = level.questions.length;
-            const globalNum = parseInt(level.range.split('–')[0]) + state.currentQuestionIdx;
+            const globalNum = parseInt(level.range.split(/[–-]/)[0]) + state.currentQuestionIdx;
 
             // Determine if card is two-sided and active side text
-            const hasTwoSides = (state.deckKey === 'student' || state.deckKey === 'family');
+            const hasTwoSides = (state.deckKey === 'student' || state.deckKey === 'family' || state.deckKey === 'myself');
             let qText = '';
 
             if (hasTwoSides) {
@@ -679,9 +722,9 @@
 
         speakQuestion() {
             const deck = window.HUNDRED_QUESTIONS_DECKS[state.deckKey];
-            const level = deck.levels[state.currentLevelIdx];
+            const level = (state.deckKey === 'myself' ? deck[state.subgroup].levels : deck.levels)[state.currentLevelIdx];
             const q = level.questions[state.currentQuestionIdx];
-            const hasTwoSides = (state.deckKey === 'student' || state.deckKey === 'family');
+            const hasTwoSides = (state.deckKey === 'student' || state.deckKey === 'family' || state.deckKey === 'myself');
 
             let qText = '';
             if (hasTwoSides) {
@@ -719,7 +762,7 @@
 
         nextQuestion() {
             const deck = window.HUNDRED_QUESTIONS_DECKS[state.deckKey];
-            const level = deck.levels[state.currentLevelIdx];
+            const level = (state.deckKey === 'myself' ? deck[state.subgroup].levels : deck.levels)[state.currentLevelIdx];
             if (state.currentQuestionIdx < level.questions.length - 1) {
                 state.currentQuestionIdx++;
                 state.cardFlipped = false; // Reset flip state
