@@ -213,6 +213,28 @@ VOCAB_FRENCH = {
     "Déchire": ("se déchirer, provoquer une douleur morale intense.", "Leur séparation lui déchire le cœur douloureusement."),
     "Détruit": ("anéantir, démolir complètement une relation ou un espoir.", "Ce malentendu a détruit leur complicité en quelques instants."),
     "Seul": ("qui n'est pas accompagné, isolé.", "On se sent souvent tout seul au milieu d'une foule immense."),
+
+    # La Zarra & Amel Bent extras
+    "La diva": ("chanteuse célèbre d'opéra ou de pop à la personnalité affirmée.", "La diva a captivé toute la salle dès son entrée."),
+    "La gloire": ("renommée éclatante et durable acquise par de grands mérites.", "Elle a connu la gloire internationale très jeune."),
+    "Le luxe": ("mode de vie caractérisé par de grandes dépenses et le raffinement.", "Cet hôtel offre un luxe et un confort incomparables."),
+    "Le masque": ("faux visage pour se déguiser ou cacher ses sentiments.", "Il porte toujours un masque pour dissimuler sa tristesse."),
+    "L'applaudissement": ("battement de mains en signe d'approbation ou d'admiration.", "Les applaudissements du public ont duré de longues minutes."),
+    "La rupture": ("fait de rompre une relation amoureuse ou amicale.", "Leur rupture s'est faite dans le respect mutuel."),
+    "Le voyage": ("déplacement dans des pays lointains pour le plaisir.", "Faire un voyage permet de s'ouvrir l'esprit."),
+    "La valise": ("bagage de forme rectangulaire pour transporter ses affaires.", "Elle a bouclé sa valise la veille de son grand départ."),
+    "L'horizon": ("ligne circulaire où la Terre et le ciel semblent se joindre.", "Le bateau a fini par disparaître à l'horizon."),
+    "L'illusion": ("interprétation erronée de la réalité, fausse croyance.", "Il s'est rendu compte que ses espoirs n'étaient qu'une illusion."),
+    "La trace": ("empreinte laissée par le passage de quelqu'un ou d'un événement.", "Ses pas ont laissé une trace profonde dans la neige fraîche."),
+    "La philosophie": ("recherche de la sagesse et réflexion sur le sens de la vie.", "Chacun devrait se construire sa propre philosophie."),
+    "Le poing": ("main fermée serrée énergiquement.", "Elle lève le poing pour exprimer sa détermination et sa lutte."),
+    "La différence": ("caractère qui distingue une personne d'une autre.", "Leur différence est une richesse pour le groupe."),
+    "La revanche": ("action de reprendre l'avantage après une défaite.", "Sa réussite est la plus belle des revanches sur son passé."),
+    "Viser": ("diriger son regard ou ses efforts vers un but précis.", "Il faut toujours viser haut pour réaliser ses ambitions."),
+    "Blesser": ("faire une blessure physique ou faire de la peine moralement.", "Ses paroles dures ont fini par la blesser profondément."),
+    "Le sacrifice": ("renoncement volontaire à quelque chose d'important.", "Réussir ce projet a demandé beaucoup de sacrifices."),
+    "La colère": ("violent mécontentement accompagné d'agressivité.", "Il a réussi à calmer sa colère avant de lui répondre."),
+    "Le sourire": ("expression du visage marquant la joie ou la bienveillance.", "Son sourire chaleureux a mis tout le monde à l'aise."),
 }
 
 # Standardized Opposites specifically for these French words

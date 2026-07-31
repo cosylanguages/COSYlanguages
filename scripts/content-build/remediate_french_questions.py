@@ -440,5 +440,66 @@ SONG_QUESTIONS = {
             "La proximité physique constante imposée par les grandes villes et les réseaux sociaux a en réalité détruit la véritable intimité humaine. Qu'en pensez-vous ?",
             "La tendresse et l'empathie sont les forces les plus puissantes pour guérir la douleur et les divisions de notre société moderne. Discutons-en."
         ]
+    },
+
+    "diva": {
+        "sensitive": True,
+        "r1": [
+            ("Le monde entier l’appelle la diva : pourquoi le personnage s’enferme-t-il dans ce rôle de diva ? Est-ce une protection contre sa vulnérabilité ?", "★ Avez-vous déjà adopté une attitude froide ou détachée pour cacher vos faiblesses ?"),
+            ("La solitude est sa seule amie : comment la célébrité peut-elle accentuer le sentiment d’isolement au lieu de l’atténuer ?", "★ Vous sentez-vous parfois plus seul(e) au milieu d’une foule que lorsque vous êtes vraiment isolé(e) ?"),
+            ("Elle court après la gloire : quel prix le personnage paie-t-il pour cette renommée constante ?", "★ Est-ce que le désir de reconnaissance publique en vaut la peine selon vous ?"),
+            ("Son destin s’écrit sous les projecteurs : est-ce le destin ou ses propres choix qui l’ont menée à cette vie publique ?", "★ Croyez-vous que votre destin est déjà écrit ou que vous le construisez à chaque pas ?"),
+            ("Sa fierté ne la quitte jamais : comment la fierté peut-elle devenir un obstacle à l’aide ou à la vraie connexion avec autrui ?", "★ Laquelle de vos réussites personnelles vous remplit de la plus grande fierté aujourd’hui ?"),
+            ("Entourée de luxe et de satin : le luxe peut-il compenser le vide affectif que traverse l’artiste ?", "★ Accordez-vous de l’importance aux objets matériels lorsque vous traversez une période difficile ?"),
+            ("Elle porte un masque pour chanter : pourquoi est-il si difficile pour une personne publique de retirer son masque social ?", "★ Dans quelles situations portez-vous un « masque » pour faire face aux attentes des autres ?"),
+            ("Sur scène, elle oublie tout : quel rôle libérateur la performance artistique joue-t-elle pour le personnage de la chanson ?", "★ Quelle activité ou passion vous permet d’oublier complètement tous vos soucis quotidiens ?"),
+            ("Elle vit pour les applaudissements : l’approbation constante des autres peut-elle developper une addiction psychologique dangereuse ?", "★ Est-ce que la validation extérieure (comme les mentions d''aime' en ligne) influence votre humeur ?"),
+            ("Sa tristesse brille sous sa joie de façade : comment analyser ce contraste saisissant entre l’éclat extérieur et la détresse intérieure ?", "★ Arrivez-vous à détecter la tristesse chez un ami même s’il affiche une grande joie ?")
+        ],
+        "r2": [
+            "La célébrité moderne est intrinsèquement destructrice pour la santé mentale de l’individu.",
+            "L’art authentique naît toujours d’une profonde souffrance personnelle.",
+            "Nous devrions tous être prêts à sacrifier une partie de notre vie privée pour atteindre nos objectifs professionnels les plus élevés."
+        ]
+    },
+    "tu-ten-iras": {
+        "sensitive": False,
+        "r1": [
+            ("Le départ approche, tu t’en iras : comment la certitude d’un départ imminent change-t-elle l’intensité du moment présent ?", "★ Comment vivez-vous les transitions et les grands départs dans votre propre existence ?"),
+            ("La rupture est inévitable : pourquoi certaines relations doivent-elles prendre fin pour que chacun puisse continuer à grandir ?", "★ Pensez-vous qu’il soit possible de rester ami(e) avec quelqu’un après une rupture ?"),
+            ("Tu partiras sans regret : est-il vraiment possible de quitter une étape importante de sa vie sans ressentir aucun regret ?", "★ Quel est le regret le plus précieux qui vous a appris une grande leçon de vie ?"),
+            ("Ton voyage commence ce soir : en quoi le voyage vers l’inconnu est-il une métaphore de la découverte de soi ?", "★ Quel voyage a eu l’impact le plus marquant sur votre vision du monde ?"),
+            ("Tu as bouclé ta valise : que représente symboliquement le fait de ne garder que l’essentiel dans ses bagages ?", "★ Si vous deviez partir demain pour toujours, quels objets mettriez-vous en priorité dans votre valise ?"),
+            ("Regarde vers l’horizon : pourquoi l’horizon suscite-t-il à la fois de l’espoir et de l’anxiété face à l’avenir ?", "★ Quels sont vos projets ou vos rêves les plus chers qui se profilent à l’horizon ?"),
+            ("Notre amour n’était qu’une illusion : comment faire la différence entre un amour authentique et une simple illusion passagère ?", "★ Avez-vous déjà été déçu(e) par une situation que vous aviez trop idéalisée ?"),
+            ("Tu as oublié ta promesse : pourquoi est-il parfois plus sage de rompre une promesse plutôt que de s’y tenir à tout prix ?", "★ Quelle est la promesse la plus importante que vous ayez jamais tenue envers vous-même ?"),
+            ("Ne laisser aucune trace : pourquoi vouloir effacer ses traces après un départ ? Est-ce un désir de liberté totale ?", "★ Quelle trace ou quel héritage aimeriez-vous laisser derrière vous dans ce monde ?"),
+            ("Ton destin t’appelle ailleurs : peut-on vraiment échapper à son destin en partant loin ?", "★ Prenez-vous vos décisions de vie de façon intuitive ou rationnelle ?")
+        ],
+        "r2": [
+            "Le véritable amour exige de laisser partir l’autre lorsqu’il ne partage plus notre chemin.",
+            "La nostalgie du passé nous empêche de vivre pleinement les opportunités du présent.",
+            "Pour être totalement libre, l’être humain doit n’avoir aucune attache matérielle ou géographique."
+        ]
+    },
+    "ma-philosophie": {
+        "sensitive": False,
+        "r1": [
+            ("C’est ma philosophie : comment se forme la philosophie personnelle d’un individu face aux épreuves de la vie ?", "★ Quelle phrase ou quelle idée résume le mieux votre propre philosophie de vie actuelle ?"),
+            ("Le poing levé, sans concession : que symbolise le geste du poing levé dans la lutte sociale et personnelle pour l’affirmation de soi ?", "★ Pour quelles causes seriez-vous prêt(e) à lever le poing et à vous mobiliser activement ?"),
+            ("Garder ma différence : pourquoi la société pousse-t-elle souvent à la conformité au lieu de célébrer nos différences ?", "★ Quelle différence chez vous considérez-vous aujourd’hui comme une force et non une faiblesse ?"),
+            ("Prendre ma revanche sur la vie : est-ce que le désir de revanche personnelle est un moteur sain ou toxique pour réussir ?", "★ Avez-vous déjà transformé une déception ou un rejet en une puissante motivation à réussir ?"),
+            ("Ma force est aussi ma faiblesse : comment nos plus grandes faiblesses peuvent-elles devenir nos forces les plus précieuses ?", "★ Dans quels moments avez-vous découvert une force intérieure que vous ne soupçonniez pas ?"),
+            ("Viser la lune, ça ne me fait pas peur : pourquoi est-il essentiel de fixer des objectifs ambitieux même s’ils semblent inaccessibles ?", "★ Quel est l’objectif le plus audacieux (votre « lune ») que vous essayez d’atteindre actuellement ?"),
+            ("Sans jamais blesser personne : comment poursuivre ses rêves avec détermination tout en veillant à ne pas nuire aux autres ?", "★ Comment gérez-vous la critique constructive sans vous sentir blessé(e) personnellement ?"),
+            ("Malgré les sacrifices requis : quels sacrifices sont légitimes lorsqu’on cherche à réaliser son projet de vie ?", "★ Quel est le plus grand sacrifice que vous ayez consenti pour vos études ou votre carrière ?"),
+            ("Transformer ma colère en énergie : de quelle manière peut-on canaliser la colère pour en faire une force créatrice et positive ?", "★ Que faites-vous pour évacuer ou transformer votre colère lorsque vous vous sentez frustré(e) ?"),
+            ("Garder le sourire malgré tout : le sourire peut-il être un outil de résistance face à l’adversité et au mépris des autres ?", "★ Qu’est-ce qui parvient à vous redonner le sourire dans les moments difficiles ?")
+        ],
+        "r2": [
+            "Le mérite personnel et le travail acharné suffisent toujours à surmonter les obstacles sociaux.",
+            "Viser des objectifs trop élevés est le moyen le plus sûr de se condamner à la frustration.",
+            "Pour s’intégrer dans la société moderne, il est nécessaire de dissimuler sa véritable identité."
+        ]
     }
 }

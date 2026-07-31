@@ -28,10 +28,14 @@ GENIUS_URLS = {
     "le-monde-est-stone": "https://www.paroles.net/starmania/paroles-le-monde-est-stone",
     "un-garcon-pas-comme-les-autres": "https://www.paroles.net/starmania/paroles-un-garcon-pas-comme-les-autres-ziggy",
     "les-uns-contre-les-autres": "https://genius.com/Fabienne-thibeault-les-uns-contre-les-autres-lyrics",
-    "toutes-les-machines-ont-le-coeur": "https://genius.com/Maelle-toutes-les-machines-ont-le-coeur-lyrics"
+    "toutes-les-machines-ont-le-coeur": "https://genius.com/Maelle-toutes-les-machines-ont-le-coeur-lyrics",
+    "diva": "https://genius.com/La-zarra-diva-lyrics",
+    "tu-ten-iras": "https://genius.com/La-zarra-tu-ten-iras-lyrics",
+    "ma-philosophie": "https://genius.com/Amel-bent-ma-philosophie-lyrics"
 }
 
 SENSITIVE_WARNINGS = {
+    "diva": "Cette chanson de La Zarra aborde les thèmes de la célébrité, de la solitude de l'artiste et du luxe comme refuge émotionnel. Veuillez mener cette discussion avec respect et écoute bienveillante.",
     "balance-ton-quoi": "Cette chanson d'Angèle dénonce le sexisme ordinaire, le harcèlement de rue et revendique le respect et l'égalité des genres. Veuillez aborder cette discussion avec maturité, respect et écoute bienveillante.",
     "laziza": "Ce titre de Daniel Balavoine est un hymne à la tolérance, célébrant l'amour interculturel contre le racisme et l'exclusion. Nous vous invitons à échanger avec respect, ouverture d'esprit et empathie.",
     "leffet-de-masse": "Cette œuvre poignante aborde le harcèlement scolaire, la pression du groupe et l'isolement des adolescents. La discussion requiert une grande délicatesse, une écoute respectueuse et beaucoup d'empathie.",
@@ -460,7 +464,10 @@ if __name__ == "__main__":
         'la-complainte-de-la-serveuse-automate.html',
         'le-monde-est-stone.html',
         'un-garcon-pas-comme-les-autres.html',
-        'les-uns-contre-les-autres.html'
+        'les-uns-contre-les-autres.html',
+        'diva.html',
+        'tu-ten-iras.html',
+        'ma-philosophie.html'
     ]
     for f in files:
         process_song_file(f)
@@ -473,7 +480,8 @@ if __name__ == "__main__":
         "fabienne-thibeault-challenge": [
             "la-complainte-de-la-serveuse-automate", "le-monde-est-stone",
             "un-garcon-pas-comme-les-autres", "les-uns-contre-les-autres"
-        ]
+        ],
+        "la-zarra-challenge": ["diva", "tu-ten-iras"]
     }
 
     for c_slug, subs in challenges.items():
@@ -500,7 +508,10 @@ if __name__ == "__main__":
         "la-complainte-de-la-serveuse-automate.html": "Déconstruisez la routine, l'aliénation et les rêves simples dans cette touchante ballade acoustique de Starmania.",
         "le-monde-est-stone.html": "Analysez l'épuisement, le désespoir et l'engourdissement existentiel dans ce magnifique et dramatique chef-d'œuvre de Starmania.",
         "un-garcon-pas-comme-les-autres.html": "Discutez de l'amour non partagé, des attractions interdites et de l'amitié profonde dans ce classique emblématique de Starmania.",
-        "les-uns-contre-les-autres.html": "Déconstruisez la connexion réciproque et la solitude existentielle dans ce magnifique et touchant morceau."
+        "les-uns-contre-les-autres.html": "Déconstruisez la connexion réciproque et la solitude existentielle dans ce magnifique et touchant morceau.",
+        "diva.html": "Discutez de la célébrité, de l'artifice, de l'isolement sous les projecteurs et de la mélancolie cachée dans ce titre puissant de La Zarra.",
+        "tu-ten-iras.html": "Analysez le départ, la rupture, le voyage vers la liberté et l'effacement volontaire des traces du passé avec La Zarra.",
+        "ma-philosophie.html": "Découvrez le pouvoir de la résilience, de l'acceptation de soi, de la dignité et de l'affirmation de soi dans l'hymne emblématique d'Amel Bent."
     }
 
     parent_path = "events/karaoke-club.html"
