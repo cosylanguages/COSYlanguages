@@ -11,6 +11,30 @@ from master_lyrics import LYRICS_DATA
 
 # Proposed overarching themes mapped by song slug and language
 SONG_THEMES = {
+    "couleur": {
+        "en": "Diversity, Identity & Social Justice",
+        "fr": "Diversité, Identité & Justice Sociale"
+    },
+    "speed": {
+        "en": "Rebirth, Resilience & Emotional Healing",
+        "fr": "Renaissance, Résilience & Guérison Émotionnelle"
+    },
+    "je-suis-un-homme": {
+        "en": "Human Nature, Consumerism & Environment",
+        "fr": "Nature humaine, Consommation & Environnement"
+    },
+    "fovame": {
+        "en": "Fear, Vulnerability & Intense Passion",
+        "el": "Φόβος, Ευαλωτότητα & Έντονο Πάθος"
+    },
+    "zazie-challenge": {
+        "en": "Identity, Humanity & Healing",
+        "fr": "Identité, Humanité & Guérison"
+    },
+    "mple-challenge": {
+        "en": "Vulnerability, Obsession & Passion",
+        "el": "Ευαλωτότητα, Εμμονή & Πάθος"
+    },
     "leffet-de-masse": {
         "en": "Peer Pressure & Isolation",
         "fr": "Effet de masse & Isolement"
@@ -379,6 +403,8 @@ SONG_THEMES = {
 
 # Challenge map defining which individual songs constitute each challenge
 CHALLENGE_MAP = {
+    "zazie-challenge": ("nos-ames-sont", "couleur", "speed", "je-suis-un-homme"),
+    "mple-challenge": ("to-idio-to-theo", "fovame"),
     "maelle-challenge": ("toutes-les-machines-ont-le-coeur", "je-taime-comme-je-taime"),
     "abba-challenge": ("me-and-i", "angeleyes"),
     "arletta-challenge": ("kapoies-nychtes", "o-gatos"),
@@ -405,6 +431,10 @@ CHALLENGE_MAP = {
 }
 
 SONG_LINKS = {
+    "couleur": "https://www.youtube.com/watch?v=km3T0wSr4F8",
+    "speed": "https://www.youtube.com/watch?v=LA7T0GSjzg0",
+    "je-suis-un-homme": "https://www.youtube.com/watch?v=oSIoP7h4B_M",
+    "fovame": "https://www.youtube.com/watch?v=aaQcgyToH1Y",
     "leffet-de-masse": "https://www.youtube.com/watch?v=6zUxsrJqg14",
     "ouvrir-les-yeux": "https://www.youtube.com/watch?v=mk8GXdUGGjo",
     "seventeen": "https://www.youtube.com/watch?v=jg3z-Dw6Bpo",
@@ -637,6 +667,21 @@ LOCALIZATIONS_NEW = {
 
 # Standardized opposites database
 OPPOSITES_MAP = {
+    "Le sauvage": "Le civilisé",
+    "Réveiller": "S'endormir",
+    "Libre": "Prisonnier",
+    "Le corps": "L'esprit",
+    "La cage": "La liberté",
+    "L'homme": "La femme",
+    "La Terre": "Le ciel",
+    "L'ambition": "La résignation",
+    "La révolution": "Le statu quo",
+    "La prison": "La liberté",
+    "La consommation": "La sobriété",
+    "Le maître": "L'esclave",
+    "Λιώνω": "Παγώνω",
+    "Η ψυχή": "Το σώμα",
+    "Ο χρόνος": "Η αιωνιότητα",
     "La classe": "Le dehors",
     "L'histoire": "L'oubli",
     "La masse": "L'individu",
@@ -1199,6 +1244,86 @@ OPPOSITES_MAP = {
 
 # Standardized Language Focus points
 LANGUAGE_FOCUS_DB = {
+    "couleur": {
+        "en": {
+            "title": "French Relative Pronouns ('qui', 'que') & Accent-insensitive Expressiveness",
+            "explanation": "In French, relative pronouns 'qui' (for subjects) and 'que' (for direct objects) are essential for linking ideas about identity and social justice without repeating nouns.",
+            "examples": [
+                "Je suis de la couleur de l'espoir qui veille les morts.",
+                "Ce monde que je ne peux plus voir en peinture doit changer.",
+                "La musique adoucit les mœurs des hommes qui font la guerre."
+            ]
+        },
+        "fr": {
+            "title": "Les Pronoms Relatifs ('qui', 'que') et l'expression de l'identité",
+            "explanation": "En français, les pronoms relatifs 'qui' (sujet) et 'que' (complément d'objet direct) permettent de relier des propositions pour exprimer des idées complexes sur la diversité et la justice sociale.",
+            "examples": [
+                "Je suis de la couleur de l'espoir qui veille les morts.",
+                "Ce monde que je ne peux plus voir en peinture doit changer.",
+                "La musique adoucit les mœurs des hommes qui font la guerre."
+            ]
+        }
+    },
+    "speed": {
+        "en": {
+            "title": "The French Imperative Mood for Powerful Encouragement ('Allez', 'Réveille-toi')",
+            "explanation": "The song 'Speed' relies heavily on the French imperative mood to urge someone (or one's own heart) to wake up and live fully. Pronominal verbs use reflexive pronouns after the verb in affirmative commands.",
+            "examples": [
+                "Allez, debout, réveille-toi et sors de ta caverne !",
+                "Quitte ce corps sage et bats plus vite que ton âge.",
+                "Allez hop, speede encore et fais vibrer ton cœur."
+            ]
+        },
+        "fr": {
+            "title": "L'Impératif pour exprimer l'encouragement ('Allez', 'Réveille-toi')",
+            "explanation": "La chanson 'Speed' utilise intensément l'impératif pour inciter à la renaissance émotionnelle. Notez l'utilisation du pronom réfléchi après le verbe ('réveille-toi').",
+            "examples": [
+                "Allez, debout, réveille-toi et sors de ta caverne !",
+                "Quitte ce corps sage et bats plus vite que ton âge.",
+                "Allez hop, speede encore et fais vibrer ton cœur."
+            ]
+        }
+    },
+    "je-suis-un-homme": {
+        "en": {
+            "title": "The Present Indicative of Universal Habit & Repetitive Action ('tourner en rond')",
+            "explanation": "In French, we use the present indicative to describe continuous habits, universal states, and repetitive routines. The idiomatic expression 'tourner en rond' translates to going in circles.",
+            "examples": [
+                "Je suis un homme de Cro-Magnon qui tourne en rond sur la Terre.",
+                "Je fais l'amour et la révolution dans ce monde moderne.",
+                "L'homme mesure toute l'horreur de sa nature et de ses limites."
+            ]
+        },
+        "fr": {
+            "title": "Le Présent de l'Indicatif d'habitude et l'expression figurative",
+            "explanation": "La chanson décrit la condition humaine répétitive à l'aide du présent de l'indicatif d'habitude et de l'expression figurative 'tourner en rond' (agir sans progresser).",
+            "examples": [
+                "Je suis un homme de Cro-Magnon qui tourne en rond sur la Terre.",
+                "Je fais l'amour et la révolution dans ce monde moderne.",
+                "L'homme mesure toute l'horreur de sa nature et de ses limites."
+            ]
+        }
+    },
+    "fovame": {
+        "en": {
+            "title": "Greek Present Tense for Intense Emotional Vulnerability ('Φοβάμαι', 'Λιώνω')",
+            "explanation": "Greek verbs expressing immediate physical or psychological transformation like 'φοβάμαι' (to fear) and 'λιώνω' (to melt) use the present tense to convey highly passionate, current states of affection.",
+            "examples": [
+                "Φοβάμαι πολύ όταν είσαι μακριά μου.",
+                "Λιώνω στην αγκαλιά σου κάθε φορά που με κοιτάζεις.",
+                "Σβήνω το όνομά σου από το ημερολόγιό μου για να σε ξεχάσω."
+            ]
+        },
+        "el": {
+            "title": "Η χρήση του Ενεστώτα για την έκφραση της συναισθηματικής ευαλωτότητας",
+            "explanation": "Στα ελληνικά, ρήματα όπως το 'φοβάμαι' και το 'λιώνω' στον Ενεστώτα εκφράζουν άμεσα και έντονα τη συναισθηματική κατάσταση και το πάθος της στιγμής.",
+            "examples": [
+                "Φοβάμαι πολύ όταν είσαι μακριά μου.",
+                "Λιώνω στην αγκαλιά σου κάθε φορά που με κοιτάζεις.",
+                "Σβήνω το όνομά σου από το ημερολόγιό μου για να σε ξεχάσω."
+            ]
+        }
+    },
     "mixed-up-world": {
         "en": {
             "title": "Adjectival Participles ('mixed-up') & Relatives",
@@ -1470,6 +1595,22 @@ LANGUAGE_FOCUS_DB = {
 
 # Standardized Final Challenges
 FINAL_CHALLENGE_DB = {
+    "couleur": {
+        "en": "A Song of Unity: Work in pairs to design a collaborative piece of art or a short poem about hope and equality. How can music serve as a bridge to overcome violence and prejudice?",
+        "fr": "Un chant d'union : Travaillez en binôme pour concevoir une œuvre d'art collective ou un court poème sur l'espoir et l'égalité. Comment la musique peut-elle servir de pont pour surmonter les préjugés ?"
+    },
+    "speed": {
+        "en": "The Heart's Revival: Role-play a dialogue between a supportive friend and someone who has been isolating themselves in their 'cavern' for months. Encourage them to step outside and start living again.",
+        "fr": "Le réveil du cœur : Jouez un dialogue entre un ami bienveillant et une personne qui s'isole dans sa 'caverne' depuis des mois. Encouragez-la à sortir et à recommencer à vivre."
+    },
+    "je-suis-un-homme": {
+        "en": "The Ecological Debate: Conduct a 3-minute discussion on our modern habits of consumption. How can we break free from our daily 'prisons of gold and concrete' to better respect the Earth?",
+        "fr": "Le débat écologique : Menez une discussion de 3 minutes sur nos habitudes de consommation moderne. Comment pouvons-nous sortir de nos 'prisons d'or et de béton' quotidiennes pour mieux respecter la Terre ?"
+    },
+    "fovame": {
+        "en": "Facing the Fear: Work in pairs. Role-play a conversation where one person admits their deep fears of getting too close or losing themselves in a new relationship, and the other offers warm reassurances.",
+        "el": "Αντιμετωπίζοντας τον Φόβο: Δουλέψτε σε ζευγάρια. Παίξτε έναν ρόλο όπου ο ένας εξομολογείται τον φόβο του να δεθεί ή να χάσει τον εαυτό του σε μια νέα σχέση, και ο άλλος τον καθησυχάζει με αγάπη."
+    },
     "california-dreaming": {
         "en": "The Escape Plan: Work in pairs to describe an ideal, sunny escape destination. Imagine you are stuck in a cold winter town—where would you go, and what would you do once you got there?"
     },
@@ -1550,6 +1691,31 @@ FINAL_CHALLENGE_DB = {
 
 
 VOCAB_DB = {
+    "La couleur": ("perception visuelle de la lumière réfléchie par les objets.", "Le peintre utilise une grande variété de couleurs pour sa toile."),
+    "Le gène": ("unité d'information génétique transmise par les parents.", "Elle a hérité du gène de la créativité de sa mère."),
+    "La peau": ("enveloppe externe du corps humain ou animal.", "La crème hydrate et protège la peau contre le froid."),
+    "Le drapeau": ("pièce d'étoffe attachée à une hampe, symbole d'un pays ou d'une cause.", "Le drapeau flottait fièrement au-dessus de la mairie."),
+    "Le sauvage": ("qui vit à l'état de nature, non civilisé ou indompté.", "La forêt sauvage abrite de nombreuses espèces d'oiseaux."),
+    "Hiberner": ("passer l'hiver dans un état d'engourdissement ou de sommeil.", "L'ours se retire dans sa caverne pour hiberner tout l'hiver."),
+    "La caverne": ("cavité naturelle et profonde dans la roche ou la montagne.", "Les explorateurs ont découvert une ancienne peinture dans la caverne."),
+    "Vibrer": ("frémir, osciller rapidement ou ressentir une vive émotion.", "Son cœur se met à vibrer d'excitation en montant sur scène."),
+    "Réveiller": ("sortir du sommeil, ramener à l'activité ou à la conscience.", "Le chant des oiseaux vient la réveiller doucement chaque matin."),
+    "Le corps": ("enveloppe physique et matérielle de l'être humain.", "Faire du sport régulièrement est excellent pour le corps et l'esprit."),
+    "La cage": ("structure fermée par des barreaux pour enfermer des animaux ou contraindre.", "L'oiseau s'est échappé de sa cage pour retrouver la liberté."),
+    "L'homme": ("être humain de sexe masculin, ou l'espèce humaine en général.", "L'homme moderne doit réapprendre à respecter son environnement."),
+    "La Terre": ("notre planète, le globe terrestre sur lequel nous vivons.", "Il faut protéger la Terre pour les générations futures."),
+    "La saison": ("chacune des quatre périodes de l'année.", "Le printemps est ma saison préférée pour me promener en forêt."),
+    "L'ambition": ("désir ardent de réussite, de pouvoir ou d'honneurs.", "Son ambition professionnelle l'a poussé à monter son entreprise."),
+    "La révolution": ("changement brusque et profond dans la structure politique ou sociale.", "La révolution industrielle a profondément modifié nos modes de vie."),
+    "L'illusion": ("apparence trompeuse, perception fausse de la réalité.", "Ce mirage dans le désert n'était qu'une simple illusion d'optique."),
+    "La prison": ("lieu de détention pour les personnes condamnées ou privées de liberté.", "Il se sent comme dans une prison dorée dans ce grand bureau."),
+    "La consommation": ("action d'utiliser ou de détruire des biens et des services.", "La société de consommation nous pousse à acheter sans cesse."),
+    "Le maître": ("personne qui domine, dirige ou possède l'autorité.", "L'homme s'est cru le maître de la nature pendant trop longtemps."),
+    "Φοβάμαι": ("αισθάνομαι φόβο, ανησυχία ή δισταγμό.", "Φοβάμαι το σκοτάδι όταν είμαι μόνος στο σπίτι."),
+    "Τα μαλλιά": ("οι τρίχες που μεγαλώνουν στο κεφάλι του ανθρώπου.", "Τα μαλλιά της είναι μακριά και καστανά."),
+    "Η στιγμή": ("μια πολύ μικρή χρονική διάρκεια, ένα σύντομο διάστημα.", "Κράτησε αυτή τη στιγμή στη μνήμη σου για πάντα."),
+    "Μεθάω": ("χάνω τον έλεγχο λόγω κατανάλωσης αλκοόλ, ή νιώθω έντονη ζάλη από έρωτα.", "Μεθάω από ευτυχία όταν σε βλέπω να χαμογελάς."),
+    "Λιώνω": ("γίνομαι υγρός από τη ζέστη, ή καταβάλλομαι από έντονο συναίσθημα.", "Λιώνω στην αγκαλιά σου κάθε φορά που με κρατάς."),
     "Scream": ("give a long, loud, piercing cry, expressing extreme emotion or pain.", "The scary movie made her scream in terror."),
     "Jekyll": ("representing the good or moral side of a dual personality (from Jekyll and Hyde).", "He showed his gentle Jekyll side by helping the elderly lady."),
     "Hyde": ("representing the dark, wild, or destructive side of a dual personality.", "When he is angry, his aggressive Hyde personality takes over."),
@@ -3736,6 +3902,42 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     }
 
 NEW_SONGS_METADATA = {
+    "couleur": {
+        "title": "Couleur",
+        "artist": "Zazie",
+        "level": "B2",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Diversity, Identity & Social Justice",
+        "vocab": ["Le gène", "La couleur", "La peau", "L'espoir", "La guerre", "La violence", "La musique", "Le drapeau", "Le cœur", "Le sauvage"]
+    },
+    "speed": {
+        "title": "Speed",
+        "artist": "Zazie",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Rebirth, Resilience & Emotional Healing",
+        "vocab": ["Dormir", "Hiberner", "La caverne", "Vibrer", "Battre", "Réveiller", "Libre", "Le corps", "La cage", "Le cœur"]
+    },
+    "je-suis-un-homme": {
+        "title": "Je suis un homme",
+        "artist": "Zazie",
+        "level": "B2",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Human Nature, Consumerism & Environment",
+        "vocab": ["L'homme", "La Terre", "La saison", "L'ambition", "La révolution", "L'illusion", "La prison", "La consommation", "Le maître", "La nature"]
+    },
+    "fovame": {
+        "title": "Φοβάμαι",
+        "artist": "Μπλε",
+        "level": "B1",
+        "lang": "el",
+        "variety": "Greek",
+        "focus": "Fear, Vulnerability & Intense Passion",
+        "vocab": ["Φοβάμαι", "Τα μαλλιά", "Η στιγμή", "Μεθάω", "Λιώνω", "Κοντά", "Μακριά", "Το φιλί", "Η ψυχή", "Ο χρόνος"]
+    },
     "leffet-de-masse": {
         "title": "L'effet de masse",
         "artist": "Maëlle",
@@ -4038,6 +4240,10 @@ NEW_SONGS_METADATA = {
 # STEP 1: Parse all songs dynamically from their existing files
 
 COMPLETE_SONG_VOCAB = {
+    "couleur": ["Le gène", "La couleur", "La peau", "L'espoir", "La guerre", "La violence", "La musique", "Le drapeau", "Le cœur", "Le sauvage"],
+    "speed": ["Dormir", "Hiberner", "La caverne", "Vibrer", "Battre", "Réveiller", "Libre", "Le corps", "La cage", "Le cœur"],
+    "je-suis-un-homme": ["L'homme", "La Terre", "La saison", "L'ambition", "La révolution", "L'illusion", "La prison", "La consommation", "Le maître", "La nature"],
+    "fovame": ["Φοβάμαι", "Τα μαλλιά", "Η στιγμή", "Μεθάω", "Λιώνω", "Κοντά", "Μακριά", "Το φιλί", "Η ψυχή", "Ο χρόνος"],
     "leffet-de-masse": ["La classe", "L'histoire", "La masse", "Isoler", "L'idiot", "Le bureau", "Le regard", "Meilleur", "La rue", "Le couloir"],
     "ouvrir-les-yeux": ["Le cœur", "Désespoir", "La mémoire", "Prisonnière", "Le monde", "Seule", "Froid", "Oublier", "La chaleur", "Le ciel"],
     "seventeen": ["damaged", "normal", "special", "different", "movies", "summer", "dancing", "tonight", "choose", "right"],
@@ -4162,6 +4368,24 @@ for slug in sorted(LYRICS_DATA.keys()):
 
 # STEP 2: Parse all 11 challenges dynamically from their existing files
 NEW_CHALLENGES_METADATA = {
+    "zazie-challenge": {
+        "title": "Zazie Challenge",
+        "artist": "Zazie",
+        "level": "B2",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Identity, Humanity & Healing",
+        "vocab": []
+    },
+    "mple-challenge": {
+        "title": "Mple Challenge",
+        "artist": "Μπλε",
+        "level": "B2",
+        "lang": "el",
+        "variety": "Greek",
+        "focus": "Vulnerability, Obsession & Passion",
+        "vocab": []
+    },
     "fabienne-thibeault-challenge": {
         "title": "Fabienne Thibeault Challenge",
         "artist": "Fabienne Thibeault",
@@ -4506,15 +4730,15 @@ for song in all_karaoke_data:
     level_long = "Intermediate (B1)" if level_short == "B1" else ("Beginner (A2)" if level_short == "A2" else ("Upper Intermediate (B2)" if level_short == "B2" else "Advanced (C1)"))
 
     if song["lang"] == "fr":
-        level_long = "Intermédiaire (B1)" if level_short == "B1" else ("Débutant (A2)" if level_short == "A2" else "Intermédiaire Supérieur (B2)")
+        level_long = "Intermédiaire (B1)" if level_short == "B1" else ("Débutant (A2)" if level_short == "A2" else ("Intermédiaire Supérieur (B2)" if level_short == "B2" else "Avancé (C1)"))
     elif song["lang"] == "ru":
-        level_long = "Средний (B1)"
+        level_long = "Средний (B1)" if level_short == "B1" else ("Выше среднего (B2)" if level_short == "B2" else "Продвинутый (C1)")
     elif song["lang"] == "it":
-        level_long = "Intermedio (B1)"
+        level_long = "Intermedio (B1)" if level_short == "B1" else ("Intermedio Superiore (B2)" if level_short == "B2" else "Avanzato (C1)")
     elif song["lang"] == "es":
-        level_long = "Intermedio (B1)"
+        level_long = "Intermedio (B1)" if level_short == "B1" else ("Intermedio Superior (B2)" if level_short == "B2" else "Avanzado (C1)")
     elif song["lang"] == "el":
-        level_long = "Μεσαίο (B1)" if level_short == "B1" else "Στοιχειώδες (A2)"
+        level_long = "Μεσαίο (B1)" if level_short == "B1" else ("Στοιχειώδες (A2)" if level_short == "A2" else ("Ανώτερο Μεσαίο (B2)" if level_short == "B2" else "Προχωρημένο (C1)"))
 
     lang = song["lang"]
     variety_lang = song["variety_lang"] if "variety_lang" in song else song.get("variety", "English")

@@ -5261,7 +5261,7 @@ Mais au bout du compte
 On se rend compte
 Qu'on est toujours tout seul au monde
 
-On danse les uns avec les autres
+On danse les uns with les autres
 On court les uns après les autres
 On se déteste, on se déchire
 On se détruit, on se désire
@@ -5290,5 +5290,186 @@ On se rend compte
 Qu'on est toujours tout seul au monde
 
 Qu'on est toujours tout seul au monde"""
+    },
+    "couleur": {
+        "helpers": ["gènes", "peau", "couleurs", "espoir", "guerre", "violence"],
+        "lyrics": """Dans mes gènes, rien, rien qui gêne
+Je suis brune ou blonde, tout le monde m’aime
+Dans la rue, dans la vie, je me promène
+En jouant au cow-boy, ou plutôt à l’indienne
+Dans tes gènes, et bien, oui, c’est pareil
+Si ta peau prend moins de coups de soleil
+Dans la rue, sous les coups, il s’avère que tu meurs
+Le monde t’en fait voir de toutes les couleurs
+
+Ce monde, j’peux plus le voir en peinture
+Ça fait trop longtemps que ça dure
+Que ça soit clair, que ça soit clair
+
+Je suis noire, blanche, je suis de la couleur
+De l’espoir, et blanche, et noire, et dans mon cœur
+Je suis Floyd, Blake, flamme qui veille les morts
+Pour que toutes les couleurs brillent encore
+
+Dans notre ADN, hélas, un gène fout la guerre
+Une graine de violence qui masque nos crimes en faits-divers
+Quand ça voit rouge, tire sur tout ce qui bouge, c’est pas net
+Pas sûr que le sauvage soit celui qu’on arrête
+Mais puisqu’il paraît que la musique adoucit les mœurs
+Je t’envoie ces quelques notes du haut de mon cœur
+Peu m’importe la couleur de ta peau
+Je porte toutes les couleurs à mon drapeau
+
+Je suis noire, blanche, je suis de la couleur
+De l’espoir, et blanche, et noire, et dans mon cœur
+Je suis Floyd, Blake, flamme qui veille les morts
+Pour que toutes les couleurs brillent encore
+Est-ce que c’est clair
+Est-ce que c’est clair."""
+    },
+    "speed": {
+        "helpers": ["dors", "hibernes", "caverne", "vibres", "battre", "réveille-toi", "libre", "corps", "cage", "cœur"],
+        "lyrics": """Depuis le temps que tu dors
+Ça fait des mois
+Des mois, que tu hibernes
+Que tu sors pas de ta caverne
+T'as beau tout faire pour le cacher
+Sous tes airs d'ours mal léché
+Tu vibres encore
+Tu vires encore
+Allez, debout, allez sors
+Je te sens battre au fond de moi
+T'es pas tout neuf, mais pas si vieux
+Non, t'es flambant vieux
+
+Et tu speed encore
+Oui, tu speed encore
+Réveille-toi, fais pas le mort
+L'univers ne s'arrête pas
+Parce qu'on n'a plus voulu de toi
+Allez hop
+Tu es libre alors
+Oui, libre encore
+Allez, quitte ce corps sage
+Bats plus vite que ton âge
+Sors de ta cage
+
+Allez hop
+Speed encore
+Speed encore
+Bats mon cœur
+Cogne et sors
+De ce corps
+
+Allez hop
+Speed encore
+Speed encore
+Bats mon cœur
+Et sors
+De ce corps
+
+Allez hop
+Speed encore
+Mon cœur, sors
+Sors
+De ce corps
+Allez hop
+Allez hop
+Speed encore
+
+Allez, hop
+Allez, hop
+Oh, allez, whoa
+Allez, hop
+Oh, allez, whoa
+Allez, hop
+Oh, allez, whoa
+Allez, hop
+Oh, allez, whoa
+Allez, hop"""
+    },
+    "je-suis-un-homme": {
+        "helpers": ["homme", "Terre", "saison", "ambition", "révolution", "illusion", "prison", "consommation", "maître", "nature"],
+        "lyrics": """Je suis un homme de Cro-Magnon
+Je suis un singe ou un poisson
+Sur la Terre en toute saison
+Moi je tourne en rond, je tourne en rond
+Je suis un seul puis des millions
+Je suis un homme au cœur de lion
+À la guerre en toute saison
+Moi je tourne en rond, je tourne en rond
+Je suis un homme plein d'ambition
+Belle voiture et belle maison
+Dans la chambre ou dans le salon
+Moi je tourne en rond, je tourne en rond
+Je fais l'amour et la révolution
+Je fais le tour de la question
+J'avance, avance à reculons
+Et je tourne en rond, je tourne en rond
+
+Tu vois, j'suis pas un homme
+Je suis le roi de l'illusion
+Au fond, qu'on me pardonne
+Je suis le roi, le roi des cons
+
+Je fais le monde à ma façon
+Coulé dans l'or et le béton
+Corps en cage et cœur en prison
+Moi je tourne en rond, je tourne en rond
+Assis devant ma télévision
+Je suis de l'homme, la négation
+Pur produit de consommation
+Oui, mon compte est bon, mon compte est bon
+
+Tu vois, j'suis pas un homme
+Je suis le roi de l'illusion
+Au fond, qu'on me pardonne
+Je suis le roi, le roi des cons
+
+C'est moi, le maître du feu
+Le maître du jeu, le maître du monde
+Et vois ce que j'en ai fait
+Une Terre glacée, une Terre brûlée
+La Terre des hommes que les hommes abandonnent
+
+Je suis un homme au pied du mur
+Comme une erreur de la nature
+Sur la Terre sans d'autres raisons
+Moi je tourne en rond, je tourne en rond
+Je suis un homme et je mesure
+Toute l'horreur de ma nature (je suis le roi)
+Pour ma peine, ma punition (le roi des cons)
+Moi je tourne en rond, je tourne en rond (au fond)
+Je suis un homme et je mesure (qu'on me pardonne)
+Toute l'horreur de ma nature (je suis le roi)
+Pour ma peine, ma punition (le roi des cons)
+Moi je tourne en rond, je tourne en rond"""
+    },
+    "fovame": {
+        "helpers": ["μαλλιά", "στιγμές", "μεθάω", "λιώνω", "κοντά", "μακριά", "Φοβάμαι", "ψυχή", "φιλιά", "χρόνος"],
+        "lyrics": """Μέσα στα μαλλιά σου πετάω
+Τις στιγμές μου μεθάω
+Σ' αγαπώ και φεύγω
+
+Πάνω στα δυο χέρια σου λιώνω
+Ένα στίχο σκοτώνω
+Πάρε με μαζί σου
+
+Είσαι πολύ κοντά, Είσαι πολύ μακριά
+
+Φοβάμαι, φοβάμαι
+Φοβάμαι, μην ακούς τι λέω
+
+Σβήνω τ' όνομα σου και σβήνω
+Τη ψυχή μου αφήνω
+Σε φιλιά που καίνε
+Κοίτα πόσο έχω αλλάξει
+Σα Θεός έχω στάξει
+Κυριακή ο χρόνος
+
+Είσαι πολύ κοντά, Είσαι πολύ μακριά
+
+Φοβάμαι, φοβάμαι
+Φοβάμαι, μην ακούς τι λέω"""
     },
 }

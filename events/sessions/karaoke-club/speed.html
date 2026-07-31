@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Speed — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>Speed</h1>
+  <p class="session-date">Zazie • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Accueil</a> <span class="sep">/</span>
+    <a href="../../">Événements</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">Speed</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Retour au club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B1)</p></div>
+    <div class="meta-item"><h4>Thème</h4><p>Renaissance, Résilience & Guérison Émotionnelle</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=LA7T0GSjzg0" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=LA7T0GSjzg0" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Thème: Renaissance, Résilience & Guérison Émotionnelle</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Nous allons discuter de:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Dormir</li>
+      <li>Hiberner</li>
+      <li>Caverne</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (15%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (5%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Étape 1 : Échauffement</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Quelle est l'importance de ce thème de discussion dans votre vie quotidienne ?</li>
+            <li>Regardez le titre 'Speed' et l'artiste 'Zazie'. Selon vous, de quoi parle cette chanson ? (Question de prédiction)</li>
+            <li>Quelles émotions ou quels sentiments ce style de musique vous inspire-t-il ?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Étape 2 : Vocabulaire</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concepts clés & Émotions</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Dormir</div>
+<div class="vocab-def">être dans un état de sommeil, se reposer physiquement et mentalement.</div>
+<div class="vocab-example">Il a besoin de dormir au moins huit heures par nuit pour être en forme.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Dormir', definition:'être dans un état de sommeil, se reposer physiquement et mentalement.', example:'Il a besoin de dormir au moins huit heures par nuit pour être en forme.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Hiberner</div>
+<div class="vocab-def">passer l'hiver dans un état d'engourdissement ou de sommeil.</div>
+<div class="vocab-example">L'ours se retire dans sa caverne pour hiberner tout l'hiver.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Hiberner', definition:'passer l\'hiver dans un état d\'engourdissement ou de sommeil.', example:'L\'ours se retire dans sa caverne pour hiberner tout l\'hiver.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La caverne</div>
+<div class="vocab-def">cavité naturelle et profonde dans la roche ou la montagne.</div>
+<div class="vocab-example">Les explorateurs ont découvert une ancienne peinture dans la caverne.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La caverne', definition:'cavité naturelle et profonde dans la roche ou la montagne.', example:'Les explorateurs ont découvert une ancienne peinture dans la caverne.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Vibrer</div>
+<div class="vocab-def">frémir, osciller rapidement ou ressentir une vive émotion.</div>
+<div class="vocab-example">Son cœur se met à vibrer d'excitation en montant sur scène.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Vibrer', definition:'frémir, osciller rapidement ou ressentir une vive émotion.', example:'Son cœur se met à vibrer d\'excitation en montant sur scène.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Battre</div>
+<div class="vocab-def">frapper de manière répétée, ou lutter avec force contre une difficulté.</div>
+<div class="vocab-example">Il faut continuer à se battre pour réaliser nos rêves.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Battre', definition:'frapper de manière répétée, ou lutter avec force contre une difficulté.', example:'Il faut continuer à se battre pour réaliser nos rêves.'}, this)">+ Dictionary</button>
+</div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vie, Actions & Connexion</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Réveiller</div>
+<div class="vocab-def">sortir du sommeil, ramener à l'activité ou à la conscience.</div>
+<div class="vocab-example">Le chant des oiseaux vient la réveiller doucement chaque matin.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">S'endormir</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Réveiller', definition:'sortir du sommeil, ramener à l\'activité ou à la conscience.', example:'Le chant des oiseaux vient la réveiller doucement chaque matin.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Libre</div>
+<div class="vocab-def">Target vocabulary word meaning in 'Speed'.</div>
+<div class="vocab-example">This is an elegant example of using 'Libre'.</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Prisonnier</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Libre', definition:'Target vocabulary word meaning in \'Speed\'.', example:'This is an elegant example of using \'Libre\'.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le corps</div>
+<div class="vocab-def">enveloppe physique et matérielle de l'être humain.</div>
+<div class="vocab-example">Faire du sport régulièrement est excellent pour le corps et l'esprit.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le corps', definition:'enveloppe physique et matérielle de l\'être humain.', example:'Faire du sport régulièrement est excellent pour le corps et l\'esprit.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La cage</div>
+<div class="vocab-def">structure fermée par des barreaux pour enfermer des animaux ou contraindre.</div>
+<div class="vocab-example">L'oiseau s'est échappé de sa cage pour retrouver la liberté.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La cage', definition:'structure fermée par des barreaux pour enfermer des animaux ou contraindre.', example:'L\'oiseau s\'est échappé de sa cage pour retrouver la liberté.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le cœur</div>
+<div class="vocab-def">organe musculaire creux, symbole de la vie et des sentiments.</div>
+<div class="vocab-example">Elle écoute toujours son cœur pour prendre des décisions.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le cœur', definition:'organe musculaire creux, symbole de la vie et des sentiments.', example:'Elle écoute toujours son cœur pour prendre des décisions.'}, this)">+ Dictionary</button>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Étape 3 : Écoute</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">dors</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">hibernes</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">caverne</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">vibres</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">battre</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">réveille-toi</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">libre</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">corps</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">cage</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">cœur</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Depuis le temps que tu <input type="text" class="lyrics-gap-input" data-answer="dors" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Ça fait des mois<br>Des mois, que tu <input type="text" class="lyrics-gap-input" data-answer="hibernes" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 88px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Que tu sors pas de ta <input type="text" class="lyrics-gap-input" data-answer="caverne" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>T'as beau tout faire pour le cacher<br>Sous tes airs d'ours mal léché<br>Tu <input type="text" class="lyrics-gap-input" data-answer="vibres" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> encore<br>Tu vires encore<br>Allez, debout, allez sors<br>Je te sens <input type="text" class="lyrics-gap-input" data-answer="battre" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> au fond de moi<br>T'es pas tout neuf, mais pas si vieux<br>Non, t'es flambant vieux<br><br>Et tu speed encore<br>Oui, tu speed encore<br><input type="text" class="lyrics-gap-input" data-answer="Réveille-toi" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 132px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">, fais pas le mort<br>L'univers ne s'arrête pas<br>Parce qu'on n'a plus voulu de toi<br>Allez hop<br>Tu es <input type="text" class="lyrics-gap-input" data-answer="libre" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> alors<br>Oui, <input type="text" class="lyrics-gap-input" data-answer="libre" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> encore<br>Allez, quitte ce <input type="text" class="lyrics-gap-input" data-answer="corps" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> sage<br>Bats plus vite que ton âge<br>Sors de ta <input type="text" class="lyrics-gap-input" data-answer="cage" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br><br>Allez hop<br>Speed encore<br>Speed encore<br>Bats mon <input type="text" class="lyrics-gap-input" data-answer="cœur" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Cogne et sors<br>De ce <input type="text" class="lyrics-gap-input" data-answer="corps" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br><br>Allez hop<br>Speed encore<br>Speed encore<br>Bats mon <input type="text" class="lyrics-gap-input" data-answer="cœur" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Et sors<br>De ce <input type="text" class="lyrics-gap-input" data-answer="corps" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br><br>Allez hop<br>Speed encore<br>Mon <input type="text" class="lyrics-gap-input" data-answer="cœur" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">, sors<br>Sors<br>De ce <input type="text" class="lyrics-gap-input" data-answer="corps" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>Allez hop<br>Allez hop<br>Speed encore<br><br>Allez, hop<br>Allez, hop<br>Oh, allez, whoa<br>Allez, hop<br>Oh, allez, whoa<br>Allez, hop<br>Oh, allez, whoa<br>Allez, hop<br>Oh, allez, whoa<br>Allez, hop<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Étape 4 : Discussion</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+<div class="round-item"><div class="round-item-main">Comment 'Speed' par Zazie explore-t-il la signification profonde de <strong>Dormir</strong> dans notre vie quotidienne ?</div>
+<div class="round-item-personal">★ À quand remonte la dernière fois que vous avez ressenti un fort sentiment de <strong>Dormir</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Dans 'Speed', <strong>Hiberner</strong> est-il présenté comme une source de force ou de doute ?</div>
+<div class="round-item-personal">★ Trouvez-vous facile ou difficile de partager vos sentiments de <strong>Hiberner</strong> avec les autres ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">En analysant les paroles de Zazie, comment <strong>La caverne</strong> façonne-t-il le message général de la chanson ?</div>
+<div class="round-item-personal">★ Comment votre propre compréhension de <strong>La caverne</strong> a-t-elle évolué ces dernières années ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">De quelles manières 'Speed' montre-t-il que <strong>Vibrer</strong> est essentiel pour l'épanouissement personnel ?</div>
+<div class="round-item-personal">★ Dans votre routine quotidienne, qu'est-ce qui vous aide à rester concentré sur <strong>Vibrer</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment le style musical de 'Speed' renforce-t-il l'impact émotionnel de <strong>Battre</strong> ?</div>
+<div class="round-item-personal">★ Quelle est la leçon la plus importante que vous ayez apprise concernant <strong>Battre</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Quand Zazie chante ses sentiments, est-ce que <strong>Réveiller</strong> semble être un état naturel ou un défi ?</div>
+<div class="round-item-personal">★ Pensez-vous que notre société moderne valorise <strong>Réveiller</strong>, ou est-il souvent ignoré ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Est-ce que 'Speed' suggère que nous devons travailler pour obtenir <strong>Libre</strong>, ou cela arrive-t-il naturellement ?</div>
+<div class="round-item-personal">★ Quelle personne dans votre vie représente le mieux l'idée de <strong>Libre</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment l'imagerie visuelle de 'Speed' permet-elle de visualiser le concept de <strong>Le corps</strong> ?</div>
+<div class="round-item-personal">★ Si vous pouviez offrir plus de <strong>Le corps</strong> à un proche, à qui serait-ce ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Selon vous, le protagoniste de 'Speed' trouve-t-il la paix grâce à <strong>La cage</strong>, ou reste-t-il des questions ?</div>
+<div class="round-item-personal">★ Pensez-vous que <strong>La cage</strong> concerne plutôt la paix personnelle ou les expériences partagées ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment pouvons-nous appliquer les leçons de <strong>Le cœur</strong> tirées de 'Speed' pour améliorer notre quotidien ?</div>
+<div class="round-item-personal">★ Quelle pratique simple vous aide à cultiver <strong>Le cœur</strong> dans vos relations ?</div>
+</div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+<div class="round-item"><div class="round-item-main">La description centrale de <strong>Dormir</strong> dans 'Speed' est un magnifique reflet des luttes humaines. Débattons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Sans une compréhension profonde de <strong>Hiberner</strong>, nous ne pourrons jamais connaître de bonheur durable. Qu'en pensez-vous ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">L'œuvre de Zazie montre que notre recherche obsessionnelle de <strong>La caverne</strong> peut parfois mener au doute. Partagez votre avis.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Le vrai <strong>Vibrer</strong> ne peut exister que si nous sommes pleinement en paix avec nous-mêmes. Discutons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">La musique de 'Speed' suggère que nous devons être prêts à prendre des risques pour vivre pleinement <strong>Battre</strong>. Êtes-vous d'accord ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Dans le monde d'aujourd'hui, le développement paisible de <strong>Réveiller</strong> est souvent menacé par les distractions. Débattons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Nous ne pouvons apprécier pleinement <strong>Libre</strong> sans avoir connu des moments de défi et d'échec. Analyse cette idée.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Zazie nous avertit que trop se focaliser sur <strong>Le corps</strong> peut nous faire perdre de vue d'autres réalités. Partagez votre avis.</div>
+</div>
+<div class="round-item"><div class="round-item-main">La fin de 'Speed' démontre qu'un seul rayon de <strong>La cage</strong> peut nous porter à travers les saisons les plus froides. Discutons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Si nous prenons toutes nos décisions de vie en fonction de <strong>Le cœur</strong>, nous risquons de perdre toute stabilité. Discutons-en.</div>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Étape 5 : Point de langue</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">L'Impératif pour exprimer l'encouragement ('Allez', 'Réveille-toi')</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">La chanson 'Speed' utilise intensément l'impératif pour inciter à la renaissance émotionnelle. Notez l'utilisation du pronom réfléchi après le verbe ('réveille-toi').</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Allez, debout, réveille-toi et sors de ta caverne !</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Quitte ce corps sage et bats plus vite que ton âge.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Allez hop, speede encore et fais vibrer ton cœur.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Étape 6 : Défi final</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Le réveil du cœur : Jouez un dialogue entre un ami bienveillant et une personne qui s'isole dans sa 'caverne' depuis des mois. Encouragez-la à sortir et à recommencer à vivre.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Je suis d'accord avec ta philosophie</span>
+            <span class="mistake-note-text">(Utilisez la préposition 'avec' après 'être d'accord'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Il a fait beaucoup <span class="mistake-highlight">des</span> sacrifices</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Il a fait beaucoup de sacrifices</span>
+            <span class="mistake-note-text">(Utilisez 'de' après l'adverbe de quantité 'beaucoup'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ses paroles m'ont blessé <span class="mistake-highlight">beaucoup</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
+            <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

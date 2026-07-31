@@ -1,277 +1,311 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>voila — COSYlanguages</title>
-<link href="../../../images/logos/cosylanguages.png" rel="icon"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
-<link href="../../../css/tokens.css" rel="stylesheet"/>
-<link href="../../../css/base.css" rel="stylesheet"/>
-<link href="../../../css/components.css" rel="stylesheet"/>
-<link href="../../../css/layout.css" rel="stylesheet"/>
-<link href="../../../css/events.css" rel="stylesheet"/>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
 </head>
 <body>
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
-<div class="club-tag">Karaoke Club</div>
-<h1>voila</h1>
-<p class="session-date">Barbara Pravi • B2</p>
+  <div class="club-tag">Karaoke Club</div>
+  <h1>voila</h1>
+  <p class="session-date">Barbara Pravi • B2</p>
 </header>
 <main class="content-container">
-<nav class="cosy-breadcrumbs">
-<a href="../../../">Accueil</a> <span class="sep">/</span>
-<a href="../../">Événements</a> <span class="sep">/</span>
-<a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
-<span class="current">voila</span>
-</nav>
-<a class="back-link" href="../../karaoke-club.html">← Retour au club</a>
-<div class="session-meta-grid">
-<div class="meta-item"><h4>Durée</h4><p>90–120 minutes</p></div>
-<div class="meta-item"><h4>Langue</h4><p>Français</p></div>
-<div class="meta-item"><h4>Niveau</h4><p>Intermédiaire Supérieur (B2)</p></div>
-<div class="meta-item"><h4>Thème</h4><p>Authenticité &amp; Expression de soi</p></div>
-<div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
-<div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
-<span>🗣️ Répartition du temps de parole</span>
-<span>90-120 min de session</span>
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Accueil</a> <span class="sep">/</span>
+    <a href="../../">Événements</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">voila</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Retour au club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire Supérieur (B2)</p></div>
+    <div class="meta-item"><h4>Thème</h4><p>Authenticité & Expression de soi</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=VJuD7AnV-uw" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=VJuD7AnV-uw" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Thème: Authenticité & Expression de soi</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Nous allons discuter de:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Présentation</li>
+      <li>Authenticité</li>
+      <li>Voix</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (15%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (5%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Étape 1 : Échauffement</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Quelle est l'importance de ce thème de discussion dans votre vie quotidienne ?</li>
+            <li>Regardez le titre 'voila' et l'artiste 'Barbara Pravi'. Selon vous, de quoi parle cette chanson ? (Question de prédiction)</li>
+            <li>Quelles émotions ou quels sentiments ce style de musique vous inspire-t-il ?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Étape 2 : Vocabulaire</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concepts clés & Émotions</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La présentation</div>
+<div class="vocab-def">Target vocabulary word meaning in 'voila'.</div>
+<div class="vocab-example">This is an elegant example of using 'La présentation'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La présentation', definition:'Target vocabulary word meaning in \'voila\'.', example:'This is an elegant example of using \'La présentation\'.'}, this)">+ Dictionary</button>
 </div>
-<div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
-<div style="width: 10%; background: #E67E22;" title="Échauffement (10%)"></div>
-<div style="width: 15%; background: #3498DB;" title="Vocabulaire (15%)"></div>
-<div style="width: 15%; background: #9B59B6;" title="Écoute (15%)"></div>
-<div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
-<div style="width: 10%; background: #F1C40F;" title="Point de langue (10%)"></div>
-<div style="width: 5%; background: #E74C3C;" title="Défi final (5%)"></div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'authenticité</div>
+<div class="vocab-def">Target vocabulary word meaning in 'voila'.</div>
+<div class="vocab-example">This is an elegant example of using 'L'authenticité'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'L'authenticité', definition:'Target vocabulary word meaning in \'voila\'.', example:'This is an elegant example of using \'L\'authenticité\'.'}, this)">+ Dictionary</button>
 </div>
-<div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
-<span>🎵 Échauffement (10%)</span>
-<span>📚 Vocabulaire (15%)</span>
-<span>🎧 Écoute (15%)</span>
-<span>💬 Discussion (45%)</span>
-<span>✨ Point de langue (10%)</span>
-<span>🎭 Défi final (5%)</span>
-</div>
-</div>
-<div class="rounds-container">
-<div class="round-block warm-up open" id="s-warm">
-<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8; cursor:pointer;">
-<span>🎵 Étape 1 : Échauffement</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block;">
-<ul class="round-questions">
-<li>Quelle est l'importance de ce thème de discussion dans votre vie quotidienne ?</li>
-<li>Regardez le titre 'voila' et l'artiste 'Barbara Pravi'. Selon vous, de quoi parle cette chanson ? (Question de prédiction)</li>
-<li>Quelles émotions ou quels sentiments ce style de musique vous inspire-t-il ?</li>
-</ul>
-</div>
-</div>
-<div class="round-block open" id="vocabulary">
-<div class="round-header" onclick="COSY.toggleRound('vocabulary')" style="background:#E1F5EE; cursor:pointer;">
-<span>📚 Étape 2 : Vocabulaire</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div class="vocab-grid-10"><h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concepts clés &amp; Émotions</h3><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La présentation</div>
-<div class="vocab-def">action de se présenter ou de présenter une œuvre au public.</div>
-<div class="vocab-example">Sa présentation orale a convaincu l'ensemble des jurés.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La présentation', definition:'action de se présenter ou de présenter une œuvre au public.', example:'Sa présentation orale a convaincu l\'ensemble des jurés.'}, this)">+ Dictionnaire</button>
-</div><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'authenticité</div>
-<div class="vocab-def">qualité de ce qui est vrai, sincère et sans artifice.</div>
-<div class="vocab-example">Le public apprécie l'authenticité brute de sa performance.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'authenticité', definition:'qualité de ce qui est vrai, sincère et sans artifice.', example:'Le public apprécie l\'authenticité brute de sa performance.'}, this)">+ Dictionnaire</button>
-</div><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La voix</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La voix</div>
 <div class="vocab-def">ensemble des sons produits par les cordes vocales.</div>
 <div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionnaire</button>
-</div><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La vulnérabilité</div>
-<div class="vocab-def">caractère de ce qui est fragile et exposé aux blessures.</div>
-<div class="vocab-example">Admettre sa vulnérabilité demande en réalité une grande force d'âme.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La vulnérabilité', definition:'caractère de ce qui est fragile et exposé aux blessures.', example:'Admettre sa vulnérabilité demande en réalité une grande force d\'âme.'}, this)">+ Dictionnaire</button>
-</div><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le public</div>
-<div class="vocab-def">ensemble des spectateurs ou auditeurs d'une œuvre.</div>
-<div class="vocab-example">Le public conquis s'est levé pour l'applaudir chaleureusement.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le public', definition:'ensemble des spectateurs ou auditeurs d\'une œuvre.', example:'Le public conquis s\'est levé pour l\'applaudir chaleureusement.'}, this)">+ Dictionnaire</button>
-</div><h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vie, Actions &amp; Connexion</h3><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Se donner</div>
-<div class="vocab-def">se consacrer entièrement, sans réserve, à une cause.</div>
-<div class="vocab-example">Elle aime se donner à fond lorsqu'elle monte sur scène.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La vulnérabilité</div>
+<div class="vocab-def">Target vocabulary word meaning in 'voila'.</div>
+<div class="vocab-example">This is an elegant example of using 'La vulnérabilité'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La vulnérabilité', definition:'Target vocabulary word meaning in \'voila\'.', example:'This is an elegant example of using \'La vulnérabilité\'.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le public</div>
+<div class="vocab-def">ensemble des personnes qui assistent à un spectacle.</div>
+<div class="vocab-example">Le public a applaudi chaleureusement la chanteuse.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le public', definition:'ensemble des personnes qui assistent à un spectacle.', example:'Le public a applaudi chaleureusement la chanteuse.'}, this)">+ Dictionary</button>
+</div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vie, Actions & Connexion</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Se donner</div>
+<div class="vocab-def">se consacrer entièrement à une tâche ou une cause.</div>
+<div class="vocab-example">Il faut se donner à fond pour réussir ses examens.</div>
 <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Se retenir</span></div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Se donner', definition:'se consacrer entièrement, sans réserve, à une cause.', example:'Elle aime se donner à fond lorsqu\'elle monte sur scène.'}, this)">+ Dictionnaire</button>
-</div><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La scène</div>
-<div class="vocab-def">espace sureléve où se produisent les artistes devant le public.</div>
-<div class="vocab-example">La chanteuse s'est avancée sur la scène sous les projecteurs.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'La scène', definition:'espace sureléve où se produisent les artistes devant le public.', example:'La chanteuse s\'est avancée sur la scène sous les projecteurs.'}, this)">+ Dictionnaire</button>
-</div><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'artiste</div>
-<div class="vocab-def">personne qui pratique un art ou se produit en spectacle.</div>
-<div class="vocab-example">Cette jeune artiste peintre expose ses œuvres à l'international.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'artiste', definition:'personne qui pratique un art ou se produit en spectacle.', example:'Cette jeune artiste peintre expose ses œuvres à l\'international.'}, this)">+ Dictionnaire</button>
-</div><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'écoute</div>
-<div class="vocab-def">action d'écouter attentivement pour comprendre.</div>
-<div class="vocab-example">Une écoute attentive est indispensable pour une communication saine.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'écoute', definition:'action d\'écouter attentivement pour comprendre.', example:'Une écoute attentive est indispensable pour une communication saine.'}, this)">+ Dictionnaire</button>
-</div><div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le destin</div>
-<div class="vocab-def">puissance qui semble régler le cours de la vie de manière inévitable.</div>
-<div class="vocab-example">Elle croit fermement que son destin est lié au sien.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie de manière inévitable.', example:'Elle croit fermement que son destin est lié au sien.'}, this)">+ Dictionnaire</button>
-</div></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Se donner', definition:'se consacrer entièrement à une tâche ou une cause.', example:'Il faut se donner à fond pour réussir ses examens.'}, this)">+ Dictionary</button>
 </div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La scène</div>
+<div class="vocab-def">Target vocabulary word meaning in 'voila'.</div>
+<div class="vocab-example">This is an elegant example of using 'La scène'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La scène', definition:'Target vocabulary word meaning in \'voila\'.', example:'This is an elegant example of using \'La scène\'.'}, this)">+ Dictionary</button>
 </div>
-<div class="round-block open" id="listening-exercise">
-<div class="round-header" onclick="COSY.toggleRound('listening-exercise')" style="background:#FAF0E6; cursor:pointer;">
-<span>🎧 Étape 3 : Écoute</span><span class="round-toggle">▲</span>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'artiste</div>
+<div class="vocab-def">personne qui crée des œuvres d'art ou se produit.</div>
+<div class="vocab-example">Cet artiste peintre expose ses toiles dans le monde entier.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'L'artiste', definition:'personne qui crée des œuvres d\'art ou se produit.', example:'Cet artiste peintre expose ses toiles dans le monde entier.'}, this)">+ Dictionary</button>
 </div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-<h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-<span class="club-tag" style="background: white; border-color: var(--border);">authenticité</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">voix</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">vulnérabilité</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">public</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">scène</span>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'écoute</div>
+<div class="vocab-def">Target vocabulary word meaning in 'voila'.</div>
+<div class="vocab-example">This is an elegant example of using 'L'écoute'.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'L'écoute', definition:'Target vocabulary word meaning in \'voila\'.', example:'This is an elegant example of using \'L\'écoute\'.'}, this)">+ Dictionary</button>
 </div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le destin</div>
+<div class="vocab-def">puissance qui semble régler le cours de la vie.</div>
+<div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button>
 </div>
-<div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-<p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">[Couplet 1]<br/>Écoutez-moi, moi, la chanteuse à demi<br/>Parlez de moi, à vos amours, à vos amis<br/>Parlez-leur de cette fille aux yeux noirs et de son rêve fou<br/>Moi, c'que j'veux, c'est écrire des histoires qui arrivent jusqu'à vous<br/>C'est tout
+        </div>
+      </div>
+    </div>
 
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Étape 3 : Écoute</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">authenticité</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">voix</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">vulnérabilité</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">public</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">scène</span>
+          </div>
+        </div>
 
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">[Couplet 1]<br>Écoutez-moi, moi, la chanteuse à demi<br>Parlez de moi, à vos amours, à vos amis<br>Parlez-leur de cette fille aux yeux noirs et de son rêve fou<br>Moi, c'que j'veux, c'est écrire des histoires qui arrivent jusqu'à vous<br>C'est tout<br><br>[Refrain 1]<br>Voilà, voilà, voilà, voilà qui je suis<br>Me voilà même si mise à nue, j'ai peur, oui<br>Me voilà dans le bruit et dans le silence<br><br>[Couplet 2]<br>Regardez-moi, ou du moins ce qu'il en reste<br>Regardez-moi, avant que je me déteste<br>Quoi vous dire, que les lèvres d'une autre ne vous diront pas ?<br>C'est peu de choses mais moi tout ce que j'ai, je le dépose là<br>Voilà<br><br>[Refrain 2]<br>Voilà, voilà, voilà, voilà qui je suis<br>Me voilà même si mise à nue c'est fini<br>C'est ma gueule, c'est mon cri, me voilà, tant pis<br>Voilà, voilà, voilà, voilà juste ici<br>Moi, mon rêve, mon envie, comme j'en crève, comme j'en ris<br>Me voilà dans le bruit et dans le silence<br><br>[Couplet 3]<br>Ne partez pas, j'vous en supplie restez longtemps<br>Ça m'sauvera p't'être pas, non<br>Mais faire sans vous, j'sais pas comment<br>Aimez-moi comme on aime un ami qui s'en va pour toujours<br>J'veux qu'on m'aime, parce que moi je sais pas bien aimer mes contours<br><br>[Refrain 3]<br>Voilà, voilà, voilà, voilà qui je suis<br>Me voilà même si mise à nue c'est fini<br>Me voilà dans le bruit et dans la fureur aussi<br>Regardez-moi enfin, et mes yeux et mes mains<br>Tout c'que j'ai est ici, c'est ma gueule, c'est mon cri<br>Me voilà, me voilà, me voilà<br>Voilà, voilà<br>Voilà, voilà<br><br>[Outro]<br>Voilà<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
+        </div>
+      </div>
+    </div>
 
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Étape 4 : Discussion</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+<div class="round-item"><div class="round-item-main">Comment le parcours de découverte de soi dans 'voila' par Barbara Pravi redéfinit-il notre vision de <strong>La présentation</strong> ?</div>
+<div class="round-item-personal">★ Quel objectif personnel a le plus stimulé votre propre <strong>La présentation</strong> au cours de l'année écoulée ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Dans 'voila', la recherche de <strong>L'authenticité</strong> ressemble-t-elle à une lutte contre l'extérieur ou à un conflit intérieur ?</div>
+<div class="round-item-personal">★ Avez-vous déjà dû sortir de votre zone de confort pour affirmer votre <strong>L'authenticité</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment Barbara Pravi utilise-t-il les paroles de 'voila' pour souligner l'importance de <strong>La voix</strong> ?</div>
+<div class="round-item-personal">★ Trouvez-vous que la réflexion calme ou l'action directe vous aide le plus à progresser en <strong>La voix</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Est-ce que 'voila' suggère que <strong>La vulnérabilité</strong> se trouve seul, ou avons-nous besoin des autres pour grandir ?</div>
+<div class="round-item-personal">★ Quel est le défi le plus difficile que vous ayez surmonté et qui a forgé votre <strong>La vulnérabilité</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment le style musical de 'voila' renforce-t-il le message de force et de <strong>Le public</strong> ?</div>
+<div class="round-item-personal">★ Quel mentor ou enseignant a le plus influencé votre propre <strong>Le public</strong> ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Dans 'voila', <strong>Se donner</strong> est-il présenté comme une révélation soudaine ou un processus lent et douloureux ?</div>
+<div class="round-item-personal">★ Pensez-vous que les erreurs soient indispensables à notre <strong>Se donner</strong>, ou peuvent-elles être évitées ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment Barbara Pravi remet-il en question les visions traditionnelles de la réussite et de <strong>La scène</strong> dans cette chanson ?</div>
+<div class="round-item-personal">★ Comment conciliez-vous personnellement votre désir de <strong>La scène</strong> avec vos obligations quotidiennes ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Quel rôle joue la vulnérabilité dans la capacité du personnage à atteindre <strong>L'artiste</strong> dans 'voila' ?</div>
+<div class="round-item-personal">★ Si vous pouviez écrire à votre passé au sujet de <strong>L'artiste</strong>, quel conseil vous donneriez-vous ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Comment les paroles de 'voila' montrent-elles que <strong>L'écoute</strong> exige de faire face à nos peurs profondes ?</div>
+<div class="round-item-personal">★ Votre entourage actuel encourage-t-il votre <strong>L'écoute</strong> personnel, ou a-t-il tendance à le freiner ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">À votre avis, <strong>Le destin</strong> est-il le but ultime du voyage du personnage dans 'voila' ?</div>
+<div class="round-item-personal">★ Quelle habitude ou pratique quotidienne vous aide à rester concentré sur votre <strong>Le destin</strong> ?</div>
+</div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+<div class="round-item"><div class="round-item-main">La recherche absolue de <strong>La présentation</strong> dans 'voila' est une quête épuisante qui mène souvent à l'isolement. Débattons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Sans une volonté sincère d'accepter nos propres failles, un véritable <strong>L'authenticité</strong> est impossible. Qu'en pensez-vous ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">La chanson de Barbara Pravi suggère que les attentes de la société sont le principal obstacle à notre <strong>La voix</strong>. Partagez votre avis.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Le véritable <strong>La vulnérabilité</strong> ne s'obtient que lorsqu'on cesse totalement de se soucier de l'approbation d'autrui. Débattons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">La fin de 'voila' prouve que notre <strong>Le public</strong> mérite que l'on brise des liens et que l'on s'isole. Êtes-vous d'accord ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">La culture moderne valorise trop le succès instantané au détriment du cheminement lent et discret de <strong>Se donner</strong>. Discutons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Nous ne pouvons trouver un authentique <strong>La scène</strong> sans passer d'abord par des moments d'échec et de doute. Qu'en dites-vous ?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Barbara Pravi nous avertit que trop se focaliser sur son propre <strong>L'artiste</strong> peut nous rendre égoïstes. Partagez votre avis.</div>
+</div>
+<div class="round-item"><div class="round-item-main">L'épreuve ultime de notre <strong>L'écoute</strong> est la manière dont nous traitons ceux qui ne peuvent rien nous apporter. Discutons-en.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Si nous guidons tous nos choix par le seul désir de <strong>Le destin</strong>, nous risquons de ne jamais trouver de stabilité. Discutons-en.</div>
+</div>
+        </div>
+      </div>
+    </div>
 
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Étape 5 : Point de langue</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
 
-<span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Paroles extraites uniquement à des fins éducatives.</span></p>
-</div>
-</div>
-</div>
-<div class="round-block open" id="discussion">
-<div class="round-header" onclick="COSY.toggleRound('discussion')" style="background:#EEEDFE; cursor:pointer;">
-<span>💬 Étape 4 : Discussion</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div class="round-1" style="margin-bottom: 2rem;"><h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3><div class="round-item"><div class="round-item-main">Barbara Pravi livre une présentation d'elle-même d'une honnêteté brutale. Pourquoi se présenter nu et sans fard au public est-il si difficile ?</div>
-<div class="round-item-personal">★ Comment vous présentez-vous lors d'un entretien d'embauche ou d'une première rencontre ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">L'authenticité de l'artiste est le secret de sa présence scénique. Comment l'authenticité se manifeste-t-elle dans nos relations quotidiennes ?</div>
-<div class="round-item-personal">★ Préférez-vous les personnalités polies et lisses ou les personnes entières et authentiques ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">« Voilà ma voix, voilà mon cœur ». Pourquoi la voix est-elle le miroir le plus fidèle de notre état émotionnel ?</div>
-<div class="round-item-personal">★ Comment votre voix change-t-elle lorsque vous êtes stressé, timide, ou passionné ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">La vulnérabilité est revendiquée comme une force (« regardez-moi, je suis nue »). Pourquoi montrer sa vulnérabilité demande-t-il du courage ?</div>
-<div class="round-item-personal">★ Dans quel cadre vous sentez-vous suffisamment en sécurité pour exprimer votre vulnérabilité ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">La chanteuse s'adresse directement à son public. Quelle relation s'établit entre un artiste et son public lors d'un concert live ?</div>
-<div class="round-item-personal">★ Quel est le dernier concert ou spectacle vivant qui vous a profondément ému en tant que public ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">« Se donner entière, sans retour ». Pourquoi se donner à fond dans son art ou son travail est-il à la fois gratifiant et épuisant ?</div>
-<div class="round-item-personal">★ Dans quel projet ou passion aimez-vous vous donner sans compter votre temps ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">La scène est le lieu de vérité pour Barbara Pravi. Quelles sont les qualités requises pour surmonter le trac et monter sur scène ?</div>
-<div class="round-item-personal">★ Avez-vous déjà dû prendre la parole sur une scène ou devant une grande assemblée ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">L'artiste demande simplement à être aimée pour sa musique. Qu'est-ce qui définit, selon vous, un véritable artiste aujourd'hui ?</div>
-<div class="round-item-personal">★ Quel artiste contemporain (peintre, musicien, écrivain) admirez-vous le plus pour sa démarche ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">La chanson exige une écoute attentive des paroles. Pourquoi l'art de l'écoute est-il en voie de disparition à l'ère des vidéos courtes ?</div>
-<div class="round-item-personal">★ Comment montrez-vous à un ami que vous êtes pleinement à son écoute lorsqu'il vous confie un problème ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">L'artiste accepte son destin de chanteuse, malgré les doutes. Comment trouver sa propre voie et assumer son destin professionnel ?</div>
-<div class="round-item-personal">★ Pensez-vous avoir trouvé votre véritable voie ou êtes-vous toujours en recherche ?</div>
-</div>
-</div>
-<div class="round-2" style="margin-top: 2rem;"><h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3><div class="round-item"><div class="round-item-main">La vulnérabilité et l'expression brute de ses faiblesses sont les meilleurs moyens de toucher le cœur des gens et de construire une vraie communauté. Débattons-en.</div>
-</div>
-<div class="round-item"><div class="round-item-main">Pour réussir sa carrière et se protéger socialement, il est nécessaire de porter un masque et de cacher sa véritable personnalité. Qu'en pensez-vous ?</div>
-</div>
-<div class="round-item"><div class="round-item-main">L'écoute active et l'empathie sont des compétences professionnelles majeures qui devraient être enseignées dès l'école primaire. Discutons-en.</div>
-</div>
-</div>
-</div>
-</div>
-<div class="round-block open" id="lang-focus">
-<div class="round-header" onclick="COSY.toggleRound('lang-focus')" style="background:#FFF9E6; cursor:pointer;">
-<span>✨ Étape 5 : Point de langue</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
-<h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Focus linguistique : Enclitic Direct Pronouns with Imperatives</h3>
-<p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Dans la chanson <strong>Voila</strong>, la phrase répétitive <em>"Voilà, voilà, voilà... Regardez-moi"</em> illustre parfaitement l'utilisation de <strong>Enclitic Direct Pronouns with Imperatives</strong>. Cette structure favorise : Direct self-expression and command pacing.</p>
-<strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Mise en pratique — Trois exemples :</strong>
-<ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
-<li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Exemple 1 : Pratiquez cette structure activement dans la discussion.</li>
-<li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Exemple 2 : Repérez la répétition de ce motif dans les paroles.</li>
-<li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Exemple 3 : Utilisez cette tournure de phrase dans votre défi final.</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="round-block open" id="final-challenge">
-<div class="round-header" onclick="COSY.toggleRound('final-challenge')" style="background:#FEEAEA; cursor:pointer;">
-<span>🎭 Étape 6 : Défi final</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
-<span style="font-size: 2rem;">🎭</span>
-<div>
-<p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imaginez la suite de cette chanson : jouez une conversation entre les personnages principaux 5 ans plus tard.</p>
-</div>
-</div>
-</div>
-</div>
-<!-- Sources Section -->
-<!-- Sources Section -->
-<!-- Sources Section -->
-<!-- Sources Section -->
-<!-- Sources Section -->
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Focus linguistique : Enclitic Direct Pronouns with Imperatives</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Dans la chanson <strong>Voila</strong>, la phrase répétitive <em>"Voilà, voilà, voilà... Regardez-moi"</em> illustre parfaitement l'utilisation de <strong>Enclitic Direct Pronouns with Imperatives</strong>. Cette structure favorise : Direct self-expression and command pacing.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Exemple 1 : Pratiquez cette structure activement dans la discussion.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Exemple 2 : Repérez la répétition de ce motif dans les paroles.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Exemple 3 : Utilisez cette tournure de phrase dans votre défi final.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
 
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Étape 6 : Défi final</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
 
-<!-- Sources Section -->
-<section class="sources-section" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
-<h4 style="margin-bottom: 0.5rem; color: var(--ink);">Sources &amp; Citations</h4>
-<ul style="list-style-type: none; padding-left: 0; margin-bottom: 1rem;">
-<li style="margin-bottom: 0.4rem;">Genius. « Barbara Pravi – voila (Paroles) » <em>Genius</em>, <a href="https://genius.com/Barbara-pravi-voila-lyrics" style="color: var(--teal);" target="_blank">https://genius.com/Barbara-pravi-voila-lyrics</a>. Consulté le 30 juillet 2026.</li>
-<li>« voila » <em>YouTube</em>, téléchargé par Barbara Pravi, <a href="https://www.youtube.com/watch?v=VJuD7AnV-uw" style="color: var(--teal);" target="_blank">https://www.youtube.com/watch?v=VJuD7AnV-uw</a>.</li>
-</ul>
-<p style="font-style: italic; margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
-      Paroles extraites uniquement à des fins éducatives. Tous les droits sur les paroles et l'enregistrement appartiennent aux auteurs-compositeurs, interprètes et détenteurs de droits d'origine.
-    </p>
-</section>
-<div class="mistake-block open" id="s-mistakes">
-<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-<span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
-</div>
-<div class="mistake-body" style="display:block;">
-<div class="mistake-item">
-<span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
-<span class="mistake-arrow">→</span>
-<span class="mistake-right">Je suis d'accord avec ta philosophie</span>
-<span class="mistake-note-text">(Utilisez la préposition 'avec' après 'être d'accord'.)</span>
-</div>
-<div class="mistake-item">
-<span class="mistake-wrong">Il a fait beaucoup <span class="mistake-highlight">des</span> sacrifices</span>
-<span class="mistake-arrow">→</span>
-<span class="mistake-right">Il a fait beaucoup de sacrifices</span>
-<span class="mistake-note-text">(Utilisez 'de' après l'adverbe de quantité 'beaucoup'.)</span>
-</div>
-<div class="mistake-item">
-<span class="mistake-wrong">Ses paroles m'ont blessé <span class="mistake-highlight">beaucoup</span></span>
-<span class="mistake-arrow">→</span>
-<span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
-<span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
-</div>
-</div>
-</div>
-</div>
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imaginez la suite de cette chanson : jouez une conversation entre les personnages principaux 5 ans plus tard.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Je suis d'accord avec ta philosophie</span>
+            <span class="mistake-note-text">(Utilisez la préposition 'avec' après 'être d'accord'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Il a fait beaucoup <span class="mistake-highlight">des</span> sacrifices</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Il a fait beaucoup de sacrifices</span>
+            <span class="mistake-note-text">(Utilisez 'de' après l'adverbe de quantité 'beaucoup'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ses paroles m'ont blessé <span class="mistake-highlight">beaucoup</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
+            <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-<a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-<a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-<a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
-</div>
-<p>© 2026 COSYlanguages — All rights reserved</p>
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
 <script src="../../../js/core/engine.js"></script>
 <script src="../../../js/core/ui.js"></script>
