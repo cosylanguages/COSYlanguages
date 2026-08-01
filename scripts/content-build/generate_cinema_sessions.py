@@ -599,6 +599,8 @@ HANDCRAFTED_LANG_EXTRAS = {
 
 def get_film_specific_extras(title, details, lang="en"):
     title_clean = title.replace('"', '').strip()
+    if "Ratatouille" in title_clean:
+        title_clean = "Ratatouille"
     if title_clean in HANDCRAFTED_LANG_EXTRAS:
         return (
             HANDCRAFTED_LANG_EXTRAS[title_clean]["themes"],
@@ -1131,7 +1133,10 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
             slangs.append(s)
             seen_words.add(s_norm)
 
-    details = CLEAN_FILM_DETAILS.get(title.replace('"', '').strip(), {
+    title_lookup = title.replace('"', '').strip()
+    if "Ratatouille" in title_lookup:
+        title_lookup = "Ratatouille"
+    details = CLEAN_FILM_DETAILS.get(title_lookup, {
         "protagonist": "the main characters",
         "key_figures": "other figures in the story",
         "setting": "the cinematic world",
@@ -1657,7 +1662,32 @@ for idx, r in enumerate(rows):
     else:
         lang = "en"
 
-    if level_short == "B1/B2":
+    if title == "Ratatouille":
+        # Generate English version
+        sessions_to_generate.append({
+            "idx": idx,
+            "title": "Ratatouille (English)",
+            "level_short": level_short,
+            "level_label": level_label,
+            "variety": "American English",
+            "focus": focus,
+            "slang_raw": '"Gourmet", "recipe", "scavenge", "garbage", "critic"',
+            "slug": "ratatouille-english",
+            "lang": "en"
+        })
+        # Generate French version
+        sessions_to_generate.append({
+            "idx": idx,
+            "title": "Ratatouille (French)",
+            "level_short": level_short,
+            "level_label": level_label,
+            "variety": "French Language",
+            "focus": focus,
+            "slang_raw": '"Chef", "gustatif", "soubrette", "ragoût", "poubelle"',
+            "slug": "ratatouille-french",
+            "lang": "fr"
+        })
+    elif level_short == "B1/B2":
         # Split B1/B2 into B1 and B2 separate sessions
         sessions_to_generate.append({
             "idx": idx,
