@@ -611,6 +611,7 @@ def get_film_specific_extras(title, details, lang="en"):
 SENSITIVE_FILMS = {'A Quiet Place': 'intense survival horror, dread, family tragedy, and creature violence',
  'Angels & Demons': 'religious conspiracies, Vatican murders, self-harm, and high-stakes bomb threats',
  'Beautiful Thing': 'working-class LGBTQ+ youth struggles and societal pressure',
+ 'Bird Box': 'extreme survival horror, threat of suicide, and intense emotional trauma',
  'Black Mirror': 'dark dystopian scenarios, technology obsession, and existential dread',
  'Cloud Atlas': 'reincarnation, clone rebellion, slavery, and survival',
  'Countdown': 'fatalistic themes, death anxiety, and intense scares',
@@ -623,6 +624,7 @@ SENSITIVE_FILMS = {'A Quiet Place': 'intense survival horror, dread, family trag
  'Hereditary': 'extreme family horror, generational trauma, and devastating grief',
  'How I Live Now': 'wartime survival and physical/psychological trauma',
  'Incendies': 'war atrocities, profound family trauma, and devastating secrets',
+ 'Call Me by Your Name': 'mature relationships, sexuality, emotional heartbreak, and adult themes',
  'Kill Bill': 'high-stakes violence, absolute betrayal, and revenge',
  'Killing Eve': 'violent assassinations, psychological obsession, and espionage',
  'La Valla (The Barrier)': 'dystopian dictatorship, surveillance, biological testing, epidemic crises, and '
@@ -632,7 +634,6 @@ SENSITIVE_FILMS = {'A Quiet Place': 'intense survival horror, dread, family trag
  'Lucy': 'R-rated drug trafficking, extreme violence, and psychological/neurological transformation',
  'Midsommar': 'cult indoctrination, extreme violence, and profound grief',
  'Miss You Already': 'terminal cancer, chronic suffering, and emotional coping',
- 'Nuts': 'legal sanity, manslaughter, and childhood sexual abuse',
  'Personal Shopper': 'grief over the loss of a sibling, spiritual medium activity, and sudden violence',
  'Queendom': 'political prosecution, LGBTQ+ rights, and performance activism',
  'Run': 'physical captivity, abuse, and medical gaslighting',
@@ -643,7 +644,7 @@ SENSITIVE_FILMS = {'A Quiet Place': 'intense survival horror, dread, family trag
                 'struggles',
  'Suspiria (2018)': 'dark witchcraft, extreme physical violence, and body horror',
  'The Act': 'extreme physical abuse, Munchausen syndrome by proxy, and murder',
- 'The Da Vinci Code': 'religious controversies, secret societies, murder, and historical puzzles',
+ 'The Call': 'intense thriller violence, murder, child abuse/torture, and psychological horror',
  'The Hunger Games': 'state-sponsored violence, survival under oppression, and child tribute battles',
  'The Others': 'profound grief, death, and supernatural isolation',
  'The Pianist': 'extreme wartime tragedy, Holocaust, and survival',
@@ -653,7 +654,7 @@ SENSITIVE_FILMS = {'A Quiet Place': 'intense survival horror, dread, family trag
  'The Substance': 'extreme body horror, severe self-image issues, and physical degradation',
  'V for Vendetta': 'fascist regime, political violence, and extreme control',
  'Why Women Kill': 'infidelity, domestic secrets, and plotting homicide',
- 'Yentl': 'religious gender barriers and personal identity struggles'}
+ 'Equals': 'intense emotional suppression, state-enforced suicide preventions, and mental trauma'}
 
 MISTAKES_CATALOG_STANDARD = [('She works very hard for achieve success',
   'She works very hard to achieve success',
