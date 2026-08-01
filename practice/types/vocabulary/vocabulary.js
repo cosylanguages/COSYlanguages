@@ -216,7 +216,34 @@
 
             console.log('[COSY Practice] getVocabPool result count:', pool.length);
 
-            // Fallback to aggregated window.*Data if pool is empty
+            // Fallback 1: Relax subTheme
+            if (pool.length === 0 && subTheme && subTheme !== 'all') {
+                console.log('[COSY Fallback] Relaxing subTheme');
+                pool = window.gameUtils.getVocabPool(l, level, theme, 'all', { excludeExtra: true });
+                if (pool.length > 0) {
+                    pool = window.gameUtils.filterVocabulary(pool, { lang: l, level, theme, subTheme: 'all', category: uiCat, strict: isStrict });
+                }
+            }
+
+            // Fallback 2: Relax theme
+            if (pool.length === 0 && theme !== 'all') {
+                console.log('[COSY Fallback] Relaxing theme');
+                pool = window.gameUtils.getVocabPool(l, level, 'all', 'all', { excludeExtra: true });
+                if (pool.length > 0) {
+                    pool = window.gameUtils.filterVocabulary(pool, { lang: l, level, theme: 'all', subTheme: 'all', category: uiCat, strict: isStrict });
+                }
+            }
+
+            // Fallback 3: Relax level
+            if (pool.length === 0 && level !== 'all') {
+                console.log('[COSY Fallback] Relaxing level');
+                pool = window.gameUtils.getVocabPool(l, 'all', 'all', 'all', { excludeExtra: true });
+                if (pool.length > 0) {
+                    pool = window.gameUtils.filterVocabulary(pool, { lang: l, level: 'all', theme: 'all', subTheme: 'all', category: uiCat, strict: isStrict });
+                }
+            }
+
+            // Fallback 4: Fallback to aggregated window.*Data if pool is empty
             if (pool.length === 0) {
                 const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'nationalitiesData', 'grammarData', 'grammarElements'];
                 let aggregatedPool = [];
@@ -239,6 +266,24 @@
                 }
             }
 
+            // Fallback 5: Relax category (if Grammar is empty, try Vocabulary)
+            if (pool.length === 0 && uiCat === 'Grammar') {
+                console.log('[COSY Fallback] Relaxing category from Grammar to Vocabulary');
+                pool = window.gameUtils.getVocabPool(l, 'all', 'all', 'all', { excludeExtra: true });
+                if (pool.length > 0) {
+                    pool = window.gameUtils.filterVocabulary(pool, { lang: l, level: 'all', theme: 'all', subTheme: 'all', category: 'Vocabulary', strict: false });
+                }
+            }
+
+            // Fallback 6: Relax language to English
+            if (pool.length === 0 && l !== 'en') {
+                console.log('[COSY Fallback] Relaxing language to en');
+                pool = window.gameUtils.getVocabPool('en', 'all', 'all', 'all', { excludeExtra: true });
+                if (pool.length > 0) {
+                    pool = window.gameUtils.filterVocabulary(pool, { lang: 'en', level: 'all', theme: 'all', subTheme: 'all', category: 'Vocabulary', strict: false });
+                }
+            }
+
             if (window.phrasesData && window.phrasesData[l]) {
                 const phrases = [];
                 Object.values(window.phrasesData[l]).flat().forEach(p => {
@@ -247,14 +292,28 @@
                 pool.push(...window.gameUtils.filterVocabulary(phrases, { lang, level, theme, subTheme, category: uiCat, strict: isStrict }));
             }
         } else if (cat === 'Speaking' || cat === 'speaking') {
-            const s = window.speakingData?.[l] || {};
-            const speakingData = [
+            let s = window.speakingData?.[l] || {};
+            let speakingData = [
                 ...(s.talkThatTalk || []),
                 ...(s.debates || []),
                 ...(s.opinions || []),
                 ...(s.fluency || []),
                 ...(s.quotes || [])
             ];
+
+            // Fallback: If no speaking data in selected language, use English speaking data!
+            if (speakingData.length === 0 && l !== 'en') {
+                console.log('[COSY Fallback] Relaxing speaking language to en');
+                s = window.speakingData?.['en'] || {};
+                speakingData = [
+                    ...(s.talkThatTalk || []),
+                    ...(s.debates || []),
+                    ...(s.opinions || []),
+                    ...(s.fluency || []),
+                    ...(s.quotes || [])
+                ];
+            }
+
             const processedSpeaking = speakingData.map(d => {
                 const item = { ...d };
                 if (item.t && !item.topic) item.topic = item.t;
@@ -267,52 +326,64 @@
                 };
             });
 
-            pool = window.gameUtils.filterVocabulary(processedSpeaking, { lang: l, level, theme, subTheme, category: 'Speaking' });
+            pool = window.gameUtils.filterVocabulary(processedSpeaking, { lang: pool[0]?.language || l, level: 'all', theme: 'all', subTheme: 'all', category: 'Speaking' });
         } else if (cat === 'Pronunciation' || cat === 'pronunciation' || cat === 'Pronunciation 🔊') {
             const codes = (level === 'all') ? Object.values(LEVEL_MAP) : [LEVEL_MAP[level] || 'a1'];
 
-            const tempPool = [];
-            codes.forEach(lvlCode => {
-                const currKey = `${l}_${lvlCode}`;
-                const currData = window.curriculumData?.[currKey] || [];
-                currData.forEach(unit => {
-                    (unit.lessons || []).forEach(lesson => {
-                        if (lesson.pronunciation) {
-                            lesson.pronunciation.forEach(p => {
-                                tempPool.push(...(p.examples || []).map(ex => ({
-                                    ...ex,
-                                    theme: p.point,
-                                    type: 'ls',
-                                    language: l,
-                                    level: lvlCode,
-                                    form: 'pronunciation'
-                                })));
-                                // Fix for entries without examples or alphabet but with point
-                                if (!p.examples && !p.alphabet && p.point) {
-                                    tempPool.push({
-                                        word: p.point,
+            let tempPool = [];
+            const collectFromCurriculum = (langCode) => {
+                const collected = [];
+                codes.forEach(lvlCode => {
+                    const currKey = `${langCode}_${lvlCode}`;
+                    const currData = window.curriculumData?.[currKey] || [];
+                    currData.forEach(unit => {
+                        (unit.lessons || []).forEach(lesson => {
+                            if (lesson.pronunciation) {
+                                lesson.pronunciation.forEach(p => {
+                                    collected.push(...(p.examples || []).map(ex => ({
+                                        ...ex,
                                         theme: p.point,
                                         type: 'ls',
-                                        language: l,
+                                        language: langCode,
                                         level: lvlCode,
                                         form: 'pronunciation'
-                                    });
-                                }
-                                tempPool.push(...(p.alphabet || []).map(a => ({
-                                    word: a.l,
-                                    ipa: a.ipa,
-                                    theme: p.point,
-                                    type: 'ls',
-                                    language: l,
-                                    level: lvlCode,
-                                    form: 'pronunciation'
-                                })));
-                            });
-                        }
+                                    })));
+                                    if (!p.examples && !p.alphabet && p.point) {
+                                        collected.push({
+                                            word: p.point,
+                                            theme: p.point,
+                                            type: 'ls',
+                                            language: langCode,
+                                            level: lvlCode,
+                                            form: 'pronunciation'
+                                        });
+                                    }
+                                    collected.push(...(p.alphabet || []).map(a => ({
+                                        word: a.l,
+                                        ipa: a.ipa,
+                                        theme: p.point,
+                                        type: 'ls',
+                                        language: langCode,
+                                        level: lvlCode,
+                                        form: 'pronunciation'
+                                    })));
+                                });
+                            }
+                        });
                     });
                 });
-            });
-            pool = window.gameUtils.filterVocabulary(tempPool, { lang: l, level, theme, subTheme, category: 'Pronunciation' });
+                return collected;
+            };
+
+            tempPool = collectFromCurriculum(l);
+
+            // Fallback: If pronunciation is empty, try English curriculum pronunciation!
+            if (tempPool.length === 0 && l !== 'en') {
+                console.log('[COSY Fallback] Relaxing pronunciation language to en');
+                tempPool = collectFromCurriculum('en');
+            }
+
+            pool = window.gameUtils.filterVocabulary(tempPool, { lang: tempPool[0]?.language || l, level: 'all', theme: 'all', subTheme: 'all', category: 'Pronunciation' });
         }
 
         let qs = [];

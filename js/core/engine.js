@@ -777,7 +777,70 @@ window.COSY = {
         await Promise.all([legacyLoad, v2Load]);
 
         const key = `${langLow}_${levelLow}`;
-        return (window.curriculumData && window.curriculumData[key]) || [];
+        const units = (window.curriculumData && window.curriculumData[key]) || [];
+
+        // Helper to parse YAML-like key-value pairs from teacher_notes
+        const parseTeacherNotes = (notesStr) => {
+            const res = {};
+            if (!notesStr || typeof notesStr !== 'string') return res;
+
+            const lines = notesStr.split('\n');
+            let currentKey = null;
+            let currentValue = '';
+
+            for (let line of lines) {
+                const match = line.match(/^([a-zA-Z0-9_-]+):\s*(.*)$/);
+                if (match) {
+                    if (currentKey) {
+                        res[currentKey] = currentValue.trim();
+                    }
+                    currentKey = match[1];
+                    currentValue = match[2];
+                } else {
+                    if (currentKey) {
+                        currentValue += '\n' + line;
+                    }
+                }
+            }
+            if (currentKey) {
+                res[currentKey] = currentValue.trim();
+            }
+
+            Object.keys(res).forEach(k => {
+                if (typeof res[k] === 'string') {
+                    if (res[k].startsWith('"') && res[k].endsWith('"')) {
+                        res[k] = res[k].slice(1, -1);
+                    }
+                }
+            });
+
+            if (res.pronunciation) {
+                try {
+                    res.pronunciation = JSON.parse(res.pronunciation);
+                } catch (e) {
+                    console.warn("Failed to parse pronunciation from teacher_notes:", e);
+                }
+            }
+
+            return res;
+        };
+
+        if (Array.isArray(units)) {
+            units.forEach(unit => {
+                (unit.lessons || []).forEach(lesson => {
+                    if (lesson.teacher_notes) {
+                        const parsed = parseTeacherNotes(lesson.teacher_notes);
+                        Object.keys(parsed).forEach(k => {
+                            if (lesson[k] === undefined || lesson[k] === null) {
+                                lesson[k] = parsed[k];
+                            }
+                        });
+                    }
+                });
+            });
+        }
+
+        return units;
     },
 
     setNavContext(html) {
