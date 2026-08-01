@@ -2827,8 +2827,68 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
                         break
 
             if not found:
-                definition = f"Target vocabulary word meaning in '{title}'."
-                example = f"This is an elegant example of using '{w}'."
+                w_lower = w.lower()
+                handcrafted_defs = {
+                    "applaudissement": ("action de battre des mains en signe d'approbation ou de joie.", "La foule a salué la performance de l'artiste par un chaleureux applaudissement."),
+                    "overprotected": ("shielded from danger or difficulties to an excessive degree.", "Some children feel overprotected by their well-meaning parents."),
+                    "happy": ("feeling or showing pleasure or contentment.", "Listening to our favorite songs always makes us feel happy."),
+                    "sacrifice": ("an act of giving up something valued for the sake of something else.", "Achieving long-term goals often requires some level of sacrifice."),
+                    "tiptoe": ("to walk quietly on the tips of one's toes.", "She had to tiptoe across the room so she wouldn't wake anyone up."),
+                    "frightened": ("thrown into a state of intense fear or alarm.", "The sudden loud noise made the frightened child run to his parents."),
+                    "intimacy": ("a state of having a very close physical or personal relationship.", "True friendship requires emotional intimacy and mutual trust."),
+                    "compliment": ("a polite expression of praise or admiration.", "He felt wonderful after receiving a sincere compliment from his teacher."),
+                    "stare": ("to look fixedly or vacantly at someone or something.", "It is polite not to stare at people in public places."),
+                    "welcome": ("received with gladness or delight.", "All new students receive a warm welcome on their first day of class."),
+                    "brain": ("the organ of soft nervous tissue contained in the skull of vertebrates.", "Learning a new language is a great exercise for the human brain."),
+                    "consolation": ("something that makes you feel better when you are sad or disappointed.", "Knowing that she did her best was a small consolation after losing the race."),
+                    "void": ("a completely empty space, or a feeling of emptiness.", "His sudden departure left a deep emotional void in the family."),
+                    "awkward": ("causing or feeling embarrassment or inconvenience.", "There was an awkward silence after he asked the sensitive question."),
+                    "afraid": ("feeling fear or apprehension.", "There is no reason to be afraid of making mistakes when learning."),
+                    "shadow": ("a dark area or shape produced by a body coming between rays of light.", "The tall trees cast a long shadow across the quiet street."),
+                    "walking": ("the activity of taking steps for exercise or travel.", "Regular walking is an easy and effective way to stay healthy."),
+                    "socializing": ("the activity of spending time with other people for pleasure.", "Our speaking club provides a friendly space for socializing."),
+                    "raising": ("the activity of bringing up children or lifting something.", "Raising children requires patience, love, and dedication."),
+                    "curiosity": ("a strong desire to know or learn something.", "A healthy curiosity is the most important trait of a good learner."),
+                    "symbolism": ("the use of symbols to represent ideas or qualities.", "The director used rich visual symbolism to convey the deeper theme."),
+                    "tragic": ("causing or characterized by extreme distress or sorrow.", "The play tells a tragic story of lost love and missed paths."),
+                    "exception": ("a person or thing that is excluded from a general statement.", "Every rule in grammar seems to have at least one exception."),
+                    "distinguish": ("to recognize or point out a difference.", "It is important to distinguish between facts and personal opinions."),
+                    "patience": ("the capacity to accept or tolerate delay or trouble.", "Learning to play an instrument requires a lot of patience."),
+                    "clarity": ("the quality of being coherent, intelligible, or clear.", "We seek to express our thoughts with clarity and confidence."),
+                    "revanche": ("action de reprendre l'avantage sur un adversaire ou un sort défavorable.", "Elle a pris sa revanche en remportant brillamment le deuxième set."),
+                    "gloire": ("grande renommée et admiration publique.", "L'artiste a connu la gloire internationale après son premier album."),
+                    "vulnérabilité": ("fragilité morale ou physique face aux épreuves de la vie.", "Exprimer sa vulnérabilité est souvent une preuve de grand courage."),
+                    "ciel": ("espace visible au-dessus de la Terre, atmosphère.", "Les oiseaux volaient librement sous un ciel bleu et dégagé."),
+                    "attimo": ("un brevissimo spazio di tempo, istante.", "Cogli l'attimo prima que questa magica opportunità svanisca."),
+                    "fluir": ("correr un líquido o dejarse llevar por las circunstancias.", "A veces lo mejor es simplement fluir con los cambios de la vida."),
+                    "hacer daño": ("causar dolor, perjuicio o sufrimiento a alguien.", "Debemos actuar con cuidado para nunca hacer daño a los demás.")
+                }
+                matched_handcrafted = False
+                for hk, (hdef, hexamp) in handcrafted_defs.items():
+                    if hk in w_lower:
+                        definition, example = hdef, hexamp
+                        matched_handcrafted = True
+                        break
+
+                if not matched_handcrafted:
+                    if lang == "fr":
+                        definition = f"concept de '{w}' exploré à travers les paroles et le thème de la chanson."
+                        example = f"Nous avons discuté de l'impact de '{w}' dans notre quotidien."
+                    elif lang == "it":
+                        definition = f"il concetto di '{w}' esplorato attraverso i testi e il tema della canzone."
+                        example = f"Abbiamo discusso l'importance di '{w}' nella vita di tutti i giorni."
+                    elif lang == "es":
+                        definition = f"el concepto de '{w}' explorado a través de las letras y el tema de la canción."
+                        example = f"Discutimos la importancia de '{w}' en nuestra vida cotidiana."
+                    elif lang == "ru":
+                        definition = f"понятие '{w}', раскрываемое через текст и тему песни."
+                        example = f"Мы обсудили, как '{w}' влияет на наши повседневные отношения."
+                    elif lang == "el":
+                        definition = f"η έννοια του/της '{w}' όπως εξερευνάται μέσα από τους στίχους και το θέμα του τραγουδιού."
+                        example = f"Συζητήσαμε πώς το/η '{w}' επηρεάζει την καθημερινότητά μας."
+                    else:
+                        definition = f"the concept of '{w}' as explored in the lyrics and theme."
+                        example = f"We discussed how '{w}' plays an important role in our lives."""
 
             if not definition.endswith((".", "?", "!")):
                 definition += "."
@@ -3587,8 +3647,10 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
 
     r2_statements_html = ""
-    for idx, w in enumerate(vocab_words):
-        t_idx = idx % 10
+    # Truncate Round 2 to exactly 3 broad, high-quality debate prompts to ensure focus and pedagogical quality
+    for idx in range(3):
+        w = vocab_words[idx] if idx < len(vocab_words) else focus
+        t_idx = idx % len(lang_templates["r2"])
         stmt_tpl = lang_templates["r2"][t_idx]
 
         stmt = stmt_tpl.format(title=title, artist=artist, focus=focus, w_lower=w)
@@ -4840,8 +4902,8 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 
 for song in all_karaoke_data:
     slug = song["slug"]
-    if slug not in ["couleur", "speed", "je-suis-un-homme", "fovamai", "zazie-challenge", "mple-challenge"]:
-        continue
+    # Generate all songs to apply fallback definition repairs and round 2 truncation universally
+    pass
     title = song["title"]
     artist = song["artist"]
     level_short = song["level"]
