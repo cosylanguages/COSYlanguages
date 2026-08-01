@@ -12,7 +12,7 @@ To maintain a highly premium experience, we map selected cinema items to appropr
 |---|---|---|---|---|---|---|
 | 1 | **The Devil Wears Prada** | **B1/B2** (Intermediate) | American English | Workplace hierarchies, ambitions, personal cost of success. | *"Gird your loins"*, *"clackers"*, *"groundbreaking"*, *"skimp"*. | **INCLUDED (Featured)** |
 | 2 | **Fleabag** | **C1** (Advanced) | British English | Dry humor, grief, unresolved trauma, modern relationships. | *"Shambles"*, *"dry run"*, *"fancy"*, *"shag"*, *"breaking the fourth wall"*. | **INCLUDED (Featured)** |
-| 3 | **Ratatouille** | **A2** (Elementary) | French Language | Passion, overcoming prejudice, culinary arts, Paris. | *"Chef"*, *"gustatif"*, *"soubrette"*, *"ragoût"*, *"poubelle"*. | **INCLUDED (Featured)** |
+| 3 | **Ratatouille** | **A2** (Elementary) | American English | Passion, overcoming prejudice, culinary arts, Paris. | *"Gourmet"*, *"recipe"*, *"scavenge"*, *"garbage"*, *"critic"*. | **INCLUDED (Featured)** |
 | 4 | **Serebryanye Konki (Silver Skates)** | **B1** (Intermediate) | Russian Language | Class differences, 19th-century Saint Petersburg, social change. | *"Коньки"*, *"карманник"*, *"аристократия"*, *"прорубь"*. | **INCLUDED (Featured)** |
 | 5 | **La Valla (The Barrier)** | **B2** (Upper-Intermediate) | Spanish Language | Dystopian future, state surveillance, survival, solidarity. | *"Racionamiento"*, *"resistencia"*, *"clandestino"*, *"salvoconducto"*. | **INCLUDED (Featured)** |
 | 6 | **Breakfast at Tiffany's** | **B2** (Upper-Intermediate) | American (Mid-Atlantic) | Social climbing, superficiality vs. true connection, loneliness. | *"Social climber"*, *"high spirits"*, *"rattled"*, *"mean reds"*. | **INCLUDED (Featured)** |
@@ -32,7 +32,7 @@ To maintain a highly premium experience, we map selected cinema items to appropr
 | 20 | **The Queen's Gambit** | **B2/C1** (Upper-Intermediate) | Mid-Atlantic / American | Obsession, addiction, intellectual superiority, gender barriers. | *"Checkmate"*, *"opening"*, *"underdog"*, *"prodigy"*. | **INCLUDED** |
 | 21 | **Homeward Bound** | **A2** (Elementary) | American English | Animal loyalty, family bond, navigation and survival. | *"Buddy"*, *"lost in the wild"*, *"sniff out"*, *"pack"*. | **INCLUDED** |
 | 22 | **101 & 102 Dalmatians** | **A2** (Elementary) | British English | Obsession with possessions, pets, comedy villainy. | *"Spots"*, *"dearly beloved"*, *"eccentric"*, *"fur coat"*. | **INCLUDED** |
-| 23 | **Queendom** | **B2** (Upper-Intermediate) | American English | Reality TV aesthetics, competition, fame dynamics. | *"Spill the tea"*, *"clash"*, *"diva"*, *"stage presence"*. | **INCLUDED** |
+| 23 | **Queendom** | **B2** (Upper-Intermediate) | Russian Language | Reality TV aesthetics, competition, fame dynamics. | *"Протест"*, *"активизм"*, *"шоу"*, *"образ"*, *"корона"*. | **INCLUDED** |
 | 24 | **Lost** | **B2** (Upper-Intermediate) | American English | Fate, human nature on a deserted island, mythology. | *"Hatch"*, *"flashback"*, *"castaway"*, *"the others"*. | **INCLUDED** |
 | 25 | **The First Wives Club** | **B1/B2** (Intermediate) | American English | Mid-life divorce, sisterhood, turning grief into triumph. | *"Pre-nup"*, *"get even"*, *"divorcée"*, *"gold digger"*. | **INCLUDED** |
 | 26 | **Stepmom** | **B1/B2** (Intermediate) | American English | Blended families, terminal illness, stepmother complex. | *"Step-parent"*, *"co-parenting"*, *"overstep"*, *"truce"*. | **INCLUDED** |
@@ -106,7 +106,7 @@ To maintain a highly premium experience, we map selected cinema items to appropr
 | 94 | **L'attente** | **B1** (Intermediate) | French Language | Patience, expectation, subconscious illusions, romantic tension. | *"Attente"*, *"patience"*, *"tension"*, *"illusion"*. | **INCLUDED** |
 | 95 | **Karlik Nos (Dwarf Nose)** | **B1** (Intermediate) | Russian Language | Kindheartedness, overcoming curses, inner beauty, loyalty. | *"Проклятие"*, *"колдовство"*, *"доброта"*, *"превращение"*. | **INCLUDED** |
 | 96 | **Destino** | **A2** (Elementary) | American English | Surrealism, destiny, artistic collaboration, time, subconscious desires. | *"Surreal"*, *"artistic spark"*, *"destiny"*, *"time loop"*. | **INCLUDED** |
-| 97 | **Once Upon A Time...** | **B1** (Intermediate) | French Language | Simplicity in fashion, revolutionary millinery, starting an entrepreneurship. | *"Chapeau"*, *"simplicité"*, *"haute société"*, *"couture"*. | **INCLUDED** |
+| 97 | **Once Upon A Time...** | **B1** (Intermediate) | American English | Simplicity in fashion, revolutionary millinery, starting an entrepreneurship. | *"Millinery"*, *"simplicity"*, *"high society"*, *"boutique"*. | **INCLUDED** |
 | 98 | **Once and Forever** | **B2** (Upper-Intermediate) | French / English | Artistic challenging personalities, acting roles, older Coco Chanel reflection. | *"Challenging role"*, *"fame"*, *"personality clash"*, *"elegance"*. | **INCLUDED** |
 
 ---
