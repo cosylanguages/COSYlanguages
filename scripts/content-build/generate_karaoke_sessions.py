@@ -5230,7 +5230,20 @@ for song in all_karaoke_data:
             sources_html=sources_html
         )
 
-    filepath = os.path.join(OUTPUT_DIR, f"{slug}.html")
+    session_output_dir = OUTPUT_DIR
+    if lang != "en":
+        session_output_dir = os.path.join(OUTPUT_DIR, lang)
+        os.makedirs(session_output_dir, exist_ok=True)
+        # Adjust relative paths for nested folder depth
+        formatted_html = formatted_html.replace('href="../../../', 'href="../../../../')
+        formatted_html = formatted_html.replace('href="../../', 'href="../../../')
+        formatted_html = formatted_html.replace('src="../../../', 'src="../../../../')
+        # Also clean up old flat file if it exists to avoid orphans
+        old_flat_path = os.path.join(OUTPUT_DIR, f"{slug}.html")
+        if os.path.exists(old_flat_path):
+            os.remove(old_flat_path)
+
+    filepath = os.path.join(session_output_dir, f"{slug}.html")
     with open(filepath, "w", encoding="utf-8") as fh:
         fh.write(formatted_html)
 
