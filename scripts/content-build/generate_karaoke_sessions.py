@@ -1715,12 +1715,12 @@ VOCAB_DB = {
     "Libre": ("qui a le pouvoir d'agir selon ses propres choix.", "Tu es enfin libre de choisir ton propre chemin professionnel."),
     "Sage": ("qui fait preuve de bon sens, de calme et de mesure.", "Il est important de rester sage mais d'oser prendre des risques."),
     "Âge": ("durée de vie écoulée depuis la naissance d'un être.", "Son cœur bat bien plus vite que ne l'indique son âge réel."),
-    "Cage": ("structure fermée servant à enfermer des animaux ou des esprits.", "Il faut sortir de ta cage mentale pour libérer ton potentiel."),
+    "Cage_fr": ("structure fermée servant à enfermer des animaux ou des esprits.", "Il faut sortir de ta cage mentale pour libérer ton potentiel."),
     "Singe": ("mammifère primate proche de l'homme par son anatomie.", "Le singe se déplace avec agilité de branche en branche."),
     "Poisson": ("animal vertébré aquatique muni de nageoires et de branchies.", "Le poisson nage tranquillement dans les eaux claires du lac."),
     "Saison": ("période de l'année caractérisée par un climat spécifique.", "Sur la Terre en toute saison, la nature change de couleur."),
     "Ambition": ("désir ardent de réussite, de pouvoir ou d'honneurs.", "Il est un jeune homme plein d'ambition professionnelle."),
-    "Illusion": ("fausse apparence ou croyance erronée.", "La publicité crée souvent l'illusion d'un bonheur matériel facile."),
+    "Illusion_fr": ("fausse apparence ou croyance erronée.", "La publicité crée souvent l'illusion d'un bonheur matériel facile."),
     "Béton": ("matériau de construction très résistant composé de ciment.", "Notre monde moderne est coulé dans l'or et le béton des villes."),
     "Prison": ("lieu de détention pour les personnes condamnées, ou restriction.", "Il a le sentiment que son cœur est enfermé dans une prison dorée."),
     "Consommation": ("action d'utiliser des biens et des services pour satisfaire des besoins.", "We are all products of the consumer society in modern times."),
@@ -1840,7 +1840,7 @@ VOCAB_DB = {
     "Retrouver": ("revenir en possession de ce qu'on avait perdu.", "Elle est ravie de retrouver ses anciens camarades."),
     "Changer": ("rendre différent, modifier profondément.", "Il a décidé de changer de carrière pour être plus heureux."),
     "Le souvenir": ("survivance d'une impression passée dans la mémoire.", "Ce voyage restera un magnifique souvenir pour nous tous."),
-    "L'ami": ("personne with whom l'on est lié par l'amitié.", "Un ami fidèle est un trésor précieux dans la vie."),
+    "L'ami": ("personne avec qui l'on est lié d'amitié.", "Un ami fidèle est un trésor précieux dans la vie."),
     "La gare": ("lieu d'arrêt des trains pour les voyageurs.", "Elle l'attend patiemment sur le quai de la gare."),
     "Le destin": ("puissance qui semble régler le cours de la vie.", "Elle croit fermement que son destin est entre ses mains."),
     "La complicité": ("entente profonde et spontanée entre des personnes.", "Leur complicité is évidente dès le premier regard."),
@@ -2288,7 +2288,7 @@ VOCAB_DB = {
     "dormir": ("être dans un état de sommeil, se reposer physiquement et mentalement.", "Il a besoin de dormir au moins huit heures par nuit pour être en forme."),
     "asphalte": ("mélange de bitume et de graviers utilisé pour revêtir les routes.", "La pluie d'été laissait une odeur fraîche sur l'asphalte chaud de la rue."),
     "mourir": ("cesser de vivre, arriver au terme de sa vie.", "Les fleurs finissent par mourir si on oublie de les arroser."),
-    "stone": ("état de torpeur ou d'hébétement, indifférent au monde extérieur.", "Après avoir pris ce médicament, elle se sentait complètement stone."),
+    "stone_fr": ("état de torpeur ou d'hébétement, indifférent au monde extérieur.", "Après avoir pris ce médicament, elle se sentait complètement stone."),
     "tourne": ("mouvement de rotation autour d'un axe.", "La Terre tourne constamment autour du Soleil dans l'espace."),
     "cinéma": ("art de faire des films, ou métaphoriquement faire de la comédie ou du drame.", "Arrête de te faire du cinéma et regarde la réalité en face."),
     "battre": ("frapper de manière répétée, ou lutter avec force contre une difficulté.", "Il faut continuer à se battre pour réaliser nos rêves."),
@@ -2308,7 +2308,10 @@ VOCAB_DB = {
     "console": ("apporter du réconfort à quelqu'un qui est triste ou affligé.", "Il console son frère après la perte de son animal de compagnie."),
     "déteste": ("éprouver une profonde aversion ou de la haine pour quelque chose.", "Elle déteste le mensonge et privilégie toujours la vérité."),
     "déchire": ("diviser ou mettre en pièces, ou métaphoriquement souffrir profondément.", "Ce terrible conflit déchire la communauté depuis des années."),
-    "détruit": ("mettre à bas, ruiner ou faire disparaître complètement.", "La tempête a détruit plusieurs arbres séculaires dans le parc.")
+    "détruit": ("mettre à bas, ruiner ou faire disparaître complètement.", "La tempête a détruit plusieurs arbres séculaires dans le parc."),
+    "Seul": ("qui est sans autre personne, isolé ou unique en son genre.", "Il se sentait parfois seul au milieu de cette foule immense."),
+    "Seule": ("qui est sans autre personne (au féminin), isolée ou sans compagnie.", "Elle se sentait très seule lors de sa première semaine dans cette grande ville."),
+    "Le sacrifice": ("action de renoncer à quelque chose de précieux par devoir ou pour autrui.", "Atteindre ses objectifs demande parfois de grands sacrifices.")
 }
 
 # Standard catalog of common localized mistakes & corrections per language
@@ -2620,49 +2623,49 @@ def get_language_focus(slug, lang):
             title = f"Focus linguistique : {focus}"
             explanation = f"Dans la chanson <strong>{song_title}</strong>, la phrase répétitive <em>\"{chunk}\"</em> illustre parfaitement l'utilisation de <strong>{focus}</strong>. Cette structure favorise : {stabilization}"
             examples = [
-                f"Exemple 1 : Pratiquez cette structure activement dans la discussion.",
-                f"Exemple 2 : Repérez la répétition de ce motif dans les paroles.",
-                f"Exemple 3 : Utilisez cette tournure de phrase dans votre défi final."
+                f"Pratiquez l'expression \"{chunk}\" activement lors de vos échanges durant cette session.",
+                f"Observez comment le motif \"{chunk}\" rythme les couplets et renforce l'émotion du morceau.",
+                f"Essayez d'intégrer \"{chunk}\" ou des tournures similaires dans votre défi final de l'étape 6."
             ]
         elif lang == "ru":
             title = f"Грамматический фокус: {focus}"
             explanation = f"В песне <strong>{song_title}</strong> повторяющийся фрагмент текста <em>\"{chunk}\"</em> иллюстрирует использование <strong>{focus}</strong>. Эта структура помогает: {stabilization}"
             examples = [
-                f"Пример 1: Активно используйте эту структуру в ходе обсуждения.",
-                f"Пример 2: Обратите внимание на повторяемость этого паттерна в тексте.",
-                f"Пример 3: Примените этот речевой оборот в финальном задании."
+                f"Активно используйте выражение \"{chunk}\" в ходе обсуждения во время этой сессии.",
+                f"Обратите внимание, как этот текстовый фрагмент \"{chunk}\" повторяется для создания ритма.",
+                f"Примените оборот \"{chunk}\" или схожие грамматические структуры в финальном задании этапа 6."
             ]
         elif lang == "it":
             title = f"Focus linguistico: {focus}"
             explanation = f"Nella canzone <strong>{song_title}</strong>, il frammento ripetitivo <em>\"{chunk}\"</em> evidenzia l'uso di <strong>{focus}</strong>. Questa struttura aiuta a: {stabilization}"
             examples = [
-                f"Esempio 1: Usa attivamente questa struttura durante la discussione.",
-                f"Esempio 2: Nota la ripetizione di questo schema nel testo.",
-                f"Esempio 3: Applica questo schema nel tuo esercizio finale."
+                f"Usa attivamente l'espressione \"{chunk}\" durante la discussione di questa sessione.",
+                f"Nota la ripetizione del motivo \"{chunk}\" nel testo per dare enfasi al tema.",
+                f"Applica la struttura di \"{chunk}\" nel tuo esercizio di Stage 6 della sfida finale."
             ]
         elif lang == "es":
             title = f"Enfoque lingüístico: {focus}"
             explanation = f"En la canción <strong>{song_title}</strong>, el fragmento repetido <em>\"{chunk}\"</em> resalta el uso de <strong>{focus}</strong>. Esta estructura facilita: {stabilization}"
             examples = [
-                f"Ejemplo 1: Utiliza activamente esta estructura durante el debate.",
-                f"Ejemplo 2: Observa la repetición de este patrón en la letra.",
-                f"Ejemplo 3: Aplica esta estructura en tu desafío final."
+                f"Utiliza activamente la expresión \"{chunk}\" durante el debate de esta sesión.",
+                f"Observa cómo la repetición de \"{chunk}\" refuerza el mensaje de la letra.",
+                f"Aplica la estructura gramatical de \"{chunk}\" en tu desafío de Stage 6."
             ]
         elif lang == "el":
             title = f"Γλωσσική εστίαση: {focus}"
             explanation = f"Στο τραγούδι <strong>{song_title}</strong>, το επαναλαμβανόμενο απόσπασμα <em>\"{chunk}\"</em> αναδεικνύει τη χρήση του <strong>{focus}</strong>. Αυτή η δομή βοηθάει: {stabilization}"
             examples = [
-                f"Παράδειγμα 1: Χρησιμοποιήστε ενεργά αυτή τη δομή κατά τη συζήτηση.",
-                f"Παράδειγμα 2: Παρατηρήστε την επανάληψη αυτού του μοτίβου στους στίχους.",
-                f"Παράδειγμα 3: Εφαρμόστε αυτή τη δομή στην τελική σας πρόκληση."
+                f"Χρησιμοποιήστε ενεργά την έκφραση \"{chunk}\" κατά τη διάρκεια της συζήτησης.",
+                f"Παρατηρήστε πώς η επανάληψη του \"{chunk}\" ενισχύει το ρυθμό και το συναίσθημα.",
+                f"Εφαρμόστε τη δομή του \"{chunk}\" στην τελική πρόκληση του Σταδίου 6."
             ]
         else: # Default English
             title = f"Language Focus: {focus}"
             explanation = f"In the song <strong>{song_title}</strong>, the repetitive lyric chunk <em>\"{chunk}\"</em> highlights the use of <strong>{focus}</strong>. This structure supports: {stabilization}"
             examples = [
-                f"Example 1: Practice using this structure actively during the discussion rounds.",
-                f"Example 2: Notice how this pattern is repeated to build rhythmic familiarity.",
-                f"Example 3: Apply this specific grammatical form in your Stage 6 final speaking challenge."
+                f"Practice using \"{chunk}\" or related forms actively during your discussion rounds today.",
+                f"Notice how the lyric chunk \"{chunk}\" builds rhythmic familiarity and emotional weight.",
+                f"Incorporate the grammatical structure behind \"{chunk}\" in your Stage 6 final speaking challenge."
             ]
         return {
             "title": title,
@@ -2820,11 +2823,22 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
             else:
                 definition, example = ("definition.", "Example sentence.")
                 found = False
-                for k, v in VOCAB_DB.items():
-                    if k.lower() == w.lower() or k.lower().startswith(norm_w.lower()):
-                        definition, example = v
-                        found = True
+                for suffix in [f"_{lang}", ""]:
+                    lookup_key = f"{w}{suffix}" if suffix else w
+                    lookup_norm = f"{norm_w}{suffix}" if suffix else norm_w
+                    for k, v in VOCAB_DB.items():
+                        if k.lower() == lookup_key.lower() or k.lower() == lookup_norm.lower():
+                            definition, example = v
+                            found = True
+                            break
+                    if found:
                         break
+                if not found:
+                    for k, v in VOCAB_DB.items():
+                        if k.lower().startswith(norm_w.lower()):
+                            definition, example = v
+                            found = True
+                            break
 
             if not found:
                 w_lower = w.lower()
