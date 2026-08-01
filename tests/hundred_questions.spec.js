@@ -102,7 +102,4 @@ test('100 Questions standalone game flow verification', async ({ page }) => {
     await netflixLevels.first().click();
     await expect(page.locator('.score-bar')).toContainText('The Hook & Opening Scene');
     await expect(gameCard).toContainText('drone shot');
-
-    // Take a premium verification screenshot
-    await page.screenshot({ path: 'verification/hundred_questions_gameplay.png', fullPage: true });
 });
