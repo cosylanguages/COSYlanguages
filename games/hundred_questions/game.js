@@ -6,7 +6,7 @@
 (function() {
     const GAME_ID = 'hundred_questions';
     const GAME_TITLE = '100 Questions 💬';
-    const GAME_META = 'Speaking · Group & Friends · All Levels';
+    const GAME_META = 'Speaking · Group & Friends · CEFR A2–C2';
 
     // Core UI and State Controller Logic
     let state = {
@@ -18,13 +18,14 @@
         currentLevelIdx: 0,
         currentQuestionIdx: 0,
         passUsed: false,
-        cardFlipped: false // true if Adult-friendly back is revealed
+        cardFlipped: false, // true if Adult-friendly back is revealed
+        selectedAnswerIdx: null // Tracks selected multiple-choice answer
     };
 
     const UI_TEXTS = {
         en: {
             setup_title: "100 Questions 💬",
-            setup_desc: "A game of deep conversations, genuine interest, and absolute honesty. Play with friends, partners, students, or family.",
+            setup_desc: "A game of deep conversations, genuine interest, and absolute honesty. Play with friends, partners, students, or family. (CEFR A2–C2)",
             deck_lbl: "Select Deck",
             lang_lbl: "Select Language",
             subgroup_lbl: "Select Subgroup",
@@ -64,7 +65,7 @@
         },
         ru: {
             setup_title: "100 Вопросов 💬",
-            setup_desc: "Игра для глубоких разговоров, искреннего интереса и абсолютной честности. Играйте с друзьями, близкими, учениками или семьей.",
+            setup_desc: "Игра для глубоких разговоров, искреннего интереса и абсолютной честности. Играйте с друзьями, близкими, учениками или семьей. (CEFR A2–C2)",
             deck_lbl: "Выберите колоду",
             lang_lbl: "Язык вопросов",
             subgroup_lbl: "Выберите подгруппу",
@@ -104,7 +105,7 @@
         },
         fr: {
             setup_title: "100 Questions 💬",
-            setup_desc: "Un jeu de conversations profondes, d'intérêt sincère et d'honnêteté absolue. Jouez avec des amis, des partenaires, des élèves ou la famille.",
+            setup_desc: "Un jeu de conversations profondes, d'intérêt sincère et d'honnêteté absolue. Jouez avec des amis, des partenaires, des élèves ou la famille. (CEFR A2–C2)",
             deck_lbl: "Sélectionner le jeu",
             lang_lbl: "Sélectionner la langue",
             subgroup_lbl: "Sélectionner le sous-groupe",
@@ -220,7 +221,7 @@
                     r_en = 'brother'; r_ru = 'брат'; r_fr = 'frère';
                     rp_en = "brother's"; rp_ru = 'брата'; rp_fr = 'de ton frère';
                 } else {
-                    r_en = 'sister'; r_ru = 'сестра'; r_fr = 'sœur';
+                    r_en = 'sister'; r_ru = 'сестра'; r_fr = 'сестра';
                     rp_en = "sister's"; rp_ru = 'сестры'; rp_fr = 'de ta sœur';
                 }
             }
@@ -593,11 +594,12 @@
                     <div style="display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 2rem;">
                         ${levels.map((lvl, idx) => {
                             const name = lvl.name[state.lang] || lvl.name['en'] || 'Level';
+                            const lvlLevelBadge = state.deckKey === 'civic' ? ' · CEFR B1+' : '';
                             return `
                                 <div class="lvl-card" onclick="COSY_GAME.startLevel(${idx})" style="background: var(--card-bg, rgba(255,255,255,0.7)); backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 16px; padding: 16px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: transform 0.2s, border-color 0.2s;">
                                     <div>
                                         <div style="font-weight: 700; color: var(--ink); font-size: 1.05rem;">${esc(name)}</div>
-                                        <div style="font-size: 0.8rem; color: var(--ink-muted); margin-top: 4px;">${t.q_lbl}s ${lvl.range}</div>
+                                        <div style="font-size: 0.8rem; color: var(--ink-muted); margin-top: 4px;">${t.q_lbl}s ${lvl.range}${lvlLevelBadge}</div>
                                     </div>
                                     <div style="font-size: 1.2rem; color: var(--teal);">▶</div>
                                 </div>
@@ -617,6 +619,7 @@
             state.currentQuestionIdx = 0;
             state.passUsed = false;
             state.cardFlipped = false;
+            state.selectedAnswerIdx = null;
             COSY_GAME.renderQuestion();
         },
 
@@ -625,6 +628,20 @@
                 state.cardFlipped = !state.cardFlipped;
                 COSY_GAME.renderQuestion();
             }
+        },
+
+        selectAnswer(idx, correctIdx) {
+            if (state.selectedAnswerIdx !== null) return; // Answer already selected
+            state.selectedAnswerIdx = idx;
+
+            if (window.gameUtils && gameUtils.playGameSound) {
+                if (idx === correctIdx) {
+                    gameUtils.playGameSound('success');
+                } else {
+                    gameUtils.playGameSound('error');
+                }
+            }
+            COSY_GAME.renderQuestion();
         },
 
         renderQuestion() {
@@ -661,6 +678,41 @@
                    </span>`
                 : '';
 
+            // Handle multiple-choice options (e.g. for Civic deck)
+            let optionsHTML = '';
+            let qOptionsObj = q.options;
+            // If subgroup exists in options, load that subgroup's options
+            if (qOptionsObj && qOptionsObj[state.subgroup]) {
+                const subObj = qOptionsObj[state.subgroup];
+                const optList = subObj[state.lang] || subObj['en'] || [];
+                const correctIdx = subObj.correct;
+
+                optionsHTML = `
+                    <div class="word-options" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 2rem;" onclick="event.stopPropagation()">
+                        ${optList.map((opt, oIdx) => {
+                            let statusClass = '';
+                            let statusStyle = '';
+                            if (state.selectedAnswerIdx !== null) {
+                                if (oIdx === correctIdx) {
+                                    statusClass = 'correct';
+                                    statusStyle = 'border-color: var(--green); background: var(--green-light); color: var(--green); font-weight: bold;';
+                                } else if (oIdx === state.selectedAnswerIdx) {
+                                    statusClass = 'wrong';
+                                    statusStyle = 'border-color: var(--coral); background: var(--coral-light); color: var(--coral); text-decoration: line-through;';
+                                } else {
+                                    statusStyle = 'opacity: 0.6; pointer-events: none;';
+                                }
+                            }
+                            return `
+                                <button class="word-opt ${statusClass}" onclick="COSY_GAME.selectAnswer(${oIdx}, ${correctIdx})" style="padding: 12px; border-radius: 12px; border: 1px solid var(--border); font-size: 0.95rem; cursor: pointer; text-align: left; transition: all 0.2s; ${statusStyle}">
+                                    ${esc(opt)}
+                                </button>
+                            `;
+                        }).join('')}
+                    </div>
+                `;
+            }
+
             body.innerHTML = `
                 <div class="gameplay-screen" style="max-width: 600px; margin: 0 auto; padding: 1.5rem 1rem;">
                     <div class="score-bar" style="display: flex; justify-content: space-between; margin-bottom: 1.5rem; background: var(--card-bg, rgba(255,255,255,0.7)); backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 12px; padding: 10px 16px;">
@@ -691,6 +743,9 @@
                         </div>
 
                         ${hasTwoSides ? `<div style="font-size: 0.8rem; color: var(--ink-muted); font-weight: 600; letter-spacing: 0.05em;">${t.click_to_flip}</div>` : ''}
+
+                        <!-- Multiple Choice Options -->
+                        ${optionsHTML}
 
                         <div style="display: flex; justify-content: center; gap: 10px; margin-top: 1rem;" onclick="event.stopPropagation()">
                             <button onclick="COSY_GAME.speakQuestion()" style="background: rgba(107, 143, 113, 0.1); border: none; border-radius: 50px; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 1.2rem;" title="Listen">
@@ -756,6 +811,7 @@
             if (state.currentQuestionIdx > 0) {
                 state.currentQuestionIdx--;
                 state.cardFlipped = false; // Reset flip state
+                state.selectedAnswerIdx = null; // Reset selection state
                 COSY_GAME.renderQuestion();
             }
         },
@@ -766,6 +822,7 @@
             if (state.currentQuestionIdx < level.questions.length - 1) {
                 state.currentQuestionIdx++;
                 state.cardFlipped = false; // Reset flip state
+                state.selectedAnswerIdx = null; // Reset selection state
                 COSY_GAME.renderQuestion();
             } else {
                 COSY_GAME.renderCompletion();

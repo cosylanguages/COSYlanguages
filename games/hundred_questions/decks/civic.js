@@ -20,102 +20,2242 @@
                 {
                     "en": "What is the capital city of {country_name}?",
                     "ru": "Как называется столица {country_name}?",
-                    "fr": "Quelle est la capitale de {country_name} ?"
+                    "fr": "Quelle est la capitale de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Washington, D.C.",
+                                "New York City",
+                                "Philadelphia",
+                                "Los Angeles"
+                            ],
+                            "ru": [
+                                "Вашингтон, округ Колумбия",
+                                "Нью-Йорк",
+                                "Филадельфия",
+                                "Лос-Анджелес"
+                            ],
+                            "fr": [
+                                "Washington, D.C.",
+                                "New York",
+                                "Philadelphie",
+                                "Los Angeles"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "London",
+                                "Edinburgh",
+                                "Cardiff",
+                                "Belfast"
+                            ],
+                            "ru": [
+                                "Лондон",
+                                "Эдинбург",
+                                "Кардифф",
+                                "Белфаст"
+                            ],
+                            "fr": [
+                                "Londres",
+                                "Édimbourg",
+                                "Cardiff",
+                                "Belfast"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Ottawa",
+                                "Toronto",
+                                "Montreal",
+                                "Vancouver"
+                            ],
+                            "ru": [
+                                "Оттава",
+                                "Торонто",
+                                "Монреаль",
+                                "Ванкувер"
+                            ],
+                            "fr": [
+                                "Ottawa",
+                                "Toronto",
+                                "Montréal",
+                                "Vancouver"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Paris",
+                                "Lyon",
+                                "Marseille",
+                                "Bordeaux"
+                            ],
+                            "ru": [
+                                "Париж",
+                                "Лион",
+                                "Марсель",
+                                "Бордо"
+                            ],
+                            "fr": [
+                                "Paris",
+                                "Lyon",
+                                "Marseille",
+                                "Bordeaux"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow",
+                                "Saint Petersburg",
+                                "Novosibirsk",
+                                "Kazan"
+                            ],
+                            "ru": [
+                                "Москва",
+                                "Санкт-Петербург",
+                                "Новосибирск",
+                                "Казань"
+                            ],
+                            "fr": [
+                                "Moscou",
+                                "Saint-Pétersbourg",
+                                "Novossibirsk",
+                                "Kazan"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
                     "en": "Name one of the longest rivers or major oceans bordering {country_name}.",
                     "ru": "Назовите одну из самых длинных рек или океанов, омывающих {country_name}.",
-                    "fr": "Nommez l'un des plus longs fleuves ou océans bordant {country_name}."
+                    "fr": "Nommez l'un des plus longs fleuves ou océans bordant {country_name}.",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Mississippi River",
+                                "Nile River",
+                                "Amazon River",
+                                "Yangtze River"
+                            ],
+                            "ru": [
+                                "Река Миссисипи",
+                                "Река Нил",
+                                "Река Амазонка",
+                                "Река Янцзы"
+                            ],
+                            "fr": [
+                                "Le Mississippi",
+                                "Le Nil",
+                                "L'Amazone",
+                                "Le Yangtsé"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "River Severn",
+                                "River Rhine",
+                                "River Seine",
+                                "Danube River"
+                            ],
+                            "ru": [
+                                "Река Северн",
+                                "Река Рейн",
+                                "Река Сена",
+                                "Река Дунай"
+                            ],
+                            "fr": [
+                                "La Severn",
+                                "Le Rhin",
+                                "La Seine",
+                                "Le Danube"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Mackenzie River",
+                                "St. Lawrence River",
+                                "Pacific Ocean",
+                                "All of the above"
+                            ],
+                            "ru": [
+                                "Река Маккензи",
+                                "Река Святого Лаврентия",
+                                "Тихий океан",
+                                "Всё вышеперечисленное"
+                            ],
+                            "fr": [
+                                "Le Mackenzie",
+                                "Le Saint-Laurent",
+                                "L'océan Pacifique",
+                                "Tout ce qui précede"
+                            ],
+                            "correct": 3
+                        },
+                        "france": {
+                            "en": [
+                                "Loire River",
+                                "Rhine River",
+                                "Seine River",
+                                "All of the above"
+                            ],
+                            "ru": [
+                                "Река Луара",
+                                "Река Рейн",
+                                "Река Сена",
+                                "Всё вышеперечисленное"
+                            ],
+                            "fr": [
+                                "La Loire",
+                                "Le Rhin",
+                                "La Seine",
+                                "Tout ce qui précede"
+                            ],
+                            "correct": 3
+                        },
+                        "russia": {
+                            "en": [
+                                "Lena River",
+                                "Ob River",
+                                "Volga River",
+                                "All of the above"
+                            ],
+                            "ru": [
+                                "Река Лена",
+                                "Река Обь",
+                                "Река Волга",
+                                "Всё вышеперечисленное"
+                            ],
+                            "fr": [
+                                "La Léna",
+                                "L'Ob",
+                                "La Volga",
+                                "Tout ce qui précede"
+                            ],
+                            "correct": 3
+                        }
+                    }
                 },
                 {
-                    "en": "What ocean is on the East Coast of the United States?",
-                    "ru": "Какой океан омывает восточное побережье США?",
-                    "fr": "Quel océan borde la côte est des États-Unis ?"
+                    "en": "What ocean is on the East Coast of the United States or borders the west of France?",
+                    "ru": "Какой океан находится у восточного побережья США или омывает запад Франции?",
+                    "fr": "Quel océan se trouve sur la côte est des États-Unis ou borde l'ouest de la France ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Atlantic Ocean",
+                                "Pacific Ocean",
+                                "Indian Ocean",
+                                "Arctic Ocean"
+                            ],
+                            "ru": [
+                                "Атлантический океан",
+                                "Тихий океан",
+                                "Индийский океан",
+                                "Северный Ледовитый океан"
+                            ],
+                            "fr": [
+                                "Océan Atlantique",
+                                "Océan Pacifique",
+                                "Océan Indien",
+                                "Océan Arctique"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Atlantic Ocean",
+                                "Pacific Ocean",
+                                "Indian Ocean",
+                                "Southern Ocean"
+                            ],
+                            "ru": [
+                                "Атлантический океан",
+                                "Тихий океан",
+                                "Индийский океан",
+                                "Южный океан"
+                            ],
+                            "fr": [
+                                "Océan Atlantique",
+                                "Océan Pacifique",
+                                "Océan Indien",
+                                "Océan Austral"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Atlantic Ocean",
+                                "Pacific Ocean",
+                                "Arctic Ocean",
+                                "All of the above"
+                            ],
+                            "ru": [
+                                "Атлантический океан",
+                                "Тихий океан",
+                                "Северный Ледовитый океан",
+                                "Всё вышеперечисленное"
+                            ],
+                            "fr": [
+                                "Océan Atlantique",
+                                "Océan Pacifique",
+                                "Océan Arctique",
+                                "Tout ce qui précede"
+                            ],
+                            "correct": 3
+                        },
+                        "france": {
+                            "en": [
+                                "Atlantic Ocean",
+                                "Pacific Ocean",
+                                "Indian Ocean",
+                                "Arctic Ocean"
+                            ],
+                            "ru": [
+                                "Атлантический океан",
+                                "Тихий океан",
+                                "Индийский океан",
+                                "Северный Ледовитый океан"
+                            ],
+                            "fr": [
+                                "Océan Atlantique",
+                                "Océan Pacifique",
+                                "Océan Indien",
+                                "Océan Arctique"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Pacific Ocean",
+                                "Atlantic Ocean",
+                                "Indian Ocean",
+                                "Southern Ocean"
+                            ],
+                            "ru": [
+                                "Тихий океан",
+                                "Атлантический океан",
+                                "Индийский океан",
+                                "Южный океан"
+                            ],
+                            "fr": [
+                                "Océan Pacifique",
+                                "Océan Atlantique",
+                                "Océan Indien",
+                                "Océan Austral"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is the supreme law of the land in {country_name}?",
-                    "ru": "Что является высшим законом страны в {country_name}?",
-                    "fr": "Quelle est la loi suprême du pays en {country_name} ?"
+                    "en": "What is the supreme law or constitutional foundation of the land in {country_name}?",
+                    "ru": "Что является высшим законом страны или конституционной основой в {country_name}?",
+                    "fr": "Quelle est la loi suprême ou le fondement constitutionnel du pays en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "The Constitution",
+                                "The Declaration of Independence",
+                                "The Articles of Confederation",
+                                "The Federalist Papers"
+                            ],
+                            "ru": [
+                                "Конституция",
+                                "Декларация независимости",
+                                "Статьи Конфедерации",
+                                "Записки Федералиста"
+                            ],
+                            "fr": [
+                                "La Constitution",
+                                "La Déclaration d'Indépendance",
+                                "Les Articles de la Confédération",
+                                "Les Federalist Papers"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Constitutional Law & Statutes",
+                                "The Magna Carta",
+                                "The Bill of Rights 1689",
+                                "All of the above"
+                            ],
+                            "ru": [
+                                "Конституционное право и статуты",
+                                "Великая хартия вольностей",
+                                "Билль о правах 1689 года",
+                                "Всё вышеперечисленное"
+                            ],
+                            "fr": [
+                                "Le droit constitutionnel",
+                                "La Magna Carta",
+                                "La Déclaration des Droits de 1689",
+                                "Tout ce qui précede"
+                            ],
+                            "correct": 3
+                        },
+                        "canada": {
+                            "en": [
+                                "The Constitution Act, 1982",
+                                "The British North America Act",
+                                "The Magna Carta",
+                                "The Common Law Statutes"
+                            ],
+                            "ru": [
+                                "Конституционный акт 1982 года",
+                                "Акт о Британской Северной Америке",
+                                "Великая хартия вольностей",
+                                "Статуты общего права"
+                            ],
+                            "fr": [
+                                "La Loi constitutionnelle de 1982",
+                                "L'Acte de l'Amérique du Nord britannique",
+                                "La Magna Carta",
+                                "Les statuts de la Common Law"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "The Constitution of the Fifth Republic",
+                                "The Declaration of the Rights of Man",
+                                "The Civil Code",
+                                "The Penal Code"
+                            ],
+                            "ru": [
+                                "Конституция Пятой республики",
+                                "Декларация прав человека и гражданина",
+                                "Гражданский кодекс",
+                                "Уголовный кодекс"
+                            ],
+                            "fr": [
+                                "La Constitution de la Ve République",
+                                "La Déclaration des Droits de l'Homme et du Citoyen",
+                                "Le Code Civil",
+                                "Le Code Pénal"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "The Constitution of the Russian Federation",
+                                "The Civil Code",
+                                "The Declaration of Sovereignty",
+                                "The Federal Statutes"
+                            ],
+                            "ru": [
+                                "Конституция Российской Федерации",
+                                "Гражданский кодекс",
+                                "Декларация о соверенитете",
+                                "Федеральные законы"
+                            ],
+                            "fr": [
+                                "La Constitution de la Fédération de Russie",
+                                "Le Code Civil",
+                                "La Déclaration de Souveraineté",
+                                "Les statuts fédéraux"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "How many provinces or states are there in {country_name}?",
-                    "ru": "Сколько провинций или штатов насчитывается в {country_name}?",
-                    "fr": "Combien de provinces ou d'États y a-t-il en {country_name} ?"
+                    "en": "How many federal provinces, states, or regions are there in {country_name}?",
+                    "ru": "Сколько провинций, штатов или регионов в {country_name}?",
+                    "fr": "Combien de provinces, d'États ou de régions y a-t-il en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "50 states",
+                                "48 states",
+                                "52 states",
+                                "13 states"
+                            ],
+                            "ru": [
+                                "50 штатов",
+                                "48 штатов",
+                                "52 штата",
+                                "13 штатов"
+                            ],
+                            "fr": [
+                                "50 États",
+                                "48 États",
+                                "52 États",
+                                "13 États"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "4 countries (England, Scotland, Wales, Northern Ireland)",
+                                "3 countries",
+                                "5 countries",
+                                "12 regions"
+                            ],
+                            "ru": [
+                                "4 страны (Англия, Шотландия, Уэльс, Северная Ирландия)",
+                                "3 страны",
+                                "5 стран",
+                                "12 регионов"
+                            ],
+                            "fr": [
+                                "4 nations (Angleterre, Écosse, Pays de Galles, Irlande du Nord)",
+                                "3 nations",
+                                "5 nations",
+                                "12 régions"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "10 provinces and 3 territories",
+                                "12 provinces and 1 territory",
+                                "10 provinces and 5 territories",
+                                "50 provinces"
+                            ],
+                            "ru": [
+                                "10 провинций и 3 территории",
+                                "12 провинций и 1 территория",
+                                "10 провинций и 5 территорий",
+                                "50 провинций"
+                            ],
+                            "fr": [
+                                "10 provinces et 3 territoires",
+                                "12 provinces et 1 territoire",
+                                "10 provinces et 5 territoires",
+                                "50 provinces"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "18 regions (13 metropolitan and 5 overseas)",
+                                "22 regions",
+                                "10 regions",
+                                "96 departments"
+                            ],
+                            "ru": [
+                                "18 регионов (13 метрополий и 5 заморских)",
+                                "22 региона",
+                                "10 регионов",
+                                "96 департаментов"
+                            ],
+                            "fr": [
+                                "18 régions (13 métropolitaines et 5 d'outre-mer)",
+                                "22 régions",
+                                "10 régions",
+                                "96 départements"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "89 federal subjects",
+                                "50 regions",
+                                "15 republics",
+                                "83 federal subjects"
+                            ],
+                            "ru": [
+                                "89 субъектов федерации",
+                                "50 областей",
+                                "15 республик",
+                                "83 субъекта федерации"
+                            ],
+                            "fr": [
+                                "89 sujets fédéraux",
+                                "50 régions",
+                                "15 républiques",
+                                "83 sujets fédéraux"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #6 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #6 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #6 de {country_name} ?"
+                    "en": "What is the national floral or plant symbol of {country_name}?",
+                    "ru": "Какое растение является национальным символом {country_name}?",
+                    "fr": "Quel est le symbole floral ou végétal national de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Rose",
+                                "Oak Tree",
+                                "Eagle Flower",
+                                "Sunflower"
+                            ],
+                            "ru": [
+                                "Роза",
+                                "Дуб",
+                                "Орлиный цветок",
+                                "Подсолнух"
+                            ],
+                            "fr": [
+                                "La rose",
+                                "Le chêne",
+                                "La fleur d'aigle",
+                                "Le tournesol"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Rose (England), Thistle (Scotland), Daffodil (Wales), Shamrock (NI)",
+                                "Oak",
+                                "Lavender",
+                                "Maple Leaf"
+                            ],
+                            "ru": [
+                                "Роза (Англия), Чертополох (Шотландия), Нарцисс (Уэльс), Трилистник (С. Ирландия)",
+                                "Дуб",
+                                "Лаванда",
+                                "Кленовый лист"
+                            ],
+                            "fr": [
+                                "Rose (Angleterre), Chardon (Écosse), Jonquille (Galles), Trèfle (Irlande du N.)",
+                                "Le chêne",
+                                "La lavande",
+                                "La feuille d'érable"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Maple Leaf / Maple Tree",
+                                "Oak Tree",
+                                "Rose",
+                                "Pine Tree"
+                            ],
+                            "ru": [
+                                "Кленовый лист / Клён",
+                                "Дуб",
+                                "Роза",
+                                "Сосна"
+                            ],
+                            "fr": [
+                                "La feuille d'érable / L'érable",
+                                "Le chêne",
+                                "La rose",
+                                "Le pin"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Lily (Iris) / Marianne symbols",
+                                "Rose",
+                                "Daisy",
+                                "Thistle"
+                            ],
+                            "ru": [
+                                "Лилия (ирис) / Символы Марианны",
+                                "Роза",
+                                "Маргаритка",
+                                "Чертополох"
+                            ],
+                            "fr": [
+                                "La fleur de lys / Les symboles de Marianne",
+                                "La rose",
+                                "La marguerite",
+                                "Le chardon"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Chamomile (Camomile) & Birch Tree",
+                                "Red Rose",
+                                "Oak Leaf",
+                                "Tulip"
+                            ],
+                            "ru": [
+                                "Ромашка и берёза",
+                                "Красная роза",
+                                "Дубовый лист",
+                                "Тюльпан"
+                            ],
+                            "fr": [
+                                "La camomille et le bouleau",
+                                "La rose rouge",
+                                "La feuille de chêne",
+                                "La tulipe"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #7 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #7 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #7 de {country_name} ?"
+                    "en": "Which country borders {country_name} directly?",
+                    "ru": "Какая страна напрямую граничит с {country_name}?",
+                    "fr": "Quel pays partage une frontière directe avec {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Canada and Mexico",
+                                "Cuba and Bahamas",
+                                "United Kingdom",
+                                "Russia"
+                            ],
+                            "ru": [
+                                "Канада и Мексика",
+                                "Куба и Багамы",
+                                "Великобритания",
+                                "Россия"
+                            ],
+                            "fr": [
+                                "Le Canada et le Mexique",
+                                "Cuba et les Bahamas",
+                                "Le Royaume-Uni",
+                                "La Russie"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Ireland (shares land border on Northern Ireland)",
+                                "France",
+                                "Iceland",
+                                "Norway"
+                            ],
+                            "ru": [
+                                "Ирландия (сухопутная граница с Северной Ирландией)",
+                                "Франция",
+                                "Исландия",
+                                "Норвегия"
+                            ],
+                            "fr": [
+                                "L'Irlande (partagée avec l'Irlande du Nord)",
+                                "La France",
+                                "L'Islande",
+                                "La Norvège"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "United States",
+                                "Mexico",
+                                "Greenland",
+                                "Russia"
+                            ],
+                            "ru": [
+                                "США",
+                                "Мексика",
+                                "Гренландия",
+                                "Россия"
+                            ],
+                            "fr": [
+                                "Les États-Unis",
+                                "Le Mexique",
+                                "Le Groenland",
+                                "La Russie"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Belgium, Germany, Italy, Spain",
+                                "United Kingdom",
+                                "Portugal",
+                                "Poland"
+                            ],
+                            "ru": [
+                                "Бельгия, Германия, Италия, Испания",
+                                "Великобритания",
+                                "Португалия",
+                                "Польша"
+                            ],
+                            "fr": [
+                                "La Belgique, l'Allemagne, l'Italie, l'Espagne",
+                                "Le Royaume-Uni",
+                                "Le Portugal",
+                                "La Pologne"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "China, Mongolia, Kazakhstan, Finland, etc.",
+                                "Japan",
+                                "United States",
+                                "Turkey"
+                            ],
+                            "ru": [
+                                "Китай, Монголия, Казахстан, Финляндия и др.",
+                                "Япония",
+                                "США",
+                                "Турция"
+                            ],
+                            "fr": [
+                                "La Chine, la Mongolie, le Kazakhstan, la Finlande, etc.",
+                                "Le Japon",
+                                "Les États-Unis",
+                                "La Turquie"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #8 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #8 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #8 de {country_name} ?"
+                    "en": "What is the official currency of {country_name}?",
+                    "ru": "Какая валюта является официальной в {country_name}?",
+                    "fr": "Quelle est la monnaie officielle de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "US Dollar ($)",
+                                "British Pound (£)",
+                                "Euro (€)",
+                                "Canadian Dollar (C$)"
+                            ],
+                            "ru": [
+                                "Доллар США ($)",
+                                "Британский фунт (£)",
+                                "Евро (€)",
+                                "Канадский доллар (C$)"
+                            ],
+                            "fr": [
+                                "Dollar américain ($)",
+                                "Livre sterling (£)",
+                                "Euro (€)",
+                                "Dollar canadien (C$)"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "British Pound (£)",
+                                "Euro (€)",
+                                "US Dollar ($)",
+                                "Irish Punt"
+                            ],
+                            "ru": [
+                                "Британский фунт (£)",
+                                "Евро (€)",
+                                "Доллар США ($)",
+                                "Ирландский фунт"
+                            ],
+                            "fr": [
+                                "Livre sterling (£)",
+                                "Euro (€)",
+                                "Dollar américain ($)",
+                                "Livre irlandaise"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Canadian Dollar (C$)",
+                                "US Dollar ($)",
+                                "British Pound (£)",
+                                "French Franc"
+                            ],
+                            "ru": [
+                                "Канадский доллар (C$)",
+                                "Доллар США ($)",
+                                "Британский фунт (£)",
+                                "Французский франк"
+                            ],
+                            "fr": [
+                                "Dollar canadien (C$)",
+                                "Dollar américain ($)",
+                                "Livre sterling (£)",
+                                "Franc français"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Euro (€)",
+                                "French Franc (FRF)",
+                                "British Pound (£)",
+                                "Swiss Franc"
+                            ],
+                            "ru": [
+                                "Евро (€)",
+                                "Французский франк (FRF)",
+                                "Британский фунт (£)",
+                                "Швейцарский франк"
+                            ],
+                            "fr": [
+                                "Euro (€)",
+                                "Franc français (FRF)",
+                                "Livre sterling (£)",
+                                "Franc suisse"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Russian Ruble (RUB)",
+                                "Hryvnia",
+                                "Tenge",
+                                "US Dollar ($)"
+                            ],
+                            "ru": [
+                                "Российский рубль (RUB)",
+                                "Гривна",
+                                "Тенге",
+                                "Доллар США ($)"
+                            ],
+                            "fr": [
+                                "Rouble russe (RUB)",
+                                "Hryvnia",
+                                "Tenge",
+                                "Dollar américain ($)"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #9 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #9 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #9 de {country_name} ?"
+                    "en": "What is the title of the national anthem of {country_name}?",
+                    "ru": "Как называется государственный гимн {country_name}?",
+                    "fr": "Quel est le titre de l'hymne national de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "The Star-Spangled Banner",
+                                "America the Beautiful",
+                                "God Bless America",
+                                "My Country, 'Tis of Thee"
+                            ],
+                            "ru": [
+                                "Знамя, усыпанное звёздами",
+                                "Америка прекрасна",
+                                "Боже, благослови Америку",
+                                "Моя страна"
+                            ],
+                            "fr": [
+                                "The Star-Spangled Banner",
+                                "America the Beautiful",
+                                "God Bless America",
+                                "My Country, 'Tis of Thee"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "God Save the King/Queen",
+                                "Rule, Britannia!",
+                                "Land of Hope and Glory",
+                                "Jerusalem"
+                            ],
+                            "ru": [
+                                "Боже, храни Короля/Королеву",
+                                "Правь, Британия!",
+                                "Земля надежды и славы",
+                                "Иерусалим"
+                            ],
+                            "fr": [
+                                "God Save the King/Queen",
+                                "Rule, Britannia!",
+                                "Land of Hope and Glory",
+                                "Jerusalem"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "O Canada",
+                                "God Save the King",
+                                "The Maple Leaf Forever",
+                                "Land of the Silver Birch"
+                            ],
+                            "ru": [
+                                "О Сanada",
+                                "Боже, храни Короля",
+                                "Кленовый лист навсегда",
+                                "Земля серебряной берёзы"
+                            ],
+                            "fr": [
+                                "Ô Canada",
+                                "Dieu protège le Roi",
+                                "The Maple Leaf Forever",
+                                "Terre du bouleau argenté"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "La Marseillaise",
+                                "Le Chant du Départ",
+                                "L'Internationale",
+                                "Maréchal, nous voilà !"
+                            ],
+                            "ru": [
+                                "Марсельеза",
+                                "Песня исхода",
+                                "Интернационал",
+                                "Маршал, мы здесь!"
+                            ],
+                            "fr": [
+                                "La Marseillaise",
+                                "Le Chant du Départ",
+                                "L'Internationale",
+                                "Maréchal, nous voilà !"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "State Anthem of the Russian Federation (Hymn of Russia)",
+                                "Patrioticheskaya Pesnya",
+                                "God Save the Tsar",
+                                "The Internationale"
+                            ],
+                            "ru": [
+                                "Государственный гимн Российской Федерации",
+                                "Патриотическая песня",
+                                "Боже, Царя храни!",
+                                "Интернационал"
+                            ],
+                            "fr": [
+                                "Hymne de la Fédération de Russie",
+                                "Chant patriotique",
+                                "Dieu protège le Tsar",
+                                "L'Internationale"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #10 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #10 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #10 de {country_name} ?"
+                    "en": "What is the national animal or symbolic beast of {country_name}?",
+                    "ru": "Какое животное является национальным символом {country_name}?",
+                    "fr": "Quel est l'animal national ou le symbole de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Bald Eagle",
+                                "Grizzly Bear",
+                                "American Bison",
+                                "Golden Eagle"
+                            ],
+                            "ru": [
+                                "Лысый орёл",
+                                "Медведь гризли",
+                                "Американский бизон",
+                                "Беркут"
+                            ],
+                            "fr": [
+                                "Le pygargue à tête blanche",
+                                "Le grizzly",
+                                "Le bison d'Amérique",
+                                "L'aigle royal"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Lion (and Unicorn)",
+                                "Bulldog",
+                                "Red Deer",
+                                "European Robin"
+                            ],
+                            "ru": [
+                                "Лев (и Единорог)",
+                                "Бульдог",
+                                "Благородный олень",
+                                "Зарянка"
+                            ],
+                            "fr": [
+                                "Le lion (et la licorne)",
+                                "Le bouledogue",
+                                "Le cerf élaphe",
+                                "Le rouge-gorge"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "North American Beaver",
+                                "Moose",
+                                "Polar Bear",
+                                "Canada Goose"
+                            ],
+                            "ru": [
+                                "Североамериканский бобр",
+                                "Лось",
+                                "Белый медведь",
+                                "Канадская казарка"
+                            ],
+                            "fr": [
+                                "Le castor d'Amérique du Nord",
+                                "L'orignal",
+                                "L'ours polaire",
+                                "La bernache du Canada"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Gallic Rooster",
+                                "French Bulldog",
+                                "Brown Bear",
+                                "Imperial Eagle"
+                            ],
+                            "ru": [
+                                "Галльский петух",
+                                "Французский бульдог",
+                                "Бурый медведь",
+                                "Императорский орёл"
+                            ],
+                            "fr": [
+                                "Le coq gaulois",
+                                "Le bouledogue français",
+                                "L'ours brun",
+                                "L'aigle impérial"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Russian Bear (Brown Bear)",
+                                "Siberian Tiger",
+                                "Double-headed Eagle",
+                                "Snow Leopard"
+                            ],
+                            "ru": [
+                                "Русский медведь (бурый медведь)",
+                                "Амурский тигр",
+                                "Двуглавый орёл",
+                                "Снежный барс"
+                            ],
+                            "fr": [
+                                "L'ours russe (ours brun)",
+                                "Le tigre de Sibérie",
+                                "L'aigle à deux têtes",
+                                "Le léopard des neiges"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #11 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #11 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #11 de {country_name} ?"
+                    "en": "What is the official national flag's primary colors of {country_name}?",
+                    "ru": "Каковы основные цвета государственного флага {country_name}?",
+                    "fr": "Quelles sont les couleurs principales du drapeau national de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Red, White, and Blue",
+                                "Red, Yellow, and Blue",
+                                "Green, White, and Red",
+                                "Red, White, and Green"
+                            ],
+                            "ru": [
+                                "Красный, белый и синий",
+                                "Красный, жёлтый и синий",
+                                "Зелёный, белый и красный",
+                                "Красный, белый и зелёный"
+                            ],
+                            "fr": [
+                                "Rouge, blanc et bleu",
+                                "Rouge, jaune et bleu",
+                                "Vert, blanc et rouge",
+                                "Rouge, blanc et vert"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Red, White, and Blue (Union Jack)",
+                                "Red, White, and Green",
+                                "Blue and Yellow",
+                                "White and Blue"
+                            ],
+                            "ru": [
+                                "Красный, белый и синий",
+                                "Красный, белый и зелёный",
+                                "Синий и жёлтый",
+                                "Белый и синий"
+                            ],
+                            "fr": [
+                                "Rouge, blanc et bleu (Union Jack)",
+                                "Rouge, blanc et vert",
+                                "Bleu et jaune",
+                                "Blanc et bleu"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Red and White",
+                                "Red, White, and Blue",
+                                "Green and Gold",
+                                "Blue and White"
+                            ],
+                            "ru": [
+                                "Красный и белый",
+                                "Красный, белый и синий",
+                                "Зелёный и золотой",
+                                "Синий и белый"
+                            ],
+                            "fr": [
+                                "Rouge et blanc",
+                                "Rouge, blanc et bleu",
+                                "Vert et or",
+                                "Bleu et blanc"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Blue, White, and Red (Tricolore)",
+                                "Red, Yellow, and Red",
+                                "Green, White, and Red",
+                                "Blue, Yellow, and Red"
+                            ],
+                            "ru": [
+                                "Синий, белый и красный (Триколор)",
+                                "Красный, жёлтый и красный",
+                                "Зелёный, белый и красный",
+                                "Синий, жёлтый и красный"
+                            ],
+                            "fr": [
+                                "Bleu, blanc et rouge (Tricolore)",
+                                "Rouge, jaune et rouge",
+                                "Vert, blanc et rouge",
+                                "Bleu, jaune et rouge"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "White, Blue, and Red (Tricolor)",
+                                "Red, Yellow, and Black",
+                                "Green, Blue, and White",
+                                "Red and Gold"
+                            ],
+                            "ru": [
+                                "Белый, синий и красный (Триколор)",
+                                "Красный, жёлтый и чёрный",
+                                "Зелёный, синий и белый",
+                                "Красный и золотой"
+                            ],
+                            "fr": [
+                                "Blanc, bleu et rouge (Tricolore)",
+                                "Rouge, jaune et noir",
+                                "Vert, bleu et blanc",
+                                "Rouge et or"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #12 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #12 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #12 de {country_name} ?"
+                    "en": "What is the largest city by population or key urban hub in {country_name}?",
+                    "ru": "Какой город является крупнейшим по населению или ключевым урбанистическим центром в {country_name}?",
+                    "fr": "Quelle est la ville la plus peuplée ou le pôle urbain clé en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "New York City",
+                                "Los Angeles",
+                                "Chicago",
+                                "Houston"
+                            ],
+                            "ru": [
+                                "Нью-Йорк",
+                                "Лос-Анджелес",
+                                "Чикаго",
+                                "Хьюстон"
+                            ],
+                            "fr": [
+                                "New York",
+                                "Los Angeles",
+                                "Chicago",
+                                "Houston"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "London",
+                                "Birmingham",
+                                "Manchester",
+                                "Glasgow"
+                            ],
+                            "ru": [
+                                "Лондон",
+                                "Бирмингем",
+                                "Манчестер",
+                                "Глазго"
+                            ],
+                            "fr": [
+                                "Londres",
+                                "Birmingham",
+                                "Manchester",
+                                "Glasgow"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Toronto",
+                                "Montreal",
+                                "Vancouver",
+                                "Calgary"
+                            ],
+                            "ru": [
+                                "Торонто",
+                                "Монреаль",
+                                "Ванкувер",
+                                "Калгари"
+                            ],
+                            "fr": [
+                                "Toronto",
+                                "Montréal",
+                                "Vancouver",
+                                "Calgary"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Paris",
+                                "Marseille",
+                                "Lyon",
+                                "Toulouse"
+                            ],
+                            "ru": [
+                                "Париж",
+                                "Марсель",
+                                "Лион",
+                                "Тулуза"
+                            ],
+                            "fr": [
+                                "Paris",
+                                "Marseille",
+                                "Lyon",
+                                "Toulouse"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow",
+                                "Saint Petersburg",
+                                "Novosibirsk",
+                                "Yekaterinburg"
+                            ],
+                            "ru": [
+                                "Москва",
+                                "Санкт-Петербург",
+                                "Новосибирск",
+                                "Екатеринбург"
+                            ],
+                            "fr": [
+                                "Moscou",
+                                "Saint-Pétersbourg",
+                                "Novossibirsk",
+                                "Iekaterinbourg"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #13 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #13 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #13 de {country_name} ?"
+                    "en": "Name a significant landmark, historical monument or natural marvel #13 in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #13 в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #13 en {country_name}.",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Big Ben",
+                                "Kremlin"
+                            ],
+                            "ru": [
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Биг-Бен",
+                                "Кремль"
+                            ],
+                            "fr": [
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Big Ben",
+                                "Le Kremlin"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Tower of London & Stonehenge",
+                                "Statue of Liberty",
+                                "Colosseum",
+                                "Taj Mahal"
+                            ],
+                            "ru": [
+                                "Лондонский Тауэр и Стоунхендж",
+                                "Статуя Свободы",
+                                "Колизей",
+                                "Тадж-Махал"
+                            ],
+                            "fr": [
+                                "Tour de Londres et Stonehenge",
+                                "Statue de la Liberté",
+                                "Colisée",
+                                "Taj Mahal"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Niagara Falls & CN Tower",
+                                "Grand Canyon",
+                                "Great Wall",
+                                "Mount Everest"
+                            ],
+                            "ru": [
+                                "Ниагарский водопад и Си-Эн Тауэр",
+                                "Гранд-Каньон",
+                                "Великая китайская стена",
+                                "Эверест"
+                            ],
+                            "fr": [
+                                "Chutes du Niagara et Tour CN",
+                                "Grand Canyon",
+                                "Grande Muraille",
+                                "Mont Everest"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Eiffel Tower & Louvre Museum",
+                                "Statue of Liberty",
+                                "Big Ben",
+                                "Colosseum"
+                            ],
+                            "ru": [
+                                "Эйфелева башня и Лувр",
+                                "Статуя Свободы",
+                                "Биг-Бен",
+                                "Колизей"
+                            ],
+                            "fr": [
+                                "Tour Eiffel et Musée du Louvre",
+                                "Statue de la Liberté",
+                                "Big Ben",
+                                "Colisée"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow Kremlin & Red Square",
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Stonehenge"
+                            ],
+                            "ru": [
+                                "Московский Кремль и Красная площадь",
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Стоунхендж"
+                            ],
+                            "fr": [
+                                "Kremlin de Moscou et Place Rouge",
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Stonehenge"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #14 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #14 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #14 de {country_name} ?"
+                    "en": "Name a significant landmark, historical monument or natural marvel #14 in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #14 в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #14 en {country_name}.",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Big Ben",
+                                "Kremlin"
+                            ],
+                            "ru": [
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Биг-Бен",
+                                "Кремль"
+                            ],
+                            "fr": [
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Big Ben",
+                                "Le Kremlin"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Tower of London & Stonehenge",
+                                "Statue of Liberty",
+                                "Colosseum",
+                                "Taj Mahal"
+                            ],
+                            "ru": [
+                                "Лондонский Тауэр и Стоунхендж",
+                                "Статуя Свободы",
+                                "Колизей",
+                                "Тадж-Махал"
+                            ],
+                            "fr": [
+                                "Tour de Londres et Stonehenge",
+                                "Statue de la Liberté",
+                                "Colisée",
+                                "Taj Mahal"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Niagara Falls & CN Tower",
+                                "Grand Canyon",
+                                "Great Wall",
+                                "Mount Everest"
+                            ],
+                            "ru": [
+                                "Ниагарский водопад и Си-Эн Тауэр",
+                                "Гранд-Каньон",
+                                "Великая китайская стена",
+                                "Эверест"
+                            ],
+                            "fr": [
+                                "Chutes du Niagara et Tour CN",
+                                "Grand Canyon",
+                                "Grande Muraille",
+                                "Mont Everest"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Eiffel Tower & Louvre Museum",
+                                "Statue of Liberty",
+                                "Big Ben",
+                                "Colosseum"
+                            ],
+                            "ru": [
+                                "Эйфелева башня и Лувр",
+                                "Статуя Свободы",
+                                "Биг-Бен",
+                                "Колизей"
+                            ],
+                            "fr": [
+                                "Tour Eiffel et Musée du Louvre",
+                                "Statue de la Liberté",
+                                "Big Ben",
+                                "Colisée"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow Kremlin & Red Square",
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Stonehenge"
+                            ],
+                            "ru": [
+                                "Московский Кремль и Красная площадь",
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Стоунхендж"
+                            ],
+                            "fr": [
+                                "Kremlin de Moscou et Place Rouge",
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Stonehenge"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #15 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #15 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #15 de {country_name} ?"
+                    "en": "Name a significant landmark, historical monument or natural marvel #15 in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #15 в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #15 en {country_name}.",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Big Ben",
+                                "Kremlin"
+                            ],
+                            "ru": [
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Биг-Бен",
+                                "Кремль"
+                            ],
+                            "fr": [
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Big Ben",
+                                "Le Kremlin"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Tower of London & Stonehenge",
+                                "Statue of Liberty",
+                                "Colosseum",
+                                "Taj Mahal"
+                            ],
+                            "ru": [
+                                "Лондонский Тауэр и Стоунхендж",
+                                "Статуя Свободы",
+                                "Колизей",
+                                "Тадж-Махал"
+                            ],
+                            "fr": [
+                                "Tour de Londres et Stonehenge",
+                                "Statue de la Liberté",
+                                "Colisée",
+                                "Taj Mahal"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Niagara Falls & CN Tower",
+                                "Grand Canyon",
+                                "Great Wall",
+                                "Mount Everest"
+                            ],
+                            "ru": [
+                                "Ниагарский водопад и Си-Эн Тауэр",
+                                "Гранд-Каньон",
+                                "Великая китайская стена",
+                                "Эверест"
+                            ],
+                            "fr": [
+                                "Chutes du Niagara et Tour CN",
+                                "Grand Canyon",
+                                "Grande Muraille",
+                                "Mont Everest"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Eiffel Tower & Louvre Museum",
+                                "Statue of Liberty",
+                                "Big Ben",
+                                "Colosseum"
+                            ],
+                            "ru": [
+                                "Эйфелева башня и Лувр",
+                                "Статуя Свободы",
+                                "Биг-Бен",
+                                "Колизей"
+                            ],
+                            "fr": [
+                                "Tour Eiffel et Musée du Louvre",
+                                "Statue de la Liberté",
+                                "Big Ben",
+                                "Colisée"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow Kremlin & Red Square",
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Stonehenge"
+                            ],
+                            "ru": [
+                                "Московский Кремль и Красная площадь",
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Стоунхендж"
+                            ],
+                            "fr": [
+                                "Kremlin de Moscou et Place Rouge",
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Stonehenge"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #16 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #16 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #16 de {country_name} ?"
+                    "en": "Name a significant landmark, historical monument or natural marvel #16 in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #16 в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #16 en {country_name}.",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Big Ben",
+                                "Kremlin"
+                            ],
+                            "ru": [
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Биг-Бен",
+                                "Кремль"
+                            ],
+                            "fr": [
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Big Ben",
+                                "Le Kremlin"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Tower of London & Stonehenge",
+                                "Statue of Liberty",
+                                "Colosseum",
+                                "Taj Mahal"
+                            ],
+                            "ru": [
+                                "Лондонский Тауэр и Стоунхендж",
+                                "Статуя Свободы",
+                                "Колизей",
+                                "Тадж-Махал"
+                            ],
+                            "fr": [
+                                "Tour de Londres et Stonehenge",
+                                "Statue de la Liberté",
+                                "Colisée",
+                                "Taj Mahal"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Niagara Falls & CN Tower",
+                                "Grand Canyon",
+                                "Great Wall",
+                                "Mount Everest"
+                            ],
+                            "ru": [
+                                "Ниагарский водопад и Си-Эн Тауэр",
+                                "Гранд-Каньон",
+                                "Великая китайская стена",
+                                "Эверест"
+                            ],
+                            "fr": [
+                                "Chutes du Niagara et Tour CN",
+                                "Grand Canyon",
+                                "Grande Muraille",
+                                "Mont Everest"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Eiffel Tower & Louvre Museum",
+                                "Statue of Liberty",
+                                "Big Ben",
+                                "Colosseum"
+                            ],
+                            "ru": [
+                                "Эйфелева башня и Лувр",
+                                "Статуя Свободы",
+                                "Биг-Бен",
+                                "Колизей"
+                            ],
+                            "fr": [
+                                "Tour Eiffel et Musée du Louvre",
+                                "Statue de la Liberté",
+                                "Big Ben",
+                                "Colisée"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow Kremlin & Red Square",
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Stonehenge"
+                            ],
+                            "ru": [
+                                "Московский Кремль и Красная площадь",
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Стоунхендж"
+                            ],
+                            "fr": [
+                                "Kremlin de Moscou et Place Rouge",
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Stonehenge"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #17 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #17 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #17 de {country_name} ?"
+                    "en": "Name a significant landmark, historical monument or natural marvel #17 in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #17 в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #17 en {country_name}.",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Big Ben",
+                                "Kremlin"
+                            ],
+                            "ru": [
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Биг-Бен",
+                                "Кремль"
+                            ],
+                            "fr": [
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Big Ben",
+                                "Le Kremlin"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Tower of London & Stonehenge",
+                                "Statue of Liberty",
+                                "Colosseum",
+                                "Taj Mahal"
+                            ],
+                            "ru": [
+                                "Лондонский Тауэр и Стоунхендж",
+                                "Статуя Свободы",
+                                "Колизей",
+                                "Тадж-Махал"
+                            ],
+                            "fr": [
+                                "Tour de Londres et Stonehenge",
+                                "Statue de la Liberté",
+                                "Colisée",
+                                "Taj Mahal"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Niagara Falls & CN Tower",
+                                "Grand Canyon",
+                                "Great Wall",
+                                "Mount Everest"
+                            ],
+                            "ru": [
+                                "Ниагарский водопад и Си-Эн Тауэр",
+                                "Гранд-Каньон",
+                                "Великая китайская стена",
+                                "Эверест"
+                            ],
+                            "fr": [
+                                "Chutes du Niagara et Tour CN",
+                                "Grand Canyon",
+                                "Grande Muraille",
+                                "Mont Everest"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Eiffel Tower & Louvre Museum",
+                                "Statue of Liberty",
+                                "Big Ben",
+                                "Colosseum"
+                            ],
+                            "ru": [
+                                "Эйфелева башня и Лувр",
+                                "Статуя Свободы",
+                                "Биг-Бен",
+                                "Колизей"
+                            ],
+                            "fr": [
+                                "Tour Eiffel et Musée du Louvre",
+                                "Statue de la Liberté",
+                                "Big Ben",
+                                "Colisée"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow Kremlin & Red Square",
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Stonehenge"
+                            ],
+                            "ru": [
+                                "Московский Кремль и Красная площадь",
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Стоунхендж"
+                            ],
+                            "fr": [
+                                "Kremlin de Moscou et Place Rouge",
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Stonehenge"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #18 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #18 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #18 de {country_name} ?"
+                    "en": "Name a significant landmark, historical monument or natural marvel #18 in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #18 в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #18 en {country_name}.",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Big Ben",
+                                "Kremlin"
+                            ],
+                            "ru": [
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Биг-Бен",
+                                "Кремль"
+                            ],
+                            "fr": [
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Big Ben",
+                                "Le Kremlin"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Tower of London & Stonehenge",
+                                "Statue of Liberty",
+                                "Colosseum",
+                                "Taj Mahal"
+                            ],
+                            "ru": [
+                                "Лондонский Тауэр и Стоунхендж",
+                                "Статуя Свободы",
+                                "Колизей",
+                                "Тадж-Махал"
+                            ],
+                            "fr": [
+                                "Tour de Londres et Stonehenge",
+                                "Statue de la Liberté",
+                                "Colisée",
+                                "Taj Mahal"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Niagara Falls & CN Tower",
+                                "Grand Canyon",
+                                "Great Wall",
+                                "Mount Everest"
+                            ],
+                            "ru": [
+                                "Ниагарский водопад и Си-Эн Тауэр",
+                                "Гранд-Каньон",
+                                "Великая китайская стена",
+                                "Эверест"
+                            ],
+                            "fr": [
+                                "Chutes du Niagara et Tour CN",
+                                "Grand Canyon",
+                                "Grande Muraille",
+                                "Mont Everest"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Eiffel Tower & Louvre Museum",
+                                "Statue of Liberty",
+                                "Big Ben",
+                                "Colosseum"
+                            ],
+                            "ru": [
+                                "Эйфелева башня и Лувр",
+                                "Статуя Свободы",
+                                "Биг-Бен",
+                                "Колизей"
+                            ],
+                            "fr": [
+                                "Tour Eiffel et Musée du Louvre",
+                                "Statue de la Liberté",
+                                "Big Ben",
+                                "Colisée"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow Kremlin & Red Square",
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Stonehenge"
+                            ],
+                            "ru": [
+                                "Московский Кремль и Красная площадь",
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Стоунхендж"
+                            ],
+                            "fr": [
+                                "Kremlin de Moscou et Place Rouge",
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Stonehenge"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #19 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #19 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #19 de {country_name} ?"
+                    "en": "Name a significant landmark, historical monument or natural marvel #19 in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #19 в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #19 en {country_name}.",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Big Ben",
+                                "Kremlin"
+                            ],
+                            "ru": [
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Биг-Бен",
+                                "Кремль"
+                            ],
+                            "fr": [
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Big Ben",
+                                "Le Kremlin"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Tower of London & Stonehenge",
+                                "Statue of Liberty",
+                                "Colosseum",
+                                "Taj Mahal"
+                            ],
+                            "ru": [
+                                "Лондонский Тауэр и Стоунхендж",
+                                "Статуя Свободы",
+                                "Колизей",
+                                "Тадж-Махал"
+                            ],
+                            "fr": [
+                                "Tour de Londres et Stonehenge",
+                                "Statue de la Liberté",
+                                "Colisée",
+                                "Taj Mahal"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Niagara Falls & CN Tower",
+                                "Grand Canyon",
+                                "Great Wall",
+                                "Mount Everest"
+                            ],
+                            "ru": [
+                                "Ниагарский водопад и Си-Эн Тауэр",
+                                "Гранд-Каньон",
+                                "Великая китайская стена",
+                                "Эверест"
+                            ],
+                            "fr": [
+                                "Chutes du Niagara et Tour CN",
+                                "Grand Canyon",
+                                "Grande Muraille",
+                                "Mont Everest"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Eiffel Tower & Louvre Museum",
+                                "Statue of Liberty",
+                                "Big Ben",
+                                "Colosseum"
+                            ],
+                            "ru": [
+                                "Эйфелева башня и Лувр",
+                                "Статуя Свободы",
+                                "Биг-Бен",
+                                "Колизей"
+                            ],
+                            "fr": [
+                                "Tour Eiffel et Musée du Louvre",
+                                "Statue de la Liberté",
+                                "Big Ben",
+                                "Colisée"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow Kremlin & Red Square",
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Stonehenge"
+                            ],
+                            "ru": [
+                                "Московский Кремль и Красная площадь",
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Стоунхендж"
+                            ],
+                            "fr": [
+                                "Kremlin de Moscou et Place Rouge",
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Stonehenge"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #20 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #20 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #20 de {country_name} ?"
+                    "en": "Name a significant landmark, historical monument or natural marvel #20 in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #20 в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #20 en {country_name}.",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Big Ben",
+                                "Kremlin"
+                            ],
+                            "ru": [
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Биг-Бен",
+                                "Кремль"
+                            ],
+                            "fr": [
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Big Ben",
+                                "Le Kremlin"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Tower of London & Stonehenge",
+                                "Statue of Liberty",
+                                "Colosseum",
+                                "Taj Mahal"
+                            ],
+                            "ru": [
+                                "Лондонский Тауэр и Стоунхендж",
+                                "Статуя Свободы",
+                                "Колизей",
+                                "Тадж-Махал"
+                            ],
+                            "fr": [
+                                "Tour de Londres et Stonehenge",
+                                "Statue de la Liberté",
+                                "Colisée",
+                                "Taj Mahal"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Niagara Falls & CN Tower",
+                                "Grand Canyon",
+                                "Great Wall",
+                                "Mount Everest"
+                            ],
+                            "ru": [
+                                "Ниагарский водопад и Си-Эн Тауэр",
+                                "Гранд-Каньон",
+                                "Великая китайская стена",
+                                "Эверест"
+                            ],
+                            "fr": [
+                                "Chutes du Niagara et Tour CN",
+                                "Grand Canyon",
+                                "Grande Muraille",
+                                "Mont Everest"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Eiffel Tower & Louvre Museum",
+                                "Statue of Liberty",
+                                "Big Ben",
+                                "Colosseum"
+                            ],
+                            "ru": [
+                                "Эйфелева башня и Лувр",
+                                "Статуя Свободы",
+                                "Биг-Бен",
+                                "Колизей"
+                            ],
+                            "fr": [
+                                "Tour Eiffel et Musée du Louvre",
+                                "Statue de la Liberté",
+                                "Big Ben",
+                                "Colisée"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Moscow Kremlin & Red Square",
+                                "Statue of Liberty",
+                                "Eiffel Tower",
+                                "Stonehenge"
+                            ],
+                            "ru": [
+                                "Московский Кремль и Красная площадь",
+                                "Статуя Свободы",
+                                "Эйфелева башня",
+                                "Стоунхендж"
+                            ],
+                            "fr": [
+                                "Kremlin de Moscou et Place Rouge",
+                                "Statue de la Liberté",
+                                "Tour Eiffel",
+                                "Stonehenge"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 }
             ]
         },
@@ -128,104 +2268,2244 @@
             "range": "21–40",
             "questions": [
                 {
-                    "en": "What does the national motto '{motto_val}' represent for you?",
-                    "ru": "Что лично для вас означает национальный девиз '{motto_val}'?",
-                    "fr": "Que représente pour vous la devise nationale '{motto_val}' ?"
+                    "en": "What represents a core principle regarding human rights and democracy #21 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #21 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #21 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is the significance of the national flag and the symbols of {country_name}?",
-                    "ru": "Каково значение государственного флага и символов {country_name}?",
-                    "fr": "Quelle est la signification du drapeau et des symboles de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #22 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #22 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #22 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "Why is freedom of expression considered a fundamental pillar of {country_name}?",
-                    "ru": "Почему свобода слова считается фундаментальной опорой {country_name}?",
-                    "fr": "Pourquoi la liberté d'expression est-elle considérée comme un pilier fondamental de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #23 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #23 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #23 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "How does secularism (laïcité) shape public life in France?",
-                    "ru": "Как принцип светскости (laïcité) формирует общественную жизнь во Франции?",
-                    "fr": "Comment la laïcité façonne-t-elle la vie publique en France ?"
+                    "en": "What represents a core principle regarding human rights and democracy #24 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #24 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #24 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What does it mean to be a loyal citizen of {country_name}?",
-                    "ru": "Что значит быть лояльным и ответственным гражданином {country_name}?",
-                    "fr": "Que signifie être un citoyen loyal de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #25 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #25 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #25 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #26 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #26 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #26 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #26 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #26 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #26 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #27 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #27 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #27 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #27 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #27 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #27 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #28 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #28 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #28 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #28 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #28 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #28 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #29 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #29 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #29 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #29 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #29 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #29 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #30 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #30 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #30 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #30 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #30 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #30 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #31 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #31 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #31 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #31 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #31 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #31 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #32 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #32 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #32 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #32 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #32 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #32 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #33 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #33 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #33 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #33 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #33 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #33 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #34 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #34 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #34 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #34 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #34 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #34 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #35 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #35 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #35 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #35 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #35 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #35 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #36 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #36 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #36 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #36 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #36 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #36 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #37 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #37 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #37 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #37 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #37 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #37 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #38 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #38 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #38 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #38 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #38 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #38 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #39 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #39 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #39 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #39 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #39 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #39 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #40 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #40 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #40 de {country_name} ?"
+                    "en": "What represents a core principle regarding human rights and democracy #40 in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии #40 в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #40 en {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 }
             ]
         },
@@ -238,104 +4518,2244 @@
             "range": "41–60",
             "questions": [
                 {
-                    "en": "Who were the founding peoples of {country_name}?",
-                    "ru": "Кто были народами-основателями {country_name}?",
-                    "fr": "Qui étaient les peuples fondateurs de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #41 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #41 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #41 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What was the significance of the French Revolution for modern democracy?",
-                    "ru": "В чём заключалось значение Великой французской революции для современной демократии?",
-                    "fr": "Quelle a été la signification de la Révolution française pour la démocratie moderne ?"
+                    "en": "What is a highly significant historical milestone or struggle #42 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #42 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #42 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "Who was Sir Louis-Hippolyte La Fontaine and what did he advocate for in Canada?",
-                    "ru": "Кто такой сэр Луи-Ипполит Лафонтен и за что он выступал в Канаде?",
-                    "fr": "Qui était Sir Louis-Hippolyte La Fontaine et que défendait-il au Canada ?"
+                    "en": "What is a highly significant historical milestone or struggle #43 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #43 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #43 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is the supreme holiday celebrated on July 4th in the US / July 14th in France?",
-                    "ru": "Какой главный национальный праздник отмечается 4 июля в США / 14 июля во Франции?",
-                    "fr": "Quelle grande fête nationale est célébrée le 4 juillet aux États-Unis / 14 juillet en France ?"
+                    "en": "What is a highly significant historical milestone or struggle #44 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #44 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #44 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What did the Canadian Pacific Railway symbolize during confederation?",
-                    "ru": "Что символизировала Канадская тихоокеанская железная дорога во время конфедерации?",
-                    "fr": "Que symbolisait le chemin de fer Canadien Pacifique pendant la confédération ?"
+                    "en": "What is a highly significant historical milestone or struggle #45 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #45 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #45 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #46 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #46 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #46 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #46 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #46 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #46 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #47 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #47 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #47 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #47 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #47 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #47 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #48 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #48 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #48 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #48 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #48 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #48 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #49 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #49 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #49 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #49 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #49 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #49 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #50 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #50 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #50 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #50 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #50 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #50 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #51 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #51 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #51 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #51 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #51 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #51 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #52 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #52 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #52 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #52 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #52 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #52 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #53 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #53 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #53 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #53 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #53 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #53 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #54 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #54 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #54 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #54 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #54 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #54 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #55 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #55 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #55 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #55 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #55 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #55 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #56 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #56 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #56 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #56 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #56 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #56 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #57 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #57 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #57 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #57 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #57 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #57 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #58 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #58 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #58 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #58 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #58 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #58 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #59 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #59 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #59 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #59 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #59 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #59 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #60 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #60 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #60 de {country_name} ?"
+                    "en": "What is a highly significant historical milestone or struggle #60 in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием #60 в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante #60 dans le passé de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 }
             ]
         },
@@ -348,104 +6768,2244 @@
             "range": "61–80",
             "questions": [
                 {
-                    "en": "Who is currently the {leader_title} of {country_name}?",
-                    "ru": "Кто сейчас занимает пост {leader_title} в {country_name}?",
-                    "fr": "Qui est actuellement le {leader_title} de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #61 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #61 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #61 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "How is responsible government defined under the constitution of {country_name}?",
-                    "ru": "Как определяется ответственное правительство согласно конституции {country_name}?",
-                    "fr": "Comment le gouvernement responsable est-il défini par la constitution de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #62 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #62 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #62 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What are the three branches of government in {country_name}?",
-                    "ru": "Назовите три ветви власти в {country_name}.",
-                    "fr": "Quelles sont les trois branches du gouvernement en {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #63 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #63 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #63 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "Who is the head of state in Canada and what is their role?",
-                    "ru": "Кто является главой государства в Канаде и какова их роль?",
-                    "fr": "Qui est le chef de l'État au Canada et quel est son rôle ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #64 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #64 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #64 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What political party is currently in power in {country_name}?",
-                    "ru": "Какая политическая партия сейчас находится у власти в {country_name}?",
-                    "fr": "Quel parti politique est actuellement au pouvoir en {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #65 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #65 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #65 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #66 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #66 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #66 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #66 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #66 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #66 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #67 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #67 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #67 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #67 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #67 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #67 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #68 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #68 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #68 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #68 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #68 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #68 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #69 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #69 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #69 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #69 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #69 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #69 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #70 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #70 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #70 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #70 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #70 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #70 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #71 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #71 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #71 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #71 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #71 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #71 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #72 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #72 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #72 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #72 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #72 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #72 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #73 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #73 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #73 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #73 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #73 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #73 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #74 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #74 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #74 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #74 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #74 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #74 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #75 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #75 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #75 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #75 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #75 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #75 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #76 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #76 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #76 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #76 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #76 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #76 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #77 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #77 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #77 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #77 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #77 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #77 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #78 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #78 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #78 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #78 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #78 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #78 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #79 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #79 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #79 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #79 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #79 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #79 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #80 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #80 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #80 de {country_name} ?"
+                    "en": "How are legislative powers or public offices managed and checked in the administration #80 of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #80 в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #80 de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 }
             ]
         },
@@ -458,104 +9018,2244 @@
             "range": "81–100",
             "questions": [
                 {
-                    "en": "What are three key responsibilities of citizenship in {country_name}?",
-                    "ru": "Назовите три основные обязанности гражданина в {country_name}.",
-                    "fr": "Quels sont trois devoirs essentiels d'un citoyen en {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #81 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #81 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #81 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "Why is participating in local elections and voting vital for democratic survival?",
-                    "ru": "Почему участие в местных выборах и голосование жизненно важно для выживания демократии?",
-                    "fr": "Pourquoi voter est-il crucial pour la survie de la démocratie ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #82 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #82 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #82 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is the significance of the Charter of Rights and Freedoms in Canada?",
-                    "ru": "Каково значение Хартии прав и свобод в Канаде?",
-                    "fr": "Quelle est la signification de la Charte des droits et libertés au Canada ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #83 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #83 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #83 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "How do taxes contribute to the maintenance of public infrastructure and services in {country_name}?",
-                    "ru": "Как налоги способствуют поддержанию общественной инфраструктуры и услуг в {country_name}?",
-                    "fr": "Comment les impôts financent-ils les services publics en {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #84 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #84 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #84 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "Explain what 'responsible citizenship' means to you in your daily life.",
-                    "ru": "Объясните, что для вас означает 'ответственное гражданство' в повседневной жизни.",
-                    "fr": "Expliquez ce que signifie la 'citoyenneté responsable' dans votre vie de tous les jours."
+                    "en": "What is a vital civic responsibility, legal right, or social duty #85 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #85 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #85 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #86 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #86 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #86 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #86 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #86 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #86 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #87 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #87 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #87 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #87 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #87 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #87 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #88 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #88 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #88 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #88 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #88 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #88 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #89 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #89 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #89 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #89 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #89 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #89 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #90 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #90 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #90 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #90 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #90 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #90 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #91 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #91 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #91 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #91 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #91 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #91 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #92 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #92 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #92 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #92 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #92 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #92 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #93 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #93 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #93 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #93 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #93 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #93 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #94 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #94 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #94 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #94 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #94 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #94 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #95 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #95 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #95 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #95 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #95 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #95 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #96 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #96 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #96 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #96 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #96 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #96 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #97 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #97 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #97 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #97 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #97 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #97 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #98 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #98 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #98 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #98 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #98 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #98 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #99 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #99 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #99 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #99 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #99 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #99 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 },
                 {
-                    "en": "What is another fundamental civic principle #100 of {country_name}?",
-                    "ru": "Каков ещё один фундаментальный гражданский принцип #100 в {country_name}?",
-                    "fr": "Quel est un autre principe civique fondamental #100 de {country_name} ?"
+                    "en": "What is a vital civic responsibility, legal right, or social duty #100 for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #100 для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #100 pour les citoyens de {country_name} ?",
+                    "options": {
+                        "us": {
+                            "en": [
+                                "Universal suffrage and voting rights",
+                                "Absolute monarchy",
+                                "Unregulated state power",
+                                "Totalitarian control"
+                            ],
+                            "ru": [
+                                "Всеобщее избирательное право",
+                                "Абсолютная монархия",
+                                "Неограниченная государственная власть",
+                                "Тоталитарный контроль"
+                            ],
+                            "fr": [
+                                "Suffrage universel et droit de vote",
+                                "Monarchie absolue",
+                                "Pouvoir étatique non réglementé",
+                                "Contrôle totalitaire"
+                            ],
+                            "correct": 0
+                        },
+                        "uk": {
+                            "en": [
+                                "Parliamentary sovereignty and common law",
+                                "Anarchy",
+                                "Feudal rule",
+                                "Arbitrary arrests"
+                            ],
+                            "ru": [
+                                "Парламентский суверенитет и общее право",
+                                "Анархия",
+                                "Феодальное правление",
+                                "Произвольные аресты"
+                            ],
+                            "fr": [
+                                "Souveraineté parlementaire et common law",
+                                "Anarchie",
+                                "Régime féodal",
+                                "Arrestations arbitraires"
+                            ],
+                            "correct": 0
+                        },
+                        "canada": {
+                            "en": [
+                                "Bilingualism, multiculturalism, and Charter rights",
+                                "One-party rule",
+                                "Colonial absolute power",
+                                "State-mandated religion"
+                            ],
+                            "ru": [
+                                "Двуязычие, мультикультурализм и права Хартии",
+                                "Однопартийное правление",
+                                "Колониальная абсолютная власть",
+                                "Государственная религия"
+                            ],
+                            "fr": [
+                                "Bilinguisme, multiculturalisme et droits de la Charte",
+                                "Régime à parti unique",
+                                "Pouvoir absolu colonial",
+                                "Religion d'État obligatoire"
+                            ],
+                            "correct": 0
+                        },
+                        "france": {
+                            "en": [
+                                "Laïcité, liberty, and democratic voting",
+                                "Divine right of kings",
+                                "Suppression of press",
+                                "Military dictatorship"
+                            ],
+                            "ru": [
+                                "Светскость, свобода и демократическое голосование",
+                                "Божественное право королей",
+                                "Подавление прессы",
+                                "Военная диктатура"
+                            ],
+                            "fr": [
+                                "Laïcité, liberté et vote démocratique",
+                                "Droit divin des rois",
+                                "Suppression de la presse",
+                                "Dictature militaire"
+                            ],
+                            "correct": 0
+                        },
+                        "russia": {
+                            "en": [
+                                "Constitutional federation and sovereignty",
+                                "Decentralized lawlessness",
+                                "Unconstitutional decrees",
+                                "Foreign governance"
+                            ],
+                            "ru": [
+                                "Конституционная федерация и суверенитет",
+                                "Децентрализованное беззаконие",
+                                "Антиконституционные указы",
+                                "Внешнее управление"
+                            ],
+                            "fr": [
+                                "Fédération constitutionnelle et souveraineté",
+                                "Anarchie décentralisée",
+                                "Décrets inconstitutionnels",
+                                "Gouvernance étrangère"
+                            ],
+                            "correct": 0
+                        }
+                    }
                 }
             ]
         }
