@@ -25,6 +25,8 @@ if os.path.exists(GRAMMAR_MD_PATH):
 
 def get_grammar_focus(title):
     t_clean = title.lower().strip()
+    if "ratatouille (english)" in t_clean:
+        return "Infinitive of Purpose"
     if t_clean in GRAMMAR_MAPPINGS:
         return GRAMMAR_MAPPINGS[t_clean]
     for k, v in GRAMMAR_MAPPINGS.items():
@@ -876,6 +878,10 @@ def calibrate_text_for_level(text, level, type_="example"):
     is_c1 = "C1" in level or "C2" in level or "advanced" in level.lower()
 
     if is_a2:
+        text = text.replace("An authentic slang term, colloquialism, or key dialogue featured in", "A popular word or phrase in")
+        text = text.replace("slang term, colloquialism, or key dialogue featured in", "popular word or phrase in")
+        text = text.replace("The core thematic concept of", "The main idea of")
+        text = text.replace("explored and highlighted in", "shown in")
         text = text.replace("brilliantly dissects", "shows").replace("dissects", "shows")
         text = text.replace("deeply explores", "looks at").replace("explores", "looks at")
         text = text.replace("confronts balancing", "deals with").replace("confronts", "faces")
@@ -905,7 +911,20 @@ def calibrate_text_for_level(text, level, type_="example"):
         text = text.replace("utilized", "uses").replace("utilizes", "uses")
         text = text.replace("colloquialism", "local word")
         text = text.replace("establish context", "show the story")
+        text = text.replace("slang term", "word")
+        text = text.replace("colloquialism", "word")
+        text = text.replace("key dialogue", "phrase")
+        text = text.replace("authentic", "real")
+        text = text.replace("featured", "used")
+        text = text.replace("pivotal scene", "important scene")
+        text = text.replace("emphasize the drama", "show the feelings")
+        text = text.replace("build character depth", "make the story interesting")
+        text = text.replace("confronts", "deals with")
+        text = text.replace("to establish context", "to show the story")
     elif is_b1:
+        text = text.replace("The core thematic concept of", "The main theme of")
+        text = text.replace("An authentic slang term, colloquialism, or key dialogue featured in", "A common expression used in")
+        text = text.replace("slang term, colloquialism, or key dialogue featured in", "common expression used in")
         text = text.replace("meticulously", "carefully").replace("scrutinizes", "examines")
         text = text.replace("existential", "personal").replace("sociological", "social")
         text = text.replace("psychological", "mental").replace("paradigm", "model")
@@ -923,64 +942,122 @@ def calibrate_text_for_level(text, level, type_="example"):
 
 def get_calibrated_templates(level, film_idx=0):
     is_a2 = "A2" in level or "A1" in level or "starter" in level.lower() or "elementary" in level.lower()
+    is_b1 = "B1" in level or "intermediate" in level.lower() and "upper" not in level.lower()
     is_c1 = "C1" in level or "C2" in level or "advanced" in level.lower()
 
     if is_a2:
         r1_theme_pool = [
-            "When we first start '{title}' in {setting}, how do we see <strong>{word}</strong>? Talk about it using <strong>{grammar_focus}</strong>.",
-            "How does the opening of the film show <strong>{word}</strong> to make us feel the atmosphere? Describe it using <strong>{grammar_focus}</strong>.",
-            "As the story goes on, does <strong>{word}</strong> make things hard for {protagonist}? Use <strong>{grammar_focus}</strong> to explain.",
-            "How do {protagonist} and {key_figures} feel when they face <strong>{word}</strong> in {setting}? Use <strong>{grammar_focus}</strong>.",
-            "What does {protagonist} do because of <strong>{word}</strong>? Answer using <strong>{grammar_focus}</strong>."
+            "Look at <strong>{word}</strong> in '{title}'. How do we see it? Use <strong>{grammar_focus}</strong>.",
+            "How does the start of the movie show <strong>{word}</strong>? Describe it with <strong>{grammar_focus}</strong>.",
+            "Does <strong>{word}</strong> make things difficult for {protagonist}? Explain with <strong>{grammar_focus}</strong>.",
+            "How do {protagonist} and {key_figures} deal with <strong>{word}</strong>? Use <strong>{grammar_focus}</strong>.",
+            "What does {protagonist} do because of <strong>{word}</strong>? Answer with <strong>{grammar_focus}</strong>."
         ]
         r1_theme_personal_pool = [
-            "★ If you were in {setting}, how would you live with <strong>{word}</strong>?",
-            "★ Have you ever felt a similar feeling of <strong>{word}</strong> in your own life?",
-            "★ Does the story of <strong>{word}</strong> in the movie feel like real life to you?",
-            "★ What is the best way to handle <strong>{word}</strong> when you are stressed?",
-            "★ If you could help {protagonist} with <strong>{word}</strong>, what would you say?"
+            "★ Do you like the idea of <strong>{word}</strong>?",
+            "★ Have you ever felt a similar feeling of <strong>{word}</strong>?",
+            "★ Does the story of <strong>{word}</strong> in this movie feel real to you?",
+            "★ What is the best way to handle <strong>{word}</strong> when you are sad?",
+            "★ Can you tell us about a time when you saw <strong>{word}</strong>?"
         ]
         r1_slang_pool = [
-            "The characters say <strong>'{word}'</strong> when they have a secret in {setting}. Why do they say it? Use <strong>{grammar_focus}</strong>.",
-            "Why does {protagonist} use the word <strong>'{word}'</strong> during a very important scene? Talk about it with <strong>{grammar_focus}</strong>.",
-            "When {key_figures} say <strong>'{word}'</strong>, what does it tell us about their plans? Answer with <strong>{grammar_focus}</strong>.",
-            "How does the ending change when we learn the truth about <strong>'{word}'</strong>? Use <strong>{grammar_focus}</strong>.",
-            "If {protagonist} did not use <strong>'{word}'</strong>, how would the story end? Speculate with <strong>{grammar_focus}</strong>."
+            "Why do characters say <strong>'{word}'</strong> in the movie? Use <strong>{grammar_focus}</strong>.",
+            "Why does {protagonist} use the word <strong>'{word}'</strong>? Talk about it with <strong>{grammar_focus}</strong>.",
+            "When they say <strong>'{word}'</strong>, what does it mean? Answer with <strong>{grammar_focus}</strong>.",
+            "How does the story change because of <strong>'{word}'</strong>? Use <strong>{grammar_focus}</strong>.",
+            "If they did not say <strong>'{word}'</strong>, what would happen? Use <strong>{grammar_focus}</strong>."
         ]
         r1_slang_personal_pool = [
-            "★ Do you like learning slang words like <strong>'{word}'</strong>, or do you prefer normal words?",
-            "★ Have you ever heard a word like <strong>'{word}'</strong> in other movies?",
-            "★ Is there a word like <strong>'{word}'</strong> in your own language? What is it?",
-            "★ When you speak, do you use slang like <strong>'{word}'</strong>?",
-            "★ What is your favorite new word from the movie '{title}'?"
+            "★ Do you like learning words like <strong>'{word}'</strong>?",
+            "★ Have you ever heard <strong>'{word}'</strong> in other movies?",
+            "★ Is there a word like <strong>'{word}'</strong> in your language?",
+            "★ Do you use the word <strong>'{word}'</strong> when you speak English?",
+            "★ What is your favorite word from the movie '{title}'?"
+        ]
+        r2_theme_pool = [
+            "Is the story of <strong>{word}</strong> in '{title}' sad? Use <strong>{grammar_focus}</strong>.",
+            "Is the movie world in '{title}' beautiful or not? Discuss using <strong>{grammar_focus}</strong>.",
+            "Do you like how {protagonist} shows <strong>{word}</strong>? Give your opinion with <strong>{grammar_focus}</strong>.",
+            "Is the movie '{title}' simple or complex? Talk about it with <strong>{grammar_focus}</strong>.",
+            "Does the problem of {conflict} end well? Explain with <strong>{grammar_focus}</strong>."
+        ]
+        r2_theme_personal_pool = [
+            "★ Would you make a movie about <strong>{word}</strong>?",
+            "★ Do you like movies with beautiful pictures or great dialogues?",
+            "★ Do you like the ending of the movie '{title}'?",
+            "★ Did your ideas about <strong>{word}</strong> change after this movie?",
+            "★ What was your favorite scene in the movie?"
+        ]
+        r2_cinematic_pool = [
+            "Does '{title}' have a happy ending? Talk about this using <strong>{grammar_focus}</strong>.",
+            "Is the friendship between the characters good? Explain using <strong>{grammar_focus}</strong>.",
+            "Are the music and pictures in '{title}' good? Share your ideas using <strong>{grammar_focus}</strong>.",
+            "Does the story in '{title}' move fast or slow? Discuss using <strong>{grammar_focus}</strong>.",
+            "Does the director show the story in a realistic way? Explain with <strong>{grammar_focus}</strong>."
+        ]
+        r2_cinematic_personal_pool = [
+            "★ Would you like to act in a movie like '{title}'?",
+            "★ What kind of movies make you happy?",
+            "★ If you could meet {protagonist}, what would you ask?",
+            "★ Do you watch movies to learn English or for fun?",
+            "★ If you could make a movie, what would it be about?"
+        ]
+    elif is_b1:
+        r1_theme_pool = [
+            "How does the opening of '{title}' show the idea of <strong>{word}</strong>? Practice with <strong>{grammar_focus}</strong>.",
+            "How does the director introduce <strong>{word}</strong> early in the movie? Focus on <strong>{grammar_focus}</strong>.",
+            "As the story goes on, does <strong>{word}</strong> create problems for {protagonist}? Frame your answer with <strong>{grammar_focus}</strong>.",
+            "How do the scenes in '{title}' show <strong>{word}</strong> between the main characters? Use <strong>{grammar_focus}</strong>.",
+            "How does {protagonist} react to the challenge of <strong>{word}</strong>? Discuss using <strong>{grammar_focus}</strong>."
+        ]
+        r1_theme_personal_pool = [
+            "★ If you were in '{title}', how would you handle the challenges of <strong>{word}</strong>?",
+            "★ Have you ever faced a problem where you had to deal with <strong>{word}</strong>?",
+            "★ Does the way the movie shows <strong>{word}</strong> feel like real life to you?",
+            "★ How do you personally keep <strong>{word}</strong> in balance in your life?",
+            "★ If you could change one decision made by {protagonist} about <strong>{word}</strong>, what would it be?"
+        ]
+        r1_slang_pool = [
+            "What clues and secrets about <strong>'{word}'</strong> can you find in the movie? Use <strong>{grammar_focus}</strong>.",
+            "How does the script use the expression <strong>'{word}'</strong> to make the scene more interesting? Respond with <strong>{grammar_focus}</strong>.",
+            "How does using <strong>'{word}'</strong> show the characters' real feelings during {conflict}? Formulate with <strong>{grammar_focus}</strong>.",
+            "How does learning the truth about <strong>'{word}'</strong> change what you think of the characters? Analyze with <strong>{grammar_focus}</strong>.",
+            "If they knew the truth about <strong>'{word}'</strong> earlier, how would the story change? Speculate using <strong>{grammar_focus}</strong>."
+        ]
+        r1_slang_personal_pool = [
+            "★ Have you ever used a word or expression like <strong>'{word}'</strong> in your own life?",
+            "★ Do you think learning casual words like <strong>'{word}'</strong> is helpful for fluency?",
+            "★ Is there an equivalent word in your language for <strong>'{word}'</strong>?",
+            "★ When you want to express a feeling, do you use slang or direct words like <strong>'{word}'</strong>?",
+            "★ What is your favorite line of dialogue from the movie '{title}'?"
         ]
         r2_theme_pool = [
             "'{protagonist}'s story of <strong>{word}</strong> in '{title}' is very sad, and they should be more careful.' Do you agree? Use <strong>{grammar_focus}</strong>.",
-            "'{protagonist}'s movie makes the world of {setting} look too beautiful, but it has a high cost.' Discuss using <strong>{grammar_focus}</strong>.",
+            "'{protagonist}'s movie makes the world look too beautiful, but it has a high cost.' Discuss using <strong>{grammar_focus}</strong>.",
             "'{protagonist} is not a nice person because they only care about <strong>{word}</strong>.' Give your opinion using <strong>{grammar_focus}</strong>.",
             "'{protagonist}'s movie '{title}' is too simple and does not show deep feelings about <strong>{word}</strong>.' Talk about this with <strong>{grammar_focus}</strong>.",
             "'{protagonist}'s problem of {conflict} never ends because they cannot agree on <strong>{word}</strong>.' Explain using <strong>{grammar_focus}</strong>."
         ]
         r2_theme_personal_pool = [
-            "★ If you were a film maker, would you make a movie about <strong>{word}</strong>?",
-            "★ Do you like movies with beautiful pictures or movies with great dialogue?",
-            "★ Do you like the ending of the movie '{title}', or do you want a different ending?",
-            "★ Did your ideas about <strong>{word}</strong> change after watching this movie?",
-            "★ What was the most beautiful scene in the movie?"
+            "★ If you were a director, how would you show the concept of <strong>{word}</strong>?",
+            "★ Do you think the visuals of a movie are more powerful than the dialogue?",
+            "★ Have you ever felt that a movie's alternative ending would be better?",
+            "★ If you could choose a song from your life to match the theme of <strong>{word}</strong>, what would it be?",
+            "★ What was the most memorable scene in '{title}' that made you think?"
         ]
         r2_cinematic_pool = [
-            "'The movie '{title}' would be better if {protagonist} had a happy ending.' Talk about this using <strong>{grammar_focus}</strong>.",
-            "'The friendship between {protagonist} and {key_figures} is the best part of the movie.' Explain using <strong>{grammar_focus}</strong>.",
-            "'The music and pictures in {setting} are better than the words spoken.' Share your ideas using <strong>{grammar_focus}</strong>.",
-            "'The story in '{title}' moves too slowly for a modern audience.' Agree or disagree using <strong>{grammar_focus}</strong>.",
-            "'The director does a great job showing {setting} in a realistic way.' Explain using <strong>{grammar_focus}</strong>."
+            "'The film would be better if the director chose a different setting for '{title}'.' Speculate using <strong>{grammar_focus}</strong>.",
+            "'The secondary characters, like {key_figures}, are more interesting than the main hero.' Evaluate with <strong>{grammar_focus}</strong>.",
+            "'The music and sound design are what make '{title}' a great movie.' Discuss using <strong>{grammar_focus}</strong>.",
+            "'The recurring visual symbols are important to understand the film's deeper meaning.' Discuss using <strong>{grammar_focus}</strong>.",
+            "'The story of '{title}' is a critique of real-world human behavior.' Discuss using <strong>{grammar_focus}</strong>."
         ]
         r2_cinematic_personal_pool = [
-            "★ Would you like to act in a movie like '{title}'?",
-            "★ What kind of movies make you feel happy?",
-            "★ If you could meet {protagonist}, what would you say to them?",
-            "★ Do you watch movies to learn a language or just for fun?",
-            "★ If you could make a movie, what would it be about?"
+            "★ Would you ever want to write a story based on your own life experiences?",
+            "★ Which part of filmmaking (music, camera angles, lighting) has the biggest effect on you?",
+            "★ If you could change the cast of '{title}', which actors would you choose?",
+            "★ Do you enjoy analyzing movies or do you prefer to just watch the story?",
+            "★ If you could save only one scene from '{title}', which one would it be?"
         ]
     elif is_c1:
         r1_theme_pool = [
@@ -1117,11 +1194,14 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
         return HANDCRAFTED_VOCAB_DB[title_clean]
 
     themes_raw, slangs_raw = parse_themes_and_slangs(focus_raw, slang_raw)
+    is_a2 = "A2" in level or "A1" in level or "starter" in level.lower() or "elementary" in level.lower()
 
     # 1. Deduplicate themes and slangs while keeping order
     seen_words = set()
     themes = []
     for t in themes_raw:
+        if is_a2:
+            t = A2_VOCAB_SIMPLIFICATION.get(t.lower().strip(), t)
         t_norm = normalize_word(t)
         if t_norm not in seen_words:
             themes.append(t)
@@ -1129,6 +1209,8 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
 
     slangs = []
     for s in slangs_raw:
+        if is_a2:
+            s = A2_VOCAB_SIMPLIFICATION.get(s.lower().strip(), s)
         s_norm = normalize_word(s)
         if s_norm not in seen_words:
             slangs.append(s)
@@ -1148,12 +1230,15 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
 
     # 2. Pad themes with extra_themes or fallback themes to exactly 5
     t_idx = 0
+    current_fallback_themes = FALLBACK_THEMES_A2 if is_a2 else FALLBACK_THEMES
     while len(themes) < 5:
         if t_idx < len(extra_themes):
             candidate = extra_themes[t_idx]
         else:
-            candidate = FALLBACK_THEMES[(idx + t_idx) % len(FALLBACK_THEMES)]
+            candidate = current_fallback_themes[(idx + t_idx) % len(current_fallback_themes)]
         t_idx += 1
+        if is_a2:
+            candidate = A2_VOCAB_SIMPLIFICATION.get(candidate.lower().strip(), candidate)
         candidate_norm = normalize_word(candidate)
         if candidate_norm not in seen_words:
             themes.append(candidate)
@@ -1161,12 +1246,15 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
 
     # 3. Pad slangs with extra_slangs or fallback slangs to exactly 5
     s_idx = 0
+    current_fallback_slangs = FALLBACK_SLANGS_A2 if is_a2 else FALLBACK_SLANGS
     while len(slangs) < 5:
         if s_idx < len(extra_slangs):
             candidate = extra_slangs[s_idx]
         else:
-            candidate = FALLBACK_SLANGS[(idx + s_idx) % len(FALLBACK_SLANGS)]
+            candidate = current_fallback_slangs[(idx + s_idx) % len(current_fallback_slangs)]
         s_idx += 1
+        if is_a2:
+            candidate = A2_VOCAB_SIMPLIFICATION.get(candidate.lower().strip(), candidate)
         candidate_norm = normalize_word(candidate)
         if candidate_norm not in seen_words:
             slangs.append(candidate)
@@ -1179,8 +1267,18 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
     # Process themes (first 5)
     for word in themes:
         w_norm = normalize_word(word)
+        found_key = None
         if w_norm in OPPOSITES_MAP:
-            new_word, definition, example = OPPOSITES_MAP[w_norm]
+            found_key = w_norm
+        else:
+            subwords = [normalize_word(sw) for sw in re.split(r'[\s\-]+', w_norm) if len(normalize_word(sw)) > 3]
+            for sw in subwords:
+                if sw in OPPOSITES_MAP and sw not in ["active", "first", "simple", "warm", "winter", "safe", "truth"]:
+                    found_key = sw
+                    break
+
+        if found_key:
+            new_word, definition, example = OPPOSITES_MAP[found_key]
             # Level calibration for opposites
             definition = calibrate_text_for_level(definition, level, "definition")
             example = calibrate_text_for_level(example, level, "example")
@@ -1201,8 +1299,18 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
     # Process slangs (next 5)
     for word in slangs:
         w_norm = normalize_word(word)
+        found_key = None
         if w_norm in OPPOSITES_MAP:
-            new_word, definition, example = OPPOSITES_MAP[w_norm]
+            found_key = w_norm
+        else:
+            subwords = [normalize_word(sw) for sw in re.split(r'[\s\-]+', w_norm) if len(normalize_word(sw)) > 3]
+            for sw in subwords:
+                if sw in OPPOSITES_MAP and sw not in ["active", "first", "simple", "warm", "winter", "safe", "truth"]:
+                    found_key = sw
+                    break
+
+        if found_key:
+            new_word, definition, example = OPPOSITES_MAP[found_key]
             definition = calibrate_text_for_level(definition, level, "definition")
             example = calibrate_text_for_level(example, level, "example")
             vocab_items.append((new_word, definition, example))
@@ -1381,6 +1489,59 @@ FALLBACK_SLANGS = [
     "Directorial Remake", "Cinematic Medium", "Tonal Shift", "Visual Symbol", "Aesthetic Choice",
     "Story Arc", "Climactic Revelation", "Emotional Resonance", "Scene Study", "Dialogue Exchange"
 ]
+
+FALLBACK_THEMES_A2 = [
+    "Friendship", "Family", "Happiness", "Adventure", "Sadness",
+    "Dreams", "Hope", "Love", "Kindness", "Fun",
+    "Help", "Sharing", "Home", "Play", "Animals",
+    "Nature", "Magic", "Laughter", "Travel", "Work"
+]
+
+FALLBACK_SLANGS_A2 = [
+    "Secret", "Mistake", "Sound", "Picture", "Important Scene",
+    "Happy Ending", "Story", "Song", "Funny Moments", "Exciting Part",
+    "Word", "Conversation", "Voice", "Smile", "Face",
+    "Gift", "Surprise", "Game", "Friend", "Day"
+]
+
+A2_VOCAB_SIMPLIFICATION = {
+    "obsession with possessions": "love of things",
+    "comedy villainy": "funny bad guys",
+    "consequences of wishes": "wishes and problems",
+    "climactic revelation": "the big secret",
+    "surrealism": "strange art",
+    "artistic collaboration": "making art together",
+    "subconscious desires": "dreams and wishes",
+    "artistic spark": "creative ideas",
+    "superstition": "old beliefs",
+    "optimism": "happy feelings",
+    "redemption": "making things right",
+    "cinematic medium": "movie style",
+    "animal loyalty": "loyal pets",
+    "mourning": "being sad",
+    "overcoming prejudice": "being accepted",
+    "kitchen hierarchy": "kitchen rules",
+    "cuisine de paris": "paris cooking",
+    "passion du goût": "passion for taste",
+    "chef de cuisine": "head chef",
+    "seclusion": "being alone",
+    "apparition": "ghost",
+    "illusion": "trick",
+    "eccentric": "strange",
+    "fairy tale logic": "magic rules",
+    "archnemesis": "big enemy",
+    "vow": "promise",
+    "story arc": "story path",
+    "greed": "wanting too much",
+    "glitch": "mistake",
+    "epic": "big adventure",
+    "survival": "staying alive",
+    "lost in the wild": "lost in the forest",
+    "belonging in family": "family love",
+    "superstition ≠ rationality": "old beliefs ≠ facts",
+    "optimism ≠ pessimism": "happy ≠ sad",
+    "trauma ≠ healing": "sadness ≠ feeling better"
+}
 
 # Localized labels for Theme Snapshot block
 LOCALIZED_LABELS = {
