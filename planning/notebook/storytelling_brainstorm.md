@@ -81,6 +81,14 @@ Here is the exhaustive, full grammar curriculum mapping designed to feed the ran
    - *Anchor:* `this / that / these / those`
    - *Clue:* Contrast close items with distant ones.
    - *E.g.:* "This map is useful, but those mountains over there look dangerous."
+9. **Pronouns - Subject & Object**
+   - *Anchor:* `I / you / he / she / it / we / they` AND `me / you / him / her / it / us / them`
+   - *Clue:* Refer back to characters already introduced.
+   - *E.g.:* "The guide met them at the gate and showed them the path."
+10. **Prepositions of Place (Basic)**
+    - *Anchor:* `in / on / under / behind / next to / in front of`
+    - *Clue:* Pinpoint the physical location of an important clue.
+    - *E.g.:* "The letter was hidden under the heavy bronze candle holder."
 
 ---
 
@@ -119,6 +127,14 @@ Here is the exhaustive, full grammar curriculum mapping designed to feed the ran
    - *Anchor:* `to + Verb` (meaning "in order to")
    - *Clue:* Describe the motive behind a character's physical travel or action.
    - *E.g.:* "He climbed the tallest tree to see the distant city."
+9. **Adjectives ending in -ed vs -ing**
+   - *Anchor:* `tired / tiring / bored / boring / excited / exciting`
+   - *Clue:* Express both how a character feels and the situation causing it.
+   - *E.g.:* "The long walk was tiring, so the exhausted traveler rested."
+10. **Prepositions of Time**
+    - *Anchor:* `at / on / in`
+    - *Clue:* Specify the exact hour, day, or season of a major plot point.
+    - *E.g.:* "In the winter, they stayed indoors, but at midnight they went outside."
 
 ---
 
@@ -157,6 +173,14 @@ Here is the exhaustive, full grammar curriculum mapping designed to feed the ran
    - *Anchor:* `remember / forget / stop / try + -ing or to-Verb`
    - *Clue:* Focus on a character's mental attempt or memory.
    - *E.g.:* "He tried to open the window, but the rusty hinges wouldn't move."
+9. **Past Continuous contrasting Past Simple**
+   - *Anchor:* `was/were + -ing contrasting with past -ed`
+   - *Clue:* Present a sudden interruption during an ongoing event.
+   - *E.g.:* "They were eating dinner when a knock sounded at the door."
+10. **Quantifiers (Expressing amounts)**
+    - *Anchor:* `much / many / plenty of / a few / a little / too many / not enough`
+    - *Clue:* Detail the supply, assets, or resources your characters possess.
+    - *E.g.:* "They had plenty of gold coins but not enough fresh water."
 
 ---
 
@@ -195,6 +219,14 @@ Here is the exhaustive, full grammar curriculum mapping designed to feed the ran
    - *Anchor:* `will be + Verb-ing` / `will have + Past Participle`
    - *Clue:* Project into the future of the story to mark a milestone or action in progress.
    - *E.g.:* "By tomorrow evening, the explorers will have reached the summit."
+9. **Wish & If Only (Present / Future regret)**
+   - *Anchor:* `I wish / If only + Past Simple / would + Verb`
+   - *Clue:* Express current annoyance or frustration about a scenario.
+   - *E.g.:* "I wish the guard would stop checking the gate every ten minutes."
+10. **Adjectives with dependent prepositions (advanced)**
+    - *Anchor:* `good at / responsible for / worried about / interested in / keen on / obsessed with`
+    - *Clue:* Attribute strong psychological or technical traits to characters.
+    - *E.g.:* "She was obsessed with ancient runes and was keen on translating them."
 
 ---
 
@@ -233,6 +265,14 @@ Here is the exhaustive, full grammar curriculum mapping designed to feed the ran
    - *Anchor:* `was/were about to` / `was/were destined to` / `was/were due to`
    - *Clue:* Portend a future tragic or historic event that was inevitable.
    - *E.g.:* "They laughed around the campfire, unaware that they were about to face their greatest test."
+9. **Modal Verbs of Past Duty / Regret**
+   - *Anchor:* `should have / shouldn't have / could have / might have + V3`
+   - *Clue:* Point out past mistakes made by your protagonists.
+   - *E.g.:* "The archers should have checked their arrows before the fight."
+10. **Verbs of Sensation with Infinitive or Gerund**
+    - *Anchor:* `hear / see / feel / watch + bare infinitive vs -ing`
+    - *Clue:* Describe sensory perception of completed actions vs actions in progress.
+    - *E.g.:* "We watched the ancient bridge collapse and heard the rocks crashing below."
 
 ---
 
@@ -271,6 +311,14 @@ Here is the exhaustive, full grammar curriculum mapping designed to feed the ran
    - *Anchor:* `Highly advanced metaphorical adjective placement` (e.g., "a sleepless night", "thoughtful silences")
    - *Clue:* Write deep literary prose describing a character's state.
    - *E.g.:* "They spent a sleepless night listening to the suspicious howling of the wolves."
+9. **Conditional Clauses with "but for"**
+   - *Anchor:* `But for + noun phrase, subject would (have)...`
+   - *Clue:* Express that a single critical detail was the sole reason a major event didn't fail.
+   - *E.g.:* "But for his timely arrival, the secret map would have been burnt."
+10. **Preposed Adverbs with Subject-Verb Inversion**
+    - *Anchor:* `Adverb (e.g., Away / Up / Off) + Verb + Subject`
+    - *Clue:* Build high-paced kinetic movement in your narrative.
+    - *E.g.:* "Away rode the mysterious messenger, vanishing into the mist."
 
 ---
 
@@ -287,6 +335,14 @@ When players activate the **Thematic Vocabulary Modifier**, the game draws an ag
     *   *Vocabulary:* `apple`, `bread`, `milk`, `water`, `tea`, `cheese`, `egg`, `fruit`, `meat`, `rice`
 *   **Theme 4: Nature & Weather**
     *   *Vocabulary:* `sun`, `rain`, `wind`, `tree`, `flower`, `river`, `sea`, `star`, `sky`, `fire`
+*   **Theme 5: Colors & Shapes**
+    *   *Vocabulary:* `red`, `blue`, `green`, `yellow`, `black`, `white`, `circle`, `square`, `round`, `line`
+*   **Theme 6: Everyday Objects**
+    *   *Vocabulary:* `key`, `book`, `bag`, `pen`, `phone`, `clock`, `cup`, `plate`, `hat`, `shoe`
+*   **Theme 7: Family & People**
+    *   *Vocabulary:* `mother`, `father`, `brother`, `sister`, `baby`, `man`, `woman`, `child`, `friend`, `family`
+*   **Theme 8: Time & Seasons**
+    *   *Vocabulary:* `day`, `night`, `week`, `month`, `year`, `morning`, `evening`, `summer`, `winter`, `clock`
 
 ### 🏷️ Level A2: Elementary
 *   **Theme 1: Places & Buildings**
@@ -297,6 +353,14 @@ When players activate the **Thematic Vocabulary Modifier**, the game draws an ag
     *   *Vocabulary:* `party`, `holiday`, `hobby`, `friend`, `game`, `gift`, `music`, `dinner`, `invitation`, `walk`
 *   **Theme 4: Describing People**
     *   *Vocabulary:* `brave`, `clever`, `quiet`, `tired`, `friendly`, `angry`, `happy`, `sad`, `tall`, `young`
+*   **Theme 5: Transport & Travel**
+    *   *Vocabulary:* `train`, `plane`, `bus`, `boat`, `ticket`, `station`, `hotel`, `map`, `baggage`, `trip`
+*   **Theme 6: Health & Body**
+    *   *Vocabulary:* `head`, `hand`, `foot`, `heart`, `pain`, `medicine', `ill`, `well`, `doctor`, `sleep`
+*   **Theme 7: Shopping & Clothes**
+    *   *Vocabulary:* `coat`, `shirt`, `trousers`, `dress`, `cost`, `buy`, `price`, `market`, `shop`, `money`
+*   **Theme 8: Sports & Activities**
+    *   *Vocabulary:* `play`, `run`, `swim`, `game`, `ball`, `team`, `win`, `lose`, `sport`, `walk`
 
 ### 🏷️ Level B1: Intermediate
 *   **Theme 1: Tech & Digital Life**
@@ -307,16 +371,32 @@ When players activate the **Thematic Vocabulary Modifier**, the game draws an ag
     *   *Vocabulary:* `surprised`, `worried`, `excited`, `disappointed`, `nervous`, `confident`, `confused`, `relaxed`, `embarrassed`, `bored`
 *   **Theme 4: Environment**
     *   *Vocabulary:* `ecology`, `climate`, `pollution`, `nature`, `resource`, `energy`, `planet`, `protect`, `wildlife`, `scenery`
+*   **Theme 5: Commerce & Finance**
+    *   *Vocabulary:* `budget`, `salary`, `tax`, `account`, `transaction`, `expense`, `debt`, `invest`, `profit`, `save`
+*   **Theme 6: Health & Lifestyle**
+    *   *Vocabulary:* `nutrition`, `exercise`, `stress`, `disease`, `treatment`, `wellness`, `diet`, `recovery`, `muscle`, `clinic`
+*   **Theme 7: Education & Study**
+    *   *Vocabulary:* `subject`, `degree`, `lecture`, `exam`, `research`, `science`, `scholar`, `skills`, `course`, `lesson`
+*   **Theme 8: Society & Culture**
+    *   *Vocabulary:* `community`, `tradition`, `custom`, `citizen`, `government`, `celebration`, `event`, `opinion`, `law`, `justice`
 
 ### 🏷️ Level B2: Upper-Intermediate
 *   **Theme 1: Art, Literature & Media**
     *   *Vocabulary:* `masterpiece`, `sculpture`, `critic`, `novel`, `character`, `plot`, `exhibition`, `portrait`, `genre`, `performance`
 *   **Theme 2: Relationships & Society**
     *   *Vocabulary:* `colleague`, `promotion`, `salary`, `landlord`, `tenant`, `neighbour`, `community`, `tradition`, `respect`, `rebellion`
-*   **Theme 3: Abstract Psychological Concepts**
+*   **Theme 3: Abstract Psychology**
     *   *Vocabulary:* `ambition`, `tolerance`, `stubbornness`, `generosity`, `confidence`, `patience`, `honesty`, `sensitivity`, `reliability`, `anxiety`
 *   **Theme 4: Problem Narration**
     *   *Vocabulary:* `challenge`, `mistake`, `consequence`, `solution`, `decision`, `crisis`, `obstacle`, `progress`, `compromise`, `disaster`
+*   **Theme 5: Technology & Innovation**
+    *   *Vocabulary:* `automation`, `intelligence`, `virtual`, `cybersecurity`, `efficiency`, `pioneering`, `infrastructure`, `developer`, `invention`, `gadget`
+*   **Theme 6: Environment & Energy**
+    *   *Vocabulary:* `sustainability`, `renewable`, `biodiversity`, `conservation`, `extinction`, `emissions`, `habitat`, `ecosystem`, `fossil`, `disposal`
+*   **Theme 7: Business & Management**
+    *   *Vocabulary:* `negotiation`, `strategy`, `colleague`, `corporation`, `merger`, `leadership`, `market`, `contract`, `profitability`, `bankruptcy`
+*   **Theme 8: Crime & Justice**
+    *   *Vocabulary:* `investigation`, `evidence`, `suspect`, `verdict`, `accuse`, `witness`, `trial`, `crime`, `punishment`, `prison`
 
 ### 🏷️ Level C1: Advanced
 *   **Theme 1: Philosophy & Existential Themes**
@@ -327,6 +407,14 @@ When players activate the **Thematic Vocabulary Modifier**, the game draws an ag
     *   *Vocabulary:* `apprehensive`, `vulnerable`, `resilient`, `skeptical`, `reluctant`, `indifferent`, `melancholy`, `passionate`, `bewildered`, `exhilarated`
 *   **Theme 4: Rhetoric & Debate**
     *   *Vocabulary:* `controversial`, `perspective`, `contradiction`, `advocate`, `assert`, `refute`, `implication`, `consensus`, `fallacy`, `paradox`
+*   **Theme 5: Politics & Governance**
+    *   *Vocabulary:* `legislative`, `constituency`, `referendum`, `ideology`, `autocracy`, `diplomacy`, `treaty`, `bureaucratic`, `lobbyist`, `governance`
+*   **Theme 6: Art & Aesthetics**
+    *   *Vocabulary:* `abstract`, `avant-garde`, `critique`, `medium`, `expressionism`, `sensory`, `provocative`, `symmetry`, `interpretation`, `aesthetic`
+*   **Theme 7: Economics & Markets**
+    *   *Vocabulary:* `monopoly`, `recession`, `inflation`, `deficit`, `liquidity`, `commodities`, `fiscal`, `prosperity`, `equilibrium`, `infrastructure`
+*   **Theme 8: Sociology & Behavior**
+    *   *Vocabulary:* `demographics`, `integration`, `prejudice`, `acculturation`, `hierarchy`, `paradigm`, `phenomenon`, `customary`, `marginalization`, `behavior`
 
 ### 🏷️ Level C2: Mastery
 *   **Theme 1: Nuanced Human Behavior**
@@ -337,6 +425,14 @@ When players activate the **Thematic Vocabulary Modifier**, the game draws an ag
     *   *Vocabulary:* `sovereignty`, `hegemony`, `globalization`, `bureaucracy`, `infrastructure`, `diplomacy`, `sanction`, `jurisdiction`, `alignment`, `autonomy`
 *   **Theme 4: Philosophical Concepts**
     *   *Vocabulary:* `determinism`, `solipsism`, `nihilism`, `existentialism`, `stoicism`, `empiricism`, `dualism`, `transcendence`, `altruistic`, `pragmatic`
+*   **Theme 5: Natural Disasters & Cosmic Phenomena**
+    *   *Vocabulary:* `cataclysmic`, `supernova`, `conflagration`, `vortex`, `dessecation`, `obliteration`, `apocalyptic`, `celestial`, `equilibrium`, `phenomenon`
+*   **Theme 6: Law & Jurisprudence**
+    *   *Vocabulary:* `indictment`, `litigation`, `acquittal`, `nullification`, `precedent`, `codification`, `testimony`, `jurisdiction`, `statute`, `sanction`
+*   **Theme 7: Medicine & Pathology**
+    *   *Vocabulary:* `pathogen`, `asymptomatic`, `neurological`, `congenital`, `prognosis`, `malignancy`, `efficacy`, `pandemic`, `syndrome`, `treatment`
+*   **Theme 8: Advanced Finance & Speculation**
+    *   *Vocabulary:* `arbitrage`, `amortization`, `diversification`, `insolvency`, `portfolio`, `speculator`, `valuation`, `volatility`, `capitalization`, `fiscal`
 
 ---
 
