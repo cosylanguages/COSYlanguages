@@ -397,6 +397,7 @@ SONG_THEMES = {
 CHALLENGE_MAP = {
     "maelle-challenge": ("toutes-les-machines-ont-le-coeur", "je-taime-comme-je-taime"),
     "abba-challenge": ("me-and-i", "angeleyes"),
+    "heathers-challenge": ("seventeen", "lifeboat"),
     "arletta-challenge": ("kapoies-nychtes", "o-gatos"),
     "esteman-challenge": ("amor-libre", "te-alejas-mas-de-mi"),
     "angele-challenge": ("oui-ou-non", "balance-ton-quoi"),
@@ -2560,6 +2561,12 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 def parse_existing_vocab(slug):
     path = f"events/sessions/karaoke-club/{slug}.html"
     if not os.path.exists(path):
+        for l in ["en", "fr", "es", "it", "el", "ru"]:
+            l_path = f"events/sessions/karaoke-club/{l}/{slug}.html"
+            if os.path.exists(l_path):
+                path = l_path
+                break
+    if not os.path.exists(path):
         path = f"events/sessions/{slug}.html"
     vocab_data = {}
     if not os.path.exists(path):
@@ -4469,6 +4476,12 @@ songs_list = []
 for slug in sorted(LYRICS_DATA.keys()):
     path = f"events/sessions/karaoke-club/{slug}.html"
     if not os.path.exists(path):
+        for l in ["en", "fr", "es", "it", "el", "ru"]:
+            l_path = f"events/sessions/karaoke-club/{l}/{slug}.html"
+            if os.path.exists(l_path):
+                path = l_path
+                break
+    if not os.path.exists(path):
         path = f"events/sessions/{slug}.html"
     if not os.path.exists(path):
         if slug in NEW_SONGS_METADATA:
@@ -4576,6 +4589,12 @@ NEW_CHALLENGES_METADATA = {
 challenges_list = []
 for slug in sorted(CHALLENGE_MAP.keys()):
     path = f"events/sessions/karaoke-club/{slug}.html"
+    if not os.path.exists(path):
+        for l in ["en", "fr", "es", "it", "el", "ru"]:
+            l_path = f"events/sessions/karaoke-club/{l}/{slug}.html"
+            if os.path.exists(l_path):
+                path = l_path
+                break
     if not os.path.exists(path):
         path = f"events/sessions/{slug}.html"
 
@@ -5216,8 +5235,16 @@ for song in all_karaoke_data:
             sources_html=sources_html
         )
 
-    filepath = os.path.join(OUTPUT_DIR, f"{slug}.html")
+    lang_dir = os.path.join(OUTPUT_DIR, lang)
+    os.makedirs(lang_dir, exist_ok=True)
+    filepath = os.path.join(lang_dir, f"{slug}.html")
+
+    # Adjust relative paths because the file is nested one level deeper:
+    formatted_html = formatted_html.replace("../../../", "TEMP_ROOT_REL/")
+    formatted_html = formatted_html.replace("../../", "../../../")
+    formatted_html = formatted_html.replace("TEMP_ROOT_REL/", "../../../../")
+
     with open(filepath, "w", encoding="utf-8") as fh:
         fh.write(formatted_html)
 
-print(f"Generated all {len(all_karaoke_data)} Karaoke session HTML pages successfully with full authentic lyrics, collapsible 6-stage layout, opposites, Theme Box, Speaking Time Progress, and PDF download button!")
+print(f"Generated all {len(all_karaoke_data)} Karaoke session HTML pages successfully with full authentic lyrics, collapsible 6-stage layout, opposites, Theme Box, Speaking Time Progress, and PDF download button organized by language subfolder!")
