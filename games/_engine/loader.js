@@ -9,7 +9,7 @@
     window.COSYLoader = {
         loadLevelData: (lang, level) => window.gameUtils.loadLevelData(lang, level),
         getGameData: (lang) => window.gameUtils.getGameData(lang),
-        getLangCode: (val) => window.gameUtils.getLangCode(val),
-        getLevelCode: (val) => window.gameUtils.getLevelCode(val)
+        getLangCode: (val) => window.getLangCode(val),
+        getLevelCode: (val) => window.getLevelCode(val)
     };
 })();
