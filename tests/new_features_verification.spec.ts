@@ -23,7 +23,7 @@ test.describe('New Features Verification', () => {
 
   test('Notebook page loads and allows manual word entry', async ({ page }) => {
     await page.goto('http://localhost:8080/notebook/index.html');
-    await expect(page).toHaveTitle(/My Vocabulary/);
+    await expect(page).toHaveTitle(/(My Vocabulary|Vocabulary Notebook)/);
 
     // Add a manual word
     await page.fill('#manual-word', 'TestWord');

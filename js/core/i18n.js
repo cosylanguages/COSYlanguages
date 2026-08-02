@@ -13,17 +13,20 @@
 
     /**
      * Determines the current language based on the environment.
-     * URL path wins, otherwise fallback to null (neutral).
+     * localStorage wins, otherwise fallback to path/URL, otherwise 'en'.
      */
     function detectLanguage() {
+        const stored = localStorage.getItem('cosy_last_language');
+        if (stored) return stored.toLowerCase();
+
         const path = window.location.pathname;
 
         // Rule 1: URL path determines language (e.g., /languages/el/)
         const langMatch = path.match(/\/languages\/([a-z]{2})\//);
         if (langMatch) return langMatch[1].toLowerCase();
 
-        // Rule 2: Homepage has no language mode
-        return null;
+        // Fallback to English
+        return 'en';
     }
 
     /**
@@ -46,6 +49,54 @@
         }
     }
 
+    /**
+     * Dynamically loads translations.js from translations map if present.
+     */
+    async function loadTranslationsJs(lang) {
+        if (!lang) return {};
+
+        // If already loaded in window.translations
+        if (window.translations && window.translations[lang]) {
+            return window.translations[lang];
+        }
+
+        const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function')
+            ? window.COSY.getPrefix()
+            : '/';
+
+        const map = {
+            'en': 'js/data/germanic/en/translations.js',
+            'fr': 'js/data/romance/fr/translations.js',
+            'it': 'js/data/romance/it/translations.js',
+            'ru': 'js/data/slavic/ru/translations.js',
+            'el': 'js/data/hellenic/el/translations.js',
+            'es': 'js/data/romance/es/translations.js',
+            'de': 'js/data/germanic/de/translations.js',
+            'pt': 'js/data/romance/pt/translations.js',
+            'hy': 'js/data/armenian/hy/translations.js',
+            'ka': 'js/data/kartvelian/ka/translations.js',
+            'tt': 'js/data/turkic/tt/translations.js',
+            'ba': 'js/data/turkic/ba/translations.js',
+            'br': 'js/data/celtic/br/translations.js'
+        };
+
+        const path = map[lang];
+        if (!path) return {};
+
+        return new Promise((resolve) => {
+            const s = document.createElement('script');
+            s.src = prefix + path;
+            s.onload = () => {
+                s.remove();
+                resolve(window.translations && window.translations[lang] ? window.translations[lang] : {});
+            };
+            s.onerror = () => {
+                s.remove();
+                resolve({});
+            };
+            document.head.appendChild(s);
+        });
+    }
 
     /**
      * Translates a key using the currently loaded strings.
@@ -74,7 +125,7 @@
      * Applies translations to all elements with data-translate-key.
      */
     function applyTranslations() {
-        if (!currentLang) return; // Rule 3: Do nothing on neutral pages
+        if (!currentLang) return; // Safety check
         if (!translations || Object.keys(translations).length === 0) return; // Safety check
 
         const elements = document.querySelectorAll('[data-translate-key]');
@@ -106,8 +157,16 @@
         if (!lang) return;
         currentLang = lang.toLowerCase();
         localStorage.setItem('cosy_last_language', currentLang);
-        translations = await fetchTranslations(currentLang);
+        const jsonTranslations = await fetchTranslations(currentLang);
+        const jsTranslations = await loadTranslationsJs(currentLang);
+        translations = { ...jsTranslations, ...jsonTranslations };
         applyTranslations();
+
+        // Refresh navbar/mobile menu/etc. to update lang pickers & menus
+        if (window.COSY && typeof window.COSY.refresh === 'function') {
+            window.COSY.refresh();
+        }
+
         document.dispatchEvent(new CustomEvent('cosyLanguageChanged', { detail: { lang: currentLang } }));
     };
 
@@ -118,10 +177,16 @@
         currentLang = detectLanguage();
 
         if (currentLang) {
-            // Rule 2: Remember last used language
             localStorage.setItem('cosy_last_language', currentLang);
-            translations = await fetchTranslations(currentLang);
+            const jsonTranslations = await fetchTranslations(currentLang);
+            const jsTranslations = await loadTranslationsJs(currentLang);
+            translations = { ...jsTranslations, ...jsonTranslations };
             applyTranslations();
+
+            // Refresh navbar/mobile menu/etc. if engine is already loaded
+            if (window.COSY && typeof window.COSY.refresh === 'function') {
+                window.COSY.refresh();
+            }
         }
 
         document.dispatchEvent(new CustomEvent('cosyI18nReady', { detail: { lang: currentLang } }));

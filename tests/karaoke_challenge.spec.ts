@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Karaoke Club Challenge Tabbed layout Verification', () => {
   test('Maëlle Challenge page should load with correct metadata and tab layout', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/karaoke-club/maelle-challenge.html');
+    await page.goto('http://localhost:8080/events/sessions/karaoke-club/fr/maelle-challenge.html');
     await expect(page.locator('h1')).toContainText('Maëlle Challenge');
 
     // 1. Duration should be exactly 90 minutes

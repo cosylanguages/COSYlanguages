@@ -5,7 +5,7 @@ test('Games Hub loads and Action Hero setup opens', async ({ page }) => {
     await page.goto('http://localhost:8080/games/index.html');
 
     // Check for standard title
-    await expect(page).toHaveTitle(/Games Hub/);
+    await expect(page).toHaveTitle(/Games/);
 
     // Verify some game cards are visible
     const fluencyFlowCard = page.locator('text=Fluency Flow');

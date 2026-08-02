@@ -252,6 +252,17 @@ function navFree () {
     const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
     const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
     const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
+
+    // Global language switcher (flag picker) state and options
+    const currentLang = (window.COSY_I18N && window.COSY_I18N.currentLang) || localStorage.getItem('cosy_last_language') || 'en';
+    const langOptions = [
+        { code: 'en', flag: '🇬🇧', label: 'EN' },
+        { code: 'fr', flag: '🇫🇷', label: 'FR' },
+        { code: 'it', flag: '🇮🇹', label: 'IT' },
+        { code: 'ru', flag: '🇷🇺', label: 'RU' },
+        { code: 'el', flag: '🇬🇷', label: 'EL' }
+    ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
+
     return `
       <a class="nav-logo" href="${p}index.html" aria-label="${t('home_aria', 'COSYlanguages Home')}">
         <img src="${p}images/logos/cosylanguages.png" alt="COSYlanguages logo" onerror="this.style.display='none'">
@@ -262,6 +273,9 @@ function navFree () {
       </ul>
       <div id="cosy-nav-context" class="nav-context"></div>
       <div class="nav-right" style="display:flex; align-items:center; gap:8px;">
+        <select id="cosy-language-switcher" onchange="setLanguage(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Language">
+          ${langOptions}
+        </select>
         <select id="profile-switcher" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
           ${profileOptions}
           <option value="__create__">+ New...</option>
@@ -317,6 +331,17 @@ function mobileMenuHTML (mode) {
     const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
     const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
     const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
+
+    // Global language switcher (flag picker) state and options for mobile menu
+    const currentLang = (window.COSY_I18N && window.COSY_I18N.currentLang) || localStorage.getItem('cosy_last_language') || 'en';
+    const langOptions = [
+        { code: 'en', flag: '🇬🇧', label: 'EN' },
+        { code: 'fr', flag: '🇫🇷', label: 'FR' },
+        { code: 'it', flag: '🇮🇹', label: 'IT' },
+        { code: 'ru', flag: '🇷🇺', label: 'RU' },
+        { code: 'el', flag: '🇬🇷', label: 'EL' }
+    ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
+
     return `
       <a href="${p}index.html" data-translate-key="nav_home">Home</a>
       <a href="${p}practice/index.html" data-translate-key="nav_practice">💡 Practice</a>
@@ -324,6 +349,12 @@ function mobileMenuHTML (mode) {
       <a href="${p}games/index.html" data-translate-key="nav_games">🎮 Games</a>
       <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
+      <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
+         <span style="font-size: 0.9rem; color: var(--ink-soft);">Language:</span>
+         <select id="cosy-language-switcher-mobile" onchange="setLanguage(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
+            ${langOptions}
+         </select>
+      </div>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);">Profile:</span>
          <select id="profile-switcher-mobile" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
