@@ -116,12 +116,12 @@
 <header class="hero">
 <div class="hero-inner">
 <div class="hero-left">
-<div class="hero-tag">🎉 Community</div>
-<h1>Live events</h1>
+<div class="hero-tag" data-i18n="nav.events">🎉 Community</div>
+<h1 data-i18n="nav.events">Live events</h1>
 <p class="hero-sub">Organised sessions with a COSYlanguages teacher. Speaking clubs on real topics, and original-language cinema nights. Free for everyone.</p>
 <div class="hero-ctas">
-<a class="btn-primary" href="https://wa.me/330766784195">Join a session</a>
-<a class="btn-secondary" href="#types">Explore types ↓</a>
+<a class="btn-primary" href="https://wa.me/330766784195" data-i18n="button.joinSession">Join a session</a>
+<a class="btn-secondary" href="#types" data-i18n="button.exploreTypes">Explore types ↓</a>
 </div>
 </div>
 <div class="hero-right">
@@ -131,6 +131,10 @@
 </header>
 
 <main class="page">
+<nav class="cosy-breadcrumbs" style="margin-bottom: 2rem;">
+<a href="../" data-i18n="breadcrumb.home">Home</a> <span class="sep">/</span>
+<span class="current" data-i18n="breadcrumb.events">Events</span>
+</nav>
 <!-- Welcoming Speaking Club Quick-Start Guide -->
 <section id="onboarding-guide" style="background: var(--cream-dark); border: 1.5px dashed var(--border); border-radius: var(--r-xl); padding: 2rem; margin-bottom: 2.5rem; box-sizing: border-box;">
 <div style="display: flex; gap: 1.5rem; align-items: flex-start; flex-wrap: wrap;">
@@ -217,7 +221,7 @@
 <li><span>Duration</span> <span>60 min</span></li>
 <li><span>Frequency</span> <span>Weekly</span></li>
 </ul>
-<a class="view-btn" href="#clubs">👇 See all 9 clubs</a>
+<a class="view-btn" href="#clubs" data-i18n="button.seeAllClubs">👇 See all 9 clubs</a>
 </article>
 <!-- Card B -->
 <article class="event-type-card">
@@ -229,7 +233,7 @@
 <li><span>Duration</span> <span>90 min</span></li>
 <li><span>Frequency</span> <span>Monthly</span></li>
 </ul>
-<a class="view-btn" href="cinema-club.html">🍿 Enter Cinema Club</a>
+<a class="view-btn" href="cinema-club.html" data-i18n="button.enterCinema">🍿 Enter Cinema Club</a>
 </article>
 <!-- Card C -->
 <article class="event-type-card">
@@ -241,7 +245,7 @@
 <li><span>Duration</span> <span>60 min</span></li>
 <li><span>Frequency</span> <span>Bi-weekly</span></li>
 </ul>
-<a class="view-btn" href="karaoke-club.html" style="background:#4A154B;">🎶 Enter Karaoke Club</a>
+<a class="view-btn" href="karaoke-club.html" style="background:#4A154B;" data-i18n="button.enterKaraoke">🎶 Enter Karaoke Club</a>
 </article>
 <!-- Card D -->
 <article class="event-type-card">
@@ -253,7 +257,7 @@
 <li><span>Duration</span> <span>60 - 90 min</span></li>
 <li><span>Frequency</span> <span>Bi-weekly</span></li>
 </ul>
-<a class="view-btn" href="game-evenings.html" style="background:#1b263b;">🎮 Enter Game Club</a>
+<a class="view-btn" href="game-evenings.html" style="background:#1b263b;" data-i18n="button.enterGames">🎮 Enter Game Club</a>
 </article>
 </div>
 </section>
@@ -263,10 +267,10 @@
 <h2 class="sec-h2">Find your favorite topic</h2>
 <p class="sec-p">From science to philosophy, our clubs cover the topics that matter to adults.</p>
 <div class="club-filters">
-<button class="filter-btn active" data-level="all">All Levels</button>
-<button class="filter-btn" data-level="beginner">Beginner (A1-A2)</button>
-<button class="filter-btn" data-level="intermediate">Intermediate (B1-B2)</button>
-<button class="filter-btn" data-level="advanced">Advanced (C1-C2)</button>
+<button class="filter-btn active" data-level="all" data-i18n="option.allLevels">All Levels</button>
+<button class="filter-btn" data-level="beginner" data-i18n="option.beginner">Beginner (A1-A2)</button>
+<button class="filter-btn" data-level="intermediate" data-i18n="option.intermediate">Intermediate (B1-B2)</button>
+<button class="filter-btn" data-level="advanced" data-i18n="option.advanced">Advanced (C1-C2)</button>
 </div>
 <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 1.5rem; color: var(--sage-deep);">🎙️ Thematic Speaking Clubs</h3>
 <div class="club-grid" style="margin-bottom: 3.5rem;">
@@ -412,7 +416,7 @@
 <p class="sec-p">Explore every past session, study sheet, speaking prompt list, and original-language debate topic across all 9 clubs. Filter below to search instantly.</p>
 <!-- Search Box -->
 <div class="dir-search-box">
-<input class="dir-search-input" id="dir-search" placeholder="Type to search all past sessions (e.g., AI, Dostoevsky, French, Chess)..." type="text"/>
+<input class="dir-search-input" id="dir-search" placeholder="Type to search all past sessions (e.g., AI, Dostoevsky, French, Chess)..." data-i18n="placeholder.search" type="text"/>
 </div>
 <!-- Accordion Panels -->
 <div class="dir-accordions">

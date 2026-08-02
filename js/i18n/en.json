@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Home",
+    "practice": "Practice",
+    "notebook": "Notebook",
+    "games": "Games",
+    "events": "Events",
+    "contact": "Contact us",
+    "languages": "Languages 🌍",
+    "myLessons": "My Lessons 🔐"
+  },
+  "footer": {
+    "courses": "Courses",
+    "explore": "Explore",
+    "contact": "Contact",
+    "project": "Project",
+    "privacy": "Privacy & Safety 🛡️",
+    "allRightsReserved": "© 2026 COSYlanguages — All rights reserved",
+    "description": "Your friendly corner to master new languages and connect with the world. 🌍"
+  },
+  "button": {
+    "bookNow": "Book Now →",
+    "exploreTypes": "Explore types ↓",
+    "seeAllClubs": "👇 See all 9 clubs",
+    "enterCinema": "🍿 Enter Cinema Club",
+    "enterKaraoke": "🎶 Enter Karaoke Club",
+    "enterGames": "🎮 Enter Game Club",
+    "joinSession": "Join a session",
+    "exploreSession": "Explore Session ➔",
+    "viewClubHistory": "View Club & History →",
+    "tryFreePractice": "Try free practice →",
+    "playFreeGames": "Play free games →",
+    "seeEvents": "See events",
+    "seeUpcomingLanguages": "See upcoming languages →",
+    "askAboutGroups": "Ask about groups →",
+    "tryAccelerator": "🧠 Cognitive & Immersion Accelerator →",
+    "pinToHome": "📲 Pin to Home",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish 🎉",
+    "skip": "Skip",
+    "save": "+ Save",
+    "agree": "I Agree",
+    "disagree": "I Disagree"
+  },
+  "practice": {
+    "startPractice": "Start Practice"
+  },
+  "karaoke": {
+    "enterChallenge": "Enter Challenge",
+    "contentLanguage": "Content Language",
+    "level": "Level",
+    "type": "Type",
+    "typePinned": "Pinned Challenge",
+    "typeStandalone": "Standalone Song",
+    "typeAll": "All",
+    "filterContentLanguage": "Song Language",
+    "filterLevel": "Target Level",
+    "filterType": "Format Type",
+    "stickyTitle": "🎵 Past Sessions Filter"
+  },
+  "events": {
+    "pastSessions": "🕒 Past Sessions",
+    "nextLiveSession": "📅 Next Live Session",
+    "registerInterest": "💬 Register Interest"
+  },
+  "label": {
+    "language": "Language 🌍",
+    "courseType": "Course type 🎓",
+    "duration": "Duration ⏱️",
+    "pack": "Lesson pack 📦",
+    "currency": "Currency 💵",
+    "word": "Word",
+    "definition": "Definition or notes",
+    "contentLanguage": "Content Language",
+    "level": "Level",
+    "type": "Type"
+  },
+  "placeholder": {
+    "search": "Type to search all past sessions (e.g., AI, Dostoevsky, French, Chess)...",
+    "word": "e.g. Serendipity",
+    "definition": "What does it mean?",
+    "typeToSearch": "Type to search..."
+  },
+  "option": {
+    "all": "All",
+    "allLevels": "All Levels",
+    "beginner": "Beginner (A1-A2)",
+    "intermediate": "Intermediate (B1-B2)",
+    "advanced": "Advanced (C1-C2)",
+    "pinnedChallenge": "Pinned Challenge",
+    "standaloneSong": "Standalone Song",
+    "challenge": "Challenge",
+    "standalone": "Standalone"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "events": "Events",
+    "practice": "Practice",
+    "games": "Games",
+    "notebook": "Notebook"
+  }
+}

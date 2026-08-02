@@ -20,6 +20,7 @@
         if (val instanceof HTMLElement) {
             val.classList.add('active');
             selectedLang = val.dataset.value || 'en';
+            localStorage.setItem('cosy_practice_last_lang', selectedLang);
             return;
         }
 
@@ -29,6 +30,7 @@
             if (target) target.classList.add('active');
         }
         selectedLang = val;
+        localStorage.setItem('cosy_practice_last_lang', selectedLang);
     }
 
     function selectCat(el) {
@@ -343,7 +345,10 @@
         // Render progress trackers
         renderThemeProgressTrackers();
 
-        // Popoulate Languages
+        // Populate Languages with persistence
+        const storedLang = localStorage.getItem('cosy_practice_last_lang') || 'en';
+        selectedLang = storedLang;
+
         const langContainer = document.getElementById('lang-pills');
         if (langContainer && window.COSY_LANGUAGES) {
             langContainer.innerHTML = window.COSY_LANGUAGES.map(l =>
@@ -355,7 +360,8 @@
             });
         }
 
-        // Populate Levels
+        // Populate Levels with persistence
+        const storedLevel = localStorage.getItem('cosy_practice_last_level') || 'all';
         const levelSelect = document.getElementById('level-filter');
         if (levelSelect && window.COSY_LEVELS) {
             window.COSY_LEVELS.forEach(l => {
@@ -363,7 +369,14 @@
                 opt.value = l.id;
                 opt.textContent = l.name;
                 opt.setAttribute('data-translate-key', l.id);
+                if (l.id === storedLevel) {
+                    opt.selected = true;
+                }
                 levelSelect.appendChild(opt);
+            });
+
+            levelSelect.addEventListener('change', (e) => {
+                localStorage.setItem('cosy_practice_last_level', e.target.value);
             });
         }
 
@@ -395,6 +408,13 @@
             const levelSel = document.getElementById('level-filter');
             if (levelSel) {
                 levelSel.value = level;
+                updateThemes();
+            }
+        } else {
+            const levelSel = document.getElementById('level-filter');
+            if (levelSel) {
+                const storedLevel = localStorage.getItem('cosy_practice_last_level') || 'all';
+                levelSel.value = storedLevel;
                 updateThemes();
             }
         }

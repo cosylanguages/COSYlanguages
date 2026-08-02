@@ -49,9 +49,9 @@
 </header>
 <section class="container" style="padding: 2rem 1.5rem 5rem;">
 <nav class="cosy-breadcrumbs">
-<a href="../">Home</a> <span class="sep">/</span>
-<a href="index.html">Events</a> <span class="sep">/</span>
-<span class="current">Karaoke Club</span>
+<a href="../" data-i18n="breadcrumb.home">Home</a> <span class="sep">/</span>
+<a href="index.html" data-i18n="breadcrumb.events">Events</a> <span class="sep">/</span>
+<span class="current" data-i18n="breadcrumb.events">Karaoke Club</span>
 </nav>
 <a class="back-link" href="index.html" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Live Events</a>
 <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
@@ -59,7 +59,7 @@
 <!-- UPCOMING SESSIONS -->
 <div>
 <div class="section-header" style="margin-bottom: 1.5rem;">
-<h2 style="font-size: 1.5rem;">📅 Next Live Session</h2>
+<h2 style="font-size: 1.5rem;" data-i18n="events.nextLiveSession">📅 Next Live Session</h2>
 </div>
 <div class="session-info"><table>
 <tr><td>Song</td><td>Make Your Own Kind of Music (Cass Elliot)</td></tr>
@@ -69,14 +69,157 @@
 <tr><td>Duration</td><td>90–120 min</td></tr>
 <tr><td>Languages</td><td>🇬🇧 🇫🇷 🇮🇹 🇷🇺 🇬🇷</td></tr>
 </table></div>
-<a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Karaoke%20Club." style="background: var(--teal); color: white;">💬 Register Interest</a>
+<a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Karaoke%20Club." style="background: var(--teal); color: white;" data-i18n="events.registerInterest">💬 Register Interest</a>
 <!-- HISTORY (PAST SESSIONS) -->
 <div class="history-block" id="sc-hist" style="margin-top: 3.5rem;">
 <div class="section-header" style="margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-<h2 style="font-size: 1.5rem; margin: 0;">🕒 Past Sessions</h2>
-</div><div class="club-filters" style="justify-content: flex-start; margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap;"><button class="filter-btn active" data-level="all">All Levels</button><button class="filter-btn" data-level="a1">A1</button><button class="filter-btn" data-level="a2">A2</button><button class="filter-btn" data-level="b1">B1</button><button class="filter-btn" data-level="b2">B2</button><button class="filter-btn" data-level="c1">C1</button><button class="filter-btn" data-level="c2">C2</button></div>
+<h2 style="font-size: 1.5rem; margin: 0;" data-i18n="events.pastSessions">🕒 Past Sessions</h2>
+</div>
+<div class="sticky-filter-bar" style="position: sticky; top: 0; background: var(--warm-white); border-bottom: 2px solid var(--border); padding: 1rem 0; z-index: 100; margin-bottom: 1.5rem;">
+  <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+    <h3 style="margin: 0; font-size: 1.1rem; color: #4A154B;" data-i18n="karaoke.stickyTitle">🎵 Past Sessions Filter</h3>
+    <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+      <!-- Content Language Filter -->
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-weight: bold; font-size: 0.85rem;" data-i18n="karaoke.filterContentLanguage">Song Language:</span>
+        <div class="lang-filter-buttons" style="display: flex; gap: 0.25rem;">
+          <button class="filter-btn active" data-lang-filter="all" data-i18n="option.all">All</button>
+          <button class="filter-btn" data-lang-filter="en">🇬🇧</button>
+          <button class="filter-btn" data-lang-filter="fr">🇫🇷</button>
+          <button class="filter-btn" data-lang-filter="it">🇮🇹</button>
+          <button class="filter-btn" data-lang-filter="ru">🇷🇺</button>
+          <button class="filter-btn" data-lang-filter="el">🇬🇷</button>
+          <button class="filter-btn" data-lang-filter="es">🇪🇸</button>
+        </div>
+      </div>
+      <!-- Level Filter -->
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-weight: bold; font-size: 0.85rem;" data-i18n="karaoke.filterLevel">Target Level:</span>
+        <div class="level-filter-buttons" style="display: flex; gap: 0.25rem;">
+          <button class="filter-btn active" data-level-filter="all" data-i18n="option.all">All</button>
+          <button class="filter-btn" data-level-filter="a1">A1</button>
+          <button class="filter-btn" data-level-filter="a2">A2</button>
+          <button class="filter-btn" data-level-filter="b1">B1</button>
+          <button class="filter-btn" data-level-filter="b2">B2</button>
+          <button class="filter-btn" data-level-filter="c1">C1</button>
+          <button class="filter-btn" data-level-filter="c2">C2</button>
+        </div>
+      </div>
+      <!-- Type Filter -->
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-weight: bold; font-size: 0.85rem;" data-i18n="karaoke.filterType">Format Type:</span>
+        <div class="type-filter-buttons" style="display: flex; gap: 0.25rem;">
+          <button class="filter-btn active" data-type-filter="all" data-i18n="option.all">All</button>
+          <button class="filter-btn" data-type-filter="challenge" data-i18n="option.challenge">Challenge</button>
+          <button class="filter-btn" data-type-filter="standalone" data-i18n="option.standalone">Standalone</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- LEVEL FILTERS -->
 <div class="history-body" style="display: block; padding: 0; border: none;">
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.history-session');
+
+    // 1. Auto-detect Lang and Type for all cards
+    cards.forEach(card => {
+        // Detect Type
+        const isChallenge = card.closest('.pinned-challenges-section') !== null ||
+                            (card.querySelector('h4') && card.querySelector('h4').textContent.toLowerCase().includes('challenge')) ||
+                            (card.querySelector('.view-btn') && card.querySelector('.view-btn').textContent.toLowerCase().includes('challenge'));
+        card.setAttribute('data-type', isChallenge ? 'challenge' : 'standalone');
+
+        // Detect Lang
+        let lang = 'en';
+        const text = card.textContent.toLowerCase();
+        const html = card.innerHTML;
+
+        if (html.includes('/fr/') || text.includes('french') || text.includes('français') || text.includes('🇫🇷')) {
+            lang = 'fr';
+        } else if (html.includes('/it/') || text.includes('italian') || text.includes('italiano') || text.includes('🇮🇹')) {
+            lang = 'it';
+        } else if (html.includes('/ru/') || text.includes('russian') || text.includes('русский') || text.includes('🇷🇺')) {
+            lang = 'ru';
+        } else if (html.includes('/el/') || text.includes('greek') || text.includes('ελληνικά') || text.includes('🇬🇷')) {
+            lang = 'el';
+        } else if (html.includes('/es/') || text.includes('spanish') || text.includes('español') || text.includes('🇪🇸')) {
+            lang = 'es';
+        }
+
+        card.setAttribute('data-lang', lang);
+    });
+
+    // 2. Filter Handler
+    const langBtns = document.querySelectorAll('[data-lang-filter]');
+    const levelBtns = document.querySelectorAll('[data-level-filter]');
+    const typeBtns = document.querySelectorAll('[data-type-filter]');
+
+    let activeLang = 'all';
+    let activeLevel = 'all';
+    let activeType = 'all';
+
+    function applyFilters() {
+        cards.forEach(card => {
+            const cardLang = card.getAttribute('data-lang');
+            const cardLevel = card.getAttribute('data-level')?.toLowerCase();
+            const cardType = card.getAttribute('data-type');
+
+            const matchLang = activeLang === 'all' || cardLang === activeLang;
+            const matchLevel = activeLevel === 'all' || cardLevel === activeLevel;
+            const matchType = activeType === 'all' || cardType === activeType;
+
+            if (matchLang && matchLevel && matchType) {
+                card.style.display = 'flex';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+
+        // Toggle pinned section container visibility if no challenges match type filter
+        const pinnedSection = document.querySelector('.pinned-challenges-section');
+        if (pinnedSection) {
+            if (activeType === 'standalone') {
+                pinnedSection.style.display = 'none';
+            } else {
+                pinnedSection.style.display = 'block';
+            }
+        }
+    }
+
+    // Bind lang buttons
+    langBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            langBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeLang = btn.getAttribute('data-lang-filter');
+            applyFilters();
+        });
+    });
+
+    // Bind level buttons
+    levelBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            levelBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeLevel = btn.getAttribute('data-level-filter');
+            applyFilters();
+        });
+    });
+
+    // Bind type buttons
+    typeBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            typeBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeType = btn.getAttribute('data-type-filter');
+            applyFilters();
+        });
+    });
+});
+</script>
 <!-- 📌 PINNED ARTIST CHALLENGES -->
 <div class="pinned-challenges-section" style="margin-bottom: 3.5rem; background: rgba(74, 21, 75, 0.03); border: 2px dashed #4A154B; border-radius: 28px; padding: 2rem;">
 <h3 style="margin-top: 0; margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.5rem; display: flex; align-items: center; gap: 0.75rem; color: #4A154B;">

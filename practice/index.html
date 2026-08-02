@@ -26,9 +26,9 @@
 
 <div class="page">
   <div class="cosy-breadcrumbs" role="navigation" aria-label="Breadcrumb">
-    <a href="../index.html" data-translate-key="breadcrumb_home">Home</a>
+    <a href="../index.html" data-translate-key="breadcrumb_home" data-i18n="breadcrumb.home">Home</a>
     <span class="sep">/</span>
-    <span class="current" data-translate-key="breadcrumb_practice">Free Practice</span>
+    <span class="current" data-translate-key="breadcrumb_practice" data-i18n="breadcrumb.practice">Free Practice</span>
   </div>
 
   <header class="dash-hero">
@@ -91,42 +91,44 @@
 
     <div class="setup-grid">
       <div class="setup-full">
-        <label class="field-label" data-translate-key="select_practice_language">1. Language</label>
+        <label class="field-label" data-translate-key="select_practice_language">Language</label>
         <div id="lang-pills" class="lang-pills">
           <!-- Dynamically populated -->
         </div>
       </div>
 
-      <div>
-        <label class="field-label" data-translate-key="category_label">2. Category</label>
-        <div id="cat-pills" class="cat-pills">
-          <div class="cat-pill active" data-value="Vocabulary">Vocabulary 📖</div>
-          <div class="cat-pill" data-value="Grammar">Grammar 📐</div>
-          <div class="cat-pill" data-value="Speaking">Speaking 🗣️</div>
-          <div class="cat-pill" data-value="Pronunciation">Pronunciation 🔊</div>
+      <div class="steps-2-5-panel" style="grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; background: var(--cream-dark); border: 1.5px solid var(--border); border-radius: 16px; padding: 1.5rem; margin-top: 1rem; box-sizing: border-box;">
+        <div>
+          <label class="field-label" data-translate-key="category_label">Category</label>
+          <div id="cat-pills" class="cat-pills">
+            <div class="cat-pill active" data-value="Vocabulary">Vocabulary 📖</div>
+            <div class="cat-pill" data-value="Grammar">Grammar 📐</div>
+            <div class="cat-pill" data-value="Speaking">Speaking 🗣️</div>
+            <div class="cat-pill" data-value="Pronunciation">Pronunciation 🔊</div>
+          </div>
         </div>
-      </div>
 
-      <div>
-        <label class="field-label" data-translate-key="select_level">3. Level</label>
-        <select id="level-filter" onchange="window.cosyPractice.updateThemes()" class="styled-select">
-          <option value="all" data-translate-key="level_all">All Levels</option>
-          <!-- Dynamically populated -->
-        </select>
-      </div>
+        <div>
+          <label class="field-label" data-translate-key="select_level">Level</label>
+          <select id="level-filter" onchange="window.cosyPractice.updateThemes()" class="styled-select">
+            <option value="all" data-translate-key="level_all">All Levels</option>
+            <!-- Dynamically populated -->
+          </select>
+        </div>
 
-      <div>
-        <label class="field-label" data-translate-key="select_theme">4. Theme</label>
-        <select id="theme-filter" onchange="window.cosyPractice.updateSubThemes()" class="styled-select">
-          <option value="all" data-translate-key="theme_all">All Themes</option>
-        </select>
-      </div>
+        <div>
+          <label class="field-label" data-translate-key="select_theme">Theme</label>
+          <select id="theme-filter" onchange="window.cosyPractice.updateSubThemes()" class="styled-select">
+            <option value="all" data-translate-key="theme_all">All Themes</option>
+          </select>
+        </div>
 
-      <div id="subtheme-filter-wrap" style="display:none">
-        <label class="field-label">5. Sub-theme</label>
-        <select id="subtheme-filter" class="styled-select">
-          <option value="">All Sub-themes</option>
-        </select>
+        <div id="subtheme-filter-wrap" style="display:none">
+          <label class="field-label">Sub-theme</label>
+          <select id="subtheme-filter" class="styled-select">
+            <option value="">All Sub-themes</option>
+          </select>
+        </div>
       </div>
     </div>
     </div>
@@ -137,7 +139,7 @@
     </div>
 
     <div class="start-bar">
-      <button onclick="window.cosyPractice.startPractice()" class="btn-start" data-translate-key="start_practice">Start Practice 🚀</button>
+      <button onclick="window.cosyPractice.startPractice()" class="btn-start" data-translate-key="start_practice" data-i18n="practice.startPractice">Start Practice 🚀</button>
     </div>
   </div>
 
@@ -176,9 +178,9 @@
       <div id="pe-fb" class="pe-feedback"></div>
 
       <div class="pe-controls">
-        <button id="pe-next" onclick="cosyPractice.nextQ()" class="pe-btn-next" style="display:none" data-translate-key="next">Next Word</button>
-        <button id="pe-hint" onclick="cosyPractice.showHint()" class="pe-btn-hint">Hint 💡</button>
-        <button id="exit-practice-btn" onclick="cosyPractice.showSummary()" class="pe-btn-exit" data-translate-key="exit_btn">Exit Practice</button>
+        <button id="pe-next" onclick="cosyPractice.nextQ()" class="pe-btn-next" style="display:none" data-translate-key="next" data-i18n="button.next">Next Word</button>
+        <button id="pe-hint" onclick="cosyPractice.showHint()" class="pe-btn-hint" data-i18n="button.close">Hint 💡</button>
+        <button id="exit-practice-btn" onclick="cosyPractice.showSummary()" class="pe-btn-exit" data-translate-key="exit_btn" data-i18n="button.close">Exit Practice</button>
       </div>
     </div>
   </div>
