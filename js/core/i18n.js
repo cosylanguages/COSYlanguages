@@ -153,21 +153,32 @@
     /**
      * Public setLanguage for manual switching.
      */
+    let inSyncChange = false;
     window.setLanguage = async function(lang) {
         if (!lang) return;
-        currentLang = lang.toLowerCase();
-        localStorage.setItem('cosy_last_language', currentLang);
-        const jsonTranslations = await fetchTranslations(currentLang);
-        const jsTranslations = await loadTranslationsJs(currentLang);
-        translations = { ...jsTranslations, ...jsonTranslations };
-        applyTranslations();
+        if (inSyncChange) return;
+        inSyncChange = true;
+        try {
+            currentLang = lang.toLowerCase();
+            localStorage.setItem('cosy_last_language', currentLang);
+            const jsonTranslations = await fetchTranslations(currentLang);
+            const jsTranslations = await loadTranslationsJs(currentLang);
+            translations = { ...jsTranslations, ...jsonTranslations };
+            applyTranslations();
 
-        // Refresh navbar/mobile menu/etc. to update lang pickers & menus
-        if (window.COSY && typeof window.COSY.refresh === 'function') {
-            window.COSY.refresh();
+            if (window.setUILanguage) {
+                await window.setUILanguage(currentLang);
+            }
+
+            // Refresh navbar/mobile menu/etc. to update lang pickers & menus
+            if (window.COSY && typeof window.COSY.refresh === 'function') {
+                window.COSY.refresh();
+            }
+
+            document.dispatchEvent(new CustomEvent('cosyLanguageChanged', { detail: { lang: currentLang } }));
+        } finally {
+            inSyncChange = false;
         }
-
-        document.dispatchEvent(new CustomEvent('cosyLanguageChanged', { detail: { lang: currentLang } }));
     };
 
     /**
@@ -175,6 +186,23 @@
      */
     async function initI18n() {
         currentLang = detectLanguage();
+
+        // Dynamically load the new UI i18n loader (js/i18n.js) using robust fallback path detector
+        let prefix = '/';
+        if (window.COSY && typeof window.COSY.getPrefix === 'function') {
+            prefix = window.COSY.getPrefix();
+        } else {
+            const path = window.location.pathname;
+            const depth = (path.match(/\//g) || []).length;
+            const isCOSYlanguages = path.includes('/COSYlanguages/');
+            const baseDepth = isCOSYlanguages ? 2 : 1;
+            const relativeDepth = depth - baseDepth;
+            prefix = relativeDepth > 0 ? '../'.repeat(relativeDepth) : './';
+        }
+
+        const uiScript = document.createElement('script');
+        uiScript.src = prefix + 'js/i18n.js';
+        document.head.appendChild(uiScript);
 
         if (currentLang) {
             localStorage.setItem('cosy_last_language', currentLang);

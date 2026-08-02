@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Home",
+    "practice": "Pratica",
+    "notebook": "Quaderno",
+    "games": "Giochi",
+    "events": "Eventi",
+    "contact": "Contattaci",
+    "languages": "Lingue 🌍",
+    "myLessons": "Le mie lezioni 🔐"
+  },
+  "footer": {
+    "courses": "Corsi",
+    "explore": "Esplora",
+    "contact": "Contatti",
+    "project": "Progetto",
+    "privacy": "Privacy & Sicurezza 🛡️",
+    "allRightsReserved": "© 2026 COSYlanguages — Tutti i diritti riservati",
+    "description": "Il tuo angolo accogliente per imparare nuove lingue e connetterti con il mondo. 🌍"
+  },
+  "button": {
+    "bookNow": "Prenota ora →",
+    "exploreTypes": "Esplora i tipi ↓",
+    "seeAllClubs": "👇 Vedi tutti i 9 club",
+    "enterCinema": "🍿 Entra nel Cinema Club",
+    "enterKaraoke": "🎶 Entra nel Karaoke Club",
+    "enterGames": "🎮 Entra nel Game Club",
+    "joinSession": "Partecipa a una sessione",
+    "exploreSession": "Esplora la sessione ➔",
+    "viewClubHistory": "Vedi club e cronologia →",
+    "tryFreePractice": "Prova la pratica gratuita →",
+    "playFreeGames": "Gioca ai giochi gratuiti →",
+    "seeEvents": "Vedi gli eventi",
+    "seeUpcomingLanguages": "Vedi lingue in arrivo →",
+    "askAboutGroups": "Chiedi dei gruppi →",
+    "tryAccelerator": "🧠 Acceleratore di immersione cognitiva →",
+    "pinToHome": "📲 Aggiungi alla schermata principale",
+    "close": "Chiudi",
+    "back": "Indietro",
+    "next": "Avanti",
+    "finish": "Fine 🎉",
+    "skip": "Salta",
+    "save": "+ Salva",
+    "agree": "Sono d'accordo",
+    "disagree": "Non sono d'accordo"
+  },
+  "practice": {
+    "startPractice": "Inizia la pratica"
+  },
+  "karaoke": {
+    "enterChallenge": "Accetta la sfida",
+    "contentLanguage": "Lingua del contenuto",
+    "level": "Livello",
+    "type": "Tipo",
+    "typePinned": "Sfida in evidenza",
+    "typeStandalone": "Canzone singola",
+    "typeAll": "Tutti",
+    "filterContentLanguage": "Lingua della canzone",
+    "filterLevel": "Livello target",
+    "filterType": "Formato",
+    "stickyTitle": "🎵 Filtra le sessioni passate"
+  },
+  "events": {
+    "pastSessions": "🕒 Sessioni passate",
+    "nextLiveSession": "📅 Prossima sessione dal vivo",
+    "registerInterest": "💬 Registra interesse"
+  },
+  "label": {
+    "language": "Lingua 🌍",
+    "courseType": "Tipo di corso 🎓",
+    "duration": "Durata ⏱️",
+    "pack": "Pacchetto lezioni 📦",
+    "currency": "Valuta 💵",
+    "word": "Parola",
+    "definition": "Definizione o notes",
+    "contentLanguage": "Lingua del contenuto",
+    "level": "Livello",
+    "type": "Tipo"
+  },
+  "placeholder": {
+    "search": "Digita per cercare (es. IA, Dostoevskij, francese, scacchi)...",
+    "word": "es. Serendipità",
+    "definition": "Cosa significa?",
+    "typeToSearch": "Digita per cercare..."
+  },
+  "option": {
+    "all": "Tutti",
+    "allLevels": "Tutti i livelli",
+    "beginner": "Principiante (A1-A2)",
+    "intermediate": "Intermedio (B1-B2)",
+    "advanced": "Avanzato (C1-C2)",
+    "pinnedChallenge": "Sfida in evidenza",
+    "standaloneSong": "Canzone singola",
+    "challenge": "Sfida",
+    "standalone": "Singola"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "events": "Eventi",
+    "practice": "Pratica",
+    "games": "Giochi",
+    "notebook": "Quaderno"
+  }
+}

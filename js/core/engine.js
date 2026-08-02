@@ -241,7 +241,7 @@ function renderNavLinks(mode) {
     return config.map(item => {
         const label = getNavLabel(item.key, item.key[0].toUpperCase() + item.key.slice(1));
         const key = `nav_${item.key}`;
-        return `<li role="none"><a href="${p}${item.href}" ${isActive(item.href)} data-translate-key="${key}" role="menuitem">${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
+        return `<li role="none"><a href="${p}${item.href}" ${isActive(item.href)} data-translate-key="${key}" data-i18n="nav.${item.key}" role="menuitem">${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
     }).join('');
 }
 
@@ -254,13 +254,14 @@ function navFree () {
     const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
 
     // Global language switcher (flag picker) state and options
-    const currentLang = (window.COSY_I18N && window.COSY_I18N.currentLang) || localStorage.getItem('cosy_last_language') || 'en';
+    const currentLang = localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language') || 'en';
     const langOptions = [
         { code: 'en', flag: '🇬🇧', label: 'EN' },
         { code: 'fr', flag: '🇫🇷', label: 'FR' },
         { code: 'it', flag: '🇮🇹', label: 'IT' },
         { code: 'ru', flag: '🇷🇺', label: 'RU' },
-        { code: 'el', flag: '🇬🇷', label: 'EL' }
+        { code: 'el', flag: '🇬🇷', label: 'EL' },
+        { code: 'es', flag: '🇪🇸', label: 'ES' }
     ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
 
     return `
@@ -283,7 +284,7 @@ function navFree () {
         <button class="theme-toggle-btn" onclick="COSY.toggleTheme()" aria-label="Toggle Theme" style="background:none; border:none; font-size:1.2rem; cursor:pointer; padding:6px; display:inline-flex; align-items:center; margin-right: 4px;">
             ${isDark ? '☀️' : '🌙'}
         </button>
-        <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" data-translate-key="nav_contact">${t('contact', '💬 Contact us')}</a>
+        <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', '💬 Contact us')}</a>
         <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false">☰</button>
       </div>`
 }
@@ -333,24 +334,25 @@ function mobileMenuHTML (mode) {
     const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
 
     // Global language switcher (flag picker) state and options for mobile menu
-    const currentLang = (window.COSY_I18N && window.COSY_I18N.currentLang) || localStorage.getItem('cosy_last_language') || 'en';
+    const currentLang = localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language') || 'en';
     const langOptions = [
         { code: 'en', flag: '🇬🇧', label: 'EN' },
         { code: 'fr', flag: '🇫🇷', label: 'FR' },
         { code: 'it', flag: '🇮🇹', label: 'IT' },
         { code: 'ru', flag: '🇷🇺', label: 'RU' },
-        { code: 'el', flag: '🇬🇷', label: 'EL' }
+        { code: 'el', flag: '🇬🇷', label: 'EL' },
+        { code: 'es', flag: '🇪🇸', label: 'ES' }
     ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
 
     return `
-      <a href="${p}index.html" data-translate-key="nav_home">Home</a>
-      <a href="${p}practice/index.html" data-translate-key="nav_practice">💡 Practice</a>
-      <a href="${p}notebook/index.html" data-translate-key="nav_notebook">📓 Notebook</a>
-      <a href="${p}games/index.html" data-translate-key="nav_games">🎮 Games</a>
-      <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
+      <a href="${p}index.html" data-translate-key="nav_home" data-i18n="nav.home">Home</a>
+      <a href="${p}practice/index.html" data-translate-key="nav_practice" data-i18n="nav.practice">💡 Practice</a>
+      <a href="${p}notebook/index.html" data-translate-key="nav_notebook" data-i18n="nav.notebook">📓 Notebook</a>
+      <a href="${p}games/index.html" data-translate-key="nav_games" data-i18n="nav.games">🎮 Games</a>
+      <a href="${p}events/index.html" data-translate-key="nav_events" data-i18n="nav.events">🎉 Events</a>
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
-         <span style="font-size: 0.9rem; color: var(--ink-soft);">Language:</span>
+         <span style="font-size: 0.9rem; color: var(--ink-soft);" data-i18n="label.language">Language 🌍</span>
          <select id="cosy-language-switcher-mobile" onchange="setLanguage(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
             ${langOptions}
          </select>
