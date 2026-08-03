@@ -108,5 +108,8 @@
     "reviewMistakes": "Review mistakes tile",
     "languagePracticeTile": "Try free practice",
     "backToEvents": "Back to all live events"
+  },
+  "long_reads": {
+    "description": "We read and discuss micro chapters of outstanding non-fiction books, audiobooks, and long-form podcasts. Explore deep ideas, deconstruct chapters, and expand your conversational limits."
   }
 }
