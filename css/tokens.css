@@ -83,12 +83,45 @@
     --gh-blue:     #0074D9;
     --gh-cream:    #FFFDF5;
 
+    /* ── Cosy Button System ────────────────────────────── */
+    --btn-font-sans: var(--font-sans);
+    --btn-primary-bg: var(--sage);
+    --btn-primary-color: #ffffff;
+    --btn-primary-hover-bg: var(--sage-dark);
+    --btn-primary-hover-color: #ffffff;
+    --btn-primary-radius: 100px;
+    --btn-primary-padding: 14px 32px;
+    --btn-primary-weight: 800;
+    --btn-primary-shadow: 0 4px 14px rgba(46,74,51,0.15);
+    --btn-primary-hover-shadow: 0 6px 20px rgba(46,74,51,0.25);
+
+    --btn-secondary-bg: transparent;
+    --btn-secondary-border: 1.5px solid var(--sage-soft);
+    --btn-secondary-color: var(--sage-dark);
+    --btn-secondary-hover-bg: var(--sage-light);
+    --btn-secondary-hover-color: var(--sage-deep);
+    --btn-secondary-radius: 100px;
+    --btn-secondary-padding: 13px 28px;
+    --btn-secondary-weight: 600;
+
+    --btn-tertiary-color: var(--sage-dark);
+    --btn-tertiary-hover-color: var(--sage-deep);
+    --btn-tertiary-weight: 700;
+
     /* ── Borders & Shadows ──────────────────────────────── */
     --border:        rgba(74,107,80,.12);
     --border-hover:  rgba(74,107,80,.25);
     --shadow-sm:     0 2px 12px rgba(46,74,51,.07);
     --shadow:        0 6px 28px rgba(46,74,51,.10);
     --box-shadow:    var(--shadow);
+
+    /* ── Spacing Scale ─────────────────────────────────── */
+    --space-xs:  4px;
+    --space-sm:  8px;
+    --space-md:  16px;
+    --space-lg:  24px;
+    --space-xl:  32px;
+    --space-xxl: 48px;
 
     /* ── Border Radius ─────────────────────────────────── */
     --r-sm:   8px;
@@ -180,4 +213,14 @@ html[data-theme="dark"], body.theme-dark {
 
     /* ── Homepage Note variables ── */
     --group-note-bg:       #2d261a;
+
+    /* ── Cosy Button System Dark Overrides ──────────────── */
+    --btn-primary-bg: var(--sage);
+    --btn-primary-hover-bg: var(--sage-dark);
+    --btn-secondary-border: 1.5px solid var(--sage-soft);
+    --btn-secondary-color: var(--sage-light);
+    --btn-secondary-hover-bg: rgba(107,143,113,0.15);
+    --btn-secondary-hover-color: #ffffff;
+    --btn-tertiary-color: var(--sage-light);
+    --btn-tertiary-hover-color: #ffffff;
 }

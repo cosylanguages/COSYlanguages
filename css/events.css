@@ -4063,6 +4063,111 @@ body[class*="theme-science"]::after {
   z-index: -1;
 }
 
+/* ── Karaoke Club Card Grid ─────────────────────────── */
+.karaoke-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 600px) {
+  .karaoke-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .karaoke-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1400px) {
+  .karaoke-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.history-session {
+  box-sizing: border-box;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  background: var(--warm-white, #FAF7F2) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 20px !important;
+  padding: 1.5rem !important;
+  transition: all var(--transition-speed, 0.3s) ease !important;
+  box-shadow: var(--shadow-sm) !important;
+  margin-bottom: 0 !important;
+  height: 100%;
+}
+
+.history-session:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: var(--shadow) !important;
+  border-color: var(--teal) !important;
+}
+
+.karaoke-card-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.karaoke-card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.karaoke-card-title {
+  margin: 0 0 0.25rem !important;
+  font-size: 1.15rem !important;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 700 !important;
+  color: var(--ink) !important;
+  line-height: 1.3 !important;
+}
+
+.karaoke-card-artist {
+  font-size: 0.85rem !important;
+  color: var(--muted) !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.75rem !important;
+  display: block;
+}
+
+.karaoke-card-desc {
+  margin: 0 !important;
+  font-size: 0.88rem !important;
+  color: var(--ink-soft) !important;
+  line-height: 1.5 !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.karaoke-card-desc:hover {
+  -webkit-line-clamp: unset !important;
+  overflow: visible !important;
+}
+
+.karaoke-card-action {
+  margin-top: auto;
+  display: flex;
+}
+
+.karaoke-card-action .btn-primary,
+.karaoke-card-action .btn-secondary {
+  width: 100% !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
 /* "If You Were" speaking club layout components */
 .perspective-mirror-box {
   background: #EEEDFE;

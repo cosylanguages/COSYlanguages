@@ -112,13 +112,78 @@
         el('calc-cta').href = 'https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20book%20a%20lesson.';
     };
 
+    function buildSegmentedControls() {
+        const ids = ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'];
+        ids.forEach(id => {
+            const selectEl = document.getElementById(id);
+            if (!selectEl) return;
+            selectEl.style.display = 'none';
+
+            let container = document.getElementById(id + '-segmented');
+            if (!container) {
+                container = document.createElement('div');
+                container.id = id + '-segmented';
+                container.className = 'segmented-control';
+                selectEl.parentNode.appendChild(container);
+            }
+        });
+        syncSegmentedButtons();
+    }
+
+    function syncSegmentedButtons() {
+        const ids = ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'];
+        ids.forEach(id => {
+            const selectEl = document.getElementById(id);
+            const container = document.getElementById(id + '-segmented');
+            if (!selectEl || !container) return;
+
+            container.innerHTML = '';
+            Array.from(selectEl.options).forEach(opt => {
+                if (opt.style.display === 'none') return;
+
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'segment-btn';
+                if (opt.value === selectEl.value) {
+                    btn.classList.add('active');
+                }
+                if (opt.disabled) {
+                    btn.disabled = true;
+                    btn.classList.add('disabled');
+                }
+
+                btn.textContent = opt.textContent;
+                if (opt.hasAttribute('data-translate-key')) {
+                    btn.setAttribute('data-translate-key', opt.getAttribute('data-translate-key'));
+                }
+                if (opt.hasAttribute('data-i18n')) {
+                    btn.setAttribute('data-i18n', opt.getAttribute('data-i18n'));
+                }
+
+                btn.addEventListener('click', () => {
+                    if (opt.disabled) return;
+                    selectEl.value = opt.value;
+                    selectEl.dispatchEvent(new Event('change'));
+                });
+
+                container.appendChild(btn);
+            });
+        });
+    }
+
     // Auto-init if on a page with a calculator
     document.addEventListener('DOMContentLoaded', () => {
         if (document.getElementById('calc-lang')) {
+            buildSegmentedControls();
             window.calcPrice();
             ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'].forEach(id => {
                 const el = document.getElementById(id);
-                if (el) el.addEventListener('change', window.calcPrice);
+                if (el) {
+                    el.addEventListener('change', () => {
+                        window.calcPrice();
+                        syncSegmentedButtons();
+                    });
+                }
             });
         }
     });
