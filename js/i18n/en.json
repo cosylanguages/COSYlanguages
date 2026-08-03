@@ -100,5 +100,13 @@
     "practice": "Practice",
     "games": "Games",
     "notebook": "Notebook"
+  },
+  "aria": {
+    "whatsappContact": "Chat on WhatsApp",
+    "telegramContact": "Chat on Telegram",
+    "spinWheel": "Spin the wheel tile",
+    "reviewMistakes": "Review mistakes tile",
+    "languagePracticeTile": "Try free practice",
+    "backToEvents": "Back to all live events"
   }
 }

@@ -139,6 +139,29 @@
         const btn = document.getElementById('spin-btn');
         if (btn) btn.disabled = true;
 
+        // If prefers reduced motion, trigger instant state change
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            const totalSpins = 5 + Math.random() * 5;
+            wheelAngle += totalSpins * (Math.PI * 2) + Math.random() * (Math.PI * 2);
+            drawWheel();
+            if (btn) btn.disabled = false;
+            const slice = (Math.PI * 2) / wheelItems.length;
+            const normalizedAngle = (Math.PI * 2) - (wheelAngle % (Math.PI * 2));
+            const index = Math.floor(normalizedAngle / slice) % wheelItems.length;
+            const result = wheelItems[index];
+
+            const resEl = document.getElementById('wheel-result');
+            if (resEl) {
+                const langName = { en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese', hy:'Armenian', ka:'Georgian', tt:'Tatar', ba:'Bashkir', br:'Breton' };
+                resEl.innerHTML = `Landed on: <strong>${langName[result.lang]} · ${result.cat}</strong>!<br>Starting practice... 🚀`;
+                setTimeout(() => {
+                    window.cosyPractice.closeWheel();
+                    window.cosyPractice.quickStart(result.lang, result.cat, 'all', 'all');
+                }, 100);
+            }
+            return;
+        }
+
         let velocity = 0.3 + Math.random() * 0.2;
         const friction = 0.985;
 

@@ -3368,6 +3368,21 @@
         if (window.COSY) {
             window.COSY.reinit = init;
         }
+
+        // Global keydown handler to activate role="button" elements on Space/Enter
+        if (!window.cosyRoleButtonKeyboardHandlerSetup) {
+            window.cosyRoleButtonKeyboardHandlerSetup = true;
+            document.addEventListener('keydown', (e) => {
+                if (e.key === ' ' || e.key === 'Enter') {
+                    const active = document.activeElement;
+                    if (active && active.getAttribute('role') === 'button') {
+                        e.preventDefault();
+                        active.click();
+                    }
+                }
+            });
+        }
+
         setupHeaderShrink();
         setupBackToTop();
         setupScrollReveal();

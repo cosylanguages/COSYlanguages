@@ -54,3 +54,36 @@ body.theme-contrast {
 .relative { position: relative !important; }
 .inline-block { display: inline-block !important; }
 .full-width { width: 100% !important; }
+
+/* Custom Accessible Focus Ring using site palette */
+:focus-visible {
+    outline: 3px solid var(--teal);
+    outline-offset: 3px;
+    border-radius: var(--r-sm);
+}
+
+/* Specific focus styling for cards and pills and larger buttons */
+.qs-card:focus-visible, .lang-pill:focus-visible, .cat-pill:focus-visible {
+    outline: 3px solid var(--teal);
+    outline-offset: 3px;
+    border-radius: var(--r-lg);
+}
+
+.mc-opt:focus-visible, .tf-btn:focus-visible, .btn-start:focus-visible, .btn-primary:focus-visible, .btn-secondary:focus-visible, .wheel-btn:focus-visible {
+    outline: 3px solid var(--teal);
+    outline-offset: 3px;
+    border-radius: 100px;
+}
+
+/* Gold-standard prefers-reduced-motion resets to instantly fallback animations and transitions */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-delay: -1ms !important;
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        background-attachment: initial !important;
+        scroll-behavior: auto !important;
+        transition-duration: 1ms !important;
+        transition-delay: -1ms !important;
+    }
+}

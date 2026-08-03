@@ -31,7 +31,7 @@
         body.innerHTML = `
             <div class="setup-screen">
               <div style="font-size: 4rem; margin-bottom: 1rem;">♀️♂️</div>
-              <h2>What Gender Is It?</h2>
+              <h1>What Gender Is It?</h1>
               <p>Practice grammatical genders in our gendered languages (French, Spanish, Italian, German, Russian, Greek, Breton) and learn the fascinating historical/linguistic reasons why they have them!</p>
 
               <div class="setup-field">

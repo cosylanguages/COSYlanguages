@@ -100,5 +100,13 @@
     "practice": "Pratique",
     "games": "Jeux",
     "notebook": "Carnet"
+  },
+  "aria": {
+    "whatsappContact": "Discuter sur WhatsApp",
+    "telegramContact": "Discuter sur Telegram",
+    "spinWheel": "Lancer la roue",
+    "reviewMistakes": "Revoir les erreurs",
+    "languagePracticeTile": "Essayer l’éntraînement gratuit",
+    "backToEvents": "Retour à tous les événements en direct"
   }
 }
