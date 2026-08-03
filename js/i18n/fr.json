@@ -108,5 +108,8 @@
     "reviewMistakes": "Revoir les erreurs",
     "languagePracticeTile": "Essayer l’éntraînement gratuit",
     "backToEvents": "Retour à tous les événements en direct"
+  },
+  "long_reads": {
+    "description": "Nous lisons et discutons des micro-chapitres de livres non-fictionnels, de livres audio et de podcasts longs exceptionnels. Explorez des idées profondes, analysez des chapitres et repoussez vos limites de conversation."
   }
 }
