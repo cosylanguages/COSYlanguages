@@ -94,7 +94,7 @@
               <p data-i18n="footer.description">Your friendly corner to master new languages and connect with the world. 🌍</p>
             </div>
             <div class="footer-links-col">
-              <h5 data-i18n="footer.courses">Courses</h5>
+              <h3 data-i18n="footer.courses">Courses</h3>
               <a href="${prefix}courses/general/" data-i18n="course_general">General Course 📖</a>
               <a href="${prefix}courses/spoken/" data-i18n="course_spoken">Spoken Course 🗣️</a>
               <a href="${prefix}courses/exam/" data-i18n="course_exam">Exam Preparation 📝</a>
@@ -103,7 +103,7 @@
               <a href="${prefix}courses/relocation/" data-i18n="course_relocation">Relocation Course 🏡</a>
             </div>
             <div class="footer-links-col">
-              <h5 data-i18n="footer.explore">Explore</h5>
+              <h3 data-i18n="footer.explore">Explore</h3>
               <a href="${prefix}#languages" data-i18n="nav.languages">Languages 🌍</a>
               <a href="${prefix}practice/index.html" data-i18n="nav.practice">Free Practice 💡</a>
               <a href="${prefix}placement-quiz.html">Placement Quiz 📝</a>
@@ -119,11 +119,11 @@
               <a href="${prefix}games/index.html" data-i18n="nav.games">Games 🎮</a>
             </div>
             <div class="footer-links-col">
-              <h5 data-i18n="footer.project">Project</h5>
+              <h3 data-i18n="footer.project">Project</h3>
               <a href="${prefix}privacy.html" data-i18n="footer.privacy">Privacy &amp; Safety 🛡️</a>
             </div>
             <div class="footer-links-col">
-              <h5 data-i18n="footer.contact">Contact</h5>
+              <h3 data-i18n="footer.contact">Contact</h3>
               <a href="https://wa.me/330766784195">WhatsApp 📱</a>
               <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
               <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
@@ -158,6 +158,22 @@
                 } else {
                     el.innerHTML = translation;
                 }
+            }
+        });
+
+        const ariaElements = document.querySelectorAll('[data-i18n-aria-label]');
+        ariaElements.forEach(el => {
+            const key = el.getAttribute('data-i18n-aria-label');
+            if (!key) return;
+
+            let translation = getValueByPath(uiTranslations, key);
+
+            if (translation === undefined || translation === null) {
+                translation = getValueByPath(englishTranslations, key);
+            }
+
+            if (translation !== undefined && translation !== null) {
+                el.setAttribute('aria-label', translation);
             }
         });
 

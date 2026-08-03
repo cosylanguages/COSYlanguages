@@ -100,5 +100,13 @@
     "practice": "Практика",
     "games": "Игры",
     "notebook": "Блокнот"
+  },
+  "aria": {
+    "whatsappContact": "Чат в WhatsApp",
+    "telegramContact": "Чат в Telegram",
+    "spinWheel": "Вращать колесо",
+    "reviewMistakes": "Повторить ошибки",
+    "languagePracticeTile": "Попробовать бесплатную практику",
+    "backToEvents": "Вернуться ко всем живым событиям"
   }
 }

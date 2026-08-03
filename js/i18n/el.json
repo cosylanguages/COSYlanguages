@@ -100,5 +100,13 @@
     "practice": "Πρακτική",
     "games": "Παιχνίδια",
     "notebook": "Σημειωματάριο"
+  },
+  "aria": {
+    "whatsappContact": "Συνομιλία στο WhatsApp",
+    "telegramContact": "Συνομιλία στο Telegram",
+    "spinWheel": "Γυρίστε τον τροχό",
+    "reviewMistakes": "Επανεξέταση λαθών",
+    "languagePracticeTile": "Δοκιμάστε δωρεάν εξάσκηση",
+    "backToEvents": "Επιστροφή σε όλες τις ζωντανές εκδηλώσεις"
   }
 }

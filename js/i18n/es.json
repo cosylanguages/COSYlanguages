@@ -100,5 +100,13 @@
     "practice": "Práctica",
     "games": "Juegos",
     "notebook": "Cuaderno"
+  },
+  "aria": {
+    "whatsappContact": "Chatear en WhatsApp",
+    "telegramContact": "Chatear en Telegram",
+    "spinWheel": "Girar la ruleta",
+    "reviewMistakes": "Revisar errores",
+    "languagePracticeTile": "Probar práctica gratis",
+    "backToEvents": "Volver a todos los eventos en vivo"
   }
 }

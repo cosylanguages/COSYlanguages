@@ -201,7 +201,7 @@ footer{background:var(--sage-deep);color:rgba(255,255,255,.78);padding:3.5rem 2r
 .footer-brand .fb-logo img{height:34px;}
 .footer-brand .fb-name{font-family:'Lora',serif;font-weight:700;font-size:1.1rem;color:#fff;}
 .footer-brand p{font-size:.78rem;opacity:.72;max-width:220px;line-height:1.6;}
-.footer-links-col h5{font-size:.85rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;
+.footer-links-col h3{font-size:.85rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;
   color:rgba(255,255,255,.45);margin-bottom:.8rem;}
 .footer-links-col a{display:block;font-size:.79rem;color:rgba(255,255,255,.78);margin-bottom:.5rem;font-weight:700;transition:color .18s;}
 .footer-links-col a:hover{color:#fff;}
