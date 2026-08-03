@@ -98,23 +98,82 @@
   .nav-menu-btn { display: block !important; }
 }
 
-/* ── Buttons ───────────────────────────────────────── */
-.btn-primary { background: #fff; color: var(--sage-dark); font-weight: 800; padding: 14px 32px; border-radius: 100px; transition: all .2s; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; border: none; cursor: pointer; }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,0,0,.15); }
-
-.btn-secondary { background: rgba(255,255,255,.12); border: 1.5px solid rgba(255,255,255,.4); color: #fff; font-weight: 600; padding: 13px 28px; border-radius: 100px; transition: all .2s; cursor: pointer; text-decoration: none; display: inline-block; }
-.btn-secondary:hover { background: rgba(255,255,255,.2); }
-
-/* Override for btn-secondary on light backgrounds like main/section */
-main .btn-secondary, section .btn-secondary {
-  background: rgba(0, 0, 0, .04);
-  border: 1.5px solid var(--border);
-  color: var(--ink-soft);
+/* ── Buttons (Unified Cosy Button System) ──────────── */
+.btn-primary, a.btn-primary, button.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-color);
+  font-weight: var(--btn-primary-weight);
+  padding: var(--btn-primary-padding);
+  border-radius: var(--btn-primary-radius);
+  font-size: 1rem;
+  font-family: var(--btn-font-sans);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: var(--btn-primary-shadow);
+  transition: all var(--transition-speed, 0.3s) ease;
 }
-main .btn-secondary:hover, section .btn-secondary:hover {
-  background: rgba(0, 0, 0, .08);
-  border-color: var(--border-hover);
-  color: var(--ink);
+.btn-primary:hover, a.btn-primary:hover, button.btn-primary:hover {
+  background: var(--btn-primary-hover-bg);
+  color: var(--btn-primary-hover-color);
+  transform: translateY(-2px);
+  box-shadow: var(--btn-primary-hover-shadow);
+  opacity: 0.95;
+}
+.btn-primary:active, a.btn-primary:active, button.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-secondary, a.btn-secondary, button.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--btn-secondary-bg);
+  border: var(--btn-secondary-border);
+  color: var(--btn-secondary-color);
+  font-weight: var(--btn-secondary-weight);
+  padding: var(--btn-secondary-padding);
+  border-radius: var(--btn-secondary-radius);
+  font-size: 0.95rem;
+  font-family: var(--btn-font-sans);
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: none;
+  transition: all var(--transition-speed, 0.3s) ease;
+}
+.btn-secondary:hover, a.btn-secondary:hover, button.btn-secondary:hover {
+  background: var(--btn-secondary-hover-bg);
+  color: var(--btn-secondary-hover-color);
+  border-color: var(--btn-secondary-hover-color);
+  transform: translateY(-1px);
+}
+.btn-secondary:active, a.btn-secondary:active, button.btn-secondary:active {
+  transform: translateY(0);
+}
+
+.btn-tertiary, a.btn-tertiary, button.btn-tertiary {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  border: none;
+  color: var(--btn-tertiary-color);
+  font-weight: var(--btn-tertiary-weight);
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  font-family: var(--btn-font-sans);
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color var(--transition-speed, 0.3s) ease;
+}
+.btn-tertiary:hover, a.btn-tertiary:hover, button.btn-tertiary:hover {
+  color: var(--btn-tertiary-hover-color);
+  text-decoration: underline;
 }
 
 .cc-btn { display: block; width: 100%; padding: 14px 24px; border-radius: 100px; font-size: .9rem; font-weight: 800; text-align: center; transition: all .2s; cursor: pointer; border: none; }
@@ -1003,4 +1062,100 @@ main .btn-secondary:hover, section .btn-secondary:hover {
 .vht-add-btn.saved {
   background: var(--sage, #4e6e53);
   cursor: default;
+}
+
+/* ── Segmented Control Configurator ────────────────── */
+.calc-card {
+  padding: 3rem !important;
+}
+
+.calc-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.5rem !important;
+  margin-bottom: 2.5rem !important;
+  counter-reset: calc-step;
+}
+
+.calc-field {
+  background: var(--cream);
+  padding: 1.5rem;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+}
+
+.calc-field:hover {
+  border-color: var(--teal);
+  box-shadow: var(--shadow-sm);
+}
+
+.calc-field label {
+  display: flex !important;
+  align-items: center !important;
+  font-family: var(--font-sans) !important;
+  font-size: 0.9rem !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: var(--sage-dark) !important;
+  margin-bottom: 1rem !important;
+}
+
+.calc-field label::before {
+  counter-increment: calc-step;
+  content: counter(calc-step);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--teal);
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 800;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.segmented-control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.segment-btn {
+  background: var(--surface-color, #ffffff);
+  border: 1px solid var(--border);
+  color: var(--ink-soft);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.segment-btn:hover:not(:disabled) {
+  border-color: var(--teal);
+  color: var(--teal);
+  background: var(--teal-light);
+}
+
+.segment-btn.active {
+  background: var(--teal) !important;
+  border-color: var(--teal) !important;
+  color: white !important;
+  box-shadow: 0 4px 12px rgba(46,74,51,0.15);
+}
+
+.segment-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background: var(--cream-dark);
+  border-color: var(--border);
 }
