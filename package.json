@@ -10,7 +10,7 @@
     "@axe-core/playwright": "^4.12.1",
     "@playwright/browser-chromium": "^1.60.0",
     "@playwright/test": "^1.62.1",
-    "@types/node": "^25.9.2",
+    "@types/node": "^25.9.5",
     "html-validate": "^11.6.1",
     "linkinator": "^8.0.3"
   },

@@ -9,6 +9,33 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from master_lyrics import LYRICS_DATA
 
+def get_youtube_embed_html(url, lang):
+    if not url:
+        return ""
+    import re
+    reg_exp = r"(?:https?:)?\/\/(?:[0-9A-Z-]+\.)?(?:youtube|youtu|youtube-nocookie)\.(?:com|be)\/(?:watch\?v=|embed\/|v\/|shorts\/|ytscreeningroom\?v=|v=|\/)?([0-9A-Za-z_-]{11})"
+    match = re.search(reg_exp, url, re.IGNORECASE)
+    if match and match.group(1):
+        video_id = match.group(1)
+        disclaimers = {
+            'en': 'Source: YouTube. This material is used strictly for educational purposes only.',
+            'fr': 'Source : YouTube. Ce matériel est utilisé uniquement à des fins éducatives.',
+            'ru': 'Источник: YouTube. Данный материал используется исключительно в образовательных целях.',
+            'es': 'Fuente: YouTube. Este material se utiliza únicamente con fines educativos.',
+            'it': 'Fonte: YouTube. Questo materiale viene utilizzato esclusivamente a scopo didattico.',
+            'el': 'Πηγή: YouTube. Αυτό το υλικό χρησιμοποιείται αποκλειστικά για εκπαιδευτικούς σκοπούς.'
+        }
+        disclaimer_text = disclaimers.get(lang, disclaimers['en'])
+        return f"""  <div class="cosy-video-wrapper">
+    <div class="cosy-video-container">
+      <iframe src="https://www.youtube.com/embed/{video_id}" allowfullscreen></iframe>
+    </div>
+    <div class="cosy-video-disclaimer">
+      <span>ℹ️ {disclaimer_text}</span>
+    </div>
+  </div>"""
+    return ""
+
 # Proposed overarching themes mapped by song slug and language
 SONG_THEMES = {
     "leffet-de-masse": {
@@ -4732,6 +4759,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
   </div>
 
+  {video_player_html}
+
   <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
     <h3 style="margin-top:0; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">❤️ {theme_label}: {focus}</h3>
     <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">{discuss_label}:</p>
@@ -4984,6 +5013,8 @@ for song in all_karaoke_data:
             for pt in sub_points:
                 sub_theme_bullet_points += f"      <li>{pt}</li>\n"
 
+            sub_video_player_html = get_youtube_embed_html(sub_song_link, lang)
+
             tabs_html += f"""    <vim-choice-option>
       <vim-choice-option-title>{sub_title}</vim-choice-option-title>
       <vim-choice-option-content>
@@ -4993,6 +5024,8 @@ for song in all_karaoke_data:
             <a href="{sub_song_link_backup}" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
           </p></div>
         </div>
+
+        {sub_video_player_html}
 
         <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
           <h3 style="margin-top:0; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">❤️ {loc["theme_label"]}: {sub_song["focus"]}</h3>
@@ -5187,6 +5220,8 @@ for song in all_karaoke_data:
   </p>
 </section>"""
 
+        video_player_html = get_youtube_embed_html(song_link, lang)
+
         formatted_html = HTML_TEMPLATE.format(
             lang=lang,
             title=title,
@@ -5206,6 +5241,7 @@ for song in all_karaoke_data:
             focus=focus,
             song_link=song_link,
             song_link_backup=song_link_backup,
+            video_player_html=video_player_html,
             description=desc,
             theme_label=loc["theme_label"],
             discuss_label=loc["discuss_label"],

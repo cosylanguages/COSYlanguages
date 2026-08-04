@@ -78,7 +78,11 @@
 <div class="sticky-filter-bar" style="position: sticky; top: 0; background: var(--warm-white); border-bottom: 2px solid var(--border); padding: 1rem 0; z-index: 100; margin-bottom: 1.5rem;">
 <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center; justify-content: space-between;">
 <h3 data-i18n="karaoke.stickyTitle" style="margin: 0; font-size: 1.1rem; color: #4A154B;">🎵 Past Sessions Filter</h3>
-<div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+<!-- Search input -->
+<div style="flex: 1; min-width: 240px; max-width: 360px; margin: 0 1rem;">
+  <input type="text" id="karaoke-search-input" placeholder="🔍 Search songs, artists or descriptions..." style="padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid var(--border); background: var(--cream, #FAF7F2); font-size: 0.85rem; width: 100%; box-sizing: border-box;">
+</div>
+<div style="display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center;">
 <!-- Content Language Filter -->
 <div style="display: flex; align-items: center; gap: 0.5rem;">
 <span data-i18n="karaoke.filterContentLanguage" style="font-weight: bold; font-size: 0.85rem;">Song Language:</span>
@@ -155,10 +159,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const langBtns = document.querySelectorAll('[data-lang-filter]');
     const levelBtns = document.querySelectorAll('[data-level-filter]');
     const typeBtns = document.querySelectorAll('[data-type-filter]');
+    const searchInput = document.getElementById('karaoke-search-input');
 
     let activeLang = 'all';
     let activeLevel = 'all';
     let activeType = 'all';
+    let searchQuery = '';
 
     function applyFilters() {
         cards.forEach(card => {
@@ -170,10 +176,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const matchLevel = activeLevel === 'all' || cardLevel === activeLevel;
             const matchType = activeType === 'all' || cardType === activeType;
 
-            if (matchLang && matchLevel && matchType) {
-                card.style.display = 'flex';
+            const textContent = card.textContent.toLowerCase();
+            const matchSearch = !searchQuery || textContent.includes(searchQuery);
+
+            if (matchLang && matchLevel && matchType && matchSearch) {
+                card.style.setProperty('display', 'flex', 'important');
             } else {
-                card.style.display = 'none';
+                card.style.setProperty('display', 'none', 'important');
             }
         });
 
@@ -217,6 +226,14 @@ document.addEventListener('DOMContentLoaded', () => {
             applyFilters();
         });
     });
+
+    // Bind search input
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            searchQuery = e.target.value.trim().toLowerCase();
+            applyFilters();
+        });
+    }
 });
 </script>
 <!-- 📌 PINNED ARTIST CHALLENGES -->

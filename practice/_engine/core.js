@@ -237,6 +237,66 @@
         localStorage.setItem(KEY_LAST_DATE, s.lastDate);
     }
 
+    function cosyTransition(showIds, hideIds, onMidTransition) {
+        const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        const showElements = showIds.map(id => document.getElementById(id)).filter(Boolean);
+        const hideElements = hideIds.map(id => document.getElementById(id)).filter(Boolean);
+
+        if (isReduced) {
+            hideElements.forEach(el => {
+                el.classList.add('hidden');
+                el.style.display = 'none';
+            });
+            if (onMidTransition) onMidTransition();
+            showElements.forEach(el => {
+                el.classList.remove('hidden');
+                // special case for specific elements
+                const isFlexOrBlock = (el.id === 'quickstart-section' || el.id === 'stats-section' || el.id === 'setup-section') ? '' : 'block';
+                el.style.display = isFlexOrBlock;
+            });
+            return;
+        }
+
+        // Animated transition
+        hideElements.forEach(el => {
+            el.classList.add('cosy-fade-node');
+            el.classList.add('cosy-fade-out');
+        });
+
+        setTimeout(() => {
+            hideElements.forEach(el => {
+                el.classList.add('hidden');
+                el.style.display = 'none';
+                el.classList.remove('cosy-fade-node', 'cosy-fade-out');
+            });
+
+            if (onMidTransition) onMidTransition();
+
+            showElements.forEach(el => {
+                el.classList.add('cosy-fade-node');
+                el.classList.add('cosy-fade-in-init');
+                el.classList.remove('hidden');
+                const isFlexOrBlock = (el.id === 'quickstart-section' || el.id === 'stats-section' || el.id === 'setup-section') ? '' : 'block';
+                el.style.display = isFlexOrBlock;
+            });
+
+            // Trigger reflow to start fade in
+            void document.body.offsetHeight;
+
+            showElements.forEach(el => {
+                el.classList.remove('cosy-fade-in-init');
+            });
+
+            setTimeout(() => {
+                showElements.forEach(el => {
+                    el.classList.remove('cosy-fade-node');
+                });
+            }, 400);
+
+        }, 400);
+    }
+
     const engine = {
         state: loadState(),
         session: null,
@@ -578,23 +638,20 @@
             document.getElementById('score-count').textContent = '0';
             document.getElementById('streak-count').textContent = this.state.streak;
 
-            const practiceSec = document.getElementById('practice-section');
-            if (practiceSec) {
-                practiceSec.className = 'practice-engine active cat-' + cat.toLowerCase();
-            }
+            const showSummaryModal = document.getElementById('summary-modal');
+            if (showSummaryModal) showSummaryModal.style.display = 'none';
 
-            const summaryModal = document.getElementById('summary-modal');
-            if (summaryModal) summaryModal.style.display = 'none';
-
-            ['setup-section', 'quickstart-section', 'daily-challenge', 'stats-section'].forEach(id => {
-                const el = document.getElementById(id);
-                if (el) {
-                    el.classList.add('hidden');
-                    el.style.display = 'none';
+            cosyTransition(
+                ['practice-section'],
+                ['setup-section', 'quickstart-section', 'daily-challenge', 'stats-section'],
+                () => {
+                    const practiceSec = document.getElementById('practice-section');
+                    if (practiceSec) {
+                        practiceSec.className = 'practice-engine active cat-' + cat.toLowerCase();
+                    }
+                    this.loadEntry(this.session.sessionQueue[this.session.currentIndex]);
                 }
-            });
-
-            this.loadEntry(this.session.sessionQueue[this.session.currentIndex]);
+            );
         },
 
         loadEntry(q) {
@@ -620,6 +677,11 @@
 
             const label = document.querySelector('.pe-session-label');
             if (label) label.textContent = `Word ${current + 1} of ${total}`;
+
+            const progressText = document.getElementById('pe-progress-text');
+            if (progressText) {
+                progressText.textContent = `Question ${current + 1} of ${total}`;
+            }
 
             const form = q.form || q.type;
             const nextBtn = document.getElementById('pe-next');
@@ -699,14 +761,45 @@
                 this.autoAdvanceTimeout = null;
             }
 
-            const practiceSection = document.getElementById('practice-section');
-            if (practiceSection) {
-                practiceSection.classList.add('hidden');
-                practiceSection.classList.remove('active');
-            }
+            const handleSummaryTrans = () => {
+                const practiceSection = document.getElementById('practice-section');
+                if (practiceSection) {
+                    practiceSection.classList.add('hidden');
+                    practiceSection.classList.remove('active');
+                }
+                const summaryModal = document.getElementById('summary-modal');
+                if (summaryModal) {
+                    summaryModal.style.display = 'block';
+                    // We can also fade the modal content specifically
+                    const modalContent = summaryModal.querySelector('.modal-content');
+                    if (modalContent) {
+                        modalContent.classList.add('cosy-fade-node');
+                        modalContent.classList.add('cosy-fade-in-init');
+                        void modalContent.offsetHeight;
+                        modalContent.classList.remove('cosy-fade-in-init');
+                        setTimeout(() => {
+                            modalContent.classList.remove('cosy-fade-node');
+                        }, 400);
+                    }
+                }
+            };
 
-            const summaryModal = document.getElementById('summary-modal');
-            if (summaryModal) summaryModal.style.display = 'block';
+            const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            if (isReduced) {
+                handleSummaryTrans();
+            } else {
+                const practiceSection = document.getElementById('practice-section');
+                if (practiceSection) {
+                    practiceSection.classList.add('cosy-fade-node');
+                    practiceSection.classList.add('cosy-fade-out');
+                }
+                setTimeout(() => {
+                    handleSummaryTrans();
+                    if (practiceSection) {
+                        practiceSection.classList.remove('cosy-fade-node', 'cosy-fade-out');
+                    }
+                }, 400);
+            }
 
             // Play complete fanfare and trigger confetti!
             playPracticeSound('complete');
@@ -768,21 +861,48 @@
                 this.autoAdvanceTimeout = null;
             }
 
-            document.getElementById('practice-section').classList.add('hidden');
-            document.getElementById('practice-section').classList.remove('active');
-
-            const summaryModal = document.getElementById('summary-modal');
-            if (summaryModal) summaryModal.style.display = 'none';
-
-            ['setup-section', 'quickstart-section', 'daily-challenge', 'stats-section'].forEach(id => {
-                const el = document.getElementById(id);
-                if (el) {
-                    el.classList.remove('hidden');
-                    el.style.display = (id === 'quickstart-section' || id === 'stats-section' || id === 'setup-section') ? '' : 'block';
+            const handleEndSessionTrans = () => {
+                const practiceSection = document.getElementById('practice-section');
+                if (practiceSection) {
+                    practiceSection.classList.add('hidden');
+                    practiceSection.classList.remove('active');
                 }
-            });
+                const summaryModal = document.getElementById('summary-modal');
+                if (summaryModal) summaryModal.style.display = 'none';
+            };
 
-            this.updateUI();
+            const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            if (isReduced) {
+                handleEndSessionTrans();
+                ['setup-section', 'quickstart-section', 'daily-challenge', 'stats-section'].forEach(id => {
+                    const el = document.getElementById(id);
+                    if (el) {
+                        el.classList.remove('hidden');
+                        el.style.display = (id === 'quickstart-section' || id === 'stats-section' || id === 'setup-section') ? '' : 'block';
+                    }
+                });
+                this.updateUI();
+            } else {
+                const summaryModal = document.getElementById('summary-modal');
+                const modalContent = summaryModal ? summaryModal.querySelector('.modal-content') : null;
+                if (modalContent) {
+                    modalContent.classList.add('cosy-fade-node');
+                    modalContent.classList.add('cosy-fade-out');
+                }
+                setTimeout(() => {
+                    handleEndSessionTrans();
+                    if (modalContent) {
+                        modalContent.classList.remove('cosy-fade-node', 'cosy-fade-out');
+                    }
+                    cosyTransition(
+                        ['setup-section', 'quickstart-section', 'daily-challenge', 'stats-section'],
+                        [],
+                        () => {
+                            this.updateUI();
+                        }
+                    );
+                }, 400);
+            }
             window.scrollTo({ top: 0, behavior: 'smooth' });
         },
 
@@ -1071,11 +1191,21 @@
         const q = sess.sessionQueue[sess.currentIndex];
         const ans = q.dynamicAns !== undefined ? q.dynamicAns : q.ans;
         const fb = document.getElementById('pe-fb');
+        const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
         document.querySelectorAll('.mc-opt').forEach((b, idx) => {
             b.disabled = true;
-            if (idx === ans) b.classList.add('correct');
-            else if (idx === i) b.classList.add('wrong');
+            if (idx === ans) {
+                b.classList.add('correct');
+                if (idx === i && !isReduced) {
+                    b.classList.add('correct-highlight');
+                }
+            } else if (idx === i) {
+                b.classList.add('wrong');
+                if (!isReduced) {
+                    b.classList.add('incorrect-shake');
+                }
+            }
         });
 
         if (i === ans) {
@@ -1101,8 +1231,25 @@
         const sess = engine.session;
         const q = sess.sessionQueue[sess.currentIndex];
         const fb = document.getElementById('pe-fb');
+        const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-        document.querySelectorAll('.tf-btn').forEach(b => b.disabled = true);
+        document.querySelectorAll('.tf-btn').forEach(b => {
+            b.disabled = true;
+            const isTrueBtn = b.classList.contains('tf-btn-true');
+            if (q.ans === true && isTrueBtn) {
+                b.classList.add('correct');
+                if (val === true && !isReduced) b.classList.add('correct-highlight');
+            } else if (q.ans === false && !isTrueBtn) {
+                b.classList.add('correct');
+                if (val === false && !isReduced) b.classList.add('correct-highlight');
+            } else if (val === true && isTrueBtn) {
+                b.classList.add('wrong');
+                if (!isReduced) b.classList.add('incorrect-shake');
+            } else if (val === false && !isTrueBtn) {
+                b.classList.add('wrong');
+                if (!isReduced) b.classList.add('incorrect-shake');
+            }
+        });
 
         if (val === q.ans) {
             engine.awardPoints(10);
@@ -1130,11 +1277,15 @@
         const userAnswer = inp.value.trim().toLowerCase();
         const correctAnswer = (q.ans || q.item?.translation || "").toString().trim().toLowerCase();
         const fb = document.getElementById('pe-fb');
+        const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
         inp.disabled = true;
         if (userAnswer === correctAnswer) {
             engine.awardPoints(10);
             inp.classList.add('correct');
+            if (!isReduced) {
+                inp.classList.add('correct-highlight');
+            }
             if (fb) {
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
@@ -1143,6 +1294,9 @@
         } else {
             engine.recordMistake(q);
             inp.classList.add('wrong');
+            if (!isReduced) {
+                inp.classList.add('incorrect-shake');
+            }
             if (fb) {
                 fb.className = 'pe-feedback show bad';
                 fb.innerHTML = '❌ Answer: ' + correctAnswer;
@@ -1180,9 +1334,13 @@
 
         const val = Array.from(assembly.querySelectorAll('button')).map(b => b.textContent).join(' ');
         const fb = document.getElementById('pe-fb');
+        const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
         if (val.trim().toLowerCase() === q.ans.trim().toLowerCase()) {
             engine.awardPoints(10);
+            if (!isReduced) {
+                assembly.classList.add('correct-highlight');
+            }
             if (fb) {
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
@@ -1190,6 +1348,9 @@
             showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 600);
         } else {
             engine.recordMistake(q);
+            if (!isReduced) {
+                assembly.classList.add('incorrect-shake');
+            }
             if (fb) {
                 fb.className = 'pe-feedback show bad';
                 fb.innerHTML = '❌ Incorrect.';
@@ -1235,10 +1396,19 @@
             const elL = document.getElementById(`mp-left-${selLeft}`);
             const elR = document.getElementById(`mp-right-${selRight}`);
 
+            const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
             if (selLeft === selRight) {
                 // Correct Match!
-                if (elL) { elL.classList.remove('active'); elL.classList.add('matched'); }
-                if (elR) { elR.classList.remove('active'); elR.classList.add('matched'); }
+                if (elL) {
+                    elL.classList.remove('active');
+                    elL.classList.add('matched');
+                    if (!isReduced) elL.classList.add('correct-highlight');
+                }
+                if (elR) {
+                    elR.classList.remove('active');
+                    elR.classList.add('matched');
+                    if (!isReduced) elR.classList.add('correct-highlight');
+                }
 
                 engine.mpSelectedLeft = null;
                 engine.mpSelectedRight = null;
@@ -1268,8 +1438,16 @@
                 }
             } else {
                 // Incorrect Match!
-                if (elL) { elL.classList.remove('active'); elL.classList.add('wrong-match'); }
-                if (elR) { elR.classList.remove('active'); elR.classList.add('wrong-match'); }
+                if (elL) {
+                    elL.classList.remove('active');
+                    elL.classList.add('wrong-match');
+                    if (!isReduced) elL.classList.add('incorrect-shake');
+                }
+                if (elR) {
+                    elR.classList.remove('active');
+                    elR.classList.add('wrong-match');
+                    if (!isReduced) elR.classList.add('incorrect-shake');
+                }
 
                 engine.recordMistake(null);
 
@@ -1278,8 +1456,14 @@
                 setTimeout(() => {
                     const eL = document.getElementById(`mp-left-${currentLeft}`);
                     const eR = document.getElementById(`mp-right-${currentRight}`);
-                    if (eL) eL.classList.remove('wrong-match');
-                    if (eR) eR.classList.remove('wrong-match');
+                    if (eL) {
+                        eL.classList.remove('wrong-match');
+                        if (!isReduced) eL.classList.remove('incorrect-shake');
+                    }
+                    if (eR) {
+                        eR.classList.remove('wrong-match');
+                        if (!isReduced) eR.classList.remove('incorrect-shake');
+                    }
                 }, 400);
 
                 engine.mpSelectedLeft = null;

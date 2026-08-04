@@ -691,28 +691,5 @@
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/ui.js"></script>
 <script src="../js/data/pricing.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll('.filter-btn');
-  const sessions = document.querySelectorAll('.history-session');
-
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const selectedLevel = btn.getAttribute('data-level');
-
-      sessions.forEach(sess => {
-        const levels = (sess.getAttribute('data-level') || '').split(' ');
-        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
-          sess.style.display = 'flex';
-        } else {
-          sess.style.display = 'none';
-        }
-      });
-    });
-  });
-});
-</script></body>
+</body>
 </html>
