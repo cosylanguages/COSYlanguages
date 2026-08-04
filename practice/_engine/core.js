@@ -631,6 +631,11 @@
                 combo: 0
             };
 
+            // Track practice session start
+            if (typeof window.cosyTrackEvent === 'function') {
+                window.cosyTrackEvent('Practice Funnel', 'Session Start', `${lang.toUpperCase()} - ${cat} (${level})`);
+            }
+
             const comboWrap = document.getElementById('combo-wrap');
             if (comboWrap) comboWrap.style.display = 'none';
 
@@ -809,6 +814,11 @@
             s.todayCorrect += sess.correctCount;
             this.updateStreak();
             s.sessions++;
+
+            // Track practice session complete
+            if (typeof window.cosyTrackEvent === 'function') {
+                window.cosyTrackEvent('Practice Funnel', 'Session Complete', `${sess.lang.toUpperCase()} - ${sess.cat} (${sess.level})`);
+            }
 
             s.history.unshift({
                 lang: sess.lang,
