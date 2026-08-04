@@ -1835,10 +1835,10 @@
                     const matchLevel = (selectedLevel === 'all' || levels.includes(selectedLevel));
 
                     if (matchLang && matchLevel) {
-                        sess.style.display = 'flex';
+                        sess.style.setProperty('display', 'flex', 'important');
                         visibleCount++;
                     } else {
-                        sess.style.display = 'none';
+                        sess.style.setProperty('display', 'none', 'important');
                     }
                 });
 

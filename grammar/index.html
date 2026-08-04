@@ -29,6 +29,10 @@
     <h1>Grammar Reference 📐</h1>
     <a id="btn-go-print" href="../print-grammar.html?lang=en&level=starter&type=verbs" class="btn btn-secondary" style="margin-top: 0.5rem; display: inline-flex; font-size: 0.85rem; padding: 0.4rem 1.2rem; align-items: center; gap: 0.4rem; font-weight: bold; border-radius: 20px;">🖨️ Printable Version</a>
   </div>
+  <!-- Client-side Search Box -->
+  <div style="flex: 1; min-width: 200px; max-width: 320px; margin: 0 1rem;">
+    <input type="text" id="grammar-search-input" placeholder="🔍 Search grammar, verbs or tenses..." style="padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid var(--border); background: var(--cream, #FAF7F2); font-size: 0.85rem; width: 100%; box-sizing: border-box;">
+  </div>
   <div class="lang-tabs" id="ref-lang-tabs">
     <button class="lang-tab" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
     <button class="lang-tab" data-lang="fr" onclick="setLang('fr')">🇫🇷 FR</button>
@@ -262,6 +266,70 @@ async function setLang(lang) {
   }
 
   document.getElementById('main-content').innerHTML = contentHtml;
+  filterGrammarContent();
+}
+
+function filterGrammarContent() {
+  const searchInput = document.getElementById('grammar-search-input');
+  if (!searchInput) return;
+
+  const query = searchInput.value.trim().toLowerCase();
+  const sidebarItems = document.querySelectorAll('.sidebar-item');
+  const cards = document.querySelectorAll('.card');
+
+  // 1. Filter Cards
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    if (!query || text.includes(query)) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+
+  // 2. Hide/Show empty card grids and level-badges
+  const cardGrids = document.querySelectorAll('.cards-grid');
+  cardGrids.forEach(grid => {
+    const gridCards = Array.from(grid.querySelectorAll('.card'));
+    const hasVisibleCard = gridCards.some(c => c.style.display !== 'none');
+    if (hasVisibleCard) {
+      grid.style.display = '';
+      let prevBadge = grid.previousElementSibling;
+      while (prevBadge && !prevBadge.classList.contains('level-badge')) {
+        prevBadge = prevBadge.previousElementSibling;
+      }
+      if (prevBadge) prevBadge.style.display = '';
+    } else {
+      grid.style.display = 'none';
+      let prevBadge = grid.previousElementSibling;
+      while (prevBadge && !prevBadge.classList.contains('level-badge')) {
+        prevBadge = prevBadge.previousElementSibling;
+      }
+      if (prevBadge) prevBadge.style.display = 'none';
+    }
+  });
+
+  // 3. Filter Sidebar Items
+  sidebarItems.forEach(item => {
+    const text = item.textContent.toLowerCase();
+    if (!query || text.includes(query)) {
+      item.style.display = '';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+
+  // 4. Hide empty sidebar sections
+  const sidebarSections = document.querySelectorAll('.sidebar-section');
+  sidebarSections.forEach(section => {
+    const items = Array.from(section.querySelectorAll('.sidebar-item'));
+    const hasVisibleItem = items.some(i => i.style.display !== 'none');
+    if (hasVisibleItem) {
+      section.style.display = '';
+    } else {
+      section.style.display = 'none';
+    }
+  });
 }
 
 function renderAdjectiveCard(a) {
@@ -412,6 +480,11 @@ function setActiveLink(el) {
 document.addEventListener('DOMContentLoaded', () => {
   const urlParams = new URLSearchParams(window.location.search);
   setLang(urlParams.get('lang') || 'fr');
+
+  const searchInput = document.getElementById('grammar-search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', filterGrammarContent);
+  }
 });
 </script>
 </body>
