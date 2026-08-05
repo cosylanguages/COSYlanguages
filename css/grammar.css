@@ -408,6 +408,87 @@
   color: var(--gh-black);
 }
 
+/* Phase 3: Russian Signature Visual Components */
+.russian-pattern {
+  background: var(--gh-cream);
+  border: 3px double var(--gh-black);
+  border-radius: 4px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.15);
+  color: var(--gh-black);
+}
+.russian-pattern h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-family: 'Lora', serif;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #8C1C13; /* Elegant Russian Pattern Red */
+}
+.russian-pattern p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.why-russian {
+  background: rgba(140, 28, 19, 0.08); /* 8% Elegant Russian Red */
+  border-left: 4px solid #8C1C13;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 4px 4px 0;
+  color: var(--gh-black);
+}
+.why-russian h4 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #8C1C13;
+}
+.why-russian p {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.progress-celebration {
+  background: linear-gradient(135deg, #FFE135 0%, #FFD700 100%);
+  border: 3px solid var(--gh-black);
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 4px 4px 0 var(--gh-black);
+  color: var(--gh-black);
+}
+.progress-celebration h4 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-size: 1.15rem;
+  font-family: 'Lora', serif;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.progress-celebration ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-weight: 700;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
 @media (max-width: 800px) {
   .grammar-layout { grid-template-columns: 1fr; }
   .grammar-sidebar {
