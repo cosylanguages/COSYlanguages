@@ -330,6 +330,84 @@
     cursor: pointer;
 }
 
+/* Phase 2: Checklist & Diagram Components */
+.can-use-checklist {
+  background: rgba(255, 255, 255, 0.2);
+  border: 3px solid var(--gh-black);
+  border-radius: 4px;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  color: var(--gh-black);
+}
+.can-use-checklist h4 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  font-family: 'Lora', serif;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+}
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.checklist-item input[type="checkbox"] {
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 2px solid var(--gh-black);
+  border-radius: 4px;
+  cursor: pointer;
+  accent-color: var(--gh-black);
+}
+
+/* CSS Diagrams */
+.grammar-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--gh-cream);
+  border-bottom: 2px solid var(--gh-black);
+  flex-wrap: wrap;
+}
+.diagram-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid var(--gh-black);
+  background: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0 var(--gh-black);
+}
+.diagram-label {
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #666;
+  margin-top: 0.15rem;
+}
+.diagram-value {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.diagram-arrow {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--gh-black);
+}
+
 @media (max-width: 800px) {
   .grammar-layout { grid-template-columns: 1fr; }
   .grammar-sidebar {

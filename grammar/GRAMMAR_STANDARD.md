@@ -1,4 +1,4 @@
-# COSYlanguages Grammar Standard v1.0
+# COSYlanguages Grammar Standard v1.0 & v2.0 (Phase 2 Revision)
 
 This document defines the strict, unified standards for all digital and print grammar materials across COSYlanguages. Every lesson, manual, reference page, and printable sheet must adhere 100% to this specification.
 
@@ -13,36 +13,64 @@ Regardless of language or level, every grammar page/lesson must answer the follo
 - **How do I build it?** (Structure & formulas)
 - **What mistakes do beginners make?** (Real-life learner pitfalls)
 
-### Principle 2: Identical Page Anatomy
-Every grammar page must be composed of the following 12 sections (`A` through `L`) in this exact sequential order:
-- **A. Vocabulary Theme:** Always at the top. Connects grammar to a real context naturally (e.g., *Family*, *Food*, *Travel*, *Shopping*, *Weather*).
-- **B. Grammar Title:** Large, clear, never clever (e.g., *Present Simple*, *Gender*, *Cases*, *Articles*).
-- **C. One-Line Summary:** Exactly one sentence summarizing the core rule (e.g., *"We use the Present Simple for routines and facts."*).
-- **D. Why Is This Important?:** One short paragraph explaining the long-term impact of this rule to motivate adult learners.
-- **E. Structure:** The visual heart of the page. Uses sentence formulas, tables, decision trees, or building blocks instead of text. **Never long paragraphs.**
-- **F. Fully Coloured Examples:** standard color-coded tokens for linguistic elements.
-- **G. Guided Observation:** A "Observe..." or "Notice..." section. Always asks **exactly one question** (not an explanation) to encourage inductive learning and pattern discovery (e.g., *"Which word changes?"*, *"Which ending disappears?"*).
-- **H. Memory Trick:** Mandatory. Mnemonics, comparisons, or visual cues giving the page personality and improving retention.
-- **I. Common Mistakes:** Mandatory. Displays real mistakes only using strict `❌` (Incorrect) and `✅` (Correct) side-by-side or stacked formatting with standard warning icons.
-- **J. Native Speaker Thinking:** Exactly one box titled `"🧠 Think like a native speaker"`. Explains the core system thinking behind the language (maximum 4 lines).
-- **K. Register Box:** Only if useful (e.g., *Academic vs Spoken*, *UK vs US*, *Colloquial*). Do not force it.
-- **L. Connects to...:** Mandatory. One sentence linking this chapter to future/past concepts to form a cognitive web.
+### Principle 2: Standardized Page Rhythm
+Every grammar page must follow an identical visual and logical rhythm to create familiarity for the learner. The standard rhythm sequence is:
 
-### Principle 3: Example Bounds
-- Every page must contain **between 2 and 5 examples** of the main grammar rule.
-- No more, no less. This provides enough data for pattern recognition without overloading.
+1. **Vocabulary Theme:** Natural thematic anchor (e.g., *Family*, *Food*, *Travel*).
+2. **Grammar Title:** Large, clear, never clever.
+3. **One-Line Summary:** Exactly one sentence summarizing the core rule.
+4. **Why is this important? / Why learners struggle:** Highlighting importance & difficulty.
+5. **Main Visual (Diagram / Flow):** Replacing long paragraphs with CSS diagrams.
+6. **Colour Example:** Standard color-coded examples.
+7. **Guided Observation (👀 Notice):** A single inductive question for pattern discovery.
+8. **🧠 Think like [Language]:** Explaining the systematic logic of the language.
+9. **⚠ Common Mistakes:** Stacked `❌` (Incorrect) and `✅` (Correct) patterns.
+10. **💡 Memory Trick:** Visually-anchored, story-based memory trigger.
+11. **🔗 Connects to...:** Sequential learning journey links.
+12. **📍 Can you already use this?:** A communication-focused self-evaluation checklist.
 
-### Principle 4: One Idea Per Page
-- Strictly enforce **one grammar idea per page** to avoid cognitive over-saturation.
-- Do not mix ideas (e.g., teach *Present Simple* and *Adverbs of Frequency* or *Present Continuous* on separate pages).
+---
 
-### Principle 5: Under 5-Minute Cognitive Load
-- A learner must be able to fully digest and understand the entire page in **under five minutes**. If not, split the topic into smaller standalone lessons.
+## 2. Priority Upgrades & Editorial Style (Phase 2)
 
-### Principle 6: Standard Visual Color Language
-Always use these exact semantic classes and colors for highlighting linguistic components across all pages and languages:
+### Priority 1: Give Languages Personality ("Think like...")
+Don't just explain mechanical rules; explain **why** the language functions as a system. Use the `"🧠 Think like [Language]"` box to teach system logic:
+- *English:* Focus on word order and auxiliary verbs as structural builders.
+- *Russian:* Focus on cases and verb endings that carry semantic weight.
+- *Greek:* Focus on agreements, verb endings, and rich article structures.
 
-| Element | Color | Semantic Class | Hex / Variable |
+### Priority 2: Diagrams Over Paragraphs (The COSY Rule)
+If a concept can be illustrated visually, never write it in text.
+- *Example (Basic Sentence Order):* Instead of text, show:
+  `Who?` ➔ `does what?` ➔ `to whom?`
+- *Example (Articles):* Instead of explaining with paragraphs, show:
+  `New` ➔ `a dog` ➔ `The Same Dog` ➔ `the dog`
+
+### Priority 3: Story-Based Memory Tricks
+Create sticky, story-based tricks rather than mechanical formulas:
+- *Example (Present Continuous):* The auxiliary verb `BE` holds `VERB-ing` like a magnet.
+- *Example (Articles):* `a` opens the story ➔ `the` continues the story.
+
+### Priority 4: Inductive Learner Predictions (👀 Notice)
+Always present standard patterns first, ask the student to identify what changes (e.g. *"Which ending disappears?"*), and only then explain the rule. This improves long-term retention.
+
+### Priority 5: Reduce Repeated Wording
+Vary explanations. Instead of repeating *"We use..."*, use engaging synonyms:
+- *"Native speakers choose..."*
+- *"This grammar appears when..."*
+- *"You'll hear this every day when..."*
+
+### Priority 6: Highlight Common Struggles ("Why this is difficult")
+Adult learners appreciate knowing when a concept is universally challenging due to cross-linguistic differences (e.g., lack of articles or helper verbs in their native tongue).
+
+### Priority 7: Communication-Focused Checklist (📍 Can you already use this?)
+Always end the page with 3 or 4 practical, checkbox-style communication skills. This shifts the focus from passive learning to active capability (e.g. *"☐ I can talk about my daily routine."*).
+
+---
+
+## 3. Standard Visual Color Language & Approved Icons
+
+| Element | Color | Semantic Class | Variable |
 |:---|:---|:---|:---|
 | **Subject** | Blue | `.key-subject` / `.key-blue` | `var(--grammar-subject)` |
 | **Verb** | Green | `.key-verb` / `.key-green` | `var(--grammar-verb)` |
@@ -52,9 +80,8 @@ Always use these exact semantic classes and colors for highlighting linguistic c
 | **Error** | Red | `.key-error` / `.key-red` | `var(--grammar-error)` |
 | **Optional** | Grey | `.key-optional` / `.key-grey` | `var(--grammar-optional)` |
 
-### Principle 7: The Nine Standard Icons
-Use **only** these nine approved icons. No others are permitted:
-- `⚠` Common mistake
+### The 9 Standard Icons:
+- `⚠` Common mistake / Why this is difficult
 - `💡` Memory trick
 - `👀` Notice / Guided observation
 - `🧠` Think like a native speaker
@@ -64,89 +91,7 @@ Use **only** these nine approved icons. No others are permitted:
 - `🌍` Regional variation
 - `⭐` Important rule
 
-### Principle 8: Standard Page Density
-Every manual page or screen should approximate this layout ratio:
-- **25%** Explanation (definitions, summaries, motivation)
-- **50%** Visuals (diagrams, tables, building blocks, colored formulas)
-- **25%** Examples (the 2 to 5 high-quality examples)
-
-### Principle 9: Language Personality
-Every language has a core structural core that the manual should reinforce on every page:
-- **English:** Word order is king.
-- **Russian:** Endings tell the story.
-- **Greek:** Verb endings and articles rule.
-- **French:** Pronunciation and silent spellings.
-- **German:** Sentence structure/verb position.
-- **Spanish:** The rich verb system.
-- **Italian:** General agreement.
-
-### Principle 10: The COSY Rule
-**"If something can be understood from a diagram, do not explain it in a paragraph."**
-
 ---
 
-## 2. Reference HTML Implementation Guide
-
-A compliant HTML file implements standard markup utilizing the shared classes in `css/grammar.css`:
-
-```html
-<!-- A. Vocabulary Theme -->
-<div class="grammar-vocab-theme">
-  Vocabulary theme for practice: <span>Family</span>
-</div>
-
-<!-- B. Title -->
-<h1>Present Simple</h1>
-
-<!-- C. One-Line Summary -->
-<p class="grammar-summary">We use the Present Simple for routines and facts.</p>
-
-<!-- D. Why is this important? -->
-<div class="grammar-importance">
-  <strong>Why is this important?</strong> You will use this grammar structure almost every time you speak.
-</div>
-
-<!-- E. Structure (Visual, no long paragraphs) & F. Coloured Examples -->
-<div class="g-card">
-  <div class="g-card-title">Subject + Verb + Object</div>
-  <table class="gtable">
-    <tr>
-      <td><span class="key-subject">I</span> + <span class="key-verb">work</span></td>
-    </tr>
-  </table>
-</div>
-
-<!-- G. Guided Observation (👀 Notice) -->
-<div class="guided-observation">
-  <h4>👀 Notice</h4>
-  <p>Which ending disappears in the negative form?</p>
-</div>
-
-<!-- H. Memory Trick (💡 Memory Trick) -->
-<div class="memory-trick">
-  <h4>💡 Memory Trick</h4>
-  <p>Think of "-s" as the "singular supervisor" for He, She, and It.</p>
-</div>
-
-<!-- I. Common Mistakes (⚠ Common Mistakes) -->
-<div class="g-card">
-  <div class="g-card-title">⚠ Common Mistakes</div>
-  <table class="gtable">
-    <tr class="mistake-row">
-      <td>✗ <span class="key-error">He work</span> in London.</td>
-      <td>✓ <span class="key-subject">He</span> <span class="key-verb">work</span><span class="key-ending">s</span> in London.</td>
-    </tr>
-  </table>
-</div>
-
-<!-- J. Think Like a Native Speaker (🧠) -->
-<div class="native-thinking">
-  <h4>🧠 Think like a native speaker</h4>
-  <p>English cares about word order above all else. Since we don't have many noun endings, the position of each word tells the brain who does what.</p>
-</div>
-
-<!-- L. Connects to... (🔗) -->
-<div class="connects-to">
-  <span>🔗</span> This prepares you for the Past Simple.
-</div>
-```
+## 4. Grammar Map Chapter Summaries
+Every major grammar chapter (e.g., Verbs, Nouns) must end with a single-page visual roadmap/mind map illustrating the interconnected system of rules. No new grammar is introduced here—only structural relationships.
