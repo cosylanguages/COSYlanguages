@@ -4063,6 +4063,53 @@ body[class*="theme-science"]::after {
   z-index: -1;
 }
 
+/* Transcript Collapsible Details styling */
+.transcript-details {
+  margin: 1.5rem 0;
+  border: 1px solid var(--border, rgba(157, 129, 217, 0.3));
+  border-radius: 12px;
+  background: var(--surface-color, #fffcf5);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.transcript-details summary {
+  padding: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: var(--text-color, #4c3185);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  background: rgba(157, 129, 217, 0.05);
+  list-style: none;
+}
+.transcript-details summary::-webkit-details-marker {
+  display: none;
+}
+.transcript-details .fold-arrow {
+  transition: transform 0.2s ease;
+}
+.transcript-details[open] .fold-arrow {
+  transform: rotate(180deg);
+}
+
+/* Dark theme support */
+body.theme-wonder-amy .transcript-details,
+body.theme-wonder-album .transcript-details,
+body.theme-wonder-watched .transcript-details {
+  background: #18141c;
+  border-color: var(--section-title-color, #e11d48);
+  color: #f1f0f3;
+}
+body.theme-wonder-amy .transcript-details summary,
+body.theme-wonder-album .transcript-details summary,
+body.theme-wonder-watched .transcript-details summary {
+  color: #f1f0f3;
+  background: rgba(255, 255, 255, 0.05);
+}
+
 /* ── Karaoke Club Card Grid ─────────────────────────── */
 .karaoke-grid {
   display: grid;
