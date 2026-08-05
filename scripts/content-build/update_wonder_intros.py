@@ -1,7 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 
-MAPPING = {
+MAPPING_EN = {
     "whether-raindrops-select-where-to-fall.html": (
         "As I sat in a cozy café in Rennes, watching a heavy Breton drizzle turn the granite cobblestones into mirrors, "
         "I flicked my lighter and lit my afternoon Marlboro Red. Across the table lay three open grammar dictionaries—French, "
@@ -142,9 +142,58 @@ MAPPING = {
     )
 }
 
-def update_files():
-    directory = "events/sessions/i-couldnt-help-but-wonder"
-    for filename, intro_text in MAPPING.items():
+MAPPING_FR = {
+    "death-of-the-album.html": (
+        "Alors que je parcourais une playlist algorithmique de morceaux viraux de quinze secondes sur mon téléphone, je me suis "
+        "senti envahi par un élan de nostalgie pour les bons vieux microsillons d'autrefois. J'ai allumé une Marlboro Red, bu "
+        "une gorgée de mon café serré dans ma chambre sous les toits bretons, et je n'ai pas pu m'empêcher de me demander... "
+        "À l'ère des singles numériques fragmentés, qu'est-il advenu de notre patience ? Avons-nous perdu la capacité de "
+        "rester immobiles et de digérer un album conceptuel complet du début à la fin, ou le rythme frénétique moderne "
+        "a-t-il simplement transformé le format physique en une belle relique d'un passé plus calme et réfléchi ?"
+    ),
+    "does-inclusive-language-make-us-equal.html": (
+        "En tant que linguiste, je passe mes journées à décortiquer la grammaire, les voyelles et la syntaxe. Récemment, autour d'un "
+        "verre de vin rouge dans un bistrot de Saint-Malo, j'ai écouté un grand débat sur l'écriture inclusive—la lutte sans fin "
+        "pour le point médian et l'accord des adjectifs. J'ai allumé une Marlboro Red et je n'ai pas pu m'empêcher de me demander... "
+        "Nous dépensons tellement d'énergie à polir nos syllabes, espérant guérir des siècles d'inégalité avec un simple suffixe. "
+        "Mais le fait de réarranger notre grammaire favorise-t-il vraiment l'égalité, ou n'est-ce qu'une élégante distraction "
+        "face aux dures réalités de l'injustice sociale ?"
+    ),
+    "feeling-empty-after-series.html": (
+        "La pluie bretonne tapotait doucement contre ma fenêtre alors que je fermais mon ordinateur, achevant le dernier épisode d'une "
+        "longue série. Le silence soudain dans mon appartement de Rennes était étouffant. J'ai versé un verre de vin rouge, allumé "
+        "une Marlboro Red, et contemplé le ciel gris. Je n'ai pas pu m'empêcher de me demander... Pourquoi dire adieu à des personnages "
+        "de fiction ressemble-t-il à la perte d'un ami de toujours ? Pleurons-nous sincèrement la fin de leur voyage imaginaire, "
+        "ou regrettons-nous secrètement les heures de notre propre vie que nous avons consacrées à fuir notre réalité parce qu'elle "
+        "était trop difficile à traduire ?"
+    ),
+    "is-parenting-instinct-a-real-thing-or-scam.html": (
+        "En me promenant dans le parc du Thabor à Rennes, à regarder de jeunes parents épuisés gérer des enfants en pleurs avec une "
+        "patience de plomb, je me suis demandé s'ils possédaient vraiment un manuel biologique secret. Dans une société qui s'attend "
+        "à ce que nous nous transformions instantanément en gardiens parfaits dès que nous tenons un nouveau-né, y a-t-il vraiment "
+        "un instinct inné qui guide nos moindres gestes ? J'ai tiré sur ma Marlboro Red et je n'ai pas pu m'empêcher de me demander... "
+        "L'instinct parental est-il une vérité biologique, ou n'est-ce qu'un brillant concept social conçu pour nous culpabiliser "
+        "et nous forcer à la conformité ?"
+    ),
+    "ugly-produce-anti-waste.html": (
+        "En me promenant sur un marché breton local, au milieu des étals de cidre artisanal et de galettes fraîches, "
+        "j'ai repéré une petite cagette de carottes tordues et de pommes asymétriques. Elles étaient lourdement démarquées, "
+        "ignorées par les clients en quête d'une symétrie parfaite. Je suis resté là, ma Marlboro Red à la main, et je n'ai "
+        "pas pu m'empêcher de me demander... Dans une société qui filtre, édite et standardise constamment notre langage et nos vies, "
+        "pourquoi imposons-nous ces mêmes critères de beauté stériles à la nature ? En rejetant les fruits et légumes moches, "
+        "ne sommes-nous pas en train de priver nos âmes de la beauté authentique et chaotique du vivant ?"
+    ),
+    "why-do-we-try-to-relate-to-adhd.html": (
+        "J'ai passé une heure ce soir à faire défiler les réseaux sociaux, à regarder des vidéos listant les 'symptoms' du TDAH. "
+        "Tête en l'air, trop d'onglets ouverts, clés égarées—on aurait dit que l'internet entier essayait de diagnostiquer la Terre entière. "
+        "J'ai allumé une Marlboro Red, bu une gorgée d'expresso tiède, et je n'ai pas pu m'empêcher de me demander... Pourquoi cherchons-nous "
+        "si avidement une étiquette médicale à nos distractions quotidiennes ? Avons-nous besoin d'un alibi médical pour notre "
+        "épuisement moderne, ou cherchons-nous simplement un vocabulaire pour expliquer pourquoi nous nous sentons si déconnectés ?"
+    )
+}
+
+def update_directory(directory, mapping):
+    for filename, intro_text in mapping.items():
         filepath = os.path.join(directory, filename)
         if not os.path.exists(filepath):
             print(f"File {filepath} not found, skipping.")
@@ -179,31 +228,40 @@ def update_files():
             if p_tag:
                 p_tag.clear()
                 p_tag.string = intro_text
-                print(f"Updated intro for {filename}")
+                print(f"Updated intro for {filename} in {directory}")
             else:
                 # If no p tag, create one
                 new_p = soup.new_tag("p")
                 new_p.string = intro_text
                 target_div.clear()
                 target_div.append(new_p)
-                print(f"Created and updated p tag inside target div for {filename}")
+                print(f"Created and updated p tag inside target div for {filename} in {directory}")
         else:
             # Fallback: search for p tag containing "couldn't help but wonder"
             found_p = False
             for p in soup.find_all("p"):
-                if "couldn't help but wonder" in p.get_text() or "I wondered" in p.get_text():
+                p_text = p.get_text()
+                if "couldn't help but wonder" in p_text or "I wondered" in p_text or "m'empêcher de me demander" in p_text or "m'empêcher de me poser" in p_text:
                     p.clear()
                     p.string = intro_text
                     found_p = True
-                    print(f"Fallback: Updated text inside p tag containing 'wonder' for {filename}")
+                    print(f"Fallback: Updated text inside p tag containing 'wonder' for {filename} in {directory}")
                     break
             if not found_p:
-                print(f"WARNING: Could not find any target div or p tag for {filename}!")
+                print(f"WARNING: Could not find any target div or p tag for {filename} in {directory}!")
 
         # Write the updated content back
-        # Ensure we maintain the DOCTYPE
         with open(filepath, "w", encoding="utf-8") as f:
             f.write("<!DOCTYPE html>\n" + str(soup).replace("<!DOCTYPE html>\n", "").replace("<!DOCTYPE html>", ""))
 
+def main():
+    # Update English sessions
+    print("--- Updating English Session Intros ---")
+    update_directory("events/sessions/i-couldnt-help-but-wonder", MAPPING_EN)
+
+    # Update French sessions
+    print("\n--- Updating French Session Intros ---")
+    update_directory("events/fr/sessions/i-couldnt-help-but-wonder", MAPPING_FR)
+
 if __name__ == "__main__":
-    update_files()
+    main()
