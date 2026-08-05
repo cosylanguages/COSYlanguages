@@ -159,8 +159,7 @@
 
         // Special case for home
         if (currentFilename === 'index.html' || currentFilename === '/') {
-            if (hash.includes('languages')) active = (item.id === 'mnav-languages');
-            else if (!hash) active = (item.id === 'mnav-home');
+            active = (item.id === 'mnav-home');
         }
 
         if (path.includes('/practice/')) {
