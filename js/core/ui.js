@@ -3081,10 +3081,13 @@
         `;
 
         // Inject the player container
+        const playerPlaceholder = document.querySelector('.wonder-audio-player-placeholder');
         const metaGrid = document.querySelector('.session-meta-grid');
         const wonderColumnBox = document.querySelector('.wonder-column-box');
         const contentContainer = document.querySelector('.content-container');
-        if (metaGrid) {
+        if (playerPlaceholder) {
+            playerPlaceholder.appendChild(playerContainer);
+        } else if (metaGrid) {
             metaGrid.parentNode.insertBefore(playerContainer, metaGrid.nextSibling);
         } else if (wonderColumnBox) {
             wonderColumnBox.parentNode.insertBefore(playerContainer, wonderColumnBox);
