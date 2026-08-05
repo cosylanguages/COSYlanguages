@@ -12,6 +12,15 @@
   --gh-blue:     #0074D9;
   --gh-cream:    #FFFDF5;
 
+  /* COSYlanguages Grammar Standard v1.0 Colors - High Contrast, Accessible */
+  --grammar-subject:   #0059B3; /* Blue */
+  --grammar-verb:      #238823; /* Green */
+  --grammar-object:    #D9531E; /* Orange */
+  --grammar-ending:    #7B1FA2; /* Purple */
+  --grammar-adjective: #B58A00; /* Yellow / Gold */
+  --grammar-error:     #D11A2A; /* Red */
+  --grammar-optional:  #6E6E6E; /* Grey */
+
   /* Legacy/Support Mappings */
   --are-col: var(--gh-blue); --ere-col: var(--gh-orange); --ire-col: #9B59B6;
 }
@@ -89,12 +98,151 @@
 .example-row td { background: rgba(0,0,0,0.08); font-size: .88rem; padding: .5rem 1.1rem; text-align: left; }
 .example-row td span { display: block; font-size: .76rem; font-weight: 700; color: rgba(0,0,0,0.5); margin-top: .15rem; }
 
-.key-verb   { color: var(--gh-yellow); font-weight: 900; }
+/* COSYlanguages Grammar Standard v1.0 Color Classes */
+.key-subject, .key-blue      { color: var(--grammar-subject); font-weight: 900; }
+.key-verb, .key-green        { color: var(--grammar-verb); font-weight: 900; }
+.key-object, .key-orange     { color: var(--grammar-object); font-weight: 900; }
+.key-ending, .key-purple     { color: var(--grammar-ending); font-weight: 900; }
+.key-adjective, .key-yellow  { color: var(--grammar-adjective); font-weight: 900; }
+.key-error, .key-red, .key-neg { color: var(--grammar-error); font-weight: 900; }
+.key-optional, .key-grey     { color: var(--grammar-optional); font-weight: 900; }
+.key-white                   { color: var(--gh-white);  font-weight: 900; }
+
+/* Legacy Support Classes */
 .key-label  { color: var(--gh-orange); font-weight: 900; }
-.key-neg    { color: var(--gh-red);    font-weight: 900; }
 .key-pos    { color: var(--gh-green);  font-weight: 900; }
-.key-blue   { color: var(--gh-blue);   font-weight: 900; }
-.key-white  { color: var(--gh-white);  font-weight: 900; }
+
+/* Anatomy Component Styles */
+.grammar-vocab-theme {
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--gh-black);
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.grammar-vocab-theme span {
+  background: var(--gh-black);
+  color: var(--gh-yellow);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+.grammar-summary {
+  font-family: 'Lora', serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+  color: var(--gh-black);
+  line-height: 1.4;
+}
+.grammar-importance {
+  background: rgba(255, 255, 255, 0.15);
+  border-left: 4px solid var(--gh-black);
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 0 4px 4px 0;
+  color: var(--gh-black);
+  line-height: 1.4;
+}
+.guided-observation {
+  background: var(--gh-cream);
+  border: 3px solid var(--gh-black);
+  border-radius: 4px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 5px 5px 0 var(--gh-black);
+  color: var(--gh-black);
+}
+.guided-observation h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-family: 'Lora', serif;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.guided-observation p {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.memory-trick {
+  background: rgba(255, 225, 53, 0.15);
+  border: 2px dashed var(--gh-black);
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  color: var(--gh-black);
+}
+.memory-trick h4 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.memory-trick p {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.native-thinking {
+  background: var(--gh-cream);
+  border: 3px solid var(--gh-black);
+  border-radius: 4px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 5px 5px 0 var(--gh-black);
+  color: var(--gh-black);
+}
+.native-thinking h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-family: 'Lora', serif;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.native-thinking p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.register-box {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--gh-black);
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--gh-black);
+}
+.connects-to {
+  font-weight: 800;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+  border-top: 2px dashed rgba(0,0,0,0.15);
+  padding-top: 1rem;
+  color: var(--gh-black);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
 /* Interactive Quiz (Unified with Teal Theme) */
 .g-quiz-card { background: var(--gh-cream); border: 3px solid var(--gh-black); border-radius: 4px; margin-bottom: 1.5rem; box-shadow: 5px 5px 0 var(--gh-black); overflow: hidden; }
@@ -180,6 +328,165 @@
     padding: 0 10px;
     color: var(--sage-dark);
     cursor: pointer;
+}
+
+/* Phase 2: Checklist & Diagram Components */
+.can-use-checklist {
+  background: rgba(255, 255, 255, 0.2);
+  border: 3px solid var(--gh-black);
+  border-radius: 4px;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  color: var(--gh-black);
+}
+.can-use-checklist h4 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  font-family: 'Lora', serif;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+}
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.checklist-item input[type="checkbox"] {
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 2px solid var(--gh-black);
+  border-radius: 4px;
+  cursor: pointer;
+  accent-color: var(--gh-black);
+}
+
+/* CSS Diagrams */
+.grammar-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--gh-cream);
+  border-bottom: 2px solid var(--gh-black);
+  flex-wrap: wrap;
+}
+.diagram-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid var(--gh-black);
+  background: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0 var(--gh-black);
+}
+.diagram-label {
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #666;
+  margin-top: 0.15rem;
+}
+.diagram-value {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.diagram-arrow {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--gh-black);
+}
+
+/* Phase 3: Russian Signature Visual Components */
+.russian-pattern {
+  background: var(--gh-cream);
+  border: 3px double var(--gh-black);
+  border-radius: 4px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.15);
+  color: var(--gh-black);
+}
+.russian-pattern h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-family: 'Lora', serif;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #8C1C13; /* Elegant Russian Pattern Red */
+}
+.russian-pattern p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.why-russian {
+  background: rgba(140, 28, 19, 0.08); /* 8% Elegant Russian Red */
+  border-left: 4px solid #8C1C13;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 4px 4px 0;
+  color: var(--gh-black);
+}
+.why-russian h4 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #8C1C13;
+}
+.why-russian p {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.progress-celebration {
+  background: linear-gradient(135deg, #FFE135 0%, #FFD700 100%);
+  border: 3px solid var(--gh-black);
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 4px 4px 0 var(--gh-black);
+  color: var(--gh-black);
+}
+.progress-celebration h4 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-size: 1.15rem;
+  font-family: 'Lora', serif;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.progress-celebration ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-weight: 700;
+  font-size: 0.92rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 800px) {
