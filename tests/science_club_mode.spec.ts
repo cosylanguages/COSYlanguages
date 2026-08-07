@@ -68,4 +68,36 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
     const hostBar = page.locator('#kus-dynamic-host-bar');
     await expect(hostBar).toBeVisible();
   });
+
+  test('KUS Session page should follow the 12-point vertical hierarchy layout redesign', async ({ page }) => {
+    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html');
+
+    // 1. Session Information Data Sheet should be visible
+    const infoBox = page.locator('.science-session-info-box');
+    await expect(infoBox).toBeVisible();
+    await expect(infoBox.locator('.info-box-header')).toContainText('SPECIMEN SCIENTIFIC DATA SHEET');
+
+    // 2. Three Format Switcher buttons should be visible
+    const formatSwitcher = page.locator('#kus-dynamic-switcher');
+    await expect(formatSwitcher).toBeVisible();
+    await expect(formatSwitcher.locator('.btn-big')).toBeVisible();
+    await expect(formatSwitcher.locator('.btn-mini')).toBeVisible();
+    await expect(formatSwitcher.locator('.btn-private')).toBeVisible();
+
+    // 3. Primary Source Artifact card should be visible
+    const sourceCard = page.locator('.science-source-card');
+    await expect(sourceCard).toBeVisible();
+    await expect(sourceCard.locator('.source-card-header')).toContainText('PRIMARY SCIENTIFIC SOURCE ARTIFACT');
+
+    // 4. Digest Abstract summary should be visible
+    const digest = page.locator('.science-digest-summary');
+    await expect(digest).toBeVisible();
+    await expect(digest.locator('.digest-header')).toContainText('SCIENTIFIC COMPREHENSION ABSTRACT');
+
+    // 5. Go Deeper section with related recommendations should exist
+    const goDeeper = page.locator('#go-deeper');
+    await expect(goDeeper).toBeVisible();
+    await expect(goDeeper.locator('.section-title')).toContainText('Go Deeper');
+    await expect(goDeeper.locator('.science-card')).not.toHaveCount(0);
+  });
 });

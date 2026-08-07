@@ -2832,67 +2832,326 @@
 
         document.body.setAttribute('data-active-mode', mode);
 
-        // Dynamically inject KUS modes features
+        // Dynamically inject KUS modes features & Reorder Page Layout
         if (isKusSession) {
             const mainContainer = document.querySelector('main.content-container');
             if (mainContainer) {
-                // Remove existing switcher/bar if any
-                const oldSwitcher = document.getElementById("kus-dynamic-switcher");
-                if (oldSwitcher) oldSwitcher.remove();
-                const oldHostBar = document.getElementById("kus-dynamic-host-bar");
-                if (oldHostBar) oldHostBar.remove();
-
                 const isFrench = currentPathname.includes('/fr/');
                 const isRussian = currentPathname.includes('/ru/');
 
-                // 1. Dynamic Mode Switcher Grid
-                const switcherEl = document.createElement('div');
-                switcherEl.id = "kus-dynamic-switcher";
-                switcherEl.className = "science-format-switcher";
-                switcherEl.style.cssText = "display: flex; gap: 0.5rem; margin-top: 1rem; margin-bottom: 2rem; flex-wrap: wrap;";
+                // Ensure we only redesign the layout once
+                if (!mainContainer.hasAttribute('data-redesigned')) {
+                    mainContainer.setAttribute('data-redesigned', 'true');
 
-                let bigLabel = isFrench ? "🗣️ GRAND GROUPE" : (isRussian ? "🗣️ БОЛЬШАЯ ГРУППА" : "🗣️ BIG GROUP (Public)");
-                let miniLabel = isFrench ? "👥 MINI GROUPE" : (isRussian ? "👥 МИНИ ГРУППА" : "👥 MINI GROUP (Protected)");
-                let privateLabel = isFrench ? "🎓 COURS PARTICULIER" : (isRussian ? "🎓 ЧАСТНЫЙ УРОК" : "🎓 PRIVATE LESSON (Protected)");
+                    const filename = currentPathname.split('/').pop();
+                    const specimenKey = window.COSY_PASSCODES ? window.COSY_PASSCODES.KUS_SPECIMEN_MAPPING[filename] : null;
+                    const dbKey = filename.replace('.html', '').replace(/-(elementary|intermediate|upper-intermediate|upper)$/, '');
+                    const specimenData = window.COSY_SCIENCE_DB ? window.COSY_SCIENCE_DB[dbKey] : null;
 
-                switcherEl.innerHTML = `
-                    <a href="?mode=big" class="mode-btn btn-big ${mode === 'big' ? 'active' : ''}">${bigLabel}</a>
-                    <a href="?mode=mini" class="mode-btn btn-mini ${mode === 'mini' ? 'active' : ''}">${miniLabel}</a>
-                    <a href="?mode=private" class="mode-btn btn-private ${mode === 'private' ? 'active' : ''}">${privateLabel}</a>
-                `;
+                    // Extract existing elements
+                    const breadcrumbs = mainContainer.querySelector('.cosy-breadcrumbs');
+                    const backLink = mainContainer.querySelector('.back-link');
+                    const warning = mainContainer.querySelector('.sensitive-topic-warning');
 
-                const targetAnchor = mainContainer.querySelector('.cosy-session-switcher-placeholder') || mainContainer.querySelector('.cosy-breadcrumbs') || mainContainer.firstElementChild;
-                if (targetAnchor) {
-                    targetAnchor.parentNode.insertBefore(switcherEl, targetAnchor.nextSibling);
-                } else {
-                    mainContainer.prepend(switcherEl);
-                }
+                    const titleText = document.querySelector('h1')?.textContent.trim() || (specimenData ? specimenData.title : "Scientific Specimen");
+                    const dateText = document.querySelector('.session-date')?.textContent.trim() || (specimenData ? specimenData.date : "");
 
-                // 2. Dynamic Host/Teacher Utility Control Bar
-                if (mode === 'mini' || mode === 'private') {
-                    const hostBarEl = document.createElement('div');
-                    hostBarEl.id = "kus-dynamic-host-bar";
-                    hostBarEl.className = "host-utility-bar";
-                    hostBarEl.style.cssText = "margin-bottom: 2rem;";
+                    // Parse meta-grid
+                    let levelVal = isFrench ? "Intermédiaire (B1)" : (isRussian ? "Средний (B1)" : "Intermediate (B1)");
+                    let themeVal = specimenData ? (isRussian ? specimenData.theme : specimenData.theme) : "";
+                    let sourceHtml = "";
+                    const metaGrid = mainContainer.querySelector('.session-meta-grid');
+                    if (metaGrid) {
+                        const items = metaGrid.querySelectorAll('.meta-item');
+                        items.forEach(item => {
+                            const h4 = item.querySelector('h4');
+                            const h4Text = h4 ? h4.textContent.toLowerCase() : "";
+                            const p = item.querySelector('p');
+                            const pText = p ? p.textContent.trim() : "";
+                            if (h4Text.includes('level') || h4Text.includes('niveau') || h4Text.includes('уровень')) {
+                                levelVal = pText;
+                            } else if (h4Text.includes('topic') || h4Text.includes('thématique') || h4Text.includes('тема')) {
+                                themeVal = pText;
+                            } else if (h4Text.includes('resources') || h4Text.includes('sources') || h4Text.includes('источник')) {
+                                sourceHtml = p ? p.innerHTML : "";
+                            }
+                        });
+                        metaGrid.remove();
+                    }
 
-                    let tagText = isFrench ? "🔑 Utilitaire Enseignant" : (isRussian ? "🔑 Организатор" : "🔑 Host Utility");
-                    let infoText = isFrench ? "Partagez cette session déverrouillée avec vos élèves :" : (isRussian ? "Поделитесь разблокированной ссылкой с учениками :" : "Share this unlocked session with your students:");
-                    let btnText = isFrench ? "🔗 Copier le lien élève" : (isRussian ? "🔗 Скопировать ссылку для учеников" : "🔗 Copy Student Link");
-                    let backText = isFrench ? "← Retour à Keeping Up with Science" : (isRussian ? "← Вернуться к Keeping Up with Science" : "← Back to Keeping Up with Science");
-                    let backHref = isFrench ? "../../keeping-up-with-science.html" : (isRussian ? "../../keeping-up-with-science.html" : "../../keeping-up-with-science.html");
+                    // Parse journal box
+                    let langFocus = isFrench ? "Structure d'apprentissage" : (isRussian ? "Языковой фокус" : "Linguistic structure analysis");
+                    const journalBox = mainContainer.querySelector('.science-journal-box');
+                    if (journalBox) {
+                        const items = journalBox.querySelectorAll('.science-journal-item');
+                        items.forEach(item => {
+                            const h5Text = item.querySelector('h5')?.textContent.toLowerCase() || "";
+                            const pText = item.querySelector('p')?.textContent.trim() || "";
+                            if (h5Text.includes('linguistic') || h5Text.includes('focus') || h5Text.includes('грамматика')) {
+                                langFocus = pText;
+                            }
+                        });
+                        journalBox.remove();
+                    }
 
-                    hostBarEl.innerHTML = `
-                        <div class="hub-header">
-                            <span class="hub-tag">${tagText}</span>
-                            <span class="hub-info">${infoText}</span>
+                    // Get Batch Label
+                    let batchLabel = isFrench ? "Spécimen Autonome" : (isRussian ? "Автономный образец" : "Standalone Specimen");
+                    if (specimenData && specimenData.batches && specimenData.batches.length > 0) {
+                        const bId = specimenData.batches[0];
+                        batchLabel = bId.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                        if (isFrench) {
+                            if (bId.includes('neuroplasticity')) batchLabel = "Neuroplasticité & Santé Cognitive";
+                            else if (bId.includes('evolutionary')) batchLabel = "Biologie Évolutive & Communication";
+                            else if (bId.includes('biotechnology')) batchLabel = "Biotechnologie & Pharmacologie Moderne";
+                            else if (bId.includes('climate')) batchLabel = "Climat, Environnement & Santé Publique";
+                            else if (bId.includes('sensory')) batchLabel = "Systèmes Sensoriels & Communication Animale";
+                        } else if (isRussian) {
+                            if (bId.includes('neuroplasticity')) batchLabel = "Нейропластичность и здоровье мозга";
+                            else if (bId.includes('evolutionary')) batchLabel = "Эволюционная биология и коммуникация";
+                            else if (bId.includes('biotechnology')) batchLabel = "Биотехнологии и современная фармакология";
+                            else if (bId.includes('climate')) batchLabel = "Климат, экология и общественное здоровье";
+                            else if (bId.includes('sensory')) batchLabel = "Сенсорные системы и коммуникация животных";
+                        }
+                    }
+
+                    // Parse summary paragraph
+                    let summaryHtml = "";
+                    const vocabSection = mainContainer.querySelector('#vocabulary');
+                    if (vocabSection) {
+                        let prev = vocabSection.previousElementSibling;
+                        while (prev && prev !== metaGrid && prev !== journalBox && prev !== breadcrumbs && prev !== backLink) {
+                            if (prev.tagName === 'DIV' || prev.tagName === 'P') {
+                                summaryHtml = prev.innerHTML;
+                                prev.remove();
+                                break;
+                            }
+                            prev = prev.previousElementSibling;
+                        }
+                    }
+
+                    const vocabulary = mainContainer.querySelector('#vocabulary');
+                    const structure = mainContainer.querySelector('#structure');
+
+                    // Empty container
+                    mainContainer.innerHTML = '';
+
+                    // 1. Breadcrumbs & Back Link
+                    if (breadcrumbs) mainContainer.appendChild(breadcrumbs);
+                    if (backLink) mainContainer.appendChild(backLink);
+
+                    // 2. Sensitive / 18+ Warning
+                    if (warning) {
+                        mainContainer.appendChild(warning);
+                    }
+
+                    // 3. Same-Specimen Language/Level Switcher Placeholders
+                    const switcherPlaceholder = document.createElement('div');
+                    switcherPlaceholder.className = "cosy-session-switcher-placeholder";
+                    mainContainer.appendChild(switcherPlaceholder);
+
+                    // 4. Session Information Box (Sheet Card)
+                    const infoBox = document.createElement('div');
+                    infoBox.className = "science-session-info-box";
+                    infoBox.innerHTML = `
+                        <div class="info-box-header">🔬 ${isFrench ? 'FICHE COMPLÈTE DU SPÉCIMEN' : (isRussian ? 'КАРТА НАУЧНОГО ОБРАЗЦА' : 'SPECIMEN SCIENTIFIC DATA SHEET')}</div>
+                        <div class="info-box-grid">
+                            <div class="info-field"><h5>${isFrench ? 'Titre du Spécimen' : (isRussian ? 'Название образца' : 'Specimen Title')}</h5><p>${titleText}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Thématique' : (isRussian ? 'Научная тема' : 'Scientific Theme')}</h5><p>${themeVal}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Niveau CEFR' : (isRussian ? 'Уровень CEFR' : 'CEFR Level')}</h5><p>${levelVal}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Structure d\'Apprentissage' : (isRussian ? 'Языковой фокус' : 'Language Focus')}</h5><p>${langFocus}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Collection Thématique' : (isRussian ? 'Научная коллекция' : 'Thematic Batch')}</h5><p>${batchLabel}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Date d\'Analyse' : (isRussian ? 'Дата публикации' : 'Analysis Date')}</h5><p>${dateText}</p></div>
                         </div>
-                        <div class="hub-actions">
-                            <button class="btn-copy-link" onclick="window.COSY.copyStudentLink(this)">${btnText}</button>
-                            <a href="${backHref}" class="unobtrusive-back-link">${backText}</a>
+                    `;
+                    mainContainer.appendChild(infoBox);
+
+                    // 5. Three Format Buttons Placeholder
+                    const formatSwitcherPlaceholder = document.createElement('div');
+                    formatSwitcherPlaceholder.id = "kus-dynamic-switcher-placeholder";
+                    mainContainer.appendChild(formatSwitcherPlaceholder);
+
+                    // 6. Article / Source Card
+                    if (sourceHtml) {
+                        const sourceCard = document.createElement('div');
+                        sourceCard.className = "science-source-card";
+                        sourceCard.innerHTML = `
+                            <div class="source-card-header">🧬 ${isFrench ? 'SOURCE SCIENTIFIQUE OFFICIELLE' : (isRussian ? 'ОФИЦИАЛЬНЫЙ НАУЧНЫЙ ИСТОЧНИК' : 'PRIMARY SCIENTIFIC SOURCE ARTIFACT')}</div>
+                            <div class="source-card-body">
+                                <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); line-height: 1.5;">
+                                    ${isFrench ? 'Cette session s\'appuie directement sur les travaux de recherche et publications officielles de l\'institution suivante :' : (isRussian ? 'Эта сессия основана на официальных научных публикациях и исследованиях следующего рецензируемого источника :' : 'This conversational session maps directly onto the empirical findings and peer-reviewed publications from the following institution:')}
+                                </p>
+                                <div class="source-links-wrapper">${sourceHtml}</div>
+                            </div>
+                        `;
+                        mainContainer.appendChild(sourceCard);
+                    }
+
+                    // 7. Transcript / Stimulus Digest
+                    if (summaryHtml) {
+                        const digestSummary = document.createElement('div');
+                        digestSummary.className = "science-digest-summary";
+                        digestSummary.innerHTML = `
+                            <div class="digest-header">📝 ${isFrench ? 'RÉSUMÉ DU COMPTE RENDU' : (isRussian ? 'КРАТКАЯ СВОДКА ИССЛЕДОВАНИЯ' : 'SCIENTIFIC COMPREHENSION ABSTRACT')}</div>
+                            <div style="font-size: 1rem; color: var(--ink); line-height: 1.7; font-style: italic;">
+                                ${summaryHtml}
+                            </div>
+                        `;
+                        mainContainer.appendChild(digestSummary);
+                    }
+
+                    // 8. Vocabulary
+                    if (vocabulary) mainContainer.appendChild(vocabulary);
+
+                    // 9. Discussion Structure
+                    if (structure) mainContainer.appendChild(structure);
+
+                    // 10. Go Deeper Thematically Related Recommendations Grid
+                    const goDeeperEl = document.createElement('section');
+                    goDeeperEl.id = "go-deeper";
+                    goDeeperEl.style.cssText = "margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border);";
+
+                    let goDeeperTitle = isFrench ? "🔍 Pour aller plus loin — Sessions Thématiques Liées" : (isRussian ? "🔍 Исследуйте глубже — Связанные тематические сессии" : "🔍 Go Deeper — Thematically Related Sessions");
+
+                    // Determine related sessions
+                    const recs = [];
+                    if (specimenData && specimenData.batches) {
+                        const currentBatch = specimenData.batches[0];
+                        // Find other specimens in the same batch
+                        for (const [key, spec] of Object.entries(window.COSY_SCIENCE_DB)) {
+                            if (key !== dbKey && spec.batches && spec.batches.includes(currentBatch)) {
+                                recs.push({
+                                    title: spec.title,
+                                    theme: spec.theme,
+                                    url: key + "-intermediate.html",
+                                    type: isFrench ? "🔬 SPÉCIMEN SCIENTIFIQUE" : (isRussian ? "🔬 НАУЧНЫЙ ОБРАЗЕЦ" : "🔬 SCIENCE SPECIMEN")
+                                });
+                                if (recs.length >= 2) break;
+                            }
+                        }
+                    }
+
+                    // Fallbacks or cross-club curations
+                    if (recs.length < 3) {
+                        const batchName = (specimenData && specimenData.batches && specimenData.batches[0]) || "";
+                        if (batchName.includes('neuroplasticity')) {
+                            recs.push({
+                                title: "Eternal Sunshine of the Spotless Mind",
+                                theme: "Deconstruct selective memory erasure, neurological manipulation, and visual storytelling.",
+                                url: "../../sessions/cinema-club/eternal-sunshine-of-the-spotless-mind.html",
+                                type: isFrench ? "🎬 SOIRÉE CINÉMA" : (isRussian ? "🎬 КИНОКЛУБ" : "🎬 CINEMA CLUB NIGHT")
+                            });
+                        } else if (batchName.includes('evolutionary') || dbKey.includes('laughter') || dbKey.includes('words')) {
+                            recs.push({
+                                title: "Arrival",
+                                theme: "Analyze cognitive linguistic adaptation, sapir-whorf hypothesis, and alien homologies.",
+                                url: "../../sessions/cinema-club/arrival.html",
+                                type: isFrench ? "🎬 SOIRÉE CINÉMA" : (isRussian ? "🎬 КИНОКЛУБ" : "🎬 CINEMA CLUB NIGHT")
+                            });
+                        } else if (batchName.includes('climate') || batchName.includes('environmental') || dbKey.includes('recycling')) {
+                            recs.push({
+                                title: "Wall-E",
+                                theme: "Discuss consumerism, carbon accumulation, automation ethics, and environmental survival.",
+                                url: "../../sessions/cinema-club/wall-e.html",
+                                type: isFrench ? "🎬 SOIRÉE CINÉMA" : (isRussian ? "🎬 КИНОКЛУБ" : "🎬 CINEMA CLUB NIGHT")
+                            });
+                        } else {
+                            recs.push({
+                                title: "Inception",
+                                theme: "Explore dream architectures, sub-cortical memories, and cognitive projections.",
+                                url: "../../sessions/cinema-club/inception.html",
+                                type: isFrench ? "🎬 SOIRÉE CINÉMA" : (isRussian ? "🎬 КИНОКЛУБ" : "🎬 CINEMA CLUB NIGHT")
+                            });
+                        }
+                    }
+
+                    let recsHtml = '';
+                    recs.forEach(rec => {
+                        let exploreText = isFrench ? "Analyser le Spécimen →" : (isRussian ? "Исследовать →" : "Explore Session →");
+                        recsHtml += `
+                            <div class="science-card" style="border: 1px solid var(--border); padding: 1.5rem; border-radius: var(--r-md, 14px); background: #FAF7F2; display: flex; flex-direction: column; justify-content: space-between; box-shadow: var(--shadow-sm); box-sizing: border-box; min-width: 250px;">
+                                <div>
+                                    <span class="club-tag" style="background: #e1f5ee; color: #0F6E56; border: 1px solid rgba(15, 110, 86, 0.2); font-size: 0.72rem; text-transform: uppercase; font-weight: 800; border-radius: 4px; padding: 3px 8px; display: inline-block; margin-bottom: 0.75rem; letter-spacing: 0.05em;">${rec.type}</span>
+                                    <h4 style="margin: 0 0 0.5rem 0; font-size: 1.15rem; font-family: 'Playfair Display', serif; font-weight: 700; color: var(--ink); line-height: 1.3;">${rec.title}</h4>
+                                    <p style="margin: 0; font-size: 0.85rem; color: var(--muted); line-height: 1.4;">${rec.theme}</p>
+                                </div>
+                                <a href="${rec.url}" class="science-view-btn" style="margin-top: 1.25rem; text-align: center; text-decoration: none !important; font-weight: 600; padding: 0.5rem; background: var(--surface-color, #ffffff); border: 1px solid var(--border); border-radius: 8px; color: var(--ink-soft); transition: all 0.2s;">${exploreText}</a>
+                            </div>
+                        `;
+                    });
+
+                    goDeeperEl.innerHTML = `
+                        <h2 class="section-title" style="margin-bottom: 1.5rem;">${goDeeperTitle}</h2>
+                        <div class="go-deeper-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+                            ${recsHtml}
                         </div>
                     `;
 
-                    switcherEl.parentNode.insertBefore(hostBarEl, switcherEl.nextSibling);
+                    mainContainer.appendChild(goDeeperEl);
+
+                    // Now reinit switcher setups
+                    setupSessionSwitcher();
+                }
+
+                // Append Switchers to the new placeholder
+                const switcherPl = mainContainer.querySelector('.cosy-session-switcher-placeholder');
+                const switcherEl = mainContainer.querySelector('.session-switcher');
+                if (switcherPl && switcherEl && switcherEl.parentNode !== switcherPl) {
+                    switcherPl.appendChild(switcherEl);
+                }
+
+                // Place Format Switchers and Host Bars
+                const placeholderPl = document.getElementById("kus-dynamic-switcher-placeholder");
+                if (placeholderPl) {
+                    // Remove old ones from document if any
+                    const oldSwitcher = document.getElementById("kus-dynamic-switcher");
+                    if (oldSwitcher) oldSwitcher.remove();
+                    const oldHostBar = document.getElementById("kus-dynamic-host-bar");
+                    if (oldHostBar) oldHostBar.remove();
+
+                    // Create switcher El
+                    const switcherEl = document.createElement('div');
+                    switcherEl.id = "kus-dynamic-switcher";
+                    switcherEl.className = "science-format-switcher";
+                    switcherEl.style.cssText = "display: flex; gap: 0.5rem; margin-top: 1rem; margin-bottom: 2rem; flex-wrap: wrap;";
+
+                    let bigLabel = isFrench ? "🗣️ GRAND GROUPE" : (isRussian ? "🗣️ БОЛЬШАЯ ГРУППА" : "🗣️ BIG GROUP (Public)");
+                    let miniLabel = isFrench ? "👥 MINI GROUPE" : (isRussian ? "👥 МИНИ ГРУППА" : "👥 MINI GROUP (Protected)");
+                    let privateLabel = isFrench ? "🎓 COURS PARTICULIER" : (isRussian ? "🎓 ЧАСТНЫЙ УРОК" : "🎓 PRIVATE LESSON (Protected)");
+
+                    switcherEl.innerHTML = `
+                        <a href="?mode=big" class="mode-btn btn-big ${mode === 'big' ? 'active' : ''}">${bigLabel}</a>
+                        <a href="?mode=mini" class="mode-btn btn-mini ${mode === 'mini' ? 'active' : ''}">${miniLabel}</a>
+                        <a href="?mode=private" class="mode-btn btn-private ${mode === 'private' ? 'active' : ''}">${privateLabel}</a>
+                    `;
+
+                    placeholderPl.appendChild(switcherEl);
+
+                    // Create Host Utility Bar El
+                    if (mode === 'mini' || mode === 'private') {
+                        const hostBarEl = document.createElement('div');
+                        hostBarEl.id = "kus-dynamic-host-bar";
+                        hostBarEl.className = "host-utility-bar";
+                        hostBarEl.style.cssText = "margin-bottom: 2rem;";
+
+                        let tagText = isFrench ? "🔑 Utilitaire Enseignant" : (isRussian ? "🔑 Организатор" : "🔑 Host Utility");
+                        let infoText = isFrench ? "Partagez cette session déverrouillée avec vos élèves :" : (isRussian ? "Поделитесь разблокированной ссылкой с учениками :" : "Share this unlocked session with your students:");
+                        let btnText = isFrench ? "🔗 Copier le lien élève" : (isRussian ? "🔗 Скопировать ссылку для учеников" : "🔗 Copy Student Link");
+                        let backText = isFrench ? "← Retour à Keeping Up with Science" : (isRussian ? "← Вернуться к Keeping Up with Science" : "← Back to Keeping Up with Science");
+                        let backHref = isFrench ? "../../keeping-up-with-science.html" : (isRussian ? "../../keeping-up-with-science.html" : "../../keeping-up-with-science.html");
+
+                        hostBarEl.innerHTML = `
+                            <div class="hub-header">
+                                <span class="hub-tag">${tagText}</span>
+                                <span class="hub-info">${infoText}</span>
+                            </div>
+                            <div class="hub-actions">
+                                <button class="btn-copy-link" onclick="window.COSY.copyStudentLink(this)">${btnText}</button>
+                                <a href="${backHref}" class="unobtrusive-back-link">${backText}</a>
+                            </div>
+                        `;
+
+                        placeholderPl.appendChild(hostBarEl);
+                    }
                 }
             }
         }
