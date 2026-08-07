@@ -136,4 +136,27 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
     await expect(vocabGrid).toBeVisible();
     await expect(vocabGrid.locator('.vocab-card')).toHaveCount(10);
   });
+
+  test('KUS Session page under unlocked Private Lesson mode should dynamically compile and present all 10 Steps with Teacher Notes', async ({ page }) => {
+    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true');
+
+    // Private Lesson Speaking Session title should be visible
+    const pageTitle = page.locator('#structure .section-title');
+    await expect(pageTitle).toHaveText('🎓 Private Lesson Speaking Session');
+
+    // Verify presence of all 10 Steps
+    for (let i = 1; i <= 10; i++) {
+      const step = page.locator(`#p-step${i}`);
+      await expect(step).toBeVisible();
+    }
+
+    // Verify first and last step headers
+    await expect(page.locator('#p-step1 .round-header')).toContainText('Step 1 — Lead-In / Warm-Up');
+    await expect(page.locator('#p-step10 .round-header')).toContainText('Step 10 — Independent Final Production');
+
+    // Verify presence of teacher manual guidance chips inside steps
+    const teacherNotes = page.locator('#p-step1 .teacher-manual-chip');
+    await expect(teacherNotes).toBeVisible();
+    await expect(teacherNotes).toContainText('Teacher Guidance:');
+  });
 });
