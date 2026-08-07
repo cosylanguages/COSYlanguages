@@ -96,14 +96,34 @@
             if (document.getElementById(overlayId)) return;
 
             const isFrench = window.location.pathname.includes('/fr/');
-            const title = isFrench ? "🌌 MANUSCRIT VERROUILLÉ" : "🌌 LOCKED DRAFT";
-            const subtitle = isFrench ? "I Couldn't Help But Wonder..." : "I Couldn't Help But Wonder...";
-            const promptText = isFrench
-                ? `Ce brouillon de chronique en mode <strong>${mode === 'mini' ? 'Mini Groupe' : 'Cours Particulier'}</strong> est restreint. Veuillez saisir votre code d'accès pour inspecter le manuscrit.`
-                : `This column draft in <strong>${mode === 'mini' ? 'Mini Group' : 'Private Lesson'}</strong> mode is restricted. Please file your passcode below to inspect the manuscript.`;
-            const placeholderText = isFrench ? "Saisir le code..." : "Enter Passcode...";
-            const btnText = isFrench ? "VERROUILLER" : "FILE KEY";
-            const errorText = isFrench ? "❌ Code de brouillon incorrect" : "❌ Incorrect Draft Passcode";
+            const draftKey = this.getCurrentDraftKey() || "00";
+
+            // Copywriting specifications
+            let title = "";
+            let infoLine = "";
+            let accessLine = "";
+            let btnText = "";
+            let errorText = "";
+            let backBtnText = "";
+
+            if (mode === 'mini') {
+                title = isFrench ? "👥 MINI GROUPE" : "👥 MINI GROUP";
+                infoLine = isFrench ? "2 à 5 participants" : "2–5 participants";
+                accessLine = isFrench ? "Accès hébergeur requis (Host passcode)" : "Host access required";
+                btnText = isFrench ? "REJOINDRE LA SESSION" : "ENTER SESSION";
+                errorText = isFrench ? "❌ Code d'accès Mini Groupe incorrect" : "❌ Incorrect Mini Group Access Code";
+                backBtnText = isFrench ? "← Retour au Club" : "← Back to Club";
+            } else {
+                title = isFrench ? "🎓 COURS PARTICULIER" : "🎓 PRIVATE LESSON";
+                infoLine = isFrench ? "Cours individuel enseignant-élève (1-to-1)" : "Teacher-led 1-to-1 session";
+                accessLine = isFrench ? "Accès enseignant requis (Teacher passcode)" : "Teacher access required";
+                btnText = isFrench ? "DÉMARRER LE COURS" : "ENTER LESSON";
+                errorText = isFrench ? "❌ Code d'accès Enseignant incorrect" : "❌ Incorrect Private Lesson Access Code";
+                backBtnText = isFrench ? "← Retour au Club" : "← Back to Club";
+            }
+
+            const placeholderText = isFrench ? "Entrer le code d'accès..." : "Enter access code...";
+            const inputLabel = isFrench ? "Code d'accès" : "Access Code";
 
             // Inject styles for lock screen dynamically
             const styleId = "wonder-lock-overlay-styles";
@@ -117,9 +137,9 @@
                         left: 0;
                         width: 100vw;
                         height: 100vh;
-                        background: rgba(9, 6, 20, 0.85);
-                        backdrop-filter: blur(12px);
-                        -webkit-backdrop-filter: blur(12px);
+                        background: rgba(9, 6, 20, 0.9);
+                        backdrop-filter: blur(15px);
+                        -webkit-backdrop-filter: blur(15px);
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -131,7 +151,7 @@
                         background: #110d26;
                         border: 3px solid #3F2B96;
                         border-radius: 16px;
-                        padding: 2rem;
+                        padding: 2.5rem 2rem;
                         max-width: 480px;
                         width: 100%;
                         color: #a9a6e2;
@@ -140,60 +160,98 @@
                         text-align: center;
                         box-sizing: border-box;
                     }
-                    .lock-modal-emoji {
-                        font-size: 1.5rem;
-                        display: block;
-                        margin-bottom: 0.5rem;
-                        letter-spacing: 0.1em;
+                    .lock-modal-title {
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                        color: #ff9f1c;
+                        margin: 0 0 0.5rem;
+                        font-family: 'Playfair Display', serif;
+                    }
+                    .lock-modal-info {
+                        font-size: 0.95rem;
                         color: #8b5cf6;
                         font-weight: bold;
+                        margin-bottom: 0.5rem;
                     }
-                    .lock-modal-card h3 {
-                        font-family: 'Playfair Display', serif;
-                        font-size: 1.6rem;
-                        color: #ff9f1c;
-                        margin: 0 0 1rem;
+                    .lock-modal-access {
+                        font-size: 0.85rem;
+                        opacity: 0.8;
+                        margin-bottom: 2rem;
+                        text-transform: uppercase;
+                        letter-spacing: 0.05em;
                     }
-                    .lock-modal-card p {
-                        font-size: 0.9rem;
-                        line-height: 1.5;
+                    .lock-input-container {
                         margin-bottom: 1.5rem;
+                        text-align: left;
                     }
-                    .lock-input-wrapper {
-                        display: flex;
-                        gap: 10px;
-                        margin-bottom: 1rem;
+                    .lock-input-label {
+                        display: block;
+                        font-size: 0.8rem;
+                        color: #a9a6e2;
+                        margin-bottom: 0.5rem;
+                        font-weight: bold;
+                        text-transform: uppercase;
                     }
                     .lock-input {
-                        flex-grow: 1;
+                        width: 100%;
                         background: #090614;
                         border: 1px solid #3F2B96;
                         border-radius: 6px;
                         color: #FFFEFB;
-                        padding: 0.75rem;
+                        padding: 0.85rem;
                         font-family: 'Courier New', Courier, monospace;
-                        font-size: 0.95rem;
+                        font-size: 1rem;
+                        box-sizing: border-box;
+                        transition: all 0.2s;
                     }
                     .lock-input:focus {
                         outline: none;
                         border-color: #8b5cf6;
                         box-shadow: 0 0 8px rgba(139, 92, 246, 0.4);
                     }
-                    .lock-btn {
+                    .lock-actions {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 12px;
+                        margin-top: 1.5rem;
+                    }
+                    .lock-btn-submit {
                         background: #3F2B96;
                         color: #FFFEFB;
                         border: none;
                         border-radius: 6px;
-                        padding: 0.75rem 1.5rem;
+                        padding: 0.9rem;
                         font-family: 'Courier New', Courier, monospace;
-                        font-size: 0.9rem;
+                        font-size: 0.95rem;
                         font-weight: 700;
                         cursor: pointer;
                         transition: all 0.2s;
+                        width: 100%;
+                        box-sizing: border-box;
                     }
-                    .lock-btn:hover {
+                    .lock-btn-submit:hover {
                         background: #8b5cf6;
                         transform: translateY(-1px);
+                    }
+                    .lock-btn-back {
+                        background: transparent;
+                        color: #a9a6e2;
+                        border: 1px solid rgba(63, 43, 150, 0.5);
+                        border-radius: 6px;
+                        padding: 0.75rem;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: 0.85rem;
+                        font-weight: 600;
+                        cursor: pointer;
+                        transition: all 0.2s;
+                        text-decoration: none;
+                        display: inline-block;
+                        width: 100%;
+                        box-sizing: border-box;
+                    }
+                    .lock-btn-back:hover {
+                        background: rgba(63, 43, 150, 0.2);
+                        color: #ff9f1c;
                     }
                     .gate-error {
                         color: #ef4444;
@@ -215,14 +273,18 @@
             overlay.className = "wonder-lock-overlay";
             overlay.innerHTML = `
                 <div class="lock-modal-card">
-                    <span class="lock-modal-emoji">${title}</span>
-                    <h3>${subtitle}</h3>
-                    <p>${promptText}</p>
-                    <div class="lock-input-wrapper">
-                        <input type="password" id="gate-passcode-input" class="lock-input" placeholder="${placeholderText}" autocomplete="off">
-                        <button id="gate-passcode-submit" class="lock-btn">${btnText}</button>
+                    <h2 class="lock-modal-title">${title}</h2>
+                    <div class="lock-modal-info">${infoLine}</div>
+                    <div class="lock-modal-access">${accessLine}</div>
+                    <div class="lock-input-container">
+                        <label for="gate-passcode-input" class="lock-input-label">${inputLabel}</label>
+                        <input type="password" id="gate-passcode-input" class="lock-input" placeholder="${placeholderText}" autocomplete="off" aria-label="${inputLabel}">
                     </div>
-                    <p id="gate-error-message" class="gate-error" style="display: none;">${errorText}</p>
+                    <div class="lock-actions">
+                        <button id="gate-passcode-submit" class="lock-btn-submit">${btnText}</button>
+                        <button id="gate-passcode-back" class="lock-btn-back">${backBtnText}</button>
+                    </div>
+                    <p id="gate-error-message" class="gate-error" style="display: none;" role="alert">${errorText}</p>
                 </div>
             `;
 
@@ -231,6 +293,7 @@
 
             const input = document.getElementById("gate-passcode-input");
             const submitBtn = document.getElementById("gate-passcode-submit");
+            const backBtn = document.getElementById("gate-passcode-back");
             const errorMsg = document.getElementById("gate-error-message");
 
             const handleAttempt = async () => {
@@ -245,6 +308,10 @@
                     if (window.COSY && typeof window.COSY.showToast === 'function') {
                         window.COSY.showToast(isFrench ? "🔓 Accès autorisé au manuscrit !" : "🔓 Manuscript Access Approved!");
                     }
+                    // Re-trigger session audio since page is now unlocked
+                    if (typeof window.COSY.reinit === 'function') {
+                        window.COSY.reinit();
+                    }
                 } else {
                     errorMsg.style.display = "block";
                     input.value = "";
@@ -252,7 +319,17 @@
                 }
             };
 
+            const handleGoBack = () => {
+                overlay.remove();
+                document.body.classList.remove("wonder-locked-body-blur");
+
+                // Route user back to speaking club hub overview
+                const prefix = isFrench ? "../../" : "../../../";
+                window.location.href = prefix + "i-couldnt-help-but-wonder.html";
+            };
+
             submitBtn.addEventListener('click', handleAttempt);
+            backBtn.addEventListener('click', handleGoBack);
             input.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') handleAttempt();
             });
