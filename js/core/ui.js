@@ -3153,6 +3153,177 @@
                         placeholderPl.appendChild(hostBarEl);
                     }
                 }
+
+                // 3. Dynamic Mini Group Restructuring
+                if (mode === 'mini') {
+                    const structureContainer = document.getElementById('structure');
+                    if (structureContainer && !structureContainer.hasAttribute('data-compiled-mini')) {
+                        structureContainer.setAttribute('data-compiled-mini', 'true');
+
+                        // Parse Vocab
+                        const vocabCards = Array.from(document.querySelectorAll('#vocabulary .vocab-card'));
+                        let vocabHtml = '<div class="vocab-grid-10" style="margin-top: 1rem;">';
+                        vocabCards.forEach(card => {
+                            // Extract only content, strip individual buttons to make it uncluttered for Mini Group
+                            const clone = card.cloneNode(true);
+                            const btn = clone.querySelector('button');
+                            if (btn) btn.remove();
+                            vocabHtml += `<div class="vocab-card" style="box-shadow: none; border: 1px dashed var(--border);">${clone.innerHTML}</div>`;
+                        });
+                        vocabHtml += '</div>';
+
+                        // Parse Warm-up Questions
+                        const warmUpLi = Array.from(document.querySelectorAll('#s-warm li, .warm-up li, #s-warm p, .warm-up p'));
+                        let warmUpHtml = '<ul class="round-questions">';
+                        if (warmUpLi.length > 0) {
+                            warmUpLi.forEach(li => {
+                                warmUpHtml += `<li>${li.innerHTML}</li>`;
+                            });
+                        } else {
+                            warmUpHtml += `<li>${isFrench ? "Avez-vous déjà exploré ce sujet auparavant ?" : (isRussian ? "Исследовали ли вы эту тему ранее ?" : "Have you ever explored this topic before?")}</li>`;
+                        }
+                        warmUpHtml += '</ul>';
+
+                        // Parse Round 1 Questions
+                        const r1Items = Array.from(document.querySelectorAll('#s-r1 .round-item, .round-1 .round-item'));
+                        const r1Parsed = r1Items.map(item => {
+                            return {
+                                main: item.querySelector('.round-item-main')?.innerHTML || item.innerHTML,
+                                personal: item.querySelector('.round-item-personal')?.innerHTML || ""
+                            };
+                        });
+
+                        // Parse Round 2 Questions
+                        const r2Items = Array.from(document.querySelectorAll('#s-r2 .round-item, .round-2 .round-item'));
+                        const r2Parsed = r2Items.map(item => {
+                            return {
+                                main: item.querySelector('.round-item-main')?.innerHTML || item.innerHTML,
+                                personal: item.querySelector('.round-item-personal')?.innerHTML || ""
+                            };
+                        });
+
+                        // Parse Scientific Thinking
+                        const thinkingBody = document.querySelector('#s-thinking .round-body, .scientific-thinking .round-body');
+                        const thinkingHtml = thinkingBody ? thinkingBody.innerHTML : "";
+
+                        // Define localized titles
+                        let u1Title = isFrench ? "Unit 1 — Entrer dans le sujet 🚀" : (isRussian ? "Раздел 1 — Введение в тему 🚀" : "Unit 1 — Enter the Topic 🚀");
+                        let u1Desc = isFrench ? "Échauffement et activation du vocabulaire de la session." : (isRussian ? "Разминка и активация ключевого словаря сессии." : "Activate your background knowledge and study the 10 specimen vocabulary units.");
+
+                        let u2Title = isFrench ? "Unit 2 — Comprendre les résultats 📊" : (isRussian ? "Раздел 2 — Понимание результатов 📊" : "Unit 2 — Understand the Findings 📊");
+                        let u2Desc = isFrench ? "Discutez des découvertes scientifiques réelles rapportées dans l'article." : (isRussian ? "Обсудите реальные научные открытия, описанные в исследовании." : "Analyze the actual scientific discoveries and empirical findings reported in the paper.");
+                        let u2QuestionsHtml = '<ul class="round-questions">';
+                        r1Parsed.slice(0, 5).forEach(q => {
+                            u2QuestionsHtml += `<li>${q.main} ${q.personal ? `<br><span style="font-style: italic; font-size: 0.9em; opacity: 0.85;">${q.personal}</span>` : ""}</li>`;
+                        });
+                        u2QuestionsHtml += '</ul>';
+
+                        let u3Title = isFrench ? "Unit 3 — Explorer la science 🔬" : (isRussian ? "Раздел 3 — Научные гипотезы 🔬" : "Unit 3 — Explore the Science 🔬");
+                        let u3Desc = isFrench ? "Analysez les explications possibles, les mécanismes et les théories concurrentes." : (isRussian ? "Исследуйте возможные объяснения, механизмы и альтернативные теории." : "Move from what happened to why it happened. Debate mechanisms, causes, and theories.");
+                        let u3QuestionsHtml = '<ul class="round-questions">';
+                        r1Parsed.slice(5, 10).forEach(q => {
+                            u3QuestionsHtml += `<li>${q.main} ${q.personal ? `<br><span style="font-style: italic; font-size: 0.9em; opacity: 0.85;">${q.personal}</span>` : ""}</li>`;
+                        });
+                        u3QuestionsHtml += '</ul>';
+
+                        let u4Title = isFrench ? "Unit 4 — Preuves & Évaluation 🔍" : (isRussian ? "Раздел 4 — Доказательства и оценка 🔍" : "Unit 4 — Evidence + Evaluation 🔍");
+                        let u4Desc = isFrench ? "Réfléchissez à la fiabilité des preuves, aux limites de l'étude et à la corrélation vs causalité." : (isRussian ? "Оцените достоверность доказательств, ограничения исследования и причинно-следственные связи." : "Analyze research limitations, sample sizes, and distinguish correlation from causation.");
+                        let u4QuestionsHtml = thinkingHtml ? `<div style="background: rgba(15, 110, 86, 0.04); padding: 1rem; border-radius: 8px; border-left: 4px solid #0F6E56; margin-bottom: 1.5rem;">${thinkingHtml}</div>` : '';
+                        u4QuestionsHtml += '<ul class="round-questions">';
+                        r2Parsed.slice(0, 4).forEach(q => {
+                            u4QuestionsHtml += `<li>${q.main} ${q.personal ? `<br><span style="font-style: italic; font-size: 0.9em; opacity: 0.85;">${q.personal}</span>` : ""}</li>`;
+                        });
+                        u4QuestionsHtml += '</ul>';
+
+                        let u5Title = isFrench ? "Unit 5 — Pourquoi cela compte-t-il ? 🌍" : (isRussian ? "Раздел 5 — Практическое значение 🌍" : "Unit 5 — Why Does It Matter? 🌍");
+                        let u5Desc = isFrench ? "Explorez l'impact de cette découverte sur notre vie quotidienne, nos choix et notre société." : (isRussian ? "Обсудите влияние этого открытия на повседневную жизнь, личный выбор и общество." : "Discuss how this discovery impacts daily life, public policy, technology, and your personal choices.");
+                        let u5QuestionsHtml = '<ul class="round-questions">';
+                        // Collect interesting personal questions from Round 1 and Round 2
+                        r1Parsed.slice(0, 3).forEach(q => {
+                            if (q.personal) u5QuestionsHtml += `<li>${q.personal}</li>`;
+                        });
+                        r2Parsed.slice(0, 3).forEach(q => {
+                            if (q.personal) u5QuestionsHtml += `<li>${q.personal}</li>`;
+                        });
+                        u5QuestionsHtml += '</ul>';
+
+                        let u6Title = isFrench ? "Unit 6 — Perspectives futures 🔮" : (isRussian ? "Раздел 6 — Будущие перспективы 🔮" : "Unit 6 — Future Projections 🔮");
+                        let u6Desc = isFrench ? "Projetez-vous dans l'avenir : développements technologiques, conséquences inattendues et scénarios 'Et si...'." : (isRussian ? "Загляните в будущее: новые исследования, потенциальные последствия и сценарии 'Что если...'." : "Speculate on future discoveries, consequences, and discuss bold 'What if...?' scenarios.");
+                        let u6QuestionsHtml = '<ul class="round-questions">';
+                        r2Parsed.slice(4, 10).forEach(q => {
+                            u6QuestionsHtml += `<li>${q.main} ${q.personal ? `<br><span style="font-style: italic; font-size: 0.9em; opacity: 0.85;">${q.personal}</span>` : ""}</li>`;
+                        });
+                        u6QuestionsHtml += '</ul>';
+
+                        // Rebuild structure with beautiful Mini Group layout!
+                        structureContainer.innerHTML = `
+                            <h2 class="section-title">👥 ${isFrench ? "Session de Mini Groupe" : (isRussian ? "Разговорная сессия Мини Группы" : "Mini Group Speaking Session")}</h2>
+                            <div class="rounds-container">
+                                <!-- Unit 1 -->
+                                <div class="round-block warm-up open" id="m-unit1">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit1')" style="background:#FAEEE8;">
+                                        <span>${u1Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u1Desc}</p>
+                                        ${warmUpHtml}
+                                        ${vocabHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 2 -->
+                                <div class="round-block round-1 open" id="m-unit2">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit2')" style="background:#E1F5EE;">
+                                        <span>${u2Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u2Desc}</p>
+                                        ${u2QuestionsHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 3 -->
+                                <div class="round-block round-2 open" id="m-unit3">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit3')" style="background:#EEEDFE;">
+                                        <span>${u3Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u3Desc}</p>
+                                        ${u3QuestionsHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 4 -->
+                                <div class="round-block open" id="m-unit4">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit4')" style="background:#FFF9E6; border-left: 5px solid #D97706;">
+                                        <span>${u4Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u4Desc}</p>
+                                        ${u4QuestionsHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 5 -->
+                                <div class="round-block open" id="m-unit5">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit5')" style="background:#EAF3DE;">
+                                        <span>${u5Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u5Desc}</p>
+                                        ${u5QuestionsHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 6 -->
+                                <div class="round-block open" id="m-unit6">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit6')" style="background:#FEE2E2; border-left: 5px solid #DC2626;">
+                                        <span>${u6Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u6Desc}</p>
+                                        ${u6QuestionsHtml}
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                }
             }
         }
 
