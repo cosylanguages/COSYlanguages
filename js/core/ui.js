@@ -2698,11 +2698,16 @@
         }
 
         // Find best place to inject the switcher in main container
-        const targetAnchor = mainContainer.querySelector('.back-link') || mainContainer.querySelector('.cosy-breadcrumbs') || mainContainer.firstElementChild;
-        if (targetAnchor) {
-            targetAnchor.parentNode.insertBefore(switcherEl, targetAnchor.nextSibling);
+        const placeholder = mainContainer.querySelector('.cosy-session-switcher-placeholder');
+        if (placeholder) {
+            placeholder.appendChild(switcherEl);
         } else {
-            mainContainer.prepend(switcherEl);
+            const targetAnchor = mainContainer.querySelector('.back-link') || mainContainer.querySelector('.cosy-breadcrumbs') || mainContainer.firstElementChild;
+            if (targetAnchor) {
+                targetAnchor.parentNode.insertBefore(switcherEl, targetAnchor.nextSibling);
+            } else {
+                mainContainer.prepend(switcherEl);
+            }
         }
     };
 
