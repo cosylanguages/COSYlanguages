@@ -4110,6 +4110,70 @@ body.theme-wonder-watched .transcript-details summary {
   background: rgba(255, 255, 255, 0.05);
 }
 
+/* 🌌 ICHBW Three-Mode Visual Buttons & Layouts */
+.wonder-modes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 0.5rem;
+}
+.mode-btn {
+    text-align: center;
+    font-size: 0.78rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px 6px;
+    border-radius: 8px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-sm);
+    box-sizing: border-box;
+    display: inline-block;
+}
+.mode-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.mode-btn:active {
+    transform: translateY(1px);
+}
+.mode-btn.btn-big {
+    background: #e0e7ff;
+    color: #1e1b4b !important;
+    border: 1px solid #c7d2fe;
+}
+.mode-btn.btn-big:hover {
+    background: #c7d2fe;
+    border-color: #818cf8;
+}
+.mode-btn.btn-mini {
+    background: #fdf2f8;
+    color: #581c87 !important;
+    border: 1px solid #fbcfe8;
+}
+.mode-btn.btn-mini:hover {
+    background: #fbcfe8;
+    border-color: #f472b6;
+}
+.mode-btn.btn-private {
+    background: #ecfdf5;
+    color: #064e3b !important;
+    border: 1px solid #a7f3d0;
+}
+.mode-btn.btn-private:hover {
+    background: #a7f3d0;
+    border-color: #34d399;
+}
+
+/* Responsive button layout for smaller screens */
+@media (max-width: 500px) {
+    .wonder-modes-grid {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+}
+
 /* ── Karaoke Club Card Grid ─────────────────────────── */
 .karaoke-grid {
   display: grid;
