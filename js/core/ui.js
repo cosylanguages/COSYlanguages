@@ -233,6 +233,60 @@
           if (panel) panel.classList.toggle('open');
         };
 
+        window.COSY.copyStudentLink = function(btnEl) {
+          if (!btnEl) return;
+          const url = new URL(window.location.href);
+          url.searchParams.set('shared', 'true');
+          const shareUrl = url.toString();
+
+          const showSuccess = () => {
+            const originalText = btnEl.innerHTML;
+            btnEl.innerHTML = "✓ Link Copied!";
+            btnEl.classList.add("btn-success");
+            btnEl.disabled = true;
+            setTimeout(() => {
+              btnEl.innerHTML = originalText;
+              btnEl.classList.remove("btn-success");
+              btnEl.disabled = false;
+            }, 2000);
+          };
+
+          const promptFallback = () => {
+            window.prompt("Clipboard access is restricted. Please select and copy this student share link manually:", shareUrl);
+          };
+
+          const fallbackCopy = () => {
+            const textArea = document.createElement("textarea");
+            textArea.value = shareUrl;
+            textArea.style.position = "fixed";
+            textArea.style.top = "0";
+            textArea.style.left = "0";
+            textArea.style.opacity = "0";
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+              const successful = document.execCommand('copy');
+              if (successful) {
+                showSuccess();
+              } else {
+                promptFallback();
+              }
+            } catch (err) {
+              promptFallback();
+            }
+            document.body.removeChild(textArea);
+          };
+
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(shareUrl)
+              .then(showSuccess)
+              .catch(fallbackCopy);
+          } else {
+            fallbackCopy();
+          }
+        };
+
         window.COSY.checkGap = function(inputEl) {
             const typed = inputEl.value.trim();
             const ans = inputEl.getAttribute('data-answer') || '';
@@ -2738,6 +2792,7 @@
 
         if (!isWonderSession) {
             document.body.classList.remove("wonder-locked-body-blur");
+            document.body.removeAttribute("data-active-mode");
             const gate = document.getElementById("wonder-passcode-gate");
             if (gate) gate.remove();
             return;
@@ -2755,6 +2810,8 @@
                 }
             }
         }
+
+        document.body.setAttribute('data-active-mode', mode);
 
         window.COSY_WONDER_ROUTER = window.COSY_WONDER_ROUTER || {
             initModeRouting() {
