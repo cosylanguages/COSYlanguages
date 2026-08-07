@@ -4063,6 +4063,101 @@ body[class*="theme-science"]::after {
   z-index: -1;
 }
 
+/* ─── KEEPING UP WITH SCIENCE (PHASE 3) REDESIGN ─── */
+.science-session-info-box {
+  background: var(--cream, #FAF7F2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md, 14px);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+  box-sizing: border-box;
+}
+.science-session-info-box .info-box-header {
+  background: linear-gradient(135deg, #0F6E56, #073b2d);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  font-family: 'DM Sans', sans-serif;
+}
+.science-session-info-box .info-box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  padding: 1.5rem;
+}
+.science-session-info-box .info-field h5 {
+  margin: 0 0 0.35rem 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.science-session-info-box .info-field p {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.4;
+}
+
+.science-source-card {
+  background: #fbfbfc;
+  border: 1px solid var(--border);
+  border-left: 5px solid #0F6E56;
+  border-radius: var(--r-sm, 8px);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+.science-source-card .source-card-header {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #0F6E56;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.science-source-card .source-links-wrapper a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: #0F6E56;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: all 0.2s;
+}
+.science-source-card .source-links-wrapper a:hover {
+  background: #0F6E56;
+  color: white !important;
+  border-color: #0F6E56;
+  transform: translateY(-1px);
+}
+
+.science-digest-summary {
+  background: rgba(15, 110, 86, 0.02);
+  border: 1px dashed rgba(15, 110, 86, 0.2);
+  border-radius: var(--r-md, 14px);
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.science-digest-summary .digest-header {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
 /* ──────────────────────────────────────────────────────────────
    🌌 PRIVATE LESSONS & TEACHER SUPPORT STYLING
    ────────────────────────────────────────────────────────────── */

@@ -318,9 +318,13 @@ def generate_html_en():
   <div class="science-card-body">
     <h4 class="science-card-title">{s["title"]}</h4>
     <p class="science-card-desc">{s["desc"]}</p>
-    <div class="science-card-footer">
+    <div class="wonder-modes-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 1rem;">
+      <a class="mode-btn btn-big" href="sessions/keeping-up-with-science/{s["file"]}">🗣️ BIG GROUP</a>
+      <a class="mode-btn btn-mini" href="sessions/keeping-up-with-science/{s["file"]}?mode=mini">👥 MINI GROUP</a>
+      <a class="mode-btn btn-private" href="sessions/keeping-up-with-science/{s["file"]}?mode=private">🎓 PRIVATE</a>
+    </div>
+    <div class="science-card-footer" style="margin-top: 1rem;">
       <span class="science-date">{s["date"]}</span>
-      <a class="science-view-btn" href="sessions/keeping-up-with-science/{s["file"]}">Analyze Specimen →</a>
     </div>
   </div>
 </div>"""
@@ -337,16 +341,7 @@ def update_parent_files():
         # Find <div class="history-body" ...> ... </div>
         # replace inner contents with our new grid
         en_cards = generate_html_en()
-        new_history_body = f"""<div class="history-body" style="display: block; padding: 0; border: none;">
-<div class="science-history-grid" id="science-history-grid">
-{en_cards}
-</div>
-</div>"""
 
-        pattern = re.compile(r'<div class="history-body".*?</div>\s*</div>\s*</div>\s*</div>\s*</div>', re.DOTALL)
-        # To be safe, let's find matching starting from history-body to the end of the history block
-        # Or better: search for history-body and find the matching closing div
-        # Let's use BeautifulSoup to parse and replace the history-body inner content!
         soup = BeautifulSoup(content, "html.parser")
         hist_body = soup.find(class_="history-body")
         if hist_body:
@@ -383,9 +378,13 @@ def update_parent_files():
   <div class="science-card-body">
     <h4 class="science-card-title">Comptes d'usurpation d'identité</h4>
     <p class="science-card-desc">Explorez les mécanismes de l'usurpation d'identité en ligne, de la fraude d'identité et de la cybersécurité moderne.</p>
-    <div class="science-card-footer">
+    <div class="wonder-modes-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 1rem;">
+      <a class="mode-btn btn-big" href="sessions/keeping-up-with-science/impersonation-accounts.html">🗣️ GRAND GROUPE</a>
+      <a class="mode-btn btn-mini" href="sessions/keeping-up-with-science/impersonation-accounts.html?mode=mini">👥 MINI GROUPE</a>
+      <a class="mode-btn btn-private" href="sessions/keeping-up-with-science/impersonation-accounts.html?mode=private">🎓 INDIVIDUEL</a>
+    </div>
+    <div class="science-card-footer" style="margin-top: 1rem;">
       <span class="science-date">01 January 2025</span>
-      <a class="science-view-btn" href="sessions/keeping-up-with-science/impersonation-accounts.html">Analyser →</a>
     </div>
   </div>
 </div>"""
@@ -421,9 +420,13 @@ def update_parent_files():
   <div class="science-card-body">
     <h4 class="science-card-title">Влияние пропаганды на детей и подростков</h4>
     <p class="science-card-desc">Анализ психологического влияния пропаганды, медиа-воздействия и методов манипуляции сознанием.</p>
-    <div class="science-card-footer">
+    <div class="wonder-modes-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 1rem;">
+      <a class="mode-btn btn-big" href="sessions/keeping-up-with-science/vliyanie-propagandy-deti.html">🗣️ БОЛЬШАЯ ГРУППА</a>
+      <a class="mode-btn btn-mini" href="sessions/keeping-up-with-science/vliyanie-propagandy-deti.html?mode=mini">👥 МИНИ ГРУППА</a>
+      <a class="mode-btn btn-private" href="sessions/keeping-up-with-science/vliyanie-propagandy-deti.html?mode=private">🎓 ЧАСТНЫЙ</a>
+    </div>
+    <div class="science-card-footer" style="margin-top: 1rem;">
       <span class="science-date">12 августа 2026</span>
-      <a class="science-view-btn" href="sessions/keeping-up-with-science/vliyanie-propagandy-deti.html">Исследовать →</a>
     </div>
   </div>
 </div>"""
