@@ -62,6 +62,13 @@
         isAuthorized(mode) {
             const draftKey = this.getCurrentDraftKey();
             if (!draftKey) return true; // Fail safe if not an ICHBW session
+
+            // If shared URL parameter is present, bypass passcode lock for students
+            const params = new URLSearchParams(window.location.search);
+            if (params.get('shared') === 'true') {
+                return true;
+            }
+
             const authKey = `cosy_wonder_auth_draft_${draftKey}_${mode}`;
             return sessionStorage.getItem(authKey) === "true";
         },

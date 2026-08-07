@@ -5,14 +5,15 @@ test.describe('Wonder Private Lesson (1-to-1) Mode Verification', () => {
     // Navigate with mode=private query
     await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=private');
 
-    // Unlocking of gate (Passcode Matcher handles auth state, here we bypass with simulated auth or direct access check)
-    // Direct check of [data-session-mode="private"] hidden container
-    const privateContainer = page.locator('[data-session-mode="private"]');
-    await expect(privateContainer).toBeHidden; // Should be display none by default unless authenticated
+    // Ensure the passcode gate is shown initially
+    await expect(page.locator('#gate-passcode-input')).toBeVisible();
 
-    // Since we bypass the lock overlay in standard test configuration or have standard layout, let's verify DOM structure:
-    const stepsCount = await page.locator('[data-session-mode="private"] .private-step').count();
-    expect(stepsCount).toBe(8);
+    // Type the passcode ICHBWPL18 to unlock
+    await page.fill("#gate-passcode-input", "ICHBWPL18");
+    await page.click("#gate-passcode-submit");
+
+    // Wait for the locked screen to clear
+    await page.waitForSelector('#p-step1');
 
     // Verify presence of step headers
     await expect(page.locator('#p-step1 .private-step-header')).toContainText('Step 1: Lead-In / Warm-Up');
@@ -36,5 +37,22 @@ test.describe('Wonder Private Lesson (1-to-1) Mode Verification', () => {
     await expect(page.locator('#p-step2 .vocab-word').first()).toContainText('Gender-neutral');
     await expect(page.locator('#p-step5 h4')).toContainText('⚡ Grammatical Precision: Focus Adverbs');
     await expect(page.locator('#p-step8 h4')).toContainText('🎯 90-Second Speech Run: The Language Policy Pitch');
+
+    // Verify Host Utility bar controls
+    await expect(page.locator('[data-session-mode="private"] .host-utility-bar')).toBeVisible();
+    await expect(page.locator('[data-session-mode="private"] .host-utility-bar .hub-tag')).toContainText('Teacher Utility');
+    await expect(page.locator('[data-session-mode="private"] .host-utility-bar .btn-copy-link')).toBeVisible();
+    await expect(page.locator('[data-session-mode="private"] .host-utility-bar .unobtrusive-back-link')).toBeVisible();
+  });
+
+  test('Shared student link should bypass passcode gate successfully', async ({ page }) => {
+    // Navigate with shared=true parameter
+    await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=private&shared=true');
+
+    // Passcode gate overlay should NOT be visible
+    await expect(page.locator('#gate-passcode-input')).toBeHidden();
+
+    // Content should be fully unlocked and visible instantly for the student
+    await expect(page.locator('#p-step1')).toBeVisible();
   });
 });

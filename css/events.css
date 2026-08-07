@@ -4129,6 +4129,132 @@ body.theme-wonder-watched .teacher-note-panel {
   color: #f1f0f3;
 }
 
+/* Host/Teacher Utility Control Bar */
+.host-utility-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(63, 43, 150, 0.08), rgba(31, 16, 77, 0.08));
+  border: 2px dashed #3F2B96;
+  border-radius: 16px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2.5rem;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.host-utility-bar .hub-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.host-utility-bar .hub-tag {
+  background: #3F2B96;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.host-utility-bar .hub-info {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.host-utility-bar .hub-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.host-utility-bar .btn-copy-link {
+  background: #3F2B96;
+  color: white;
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 0.88rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.host-utility-bar .btn-copy-link:hover {
+  background: #8b5cf6;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.host-utility-bar .btn-copy-link:active {
+  transform: translateY(1px);
+}
+
+.host-utility-bar .btn-copy-link.btn-success {
+  background: #10b981 !important;
+  color: white !important;
+  border-color: #10b981 !important;
+}
+
+.host-utility-bar .unobtrusive-back-link {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.host-utility-bar .unobtrusive-back-link:hover {
+  color: #3F2B96;
+  text-decoration: underline;
+}
+
+/* Dark Mode Overrides for Host Utility Bar */
+body.theme-wonder-amy .host-utility-bar,
+body.theme-wonder-album .host-utility-bar,
+body.theme-wonder-watched .host-utility-bar {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(63, 43, 150, 0.1));
+  border-color: #8b5cf6;
+}
+
+body.theme-wonder-amy .host-utility-bar .hub-info,
+body.theme-wonder-album .host-utility-bar .hub-info,
+body.theme-wonder-watched .host-utility-bar .hub-info {
+  color: #f1f0f3;
+}
+
+body.theme-wonder-amy .host-utility-bar .btn-copy-link,
+body.theme-wonder-album .host-utility-bar .btn-copy-link,
+body.theme-wonder-watched .host-utility-bar .btn-copy-link {
+  background: #8b5cf6;
+}
+
+body.theme-wonder-amy .host-utility-bar .btn-copy-link:hover,
+body.theme-wonder-album .host-utility-bar .btn-copy-link:hover,
+body.theme-wonder-watched .host-utility-bar .btn-copy-link:hover {
+  background: #a78bfa;
+}
+
+body.theme-wonder-amy .host-utility-bar .unobtrusive-back-link:hover,
+body.theme-wonder-album .host-utility-bar .unobtrusive-back-link:hover,
+body.theme-wonder-watched .host-utility-bar .unobtrusive-back-link:hover {
+  color: #8b5cf6;
+}
+
 /* Multi-mode session rendering controls */
 body:not([data-active-mode="mini"]) [data-session-mode="mini"],
 body:not([data-active-mode="private"]) [data-session-mode="private"],
