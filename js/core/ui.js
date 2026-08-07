@@ -2731,6 +2731,39 @@
         'i-have-no-time-for-it.html': 16
     };
 
+    /* ─── WONDER CLUB MODE ROUTER ───────────────────────────────── */
+    const setupWonderModeRouter = () => {
+        const currentPathname = window.location.pathname;
+        const isWonderSession = currentPathname.includes('sessions/i-couldnt-help-but-wonder/');
+
+        if (!isWonderSession) {
+            document.body.classList.remove("wonder-locked-body-blur");
+            const gate = document.getElementById("wonder-passcode-gate");
+            if (gate) gate.remove();
+            return;
+        }
+
+        const params = new URLSearchParams(window.location.search);
+        const mode = params.get('mode') || 'big';
+
+        if (mode === 'mini' || mode === 'private') {
+            if (window.COSY_PASSCODES) {
+                const isAuthorized = window.COSY_PASSCODES.isAuthorized(mode);
+                if (!isAuthorized) {
+                    window.COSY_PASSCODES.showLockOverlay(mode);
+                    return;
+                }
+            }
+        }
+
+        window.COSY_WONDER_ROUTER = window.COSY_WONDER_ROUTER || {
+            initModeRouting() {
+                console.log(`[COSY Router] Active session mode initialized: ${mode}`);
+            }
+        };
+        window.COSY_WONDER_ROUTER.initModeRouting();
+    };
+
     /* ─── WONDER CLUB BACKGROUND MUSIC ──────────────────────────── */
     const setupWonderMusic = () => {
         const currentPathname = window.location.pathname;
@@ -2992,19 +3025,26 @@
                         const targetFilename = targetPath.split('/').pop().split('#')[0].split('?')[0];
                         const draftNum = WONDER_DRAFT_MAPPING[targetFilename];
                         if (draftNum) {
-                            // Lower background ambient music volume immediately
-                            if (window.cosyWonderAudio) {
-                                window.cosyWonderAudio.volume = 0.03;
+                            const targetParams = new URLSearchParams(absoluteUrl.search);
+                            const targetMode = targetParams.get('mode') || 'big';
+                            const targetDraftStr = String(draftNum).padStart(2, '0');
+                            const targetAuthorized = (targetMode === 'big') || (sessionStorage.getItem('cosy_wonder_auth_draft_' + targetDraftStr + '_' + targetMode) === 'true');
+
+                            if (targetAuthorized) {
+                                // Lower background ambient music volume immediately
+                                if (window.cosyWonderAudio) {
+                                    window.cosyWonderAudio.volume = 0.03;
+                                }
+                                // Clean up any old draft audio
+                                if (window.cosyWonderSessionAudio) {
+                                    window.cosyWonderSessionAudio.pause();
+                                }
+                                const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
+                                const audioUrl = prefix + "sounds/draft" + draftNum + ".mp3";
+                                const audio = new Audio(audioUrl);
+                                window.cosyWonderSessionAudio = audio;
+                                audio.play().catch(err => console.log("Direct synchronous pre-play failed:", err));
                             }
-                            // Clean up any old draft audio
-                            if (window.cosyWonderSessionAudio) {
-                                window.cosyWonderSessionAudio.pause();
-                            }
-                            const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
-                            const audioUrl = prefix + "sounds/draft" + draftNum + ".mp3";
-                            const audio = new Audio(audioUrl);
-                            window.cosyWonderSessionAudio = audio;
-                            audio.play().catch(err => console.log("Direct synchronous pre-play failed:", err));
                         }
                     }
 
@@ -3041,6 +3081,14 @@
         const filename = currentPathname.split('/').pop().split('#')[0].split('?')[0];
         const draftNum = WONDER_DRAFT_MAPPING[filename];
         if (!draftNum) return;
+
+        // Bypass session audio autoplay if page is locked by passcode gate
+        const params = new URLSearchParams(window.location.search);
+        const mode = params.get('mode') || 'big';
+        const isLobbyAuthorized = (mode === 'big') || (window.COSY_PASSCODES && window.COSY_PASSCODES.isAuthorized(mode));
+        if (!isLobbyAuthorized) {
+            return;
+        }
 
         const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
         const audioUrl = prefix + "sounds/draft" + draftNum + ".mp3";
@@ -3406,6 +3454,7 @@
         autoCollapseFoldableSections();
         setupWonderMusic();
         setupWonderSessionAudio();
+        setupWonderModeRouter();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
 
         // FAQ Toggle
