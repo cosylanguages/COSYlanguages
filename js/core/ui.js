@@ -3030,6 +3030,23 @@
                         }
                     }
 
+                    // Specific direct cross-references (Phase 8)
+                    if (dbKey.includes('impersonation')) {
+                        recs.push({
+                            title: "Always Watched in a Crowd",
+                            theme: "Explore privacy, social monitoring, and digital identity theft from Carrie Bradshaw's introspective standpoint.",
+                            url: "../i-couldnt-help-but-wonder/always-watched-in-a-crowd.html",
+                            type: isFrench ? "🌌 MANUSCRIT DÉVOILÉ" : (isRussian ? "🌌 ГОВОРЯЩИЙ КЛУБ" : "🌌 SPEAKING CLUB SESSION")
+                        });
+                    } else if (dbKey.includes('words')) {
+                        recs.push({
+                            title: "Why Do We Try to Relate to ADHD?",
+                            theme: "Discuss the impact of technology, screen saturation, and social media on modern attention spans, vocabulary variety, and identity.",
+                            url: "../i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html",
+                            type: isFrench ? "🌌 MANUSCRIT DÉVOILÉ" : (isRussian ? "🌌 ГОВОРЯЩИЙ КЛУБ" : "🌌 SPEAKING CLUB SESSION")
+                        });
+                    }
+
                     // Fallbacks or cross-club curations
                     if (recs.length < 3) {
                         const batchName = (specimenData && specimenData.batches && specimenData.batches[0]) || "";
