@@ -2738,6 +2738,7 @@
 
         if (!isWonderSession) {
             document.body.classList.remove("wonder-locked-body-blur");
+            document.body.removeAttribute("data-active-mode");
             const gate = document.getElementById("wonder-passcode-gate");
             if (gate) gate.remove();
             return;
@@ -2755,6 +2756,8 @@
                 }
             }
         }
+
+        document.body.setAttribute('data-active-mode', mode);
 
         window.COSY_WONDER_ROUTER = window.COSY_WONDER_ROUTER || {
             initModeRouting() {
