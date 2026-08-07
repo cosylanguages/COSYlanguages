@@ -324,7 +324,7 @@
                 document.body.classList.remove("wonder-locked-body-blur");
 
                 // Route user back to speaking club hub overview
-                const prefix = isFrench ? "../../" : "../../../";
+                const prefix = "../../../";
                 window.location.href = prefix + "i-couldnt-help-but-wonder.html";
             };
 

@@ -332,136 +332,243 @@ Discuss whether you feel inclusive language is a real agent of change. Use focus
 </div>
 
 <div data-session-mode="mini">
-  <!-- UNIT 1: UNDERSTAND (Core Concepts & Target Vocabulary) -->
-  <section id="mini-understand" style="margin-top: 2.5rem;">
-    <h2 class="section-title">👥 Unit 1: UNDERSTAND — Vocabulary Catalyst</h2>
-    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1.5rem;">
-      Let's anchor our discussion. Before we debate, review these 4 key conceptual terms. Double-click any unfamiliar word on the page to save it to your personal dictionary!
-    </p>
-    <div class="vocab-grid-10" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem;">
-      <div class="vocab-card">
-        <div class="vocab-word">Linguistic reform</div>
-        <div class="vocab-def">Deliberate change to the grammar, spelling, or usage of a language, often for social or political equality.</div>
-        <div class="vocab-example">Linguistic reform can trigger fierce debates among grammarians and the public alike.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Linguistic reform', definition:'Deliberate change to the grammar, spelling, or usage of a language, often for social or political equality.', example:'Linguistic reform can trigger fierce debates among grammarians and the public alike.'}, this)">Add to Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Inclusivity</div>
-        <div class="vocab-def">The practice or policy of providing equal access, representation, and opportunities to all individuals.</div>
-        <div class="vocab-example">Many argue that changing pronouns is a simple but vital step toward real-world inclusivity.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Inclusivity', definition:'The practice or policy of providing equal access, representation, and opportunities to all individuals.', example:'Many argue that changing pronouns is a simple but vital step toward real-world inclusivity.'}, this)">Add to Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Tokenism</div>
-        <div class="vocab-def">Making only a symbolic or superficial gesture to appear inclusive, without making genuine structural changes.</div>
-        <div class="vocab-example">Critics claim that companies using gender-neutral words without promoting women is mere tokenism.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Tokenism', definition:'Making only a symbolic or superficial gesture to appear inclusive, without making genuine structural changes.', example:'Critics claim that companies using gender-neutral words without promoting women is mere tokenism.'}, this)">Add to Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Disparity</div>
-        <div class="vocab-def">A great difference, especially one of unfair or unequal treatment in society or economics.</div>
-        <div class="vocab-example">Despite inclusive greetings, the gender wage disparity in executive positions remains high.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Disparity', definition:'A great difference, especially one of unfair or unequal treatment in society or economics.', example:'Despite inclusive greetings, the gender wage disparity in executive positions remains high.'}, this)">Add to Dictionary</button>
-      </div>
-    </div>
-  </section>
+  <div class="rounds-container">
 
-  <!-- UNIT 2: POSITION (General Conversation Prompts) -->
-  <section id="mini-position" style="margin-top: 3.5rem;">
-    <h2 class="section-title">👥 Unit 2: POSITION — Language & Mind</h2>
-    <div class="round-block warm-up open">
-      <div class="round-header" style="background:#FAEEE8;">
-        <span>🟠 Position Catalyst — Personal Stance</span>
-      </div>
-      <div class="round-body" style="display:block; padding: 1.5rem;">
-        <p style="font-size: 0.95rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1.5rem;">
-          In small groups, take a quick personal stance on these questions. Focus on speaking spontaneously and using our focus adverbs from the grammar focus!
-        </p>
-        <ul class="round-questions" style="line-height: 1.8; color: var(--ink);">
-          <li style="margin-bottom: 1rem;">Do you feel that the way your native language is structured influences how you view gender roles in everyday life?</li>
-          <li style="margin-bottom: 1rem;">If you are addressed by an outdated or incorrect honorific in an email, do you find it <strong>merely</strong> a minor annoyance, or does it represent a deeper social <strong>disparity</strong>?</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- UNIT 3: EXPLORE (Topic-Specific Deep Dive) -->
-  <section id="mini-explore" style="margin-top: 3.5rem;">
-    <h2 class="section-title">👥 Unit 3: EXPLORE — The French vs. English Debate</h2>
-    <div class="cosy-perspective-panel" style="background: #FFFDF9; border: 2px solid var(--border, #E2D9C8); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm);">
-      <h4 style="font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-top: 0; margin-bottom: 1rem; color: #3F2B96;">🔎 Linguistic Contrast</h4>
-      <p style="font-size: 0.95rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1.5rem;">
-        While English easily adopted the singular <em>"they"</em>, French has faced intense resistance over gender-inclusive punctuation (like <em>"tous·te·s"</em>) from the French Academy. Why is grammatical change so threatening to some cultures, yet natural to others?
-      </p>
-      <div class="wonder-column-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.25rem;">
-        <div class="wonder-column-item" style="background: var(--cream, #FAF7F2); padding: 1rem; border-radius: 8px;">
-          <h5 style="font-family: 'Playfair Display', serif; font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem; color: #3F2B96;">The Academic Gatekeepers</h5>
-          <p style="font-size: 0.85rem; line-height: 1.5; color: var(--ink-soft);">Some believe strict preservation of grammar is vital to preserve cultural heritage and literature.</p>
+    <!-- ================= UNIT 1 ================= -->
+    <div class="round-block warm-up open" id="m-unit1">
+        <div class="round-header" onclick="COSY.toggleRound('m-unit1')" style="background:#FAEEE8;">
+            <span>🟠 UNIT 1: Frame the Dialogue (Introduction &amp; Vocabulary)</span><span class="round-toggle">▲</span>
         </div>
-        <div class="wonder-column-item" style="background: var(--cream, #FAF7F2); padding: 1rem; border-radius: 8px;">
-          <h5 style="font-family: 'Playfair Display', serif; font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem; color: #3F2B96;">The Fluid Evolution</h5>
-          <p style="font-size: 0.85rem; line-height: 1.5; color: var(--ink-soft);">Others argue language is a living tool that must adapt to represent the changing identities of its speakers.</p>
+        <div class="round-body" style="display:block;">
+            <div style="background: rgba(230, 126, 34, 0.04); border-left: 4px solid #E67E22; padding: 1rem; border-radius: 0 8px 8px 0; margin-bottom: 1.5rem; font-size: 0.92rem; line-height: 1.5; color: var(--ink-soft);">
+                <strong>Topic Frame:</strong> As I listened to a grand debate about inclusive grammar over a glass of dry red wine, I couldn't help but wonder... We spend so much energy polishing our suffixes, hoping to cure centuries of disparity. But does rearranging our vowels genuinely foster equality, or is it merely an elegant distraction?
+            </div>
+
+            <h4 style="margin: 0 0 0.5rem; font-size: 1rem; color: var(--ink);">🌱 Warm-Up Prompts</h4>
+            <ul class="round-questions" style="margin-bottom: 2rem;">
+                <li>Do you think the way we speak changes the way we think about other people?</li>
+                <li>Does your native language use gender-based nouns and endings?</li>
+            </ul>
+
+            <h4 style="margin: 0 0 1rem; font-size: 1rem; color: var(--ink); border-bottom: 1px dashed var(--border); padding-bottom: 0.5rem;">📖 Active Vocabulary Check (10 Units)</h4>
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 1.25rem 0;">Work together as a small group to review these 10 core words. Pronounce them aloud and construct a quick personal sentence with each.</p>
+
+            <div class="vocab-grid-10">
+                <div class="vocab-card">
+                    <div class="vocab-word">Gender-neutral</div>
+                    <div class="vocab-def">suitable for, applicable to, or common to both male and female sexes.</div>
+                    <div class="vocab-example">Using gender-neutral pronouns like 'they' has become standard in modern business writing.</div>
+                </div>
+                <div class="vocab-card">
+                    <div class="vocab-word">Inclusivity ≠ exclusion</div>
+                    <div class="vocab-def">the practice of providing equal access and opportunities to everyone ≠ shutting someone out.</div>
+                    <div class="vocab-example">The company's focus on inclusivity successfully eliminated the long-standing culture of exclusion.</div>
+                </div>
+                <div class="vocab-card">
+                    <div class="vocab-word">Linguistic</div>
+                    <div class="vocab-def">relating to language or linguistics.</div>
+                    <div class="vocab-example">The French Academy is famous for its strict resistance to rapid linguistic changes.</div>
+                </div>
+                <div class="vocab-card">
+                    <div class="vocab-word">Addressing</div>
+                    <div class="vocab-def">the act of speaking or writing to a person or group.</div>
+                    <div class="vocab-example">Addressing a crowd with 'tous et toutes' requires a conscious mental adjustment.</div>
+                </div>
+                <div class="vocab-card">
+                    <div class="vocab-word">Equality</div>
+                    <div class="vocab-def">the state of being equal, especially in status, rights, and opportunities.</div>
+                    <div class="vocab-example">Linguistic reform is often seen as a minor step on the long road to true social equality.</div>
+                </div>
+                <div class="vocab-card">
+                    <div class="vocab-word">Honorific</div>
+                    <div class="vocab-def">a title or word implying or expressing respect.</div>
+                    <div class="vocab-example">The teacher explained that choosing the correct honorific is essential in formal diplomacy.</div>
+                </div>
+                <div class="vocab-card">
+                    <div class="vocab-word">Reform</div>
+                    <div class="vocab-def">make changes in something, typically a social, political, or economic institution.</div>
+                    <div class="vocab-example">Linguistic reform can trigger fierce debates among conservative grammarians.</div>
+                </div>
+                <div class="vocab-card">
+                    <div class="vocab-word">Tokenism</div>
+                    <div class="vocab-def">the practice of making only a perfunctory or symbolic effort to do something.</div>
+                    <div class="vocab-example">Many critics argue that using inclusive greetings without policy changes is mere tokenism.</div>
+                </div>
+                <div class="vocab-card">
+                    <div class="vocab-word">Disparity</div>
+                    <div class="vocab-def">a great difference, especially one of unfair or unequal treatment.</div>
+                    <div class="vocab-example">Despite inclusive language, the gender wage disparity in executive roles remains high.</div>
+                </div>
+                <div class="vocab-card">
+                    <div class="vocab-word">Syllable</div>
+                    <div class="vocab-def">a unit of pronunciation having one vowel sound, with or without surrounding consonants.</div>
+                    <div class="vocab-example">Sometimes a single syllable in a pronoun can completely alter the vibe of a sentence.</div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px dashed var(--border);">
-        <strong style="color: #3F2B96; display: block; margin-bottom: 0.5rem;">🗣️ Interactive Discussion Point:</strong>
-        <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink); margin: 0;">
-          Is language a reflection of society, or is it a tool that actively shapes society? If we change the words, do the hearts and minds follow, or are we <strong>simply</strong> rewriting the script of an old play?
-        </p>
-      </div>
     </div>
-  </section>
 
-  <!-- UNIT 4: CHALLENGE (Contrast & Confront) -->
-  <section id="mini-challenge" style="margin-top: 3.5rem;">
-    <h2 class="section-title">👥 Unit 4: CHALLENGE — Carrie's Introspective Dilemma</h2>
-    <div class="carrie-diary" style="background: #FAF7F2; border-left: 4px solid #3F2B96; padding: 1.5rem; border-radius: 0 12px 12px 0; margin-bottom: 2rem; box-shadow: var(--shadow-sm);">
-      <h5 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; font-style: italic; margin-top: 0; margin-bottom: 0.75rem; color: #3F2B96;">"I couldn't help but wonder..."</h5>
-      <p style="font-size: 0.95rem; line-height: 1.6; font-style: italic; color: var(--ink-soft); margin-bottom: 1rem;">
-        "Do we spend so much energy polishing our suffixes and adding median periods because it's easier than addressing the cold, hard economic disparities of our world? Is writing 'Bonjour à tous et toutes' on an office email <strong>precisely</strong> the kind of cheap <strong>tokenism</strong> that makes us feel virtuous while changing absolutely nothing?"
-      </p>
-      <div style="background: white; border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin-top: 1rem;">
-        <strong style="display: block; margin-bottom: 0.5rem; color: #3F2B96; font-size: 0.9rem;">⚖️ Contrast Prompt:</strong>
-        <p style="font-size: 0.88rem; line-height: 1.5; color: var(--ink); margin: 0;">
-          Debate both sides: Does using inclusive greetings help pave the way for true equality, or does it <strong>merely</strong> serve as an elegant cosmetic distraction?
-        </p>
-      </div>
-    </div>
-  </section>
 
-  <!-- UNIT 5: RESPOND (Consequences & Action) -->
-  <section id="mini-respond" style="margin-top: 3.5rem;">
-    <h2 class="section-title">👥 Unit 5: RESPOND — Active Communication</h2>
-    <div class="round-block open">
-      <div class="round-header" style="background:#E1F5EE; border-left: 5px solid #10b981;">
-        <span>🟢 Group Challenge — Scenario Action</span>
-      </div>
-      <div class="round-body" style="display:block; padding: 1.5rem;">
-        <p style="font-size: 0.95rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">
-          <strong>Scenario:</strong> You are the HR board of a major multinational company with employees in Paris, London, and Tokyo. The CEO wants to enforce strict gender-neutral communication guidelines across all offices, but some teams complain it violates grammar or feels unnatural in their native tongue.
-        </p>
-        <p style="font-size: 0.95rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1.5rem;">
-          Formulate a practical team policy. Will you mandate inclusive terms, make them optional, or let each language find its own balance naturally? Explain your reasoning using conditional structures!
-        </p>
-      </div>
-    </div>
-  </section>
+    <!-- ================= UNIT 2 ================= -->
+    <div class="round-block round-1 open" id="m-unit2">
+        <div class="round-header" onclick="COSY.toggleRound('m-unit2')" style="background:#E1F5EE;">
+            <span>🔵 UNIT 2: The Core Premise (General Discussion)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 1.5rem 0;">Position your thoughts. Answer each main question, then use the matched personalized star prompt to reflect on your own behaviors.</p>
 
-  <!-- UNIT 6: SPECULATE (Future & Abstract) -->
-  <section id="mini-speculate" style="margin-top: 3.5rem; margin-bottom: 3.5rem;">
-    <h2 class="section-title">👥 Unit 6: SPECULATE — The Linguistic Horizon</h2>
-    <div class="round-block open">
-      <div class="round-header" style="background:#EEEDFE;">
-        <span>🟣 Abstract Projections — Future Language</span>
-      </div>
-      <div class="round-body" style="display:block; padding: 1.5rem;">
-        <ul class="round-questions" style="line-height: 1.8; color: var(--ink);">
-          <li style="margin-bottom: 1.25rem;">In 50 years, do you think AI real-time translation tools will automatically filter out all gender bias in speech, or will they <strong>simply</strong> perpetuate existing societal stereotypes?</li>
-          <li style="margin-bottom: 1.25rem;">If future generations completely abandon gendered grammar, do you think traditional romance literature will become <strong>particularly</strong> difficult to appreciate, or will it remain <strong>precisely</strong> as emotional?</li>
-        </ul>
-      </div>
+            <div class="round-item">
+                <div class="round-item-main">Does using <strong>gender-neutral</strong> terms in professional communications genuinely foster <strong>inclusivity</strong>?</div>
+                <div class="round-item-personal">★ Have you ever felt excluded or uncomfortable by the way someone formally addressed you?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Is <strong>linguistic</strong> behavior a direct reflection of social values, or is it <strong>merely</strong> a superficial mask?</div>
+                <div class="round-item-personal">★ How do you adapt your language style when <strong>addressing</strong> people from highly diverse backgrounds?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Can true social <strong>equality</strong> ever be achieved without radical <strong>linguistic</strong> reform first?</div>
+                <div class="round-item-personal">★ Have you ever experienced or witnessed a situation where a simple word choice created massive disparity?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Why are traditional <strong>honorifics</strong> still so fiercely defended by older generations in formal environments?</div>
+                <div class="round-item-personal">★ Do you prefer being addressed by formal titles or do you <strong>simply</strong> find them outdated?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">When does a well-meaning policy of inclusive language cross the line into mere <strong>tokenism</strong>?</div>
+                <div class="round-item-personal">★ Have you ever felt that a company's inclusive greeting was <strong>solely</strong> a public relations stunt?</div>
+            </div>
+        </div>
     </div>
-  </section>
+
+
+    <!-- ================= UNIT 3 ================= -->
+    <div class="round-block round-1 open" id="m-unit3">
+        <div class="round-header" onclick="COSY.toggleRound('m-unit3')" style="background:#E1F5EE; border-left: 5px solid #1A7A4A;">
+            <span>🔵 UNIT 3: Linguistic Evolution (Topic-Specific Exploration)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 1.5rem 0;">Explore the concepts. Discuss these topic-focused angles in-depth and share your personal anecdotes.</p>
+
+            <div class="round-item">
+                <div class="round-item-main">Why do Romance languages face significantly more conservative resistance to gender-neutral agreements than English?</div>
+                <div class="round-item-personal">★ Do you think English is naturally more flexible and easier to update than other languages?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Should dictionary compilers act as strict gatekeepers of grammar, or simply document popular speech?</div>
+                <div class="round-item-personal">★ How do you react when younger generations invent or modify words in your language?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">If a language forces speakers to specify gender in every sentence, does it inherently reinforce binary stereotypes?</div>
+                <div class="round-item-personal">★ Can you think of any grammatical structures in your native tongue that feel restrictive to you?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Does adopting median periods (e.g., in French) make written communication more inclusive or just unreadable?</div>
+                <div class="round-item-personal">★ Have you ever struggled to read or pronounce a newly introduced gender-inclusive form?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Is language a reflection of society, or is it a tool that actively shapes society?</div>
+                <div class="round-item-personal">★ Do you believe changing vocabulary can eventually reprogram our subconscious cultural biases?</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================= UNIT 4 ================= -->
+    <div class="round-block round-1 open" id="m-unit4">
+        <div class="round-header" onclick="COSY.toggleRound('m-unit4')" style="background:#E1F5EE; border-left: 5px solid #2B6CB0;">
+            <span>🔵 UNIT 4: The Suffix vs. The Salary (Contrast / Challenge)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 1.5rem 0;">Challenge standard opinions. Contrast opposing viewpoints and share which side you naturally lean towards.</p>
+
+            <div class="round-item">
+                <div class="round-item-main">Is writing "Bonjour à tous et toutes" on an office email precisely a distraction from the gender wage gap?</div>
+                <div class="round-item-personal">★ Do you think companies use inclusive language to avoid making expensive structural changes?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Traditional ways of addressing crowds (like 'Ladies and Gentlemen') are beautiful rituals rather than harmful speech.</div>
+                <div class="round-item-personal">★ Do you find classical formal greetings charming, or do you particularly find them exclusionary?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Does gender-neutral education in schools protect children from bias, or does it confuse their natural development?</div>
+                <div class="round-item-personal">★ Do you wish your own school teachers had been more careful with their linguistic choices when you were young?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Critics claim inclusive language is too complicated for daily speech.</div>
+                <div class="round-item-personal">★ Have you ever felt anxious about using the wrong pronoun or honorific in professional settings?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Empathy and respect are precisely about how we treat people, not how we spell their titles.</div>
+                <div class="round-item-personal">★ Have you ever met someone who used perfect inclusive language but behaved in a deeply disrespectful manner?</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================= UNIT 5 ================= -->
+    <div class="round-block round-1 open" id="m-unit5">
+        <div class="round-header" onclick="COSY.toggleRound('m-unit5')" style="background:#E1F5EE; border-left: 5px solid #8B5CF6;">
+            <span>🔵 UNIT 5: Corporate Policies (Consequences / Solutions / Responsibility)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 1.5rem 0;">Respond with action. Reflect on the practical consequences, social responsibilities, and solutions available.</p>
+
+            <div class="round-item">
+                <div class="round-item-main">Should state institutions enforce gender-neutral guidelines, or does that violate free speech?</div>
+                <div class="round-item-personal">★ Do you think your workplace should have strict guidelines for inclusive addressing?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">How can international companies build a single language policy across highly diverse language cultures?</div>
+                <div class="round-item-personal">★ Have you ever worked with colleagues whose linguistic customs clashed with your team values?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Who should carry the ultimate responsibility for driving linguistic reform: the state, corporations, or the youth?</div>
+                <div class="round-item-personal">★ How much influence do you feel you have on the vocabulary and expressions used in your social circle?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">What are the real-world consequences when a language loses its formal, respectful agreements and honorifics?</div>
+                <div class="round-item-personal">★ Do you prefer informal workplace environments, or do you appreciate a clear sense of professional distance?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">Is linguistic tokenism a necessary stepping stone that prepares society for deeper structural reforms?</div>
+                <div class="round-item-personal">★ Have you ever seen a small symbolic change in your community eventually lead to a major real-world improvement?</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================= UNIT 6 ================= -->
+    <div class="round-block round-2 open" id="m-unit6">
+        <div class="round-header" onclick="COSY.toggleRound('m-unit6')" style="background:#EAF3DE;">
+            <span>🟢 UNIT 6: The Linguistic Horizon (Future / Speculation)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 1.5rem 0;">Speculate on what lies ahead. Use advanced conditional structures (second, third, or mixed) to project these realities into future decades.</p>
+
+            <div class="round-item">
+                <div class="round-item-main">In fifty years, real-time AI translators will automatically strip all gender bias from our speech, rendering linguistic debates entirely obsolete.</div>
+                <div class="round-item-personal">★ Would you feel comfortable if an AI assistant automatically modified your spoken words to sound more inclusive?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">If future generations completely abandon gendered grammar, traditional romance literature will lose its poetic, emotional power.</div>
+                <div class="round-item-personal">★ Can you separate the beauty of grammatical elegance from the social values it might represent?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">In a highly digital world, our linguistic patterns are being optimized by algorithms that prioritize engagement over inclusivity.</div>
+                <div class="round-item-personal">★ Do you think social media has made our public debates about language more aggressive and less understanding?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">In the future, the use of gendered pronouns will become as obsolete and rude as medieval feudal titles are today.</div>
+                <div class="round-item-personal">★ Would you mind if future generations addressed you solely with gender-neutral pronouns?</div>
+            </div>
+            <div class="round-item">
+                <div class="round-item-main">If we completely eliminated gender from language, would it simply accelerate the end of all social stereotypes?</div>
+                <div class="round-item-personal">★ Can you imagine a world where gender is not used as a linguistic category at all?</div>
+            </div>
+        </div>
+    </div>
+
+</div>
 </div>
 
 <div data-session-mode="private">
