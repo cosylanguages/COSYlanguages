@@ -2785,16 +2785,35 @@
         'i-have-no-time-for-it.html': 16
     };
 
-    /* ─── WONDER CLUB MODE ROUTER ───────────────────────────────── */
+    /* ─── WONDER CLUB & SCIENCE CLUB MODE ROUTER ────────────────── */
     const setupWonderModeRouter = () => {
         const currentPathname = window.location.pathname;
         const isWonderSession = currentPathname.includes('sessions/i-couldnt-help-but-wonder/');
+        const isKusSession = currentPathname.includes('sessions/keeping-up-with-science/');
 
-        if (!isWonderSession) {
+        if (!isWonderSession && !isKusSession) {
             document.body.classList.remove("wonder-locked-body-blur");
             document.body.removeAttribute("data-active-mode");
             const gate = document.getElementById("wonder-passcode-gate");
             if (gate) gate.remove();
+
+            // Clean up any dynamic injected elements
+            const switcher = document.getElementById("kus-dynamic-switcher");
+            if (switcher) switcher.remove();
+            const hostBar = document.getElementById("kus-dynamic-host-bar");
+            if (hostBar) hostBar.remove();
+            return;
+        }
+
+        // Dynamically load passcodes.js for KUS if not present
+        if (isKusSession && !window.COSY_PASSCODES) {
+            const prefix = currentPathname.includes('/fr/') || currentPathname.includes('/ru/') ? "../../../../" : "../../../";
+            const script = document.createElement('script');
+            script.src = prefix + "js/core/passcodes.js";
+            script.onload = () => {
+                setupWonderModeRouter();
+            };
+            document.head.appendChild(script);
             return;
         }
 
@@ -2812,6 +2831,71 @@
         }
 
         document.body.setAttribute('data-active-mode', mode);
+
+        // Dynamically inject KUS modes features
+        if (isKusSession) {
+            const mainContainer = document.querySelector('main.content-container');
+            if (mainContainer) {
+                // Remove existing switcher/bar if any
+                const oldSwitcher = document.getElementById("kus-dynamic-switcher");
+                if (oldSwitcher) oldSwitcher.remove();
+                const oldHostBar = document.getElementById("kus-dynamic-host-bar");
+                if (oldHostBar) oldHostBar.remove();
+
+                const isFrench = currentPathname.includes('/fr/');
+                const isRussian = currentPathname.includes('/ru/');
+
+                // 1. Dynamic Mode Switcher Grid
+                const switcherEl = document.createElement('div');
+                switcherEl.id = "kus-dynamic-switcher";
+                switcherEl.className = "science-format-switcher";
+                switcherEl.style.cssText = "display: flex; gap: 0.5rem; margin-top: 1rem; margin-bottom: 2rem; flex-wrap: wrap;";
+
+                let bigLabel = isFrench ? "🗣️ GRAND GROUPE" : (isRussian ? "🗣️ БОЛЬШАЯ ГРУППА" : "🗣️ BIG GROUP (Public)");
+                let miniLabel = isFrench ? "👥 MINI GROUPE" : (isRussian ? "👥 МИНИ ГРУППА" : "👥 MINI GROUP (Protected)");
+                let privateLabel = isFrench ? "🎓 COURS PARTICULIER" : (isRussian ? "🎓 ЧАСТНЫЙ УРОК" : "🎓 PRIVATE LESSON (Protected)");
+
+                switcherEl.innerHTML = `
+                    <a href="?mode=big" class="mode-btn btn-big ${mode === 'big' ? 'active' : ''}">${bigLabel}</a>
+                    <a href="?mode=mini" class="mode-btn btn-mini ${mode === 'mini' ? 'active' : ''}">${miniLabel}</a>
+                    <a href="?mode=private" class="mode-btn btn-private ${mode === 'private' ? 'active' : ''}">${privateLabel}</a>
+                `;
+
+                const targetAnchor = mainContainer.querySelector('.cosy-session-switcher-placeholder') || mainContainer.querySelector('.cosy-breadcrumbs') || mainContainer.firstElementChild;
+                if (targetAnchor) {
+                    targetAnchor.parentNode.insertBefore(switcherEl, targetAnchor.nextSibling);
+                } else {
+                    mainContainer.prepend(switcherEl);
+                }
+
+                // 2. Dynamic Host/Teacher Utility Control Bar
+                if (mode === 'mini' || mode === 'private') {
+                    const hostBarEl = document.createElement('div');
+                    hostBarEl.id = "kus-dynamic-host-bar";
+                    hostBarEl.className = "host-utility-bar";
+                    hostBarEl.style.cssText = "margin-bottom: 2rem;";
+
+                    let tagText = isFrench ? "🔑 Utilitaire Enseignant" : (isRussian ? "🔑 Организатор" : "🔑 Host Utility");
+                    let infoText = isFrench ? "Partagez cette session déverrouillée avec vos élèves :" : (isRussian ? "Поделитесь разблокированной ссылкой с учениками :" : "Share this unlocked session with your students:");
+                    let btnText = isFrench ? "🔗 Copier le lien élève" : (isRussian ? "🔗 Скопировать ссылку для учеников" : "🔗 Copy Student Link");
+                    let backText = isFrench ? "← Retour à Keeping Up with Science" : (isRussian ? "← Вернуться к Keeping Up with Science" : "← Back to Keeping Up with Science");
+                    let backHref = isFrench ? "../../keeping-up-with-science.html" : (isRussian ? "../../keeping-up-with-science.html" : "../../keeping-up-with-science.html");
+
+                    hostBarEl.innerHTML = `
+                        <div class="hub-header">
+                            <span class="hub-tag">${tagText}</span>
+                            <span class="hub-info">${infoText}</span>
+                        </div>
+                        <div class="hub-actions">
+                            <button class="btn-copy-link" onclick="window.COSY.copyStudentLink(this)">${btnText}</button>
+                            <a href="${backHref}" class="unobtrusive-back-link">${backText}</a>
+                        </div>
+                    `;
+
+                    switcherEl.parentNode.insertBefore(hostBarEl, switcherEl.nextSibling);
+                }
+            }
+        }
 
         window.COSY_WONDER_ROUTER = window.COSY_WONDER_ROUTER || {
             initModeRouting() {
