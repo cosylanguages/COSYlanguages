@@ -1,0 +1,222 @@
+/**
+ * css/mind-matters.css
+ * Mind Matters Speaking Club styles.
+ * Holds styles for past session cards, sub-conscious profile box, and related elements.
+ */
+
+.mind-history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2.5rem 2rem;
+  margin-top: 2rem;
+}
+
+.mind-card {
+  background: var(--surface-color, #FFFDF9);
+  border: 1px solid var(--border);
+  border-radius: 0 16px 16px 16px; /* tab-like on top left */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  overflow: visible; /* to let folder tab show */
+  text-decoration: none;
+}
+
+/* Tab-folder top left accent */
+.mind-card::before {
+  content: 'CASE STUDY';
+  position: absolute;
+  top: -24px;
+  left: -1px;
+  height: 24px;
+  background: var(--surface-color, #FFFDF9);
+  border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  border-radius: 8px 8px 0 0;
+  padding: 0 12px;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #993556;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Subtle subconscious watermark brain */
+.mind-card::after {
+  content: '🧠';
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  font-size: 3rem;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+.mind-card:hover {
+  transform: translateY(-6px);
+  border-color: #993556;
+  box-shadow: 0 12px 28px rgba(153, 53, 86, 0.12);
+}
+
+.mind-card:hover::before {
+  border-color: #993556;
+  background: #993556;
+  color: white;
+}
+
+.mind-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.mind-card-tags {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.mind-card-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+.mind-card-tag.tag-a1 { background: #FFF5F5; color: #E53E3E; border-color: #FED7D7; }
+.mind-card-tag.tag-a2 { background: #FAEEE8; color: #C0392B; border-color: #F5CBA7; }
+.mind-card-tag.tag-b1 { background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7; }
+.mind-card-tag.tag-b2 { background: #EBF8FF; color: #2B6CB0; border-color: #BEE3F8; }
+.mind-card-tag.tag-c1 { background: #EEEDFE; color: #534AB7; border-color: #D2CFFE; }
+.mind-card-tag.tag-c2 { background: #FAF5FF; color: #6B46C1; border-color: #E9D8FD; }
+
+.mind-card-lang {
+  font-size: 1rem;
+}
+
+.mind-card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ink-deep);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+}
+
+.mind-card-desc {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+  margin: 0 0 1.2rem 0;
+  flex-grow: 1;
+}
+
+.mind-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px dashed var(--border);
+  padding-top: 0.8rem;
+  margin-top: auto;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.mind-card-date {
+  color: var(--muted);
+}
+
+.mind-card-view {
+  color: #993556;
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.mind-card-view:hover {
+  color: #4d1a2b;
+  transform: translateX(3px);
+}
+
+/* 🧠 MIND MATTERS: Subconscious Mind Profile Box & Session Card Box */
+.mind-profile-box {
+  background: var(--surface-color, #FFFDF9);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.mind-profile-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #993556;
+}
+
+.mind-profile-box h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #993556;
+  margin: 0 0 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mind-session-info-box {
+  background: var(--cream-dark);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+.mind-profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.mind-profile-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.mind-profile-item strong {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+
+.mind-profile-item span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
