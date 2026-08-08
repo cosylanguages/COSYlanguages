@@ -619,6 +619,15 @@
         // Prevent duplicate setups
         if (document.querySelector('.cosy-video-wrapper')) return;
 
+        // Skip embedding external videos/links for Big and Mini group views of Science club
+        const path = window.location.pathname;
+        const isKus = path.includes('sessions/keeping-up-with-science/');
+        const params = new URLSearchParams(window.location.search);
+        const mode = params.get('mode') || 'big';
+        if (isKus && (mode === 'big' || mode === 'mini')) {
+            return;
+        }
+
         // Find all links to YouTube on the page
         const links = Array.from(document.querySelectorAll('a'));
         const youtubeLinks = links.filter(link => {
@@ -711,6 +720,15 @@
     const setupEmbeddedArticles = () => {
         // Prevent duplicate setups
         if (document.querySelector('.cosy-article-wrapper')) return;
+
+        // Skip embedding external articles/links for Big and Mini group views of Science club
+        const path = window.location.pathname;
+        const isKus = path.includes('sessions/keeping-up-with-science/');
+        const params = new URLSearchParams(window.location.search);
+        const mode = params.get('mode') || 'big';
+        if (isKus && (mode === 'big' || mode === 'mini')) {
+            return;
+        }
 
         // Find all links on the page
         const links = Array.from(document.querySelectorAll('a'));
@@ -3063,8 +3081,8 @@
                     formatSwitcherPlaceholder.id = "kus-dynamic-switcher-placeholder";
                     mainContainer.appendChild(formatSwitcherPlaceholder);
 
-                    // 6. Article / Source Card
-                    if (sourceHtml) {
+                    // 6. Article / Source Card (Only rendered on Private Lesson mode to keep big & mini groups link-free)
+                    if (sourceHtml && mode === 'private') {
                         const sourceCard = document.createElement('div');
                         sourceCard.className = "science-source-card";
                         sourceCard.innerHTML = `
