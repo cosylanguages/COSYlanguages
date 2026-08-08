@@ -4062,6 +4062,21 @@ body[class*="theme-science"]::after {
   pointer-events: none;
   z-index: -1;
 }
+body.theme-wonder-weather::after { content: "⛈️"; }
+body.theme-wonder-insects::after { content: "🐜"; }
+body.theme-wonder-organic::after { content: "🍎"; }
+body.theme-wonder-amy::after { content: "🎤"; }
+body.theme-wonder-adhd::after { content: "🧠"; }
+body.theme-wonder-euthanasia::after { content: "🕊️"; }
+body.theme-wonder-parenting::after { content: "🍼"; }
+body.theme-wonder-raindrops::after { content: "🌧️"; }
+body.theme-wonder-time::after { content: "⏳"; }
+body.theme-wonder-monogamy-b2::after, body.theme-wonder-monogamy-c1::after { content: "💍"; }
+body.theme-wonder-album::after { content: "💿"; }
+body.theme-wonder-collective::after { content: "🌍"; }
+body.theme-wonder-watched::after { content: "👁️"; }
+body.theme-wonder-copying::after { content: "🪞"; }
+body.theme-wonder-series::after { content: "📺"; }
 
 /* ─── KEEPING UP WITH SCIENCE (PHASE 3) REDESIGN ─── */
 .science-session-info-box {
