@@ -2955,12 +2955,14 @@
                     infoBox.innerHTML = `
                         <div class="info-box-header">🔬 ${isFrench ? 'FICHE COMPLÈTE DU SPÉCIMEN' : (isRussian ? 'КАРТА НАУЧНОГО ОБРАЗЦА' : 'SPECIMEN SCIENTIFIC DATA SHEET')}</div>
                         <div class="info-box-grid">
-                            <div class="info-field"><h5>${isFrench ? 'Titre du Spécimen' : (isRussian ? 'Название образца' : 'Specimen Title')}</h5><p>${titleText}</p></div>
-                            <div class="info-field"><h5>${isFrench ? 'Thématique' : (isRussian ? 'Научная тема' : 'Scientific Theme')}</h5><p>${themeVal}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Langue' : (isRussian ? 'Язык' : 'Language')}</h5><p>${isFrench ? 'Français' : (isRussian ? 'Русский' : 'English')}</p></div>
                             <div class="info-field"><h5>${isFrench ? 'Niveau CEFR' : (isRussian ? 'Уровень CEFR' : 'CEFR Level')}</h5><p>${levelVal}</p></div>
-                            <div class="info-field"><h5>${isFrench ? 'Structure d\'Apprentissage' : (isRussian ? 'Языковой фокус' : 'Language Focus')}</h5><p>${langFocus}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Thématique' : (isRussian ? 'Научная тема' : 'Scientific Theme')}</h5><p>${themeVal}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Titre du Spécimen' : (isRussian ? 'Название образца' : 'Specimen Title')}</h5><p>${titleText}</p></div>
                             <div class="info-field"><h5>${isFrench ? 'Collection Thématique' : (isRussian ? 'Научная коллекция' : 'Thematic Batch')}</h5><p>${batchLabel}</p></div>
-                            <div class="info-field"><h5>${isFrench ? 'Date d\'Analyse' : (isRussian ? 'Дата публикации' : 'Analysis Date')}</h5><p>${dateText}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Source / Article' : (isRussian ? 'Источник / Статья' : 'Article / Source')}</h5><p class="info-source-link">${sourceHtml || '-'}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Date de Publication' : (isRussian ? 'Дата публикации' : 'Publication Date')}</h5><p>${dateText || '-'}</p></div>
+                            <div class="info-field"><h5>${isFrench ? 'Structure d\'Apprentissage' : (isRussian ? 'Языковой фокус' : 'Language Focus')}</h5><p>${langFocus}</p></div>
                         </div>
                     `;
                     mainContainer.appendChild(infoBox);
@@ -2970,7 +2972,20 @@
                     formatSwitcherPlaceholder.id = "kus-dynamic-switcher-placeholder";
                     mainContainer.appendChild(formatSwitcherPlaceholder);
 
-                    // 6. Article / Source Card
+                    // 6. Transcript / Stimulus Digest (Science introduction)
+                    if (summaryHtml) {
+                        const digestSummary = document.createElement('div');
+                        digestSummary.className = "science-digest-summary";
+                        digestSummary.innerHTML = `
+                            <div class="digest-header">📝 ${isFrench ? 'RÉSUMÉ DU COMPTE RENDU' : (isRussian ? 'КРАТКАЯ СВОДКА ИССЛЕДОВАНИЯ' : 'SCIENTIFIC COMPREHENSION ABSTRACT')}</div>
+                            <div style="font-size: 1rem; color: var(--ink); line-height: 1.7; font-style: italic;">
+                                ${summaryHtml}
+                            </div>
+                        `;
+                        mainContainer.appendChild(digestSummary);
+                    }
+
+                    // 7. Article / Source Card (Transcript / article)
                     if (sourceHtml) {
                         const sourceCard = document.createElement('div');
                         sourceCard.className = "science-source-card";
@@ -2984,19 +2999,6 @@
                             </div>
                         `;
                         mainContainer.appendChild(sourceCard);
-                    }
-
-                    // 7. Transcript / Stimulus Digest
-                    if (summaryHtml) {
-                        const digestSummary = document.createElement('div');
-                        digestSummary.className = "science-digest-summary";
-                        digestSummary.innerHTML = `
-                            <div class="digest-header">📝 ${isFrench ? 'RÉSUMÉ DU COMPTE RENDU' : (isRussian ? 'КРАТКАЯ СВОДКА ИССЛЕДОВАНИЯ' : 'SCIENTIFIC COMPREHENSION ABSTRACT')}</div>
-                            <div style="font-size: 1rem; color: var(--ink); line-height: 1.7; font-style: italic;">
-                                ${summaryHtml}
-                            </div>
-                        `;
-                        mainContainer.appendChild(digestSummary);
                     }
 
                     // 8. Vocabulary
