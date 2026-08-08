@@ -100,4 +100,63 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
     await expect(goDeeper.locator('.section-title')).toContainText('Go Deeper');
     await expect(goDeeper.locator('.science-card')).not.toHaveCount(0);
   });
+
+  test('KUS Session page under unlocked Mini Group mode should dynamically compile and present all 6 Units', async ({ page }) => {
+    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=mini&shared=true');
+
+    // Mini Group Speaking Session title should be visible
+    const pageTitle = page.locator('#structure .section-title');
+    await expect(pageTitle).toHaveText('👥 Mini Group Speaking Session');
+
+    // Verify presence of all 6 Units with their customized headings
+    const u1 = page.locator('#m-unit1');
+    const u2 = page.locator('#m-unit2');
+    const u3 = page.locator('#m-unit3');
+    const u4 = page.locator('#m-unit4');
+    const u5 = page.locator('#m-unit5');
+    const u6 = page.locator('#m-unit6');
+
+    await expect(u1).toBeVisible();
+    await expect(u2).toBeVisible();
+    await expect(u3).toBeVisible();
+    await expect(u4).toBeVisible();
+    await expect(u5).toBeVisible();
+    await expect(u6).toBeVisible();
+
+    // Check customized titles
+    await expect(u1.locator('.round-header')).toContainText('Unit 1 — Enter the Topic');
+    await expect(u2.locator('.round-header')).toContainText('Unit 2 — Understand the Findings');
+    await expect(u3.locator('.round-header')).toContainText('Unit 3 — Explore the Science');
+    await expect(u4.locator('.round-header')).toContainText('Unit 4 — Evidence + Evaluation');
+    await expect(u5.locator('.round-header')).toContainText('Unit 5 — Why Does It Matter?');
+    await expect(u6.locator('.round-header')).toContainText('Unit 6 — Future Projections');
+
+    // Check if vocabulary is recycled under Unit 1
+    const vocabGrid = u1.locator('.vocab-grid-10');
+    await expect(vocabGrid).toBeVisible();
+    await expect(vocabGrid.locator('.vocab-card')).toHaveCount(10);
+  });
+
+  test('KUS Session page under unlocked Private Lesson mode should dynamically compile and present all 10 Steps with Teacher Notes', async ({ page }) => {
+    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true');
+
+    // Private Lesson Speaking Session title should be visible
+    const pageTitle = page.locator('#structure .section-title');
+    await expect(pageTitle).toHaveText('🎓 Private Lesson Speaking Session');
+
+    // Verify presence of all 10 Steps
+    for (let i = 1; i <= 10; i++) {
+      const step = page.locator(`#p-step${i}`);
+      await expect(step).toBeVisible();
+    }
+
+    // Verify first and last step headers
+    await expect(page.locator('#p-step1 .round-header')).toContainText('Step 1 — Lead-In / Warm-Up');
+    await expect(page.locator('#p-step10 .round-header')).toContainText('Step 10 — Independent Final Production');
+
+    // Verify presence of teacher manual guidance chips inside steps
+    const teacherNotes = page.locator('#p-step1 .teacher-manual-chip');
+    await expect(teacherNotes).toBeVisible();
+    await expect(teacherNotes).toContainText('Teacher Guidance:');
+  });
 });

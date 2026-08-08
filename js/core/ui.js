@@ -3030,6 +3030,23 @@
                         }
                     }
 
+                    // Specific direct cross-references (Phase 8)
+                    if (dbKey.includes('impersonation')) {
+                        recs.push({
+                            title: "Always Watched in a Crowd",
+                            theme: "Explore privacy, social monitoring, and digital identity theft from Carrie Bradshaw's introspective standpoint.",
+                            url: "../i-couldnt-help-but-wonder/always-watched-in-a-crowd.html",
+                            type: isFrench ? "🌌 MANUSCRIT DÉVOILÉ" : (isRussian ? "🌌 ГОВОРЯЩИЙ КЛУБ" : "🌌 SPEAKING CLUB SESSION")
+                        });
+                    } else if (dbKey.includes('words')) {
+                        recs.push({
+                            title: "Why Do We Try to Relate to ADHD?",
+                            theme: "Discuss the impact of technology, screen saturation, and social media on modern attention spans, vocabulary variety, and identity.",
+                            url: "../i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html",
+                            type: isFrench ? "🌌 MANUSCRIT DÉVOILÉ" : (isRussian ? "🌌 ГОВОРЯЩИЙ КЛУБ" : "🌌 SPEAKING CLUB SESSION")
+                        });
+                    }
+
                     // Fallbacks or cross-club curations
                     if (recs.length < 3) {
                         const batchName = (specimenData && specimenData.batches && specimenData.batches[0]) || "";
@@ -3151,6 +3168,463 @@
                         `;
 
                         placeholderPl.appendChild(hostBarEl);
+                    }
+                }
+
+                // 3. Dynamic Mini Group Restructuring
+                if (mode === 'mini') {
+                    const structureContainer = document.getElementById('structure');
+                    if (structureContainer && !structureContainer.hasAttribute('data-compiled-mini')) {
+                        structureContainer.setAttribute('data-compiled-mini', 'true');
+
+                        // Parse Vocab
+                        const vocabCards = Array.from(document.querySelectorAll('#vocabulary .vocab-card'));
+                        let vocabHtml = '<div class="vocab-grid-10" style="margin-top: 1rem;">';
+                        vocabCards.forEach(card => {
+                            // Extract only content, strip individual buttons to make it uncluttered for Mini Group
+                            const clone = card.cloneNode(true);
+                            const btn = clone.querySelector('button');
+                            if (btn) btn.remove();
+                            vocabHtml += `<div class="vocab-card" style="box-shadow: none; border: 1px dashed var(--border);">${clone.innerHTML}</div>`;
+                        });
+                        vocabHtml += '</div>';
+
+                        // Parse Warm-up Questions
+                        const warmUpLi = Array.from(document.querySelectorAll('#s-warm li, .warm-up li, #s-warm p, .warm-up p'));
+                        let warmUpHtml = '<ul class="round-questions">';
+                        if (warmUpLi.length > 0) {
+                            warmUpLi.forEach(li => {
+                                warmUpHtml += `<li>${li.innerHTML}</li>`;
+                            });
+                        } else {
+                            warmUpHtml += `<li>${isFrench ? "Avez-vous déjà exploré ce sujet auparavant ?" : (isRussian ? "Исследовали ли вы эту тему ранее ?" : "Have you ever explored this topic before?")}</li>`;
+                        }
+                        warmUpHtml += '</ul>';
+
+                        // Parse Round 1 Questions
+                        const r1Items = Array.from(document.querySelectorAll('#s-r1 .round-item, .round-1 .round-item'));
+                        const r1Parsed = r1Items.map(item => {
+                            return {
+                                main: item.querySelector('.round-item-main')?.innerHTML || item.innerHTML,
+                                personal: item.querySelector('.round-item-personal')?.innerHTML || ""
+                            };
+                        });
+
+                        // Parse Round 2 Questions
+                        const r2Items = Array.from(document.querySelectorAll('#s-r2 .round-item, .round-2 .round-item'));
+                        const r2Parsed = r2Items.map(item => {
+                            return {
+                                main: item.querySelector('.round-item-main')?.innerHTML || item.innerHTML,
+                                personal: item.querySelector('.round-item-personal')?.innerHTML || ""
+                            };
+                        });
+
+                        // Parse Scientific Thinking
+                        const thinkingBody = document.querySelector('#s-thinking .round-body, .scientific-thinking .round-body');
+                        const thinkingHtml = thinkingBody ? thinkingBody.innerHTML : "";
+
+                        // Define localized titles
+                        let u1Title = isFrench ? "Unit 1 — Entrer dans le sujet 🚀" : (isRussian ? "Раздел 1 — Введение в тему 🚀" : "Unit 1 — Enter the Topic 🚀");
+                        let u1Desc = isFrench ? "Échauffement et activation du vocabulaire de la session." : (isRussian ? "Разминка и активация ключевого словаря сессии." : "Activate your background knowledge and study the 10 specimen vocabulary units.");
+
+                        let u2Title = isFrench ? "Unit 2 — Comprendre les résultats 📊" : (isRussian ? "Раздел 2 — Понимание результатов 📊" : "Unit 2 — Understand the Findings 📊");
+                        let u2Desc = isFrench ? "Discutez des découvertes scientifiques réelles rapportées dans l'article." : (isRussian ? "Обсудите реальные научные открытия, описанные в исследовании." : "Analyze the actual scientific discoveries and empirical findings reported in the paper.");
+                        let u2QuestionsHtml = '<ul class="round-questions">';
+                        r1Parsed.slice(0, 5).forEach(q => {
+                            u2QuestionsHtml += `<li>${q.main} ${q.personal ? `<br><span style="font-style: italic; font-size: 0.9em; opacity: 0.85;">${q.personal}</span>` : ""}</li>`;
+                        });
+                        u2QuestionsHtml += '</ul>';
+
+                        let u3Title = isFrench ? "Unit 3 — Explorer la science 🔬" : (isRussian ? "Раздел 3 — Научные гипотезы 🔬" : "Unit 3 — Explore the Science 🔬");
+                        let u3Desc = isFrench ? "Analysez les explications possibles, les mécanismes et les théories concurrentes." : (isRussian ? "Исследуйте возможные объяснения, механизмы и альтернативные теории." : "Move from what happened to why it happened. Debate mechanisms, causes, and theories.");
+                        let u3QuestionsHtml = '<ul class="round-questions">';
+                        r1Parsed.slice(5, 10).forEach(q => {
+                            u3QuestionsHtml += `<li>${q.main} ${q.personal ? `<br><span style="font-style: italic; font-size: 0.9em; opacity: 0.85;">${q.personal}</span>` : ""}</li>`;
+                        });
+                        u3QuestionsHtml += '</ul>';
+
+                        let u4Title = isFrench ? "Unit 4 — Preuves & Évaluation 🔍" : (isRussian ? "Раздел 4 — Доказательства и оценка 🔍" : "Unit 4 — Evidence + Evaluation 🔍");
+                        let u4Desc = isFrench ? "Réfléchissez à la fiabilité des preuves, aux limites de l'étude et à la corrélation vs causalité." : (isRussian ? "Оцените достоверность доказательств, ограничения исследования и причинно-следственные связи." : "Analyze research limitations, sample sizes, and distinguish correlation from causation.");
+                        let u4QuestionsHtml = thinkingHtml ? `<div style="background: rgba(15, 110, 86, 0.04); padding: 1rem; border-radius: 8px; border-left: 4px solid #0F6E56; margin-bottom: 1.5rem;">${thinkingHtml}</div>` : '';
+                        u4QuestionsHtml += '<ul class="round-questions">';
+                        r2Parsed.slice(0, 4).forEach(q => {
+                            u4QuestionsHtml += `<li>${q.main} ${q.personal ? `<br><span style="font-style: italic; font-size: 0.9em; opacity: 0.85;">${q.personal}</span>` : ""}</li>`;
+                        });
+                        u4QuestionsHtml += '</ul>';
+
+                        let u5Title = isFrench ? "Unit 5 — Pourquoi cela compte-t-il ? 🌍" : (isRussian ? "Раздел 5 — Практическое значение 🌍" : "Unit 5 — Why Does It Matter? 🌍");
+                        let u5Desc = isFrench ? "Explorez l'impact de cette découverte sur notre vie quotidienne, nos choix et notre société." : (isRussian ? "Обсудите влияние этого открытия на повседневную жизнь, личный выбор и общество." : "Discuss how this discovery impacts daily life, public policy, technology, and your personal choices.");
+                        let u5QuestionsHtml = '<ul class="round-questions">';
+                        // Collect interesting personal questions from Round 1 and Round 2
+                        r1Parsed.slice(0, 3).forEach(q => {
+                            if (q.personal) u5QuestionsHtml += `<li>${q.personal}</li>`;
+                        });
+                        r2Parsed.slice(0, 3).forEach(q => {
+                            if (q.personal) u5QuestionsHtml += `<li>${q.personal}</li>`;
+                        });
+                        u5QuestionsHtml += '</ul>';
+
+                        let u6Title = isFrench ? "Unit 6 — Perspectives futures 🔮" : (isRussian ? "Раздел 6 — Будущие перспективы 🔮" : "Unit 6 — Future Projections 🔮");
+                        let u6Desc = isFrench ? "Projetez-vous dans l'avenir : développements technologiques, conséquences inattendues et scénarios 'Et si...'." : (isRussian ? "Загляните в будущее: новые исследования, потенциальные последствия и сценарии 'Что если...'." : "Speculate on future discoveries, consequences, and discuss bold 'What if...?' scenarios.");
+                        let u6QuestionsHtml = '<ul class="round-questions">';
+                        r2Parsed.slice(4, 10).forEach(q => {
+                            u6QuestionsHtml += `<li>${q.main} ${q.personal ? `<br><span style="font-style: italic; font-size: 0.9em; opacity: 0.85;">${q.personal}</span>` : ""}</li>`;
+                        });
+                        u6QuestionsHtml += '</ul>';
+
+                        // Rebuild structure with beautiful Mini Group layout!
+                        structureContainer.innerHTML = `
+                            <h2 class="section-title">👥 ${isFrench ? "Session de Mini Groupe" : (isRussian ? "Разговорная сессия Мини Группы" : "Mini Group Speaking Session")}</h2>
+                            <div class="rounds-container">
+                                <!-- Unit 1 -->
+                                <div class="round-block warm-up open" id="m-unit1">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit1')" style="background:#FAEEE8;">
+                                        <span>${u1Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u1Desc}</p>
+                                        ${warmUpHtml}
+                                        ${vocabHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 2 -->
+                                <div class="round-block round-1 open" id="m-unit2">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit2')" style="background:#E1F5EE;">
+                                        <span>${u2Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u2Desc}</p>
+                                        ${u2QuestionsHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 3 -->
+                                <div class="round-block round-2 open" id="m-unit3">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit3')" style="background:#EEEDFE;">
+                                        <span>${u3Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u3Desc}</p>
+                                        ${u3QuestionsHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 4 -->
+                                <div class="round-block open" id="m-unit4">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit4')" style="background:#FFF9E6; border-left: 5px solid #D97706;">
+                                        <span>${u4Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u4Desc}</p>
+                                        ${u4QuestionsHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 5 -->
+                                <div class="round-block open" id="m-unit5">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit5')" style="background:#EAF3DE;">
+                                        <span>${u5Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u5Desc}</p>
+                                        ${u5QuestionsHtml}
+                                    </div>
+                                </div>
+                                <!-- Unit 6 -->
+                                <div class="round-block open" id="m-unit6">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('m-unit6')" style="background:#FEE2E2; border-left: 5px solid #DC2626;">
+                                        <span>${u6Title}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${u6Desc}</p>
+                                        ${u6QuestionsHtml}
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                }
+
+                // 4. Dynamic Private Lesson Restructuring (1-to-1 Teacher-Led)
+                if (mode === 'private') {
+                    const structureContainer = document.getElementById('structure');
+                    if (structureContainer && !structureContainer.hasAttribute('data-compiled-private')) {
+                        structureContainer.setAttribute('data-compiled-private', 'true');
+
+                        // Parse Vocab
+                        const vocabCards = Array.from(document.querySelectorAll('#vocabulary .vocab-card'));
+                        let vocabHtml = '<div class="vocab-grid-10" style="margin-top: 1rem;">';
+                        vocabCards.forEach(card => {
+                            const clone = card.cloneNode(true);
+                            const btn = clone.querySelector('button');
+                            if (btn) btn.remove();
+                            vocabHtml += `<div class="vocab-card" style="box-shadow: none; border: 1px dashed var(--border);">${clone.innerHTML}</div>`;
+                        });
+                        vocabHtml += '</div>';
+
+                        // Parse Warm-up Questions
+                        const warmUpLi = Array.from(document.querySelectorAll('#s-warm li, .warm-up li, #s-warm p, .warm-up p'));
+                        let warmUpHtml = '<ul class="round-questions">';
+                        if (warmUpLi.length > 0) {
+                            warmUpLi.forEach(li => {
+                                warmUpHtml += `<li>${li.innerHTML}</li>`;
+                            });
+                        } else {
+                            warmUpHtml += `<li>${isFrench ? "Avez-vous déjà exploré ce sujet auparavant ?" : (isRussian ? "Исследовали ли вы эту тему ранее ?" : "Have you ever explored this topic before?")}</li>`;
+                        }
+                        warmUpHtml += '</ul>';
+
+                        // Parse Round 1 Questions
+                        const r1Items = Array.from(document.querySelectorAll('#s-r1 .round-item, .round-1 .round-item'));
+                        const r1Parsed = r1Items.map(item => {
+                            return {
+                                main: item.querySelector('.round-item-main')?.innerHTML || item.innerHTML,
+                                personal: item.querySelector('.round-item-personal')?.innerHTML || ""
+                            };
+                        });
+
+                        // Parse Round 2 Questions
+                        const r2Items = Array.from(document.querySelectorAll('#s-r2 .round-item, .round-2 .round-item'));
+                        const r2Parsed = r2Items.map(item => {
+                            return {
+                                main: item.querySelector('.round-item-main')?.innerHTML || item.innerHTML,
+                                personal: item.querySelector('.round-item-personal')?.innerHTML || ""
+                            };
+                        });
+
+                        // Parse Scientific Thinking
+                        const thinkingBody = document.querySelector('#s-thinking .round-body, .scientific-thinking .round-body');
+                        const thinkingHtml = thinkingBody ? thinkingBody.innerHTML : "";
+
+                        // Parse Grammar Block
+                        const grammarBody = document.querySelector('#s-grammar .round-body, .grammar .round-body');
+                        const grammarHtml = grammarBody ? grammarBody.innerHTML : "";
+
+                        // Parse mistakes
+                        const mistakesItems = Array.from(document.querySelectorAll('.mistake-item'));
+                        let mistakesHtml = '<div style="margin-top: 1rem;">';
+                        mistakesItems.forEach(item => {
+                            mistakesHtml += `<div class="mistake-item" style="box-shadow: none; border: 1px dashed var(--border); padding: 1rem; margin-bottom: 0.5rem; border-radius: 8px;">${item.innerHTML}</div>`;
+                        });
+                        mistakesHtml += '</div>';
+
+                        // Define localized titles
+                        let stepsTitles = isFrench ? {
+                            s1: "Étape 1 — Échauffement et introduction 🗣️",
+                            s1Desc: "Connectez le sujet aux connaissances, suppositions ou expériences existantes de l'élève.",
+                            s2: "Étape 2 — Pratique active du vocabulaire 📖",
+                            s2Desc: "Analysez et appropriez-vous les 10 mots clés essentiels directement extraits de l'étude scientifique.",
+                            s3: "Étape 3 — Contenu scientifique peer-reviewed 📊",
+                            s3Desc: "Examinez l'abstrait d'étude scientifique ou les données sources.",
+                            s4: "Étape 4 — Validation de la compréhension 🧠",
+                            s4Desc: "Guidez l'élève à travers ce qui s'est passé, les découvertes et ce qui reste incertain.",
+                            s5: "Étape 5 — Interprétation analytique et discussion 🔬",
+                            s5Desc: "Débattez des mécanismes, des causes et des interprétations alternatives.",
+                            s6: "Étape 6 — Point linguistique ciblé ⚡",
+                            s6Desc: "Révisez le focus grammatical et structurel calibré pour ce niveau.",
+                            s7: "Étape 7 — Esprit critique et évaluation des preuves 🔍",
+                            s7Desc: "Évaluez la fiabilité, la taille de l'échantillon, et la corrélation vs causalité.",
+                            s8: "Étape 8 — Application concrète dans le monde réel 🌍",
+                            s8Desc: "Connectez la science à la vie quotidienne de l'élève et aux choix sociétaux.",
+                            s9: "Étape 9 — Spéculations et projections futures 🔮",
+                            s9Desc: "Scénarios hypothétiques et projections futures dans la science et la technologie.",
+                            s10: "Étape 10 — Production finale autonome 🎤",
+                            s10Desc: "Donnez une mini-présentation de 1 minute ou défendez une position sur le sujet."
+                        } : (isRussian ? {
+                            s1: "Шаг 1 — Разминка и введение в тему 🗣️",
+                            s1Desc: "Свяжите тему с существующими знаниями, предположениями или личным опытом ученика.",
+                            s2: "Шаг 2 — Активная отработка словаря 📖",
+                            s2Desc: "Разберите 10 ключевых научных терминов, извлеченных из исследования.",
+                            s3: "Шаг 3 — Рецензируемый научный источник 📊",
+                            s3Desc: "Изучите краткое резюме научного отчета или данные первоисточника.",
+                            s4: "Шаг 4 — Концептуальная проверка понимания 🧠",
+                            s4Desc: "Разберите, что именно произошло, что обнаружили ученые и что остается неясным.",
+                            s5: "Шаг 5 — Аналитическая интерпретация и дискуссия 🔬",
+                            s5Desc: "Обсудите механизмы, причины и альтернативные научные трактовки.",
+                            s6: "Шаг 6 — Специализированный языковой фокус ⚡",
+                            s6Desc: "Разберите грамматические структуры и речевые обороты.",
+                            s7: "Шаг 7 — Критическое мышление и оценка доказательств 🔍",
+                            s7Desc: "Оцените достоверность доказательств, ограничения и корреляцию против причинности.",
+                            s8: "Шаг 8 — Практическое применение в реальном мире 🌍",
+                            s8Desc: "Свяжите науку с повседневной жизнью ученика и социальными решениями.",
+                            s9: "Шаг 9 — Гипотезы и будущие предположения 🔮",
+                            s9Desc: "Спрогнозируйте будущие исследования, технологическое развитие и последствия.",
+                            s10: "Шаг 10 — Самостоятельная финальная презентация 🎤",
+                            s10Desc: "Проведите минутную мини-презентацию или обоснуйте позицию по теме."
+                        } : {
+                            s1: "Step 1 — Lead-In / Warm-Up 🗣️",
+                            s1Desc: "Connect the topic to the student's existing knowledge, assumptions, or experience.",
+                            s2: "Step 2 — Active Vocabulary Drill 📖",
+                            s2Desc: "Examine and personalize the 10 highly useful scientific vocabulary items parsed from the specimen.",
+                            s3: "Step 3 — Peer-Reviewed Science Input 📊",
+                            s3Desc: "Review the actual scientific paper's digest abstract and stimulus.",
+                            s4: "Step 4 — Conceptual Understanding Check 🧠",
+                            s4Desc: "Guide the learner through what happened, what researchers discovered, and what remains uncertain.",
+                            s5: "Step 5 — Analytical Interpretation & Discussion 🔬",
+                            s5Desc: "Move beyond comprehension. Debate mechanisms, explanations, and alternative interpretations.",
+                            s6: "Step 6 — Targeted Language Focus ⚡",
+                            s6Desc: "Practice the specialized grammar or lexical patterns calibrated for this lesson.",
+                            s7: "Step 7 — Critical Thinking & Evidence Evaluation 🔍",
+                            s7Desc: "Evaluate evidence reliability, study limitations, assumptions, and correlation vs causation.",
+                            s8: "Step 8 — Real-World Application 🌍",
+                            s8Desc: "Connect the scientific discovery to the student's personal choices and society.",
+                            s9: "Step 9 — Future Speculations & Predictions 🔮",
+                            s9Desc: "Contrast established scientific fact from speculation. Formulate bold predictions.",
+                            s10: "Step 10 — Independent Final Production 🎤",
+                            s10Desc: "Deliver a 1-minute mini-presentation explaining the findings to a non-specialist or defending a position."
+                        });
+
+                        // Generate Step HTMLs with embedded Teacher Guidance notes
+                        let s4Html = '<ul class="round-questions">';
+                        r1Parsed.slice(0, 4).forEach(q => {
+                            s4Html += `<li>${q.main}</li>`;
+                        });
+                        s4Html += '</ul>';
+
+                        let s5Html = '<ul class="round-questions">';
+                        r1Parsed.slice(4, 7).forEach(q => {
+                            s5Html += `<li>${q.main}</li>`;
+                        });
+                        s5Html += '</ul>';
+
+                        let s8Html = '<ul class="round-questions">';
+                        r1Parsed.slice(7, 10).forEach(q => {
+                            if (q.personal) s8Html += `<li>${q.personal}</li>`;
+                        });
+                        r2Parsed.slice(0, 3).forEach(q => {
+                            if (q.personal) s8Html += `<li>${q.personal}</li>`;
+                        });
+                        s8Html += '</ul>';
+
+                        let s9Html = '<ul class="round-questions">';
+                        r2Parsed.slice(3, 8).forEach(q => {
+                            s9Html += `<li>${q.main}</li>`;
+                        });
+                        s9Html += '</ul>';
+
+                        let s10Html = r2Parsed[9] ? `<p style="font-weight: 600; font-size: 1rem; color: var(--ink); margin-bottom: 1rem;">${r2Parsed[9].main}</p>` : '';
+                        s10Html += mistakesHtml ? `<div style="background: rgba(15, 110, 86, 0.02); padding: 1.25rem; border-radius: var(--r-md, 14px); border: 1px dashed var(--border); margin-top: 1.5rem;"><h4 style="margin: 0 0 0.5rem 0; font-size: 0.9rem; text-transform: uppercase; color: var(--muted);">${isFrench ? "CORRECTIONS LINGUISTIQUES" : (isRussian ? "ЯЗЫКОВЫЕ КОРРЕКЦИИ" : "LINGUISTIC CORRECTIONS")}</h4>${mistakesHtml}</div>` : '';
+
+                        // Teacher Guidance notes compiler
+                        const renderTeacherNotes = (note) => {
+                            let guideTitle = isFrench ? "💡 Note d'enseignement" : (isRussian ? "💡 Поддержка преподавателя" : "💡 Teacher Guidance");
+                            return `<div class="teacher-manual-chip" style="background: #f0faf4; border-left: 4px solid #10b981; border-radius: 4px; padding: 0.75rem 1rem; margin-top: 1.25rem; font-size: 0.82rem; color: #065f46; font-family: 'Courier New', Courier, monospace; line-height: 1.5;"><strong>${guideTitle}:</strong> ${note}</div>`;
+                        };
+
+                        structureContainer.innerHTML = `
+                            <h2 class="section-title">🎓 ${isFrench ? "Cours Particulier (1-to-1)" : (isRussian ? "Индивидуальное занятие (1-на-1)" : "Private Lesson Speaking Session")}</h2>
+                            <div class="rounds-container">
+                                <!-- Step 1 -->
+                                <div class="round-block warm-up open" id="p-step1">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step1')" style="background:#FAEEE8;">
+                                        <span>${stepsTitles.s1}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s1Desc}</p>
+                                        ${warmUpHtml}
+                                        ${renderTeacherNotes(isFrench ? "Encouragez l'élève à formuler ses propres hypothèses avant d'analyser l'étude." : (isRussian ? "Поощряйте ученика выдвигать собственные гипотезы до разбора самого исследования." : "Prompt the student to formulate their own hypotheses before opening the abstract."))}
+                                    </div>
+                                </div>
+                                <!-- Step 2 -->
+                                <div class="round-block open" id="p-step2">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step2')" style="background:#FAF7F2;">
+                                        <span>${stepsTitles.s2}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s2Desc}</p>
+                                        ${vocabHtml}
+                                        ${renderTeacherNotes(isFrench ? "Demandez à l'élève de choisir 3 mots et de les réinvestir dans des phrases personnelles." : (isRussian ? "Попросите ученика выбрать 3 слова и использовать их в личных примерах." : "Ask the learner to pick 3 words and build immediate personalized context sentences."))}
+                                    </div>
+                                </div>
+                                <!-- Step 3 -->
+                                <div class="round-block open" id="p-step3">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step3')" style="background:#EBF8FF; border-left: 5px solid #2B6CB0;">
+                                        <span>${stepsTitles.s3}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s3Desc}</p>
+                                        <div style="background: white; border: 1px solid var(--border); padding: 1.25rem; border-radius: 8px; font-style: italic;">
+                                            ${document.querySelector('.science-digest-summary div')?.innerHTML || (isFrench ? "Données et abstracts de l'étude" : (isRussian ? "Данные и резюме исследования" : "Study abstract and core data results."))}
+                                        </div>
+                                        ${renderTeacherNotes(isFrench ? "Vérifiez que l'élève identifie les termes techniques de l'abstract." : (isRussian ? "Убедитесь, что ученик правильно понимает терминологию резюме." : "Verify that the learner can explain key technical terms from the summary."))}
+                                    </div>
+                                </div>
+                                <!-- Step 4 -->
+                                <div class="round-block open" id="p-step4">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step4')" style="background:#E1F5EE;">
+                                        <span>${stepsTitles.s4}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s4Desc}</p>
+                                        ${s4Html}
+                                        ${renderTeacherNotes(isFrench ? "Conseillez l'élève s'il confond corrélation et causalité." : (isRussian ? "Направляйте ученика при обсуждении разницы между корреляцией и причинностью." : "Gently correct the learner if they conflate correlation with direct causation."))}
+                                    </div>
+                                </div>
+                                <!-- Step 5 -->
+                                <div class="round-block open" id="p-step5">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step5')" style="background:#EEEDFE;">
+                                        <span>${stepsTitles.s5}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s5Desc}</p>
+                                        ${s5Html}
+                                        ${renderTeacherNotes(isFrench ? "Encouragez l'élève à proposer une interprétation alternative solide." : (isRussian ? "Предложите ученику сформулировать альтернативную научную трактовку." : "Challenge the student to propose a logical competing interpretation."))}
+                                    </div>
+                                </div>
+                                <!-- Step 6 -->
+                                <div class="round-block open" id="p-step6">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step6')" style="background:#EBF8FF; border-left: 5px solid #2B6CB0;">
+                                        <span>${stepsTitles.s6}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s6Desc}</p>
+                                        ${grammarHtml ? `<div style="margin-top: 1rem;">${grammarHtml}</div>` : (isFrench ? "Pratique de l'argumentation scientifique ciblée." : (isRussian ? "Практика научной аргументации." : "Structured practice mapping specialized argumentative models."))}
+                                        ${renderTeacherNotes(isFrench ? "Veillez à ce que l'élève intègre activement les connecteurs d'opposition." : (isRussian ? "Следите за активным употреблением сложных союзов и вводных слов." : "Ensure the student actively integrates the target connectors in their responses."))}
+                                    </div>
+                                </div>
+                                <!-- Step 7 -->
+                                <div class="round-block open" id="p-step7">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step7')" style="background:#FFF9E6; border-left: 5px solid #D97706;">
+                                        <span>${stepsTitles.s7}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s7Desc}</p>
+                                        ${thinkingHtml ? `<div style="background: white; border: 1px solid var(--border); padding: 1.25rem; border-radius: 8px;">${thinkingHtml}</div>` : (isFrench ? "Évaluez la fiabilité et la méthodologie de l'étude." : (isRussian ? "Оцените достоверность и методологию исследования." : "Critically review the sample size and assumptions of this specific trial."))}
+                                        ${renderTeacherNotes(isFrench ? "Proposez de débattre des implications éthiques si l'élève est à l'aise." : (isRussian ? "При высоком уровне ученика перейдите к обсуждению этических аспект." : "With higher-level students, transition directly into discussing the ethical implications."))}
+                                    </div>
+                                </div>
+                                <!-- Step 8 -->
+                                <div class="round-block open" id="p-step8">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step8')" style="background:#EAF3DE;">
+                                        <span>${stepsTitles.s8}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s8Desc}</p>
+                                        ${s8Html}
+                                        ${renderTeacherNotes(isFrench ? "Encouragez des choix de phrases concrètes liées à son travail ou ses études." : (isRussian ? "Связывайте обсуждение с реальными примерами из работы или учебы студента." : "Ensure the discussion maps onto concrete examples from the student's daily life."))}
+                                    </div>
+                                </div>
+                                <!-- Step 9 -->
+                                <div class="round-block open" id="p-step9">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step9')" style="background:#FFF9E6; border-left: 5px solid #D97706;">
+                                        <span>${stepsTitles.s9}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s9Desc}</p>
+                                        ${s9Html}
+                                        ${renderTeacherNotes(isFrench ? "Rappelez d'utiliser le conditionnel pour marquer clairement l'hypothèse." : (isRussian ? "Напоминайте о необходимости использовать сослагательное наклонение." : "Prompt the user to utilize conditional structures to clearly distinguish hypothesis from fact."))}
+                                    </div>
+                                </div>
+                                <!-- Step 10 -->
+                                <div class="round-block open" id="p-step10">
+                                    <div class="round-header" onclick="window.COSY.toggleRound('p-step10')" style="background:#FEE2E2; border-left: 5px solid #DC2626;">
+                                        <span>${stepsTitles.s10}</span><span class="round-toggle">▲</span>
+                                    </div>
+                                    <div class="round-body" style="display:block; padding: 1.5rem;">
+                                        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--ink-soft); font-weight: 600;">${stepsTitles.s10Desc}</p>
+                                        ${s10Html}
+                                        ${renderTeacherNotes(isFrench ? "Faites un retour linguistique complet à la fin en valorisant les réussites." : (isRussian ? "Проведите полный разбор ошибок в конце, отметив успехи студента." : "Perform a comprehensive linguistic error correction and feedback roundup at the end of the lesson."))}
+                                    </div>
+                                </div>
+                            </div>
+                        `;
                     }
                 }
             }
