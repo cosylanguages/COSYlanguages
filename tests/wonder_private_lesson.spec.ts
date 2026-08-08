@@ -55,4 +55,29 @@ test.describe('Wonder Private Lesson (1-to-1) Mode Verification', () => {
     // Content should be fully unlocked and visible instantly for the student
     await expect(page.locator('#p-step1')).toBeVisible();
   });
+
+  test('Format switcher should render and permit direct switching on session pages', async ({ page }) => {
+    // Navigate to big group mode
+    await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=big');
+
+    // Format switcher should be visible
+    const switcher = page.locator('.wonder-format-switcher');
+    await expect(switcher).toBeVisible();
+
+    // BIG GROUP button should be active
+    const bigBtn = switcher.locator('.btn-big');
+    await expect(bigBtn).toHaveClass(/active/);
+
+    // MINI GROUP and PRIVATE LESSON buttons should exist
+    const miniBtn = switcher.locator('.btn-mini');
+    const privateBtn = switcher.locator('.btn-private');
+    await expect(miniBtn).toBeVisible();
+    await expect(privateBtn).toBeVisible();
+
+    // Click on MINI GROUP button
+    await miniBtn.click();
+
+    // Should prompt for passcode gate (lock overlay should become visible)
+    await expect(page.locator('#gate-passcode-input')).toBeVisible();
+  });
 });

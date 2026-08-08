@@ -4461,6 +4461,27 @@ body.theme-wonder-watched .transcript-details summary {
     border-color: #34d399;
 }
 
+.mode-btn.active {
+    font-weight: 800;
+    pointer-events: none;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+}
+.mode-btn.btn-big.active {
+    background: #818cf8;
+    color: white !important;
+    border-color: #4f46e5;
+}
+.mode-btn.btn-mini.active {
+    background: #f472b6;
+    color: white !important;
+    border-color: #db2777;
+}
+.mode-btn.btn-private.active {
+    background: #34d399;
+    color: white !important;
+    border-color: #059669;
+}
+
 /* Responsive button layout for smaller screens */
 @media (max-width: 500px) {
     .wonder-modes-grid {
