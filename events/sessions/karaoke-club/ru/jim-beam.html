@@ -1,308 +1,59 @@
 <!DOCTYPE html>
+
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Jim Beam — COSYlanguages</title>
-<link rel="icon" href="../../../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../../../css/tokens.css">
-<link rel="stylesheet" href="../../../../css/base.css">
-<link rel="stylesheet" href="../../../../css/components.css">
-<link rel="stylesheet" href="../../../../css/layout.css">
-<link rel="stylesheet" href="../../../../css/events.css">
+<link href="../../../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../../../css/tokens.css" rel="stylesheet"/>
+<link href="../../../../css/base.css" rel="stylesheet"/>
+<link href="../../../../css/components.css" rel="stylesheet"/>
+<link href="../../../../css/layout.css" rel="stylesheet"/>
+<link href="../../../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
-  <div class="club-tag">Karaoke Club</div>
-  <h1>Jim Beam</h1>
-  <p class="session-date">Земфира • B2</p>
+<div class="club-tag">Karaoke Club</div>
+<h1>Jim Beam</h1>
+<p class="session-date">Земфира • B2</p>
 </header>
-<main class="content-container">
-  <nav class="cosy-breadcrumbs">
-    <a href="../../../../">Главная</a> <span class="sep">/</span>
-    <a href="../../../">События</a> <span class="sep">/</span>
-    <a href="../../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
-    <span class="current">Jim Beam</span>
-  </nav>
-  <a href="../../../karaoke-club.html" class="back-link">← Вернуться в клуб</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Длительность</h4><p>90–120 минут</p></div>
-    <div class="meta-item"><h4>Язык</h4><p>Русский</p></div>
-    <div class="meta-item"><h4>Уровень</h4><p>Выше среднего (B2)</p></div>
-    <div class="meta-item"><h4>Тема</h4><p>Побeг от реальности</p></div>
-    <div class="meta-item"><h4>Resources</h4><p>
-      <a href="https://www.youtube.com/watch?v=HiMEsJ5jZnk" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
-      <a href="https://www.youtube.com/watch?v=HiMEsJ5jZnk" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
-    </p></div>
-    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
-  </div>
-
-  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
-    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Тема: Побeг от реальности</h3>
-    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Мы обсудим:</p>
-    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
-            <li>Танцплощадка (ж.)</li>
-      <li>Лихорадка (ж.)</li>
-      <li>Тревога (ж.)</li>
-      <li>Personal reflection</li>
-    </ul>
-  </div>
-
-  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
-    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
-      <span>🗣️ Speaking Time Gauge</span>
-      <span>90-120 min Session</span>
-    </div>
-    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
-      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
-      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
-      <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
-      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
-      <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
-      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
-    </div>
-    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
-      <span>🎵 Warm-up (10%)</span>
-      <span>📚 Vocabulary (15%)</span>
-      <span>🎧 Listening (15%)</span>
-      <span>💬 Discussion (45%)</span>
-      <span>✨ Language Focus (10%)</span>
-      <span>🎭 Final Challenge (5%)</span>
-    </div>
-  </div>
-
-  <div class="rounds-container">
-    <div class="round-block warm-up open" id="s-warm">
-      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
-        <span>🎵 Этап 1: Разминка</span><span class="round-toggle">▲</span>
-      </div>
-      <div class="round-body" style="display:block;">
-        <ul class="round-questions">
-            <li>Насколько важна тема этого обсуждения в вашей повседневной жизни?</li>
-            <li>Посмотрите на название 'Jim Beam' и исполнителя 'Земфира'. Как вы думаете, о чем будет эта песня? (Вопрос-предсказание)</li>
-            <li>Какие эмоции вызывает у вас такой стиль музыки?</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="round-block open" id="vocabulary">
-      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
-        <span>📚 Этап 2: Словарь</span><span class="round-toggle">▲</span>
-      </div>
-      <div class="round-body" style="display:block; padding-top: 1.5rem;">
-        <div class="vocab-grid-10">
-        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Ключевые понятия и чувства</h3>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Танцплощадка (ж.)</div>
-<div class="vocab-def">понятие 'Танцплощадка (ж.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Танцплощадка (ж.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Танцплощадка (ж.)', definition:'понятие \'Танцплощадка (ж.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Танцплощадка (ж.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Лихорадка (ж.)</div>
-<div class="vocab-def">понятие 'Лихорадка (ж.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Лихорадка (ж.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Лихорадка (ж.)', definition:'понятие \'Лихорадка (ж.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Лихорадка (ж.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Тревога (ж.)</div>
-<div class="vocab-def">понятие 'Тревога (ж.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Тревога (ж.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Тревога (ж.)', definition:'понятие \'Тревога (ж.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Тревога (ж.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Грусть (ж.)</div>
-<div class="vocab-def">понятие 'Грусть (ж.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Грусть (ж.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Грусть (ж.)', definition:'понятие \'Грусть (ж.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Грусть (ж.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Стакан (ж.)</div>
-<div class="vocab-def">понятие 'Стакан (ж.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Стакан (ж.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Стакан (ж.)', definition:'понятие \'Стакан (ж.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Стакан (ж.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Жизнь, действия и связи</h3>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Звезда (ж.)</div>
-<div class="vocab-def">понятие 'Звезда (ж.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Звезда (ж.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Звезда (ж.)', definition:'понятие \'Звезда (ж.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Звезда (ж.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Крыша (ж.)</div>
-<div class="vocab-def">понятие 'Крыша (ж.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Крыша (ж.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Крыша (ж.)', definition:'понятие \'Крыша (ж.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Крыша (ж.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Лист (м.)</div>
-<div class="vocab-def">понятие 'Лист (м.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Лист (м.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Лист (м.)', definition:'понятие \'Лист (м.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Лист (м.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Нервы (мн., м.)</div>
-<div class="vocab-def">понятие 'Нервы (мн., м.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Нервы (мн., м.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Нервы (мн., м.)', definition:'понятие \'Нервы (мн., м.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Нервы (мн., м.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Дно (ср.)</div>
-<div class="vocab-def">понятие 'Дно (ср.)', раскрываемое через текст и тему песни.</div>
-<div class="vocab-example">Мы обсудили, как 'Дно (ср.)' влияет на наши повседневные отношения.</div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Дно (ср.)', definition:'понятие \'Дно (ср.)\', раскрываемое через текст и тему песни.', example:'Мы обсудили, как \'Дно (ср.)\' влияет на наши повседневные отношения.'}, this)">+ Dictionary</button>
-</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="round-block open" id="listening-exercise">
-      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
-        <span>🎧 Этап 3: Аудирование</span><span class="round-toggle">▲</span>
-      </div>
-      <div class="round-body" style="display:block; padding-top: 1.5rem;">
-        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Вспомогательный банк слов:</h3>
-          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-        <span class="club-tag" style="background: white; border-color: var(--border);">тоска</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">полночь</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">дым</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">меланхолия</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">вечность</span>
-          </div>
-        </div>
-
-        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">[Куплет 1: Земфира]<br>Грустная танцплощадка<br>На которой никто не танцует<br>Эта музыка не качает — и пусть<br>Танцы, как в лихорадке<br>Ты, как обычно, в чёрном<br>Ну а я излучаю тревогу и грусть<br><br>[Припев: Земфира]<br>По высоким, по стаканам — Jim Beam<br>В губы целоваться неприятно — герпес достал<br>А под звёздами на крыше тепло вполне<br>Может, сходим погуляем — шагнём вперёд?<br>По высоким, по стаканам — Jim Beam<br>В губы целоваться неприятно — герпес достал<br>А под звёздами на крыше тепло вполне<br>Может, сходим погуляем — шагнём вперёд?<br><br>[Куплет 2: Земфира]<br>Осень срывает листья<br>Полетели по небу нервы<br>Я заброшена и немного больна<br>Группа «Агата Кристи»<br>Год — девяносто первый<br>Мы рискуем и допиваем до дна<br><br>[Припев: Земфира & Рената Литвинова]<br>По высоким, по стаканам — Jim Beam<br>В губы целоваться неприятно — герпес достал<br>А под звёздами на крыше тепло вполне<br>Может, сходим погуляем — шагнём в кино?<br><br>[Аутро: Земфира]<br>Шагнём вперёд<br>По высоким, по стаканам — Jim Beam<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="round-block open" id="discussion">
-      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
-        <span>💬 Этап 4: Обсуждение</span><span class="round-toggle">▲</span>
-      </div>
-      <div class="round-body" style="display:block; padding-top: 1.5rem;">
-        <div class="round-1" style="margin-bottom: 2rem;">
-          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
-<div class="round-item"><div class="round-item-main">How does 'Jim Beam' by Земфира explore the deeper significance of <strong>Танцплощадка (ж.)</strong> in our daily lives?</div>
-<div class="round-item-personal">★ When was the last time you felt a strong sense of <strong>Танцплощадка (ж.)</strong> in your own life?</div>
-</div>
-<div class="round-item"><div class="round-item-main">In 'Jim Beam', is <strong>Лихорадка (ж.)</strong> presented as a source of strength or a source of doubt?</div>
-<div class="round-item-personal">★ Do you find it easy or difficult to share your feelings of <strong>Лихорадка (ж.)</strong> with others?</div>
-</div>
-<div class="round-item"><div class="round-item-main">Analyzing the lyrics of Земфира, how does <strong>Тревога (ж.)</strong> shape the overall message of the song?</div>
-<div class="round-item-personal">★ How has your personal understanding of <strong>Тревога (ж.)</strong> changed over the past few years?</div>
-</div>
-<div class="round-item"><div class="round-item-main">In what ways does 'Jim Beam' show that <strong>Грусть (ж.)</strong> is essential for personal growth?</div>
-<div class="round-item-personal">★ In your daily routine, what helps you maintain your focus on <strong>Грусть (ж.)</strong>?</div>
-</div>
-<div class="round-item"><div class="round-item-main">How does the musical style of 'Jim Beam' enhance the emotional impact of <strong>Стакан (ж.)</strong>?</div>
-<div class="round-item-personal">★ What is the most important lesson you have learned about <strong>Стакан (ж.)</strong>?</div>
-</div>
-<div class="round-item"><div class="round-item-main">When Земфира sings about their feelings, does <strong>Звезда (ж.)</strong> feel like a natural state or a challenge?</div>
-<div class="round-item-personal">★ Do you believe that modern society values <strong>Звезда (ж.)</strong>, or is it often ignored?</div>
-</div>
-<div class="round-item"><div class="round-item-main">Does 'Jim Beam' suggest that we must work to achieve <strong>Крыша (ж.)</strong>, or does it happen naturally?</div>
-<div class="round-item-personal">★ Who is the person in your life that best represents the idea of <strong>Крыша (ж.)</strong>?</div>
-</div>
-<div class="round-item"><div class="round-item-main">How does the visual imagery of 'Jim Beam' visualize the concept of <strong>Лист (м.)</strong>?</div>
-<div class="round-item-personal">★ If you could gift more <strong>Лист (м.)</strong> to someone you care about, who would it be?</div>
-</div>
-<div class="round-item"><div class="round-item-main">In your opinion, does the protagonist in 'Jim Beam' find peace through <strong>Нервы (мн., м.)</strong>, or are they left with questions?</div>
-<div class="round-item-personal">★ Do you think that <strong>Нервы (мн., м.)</strong> is more about personal peace or shared experiences?</div>
-</div>
-<div class="round-item"><div class="round-item-main">How can we apply the lessons of <strong>Дно (ср.)</strong> from 'Jim Beam' to improve our modern lives?</div>
-<div class="round-item-personal">★ What small practice or habit helps you cultivate <strong>Дно (ср.)</strong> in your relationships?</div>
-</div>
-        </div>
-        <div class="round-2" style="margin-top: 2rem;">
-          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
-<div class="round-item"><div class="round-item-main">The central portrayal of <strong>Танцплощадка (ж.)</strong> in 'Jim Beam' is a beautiful reflection of modern human struggles. Let's debate.</div>
-</div>
-<div class="round-item"><div class="round-item-main">Without a deep understanding of <strong>Лихорадка (ж.)</strong>, we can never achieve lasting success and happiness. Share your thoughts.</div>
-</div>
-<div class="round-item"><div class="round-item-main">Земфира's work shows that our collective obsession with <strong>Тревога (ж.)</strong> can sometimes lead to self-doubt. Defend or oppose.</div>
-</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="round-block open" id="lang-focus">
-      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
-        <span>✨ Этап 5: Языковой фокус</span><span class="round-toggle">▲</span>
-      </div>
-      <div class="round-body" style="display:block; padding-top: 1.5rem;">
-
-    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Грамматический фокус: Accusative Destination vs. Instrumental</h3>
-      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">В песне <strong>Jim Beam</strong> повторяющийся фрагмент текста <em>"Бутылка Джим Бим... я улетаю"</em> иллюстрирует использование <strong>Accusative Destination vs. Instrumental</strong>. Эта структура помогает: Describing escapism, reality exits, and coping.</p>
-      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
-      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
-        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Активно используйте выражение "Бутылка Джим Бим... я улетаю" в ходе обсуждения во время этой сессии.</li>
-        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Обратите внимание, как этот текстовый фрагмент "Бутылка Джим Бим... я улетаю" повторяется для создания ритма.</li>
-        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Примените оборот "Бутылка Джим Бим... я улетаю" или схожие грамматические структуры в финальном задании этапа 6.</li>
-      </ul>
-    </div>
-          </div>
-    </div>
-
-    <div class="round-block open" id="final-challenge">
-      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
-        <span>🎭 Этап 6: Финальный вызов</span><span class="round-toggle">▲</span>
-      </div>
-      <div class="round-body" style="display:block; padding-top: 1.5rem;">
-
-    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
-      <span style="font-size: 2rem;">🎭</span>
-      <div>
-        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Представьте продолжение этой песни: разыграйте по ролям разговор между главными героями 5 лет спустя.</p>
-      </div>
-    </div>
-          </div>
-    </div>
-
-<!-- Sources Section -->
-<section class="sources-section" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
-  <h4 style="margin-bottom: 0.5rem; color: var(--ink);">Sources &amp; Citations</h4>
-  <ul style="list-style-type: none; padding-left: 0; margin-bottom: 1rem;">
-    <li style="margin-bottom: 0.4rem;">Genius. « Земфира – Jim Beam (Paroles) » <em>Genius</em>, <a href="" style="color: var(--teal);" target="_blank"></a>. Consulté en juillet 2026.</li>
-    <li>« Jim Beam » <em>YouTube</em>, téléchargé par Земфира, <a href="https://www.youtube.com/watch?v=HiMEsJ5jZnk" style="color: var(--teal);" target="_blank">https://www.youtube.com/watch?v=HiMEsJ5jZnk</a>.</li>
-  </ul>
-  <p style="font-style: italic; margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
-    Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
-  </p>
-</section>
-
-    <div class="mistake-block open" id="s-mistakes">
-      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-        <span>✏️ Заметки преподавателя (исправление ошибок)</span><span class="round-toggle">▲</span>
-      </div>
-      <div class="mistake-body" style="display:block;">
-          <div class="mistake-item">
-            <span class="mistake-wrong">Я скучаю <span class="mistake-highlight">за</span> своей родиной</span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Я скучаю по своей родине</span>
-            <span class="mistake-note-text">(Используйте предлог 'по' с дательным падежом для выражения тоски.)</span>
-          </div>
-          <div class="mistake-item">
-            <span class="mistake-wrong">Это делает меня <span class="mistake-highlight">грустить</span></span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Это заставляет меня грустить</span>
-            <span class="mistake-note-text">(В русском языке глагол 'делать' не используется для принуждения.)</span>
-          </div>
-          <div class="mistake-item">
-            <span class="mistake-wrong">Мы встретились <span class="mistake-highlight">в</span> прошлый понедельник</span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Мы встретились в прошлый понедельник</span>
-            <span class="mistake-note-text">(Это правильно, но избегайте использования предлогов там, где они не нужны.)</span>
-          </div>
-      </div>
-    </div>
-  </div>
-</main>
+<main class="content-container"><nav class="cosy-breadcrumbs">
+<a href="../../../../">Главная</a> <span class="sep">/</span>
+<a href="../../../">События</a> <span class="sep">/</span>
+<a href="../../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+<span class="current">Jim Beam</span>
+</nav><a class="back-link" href="../../../karaoke-club.html">← Вернуться в клуб</a><div class="cosy-session-switcher-placeholder"></div><div class="session-meta-grid">
+<div class="meta-item"><h4>Длительность</h4><p>90–120 минут</p></div>
+<div class="meta-item"><h4>Язык</h4><p>Русский</p></div>
+<div class="meta-item"><h4>Уровень</h4><p>Выше среднего (B2)</p></div>
+<div class="meta-item"><h4>Тема</h4><p>Побeг от реальности</p></div>
+<div class="meta-item"><h4>Resources</h4><p>
+<a href="https://www.youtube.com/watch?v=HiMEsJ5jZnk" style="color:var(--teal); margin-right: 12px;" target="_blank">Music Video 🎥</a>
+<a href="https://www.youtube.com/watch?v=HiMEsJ5jZnk" style="color:var(--teal);" target="_blank">Song Link (Backup) 🎵</a>
+</p></div>
+<div class="meta-item"><h4>Offline Access</h4><p><button class="btn-print" onclick="window.print()" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+</div><div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+<h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Тема: Побeг от реальности</h3>
+<p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Мы обсудим:</p>
+<ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+<li>Танцплощадка (ж.)</li>
+<li>Лихорадка (ж.)</li>
+<li>Тревога (ж.)</li>
+<li>Personal reflection</li>
+</ul>
+</div><section class="go-deeper-placeholder" id="go-deeper" style="margin-top: 3rem; border-top: 1px dashed var(--border); padding-top: 2rem;"></section></main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
 <script src="../../../../js/core/engine.js"></script>
 <script src="../../../../js/core/ui.js"></script>
