@@ -502,10 +502,62 @@
       }
     }
 
+    class MindSessionInfo extends HTMLElement {
+      connectedCallback() {
+        const lang = this.getAttribute('lang-code') || '🇬🇧 English';
+        const level = this.getAttribute('level') || 'B1';
+        const lenses = this.getAttribute('lenses') || 'Identity';
+        const topic = this.getAttribute('topic') || 'Everyday Psychology';
+        const duration = this.getAttribute('duration') || '60 min';
+        const theme = this.getAttribute('theme') || 'Mind Matters Session';
+
+        this.innerHTML = `
+          <div class="mind-session-info-box" style="background:var(--cream-dark); border:1px solid var(--border); border-radius:14px; padding:1.5rem; margin-bottom:2rem; box-sizing:border-box;">
+            <div class="info-box-header" style="font-family:'Playfair Display', serif; font-size:1.1rem; font-weight:700; color:#993556; margin-bottom:1rem; border-bottom:1px dashed var(--border); padding-bottom:0.5rem; text-transform:uppercase; letter-spacing:0.05em;">
+              🧠 Mind Matters — Session Information Card
+            </div>
+            <div class="mind-profile-grid">
+              <div class="mind-profile-item"><strong>Psychological Topic</strong><span>${topic}</span></div>
+              <div class="mind-profile-item"><strong>Theme Focus</strong><span>${theme}</span></div>
+              <div class="mind-profile-item"><strong>Psychological Lenses</strong><span>${lenses}</span></div>
+              <div class="mind-profile-item"><strong>CEFR Level</strong><span>${level}</span></div>
+              <div class="mind-profile-item"><strong>Estimated Duration</strong><span>${duration}</span></div>
+              <div class="mind-profile-item"><strong>Language</strong><span>${lang}</span></div>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    class MindPerspectiveMirror extends HTMLElement {
+      connectedCallback() {
+        const tendency = this.getAttribute('tendency') || 'Core Human Behavior';
+        const trigger = this.getAttribute('trigger') || 'Subconscious stimulus';
+        const phenomenon = this.getAttribute('phenomenon') || 'Psychological Concept';
+        const anchor = this.getAttribute('anchor') || 'Personal Reflection Anchor';
+
+        this.innerHTML = `
+          <div class="mind-profile-box" style="margin-top:1.5rem; margin-bottom:2rem; position:relative; overflow:hidden;">
+            <h3 style="font-family:'Playfair Display', serif; font-size:1.2rem; font-weight:700; color:#993556; margin:0 0 1rem 0; display:flex; align-items:center; gap:0.5rem;">
+              🧠 Subconscious Mind Profile
+            </h3>
+            <div class="mind-profile-grid">
+              <div class="mind-profile-item"><strong>Core Human Tendency</strong><strong>${tendency}</strong></div>
+              <div class="mind-profile-item"><strong>Subconscious Trigger</strong><strong>${trigger}</strong></div>
+              <div class="mind-profile-item"><strong>Psychological Phenomenon</strong><strong>${phenomenon}</strong></div>
+              <div class="mind-profile-item"><strong>Self-Reflection Anchor</strong><strong>${anchor}</strong></div>
+            </div>
+          </div>
+        `;
+      }
+    }
+
     customElements.define('vim-choice', VimChoice);
     customElements.define('vim-instruction', VimInstruction);
     customElements.define('vim-blockquote', VimBlockquote);
     customElements.define('vim-image', VimImage);
+    customElements.define('mind-session-info', MindSessionInfo);
+    customElements.define('mind-perspective-mirror', MindPerspectiveMirror);
 
     /* ─── VOCABULARY PRONUNCIATION ──────────────────────────────── */
     const setupVocabPronunciation = () => {
