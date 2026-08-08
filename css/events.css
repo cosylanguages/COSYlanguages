@@ -3771,6 +3771,106 @@ body.theme-science-laughter {
   border-left: 5px solid #d97706;
 }
 
+/* 25. Obesity (Metabolic Theory) */
+body.theme-science-obesity {
+  background: linear-gradient(to bottom, #1f110c, #3d1c14) !important;
+  color: #e2e8f0 !important;
+}
+.theme-science-obesity .science-journal-box {
+  background: rgba(194, 89, 63, 0.05);
+  border: 1px solid rgba(194, 89, 63, 0.25);
+  border-left: 5px solid #c2593f;
+}
+.theme-science-obesity .vocab-card {
+  border: 1px solid rgba(194, 89, 63, 0.15);
+  background: rgba(61, 28, 20, 0.5);
+  box-shadow: 0 4px 12px rgba(194, 89, 63, 0.05);
+}
+.theme-science-obesity .round-header {
+  background: #472118 !important;
+  border-left: 5px solid #c2593f;
+}
+
+/* 26. Gut (Gastric Neurological Pathways) */
+body.theme-science-gut {
+  background: linear-gradient(to bottom, #130a1c, #261138) !important;
+  color: #e2e8f0 !important;
+}
+.theme-science-gut .science-journal-box {
+  background: rgba(157, 86, 194, 0.05);
+  border: 1px solid rgba(157, 86, 194, 0.25);
+  border-left: 5px solid #9d56c2;
+}
+.theme-science-gut .vocab-card {
+  border: 1px solid rgba(157, 86, 194, 0.15);
+  background: rgba(38, 17, 56, 0.5);
+  box-shadow: 0 4px 12px rgba(157, 86, 194, 0.05);
+}
+.theme-science-gut .round-header {
+  background: #311847 !important;
+  border-left: 5px solid #9d56c2;
+}
+
+/* 27. Backrooms (Liminal Environmental Psychology) */
+body.theme-science-backrooms {
+  background: linear-gradient(to bottom, #1c1a0e, #2d2917) !important;
+  color: #e2e8f0 !important;
+}
+.theme-science-backrooms .science-journal-box {
+  background: rgba(196, 171, 86, 0.05);
+  border: 1px solid rgba(196, 171, 86, 0.25);
+  border-left: 5px solid #c4ab56;
+}
+.theme-science-backrooms .vocab-card {
+  border: 1px solid rgba(196, 171, 86, 0.15);
+  background: rgba(45, 41, 23, 0.5);
+  box-shadow: 0 4px 12px rgba(196, 171, 86, 0.05);
+}
+.theme-science-backrooms .round-header {
+  background: #3b3519 !important;
+  border-left: 5px solid #c4ab56;
+}
+
+/* 28. Recycling (Socio-Ecological Policy) */
+body.theme-science-recycling {
+  background: linear-gradient(to bottom, #091c0e, #14331c) !important;
+  color: #e2e8f0 !important;
+}
+.theme-science-recycling .science-journal-box {
+  background: rgba(76, 161, 102, 0.05);
+  border: 1px solid rgba(76, 161, 102, 0.25);
+  border-left: 5px solid #4ca166;
+}
+.theme-science-recycling .vocab-card {
+  border: 1px solid rgba(76, 161, 102, 0.15);
+  background: rgba(20, 51, 28, 0.5);
+  box-shadow: 0 4px 12px rgba(76, 161, 102, 0.05);
+}
+.theme-science-recycling .round-header {
+  background: #1b3d24 !important;
+  border-left: 5px solid #4ca166;
+}
+
+/* 29. TV (Midlife Brain Health) */
+body.theme-science-tv {
+  background: linear-gradient(to bottom, #0a0e1c, #161c38) !important;
+  color: #e2e8f0 !important;
+}
+.theme-science-tv .science-journal-box {
+  background: rgba(94, 127, 194, 0.05);
+  border: 1px solid rgba(94, 127, 194, 0.25);
+  border-left: 5px solid #5e7fc2;
+}
+.theme-science-tv .vocab-card {
+  border: 1px solid rgba(94, 127, 194, 0.15);
+  background: rgba(22, 28, 56, 0.5);
+  box-shadow: 0 4px 12px rgba(94, 127, 194, 0.05);
+}
+.theme-science-tv .round-header {
+  background: #1c2447 !important;
+  border-left: 5px solid #5e7fc2;
+}
+
 /* ==========================================================================
    WONDER CLUB DARK THEME READABILITY AND CONTRAST OVERRIDES
    ========================================================================== */
@@ -4078,7 +4178,95 @@ body.theme-wonder-watched::after { content: "👁️"; }
 body.theme-wonder-copying::after { content: "🪞"; }
 body.theme-wonder-series::after { content: "📺"; }
 
+/* ─── Science Club Thematic Watermarks ─── */
+body.theme-science-fingers::after { content: "🖐️"; }
+body.theme-science-spider::after { content: "🕷️"; }
+body.theme-science-sensory::after { content: "⚡"; }
+body.theme-science-climate::after { content: "🌡️"; }
+body.theme-science-ozempic::after { content: "💊"; }
+body.theme-science-animal::after { content: "🦜"; }
+body.theme-science-hidden::after { content: "🧬"; }
+body.theme-science-brain90::after { content: "🧠"; }
+body.theme-science-football::after { content: "⚽"; }
+body.theme-science-aibrain::after { content: "🤖"; }
+body.theme-science-museums::after { content: "🏛️"; }
+body.theme-science-dementia::after { content: "🏘️"; }
+body.theme-science-grandmother::after { content: "👵"; }
+body.theme-science-creative::after { content: "💡"; }
+body.theme-science-grandparents::after { content: "👴"; }
+body.theme-science-handedness::after { content: "✍️"; }
+body.theme-science-delusion::after { content: "🔮"; }
+body.theme-science-impersonation::after { content: "👤"; }
+body.theme-science-fusion::after { content: "⚛️"; }
+body.theme-science-losing::after { content: "🗣️"; }
+body.theme-science-social::after { content: "👥"; }
+body.theme-science-mendelian::after { content: "🧬"; }
+body.theme-science-vliyanie::after { content: "📢"; }
+body.theme-science-laughter::after { content: "🐒"; }
+body.theme-science-obesity::after { content: "🍽️"; }
+body.theme-science-gut::after { content: "🦠"; }
+body.theme-science-backrooms::after { content: "🚪"; }
+body.theme-science-recycling::after { content: "♻️"; }
+body.theme-science-tv::after { content: "📺"; }
+
 /* ─── KEEPING UP WITH SCIENCE (PHASE 3) REDESIGN ─── */
+body[class*="theme-science"] {
+  /* High contrast, eye-friendly light/cream text variable values because body has custom dark background */
+  --ink: #fdfcf8 !important;
+  --ink-soft: #e2e8f0 !important;
+  --ink-muted: #cbd5e1 !important;
+  --ink-faint: #94a3b8 !important;
+  --muted: #cbd5e1 !important;
+  --text-color: #fdfcf8 !important;
+
+  /* Cozy, semi-transparent container variable values to allow custom gradients to show through beautifully without eye strain */
+  --warm-white: rgba(255, 255, 255, 0.08) !important;
+  --border: rgba(255, 255, 255, 0.15) !important;
+  --cream: rgba(255, 255, 255, 0.05) !important;
+  --cream-dark: rgba(0, 0, 0, 0.25) !important;
+  --surface-color: rgba(255, 255, 255, 0.05) !important;
+  --background-color: transparent !important;
+
+  /* Buttons and back links contrast */
+  --btn-secondary-color: #e2e8f0 !important;
+  --btn-secondary-hover-bg: rgba(255, 255, 255, 0.1) !important;
+  --btn-secondary-hover-color: #ffffff !important;
+  --btn-tertiary-color: #cbd5e1 !important;
+
+  /* Mistake Block Cozy Variables */
+  --mistake-bg: #241515 !important;
+  --mistake-header-bg: #331a1a !important;
+  --mistake-header-text: #fecaca !important;
+  --mistake-wrong-color: #fca5a5 !important;
+  --mistake-right-color: #86efac !important;
+}
+
+body[class*="theme-science"] .science-source-card {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: var(--border) !important;
+}
+
+body[class*="theme-science"] .science-source-card .source-links-wrapper a {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: var(--border) !important;
+  color: #a2e8dd !important;
+}
+
+body[class*="theme-science"] .science-source-card .source-links-wrapper a:hover {
+  background: #0f6e56 !important;
+  color: white !important;
+  border-color: #0f6e56 !important;
+}
+
+body[class*="theme-science"] .science-digest-summary {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+body[class*="theme-science"] .science-digest-summary .digest-header {
+  color: #cbd5e1 !important;
+}
+
 .science-session-info-box {
   background: var(--cream, #FAF7F2);
   border: 1px solid var(--border);

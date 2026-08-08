@@ -70,7 +70,7 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
   });
 
   test('KUS Session page should follow the 12-point vertical hierarchy layout redesign', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html');
+    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true');
 
     // 1. Session Information Data Sheet should be visible
     const infoBox = page.locator('.science-session-info-box');
