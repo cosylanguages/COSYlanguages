@@ -2884,6 +2884,47 @@
 
         document.body.setAttribute('data-active-mode', mode);
 
+        // Dynamically inject Wonder modes switcher
+        if (isWonderSession) {
+            const mainContainer = document.querySelector('main.content-container');
+            if (mainContainer) {
+                const isFrench = currentPathname.includes('/fr/');
+                const isRussian = currentPathname.includes('/ru/');
+
+                // Find or create switcher placeholder element
+                let switcherPlaceholder = mainContainer.querySelector('.cosy-session-switcher-placeholder');
+                if (!switcherPlaceholder) {
+                    switcherPlaceholder = document.createElement('div');
+                    switcherPlaceholder.className = 'cosy-session-switcher-placeholder';
+                    const targetAnchor = mainContainer.querySelector('.back-link') || mainContainer.querySelector('.cosy-breadcrumbs') || mainContainer.firstElementChild;
+                    if (targetAnchor) {
+                        targetAnchor.parentNode.insertBefore(switcherPlaceholder, targetAnchor.nextSibling);
+                    } else {
+                        mainContainer.prepend(switcherPlaceholder);
+                    }
+                }
+
+                // If switcher doesn't exist yet, create it next to or inside the placeholder
+                let modeSwitcher = switcherPlaceholder.querySelector('.wonder-format-switcher');
+                if (!modeSwitcher) {
+                    modeSwitcher = document.createElement('div');
+                    modeSwitcher.className = "wonder-format-switcher";
+                    modeSwitcher.style.cssText = "display: flex; gap: 0.5rem; margin-top: 1rem; margin-bottom: 2rem; flex-wrap: wrap;";
+                    switcherPlaceholder.appendChild(modeSwitcher);
+                }
+
+                let bigLabel = isFrench ? "🗣️ GRAND GROUPE" : (isRussian ? "🗣️ БОЛЬШАЯ ГРУППА" : "🗣️ BIG GROUP");
+                let miniLabel = isFrench ? "👥 MINI GROUPE" : (isRussian ? "👥 МИНИ ГРУППА" : "👥 MINI GROUP");
+                let privateLabel = isFrench ? "🎓 COURS PARTICULIER" : (isRussian ? "🎓 ЧАСТНЫЙ УРОК" : "🎓 PRIVATE LESSON");
+
+                modeSwitcher.innerHTML = `
+                    <a href="?mode=big" class="mode-btn btn-big ${mode === 'big' ? 'active' : ''}">${bigLabel}</a>
+                    <a href="?mode=mini" class="mode-btn btn-mini ${mode === 'mini' ? 'active' : ''}">${miniLabel}</a>
+                    <a href="?mode=private" class="mode-btn btn-private ${mode === 'private' ? 'active' : ''}">${privateLabel}</a>
+                `;
+            }
+        }
+
         // Dynamically inject KUS modes features & Reorder Page Layout
         if (isKusSession) {
             const mainContainer = document.querySelector('main.content-container');
