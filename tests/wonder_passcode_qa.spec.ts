@@ -63,4 +63,30 @@ test.describe('Wonder Passcode Security & QA Verification', () => {
     await page.waitForURL('**/events/i-couldnt-help-but-wonder.html');
     await expect(page.locator('h1')).toContainText("I Couldn't Help But Wonder");
   });
+
+  test('Single-digit passcode normalization for Always Watched (Mini Group with ICHBWMG4)', async ({ page }) => {
+    await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/always-watched-in-a-crowd.html?mode=mini');
+    await expect(page.locator('#gate-passcode-input')).toBeVisible();
+
+    // Type code without leading zero
+    await page.fill("#gate-passcode-input", "ICHBWMG4");
+    await page.click("#gate-passcode-submit");
+
+    // Locked screen should vanish, content unlocked
+    await page.waitForSelector('#m-unit1');
+    await expect(page.locator('#m-unit1')).toBeVisible();
+  });
+
+  test('Single-digit passcode normalization for Always Watched (Private Lesson with ICHBWPL4)', async ({ page }) => {
+    await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/always-watched-in-a-crowd.html?mode=private');
+    await expect(page.locator('#gate-passcode-input')).toBeVisible();
+
+    // Type code without leading zero
+    await page.fill("#gate-passcode-input", "ICHBWPL4");
+    await page.click("#gate-passcode-submit");
+
+    // Locked screen should vanish, content unlocked
+    await page.waitForSelector('#p-step1');
+    await expect(page.locator('#p-step1')).toBeVisible();
+  });
 });

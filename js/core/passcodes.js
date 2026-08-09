@@ -178,12 +178,17 @@
         },
 
         async verifyPasscode(input, mode) {
+            let normalizedInput = (input || '').trim().toUpperCase();
+            // Normalize single-digit codes like ICHBWMG4 or ICHBWPL4, or KUSMG1, or KUSPL1
+            // by adding a leading zero so that they become ICHBWMG04, ICHBWPL04, KUSMG01, KUSPL01, etc.
+            normalizedInput = normalizedInput.replace(/^(ICHBWMG|ICHBWPL|KUSMG|KUSPL)([1-9])$/, '$10$2');
+
             const draftKey = this.getCurrentDraftKey();
             if (draftKey) {
                 const targetHash = this.HASH_DB[draftKey]?.[mode];
                 if (!targetHash) return false;
 
-                const computedHash = await this.sha256(input.trim().toUpperCase());
+                const computedHash = await this.sha256(normalizedInput);
                 if (computedHash === targetHash) {
                     const authKey = `cosy_wonder_auth_draft_${draftKey}_${mode}`;
                     sessionStorage.setItem(authKey, "true");
@@ -196,7 +201,7 @@
                 const targetHash = this.HASH_DB[kusKey]?.[mode];
                 if (!targetHash) return false;
 
-                const computedHash = await this.sha256(input.trim().toUpperCase());
+                const computedHash = await this.sha256(normalizedInput);
                 if (computedHash === targetHash) {
                     const authKey = `cosy_science_auth_${kusKey}_${mode}`;
                     sessionStorage.setItem(authKey, "true");
