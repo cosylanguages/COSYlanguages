@@ -14,7 +14,7 @@ test.describe('New Project Pages Verification', () => {
 
     // Courses summary check
     await expect(page.locator('.courses-grid.summary-grid .course-card')).toHaveCount(3);
-    await expect(page.locator('a:has-text("Explore courses")').first()).toBeVisible();
+    await expect(page.locator('[data-i18n="button.exploreTypes"]').first()).toBeVisible();
 
     // Coming soon link check
     await expect(page.locator('a:has-text("See upcoming languages")')).toBeVisible();
