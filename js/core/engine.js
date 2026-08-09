@@ -484,6 +484,16 @@ function injectStyles() {
         link.href = p + 'css/components.css';
         document.head.appendChild(link);
     }
+
+    // Modular dynamic CSS loading
+    if (document.body && document.body.className && document.body.className.includes('theme-mind')) {
+        if (!document.querySelector(`link[href*="css/mind-matters.css"]`)) {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = p + 'css/mind-matters.css';
+            document.head.appendChild(link);
+        }
+    }
 }
 
 function ensureI18nLoaded() {
