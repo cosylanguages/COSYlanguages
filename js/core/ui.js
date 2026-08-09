@@ -2875,8 +2875,8 @@
             return;
         }
 
-        // Dynamically load passcodes.js for KUS if not present
-        if (isKusSession && !window.COSY_PASSCODES) {
+        // Dynamically load passcodes.js for Wonder and KUS if not present
+        if ((isWonderSession || isKusSession) && !window.COSY_PASSCODES) {
             const prefix = currentPathname.includes('/fr/') || currentPathname.includes('/ru/') ? "../../../../" : "../../../";
             const script = document.createElement('script');
             script.src = prefix + "js/core/passcodes.js";
