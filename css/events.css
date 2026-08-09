@@ -4163,6 +4163,155 @@ body[class*="theme-science"]::after {
   z-index: -1;
 }
 
+/* ─── COZY RETRO WRITER DESK: POLAROID PHOTO FRAMES & WASHI TAPE ─── */
+
+.wonder-polaroid-frame {
+  background: #FFFDF9; /* Cream retro card paper */
+  padding: 1rem 1rem 2rem 1rem; /* Broader bottom border for Polaroid effect */
+  border-radius: 4px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35), 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 320px;
+  width: 100%;
+  margin: 2.5rem auto 1rem;
+  position: relative;
+  border: 1px solid rgba(0,0,0,0.06);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 5;
+}
+
+/* Light / Dark Mode adaptive styling */
+html[data-theme="dark"] .wonder-polaroid-frame {
+  background: #ECE5D8; /* Keeps warm tactile polaroid look in dark mode, but slightly softer */
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.wonder-polaroid-frame .session-logo,
+.wonder-polaroid-frame .wonder-card-logo {
+  border: 1px solid rgba(0, 0, 0, 0.15) !important;
+  border-radius: 2px !important;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.15) !important;
+  margin: 0 !important;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Captions under photo in physical handwritten styles */
+.wonder-polaroid-frame .polaroid-caption {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85rem;
+  color: #5C4D3C;
+  font-weight: 700;
+  margin-top: 1rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.85;
+}
+
+/* Simulated realistic Translucent Washi Tape overlay */
+.wonder-polaroid-frame .washi-tape {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+  width: 120px;
+  height: 32px;
+  background-color: rgba(230, 215, 185, 0.55); /* Translucent tan tape */
+  backdrop-filter: blur(1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border-left: 1px dashed rgba(255, 255, 255, 0.3);
+  border-right: 1px dashed rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Jagged edges for Washi Tape using linear gradient overlays */
+.wonder-polaroid-frame .washi-tape::before,
+.wonder-polaroid-frame .washi-tape::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-size: 4px 4px;
+}
+.wonder-polaroid-frame .washi-tape::before {
+  left: -2px;
+  background-image: linear-gradient(135deg, transparent 50%, rgba(230, 215, 185, 0.55) 50%),
+                    linear-gradient(225deg, transparent 50%, rgba(230, 215, 185, 0.55) 50%);
+}
+.wonder-polaroid-frame .washi-tape::after {
+  right: -2px;
+  background-image: linear-gradient(45deg, rgba(230, 215, 185, 0.55) 50%, transparent 50%),
+                    linear-gradient(315deg, rgba(230, 215, 185, 0.55) 50%, transparent 50%);
+}
+
+/* Individual Polaroid scattered rotation angles */
+.wonder-polaroid-frame.rot-left {
+  transform: rotate(-2deg);
+}
+.wonder-polaroid-frame.rot-right {
+  transform: rotate(2.5deg);
+}
+.wonder-polaroid-frame.rot-slight {
+  transform: rotate(1deg);
+}
+
+.wonder-polaroid-frame:hover {
+  transform: scale(1.03) rotate(0deg) translateY(-5px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+}
+
+/* ─── CLASS-BASED BACKGROUND GRADIENTS FOR SESSION HEROS ─── */
+
+body.theme-wonder-organic .session-hero {
+  background: linear-gradient(135deg, #422006, #1C1917) !important; /* Sun-dappled rich wood, cider apples */
+  border-bottom: 2px solid #CA8A04;
+}
+body.theme-wonder-euthanasia .session-hero {
+  background: linear-gradient(135deg, #1E293B, #0F172A) !important; /* Twilight ocean cliff fog in Rennes */
+  border-bottom: 2px solid #475569;
+}
+body.theme-wonder-collective .session-hero {
+  background: linear-gradient(135deg, #0D5257, #0F172A) !important; /* Deep sea emerald & wild coastline, Brest */
+  border-bottom: 2px solid #0D9488;
+}
+body.theme-wonder-copying .session-hero {
+  background: linear-gradient(135deg, #431407, #0C0402) !important; /* Cozy warm espresso, candlelight & brass frames, Rennes */
+  border-bottom: 2px solid #EA580C;
+}
+
+/* Custom logo size adjustment to prevent overlap inside heros */
+.session-hero .wonder-polaroid-frame {
+  margin-top: 1.5rem;
+}
+
+/* Polaroid inside cards */
+.wonder-card .wonder-polaroid-frame {
+  margin: 0.5rem auto 1.25rem;
+  max-width: 100%;
+  padding: 0.75rem 0.75rem 1.5rem 0.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+.wonder-card .wonder-polaroid-frame .washi-tape {
+  width: 80px;
+  height: 24px;
+  top: -12px;
+}
+.wonder-card .wonder-polaroid-frame .polaroid-caption {
+  font-size: 0.72rem;
+  margin-top: 0.6rem;
+}
+.wonder-card .wonder-polaroid-frame .wonder-card-logo {
+  border-radius: 2px !important;
+  height: 160px;
+}
+
 /* ─── DEBATABLE & RELATABLE: THEMATIC ATMOSPHERIC STYLE OVERRIDES ─── */
 
 body[class*="theme-debate-"] {
