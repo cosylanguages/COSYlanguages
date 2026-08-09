@@ -4133,6 +4133,12 @@
             contentContainer.prepend(playerContainer);
         }
 
+        // Move the localized transcript details element inside the player box so they are attached together
+        const transcriptDetails = document.querySelector('.transcript-details');
+        if (transcriptDetails) {
+            playerContainer.appendChild(transcriptDetails);
+        }
+
         // Add player styles if not already added to head
         if (!document.getElementById('wonder-audio-player-styles')) {
             const styleEl = document.createElement('style');
@@ -4236,6 +4242,9 @@
                 body.theme-wonder-watched .player-progress-bar,
                 body.theme-wonder-watched .player-btn {
                     background: #10b981;
+                }
+                .wonder-audio-player .transcript-details {
+                    margin: 1.25rem 0 0 0;
                 }
             `;
             document.head.appendChild(styleEl);
