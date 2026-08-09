@@ -484,10 +484,34 @@ function injectStyles() {
         link.href = p + 'css/components.css';
         document.head.appendChild(link);
     }
+
+    // Modular dynamic CSS loading
+    if (document.body && document.body.className && document.body.className.includes('theme-mind')) {
+        if (!document.querySelector(`link[href*="css/mind-matters.css"]`)) {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = p + 'css/mind-matters.css';
+            document.head.appendChild(link);
+        }
+    }
+}
+
+function ensureI18nLoaded() {
+    if (window.COSY_I18N || window.setLanguage) return;
+
+    // Check if script is already present in DOM
+    const existing = document.querySelector('script[src*="js/core/i18n.js"]');
+    if (existing) return;
+
+    const p = getPrefix();
+    const s = document.createElement('script');
+    s.src = p + 'js/core/i18n.js';
+    document.head.appendChild(s);
 }
 
 function inject () {
     injectStyles();
+    ensureI18nLoaded();
     if (!document.getElementById('cosy-mobile-menu')) {
         const m = document.createElement('div'); m.id = 'cosy-mobile-menu'; document.body.appendChild(m);
     }
