@@ -180,6 +180,27 @@ To move towards this isolated multi-domain architecture without breaking the cur
     *   `apps/premium-events` -> `events.cosylanguages.com`
 *   Ensure the Service Worker (`sw.js`) in each application is scoped strictly to its subdomain to prevent cache collisions.
 
+### Phase 4: LocalStorage Origin Boundaries & Cross-Subdomain Synchronization
+*   **The Origin Boundary Challenge:** `localStorage` is scoped strictly to the origin (protocol + host + port). When dividing the platform across `cosylanguages.com`, `courses.cosylanguages.com`, and `events.cosylanguages.com`, the student's local state (language preference in `cosy_ui_lang`, completed practice counters, audio volume controls, and active licenses/keys) becomes naturally isolated within each subdomain.
+*   **The "Slow-Tech" Synchronization Strategy:** To address this while adhering to our anti-database, 100% client-side privacy philosophy:
+    1.  *Independent Domain Sovereignty (Default):* Embrace decoupled local storage where possible. Since "Premium Courses" and "Thematic Speaking Clubs" are distinct products, they maintain independent local progress.
+    2.  *Lightweight Iframe Bridge (Optional):* For critical global keys (like UI language synchronized via `cosy_ui_lang` and licensing checks), load a hidden iframe from the main portal (`cosylanguages.com/sync-bridge.html`) inside the subdomains. This iframe communicates via a secured HTML5 `postMessage` protocol, passing and writing verified local states across subdomain boundaries without any external server telemetry or cloud storage syncing.
+
+### Phase 5: Subdomain-Specific PWA Manifests & Service Worker Partitioning
+*   **Boutique App Separation:** Each subdomain will deliver a dedicated, highly tuned `manifest.json` file. This lets students and teachers install "COSY Courses" (`courses.cosylanguages.com`) and "COSY Events" (`events.cosylanguages.com`) as completely separate standalone apps on their devices (mobile and desktop), complete with tailored launcher icons, independent theme colors, and clean immersion headers.
+*   **Service Worker Scoping:** Ensure that each app's `sw.js` is register-scoped strictly to its subdomain root directory (`/`). This partitions the offline storage caches, avoiding cache collisions and asset overwrites between different applications.
+*   **Offline-First Content Seeding:** Pre-cache lists in `sw.js` are configured to bundle subdomain-specific static HTML assets, custom web components (like `<vim-choice>`), and audio players to guarantee 100% offline functionality.
+
+### Phase 6: Shared Asset Distribution, Relative-to-Absolute Path Resolution & Build Compilation
+*   **Monorepo Compile Pipelines:** Because subdomains cannot use relative pathways (e.g., `../../../shared/`) to access assets above their root folder at runtime, we must configure a build compile step.
+*   **Build-Time Copying:** During CI/CD packaging, the contents of the `/shared/` folder (such as standard layout tokens in `shared/css/tokens.css` and the i18n/engine loader in `shared/js/shared-core.js`) will be programmatically compiled and copied into the distribution directories of each individual application.
+*   **Asset Path Rewriting:** Our build process (`scripts/minify.js` and custom compilation task scripts) will dynamically replace development-time relative paths with absolute, domain-isolated path structures or subdomain root-relative paths (`/css/...`, `/js/...`), ensuring absolute path resolution consistency in production.
+
+### Phase 7: Comprehensive Multi-Domain Verification, Audits & Rollback Plan
+*   **Playwright Multi-Domain Simulation:** Integrate automated end-to-end tests inside our Playwright suites. These tests will simulate a multi-subdomain environment locally using dynamic port bindings or host redirects (e.g., matching the multi-domain ports on localhost: `localhost:8080` for free-portal, `localhost:8081` for premium-courses, and `localhost:8082` for premium-events).
+*   **Visual Contrast and Accessibility Auditing:** Run automated accessibility checks (`@axe-core/playwright`) and contrast audits across the separated systems to confirm compliance with WCAG 2 AA contrast rules under both light and dark themes.
+*   **Zero-Downtime Rollback Plan:** In the event of a critical subdomain DNS routing issue, asset resolution failure, or caching bug, we maintain a deployment-ready single-domain branch. This rollback script quickly compiles the monorepo back into a single unified directory structure hosted under the root domain, reverting the multi-domain separation without loss of curriculum data.
+
 ---
 
 ## 7. Conclusion
