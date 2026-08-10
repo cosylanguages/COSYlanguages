@@ -1,0 +1,7 @@
+{
+  "name": "@cosy/free-portal",
+  "version": "1.0.0",
+  "description": "Main PWA for COSYlanguages - Free Tier Portal",
+  "private": true,
+  "dependencies": {}
+}

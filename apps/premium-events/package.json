@@ -1,0 +1,7 @@
+{
+  "name": "@cosy/premium-events",
+  "version": "1.0.0",
+  "description": "Premium Speaking, Cinema, and Karaoke Clubs for COSYlanguages",
+  "private": true,
+  "dependencies": {}
+}
