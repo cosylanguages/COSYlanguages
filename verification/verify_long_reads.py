@@ -9,7 +9,7 @@ def run_cuj(page):
 
     # Click on "Long Reads" club card
     print("Navigating to Long Reads club index...")
-    page.click("a[href='long-reads.html']")
+    page.click("a[href*='long-reads.html']")
     page.wait_for_timeout(1000)
 
     # Focus the ledger input and type "dopamine"
@@ -25,7 +25,7 @@ def run_cuj(page):
 
     # Click on Session 1 details
     print("Navigating to Session 1 details...")
-    page.click("a[href='sessions/long-reads/designed-to-addict.html']")
+    page.click("a[href*='designed-to-addict.html']")
     page.wait_for_timeout(1000)
 
     # Capture final screenshot of the session page
