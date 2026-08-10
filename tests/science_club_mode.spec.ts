@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', () => {
   test('KUS Hub page should load with the new 3-button mode access grids', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/keeping-up-with-science.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/kus/keeping-up-with-science.html');
 
     // Check if science cards exist
     const cards = page.locator('.science-card');
@@ -22,7 +22,7 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
   });
 
   test('KUS Session page under protected mode should display the KUS-themed lock screen', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=mini');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=mini');
 
     // The lock overlay should be visible
     const overlay = page.locator('#wonder-passcode-gate');
@@ -38,7 +38,7 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
   });
 
   test('KUS Session with incorrect passcode should show error, and correct passcode should unlock successfully', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=mini');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=mini');
 
     const input = page.locator('#gate-passcode-input');
     const submitBtn = page.locator('#gate-passcode-submit');
@@ -58,7 +58,7 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
   });
 
   test('KUS Session with shared=true student link should bypass passcode gate', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=mini&shared=true');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=mini&shared=true');
 
     // Lock overlay should NOT be visible
     const overlay = page.locator('#wonder-passcode-gate');
@@ -70,7 +70,7 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
   });
 
   test('KUS Session page should follow the 12-point vertical hierarchy layout redesign', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true');
 
     // 1. Session Information Data Sheet should be visible
     const infoBox = page.locator('.science-session-info-box');
@@ -102,7 +102,7 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
   });
 
   test('KUS Session page under unlocked Mini Group mode should dynamically compile and present all 6 Units', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=mini&shared=true');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=mini&shared=true');
 
     // Mini Group Speaking Session title should be visible
     const pageTitle = page.locator('#structure .section-title');
@@ -138,7 +138,7 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
   });
 
   test('KUS Session page under unlocked Private Lesson mode should dynamically compile and present all 10 Steps with Teacher Notes', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true');
 
     // Private Lesson Speaking Session title should be visible
     const pageTitle = page.locator('#structure .section-title');
