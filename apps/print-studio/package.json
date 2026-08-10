@@ -1,0 +1,7 @@
+{
+  "name": "@cosy/print-studio",
+  "version": "1.0.0",
+  "description": "High-fidelity physical print and layout generator studio for COSYlanguages",
+  "private": true,
+  "dependencies": {}
+}

@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Website for COSYlanguages",
   "main": "script.js",
+  "workspaces": [
+    "apps/*",
+    "shared"
+  ],
   "scripts": {
     "test": "playwright test"
   },
