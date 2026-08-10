@@ -2855,6 +2855,56 @@
         'i-have-no-time-for-it.html': 16
     };
 
+    /* ─── SCIENCE CLUB DRAFT MAPPING ────────────────────────────── */
+    const KUS_DRAFT_MAPPING = {
+        'ai-and-the-brain-intermediate.html': 1,
+        'ai-and-the-brain-upper-intermediate.html': 2,
+        'ai-reality-delusion.html': 3,
+        'animal-cooperation-language-intermediate.html': 4,
+        'animal-cooperation-language-upper-intermediate.html': 5,
+        'ape-laughter-speech-origin-elementary.html': 6,
+        'ape-laughter-speech-origin-intermediate.html': 7,
+        'brain-improving-in-90s-intermediate.html': 8,
+        'brain-improving-in-90s-upper-intermediate.html': 9,
+        'childhood-obesity-theory-elementary.html': 10,
+        'childhood-obesity-theory-intermediate.html': 11,
+        'climate-scientist-warming-report-intermediate.html': 12,
+        'climate-scientist-warming-report-upper-intermediate.html': 13,
+        'football-beats-shamrock-intermediate.html': 14,
+        'football-beats-shamrock-upper-intermediate.html': 15,
+        'fusion-energy.html': 16,
+        'grandmother-evolutionary-mystery.html': 17,
+        'grandparents-mental-health.html': 18,
+        'gut-brain-memory-intermediate.html': 19,
+        'hidden-regenerative-powers-intermediate.html': 20,
+        'hidden-regenerative-powers-upper-intermediate.html': 21,
+        'impersonation-accounts.html': 22,
+        'inside-the-backrooms-elementary.html': 23,
+        'inside-the-backrooms-intermediate.html': 24,
+        'living-most-creative-time.html': 25,
+        'losing-spoken-words.html': 26,
+        'mendelian-laws-broken.html': 27,
+        'museums-movies-theater-stay-younger-elementary.html': 28,
+        'museums-movies-theater-stay-younger-intermediate.html': 29,
+        'museums-movies-theater-stay-younger-upper-intermediate.html': 30,
+        'ozempic-obesity-revolution-intermediate.html': 31,
+        'ozempic-obesity-revolution-upper-intermediate.html': 32,
+        'recycling-distraction-test-intermediate.html': 33,
+        'right-handedness.html': 34,
+        'sensory-system-pain-disease-intermediate.html': 35,
+        'sensory-system-pain-disease-upper-intermediate.html': 36,
+        'social-decisions-brain.html': 37,
+        'spider-creatures-origins-of-fatherhood-intermediate.html': 38,
+        'spider-creatures-origins-of-fatherhood-upper-intermediate.html': 39,
+        'tv-midlife-shrink-brain-intermediate.html': 40,
+        'vliyanie-propagandy-deti.html': 41,
+        'where-you-live-shapes-dementia-risk-elementary.html': 42,
+        'where-you-live-shapes-dementia-risk-intermediate.html': 43,
+        'where-you-live-shapes-dementia-risk-upper-intermediate.html': 44,
+        'your-fingers-hold-secret-brain-evolution-intermediate.html': 45,
+        'your-fingers-hold-secret-brain-evolution-upper-intermediate.html': 46
+    };
+
     /* ─── WONDER CLUB & SCIENCE CLUB MODE ROUTER ────────────────── */
     const setupWonderModeRouter = () => {
         const currentPathname = window.location.pathname;
@@ -3031,8 +3081,15 @@
                     if (vocabSection) {
                         let prev = vocabSection.previousElementSibling;
                         while (prev && prev !== metaGrid && prev !== journalBox && prev !== breadcrumbs && prev !== backLink) {
-                            if (prev.tagName === 'DIV' || prev.tagName === 'P') {
-                                summaryHtml = prev.innerHTML;
+                            if (prev.tagName === 'DETAILS' || prev.id === 'description' || prev.classList.contains('transcript-details') || prev.tagName === 'DIV' || prev.tagName === 'P') {
+                                if (prev.tagName === 'DETAILS' || prev.id === 'description' || prev.classList.contains('transcript-details')) {
+                                    const innerDiv = prev.querySelector('div');
+                                    summaryHtml = innerDiv ? innerDiv.innerHTML : prev.innerHTML;
+                                    // Strip potential <summary> tag if we grabbed the entire details innerHTML
+                                    summaryHtml = summaryHtml.replace(/<summary>.*?<\/summary>/si, '');
+                                } else {
+                                    summaryHtml = prev.innerHTML;
+                                }
                                 prev.remove();
                                 break;
                             }
@@ -3101,11 +3158,26 @@
                     if (summaryHtml) {
                         const digestSummary = document.createElement('div');
                         digestSummary.className = "science-digest-summary";
+
+                        let summary_title = "🎙️ Audio Briefing Transcription / Science Digest";
+                        if (isFrench) {
+                            summary_title = "🎙️ Transcription du Briefing Audio / Résumé Scientifique";
+                        } else if (isRussian) {
+                            summary_title = "🎙️ Расшифровка аудиозаписи / Научный дайджест";
+                        }
+
                         digestSummary.innerHTML = `
                             <div class="digest-header">📝 ${isFrench ? 'RÉSUMÉ DU COMPTE RENDU' : (isRussian ? 'КРАТКАЯ СВОДКА ИССЛЕДОВАНИЯ' : 'SCIENTIFIC COMPREHENSION ABSTRACT')}</div>
-                            <div style="font-size: 1rem; color: var(--ink); line-height: 1.7; font-style: italic;">
-                                ${summaryHtml}
-                            </div>
+                            <div class="science-audio-player-placeholder" style="margin-bottom: 1rem;"></div>
+                            <details class="transcript-details" id="description" style="margin-top: 1rem; background: var(--cream); border: 1px solid var(--border); border-radius: 12px; padding: 1rem; box-sizing: border-box;">
+                                <summary style="font-weight: 700; cursor: pointer; color: var(--indigo); font-family: 'Playfair Display', serif; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                                    <span>${summary_title}</span>
+                                    <span class="round-toggle">▼</span>
+                                </summary>
+                                <div style="margin-top: 1rem; line-height: 1.7; color: var(--ink); font-size: 0.95rem;">
+                                    ${summaryHtml}
+                                </div>
+                            </details>
                         `;
                         mainContainer.appendChild(digestSummary);
                     }
@@ -3739,6 +3811,9 @@
                     }
                 }
             }
+
+            // Re-trigger science audio setup now that KUS mode routing and passcodes are initialized!
+            setupScienceSessionAudio();
         }
 
         window.COSY_WONDER_ROUTER = window.COSY_WONDER_ROUTER || {
@@ -4381,6 +4456,308 @@
         tryAutoplay();
     };
 
+    /* ─── SCIENCE CLUB SESSION AUDIO PLAYER ───────────────────────── */
+    const setupScienceSessionAudio = () => {
+        const currentPathname = window.location.pathname;
+        const isKusSession = currentPathname.includes('sessions/keeping-up-with-science/');
+
+        // Clean up any existing session audio when navigating away from a science session page
+        if (!isKusSession) {
+            if (window.cosyScienceSessionAudio) {
+                window.cosyScienceSessionAudio.pause();
+                window.cosyScienceSessionAudio = null;
+            }
+            return;
+        }
+
+        // Parse filename and look up draft number
+        const filename = currentPathname.split('/').pop().split('#')[0].split('?')[0];
+        const draftNum = KUS_DRAFT_MAPPING[filename];
+        if (!draftNum) return;
+
+        // Bypass session audio autoplay if page is locked by passcode gate
+        const params = new URLSearchParams(window.location.search);
+        const mode = params.get('mode') || 'big';
+        const isLobbyAuthorized = (mode === 'big') || !!(window.COSY_PASSCODES && window.COSY_PASSCODES.isAuthorized(mode));
+        if (!isLobbyAuthorized) {
+            return;
+        }
+
+        const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
+        const audioUrl = prefix + "sounds/keeping-up-with-science/draft" + draftNum + "/draft" + draftNum + ".mp3";
+
+        let audio = window.cosyScienceSessionAudio;
+        let isReused = false;
+
+        // Verify if we can reuse the existing pre-played audio
+        if (audio && (audio.src === audioUrl || audio.src.endsWith("sounds/keeping-up-with-science/draft" + draftNum + "/draft" + draftNum + ".mp3") || audio.src === new URL(audioUrl, window.location.href).href)) {
+            isReused = true;
+        } else {
+            if (window.cosyScienceSessionAudio) {
+                window.cosyScienceSessionAudio.pause();
+                window.cosyScienceSessionAudio = null;
+            }
+            audio = new Audio(audioUrl);
+            window.cosyScienceSessionAudio = audio;
+        }
+
+        // Determine language
+        const isFrench = currentPathname.includes('/fr/');
+        const isRussian = currentPathname.includes('/ru/');
+
+        const playerTitle = isFrench
+            ? `🎙️ Briefing Audio Scientifique (Session ${draftNum})`
+            : (isRussian ? `🎙️ Научный аудио-брифинг (Сессия ${draftNum})` : `🎙️ Science Audio Briefing (Session ${draftNum})`);
+
+        const playText = isFrench
+            ? `▶ Écouter le briefing`
+            : (isRussian ? `▶ Слушать брифинг` : `▶ Play Audio Briefing`);
+
+        const pauseText = isFrench
+            ? `⏸ Suspendre le briefing`
+            : (isRussian ? `⏸ Пауза брифинга` : `⏸ Pause Briefing`);
+
+        // Create player elements
+        const playerContainer = document.createElement('div');
+        playerContainer.className = 'science-audio-player';
+        playerContainer.innerHTML = `
+            <div class="player-header">
+                <span class="player-title-text">${playerTitle}</span>
+                <span class="player-status-badge">briefing_active.wav</span>
+            </div>
+            <div class="player-controls">
+                <button class="player-btn" id="science-draft-play-btn">${playText}</button>
+                <div class="player-progress-container" id="science-draft-progress-container">
+                    <div class="player-progress-bar" id="science-draft-progress"></div>
+                </div>
+                <span class="player-time" id="science-draft-time">0:00 / 0:00</span>
+            </div>
+        `;
+
+        // Inject the player container inside placeholder
+        const playerPlaceholder = document.querySelector('.science-audio-player-placeholder');
+        const contentContainer = document.querySelector('.content-container');
+        if (playerPlaceholder) {
+            playerPlaceholder.appendChild(playerContainer);
+        } else if (contentContainer) {
+            // Fallback placement inside content container
+            const digest = document.querySelector('.science-digest-summary');
+            if (digest) {
+                digest.parentNode.insertBefore(playerContainer, digest);
+            } else {
+                contentContainer.prepend(playerContainer);
+            }
+        }
+
+        // Move the localized transcript details element inside the player box so they are attached together
+        const transcriptDetails = document.querySelector('.transcript-details');
+        if (transcriptDetails) {
+            playerContainer.appendChild(transcriptDetails);
+        }
+
+        // Add player styles if not already added to head
+        if (!document.getElementById('science-audio-player-styles')) {
+            const styleEl = document.createElement('style');
+            styleEl.id = 'science-audio-player-styles';
+            styleEl.textContent = `
+                .science-audio-player {
+                    background: var(--cream-dark, #FAF7F2);
+                    border: 2px dashed #0F6E56;
+                    border-radius: 16px;
+                    padding: 1.5rem;
+                    margin: 2rem 0;
+                    font-family: 'Courier New', Courier, monospace;
+                    color: var(--ink, #07372b);
+                    box-shadow: var(--shadow-sm);
+                    transition: all 0.3s ease;
+                }
+                .science-audio-player .player-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 1rem;
+                    border-bottom: 1px dashed rgba(15, 110, 86, 0.3);
+                    padding-bottom: 0.5rem;
+                }
+                .science-audio-player .player-title-text {
+                    font-weight: bold;
+                    font-size: 1rem;
+                    color: #0F6E56;
+                }
+                .science-audio-player .player-status-badge {
+                    font-size: 0.75rem;
+                    text-transform: uppercase;
+                    opacity: 0.7;
+                    letter-spacing: 0.05em;
+                    color: var(--ink, #07372b);
+                }
+                .science-audio-player .player-controls {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+                .science-audio-player .player-btn {
+                    background: #0F6E56;
+                    color: white;
+                    border: none;
+                    border-radius: 20px;
+                    padding: 0.5rem 1.2rem;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 0.85rem;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: all 0.2s;
+                    white-space: nowrap;
+                    box-shadow: var(--shadow-sm);
+                }
+                .science-audio-player .player-btn:hover {
+                    background: #0d5c46;
+                    transform: translateY(-1px);
+                }
+                .science-audio-player .player-progress-container {
+                    flex-grow: 1;
+                    height: 8px;
+                    background: rgba(15, 110, 86, 0.15);
+                    border-radius: 4px;
+                    position: relative;
+                    cursor: pointer;
+                    overflow: hidden;
+                }
+                .science-audio-player .player-progress-bar {
+                    height: 100%;
+                    width: 0%;
+                    background: #0F6E56;
+                    border-radius: 4px;
+                    transition: width 0.1s linear;
+                }
+                .science-audio-player .player-time {
+                    font-size: 0.85rem;
+                    opacity: 0.8;
+                    min-width: 85px;
+                    text-align: right;
+                    color: var(--ink, #07372b);
+                }
+                .science-audio-player .transcript-details {
+                    margin: 1.25rem 0 0 0;
+                    background: var(--surface-color, #ffffff) !important;
+                    border: 1px solid var(--border) !important;
+                    color: var(--ink, #07372b) !important;
+                }
+                .science-audio-player .transcript-details div,
+                .science-audio-player .transcript-details p,
+                .science-audio-player .transcript-details span {
+                    color: var(--ink, #07372b) !important;
+                }
+            `;
+            document.head.appendChild(styleEl);
+        }
+
+        const playBtn = document.getElementById('science-draft-play-btn');
+        const progressBar = document.getElementById('science-draft-progress');
+        const progressContainer = document.getElementById('science-draft-progress-container');
+        const timeDisplay = document.getElementById('science-draft-time');
+
+        // Format duration helper
+        const formatTime = (seconds) => {
+            if (isNaN(seconds)) return "0:00";
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+        };
+
+        // Playback controls
+        const togglePlay = () => {
+            if (audio.paused) {
+                audio.play()
+                    .then(() => {
+                        playBtn.textContent = pauseText;
+                    })
+                    .catch(err => {
+                        console.log("Audio play blocked, waiting for interaction", err);
+                    });
+            } else {
+                audio.pause();
+                playBtn.textContent = playText;
+            }
+        };
+
+        if (playBtn) playBtn.addEventListener('click', togglePlay);
+
+        // Update progress and time
+        const updateProgressBar = () => {
+            const percent = (audio.currentTime / (audio.duration || 1)) * 100;
+            if (progressBar && !isNaN(percent)) progressBar.style.width = `${percent}%`;
+            if (timeDisplay) {
+                const currentStr = formatTime(audio.currentTime);
+                const durationStr = formatTime(audio.duration);
+                timeDisplay.textContent = `${currentStr} / ${durationStr}`;
+            }
+        };
+
+        audio.addEventListener('timeupdate', updateProgressBar);
+
+        // Loaded metadata to set initial duration
+        audio.addEventListener('loadedmetadata', () => {
+            if (timeDisplay) timeDisplay.textContent = `0:00 / ${formatTime(audio.duration)}`;
+        });
+
+        // Handle ended state
+        audio.addEventListener('ended', () => {
+            if (playBtn) playBtn.textContent = playText;
+            if (progressBar) progressBar.style.width = '0%';
+        });
+
+        // Scrubbing/seeking support
+        if (progressContainer) {
+            progressContainer.addEventListener('click', (e) => {
+                const rect = progressContainer.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const width = rect.width;
+                const clickPercent = clickX / width;
+                if (!isNaN(audio.duration)) {
+                    audio.currentTime = clickPercent * audio.duration;
+                }
+            });
+        }
+
+        // Initialize UI values
+        updateProgressBar();
+
+        // Automatic autoplay attempt
+        const tryAutoplay = () => {
+            if (isReused && !audio.paused) {
+                if (playBtn) playBtn.textContent = pauseText;
+                return;
+            }
+            audio.play()
+                .then(() => {
+                    if (playBtn) playBtn.textContent = pauseText;
+                })
+                .catch(() => {
+                    // Autoplay blocked by browser. Add one-time user interaction listeners to play
+                    const playOnInteraction = () => {
+                        audio.play()
+                            .then(() => {
+                                if (playBtn) playBtn.textContent = pauseText;
+                                removeListeners();
+                            })
+                            .catch(e => console.log(e));
+                    };
+                    const removeListeners = () => {
+                        document.removeEventListener('click', playOnInteraction);
+                        document.removeEventListener('keydown', playOnInteraction);
+                        document.removeEventListener('touchstart', playOnInteraction);
+                    };
+                    document.addEventListener('click', playOnInteraction);
+                    document.addEventListener('keydown', playOnInteraction);
+                    document.addEventListener('touchstart', playOnInteraction);
+                });
+        };
+
+        // Attempt autoplay
+        tryAutoplay();
+    };
+
     const autoCollapseFoldableSections = () => {
         const foldables = document.querySelectorAll('.round-block, .mistake-block');
         foldables.forEach(el => {
@@ -4448,6 +4825,7 @@
         autoCollapseFoldableSections();
         setupWonderMusic();
         setupWonderSessionAudio();
+        setupScienceSessionAudio();
         setupWonderModeRouter();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
 
