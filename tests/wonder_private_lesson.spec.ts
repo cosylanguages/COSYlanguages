@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Wonder Private Lesson (1-to-1) Mode Verification', () => {
   test('Private lesson step structures should exist and have visual splits', async ({ page }) => {
     // Navigate with mode=private query
-    await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=private');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=private');
 
     // Ensure the passcode gate is shown initially
     await expect(page.locator('#gate-passcode-input')).toBeVisible();
@@ -47,7 +47,7 @@ test.describe('Wonder Private Lesson (1-to-1) Mode Verification', () => {
 
   test('Shared student link should bypass passcode gate successfully', async ({ page }) => {
     // Navigate with shared=true parameter
-    await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=private&shared=true');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=private&shared=true');
 
     // Passcode gate overlay should NOT be visible
     await expect(page.locator('#gate-passcode-input')).toBeHidden();
@@ -58,7 +58,7 @@ test.describe('Wonder Private Lesson (1-to-1) Mode Verification', () => {
 
   test('Format switcher should render and permit direct switching on session pages', async ({ page }) => {
     // Navigate to big group mode
-    await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=big');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=big');
 
     // Format switcher should be visible
     const switcher = page.locator('.wonder-format-switcher');

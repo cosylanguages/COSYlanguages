@@ -2034,43 +2034,43 @@
         {
             id: "wonder-are-traditions-hidden-monogamy",
             pages: [
-                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" }
+                { lang: "en", path: "apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "en", path: "apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" }
             ]
         },
         {
             id: "wonder-ugly-produce",
             pages: [
-                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/wonder/fr/sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
         {
             id: "wonder-adhd",
             pages: [
-                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/wonder/fr/sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
         {
             id: "wonder-parenting-instinct",
             pages: [
-                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/wonder/fr/sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
         {
             id: "wonder-feeling-empty",
             pages: [
-                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/wonder/fr/sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
         {
             id: "wonder-death-album",
             pages: [
-                { lang: "en", path: "events/sessions/i-couldnt-help-but-wonder/death-of-the-album.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/i-couldnt-help-but-wonder/death-of-the-album.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/death-of-the-album.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/wonder/fr/sessions/i-couldnt-help-but-wonder/death-of-the-album.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
         // 🎉 Let's Celebrate Multilingual Groups
