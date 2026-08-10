@@ -3,13 +3,13 @@ import { test, expect } from '@playwright/test';
 test.describe('Sounds and Music System', () => {
   test('Wonder club background music plays and maintains state', async ({ page }) => {
     // 1. Visit Wonder Club page
-    await page.goto('http://localhost:8080/events/i-couldnt-help-but-wonder.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/wonder/i-couldnt-help-but-wonder.html');
 
     // 2. Click on body to trigger interaction play
     await page.click('body');
 
     // 3. Navigate to a session page within the same club
-    await page.goto('http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html');
 
     // Click on body to trigger interaction play
     await page.click('body');
@@ -27,7 +27,7 @@ test.describe('Sounds and Music System', () => {
 
   test('Seamless PJAX transition maintains the exact same audio context and eliminates gap/stop', async ({ page }) => {
     // 1. Visit Wonder Club main page
-    await page.goto('http://localhost:8080/events/i-couldnt-help-but-wonder.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/wonder/i-couldnt-help-but-wonder.html');
     await page.click('body');
 
     // 2. Attach a unique tag to the active audio element to verify it is NOT destroyed
