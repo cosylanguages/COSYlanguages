@@ -5270,10 +5270,14 @@ for song in all_karaoke_data:
     if lang != "en":
         session_output_dir = os.path.join(OUTPUT_DIR, lang)
         os.makedirs(session_output_dir, exist_ok=True)
-        # Adjust relative paths for nested folder depth
-        formatted_html = formatted_html.replace('href="../../../', 'href="../../../../')
-        formatted_html = formatted_html.replace('href="../../', 'href="../../../')
-        formatted_html = formatted_html.replace('src="../../../', 'src="../../../../')
+        # Adjust relative paths for nested folder depth using unique placeholders to prevent double-replacement overlaps
+        formatted_html = formatted_html.replace('href="../../../', 'HREF_DEPTH_3_PLACEHOLDER')
+        formatted_html = formatted_html.replace('href="../../', 'HREF_DEPTH_2_PLACEHOLDER')
+        formatted_html = formatted_html.replace('src="../../../', 'SRC_DEPTH_3_PLACEHOLDER')
+
+        formatted_html = formatted_html.replace('HREF_DEPTH_3_PLACEHOLDER', 'href="../../../../')
+        formatted_html = formatted_html.replace('HREF_DEPTH_2_PLACEHOLDER', 'href="../../../')
+        formatted_html = formatted_html.replace('SRC_DEPTH_3_PLACEHOLDER', 'src="../../../../')
         # Also clean up old flat file if it exists to avoid orphans
         old_flat_path = os.path.join(OUTPUT_DIR, f"{slug}.html")
         if os.path.exists(old_flat_path):
