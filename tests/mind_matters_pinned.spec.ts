@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Mind Matters Pinned Batches Verification', () => {
   test('Page loads correctly and showcases four pinned batches', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/mind-matters.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/mind/mind-matters.html');
 
     // 1. Verify page title
     await expect(page).toHaveTitle(/Mind Matters 🧠 — COSYlanguages/);
