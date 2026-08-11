@@ -2012,22 +2012,22 @@
         {
             id: "life-obsolete-jobs",
             pages: [
-                { lang: "en", path: "events/sessions/my-life-with-without/obsolete-jobs-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/my-life-with-without/obsolete-jobs-advanced.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" }
+                { lang: "en", path: "apps/premium-events/clubs/life/sessions/my-life-with-without/obsolete-jobs-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/life/sessions/my-life-with-without/obsolete-jobs-advanced.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" }
             ]
         },
         {
             id: "life-high-rise-skyscrapers",
             pages: [
-                { lang: "en", path: "events/sessions/my-life-with-without/high-rise-skyscrapers-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/my-life-with-without/high-rise-skyscrapers-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/life/sessions/my-life-with-without/high-rise-skyscrapers-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/life/sessions/my-life-with-without/high-rise-skyscrapers-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "life-private-cars",
             pages: [
-                { lang: "en", path: "events/sessions/my-life-with-without/private-cars-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/my-life-with-without/private-cars-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/life/sessions/my-life-with-without/private-cars-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/life/sessions/my-life-with-without/private-cars-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         // 🌌 I Couldn't Help But Wonder Multilingual Groups
@@ -2152,39 +2152,39 @@
         {
             id: "4-day-work-week",
             pages: [
-                { lang: "en", path: "events/sessions/debatable-relatable/4-day-work-week.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/debatable-relatable/la-semaine-de-4-jours.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
-                { lang: "ru", path: "events/ru/sessions/debatable-relatable/4-dnevnaya-rabochaya-nedelya.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/4-day-work-week.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/debate/fr/sessions/debatable-relatable/la-semaine-de-4-jours.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "apps/premium-events/clubs/debate/ru/sessions/debatable-relatable/4-dnevnaya-rabochaya-nedelya.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
             ]
         },
         {
             id: "assisted-dying",
             pages: [
-                { lang: "en", path: "events/sessions/debatable-relatable/assisted-dying.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
-                { lang: "fr", path: "events/fr/sessions/debatable-relatable/l-aide-active-a-mourir.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/assisted-dying.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/debate/fr/sessions/debatable-relatable/l-aide-active-a-mourir.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
             ]
         },
         {
             id: "short-holiday-vs-long-holiday",
             pages: [
-                { lang: "en", path: "events/sessions/debatable-relatable/short-holiday-vs-long-holiday-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/debatable-relatable/short-holiday-vs-long-holiday-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/debatable-relatable/short-holiday-vs-long-holiday-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/short-holiday-vs-long-holiday-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/short-holiday-vs-long-holiday-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/short-holiday-vs-long-holiday-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "typing-vs-handwriting",
             pages: [
-                { lang: "en", path: "events/sessions/debatable-relatable/typing-vs-handwriting-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/debatable-relatable/typing-vs-handwriting-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/typing-vs-handwriting-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/typing-vs-handwriting-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "human-cloning",
             pages: [
-                { lang: "en", path: "events/sessions/debatable-relatable/human-cloning-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/debatable-relatable/human-cloning-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/human-cloning-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/debate/sessions/debatable-relatable/human-cloning-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {

@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Session Switcher Integration Tests', () => {
     test('should display level switcher on multi-level pages and navigate correctly', async ({ page }) => {
         // Navigate to the typing-vs-handwriting-elementary page
-        await page.goto('http://localhost:8080/events/sessions/debatable-relatable/typing-vs-handwriting-elementary.html');
+        await page.goto('http://localhost:8080/apps/premium-events/clubs/debate/sessions/debatable-relatable/typing-vs-handwriting-elementary.html');
 
         // Wait for session switcher to be loaded and attached to DOM
         const switcher = page.locator('.session-switcher');
@@ -23,7 +23,7 @@ test.describe('Session Switcher Integration Tests', () => {
 
         // Click intermediate button and verify navigation
         await intermBtn.click();
-        await page.waitForURL('**/events/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html');
+        await page.waitForURL('**/apps/premium-events/clubs/debate/sessions/debatable-relatable/typing-vs-handwriting-intermediate.html');
 
         // Verify that on the new page, the Intermediate button is active
         const newSwitcher = page.locator('.session-switcher');
@@ -34,7 +34,7 @@ test.describe('Session Switcher Integration Tests', () => {
 
     test('should display language switcher on multilingual pages and navigate correctly', async ({ page }) => {
         // Navigate to 4-day-work-week page (English)
-        await page.goto('http://localhost:8080/events/sessions/debatable-relatable/4-day-work-week.html');
+        await page.goto('http://localhost:8080/apps/premium-events/clubs/debate/sessions/debatable-relatable/4-day-work-week.html');
 
         const switcher = page.locator('.session-switcher');
         await expect(switcher).toBeVisible();
@@ -57,7 +57,7 @@ test.describe('Session Switcher Integration Tests', () => {
 
         // Click French button and verify navigation
         await frenchBtn.click();
-        await page.waitForURL('**/events/fr/sessions/debatable-relatable/la-semaine-de-4-jours.html');
+        await page.waitForURL('**/apps/premium-events/clubs/debate/fr/sessions/debatable-relatable/la-semaine-de-4-jours.html');
 
         // On French page, the label should be translated
         const frSwitcher = page.locator('.session-switcher');

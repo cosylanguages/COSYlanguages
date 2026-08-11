@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 
 def run_cuj(page):
     # Navigate to the My Life With & Without speaking club page
-    page.goto("http://localhost:8080/events/my-life-with-without.html")
+    page.goto("http://localhost:8080/apps/premium-events/clubs/life/my-life-with-without.html")
     page.wait_for_timeout(1000)
 
     # Scroll to the Past Sessions section
