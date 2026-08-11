@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from remediate_french_data import VOCAB_FRENCH, VOCAB_OPPOSITES
 from remediate_french_questions import SONG_QUESTIONS
 
-OUTPUT_DIR = "events/sessions/karaoke-club"
+OUTPUT_DIR = "events/sessions/karaoke-club/fr"
 
 GENIUS_URLS = {
     "je-taime-comme-je-taime": "https://genius.com/Maelle-je-taime-comme-je-taime-lyrics",
