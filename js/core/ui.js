@@ -2077,76 +2077,76 @@
         {
             id: "celebrate-lunar-new-year",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/lunar-new-year.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/lets-celebrate/lunar-new-year.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
-                { lang: "ru", path: "events/ru/sessions/lets-celebrate/lunar-new-year.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/lunar-new-year.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/celebrate/fr/sessions/lets-celebrate/lunar-new-year.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "apps/premium-events/clubs/celebrate/ru/sessions/lets-celebrate/lunar-new-year.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
             ]
         },
         {
             id: "celebrate-diwali-festival",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/diwali-festival.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/lets-celebrate/diwali-festival.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
-                { lang: "ru", path: "events/ru/sessions/lets-celebrate/diwali-festival.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/diwali-festival.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/celebrate/fr/sessions/lets-celebrate/diwali-festival.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "apps/premium-events/clubs/celebrate/ru/sessions/lets-celebrate/diwali-festival.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
             ]
         },
         {
             id: "celebrate-national-simplicity-day",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/national-simplicity-day.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
-                { lang: "fr", path: "events/fr/sessions/lets-celebrate/national-simplicity-day.html", level: "A1", label: "🇫🇷 Français", levelLabel: "Débutant (A1)" },
-                { lang: "ru", path: "events/ru/sessions/lets-celebrate/national-simplicity-day.html", level: "A1", label: "🇷🇺 Русский", levelLabel: "Начинающий (A1)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/national-simplicity-day.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/celebrate/fr/sessions/lets-celebrate/national-simplicity-day.html", level: "A1", label: "🇫🇷 Français", levelLabel: "Débutant (A1)" },
+                { lang: "ru", path: "apps/premium-events/clubs/celebrate/ru/sessions/lets-celebrate/national-simplicity-day.html", level: "A1", label: "🇷🇺 Русский", levelLabel: "Начинающий (A1)" }
             ]
         },
         {
             id: "celebrate-national-workaholics-day",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/national-workaholics-day.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
-                { lang: "fr", path: "events/fr/sessions/lets-celebrate/national-workaholics-day.html", level: "A1", label: "🇫🇷 Français", levelLabel: "Débutant (A1)" },
-                { lang: "ru", path: "events/ru/sessions/lets-celebrate/national-workaholics-day.html", level: "A1", label: "🇷🇺 Русский", levelLabel: "Начинающий (A1)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/national-workaholics-day.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/celebrate/fr/sessions/lets-celebrate/national-workaholics-day.html", level: "A1", label: "🇫🇷 Français", levelLabel: "Débutant (A1)" },
+                { lang: "ru", path: "apps/premium-events/clubs/celebrate/ru/sessions/lets-celebrate/national-workaholics-day.html", level: "A1", label: "🇷🇺 Русский", levelLabel: "Начинающий (A1)" }
             ]
         },
         {
             id: "celebrate-family-remittances-day",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/family-remittances-day.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/lets-celebrate/family-remittances-day.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
-                { lang: "ru", path: "events/ru/sessions/lets-celebrate/family-remittances-day.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/family-remittances-day.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/celebrate/fr/sessions/lets-celebrate/family-remittances-day.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "apps/premium-events/clubs/celebrate/ru/sessions/lets-celebrate/family-remittances-day.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
             ]
         },
         {
             id: "celebrate-urban-beekeeping-day",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/urban-beekeeping-day-starter.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
-                { lang: "en", path: "events/sessions/lets-celebrate/urban-beekeeping-day-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/urban-beekeeping-day-starter.html", level: "A1", label: "🇬🇧 English", levelLabel: "Starter (A1)" },
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/urban-beekeeping-day-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" }
             ]
         },
         {
             id: "celebrate-national-someone-day",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/national-someone-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/lets-celebrate/national-someone-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/national-someone-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/national-someone-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "celebrate-pandemonium-day",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/pandemonium-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/lets-celebrate/pandemonium-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/pandemonium-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/pandemonium-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "celebrate-international-peace-love-day",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/international-peace-love-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/lets-celebrate/international-peace-love-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/international-peace-love-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/international-peace-love-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "celebrate-international-asteroid-day",
             pages: [
-                { lang: "en", path: "events/sessions/lets-celebrate/international-asteroid-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/lets-celebrate/international-asteroid-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/international-asteroid-day-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/celebrate/sessions/lets-celebrate/international-asteroid-day-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
@@ -2290,119 +2290,119 @@
         {
             id: "feynman-knowledge-isnt-free",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/feynman-knowledge-isnt-free-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "feynman-study-hard",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-study-hard.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/feynman-study-hard-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/feynman-study-hard.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/feynman-study-hard-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" }
             ]
         },
         {
             id: "madonna-ai-art-quote",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/madonna-ai-art-quote-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/madonna-ai-art-quote-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/madonna-ai-art-quote-elementary.html", level: "A2", label: "🇬🇧 English", levelLabel: "Elementary (A2)" },
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/madonna-ai-art-quote-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "dolto-difficult-child-quote",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/dolto-difficult-child-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/dolto-difficult-child-quote.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
-                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/dolto-difficult-child-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dolto-difficult-child-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/dolto-difficult-child-quote.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/dolto-difficult-child-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
             ]
         },
         {
             id: "accept-gay-child",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/accept-gay-child.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/accept-gay-child.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/accept-gay-child.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/accept-gay-child.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" },
                 { lang: "ru", path: "events/ru/sessions/mind-matters/syn-vlyubilsya-v-druga.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
             ]
         },
         {
             id: "robin-williams-quote",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/robin-williams-quote-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/robin-williams-quote-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/robin-williams-quote-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/robin-williams-quote-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "ai-opposite-of-art",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "en", path: "events/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/ai-opposite-of-art-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/ai-opposite-of-art-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/ai-opposite-of-art.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
             ]
         },
         {
             id: "dangerous-blindness-perspective",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/dangerous-blindness-perspective.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/dangerous-blindness-perspective.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dangerous-blindness-perspective.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/dangerous-blindness-perspective.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
             ]
         },
         {
             id: "favorite-days-not-happened",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/favorite-days-not-happened.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/favorite-days-not-happened.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/favorite-days-not-happened.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/favorite-days-not-happened.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
             ]
         },
         {
             id: "home-is-a-time",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/home-is-a-time.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/home-is-a-time.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/home-is-a-time.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/home-is-a-time.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
         {
             id: "must-die-first",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/must-die-first.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/must-die-first.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/must-die-first.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/must-die-first.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
             ]
         },
         {
             id: "saudade",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/saudade.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/saudade.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/saudade.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/saudade.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
         {
             id: "sonder",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/sonder.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/sonder.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/sonder.html", level: "C1", label: "🇬🇧 English", levelLabel: "Advanced (C1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/sonder.html", level: "C1", label: "🇫🇷 Français", levelLabel: "Avancé (C1)" }
             ]
         },
         {
             id: "women-mothers-tragedy",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/women-mothers-tragedy.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/women-mothers-tragedy.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/women-mothers-tragedy.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/women-mothers-tragedy.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
             ]
         },
         {
             id: "you-are-a-soul",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/you-are-a-soul.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/you-are-a-soul.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/you-are-a-soul.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/you-are-a-soul.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
         {
             id: "voltaire-read-dance-quote",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/voltaire-read-dance-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/voltaire-read-dance-quote.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/voltaire-read-dance-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/voltaire-read-dance-quote.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
         {
@@ -2492,43 +2492,43 @@
         {
             id: "dostoevsky-loving-power-quote",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
             ]
         },
         {
             id: "dostoevsky-politics-religion-quote",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
             ]
         },
         {
             id: "neufeld-resistance-quote",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/neufeld-resistance-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/neufeld-resistance-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/neufeld-resistance-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/neufeld-resistance-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
             ]
         },
         {
             id: "langle-suppressed-child-quote",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/langle-suppressed-child-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/langle-suppressed-child-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/langle-suppressed-child-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/langle-suppressed-child-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
             ]
         },
         {
             id: "think-for-yourself-quote",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/think-for-yourself-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "ru", path: "events/ru/sessions/the-greatest-quotes/think-for-yourself-quote.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/think-for-yourself-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/think-for-yourself-quote.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
             ]
         },
         {
             id: "wisdom-of-socrates",
             pages: [
-                { lang: "en", path: "events/sessions/the-greatest-quotes/wisdom-of-socrates.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "events/fr/sessions/the-greatest-quotes/la-sagesse-de-socrate.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
+                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/wisdom-of-socrates.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
+                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/la-sagesse-de-socrate.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
             ]
         },
         {
