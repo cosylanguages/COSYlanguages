@@ -487,10 +487,10 @@ function injectStyles() {
 
     // Modular dynamic CSS loading
     if (document.body && document.body.className && document.body.className.includes('theme-mind')) {
-        if (!document.querySelector(`link[href*="css/mind-matters.css"]`)) {
+        if (!document.querySelector(`link[href*="apps/premium-events/clubs/mind/style.css"]`)) {
             const link = document.createElement('link');
             link.rel = 'stylesheet';
-            link.href = p + 'css/mind-matters.css';
+            link.href = p + 'apps/premium-events/clubs/mind/style.css';
             document.head.appendChild(link);
         }
     }
