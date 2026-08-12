@@ -36,7 +36,7 @@ test.describe('New Features Verification', () => {
   });
 
   test('Speaking Club page has article info', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/keeping-up-with-science.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/kus/keeping-up-with-science.html');
     await expect(page.getByRole('cell', { name: 'Article', exact: true })).toBeVisible();
     await expect(page.getByRole('cell', { name: 'Description', exact: true })).toBeVisible();
     await expect(page.locator('a:has-text("Read Article")')).toBeVisible();

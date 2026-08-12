@@ -30,7 +30,7 @@ test.describe('COSYlanguages Usability & Analytics Funnels', () => {
     });
 
     test('Karaoke page interactions should populate LocalStorage analytics events', async ({ page }) => {
-        await page.goto('http://localhost:8080/events/karaoke-club.html');
+        await page.goto('http://localhost:8080/apps/premium-events/nights/karaoke/karaoke-club.html');
 
         // Click "Register Interest" link
         const registerBtn = page.locator('a.join-btn').first();
