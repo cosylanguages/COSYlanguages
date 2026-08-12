@@ -494,6 +494,22 @@ function injectStyles() {
             document.head.appendChild(link);
         }
     }
+    if (document.body && document.body.className && document.body.className.includes('theme-quotes')) {
+        if (!document.querySelector(`link[href*="apps/premium-events/clubs/quotes/style.css"]`)) {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = p + 'apps/premium-events/clubs/quotes/style.css';
+            document.head.appendChild(link);
+        }
+    }
+    if (document.body && document.body.className && document.body.className.includes('theme-celebrate')) {
+        if (!document.querySelector(`link[href*="apps/premium-events/clubs/celebrate/style.css"]`)) {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = p + 'apps/premium-events/clubs/celebrate/style.css';
+            document.head.appendChild(link);
+        }
+    }
 }
 
 function ensureI18nLoaded() {
