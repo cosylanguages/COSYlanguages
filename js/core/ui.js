@@ -2542,99 +2542,99 @@
         {
             id: "cinema-the-devil-wears-prada",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/the-devil-wears-prada-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/the-devil-wears-prada-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-devil-wears-prada-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-devil-wears-prada-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-beautiful-thing",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/beautiful-thing-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/beautiful-thing-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/beautiful-thing-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/beautiful-thing-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-the-pianist",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/the-pianist-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/the-pianist-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-pianist-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-pianist-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-the-first-wives-club",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/the-first-wives-club-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/the-first-wives-club-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-first-wives-club-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-first-wives-club-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-stepmom",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/stepmom-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/stepmom-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/stepmom-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/stepmom-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-roman-holiday",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/roman-holiday-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/roman-holiday-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/roman-holiday-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/roman-holiday-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-glee",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/glee-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/glee-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/glee-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/glee-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-hello-dolly",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/hello-dolly-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/hello-dolly-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/hello-dolly-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/hello-dolly-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-the-mummy",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/the-mummy-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/the-mummy-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-mummy-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-mummy-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-the-notebook",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/the-notebook-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/the-notebook-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-notebook-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/the-notebook-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-what-women-want",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/what-women-want-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/what-women-want-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/what-women-want-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/what-women-want-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-free-guy",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/free-guy-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/free-guy-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/free-guy-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/free-guy-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-julie-and-julia",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/julie-and-julia-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/julie-and-julia-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/julie-and-julia-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/julie-and-julia-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         },
         {
             id: "cinema-coda",
             pages: [
-                { lang: "en", path: "events/sessions/cinema-club/coda-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "en", path: "events/sessions/cinema-club/coda-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/coda-intermediate.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
+                { lang: "en", path: "apps/premium-events/nights/cinema/sessions/cinema-club/coda-upper-intermediate.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" }
             ]
         }
     ];
@@ -3238,28 +3238,28 @@
                             recs.push({
                                 title: "Eternal Sunshine of the Spotless Mind",
                                 theme: "Deconstruct selective memory erasure, neurological manipulation, and visual storytelling.",
-                                url: "../../sessions/cinema-club/eternal-sunshine-of-the-spotless-mind.html",
+                                url: "../../../../nights/cinema/sessions/cinema-club/eternal-sunshine-of-the-spotless-mind.html",
                                 type: isFrench ? "🎬 SOIRÉE CINÉMA" : (isRussian ? "🎬 КИНОКЛУБ" : "🎬 CINEMA CLUB NIGHT")
                             });
                         } else if (batchName.includes('evolutionary') || dbKey.includes('laughter') || dbKey.includes('words')) {
                             recs.push({
                                 title: "Arrival",
                                 theme: "Analyze cognitive linguistic adaptation, sapir-whorf hypothesis, and alien homologies.",
-                                url: "../../sessions/cinema-club/arrival.html",
+                                url: "../../../../nights/cinema/sessions/cinema-club/arrival.html",
                                 type: isFrench ? "🎬 SOIRÉE CINÉMA" : (isRussian ? "🎬 КИНОКЛУБ" : "🎬 CINEMA CLUB NIGHT")
                             });
                         } else if (batchName.includes('climate') || batchName.includes('environmental') || dbKey.includes('recycling')) {
                             recs.push({
                                 title: "Wall-E",
                                 theme: "Discuss consumerism, carbon accumulation, automation ethics, and environmental survival.",
-                                url: "../../sessions/cinema-club/wall-e.html",
+                                url: "../../../../nights/cinema/sessions/cinema-club/wall-e.html",
                                 type: isFrench ? "🎬 SOIRÉE CINÉMA" : (isRussian ? "🎬 КИНОКЛУБ" : "🎬 CINEMA CLUB NIGHT")
                             });
                         } else {
                             recs.push({
                                 title: "Inception",
                                 theme: "Explore dream architectures, sub-cortical memories, and cognitive projections.",
-                                url: "../../sessions/cinema-club/inception.html",
+                                url: "../../../../nights/cinema/sessions/cinema-club/inception.html",
                                 type: isFrench ? "🎬 SOIRÉE CINÉMA" : (isRussian ? "🎬 КИНОКЛУБ" : "🎬 CINEMA CLUB NIGHT")
                             });
                         }

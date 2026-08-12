@@ -1,0 +1,370 @@
+@import "../../../../css/tokens.css";
+
+/* ─── Cinema Parent & Session Theme Overrides (.theme-cinema) ─── */
+.theme-cinema .club-hero {
+  background: linear-gradient(135deg, #3D2B1F, #1F140D);
+  color: #FAF7F2;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.theme-cinema .club-hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 1rem;
+  color: #FAF7F2;
+}
+.theme-cinema .club-hero p {
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+.theme-cinema .filter-btn.active {
+  background: #3D2B1F;
+  color: white;
+  border-color: #3D2B1F;
+}
+.theme-cinema .filter-btn:hover:not(.active) {
+  border-color: #3D2B1F;
+  color: #3D2B1F;
+}
+
+.theme-cinema .cinema-ticket-card:hover {
+  border-color: #3D2B1F;
+  box-shadow: 0 8px 24px rgba(61, 43, 31, 0.15);
+}
+
+.theme-cinema .cinema-ticket-view {
+  color: #3D2B1F;
+}
+
+.theme-cinema .back-link:hover {
+  color: #3D2B1F;
+}
+
+.theme-cinema .cosy-breadcrumbs a:hover {
+  color: #3D2B1F;
+}
+
+.theme-cinema .vocab-card:hover {
+  border-color: #3D2B1F;
+  box-shadow: 0 8px 24px rgba(61, 43, 31, 0.1);
+}
+
+.theme-cinema .btn-add-dict:hover {
+  background: var(--cream);
+  border-color: #3D2B1F;
+  color: #3D2B1F;
+}
+
+.theme-cinema .btn-pronounce:hover {
+  border-color: #3D2B1F;
+  color: #3D2B1F;
+}
+
+.theme-cinema .btn-trailer {
+  color: #3D2B1F !important;
+}
+
+.theme-cinema .btn-trailer:hover {
+  color: #1F140D !important;
+  transform: translateX(3px);
+}
+
+/* ─── Premium Level & Advisory Badge Tags ─── */
+.theme-cinema .club-tag {
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.theme-cinema .tag-a1,
+.theme-cinema .tag-a2 {
+  background: #E1F5EE;
+  color: #1A7A4A;
+  border-color: #A3E4D7;
+}
+
+.theme-cinema .tag-b1,
+.theme-cinema .tag-b2 {
+  background: #EBF8FF;
+  color: #2B6CB0;
+  border-color: #BEE3F8;
+}
+
+.theme-cinema .tag-c1,
+.theme-cinema .tag-c2 {
+  background: #EEEDFE;
+  color: #534AB7;
+  border-color: #D2CFFE;
+}
+
+.theme-cinema .tag-sensitive {
+  background: #FFF5F5;
+  color: #C53030;
+  border-color: #FEB2B2;
+}
+
+/* ─── Premium Cinema Clapperboard Card Style ─── */
+.cinema-clapperboard-card {
+  background: #1c140e; /* Deep-brown wood slate background */
+  border: 1px solid #3D2B1F;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  color: #FAF7F2; /* Cream-chalk text */
+}
+
+/* Clapperboard Strip top bar with diagonal stripes */
+.clapper-strip {
+  height: 28px;
+  background: repeating-linear-gradient(
+    45deg,
+    #3D2B1F,
+    #3D2B1F 12px,
+    #FAF7F2 12px,
+    #FAF7F2 24px
+  );
+  border-bottom: 2px solid #3D2B1F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: relative;
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.clapper-strip::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(0,0,0,0.3);
+}
+
+/* Micro-interaction on card hover - lift & slate border highlight */
+.cinema-clapperboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(61, 43, 31, 0.35);
+  border-color: #FAF7F2;
+}
+
+.clapper-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Production slate cells/boxes layout */
+.clapper-meta-row {
+  display: flex;
+  border: 1px solid rgba(250, 247, 242, 0.2);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  background: rgba(0,0,0,0.15);
+}
+
+.clapper-meta-cell {
+  flex: 1;
+  padding: 0.4rem;
+  text-align: center;
+  border-right: 1px solid rgba(250, 247, 242, 0.2);
+}
+
+.clapper-meta-cell:last-child {
+  border-right: none;
+}
+
+.clapper-meta-label {
+  display: block;
+  font-size: 0.6rem;
+  color: #BA7517; /* Slate-gold label */
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.15rem;
+}
+
+.clapper-meta-val {
+  font-weight: 600;
+  color: #FAF7F2;
+}
+
+.clapper-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #FAF7F2;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+}
+
+.clapper-desc {
+  font-size: 0.82rem;
+  color: rgba(250, 247, 242, 0.75);
+  line-height: 1.5;
+  margin: 0 0 1.2rem 0;
+  flex-grow: 1;
+}
+
+.clapper-footer {
+  margin-top: auto;
+  border-top: 1px dashed rgba(250, 247, 242, 0.25);
+  padding-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.clapper-pass-label {
+  color: #BA7517;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.clapper-view {
+  color: #FAF7F2;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.clapper-view:hover {
+  color: #BA7517;
+  transform: translateX(2px);
+}
+
+/* ─── Director's Production Slate Style ─── */
+.cinema-slate-box {
+  background: #1c140e; /* Deep-brown wood slate background */
+  border: 2px solid #3D2B1F;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+  color: #FAF7F2;
+}
+
+/* Slate inner dashed border */
+.cinema-slate-box::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  border: 1px dashed rgba(250, 247, 242, 0.25);
+  border-radius: 10px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.cinema-slate-box h3 {
+  font-family: 'Playfair Display', serif;
+  color: #BA7517; /* Accent gold */
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  z-index: 2;
+  position: relative;
+}
+
+.cinema-slate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  z-index: 2;
+  position: relative;
+}
+
+.cinema-slate-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.cinema-slate-item strong {
+  color: #BA7517;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cinema-slate-item span {
+  color: rgba(250, 247, 242, 0.85);
+}
+
+/* Back background icon */
+body.theme-cinema::after {
+  content: "🎬";
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  font-size: 6rem;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Ticket/grid components used in cinema index */
+.cinema-history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.cinema-section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+}
+.cinema-card {
+  background: #3D2B1F;
+  color: #FAF7F2;
+  border-radius: 24px;
+  padding: 2rem 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.cinema-emoji {
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+.cinema-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: .5rem;
+  color: #FAF7F2;
+}
+.cinema-card p {
+  font-size: .9rem;
+  opacity: .75;
+  line-height: 1.65;
+  max-width: 480px;
+}
