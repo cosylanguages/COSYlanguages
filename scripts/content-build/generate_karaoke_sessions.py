@@ -2,7 +2,7 @@ import os
 import re
 import sys
 
-OUTPUT_DIR = "events/sessions/karaoke-club"
+OUTPUT_DIR = "apps/premium-events/nights/karaoke/sessions/karaoke-club"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Add current scripts directory to sys.path to load master_lyrics safely
@@ -2381,16 +2381,17 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} — COSYlanguages</title>
-<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="icon" href="../../../../../../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../../css/tokens.css">
-<link rel="stylesheet" href="../../../css/base.css">
-<link rel="stylesheet" href="../../../css/components.css">
-<link rel="stylesheet" href="../../../css/layout.css">
-<link rel="stylesheet" href="../../../css/events.css">
+<link rel="stylesheet" href="../../../../../../css/tokens.css">
+<link rel="stylesheet" href="../../../../../../css/base.css">
+<link rel="stylesheet" href="../../../../../../css/components.css">
+<link rel="stylesheet" href="../../../../../../css/layout.css">
+<link rel="stylesheet" href="../../../../../../css/events.css">
+<link rel="stylesheet" href="../../style.css">
 </head>
-<body>
+<body class="theme-karaoke">
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
   <div class="club-tag">Karaoke Club</div>
@@ -2399,8 +2400,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </header>
 <main class="content-container">
   <nav class="cosy-breadcrumbs">
-    <a href="../../../">{breadcrumbs_home}</a> <span class="sep">/</span>
-    <a href="../../">{breadcrumbs_events}</a> <span class="sep">/</span>
+    <a href="../../../../../../">{breadcrumbs_home}</a> <span class="sep">/</span>
+    <a href="../../../../../../events/index.html">{breadcrumbs_events}</a> <span class="sep">/</span>
     <a href="../../karaoke-club.html">{breadcrumbs_club}</a> <span class="sep">/</span>
     <span class="current">{title}</span>
   </nav>
@@ -2515,15 +2516,15 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    <a href="../../../../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../../../../../events/index.html" style="color:var(--muted);text-decoration:none;">Events</a>
   </div>
   <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
-<script src="../../../js/core/engine.js"></script>
-<script src="../../../js/core/ui.js"></script>
+<script src="../../../../../../js/core/engine.js"></script>
+<script src="../../../../../../js/core/ui.js"></script>
 </body>
 </html>"""
 
@@ -2533,16 +2534,17 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} — COSYlanguages</title>
-<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="icon" href="../../../../../../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../../css/tokens.css">
-<link rel="stylesheet" href="../../../css/base.css">
-<link rel="stylesheet" href="../../../css/components.css">
-<link rel="stylesheet" href="../../../css/layout.css">
-<link rel="stylesheet" href="../../../css/events.css">
+<link rel="stylesheet" href="../../../../../../css/tokens.css">
+<link rel="stylesheet" href="../../../../../../css/base.css">
+<link rel="stylesheet" href="../../../../../../css/components.css">
+<link rel="stylesheet" href="../../../../../../css/layout.css">
+<link rel="stylesheet" href="../../../../../../css/events.css">
+<link rel="stylesheet" href="../../style.css">
 </head>
-<body>
+<body class="theme-karaoke">
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
   <div class="club-tag">Karaoke Club</div>
@@ -2551,8 +2553,8 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 </header>
 <main class="content-container">
   <nav class="cosy-breadcrumbs">
-    <a href="../../../">{breadcrumbs_home}</a> <span class="sep">/</span>
-    <a href="../../">{breadcrumbs_events}</a> <span class="sep">/</span>
+    <a href="../../../../../../">{breadcrumbs_home}</a> <span class="sep">/</span>
+    <a href="../../../../../../events/index.html">{breadcrumbs_events}</a> <span class="sep">/</span>
     <a href="../../karaoke-club.html">{breadcrumbs_club}</a> <span class="sep">/</span>
     <span class="current">{title}</span>
   </nav>
@@ -2574,25 +2576,42 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    <a href="../../../../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../../../../../events/index.html" style="color:var(--muted);text-decoration:none;">Events</a>
   </div>
   <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
-<script src="../../../js/core/engine.js"></script>
-<script src="../../../js/core/ui.js"></script>
+<script src="../../../../../../js/core/engine.js"></script>
+<script src="../../../../../../js/core/ui.js"></script>
 </body>
 </html>"""
 
 
 def parse_existing_vocab(slug):
-    path = f"events/sessions/karaoke-club/{slug}.html"
-    if not os.path.exists(path):
-        path = f"events/sessions/{slug}.html"
+    path = ""
+    for base in [
+        "apps/premium-events/nights/karaoke/sessions/karaoke-club",
+        "events/sessions/karaoke-club",
+        "events/sessions"
+    ]:
+        check_p = f"{base}/{slug}.html"
+        if os.path.exists(check_p):
+            path = check_p
+            break
+        found_local = False
+        for l in ["fr", "ru", "it", "es", "el"]:
+            check_lp = f"{base}/{l}/{slug}.html"
+            if os.path.exists(check_lp):
+                path = check_lp
+                found_local = True
+                break
+        if found_local:
+            break
+
     vocab_data = {}
-    if not os.path.exists(path):
+    if not path or not os.path.exists(path):
         return vocab_data
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
@@ -3823,24 +3842,24 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         """
 
     elif slug == "california-dreaming":
-        warmup_questions_html = """            <li>How do you feel when the weather is very cold, gray, and dark?</li>
-            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "California Dreaming". Do you think this song is about actually being in California, or wanting to be there?</li>
-            <li>Have you ever wanted to escape your current city or routine to go somewhere warm and sunny?</li>
-            <li>What kind of emotional atmosphere do you expect from a song with such a nostalgic, beautiful title?</li>
+        warmup_questions_html = """            <li>Do you like winter? What is the best part of winter?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "California Dreaming". Is this song happy or sad?</li>
+            <li>Do you want to visit a warm and sunny place right now?</li>
+            <li>Do you like listening to old music from the 1960s?</li>
         """
 
         r1_questions_html = ""
         california_r1 = [
-            ("The singer describes a cold <strong>Winter</strong> day. What are the best and worst parts of winter in your opinion?", "★ How do you stay cozy and active during the dark <strong>Winter</strong> months?"),
-            ("L.A. represents a <strong>Safe</strong> and warm haven in the song. Where is your ultimate safe place when life gets overwhelming?", "★ Do you feel <strong>Safe</strong> and secure living in your current city, or do you worry about changes?"),
-            ("The song repeats the desire to be in a <strong>Warm</strong> place. Why is physical warmth so closely linked to emotional comfort?", "★ What is your favorite <strong>Warm</strong> drink or comfort food to have on a freezing afternoon?"),
-            ("The protagonist got down on their knees to <strong>Pretend</strong> to pray in a church. Why do people sometimes pretend to hold beliefs they don't actually have?", "★ Tell us about a time you had to <strong>Pretend</strong> to be excited or interested in something to be polite."),
-            ("The singer notes that the <strong>Preacher</strong> likes the cold because it keeps people inside. What kind of person is attracted to leadership roles?", "★ Have you ever listened to a speech by a <strong>Preacher</strong> or public speaker that stayed with you for a long time?"),
-            ("The phrase 'California <strong>Dreamin\'</strong>' is iconic. What does 'California' represent to people outside of America?", "★ What is something you spend a lot of time <strong>Dreamin\'</strong> about or wishing for your future?"),
-            ("The sky is described as a gloomy <strong>Gray</strong>. How does a gray sky affect your motivation and productivity?", "★ Do you prefer bright, sunny days or peaceful, <strong>Gray</strong>, rainy days for working?"),
-            ("The singer notices that all the leaves are <strong>Brown</strong>. What emotions does the color palette of autumn/winter bring to you?", "★ Do you prefer the rich <strong>Brown</strong> tones of autumn or the vibrant greens of spring?"),
-            ("The falling <strong>Leaves</strong> signal the change of seasons. Why is change often accompanied by a feeling of nostalgia?", "★ How do you feel when you see the first autumn <strong>Leaves</strong> begin to fall?"),
-            ("The singer got down on their <strong>Knees</strong> to pretend to pray. What are some physical gestures that carry deep cultural meaning?", "★ Have you ever had to bend your <strong>Knees</strong> or squat down for a long time to fix something?")
+            ("Do you like winter? What is the best part of <strong>Winter</strong>?", "★ What do you do in the cold <strong>Winter</strong> months?"),
+            ("L.A. is a <strong>Safe</strong> place in the song. Where do you feel safe?", "★ Is your home city <strong>Safe</strong> and quiet?"),
+            ("The singer wants a <strong>Warm</strong> place. Do you like warm weather?", "★ What is your favorite <strong>Warm</strong> drink on a cold day?"),
+            ("People sometimes <strong>Pretend</strong> to be happy. Do you pretend to like some music?", "★ Did you ever <strong>Pretend</strong> to be someone else for a game?"),
+            ("The <strong>Preacher</strong> likes cold weather. What does a preacher do?", "★ Did you ever hear an inspiring <strong>Preacher</strong> speak?"),
+            ("Do you like <strong>Dreamin'</strong> about your future? What do you dream of?", "★ What is your main <strong>Dreamin'</strong> goal for next year?"),
+            ("The sky is cold and <strong>Gray</strong> today. Do you like gray skies?", "★ What do you do when the sky is <strong>Gray</strong>?"),
+            ("Autumn leaves are <strong>Brown</strong>. Do you like brown leaves?", "★ Do you wear <strong>Brown</strong> clothes in autumn?"),
+            ("The <strong>Leaves</strong> are falling now. Do you like trees and leaves?", "★ Do you collect colorful autumn <strong>Leaves</strong>?"),
+            ("The singer falls to his <strong>Knees</strong>. Why does he do that?", "★ Is it hard to bend your <strong>Knees</strong>?")
         ]
         for q_main, q_pers in california_r1:
             r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
@@ -3849,27 +3868,18 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
           <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
           <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
-            <li><strong>Before Listening:</strong> Predict based on the title: Do you expect a highly energetic pop-electronic track, or a smooth, harmonies-focused acoustic folk-rock classic?</li>
-            <li><strong>After Verse 1 (Pause &amp; Predict):</strong> Pause after 'If I was in L.A.' Why does the singer want to escape to California so badly? Is it just the weather, or something deeper?</li>
-            <li><strong>During the Flute Solo (Musical Mood Shift):</strong> Listen to the flute solo in the middle. How does this beautiful acoustic solo change the emotional tone of the song compared to the vocal parts?</li>
-            <li><strong>After the Second Verse:</strong> The singer says 'If I didn't tell her, I could leave today'. Who do you think 'she' is? Why is he keeping his escape plans a secret?</li>
-            <li><strong>After Singing/Listening (Lyrical Takeaway):</strong> Which vocal harmony or lyric line remains stuck in your head? Why?</li>
+            <li><strong>Before Listening:</strong> Predict based on the title: Do you expect a slow, sad, acoustic ballad, or a bright, energetic, and highly harmonized dance track?</li>
+            <li><strong>After Verse 1:</strong> Pause after 'If I was in L.A.' Why does the singer want to escape to California so badly?</li>
+            <li><strong>After Singing/Listening:</strong> Which vocal harmony or lyric line remains stuck in your head? Why?</li>
           </ul>
         </div>
         """
 
         r2_statements_html = ""
         california_r2 = [
-            "A change of climate is the quickest way to cure a gloomy, <strong>Winter</strong> depression. Agree or disagree?",
-            "It is impossible to feel truly <strong>Safe</strong> in a large, crowded metropolis like L.A. Agree or disagree?",
-            "A <strong>Warm</strong>, supportive community is more important for happiness than financial success. Agree or disagree?",
-            "We all have to <strong>Pretend</strong> to be someone else sometimes just to fit into society. Agree or disagree?",
-            "A local <strong>Preacher</strong> or community leader should focus entirely on charity rather than spiritual rules. Agree or disagree?",
-            "Spending too much time <strong>Dreamin\'</strong> about the perfect future prevents us from enjoying the present. Agree or disagree?",
-            "A <strong>Gray</strong>, quiet environment is the best atmosphere for creative writing and artistic work. Agree or disagree?",
-            "The transition of leaves to a rustic <strong>Brown</strong> reminds us that endings can be beautiful. Agree or disagree?",
-            "Autumn <strong>Leaves</strong> falling remind us that letting go of the past is a natural part of life. Agree or disagree?",
-            "Falling to our <strong>Knees</strong> in humility is a sign of ultimate personal growth and strength. Agree or disagree?"
+            "Sunny weather in <strong>Winter</strong> makes everyone happy. Agree or disagree?",
+            "Big cities are always <strong>Safe</strong> and good for young people. Agree or disagree?",
+            "It is important to have a <strong>Warm</strong> home and good friends. Agree or disagree?"
         ]
         for stmt in california_r2:
             r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
@@ -3880,6 +3890,60 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
           <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
             <li><strong>The Lyric Spotlight:</strong> Which harmony or line from 'California Dreaming' feels most nostalgic or evocative to you? Why?</li>
             <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"I dream of a warm, safe place when...\"</em></li>
+          </ul>
+        </div>
+        """
+
+    elif slug == "make-your-own-kind-of-music":
+        warmup_questions_html = """            <li>Do you like singing or listening to happy music?</li>
+            <li style="list-style-type: '🎵 ';"><strong>Predict:</strong> The title is "Make Your Own Kind of Music". Is this song happy or sad?</li>
+            <li>Do you have a favorite singer or band? Who are they?</li>
+            <li>Do you listen to music when you are alone?</li>
+        """
+
+        r1_questions_html = ""
+        make_own_r1 = [
+            ("It is good to <strong>Be yourself</strong>. Do you agree with this?", "★ When is it easy to <strong>Be yourself</strong>?"),
+            ("Did you ever arrive <strong>Late</strong> to an important concert or meeting?", "★ Do you prefer to arrive early or <strong>Late</strong>?"),
+            ("The song has a beautiful <strong>Melody</strong>. Do you like fast melodies?", "★ Can you play a simple <strong>Melody</strong> on an instrument?"),
+            ("The singer performs with a <strong>Choir</strong>. Do you like choir music?", "★ Did you ever sing in a school <strong>Choir</strong>?"),
+            ("The <strong>Chorus</strong> of this song is very easy to sing. Do you like it?", "★ Can you repeat the main <strong>Chorus</strong> of your favorite song?"),
+            ("She sings a beautiful <strong>Solo</strong> in the middle. Do you like solos?", "★ Would you sing a <strong>Solo</strong> in front of people?"),
+            ("Singing makes many people feel very <strong>Happy</strong>. What makes you happy?", "★ What is your favorite <strong>Happy</strong> song to listen to?"),
+            ("A good <strong>Friend</strong> always supports your choices. Who is your best friend?", "★ Do you have a <strong>Friend</strong> who loves music too?"),
+            ("Everyone chooses their own life <strong>Path</strong>. What is your path?", "★ Is your professional <strong>Path</strong> easy or difficult?"),
+            ("Singing in <strong>Harmony</strong> sounds beautiful. Do you like harmonized songs?", "★ Is there <strong>Harmony</strong> and peace in your daily routine?")
+        ]
+        for q_main, q_pers in make_own_r1:
+            r1_questions_html += f'<div class="round-item"><div class="round-item-main">{q_main}</div>\n<div class="round-item-personal">{q_pers}</div>\n</div>\n'
+
+        r1_questions_html += """
+        <div class="lyrics-checkpoint" style="background: var(--cream); border-left: 4px solid var(--teal); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; margin-bottom: 1.5rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--teal); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">🎵 Interactive Musical Checkpoints (Karaoke Identity)</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>Before Listening:</strong> Predict based on the title: Do you expect a slow, sad, acoustic ballad, or a bright, energetic, and highly harmonized dance track?</li>
+            <li><strong>After Verse 1:</strong> Pause after 'sing your own special song'. Why does Cass Elliot want us to sing our own song?</li>
+            <li><strong>During the Chorus:</strong> Listen to how the upbeat, happy backup vocals contrast with the idea of being alone. Why did they ensure the song this way?</li>
+            <li><strong>After Singing/Listening:</strong> Which lyric line remains stuck in your head? Why?</li>
+          </ul>
+        </div>
+        """
+
+        r2_statements_html = ""
+        make_own_r2 = [
+            "We must always <strong>Be yourself</strong> and never change for other people. Agree or disagree?",
+            "Listening to a happy <strong>Melody</strong> can instantly cure a bad mood. Agree or disagree?",
+            "It is better to sing a <strong>Solo</strong> than to sing in a choir. Agree or disagree?"
+        ]
+        for stmt in make_own_r2:
+            r2_statements_html += f'<div class="round-item"><div class="round-item-main">{stmt}</div>\n</div>\n'
+
+        r2_statements_html += """
+        <div class="lyrics-checkpoint" style="background: #FAEEE8; border-left: 4px solid var(--orange); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; font-family: 'Nunito', sans-serif;">
+          <strong style="color: var(--orange); display: block; margin-bottom: 0.5rem; font-size: 1.05rem;">❤️ Emotional &amp; Creative Reaction Activities</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+            <li><strong>The Lyric Spotlight:</strong> Which lyric line in this song feels most honest or relatable to you? Why?</li>
+            <li><strong>Complete the Sentence:</strong> Go around the room and finish this prompt differently: <em>\"Music makes me feel... because...\"</em></li>
           </ul>
         </div>
         """
@@ -4508,10 +4572,27 @@ COMPLETE_SONG_VOCAB = {
 
 songs_list = []
 for slug in sorted(LYRICS_DATA.keys()):
-    path = f"events/sessions/karaoke-club/{slug}.html"
-    if not os.path.exists(path):
-        path = f"events/sessions/{slug}.html"
-    if not os.path.exists(path):
+    path = ""
+    for base in [
+        "apps/premium-events/nights/karaoke/sessions/karaoke-club",
+        "events/sessions/karaoke-club",
+        "events/sessions"
+    ]:
+        check_p = f"{base}/{slug}.html"
+        if os.path.exists(check_p):
+            path = check_p
+            break
+        found_local = False
+        for l in ["fr", "ru", "it", "es", "el"]:
+            check_lp = f"{base}/{l}/{slug}.html"
+            if os.path.exists(check_lp):
+                path = check_lp
+                found_local = True
+                break
+        if found_local:
+            break
+
+    if not path or not os.path.exists(path):
         if slug in NEW_SONGS_METADATA:
             meta = NEW_SONGS_METADATA[slug]
             vocab_to_use = COMPLETE_SONG_VOCAB.get(slug, meta["vocab"])
@@ -4616,11 +4697,27 @@ NEW_CHALLENGES_METADATA = {
 
 challenges_list = []
 for slug in sorted(CHALLENGE_MAP.keys()):
-    path = f"events/sessions/karaoke-club/{slug}.html"
-    if not os.path.exists(path):
-        path = f"events/sessions/{slug}.html"
+    path = ""
+    for base in [
+        "apps/premium-events/nights/karaoke/sessions/karaoke-club",
+        "events/sessions/karaoke-club",
+        "events/sessions"
+    ]:
+        check_p = f"{base}/{slug}.html"
+        if os.path.exists(check_p):
+            path = check_p
+            break
+        found_local = False
+        for l in ["fr", "ru", "it", "es", "el"]:
+            check_lp = f"{base}/{l}/{slug}.html"
+            if os.path.exists(check_lp):
+                path = check_lp
+                found_local = True
+                break
+        if found_local:
+            break
 
-    if not os.path.exists(path):
+    if not path or not os.path.exists(path):
         if slug in NEW_CHALLENGES_METADATA:
             meta = NEW_CHALLENGES_METADATA[slug]
             title = meta["title"]
@@ -4723,16 +4820,17 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} — COSYlanguages</title>
-<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="icon" href="../../../../../../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../../css/tokens.css">
-<link rel="stylesheet" href="../../../css/base.css">
-<link rel="stylesheet" href="../../../css/components.css">
-<link rel="stylesheet" href="../../../css/layout.css">
-<link rel="stylesheet" href="../../../css/events.css">
+<link rel="stylesheet" href="../../../../../../css/tokens.css">
+<link rel="stylesheet" href="../../../../../../css/base.css">
+<link rel="stylesheet" href="../../../../../../css/components.css">
+<link rel="stylesheet" href="../../../../../../css/layout.css">
+<link rel="stylesheet" href="../../../../../../css/events.css">
+<link rel="stylesheet" href="../../style.css">
 </head>
-<body>
+<body class="theme-karaoke">
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
   <div class="club-tag">Karaoke Club</div>
@@ -4741,8 +4839,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </header>
 <main class="content-container">
   <nav class="cosy-breadcrumbs">
-    <a href="../../../">{breadcrumbs_home}</a> <span class="sep">/</span>
-    <a href="../../">{breadcrumbs_events}</a> <span class="sep">/</span>
+    <a href="../../../../../../">{breadcrumbs_home}</a> <span class="sep">/</span>
+    <a href="../../../../../../events/index.html">{breadcrumbs_events}</a> <span class="sep">/</span>
     <a href="../../karaoke-club.html">{breadcrumbs_club}</a> <span class="sep">/</span>
     <span class="current">{title}</span>
   </nav>
@@ -4872,15 +4970,15 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    <a href="../../../../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../../../../../events/index.html" style="color:var(--muted);text-decoration:none;">Events</a>
   </div>
   <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
-<script src="../../../js/core/engine.js"></script>
-<script src="../../../js/core/ui.js"></script>
+<script src="../../../../../../js/core/engine.js"></script>
+<script src="../../../../../../js/core/ui.js"></script>
 </body>
 </html>"""
 
@@ -4890,16 +4988,17 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} — COSYlanguages</title>
-<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="icon" href="../../../../../../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../../css/tokens.css">
-<link rel="stylesheet" href="../../../css/base.css">
-<link rel="stylesheet" href="../../../css/components.css">
-<link rel="stylesheet" href="../../../css/layout.css">
-<link rel="stylesheet" href="../../../css/events.css">
+<link rel="stylesheet" href="../../../../../../css/tokens.css">
+<link rel="stylesheet" href="../../../../../../css/base.css">
+<link rel="stylesheet" href="../../../../../../css/components.css">
+<link rel="stylesheet" href="../../../../../../css/layout.css">
+<link rel="stylesheet" href="../../../../../../css/events.css">
+<link rel="stylesheet" href="../../style.css">
 </head>
-<body>
+<body class="theme-karaoke">
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
   <div class="club-tag">Karaoke Club</div>
@@ -4908,8 +5007,8 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 </header>
 <main class="content-container">
   <nav class="cosy-breadcrumbs">
-    <a href="../../../">{breadcrumbs_home}</a> <span class="sep">/</span>
-    <a href="../../">{breadcrumbs_events}</a> <span class="sep">/</span>
+    <a href="../../../../../../">{breadcrumbs_home}</a> <span class="sep">/</span>
+    <a href="../../../../../../events/index.html">{breadcrumbs_events}</a> <span class="sep">/</span>
     <a href="../../karaoke-club.html">{breadcrumbs_club}</a> <span class="sep">/</span>
     <span class="current">{title}</span>
   </nav>
@@ -4931,15 +5030,15 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    <a href="../../../../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../../../../../events/index.html" style="color:var(--muted);text-decoration:none;">Events</a>
   </div>
   <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
-<script src="../../../js/core/engine.js"></script>
-<script src="../../../js/core/ui.js"></script>
+<script src="../../../../../../js/core/engine.js"></script>
+<script src="../../../../../../js/core/ui.js"></script>
 </body>
 </html>"""
 

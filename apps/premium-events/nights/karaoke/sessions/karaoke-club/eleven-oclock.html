@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eleven O'Clock — COSYlanguages</title>
+<link rel="icon" href="../../../../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../../../css/tokens.css">
+<link rel="stylesheet" href="../../../../../../css/base.css">
+<link rel="stylesheet" href="../../../../../../css/components.css">
+<link rel="stylesheet" href="../../../../../../css/layout.css">
+<link rel="stylesheet" href="../../../../../../css/events.css">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body class="theme-karaoke">
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>Eleven O'Clock</h1>
+  <p class="session-date">Rachel Bloom • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../../../../">Home</a> <span class="sep">/</span>
+    <a href="../../../../../../events/index.html">Events</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">Eleven O'Clock</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Variety/Language</h4><p>American English</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+    <div class="meta-item"><h4>Thematic Focus</h4><p>Overthinking & Decisive Moments</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=fH_8w7WAIyk" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=fH_8w7WAIyk" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+    <div class="cosy-video-wrapper">
+    <div class="cosy-video-container">
+      <iframe src="https://www.youtube.com/embed/fH_8w7WAIyk" allowfullscreen></iframe>
+    </div>
+    <div class="cosy-video-disclaimer">
+      <span>ℹ️ Source: YouTube. This material is used strictly for educational purposes only.</span>
+    </div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Theme: Overthinking & Decisive Moments</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">We'll discuss:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Awake</li>
+      <li>Mistake</li>
+      <li>Decision</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (15%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (5%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Stage 1: Warm-up</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>How important is this discussion theme in your daily life?</li>
+            <li>Look at the title 'Eleven O'Clock' and the artist 'Rachel Bloom'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Stage 2: Vocabulary</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts & Feelings</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">awake</div>
+<div class="vocab-def">not asleep.</div>
+<div class="vocab-example">He was still wide awake at midnight, listening to the gentle rain.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'awake', definition:'not asleep.', example:'He was still wide awake at midnight, listening to the gentle rain.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">mistake</div>
+<div class="vocab-def">an action or judgment that is misguided or wrong.</div>
+<div class="vocab-example">It is completely normal to make a mistake when learning something new.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'mistake', definition:'an action or judgment that is misguided or wrong.', example:'It is completely normal to make a mistake when learning something new.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">decision</div>
+<div class="vocab-def">a conclusion or resolution reached after consideration.</div>
+<div class="vocab-example">Making an important life decision requires careful thought.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'decision', definition:'a conclusion or resolution reached after consideration.', example:'Making an important life decision requires careful thought.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">fight</div>
+<div class="vocab-def">a struggle or confrontation, or to strive.</div>
+<div class="vocab-example">They decided to fight for their rights and clean environment.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'fight', definition:'a struggle or confrontation, or to strive.', example:'They decided to fight for their rights and clean environment.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">answers</div>
+<div class="vocab-def">solutions to a problem, or replies to questions.</div>
+<div class="vocab-example">The physics professor provided clear answers to our complex questions.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'answers', definition:'solutions to a problem, or replies to questions.', example:'The physics professor provided clear answers to our complex questions.'}, this)">+ Dictionary</button>
+</div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Life, Actions & Connection</h3>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">eleven</div>
+<div class="vocab-def">the concept of 'eleven' as explored in the lyrics and theme.</div>
+<div class="vocab-example">We discussed how 'eleven' plays an important role in our lives.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'eleven', definition:'the concept of \'eleven\' as explored in the lyrics and theme.', example:'We discussed how \'eleven\' plays an important role in our lives.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">thinking</div>
+<div class="vocab-def">the concept of 'thinking' as explored in the lyrics and theme.</div>
+<div class="vocab-example">We discussed how 'thinking' plays an important role in our lives.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'thinking', definition:'the concept of \'thinking\' as explored in the lyrics and theme.', example:'We discussed how \'thinking\' plays an important role in our lives.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">painful</div>
+<div class="vocab-def">causing physical or mental pain.</div>
+<div class="vocab-example">It was a painful memory that she preferred to forget.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'painful', definition:'causing physical or mental pain.', example:'It was a painful memory that she preferred to forget.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">spinning</div>
+<div class="vocab-def">the concept of 'spinning' as explored in the lyrics and theme.</div>
+<div class="vocab-example">We discussed how 'spinning' plays an important role in our lives.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'spinning', definition:'the concept of \'spinning\' as explored in the lyrics and theme.', example:'We discussed how \'spinning\' plays an important role in our lives.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">resolution</div>
+<div class="vocab-def">the concept of 'resolution' as explored in the lyrics and theme.</div>
+<div class="vocab-example">We discussed how 'resolution' plays an important role in our lives.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'resolution', definition:'the concept of \'resolution\' as explored in the lyrics and theme.', example:'We discussed how \'resolution\' plays an important role in our lives.'}, this)">+ Dictionary</button>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Stage 3: Listening</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">theatrical</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">workbook</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">medley</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">slut</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">crock</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">[REBECCA]<br>It's eleven o’clock<br>Eleven o'clock<br>And the deadline is anytime today<br>But I won't know by eleven o’clock tonight<br>Just like I didn't know at eleven o'clock yesterday<br><br>(Spoken)<br>Oh good, an abstract <input type="text" class="lyrics-gap-input" data-answer="theatrical" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 110px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> space. Now I can actually think<br><br>(Sung)<br>It's eleven o'clock<br>And by eleven o'clock<br>Shouldn't I have earned a frickin' ever after?<br>I’ve done the workbooks, taken the pills<br>What more could I do?<br>How do I still not know myself<br>After all that I’ve been through?<br><br>I was working hard at a New York job<br>Making dough, but it made me blue<br>One day, I was crying a lot<br>And so I decided to move to<br>West Covina, California<br>Brand new pals and new career<br>I admitted that's where Josh lived<br>And that’s what brought me here<br><br>'Cause I was just a girl in love<br>Didn't want to be held responsible for my actions<br>I had many underlying issues to address<br>And I did and didn't want to be crazy<br>No wait, I didn’t did want to be crazy<br>To clarify, I got a diagnosis<br>A diagnosis<br>And I named the darkness<br>And though I knew I'd have problems again<br>I know I gotta move on to a new song<br>But I want to keep disco-ing<br>I wanted to be a good person, yes it's true<br>Be a good person, but better than who?<br>This <input type="text" class="lyrics-gap-input" data-answer="medley" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> just got super-intense<br>'Cause life doesn't really make narrative sense<br><br>It's eleven o'clock<br>Eleven o'clock<br>I need to end this song, but I don't know how<br>Eleven o'clock<br>Still eleven o'clock<br>Well, Rebecca, you've done it now<br>You ruined everything<br>You stupid bitch<br>Uprooted everything<br>And said you'd made a switch<br>But you're still a poopy little <input type="text" class="lyrics-gap-input" data-answer="slut" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> who lives in a dream<br>And doesn't know how to love<br><br><br>This whole journey's been a <input type="text" class="lyrics-gap-input" data-answer="crock" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br>In case you can't tell time, it's still eleven o'clock<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Stage 4: Discussion</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+<div class="round-item"><div class="round-item-main">How does 'Eleven O'Clock' by Rachel Bloom capture the quiet burden of <strong>awake</strong> when facing difficult times?</div>
+<div class="round-item-personal">★ How do you personally cope when you feel a wave of <strong>awake</strong> in your daily life?</div>
+</div>
+<div class="round-item"><div class="round-item-main">In 'Eleven O'Clock', do you feel that <strong>mistake</strong> is portrayed as an inescapable trap, or does a path to healing exist?</div>
+<div class="round-item-personal">★ Have you ever found a surprising source of strength while dealing with <strong>mistake</strong>?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Analyzing the emotional depth of Rachel Bloom, how does <strong>decision</strong> shape the tone of this song?</div>
+<div class="round-item-personal">★ Do you find it easier to express <strong>decision</strong> through art, music, or quiet conversation?</div>
+</div>
+<div class="round-item"><div class="round-item-main">In what ways does 'Eleven O'Clock' illustrate that confronting <strong>fight</strong> is necessary to find peace?</div>
+<div class="round-item-personal">★ What is the most comforting thing someone can do for you when you are feeling <strong>fight</strong>?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does the musical melody of 'Eleven O'Clock' reflect the heavy feeling of <strong>answers</strong>?</div>
+<div class="round-item-personal">★ How has your personal way of handling <strong>answers</strong> changed as you have grown older?</div>
+</div>
+<div class="round-item"><div class="round-item-main">When Rachel Bloom sings, does the expression of <strong>eleven</strong> feel like a cry for help or a silent acceptance?</div>
+<div class="round-item-personal">★ Do you believe that sharing our <strong>eleven</strong> makes us feel more connected or more vulnerable?</div>
+</div>
+<div class="round-item"><div class="round-item-main">Does 'Eleven O'Clock' suggest that we can find comfort in <strong>thinking</strong>, or does it always bring pain?</div>
+<div class="round-item-personal">★ Is there a specific place or activity that always helps you heal from <strong>thinking</strong>?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does the imagery in 'Eleven O'Clock' visualize the invisible scars left by <strong>painful</strong>?</div>
+<div class="round-item-personal">★ If you could offer comfort to a friend who is quietly struggling with <strong>painful</strong>, what would you say?</div>
+</div>
+<div class="round-item"><div class="round-item-main">In your opinion, does the protagonist in 'Eleven O'Clock' overcome their <strong>spinning</strong>, or is it left unresolved?</div>
+<div class="round-item-personal">★ Do you think that society encourages us to hide our <strong>spinning</strong> rather than talk about it?</div>
+</div>
+<div class="round-item"><div class="round-item-main">How does 'Eleven O'Clock' help us understand the universal human experience of <strong>resolution</strong>?</div>
+<div class="round-item-personal">★ What is the most important lesson you have learned about emotional resilience through <strong>resolution</strong>?</div>
+</div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+<div class="round-item"><div class="round-item-main">The heavy portrayal of <strong>awake</strong> in 'Eleven O'Clock' shows that some emotional wounds never truly heal. Let's debate.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Without a willingness to feel our own <strong>mistake</strong>, we can never experience true joy and recovery. Discuss.</div>
+</div>
+<div class="round-item"><div class="round-item-main">Rachel Bloom's work proves that art is the only genuine way to transform <strong>decision</strong> into something beautiful. Defend or oppose.</div>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Stage 5: Language Focus</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Language Focus: Time Specifications & Aspectual Adverbs (*still*)</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">In the song <strong>Eleven Oclock</strong>, the repetitive lyric chunk <em>"It's eleven o'clock... I'm still..."</em> highlights the use of <strong>Time Specifications & Aspectual Adverbs (*still*)</strong>. This structure supports: Deconstructing midnight self-analysis and growth.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Practice using "It's eleven o'clock... I'm still..." or related forms actively during your discussion rounds today.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Notice how the lyric chunk "It's eleven o'clock... I'm still..." builds rhythmic familiarity and emotional weight.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Incorporate the grammatical structure behind "It's eleven o'clock... I'm still..." in your Stage 6 final speaking challenge.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Stage 6: Final Challenge</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imagine the sequel of this song: Role-play a conversation between the main characters 5 years later.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+<!-- Sources Section -->
+<section class="sources-section" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
+  <h4 style="margin-bottom: 0.5rem; color: var(--ink);">Sources &amp; Citations</h4>
+  <ul style="list-style-type: none; padding-left: 0; margin-bottom: 1rem;">
+    <li style="margin-bottom: 0.4rem;">Genius. « Rachel Bloom – Eleven O'Clock (Paroles) » <em>Genius</em>, <a href="" style="color: var(--teal);" target="_blank"></a>. Consulté en juillet 2026.</li>
+    <li>« Eleven O'Clock » <em>YouTube</em>, téléchargé par Rachel Bloom, <a href="https://www.youtube.com/watch?v=fH_8w7WAIyk" style="color: var(--teal);" target="_blank">https://www.youtube.com/watch?v=fH_8w7WAIyk</a>.</li>
+  </ul>
+  <p style="font-style: italic; margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
+    Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+  </p>
+</section>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">There is a big improvement <span class="mistake-highlight">of</span> my English</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">There is a big improvement in my English</span>
+            <span class="mistake-note-text">(Use 'in' after 'improvement' to express domain.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">It was a great relief <span class="mistake-highlight">of</span> hearing the news</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">It was a great relief to hear the news</span>
+            <span class="mistake-note-text">(Use 'relief' + infinitive 'to hear'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">She is in the choir <span class="mistake-highlight">since</span> three years</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">She has been in the choir for three years</span>
+            <span class="mistake-note-text">(Use present perfect + 'for' to show duration of state.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../../../../../events/index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../../../../js/core/engine.js"></script>
+<script src="../../../../../../js/core/ui.js"></script>
+</body>
+</html>
