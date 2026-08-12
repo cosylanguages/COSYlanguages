@@ -23,6 +23,17 @@ test.describe('Long Reads (Literary Parlor) Club Verification', () => {
     // 3. Verify interactive reply on typewriter screen
     const screenText = page.locator('#ledger-screen');
     await expect(screenText).toContainText('Catherine Price');
+
+    // 4. Capture light mode screenshot of the ledger
+    await page.screenshot({ path: 'verification/screenshots/verification_long_reads_light.png' });
+
+    // 5. Toggle dark mode and capture dark mode screenshot of the ledger
+    await page.evaluate(() => document.documentElement.setAttribute('data-theme', 'dark'));
+    await page.waitForTimeout(500);
+    await page.screenshot({ path: 'verification/screenshots/verification_long_reads_dark.png' });
+
+    // Clean up theme
+    await page.evaluate(() => document.documentElement.removeAttribute('data-theme'));
   });
 
   test('Long Reads Session 1 page loads with curriculum banner and vocabulary', async ({ page }) => {
@@ -94,6 +105,19 @@ test.describe('If You Were Club Verification', () => {
     await expect(page.locator('#s-closing')).toBeVisible();
     await expect(page.locator('#s-mistakes')).toBeVisible();
     await expect(page.locator('#s-mistakes')).toContainText('Linguistic Corrections');
+
+    // 5. Scroll and capture light mode screenshot of the perspective mirror box
+    await mirrorBox.scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+    await page.screenshot({ path: 'verification/screenshots/verification_if_you_were_light.png' });
+
+    // 6. Toggle dark mode and capture dark mode screenshot of the perspective mirror box
+    await page.evaluate(() => document.documentElement.setAttribute('data-theme', 'dark'));
+    await page.waitForTimeout(500);
+    await page.screenshot({ path: 'verification/screenshots/verification_if_you_were_dark.png' });
+
+    // Clean up theme
+    await page.evaluate(() => document.documentElement.removeAttribute('data-theme'));
   });
 
   test('If You Were Blind session page loads correctly', async ({ page }) => {
