@@ -75,16 +75,48 @@ This document serves as the master reference for all universal distinctions, cod
 Common categories used in data files:
 - `verbs`, `nouns`, `adjectives`, `determiners`, `pronouns`, `adverbs`, `prepositions`, `conjunctions`, `numerals`.
 
-## 5. Speaking Club Categories (Events)
+## 5. Product & Sub-Product Taxonomy (Ecosystem)
 
-| Club ID | Label | Primary Themes |
-|---------|-------|----------------|
-| science | Keeping Up with Science | `nature`, `environment`, `technology`, `health_medicine` |
-| celebrate | Let's Celebrate! | `social`, `art_culture`, `people` |
-| quotes | The Greatest Quotes | `psychology`, `language`, `emotions`, `art_culture` |
-| mind | Mind Matters | `psychology`, `emotions`, `body` |
-| life | My Life With/Without | `social`, `travel`, `furniture`, `clothes`, `food_drink` |
-| debate | Debatable & Relatable | `work`, `jobs`, `environment`, `social`, `technology` |
+The COSYlanguages ecosystem is structured into distinct, branded products and sub-products, clearly separating the free tier from our premium Conversational Events and Structured Courses.
+
+### A. Free Platform
+A minimalist, privacy-sovereign sanctuary designed for solo study and autonomous language training.
+*   **Grammar Manuals (A1–B2)**: Standard syntax, morphology diagrams, and checklists.
+*   **Practice Hub**: Real-time vocabulary, listening, and spell-check engines.
+*   **Vocabulary Games**: 22 solo play interactive games (Word Linker, Lucky Numbers, etc.).
+*   **Language Index**: Dynamic flag selectors, profiles, and basic spelling/pronunciation decks.
+
+### B. Premium Courses (Structured Academies)
+Linear, progressive CEFR-aligned learning curriculums focusing on systemization, accuracy, and written/oral structure.
+*   **General Course (`courses/general`)**: All four skills growing together. Structured, progressive, built around adult life.
+*   **Spoken Course (`courses/spoken`)**: Intimate, high-frequency conversational sessions with light corrections.
+*   **Exam Preparation (`courses/exam`)**: Targeted oral/written practice for official certifications (IELTS, DELF, DALF, etc.).
+*   **Travelling Course (`courses/travelling`)**: Highly practical survival phrases and regional culture guides.
+*   **Professional Course (`courses/professional`)**: Career-ready communication for presentations, meetings, and business writing.
+*   **Relocation Course (`courses/relocation`)**: Integration focus (renting flats, banks, local bureaucracy, and making friends).
+
+### C. Premium Events (Conversational Speaking Clubs & Nights)
+Immersive, multivariant speaking clubs and interactive nights designed for fluency, active listening, and peer-to-peer connection.
+
+#### 🗣️ Sub-Brand Family: Thematic Speaking Clubs
+| Club ID | Label | Accent Theme & Identity | Primary Themes |
+|---------|-------|--------------------------|----------------|
+| `wonder` | I Couldn't Help But Wonder | Carrie Bradshaw-inspired retro 'scrapbook' aesthetic | `psychology`, `language`, `emotions`, `art_culture` |
+| `kus` | Keeping Up with Science | Atmospheric green 'Field Journal' science aesthetic | `nature`, `environment`, `technology`, `health_medicine` |
+| `mind` | Mind Matters | Warm everyday psychology aesthetic with balance sheets | `psychology`, `emotions`, `body` |
+| `debate` | Debatable & Relatable | Dueling contrast orange-blue VS debate arena | `work`, `jobs`, `environment`, `social`, `technology` |
+| `celebrate` | Let's Celebrate! | Vibrant, holiday-watermark festive culture | `social`, `art_culture`, `people` |
+| `life` | My Life With/Without | Dual-split perspective ledger with emoji watermarks | `social`, `travel`, `furniture`, `clothes`, `food_drink` |
+| `quotes` | The Greatest Quotes | Scholar plum café philosopher's reflection | `psychology`, `language`, `emotions`, `art_culture` |
+
+#### 🎬 Sub-Brand Family: Interactive Multimedia Nights
+| Night ID | Label | Aesthetic & Format | Target Focus |
+|----------|-------|--------------------|--------------|
+| `cinema` | Cinema Club | Dark-mode clapperboard slate theme | Original-language listening comprehension & reaction vocabulary |
+| `karaoke` | Karaoke Club | Retro cassette liner notes in vintage plum | Pronunciation melody, lyrics gap-fill, and cultural history |
+| `game-evening` | Game Evenings | Cozy boardgame-inspired orange & cream | Group play, charades, and vocabulary activation |
+| `long-reads` | Long Reads | Literary Parlor book ledgers | Micro-discussions of outstanding books and audiobooks |
+| `if-you-were` | If You Were | Purple perspective mirrors | Speculative hypotheses and radical empathy |
 
 ## 6. Content Standards
 

@@ -1,6 +1,18 @@
 const CACHE_NAME = 'cosy-premium-events-v1';
 const STATIC_ASSETS = [
   './',
+  './index.html',
+  './cinema-club.html',
+  './game-evenings.html',
+  '../css/events.css',
+  '../css/base.css',
+  '../css/components.css',
+  '../css/layout.css',
+  '../js/core/engine.js',
+  '../js/core/i18n.js',
+  '../js/core/ui.js',
+  '../shared/js/core/entitlements.js',
+  '../images/logos/cosylanguages.png',
 ];
 
 let cacheDisabled = false;

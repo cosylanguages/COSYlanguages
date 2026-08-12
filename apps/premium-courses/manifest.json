@@ -1,0 +1,26 @@
+{
+  "name": "COSY Courses",
+  "short_name": "COSY Courses",
+  "description": "Structured level paths and speaking-first curriculums",
+  "start_url": "../../courses/index.html",
+  "display": "standalone",
+  "background_color": "#fdfcf8",
+  "theme_color": "#1e2f6b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "../../images/logos/cosylanguages.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../../images/logos/cosylanguages.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education"],
+  "lang": "en"
+}

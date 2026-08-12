@@ -1,6 +1,21 @@
-const CACHE_NAME = 'cosy-premium-events-v1';
+const CACHE_NAME = 'cosy-premium-courses-v1';
 const STATIC_ASSETS = [
   './',
+  './index.html',
+  './exam/index.html',
+  './general/index.html',
+  './professional/index.html',
+  './relocation/index.html',
+  './spoken/index.html',
+  './travelling/index.html',
+  '../css/courses.css',
+  '../css/base.css',
+  '../css/components.css',
+  '../css/layout.css',
+  '../js/core/engine.js',
+  '../js/core/i18n.js',
+  '../js/core/ui.js',
+  '../images/logos/cosylanguages.png',
 ];
 
 let cacheDisabled = false;
