@@ -1,13 +1,57 @@
 
 /* Shared styles for Course pages */
 
+/* ─── Courses Restrained Credible Brand Identity ───────── */
+:root {
+    --course-accent: var(--sage, #416b49);
+    --course-accent-light: var(--sage-light, #e8f0e9);
+    --course-hero-bg: linear-gradient(135deg, var(--sage-deep, #233827), #1a2a1d);
+}
+
+/* Track Accent Overrides */
+body.theme-course-general {
+    --course-accent: var(--sage, #416b49);
+    --course-accent-light: var(--sage-light, #e8f0e9);
+    --course-hero-bg: linear-gradient(135deg, var(--sage-deep, #233827), #1a2a1d);
+}
+
+body.theme-course-spoken {
+    --course-accent: var(--coral, #B84318);
+    --course-accent-light: var(--coral-light, #faeee8);
+    --course-hero-bg: linear-gradient(135deg, var(--coral, #B84318), #8a3a1d);
+}
+
+body.theme-course-exam {
+    --course-accent: var(--plum, #7a5c3a);
+    --course-accent-light: var(--plum-light, #f5ede0);
+    --course-hero-bg: linear-gradient(135deg, var(--plum, #7a5c3a), #4a3a2a);
+}
+
+body.theme-course-travelling {
+    --course-accent: var(--green, #4a6b50);
+    --course-accent-light: var(--green-light, #e5f4ec);
+    --course-hero-bg: linear-gradient(135deg, var(--green, #4a6b50), #2a4a33);
+}
+
+body.theme-course-professional {
+    --course-accent: var(--navy, #1e2f6b);
+    --course-accent-light: var(--navy-light, #e8ecf5);
+    --course-hero-bg: linear-gradient(135deg, var(--navy, #1e2f6b), #0a112b);
+}
+
+body.theme-course-relocation {
+    --course-accent: #d66161;
+    --course-accent-light: #fcebeb;
+    --course-hero-bg: linear-gradient(135deg, #d66161, #8a2a2a);
+}
+
 .course-page {
     padding-top: 4rem;
     padding-bottom: 6rem;
 }
 
 .hero-course {
-    background: var(--ink);
+    background: var(--course-hero-bg) !important;
     color: #fff;
     padding: 6rem 2rem;
     text-align: center;
