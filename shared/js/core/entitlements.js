@@ -1,6 +1,7 @@
 /**
  * shared/js/core/entitlements.js
  * Centralized, decentralized, privacy-sovereign access control and entitlements system.
+ * Supporting the namespaced key scheme: COSY-{PRODUCT}-{SUBPRODUCT}-{TIER}
  */
 (function() {
     'use strict';
@@ -128,6 +129,8 @@
         "KUS28": { mini: "bdf5a93b1811f24791f9508cbadc78d092d3302a180be33b12aca6914e571519", private: "ed374e4dcf5630a6a0b183f21d315b7c5b32c6a0b6c1a44dddef2d2cb407edb4" },
         "KUS29": { mini: "a015ac05acecf31dfdd631c0c0122aa1b6c4b2560bcc893dcf57ddf2d516c1be", private: "fdfff92419f5c4ca40c28b6c5bb635b9461acde2ab20b715c3770ffc5de7a15d" }
     };
+
+    window.COSY = window.COSY || {};
 
     window.COSY.entitlements = {
         getCurrentDraftKey() {
