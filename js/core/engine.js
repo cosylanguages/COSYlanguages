@@ -866,11 +866,11 @@ window.COSY = {
             const p = getPrefix();
             if (path.includes('/courses/') || path.includes('/apps/premium-courses/')) {
                 // Register scoped service worker for Courses
-                navigator.serviceWorker.register(p + 'apps/premium-courses/sw.js', { scope: p + 'courses/' })
+                navigator.serviceWorker.register(p + 'courses/sw.js', { scope: p + 'courses/' })
                     .catch(e => console.log('SW (Courses):', e));
             } else if (path.includes('/events/') || path.includes('/apps/premium-events/')) {
                 // Register scoped service worker for Events
-                navigator.serviceWorker.register(p + 'apps/premium-events/sw.js', { scope: p + 'apps/premium-events/' })
+                navigator.serviceWorker.register(p + 'events/sw.js', { scope: p + 'events/' })
                     .catch(e => console.log('SW (Events):', e));
             } else {
                 // Register root service worker for Free Portal
