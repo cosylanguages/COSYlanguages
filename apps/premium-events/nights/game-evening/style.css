@@ -1,0 +1,32 @@
+@import "../../../../shared/css/tokens.css";
+
+/* ─── Game Evening Cozy Boardgame Aesthetic ─── */
+body.theme-game-evening {
+  background: radial-gradient(circle at top, rgba(230, 126, 34, 0.1), transparent), #FDFCF7 !important;
+  color: #2D3748 !important;
+}
+
+body.theme-game-evening {
+  --ink: #2C3E50 !important;
+  --ink-soft: #34495E !important;
+  --ink-muted: #7F8C8D !important;
+  --muted: #95A5A6 !important;
+  --border: rgba(230, 126, 34, 0.15) !important;
+  --cream: #FFFDF9 !important;
+  --surface-color: #FFF9F2 !important;
+}
+
+/* Card overrides for Game Evenings */
+.game-card {
+  background: var(--surface-color);
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(230, 126, 34, 0.05);
+  transition: all 0.3s ease;
+}
+.game-card:hover {
+  transform: translateY(-4px);
+  border-color: #E67E22;
+  box-shadow: 0 8px 24px rgba(230, 126, 34, 0.12);
+}

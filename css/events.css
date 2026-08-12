@@ -1,3 +1,39 @@
+/* ── Mistake Block Default Tokens & Overrides ─────── */
+:root {
+    /* Mistake block variables */
+    --mistake-bg:          #FFFDF5;
+    --mistake-header-bg:   #FFF8F0;
+    --mistake-header-text: #8c2e2e;
+    --mistake-wrong-color: #C0392B;
+    --mistake-right-color: #1A7A4A;
+
+    /* Common Base variables relocated from shared tokens */
+    --primary-color:   var(--sage, #416b49);
+    --secondary-color: var(--honey, #945e05);
+    --vocab-color:     var(--sage, #416b49);
+    --grammar-color:   var(--honey, #945e05);
+    --speaking-color:  var(--honey, #945e05);
+    --group-note-bg:   #fff8e7;
+
+    /* Tag Colors for accessibility */
+    --a2-tag-bg: #FAF0E6;
+    --a2-tag-color: #8A5200;
+    --sensitive-tag-bg: #FFF5F5;
+    --sensitive-tag-color: #B91C1C;
+}
+
+html[data-theme="dark"], body.theme-dark {
+    /* Mistake block variables */
+    --mistake-bg:          #241a15;
+    --mistake-header-bg:   #2e211a;
+    --mistake-header-text: #fca5a5;
+    --mistake-wrong-color: #f87171;
+    --mistake-right-color: #4ade80;
+
+    /* Dark Overrides for Base variables */
+    --group-note-bg:       #2d261a;
+}
+
 /* ── Events Hub Specifics ─────────────────────────── */
 .coming-soon-note { font-size: .8rem; color: var(--muted); display: flex; align-items: center; gap: .4rem; padding-top: .6rem; border-top: 1px solid var(--border); margin-top: .5rem; }
 

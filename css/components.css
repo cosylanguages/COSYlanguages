@@ -1,3 +1,68 @@
+/* ── Button and Component Tokens & Overrides ────────── */
+:root {
+    /* Button System Variables */
+    --btn-font-sans: var(--font-sans, 'Nunito', 'DM Sans', sans-serif);
+    --btn-primary-bg: var(--sage, #416b49);
+    --btn-primary-color: #ffffff;
+    --btn-primary-hover-bg: var(--sage-dark, #375742);
+    --btn-primary-hover-color: #ffffff;
+    --btn-primary-radius: 100px;
+    --btn-primary-padding: 14px 32px;
+    --btn-primary-weight: 800;
+    --btn-primary-shadow: 0 4px 14px rgba(46,74,51,0.15);
+    --btn-primary-hover-shadow: 0 6px 20px rgba(46,74,51,0.25);
+
+    --btn-secondary-bg: transparent;
+    --btn-secondary-border: 1.5px solid var(--sage-soft, #6b9474);
+    --btn-secondary-color: var(--sage-dark, #375742);
+    --btn-secondary-hover-bg: var(--sage-light, #e8f0e9);
+    --btn-secondary-hover-color: var(--sage-deep, #233827);
+    --btn-secondary-radius: 100px;
+    --btn-secondary-padding: 13px 28px;
+    --btn-secondary-weight: 600;
+
+    --btn-tertiary-color: var(--sage-dark, #375742);
+    --btn-tertiary-hover-color: var(--sage-deep, #233827);
+    --btn-tertiary-weight: 700;
+
+    /* Dictionary Panel Variables */
+    --dict-panel-bg:       rgba(255, 255, 255, 0.95);
+    --harvest-card-bg:     rgba(255, 255, 255, 0.98);
+
+    /* Common Base variables relocated from shared tokens */
+    --primary-color:   var(--sage, #416b49);
+    --secondary-color: var(--honey, #945e05);
+    --vocab-color:     var(--sage, #416b49);
+    --grammar-color:   var(--honey, #945e05);
+    --speaking-color:  var(--honey, #945e05);
+    --group-note-bg:   #fff8e7;
+
+    /* Tag Colors for accessibility */
+    --a2-tag-bg: #FAF0E6;
+    --a2-tag-color: #8A5200;
+    --sensitive-tag-bg: #FFF5F5;
+    --sensitive-tag-color: #B91C1C;
+}
+
+html[data-theme="dark"], body.theme-dark {
+    /* Cosy Button System Dark Overrides */
+    --btn-primary-bg: var(--sage, #5a7a5f);
+    --btn-primary-hover-bg: var(--sage-dark, #8a9e8b);
+    --btn-secondary-border: 1.5px solid var(--sage-soft, #6b9474);
+    --btn-secondary-color: var(--sage-light, #222c23);
+    --btn-secondary-hover-bg: rgba(107,143,113,0.15);
+    --btn-secondary-hover-color: #ffffff;
+    --btn-tertiary-color: var(--sage-light, #222c23);
+    --btn-tertiary-hover-color: #ffffff;
+
+    /* Dictionary Panel Dark Overrides */
+    --dict-panel-bg:       rgba(34, 43, 34, 0.95);
+    --harvest-card-bg:     rgba(34, 43, 34, 0.98);
+
+    /* Dark Overrides for Base variables */
+    --group-note-bg:       #2d261a;
+}
+
 /* ── Navigation ────────────────────────────────────── */
 #cosy-nav {
   background: var(--warm-white);
