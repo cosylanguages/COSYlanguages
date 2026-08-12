@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Vocabulary Hover Tooltip Feature', () => {
   test('should display tooltip on hover and allow adding to notebook', async ({ page }) => {
     // Go to Jim Kwik Quote session page on the local server
-    await page.goto('http://localhost:8080/events/sessions/the-greatest-quotes/jim-kwik-quote.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/jim-kwik-quote.html');
 
     // Tooltip should not be visible initially
     const tooltip = page.locator('#vocab-hover-tooltip');
