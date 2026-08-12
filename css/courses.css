@@ -96,7 +96,7 @@
 
 .curriculum-list li::before {
     content: "✓";
-    color: var(--teal);
+    color: var(--course-accent, var(--teal));
     font-weight: 900;
 }
 
@@ -158,7 +158,7 @@
 }
 
 .course-lang-card:hover {
-    border-color: var(--sage, #6b8f71);
+    border-color: var(--course-accent, var(--sage));
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
