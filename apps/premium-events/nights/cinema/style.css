@@ -1,0 +1,241 @@
+@import "../../../../css/tokens.css";
+
+/* ─── Cinema Club Boutique Theme ─── */
+body.theme-cinema {
+  background: radial-gradient(circle at top right, #2c1d11, #0f0a05) !important;
+  color: #f1ebd9 !important;
+}
+
+/* Clapperboard Production Slate Box */
+.cinema-slate-box {
+  background: #1C130C;
+  border: 3px solid #BA7517;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 2.5rem 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(186, 117, 23, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Realistic black-and-white clapperboard striped header strip */
+.clapper-strip {
+  height: 24px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #111111,
+    #111111 15px,
+    #ffffff 15px,
+    #ffffff 30px
+  );
+  border-bottom: 2px solid #BA7517;
+}
+
+.cinema-slate-box h3 {
+  font-family: 'Playfair Display', serif;
+  color: #FFB347 !important;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.cinema-slate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.cinema-slate-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(186, 117, 23, 0.2);
+  border-radius: 8px;
+  padding: 0.85rem;
+  transition: all 0.25s ease;
+}
+
+.cinema-slate-item:hover {
+  background: rgba(186, 117, 23, 0.05);
+  border-color: #BA7517;
+}
+
+.cinema-slate-item strong {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #FFB347;
+  margin-bottom: 0.25rem;
+}
+
+.cinema-slate-item span {
+  font-size: 0.9rem;
+  color: #f1ebd9;
+  line-height: 1.4;
+}
+
+/* Custom trailer button */
+.btn-trailer {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #BA7517;
+  color: white !important;
+  font-weight: 700;
+  text-decoration: none !important;
+  padding: 0.5rem 1.25rem;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.btn-trailer:hover {
+  background: #d48b26;
+  transform: translateY(-1.5px);
+}
+
+/* Cinema Club Clapperboard Session Cards for Hub Page */
+.cinema-clapperboard-card {
+  background: #1C130C !important;
+  border: 2px solid rgba(186, 117, 23, 0.3) !important;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3) !important;
+  transition: all 0.3s cubic-bezier(.34,1.56,.64,1);
+  display: flex;
+  flex-direction: column;
+}
+
+.cinema-clapperboard-card:hover {
+  transform: translateY(-6px);
+  border-color: #BA7517 !important;
+  box-shadow: 0 15px 35px rgba(186, 117, 23, 0.25) !important;
+}
+
+.cinema-clapperboard-card .clapper-strip {
+  height: 16px;
+  background-size: 20px 20px;
+}
+
+.clapper-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.clapper-title {
+  font-family: 'Playfair Display', serif;
+  color: #FFB347 !important;
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.clapper-desc {
+  font-size: 0.88rem;
+  color: #d8cebf !important;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.clapper-meta-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgba(186, 117, 23, 0.25);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.clapper-meta-cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.clapper-meta-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #BA7517;
+}
+
+.clapper-meta-val {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.clapper-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px dashed rgba(186, 117, 23, 0.25);
+  padding-top: 0.75rem;
+  margin-top: auto;
+}
+
+.clapper-pass-label {
+  font-family: monospace;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #BA7517;
+  letter-spacing: 0.05em;
+}
+
+.clapper-view {
+  color: #FFB347 !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none !important;
+}
+
+.clapper-view:hover {
+  text-decoration: underline !important;
+}
+
+/* Light Mode Overrides for Cinema */
+html[data-theme="light"] body.theme-cinema {
+  background: radial-gradient(circle at top right, #fcfaf5, #f5f1e8) !important;
+  color: #2c1a0e !important;
+}
+
+html[data-theme="light"] .cinema-slate-box {
+  background: #fdfbf7;
+  border-color: #BA7517;
+  box-shadow: 0 8px 24px rgba(186, 117, 23, 0.1);
+}
+
+html[data-theme="light"] .cinema-slate-box h3 {
+  color: #945e05 !important;
+}
+
+html[data-theme="light"] .cinema-slate-item {
+  background: rgba(186, 117, 23, 0.02);
+  border-color: rgba(186, 117, 23, 0.15);
+}
+
+html[data-theme="light"] .cinema-slate-item strong {
+  color: #945e05;
+}
+
+html[data-theme="light"] .cinema-slate-item span {
+  color: #3d2b1f;
+}
+
+html[data-theme="light"] .cinema-clapperboard-card {
+  background: #fdfbf7 !important;
+  border-color: rgba(186, 117, 23, 0.2) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06) !important;
+}
+
+html[data-theme="light"] .clapper-title {
+  color: #945e05 !important;
+}
+
+html[data-theme="light"] .clapper-desc {
+  color: #4a3d31 !important;
+}
+
+html[data-theme="light"] .clapper-meta-val {
+  color: #2c1a0e;
+}
