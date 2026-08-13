@@ -1,0 +1,26 @@
+{
+  "name": "COSY Courses",
+  "short_name": "COSY Courses",
+  "description": "Learn languages you'll actually speak - Premium syllabus-driven structured academies.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fdf8f0",
+  "theme_color": "#0f6e56",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "../../images/logos/cosylanguages.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../../images/logos/cosylanguages.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education"],
+  "lang": "en"
+}
