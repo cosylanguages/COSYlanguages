@@ -864,9 +864,9 @@ window.COSY = {
         if ('serviceWorker' in navigator) {
             const path = window.location.pathname;
             const p = getPrefix();
-            if (path.includes('/courses/') || path.includes('/apps/premium-courses/')) {
+            if (path.includes('/apps/premium-courses/')) {
                 // Register scoped service worker for Courses
-                navigator.serviceWorker.register(p + 'apps/premium-courses/sw.js', { scope: p + 'courses/' })
+                navigator.serviceWorker.register(p + 'apps/premium-courses/sw.js', { scope: p + 'apps/premium-courses/' })
                     .catch(e => console.log('SW (Courses):', e));
             } else if (path.includes('/events/') || path.includes('/apps/premium-events/')) {
                 // Register scoped service worker for Events

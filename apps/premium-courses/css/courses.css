@@ -1,0 +1,219 @@
+@import "../../../shared/css/tokens.css";
+
+/* Shared styles for Course pages */
+
+/* ─── Courses Restrained Credible Brand Identity ───────── */
+:root {
+    --course-accent: var(--sage, #416b49);
+    --course-accent-light: var(--sage-light, #e8f0e9);
+    --course-hero-bg: linear-gradient(135deg, var(--sage-deep, #233827), #1a2a1d);
+}
+
+/* Track Accent Overrides */
+body.theme-course-general {
+    --course-accent: var(--sage, #416b49);
+    --course-accent-light: var(--sage-light, #e8f0e9);
+    --course-hero-bg: linear-gradient(135deg, var(--sage-deep, #233827), #1a2a1d);
+}
+
+body.theme-course-spoken {
+    --course-accent: var(--coral, #B84318);
+    --course-accent-light: var(--coral-light, #faeee8);
+    --course-hero-bg: linear-gradient(135deg, var(--coral, #B84318), #8a3a1d);
+}
+
+body.theme-course-exam {
+    --course-accent: var(--plum, #7a5c3a);
+    --course-accent-light: var(--plum-light, #f5ede0);
+    --course-hero-bg: linear-gradient(135deg, var(--plum, #7a5c3a), #4a3a2a);
+}
+
+body.theme-course-travelling {
+    --course-accent: var(--green, #4a6b50);
+    --course-accent-light: var(--green-light, #e5f4ec);
+    --course-hero-bg: linear-gradient(135deg, var(--green, #4a6b50), #2a4a33);
+}
+
+body.theme-course-professional {
+    --course-accent: var(--navy, #1e2f6b);
+    --course-accent-light: var(--navy-light, #e8ecf5);
+    --course-hero-bg: linear-gradient(135deg, var(--navy, #1e2f6b), #0a112b);
+}
+
+body.theme-course-relocation {
+    --course-accent: #d66161;
+    --course-accent-light: #fcebeb;
+    --course-hero-bg: linear-gradient(135deg, #d66161, #8a2a2a);
+}
+
+.course-page {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.hero-course {
+    background: var(--course-hero-bg) !important;
+    color: #fff;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.hero-course h1 {
+    font-family: var(--font-serif);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 1.5rem;
+}
+
+.hero-course .hero-sub {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 2.5rem;
+    opacity: 0.9;
+}
+
+/* At a glance */
+.glance-row {
+    background: var(--warm-white);
+    border-bottom: 1px solid var(--border);
+    padding: 2rem;
+}
+
+.glance-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.glance-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.glance-lbl {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+}
+
+.glance-val {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ink);
+}
+
+/* Sections */
+.course-section {
+    max-width: 900px;
+    margin: 6rem auto;
+    padding: 0 2rem;
+}
+
+.course-section h2 {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: var(--ink);
+}
+
+/* Curriculum */
+.curriculum-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.curriculum-list li {
+    background: var(--warm-white);
+    padding: 1.5rem;
+    border-radius: var(--r-lg);
+    border: 1px solid var(--border);
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.curriculum-list li::before {
+    content: "✓";
+    color: var(--course-accent, var(--teal));
+    font-weight: 900;
+}
+
+/* FAQ */
+.faq-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.faq-item {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 1.5rem;
+}
+
+.faq-q {
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: var(--ink);
+}
+
+.faq-a {
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .glance-grid { grid-template-columns: 1fr 1fr; }
+    .hero-course { padding: 4rem 1.5rem; }
+}
+
+/* Language Selector */
+.course-lang-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.course-lang-card {
+    background: var(--warm-white);
+    border: 2px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 800;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--ink);
+    box-shadow: var(--shadow-sm);
+}
+
+.course-lang-card:hover {
+    border-color: var(--course-accent, var(--sage));
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.cl-flag {
+    font-size: 2.2rem;
+    line-height: 1;
+}
+
+.cl-name {
+    font-size: 1rem;
+    font-weight: 700;
+}
