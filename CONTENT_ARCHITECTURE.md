@@ -75,16 +75,61 @@ This document serves as the master reference for all universal distinctions, cod
 Common categories used in data files:
 - `verbs`, `nouns`, `adjectives`, `determiners`, `pronouns`, `adverbs`, `prepositions`, `conjunctions`, `numerals`.
 
-## 5. Speaking Club Categories (Events)
+## 5. Product & Sub-Product Taxonomy
 
-| Club ID | Label | Primary Themes |
-|---------|-------|----------------|
-| science | Keeping Up with Science | `nature`, `environment`, `technology`, `health_medicine` |
-| celebrate | Let's Celebrate! | `social`, `art_culture`, `people` |
-| quotes | The Greatest Quotes | `psychology`, `language`, `emotions`, `art_culture` |
-| mind | Mind Matters | `psychology`, `emotions`, `body` |
-| life | My Life With/Without | `social`, `travel`, `furniture`, `clothes`, `food_drink` |
-| debate | Debatable & Relatable | `work`, `jobs`, `environment`, `social`, `technology` |
+This taxonomy outlines the definitive organization and owners of the COSYlanguages ecosystem, separating the Free Platform from Paid/Premium Products.
+
+### 5.1 Free Platform (No Gate)
+*   **Path:** Root directory `/` (served via `cosylanguages.github.io`)
+*   **Target Audience:** Public visitors and autonomous self-study learners.
+*   **Core Offerings:**
+    *   **Grammar Manuals:** High-contrast color-coded grammar references aligned with COSYlanguages Grammar Standards.
+    *   **Practice Hub:** Interactive vocabulary and syntax training engine.
+    *   **Vocabulary/Word Games:** 22 standalone solo games (Word Linker, Lucky Numbers, Action Hero, Battle of Wits, etc.).
+    *   **Placement Quiz:** Adaptive progressive CEFR-aligned assessment.
+    *   **Print Tools:** High-utility PDF card generators, zines, and box models.
+
+### 5.2 Paid Product: Courses (`apps/premium-courses/`)
+*   **Path:** `/courses/` (served via `courses.cosylanguages.com`)
+*   **Target Audience:** Syllabus-driven structured academies for progressive language learning.
+*   **Sub-Product / Track Taxonomy:**
+
+| Track ID | Label | Pedagogical Focus / Primary Themes | Accent Theme |
+|----------|-------|------------------------------------|--------------|
+| `general` | General Course | All 4 skills growing together, structured CEFR-level progression. | Forest Green / Sage |
+| `spoken` | Spoken Course | 1-to-1 short, intense speaking sessions for immediate conversational fluency. | Terracotta / Coral |
+| `professional` | Professional Course | Career-ready business communication, meetings, resume/CV, interviews. | Credible Navy |
+| `travelling` | Travelling Course | Practical phrases, navigation, cultural tips for travel/tourism. | Practical Fresh Green |
+| `relocation` | Relocation Course | Practical integration, renting flats, bureaucracy, building local social circles. | Warm Rust / Amber |
+| `exam` | Exam Preparation | Targeted preparation focusing on oral components of IELTS, DELF, DALF, etc. | Scholarly Plum |
+
+### 5.3 Paid Product: Events (`apps/premium-events/`)
+*   **Path:** `/events/` (served via `events.cosylanguages.com`)
+*   **Target Audience:** Highly interactive, conversational speaking clubs and multi-sensory immersive group events.
+
+#### 5.3.1 Sub-brand Family: Thematic Speaking Clubs
+Conversational clubs designed around novelty, deep atmosphere, and community.
+
+| Club ID | Label | Primary Themes / Visual Identity | Brand Style / Watermark |
+|---------|-------|----------------------------------|-------------------------|
+| `wonder` | I Couldn't Help But Wonder | Introspective Breton narratives, Carrie Bradshaw-style retro polaroid. | Translucent Washi-Tape, scattered rotation |
+| `science` | Keeping Up with Science | `nature`, `environment`, `technology`, `health_medicine` (Field Journal). | High-contrast Science Green / 🦖 🧪 |
+| `mind` | Mind Matters | `psychology`, `emotions`, `body` (Everyday Psychology, soft calming). | Yellow/Blue dopamine/sleep watermarks |
+| `debate` | Debatable & Relatable | `work`, `jobs`, `environment`, `social` (Structured debates, high contrast). | Grey/White watermark emojis |
+| `celebrate` | Let's Celebrate! | `social`, `art_culture`, `people` (Festivals, cultural events, seasonal). | Bespoke emojis, snapshot boxes |
+| `life` | My Life With/Without | `social`, `travel`, `furniture`, `clothes` (Everyday life experiences). | Balance-ledger perspective boxes |
+| `quotes` | The Greatest Quotes | `psychology`, `language`, `emotions` (Philosophical quotes & aphorisms). | Soft quote marks watermarks |
+
+#### 5.3.2 Sub-brand Family: Interactive Multimedia Nights
+Atmospheric, media-rich workshops centered on cinematic, musical, and literary analysis.
+
+| Night ID | Label | Primary Themes / Visual Identity | Brand Style / Watermark |
+|----------|-------|----------------------------------|-------------------------|
+| `cinema` | Cinema Club | Protagonist dialogue deconstruction, character conflict, screenplays. | High-contrast, dark-mode first, pensive chalk-gold |
+| `karaoke` | Karaoke Club | Hand-coded lyrics, retro cassette liner notes, pronunciation metrics. | Vintage plum/warm cream retro cassette theme |
+| `game-evening` | Game Evening | Multiplayer/group dynamics, boardgame-inspired cozy social games. | Cozy boardgame orange/cream theme |
+| `long-reads` | Long Reads | Literary parlor, active book curriculum, reader ledgers. | Cozy dark-mahogany, interactive typewriter |
+| `if-you-were` | If You Were | Hypothetical subjective states, Perspective Mirror box columns. | High-contrast dark backgrounds, light text rules |
 
 ## 6. Content Standards
 
