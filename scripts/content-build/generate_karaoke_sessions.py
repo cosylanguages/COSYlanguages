@@ -4766,8 +4766,116 @@ for slug in sorted(LYRICS_DATA.keys()):
         "lyrics": LYRICS_DATA[slug]["lyrics"]
     })
 
-# STEP 2: Parse all 11 challenges dynamically from their existing files
+# STEP 2: Parse all 15 challenges dynamically from their existing files
 NEW_CHALLENGES_METADATA = {
+    "maelle-challenge": {
+        "title": "Maëlle Challenge",
+        "artist": "Maëlle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Technology, Humanity & Unconditional Love",
+        "vocab": []
+    },
+    "abba-challenge": {
+        "title": "ABBA Challenge",
+        "artist": "ABBA",
+        "level": "B1",
+        "lang": "en",
+        "variety": "Swedish & British English",
+        "focus": "Identity, Dual Personality & Deception",
+        "vocab": []
+    },
+    "arletta-challenge": {
+        "title": "Arletta Challenge",
+        "artist": "Αρλέτα",
+        "level": "B1",
+        "lang": "el",
+        "variety": "Greek",
+        "focus": "Night thoughts, Solitude & Everyday Freedom",
+        "vocab": []
+    },
+    "esteman-challenge": {
+        "title": "Esteman Challenge",
+        "artist": "Esteman",
+        "level": "B1",
+        "lang": "es",
+        "variety": "Spanish",
+        "focus": "Love Without Labels & Growing Apart",
+        "vocab": []
+    },
+    "angele-challenge": {
+        "title": "Angèle Challenge",
+        "artist": "Angèle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Modern Dating, Equality & Respect",
+        "vocab": []
+    },
+    "massimo-ranieri-challenge": {
+        "title": "Massimo Ranieri Challenge",
+        "artist": "Massimo Ranieri",
+        "level": "B1",
+        "lang": "it",
+        "variety": "Italian",
+        "focus": "Companion-ship & Fleeting Nature of Love",
+        "vocab": []
+    },
+    "angelina-wismes-challenge": {
+        "title": "Angelina Wismes Challenge",
+        "artist": "Angelina Wismes",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Living Through Loss & Dreaming of Paris",
+        "vocab": []
+    },
+    "cass-elliot-challenge": {
+        "title": "Cass Elliot Challenge",
+        "artist": "Cass Elliot",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Being Yourself & Hope after Hard Times",
+        "vocab": []
+    },
+    "la-zarra-challenge": {
+        "title": "La Zarra Challenge",
+        "artist": "La Zarra",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Confidence, Self-Worth & Accepting Endings",
+        "vocab": []
+    },
+    "kate-bush-challenge": {
+        "title": "Kate Bush Challenge",
+        "artist": "Kate Bush",
+        "level": "B1",
+        "lang": "en",
+        "variety": "British English",
+        "focus": "Human Cost of War & Joy of Falling in Love",
+        "vocab": []
+    },
+    "crazy-ex-girlfriend-challenge": {
+        "title": "Crazy Ex-Girlfriend Challenge",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Satire, Overthinking, Self-Sabotage & Career Pivots",
+        "vocab": []
+    },
+    "heathers-challenge": {
+        "title": "Heathers Challenge",
+        "artist": "Heathers Cast",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Youth, Hope for Normalcy & Social Pressure",
+        "vocab": []
+    },
     "fabienne-thibeault-challenge": {
         "title": "Fabienne Thibeault Challenge",
         "artist": "Fabienne Thibeault",
