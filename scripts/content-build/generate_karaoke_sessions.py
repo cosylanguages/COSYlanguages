@@ -5172,8 +5172,30 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 </body>
 </html>"""
 
+# Build the set of all song slugs that belong to challenges to prevent duplicate standalone generation
+ALL_CHALLENGE_SONG_SLUGS = set()
+for sub_slugs in CHALLENGE_MAP.values():
+    for s_slug in sub_slugs:
+        ALL_CHALLENGE_SONG_SLUGS.add(s_slug)
+
+# Clean up any existing duplicate standalone song HTML files for challenge sub-songs from flat directory structures
+for root, dirs, files in os.walk(OUTPUT_DIR):
+    if "challenges" in root:
+        continue
+    for f in files:
+        if f.endswith(".html"):
+            f_slug = f[:-5]
+            if f_slug in ALL_CHALLENGE_SONG_SLUGS:
+                try:
+                    os.remove(os.path.join(root, f))
+                except OSError:
+                    pass
+
 for song in all_karaoke_data:
     slug = song["slug"]
+    # If this is a song that is part of a challenge, skip compiling it as a standalone page
+    if slug in ALL_CHALLENGE_SONG_SLUGS and slug not in CHALLENGE_MAP:
+        continue
     # Generate all songs to apply fallback definition repairs and round 2 truncation universally
     pass
     title = song["title"]
