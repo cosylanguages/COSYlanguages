@@ -1,9 +1,9 @@
 import re
 import os
 
-filepath = "events/karaoke-club.html"
+filepath = "apps/premium-events/nights/karaoke/karaoke-club.html"
 if not os.path.exists(filepath):
-    print("Error: events/karaoke-club.html not found.")
+    print("Error: apps/premium-events/nights/karaoke/karaoke-club.html not found.")
     exit(1)
 
 with open(filepath, "r", encoding="utf-8") as f:
