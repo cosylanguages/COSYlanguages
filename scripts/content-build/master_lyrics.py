@@ -5433,4 +5433,453 @@ Moi je tourne en rond, je tourne en rond"""
 Σα Θεός έχω στάξει
 Κυριακή ο χρόνος"""
     },
+    "flash": {
+        "helpers": ['souvenirs', 'sirènes', 'vagues', 'désabonné', 'regrets'],
+        "lyrics": """Je revois le fond
+Mes souvenirs sont là
+Je redoute le monde
+J'entends comme des sirènes qui se battent entre elles
+Et puis le bruit des vagues m'emporte et revienne
+J'voulais juste lui parler, mais on s'est désabonné
+Je ressens ses mains qui picotaient et picote encore mon corps
+Je repense à ces matins
+Où tout était encore là comme pour la première fois
+Oh-oh
+
+Mais qu'est-ce que tu t'imagines ?
+Qu'est-ce que tu veux dire ?
+T'es toujours dans mes flashs
+Comme si j'n'avais plus d'espace
+Oh-oh
+
+Mais qu'est-ce que tu t'imagines si vite ?
+Qu'est-ce que tu veux fuir ?
+Le pire toujours dans mes flashs
+Comme si j'n'avais plus d'espace
+
+Ce soleil sans éclat
+Qui me parle tout bas
+Toujours, tu restes là
+Tu voulais t'en donner, mais tout s'est désaccordé
+Je souris pour masquer mes blessures
+Jamais surpris, souvent déçue
+Le dos courbé, c'est le poids des mots
+La nuit, retrouver ses secrets noyés au milieu des regrets
+Où on était encore là comme pour la première fois
+Oh-oh
+
+Mais qu'est-ce que tu t'imagines ?
+Qu'est-ce que tu veux dire ?
+T'es toujours dans mes flashs
+Comme si j'n'avais plus d'espace
+Oh-oh
+
+Mais qu'est-ce que tu t'imagines si vite ?
+Qu'est-ce que tu veux fuir ?
+Le pire toujours dans mes flashs
+Comme si j'n'avais plus d'espace
+
+Tout s'assombri
+Je marche sur un fil
+Je revois ces matins
+Où on était encore là comme pour la dernière fois
+Oh-oh
+
+Mais qu'est-ce que tu t'imagines ?
+Qu'est-ce que tu veux dire ?
+T'es toujours dans mes flashs
+Comme si j'n'avais plus d'espace
+Oh-oh
+
+Mais qu'est-ce que tu t'imagines si vite ?
+Qu'est-ce que tu veux fuir ?
+Le pire toujours dans mes flashs
+Comme si j'n'avais plus d'espace"""
+    },
+    "comme-un-voleur": {
+        "helpers": ['magie', 'cerveau', 'règles', 'voleur', 'bizarre'],
+        "lyrics": """[Verse 1]
+La vie, la vie, c'est qui, c'est quoi ?
+Dis, mais qu'est-ce qu'on fout là ?
+Comme par magie, magie, on a
+Décidé pour nous, c'est comme ça
+Deux bras, deux jambes, un cerveau
+Qui marche et qui crève et rêve et blesse
+Des mains qui brisent et qui caressent
+Une paire de seins, une paire de fesses
+
+[Verse 2]
+La vie, la vie, j'te dis, c'est mieux
+Quand c'est sombre et lumineux
+Quand on écrit pas les règles du jeu
+On se démerde, on triche un peu
+A mon avis, il vaut mieux pas
+Chercher d'où on vient, où on va
+Ce s'ra moins beau quand on saura
+Puis quand on trouve, il reste quoi ?
+
+[Chorus]
+Moi, je sais rien, mais j'ai pas peur
+J'regarde les gens qui r'gardent ailleurs
+J'leur pique le pire et le meilleur
+J'fais des chansons comme un voleur
+Comme un voleur
+Comme un voleur
+Comme un voleur
+
+[Verse 3]
+La vie, la vie, c'est con parfois
+Quand sans raison, sans bla-bla
+Ça prend ceux qu'on aime et nous laisse là
+Avec nos questions sur les bras
+Mais d'où ça vient ces coups du sort ?
+C'est quoi ces bails avec la mort ?
+On pourrait p'têt se mett' d'accord
+C'est toi qui reste et moi qui sort
+
+[Verse 4]
+La vie, la vie, c'est trop bizarre
+C'est la plus chelou des histoires
+Pensée par un enfant qui joue
+Et qui se permet tout
+A mon avis, faut pas lutter
+Quand c'est pas toi qui jette les dés
+Ce s'rait moins beau si on savait
+Y aurait plus grand chose à rêver
+
+[Chorus]
+Moi, je sais rien, mais j'ai pas peur
+J'regarde les gens qui r'gardent ailleurs
+J'leur pique le pire et le meilleur
+J'fais des chansons comme un voleur
+Comme un voleur
+Comme un voleur
+Comme un voleur"""
+    },
+    "comme-une-reine": {
+        "helpers": ['rondeurs', 'miroir', 'beauté', 'reine', 'uniforme'],
+        "lyrics": """Pour ne pas voir tes rondeurs
+Tes yeux sont baissés
+Le miroir pourrait te briser en millier de morceaux
+Des bouts de toi éparpillés flingueraient le peu d'estime qui sauve ta peau
+Quand le cœur est trop gros
+Le reflet qui fait mal est plus violent que des balles
+Mais regarde c'est toi qui vise et c'est pas normal
+Et le désamour est tel entre toi et toi-même
+J'aimerais que tu réalises que tu portes un diadème
+Oh-uuh...
+
+Tu n'as rien à cacher
+De ton corps et tes formes
+Tu n'as rien à perdre et tout à gagner
+Baby il est temps de réconcilier
+Ta différence et ta beauté
+Tu vas mener la danse
+Tu vas te dire enfin "je t'aime"
+Tu n'as qu'une existence
+Tu n'as qu'une seule chance
+Comporte toi comme une reine
+Comme, comme une rei-eine
+Comme, comme une rei-eine
+Comme, comme une rei-eine
+Comme, comme une rei-eine
+
+C'est pas de la haine c'est de l'art c'est l'art de tricher
+Quand tu dis que ta féminité est juste bonne à baiser
+La place de l'ombre la fille aux kilos de trop
+Qu'on appelle en fin de soirée un peu trop arrosée
+Tu ravales tes larmes
+Mais le vase va déborder
+Il faudrait que quelqu'un le brise pour te libérer
+Le désamour est tel entre toi et toi-même
+J'aimerais que tu réalises que tu portes un diadème
+Oh-uuh...
+
+Tu n'as pas à changer
+A porter l'uniforme
+Tu n'as rien a perdre et tout à gagner
+Baby il est temps de réconcilier
+Ta différence et ta beauté
+Tu vas mener la danse
+Tu vas t'aimer comme moi je t'aime
+Tu n'as qu'une existence
+Tu n'as qu'une seule chance
+Comporte toi comme une reine
+Comme, comme une rei-eine
+Comme, comme une rei-eine
+Comme, comme une rei-eine
+Comme, comme une rei-eine
+Comme, comme une rei-eine
+Comme, comme une rei-eine"""
+    },
+    "tour-eiffel": {
+        "helpers": ['ciel', 'tour', 'film', 'porte', 'amour'],
+        "lyrics": """Avec ou sans c'est pareil
+C'est vraiment n'importe quoi
+Mon cœur se vide, Paris ce verre
+Tu m'aimes mal et j'ai froid
+C'est pas malin de penser à toi
+En haut de la Tour Eiffel
+J'ai vu la fin du film, j'aime bien les drames
+Et là je crois que je vais rentrer chez moi
+Je te quitte, bon débarras
+
+Quand tu penses à moi
+C'est qui est encore une fois pour de bon
+Pas comme la dernière fois
+Je ferme la porte à double tour
+Sur ton amour qui ne me plaît pas
+Je suis désolé ma merveille
+Tu m'as balancé sans foi
+Je suis tombé love du Roi Soleil
+Dans sa cour on est tard
+
+Je prends de la hauteur, enfin je te vois
+Du sommet de la Tour Eiffel
+Tu es tellement grand que là il fallait
+Au moins ça pour voir l'ampleur des dégâts
+Je te quitte, mon débarras
+Bye-bye, claque la porte quand tu sors
+Et frappe-toi fort quand tu penses à moi"""
+    },
+    "faudrait-pas": {
+        "helpers": ['bagages', 'cinéma', 'bonheur', 'maladroit', 'dégâts'],
+        "lyrics": """Qu'est ce-que tu vas faire de moi
+Quand t'auras le mode d'emploi?
+Surtout, défais pas tes bagages
+Attends d'avoir lu quelques pages
+Regarde, mais regarde-moi
+T'es pas prêt pour mon cinéma
+Qui m'aime a du mal à me suivre
+Je sais, j'suis pas facile à vivre, tu vois
+
+Faudrait pas
+Faudrait pas que j't'aime trop, toi
+Faudrait pas
+Faudrait passer loin de moi
+Faudrait pas
+Faudrait pas que j't'aime trop, toi
+Mais on fait quoi si je t'aime déjà?
+
+Faudrait pas
+Faudrait pas que j't'aime trop, toi
+Faudrait pas
+Faudrait passer loin de moi
+Faudrait pas
+Faudrait pas que j't'aime trop, toi
+Mais on fait quoi si je t'aime déjà?
+
+Comment on s'en sortira?
+C'est beau mais ça sert à quoi?
+On connaît la chanson par cœur
+Tant de mal pour une goutte de bonheur (une goutte de bonheur)
+Écoute, mais écoute-moi
+Tout est vrai même si c'est maladroit
+Va-t'en voir ailleurs si j'y suis
+Avant que je change d'avis, tu vois
+
+Faudrait pas
+Faudrait pas que j't'aime trop, toi
+Faudrait pas
+Faudrait passer loin de moi
+Faudrait pas
+Faudrait pas que j't'aime trop, toi
+Mais on fait quoi si je t'aime déjà?"""
+    },
+    "les-lois-de-lattraction": {
+        "helpers": ['étoile', 'DM', 'bougie', 'abonnés', 'attraction'],
+        "lyrics": """Je suis pas prête la Terre a tourné
+Et mon étoile est un peu désaxée
+Mais somnambule, funambule, je vais marcher
+J'envoie des DM à la fille que j'étais
+Je remonte le fil de mes pensées
+Ce que j'ai vécu là, je le méritais
+Si c'est un jeu drôle, avais-je les épaules ?
+Aller allumer une bougie à mes abonnés
+
+Et je coule, coule, coule, coule, coule
+Ouais je coule, coule, coule, coule
+Coule et je coule, coule, coule, coule
+Coule, ouais je coule, coule, coule, coule
+
+Selon les lois de l'attraction
+Mon âme égale cherche à me refaire un nom
+Mais que les nuits sont longues sur les rebords du monde
+Au pied des podiums et des panthéons
+Pris dans les lois de l'attraction
+Mon anonyme a cherché à se refaire un nom
+Depuis les branches qui cassent, les cordes qui lâchent
+J'irai prendre ma part, de la part du lion
+
+Un cœur net et un cœur brisé
+Un cœur brisé et un cœur libre
+Mais somnambule, funambule, j'essaie de ne pas tomber
+Amoureuse de ma propre folie
+Les jeunes pousses deviennent des colonies
+Une ville a poussé en une nuit
+À l'ombre de leurs yeux gravés sur des statues de cire
+Allez allumer une bougie à mon bon souvenir
+
+Et je coule, coule, coule, coule, coule
+Ouais je coule, coule, coule, coule
+Coule et je coule, coule, coule, coule
+Coule, ouais je coule, coule, coule, coule
+
+Selon les lois de l'attraction
+Mon âme égale cherche à me refaire un nom
+Mais que les nuits sont longues sur les rebords du monde
+Au pied des podiums et des panthéons
+Pris dans les lois de l'attraction
+Mon anonyme a cherché à se refaire un nom
+Depuis les branches qui cassent, les cordes qui lâchent
+J'irai prendre ma part, de la part du lion"""
+    },
+    "heavy-cross": {
+        "helpers": ['cruel', 'heavy', 'cross', 'rules', 'choice'],
+        "lyrics": """Oh oh oh ooooh
+Oh oh oh ooooh
+
+It's a cruel, cruel world to face on your own
+A heavy cross to carry alone
+The lights are on but everyone's gone
+And it's cruel
+
+It's a funny way to make ends meet
+When the lights are out on every street
+It feels alright but never complete
+Without you
+
+I trust you, if it's already been done, undo it
+It takes two, it's up to me and you to prove it
+On the rainy nights, even the coldest days
+You're moments ago but seconds away
+The principle of nature, it's true but
+It's a cruel world
+
+We can play it safe or play it cool
+Follow the leader or make up all the rules
+Whatever you want, the choice is yours
+So choose
+
+I trust you, if it's already been done, undo it
+It takes two, and it's up to me and you to prove it"""
+    },
+    "move-in-the-right-direction": {
+        "helpers": ['motivation', 'direction', 'tears', 'fears', 'reminiscing'],
+        "lyrics": """One step closer, I'm feeling fine
+Getting better one day at a time
+I'm moving forward, it's all in my mind
+I'm heading forward without looking behind
+
+So I will hold back tears
+Move in the right direction
+Face my fears
+Move in the right direction
+
+Motivation, a powerful strength
+Hesitation was my first instinct
+I got the notion that weakness was
+Total devotion, it's okay because
+
+I will hold back tears
+So I can move in the right direction
+I have faced my fears
+Now, I can move in the right direction
+
+I'm doing fine
+One step closer every day at a time
+I won't lose my mind
+Lose my mind, ah, ah, oh
+
+Keeping my head up looking forward
+Reminiscing will get you nowhere
+Never say never, starting over
+It's not perfect, but it's getting closer
+
+I will hold back tears
+So I can move in the right direction
+I have faced my fears
+Now, I can move in the right direction"""
+    },
+    "standing-in-the-way-of-control": {
+        "helpers": ['control', 'survive', 'truth', 'friends', 'trying'],
+        "lyrics": """Your back's against the wall, there's no one home to call
+You're forgetting who you are, you can't stop crying
+It's part not giving in and part trusting your friends
+You'll do it all again and I'm not lying
+
+Oh-woah, oh-woah, ooh
+Oh-woah, oh-woah, ooh
+
+Standing in the way of control
+You'll live your life, survive the only way that you know, know, ooh
+I'm doing this for you because it's easier to lose
+And it's hard to face the truth when you think you're dying
+
+It's part not giving in and part trusting your friends
+You'll do it all again but you don't stop trying
+
+Oh-woah, oh-woah, ooh
+Oh-woah, oh-woah, ooh
+
+Standing in the way of control
+You'll live our lives, because we're standing in the way of control
+We'll live our lives, because we're standing in the way of control
+We will live our lives, because we're standing in the way of control
+We will live our lives, lives, lives, ooh"""
+    },
+    "crazy-again": {
+        "helpers": ['romance', 'savior', 'crazy', 'obligation', 'fragile'],
+        "lyrics": """[Verse 1]
+Situations occur when romance is a blur, it happens all the time
+Send me a savior
+So spare me the words that I've already heard over a thousand times
+Did I fall out of favor?
+
+[Pre-Chorus]
+'Cause you know what I'm like
+'Cause you know what I'm like
+
+[Chorus]
+And I might go crazy
+Crazy over you
+And I might go crazy
+Crazy over you
+Again
+
+[Verse 2]
+Obligation is such that it ruins the crush, it happens all the time
+Send me an angel
+
+[Pre-Chorus]
+'Cause you know what I'm like
+'Cause you know what I'm like
+
+[Chorus]
+And I might go crazy (Ooh)
+Crazy over you
+And I might go crazy (Ooh)
+Crazy over you
+Again
+Again
+
+[Bridge]
+Don't invite me home
+I'm fragile at the moment
+Heart of glass
+I'd rather be alone
+Then spend nights awake wonderin'
+Lookin' back
+
+[Pre-Chorus]
+'Cause you know what I'm like
+'Cause you know what I'm like
+
+[Chorus]
+And I might go crazy
+Crazy over you
+And I might go crazy
+Crazy over you
+Again"""
+    },
 }
