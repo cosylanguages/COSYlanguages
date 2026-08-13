@@ -2594,38 +2594,45 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 
 def parse_existing_vocab(slug):
     path = ""
-    for base in [
-        "apps/premium-events/nights/karaoke/sessions/karaoke-club",
-        "events/sessions/karaoke-club",
-        "events/sessions"
-    ]:
-        # Try legacy flat path first
-        check_p = f"{base}/{slug}.html"
-        if os.path.exists(check_p):
-            path = check_p
-            break
-        # Try nested English path
-        check_nested_en = f"{base}/challenges/{slug}/index.html"
-        if os.path.exists(check_nested_en):
-            path = check_nested_en
+    # Try finding the song HTML file recursively inside the output monorepo directory
+    for root, dirs, files in os.walk("apps/premium-events/nights/karaoke/sessions/karaoke-club"):
+        if f"{slug}.html" in files:
+            path = os.path.join(root, f"{slug}.html")
             break
 
-        found_local = False
-        for l in ["fr", "ru", "it", "es", "el"]:
-            # Try legacy localized flat path
-            check_lp = f"{base}/{l}/{slug}.html"
-            if os.path.exists(check_lp):
-                path = check_lp
-                found_local = True
+    if not path:
+        for base in [
+            "apps/premium-events/nights/karaoke/sessions/karaoke-club",
+            "events/sessions/karaoke-club",
+            "events/sessions"
+        ]:
+            # Try legacy flat path first
+            check_p = f"{base}/{slug}.html"
+            if os.path.exists(check_p):
+                path = check_p
                 break
-            # Try nested localized path
-            check_nested_lp = f"{base}/challenges/{l}/{slug}/index.html"
-            if os.path.exists(check_nested_lp):
-                path = check_nested_lp
-                found_local = True
+            # Try nested English path
+            check_nested_en = f"{base}/challenges/{slug}/index.html"
+            if os.path.exists(check_nested_en):
+                path = check_nested_en
                 break
-        if found_local:
-            break
+
+            found_local = False
+            for l in ["fr", "ru", "it", "es", "el"]:
+                # Try legacy localized flat path
+                check_lp = f"{base}/{l}/{slug}.html"
+                if os.path.exists(check_lp):
+                    path = check_lp
+                    found_local = True
+                    break
+                # Try nested localized path
+                check_nested_lp = f"{base}/challenges/{l}/{slug}/index.html"
+                if os.path.exists(check_nested_lp):
+                    path = check_nested_lp
+                    found_local = True
+                    break
+            if found_local:
+                break
 
     vocab_data = {}
     if not path or not os.path.exists(path):
@@ -3799,6 +3806,120 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
                     "La fin de '{title}' démontre qu'un seul rayon de <strong>{w_lower}</strong> peut nous porter à travers les saisons les plus froides. Discutons-en.",
                     "Si nous prenons toutes nos décisions de vie en fonction de <strong>{w_lower}</strong>, nous risquons de perdre toute stabilité. Discutons-en."
                 ]
+            },
+            "es": {
+                "r1": [
+                    "¿Cómo explora '{title}' de {artist} el significado profundo de <strong>{w_lower}</strong> en nuestra vida diaria?",
+                    "En '{title}', ¿se presenta <strong>{w_lower}</strong> como una fuente de fortaleza o como una fuente de duda?",
+                    "Analizando la letra de {artist}, ¿cómo da forma <strong>{w_lower}</strong> al mensaje general de la canción?",
+                    "¿De qué manera muestra '{title}' que <strong>{w_lower}</strong> es esencial para el crecimiento personal?",
+                    "¿Cómo mejora el estilo musical de '{title}' el impacto emocional de <strong>{w_lower}</strong>?",
+                    "Cuando {artist} canta sobre sus sentimientos, ¿se siente <strong>{w_lower}</strong> como un estado natural o como un desafío?",
+                    "¿Sugiere '{title}' que debemos trabajar para lograr <strong>{w_lower}</strong>, o sucede de forma natural?",
+                    "¿Cómo ayuda la imaginería visual de '{title}' a visualizar el concepto de <strong>{w_lower}</strong>?",
+                    "En su opinión, ¿encuentra paz el protagonista de '{title}' a través de <strong>{w_lower}</strong>, o se queda con preguntas?",
+                    "¿Cómo podemos aplicar las lecciones de <strong>{w_lower}</strong> de '{title}' para mejorar nuestra vida moderna?"
+                ],
+                "personal": [
+                    "★ ¿Cuándo fue la última vez que sintió una fuerte sensación de <strong>{w_lower}</strong> en su propia vida?",
+                    "★ ¿Le resulta fácil o difícil compartir sus sentimientos de <strong>{w_lower}</strong> con los demás?",
+                    "★ ¿Cómo ha cambiado su comprensión personal de <strong>{w_lower}</strong> en los últimos años?",
+                    "★ En su rutina diaria, ¿qué le ayuda a mantener su enfoque en <strong>{w_lower}</strong>?",
+                    "★ ¿Cuál es la lección más importante que ha aprendido sobre <strong>{w_lower}</strong>?",
+                    "★ ¿Cree que la sociedad moderna valora <strong>{w_lower}</strong>, o a menudo se pasa por alto?",
+                    "★ ¿Quién es la persona en su vida que mejor representa la idea de <strong>{w_lower}</strong>?",
+                    "★ Si pudiera regalar más <strong>{w_lower}</strong> a alguien que le importa, ¿quién sería?",
+                    "★ ¿Cree que <strong>{w_lower}</strong> se trata más de la paz personal o de las experiencias compartidas?",
+                    "★ ¿Qué pequeña práctica o hábito le ayuda a cultivar <strong>{w_lower}</strong> en sus relaciones?"
+                ],
+                "r2": [
+                    "La representación central de <strong>{w_lower}</strong> en '{title}' es un hermoso reflejo de las luchas humanas modernas. Debatamos esto.",
+                    "Sin una comprensión profunda de <strong>{w_lower}</strong>, nunca podremos lograr un éxito y una felicidad duraderos. Comparta sus pensamientos.",
+                    "La obra de {artist} muestra que nuestra obsesión colectiva con <strong>{w_lower}</strong> a veces puede llevarnos a la duda. Defienda o rechace.",
+                    "La verdadera <strong>{w_lower}</strong> solo puede existir cuando nos sentimos completamente cómodos con lo que somos. Discutamos.",
+                    "La música de '{title}' sugiere que debemos estar dispuestos a correr riesgos para experimentar plenamente <strong>{w_lower}</strong>. ¿Está de acuerdo?",
+                    "En el mundo moderno, el desarrollo tranquilo de <strong>{w_lower}</strong> a menudo se ve amenazado por distracciones constantes. Discutamos.",
+                    "No podemos apreciar verdaderamente <strong>{w_lower}</strong> hasta que hayamos experimentado momentos de desafío y fracaso. Analice esto.",
+                    "{artist} nos advierte que enfocarnos demasiado en <strong>{w_lower}</strong> puede hacernos perder de vista otros objetivos prácticos. Comparta su punto de vista.",
+                    "El final de '{title}' demuestra que aceptar nuestra propia <strong>{w_lower}</strong> es la clave para la libertad personal. Discutamos.",
+                    "Si tomamos nuestras decisiones de vida basándonos enteramente en la búsqueda de <strong>{w_lower}</strong>, corremos el riesgo de perder la estabilidad. Discutamos."
+                ]
+            },
+            "it": {
+                "r1": [
+                    "In che modo '{title}' di {artist} esplora il significato profondo di <strong>{w_lower}</strong> nella nostra vita quotidiana?",
+                    "In '{title}', <strong>{w_lower}</strong> viene presentato come una fonte di forza o come una fonte di dubbio?",
+                    "Analizzando il testo di {artist}, in che modo <strong>{w_lower}</strong> modella il messaggio generale della canzone?",
+                    "In quali modi '{title}' mostra que <strong>{w_lower}</strong> è essenziale per la crescita personale?",
+                    "In che modo lo stile musicale di '{title}' amplifica l'impatto emotivo di <strong>{w_lower}</strong>?",
+                    "Quando {artist} canta dei suoi sentimenti, <strong>{w_lower}</strong> sembra uno stato naturale o una sfida?",
+                    "'{title}' suggerisce che dobbiamo lavorare per raggiungere <strong>{w_lower}</strong>, o accade naturalmente?",
+                    "In che modo l'immaginario visivo di '{title}' aiuta a visualizzare il concetto di <strong>{w_lower}</strong>?",
+                    "Secondo te, il protagonista di '{title}' trova la pace attraverso <strong>{w_lower}</strong> o rimane con dei dubbi?",
+                    "Come possiamo applicare le lezioni di <strong>{w_lower}</strong> tratte da '{title}' per migliorare la nostra vita moderna?"
+                ],
+                "personal": [
+                    "★ Quando è stata l'ultima volta che hai provato un forte senso di <strong>{w_lower}</strong> nella tua vita?",
+                    "★ Trovi facile o difficile condividere i tuoi sentimenti di <strong>{w_lower}</strong> con gli altri?",
+                    "★ Come è cambiata la tua comprensione personale di <strong>{w_lower}</strong> negli ultimi anni?",
+                    "★ Nella tua routine quotidiana, cosa ti aiuta a mantenere l'attenzione su <strong>{w_lower}</strong>?",
+                    "★ Qual è la lezione più importante che hai imparato su <strong>{w_lower}</strong>?",
+                    "★ Credi che la società moderna dia valore a <strong>{w_lower}</strong>, o viene spesso ignorato?",
+                    "★ Chi è la persona nella tua vita che rappresenta meglio l'idea di <strong>{w_lower}</strong>?",
+                    "★ Se potessi regalare più <strong>{w_lower}</strong> a qualcuno a cui tieni, chi sarebbe?",
+                    "★ Pensi che <strong>{w_lower}</strong> riguardi più la pace personale o le esperienze condivise?",
+                    "★ Quale piccola abitudine ti aiuta a coltivare <strong>{w_lower}</strong> nelle tue relazioni?"
+                ],
+                "r2": [
+                    "La rappresentazione centrale di <strong>{w_lower}</strong> in '{title}' è un bellissimo riflesso delle lotte umane moderne. Dibattiamo su questo.",
+                    "Senza una profonda comprensione di <strong>{w_lower}</strong>, non potremo mai raggiungere un successo e una felicità duraturi. Condividi i tuoi pensieri.",
+                    "L'opera di {artist} mostra che la nostra ossessione collettiva per <strong>{w_lower}</strong> a volte può portare al dubbio. Difendi o opporiti.",
+                    "La vera <strong>{w_lower}</strong> può esistere solo quando siamo completamente a nostro agio con chi siamo. Discutiamo.",
+                    "La musica di '{title}' suggerisce che dobbiamo essere disposti a correre rischi per sperimentare appieno <strong>{w_lower}</strong>. Sei d'accordo?",
+                    "Nel mondo moderno, lo sviluppo pacifico di <strong>{w_lower}</strong> è spesso minacciato da costanti distrazioni. Discutiamo.",
+                    "Non possiamo apprezzare veramente <strong>{w_lower}</strong> finché non abbiamo vissuto momenti di sfida e di fallimento. Analizza questo.",
+                    "{artist} ci avverte che concentrarsi troppo su <strong>{w_lower}</strong> può farci perdere di vista altri obiettivi pratici. Condividi la tua opinione.",
+                    "La fine di '{title}' dimostra che accettare la propria <strong>{w_lower}</strong> è la chiave per la libertà personale. Discutiamo.",
+                    "Se prendiamo le nostre decisioni di vita basandoci interamente sulla ricerca di <strong>{w_lower}</strong>, rischiamo di perdere la stabilità. Discutiamo."
+                ]
+            },
+            "ru": {
+                "r1": [
+                    "Как песня '{title}' исполнителя {artist} раскрывает глубокое значение понятия <strong>{w_lower}</strong> в нашей повседневной жизни?",
+                    "В песне '{title}' предстает ли <strong>{w_lower}</strong> как источник силы или как источник сомнений?",
+                    "Анализируя лирику {artist}, как <strong>{w_lower}</strong> формирует общий смысл песни?",
+                    "Каким образом произведение '{title}' показывает, что <strong>{w_lower}</strong> имеет важное значение для личностного роста?",
+                    "Как музыкальный стиль песни '{title}' усиливает эмоциональное воздействие <strong>{w_lower}</strong>?",
+                    "Когда {artist} поет о своих чувствах, кажется ли <strong>{w_lower}</strong> естественным состоянием или вызовом?",
+                    "Предполагает ли песня '{title}', что мы должны трудиться ради достижения <strong>{w_lower}</strong>, или это происходит само собой?",
+                    "Как визуальные образы в '{title}' помогают наглядно представить концепцию <strong>{w_lower}</strong>?",
+                    "По вашему мнению, обретает ли главный герой в '{title}' покой через <strong>{w_lower}</strong> или у него остаются вопросы?",
+                    "Как мы можем применить уроки <strong>{w_lower}</strong> из песни '{title}' для улучшения нашей современной жизни?"
+                ],
+                "personal": [
+                    "★ Когда в последний раз вы испытывали сильное чувство <strong>{w_lower}</strong> в своей жизни?",
+                    "★ Легко ли вам делиться своими чувствами по поводу <strong>{w_lower}</strong> с другими людьми?",
+                    "★ Как изменилось ваше личное понимание <strong>{w_lower}</strong> за последние несколько лет?",
+                    "★ Что помогает вам оставаться сосредоточенным на <strong>{w_lower}</strong> в вашей повседневной жизни?",
+                    "★ Каков самый важный урок, который вы усвоили относительно <strong>{w_lower}</strong>?",
+                    "★ Верите ли вы, что современное общество ценит <strong>{w_lower}</strong>, или это понятие часто игнорируется?",
+                    "★ Кто в вашей жизни лучше всего олицетворяет идею <strong>{w_lower}</strong>?",
+                    "★ Если бы вы могли подарить больше <strong>{w_lower}</strong> дорогому вам человеку, кто бы это был?",
+                    "★ Как вы думаете, <strong>{w_lower}</strong> больше связано с внутренним миром или с общим опытом?",
+                    "★ Какое простое действие или привычка помогает вам развивать <strong>{w_lower}</strong> в ваших отношениях?"
+                ],
+                "r2": [
+                    "То, как показано понятие <strong>{w_lower}</strong> в песне '{title}', — это прекрасное отражение трудностей современного человека. Давайте поспорим.",
+                    "Без глубокого понимания <strong>{w_lower}</strong> мы никогда не сможем достичь прочного успеха и счастья. Поделитесь мыслями.",
+                    "Работа {artist} показывает, что наша коллективная одержимость <strong>{w_lower}</strong> может иногда приводить к неуверенности в себе. Поддержите или возразите.",
+                    "Настоящее понятие <strong>{w_lower}</strong> может существовать только тогда, когда мы полностью довольны тем, кто мы есть. Обсудим.",
+                    "Музыка '{title}' предполагает, что мы должны быть готовы идти на риск, чтобы полностью прочувствовать <strong>{w_lower}</strong>. Согласны ли вы?",
+                    "В современном мире спокойному развитию <strong>{w_lower}</strong> часто угрожают постоянные отвлекающие факторы. Обсудим.",
+                    "Мы не можем по-настоящему оценить <strong>{w_lower}</strong>, пока не переживем моменты испытаний и неудач. Проанализируйте это.",
+                    "{artist} предупреждает нас, что слишком сильная концентрация на <strong>{w_lower}</strong> может заставить нас упустить из виду другие практические цели. Поделитесь мнением.",
+                    "Финал песни '{title}' доказывает, что принятие собственного <strong>{w_lower}</strong> является ключом к личной свободе. Обсудим.",
+                    "Если мы принимаем жизненные решения, основываясь исключительно на стремлении к <strong>{w_lower}</strong>, мы рискуем потерять стабильность. Обсудим."
+                ]
             }
         }
     }
@@ -3807,9 +3928,13 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     theme_group = get_theme_group(focus, slug)
     group_templates = HANDCRAFTED_TEMPLATES.get(theme_group, HANDCRAFTED_TEMPLATES["default"])
 
-    # Simple localization mappings to populate matching styles for other languages seamlessly
-    active_lang = lang if lang in group_templates else "en"
-    lang_templates = group_templates.get(active_lang, HANDCRAFTED_TEMPLATES["default"]["en"])
+    # If the target language is not in the specific group_templates, try falling back to the default category's template for that language
+    if lang in group_templates:
+        lang_templates = group_templates[lang]
+    elif lang in HANDCRAFTED_TEMPLATES["default"]:
+        lang_templates = HANDCRAFTED_TEMPLATES["default"][lang]
+    else:
+        lang_templates = group_templates.get("en", HANDCRAFTED_TEMPLATES["default"]["en"])
 
     r1_questions_html = ""
     for idx, w in enumerate(vocab_words):
@@ -4689,24 +4814,31 @@ COMPLETE_SONG_VOCAB = {
 songs_list = []
 for slug in sorted(LYRICS_DATA.keys()):
     path = ""
-    for base in [
-        "apps/premium-events/nights/karaoke/sessions/karaoke-club",
-        "events/sessions/karaoke-club",
-        "events/sessions"
-    ]:
-        check_p = f"{base}/{slug}.html"
-        if os.path.exists(check_p):
-            path = check_p
+    # Try finding the song HTML file recursively inside the output monorepo directory (which includes challenges)
+    for root, dirs, files in os.walk("apps/premium-events/nights/karaoke/sessions/karaoke-club"):
+        if f"{slug}.html" in files:
+            path = os.path.join(root, f"{slug}.html")
             break
-        found_local = False
-        for l in ["fr", "ru", "it", "es", "el"]:
-            check_lp = f"{base}/{l}/{slug}.html"
-            if os.path.exists(check_lp):
-                path = check_lp
-                found_local = True
+
+    if not path:
+        for base in [
+            "apps/premium-events/nights/karaoke/sessions/karaoke-club",
+            "events/sessions/karaoke-club",
+            "events/sessions"
+        ]:
+            check_p = f"{base}/{slug}.html"
+            if os.path.exists(check_p):
+                path = check_p
                 break
-        if found_local:
-            break
+            found_local = False
+            for l in ["fr", "ru", "it", "es", "el"]:
+                check_lp = f"{base}/{l}/{slug}.html"
+                if os.path.exists(check_lp):
+                    path = check_lp
+                    found_local = True
+                    break
+            if found_local:
+                break
 
     if not path or not os.path.exists(path):
         if slug in NEW_SONGS_METADATA:
