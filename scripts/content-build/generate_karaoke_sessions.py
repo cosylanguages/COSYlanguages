@@ -451,6 +451,9 @@ CHALLENGE_MAP = {
     "mple-challenge": (
         "to-idio-to-theo", "fovamai"
     ),
+    "heathers-challenge": (
+        "seventeen", "lifeboat"
+    ),
 }
 
 SONG_LINKS = {
@@ -5365,21 +5368,203 @@ for song in all_karaoke_data:
             sources_html=sources_html
         )
 
-    session_output_dir = OUTPUT_DIR
-    if lang != "en":
-        session_output_dir = os.path.join(OUTPUT_DIR, lang)
-        os.makedirs(session_output_dir, exist_ok=True)
-        # Adjust relative paths for nested folder depth
-        formatted_html = formatted_html.replace('href="../../../', 'href="../../../../')
-        formatted_html = formatted_html.replace('href="../../', 'href="../../../')
-        formatted_html = formatted_html.replace('src="../../../', 'src="../../../../')
-        # Also clean up old flat file if it exists to avoid orphans
-        old_flat_path = os.path.join(OUTPUT_DIR, f"{slug}.html")
-        if os.path.exists(old_flat_path):
-            os.remove(old_flat_path)
+    if slug in CHALLENGE_MAP:
+        # It's a challenge! Create nested directory structure.
+        if lang == "en":
+            challenge_dir = os.path.join(OUTPUT_DIR, "challenges", slug)
+            root_prefix = "../../../../../../../"
+            hub_prefix = "../../../../"
+        else:
+            challenge_dir = os.path.join(OUTPUT_DIR, "challenges", lang, slug)
+            root_prefix = "../../../../../../../../"
+            hub_prefix = "../../../../../"
 
-    filepath = os.path.join(session_output_dir, f"{slug}.html")
-    with open(filepath, "w", encoding="utf-8") as fh:
-        fh.write(formatted_html)
+        os.makedirs(challenge_dir, exist_ok=True)
+
+        # Replace depth prefix and hub prefix in the HTML using unique placeholders
+        # to avoid double-replacement bugs where root_prefix is matched by the hub_prefix replacement.
+        formatted_html = formatted_html.replace('../../../../../../', '__ROOT_PLACEHOLDER__')
+        formatted_html = formatted_html.replace('../../', '__HUB_PLACEHOLDER__')
+        formatted_html = formatted_html.replace('__ROOT_PLACEHOLDER__', root_prefix)
+        formatted_html = formatted_html.replace('__HUB_PLACEHOLDER__', hub_prefix)
+
+        # Write the main challenge index.html
+        filepath = os.path.join(challenge_dir, "index.html")
+        with open(filepath, "w", encoding="utf-8") as fh:
+            fh.write(formatted_html)
+
+        # Remove legacy flat challenge files if they exist
+        legacy_flat_paths = [
+            os.path.join(OUTPUT_DIR, f"{slug}.html"),
+            os.path.join(OUTPUT_DIR, lang, f"{slug}.html")
+        ]
+        for l_path in legacy_flat_paths:
+            if os.path.exists(l_path):
+                os.remove(l_path)
+
+        # Generate separate song pages inside the challenge directory!
+        back_challenge_dict = {
+            "en": "← Back to Challenge",
+            "fr": "← Retour au défi",
+            "ru": "← Назад к челленджу",
+            "it": "← Torna alla sfida",
+            "es": "← Volver al desafío",
+            "el": "← Πίσω στην πρόκληση"
+        }
+        back_challenge_text = back_challenge_dict.get(lang, back_challenge_dict["en"])
+
+        for sub_slug in CHALLENGE_MAP[slug]:
+            sub_song = next((s for s in songs_list if s["slug"] == sub_slug), None)
+            if not sub_song:
+                continue
+
+            sub_title = sub_song["title"]
+            sub_artist = sub_song["artist"]
+            sub_level_short = sub_song["level"]
+            sub_level_long = "Intermediate (B1)" if sub_level_short == "B1" else ("Beginner (A2)" if sub_level_short == "A2" else ("Upper Intermediate (B2)" if sub_level_short == "B2" else "Advanced (C1)"))
+
+            if sub_song["lang"] == "fr":
+                sub_level_long = "Intermédiaire (B1)" if sub_level_short == "B1" else ("Débutant (A2)" if sub_level_short == "A2" else ("Intermédiaire Supérieur (B2)" if sub_level_short == "B2" else "Avancé (C1)"))
+            elif sub_song["lang"] == "ru":
+                sub_level_long = "Средний (B1)" if sub_level_short == "B1" else ("Начинающий (A2)" if sub_level_short == "A2" else ("Выше среднего (B2)" if sub_level_short == "B2" else "Продвинутый (C1)"))
+            elif sub_song["lang"] == "it":
+                sub_level_long = "Intermedio (B1)" if sub_level_short == "B1" else ("Principiante (A2)" if sub_level_short == "A2" else ("Intermedio Superiore (B2)" if sub_level_short == "B2" else "Avanzato (C1)"))
+            elif sub_song["lang"] == "es":
+                sub_level_long = "Intermedio (B1)" if sub_level_short == "B1" else ("Principiante (A2)" if sub_level_short == "A2" else ("Intermedio Superior (B2)" if sub_level_short == "B2" else "Avanzado (C1)"))
+            elif sub_song["lang"] == "el":
+                sub_level_long = "Μεσαίο (B1)" if sub_level_short == "B1" else ("Στοιχειώδες (A2)" if sub_level_short == "A2" else ("Ανώτερο Μεσαίο (B2)" if sub_level_short == "B2" else "Προχωρημένο (C1)"))
+
+            sub_focus = sub_song["focus"]
+            sub_existing_vocab = parse_existing_vocab(sub_slug)
+            sub_elements = generate_song_elements(sub_song, loc, lang, sub_slug=sub_slug, existing_vocab=sub_existing_vocab)
+
+            sub_theme_bullet_points = ""
+            if sub_slug in custom_bullet_points:
+                sub_points = custom_bullet_points[sub_slug]
+            else:
+                sub_points = [v.replace("Le ", "").replace("La ", "").replace("L'", "").capitalize() for v in sub_song["vocab"][:3]] + ["Personal reflection"]
+            for pt in sub_points:
+                sub_theme_bullet_points += f"      <li>{pt}</li>\n"
+
+            sub_song_link = SONG_LINKS.get(sub_slug, f"https://www.youtube.com/results?search_query={sub_title.replace(' ', '+')}+{sub_artist.replace(' ', '+')}")
+            sub_song_link_backup = sub_song_link
+            sub_video_player_html = get_youtube_embed_html(sub_song_link, lang)
+
+            sub_genius_links_dict = {
+                "couleur": "https://genius.com/Zazie-couleur-lyrics",
+                "speed": "https://genius.com/Zazie-speed-lyrics",
+                "je-suis-un-homme": "https://genius.com/Zazie-je-suis-un-homme-lyrics",
+                "fovamai": "https://genius.com/Mple-fovame-lyrics"
+            }
+            sub_genius_link = sub_genius_links_dict.get(sub_slug, "")
+            sub_youtube_link = sub_song_link
+            if lang == "el":
+                sub_sources_html = f"""<!-- Sources Section -->
+<section class="sources-section" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
+  <h4 style="margin-bottom: 0.5rem; color: var(--ink);">Πηγές &amp; Αναφορές</h4>
+  <ul style="list-style-type: none; padding-left: 0; margin-bottom: 1rem;">
+    <li style="margin-bottom: 0.4rem;">Genius. « {sub_artist} – {sub_title} (Στίχοι) » <em>Genius</em>, <a href="{sub_genius_link}" style="color: var(--teal);" target="_blank">{sub_genius_link}</a>.</li>
+    <li>« {sub_title} » <em>YouTube</em>, από {sub_artist}, <a href="{sub_youtube_link}" style="color: var(--teal);" target="_blank">{sub_youtube_link}</a>.</li>
+  </ul>
+  <p style="font-style: italic; margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
+    Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+  </p>
+</section>"""
+            else:
+                sub_sources_html = f"""<!-- Sources Section -->
+<section class="sources-section" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
+  <h4 style="margin-bottom: 0.5rem; color: var(--ink);">Sources &amp; Citations</h4>
+  <ul style="list-style-type: none; padding-left: 0; margin-bottom: 1rem;">
+    <li style="margin-bottom: 0.4rem;">Genius. « {sub_artist} – {sub_title} (Paroles) » <em>Genius</em>, <a href="{sub_genius_link}" style="color: var(--teal);" target="_blank">{sub_genius_link}</a>. Consulté en juillet 2026.</li>
+    <li>« {sub_title} » <em>YouTube</em>, téléchargé par {sub_artist}, <a href="{sub_youtube_link}" style="color: var(--teal);" target="_blank">{sub_youtube_link}</a>.</li>
+  </ul>
+  <p style="font-style: italic; margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
+    Lyrics excerpted here for educational purposes only. All rights to the lyrics and recording belong to the original songwriter(s), performer(s), and rights holder(s).
+  </p>
+</section>"""
+
+            sub_formatted_html = HTML_TEMPLATE.format(
+                lang=lang,
+                title=sub_title,
+                artist=sub_artist,
+                level_short=sub_level_short,
+                level_long=sub_level_long,
+                breadcrumbs_home=loc["breadcrumbs_home"],
+                breadcrumbs_events=loc["breadcrumbs_events"],
+                breadcrumbs_club=loc["breadcrumbs_club"],
+                back_link=loc["back_link"],
+                dur_label=loc["dur_label"],
+                dur_val=loc.get("dur_val", "90–120 minutes"),
+                lang_label=loc["lang_label"],
+                variety_lang=variety_lang,
+                level_label=loc["level_label"],
+                focus_label=loc["focus_label"],
+                focus=sub_focus,
+                song_link=sub_song_link,
+                song_link_backup=sub_song_link_backup,
+                video_player_html=sub_video_player_html,
+                description=f"Explore the beautiful track '{sub_title}' by {sub_artist}.",
+                theme_label=loc["theme_label"],
+                discuss_label=loc["discuss_label"],
+                theme_bullet_points=sub_theme_bullet_points,
+                vocab_title=loc["vocab_title"],
+                vocab_cards_html=sub_elements["vocab_cards_html"],
+                listening_title=loc["listening_title"],
+                word_bank_title=loc["word_bank_title"],
+                word_bank_html=sub_elements["word_bank_html"],
+                lyrics_text=sub_elements["lyrics_text"],
+                warmup_title=loc["warmup_title"],
+                warmup_questions_html=sub_elements["warmup_questions_html"],
+                r1_questions_html=sub_elements["r1_questions_html"],
+                r2_statements_html=sub_elements["r2_statements_html"],
+                teacher_note_title=loc["teacher_note_title"],
+                mistakes_html=sub_elements["mistakes_html"],
+                discussion_title=loc["discussion_title"],
+                lang_focus_title=loc["lang_focus_title"],
+                lang_focus_html=sub_elements["lang_focus_html"],
+                final_challenge_title=loc["final_challenge_title"],
+                final_challenge_html=sub_elements["final_challenge_html"],
+                sources_html=sub_sources_html
+            )
+
+            # Replace depth prefix and hub prefix in the HTML using unique placeholders
+            # to avoid double-replacement bugs where root_prefix is matched by the hub_prefix replacement.
+            sub_formatted_html = sub_formatted_html.replace('../../../../../../', '__ROOT_PLACEHOLDER__')
+            sub_formatted_html = sub_formatted_html.replace('../../', '__HUB_PLACEHOLDER__')
+            sub_formatted_html = sub_formatted_html.replace('__ROOT_PLACEHOLDER__', root_prefix)
+            sub_formatted_html = sub_formatted_html.replace('__HUB_PLACEHOLDER__', hub_prefix)
+
+            # Update breadcrumbs and back link to point to ./index.html
+            sub_formatted_html = sub_formatted_html.replace(
+                f'<span class="current">{sub_title}</span>',
+                f'<a href="./index.html">{title}</a> <span class="sep">/</span> <span class="current">{sub_title}</span>'
+            )
+            sub_formatted_html = sub_formatted_html.replace(
+                f'<a href="{hub_prefix}karaoke-club.html" class="back-link">{loc["back_link"]}</a>',
+                f'<a href="./index.html" class="back-link">{back_challenge_text}</a>'
+            )
+
+            sub_filepath = os.path.join(challenge_dir, f"{sub_slug}.html")
+            with open(sub_filepath, "w", encoding="utf-8") as sfh:
+                sfh.write(sub_formatted_html)
+
+    else:
+        # It's a standalone song page!
+        session_output_dir = OUTPUT_DIR
+        if lang != "en":
+            session_output_dir = os.path.join(OUTPUT_DIR, lang)
+            os.makedirs(session_output_dir, exist_ok=True)
+            # Adjust relative paths for nested folder depth
+            formatted_html = formatted_html.replace('href="../../../', 'href="../../../../')
+            formatted_html = formatted_html.replace('href="../../', 'href="../../../')
+            formatted_html = formatted_html.replace('src="../../../', 'src="../../../../')
+            # Also clean up old flat file if it exists to avoid orphans
+            old_flat_path = os.path.join(OUTPUT_DIR, f"{slug}.html")
+            if os.path.exists(old_flat_path):
+                os.remove(old_flat_path)
+
+        filepath = os.path.join(session_output_dir, f"{slug}.html")
+        with open(filepath, "w", encoding="utf-8") as fh:
+            fh.write(formatted_html)
 
 print(f"Generated all {len(all_karaoke_data)} Karaoke session HTML pages successfully with full authentic lyrics, collapsible 6-stage layout, opposites, Theme Box, Speaking Time Progress, and PDF download button!")
