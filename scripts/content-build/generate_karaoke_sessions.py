@@ -2599,15 +2599,29 @@ def parse_existing_vocab(slug):
         "events/sessions/karaoke-club",
         "events/sessions"
     ]:
+        # Try legacy flat path first
         check_p = f"{base}/{slug}.html"
         if os.path.exists(check_p):
             path = check_p
             break
+        # Try nested English path
+        check_nested_en = f"{base}/challenges/{slug}/index.html"
+        if os.path.exists(check_nested_en):
+            path = check_nested_en
+            break
+
         found_local = False
         for l in ["fr", "ru", "it", "es", "el"]:
+            # Try legacy localized flat path
             check_lp = f"{base}/{l}/{slug}.html"
             if os.path.exists(check_lp):
                 path = check_lp
+                found_local = True
+                break
+            # Try nested localized path
+            check_nested_lp = f"{base}/challenges/{l}/{slug}/index.html"
+            if os.path.exists(check_nested_lp):
+                path = check_nested_lp
                 found_local = True
                 break
         if found_local:
@@ -4805,15 +4819,29 @@ for slug in sorted(CHALLENGE_MAP.keys()):
         "events/sessions/karaoke-club",
         "events/sessions"
     ]:
+        # Try legacy flat path first
         check_p = f"{base}/{slug}.html"
         if os.path.exists(check_p):
             path = check_p
             break
+        # Try nested English path
+        check_nested_en = f"{base}/challenges/{slug}/index.html"
+        if os.path.exists(check_nested_en):
+            path = check_nested_en
+            break
+
         found_local = False
         for l in ["fr", "ru", "it", "es", "el"]:
+            # Try legacy localized flat path
             check_lp = f"{base}/{l}/{slug}.html"
             if os.path.exists(check_lp):
                 path = check_lp
+                found_local = True
+                break
+            # Try nested localized path
+            check_nested_lp = f"{base}/challenges/{l}/{slug}/index.html"
+            if os.path.exists(check_nested_lp):
+                path = check_nested_lp
                 found_local = True
                 break
         if found_local:
@@ -5471,11 +5499,11 @@ for song in all_karaoke_data:
         # It's a challenge! Create nested directory structure.
         if lang == "en":
             challenge_dir = os.path.join(OUTPUT_DIR, "challenges", slug)
-            root_prefix = "../../../../../../../"
+            root_prefix = "../../../../../../../../" # 8 levels for English challenge
             hub_prefix = "../../../../"
         else:
             challenge_dir = os.path.join(OUTPUT_DIR, "challenges", lang, slug)
-            root_prefix = "../../../../../../../../"
+            root_prefix = "../../../../../../../../../" # 9 levels for non-English challenge
             hub_prefix = "../../../../../"
 
         os.makedirs(challenge_dir, exist_ok=True)
