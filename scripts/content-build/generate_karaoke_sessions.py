@@ -3415,24 +3415,25 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
                         break
 
                 if not matched_handcrafted:
+                    clean_w = w.strip()
                     if lang == "fr":
-                        definition = f"concept de '{w}' exploré à travers les paroles et le thème de la chanson."
-                        example = f"Nous avons discuté de l'impact de '{w}' dans notre quotidien."
+                        definition = f"Terme clé '{clean_w}' évoqué dans le contexte et le thème de la chanson."
+                        example = f"Le mot '{clean_w}' illustre parfaitement le sentiment exprimé dans ce passage."
                     elif lang == "it":
-                        definition = f"il concetto di '{w}' esplorato attraverso i testi e il tema della canzone."
-                        example = f"Abbiamo discusso l'importance di '{w}' nella vita di tutti i giorni."
+                        definition = f"Termine chiave '{clean_w}' espresso nel contesto e nel tema della canzone."
+                        example = f"La parola '{clean_w}' riflette l'emozione centrale di questo brano."
                     elif lang == "es":
-                        definition = f"el concepto de '{w}' explorado a través de las letras y el tema de la canción."
-                        example = f"Discutimos la importancia de '{w}' en nuestra vida cotidiana."
+                        definition = f"Término clave '{clean_w}' expresado en el contexto y tema de la canción."
+                        example = f"La palabra '{clean_w}' refleja la emoción central de este tema."
                     elif lang == "ru":
-                        definition = f"понятие '{w}', раскрываемое через текст и тему песни."
-                        example = f"Мы обсудили, как '{w}' влияет на наши повседневные отношения."
+                        definition = f"Ключевое понятие '{clean_w}', отражающее настроение и тему песни."
+                        example = f"Слово '{clean_w}' подчеркивает переживания главного героя."
                     elif lang == "el":
-                        definition = f"η έννοια του/της '{w}' όπως εξερευνάται μέσα από τους στίχους και το θέμα του τραγουδιού."
-                        example = f"Συζητήσαμε πώς το/η '{w}' επηρεάζει την καθημερινότητά μας."
+                        definition = f"Λέξη-κλειδί '{clean_w}' που αποδίδει το ύφος και τη θεματική του τραγουδιού."
+                        example = f"Η λέξη '{clean_w}' εκφράζει το κεντρικό συναίσθημα των στίχων."
                     else:
-                        definition = f"the concept of '{w}' as explored in the lyrics and theme."
-                        example = f"We discussed how '{w}' plays an important role in our lives."""
+                        definition = f"Key vocabulary term '{clean_w}' highlighting the song's core theme."
+                        example = f"The word '{clean_w}' captures the primary emotion of this lyrical section."""
 
             if not definition.endswith((".", "?", "!")):
                 definition += "."
