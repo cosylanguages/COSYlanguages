@@ -5110,6 +5110,96 @@ NEW_SONGS_METADATA = {
         "variety": "Greek",
         "focus": "Fear, Passion & Emotional Distances",
         "vocab": ["Μαλλιά", "Στιγμή", "Χέρι", "Στίχος", "Κοντά", "Μακριά", "Όνομα", "Ψυχή", "Φιλί", "Χρόνος"]
+    },
+    "flash": {
+        "title": "Flash",
+        "artist": "Maëlle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Memories, Nostalgia & Fleeting Moments",
+        "vocab": ["souvenirs", "sirènes", "vagues", "désabonné", "regrets"]
+    },
+    "comme-un-voleur": {
+        "title": "Comme un voleur",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Artistic Freedom & Stolen Inspiration",
+        "vocab": ["magie", "cerveau", "règles", "voleur", "bizarre"]
+    },
+    "comme-une-reine": {
+        "title": "Comme une reine",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Self-Love, Body Positivity & Empowerment",
+        "vocab": ["rondeurs", "miroir", "beauté", "reine", "uniforme"]
+    },
+    "tour-eiffel": {
+        "title": "Tour Eiffel",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Heartbreak, Perspective & Moving On",
+        "vocab": ["ciel", "tour", "film", "porte", "amour"]
+    },
+    "faudrait-pas": {
+        "title": "Faudrait pas",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Vulnerability, Fear of Commitment & Love",
+        "vocab": ["bagages", "cinéma", "bonheur", "maladroit", "dégâts"]
+    },
+    "les-lois-de-lattraction": {
+        "title": "Les lois de l'attraction",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Fame, Modern Loneliness & Ambition",
+        "vocab": ["étoile", "DM", "bougie", "abonnés", "attraction"]
+    },
+    "heavy-cross": {
+        "title": "Heavy Cross",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Resilience & Overcoming Adversity",
+        "vocab": ["cruel", "heavy", "cross", "rules", "choice"]
+    },
+    "move-in-the-right-direction": {
+        "title": "Move in the Right Direction",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Personal Growth & Overcoming Obstacles",
+        "vocab": ["motivation", "direction", "tears", "fears", "reminiscing"]
+    },
+    "standing-in-the-way-of-control": {
+        "title": "Standing in the Way of Control",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Defiance, Autonomy & Standing Up",
+        "vocab": ["control", "survive", "truth", "friends", "trying"]
+    },
+    "crazy-again": {
+        "title": "Crazy Again",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Romantic Vulnerability & Passion",
+        "vocab": ["romance", "savior", "crazy", "obligation", "fragile"]
     }
 }
 
@@ -5293,6 +5383,24 @@ NEW_CHALLENGES_METADATA = {
         "lang": "el",
         "variety": "Greek",
         "focus": "Passionate Devotion & Inner Fears",
+        "vocab": []
+    },
+    "madame-monsieur-challenge": {
+        "title": "Madame Monsieur Challenge",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Human Connection, Self-Acceptance & Modern Life",
+        "vocab": []
+    },
+    "gossip-challenge": {
+        "title": "Gossip Challenge",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Empowerment, Self-Determination & Resilience",
         "vocab": []
     }
 }
