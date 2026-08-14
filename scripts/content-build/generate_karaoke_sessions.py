@@ -5538,8 +5538,8 @@ COMPLETE_SONG_VOCAB = {
     "california-dreaming": ["Winter", "Safe", "Warm", "Pretend", "Preacher", "Dreamin'", "Gray", "Brown", "Leaves", "Knees"],
     "me-and-i": ["Scream", "Jekyll", "Hyde", "Freak", "Toyed", "Freud", "Split", "Identity", "Combination", "Gloomy"],
     "angeleyes": ["Hypnotised", "Paradise", "Disguise", "Shiver", "Game", "Pay", "Lonely", "Pain", "Disappointment", "Gaze"],
-    "faros": ["καύσιμο", "ορόσημο", "κύματα", "φάρος", "άπειρο"],
-    "an-einai-i-agapi-amartia": ["δικαίωμα", "λατρεία", "αμαρτωλή", "περιφρονούνε", "λαχταρώ"],
+        "faros": ["καύσιμο", "ορόσημο", "κύματα", "φάρος", "άπειρο", "ταξίδι", "λιμάνι", "βυθός", "ακτή", "λάμψη"],
+        "an-einai-i-agapi-amartia": ["δικαίωμα", "λατρεία", "αμαρτωλή", "περιφρονούνε", "λαχταρώ", "συγχώρεση", "πάθος", "κριτής", "αγάπη", "θυσία"],
     "la-complainte-de-la-serveuse-automate": ["loyer", "automate", "cultiver", "tomates", "souterrain", "pareils", "néon", "éteint", "La paix", "Le soleil"],
     "le-monde-est-stone": ["éclate", "dormir", "asphalte", "mourir", "stone", "tourne", "cinéma", "battre", "empires", "châteaux"],
     "un-garcon-pas-comme-les-autres": ["folle", "faute", "aimera", "pleuré", "disques", "boutique", "galaxie", "La rue", "Le café", "Oublier"],
@@ -5547,7 +5547,17 @@ COMPLETE_SONG_VOCAB = {
     "couleur": ["Gènes", "Peinture", "Clarté", "Espoir", "Guerre", "Violence", "Sauvage", "Mœurs", "Peau", "Drapeau"],
     "speed": ["Caverne", "Hiberner", "Cacher", "Vibrer", "Debout", "Mort", "Libre", "Sage", "Âge", "Cage"],
     "je-suis-un-homme": ["Singe", "Poisson", "Saison", "Ambition", "Illusion", "Béton", "Prison", "Consommation", "Maître", "Nature"],
-    "fovamai": ["Μαλλιά", "Στιγμή", "Χέρι", "Στίχος", "Κοντά", "Μακριά", "Όνομα", "Ψυχή", "Φιλί", "Χρόνος"]
+    "fovamai": ["φόβος", "σκοτάδι", "φωνή", "αλήθεια", "δρόμος", "μοναξιά", "αγκαλιά", "ψυχή", "φως", "νύχτα"],
+    "crazy-again": ["Vulnerability", "Romance", "Wildness", "Emotion", "Going crazy", "Affection", "Surrender", "Delirium", "Spark", "Heartbeat"],
+    "move-in-the-right-direction": ["motivation", "direction", "tears", "fears", "reminiscing", "stride", "forward", "momentum", "progress", "courage"],
+    "heavy-cross": ["heavy", "cross", "cruel", "world", "holding", "burden", "strength", "endure", "resilience", "carry"],
+    "standing-in-the-way-of-control": ["control", "survive", "truth", "friends", "trying", "defiance", "standing", "pressure", "barrier", "rebellion"],
+    "faudrait-pas": ["promesse", "mensonge", "peur", "regard", "visage", "doute", "hésiter", "blessure", "vérité", "distance"],
+    "comme-un-voleur": ["magie", "cerveau", "règles", "voleur", "bizarre", "secret", "silence", "ombre", "illusion", "captiver"],
+    "les-lois-de-lattraction": ["étoile", "DM", "bougie", "abonnés", "attraction", "aimant", "regard", "gravité", "étincelle", "mystère"],
+    "comme-une-reine": ["rondeurs", "miroir", "beauté", "reine", "uniforme", "souveraine", "couronne", "fierté", "regard", "assumer"],
+    "tour-eiffel": ["ciel", "tour", "film", "porte", "amour", "hauteur", "paris", "horizon", "vertige", "souvenir"],
+    "flash": ["flash", "lumière", "vitesse", "caméra", "instants", "éclat", "reflet", "obscurité", "capture", "mémoire"]
 }
 
 songs_list = []
