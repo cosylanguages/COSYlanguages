@@ -457,6 +457,82 @@ SONG_THEMES = {
     "crazy-again": {
         "en": "Vulnerability, Romance & Going Crazy Again",
         "fr": "Vulnérabilité, romance & redevenir fou d'amour"
+    },
+    "casualties-of-war": {
+        "en": "The Emotional Toll of Conflict",
+        "fr": "Le coût émotionnel des conflits"
+    },
+    "get-a-job": {
+        "en": "Financial Struggle & Working-Class Survival",
+        "fr": "Lutte financière & survie de la classe ouvrière"
+    },
+    "men-in-love": {
+        "en": "Queer Romance & Pride",
+        "fr": "Romance queer & fierté"
+    },
+    "real-power": {
+        "en": "Grassroots Resistance & Social Rebellion",
+        "fr": "Résistance populaire & rébellion sociale"
+    },
+    "pop-goes-the-world": {
+        "en": "Escapism & Dystopian Pop Culture",
+        "fr": "Échappatoire & culture pop dystopique"
+    },
+    "hoches": {
+        "en": "Desperate Devotion & Fear of Loss",
+        "ru": "Отчаянная привязанность & страх утраты"
+    },
+    "iskala": {
+        "en": "Restless Searching & Loneliness",
+        "ru": "Неугомонный поиск & одиночество"
+    },
+    "progulka": {
+        "en": "Carefree Moments & City Wandering",
+        "ru": "Беззаботные моменты & прогулки по городу"
+    },
+    "arivederchi": {
+        "en": "Farewells & Moving On",
+        "ru": "Прощание & движение вперёд"
+    },
+    "lyubov-kak-sluchaynaya-smert": {
+        "en": "Fatalistic Romance & Transience",
+        "ru": "Фаталистическая романтика & скоротечность"
+    },
+    "formalin": {
+        "en": "Preserving Pain & Emotional Stagnation",
+        "ru": "Сохранение боли & эмоциональный застой"
+    },
+    "chelovek-33-cherty": {
+        "en": "Inner Light, Darkness & Human Complexity",
+        "ru": "Внутренний свет, тьма & сложность человека"
+    },
+    "babushka": {
+        "en": "Family Nostalgia & Warm Memories",
+        "ru": "Семейная ностальгия & тёплые воспоминания"
+    },
+    "zuby": {
+        "en": "Resilience & Grit Through Hardship",
+        "ru": "Стойкость & решимость вопреки испытаниям"
+    },
+    "zelyonaya-stranitsa": {
+        "en": "New Beginnings & Fresh Pages of Life",
+        "ru": "Новые начинания & зелёная страница жизни"
+    },
+    "a-znaesh-vse-esche-budet": {
+        "en": "Optimism & Faith in Hope",
+        "ru": "Оптимизм & вера в будущее"
+    },
+    "volshebnik-nedouchka": {
+        "en": "Imperfect Mastery & Humorous Failure",
+        "ru": "Несовершенное мастерство & юмор неудач"
+    },
+    "pesnya-pervoklassnika": {
+        "en": "Childhood Expectations & Academic Pressure",
+        "ru": "Детские ожидания & школьное давление"
+    },
+    "its-raining-men": {
+        "en": "Joyful Liberation & Uninhibited Celebration",
+        "fr": "Libération joyeuse & célébration sans retenue"
     }
 }
 
