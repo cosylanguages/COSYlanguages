@@ -2852,7 +2852,9 @@
         'are-traditions-hidden-monogamy.html': 13,
         'collective-guilt-global-crisis.html': 14,
         'are-traditions-hidden-monogamy-upper-intermediate.html': 15,
-        'i-have-no-time-for-it.html': 16
+        'i-have-no-time-for-it.html': 16,
+        'why-do-i-spend-more-when-i-earn-more.html': 17,
+        'does-inclusive-language-make-us-equal.html': 18
     };
 
     /* ─── SCIENCE CLUB DRAFT MAPPING ────────────────────────────── */
