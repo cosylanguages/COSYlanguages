@@ -4985,6 +4985,168 @@ NEW_SONGS_METADATA = {
         "variety": "Greek",
         "focus": "Fear, Passion & Emotional Distances",
         "vocab": ["Μαλλιά", "Στιγμή", "Χέρι", "Στίχος", "Κοντά", "Μακριά", "Όνομα", "Ψυχή", "Φιλί", "Χρόνος"]
+    },
+    "flash": {
+        "title": "Flash",
+        "artist": "Maëlle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Fleeting Memories & Flashbacks",
+        "vocab": ["souvenirs", "sirènes", "vagues", "désabonné", "regrets", "espace", "éclat", "blessures", "secrets", "dernière"]
+    },
+    "comme-un-voleur": {
+        "title": "Comme un voleur",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "The Magic & Mystery of Life",
+        "vocab": ["voleur", "bruit", "peur", "vocation", "choisir", "hésitations", "métier", "luisant", "belles", "mille"]
+    },
+    "comme-une-reine": {
+        "title": "Comme une reine",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Self-Esteem & True Beauty",
+        "vocab": ["rondeurs", "miroir", "beauté", "reine", "uniforme", "mille", "estime", "diadème", "danse", "existence"]
+    },
+    "tour-eiffel": {
+        "title": "Tour Eiffel",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Romantic Breakups & Height",
+        "vocab": ["ciel", "tour", "film", "porte", "amour", "froid", "sommet", "ampleur", "dégâts", "débarras"]
+    },
+    "faudrait-pas": {
+        "title": "Faudrait pas",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Hesitation & Falling in Love Too Fast",
+        "vocab": ["bagages", "cinéma", "bonheur", "maladroit", "dégâts", "emploi", "suivre", "chanson", "goutte", "avis"]
+    },
+    "les-lois-de-lattraction": {
+        "title": "Les lois de l'attraction",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "The Laws of Attraction & Introspection",
+        "vocab": ["étoile", "DM", "bougie", "abonnés", "attraction", "fil", "pensées", "lion", "folie", "colonies"]
+    },
+    "heavy-cross": {
+        "title": "Heavy Cross",
+        "artist": "Gossip",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "A Cruel World & Carrying Your Own Heavy Cross",
+        "vocab": ["cruel", "heavy", "cross", "rules", "choice", "world", "lights", "street", "trust", "rainy"]
+    },
+    "move-in-the-right-direction": {
+        "title": "Move in the Right Direction",
+        "artist": "Gossip",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Motivation & Moving Forward After Hardships",
+        "vocab": ["motivation", "direction", "tears", "fears", "reminiscing", "mind", "strength", "instinct", "devotion", "perfect"]
+    },
+    "standing-in-the-way-of-control": {
+        "title": "Standing in the Way of Control",
+        "artist": "Gossip",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Survival & Standing in the Way of Control",
+        "vocab": ["control", "survive", "truth", "friends", "trying", "wall", "crying", "lying", "lose", "dying"]
+    },
+    "crazy-again": {
+        "title": "Crazy Again",
+        "artist": "Gossip",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Vulnerability, Romance & Going Crazy Again",
+        "vocab": ["romance", "savior", "crazy", "obligation", "fragile", "blur", "words", "favor", "crush", "alone"]
+    },
+    "casualties-of-war": {
+        "title": "Casualties of War",
+        "artist": "Gossip",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Consequences of Conflict & Personal Struggles",
+        "vocab": ["Casualty", "Conflict", "Scars", "Aftermath", "Survival"]
+    },
+    "quelquun-pour-toi": {
+        "title": "Quelqu'un pour toi",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Empathy, Support & Human Connection",
+        "vocab": ["rencontre", "destin", "amour", "présence", "espoir"]
+    },
+    "love-kernels": {
+        "title": "Love Kernels",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Delusional Obsession & Scarcity",
+        "vocab": ["Kernels", "Delusional", "Obsession", "cactus", "drought", "symbolism", "stockpile", "compliment", "scarcity", "patience"]
+    },
+    "lets-generalize-about-men": {
+        "title": "Let's Generalize About Men",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Satire & Blanket Statements",
+        "vocab": ["Generalize", "Satire", "Condescending", "repressed", "anger", "blanket", "conflate", "exception", "distinguish", "opposite"]
+    },
+    "so-maternal": {
+        "title": "So Maternal",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Overzealous parenting expectations",
+        "vocab": ["Maternal", "Overzealous", "Compulsive", "harrowing", "matriarch", "expectations", "instinctual", "tireless", "raising", "perfect"]
+    },
+    "face-your-fears": {
+        "title": "Face Your Fears",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Confronting & Overcoming Insecurity",
+        "vocab": ["Insecurity", "fear", "tiptoe", "frightened", "stare", "scary", "courage", "scared", "brave", "run"]
+    },
+    "toutes-les-machines-ont-le-coeur": {
+        "title": "Toutes les machines ont le cœur",
+        "artist": "Maëlle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Technology & Humanity",
+        "vocab": ["human connection", "digital age", "technological impact", "emotional fragility"]
+    },
+    "je-taime-comme-je-taime": {
+        "title": "Je t'aime comme je t'aime",
+        "artist": "Maëlle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Unconditional Love & Empathy",
+        "vocab": ["unconditional love", "relationships", "emotional intimacy", "peace of mind"]
     }
 }
 
@@ -5161,6 +5323,33 @@ NEW_CHALLENGES_METADATA = {
         "lang": "el",
         "variety": "Greek",
         "focus": "Passionate Devotion & Inner Fears",
+        "vocab": []
+    },
+    "madame-monsieur-challenge": {
+        "title": "Madame Monsieur Challenge",
+        "artist": "Madame Monsieur",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "The Magic & Introspection of Life",
+        "vocab": []
+    },
+    "gossip-challenge": {
+        "title": "Gossip Challenge",
+        "artist": "Gossip",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Resistance, Survival & Moving Forward",
+        "vocab": []
+    },
+    "heathers-challenge": {
+        "title": "Heathers Challenge",
+        "artist": "Heathers Cast",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Youth, Pressure & Survival",
         "vocab": []
     }
 }

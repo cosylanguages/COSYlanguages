@@ -10,17 +10,19 @@ test.describe('Karaoke Club Challenge Tabbed layout Verification', () => {
 
     // 2. Tab buttons should exist
     const tabBtns = page.locator('.vim-tab-btn');
-    await expect(tabBtns).toHaveCount(2);
+    await expect(tabBtns).toHaveCount(3);
     await expect(tabBtns.nth(0)).toContainText('Toutes les machines ont le cœur');
-    await expect(tabBtns.nth(1)).toContainText("je t'aime comme je t'aime");
+    await expect(tabBtns.nth(1)).toContainText("Je t'aime comme je t'aime");
+    await expect(tabBtns.nth(2)).toContainText("Flash");
 
     // 3. Tab panes should exist
     const tabPanes = page.locator('.vim-tab-pane');
-    await expect(tabPanes).toHaveCount(2);
+    await expect(tabPanes).toHaveCount(3);
 
     // 4. Check that default visible tab is Toutes les machines ont le cœur and the other is hidden
     await expect(tabPanes.nth(0)).toBeVisible();
     await expect(tabPanes.nth(1)).not.toBeVisible();
+    await expect(tabPanes.nth(2)).not.toBeVisible();
 
     // 5. Unique, independent collapse IDs should be present
     await expect(page.locator('#vocabulary-toutes-les-machines-ont-le-coeur')).toBeVisible();
@@ -36,9 +38,10 @@ test.describe('Karaoke Club Challenge Tabbed layout Verification', () => {
 
     // 8. Verify correct, distinct video players are rendered in each tab (tab isolation)
     const videoIframes = page.locator('.cosy-video-wrapper iframe');
-    await expect(videoIframes).toHaveCount(2);
+    await expect(videoIframes).toHaveCount(3);
     await expect(videoIframes.nth(0)).toHaveAttribute('src', 'https://www.youtube.com/embed/UVz3xR1X9RU');
     await expect(videoIframes.nth(1)).toHaveAttribute('src', 'https://www.youtube.com/embed/zu9HiCSVyAg');
+    await expect(videoIframes.nth(2)).toHaveAttribute('src', 'https://www.youtube.com/embed/hcaj2MlYHFI');
   });
 
   test('Crazy Ex-Girlfriend Challenge page should load with 26 tabs', async ({ page }) => {
