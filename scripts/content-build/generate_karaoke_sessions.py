@@ -498,11 +498,41 @@ CHALLENGE_MAP = {
         "quelquun-pour-toi", "comme-un-voleur", "comme-une-reine", "tour-eiffel", "faudrait-pas", "les-lois-de-lattraction"
     ),
     "gossip-challenge": (
-        "casualties-of-war", "heavy-cross", "move-in-the-right-direction", "standing-in-the-way-of-control", "crazy-again"
+        "casualties-of-war", "heavy-cross", "move-in-the-right-direction", "standing-in-the-way-of-control", "crazy-again", "get-a-job", "men-in-love", "real-power", "pop-goes-the-world"
+    ),
+    "zemfira-challenge": (
+        "hoches", "iskala", "progulka", "arivederchi", "lyubov-kak-sluchaynaya-smert"
+    ),
+    "fleur-challenge": (
+        "formalin", "chelovek-33-cherty"
+    ),
+    "mariia-chaikovska-challenge": (
+        "babushka", "zuby", "zelyonaya-stranitsa"
+    ),
+    "alla-pugacheva-challenge": (
+        "a-znaesh-vse-esche-budet", "volshebnik-nedouchka", "pesnya-pervoklassnika"
     )
 }
 
 SONG_LINKS = {
+    "get-a-job": "https://www.youtube.com/watch?v=CuUx_dV2tXg",
+    "men-in-love": "https://www.youtube.com/watch?v=z8qT5oqFq28",
+    "real-power": "https://www.youtube.com/watch?v=nVQjzru4Id8",
+    "pop-goes-the-world": "https://www.youtube.com/watch?v=IFLWfj_r7kY",
+    "hoches": "https://www.youtube.com/watch?v=xpJ_fYyAeYk",
+    "iskala": "https://www.youtube.com/watch?v=Jn1kng-nFuY",
+    "progulka": "https://www.youtube.com/watch?v=Ap6dCyFTk-Y",
+    "arivederchi": "https://www.youtube.com/watch?v=llja-5fmVJk",
+    "lyubov-kak-sluchaynaya-smert": "https://www.youtube.com/watch?v=o69zcNlzG_Y",
+    "formalin": "https://www.youtube.com/watch?v=CEF_AueCTpo",
+    "chelovek-33-cherty": "https://www.youtube.com/watch?v=IvBlPLmPPiQ",
+    "babushka": "https://www.youtube.com/watch?v=Pu3qkMD7Hd8",
+    "zuby": "https://www.youtube.com/watch?v=JfsVHALKKgE",
+    "zelyonaya-stranitsa": "https://www.youtube.com/watch?v=oQ26SQSO_LY",
+    "a-znaesh-vse-esche-budet": "https://www.youtube.com/watch?v=M9T_Z2juc_s",
+    "volshebnik-nedouchka": "https://www.youtube.com/watch?v=VrZ1CqJhmsc",
+    "pesnya-pervoklassnika": "https://www.youtube.com/watch?v=KLwyDo1Wo40",
+    "its-raining-men": "https://www.youtube.com/watch?v=l5aZJBLAu1E",
     "leffet-de-masse": "https://www.youtube.com/watch?v=6zUxsrJqg14",
     "ouvrir-les-yeux": "https://www.youtube.com/watch?v=mk8GXdUGGjo",
     "seventeen": "https://www.youtube.com/watch?v=jg3z-Dw6Bpo",
@@ -3386,6 +3416,24 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     # Theme classifier to categorize song focuses
     def get_theme_group(focus, slug):
         explicit_groups = {
+            "get-a-job": "society",
+            "men-in-love": "love",
+            "real-power": "growth",
+            "pop-goes-the-world": "growth",
+            "hoches": "love",
+            "iskala": "emotions",
+            "progulka": "love",
+            "arivederchi": "emotions",
+            "lyubov-kak-sluchaynaya-smert": "love",
+            "formalin": "emotions",
+            "chelovek-33-cherty": "growth",
+            "babushka": "emotions",
+            "zuby": "growth",
+            "zelyonaya-stranitsa": "joy_nature",
+            "a-znaesh-vse-esche-budet": "growth",
+            "volshebnik-nedouchka": "joy_nature",
+            "pesnya-pervoklassnika": "society",
+            "its-raining-men": "joy_nature",
             "a-diagnosis": "emotions",
             "after-everything-ive-done-for-you": "love",
             "amor-libre": "love",
@@ -4778,6 +4826,177 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     }
 
 NEW_SONGS_METADATA = {
+    "casualties-of-war": {
+        "title": "Casualties of War",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Conflict Aftermaths & Resilience",
+        "vocab": ["casualties", "war", "battles", "scars", "fighting", "freedom", "strength", "pain", "survive", "peace"]
+    },
+    "get-a-job": {
+        "title": "Get a Job",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Work Ethic & Financial Survival",
+        "vocab": ["bills", "working", "job", "money", "grind", "living", "alarm", "clock", "facing", "free"]
+    },
+    "men-in-love": {
+        "title": "Men In Love",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Queer Joy, Freedom & Acceptance",
+        "vocab": ["romance", "passion", "devotion", "sweet", "desire", "street", "rhythm", "hands", "freedom", "dancing"]
+    },
+    "real-power": {
+        "title": "Real Power",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Empowerment, Unity & Protest",
+        "vocab": ["strength", "voice", "truth", "power", "freedom", "town", "force", "unity", "stand", "noise"]
+    },
+    "pop-goes-the-world": {
+        "title": "Pop Goes the World",
+        "artist": "Gossip",
+        "level": "B2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Global Culture & Musical Connection",
+        "vocab": ["rhythm", "dancing", "radio", "melody", "world", "sound", "vibration", "beat", "harmony", "connected"]
+    },
+    "hoches": {
+        "title": "Хочешь",
+        "artist": "Земфира",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Passion, Devotion & Vulnerability",
+        "vocab": ["хочешь", "альпинисты", "сон", "звезды", "море", "соседи", "судьба", "солнце", "дождь", "пути"]
+    },
+    "iskala": {
+        "title": "Искала",
+        "artist": "Земфира",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Search for Connection & Heartbreak",
+        "vocab": ["искала", "падала", "небо", "знаки", "ночь", "земля", "боль", "мысли", "тени", "стена"]
+    },
+    "progulka": {
+        "title": "Прогулка",
+        "artist": "Земфира",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Urban Romance & Shared Moments",
+        "vocab": ["прогулка", "пальто", "дождь", "город", "шаги", "ветер", "капли", "друзья", "планета", "фонари"]
+    },
+    "arivederchi": {
+        "title": "Ариведерчи",
+        "artist": "Земфира",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Farewell, Freedom & Leaving the Past",
+        "vocab": ["ариведерчи", "самолеты", "прощай", "город", "пароли", "вороны", "следы", "дверь", "поезда", "свобода"]
+    },
+    "lyubov-kak-sluchaynaya-smert": {
+        "title": "Любовь как случайная смерть",
+        "artist": "Земфира",
+        "level": "B2",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Transient Love & Fate",
+        "vocab": ["любовь", "смерть", "случайность", "судьба", "взгляд", "стекло", "призма", "рассвет", "окно", "финал"]
+    },
+    "formalin": {
+        "title": "Формалин",
+        "artist": "Flёur",
+        "level": "B2",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Preserving Emotion & Melancholy",
+        "vocab": ["формалин", "память", "тишина", "стекло", "покой", "сосуд", "чувства", "суета", "мгновенье", "чистота"]
+    },
+    "chelovek-33-cherty": {
+        "title": "Человек 33 черты",
+        "artist": "Flёur",
+        "level": "B2",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Internal Complexity & Identity",
+        "vocab": ["человек", "черты", "характер", "душа", "маска", "темнота", "свет", "ответ", "правда", "роли"]
+    },
+    "babushka": {
+        "title": "Бабушка",
+        "artist": "Марія Чайковська",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Nostalgia & Family Warmth",
+        "vocab": ["бабушка", "доброта", "дом", "чай", "тепло", "пироги", "беседа", "закат", "руки", "глаза"]
+    },
+    "zuby": {
+        "title": "Зубы",
+        "artist": "Марія Чайковська",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Resilience & Inner Strength",
+        "vocab": ["зубы", "боль", "правда", "слова", "чувства", "клык", "привык", "слеза", "стена", "нежность"]
+    },
+    "zelyonaya-stranitsa": {
+        "title": "Зелёная страница",
+        "artist": "Марія Чайковська",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "New Beginnings & Spring Hope",
+        "vocab": ["страница", "весна", "зелень", "надежда", "книга", "птица", "мечты", "лист", "воздух", "история"]
+    },
+    "a-znaesh-vse-esche-budet": {
+        "title": "А знаешь, всё ещё будет",
+        "artist": "Алла Пугачёва",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Hope & Optimism for the Future",
+        "vocab": ["будет", "счастье", "рассвет", "вера", "жизнь", "ветер", "память", "свечи", "солнце", "дым"]
+    },
+    "volshebnik-nedouchka": {
+        "title": "Волшебник-недоучка",
+        "artist": "Алла Пугачёва",
+        "level": "A2",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Humor, Learning & Trial and Error",
+        "vocab": ["волшебник", "заклинание", "смех", "магия", "ошибка", "гроза", "коза", "утюг", "слоник", "учитель"]
+    },
+    "pesnya-pervoklassnika": {
+        "title": "Песня первоклассника",
+        "artist": "Алла Пугачёва",
+        "level": "A2",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "School Life & Childhood Struggles",
+        "vocab": ["школа", "первоклассник", "уроки", "портфель", "нагрузка", "диктант", "задачи", "наука", "тетрадь", "слезы"]
+    },
+    "its-raining-men": {
+        'title': "It's Raining Men",
+        "artist": "The Weather Girls",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Joyful Celebration & Pop Energy",
+        "vocab": ["raining", "men", "hallelujah", "weather", "storm", "umbrella", "soaking", "wet", "barometer", "street"]
+    },
     "leffet-de-masse": {
         "title": "L'effet de masse",
         "artist": "Maëlle",
@@ -5358,6 +5577,42 @@ for slug in sorted(LYRICS_DATA.keys()):
 
 # STEP 2: Parse all 11 challenges dynamically from their existing files
 NEW_CHALLENGES_METADATA = {
+    "zemfira-challenge": {
+        "title": "Zemfira Challenge",
+        "artist": "Земфира",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Russian Rock, Passion & Raw Emotion",
+        "vocab": []
+    },
+    "fleur-challenge": {
+        "title": "Flёur Challenge",
+        "artist": "Flёur",
+        "level": "B2",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Chamber Darkwave, Melancholy & Identity",
+        "vocab": []
+    },
+    "mariia-chaikovska-challenge": {
+        "title": "Mariia Chaikovska Challenge",
+        "artist": "Марія Чайковська",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Poetic Piano, Hope & Resilience",
+        "vocab": []
+    },
+    "alla-pugacheva-challenge": {
+        "title": "Alla Pugacheva Challenge",
+        "artist": "Алла Пугачёва",
+        "level": "B1",
+        "lang": "ru",
+        "variety": "Русский",
+        "focus": "Soviet Pop Classics, Hope & Humor",
+        "vocab": []
+    },
     "fabienne-thibeault-challenge": {
         "title": "Fabienne Thibeault Challenge",
         "artist": "Fabienne Thibeault",
