@@ -5577,6 +5577,114 @@ for slug in sorted(LYRICS_DATA.keys()):
 
 # STEP 2: Parse all 11 challenges dynamically from their existing files
 NEW_CHALLENGES_METADATA = {
+    "maelle-challenge": {
+        "title": "Maëlle Challenge",
+        "artist": "Maëlle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Human Connection, Digital Age & Emotional Fragility",
+        "vocab": []
+    },
+    "abba-challenge": {
+        "title": "ABBA Challenge",
+        "artist": "ABBA",
+        "level": "B1",
+        "lang": "en",
+        "variety": "British English",
+        "focus": "Dual Personalities, Deception & Catchy Pop",
+        "vocab": []
+    },
+    "arletta-challenge": {
+        "title": "Arletta Challenge",
+        "artist": "Arletta",
+        "level": "B1",
+        "lang": "el",
+        "variety": "Greek",
+        "focus": "Solitude, Night Dreams & Urban Freedom",
+        "vocab": []
+    },
+    "esteman-challenge": {
+        "title": "Esteman Challenge",
+        "artist": "Esteman",
+        "level": "B1",
+        "lang": "es",
+        "variety": "Spanish",
+        "focus": "Freedom, Pride & Social Acceptance",
+        "vocab": []
+    },
+    "angele-challenge": {
+        "title": "Angèle Challenge",
+        "artist": "Angèle",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Modern Dating, Equality & Respect",
+        "vocab": []
+    },
+    "massimo-ranieri-challenge": {
+        "title": "Massimo Ranieri Challenge",
+        "artist": "Massimo Ranieri",
+        "level": "B1",
+        "lang": "it",
+        "variety": "Italian",
+        "focus": "Companionship, Destiny & Fleeting Love",
+        "vocab": []
+    },
+    "angelina-wismes-challenge": {
+        "title": "Angelina Wismes Challenge",
+        "artist": "Angelina Wismes",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Grief, Paris Romance & Poetic Beauty",
+        "vocab": []
+    },
+    "cass-elliot-challenge": {
+        "title": "Cass Elliot Challenge",
+        "artist": "Cass Elliot",
+        "level": "A2",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Individuality, Self-Belief & Happy Melodies",
+        "vocab": []
+    },
+    "la-zarra-challenge": {
+        "title": "La Zarra Challenge",
+        "artist": "La Zarra",
+        "level": "B1",
+        "lang": "fr",
+        "variety": "Français",
+        "focus": "Confidence, Self-Worth & Accepting Endings",
+        "vocab": []
+    },
+    "kate-bush-challenge": {
+        "title": "Kate Bush Challenge",
+        "artist": "Kate Bush",
+        "level": "B1",
+        "lang": "en",
+        "variety": "British English",
+        "focus": "Human Cost of War & Joy of Love",
+        "vocab": []
+    },
+    "crazy-ex-girlfriend-challenge": {
+        "title": "Crazy Ex-Girlfriend Challenge",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Musical Psychology, Relationships & Self-Discovery",
+        "vocab": []
+    },
+    "heathers-challenge": {
+        "title": "Heathers Challenge",
+        "artist": "Heathers Cast",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Youth, Hope for Normalcy & Survival",
+        "vocab": []
+    },
     "zemfira-challenge": {
         "title": "Zemfira Challenge",
         "artist": "Земфира",
@@ -6552,10 +6660,15 @@ for song in all_karaoke_data:
         if lang != "en":
             session_output_dir = os.path.join(OUTPUT_DIR, lang)
             os.makedirs(session_output_dir, exist_ok=True)
-            # Adjust relative paths for nested folder depth
-            formatted_html = formatted_html.replace('href="../../../', 'href="../../../../')
-            formatted_html = formatted_html.replace('href="../../', 'href="../../../')
-            formatted_html = formatted_html.replace('src="../../../', 'src="../../../../')
+
+            root_prefix = "../../../../../../../"  # 7 levels for non-English standalone songs
+            hub_prefix = "../../../"
+
+            formatted_html = formatted_html.replace('../../../../../../', '__ROOT_PLACEHOLDER__')
+            formatted_html = formatted_html.replace('../../', '__HUB_PLACEHOLDER__')
+            formatted_html = formatted_html.replace('__ROOT_PLACEHOLDER__', root_prefix)
+            formatted_html = formatted_html.replace('__HUB_PLACEHOLDER__', hub_prefix)
+
             # Also clean up old flat file if it exists to avoid orphans
             old_flat_path = os.path.join(OUTPUT_DIR, f"{slug}.html")
             if os.path.exists(old_flat_path):
@@ -6566,3 +6679,10 @@ for song in all_karaoke_data:
             fh.write(formatted_html)
 
 print(f"Generated all {len(all_karaoke_data)} Karaoke session HTML pages successfully with full authentic lyrics, collapsible 6-stage layout, opposites, Theme Box, Speaking Time Progress, and PDF download button!")
+
+
+# Rebuild karaoke hub index
+try:
+    import rebuild_karaoke_hub
+except Exception as e:
+    print('Hub rebuild status:', e)
