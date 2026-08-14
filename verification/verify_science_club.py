@@ -2,10 +2,15 @@ from playwright.sync_api import sync_playwright
 
 def run_cuj(page):
     # Navigate to KUS session in private mode with bypass
-    page.goto("http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true")
+    page.goto("http://localhost:8080/apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true")
+    page.wait_for_timeout(2000)
+
+    # Verify and scroll the introduction card into view
+    intro = page.locator(".science-session-intro")
+    intro.scroll_into_view_if_needed()
     page.wait_for_timeout(1000)
 
-    # Verify the science audio player exists and is visible
+    # Verify and scroll the science audio player into view
     player = page.locator(".science-audio-player")
     player.scroll_into_view_if_needed()
     page.wait_for_timeout(1000)
@@ -25,9 +30,9 @@ def run_cuj(page):
     summary.click()
     page.wait_for_timeout(1000)
 
-    # Take high-resolution screenshot
-    page.screenshot(path="/home/jules/verification/screenshots/verification.png")
-    page.wait_for_timeout(1000)  # Hold final state for the video
+    # Take high-resolution screenshot of the introductory area
+    page.screenshot(path="/home/jules/verification/screenshots/verification_science_club.png")
+    print("Screenshot successfully saved to /home/jules/verification/screenshots/verification_science_club.png")
 
 if __name__ == "__main__":
     with sync_playwright() as p:

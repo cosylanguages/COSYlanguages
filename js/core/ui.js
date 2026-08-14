@@ -3056,6 +3056,113 @@
                         journalBox.remove();
                     }
 
+                    // Dynamically generate the Welcoming Introductory Briefing Card
+                    const findings = specimenData ? specimenData.findings : "";
+                    const hypothesis = specimenData ? specimenData.hypothesis : "";
+
+                    // Ensure intro styles are added
+                    if (!document.getElementById('science-session-intro-styles')) {
+                        const styleEl = document.createElement('style');
+                        styleEl.id = 'science-session-intro-styles';
+                        styleEl.textContent = `
+                            .science-session-intro {
+                                background: var(--cream, #FAF7F2);
+                                border: 1px solid var(--border);
+                                border-left: 4px solid var(--teal, #0F6E56);
+                                border-radius: var(--r-md, 14px);
+                                padding: 1.5rem;
+                                margin-bottom: 2rem;
+                                box-sizing: border-box;
+                                box-shadow: var(--shadow-sm);
+                            }
+                            .science-session-intro .intro-header {
+                                font-weight: 800;
+                                font-size: 0.82rem;
+                                letter-spacing: 0.08em;
+                                color: var(--teal, #0F6E56);
+                                text-transform: uppercase;
+                                margin-bottom: 0.5rem;
+                                font-family: 'DM Sans', sans-serif;
+                            }
+                            .science-session-intro .intro-title {
+                                font-weight: 700;
+                                font-size: 1.15rem;
+                                color: var(--ink, #07372b);
+                                margin-bottom: 1rem;
+                                font-family: 'Playfair Display', serif;
+                            }
+                            .science-session-intro ul {
+                                margin: 0;
+                                padding-left: 1.2rem;
+                            }
+                            .science-session-intro li {
+                                margin-bottom: 0.5rem;
+                                font-size: 0.95rem;
+                                line-height: 1.6;
+                                color: var(--ink, #07372b);
+                            }
+                            .science-session-intro li strong {
+                                color: var(--teal, #0F6E56);
+                            }
+                        `;
+                        document.head.appendChild(styleEl);
+                    }
+
+                    let introHtml = "";
+                    if (isFrench) {
+                        const findingsText = findings ? ` « ${findings} »` : "";
+                        const hypothesisText = hypothesis ? ` l'hypothèse sous-jacente : « ${hypothesis} »` : "";
+                        const expText = findingsText || hypothesisText ? `<strong>Analysez les résultats clés :</strong> Stimulez votre esprit et partagez vos réflexions sur les conclusions expérimentales : <em>${findingsText}</em>${findingsText && hypothesisText ? ' ou débattez de' : ' débattez de'}${hypothesisText}.` : "";
+
+                        introHtml = `
+                            <div class="science-session-intro">
+                                <div class="intro-header">🎙️ BIENVENUE & JOURNAL DE BRIEFING</div>
+                                <div class="intro-title">🗣️ Pourquoi participer et s'exprimer ?</div>
+                                <ul>
+                                    ${expText ? `<li>${expText}</li>` : ''}
+                                    <li><strong>Focus linguistique :</strong> Mettez en pratique active la structure <strong>${langFocus}</strong> pour affiner votre élocution, structurer vos arguments et parler plus naturellement.</li>
+                                    <li><strong>Développez votre fluidité :</strong> Utilisez notre liste de vocabulaire structurée et nos rounds de parole thématiques pour exprimer sereinement vos opinions sur des concepts réels et complexes.</li>
+                                </ul>
+                            </div>
+                        `;
+                    } else if (isRussian) {
+                        const findingsText = findings ? ` «${findings}»` : "";
+                        const hypothesisText = hypothesis ? ` ключевую гипотезу: «${hypothesis}»` : "";
+                        const expText = findingsText || hypothesisText ? `<strong>Анализируйте результаты :</strong> Бросьте вызов своему разуму и поделитесь мнением об экспериментальных выводах: <em>${findingsText}</em>${findingsText && hypothesisText ? ' или обсудите' : ' обсудите'}${hypothesisText}.` : "";
+
+                        introHtml = `
+                            <div class="science-session-intro">
+                                <div class="intro-header">🎙️ ВВОДНЫЙ БРИФИНГ И ЖУРНАЛ СЕССИИ</div>
+                                <div class="intro-title">🗣️ Зачем участвовать и говорить?</div>
+                                <ul>
+                                    ${expText ? `<li>${expText}</li>` : ''}
+                                    <li><strong>Языковой фокус :</strong> Практикуйте <strong>${langFocus}</strong> для улучшения речи, структурирования аргументов и более естественного общения.</li>
+                                    <li><strong>Развивайте беглость :</strong> Используйте наш структурированный список слов и подготовленные раунды обсуждений, чтобы уверенно высказывать свое мнение на сложные научные темы.</li>
+                                </ul>
+                            </div>
+                        `;
+                    } else {
+                        const findingsText = findings ? ` "${findings}"` : "";
+                        const hypothesisText = hypothesis ? ` underlying hypothesis: "${hypothesis}"` : "";
+                        const expText = findingsText || hypothesisText ? `<strong>Analyze Key Findings:</strong> Challenge your mind and share your thoughts on the experimental findings: <em>${findingsText}</em>${findingsText && hypothesisText ? ' or discuss the' : ' discuss the'}${hypothesisText}.` : "";
+
+                        introHtml = `
+                            <div class="science-session-intro">
+                                <div class="intro-header">🎙️ WELCOME & BRIEFING JOURNAL</div>
+                                <div class="intro-title">🗣️ Why Participate & Speak up?</div>
+                                <ul>
+                                    ${expText ? `<li>${expText}</li>` : ''}
+                                    <li><strong>Linguistic Focus:</strong> Put <strong>${langFocus}</strong> into active practice to refine your delivery, structure your arguments, and speak more naturally.</li>
+                                    <li><strong>Build Fluency:</strong> Leverage our structured vocabulary list and curated speaking rounds to comfortably voice your opinions on complex, real-world concepts.</li>
+                                </ul>
+                            </div>
+                        `;
+                    }
+
+                    const introBoxEl = document.createElement('div');
+                    introBoxEl.innerHTML = introHtml;
+                    const scienceSessionIntro = introBoxEl.firstElementChild;
+
                     // Get Batch Label
                     let batchLabel = isFrench ? "Spécimen Autonome" : (isRussian ? "Автономный образец" : "Standalone Specimen");
                     if (specimenData && specimenData.batches && specimenData.batches.length > 0) {
@@ -3153,6 +3260,11 @@
                             </div>
                         `;
                         mainContainer.appendChild(sourceCard);
+                    }
+
+                    // 6.5. Welcoming Introductory Briefing Card
+                    if (scienceSessionIntro) {
+                        mainContainer.appendChild(scienceSessionIntro);
                     }
 
                     // 7. Transcript / Stimulus Digest
