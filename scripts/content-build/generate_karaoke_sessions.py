@@ -417,12 +417,52 @@ SONG_THEMES = {
     "fovamai": {
         "en": "Fear, Passion & Emotional Distances",
         "el": "Φόβος, Πάθος & Συναισθηματικές Αποστάσεις"
+    },
+    "flash": {
+        "en": "Fleeting Memories & Flashbacks",
+        "fr": "Souvenirs éphémères & Flashbacks"
+    },
+    "comme-un-voleur": {
+        "en": "The Magic & Mystery of Life",
+        "fr": "La magie & le mystère de la vie"
+    },
+    "comme-une-reine": {
+        "en": "Self-Esteem & True Beauty",
+        "fr": "Estime de soi & vraie beauté"
+    },
+    "tour-eiffel": {
+        "en": "Romantic Breakups & Height",
+        "fr": "Ruptures amoureuses & hauteur"
+    },
+    "faudrait-pas": {
+        "en": "Hesitation & Falling in Love Too Fast",
+        "fr": "Hésitation & tomber amoureux trop vite"
+    },
+    "les-lois-de-lattraction": {
+        "en": "The Laws of Attraction & Introspection",
+        "fr": "Les lois de l'attraction & introspection"
+    },
+    "heavy-cross": {
+        "en": "A Cruel World & Carrying Your Own Heavy Cross",
+        "fr": "Un monde cruel & porter sa propre croix"
+    },
+    "move-in-the-right-direction": {
+        "en": "Motivation & Moving Forward After Hardships",
+        "fr": "Motivation & aller de l'avant après l'épreuve"
+    },
+    "standing-in-the-way-of-control": {
+        "en": "Survival & Standing in the Way of Control",
+        "fr": "Survie & faire barrage au contrôle"
+    },
+    "crazy-again": {
+        "en": "Vulnerability, Romance & Going Crazy Again",
+        "fr": "Vulnérabilité, romance & redevenir fou d'amour"
     }
 }
 
 # Challenge map defining which individual songs constitute each challenge
 CHALLENGE_MAP = {
-    "maelle-challenge": ("toutes-les-machines-ont-le-coeur", "je-taime-comme-je-taime"),
+    "maelle-challenge": ("toutes-les-machines-ont-le-coeur", "je-taime-comme-je-taime", "flash"),
     "abba-challenge": ("me-and-i", "angeleyes"),
     "arletta-challenge": ("kapoies-nychtes", "o-gatos"),
     "esteman-challenge": ("amor-libre", "te-alejas-mas-de-mi"),
@@ -454,6 +494,12 @@ CHALLENGE_MAP = {
     "heathers-challenge": (
         "seventeen", "lifeboat"
     ),
+    "madame-monsieur-challenge": (
+        "quelquun-pour-toi", "comme-un-voleur", "comme-une-reine", "tour-eiffel", "faudrait-pas", "les-lois-de-lattraction"
+    ),
+    "gossip-challenge": (
+        "casualties-of-war", "heavy-cross", "move-in-the-right-direction", "standing-in-the-way-of-control", "crazy-again"
+    )
 }
 
 SONG_LINKS = {
@@ -550,7 +596,17 @@ SONG_LINKS = {
     "couleur": "https://www.youtube.com/watch?v=km3T0wSr4F8",
     "speed": "https://www.youtube.com/watch?v=LA7T0GSjzg0",
     "je-suis-un-homme": "https://www.youtube.com/watch?v=oSIoP7h4B_M",
-    "fovamai": "https://www.youtube.com/watch?v=aaQcgyToH1Y"
+    "fovamai": "https://www.youtube.com/watch?v=aaQcgyToH1Y",
+    "flash": "https://www.youtube.com/watch?v=hcaj2MlYHFI",
+    "comme-un-voleur": "https://www.youtube.com/watch?v=qCTkvLlmwlg",
+    "comme-une-reine": "https://www.youtube.com/watch?v=mhxmv1D5zEo",
+    "tour-eiffel": "https://www.youtube.com/watch?v=7ApY9iv_HPU",
+    "faudrait-pas": "https://www.youtube.com/watch?v=1oTw5iPR4-M",
+    "les-lois-de-lattraction": "https://www.youtube.com/watch?v=6eiYgGDMp1Q",
+    "heavy-cross": "https://www.youtube.com/watch?v=5mQVljB7JGw",
+    "move-in-the-right-direction": "https://www.youtube.com/watch?v=12zPU-8bsTE",
+    "standing-in-the-way-of-control": "https://www.youtube.com/watch?v=yn043ArR98M",
+    "crazy-again": "https://www.youtube.com/watch?v=hgTOXSZN7g8"
 }
 
 # Translation / Localization resources for all 6 supported languages
@@ -1290,7 +1346,105 @@ OPPOSITES_MAP = {
     "console": "afflige",
     "déteste": "adore",
     "déchire": "réconcilie",
-    "détruit": "construit"
+    "détruit": "construit",
+    "souvenirs": "oubli",
+    "sirènes": "silence",
+    "vagues": "calme",
+    "désabonné": "suivi",
+    "regrets": "satisfaction",
+    "espace": "limite",
+    "éclat": "obscurité",
+    "blessures": "guérison",
+    "secrets": "évidence",
+    "dernière": "première",
+    "magie": "science",
+    "cerveau": "cœur",
+    "règles": "liberté",
+    "voleur": "honnête",
+    "bizarre": "normal",
+    "chansons": "silences",
+    "sort": "choix",
+    "tricher": "respecter",
+    "dés": "certitude",
+    "rêver": "agir",
+    "rondeurs": "finesse",
+    "miroir": "réalité",
+    "beauté": "laideur",
+    "reine": "sujet",
+    "uniforme": "original",
+    "féminité": "masculinité",
+    "larmes": "rires",
+    "diadème": "casque",
+    "existence": "néant",
+    "ciel": "terre",
+    "tour": "cabane",
+    "film": "réalité",
+    "porte": "mur",
+    "amour": "haine",
+    "hauteur": "profondeur",
+    "sommet": "abîme",
+    "dégâts": "réparation",
+    "débardeur": "manteau",
+    "muser": "travailler",
+    "bagages": "mains vides",
+    "cinéma": "réalité",
+    "bonheur": "malheur",
+    "maladroit": "habile",
+    "pages": "couverture",
+    "suivre": "guider",
+    "facile": "difficile",
+    "chanson": "discours",
+    "avis": "certitude",
+    "étoile": "trou noir",
+    "DM": "lettre",
+    "bougie": "néon",
+    "abonnés": "visiteurs",
+    "attraction": "répulsion",
+    "fil": "nœud",
+    "pensées": "actions",
+    "lion": "agneau",
+    "folie": "sagesse",
+    "colonies": "métropole",
+    "cruel": "kind",
+    "heavy": "light",
+    "cross": "crown",
+    "rules": "freedom",
+    "choice": "destiny",
+    "world": "vacuum",
+    "lights": "shadows",
+    "street": "room",
+    "trust": "doubt",
+    "rainy": "sunny",
+    "motivation": "apathy",
+    "direction": "chaos",
+    "tears": "smiles",
+    "fears": "courage",
+    "reminiscing": "forgetting",
+    "mind": "body",
+    "strength": "weakness",
+    "instinct": "learning",
+    "devotion": "betrayal",
+    "perfect": "flawed",
+    "control": "helplessness",
+    "survive": "perish",
+    "truth": "lie",
+    "friends": "enemies",
+    "trying": "giving up",
+    "wall": "door",
+    "crying": "laughing",
+    "lying": "honest",
+    "lose": "win",
+    "dying": "living",
+    "romance": "indifference",
+    "savior": "enemy",
+    "crazy": "sane",
+    "obligation": "freedom",
+    "fragile": "tough",
+    "blur": "clarity",
+    "words": "silence",
+    "favor": "disgrace",
+    "crush": "apathy",
+    "alone": "together"
 }
 
 # Standardized Language Focus points
@@ -1605,6 +1759,170 @@ LANGUAGE_FOCUS_DB = {
                 "Μην ακούς τι λέω, θέλω μόνο να είμαι μαζί σου."
             ]
         }
+    },
+    "flash": {
+        "en": {
+            "title": "The Present and Imperfect Tenses (expressing memory)",
+            "explanation": "In French, we use the present tense to express current feelings and the imperfect tense (imparfait) to recall continuous past actions or states.",
+            "examples": [
+                "Je revois le fond de cette histoire.",
+                "Quand j'étais plus jeune, je redoutais le monde.",
+                "Tu es toujours dans mes pensées, comme avant."
+            ]
+        },
+        "fr": {
+            "title": "L'expression du souvenir (Présent et Imparfait)",
+            "explanation": "Pour exprimer des souvenirs ou des flashs du passé, le français associe souvent le présent d'énonciation ('je revois') à l'imparfait de description ('où tout était encore là').",
+            "examples": [
+                "Je revois le fond de notre histoire d'amour.",
+                "Quand j'étais enfant, je redoutais le bruit de la mer.",
+                "Tu es toujours présent dans mes flashs quotidiens."
+            ]
+        }
+    },
+    "comme-un-voleur": {
+        "en": {
+            "title": "Relative Clauses & Retelling Actions",
+            "explanation": "Using relative clauses with 'qui' and 'que' allows us to describe the complexity of life, actions, and decisions clearly.",
+            "examples": [
+                "La vie est une histoire que l'on écrit ensemble.",
+                "J'aime les gens qui regardent ailleurs avec curiosité.",
+                "C'est une chanson qui me donne beaucoup de force."
+            ]
+        },
+        "fr": {
+            "title": "Les propositions relatives (Qui et Que)",
+            "explanation": "Les propositions relatives introduites par 'qui' (sujet) et 'que' (complément d'objet direct) permettent de qualifier des concepts abstraits comme la vie ou les sentiments.",
+            "examples": [
+                "La vie est une histoire que l'on écrit au jour le jour.",
+                "J'aime les gens qui osent regarder la vérité en face.",
+                "C'est une mélodie qui me redonne le sourire."
+            ]
+        }
+    },
+    "comme-une-reine": {
+        "en": {
+            "title": "Expressing Pride and Self-Worth",
+            "explanation": "Use direct, empowering verbs to express self-worth, pride, and defying social expectations of appearance.",
+            "examples": [
+                "Tu n'as pas à changer ton corps pour plaire aux autres.",
+                "Il est temps de réconcilier ta différence et ta beauté.",
+                "Comporte-toi comme une reine en toute circonstance."
+            ]
+        },
+        "fr": {
+            "title": "L'expression de l'estime de soi et du conseil",
+            "explanation": "Pour encourager quelqu'un ou donner un conseil ferme, on utilise des tournures comme 'tu n'as pas à' suivies de l'infinitif ou l'impératif présent.",
+            "examples": [
+                "Tu n'as pas à changer ton apparence pour correspondre aux normes.",
+                "Il est temps de réconcilier ta singularité et ta beauté.",
+                "Comporte-toi avec fierté et marche la tête haute."
+            ]
+        }
+    },
+    "tour-eiffel": {
+        "en": {
+            "title": "Expressing height & physical spatial relations",
+            "explanation": "Learn to use spatial prepositions like 'en haut de' (at the top of), 'du sommet de' (from the peak of) to contrast physical perspective with emotional distance.",
+            "examples": [
+                "En haut de la Tour Eiffel, le vent souffle très fort.",
+                "Je prends de la hauteur pour enfin voir la réalité.",
+                "Du sommet de ma tour, je regarde le soleil couchant."
+            ]
+        },
+        "fr": {
+            "title": "Les prépositions de lieu et de hauteur",
+            "explanation": "Pour situer une action en hauteur ou exprimer une prise de recul, le français utilise des locutions prépositives comme 'en haut de' ou 'du sommet de'.",
+            "examples": [
+                "En haut de la Tour Eiffel, la ville de Paris semble si petite.",
+                "Je prends de la hauteur pour enfin analyser notre relation.",
+                "Du sommet de cette colline, la vue est imprenable."
+            ]
+        }
+    },
+    "faudrait-pas": {
+        "en": {
+            "title": "The conditional restriction 'Faudrait pas' (Should not)",
+            "explanation": "The turn of phrase 'il faudrait' or 'faudrait' followed by 'ne pas' + infinitive is a common, slightly colloquial way to express cautious advice or warnings.",
+            "examples": [
+                "Faudrait pas que tu tombes amoureux trop vite.",
+                "Faudrait pas s'inquiéter pour des détails sans importance.",
+                "Faudrait pas partir avant d'avoir lu la fin du livre."
+            ]
+        },
+        "fr": {
+            "title": "L'expression du conseil prudent ('Faudrait pas' + Infinitif)",
+            "explanation": "Le conditionnel présent impersonnel 'il faudrait' (souvent abrégé en 'faudrait' à l'oral) exprime une forte recommandation, une nécessité ou une mise en garde amicale.",
+            "examples": [
+                "Faudrait pas que j't'aime trop rapidement, tu sais.",
+                "Faudrait pas gâcher cette belle complicité par maladresse.",
+                "Faudrait pas oublier d'où l'on vient malgré le succès."
+            ]
+        }
+    },
+    "les-lois-de-lattraction": {
+        "en": {
+            "title": "Introspective metaphors and double pronouns",
+            "explanation": "French songs often use reflexive structures and double pronouns ('se refaire un nom') to describe personal growth, recovery, and inner identity.",
+            "examples": [
+                "Je cherche à me refaire une place dans la société.",
+                "Tu essaies de te reconstruire après la tempête.",
+                "Nous voulons nous prouver que nous sommes forts."
+            ]
+        },
+        "fr": {
+            "title": "Les verbes pronominaux et l'introspection ('se refaire')",
+            "explanation": "Les structures pronominales réflexives comme 'se refaire un nom' ou 'se reconstruire' illustrent un processus de changement personnel et d'affirmation de soi.",
+            "examples": [
+                "Je cherche simplement à me refaire une place au soleil.",
+                "Tu essaies de te reconstruire après cette rupture douloureuse.",
+                "Elle veut se prouver qu'elle est capable de réussir seule."
+            ]
+        }
+    },
+    "heavy-cross": {
+        "en": {
+            "title": "Conditionals and Trust with 'I trust you'",
+            "explanation": "In English, using 'I trust you' with conditional clauses starting with 'if' structures agreements and expectations between two people.",
+            "examples": [
+                "I trust you, so if you say we should go, I will follow.",
+                 "If it's already been done, we must find a way to undo it.",
+                 "It takes two to prove that our promises are true."
+            ]
+        }
+    },
+    "move-in-the-right-direction": {
+        "en": {
+            "title": "Expressing Direction and Intent using 'Move in'",
+            "explanation": "To convey determined forward progress, English uses action verbs with 'in' or 'forward'. Contrast this with words of regret or hesitation.",
+            "examples": [
+                "I want to move in the right direction and leave my fears behind.",
+                "Hesitation was my first instinct, but now I feel strong.",
+                "Keeping my head up helps me look forward to tomorrow."
+            ]
+        }
+    },
+    "standing-in-the-way-of-control": {
+        "en": {
+            "title": "Expressing Obstacles with 'Standing in the way of'",
+            "explanation": "The idiom 'standing in the way of' means to prevent or obstruct something from happening. It is a powerful way to talk about resistance and survival.",
+            "examples": [
+                "We are standing in the way of their attempts to control us.",
+                "Do not let fear stand in the way of your happiness.",
+                "His pride is standing in the way of a beautiful reconciliation."
+            ]
+        }
+    },
+    "crazy-again": {
+        "en": {
+            "title": "Expressing Modals of Possibility ('might / would')",
+            "explanation": "In English, 'might' expresses a possibility or risk in the present or future, while 'would' or 'would rather' expresses preference or hypothethicals.",
+            "examples": [
+                "I might go crazy if I spend another lonely evening here.",
+                "I would rather be alone than spend sleepless nights awake wonderin'.",
+                "Romance might be a blur, but our connection feels very real."
+            ]
+        }
     }
 }
 
@@ -1701,6 +2019,42 @@ FINAL_CHALLENGE_DB = {
     "fovamai": {
         "en": "The Paradox of Distance: Discuss in pairs how someone can feel 'too close yet too far' from the person they love. Is emotional distance more scary than physical distance?",
         "el": "Το παράδοξο της απόστασης: Συζητήστε σε ζευγάρια πώς μπορεί κάποιος να αισθάνεται «πολύ κοντά αλλά και πολύ μακριά» από τον άνθρωπο που αγαπά. Είναι η συναισθηματική απόσταση πιο τρομακτική από τη φυσική απόσταση;"
+    },
+    "flash": {
+        "en": "The Flashback Reel: Work in pairs. Describe a vivid flashback memory of a special day (holiday, first day of school, or concert) using French sensory verbs (je vois, j'entends, je sens).",
+        "fr": "Le fil du souvenir : En binôme, décrivez un souvenir vif (un premier jour d'école, un concert ou un voyage) en utilisant des verbes de perception (je vois, j'entends, je ressens)."
+    },
+    "comme-un-voleur": {
+        "en": "The Songwriter's Theft: Discuss in groups. If you could 'steal' one magnificent quality, talent, or skill from any famous person (like a thief in the night), what would it be and why?",
+        "fr": "Le vol de talent : Discutez en groupe. Si vous pouviez 'voler' un talent, une qualité ou une compétence à une célébrité (comme un voleur dans la nuit), que choisiriez-vous et pourquoi ?"
+    },
+    "comme-une-reine": {
+        "en": "The Diadem Speech: Role-play a conversation where a friend is feeling extremely insecure about their appearance or body image. Deliver an inspiring, queen-like speech to restore their confidence.",
+        "fr": "Le discours de la reine : Jouez un dialogue dans lequel un ami exprime de grands complexes sur son corps ou son style. Prononcez un discours inspirant pour lui rappeler sa valeur."
+    },
+    "tour-eiffel": {
+        "en": "Taking Height: Imagine you are at the top of the Eiffel Tower, looking down at a chaotic situation in your life. Describe how taking this high physical perspective helps you find a calm solution.",
+        "fr": "Prendre de la hauteur : Imaginez que vous êtes au sommet de la Tour Eiffel et que vous regardez une situation chaotique de votre vie. Décrivez comment cette prise de recul vous aide à trouver une solution."
+    },
+    "faudrait-pas": {
+        "en": "The Cautionary Advice: Give playful advice to a friend who is falling in love too quickly after just one date. Warn them about potential 'dégâts' and what they should or shouldn't do.",
+        "fr": "La mise en garde : Donnez des conseils ludiques à un ami qui s'enflamme beaucoup trop vite après un seul rendez-vous. Mettez-le en garde contre les potentiels dégâts."
+    },
+    "les-lois-de-lattraction": {
+        "en": "The Law of Attraction: Discuss in groups. Do you believe that we actively attract the people, opportunities, or failures we experience in life? Share your personal experiences.",
+        "fr": "La loi de l'attraction : Débattez en groupe. Pensez-vous que nous attirons inconsciemment les personnes, les opportunités ou les échecs que nous vivons ? Partagez vos expériences."
+    },
+    "heavy-cross": {
+        "en": "Carrying the Cross: Work in pairs. Describe a highly demanding project, responsibility, or deadline you had to carry on your own. How did you handle the pressure and find success?"
+    },
+    "move-in-the-right-direction": {
+        "en": "The Directional Plan: Formulate a 3-step action plan to help a friend who is feeling completely stuck in their career or routine to start moving in the right direction again."
+    },
+    "standing-in-the-way-of-control": {
+        "en": "Defying Control: Role-play a short dialogue where a highly controlling manager or parent tries to enforce rigid, unfair rules, and you politely yet firmly stand in the way of their control."
+    },
+    "crazy-again": {
+        "en": "Going Crazy Again: Discuss a time in your life when you felt so passionate, excited, or inspired about a new project, hobby, or relationship that you felt completely 'crazy again'."
     }
 }
 
