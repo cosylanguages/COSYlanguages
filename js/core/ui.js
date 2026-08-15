@@ -4154,17 +4154,31 @@
                 // Only intercept if we are staying within the same origin and navigating to/from wonder-club
                 if (absoluteUrl.origin !== window.location.origin) return;
 
-                const targetPath = absoluteUrl.pathname;
-                const targetIsWonder = targetPath.includes('i-couldnt-help-but-wonder');
-                const currentIsWonder = window.location.pathname.includes('i-couldnt-help-but-wonder');
+                const checkSpeakingClub = (path) => {
+                    return path.includes('speaking-clubs') ||
+                           path.includes('i-couldnt-help-but-wonder') ||
+                           path.includes('keeping-up-with-science') ||
+                           path.includes('lets-celebrate') ||
+                           path.includes('the-greatest-quotes') ||
+                           path.includes('mind-matters') ||
+                           path.includes('my-life-with-without') ||
+                           path.includes('debatable-relatable') ||
+                           path.includes('if-you-were') ||
+                           path.includes('long-reads') ||
+                           path.includes('apps/premium-events/clubs/');
+                };
 
-                // If navigating within the wonder club (from wonder page to wonder page)
-                if (targetIsWonder && currentIsWonder) {
+                const targetPath = absoluteUrl.pathname;
+                const targetIsSpeaking = checkSpeakingClub(targetPath);
+                const currentIsSpeaking = checkSpeakingClub(window.location.pathname);
+
+                // If navigating within speaking clubs (from speaking club page to speaking club page)
+                if (targetIsSpeaking && currentIsSpeaking) {
                     e.preventDefault();
 
-                    // Pre-play target session's draft audio synchronously on user click to bypass autoplay restrictions
-                    const isTargetSession = targetPath.includes('sessions/i-couldnt-help-but-wonder/');
-                    if (isTargetSession) {
+                    // Pre-play target session's draft audio synchronously on user click to bypass autoplay restrictions (Wonder Club)
+                    const isTargetWonderSession = targetPath.includes('sessions/i-couldnt-help-but-wonder/');
+                    if (isTargetWonderSession && typeof WONDER_DRAFT_MAPPING !== 'undefined') {
                         const targetFilename = targetPath.split('/').pop().split('#')[0].split('?')[0];
                         const draftNum = WONDER_DRAFT_MAPPING[targetFilename];
                         if (draftNum) {
@@ -4196,8 +4210,20 @@
             });
 
             window.addEventListener('popstate', (e) => {
-                const isWonder = window.location.pathname.includes('i-couldnt-help-but-wonder');
-                if (isWonder) {
+                const checkSpeakingClub = (path) => {
+                    return path.includes('speaking-clubs') ||
+                           path.includes('i-couldnt-help-but-wonder') ||
+                           path.includes('keeping-up-with-science') ||
+                           path.includes('lets-celebrate') ||
+                           path.includes('the-greatest-quotes') ||
+                           path.includes('mind-matters') ||
+                           path.includes('my-life-with-without') ||
+                           path.includes('debatable-relatable') ||
+                           path.includes('if-you-were') ||
+                           path.includes('long-reads') ||
+                           path.includes('apps/premium-events/clubs/');
+                };
+                if (checkSpeakingClub(window.location.pathname)) {
                     handleNavigate(window.location.href, false);
                 } else {
                     window.location.reload();

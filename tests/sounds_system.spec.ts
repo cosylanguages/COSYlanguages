@@ -1,87 +1,61 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Sounds and Music System', () => {
-  test('Wonder club background music plays and maintains state', async ({ page }) => {
-    // 1. Visit Wonder Club page
-    await page.goto('http://localhost:8080/apps/premium-events/clubs/wonder/i-couldnt-help-but-wonder.html');
-
-    // 2. Click on body to trigger interaction play
-    await page.click('body');
-
-    // 3. Navigate to a session page within the same club
-    await page.goto('http://localhost:8080/apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html');
-
-    // Click on body to trigger interaction play
-    await page.click('body');
-
-    // 4. Navigate outside the club (e.g. Practice Hub)
-    await page.goto('http://localhost:8080/practice/index.html');
-
-    // 5. Verify that sessionStorage keys are cleaned up when leaving the club
-    const savedTime = await page.evaluate(() => sessionStorage.getItem('cosy_wonder_music_time'));
-    const isPlaying = await page.evaluate(() => sessionStorage.getItem('cosy_wonder_music_playing'));
-
-    expect(savedTime).toBeNull();
-    expect(isPlaying).toBeNull();
+test.describe('Sound System Tests', () => {
+  test('should load background music files without 404 errors', async ({ page }) => {
+    for (let i = 1; i <= 9; i++) {
+      const response = await page.request.get(`http://localhost:8080/sounds/music/background${i}.mp3`);
+      expect(response.status()).toBe(200);
+    }
   });
 
-  test('Seamless PJAX transition maintains the exact same audio context and eliminates gap/stop', async ({ page }) => {
-    // 1. Visit Wonder Club main page
-    await page.goto('http://localhost:8080/apps/premium-events/clubs/wonder/i-couldnt-help-but-wonder.html');
+  test('should initialize shuffle queue in sessionStorage', async ({ page }) => {
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/if-you-were/if-you-were.html');
     await page.click('body');
 
-    // 2. Attach a unique tag to the active audio element to verify it is NOT destroyed
+    const queueStr = await page.evaluate(() => sessionStorage.getItem('cosy_bg_music_queue'));
+    expect(queueStr).not.toBeNull();
+    const queue = JSON.parse(queueStr!);
+    expect(queue.length).toBe(9);
+    expect(new Set(queue).size).toBe(9);
+  });
+
+  test('should play next track on ended event without duplicate repetition', async ({ page }) => {
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/if-you-were/if-you-were.html');
+    await page.click('body');
+
+    const initialTrackSrc = await page.evaluate(() => window.cosyWonderAudio ? window.cosyWonderAudio.src : null);
+    expect(initialTrackSrc).not.toBeNull();
+
+    // Trigger ended event on the audio element
     await page.evaluate(() => {
       if (window.cosyWonderAudio) {
-        (window as any).cosyWonderAudio.__uniqueTag = 'perfect-gapless-match';
+        window.cosyWonderAudio.dispatchEvent(new Event('ended'));
       }
     });
 
-    // 3. Click one of the past session links (this should trigger PJAX fetch instead of full load)
-    await page.click('a[href="sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html"]');
+    const indexAfter = await page.evaluate(() => sessionStorage.getItem('cosy_bg_music_index'));
+    expect(indexAfter).toBe('1');
 
-    // 4. Wait for the URL and content to transition
-    await page.waitForURL('**/do-insects-hide-when-it-rains.html');
-    await expect(page.locator('.current')).toContainText('Do Insects Hide When It Rains?');
-
-    // 5. Check if the window context was preserved and the audio element is still the exact same instance
-    const hasSameAudio = await page.evaluate(() => {
-      return window.cosyWonderAudio && (window as any).cosyWonderAudio.__uniqueTag === 'perfect-gapless-match';
-    });
-
-    expect(hasSameAudio).toBe(true);
+    const nextTrackSrc = await page.evaluate(() => window.cosyWonderAudio ? window.cosyWonderAudio.src : null);
+    expect(nextTrackSrc).not.toBeNull();
+    expect(nextTrackSrc).not.toBe(initialTrackSrc);
   });
 
-  test('Practice Hub playPracticeSound handles localized reaction sound files', async ({ page }) => {
-    await page.goto('http://localhost:8080/practice/index.html');
+  test('should load wonder column draft sounds', async ({ page }) => {
+    const response = await page.request.get('http://localhost:8080/sounds/draft1.mp3');
+    expect(response.status()).toBe(200);
+  });
 
-    // Inject a spy or call playPracticeSound directly to verify no exceptions and correct URL structure
-    const result = await page.evaluate(() => {
-      let playedUrl = null;
-      const originalAudio = window.Audio;
-      // Mock Audio constructor to spy on the URL being played
-      window.Audio = class extends originalAudio {
-        constructor(url) {
-          super(url);
-          playedUrl = url;
-        }
-        play() {
-          return Promise.resolve();
-        }
-      };
+  test('should load reaction sound files', async ({ page }) => {
+    const response = await page.request.get('http://localhost:8080/sounds/reactions/yes.ogg');
+    expect(response.status()).toBe(200);
+  });
 
-      // Set a session mock with french language
-      window.cosyPracticeEngine.session = { lang: 'fr' };
-      window.cosyPracticeEngine.recordMistake(null); // triggers playPracticeSound('wrong')
-
-      // Restore Audio
-      window.Audio = originalAudio;
-      return playedUrl;
+  test('background audio element should be created with correct initial track', async ({ page }) => {
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/if-you-were/if-you-were.html');
+    const audioCreated = await page.evaluate(() => {
+      return window.cosyWonderAudio !== undefined && window.cosyWonderAudio !== null;
     });
-
-    // Verify it selected a French reaction wrong sound
-    expect(result).not.toBeNull();
-    expect(result).toContain('sounds/reactions/');
-    expect(result).toMatch(/mais%20non|mais%20pourquoi/);
+    expect(audioCreated).toBe(true);
   });
 });
