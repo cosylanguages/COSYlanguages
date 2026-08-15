@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 
 def run_cuj(page):
     # Go to the demonstration session in MINI mode
-    page.goto("http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=mini")
+    page.goto("http://localhost:8080/apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=mini")
     page.wait_for_timeout(1500)
 
     # Fill in the passcode for mini mode for Draft 18 (does-inclusive-language-make-us-equal.html is Draft 18)
