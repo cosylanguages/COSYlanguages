@@ -2,33 +2,21 @@ import os
 from playwright.sync_api import sync_playwright
 
 def run_cuj(page):
-    # Go to the demonstration session in MINI mode
-    page.goto("http://localhost:8080/apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=mini")
-    page.wait_for_timeout(1500)
-
-    # Fill in the passcode for mini mode for Draft 18 (does-inclusive-language-make-us-equal.html is Draft 18)
-    # The passcode is ICHBWMG18
-    print("Entering passcode ICHBWMG18...")
-    page.fill("#gate-passcode-input", "ICHBWMG18")
+    # 1. Main Wonder index page
+    page.goto("http://localhost:8080/apps/premium-events/clubs/wonder/i-couldnt-help-but-wonder.html")
     page.wait_for_timeout(1000)
+    page.screenshot(path="/home/jules/verification/screenshots/wonder_index.png", full_page=True)
 
-    # Press enter
-    page.keyboard.press("Enter")
-    page.wait_for_timeout(2000)
-
-    # Take screenshot at the key moment of the unlocked mini group units
-    print("Taking screenshot of unlocked Mini Group session...")
-    page.screenshot(path="/home/jules/verification/screenshots/verification.png", full_page=True)
+    # 2. New session page
+    page.goto("http://localhost:8080/apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/is-marketing-making-sedentary-lifestyle-a-new-normality.html")
     page.wait_for_timeout(1000)
+    page.screenshot(path="/home/jules/verification/screenshots/new_session.png", full_page=True)
 
 if __name__ == "__main__":
-    os.makedirs("/home/jules/verification/videos", exist_ok=True)
     os.makedirs("/home/jules/verification/screenshots", exist_ok=True)
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            record_video_dir="/home/jules/verification/videos"
-        )
+        context = browser.new_context()
         page = context.new_page()
         try:
             run_cuj(page)
