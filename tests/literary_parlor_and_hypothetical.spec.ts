@@ -63,7 +63,7 @@ test.describe('Long Reads (Literary Parlor) Club Verification', () => {
 
 test.describe('If You Were Club Verification', () => {
   test('If You Were Hub loads past sessions with level/lang filters', async ({ page }) => {
-    await page.goto('http://localhost:8080/apps/premium-events/nights/if-you-were/if-you-were.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/if-you-were/if-you-were.html');
     await expect(page.locator('h1')).toContainText('If You Were');
 
     // 1. Past sessions cards should exist
@@ -84,7 +84,7 @@ test.describe('If You Were Club Verification', () => {
   });
 
   test('If You Were Deaf session page loads with Perspective Mirror box and Subjunctive anchor', async ({ page }) => {
-    await page.goto('http://localhost:8080/apps/premium-events/nights/if-you-were/sessions/if-you-were/if-you-were-deaf.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/if-you-were/sessions/if-you-were/if-you-were-deaf.html');
     await expect(page.locator('h1')).toContainText('If You Were Deaf');
 
     // 1. Perspective Mirror Box exists
@@ -121,7 +121,7 @@ test.describe('If You Were Club Verification', () => {
   });
 
   test('If You Were Blind session page loads correctly', async ({ page }) => {
-    await page.goto('http://localhost:8080/apps/premium-events/nights/if-you-were/sessions/if-you-were/if-you-were-blind.html');
+    await page.goto('http://localhost:8080/apps/premium-events/clubs/if-you-were/sessions/if-you-were/if-you-were-blind.html');
     await expect(page.locator('h1')).toContainText('If You Were Blind');
     await expect(page.locator('.perspective-mirror-box')).toBeVisible();
     await expect(page.locator('#vocabulary .vocab-card')).toHaveCount(10);
