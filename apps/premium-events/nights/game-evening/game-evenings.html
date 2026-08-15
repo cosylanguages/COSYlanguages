@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Game Evenings 🎮 — COSYlanguages</title>
+    <link href="../../../../images/logos/cosylanguages.png" rel="icon"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500;700&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+    <link href="../../../../css/tokens.css" rel="stylesheet"/>
+    <link href="../../../../css/base.css" rel="stylesheet"/>
+    <link href="../../../../css/components.css" rel="stylesheet"/>
+    <link href="../../../../css/layout.css" rel="stylesheet"/>
+    <link href="../../../../css/events.css" rel="stylesheet"/>
+    <style>
+      .game-ev-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+      .game-ev-card {
+        background: var(--warm-white);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        transition: transform .3s cubic-bezier(.34,1.56,.64,1), box-shadow .3s;
+        text-align: left;
+      }
+      .game-ev-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 15px 35px rgba(61,43,31,.12);
+        border-color: var(--border-hover);
+      }
+      .game-ev-icon {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+        display: inline-block;
+      }
+      .game-ev-title {
+        font-family: var(--font-serif);
+        font-size: 1.35rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        color: var(--sage-deep);
+      }
+      .game-ev-desc {
+        font-size: 0.92rem;
+        line-height: 1.6;
+        color: var(--ink-soft);
+        margin-bottom: 1.25rem;
+        flex-grow: 1;
+      }
+      .game-ev-meta {
+        background: var(--cream-light);
+        border-radius: 12px;
+        padding: 0.85rem;
+        margin-bottom: 1.5rem;
+        font-size: 0.8rem;
+        border: 1px solid rgba(61,43,31,0.05);
+      }
+      .game-ev-meta div {
+        margin-bottom: 0.4rem;
+        display: flex;
+        justify-content: space-between;
+      }
+      .game-ev-meta div:last-child {
+        margin-bottom: 0;
+      }
+      .game-ev-meta strong {
+        color: var(--ink-faint);
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        letter-spacing: 0.05em;
+      }
+      .game-ev-play-btn {
+        display: block;
+        background: var(--teal);
+        color: white;
+        text-decoration: none;
+        border-radius: 12px;
+        padding: 0.75rem;
+        text-align: center;
+        font-size: 0.88rem;
+        font-weight: 700;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .game-ev-play-btn:hover {
+        opacity: 0.95;
+        transform: scale(1.02);
+      }
+      .hybrid-badge {
+        display: inline-block;
+        font-size: 0.7rem;
+        background: var(--gold-light);
+        color: var(--gold);
+        border: 1px solid rgba(176,125,43,.15);
+        border-radius: 6px;
+        padding: 2px 8px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 1rem;
+      }
+    </style>
+</head>
+<body class="theme-cinema">
+<nav id="cosy-nav"></nav>
+<header class="club-hero" style="background: linear-gradient(135deg, #1b263b, #0d1b2a); color: white;">
+    <span class="game-ev-icon" style="font-size: 3.5rem;">🎮</span>
+    <h1 style="color: white; font-family: var(--font-serif);">Game Evenings</h1>
+    <p style="color: rgba(255,255,255,0.85); max-width: 700px; margin: 0 auto;">Connect, compete, and converse! Our Game Evenings bring learners together through highly interactive, social, and communicative language games—designed beautifully to play both offline (couch & classroom) and online (Zoom) together.</p>
+</header>
+<section class="container" style="padding: 2rem 1.5rem 5rem;">
+    <nav class="cosy-breadcrumbs">
+        <a href="../">Home</a> <span class="sep">/</span>
+        <a href="index.html">Events</a> <span class="sep">/</span>
+        <span class="current">Game Evenings</span>
+    </nav>
+    <a class="back-link" href="index.html" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Live Events</a>
+
+    <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+        <div class="club-main">
+            <!-- WHY GAME EVENINGS -->
+            <div style="background: var(--warm-white); border: 1px solid var(--border); border-radius: 28px; padding: 2.5rem; margin-bottom: 3rem;">
+                <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--sage-deep); margin-top: 0; margin-bottom: 1rem;">🎯 The Power of Language Play</h2>
+                <p style="font-size: 0.98rem; line-height: 1.7; color: var(--ink-soft); margin-bottom: 1.25rem;">
+                    Research in language pedagogy shows that games are not just "fun" fillers—they are powerful cognitive tools. By shifting focus from abstract grammar rules to winning the round, games bypass the <strong>affective filter</strong> (fear of making mistakes). You begin to formulate arguments, describe complex scenarios, and react with spontaneous expressions naturally.
+                </p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; border-top: 1px dashed var(--border); padding-top: 1.5rem;">
+                    <div>
+                        <strong style="display: block; color: var(--teal); font-size: 1.1rem; margin-bottom: 0.25rem;">👥 Hybrid Cohesion</strong>
+                        <span style="font-size: 0.88rem; color: var(--muted); line-height: 1.5;">Designed to bridge online groups on screen-shares and in-person friends gathering around a table.</span>
+                    </div>
+                    <div>
+                        <strong style="display: block; color: var(--coral); font-size: 1.1rem; margin-bottom: 0.25rem;">⚡ Spontaneous Speech</strong>
+                        <span style="font-size: 0.88rem; color: var(--muted); line-height: 1.5;">Develop natural reactions, conversational strategies, and slang beyond regular textbooks.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THE FEATURED GAMES GRID -->
+            <div>
+                <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--sage-deep); margin-bottom: 0.5rem;">🎲 Curated Game Deck</h2>
+                <p style="color: var(--muted); font-size: 0.92rem;">Launch any of these selected multi-player hits directly in your group session with a teacher or friends.</p>
+
+                <div class="game-ev-grid">
+                    <!-- 1. ACTION HERO -->
+                    <article class="game-ev-card">
+                        <span class="game-ev-icon">🎭</span>
+                        <span class="hybrid-badge">Forehead / Screen Play</span>
+                        <h3 class="game-ev-title">Action Hero</h3>
+                        <p class="game-ev-desc">Hold your smartphone to your forehead with the screen facing the camera or room. Others must describe the secret vocabulary term in the target language while you guess as many as possible before the clock runs out!</p>
+                        <div class="game-ev-meta">
+                            <div><strong>Offline Mode</strong> <span>Pass phone around the circle</span></div>
+                            <div><strong>Online Mode</strong> <span>Host describes, player closes eyes</span></div>
+                            <div><strong>Pedagogy</strong> <span>Rapid paraphrasing & synonyms</span></div>
+                        </div>
+                        <a href="../../../../games/index.html?game=action" class="game-ev-play-btn" style="background: var(--gold);">▶ Launch Action Hero</a>
+                    </article>
+
+                    <!-- 2. BATTLE OF WITS -->
+                    <article class="game-ev-card">
+                        <span class="game-ev-icon">⚖️</span>
+                        <span class="hybrid-badge">Breakout / Team Play</span>
+                        <h3 class="game-ev-title">Battle of Wits</h3>
+                        <p class="game-ev-desc">Two hot topics, two contrasting sides. Players are split into opposing camps to draft arguments, formulate debate strategies, and speak for 2 minutes to win the jury's final ballot.</p>
+                        <div class="game-ev-meta">
+                            <div><strong>Offline Mode</strong> <span>Opposite sides of the table</span></div>
+                            <div><strong>Online Mode</strong> <span>Breakout rooms for team huddles</span></div>
+                            <div><strong>Pedagogy</strong> <span>Structuring discourse & rhetoric</span></div>
+                        </div>
+                        <a href="../../../../games/index.html?game=battle" class="game-ev-play-btn" style="background: var(--coral);">▶ Launch Battle of Wits</a>
+                    </article>
+
+                    <!-- 3. IDENTITY MYSTERY -->
+                    <article class="game-ev-card">
+                        <span class="game-ev-icon">👤</span>
+                        <span class="hybrid-badge">Interactive Group Play</span>
+                        <h3 class="game-ev-title">Identity Mystery</h3>
+                        <p class="game-ev-desc">The host is secretly assigned a profession or famous personality. The other players take turns asking yes/no questions in the target language to decode the hidden persona in fewer than 20 questions.</p>
+                        <div class="game-ev-meta">
+                            <div><strong>Offline Mode</strong> <span>Host displays screen secretly</span></div>
+                            <div><strong>Online Mode</strong> <span>Host receives private Zoom message</span></div>
+                            <div><strong>Pedagogy</strong> <span>Formulating question syntax</span></div>
+                        </div>
+                        <a href="../../../../games/index.html?game=identity" class="game-ev-play-btn" style="background: var(--plum);">▶ Launch Identity Mystery</a>
+                    </article>
+
+                    <!-- 4. STORY CHAIN -->
+                    <article class="game-ev-card">
+                        <span class="game-ev-icon">🃏</span>
+                        <span class="hybrid-badge">Sentence Chain Play</span>
+                        <h3 class="game-ev-title">Story Chain</h3>
+                        <p class="game-ev-desc">Build an unpredictable, humorous story together, one sentence at a time. Each player must secretly draw a target vocabulary word and weave it naturally into their turn without raising suspicion.</p>
+                        <div class="game-ev-meta">
+                            <div><strong>Offline Mode</strong> <span>Circle-based speech pacing</span></div>
+                            <div><strong>Online Mode</strong> <span>Sequence in Chat / Turn order</span></div>
+                            <div><strong>Pedagogy</strong> <span>Seamless syntax weaving</span></div>
+                        </div>
+                        <a href="../../../../games/index.html?game=storychain" class="game-ev-play-btn" style="background: var(--blue);">▶ Launch Story Chain</a>
+                    </article>
+
+                    <!-- 5. WORD LINKER -->
+                    <article class="game-ev-card">
+                        <span class="game-ev-icon">🔗</span>
+                        <span class="hybrid-badge">Cooperative Screen Play</span>
+                        <h3 class="game-ev-title">Word Linker</h3>
+                        <p class="game-ev-desc">Test your vocabulary depth! Examine four target words on the screen. Work together to spot the odd one out, define their hidden relationship, and establish semantic connections.</p>
+                        <div class="game-ev-meta">
+                            <div><strong>Offline Mode</strong> <span>Projected screen on the wall</span></div>
+                            <div><strong>Online Mode</strong> <span>Screen-share with group chat input</span></div>
+                            <div><strong>Pedagogy</strong> <span>Deep lexical associations</span></div>
+                        </div>
+                        <a href="../../../../games/index.html?game=wordlinker" class="game-ev-play-btn" style="background: var(--teal);">▶ Launch Word Linker</a>
+                    </article>
+
+                    <!-- 6. LUCKY NUMBERS -->
+                    <article class="game-ev-card">
+                        <span class="game-ev-icon">🔢</span>
+                        <span class="hybrid-badge">Multi-Player Listening</span>
+                        <h3 class="game-ev-title">Lucky Numbers (Bingo)</h3>
+                        <p class="game-ev-desc">Practice number recognition and spelling with absolute focus. The Caller synthesizes and speaks numbers/letters aloud in the target language while players mark their cards to complete a row!</p>
+                        <div class="game-ev-meta">
+                            <div><strong>Offline Mode</strong> <span>Printable paper grids</span></div>
+                            <div><strong>Online Mode</strong> <span>Digital cards on personal devices</span></div>
+                            <div><strong>Pedagogy</strong> <span>Aural numbers/letters parsing</span></div>
+                        </div>
+                        <a href="../../../../games/index.html?game=bingo" class="game-ev-play-btn" style="background: #d53f8c;">▶ Launch Lucky Numbers</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="club-sidebar" style="background: var(--warm-white); border: 1px solid var(--border); border-radius: 24px; padding: 1.5rem; display: flex; flex-direction: column; gap: 1.5rem;">
+            <div style="border-bottom: 1px solid var(--border); padding-bottom: 1rem;">
+                <h3 style="margin: 0 0 0.5rem; font-family: var(--font-serif); font-size: 1.2rem; color: var(--sage-deep);">📋 Event Logistics</h3>
+                <table style="width: 100%; font-size: 0.85rem; line-height: 1.6; border-collapse: collapse;">
+                    <tr style="border-bottom: 1px solid rgba(0,0,0,0.03);"><td style="padding: 0.5rem 0; font-weight: bold; color: var(--ink-faint);">Duration</td><td style="text-align: right;">60 - 90 min</td></tr>
+                    <tr style="border-bottom: 1px solid rgba(0,0,0,0.03);"><td style="padding: 0.5rem 0; font-weight: bold; color: var(--ink-faint);">Frequency</td><td style="text-align: right;">Bi-weekly</td></tr>
+                    <tr style="border-bottom: 1px solid rgba(0,0,0,0.03);"><td style="padding: 0.5rem 0; font-weight: bold; color: var(--ink-faint);">Min Level</td><td style="text-align: right;">A2+ / Intermediate</td></tr>
+                    <tr><td style="padding: 0.5rem 0; font-weight: bold; color: var(--ink-faint);">Languages</td><td style="text-align: right;">🇺🇸 🇫🇷 🇮🇹 🇷🇺 🇪🇸 🇩🇪 🇬🇷</td></tr>
+                </table>
+            </div>
+
+            <div style="border-bottom: 1px solid var(--border); padding-bottom: 1rem;">
+                <h4 style="margin: 0 0 0.5rem; font-family: var(--font-serif); font-size: 1.1rem; color: var(--sage-deep);">📅 Next Session</h4>
+                <p style="font-size: 0.85rem; color: var(--muted); margin: 0 0 0.5rem; line-height: 1.4;"><strong>Theme:</strong> Spontaneous Improv Night</p>
+                <p style="font-size: 0.85rem; color: var(--muted); margin: 0; line-height: 1.4;"><strong>Date:</strong> Planned — TBC</p>
+            </div>
+
+            <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20a%20Game%20Evening." style="background: var(--teal); color: white; display: block; text-align: center; padding: 0.8rem; border-radius: 12px; font-weight: 700; text-decoration: none; font-size: 0.9rem;">💬 Join Next Session</a>
+        </aside>
+    </div>
+</section>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+    <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+        <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+        <a href="../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+        <a href="../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+        <a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    </div>
+    <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../../../../js/data/languages.js"></script>
+<script src="../../../../js/core/engine.js"></script>
+<script src="../../../../js/core/i18n.js"></script>
+<script src="../../../../js/core/ui.js"></script>
+<script src="../../../../js/data/pricing.js"></script>
+</body>
+</html>
