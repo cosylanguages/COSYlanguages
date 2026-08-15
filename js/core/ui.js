@@ -3827,13 +3827,23 @@
         window.COSY_WONDER_ROUTER.initModeRouting();
     };
 
-    /* ─── WONDER CLUB BACKGROUND MUSIC ──────────────────────────── */
+    /* ─── WONDER CLUB / SPEAKING CLUBS BACKGROUND MUSIC ──────────────────────────── */
     const setupWonderMusic = () => {
         const currentPathname = window.location.pathname;
-        const isWonderClub = currentPathname.includes('i-couldnt-help-but-wonder');
+        const isSpeakingClub = currentPathname.includes('speaking-clubs') ||
+                               currentPathname.includes('i-couldnt-help-but-wonder') ||
+                               currentPathname.includes('keeping-up-with-science') ||
+                               currentPathname.includes('lets-celebrate') ||
+                               currentPathname.includes('the-greatest-quotes') ||
+                               currentPathname.includes('mind-matters') ||
+                               currentPathname.includes('my-life-with-without') ||
+                               currentPathname.includes('debatable-relatable') ||
+                               currentPathname.includes('if-you-were') ||
+                               currentPathname.includes('long-reads') ||
+                               currentPathname.includes('apps/premium-events/clubs/');
 
-        if (!isWonderClub) {
-            // Clean up session storage states when user leaves the club
+        if (!isSpeakingClub) {
+            // Clean up session storage states when user leaves speaking clubs
             if (window.cosyWonderAudio) {
                 window.cosyWonderAudio.pause();
                 window.cosyWonderAudio = null;
@@ -3901,11 +3911,13 @@
         };
 
         // Detect parent/hub page and inject toggle button
-        const isParentPage = currentPathname.includes('i-couldnt-help-but-wonder') && !currentPathname.includes('sessions/i-couldnt-help-but-wonder/');
+        const isParentPage = currentPathname.includes('speaking-clubs') ||
+                             (isSpeakingClub && !currentPathname.includes('/sessions/'));
         if (isParentPage) {
-            const heroHeader = document.querySelector('.club-hero');
+            const heroHeader = document.querySelector('.club-hero') || document.querySelector('.hero-left') || document.querySelector('.hero');
             if (heroHeader && !document.getElementById('wonder-music-toggle-container')) {
                 const isFrench = currentPathname.includes('/fr/');
+                const isRussian = currentPathname.includes('/ru/');
                 const activeState = sessionStorage.getItem('cosy_wonder_music_playing') !== 'false';
 
                 const btnContainer = document.createElement('div');
@@ -3916,10 +3928,20 @@
                 const enPauseLabel = '🎵 Pause Background Music';
                 const frPlayLabel = "🎵 Jouer la musique d'ambiance";
                 const frPauseLabel = "🎵 Suspendre la musique d'ambiance";
+                const ruPlayLabel = "🎵 Включить фоновое сопровождение";
+                const ruPauseLabel = "🎵 Приостановить фоновое сопровождение";
 
-                const initialLabel = activeState
-                    ? (isFrench ? frPauseLabel : enPauseLabel)
-                    : (isFrench ? frPlayLabel : enPlayLabel);
+                let playLabel = enPlayLabel;
+                let pauseLabel = enPauseLabel;
+                if (isFrench) {
+                    playLabel = frPlayLabel;
+                    pauseLabel = frPauseLabel;
+                } else if (isRussian) {
+                    playLabel = ruPlayLabel;
+                    pauseLabel = ruPauseLabel;
+                }
+
+                const initialLabel = activeState ? pauseLabel : playLabel;
 
                 btnContainer.innerHTML = `
                     <button id="wonder-music-toggle-btn" class="wonder-music-btn">${initialLabel}</button>
@@ -3963,13 +3985,13 @@
                         audio.play()
                             .then(() => {
                                 sessionStorage.setItem('cosy_wonder_music_playing', 'true');
-                                toggleBtn.textContent = isFrench ? frPauseLabel : enPauseLabel;
+                                toggleBtn.textContent = pauseLabel;
                             })
                             .catch(e => console.log(e));
                     } else {
                         audio.pause();
                         sessionStorage.setItem('cosy_wonder_music_playing', 'false');
-                        toggleBtn.textContent = isFrench ? frPlayLabel : enPlayLabel;
+                        toggleBtn.textContent = playLabel;
                     }
                 });
             }
