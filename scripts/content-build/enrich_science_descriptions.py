@@ -1,288 +1,319 @@
 import os
 import re
-from bs4 import BeautifulSoup
 
-# Define unique linguistic descriptions mapped by filename
+# Define engaging, prompt-driven descriptions following the 3-part framework:
+# 1. The Hook / Scientific Curiosity
+# 2. Key Questions & Debate Focus
+# 3. Call to Action / Invitation to Participate
+
 DESCRIPTIONS_MAP = {
     "ai-and-the-brain-intermediate.html": (
-        "Neurolinguists trace syntactic processing and neural pathways in Broca's area using fMRI scans during "
-        "sentence comprehension. How close are artificial neural networks to mimicking the biological syntax trees "
-        "of the human brain? As we build machine language models, we must ask: can digital algorithms truly replicate "
-        "the organic, silent computations that formulate our innermost thoughts?"
+        "What if artificial intelligence and your biological brain process reality in completely opposite ways? "
+        "While AI supercomputers consume vast amounts of electricity to simulate neural nodes, your biological brain achieves incredible feats of reasoning on just twenty watts of power. "
+        "In this session, we will examine how synaptic plasticity differs from machine backpropagation, unpack the true efficiency of biological memory, and practice contrast connectors to express complex differences. "
+        "Step into our laboratory of ideas, test your assumptions about digital mind power, and share your perspective on the future of AI!"
     ),
     "ai-and-the-brain-upper-intermediate.html": (
-        "Neurolinguists trace syntactic processing and neural pathways in Broca's area using fMRI scans during "
-        "sentence comprehension. How close are artificial neural networks to mimicking the biological syntax trees "
-        "of the human brain? As we build machine language models, we must ask: can digital algorithms truly replicate "
-        "the organic, silent computations that formulate our innermost thoughts?"
+        "What if artificial intelligence and your biological brain process reality in completely opposite ways? "
+        "While AI supercomputers consume vast amounts of electricity to simulate neural nodes, your biological brain achieves incredible feats of reasoning on just twenty watts of power. "
+        "In this session, we will examine how synaptic plasticity differs from machine backpropagation, unpack the true efficiency of biological memory, and practice contrast connectors to express complex differences. "
+        "Step into our laboratory of ideas, test your assumptions about digital mind power, and share your perspective on the future of AI!"
     ),
     "ai-reality-delusion.html": (
-        "Computational linguists study semantic drift and hallucination rates in neural language generators by mapping "
-        "high-dimensional vector spaces. When language models construct flawless syntactic structures that contain "
-        "absolute delusions, they expose a deep vulnerability in human cognitive parsing: our tendency to equate "
-        "syntactic fluency with objective truth. If a machine speaks beautifully, do we automatically believe it?"
+        "Can a computer algorithm speak with perfect grammatical fluency yet be completely out of touch with reality? "
+        "Large language models can generate eloquent paragraphs that sound convincing, yet contain absolute hallucinations and distorted beliefs. "
+        "In this session, we explore why human minds easily mistake syntactic fluency for objective truth, debate how AI shapes our perception of reality, and master evaluative vocabulary. "
+        "Join us to challenge your cognitive biases, analyze artificial logic, and engage in a thrilling debate on the boundaries of machine truth!"
     ),
     "animal-cooperation-language-intermediate.html": (
-        "Bio-linguists capture acoustic wave frequencies and formant structures on digital spectrographs to decode "
-        "alerting calls. Looking at wildlife, we find sophisticated communicative networks coordinating cooperative "
-        "hunting and defensive alarms. Do these systems possess primitive semantic syntax, or are we witnessing "
-        "the deep evolutionary precursors that eventually gave rise to human grammar?"
+        "Do animals possess secret dialects and hidden grammars that allow them to coordinate complex survival strategies? "
+        "From warning calls in bird flocks to synchronized hunting tactics in wolf packs, nature is full of sophisticated acoustic communication networks. "
+        "In this session, we delve into bio-linguistics, explore whether animal signals qualify as true language, and practice comparative structures. "
+        "Come discover the acoustic secrets of the animal kingdom, share your insights, and join our lively discussion on the roots of communication!"
     ),
     "animal-cooperation-language-upper-intermediate.html": (
-        "Bio-linguists capture acoustic wave frequencies and formant structures on digital spectrographs to decode "
-        "alerting calls. Looking at wildlife, we find sophisticated communicative networks coordinating cooperative "
-        "hunting and defensive alarms. Do these systems possess primitive semantic syntax, or are we witnessing "
-        "the deep evolutionary precursors that eventually gave rise to human grammar?"
+        "Do animals possess secret dialects and hidden grammars that allow them to coordinate complex survival strategies? "
+        "From warning calls in bird flocks to synchronized hunting tactics in wolf packs, nature is full of sophisticated acoustic communication networks. "
+        "In this session, we delve into bio-linguistics, explore whether animal signals qualify as true language, and practice comparative structures. "
+        "Come discover the acoustic secrets of the animal kingdom, share your insights, and join our lively discussion on the roots of communication!"
     ),
     "ape-laughter-speech-origin-elementary.html": (
-        "Evolutionary phoneticians study the mechanical limits of the larynx, air-pressure modulation, and vocal-tract "
-        "resonance in primates. Laughter, that raw acoustic burst, actually shares a shared evolutionary root with "
-        "the articulation of human vowels. By tracing primate laughter, language scientists are unearthing the precise "
-        "anatomical moment where physical reflex transformed into structured, intentional conversation."
+        "Did human conversation begin millions of years ago with a shared laugh among our primate ancestors? "
+        "Phonetic research suggests that the acoustic rhythms of ape tickle-laughter share deep evolutionary origins with human speech articulation. "
+        "In this session, we trace how physical play turned into intentional vocalization, learn essential vocabulary for discussing evolutionary science, and practice simple past storytelling. "
+        "Join our supportive circle to explore the origins of human laughter and voice your opinions with confidence!"
     ),
     "ape-laughter-speech-origin-intermediate.html": (
-        "Evolutionary phoneticians study the mechanical limits of the larynx, air-pressure modulation, and vocal-tract "
-        "resonance in primates. Laughter, that raw acoustic burst, actually shares a shared evolutionary root with "
-        "the articulation of human vowels. By tracing primate laughter, language scientists are unearthing the precise "
-        "anatomical moment where physical reflex transformed into structured, intentional conversation."
+        "Did human conversation begin millions of years ago with a shared laugh among our primate ancestors? "
+        "Phonetic research suggests that the acoustic rhythms of ape tickle-laughter share deep evolutionary origins with human speech articulation. "
+        "In this session, we trace how physical play turned into intentional vocalization, learn essential vocabulary for discussing evolutionary science, and practice simple past storytelling. "
+        "Join our supportive circle to explore the origins of human laughter and voice your opinions with confidence!"
     ),
     "brain-improving-in-90s-intermediate.html": (
-        "Psycholinguists study lexical retrieval speeds and semantic fluency in elderly polyglots to measure cognitive reserves. "
-        "Just as the brain restructures its synaptic pathways to acquire a new dialect late in life, neuroplasticity keeps "
-        "our mental maps resilient even into our nineties. Can keeping our language systems active and complex be the "
-        "ultimate scientific shield against cognitive decline?"
+        "Did you know that your brain has the remarkable ability to grow new neural pathways well into your nineties? "
+        "Scientific breakthroughs show that intellectual challenge, lifelong learning, and active language use keep hippocampal volume resilient throughout old age. "
+        "In this session, we examine neuroplasticity in senior polyglots, discuss strategies for cognitive longevity, and practice cause-and-effect connectors. "
+        "Come share your personal learning habits, debate longevity theories, and energize your mind in a stimulating group dialogue!"
     ),
     "brain-improving-in-90s-upper-intermediate.html": (
-        "Psycholinguists study lexical retrieval speeds and semantic fluency in elderly polyglots to measure cognitive reserves. "
-        "Just as the brain restructures its synaptic pathways to acquire a new dialect late in life, neuroplasticity keeps "
-        "our mental maps resilient even into our nineties. Can keeping our language systems active and complex be the "
-        "ultimate scientific shield against cognitive decline?"
+        "Did you know that your brain has the remarkable ability to grow new neural pathways well into your nineties? "
+        "Scientific breakthroughs show that intellectual challenge, lifelong learning, and active language use keep hippocampal volume resilient throughout old age. "
+        "In this session, we examine neuroplasticity in senior polyglots, discuss strategies for cognitive longevity, and practice cause-and-effect connectors. "
+        "Come share your personal learning habits, debate longevity theories, and energize your mind in a stimulating group dialogue!"
     ),
     "childhood-obesity-theory-elementary.html": (
-        "Applied linguists analyze semantic framing and behavior-shaping metaphors used in public health advertising and parental discourse. "
-        "The words we use to describe wellness and nutrition construct a child’s mental model of their own body. If our cultural "
-        "vocabulary is saturated with consumerist framing, how can we rewire the neural associations that govern childhood habits?"
+        "Why are modern children facing unprecedented health challenges despite our growing awareness of nutrition? "
+        "Recent metabolic studies challenge the old belief that lack of exercise is the main culprit, pointing instead to nutritional abundance and cultural metaphors around food. "
+        "In this session, we examine how public health discourse shapes habits, practice vocabulary related to lifestyle and health, and build clear opinion statements. "
+        "Bring your unique thoughts, explore fresh scientific angles, and participate in a welcoming community conversation!"
     ),
     "childhood-obesity-theory-intermediate.html": (
-        "Applied linguists analyze semantic framing and behavior-shaping metaphors used in public health advertising and parental discourse. "
-        "The words we use to describe wellness and nutrition construct a child’s mental model of their own body. If our cultural "
-        "vocabulary is saturated with consumerist framing, how can we rewire the neural associations that govern childhood habits?"
+        "Why are modern children facing unprecedented health challenges despite our growing awareness of nutrition? "
+        "Recent metabolic studies challenge the old belief that lack of exercise is the main culprit, pointing instead to nutritional abundance and cultural metaphors around food. "
+        "In this session, we examine how public health discourse shapes habits, practice vocabulary related to lifestyle and health, and build clear opinion statements. "
+        "Bring your unique thoughts, explore fresh scientific angles, and participate in a welcoming community conversation!"
     ),
     "climate-scientist-warming-report-intermediate.html": (
-        "Sociolinguists trace lexical dispersion, semantic bleaching, and rhetorical persuasion strategies within policy documents and scientific debates. "
-        "Translating raw, terrifying thermodynamic data into a persuasive narrative that drives policy is fundamentally a problem of "
-        "cognitive framing. If science speaks only in sterile statistics, does the human mind fail to register the urgency of a warming planet?"
+        "How do scientists turn overwhelming climate data into compelling narratives that inspire real political change? "
+        "When raw thermodynamic data is communicated in sterile statistics, society often fails to grasp the urgency of global warming. "
+        "In this session, we analyze the power of linguistic framing, explore how public policy reports are crafted, and practice persuasive language techniques. "
+        "Step up to voice your perspective on environmental policy, sharpen your debate skills, and contribute to an important global dialogue!"
     ),
     "climate-scientist-warming-report-upper-intermediate.html": (
-        "Sociolinguists trace lexical dispersion, semantic bleaching, and rhetorical persuasion strategies within policy documents and scientific debates. "
-        "Translating raw, terrifying thermodynamic data into a persuasive narrative that drives policy is fundamentally a problem of "
-        "cognitive framing. If science speaks only in sterile statistics, does the human mind fail to register the urgency of a warming planet?"
+        "How do scientists turn overwhelming climate data into compelling narratives that inspire real political change? "
+        "When raw thermodynamic data is communicated in sterile statistics, society often fails to grasp the urgency of global warming. "
+        "In this session, we analyze the power of linguistic framing, explore how public policy reports are crafted, and practice persuasive language techniques. "
+        "Step up to voice your perspective on environmental policy, sharpen your debate skills, and contribute to an important global dialogue!"
     ),
     "football-beats-shamrock-intermediate.html": (
-        "Psycholinguists use eye-tracking and lexical decision tasks to measure how phonetic associations and wordplay affect reaction times. "
-        "The fascinating cognitive overlap between physical motor coordination and rapid verbal associations reveals that our brain "
-        "maps physical games and language puzzles on the very same neural substrates. Does mastering a sport actually sharpen our linguistic agility?"
+        "Why does your brain recall words like 'football' faster than abstract words like 'shamrock'? "
+        "Cognitive psychology reveals that concrete motor concepts activate rich neural networks, making sensorimotor words dramatically easier to retrieve under pressure. "
+        "In this session, we test our own verbal reaction times, explore the overlap between physical agility and mental fluency, and practice dynamic vocabulary idioms. "
+        "Join us for an energetic session filled with mental games, lively debates, and practical fluency practice!"
     ),
     "football-beats-shamrock-upper-intermediate.html": (
-        "Psycholinguists use eye-tracking and lexical decision tasks to measure how phonetic associations and wordplay affect reaction times. "
-        "The fascinating cognitive overlap between physical motor coordination and rapid verbal associations reveals that our brain "
-        "maps physical games and language puzzles on the very same neural substrates. Does mastering a sport actually sharpen our linguistic agility?"
+        "Why does your brain recall words like 'football' faster than abstract words like 'shamrock'? "
+        "Cognitive psychology reveals that concrete motor concepts activate rich neural networks, making sensorimotor words dramatically easier to retrieve under pressure. "
+        "In this session, we test our own verbal reaction times, explore the overlap between physical agility and mental fluency, and practice dynamic vocabulary idioms. "
+        "Join us for an energetic session filled with mental games, lively debates, and practical fluency practice!"
     ),
     "fusion-energy.html": (
-        "Science communication researchers study the conceptual metaphors and homologies used to translate complex quantum states into comprehensible language. "
-        "Conceptualizing nuclear fusion—recreating a star in a laboratory—forces us to stretch our vocabulary to its absolute limits. "
-        "How do language scientists design new terms to describe phenomena that defy our everyday physical experiences?"
+        "Imagine unleashing the power of a star inside a laboratory—could nuclear fusion solve humanity's clean energy needs forever? "
+        "Recreating solar reactions on Earth requires pushing scientific innovation and language to its absolute limit as scientists describe states of matter that defy imagination. "
+        "In this session, we explore cutting-edge Tokamak technology, debate the economic future of clean energy, and practice hypothetical conditionals. "
+        "Come share your vision of the future, debate big technological questions, and power up your English skills!"
     ),
     "grandmother-evolutionary-mystery.html": (
-        "Anthropological linguists trace the maternal transmission of rare oral histories and phonetic variations across multigenerational kinship groups. "
-        "The post-reproductive longevity of human grandmothers represents a unique evolutionary mystery. Beyond biological support, "
-        "could grandmotherhood have been the crucial social crucible that allowed the complex transmission of human language to survive across millennia?"
+        "Why do human females live decades past their reproductive years, unlike almost every other mammal on Earth? "
+        "The 'Grandmother Hypothesis' suggests that elder matriarchs were essential to human survival, passing down oral knowledge, language, and social stability. "
+        "In this session, we unravel this evolutionary mystery, discuss intergenerational wisdom, and practice narrative connectors. "
+        "Join us to celebrate family dynamics, debate human evolution, and engage in a heartwarming, thought-provoking exchange!"
     ),
     "grandparents-mental-health.html": (
-        "Discourse analysts study patterns of emotional prosody, pitch variation, and lexical alignment during intergenerational dialogue. "
-        "The acoustic warmth of a grandparent's voice serves as a neurological anchor for a child's developing emotional system. "
-        "How does the presence of elder speakers within a family network stabilize our mental health and enrich our linguistic variety?"
+        "Can a strong relationship with grandparents act as a neurological shield against adolescent stress and anxiety? "
+        "Studies in developmental psychology show that intergenerational bonds lower cortisol levels and provide emotional grounding in a fast-paced world. "
+        "In this session, we discuss the psychological power of family connection, examine pitch and tone in empathetic dialogue, and practice reflective vocabulary. "
+        "Bring your personal stories, explore psychological insights, and share a warm, meaningful conversation with fellow learners!"
     ),
     "gut-brain-memory-intermediate.html": (
-        "Neurolinguists study how systemic inflammation affects chemical neurotransmitters in Wernicke's area, disrupting active word-finding and verbal memory. "
-        "If our digestive microbiome directly regulates the neural plasticity required for memory retention, then our physical health "
-        "and our vocabulary retrieval are deeply intertwined. Can a healthy gut literally improve our linguistic precision?"
+        "Is your stomach secretly dictating what your brain remembers and forgets? "
+        "Neuroscientists have discovered that the gut microbiome communicates directly with brain memory centers via the vagus nerve, affecting daily mental clarity and recall. "
+        "In this session, we explore the gut-brain axis, discuss how lifestyle impacts cognitive sharpness, and practice health-related phrasal verbs. "
+        "Step in to discover how physical health shapes your mind, test your knowledge, and join our lively health and science discussion!"
     ),
     "hidden-regenerative-powers-intermediate.html": (
-        "Biolinguists compare cell-signaling pathways to the combinatorial rules of generative grammar, seeking structural patterns in organic self-repair. "
-        "Just as our biological tissue coordinates invisible cell networks to heal a wound, our linguistic system self-heals grammar "
-        "errors on the fly during speech. Does nature use the same foundational coding principles for both physical regeneration and human language?"
+        "Could human bodies possess hidden genetic codes for regenerating lost tissue and repairing organ damage? "
+        "Biologists are discovering latent cellular pathways in mammals that mirror the self-healing mechanisms seen in salamanders and starfish. "
+        "In this session, we examine micro-RNA breakthroughs, compare organic regeneration to language self-correction, and practice passive voice constructions. "
+        "Uncover the mysteries of medical biotechnology, voice your hopes for future health, and practice expressing complex ideas with ease!"
     ),
     "hidden-regenerative-powers-upper-intermediate.html": (
-        "Biolinguists compare cell-signaling pathways to the combinatorial rules of generative grammar, seeking structural patterns in organic self-repair. "
-        "Just as our biological tissue coordinates invisible cell networks to heal a wound, our linguistic system self-heals grammar "
-        "errors on the fly during speech. Does nature use the same foundational coding principles for both physical regeneration and human language?"
+        "Could human bodies possess hidden genetic codes for regenerating lost tissue and repairing organ damage? "
+        "Biologists are discovering latent cellular pathways in mammals that mirror the self-healing mechanisms seen in salamanders and starfish. "
+        "In this session, we examine micro-RNA breakthroughs, compare organic regeneration to language self-correction, and practice passive voice constructions. "
+        "Uncover the mysteries of medical biotechnology, voice your hopes for future health, and practice expressing complex ideas with ease!"
     ),
     "impersonation-accounts.html": (
-        "Forensic linguists use stylometry and lexical fingerprinting to detect identity fraud by analyzing punctuation rhythms and syntactical quirks. "
-        "In the digital age, a malicious actor can copy your profile picture, but they cannot easily replicate your idiosyncratic writing voice. "
-        "How does our unique linguistic signature protect us against online deception, and what happens when AI learns to copy our personal syntax?"
+        "In a digital world of AI avatars and fake profiles, how can you prove your identity is genuinely yours? "
+        "Forensic linguists use stylometry to analyze writing quirks, proving that while someone can copy your picture, your unique linguistic fingerprint is nearly impossible to fake. "
+        "In this session, we explore digital security, analyze stylistic writing patterns, and practice cautious modalities. "
+        "Join our cyber-detective table, test your awareness of online deception, and discuss how to protect your digital presence!"
     ),
     "inside-the-backrooms-elementary.html": (
-        "Cognitive linguists examine spatial prepositions and somatic metaphors used to navigate unfamiliar, repetitive physical landscapes. "
-        "The eerie, endless corridors of 'the backrooms' capture a deep psychological fear of liminal space. How does our language "
-        "system struggle to map and articulate environments that lack logical physical boundaries or semantic landmarks?"
+        "Why do endless, repetitive corridors and empty rooms trigger an intense psychological feeling of unease? "
+        "The viral sensation of 'liminal spaces' captures how our brains struggle when environments lack familiar semantic landmarks and social cues. "
+        "In this session, we explore environmental psychology, practice spatial prepositions, and describe mysterious atmospheres in simple English. "
+        "Step into the mystery, describe strange landscapes, and build your confidence in a fun, immersive speaking club!"
     ),
     "inside-the-backrooms-intermediate.html": (
-        "Cognitive linguists examine spatial prepositions and somatic metaphors used to navigate unfamiliar, repetitive physical landscapes. "
-        "The eerie, endless corridors of 'the backrooms' capture a deep psychological fear of liminal space. How does our language "
-        "system struggle to map and articulate environments that lack logical physical boundaries or semantic landmarks?"
+        "Why do endless, repetitive corridors and empty rooms trigger an intense psychological feeling of unease? "
+        "The viral sensation of 'liminal spaces' captures how our brains struggle when environments lack familiar semantic landmarks and social cues. "
+        "In this session, we explore environmental psychology, practice spatial prepositions, and describe mysterious atmospheres in simple English. "
+        "Step into the mystery, describe strange landscapes, and build your confidence in a fun, immersive speaking club!"
     ),
     "living-most-creative-time.html": (
-        "Corpus linguists track the explosive emergence of novel neologisms, internet slang, and linguistic hybrids in online creator networks. "
-        "With digital platforms democratizing artistic production, we are witnessing an unprecedented global explosion of creative output. "
-        "Does this constant communicative overflow represent a golden age of language evolution, or is digital abundance diluting the depth of human expression?"
+        "Are we living through the most creative golden age in human history, or is digital noise diluting true artistic depth? "
+        "Decentralized digital platforms allow millions of people to publish music, writing, and art daily, giving rise to unprecedented cultural expression. "
+        "In this session, we debate creator economy trends, explore new vocabulary for digital culture, and practice expressing nuanced agreement or disagreement. "
+        "Come share your favorite creative outlets, debate the impact of tech on art, and spark your imagination in our club!"
     ),
     "losing-spoken-words.html": (
-        "Sociolinguists measure lexical attrition and syntactic simplification in native populations due to the dominance of digital texting. "
-        "As keyboard layouts and autocomplete software streamline our daily interactions, rare and expressive words are slowly fading "
-        "from our active vocabulary. Are we voluntarily trimming our linguistic diversity in exchange for digital efficiency, and what "
-        "happens when we lose the words that define our culture?"
+        "Are autocomplete tools, emojis, and rapid texting causing hundreds of expressive words to vanish from our daily speech? "
+        "Sociolinguists warn that daily vocabulary variety is contracting among mobile-native generations as digital shortcuts replace nuanced syntax. "
+        "In this session, we investigate lexical attrition, discover endangered words, and practice rich descriptive adjectives to expand our speech. "
+        "Reclaim your vocabulary power, debate digital communication trends, and enrich your spoken English with us!"
     ),
     "mendelian-laws-broken.html": (
-        "Biolinguists analyze genetic sequencing as a linear, recursive code, mapping DNA strands to phonological and morphological hierarchies. "
-        "Just as modern genetics has discovered exceptions that bypass 'unbreakable' Mendelian inheritance, language scientists "
-        "find dialects that challenge universal grammar rules. Are both biology and human language far more dynamic, rebellious, and non-linear "
-        "than our neat scientific models assume?"
+        "What happens when nature breaks its own fundamental laws of inheritance? "
+        "Recent genetics trials reveal 'gene drives' that systematically override classical Mendelian inheritance, mirroring how living dialects rebel against rigid grammar rules. "
+        "In this session, we draw parallels between genetic codes and human language systems, debate genetic engineering ethics, and practice complex conditionals. "
+        "Challenge your understanding of biology, debate bold scientific frontiers, and refine your argumentation skills!"
     ),
     "museums-movies-theater-stay-younger-elementary.html": (
-        "Psycholinguists analyze cognitive vitality and lexical access rates in older adults participating in theater and art-based discussion groups. "
-        "Engaging with rich cultural narratives at museums or theaters stimulates complex semantic networks in the aging brain. "
-        "Can immersing ourselves in artistic dialogue act as a powerful neurological therapy, keeping our vocabulary agile and our minds young?"
+        "Can visiting art museums, watching plays, and engaging in cultural discussions literally keep your brain young? "
+        "Epidemiological research reveals that active engagement with fine arts lowers stress hormones, stimulates memory networks, and boosts physical longevity. "
+        "In this session, we talk about our favorite cultural experiences, practice art and entertainment vocabulary, and share simple opinions. "
+        "Join our warm cultural lounge, share what inspires you, and enjoy a cheerful, life-affirming English discussion!"
     ),
     "museums-movies-theater-stay-younger-intermediate.html": (
-        "Psycholinguists analyze cognitive vitality and lexical access rates in older adults participating in theater and art-based discussion groups. "
-        "Engaging with rich cultural narratives at museums or theaters stimulates complex semantic networks in the aging brain. "
-        "Can immersing ourselves in artistic dialogue act as a powerful neurological therapy, keeping our vocabulary agile and our minds young?"
+        "Can visiting art museums, watching plays, and engaging in cultural discussions literally keep your brain young? "
+        "Epidemiological research reveals that active engagement with fine arts lowers stress hormones, stimulates memory networks, and boosts physical longevity. "
+        "In this session, we talk about our favorite cultural experiences, practice art and entertainment vocabulary, and share simple opinions. "
+        "Join our warm cultural lounge, share what inspires you, and enjoy a cheerful, life-affirming English discussion!"
     ),
     "museums-movies-theater-stay-younger-upper-intermediate.html": (
-        "Psycholinguists analyze cognitive vitality and lexical access rates in older adults participating in theater and art-based discussion groups. "
-        "Engaging with rich cultural narratives at museums or theaters stimulates complex semantic networks in the aging brain. "
-        "Can immersing ourselves in artistic dialogue act as a powerful neurological therapy, keeping our vocabulary agile and our minds young?"
+        "Can visiting art museums, watching plays, and engaging in cultural discussions literally keep your brain young? "
+        "Epidemiological research reveals that active engagement with fine arts lowers stress hormones, stimulates memory networks, and boosts physical longevity. "
+        "In this session, we talk about our favorite cultural experiences, practice art and entertainment vocabulary, and share simple opinions. "
+        "Join our warm cultural lounge, share what inspires you, and enjoy a cheerful, life-affirming English discussion!"
     ),
     "ozempic-obesity-revolution-intermediate.html": (
-        "Cognitive semanticists trace the changing metaphors of 'willpower' and 'metabolism' within clinical logs and public media framing. "
-        "The pharmacological revolution in weight management rewires physical satiety signals in the brain. How does transforming "
-        "a chronic condition from a moral battle of 'will' into a chemical equation alter our cultural vocabulary and our psychological narratives of self-control?"
+        "How is a new generation of metabolic medications reshaping how society views willpower, health, and self-control? "
+        "The GLP-1 pharmaceutical revolution rewires brain hunger signals, shifting weight management from a personal moral battle into a biological equation. "
+        "In this session, we analyze changing public narratives, debate medical ethics, and practice discourse markers for sensitive topics. "
+        "Engage in a respectful, balanced debate, explore modern medical shifts, and articulate your thoughts with clarity!"
     ),
     "ozempic-obesity-revolution-upper-intermediate.html": (
-        "Cognitive semanticists trace the changing metaphors of 'willpower' and 'metabolism' within clinical logs and public media framing. "
-        "The pharmacological revolution in weight management rewires physical satiety signals in the brain. How does transforming "
-        "a chronic condition from a moral battle of 'will' into a chemical equation alter our cultural vocabulary and our psychological narratives of self-control?"
+        "How is a new generation of metabolic medications reshaping how society views willpower, health, and self-control? "
+        "The GLP-1 pharmaceutical revolution rewires brain hunger signals, shifting weight management from a personal moral battle into a biological equation. "
+        "In this session, we analyze changing public narratives, debate medical ethics, and practice discourse markers for sensitive topics. "
+        "Engage in a respectful, balanced debate, explore modern medical shifts, and articulate your thoughts with clarity!"
     ),
     "recycling-distraction-test-intermediate.html": (
-        "Applied linguists analyze the framing effects of corporate 'greenwashing' slogans to understand how they soothe environmental guilt. "
-        "Does focusing our active vocabulary on minor habits like recycling distract us from the necessary systemic climate conversations? "
-        "By analyzing public discourse, language scientists reveal how strategic verbal framing can either catalyze political action or "
-        "lull an entire society into complacency."
+        "Is individual household recycling genuinely saving the planet, or is it distracting us from major industrial changes? "
+        "Environmental policy researchers examine how micro-behavioral green habits can sometimes create a false sense of accomplishment while macro-regulations lag behind. "
+        "In this session, we evaluate environmental slogans, debate sustainability strategies, and practice balanced argumentation structures. "
+        "Bring your ecological perspectives, challenge greenwashing clichés, and join a passionate environmental debate!"
     ),
     "right-handedness.html": (
-        "Neurolinguists investigate hemispheric lateralization, mapping how the brain's physical handedness connects to the left-hemisphere localization of speech. "
-        "The persistent 9:1 ratio of right-to-left handedness across human history is deeply linked to the evolutionary emergence of "
-        "our brain's language center. Does our physical motor dominance hold the secret key to how and why human speech first lateralized?"
+        "Why are 90% of humans worldwide right-handed, and how does this physical trait link to speech development in the brain? "
+        "Neurological mapping shows that motor control dominance in the right hand directly mirrors left-hemisphere localization for spoken language. "
+        "In this session, we explore human brain lateralization, test simple motor-speech coordination tasks, and practice precision vocabulary. "
+        "Uncover fascinating brain facts, share your left vs right-handed experiences, and enjoy an engaging mind session!"
     ),
     "sensory-system-pain-disease-intermediate.html": (
-        "Clinical linguists compile and classify qualitative pain scales, studying how patients construct sensory metaphors to articulate abstract physical suffering. "
-        "Pain is an intensely isolated neurological event that defies simple explanation. How do our language centers struggle "
-        "to translate raw sensory nociception into precise vocabulary, and can the metaphors we choose actually alter how our brain processes physical pain?"
+        "Why is physical pain so difficult to articulate in words, and how do sensory metaphors shape our perception of suffering? "
+        "Clinical neurologists study how glial cell inflammatory responses trigger pain loops, while linguists examine how patients construct sensory metaphors to describe illness. "
+        "In this session, we examine qualitative medical scales, practice empathetic expressions, and discuss sensory vocabulary. "
+        "Explore the deep connection between language and physical sensation, practice empathetic communication, and share your perspective!"
     ),
     "sensory-system-pain-disease-upper-intermediate.html": (
-        "Clinical linguists compile and classify qualitative pain scales, studying how patients construct sensory metaphors to articulate abstract physical suffering. "
-        "Pain is an intensely isolated neurological event that defies simple explanation. How do our language centers struggle "
-        "to translate raw sensory nociception into precise vocabulary, and can the metaphors we choose actually alter how our brain processes physical pain?"
+        "Why is physical pain so difficult to articulate in words, and how do sensory metaphors shape our perception of suffering? "
+        "Clinical neurologists study how glial cell inflammatory responses trigger pain loops, while linguists examine how patients construct sensory metaphors to describe illness. "
+        "In this session, we examine qualitative medical scales, practice empathetic expressions, and discuss sensory vocabulary. "
+        "Explore the deep connection between language and physical sensation, practice empathetic communication, and share your perspective!"
     ),
     "social-decisions-brain.html": (
-        "Neurolinguists map micro-second differences in brain activity to see how social judgments form before the conscious mind can articulate them. "
-        "If our brains formulate social judgments and decisions long before we consciously select the words to express them, is our "
-        "post-hoc language merely a creative narrator? Does this biological delay challenge our fundamental definitions of free will and honest conversation?"
+        "Does your brain make social decisions seconds before you consciously decide what words to say? "
+        "Neuroeconomics demonstrates that subcortical emotional centers process fairness and trust long before our conscious mind constructs a logical explanation. "
+        "In this session, we examine subcortical valuation pathways, debate human free will vs instinct, and practice rapid reasoning phrases. "
+        "Test your decision-making instincts, debate human psychology, and practice spontaneous speaking in a supportive group!"
     ),
     "spider-creatures-origins-of-fatherhood-intermediate.html": (
-        "Comparative semioticians study tactile signaling and vibrational vibrations used by arachnids during courtship and territory defense. "
-        "By examining the prehistoric environmental pressures that first drove male spiders toward protective paternal care, we trace the deep "
-        "evolutionary roots of family bonding. How does the emergence of parenting behaviors correlate with the development of social communication?"
+        "What can prehistoric spider-like creatures teach us about the evolutionary origins of fatherhood and parental care? "
+        "Ethological discoveries show that male egg-brooding harvestmen evolved protective nesting habits millions of years ago to ensure colony survival. "
+        "In this session, we explore animal behavior evolution, practice storytelling tenses, and discuss family roles in nature. "
+        "Delve into fascinating animal ethology, share your thoughts on nature's surprises, and grow your vocabulary with us!"
     ),
     "spider-creatures-origins-of-fatherhood-upper-intermediate.html": (
-        "Comparative semioticians study tactile signaling and vibrational vibrations used by arachnids during courtship and territory defense. "
-        "By examining the prehistoric environmental pressures that first drove male spiders toward protective paternal care, we trace the deep "
-        "evolutionary roots of family bonding. How does the emergence of parenting behaviors correlate with the development of social communication?"
+        "What can prehistoric spider-like creatures teach us about the evolutionary origins of fatherhood and parental care? "
+        "Ethological discoveries show that male egg-brooding harvestmen evolved protective nesting habits millions of years ago to ensure colony survival. "
+        "In this session, we explore animal behavior evolution, practice storytelling tenses, and discuss family roles in nature. "
+        "Delve into fascinating animal ethology, share your thoughts on nature's surprises, and grow your vocabulary with us!"
     ),
     "tv-midlife-shrink-brain-intermediate.html": (
-        "Phoneticians and psycholinguists measure the impact of passive, low-engagement media consumption on semantic variety and speech complexity in midlife. "
-        "Passive television watching has been linked to a physical reduction in brain volume during midlife. If our cognitive health depends "
-        "on active verbal and physical engagement, how does the loss of rich, bidirectional conversation accelerate the mental aging process?"
-    ),
-    "vliyanie-propagandy-deti.html": (
-        "Дискурс-аналитики и психолингвисты исследуют методы семантического манипулирования, речевого кодирования и внушения в детских медиа. "
-        "Изучая когнитивную уязвимость развивающегося мозга, ученые-лингвисты показывают, как языковые конструкции и повторяющиеся "
-        "нарративы формируют ментальную модель реальности у детей. Как синтаксические структуры пропаганды обходят критические барьеры мышления "
-        "и можно ли выработать лингвистический иммунитет к манипуляциям?"
+        "Could passive television viewing in midlife physically reduce your brain's grey matter volume over time? "
+        "Cognitive epidemiology reveals a strong connection between low-engagement passive entertainment and accelerated cognitive aging. "
+        "In this session, we contrast passive consumption with active conversation, discuss brain-friendly daily routines, and practice advice structures. "
+        "Share your daily media habits, debate digital screen balance, and keep your mind active in a lively group discussion!"
     ),
     "where-you-live-shapes-dementia-risk-elementary.html": (
-        "Sociolinguists study how living in urban environments with low linguistic diversity and high noise pollution impacts dialect survival and cognitive processing. "
-        "Our geographic surroundings do more than shape our physical bodies—they actively restructure our neural wiring. If urban design "
-        "directly influences our neurological risk for dementia, can access to green spaces and peaceful environments preserve our linguistic agility?"
+        "Can the physical neighborhood you live in directly influence your brain health and dementia risk as you age? "
+        "Spatial epidemiology reveals that urban noise, lack of green spaces, and high stress environments contribute to long-term cognitive strain. "
+        "In this session, we talk about town vs country living, practice descriptive vocabulary for city environments, and express personal choices. "
+        "Describe your dream living environment, explore environmental health facts, and practice English with friendly peers!"
     ),
     "where-you-live-shapes-dementia-risk-intermediate.html": (
-        "Sociolinguists study how living in urban environments with low linguistic diversity and high noise pollution impacts dialect survival and cognitive processing. "
-        "Our geographic surroundings do more than shape our physical bodies—they actively restructure our neural wiring. If urban design "
-        "directly influences our neurological risk for dementia, can access to green spaces and peaceful environments preserve our linguistic agility?"
+        "Can the physical neighborhood you live in directly influence your brain health and dementia risk as you age? "
+        "Spatial epidemiology reveals that urban noise, lack of green spaces, and high stress environments contribute to long-term cognitive strain. "
+        "In this session, we talk about town vs country living, practice descriptive vocabulary for city environments, and express personal choices. "
+        "Describe your dream living environment, explore environmental health facts, and practice English with friendly peers!"
     ),
     "where-you-live-shapes-dementia-risk-upper-intermediate.html": (
-        "Sociolinguists study how living in urban environments with low linguistic diversity and high noise pollution impacts dialect survival and cognitive processing. "
-        "Our geographic surroundings do more than shape our physical bodies—they actively restructure our neural wiring. If urban design "
-        "directly influences our neurological risk for dementia, can access to green spaces and peaceful environments preserve our linguistic agility?"
+        "Can the physical neighborhood you live in directly influence your brain health and dementia risk as you age? "
+        "Spatial epidemiology reveals that urban noise, lack of green spaces, and high stress environments contribute to long-term cognitive strain. "
+        "In this session, we talk about town vs country living, practice descriptive vocabulary for city environments, and express personal choices. "
+        "Describe your dream living environment, explore environmental health facts, and practice English with friendly peers!"
     ),
     "your-fingers-hold-secret-brain-evolution-intermediate.html": (
-        "Neurolinguists map the overlapping motor cortex regions responsible for both fine manual dexterity and the rapid articulatory gestures of speech. "
-        "The opposable thumb did not just allow us to craft primitive tools—it may have physically sculpted the neural pathways that "
-        "enabled human syntax. Could our complex manual coordination have been the direct evolutionary midwife for human language?"
+        "How did the fine motor dexterity of human fingers help build the neural architecture for complex human speech? "
+        "Neuro-mapping shows that the brain regions controlling opposable thumb movements are closely linked to language articulation centers in Broca's area. "
+        "In this session, we explore tool-making co-evolution, practice linking cause and effect, and discuss human evolutionary milestones. "
+        "Discover the secret links behind human dexterity, test your ideas, and sharpen your spoken English!"
     ),
     "your-fingers-hold-secret-brain-evolution-upper-intermediate.html": (
-        "Neurolinguists map the overlapping motor cortex regions responsible for both fine manual dexterity and the rapid articulatory gestures of speech. "
-        "The opposable thumb did not just allow us to craft primitive tools—it may have physically sculpted the neural pathways that "
-        "enabled human syntax. Could our complex manual coordination have been the direct evolutionary midwife for human language?"
+        "How did the fine motor dexterity of human fingers help build the neural architecture for complex human speech? "
+        "Neuro-mapping shows that the brain regions controlling opposable thumb movements are closely linked to language articulation centers in Broca's area. "
+        "In this session, we explore tool-making co-evolution, practice linking cause and effect, and discuss human evolutionary milestones. "
+        "Discover the secret links behind human dexterity, test your ideas, and sharpen your spoken English!"
     )
 }
 
 FRENCH_DESCRIPTIONS_MAP = {
     "impersonation-accounts.html": (
-        "Les linguistes légistes utilisent la stylométrie et l'analyse des empreintes lexicales pour détecter la fraude "
-        "à l'identité en analysant les rythmes de ponctuation et les bizarreries syntaxiques. À l'ère numérique, un acteur malveillant "
-        "peut copier votre photo de profil, mais il ne peut pas facilement reproduire votre voix écrite idiosyncrasique. "
-        "Comment notre signature linguistique unique nous protège-t-elle contre la tromperie en ligne, et que se passe-t-il lorsque "
-        "l'IA apprend à copier notre syntaxe personnelle ?"
+        "À l'ère des avatars IA et des faux profils numériques, comment prouver que votre voix écrite est authentique ? "
+        "Les linguistes légistes utilisent la stylométrie pour analyser les habitudes d'écriture, prouvant que la signature linguistique d'une personne reste unique. "
+        "Dans cette session, nous explorons la sécurité numérique, analysons les styles de rédaction et pratiquons le vocabulaire de la prudence. "
+        "Rejoignez notre table de détective numérique, découvrez les secrets de la stylométrie et partagez votre avis en français !"
     )
 }
 
-def rewrite_session_file(filepath, filename, desc):
+RUSSIAN_DESCRIPTIONS_MAP = {
+    "vliyanie-propagandy-deti.html": (
+        "Как повторяющиеся информационные нарративы и медиа воздействуют на формирующийся мозг ребёнка? "
+        "Психолингвистические исследования показывают, как языковые конструкции формируют ментальную картину мира и обходят критическое восприятие. "
+        "На этом занятии мы разберём механизмы семантического влияния, обсудим развитие критического мышления и отработаем дискуссионные фразы. "
+        "Присоединяйтесь к нашему клубу, чтобы вместе проанализировать важные аспекты медиаграмотности и высказать своё мнение!"
+    )
+}
+
+def update_file(filepath, desc, title):
+    if not os.path.exists(filepath):
+        print(f"⚠️ File not found: {filepath}")
+        return False
+
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Find the summary div tag
-    # Format: <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">...</div>
+    # Regex search for details block with class transcript-details
     pattern = re.compile(
-        r'<div style="margin-bottom: 2rem; line-height: 1\.6; color: var\(--ink-soft\); font-size: 0\.95rem;">.*?</div>',
+        r'<details\s+class="transcript-details"[^>]*>.*?</details>',
         re.DOTALL
     )
 
-    is_french = 'fr/sessions' in filepath.replace('\\', '/')
-    is_russian = 'ru/sessions' in filepath.replace('\\', '/')
-
-    summary_title = "🎙️ Audio Briefing Transcription / Science Digest"
-    if is_french:
-        summary_title = "🎙️ Transcription du Briefing Audio / Résumé Scientifique"
-    elif is_russian:
-        summary_title = "🎙️ Расшифровка аудиозаписи / Научный дайджест"
-
-    # Replace with beautiful details element
     replacement = f"""<details class="transcript-details" id="description" style="margin-bottom: 2rem; background: var(--cream); border: 1px solid var(--border); border-radius: 12px; padding: 1rem; box-sizing: border-box;">
 <summary style="font-weight: 700; cursor: pointer; color: var(--indigo); font-family: 'Playfair Display', serif; display: flex; align-items: center; justify-content: space-between; user-select: none;">
-  <span>{summary_title}</span>
+  <span>{title}</span>
   <span class="round-toggle">▼</span>
 </summary>
 <div style="margin-top: 1rem; line-height: 1.7; color: var(--ink); font-size: 0.95rem;">
@@ -294,49 +325,41 @@ def rewrite_session_file(filepath, filename, desc):
         new_content = pattern.sub(replacement, content, count=1)
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(new_content)
-        print(f"Successfully replaced description in {filepath}")
+        print(f"✅ Updated: {filepath}")
+        return True
     else:
-        # Fallback if the pattern doesn't match perfectly, parse with beautifulsoup to find the block
-        soup = BeautifulSoup(content, 'html.parser')
-        target_div = None
-        for div in soup.find_all('div'):
-            style = div.get('style', '')
-            if 'margin-bottom: 2rem;' in style and 'color: var(--ink-soft)' in style:
-                target_div = div
-                break
-
-        if target_div:
-            # Replace target_div with the replacement parsed html
-            rep_soup = BeautifulSoup(replacement, 'html.parser')
-            target_div.replace_with(rep_soup)
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write(str(soup))
-            print(f"Successfully replaced description via fallback bs4 in {filepath}")
-        else:
-            print(f"⚠️ Could not find description div in {filepath}!")
+        print(f"❌ Failed to locate transcript-details in: {filepath}")
+        return False
 
 def main():
-    # 1. English sessions
-    en_dir = "events/sessions/keeping-up-with-science"
+    en_base = "apps/premium-events/clubs/kus/sessions/keeping-up-with-science"
+    fr_base = "apps/premium-events/clubs/kus/fr/sessions/keeping-up-with-science"
+    ru_base = "apps/premium-events/clubs/kus/ru/sessions/keeping-up-with-science"
+
+    updated_count = 0
+
+    # 1. Update English files
+    title_en = "🎙️ Audio Briefing Transcription / Science Digest"
     for filename, desc in DESCRIPTIONS_MAP.items():
-        filepath = os.path.join(en_dir, filename)
-        if os.path.exists(filepath):
-            rewrite_session_file(filepath, filename, desc)
+        filepath = os.path.join(en_base, filename)
+        if update_file(filepath, desc, title_en):
+            updated_count += 1
 
-    # 2. French sessions
-    fr_dir = "events/fr/sessions/keeping-up-with-science"
+    # 2. Update French files
+    title_fr = "🎙️ Transcription du Briefing Audio / Résumé Scientifique"
     for filename, desc in FRENCH_DESCRIPTIONS_MAP.items():
-        filepath = os.path.join(fr_dir, filename)
-        if os.path.exists(filepath):
-            rewrite_session_file(filepath, filename, desc)
+        filepath = os.path.join(fr_base, filename)
+        if update_file(filepath, desc, title_fr):
+            updated_count += 1
 
-    # 3. Russian sessions
-    ru_dir = "events/ru/sessions/keeping-up-with-science"
-    filename = "vliyanie-propagandy-deti.html"
-    desc = DESCRIPTIONS_MAP[filename]
-    filepath = os.path.join(ru_dir, filename)
-    if os.path.exists(filepath):
-        rewrite_session_file(filepath, filename, desc)
+    # 3. Update Russian files
+    title_ru = "🎙️ Расшифровка аудиозаписи / Научный дайджест"
+    for filename, desc in RUSSIAN_DESCRIPTIONS_MAP.items():
+        filepath = os.path.join(ru_base, filename)
+        if update_file(filepath, desc, title_ru):
+            updated_count += 1
+
+    print(f"\n🎉 Successfully processed and updated {updated_count} files!")
 
 if __name__ == "__main__":
     main()
