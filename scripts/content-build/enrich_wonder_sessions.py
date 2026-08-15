@@ -287,7 +287,7 @@ WONDER_CONFIG_EN = {
                 "raw": '"It\'s just geographical probability in a small neighborhood."',
                 "comments": {
                     "polite": "✍️ Carrie's thought: 'How comforting to think that the giant grey sky has put on a lightning show just for your relationship drama.'",
-                    "raw": "✍️ Carrie's thought: 'Ouch. Cold, flat, and extremely sober. It cuts the drama, but doesn\'t it leave New York feeling a little too quiet?'"
+                    "raw": "✍️ Carrie's thought: 'Ouch. Cold, flat, and extremely sober. It cuts the drama, but doesn\'t it leave Rennes feeling a little too quiet?'"
                 }
             }
         ]

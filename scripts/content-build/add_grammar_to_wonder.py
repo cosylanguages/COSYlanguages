@@ -237,7 +237,7 @@ DATABASE_EN = {
             "Saying we don't have enough hours is <span class=\"grammar-gap\" data-answer=\"merely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> a convenient pretext to hide our lack of interest.",
             "Our decisions about what to do with our free time are guided <span class=\"grammar-gap\" data-answer=\"solely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> by our personal motivation.",
             "I am <span class=\"grammar-gap\" data-answer=\"simply\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> too exhausted to prioritize socializing after a grueling week at the office.",
-            "This issue is <span class=\"grammar-gap\" data-answer=\"particularly\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> relevant in fast-paced metropolitan cities like New York.",
+            "This issue is <span class=\"grammar-gap\" data-answer=\"particularly\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> relevant in fast-paced metropolitan cities like Rennes.",
             "That is <span class=\"grammar-gap\" data-answer=\"precisely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> why we must learn to set healthy boundaries and say no."
         ],
         "chips": ["merely", "precisely", "solely", "simply", "particularly", "merely", "precisely"],
