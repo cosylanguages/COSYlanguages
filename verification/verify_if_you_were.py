@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright
 def run_cuj(page):
     # Navigate to the main "If You Were" speaking club page
     print("Navigating to parent club page...")
-    page.goto("http://localhost:8080/apps/premium-events/nights/if-you-were/if-you-were.html")
+    page.goto("http://localhost:8080/apps/premium-events/clubs/if-you-were/if-you-were.html")
     page.wait_for_timeout(1000)
 
     # Take screenshot of parent page

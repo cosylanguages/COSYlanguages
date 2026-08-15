@@ -64,7 +64,7 @@ def main():
         'events/sessions/my-life-with-without',
         'events/sessions/debatable-relatable',
         'events/sessions/i-couldnt-help-but-wonder',
-        'apps/premium-events/nights/if-you-were/sessions/if-you-were'
+        'apps/premium-events/clubs/if-you-were/sessions/if-you-were'
     ]
 
     total_processed = 0

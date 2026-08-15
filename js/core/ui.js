@@ -3850,16 +3850,53 @@
             }
             sessionStorage.removeItem('cosy_wonder_music_time');
             sessionStorage.removeItem('cosy_wonder_music_playing');
+            sessionStorage.removeItem('cosy_bg_music_queue');
+            sessionStorage.removeItem('cosy_bg_music_index');
             return;
         }
 
         const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
-        const musicUrl = prefix + "sounds/music/I couldn't help but wonder_background.mp3";
+        const bgTracks = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+        const shuffleArray = (arr) => {
+            const shuffled = arr.slice();
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        };
+
+        const getPlaylistState = () => {
+            let queue;
+            try {
+                queue = JSON.parse(sessionStorage.getItem('cosy_bg_music_queue') || 'null');
+            } catch(e) {}
+            if (!Array.isArray(queue) || queue.length !== bgTracks.length) {
+                queue = shuffleArray(bgTracks);
+                sessionStorage.setItem('cosy_bg_music_queue', JSON.stringify(queue));
+            }
+            let index = parseInt(sessionStorage.getItem('cosy_bg_music_index') || '0', 10);
+            if (isNaN(index) || index < 0 || index >= queue.length) {
+                index = 0;
+                sessionStorage.setItem('cosy_bg_music_index', '0');
+            }
+            return { queue, index };
+        };
+
+        const savePlaylistState = (queue, index) => {
+            sessionStorage.setItem('cosy_bg_music_queue', JSON.stringify(queue));
+            sessionStorage.setItem('cosy_bg_music_index', index.toString());
+        };
+
+        let { queue, index } = getPlaylistState();
+        let currentTrackNum = queue[index] || 1;
+        let musicUrl = prefix + "sounds/music/background" + currentTrackNum + ".mp3";
 
         let audio = window.cosyWonderAudio;
         if (!audio) {
             audio = new Audio(musicUrl);
-            audio.loop = true;
+            audio.loop = false; // Handled by ended event to move to next track in queue
             audio.volume = 0.15; // Low volume, not very loud
             window.cosyWonderAudio = audio;
 
@@ -3868,6 +3905,27 @@
             if (savedTime) {
                 audio.currentTime = parseFloat(savedTime);
             }
+
+            // Handle song ending -> play next song in shuffle queue without repeating until all have played
+            audio.addEventListener('ended', () => {
+                let state = getPlaylistState();
+                let nextIndex = state.index + 1;
+                let nextQueue = state.queue;
+                if (nextIndex >= nextQueue.length) {
+                    nextQueue = shuffleArray(bgTracks);
+                    nextIndex = 0;
+                }
+                savePlaylistState(nextQueue, nextIndex);
+                const nextTrackNum = nextQueue[nextIndex];
+                const nextUrl = prefix + "sounds/music/background" + nextTrackNum + ".mp3";
+                audio.src = nextUrl;
+                audio.currentTime = 0;
+                sessionStorage.setItem('cosy_wonder_music_time', '0');
+                const isMuted = sessionStorage.getItem('cosy_wonder_music_playing') === 'false';
+                if (!isMuted) {
+                    audio.play().catch(e => console.log("Next track play failed:", e));
+                }
+            });
 
             // Keep updating sessionStorage with current time
             const saveTime = () => {
