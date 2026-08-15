@@ -2,7 +2,7 @@ from playwright.sync_api import sync_playwright
 
 def run_cuj(page):
     # Navigate to KUS session in private mode with bypass
-    page.goto("http://localhost:8080/events/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true")
+    page.goto("http://localhost:8080/apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ai-and-the-brain-intermediate.html?mode=private&shared=true")
     page.wait_for_timeout(1000)
 
     # Verify the science audio player exists and is visible
