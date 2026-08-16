@@ -23,7 +23,8 @@ DRAFT_MAPPING = {
     'does-inclusive-language-make-us-equal.html': '18',
     'is-marketing-making-sedentary-lifestyle-a-new-normality.html': '19',
     'avoiding-things-for-free.html': '20',
-    'is-it-possible-to-find-love-without-sex.html': '21'
+    'is-it-possible-to-find-love-without-sex.html': '21',
+    'youtube-shorts-app-trend.html': '22'
 }
 
 # Specialized grammar configurations per draft/topic
