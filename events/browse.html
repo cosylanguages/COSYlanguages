@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browse Sessions Directory 🎉 — COSYlanguages</title>
+  <link rel="icon" href="../images/logos/cosylanguages.png" />
+  <link rel="manifest" href="../apps/premium-events/manifest.json" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet" />
+
+  <!-- Site Stylesheets -->
+  <link rel="stylesheet" href="../css/tokens.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/events.css" />
+
+  <!-- Session Directory Component Stylesheet -->
+  <link rel="stylesheet" href="assets/css/session-directory.css" />
+
+  <style>
+    .browse-hero {
+      text-align: center;
+      padding: 3.5rem 1.5rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .browse-hero h1 {
+      font-family: var(--font-serif);
+      font-size: 2.5rem;
+      color: var(--ink);
+      margin-bottom: 0.8rem;
+    }
+    .browse-hero p {
+      font-size: 1.1rem;
+      color: var(--ink-muted);
+      line-height: 1.6;
+    }
+    .browse-badge {
+      display: inline-block;
+      background: var(--sage-mist);
+      color: var(--sage-dark);
+      border: 1px solid var(--border);
+      font-size: 0.8rem;
+      font-weight: 800;
+      padding: 0.35rem 0.9rem;
+      border-radius: 100px;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+  <!-- Dynamic Navigation Bar -->
+  <nav id="cosy-nav"></nav>
+
+  <!-- Hero Header -->
+  <header class="browse-hero">
+    <span class="browse-badge">✨ Live Events Archive</span>
+    <h1>Explore All Sessions</h1>
+    <p>Search, filter, and discover past study sheets, debate prompt lists, and speaking club materials across all formats and CEFR levels.</p>
+  </header>
+
+  <!-- Standalone Session Directory Mount Root -->
+  <main>
+    <div id="session-directory-root"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" />
+          <span class="fb-name">COSYlanguages</span>
+        </div>
+        <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
+      </div>
+
+      <div class="footer-links-col">
+        <h5>Courses</h5>
+        <a href="../apps/premium-courses/general/">General Course 📖</a>
+        <a href="../apps/premium-courses/spoken/">Spoken Course 🗣️</a>
+        <a href="../apps/premium-courses/exam/">Exam Preparation 📝</a>
+        <a href="../apps/premium-courses/travelling/">Travelling Course ✈️</a>
+        <a href="../apps/premium-courses/professional/">Professional Course 💼</a>
+        <a href="../apps/premium-courses/relocation/">Relocation Course 🏡</a>
+      </div>
+
+      <div class="footer-links-col">
+        <h5>Explore</h5>
+        <a href="../#languages">Languages 🌍</a>
+        <a href="../practice/index.html">Free Practice 💡</a>
+        <a href="index.html">Events 🎉</a>
+        <a href="../games/index.html">Games 🎮</a>
+      </div>
+
+      <div class="footer-links-col">
+        <h5>Project</h5>
+        <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+      </div>
+
+      <div class="footer-links-col">
+        <h5>Contact</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 COSYlanguages — All rights reserved</div>
+  </footer>
+
+  <!-- Core Scripts -->
+  <script src="../js/data/languages.js"></script>
+  <script src="../js/core/engine.js"></script>
+  <script src="../js/core/i18n.js"></script>
+  <script src="../js/core/ui.js"></script>
+  <script src="../js/data/pricing.js"></script>
+
+  <!-- Session Directory Component Script -->
+  <script src="assets/js/session-directory.js"></script>
+</body>
+</html>
