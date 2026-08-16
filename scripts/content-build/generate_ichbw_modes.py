@@ -21,11 +21,31 @@ DRAFT_MAPPING = {
     'i-have-no-time-for-it.html': '16',
     'why-do-i-spend-more-when-i-earn-more.html': '17',
     'does-inclusive-language-make-us-equal.html': '18',
-    'is-marketing-making-sedentary-lifestyle-a-new-normality.html': '19'
+    'is-marketing-making-sedentary-lifestyle-a-new-normality.html': '19',
+    'avoiding-things-for-free.html': '20',
+    'is-it-possible-to-find-love-without-sex.html': '21'
 }
 
 # Specialized grammar configurations per draft/topic
 GRAMMAR_DB = {
+    "21": {
+        "title_en": "⚡ Inversion with Negative Adverbials",
+        "title_fr": "⚡ Inversion avec adverbes négatifs",
+        "desc_en": "Use inversion after negative or restrictive adverbials (rarely, seldom, not only, under no circumstances, only when) to add dramatic emphasis.",
+        "desc_fr": "Utilisez l'inversion après des adverbes négatifs ou restrictifs pour ajouter une emphase dramatique.",
+        "chips_en": ["Rarely do movies", "does society validate", "should we equate", "can humans achieve", "do"],
+        "chips_fr": ["Rares sont les films qui", "la société valide-t-elle", "devrions-nous égaler", "les humains peuvent-ils", "font"],
+        "sents_en": [
+            ("<span class=\"grammar-gap\" data-answer=\"Rarely do movies\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> portray long-term love without sexual encounters.", "Rarely do movies"),
+            ("Seldom <span class=\"grammar-gap\" data-answer=\"does society validate\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> romance that is purely platonic.", "does society validate"),
+            ("Under no circumstances <span class=\"grammar-gap\" data-answer=\"should we equate\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> physical attraction with emotional devotion.", "should we equate")
+        ],
+        "sents_fr": [
+            ("<span class=\"grammar-gap\" data-answer=\"Rares sont les films qui\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> dépeignent l'amour à long terme sans rapports sexuels.", "Rares sont les films qui"),
+            ("Rarement <span class=\"grammar-gap\" data-answer=\"la société valide-t-elle\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> une romance purement platonique.", "la société valide-t-elle"),
+            ("En aucun cas <span class=\"grammar-gap\" data-answer=\"devrions-nous égaler\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> l'attraction physique et la dévotion émotionnelle.", "devrions-nous égaler")
+        ]
+    },
     "01": {
         "title_en": "Speculative Conditionals",
         "title_fr": "Conditionnels spéculatifs",
@@ -119,14 +139,20 @@ def parse_session_content(content):
     for m, p in zip(m_main, m_pers):
         q_pairs.append((m.strip(), p.strip()))
 
-    # If question pairs are missing or fewer than 50 (like sedentary lifestyle), construct fallback topic pairs
-    while len(q_pairs) < 50:
-        idx = len(q_pairs) + 1
-        w_word = unique_vocab[(idx - 1) % len(unique_vocab)]
-        q_pairs.append((
-            f"How does {title.lower()} impact our collective understanding of <strong>{w_word}</strong>?",
-            f"★ Have you ever felt a strong personal connection to {w_word} in your daily routine?"
-        ))
+    # If question pairs are missing or fewer than 50, cycle extracted pairs or construct clean fallback pairs
+    initial_q_pairs = list(q_pairs)
+    if initial_q_pairs:
+        while len(q_pairs) < 50:
+            q_pairs.append(initial_q_pairs[len(q_pairs) % len(initial_q_pairs)])
+    else:
+        clean_title = re.sub(r'\?$', '', title).strip()
+        while len(q_pairs) < 50:
+            idx = len(q_pairs) + 1
+            w_word = unique_vocab[(idx - 1) % len(unique_vocab)]
+            q_pairs.append((
+                f"How does exploring '{clean_title}' impact our understanding of <strong>{w_word}</strong>?",
+                f"★ Have you ever felt a strong personal connection to {w_word} in your daily routine?"
+            ))
 
     return title, prose, unique_vocab, q_pairs
 
@@ -539,7 +565,7 @@ def build_private_html(d_num, title, prose, vocab_words, q_pairs, is_french):
         </div>
 
         <div class="student-content-block" style="padding: 1.5rem 1rem;">
-            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; margin: 0 0 1rem 0; color: var(--ink);">🎯 90-Second Speech Run: The Language Policy Pitch</h4>
+            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; margin: 0 0 1rem 0; color: var(--ink);">🎯 90-Second Speech Run: {title}</h4>
             <p style="font-size: 1.05rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1.5rem; font-weight: 500;">
                 {reflection_p}
             </p>
@@ -553,7 +579,7 @@ def build_private_html(d_num, title, prose, vocab_words, q_pairs, is_french):
 
 def process_html_file(filepath):
     filename = os.path.basename(filepath)
-    d_num = DRAFT_MAPPING.get(filename, '01')
+    d_num = DRAFT_MAPPING.get(filename, 'default')
     is_french = "/fr/" in filepath.replace('\\', '/')
 
     print(f"⚡ Processing {filepath} (Draft {d_num}, French: {is_french})")
