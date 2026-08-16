@@ -131,7 +131,7 @@
       <a href="#browse" class="sd-jump-link">Directory</a>
       <a href="#join" class="sd-jump-link">Join</a>
     </nav>
-    <button id="sd-hamburger-btn" class="sd-hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+    <button id="sd-hamburger-btn" class="sd-hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="sd-drawer">
       ☰
     </button>
   </div>
@@ -185,7 +185,7 @@
         </p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem;">
 <div style="background: white; padding: 1rem; border-radius: 12px; border: 1px solid var(--border); display: flex; flex-direction: column;">
-<strong style="color: #BA7517; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">🌱 Beginner Friendly (A1–A2)</strong>
+<strong style="color: #8A5200; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">🌱 Beginner Friendly (A1–A2)</strong>
 <p style="margin: 0; font-size: 0.85rem; line-height: 1.4; color: var(--muted); flex-grow: 1;">Start with <strong>Let's Celebrate</strong> or <strong>The Greatest Quotes</strong>. Topics are tailored to everyday life, cultural rituals, and core vocabulary.</p>
 <a href="#browse" class="qs-level-link" data-level-group="A1-A2" style="display: inline-block; margin-top: 0.75rem; font-size: 0.82rem; font-weight: 700; color: var(--sage); text-decoration: none;">Show these sessions ➔</a>
 </div>
@@ -322,6 +322,21 @@
     <h2 class="sec-h2" style="margin-top: 0.5rem;">Master Session Directory</h2>
     <p class="sec-p" style="max-width: 680px; margin: 0 auto;">Explore every past session, study sheet, speaking prompt list, and original-language debate topic across all clubs. Filter below to search instantly.</p>
   </div>
+  <noscript>
+    <div class="sd-container">
+      <div class="sd-empty-state" style="border-style: solid; background: #fff8e7;">
+        <span class="sd-empty-icon">⚡</span>
+        <h3 class="sd-empty-title">JavaScript is required for interactive search</h3>
+        <p class="sd-empty-msg">Interactive dynamic searching and level filtering require JavaScript. You can still access all our complete session archives directly through our club hubs:</p>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin-top: 1rem;">
+          <a href="speaking-clubs.html" class="view-btn">🎙️ Speaking Clubs Hub</a>
+          <a href="cinema-club.html" class="view-btn">🍿 Cinema Club Hub</a>
+          <a href="../apps/premium-events/nights/karaoke/karaoke-club.html" class="view-btn" style="background:#4A154B;">🎶 Karaoke Club Hub</a>
+          <a href="game-evenings.html" class="view-btn" style="background:#1b263b;">🎮 Game Evenings Hub</a>
+        </div>
+      </div>
+    </div>
+  </noscript>
   <div id="session-directory-root"></div>
 </section>
 

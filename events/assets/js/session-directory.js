@@ -252,6 +252,9 @@
         if (hamburgerBtn) {
           hamburgerBtn.setAttribute('aria-expanded', 'true');
         }
+        if (drawerCloseBtn) {
+          drawerCloseBtn.focus();
+        }
       };
 
       const closeDrawer = () => {
@@ -265,6 +268,7 @@
         }
         if (hamburgerBtn) {
           hamburgerBtn.setAttribute('aria-expanded', 'false');
+          hamburgerBtn.focus();
         }
       };
 
