@@ -19,57 +19,128 @@
   <link rel="stylesheet" href="../css/layout.css" />
   <link rel="stylesheet" href="../css/events.css" />
 
-  <!-- Session Directory Component Stylesheet -->
+  <!-- Session Directory & Browse Component Stylesheet -->
   <link rel="stylesheet" href="assets/css/session-directory.css" />
-
-  <style>
-    .browse-hero {
-      text-align: center;
-      padding: 3.5rem 1.5rem 2rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .browse-hero h1 {
-      font-family: var(--font-serif);
-      font-size: 2.5rem;
-      color: var(--ink);
-      margin-bottom: 0.8rem;
-    }
-    .browse-hero p {
-      font-size: 1.1rem;
-      color: var(--ink-muted);
-      line-height: 1.6;
-    }
-    .browse-badge {
-      display: inline-block;
-      background: var(--sage-mist);
-      color: var(--sage-dark);
-      border: 1px solid var(--border);
-      font-size: 0.8rem;
-      font-weight: 800;
-      padding: 0.35rem 0.9rem;
-      border-radius: 100px;
-      margin-bottom: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-  </style>
 </head>
-<body>
-  <!-- Dynamic Navigation Bar -->
-  <nav id="cosy-nav"></nav>
+<body class="sd-browse-page">
+
+  <!-- Sticky Top Navigation Header -->
+  <header class="sd-sticky-header">
+    <div class="sd-header-inner">
+      <!-- Brand Logo -->
+      <a class="nav-logo" href="../index.html" aria-label="COSYlanguages Home">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" />
+        <span>COSYlanguages</span>
+      </a>
+
+      <!-- Breadcrumbs -->
+      <nav class="sd-breadcrumbs" aria-label="Breadcrumb">
+        <a href="../index.html">Home</a>
+        <span class="sep">/</span>
+        <a href="index.html">Events</a>
+      </nav>
+
+      <!-- Desktop Jump Links Row -->
+      <nav class="sd-jump-links" aria-label="Page navigation">
+        <a href="#quick-start" class="sd-jump-link">Quick-start</a>
+        <a href="#browse-section" class="sd-jump-link">Browse</a>
+        <a href="#join-section" class="sd-jump-link">Join</a>
+      </nav>
+
+      <!-- Mobile Hamburger Toggle Button (< 880px) -->
+      <button type="button" id="sd-hamburger-btn" class="sd-hamburger-btn" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Slide-In Navigation Drawer (< 880px) -->
+  <div id="sd-drawer-backdrop" class="sd-drawer-backdrop" aria-hidden="true"></div>
+  <aside id="sd-drawer" class="sd-drawer" aria-label="Mobile Navigation Menu" aria-hidden="true">
+    <div class="sd-drawer-header">
+      <span class="sd-drawer-title">Navigation</span>
+      <button type="button" id="sd-drawer-close" class="sd-drawer-close" aria-label="Close menu">✕</button>
+    </div>
+    <nav class="sd-drawer-nav">
+      <a href="#quick-start" class="sd-drawer-link">🧭 Quick-start</a>
+      <a href="#browse-section" class="sd-drawer-link">🔍 Browse Sessions</a>
+      <a href="#join-section" class="sd-drawer-link">💬 Join a Session</a>
+      <div class="sd-drawer-divider"></div>
+      <a href="../apps/premium-courses/general/" class="sd-drawer-link">📖 Courses</a>
+      <a href="../games/index.html" class="sd-drawer-link">🎮 Games</a>
+    </nav>
+  </aside>
 
   <!-- Hero Header -->
-  <header class="browse-hero">
+  <div class="browse-hero">
     <span class="browse-badge">✨ Live Events Archive</span>
     <h1>Explore All Sessions</h1>
     <p>Search, filter, and discover past study sheets, debate prompt lists, and speaking club materials across all formats and CEFR levels.</p>
-  </header>
+  </div>
 
-  <!-- Standalone Session Directory Mount Root -->
-  <main>
-    <div id="session-directory-root"></div>
+  <main class="page">
+    <!-- Section 1: Quick-Start Guide -->
+    <section id="quick-start" class="sd-section">
+      <div class="sd-onboarding-card">
+        <div class="sd-onboarding-header">
+          <span class="sd-onboarding-icon">🧭</span>
+          <div>
+            <h3>Speaking Club Quick-Start Guide</h3>
+            <p>New to our Speaking Clubs? Follow our level-calibrated roadmap to build confidence, expand vocabulary, and achieve conversational fluency with native teachers.</p>
+          </div>
+        </div>
+        <div class="sd-onboarding-grid">
+          <div class="sd-guide-step">
+            <span class="sd-step-tag beginner">🌱 Beginner (A1–A2)</span>
+            <h4>Build Foundation</h4>
+            <p>Listen to guided dialogues, practice key phrases, and gain conversational confidence in small, friendly groups.</p>
+          </div>
+          <div class="sd-guide-step">
+            <span class="sd-step-tag intermediate">🚀 Intermediate (B1–B2)</span>
+            <h4>Expand Fluency</h4>
+            <p>Engage in real-world discussions, express complex opinions, and refine natural sentence structures.</p>
+          </div>
+          <div class="sd-guide-step">
+            <span class="sd-step-tag advanced">🔥 Advanced (C1–C2)</span>
+            <h4>Master Nuance</h4>
+            <p>Debate abstract philosophical topics, master idioms, and articulate high-level persuasive arguments.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Browse Session Directory -->
+    <section id="browse-section" class="sd-section">
+      <div id="session-directory-root"></div>
+    </section>
+
+    <!-- Section 3: Join CTA Section -->
+    <section id="join-section" class="sd-section">
+      <div class="sd-join-cta-card">
+        <h2>Message us to join the next event</h2>
+        <p>Ready to jump in? Connect with us on your preferred platform and we'll help you find the right session for your target level.</p>
+        <div class="sd-join-btns">
+          <a class="btn-primary" href="https://wa.me/330766784195" target="_blank" rel="noopener">💬 WhatsApp</a>
+          <a class="btn-secondary" href="https://t.me/cosylanguagesproject" target="_blank" rel="noopener">✈️ Telegram</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" id="sd-back-to-top" class="sd-back-to-top" aria-label="Back to top">
+    ↑
+  </button>
+
+  <!-- Persistent Mobile Bottom Bar (< 560px) -->
+  <div id="sd-bottom-bar" class="sd-bottom-bar">
+    <a href="https://wa.me/330766784195" target="_blank" rel="noopener" class="sd-bottom-btn primary">
+      💬 Join a session
+    </a>
+    <a href="#browse-section" class="sd-bottom-btn secondary">
+      🔍 Browse
+    </a>
+  </div>
 
   <!-- Footer -->
   <footer>

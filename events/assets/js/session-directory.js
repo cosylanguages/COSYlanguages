@@ -34,6 +34,9 @@
       await this.loadData();
       this.renderUI();
       this.bindEvents();
+      this.bindHeaderAndDrawerEvents();
+      this.bindBackToTopEvents();
+      this.bindScrollspyEvents();
       this.applyFilters();
     }
 
@@ -204,6 +207,132 @@
           });
         });
       }
+    }
+
+    bindHeaderAndDrawerEvents() {
+      const hamburgerBtn = document.getElementById('sd-hamburger-btn');
+      const drawer = document.getElementById('sd-drawer');
+      const drawerBackdrop = document.getElementById('sd-drawer-backdrop');
+      const drawerCloseBtn = document.getElementById('sd-drawer-close');
+      const drawerLinks = document.querySelectorAll('.sd-drawer-link');
+
+      const openDrawer = () => {
+        if (drawer) {
+          drawer.classList.add('open');
+          drawer.setAttribute('aria-hidden', 'false');
+        }
+        if (drawerBackdrop) {
+          drawerBackdrop.classList.add('open');
+          drawerBackdrop.setAttribute('aria-hidden', 'false');
+        }
+        if (hamburgerBtn) {
+          hamburgerBtn.setAttribute('aria-expanded', 'true');
+        }
+      };
+
+      const closeDrawer = () => {
+        if (drawer) {
+          drawer.classList.remove('open');
+          drawer.setAttribute('aria-hidden', 'true');
+        }
+        if (drawerBackdrop) {
+          drawerBackdrop.classList.remove('open');
+          drawerBackdrop.setAttribute('aria-hidden', 'true');
+        }
+        if (hamburgerBtn) {
+          hamburgerBtn.setAttribute('aria-expanded', 'false');
+        }
+      };
+
+      if (hamburgerBtn) hamburgerBtn.addEventListener('click', openDrawer);
+      if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', closeDrawer);
+      if (drawerBackdrop) drawerBackdrop.addEventListener('click', closeDrawer);
+
+      drawerLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          const href = link.getAttribute('href');
+          if (href && href.startsWith('#')) {
+            e.preventDefault();
+            closeDrawer();
+            const targetEl = document.querySelector(href);
+            if (targetEl) {
+              targetEl.scrollIntoView({ behavior: 'smooth' });
+            }
+          } else {
+            closeDrawer();
+          }
+        });
+      });
+
+      // Close on Escape key press
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('open')) {
+          closeDrawer();
+        }
+      });
+    }
+
+    bindBackToTopEvents() {
+      const backToTopBtn = document.getElementById('sd-back-to-top');
+      if (!backToTopBtn) return;
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 500) {
+          backToTopBtn.classList.add('visible');
+        } else {
+          backToTopBtn.classList.remove('visible');
+        }
+      });
+
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    bindScrollspyEvents() {
+      const jumpLinks = document.querySelectorAll('.sd-jump-link');
+      const sections = [
+        document.getElementById('quick-start'),
+        document.getElementById('browse-section'),
+        document.getElementById('join-section')
+      ].filter(Boolean);
+
+      // Smooth scroll on jump link click
+      jumpLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          const href = link.getAttribute('href');
+          if (href && href.startsWith('#')) {
+            e.preventDefault();
+            const targetEl = document.querySelector(href);
+            if (targetEl) {
+              targetEl.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+        });
+      });
+
+      // Scrollspy highlight on scroll
+      window.addEventListener('scroll', () => {
+        let currentSectionId = '';
+        const scrollPosition = window.scrollY + 180;
+
+        sections.forEach(sec => {
+          const top = sec.offsetTop;
+          const height = sec.offsetHeight;
+          if (scrollPosition >= top && scrollPosition < top + height) {
+            currentSectionId = sec.id;
+          }
+        });
+
+        jumpLinks.forEach(link => {
+          const href = link.getAttribute('href');
+          if (href === '#' + currentSectionId) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      });
     }
 
     updatePillsUI() {
