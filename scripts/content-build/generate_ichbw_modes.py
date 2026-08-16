@@ -31,10 +31,13 @@ GRAMMAR_DB = {
     "21": {
         "title_en": "⚡ Inversion with Negative Adverbials",
         "title_fr": "⚡ Inversion avec adverbes négatifs",
+        "title_ru": "⚡ Вводные конструкции и эмоциональное усиление",
         "desc_en": "Use inversion after negative or restrictive adverbials (rarely, seldom, not only, under no circumstances, only when) to add dramatic emphasis.",
         "desc_fr": "Utilisez l'inversion après des adverbes négatifs ou restrictifs pour ajouter une emphase dramatique.",
+        "desc_ru": "Используйте вводные слова и инверсию для создания драматического акцента в разговоре.",
         "chips_en": ["Rarely do movies", "does society validate", "should we equate", "can humans achieve", "do"],
         "chips_fr": ["Rares sont les films qui", "la société valide-t-elle", "devrions-nous égaler", "les humains peuvent-ils", "font"],
+        "chips_ru": ["Редко фильмы", "признает общество", "должны мы уравнивать", "люди могут достичь", "ли"],
         "sents_en": [
             ("<span class=\"grammar-gap\" data-answer=\"Rarely do movies\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> portray long-term love without sexual encounters.", "Rarely do movies"),
             ("Seldom <span class=\"grammar-gap\" data-answer=\"does society validate\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> romance that is purely platonic.", "does society validate"),
@@ -44,6 +47,11 @@ GRAMMAR_DB = {
             ("<span class=\"grammar-gap\" data-answer=\"Rares sont les films qui\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> dépeignent l'amour à long terme sans rapports sexuels.", "Rares sont les films qui"),
             ("Rarement <span class=\"grammar-gap\" data-answer=\"la société valide-t-elle\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> une romance purement platonique.", "la société valide-t-elle"),
             ("En aucun cas <span class=\"grammar-gap\" data-answer=\"devrions-nous égaler\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> l'attraction physique et la dévotion émotionnelle.", "devrions-nous égaler")
+        ],
+        "sents_ru": [
+            ("<span class=\"grammar-gap\" data-answer=\"Редко фильмы\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> показывают любовь без романтического подтекста.", "Редко фильмы"),
+            ("Редко <span class=\"grammar-gap\" data-answer=\"признает общество\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> чистые платонические отношения.", "признает общество"),
+            ("Ни при каких обстоятельствах не <span class=\"grammar-gap\" data-answer=\"должны мы уравнивать\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> страсть и духовность.", "должны мы уравнивать")
         ]
     },
     "01": {
@@ -85,10 +93,13 @@ GRAMMAR_DB = {
     "default": {
         "title_en": "⚡ Grammatical Precision: Focus Adverbs",
         "title_fr": "⚡ Précision grammaticale : Marqueurs de discours",
+        "title_ru": "⚡ Грамматическая точность: Вводные слова и наречия",
         "desc_en": "Enhance your discourse precision using targeted adverbs and stance markers to qualify your philosophical claims.",
         "desc_fr": "Améliorez votre précision discursive avec des adverbes ciblés et des marqueurs de positionnement.",
+        "desc_ru": "Используйте точные вводные слова и наречия для выражения аргументов.",
         "chips_en": ["merely", "precisely", "particularly", "solely", "simply"],
         "chips_fr": ["seulement", "précisément", "particulièrement", "uniquement", "simplement"],
+        "chips_ru": ["лишь", "именно", "особенно", "исключительно", "просто"],
         "sents_en": [
             ("This reaction is <span class=\"grammar-gap\" data-answer=\"merely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> a surface observation; the reality is far deeper.", "merely"),
             ("That is <span class=\"grammar-gap\" data-answer=\"precisely\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> why modern culture struggles with this question.", "precisely"),
@@ -98,6 +109,11 @@ GRAMMAR_DB = {
             ("Cette réaction est <span class=\"grammar-gap\" data-answer=\"seulement\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> une observation superficielle.", "seulement"),
             ("C'est <span class=\"grammar-gap\" data-answer=\"précisément\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> pourquoi la société moderne hésite.", "précisément"),
             ("On ne peut pas juger ce phénomène <span class=\"grammar-gap\" data-answer=\"uniquement\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> sur les apparences.", "uniquement")
+        ],
+        "sents_ru": [
+            ("Эта реакция — <span class=\"grammar-gap\" data-answer=\"лишь\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> поверхностное наблюдение.", "лишь"),
+            ("Именно <span class=\"grammar-gap\" data-answer=\"именно\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> поэтому общество задается этим вопросом.", "именно"),
+            ("Не стоит судить об этом <span class=\"grammar-gap\" data-answer=\"исключительно\" onclick=\"COSY.placeGrammarChip(this)\">_____</span> по первым впечатлениям.", "исключительно")
         ]
     }
 }
@@ -214,7 +230,17 @@ def get_unit_titles(title, is_french):
         else:
             return ["Core Philosophical Premise", "Topic-Specific Exploration", "Contrasting Perspectives", "Social Responsibility & Practical Action", "Future Horizon & Speculations"]
 
-def build_mini_html(title, prose, vocab_words, q_pairs, is_french):
+def get_lang_code(filepath):
+    f = filepath.replace('\\', '/')
+    if "/fr/" in f:
+        return "fr"
+    elif "/ru/" in f:
+        return "ru"
+    return "en"
+
+def build_mini_html(title, prose, vocab_words, q_pairs, lang):
+    is_french = (lang == "fr")
+    is_russian = (lang == "ru")
     unit_titles = get_unit_titles(title, is_french)
 
     # Unit 1 Warmup questions (first 2 pairs)
@@ -245,13 +271,25 @@ def build_mini_html(title, prose, vocab_words, q_pairs, is_french):
         "Agissez. Réfléchissez aux conséquences pratiques, aux responsabilités sociales et aux solutions possibles.",
         "Spéculez sur l'avenir. Utilisez des structures avancées pour projeter ces réalités dans les décennies futures."
     ]
+    unit_descs_ru = [
+        "Сформулируйте свою позицию. Ответьте на основной вопрос, затем используйте личный вопрос со звездочкой для саморефлексии.",
+        "Исследуйте понятия. Обсудите эти аспекты подробно и поделитесь личным опытом.",
+        "Сравните точки зрения. Сопоставьте противоположные мнения и объясните свой выбор.",
+        "Действуйте. Поразмышляйте о практических последствиях, социальной ответственности и решениях.",
+        "Взгляд в будущее. Используйте сложные языковые конструкции для прогнозирования на десятилетия вперед."
+    ]
 
     colors = ["#E1F5EE", "#E1F5EE", "#E1F5EE", "#E1F5EE", "#EAF3DE"]
     borders = ["border-left: 5px solid #1A7A4A;", "border-left: 5px solid #2B6CB0;", "border-left: 5px solid #8B5CF6;", "border-left: 5px solid #D97706;", "border-left: 5px solid #10B981;"]
 
     for u_idx in range(2, 7):
         u_title = unit_titles[u_idx - 2]
-        u_desc = unit_descs_fr[u_idx - 2] if is_french else unit_descs_en[u_idx - 2]
+        if is_russian:
+            u_desc = unit_descs_ru[u_idx - 2]
+        elif is_french:
+            u_desc = unit_descs_fr[u_idx - 2]
+        else:
+            u_desc = unit_descs_en[u_idx - 2]
 
         # Extract 10 pairs for this unit
         start_pair = (u_idx - 2) * 10
@@ -283,13 +321,27 @@ def build_mini_html(title, prose, vocab_words, q_pairs, is_french):
     </div>
 """
 
-    host_tag = "Host Utility" if not is_french else "Utilitaire Hébergeur"
-    host_info = "Share this unlocked session with your students:" if not is_french else "Partagez cette session déverrouillée avec vos élèves :"
-    copy_btn = "🔗 Copy Student Link" if not is_french else "🔗 Copier le lien élève"
-    back_btn = "← Back to I Couldn't Help But Wonder" if not is_french else "← Retour à I Couldn't Help But Wonder"
-
-    vocab_check_title = "Active Vocabulary Check (10 Units)" if not is_french else "Contrôle du vocabulaire actif (10 mots)"
-    vocab_check_desc = "Work together as a small group to review these 10 core words. Pronounce them aloud." if not is_french else "Travaillez ensemble en petit groupe pour réviser ces 10 mots essentiels. Prononcez-les à haute voix."
+    if is_russian:
+        host_tag = "Инструмент ведущего"
+        host_info = "Поделитесь ссылкой на сессию со студентами:"
+        copy_btn = "🔗 Скопировать ссылку"
+        back_btn = "← Назад в I Couldn't Help But Wonder"
+        vocab_check_title = "Проверка активного словаря (10 слов)"
+        vocab_check_desc = "Обсудите эти 10 ключевых слов в малой группе. Произнесите их вслух."
+    elif is_french:
+        host_tag = "Utilitaire Hébergeur"
+        host_info = "Partagez cette session déverrouillée avec vos élèves :"
+        copy_btn = "🔗 Copier le lien élève"
+        back_btn = "← Retour à I Couldn't Help But Wonder"
+        vocab_check_title = "Contrôle du vocabulaire actif (10 mots)"
+        vocab_check_desc = "Travaillez ensemble en petit groupe pour réviser ces 10 mots essentiels. Prononcez-les à haute voix."
+    else:
+        host_tag = "Host Utility"
+        host_info = "Share this unlocked session with your students:"
+        copy_btn = "🔗 Copy Student Link"
+        back_btn = "← Back to I Couldn't Help But Wonder"
+        vocab_check_title = "Active Vocabulary Check (10 Units)"
+        vocab_check_desc = "Work together as a small group to review these 10 core words. Pronounce them aloud."
 
     html = f"""
 <div data-session-mode="mini">
@@ -339,25 +391,53 @@ def build_mini_html(title, prose, vocab_words, q_pairs, is_french):
 """
     return html
 
-def build_private_html(d_num, title, prose, vocab_words, q_pairs, is_french):
+def build_private_html(d_num, title, prose, vocab_words, q_pairs, lang):
     g_db = GRAMMAR_DB.get(d_num, GRAMMAR_DB["default"])
+    is_french = (lang == "fr")
+    is_russian = (lang == "ru")
 
-    # Localized labels
-    t_tag = "Teacher Utility" if not is_french else "Utilitaire Enseignant"
-    t_info = "Share this unlocked lesson with your student:" if not is_french else "Partagez ce cours particulier déverrouillé avec votre élève :"
-    copy_btn = "🔗 Copy Student Link" if not is_french else "🔗 Copier le lien élève"
-    back_btn = "← Back to I Couldn't Help But Wonder" if not is_french else "← Retour à I Couldn't Help But Wonder"
-
-    title_s1 = "🟠 Step 1: Lead-In / Warm-Up" if not is_french else "🟠 Étape 1 : Mise en route / Échauffement"
-    title_s2 = "🟠 Step 2: Vocabulary Integration" if not is_french else "🟠 Étape 2 : Intégration du vocabulaire"
-    title_s3 = "🟠 Step 3: Philosophical Stimulus" if not is_french else "🟠 Étape 3 : Étude de cas philosophique"
-    title_s4 = "🔵 Step 4: Guided Discussion Sequence" if not is_french else "🔵 Étape 4 : Séquence de discussion guidée"
-    title_s5 = "🟣 Step 5: Target Language Focus" if not is_french else "🟣 Étape 5 : Focus linguistique & Grammaire"
-    title_s6 = "🔵 Step 6: Critical & Speculative Discussion" if not is_french else "🔵 Étape 6 : Discussion critique & spéculative"
-    title_s7 = "🟢 Step 7: Personal Reflection" if not is_french else "🟢 Étape 7 : Réflexion personnelle"
-    title_s8 = "🟣 Step 8: Final Production / Challenge" if not is_french else "🟣 Étape 8 : Challenge d'expression orale"
-
-    tg_label = "TEACHER GUIDE" if not is_french else "GUIDE ENSEIGNANT"
+    if is_russian:
+        t_tag = "Инструмент преподавателя"
+        t_info = "Поделитесь этим уроком с вашим учеником:"
+        copy_btn = "🔗 Скопировать ссылку"
+        back_btn = "← Назад в I Couldn't Help But Wonder"
+        title_s1 = "🟠 Шаг 1: Разминка / Введение"
+        title_s2 = "🟠 Шаг 2: Словарный запас"
+        title_s3 = "🟠 Шаг 3: Философский контекст"
+        title_s4 = "🔵 Шаг 4: Направляемая дискуссия"
+        title_s5 = "🟣 Шаг 5: Языковой фокус и Грамматика"
+        title_s6 = "🔵 Шаг 6: Критическое обсуждение"
+        title_s7 = "🟢 Шаг 7: Личная рефлексия"
+        title_s8 = "🟣 Шаг 8: Итоговая устная речь"
+        tg_label = "МЕТОДИКА ПРЕПОДАВАТЕЛЯ"
+    elif is_french:
+        t_tag = "Utilitaire Enseignant"
+        t_info = "Partagez ce cours particulier déverrouillé avec votre élève :"
+        copy_btn = "🔗 Copier le lien élève"
+        back_btn = "← Retour à I Couldn't Help But Wonder"
+        title_s1 = "🟠 Étape 1 : Mise en route / Échauffement"
+        title_s2 = "🟠 Étape 2 : Intégration du vocabulaire"
+        title_s3 = "🟠 Étape 3 : Étude de cas philosophique"
+        title_s4 = "🔵 Étape 4 : Séquence de discussion guidée"
+        title_s5 = "🟣 Étape 5 : Focus linguistique & Grammaire"
+        title_s6 = "🔵 Étape 6 : Discussion critique & spéculative"
+        title_s7 = "🟢 Étape 7 : Réflexion personnelle"
+        title_s8 = "🟣 Étape 8 : Challenge d'expression orale"
+        tg_label = "GUIDE ENSEIGNANT"
+    else:
+        t_tag = "Teacher Utility"
+        t_info = "Share this unlocked lesson with your student:"
+        copy_btn = "🔗 Copy Student Link"
+        back_btn = "← Back to I Couldn't Help But Wonder"
+        title_s1 = "🟠 Step 1: Lead-In / Warm-Up"
+        title_s2 = "🟠 Step 2: Vocabulary Integration"
+        title_s3 = "🟠 Step 3: Philosophical Stimulus"
+        title_s4 = "🔵 Step 4: Guided Discussion Sequence"
+        title_s5 = "🟣 Step 5: Target Language Focus"
+        title_s6 = "🔵 Step 6: Critical & Speculative Discussion"
+        title_s7 = "🟢 Step 7: Personal Reflection"
+        title_s8 = "🟣 Step 8: Final Production / Challenge"
+        tg_label = "TEACHER GUIDE"
 
     # Step 1 Warmup prompts
     warmup_1 = clean_html_text(q_pairs[0][0])
@@ -382,10 +462,21 @@ def build_private_html(d_num, title, prose, vocab_words, q_pairs, is_french):
             </div>"""
 
     # Step 5 Grammar details
-    g_title = g_db["title_fr"] if is_french else g_db["title_en"]
-    g_desc = g_db["desc_fr"] if is_french else g_db["desc_en"]
-    g_chips = g_db["chips_fr"] if is_french else g_db["chips_en"]
-    g_sents = g_db["sents_fr"] if is_french else g_db["sents_en"]
+    if is_russian:
+        g_title = g_db.get("title_ru", GRAMMAR_DB["default"]["title_ru"])
+        g_desc = g_db.get("desc_ru", GRAMMAR_DB["default"]["desc_ru"])
+        g_chips = g_db.get("chips_ru", GRAMMAR_DB["default"]["chips_ru"])
+        g_sents = g_db.get("sents_ru", GRAMMAR_DB["default"]["sents_ru"])
+    elif is_french:
+        g_title = g_db["title_fr"]
+        g_desc = g_db["desc_fr"]
+        g_chips = g_db["chips_fr"]
+        g_sents = g_db["sents_fr"]
+    else:
+        g_title = g_db["title_en"]
+        g_desc = g_db["desc_en"]
+        g_chips = g_db["chips_en"]
+        g_sents = g_db["sents_en"]
 
     chips_html = ""
     for c in g_chips:
@@ -395,8 +486,15 @@ def build_private_html(d_num, title, prose, vocab_words, q_pairs, is_french):
     for sent, ans in g_sents:
         sents_html += f'<li style="margin-bottom: 0.75rem;">{sent}</li>\n'
 
-    check_btn = "Vérifier" if is_french else "Verify Answers"
-    reset_btn = "Réinitialiser" if is_french else "Reset"
+    if is_russian:
+        check_btn = "Проверить"
+        reset_btn = "Сбросить"
+    elif is_french:
+        check_btn = "Vérifier"
+        reset_btn = "Réinitialiser"
+    else:
+        check_btn = "Verify Answers"
+        reset_btn = "Reset"
 
     # Step 6 Critical Questions (from Unit 4 & 5 questions)
     step6_questions_html = ""
@@ -407,8 +505,12 @@ def build_private_html(d_num, title, prose, vocab_words, q_pairs, is_french):
                 <div class="round-item-personal" style="color: var(--brand); font-size: 0.95rem; font-style: italic;">{pers_q}</div>
             </div>"""
 
-    # Step 7 & 8 Speech run topic prompt
-    reflection_p = f"If you had to explain the main lesson of '{title}' to someone who has never reflected on this issue, what core mindset shift would you recommend?" if not is_french else f"Si vous deviez expliquer l'enseignement principal de '{title}' à quelqu'un qui ne s'est jamais posé la question, quel changement d'attitude recommanderiez-vous ?"
+    if is_russian:
+        reflection_p = f"Если бы вам нужно было объяснить главный вывод темы '{title}' человеку, который никогда не задумывался об этом, какую ключевую мысль вы бы посоветовали?"
+    elif is_french:
+        reflection_p = f"Si vous deviez expliquer l'enseignement principal de '{title}' à quelqu'un qui ne s'est jamais posé la question, quel changement d'attitude recommanderiez-vous ?"
+    else:
+        reflection_p = f"If you had to explain the main lesson of '{title}' to someone who has never reflected on this issue, what core mindset shift would you recommend?"
 
     html = f"""
 <div data-session-mode="private">
@@ -580,9 +682,9 @@ def build_private_html(d_num, title, prose, vocab_words, q_pairs, is_french):
 def process_html_file(filepath):
     filename = os.path.basename(filepath)
     d_num = DRAFT_MAPPING.get(filename, 'default')
-    is_french = "/fr/" in filepath.replace('\\', '/')
+    lang = get_lang_code(filepath)
 
-    print(f"⚡ Processing {filepath} (Draft {d_num}, French: {is_french})")
+    print(f"⚡ Processing {filepath} (Draft {d_num}, Lang: {lang})")
 
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -591,8 +693,8 @@ def process_html_file(filepath):
     title, prose, vocab_words, q_pairs = parse_session_content(content)
 
     # Build Mini and Private mode HTML blocks
-    mini_html = build_mini_html(title, prose, vocab_words, q_pairs, is_french)
-    private_html = build_private_html(d_num, title, prose, vocab_words, q_pairs, is_french)
+    mini_html = build_mini_html(title, prose, vocab_words, q_pairs, lang)
+    private_html = build_private_html(d_num, title, prose, vocab_words, q_pairs, lang)
 
     # Clean existing data-session-mode blocks if present
     if '<div data-session-mode="big">' in content:
@@ -654,7 +756,8 @@ def process_html_file(filepath):
 def main():
     dirs = [
         "apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder",
-        "apps/premium-events/clubs/wonder/fr/sessions/i-couldnt-help-but-wonder"
+        "apps/premium-events/clubs/wonder/fr/sessions/i-couldnt-help-but-wonder",
+        "apps/premium-events/clubs/wonder/ru/sessions/i-couldnt-help-but-wonder"
     ]
     for d in dirs:
         if not os.path.exists(d):

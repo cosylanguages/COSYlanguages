@@ -1,0 +1,821 @@
+<!-- DEVELOPER ALERT: Refer to templates/events/wonder-session-template.html (or corresponding active templates in events/sessions/) before creating new sessions in the future! -->
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>I Couldn't Help But Wonder 🌌 — COSYlanguages</title>
+<link href="../../../../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../../../../css/tokens.css" rel="stylesheet"/>
+<link href="../../../../../css/base.css" rel="stylesheet"/>
+<link href="../../../../../css/components.css" rel="stylesheet"/>
+<link href="../../../../../css/layout.css" rel="stylesheet"/>
+<link href="../../../../../css/events.css" rel="stylesheet"/>
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: linear-gradient(135deg, #3F2B96, #1F104D); color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+
+  /* Carrie's Laptop Widget Styles */
+  .carrie-laptop {
+    background: #110d26;
+    border: 4px solid #3F2B96;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 8px 32px rgba(63, 43, 150, 0.25);
+    color: #a9a6e2;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+  }
+  .laptop-header {
+    border-bottom: 1px solid #3F2B96;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .screen-glowing {
+    background: #090614;
+    border-radius: 6px;
+    padding: 1rem;
+    min-height: 140px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    position: relative;
+    overflow-y: auto;
+  }
+  .carrie-cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1.2rem;
+    background: #8b5cf6;
+    margin-left: 2px;
+    animation: carrie-blink 1s step-end infinite;
+    vertical-align: middle;
+  }
+  @keyframes carrie-blink {
+    from, to { background-color: transparent }
+    50% { background-color: #8b5cf6 }
+  }
+  .laptop-input-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+  }
+  .laptop-input {
+    flex-grow: 1;
+    background: #090614;
+    border: 1px solid #3F2B96;
+    border-radius: 6px;
+    color: #FFFEFB;
+    padding: 0.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+  }
+  .laptop-input:focus {
+    outline: none;
+    border-color: #8b5cf6;
+    box-shadow: 0 0 8px rgba(139, 92, 246, 0.4);
+  }
+  .laptop-btn {
+    background: #3F2B96;
+    color: #FFFEFB;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .laptop-btn:hover {
+    background: #8b5cf6;
+    transform: translateY(-1px);
+  }
+  .keyboard-hint {
+    font-size: 0.72rem;
+    color: #55508c;
+    margin-top: 0.5rem;
+    text-align: right;
+  }
+</style>
+<style>
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--cream, #FAF7F2);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover {
+    background: var(--border);
+  }
+  .filter-btn.active {
+    background: #3F2B96;
+    color: white;
+    border-color: #3F2B96;
+  }
+</style>  <link href="../style.css" rel="stylesheet"/>
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="club-hero">
+<img alt="Wonder logo" src="../../../../../images/icouldnthelpbutwonder.png" style="height: 100px; width: auto; margin-bottom: 1.5rem;"/>
+<h1>I Couldn't Help But Wonder</h1>
+<p>Вдохновленный культовыми колонками Кэрри Брэдшоу, наш клуб предлагает утонченный взгляд на пришельцев, психологию отношений, моду и современную культуру. Необычные гипотезы, поэтические метафоры и глубокие философские размышления.</p>
+</header>
+<section class="container" style="padding: 2rem 1.5rem 5rem;">
+<a class="back-link" href="../../../../../index.html" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← Все разговорные клубы</a>
+<div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+<div class="club-main">
+<!-- CARRIE'S LAPTOP INTERACTIVE WIDGET -->
+<div class="carrie-laptop" id="laptop-widget">
+<div class="laptop-header">
+<span>💾 Ноутбук Кэрри v1.0 — Черновик колонки</span>
+<span>Файл: wonder_draft.txt</span>
+</div>
+<div class="screen-glowing" id="laptop-screen">
+<span id="typewriter-text">Сидя у окна и глядя на город, я не могла не задуматься... О чем вы думаете сегодня вечером? Введите вопрос ниже, чтобы поразмышлять вместе.</span><span class="carrie-cursor"></span>
+</div>
+<div class="laptop-input-wrapper">
+<input class="laptop-input" id="laptop-input" maxlength="100" placeholder="Введите слово или вопрос (напр. любовь, копия, дождь, город)..." type="text"/>
+<button class="laptop-btn" id="laptop-submit-btn">СОХРАНИТЬ</button>
+</div>
+<div class="keyboard-hint">💡 Совет: Включите звук для погружения в атмосферу кликающей клавиатуры!</div>
+</div>
+<!-- HISTORY -->
+<div class="history-block" id="wonder-hist" style="margin-top: 2rem;">
+<div class="section-header" style="margin-bottom: 1rem;">
+<h2 style="font-size: 1.5rem;">🕒 Прошедшие сессии</h2>
+</div>
+<div class="club-filters-level" style="justify-content: flex-start; margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<button class="filter-btn active" data-level="all">Все уровни</button>
+<button class="filter-btn" data-level="b1">B1</button>
+<button class="filter-btn" data-level="b2">B2</button>
+<button class="filter-btn" data-level="c1">C1</button>
+</div>
+<div class="wonder-history-grid">
+
+<!-- 21. Love Without Sex -->
+<div class="wonder-card history-session" data-level="c1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #21 • C1 • 🔞 Интимность</div>
+<h4 class="wonder-card-title">Можно ли найти любовь без секса?</h4>
+</div>
+<div class="wonder-polaroid-frame rot-right">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Are Traditions a Hidden Monogamy.png" alt="Можно ли найти любовь без секса? Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Ренн — Март '27</div>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Способны ли мы на чистую, духовную любовь, или наша интеллектуальная гордыня — лишь лицемерие, скрывающее животные желания?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">16 Марта 2027</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/is-it-possible-to-find-love-without-sex.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/is-it-possible-to-find-love-without-sex.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/is-it-possible-to-find-love-without-sex.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 20. Avoiding Free Things -->
+<div class="wonder-card history-session" data-level="b2">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #20 • B2 • 🏛️ Общество</div>
+<h4 class="wonder-card-title">Заставляет ли культура избегать бесплатных вещей?</h4>
+</div>
+<div class="wonder-polaroid-frame rot-left">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Does Culture Make Us Avoid Things for Free.png" alt="Заставляет ли культура избегать бесплатных вещей? Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Сен-Мало — Фев '27</div>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Заставляет ли наша современная культура намеренно избегать искренне бесплатных вещей?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">09 Февраля 2027</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/avoiding-things-for-free.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/avoiding-things-for-free.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/avoiding-things-for-free.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 19. Sedentary Lifestyle -->
+<div class="wonder-card history-session" data-level="b2">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #19 • B2 • 📺 Стиль жизни</div>
+<h4 class="wonder-card-title">Делает ли маркетинг малоподвижный образ жизни новой нормой?</h4>
+</div>
+<div class="wonder-polaroid-frame rot-slight">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Is Marketing Making Sedentary Lifestyle a New Normality.png" alt="Делает ли маркетинг малоподвижный образ жизни новой нормой? Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Ренн — Фев '27</div>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Упаковал ли современный маркетинг сидячий образ жизни как символ роскоши?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">02 Февраля 2027</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/is-marketing-making-sedentary-lifestyle-a-new-normality.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/is-marketing-making-sedentary-lifestyle-a-new-normality.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/is-marketing-making-sedentary-lifestyle-a-new-normality.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 18. Inclusive Language -->
+<div class="wonder-card history-session" data-level="b2">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #18 • B2 • 🗣️ Язык</div>
+<div class="wonder-polaroid-frame rot-slight">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Does Inclusive Language Make Us Equal.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Бретань — Янв '27</div>
+</div>
+<h4 class="wonder-card-title">Делает ли инклюзивный язык нас равными?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Когда мы меняем языковые нормы, делает ли это нас действительно равными?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">26 Января 2027</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/does-inclusive-language-make-us-equal.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 17. Spend More, Earn More -->
+<div class="wonder-card history-session" data-level="b2">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #17 • B2 • 💰 Финансы</div>
+<div class="wonder-polaroid-frame rot-left">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Why Do I Spend More When I Earn More.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Сен-Мало — Янв '27</div>
+</div>
+<h4 class="wonder-card-title">Почему я трачу больше, когда зарабатываю больше?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Почему с ростом доходов моментально растут и наши потребности?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">19 Января 2027</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/why-do-i-spend-more-when-i-earn-more.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/why-do-i-spend-more-when-i-earn-more.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/why-do-i-spend-more-when-i-earn-more.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 16. No Time -->
+<div class="wonder-card history-session" data-level="b2">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #16 • B2 • ⏳ Время</div>
+<div class="wonder-polaroid-frame rot-right">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Do We Have No Time or Just No Desire.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Ванн — Янв '27</div>
+</div>
+<h4 class="wonder-card-title">У нас "нет времени" или просто нет желания?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Является ли фраза «у меня нет времени» лишь вежливым социальным оправданием?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">12 Января 2027</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/i-have-no-time-for-it.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 14. Collective Guilt -->
+<div class="wonder-card history-session" data-level="c1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #14 • C1 • 🌍 Экология</div>
+<div class="wonder-polaroid-frame rot-slight">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Do We Carry a Collective Self-Guilt for the Planet.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Брест — Янв '27</div>
+</div>
+<h4 class="wonder-card-title">Несем ли мы коллективную вину за планету?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Действительно ли мы ответственны за планету или это налог на комфорт?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">02 Января 2027</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/collective-guilt-global-crisis.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 15. Traditions (B2) -->
+<div class="wonder-card history-session" data-level="b2">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #15 • B2 • 🏛️ Традиции</div>
+<div class="wonder-polaroid-frame rot-left">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Are Traditions a Hidden Monogamy.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Динар — Дек '26</div>
+</div>
+<h4 class="wonder-card-title">Являются ли традиции скрытой моногамией?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Почему мы храним такую верность старым обычаям?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">26 Декабря 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy-upper-intermediate.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy-upper-intermediate.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy-upper-intermediate.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 13. Traditions (C1) -->
+<div class="wonder-card history-session" data-level="c1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #13 • C1 • 🏛️ Традиции</div>
+<div class="wonder-polaroid-frame rot-right">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Are Traditions a Hidden Monogamy.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Динар — Дек '26</div>
+</div>
+<h4 class="wonder-card-title">Являются ли традиции скрытой моногамией?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Почему мы храним верность старым обычаям?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">26 Декабря 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/are-traditions-hidden-monogamy.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 12. Parenting Instinct -->
+<div class="wonder-card history-session" data-level="b1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #12 • B1 • ⚠️ Семья</div>
+<div class="wonder-polaroid-frame rot-slight">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Is Parenting Instinct a Real Thing or Just a Scam.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Кемпер — Дек '26</div>
+</div>
+<h4 class="wonder-card-title">Родительский инстинкт — реальность или миф?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Рождаемся ли мы с инстинктом родительства или просто повторяем ошибки?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">19 Декабря 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/is-parenting-instinct-a-real-thing-or-scam.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 11. ADHD -->
+<div class="wonder-card history-session" data-level="b1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #11 • B1 • ⚠️ Здоровье</div>
+<div class="wonder-polaroid-frame rot-left">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Why Do We Try to Relate to ADHD.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Лорьян — Дек '26</div>
+</div>
+<h4 class="wonder-card-title">Почему мы пытаемся найти у себя СДВГ?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Ищем ли мы у себя неврологическую особенность как модный ярлык?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">12 Декабря 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/why-do-we-try-to-relate-to-adhd.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 10. Amy Winehouse -->
+<div class="wonder-card history-session" data-level="c1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #10 • C1 • 🎤 Музыка</div>
+<div class="wonder-polaroid-frame rot-right">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/The Tragedy of Amy Winehouse.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Динан — Окт '26</div>
+</div>
+<h4 class="wonder-card-title">Трагедия Эми Уайнхаус</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Почему мы ценим гениальность артиста только после его гибели?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">14 Октября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/appreciating-amy-winehouse-after-death.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/appreciating-amy-winehouse-after-death.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/appreciating-amy-winehouse-after-death.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 09. Euthanasia -->
+<div class="wonder-card history-session" data-level="c1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #09 • C1 • 🔞 18+</div>
+<div class="wonder-polaroid-frame rot-slight">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Does Euthanasia Reduce Suicide Rates.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Брест — Ноя '26</div>
+</div>
+<h4 class="wonder-card-title">Снижает ли эвтаназия уровень самоубийств?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Является ли свобода выбора проявлением человеческого достоинства?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">07 Ноября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/does-euthanasia-reduce-suicide-rates.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/does-euthanasia-reduce-suicide-rates.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/does-euthanasia-reduce-suicide-rates.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 08. Ugly Produce -->
+<div class="wonder-card history-session" data-level="b1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #08 • B1 • 🍎 Экология</div>
+<div class="wonder-polaroid-frame rot-left">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Are We Too Obsessed with Perfect-Looking Food.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Карнак — Окт '26</div>
+</div>
+<h4 class="wonder-card-title">Не слишком ли мы зациклены на идеальной еде?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Отвергая искривленный огурец, не отвергаем ли мы неидеальные души?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">24 Октября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/ugly-produce-anti-waste.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 07. Death of the Album -->
+<div class="wonder-card history-session" data-level="b1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #07 • B1 • 💿 Музыка</div>
+<div class="wonder-polaroid-frame rot-right">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Why Did We Stop Listening to Whole Albums.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Сен-Бриё — Окт '26</div>
+</div>
+<h4 class="wonder-card-title">Почему мы перестали слушать альбомы целиком?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Потеряли ли мы терпение слушать чужую цельную историю?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">06 Октября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/death-of-the-album.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/death-of-the-album.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/death-of-the-album.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 06. Feeling Empty -->
+<div class="wonder-card history-session" data-level="b1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #06 • B1 • 📺 Сериалы</div>
+<div class="wonder-polaroid-frame rot-slight">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Why Do We Feel Empty After a Series Ends.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Киброн — Сен '26</div>
+</div>
+<h4 class="wonder-card-title">Почему мы чувствуем пустоту после окончания сериала?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Грустим ли мы о персонажах или о нашей собственной жизни?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">29 Сентября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 05. Everyone Copying Me -->
+<div class="wonder-card history-session" data-level="b1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #05 • B1 • 🛍️ Индивидуальность</div>
+<div class="wonder-polaroid-frame rot-left">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Why Do I Feel Like Everyone Is Copying Me.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Конкарно — Сен '26</div>
+</div>
+<h4 class="wonder-card-title">Почему мне кажется, что все меня копируют?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... В городе индивидуальности принадлежат ли нам наши вкусы?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">22 Сентября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/why-is-everyone-copying-me.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/why-is-everyone-copying-me.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/why-is-everyone-copying-me.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 04. Always Watched -->
+<div class="wonder-card history-session" data-level="c1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #04 • C1 • 🚇 Психология</div>
+<div class="wonder-polaroid-frame rot-right">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Why Do I Feel Like Im Always Being Watched in a Crowd.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Ренн — Табор — Сен '26</div>
+</div>
+<h4 class="wonder-card-title">Почему в толпе кажется, что за мной наблюдают?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Не является ли паранойя лишь надеждой, что кому-то есть до нас дело?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">15 Сентября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/always-watched-in-a-crowd.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/always-watched-in-a-crowd.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/always-watched-in-a-crowd.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 03. Bad Weather -->
+<div class="wonder-card history-session" data-level="c1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #03 • C1 • ⛈️ Погода</div>
+<div class="wonder-polaroid-frame rot-slight">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Is Bad Weather Really About Gods Being Angry.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Пемпон — Сен '26</div>
+</div>
+<h4 class="wonder-card-title">Действительно ли плохая погода — это гнев богов?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Проецируем ли мы нашу внутреннюю тревогу на небо?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">22 Сентября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/is-bad-weather-gods-anger.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 02. Insects Hide -->
+<div class="wonder-card history-session" data-level="b1">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #02 • B1 • 🐜 Природа</div>
+<div class="wonder-polaroid-frame rot-left">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Do Insects Hide When It Rains.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Изумрудный берег — Сен '26</div>
+</div>
+<h4 class="wonder-card-title">Прячутся ли насекомые во время дождя?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Когда жизнь становится штормовой, ищем ли мы укрытие или надеемся не утонуть?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">15 Сентября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/do-insects-hide-when-it-rains.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+<!-- 01. Raindrops Select -->
+<div class="wonder-card history-session" data-level="b2">
+<div class="wonder-card-header">
+<div class="wonder-card-draft-tag">Черновик #01 • B2 • 🌧️ Дождь</div>
+<div class="wonder-polaroid-frame rot-right">
+<div class="washi-tape"></div>
+<img src="../../../../../images/logos/speaking clubs/i couldn't help but wonder/Do Raindrops Select the Place Where to Fall.png" alt="Логотип" class="wonder-card-logo" />
+<div class="polaroid-caption">Сен-Каст — Сен '26</div>
+</div>
+<h4 class="wonder-card-title">Выбирают ли капли дождя, куда упасть?</h4>
+</div>
+<p class="wonder-card-desc">"Я не могла не задуматься... Выбирают ли капли путь или мы случайно сталкиваемся в жизни?"</p>
+<div class="wonder-card-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
+<span class="wonder-card-date">08 Сентября 2026</span>
+<div class="wonder-modes-grid">
+<a class="mode-btn btn-big" href="sessions/i-couldnt-help-but-wonder/whether-raindrops-select-where-to-fall.html">🌐 БОЛЬШАЯ ГРУППА</a>
+<a class="mode-btn btn-mini" href="sessions/i-couldnt-help-but-wonder/whether-raindrops-select-where-to-fall.html?mode=mini">👥 МИНИ-ГРУППА</a>
+<a class="mode-btn btn-private" href="sessions/i-couldnt-help-but-wonder/whether-raindrops-select-where-to-fall.html?mode=private">🎓 ИНДИВИДУАЛЬНО</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="club-sidebar">
+<div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+<h3 style="font-size: 1rem; margin-bottom: .5rem;">Спекулятивное мышление</h3>
+<p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Размышления над абстрактными и необычными вопросами помогают развивать глубокий словарный запас, использовать условные конструкции и выражать сложные философские мысли.</p>
+</div>
+</div>
+</div>
+</section>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../../../../index.html" style="color:var(--muted);text-decoration:none;">Главная</a>
+<a href="../../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Практика</a>
+<a href="../../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Игры</a>
+<a href="../../../../../events/ru/index.html" style="color:var(--muted);text-decoration:none;">Мероприятия</a>
+</div>
+<p>© 2021-2026 COSYlanguages — Все права защищены</p>
+</footer>
+<script src="../../../../../js/data/languages.js"></script>
+<script src="../../../../../js/core/engine.js"></script>
+<script src="../../../../../js/core/i18n.js"></script>
+<script src="../../../../../js/core/passcodes.js"></script>
+<script src="../../../../../js/core/ui.js"></script>
+<script src="../../../../../js/data/pricing.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const laptopInput = document.getElementById('laptop-input');
+  const submitBtn = document.getElementById('laptop-submit-btn');
+  const screenText = document.getElementById('typewriter-text');
+
+  let audioCtx = null;
+
+  function initAudio() {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+  }
+
+  function playKeyClick() {
+    try {
+      initAudio();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(3200 + Math.random() * 400, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(1500, audioCtx.currentTime + 0.015);
+
+      gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.012);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.015);
+    } catch (e) {}
+  }
+
+  function playBellChime() {
+    try {
+      initAudio();
+      const osc1 = audioCtx.createOscillator();
+      const osc2 = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      osc1.frequency.setValueAtTime(2100, audioCtx.currentTime);
+      osc2.frequency.setValueAtTime(2700, audioCtx.currentTime);
+
+      gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.8);
+
+      osc1.connect(gain);
+      osc2.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc1.start();
+      osc2.start();
+      osc1.stop(audioCtx.currentTime + 0.8);
+      osc2.stop(audioCtx.currentTime + 0.8);
+    } catch (e) {}
+  }
+
+  laptopInput.addEventListener('keydown', (e) => {
+    if (e.key.length === 1 || e.key === 'Backspace' || e.key === ' ') {
+      playKeyClick();
+    }
+  });
+
+  const responses = [
+    {
+      keywords: ['копия', 'стиль', 'копировать', 'подражать', 'одежда'],
+      text: "Я не могла не задуматься... В городе, построенном на мифе об абсолютной индивидуальности, принадлежат ли нам наши вкусы? Или подражание — это способ сказать: 'Я хочу быть тобой, потому что еще не знаю, кто я'?"
+    },
+    {
+      keywords: ['любовь', 'роман', 'отношения', 'парень', 'муж', 'секс'],
+      text: "Я не могла не задуматься... В мегаполисе из миллионов возможностей, действительно ли мы ищем родственную душу, или просто надеемся найти кого-то, кто любит тот же кофе?"
+    },
+    {
+      keywords: ['дождь', 'погода', 'шторм', 'снег', 'облака'],
+      text: "Я не могла не задуматься... Когда мы смотрим на серое небо во время шторма, ищем ли мы знаки судьбы? Или это просто наше желание верить, что Вселенной не все равно?"
+    },
+    {
+      keywords: ['город', 'толпа', 'улица', 'люди', 'бретань'],
+      text: "Я не могла не задуматься... Можно ли найти себя в толпе, где каждый занят чужой ролью? Или настоящий свет включается, когда мы растворяемся в городской анонимности?"
+    }
+  ];
+
+  const defaultResponse = "Я не могла не задуматься... В мире, требовательном к уверенности, возможно ли, что именно наши вопросительные знаки делают нас по-настоящему живыми?";
+
+  function getMetaphorResponse(query) {
+    const q = query.toLowerCase();
+    for (const r of responses) {
+      if (r.keywords.some(k => q.includes(k))) {
+        return r.text;
+      }
+    }
+    return defaultResponse;
+  }
+
+  let typeTimer = null;
+  function typeOutMessage(message) {
+    clearInterval(typeTimer);
+    screenText.innerHTML = '';
+    let index = 0;
+
+    typeTimer = setInterval(() => {
+      if (index < message.length) {
+        screenText.innerHTML += message.charAt(index);
+        index++;
+        if (Math.random() > 0.4) {
+          playKeyClick();
+        }
+      } else {
+        clearInterval(typeTimer);
+        playBellChime();
+      }
+    }, 45);
+  }
+
+  submitBtn.addEventListener('click', () => {
+    const val = laptopInput.value.trim();
+    if (!val) return;
+
+    initAudio();
+    const response = getMetaphorResponse(val);
+    typeOutMessage(response);
+    laptopInput.value = '';
+  });
+
+  laptopInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      submitBtn.click();
+    }
+  });
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.filter-btn');
+  const sessions = document.querySelectorAll('.history-session');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const selectedLevel = btn.getAttribute('data-level');
+
+      sessions.forEach(sess => {
+        const levels = (sess.getAttribute('data-level') || '').split(' ');
+        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
+          sess.style.display = 'flex';
+        } else {
+          sess.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script></body>
+</html>
