@@ -23,7 +23,7 @@
         searchQuery: '',
         selectedLang: 'ALL',
         selectedFormat: 'ALL',
-        selectedLevel: null // null means 'All Levels'
+        selectedLevel: null // null means 'All Levels', string or Array for level filter
       };
 
       this.init();
@@ -37,6 +37,7 @@
       this.bindHeaderAndDrawerEvents();
       this.bindBackToTopEvents();
       this.bindScrollspyEvents();
+      this.bindQuickStartLinks();
       this.applyFilters();
     }
 
@@ -209,6 +210,29 @@
       }
     }
 
+    bindQuickStartLinks() {
+      const qsLinks = document.querySelectorAll('.qs-level-link');
+      qsLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const group = link.getAttribute('data-level-group');
+          if (group === 'A1-A2') {
+            this.state.selectedLevel = ['A1', 'A2'];
+          } else if (group === 'B1-B2') {
+            this.state.selectedLevel = ['B1', 'B2'];
+          } else if (group === 'B2-C2') {
+            this.state.selectedLevel = ['B2', 'C1', 'C2'];
+          }
+          this.updatePillsUI();
+          this.applyFilters();
+          const browseSection = document.getElementById('browse') || document.getElementById('browse-section');
+          if (browseSection) {
+            browseSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+    }
+
     bindHeaderAndDrawerEvents() {
       const hamburgerBtn = document.getElementById('sd-hamburger-btn');
       const drawer = document.getElementById('sd-drawer');
@@ -292,9 +316,12 @@
     bindScrollspyEvents() {
       const jumpLinks = document.querySelectorAll('.sd-jump-link');
       const sections = [
-        document.getElementById('quick-start'),
+        document.getElementById('onboarding-guide'),
+        document.getElementById('upcoming'),
+        document.getElementById('types'),
+        document.getElementById('browse'),
         document.getElementById('browse-section'),
-        document.getElementById('join-section')
+        document.getElementById('join')
       ].filter(Boolean);
 
       // Smooth scroll on jump link click
@@ -338,8 +365,15 @@
     updatePillsUI() {
       this.pillButtons.forEach(btn => {
         const lvl = btn.getAttribute('data-level');
-        const isActive = (lvl === 'ALL' && this.state.selectedLevel === null) ||
-                         (lvl === this.state.selectedLevel);
+        let isActive = false;
+
+        if (this.state.selectedLevel === null) {
+          isActive = (lvl === 'ALL');
+        } else if (Array.isArray(this.state.selectedLevel)) {
+          isActive = this.state.selectedLevel.includes(lvl);
+        } else {
+          isActive = (lvl === this.state.selectedLevel);
+        }
 
         if (isActive) {
           btn.classList.add('active');
@@ -374,7 +408,12 @@
 
         // Level filter
         if (selectedLevel !== null) {
-          if (session.level !== selectedLevel) return false;
+          const sessionLevel = session.level ? String(session.level).trim() : null;
+          if (Array.isArray(selectedLevel)) {
+            if (!sessionLevel || !selectedLevel.includes(sessionLevel)) return false;
+          } else {
+            if (sessionLevel !== selectedLevel) return false;
+          }
         }
 
         return true;
