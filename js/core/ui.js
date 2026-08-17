@@ -115,10 +115,180 @@
         btn.id = 'back-to-top'; btn.innerHTML = '↑'; btn.setAttribute('title', 'Back to Top');
         document.body.appendChild(btn);
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) btn.classList.add('visible');
+            if (window.scrollY > 500) btn.classList.add('visible');
             else btn.classList.remove('visible');
         });
         btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    };
+
+    const setupSessionMiniNav = () => {
+        const isSessionPage = window.location.pathname.includes('/sessions/') || document.querySelector('.session-hero');
+        if (!isSessionPage) return;
+
+        const existingNav = document.getElementById('session-mini-nav');
+        if (existingNav) existingNav.remove();
+
+        const main = document.querySelector('main.content-container') || document.querySelector('main') || document.body;
+        if (!main) return;
+
+        const cleanLabelText = (rawText) => {
+            if (!rawText) return '';
+            let t = rawText.replace(/[▲▼]/g, '').trim();
+            if (t.length > 25) {
+                const shortText = t.split(/\s*[\u2014\-–:]\s*/)[0].trim();
+                if (shortText && shortText.length <= 25) {
+                    return shortText;
+                }
+                return t.substring(0, 22) + '...';
+            }
+            return t;
+        };
+
+        const candidates = [];
+        const seenIds = new Set();
+        let sectionCounter = 0;
+
+        // Select major section elements and headers dynamically
+        const selectors = [
+            'section',
+            '#vocabulary',
+            '#listening-exercise',
+            '#discussion',
+            '#lang-focus',
+            '#final-challenge',
+            '.round-block',
+            '.mistake-block',
+            '.private-step',
+            'h2.section-title',
+            '.round-header',
+            '.mistake-header'
+        ];
+
+        const elements = main.querySelectorAll(selectors.join(', '));
+
+        elements.forEach(el => {
+            // Find target section container
+            let targetEl = el;
+            if (el.classList.contains('round-header') || el.classList.contains('mistake-header') || el.classList.contains('section-title')) {
+                targetEl = el.closest('.round-block, .mistake-block, section, [id]') || el;
+            }
+
+            // Skip hidden mode containers
+            if (targetEl.closest('[data-session-mode][style*="display: none"], [data-session-mode][style*="display:none"]')) {
+                return;
+            }
+
+            // Generate ID if missing
+            if (!targetEl.id) {
+                sectionCounter++;
+                targetEl.id = 'sec-node-' + sectionCounter;
+            }
+
+            const sid = targetEl.id;
+            if (seenIds.has(sid)) return;
+            if (['cosy-nav', 'description', 'structure', 'wonder-passcode-gate', 'kus-dynamic-switcher-placeholder', 'session-mini-nav', 'back-to-top', 'go-deeper'].includes(sid)) return;
+
+            // Extract title
+            const headerEl = targetEl.querySelector('.section-title, .round-header, .mistake-header, h2, h3, summary') || (targetEl.matches('h2, h3') ? targetEl : null);
+            let rawTitle = headerEl ? headerEl.textContent.trim() : '';
+
+            if (!rawTitle) {
+                const cleanSid = sid.replace(/^[smp]-/, '').replace(/-/g, ' ').trim();
+                rawTitle = cleanSid.charAt(0).toUpperCase() + cleanSid.slice(1);
+            }
+
+            const label = cleanLabelText(rawTitle);
+            if (!label) return;
+
+            seenIds.add(sid);
+            candidates.push({ id: sid, label: label, el: targetEl });
+        });
+
+        if (candidates.length === 0) return;
+
+        const navContainer = document.createElement('nav');
+        navContainer.id = 'session-mini-nav';
+        navContainer.className = 'session-mini-nav sd-jump-links';
+        navContainer.setAttribute('aria-label', 'Session section jump links');
+
+        let linksHtml = '';
+        candidates.forEach(sec => {
+            linksHtml += `<a href="#${sec.id}" class="sd-jump-link">${sec.label}</a>`;
+        });
+        navContainer.innerHTML = linksHtml;
+
+        // Insert position
+        const targetAnchor = main.querySelector('.science-session-info-box') ||
+                             main.querySelector('.session-meta-grid') ||
+                             main.querySelector('.cosy-session-switcher-placeholder') ||
+                             main.querySelector('.back-link') ||
+                             main.querySelector('.cosy-breadcrumbs');
+
+        if (targetAnchor && targetAnchor.nextSibling) {
+            targetAnchor.parentNode.insertBefore(navContainer, targetAnchor.nextSibling);
+        } else if (targetAnchor) {
+            targetAnchor.parentNode.appendChild(navContainer);
+        } else {
+            main.prepend(navContainer);
+        }
+
+        const jumpLinks = navContainer.querySelectorAll('.sd-jump-link');
+        jumpLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                const href = link.getAttribute('href');
+                if (href && href.startsWith('#')) {
+                    e.preventDefault();
+                    const targetEl = document.querySelector(href);
+                    if (targetEl) {
+                        const offset = 80;
+                        const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
+                        const offsetPosition = elementPosition - offset;
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        const onScroll = () => {
+            let currentId = '';
+            const scrollPosition = window.scrollY + 140;
+
+            candidates.forEach(sec => {
+                const top = sec.el.offsetTop;
+                const height = sec.el.offsetHeight;
+                if (scrollPosition >= top && scrollPosition < top + height) {
+                    currentId = sec.id;
+                }
+            });
+
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50 && candidates.length > 0) {
+                currentId = candidates[candidates.length - 1].id;
+            }
+
+            jumpLinks.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href === '#' + currentId) {
+                    link.classList.add('active');
+                    if (navContainer.scrollWidth > navContainer.clientWidth) {
+                        const linkLeft = link.offsetLeft;
+                        const linkWidth = link.offsetWidth;
+                        const navWidth = navContainer.clientWidth;
+                        navContainer.scrollTo({
+                            left: linkLeft - (navWidth / 2) + (linkWidth / 2),
+                            behavior: 'smooth'
+                        });
+                    }
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
     };
 
     const setupScrollReveal = () => {
@@ -4929,6 +5099,7 @@
 
         setupHeaderShrink();
         setupBackToTop();
+        setupSessionMiniNav();
         setupScrollReveal();
         setupClubFilters();
         setupSessionSwitcher();
