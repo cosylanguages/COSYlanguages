@@ -1,748 +1,687 @@
 import os
 import re
 
-FR_DIR = "apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/fr/"
+BASE_DIR = "apps/premium-events/nights/karaoke/sessions/karaoke-club/fr/"
 
 DATA = {
-    "angele-challenge": {
-        "oui-ou-non": {
-            "slug": "oui-ou-non",
-            "theme_title": "❤️ Thème: L'hésitation amoureuse & L'attente numérique",
-            "theme_bullets": ["Hésitation", "Ambiguïté", "Certitude", "Personal reflection"],
-            "vocab": [
-                {"word": "Hésitation", "def": "Action de balancer entre plusieurs partis ou décisions.", "ex": "Son hésitation constante devant son téléphone l'empêche de tourner la page.", "opp": "Décision"},
-                {"word": "Ambiguïté", "def": "Caractère de ce qui prête à plusieurs interprétations.", "ex": "L'ambiguïté de ses messages entretient un faux espoir dommageable.", "opp": "Clarté"},
-                {"word": "Signal", "def": "Indice ou geste transmettant une intention cachée.", "ex": "Elle cherche le moindre signal favorable dans ses publications en ligne.", "opp": "Silence"},
-                {"word": "Attente", "def": "État de celui qui espère anxieusement un événement.", "ex": "L'attente d'une réponse transforme sa journée en une épreuve nerveuse.", "opp": "Délivrance"},
-                {"word": "Certitude", "def": "Assurance pleine et entière de la vérité d'un fait.", "ex": "Elle réclame une certitude définitive pour pouvoir avancer sereinement.", "opp": "Doute"},
-                {"word": "Orgueil", "def": "Sentiment exagéré de sa propre valeur et fierté.", "ex": "Son orgueil l'empêche d'avouer à quel point cette situation la blesse.", "opp": "Humilité"},
-                {"word": "Réseau", "def": "Plateforme numérique de communication et d'affichage social.", "ex": "Les réseaux sociaux amplifient les malentendus et l'anxiété amoureuse.", "opp": "Isolement"},
-                {"word": "Silence", "def": "Absence de réponse, de bruit ou de réaction explicite.", "ex": "Le silence prolongé de son interlocuteur est plus lourd qu'un refus.", "opp": "Dialogue"},
-                {"word": "Dilemme", "def": "Choix difficile entre deux options également insatisfaisantes.", "ex": "Elle fait face au dilemme de relancer ou d'abandonner définitivement.", "opp": "Certitude"},
-                {"word": "Frustration", "def": "Sentiment de déception face à un obstacle insurmontable.", "ex": "Ne pas obtenir de réponse directe provoque une profonde frustration.", "opp": "Satisfaction"}
-            ],
-            "round1": [
-                ("Dans 'Oui ou non', Angèle décrit l'obsession de scruter les messages sans réponse. Comment l'incertitude numérique amplifie-t-elle l'<strong>hésitation</strong> amoureuse ?", "★ Avez-vous déjà vécu une situation où le <strong>silence</strong> d'une personne vous a rendu anxieux ?"),
-                ("Les paroles opposent la clarté d'un 'oui ou non' à l'<strong>ambiguïté</strong> des demi-mesures. Pourquoi est-il parfois si difficile d'exiger une réponse franche ?", "★ Préférez-vous une vérité blessante immédiate ou une douce <strong>attente</strong> ?"),
-                ("Angèle analyse le jeu des apparitions sur les <strong>réseaux</strong> sociaux comme des messages cachés. Est-ce que décoder chaque <strong>signal</strong> virtuel détruit la spontanéité ?", "★ Selon vous, les réseaux sociaux facilitent-ils ou compliquent-ils la <strong>certitude</strong> sentimentale ?"),
-                ("La chanson montre que ravaler son <strong>orgueil</strong> pour demander une explication demande du courage. Quand faut-il insister et quand faut-il renoncer ?", "★ Comment gérez-vous votre <strong>orgueil</strong> lorsque vous faites le premier pas ?"),
-                ("Le refrain exprime un vrai <strong>dilemme</strong> entre l'espoir d'une suite et la peur du rejet. Comment faire face à la <strong>frustration</strong> de ne pas contrôler la décision de l'autre ?", "★ Quelle est la meilleure stratégie pour dépasser la <strong>frustration</strong> de l'incertitude ?")
-            ],
-            "round2": [
-                "L'abondance des moyens de communication modernes a ironiquement augmenté l'<strong>ambiguïté</strong> et l'<strong>hésitation</strong> dans les relations amoureuses. Débattons-en.",
-                "Demander une réponse catégorique par 'oui ou non' est le seul moyen de préserver son <strong>orgueil</strong> et d'éviter un <strong>dilemme</strong> sans fin. Qu'en pensez-vous ?",
-                "Le <strong>silence</strong> sur les réseaux sociaux doit être interprété comme un refus clair plutôt que comme une simple <strong>attente</strong>. Partagez votre avis."
-            ],
-            "lang_focus_title": "L'expression du dilemme et de l'alternative",
-            "lang_focus_desc": "Pour exprimer un choix difficile entre deux options ou une tentative infructueuse, on utilise des structures comme 'soit... soit...', 'avoir beau + infinitif' et 'il faut que + subjonctif'.",
-            "lang_focus_examples": [
-                "Soit tu me donnes une réponse claire, soit nous en restons là.",
-                "J'ai beau regarder mon téléphone toutes les minutes, aucun message n'arrive.",
-                "Il faut que tu fasses un choix catégorique pour libérer ton esprit."
-            ],
-            "challenge_text": "Le rendez-vous de la clarté : Jouez une scène où un ami hésite depuis des semaines à demander une explication franche à son partenaire. Donnez-lui des conseils fermes et bienveillants.",
-            "mistakes": [
-                ("Je suis incertain <span class=\"mistake-highlight\">de</span> qu'il va répondre", "Je suis incertain s'il va répondre / de ce qu'il va répondre", "(Attention aux propositions complétives après un adjectif d'incertitude.)"),
-                ("Il me répond jamais <span class=\"mistake-highlight\">sur</span> les réseaux", "Il ne me répond jamais sur les réseaux", "(N'oubliez pas la particule 'ne' dans la négation 'ne... jamais' à l'écrit.)"),
-                ("J'ai attendu <span class=\"mistake-highlight\">pour</span> deux heures", "J'ai attendu pendant deux heures", "(Pour exprimer une durée écoulée dans le passé, utilisez la préposition 'pendant'.)")
-            ]
-        },
-        "balance-ton-quoi": {
-            "slug": "balance-ton-quoi",
-            "theme_title": "❤️ Thème: Le sexisme ordinaire, Le consentement & Le respect",
-            "theme_bullets": ["Sexisme", "Consentement", "Respect", "Personal reflection"],
-            "vocab": [
-                {"word": "Sexisme", "def": "Attitude de discrimination fondée sur le sexe ou le genre.", "ex": "Angèle dénonce le sexisme ordinaire véhiculé par des remarques déplacées.", "opp": "Égalité"},
-                {"word": "Consentement", "def": "Accord explicite, libre et éclairé donné à une action.", "ex": "Le consentement doit être la base absolue de toutes les relations humaines.", "opp": "Contrainte"},
-                {"word": "Stéréotype", "def": "Opinion toute faite et figée sur un groupe de personnes.", "ex": "La chanson déconstruit les stéréotypes sur ce qu'une femme devrait être.", "opp": "Individualité"},
-                {"word": "Respect", "def": "Considération accordée à la dignité et aux droits de chacun.", "ex": "Exiger le respect mutuel est une condition essentielle du vivre-ensemble.", "opp": "Mépris"},
-                {"word": "Égalité", "def": "Absence de discrimination et équivalence des droits.", "ex": "L'égalité réelle s'obtient par la prise de conscience et le changement des lois.", "opp": "Inégalité"},
-                {"word": "Légitimité", "def": "Qualité de ce qui est fondé en droit, en justice ou en raison.", "ex": "Elle affirme la légitimité des femmes à s'exprimer sans crainte.", "opp": "Illégitimité"},
-                {"word": "Éducation", "def": "Transmission des valeurs morales, sociales et intellectuelles.", "ex": "L'éducation au respect commence dès le plus jeune âge à l'école.", "opp": "Ignorance"},
-                {"word": "Provocation", "def": "Comportement visant à susciter une réaction ou un débat.", "ex": "Le clip utilise la provocation humoristique pour faire réfléchir le public.", "opp": "Apaisement"},
-                {"word": "Préjugé", "def": "Jugement préconçu adopté sans examen critique préalable.", "ex": "Combattre les préjugés demande du dialogue et de l'empathie.", "opp": "Objectivité"},
-                {"word": "Empathie", "def": "Capacité intuitive de se mettre à la place d'autrui.", "ex": "Manquer d'empathie empêche de comprendre la portée de ses propres mots.", "opp": "Indifférence"}
-            ],
-            "round1": [
-                ("Angèle dénonce le <strong>sexisme</strong> ordinaire et les remarques paternalistes dans la société. Pourquoi ces comportements sont-ils encore trop souvent banalisés ?", "★ Comment réagissez-vous quand vous entendez un <strong>stéréotype</strong> véhiculé sur le ton de l'humour ?"),
-                ("Le clip et la chanson mettent l'accent sur la notion fondamentale de <strong>consentement</strong>. Pourquoi l'<strong>éducation</strong> au consentement est-elle cruciale dès le plus jeune âge ?", "★ Selon vous, comment l'<strong>éducation</strong> peut-elle faire évoluer les mentalités durablement ?"),
-                ("La phrase 'Même si tu parles mal des filles, je sais qu'au fond tu as besoin de <strong>respect</strong>' remet en question la <strong>provocation</strong>. Peut-on exiger le respect sans l'accorder ?", "★ Comment définissez-vous le <strong>respect</strong> mutuel dans les relations de tous les jours ?"),
-                ("'Balance ton quoi' utilise l'ironie pour contester les <strong>préjugés</strong> sur les femmes indépendantes. En quoi l'humour est-il un outil puissant face au manque d'<strong>empathie</strong> ?", "★ Avez-vous déjà utilisé l'humour pour déconstruire un <strong>préjugé</strong> gênant ?"),
-                ("La chanson réclame une véritable <strong>égalité</strong> plutôt qu'un traitement de faveur. Pourquoi la recherche de <strong>légitimité</strong> passe-t-elle par la prise de parole publique ?", "★ Qu'est-ce qui donne à une cause sociale sa pleine <strong>légitimité</strong> à vos yeux ?")
-            ],
-            "round2": [
-                "L'humour et la satire pop comme dans 'Balance ton quoi' sont plus efficaces pour combattre le <strong>sexisme</strong> que des discours théoriques. Débattons-en.",
-                "La dénonciation publique des comportements inappropriés est indispensable pour établir un réel <strong>respect</strong> et une <strong>égalité</strong>. Qu'en pensez-vous ?",
-                "Les <strong>stéréotypes</strong> de genre découlent avant tout d'un manque d'<strong>éducation</strong> et d'<strong>empathie</strong> dès l'enfance. Partagez votre avis."
-            ],
-            "lang_focus_title": "L'expression de l'opposition et de la concession",
-            "lang_focus_desc": "Pour exprimer une concession ou opposer deux idées, on emploie 'même si + indicatif', 'bien que + subjonctif' ou la tournure 'avoir beau + infinitif'.",
-            "lang_focus_examples": [
-                "Même si tu répètes ces stéréotypes, tu sais qu'ils sont faux.",
-                "Bien que la chanson soit entraînante, son message reste profondément engagé.",
-                "Ils ont beau minimiser le problème, les mentalités finissent par changer."
-            ],
-            "challenge_text": "L'académie de l'égalité : Mettez en scène un cours d'anti-sexisme humoristique inspiré du clip. Expliquez avec ironie et clarté à un collègue pourquoi certaines expressions doivent changer.",
-            "mistakes": [
-                ("Il faut que les gens <span class=\"mistake-highlight\">comprends</span> le consentement", "Il faut que les gens comprennent le consentement", "(Utilisez le subjonctif présent 'comprennent' après la tournure impersonnelle 'il faut que'.)"),
-                ("Elle se bat <span class=\"mistake-highlight\">pour l'égalité de</span> genre", "Elle se bat pour l'égalité des genres", "(Utilisez l'article défini contracté 'des' au pluriel : l'égalité des genres.)"),
-                ("Même <span class=\"mistake-highlight\">si que</span> c'est difficile, il faut parler", "Même si c'est difficile, il faut parler", "(Ne rajoutez pas la conjonction 'que' après 'même si'.)")
-            ]
-        }
+    "bien-plus-fort.html": {
+        "title_theme": "Force intérieure & Dévotion",
+        "theme_bullets": ["L'amour inconditionnel", "La résilience", "L'engagement absolu", "La force d'âme"],
+        "vocab": [
+            {"word": "La passion", "def": "Sentiment vif et impérieux qui domine la raison.", "ex": "Leur passion résiste au temps et aux obstacles.", "opp": "L'indifférence"},
+            {"word": "L'intensité", "def": "Degré d'énergie ou de force d'un sentiment.", "ex": "L'intensité de sa voix montre la sincérité de son engagement.", "opp": "La mollesse"},
+            {"word": "Surmonter", "def": "Triompher d'une difficulté ou d'un obstacle.", "ex": "Ensemble, ils ont su surmonter toutes les épreuves de la vie.", "opp": "Capituler"},
+            {"word": "Le courage", "def": "Force morale face au danger ou aux souffrances.", "ex": "Elle trouve le courage de continuer malgré les critiques.", "opp": "La lâcheté"},
+            {"word": "Le destin", "def": "Avenir considéré comme fatal et inéluctable.", "ex": "Tereza chante sa volonté de forger son propre destin amoureux.", "opp": "Le hasard"},
+            {"word": "La fidélité", "def": "Attachement constant et respect de ses engagements.", "ex": "Sa fidélité indéfectible inspire la confiance autour d'elle.", "opp": "L'infidélité"},
+            {"word": "Indestructible", "def": "Qui ne peut être détruit ou altéré par le temps.", "ex": "Ils ont bâti une alliance indestructible face au monde extérieur.", "opp": "Fragile"},
+            {"word": "L'abnégation", "def": "Sacrifice volontaire de soi-même au profit d'un autre.", "ex": "Aimer avec abnégation demande une grande maturité émotionnelle.", "opp": "L'égoïsme"},
+            {"word": "Inébranlable", "def": "Qui ne se laisse pas troubler ni détourner.", "ex": "Sa conviction est inébranlable malgré les incertitudes du lendemain.", "opp": "Hésitant"},
+            {"word": "L'alliance", "def": "Union profonde contractée entre deux personnes.", "ex": "Leur alliance va bien plus loin que de simples promesses verbales.", "opp": "La rupture"}
+        ],
+        "round1": [
+            ("Dans 'Bien plus fort', Tereza Kesovija affirme un amour 'plus grand que la terre' et 'plus dur que la pierre'. Pourquoi la métaphore des éléments naturels renforce-t-elle la notion d'amour <strong>indestructible</strong> ?", "★ Avez-vous déjà ressenti un sentiment d'une telle <strong>intensité</strong> qu'il semblait plus fort que les obstacles ?"),
+            ("La chanteuse demande à son partenaire : 'Ouvre tes bras, emmène-moi loin d'ici'. L'amour véritable exige-t-il parfois une rupture avec notre environnement pour <strong>surmonter</strong> les difficultés ?", "★ Trouver le <strong>courage</strong> de tout quitter pour une personne est-il une preuve de maturité ou d'impulsivité ?"),
+            ("Le texte répète 'aujourd'hui et demain et toujours'. Comment préserver une telle <strong>fidélité</strong> dans un monde où tout change rapidement ?", "★ Selon vous, la <strong>passion</strong> initiale peut-elle se transformer en un engagement durable sans perdre de son éclat ?"),
+            ("Tereza propose de 'rire avec ta bouche et pleurer de tes yeux'. Cette forme d'empathie totale frôle-t-elle <strong>l'abnégation</strong> absolue ?", "★ Dans une relation, jusqu'où peut-on partager les émotions de l'autre sans perdre son identité face au <strong>destin</strong> ?"),
+            ("La chanson oppose la dureté de la pierre et la chaleur du cœur. En quoi une conviction <strong>inébranlable</strong> aide-t-elle à sceller une vraie <strong>alliance</strong> amoureuse ?", "★ Quelle valeur vous semble la plus essentielle pour construire une relation solide et durable ?")
+        ],
+        "round2": [
+            "L'idée qu'un amour puisse être 'plus dur que la pierre' est une illusion romantique qui empêche de voir la vulnérabilité nécessaire dans un couple. Débattons-en.",
+            "Aimer quelqu'un au point de vouloir 'pleurer de ses yeux' relève d'une dépendance affective plutôt que d'un <strong>courage</strong> authentique. Qu'en pensez-vous ?",
+            "Dans la société actuelle, la promesse d'une <strong>fidélité</strong> 'pour toujours' est devenue un idéal difficile à maintenir. Partagez votre avis."
+        ],
+        "lang_focus_title": "Les comparatifs d'intensité et la métaphore des éléments",
+        "lang_focus_desc": "Pour exprimer une comparaison appuyée ou hyperbolique, on utilise la structure 'plus + adjectif + que + nom' (ex: 'plus grand que la terre', 'plus dur que la pierre').",
+        "lang_focus_examples": [
+            "Son attachement est plus fort que toutes les promesses écrites.",
+            "Elle est restée plus calme que la pierre malgré la tempête.",
+            "Leur amitié est devenue plus solide que le fer au fil des ans."
+        ],
+        "final_challenge": "En duos, jouez une scène où l'un des partenaires hésite à s'engager pour l'avenir, tandis que l'autre essaie de le rassurer en utilisant des promesses fortes et des comparatifs d'intensité.",
+        "mistakes": [
+            ("C'est plus fort <span class=\"mistake-highlight\">de</span> la pierre.", "C'est plus fort <span class=\"mistake-highlight\">que</span> la pierre.", "(Utilisez 'que' pour introduire le second terme d'un comparatif.)"),
+            ("Elle est amoureuse <span class=\"mistake-highlight\">depuis</span> toujours.", "Elle est amoureuse <span class=\"mistake-highlight\">pour</span> toujours.", "(Utilisez 'pour toujours' pour projeter une durée indéfinie dans l'avenir.)"),
+            ("Il a surmonté <span class=\"mistake-highlight\">de la</span> peur.", "Il a surmonté <span class=\"mistake-highlight\">sa</span> peur.", "(Utilisez un adjectif possessif ou un article défini avec les verbes de surmontement.)")
+        ]
     },
-    "la-zarra-challenge": {
-        "diva": {
-            "slug": "diva",
-            "theme_title": "❤️ Thème: La désillusion amoureuse, La fierté & Le masque de diva",
-            "theme_bullets": ["Désillusion", "Fierté", "Résilience", "Personal reflection"],
-            "vocab": [
-                {"word": "Désillusion", "def": "Perte d'une illusion amère face à la réalité.", "ex": "Dans 'Évidemment', La Zarra exprime la désillusion après de fausses promesses.", "opp": "Enchantement"},
-                {"word": "Fierté", "def": "Sentiment élevé de sa propre dignité et valeur.", "ex": "Sa fierté retrouvée lui permet de relever la tête malgré la déception.", "opp": "Honte"},
-                {"word": "Masque", "def": "Apparence trompeuse destinée à cacher la vulnérabilité.", "ex": "Elle revêt un masque d'élégance pour ne pas montrer sa peine.", "opp": "Sincérité"},
-                {"word": "Élégance", "def": "Grâce et distinction raffinée dans l'attitude.", "ex": "L'élégance de sa posture contraste avec la douleur de son texte.", "opp": "Vulgarité"},
-                {"word": "Résilience", "def": "Capacité à surmonter les épreuves et les blessures.", "ex": "Sa résilience fait d'elle une diva forte et indépendante.", "opp": "Fragilité"},
-                {"word": "Promesse", "def": "Engagement verbal solennel envers autrui.", "ex": "Les belles promesses inutiles finissent toujours par s'envoler.", "opp": "Trahison"},
-                {"word": "Regret", "def": "Sentiment douloureux d'avoir accordé sa confiance.", "ex": "Elle refuse de sombrer dans le regret amertumé de son passé.", "opp": "Satisfaction"},
-                {"word": "Solitude", "def": "État d'isolement choisi ou subi sereinement.", "ex": "La solitude de la scène est le prix à payer pour sa liberté.", "opp": "Compagnie"},
-                {"word": "Rancœur", "def": "Ressentiment tenace accompagné d'amertume.", "ex": "Elle préfère chanter sa liberté plutôt que d'entretenir la rancœur.", "opp": "Pardon"},
-                {"word": "Transformation", "def": "Changement profond d'attitude ou de personnalité.", "ex": "Cette épreuve amoureuse accomplit une véritable transformation.", "opp": "Stagnation"}
-            ],
-            "round1": [
-                ("Dans 'Évidemment', La Zarra chante la <strong>désillusion</strong> de croire aux promesses grandiloquentes. Pourquoi les belles paroles mènent-elles souvent aux plus grands <strong>regrets</strong> ?", "★ Avez-vous déjà transformé une <strong>désillusion</strong> en une source de force ?"),
-                ("La chanteuse arbore un <strong>masque</strong> d'<strong>élégance</strong> et de diva pour masquer sa vulnérabilité. Est-ce une défense nécessaire face aux déceptions ?", "★ Dans quelles situations portez-vous un <strong>masque</strong> d'assurance pour protéger vos émotions ?"),
-                ("Les paroles évoquent le passage de la naïveté à une <strong>fierté</strong> inébranlable. Comment préserver sa <strong>fierté</strong> sans devenir cynique ?", "★ Qu'est-ce qui vous aide à retrouver votre <strong>fierté</strong> après un échec personnel ?"),
-                ("'Évidemment' illustre une grande <strong>résilience</strong> face à la <strong>solitude</strong>. L'isolement provisoire est-il indispensable pour se reconstruire ?", "★ Voyez-vous la <strong>solitude</strong> comme une épreuve ou comme une opportunité d'introspection ?"),
-                ("La Zarra refuse de garder de la <strong>rancœur</strong> tout en accomplissant une vraie <strong>transformation</strong>. Peut-on tourner la page sans pardonner ?", "★ Selon vous, la <strong>transformation</strong> personnelle nécessite-t-elle de couper les ponts avec le passé ?")
-            ],
-            "round2": [
-                "Développer un <strong>masque</strong> de résignation élégante est l'unique moyen de survivre à la <strong>désillusion</strong> sentimentale. Débattons-en.",
-                "La véritable <strong>fierté</strong> consiste à assumer sa vulnérabilité plutôt qu'à jouer le rôle d'une diva inaccessible. Qu'en pensez-vous ?",
-                "Les épreuves amoureuses sont le catalyseur le plus puissant pour une <strong>transformation</strong> personnelle réussie. Partagez votre avis."
-            ],
-            "lang_focus_title": "L'expression du regret et de la certitude ironique",
-            "lang_focus_desc": "Pour exprimer la certitude ironique ou un regret rétroactif, on utilise 'évidemment', 'avoir beau + infinitif' et le conditionnel passé ('j'aurais dû').",
-            "lang_focus_examples": [
-                "Évidemment que tout était trop beau pour être vrai.",
-                "J'aurais dû me méfier de ses promesses grandiloquentes.",
-                "J'ai beau regretter mes choix, la vie continue malgré tout."
-            ],
-            "challenge_text": "Le récital de la diva : Jouez une interview de star après un grand chagrin d'amour. Répondez aux questions des journalistes avec une élégance souveraine et une fierté assumée.",
-            "mistakes": [
-                ("J'aurais <span class=\"mistake-highlight\">dû de</span> savoir la vérité", "J'aurais dû savoir la vérité", "(Le verbe 'devoir' à l'infinitif se construit directement sans préposition 'de'.)"),
-                ("Elle est fière <span class=\"mistake-highlight\">de son</span> travail", "Elle a de la fierté pour son parcours", "(Veillez à bien employer 'être fier/fière de' ou le nom 'la fierté'.)"),
-                ("Malgré <span class=\"mistake-highlight\">que</span> la douleur est forte", "Malgré la douleur / Bien que la douleur soit forte", "('Malgré' est suivi d'un groupe nominal, pas d'une proposition avec 'que'.)")
-            ]
-        },
-        "tu-ten-iras": {
-            "slug": "tu-ten-iras",
-            "theme_title": "❤️ Thème: L'éphémère amourette & Le pressentiment de la rupture",
-            "theme_bullets": ["Éphémère", "Pressentiment", "Détachement", "Personal reflection"],
-            "vocab": [
-                {"word": "Éphémère", "def": "Qui ne dure que très peu de temps.", "ex": "La Zarra chante la beauté tragique d'un amour éphémère voué à s'éteindre.", "opp": "Éternel"},
-                {"word": "Pressentiment", "def": "Sentiment intuitif d'un événement à venir.", "ex": "Elle est hantée par le pressentiment lucide de son départ imminente.", "opp": "Certitude"},
-                {"word": "Libération", "def": "Action de se délivrer d'une attente pesante.", "ex": "Accepter la fin d'une histoire apporte une curieuse forme de libération.", "opp": "Captivité"},
-                {"word": "Détachement", "def": "Attitude de sérénité et d'indifférence élégante.", "ex": "Elle affiche un détachement poli pour ne pas se laisser détruire.", "opp": "Attachement"},
-                {"word": "Nostalgie", "def": "Regret mélancolique d'un bonheur passé.", "ex": "La nostalgie des premiers jours ravive la douleur du présent.", "opp": "Projection"},
-                {"word": "Passion", "def": "Sentiment amoureux intense et dévorant.", "ex": "Une grande passion se consume souvent trop vite dans les flammes.", "opp": "Indifférence"},
-                {"word": "Inévitable", "def": "Ce qu'on ne peut pas éviter ni empêcher.", "ex": "Elle fait face à l'inévitable dénouement de leur romance.", "opp": "Évitable"},
-                {"word": "Fuite", "def": "Action de s'éloigner précipitamment pour échapper.", "ex": "La fuite de l'autre est une réponse à sa propre peur de s'engager.", "opp": "Engagement"},
-                {"word": "Franchise", "def": "Qualité de celui qui parle avec honnêteté crue.", "ex": "Sa franchise lui permet d'affronter la réalité sans se voiler la face.", "opp": "Hypocrisie"},
-                {"word": "Destin", "def": "Cours inéluctable de la vie et des événements.", "ex": "Elle accepte que leur rencontre n'était qu'une étape de son destin.", "opp": "Hasard"}
-            ],
-            "round1": [
-                ("'Tu t'en iras' aborde le caractère <strong>éphémère</strong> des relations passionnelles. Faut-il profiter d'un bonheur court en sachant qu'il prendra fin ?", "★ Acceptez-vous facilement l'idée que certaines personnes ne font que passer de manière <strong>éphémère</strong> dans votre vie ?"),
-                ("La narratrice exprime le <strong>pressentiment</strong> clair que son partenaire va partir. L'intuition en amour est-elle toujours fiable ou crée-t-elle la prophétie autoréalisatrice ?", "★ Écoutez-vous votre <strong>pressentiment</strong> quand vous sentez qu'une situation tourne mal ?"),
-                ("Accepter l'<strong>inévitable</strong> départ apporte parfois une curieuse forme de <strong>libération</strong>. Pourquoi la fin d'une attente est-elle parfois un soulagement ?", "★ Avez-vous déjà ressenti de la <strong>libération</strong> après la conclusion d'un chapitre difficile ?"),
-                ("La chanson oscille entre la ferveur de la <strong>passion</strong> et la froideur du <strong>détachement</strong>. Est-il possible d'aimer fort tout en gardant du <strong>détachement</strong> ?", "★ Trouvez-vous facile de maintenir un équilibre entre <strong>passion</strong> et raison ?"),
-                ("La <strong>franchise</strong> de reconnaître que l'autre va fuir évite la <strong>nostalgie</strong> amère. La vérité crue vaut-elle mieux qu'une fausse promesse éternelle ?", "★ Préférez-vous la <strong>franchise</strong> douloureuse à un mensonge réconfortant ?")
-            ],
-            "round2": [
-                "Savoir qu'une relation est <strong>éphémère</strong> lui donne plus de valeur et d'intensité qu'une promesse d'éternité. Débattons-en.",
-                "Le <strong>détachement</strong> émotionnel est la seule protection efficace contre le chagrin de la <strong>fuite</strong> de l'autre. Qu'en pensez-vous ?",
-                "L'intuition et le <strong>pressentiment</strong> nous trompent rarement sur le <strong>destin</strong> d'une histoire d'amour. Partagez votre avis."
-            ],
-            "lang_focus_title": "Le futur simple et l'inéluctable",
-            "lang_focus_desc": "Pour exprimer une certitude sur l'avenir ou une rupture annoncée, on utilise le futur simple ('tu t'en iras', 'tu partiras') et des temporelles avec 'quand' ou 'dès que'.",
-            "lang_focus_examples": [
-                "Tu t'en iras dès que les premiers froids arriveront.",
-                "Quand tu seras parti, je réapprendrai à vivre pour moi-même.",
-                "Je sais que nous n'effacerons pas nos souvenirs si facilement."
-            ],
-            "challenge_text": "La lettre de départ : Rédigez ou interprétez un monologue poétique adressé à quelqu'un dont vous savez le départ imminente. Exprimez votre gratitude et votre liberté retrouvée.",
-            "mistakes": [
-                ("Quand tu <span class=\"mistake-highlight\">pars</span>, je serai triste", "Quand tu partiras, je serai triste", "(Après 'quand', utilisez le futur simple en français pour exprimer une action future.)"),
-                ("Il s'en va <span class=\"mistake-highlight\">de la</span> maison", "Il s'en va de la maison / Il part de la maison", "(Le verbe pronominal 's'en aller' s'emploie de manière autonome ou avec 'de'.)"),
-                ("C'est une histoire <span class=\"mistake-highlight\">très éphémérique</span>", "C'est une histoire très éphémère", "(L'adjectif correct en français est 'éphémère'.)")
-            ]
-        }
+
+    "immobile.html": {
+        "title_theme": "Quand la vie s'arrête & Saisissement",
+        "theme_bullets": ["L'angoisse du vide", "La paralysie émotionnelle", "Le doute relationnel", "L'incertitude"],
+        "vocab": [
+            {"word": "L'immobilité", "def": "État de ce qui ne bouge pas, immobilité physique ou mentale.", "ex": "Face au danger, elle reste plongée dans une totale immobilité.", "opp": "Le mouvement"},
+            {"word": "Le vide", "def": "Espace dépourvu de matière ou sentiment d'absence.", "ex": "Louane s'approche du vide sans savoir comment réagir.", "opp": "La plénitude"},
+            {"word": "Figer", "def": "Rendre immobile sous le coup d'une vive émotion.", "ex": "La peur de perdre l'autre peut figer nos paroles.", "opp": "Animer"},
+            {"word": "Ronger", "def": "Tourmenter l'esprit de façon continue et obsessionnelle.", "ex": "Les doutes et les questions finissent par ronger son esprit.", "opp": "Apaiser"},
+            {"word": "La paralysie", "def": "Incapacité temporaire d'agir ou de prendre une décision.", "ex": "Face à la crise, une forme de paralysie s'empare de son cœur.", "opp": "L'action"},
+            {"word": "L'abîme", "def": "Profondeur immense et effrayante.", "ex": "Regarder l'abîme des sentiments peut provoquer un vertige intérieur.", "opp": "La surface"},
+            {"word": "Le vertige", "def": "Sensation de perte d'équilibre ou d'angoisse face au vide.", "ex": "L'incertitude amoureuse lui donne un pénible vertige.", "opp": "La stabilité"},
+            {"word": "Hésiter", "def": "Balancer entre deux décisions sans réussir à choisir.", "ex": "Elle continue d'hésiter au lieu d'avancer vers lui.", "opp": "Trancher"},
+            {"word": "La rupture", "def": "Interruption soudaine d'un lien ou d'un mouvement.", "ex": "Rester immobile est une tentative de retarder la rupture.", "opp": "La continuité"},
+            {"word": "L'hésitation", "def": "Incertitude dans les actes ou les paroles.", "ex": "Son hésitation est visible dans son regard silencieux.", "opp": "L'assurance"}
+        ],
+        "round1": [
+            ("Dans 'Immobile', Louane chante : 'J'm'approche du vide qui me guette... et face à toi je pile'. Pourquoi le sentiment d'urgence ou de danger peut-il provoquer une <strong>immobilité</strong> soudaine ?", "★ Avez-vous déjà vécu un moment d'intense pression où vous vous êtes senti totalement <strong>figé</strong> ?"),
+            ("Le texte évoque la peur de 'perdre le jeu de la confiance' et les questions qui rongent l'esprit. Comment le doute intérieur crée-t-il ce sentiment de <strong>paralysie</strong> ?", "★ Préférez-vous affronter un conflit immédiatement ou laisser passer le <strong>vertige</strong> en restant silencieux ?"),
+            ("Louane compare cette situation à 'partir en voyage sans pouvoir faire ses bagages'. En quoi cette métaphore illustre-t-elle l'impuissance face au <strong>vide</strong> ?", "★ Comment gérez-vous le sentiment de ne pas être préparé face à un changement brutal dans votre vie ?"),
+            ("La chanteuse avoue 'mon cœur se recouvre peu à peu de bleu'. Est-ce que se protéger de la douleur amoureuse mène inévitablement à l'isolement dans <strong>l'abîme</strong> ?", "★ Prendre du recul pour ne pas souffrir est-il efficace pour éviter la <strong>rupture</strong> ?"),
+            ("Malgré l'immobilité, la chanson montre une conscience aiguë de la crise. Comment transformer cette <strong>hésitation</strong> contemplative en une décision positive ?", "★ Quelle étape vous aide le plus à sortir d'une phase d'incertitude pour retrouver le mouvement ?")
+        ],
+        "round2": [
+            "Rester <strong>immobile</strong> face à une crise amoureuse est une preuve de faiblesse qui ne fait qu'aggraver le problème. Débattons-en.",
+            "L'angoisse du <strong>vide</strong> dans les relations modernes provient principalement d'une suranalyse de nos propres sentiments. Qu'en pensez-vous ?",
+            "Parfois, la meilleure décision lors d'un conflit est de ne rien faire et d'attendre que le <strong>vertige</strong> passe. Partagez votre avis."
+        ],
+        "lang_focus_title": "La métaphore du blocage et l'utilisation de 'face à'",
+        "lang_focus_desc": "Pour exprimer la confrontation directe avec une situation difficile ou un sentiment, on utilise la préposition 'face à' combinée avec des verbes d'arrêt soudain comme 'piler' ou 'rester immobile'.",
+        "lang_focus_examples": [
+            "Face à la gravité des faits, personne n'a osé intervenir.",
+            "Elle a pilonné net face au mur de silence de son interlocuteur.",
+            "Il demeure immobile face aux questions pressantes du groupe."
+        ],
+        "final_challenge": "Simulez une consultation où un coach aide une personne paralysée par la peur de prendre une décision importante à faire le premier pas.",
+        "mistakes": [
+            ("Elle reste immobile <span class=\"mistake-highlight\">devant de</span> la situation.", "Elle reste immobile <span class=\"mistake-highlight\">face à</span> la situation.", "(Utilisez 'face à' pour exprimer la confrontation directe.)"),
+            ("J'ai peur <span class=\"mistake-highlight\">de perdre</span> confiance à toi.", "J'ai peur <span class=\"mistake-highlight\">de perdre</span> confiance en toi.", "(Dites 'avoir confiance en quelqu'un'.)"),
+            ("Ça me donne <span class=\"mistake-highlight\">un vertige</span>.", "Ça me donne <span class=\"mistake-highlight\">le vertige</span>.", "(L'expression idiomatique utilise l'article défini : 'donner le vertige'.)")
+        ]
     },
-    "fabienne-thibeault-challenge": {
-        "la-complainte-de-la-serveuse-automate": {
-            "slug": "la-complainte-de-la-serveuse-automate",
-            "theme_title": "❤️ Thème: La déshumanisation du travail & Les rêves d'évasion",
-            "theme_bullets": ["Automate", "Routine", "Rêve", "Personal reflection"],
-            "vocab": [
-                {"word": "Automate", "def": "Personne agissant de manière mécanique sans réflexion.", "ex": "Dans Starmania, la serveuse déplore de travailler comme un automate.", "opp": "Artiste"},
-                {"word": "Routine", "def": "Habitude mécanique répétitive qui engendre l'ennui.", "ex": "La routine quotidienne étouffe ses aspirations créatives.", "opp": "Nouveauté"},
-                {"word": "Rêve", "def": "Aspiration profonde à une existence différente.", "ex": "Son rêve secret est de devenir une grande artiste admirée.", "opp": "Réalité"},
-                {"word": "Anonymat", "def": "État d'une personne sans notoriété ni reconnaissance.", "ex": "L'anonymat de la métropole lui pèse cruellement au quotidien.", "opp": "Célébrité"},
-                {"word": "Évasion", "def": "Besoin de s'échapper d'un cadre de vie oppressant.", "ex": "La musique et le chant sont son unique moyen d'évasion.", "opp": "Enfermement"},
-                {"word": "Frustration", "def": "Déception causée par l'impossibilité de réaliser ses désirs.", "ex": "Servir les autres crée une profonde frustration intérieure.", "opp": "Épanouissement"},
-                {"word": "Célébrité", "def": "Statut d'une personne universellement connue.", "ex": "Elle aspire à la célébrité pour prouver sa propre valeur.", "opp": "Obscurité"},
-                {"word": "Ambition", "def": "Désir ardent de réussir et d'atteindre le sommet.", "ex": "Son ambition artistique se heurte à la dureté de sa condition.", "opp": "Résignation"},
-                {"word": "Métamorphose", "def": "Changement radical de vie ou de personnalité.", "ex": "Elle espère une métamorphose spectaculaire sous les projecteurs.", "opp": "Stagnation"},
-                {"word": "Aliénation", "def": "Perte de sa liberté et de son identité au travail.", "ex": "L'aliénation du travail automatisé vide les individus de leur humanité.", "opp": "Émancipation"}
-            ],
-            "round1": [
-                ("Dans 'La complainte de la serveuse automate', l'héroïne se décrit comme un <strong>automate</strong> au service des clients. Comment la <strong>routine</strong> professionnelle peut-elle étouffer l'individualité ?", "★ Avez-vous déjà eu l'impression d'agir comme un <strong>automate</strong> dans votre travail ou vos tâches ?"),
-                ("Le cri 'J'aurais voulu être un artiste' exprime le rejet de l'<strong>anonymat</strong>. Pourquoi le désir de <strong>célébrité</strong> est-il si présent dans la culture moderne ?", "★ Le besoin d'être reconnu par la société est-il une quête noble ou une illusion ?"),
-                ("La chanson montre que le <strong>rêve</strong> est une forme d'<strong>évasion</strong> nécessaire pour survivre à la grisaille. Le rêve protège-t-il ou empêche-t-il d'agir dans le réel ?", "★ Quel est le <strong>rêve</strong> d'enfance auquel vous n'avez jamais tout à fait renoncé ?"),
-                ("La serveuse ressent une profonde <strong>frustration</strong> face à l'écart entre sa vie réelle et son <strong>ambition</strong>. Comment canaliser la frustration de manière créative ?", "★ Comment gérez-vous le sentiment d'être à l'étroit dans votre rôle actuel ?"),
-                ("Elle aspire à une <strong>métamorphose</strong> spectaculaire pour devenir une star. La <strong>métamorphose</strong> de sa vie demande-t-elle de tout risquer ?", "★ Seriez-vous prêt à tout changer du jour au lendemain pour réaliser votre passion ?")
-            ],
-            "round2": [
-                "La <strong>routine</strong> du travail automatisé moderne est la principale cause d'aliénation et de perte de sens. Débattons-en.",
-                "La quête de <strong>célébrité</strong> n'est souvent qu'un besoin désespéré d'échapper à l'<strong>anonymat</strong> et à la solitude. Qu'en pensez-vous ?",
-                "Les <strong>rêves</strong> d'<strong>évasion</strong> sont indispensables pour supporter la dureté du quotidien. Partagez votre avis."
-            ],
-            "lang_focus_title": "Le conditionnel passé et le regret d'un rêve",
-            "lang_focus_desc": "Pour exprimer un souhait non réalisé ou un regret sur un parcours de vie, on emploie le conditionnel passé ('j'aurais voulu', 'j'aurais pu').",
-            "lang_focus_examples": [
-                "J'aurais voulu être un artiste pour pouvoir faire mon numéro.",
-                "Si j'avais écouté mes instincts, j'aurais changé de voie plus tôt.",
-                "Elle aurait pu devenir célèbre avec un peu plus de chance."
-            ],
-            "challenge_text": "L'audition de la dernière chance : Incarnez la serveuse qui passe enfin une audition devant un producteur exigeant. Exprimez toute sa passion et sa volonté de briser la routine.",
-            "mistakes": [
-                ("J'aurais <span class=\"mistake-highlight\">voulu de être</span> chanteur", "J'aurais voulu être chanteur", "(Le verbe 'vouloir' se construit directement avec un infinitif sans préposition.)"),
-                ("Si j'avais le choix, je <span class=\"mistake-highlight\">serai</span> artiste", "Si j'avais le choix, je serais artiste", "(Utilisez le conditionnel présent '-ais/-ait/-ions/-iez/-aient' après une hypothèse à l'imparfait.)"),
-                ("Elle travaille <span class=\"mistake-highlight\">comme une automate</span>", "Elle travaille comme un automate", "(Le nom 'automate' est de genre masculin.)")
-            ]
-        },
-        "le-monde-est-stone": {
-            "slug": "le-monde-est-stone",
-            "theme_title": "❤️ Thème: Le vertige urbain, L'aliénation & La quête de sens",
-            "theme_bullets": ["Stone", "Vertige", "Solitude", "Personal reflection"],
-            "vocab": [
-                {"word": "Stone", "def": "État de stupeur, d'engourdissement ou d'hébétude.", "ex": "Dans 'Le monde est stone', la chanteuse exprime un vertige face à la ville.", "opp": "Éveillé"},
-                {"word": "Vertige", "def": "Sensation de perte d'équilibre ou de désorientation morale.", "ex": "Les gratte-ciels immenses provoquent un véritable vertige existentiel.", "opp": "Stabilité"},
-                {"word": "Illusion", "def": "Fausse perception ou croyance déconnectée du réel.", "ex": "Le monde urbain promet le bonheur mais n'offre que des illusions.", "opp": "Réalité"},
-                {"word": "Solitude", "def": "Sentiment d'isolement lourd au milieu de la foule.", "ex": "La solitude dans les grandes métropoles est la plus difficile à porter.", "opp": "Solidarité"},
-                {"word": "Désemparé", "def": "Privé de repères, qui ne sait quelle décision prendre.", "ex": "Elle se retrouve désemparée face à la froideur des tours de béton.", "opp": "Sûr de soi"},
-                {"word": "Éveil", "def": "Prise de conscience soudaine ou sortie de l'engourdissement.", "ex": "Elle espère un éveil collectif pour briser cette léthargie.", "opp": "Sommeil"},
-                {"word": "Obscurité", "def": "Absence de lumière ou manque de clarté spirituelle.", "ex": "L'obscurité de la nuit urbaine reflète son désarroi intérieur.", "opp": "Lumière"},
-                {"word": "Recherche", "def": "Quête obstinée de sens, de vérité ou de beauté.", "ex": "Sa chanson est une recherche désespérée d'un peu d'humanité.", "opp": "Abandon"},
-                {"word": "Espoir", "def": "Attente confiante d'une amélioration ou d'un renouveau.", "ex": "Malgré le désespoir ambiant, un brin d'espoir subsiste au fond du cœur.", "opp": "Désespoir"},
-                {"word": "Absurdité", "def": "Caractère de ce qui manque de logique ou de sens.", "ex": "Elle contemple l'absurdité du rythme frénétique de la cité.", "opp": "Cohérence"}
-            ],
-            "round1": [
-                ("'Le monde est stone' dépeint une jeunesse hébétée, figée dans un état <strong>stone</strong> face à la brutalité du monde. Pourquoi la ville moderne crée-t-elle ce <strong>vertige</strong> existentialiste ?", "★ Avez-vous déjà ressenti ce sentiment d'être <strong>stone</strong> ou dépassé par le rythme du monde ?"),
-                ("La chanteuse exprime le sentiment d'être <strong>désemparé</strong> au milieu des gratte-ciels et de la foule. La <strong>solitude</strong> urbaine est-elle plus lourde que l'isolement géographique ?", "★ Comment vous ressourcez-vous quand la ville devient étouffante ?"),
-                ("La chanson critique les fausses promesses et les <strong>illusions</strong> d'un système matérialiste. Est-il possible de trouver un sens sans succomber à l'<strong>obscurité</strong> ?", "★ Quelles sont les <strong>illusions</strong> de notre époque dont il faut se libérer selon vous ?"),
-                ("Malgré l'abattement, il y a une <strong>recherche</strong> permanente de lumière et d'<strong>éveil</strong>. Qu'est-ce qui provoque un déclic ou un <strong>éveil</strong> personnel chez quelqu'un ?", "★ Quel événement a provoqué chez vous une prise de conscience importante ?"),
-                ("Le morceau se termine sur une note suspendue entre désespoir et <strong>espoir</strong>. Comment maintenir l'<strong>espoir</strong> quand tout semble s'effondrer autour de nous ?", "★ Qu'est-ce qui nourrit votre <strong>espoir</strong> au quotidien ?")
-            ],
-            "round2": [
-                "L'état de stupeur décrit par le terme <strong>stone</strong> est une réponse psychologique inévitable à l'hyper-sollicitation moderne. Débattons-en.",
-                "La <strong>solitude</strong> dans les grandes métropoles est la maladie la plus destructrice du XXIe siècle. Qu'en pensez-vous ?",
-                "L'<strong>espoir</strong> d'un monde meilleur nécessite d'abord d'accepter la fin des <strong>illusions</strong> idéologiques. Partagez votre avis."
-            ],
-            "lang_focus_title": "Les adjectifs d'état et les impressions impersonnelles",
-            "lang_focus_desc": "Pour décrire une impression générale ou un état d'esprit face à l'environnement, on utilise 'être + adjectif' et 'me sembler + adjectif'.",
-            "lang_focus_examples": [
-                "Le monde me semble stone et totalement désorienté.",
-                "Je me sens désemparé au milieu de cette foule anonyme.",
-                "Il y a des moments où la ville paraît irréelle."
-            ],
-            "challenge_text": "La poésie de la métropole : Composez ou lisez un court poème slam dénonçant la solitude urbaine et appelant à retrouver de la chaleur humaine dans la ville.",
-            "mistakes": [
-                ("Le monde <span class=\"mistake-highlight\">est trop stone de</span> moi", "Le monde me semble stone / Je me sens stone face au monde", "('Stone' est un emprunt invariable utilisé comme attribut.)"),
-                ("Je me sens <span class=\"mistake-highlight\">seul dans la</span> foule", "Je me sens seul au milieu de la foule", "(Utilisez la locution 'au milieu de' pour insister sur l'isolement au sein du groupe.)"),
-                ("Il n'y a plus <span class=\"mistake-highlight\">des</span> espoirs", "Il n'y a plus d'espoir", "(Après une négation absolue, l'article partitif devient 'de' ou 'd''.)")
-            ]
-        },
-        "un-garcon-pas-comme-les-autres": {
-            "slug": "un-garcon-pas-comme-les-autres",
-            "theme_title": "❤️ Thème: L'amour inconditionnel & L'acceptation de la différence",
-            "theme_bullets": ["Marginalité", "Fascination", "Acceptation", "Personal reflection"],
-            "vocab": [
-                {"word": "Marginalité", "def": "Situation d'une personne vivant en dehors des normes sociales.", "ex": "Ziggy incarne une marginalité assumée qui fascine la narratrice.", "opp": "Conformisme"},
-                {"word": "Obsession", "def": "Idée fixe et envahissante qui occupe tout l'esprit.", "ex": "Son amour pour un garçon inaccessible devient une obsession poignante.", "opp": "Détachement"},
-                {"word": "Différence", "def": "Caractère de ce qui se distingue des autres individus.", "ex": "Elle aime Ziggy précisément pour sa différence et son originalité.", "opp": "Ressemblance"},
-                {"word": "Fascination", "def": "Attraction irrésistible exercée par une personnalité.", "ex": "La fascination qu'il exerce sur elle dépasse la logique raisonnable.", "opp": "Répulsion"},
-                {"word": "Incompréhension", "def": "Absence de partage ou de tolérance de l'entourage.", "ex": "Son entourage manifeste de l'incompréhension face à cet amour unilatéral.", "opp": "Compréhension"},
-                {"word": "Dévouement", "def": "Attitude de fidélité absolue et désintéressée.", "ex": "Son dévouement envers Ziggy reste intact même sans réciprocité.", "opp": "Égoïsme"},
-                {"word": "Singularité", "def": "Caractère unique et irremplaçable d'un être.", "ex": "La singularité de Ziggy en fait un être à part dans le monde.", "opp": "Banalité"},
-                {"word": "Souffrance", "def": "Douleur morale provoquée par un amour impossible.", "ex": "Accepter qu'il en aime un autre implique une vraie souffrance.", "opp": "Joie"},
-                {"word": "Idéalisation", "def": "Action de concevoir quelqu'un sous un jour parfait.", "ex": "L'idéalisation du partenaire masque les déceptions du quotidien.", "opp": "Lucidité"},
-                {"word": "Acceptation", "def": "Fait d'accueillir l'autre tel qu'il est sans jugement.", "ex": "Son chant est une magnifique leçon d'acceptation inconditionnelle.", "opp": "Rejet"}
-            ],
-            "round1": [
-                ("Dans 'Un garçon pas comme les autres' (Ziggy), la narratrice aime un homme marginal. Pourquoi la <strong>singularité</strong> et la <strong>différence</strong> attirent-elles parfois plus que la conformité ?", "★ Êtes-vous plus souvent attiré par la <strong>singularité</strong> des gens ou par leur stabilité ?"),
-                ("La chanson décrit une véritable <strong>fascination</strong> amoureuse qui frôle l'<strong>obsession</strong>. Où se situe la frontière entre amour sincère et dépendance affective ?", "★ Selon vous, l'<strong>obsession</strong> romantique est-elle une preuve de passion ou une illusion destructrice ?"),
-                ("Face à l'<strong>incompréhension</strong> de l'entourage, elle maintient un <strong>dévouement</strong> total. Faut-il écouter les avis extérieurs sur nos choix affectifs ?", "★ Comment réagissez-vous face à l'<strong>incompréhension</strong> de vos proches concernant vos choix de vie ?"),
-                ("L'<strong>idéalisation</strong> du partenaire peut masquer une douloureuse <strong>souffrance</strong> d'être ignorée. Pourquoi s'accroche-t-on parfois à un amour impossible ?", "★ Comment sortir de l'<strong>idéalisation</strong> pour voir la réalité en face ?"),
-                ("La chanson offre une leçon touchante d'<strong>acceptation</strong> inconditionnelle. Aimer quelqu'un, est-ce l'accepter pleinement même s'il ne peut pas nous aimer en retour ?", "★ Qu'est-ce que l'<strong>acceptation</strong> de l'autre signifie pour vous au quotidien ?")
-            ],
-            "round2": [
-                "L'amour pour un être pas comme les autres implique toujours une part de <strong>souffrance</strong> et de sacrifice. Débattons-en.",
-                "L'<strong>idéalisation</strong> romantique empêche de construire des relations équilibrées basées sur la réalité. Qu'en pensez-vous ?",
-                "L'<strong>acceptation</strong> inconditionnelle de la <strong>différence</strong> est la forme la plus haute d'amour. Partagez votre avis."
-            ],
-            "lang_focus_title": "La caractérisation et la comparaison négative",
-            "lang_focus_desc": "Pour mettre en valeur la singularité de quelqu'un, on utilise des tournures comparatives négatives comme 'pas comme...', 'différent de...' et 'contrairement à...'.",
-            "lang_focus_examples": [
-                "C'est un garçon pas comme les autres, il vit selon ses propres règles.",
-                "Différent de tous ceux que j'ai connus, il m'inspire un respect profond.",
-                "Contrairement aux apparences, son monde intérieur est d'une grande richesse."
-            ],
-            "challenge_text": "La confidence amicale : Un ami vous avoue être amoureux d'une personne très différente des critères habituels de sa famille. Donnez-lui un soutien chaleureux et lucide.",
-            "mistakes": [
-                ("Il est un garçon pas comme <span class=\"mistake-highlight\">les autres garçons</span>", "C'est un garçon pas comme les autres", "(Évitez la répétition du nom en utilisant le pronom 'les autres'.)"),
-                ("Elle est amoureuse <span class=\"mistake-highlight\">avec</span> lui", "Elle est amoureuse de lui", "(L'expression 'être amoureux' se construit obligatoirement avec la préposition 'de'.)"),
-                ("Même <span class=\"mistake-highlight\">s'il ne m'aime pas</span>, je l'aime", "Même s'il ne m'aime pas, je l'aime", "(Placez correctement les pronoms personnels compléments avant le verbe conjugué.)")
-            ]
-        },
-        "les-uns-contre-les-autres": {
-            "slug": "les-uns-contre-les-autres",
-            "theme_title": "❤️ Thème: Le besoin de tendresse & Le réconfort humain",
-            "theme_bullets": ["Tendresse", "Étreinte", "Fraternité", "Personal reflection"],
-            "vocab": [
-                {"word": "Tendresse", "def": "Sentiment d'affection douce et bienveillante.", "ex": "Dans 'Les uns contre les autres', la tendresse apparaît comme un rempart.", "opp": "Brutalité"},
-                {"word": "Chaleur", "def": "Sensation de réconfort humain et de présence physique.", "ex": "Chercher la chaleur de l'autre permet d'oublier le froid du monde.", "opp": "Froideur"},
-                {"word": "Solitude", "def": "État d'isolement que la présence d'autrui tente d'apaiser.", "ex": "Chacun cherche à fuir sa propre solitude dans les bras de l'autre.", "opp": "Union"},
-                {"word": "Étreinte", "def": "Action de serrer quelqu'un affectueusement dans ses bras.", "ex": "Une étreinte sincère offre un apaisement immédiat dans l'épreuve.", "opp": "Éloignement"},
-                {"word": "Vulnérabilité", "def": "État de ce qui est fragile et exposé aux blessures.", "ex": "La nuit met à nu notre vulnérabilité et notre besoin de réconfort.", "opp": "Invulnérabilité"},
-                {"word": "Réconfort", "def": "Soulagement apporté à la peine ou à l'angoisse.", "ex": "Se Blottir offre un réconfort passager mais essentiel.", "opp": "Affliction"},
-                {"word": "Fraternité", "def": "Lien de solidarité humaine profonde et universelle.", "ex": "La chanson appelle à une vraie fraternité devant la fragilité de la vie.", "opp": "Hostilité"},
-                {"word": "Illusion", "def": "Sentiment temporaire de protection contre l'angoisse.", "ex": "L'abri des bras de l'autre est une belle illusion réconfortante.", "opp": "Désillusion"},
-                {"word": "Obscurité", "def": "Symbole de l'inconnu, du vide et de la peur nocturne.", "ex": "Face à l'obscurité, le rapprochement physique devient vital.", "opp": "Lumière"},
-                {"word": "Proximité", "def": "Fait d'être proche physiquement ou émotionnellement.", "ex": "La proximité des corps apaise la solitude de l'esprit.", "opp": "Distance"}
-            ],
-            "round1": [
-                ("'Les uns contre les autres' montre que la recherche de <strong>chaleur</strong> humaine est notre ultime rempart contre l'angoisse. Pourquoi le contact physique et la <strong>tendresse</strong> sont-ils si essentiels ?", "★ Quel est le geste de <strong>tendresse</strong> qui vous apporte le plus de réconfort ?"),
-                ("La chanson rappelle que dans le noir, nous finissons tous par chercher une <strong>étreinte</strong>. Pourquoi la nuit met-elle à nu notre <strong>vulnérabilité</strong> ?", "★ Comment gérez-vous les moments de <strong>vulnérabilité</strong> le soir venus ?"),
-                ("Le refrain met en lumière la <strong>solitude</strong> fondamentale que chacun tente de combler. La <strong>proximité</strong> physique peut-elle suffire à effacer la solitude intérieure ?", "★ Pensez-vous qu'on puisse être seul même en étant entouré ?"),
-                ("Chercher du <strong>réconfort</strong> 'les uns contre les autres' crée un élan spontané de <strong>fraternité</strong>. Pourquoi attend-on souvent les épreuves pour se rapprocher ?", "★ Comment cultiver la <strong>fraternité</strong> au quotidien sans attendre les moments de crise ?"),
-                ("La protection offerte par les bras de l'autre est-elle une belle <strong>illusion</strong> éphémère ou une force bien réelle ?", "★ Acceptez-vous la nature <strong>éphémère</strong> des moments d'apaisement ?")
-            ],
-            "round2": [
-                "Le besoin de se blottir <strong>les uns contre les autres</strong> prouve que la solitude absolue est insupportable pour l'être humain. Débattons-en.",
-                "La <strong>tendresse</strong> et l'<strong>étreinte</strong> sont des besoins biologiques aussi vitaux que se nourrir ou dormir. Qu'en pensez-vous ?",
-                "La <strong>fraternité</strong> humaine naît de la prise de conscience de notre propre <strong>vulnérabilité</strong>. Partagez votre avis."
-            ],
-            "lang_focus_title": "Les pronoms réciproques et indéfinis",
-            "lang_focus_desc": "Pour exprimer une action réciproque ou partagée entre plusieurs personnes, on emploie 'les uns contre les autres', 'les uns les autres' et 'se + verbe'.",
-            "lang_focus_examples": [
-                "Nous finissons tous par nous Blottir les uns contre les autres.",
-                "Ils s'aident les uns les autres à traverser les moments sombres.",
-                "Chacun cherche un peu de réconfort auprès de son voisin."
-            ],
-            "challenge_text": "Le cercle de parole : Organisez un moment d'échange chaleureux où chaque participant partage une pensée bienveillante pour soutenir un ami traversant un moment difficile.",
-            "mistakes": [
-                ("On doit se serrer <span class=\"mistake-highlight\">les uns avec les autres</span>", "On doit se serrer les uns contre les autres", "(La formule exacte consacrée est 'les uns contre les autres'.)"),
-                ("Ils s'aiment <span class=\"mistake-highlight\">chacun autre</span>", "Ils s'aiment les uns les autres", "(Utilisez le pronom réciproque 'les uns les autres' pour exprimer la réciprocité.)"),
-                ("J'ai besoin <span class=\"mistake-highlight\">de la</span> tendresse", "J'ai besoin de tendresse", "(Après 'besoin de', le nom indéterminé prend 'de' sans article défini.)")
-            ]
-        }
+
+    "la-nuit-nen-finit-plus.html": {
+        "title_theme": "Nuits blanches & Désir d'exister",
+        "theme_bullets": ["L'insomnie contemplative", "La solitude urbaine", "La quête d'amour", "L'attente de l'aube"],
+        "vocab": [
+            {"word": "L'insomnie", "def": "Incapacité chronique ou passagère de trouver le sommeil.", "ex": "L'insomnie transforme le silence de la chambre en un espace de réflexion.", "opp": "Le sommeil"},
+            {"word": "Le vide", "def": "Sensation d'absence de sens ou de compagnie.", "ex": "Petula Clark ressent le vide de ces heures nocturnes qui s'étirent.", "opp": "La plénitude"},
+            {"word": "Guetter", "def": "Observer avec attention dans l'attente d'un signe.", "ex": "Seule à sa fenêtre, elle semble guetter la moindre lumière.", "opp": "Ignorer"},
+            {"word": "S'étirer", "def": "Se prolonger dans le temps de façon lente et monotone.", "ex": "La nuit n'en finit plus et semble s'étirer sans fin.", "opp": "Raccourcir"},
+            {"word": "L'obscurité", "def": "Absence totale ou partielle de lumière.", "ex": "L'obscurité de la ville accentue le sentiment de solitude.", "opp": "La clarté"},
+            {"word": "La mélancolie", "def": "Tristesse vague, accompagnée de rêverie sombre.", "ex": "Une douce mélancolie s'empare d'elle lorsque la nuit tombe.", "opp": "L'enthousiasme"},
+            {"word": "L'attente", "def": "Action de guetter la venue de quelqu'un ou d'un événement.", "ex": "L'attente de l'aube apporte un mince espoir de renouveau.", "opp": "L'accomplissement"},
+            {"word": "Solitaire", "def": "Qui vit ou se trouve seul sans compagnie.", "ex": "Elle pense aux milliers d'êtres solitaires qui ne dorment pas.", "opp": "Entouré"},
+            {"word": "Éphémère", "def": "Qui ne dure que très peu de temps.", "ex": "Elle cherche un réconfort, même éphémère, pour traverser la nuit.", "opp": "Durable"},
+            {"word": "Le mirage", "def": "Illusion séduisante et trompeuse.", "ex": "Espérer une visite nocturne est souvent un simple mirage.", "opp": "La réalité"}
+        ],
+        "round1": [
+            ("Dans 'La nuit n'en finit plus', Petula Clark décrit une nuit d'insomnie où 'la nuit se traîne' et où l'on attend que quelque chose vienne. En quoi l'obscurité amplifie-t-elle la sensation de <strong>solitude</strong> ?", "★ Avez-vous déjà ressenti cette forme particulière de <strong>mélancolie</strong> tard le soir ou pendant une nuit blanche ?"),
+            ("La chanteuse s'exclame : 'J'ai envie d'aimer, j'ai envie de vivre !'. Pourquoi le manque d'amour devient-il plus lourd à porter pendant <strong>l'insomnie</strong> ?", "★ L'isolement nocturne permet-il de mieux comprendre nos désirs profonds ou nous plonge-t-il dans des illusions ?"),
+            ("Petula Clark pense à tous les 'êtres sur la terre qui comme moi ce soir sont solitaires'. Cette pensée crée-t-elle une solidarité invisible entre les personnes <strong>solitaires</strong> ?", "★ Savoir que d'autres partagent la même souffrance aide-t-il à combler le <strong>vide</strong> intérieur ?"),
+            ("Le texte parle de 'tout ce temps gâché et perdu'. Comment éviter que <strong>l'attente</strong> passive d'un changement ne transforme notre quotidien en regret ?", "★ Quel est votre meilleur moyen de transformer une période de doute en une source d'énergie créative ?"),
+            ("La chanson oscille entre le désespoir de la nuit et l'espoir du matin. Pourquoi le lever du jour offre-t-il souvent une délivrance face aux <strong>mirages</strong> de la nuit ?", "★ Le matin vous apporte-t-il généralement un regain d'optimisme après une nuit difficile ?")
+        ],
+        "round2": [
+            "La solitude nocturne est indispensable pour faire un véritable bilan de sa vie et développer sa sensibilité. Débattons-en.",
+            "L'incapacité de dormir seul révèle une trop grande dépendance au regard et à la présence des autres. Qu'en pensez-vous ?",
+            "Les grandes villes modernes ont rendu les nuits plus lumineuses mais n'ont pas diminué <strong>l'insomnie</strong> ni la <strong>solitude</strong> des individus. Partagez votre avis."
+        ],
+        "lang_focus_title": "La structure 'ne ... en ... plus' et l'expression de la durée",
+        "lang_focus_desc": "La formule 'n'en finir plus' exprime une durée perçue comme excessive, interminable ou pénible (ex: 'La nuit n'en finit plus', 'Cette réunion n'en finit plus').",
+        "lang_focus_examples": [
+            "La pluie n'en finit plus de tomber sur la ville.",
+            "Ces négociations n'en finissent plus de s'éterniser.",
+            "Mon attente n'en finit plus depuis ce matin."
+        ],
+        "final_challenge": "Écrivez et jouez un court monologue dramatique où un personnage seul à sa fenêtre parle à la nuit qui ne finit pas, oscillant entre nostalgie et désir de vivre.",
+        "mistakes": [
+            ("La nuit ne fini pas <span class=\"mistake-highlight\">plus</span>.", "La nuit <span class=\"mistake-highlight\">n'en finit plus</span>.", "(N'oubliez pas le pronom 'en' dans l'expression consacrée 'n'en finir plus'.)"),
+            ("J'ai envie <span class=\"mistake-highlight\">d'aimer les</span> gens.", "J'ai envie <span class=\"mistake-highlight\">d'aimer</span> tout simplement.", "(Après 'avoir envie de', utilisez directement un verbe à l'infinitif.)"),
+            ("Je pense <span class=\"mistake-highlight\">sur</span> les autres solitaires.", "Je pense <span class=\"mistake-highlight\">aux</span> autres personnes solitaires.", "(Utilisez la préposition 'à' après le verbe 'penser'.)")
+        ]
     },
-    "zazie-challenge": {
-        "je-suis-un-homme": {
-            "slug": "je-suis-un-homme",
-            "theme_title": "❤️ Thème: La surconsommation, La nature & L'illusion du progrès",
-            "theme_bullets": ["Consommation", "Prédateur", "Vanité", "Personal reflection"],
-            "vocab": [
-                {"word": "Consommation", "def": "Action d'utiliser et d'acheter des biens matériels.", "ex": "Dans 'Je suis un homme', Zazie critique la surconsommation moderne.", "opp": "Sobriété"},
-                {"word": "Illusion", "def": "Fausse croyance en un progrès technique sans limites.", "ex": "L'illusion de contrôler la nature nous mène à l'impasse.", "opp": "Vérité"},
-                {"word": "Domination", "def": "Volonté de contrôler les ressources et le monde.", "ex": "La domination humaine sur la planète montre aujourd'hui ses limites.", "opp": "Soumission"},
-                {"word": "Destruction", "def": "Action de ravager les écosystèmes et la biodiversité.", "ex": "La destruction de la faune est le résultat de notre avidité.", "opp": "Protection"},
-                {"word": "Saturation", "def": "État d'un système qui ne peut plus absorber d'excès.", "ex": "La saturation des déchets menace l'équilibre environnemental.", "opp": "Fluidité"},
-                {"word": "Possession", "def": "Désir d'accumuler des objets et des richesses.", "ex": "L'obsession de la possession ne garantit aucun bonheur réel.", "opp": "Partage"},
-                {"word": "Engrenage", "def": "Enchaînement inévitable dont on ne peut se libérer.", "ex": "La société est prise dans l'engrenage de la croissance perpétuelle.", "opp": "Libération"},
-                {"word": "Vanité", "def": "Caractère de ce qui est frivole, vide et illusoire.", "ex": "Construire des tours en béton reflète la vanité de nos ambitions.", "opp": "Humilité"},
-                {"word": "Conscience", "def": "Prise de compte morale et éthique de nos actes.", "ex": "Il est temps de développer une conscience écologique éveillée.", "opp": "Inconscience"},
-                {"word": "Prédateur", "def": "Être vivant qui exploite les autres pour ses besoins.", "ex": "L'homme se comporte en prédateur suprême au sommet de la chaîne.", "opp": "Protecteur"}
-            ],
-            "round1": [
-                ("Dans 'Je suis un homme', Zazie dresse le portrait de l'être humain comme un <strong>prédateur</strong> au sommet de la chaîne alimentaire. Pourquoi l'obsession de <strong>domination</strong> menace-t-elle notre propre survie ?", "★ Pensez-vous que l'homme soit un <strong>prédateur</strong> par nature ou par culture ?"),
-                ("La chanson dénonce la <strong>consommation</strong> effrénée et l'accumulation de gadgets. Comment sortir de l'<strong>engrenage</strong> qui nous pousse à acheter toujours plus ?", "★ Quel objet superflu possédez-vous dont vous pourriez facilement vous passer ?"),
-                ("Zazie souligne la <strong>vanité</strong> de nos créations en béton face à la force de la planète. Pourquoi gardons-nous l'<strong>illusion</strong> que le progrès résoudra tout ?", "★ Quelle est selon vous la plus grande <strong>illusion</strong> du monde moderne ?"),
-                ("La chanson met en garde contre la <strong>saturation</strong> des ressources et la <strong>destruction</strong> des écosystèmes. La prise de <strong>conscience</strong> individuelle suffit-elle à inverser la tendance ?", "★ Qu'avez-vous changé dans vos habitudes par <strong>conscience</strong> écologique ?"),
-                ("'Je suis un homme et je mesure l'ombre que je fais'. En quoi reconnaître sa propre part de responsabilité est-il le premier pas vers la sagesse ?", "★ Comment assumez-vous votre propre impact sur votre environnement ?")
-            ],
-            "round2": [
-                "La société de <strong>consommation</strong> a transformé l'homme en un <strong>prédateur</strong> insatiable au détriment de sa propre humanité. Débattons-en.",
-                "L'idée d'un progrès technique infini sur une planète finie est une pure <strong>vanité</strong> et une <strong>illusion</strong> néfaste. Qu'en pensez-vous ?",
-                "Seule une prise de <strong>conscience</strong> collective radicale peut nous sortir de cet <strong>engrenage</strong> destructeur. Partagez votre avis."
-            ],
-            "lang_focus_title": "La restriction avec 'Ne... que' et la mesure",
-            "lang_focus_desc": "Pour exprimer une restriction ou la prise de conscience d'une limite, on emploie 'ne... que' et des verbes de mesure ('mesurer', 'évaluer').",
-            "lang_focus_examples": [
-                "L'homme ne fait que consommer sans penser aux générations futures.",
-                "Je ne mesure que maintenant l'impact de mes choix quotidiens.",
-                "Nous ne sommes que de passage sur cette planète fragile."
-            ],
-            "challenge_text": "Le plaidoyer pour la Terre : Prononcez un discours engagé lors d'un sommet citoyen pour convaincre vos proches d'adopter un mode de vie plus sobre et conscient.",
-            "mistakes": [
-                ("L'homme <span class=\"mistake-highlight\">ne fait que consomme</span>", "L'homme ne fait que consommer", "(Après la structure 'ne faire que', le verbe suivant doit être à l'infinitif.)"),
-                ("On détruit <span class=\"mistake-highlight\">la nature sans conscience</span>", "On détruit la nature de manière inconsciente", "(Préférez un adjectif ou un adverbe bien formé pour exprimer la manière.)"),
-                ("Je suis un homme <span class=\"mistake-highlight\">qui a beaucoup des</span> possessions", "Je suis un homme qui a beaucoup de possessions", "(Utilisez la préposition invariable 'de' après l'adverbe de quantité 'beaucoup'.)")
-            ]
-        },
-        "nos-ames-sont": {
-            "slug": "nos-ames-sont",
-            "theme_title": "❤️ Thème: La connexion spirituelle & La vulnérabilité des âmes",
-            "theme_bullets": ["Âme", "Connexion", "Profondeur", "Personal reflection"],
-            "vocab": [
-                {"word": "Âme", "def": "Principe de vie, de pensée et de sensibilité.", "ex": "Dans 'nos âmes sont', Zazie chante la vulnérabilité de nos âmes.", "opp": "Corps"},
-                {"word": "Connexion", "def": "Lien ou entente profonde entre deux personnes.", "ex": "Leurs esprits partagent une connexion spirituelle instantanée.", "opp": "Rupture"},
-                {"word": "Profondeur", "def": "Caractère de ce qui est sérieux et essentiel.", "ex": "La profondeur de son texte touche le cœur des auditeurs.", "opp": "Superficialité"},
-                {"word": "Mystère", "def": "Ce qui est caché ou difficile à expliquer rationnellement.", "ex": "L'attirance entre deux êtres garde une part de mystère.", "opp": "Évidence"},
-                {"word": "Douleur", "def": "Souffrance morale ou émotionnelle intime.", "ex": "Partager sa douleur permet d'alléger le poids du chagrin.", "opp": "Soulagement"},
-                {"word": "Élévation", "def": "Action de s'élever moralement ou spirituellement.", "ex": "La musique favorise une véritable élévation de l'esprit.", "opp": "Chute"},
-                {"word": "Sensibilité", "def": "Aptitude à ressentir des émotions intenses.", "ex": "Sa grande sensibilité lui permet d'exprimer ce que d'autres taisent.", "opp": "Insensibilité"},
-                {"word": "Lien", "def": "Ce qui unit deux personnes au-delà des mots.", "ex": "Le lien qui les unit résiste au temps et à la distance.", "opp": "Séparation"},
-                {"word": "Vérité", "def": "Qualité de ce qui est authentique et sincère.", "ex": "Rechercher la vérité intérieure exige de la nudité émotionnelle.", "opp": "Mensonge"},
-                {"word": "Invisible", "def": "Ce qui ne se voit pas avec les yeux mais se ressent.", "ex": "L'essentiel dans une relation reste souvent invisible aux yeux.", "opp": "Visible"}
-            ],
-            "round1": [
-                ("Dans 'nos âmes sont', Zazie explore ce que nos <strong>âmes</strong> conservent d'<strong>invisible</strong> aux yeux du monde. Pourquoi l'essentiel d'une personne se trouve-t-il dans son monde intérieur ?", "★ Qu'est-ce qui révèle le mieux la <strong>profondeur</strong> de votre <strong>âme</strong> selon vous ?"),
-                ("La chanson montre que la véritable <strong>connexion</strong> naît du partage de la <strong>douleur</strong> et des épreuves. Faut-il avoir souffert ensemble pour se comprendre vraiment ?", "★ Quelle rencontre a créé chez vous une <strong>connexion</strong> immédiate et inexplicable ?"),
-                ("Zazie aborde le <strong>mystère</strong> des affinités qui dépassent la logique. Pourquoi cherchons-nous toujours une explication rationnelle au <strong>lien</strong> amoureux ou amical ?", "★ Acceptez-vous facilement la part de <strong>mystère</strong> dans vos relations ?"),
-                ("L'authenticité demande une quête constante de <strong>vérité</strong> et une grande <strong>sensibilité</strong>. La <strong>sensibilité</strong> est-elle une force ou une vulnérabilité dans le monde actuel ?", "★ Comment protégez-vous votre <strong>sensibilité</strong> sans vous fermer aux autres ?"),
-                ("Les paroles suggèrent une forme d'<strong>élévation</strong> spirituelle par l'écoute et l'empathie. Comment cultiver cette <strong>élévation</strong> au quotidien ?", "★ Qu'est-ce qui vous aide à vous élever au-dessus des petits soucis quotidiens ?")
-            ],
-            "round2": [
-                "La <strong>connexion</strong> entre deux <strong>âmes</strong> est une réalité spirituelle plus forte que la simple alchimie physique. Débattons-en.",
-                "L'authenticité d'un <strong>lien</strong> humain repose nécessairement sur l'acceptation de notre propre <strong>douleur</strong> et vulnérabilité. Qu'en pensez-vous ?",
-                "L'<strong>invisible</strong> et le <strong>mystère</strong> jouent un rôle plus important dans nos vies que ce que nous pouvons mesurer ou expliquer. Partagez votre avis."
-            ],
-            "lang_focus_title": "La voix passive et les états de l'âme",
-            "lang_focus_desc": "Pour exprimer un état subi ou une transformation spirituelle, on emploie la voix passive et des verbes d'état ('être habité', 'être relié').",
-            "lang_focus_examples": [
-                "Nos âmes sont reliées par un fil invisible et indestructible.",
-                "Elle est habitée par une quête de vérité et de lumière.",
-                "Les blessures du passé sont apaisées par cette rencontre."
-            ],
-            "challenge_text": "L'échange poétique : Partagez avec un partenaire une métaphore ou un souvenir personnel qui illustre le sentiment d'être en connexion profonde avec quelqu'un.",
-            "mistakes": [
-                ("Nos âmes <span class=\"mistake-highlight\">sont connecté</span>", "Nos âmes sont connectées", "(Accordez le participe passé 'connectées' au féminin pluriel avec le sujet 'nos âmes'.)"),
-                ("C'est une chose <span class=\"mistake-highlight\">invisible pour</span> les yeux", "C'est une chose invisible aux yeux", "(L'adjectif 'invisible' se construit avec la préposition 'à' : invisible aux yeux.)"),
-                ("Elle a une grande <span class=\"mistake-highlight\">sensibilité de</span> musique", "Elle a une grande sensibilité à la musique", "(L'adjectif ou le nom 'sensibilité' demande la préposition 'à'.)")
-            ]
-        },
-        "couleur": {
-            "slug": "couleur",
-            "theme_title": "❤️ Thème: La justice sociale, La diversité & La paix",
-            "theme_bullets": ["Égalité", "Diversité", "Fraternité", "Personal reflection"],
-            "vocab": [
-                {"word": "Égalité", "def": "Principe selon lequel tous les êtres ont les mêmes droits.", "ex": "Dans 'Rue de la Paix', Zazie réclame une vraie égalité pour tous.", "opp": "Discrimination"},
-                {"word": "Diversité", "def": "Richesse apportée par la pluralité des origines et idées.", "ex": "La diversité des cultures est la plus belle force d'une nation.", "opp": "Uniformité"},
-                {"word": "Conflit", "def": "Affrontement ou désaccord violent entre groupes.", "ex": "Dépasser le conflit exige de l'écoute et du respect mutuel.", "opp": "Harmonie"},
-                {"word": "Tolérance", "def": "Attitude de respect face aux opinions différentes.", "ex": "La tolérance est le socle indispensable de la vie en société.", "opp": "Intolérance"},
-                {"word": "Préjugé", "def": "Jugement préconçu qui fausse la vision des autres.", "ex": "Combattre les préjugés demande un effort permanent d'éducation.", "opp": "Objectivité"},
-                {"word": "Fraternité", "def": "Lien moral qui unit tous les membres de l'humanité.", "ex": "Sa chanson est un hymne joyeux à la fraternité universelle.", "opp": "Division"},
-                {"word": "Injustice", "def": "Situation qui viole l'équité et le droit légitime.", "ex": "Dénoncer l'injustice sociale est le devoir de chaque citoyen.", "opp": "Justice"},
-                {"word": "Solidarité", "def": "Engagement mutuel à se soutenir les uns les autres.", "ex": "La solidarité entre les quartiers est la clé de la cohésion.", "opp": "Égoïsme"},
-                {"word": "Engagement", "def": "Action de prendre parti activement pour une cause noble.", "ex": "Son engagement artistique s'exprime à travers des textes percutants.", "opp": "Passivité"},
-                {"word": "Harmonisation", "def": "Recherche d'un équilibre paisible entre les éléments.", "ex": "L'harmonisation des rapports humains commence par le dialogue.", "opp": "Chaos"}
-            ],
-            "round1": [
-                ("Dans 'Rue de la Paix', Zazie dénonce l'<strong>injustice</strong> sociale et les inégalités de traitement. Pourquoi la promesse d'<strong>égalité</strong> est-elle encore si difficile à concrétiser ?", "★ Quelle <strong>injustice</strong> du quotidien vous révolte le plus ?"),
-                ("La chanson appelle à dépasser les <strong>préjugés</strong> de race, de classe et de <strong>couleur</strong>. Comment la <strong>diversité</strong> culturelle peut-elle devenir une force d'union ?", "★ Qu'est-ce que la <strong>diversité</strong> vous a apporté sur le plan personnel ?"),
-                ("Zazie montre que le <strong>conflit</strong> naît souvent du manque de <strong>tolérance</strong> et de dialogue. Comment désamorcer un <strong>conflit</strong> stérile dans son entourage ?", "★ Quelle est votre méthode pour encourager la <strong>tolérance</strong> lors d'une discussion animée ?"),
-                ("L'auteur réclame une véritable <strong>fraternité</strong> incarnée dans la <strong>solidarité</strong> concrète. Faire preuve de <strong>solidarité</strong>, est-ce une obligation morale ou un choix ?", "★ À quand remonte la dernière fois que vous avez accompli un acte de <strong>solidarité</strong> spontané ?"),
-                ("'Rue de la Paix' est un hymne à l'<strong>engagement</strong> citoyen et à l'<strong>harmonisation</strong> des rapports humains. Quel rôle l'artiste doit-il jouer dans le débat public ?", "★ Pensez-vous qu'un artiste doive utiliser sa voix pour porter un <strong>engagement</strong> politique ?")
-            ],
-            "round2": [
-                "La conquête de l'<strong>égalité</strong> réelle exige de dénoncer sans cesse l'<strong>injustice</strong> sociale plutôt que de prôner un calme artificiel. Débattons-en.",
-                "La <strong>diversité</strong> est la condition fondamentale de la <strong>fraternité</strong> dans une démocratie moderne. Qu'en pensez-vous ?",
-                "L'<strong>engagement</strong> individuel est plus efficace que les lois pour combattre les <strong>préjugés</strong>. Partagez votre avis."
-            ],
-            "lang_focus_title": "La concession avec 'Même si' et l'espoir",
-            "lang_focus_desc": "Pour exprimer la persévérance malgré les obstacles sociaux, on utilise 'même si + indicatif' et des verbes d'action au présent.",
-            "lang_focus_examples": [
-                "Même si la rue est longue, nous marcherons ensemble vers la paix.",
-                "Même si les préjugés persistent, les nouvelles générations changent la donne.",
-                "Nous continuons de croire en l'égalité bien que le chemin soit difficile."
-            ],
-            "challenge_text": "Le projet de la Rue de la Paix : Proposez une initiative citoyenne concrète pour favoriser le vivre-ensemble et l'entraide dans votre propre quartier.",
-            "mistakes": [
-                ("Même si <span class=\"mistake-highlight\">il y a du conflit</span>, il faut la paix", "Même s'il y a des conflits, il faut chercher la paix", "(Employez le pluriel 'des conflits' pour désigner les désaccords en général.)"),
-                ("On doit se battre <span class=\"mistake-highlight\">pour l'injustice</span>", "On doit se battre contre l'injustice", "(Utilisez la préposition 'contre' devant 'injustice' pour indiquer le combat.)"),
-                ("La solidarité est importante <span class=\"mistake-highlight\">pour tous les personnes</span>", "La solidarité est importante pour toutes les personnes", "(Accordez l'adjectif indéfini au féminin pluriel : 'toutes les personnes'.)")
-            ]
-        },
-        "speed": {
-            "slug": "speed",
-            "theme_title": "❤️ Thème: L'éveil de l'énergie vitale & Le courage de réaimer",
-            "theme_bullets": ["Battement", "Élan", "Renaissance", "Personal reflection"],
-            "vocab": [
-                {"word": "Battement", "def": "Pulsation du cœur marquant la vie et l'émotion.", "ex": "Dans 'Speed', Zazie ordonne à son cœur d'accélérer ses battements.", "opp": "Arrêt"},
-                {"word": "Élan", "def": "Mouvement spontané et passionné vers l'avant.", "ex": "Elle retrouve un nouvel élan vital après une longue léthargie.", "opp": "Inertie"},
-                {"word": "Vitalité", "def": "Force et énergie de la vie qui anime un être.", "ex": "Sa chanson déborde d'une vitalité communicative et puissante.", "opp": "Épuisement"},
-                {"word": "Renaissance", "def": "Fait de reprendre vie et d'ouvrir un nouveau chapitre.", "ex": "'Speed' célèbre la renaissance du cœur après le chagrin.", "opp": "Déclin"},
-                {"word": "Crainte", "def": "Appréhension ou peur de souffrir à nouveau.", "ex": "Vaincre la crainte d'aimer est nécessaire pour avancer.", "opp": "Assurance"},
-                {"word": "Rythme", "def": "Cadence d'une musique ou pulsation de l'existence.", "ex": "Le rythme accéléré du morceau mime la course du cœur.", "opp": "Monotonie"},
-                {"word": "Audace", "def": "Courage d'agir malgré les risques et les blessures.", "ex": "Faire preuve d'audace permet de briser la solitude.", "opp": "Prudence"},
-                {"word": "Impulsion", "def": "Poussée soudaine qui incite à agir sans hésiter.", "ex": "Elle cède à l'impulsion de vivre pleinement l'instant présent.", "opp": "Inhibition"},
-                {"word": "Mouvement", "def": "Dynamisme et changement opposés à la stagnation.", "ex": "La vie est un mouvement perpétuel qui refuse la résignation.", "opp": "Immobilité"},
-                {"word": "Espoir", "def": "Confiance renewed dans la possibilité d'un bonheur.", "ex": "Retrouver l'espoir rallume la flamme au fond des yeux.", "opp": "Désespoir"}
-            ],
-            "round1": [
-                ("Dans 'Speed', Zazie ordonne à son propre cœur d'accélérer ses <strong>battements</strong>. Pourquoi avons-nous parfois besoin de nous faire violence pour retrouver la <strong>vitalité</strong> ?", "★ Qu'est-ce qui réveille votre <strong>vitalité</strong> quand vous vous sentez éteint ?"),
-                ("La chanson célèbre la <strong>renaissance</strong> affective après une longue période d'engourdissement. Pourquoi la <strong>crainte</strong> de souffrir nous empêche-t-elle souvent de réaimer ?", "★ Avez-vous déjà dû surmonter la <strong>crainte</strong> d'être blessé pour vous réouvrir aux autres ?"),
-                ("Le <strong>rythme</strong> frénétique du morceau incarne l'<strong>élan</strong> irrépressible de la vie. Comment retrouver cet <strong>élan</strong> intérieur quand la routine s'installe ?", "★ Quel est le domaine de votre vie où vous aimeriez donner un nouvel <strong>élan</strong> ?"),
-                ("Zazie invite à faire preuve d'<strong>audace</strong> et à suivre son <strong>impulsion</strong>. L'<strong>impulsion</strong> du moment est-elle une meilleure conseillère que la réflexion prolongée ?", "★ Êtes-vous plutôt une personne guidée par l'<strong>impulsion</strong> ou par le calcul prévoyant ?"),
-                ("'Speed' montre que la vie est un <strong>mouvement</strong> perpétuel porté par l'<strong>espoir</strong>. Pourquoi la stagnation est-elle le pire ennemi de l'épanouissement ?", "★ Comment vous assurez-vous de toujours rester en <strong>mouvement</strong> et en apprentissage ?")
-            ],
-            "round2": [
-                "La véritable <strong>renaissance</strong> exige de faire preuve d'<strong>audace</strong> et d'ignorer la <strong>crainte</strong> de l'échec. Débattons-en.",
-                "Suivre son <strong>impulsion</strong> et l'<strong>élan</strong> du cœur produit de meilleurs résultats que de trop analyser ses sentiments. Qu'en pensez-vous ?",
-                "La vie n'a de sens que dans le <strong>mouvement</strong> et la vitesse des <strong>battements</strong> de la passion. Partagez votre avis."
-            ],
-            "lang_focus_title": "L'impératif et l'encouragement vital",
-            "lang_focus_desc": "Pour encourager, stimuler ou ordonner l'action, on utilise l'impératif présent ('batte', 'cours', 'réchauffe-toi') et des verbes de mouvement.",
-            "lang_focus_examples": [
-                "Batte, batte mon cœur, accélère le rythme !",
-                "Réchauffe-toi et sors de cette léthargie sans attendre.",
-                "Vas-y, cours et ne regarde plus en arrière !"
-            ],
-            "challenge_text": "L'appel à l'énergie : Incarnez un coach ou un ami inspirant qui donne un discours d'encouragement électrisant à quelqu'un qui a perdu l'élan de vivre ou d'entreprendre.",
-            "mistakes": [
-                ("Mon cœur <span class=\"mistake-highlight\">bat plus vite de</span> normal", "Mon cœur bat plus vite que d'habitude", "(Dans une comparaison d'inégalité, utilisez la conjonction 'que'.)"),
-                ("Il faut <span class=\"mistake-highlight\">que tu bats</span> ton cœur", "Il faut que ton cœur batte", "(Au subjonctif présent, le verbe 'battre' prend les terminaisons '-e, -es, -e'.)"),
-                ("Elle ressent un grand <span class=\"mistake-highlight\">élan pour</span> la vie", "Elle ressent un grand élan vers la vie", "(La préposition 'vers' exprime parfaitement la direction du mouvement de l'élan.)")
-            ]
-        }
+
+    "laziza.html": {
+        "title_theme": "Diversité & Acceptation",
+        "theme_bullets": ["L'antiracisme", "L'amour interculturel", "La tolérance", "La dignité humaine"],
+        "vocab": [
+            {"word": "La tolérance", "def": "Capacité d'accepter les différences de cultures et d'opinions.", "ex": "Balavoine chante la tolérance face aux préjugés racistes.", "opp": "L'intolérance"},
+            {"word": "La métisse", "def": "Personne issue de l'union de deux origines culturelles différentes.", "ex": "L'Aziza symbolise la beauté et la richesse d'un monde métissé.", "opp": "L'homogénéité"},
+            {"word": "Les préjugés", "def": "Jugements préconçus sur un groupe ou une personne.", "ex": "L'amour triomphe des préjugés sociaux et des stéréotypes.", "opp": "L'ouverture"},
+            {"word": "La fraternité", "def": "Lien de solidarité et d'amitié entre les êtres humains.", "ex": "Cette chanson est un hymne puissant à la fraternité universelle.", "opp": "L'hostilité"},
+            {"word": "L'intégration", "def": "Processus d'incorporation harmonieuse dans une société.", "ex": "L'intégration réussie repose sur le respect mutuel des cultures.", "opp": "L'exclusion"},
+            {"word": "La dignité", "def": "Respect de soi-même et de sa valeur humaine fondamentale.", "ex": "Chacun doit pouvoir vivre avec dignité quelle que soit son origine.", "opp": "L'humiliation"},
+            {"word": "L'harmonie", "def": "Accord parfait et équilibre entre des éléments divers.", "ex": "L'harmonie interculturelle enrichit la société tout entière.", "opp": "Le conflit"},
+            {"word": "L'exclusion", "def": "Fait de rejeter une personne ou un groupe à la marge.", "ex": "Lutter contre l'exclusion exige un engagement quotidien.", "opp": "L'inclusion"},
+            {"word": "L'injustice", "def": "Caractère de ce qui est contraire à l'équité.", "ex": "Dénoncer l'injustice est le devoir de tout artiste engagé.", "opp": "La justice"},
+            {"word": "L'espoir", "def": "Sentiment de confiance dans l'avenir.", "ex": "La chanson porte un message d'espoir pour les générations futures.", "opp": "Le désespoir"}
+        ],
+        "round1": [
+            ("Dans 'L'Aziza', Daniel Balavoine chante pour sa femme d'origine algérienne : 'Ta couleur et tes mots tout me va, que tu vives ici ou là-bas'. En quoi cette déclaration dépasse-t-elle le cadre individuel pour devenir un hymne à la <strong>tolérance</strong> ?", "★ Selon vous, la musique populaire est-elle un outil efficace pour combattre les <strong>préjugés</strong> racistes ?"),
+            ("La chanson évoque la 'petite brune enroulée d'un drap' dans les rues de Casablanca et les regards curieux. Pourquoi la découverte de l'autre exige-t-elle de dépasser la peur de l'inconnu pour construire une vraie <strong>fraternité</strong> ?", "★ Avez-vous déjà vécu une expérience interculturelle qui a changé votre perception du monde ?"),
+            ("Balavoine affirme avec force : 'Je te veux pour toujours'. Comment l'amour sincère parvient-il à rendre absurdes les barrières de la culture ou de <strong>l'exclusion</strong> ?", "★ Pensez-vous que les différences culturelles soient un obstacle ou un enrichissement dans un couple ?"),
+            ("Le texte s'insurge contre la haine et prône la <strong>dignité</strong> de chaque être humain. Quel rôle la société doit-elle jouer pour favoriser une <strong>intégration</strong> réussie ?", "★ Quels gestes quotidiens permettent selon vous d'encourager <strong>l'harmonie</strong> entre des communautés différentes ?"),
+            ("Bien que sortie dans les années 80, 'L'Aziza' reste d'une actualité brûlante. Pourquoi la défense des droits fondamentaux et de <strong>l'espoir</strong> est-elle un combat sans cesse à recommencer ?", "★ Quelle chanson engagée vous a le plus marqué par son message d'ouverture ?")
+        ],
+        "round2": [
+            "L'amour individuel ne suffit pas à vaincre les discriminations systémiques si la loi et l'éducation ne changent pas. Débattons-en.",
+            "La notion de métissage culturel devrait être célébrée comme la norme de la société de demain plutôt que comme une exception. Qu'en pensez-vous ?",
+            "Les artistes contemporains sont moins engagés contre <strong>l'injustice</strong> et les <strong>préjugés</strong> que ceux des générations précédentes. Partagez votre avis."
+        ],
+        "lang_focus_title": "L'expression de la concession et de l'acceptation ('que ... ou ...')",
+        "lang_focus_desc": "Pour exprimer une acceptation inconditionnelle sans restriction de lieu ou d'origine, on utilise la tournure 'que + subjonctif ... ou ...' (ex: 'Que tu vives ici ou là-bas', 'Que tu sois d'accord ou non').",
+        "lang_focus_examples": [
+            "Que vous soyez d'ici ou d'ailleurs, vous êtes les bienvenus.",
+            "Qu'il pleuve ou qu'il fasse beau, la fête aura lieu.",
+            "Que tu le veuilles ou non, nous devons avancer ensemble."
+        ],
+        "final_challenge": "Rédigez un discours d'inauguration pour un centre culturel interculturel qui prône la tolérance, le respect des origines et le refus des discriminations.",
+        "mistakes": [
+            ("Ta couleur me va <span class=\"mistake-highlight\">bien que</span> tu vives là-bas.", "Ta couleur me va, <span class=\"mistake-highlight\">que</span> tu vives ici ou là-bas.", "(Utilisez la structure 'que... ou...' pour marquer l'alternative équivalente.)"),
+            ("Elle se bat <span class=\"mistake-highlight\">contre de l'</span>injustice.", "Elle se bat <span class=\"mistake-highlight\">contre l'</span>injustice.", "(Après 'contre', utilisez l'article défini sans le partitif.)"),
+            ("Il est fier <span class=\"mistake-highlight\">pour</span> sa culture.", "Il est fier <span class=\"mistake-highlight\">de</span> sa culture.", "(L'adjectif 'fier' se construit avec la préposition 'de'.)")
+        ]
+    },
+
+    "leffet-de-masse.html": {
+        "title_theme": "Effet de masse & Harcèlement",
+        "theme_bullets": ["Le harcèlement scolaire", "La pression du groupe", "Le courage individuel", "L'empathie"],
+        "vocab": [
+            {"word": "Le harcèlement", "def": "Ensemble d'agissements répétés visant à dégrader les conditions de vie d'une victime.", "ex": "Maëlle dénonce le harcèlement subi par un élève isolé.", "opp": "Le soutien"},
+            {"word": "La masse", "def": "Grand groupe de personnes agissant de manière uniforme et irréfléchie.", "ex": "Suivre la masse empêche souvent d'exprimer son propre jugement moral.", "opp": "L'individu"},
+            {"word": "L'isolement", "def": "Situation d'une personne séparée du reste du groupe.", "ex": "L'isolement de la victime est renforcé par le rire des camarades.", "opp": "L'intégration"},
+            {"word": "La complicité", "def": "Participation passive ou active à la faute d'un autre.", "ex": "Rire d'une moquerie fait de nous des complices de l'effet de masse.", "opp": "L'opposition"},
+            {"word": "L'empathie", "def": "Capacité de ressentir les émotions et la souffrance d'autrui.", "ex": "Développer l'empathie dès l'école est indispensable pour stopper le rejet.", "opp": "L'indifférence"},
+            {"word": "La meute", "def": "Groupe agressif qui se ligue collectivement contre une cible.", "ex": "L'effet de groupe transforme parfois des élèves ordinaires en une meute cruelle.", "opp": "La protection"},
+            {"word": "La lâcheté", "def": "Manque de courage pour s'opposer à une injustice.", "ex": "Se taire face au harcèlement est une forme de lâcheté ordinaire.", "opp": "Le courage"},
+            {"word": "Le bouc émissaire", "def": "Personne sur laquelle on fait retomber toutes les fautes.", "ex": "L'élève différent est devenu le bouc émissaire de la classe.", "opp": "Le leader"},
+            {"word": "La rumeur", "def": "Nouvelle incontrôlée qui se propage rapidement.", "ex": "La rumeur qui court dans les couloirs détruit sa réputation.", "opp": "La vérité"},
+            {"word": "Le témoin", "def": "Personne qui assiste à une scène sans forcément y participer.", "ex": "Chaque témoin a la responsabilité morale d'alerter les adultes.", "opp": "L'acteur"}
+        ],
+        "round1": [
+            ("Dans 'L'effet de masse', Maëlle raconte : 'Tu riais de lui car il était différent... c'est l'effet de masse'. Pourquoi est-il si facile de céder à la pression du groupe au détriment de sa propre conscience ?", "★ Avez-vous déjà été témoin d'une situation où la dynamique de groupe incitait à la moquerie ?"),
+            ("La chanson montre que le harcèlement existe aussi bien dans les couloirs d'école que dans les 'beaux bureaux en glace'. Pourquoi la cruauté sociale persiste-t-elle dans le monde adulte ?", "★ Pensez-vous que le monde du travail reproduise parfois les réflexes d'exclusion de la cour de récréation ?"),
+            ("Le texte souligne que la victime 'était celui d'en face, tu l'as déjà vu'. Pourquoi la proximité physique n'empêche-t-elle pas la cécité morale et **l'isolement** ?", "★ Comment rompre l'indifférence ambiante lorsqu'une personne seule est mise à l'écart ?"),
+            ("Maëlle dénonce le rôle des suiveurs et la **complicité** du silence. Refuser de rire à une moquerie demande-t-il un grand **courage** individuel ?", "★ Qu'est-ce qui nous retient le plus souvent d'intervenir pour défendre un **bouc émissaire** ?"),
+            ("La chanson se termine sur une prise de conscience poignante. Comment l'éducation à **l'empathie** peut-elle désarmer l'effet de **meute** ?", "★ Selon vous, quelle campagne de sensibilisation est la plus efficace auprès des jeunes ?")
+        ],
+        "round2": [
+            "Ceux qui assistent au harcèlement sans intervenir sont tout aussi coupables que les agresseurs principaux. Débattons-en.",
+            "L'effet de groupe est un mécanisme psychologique humain si puissant qu'il est irréaliste d'attendre des adolescents qu'ils y résistent seuls. Qu'en pensez-vous ?",
+            "Les réseaux sociaux ont démultiplié la violence du harcèlement en supprimant toute limite géographique ou temporelle. Partagez votre avis."
+        ],
+        "lang_focus_title": "L'expression de la cause avec 'à cause de' et la responsabilité",
+        "lang_focus_desc": "Pour exprimer la cause d'un événement négatif attribué à un facteur extérieur ou collectif, on utilise 'à cause de + nom' ou 'parce que + phrase'.",
+        "lang_focus_examples": [
+            "Il a quitté l'école à cause de l'effet de masse.",
+            "Elle s'est tu parce qu'elle avait peur des réactions du groupe.",
+            "C'est à cause de leur complicité que la rumeur s'est propagée."
+        ],
+        "final_challenge": "Mettez en scène une réunion de médiation scolaire où un élève témoin prend la parole devant ses camarades pour expliquer pourquoi il ne veut plus participer à l'effet de masse.",
+        "mistakes": [
+            ("Il riait de lui <span class=\"mistake-highlight\">grâce à</span> l'effet de masse.", "Il riait de lui <span class=\"mistake-highlight\">à cause de</span> l'effet de masse.", "(Utilisez 'à cause de' pour une cause à conséquence négative, 'grâce à' étant réservé aux causes positives.)"),
+            ("Ils ont fait de lui un <span class=\"mistake-highlight\">bouc d'émissaire</span>.", "Ils ont fait de lui un <span class=\"mistake-highlight\">bouc émissaire</span>.", "(L'expression correcte est 'bouc émissaire' sans préposition 'de'.)"),
+            ("Elle s'est isolée <span class=\"mistake-highlight\">de la</span> groupe.", "Elle s'est isolée <span class=\"mistake-highlight\">du</span> groupe.", "(Contractez 'de + le' en 'du'.)")
+        ]
+    },
+
+    "ma-philosophie.html": {
+        "title_theme": "Fierté, Résilience & Affirmation de soi",
+        "theme_bullets": ["L'affirmation de soi", "Le refus du statut de victime", "La détermination", "L'ambition légitime"],
+        "vocab": [
+            {"word": "La philosophie", "def": "Ensemble de principes guidant la conduite de sa vie.", "ex": "Amel Bent définit sa propre philosophie fondée sur le respect et la fierté.", "opp": "Le désarroi"},
+            {"word": "La résilience", "def": "Capacité à surmonter les chocs émotionnels et à se reconstruire.", "ex": "Sa résilience lui permet de transformer ses blessures en force d'action.", "opp": "La vulnérabilité"},
+            {"word": "Viser", "def": "Diriger ses efforts vers un objectif élevé.", "ex": "Viser la lune ne lui fait pas peur, même si c'est un défi immense.", "opp": "Abandonner"},
+            {"word": "La revanche", "def": "Succès qui efface une défaite ou une injustice passée.", "ex": "Sa réussite est une belle revanche sur les préjugés sociaux.", "opp": "La soumission"},
+            {"word": "La métisse", "def": "Personne aux origines culturelles multiples.", "ex": "Elle assume son identité de femme métisse avec fierté et dignité.", "opp": "L'uniformité"},
+            {"word": "Le martyre", "def": "Grande souffrance subie en se posant en victime permanente.", "ex": "Elle refuse d'être une martyre et choisit de se battre au quotidien.", "opp": "Le triomphe"},
+            {"word": "La dignité", "def": "Attitude empreinte de respect de soi-même.", "ex": "Garder le poing levé est un symbole de dignité et de combat.", "opp": "L'humiliation"},
+            {"word": "Le préjugé", "def": "Opinion préconçue adoptée sans examen critique.", "ex": "Elle surmonte les préjugés grâce à un talent incontestable.", "opp": "L'objectivité"},
+            {"word": "La ténacité", "def": "Qualité de quelqu'un qui persiste avec obstination.", "ex": "Sa ténacité porte ses fruits malgré les portes qui se ferment.", "opp": "L'inconstance"},
+            {"word": "L'ambition", "def": "Désir ardent d'avoir du succès ou de réussir sa vie.", "ex": "Avoir de l'ambition est un droit légitime pour chacun.", "opp": "La résignation"}
+        ],
+        "round1": [
+            ("Dans 'Ma philosophie', Amel Bent chante : 'Je n'ai qu'une philosophie, être acceptée comme je suis... le poing levé'. Que symbolise ce geste du **poing levé** combiné au refus de se poser en victime ?", "★ Avez-vous déjà dû vous battre pour faire respecter votre identité sans compromettre vos valeurs ?"),
+            ("Le refrain affirme : 'Viser la lune, ça ne me fait pas peur, même pas peur !'. Pourquoi est-il essentiel d'entretenir de hautes **ambitions** malgré les obstacles ?", "★ Quel objectif audacieux vous êtes-vous fixé dans la vie et comment nourrissez-vous votre **ténacité** ?"),
+            ("Amel Bent déclare : 'Je suis métisse mais pas martyre, j'avance le cœur léger'. En quoi le refus de s'enfermer dans le statut de victime est-il une preuve de **résilience** ?", "★ Comment faire la différence entre reconnaître ses difficultés et s'installer dans une attitude de complainte ?"),
+            ("Les paroles soulignent : 'Lever la tête, bomber le torse, sans cesse redoubler d'efforts'. Quelle discipline personnelle aide à maintenir cette **dignité** face aux doutes ?", "★ Qui vous inspire le plus par son attitude face à l'adversité et aux **préjugés** ?"),
+            ("La chanson promet une belle **revanche** sur la vie par le travail et le sourire. La meilleure réponse aux critiques est-elle le succès personnel ?", "★ Selon vous, quelle est la définition d'une réussite accomplie selon votre propre **philosophie** ?")
+        ],
+        "round2": [
+            "Déclarer qu'on veut 'viser la lune' est une posture idéaliste qui peut mener à de profondes déceptions si l'on ne garde pas les pieds sur terre. Débattons-en.",
+            "Le refus absolu de passer pour une victime empêche parfois de demander de l'aide quand on en a réellement besoin. Qu'en pensez-vous ?",
+            "S'imposer dans la société d'aujourd'hui exige plus de stratégie d'adaptation que de simple **ténacité** individuelle. Partagez votre avis."
+        ],
+        "lang_focus_title": "L'expression de la détermination et de l'opposition avec 'malgré'",
+        "lang_focus_desc": "Pour marquer la détermination face aux obstacles, on utilise 'malgré + nom' (ex: 'Malgré tout ce qu'on me dit', 'Malgré nos peines') ou 'avoir beau + infinitif'.",
+        "lang_focus_examples": [
+            "Malgré les critiques, elle conserve sa ligne de conduite.",
+            "Elle a beau rencontrer des obstacles, elle continue d'avancer.",
+            "Il garde le sourire malgré les épreuves traversées."
+        ],
+        "final_challenge": "Rédigez et présentez votre propre 'manifeste personnel' en 4 points pour expliquer la philosophie qui guide vos choix au quotidien.",
+        "mistakes": [
+            ("Elle avance <span class=\"mistake-highlight\">malgré que</span> les difficultés.", "Elle avance <span class=\"mistake-highlight\">malgré</span> les difficultés.", "(Utilisez 'malgré' suivi directement d'un nom, et non 'malgré que'.)"),
+            ("Elle veut viser <span class=\"mistake-highlight\">à la</span> lune.", "Elle veut viser <span class=\"mistake-highlight\">la</span> lune.", "(Le verbe 'viser' dans le sens d'ambitionner prend un complément d'objet direct.)"),
+            ("Elle est fière <span class=\"mistake-highlight\">pour</span> son parcours.", "Elle est fière <span class=\"mistake-highlight\">de</span> son parcours.", "(Construisez 'être fier de quelque chose'.)")
+        ]
+    },
+
+    "ouvrir-les-yeux.html": {
+        "title_theme": "Solitude, Désillusion & Espoir",
+        "theme_bullets": ["La rupture sentimentale", "Le besoin de chaleur humaine", "L'éveil de la conscience", "La reconstruction"],
+        "vocab": [
+            {"word": "La désillusion", "def": "Perte d'une illusion ou déception face à la réalité.", "ex": "Ouvrir les yeux demande d'affronter une cruelle désillusion.", "opp": "L'illusion"},
+            {"word": "Le réconfort", "def": "Soulagement apporté à la douleur physique ou morale.", "ex": "Elle cherche un réconfort sincère pour réchauffer son cœur.", "opp": "L'affliction"},
+            {"word": "La clarté", "def": "Qualité de ce qui est net, sans confusion ni mensonge.", "ex": "Voir la situation avec clarté permet de prendre les bonnes décisions.", "opp": "L'ombre"},
+            {"word": "L'éveil", "def": "Action de sortir d'un état d'illusion ou de sommeil.", "ex": "Ce déclic marque l'éveil d'une nouvelle conscience de soi.", "opp": "L'engourdissement"},
+            {"word": "L'amertume", "def": "Tristesse mêlée d'un sentiment d'injustice.", "ex": "Elle surmonte son amertume pour ne garder que les bons souvenirs.", "opp": "La douceur"},
+            {"word": "La guérison", "def": "Retour à la santé après une blessure morale.", "ex": "La guérison affective prend du temps et demande de l'indulgence.", "opp": "La rechute"},
+            {"word": "L'autonomie", "def": "Capacité à ne pas dépendre d'autrui pour vivre.", "ex": "Retrouver son autonomie est l'étape clé après une déception.", "opp": "La dépendance"},
+            {"word": "L'aveuglement", "def": "Incapacité à voir la vérité par refus ou illusion.", "ex": "L'amour passionnel mène parfois à un aveuglement regrette.", "opp": "La lucidité"},
+            {"word": "La tiédeur", "def": "Manque d'enthousiasme ou de passion sincère.", "ex": "Elle refuse la tiédeur d'une relation sans engagement.", "opp": "La passion"},
+            {"word": "L'espérance", "def": "Attente confiante d'un bien à venir.", "ex": "Ouvrir les yeux rallume l'espérance d'un avenir meilleur.", "opp": "Le désespoir"}
+        ],
+        "round1": [
+            ("Dans 'Ouvrir les yeux', Maëlle chante : 'Et me voilà seule sans toi... mon cœur est devenu froid'. Pourquoi la fin d'une relation s'accompagne-t-elle souvent d'une sensation de froid intérieur ?", "★ Comment réussissez-vous à apporter du **réconfort** à votre esprit lorsque vous traversez une période sombre ?"),
+            ("Le texte dit : 'Mais la chaleur réchauffe mon âme, et ça ne vient pas de toi'. Pourquoi est-il gratifiant de réaliser que notre bonheur ne dépend plus de l'autre ?", "★ Avez-vous déjà ressenti cette forme de libération quand vous retrouvez votre **autonomie** affective ?"),
+            ("La chanson répète le désir d'oublier et de danser malgré le ciel noir. Est-ce que faire la fête est une fuite temporaire ou une étape vers la **guérison** ?", "★ Quelle activité vous aide le plus à retrouver la joie et la **clarté** d'esprit après un chagrin ?"),
+            ("Maëlle s'interroge : 'Il est bien dans mes bras, il y restera ou pas ?'. Accepter l'incertitude dans les relations évite-t-il **l'aveuglement** ?", "★ Préférez-vous vivre pleinement l'instant présent ou chercher absolument des garanties sur l'avenir ?"),
+            ("Le titre même d'Ouvrir les yeux' suggère un passage de la naïveté à la réalité. En quoi cet **éveil** est-il indispensable pour grandir ?", "★ Quel a été le déclic le plus marquant dans votre vie qui vous a fait **ouvrir les yeux** sur une situation ?")
+        ],
+        "round2": [
+            "Vouloir 'oublier' immédiatement après une déception empêche de faire le deuil nécessaire et retarde la vraie **guérison**. Débattons-en.",
+            "L'expression 'ouvrir les yeux' implique qu'on vivait dans l'erreur, alors que nos illusions passées avaient aussi leur valeur. Qu'en pensez-vous ?",
+            "Il est impossible d'atteindre une totale **autonomie** émotionnelle tout en vivant une histoire d'amour passionnée. Partagez votre avis."
+        ],
+        "lang_focus_title": "L'expression du changement d'état avec 'devenir' et 'rendre'",
+        "lang_focus_desc": "Pour décrire une transformation émotionnelle ou physique, on utilise 'devenir + adjectif' (ex: 'Mon cœur est devenu froid') ou 'rendre + adjectif' (ex: 'Cela me rend plus fort').",
+        "lang_focus_examples": [
+            "Son attitude est devenue distante après la discussion.",
+            "Cette expérience l'a rendue beaucoup plus lucide.",
+            "Le ciel est devenu noir avant que la tempête n'éclate."
+        ],
+        "final_challenge": "Jouez une scène entre deux amies où l'une aide l'autre à ouvrir les yeux sur une relation toxique et à retrouver son estime personnelle.",
+        "mistakes": [
+            ("Mon cœur est <span class=\"mistake-highlight\">devenu de</span> froid.", "Mon cœur est <span class=\"mistake-highlight\">devenu</span> froid.", "(Ne mettez pas de préposition entre le verbe 'devenir' et l'adjectif.)"),
+            ("Ça me <span class=\"mistake-highlight\">fait</span> triste.", "Ça me <span class=\"mistake-highlight\">rend</span> triste.", "(Utilisez le verbe 'rendre' devant un adjectif de sentiment.)"),
+            ("Elle tente <span class=\"mistake-highlight\">d'oublier de</span> ses peines.", "Elle tente <span class=\"mistake-highlight\">d'oublier</span> ses peines.", "(Le verbe 'oublier' prend un complément direct sans préposition.)")
+        ]
+    },
+
+    "salut.html": {
+        "title_theme": "Retrouver le passé & Amicaux souvenirs",
+        "theme_bullets": ["Les retrouvailles amicales", "Le temps qui passe", "Les souvenirs partagés", "La chaleur du foyer"],
+        "vocab": [
+            {"word": "Le salut", "def": "Mot ou geste amical pour saluer quelqu'un qu'on revoit.", "ex": "Joe Dassin lance un salut chaleureux en franchissant la porte.", "opp": "L'adieu"},
+            {"word": "Le retour", "def": "Fait de revenir dans un lieu qu'on avait quitté.", "ex": "Son retour à la maison après de longs voyages fait très plaisir.", "opp": "Le départ"},
+            {"word": "Le café", "def": "Boisson chaude partagée en signe d'hospitalité.", "ex": "Proposer un bon café chaud est une belle manière de recevoir un ami.", "opp": "L'indifférence"},
+            {"word": "Le souvenir", "def": "Image d'un événement passé qui reste dans la mémoire.", "ex": "Ils évoquent ensemble leurs souvenirs d'enfance avec le sourire.", "opp": "L'oubli"},
+            {"word": "L'ami", "def": "Personne avec qui on a une sympathie sincère.", "ex": "Un véritable ami vous accueille toujours à bras ouverts.", "opp": "L'ennemi"},
+            {"word": "Naviguer", "def": "Voyager sur l'eau ou parcourir le monde.", "ex": "Après avoir beaucoup navigué, il a besoin de repos.", "opp": "Stagner"},
+            {"word": "Raconter", "def": "Faire le récit de faits réels ou imaginaires.", "ex": "Il a une longue histoire passionnante à raconter.", "opp": "Taire"},
+            {"word": "Changer", "def": "Devenir différent avec le temps.", "ex": "Même si les choses ont changé, leur amitié reste intacte.", "opp": "Rester immobile"},
+            {"word": "La gare", "def": "Lieu où l'on prend le train pour voyager.", "ex": "La gare rappelle les départs et les arrivées de jadis.", "opp": "La demeure"},
+            {"word": "La fatigue", "def": "Sensation de besoin de repos après un long effort.", "ex": "Il ressent un peu de fatigue après ce long trajet.", "opp": "La forme"}
+        ],
+        "round1": [
+            ("Dans 'Salut', Joe Dassin dit : 'Salut, c'est encore moi, comment tu vas ?'. Pourquoi est-il si agréable de retrouver un ami comme si on s'était quittés hier ?", "★ Quel ami d'enfance aimeriez-vous revoir autour d'un <strong>café</strong> pour prendre de ses nouvelles ?"),
+            ("Le chanteur avoue : 'J'ai un peu trop navigué, je me sens fatigué, fais-moi un bon café'. Pourquoi le foyer d'un ami est-il le meilleur endroit pour se reposer ?", "★ Qu'aimez-vous faire quand vous rentrez chez vous après un long voyage ?"),
+            ("La chanson parle d'une 'histoire à te raconter' et de quelqu'un qu'on connaît bien. Est-ce facile de raconter ses voyages et ses erreurs à un proche ?", "★ Aimez-vous <strong>raconter</strong> vos aventures ou préférez-vous écouter les histoires des autres ?"),
+            ("Joe Dassin se rappelle le temps passé loin de la maison. Pourquoi la distance nous fait-elle parfois apprécier davantage notre village ou nos proches ?", "★ Avez-vous déjà ressenti le manque de votre pays ou de votre ville quand vous étiez loin ?"),
+            ("Malgré les années qui passent, le refrain reste très chaleureux et sans regret. L'amitié vraie peut-elle résister aux années sans <strong>changer</strong> ?", "★ Selon vous, quel est le secret pour garder de bons <strong>amis</strong> toute sa vie ?")
+        ],
+        "round2": [
+            "Le temps qui passe transforme tellement les gens qu'il est difficile de retrouver la même complicité après plusieurs années d'absence. Débattons-en.",
+            "Les grands voyages apportent beaucoup de fatigue mais sont indispensables pour apprécier la valeur de son chez-soi. Qu'en pensez-vous ?",
+            "Partager un simple <strong>café</strong> avec un vieil <strong>ami</strong> est plus réconfortant que de voyager à l'autre bout du monde. Partagez votre avis."
+        ],
+        "lang_focus_title": "Les formules de salutation et le passé composé simple",
+        "lang_focus_desc": "Pour saluer amicalement et raconter des faits passés simples, on utilise des tournures directes comme 'Salut, c'est moi' et le passé composé ('J'ai pensé', 'J'ai navigué').",
+        "lang_focus_examples": [
+            "Salut ! J'ai pensé à toi toute la journée.",
+            "Il a fait un long voyage et il est revenu hier.",
+            "Nous avons bu un café ensemble dans le centre."
+        ],
+        "final_challenge": "En binômes, jouez les retrouvailles improvisées de deux anciens camarades de classe qui se croisent dans un café après 5 ans sans nouvelles.",
+        "mistakes": [
+            ("Comment tu <span class=\"mistake-highlight\">vas de</span> santé ?", "Comment tu <span class=\"mistake-highlight\">vas</span> ?", "(La formule simple est 'Comment tu vas ?' sans ajout superflu.)"),
+            ("J'ai pensé <span class=\"mistake-highlight\">de</span> toi.", "J'ai pensé <span class=\"mistake-highlight\">à</span> toi.", "(On dit 'penser à quelqu'un'.)"),
+            ("Fais-moi <span class=\"mistake-highlight\">un bon</span> café.", "Fais-moi <span class=\"mistake-highlight\">un bon</span> café.", "(C'est correct ! Attention à ne pas dire 'fais à moi'.)")
+        ]
+    },
+
+    "toi-mon-amour.html": {
+        "title_theme": "Âmes sœurs & Destin amoureux",
+        "theme_bullets": ["La complicité évidente", "Le coup de foudre", "L'union des âmes", "La magie de l'instant"],
+        "vocab": [
+            {"word": "La complicité", "def": "Entente profonde et immédiate entre deux personnes.", "ex": "Leur complicité est évidente dès le premier regard échangé.", "opp": "L'incompréhension"},
+            {"word": "Le destin", "def": "Enchaînement d'événements perçu comme inévitable.", "ex": "Ils pensent que leur rencontre était inscrite dans le destin.", "opp": "Le hasard"},
+            {"word": "Voler en éclat", "def": "Se briser sous le coup d'une vive émotion.", "ex": "Ses certitudes volent en éclat lorsqu'elle entend sa voix.", "opp": "Rester intact"},
+            {"word": "L'éternité", "def": "Durée sans fin, hors du temps ordinaire.", "ex": "Promettre son amour pour l'éternité est une douce audace.", "opp": "L'éphémère"},
+            {"word": "La promesse", "def": "Engagement verbal à faire ou donner quelque chose.", "ex": "Chaque mot murmuré résonne comme une promesse sincère.", "opp": "La trahison"},
+            {"word": "L'âme sœur", "def": "Personne avec laquelle on ressent une affinité totale.", "ex": "Marc Lavoine et Clara Luciani chantent la quête de l'âme sœur.", "opp": "L'inconnu"},
+            {"word": "L'évidence", "def": "Caractère de ce qui s'impose à l'esprit sans doute possible.", "ex": "Leur amour s'est imposé comme une évidence absolue.", "opp": "Le doute"},
+            {"word": "S'épanouir", "def": "Atteindre un plein développement heureux.", "ex": "Elle voit son cœur s'épanouir au contact de l'autre.", "opp": "Dépérir"},
+            {"word": "L'émerveillement", "def": "Sentiment de surprise admirative et joyeuse.", "ex": "L'émerveillement des débuts illumine leur quotidien.", "opp": "La lassitude"},
+            {"word": "La symbiose", "def": "Union étroite et bénéfique entre deux êtres.", "ex": "Leur duo musical reflète une parfaite symbiose affective.", "opp": "L'opposition"}
+        ],
+        "round1": [
+            ("Dans 'Toi mon amour', le duo chante : 'Sur un signe seulement de toi, je vole en éclat... avant toi j'ignorais tout ça'. Pourquoi la rencontre amoureuse transforme-t-elle si brutalement notre vision du monde ?", "★ Croyez-vous que l'amour puisse faire **voler en éclat** nos défenses en un seul instant ?"),
+            ("Les paroles affirment : 'Moi je suis fait pour toi mon amour, je ne pense qu'à ça tous les jours'. Cette sensation d'être 'faits l'un pour l'autre' est-elle une réalité ou une belle illusion ?", "★ Avez-vous déjà ressenti cette forme de **complicité** évidente avec une personne dès la première rencontre ?"),
+            ("Le duo répète 'À nos amours... même si c'est pas pour toujours'. Préfère-t-on vivre une passion intense mais **éphémère** ou une relation paisible vouée à **l'éternité** ?", "★ Quelle est selon vous la plus grande force d'un couple : la passion de l'instant ou la stabilité du temps ?"),
+            ("La chanson montre une vulnérabilité assumée ('moi qui ne croyais plus guère à l'amour'). Comment réapprendre à faire confiance après avoir été déçu ?", "★ Qu'est-ce qui vous aide à ouvrir à nouveau votre cœur à de nouvelles **promesses** ?"),
+            ("L'harmonie entre les deux voix de Marc Lavoine et Clara Luciani donne une force particulière à la chanson. En quoi la **symbiose** artistique peut-elle refléter une symbiose amoureuse ?", "★ Quelle est votre chanson de duo d'amour préférée dans la musique francophone ?")
+        ],
+        "round2": [
+            "Croire à l'existence d'une 'âme sœur' unique est une idée romantique risquée qui peut gâcher de réelles opportunités. Débattons-en.",
+            "L'intensité d'un coup de foudre est souvent plus liée à notre propre besoin d'aimer qu'à la personne rencontrée. Qu'en pensez-vous ?",
+            "Les relations modernes privilégient trop la liberté individuelle au détriment de l'engagement total vers **l'éternité**. Partagez votre avis."
+        ],
+        "lang_focus_title": "L'expression de la restriction et du changement ('ne ... que', 'avant ...')",
+        "lang_focus_desc": "Pour exprimer l'exclusivité d'une pensée, on utilise 'ne ... que' (ex: 'Je ne pense qu'à ça'). Pour marquer la rupture avec le passé, on utilise 'avant + nom/phrase'.",
+        "lang_focus_examples": [
+            "Je ne pense qu'à notre prochaine rencontre.",
+            "Avant toi, j'ignorais la force de ce sentiment.",
+            "Il n'écoute que ses chansons préférées depuis ce matin."
+        ],
+        "final_challenge": "Écrivez et interprétez un court dialogue romantique où deux personnes se rendent compte au cours d'une soirée qu'elles étaient faites pour se rencontrer.",
+        "mistakes": [
+            ("Je pense <span class=\"mistake-highlight\">seulement qu'à</span> ça.", "Je <span class=\"mistake-highlight\">ne pense qu'à</span> ça.", "(N'associez pas 'seulement' avec la négation restrictive 'ne... que'.)"),
+            ("Avant <span class=\"mistake-highlight\">de</span> toi, je ne savais pas.", "Avant <span class=\"mistake-highlight\"></span> toi, je ne savais pas.", "(Utilisez 'avant' directement devant le pronom tonique sans préposition 'de'.)"),
+            ("Je suis fait <span class=\"mistake-highlight\">pour la</span> vie avec toi.", "Je suis fait <span class=\"mistake-highlight\">pour vivre</span> avec toi.", "(Utilisez l'infinitif après 'être fait pour'.)")
+        ]
+    },
+
+    "un-premier-amour.html": {
+        "title_theme": "La magie du premier amour & Nostalgie",
+        "theme_bullets": ["La nostalgie de la jeunesse", "L'innocence amoureuse", "L'empreinte indélébile", "Le temps préservé"],
+        "vocab": [
+            {"word": "La pureté", "def": "Caractère de ce qui est exempt de souillure ou de calcul.", "ex": "Isabelle Aubret chante la pureté intacte du premier amour.", "opp": "L'altération"},
+            {"word": "L'innocence", "def": "État de quelqu'un qui n'a pas encore connu le cynisme.", "ex": "L'innocence des premiers sentiments laisse une trace inoubliable.", "opp": "La malice"},
+            {"word": "L'empreinte", "def": "Marque profonde et durable laissée dans la mémoire.", "ex": "Le premier amour laisse une empreinte indélébile dans un cœur.", "opp": "L'effacement"},
+            {"word": "Nostalgique", "def": "Qui éprouve un regret doux et triste du passé.", "ex": "Écouter cette mélodie la rend doucement nostalgique.", "opp": "Prospectif"},
+            {"word": "Frémir", "def": "Trembler de manière imperceptible sous le coup de l'émotion.", "ex": "L'enfant qu'on est resté frémira toujours à ce souvenir.", "opp": "Rester insensible"},
+            {"word": "Indélébile", "def": "Qui ne peut être effacé ni oublié avec le temps.", "ex": "Les émotions de nos quinze ans sont indélébiles.", "opp": "Éphémère"},
+            {"word": "La candeur", "def": "Pureté d'âme et naïveté touchante.", "ex": "Sa candeur de l'époque fait sourire aujourd'hui.", "opp": "Le cynisme"},
+            {"word": "Le berceau", "def": "Origine ou lieu de naissance d'un sentiment.", "ex": "La jeunesse est le berceau de nos premières passions.", "opp": "La fin"},
+            {"word": "Chérir", "def": "Aimer d'une affection tendre et constante.", "ex": "Chérir ses souvenirs ne nous empêche pas d'aimer au présent.", "opp": "Détester"},
+            {"word": "L'écho", "def": "Répétition ou résurgence d'un sentiment ancien.", "ex": "Cette chanson est l'écho d'un bonheur lointain mais vivant.", "opp": "Le silence"}
+        ],
+        "round1": [
+            ("Dans 'Un premier amour', Isabelle Aubret affirme : 'Un premier amour ne s'oublie jamais, on le cherche toujours dans d'autres amours'. Est-il vrai que le premier amour sert de modèle pour toutes nos relations futures ?", "★ Gardez-vous un souvenir empreint de **nostalgie** ou de tendresse pour votre premier amour ?"),
+            ("La chanson dit : 'L'enfant qu'on est resté frémira toujours au nom de cet amour'. Pourquoi les émotions vécues à l'adolescence gardent-elles une telle fraîcheur et une **empreinte** si forte ?", "★ Pensez-vous qu'il y ait une part **d'innocence** que l'on perd définitivement en grandissant ?"),
+            ("Le texte évoque la quête permanente de ces premiers frissons ('toute sa vie on court après'). Cette recherche de la **pureté** initiale ne risque-t-elle pas de décevoir face aux amours adultes ?", "★ Comment apprécier la maturité d'un amour présent sans le comparer à la **candeur** du passé ?"),
+            ("Isabelle Aubret chante la beauté d'un souvenir qui fait 'rêver et trembler'. Pourquoi le temps qui passe embellit-il souvent nos premières histoires ?", "★ Avez-vous déjà recroisé un amour de jeunesse des années plus tard ? Qu'avez-vous ressenti ?"),
+            ("La chanson a remporté l'Eurovision en 1962 par sa grande poésie. En quoi la simplicité des paroles exprime-t-elle **l'écho** universel du cœur humain ?", "★ Quelle chanson classique résume le mieux selon vous la magie des débuts amoureux ?")
+        ],
+        "round2": [
+            "L'idée qu'un 'premier amour ne s'oublie jamais' est un mythe romantique : les amours de maturité sont souvent bien plus profonds. Débattons-en.",
+            "Chercher toute sa vie le souvenir de son premier amour empêche d'aimer pleinement la personne qui partage notre présent. Qu'en pensez-vous ?",
+            "L'innocence et la candeur des sentiments de jeunesse sont irremplaçables dans une vie. Partagez votre avis."
+        ],
+        "lang_focus_title": "La forme pronominale à valeur passive ('ne s'oublie jamais') et 'court après'",
+        "lang_focus_desc": "Pour exprimer une vérité générale ou une règle universelle, on utilise la forme pronominale impersonnelle ('se faire', 's'oublier', 'se chercher').",
+        "lang_focus_examples": [
+            "Un premier amour ne s'oublie pas facilement.",
+            "Cette histoire se raconte de génération en génération.",
+            "Il court après un rêve de jeunesse depuis toujours."
+        ],
+        "final_challenge": "Rédigez une lettre poétique adressée à votre 'moi' de 15 ans pour lui parler de ce qu'est devenu son premier amour.",
+        "mistakes": [
+            ("Un premier amour ne <span class=\"mistake-highlight\">s'oublie pas jamais</span>.", "Un premier amour ne <span class=\"mistake-highlight\">s'oublie jamais</span>.", "(N'associez pas 'pas' et 'jamais' dans la même négation.)"),
+            ("On court <span class=\"mistake-highlight\">après de</span> ce souvenir.", "On court <span class=\"mistake-highlight\">après</span> ce souvenir.", "(Utilisez 'après' directement devant le nom sans préposition 'de'.)"),
+            ("Il se rappelle <span class=\"mistake-highlight\">de son</span> premier amour.", "Il se rappelle <span class=\"mistake-highlight\">son</span> premier amour.", "(Le verbe 'se rappeler' prend un complément direct sans 'de'.)")
+        ]
+    },
+
+    "voila.html": {
+        "title_theme": "Authenticité & Expression de soi",
+        "theme_bullets": ["La mise à nu artistique", "La recherche de reconnaissance", "La voix personnelle", "La vulnérabilité assumée"],
+        "vocab": [
+            {"word": "L'authenticité", "def": "Qualité de ce qui est vrai, sincère et sans artifice.", "ex": "Barbara Pravi chante avec une authenticité qui bouleverse l'auditeur.", "opp": "L'artifice"},
+            {"word": "La vulnérabilité", "def": "Capacité d'accepter ses faiblesses et d'exposer son cœur.", "ex": "Elle transforme sa vulnérabilité en une force artistique majeure.", "opp": "L'invulnérabilité"},
+            {"word": "Mettre à nu", "def": "Révéler entièrement ses sentiments profonds sans filtre.", "ex": "Se mettre à nu sur scène exige un courage immense.", "opp": "Masquer"},
+            {"word": "Le cri", "def": "Expression intense et passionnée d'un besoin d'exister.", "ex": "Cette chanson est son cri de vérité lancé au monde entier.", "opp": "Le murmure"},
+            {"word": "L'affirmation", "def": "Action de s'imposer et d'assumer qui l'on est vraiment.", "ex": "Chaque 'Voilà' retentit comme une affirmation de soi souveraine.", "opp": "Leffacement"},
+            {"word": "L'arène", "def": "Lieu de combat symbolique ou scène publique exposée.", "ex": "Monter sur scène, c'est entrer dans l'arène du jugement des autres.", "opp": "L'intimité"},
+            {"word": "Déposer", "def": "Mettre en confiance ce qu'on a de plus cher entre des mains.", "ex": "Elle dépose tout ce qu'elle possède dans ses paroles.", "opp": "Conserver"},
+            {"word": "Le fardeau", "def": "Charge lourde à porter au niveau émotionnel.", "ex": "Exprimer son art permet de se libérer d'un lourd fardeau.", "opp": "Le soulagement"},
+            {"word": "Singulier", "def": "Qui est unique, propre à une personne et différent.", "ex": "Sa voix possède un timbre singulier qui touche immédiatement.", "opp": "Banal"},
+            {"word": "L'emprise", "def": "Dominance psychologique exercée par le regard d'autrui.", "ex": "Elle se délivre de l'emprise des attentes extérieures.", "opp": "La liberté"}
+        ],
+        "round1": [
+            ("Dans 'Voilà', Barbara Pravi répète : 'Voilà, voilà qui je suis... me voilà même si mise à nue j'ai peur'. Pourquoi se **mettre à nu** sincèrement devant les autres demande-t-il autant de courage ?", "★ Avez-vous déjà ressenti cette peur de la **vulnérabilité** au moment d'exprimer vos sentiments profonds ?"),
+            ("La chanteuse s'adresse directement au public : 'Regardez-moi, avant que je me déteste... c'est ma gueule, c'est mon cri'. L'artiste a-t-il absolument besoin du regard des autres pour exister ?", "★ Le besoin d'être vu et écouté est-il une quête **d'authenticité** ou une recherche d'approbation ?"),
+            ("Le texte dit : 'Tout ce que j'ai, je le dépose là'. En quoi l'art est-il un espace où l'on peut **déposer** ses souffrances sans masque ?", "★ Quel moyen d'expression personnelle (écriture, parole, art) vous aide le plus à vous affirmer ?"),
+            ("Barbara Pravi chante : 'Aimez-moi comme on aime un ami qui s'en va pour toujours'. Pourquoi la peur de l'oubli nourrit-elle la création artistique ?", "★ Est-il possible de vivre pleinement sa vie sans chercher l'admiration ou la validation des autres ?"),
+            ("Le final de la chanson monte en puissance avec une ferveur impressionnante. En quoi l'expression **singulière** de soi peut-elle atteindre une dimension universelle ?", "★ Quelle prestation scénique ou musicale vous a le plus impressionné par son intensité émotionnelle ?")
+        ],
+        "round2": [
+            "La recherche absolue d'authenticité dans la société actuelle est devenue une injonction paradoxale qui crée de l'anxiété. Débattons-en.",
+            "Se mettre totalement 'à nu' devant les autres est une prise de risque inutile qui nous expose à des blessures évitables. Qu'en pensez-vous ?",
+            "Sans une volonté farouche de se faire entendre par son propre **cri**, il est impossible de faire respecter son individualité. Partagez votre avis."
+        ],
+        "lang_focus_title": "L'impératif direct et les pronoms enclitiques ('Regardez-moi', 'Écoutez-moi')",
+        "lang_focus_desc": "Pour lancer un appel vibrant à l'attention, on utilise l'impératif accompagné du pronom tonique relié par un trait d'union (ex: 'Regardez-moi', 'Écoutez-moi', 'Parlez-moi').",
+        "lang_focus_examples": [
+            "Regardez-moi bien et écoutez ce que j'ai à vous dire.",
+            "Donnez-moi une seule raison de douter de son authenticité.",
+            "Parlez-moi de vos rêves les plus secrets sans crainte."
+        ],
+        "final_challenge": "En soliste ou duos, présentez une courte plaidoirie passionnée de 1 minute où vous vous présentez au monde sans artifice en commençant par 'Voilà qui je suis...'.",
+        "mistakes": [
+            ("Regardez <span class=\"mistake-highlight\">me</span> s'il vous plaît.", "Regardez-<span class=\"mistake-highlight\">moi</span> s'il vous plaît.", "(À l'impératif affirmatif, utilisez le pronom tonique 'moi' après le verbe avec un trait d'union.)"),
+            ("J'ai peur <span class=\"mistake-highlight\">de me mettre</span> à nu.", "J'ai peur <span class=\"mistake-highlight\">de me mettre</span> à nu.", "(C'est parfait ! Se mettre à nu est l'expression consacrée.)"),
+            ("Elle chante <span class=\"mistake-highlight\">avec de l'</span>authenticité.", "Elle chante <span class=\"mistake-highlight\">avec</span> authenticité.", "(Après 'avec' exprimant la manière, l'article est souvent omis devant un nom abstrait.)")
+        ]
     }
 }
 
 
-def build_theme_box(title, bullets):
-    bullets_html = "\n".join([f"<li>{b}</li>" for b in bullets])
-    return f"""<div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
-<h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">{title}</h3>
-<p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Nous allons discuter de:</p>
-<ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
-{bullets_html}
-</ul>
-</div>"""
+def build_vocab_html(vocab_list):
+    cards_html = []
+
+    # 5 Key concepts
+    cards_html.append('<h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concepts clés &amp; Émotions</h3>')
+    for item in vocab_list[:5]:
+        opp_html = f'<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">{item["opp"]}</span></div>' if "opp" in item else ''
+        w_esc = item['word'].replace("'", "\\'")
+        d_esc = item['def'].replace("'", "\\'")
+        e_esc = item['ex'].replace("'", "\\'")
+        card = f'''<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{item['word']}</div>
+<div class="vocab-def">{item['def']}</div>
+<div class="vocab-example">{item['ex']}</div>
+{opp_html}
+<button class="btn-add-dict" onclick="COSY.addToDict({{word:'{w_esc}', definition:'{d_esc}', example:'{e_esc}'}}, this)">+ Dictionary</button>
+</div>'''
+        cards_html.append(card)
+
+    # 5 Actions/Life
+    cards_html.append('<h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vie, Actions &amp; Connexion</h3>')
+    for item in vocab_list[5:]:
+        opp_html = f'<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">{item["opp"]}</span></div>' if "opp" in item else ''
+        w_esc = item['word'].replace("'", "\\'")
+        d_esc = item['def'].replace("'", "\\'")
+        e_esc = item['ex'].replace("'", "\\'")
+        card = f'''<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{item['word']}</div>
+<div class="vocab-def">{item['def']}</div>
+<div class="vocab-example">{item['ex']}</div>
+{opp_html}
+<button class="btn-add-dict" onclick="COSY.addToDict({{word:'{w_esc}', definition:'{d_esc}', example:'{e_esc}'}}, this)">+ Dictionary</button>
+</div>'''
+        cards_html.append(card)
+
+    return f'''<div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Étape 2 : Vocabulaire</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        {"\n".join(cards_html)}
+        </div>
+      </div>
+    </div>'''
 
 
-def build_vocab_grid(vocab_list):
-    cards = []
-    for item in vocab_list:
-        w = item["word"]
-        d = item["def"]
-        e = item["ex"]
-        o = item["opp"]
-        e_js = e.replace("'", "\\'")
-        d_js = d.replace("'", "\\'")
-        w_js = w.replace("'", "\\'")
-        card = f"""<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{w}</div>
-<div class="vocab-def">{d}</div>
-<div class="vocab-example">{e}</div>
-<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">{o}</span></div>
-<button class="btn-add-dict" onclick="COSY.addToDict({{word:'{w_js}', definition:'{d_js}', example:'{e_js}'}}, this)">+ Dictionary</button>
-</div>"""
-        cards.append(card)
+def build_discussion_html(round1_items, round2_items):
+    r1_html = []
+    for main_q, pers_q in round1_items:
+        item = f'''<div class="round-item"><div class="round-item-main">{main_q}</div>
+<div class="round-item-personal">{pers_q}</div>
+</div>'''
+        r1_html.append(item)
 
-    cards_html = "\n".join(cards)
-    return f"""<div class="vocab-grid-10">
-<h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concepts clés &amp; Émotions</h3>
-{cards_html}
-</div>"""
+    r2_html = []
+    for debate_q in round2_items:
+        item = f'''<div class="round-item"><div class="round-item-main">{debate_q}</div>
+</div>'''
+        r2_html.append(item)
 
-
-def build_rounds(r1_items, r2_items):
-    r1_html_list = []
-    for main, personal in r1_items:
-        r1_html_list.append(f"""<div class="round-item"><div class="round-item-main">{main}</div>
-<div class="round-item-personal">{personal}</div>
-</div>""")
-    r1_html = "\n".join(r1_html_list)
-
-    r2_html_list = []
-    for debate in r2_items:
-        r2_html_list.append(f"""<div class="round-item"><div class="round-item-main">{debate}</div>
-</div>""")
-    r2_html = "\n".join(r2_html_list)
-
-    return f"""<div class="round-1">
-<h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
-{r1_html}
-</div>
-<div class="round-2" style="margin-top: 2rem;">
-<h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
-{r2_html}
-</div>"""
+    return f'''<div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Étape 4 : Discussion</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+{"\n".join(r1_html)}
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+{"\n".join(r2_html)}
+        </div>
+      </div>
+    </div>'''
 
 
-def build_lang_focus(slug, title, desc, examples):
+def build_lang_focus_html(title, desc, examples):
     ex_html = "\n".join([f'<li style="margin-bottom: 0.5rem; font-size: 0.9rem;">{ex}</li>' for ex in examples])
-    return f"""<div class="round-block open" id="lang-focus-{slug}">
-<div class="round-header" onclick="COSY.toggleRound('lang-focus-{slug}')" style="background:#FFF9E6; cursor:pointer;">
-<span>✨ Étape 5 : Point de langue</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
-<h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">{title}</h3>
-<p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">{desc}</p>
-<strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
-<ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
-{ex_html}
-</ul>
-</div>
-</div>
-</div>"""
+    return f'''<div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Étape 5 : Point de langue</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+          <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Focus linguistique : {title}</h3>
+          <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">{desc}</p>
+          <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Exemples pratiques :</strong>
+          <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+            {ex_html}
+          </ul>
+        </div>
+      </div>
+    </div>'''
 
 
-def build_final_challenge(slug, challenge_text):
-    return f"""<div class="round-block open" id="final-challenge-{slug}">
-<div class="round-header" onclick="COSY.toggleRound('final-challenge-{slug}')" style="background:#FEEAEA; cursor:pointer;">
-<span>🎭 Étape 6 : Défi final</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
-<span style="font-size: 2rem;">🎭</span>
-<div>
-<p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">{challenge_text}</p>
-</div>
-</div>
-</div>
-</div>"""
+def build_final_challenge_html(text):
+    return f'''<div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Étape 6 : Défi final</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+          <span style="font-size: 2rem;">🎭</span>
+          <div>
+            <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">{text}</p>
+          </div>
+        </div>
+      </div>
+    </div>'''
 
 
-def build_mistakes_block(slug, mistakes):
-    m_html_list = []
-    for wrong, right, note in mistakes:
-        m_html_list.append(f"""<div class="mistake-item">
-<span class="mistake-wrong">{wrong}</span>
-<span class="mistake-arrow">→</span>
-<span class="mistake-right">{right}</span>
-<span class="mistake-note-text">{note}</span>
-</div>""")
-    m_html = "\n".join(m_html_list)
+def build_mistakes_html(mistakes_list):
+    items_html = []
+    for wrong, right, note in mistakes_list:
+        item = f'''<div class="mistake-item">
+            <span class="mistake-wrong">{wrong}</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">{right}</span>
+            <span class="mistake-note-text">{note}</span>
+          </div>'''
+        items_html.append(item)
 
-    return f"""<div class="mistake-block open" id="s-mistakes-{slug}">
-<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-{slug}')">
-<span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
-</div>
-<div class="mistake-body" style="display:block;">
-{m_html}
-</div>
-</div>"""
+    return f'''<div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+        {"\n".join(items_html)}
+      </div>
+    </div>'''
 
 
-def remediate_index_file(filename, challenge_key):
-    filepath = os.path.join(FR_DIR, filename, "index.html")
+def build_theme_box_html(title_theme, theme_bullets):
+    bullets_html = "\n".join([f'      <li>{b}</li>' for b in theme_bullets])
+    return f'''<div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Thème: {title_theme}</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Nous allons discuter de:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+{bullets_html}
+    </ul>
+  </div>'''
+
+
+def process_file(filename, data):
+    filepath = os.path.join(BASE_DIR, filename)
     if not os.path.exists(filepath):
         print(f"File not found: {filepath}")
         return
 
-    with open(filepath, "r", encoding="utf-8") as f:
-        text = f.read()
+    content = open(filepath, 'r', encoding='utf-8').read()
 
-    opts = text.split("<vim-choice-option>")
-    header = opts[0]
-    new_opts = [header]
-
-    song_keys = list(DATA[challenge_key].keys())
-
-    for idx, opt_text in enumerate(opts[1:]):
-        if idx >= len(song_keys):
-            new_opts.append(opt_text)
-            continue
-
-        song_slug = song_keys[idx]
-        song_info = DATA[challenge_key][song_slug]
-
-        # 1. Replace Theme Box
-        new_tb = build_theme_box(song_info["theme_title"], song_info["theme_bullets"])
-        opt_text = re.sub(r'<div class="theme-box"[\s\S]*?</div>\s*</div>', new_tb + "\n</div>", opt_text)
-
-        # 2. Replace Vocab Grid
-        new_vg = build_vocab_grid(song_info["vocab"])
-        opt_text = re.sub(r'<div class="vocab-grid-10"[\s\S]*?</div>\s*</div>\s*</div>', new_vg + "\n</div>\n</div>", opt_text)
-
-        # 3. Replace Rounds 1 & 2
-        new_r = build_rounds(song_info["round1"], song_info["round2"])
-        opt_text = re.sub(
-            r'<div class="round-1"[\s\S]*?(?=\s*</div>\s*</div>\s*</div>\s*<div class="round-block|\s*<div class="round-block|\s*<div id="lang-focus|\s*<div class="round-block open" id="lang-focus)',
-            new_r,
-            opt_text
-        )
-
-        # 4. Replace Language Focus
-        new_lf = build_lang_focus(song_slug, song_info["lang_focus_title"], song_info["lang_focus_desc"], song_info["lang_focus_examples"])
-        opt_text = re.sub(r'<div class="round-block open" id="lang-focus-[^"]*"[\s\S]*?</div>\s*</div>\s*</div>', new_lf, opt_text)
-
-        # 5. Replace Final Challenge
-        new_fc = build_final_challenge(song_slug, song_info["challenge_text"])
-        opt_text = re.sub(r'<div class="round-block open" id="final-challenge-[^"]*"[\s\S]*?</div>\s*</div>\s*</div>', new_fc, opt_text)
-
-        # 6. Replace Mistakes Block
-        new_mb = build_mistakes_block(song_slug, song_info["mistakes"])
-        opt_text = re.sub(r'<div class="mistake-block open" id="s-mistakes-[^"]*"[\s\S]*?</div>\s*</div>', new_mb, opt_text)
-
-        new_opts.append(opt_text)
-
-    full_html = "<vim-choice-option>".join(new_opts)
-
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(full_html)
-
-    print(f"Successfully remediated index {filepath}")
-
-
-def remediate_single_song_file(challenge_key, song_slug):
-    filepath = os.path.join(FR_DIR, challenge_key, f"{song_slug}.html")
-    if not os.path.exists(filepath):
-        print(f"File not found: {filepath}")
-        return
-
-    with open(filepath, "r", encoding="utf-8") as f:
-        text = f.read()
-
-    song_info = DATA[challenge_key][song_slug]
-
-    # 1. Replace Theme Box
-    new_tb = build_theme_box(song_info["theme_title"], song_info["theme_bullets"])
-    text = re.sub(r'<div class="theme-box"[\s\S]*?</div>\s*</div>', new_tb + "\n</div>", text)
-
-    # 2. Replace Vocab Grid
-    new_vg = build_vocab_grid(song_info["vocab"])
-    text = re.sub(r'<div class="vocab-grid-10"[\s\S]*?</div>\s*</div>\s*</div>', new_vg + "\n</div>\n</div>", text)
-
-    # 3. Replace Rounds 1 & 2
-    new_r = build_rounds(song_info["round1"], song_info["round2"])
-    text = re.sub(
-        r'<div class="round-1"[\s\S]*?(?=\s*</div>\s*</div>\s*</div>\s*<div class="round-block|\s*<div class="round-block|\s*<div id="lang-focus|\s*<div class="round-block open" id="lang-focus)',
-        new_r,
-        text
+    # 1. Theme Box
+    new_theme_box = build_theme_box_html(data["title_theme"], data["theme_bullets"])
+    content = re.sub(
+        r'<div class="theme-box".*?</div>(?=\s*<div class="speaking-time-gauge")',
+        new_theme_box,
+        content,
+        flags=re.DOTALL
     )
 
-    # 4. Replace Language Focus
-    new_lf = build_lang_focus(song_slug, song_info["lang_focus_title"], song_info["lang_focus_desc"], song_info["lang_focus_examples"])
-    text = re.sub(r'<div class="round-block open" id="lang-focus-[^"]*"[\s\S]*?</div>\s*</div>\s*</div>', new_lf, text)
+    # 2. Vocab block
+    new_vocab = build_vocab_html(data["vocab"])
+    content = re.sub(
+        r'<div class="round-block[^"]*" id="vocabulary">.*?</div>\n    </div>',
+        new_vocab,
+        content,
+        flags=re.DOTALL
+    )
 
-    # 5. Replace Final Challenge
-    new_fc = build_final_challenge(song_slug, song_info["challenge_text"])
-    text = re.sub(r'<div class="round-block open" id="final-challenge-[^"]*"[\s\S]*?</div>\s*</div>\s*</div>', new_fc, text)
+    # 3. Discussion block
+    new_discussion = build_discussion_html(data["round1"], data["round2"])
+    # Convert markdown bold **word** to <strong>word</strong>
+    new_discussion = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', new_discussion)
+    content = re.sub(
+        r'<div class="round-block[^"]*" id="discussion">.*?</div>\n    </div>',
+        new_discussion,
+        content,
+        flags=re.DOTALL
+    )
 
-    # 6. Replace Mistakes Block
-    new_mb = build_mistakes_block(song_slug, song_info["mistakes"])
-    text = re.sub(r'<div class="mistake-block open" id="s-mistakes-[^"]*"[\s\S]*?</div>\s*</div>', new_mb, text)
+    # 4. Lang focus block
+    new_lang_focus = build_lang_focus_html(data["lang_focus_title"], data["lang_focus_desc"], data["lang_focus_examples"])
+    content = re.sub(
+        r'<div class="round-block[^"]*" id="lang-focus">.*?</div>\n    </div>',
+        new_lang_focus,
+        content,
+        flags=re.DOTALL
+    )
 
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(text)
+    # 5. Final challenge block
+    new_final = build_final_challenge_html(data["final_challenge"])
+    content = re.sub(
+        r'<div class="round-block[^"]*" id="final-challenge">.*?</div>\n    </div>',
+        new_final,
+        content,
+        flags=re.DOTALL
+    )
 
-    print(f"Successfully remediated song file {filepath}")
+    # 6. Mistakes block
+    new_mistakes = build_mistakes_html(data["mistakes"])
+    content = re.sub(
+        r'<div class="mistake-block[^"]*" id="s-mistakes">.*?</div>\n    </div>',
+        new_mistakes,
+        content,
+        flags=re.DOTALL
+    )
 
+    open(filepath, 'w', encoding='utf-8').write(content)
+    print(f"Successfully updated: {filename}")
+
+
+def main():
+    for filename, data in DATA.items():
+        process_file(filename, data)
 
 if __name__ == "__main__":
-    for challenge in ["angele-challenge", "la-zarra-challenge", "fabienne-thibeault-challenge", "zazie-challenge"]:
-        remediate_index_file(challenge, challenge)
-        for song_slug in DATA[challenge].keys():
-            remediate_single_song_file(challenge, song_slug)
+    main()
