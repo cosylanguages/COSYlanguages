@@ -45,6 +45,7 @@ GOSSIP_DATA = {
             'She moved forward, enduring pain while building a new life.',
             'They stood side by side, fighting through uncertainty with courage.'
         ],
+        'final_challenge': 'Reconciliation or Reflection: Role-play a conversation between two former partners meeting 5 years after a bitter emotional conflict to discuss the casualties and lessons learned.',
         'note_items': [
             ("They are casualties <span class=\"mistake-highlight\">from the war</span>", "→", "They are casualties of war", "(Use 'of war' in the set phrase 'casualties of war'.)"),
             ("She is carrying scars <span class=\"mistake-highlight\">on her mind</span>", "→", "She is carrying scars in her mind", "(Use 'in her mind' or 'on her heart/skin' appropriately.)"),
@@ -93,6 +94,7 @@ GOSSIP_DATA = {
             'Carrying a soul-crushing responsibility requires a strong support network.',
             'They emerged from the storm with a battle-hardened determination.'
         ],
+        'final_challenge': 'Carrying the Burden: In pairs, describe a demanding project or life transition you had to carry through a cold or challenging environment, and how you found the strength to persevere.',
         'note_items': [
             ("She carries a <span class=\"mistake-highlight\">heavy cross of</span> her shoulders", "→", "She carries a heavy cross on her shoulders", "(Use 'on' after 'carries a burden/cross' to indicate physical or figurative placement.)"),
             ("They are standing firm <span class=\"mistake-highlight\">against of</span> the unfair rules", "→", "They are standing firm against the unfair rules", "(Do not insert 'of' after the preposition 'against'.)"),
@@ -141,6 +143,7 @@ GOSSIP_DATA = {
             'She stepped forward to take charge of her own future.',
             'Despite the setbacks, they decided to carry on with confidence.'
         ],
+        'final_challenge': 'The Forward Blueprint: Formulate a 3-step action plan for a friend feeling stuck in past regrets to help them let go of tears and move confidently in the right direction.',
         'note_items': [
             ("She is moving <span class=\"mistake-highlight\">to the right direction</span>", "→", "She is moving in the right direction", "(Use the preposition 'in' with 'direction' when indicating general course or alignment.)"),
             ("He stopped <span class=\"mistake-highlight\">to reminisce of</span> his old mistakes", "→", "He stopped reminiscing about his old mistakes", "(Use 'reminisce about' or the gerund form after 'stopped' when halting an ongoing habit.)"),
@@ -189,6 +192,7 @@ GOSSIP_DATA = {
             'She spoke out in defiance of unjust social expectations.',
             'We must stand together against discrimination.'
         ],
+        'final_challenge': 'Defying Control: Role-play a dialogue where someone in authority tries to enforce unfair, rigid rules, and you politely yet firmly stand in the way of their control to defend bodily autonomy.',
         'note_items': [
             ("They are standing <span class=\"mistake-highlight\">in the way for control</span>", "→", "They are standing in the way of control", "(Use 'in the way of' when indicating an obstacle or resistance to something.)"),
             ("It is the only way <span class=\"mistake-highlight\">for survive</span> in this system", "→", "It is the only way to survive in this system", "(Use 'to + infinitive' after 'way'.)"),
@@ -237,6 +241,7 @@ GOSSIP_DATA = {
             'He was wildly passionate about his creative pursuits.',
             'They were completely overwhelmed by the emotional rush.'
         ],
+        'final_challenge': 'Embracing Spontaneity: Share a personal story of a time you took a wild emotional risk or jumped headfirst into a passionate pursuit, feeling \'crazy again\'.',
         'note_items': [
             ("She is going crazy <span class=\"mistake-highlight\">for again</span>", "→", "She is going crazy again", "(Place the adverb 'again' directly after the adjective or verb phrase.)"),
             ("He expects her to be his <span class=\"mistake-highlight\">savior for all</span> his problems", "→", "He expects her to be his savior from all his problems", "(Use 'savior from' or 'savior for' appropriately without extra prepositions.)"),
@@ -271,7 +276,7 @@ GOSSIP_DATA = {
             ("The jarring morning <strong>alarm</strong> symbolizes societal conditioning. How does strict time discipline shape our days?", "★ How does your morning routine set the tone for your independence and well-being?"),
             ("Watching the <strong>clock</strong> during a monotonous shift is a universal experience in the song. How do you maintain creativity at work?", "★ What helps you stay engaged when tasks feel repetitive and time-bound?"),
             ("Gossip calls out those who avoid <strong>facing</strong> harsh economic truths. Why is economic literacy crucial for empowerment?", "★ What was a tough financial truth you had to face, and how did you navigate it?"),
-            ("Ultimately, the song asks what it means to be truly <strong>free</strong> in a capital-driven world. Can one achieve freedom within the system?", "★ What does personal and financial <strong>free</strong>dom look like in your ideal future?")
+            ("Ultimately, the song asks what it means to be truly <strong>free</strong> in a capital-driven world. Can one achieve freedom within the system?", "★ What does personal and financial <strong>freedom</strong> look like in your ideal future?")
         ],
         'r2': [
             "Glorifying the daily <strong>grind</strong> and working non-stop for <strong>money</strong> is a toxic cultural trend that destroys physical and mental health. Let's debate this perspective.",
@@ -285,6 +290,7 @@ GOSSIP_DATA = {
             'She punches the clock every morning at eight sharply.',
             'They are striving hard to pay the bills and build savings.'
         ],
+        'final_challenge': 'Satirical Career Counseling: Create a humorous or satirical pitch advising a fictional burnt-out worker how to balance paying the bills with actually enjoying life outside the daily grind.',
         'note_items': [
             ("He is working hard <span class=\"mistake-highlight\">for make ends meet</span>", "→", "He is working hard to make ends meet", "(Use 'to + infinitive' to express purpose after 'working hard'.)"),
             ("She is worried <span class=\"mistake-highlight\">about her bills payments</span>", "→", "She is worried about paying her bills", "(Use 'paying her bills' or 'her bill payments' cleanly without awkward phrasing.)"),
@@ -333,6 +339,7 @@ GOSSIP_DATA = {
             'Look at them dancing together with complete happiness.',
             'We are celebrating pride and expressing our authentic love.'
         ],
+        'final_challenge': 'Joyful Celebration Speech: Prepare a short, uplifting toast or speech celebrating love, pride, and public affection at a friend\'s wedding or community celebration.',
         'note_items': [
             ("They are men <span class=\"mistake-highlight\">in the love</span>", "→", "They are men in love", "(Omit the definite article 'the' in the set phrase 'in love'.)"),
             ("They were holding <span class=\"mistake-highlight\">their hands together</span> on street", "→", "They were holding hands on the street", "(Use 'holding hands' without unnecessary possessives and include 'the' before 'street'.)"),
@@ -381,6 +388,7 @@ GOSSIP_DATA = {
             'What we need most today is transparent leadership.',
             'It was her courageous voice that inspired the entire movement.'
         ],
+        'final_challenge': 'Grassroots Campaign Pitch: In pairs, outline a community-led initiative for your town to solve a local issue, demonstrating where real grassroots power comes from.',
         'note_items': [
             ("They possess <span class=\"mistake-highlight\">a real power of</span> leadership", "→", "They possess real power in leadership", "(Omit 'a' before abstract noun 'power' when speaking generally.)"),
             ("It is unity <span class=\"mistake-highlight\">what gives us strength</span>", "→", "It is unity that gives us strength", "(Use 'that' or 'which' in cleft sentences: 'It is [noun] that [verb]'.)"),
@@ -410,7 +418,7 @@ GOSSIP_DATA = {
             ("The song captures how an infectious <strong>rhythm</strong> can unite millions across different cultures. Why does music transcend borders?", "★ How does listening to your favorite music's <strong>rhythm</strong> affect your daily productivity?"),
             ("Gossip observes people <strong>dancing</strong> through life's chaos. Is pop music an escape or a mirror of society?", "★ Do you use music and <strong>dancing</strong> primarily as an escape from stress or a way to feel connected?"),
             ("How does a memorable <strong>melody</strong> carry complex social critiques into mainstream culture?", "★ What is a song with a simple <strong>melody</strong> that carries a surprisingly deep message?"),
-            ("The title 'Pop Goes the <strong>world</strong>' plays on nursery rhymes to mock commercial hype. How fast do media trends fade?", "★ How do you filter out temporary internet trends to focus on what truly matters in the <strong>world</strong>?"),
+            ("The title 'Pop Goes the <strong>world</strong>' plays on nursery rhymes to mock commercial hype. How fast do media trends fade?", "★ How do you filter out temporary internet trends to focus on what truly matters in the <strong>world</strong>?",),
             ("Gossip experiments with electronic and dance-rock <strong>sound</strong>scapes. How has pop music evolved over the last decade?", "★ How has your personal taste in <strong>sound</strong> and music changed since your teenage years?"),
             ("The lyrics describe feeling a shared <strong>vibration</strong> in a crowded room. What creates genuine crowd energy?", "★ How do you describe the overall energy or <strong>vibration</strong> of the city or town where you live?"),
             ("Following the commercial <strong>beat</strong> can encourage consumerism. How do you protect your unique individuality?", "★ How do you stay true to your personal style rather than following every viral <strong>beat</strong>?"),
@@ -429,6 +437,7 @@ GOSSIP_DATA = {
             'The song was broadcast across radio stations worldwide.',
             'Popular culture is constantly redefined by young artists.'
         ],
+        'final_challenge': 'Pop Culture Capsule: Pitch a 90-second radio segment analyzing a current viral trend or song, debating whether it fosters genuine connection or temporary commercial noise.',
         'note_items': [
             ("Pop culture is influenced <span class=\"mistake-highlight\">from media</span>", "→", "Pop culture is influenced by media", "(Use 'by' to denote the agent in passive voice constructions.)"),
             ("The song was broadcasted <span class=\"mistake-highlight\">in the radio</span>", "→", "The song was broadcast on the radio", "(Use 'on the radio' for media broadcasts, and 'broadcast' as irregular past participle.)"),
@@ -481,6 +490,14 @@ def generate_lang_focus_html(title, desc, examples):
     html += '</ul>\n</div>'
     return html
 
+def generate_final_challenge_html(text):
+    return f'''<div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+<span style="font-size: 2rem;">🎭</span>
+<div>
+<p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">{text}</p>
+</div>
+</div>'''
+
 def generate_teacher_note_html(items):
     html = '<div class="mistake-body" style="display:block;">\n'
     for wrong, arrow, right, note in items:
@@ -497,7 +514,7 @@ def update_html_text(content, song_slug, data):
     id_suffix = data['id_suffix']
 
     # 1. Update Vocab
-    v_id = f'vocabulary-{id_suffix}'
+    v_id = f'vocabulary-{id_suffix}' if f'id="vocabulary-{id_suffix}"' in content else 'vocabulary'
     v_start = content.find(f'id="{v_id}"')
     if v_start != -1:
         v_grid_start = content.find('<div class="vocab-grid-10">', v_start)
@@ -507,7 +524,7 @@ def update_html_text(content, song_slug, data):
             content = content[:v_grid_start] + new_vocab_html + content[v_grid_end + 6:]
 
     # 2. Update Discussion
-    d_id = f'discussion-{id_suffix}'
+    d_id = f'discussion-{id_suffix}' if f'id="discussion-{id_suffix}"' in content else 'discussion'
     d_start = content.find(f'id="{d_id}"')
     if d_start != -1:
         r1_start = content.find('<div class="round-1"', d_start)
@@ -518,7 +535,7 @@ def update_html_text(content, song_slug, data):
             content = content[:r1_start] + new_disc_html + content[d_end + 6:]
 
     # 3. Update Language Focus
-    lf_id = f'lang-focus-{id_suffix}'
+    lf_id = f'lang-focus-{id_suffix}' if f'id="lang-focus-{id_suffix}"' in content else 'lang-focus'
     lf_start = content.find(f'id="{lf_id}"')
     if lf_start != -1:
         lf_box_start = content.find('<div style="background: var(--cream); border-left: 4px solid var(--indigo);', lf_start)
@@ -527,8 +544,18 @@ def update_html_text(content, song_slug, data):
             new_lf_html = generate_lang_focus_html(data['lang_title'], data['lang_desc'], data['lang_examples'])
             content = content[:lf_box_start] + new_lf_html + content[lf_box_end + 6:]
 
-    # 4. Update Teacher Note
-    tn_id = f's-mistakes-{id_suffix}'
+    # 4. Update Final Challenge
+    fc_id = f'final-challenge-{id_suffix}' if f'id="final-challenge-{id_suffix}"' in content else 'final-challenge'
+    fc_start = content.find(f'id="{fc_id}"')
+    if fc_start != -1:
+        fc_box_start = content.find('<div style="background: var(--cream); border: 2px dashed var(--indigo);', fc_start)
+        fc_box_end = content.find('</div>\n</div>\n</div>', fc_box_start)
+        if fc_box_start != -1 and fc_box_end != -1:
+            new_fc_html = generate_final_challenge_html(data['final_challenge'])
+            content = content[:fc_box_start] + new_fc_html + content[fc_box_end + 6:]
+
+    # 5. Update Teacher Note
+    tn_id = f's-mistakes-{id_suffix}' if f'id="s-mistakes-{id_suffix}"' in content else 's-mistakes'
     tn_start = content.find(f'id="{tn_id}"')
     if tn_start != -1:
         mb_start = content.find('<div class="mistake-body"', tn_start)
