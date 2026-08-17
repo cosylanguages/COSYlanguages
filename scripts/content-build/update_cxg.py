@@ -1,369 +1,375 @@
 import os
 import re
+from bs4 import BeautifulSoup
 
 CXG_DIR = 'apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/crazy-ex-girlfriend-challenge/'
 
-CXG_BATCH1_DATA = {
-    'lets-generalize-about-men': {
-        'title': "Let's Generalize About Men",
-        'id_suffix': 'lets-generalize-about-men',
+CXG_BATCH4_DATA = {
+    'dont-be-a-lawyer': {
+        'title': "Don't Be a Lawyer",
+        'id_suffix': 'dont-be-a-lawyer',
         'vocab': [
-            {'word': 'Generalize', 'def': 'To make a broad, sweeping statement by inferring from specific cases.', 'ex': 'Instead of processing one bad date, we decided to generalize about three billion men.', 'opp': 'Specify'},
-            {'word': 'Satire', 'def': 'The use of humor, irony, or exaggeration to expose and criticize absurdity.', 'ex': 'The song is a brilliant satire of late-night alcohol-fueled group vent sessions.', 'opp': 'Sincerity'},
-            {'word': 'Condescending', 'def': 'Having or showing a feeling of patronizing superiority.', 'ex': 'He gave a condescending explanation about a topic she had a PhD in.', 'opp': 'Humble'},
-            {'word': 'Repressed', 'def': 'Restrained, inhibited, or oppressed, especially regarding emotions.', 'ex': 'Ranting about exes is a classic way to release years of repressed frustration.', 'opp': 'Expressed'},
-            {'word': 'Anger', 'def': 'A strong feeling of annoyance, displeasure, or hostility.', 'ex': 'Her righteous anger was quickly converted into an upbeat 80s pop dance routine.', 'opp': 'Calm'},
-            {'word': 'Blanket', 'def': 'Covering all cases or classes; total and indiscriminate.', 'ex': 'Issuing a blanket condemnation of an entire gender is scientifically flawed but cathartic.', 'opp': 'Targeted'},
-            {'word': 'Conflate', 'def': 'To combine two or more texts, ideas, or individuals into one.', 'ex': 'It is easy to conflate bad personal choices with universal human flaws.', 'opp': 'Separate'},
-            {'word': 'Exception', 'def': 'A person or thing that is excluded from a general statement.', 'ex': 'They intentionally ignored every good guy as an unhelpful exception to their rule.', 'opp': 'Rule'},
-            {'word': 'Distinguish', 'def': 'To recognize or point out a difference between items or people.', 'ex': 'When you are furious, you rarely bother to distinguish nuance from malice.', 'opp': 'Confuse'},
-            {'word': 'Nuance', 'def': 'A subtle difference in or shade of meaning, expression, or sound.', 'ex': 'Nuance completely disappears the moment a group anthem starts.', 'opp': 'Crudeness'}
+            {'word': 'Profession', 'def': 'A paid occupation, especially one that involves prolonged training and a formal qualification.', 'ex': 'Jim sings an upbeat 80s R&B song warning young people against choosing law as a profession.'},
+            {'word': 'Disillusionment', 'def': 'A feeling of disappointment resulting from the discovery that something is not as good as believed.', 'ex': 'Many law graduates experience deep disillusionment when faced with endless paperwork and billing hours.'},
+            {'word': 'Burnout', 'def': 'State of emotional, physical, and mental exhaustion caused by excessive and prolonged stress.', 'ex': 'Working 80-hour weeks at a corporate firm is a guaranteed recipe for career burnout.'},
+            {'word': 'Litigation', 'def': 'The process of taking legal action in court.', 'ex': 'Corporate litigation often involves reviewing thousands of dry documents rather than dramatic court arguments.'},
+            {'word': 'Billable', 'def': 'Capable of being billed to a client, especially for professional services.', 'ex': 'Lawyers live under constant pressure to record as many billable hours as possible each day.'},
+            {'word': 'Alternative', 'def': 'Available as another possibility or choice.', 'ex': 'The song humorously suggests almost any alternative career is better than practicing law.'},
+            {'word': 'Prestige', 'def': 'Widespread respect and admiration felt for someone on the basis of their achievements or quality.', 'ex': 'People choose legal careers for societal prestige, but prestige does not guarantee happiness.'},
+            {'word': 'Debt', 'def': 'A sum of money that is owed or due.', 'ex': 'Taking on huge student debt for law school forces graduates to take corporate jobs they dislike.'},
+            {'word': 'Fulfillment', 'def': 'Satisfaction or happiness as a result of fully developing one\'s abilities or character.', 'ex': 'Finding personal fulfillment in your job is far more valuable than a impressive job title.'},
+            {'word': 'Sabbatical', 'def': 'A period of paid or unpaid leave granted for study, travel, or rest.', 'ex': 'Jim took a permanent sabbatical from law to run a local broom shop instead.'}
         ],
         'r1': [
-            ("In 'Let's Generalize About Men', Paula and Rebecca decide that every man on Earth is identical. How does <strong>Generalize</strong> mock internet outrage?", "★ When you are upset, do you tend to <strong>Generalize</strong> or look at individual facts?"),
-            ("The song uses 80s synth-pop <strong>Satire</strong> to highlight absurd groupthink. Why does music make social critiques so fun?", "★ What is your favorite piece of cultural <strong>Satire</strong> that made you laugh at everyday habits?"),
-            ("When dealing with a <strong>Condescending</strong> comment, why is it tempting to write off the entire group?", "★ How do you calmly handle a <strong>Condescending</strong> remark from a colleague or acquaintance?"),
-            ("The characters release <strong>Repressed</strong> annoyance through exaggerated accusations. Is venting hyperbole healthy?", "★ What is your go-to method for releasing <strong>Repressed</strong> stress after a long week?"),
-            ("How does turning individual <strong>Anger</strong> into a synchronized pop dance number subvert traditional heartbreak songs?", "★ Do you prefer working through <strong>Anger</strong> through humor or quiet solitude?"),
-            ("The lyrics issue a hilarious <strong>Blanket</strong> statement that 'all men are total trash'. Why is sweeping drama so addictive?", "★ Why do people love making dramatic <strong>Blanket</strong> statements when complaining with friends?"),
-            ("Why do we tend to <strong>Conflate</strong> one ex-partner's bad habits with every future person we meet?", "★ How do you stop yourself from trying to <strong>Conflate</strong> past bad experiences with new opportunities?"),
-            ("In the song, any decent man is dismissed as a useless <strong>Exception</strong>. Why does nuance ruin a good rant?", "★ Have you ever been the lone <strong>Exception</strong> to a stereotype someone held about your group?"),
-            ("The characters intentionally refuse to <strong>Distinguish</strong> between mild flaws and terrible crimes. How does hyperbole work?", "★ Is it important to <strong>Distinguish</strong> small mistakes from major red flags in dating?"),
-            ("Why is emotional <strong>Nuance</strong> the first casualty of an angry group vent session?", "★ How do you maintain <strong>Nuance</strong> when discussing polarizing topics online?")
+            ("In 'Don't Be a Lawyer', B2-level humor parodies 80s funk/R&B to warn against choosing law for status. Why does society push high-prestige careers?", "★ Have you ever felt pressure from society or family to choose a high-prestige career?"),
+            ("The song highlights corporate <strong>Litigation</strong> and <strong>Billable</strong> hour pressure. What makes daily office work exhausting?", "★ What is the most tedious or repetitive aspect of your current profession or field of study?"),
+            ("How does high student <strong>Debt</strong> trap professionals in jobs that cause severe <strong>Burnout</strong>?", "★ How do financial commitments like debt influence career decisions and job choices?"),
+            ("Jim describes his total <strong>Disillusionment</strong> with law despite earning a high salary. Can money compensate for job misery?", "★ Would you accept higher stress and long hours for a significantly higher salary? Why or why not?"),
+            ("Why is finding genuine <strong>Fulfillment</strong> in daily work often difficult in corporate environments?", "★ What single factor contributes most to your personal sense of job satisfaction or fulfillment?"),
+            ("The lyrics list funny <strong>Alternative</strong> jobs like 'shoe cobbler' or 'sweeping up leaves'. Why are hands-on jobs appealing?", "★ If you could try any alternative career for one year without financial risk, what would you choose?"),
+            ("How does the pursuit of external <strong>Prestige</strong> prevent people from listening to their true desires?", "★ Why do people care so much about how their job title sounds to acquaintances at parties?"),
+            ("Why is taking a break or <strong>Sabbatical</strong> often necessary when facing severe work exhaustion?", "★ What activities or lifestyle changes help you recharge when work stress starts building up?"),
+            ("What makes using an upbeat 80s dance track (like Bobby Brown\'s style) so hilarious for a song about career regret?", "★ Why is satire such an effective tool for discussing workplace frustration and career decisions?"),
+            ("Ultimately, what is the song\'s message about making career choices for yourself versus for other people?", "★ What advice would you give to a university student choosing their career path today?")
         ],
         'r2': [
-            "Making sweeping <strong>Blanket</strong> statements about groups of people is a necessary coping mechanism during emotional distress. Let's debate this perspective.",
-            "Humorous <strong>Satire</strong> is far better at exposing cultural absurdities than solemn, serious lectures. Share your thoughts.",
-            "Refusing to acknowledge <strong>Nuance</strong> in relationships inevitably leads to repetitive personal drama. Defend or oppose."
+            "Choosing a stable, high-paying <strong>Profession</strong> despite high stress is smarter than pursuing risky personal passion. Let's debate this perspective.",
+            "Societal <strong>Prestige</strong> attached to certain job titles is an outdated illusion that causes widespread career unhappiness. Share your thoughts.",
+            "Workplace <strong>Burnout</strong> is an inevitable part of modern professional success that people must learn to manage. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Indefinite Pronouns & Universal Quantifiers (*all, every, no one*)',
-        'lang_desc': 'In the song <strong>Let\'s Generalize About Men</strong>, the satirical exaggeration highlights <strong>Universal Quantifiers & Sweep Hyperbole</strong> (e.g., <em>all men, every single one, no man ever</em>). This structure supports analyzing comedic hyperbole.',
+        'lang_title': 'Language Focus: Expressing Career Warnings & Strong Negative Recommendations',
+        'lang_desc': 'In the song <strong>Don\'t Be a Lawyer</strong>, the energetic satire uses <strong>Imperative Warnings & Strongly Worded Recommendations</strong> (e.g., <em>Don\'t be a lawyer, do anything else; It\'s a trap, don\'t do it; You\'d be better off doing literally anything else</em>). This structure supports giving emphatic career advice.',
         'lang_examples': [
-            'All men, everywhere, without exception, are completely identical!',
-            'Every single time I try to reason, no one ever listens to nuance.',
-            'No man in human history has ever cleaned a sink properly.'
+            'Whatever you do, don\'t choose a profession purely for the salary.',
+            'You would be much better off pursuing a field that actually interests you.',
+            'Under no circumstances should you accept a job that demands 80 hours a week.'
         ],
         'note_items': [
-            ("Let's generalize <span class=\"mistake-highlight\">for all men</span>", "→", "Let's generalize about all men", "(Use the preposition 'about' after 'generalize'.)"),
-            ("They conflate his mistake <span class=\"mistake-highlight\">with all the humanity</span>", "→", "They conflate his mistake with universal flaws", "(Use 'conflate A with B' without unnecessary articles.)"),
-            ("He is an exception <span class=\"mistake-highlight\">of the rule</span>", "→", "He is an exception to the rule", "(Use the fixed prepositional phrase 'exception to the rule'.)")
+            ("Don't be a lawyer <span class=\"mistake-highlight\">for get rich</span>", "→", "Don't become a lawyer to get rich", "(Use 'to + infinitive' for purpose.)"),
+            ("He is tired <span class=\"mistake-highlight\">from his job</span>", "→", "He is tired of his job / exhausted from his job", "(Use 'tired of' for boredom/dissatisfaction.)"),
+            ("She works <span class=\"mistake-highlight\">as lawyer</span>", "→", "She works as a lawyer", "(Include indefinite article 'a' with professions.)")
         ]
     },
 
-    'so-maternal': {
-        'title': 'So Maternal',
-        'id_suffix': 'so-maternal',
-        'theme_title': '❤️ Theme: Competitive Parenting & Aggressive Nurturing',
-        'theme_bullets': ['Maternal', 'Overzealous', 'Competitive', 'Personal reflection'],
+    'slow-motion': {
+        'title': 'Slow Motion',
+        'id_suffix': 'slow-motion',
         'vocab': [
-            {'word': 'Maternal', 'def': 'Relating to a mother, especially in showing affection or instinct.', 'ex': 'Rebecca\'s sudden maternal urge was less about love and more about proving a point.', 'opp': 'Paternal'},
-            {'word': 'Overzealous', 'def': 'Too zealous; overly enthusiastic and aggressive in pursuit of a goal.', 'ex': 'An overzealous babysitter can turn a peaceful afternoon into a military exercise.', 'opp': 'Indifferent'},
-            {'word': 'Compulsive', 'def': 'Resulting from or acting on an irresistible urge or impulse.', 'ex': 'Her compulsive need to fix other people\'s lives masked her own chaos.', 'opp': 'Deliberate'},
-            {'word': 'Harrowing', 'def': 'Acutely distressing, painful, or terrifying.', 'ex': 'Babysitting a toddler proved to be a far more harrowing ordeal than expected.', 'opp': 'Soothing'},
-            {'word': 'Matriarch', 'def': 'A woman who is the head of a family, group, or organizational hierarchy.', 'ex': 'She strutted into the nursery acting like an ancient, all-knowing matriarch.', 'opp': 'Patriarch'},
-            {'word': 'Expectations', 'def': 'Strong beliefs that something will or should happen in a certain way.', 'ex': 'Unrealistic parenting expectations generate endless unnecessary guilt.', 'opp': 'Reality'},
-            {'word': 'Instinctual', 'def': 'Relating to or prompted by natural impulse rather than training.', 'ex': 'She claimed her aggressive childcare methods were purely instinctual.', 'opp': 'Learned'},
-            {'word': 'Tireless', 'def': 'Capable of working or continuing for a long time without fatigue.', 'ex': 'Her tireless devotion to organic gluten-free snacks exhausted everyone.', 'opp': 'Lethargic'},
-            {'word': 'Raising', 'def': 'The process of bringing up and educating a child.', 'ex': 'Raising kids requires patience rather than performative perfection.', 'opp': 'Abandoning'},
-            {'word': 'Perfect', 'def': 'Free from all flaws or defects; ideal in every way.', 'ex': 'Trying to appear like a perfect parent online is a recipe for burnout.', 'opp': 'Flawed'}
+            {'word': 'Cinematic', 'def': 'Relating to literature or motion pictures; having qualities characteristic of films.', 'ex': 'The women perform a hilarious parody of cinematic slow-motion walking in action movies.'},
+            {'word': 'Absurdity', 'def': 'The quality or state of being ridiculous or wildly unreasonable.', 'ex': 'The song exposes the absurdity of movie tropes that make walking look dramatic.'},
+            {'word': 'Exaggeration', 'def': 'A statement that represents something as better or worse than it really is.', 'ex': 'Slow-motion walking in real life is an awkward exaggeration that causes windburn.'},
+            {'word': 'Glamour', 'def': 'An attractive or exciting quality that makes certain people or things seem appealing.', 'ex': 'Media creates fake glamour around mundane daily moments like walking down the street.'},
+            {'word': 'Pacing', 'def': 'The speed at which something happens or is done.', 'ex': 'Slowing down your walking pacing in public looks bizarre to passersby.'},
+            {'word': 'Self-Conscious', 'def': 'Feeling undue awareness of oneself, one\'s appearance, or one\'s actions.', 'ex': 'Trying to look cool in public often makes people feel painfully self-conscious.'},
+            {'word': 'Trope', 'def': 'A figurative or metaphorical use of a word or expression; a common or overused theme.', 'ex': 'The dramatic entrance is a classic movie trope used to build hero status.'},
+            {'word': 'Windburn', 'def': 'Redness and irritation of the skin caused by exposure to wind.', 'ex': 'They joke that staring unblinking into the wind for cinematic effect just causes windburn.'},
+            {'word': 'Awkwardness', 'def': 'The quality of an informal situation being embarrassing or difficult.', 'ex': 'In reality, walking in slow motion takes forever and creates extreme physical awkwardness.'},
+            {'word': 'Parody', 'def': 'An imitation of the style of a particular writer, artist, or genre with deliberate exaggeration.', 'ex': 'The song is a brilliant parody of N.E.R.D. and 2000s hip-hop music videos.'}
         ],
         'r1': [
-            ("In 'So Maternal', Rebecca turns a brief babysitting gig into an aggressive ego flex. How does the song mock <strong>Maternal</strong> competition?", "★ Have you ever felt judged by someone displaying an <strong>Maternal</strong> or superior attitude?"),
-            ("Why do <strong>Overzealous</strong> people often make simple tasks ten times more chaotic for everyone else?", "★ How do you handle an <strong>Overzealous</strong> coworker or friend who takes over a shared project?"),
-            ("Rebecca\'s <strong>Compulsive</strong> urge to win at babysitting leads to total disaster. Why is validation so addictive?", "★ How do you keep <strong>Compulsive</strong> perfectionism from ruining your enjoyment of hobbies?"),
-            ("The song turns a routine afternoon into a <strong>Harrowing</strong> comedy of errors. Why is over-parenting funny in fiction?", "★ What was a minor task that turned into a surprisingly <strong>Harrowing</strong> situation for you?"),
-            ("Rebecca declares herself the ultimate <strong>Matriarch</strong> after two hours with a kid. How does vanity blind us?", "★ Who is the undisputed <strong>Matriarch</strong> or pillar of leadership in your family or friend group?"),
-            ("How do modern social media <strong>Expectations</strong> pressure people to perform ideal adult lives?", "★ How do you manage your own <strong>Expectations</strong> when starting something completely new?"),
-            ("Rebecca insists her aggressive skills are <strong>Instinctual</strong>, despite knowing nothing about kids. How does confidence mislead?", "★ Do you trust your <strong>Instinctual</strong> gut feelings or prefer thorough research first?"),
-            ("The track parodies <strong>Tireless</strong> mom-bloggers who never drop the act. Why is performative energy tiring?", "★ What is an activity where you possess <strong>Tireless</strong> energy and focus?"),
-            ("How does the song show that <strong>Raising</strong> children is about genuine care rather than winning awards?", "★ What valuable lesson did your family teach you about <strong>Raising</strong> good human beings?"),
-            ("Why is the myth of the <strong>Perfect</strong> caretaker or adult impossible to achieve in real life?", "★ How do you embrace your flaws instead of striving for a <strong>Perfect</strong> image?")
+            ("In 'Slow Motion', Rebecca, Valencia, and Heather perform a hip-hop parody mocking movie slow-mo shots. Why do movies use <strong>Cinematic</strong> slow motion?", "★ What is your favorite <strong>Cinematic</strong> visual effect in movies that would look totally ridiculous in real life?"),
+            ("The song highlights the physical <strong>Absurdity</strong> of trying to walk dramatically in public. Why do people care about looking cool?", "★ Have you ever tried to act cool or dramatic in public, only for it to end in hilarious <strong>Awkwardness</strong>?"),
+            ("How does movie <strong>Exaggeration</strong> create unrealistic expectations about everyday moments?", "★ What everyday activity (like waking up or walking) is portrayed completely unrealistically in movies?"),
+            ("The lyrics mock media-created <strong>Glamour</strong> by pointing out that slow walking causes <strong>Windburn</strong> and leg cramps. Why is this contrast funny?", "★ Why is pointing out unglamorous physical details the best way to debunk media perfection?"),
+            ("Why does trying to control your physical <strong>Pacing</strong> and posture in front of others make you feel <strong>Self-Conscious</strong>?", "★ In what social situations do you feel most self-conscious about your body language or posture?"),
+            ("How does the track deconstruct the classic 'hero entrance' movie <strong>Trope</strong>?", "★ What overused movie trope or cliché are you most tired of seeing in modern films?"),
+            ("Why does walking in slow motion actually take three times as long and waste precious time?", "★ What is something people do to impress others that is actually a massive waste of time and energy?"),
+            ("How does <strong>Parody</strong> help us laugh at the ridiculous expectations media places on women\'s appearances?", "★ How can humor and comedy help demystify unrealistic beauty and behavior standards?"),
+            ("What makes 2000s hip-hop beats so perfect for a song about struts and false swagger?", "★ How does music affect the way you walk or feel when listening with headphones in public?"),
+            ("Ultimately, what does the song reveal about the difference between looking cool and feeling comfortable?", "★ Would you rather look impeccably stylish or feel 100% physically comfortable?")
         ],
         'r2': [
-            "Modern culture turns parenting into a competitive sport driven by performative <strong>Expectations</strong> rather than genuine care. Let's debate this perspective.",
-            "Acts of extreme <strong>Overzealous</strong> help are often motivated by personal insecurity rather than genuine altruism. Share your thoughts.",
-            "Striving to appear <strong>Perfect</strong> in any role inevitably creates a <strong>Harrowing</strong> environment for those around you. Defend or oppose."
+            "Media tropes that romanticize daily life with fake <strong>Glamour</strong> make people permanently dissatisfied with reality. Let's debate this perspective.",
+            "Being able to laugh at our own physical <strong>Awkwardness</strong> and <strong>Self-Conscious</strong> moments is the key to true self-confidence. Share your thoughts.",
+            "Visual <strong>Parody</strong> is a far more effective tool for social critique than serious academic criticism. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Self-Aggrandizing Exclamations & Comparative Adjectives',
-        'lang_desc': 'In the song <strong>So Maternal</strong>, the exaggerated self-praise highlights <strong>Comparative Adjectives & Ego Claims</strong> (e.g., <em>so much better, far more capable, the most instinctual</em>). This structure supports analyzing comedic boastfulness.',
+        'lang_title': 'Language Focus: Describing Physical Movements & Media Tropes (*It looks like... but actually*)',
+        'lang_desc': 'In the song <strong>Slow Motion</strong>, the hip-hop satire contrasts appearance with reality using <strong>Visual Comparison & Physical Reality Structures</strong> (e.g., <em>In movies it looks badass, but in reality it takes 20 minutes to cross the street; You look like a cool hero, but your legs are cramping</em>). This structure supports describing visual contrast.',
         'lang_examples': [
-            'I am so much more maternal than any real mother could ever be!',
-            'She is far more efficient at managing chaos than her colleagues.',
-            'This is the most incredible demonstration of parenting in history.'
+            'In action movies slow-motion walking looks heroic, whereas in real life it looks ridiculous.',
+            'Instead of feeling like a movie star, she just got windburn on her face.',
+            'They tried to strut dramatically, but they ended up tripping over the curb.'
         ],
         'note_items': [
-            ("She is so maternal <span class=\"mistake-highlight\">than her sister</span>", "→", "She is more maternal than her sister", "(Use 'more... than' for comparative adjectives, reserve 'so' for intensity without 'than'.)"),
-            ("She is good <span class=\"mistake-highlight\">in raising kids</span>", "→", "She is good at raising kids", "(Use 'good at' when expressing skill or competence.)"),
-            ("They have high expectations <span class=\"mistake-highlight\">for the child</span>", "→", "They have high expectations of the child", "(Use 'expectations of' someone.)")
+            ("They walk in slow motion <span class=\"mistake-highlight\">for look cool</span>", "→", "They walk in slow motion to look cool", "(Use 'to + infinitive' for purpose.)"),
+            ("She feels self-conscious <span class=\"mistake-highlight\">about her walking</span>", "→", "She feels self-conscious about her walking", "(Correct preposition usage.)"),
+            ("The movie has many <span class=\"mistake-highlight\">tropes cinema</span>", "→", "The movie has many cinematic tropes", "(Position adjective before noun.)")
         ]
     },
 
-    'face-your-fears': {
-        'title': 'Face Your Fears',
-        'id_suffix': 'face-your-fears',
-        'theme_title': '❤️ Theme: Comedic Bad Advice & Absurd Recklessness',
-        'theme_bullets': ['Insecurity', 'Reckless', 'Platitudes', 'Personal reflection'],
+    'without-love-you-can-save-the-world': {
+        'title': "Without Love, You Can Save the World",
+        'id_suffix': 'without-love-you-can-save-the-world',
         'vocab': [
-            {'word': 'Insecurity', 'def': 'Uncertainty or anxiety about oneself; lack of confidence.', 'ex': 'Paula\'s gospel anthem encourages Rebecca to ignore basic self-preservation due to insecurity.', 'opp': 'Confidence'},
-            {'word': 'Fear', 'def': 'An unpleasant emotion caused by belief in impending danger.', 'ex': 'Facing your fear is good advice, unless your fear is jumping off a cliff without a parachute.', 'opp': 'Calm'},
-            {'word': 'Tiptoe', 'def': 'To walk quietly and carefully with heels raised.', 'ex': 'You cannot tiptoe through life if you want to make a bold impact.', 'opp': 'Stomp'},
-            {'word': 'Frightened', 'def': 'Afraid, anxious, or fearful.', 'ex': 'She was frightened of public speaking, so she pictured the audience in pajamas.', 'opp': 'Fearless'},
-            {'word': 'Stare', 'def': 'To look fixedly or vacantly at someone or something with eyes wide open.', 'ex': 'The song literally advises you to stare directly into a bear\'s eyes.', 'opp': 'Glance'},
-            {'word': 'Scary', 'def': 'Causing fear; frightening.', 'ex': 'Taking a career risk is scary, but so is staying stuck forever.', 'opp': 'Comforting'},
-            {'word': 'Courage', 'def': 'Bravery and mind strength in the face of pain or grief.', 'ex': 'True courage is distinguishing between brave risk-taking and sheer stupidity.', 'opp': 'Cowardice'},
-            {'word': 'Reckless', 'def': 'Without caution; careless of consequences or danger.', 'ex': 'Paula\'s motivational speech crosses the line into hilarious, reckless endangerment.', 'opp': 'Cautious'},
-            {'word': 'Platitude', 'def': 'A flat, dull, or trite remark uttered as if it were fresh or profound.', 'ex': 'Self-help books are often full of empty platitudes that ignore reality.', 'opp': 'Insight'},
-            {'word': 'Danger', 'def': 'The possibility of suffering harm or injury.', 'ex': 'Ignoring actual danger in the name of confidence is a terrible strategy.', 'opp': 'Safety'}
+            {'word': 'Distraction', 'def': 'A thing that prevents someone from giving full attention to something else.', 'ex': 'The characters discover that romantic obsession is a massive, time-consuming distraction.'},
+            {'word': 'Productivity', 'def': 'The effectiveness of productive effort, especially in industry or personal life.', 'ex': 'Without romantic drama, Rebecca\'s daily productivity skyrockets to extraordinary levels.'},
+            {'word': 'Obsession', 'def': 'An unhealthy idea or thought that continually preoccupies or intrudes on a mind.', 'ex': 'Chasing romance felt like a full-time job driven by obsessive energy.'},
+            {'word': 'Potential', 'def': 'Having or showing the capacity to become or develop into something in the future.', 'ex': 'Free from love, they realize they have the potential to solve global crises.'},
+            {'word': 'Focus', 'def': 'The center of interest or activity; intense mental effort on a goal.', 'ex': 'Redirecting romantic focus into career and charity leads to remarkable results.'},
+            {'word': 'Freedom', 'def': 'The power or right to act, speak, or think as one wants without hindrance.', 'ex': 'Singlehood gives them total personal freedom to manage their schedules.'},
+            {'word': 'Achievement', 'def': 'A thing done successfully with effort, skill, or courage.', 'ex': 'Building a house for charity is a concrete achievement made possible by single life.'},
+            {'word': 'Priorities', 'def': 'Things that are regarded as more important than others.', 'ex': 'Removing dating drama forces them to reevaluate their life priorities.'},
+            {'word': 'Energy', 'def': 'The strength and vitality required for sustained physical or mental activity.', 'ex': 'Romantic longing drains emotional energy that could be spent on noble causes.'},
+            {'word': 'Liberation', 'def': 'The act of setting someone free from imprisonment, slavery, or oppression.', 'ex': 'Giving up on love feels like an unexpected form of personal liberation.'}
         ],
         'r1': [
-            ("In 'Face Your Fears', Paula sings a gospel choir anthem giving lethal advice like 'run with scissors'. How does it spoof motivational <strong>Platitudes</strong>?", "★ What is the worst or most cliché motivational <strong>Platitude</strong> you have ever received?"),
-            ("The song advises ignoring healthy <strong>Insecurity</strong> and jumping off buildings. Why is blind confidence dangerous?", "★ How do you distinguish between healthy caution and irrational <strong>Insecurity</strong>?"),
-            ("When Paula urges Rebecca to run straight toward <strong>Danger</strong>, how does the show highlight bad decision-making?", "★ Have you ever ignored clear signs of <strong>Danger</strong> because you wanted to prove something?"),
-            ("Why is it bad advice to <strong>Stare</strong> down a literal bear in the woods?", "★ What is a hilarious example of advice that sounds inspiring but is completely <strong>Reckless</strong> in practice?"),
-            ("The song tells you never to <strong>Tiptoe</strong> through life. Where is the balance between caution and bold action?", "★ In what situation did you stop trying to <strong>Tiptoe</strong> and finally take a bold stand?"),
-            ("Why are people so <strong>Frightened</strong> of failure that they listen to absurd gurus?", "★ When you feel <strong>Frightened</strong> about trying something new, how do you calm your mind?"),
-            ("The track turns a <strong>Scary</strong> situation into a triumphant gospel celebration. How does music change perception?", "★ What is something that used to feel deeply <strong>Scary</strong> to you that you now handle easily?"),
-            ("How does the song redefine <strong>Courage</strong> by showing that unthinking bravery is just foolishness?", "★ What does genuine, thoughtful <strong>Courage</strong> look like in everyday adult life?"),
-            ("Paula urges Rebecca to be completely <strong>Reckless</strong> in her pursuit of love. Why do friends encourage bad choices?", "★ Why are we often far more <strong>Reckless</strong> when giving advice to friends than when acting for ourselves?"),
-            ("How does confronting a real <strong>Fear</strong> differ from taking an unnecessary, stupid risk?", "★ What is one genuine <strong>Fear</strong> you successfully faced and overcame?")
+            ("In 'Without Love, You Can Save the World', the cast sings a 1960s Hairspray-style Broadway anthem celebrating freedom from dating. Is romance a <strong>Distraction</strong>?", "★ Have you ever noticed how much time and emotional energy dating and romantic drama consume?"),
+            ("The song humorously claims that single people achieve incredible <strong>Productivity</strong> (like curing diseases or building houses). How does focus shift when single?", "★ What ambitious project or hobby would you tackle if you had 100% uninterrupted free time?"),
+            ("How does romantic <strong>Obsession</strong> blind people to their larger personal and professional <strong>Potential</strong>?", "★ Why do people often put their personal ambitions on hold when falling in love?"),
+            ("Why is total single <strong>Freedom</strong> rarely celebrated in pop music compared to romantic love songs?", "★ Why do you think love songs dominate the music industry while songs celebrating independence are rare?"),
+            ("The lyrics contrast tiny relationship arguments with world-changing <strong>Achievement</strong>. Why is perspective important?", "★ How do you step back and gain perspective when minor personal drama feels overwhelming?"),
+            ("How does changing your daily <strong>Priorities</strong> away from dating alter your social life and friendships?", "★ How do your friendships change when you or your friends transition between being single and in a relationship?"),
+            ("Where does emotional <strong>Energy</strong> go when a person stops constantly seeking romantic validation?", "★ What is the most rewarding way you channel your mental and creative <strong>Energy</strong>?"),
+            ("Why does giving up on searching for a partner feel like a moment of true <strong>Liberation</strong> for the characters?", "★ Why can letting go of the pressure to find 'the one' bring immense peace of mind?"),
+            ("What makes 1960s pop-rock (like 'Without Love' from Hairspray) so perfect for satirizing grand romantic declarations?", "★ How does parodying famous Broadway showstoppers heighten the comedic satire?"),
+            ("Ultimately, can a person balance deep romantic love with world-changing ambition, or must one suffer?", "★ Do you believe romantic relationships require sacrifices in personal ambition, or can they enhance it?")
         ],
         'r2': [
-            "Most self-help <strong>Platitudes</strong> encourage <strong>Reckless</strong> behavior by confusing basic caution with cowardice. Let's debate this perspective.",
-            "True <strong>Courage</strong> lies in knowing when to walk away from <strong>Danger</strong> rather than stubbornly facing every threat. Share your thoughts.",
-            "People follow bad advice because the fear of staying stuck outweighs the fear of making a <strong>Scary</strong> mistake. Defend or oppose."
+            "Romantic love is a major <strong>Distraction</strong> that prevents individuals from achieving their highest professional <strong>Potential</strong>. Let's debate this perspective.",
+            "Society places far too much value on romantic status compared to single independence and community <strong>Achievement</strong>. Share your thoughts.",
+            "Personal <strong>Liberation</strong> and peace of mind are much easier to maintain when you are single than when in a relationship. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Imperatives & Comedic Extreme Directives',
-        'lang_desc': 'In the song <strong>Face Your Fears</strong>, the parody of gospel advice highlights <strong>Direct Imperatives & Hyperbolic Directives</strong> (e.g., <em>run with scissors, jump out of the plane, stare at the sun</em>). This structure supports analyzing comedic commands.',
+        'lang_title': 'Language Focus: Expressing Cause-and-Effect & Unlocked Potential (*Without X, you can Y*)',
+        'lang_desc': 'In the song <strong>Without Love, You Can Save the World</strong>, the upbeat satire highlights <strong>Conditional Capability & Liberation Structures</strong> (e.g., <em>Without love, you can build a house; Free from romance, we have time to cure disease; Once you stop dating, your energy multiplies</em>). This structure supports discussing newfound free time.',
         'lang_examples': [
-            'Run directly with scissors toward your ultimate destiny!',
-            'Stare straight into the bear\'s eyes and assert your dominance.',
-            'Jump out of the airplane without checking your parachute!'
+            'Without the distraction of romantic drama, she finished her master\'s degree in record time.',
+            'Free from constantly checking dating apps, he focused entirely on his health and fitness.',
+            'Once they stopped obsessing over romance, their professional productivity tripled.'
         ],
         'note_items': [
-            ("She told him to face <span class=\"mistake-highlight\">to his fears</span>", "→", "She told him to face his fears", "(Do not insert 'to' after the transitive verb 'face'.)"),
-            ("He is frightened <span class=\"mistake-highlight\">from the dark</span>", "→", "He is frightened of the dark", "(Use 'frightened of' or 'frightened by'.)"),
-            ("Running with scissors is a <span class=\"mistake-highlight\">reckless act of danger</span>", "→", "Running with scissors is a reckless, dangerous act", "(Use adjectives in sequence cleanly.)")
+            ("Without love you can <span class=\"mistake-highlight\">to save the world</span>", "→", "Without love you can save the world", "(Use bare infinitive 'save' after modal verb 'can'.)"),
+            ("She is focused <span class=\"mistake-highlight\">in her career</span>", "→", "She is focused on her career", "(Use 'focused on'.)"),
+            ("He has more time <span class=\"mistake-highlight\">for build a house</span>", "→", "He has more time to build a house", "(Use 'time to + infinitive'.)")
         ]
     },
 
-    'sexy-getting-ready-song': {
-        'title': 'Sexy Getting Ready Song',
-        'id_suffix': 'sexy-getting-ready-song',
-        'theme_title': '❤️ Theme: Beauty Standards, Patriarchal Labor & Grooming Reality',
-        'theme_bullets': ['Grooming', 'Patriarchal', 'Absurd', 'Personal reflection'],
+    'women-gotta-stick-together': {
+        'title': 'Women Gotta Stick Together',
+        'id_suffix': 'women-gotta-stick-together',
         'vocab': [
-            {'word': 'Grooming', 'def': 'The practice of maintaining a neat and clean personal appearance.', 'ex': 'The song contrasts R&B glamour with the gory, painful reality of female grooming.', 'opp': 'Neglect'},
-            {'word': 'Patriarchal', 'def': 'Relating to a system or society controlled by men.', 'ex': 'She realizes her painful beauty routine is an obligation imposed by a patriarchal society.', 'opp': 'Matriarchal'},
-            {'word': 'Absurd', 'def': 'Wildly unreasonable, illogical, or ridiculous.', 'ex': 'Bleeding from body hair removal while preparing for a casual date is totally absurd.', 'opp': 'Sensible'},
-            {'word': 'Shaving', 'def': 'The removal of hair from the body using a razor.', 'ex': 'Shaving in a cramped shower leads to inevitable cuts and frustration.', 'opp': 'Growing'},
-            {'word': 'Painful', 'def': 'Causing physical or mental pain.', 'ex': 'Waxing body hair is a painful price paid in the pursuit of arbitrary beauty norms.', 'opp': 'Painless'},
-            {'word': 'Silhouette', 'def': 'The dark shape and outline of someone or something visible against a lighter background.', 'ex': 'Squeezing into body-shaping underwear alters your natural silhouette.', 'opp': 'Detail'},
-            {'word': 'Waxing', 'def': 'The process of removing hair from the root using sticky wax.', 'ex': 'Hot waxing requires a level of pain tolerance usually reserved for torture.', 'opp': 'Trimming'},
-            {'word': 'Plucking', 'def': 'Pulling out hair or feathers with a sudden pull.', 'ex': 'Plucking eyebrows under harsh bathroom lighting is a meticulous ordeal.', 'opp': 'Inserting'},
-            {'word': 'Spanx', 'def': 'Tight, elastic undergarments worn to shape the body.', 'ex': 'Wrestling yourself into a pair of Spanx is a full-body workout in itself.', 'opp': 'Loose clothing'},
-            {'word': 'Apologize', 'def': 'To express regret for something one has done wrong.', 'ex': 'The guest rapper takes one look at her grooming process and stops to apologize for men.', 'opp': 'Defend'}
+            {'word': 'Solidarity', 'def': 'Unity or agreement of feeling or action, especially among individuals with a common interest.', 'ex': 'Valencia sings a country pop song claiming female solidarity while insulting every woman she meets.'},
+            {'word': 'Hypocrisy', 'def': 'The practice of claiming to have moral standards or beliefs to which one\'s own behavior does not conform.', 'ex': 'The song is a masterpiece of hilarious hypocrisy and passive-aggressive backhanded compliments.'},
+            {'word': 'Backhanded', 'def': 'Of a compliment: flattering on the surface but insultingly critical in reality.', 'ex': 'Calling someone brave for wearing a dress that doesn\'t flatter them is a classic backhanded compliment.'},
+            {'word': 'Rivalry', 'def': 'Competition for the same objective or for superiority in the same field.', 'ex': 'Internalized rivalry causes women in the song to judge each other constantly while preaching sisterhood.'},
+            {'word': 'Sincerity', 'def': 'The quality of being free from pretense or deceit in manner or actions.', 'ex': 'Her smile lacks total sincerity as she delivers razor-sharp personal insults.'},
+            {'word': 'Judgment', 'def': 'An opinion or conclusion formed after consideration; critical evaluation.', 'ex': 'Harsh physical judgment is masked under the guise of friendly advice.'},
+            {'word': 'Superficial', 'def': 'Existing or occurring at or on the surface; lacking depth of character.', 'ex': 'Their fake friendship is based on superficial praise and hidden competition.'},
+            {'word': 'Support', 'def': 'Bear all or part of the weight of; give assistance to.', 'ex': 'True support requires celebrating other people without secretly tearing them down.'},
+            {'word': 'Insecurity', 'def': 'Uncertainty or anxiety about oneself; lack of confidence.', 'ex': 'Critiquing other people\'s flaws is usually a cover for one\'s own deep insecurity.'},
+            {'word': 'Sisterhood', 'def': 'The feeling of kinship and closeness among women.', 'ex': 'Preaching sisterhood while criticizing everyone you see is the central joke of the track.'}
         ],
         'r1': [
-            ("In 'Sexy Getting Ready Song', Rachel Bloom parodies smooth R&B music by showing the bloody reality of female <strong>Grooming</strong>. Why is this contrast funny?", "★ What is the most <strong>Absurd</strong> or tedious beauty routine you have ever witnessed or tried?"),
-            ("When the guest rapper learns what women go through, he pauses to <strong>Apologize</strong> on behalf of men. How does the song expose gender gaps?", "★ Do you think men and women face equal pressure regarding personal <strong>Grooming</strong> today?"),
-            ("The song explicitly calls out the <strong>Patriarchal</strong> expectations behind beauty standards. How do societal norms dictate appearance?", "★ How can people resist <strong>Patriarchal</strong> or artificial beauty standards in daily life?"),
-            ("Why is the process of body hair removal portrayed as so bloody and <strong>Painful</strong> in the video?", "★ Why do people willingly endure <strong>Painful</strong> fashion or beauty trends for social occasions?"),
-            ("Squeezing into restrictive clothing to change one's <strong>Silhouette</strong> is a major theme. Why is comfort often sacrificed?", "★ Do you prioritize physical comfort or formal elegance when dressing for an event?"),
-            ("How does the song highlight the hidden physical labor of <strong>Shaving</strong>, <strong>Waxing</strong>, and <strong>Plucking</strong>?", "★ What is a daily routine task that takes far more time and effort than people realize?"),
-            ("The lyrics detail wrestling with <strong>Spanx</strong> before a date. How does fashion restrict natural movement?", "★ Why has body-shaping innerwear become such a multi-billion dollar industry?"),
-            ("How does the track use graphic visual realism to dismantle the fantasy of 'effortless' beauty?", "★ Why is the myth of 'effortless beauty' harmful to young people's self-esteem?"),
-            ("What makes the sudden transition from sultry R&B music to horror-movie imagery so effective as satire?", "★ How does satire help us talk about uncomfortable cultural topics?"),
-            ("Ultimately, the song asks who beauty is really for. Do we dress up for ourselves or for others?", "★ When you get dressed up, do you do it for your own confidence or to meet external standards?")
+            ("In 'Women Gotta Stick Together', Valencia performs a Shania Twain-style country song preaching female <strong>Solidarity</strong> while ruthlessly insulting women. Why is fake support funny?", "★ Have you ever encountered someone who preaches kindness and <strong>Solidarity</strong> but acts judgmentally in practice?"),
+            ("The lyrics are filled with <strong>Backhanded</strong> compliments. Why are subtle, passive-aggressive insults often more hurtful than direct ones?", "★ What is the most memorable <strong>Backhanded</strong> compliment you have ever heard or received?"),
+            ("How does internalized <strong>Rivalry</strong> cause people to view peers as competitors rather than allies?", "★ Why do social media and modern culture foster competitive <strong>Rivalry</strong> among peers?"),
+            ("Why does Valencia\'s utter lack of <strong>Sincerity</strong> make her song so hilariously transparent to the audience?", "★ How can you tell when someone\'s praise or encouragement lacks genuine <strong>Sincerity</strong>?"),
+            ("How does harsh physical <strong>Judgment</strong> disguised as 'friendly advice' damage trust between friends?", "★ How do you respond when someone gives you unsolicited 'advice' that is actually a hidden critique?"),
+            ("The song exposes <strong>Superficial</strong> friendships built on polite smiles and gossip. What makes a friendship authentic?", "★ What qualities distinguish a deep, authentic friendship from a <strong>Superficial</strong> social acquaintance?"),
+            ("How can people offer genuine, unconditional <strong>Support</strong> to others without letting competitive feelings interfere?", "★ How do you celebrate a friend\'s success when you are going through a difficult time yourself?"),
+            ("Why is projecting personal <strong>Insecurity</strong> onto others the main reason people criticize strangers?", "★ Why do people feel the urge to judge or critique strangers on the street or online?"),
+            ("How does the upbeat country-pop melody amplify the comedic <strong>Hypocrisy</strong> of the lyrics?", "★ Why does putting cheerful, sunny music over mean or sarcastic lyrics create great comedy?"),
+            ("Ultimately, what does true female <strong>Sisterhood</strong> and mutual respect look like in everyday life?", "★ How can we actively foster genuine <strong>Solidarity</strong> and mutual support in our communities?")
         ],
         'r2': [
-            "Modern beauty standards are a form of mandatory <strong>Patriarchal</strong> labor that inflicts unnecessary financial and physical strain. Let's debate this perspective.",
-            "The cultural expectation of 'effortless elegance' is an <strong>Absurd</strong> myth built on hidden, uncomfortable work. Share your thoughts.",
-            "Men and women will never have equal preparation pressure until media representations portray realistic <strong>Grooming</strong> routines. Defend or oppose."
+            "Performative declarations of <strong>Solidarity</strong> often hide deep competitive <strong>Insecurity</strong> and judgment. Let's debate this perspective.",
+            "Passive-aggressive <strong>Backhanded</strong> compliments are more damaging to social trust than direct confrontation. Share your thoughts.",
+            "Genuine peer <strong>Support</strong> requires actively resisting the cultural urge to compare and judge others. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Present Continuous for Active Preparation & Labor',
-        'lang_desc': 'In the song <strong>Sexy Getting Ready Song</strong>, the contrast between sultry music and active labor highlights <strong>Present Continuous for Ongoing Preparation</strong> (e.g., <em>shaving my legs, waxing my skin, squeezing into Spanx</em>). This structure supports describing active tasks.',
+        'lang_title': 'Language Focus: Backhanded Compliments & Passive-Aggressive Modifiers (*You look great, considering...*)',
+        'lang_desc': 'In the song <strong>Women Gotta Stick Together</strong>, the country satire uses <strong>Backhanded Framing & Passive-Aggressive Qualification</strong> (e.g., <em>She\'s so brave for wearing that dress; You look great for your age; I love how you don\'t care what people think of you</em>). This structure supports identifying veiled critiques.',
         'lang_examples': [
-            'I am currently wrestling myself into this restrictive dress.',
-            'She is spending two hours plucking and waxing before the date.',
-            'They are getting ready while evaluating double standards.'
+            'She is so brave for choosing such an unconventional outfit.',
+            'You did a surprisingly good job on this presentation, considering how little you prepared.',
+            'I love how you just say whatever comes into your head without worrying about politeness.'
         ],
         'note_items': [
-            ("She is getting ready <span class=\"mistake-highlight\">for go out</span>", "→", "She is getting ready to go out", "(Use 'ready to + infinitive' or 'ready for + noun'.)"),
-            ("He apologized <span class=\"mistake-highlight\">for the patriarchal system</span>", "→", "He apologized on behalf of men for the patriarchal system", "(Use 'on behalf of' when representing a group.)"),
-            ("Squeezing into Spanx is <span class=\"mistake-highlight\">a very painful work</span>", "→", "Squeezing into Spanx is very painful work", "(Do not use indefinite article 'a' with uncountable noun 'work'.)")
+            ("She gives a backhanded compliment <span class=\"mistake-highlight\">to her friend</span>", "→", "She gives a backhanded compliment to her friend", "(Correct preposition usage.)"),
+            ("Women gotta stick <span class=\"mistake-highlight\">together each other</span>", "→", "Women gotta stick together / stick with each other", "(Use 'stick together' without 'each other'.)"),
+            ("She is jealous <span class=\"mistake-highlight\">from her peer</span>", "→", "She is jealous of her peer", "(Use 'jealous of' someone.)")
         ]
     },
 
-    'sex-with-a-stranger': {
-        'title': 'Sex with a Stranger',
-        'id_suffix': 'sex-with-a-stranger',
-        'theme_title': '❤️ Theme: Paranoia, True Crime & Hookup Anxiety',
-        'theme_bullets': ['Paranoia', 'True Crime', 'Awkwardness', 'Personal reflection'],
+    'eleven-oclock': {
+        'title': "11 O'Clock",
+        'id_suffix': 'eleven-oclock',
         'vocab': [
-            {'word': 'Stranger', 'def': 'A person whom one does not know or with whom one is not familiar.', 'ex': 'Hooking up with a stranger sounds romantic until your true crime brain kicks in.', 'opp': 'Acquaintance'},
-            {'word': 'Dangerous', 'def': 'Able or likely to cause harm or injury.', 'ex': 'She convinced herself that a mild-mannered guy named Scott was a dangerous serial killer.', 'opp': 'Safe'},
-            {'word': 'Paranoia', 'def': 'Unjustified suspicion and mistrust of other people.', 'ex': 'Watching too many murder documentaries induces acute, hilarious paranoia.', 'opp': 'Trust'},
-            {'word': 'Hotel', 'def': 'An establishment providing accommodation, meals, and other services.', 'ex': 'A neutral hotel room feels like a crime scene waiting to happen when you are anxious.', 'opp': 'Home'},
-            {'word': 'Murderer', 'def': 'A person who commits murder.', 'ex': 'Every strange noise made her suspect he was secretly an escaped murderer.', 'opp': 'Victim'},
-            {'word': 'Excitement', 'def': 'A feeling of great enthusiasm and eagerness.', 'ex': 'The initial excitement of casual dating was completely drowned out by fear.', 'opp': 'Boredom'},
-            {'word': 'Safe', 'def': 'Protected from or not exposed to danger or risk.', 'ex': 'She texted her best friend her exact GPS location just to feel safe.', 'opp': 'Vulnerable'},
-            {'word': 'Intimacy', 'def': 'Close familiarity or friendship; closeness.', 'ex': 'Attempting physical intimacy with someone whose last name you don\'t know is awkward.', 'opp': 'Distance'},
-            {'word': 'Kidney', 'def': 'Either of a pair of organs that filter blood, often featured in urban legends.', 'ex': 'She worried she would wake up in an ice bath missing an entire kidney.', 'opp': 'N/A'},
-            {'word': 'Awkward', 'def': 'Causing or feeling embarrassment or inconvenience.', 'ex': 'Navigating small talk with a stranger in a quiet bedroom is deeply awkward.', 'opp': 'Graceful'}
+            {'word': 'Epiphany', 'def': 'A moment of sudden and great revelation or realization.', 'ex': 'In classic Broadway fashion, Rebecca expects a dramatic 11 o\'clock epiphany to solve her life.'},
+            {'word': 'Resolution', 'def': 'A firm decision to do or not to do something; the action of solving a problem.', 'ex': 'Real life rarely grants a clean, musical-style resolution in five minutes.'},
+            {'word': 'Realization', 'def': 'An act of becoming fully aware of something as a fact.', 'ex': 'Her realization that she is the problem in her own story is both painful and liberating.'},
+            {'word': 'Pattern', 'def': 'A repeated decorative design; a regular and intelligible form or sequence in actions.', 'ex': 'Recognizing her toxic behavioral patterns is the first step toward genuine change.'},
+            {'word': 'Climax', 'def': 'The most intense, exciting, or important point of something.', 'ex': 'An 11 o\'clock number serves as the emotional climax of a traditional musical.'},
+            {'word': 'Accountability', 'def': 'The fact or condition of being accountable; responsibility.', 'ex': 'Taking personal accountability means stopping the search for easy scapegoats.'},
+            {'word': 'Self-Awareness', 'def': 'Conscious knowledge of one\'s own character, feelings, motives, and desires.', 'ex': 'Developing true self-awareness is a slow, gradual process, not a sudden song cue.'},
+            {'word': 'Transformation', 'def': 'A thorough or dramatic change in form, appearance, or character.', 'ex': 'Personal transformation requires ongoing daily practice rather than a single theatrical speech.'},
+            {'word': 'Breakthrough', 'def': 'A sudden, dramatic, and important discovery or development.', 'ex': 'She realizes her grand emotional breakthrough was just another dramatic performance.'},
+            {'word': 'Maturity', 'def': 'The state, fact, or period of being mature; wisdom gained through experience.', 'ex': 'True maturity is accepting that life is messy and does not follow a scripted finale.'}
         ],
         'r1': [
-            ("In 'Sex with a Stranger', Rebecca\'s inner monologue is dominated by true crime <strong>Paranoia</strong>. Why do people suspect the worst?", "★ Has watching true crime podcasts or shows ever made you unnecessarily suspicious of a <strong>Stranger</strong>?"),
-            ("The song contrasts sultry romantic intentions with the fear of a secret <strong>Murderer</strong>. Why is this juxtaposition hilarious?", "★ How do you handle situations where your brain jumps to the most dramatic, <strong>Dangerous</strong> conclusion?"),
-            ("Rebecca constantly worries about whether she is in a <strong>Safe</strong> environment. What precautions do modern daters take?", "★ What safety rules or boundaries do you or your friends use when meeting new people?"),
-            ("The lyrics mention urban legends about waking up without a <strong>Kidney</strong>. Why do ridiculous myths persist?", "★ What is a funny urban legend or rumor that you secretly worried was real when you were younger?"),
-            ("How does the song capture the extreme <strong>Awkward</strong> tension of casual hookup small talk?", "★ How do you break the ice when entering an <strong>Awkward</strong> social or professional situation?"),
-            ("Why does the initial thrill of <strong>Excitement</strong> in dating often turn into overthinking and anxiety?", "★ How do you stay present and calm when feeling anxious about a new venture?"),
-            ("Rebecca plans her escape route from the <strong>Hotel</strong> room just in case. Is over-preparing a sign of wisdom or stress?", "★ Are you an over-preparer who plans worst-case scenarios, or do you go with the flow?"),
-            ("How does the track explore the difficulty of building real <strong>Intimacy</strong> when trust hasn\'t been earned yet?", "★ What does it take for you to feel genuine trust and <strong>Intimacy</strong> with someone new?"),
-            ("How does the song show that modern true crime media has permanently altered how we perceive casual encounters?", "★ Do you think true crime entertainment makes society safer or just more paranoid?"),
-            ("Ultimately, how does Rebecca balance her romantic desires against her wild <strong>Paranoia</strong>?", "★ How do you balance being cautious with remaining open to new people and experiences?")
+            ("In '11 O'Clock', Rebecca parodies the classic Broadway 11 o'clock number where the hero has a grand <strong>Epiphany</strong>. Why do we crave dramatic epiphanies?", "★ Have you ever waited for a 'dramatic epiphany' moment to change your life, only to realize change is gradual?"),
+            ("The song highlights the search for a clean <strong>Resolution</strong> to complex personal problems. Is life ever that neat?", "★ Why is it difficult for human beings to accept that real life rarely has clean, cinematic resolutions?"),
+            ("Rebecca experiences the painful <strong>Realization</strong> that she cannot blame others for her choices. Why is self-honesty hard?", "★ What is a moment in your life when a difficult realization helped you grow as a person?"),
+            ("How does identifying a negative behavioral <strong>Pattern</strong> help you prevent repeating past mistakes?", "★ How do you identify and break negative habits or daily <strong>Pattern</strong> behaviors in your routine?"),
+            ("Why is an emotional <strong>Climax</strong> in a movie or musical so satisfying compared to real-life progress?", "★ What is your favorite emotional climax scene in a musical or movie, and why does it move you?"),
+            ("How does taking total <strong>Accountability</strong> for your actions differ from blaming external circumstances?", "★ What does accepting <strong>Accountability</strong> look like in mature adult relationships?"),
+            ("Why is genuine <strong>Self-Awareness</strong> an ongoing process rather than a one-time event?", "★ How do you cultivate deeper <strong>Self-Awareness</strong> in your daily decision-making?"),
+            ("Rebecca discovers that real <strong>Transformation</strong> requires hard work after the music stops. Why is post-realization work tough?", "★ Why do people often struggle to maintain positive changes after a big personal <strong>Breakthrough</strong>?"),
+            ("How does parodying famous Broadway showstoppers (like Gypsy\'s 'Rose\'s Turn') highlight the artificial nature of theater?", "★ How does understanding theatrical conventions make parodies like Crazy Ex-Girlfriend even funnier?"),
+            ("Ultimately, what does true emotional <strong>Maturity</strong> look like when you stop treating your life like a TV show?", "★ What does personal <strong>Maturity</strong> mean to you today compared to when you were younger?")
         ],
         'r2': [
-            "Overconsumption of true crime media has ruined casual social interactions by instilling constant <strong>Paranoia</strong>. Let's debate this perspective.",
-            "Taking extreme safety precautions when meeting a <strong>Stranger</strong> is practical common sense, not irrational fear. Share your thoughts.",
-            "True emotional <strong>Intimacy</strong> is impossible to achieve in casual dating settings without prior trust. Defend or oppose."
+            "Expecting sudden, theatrical <strong>Breakthrough</strong> moments prevents people from doing the slow, daily work of self-improvement. Let's debate this perspective.",
+            "Taking total personal <strong>Accountability</strong> for your life choices is the single most liberating step toward adult <strong>Maturity</strong>. Share your thoughts.",
+            "Stories and fiction lie to us by giving clean <strong>Resolution</strong> endings to messy human problems. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Modals of Deduction & Anxiety (*must be, could be*)',
-        'lang_desc': 'In the song <strong>Sex with a Stranger</strong>, the anxious internal monologue highlights <strong>Modals of Speculation & Deduction</strong> (e.g., <em>he must be an axe murderer, he could be hiding an axe, he might harvest my kidney</em>). This structure supports expressing dramatic suspicions.',
+        'lang_title': 'Language Focus: Expressing Dramatic Realization & Self-Correction (*I thought X, but actually Y*)',
+        'lang_desc': 'In the song <strong>11 O\'Clock</strong>, the theatrical climax uses <strong>Realization & Self-Correction Structures</strong> (e.g., <em>I used to think my life was a show, but now I realize I\'m just making excuses; It hit me that I am the problem; I finally see that real change takes time</em>). This structure supports expressing profound realizations.',
         'lang_examples': [
-            'He must be an escaped murderer because his bathroom is too clean!',
-            'She could be texting her friends my exact location right now.',
-            'That strange noise might be a warning sign that I should run.'
+            'I used to blame external circumstances, but now I realize I was making excuses.',
+            'It suddenly hit her that she was repeating the exact same pattern as before.',
+            'He finally came to the realization that theatrical speeches cannot replace actual effort.'
         ],
         'note_items': [
-            ("She is afraid from <span class=\"mistake-highlight\">the stranger</span>", "→", "She is afraid of the stranger", "(Use 'afraid of' when expressing fear toward someone or something.)"),
-            ("He must to be <span class=\"mistake-highlight\">a murderer</span>", "→", "He must be a murderer", "(Do not use 'to' after modal auxiliary 'must'.)"),
-            ("She wants to feel <span class=\"mistake-highlight\">safely in the room</span>", "→", "She wants to feel safe in the room", "(Use predicate adjective 'safe' after linking verb 'feel'.)")
-        ]
-    },
-
-    'settle-for-me': {
-        'title': 'Settle for Me',
-        'id_suffix': 'settle-for-me',
-        'theme_title': '❤️ Theme: Self-Deprecating Courtship & Second Choice Elegance',
-        'theme_bullets': ['Settle', 'Ballroom', 'Second Choice', 'Personal reflection'],
-        'vocab': [
-            {'word': 'Settle', 'def': 'To accept or agree to something that is not one\'s first choice or ideal.', 'ex': 'Greg\'s courtship pitch is an invitation for Rebecca to settle for him as a backup plan.', 'opp': 'Demand'},
-            {'word': 'Second', 'def': 'Coming next after the first in order, rank, or preference.', 'ex': 'Being someone\'s second choice is awkward, but Greg turns it into a vintage Fred Astaire dance.', 'opp': 'First'},
-            {'word': 'Choice', 'def': 'An act of selecting or choosing between options.', 'ex': 'He openly acknowledges he is her last choice, but promises to be a reliable one.', 'opp': 'Mandate'},
-            {'word': 'Dance', 'def': 'To move rhythmically to music, often in a stylized courtship ritual.', 'ex': 'They perform an elegant ballroom dance while singing about tragic romantic compromise.', 'opp': 'Stillness'},
-            {'word': 'Compromise', 'def': 'An agreement reached by each side making concessions.', 'ex': 'Relationships require healthy compromise, but settling out of desperation is different.', 'opp': 'Stubbornness'},
-            {'word': 'Ballroom', 'def': 'A large room used for formal dancing.', 'ex': 'The classic Hollywood ballroom aesthetic contrasts hilariously with the pathetic lyrics.', 'opp': 'Street'},
-            {'word': 'Desperation', 'def': 'A state of despair, typically one which results in reckless behavior.', 'ex': 'Accepting a date out of sheer desperation rarely leads to lasting happiness.', 'opp': 'Serenity'},
-            {'word': 'Romance', 'def': 'A feeling of excitement and mystery associated with love.', 'ex': 'Greg tries to package uninspired second-place affection as classic romance.', 'opp': 'Cynicism'},
-            {'word': 'Subpar', 'def': 'Below an average, usual, or normal level or quality.', 'ex': 'He pitches himself as a subpar alternative to her unobtainable crush.', 'opp': 'Superior'},
-            {'word': 'Suitcase', 'def': 'A case with a handle and hinged lid, used for carrying clothes.', 'ex': 'She kept her emotional baggage packed in a suitcase, ready to run.', 'opp': 'N/A'}
-        ],
-        'r1': [
-            ("In 'Settle for Me', Greg sings a suave Fred Astaire-style duet asking Rebecca to <strong>Settle</strong> for him. Why is this sales pitch so funny?", "★ What is the most hilarious or self-deprecating pitch someone has ever made to you?"),
-            ("Greg openly accepts being her <strong>Second</strong> choice behind Josh. How does the song mock romantic pride?", "★ How would you feel if someone explicitly told you that you were their <strong>Second</strong> choice?"),
-            ("The track uses vintage <strong>Ballroom</strong> elegance to deliver pathetic, desperate lyrics. Why does style contrast work?", "★ What is a movie or musical where the visual style completely contradicted the story?"),
-            ("Greg promises that if she lowers her standards, he is a reliable <strong>Choice</strong>. Is reliability underrated in dating?", "★ What qualities do you value most when making an important personal <strong>Choice</strong>?"),
-            ("The song presents romantic <strong>Compromise</strong> in the most uninspiring light possible. Where is the line between compromise and settling?", "★ What is the difference between a healthy <strong>Compromise</strong> and settling for less than you deserve?"),
-            ("Why does Greg\'s self-deprecating honesty make his character endearing despite his low self-esteem?", "★ Do you find self-deprecating humor charming or annoying in social settings?"),
-            ("How does the song show that acting out of romantic <strong>Desperation</strong> can lead to bizarre relationship dynamics?", "★ How do you maintain your self-respect and avoid making decisions out of <strong>Desperation</strong>?"),
-            ("How does 'Settle for Me' subvert classic Hollywood <strong>Romance</strong> tropes where the hero effortlessly wins the girl?", "★ What classic <strong>Romance</strong> trope in movies do you find most unrealistic in real life?"),
-            ("Greg pitches himself as a <strong>Subpar</strong> option who is 'okay-ish'. Why do people downplay their worth?", "★ How do you overcome self-doubt when you feel your work or effort is <strong>Subpar</strong>?"),
-            ("Ultimately, does Rebecca agree to dance because she likes Greg, or because she hates being alone?", "★ Why do people sometimes stay in relationships that they know are not right for them?")
-        ],
-        'r2': [
-            "Accepting a <strong>Second</strong> choice option and agreeing to <strong>Settle</strong> is better than remaining alone in perpetual ideal fantasy. Let's debate this perspective.",
-            "Packaging romantic <strong>Desperation</strong> in charming <strong>Ballroom</strong> aesthetics does not make settling healthy. Share your thoughts.",
-            "Self-deprecating honesty is far more attractive in dating than arrogant, unearned confidence. Defend or oppose."
-        ],
-        'lang_title': 'Language Focus: Subjunctive & Conditional Invitations (*If you\'re tired of... then settle*)',
-        'lang_desc': 'In the song <strong>Settle for Me</strong>, the self-deprecating proposal highlights <strong>Conditional Conditional Invitations & Low Expectations</strong> (e.g., <em>If you can\'t have him, then settle for me; Should you give up, I\'ll be right here</em>). This structure supports analyzing ironic offers.',
-        'lang_examples': [
-            'If you are completely out of options, then you can settle for me!',
-            'Should your ideal crush reject you, I am right here as a second choice.',
-            'If you lower your expectations, you might actually enjoy the date.'
-        ],
-        'note_items': [
-            ("Don't settle <span class=\"mistake-highlight\">with less</span> than you deserve", "→", "Don't settle for less than you deserve", "(Use 'settle for' when accepting an alternative option.)"),
-            ("He is her second choice <span class=\"mistake-highlight\">after Josh</span>", "→", "He is her second choice after Josh / behind Josh", "(Proper prepositions of ranking.)"),
-            ("They danced in <span class=\"mistake-highlight\">a ballroom room</span>", "→", "They danced in a ballroom", "(Omit redundant 'room' after 'ballroom'.)")
-        ]
-    },
-
-    'im-a-good-person': {
-        'title': "I'm a Good Person",
-        'id_suffix': 'im-a-good-person',
-        'theme_title': '❤️ Theme: Performative Altruism & Passive-Aggressive Virtue',
-        'theme_bullets': ['Good Person', 'Performative', 'Altruism', 'Personal reflection'],
-        'vocab': [
-            {'word': 'Person', 'def': 'A human being regarded as an individual.', 'ex': 'Rebecca aggressively insists to a room full of strangers that she is a good person.', 'opp': 'N/A'},
-            {'word': 'Donate', 'def': 'To give money or goods to a good cause, especially to a charity.', 'ex': 'Bragging about how much you donate completely ruins the altruistic gesture.', 'opp': 'Withhold'},
-            {'word': 'Altruism', 'def': 'The belief in or practice of disinterested and selfless concern for others.', 'ex': 'Performative altruism is motivated by a desire for public applause.', 'opp': 'Egoism'},
-            {'word': 'Friendly', 'def': 'Kind and pleasant in demeanor.', 'ex': 'She delivers her friendly greetings with a terrifying, passive-aggressive glare.', 'opp': 'Hostile'},
-            {'word': 'Good', 'def': 'To be desired or approved of; showing high moral standards.', 'ex': 'Truly good people don\'t need to curse and threaten you to prove their virtue.', 'opp': 'Bad'},
-            {'word': 'Humble', 'def': 'Having or showing a modest or low estimate of one\'s own importance.', 'ex': 'Proclaiming "I am the most humble person in this town" is completely ironic.', 'opp': 'Arrogant'},
-            {'word': 'Validation', 'def': 'Recognition or affirmation that a person or their feelings are valid.', 'ex': 'Her desperate need for external validation drives her aggressive friendliness.', 'opp': 'Rejection'},
-            {'word': 'Performative', 'def': 'Relating to or denoting an action done for show or effect.', 'ex': 'Posting every charitable deed on social media is peak performative behavior.', 'opp': 'Genuine'},
-            {'word': 'Righteous', 'def': 'Morally right or justifiable; virtuous.', 'ex': 'Her righteous indignation erupted when a stranger failed to compliment her.', 'opp': 'Sinful'},
-            {'word': 'Ego', 'def': 'A person\'s sense of self-esteem or self-importance.', 'ex': 'Her fragile ego required constant praise from everyone in the bar.', 'opp': 'Modesty'}
-        ],
-        'r1': [
-            ("In 'I'm a Good Person', Rebecca aggressively threatens people until they agree she is nice. How does this parody <strong>Performative</strong> virtue?", "★ Have you ever met someone whose kindness felt completely forced or <strong>Performative</strong>?"),
-            ("When someone boasts about how much they <strong>Donate</strong> to charity, does it lessen the goodwill?", "★ Why is genuine, quiet <strong>Altruism</strong> far more respected than public bragging?"),
-            ("Rebecca screams that she is the most <strong>Humble</strong> person in the city. Why is 'humblebragging' so annoying?", "★ What is a funny example of a 'humblebrag' you have seen online or in real life?"),
-            ("The song shows that a desperate search for <strong>Validation</strong> can drive people to act erratically. Why is self-worth key?", "★ How do you build internal self-worth without relying on social media <strong>Validation</strong>?"),
-            ("Why does Rebecca feel the need to prove she is a <strong>Good</strong> <strong>Person</strong> to complete strangers?", "★ Why do people care so much about whether strangers view them as a 'good <strong>Person</strong>'??"),
-            ("How does the track contrast a sweet <strong>Friendly</strong> pop tune with profane, aggressive lyrics?", "★ Why is passive-aggressive friendliness sometimes scarier than open anger?"),
-            ("Rebecca\'s <strong>Righteous</strong> anger explodes when someone questions her intentions. Why do defensive reactions happen?", "★ How do you react when someone misinterprets your intentions or actions?"),
-            ("How does the song expose the role of <strong>Ego</strong> in performative charity work?", "★ How can people ensure their charitable efforts actually help others rather than just feed their <strong>Ego</strong>?"),
-            ("Why is it ironic that Rebecca uses threats and insults to prove her moral superiority?", "★ Why do people who shout loudest about their morals often have the most to hide?"),
-            ("Ultimately, what does 'I'm a Good Person' teach us about authentic human decency?", "★ What is your personal definition of what makes someone a genuinely good human being?")
-        ],
-        'r2': [
-            "Boasting about charitable acts and seeking public <strong>Validation</strong> turns genuine <strong>Altruism</strong> into hollow PR. Let's debate this perspective.",
-            "Truly <strong>Good</strong> people do not need to constantly defend their character or demand praise from others. Share your thoughts.",
-            "Modern culture encourages <strong>Performative</strong> morality where looking virtuous online is valued over quiet, real-world decency. Defend or oppose."
-        ],
-        'lang_title': 'Language Focus: Aggressive Assertions & Self-Proclamations (*I am the most...*)',
-        'lang_desc': 'In the song <strong>I\'m a Good Person</strong>, the passive-aggressive virtue-signaling highlights <strong>Superlative Self-Proclamations & Aggressive Assertions</strong> (e.g., <em>I\'m the most humble, I\'m a good person, ask anyone</em>). This structure supports analyzing performative speech.',
-        'lang_examples': [
-            'I am literally the most generous person you will ever meet in this town!',
-            'Ask anyone in this bar and they will tell you how humble I am.',
-            'She is constantly asserting that her intentions are completely pure.'
-        ],
-        'note_items': [
-            ("She boasts about how she is <span class=\"mistake-highlight\">a good person to everyone</span>", "→", "She boasts that she is a good person to everyone", "(Use 'boasts that' before a clause.)"),
-            ("He donates money <span class=\"mistake-highlight\">for the charity</span>", "→", "He donates money to charity", "(Use 'donate to' without unnecessary articles before abstract 'charity'.)"),
-            ("She is desperate <span class=\"mistake-highlight\">for validation of others</span>", "→", "She is desperate for validation from others", "(Use 'validation from' people.)")
+            ("She had an epiphany <span class=\"mistake-highlight\">about her life</span>", "→", "She had an epiphany about her life", "(Correct usage of 'epiphany about'.)"),
+            ("He takes accountability <span class=\"mistake-highlight\">for his actions</span>", "→", "He takes accountability for his actions", "(Correct usage of 'accountability for'.)"),
+            ("She realized <span class=\"mistake-highlight\">that she is wrong</span>", "→", "She realized that she was wrong", "(Maintain past tense agreement with 'realized'.)")
         ]
     }
 }
 
-def update_cxg_batch1():
-    from update_gossip import update_html_text
+def generate_vocab_html(vocab_list):
+    html = '<div class="vocab-grid-10">\n<h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts &amp; Feelings</h3>\n'
+    for idx, v in enumerate(vocab_list):
+        if idx == 5:
+            html += '<h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Life, Actions &amp; Connection</h3>\n'
 
+        word = v['word'].replace("'", "&apos;")
+        definition = v['def'].replace("'", "&apos;")
+        example = v['ex'].replace("'", "&apos;")
+        opp = v.get('opp', 'N/A').replace("'", "&apos;")
+
+        # JS string escaping
+        js_word = v['word'].replace("'", "\\'").replace('"', '&quot;')
+        js_def = v['def'].replace("'", "\\'").replace('"', '&quot;')
+        js_ex = v['ex'].replace("'", "\\'").replace('"', '&quot;')
+
+        html += f'''<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{word}</div>
+<div class="vocab-def">{definition}</div>
+<div class="vocab-example">{example}</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">{opp}</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({{word:\'{js_word}\', definition:\'{js_def}\', example:\'{js_ex}\'}}, this)">+ Dictionary</button>
+</div>\n'''
+    html += '</div>'
+    return html
+
+def generate_discussion_html(r1_tuples, r2_list):
+    html = '<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n'
+    for q_main, q_pers in r1_tuples:
+        html += f'''<div class="round-item"><div class="round-item-main">{q_main}</div>
+<div class="round-item-personal">{q_pers}</div>
+</div>\n'''
+    html += '</div>\n<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n'
+    for q_deb in r2_list:
+        html += f'''<div class="round-item"><div class="round-item-main">{q_deb}</div>
+</div>\n'''
+    html += '</div>'
+    return html
+
+def generate_lang_focus_html(title, desc, examples):
+    html = f'''<div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+<h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">{title}</h3>
+<p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">{desc}</p>
+<strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let\'s Practise — Three Examples:</strong>
+<ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">\n'''
+    for ex in examples:
+        html += f'<li style="margin-bottom: 0.5rem; font-size: 0.9rem;">{ex}</li>\n'
+    html += '</ul>\n</div>'
+    return html
+
+def generate_teacher_note_html(items):
+    html = '<div class="mistake-body" style="display:block;">\n'
+    for wrong, arrow, right, note in items:
+        html += f'''<div class="mistake-item">
+<span class="mistake-wrong">{wrong}</span>
+<span class="mistake-arrow">{arrow}</span>
+<span class="mistake-right">{right}</span>
+<span class="mistake-note-text">{note}</span>
+</div>\n'''
+    html += '</div>'
+    return html
+
+def update_song_in_soup(soup, song_slug, data, is_standalone=False):
+    id_suffix = data['id_suffix']
+
+    v_id = 'vocabulary' if is_standalone else f'vocabulary-{id_suffix}'
+    d_id = 'discussion' if is_standalone else f'discussion-{id_suffix}'
+    lf_id = 'lang-focus' if is_standalone else f'lang-focus-{id_suffix}'
+    tn_id = 's-mistakes' if is_standalone else f's-mistakes-{id_suffix}'
+
+    # 1. Vocab
+    v_block = soup.find(id=v_id)
+    if v_block:
+        v_body = v_block.find('div', class_='round-body')
+        if v_body:
+            v_body.clear()
+            for child in list(BeautifulSoup(generate_vocab_html(data['vocab']), 'html.parser').children):
+                v_body.append(child)
+
+    # 2. Discussion
+    d_block = soup.find(id=d_id)
+    if d_block:
+        d_body = d_block.find('div', class_='round-body')
+        if d_body:
+            checkpoints = [cp.extract() for cp in d_body.find_all('div', class_='lyrics-checkpoint')]
+            d_body.clear()
+            for child in list(BeautifulSoup(generate_discussion_html(data['r1'], data['r2']), 'html.parser').children):
+                d_body.append(child)
+            for cp in checkpoints:
+                d_body.append(cp)
+
+    # 3. Language Focus
+    lf_block = soup.find(id=lf_id)
+    if lf_block:
+        lf_body = lf_block.find('div', class_='round-body')
+        if lf_body:
+            lf_body.clear()
+            for child in list(BeautifulSoup(generate_lang_focus_html(data['lang_title'], data['lang_desc'], data['lang_examples']), 'html.parser').children):
+                lf_body.append(child)
+
+    # 4. Teacher Note
+    tn_block = soup.find(id=tn_id)
+    if tn_block:
+        mb = tn_block.find('div', class_='mistake-body')
+        if mb:
+            mb.clear()
+            new_tn_soup = BeautifulSoup(generate_teacher_note_html(data['note_items']), 'html.parser')
+            inner_mb = new_tn_soup.find('div', class_='mistake-body')
+            if inner_mb:
+                for child in list(inner_mb.children):
+                    mb.append(child)
+
+def update_cxg_batch4():
     idx_path = os.path.join(CXG_DIR, 'index.html')
     with open(idx_path, 'r', encoding='utf-8') as f:
-        idx_content = f.read()
+        soup = BeautifulSoup(f.read(), 'html.parser')
 
-    for song_slug, data in CXG_BATCH1_DATA.items():
+    for song_slug, data in CXG_BATCH4_DATA.items():
         print(f"Updating {song_slug} in index.html...")
-        idx_content = update_html_text(idx_content, song_slug, data)
+        update_song_in_soup(soup, song_slug, data, is_standalone=False)
 
     with open(idx_path, 'w', encoding='utf-8') as f:
-        f.write(idx_content)
+        f.write(str(soup))
 
-    for song_slug, data in CXG_BATCH1_DATA.items():
+    for song_slug, data in CXG_BATCH4_DATA.items():
         standalone_path = os.path.join(CXG_DIR, f"{song_slug}.html")
         if os.path.exists(standalone_path):
             print(f"Updating standalone file {standalone_path}...")
             with open(standalone_path, 'r', encoding='utf-8') as f:
-                s_content = f.read()
-            s_content = update_html_text(s_content, song_slug, data)
+                s_soup = BeautifulSoup(f.read(), 'html.parser')
+            update_song_in_soup(s_soup, song_slug, data, is_standalone=True)
             with open(standalone_path, 'w', encoding='utf-8') as f:
-                f.write(s_content)
+                f.write(str(s_soup))
 
-    print("Batch 1 CXG Challenge files successfully updated!")
+    print("Batch 4 CXG Challenge files successfully updated with BeautifulSoup!")
 
 if __name__ == '__main__':
-    update_cxg_batch1()
+    update_cxg_batch4()
