@@ -4,280 +4,280 @@ from bs4 import BeautifulSoup
 
 CXG_DIR = 'apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/crazy-ex-girlfriend-challenge/'
 
-CXG_BATCH2_DATA = {
-    'im-the-villain-in-my-own-story': {
-        'title': "I'm the Villain in My Own Story",
-        'id_suffix': 'im-the-villain-in-my-own-story',
+CXG_BATCH3_DATA = {
+    'sexy-french-depression': {
+        'title': 'Sexy French Depression',
+        'id_suffix': 'sexy-french-depression',
         'vocab': [
-            {'word': 'Villain', 'def': 'A character whose evil actions or motives are important to the plot.', 'ex': 'Rebecca realizes she is not the fairytale heroine, but the villain in her own story.', 'opp': 'Hero'},
-            {'word': 'Witch', 'def': 'A woman thought to have magic powers, often portrayed as wicked.', 'ex': 'She dresses as a classic Disney witch to dramatically celebrate her bad choices.', 'opp': 'Fairy Godmother'},
-            {'word': 'Ego', 'def': 'A person\'s sense of self-esteem or self-importance.', 'ex': 'Her inflated ego makes her believe even her mistakes deserve an orchestral theme song.', 'opp': 'Modesty'},
-            {'word': 'Manipulate', 'def': 'To control or influence a person or situation cleverly, unfairly, or maliciously.', 'ex': 'Trying to manipulate people\'s relationships always backfires in hilarious ways.', 'opp': 'Guide'},
-            {'word': 'Antagonist', 'def': 'A person who actively opposes or is hostile to someone or something.', 'ex': 'It is shocking when you realize you have become the antagonist in someone else\'s life.', 'opp': 'Protagonist'},
-            {'word': 'Jealousy', 'def': 'The state or feeling of being envious of someone\'s achievements or advantages.', 'ex': 'Her intense jealousy pushed her to scheme against an innocent rival.', 'opp': 'Contentment'},
-            {'word': 'Scheming', 'def': 'Given to or involved in making secret, devious plans.', 'ex': 'Scheming in secret feels powerful until your plot collapses in public.', 'opp': 'Transparent'},
-            {'word': 'Moral', 'def': 'Concerned with the principles of right and wrong behavior.', 'ex': 'She struggles with her moral compass while executing terrible decisions.', 'opp': 'Immoral'},
-            {'word': 'Plot', 'def': 'A secret plan made by a group to do something unlawful or harmful.', 'ex': 'Her elaborate plot to ruin a wedding was doomed from the start.', 'opp': 'Truth'},
-            {'word': 'Self-aware', 'def': 'Having conscious knowledge of one\'s own character and feelings.', 'ex': 'Being self-aware doesn\'t help if you continue making bad choices anyway.', 'opp': 'Oblivious'}
+            {'word': 'Depression', 'def': 'A mental health state characterized by persistent sadness and loss of interest.', 'ex': 'The song contrasts glamorous movie tropes with the unglamorous reality of real clinical depression.', 'opp': 'Joy'},
+            {'word': 'Glamorize', 'def': 'To make something seem desirable, romantic, or exciting when it is actually painful.', 'ex': 'Pop culture often attempts to glamorize sadness with artistic film filters.', 'opp': 'Demystify'},
+            {'word': 'Apathy', 'def': 'Lack of interest, enthusiasm, or emotional concern.', 'ex': 'Severe depression causes overwhelming apathy where even getting out of bed feels impossible.', 'opp': 'Enthusiasm'},
+            {'word': 'Unwashed', 'def': 'Not washed or cleaned; uncleaned.', 'ex': 'Staying unwashed for days in a dark bedroom is a realistic symptom of depression.', 'opp': 'Clean'},
+            {'word': 'Despair', 'def': 'The complete loss or absence of hope.', 'ex': 'True emotional despair is unromantic and deeply exhausting.', 'opp': 'Hope'},
+            {'word': 'Lethargy', 'def': 'A state of sluggishness, tiredness, and lack of energy.', 'ex': 'Heavy lethargy prevents her from finishing basic daily chores.', 'opp': 'Vigor'},
+            {'word': 'Isolation', 'def': 'The state of being separated from others or lacking social contact.', 'ex': 'Social isolation worsens depression by cutting off supportive relationships.', 'opp': 'Connection'},
+            {'word': 'Cliche', 'def': 'A phrase or opinion that is overused and betrays a lack of original thought.', 'ex': 'Pouting in a beret with a cigarette is a classic French cinema cliché.', 'opp': 'Originality'},
+            {'word': 'Melancholy', 'def': 'A feeling of pensive sadness, typically with no obvious cause.', 'ex': 'Cinematic melancholy looks elegant on screen, but real sadness feels heavy.', 'opp': 'Cheerfulness'},
+            {'word': 'Stigma', 'def': 'A mark of disgrace associated with a particular circumstance, quality, or person.', 'ex': 'Breaking the stigma around mental illness requires honest, unglamorized conversations.', 'opp': 'Acceptance'}
         ],
         'r1': [
-            ("In 'I'm the Villain in My Own Story', Rebecca embraces her wicked side in a dramatic fairytale song. Why is being the <strong>Villain</strong> so fun in fiction?", "★ Have you ever realized in hindsight that you were the <strong>Villain</strong> or wrong party in a disagreement?"),
-            ("The song parodies classic animated <strong>Witch</strong> anthems. How do theatrical tropes make bad behavior entertaining?", "★ What is your favorite villainous or <strong>Witch</strong> character from film or theater?"),
-            ("Rebecca\'s <strong>Ego</strong> transforms her personal guilt into a grand theatrical performance. Why do people dramatize their flaws?", "★ How do you keep your <strong>Ego</strong> in check when you feel tempted to make things all about you?"),
-            ("How does her attempt to <strong>Manipulate</strong> the people around her highlight her deep insecurities?", "★ What is the best way to handle someone who is trying to <strong>Manipulate</strong> a group dynamic?"),
-            ("Realizing you are the <strong>Antagonist</strong> of someone else\'s story is a painful epiphany. How does self-reflection hurt?", "★ How do you react when someone views you as the <strong>Antagonist</strong> in their personal narrative?"),
-            ("How does <strong>Jealousy</strong> drive Rebecca to abandon her ethics and scheme against Valencia?", "★ What strategy helps you overcome sudden feelings of <strong>Jealousy</strong> or envy?"),
-            ("The lyrics celebrate devious <strong>Scheming</strong> with comedic relish. Why do convoluted revenge plots always fail?", "★ Why are simple, honest conversations so much more effective than secret <strong>Scheming</strong>?"),
-            ("How does the song explore the boundary between a person\'s <strong>Moral</strong> ideals and their impulsive actions?", "★ What personal <strong>Moral</strong> boundary would you never cross, no matter how upset you were?"),
-            ("Rebecca\'s villainous <strong>Plot</strong> involves poisoned apples and dramatic curses. How does fantasy warp reality?", "★ Why do people construct elaborate mental <strong>Plot</strong> lines instead of facing simple truths?"),
-            ("Does being <strong>Self-aware</strong> make Rebecca\'s bad choices better or worse?", "★ Why is being <strong>Self-aware</strong> useless if you don\'t change your actions?")
+            ("In 'Sexy French Depression', Rachel Bloom parodies Nouvelle Vague cinema tropes to expose how media glorifies sadness. How does media <strong>Glamorize</strong> mental distress?", "★ Have you ever noticed movies or TV shows trying to make sadness look artistic or stylish?"),
+            ("The song contrasts black-and-white art-house aesthetics with realistic <strong>Depression</strong> symptoms like poor hygiene. Why is this contrast powerful?", "★ Why is it important for media to distinguish between artistic <strong>Melancholy</strong> and actual depression?"),
+            ("How does severe emotional <strong>Apathy</strong> make even small, simple tasks feel insurmountable?", "★ How do you gently encourage yourself or a friend when feeling stuck in a state of <strong>Apathy</strong>?"),
+            ("Why does the song highlight being <strong>Unwashed</strong> in bed for days rather than sitting gracefully in a café?", "★ Why do people feel uncomfortable discussing the unglamorous, physical sides of mental struggles?"),
+            ("The lyrics mock French cinema's romanticized version of <strong>Despair</strong>. How do cultural stereotypes shape how we view sadness?", "★ What is a common cultural <strong>Cliche</strong> about emotion that you find completely inaccurate?"),
+            ("How does prolonged <strong>Lethargy</strong> affect a person's physical health and daily routine?", "★ What healthy habits help you regain energy when experiencing physical or mental <strong>Lethargy</strong>?"),
+            ("Why is social <strong>Isolation</strong> both a symptom and a accelerator of mental health struggles?", "★ What strategies help you stay connected with loved ones when you feel like retreating into <strong>Isolation</strong>?"),
+            ("How does the track dismantle the <strong>Cliche</strong> that sad people are just pensive, poetic thinkers?", "★ Why is open, honest dialogue better than maintaining a poetic facade?"),
+            ("How does artistic <strong>Melancholy</strong> differ from clinical conditions that require professional support?", "★ How can friends offer meaningful support without romanticizing or minimizing someone's pain?"),
+            ("Why is dismantling the societal <strong>Stigma</strong> around mental health essential for recovery?", "★ What positive changes have you seen in public attitudes toward mental health in recent years?")
         ],
         'r2': [
-            "Being <strong>Self-aware</strong> about your bad behavior without changing it makes you far worse than someone who acts out of genuine ignorance. Let's debate this perspective.",
-            "Fiction glorifies the <strong>Villain</strong> because society secretly envies people who act without moral restraint. Share your thoughts.",
-            "Uncontrolled <strong>Jealousy</strong> is the single most destructive emotion in personal relationships. Defend or oppose."
+            "Media depictions that <strong>Glamorize</strong> mental illness do genuine harm by trivializing clinical conditions into fashion statements. Let's debate this perspective.",
+            "Art and music have a right to explore <strong>Melancholy</strong> aesthetics without having to act as medical educational tools. Share your thoughts.",
+            "Openly discussing the unglamorous realities of emotional struggles is the single most effective way to eliminate social <strong>Stigma</strong>. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Narrative Self-Identification & Dramatic Labels',
-        'lang_desc': 'In the song <strong>I\'m the Villain in My Own Story</strong>, the theatrical self-awareness highlights <strong>Dramatic Self-Labeling & Narrative Role Assignment</strong> (e.g., <em>I\'m the villain, I\'m the witch, I\'m the evil rival</em>). This structure supports analyzing character archetypes.',
+        'lang_title': 'Language Focus: Contrastive Conjunctions & De-dramatizing Idioms (*In movies vs. In reality*)',
+        'lang_desc': 'In the song <strong>Sexy French Depression</strong>, the satire contrasts media tropes with reality using <strong>Contrastive Structures & Reality Checks</strong> (e.g., <em>In movies it looks chic, whereas in reality it is unwashed apathy; Instead of brooding poetically, she hasn\'t showered</em>). This structure supports evaluating misconceptions.',
         'lang_examples': [
-            'I have officially become the villain in this office drama!',
-            'She casts herself as the misunderstood hero in every conflict.',
-            'They assigned him the role of antagonist without asking his side.'
+            'In French films depression looks stylish, whereas in real life it is just exhausting.',
+            'Instead of writing brilliant poetry, she spent three days eating cereal in bed.',
+            'Film tropes depict sadness as pensive, but actual clinical apathy removes all motivation.'
         ],
         'note_items': [
-            ("She is the villain <span class=\"mistake-highlight\">of her own story</span>", "→", "She is the villain in her own story", "(Use 'villain in' a story/narrative.)"),
-            ("He is jealous <span class=\"mistake-highlight\">about his rival</span>", "→", "He is jealous of his rival", "(Use 'jealous of' someone or something.)"),
-            ("She manipulated him <span class=\"mistake-highlight\">to do bad things</span>", "→", "She manipulated him into doing bad things", "(Use 'manipulate someone into + -ing'.)")
+            ("She suffers from <span class=\"mistake-highlight\">the depression</span>", "→", "She suffers from depression", "(Do not use definite article 'the' with uncountable condition 'depression'.)"),
+            ("Media glamorizes <span class=\"mistake-highlight\">about mental illness</span>", "→", "Media glamorizes mental illness", "(Do not insert 'about' after transitive verb 'glamorize'.)"),
+            ("He stays isolated <span class=\"mistake-highlight\">from everyone</span>", "→", "He stays isolated from everyone", "(Correct usage of 'isolated from'.)")
         ]
     },
 
-    'oh-my-god-i-think-i-like-you': {
-        'title': 'Oh My God I Think I Like You',
-        'id_suffix': 'oh-my-god-i-think-i-like-you',
+    'antidepressants-are-so-not-a-big-deal': {
+        'title': 'Antidepressants Are So Not a Big Deal',
+        'id_suffix': 'antidepressants-are-so-not-a-big-deal',
         'vocab': [
-            {'word': 'Panic', 'def': 'Sudden uncontrollable fear or anxiety, often causing wildly unthinking behavior.', 'ex': 'Realizing you have genuine feelings for a casual hookup induces pure panic.', 'opp': 'Calm'},
-            {'word': 'Vulnerable', 'def': 'Exposed to the possibility of being attacked or harmed, either physically or emotionally.', 'ex': 'Admitting you care about someone makes you feel terrified and vulnerable.', 'opp': 'Protected'},
-            {'word': 'Casual', 'def': 'Relaxed and unconcerned; not formal or serious.', 'ex': 'They agreed to keep their relationship strictly casual, but emotions intervened.', 'opp': 'Serious'},
-            {'word': 'Horrified', 'def': 'Filled with horror; extremely shocked or dismayed.', 'ex': 'She was horrified to discover that sweet romantic thoughts had entered her head.', 'opp': 'Delighted'},
-            {'word': 'Affection', 'def': 'A gentle feeling of liking or fondness.', 'ex': 'Unwanted affection can catch you completely off guard during a simple conversation.', 'opp': 'Dislike'},
-            {'word': 'Denial', 'def': 'The action of declaring something to be untrue; refusal to accept reality.', 'ex': 'She stayed in complete denial until her heart started racing around him.', 'opp': 'Acceptance'},
-            {'word': 'Accidental', 'def': 'Happening by chance, unintentionally, or unexpectedly.', 'ex': 'An accidental moment of genuine warmth shattered her cynical rules.', 'opp': 'Intentional'},
-            {'word': 'Overwhelmed', 'def': 'Completely overcome in mind or feeling by a superior force.', 'ex': 'Feeling overwhelmed by unexpected intimacy is a common dater experience.', 'opp': 'Unmoved'},
-            {'word': 'Complicated', 'def': 'Consisting of many interconnecting parts or elements; intricate.', 'ex': 'What started as a simple physical arrangement quickly became deeply complicated.', 'opp': 'Simple'},
-            {'word': 'Terrified', 'def': 'Cause to feel extreme fear.', 'ex': 'She was terrified of ruining her independent lifestyle for love.', 'opp': 'Reassured'}
+            {'word': 'Antidepressant', 'def': 'A medication used to alleviate clinical depression or anxiety.', 'ex': 'The song celebrates taking antidepressants in a joyous, high-energy 1920s tap dance.'},
+            {'word': 'Stigma', 'def': 'A mark of disgrace associated with a particular circumstance or treatment.', 'ex': 'Taking daily medication for mental health still carries an unfair social stigma.'},
+            {'word': 'Chemical', 'def': 'Relating to chemistry, or a substance used in or produced by chemical processes.', 'ex': 'Depression is a chemical imbalance in the brain, not a personal flaw.'},
+            {'word': 'Serotonin', 'def': 'A neurotransmitter that regulates mood, sleep, and emotional stability.', 'ex': 'If your brain doesn\'t produce enough serotonin, store-bought medication is fine.'},
+            {'word': 'Normal', 'def': 'Conforming to a standard, usual, or typical type.', 'ex': 'Normalizing mental health treatment helps millions of people seek help.'},
+            {'word': 'Therapy', 'def': 'Treatment intended to relieve or heal a disorder, especially mental.', 'ex': 'Combining therapy with prescribed medication yields the best long-term outcomes.'},
+            {'word': 'Shame', 'def': 'A painful feeling of humiliation or distress caused by consciousness of guilt.', 'ex': 'There should be zero shame in taking medication to stay healthy.'},
+            {'word': 'Prescription', 'def': 'An instruction written by a medical practitioner authorizing a medicine.', 'ex': 'Getting a prescription for mental health is no different than getting glasses.'},
+            {'word': 'Imbalance', 'def': 'A lack of proportion or relation between corresponding things.', 'ex': 'Addressing a brain imbalance with science is a sensible health decision.'},
+            {'word': 'Routine', 'def': 'A sequence of actions regularly followed; a fixed program.', 'ex': 'Taking a pill each morning becomes a simple, unremarkable daily routine.'}
         ],
         'r1': [
-            ("In 'Oh My God I Think I Like You', Rebecca experiences intense <strong>Panic</strong> when emotional attachment ruins her casual hookup. Why is falling in love scary?", "★ When was a time you felt sudden <strong>Panic</strong> because feelings caught you unprepared?"),
-            ("Why does being emotionally <strong>Vulnerable</strong> feel far scarier than physical intimacy for many people?", "★ How do you build up the courage to be <strong>Vulnerable</strong> with someone new?"),
-            ("The song parodies the modern myth of the purely <strong>Casual</strong> relationship. Can people really separate feelings from intimacy?", "★ Do you believe a strictly <strong>Casual</strong> romantic arrangement is sustainable over time?"),
-            ("Rebecca is hilarious <strong>Horrified</strong> that she enjoys cuddling and sweet talk. Why do cynics resist affection?", "★ Why do people who act tough often feel <strong>Horrified</strong> by sentimental moments?"),
-            ("How does unexpected <strong>Affection</strong> disrupt carefully built emotional defense mechanisms?", "★ What is the sweetest or most surprising gesture of <strong>Affection</strong> you have received?"),
-            ("How does Rebecca use humorous <strong>Denial</strong> to fight against her obvious feelings for Greg?", "★ How can you tell when a friend is in complete <strong>Denial</strong> about their feelings?"),
-            ("The track shows how an <strong>Accidental</strong> realization can change the entire dynamic between two people. Has this happened to you?", "★ How do you navigate a relationship when an <strong>Accidental</strong> comment changes everything?"),
-            ("Why does feeling <strong>Overwhelmed</strong> by love lead to energetic, funny internal monologues?", "★ How do you calm yourself down when you feel <strong>Overwhelmed</strong> by sudden life changes?"),
-            ("How does the song capture the transition from a simple physical arrangement to a <strong>Complicated</strong> romance?", "★ Why do humans have a tendency to make simple situations emotionally <strong>Complicated</strong>?"),
-            ("Rebecca is <strong>Terrified</strong> that liking Greg will give him power over her. Is love inherently risky?", "★ Why is taking emotional risks worth the fear of getting hurt?")
+            ("In 'Antidepressants Are So Not a Big Deal', the cast performs a upbeat Broadway tap dance celebrating mental health medication. Why is joy effective at fighting <strong>Stigma</strong>?", "★ Why do people feel comfortable taking medication for physical illnesses but hesitate over an <strong>Antidepressant</strong>?"),
+            ("The lyrics explain that depression is a <strong>Chemical</strong> <strong>Imbalance</strong> rather than a character failure. How does science shift perspective?", "★ How does understanding the role of <strong>Serotonin</strong> and brain chemistry reduce self-blame?"),
+            ("Why is making mental healthcare feel <strong>Normal</strong> so important for young adults?", "★ What everyday conversation topics have become far more <strong>Normal</strong> in your community over time?"),
+            ("How do <strong>Therapy</strong> and prescription medication complement each other in long-term wellness?", "★ What is the most constructive attitude a friend can take when someone shares they are in <strong>Therapy</strong>?"),
+            ("The song aggressively rejects societal <strong>Shame</strong> surrounding psychiatric care. Why does judgment persist?", "★ How can society actively eliminate <strong>Shame</strong> around seeking medical mental health help?"),
+            ("Why should picking up a <strong>Prescription</strong> for anxiety be viewed like wearing corrective eyeglasses?", "★ What analogy best explains why taking care of mental health is a basic medical necessity?"),
+            ("How does establishing a consistent daily <strong>Routine</strong> support emotional stability?", "★ What small habits or <strong>Routine</strong> practices keep your mind feeling balanced?"),
+            ("The track shows suburban neighbors surprising each other by admitting they all take meds. Why do people hide shared struggles?", "★ Have you ever discovered that a friend or colleague shared a struggle you thought you faced alone?"),
+            ("What makes using an upbeat La La Land-style musical routine so cathartic for this subject?", "★ How can uplifting art help destigmatize taboo medical topics?"),
+            ("Ultimately, how does the song empower people to prioritize their health over other people's opinions?", "★ What advice would you give to someone afraid of judgment for seeking healthcare?")
         ],
         'r2': [
-            "Attempting to maintain a strictly <strong>Casual</strong> intimate relationship without developing feelings is an unrealistic myth. Let's debate this perspective.",
-            "Being emotionally <strong>Vulnerable</strong> requires far more courage than putting up defensive walls. Share your thoughts.",
-            "Initial romantic <strong>Panic</strong> is usually a sign that a connection is genuinely important to you. Defend or oppose."
+            "Psychiatric medication should be treated with the exact same casual acceptance as blood pressure medicine or eyeglasses. Let's debate this perspective.",
+            "Performative musical numbers about medical treatments risk trivializing the complex process of finding the right <strong>Prescription</strong>. Share your thoughts.",
+            "Society\'s lingering <strong>Stigma</strong> around mental health stems from a lack of scientific literacy about <strong>Chemical</strong> imbalances. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Sudden Epiphanies & Involuntary Realizations',
-        'lang_desc': 'In the song <strong>Oh My God I Think I Like You</strong>, the frantic internal realization highlights <strong>Sudden Epiphanies & Exclamatory Realizations</strong> (e.g., <em>Oh my god, I think I like you; Wait a minute, what is happening?</em>). This structure supports expressing unexpected discoveries.',
+        'lang_title': 'Language Focus: Normalizing Statements & Cause-and-Effect Explanations',
+        'lang_desc': 'In the song <strong>Antidepressants Are So Not a Big Deal</strong>, the upbeat destigmatization highlights <strong>Normalizing Declarations & Scientific Cause-Effect</strong> (e.g., <em>It\'s just serotonin, if you can\'t make it then store-bought is fine; It\'s not a big deal at all</em>). This structure supports presenting rational health facts.',
         'lang_examples': [
-            'Oh my god, I think I actually enjoy this terrible job!',
-            'Wait a second, did I just accidentally agree to host the party?',
-            'Suddenly she realized that she had developed feelings for her rival.'
+            'Taking a daily pill for anxiety is so not a big deal.',
+            'If your brain doesn\'t produce enough serotonin, store-bought is totally fine.',
+            'They normalized discussing therapy openly at the dinner table.'
         ],
         'note_items': [
-            ("She is terrified <span class=\"mistake-highlight\">about falling in love</span>", "→", "She is terrified of falling in love", "(Use 'terrified of + -ing'.)"),
-            ("He is vulnerable <span class=\"mistake-highlight\">for emotional pain</span>", "→", "He is vulnerable to emotional pain", "(Use 'vulnerable to'.)"),
-            ("They are in denial <span class=\"mistake-highlight\">for their feelings</span>", "→", "They are in denial about their feelings", "(Use 'in denial about'.)")
+            ("He takes an antidepressant <span class=\"mistake-highlight\">for be happy</span>", "→", "He takes an antidepressant to be happy / to balance his mood", "(Use 'to + infinitive' for purpose.)"),
+            ("There is no shame <span class=\"mistake-highlight\">for taking medication</span>", "→", "There is no shame in taking medication", "(Use 'shame in + gerund'.)"),
+            ("It is a chemical imbalance <span class=\"mistake-highlight\">of the brain</span>", "→", "It is a chemical imbalance in the brain", "(Use 'imbalance in' a organ/system.)")
         ]
     },
 
-    'wheres-the-bathroom': {
-        'title': "Where's the Bathroom",
-        'id_suffix': 'wheres-the-bathroom',
+    'a-diagnosis': {
+        'title': 'A Diagnosis',
+        'id_suffix': 'a-diagnosis',
         'vocab': [
-            {'word': 'Bathroom', 'def': 'A room containing a toilet and sink, often sought as a refuge from awkwardness.', 'ex': 'Searching frantically for the bathroom is Naomi\'s cover for inspecting Rebecca\'s life.', 'opp': 'N/A'},
-            {'word': 'Criticism', 'def': 'The expression of disapproval of someone or something based on perceived faults.', 'ex': 'Naomi delivers ninety relentless criticisms in under two minutes.', 'opp': 'Praise'},
-            {'word': 'Guilt', 'def': 'A feeling of having done wrong or failed in an obligation.', 'ex': 'Maternal guilt is weaponized as an art form in this rapid-fire patter song.', 'opp': 'Innocence'},
-            {'word': 'Relentless', 'def': 'Unyieldingly severe, strict, or harsh; never stopping.', 'ex': 'Her relentless barrage of questions leaves Rebecca completely paralyzed.', 'opp': 'Gentle'},
-            {'word': 'Judgment', 'def': 'An opinion or conclusion formed after careful consideration, often negative.', 'ex': 'Every corner of the apartment is subjected to harsh maternal judgment.', 'opp': 'Acceptance'},
-            {'word': 'Fast-paced', 'def': 'Moving, acting, or happening with great speed.', 'ex': 'The fast-paced Broadway melody mirrors the frantic anxiety of family visits.', 'opp': 'Slow'},
-            {'word': 'Invasive', 'def': 'Tending to intrude on a person\'s thoughts or privacy.', 'ex': 'Asking about marital prospects and bank accounts within ten seconds is highly invasive.', 'opp': 'Respectful'},
-            {'word': 'Expectation', 'def': 'A strong belief that something will or should happen.', 'ex': 'Crushed by maternal expectation, Rebecca scrambles to look successful.', 'opp': 'Freedom'},
-            {'word': 'Disapproval', 'def': 'Possession or expression of an unfavorable opinion.', 'ex': 'A single look of disapproval from her mother can ruin Rebecca\'s week.', 'opp': 'Approval'},
-            {'word': 'Exhausting', 'def': 'Making one feel completely drained of energy.', 'ex': 'Defending your life choices to critical family members is utterly exhausting.', 'opp': 'Energizing'}
+            {'word': 'Diagnosis', 'def': 'The identification of the nature of an illness or problem by examination.', 'ex': 'Rebecca eagerly anticipates a formal diagnosis as the master key to understanding her life.'},
+            {'word': 'Relief', 'def': 'A feeling of reassurance and relaxation following release from anxiety.', 'ex': 'Receiving an accurate diagnosis brings immense emotional relief and validation.'},
+            {'word': 'Identity', 'def': 'The fact of being who or what a person or thing is.', 'ex': 'She mistakenly tries to build her entire personal identity around a medical label.'},
+            {'word': 'Validation', 'def': 'Recognition or affirmation that a person or their feelings are valid.', 'ex': 'Finally having a name for her struggles offers long-awaited validation.'},
+            {'word': 'Label', 'def': 'A classifying phrase or name applied to a person or thing.', 'ex': 'A medical label can guide treatment, but it does not define your human worth.'},
+            {'word': 'Clarification', 'def': 'The action of making a statement or situation less confused and more comprehensible.', 'ex': 'She hoped a clinical diagnosis would provide instant clarification for her past mistakes.'},
+            {'word': 'Symptom', 'def': 'A physical or mental feature indicating a condition of disease.', 'ex': 'Understanding that her actions were symptoms gave her a path to healing.'},
+            {'word': 'Expectation', 'def': 'A strong belief that something will happen in a specific way.', 'ex': 'Unrealistic expectations that a diagnosis will automatically fix your life lead to disappointment.'},
+            {'word': 'Treatment', 'def': 'Medical care given to a patient for an illness or injury.', 'ex': 'A diagnosis is not the final cure; it is simply the starting line for proper treatment.'},
+            {'word': 'Hopeful', 'def': 'Feeling or inspiring optimism about a future event or situation.', 'ex': 'She sings with hopeful enthusiasm as she walks into her doctor\'s office.'}
         ],
         'r1': [
-            ("In 'Where's the Bathroom', Tovah Feldshuh plays Naomi, a mother who attacks with rapid-fire <strong>Criticism</strong>. Why is family interrogation funny in theater?", "★ How do you handle unsolicited <strong>Criticism</strong> or advice from older family members?"),
-            ("Naomi uses maternal <strong>Guilt</strong> as her primary tool of influence. Why is guilt such a powerful motivator in family dynamics?", "★ How do you set healthy boundaries when family members use <strong>Guilt</strong> trips?"),
-            ("The song\'s <strong>Relentless</strong> pace leaves no room for Rebecca to respond. How does speed convey anxiety?", "★ Have you ever experienced a <strong>Relentless</strong> barrage of questions during an interview or meeting?"),
-            ("Naomi passes immediate <strong>Judgment</strong> on Rebecca\'s apartment, weight, and career choices. How can we ignore harsh opinions?", "★ How do you protect your peace of mind from unfair external <strong>Judgment</strong>?"),
-            ("How does the <strong>Fast-paced</strong> tempo of the song capture the chaos of a surprise family visit?", "★ What is your strategy for surviving a stressful, <strong>Fast-paced</strong> family gathering?"),
-            ("Naomi\'s questions about marriage and finances are deeply <strong>Invasive</strong>. Where should parents draw the line?", "★ What is a topic you consider strictly private and off-limits from <strong>Invasive</strong> questioning?"),
-            ("How do unfulfilled parental <strong>Expectation</strong> burden adult children in their careers?", "★ How do you balance fulfilling your own dreams versus meeting family <strong>Expectation</strong>?"),
-            ("Why does a small sigh of <strong>Disapproval</strong> from a parent carry more weight than an insult from a stranger?", "★ Why do we care so much about avoiding the <strong>Disapproval</strong> of people who love us?"),
-            ("Why is trying to maintain a 'perfect' image for visiting relatives so physically <strong>Exhausting</strong>?", "★ What simple comfort helps you recover after an <strong>Exhausting</strong> social obligation?"),
-            ("Ultimately, why does Naomi open with 'Where\'s the <strong>Bathroom</strong>' before launching into her tirade?", "★ Why do people often use minor logistical requests as a doorway to initiate bigger conversations?")
+            ("In 'A Diagnosis', Rebecca marches joyfully toward her psychiatrist\'s office expecting a label to fix her whole life. Why does getting a <strong>Diagnosis</strong> bring <strong>Relief</strong>?", "★ Why do people find comfort in finally receiving a formal name or <strong>Diagnosis</strong> for their struggles?"),
+            ("The song shows Rebecca treating a medical <strong>Label</strong> like a magical club membership. What are the dangers of over-identifying with a label?", "★ Where is the line between using a medical <strong>Label</strong> for help versus letting it define your entire <strong>Identity</strong>?"),
+            ("How does receiving clinical <strong>Validation</strong> help someone let go of self-blame for past mistakes?", "★ Why is external <strong>Validation</strong> from a qualified professional so powerful when facing uncertainty?"),
+            ("Rebecca expects instant <strong>Clarification</strong> for years of chaotic choices. Is a diagnosis a cure or a starting point?", "★ How do you handle situations where getting an answer creates new work rather than an instant fix?"),
+            ("The lyrics contrast past confusing <strong>Symptom</strong> list items with a structured path forward. How does clarity reduce fear?", "★ How does gaining knowledge about a problem help reduce your fear of it?"),
+            ("Why does Rebecca\'s extreme <strong>Expectation</strong> set her up for a complicated emotional reality later?", "★ How do you manage your <strong>Expectations</strong> when seeking help for a complex personal challenge?"),
+            ("How does a medical diagnosis serve as the blueprint for an effective <strong>Treatment</strong> plan?", "★ Why is it important to remember that a <strong>Treatment</strong> plan requires active personal effort?"),
+            ("Why is the song\'s bright, <strong>Hopeful</strong> Disney-heroine style so tragicomic given her situation?", "★ How does energetic optimism help us take the first difficult steps toward personal growth?"),
+            ("How does 'A Diagnosis' capture the modern human desire to categorize and understand our minds?", "★ Why are people so fascinated by personality tests, diagnoses, and mental health categories today?"),
+            ("Ultimately, what does the song teach us about the difference between understanding a problem and solving it?", "★ What is the difference between knowing why you act a certain way and actually changing your behavior?")
         ],
         'r2': [
-            "Parents who weaponize <strong>Guilt</strong> and <strong>Criticism</strong> do so out of anxious love, not malice. Let's debate this perspective.",
-            "Setting strict, uncompromising boundaries with <strong>Invasive</strong> family members is necessary for adult mental health. Share your thoughts.",
-            "It is impossible to feel truly successful until you stop seeking parental <strong>Approval</strong>. Defend or oppose."
+            "Receiving a formal <strong>Diagnosis</strong> is essential because you cannot fix a problem that you cannot name. Let's debate this perspective.",
+            "Modern culture encourages people to make medical <strong>Labels</strong> their entire personal <strong>Identity</strong>, which hinders real growth. Share your thoughts.",
+            "A medical <strong>Diagnosis</strong> provides <strong>Validation</strong>, but true healing requires personal accountability and hard work. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Rapid Patter & Stacked Interrogatives',
-        'lang_desc': 'In the song <strong>Where\'s the Bathroom</strong>, the overwhelming interrogation highlights <strong>Rapid Patter & Stacked Questions</strong> (e.g., <em>Where\'s the bathroom? Why are you pale? Who is this guy? Why haven\'t you called?</em>). This structure supports analyzing fast conversational pressure.',
+        'lang_title': 'Language Focus: Future Expectations & Categorical Belonging (*Now I\'ll know what I am*)',
+        'lang_desc': 'In the song <strong>A Diagnosis</strong>, the optimistic expectation highlights <strong>Future Tense Declarations & Categorical Placement</strong> (e.g., <em>Now I\'ll have a name, soon I\'ll belong to a group, this will explain everything</em>). This structure supports analyzing high expectations.',
         'lang_examples': [
-            'Where is the bathroom, why is it cold, and why haven\'t you bought a rug?',
-            'Did you get promoted, are you dating anyone, and why are you wearing that?',
-            'She fired off ten questions before I even had time to take off my coat.'
+            'Once I get a diagnosis, everything in my past will finally make sense.',
+            'Soon I will have an exact label for what I have been experiencing.',
+            'She expected the test results to provide instant clarity for her future.'
         ],
         'note_items': [
-            ("She asked where is <span class=\"mistake-highlight\">the bathroom</span>", "→", "She asked where the bathroom was", "(Use indirect question word order: 'where + subject + verb'.)"),
-            ("He is critical <span class=\"mistake-highlight\">for her lifestyle</span>", "→", "He is critical of her lifestyle", "(Use 'critical of' someone or something.)"),
-            ("She feels guilty <span class=\"mistake-highlight\">about not call</span>", "→", "She feels guilty for not calling / about not calling", "(Use preposition + gerund '-ing'.)")
+            ("She is searching for <span class=\"mistake-highlight\">a diagnosis of her life</span>", "→", "She is searching for a diagnosis for her condition", "(Use 'diagnosis for' a condition/illness.)"),
+            ("He feels relief <span class=\"mistake-highlight\">from getting the news</span>", "→", "He feels relief at getting the news / upon getting the news", "(Use 'relief at/upon' receiving news.)"),
+            ("She identified herself <span class=\"mistake-highlight\">with a label</span>", "→", "She identified herself by a label / with a group", "(Proper prepositional use with 'identify'.)")
         ]
     },
 
-    'whos-the-new-guy': {
-        'title': "Who's the New Guy",
-        'id_suffix': 'whos-the-new-guy',
+    'i-hate-everything-but-you': {
+        'title': 'I Hate Everything But You',
+        'id_suffix': 'i-hate-everything-but-you',
         'vocab': [
-            {'word': 'Newcomer', 'def': 'A person who has recently arrived in a place or joined a group.', 'ex': 'The arrival of a newcomer at the law firm threatens the established social dynamic.', 'opp': 'Veteran'},
-            {'word': 'Suspicion', 'def': 'A feeling or thought that something is possible, likely, or true.', 'ex': 'The office staff treats the replacement character with hilarious suspicion.', 'opp': 'Trust'},
-            {'word': 'Meta', 'def': 'Self-referential; referring to itself or the conventions of its genre.', 'ex': 'The song is brilliantly meta, mocking television recasting and new cast additions.', 'opp': 'Earnest'},
-            {'word': 'Disrupt', 'def': 'To interrupt an event, activity, or process by causing a disturbance or problem.', 'ex': 'A new employee can completely disrupt the delicate balance of office gossip.', 'opp': 'Harmonize'},
-            {'word': 'Dynamic', 'def': 'The forces or properties that stimulate growth or change within a system or group.', 'ex': 'Adding a new person alters the emotional dynamic of the entire group.', 'opp': 'Stagnation'},
-            {'word': 'Replacement', 'def': 'A person or thing that takes the place of another.', 'ex': 'Nobody likes feeling like an unwanted replacement for a beloved friend.', 'opp': 'Original'},
-            {'word': 'Gossip', 'def': 'Casual or unconstrained conversation or reports about other people.', 'ex': 'Office gossip spikes whenever a mysterious new guy walks through the door.', 'opp': 'Fact'},
-            {'word': 'Intruder', 'def': 'A person who enters a place or situation where they are not wanted.', 'ex': 'They initially view Scott as an unwelcome intruder invading their song routines.', 'opp': 'Guest'},
-            {'word': 'Resentment', 'def': 'Bitter indignation at having been treated unfairly.', 'ex': 'Unearned resentment builds up when team members fear losing their standing.', 'opp': 'Warmth'},
-            {'word': 'Integration', 'def': 'The action or process of integrating or combining into an equal group.', 'ex': 'Successful integration into a tight-knit workplace takes time and effort.', 'opp': 'Isolation'}
+            {'word': 'Cynicism', 'def': 'An inclination to believe that people are motivated by self-interest; skepticism.', 'ex': 'Greg and Rebecca share a bond built on relentless cynicism toward the world.'},
+            {'word': 'Affection', 'def': 'A gentle feeling of liking or fondness.', 'ex': 'Expressing affection through shared hatred of everything else is their unique romantic language.'},
+            {'word': 'Irritation', 'def': 'The state of feeling annoyed, impatient, or angry.', 'ex': 'They list every minor daily irritation, from traffic to beach sand, with passionate disgust.'},
+            {'word': 'Bonding', 'def': 'The establishment of a relationship with someone based on shared feelings or interests.', 'ex': 'Complaining together about terrible things is a surprisingly effective form of bonding.'},
+            {'word': 'Exceptions', 'def': 'People or things that are excluded from a general rule or statement.', 'ex': 'In Greg\'s eyes, Rebecca is the sole exception to his universal dislike of humanity.'},
+            {'word': 'Pessimism', 'def': 'A tendency to see the worst aspect of things or believe that the worst will happen.', 'ex': 'Their shared pessimism creates a cozy, defensive bubble against the outside world.'},
+            {'word': 'Disgust', 'def': 'A feeling of revulsion or strong disapproval aroused by something unpleasant.', 'ex': 'Singing about mutual disgust brings them unexpectedly closer together.'},
+            {'word': 'Romantic', 'def': 'Conducive to or characterized by the expression of love.', 'ex': 'Declaring "I hate everything but you" is a strangely romantic gesture for cynical people.'},
+            {'word': 'Selective', 'def': 'Relating to or involving the selection of the most suitable or desirable.', 'ex': 'His affection is hyper-selective, reserved exclusively for one person.'},
+            {'word': 'Sarcasm', 'def': 'The use of irony to mock or convey contempt.', 'ex': 'Their conversation is heavily coated in dry sarcasm and mutual understanding.'}
         ],
         'r1': [
-            ("In 'Who\'s the New Guy', the office staff sings a clever <strong>Meta</strong> song about a replacement character joining their show. How does self-aware humor work?", "★ What is your favorite TV show or movie that broke the fourth wall with <strong>Meta</strong> jokes?"),
-            ("The staff treats the <strong>Newcomer</strong> with absurd hostility and skepticism. Why are tight groups afraid of newcomers?", "★ Have you ever felt like the anxious <strong>Newcomer</strong> trying to fit into an established group?"),
-            ("Why is sudden <strong>Suspicion</strong> the default reaction when an outsider joins a workplace team?", "★ How do you build trust quickly when joining a new team or department?"),
-            ("How does introducing a new member <strong>Disrupt</strong> the established habits and routines of a friend group?", "★ Have you ever seen a new person completely <strong>Disrupt</strong> an existing social circle?"),
-            ("The song explores how the social <strong>Dynamic</strong> shifts when someone leaves and another arrives. How do groups adapt?", "★ How has the <strong>Dynamic</strong> of your workplace or friend group evolved over the years?"),
-            ("Why do people often resist a <strong>Replacement</strong> even when the new person is perfectly nice?", "★ Why is it hard for people to accept a <strong>Replacement</strong> for a popular leader or colleague?"),
-            ("How does workplace <strong>Gossip</strong> explode when basic details about a new hire are unknown?", "★ Why is office <strong>Gossip</strong> so addictive, and how can teams keep it constructive?"),
-            ("The characters treat Scott like an <strong>Intruder</strong> stealing screen time. How does envy drive group rejection?", "★ What advice would you give to someone feeling like an unwanted <strong>Intruder</strong> at a party?"),
-            ("How can team leaders prevent petty <strong>Resentment</strong> when onboarding new talent?", "★ What is the best way to resolve lingering <strong>Resentment</strong> between colleagues?"),
-            ("What makes the final <strong>Integration</strong> of a new member into a team satisfying?", "★ What deliberate effort helps smooth the <strong>Integration</strong> of a new member into your circle?")
+            ("In 'I Hate Everything But You', Greg sings a romantic duet expressing love by listing everything else he detests. Why is shared <strong>Cynicism</strong> romantic to some?", "★ Have you ever bonded with a close friend or partner over a shared dislike or pet peeve?"),
+            ("The song lists trivial annoyances like traffic and crowds as sources of constant <strong>Irritation</strong>. Why is complaining fun?", "★ What is a hilarious minor <strong>Irritation</strong> in daily life that always makes you rant?"),
+            ("How does Greg make Rebecca feel special by declaring her the ultimate <strong>Exception</strong> to his rule?", "★ How does it feel when someone who normally dislikes group activities makes an <strong>Exception</strong> for you?"),
+            ("The track demonstrates how mutual <strong>Pessimism</strong> can build an intimate, defensive wall around two people. Is this healthy?", "★ Where is the line between cozy shared bonding and toxic negative <strong>Pessimism</strong>?"),
+            ("Why is expressing sweet <strong>Affection</strong> through sarcastic insults easier for defensive people?", "★ Why do some people find direct, earnest compliments uncomfortable compared to witty banter?"),
+            ("How does Greg\'s hyper-<strong>Selective</strong> warmth highlight his fear of getting hurt by the general world?", "★ Why do cynical people guard their inner warmth so fiercely?"),
+            ("How does the song use <strong>Sarcasm</strong> and rock ballad music to subvert traditional love songs?", "★ What is your favorite 'anti-romantic' love song that subverts traditional clichés?"),
+            ("Why does shared <strong>Disgust</strong> toward fake social trends create instant solidarity between friends?", "★ What social trend or cliché do you and your friends secretly agree is ridiculous?"),
+            ("Is declaring 'I hate everything but you' a sign of deep devotion or red-flag codependency?", "★ Do you prefer romantic partners who love the world enthusiastically or who share your critical eye?"),
+            ("Ultimately, how does finding one person you genuinely like make a cynical world bearable?", "★ How can a single positive relationship change your overall outlook on life?")
         ],
         'r2': [
-            "Tight-knit social groups naturally create hostile environments for any <strong>Newcomer</strong> attempting to join. Let's debate this perspective.",
-            "Self-referential <strong>Meta</strong> humor in television is a lazy substitute for genuine character storytelling. Share your thoughts.",
-            "Workplace <strong>Gossip</strong> is an inevitable and essential bonding mechanism for stressed teams. Defend or oppose."
+            "Bonding over shared negative opinions and <strong>Cynicism</strong> builds stronger, more authentic ties than superficial positivity. Let's debate this perspective.",
+            "Relying on one person as your sole <strong>Exception</strong> in a world you detest creates an unhealthy, codependent burden. Share your thoughts.",
+            "Sarcastic anti-love songs are far more realistic and meaningful for modern couples than traditional fairy-tale ballads. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Fourth-Wall Breaking & Meta Inquiries (*Who is this guy?*)',
-        'lang_desc': 'In the song <strong>Who\'s the New Guy</strong>, the self-aware TV parody highlights <strong>Meta Inquiries & Group Interrogatives</strong> (e.g., <em>Who is the new guy? Why is he here? Is he replacing someone?</em>). This structure supports analyzing self-referential questions.',
+        'lang_title': 'Language Focus: Exclusive Quantification & Universal Exclusion (*Everything except/but...*)',
+        'lang_desc': 'In the song <strong>I Hate Everything But You</strong>, the cynical romantic declaration highlights <strong>Universal Exclusionary Phrases</strong> (e.g., <em>I hate everything except you, everyone is terrible but you, everything annoys me but this</em>). This structure supports expressing hyper-selective preferences.',
         'lang_examples': [
-            'Who is the new guy and why is he getting his own solo in episode three?',
-            'Are we supposed to pretend we haven\'t noticed this major character change?',
-            'They asked who brought the newcomer into our private group chat.'
+            'I detest almost everything about this city except for this cozy café.',
+            'Everyone at the party was irritating, but you made the evening bearable.',
+            'She dislikes public speaking, but she made an exception for her best friend\'s wedding.'
         ],
         'note_items': [
-            ("Who is <span class=\"mistake-highlight\">the new guy guy</span>", "→", "Who is the new guy", "(Avoid accidental noun doubling.)"),
-            ("They are suspicious <span class=\"mistake-highlight\">about the newcomer</span>", "→", "They are suspicious of the newcomer", "(Use 'suspicious of'.)"),
-            ("He tried to integrate <span class=\"mistake-highlight\">to the team</span>", "→", "He tried to integrate into the team", "(Use 'integrate into' a group or team.)")
+            ("I hate everything <span class=\"mistake-highlight\">besides of you</span>", "→", "I hate everything besides you / except you / but you", "(Use 'besides', 'except', or 'but' without 'of'.)"),
+            ("He is cynical <span class=\"mistake-highlight\">for the world</span>", "→", "He is cynical about the world", "(Use 'cynical about'.)"),
+            ("She made an exception <span class=\"mistake-highlight\">for him</span>", "→", "She made an exception for him", "(Correct usage of 'exception for'.)")
         ]
     },
 
-    'group-hang': {
-        'title': 'Group Hang',
-        'id_suffix': 'group-hang',
+    'whatll-it-be': {
+        'title': "What'll It Be",
+        'id_suffix': 'whatll-it-be',
         'vocab': [
-            {'word': 'Group', 'def': 'A number of people or things that are located, gathered, or classed together.', 'ex': 'She suggested a group hang to avoid being alone with her crush on a real date.'},
-            {'word': 'Awkward', 'def': 'Causing or feeling embarrassment or inconvenience.', 'ex': 'A eight-person dinner at a noisy restaurant is the definition of awkward chaos.'},
-            {'word': 'Dilute', 'def': 'To make something weaker or less intense by adding other elements.', 'ex': 'Adding six extra acquaintances dilutes romantic tension until it vanishes.'},
-            {'word': 'Buffer', 'def': 'A person or thing that reduces a shock or forms a barrier between incompatible things.', 'ex': 'Using your friends as a buffer against romantic intimacy usually backfires.'},
-            {'word': 'Chaos', 'def': 'Complete disorder and confusion.', 'ex': 'Trying to order group tapas for eight people creates absolute chaos.'},
-            {'word': 'Tapas', 'def': 'Small Spanish savory dishes, typically served with drinks at a bar.', 'ex': 'Splitting three tiny plates of tapas among eight hungry people satisfies no one.'},
-            {'word': 'Shallow', 'def': 'Lacking depth of intellect, emotion, or knowledge.', 'ex': 'Group conversations inevitably default to shallow topics like the weather.'},
-            {'word': 'Distraction', 'def': 'A thing that prevents someone from giving full attention to something else.', 'ex': 'The loud ambient restaurant noise provided a welcome distraction from her feelings.'},
-            {'word': 'Escape', 'def': 'An act of breaking free from confinement or control.', 'ex': 'Suggesting a group hang was her cowardly escape from a one-on-one date.'},
-            {'word': 'Social', 'def': 'Relating to society or its organization; needing companionship.', 'ex': 'Navigating group social anxiety requires constant energy.'}
+            {'word': 'Stagnation', 'def': 'The state of not flowing or moving; lack of activity, growth, or development.', 'ex': 'Greg sings about the depressing stagnation of staying in his hometown forever.'},
+            {'word': 'Hometown', 'def': 'The town or city where a person was born or grew up.', 'ex': 'Leaving your hometown requires courage, especially when routine feels comfortable.'},
+            {'word': 'Regret', 'def': 'A feeling of sadness or disappointment over something that has happened or been done.', 'ex': 'He is paralyzed by the fear of looking back on his life with bitter regret.'},
+            {'word': 'Ambition', 'def': 'A strong desire to do or to achieve something, typically requiring determination.', 'ex': 'His buried ambition conflicts with his fear of stepping outside his comfort zone.'},
+            {'word': 'Bartender', 'def': 'A person who serves drinks at a bar.', 'ex': 'As a local bartender, he listens to everyone else\'s dreams while ignoring his own.'},
+            {'word': 'Trapped', 'def': 'Prevented from escaping from a place or situation.', 'ex': 'He feels completely trapped in a small-town cycle that repeats endlessly.'},
+            {'word': 'Escape', 'def': 'An act of breaking free from a place, danger, or limitation.', 'ex': 'Planning his escape to Emory University in Atlanta is his long-cherished dream.'},
+            {'word': 'Resignation', 'def': 'The acceptance of something undesirable but inevitable.', 'ex': 'His melancholic song balances hopeful longing with weary resignation.'},
+            {'word': 'Mediocrity', 'def': 'The quality or state of being mediocre; ordinary or moderate quality.', 'ex': 'He dreads settling into lifelong small-town mediocrity without trying.'},
+            {'word': 'Longing', 'def': 'A yearning desire for something distant or unobtainable.', 'ex': 'The classic Billy Joel-style piano ballad captures profound acoustic longing.'}
         ],
         'r1': [
-            ("In 'Group Hang', Rebecca parodies Latin pop while organizing an eight-person dinner to avoid one-on-one romance. Why do people use a <strong>Group</strong> as a shield?", "★ Have you ever invited extra friends along just to avoid an <strong>Awkward</strong> one-on-one meeting?"),
-            ("The song explains how inviting too many people will <strong>Dilute</strong> intimacy. Why are big group dinners terrible for real conversation?", "★ What is the ideal group size for a meaningful, fun dinner conversation?"),
-            ("Rebecca relies on her friends as a human <strong>Buffer</strong>. When is having a buffer helpful versus cowardly?", "★ Have you ever had to act as a <strong>Buffer</strong> between two awkward or clashing friends?"),
-            ("How does trying to split the bill or share <strong>Tapas</strong> among eight people turn into hilarious <strong>Chaos</strong>?", "★ What is your worst or funniest experience trying to split a group restaurant bill?"),
-            ("The lyrics note that group hangs force everyone into <strong>Shallow</strong> small talk. How can you have deep chats in a crowd?", "★ How do you steer a large group conversation away from <strong>Shallow</strong> topics?"),
-            ("Why is constant phone usage and loud music such a common <strong>Distraction</strong> during group outings?", "★ How do you feel when people spend an entire group hang staring at their phones?"),
-            ("Rebecca views the noisy party as a clever <strong>Escape</strong> from emotional risk. Why is vulnerability frightening?", "★ When is it better to face a difficult one-on-one talk instead of seeking an <strong>Escape</strong>?"),
-            ("How does the song parody the performative joy of <strong>Social</strong> gatherings that are actually uncomfortable?", "★ Why do people feel pressured to act like they are having the 'best time ever' at parties?"),
-            ("What makes the Latin pop rhythm of 'Group Hang' such a funny match for mundane restaurant struggles?", "★ Why does putting mundane, daily annoyances into energetic music make them so funny?"),
-            ("Ultimately, did the group hang successfully protect Rebecca, or did it just create new headaches?", "★ Why do complicated social workarounds usually create more trouble than being direct?")
+            ("In 'What'll It Be', Greg pours drinks at a local bar while singing about his fear of small-town <strong>Stagnation</strong>. Why is leaving home difficult?", "★ Have you ever felt stuck in a location or job where you feared personal <strong>Stagnation</strong>?"),
+            ("Greg watches older patrons at the bar and fears a future full of <strong>Regret</strong>. How does fear of regret motivate action?", "★ How do you ensure your current choices won't lead to future <strong>Regret</strong>?"),
+            ("The song captures the conflict between cozy small-town comfort and personal <strong>Ambition</strong>. How do you balance peace with drive?", "★ What is a personal <strong>Ambition</strong> that requires you to step outside your comfort zone?"),
+            ("As a local <strong>Bartender</strong>, Greg serves as an observer of other people's lives. How does watching others affect self-esteem?", "★ Have you ever felt like an observer watching everyone else move forward in life?"),
+            ("Why do people who feel <strong>Trapped</strong> in their routine often hesitate to take the leap and leave?", "★ What advice would you give to someone who feels emotionally or professionally <strong>Trapped</strong>?"),
+            ("Greg dreams of an <strong>Escape</strong> to Atlanta, but fears failure. Is fear of failure worse than fear of staying?", "★ How do you overcome the fear of failure when pursuing an ambitious <strong>Escape</strong> or change?"),
+            ("How does the lyrics show the slow slide from youthful excitement into quiet <strong>Resignation</strong>?", "★ How do you reignite your enthusiasm when you feel a sense of weary <strong>Resignation</strong> creeping in?"),
+            ("Greg dreads settling for <strong>Mediocrity</strong>. What does living a fulfilling life mean to you beyond societal status?", "★ How do you define a 'successful life' for yourself regardless of external prestige?"),
+            ("How does the Billy Joel / 'Piano Man' style of music enhance the feeling of small-town melancholic <strong>Longing</strong>?", "★ Why do piano ballads resonate so deeply when exploring themes of longing and lost dreams?"),
+            ("Ultimately, what holds Greg back more: his small town, or his own internal self-doubt?", "★ Are we usually trapped by external circumstances or by our own internal fears?")
         ],
         'r2': [
-            "Organizing a large <strong>Group</strong> outing is usually a cowardly tactic to avoid genuine one-on-one connection. Let's debate this perspective.",
-            "Shared group dining with <strong>Tapas</strong> and split bills is inherently flawed and always causes unnecessary friction. Share your thoughts.",
-            "Modern <strong>Social</strong> gatherings are more about creating content for social media than enjoying real company. Defend or oppose."
+            "Staying in your <strong>Hometown</strong> and building a quiet life is often a wiser choice than chasing stressful external <strong>Ambition</strong>. Let's debate this perspective.",
+            "Fear of future <strong>Regret</strong> is a far more powerful motivator for personal growth than the desire for success. Share your thoughts.",
+            "Most people who feel <strong>Trapped</strong> in life are held back by their own internal self-doubt rather than actual external barriers. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Evasive Suggestions & Diluted Directives (*Let\'s all go together!*)',
-        'lang_desc': 'In the song <strong>Group Hang</strong>, the evasive group planning highlights <strong>Inclusive Plural Directives & Evasive Suggestions</strong> (e.g., <em>Let\'s all hang out, why don\'t we all go together, the more the merrier</em>). This structure supports analyzing social deflection tactics.',
+        'lang_title': 'Language Focus: Expressing Unfulfilled Ambitions & Hypothetical Regrets',
+        'lang_desc': 'In the song <strong>What\'ll It Be</strong>, the melancholic longing highlights <strong>Conditional Statements of Unfulfilled Potential & Future Regret</strong> (e.g., <em>If I don\'t leave now, I\'ll spend my whole life here; What if I\'m stuck here forever?</em>). This structure supports analyzing career crossroad choices.',
         'lang_examples': [
-            'Let\'s all go together as a huge group so nobody feels left out!',
-            'Why don\'t we invite six more colleagues to make it a real party?',
-            'The more people we bring, the less awkward the evening will be.'
+            'If I don\'t make a change now, I will spend the next ten years wondering what if.',
+            'What if I stay in this town and turn into the bitter guy at the end of the bar?',
+            'He feared that his unfulfilled ambition would turn into permanent regret.'
         ],
         'note_items': [
-            ("They went on a <span class=\"mistake-highlight\">group hanging</span>", "→", "They went on a group hang / group outing", "(Use 'group hang' or 'group outing' as a noun phrase.)"),
-            ("She used her friends <span class=\"mistake-highlight\">like a buffer</span>", "→", "She used her friends as a buffer", "(Use 'as a buffer' when serving in that role.)"),
-            ("He diluted the topic <span class=\"mistake-highlight\">with many details</span>", "→", "He diluted the topic with unnecessary details", "(Proper usage of 'dilute with'.)")
+            ("He is afraid to be <span class=\"mistake-highlight\">trapped in his town</span>", "→", "He is afraid of being trapped in his town", "(Use 'afraid of + gerund'.)"),
+            ("He regrets <span class=\"mistake-highlight\">to not leave earlier</span>", "→", "He regrets not leaving earlier", "(Use 'regret + gerund' for past actions.)"),
+            ("He is waiting <span class=\"mistake-highlight\">for escape from the bar</span>", "→", "He is waiting to escape from the bar / waiting for an escape", "(Proper grammar structure.)")
         ]
     },
 
-    'fit-hot-guys-have-problems-too': {
-        'title': 'Fit Hot Guys Have Problems Too',
-        'id_suffix': 'fit-hot-guys-have-problems-too',
+    'after-everything-ive-done-for-you': {
+        'title': "After Everything I've Done for You",
+        'id_suffix': 'after-everything-ive-done-for-you',
         'vocab': [
-            {'word': 'Shallow', 'def': 'Lacking depth of intellect, emotion, or seriousness.', 'ex': 'The song parodies male models complaining about trivial problems with absurd seriousness.'},
-            {'word': 'Privilege', 'def': 'A special right, advantage, or immunity granted to a particular person or group.', 'ex': 'They whine about handsome privilege while strutting around in a boyband routine.'},
-            {'word': 'Superficial', 'def': 'Existing or occurring at or on the surface; not thorough or deep.', 'ex': 'Complaining that your abs are too defined is the definition of a superficial problem.'},
-            {'word': 'Absurd', 'def': 'Wildly unreasonable, illogical, or ridiculous.', 'ex': 'Watching three gorgeous guys cry over trivial minor inconveniences is absurd.'},
-            {'word': 'Sympathy', 'def': 'Feelings of pity and sorrow for someone else\'s misfortune.', 'ex': 'They demand deep sympathy from the audience for problems nobody cares about.'},
-            {'word': 'Symmetric', 'def': 'Made up of exactly similar parts facing each other on an axis.', 'ex': 'Having a perfectly symmetric face apparently carries immense emotional weight.'},
-            {'word': 'Boyband', 'def': 'A pop group composed of young attractive men, performing synchronized routines.', 'ex': 'The song parodies classic late 90s boyband dance moves and dramatic emotional poses.'},
-            {'word': 'Trivial', 'def': 'Of little value or importance.', 'ex': 'Confusing a genuinely hard life with trivial aesthetic problems is hilarious satire.'},
-            {'word': 'Validation', 'def': 'Recognition or affirmation that a person or their feelings are valid.', 'ex': 'Even incredibly attractive people crave constant external validation.'},
-            {'word': 'Glamour', 'def': 'An attractive or exciting quality that makes certain people seem appealing.', 'ex': 'The glamour of being ridiculously hot comes with unexpected comedic downside.'}
+            {'word': 'Transaction', 'def': 'An instance of buying or selling something; a business deal.', 'ex': 'Paula views her friendship with Rebecca as a debt-filled emotional transaction.'},
+            {'word': 'Resentment', 'def': 'Bitter indignation at having been treated unfairly or taken for granted.', 'ex': 'Years of secret meddling build up a terrifying wave of explosive resentment.'},
+            {'word': 'Entitlement', 'def': 'The amount to which a person has a right; belief that one is deserving of privileges.', 'ex': 'Her entitlement stems from believing her illegal favors buy Rebecca\'s total loyalty.'},
+            {'word': 'Manipulation', 'def': 'The action of manipulating someone in a clever or unscrupulous way.', 'ex': 'She lists every act of manipulation as proof of her ultimate love and devotion.'},
+            {'word': 'Obligation', 'def': 'An act or course of action to which a person is morally or legally bound.', 'ex': 'Creating a sense of heavy obligation is a classic guilt-trip strategy.'},
+            {'word': 'Sacrifice', 'def': 'An act of giving up something valued for the sake of something else.', 'ex': 'She exaggerates her personal sacrifice to make Rebecca feel completely indebted.'},
+            {'word': 'Showstopper', 'def': 'A song or performance receiving prolonged applause, stopping the show.', 'ex': 'Paula delivers a jaw-dropping Gypsy-style Broadway showstopper of rage.'},
+            {'word': 'Boundaries', 'def': 'A line that marks the limits of an area; emotional limits in relationships.', 'ex': 'Neither Paula nor Rebecca has any healthy respect for personal boundaries.'},
+            {'word': 'Indebted', 'def': 'Owing gratitude or money to someone in return for an engine or favor.', 'ex': 'She demands that Rebecca feel forever indebted for her secret schemes.'},
+            {'word': 'Explosive', 'def': 'Able or likely to shatter violently or burst out in anger.', 'ex': 'The sudden, explosive confrontation shatters their cozy dynamic.'}
         ],
         'r1': [
-            ("In 'Fit Hot Guys Have Problems Too', three handsome men perform a 90s <strong>Boyband</strong> routine weeping over minor struggles. Why is this satire effective?", "★ What is a funny example of someone complaining about a problem that is actually a massive <strong>Privilege</strong>?"),
-            ("The characters demand deep <strong>Sympathy</strong> because their lives are 'so hard'. Why is it hard to feel sorry for privileged people?", "★ How do you politely react when someone complains incessantly about a truly <strong>Trivial</strong> issue?"),
-            ("How does the song mock the <strong>Superficial</strong> obsession with physical appearance in modern culture?", "★ Why do people place so much emphasis on <strong>Superficial</strong> traits when meeting others?"),
-            ("Why is complaining that your face is too <strong>Symmetric</strong> or your abs are too cut completely <strong>Absurd</strong>?", "★ What is the most <strong>Absurd</strong> complaint you have ever heard someone utter with a straight face?"),
-            ("The lyrics contrast genuine world problems with the <strong>Glamour</strong> and minor troubles of attractive people. What makes this contrast funny?", "★ Why is satire so effective at puncturing the inflated egos of the <strong>Glamour</strong> industry?"),
-            ("How does the track show that even attractive people suffer from insecurity and a need for <strong>Validation</strong>?", "★ Why does external physical praise fail to build lasting internal self-esteem?"),
-            ("The song uses 90s <strong>Boyband</strong> tropes like dramatic rain and synchronized water dances. How does music genre heighten comedy?", "★ What classic 90s or 00s <strong>Boyband</strong> video cliche do you find most hilarious?"),
-            ("Why do people often assume that good-looking individuals have zero real emotional problems?", "★ Is 'pretty privilege' real in everyday life, or is it exaggerated by social media?"),
-            ("How do the characters confuse <strong>Shallow</strong> vanity struggles with true human suffering?", "★ How can people cultivate perspective so they don\'t blow minor inconveniences out of proportion?"),
-            ("Ultimately, what does 'Fit Hot Guys Have Problems Too' teach us about empathy and privilege?", "★ How can society balance genuine empathy with calling out unearned privilege?")
+            ("In 'After Everything I've Done for You', Donna Lynne Champlin delivers a powerhouse Broadway showstopper demanding gratitude for illegal favors. How do toxic favors work?", "★ Have you ever felt trapped by a favor that someone did for you without your asking?"),
+            ("Paula treats friendship as a transactional debt ledger. Why is viewing love as a <strong>Transaction</strong> destructive?", "★ How do you maintain genuine generosity without keeping a score or mental ledger?"),
+            ("How does years of unexpressed <strong>Resentment</strong> turn a close friendship into a ticking time bomb?", "★ How do you address minor boundary violations before they build into explosive <strong>Resentment</strong>?"),
+            ("Paula feels intense <strong>Entitlement</strong> to control Rebecca's personal life because of her secret help. How can help turn into control?", "★ Where is the line between helping a friend and trying to exert control over them?"),
+            ("The lyrics list extreme <strong>Manipulation</strong> (like faking DNA tests) as proof of friendship. Why is this comedic and terrifying?", "★ Why do people sometimes justify terrible actions by claiming 'I did it out of love'?"),
+            ("Paula uses heavy guilt to impose an emotional <strong>Obligation</strong> on Rebecca. How do you handle guilt trips?", "★ What is your go-to response when someone tries to place an unearned guilt trip on you?"),
+            ("How does Paula's grand narrative of <strong>Sacrifice</strong> ignore the fact that nobody asked her to commit crimes?", "★ Why do people make unwanted sacrifices for others and then demand praise for them?"),
+            ("What makes this Gypsy / 'Rose's Turn' style Broadway <strong>Showstopper</strong> so iconic and thrilling to perform?", "★ Why are dramatic villain/confrontation showstoppers so captivating in musical theater?"),
+            ("How does the complete lack of personal <strong>Boundaries</strong> ruin both of their lives throughout the show?", "★ What personal <strong>Boundaries</strong> are essential for keeping a friendship healthy and equal?"),
+            ("Ultimately, how does feeling perpetually <strong>Indebted</strong> destroy genuine warmth between friends?", "★ Can a friendship recover after one person demands total obedience as payment for past favors?")
         ],
         'r2': [
-            "Society holds extreme double standards regarding physical attractiveness, underestimating the real social struggles of handsome people. Let's debate this perspective.",
-            "Parodying 90s <strong>Boyband</strong> routines is the ultimate format for mocking performative emotional drama. Share your thoughts.",
-            "Complaining about <strong>Trivial</strong> aesthetic inconveniences completely destroys a person\'s credibility in real conversations. Defend or oppose."
+            "Any favor done with the expectation of future payback is an emotional <strong>Transaction</strong>, not true generosity. Let's debate this perspective.",
+            "Unwanted <strong>Sacrifice</strong> made without permission creates toxic guilt and destroys equal friendships. Share your thoughts.",
+            "Establishing strict personal <strong>Boundaries</strong> is more important for a friendship's survival than unconditional loyalty. Defend or oppose."
         ],
-        'lang_title': 'Language Focus: Absurd Claims of Hardship & Overstated Struggles',
-        'lang_desc': 'In the song <strong>Fit Hot Guys Have Problems Too</strong>, the boyband parody highlights <strong>Absurd Claims of Hardship & Overstated Complaints</strong> (e.g., <em>My life is so hard because I am too hot, people treat me like an object, it is tough being perfect</em>). This structure supports analyzing comedic complaints.',
+        'lang_title': 'Language Focus: Present Perfect for Accumulated Grievance & Transactional Demands',
+        'lang_desc': 'In the song <strong>After Everything I\'ve Done for You</strong>, the explosive demand for gratitude highlights <strong>Present Perfect for Cumulative Past Actions & Demands for Reciprocity</strong> (e.g., <em>After everything I\'ve done for you, I\'ve stolen, I\'ve lied, I\'ve sacrificed my life</em>). This structure supports summarizing accumulated effort.',
         'lang_examples': [
-            'My life is so difficult because people constantly stare at my symmetric face!',
-            'It is genuinely exhausting having to maintain eight-pack abs every single day.',
-            'They complained about how hard it is to be ridiculously attractive.'
+            'After everything I have done for this company, this is how I am treated!',
+            'She has sacrificed her entire weekend to help you move into your apartment.',
+            'I have lied, cheated, and broken rules all in the name of our friendship.'
         ],
         'note_items': [
-            ("He complained about <span class=\"mistake-highlight\">his fit body problem</span>", "→", "He complained about his body issues", "(Use standard phrasing 'body issues'.)"),
-            ("They are jealous <span class=\"mistake-highlight\">about his symmetry</span>", "→", "They are jealous of his symmetry", "(Use 'jealous of'.)"),
-            ("They demand sympathy <span class=\"mistake-highlight\">for their shallow problems</span>", "→", "They demand sympathy for their shallow problems", "(Correct usage.)")
+            ("After everything I did for you <span class=\"mistake-highlight\">since three years</span>", "→", "After everything I've done for you for three years", "(Use Present Perfect 'I've done' + 'for' duration.)"),
+            ("She feels indebted <span class=\"mistake-highlight\">toward her friend</span>", "→", "She feels indebted to her friend", "(Use 'indebted to' someone.)"),
+            ("He sacrificed his career <span class=\"mistake-highlight\">for help her</span>", "→", "He sacrificed his career to help her", "(Use 'to + infinitive' for purpose.)")
         ]
     }
 }
@@ -393,19 +393,19 @@ def update_song_in_soup(soup, song_slug, data, is_standalone=False):
                 for child in list(inner_mb.children):
                     mb.append(child)
 
-def update_cxg_batch2():
+def update_cxg_batch3():
     idx_path = os.path.join(CXG_DIR, 'index.html')
     with open(idx_path, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f.read(), 'html.parser')
 
-    for song_slug, data in CXG_BATCH2_DATA.items():
+    for song_slug, data in CXG_BATCH3_DATA.items():
         print(f"Updating {song_slug} in index.html...")
         update_song_in_soup(soup, song_slug, data, is_standalone=False)
 
     with open(idx_path, 'w', encoding='utf-8') as f:
         f.write(str(soup))
 
-    for song_slug, data in CXG_BATCH2_DATA.items():
+    for song_slug, data in CXG_BATCH3_DATA.items():
         standalone_path = os.path.join(CXG_DIR, f"{song_slug}.html")
         if os.path.exists(standalone_path):
             print(f"Updating standalone file {standalone_path}...")
@@ -415,7 +415,7 @@ def update_cxg_batch2():
             with open(standalone_path, 'w', encoding='utf-8') as f:
                 f.write(str(s_soup))
 
-    print("Batch 2 CXG Challenge files successfully updated with BeautifulSoup!")
+    print("Batch 3 CXG Challenge files successfully updated with BeautifulSoup!")
 
 if __name__ == '__main__':
-    update_cxg_batch2()
+    update_cxg_batch3()
