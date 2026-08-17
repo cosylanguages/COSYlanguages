@@ -1,5 +1,6 @@
 import os
 import re
+from bs4 import BeautifulSoup
 
 CXG_DIR = 'apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/crazy-ex-girlfriend-challenge/'
 
@@ -339,31 +340,140 @@ CXG_BATCH1_DATA = {
     }
 }
 
-def update_cxg_batch1():
-    from update_gossip import update_html_text
+def generate_vocab_html(vocab_list):
+    html = '<div class="vocab-grid-10">\n<h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts &amp; Feelings</h3>\n'
+    for idx, v in enumerate(vocab_list):
+        if idx == 5:
+            html += '<h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Life, Actions &amp; Connection</h3>\n'
 
+        word = v['word']
+        definition = v['def'].replace("'", "\\'")
+        example = v['ex'].replace("'", "\\'")
+        opp = v['opp']
+
+        html += f'''<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{v['word']}</div>
+<div class="vocab-def">{v['def']}</div>
+<div class="vocab-example">{v['ex']}</div>
+<div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">{opp}</span></div>
+<button class="btn-add-dict" onclick="COSY.addToDict({{word:\'{word}\', definition:\'{definition}\', example:\'{example}\'}}, this)">+ Dictionary</button>
+</div>\n'''
+    html += '</div>'
+    return html
+
+def generate_discussion_html(r1_tuples, r2_list):
+    html = '<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n'
+    for q_main, q_pers in r1_tuples:
+        html += f'''<div class="round-item"><div class="round-item-main">{q_main}</div>
+<div class="round-item-personal">{q_pers}</div>
+</div>\n'''
+    html += '</div>\n<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n'
+    for q_deb in r2_list:
+        html += f'''<div class="round-item"><div class="round-item-main">{q_deb}</div>
+</div>\n'''
+    html += '</div>'
+    return html
+
+def generate_lang_focus_html(title, desc, examples):
+    html = f'''<div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+<h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">{title}</h3>
+<p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">{desc}</p>
+<strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let\'s Practise — Three Examples:</strong>
+<ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">\n'''
+    for ex in examples:
+        html += f'<li style="margin-bottom: 0.5rem; font-size: 0.9rem;">{ex}</li>\n'
+    html += '</ul>\n</div>'
+    return html
+
+def generate_teacher_note_html(items):
+    html = '<div class="mistake-body" style="display:block;">\n'
+    for wrong, arrow, right, note in items:
+        html += f'''<div class="mistake-item">
+<span class="mistake-wrong">{wrong}</span>
+<span class="mistake-arrow">{arrow}</span>
+<span class="mistake-right">{right}</span>
+<span class="mistake-note-text">{note}</span>
+</div>\n'''
+    html += '</div>'
+    return html
+
+def update_song_in_soup(soup, song_slug, data, is_standalone=False):
+    id_suffix = data['id_suffix']
+
+    v_id = 'vocabulary' if is_standalone else f'vocabulary-{id_suffix}'
+    d_id = 'discussion' if is_standalone else f'discussion-{id_suffix}'
+    lf_id = 'lang-focus' if is_standalone else f'lang-focus-{id_suffix}'
+    tn_id = 's-mistakes' if is_standalone else f's-mistakes-{id_suffix}'
+
+    # 1. Vocab
+    v_block = soup.find(id=v_id)
+    if v_block:
+        v_body = v_block.find('div', class_='round-body')
+        if v_body:
+            v_body.clear()
+            for child in list(BeautifulSoup(generate_vocab_html(data['vocab']), 'html.parser').children):
+                v_body.append(child)
+
+    # 2. Discussion
+    d_block = soup.find(id=d_id)
+    if d_block:
+        d_body = d_block.find('div', class_='round-body')
+        # Remove any orphaned round-2 outside round-body
+        for old_r2 in d_block.find_all('div', class_='round-2'):
+            if old_r2.parent != d_body:
+                old_r2.extract()
+
+        if d_body:
+            checkpoints = [cp.extract() for cp in d_body.find_all('div', class_='lyrics-checkpoint')]
+            d_body.clear()
+            for child in list(BeautifulSoup(generate_discussion_html(data['r1'], data['r2']), 'html.parser').children):
+                d_body.append(child)
+            for cp in checkpoints:
+                d_body.append(cp)
+
+    # 3. Language Focus
+    lf_block = soup.find(id=lf_id)
+    if lf_block:
+        lf_body = lf_block.find('div', class_='round-body')
+        if lf_body:
+            lf_body.clear()
+            for child in list(BeautifulSoup(generate_lang_focus_html(data['lang_title'], data['lang_desc'], data['lang_examples']), 'html.parser').children):
+                lf_body.append(child)
+
+    # 4. Teacher Note
+    tn_block = soup.find(id=tn_id)
+    if tn_block:
+        mb = tn_block.find('div', class_='mistake-body')
+        if mb:
+            mb.clear()
+            new_tn_soup = BeautifulSoup(generate_teacher_note_html(data['note_items']), 'html.parser')
+            inner_mb = new_tn_soup.find('div', class_='mistake-body')
+            if inner_mb:
+                for child in list(inner_mb.children):
+                    mb.append(child)
+
+def update_cxg_batch1():
     idx_path = os.path.join(CXG_DIR, 'index.html')
     with open(idx_path, 'r', encoding='utf-8') as f:
-        idx_content = f.read()
+        soup = BeautifulSoup(f.read(), 'html.parser')
 
     for song_slug, data in CXG_BATCH1_DATA.items():
         print(f"Updating {song_slug} in index.html...")
-        idx_content = update_html_text(idx_content, song_slug, data)
+        update_song_in_soup(soup, song_slug, data, is_standalone=False)
 
     with open(idx_path, 'w', encoding='utf-8') as f:
-        f.write(idx_content)
+        f.write(str(soup))
 
     for song_slug, data in CXG_BATCH1_DATA.items():
         standalone_path = os.path.join(CXG_DIR, f"{song_slug}.html")
         if os.path.exists(standalone_path):
             print(f"Updating standalone file {standalone_path}...")
             with open(standalone_path, 'r', encoding='utf-8') as f:
-                s_content = f.read()
-            s_content = update_html_text(s_content, song_slug, data)
+                s_soup = BeautifulSoup(f.read(), 'html.parser')
+            update_song_in_soup(s_soup, song_slug, data, is_standalone=True)
             with open(standalone_path, 'w', encoding='utf-8') as f:
-                f.write(s_content)
+                f.write(str(s_soup))
 
-    print("Batch 1 CXG Challenge files successfully updated!")
+    print("Batch 1 CXG Challenge files successfully updated with BeautifulSoup!")
 
 if __name__ == '__main__':
     update_cxg_batch1()
