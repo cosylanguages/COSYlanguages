@@ -41,7 +41,8 @@
             'are-traditions-hidden-monogamy-upper-intermediate.html': 15,
             'i-have-no-time-for-it.html': 16,
             'why-do-i-spend-more-when-i-earn-more.html': 17,
-            'does-inclusive-language-make-us-equal.html': 18
+            'does-inclusive-language-make-us-equal.html': 18,
+            'we-are-people-we-are-not-stupid-animals.html': 23
         },
 
         KUS_DRAFT_MAPPING: {
