@@ -1,115 +1,9 @@
-<!DOCTYPE html>
+import os
+import re
+from bs4 import BeautifulSoup
 
-<html lang="el">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Mple Challenge — COSYlanguages</title>
-<link href="../../../../../../../../../images/logos/cosylanguages.png" rel="icon"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
-<link href="../../../../../../../../../css/tokens.css" rel="stylesheet"/>
-<link href="../../../../../../../../../css/base.css" rel="stylesheet"/>
-<link href="../../../../../../../../../css/components.css" rel="stylesheet"/>
-<link href="../../../../../../../../../css/layout.css" rel="stylesheet"/>
-<link href="../../../../../../../../../css/events.css" rel="stylesheet"/>
-<link href="../../../../../style.css" rel="stylesheet"/>
-</head>
-<body class="theme-karaoke">
-<nav id="cosy-nav"></nav>
-<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
-<div class="club-tag">Karaoke Club</div>
-<h1>Mple Challenge</h1>
-<p class="session-date">Μπλε • B2</p>
-</header>
-<main class="content-container">
-<nav class="cosy-breadcrumbs">
-<a href="../../../../../../../../../">Αρχική</a> <span class="sep">/</span>
-<a href="../../../../../../../../../events/index.html">Εκδηλώσεις</a> <span class="sep">/</span>
-<a href="../../../../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
-<span class="current">Mple Challenge</span>
-</nav>
-<a class="back-link" href="../../../../../karaoke-club.html">← Πίσω στο Club</a>
-<div class="session-meta-grid">
-<div class="meta-item"><h4>Διάρκεια</h4><p>90 minutes</p></div>
-<div class="meta-item"><h4>Γλώσσα</h4><p>Greek</p></div>
-<div class="meta-item"><h4>Επίπεδο</h4><p>Ανώτερο Μεσαίο (B2)</p></div>
-<div class="meta-item"><h4>Θέμα</h4><p>Passionate Devotion &amp; Inner Fears</p></div>
-<div class="meta-item"><h4>Offline Access</h4><p><button class="btn-print" onclick="window.print()" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
-</div>
-<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-<p>Ολοκληρώστε αυτήν την ειδική πρόκληση καραόκε που αποτελείται από 2 κλασικά τραγούδια: Τον ίδιο το Θεό, Φοβάμαι. Εξασκηθείτε και συγκρίνετε το λεξιλόγιό τους, τους στίχους και την πολιτιστική τους σημασία!</p>
-</div>
-<vim-choice>
-<vim-choice-option>
-<vim-choice-option-title>Τον ίδιο το Θεό</vim-choice-option-title>
-<vim-choice-option-content>
-<div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
-<div class="meta-item"><h4>Resources</h4><p>
-<a href="https://www.youtube.com/watch?v=Xl42ihdAXVs" style="color:var(--teal); margin-right: 12px;" target="_blank">Music Video 🎥</a>
-<a href="https://www.youtube.com/watch?v=Xl42ihdAXVs" style="color:var(--teal);" target="_blank">Song Link (Backup) 🎵</a>
-</p></div>
-</div>
-<div class="cosy-video-wrapper">
-<div class="cosy-video-container">
-<iframe allowfullscreen="" src="https://www.youtube.com/embed/Xl42ihdAXVs"></iframe>
-</div>
-<div class="cosy-video-disclaimer">
-<span>ℹ️ Πηγή: YouTube. Αυτό το υλικό χρησιμοποιείται αποκλειστικά για εκπαιδευτικούς σκοπούς.</span>
-</div>
-</div>
-<div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
-<h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Θέμα: Όταν η αγάπη γίνεται εμμονή</h3>
-<p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Θα συζητήσουμε:</p>
-<ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
-<li>Η αφοσίωση</li>
-<li>Ο έρωτας</li>
-<li>Η εμμονή</li>
-<li>Personal reflection</li>
-</ul>
-</div>
-<div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
-<div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
-<span>🗣️ Speaking Time Gauge</span>
-<span>90-120 min Session</span>
-</div>
-<div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
-<div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
-<div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
-<div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
-<div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
-<div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
-<div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
-</div>
-<div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
-<span>🎵 Στάδιο 1: Προθέρμανση (10%)</span>
-<span>📚 Στάδιο 2: Λεξιλόγιο (15%)</span>
-<span>🎧 Στάδιο 3: Ακρόαση (15%)</span>
-<span>💬 Στάδιο 4: Συζήτηση (45%)</span>
-<span>✨ Στάδιο 5: Γλωσσική εστίαση (10%)</span>
-<span>🎭 Στάδιο 6: Τελική πρόκληση (5%)</span>
-</div>
-</div>
-<div class="rounds-container">
-<div class="round-block warm-up open" id="s-warm-to-idio-to-theo">
-<div class="round-header" onclick="COSY.toggleRound('s-warm-to-idio-to-theo')" style="background:#FAEEE8; cursor:pointer;">
-<span>🎵 Στάδιο 1: Προθέρμανση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block;">
-<ul class="round-questions">
-<li>Πόσο σημαντικό είναι αυτό το θέμα συζήτησης στην καθημερινή σας ζωή;</li>
-<li>Κοιτάξτε τον τίτλο 'Τον ίδιο το Θεό' και τον καλλιτέχνη 'Μπλε (Ble)'. Τι προβλέπετε ότι αφορά αυτό το τραγούδι; (Ερώτηση πρόβλεψης)</li>
-<li>Τι συναισθήματα σας προκαλεί αυτό το είδος μουσικής;</li>
-</ul>
-</div>
-</div>
-<div class="round-block open" id="vocabulary-to-idio-to-theo">
-<div class="round-header" onclick="COSY.toggleRound('vocabulary-to-idio-to-theo')" style="background:#E1F5EE; cursor:pointer;">
-<span>📚 Στάδιο 2: Λεξιλόγιο</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div class="vocab-grid-10">
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η αφοσίωση</div>
+def get_mple_data():
+    s1_vocab_html = """<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η αφοσίωση</div>
 <div class="vocab-def">Η πλήρης παράδοση και αφοσίωση της ψυχής σε ένα συναίσθημα ή πρόσωπο.</div>
 <div class="vocab-example">Η αφοσίωσή της στη μουσική την έκανε να ξεπεράσει κάθε εμπόδιο.</div>
 <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Αντίθετο:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Η αποστασιοποίηση</span></div>
@@ -169,38 +63,20 @@
 <div class="vocab-example">Το πάθος για τη ζωή δίνει νόημα σε κάθε μικρή στιγμή.</div>
 <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Αντίθετο:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Η ψυχρότητα</span></div>
 <button class="btn-add-dict" onclick="COSY.addToDict({word:'Το πάθος', definition:'Η δυνατή συναισθηματική ορμή που καθοδηγεί τις πράξεις μας.', example:'Το πάθος για τη ζωή δίνει νόημα σε κάθε μικρή στιγμή.'}, this)">+ Dictionary</button>
-</div>
-</div>
-</div>
-</div>
-<div class="round-block open" id="listening-exercise-to-idio-to-theo">
-<div class="round-header" onclick="COSY.toggleRound('listening-exercise-to-idio-to-theo')" style="background:#FAF0E6; cursor:pointer;">
-<span>🎧 Στάδιο 3: Ακρόαση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-<h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Βοηθητικό Λεξιλόγιο / Λέξεις-Κλειδιά:</h3>
-<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-<span class="club-tag" style="background: white; border-color: var(--border);">Θεό</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">αγάπη</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">ζωή</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">αγκαλιά</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">κόλαση</span>
-</div>
-</div>
-<div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-<p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Πάνω σου η γη ξυπνάει<br/>ήλιος μπαίνει από παντού<br/>κάθομαι και σε κοιτάζω<br/>μη με φοβάσαι<br/><br/>Είσαι ακόμα από τον ύπνο<br/>τ' όνειρο έχει εξατμιστεί<br/>Μάρτιο θυμίζεις πώς να σε προβλέψω<br/><br/>Ένα απ' όλα τα βιβλία<br/>που έχω μέσα μου βαθιά<br/>του έρωτα φεγγάρια μαύρα το φωτίζουν<br/><br/>Τίποτα δεν έχει μείνει<br/>κι όμως όλα είναι εδώ<br/>άφησέ με να αγγίξω τα μαλλιά σου<br/><br/>Τον ίδιο το <input class="lyrics-gap-input" data-answer="Θεό" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> να είχα απέναντί μου<br/>σου λέω προτιμώ στην <input class="lyrics-gap-input" data-answer="κόλαση" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> μαζί σου<br/><br/>Μια φωνή <input class="lyrics-gap-input" data-answer="ζωή" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> ρωτάει<br/>τόση ομορφιά από που<br/>βρέχει ο ουρανός ρουμπίνια κι απαντάει<br/><br/>Μόνο η <input class="lyrics-gap-input" data-answer="αγάπη" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> ξέρει<br/>τώρα έμαθα κι εγώ<br/>πόσο ανάγκη έχω από την <input class="lyrics-gap-input" data-answer="αγκαλιά" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 77px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> σου<br/><br/>Τον ίδιο το <input class="lyrics-gap-input" data-answer="Θεό" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> να είχα απέναντί μου<br/>σου λέω προτιμώ στην <input class="lyrics-gap-input" data-answer="κόλαση" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> μαζί σου<br/><br/>Τίποτα άλλο εκτός από εσένα στο φως<br/>τίποτα άλλο που να με σκοτώνει γλυκά<br/><br/>Τον ίδιο το <input class="lyrics-gap-input" data-answer="Θεό" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> να είχα απέναντί μου<br/>σου λέω προτιμώ στην <input class="lyrics-gap-input" data-answer="κόλαση" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> μαζί σου<br/><br/>Τον ίδιο το <input class="lyrics-gap-input" data-answer="Θεό" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/><br/><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>kithara.to</strong> and used only for educational purposes.</span></p>
-</div>
-</div>
-</div>
-<div class="round-block open" id="discussion-to-idio-to-theo">
-<div class="round-header" onclick="COSY.toggleRound('discussion-to-idio-to-theo')" style="background:#EEEDFE; cursor:pointer;">
-<span>💬 Στάδιο 4: Συζήτηση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div class="round-1" style="margin-bottom: 2rem;">
-<h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
-<div class="round-item"><div class="round-item-main">Στο 'Τον ίδιο το Θεό', η τραγουδίστρια δηλώνει ότι προτιμά την κόλαση με τον αγαπημένο της παρά τον παράδεισο, δείχνοντας απόλυτη <strong>αφοσίωση</strong>. Είναι αυτή η στάση απόδειξη αληθινής αγάπης ή επικίνδυνος αυτοκαταστροφικός συμβιβασμός;</div>
+</div>"""
+
+    s1_theme_box_html = """<div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+<h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Θέμα: Όταν η αγάπη γίνεται εμμονή</h3>
+<p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Θα συζητήσουμε:</p>
+<ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+<li>Η αφοσίωση</li>
+<li>Ο έρωτας</li>
+<li>Η εμμονή</li>
+<li>Personal reflection</li>
+</ul>
+</div>"""
+
+    s1_r1_html = """<div class="round-item"><div class="round-item-main">Στο 'Τον ίδιο το Θεό', η τραγουδίστρια δηλώνει ότι προτιμά την κόλαση με τον αγαπημένο της παρά τον παράδεισο, δείχνοντας απόλυτη <strong>αφοσίωση</strong>. Είναι αυτή η στάση απόδειξη αληθινής αγάπης ή επικίνδυνος αυτοκαταστροφικός συμβιβασμός;</div>
 <div class="round-item-personal">★ Πότε ήταν η τελευταία φορά που δείξατε απόλυτη <strong>αφοσίωση</strong> σε έναν σκοπό ή ένα πρόσωπο;</div>
 </div>
 <div class="round-item"><div class="round-item-main">Η φράση «του έρωτα φεγγάρια μαύρα το φωτίζουν» παρουσιάζει τον <strong>έρωτα</strong> ως μια σκοτεινή αλλά μαγνητική δύναμη. Πώς επηρεάζει το ανεξέλεγκτο πάθος τις ορθολογικές μας αποφάσεις;</div>
@@ -229,24 +105,16 @@
 </div>
 <div class="round-item"><div class="round-item-main">Το εκρηκτικό ροκ ξέσπασμα του συγκροτήματος Μπλε εκφράζει το ωμό <strong>πάθος</strong> της ελληνικής ποπ-ροκ σκηνής των 90s. Τι κάνει αυτό το τραγούδι να παραμένει διαχρονικός ύμνος;</div>
 <div class="round-item-personal">★ Ποια δραστηριότητα ή τέχνη πυροδοτεί το δικό σας δημιουργικό <strong>πάθος</strong>;</div>
-</div>
-</div>
-<div class="round-2" style="margin-top: 2rem;">
-<h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
-<div class="round-item"><div class="round-item-main">Η απόλυτη <strong>αφοσίωση</strong> σε έναν έρωτα, ακόμα κι αν οδηγεί σε συναισθηματική <strong>κόλαση</strong>, προσφέρει πληρέστερη εμπειρία ζωής από μια ασφαλή αλλά συμβατική σχέση. Ας συζητήσουμε.</div>
+</div>"""
+
+    s1_r2_html = """<div class="round-item"><div class="round-item-main">Η απόλυτη <strong>αφοσίωση</strong> σε έναν έρωτα, ακόμα κι αν οδηγεί σε συναισθηματική <strong>κόλαση</strong>, προσφέρει πληρέστερη εμπειρία ζωής από μια ασφαλή αλλά συμβατική σχέση. Ας συζητήσουμε.</div>
 </div>
 <div class="round-item"><div class="round-item-main">Η εξιδανίκευση και η <strong>λατρεία</strong> του συντρόφου στη σύγχρονη κουλτούρα αποτελούν συχνά μορφή προβολής των δικών μας ελλείψεων παρά αναγνώριση της πραγματικής <strong>ομορφιάς</strong> του άλλου. Ποια είναι η γνώμη σας;</div>
 </div>
 <div class="round-item"><div class="round-item-main">Όταν το <strong>πάθος</strong> υπερισχύει της λογικής, η <strong>θυσία</strong> των προσωπικών ορίων γίνεται αναπόφευκτη. Υπερασπιστείτε ή αντιταχθείτε.</div>
-</div>
-</div>
-</div>
-</div>
-<div class="round-block open" id="lang-focus-to-idio-to-theo">
-<div class="round-header" onclick="COSY.toggleRound('lang-focus-to-idio-to-theo')" style="background:#FFF9E6; cursor:pointer;">
-<span>✨ Στάδιο 5: Γλωσσική εστίαση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;"><div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+</div>"""
+
+    s1_lf_html = """<div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
 <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Γλωσσική εστίαση: Η Υποτακτική με το 'να' σε υποθετικές και εναντιωματικές εκφράσεις</h3>
 <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Στο τραγούδι 'Τον ίδιο το Θεό', η υποτακτική με το μόριο 'να' χρησιμοποιείται με υποθετική/εναντιωματική σημασία (<em>"Τον ίδιο το Θεό να είχα απέναντί μου..."</em>), εκφράζοντας την απόλυτη αποφασιστικότητα και το πάθος.</p>
 <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Ας κάνουμε εξάσκηση — Τρία Παραδείγματα:</strong>
@@ -255,24 +123,16 @@
 <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Να μου ζητούσε να τα παρατήσω όλα, θα το έκανα χωρίς δεύτερη σκέψη.</li>
 <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Όση κούραση κι αν έχω, να με φωνάξει, θα τρέξω αμέσως κοντά του.</li>
 </ul>
-</div></div>
-</div>
-<div class="round-block open" id="final-challenge-to-idio-to-theo">
-<div class="round-header" onclick="COSY.toggleRound('final-challenge-to-idio-to-theo')" style="background:#FEEAEA; cursor:pointer;">
-<span>🎭 Στάδιο 6: Τελική πρόκληση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;"><div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+</div>"""
+
+    s1_fc_html = """<div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
 <span style="font-size: 2rem;">🎭</span>
 <div>
 <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">«Δίλημμα αφοσίωσης»: Δύο φίλοι συζητούν για μια σχέση που έχει γίνει υπερβολικά απορροφητική και εμμονική. Ο ένας υποστηρίζει ότι το απόλυτο πάθος αξίζει κάθε ρίσκο, ενώ ο άλλος τονίζει την ανάγκη για προσωπική αυτονομία και λογική.</p>
 </div>
-</div></div>
-</div>
-<div class="mistake-block open" id="s-mistakes-to-idio-to-theo">
-<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-to-idio-to-theo')">
-<span>✏️ Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)</span><span class="round-toggle">▲</span>
-</div>
-<div class="mistake-body" style="display:block;"><div class="mistake-item">
+</div>"""
+
+    s1_mistakes_html = """<div class="mistake-item">
 <span class="mistake-wrong">Προτιμώ να πάω στην κόλαση <span class="mistake-highlight">από</span> τον παράδεισο</span>
 <span class="mistake-arrow">→</span>
 <span class="mistake-right">Προτιμώ να πάω στην κόλαση παρά στον παράδεισο</span>
@@ -289,79 +149,10 @@
 <span class="mistake-arrow">→</span>
 <span class="mistake-right">Αυτό το τραγούδι μιλάει για την εμμονή με ένα πρόσωπο</span>
 <span class="mistake-note-text">(Με τη λέξη 'εμμονή' χρησιμοποιούμε την πρόθεση 'με'.)</span>
-</div></div>
-</div>
-</div>
-</vim-choice-option-content>
-</vim-choice-option> <vim-choice-option>
-<vim-choice-option-title>Φοβάμαι</vim-choice-option-title>
-<vim-choice-option-content>
-<div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
-<div class="meta-item"><h4>Resources</h4><p>
-<a href="https://www.youtube.com/watch?v=aaQcgyToH1Y" style="color:var(--teal); margin-right: 12px;" target="_blank">Music Video 🎥</a>
-<a href="https://www.youtube.com/watch?v=aaQcgyToH1Y" style="color:var(--teal);" target="_blank">Song Link (Backup) 🎵</a>
-</p></div>
-</div>
-<div class="cosy-video-wrapper">
-<div class="cosy-video-container">
-<iframe allowfullscreen="" src="https://www.youtube.com/embed/aaQcgyToH1Y"></iframe>
-</div>
-<div class="cosy-video-disclaimer">
-<span>ℹ️ Πηγή: YouTube. Αυτό το υλικό χρησιμοποιείται αποκλειστικά για εκπαιδευτικούς σκοπούς.</span>
-</div>
-</div>
-<div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
-<h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Θέμα: Φόβος, Πάθος &amp; Συναισθηματικές Αποστάσεις</h3>
-<p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Θα συζητήσουμε:</p>
-<ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
-<li>Ο φόβος</li>
-<li>Η ευαλωτότητα</li>
-<li>Η απόσταση</li>
-<li>Personal reflection</li>
-</ul>
-</div>
-<div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
-<div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
-<span>🗣️ Speaking Time Gauge</span>
-<span>90-120 min Session</span>
-</div>
-<div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
-<div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
-<div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
-<div style="width: 15%; background: #9B59B6;" title="Listening (15%)"></div>
-<div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
-<div style="width: 10%; background: #F1C40F;" title="Language Focus (10%)"></div>
-<div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
-</div>
-<div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
-<span>🎵 Στάδιο 1: Προθέρμανση (10%)</span>
-<span>📚 Στάδιο 2: Λεξιλόγιο (15%)</span>
-<span>🎧 Στάδιο 3: Ακρόαση (15%)</span>
-<span>💬 Στάδιο 4: Συζήτηση (45%)</span>
-<span>✨ Στάδιο 5: Γλωσσική εστίαση (10%)</span>
-<span>🎭 Στάδιο 6: Τελική πρόκληση (5%)</span>
-</div>
-</div>
-<div class="rounds-container">
-<div class="round-block warm-up open" id="s-warm-fovamai">
-<div class="round-header" onclick="COSY.toggleRound('s-warm-fovamai')" style="background:#FAEEE8; cursor:pointer;">
-<span>🎵 Στάδιο 1: Προθέρμανση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block;">
-<ul class="round-questions">
-<li>Πόσο σημαντικό είναι αυτό το θέμα συζήτησης στην καθημερινή σας ζωή;</li>
-<li>Κοιτάξτε τον τίτλο 'Φοβάμαι' και τον καλλιτέχνη 'Μπλε'. Τι προβλέπετε ότι αφορά αυτό το τραγούδι; (Ερώτηση πρόβλεψης)</li>
-<li>Τι συναισθήματα σας προκαλεί αυτό το είδος μουσικής;</li>
-</ul>
-</div>
-</div>
-<div class="round-block open" id="vocabulary-fovamai">
-<div class="round-header" onclick="COSY.toggleRound('vocabulary-fovamai')" style="background:#E1F5EE; cursor:pointer;">
-<span>📚 Στάδιο 2: Λεξιλόγιο</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div class="vocab-grid-10">
-<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Ο φόβος</div>
+</div>"""
+
+    # Song 2 Data
+    s2_vocab_html = """<div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Ο φόβος</div>
 <div class="vocab-def">Το συναίσθημα της ανησυχίας μπροστά στον κίνδυνο ή την απώλεια.</div>
 <div class="vocab-example">Ο φόβος της απόρριψης συχνά μας εμποδίζει να εκφράσουμε τα συναισθήματά μας.</div>
 <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Αντίθετο:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Το θάρρος</span></div>
@@ -414,45 +205,18 @@
 <div class="vocab-def">Η πράξη της απομάκρυνσης από μια δύσκολη ή συναισθηματικά φορτισμένη κατάσταση.</div>
 <div class="vocab-example">Το «σ' αγαπώ και φεύγω» εκφράζει την επιθυμία για φυγή μπροστά στην ένταση.</div>
 <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Αντίθετο:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Η παραμονή</span></div>
-<button class="btn-add-dict" onclick="COSY.addToDict({word:'Η φυγή', definition:'Η πράξη της απομάκρυνσης από μια δύσκολη ή συναισθηματικά φορτισμένη κατάσταση.', example:'Το «σ\' αγαπώ και φεύγω» εκφράζει την επιθυμία για φυγή μπροστά στην ένταση.'}, this)">+ Dictionary</button>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Η φυγή', definition:'Η πράξη της απομάκρυνσης από μια δύσκολη ή συναισθηματικά φορτισμένη κατάσταση.', example:'Το «σ\\' αγαπώ και φεύγω» εκφράζει την επιθυμία για φυγή μπροστά στην ένταση.'}, this)">+ Dictionary</button>
 </div>
 <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η οικειότητα</div>
 <div class="vocab-def">Η βαθιά συναισθηματική σύνδεση και αμοιβαία εμπιστοσύνη.</div>
 <div class="vocab-example">Η αληθινή οικειότητα χτίζεται με τον χρόνο και την αμοιβαία κατανόηση.</div>
 <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Αντίθετο:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Η ξενικότητα</span></div>
 <button class="btn-add-dict" onclick="COSY.addToDict({word:'Η οικειότητα', definition:'Η βαθιά συναισθηματική σύνδεση και αμοιβαία εμπιστοσύνη.', example:'Η αληθινή οικειότητα χτίζεται με τον χρόνο και την αμοιβαία κατανόηση.'}, this)">+ Dictionary</button>
-</div>
-</div>
-</div>
-</div>
-<div class="round-block open" id="listening-exercise-fovamai">
-<div class="round-header" onclick="COSY.toggleRound('listening-exercise-fovamai')" style="background:#FAF0E6; cursor:pointer;">
-<span>🎧 Στάδιο 3: Ακρόαση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-<h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Βοηθητικό Λεξιλόγιο / Λέξεις-Κλειδιά:</h3>
-<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-<span class="club-tag" style="background: white; border-color: var(--border);">μαλλιά</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">στίχο</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">κοντά</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">μακριά</span>
-<span class="club-tag" style="background: white; border-color: var(--border);">ψυχή</span>
-</div>
-</div>
-<div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-<p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Μέσα στα <input class="lyrics-gap-input" data-answer="μαλλιά" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> σου πετάω<br/>Τις στιγμές μου μεθάω<br/>Σ' αγαπώ και φεύγω<br/><br/>Πάνω στα δυο χέρια σου λιώνω<br/>Ένα <input class="lyrics-gap-input" data-answer="στίχο" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> σκοτώνω<br/>Πάρε με μαζί σου<br/><br/>Είσαι πολύ <input class="lyrics-gap-input" data-answer="κοντά" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/>,<br/>Είσαι πολύ <input class="lyrics-gap-input" data-answer="μακριά" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/><br/><br/>Φοβάμαι, φοβάμαι<br/>Φοβάμαι, μην ακούς τι λέω<br/><br/>Σβήνω τ' όνομα σου και σβήνω<br/>Τη <input class="lyrics-gap-input" data-answer="ψυχή" oninput="COSY.checkGap(this)" placeholder="..." style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;" type="text"/> μου αφήνω<br/>Σε φιλιά που καίνε<br/>Κοίτα πόσο έχω αλλάξει<br/>Σα Θεός έχω στάξει<br/>Κυριακή ο χρόνος<br/><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>
-</div>
-</div>
-</div>
-<div class="round-block open" id="discussion-fovamai">
-<div class="round-header" onclick="COSY.toggleRound('discussion-fovamai')" style="background:#EEEDFE; cursor:pointer;">
-<span>💬 Στάδιο 4: Συζήτηση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;">
-<div class="round-1" style="margin-bottom: 2rem;">
-<h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
-<div class="round-item"><div class="round-item-main">Στο 'Φοβάμαι', η επανάληψη της λέξης αποκαλύπτει τον βαθύ <strong>φόβο</strong> απέναντι στα ίδια τα συναισθήματα («φοβάμαι, μην ακούς τι λέω»). Γιατί ο φόβος της συναισθηματικής έκθεσης μας κάνει να οπισθοχωρούμε;</div>
+</div>"""
+
+    s2_listening_html = """<p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Μέσα στα <input type="text" class="lyrics-gap-input" data-answer="μαλλιά" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> σου πετάω<br>Τις στιγμές μου μεθάω<br>Σ' αγαπώ και φεύγω<br><br>Πάνω στα δυο χέρια σου λιώνω<br>Ένα <input type="text" class="lyrics-gap-input" data-answer="στίχο" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> σκοτώνω<br>Πάρε με μαζί σου<br><br>Είσαι πολύ <input type="text" class="lyrics-gap-input" data-answer="κοντά" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;">,<br>Είσαι πολύ <input type="text" class="lyrics-gap-input" data-answer="μακριά" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 66px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"><br><br>Φοβάμαι, φοβάμαι<br>Φοβάμαι, μην ακούς τι λέω<br><br>Σβήνω τ' όνομα σου και σβήνω<br>Τη <input type="text" class="lyrics-gap-input" data-answer="ψυχή" placeholder="..." oninput="COSY.checkGap(this)" style="border: none; border-bottom: 2px dashed var(--border); background: transparent; width: 60px; text-align: center; font-weight: bold; color: var(--indigo); outline: none; padding: 0 4px; font-family: inherit; font-size: inherit; transition: all 0.2s ease;"> μου αφήνω<br>Σε φιλιά που καίνε<br>Κοίτα πόσο έχω αλλάξει<br>Σα Θεός έχω στάξει<br>Κυριακή ο χρόνος<br><span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: 'Nunito', sans-serif; font-style: normal;">Lyrics extracted from <strong>Genius platform</strong> and used only for educational purposes.</span></p>"""
+
+    s2_r1_html = """<div class="round-item"><div class="round-item-main">Στο 'Φοβάμαι', η επανάληψη της λέξης αποκαλύπτει τον βαθύ <strong>φόβο</strong> απέναντι στα ίδια τα συναισθήματα («φοβάμαι, μην ακούς τι λέω»). Γιατί ο φόβος της συναισθηματικής έκθεσης μας κάνει να οπισθοχωρούμε;</div>
 <div class="round-item-personal">★ Πότε ήταν η τελευταία φορά που νιώσατε <strong>φόβο</strong> μπροστά σε μια σημαντική εξομολόγηση;</div>
 </div>
 <div class="round-item"><div class="round-item-main">Η κραυγή «μην ακούς τι λέω» δείχνει μια απόγνωση και μια τρωτή <strong>ευαλωτότητα</strong>. Πώς μπορούμε να προστατεύσουμε τον εαυτό μας χωρίς να κλειστούμε στον εαυτό μας;</div>
@@ -481,24 +245,16 @@
 </div>
 <div class="round-item"><div class="round-item-main">Παρά την αμφιθυμία, η επιθυμία «πάρε με μαζί σου» δείχνει την αναζήτηση για αυθεντική <strong>οικειότητα</strong>. Τι συνιστά τη βάση μιας βαθιάς και αληθινής οικειότητας;</div>
 <div class="round-item-personal">★ Ποιες συνήθειες βοηθούν στη διατήρηση της συναισθηματικής <strong>οικειότητας</strong> σε μια μακροχρόνια σχέση;</div>
-</div>
-</div>
-<div class="round-2" style="margin-top: 2rem;">
-<h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
-<div class="round-item"><div class="round-item-main">Η συναισθηματική <strong>απόσταση</strong> («είσαι πολύ κοντά, είσαι πολύ μακριά») είναι πιο καταστροφική για μια σχέση από τη φυσική χιλιομετρική απόσταση. Ας συζητήσουμε.</div>
+</div>"""
+
+    s2_r2_html = """<div class="round-item"><div class="round-item-main">Η συναισθηματική <strong>απόσταση</strong> («είσαι πολύ κοντά, είσαι πολύ μακριά») είναι πιο καταστροφική για μια σχέση από τη φυσική χιλιομετρική απόσταση. Ας συζητήσουμε.</div>
 </div>
 <div class="round-item"><div class="round-item-main">Ο <strong>φόβος</strong> της ευαλωτότητας στη σύγχρονη εποχή οδηγεί συχνά στη <strong>φυγή</strong> πριν προλάβει να αναπτυχθεί η αυθεντική οικειότητα. Ποια είναι η γνώμη σας;</div>
 </div>
 <div class="round-item"><div class="round-item-main">Η προσπάθεια για <strong>λήθη</strong> μέσω της διαγραφής των αναμνήσεων («σβήνω τ' όνομά σου») είναι μια ψευδαίσθηση, καθώς οι εμπειρίες μας διαμορφώνουν ανεξίτηλα. Υπερασπιστείτε ή αντιταχθείτε.</div>
-</div>
-</div>
-</div>
-</div>
-<div class="round-block open" id="lang-focus-fovamai">
-<div class="round-header" onclick="COSY.toggleRound('lang-focus-fovamai')" style="background:#FFF9E6; cursor:pointer;">
-<span>✨ Στάδιο 5: Γλωσσική εστίαση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;"><div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+</div>"""
+
+    s2_lf_html = """<div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
 <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Γλωσσική εστίαση: Η χρήση της Υποτακτικής με το 'μην' μετά από ρήματα φόβου</h3>
 <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Στο τραγούδι 'Φοβάμαι', το ρήμα 'φοβάμαι' συνδέεται με την υποτακτική και το αρνητικό μόριο 'μην' (<em>"Φοβάμαι, μην ακούς τι λέω..."</em>) για να δηλώσει την ανησυχία ή την επιθυμία να αποτραπεί κάτι.</p>
 <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Ας κάνουμε εξάσκηση — Τρία Παραδείγματα:</strong>
@@ -507,24 +263,27 @@
 <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Αγωνιώ μην τυχόν χάσουμε αυτή τη σπουδαία ευκαιρία.</li>
 <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Φοβάται μην πληγωθεί ξανά και γι' αυτό κρατάει αποστάσεις.</li>
 </ul>
-</div></div>
-</div>
-<div class="round-block open" id="final-challenge-fovamai">
-<div class="round-header" onclick="COSY.toggleRound('final-challenge-fovamai')" style="background:#FEEAEA; cursor:pointer;">
-<span>🎭 Στάδιο 6: Τελική πρόκληση</span><span class="round-toggle">▲</span>
-</div>
-<div class="round-body" style="display:block; padding-top: 1.5rem;"><div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+</div>"""
+
+    s2_fc_html = """<div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
 <span style="font-size: 2rem;">🎭</span>
 <div>
 <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">«Το παράδοξο της απόστασης»: Δύο φίλοι συζητούν για το τι σημαίνει να νιώθεις «πολύ κοντά αλλά και πολύ μακριά» από έναν άνθρωπο. Παίξτε έναν διάλογο όπου ο ένας προσπαθεί να εξηγήσει τους φόβους του και ο άλλος τον ενθαρρύνει να ανοιχτεί.</p>
 </div>
-</div></div>
-</div>
-<div class="mistake-block open" id="s-mistakes-fovamai">
-<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-fovamai')">
-<span>✏️ Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)</span><span class="round-toggle">▲</span>
-</div>
-<div class="mistake-body" style="display:block;"><div class="mistake-item">
+</div>"""
+
+    s2_theme_box_html = """<div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+<h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Θέμα: Φόβος, Πάθος &amp; Συναισθηματικές Αποστάσεις</h3>
+<p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Θα συζητήσουμε:</p>
+<ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+<li>Ο φόβος</li>
+<li>Η ευαλωτότητα</li>
+<li>Η απόσταση</li>
+<li>Personal reflection</li>
+</ul>
+</div>"""
+
+    s2_mistakes_html = """<div class="mistake-item">
 <span class="mistake-wrong">Φοβάμαι <span class="mistake-highlight">για</span> το σκοτάδι</span>
 <span class="mistake-arrow">→</span>
 <span class="mistake-right">Φοβάμαι το σκοτάδι</span>
@@ -541,22 +300,197 @@
 <span class="mistake-arrow">→</span>
 <span class="mistake-right">Φοβάμαι μήπως χάσω την ελπίδα</span>
 <span class="mistake-note-text">(Μετά από ρήματα φόβου, η σύνδεση γίνεται πιο φυσικά με το 'μήπως' ή 'μην'.)</span>
-</div></div>
-</div>
-</div>
-</vim-choice-option-content>
-</vim-choice-option> </vim-choice>
-</main>
-<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-<a href="../../../../../../../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-<a href="../../../../../../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-<a href="../../../../../../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-<a href="../../../../../../../../../events/index.html" style="color:var(--muted);text-decoration:none;">Events</a>
-</div>
-<p>© 2026 COSYlanguages — All rights reserved</p>
-</footer>
-<script src="../../../../../../../../../js/core/engine.js"></script>
-<script src="../../../../../../../../../js/core/ui.js"></script>
-</body>
-</html>
+</div>"""
+
+    return {
+        "s1": {
+            "theme_box": s1_theme_box_html,
+            "vocab": s1_vocab_html,
+            "r1": s1_r1_html,
+            "r2": s1_r2_html,
+            "lf": s1_lf_html,
+            "fc": s1_fc_html,
+            "mistakes": s1_mistakes_html
+        },
+        "s2": {
+            "theme_box": s2_theme_box_html,
+            "vocab": s2_vocab_html,
+            "listening": s2_listening_html,
+            "r1": s2_r1_html,
+            "r2": s2_r2_html,
+            "lf": s2_lf_html,
+            "fc": s2_fc_html,
+            "mistakes": s2_mistakes_html
+        }
+    }
+
+def remediate_mple():
+    dir_path = "apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/el/mple-challenge"
+    index_path = os.path.join(dir_path, "index.html")
+    s1_path = os.path.join(dir_path, "to-idio-to-theo.html")
+    s2_path = os.path.join(dir_path, "fovamai.html")
+
+    data = get_mple_data()
+
+    # 1. Remediate index.html
+    with open(index_path, "r", encoding="utf-8") as f:
+        index_soup = BeautifulSoup(f.read(), "html.parser")
+
+    options = index_soup.find_all("vim-choice-option")
+    if len(options) >= 2:
+        # Option 0 (Ton Idio To Theo)
+        opt0 = options[0]
+        opt0_theme = opt0.find("div", class_="theme-box")
+        if opt0_theme:
+            opt0_theme.replace_with(BeautifulSoup(data["s1"]["theme_box"], "html.parser"))
+        v_grid = opt0.find("div", class_="vocab-grid-10")
+        if v_grid:
+            v_grid.replace_with(BeautifulSoup(f'<div class="vocab-grid-10">\n{data["s1"]["vocab"]}\n</div>', "html.parser"))
+        r1_div = opt0.find("div", class_="round-1")
+        if r1_div:
+            r1_div.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n{data["s1"]["r1"]}\n</div>', "html.parser"))
+        r2_div = opt0.find("div", class_="round-2")
+        if r2_div:
+            r2_div.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n{data["s1"]["r2"]}\n</div>', "html.parser"))
+        lf_block = opt0.find("div", id=lambda x: x and "lang-focus" in x)
+        if lf_block:
+            body = lf_block.find("div", class_="round-body")
+            if body:
+                body.string = ""
+                body.append(BeautifulSoup(data["s1"]["lf"], "html.parser"))
+        fc_block = opt0.find("div", id=lambda x: x and "final-challenge" in x)
+        if fc_block:
+            body = fc_block.find("div", class_="round-body")
+            if body:
+                body.string = ""
+                body.append(BeautifulSoup(data["s1"]["fc"], "html.parser"))
+        m_block = opt0.find("div", class_="mistake-block")
+        if m_block:
+            m_body = m_block.find("div", class_="mistake-body")
+            if m_body:
+                m_body.string = ""
+                m_body.append(BeautifulSoup(data["s1"]["mistakes"], "html.parser"))
+
+        # Option 1 (Fovamai)
+        opt1 = options[1]
+        opt1_theme = opt1.find("div", class_="theme-box")
+        if opt1_theme:
+            opt1_theme.replace_with(BeautifulSoup(data["s2"]["theme_box"], "html.parser"))
+        v_grid1 = opt1.find("div", class_="vocab-grid-10")
+        if v_grid1:
+            v_grid1.replace_with(BeautifulSoup(f'<div class="vocab-grid-10">\n{data["s2"]["vocab"]}\n</div>', "html.parser"))
+        lyrics_p = opt1.find("div", class_="lyrics-container").find("p")
+        if lyrics_p:
+            lyrics_p.replace_with(BeautifulSoup(data["s2"]["listening"], "html.parser"))
+        r1_div1 = opt1.find("div", class_="round-1")
+        if r1_div1:
+            r1_div1.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n{data["s2"]["r1"]}\n</div>', "html.parser"))
+        r2_div1 = opt1.find("div", class_="round-2")
+        if r2_div1:
+            r2_div1.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n{data["s2"]["r2"]}\n</div>', "html.parser"))
+        lf_block1 = opt1.find("div", id=lambda x: x and "lang-focus" in x)
+        if lf_block1:
+            body = lf_block1.find("div", class_="round-body")
+            if body:
+                body.string = ""
+                body.append(BeautifulSoup(data["s2"]["lf"], "html.parser"))
+        fc_block1 = opt1.find("div", id=lambda x: x and "final-challenge" in x)
+        if fc_block1:
+            body = fc_block1.find("div", class_="round-body")
+            if body:
+                body.string = ""
+                body.append(BeautifulSoup(data["s2"]["fc"], "html.parser"))
+        m_block1 = opt1.find("div", class_="mistake-block")
+        if m_block1:
+            m_body = m_block1.find("div", class_="mistake-body")
+            if m_body:
+                m_body.string = ""
+                m_body.append(BeautifulSoup(data["s2"]["mistakes"], "html.parser"))
+
+        with open(index_path, "w", encoding="utf-8") as f:
+            f.write(str(index_soup))
+        print(f"Updated {index_path}")
+
+    # 2. Remediate to-idio-to-theo.html (Standalone Song 1)
+    with open(s1_path, "r", encoding="utf-8") as f:
+        s1_soup = BeautifulSoup(f.read(), "html.parser")
+
+    s1_theme = s1_soup.find("div", class_="theme-box")
+    if s1_theme:
+        s1_theme.replace_with(BeautifulSoup(data["s1"]["theme_box"], "html.parser"))
+    v_grid_s1 = s1_soup.find("div", class_="vocab-grid-10")
+    if v_grid_s1:
+        v_grid_s1.replace_with(BeautifulSoup(f'<div class="vocab-grid-10">\n{data["s1"]["vocab"]}\n</div>', "html.parser"))
+    r1_s1 = s1_soup.find("div", class_="round-1")
+    if r1_s1:
+        r1_s1.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n{data["s1"]["r1"]}\n</div>', "html.parser"))
+    r2_s1 = s1_soup.find("div", class_="round-2")
+    if r2_s1:
+        r2_s1.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n{data["s1"]["r2"]}\n</div>', "html.parser"))
+    lf_s1 = s1_soup.find("div", id="lang-focus")
+    if lf_s1:
+        body = lf_s1.find("div", class_="round-body")
+        if body:
+            body.string = ""
+            body.append(BeautifulSoup(data["s1"]["lf"], "html.parser"))
+    fc_s1 = s1_soup.find("div", id="final-challenge")
+    if fc_s1:
+        body = fc_s1.find("div", class_="round-body")
+        if body:
+            body.string = ""
+            body.append(BeautifulSoup(data["s1"]["fc"], "html.parser"))
+    m_s1 = s1_soup.find("div", class_="mistake-block")
+    if m_s1:
+        m_body = m_s1.find("div", class_="mistake-body")
+        if m_body:
+            m_body.string = ""
+            m_body.append(BeautifulSoup(data["s1"]["mistakes"], "html.parser"))
+
+    with open(s1_path, "w", encoding="utf-8") as f:
+        f.write(str(s1_soup))
+    print(f"Updated {s1_path}")
+
+    # 3. Remediate fovamai.html (Standalone Song 2)
+    with open(s2_path, "r", encoding="utf-8") as f:
+        s2_soup = BeautifulSoup(f.read(), "html.parser")
+
+    s2_theme = s2_soup.find("div", class_="theme-box")
+    if s2_theme:
+        s2_theme.replace_with(BeautifulSoup(data["s2"]["theme_box"], "html.parser"))
+    v_grid_s2 = s2_soup.find("div", class_="vocab-grid-10")
+    if v_grid_s2:
+        v_grid_s2.replace_with(BeautifulSoup(f'<div class="vocab-grid-10">\n{data["s2"]["vocab"]}\n</div>', "html.parser"))
+    lyrics_p_s2 = s2_soup.find("div", class_="lyrics-container").find("p")
+    if lyrics_p_s2:
+        lyrics_p_s2.replace_with(BeautifulSoup(data["s2"]["listening"], "html.parser"))
+    r1_s2 = s2_soup.find("div", class_="round-1")
+    if r1_s2:
+        r1_s2.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n{data["s2"]["r1"]}\n</div>', "html.parser"))
+    r2_s2 = s2_soup.find("div", class_="round-2")
+    if r2_s2:
+        r2_s2.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n{data["s2"]["r2"]}\n</div>', "html.parser"))
+    lf_s2 = s2_soup.find("div", id="lang-focus")
+    if lf_s2:
+        body = lf_s2.find("div", class_="round-body")
+        if body:
+            body.string = ""
+            body.append(BeautifulSoup(data["s2"]["lf"], "html.parser"))
+    fc_s2 = s2_soup.find("div", id="final-challenge")
+    if fc_s2:
+        body = fc_s2.find("div", class_="round-body")
+        if body:
+            body.string = ""
+            body.append(BeautifulSoup(data["s2"]["fc"], "html.parser"))
+    m_s2 = s2_soup.find("div", class_="mistake-block")
+    if m_s2:
+        m_body = m_s2.find("div", class_="mistake-body")
+        if m_body:
+            m_body.string = ""
+            m_body.append(BeautifulSoup(data["s2"]["mistakes"], "html.parser"))
+
+    with open(s2_path, "w", encoding="utf-8") as f:
+        f.write(str(s2_soup))
+    print(f"Updated {s2_path}")
+
+if __name__ == "__main__":
+    remediate_mple()
