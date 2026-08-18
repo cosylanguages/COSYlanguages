@@ -1,0 +1,87 @@
+{
+  "parlare": {
+    "group": "1ª coniugazione (-are)",
+    "auxiliary": "avere",
+    "definition": "Esprimere il proprio pensiero con le parole.",
+    "antonyms": [
+      "tacere",
+      "ascoltare"
+    ],
+    "tenses": {
+      "pres": [
+        "io parlo",
+        "tu parli",
+        "lui/lei parla",
+        "noi parliamo",
+        "voi parlate",
+        "loro parlano"
+      ],
+      "imp": [
+        "io parlavo",
+        "tu parlavi",
+        "lui/lei parlava",
+        "noi parlavamo",
+        "voi parlavate",
+        "loro parlavano"
+      ],
+      "pc": [
+        "io ho parlato",
+        "tu hai parlato",
+        "lui/lei ha parlato",
+        "noi abbiamo parlato",
+        "voi avete parlato",
+        "loro hanno parlato"
+      ],
+      "fut": [
+        "io parlerò",
+        "tu parlerai",
+        "lui/lei parlerà",
+        "noi parleremo",
+        "voi parlerete",
+        "loro parleranno"
+      ]
+    }
+  },
+  "amare": {
+    "group": "1ª coniugazione (-are)",
+    "auxiliary": "avere",
+    "definition": "Provare un sentimento di vivo affetto.",
+    "antonyms": [
+      "odiare"
+    ],
+    "tenses": {
+      "pres": [
+        "io amo",
+        "tu ami",
+        "lui/lei ama",
+        "noi amiamo",
+        "voi amate",
+        "loro amano"
+      ],
+      "imp": [
+        "io amavo",
+        "tu amavi",
+        "lui/lei amava",
+        "noi amavamo",
+        "voi amavate",
+        "loro amavano"
+      ],
+      "pc": [
+        "io ho amato",
+        "tu hai amato",
+        "lui/lei ha amato",
+        "noi abbiamo amato",
+        "voi avete amato",
+        "loro hanno amato"
+      ],
+      "fut": [
+        "io amerò",
+        "tu amerai",
+        "lui/lei amerà",
+        "noi ameremo",
+        "voi amerete",
+        "loro ameranno"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "sole": {
+    "gender": "Maschile",
+    "article": "il",
+    "definition": "Stella al centro del sistema solare.",
+    "antonyms": [
+      "luna",
+      "notte"
+    ],
+    "plural": "soli"
+  },
+  "luna": {
+    "gender": "Femminile",
+    "article": "la",
+    "definition": "Unico satellite naturale della Terra.",
+    "antonyms": [
+      "sole"
+    ],
+    "plural": "lune"
+  },
+  "libro": {
+    "gender": "Maschile",
+    "article": "il",
+    "definition": "Insieme di fogli stampati e rilegati.",
+    "antonyms": [],
+    "plural": "libri"
+  }
+}

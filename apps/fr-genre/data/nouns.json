@@ -1,0 +1,35 @@
+{
+  "soleil": {
+    "gender": "Masculin",
+    "article": "le",
+    "definition": "Astre lumineux au centre du système solaire.",
+    "antonyms": [
+      "lune",
+      "nuit"
+    ],
+    "plural": "soleils"
+  },
+  "lune": {
+    "gender": "Féminin",
+    "article": "la",
+    "definition": "Satellite naturel de la Terre.",
+    "antonyms": [
+      "soleil"
+    ],
+    "plural": "lunes"
+  },
+  "maison": {
+    "gender": "Féminin",
+    "article": "la",
+    "definition": "Bâtiment destiné à servir d'habitation.",
+    "antonyms": [],
+    "plural": "maisons"
+  },
+  "arbre": {
+    "gender": "Masculin",
+    "article": "l'",
+    "definition": "Végétal ligneux possédant un tronc et des branches.",
+    "antonyms": [],
+    "plural": "arbres"
+  }
+}
