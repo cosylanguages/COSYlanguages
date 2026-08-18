@@ -1,0 +1,98 @@
+{
+  "parler": {
+    "group": "1er groupe (-er)",
+    "auxiliary": "avoir",
+    "definition": "Exprimer sa pensée par la parole, s'entretenir avec quelqu'un.",
+    "antonyms": ["se taire", "écouter"],
+    "tenses": {
+      "pres": ["je parle", "tu parles", "il/elle parle", "nous parlons", "vous parlez", "ils/elles parlent"],
+      "imp": ["je parlais", "tu parlais", "il/elle parlait", "nous parlions", "vous parliez", "ils/elles parlaient"],
+      "pc": ["j'ai parlé", "tu as parlé", "il/elle a parlé", "nous avons parlé", "vous avez parlé", "ils/elles ont parlé"],
+      "fut": ["je parlerai", "tu parleras", "il/elle parlera", "nous parlerons", "vous parlererez", "ils/elles parleront"],
+      "subj": ["que je parle", "que tu parles", "qu'il/elle parle", "que nous parlions", "que vous parliez", "qu'ils/elles parlent"],
+      "cond": ["je parlerais", "tu parlerais", "il/elle parlerait", "nous parlerions", "vous parleriez", "ils/elles parleraient"],
+      "impv": ["parle", "parlons", "parlez"],
+      "part": ["parlant", "parlé"]
+    }
+  },
+  "être": {
+    "group": "3e groupe (auxiliaire)",
+    "auxiliary": "avoir",
+    "definition": "Exister, avoir une réalité, caractériser un état ou une identité.",
+    "antonyms": ["disparaître", "manquer"],
+    "tenses": {
+      "pres": ["je suis", "tu es", "il/elle est", "nous sommes", "vous êtes", "ils/elles sont"],
+      "imp": ["j'étais", "tu étais", "il/elle était", "nous étions", "vous étiez", "ils/elles étaient"],
+      "pc": ["j'ai été", "tu as été", "il/elle a été", "nous avons été", "vous avez été", "ils/elles ont été"],
+      "fut": ["je serai", "tu seras", "il/elle sera", "nous serons", "vous serez", "ils/elles seront"],
+      "subj": ["que je sois", "que tu sois", "qu'il/elle soit", "que nous soyons", "que vous soyez", "qu'ils/elles soient"],
+      "cond": ["je serais", "tu serais", "il/elle serait", "nous serions", "vous seriez", "ils/elles seraient"],
+      "impv": ["sois", "soyons", "soyez"],
+      "part": ["étant", "été"]
+    }
+  },
+  "avoir": {
+    "group": "3e groupe (auxiliaire)",
+    "auxiliary": "avoir",
+    "definition": "Posséder quelque chose, disposer de, éprouver un sentiment.",
+    "antonyms": ["perdre", "manquer"],
+    "tenses": {
+      "pres": ["j'ai", "tu as", "il/elle a", "nous avons", "vous avez", "ils/elles ont"],
+      "imp": ["j'avais", "tu avais", "il/elle avait", "nous avions", "vous aviez", "ils/elles avaient"],
+      "pc": ["j'ai eu", "tu as eu", "il/elle a eu", "nous avons eu", "vous avez eu", "ils/elles ont eu"],
+      "fut": ["j'aurai", "tu auras", "il/elle aura", "nous aurons", "vous aurez", "ils/elles auront"],
+      "subj": ["que j'aie", "que tu aies", "qu'il/elle ait", "que nous ayons", "que vous ayez", "qu'ils/elles aient"],
+      "cond": ["j'aurais", "tu aurais", "il/elle aurait", "nous aurions", "vous auriez", "ils/elles auraient"],
+      "impv": ["aie", "ayons", "ayez"],
+      "part": ["ayant", "eu"]
+    }
+  },
+  "aller": {
+    "group": "3e groupe (irrégulier)",
+    "auxiliary": "être",
+    "definition": "Se déplacer d'un lieu à un autre, se rendre quelque part.",
+    "antonyms": ["venir", "rester", "revenir"],
+    "tenses": {
+      "pres": ["je vais", "tu vas", "il/elle va", "nous allons", "vous allez", "ils/elles vont"],
+      "imp": ["j'allais", "tu allais", "il/elle allait", "nous allions", "vous alliez", "ils/elles allaient"],
+      "pc": ["je suis allé(e)", "tu es allé(e)", "il/elle est allé(e)", "nous sommes allé(e)s", "vous êtes allé(e)s", "ils/elles sont allé(e)s"],
+      "fut": ["j'irai", "tu iras", "il/elle ira", "nous irons", "vous irez", "ils/elles iront"],
+      "subj": ["que j'aille", "que tu ailles", "qu'il/elle aille", "que nous allions", "que vous alliez", "qu'ils/elles aillent"],
+      "cond": ["j'irais", "tu irais", "il/elle irait", "nous irions", "vous iriez", "ils/elles iraient"],
+      "impv": ["va", "allons", "allez"],
+      "part": ["allant", "allé"]
+    }
+  },
+  "faire": {
+    "group": "3e groupe (-re)",
+    "auxiliary": "avoir",
+    "definition": "Réaliser une action, produire, fabriquer ou accomplir une tâche.",
+    "antonyms": ["défaire", "détruire"],
+    "tenses": {
+      "pres": ["je fais", "tu fais", "il/elle fait", "nous faisons", "vous faites", "ils/elles font"],
+      "imp": ["je faisais", "tu faisais", "il/elle faisait", "nous faisions", "vous faisiez", "ils/elles faisaient"],
+      "pc": ["j'ai fait", "tu as fait", "il/elle a fait", "nous avons fait", "vous avez fait", "ils/elles ont fait"],
+      "fut": ["je ferai", "tu feras", "il/elle fera", "nous ferons", "vous ferez", "ils/elles feront"],
+      "subj": ["que je fasse", "que tu fasses", "qu'il/elle fasse", "que nous fassions", "que vous fassiez", "qu'ils/elles fassent"],
+      "cond": ["je ferais", "tu ferais", "il/elle ferait", "nous ferions", "vous feriez", "ils/elles feraient"],
+      "impv": ["fais", "faisons", "faites"],
+      "part": ["faisant", "fait"]
+    }
+  },
+  "finir": {
+    "group": "2e groupe (-ir)",
+    "auxiliary": "avoir",
+    "definition": "Arriver au terme d'une action, achever, terminer.",
+    "antonyms": ["commencer", "débuter"],
+    "tenses": {
+      "pres": ["je finis", "tu finis", "il/elle finit", "nous finissons", "vous finissez", "ils/elles finissent"],
+      "imp": ["je finissais", "tu finissais", "il/elle finissait", "nous finissions", "vous finissiez", "ils/elles finissaient"],
+      "pc": ["j'ai fini", "tu as fini", "il/elle a fini", "nous avons fini", "vous avez fini", "ils/elles ont fini"],
+      "fut": ["je me finirai", "tu finiras", "il/elle finira", "nous finirons", "vous finirez", "ils/elles finiront"],
+      "subj": ["que je finisse", "que tu finisses", "qu'il/elle finisse", "que nous finissions", "que vous finissiez", "qu'ils/elles finissent"],
+      "cond": ["je me finirais", "tu me finirais", "il/elle me me me me finirait", "nous me me me finirions", "vous me me me finiriez", "ils/elles me me me finiraient"],
+      "impv": ["finis", "finissons", "finissez"],
+      "part": ["finissant", "fini"]
+    }
+  }
+}
