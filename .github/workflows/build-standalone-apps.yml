@@ -1,0 +1,91 @@
+name: Standalone Reference Apps CI & Build Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+    tags: [ 'v*' ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate-pwa-static:
+    name: Validate Standalone PWAs & Data Databases
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Verify Standalone Application Files & JSON Integrity
+        run: |
+          python3 -c "
+          import json, glob
+          for path in glob.glob('apps/*/data/*.json'):
+              with open(path) as f:
+                  data = json.load(f)
+                  print(f'✅ {path}: {len(data)} entries valid')
+          "
+
+  build-capacitor-mobile:
+    name: Build Mobile Binaries (Capacitor APK)
+    needs: validate-pwa-static
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        app: [
+          'fr-conjugeur',
+          'fr-genre',
+          'it-coniugatore',
+          'it-genere',
+          'ru-spryazhenie',
+          'ru-rod-padezhi',
+          'el-klisi-rimaton',
+          'el-genos-ptoseis'
+        ]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Package Standalone App Artifact (${{ matrix.app }})
+        run: |
+          mkdir -p build-artifacts
+          tar -czf build-artifacts/${{ matrix.app }}-pwa.tar.gz -C apps/${{ matrix.app }} .
+
+      - name: Upload Mobile Package Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.app }}-mobile-package
+          path: build-artifacts/${{ matrix.app }}-pwa.tar.gz
+
+  release-packaging:
+    name: Create GitHub Release Bundles
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: [validate-pwa-static, build-capacitor-mobile]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            *-mobile-package/*.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -37,7 +37,7 @@
         "tu parleras",
         "il/elle parlera",
         "nous parlerons",
-        "vous parlererez",
+        "vous parlerez",
         "ils/elles parleront"
       ]
     }
@@ -79,9 +79,9 @@
         "j'aimerai",
         "tu aimeras",
         "il/elle aimera",
-        "nous me aimons",
+        "nous aimerons",
         "vous aimerez",
-        "ils/elles aimermont"
+        "ils/elles aimeront"
       ]
     }
   },
@@ -119,11 +119,11 @@
       ],
       "fut": [
         "je mangerai",
-        "tu me mangeras",
+        "tu mangeras",
         "il/elle mangera",
         "nous mangerons",
         "vous mangerez",
-        "ils/elles me mangeront"
+        "ils/elles mangeront"
       ]
     }
   }

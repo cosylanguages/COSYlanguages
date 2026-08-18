@@ -38,7 +38,7 @@ LEXICON = {
                 "pres": ["je parle", "tu parles", "il/elle parle", "nous parlons", "vous parlez", "ils/elles parlent"],
                 "imp": ["je parlais", "tu parlais", "il/elle parlait", "nous parlions", "vous parliez", "ils/elles parlaient"],
                 "pc": ["j'ai parlé", "tu as parlé", "il/elle a parlé", "nous avons parlé", "vous avez parlé", "ils/elles ont parlé"],
-                "fut": ["je parlerai", "tu parleras", "il/elle parlera", "nous parlerons", "vous parlererez", "ils/elles parleront"]
+                "fut": ["je parlerai", "tu parleras", "il/elle parlera", "nous parlerons", "vous parlerez", "ils/elles parleront"]
             }
         },
         "aimer": {
@@ -48,9 +48,9 @@ LEXICON = {
             "antonyms": ["détester", "haïr"],
             "tenses": {
                 "pres": ["j'aime", "tu aimes", "il/elle aime", "nous aimons", "vous aimez", "ils/elles aiment"],
-                "imp": ["j'aimais", "tu aimais", "il/elle aimait", "nous aimions", "vous aimiez", "ils/elles me me me me aimaient"],
+                "imp": ["j'aimais", "tu aimais", "il/elle aimait", "nous aimions", "vous aimiez", "ils/elles aimaient"],
                 "pc": ["j'ai aimé", "tu as aimé", "il/elle a aimé", "nous avons aimé", "vous avez aimé", "ils/elles ont aimé"],
-                "fut": ["j'aimerai", "tu aimeras", "il/elle aimera", "nous me aimons", "vous me me me me me me me me me me aimerez", "ils/elles aimermont"]
+                "fut": ["j'aimerai", "tu aimeras", "il/elle aimera", "nous aimerons", "vous aimerez", "ils/elles aimeront"]
             }
         },
         "manger": {
@@ -59,10 +59,10 @@ LEXICON = {
             "definition": "Absorber un aliment solide pour se nourrir.",
             "antonyms": ["jeûner"],
             "tenses": {
-                "pres": ["je mange", "tu manges", "il/elle mange", "nous mangeons", "vous mangez", "ils/elles me me me me me mangent"],
-                "imp": ["je me me me mangeais", "tu mangeais", "il/elle mangeait", "nous mangions", "vous me me me me mangiez", "ils/elles mangeaient"],
+                "pres": ["je mange", "tu manges", "il/elle mange", "nous mangeons", "vous mangez", "ils/elles mangent"],
+                "imp": ["je mangeais", "tu mangeais", "il/elle mangeait", "nous mangions", "vous mangiez", "ils/elles mangeaient"],
                 "pc": ["j'ai mangé", "tu as mangé", "il/elle a mangé", "nous avons mangé", "vous avez mangé", "ils/elles ont mangé"],
-                "fut": ["je mangerai", "tu me mangeras", "il/elle mangera", "nous mangerons", "vous mangerez", "ils/elles me me me me me me mangeront"]
+                "fut": ["je mangerai", "tu mangeras", "il/elle mangera", "nous mangerons", "vous mangerez", "ils/elles mangeront"]
             }
         }
     },
@@ -208,7 +208,7 @@ LEXICON = {
             "tenses": {
                 "pres": ["εγώ γράφω", "εσύ γράφεις", "αυτός/αυτή γράφει", "εμείς γράφουμε", "εσείς γράφετε", "αυτοί/αυτές γράφουν"],
                 "imp": ["εγώ έγραφα", "εσύ έγραφες", "αυτός/αυτή έγραφε", "εμείς γράφαμε", "εσείς γράφατε", "αυτοί/αυτές έγραφαν"],
-                "aor": ["εγώ έγραψα", "εσύ έγραψες", "αυτός/αυτή έγραψε", "εμείς γράψαμε", "εσείς γράψατε", "αυτοί/αυτές έγραψαν"],
+                "aor": ["εγώ έγραψα", "εσύ έγραψες", "αυτός/αυτή έγραψε", "εμείς γράψαμε", "εσείς γράψατε", "αυτοί/αυτές έγραφαν"],
                 "fut": ["εγώ θα γράψω", "εσύ θα γράψεις", "αυτός/αυτή θα γράψει", "εμείς θα γράψουμε", "εσείς θα γράψετε", "αυτοί/αυτές θα γράψουν"]
             }
         }
@@ -229,36 +229,14 @@ LEXICON = {
     }
 }
 
-def clean_data_string(data):
-    """
-    Clean up any residual double-pronoun or malformed tense strings.
-    """
-    if isinstance(data, dict):
-        return {k: clean_data_string(v) for k, v in data.items()}
-    elif isinstance(data, list):
-        cleaned_list = []
-        for item in data:
-            if isinstance(item, str):
-                # Clean repetitive pronoun tokens
-                item = item.replace("me me me me me me me me me me ", "")
-                item = item.replace("me me me me me ", "")
-                item = item.replace("me me me me ", "")
-                item = item.replace("me me me ", "")
-                item = item.replace("me me ", "")
-                item = item.replace("je me ", "je ")
-            cleaned_list.append(item)
-        return cleaned_list
-    return data
-
 def main():
     print("🚀 Initializing COSYlanguages Standalone Apps Data Enrichment Pipeline...")
     for key, rel_path in APP_DATA_PATHS.items():
         if key in LEXICON:
-            cleaned_lexicon = clean_data_string(LEXICON[key])
             os.makedirs(os.path.dirname(rel_path), exist_ok=True)
             with open(rel_path, 'w', encoding='utf-8') as f:
-                json.dump(cleaned_lexicon, f, ensure_ascii=False, indent=2)
-            print(f"  ✅ Enriched {rel_path} ({len(cleaned_lexicon)} entries)")
+                json.dump(LEXICON[key], f, ensure_ascii=False, indent=2)
+            print(f"  ✅ Enriched {rel_path} ({len(LEXICON[key])} entries)")
     print("🎉 Pipeline executed successfully across all 8 standalone reference apps.")
 
 if __name__ == "__main__":
