@@ -1,0 +1,30 @@
+{
+  "sole": {
+    "gender": "Maschile",
+    "article": "il",
+    "definition": "Stella al centro del sistema solare.",
+    "antonyms": ["luna", "notte"],
+    "plural": "soli"
+  },
+  "luna": {
+    "gender": "Femminile",
+    "article": "la",
+    "definition": "Unico satellite naturale della Terra.",
+    "antonyms": ["sole"],
+    "plural": "lune"
+  },
+  "giorno": {
+    "gender": "Maschile",
+    "article": "il",
+    "definition": "Spazio di tempo compreso tra il sorgere e il tramonto del sole.",
+    "antonyms": ["notte"],
+    "plural": "giorni"
+  },
+  "notte": {
+    "gender": "Femminile",
+    "article": "la",
+    "definition": "Periodo di oscurità tra il tramonto e l'alba.",
+    "antonyms": ["giorno"],
+    "plural": "notti"
+  }
+}

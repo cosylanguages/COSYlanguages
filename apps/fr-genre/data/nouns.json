@@ -1,0 +1,30 @@
+{
+  "soleil": {
+    "gender": "Masculin",
+    "article": "le",
+    "definition": "Astre lumineux au centre du système solaire.",
+    "antonyms": ["lune", "nuit"],
+    "plural": "soleils"
+  },
+  "lune": {
+    "gender": "Féminin",
+    "article": "la",
+    "definition": "Satellite naturel de la Terre.",
+    "antonyms": ["soleil"],
+    "plural": "lunes"
+  },
+  "hibou": {
+    "gender": "Masculin",
+    "article": "le",
+    "definition": "Oiseau rapace nocturne à aigrettes.",
+    "antonyms": [],
+    "plural": "hiboux"
+  },
+  "jour": {
+    "gender": "Masculin",
+    "article": "le",
+    "definition": "Période de 24 heures ou temps pendant lequel le soleil éclaire.",
+    "antonyms": ["nuit"],
+    "plural": "jours"
+  }
+}
