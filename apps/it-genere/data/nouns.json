@@ -1414,5 +1414,383 @@
     "antonyms": [
       "sale"
     ]
+  },
+  "arte": {
+    "gender": "femminile",
+    "article": "l'",
+    "level": "A1",
+    "definition": "Attività umana creativa.",
+    "antonyms": [
+      "natura"
+    ],
+    "cases": {
+      "nom_sing": "l'arte",
+      "gen_sing": "dell'arte",
+      "dat_sing": "all'arte",
+      "acc_sing": "l'arte",
+      "abl_sing": "dall'arte",
+      "loc_sing": "in arte",
+      "nom_plur": "le arti"
+    }
+  },
+  "attore": {
+    "gender": "maschile",
+    "article": "l'",
+    "level": "A1",
+    "definition": "Chi recita in uno spettacolo.",
+    "antonyms": [
+      "spettatore"
+    ],
+    "cases": {
+      "nom_sing": "l'attore",
+      "gen_sing": "dell'attore",
+      "dat_sing": "all'attore",
+      "acc_sing": "l'attore",
+      "abl_sing": "dall'attore",
+      "loc_sing": "in attore",
+      "nom_plur": "gli attori"
+    }
+  },
+  "autunno": {
+    "gender": "maschile",
+    "article": "l'",
+    "level": "A1",
+    "definition": "Stagione tra estate e inverno.",
+    "antonyms": [
+      "primavera"
+    ],
+    "cases": {
+      "nom_sing": "l'autunno",
+      "gen_sing": "dell'autunno",
+      "dat_sing": "all'autunno",
+      "acc_sing": "l'autunno",
+      "abl_sing": "dall'autunno",
+      "loc_sing": "in autunno",
+      "nom_plur": "gli autunni"
+    }
+  },
+  "bagno": {
+    "gender": "maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Stanza per l'igiene personale.",
+    "antonyms": [
+      "cucina"
+    ],
+    "cases": {
+      "nom_sing": "il bagno",
+      "gen_sing": "del bagno",
+      "dat_sing": "al bagno",
+      "acc_sing": "il bagno",
+      "abl_sing": "dal bagno",
+      "loc_sing": "in bagno",
+      "nom_plur": "i bagni"
+    }
+  },
+  "banca": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Istituto di credito.",
+    "antonyms": [
+      "negozio"
+    ],
+    "cases": {
+      "nom_sing": "la banca",
+      "gen_sing": "della banca",
+      "dat_sing": "alla banca",
+      "acc_sing": "la banca",
+      "abl_sing": "dalla banca",
+      "loc_sing": "in banca",
+      "nom_plur": "le banche"
+    }
+  },
+  "barca": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Piccola imbarcazione.",
+    "antonyms": [
+      "nave"
+    ],
+    "cases": {
+      "nom_sing": "la barca",
+      "gen_sing": "della barca",
+      "dat_sing": "alla barca",
+      "acc_sing": "la barca",
+      "abl_sing": "dalla barca",
+      "loc_sing": "in barca",
+      "nom_plur": "le barche"
+    }
+  },
+  "bicicletta": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Veicolo a due ruote.",
+    "antonyms": [
+      "automobile"
+    ],
+    "cases": {
+      "nom_sing": "la bicicletta",
+      "gen_sing": "della bicicletta",
+      "dat_sing": "alla bicicletta",
+      "acc_sing": "la bicicletta",
+      "abl_sing": "dalla bicicletta",
+      "loc_sing": "in bicicletta",
+      "nom_plur": "le biciclette"
+    }
+  },
+  "bottiglia": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Recipiente per liquidi.",
+    "antonyms": [
+      "bicchiere"
+    ],
+    "cases": {
+      "nom_sing": "la bottiglia",
+      "gen_sing": "della bottiglia",
+      "dat_sing": "alla bottiglia",
+      "acc_sing": "la bottiglia",
+      "abl_sing": "dalla bottiglia",
+      "loc_sing": "in bottiglia",
+      "nom_plur": "le bottiglie"
+    }
+  },
+  "campagna": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Territorio aperto coltivato.",
+    "antonyms": [
+      "città"
+    ],
+    "cases": {
+      "nom_sing": "la campagna",
+      "gen_sing": "della campagna",
+      "dat_sing": "alla campagna",
+      "acc_sing": "la campagna",
+      "abl_sing": "dalla campagna",
+      "loc_sing": "in campagna",
+      "nom_plur": "le campagne"
+    }
+  },
+  "capitale": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Città sede del governo.",
+    "antonyms": [
+      "provincia"
+    ],
+    "cases": {
+      "nom_sing": "la capitale",
+      "gen_sing": "della capitale",
+      "dat_sing": "alla capitale",
+      "acc_sing": "la capitale",
+      "abl_sing": "dalla capitale",
+      "loc_sing": "in capitale",
+      "nom_plur": "le capitali"
+    }
+  },
+  "carne": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Alimento di origine animale.",
+    "antonyms": [
+      "pesce"
+    ],
+    "cases": {
+      "nom_sing": "la carne",
+      "gen_sing": "della carne",
+      "dat_sing": "alla carne",
+      "acc_sing": "la carne",
+      "abl_sing": "dalla carne",
+      "loc_sing": "in carne",
+      "nom_plur": "le carni"
+    }
+  },
+  "classe": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Gruppo di studenti.",
+    "antonyms": [
+      "scuola"
+    ],
+    "cases": {
+      "nom_sing": "la classe",
+      "gen_sing": "della classe",
+      "dat_sing": "alla classe",
+      "acc_sing": "la classe",
+      "abl_sing": "dalla classe",
+      "loc_sing": "in classe",
+      "nom_plur": "le classi"
+    }
+  },
+  "colore": {
+    "gender": "maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Percezione visiva della luce.",
+    "antonyms": [
+      "bianco"
+    ],
+    "cases": {
+      "nom_sing": "il colore",
+      "gen_sing": "del colore",
+      "dat_sing": "al colore",
+      "acc_sing": "il colore",
+      "abl_sing": "dal colore",
+      "loc_sing": "in colore",
+      "nom_plur": "i colori"
+    }
+  },
+  "concerto": {
+    "gender": "maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Esecuzione di musica dal vivo.",
+    "antonyms": [
+      "silenzio"
+    ],
+    "cases": {
+      "nom_sing": "il concerto",
+      "gen_sing": "del concerto",
+      "dat_sing": "al concerto",
+      "acc_sing": "il concerto",
+      "abl_sing": "dal concerto",
+      "loc_sing": "in concerto",
+      "nom_plur": "i concerti"
+    }
+  },
+  "festa": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Celebrante solenne o lieta.",
+    "antonyms": [
+      "lavoro"
+    ],
+    "cases": {
+      "nom_sing": "la festa",
+      "gen_sing": "della festa",
+      "dat_sing": "alla festa",
+      "acc_sing": "la festa",
+      "abl_sing": "dalla festa",
+      "loc_sing": "in festa",
+      "nom_plur": "le feste"
+    }
+  },
+  "filosofia": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A2",
+    "definition": "Studio dei problemi fondamentali.",
+    "antonyms": [
+      "scienza"
+    ],
+    "cases": {
+      "nom_sing": "la filosofia",
+      "gen_sing": "della filosofia",
+      "dat_sing": "alla filosofia",
+      "acc_sing": "la filosofia",
+      "abl_sing": "dalla filosofia",
+      "loc_sing": "in filosofia",
+      "nom_plur": "le filosofie"
+    }
+  },
+  "giovane": {
+    "gender": "maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Persona in età giovanile.",
+    "antonyms": [
+      "vecchio"
+    ],
+    "cases": {
+      "nom_sing": "il giovane",
+      "gen_sing": "del giovane",
+      "dat_sing": "al giovane",
+      "acc_sing": "il giovane",
+      "abl_sing": "dal giovane",
+      "loc_sing": "in giovane",
+      "nom_plur": "i giovani"
+    }
+  },
+  "isola": {
+    "gender": "femminile",
+    "article": "l'",
+    "level": "A1",
+    "definition": "Terra emersa circondata dalle acque.",
+    "antonyms": [
+      "continente"
+    ],
+    "cases": {
+      "nom_sing": "l'isola",
+      "gen_sing": "dell'isola",
+      "dat_sing": "all'isola",
+      "acc_sing": "l'isola",
+      "abl_sing": "dall'isola",
+      "loc_sing": "in isola",
+      "nom_plur": "le isole"
+    }
+  },
+  "lettera": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Messaggio scritto o segno alfabetico.",
+    "antonyms": [
+      "numero"
+    ],
+    "cases": {
+      "nom_sing": "la lettera",
+      "gen_sing": "della lettera",
+      "dat_sing": "alla lettera",
+      "acc_sing": "la lettera",
+      "abl_sing": "dalla lettera",
+      "loc_sing": "in lettera",
+      "nom_plur": "le lettere"
+    }
+  },
+  "madre": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Genitore femminile.",
+    "antonyms": [
+      "padre"
+    ],
+    "cases": {
+      "nom_sing": "la madre",
+      "gen_sing": "della madre",
+      "dat_sing": "alla madre",
+      "acc_sing": "la madre",
+      "abl_sing": "dalla madre",
+      "loc_sing": "in madre",
+      "nom_plur": "le madri"
+    }
+  },
+  "medico": {
+    "gender": "maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Professionista della salute.",
+    "antonyms": [
+      "paziente"
+    ],
+    "cases": {
+      "nom_sing": "il medico",
+      "gen_sing": "del medico",
+      "dat_sing": "al medico",
+      "acc_sing": "il medico",
+      "abl_sing": "dal medico",
+      "loc_sing": "in medico",
+      "nom_plur": "i medici"
+    }
   }
 }

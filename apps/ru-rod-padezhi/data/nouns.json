@@ -3032,5 +3032,335 @@
       "inst_plur": "самолетами",
       "prep_plur": "самолетах"
     }
+  },
+  "сахар": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Сладкий продукт.",
+    "antonyms": [
+      "соль"
+    ],
+    "cases": {
+      "nom_sing": "сахар",
+      "gen_sing": "сахара",
+      "dat_sing": "сахару",
+      "acc_sing": "сахар",
+      "inst_sing": "сахаром",
+      "prep_sing": "сахаре",
+      "nom_plur": "сахара",
+      "gen_plur": "сахаров",
+      "dat_plur": "сахарам",
+      "acc_plur": "сахара",
+      "inst_plur": "сахарами",
+      "prep_plur": "сахарах"
+    }
+  },
+  "соль": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Белая приправа.",
+    "antonyms": [
+      "сахар"
+    ],
+    "cases": {
+      "nom_sing": "соль",
+      "gen_sing": "соли",
+      "dat_sing": "соли",
+      "acc_sing": "соль",
+      "inst_sing": "солью",
+      "prep_sing": "соли",
+      "nom_plur": "соли",
+      "gen_plur": "солей",
+      "dat_plur": "солям",
+      "acc_plur": "соли",
+      "inst_plur": "солями",
+      "prep_plur": "солях"
+    }
+  },
+  "овощ": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Огородные плоды.",
+    "antonyms": [
+      "фрукт"
+    ],
+    "cases": {
+      "nom_sing": "овощ",
+      "gen_sing": "овоща",
+      "dat_sing": "овощу",
+      "acc_sing": "овощ",
+      "inst_sing": "овощем",
+      "prep_sing": "овоще",
+      "nom_plur": "овощи",
+      "gen_plur": "овощей",
+      "dat_plur": "овощам",
+      "acc_plur": "овощи",
+      "inst_plur": "овощами",
+      "prep_plur": "овощах"
+    }
+  },
+  "фрукт": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Сладкие плоды деревьев.",
+    "antonyms": [
+      "овощ"
+    ],
+    "cases": {
+      "nom_sing": "фрукт",
+      "gen_sing": "фрукта",
+      "dat_sing": "фрукту",
+      "acc_sing": "фрукт",
+      "inst_sing": "фруктом",
+      "prep_sing": "фрукте",
+      "nom_plur": "фрукты",
+      "gen_plur": "фруктов",
+      "dat_plur": "фруктам",
+      "acc_plur": "фрукты",
+      "inst_plur": "фруктами",
+      "prep_plur": "фруктах"
+    }
+  },
+  "шкаф": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Мебель для одежды.",
+    "antonyms": [
+      "полка"
+    ],
+    "cases": {
+      "nom_sing": "шкаф",
+      "gen_sing": "шкафа",
+      "dat_sing": "шкафу",
+      "acc_sing": "шкаф",
+      "inst_sing": "шкафом",
+      "prep_sing": "шкафу",
+      "nom_plur": "шкафы",
+      "gen_plur": "шкафов",
+      "dat_plur": "шкафам",
+      "acc_plur": "шкафы",
+      "inst_plur": "шкафами",
+      "prep_plur": "шкафах"
+    }
+  },
+  "пальто": {
+    "gender": "средний",
+    "level": "A1",
+    "definition": "Верхняя одежда.",
+    "antonyms": [
+      "куртка"
+    ],
+    "cases": {
+      "nom_sing": "пальто",
+      "gen_sing": "пальто",
+      "dat_sing": "пальто",
+      "acc_sing": "пальто",
+      "inst_sing": "пальто",
+      "prep_sing": "пальто",
+      "nom_plur": "пальто",
+      "gen_plur": "пальто",
+      "dat_plur": "пальто",
+      "acc_plur": "пальто",
+      "inst_plur": "пальто",
+      "prep_plur": "пальто"
+    }
+  },
+  "шапка": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Головной убор.",
+    "antonyms": [
+      "шляпа"
+    ],
+    "cases": {
+      "nom_sing": "шапка",
+      "gen_sing": "шапки",
+      "dat_sing": "шапке",
+      "acc_sing": "шапку",
+      "inst_sing": "шапкой",
+      "prep_sing": "шапке",
+      "nom_plur": "шапки",
+      "gen_plur": "шапок",
+      "dat_plur": "шапкам",
+      "acc_plur": "шапки",
+      "inst_plur": "шапками",
+      "prep_plur": "шапках"
+    }
+  },
+  "обувь": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Изделия для ног.",
+    "antonyms": [
+      "одежда"
+    ],
+    "cases": {
+      "nom_sing": "обувь",
+      "gen_sing": "обуви",
+      "dat_sing": "обуви",
+      "acc_sing": "обувь",
+      "inst_sing": "обувью",
+      "prep_sing": "обуви",
+      "nom_plur": "обуви",
+      "gen_plur": "обуви",
+      "dat_plur": "обувям",
+      "acc_plur": "обувь",
+      "inst_plur": "обувями",
+      "prep_plur": "обувях"
+    }
+  },
+  "глаз": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Орган зрения.",
+    "antonyms": [
+      "ухо"
+    ],
+    "cases": {
+      "nom_sing": "глаз",
+      "gen_sing": "глаза",
+      "dat_sing": "глазу",
+      "acc_sing": "глаз",
+      "inst_sing": "глазом",
+      "prep_sing": "глазе",
+      "nom_plur": "глаза",
+      "gen_plur": "глаз",
+      "dat_plur": "глазам",
+      "acc_plur": "глаза",
+      "inst_plur": "глазами",
+      "prep_plur": "глазах"
+    }
+  },
+  "ухо": {
+    "gender": "средний",
+    "level": "A1",
+    "definition": "Орган слуха.",
+    "antonyms": [
+      "глаз"
+    ],
+    "cases": {
+      "nom_sing": "ухо",
+      "gen_sing": "уха",
+      "dat_sing": "уху",
+      "acc_sing": "ухо",
+      "inst_sing": "ухом",
+      "prep_sing": "ухе",
+      "nom_plur": "уши",
+      "gen_plur": "ушей",
+      "dat_plur": "ушам",
+      "acc_plur": "уши",
+      "inst_plur": "ушами",
+      "prep_plur": "ушах"
+    }
+  },
+  "рука": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Верхняя конечность.",
+    "antonyms": [
+      "нога"
+    ],
+    "cases": {
+      "nom_sing": "рука",
+      "gen_sing": "руки",
+      "dat_sing": "руке",
+      "acc_sing": "руку",
+      "inst_sing": "рукой",
+      "prep_sing": "руке",
+      "nom_plur": "руки",
+      "gen_plur": "рук",
+      "dat_plur": "рукам",
+      "acc_plur": "руки",
+      "inst_plur": "руками",
+      "prep_plur": "руках"
+    }
+  },
+  "нога": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Нижняя конечность.",
+    "antonyms": [
+      "рука"
+    ],
+    "cases": {
+      "nom_sing": "нога",
+      "gen_sing": "ноги",
+      "dat_sing": "ноге",
+      "acc_sing": "ногу",
+      "inst_sing": "ногой",
+      "prep_sing": "ноге",
+      "nom_plur": "ноги",
+      "gen_plur": "ног",
+      "dat_plur": "ногам",
+      "acc_plur": "ноги",
+      "inst_plur": "ногами",
+      "prep_plur": "ногах"
+    }
+  },
+  "душа": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Внутренний мир человека.",
+    "antonyms": [
+      "тело"
+    ],
+    "cases": {
+      "nom_sing": "душа",
+      "gen_sing": "души",
+      "dat_sing": "душе",
+      "acc_sing": "душу",
+      "inst_sing": "душой",
+      "prep_sing": "душе",
+      "nom_plur": "души",
+      "gen_plur": "душ",
+      "dat_plur": "душам",
+      "acc_plur": "души",
+      "inst_plur": "душами",
+      "prep_plur": "душах"
+    }
+  },
+  "жизнь": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Бытие и существование.",
+    "antonyms": [
+      "смерть"
+    ],
+    "cases": {
+      "nom_sing": "жизнь",
+      "gen_sing": "жизни",
+      "dat_sing": "жизни",
+      "acc_sing": "жизнь",
+      "inst_sing": "жизнью",
+      "prep_sing": "жизни",
+      "nom_plur": "жизни",
+      "gen_plur": "жизней",
+      "dat_plur": "жизням",
+      "acc_plur": "жизни",
+      "inst_plur": "жизнями",
+      "prep_plur": "жизнях"
+    }
+  },
+  "мир": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Планета или состояние покоя.",
+    "antonyms": [
+      "война"
+    ],
+    "cases": {
+      "nom_sing": "мир",
+      "gen_sing": "мира",
+      "dat_sing": "миру",
+      "acc_sing": "мир",
+      "inst_sing": "миром",
+      "prep_sing": "мире",
+      "nom_plur": "миры",
+      "gen_plur": "миров",
+      "dat_plur": "мирам",
+      "acc_plur": "миры",
+      "inst_plur": "мирами",
+      "prep_plur": "мирах"
+    }
   }
 }
