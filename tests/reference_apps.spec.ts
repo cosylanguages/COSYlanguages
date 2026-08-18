@@ -26,7 +26,7 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         await page.keyboard.press('Enter');
 
         await expect(page.locator('#noun-title')).toHaveText('стол');
-        await expect(page.locator('#gender-badge')).toContainText('Мужской род');
+        await expect(page.locator('#gender-badge')).toContainText('мужской род');
 
         // Table body rows check (6 cases)
         const rows = await page.locator('#cases-table-body tr').count();

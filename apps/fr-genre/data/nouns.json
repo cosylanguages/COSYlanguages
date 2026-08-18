@@ -1,39 +1,842 @@
 {
-  "soleil": {
-    "gender": "Masculin",
-    "article": "le",
-    "definition": "Astre lumineux au centre du système solaire.",
-    "antonyms": [
-      "lune",
-      "nuit"
-    ],
-    "plural": "soleils",
-    "level": "A1"
-  },
-  "lune": {
-    "gender": "Féminin",
-    "article": "la",
-    "definition": "Satellite naturel de la Terre.",
-    "antonyms": [
-      "soleil"
-    ],
-    "plural": "lunes",
-    "level": "A1"
-  },
   "maison": {
     "gender": "Féminin",
-    "article": "la",
-    "definition": "Bâtiment destiné à servir d'habitation.",
-    "antonyms": [],
-    "plural": "maisons",
-    "level": "A1"
+    "level": "A1",
+    "definition": "Bâtiment servant d'habitation.",
+    "antonyms": [
+      "rue"
+    ]
+  },
+  "voiture": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Véhicule automobile.",
+    "antonyms": [
+      "piéton"
+    ]
+  },
+  "table": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Meuble composé d'une surface plane.",
+    "antonyms": [
+      "chaise"
+    ]
+  },
+  "chaise": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Siège à dossier sans bras.",
+    "antonyms": [
+      "table"
+    ]
+  },
+  "porte": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Ouverture permettant d'entrer.",
+    "antonyms": [
+      "fenêtre"
+    ]
+  },
+  "fenêtre": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Ouverture dans un mur pour le jour.",
+    "antonyms": [
+      "porte"
+    ]
+  },
+  "ville": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Agglomération urbaine.",
+    "antonyms": [
+      "campagne"
+    ]
+  },
+  "rue": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Voie de circulation dans une ville.",
+    "antonyms": [
+      "place"
+    ]
+  },
+  "école": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Établissement d'enseignement.",
+    "antonyms": [
+      "maison"
+    ]
+  },
+  "eau": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Liquide transparent et incolore.",
+    "antonyms": [
+      "feu"
+    ]
+  },
+  "terre": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Planète ou sol sous nos pieds.",
+    "antonyms": [
+      "ciel"
+    ]
+  },
+  "mer": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Grande étendue d'eau salée.",
+    "antonyms": [
+      "montagne"
+    ]
+  },
+  "montagne": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Relief élevé du sol.",
+    "antonyms": [
+      "vallée"
+    ]
+  },
+  "nuit": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Période d'obscurité.",
+    "antonyms": [
+      "jour"
+    ]
+  },
+  "fleur": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Partie colorée d'une plante.",
+    "antonyms": [
+      "arbre"
+    ]
+  },
+  "pomme": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Fruit du pommier.",
+    "antonyms": [
+      "poire"
+    ]
+  },
+  "clé": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Instrument pour fermer une serrure.",
+    "antonyms": [
+      "serrure"
+    ]
+  },
+  "chambre": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Pièce d'une habitation.",
+    "antonyms": [
+      "salon"
+    ]
+  },
+  "cuisine": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Pièce où l'on prépare les repas.",
+    "antonyms": [
+      "salle"
+    ]
+  },
+  "musique": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Art de combiner les sons.",
+    "antonyms": [
+      "silence"
+    ]
+  },
+  "lumière": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Énergie éclairante.",
+    "antonyms": [
+      "ombre"
+    ]
+  },
+  "ombre": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Zone sombre sans lumière.",
+    "antonyms": [
+      "lumière"
+    ]
+  },
+  "idée": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Représentation mentale.",
+    "antonyms": [
+      "acte"
+    ]
+  },
+  "vérité": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Caractère de ce qui est vrai.",
+    "antonyms": [
+      "mensonge"
+    ]
+  },
+  "liberté": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Pouvoir d'agir sans contrainte.",
+    "antonyms": [
+      "esclavage"
+    ]
+  },
+  "paix": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Absence de guerre.",
+    "antonyms": [
+      "guerre"
+    ]
+  },
+  "guerre": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Conflit armé.",
+    "antonyms": [
+      "paix"
+    ]
+  },
+  "vie": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Ensemble des phénomènes vivants.",
+    "antonyms": [
+      "mort"
+    ]
+  },
+  "mort": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Cessation de la vie.",
+    "antonyms": [
+      "vie"
+    ]
+  },
+  "main": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Partie du corps au bout du bras.",
+    "antonyms": [
+      "pied"
+    ]
+  },
+  "tête": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Partie supérieure du corps.",
+    "antonyms": [
+      "pied"
+    ]
+  },
+  "voix": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sons produits par les cordes vocales.",
+    "antonyms": [
+      "silence"
+    ]
+  },
+  "route": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Voie aménagée hors agglomération.",
+    "antonyms": [
+      "sentier"
+    ]
+  },
+  "question": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Demande faite pour savoir.",
+    "antonyms": [
+      "réponse"
+    ]
+  },
+  "réponse": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Réplique à une question.",
+    "antonyms": [
+      "question"
+    ]
+  },
+  "histoire": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Récit d'événements.",
+    "antonyms": [
+      "réitération"
+    ]
+  },
+  "famille": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Groupe uni par la parenté.",
+    "antonyms": [
+      "solitude"
+    ]
+  },
+  "saison": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Période de l'année.",
+    "antonyms": [
+      "année"
+    ]
+  },
+  "semaine": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Période de sept jours.",
+    "antonyms": [
+      "mois"
+    ]
+  },
+  "heure": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Soixante minutes.",
+    "antonyms": [
+      "seconde"
+    ]
+  },
+  "minute": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Soixante secondes.",
+    "antonyms": [
+      "heure"
+    ]
+  },
+  "seconde": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Soixantième de minute.",
+    "antonyms": [
+      "minute"
+    ]
+  },
+  "chanson": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Pièce de musique vocale.",
+    "antonyms": [
+      "poème"
+    ]
+  },
+  "pensée": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Activité de l'esprit.",
+    "antonyms": [
+      "action"
+    ]
+  },
+  "joie": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sentiment vif de plaisir.",
+    "antonyms": [
+      "tristesse"
+    ]
+  },
+  "tristesse": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "État affectif douloureux.",
+    "antonyms": [
+      "joie"
+    ]
+  },
+  "peur": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Émotion face au danger.",
+    "antonyms": [
+      "courage"
+    ]
+  },
+  "santé": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Bon fonctionnement de l'organisme.",
+    "antonyms": [
+      "maladie"
+    ]
+  },
+  "maladie": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Altération de la santé.",
+    "antonyms": [
+      "santé"
+    ]
+  },
+  "solution": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Moyen de résoudre un problème.",
+    "antonyms": [
+      "problème"
+    ]
+  },
+  "soleil": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Astre éclairant la Terre.",
+    "antonyms": [
+      "lune"
+    ]
+  },
+  "livre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Assemblage de feuilles imprimées.",
+    "antonyms": [
+      "cahier"
+    ]
+  },
+  "stylo": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Instrument pour écrire.",
+    "antonyms": [
+      "crayon"
+    ]
+  },
+  "crayon": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Bâtonnet de mine de plomb.",
+    "antonyms": [
+      "stylo"
+    ]
+  },
+  "cahier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Assemblage de feuilles vierges.",
+    "antonyms": [
+      "livre"
+    ]
+  },
+  "sac": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Récipient souple pour transporter.",
+    "antonyms": [
+      "poche"
+    ]
+  },
+  "manteau": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Vêtement de dessus.",
+    "antonyms": [
+      "pantalon"
+    ]
+  },
+  "pantalon": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Vêtement pour le bas du corps.",
+    "antonyms": [
+      "jupe"
+    ]
+  },
+  "chapeau": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couvre-chef.",
+    "antonyms": [
+      "casquette"
+    ]
+  },
+  "chien": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Animal domestique fidèle.",
+    "antonyms": [
+      "chat"
+    ]
+  },
+  "chat": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Félin domestique.",
+    "antonyms": [
+      "chien"
+    ]
+  },
+  "cheval": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Mammifère solipède.",
+    "antonyms": [
+      "vache"
+    ]
+  },
+  "oiseau": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Animal vertébré à plumes.",
+    "antonyms": [
+      "poisson"
+    ]
+  },
+  "poisson": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Animal aquatique à nageoires.",
+    "antonyms": [
+      "oiseau"
+    ]
   },
   "arbre": {
     "gender": "Masculin",
-    "article": "l'",
-    "definition": "Végétal ligneux possédant un tronc et des branches.",
-    "antonyms": [],
-    "plural": "arbres",
-    "level": "A2"
+    "level": "A1",
+    "definition": "Végétal ligneux.",
+    "antonyms": [
+      "fleur"
+    ]
+  },
+  "jardin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Terrain cultivé.",
+    "antonyms": [
+      "maison"
+    ]
+  },
+  "parc": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Espace vert public.",
+    "antonyms": [
+      "rue"
+    ]
+  },
+  "vent": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Déplacement d'air.",
+    "antonyms": [
+      "calme"
+    ]
+  },
+  "feu": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Combustion produisant de la chaleur.",
+    "antonyms": [
+      "eau"
+    ]
+  },
+  "ciel": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Espace visible au-dessus de la Terre.",
+    "antonyms": [
+      "terre"
+    ]
+  },
+  "jour": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Période de clarté.",
+    "antonyms": [
+      "nuit"
+    ]
+  },
+  "matin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Début de la journée.",
+    "antonyms": [
+      "soir"
+    ]
+  },
+  "soir": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Fin de la journée.",
+    "antonyms": [
+      "matin"
+    ]
+  },
+  "mois": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Douzième partie de l'année.",
+    "antonyms": [
+      "année"
+    ]
+  },
+  "an": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Période de douze mois.",
+    "antonyms": [
+      "mois"
+    ]
+  },
+  "siècle": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Période de cent ans.",
+    "antonyms": [
+      "année"
+    ]
+  },
+  "temps": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Dimension de la durée.",
+    "antonyms": [
+      "espace"
+    ]
+  },
+  "travail": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Activité humaine productive.",
+    "antonyms": [
+      "repos"
+    ]
+  },
+  "repos": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Inactivité réparatrice.",
+    "antonyms": [
+      "travail"
+    ]
+  },
+  "pain": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Aliment à base de farine.",
+    "antonyms": [
+      "eau"
+    ]
+  },
+  "fromage": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Produit laitier.",
+    "antonyms": [
+      "lait"
+    ]
+  },
+  "lait": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Liquide blanc nutritif.",
+    "antonyms": [
+      "eau"
+    ]
+  },
+  "café": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Boisson chaude stimulante.",
+    "antonyms": [
+      "thé"
+    ]
+  },
+  "thé": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Boisson d'infusion.",
+    "antonyms": [
+      "café"
+    ]
+  },
+  "repas": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Nourriture prise à des heures fixes.",
+    "antonyms": [
+      "jeûne"
+    ]
+  },
+  "restaurant": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Établissement servant des repas.",
+    "antonyms": [
+      "maison"
+    ]
+  },
+  "hôtel": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Établissement d'hébergement.",
+    "antonyms": [
+      "maison"
+    ]
+  },
+  "train": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Transport ferroviaire.",
+    "antonyms": [
+      "avion"
+    ]
+  },
+  "avion": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Aéronef à moteur.",
+    "antonyms": [
+      "bateau"
+    ]
+  },
+  "bateau": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Engin flottant.",
+    "antonyms": [
+      "avion"
+    ]
+  },
+  "voyage": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Déplacement au loin.",
+    "antonyms": [
+      "séjour"
+    ]
+  },
+  "bruit": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ensemble de sons confus.",
+    "antonyms": [
+      "silence"
+    ]
+  },
+  "silence": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Absence totale de bruit.",
+    "antonyms": [
+      "bruit"
+    ]
+  },
+  "courage": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Fermeté face au danger.",
+    "antonyms": [
+      "peur"
+    ]
+  },
+  "problème": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Question à résoudre.",
+    "antonyms": [
+      "solution"
+    ]
+  },
+  "projet": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Idée de ce qu'on veut réaliser.",
+    "antonyms": [
+      "passé"
+    ]
+  },
+  "sourire": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Expression de satisfaction.",
+    "antonyms": [
+      "grimace"
+    ]
+  },
+  "rêve": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Production de l'esprit en dormant.",
+    "antonyms": [
+      "réalité"
+    ]
+  },
+  "monde": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ensemble de tout ce qui existe.",
+    "antonyms": [
+      "solitude"
+    ]
+  },
+  "pays": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Territoire d'une nation.",
+    "antonyms": [
+      "ville"
+    ]
+  },
+  "village": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Agglomération rurale.",
+    "antonyms": [
+      "ville"
+    ]
+  },
+  "mur": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ouvrage de maçonnerie vertical.",
+    "antonyms": [
+      "sol"
+    ]
+  },
+  "sol": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Surface sur laquelle on marche.",
+    "antonyms": [
+      "plafond"
+    ]
+  },
+  "plafond": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Surface supérieure d'une pièce.",
+    "antonyms": [
+      "sol"
+    ]
+  },
+  "lit": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Meuble pour dormir.",
+    "antonyms": [
+      "chaise"
+    ]
   }
 }

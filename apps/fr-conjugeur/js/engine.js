@@ -226,17 +226,36 @@ class ConjugationEngine {
 
         const pronounsMap = {
             pres: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
+            indicatif_present: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             imp: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
+            indicatif_imparfait: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             pc: ["j'", "tu", "il/elle", "nous", "vous", "ils/elles"],
             fut: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
+            indicatif_futur_simple: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             subj: ["que je", "que tu", "qu'il/elle", "que nous", "que vous", "qu'ils/elles"],
+            subjonctif_present: ["que je", "que tu", "qu'il/elle", "que nous", "que vous", "qu'ils/elles"],
             cond: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
+            conditionnel_present: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             impv: ["(2e pers.)", "(1re pl.)", "(2e pl.)"],
-            part: ["Présent", "Passé"]
+            imperatif: ["(2e pers.)", "(1re pl.)", "(2e pl.)"],
+            part: ["Présent", "Passé"],
+            participe_passe: ["Passé"]
+        };
+
+        const tenseIdMap = {
+            indicatif_present: "pres",
+            indicatif_imparfait: "imp",
+            indicatif_futur_simple: "fut",
+            conditionnel_present: "cond",
+            subjonctif_present: "subj",
+            imperatif: "impv",
+            participe_passe: "part",
+            pres: "pres", imp: "imp", pc: "pc", fut: "fut", subj: "subj", cond: "cond", impv: "impv", part: "part"
         };
 
         for (const [tenseKey, forms] of Object.entries(data.tenses)) {
-            const listEl = document.getElementById(`tense-${tenseKey}`);
+            const targetId = tenseIdMap[tenseKey] || tenseKey;
+            const listEl = document.getElementById(`tense-${targetId}`);
             if (listEl) {
                 listEl.innerHTML = forms.map((form, idx) => {
                     const formattedForm = this.formatColorCodedForm(form, infinitive);

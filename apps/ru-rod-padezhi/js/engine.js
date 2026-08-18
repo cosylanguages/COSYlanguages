@@ -96,23 +96,27 @@ class RussianGenderCasesEngine {
         } else document.getElementById('antonyms-container').style.display = 'none';
 
         const caseMeta = [
-            { key: 'nom', name: 'Именительный', q: 'Кто? Что?' },
-            { key: 'gen', name: 'Родительный', q: 'Кого? Чего?' },
-            { key: 'dat', name: 'Дательный', q: 'Кому? Чему?' },
-            { key: 'acc', name: 'Винительный', q: 'Кого? Что?' },
-            { key: 'inst', name: 'Творительный', q: 'Кем? Чем?' },
-            { key: 'prep', name: 'Предложный', q: 'О ком? О чём?' }
+            { sing: 'nom_sing', plur: 'nom_plur', legacy: 'nom', name: 'Именительный', q: 'Кто? Что?' },
+            { sing: 'gen_sing', plur: 'gen_plur', legacy: 'gen', name: 'Родительный', q: 'Кого? Чего?' },
+            { sing: 'dat_sing', plur: 'dat_plur', legacy: 'dat', name: 'Дательный', q: 'Кому? Чему?' },
+            { sing: 'acc_sing', plur: 'acc_plur', legacy: 'acc', name: 'Винительный', q: 'Кого? Что?' },
+            { sing: 'ins_sing', plur: 'ins_plur', legacy: 'inst', name: 'Творительный', q: 'Кем? Чем?' },
+            { sing: 'pre_sing', plur: 'pre_plur', legacy: 'prep', name: 'Предложный', q: 'О ком? О чём?' }
         ];
 
         const tbody = document.getElementById('cases-table-body');
-        tbody.innerHTML = caseMeta.map(c => `
+        tbody.innerHTML = caseMeta.map(c => {
+            let singVal = data.cases[c.sing] || (data.cases[c.legacy] ? data.cases[c.legacy][0] : '-');
+            let plurVal = data.cases[c.plur] || (data.cases[c.legacy] ? data.cases[c.legacy][1] : '-');
+            return `
             <tr>
                 <td><strong>${c.name}</strong></td>
                 <td style="color: var(--ink-muted);">${c.q}</td>
-                <td>${this.formatColorCoded(data.cases[c.key][0])}</td>
-                <td>${this.formatColorCoded(data.cases[c.key][1])}</td>
+                <td>${this.formatColorCoded(singVal)}</td>
+                <td>${this.formatColorCoded(plurVal)}</td>
             </tr>
-        `).join('');
+        `;
+        }).join('');
     }
 
     toggleGameMode() {
