@@ -88,6 +88,15 @@ class RussianConjugationEngine {
         document.getElementById('verb-infinitive').textContent = verb;
         document.getElementById('verb-group-badge').textContent = data.group;
         document.getElementById('verb-aspect-badge').textContent = `Пара: ${data.pair}`;
+
+        let levelBadge = document.getElementById('verb-cefr-badge');
+        if (!levelBadge) {
+            levelBadge = document.createElement('span');
+            levelBadge.id = 'verb-cefr-badge';
+            levelBadge.className = 'badge cefr-badge';
+            document.getElementById('verb-aspect-badge').insertAdjacentElement('afterend', levelBadge);
+        }
+        levelBadge.textContent = `Уровень: ${data.level || 'A1'}`;
         document.getElementById('verb-definition').textContent = data.definition;
 
         const antonymsBox = document.getElementById('antonyms-pills');

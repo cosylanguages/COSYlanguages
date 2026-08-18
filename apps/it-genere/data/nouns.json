@@ -7,7 +7,8 @@
       "luna",
       "notte"
     ],
-    "plural": "soli"
+    "plural": "soli",
+    "level": "A1"
   },
   "luna": {
     "gender": "Femminile",
@@ -16,13 +17,15 @@
     "antonyms": [
       "sole"
     ],
-    "plural": "lune"
+    "plural": "lune",
+    "level": "A1"
   },
   "libro": {
     "gender": "Maschile",
     "article": "il",
     "definition": "Insieme di fogli stampati e rilegati.",
     "antonyms": [],
-    "plural": "libri"
+    "plural": "libri",
+    "level": "A2"
   }
 }

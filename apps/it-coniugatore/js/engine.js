@@ -88,6 +88,15 @@ class ItalianConjugationEngine {
         document.getElementById('verb-infinitive').textContent = verb;
         document.getElementById('verb-group-badge').textContent = data.group;
         document.getElementById('verb-aux-badge').textContent = `Ausiliare: ${data.auxiliary}`;
+
+        let levelBadge = document.getElementById('verb-cefr-badge');
+        if (!levelBadge) {
+            levelBadge = document.createElement('span');
+            levelBadge.id = 'verb-cefr-badge';
+            levelBadge.className = 'badge cefr-badge';
+            document.getElementById('verb-aux-badge').insertAdjacentElement('afterend', levelBadge);
+        }
+        levelBadge.textContent = `Livello: ${data.level || 'A1'}`;
         document.getElementById('verb-definition').textContent = data.definition;
 
         const antonymsBox = document.getElementById('antonyms-pills');

@@ -7,7 +7,8 @@
       "lune",
       "nuit"
     ],
-    "plural": "soleils"
+    "plural": "soleils",
+    "level": "A1"
   },
   "lune": {
     "gender": "Féminin",
@@ -16,20 +17,23 @@
     "antonyms": [
       "soleil"
     ],
-    "plural": "lunes"
+    "plural": "lunes",
+    "level": "A1"
   },
   "maison": {
     "gender": "Féminin",
     "article": "la",
     "definition": "Bâtiment destiné à servir d'habitation.",
     "antonyms": [],
-    "plural": "maisons"
+    "plural": "maisons",
+    "level": "A1"
   },
   "arbre": {
     "gender": "Masculin",
     "article": "l'",
     "definition": "Végétal ligneux possédant un tronc et des branches.",
     "antonyms": [],
-    "plural": "arbres"
+    "plural": "arbres",
+    "level": "A2"
   }
 }

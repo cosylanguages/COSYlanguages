@@ -67,6 +67,15 @@ class NounGenderEngine {
 
         const badge = document.getElementById('gender-badge');
         badge.textContent = data.gender === 'Masculin' ? '♂️ Masculin (Le / Un)' : '♀️ Féminin (La / Une)';
+
+        let levelBadge = document.getElementById('noun-cefr-badge');
+        if (!levelBadge) {
+            levelBadge = document.createElement('span');
+            levelBadge.id = 'noun-cefr-badge';
+            levelBadge.className = 'badge cefr-badge';
+            badge.insertAdjacentElement('afterend', levelBadge);
+        }
+        levelBadge.textContent = `Niveau : ${data.level || 'A1'}`;
         badge.className = `badge ${data.gender === 'Masculin' ? 'gender-masc' : 'gender-fem'}`;
 
         document.getElementById('noun-definition').textContent = data.definition;

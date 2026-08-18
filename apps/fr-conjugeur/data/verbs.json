@@ -39,8 +39,34 @@
         "nous parlerons",
         "vous parlerez",
         "ils/elles parleront"
+      ],
+      "subj": [
+        "que je parle",
+        "que tu parles",
+        "qu'il/elle parle",
+        "que nous parlions",
+        "que vous parliez",
+        "qu'ils/elles parlent"
+      ],
+      "cond": [
+        "je parlerais",
+        "tu parlerais",
+        "il/elle parlerait",
+        "nous parlerions",
+        "vous parleriez",
+        "ils/elles parleraient"
+      ],
+      "impv": [
+        "parle",
+        "parlons",
+        "parlez"
+      ],
+      "part": [
+        "parlant",
+        "parlé"
       ]
-    }
+    },
+    "level": "A1"
   },
   "aimer": {
     "group": "1er groupe (-er)",
@@ -82,8 +108,34 @@
         "nous aimerons",
         "vous aimerez",
         "ils/elles aimeront"
+      ],
+      "subj": [
+        "que j'aime",
+        "que tu aimes",
+        "qu'il/elle aime",
+        "que nous aimions",
+        "que vous aimiez",
+        "qu'ils/elles aiment"
+      ],
+      "cond": [
+        "j'aimerais",
+        "tu aimerais",
+        "il/elle aimerait",
+        "nous aimerions",
+        "vous aimeriez",
+        "ils/elles aimeraient"
+      ],
+      "impv": [
+        "aime",
+        "aimons",
+        "aimez"
+      ],
+      "part": [
+        "aimant",
+        "aimé"
       ]
-    }
+    },
+    "level": "A1"
   },
   "manger": {
     "group": "1er groupe (-er)",
@@ -124,7 +176,33 @@
         "nous mangerons",
         "vous mangerez",
         "ils/elles mangeront"
+      ],
+      "subj": [
+        "que je mange",
+        "que tu manges",
+        "qu'il/elle mange",
+        "que nous mangions",
+        "que vous mangiez",
+        "qu'ils/elles mangent"
+      ],
+      "cond": [
+        "je mangerais",
+        "tu mangerais",
+        "il/elle mangerait",
+        "nous mangerions",
+        "vous mangeriez",
+        "ils/elles mangeraient"
+      ],
+      "impv": [
+        "mange",
+        "mangons",
+        "mangez"
+      ],
+      "part": [
+        "mangant",
+        "mangé"
       ]
-    }
+    },
+    "level": "A1"
   }
 }

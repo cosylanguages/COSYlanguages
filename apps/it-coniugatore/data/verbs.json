@@ -39,8 +39,34 @@
         "noi parleremo",
         "voi parlerete",
         "loro parleranno"
+      ],
+      "subj": [
+        "che io parli",
+        "che tu parli",
+        "che lui/lei parli",
+        "che noi parliamo",
+        "che voi parliate",
+        "che loro parlino"
+      ],
+      "cond": [
+        "io parlerei",
+        "tu parleresti",
+        "lui/lei parlerebbe",
+        "noi parleremmo",
+        "voi parlereste",
+        "loro parlerebbero"
+      ],
+      "impv": [
+        "parla",
+        "parliamo",
+        "parlate"
+      ],
+      "part": [
+        "parlante",
+        "parlato"
       ]
-    }
+    },
+    "level": "A1"
   },
   "amare": {
     "group": "1ª coniugazione (-are)",
@@ -81,7 +107,33 @@
         "noi ameremo",
         "voi amerete",
         "loro ameranno"
+      ],
+      "subj": [
+        "che io ami",
+        "che tu ami",
+        "che lui/lei ami",
+        "che noi amiamo",
+        "che voi amiate",
+        "che loro amino"
+      ],
+      "cond": [
+        "io amerei",
+        "tu ameresti",
+        "lui/lei amerebbe",
+        "noi ameremmo",
+        "voi amereste",
+        "loro amerebbero"
+      ],
+      "impv": [
+        "ama",
+        "amiamo",
+        "amate"
+      ],
+      "part": [
+        "amante",
+        "amato"
       ]
-    }
+    },
+    "level": "A2"
   }
 }
