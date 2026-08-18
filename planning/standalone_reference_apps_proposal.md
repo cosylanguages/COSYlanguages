@@ -1,7 +1,7 @@
-# Architectural Proposal: Standalone Language Reference Apps
-**Products:** Standalone Conjugation & Gender/Declension Apps (*Verbi* & *Genus*)
-**Languages:** French (`fr`), Italian (`it`), Russian (`ru`), Greek (`el`)
-**Target Platform:** Independent Static Web PWAs (GitHub Pages / Subdomains) & Native Mobile/Desktop Wrappers (Capacitor / Tauri)
+# Architectural Proposal: Language-Specific Standalone Reference Apps
+**Products:** 8 Language-Dedicated Standalone Apps (2 Apps per Language: Conjugation & Gender/Declension)
+**Target Languages:** French (`fr`), Italian (`it`), Russian (`ru`), Greek (`el`)
+**Target Platform:** Independent Web PWAs (Pinned / Installed) & Direct Native Downloads (iOS / Android / macOS / Windows)
 **Author:** COSYlanguages Architecture Team
 **Date:** February 2027
 
@@ -9,224 +9,88 @@
 
 ## 1. Executive Summary & Vision
 
-The objective of this initiative is to design and deploy two specialized, lightweight, ultra-fast language reference tools modeled after popular utilities like *Le Conjugeur*, *Le La*, and *Der Die Das*:
+To deliver maximum speed, simplicity, and zero-distraction focus, **each language will feature 2 completely separate, dedicated standalone applications** (total 8 distinct apps across the 4 target languages).
 
-1. **`Verbi` (Conjugation Reference Engine):**
-   Allows learners to search any verb in its infinitive or conjugated form across **French, Italian, Russian, and Greek**. Displays full conjugation paradigms across all moods and tenses, highlighting stems, irregular inflections, auxiliary verbs (*être/avoir*, *essere/avere*), aspectual pairs (Russian *НСВ/СВ*), and accentuation patterns.
+Rather than bundling multiple languages into a single complex app, every tool is built as an independent, single-purpose application dedicated to a single language and morphological task:
 
-2. **`Genus` (Gender & Case Declension Engine):**
-   Allows learners to type any noun, adjective, or pronoun to instantly view its grammatical gender, definite/indefinite articles, and complete declension tables (including all 6 Russian cases and 4 Greek cases in both singular and plural).
-
-### Key Directives
-* **Strict Independence:** These tools must **not** be integrated into the main `cosylanguages.github.io` website navigation or main portal. They will exist as standalone apps hosted on dedicated GitHub repositories, independent subdomains (e.g., `verbi.app`, `genus.app`, or `conjugate.cosylanguages.com`), or standalone PWAs.
-* **Offline-First & Serverless:** Designed to run 100% client-side without external API calls or database server dependencies, fully compatible with GitHub Pages hosting.
-* **Instantaneous Latency:** Search and lookup response times must be under 50ms, with instant lemmatization (resolving conjugated/declined input to its dictionary lemma).
+### Application Matrix (8 Standalone Apps)
+| Language | App 1: Conjugation Engine | App 2: Gender & Declension Engine |
+|---|---|---|
+| **French (`fr`)** | **`fr-conjugeur`** (Conjugaison complète) | **`fr-genre`** (Genre & Pluriels) |
+| **Italian (`it`)** | **`it-coniugatore`** (Conjugazione dei verbi) | **`it-genere`** (Genere & Preposizioni) |
+| **Russian (`ru`)** | **`ru-спряжение`** (Спряжение глаголов & Аспект) | **`ru-род-падежи`** (Род, Одушевлённость & 6 Падежей) |
+| **Greek (`el`)** | **`el-κλίση-ρημάτων`** (Κλίση ρημάτων & Φωνές) | **`el-γένος-πτώσεις`** (Γένος & 4 Πτώσεις) |
 
 ---
 
-## 2. Standalone Hosting & App Distribution Architecture
+## 2. PWA Pinning & Direct Native Download Architecture
 
-Since GitHub Pages serves purely static content (HTML/CSS/JS/WASM) without a server-side runtime or database engine (like PostgreSQL or Node.js), the applications will leverage a **Client-Side Heavy, Pre-compiled Data Architecture**.
+Users across **all devices** (iOS, Android, macOS, Windows, Linux) must be able to **pin to home screen / taskbar** and/or **download direct native installers**, completely independent of the main `cosylanguages.github.io` website.
 
 ```
-                         [ GitHub Repository / Actions CI/CD ]
-                                          │
-                  ┌───────────────────────┴───────────────────────┐
-                  ▼                                               ▼
-      [ Data Pre-compilation Pipeline ]               [ Web & Native Deployment ]
-   - Extracts Wiktionary / UniMorph Dumps            - GitHub Pages (Static Hosting)
-   - Generates Compressed SQLite / JSON              - Standalone PWA (Offline Cache)
-   - Builds Suffix Rule Engines                      - Capacitor / Tauri (iOS / Android / Desktop)
-                  │                                               │
-                  └───────────────────────┬───────────────────────┘
-                                          ▼
-                                [ Client-Side App Engine ]
-                           - WebWorker Fuzzy Search Index
-                           - wa-sqlite / In-Memory JSON Lookup
-                           - Direct DOM Rendering (<50ms)
+                                  [ 8 Independent GitHub Repositories ]
+                                                    │
+                ┌───────────────────────────────────┴───────────────────────────────────┐
+                ▼                                                                       ▼
+    [ Progressive Web App (PWA) ]                                          [ Direct Downloadable Installers ]
+ - Distinct manifest.json & icon per app                                - Native Mobile: Android (.apk), iOS (.ipa via TestFlight)
+ - Standalone Service Worker (100% Offline)                            - Native Desktop: Windows (.exe), macOS (.dmg), Linux (.AppImage)
+ - Browser "Install / Pin to Home Screen"                               - Pre-packaged via GitHub Actions CI (Capacitor & Tauri)
 ```
 
-### 2.1 Deployment Channels
-1. **Dedicated GitHub Repositories & Subdomains:**
-   * Repository 1: `github.com/cosylanguages/verbi-app` -> Hosted at `verbi.cosylanguages.com` or custom domain.
-   * Repository 2: `github.com/cosylanguages/genus-app` -> Hosted at `genus.cosylanguages.com` or custom domain.
-   * Keeps codebase, styling, service workers, and assets completely isolated from the main COSYlanguages ecosystem.
+### 2.1 Multi-Device Pinning & Installation Mechanisms
+1. **Web PWA Pinning (Instant & Zero-Install):**
+   * Each of the 8 apps possesses its own `manifest.json`, custom app icon, theme color, and dedicated Service Worker (`sw.js`).
+   * **iOS (Safari / Chrome):** Users tap *Share -> Add to Home Screen*. App installs with native splash screen, no URL bar, and independent icon.
+   * **Android (Chrome / Edge / Firefox):** Prompts an "Install App" banner; installs directly into the app drawer and home screen.
+   * **macOS / Windows / Linux (Chrome / Edge / Brave):** Displays an "Install App" icon in the address bar, pinning the app to the Dock or Windows Start Menu / Taskbar.
 
-2. **Progressive Web App (PWA) Standalone Installation:**
-   * Each app includes its own `manifest.json` and standalone Service Worker (`sw.js`).
-   * Users can click "Add to Home Screen" on iOS, Android, macOS, or Windows to run the tool as an independent desktop or mobile application with zero browser chrome and 100% offline access.
-
-3. **Native Mobile & Desktop Distribution (Capacitor / Tauri):**
-   * **Capacitor (Ionic):** Wraps the static HTML/JS build into native iOS (`.ipa`) and Android (`.apk` / `.aab`) packages without rewriting code.
-   * **Tauri / Electron:** Wraps the static web app into lightweight native desktop executables for macOS (`.dmg`), Windows (`.exe`), and Linux (`.AppImage`).
-   * Continuous Integration (CI) via GitHub Actions automatically compiles and attaches executable releases on every code tag.
+2. **Direct Executable / Native Package Downloads:**
+   * For users who prefer downloading a traditional binary installer rather than a web shortcut:
+     * **Mobile Binaries:** Automated GitHub Actions build native Android `.apk` files and iOS `.ipa` builds using **Capacitor**. Hosted on the app's GitHub Releases tab.
+     * **Desktop Executables:** Automated builds generate lightweight Windows `.exe` installers, macOS `.dmg` disk images, and Linux `.AppImage` files using **Tauri**.
 
 ---
 
-## 3. Storage & Search Performance Options
+## 3. Data Sourcing & Offline Client-Side Query Engines
 
-To query tens of thousands of morphological forms without server calls, three client-side data strategies are proposed:
+Since all 8 apps run 100% serverless on GitHub static hosting or offline as native binaries, data query speeds are optimized for <15ms response times using client-side pre-compiled databases.
 
-| Strategy | Technology | Initial Download | Search Speed | Memory Usage | Best For |
-|---|---|---|---|---|---|
-| **Option A: Compressed SQLite WASM** | `wa-sqlite` / `sql.js` + Gzip SQLite DB | ~3.5 MB per language | < 5ms (Indexed SQL) | Low (~15-20 MB) | Full morphological coverage (100k+ forms) |
-| **Option B: Chunked JSON + WebWorkers** | IndexedDB + Chunked JSON Hash Maps | ~2.0 MB per language | < 15ms | Medium (~30 MB) | Mid-size vocabulary (25k key lemmas) |
-| **Option C: Rule-Based Engine + Exception List** | JS Paradigm Engine + Mini JSON Exceptions | ~300 KB per language | < 2ms | Ultra Low (~5 MB) | Highly regular languages (FR/IT standard verbs) |
+### 3.1 Data Architecture per App Type
+* **Conjugation Apps (`fr-conjugeur`, `it-coniugatore`, `ru-спряжение`, `el-κλίση-ρημάτων`):**
+  * **Engine:** Hybrid JS Rule Engine + Mini Irregular JSON Dictionary.
+  * **Size:** ~300 KB - 800 KB per app bundle.
+  * **Instant Lemmatization:** Entering a conjugated verb form (e.g., French *suis*, Italian *andavo*, Russian *писал*, Greek *έγραψα*) instantly resolves to the infinitive and renders the complete tense grid.
 
-### Recommended Hybrid Model
-* **Conjugation (`Verbi`):** **Option C + Option B Exception List**. Conjugation rules in French and Italian follow strict group patterns; rule engines generate 90% of forms dynamically, while irregular verbs (*être, avoir, andare, essere, être, etc.*) and stem-changing verbs are retrieved from a fast JSON index.
-* **Gender & Declension (`Genus`):** **Option A (SQLite WASM via `wa-sqlite`)**. Noun genders and case declension tables require exact stored forms for irregular plurals and stress shifts (especially in Russian and Greek).
-
----
-
-## 4. Deep-Dive: Target Language Mechanics & Features
-
-### 4.1 French (`fr`)
-
-#### Conjugation Engine (`Verbi`)
-* **3 Conjugation Groups:** 1st (-er), 2nd (-ir / -issant), 3rd (irregular -re, -oir, -ir).
-* **Modes & Tenses Covered:**
-  * *Indicatif:* Présent, Imparfait, Passé simple, Futur simple, Passé composé, Plus-que-parfait, Futur antérieur, Passé antérieur.
-  * *Subjonctif:* Présent, Imparfait, Passé, Plus-que-parfait.
-  * *Conditionnel:* Présent, Passé (1re & 2e formes).
-  * *Impératif:* Présent, Passé.
-  * *Participes & Gérondif:* Présent, Passé.
-* **Auxiliary Detection:** Automatic indicator for *être* vs *avoir* verbs, including dual-auxiliary verbs (*passer, monter, descendre*).
-
-#### Gender & Declension Engine (`Genus`)
-* **Gender Lookup:** Instant determination of Masculine vs Feminine (*le / la / l'*).
-* **Plural Rules:** Regular (-s), exceptions (-x, -aux, -eux), and invariant nouns.
-* **Adjective Agreement:** Dynamic grid showing Masc. Sing., Fem. Sing., Masc. Plur., Fem. Plur.
+* **Gender & Declension Apps (`fr-genre`, `it-genere`, `ru-род-падежи`, `el-γένος-πτώσεις`):**
+  * **Engine:** Client-side SQLite WASM database (`wa-sqlite`) or compressed IndexedDB hash tables extracted from Kaikki.org / UniMorph dumps.
+  * **Size:** ~2.5 MB - 4.5 MB per app database (cached 100% offline on first load).
+  * **Instant Search:** Typing any noun, adjective, or pronoun displays grammatical gender, articles, and complete declension/plural paradigms.
 
 ---
 
-### 4.2 Italian (`it`)
+## 4. Feature Deep-Dive per Language Pair
 
-#### Conjugation Engine (`Verbi`)
-* **3 Conjugations:** *-are*, *-ere*, *-ire* (including *-isc-* present tense infixes, e.g., *capire -> capisco*).
-* **Modes & Tenses Covered:**
-  * *Indicativo:* Presente, Imperfetto, Passato remoto, Futuro semplice, Passato prossimo, Trapassato prossimo, Trapassato remoto, Futuro anteriore.
-  * *Congiuntivo:* Presente, Imperfetto, Passato, Trapassato.
-  * *Condizionale:* Presente, Passato.
-  * *Imperativo:* Presente.
-  * *Gerundio & Participio:* Presente, Passato.
-* **Auxiliary Selector:** Explicit visual indicator for *essere* vs *avere* in compound tenses.
+### 4.1 French
+* **`fr-conjugeur`:** Covers all 3 verb groups, active/passive voice, reflexives (*se laver*), and compound tenses with automatic auxiliary selection (*être* vs *avoir*).
+* **`fr-genre`:** Noun gender search (*le / la / l'*), plural exceptions (*-x, -aux*), and adjective gender agreement matrices.
 
-#### Gender & Declension Engine (`Genus`)
-* **Articles & Gender:** Masculine (*il, lo, l'*) and Feminine (*la, l'*).
-* **Plural Formations:** Regular transformations (*-o -> -i*, *-a -> -e*, *-e -> -i*) and irregular plurals (*uovo -> uova*, *braccio -> braccia*).
-* **Prepositional Combination Matrix (Preposizioni Articolate):** Interactive lookup matrix for *a, da, di, in, su* combined with articles (*al, dello, nella, sul, etc.*).
+### 4.2 Italian
+* **`it-coniugatore`:** *-are*, *-ere*, *-ire* (with *-isc-* present infixes), subjunctive (*congiuntivo*), conditional, and *essere/avere* auxiliary flags.
+* **`it-genere`:** Noun/adjective genders (*il, lo, la, l'*), irregular plurals (*uovo -> uova*), and combined preposition matrix (*preposizioni articolate*).
 
----
+### 4.3 Russian
+* **`ru-спряжение`:** 1st/2nd conjugations, stem mutations (*писать -> пишу*), aspectual pairs (НСВ/СВ), and explicit stress accent marks on every conjugated form.
+* **`ru-род-падежи`:** Gender (Masc/Fem/Neut/Common), Animacy tags (Oduševlënnoe), and full 6-case declension grids (Именительный, Родительный, Дательный, Винительный, Творительный, Предложный) in Singular and Plural with stress marks.
 
-### 4.3 Russian (`ru`)
-
-#### Conjugation Engine (`Verbi`)
-* **1st & 2nd Conjugation Classes:** Dynamic stem mutation highlights (*читать -> читаю*, *писать -> пишу*, *любить -> люблю*).
-* **Aspectual Pairs (Видовые пары):** Side-by-side comparison of Imperfective (НСВ) and Perfective (СВ) verbs (e.g. *делать / сделать*, *говорить / сказать*).
-* **Tense System:** Past (gender-congruent endings *-л, -ла, -ло, -ли*), Present, and Future (compound for НСВ vs simple for СВ).
-* **Stress Marks (Ударения):** Critical visual accent marks on every single conjugated form and stress movement indicators (e.g. *купи́ть -> ку́пишь*).
-
-#### Gender & Case Declension Engine (`Genus`)
-* **Gender & Animacy:** Masculine, Feminine, Neuter, Common gender (*общий род*) + Animate (*одушевлённое*) vs Inanimate (*неодушевлённое*) tags.
-* **Full 6-Case Declension Matrix (Падежные таблицы):**
-  1. *Именительный* (Nominative)
-  2. *Родительный* (Genitive)
-  3. *Дательный* (Dative)
-  4. *Винительный* (Accusative - with automatic animate/inanimate adjective-noun agreement shifts)
-  5. *Творительный* (Instrumental)
-  6. *Предложный* (Prepositional)
-* **Full Paradigm Support:** Nouns, Adjectives, Pronouns, and Numerals in both Singular and Plural with explicit stress accents.
+### 4.4 Greek
+* **`el-κλίση-ρημάτων`:** Active & Passive voices (*Ενεργητική/Παθητική φωνή*), Aorist stem shifts (*γράφω -> έγραψα*), all 8 tenses, and strict 3-syllable accent shifting rules.
+* **`el-γένος-πτώσεις`:** Noun genders (*ο, η, το*), 4-case declension grids (Ονομαστική, Γενική, Αιτιατική, Κλητική), and imparisyllabic noun declension classes.
 
 ---
 
-### 4.4 Greek (`el`)
+## 5. Summary & Action Plan
 
-#### Conjugation Engine (`Verbi`)
-* **Conjugation Classes:** Type A' (*-ω / -ομαι*, e.g., *γράφω*) and Type B' (*-ώ, -άω / -ιέμαι, -ούμαι*, e.g., *αγαπώ / αγαπάω*).
-* **Voices (Φωνές):** Active Voice (*Ενεργητική φωνή*) and Passive/Deponent Voice (*Παθητική / Μέση φωνή*).
-* **Tenses Covered:**
-  * *Ενεστώτας* (Present)
-  * *Παρατατικός* (Imperfect)
-  * *Συντελεσμένος Μέλλοντας* (Future Continuous)
-  * *Στιγμιαίος Μέλλοντας* (Future Simple)
-  * *Αόριστος* (Aorist - showing critical stem transformations like *γράφω -> έγραψα*)
-  * *Παρακείμενος* (Present Perfect)
-  * *Υπερσυντέλικος* (Past Perfect)
-  * *Συντελεσμένος Μέλλοντας* (Future Perfect)
-* **Stress Accents (Τόνοι):** Strict accentuation rule validation (three-syllable accent shifting rules).
-
-#### Gender & Case Declension Engine (`Genus`)
-* **Gender & Articles:** Masculine (*ο*), Feminine (*η*), Neuter (*το*).
-* **4-Case Declension Matrix (Πτώσεις):**
-  1. *Ονομαστική* (Nominative)
-  2. *Γενική* (Genitive)
-  3. *Aιτιατική* (Accusative)
-  4. *Κλητική* (Vocative)
-* **Declension Groups:** Isosyllabic and Imparisyllabic noun declensions (*-ος, -ας, -ης, -α, -η, -ο, -μα, -ος neuter*) in Singular and Plural.
-
----
-
-## 5. UI / UX Design Specifications
-
-1. **Lightning-Fast Search Bar:**
-   * Global shortcut key (`/` or `Cmd+K`) to focus search immediately.
-   * Instant search-as-you-type with fuzzy matching.
-   * Auto-Lemmatization: Typing *suis* automatically loads *être*; typing *читал* automatically loads *читать*.
-
-2. **Visual Paradigm Grid:**
-   * Color-coded morphological components: **Stem** (neutral color), **Ending** (vibrant highlight color), **Irregular Shift** (alert color).
-   * Toggle between Compact Grid View and Detailed Grammar View.
-
-3. **Interactive Features:**
-   * **Copy Matrix:** Single-click copy of any form or full table to clipboard.
-   * **Favorites / History:** Save frequently referenced words locally via `localStorage`.
-   * **Text-to-Speech (TTS):** Integrated Web Speech API for native audio pronunciation of any conjugated form or case inflection.
-
----
-
-## 6. Data Sourcing & Extraction Pipelines
-
-To populate these dictionaries legally and comprehensively, we will build automated Python data extraction scripts under a private build workspace:
-
-1. **Wiktionary / Kaikki Open JSON Dumps:**
-   * Extract morphological JSON dumps from [Kaikki.org](https://kaikki.org/) (structured Wiktionary data).
-   * Filter entries by language tags (`fr`, `it`, `ru`, `el`) and POS (`verb`, `noun`, `adj`).
-
-2. **UniMorph Project Datasets:**
-   * Integrate universal morphological feature schemas (UniMorph) for high-precision inflection paradigm verification.
-
-3. **Build Script Workflow:**
-   ```
-   [ Kaikki JSON / UniMorph Dumps ]
-                 │
-                 ▼
-     scripts/data-build/extract_verbs.py
-     scripts/data-build/extract_nouns.py
-                 │
-                 ▼
-   [ SQLite / JSON Paradigm Bundles (~2-4 MB / lang) ]
-   ```
-
----
-
-## 7. Implementation Milestones
-
-| Phase | Milestone | Deliverables | Target Timeline |
-|---|---|---|---|
-| **Phase 1** | **Data Pipeline & Architecture** | Python extraction scripts for Kaikki dumps; SQLite/JSON schema design; Repository setup for `verbi-app` and `genus-app`. | Week 1 - 2 |
-| **Phase 2** | **`Verbi` Engine Development** | Client-side search & rendering core; Conjugation matrices for FR, IT, RU, EL; PWA offline support. | Week 3 - 4 |
-| **Phase 3** | **`Genus` Engine Development** | Gender lookup & full 4/6 case declension rendering grids for FR, IT, RU, EL; SQLite WASM integration. | Week 5 - 6 |
-| **Phase 4** | **Packaging & Deployment** | GitHub Actions CI/CD; PWA service worker finalization; Capacitor mobile packaging setup (`.apk`, `.ipa`). | Week 7 |
-
----
-
-## 8. Summary & Next Steps
-
-This blueprint guarantees that the new **`Verbi`** and **`Genus`** applications will fulfill all requirements:
-* Standalone operation completely separated from the main website.
-* Static hosting on GitHub Pages with 0 server costs.
-* Instant offline-first PWA and native app capabilities.
-* Comprehensive conjugation, gender, and case declension matrices across French, Italian, Russian, and Greek.
-
-Upon user approval of this architecture, initial data extraction pipelines and application templates can be initialized in standalone repositories.
+1. **8 Dedicated Repositories:** Host each app in a standalone repo (`cosylanguages/fr-conjugeur`, `cosylanguages/fr-genre`, etc.).
+2. **0 Server Dependencies:** Static PWA hosting via GitHub Pages + downloadable releases via GitHub Actions.
+3. **Cross-Device Availability:** 100% installable/pinnable as standalone PWAs or downloadable as native mobile APKs and desktop EXEs/DMGs.
