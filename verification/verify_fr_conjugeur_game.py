@@ -23,7 +23,7 @@ def run_cuj(page):
     page.wait_for_timeout(1000)
 
     # Take screenshot of color-coded endings
-    page.screenshot(path="/home/jules/verification/screenshots/fr_conjugeur_color_endings.png")
+    page.screenshot(path="verification/screenshots/fr_conjugeur_color_endings.png")
     page.wait_for_timeout(1000)
 
     # 2. Toggle Game Mode
@@ -31,7 +31,7 @@ def run_cuj(page):
     page.wait_for_timeout(1000)
 
     # Take screenshot of game mode UI
-    page.screenshot(path="/home/jules/verification/screenshots/fr_conjugeur_game_mode.png")
+    page.screenshot(path="verification/screenshots/fr_conjugeur_game_mode.png")
     page.wait_for_timeout(1000)
 
 if __name__ == "__main__":
@@ -41,9 +41,7 @@ if __name__ == "__main__":
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            record_video_dir="/home/jules/verification/videos"
-        )
+        context = browser.new_context()
         page = context.new_page()
         try:
             run_cuj(page)
