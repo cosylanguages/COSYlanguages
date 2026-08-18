@@ -11,6 +11,7 @@
     --ink-text: #212529;
     --ink-muted: #555b62;
     --terracotta: #b7094c;
+    --ending-highlight: #7209b7;
     --accent-gold: #d4a373;
     --border-color: #e0d8cc;
     --shadow-soft: 0 4px 15px rgba(27, 67, 50, 0.06);
@@ -57,6 +58,8 @@ body {
     padding-bottom: 1.5rem;
     border-bottom: 2px solid var(--border-color);
     margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .logo-badge {
@@ -83,6 +86,29 @@ body {
 .brand-text .tagline {
     font-size: 0.9rem;
     color: var(--ink-muted);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.mode-toggle-btn {
+    background-color: var(--cream-card);
+    border: 2px solid var(--sage-primary);
+    color: var(--sage-primary);
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.mode-toggle-btn:hover {
+    background-color: var(--sage-primary);
+    color: #ffffff;
 }
 
 .install-pwa-btn {
@@ -179,6 +205,154 @@ body {
 
 .suggestion-item:hover {
     background-color: var(--cream-card);
+}
+
+/* Practice Game Card */
+.game-card {
+    background: #ffffff;
+    border: 2px solid var(--accent-gold);
+    border-radius: var(--radius-card);
+    padding: 2rem;
+    box-shadow: var(--shadow-hover);
+    margin-bottom: 2rem;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.game-title h2 {
+    color: var(--sage-primary);
+    font-size: 1.6rem;
+}
+
+.game-title p {
+    color: var(--ink-muted);
+    font-size: 0.9rem;
+}
+
+.score-badge {
+    background-color: var(--cream-card);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--border-color);
+    display: flex;
+    gap: 1rem;
+    font-size: 0.95rem;
+}
+
+.streak {
+    color: var(--terracotta);
+}
+
+.game-prompt-box {
+    text-align: center;
+    background-color: var(--cream-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.prompt-label {
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.game-prompt-box h3 {
+    font-size: 2.2rem;
+    color: var(--sage-primary);
+    margin: 0.3rem 0;
+}
+
+.prompt-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.prompt-pronoun {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--terracotta);
+}
+
+.game-input-group {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.game-input-group input {
+    flex: 1;
+    padding: 0.8rem 1.2rem;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-pill);
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.game-input-group input:focus {
+    border-color: var(--sage-primary);
+}
+
+.game-btn {
+    background-color: var(--sage-primary);
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: var(--radius-pill);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.game-btn:hover {
+    background-color: var(--sage-light);
+}
+
+.secondary-btn {
+    background-color: var(--cream-card);
+    color: var(--sage-dark);
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+.secondary-btn:hover {
+    background-color: var(--accent-gold);
+    color: #ffffff;
+}
+
+.feedback-card {
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.feedback-card.correct {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.feedback-card.wrong {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
 }
 
 /* Verb Result Display Card */
@@ -297,6 +471,16 @@ body {
     color: #ffffff;
 }
 
+/* Pattern Recognition: Color-Coded Stem & Ending */
+.stem {
+    color: var(--sage-dark);
+}
+
+.ending {
+    color: var(--terracotta);
+    font-weight: 800;
+}
+
 /* Tense Grid Setup */
 .tense-grid-layout {
     display: flex;
@@ -354,7 +538,6 @@ body {
 
 .conjugation-list .verb-form {
     font-weight: 700;
-    color: var(--sage-dark);
 }
 
 /* Empty State */

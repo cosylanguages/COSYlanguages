@@ -19,20 +19,58 @@
                     <p class="tagline">Conjugaison instantanée & vocabulaire clair</p>
                 </div>
             </div>
-            <button id="pwa-install-btn" class="install-pwa-btn" style="display: none;">
-                📲 Installer L'application
-            </button>
+
+            <div class="header-actions">
+                <button id="toggle-game-btn" class="mode-toggle-btn" onclick="appEngine.toggleGameMode()">
+                    🎮 Mode Entraînement
+                </button>
+                <button id="pwa-install-btn" class="install-pwa-btn" style="display: none;">
+                    📲 Installer L'application
+                </button>
+            </div>
         </header>
 
         <!-- Search Bar -->
         <main class="app-main">
-            <section class="search-section">
+            <section id="search-section-container" class="search-section">
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
                     <input type="text" id="verb-search-input" placeholder="Tapez un verbe (ex: parler, suis, aller)..." autocomplete="off" autofocus>
                     <button id="clear-search-btn" class="clear-btn">&times;</button>
                 </div>
                 <div id="search-suggestions" class="suggestions-list"></div>
+            </section>
+
+            <!-- Practice Game View Container -->
+            <section id="game-container" class="game-card" style="display: none;">
+                <div class="game-header">
+                    <div class="game-title">
+                        <h2>🎮 Jeu d'Entraînement</h2>
+                        <p>Pratiquez votre reconnaissance des terminaisons conjuguées !</p>
+                    </div>
+                    <div class="score-badge">
+                        <span>Score : <strong id="game-score">0</strong></span>
+                        <span class="streak">🔥 Streak: <strong id="game-streak">0</strong></span>
+                    </div>
+                </div>
+
+                <div class="game-prompt-box">
+                    <span class="prompt-label">Conjuguez le verbe :</span>
+                    <h3 id="game-verb-prompt">parler</h3>
+                    <div class="prompt-details">
+                        <span id="game-tense-badge" class="badge">Présent</span>
+                        <span id="game-pronoun-prompt" class="prompt-pronoun">nous</span>
+                    </div>
+                </div>
+
+                <div class="game-input-group">
+                    <input type="text" id="game-answer-input" placeholder="Tapez votre réponse ici..." autocomplete="off">
+                    <button id="game-submit-btn" class="game-btn" onclick="appEngine.checkGameAnswer()">Valider</button>
+                </div>
+
+                <div id="game-feedback-box" class="feedback-card" style="display: none;"></div>
+
+                <button id="game-next-btn" class="game-btn secondary-btn" style="display: none;" onclick="appEngine.nextGameQuestion()">Question Suivante ➔</button>
             </section>
 
             <!-- Verb Result Display -->
@@ -113,7 +151,7 @@
             <section id="empty-state" class="empty-state-box">
                 <span class="empty-icon">🍃</span>
                 <h3>Recherchez n'importe quel verbe français</h3>
-                <p>Tapez un verbe à l'infinitif ou une forme conjuguée (comme <em>"suis"</em>, <em>"va"</em>, <em>"parlions"</em>) pour afficher sa conjugaison complète, sa définition et ses antonymes.</p>
+                <p>Tapez un verbe à l'infinitif ou une forme conjuguée (comme <em>"suis"</em>, <em>"va"</em>, <em>"parlions"</em>) pour afficher sa conjugaison complète avec <strong style="color: var(--terracotta);">terminaisons colorées</strong>, sa définition et ses antonymes.</p>
                 <div class="quick-tags">
                     <span>Suggestions rapides :</span>
                     <button class="tag-btn" onclick="appEngine.searchVerb('parler')">parler</button>
