@@ -806,5 +806,613 @@
     "antonyms": [
       "fiume"
     ]
+  },
+  "abito": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indumento da indossare.",
+    "antonyms": [
+      "nudità"
+    ]
+  },
+  "aeroporto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Struttura per aerei.",
+    "antonyms": [
+      "stazione"
+    ]
+  },
+  "amico": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Persona legata da amicizia.",
+    "antonyms": [
+      "nemico"
+    ]
+  },
+  "animale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Essere vivente sensibile.",
+    "antonyms": [
+      "pianta"
+    ]
+  },
+  "appartamento": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Insieme di stanze d'abitazione.",
+    "antonyms": [
+      "casa"
+    ]
+  },
+  "autobus": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Mezzo di trasporto pubblico.",
+    "antonyms": [
+      "treno"
+    ]
+  },
+  "bambino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Essere umano in tenera età.",
+    "antonyms": [
+      "adulto"
+    ]
+  },
+  "banco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Tavolo da lavoro o scuola.",
+    "antonyms": [
+      "sedia"
+    ]
+  },
+  "bar": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Locale per bevande.",
+    "antonyms": [
+      "ristorante"
+    ]
+  },
+  "bicchiere": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Recipiente per bere.",
+    "antonyms": [
+      "bottiglia"
+    ]
+  },
+  "biglietto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Documento di viaggio.",
+    "antonyms": [
+      "moneta"
+    ]
+  },
+  "bosco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terreno coperto da alberi.",
+    "antonyms": [
+      "prato"
+    ]
+  },
+  "braccio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Arto superiore dell'uomo.",
+    "antonyms": [
+      "gamba"
+    ]
+  },
+  "burro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Grasso del latte.",
+    "antonyms": [
+      "olio"
+    ]
+  },
+  "calcio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sport con il pallone.",
+    "antonyms": [
+      "tennis"
+    ]
+  },
+  "camino": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Struttura per il fuoco in casa.",
+    "antonyms": [
+      "stufa"
+    ]
+  },
+  "campo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terreno agricolo.",
+    "antonyms": [
+      "città"
+    ]
+  },
+  "capello": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Pelo della testa.",
+    "antonyms": [
+      "barba"
+    ]
+  },
+  "carattere": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Indole di una persona.",
+    "antonyms": [
+      "aspetto"
+    ]
+  },
+  "carnevale": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Festa di maschere.",
+    "antonyms": [
+      "quaresima"
+    ]
+  },
+  "castello": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Fortezza antica.",
+    "antonyms": [
+      "capanna"
+    ]
+  },
+  "centro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Punto di mezzo di una città.",
+    "antonyms": [
+      "periferia"
+    ]
+  },
+  "cibo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Alimento per il corpo.",
+    "antonyms": [
+      "bevanda"
+    ]
+  },
+  "cinema": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sala di proiezione film.",
+    "antonyms": [
+      "teatro"
+    ]
+  },
+  "coltello": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Ustensile per tagliare.",
+    "antonyms": [
+      "forchetta"
+    ]
+  },
+  "compito": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Lavoro scolastico assegnato.",
+    "antonyms": [
+      "riposo"
+    ]
+  },
+  "computer": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Calcolatore elettronico.",
+    "antonyms": [
+      "foglio"
+    ]
+  },
+  "consiglio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Suggerimento utile.",
+    "antonyms": [
+      "ordine"
+    ]
+  },
+  "conto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Calcolo del prezzo.",
+    "antonyms": [
+      "debito"
+    ]
+  },
+  "corpo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Struttura fisica.",
+    "antonyms": [
+      "anima"
+    ]
+  },
+  "cuscino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Supporto morbido per la testa.",
+    "antonyms": [
+      "materasso"
+    ]
+  },
+  "dente": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Organo della masticazione.",
+    "antonyms": [
+      "lingua"
+    ]
+  },
+  "deserto": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Territorio arido e sabbioso.",
+    "antonyms": [
+      "foresta"
+    ]
+  },
+  "dito": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Estremità della mano.",
+    "antonyms": [
+      "piede"
+    ]
+  },
+  "dolore": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sensazione di sofferenza.",
+    "antonyms": [
+      "piacere"
+    ]
+  },
+  "fatto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Azione compiuta.",
+    "antonyms": [
+      "parola"
+    ]
+  },
+  "figlio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Discendente diretto maschio.",
+    "antonyms": [
+      "padre"
+    ]
+  },
+  "fiore": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Parte colorata della pianta.",
+    "antonyms": [
+      "foglia"
+    ]
+  },
+  "foglio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Pezzo di carta.",
+    "antonyms": [
+      "quaderno"
+    ]
+  },
+  "forno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Apparecchio per cuocere.",
+    "antonyms": [
+      "frigorifero"
+    ]
+  },
+  "fratello": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Figlio degli stessi genitori.",
+    "antonyms": [
+      "sorella"
+    ]
+  },
+  "frutto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Prodotto commestibile delle piante.",
+    "antonyms": [
+      "fiore"
+    ]
+  },
+  "giornale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Stampa quotidiana d'informazione.",
+    "antonyms": [
+      "libro"
+    ]
+  },
+  "gioco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Attività di svago.",
+    "antonyms": [
+      "lavoro"
+    ]
+  },
+  "gruppo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Insieme di persone o cose.",
+    "antonyms": [
+      "individuo"
+    ]
+  },
+  "guanto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Copertura per le mani.",
+    "antonyms": [
+      "scarpa"
+    ]
+  },
+  "inverno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Stagione fredda.",
+    "antonyms": [
+      "estate"
+    ]
+  },
+  "luogo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Spazio determinato.",
+    "antonyms": [
+      "tempo"
+    ]
+  },
+  "mercato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Luogo di compravendita.",
+    "antonyms": [
+      "negozio"
+    ]
+  },
+  "museo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Luogo di reperti d'arte.",
+    "antonyms": [
+      "teatro"
+    ]
+  },
+  "naso": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Organo dell'olfatto.",
+    "antonyms": [
+      "bocca"
+    ]
+  },
+  "negozio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Locale di vendita al dettaglio.",
+    "antonyms": [
+      "mercato"
+    ]
+  },
+  "nome": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Appellativo di una persona.",
+    "antonyms": [
+      "cognome"
+    ]
+  },
+  "occhio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Organo della vista.",
+    "antonyms": [
+      "orecchio"
+    ]
+  },
+  "orologio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Strumento per misurare il tempo.",
+    "antonyms": [
+      "calendario"
+    ]
+  },
+  "ospedale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Luogo di cura dei malati.",
+    "antonyms": [
+      "scuola"
+    ]
+  },
+  "piede": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Parte finale della gamba.",
+    "antonyms": [
+      "mano"
+    ]
+  },
+  "poeta": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Chi scrive poesie.",
+    "antonyms": [
+      "lettore"
+    ]
+  },
+  "pomodoro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Ortaggio rosso commestibile.",
+    "antonyms": [
+      "patata"
+    ]
+  },
+  "ponte": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Struttura sopra un fiume.",
+    "antonyms": [
+      "strada"
+    ]
+  },
+  "porto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Luogo d'approdo delle navi.",
+    "antonyms": [
+      "aeroporto"
+    ]
+  },
+  "prato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terreno eroso d'erba.",
+    "antonyms": [
+      "bosco"
+    ]
+  },
+  "prezzo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Valore in denaro di una cosa.",
+    "antonyms": [
+      "sconto"
+    ]
+  },
+  "ragazzo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Giovane maschio.",
+    "antonyms": [
+      "ragazza"
+    ]
+  },
+  "regalo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Dono per un'occasione.",
+    "antonyms": [
+      "dito"
+    ]
+  },
+  "riso": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Cereale o atto del ridere.",
+    "antonyms": [
+      "pianto"
+    ]
+  },
+  "spazio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Estensione indefinita.",
+    "antonyms": [
+      "tempo"
+    ]
+  },
+  "specchio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Vetro che riflette.",
+    "antonyms": [
+      "muro"
+    ]
+  },
+  "sport": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Attività fisica ludica.",
+    "antonyms": [
+      "pigrizia"
+    ]
+  },
+  "stivali": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Calzature alte.",
+    "antonyms": [
+      "scarpe"
+    ]
+  },
+  "tavolo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Mobile con gambe e piano.",
+    "antonyms": [
+      "sedia"
+    ]
+  },
+  "uomo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Essere umano maschio.",
+    "antonyms": [
+      "donna"
+    ]
+  },
+  "uovo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Prodotto degli uccelli commestibile.",
+    "antonyms": [
+      "pane"
+    ]
+  },
+  "vaso": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Contenitore per fiori.",
+    "antonyms": [
+      "fiori"
+    ]
+  },
+  "vino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Bevanda alcolica d'uva.",
+    "antonyms": [
+      "acqua"
+    ]
+  },
+  "zucchero": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sostanza dolce bianca.",
+    "antonyms": [
+      "sale"
+    ]
   }
 }

@@ -838,5 +838,813 @@
     "antonyms": [
       "chaise"
     ]
+  },
+  "accident": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Événement imprévu et malheureux.",
+    "antonyms": [
+      "sécurité"
+    ]
+  },
+  "accord": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Entente entre personnes.",
+    "antonyms": [
+      "désaccord"
+    ]
+  },
+  "acteur": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne qui joue au théâtre ou au cinéma.",
+    "antonyms": [
+      "spectateur"
+    ]
+  },
+  "aéroport": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ensemble d'installations pour les avions.",
+    "antonyms": [
+      "gare"
+    ]
+  },
+  "âge": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Durée de la vie d'un être.",
+    "antonyms": [
+      "jeunesse"
+    ]
+  },
+  "agent": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Personne chargée de fonctions publiques.",
+    "antonyms": [
+      "citoyen"
+    ]
+  },
+  "agneau": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Petit de la brebis.",
+    "antonyms": [
+      "loup"
+    ]
+  },
+  "air": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Fluide gazeux de l'atmosphère.",
+    "antonyms": [
+      "vide"
+    ]
+  },
+  "alcool": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Liquide enivrant.",
+    "antonyms": [
+      "eau"
+    ]
+  },
+  "animal": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Être vivant doué de sensibilité.",
+    "antonyms": [
+      "végétal"
+    ]
+  },
+  "anniversaire": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Retour annuel d'un jour marqué par un événement.",
+    "antonyms": [
+      "deuil"
+    ]
+  },
+  "appareil": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Assemblage d'organes d'un mécanisme.",
+    "antonyms": [
+      "outil"
+    ]
+  },
+  "appartement": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ensemble de pièces d'habitation.",
+    "antonyms": [
+      "maison"
+    ]
+  },
+  "argent": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Monnaie ou métal précieux.",
+    "antonyms": [
+      "pauvreté"
+    ]
+  },
+  "arrêt": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Action de stopper.",
+    "antonyms": [
+      "départ"
+    ]
+  },
+  "art": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Expression de la beauté.",
+    "antonyms": [
+      "nature"
+    ]
+  },
+  "article": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Écrit formant un tout dans un journal.",
+    "antonyms": [
+      "livre"
+    ]
+  },
+  "aspect": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Apparence d'une chose.",
+    "antonyms": [
+      "fond"
+    ]
+  },
+  "avertissement": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Appel à la prudence.",
+    "antonyms": [
+      "encouragement"
+    ]
+  },
+  "avis": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Opinion exprimée.",
+    "antonyms": [
+      "doute"
+    ]
+  },
+  "bain": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Immersion dans l'eau.",
+    "antonyms": [
+      "douche"
+    ]
+  },
+  "balcon": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Plateforme en saillie.",
+    "antonyms": [
+      "terrasse"
+    ]
+  },
+  "ballon": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Balle de sport gonflée d'air.",
+    "antonyms": [
+      "balle"
+    ]
+  },
+  "banquier": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Personne qui dirige une banque.",
+    "antonyms": [
+      "client"
+    ]
+  },
+  "bâtiment": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Construction immobilière.",
+    "antonyms": [
+      "terrain"
+    ]
+  },
+  "bessin": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Bassin d'eau.",
+    "antonyms": [
+      "lac"
+    ]
+  },
+  "besoin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Exigence de la nature.",
+    "antonyms": [
+      "superflu"
+    ]
+  },
+  "beurre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Matière grasse du lait.",
+    "antonyms": [
+      "huile"
+    ]
+  },
+  "billet": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Titre de transport ou papier de banque.",
+    "antonyms": [
+      "pièce"
+    ]
+  },
+  "biscuit": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Petite gaufrette sèche.",
+    "antonyms": [
+      "gâteau"
+    ]
+  },
+  "bois": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Matière des arbres.",
+    "antonyms": [
+      "métal"
+    ]
+  },
+  "bonheur": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "État de félicité.",
+    "antonyms": [
+      "malheur"
+    ]
+  },
+  "bureau": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Meuble pour écrire ou pièce de travail.",
+    "antonyms": [
+      "atelier"
+    ]
+  },
+  "bus": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Autobus de ville.",
+    "antonyms": [
+      "train"
+    ]
+  },
+  "cadeau": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Objet offert pour faire plaisir.",
+    "antonyms": [
+      "dette"
+    ]
+  },
+  "calcul": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Opération mathématique.",
+    "antonyms": [
+      "estimation"
+    ]
+  },
+  "calme": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Absence d'agitation.",
+    "antonyms": [
+      "bruit"
+    ]
+  },
+  "camion": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Grand véhicule de transport.",
+    "antonyms": [
+      "voiture"
+    ]
+  },
+  "camp": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Lieu de séjour temporaire sous la tente.",
+    "antonyms": [
+      "hôtel"
+    ]
+  },
+  "canal": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Voie d'eau artificielle.",
+    "antonyms": [
+      "fleuve"
+    ]
+  },
+  "charbon": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Combustible fossile noir.",
+    "antonyms": [
+      "bois"
+    ]
+  },
+  "chemin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Voie de terre.",
+    "antonyms": [
+      "route"
+    ]
+  },
+  "choix": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Action de choisir.",
+    "antonyms": [
+      "obligation"
+    ]
+  },
+  "chocolat": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Substance sucrée au cacao.",
+    "antonyms": [
+      "bonbon"
+    ]
+  },
+  "cinéma": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Salle de projection de films.",
+    "antonyms": [
+      "théâtre"
+    ]
+  },
+  "citron": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Agrume jaune acide.",
+    "antonyms": [
+      "orange"
+    ]
+  },
+  "client": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne qui achète.",
+    "antonyms": [
+      "vendeur"
+    ]
+  },
+  "climat": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Ensemble des conditions atmosphériques.",
+    "antonyms": [
+      "météo"
+    ]
+  },
+  "coeur": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Organe vital de la circulation.",
+    "antonyms": [
+      "esprit"
+    ]
+  },
+  "coin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Angle de deux murs.",
+    "antonyms": [
+      "centre"
+    ]
+  },
+  "colère": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Vif mécontentement.",
+    "antonyms": [
+      "calme"
+    ]
+  },
+  "collège": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Établissement d'enseignement secondaire.",
+    "antonyms": [
+      "lycée"
+    ]
+  },
+  "combat": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Lutte armée.",
+    "antonyms": [
+      "paix"
+    ]
+  },
+  "commerce": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Achat et vente de marchandises.",
+    "antonyms": [
+      "industrie"
+    ]
+  },
+  "compte": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "État de ce que l'on doit ou possède.",
+    "antonyms": [
+      "dette"
+    ]
+  },
+  "concert": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Séance musicale.",
+    "antonyms": [
+      "opéra"
+    ]
+  },
+  "conseil": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Avis donné à quelqu'un.",
+    "antonyms": [
+      "ordre"
+    ]
+  },
+  "continent": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Vaste étendue de terre emmergée.",
+    "antonyms": [
+      "île"
+    ]
+  },
+  "contrat": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Convention juridique entre parties.",
+    "antonyms": [
+      "litige"
+    ]
+  },
+  "contrôle": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Vérification attentive.",
+    "antonyms": [
+      "laisser-faire"
+    ]
+  },
+  "corps": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Structure physique de l'homme.",
+    "antonyms": [
+      "âme"
+    ]
+  },
+  "costume": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Vêtement masculin complet.",
+    "antonyms": [
+      "robe"
+    ]
+  },
+  "coton": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Fibre textile végétale.",
+    "antonyms": [
+      "laine"
+    ]
+  },
+  "coude": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Articulation du bras.",
+    "antonyms": [
+      "genou"
+    ]
+  },
+  "coup": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Choc rapide.",
+    "antonyms": [
+      "caresse"
+    ]
+  },
+  "courrier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ensemble des lettres envoyées.",
+    "antonyms": [
+      "colis"
+    ]
+  },
+  "cours": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Enseignement donné par un professeur.",
+    "antonyms": [
+      "examen"
+    ]
+  },
+  "couteau": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ustensile pour couper.",
+    "antonyms": [
+      "fourchette"
+    ]
+  },
+  "couvercle": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Pièce fermant un récipient.",
+    "antonyms": [
+      "boîte"
+    ]
+  },
+  "crayons": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Outils de dessin.",
+    "antonyms": [
+      "stylo"
+    ]
+  },
+  "crime": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Infraction grave à la loi.",
+    "antonyms": [
+      "vertu"
+    ]
+  },
+  "cuisinier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne qui prépare à manger.",
+    "antonyms": [
+      "serveur"
+    ]
+  },
+  "danger": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Situation menaçante.",
+    "antonyms": [
+      "sécurité"
+    ]
+  },
+  "début": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Premier moment.",
+    "antonyms": [
+      "fin"
+    ]
+  },
+  "départ": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Action de s'en aller.",
+    "antonyms": [
+      "arrivée"
+    ]
+  },
+  "dessin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Représentation graphique.",
+    "antonyms": [
+      "peinture"
+    ]
+  },
+  "devoir": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Obligation morale.",
+    "antonyms": [
+      "droit"
+    ]
+  },
+  "dictionnaire": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Recueil de mots de la langue.",
+    "antonyms": [
+      "roman"
+    ]
+  },
+  "dimanche": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Dernier jour de la semaine.",
+    "antonyms": [
+      "lundi"
+    ]
+  },
+  "directeur": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne qui dirige une entreprise.",
+    "antonyms": [
+      "employé"
+    ]
+  },
+  "discours": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Propos tenus devant un public.",
+    "antonyms": [
+      "silence"
+    ]
+  },
+  "doigt": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Extrémité articulée de la main.",
+    "antonyms": [
+      "orteil"
+    ]
+  },
+  "dommage": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Préjudice subi.",
+    "antonyms": [
+      "avantage"
+    ]
+  },
+  "doute": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Incertitude de l'esprit.",
+    "antonyms": [
+      "certitude"
+    ]
+  },
+  "droit": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ce qui est permis par la loi.",
+    "antonyms": [
+      "devoir"
+    ]
+  },
+  "Éclair": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Lumière vive de l'orage.",
+    "antonyms": [
+      "tonnerre"
+    ]
+  },
+  "écran": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Surface d'affichage électronique.",
+    "antonyms": [
+      "clavier"
+    ]
+  },
+  "effort": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Mobilisation de ses forces.",
+    "antonyms": [
+      "repos"
+    ]
+  },
+  "éléphant": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Grand mammifère à trompe.",
+    "antonyms": [
+      "souris"
+    ]
+  },
+  "employé": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne travaillant dans une entreprise.",
+    "antonyms": [
+      "patron"
+    ]
+  },
+  "endroit": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Lieu déterminé.",
+    "antonyms": [
+      "espace"
+    ]
+  },
+  "ennemi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne hostile.",
+    "antonyms": [
+      "ami"
+    ]
+  },
+  "escalier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Suite de marches.",
+    "antonyms": [
+      "ascenseur"
+    ]
+  },
+  "espace": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Étendue indéfinie.",
+    "antonyms": [
+      "temps"
+    ]
+  },
+  "esprit": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Activité intellectuelle.",
+    "antonyms": [
+      "matière"
+    ]
+  },
+  "espoir": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Attente confiante.",
+    "antonyms": [
+      "désespoir"
+    ]
+  },
+  "essai": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Tentative d'action.",
+    "antonyms": [
+      "échec"
+    ]
+  },
+  "été": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Saison chaude.",
+    "antonyms": [
+      "hiver"
+    ]
+  },
+  "étudiant": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne inscrite à l'université.",
+    "antonyms": [
+      "professeur"
+    ]
+  },
+  "exemple": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ce qui sert de modèle.",
+    "antonyms": [
+      "exception"
+    ]
+  },
+  "exercice": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Pratique pour apprendre.",
+    "antonyms": [
+      "repos"
+    ]
   }
 }
