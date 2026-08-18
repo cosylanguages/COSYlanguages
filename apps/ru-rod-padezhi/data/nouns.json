@@ -2264,5 +2264,773 @@
       "ins_plur": "такси́",
       "pre_plur": "такси́"
     }
+  },
+  "аптека": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Учреждение для продажи лекарств.",
+    "antonyms": [
+      "больница"
+    ],
+    "cases": {
+      "nom_sing": "апте́ка",
+      "gen_sing": "апте́ки",
+      "dat_sing": "апте́ке",
+      "acc_sing": "апте́ку",
+      "ins_sing": "апте́кой",
+      "pre_sing": "апте́ке",
+      "nom_plur": "апте́ки",
+      "gen_plur": "апте́к",
+      "dat_plur": "апте́кам",
+      "acc_plur": "апте́ки",
+      "ins_plur": "апте́ками",
+      "pre_plur": "апте́ках"
+    }
+  },
+  "армия": {
+    "gender": "женский",
+    "level": "A2",
+    "definition": "Вооружённые силы государства.",
+    "antonyms": [
+      "мир"
+    ],
+    "cases": {
+      "nom_sing": "а́рмия",
+      "gen_sing": "а́рмии",
+      "dat_sing": "а́рмии",
+      "acc_sing": "а́рмию",
+      "ins_sing": "а́рмией",
+      "pre_sing": "а́рмии",
+      "nom_plur": "а́рмии",
+      "gen_plur": "а́рмий",
+      "dat_plur": "а́рмиям",
+      "acc_plur": "а́рмии",
+      "ins_plur": "а́рмиями",
+      "pre_plur": "а́рмиях"
+    }
+  },
+  "бабушка": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Мать отца или матери.",
+    "antonyms": [
+      "дедушка"
+    ],
+    "cases": {
+      "nom_sing": "ба́бушка",
+      "gen_sing": "ба́бушки",
+      "dat_sing": "ба́бушке",
+      "acc_sing": "ба́бушку",
+      "ins_sing": "ба́бушкой",
+      "pre_sing": "ба́бушке",
+      "nom_plur": "ба́бушки",
+      "gen_plur": "ба́бушек",
+      "dat_plur": "ба́бушкам",
+      "acc_plur": "ба́бушек",
+      "ins_plur": "ба́бушками",
+      "pre_plur": "ба́бушках"
+    }
+  },
+  "больница": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Лечебное учреждение.",
+    "antonyms": [
+      "аптека"
+    ],
+    "cases": {
+      "nom_sing": "больни́ца",
+      "gen_sing": "больни́цы",
+      "dat_sing": "больни́це",
+      "acc_sing": "больни́цу",
+      "ins_sing": "больни́цей",
+      "pre_sing": "больни́це",
+      "nom_plur": "больни́цы",
+      "gen_plur": "больни́ц",
+      "dat_plur": "больни́цам",
+      "acc_plur": "больни́цы",
+      "ins_plur": "больни́цами",
+      "pre_plur": "больни́цах"
+    }
+  },
+  "бумага": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Материал для письма.",
+    "antonyms": [
+      "компьютер"
+    ],
+    "cases": {
+      "nom_sing": "бума́га",
+      "gen_sing": "бума́ги",
+      "dat_sing": "бума́ге",
+      "acc_sing": "бума́гу",
+      "ins_sing": "бума́гой",
+      "pre_sing": "бума́ге",
+      "nom_plur": "бума́ги",
+      "gen_plur": "бума́г",
+      "dat_plur": "бума́гам",
+      "acc_plur": "бума́ги",
+      "ins_plur": "бума́гами",
+      "pre_plur": "бума́гах"
+    }
+  },
+  "вилка": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Столовый прибор с зубьями.",
+    "antonyms": [
+      "нож"
+    ],
+    "cases": {
+      "nom_sing": "ви́лка",
+      "gen_sing": "ви́лки",
+      "dat_sing": "ви́лке",
+      "acc_sing": "ви́лку",
+      "ins_sing": "ви́лкой",
+      "pre_sing": "ви́лке",
+      "nom_plur": "ви́лки",
+      "gen_plur": "ви́лок",
+      "dat_plur": "ви́лкам",
+      "acc_plur": "ви́лки",
+      "ins_plur": "ви́лками",
+      "pre_plur": "ви́лках"
+    }
+  },
+  "выставка": {
+    "gender": "женский",
+    "level": "A2",
+    "definition": "Показ произведений искусства.",
+    "antonyms": [
+      "склад"
+    ],
+    "cases": {
+      "nom_sing": "вы́ставка",
+      "gen_sing": "вы́ставки",
+      "dat_sing": "вы́ставке",
+      "acc_sing": "вы́ставку",
+      "ins_sing": "вы́ставкой",
+      "pre_sing": "вы́ставке",
+      "nom_plur": "вы́ставки",
+      "gen_plur": "вы́ставок",
+      "dat_plur": "вы́ставкам",
+      "acc_plur": "вы́ставки",
+      "ins_plur": "вы́ставками",
+      "pre_plur": "вы́ставках"
+    }
+  },
+  "голова": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Верхняя часть тела человека.",
+    "antonyms": [
+      "нога"
+    ],
+    "cases": {
+      "nom_sing": "голова́",
+      "gen_sing": "головы́",
+      "dat_sing": "голове́",
+      "acc_sing": "голову́",
+      "ins_sing": "голово́й",
+      "pre_sing": "голове́",
+      "nom_plur": "го́ловы",
+      "gen_plur": "голо́в",
+      "dat_plur": "голова́м",
+      "acc_plur": "го́ловы",
+      "ins_plur": "голова́ми",
+      "pre_plur": "голова́х"
+    }
+  },
+  "деревня": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Сельское поселение.",
+    "antonyms": [
+      "город"
+    ],
+    "cases": {
+      "nom_sing": "дере́вня",
+      "gen_sing": "дере́вни",
+      "dat_sing": "дере́вне",
+      "acc_sing": "дере́вню",
+      "ins_sing": "дере́вней",
+      "pre_sing": "дере́вне",
+      "nom_plur": "дере́вни",
+      "gen_plur": "деревень",
+      "dat_plur": "дере́вням",
+      "acc_plur": "дере́вни",
+      "ins_plur": "дере́внями",
+      "pre_plur": "дере́внях"
+    }
+  },
+  "дорога": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Путь для движения.",
+    "antonyms": [
+      "тупик"
+    ],
+    "cases": {
+      "nom_sing": "доро́га",
+      "gen_sing": "доро́ги",
+      "dat_sing": "доро́ге",
+      "acc_sing": "доро́гу",
+      "ins_sing": "доро́гой",
+      "pre_sing": "доро́ге",
+      "nom_plur": "доро́ги",
+      "gen_plur": "доро́г",
+      "dat_plur": "доро́гам",
+      "acc_plur": "доро́ги",
+      "ins_plur": "доро́гами",
+      "pre_plur": "доро́гах"
+    }
+  },
+  "задача": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Вопрос, требующий решения.",
+    "antonyms": [
+      "ответ"
+    ],
+    "cases": {
+      "nom_sing": "зада́ча",
+      "gen_sing": "зада́чи",
+      "dat_sing": "зада́че",
+      "acc_sing": "зада́чу",
+      "ins_sing": "зада́чей",
+      "pre_sing": "зада́че",
+      "nom_plur": "зада́чи",
+      "gen_plur": "зада́ч",
+      "dat_plur": "зада́чам",
+      "acc_plur": "зада́чи",
+      "ins_plur": "зада́чами",
+      "pre_plur": "зада́чах"
+    }
+  },
+  "звезда": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Небесное тело.",
+    "antonyms": [
+      "планета"
+    ],
+    "cases": {
+      "nom_sing": "звезда́",
+      "gen_sing": "звезды́",
+      "dat_sing": "звезде́",
+      "acc_sing": "звезду́",
+      "ins_sing": "звездо́й",
+      "pre_sing": "звезде́",
+      "nom_plur": "звёзды",
+      "gen_plur": "звёзд",
+      "dat_plur": "звёздам",
+      "acc_plur": "звёзды",
+      "ins_plur": "звёздами",
+      "pre_plur": "звёздах"
+    }
+  },
+  "игра": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Деятельность для развлечения.",
+    "antonyms": [
+      "работа"
+    ],
+    "cases": {
+      "nom_sing": "игра́",
+      "gen_sing": "игры́",
+      "dat_sing": "игре́",
+      "acc_sing": "игру́",
+      "ins_sing": "игро́й",
+      "pre_sing": "игре́",
+      "nom_plur": "и́гры",
+      "gen_plur": "игр",
+      "dat_plur": "и́грам",
+      "acc_plur": "и́гры",
+      "ins_plur": "и́грами",
+      "pre_plur": "и́грах"
+    }
+  },
+  "кухня": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Помещение для готовки.",
+    "antonyms": [
+      "комната"
+    ],
+    "cases": {
+      "nom_sing": "ку́хня",
+      "gen_sing": "ку́хни",
+      "dat_sing": "ку́хне",
+      "acc_sing": "ку́хню",
+      "ins_sing": "ку́хней",
+      "pre_sing": "ку́хне",
+      "nom_plur": "ку́хни",
+      "gen_plur": "кухонь",
+      "dat_plur": "ку́хням",
+      "acc_plur": "ку́хни",
+      "ins_plur": "ку́хнями",
+      "pre_plur": "ку́хнях"
+    }
+  },
+  "ложка": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Столовый прибор для жидкой пищи.",
+    "antonyms": "вилка",
+    "cases": {
+      "nom_sing": "ло́жка",
+      "gen_sing": "ло́жки",
+      "dat_sing": "ло́жке",
+      "acc_sing": "ло́жку",
+      "ins_sing": "ло́жкой",
+      "pre_sing": "ло́жке",
+      "nom_plur": "ло́жки",
+      "gen_plur": "ло́жек",
+      "dat_plur": "ло́жкам",
+      "acc_plur": "ло́жки",
+      "ins_plur": "ло́жками",
+      "pre_plur": "ло́жках"
+    }
+  },
+  "луна": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Спутник Земли.",
+    "antonyms": [
+      "солнце"
+    ],
+    "cases": {
+      "nom_sing": "луна́",
+      "gen_sing": "луны́",
+      "dat_sing": "луне́",
+      "acc_sing": "луну́",
+      "ins_sing": "луно́й",
+      "pre_sing": "луне́",
+      "nom_plur": "лу́ны",
+      "gen_plur": "лун",
+      "dat_plur": "лу́нам",
+      "acc_plur": "лу́ны",
+      "ins_plur": "лу́нами",
+      "pre_plur": "лу́нах"
+    }
+  },
+  "минута": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Единица времени (60 секунд).",
+    "antonyms": [
+      "час"
+    ],
+    "cases": {
+      "nom_sing": "мину́та",
+      "gen_sing": "мину́ты",
+      "dat_sing": "мину́те",
+      "acc_sing": "мину́ту",
+      "ins_sing": "мину́той",
+      "pre_sing": "мину́те",
+      "nom_plur": "мину́ты",
+      "gen_plur": "мину́т",
+      "dat_plur": "мину́там",
+      "acc_plur": "мину́ты",
+      "ins_plur": "мину́тами",
+      "pre_plur": "мину́тах"
+    }
+  },
+  "одежда": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Изделия из ткани для тела.",
+    "antonyms": [
+      "нагота"
+    ],
+    "cases": {
+      "nom_sing": "оде́жда",
+      "gen_sing": "оде́жды",
+      "dat_sing": "оде́жде",
+      "acc_sing": "оде́жду",
+      "ins_sing": "оде́ждой",
+      "pre_sing": "оде́жде",
+      "nom_plur": "оде́жды",
+      "gen_plur": "оде́жд",
+      "dat_plur": "оде́ждам",
+      "acc_plur": "оде́жды",
+      "ins_plur": "оде́ждами",
+      "pre_plur": "оде́ждах"
+    }
+  },
+  "ошибка": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Неправильность в действиях.",
+    "antonyms": [
+      "правда"
+    ],
+    "cases": {
+      "nom_sing": "оши́бка",
+      "gen_sing": "оши́бки",
+      "dat_sing": "оши́бке",
+      "acc_sing": "оши́бку",
+      "ins_sing": "оши́бкой",
+      "pre_sing": "оши́бке",
+      "nom_plur": "оши́бки",
+      "gen_plur": "оши́бок",
+      "dat_plur": "оши́бкам",
+      "acc_plur": "оши́бки",
+      "ins_plur": "оши́бками",
+      "pre_plur": "оши́бках"
+    }
+  },
+  "почта": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Учреждение связи.",
+    "antonyms": [
+      "банк"
+    ],
+    "cases": {
+      "nom_sing": "по́чта",
+      "gen_sing": "по́чты",
+      "dat_sing": "по́чте",
+      "acc_sing": "по́чту",
+      "ins_sing": "по́чтой",
+      "pre_sing": "по́чте",
+      "nom_plur": "по́чты",
+      "gen_plur": "по́чт",
+      "dat_plur": "по́чтам",
+      "acc_plur": "по́чты",
+      "ins_plur": "по́чтами",
+      "pre_plur": "по́чтах"
+    }
+  },
+  "правда": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "То, что соответствует действительности.",
+    "antonyms": [
+      "ложь"
+    ],
+    "cases": {
+      "nom_sing": "пра́вда",
+      "gen_sing": "пра́вды",
+      "dat_sing": "пра́вде",
+      "acc_sing": "пра́вду",
+      "ins_sing": "пра́вдой",
+      "pre_sing": "пра́вде",
+      "nom_plur": "пра́вды",
+      "gen_plur": "пра́вд",
+      "dat_plur": "пра́вдам",
+      "acc_plur": "пра́вды",
+      "ins_plur": "пра́вдами",
+      "pre_plur": "пра́вдах"
+    }
+  },
+  "проблема": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Сложный вопрос.",
+    "antonyms": [
+      "решение"
+    ],
+    "cases": {
+      "nom_sing": "пробле́ма",
+      "gen_sing": "пробле́мы",
+      "dat_sing": "пробле́ме",
+      "acc_sing": "пробле́му",
+      "ins_sing": "пробле́мой",
+      "pre_sing": "пробле́ме",
+      "nom_plur": "пробле́мы",
+      "gen_plur": "пробле́м",
+      "dat_plur": "пробле́мам",
+      "acc_plur": "пробле́мы",
+      "ins_plur": "пробле́мами",
+      "pre_plur": "пробле́мах"
+    }
+  },
+  "работа": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Трудовая деятельность.",
+    "antonyms": [
+      "отдых"
+    ],
+    "cases": {
+      "nom_sing": "рабо́та",
+      "gen_sing": "рабо́ты",
+      "dat_sing": "рабо́те",
+      "acc_sing": "рабо́ту",
+      "ins_sing": "рабо́той",
+      "pre_sing": "рабо́те",
+      "nom_plur": "рабо́ты",
+      "gen_plur": "рабо́т",
+      "dat_plur": "рабо́там",
+      "acc_plur": "рабо́ты",
+      "ins_plur": "рабо́тами",
+      "pre_plur": "рабо́тах"
+    }
+  },
+  "тарелка": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Столовая посуда.",
+    "antonyms": [
+      "чашка"
+    ],
+    "cases": {
+      "nom_sing": "таре́лка",
+      "gen_sing": "таре́лки",
+      "dat_sing": "таре́лке",
+      "acc_sing": "таре́лку",
+      "ins_sing": "таре́лкой",
+      "pre_sing": "таре́лке",
+      "nom_plur": "таре́лки",
+      "gen_plur": "таре́лок",
+      "dat_plur": "таре́лкам",
+      "acc_plur": "таре́лки",
+      "ins_plur": "таре́лками",
+      "pre_plur": "таре́лках"
+    }
+  },
+  "фирма": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Торговое предприятие.",
+    "antonyms": [
+      "завод"
+    ],
+    "cases": {
+      "nom_sing": "фи́рма",
+      "gen_sing": "фи́рмы",
+      "dat_sing": "фи́рме",
+      "acc_sing": "фи́рму",
+      "ins_sing": "фи́рмой",
+      "pre_sing": "фи́рме",
+      "nom_plur": "фи́рмы",
+      "gen_plur": "фи́рм",
+      "dat_plur": "фи́рмам",
+      "acc_plur": "фи́рмы",
+      "ins_plur": "фи́рмами",
+      "pre_plur": "фи́рмах"
+    }
+  },
+  "чашка": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Посуда для питья.",
+    "antonyms": [
+      "тарелка"
+    ],
+    "cases": {
+      "nom_sing": "ча́шка",
+      "gen_sing": "ча́шки",
+      "dat_sing": "ча́шке",
+      "acc_sing": "ча́шку",
+      "ins_sing": "ча́шкой",
+      "pre_sing": "ча́шке",
+      "nom_plur": "ча́шки",
+      "gen_plur": "ча́шек",
+      "dat_plur": "ча́шкам",
+      "acc_plur": "ча́шки",
+      "ins_plur": "ча́шками",
+      "pre_plur": "ча́шках"
+    }
+  },
+  "автомобиль": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Самоходное средство.",
+    "antonyms": [
+      "пешеход"
+    ],
+    "cases": {
+      "nom_sing": "автомобиль",
+      "gen_sing": "автомобиля",
+      "dat_sing": "автомобилю",
+      "acc_sing": "автомобиль",
+      "inst_sing": "автомобилем",
+      "prep_sing": "автомобиле",
+      "nom_plur": "автомобили",
+      "gen_plur": "автомобилей",
+      "dat_plur": "автомобилям",
+      "acc_plur": "автомобили",
+      "inst_plur": "автомобилями",
+      "prep_plur": "автомобилях"
+    }
+  },
+  "билет": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Документ на проезд.",
+    "antonyms": [
+      "штраф"
+    ],
+    "cases": {
+      "nom_sing": "билет",
+      "gen_sing": "билета",
+      "dat_sing": "билету",
+      "acc_sing": "билет",
+      "inst_sing": "билетом",
+      "prep_sing": "билете",
+      "nom_plur": "билеты",
+      "gen_plur": "билетов",
+      "dat_plur": "билетам",
+      "acc_plur": "билеты",
+      "inst_plur": "билетами",
+      "prep_plur": "билетах"
+    }
+  },
+  "вечер": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Время суток перед ночью.",
+    "antonyms": [
+      "утро"
+    ],
+    "cases": {
+      "nom_sing": "вечер",
+      "gen_sing": "вечера",
+      "dat_sing": "вечеру",
+      "acc_sing": "вечер",
+      "inst_sing": "вечером",
+      "prep_sing": "вечере",
+      "nom_plur": "вечера",
+      "gen_plur": "вечеров",
+      "dat_plur": "вечерам",
+      "acc_plur": "вечера",
+      "inst_plur": "вечерами",
+      "prep_plur": "вечерах"
+    }
+  },
+  "врач": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Медицинский специалист.",
+    "antonyms": [
+      "пациент"
+    ],
+    "cases": {
+      "nom_sing": "врач",
+      "gen_sing": "врача",
+      "dat_sing": "врачу",
+      "acc_sing": "врача",
+      "inst_sing": "врачом",
+      "prep_sing": "враче",
+      "nom_plur": "врачи",
+      "gen_plur": "врачей",
+      "dat_plur": "врачам",
+      "acc_plur": "врачей",
+      "inst_plur": "врачами",
+      "prep_plur": "врачах"
+    }
+  },
+  "завтрак": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Утренняя еда.",
+    "antonyms": [
+      "ужин"
+    ],
+    "cases": {
+      "nom_sing": "завтрак",
+      "gen_sing": "завтрака",
+      "dat_sing": "завтраку",
+      "acc_sing": "завтрак",
+      "inst_sing": "завтраком",
+      "prep_sing": "завтраке",
+      "nom_plur": "завтраки",
+      "gen_plur": "завтраков",
+      "dat_plur": "завтракам",
+      "acc_plur": "завтраки",
+      "inst_plur": "завтраками",
+      "prep_plur": "завтраках"
+    }
+  },
+  "карандаш": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Инструмент для письма.",
+    "antonyms": [
+      "ручка"
+    ],
+    "cases": {
+      "nom_sing": "карандаш",
+      "gen_sing": "карандаша",
+      "dat_sing": "карандашу",
+      "acc_sing": "карандаш",
+      "inst_sing": "карандашом",
+      "prep_sing": "карандаше",
+      "nom_plur": "карандаши",
+      "gen_plur": "карандашей",
+      "dat_plur": "карандашам",
+      "acc_plur": "карандаши",
+      "inst_plur": "карандашами",
+      "prep_plur": "карандашах"
+    }
+  },
+  "квартира": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Жилое помещение.",
+    "antonyms": [
+      "дом"
+    ],
+    "cases": {
+      "nom_sing": "квартира",
+      "gen_sing": "квартиры",
+      "dat_sing": "квартире",
+      "acc_sing": "квартиру",
+      "inst_sing": "квартирой",
+      "prep_sing": "квартире",
+      "nom_plur": "квартиры",
+      "gen_plur": "квартир",
+      "dat_plur": "квартирам",
+      "acc_plur": "квартиры",
+      "inst_plur": "квартирами",
+      "prep_plur": "квартирах"
+    }
+  },
+  "обед": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Дневной прием пищи.",
+    "antonyms": [
+      "завтрак"
+    ],
+    "cases": {
+      "nom_sing": "обед",
+      "gen_sing": "обеда",
+      "dat_sing": "обеду",
+      "acc_sing": "обед",
+      "inst_sing": "обедом",
+      "prep_sing": "обеде",
+      "nom_plur": "обеды",
+      "gen_plur": "обедов",
+      "dat_plur": "обедам",
+      "acc_plur": "обеды",
+      "inst_plur": "обедами",
+      "prep_plur": "обедах"
+    }
+  },
+  "самолет": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Воздушное судно.",
+    "antonyms": [
+      "поезд"
+    ],
+    "cases": {
+      "nom_sing": "самолет",
+      "gen_sing": "самолета",
+      "dat_sing": "самолету",
+      "acc_sing": "самолет",
+      "inst_sing": "самолетом",
+      "prep_sing": "самолете",
+      "nom_plur": "самолеты",
+      "gen_plur": "самолетов",
+      "dat_plur": "самолетам",
+      "acc_plur": "самолеты",
+      "inst_plur": "самолетами",
+      "prep_plur": "самолетах"
+    }
   }
 }

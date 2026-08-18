@@ -8381,5 +8381,3084 @@
         "ridato"
       ]
     }
+  },
+  "accompagnare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Andare insieme a qualcuno.",
+    "antonyms": [
+      "abbandonare"
+    ],
+    "tenses": {
+      "presente": [
+        "accompagno",
+        "accompagni",
+        "accompagna",
+        "accompagniamo",
+        "accompagnate",
+        "accompagnano"
+      ],
+      "imperfetto": [
+        "accompagnavo",
+        "accompagnavi",
+        "accompagnava",
+        "accompagnavamo",
+        "accompagnavate",
+        "accompagnavano"
+      ],
+      "futuro_semplice": [
+        "accompagnerò",
+        "accompagnerai",
+        "accompagnerà",
+        "accompagneremo",
+        "accompagnerete",
+        "accompagneranno"
+      ],
+      "condizionale_presente": [
+        "accompagnerei",
+        "accompagneresti",
+        "accompagnerebbe",
+        "accompagneremmo",
+        "accompagnereste",
+        "accompagnerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io accompagni",
+        "che tu accompagni",
+        "che egli accompagni",
+        "che noi accompagniamo",
+        "che voi accompagniate",
+        "che essi accompagnino"
+      ],
+      "imperativo": [
+        "accompagna!",
+        "accompagniamo!",
+        "accompagnate!"
+      ],
+      "participio_passato": [
+        "accompagnato"
+      ],
+      "subj": [
+        "che io accompagni",
+        "che tu accompagni",
+        "che lui/lei accompagni",
+        "che noi accompagniamo",
+        "che voi accompagniate",
+        "che loro accompagnino"
+      ],
+      "cond": [
+        "io accompagnerei",
+        "tu accompagneresti",
+        "lui/lei accompagnerebbe",
+        "noi accompagneremmo",
+        "voi accompagnereste",
+        "loro accompagnerebbero"
+      ],
+      "impv": [
+        "accompagna",
+        "accompagniamo",
+        "accompagnate"
+      ],
+      "part": [
+        "accompagnante",
+        "accompagnato"
+      ]
+    }
+  },
+  "afferrare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Prendere con forza.",
+    "antonyms": [
+      "lasciare"
+    ],
+    "tenses": {
+      "presente": [
+        "afferro",
+        "afferri",
+        "afferra",
+        "afferriamo",
+        "afferrate",
+        "afferrano"
+      ],
+      "imperfetto": [
+        "afferravo",
+        "afferravi",
+        "afferrava",
+        "afferravamo",
+        "afferravate",
+        "afferravano"
+      ],
+      "futuro_semplice": [
+        "afferrerò",
+        "afferrerai",
+        "afferrerà",
+        "afferreremo",
+        "afferrerete",
+        "afferreranno"
+      ],
+      "condizionale_presente": [
+        "afferrerei",
+        "afferreresti",
+        "afferrerebbe",
+        "afferreremmo",
+        "afferrereste",
+        "afferrerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io afferri",
+        "che tu afferri",
+        "che egli afferri",
+        "che noi afferriamo",
+        "che voi afferriate",
+        "che essi afferrino"
+      ],
+      "imperativo": [
+        "afferra!",
+        "afferriamo!",
+        "afferrate!"
+      ],
+      "participio_passato": [
+        "afferrato"
+      ],
+      "subj": [
+        "che io afferri",
+        "che tu afferri",
+        "che lui/lei afferri",
+        "che noi afferriamo",
+        "che voi afferriate",
+        "che loro afferrino"
+      ],
+      "cond": [
+        "io afferrerei",
+        "tu afferreresti",
+        "lui/lei afferrerebbe",
+        "noi afferreremmo",
+        "voi afferrereste",
+        "loro afferrerebbero"
+      ],
+      "impv": [
+        "afferra",
+        "afferriamo",
+        "afferrate"
+      ],
+      "part": [
+        "afferrante",
+        "afferrato"
+      ]
+    }
+  },
+  "alzare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Spostare verso l'alto.",
+    "antonyms": [
+      "abbassare"
+    ],
+    "tenses": {
+      "presente": [
+        "alzo",
+        "alzi",
+        "alza",
+        "alziamo",
+        "alzate",
+        "alzano"
+      ],
+      "imperfetto": [
+        "alzavo",
+        "alzavi",
+        "alzava",
+        "alzavamo",
+        "alzavate",
+        "alzavano"
+      ],
+      "futuro_semplice": [
+        "alzerò",
+        "alzerai",
+        "alzerà",
+        "alzeremo",
+        "alzerete",
+        "alzeranno"
+      ],
+      "condizionale_presente": [
+        "alzerei",
+        "alzeresti",
+        "alzerebbe",
+        "alzeremmo",
+        "alzereste",
+        "alzerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io alzi",
+        "che tu alzi",
+        "che egli alzi",
+        "che noi alziamo",
+        "che voi alziate",
+        "che essi alzino"
+      ],
+      "imperativo": [
+        "alza!",
+        "alziamo!",
+        "alzate!"
+      ],
+      "participio_passato": [
+        "alzato"
+      ],
+      "subj": [
+        "che io alzi",
+        "che tu alzi",
+        "che lui/lei alzi",
+        "che noi alziamo",
+        "che voi alziate",
+        "che loro alzino"
+      ],
+      "cond": [
+        "io alzerei",
+        "tu alzeresti",
+        "lui/lei alzerebbe",
+        "noi alzeremmo",
+        "voi alzereste",
+        "loro alzerebbero"
+      ],
+      "impv": [
+        "alza",
+        "alziamo",
+        "alzate"
+      ],
+      "part": [
+        "alzante",
+        "alzato"
+      ]
+    }
+  },
+  "ammettere": {
+    "group": "2a coniugazione",
+    "level": "A2",
+    "definition": "Riconoscere come vero.",
+    "antonyms": [
+      "negare"
+    ],
+    "tenses": {
+      "presente": [
+        "ammetto",
+        "ammetti",
+        "ammette",
+        "ammettiamo",
+        "ammettete",
+        "ammettono"
+      ],
+      "imperfetto": [
+        "ammettevo",
+        "ammettevi",
+        "ammetteva",
+        "ammettevamo",
+        "ammettevate",
+        "ammettevano"
+      ],
+      "futuro_semplice": [
+        "ammetterò",
+        "ammetterai",
+        "ammetterà",
+        "ammetteremo",
+        "ammetterete",
+        "ammetteranno"
+      ],
+      "condizionale_presente": [
+        "ammetterei",
+        "ammetteresti",
+        "ammetterebbe",
+        "ammetteremmo",
+        "ammettereste",
+        "ammetterrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io ammetta",
+        "che tu ammetta",
+        "che egli ammetta",
+        "che noi ammettiamo",
+        "che voi ammettiate",
+        "che essi ammettano"
+      ],
+      "imperativo": [
+        "ammetti!",
+        "ammettiamo!",
+        "ammettete!"
+      ],
+      "participio_passato": [
+        "ammesso"
+      ],
+      "subj": [
+        "che io ammetti",
+        "che tu ammetti",
+        "che lui/lei ammetti",
+        "che noi ammettiamo",
+        "che voi ammettiate",
+        "che loro ammettino"
+      ],
+      "cond": [
+        "io ammetterei",
+        "tu ammetteresti",
+        "lui/lei ammetterebbe",
+        "noi ammetteremmo",
+        "voi ammettereste",
+        "loro ammetterebbero"
+      ],
+      "impv": [
+        "ammetta",
+        "ammettiamo",
+        "ammettate"
+      ],
+      "part": [
+        "ammettante",
+        "ammettato"
+      ]
+    }
+  },
+  "annunciare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Rendere noto a tutti.",
+    "antonyms": [
+      "nascondere"
+    ],
+    "tenses": {
+      "presente": [
+        "annuncio",
+        "annunci",
+        "annuncia",
+        "annunciamo",
+        "annunciate",
+        "annunciano"
+      ],
+      "imperfetto": [
+        "annunciavo",
+        "annunciavi",
+        "annunciava",
+        "annunciavamo",
+        "annunciavate",
+        "annunciavano"
+      ],
+      "futuro_semplice": [
+        "annuncierò",
+        "annuncierai",
+        "annuncierà",
+        "annuncieremo",
+        "annuncierete",
+        "annuncieranno"
+      ],
+      "condizionale_presente": [
+        "annuncierei",
+        "annuncieresti",
+        "annuncierebbe",
+        "annuncieremmo",
+        "annunciereste",
+        "annuncierrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io annunci",
+        "che tu annunci",
+        "che egli annunci",
+        "che noi annunciamo",
+        "che voi annunciate",
+        "che essi annuncino"
+      ],
+      "imperativo": [
+        "annuncia!",
+        "annunciamo!",
+        "annunciate!"
+      ],
+      "participio_passato": [
+        "annunciato"
+      ],
+      "subj": [
+        "che io annuncii",
+        "che tu annuncii",
+        "che lui/lei annuncii",
+        "che noi annunciiamo",
+        "che voi annunciiate",
+        "che loro annunciino"
+      ],
+      "cond": [
+        "io annuncierei",
+        "tu annuncieresti",
+        "lui/lei annuncierebbe",
+        "noi annuncieremmo",
+        "voi annunciereste",
+        "loro annuncierebbero"
+      ],
+      "impv": [
+        "annuncia",
+        "annunciiamo",
+        "annunciate"
+      ],
+      "part": [
+        "annunciante",
+        "annunciato"
+      ]
+    }
+  },
+  "attraversare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Passare da un lato all'altro.",
+    "antonyms": [
+      "costeggiare"
+    ],
+    "tenses": {
+      "presente": [
+        "attraverso",
+        "attraversi",
+        "attraversa",
+        "attraversiamo",
+        "attraversate",
+        "attraversano"
+      ],
+      "imperfetto": [
+        "attraversavo",
+        "attraversavi",
+        "attraversava",
+        "attraversavamo",
+        "attraversavate",
+        "attraversavano"
+      ],
+      "futuro_semplice": [
+        "attraverserò",
+        "attraverserai",
+        "attraverserà",
+        "attraverseremo",
+        "attraverserete",
+        "attraverseranno"
+      ],
+      "condizionale_presente": [
+        "attraverserei",
+        "attraverseresti",
+        "attraverserebbe",
+        "attraverseremmo",
+        "attraversereste",
+        "attraverserrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io attraversi",
+        "che tu attraversi",
+        "che egli attraversi",
+        "che noi attraversiamo",
+        "che voi attraversiate",
+        "che essi attraversino"
+      ],
+      "imperativo": [
+        "attraversa!",
+        "attraversiamo!",
+        "attraversate!"
+      ],
+      "participio_passato": [
+        "attraversato"
+      ],
+      "subj": [
+        "che io attraversi",
+        "che tu attraversi",
+        "che lui/lei attraversi",
+        "che noi attraversiamo",
+        "che voi attraversiate",
+        "che loro attraversino"
+      ],
+      "cond": [
+        "io attraverserei",
+        "tu attraverseresti",
+        "lui/lei attraverserebbe",
+        "noi attraverseremmo",
+        "voi attraversereste",
+        "loro attraverserebbero"
+      ],
+      "impv": [
+        "attraversa",
+        "attraversiamo",
+        "attraversate"
+      ],
+      "part": [
+        "attraversante",
+        "attraversato"
+      ]
+    }
+  },
+  "bastare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Essere sufficiente.",
+    "antonyms": [
+      "mancare"
+    ],
+    "tenses": {
+      "presente": [
+        "basto",
+        "basti",
+        "basta",
+        "bastiamo",
+        "bastate",
+        "bastano"
+      ],
+      "imperfetto": [
+        "bastavo",
+        "bastavi",
+        "bastava",
+        "bastavamo",
+        "bastavate",
+        "bastavano"
+      ],
+      "futuro_semplice": [
+        "basterò",
+        "basterai",
+        "basterà",
+        "basteremo",
+        "basterete",
+        "basteranno"
+      ],
+      "condizionale_presente": [
+        "basterei",
+        "basteresti",
+        "basterebbe",
+        "basteremmo",
+        "bastereste",
+        "basterrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io basti",
+        "che tu basti",
+        "che egli basti",
+        "che noi bastiamo",
+        "che voi bastiate",
+        "che essi bastino"
+      ],
+      "imperativo": [
+        "basta!",
+        "bastiamo!",
+        "bastate!"
+      ],
+      "participio_passato": [
+        "bastato"
+      ],
+      "subj": [
+        "che io basti",
+        "che tu basti",
+        "che lui/lei basti",
+        "che noi bastiamo",
+        "che voi bastiate",
+        "che loro bastino"
+      ],
+      "cond": [
+        "io basterei",
+        "tu basteresti",
+        "lui/lei basterebbe",
+        "noi basteremmo",
+        "voi bastereste",
+        "loro basterebbero"
+      ],
+      "impv": [
+        "basta",
+        "bastiamo",
+        "bastate"
+      ],
+      "part": [
+        "bastante",
+        "bastato"
+      ]
+    }
+  },
+  "bloccare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Fermare un movimento.",
+    "antonyms": [
+      "sbloccare"
+    ],
+    "tenses": {
+      "presente": [
+        "blocco",
+        "blocci",
+        "blocca",
+        "blocciamo",
+        "bloccate",
+        "bloccano"
+      ],
+      "imperfetto": [
+        "bloccavo",
+        "bloccavi",
+        "bloccava",
+        "bloccavamo",
+        "bloccavate",
+        "bloccavano"
+      ],
+      "futuro_semplice": [
+        "bloccerò",
+        "bloccerai",
+        "bloccerà",
+        "blocceremo",
+        "bloccerete",
+        "blocceranno"
+      ],
+      "condizionale_presente": [
+        "bloccerei",
+        "blocceresti",
+        "bloccerebbe",
+        "blocceremmo",
+        "bloccereste",
+        "bloccerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io blocci",
+        "che tu blocci",
+        "che egli blocci",
+        "che noi blocciamo",
+        "che voi blocciate",
+        "che essi bloccino"
+      ],
+      "imperativo": [
+        "blocca!",
+        "blocciamo!",
+        "bloccate!"
+      ],
+      "participio_passato": [
+        "bloccato"
+      ],
+      "subj": [
+        "che io blocci",
+        "che tu blocci",
+        "che lui/lei blocci",
+        "che noi blocciamo",
+        "che voi blocciate",
+        "che loro bloccino"
+      ],
+      "cond": [
+        "io bloccerei",
+        "tu blocceresti",
+        "lui/lei bloccerebbe",
+        "noi blocceremmo",
+        "voi bloccereste",
+        "loro bloccerebbero"
+      ],
+      "impv": [
+        "blocca",
+        "blocciamo",
+        "bloccate"
+      ],
+      "part": [
+        "bloccante",
+        "bloccato"
+      ]
+    }
+  },
+  "bruciare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Consumare con il fuoco.",
+    "antonyms": [
+      "spegnere"
+    ],
+    "tenses": {
+      "presente": [
+        "brucio",
+        "bruci",
+        "brucia",
+        "bruciamo",
+        "bruciate",
+        "bruciano"
+      ],
+      "imperfetto": [
+        "bruciavo",
+        "bruciavi",
+        "bruciava",
+        "bruciavamo",
+        "bruciavate",
+        "bruciavano"
+      ],
+      "futuro_semplice": [
+        "brucierò",
+        "brucierai",
+        "brucierà",
+        "brucieremo",
+        "brucierete",
+        "brucieranno"
+      ],
+      "condizionale_presente": [
+        "brucierei",
+        "brucieresti",
+        "brucierebbe",
+        "brucieremmo",
+        "bruciereste",
+        "brucierrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io bruci",
+        "che tu bruci",
+        "che egli bruci",
+        "che noi bruciamo",
+        "che voi bruciate",
+        "che essi brucino"
+      ],
+      "imperativo": [
+        "brucia!",
+        "bruciamo!",
+        "bruciate!"
+      ],
+      "participio_passato": [
+        "bruciato"
+      ],
+      "subj": [
+        "che io brucii",
+        "che tu brucii",
+        "che lui/lei brucii",
+        "che noi bruciiamo",
+        "che voi bruciiate",
+        "che loro bruciino"
+      ],
+      "cond": [
+        "io brucierei",
+        "tu brucieresti",
+        "lui/lei brucierebbe",
+        "noi brucieremmo",
+        "voi bruciereste",
+        "loro brucierebbero"
+      ],
+      "impv": [
+        "brucia",
+        "bruciiamo",
+        "bruciate"
+      ],
+      "part": [
+        "bruciante",
+        "bruciato"
+      ]
+    }
+  },
+  "confermare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Rendere certo.",
+    "antonyms": [
+      "annullare"
+    ],
+    "tenses": {
+      "presente": [
+        "confermo",
+        "confermi",
+        "conferma",
+        "confermiamo",
+        "confermate",
+        "confermano"
+      ],
+      "imperfetto": [
+        "confermavo",
+        "confermavi",
+        "confermava",
+        "confermavamo",
+        "confermavate",
+        "confermavano"
+      ],
+      "futuro_semplice": [
+        "confermerò",
+        "confermerai",
+        "confermerà",
+        "confermeremo",
+        "confermerete",
+        "confermeranno"
+      ],
+      "condizionale_presente": [
+        "confermerei",
+        "confermeresti",
+        "confermerebbe",
+        "confermeremmo",
+        "confermereste",
+        "confermerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io confermi",
+        "che tu confermi",
+        "che egli confermi",
+        "che noi confermiamo",
+        "che voi confermiate",
+        "che essi confermino"
+      ],
+      "imperativo": [
+        "conferma!",
+        "confermiamo!",
+        "confermate!"
+      ],
+      "participio_passato": [
+        "confermato"
+      ],
+      "subj": [
+        "che io confermi",
+        "che tu confermi",
+        "che lui/lei confermi",
+        "che noi confermiamo",
+        "che voi confermiate",
+        "che loro confermino"
+      ],
+      "cond": [
+        "io confermerei",
+        "tu confermeresti",
+        "lui/lei confermerebbe",
+        "noi confermeremmo",
+        "voi confermereste",
+        "loro confermerebbero"
+      ],
+      "impv": [
+        "conferma",
+        "confermiamo",
+        "confermate"
+      ],
+      "part": [
+        "confermante",
+        "confermato"
+      ]
+    }
+  },
+  "conoscere": {
+    "group": "2a coniugazione",
+    "level": "A1",
+    "definition": "Avere familiarità con qualcuno.",
+    "antonyms": [
+      "ignorare"
+    ],
+    "tenses": {
+      "presente": [
+        "conosco",
+        "conosci",
+        "conosce",
+        "conosciamo",
+        "conoscete",
+        "conoscono"
+      ],
+      "imperfetto": [
+        "conoscevo",
+        "conoscevi",
+        "conosceva",
+        "conoscevamo",
+        "conoscevate",
+        "conoscevano"
+      ],
+      "futuro_semplice": [
+        "conoscerò",
+        "conoscerai",
+        "conoscerà",
+        "conosceremo",
+        "conoscerete",
+        "conosceranno"
+      ],
+      "condizionale_presente": [
+        "conoscerei",
+        "conosceresti",
+        "conoscerebbe",
+        "conosceremmo",
+        "conoscereste",
+        "conoscerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io conosca",
+        "che tu conosca",
+        "che egli conosca",
+        "che noi conosciamo",
+        "che voi conosciate",
+        "che essi conoscano"
+      ],
+      "imperativo": [
+        "conosci!",
+        "conosciamo!",
+        "conoscete!"
+      ],
+      "participio_passato": [
+        "conosciuto"
+      ],
+      "subj": [
+        "che io conosci",
+        "che tu conosci",
+        "che lui/lei conosci",
+        "che noi conosciamo",
+        "che voi conosciate",
+        "che loro conoscino"
+      ],
+      "cond": [
+        "io conoscerei",
+        "tu conosceresti",
+        "lui/lei conoscerebbe",
+        "noi conosceremmo",
+        "voi conoscereste",
+        "loro conoscerebbero"
+      ],
+      "impv": [
+        "conosca",
+        "conosciamo",
+        "conoscate"
+      ],
+      "part": [
+        "conoscante",
+        "conoscato"
+      ]
+    }
+  },
+  "consigliare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Dare un consiglio.",
+    "antonyms": [
+      "sconsigliare"
+    ],
+    "tenses": {
+      "presente": [
+        "consiglio",
+        "consigli",
+        "consiglia",
+        "consigliamo",
+        "consigliate",
+        "consigliano"
+      ],
+      "imperfetto": [
+        "consigliavo",
+        "consigliavi",
+        "consigliava",
+        "consigliavamo",
+        "consigliavate",
+        "consigliavano"
+      ],
+      "futuro_semplice": [
+        "consiglierò",
+        "consiglierai",
+        "consiglierà",
+        "consiglieremo",
+        "consiglierete",
+        "consiglieranno"
+      ],
+      "condizionale_presente": [
+        "consiglierei",
+        "consiglieresti",
+        "consiglierebbe",
+        "consiglieremmo",
+        "consigliereste",
+        "consiglierrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io consigli",
+        "che tu consigli",
+        "che egli consigli",
+        "che noi consigliamo",
+        "che voi consigliate",
+        "che essi consiglino"
+      ],
+      "imperativo": [
+        "consiglia!",
+        "consigliamo!",
+        "consigliate!"
+      ],
+      "participio_passato": [
+        "consigliato"
+      ],
+      "subj": [
+        "che io consiglii",
+        "che tu consiglii",
+        "che lui/lei consiglii",
+        "che noi consigliiamo",
+        "che voi consigliiate",
+        "che loro consigliino"
+      ],
+      "cond": [
+        "io consiglierei",
+        "tu consiglieresti",
+        "lui/lei consiglierebbe",
+        "noi consiglieremmo",
+        "voi consigliereste",
+        "loro consiglierebbero"
+      ],
+      "impv": [
+        "consiglia",
+        "consigliiamo",
+        "consigliate"
+      ],
+      "part": [
+        "consigliante",
+        "consigliato"
+      ]
+    }
+  },
+  "contare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Calcolare il numero.",
+    "antonyms": [
+      "ignorare"
+    ],
+    "tenses": {
+      "presente": [
+        "conto",
+        "conti",
+        "conta",
+        "contiamo",
+        "contate",
+        "contano"
+      ],
+      "imperfetto": [
+        "contavo",
+        "contavi",
+        "contava",
+        "contavamo",
+        "contavate",
+        "contavano"
+      ],
+      "futuro_semplice": [
+        "conterò",
+        "conterai",
+        "conterà",
+        "conteremo",
+        "conterete",
+        "conteranno"
+      ],
+      "condizionale_presente": [
+        "conterei",
+        "conteresti",
+        "conterebbe",
+        "conteremmo",
+        "contereste",
+        "conterrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io conti",
+        "che tu conti",
+        "che egli conti",
+        "che noi contiamo",
+        "che voi contiate",
+        "che essi contino"
+      ],
+      "imperativo": [
+        "conta!",
+        "contiamo!",
+        "contate!"
+      ],
+      "participio_passato": [
+        "contato"
+      ],
+      "subj": [
+        "che io conti",
+        "che tu conti",
+        "che lui/lei conti",
+        "che noi contiamo",
+        "che voi contiate",
+        "che loro contino"
+      ],
+      "cond": [
+        "io conterei",
+        "tu conteresti",
+        "lui/lei conterebbe",
+        "noi conteremmo",
+        "voi contereste",
+        "loro conterebbero"
+      ],
+      "impv": [
+        "conta",
+        "contiamo",
+        "contate"
+      ],
+      "part": [
+        "contante",
+        "contato"
+      ]
+    }
+  },
+  "continuare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Proseguire un'azione.",
+    "antonyms": [
+      "fermarsi"
+    ],
+    "tenses": {
+      "presente": [
+        "continuo",
+        "continui",
+        "continua",
+        "continuiamo",
+        "continuate",
+        "continuano"
+      ],
+      "imperfetto": [
+        "continuavo",
+        "continuavi",
+        "continuava",
+        "continuavamo",
+        "continuavate",
+        "continuavano"
+      ],
+      "futuro_semplice": [
+        "continuerò",
+        "continuerai",
+        "continuerà",
+        "continueremo",
+        "continuerete",
+        "continueranno"
+      ],
+      "condizionale_presente": [
+        "continuerei",
+        "continueresti",
+        "continuerebbe",
+        "continueremmo",
+        "continuereste",
+        "continuerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io continui",
+        "che tu continui",
+        "che egli continui",
+        "che noi continuiamo",
+        "che voi continuiate",
+        "che essi continuino"
+      ],
+      "imperativo": [
+        "continua!",
+        "continuiamo!",
+        "continuate!"
+      ],
+      "participio_passato": [
+        "continuato"
+      ],
+      "subj": [
+        "che io continui",
+        "che tu continui",
+        "che lui/lei continui",
+        "che noi continuiamo",
+        "che voi continuiate",
+        "che loro continuino"
+      ],
+      "cond": [
+        "io continuerei",
+        "tu continueresti",
+        "lui/lei continuerebbe",
+        "noi continueremmo",
+        "voi continuereste",
+        "loro continuerebbero"
+      ],
+      "impv": [
+        "continua",
+        "continuiamo",
+        "continuate"
+      ],
+      "part": [
+        "continuante",
+        "continuato"
+      ]
+    }
+  },
+  "coprire": {
+    "group": "3a coniugazione",
+    "level": "A2",
+    "definition": "Mettere sopra per nascondere.",
+    "antonyms": [
+      "scoprire"
+    ],
+    "tenses": {
+      "presente": [
+        "copro",
+        "copri",
+        "copre",
+        "copriamo",
+        "coprite",
+        "coprono"
+      ],
+      "imperfetto": [
+        "coprivo",
+        "coprivi",
+        "copriva",
+        "coprivamo",
+        "coprivate",
+        "coprivano"
+      ],
+      "futuro_semplice": [
+        "coprirò",
+        "coprirai",
+        "coprirà",
+        "copriremo",
+        "coprirete",
+        "copriranno"
+      ],
+      "condizionale_presente": [
+        "coprirei",
+        "copriresti",
+        "coprirebbe",
+        "copriremmo",
+        "coprireste",
+        "coprirrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io copra",
+        "che tu copra",
+        "che egli copra",
+        "che noi copriamo",
+        "che voi copriate",
+        "che essi coprano"
+      ],
+      "imperativo": [
+        "copri!",
+        "copriamo!",
+        "coprite!"
+      ],
+      "participio_passato": [
+        "coperto"
+      ],
+      "subj": [
+        "che io copri",
+        "che tu copri",
+        "che lui/lei copri",
+        "che noi copriamo",
+        "che voi copriate",
+        "che loro coprino"
+      ],
+      "cond": [
+        "io coprerei",
+        "tu copreresti",
+        "lui/lei coprerebbe",
+        "noi copreremmo",
+        "voi coprereste",
+        "loro coprerebbero"
+      ],
+      "impv": [
+        "copra",
+        "copriamo",
+        "coprate"
+      ],
+      "part": [
+        "coprante",
+        "coprato"
+      ]
+    }
+  },
+  "correggere": {
+    "group": "2a coniugazione",
+    "level": "A2",
+    "definition": "Eliminare gli errori.",
+    "antonyms": [
+      "sbagliare"
+    ],
+    "tenses": {
+      "presente": [
+        "correggo",
+        "correggi",
+        "corregge",
+        "correggiamo",
+        "correggete",
+        "correggono"
+      ],
+      "imperfetto": [
+        "correggevo",
+        "correggevi",
+        "correggeva",
+        "correggevamo",
+        "correggevate",
+        "correggevano"
+      ],
+      "futuro_semplice": [
+        "correggerò",
+        "correggerai",
+        "correggerà",
+        "correggeremo",
+        "correggerete",
+        "correggeranno"
+      ],
+      "condizionale_presente": [
+        "correggerei",
+        "correggeresti",
+        "correggerebbe",
+        "correggeremmo",
+        "correggereste",
+        "correggerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io corregga",
+        "che tu corregga",
+        "che egli corregga",
+        "che noi correggiamo",
+        "che voi correggiate",
+        "che essi correggano"
+      ],
+      "imperativo": [
+        "correggi!",
+        "correggiamo!",
+        "correggete!"
+      ],
+      "participio_passato": [
+        "corretto"
+      ],
+      "subj": [
+        "che io correggi",
+        "che tu correggi",
+        "che lui/lei correggi",
+        "che noi correggiamo",
+        "che voi correggiate",
+        "che loro correggino"
+      ],
+      "cond": [
+        "io correggerei",
+        "tu correggeresti",
+        "lui/lei correggerebbe",
+        "noi correggeremmo",
+        "voi correggereste",
+        "loro correggerebbero"
+      ],
+      "impv": [
+        "corregga",
+        "correggiamo",
+        "correggate"
+      ],
+      "part": [
+        "correggante",
+        "correggato"
+      ]
+    }
+  },
+  "costruire": {
+    "group": "3a coniugazione",
+    "level": "A2",
+    "definition": "Fabbricare un edificio.",
+    "antonyms": [
+      "distruggere"
+    ],
+    "tenses": {
+      "presente": [
+        "costruisco",
+        "costruisci",
+        "costruisce",
+        "costruiamo",
+        "costruite",
+        "costruiscono"
+      ],
+      "imperfetto": [
+        "costruivo",
+        "costruivi",
+        "costruiva",
+        "costruivamo",
+        "costruivate",
+        "costruivano"
+      ],
+      "futuro_semplice": [
+        "costruirò",
+        "costruirai",
+        "costruirà",
+        "costruiremo",
+        "costruirete",
+        "costruiranno"
+      ],
+      "condizionale_presente": [
+        "costruirei",
+        "costruiresti",
+        "costruirebbe",
+        "costruiremmo",
+        "costruireste",
+        "costruirrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io costrua",
+        "che tu costrua",
+        "che egli costrua",
+        "che noi costruiamo",
+        "che voi costruiate",
+        "che essi costruano"
+      ],
+      "imperativo": [
+        "costrui!",
+        "costruiamo!",
+        "costruite!"
+      ],
+      "participio_passato": [
+        "costruito"
+      ],
+      "subj": [
+        "che io costrui",
+        "che tu costrui",
+        "che lui/lei costrui",
+        "che noi costruiamo",
+        "che voi costruiate",
+        "che loro costruino"
+      ],
+      "cond": [
+        "io costruerei",
+        "tu costrueresti",
+        "lui/lei costruerebbe",
+        "noi costrueremmo",
+        "voi costruereste",
+        "loro costruerebbero"
+      ],
+      "impv": [
+        "costrua",
+        "costruiamo",
+        "costruate"
+      ],
+      "part": [
+        "costruante",
+        "costruato"
+      ]
+    }
+  },
+  "cucinare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Preparare i cibi.",
+    "antonyms": [
+      "digiunare"
+    ],
+    "tenses": {
+      "presente": [
+        "cucino",
+        "cucini",
+        "cucina",
+        "cuciniamo",
+        "cucinate",
+        "cucinano"
+      ],
+      "imperfetto": [
+        "cucinavo",
+        "cucinavi",
+        "cucinava",
+        "cucinavamo",
+        "cucinavate",
+        "cucinavano"
+      ],
+      "futuro_semplice": [
+        "cucinerò",
+        "cucinerai",
+        "cucinerà",
+        "cucineremo",
+        "cucinerete",
+        "cucineranno"
+      ],
+      "condizionale_presente": [
+        "cucinerei",
+        "cucineresti",
+        "cucinerebbe",
+        "cucineremmo",
+        "cucinereste",
+        "cucinerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io cucini",
+        "che tu cucini",
+        "che egli cucini",
+        "che noi cuciniamo",
+        "che voi cuciniate",
+        "che essi cucinino"
+      ],
+      "imperativo": [
+        "cucina!",
+        "cuciniamo!",
+        "cucinate!"
+      ],
+      "participio_passato": [
+        "cucinato"
+      ],
+      "subj": [
+        "che io cucini",
+        "che tu cucini",
+        "che lui/lei cucini",
+        "che noi cuciniamo",
+        "che voi cuciniate",
+        "che loro cucinino"
+      ],
+      "cond": [
+        "io cucinerei",
+        "tu cucineresti",
+        "lui/lei cucinerebbe",
+        "noi cucineremmo",
+        "voi cucinereste",
+        "loro cucinerebbero"
+      ],
+      "impv": [
+        "cucina",
+        "cuciniamo",
+        "cucinate"
+      ],
+      "part": [
+        "cucinante",
+        "cucinato"
+      ]
+    }
+  },
+  "decisione": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Prendere una decisione.",
+    "antonyms": [
+      "esitare"
+    ],
+    "tenses": {
+      "presente": [
+        "decido",
+        "decidi",
+        "decida",
+        "decidiamo",
+        "decidate",
+        "decidano"
+      ],
+      "imperfetto": [
+        "decidavo",
+        "decidavi",
+        "decidava",
+        "decidavamo",
+        "decidavate",
+        "decidavano"
+      ],
+      "futuro_semplice": [
+        "deciderò",
+        "deciderai",
+        "deciderà",
+        "decideremo",
+        "deciderete",
+        "decideranno"
+      ],
+      "condizionale_presente": [
+        "deciderei",
+        "decideresti",
+        "deciderebbe",
+        "decideremmo",
+        "decidereste",
+        "deciderrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io decidi",
+        "che tu decidi",
+        "che egli decidi",
+        "che noi decidiamo",
+        "che voi decidiate",
+        "che essi decidino"
+      ],
+      "imperativo": [
+        "decida!",
+        "decidiamo!",
+        "decidate!"
+      ],
+      "participio_passato": [
+        "deciso"
+      ],
+      "subj": [
+        "che io decisionei",
+        "che tu decisionei",
+        "che lui/lei decisionei",
+        "che noi decisioneiamo",
+        "che voi decisioneiate",
+        "che loro decisioneino"
+      ],
+      "cond": [
+        "io decisioneerei",
+        "tu decisioneeresti",
+        "lui/lei decisioneerebbe",
+        "noi decisioneeremmo",
+        "voi decisioneereste",
+        "loro decisioneerebbero"
+      ],
+      "impv": [
+        "decisionea",
+        "decisioneiamo",
+        "decisioneate"
+      ],
+      "part": [
+        "decisioneante",
+        "decisioneato"
+      ]
+    }
+  },
+  "descrivere": {
+    "group": "2a coniugazione",
+    "level": "A2",
+    "definition": "Rappresentare a parole.",
+    "antonyms": [
+      "confondere"
+    ],
+    "tenses": {
+      "presente": [
+        "descrivo",
+        "descrivi",
+        "descrive",
+        "descriviamo",
+        "descrivete",
+        "descrivono"
+      ],
+      "imperfetto": [
+        "descrivevo",
+        "descrivevi",
+        "descriveva",
+        "descrivevamo",
+        "descrivevate",
+        "descrivevano"
+      ],
+      "futuro_semplice": [
+        "descriverò",
+        "descriverai",
+        "descriverà",
+        "descriveremo",
+        "descriverete",
+        "descriveranno"
+      ],
+      "condizionale_presente": [
+        "descriverei",
+        "descriveresti",
+        "descriverebbe",
+        "descriveremmo",
+        "descrivereste",
+        "descriverrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io descriva",
+        "che tu descriva",
+        "che egli descriva",
+        "che noi descriviamo",
+        "che voi descriviate",
+        "che essi descrivano"
+      ],
+      "imperativo": [
+        "descrivi!",
+        "descriviamo!",
+        "descrivete!"
+      ],
+      "participio_passato": [
+        "descritto"
+      ],
+      "subj": [
+        "che io descrivi",
+        "che tu descrivi",
+        "che lui/lei descrivi",
+        "che noi descriviamo",
+        "che voi descriviate",
+        "che loro descrivino"
+      ],
+      "cond": [
+        "io descriverei",
+        "tu descriveresti",
+        "lui/lei descriverebbe",
+        "noi descriveremmo",
+        "voi descrivereste",
+        "loro descriverebbero"
+      ],
+      "impv": [
+        "descriva",
+        "descriviamo",
+        "descrivate"
+      ],
+      "part": [
+        "descrivante",
+        "descrivato"
+      ]
+    }
+  },
+  "dimostrare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Provare la verità di qualcosa.",
+    "antonyms": [
+      "nascondere"
+    ],
+    "tenses": {
+      "presente": [
+        "dimostro",
+        "dimostri",
+        "dimostra",
+        "dimostriamo",
+        "dimostrate",
+        "dimostrano"
+      ],
+      "imperfetto": [
+        "dimostravo",
+        "dimostravi",
+        "dimostrava",
+        "dimostravamo",
+        "dimostravate",
+        "dimostravano"
+      ],
+      "futuro_semplice": [
+        "dimostrerò",
+        "dimostrerai",
+        "dimostrerà",
+        "dimostreremo",
+        "dimostrerete",
+        "dimostreranno"
+      ],
+      "condizionale_presente": [
+        "dimostrerei",
+        "dimostreresti",
+        "dimostrerebbe",
+        "dimostreremmo",
+        "dimostrereste",
+        "dimostrerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io dimostri",
+        "che tu dimostri",
+        "che egli dimostri",
+        "che noi dimostriamo",
+        "che voi dimostriate",
+        "che essi dimostrino"
+      ],
+      "imperativo": [
+        "dimostra!",
+        "dimostriamo!",
+        "dimostrate!"
+      ],
+      "participio_passato": [
+        "dimostrato"
+      ],
+      "subj": [
+        "che io dimostri",
+        "che tu dimostri",
+        "che lui/lei dimostri",
+        "che noi dimostriamo",
+        "che voi dimostriate",
+        "che loro dimostrino"
+      ],
+      "cond": [
+        "io dimostrerei",
+        "tu dimostreresti",
+        "lui/lei dimostrerebbe",
+        "noi dimostreremmo",
+        "voi dimostrereste",
+        "loro dimostrerebbero"
+      ],
+      "impv": [
+        "dimostra",
+        "dimostriamo",
+        "dimostrate"
+      ],
+      "part": [
+        "dimostrante",
+        "dimostrato"
+      ]
+    }
+  },
+  "disegnare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Rappresentare con matita.",
+    "antonyms": [
+      "cancellare"
+    ],
+    "tenses": {
+      "presente": [
+        "disegno",
+        "disegni",
+        "disegna",
+        "disegniamo",
+        "disegnate",
+        "disegnano"
+      ],
+      "imperfetto": [
+        "disegnavo",
+        "disegnavi",
+        "disegnava",
+        "disegnavamo",
+        "disegnavate",
+        "disegnavano"
+      ],
+      "futuro_semplice": [
+        "disegnerò",
+        "disegnerai",
+        "disegnerà",
+        "disegneremo",
+        "disegnerete",
+        "disegneranno"
+      ],
+      "condizionale_presente": [
+        "disegnerei",
+        "disegneresti",
+        "disegnerebbe",
+        "disegneremmo",
+        "disegnereste",
+        "disegnerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io disegni",
+        "che tu disegni",
+        "che egli disegni",
+        "che noi disegniamo",
+        "che voi disegniate",
+        "che essi disegnino"
+      ],
+      "imperativo": [
+        "disegna!",
+        "disegniamo!",
+        "disegnate!"
+      ],
+      "participio_passato": [
+        "disegnato"
+      ],
+      "subj": [
+        "che io disegni",
+        "che tu disegni",
+        "che lui/lei disegni",
+        "che noi disegniamo",
+        "che voi disegniate",
+        "che loro disegnino"
+      ],
+      "cond": [
+        "io disegnerei",
+        "tu disegneresti",
+        "lui/lei disegnerebbe",
+        "noi disegneremmo",
+        "voi disegnereste",
+        "loro disegnerebbero"
+      ],
+      "impv": [
+        "disegna",
+        "disegniamo",
+        "disegnate"
+      ],
+      "part": [
+        "disegnante",
+        "disegnato"
+      ]
+    }
+  },
+  "distruggere": {
+    "group": "2a coniugazione",
+    "level": "B1",
+    "definition": "Demolire completamente.",
+    "antonyms": [
+      "costruire"
+    ],
+    "tenses": {
+      "presente": [
+        "distruggo",
+        "distruggi",
+        "distrugge",
+        "distruggiamo",
+        "distruggete",
+        "distruggono"
+      ],
+      "imperfetto": [
+        "distruggevo",
+        "distruggevi",
+        "distruggeva",
+        "distruggevamo",
+        "distruggevate",
+        "distruggevano"
+      ],
+      "futuro_semplice": [
+        "distruggerò",
+        "distruggerai",
+        "distruggerà",
+        "distruggeremo",
+        "distruggerete",
+        "distruggeranno"
+      ],
+      "condizionale_presente": [
+        "distruggerei",
+        "distruggeresti",
+        "distruggerebbe",
+        "distruggeremmo",
+        "distruggereste",
+        "distruggerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io distrugga",
+        "che tu distrugga",
+        "che egli distrugga",
+        "che noi distruggiamo",
+        "che voi distruggiate",
+        "che essi distruggano"
+      ],
+      "imperativo": [
+        "distruggi!",
+        "distruggiamo!",
+        "distruggete!"
+      ],
+      "participio_passato": [
+        "distrutto"
+      ],
+      "subj": [
+        "che io distruggi",
+        "che tu distruggi",
+        "che lui/lei distruggi",
+        "che noi distruggiamo",
+        "che voi distruggiate",
+        "che loro distruggino"
+      ],
+      "cond": [
+        "io distruggerei",
+        "tu distruggeresti",
+        "lui/lei distruggerebbe",
+        "noi distruggeremmo",
+        "voi distruggereste",
+        "loro distruggerebbero"
+      ],
+      "impv": [
+        "distrugga",
+        "distruggiamo",
+        "distruggate"
+      ],
+      "part": [
+        "distruggante",
+        "distruggato"
+      ]
+    }
+  },
+  "dubitare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Avere dubbi.",
+    "antonyms": [
+      "credere"
+    ],
+    "tenses": {
+      "presente": [
+        "dubito",
+        "dubiti",
+        "dubita",
+        "dubitiamo",
+        "dubitate",
+        "dubitano"
+      ],
+      "imperfetto": [
+        "dubitavo",
+        "dubitavi",
+        "dubitava",
+        "dubitavamo",
+        "dubitavate",
+        "dubitavano"
+      ],
+      "futuro_semplice": [
+        "dubiterò",
+        "dubiterai",
+        "dubiterà",
+        "dubiteremo",
+        "dubiterete",
+        "dubiteranno"
+      ],
+      "condizionale_presente": [
+        "dubiterei",
+        "dubiteresti",
+        "dubiterebbe",
+        "dubiteremmo",
+        "dubitereste",
+        "dubiterrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io dubiti",
+        "che tu dubiti",
+        "che egli dubiti",
+        "che noi dubitiamo",
+        "che voi dubitiate",
+        "che essi dubitino"
+      ],
+      "imperativo": [
+        "dubita!",
+        "dubitiamo!",
+        "dubitate!"
+      ],
+      "participio_passato": [
+        "dubitato"
+      ],
+      "subj": [
+        "che io dubiti",
+        "che tu dubiti",
+        "che lui/lei dubiti",
+        "che noi dubitiamo",
+        "che voi dubitiate",
+        "che loro dubitino"
+      ],
+      "cond": [
+        "io dubiterei",
+        "tu dubiteresti",
+        "lui/lei dubiterebbe",
+        "noi dubiteremmo",
+        "voi dubitereste",
+        "loro dubiterebbero"
+      ],
+      "impv": [
+        "dubita",
+        "dubitiamo",
+        "dubitate"
+      ],
+      "part": [
+        "dubitante",
+        "dubitato"
+      ]
+    }
+  },
+  "evitare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Cercare di non incontrare.",
+    "antonyms": [
+      "affrontare"
+    ],
+    "tenses": {
+      "presente": [
+        "evito",
+        "eviti",
+        "evita",
+        "evitiamo",
+        "evitate",
+        "evitano"
+      ],
+      "imperfetto": [
+        "evitavo",
+        "evitavi",
+        "evitava",
+        "evitavamo",
+        "evitavate",
+        "evitavano"
+      ],
+      "futuro_semplice": [
+        "eviterò",
+        "eviterai",
+        "eviterà",
+        "eviteremo",
+        "eviterete",
+        "eviteranno"
+      ],
+      "condizionale_presente": [
+        "eviterei",
+        "eviteresti",
+        "eviterebbe",
+        "eviteremmo",
+        "evitereste",
+        "eviterrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io eviti",
+        "che tu eviti",
+        "che egli eviti",
+        "che noi evitiamo",
+        "che voi evitiate",
+        "che essi evitino"
+      ],
+      "imperativo": [
+        "evita!",
+        "evitiamo!",
+        "evitate!"
+      ],
+      "participio_passato": [
+        "evitato"
+      ],
+      "subj": [
+        "che io eviti",
+        "che tu eviti",
+        "che lui/lei eviti",
+        "che noi evitiamo",
+        "che voi evitiate",
+        "che loro evitino"
+      ],
+      "cond": [
+        "io eviterei",
+        "tu eviteresti",
+        "lui/lei eviterebbe",
+        "noi eviteremmo",
+        "voi evitereste",
+        "loro eviterebbero"
+      ],
+      "impv": [
+        "evita",
+        "evitiamo",
+        "evitate"
+      ],
+      "part": [
+        "evitante",
+        "evitato"
+      ]
+    }
+  },
+  "fermare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Arrestare il movimento.",
+    "antonyms": [
+      "continuare"
+    ],
+    "tenses": {
+      "presente": [
+        "fermo",
+        "fermi",
+        "ferma",
+        "fermiamo",
+        "fermate",
+        "fermano"
+      ],
+      "imperfetto": [
+        "fermavo",
+        "fermavi",
+        "fermava",
+        "fermavamo",
+        "fermavate",
+        "fermavano"
+      ],
+      "futuro_semplice": [
+        "fermerò",
+        "fermerai",
+        "fermerà",
+        "fermeremo",
+        "fermerete",
+        "fermeranno"
+      ],
+      "condizionale_presente": [
+        "fermerei",
+        "fermeresti",
+        "fermerebbe",
+        "fermeremmo",
+        "fermereste",
+        "fermerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io fermi",
+        "che tu fermi",
+        "che egli fermi",
+        "che noi fermiamo",
+        "che voi fermiate",
+        "che essi fermino"
+      ],
+      "imperativo": [
+        "ferma!",
+        "fermiamo!",
+        "fermate!"
+      ],
+      "participio_passato": [
+        "fermato"
+      ],
+      "subj": [
+        "che io fermi",
+        "che tu fermi",
+        "che lui/lei fermi",
+        "che noi fermiamo",
+        "che voi fermiate",
+        "che loro fermino"
+      ],
+      "cond": [
+        "io fermerei",
+        "tu fermeresti",
+        "lui/lei fermerebbe",
+        "noi fermeremmo",
+        "voi fermereste",
+        "loro fermerebbero"
+      ],
+      "impv": [
+        "ferma",
+        "fermiamo",
+        "fermate"
+      ],
+      "part": [
+        "fermante",
+        "fermato"
+      ]
+    }
+  },
+  "firmare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Mettere la propria firma.",
+    "antonyms": [
+      "annullare"
+    ],
+    "tenses": {
+      "presente": [
+        "firmo",
+        "firmi",
+        "firma",
+        "firmiamo",
+        "firmate",
+        "firmano"
+      ],
+      "imperfetto": [
+        "firmavo",
+        "firmavi",
+        "firmava",
+        "firmavamo",
+        "firmavate",
+        "firmavano"
+      ],
+      "futuro_semplice": [
+        "firmerò",
+        "firmerai",
+        "firmerà",
+        "firmeremo",
+        "firmerete",
+        "firmeranno"
+      ],
+      "condizionale_presente": [
+        "firmerei",
+        "firmeresti",
+        "firmerebbe",
+        "firmeremmo",
+        "firmereste",
+        "firmerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io firmi",
+        "che tu firmi",
+        "che egli firmi",
+        "che noi firmiamo",
+        "che voi firmiate",
+        "che essi firmino"
+      ],
+      "imperativo": [
+        "firma!",
+        "firmiamo!",
+        "firmate!"
+      ],
+      "participio_passato": [
+        "firmato"
+      ],
+      "subj": [
+        "che io firmi",
+        "che tu firmi",
+        "che lui/lei firmi",
+        "che noi firmiamo",
+        "che voi firmiate",
+        "che loro firmino"
+      ],
+      "cond": [
+        "io firmerei",
+        "tu firmeresti",
+        "lui/lei firmerebbe",
+        "noi firmeremmo",
+        "voi firmereste",
+        "loro firmerebbero"
+      ],
+      "impv": [
+        "firma",
+        "firmiamo",
+        "firmate"
+      ],
+      "part": [
+        "firmante",
+        "firmato"
+      ]
+    }
+  },
+  "lasciare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Permettere o abbandonare.",
+    "antonyms": [
+      "prendere"
+    ],
+    "tenses": {
+      "presente": [
+        "lascio",
+        "lasci",
+        "lascia",
+        "lasciamo",
+        "lasciate",
+        "lasciano"
+      ],
+      "imperfetto": [
+        "lasciavo",
+        "lasciavi",
+        "lasciava",
+        "lasciavamo",
+        "lasciavate",
+        "lasciavano"
+      ],
+      "futuro_semplice": [
+        "lascierò",
+        "lascierai",
+        "lascierà",
+        "lascieremo",
+        "lascierete",
+        "lascieranno"
+      ],
+      "condizionale_presente": [
+        "lascierei",
+        "lascieresti",
+        "lascierebbe",
+        "lascieremmo",
+        "lasciereste",
+        "lascierrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io lasci",
+        "che tu lasci",
+        "che egli lasci",
+        "che noi lasciamo",
+        "che voi lasciate",
+        "che essi lascino"
+      ],
+      "imperativo": [
+        "lascia!",
+        "lasciamo!",
+        "lasciate!"
+      ],
+      "participio_passato": [
+        "lasciato"
+      ],
+      "subj": [
+        "che io lascii",
+        "che tu lascii",
+        "che lui/lei lascii",
+        "che noi lasciiamo",
+        "che voi lasciiate",
+        "che loro lasciino"
+      ],
+      "cond": [
+        "io lascierei",
+        "tu lascieresti",
+        "lui/lei lascierebbe",
+        "noi lascieremmo",
+        "voi lasciereste",
+        "loro lascierebbero"
+      ],
+      "impv": [
+        "lascia",
+        "lasciiamo",
+        "lasciate"
+      ],
+      "part": [
+        "lasciante",
+        "lasciato"
+      ]
+    }
+  },
+  "mostrare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Fare vedere.",
+    "antonyms": [
+      "nascondere"
+    ],
+    "tenses": {
+      "presente": [
+        "mostro",
+        "mostri",
+        "mostra",
+        "mostriamo",
+        "mostrate",
+        "mostrano"
+      ],
+      "imperfetto": [
+        "mostravo",
+        "mostravi",
+        "mostrava",
+        "mostravamo",
+        "mostravate",
+        "mostravano"
+      ],
+      "futuro_semplice": [
+        "mostrerò",
+        "mostrerai",
+        "mostrerà",
+        "mostreremo",
+        "mostrerete",
+        "mostreranno"
+      ],
+      "condizionale_presente": [
+        "mostrerei",
+        "mostreresti",
+        "mostrerebbe",
+        "mostreremmo",
+        "mostrereste",
+        "mostrerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io mostri",
+        "che tu mostri",
+        "che egli mostri",
+        "che noi mostriamo",
+        "che voi mostriate",
+        "che essi mostrino"
+      ],
+      "imperativo": [
+        "mostra!",
+        "mostriamo!",
+        "mostrate!"
+      ],
+      "participio_passato": [
+        "mostrato"
+      ],
+      "subj": [
+        "che io mostri",
+        "che tu mostri",
+        "che lui/lei mostri",
+        "che noi mostriamo",
+        "che voi mostriate",
+        "che loro mostrino"
+      ],
+      "cond": [
+        "io mostrerei",
+        "tu mostreresti",
+        "lui/lei mostrerebbe",
+        "noi mostreremmo",
+        "voi mostrereste",
+        "loro mostrerebbero"
+      ],
+      "impv": [
+        "mostra",
+        "mostriamo",
+        "mostrate"
+      ],
+      "part": [
+        "mostrante",
+        "mostrato"
+      ]
+    }
+  },
+  "nascondere": {
+    "group": "2a coniugazione",
+    "level": "A2",
+    "definition": "Sottrarre alla vista.",
+    "antonyms": [
+      "mostrare"
+    ],
+    "tenses": {
+      "presente": [
+        "nascondo",
+        "nascondi",
+        "nasconde",
+        "nascondiamo",
+        "nascondete",
+        "nascondono"
+      ],
+      "imperfetto": [
+        "nascondevo",
+        "nascondevi",
+        "nascondeva",
+        "nascondevamo",
+        "nascondevate",
+        "nascondevano"
+      ],
+      "futuro_semplice": [
+        "nasconderò",
+        "nasconderai",
+        "nasconderà",
+        "nasconderemo",
+        "nasconderete",
+        "nasconderanno"
+      ],
+      "condizionale_presente": [
+        "nasconderei",
+        "nasconderesti",
+        "nasconderebbe",
+        "nasconderemmo",
+        "nascondereste",
+        "nasconderrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io nasconda",
+        "che tu nasconda",
+        "che egli nasconda",
+        "che noi nascondiamo",
+        "che voi nascondiate",
+        "che essi nascondano"
+      ],
+      "imperativo": [
+        "nascondi!",
+        "nascondiamo!",
+        "nascondete!"
+      ],
+      "participio_passato": [
+        "nascosto"
+      ],
+      "subj": [
+        "che io nascondi",
+        "che tu nascondi",
+        "che lui/lei nascondi",
+        "che noi nascondiamo",
+        "che voi nascondiate",
+        "che loro nascondino"
+      ],
+      "cond": [
+        "io nasconderei",
+        "tu nasconderesti",
+        "lui/lei nasconderebbe",
+        "noi nasconderemmo",
+        "voi nascondereste",
+        "loro nasconderebbero"
+      ],
+      "impv": [
+        "nasconda",
+        "nascondiamo",
+        "nascondate"
+      ],
+      "part": [
+        "nascondante",
+        "nascondato"
+      ]
+    }
+  },
+  "piangere": {
+    "group": "2a coniugazione",
+    "level": "A1",
+    "definition": "Versare lacrime.",
+    "antonyms": [
+      "ridere"
+    ],
+    "tenses": {
+      "presente": [
+        "piango",
+        "piangi",
+        "piange",
+        "piangiamo",
+        "piangete",
+        "piangono"
+      ],
+      "imperfetto": [
+        "piangevo",
+        "piangevi",
+        "piangeva",
+        "piangevamo",
+        "piangevate",
+        "piangevano"
+      ],
+      "futuro_semplice": [
+        "piangerò",
+        "piangerai",
+        "piangerà",
+        "piangeremo",
+        "piangerete",
+        "piangeranno"
+      ],
+      "condizionale_presente": [
+        "piangerei",
+        "piangeresti",
+        "piangerebbe",
+        "piangeremmo",
+        "piangereste",
+        "piangerrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io pianga",
+        "che tu pianga",
+        "che egli pianga",
+        "che noi piangiamo",
+        "che voi piangiate",
+        "che essi piangano"
+      ],
+      "imperativo": [
+        "piangi!",
+        "piangiamo!",
+        "piangete!"
+      ],
+      "participio_passato": [
+        "pianto"
+      ],
+      "subj": [
+        "che io piangi",
+        "che tu piangi",
+        "che lui/lei piangi",
+        "che noi piangiamo",
+        "che voi piangiate",
+        "che loro piangino"
+      ],
+      "cond": [
+        "io piangerei",
+        "tu piangeresti",
+        "lui/lei piangerebbe",
+        "noi piangeremmo",
+        "voi piangereste",
+        "loro piangerebbero"
+      ],
+      "impv": [
+        "pianga",
+        "piangiamo",
+        "piangate"
+      ],
+      "part": [
+        "piangante",
+        "piangato"
+      ]
+    }
+  },
+  "raccontare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Dire una storia.",
+    "antonyms": [
+      "tacere"
+    ],
+    "tenses": {
+      "presente": [
+        "racconto",
+        "racconti",
+        "racconta",
+        "raccontiamo",
+        "raccontate",
+        "raccontano"
+      ],
+      "imperfetto": [
+        "raccontavo",
+        "raccontavi",
+        "raccontava",
+        "raccontavamo",
+        "raccontavate",
+        "raccontavano"
+      ],
+      "futuro_semplice": [
+        "racconterò",
+        "racconterai",
+        "racconterà",
+        "racconteremo",
+        "racconterete",
+        "racconteranno"
+      ],
+      "condizionale_presente": [
+        "racconterei",
+        "racconteresti",
+        "racconterebbe",
+        "racconteremmo",
+        "raccontereste",
+        "racconterrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io racconti",
+        "che tu racconti",
+        "che egli racconti",
+        "che noi raccontiamo",
+        "che voi raccontiate",
+        "che essi raccontino"
+      ],
+      "imperativo": [
+        "racconta!",
+        "raccontiamo!",
+        "raccontate!"
+      ],
+      "participio_passato": [
+        "raccontato"
+      ],
+      "subj": [
+        "che io racconti",
+        "che tu racconti",
+        "che lui/lei racconti",
+        "che noi raccontiamo",
+        "che voi raccontiate",
+        "che loro raccontino"
+      ],
+      "cond": [
+        "io racconterei",
+        "tu racconteresti",
+        "lui/lei racconterebbe",
+        "noi racconteremmo",
+        "voi raccontereste",
+        "loro racconterebbero"
+      ],
+      "impv": [
+        "racconta",
+        "raccontiamo",
+        "raccontate"
+      ],
+      "part": [
+        "raccontante",
+        "raccontato"
+      ]
+    }
+  },
+  "vendere": {
+    "group": "2a coniugazione",
+    "level": "A1",
+    "definition": "Cedere per denaro.",
+    "antonyms": [
+      "comprare"
+    ],
+    "tenses": {
+      "presente": [
+        "vendo",
+        "vendi",
+        "vende",
+        "vendiamo",
+        "vendete",
+        "vendono"
+      ],
+      "imperfetto": [
+        "vendevo",
+        "vendevi",
+        "vendeva",
+        "vendevamo",
+        "vendevate",
+        "vendevano"
+      ],
+      "futuro_semplice": [
+        "venderò",
+        "venderai",
+        "venderà",
+        "venderemo",
+        "venderete",
+        "venderanno"
+      ],
+      "condizionale_presente": [
+        "venderei",
+        "venderesti",
+        "venderebbe",
+        "venderemmo",
+        "vendereste",
+        "venderrebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io venda",
+        "che tu venda",
+        "che egli venda",
+        "che noi vendiamo",
+        "che voi vendiate",
+        "che essi vendano"
+      ],
+      "imperativo": [
+        "vendi!",
+        "vendiamo!",
+        "vendete!"
+      ],
+      "participio_passato": [
+        "venduto"
+      ],
+      "subj": [
+        "che io vendi",
+        "che tu vendi",
+        "che lui/lei vendi",
+        "che noi vendiamo",
+        "che voi vendiate",
+        "che loro vendino"
+      ],
+      "cond": [
+        "io venderei",
+        "tu venderesti",
+        "lui/lei venderebbe",
+        "noi venderemmo",
+        "voi vendereste",
+        "loro venderebbero"
+      ],
+      "impv": [
+        "venda",
+        "vendiamo",
+        "vendate"
+      ],
+      "part": [
+        "vendante",
+        "vendato"
+      ]
+    }
+  },
+  "provare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Fare un tentativo.",
+    "antonyms": [
+      "rinunciare"
+    ],
+    "tenses": {
+      "pres": [
+        "io provo",
+        "tu provi",
+        "lui/lei prova",
+        "noi proviamo",
+        "voi provate",
+        "loro provano"
+      ],
+      "pass_comp": [
+        "io ho provato",
+        "tu hai provato",
+        "lui/lei ha provato",
+        "noi abbiamo provato",
+        "voi avete provato",
+        "loro hanno provato"
+      ],
+      "impf": [
+        "io provavo",
+        "tu provavi",
+        "lui/lei provava",
+        "noi provavamo",
+        "voi provavate",
+        "loro provavano"
+      ],
+      "fut": [
+        "io proverò",
+        "tu proverai",
+        "lui/lei proverà",
+        "noi proveremo",
+        "voi proverete",
+        "loro proveranno"
+      ],
+      "cond": [
+        "io proverei",
+        "tu provereresti",
+        "lui/lei provererebbe",
+        "noi provereremmo",
+        "voi proverereste",
+        "loro provererebbero"
+      ],
+      "subj": [
+        "che io provi",
+        "che tu provi",
+        "che lui/lei provi",
+        "che noi proviamo",
+        "che voi proviate",
+        "che loro provino"
+      ],
+      "impv": [
+        "prova",
+        "proviamo",
+        "provate"
+      ],
+      "part": [
+        "provante",
+        "provato"
+      ]
+    }
+  },
+  "salutare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Rivolgere un saluto.",
+    "antonyms": [
+      "ignorare"
+    ],
+    "tenses": {
+      "pres": [
+        "io saluto",
+        "tu saluti",
+        "lui/lei saluta",
+        "noi salutiamo",
+        "voi salutate",
+        "loro salutano"
+      ],
+      "pass_comp": [
+        "io ho salutato",
+        "tu hai salutato",
+        "lui/lei ha salutato",
+        "noi abbiamo salutato",
+        "voi avete salutato",
+        "loro hanno salutato"
+      ],
+      "impf": [
+        "io salutavo",
+        "tu salutavi",
+        "lui/lei salutava",
+        "noi salutavamo",
+        "voi salutavate",
+        "loro salutavano"
+      ],
+      "fut": [
+        "io saluterò",
+        "tu saluterai",
+        "lui/lei saluterà",
+        "noi saluteremo",
+        "voi saluterete",
+        "loro saluteranno"
+      ],
+      "cond": [
+        "io saluterei",
+        "tu salutereresti",
+        "lui/lei salutererebbe",
+        "noi salutereremmo",
+        "voi saluterereste",
+        "loro salutererebbero"
+      ],
+      "subj": [
+        "che io saluti",
+        "che tu saluti",
+        "che lui/lei saluti",
+        "che noi salutiamo",
+        "che voi salutiate",
+        "che loro salutino"
+      ],
+      "impv": [
+        "saluta",
+        "salutiamo",
+        "salutate"
+      ],
+      "part": [
+        "salutante",
+        "salutato"
+      ]
+    }
+  },
+  "suonare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Produrre musica con uno strumento.",
+    "antonyms": [
+      "tacere"
+    ],
+    "tenses": {
+      "pres": [
+        "io suono",
+        "tu suoni",
+        "lui/lei suona",
+        "noi suoniamo",
+        "voi suonate",
+        "loro suonano"
+      ],
+      "pass_comp": [
+        "io ho suonato",
+        "tu hai suonato",
+        "lui/lei ha suonato",
+        "noi abbiamo suonato",
+        "voi avete suonato",
+        "loro hanno suonato"
+      ],
+      "impf": [
+        "io suonavo",
+        "tu suonavi",
+        "lui/lei suonava",
+        "noi suonavamo",
+        "voi suonavate",
+        "loro suonavano"
+      ],
+      "fut": [
+        "io suonerò",
+        "tu suonerai",
+        "lui/lei suonerà",
+        "noi suoneremo",
+        "voi suonerete",
+        "loro suoneranno"
+      ],
+      "cond": [
+        "io suonerei",
+        "tu suonereresti",
+        "lui/lei suonererebbe",
+        "noi suonereremmo",
+        "voi suonerereste",
+        "loro suonererebbero"
+      ],
+      "subj": [
+        "che io suoni",
+        "che tu suoni",
+        "che lui/lei suoni",
+        "che noi suoniamo",
+        "che voi suoniate",
+        "che loro suonino"
+      ],
+      "impv": [
+        "suona",
+        "suoniamo",
+        "suonate"
+      ],
+      "part": [
+        "suonante",
+        "suonato"
+      ]
+    }
+  },
+  "telefonare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Chiamare al telefono.",
+    "antonyms": [
+      "scrivere"
+    ],
+    "tenses": {
+      "pres": [
+        "io telefono",
+        "tu telefoni",
+        "lui/lei telefona",
+        "noi telefoniamo",
+        "voi telefonate",
+        "loro telefonano"
+      ],
+      "pass_comp": [
+        "io ho telefonato",
+        "tu hai telefonato",
+        "lui/lei ha telefonato",
+        "noi abbiamo telefonato",
+        "voi avete telefonato",
+        "loro hanno telefonato"
+      ],
+      "impf": [
+        "io telefonavo",
+        "tu telefonavi",
+        "lui/lei telefonava",
+        "noi telefonavamo",
+        "voi telefonavate",
+        "loro telefonavano"
+      ],
+      "fut": [
+        "io telefonerò",
+        "tu telefonerai",
+        "lui/lei telefonerà",
+        "noi telefoneremo",
+        "voi telefonerete",
+        "loro telefoneranno"
+      ],
+      "cond": [
+        "io telefonerei",
+        "tu telefonereresti",
+        "lui/lei telefonererebbe",
+        "noi telefonereremmo",
+        "voi telefonerereste",
+        "loro telefonererebbero"
+      ],
+      "subj": [
+        "che io telefoni",
+        "che tu telefoni",
+        "che lui/lei telefoni",
+        "che noi telefoniamo",
+        "che voi telefoniate",
+        "che loro telefonino"
+      ],
+      "impv": [
+        "telefona",
+        "telefoniamo",
+        "telefonate"
+      ],
+      "part": [
+        "telefonante",
+        "telefonato"
+      ]
+    }
+  },
+  "usare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Adoperare un oggetto.",
+    "antonyms": [
+      "riporre"
+    ],
+    "tenses": {
+      "pres": [
+        "io uso",
+        "tu usi",
+        "lui/lei usa",
+        "noi usiamo",
+        "voi usate",
+        "loro usano"
+      ],
+      "pass_comp": [
+        "io ho usato",
+        "tu hai usato",
+        "lui/lei ha usato",
+        "noi abbiamo usato",
+        "voi avete usato",
+        "loro hanno usato"
+      ],
+      "impf": [
+        "io usavo",
+        "tu usavi",
+        "lui/lei usava",
+        "noi usavamo",
+        "voi usavate",
+        "loro usavano"
+      ],
+      "fut": [
+        "io userò",
+        "tu userai",
+        "lui/lei userà",
+        "noi useremo",
+        "voi userete",
+        "loro useranno"
+      ],
+      "cond": [
+        "io userei",
+        "tu usereresti",
+        "lui/lei usererebbe",
+        "noi usereremmo",
+        "voi userereste",
+        "loro usererebbero"
+      ],
+      "subj": [
+        "che io usi",
+        "che tu usi",
+        "che lui/lei usi",
+        "che noi usiamo",
+        "che voi usiate",
+        "che loro usino"
+      ],
+      "impv": [
+        "usa",
+        "usiamo",
+        "usate"
+      ],
+      "part": [
+        "usante",
+        "usato"
+      ]
+    }
   }
 }
