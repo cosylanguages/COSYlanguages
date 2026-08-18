@@ -2070,95 +2070,128 @@
         }
     });
 
-    /* ─── CLUB FILTER EMPTY STATE LOGIC ─────────────────────────── */
+    /* ─── CLUB FILTER ENGINE (MULTIMEDIA & SPEAKING CLUBS) ────────── */
     const setupClubFilters = () => {
-        const buttons = document.querySelectorAll('.filter-btn');
+        const historyBody = document.querySelector('.history-body') || document.querySelector('.history-block') || document.querySelector('.cinema-grid') || document.getElementById('cinema-history-grid') || document.querySelector('.karaoke-sessions-grid');
+        if (!historyBody) return;
+
         const sessions = document.querySelectorAll('.history-session');
-        const historyBody = document.querySelector('.history-body') || document.querySelector('.history-block');
+        if (sessions.length === 0) return;
 
-        if (buttons.length > 0 && sessions.length > 0 && historyBody) {
-            // Check if we already created the message
-            let noSessionsMsg = document.getElementById('no-sessions-msg');
-            if (!noSessionsMsg) {
-                noSessionsMsg = document.createElement('div');
-                noSessionsMsg.id = 'no-sessions-msg';
-                noSessionsMsg.style.cssText = 'text-align: center; padding: 3rem 1.5rem; background: var(--cream, #FAF7F2); border-radius: 16px; border: 1.5px dashed var(--border); margin: 1.5rem 0; width: 100%; box-sizing: border-box;';
+        const searchInputs = document.querySelectorAll('#cinema-search-input, #karaoke-search-input, .club-search-input');
+        const langBtns = document.querySelectorAll('.lang-filter-buttons .filter-btn, [data-lang-filter], .club-filters-lang .filter-btn');
+        const levelBtns = document.querySelectorAll('.level-filter-buttons .filter-btn, [data-level-filter], .club-filters-level .filter-btn, .club-filters .filter-btn');
+        const sensitiveToggles = document.querySelectorAll('#cinema-sensitive-toggle, #karaoke-sensitive-toggle, .sensitive-toggle');
+        const resultCounters = document.querySelectorAll('#cinema-result-count, #karaoke-result-count, .result-count');
 
-                const docLang = document.documentElement.lang || 'en';
-                const msgs = {
-                    en: {
-                        title: 'No past sessions found',
-                        desc: 'Please try selecting a different language level or check back later!'
-                    },
-                    fr: {
-                        title: 'Aucune session passée trouvée',
-                        desc: 'Veuillez essayer de sélectionner un autre niveau de langue !'
-                    },
-                    ru: {
-                        title: 'Прошедшие сессии не найдены',
-                        desc: 'Пожалуйста, попробуйте выбрать другой языковой уровень!'
-                    }
-                };
-                const msg = msgs[docLang.toLowerCase()] || msgs['en'];
+        let noSessionsMsg = document.getElementById('no-sessions-msg');
+        if (!noSessionsMsg && historyBody) {
+            noSessionsMsg = document.createElement('div');
+            noSessionsMsg.id = 'no-sessions-msg';
+            noSessionsMsg.style.cssText = 'text-align: center; padding: 3rem 1.5rem; background: var(--cream, #FAF7F2); border-radius: 16px; border: 1.5px dashed var(--border); margin: 1.5rem 0; width: 100%; box-sizing: border-box; grid-column: 1 / -1;';
 
-                noSessionsMsg.innerHTML = `
-                    <span style="font-size: 2.5rem; display: block; margin-bottom: 1rem; animation: pulse 2s infinite ease-in-out;">🔍</span>
-                    <h4 style="margin: 0 0 0.5rem; color: var(--ink-soft); font-family: 'Playfair Display', serif; font-size: 1.3rem;">${msg.title}</h4>
-                    <p style="margin: 0; font-size: 0.9rem; color: var(--muted);">${msg.desc}</p>
-                `;
-                noSessionsMsg.style.display = 'none';
-                historyBody.appendChild(noSessionsMsg);
+            const docLang = document.documentElement.lang || 'en';
+            const msgs = {
+                en: { title: 'No matching sessions found', desc: 'Try adjusting your search terms, language filter, or level selection!' },
+                fr: { title: 'Aucune session trouvée', desc: 'Essayez de modifier vos termes de recherche ou vos filtres !' },
+                ru: { title: 'Сессии не найдены', desc: 'Попробуйте изменить параметры поиска или языковой уровень!' }
+            };
+            const msg = msgs[docLang.toLowerCase()] || msgs['en'];
+
+            noSessionsMsg.innerHTML = `
+                <span style="font-size: 2.5rem; display: block; margin-bottom: 1rem;">🔍</span>
+                <h4 style="margin: 0 0 0.5rem; color: var(--ink-soft); font-family: 'Playfair Display', serif; font-size: 1.3rem;">${msg.title}</h4>
+                <p style="margin: 0; font-size: 0.9rem; color: var(--muted);">${msg.desc}</p>
+            `;
+            noSessionsMsg.style.display = 'none';
+            historyBody.appendChild(noSessionsMsg);
+        }
+
+        const applyFilters = () => {
+            let query = '';
+            searchInputs.forEach(i => { if (i.value.trim()) query = i.value.trim().toLowerCase(); });
+
+            let selectedLang = 'all';
+            const activeLangBtn = document.querySelector('.lang-filter-buttons .filter-btn.active, [data-lang-filter].active, .club-filters-lang .filter-btn.active');
+            if (activeLangBtn) {
+                selectedLang = activeLangBtn.getAttribute('data-lang-filter') || activeLangBtn.getAttribute('data-lang') || 'all';
             }
 
-            const applyFilters = () => {
-                const activeLangBtn = document.querySelector('.club-filters-lang .filter-btn.active');
-                const activeLevelBtn = document.querySelector('.club-filters-level .filter-btn.active') || document.querySelector('.club-filters .filter-btn.active');
+            let selectedLevel = 'all';
+            const activeLevelBtn = document.querySelector('.level-filter-buttons .filter-btn.active, [data-level-filter].active, .club-filters-level .filter-btn.active, .club-filters .filter-btn.active');
+            if (activeLevelBtn) {
+                selectedLevel = activeLevelBtn.getAttribute('data-level-filter') || activeLevelBtn.getAttribute('data-level') || 'all';
+            }
 
-                const selectedLang = activeLangBtn ? activeLangBtn.getAttribute('data-lang') : 'all';
-                const selectedLevel = activeLevelBtn ? activeLevelBtn.getAttribute('data-level') : 'all';
+            let hideSensitive = false;
+            sensitiveToggles.forEach(t => { if (t.checked) hideSensitive = true; });
 
-                let visibleCount = 0;
+            let visibleCount = 0;
 
-                sessions.forEach(sess => {
-                    const langAttr = sess.getAttribute('data-lang') || 'en';
-                    const levelsAttr = sess.getAttribute('data-level') || '';
-                    const levels = levelsAttr.split(/\s+/);
-
-                    const matchLang = (selectedLang === 'all' || langAttr === selectedLang);
-                    const matchLevel = (selectedLevel === 'all' || levels.includes(selectedLevel));
-
-                    if (matchLang && matchLevel) {
-                        sess.style.setProperty('display', 'flex', 'important');
-                        visibleCount++;
-                    } else {
-                        sess.style.setProperty('display', 'none', 'important');
-                    }
-                });
-
-                if (noSessionsMsg) {
-                    noSessionsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
+            sessions.forEach(sess => {
+                if (sess.closest('.pinned-challenges-section')) {
+                    return;
                 }
-            };
 
-            buttons.forEach(btn => {
-                if (btn.dataset.filterBound === 'true') return;
-                btn.dataset.filterBound = 'true';
+                const titleAttr = (sess.getAttribute('data-title') || '').toLowerCase();
+                const langAttr = sess.getAttribute('data-lang') || 'en';
+                const levelsAttr = sess.getAttribute('data-level') || '';
+                const levels = levelsAttr.toLowerCase().split(/\s+/);
+                const isSensitive = sess.getAttribute('data-sensitive') === 'true' || sess.textContent.includes('🔞') || sess.textContent.includes('18+');
+                const textContent = sess.textContent.toLowerCase();
 
-                btn.addEventListener('click', () => {
-                    // Find brother buttons in the same container and deactivate them
-                    const container = btn.parentElement;
-                    if (container) {
-                        container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    }
-                    btn.classList.add('active');
+                const matchQuery = !query || titleAttr.includes(query) || textContent.includes(query);
+                const matchLang = (selectedLang === 'all' || langAttr === selectedLang);
+                const matchLevel = (selectedLevel === 'all' || levels.includes(selectedLevel));
+                const matchSensitive = !hideSensitive || !isSensitive;
 
-                    applyFilters();
-                });
+                if (matchQuery && matchLang && matchLevel && matchSensitive) {
+                    sess.style.setProperty('display', '', '');
+                    visibleCount++;
+                } else {
+                    sess.style.setProperty('display', 'none', 'important');
+                }
             });
 
-            // Initial filter application
-            applyFilters();
-        }
+            resultCounters.forEach(c => {
+                const isCinema = c.id === 'cinema-result-count';
+                const label = isCinema ? 'films' : 'sessions';
+                c.textContent = `Showing ${visibleCount} ${label}`;
+            });
+
+            if (noSessionsMsg) {
+                noSessionsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
+            }
+        };
+
+        searchInputs.forEach(input => {
+            if (input.dataset.bound) return;
+            input.dataset.bound = 'true';
+            input.addEventListener('input', applyFilters);
+        });
+
+        const allButtons = document.querySelectorAll('.filter-btn, [data-lang-filter], [data-level-filter]');
+        allButtons.forEach(btn => {
+            if (btn.dataset.filterBound === 'true') return;
+            btn.dataset.filterBound = 'true';
+
+            btn.addEventListener('click', () => {
+                const container = btn.parentElement;
+                if (container) {
+                    container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                }
+                btn.classList.add('active');
+                applyFilters();
+            });
+        });
+
+        sensitiveToggles.forEach(toggle => {
+            if (toggle.dataset.bound) return;
+            toggle.dataset.bound = 'true';
+            toggle.addEventListener('change', applyFilters);
+        });
+
+        applyFilters();
     };
 
     /* ─── SESSION SWITCHER ENGINE ───────────────────────────────── */
@@ -3106,6 +3139,7 @@
             script.src = prefix + "js/core/passcodes.js";
             script.onload = () => {
                 setupWonderModeRouter();
+                setupSessionMiniNav();
             };
             document.head.appendChild(script);
             return;
@@ -5099,7 +5133,6 @@
 
         setupHeaderShrink();
         setupBackToTop();
-        setupSessionMiniNav();
         setupScrollReveal();
         setupClubFilters();
         setupSessionSwitcher();
@@ -5108,6 +5141,7 @@
         setupWonderSessionAudio();
         setupScienceSessionAudio();
         setupWonderModeRouter();
+        setupSessionMiniNav();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
 
         // FAQ Toggle

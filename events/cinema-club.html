@@ -49,7 +49,61 @@
 <div class="history-block" id="sc-hist" style="margin-top: 3.5rem;">
 <div class="section-header" style="margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
 <h2 style="font-size: 1.5rem; margin: 0;">🕒 Past Sessions</h2>
-</div><div class="club-filters" style="justify-content: flex-start; margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap;"><button class="filter-btn active" data-level="all">All Levels</button><button class="filter-btn" data-level="a1">A1</button><button class="filter-btn" data-level="a2">A2</button><button class="filter-btn" data-level="b1">B1</button><button class="filter-btn" data-level="b2">B2</button><button class="filter-btn" data-level="c1">C1</button><button class="filter-btn" data-level="c2">C2</button></div>
+</div><div class="sticky-filter-bar" style="position: sticky; top: 0; background: var(--warm-white, #FAF7F2); border-bottom: 2px solid var(--border); padding: 1rem 0; z-index: 100; margin-bottom: 2rem;">
+  <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+    <h3 style="margin: 0; font-size: 1.1rem; color: #3D2B1F; font-family: 'Playfair Display', serif;">🍿 Past Sessions Filter</h3>
+
+    <!-- Search Input -->
+    <div style="flex: 1; min-width: 220px; max-width: 340px;">
+      <input type="text" id="cinema-search-input" placeholder="🔍 Search films, themes, or directors..." style="padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid var(--border); background: var(--cream, #FAF7F2); font-size: 0.85rem; width: 100%; box-sizing: border-box;">
+    </div>
+
+    <div style="display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center;">
+      <!-- Language Filter -->
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-weight: bold; font-size: 0.85rem; color: var(--ink);">Language:</span>
+        <div class="lang-filter-buttons" style="display: flex; gap: 0.25rem; flex-wrap: wrap;">
+          <button class="filter-btn active" data-lang-filter="all">All</button>
+          <button class="filter-btn" data-lang-filter="en">🇬🇧</button>
+          <button class="filter-btn" data-lang-filter="fr">🇫🇷</button>
+          <button class="filter-btn" data-lang-filter="es">🇪🇸</button>
+          <button class="filter-btn" data-lang-filter="it">🇮🇹</button>
+          <button class="filter-btn" data-lang-filter="ru">🇷🇺</button>
+          <button class="filter-btn" data-lang-filter="de">🇩🇪</button>
+          <button class="filter-btn" data-lang-filter="el">🇬🇷</button>
+        </div>
+      </div>
+
+      <!-- Level Filter -->
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-weight: bold; font-size: 0.85rem; color: var(--ink);">Level:</span>
+        <div class="level-filter-buttons" style="display: flex; gap: 0.25rem; flex-wrap: wrap;">
+          <button class="filter-btn active" data-level-filter="all">All</button>
+          <button class="filter-btn" data-level-filter="a1">A1</button>
+          <button class="filter-btn" data-level-filter="a2">A2</button>
+
+          <button class="filter-btn" data-level-filter="b1">B1</button>
+          <button class="filter-btn" data-level-filter="b2">B2</button>
+          <button class="filter-btn" data-level-filter="c1">C1</button>
+          <button class="filter-btn" data-level-filter="c2">C2</button>
+        </div>
+      </div>
+
+      <!-- Sensitivity Toggle -->
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <label style="display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; font-weight: 600; cursor: pointer; user-select: none;">
+          <input type="checkbox" id="cinema-sensitive-toggle">
+          <span>Hide 18+ / Sensitive</span>
+        </label>
+      </div>
+
+      <!-- Result Counter -->
+      <div>
+        <span id="cinema-result-count" style="font-size: 0.85rem; font-weight: 700; color: var(--muted);">Showing 106 films</span>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- LEVEL FILTERS -->
 <!-- 📌 PINNED FILM SERIES CHALLENGES -->
 <div class="pinned-challenges-section" style="margin-bottom: 3.5rem; background: rgba(61, 43, 31, 0.03); border: 2px dashed #3D2B1F; border-radius: 28px; padding: 2rem;">
@@ -98,7 +152,7 @@
 </div>
 <div class="history-body" style="display: block; padding: 0; border: none;">
 <div class="cinema-history-grid" id="cinema-history-grid">
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -119,7 +173,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="es" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -140,7 +194,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="fr" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -161,7 +215,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="ru" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -182,7 +236,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="a2">
+<div class="cinema-clapperboard-card history-session" data-level="a2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -203,7 +257,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -224,7 +278,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="fr" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -245,7 +299,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -266,7 +320,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -287,7 +341,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -308,7 +362,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="a2">
+<div class="cinema-clapperboard-card history-session" data-level="a2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -329,7 +383,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="a2">
+<div class="cinema-clapperboard-card history-session" data-level="a2" data-lang="fr" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -350,7 +404,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="ru" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -371,7 +425,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="es" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -392,7 +446,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -413,7 +467,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -434,7 +488,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -455,7 +509,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -476,7 +530,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -497,7 +551,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -518,7 +572,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="a2">
+<div class="cinema-clapperboard-card history-session" data-level="a2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -539,7 +593,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -560,7 +614,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -581,7 +635,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -602,7 +656,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -623,7 +677,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="a2">
+<div class="cinema-clapperboard-card history-session" data-level="a2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -644,7 +698,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="a2 b1">
+<div class="cinema-clapperboard-card history-session" data-level="a2 b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -665,7 +719,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -686,7 +740,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -707,7 +761,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2 c1">
+<div class="cinema-clapperboard-card history-session" data-level="b2 c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -728,7 +782,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="a2">
+<div class="cinema-clapperboard-card history-session" data-level="a2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -749,7 +803,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="a2">
+<div class="cinema-clapperboard-card history-session" data-level="a2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -770,7 +824,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="ru" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -791,7 +845,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -812,7 +866,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -833,7 +887,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -854,7 +908,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -875,7 +929,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -896,7 +950,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -917,7 +971,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -938,7 +992,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -959,7 +1013,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -980,7 +1034,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1001,7 +1055,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="fr" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1022,7 +1076,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1043,7 +1097,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="fr" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1064,7 +1118,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1085,7 +1139,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1106,7 +1160,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1127,7 +1181,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1148,7 +1202,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1169,7 +1223,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1190,7 +1244,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1211,7 +1265,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1232,7 +1286,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1253,7 +1307,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1274,7 +1328,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1295,7 +1349,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1316,7 +1370,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1337,7 +1391,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1358,7 +1412,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1379,7 +1433,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1400,7 +1454,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1421,7 +1475,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1442,7 +1496,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1463,7 +1517,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2 c1">
+<div class="cinema-clapperboard-card history-session" data-level="b2 c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1484,7 +1538,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2 c1">
+<div class="cinema-clapperboard-card history-session" data-level="b2 c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1505,7 +1559,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2 c1">
+<div class="cinema-clapperboard-card history-session" data-level="b2 c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1526,7 +1580,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1547,7 +1601,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1568,7 +1622,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1589,7 +1643,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1610,7 +1664,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2 c1">
+<div class="cinema-clapperboard-card history-session" data-level="b2 c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1631,7 +1685,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1652,7 +1706,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1673,7 +1727,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1694,7 +1748,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1715,7 +1769,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1736,7 +1790,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1757,7 +1811,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1778,7 +1832,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1799,7 +1853,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="fr" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1820,7 +1874,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1841,7 +1895,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1862,7 +1916,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1883,7 +1937,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1904,7 +1958,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1925,7 +1979,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1946,7 +2000,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1967,7 +2021,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -1988,7 +2042,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2009,7 +2063,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2030,7 +2084,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2051,7 +2105,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="fr" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2072,7 +2126,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2093,7 +2147,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2114,7 +2168,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2135,7 +2189,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2 c1">
+<div class="cinema-clapperboard-card history-session" data-level="b2 c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2156,7 +2210,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2177,7 +2231,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b1">
+<div class="cinema-clapperboard-card history-session" data-level="b1" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2198,7 +2252,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2219,7 +2273,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2240,7 +2294,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2261,7 +2315,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="false">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2282,7 +2336,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="b2">
+<div class="cinema-clapperboard-card history-session" data-level="b2" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
@@ -2303,7 +2357,7 @@
 </div>
 </div>
 </div>
-<div class="cinema-clapperboard-card history-session" data-level="c1">
+<div class="cinema-clapperboard-card history-session" data-level="c1" data-lang="en" data-title="" data-sensitive="true">
 <div class="clapper-strip"></div>
 <div class="clapper-body">
 <div class="clapper-meta-row">
