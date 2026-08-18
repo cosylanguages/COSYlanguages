@@ -3362,5 +3362,423 @@
       "inst_plur": "мирами",
       "prep_plur": "мирах"
     }
+  },
+  "ученик": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Учащийся школы.",
+    "antonyms": [
+      "учитель"
+    ],
+    "cases": {
+      "nom_sing": "ученик",
+      "gen_sing": "ученика",
+      "dat_sing": "ученику",
+      "acc_sing": "ученика",
+      "inst_sing": "учеником",
+      "prep_sing": "ученике",
+      "nom_plur": "ученики",
+      "gen_plur": "учеников",
+      "dat_plur": "ученикам",
+      "acc_plur": "учеников",
+      "inst_plur": "учениками",
+      "prep_plur": "учениках"
+    }
+  },
+  "час": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Шестьдесят минут.",
+    "antonyms": [
+      "минута"
+    ],
+    "cases": {
+      "nom_sing": "час",
+      "gen_sing": "часа",
+      "dat_sing": "часу",
+      "acc_sing": "час",
+      "inst_sing": "часом",
+      "prep_sing": "часе",
+      "nom_plur": "часы",
+      "gen_plur": "часов",
+      "dat_plur": "часам",
+      "acc_plur": "часы",
+      "inst_plur": "часами",
+      "prep_plur": "часах"
+    }
+  },
+  "адрес": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Место жительства.",
+    "antonyms": [
+      "маршрут"
+    ],
+    "cases": {
+      "nom_sing": "адрес",
+      "gen_sing": "адреса",
+      "dat_sing": "адресу",
+      "acc_sing": "адрес",
+      "inst_sing": "адресом",
+      "prep_sing": "адресе",
+      "nom_plur": "адреса",
+      "gen_plur": "адресов",
+      "dat_plur": "адресам",
+      "acc_plur": "адреса",
+      "inst_plur": "адресами",
+      "prep_plur": "адресах"
+    }
+  },
+  "актер": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Исполнитель ролей.",
+    "antonyms": [
+      "зритель"
+    ],
+    "cases": {
+      "nom_sing": "актер",
+      "gen_sing": "актера",
+      "dat_sing": "актеру",
+      "acc_sing": "актера",
+      "inst_sing": "актером",
+      "prep_sing": "актере",
+      "nom_plur": "актеры",
+      "gen_plur": "актеров",
+      "dat_plur": "актерам",
+      "acc_plur": "актеров",
+      "inst_plur": "актерами",
+      "prep_plur": "актерах"
+    }
+  },
+  "дедушка": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Отец отца или матери.",
+    "antonyms": [
+      "бабушка"
+    ],
+    "cases": {
+      "nom_sing": "дедушка",
+      "gen_sing": "дедушки",
+      "dat_sing": "дедушке",
+      "acc_sing": "дедушку",
+      "inst_sing": "дедушкой",
+      "prep_sing": "дедушке",
+      "nom_plur": "дедушки",
+      "gen_plur": "дедушек",
+      "dat_plur": "дедушкам",
+      "acc_plur": "дедушек",
+      "inst_plur": "дедушками",
+      "prep_plur": "дедушках"
+    }
+  },
+  "дядя": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Брат отца или матери.",
+    "antonyms": [
+      "тетя"
+    ],
+    "cases": {
+      "nom_sing": "дядя",
+      "gen_sing": "дяди",
+      "dat_sing": "дяде",
+      "acc_sing": "дядю",
+      "inst_sing": "дядей",
+      "prep_sing": "дяде",
+      "nom_plur": "дяди",
+      "gen_plur": "дядей",
+      "dat_plur": "дядям",
+      "acc_plur": "дядей",
+      "inst_plur": "дядями",
+      "prep_plur": "дядях"
+    }
+  },
+  "тетя": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Сестра отца или матери.",
+    "antonyms": [
+      "дядя"
+    ],
+    "cases": {
+      "nom_sing": "тетя",
+      "gen_sing": "тети",
+      "dat_sing": "тете",
+      "acc_sing": "тетю",
+      "inst_sing": "тетей",
+      "prep_sing": "тете",
+      "nom_plur": "тети",
+      "gen_plur": "тетей",
+      "dat_plur": "тетям",
+      "acc_plur": "тетей",
+      "inst_plur": "тетями",
+      "prep_plur": "тетях"
+    }
+  },
+  "мужик": {
+    "gender": "мужской",
+    "level": "A2",
+    "definition": "Взрослый мужчина.",
+    "antonyms": [
+      "женщина"
+    ],
+    "cases": {
+      "nom_sing": "мужик",
+      "gen_sing": "мужика",
+      "dat_sing": "мужику",
+      "acc_sing": "мужика",
+      "inst_sing": "мужиком",
+      "prep_sing": "мужике",
+      "nom_plur": "мужики",
+      "gen_plur": "мужиков",
+      "dat_plur": "мужикам",
+      "acc_plur": "мужиков",
+      "inst_plur": "мужиками",
+      "prep_plur": "мужиках"
+    }
+  },
+  "деньги": {
+    "gender": "средний",
+    "level": "A1",
+    "definition": "Средство платежа.",
+    "antonyms": [
+      "долг"
+    ],
+    "cases": {
+      "nom_sing": "деньги",
+      "gen_sing": "денег",
+      "dat_sing": "деньгам",
+      "acc_sing": "деньги",
+      "inst_sing": "деньгами",
+      "prep_sing": "деньгах",
+      "nom_plur": "деньги",
+      "gen_plur": "денег",
+      "dat_plur": "деньгам",
+      "acc_plur": "деньги",
+      "inst_plur": "деньгами",
+      "prep_plur": "деньгах"
+    }
+  },
+  "сад": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Участок с фруктовыми деревьями.",
+    "antonyms": [
+      "огород"
+    ],
+    "cases": {
+      "nom_sing": "сад",
+      "gen_sing": "сада",
+      "dat_sing": "саду",
+      "acc_sing": "сад",
+      "inst_sing": "садом",
+      "prep_sing": "саду",
+      "nom_plur": "сады",
+      "gen_plur": "садов",
+      "dat_plur": "садам",
+      "acc_plur": "сады",
+      "inst_plur": "садами",
+      "prep_plur": "садах"
+    }
+  },
+  "огонь": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Горящее пламя.",
+    "antonyms": [
+      "вода"
+    ],
+    "cases": {
+      "nom_sing": "огонь",
+      "gen_sing": "огня",
+      "dat_sing": "огню",
+      "acc_sing": "огонь",
+      "inst_sing": "огнем",
+      "prep_sing": "огне",
+      "nom_plur": "огни",
+      "gen_plur": "огней",
+      "dat_plur": "огням",
+      "acc_plur": "огни",
+      "inst_plur": "огнями",
+      "prep_plur": "огнях"
+    }
+  },
+  "воздух": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Смесь газов Земли.",
+    "antonyms": [
+      "земля"
+    ],
+    "cases": {
+      "nom_sing": "воздух",
+      "gen_sing": "воздуха",
+      "dat_sing": "воздуху",
+      "acc_sing": "воздух",
+      "inst_sing": "воздухом",
+      "prep_sing": "воздухе",
+      "nom_plur": "воздухи",
+      "gen_plur": "воздухов",
+      "dat_plur": "воздухам",
+      "acc_plur": "воздухи",
+      "inst_plur": "воздухами",
+      "prep_plur": "воздухах"
+    }
+  },
+  "дождь": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Атмосферные осадки.",
+    "antonyms": [
+      "снег"
+    ],
+    "cases": {
+      "nom_sing": "дождь",
+      "gen_sing": "дождя",
+      "dat_sing": "дождю",
+      "acc_sing": "дождь",
+      "inst_sing": "дождем",
+      "prep_sing": "дожде",
+      "nom_plur": "дожди",
+      "gen_plur": "дождей",
+      "dat_plur": "дождям",
+      "acc_plur": "дожди",
+      "inst_plur": "дождями",
+      "prep_plur": "дождях"
+    }
+  },
+  "снег": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Замерзшие осадки.",
+    "antonyms": [
+      "дождь"
+    ],
+    "cases": {
+      "nom_sing": "снег",
+      "gen_sing": "снега",
+      "dat_sing": "снегу",
+      "acc_sing": "снег",
+      "inst_sing": "снегом",
+      "prep_sing": "снегу",
+      "nom_plur": "снега",
+      "gen_plur": "снегов",
+      "dat_plur": "снегам",
+      "acc_plur": "снега",
+      "inst_plur": "снегами",
+      "prep_plur": "снегах"
+    }
+  },
+  "ветер": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Движение воздуха.",
+    "antonyms": [
+      "штиль"
+    ],
+    "cases": {
+      "nom_sing": "ветер",
+      "gen_sing": "ветра",
+      "dat_sing": "ветру",
+      "acc_sing": "ветер",
+      "inst_sing": "ветром",
+      "prep_sing": "ветре",
+      "nom_plur": "ветры",
+      "gen_plur": "ветров",
+      "dat_plur": "ветрам",
+      "acc_plur": "ветры",
+      "inst_plur": "ветрами",
+      "prep_plur": "ветрах"
+    }
+  },
+  "тепло": {
+    "gender": "средний",
+    "level": "A1",
+    "definition": "Высокая температура.",
+    "antonyms": [
+      "холод"
+    ],
+    "cases": {
+      "nom_sing": "тепло",
+      "gen_sing": "тепла",
+      "dat_sing": "теплу",
+      "acc_sing": "тепло",
+      "inst_sing": "теплом",
+      "prep_sing": "тепле",
+      "nom_plur": "тепла",
+      "gen_plur": "тепл",
+      "dat_plur": "теплам",
+      "acc_plur": "тепла",
+      "inst_plur": "теплами",
+      "prep_plur": "теплах"
+    }
+  },
+  "холод": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Низкая температура.",
+    "antonyms": [
+      "тепло"
+    ],
+    "cases": {
+      "nom_sing": "холод",
+      "gen_sing": "холода",
+      "dat_sing": "холоду",
+      "acc_sing": "холод",
+      "inst_sing": "холодом",
+      "prep_sing": "холоде",
+      "nom_plur": "холода",
+      "gen_plur": "холодов",
+      "dat_plur": "холодам",
+      "acc_plur": "холода",
+      "inst_plur": "холодами",
+      "prep_plur": "холодах"
+    }
+  },
+  "свет": {
+    "gender": "мужской",
+    "level": "A1",
+    "definition": "Лучистая энергия.",
+    "antonyms": [
+      "тьма"
+    ],
+    "cases": {
+      "nom_sing": "свет",
+      "gen_sing": "света",
+      "dat_sing": "свету",
+      "acc_sing": "свет",
+      "inst_sing": "светом",
+      "prep_sing": "свете",
+      "nom_plur": "света",
+      "gen_plur": "светов",
+      "dat_plur": "светам",
+      "acc_plur": "света",
+      "inst_plur": "светами",
+      "prep_plur": "светах"
+    }
+  },
+  "тьма": {
+    "gender": "женский",
+    "level": "A1",
+    "definition": "Отсутствие света.",
+    "antonyms": [
+      "свет"
+    ],
+    "cases": {
+      "nom_sing": "тьма",
+      "gen_sing": "тьмы",
+      "dat_sing": "тьме",
+      "acc_sing": "тьму",
+      "inst_sing": "тьмой",
+      "prep_sing": "тьме",
+      "nom_plur": "тьмы",
+      "gen_plur": "тем",
+      "dat_plur": "тьмам",
+      "acc_plur": "тьмы",
+      "inst_plur": "тьмами",
+      "prep_plur": "тьмах"
+    }
   }
 }

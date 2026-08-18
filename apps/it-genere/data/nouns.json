@@ -1792,5 +1792,59 @@
       "loc_sing": "in medico",
       "nom_plur": "i medici"
     }
+  },
+  "natura": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Mondo fisico comprensivo di flora e fauna.",
+    "antonyms": [
+      "città"
+    ],
+    "cases": {
+      "nom_sing": "la natura",
+      "gen_sing": "della natura",
+      "dat_sing": "alla natura",
+      "acc_sing": "la natura",
+      "abl_sing": "dalla natura",
+      "loc_sing": "in natura",
+      "nom_plur": "le nature"
+    }
+  },
+  "parola": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Unità del linguaggio parlato.",
+    "antonyms": [
+      "silenzio"
+    ],
+    "cases": {
+      "nom_sing": "la parola",
+      "gen_sing": "della parola",
+      "dat_sing": "alla parola",
+      "acc_sing": "la parola",
+      "abl_sing": "dalla parola",
+      "loc_sing": "in parola",
+      "nom_plur": "le parole"
+    }
+  },
+  "piazza": {
+    "gender": "femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Spazio pubblico aperto in città.",
+    "antonyms": [
+      "via"
+    ],
+    "cases": {
+      "nom_sing": "la piazza",
+      "gen_sing": "della piazza",
+      "dat_sing": "alla piazza",
+      "acc_sing": "la piazza",
+      "abl_sing": "dalla piazza",
+      "loc_sing": "in piazza",
+      "nom_plur": "le piazze"
+    }
   }
 }
