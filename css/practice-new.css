@@ -322,6 +322,7 @@
   color: var(--ink-muted);
 }
 .cat-pill:hover { border-color: var(--border-hover); color: var(--ink); }
+.cat-pill:focus, .cat-pill:focus-visible { outline: 3px solid var(--teal) !important; outline-offset: 2px !important; }
 .cat-pill.active { border-color: var(--teal); background: var(--teal-light); color: var(--teal); font-weight: 500; }
 .cat-pill[data-value="Vocabulary"].active, .cat-pill[data-value="vocabulary"].active { border-color: var(--teal); background: var(--teal-light); color: var(--teal); }
 .cat-pill[data-value="Grammar"].active, .cat-pill[data-value="grammar"].active { border-color: var(--plum); background: var(--plum-light); color: var(--plum); }

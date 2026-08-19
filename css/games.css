@@ -62,6 +62,7 @@
 .btn-start-game, .btn-g-primary { background: var(--ink); color: #fff; border: none; border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .95rem; font-weight: 700; padding: 12px 28px; cursor: pointer; transition: all .2s cubic-bezier(0.25, 0.8, 0.25, 1); display: inline-flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 12px rgba(26, 43, 29, 0.12); }
 .btn-start-game:hover, .btn-g-primary:hover { background: var(--teal); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(107, 143, 113, 0.25); }
 .btn-start-game:active, .btn-g-primary:active { transform: translateY(1px) scale(0.98); }
+.btn-start-game:focus-visible, .btn-g-primary:focus-visible, .btn-g-secondary:focus-visible, .setup-opt:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
 .btn-start-game:disabled, .btn-g-primary:disabled { background: var(--border); color: var(--ink-faint); cursor: not-allowed; transform: none; box-shadow: none; }
 
 .btn-g-secondary { background: var(--warm-white); color: var(--ink); border: 1.5px solid var(--border); border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .88rem; font-weight: 700; padding: 11px 24px; cursor: pointer; transition: all .2s cubic-bezier(0.25, 0.8, 0.25, 1); display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
@@ -211,4 +212,31 @@
 }
 @keyframes spin {
     to { transform: rotate(360deg); }
+}
+
+/* ── Dark Mode Adaptations for Games ── */
+html[data-theme="dark"] .gc,
+body.theme-dark .gc {
+    background: #222b22 !important;
+    border-color: rgba(107, 143, 113, 0.2) !important;
+}
+
+html[data-theme="dark"] .game-card,
+body.theme-dark .game-card {
+    background: #222b22 !important;
+    border-color: rgba(107, 143, 113, 0.2) !important;
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .setup-opt,
+body.theme-dark .setup-opt {
+    background: #222b22 !important;
+    border-color: rgba(107, 143, 113, 0.2) !important;
+    color: #c8d8c9 !important;
+}
+
+html[data-theme="dark"] .setup-opt:hover,
+body.theme-dark .setup-opt:hover {
+    border-color: var(--sage, #6c9172) !important;
+    color: #e8f0e9 !important;
 }

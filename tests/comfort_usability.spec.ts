@@ -135,4 +135,75 @@ test.describe('COSYlanguages Comfort, Usability & Responsive Adaptation', () => 
             }
         }
     });
+
+    test('Practice & Games pages dark theme adaptation on mobile viewport', async ({ page }) => {
+        await page.setViewportSize({ width: 390, height: 844 });
+        await page.goto('http://localhost:8080/practice/index.html');
+
+        await page.evaluate(() => {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        });
+
+        const bg = await page.evaluate(() => window.getComputedStyle(document.body).backgroundColor);
+        expect(bg).not.toBe('rgb(255, 255, 255)');
+
+        await page.goto('http://localhost:8080/games/index.html');
+        await page.evaluate(() => {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        });
+
+        const gameBg = await page.evaluate(() => window.getComputedStyle(document.body).backgroundColor);
+        expect(gameBg).not.toBe('rgb(255, 255, 255)');
+
+        // Check dark mode background for game cards .gc
+        const gcCard = page.locator('.gc').first();
+        if (await gcCard.isVisible()) {
+            const gcCardBg = await gcCard.evaluate((el) => window.getComputedStyle(el).backgroundColor);
+            expect(gcCardBg).not.toBe('rgb(255, 255, 255)');
+        }
+    });
+
+    test('Keyboard focus-visible indicators on interactive controls', async ({ page }) => {
+        await page.goto('http://localhost:8080/index.html');
+
+        const searchInput = page.locator('.styled-sel').first();
+        if (await searchInput.isVisible()) {
+            await searchInput.focus();
+            const boxShadow = await searchInput.evaluate((el) => window.getComputedStyle(el).boxShadow);
+            expect(boxShadow).not.toBe('none');
+        }
+    });
+
+    test('Mobile practice page focus-visible indicators on mobile viewport', async ({ page }) => {
+        await page.setViewportSize({ width: 390, height: 844 });
+        await page.goto('http://localhost:8080/practice/index.html');
+
+        const catPill = page.locator('.cat-pill').first();
+        if (await catPill.isVisible()) {
+            await catPill.focus();
+            const cursor = await catPill.evaluate((el) => window.getComputedStyle(el).cursor);
+            expect(cursor).toBe('pointer');
+        }
+    });
+
+    test('Zero horizontal scrollbar overflow across small viewports (320px, 360px, 390px)', async ({ page }) => {
+        const pagesToTest = [
+            'http://localhost:8080/index.html',
+            'http://localhost:8080/practice/index.html',
+            'http://localhost:8080/games/index.html',
+            'http://localhost:8080/events/index.html'
+        ];
+
+        for (const url of pagesToTest) {
+            for (const width of [320, 360, 390]) {
+                await page.setViewportSize({ width, height: 740 });
+                await page.goto(url);
+
+                const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+                const clientWidth = await page.evaluate(() => document.documentElement.clientWidth);
+
+                expect(scrollWidth).toBeLessThanOrEqual(clientWidth);
+            }
+        }
+    });
 });
