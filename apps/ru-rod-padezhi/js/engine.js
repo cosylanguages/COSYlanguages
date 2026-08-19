@@ -91,10 +91,13 @@ class RussianGenderCasesEngine {
 
         const ruleBox = document.getElementById('grammar-rule-container');
         const ruleTextEl = document.getElementById('grammar-rule-text');
-        if (ruleTextEl) {
-            const rule = data.grammar_rule || "📌 Падежное склонение: выбор окончания зависит от падежа.";
-            ruleTextEl.textContent = rule;
-            if (ruleBox) ruleBox.style.display = 'flex';
+        if (ruleTextEl && ruleBox) {
+            if (data.grammar_rule) {
+                ruleTextEl.textContent = data.grammar_rule;
+                ruleBox.style.display = 'flex';
+            } else {
+                ruleBox.style.display = 'none';
+            }
         }
 
         const antonymsBox = document.getElementById('antonyms-pills');

@@ -5,8 +5,7 @@
     "definition": "Bâtiment servant d'habitation.",
     "antonyms": [
       "rue"
-    ],
-    "grammar_rule": "📌 Nom féminin ('la maison') — terminaison en '-on' féminine exceptionnelle."
+    ]
   },
   "voiture": {
     "gender": "Féminin",
@@ -14,8 +13,7 @@
     "definition": "Véhicule automobile.",
     "antonyms": [
       "piéton"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "table": {
     "gender": "Féminin",
@@ -23,8 +21,7 @@
     "definition": "Meuble composé d'une surface plane.",
     "antonyms": [
       "chaise"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "chaise": {
     "gender": "Féminin",
@@ -32,8 +29,7 @@
     "definition": "Siège à dossier sans bras.",
     "antonyms": [
       "table"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "porte": {
     "gender": "Féminin",
@@ -41,8 +37,7 @@
     "definition": "Ouverture permettant d'entrer.",
     "antonyms": [
       "fenêtre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "fenêtre": {
     "gender": "Féminin",
@@ -50,8 +45,7 @@
     "definition": "Ouverture dans un mur pour le jour.",
     "antonyms": [
       "porte"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "ville": {
     "gender": "Féminin",
@@ -59,8 +53,7 @@
     "definition": "Agglomération urbaine.",
     "antonyms": [
       "campagne"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "rue": {
     "gender": "Féminin",
@@ -68,8 +61,7 @@
     "definition": "Voie de circulation dans une ville.",
     "antonyms": [
       "place"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "école": {
     "gender": "Féminin",
@@ -77,8 +69,7 @@
     "definition": "Établissement d'enseignement.",
     "antonyms": [
       "maison"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "eau": {
     "gender": "Féminin",
@@ -87,7 +78,7 @@
     "antonyms": [
       "feu"
     ],
-    "grammar_rule": "📌 Nom féminin ('l'eau') — prend un 'x' au pluriel ('les eaux')."
+    "grammar_rule": "💡 REMEMBER: Nom féminin ('l'eau') — pluriel irrégulier en '-x' ('les eaux')."
   },
   "terre": {
     "gender": "Féminin",
@@ -95,8 +86,7 @@
     "definition": "Planète ou sol sous nos pieds.",
     "antonyms": [
       "ciel"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "mer": {
     "gender": "Féminin",
@@ -104,8 +94,7 @@
     "definition": "Grande étendue d'eau salée.",
     "antonyms": [
       "montagne"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "montagne": {
     "gender": "Féminin",
@@ -113,8 +102,7 @@
     "definition": "Relief élevé du sol.",
     "antonyms": [
       "vallée"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "nuit": {
     "gender": "Féminin",
@@ -122,8 +110,7 @@
     "definition": "Période d'obscurité.",
     "antonyms": [
       "jour"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "fleur": {
     "gender": "Féminin",
@@ -131,8 +118,7 @@
     "definition": "Partie colorée d'une plante.",
     "antonyms": [
       "arbre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "pomme": {
     "gender": "Féminin",
@@ -140,8 +126,7 @@
     "definition": "Fruit du pommier.",
     "antonyms": [
       "poire"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "clé": {
     "gender": "Féminin",
@@ -149,8 +134,7 @@
     "definition": "Instrument pour fermer une serrure.",
     "antonyms": [
       "serrure"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "chambre": {
     "gender": "Féminin",
@@ -158,8 +142,7 @@
     "definition": "Pièce d'une habitation.",
     "antonyms": [
       "salon"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "cuisine": {
     "gender": "Féminin",
@@ -167,8 +150,7 @@
     "definition": "Pièce où l'on prépare les repas.",
     "antonyms": [
       "salle"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "musique": {
     "gender": "Féminin",
@@ -176,8 +158,7 @@
     "definition": "Art de combiner les sons.",
     "antonyms": [
       "silence"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "lumière": {
     "gender": "Féminin",
@@ -185,8 +166,7 @@
     "definition": "Énergie éclairante.",
     "antonyms": [
       "ombre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "ombre": {
     "gender": "Féminin",
@@ -194,8 +174,7 @@
     "definition": "Zone sombre sans lumière.",
     "antonyms": [
       "lumière"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "idée": {
     "gender": "Féminin",
@@ -203,8 +182,7 @@
     "definition": "Représentation mentale.",
     "antonyms": [
       "acte"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "vérité": {
     "gender": "Féminin",
@@ -212,8 +190,7 @@
     "definition": "Caractère de ce qui est vrai.",
     "antonyms": [
       "mensonge"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "liberté": {
     "gender": "Féminin",
@@ -221,8 +198,7 @@
     "definition": "Pouvoir d'agir sans contrainte.",
     "antonyms": [
       "esclavage"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "paix": {
     "gender": "Féminin",
@@ -230,8 +206,7 @@
     "definition": "Absence de guerre.",
     "antonyms": [
       "guerre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "guerre": {
     "gender": "Féminin",
@@ -239,8 +214,7 @@
     "definition": "Conflit armé.",
     "antonyms": [
       "paix"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "vie": {
     "gender": "Féminin",
@@ -248,8 +222,7 @@
     "definition": "Ensemble des phénomènes vivants.",
     "antonyms": [
       "mort"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "mort": {
     "gender": "Féminin",
@@ -257,8 +230,7 @@
     "definition": "Cessation de la vie.",
     "antonyms": [
       "vie"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "main": {
     "gender": "Féminin",
@@ -266,8 +238,7 @@
     "definition": "Partie du corps au bout du bras.",
     "antonyms": [
       "pied"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "tête": {
     "gender": "Féminin",
@@ -275,8 +246,7 @@
     "definition": "Partie supérieure du corps.",
     "antonyms": [
       "pied"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "voix": {
     "gender": "Féminin",
@@ -284,8 +254,7 @@
     "definition": "Sons produits par les cordes vocales.",
     "antonyms": [
       "silence"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "route": {
     "gender": "Féminin",
@@ -293,8 +262,7 @@
     "definition": "Voie aménagée hors agglomération.",
     "antonyms": [
       "sentier"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "question": {
     "gender": "Féminin",
@@ -302,8 +270,7 @@
     "definition": "Demande faite pour savoir.",
     "antonyms": [
       "réponse"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "réponse": {
     "gender": "Féminin",
@@ -311,8 +278,7 @@
     "definition": "Réplique à une question.",
     "antonyms": [
       "question"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "histoire": {
     "gender": "Féminin",
@@ -320,8 +286,7 @@
     "definition": "Récit d'événements.",
     "antonyms": [
       "réitération"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "famille": {
     "gender": "Féminin",
@@ -329,8 +294,7 @@
     "definition": "Groupe uni par la parenté.",
     "antonyms": [
       "solitude"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "saison": {
     "gender": "Féminin",
@@ -338,8 +302,7 @@
     "definition": "Période de l'année.",
     "antonyms": [
       "année"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "semaine": {
     "gender": "Féminin",
@@ -347,8 +310,7 @@
     "definition": "Période de sept jours.",
     "antonyms": [
       "mois"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "heure": {
     "gender": "Féminin",
@@ -356,8 +318,7 @@
     "definition": "Soixante minutes.",
     "antonyms": [
       "seconde"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "minute": {
     "gender": "Féminin",
@@ -365,8 +326,7 @@
     "definition": "Soixante secondes.",
     "antonyms": [
       "heure"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "seconde": {
     "gender": "Féminin",
@@ -374,8 +334,7 @@
     "definition": "Soixantième de minute.",
     "antonyms": [
       "minute"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "chanson": {
     "gender": "Féminin",
@@ -383,8 +342,7 @@
     "definition": "Pièce de musique vocale.",
     "antonyms": [
       "poème"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "pensée": {
     "gender": "Féminin",
@@ -392,8 +350,7 @@
     "definition": "Activité de l'esprit.",
     "antonyms": [
       "action"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "joie": {
     "gender": "Féminin",
@@ -401,8 +358,7 @@
     "definition": "Sentiment vif de plaisir.",
     "antonyms": [
       "tristesse"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "tristesse": {
     "gender": "Féminin",
@@ -410,8 +366,7 @@
     "definition": "État affectif douloureux.",
     "antonyms": [
       "joie"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "peur": {
     "gender": "Féminin",
@@ -419,8 +374,7 @@
     "definition": "Émotion face au danger.",
     "antonyms": [
       "courage"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "santé": {
     "gender": "Féminin",
@@ -428,8 +382,7 @@
     "definition": "Bon fonctionnement de l'organisme.",
     "antonyms": [
       "maladie"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "maladie": {
     "gender": "Féminin",
@@ -437,8 +390,7 @@
     "definition": "Altération de la santé.",
     "antonyms": [
       "santé"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "solution": {
     "gender": "Féminin",
@@ -446,8 +398,7 @@
     "definition": "Moyen de résoudre un problème.",
     "antonyms": [
       "problème"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "soleil": {
     "gender": "Masculin",
@@ -455,8 +406,7 @@
     "definition": "Astre éclairant la Terre.",
     "antonyms": [
       "lune"
-    ],
-    "grammar_rule": "📌 Nom masculin ('le soleil') — invariable au niveau du genre."
+    ]
   },
   "livre": {
     "gender": "Masculin",
@@ -464,8 +414,7 @@
     "definition": "Assemblage de feuilles imprimées.",
     "antonyms": [
       "cahier"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "stylo": {
     "gender": "Masculin",
@@ -473,8 +422,7 @@
     "definition": "Instrument pour écrire.",
     "antonyms": [
       "crayon"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "crayon": {
     "gender": "Masculin",
@@ -482,8 +430,7 @@
     "definition": "Bâtonnet de mine de plomb.",
     "antonyms": [
       "stylo"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "cahier": {
     "gender": "Masculin",
@@ -491,8 +438,7 @@
     "definition": "Assemblage de feuilles vierges.",
     "antonyms": [
       "livre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "sac": {
     "gender": "Masculin",
@@ -500,8 +446,7 @@
     "definition": "Récipient souple pour transporter.",
     "antonyms": [
       "poche"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "manteau": {
     "gender": "Masculin",
@@ -509,8 +454,7 @@
     "definition": "Vêtement de dessus.",
     "antonyms": [
       "pantalon"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "pantalon": {
     "gender": "Masculin",
@@ -518,8 +462,7 @@
     "definition": "Vêtement pour le bas du corps.",
     "antonyms": [
       "jupe"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "chapeau": {
     "gender": "Masculin",
@@ -527,8 +470,7 @@
     "definition": "Couvre-chef.",
     "antonyms": [
       "casquette"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "chien": {
     "gender": "Masculin",
@@ -536,8 +478,7 @@
     "definition": "Animal domestique fidèle.",
     "antonyms": [
       "chat"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "chat": {
     "gender": "Masculin",
@@ -545,8 +486,7 @@
     "definition": "Félin domestique.",
     "antonyms": [
       "chien"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "cheval": {
     "gender": "Masculin",
@@ -554,8 +494,7 @@
     "definition": "Mammifère solipède.",
     "antonyms": [
       "vache"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "oiseau": {
     "gender": "Masculin",
@@ -563,8 +502,7 @@
     "definition": "Animal vertébré à plumes.",
     "antonyms": [
       "poisson"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "poisson": {
     "gender": "Masculin",
@@ -572,8 +510,7 @@
     "definition": "Animal aquatique à nageoires.",
     "antonyms": [
       "oiseau"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "arbre": {
     "gender": "Masculin",
@@ -581,8 +518,7 @@
     "definition": "Végétal ligneux.",
     "antonyms": [
       "fleur"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "jardin": {
     "gender": "Masculin",
@@ -590,8 +526,7 @@
     "definition": "Terrain cultivé.",
     "antonyms": [
       "maison"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "parc": {
     "gender": "Masculin",
@@ -599,8 +534,7 @@
     "definition": "Espace vert public.",
     "antonyms": [
       "rue"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "vent": {
     "gender": "Masculin",
@@ -608,8 +542,7 @@
     "definition": "Déplacement d'air.",
     "antonyms": [
       "calme"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "feu": {
     "gender": "Masculin",
@@ -617,8 +550,7 @@
     "definition": "Combustion produisant de la chaleur.",
     "antonyms": [
       "eau"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "ciel": {
     "gender": "Masculin",
@@ -626,8 +558,7 @@
     "definition": "Espace visible au-dessus de la Terre.",
     "antonyms": [
       "terre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "jour": {
     "gender": "Masculin",
@@ -635,8 +566,7 @@
     "definition": "Période de clarté.",
     "antonyms": [
       "nuit"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "matin": {
     "gender": "Masculin",
@@ -644,8 +574,7 @@
     "definition": "Début de la journée.",
     "antonyms": [
       "soir"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "soir": {
     "gender": "Masculin",
@@ -653,8 +582,7 @@
     "definition": "Fin de la journée.",
     "antonyms": [
       "matin"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "mois": {
     "gender": "Masculin",
@@ -662,8 +590,7 @@
     "definition": "Douzième partie de l'année.",
     "antonyms": [
       "année"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "an": {
     "gender": "Masculin",
@@ -671,8 +598,7 @@
     "definition": "Période de douze mois.",
     "antonyms": [
       "mois"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "siècle": {
     "gender": "Masculin",
@@ -680,8 +606,7 @@
     "definition": "Période de cent ans.",
     "antonyms": [
       "année"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "temps": {
     "gender": "Masculin",
@@ -689,8 +614,7 @@
     "definition": "Dimension de la durée.",
     "antonyms": [
       "espace"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "travail": {
     "gender": "Masculin",
@@ -699,7 +623,7 @@
     "antonyms": [
       "repos"
     ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les travaux')."
   },
   "repos": {
     "gender": "Masculin",
@@ -707,8 +631,7 @@
     "definition": "Inactivité réparatrice.",
     "antonyms": [
       "travail"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "pain": {
     "gender": "Masculin",
@@ -716,8 +639,7 @@
     "definition": "Aliment à base de farine.",
     "antonyms": [
       "eau"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "fromage": {
     "gender": "Masculin",
@@ -725,8 +647,7 @@
     "definition": "Produit laitier.",
     "antonyms": [
       "lait"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "lait": {
     "gender": "Masculin",
@@ -734,8 +655,7 @@
     "definition": "Liquide blanc nutritif.",
     "antonyms": [
       "eau"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "café": {
     "gender": "Masculin",
@@ -743,8 +663,7 @@
     "definition": "Boisson chaude stimulante.",
     "antonyms": [
       "thé"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "thé": {
     "gender": "Masculin",
@@ -752,8 +671,7 @@
     "definition": "Boisson d'infusion.",
     "antonyms": [
       "café"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "repas": {
     "gender": "Masculin",
@@ -761,8 +679,7 @@
     "definition": "Nourriture prise à des heures fixes.",
     "antonyms": [
       "jeûne"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "restaurant": {
     "gender": "Masculin",
@@ -770,8 +687,7 @@
     "definition": "Établissement servant des repas.",
     "antonyms": [
       "maison"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "hôtel": {
     "gender": "Masculin",
@@ -779,8 +695,7 @@
     "definition": "Établissement d'hébergement.",
     "antonyms": [
       "maison"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "train": {
     "gender": "Masculin",
@@ -788,8 +703,7 @@
     "definition": "Transport ferroviaire.",
     "antonyms": [
       "avion"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "avion": {
     "gender": "Masculin",
@@ -797,8 +711,7 @@
     "definition": "Aéronef à moteur.",
     "antonyms": [
       "bateau"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "bateau": {
     "gender": "Masculin",
@@ -806,8 +719,7 @@
     "definition": "Engin flottant.",
     "antonyms": [
       "avion"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "voyage": {
     "gender": "Masculin",
@@ -815,8 +727,7 @@
     "definition": "Déplacement au loin.",
     "antonyms": [
       "séjour"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "bruit": {
     "gender": "Masculin",
@@ -824,8 +735,7 @@
     "definition": "Ensemble de sons confus.",
     "antonyms": [
       "silence"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "silence": {
     "gender": "Masculin",
@@ -833,8 +743,7 @@
     "definition": "Absence totale de bruit.",
     "antonyms": [
       "bruit"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "courage": {
     "gender": "Masculin",
@@ -842,8 +751,7 @@
     "definition": "Fermeté face au danger.",
     "antonyms": [
       "peur"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "problème": {
     "gender": "Masculin",
@@ -851,8 +759,7 @@
     "definition": "Question à résoudre.",
     "antonyms": [
       "solution"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "projet": {
     "gender": "Masculin",
@@ -860,8 +767,7 @@
     "definition": "Idée de ce qu'on veut réaliser.",
     "antonyms": [
       "passé"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "sourire": {
     "gender": "Masculin",
@@ -869,8 +775,7 @@
     "definition": "Expression de satisfaction.",
     "antonyms": [
       "grimace"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "rêve": {
     "gender": "Masculin",
@@ -878,8 +783,7 @@
     "definition": "Production de l'esprit en dormant.",
     "antonyms": [
       "réalité"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "monde": {
     "gender": "Masculin",
@@ -887,8 +791,7 @@
     "definition": "Ensemble de tout ce qui existe.",
     "antonyms": [
       "solitude"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "pays": {
     "gender": "Masculin",
@@ -896,8 +799,7 @@
     "definition": "Territoire d'une nation.",
     "antonyms": [
       "ville"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "village": {
     "gender": "Masculin",
@@ -905,8 +807,7 @@
     "definition": "Agglomération rurale.",
     "antonyms": [
       "ville"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "mur": {
     "gender": "Masculin",
@@ -914,8 +815,7 @@
     "definition": "Ouvrage de maçonnerie vertical.",
     "antonyms": [
       "sol"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "sol": {
     "gender": "Masculin",
@@ -923,8 +823,7 @@
     "definition": "Surface sur laquelle on marche.",
     "antonyms": [
       "plafond"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "plafond": {
     "gender": "Masculin",
@@ -932,8 +831,7 @@
     "definition": "Surface supérieure d'une pièce.",
     "antonyms": [
       "sol"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "lit": {
     "gender": "Masculin",
@@ -941,8 +839,7 @@
     "definition": "Meuble pour dormir.",
     "antonyms": [
       "chaise"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "accident": {
     "gender": "Masculin",
@@ -950,8 +847,7 @@
     "definition": "Événement imprévu et malheureux.",
     "antonyms": [
       "sécurité"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "accord": {
     "gender": "Masculin",
@@ -959,8 +855,7 @@
     "definition": "Entente entre personnes.",
     "antonyms": [
       "désaccord"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "acteur": {
     "gender": "Masculin",
@@ -968,8 +863,7 @@
     "definition": "Personne qui joue au théâtre ou au cinéma.",
     "antonyms": [
       "spectateur"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "aéroport": {
     "gender": "Masculin",
@@ -977,8 +871,7 @@
     "definition": "Ensemble d'installations pour les avions.",
     "antonyms": [
       "gare"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "âge": {
     "gender": "Masculin",
@@ -986,8 +879,7 @@
     "definition": "Durée de la vie d'un être.",
     "antonyms": [
       "jeunesse"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "agent": {
     "gender": "Masculin",
@@ -995,8 +887,7 @@
     "definition": "Personne chargée de fonctions publiques.",
     "antonyms": [
       "citoyen"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "agneau": {
     "gender": "Masculin",
@@ -1004,8 +895,7 @@
     "definition": "Petit de la brebis.",
     "antonyms": [
       "loup"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "air": {
     "gender": "Masculin",
@@ -1013,8 +903,7 @@
     "definition": "Fluide gazeux de l'atmosphère.",
     "antonyms": [
       "vide"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "alcool": {
     "gender": "Masculin",
@@ -1022,8 +911,7 @@
     "definition": "Liquide enivrant.",
     "antonyms": [
       "eau"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "animal": {
     "gender": "Masculin",
@@ -1032,7 +920,7 @@
     "antonyms": [
       "végétal"
     ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les animaux')."
   },
   "anniversaire": {
     "gender": "Masculin",
@@ -1040,8 +928,7 @@
     "definition": "Retour annuel d'un jour marqué par un événement.",
     "antonyms": [
       "deuil"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "appareil": {
     "gender": "Masculin",
@@ -1049,8 +936,7 @@
     "definition": "Assemblage d'organes d'un mécanisme.",
     "antonyms": [
       "outil"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "appartement": {
     "gender": "Masculin",
@@ -1058,8 +944,7 @@
     "definition": "Ensemble de pièces d'habitation.",
     "antonyms": [
       "maison"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "argent": {
     "gender": "Masculin",
@@ -1067,8 +952,7 @@
     "definition": "Monnaie ou métal précieux.",
     "antonyms": [
       "pauvreté"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "arrêt": {
     "gender": "Masculin",
@@ -1076,8 +960,7 @@
     "definition": "Action de stopper.",
     "antonyms": [
       "départ"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "art": {
     "gender": "Masculin",
@@ -1085,8 +968,7 @@
     "definition": "Expression de la beauté.",
     "antonyms": [
       "nature"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "article": {
     "gender": "Masculin",
@@ -1094,8 +976,7 @@
     "definition": "Écrit formant un tout dans un journal.",
     "antonyms": [
       "livre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "aspect": {
     "gender": "Masculin",
@@ -1103,8 +984,7 @@
     "definition": "Apparence d'une chose.",
     "antonyms": [
       "fond"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "avertissement": {
     "gender": "Masculin",
@@ -1112,8 +992,7 @@
     "definition": "Appel à la prudence.",
     "antonyms": [
       "encouragement"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "avis": {
     "gender": "Masculin",
@@ -1121,8 +1000,7 @@
     "definition": "Opinion exprimée.",
     "antonyms": [
       "doute"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "bain": {
     "gender": "Masculin",
@@ -1130,8 +1008,7 @@
     "definition": "Immersion dans l'eau.",
     "antonyms": [
       "douche"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "balcon": {
     "gender": "Masculin",
@@ -1139,8 +1016,7 @@
     "definition": "Plateforme en saillie.",
     "antonyms": [
       "terrasse"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "ballon": {
     "gender": "Masculin",
@@ -1148,8 +1024,7 @@
     "definition": "Balle de sport gonflée d'air.",
     "antonyms": [
       "balle"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "banquier": {
     "gender": "Masculin",
@@ -1157,8 +1032,7 @@
     "definition": "Personne qui dirige une banque.",
     "antonyms": [
       "client"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "bâtiment": {
     "gender": "Masculin",
@@ -1166,8 +1040,7 @@
     "definition": "Construction immobilière.",
     "antonyms": [
       "terrain"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "bessin": {
     "gender": "Masculin",
@@ -1175,8 +1048,7 @@
     "definition": "Bassin d'eau.",
     "antonyms": [
       "lac"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "besoin": {
     "gender": "Masculin",
@@ -1184,8 +1056,7 @@
     "definition": "Exigence de la nature.",
     "antonyms": [
       "superflu"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "beurre": {
     "gender": "Masculin",
@@ -1193,8 +1064,7 @@
     "definition": "Matière grasse du lait.",
     "antonyms": [
       "huile"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "billet": {
     "gender": "Masculin",
@@ -1202,8 +1072,7 @@
     "definition": "Titre de transport ou papier de banque.",
     "antonyms": [
       "pièce"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "biscuit": {
     "gender": "Masculin",
@@ -1211,8 +1080,7 @@
     "definition": "Petite gaufrette sèche.",
     "antonyms": [
       "gâteau"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "bois": {
     "gender": "Masculin",
@@ -1220,8 +1088,7 @@
     "definition": "Matière des arbres.",
     "antonyms": [
       "métal"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "bonheur": {
     "gender": "Masculin",
@@ -1229,8 +1096,7 @@
     "definition": "État de félicité.",
     "antonyms": [
       "malheur"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "bureau": {
     "gender": "Masculin",
@@ -1238,8 +1104,7 @@
     "definition": "Meuble pour écrire ou pièce de travail.",
     "antonyms": [
       "atelier"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "bus": {
     "gender": "Masculin",
@@ -1247,8 +1112,7 @@
     "definition": "Autobus de ville.",
     "antonyms": [
       "train"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "cadeau": {
     "gender": "Masculin",
@@ -1256,8 +1120,7 @@
     "definition": "Objet offert pour faire plaisir.",
     "antonyms": [
       "dette"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "calcul": {
     "gender": "Masculin",
@@ -1265,8 +1128,7 @@
     "definition": "Opération mathématique.",
     "antonyms": [
       "estimation"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "calme": {
     "gender": "Masculin",
@@ -1274,8 +1136,7 @@
     "definition": "Absence d'agitation.",
     "antonyms": [
       "bruit"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "camion": {
     "gender": "Masculin",
@@ -1283,8 +1144,7 @@
     "definition": "Grand véhicule de transport.",
     "antonyms": [
       "voiture"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "camp": {
     "gender": "Masculin",
@@ -1292,8 +1152,7 @@
     "definition": "Lieu de séjour temporaire sous la tente.",
     "antonyms": [
       "hôtel"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "canal": {
     "gender": "Masculin",
@@ -1301,8 +1160,7 @@
     "definition": "Voie d'eau artificielle.",
     "antonyms": [
       "fleuve"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "charbon": {
     "gender": "Masculin",
@@ -1310,8 +1168,7 @@
     "definition": "Combustible fossile noir.",
     "antonyms": [
       "bois"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "chemin": {
     "gender": "Masculin",
@@ -1319,8 +1176,7 @@
     "definition": "Voie de terre.",
     "antonyms": [
       "route"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "choix": {
     "gender": "Masculin",
@@ -1328,8 +1184,7 @@
     "definition": "Action de choisir.",
     "antonyms": [
       "obligation"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "chocolat": {
     "gender": "Masculin",
@@ -1337,8 +1192,7 @@
     "definition": "Substance sucrée au cacao.",
     "antonyms": [
       "bonbon"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "cinéma": {
     "gender": "Masculin",
@@ -1346,8 +1200,7 @@
     "definition": "Salle de projection de films.",
     "antonyms": [
       "théâtre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "citron": {
     "gender": "Masculin",
@@ -1355,8 +1208,7 @@
     "definition": "Agrume jaune acide.",
     "antonyms": [
       "orange"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "client": {
     "gender": "Masculin",
@@ -1364,8 +1216,7 @@
     "definition": "Personne qui achète.",
     "antonyms": [
       "vendeur"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "climat": {
     "gender": "Masculin",
@@ -1373,8 +1224,7 @@
     "definition": "Ensemble des conditions atmosphériques.",
     "antonyms": [
       "météo"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "coeur": {
     "gender": "Masculin",
@@ -1382,8 +1232,7 @@
     "definition": "Organe vital de la circulation.",
     "antonyms": [
       "esprit"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "coin": {
     "gender": "Masculin",
@@ -1391,8 +1240,7 @@
     "definition": "Angle de deux murs.",
     "antonyms": [
       "centre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "colère": {
     "gender": "Féminin",
@@ -1400,8 +1248,7 @@
     "definition": "Vif mécontentement.",
     "antonyms": [
       "calme"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "collège": {
     "gender": "Masculin",
@@ -1409,8 +1256,7 @@
     "definition": "Établissement d'enseignement secondaire.",
     "antonyms": [
       "lycée"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "combat": {
     "gender": "Masculin",
@@ -1418,8 +1264,7 @@
     "definition": "Lutte armée.",
     "antonyms": [
       "paix"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "commerce": {
     "gender": "Masculin",
@@ -1427,8 +1272,7 @@
     "definition": "Achat et vente de marchandises.",
     "antonyms": [
       "industrie"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "compte": {
     "gender": "Masculin",
@@ -1436,8 +1280,7 @@
     "definition": "État de ce que l'on doit ou possède.",
     "antonyms": [
       "dette"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "concert": {
     "gender": "Masculin",
@@ -1445,8 +1288,7 @@
     "definition": "Séance musicale.",
     "antonyms": [
       "opéra"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "conseil": {
     "gender": "Masculin",
@@ -1454,8 +1296,7 @@
     "definition": "Avis donné à quelqu'un.",
     "antonyms": [
       "ordre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "continent": {
     "gender": "Masculin",
@@ -1463,8 +1304,7 @@
     "definition": "Vaste étendue de terre emmergée.",
     "antonyms": [
       "île"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "contrat": {
     "gender": "Masculin",
@@ -1472,8 +1312,7 @@
     "definition": "Convention juridique entre parties.",
     "antonyms": [
       "litige"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "contrôle": {
     "gender": "Masculin",
@@ -1481,8 +1320,7 @@
     "definition": "Vérification attentive.",
     "antonyms": [
       "laisser-faire"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "corps": {
     "gender": "Masculin",
@@ -1490,8 +1328,7 @@
     "definition": "Structure physique de l'homme.",
     "antonyms": [
       "âme"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "costume": {
     "gender": "Masculin",
@@ -1499,8 +1336,7 @@
     "definition": "Vêtement masculin complet.",
     "antonyms": [
       "robe"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "coton": {
     "gender": "Masculin",
@@ -1508,8 +1344,7 @@
     "definition": "Fibre textile végétale.",
     "antonyms": [
       "laine"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "coude": {
     "gender": "Masculin",
@@ -1517,8 +1352,7 @@
     "definition": "Articulation du bras.",
     "antonyms": [
       "genou"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "coup": {
     "gender": "Masculin",
@@ -1526,8 +1360,7 @@
     "definition": "Choc rapide.",
     "antonyms": [
       "caresse"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "courrier": {
     "gender": "Masculin",
@@ -1535,8 +1368,7 @@
     "definition": "Ensemble des lettres envoyées.",
     "antonyms": [
       "colis"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "cours": {
     "gender": "Masculin",
@@ -1544,8 +1376,7 @@
     "definition": "Enseignement donné par un professeur.",
     "antonyms": [
       "examen"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "couteau": {
     "gender": "Masculin",
@@ -1553,8 +1384,7 @@
     "definition": "Ustensile pour couper.",
     "antonyms": [
       "fourchette"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "couvercle": {
     "gender": "Masculin",
@@ -1562,8 +1392,7 @@
     "definition": "Pièce fermant un récipient.",
     "antonyms": [
       "boîte"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "crayons": {
     "gender": "Masculin",
@@ -1571,8 +1400,7 @@
     "definition": "Outils de dessin.",
     "antonyms": [
       "stylo"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "crime": {
     "gender": "Masculin",
@@ -1580,8 +1408,7 @@
     "definition": "Infraction grave à la loi.",
     "antonyms": [
       "vertu"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "cuisinier": {
     "gender": "Masculin",
@@ -1589,8 +1416,7 @@
     "definition": "Personne qui prépare à manger.",
     "antonyms": [
       "serveur"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "danger": {
     "gender": "Masculin",
@@ -1598,8 +1424,7 @@
     "definition": "Situation menaçante.",
     "antonyms": [
       "sécurité"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "début": {
     "gender": "Masculin",
@@ -1607,8 +1432,7 @@
     "definition": "Premier moment.",
     "antonyms": [
       "fin"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "départ": {
     "gender": "Masculin",
@@ -1616,8 +1440,7 @@
     "definition": "Action de s'en aller.",
     "antonyms": [
       "arrivée"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "dessin": {
     "gender": "Masculin",
@@ -1625,8 +1448,7 @@
     "definition": "Représentation graphique.",
     "antonyms": [
       "peinture"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "devoir": {
     "gender": "Masculin",
@@ -1634,8 +1456,7 @@
     "definition": "Obligation morale.",
     "antonyms": [
       "droit"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "dictionnaire": {
     "gender": "Masculin",
@@ -1643,8 +1464,7 @@
     "definition": "Recueil de mots de la langue.",
     "antonyms": [
       "roman"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "dimanche": {
     "gender": "Masculin",
@@ -1652,8 +1472,7 @@
     "definition": "Dernier jour de la semaine.",
     "antonyms": [
       "lundi"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "directeur": {
     "gender": "Masculin",
@@ -1661,8 +1480,7 @@
     "definition": "Personne qui dirige une entreprise.",
     "antonyms": [
       "employé"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "discours": {
     "gender": "Masculin",
@@ -1670,8 +1488,7 @@
     "definition": "Propos tenus devant un public.",
     "antonyms": [
       "silence"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "doigt": {
     "gender": "Masculin",
@@ -1679,8 +1496,7 @@
     "definition": "Extrémité articulée de la main.",
     "antonyms": [
       "orteil"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "dommage": {
     "gender": "Masculin",
@@ -1688,8 +1504,7 @@
     "definition": "Préjudice subi.",
     "antonyms": [
       "avantage"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "doute": {
     "gender": "Masculin",
@@ -1697,8 +1512,7 @@
     "definition": "Incertitude de l'esprit.",
     "antonyms": [
       "certitude"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "droit": {
     "gender": "Masculin",
@@ -1706,8 +1520,7 @@
     "definition": "Ce qui est permis par la loi.",
     "antonyms": [
       "devoir"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "Éclair": {
     "gender": "Masculin",
@@ -1715,8 +1528,7 @@
     "definition": "Lumière vive de l'orage.",
     "antonyms": [
       "tonnerre"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "écran": {
     "gender": "Masculin",
@@ -1724,8 +1536,7 @@
     "definition": "Surface d'affichage électronique.",
     "antonyms": [
       "clavier"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "effort": {
     "gender": "Masculin",
@@ -1733,8 +1544,7 @@
     "definition": "Mobilisation de ses forces.",
     "antonyms": [
       "repos"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "éléphant": {
     "gender": "Masculin",
@@ -1742,8 +1552,7 @@
     "definition": "Grand mammifère à trompe.",
     "antonyms": [
       "souris"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "employé": {
     "gender": "Masculin",
@@ -1751,8 +1560,7 @@
     "definition": "Personne travaillant dans une entreprise.",
     "antonyms": [
       "patron"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "endroit": {
     "gender": "Masculin",
@@ -1760,8 +1568,7 @@
     "definition": "Lieu déterminé.",
     "antonyms": [
       "espace"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "ennemi": {
     "gender": "Masculin",
@@ -1769,8 +1576,7 @@
     "definition": "Personne hostile.",
     "antonyms": [
       "ami"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "escalier": {
     "gender": "Masculin",
@@ -1778,8 +1584,7 @@
     "definition": "Suite de marches.",
     "antonyms": [
       "ascenseur"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "espace": {
     "gender": "Masculin",
@@ -1787,8 +1592,7 @@
     "definition": "Étendue indéfinie.",
     "antonyms": [
       "temps"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "esprit": {
     "gender": "Masculin",
@@ -1796,8 +1600,7 @@
     "definition": "Activité intellectuelle.",
     "antonyms": [
       "matière"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "espoir": {
     "gender": "Masculin",
@@ -1805,8 +1608,7 @@
     "definition": "Attente confiante.",
     "antonyms": [
       "désespoir"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "essai": {
     "gender": "Masculin",
@@ -1814,8 +1616,7 @@
     "definition": "Tentative d'action.",
     "antonyms": [
       "échec"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "été": {
     "gender": "Masculin",
@@ -1823,8 +1624,7 @@
     "definition": "Saison chaude.",
     "antonyms": [
       "hiver"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "étudiant": {
     "gender": "Masculin",
@@ -1832,8 +1632,7 @@
     "definition": "Personne inscrite à l'université.",
     "antonyms": [
       "professeur"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "exemple": {
     "gender": "Masculin",
@@ -1841,8 +1640,7 @@
     "definition": "Ce qui sert de modèle.",
     "antonyms": [
       "exception"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   },
   "exercice": {
     "gender": "Masculin",
@@ -1850,7 +1648,6 @@
     "definition": "Pratique pour apprendre.",
     "antonyms": [
       "repos"
-    ],
-    "grammar_rule": "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
+    ]
   }
 }

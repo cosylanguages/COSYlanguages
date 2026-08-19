@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
-COSYlanguages — Comprehensive Grammar Rules Enricher
-Populates 'grammar_rule' across all 8 standalone reference apps to highlight
-subjunctive triggers, infinitive constructions, case government, and gender/plural quirks.
+COSYlanguages — Particular & Unique Grammar Rules Enricher
+Populates 'grammar_rule' across all 8 standalone reference apps for ONLY items
+with specific, unique, or irregular rules (e.g., Subjunctive triggers, modal infinitive constructions,
+case government, irregular plurals/stems, gender exceptions).
+
+Does NOT populate generic default rules (such as regular 1st group endings or standard declension patterns).
 """
 
 import json
@@ -20,81 +23,111 @@ APP_DATA_PATHS = {
 }
 
 # ==============================================================================
-# BESPOKE GRAMMAR RULES
+# BESPOKE UNIQUE GRAMMAR RULES (REMEMBER!)
 # ==============================================================================
 FR_VERB_RULES = {
-    "vouloir": "📌 Exige le Subjonctif dans les propositions subordonnées (ex: 'je veux que tu viennes').",
-    "falloir": "📌 Verbe impersonnel — exige le Subjonctif (ex: 'il faut que nous partions').",
-    "espérer": "📌 Suivi de l'Indicatif/Futur si affirmé ('j'espère qu'il viendra'), du Subjonctif si négatif.",
-    "préférer": "📌 Exige le Subjonctif pour exprimer une préférence subordonnée (ex: 'je préfère qu'il reste').",
-    "souhaiter": "📌 Exige le Subjonctif dans la subordonnée (ex: 'je souhaite qu'elle réussisse').",
-    "demander": "📌 Exige la préposition 'de' devant un infinitif (ex: 'demander de sortir') ou le Subjonctif.",
-    "refuser": "📌 Exige la préposition 'de' devant un infinitif (ex: 'refuser de répondre').",
-    "être": "📌 Verbe auxiliaire fondamental — sert à former le passé composé des verbes de mouvement et pronominaux.",
-    "avoir": "📌 Verbe auxiliaire principal — sert à former les temps composés de la majorité des verbes.",
-    "aller": "📌 Verbe du 3e groupe hautement irrégulier — sert à former le Futur Proche ('aller + infinitif').",
-    "faire": "📌 Sert à former les constructions causatives ('faire + infinitif', ex: 'faire réparer la voiture').",
-    "pouvoir": "📌 Verbe modal — suivi directement d'un infinitif sans préposition (ex: 'je peux vous aider').",
-    "devoir": "📌 Verbe modal — exprime l'obligation ou la probabilité, suivi directement d'un infinitif.",
-    "savoir": "📌 Verbe modal — exprime une capacité acquise, suivi directement d'un infinitif.",
-    "manger": "📌 Orthographe en -ger — prend un 'e' muet après le 'g' devant 'a' et 'o' (ex: 'nous mangeons').",
-    "voyager": "📌 Orthographe en -ger — conserve le 'e' à la 1re personne du pluriel du présent ('nous voyageons').",
-    "nager": "📌 Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous nageons', 'je nageais').",
-    "commencer": "📌 Orthographe en -cer — prend une cédille 'ç' devant 'a' et 'o' (ex: 'nous commençons').",
-    "choisir": "📌 2e groupe (-ir) — interfixe '-iss-' au présent du pluriel ('nous choisissons') et à l'imparfait.",
-    "finir": "📌 2e groupe (-ir) — interfixe '-iss-' régulier (ex: 'nous finissons', 'vous finissez').",
-    "réussir": "📌 2e groupe (-ir) — exige la préposition 'à' devant un infinitif ('réussir à faire')."
+    "vouloir": "💡 REMEMBER: Exige TOUJOURS le Subjonctif dans les propositions subordonnées quand les sujets sont différents ('je veux que tu viennes').",
+    "falloir": "💡 REMEMBER: Verbe impersonnel stictement utilisé à la 3e personne ('il faut'). Exige le Subjonctif ('il faut que nous partions').",
+    "pouvoir": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je peux aider'). Auxiliaire avoir.",
+    "devoir": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je dois partir'). Participe passé 'dû' prend un accent circonflexe au masculin singulier.",
+    "savoir": "💡 REMEMBER: Exprime une capacité acquise. Suivi directement d'un infinitif sans préposition ('je sais nager'). Impératif spécial: sache, sachons, sachez.",
+    "espérer": "💡 REMEMBER: Suivi de l'Indicatif/Futur si affirmé ('j'espère qu'il viendra'), mais exige le Subjonctif à la forme négative ou interrogative.",
+    "préférer": "💡 REMEMBER: Exige le Subjonctif pour exprimer une préférence subordonnée ('je préfère qu'il reste'). Alternance d'accentuation: préférer -> je préfère.",
+    "souhaiter": "💡 REMEMBER: Exige le Subjonctif dans la subordonnée quand le sujet change ('je souhaite qu'elle réussisse').",
+    "demander": "💡 REMEMBER: Exige la préposition 'de' devant un infinitif ('demander de sortir') ou le Subjonctif ('demander que...').",
+    "refuser": "💡 REMEMBER: Exige la préposition 'de' devant un infinitif ('refuser de répondre').",
+    "réussir": "💡 REMEMBER: Exige la préposition 'à' devant un infinitif ('réussir à faire').",
+    "commencer": "💡 REMEMBER: Orthographe en -cer — prend une cédille 'ç' devant 'a' et 'o' ('nous commençons', 'je commençais').",
+    "manger": "💡 REMEMBER: Orthographe en -ger — prend un 'e' muet après le 'g' devant 'a' et 'o' ('nous mangeons', 'il mangeait').",
+    "voyager": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous voyageons').",
+    "nager": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous nageons').",
+    "appeler": "💡 REMEMBER: Double le 'l' devant un 'e' muet ('j'appelle', 'nous appelons').",
+    "jeter": "💡 REMEMBER: Double le 't' devant un 'e' muet ('je jette', 'nous jetons').",
+    "acheter": "💡 REMEMBER: Change le 'e' muet en 'è' devant une syllabe muette ('j'achète', 'nous achetons').",
+    "payer": "💡 REMEMBER: Le 'y' peut se changer en 'i' devant un 'e' muet ('je paie' / 'je paye').",
+    "envoyer": "💡 REMEMBER: Futur et Conditionnel très irréguliers: 'j'enverrai', 'j'enverrais' (tronc en 'enverr-').",
+    "courir": "💡 REMEMBER: Participe passé 'couru'. Futur et conditionnel à double 'r': 'je courrai', 'je courrais'.",
+    "voir": "💡 REMEMBER: Futur et conditionnel à double 'r': 'je verrai'. Subjonctif: 'que je voie', 'que nous voyions'.",
+    "mourir": "💡 REMEMBER: Auxiliaire être au passé composé ('il est mort'). Futur: 'je mourrai'. Subjonctif: 'que je meure'.",
+    "venir": "💡 REMEMBER: Auxiliaire être au passé composé ('il est venu'). Subjonctif: 'que je vienne', 'que nous venions'.",
+    "tenir": "💡 REMEMBER: Mêmes irrégularités que venir ('je tiens', 'nous tenons', 'ils tiennent', 'que je tienne')."
 }
-FR_VERB_DEFAULT = "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
 
 FR_NOUN_RULES = {
-    "soleil": "📌 Nom masculin ('le soleil') — invariable au niveau du genre.",
-    "maison": "📌 Nom féminin ('la maison') — terminaison en '-on' féminine exceptionnelle.",
-    "eau": "📌 Nom féminin ('l'eau') — prend un 'x' au pluriel ('les eaux')."
+    "eau": "💡 REMEMBER: Nom féminin ('l'eau') — pluriel irrégulier en '-x' ('les eaux').",
+    "jeu": "💡 REMEMBER: Nom masculin ('le jeu') — pluriel en '-x' ('les jeux').",
+    "œil": "💡 REMEMBER: Nom masculin — pluriel totalement irrégulier ('les yeux').",
+    "travail": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les travaux').",
+    "journal": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les journaux').",
+    "animal": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les animaux').",
+    "monsieur": "💡 REMEMBER: Pluriel très particulier: 'messieurs'.",
+    "madame": "💡 REMEMBER: Pluriel très particulier: 'mesdames'.",
+    "mademoiselle": "💡 REMEMBER: Pluriel très particulier: 'mesdemoiselles'."
 }
-FR_NOUN_DEFAULT = "📌 Règle de genre: toujours apprendre le nom avec son article défini (le/la) ou indéfini (un/une)."
 
 IT_VERB_RULES = {
-    "volere": "📌 Verbo servile/modale — seguito direttamente dall'infinito (es: 'voglio parlare') o richiede il Congiuntivo.",
-    "dovere": "📌 Verbo servile/modale — esprime un'obbligazione, seguito direttamente dall'infinito.",
-    "potere": "📌 Verbo servile/modale — esprime possibilità o permesso, seguito dall'infinito senza preposizione.",
-    "pensare": "📌 Richiede il Congiuntivo nelle frasi subordinate di opinione (es: 'penso che sia giusto').",
-    "sperare": "📌 Richiede il Congiuntivo nelle frasi subordinate (es: 'spero che tu stia bene').",
-    "credere": "📌 Richiede il Congiuntivo nelle frasi di opinione e credenza (es: 'credo che veniamo').",
-    "andare": "📌 Verbo di movimento — usa l'ausiliare 'essere' con accordo del participio passato (es: 'sono andato/a').",
-    "venire": "📌 Verbo di movimento — usa l'ausiliare 'essere' (es: 'sono venuto').",
-    "essere": "📌 Ausiliare fondamentale — usato nei tempi composti per verbes d'intransitivi e riflessivi.",
-    "avere": "📌 Ausiliare fondamentale — usato nei tempi composti per la maggior parte dei verbi transitivi."
+    "volere": "💡 REMEMBER: Verbo servile/modale — seguito direttamente dall'infinito ('voglio andare') o richiede il Congiuntivo se i soggetti differiscono ('voglio che tu venga').",
+    "dovere": "💡 REMEMBER: Verbo servile/modale — esprime un'obbligazione, seguito direttamente dall'infinito senza preposizione.",
+    "potere": "💡 REMEMBER: Verbo servile/modale — esprime possibilità o permesso, seguito dall'infinito senza preposizione.",
+    "pensare": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi subordinate di opinione ('penso che sia giusto').",
+    "sperare": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi subordinate ('spero che tu stia bene').",
+    "credere": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi di opinione e credenza ('credo che vengano').",
+    "andare": "💡 REMEMBER: Verbo di movimento — usa l'ausiliare 'essere' con accordo del participio passato ('sono andato/a'). Presente altamente irregolare: vado, vai, va, andiamo, andate, vanno.",
+    "venire": "💡 REMEMBER: Usa l'ausiliare 'essere' ('sono venuto/a'). Presente: vengo, vieni, viene, veniamo, venite, vengono.",
+    "uscire": "💡 REMEMBER: Alternanza della radice al presente: esco, esci, esce, usciamo, uscite, escono.",
+    "dire": "💡 REMEMBER: Deriva dal latino 'dicere'. Participio passato: 'detto'. Imperativo singolare: 'dall' / 'di''."
 }
-IT_VERB_DEFAULT = "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
 
-IT_NOUN_DEFAULT = "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+IT_NOUN_RULES = {
+    "uovo": "💡 REMEMBER: Nom maschile al singolare ('l'uovo'), ma FENOMENO SOVRAPPIÙ cambia genere e diventa femminile al plurale ('le uova').",
+    "braccio": "💡 REMEMBER: Maschile al singolare ('il braccio'), diventa femminile per le parti del corpo al plurale ('le braccia').",
+    "mano": "💡 REMEMBER: Eccezione di genere: termina in '-o' ma è FEMMINILE ('la mano', plurale 'le mani').",
+    "problema": "💡 REMEMBER: Eccezione di genere: termina in '-a' (origine greca) ma è MASCHILE ('il problema', plurale 'i problemi').",
+    "tema": "💡 REMEMBER: Origine greca: maschile singolare 'il tema', plurale 'i temi'.",
+    "programma": "💡 REMEMBER: Origine greca: maschile singolare 'il programma', plurale 'i programmi'.",
+    "foto": "💡 REMEMBER: Abbreviazione di 'fotografia' — invariabile al plurale ('la foto', 'le foto').",
+    "cinema": "💡 REMEMBER: Invariabile al plurale ('il cinema', 'i cinema')."
+}
 
 RU_VERB_RULES = {
-    "хотеть": "📌 Модальный глагол — сочетается с инфинитивом без предлога (например: 'я хочу сказать') или союзом 'чтобы' + прош.вр.",
-    "мочь": "📌 Модальный глагол — выражает физическую возможность или разрешение, сочетается с инфинитивом.",
-    "любить": "📌 Глагол чувства — требует винительного падежа прямого дополнения или инфинитива.",
-    "думать": "📌 Управление — требует предложного падежа с предлогом 'о' (о ком? о чём?) или союза 'что'.",
-    "помогать": "📌 Управление — требует дательного падежа адресата помощи (кому? чему?).",
-    "быть": "📌 Глагол связка — в настоящем времени обычно опускается, в прошедшем требует творительного падежа для профессий.",
-    "заниматься": "📌 Управление — требует творительного падежа предмета занятий (чем?).",
-    "интересоваться": "📌 Управление — требует творительного падежа объекта интереса (чем?)."
+    "хотеть": "💡 REMEMBER: Разноспрягаемый глагол! В единственном числе спрягается по I спряжению (хочу, хочешь, хочет), во множественном — по II спряжению (хотим, хотите, хотят).",
+    "бежать": "💡 REMEMBER: Разноспрягаемый глагол! бегу, бежишь, бежит, бежим, бежите, НО бегут.",
+    "есть": "💡 REMEMBER: Особое архаичное спряжение: ем, ешь, ест, едим, едите, едят.",
+    "дать": "💡 REMEMBER: Особое архаичное спряжение: дам, дашь, даст, дадим, дадите, дадут.",
+    "хотеться": "💡 REMEMBER: Безличный глагол — употребляется только в 3-м лице или ср. роде с дательным падежом ('мне хочется').",
+    "быть": "💡 REMEMBER: В настоящем времени форма 'есть' используется редко. В прошедшем времени требует Творительного падежа для профессий ('был врачом').",
+    "писать": "💡 REMEMBER: Чередование согласных с/ш во всех формах настоящего времени (пишу, пишешь... пишут).",
+    "любить": "💡 REMEMBER: Чередование б/бл в 1-м лице ед.ч. (люблю, любишь, любят).",
+    "видеть": "💡 REMEMBER: Глагол-исключение II спряжения на -еть (вижу, видишь, видят).",
+    "смотреть": "💡 REMEMBER: Глагол-исключение II спряжения на -еть (смотрю, смотришь, смотрят)."
 }
-RU_VERB_DEFAULT = "📌 Правило спряжения: I спряжение (-ешь, -ет, -ем, -ете, -ут/-ют) / II спряжение (-ишь, -ит, -им, -ите, -ат/-ят)."
 
-RU_NOUN_DEFAULT = "📌 Падежное склонение: выбор окончания зависит от падежа (Именительный, Родительный, Дательный, Винительный, Творительный, Предложный)."
+RU_NOUN_RULES = {
+    "имя": "💡 REMEMBER: Разносклоняемое существительное на -мя! В косвенных падежах появляется суффикс -ен- (имени, именем, имена).",
+    "время": "💡 REMEMBER: Разносклоняемое существительное на -мя! В косвенных падежах суффикс -ен- (времени, временем, времена).",
+    "дитя": "💡 REMEMBER: Разносклоняемое существительное с особыми формами во множественном числе ('дети', 'детей').",
+    "мать": "💡 REMEMBER: Существительное III склонения с наращением -ер- во всех падежах кроме Им./Вин. (матери, матерью, матери).",
+    "дочь": "💡 REMEMBER: Существительное III склонения с наращением -ер- во всех падежах кроме Им./Вин. (дочери, дочерью, дочери).",
+    "человек": "💡 REMEMBER: Во множественном числе используется супплетивная форма 'люди' (людей, людям).",
+    "ребёнок": "💡 REMEMBER: Во множественном числе супплетивная форма 'дети' (детей, детям).",
+    "пальто": "💡 REMEMBER: Несклоняемое существительное среднего рода (не меняет окончания по падежам).",
+    "метро": "💡 REMEMBER: Несклоняемое существительное среднего рода.",
+    "кофе": "💡 REMEMBER: Мужской род! ('горячий кофе'), хотя оканчивается на -е. Не склоняется.",
+    "путь": "💡 REMEMBER: Существительное мужского рода, но склоняется как существительное III склонения женского рода (пути, путём)."
+}
 
 EL_VERB_RULES = {
-    "θέλω": "📌 Συντάσσεται με το μόριο 'να' + Υποτακτική έγκλιση (π.χ. 'θέλω να διαβάσω').",
-    "μπορώ": "📌 Συντάσσεται με το μόριο 'να' + Υποτακτική (π.χ. 'μπορώ να βοηθήσω').",
-    "πρέπει": "📌 Απρόσωπο ρήμα — συντάσσεται πάντα με 'να' + Υποτακτική (π.χ. 'πρέπει να φύγω').",
-    "μαθαίνω": "📌 Συντάσσεται με Αιτιατική ή με 'να' + Υποτακτική (π.χ. 'μαθαίνω να οδηγώ').",
-    "αγαπάω": "📌 Τύπος Β' (-άω) — ιδιαίτερες καταλήξεις στον Ενεστώτα (αγαπώ, αγαπάς, αγαπάει).",
-    "μιλάω": "📌 Τύπος Β' (-άω) — συντάσσεται με την πρόθεση 'σε' για το πρόσωπο και 'για' για το θέμα."
+    "θέλω": "💡 REMEMBER: Συντάσσεται υποχρεωτικά με το μόριο 'να' + Υποτακτική όταν ακολουθεί άλλο ρήμα ('θέλω να πάω').",
+    "μπορώ": "💡 REMEMBER: Συντάσσεται πάντα με 'να' + Υποτακτική ('μπορώ να βοηθήσω').",
+    "πρέπει": "💡 REMEMBER: Απρόσωπο ρήμα — χρησιμοποιείται μόνο στο 3ο πρόσωπο με 'να' + Υποτακτική ('πρέπει να φύγω').",
+    "είμαι": "💡 REMEMBER: Βοηθητικό ρήμα — δεν έχει ενεργητικές καταλήξεις, χρησιμοποιεί αποθετικές καταλήξεις στον Ενεστώτα (είμαι, είσαι, είναι, είμαστε, είστε, είναι).",
+    "έχω": "💡 REMEMBER: Χρησιμοποιείται ως βοηθητικό για τον Παρακείμενο ('έχω διαβάσει')."
 }
-EL_VERB_DEFAULT = "📌 Ενεργητική φωνή — βασικός τύπος ρήματος με καταλήξεις Ενεστώτα: -ω, -εις, -ει, -ουμε, -ετε, -ουν."
 
-EL_NOUN_DEFAULT = "📌 Πτωτικό σύστημα: το ουσιαστικό συνοδεύεται από οριστικό άρθρο (ο, η, το) και κλίνεται στις 4 πτώσεις."
+EL_NOUN_RULES = {
+    "паππούς": "💡 REMEMBER: Оυσιαστικό με ιδιαίτερες καταλήξεις πληθυντικού ('παππούδες').",
+    "spiti": "💡 REMEMBER: Ουδέτερο σε -ι — διατηρεί την κατάληξη -ια στον πληθυντικό ('σπίτια')."
+}
 
 def process_grammar_rules(key, path):
     if not os.path.exists(path):
@@ -105,29 +138,35 @@ def process_grammar_rules(key, path):
     is_verb = "verbs" in key
     lang = key.split("_")[0]
 
+    count = 0
     for item_key, item_data in data.items():
-        if "grammar_rule" not in item_data or not item_data["grammar_rule"]:
-            if lang == "fr":
-                rule = FR_VERB_RULES.get(item_key, FR_VERB_DEFAULT) if is_verb else FR_NOUN_RULES.get(item_key, FR_NOUN_DEFAULT)
-            elif lang == "it":
-                rule = IT_VERB_RULES.get(item_key, IT_VERB_DEFAULT) if is_verb else IT_NOUN_DEFAULT
-            elif lang == "ru":
-                rule = RU_VERB_RULES.get(item_key, RU_VERB_DEFAULT) if is_verb else RU_NOUN_DEFAULT
-            elif lang == "el":
-                rule = EL_VERB_RULES.get(item_key, EL_VERB_DEFAULT) if is_verb else EL_NOUN_DEFAULT
-            else:
-                rule = "📌 Règle grammaticale標準."
+        rule = None
+        if lang == "fr":
+            rule = FR_VERB_RULES.get(item_key) if is_verb else FR_NOUN_RULES.get(item_key)
+        elif lang == "it":
+            rule = IT_VERB_RULES.get(item_key) if is_verb else IT_NOUN_RULES.get(item_key)
+        elif lang == "ru":
+            rule = RU_VERB_RULES.get(item_key) if is_verb else RU_NOUN_RULES.get(item_key)
+        elif lang == "el":
+            rule = EL_VERB_RULES.get(item_key) if is_verb else EL_NOUN_RULES.get(item_key)
+
+        if rule:
             item_data["grammar_rule"] = rule
+            count += 1
+        else:
+            # Remove or clear generic rule if present
+            if "grammar_rule" in item_data:
+                del item_data["grammar_rule"]
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"  ✅ Enriched {path} ({len(data)} entries with grammar_rule)")
+    print(f"  ✅ Enriched {path} ({count} items given unique grammar_rule, rest left clean)")
 
 def main():
-    print("🚀 Enriching Grammar Rules across all 8 Standalone Reference Datasets...")
+    print("🚀 Populating ONLY Particular/Unique Grammar Rules across all 8 Standalone Reference Datasets...")
     for key, path in APP_DATA_PATHS.items():
         process_grammar_rules(key, path)
-    print("🎉 All 8 databases successfully enriched with bespoke Grammar Rules!")
+    print("🎉 Done! Only unique REMEMBER rules are populated.")
 
 if __name__ == "__main__":
     main()

@@ -5,8 +5,7 @@
     "definition": "Edificio adibito ad abitazione.",
     "antonyms": [
       "strada"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "macchina": {
     "gender": "Femminile",
@@ -14,8 +13,7 @@
     "definition": "Veicolo automobile.",
     "antonyms": [
       "pedone"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "tavola": {
     "gender": "Femminile",
@@ -23,8 +21,7 @@
     "definition": "Mobile con superficie piana.",
     "antonyms": [
       "sedia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "sedia": {
     "gender": "Femminile",
@@ -32,8 +29,7 @@
     "definition": "Mobile per sedersi.",
     "antonyms": [
       "tavola"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "porta": {
     "gender": "Femminile",
@@ -41,8 +37,7 @@
     "definition": "Apertura per entrare in una stanza.",
     "antonyms": [
       "finestra"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "finestra": {
     "gender": "Femminile",
@@ -50,8 +45,7 @@
     "definition": "Apertura nel muro per la luce.",
     "antonyms": [
       "porta"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "città": {
     "gender": "Femminile",
@@ -59,8 +53,7 @@
     "definition": "Centro abitato esteso.",
     "antonyms": [
       "campagna"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "strada": {
     "gender": "Femminile",
@@ -68,8 +61,7 @@
     "definition": "Via di comunicazione.",
     "antonyms": [
       "piazza"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "scuola": {
     "gender": "Femminile",
@@ -77,8 +69,7 @@
     "definition": "Istituto di istruzione.",
     "antonyms": [
       "casa"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "acqua": {
     "gender": "Femminile",
@@ -86,8 +77,7 @@
     "definition": "Liquido trasparente vital per la vita.",
     "antonyms": [
       "fuoco"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "terra": {
     "gender": "Femminile",
@@ -95,8 +85,7 @@
     "definition": "Pianeta o suolo calpestabile.",
     "antonyms": [
       "cielo"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "materia": {
     "gender": "Femminile",
@@ -104,8 +93,7 @@
     "definition": "Sostanza fisica.",
     "antonyms": [
       "spirito"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "montagna": {
     "gender": "Femminile",
@@ -113,8 +101,7 @@
     "definition": "Rilievo naturale del terreno.",
     "antonyms": [
       "valle"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "notte": {
     "gender": "Femminile",
@@ -122,8 +109,7 @@
     "definition": "Periodo di oscurità.",
     "antonyms": [
       "giorno"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "chiave": {
     "gender": "Femminile",
@@ -131,8 +117,7 @@
     "definition": "Strumento per aprire serrature.",
     "antonyms": [
       "serratura"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "stanza": {
     "gender": "Femminile",
@@ -140,8 +125,7 @@
     "definition": "Ambiente di una casa.",
     "antonyms": [
       "salone"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "cucina": {
     "gender": "Femminile",
@@ -149,8 +133,7 @@
     "definition": "Stanza dove si cucina.",
     "antonyms": [
       "sala"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "musica": {
     "gender": "Femminile",
@@ -158,8 +141,7 @@
     "definition": "Arte dei suoni.",
     "antonyms": [
       "silenzio"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "luce": {
     "gender": "Femminile",
@@ -167,8 +149,7 @@
     "definition": "Radiazione luminosa.",
     "antonyms": [
       "ombra"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "ombra": {
     "gender": "Femminile",
@@ -176,8 +157,7 @@
     "definition": "Zona scura senza luce.",
     "antonyms": [
       "luce"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "idea": {
     "gender": "Femminile",
@@ -185,8 +165,7 @@
     "definition": "Rappresentazione mentale.",
     "antonyms": [
       "azione"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "verità": {
     "gender": "Femminile",
@@ -194,8 +173,7 @@
     "definition": "Ciò che è vero.",
     "antonyms": [
       "bugia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "libertà": {
     "gender": "Femminile",
@@ -203,8 +181,7 @@
     "definition": "Stato di chi è libero.",
     "antonyms": [
       "schiavitù"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "pace": {
     "gender": "Femminile",
@@ -212,8 +189,7 @@
     "definition": "Assenza di guerra.",
     "antonyms": [
       "guerra"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "guerra": {
     "gender": "Femminile",
@@ -221,8 +197,7 @@
     "definition": "Conflitto armato.",
     "antonyms": [
       "pace"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "vita": {
     "gender": "Femminile",
@@ -230,8 +205,7 @@
     "definition": "Esistenza biologica.",
     "antonyms": [
       "morte"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "morte": {
     "gender": "Femminile",
@@ -239,8 +213,7 @@
     "definition": "Cessazione della vita.",
     "antonyms": [
       "vita"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "mano": {
     "gender": "Femminile",
@@ -249,7 +222,7 @@
     "antonyms": [
       "piede"
     ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-o' ma è FEMMINILE ('la mano', plurale 'le mani')."
   },
   "testa": {
     "gender": "Femminile",
@@ -257,8 +230,7 @@
     "definition": "Parte superiore del corpo.",
     "antonyms": [
       "piede"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "voce": {
     "gender": "Femminile",
@@ -266,8 +238,7 @@
     "definition": "Suono emesso dalle corde vocali.",
     "antonyms": [
       "silenzio"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "domanda": {
     "gender": "Femminile",
@@ -275,8 +246,7 @@
     "definition": "Richiesta per sapere.",
     "antonyms": [
       "risposta"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "risposta": {
     "gender": "Femminile",
@@ -284,8 +254,7 @@
     "definition": "Ciò che si dice in replica.",
     "antonyms": [
       "domanda"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "storia": {
     "gender": "Femminile",
@@ -293,8 +262,7 @@
     "definition": "Racconto di eventi.",
     "antonyms": [
       "invenzione"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "famiglia": {
     "gender": "Femminile",
@@ -302,8 +270,7 @@
     "definition": "Insieme di persone unite da parentela.",
     "antonyms": [
       "solitudine"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "stagione": {
     "gender": "Femminile",
@@ -311,8 +278,7 @@
     "definition": "Periodo dell'anno.",
     "antonyms": [
       "anno"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "settimana": {
     "gender": "Femminile",
@@ -320,8 +286,7 @@
     "definition": "Periodo di sette giorni.",
     "antonyms": [
       "mese"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "ora": {
     "gender": "Femminile",
@@ -329,8 +294,7 @@
     "definition": "Unità di tempo di 60 minuti.",
     "antonyms": [
       "secondo"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "minuto": {
     "gender": "Maschile",
@@ -338,8 +302,7 @@
     "definition": "Sessanta secondi.",
     "antonyms": [
       "ora"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "canzone": {
     "gender": "Femminile",
@@ -347,8 +310,7 @@
     "definition": "Composizione musicale cantata.",
     "antonyms": [
       "poesia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "gioia": {
     "gender": "Femminile",
@@ -356,8 +318,7 @@
     "definition": "Sentimento di felicità.",
     "antonyms": [
       "tristezza"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "tristezza": {
     "gender": "Femminile",
@@ -365,8 +326,7 @@
     "definition": "Sentimento di dolore morale.",
     "antonyms": [
       "gioia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "paura": {
     "gender": "Femminile",
@@ -374,8 +334,7 @@
     "definition": "Emozione di fronte al pericolo.",
     "antonyms": [
       "coraggio"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "salute": {
     "gender": "Femminile",
@@ -383,8 +342,7 @@
     "definition": "Stato di benessere fisico.",
     "antonyms": [
       "malattia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "malattia": {
     "gender": "Femminile",
@@ -392,8 +350,7 @@
     "definition": "Alterazione della salute.",
     "antonyms": [
       "salute"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "soluzione": {
     "gender": "Femminile",
@@ -401,8 +358,7 @@
     "definition": "Risposta a un problema.",
     "antonyms": [
       "problema"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "sole": {
     "gender": "Maschile",
@@ -410,8 +366,7 @@
     "definition": "Stella al centro del sistema solare.",
     "antonyms": [
       "luna"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "libro": {
     "gender": "Maschile",
@@ -419,8 +374,7 @@
     "definition": "Insieme di fogli stampati.",
     "antonyms": [
       "quaderno"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "quaderno": {
     "gender": "Maschile",
@@ -428,8 +382,7 @@
     "definition": "Insieme di fogli bianchi.",
     "antonyms": [
       "libro"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "sacco": {
     "gender": "Maschile",
@@ -437,8 +390,7 @@
     "definition": "Involucro per contenere cose.",
     "antonyms": [
       "tasca"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "cappotto": {
     "gender": "Maschile",
@@ -446,8 +398,7 @@
     "definition": "Abito pesante invernale.",
     "antonyms": [
       "pantaloni"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "pantaloni": {
     "gender": "Maschile",
@@ -455,8 +406,7 @@
     "definition": "Indumento per le gambe.",
     "antonyms": [
       "gonna"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "cappello": {
     "gender": "Maschile",
@@ -464,8 +414,7 @@
     "definition": "Copricapo.",
     "antonyms": [
       "scarpa"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "cane": {
     "gender": "Maschile",
@@ -473,8 +422,7 @@
     "definition": "Animale domestico fedele.",
     "antonyms": [
       "gatto"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "gatto": {
     "gender": "Maschile",
@@ -482,8 +430,7 @@
     "definition": "Feline domestico.",
     "antonyms": [
       "cane"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "cavallo": {
     "gender": "Maschile",
@@ -491,8 +438,7 @@
     "definition": "Mammifero solipede.",
     "antonyms": [
       "mucca"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "uccello": {
     "gender": "Maschile",
@@ -500,8 +446,7 @@
     "definition": "Animale con piume e ali.",
     "antonyms": [
       "pesce"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "pesce": {
     "gender": "Maschile",
@@ -509,8 +454,7 @@
     "definition": "Animale acquatico.",
     "antonyms": [
       "uccello"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "albero": {
     "gender": "Maschile",
@@ -518,8 +462,7 @@
     "definition": "Pianta legnosa ad alto fusto.",
     "antonyms": [
       "fiore"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "giardino": {
     "gender": "Maschile",
@@ -527,8 +470,7 @@
     "definition": "Terreno coltivato a fiori e piante.",
     "antonyms": [
       "casa"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "parco": {
     "gender": "Maschile",
@@ -536,8 +478,7 @@
     "definition": "Spazio verde pubblico.",
     "antonyms": [
       "strada"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "vento": {
     "gender": "Maschile",
@@ -545,8 +486,7 @@
     "definition": "Movimento d'aria.",
     "antonyms": [
       "calma"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "fuoco": {
     "gender": "Maschile",
@@ -554,8 +494,7 @@
     "definition": "Combustione che produce calore.",
     "antonyms": [
       "acqua"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "cielo": {
     "gender": "Masculin",
@@ -563,8 +502,7 @@
     "definition": "Spazio visibile sopra la terra.",
     "antonyms": [
       "terra"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "giorno": {
     "gender": "Maschile",
@@ -572,8 +510,7 @@
     "definition": "Periodo di luce.",
     "antonyms": [
       "notte"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "mattino": {
     "gender": "Maschile",
@@ -581,8 +518,7 @@
     "definition": "Inizio della giornata.",
     "antonyms": [
       "sera"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "sera": {
     "gender": "Femminile",
@@ -590,8 +526,7 @@
     "definition": "Fine della giornata.",
     "antonyms": [
       "mattino"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "mese": {
     "gender": "Maschile",
@@ -599,8 +534,7 @@
     "definition": "Dodicesima parte dell'anno.",
     "antonyms": [
       "anno"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "anno": {
     "gender": "Maschile",
@@ -608,8 +542,7 @@
     "definition": "Periodo di dodici mesi.",
     "antonyms": [
       "mese"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "secolo": {
     "gender": "Maschile",
@@ -617,8 +550,7 @@
     "definition": "Periodo di cento anni.",
     "antonyms": [
       "anno"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "tempo": {
     "gender": "Maschile",
@@ -626,8 +558,7 @@
     "definition": "Dimensione della durata.",
     "antonyms": [
       "spazio"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "lavoro": {
     "gender": "Maschile",
@@ -635,8 +566,7 @@
     "definition": "Attività umana produttiva.",
     "antonyms": [
       "riposo"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "riposo": {
     "gender": "Maschile",
@@ -644,8 +574,7 @@
     "definition": "Inattività rigenerante.",
     "antonyms": [
       "lavoro"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "pane": {
     "gender": "Maschile",
@@ -653,8 +582,7 @@
     "definition": "Cibo di farina cotta.",
     "antonyms": [
       "acqua"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "formaggio": {
     "gender": "Maschile",
@@ -662,8 +590,7 @@
     "definition": "Prodotto del latte.",
     "antonyms": [
       "latte"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "latte": {
     "gender": "Maschile",
@@ -671,8 +598,7 @@
     "definition": "Liquido bianco nutritivo.",
     "antonyms": [
       "acqua"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "caffè": {
     "gender": "Maschile",
@@ -680,8 +606,7 @@
     "definition": "Bevanda calda stimolante.",
     "antonyms": [
       "tè"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "tè": {
     "gender": "Maschile",
@@ -689,8 +614,7 @@
     "definition": "Bevanda d'infuso.",
     "antonyms": [
       "caffè"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "pasto": {
     "gender": "Maschile",
@@ -698,8 +622,7 @@
     "definition": "Cibo preso a ore fisse.",
     "antonyms": [
       "digiuno"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "ristorante": {
     "gender": "Maschile",
@@ -707,8 +630,7 @@
     "definition": "Locale dove si mangia.",
     "antonyms": [
       "casa"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "albergo": {
     "gender": "Maschile",
@@ -716,8 +638,7 @@
     "definition": "Struttura di accoglienza.",
     "antonyms": [
       "casa"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "treno": {
     "gender": "Maschile",
@@ -725,8 +646,7 @@
     "definition": "Mezzo di trasporto su rotaie.",
     "antonyms": [
       "aereo"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "aereo": {
     "gender": "Maschile",
@@ -734,8 +654,7 @@
     "definition": "Veicolo volante.",
     "antonyms": [
       "nave"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "viaggio": {
     "gender": "Maschile",
@@ -743,8 +662,7 @@
     "definition": "Spostamento in luoghi lontani.",
     "antonyms": [
       "soggiorno"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "rumore": {
     "gender": "Maschile",
@@ -752,8 +670,7 @@
     "definition": "Suono confuso.",
     "antonyms": [
       "silenzio"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "silenzio": {
     "gender": "Maschile",
@@ -761,8 +678,7 @@
     "definition": "Assenza di rumore.",
     "antonyms": [
       "rumore"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "coraggio": {
     "gender": "Maschile",
@@ -770,8 +686,7 @@
     "definition": "Forza d'animo di fronte al pericolo.",
     "antonyms": [
       "paura"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "problema": {
     "gender": "Maschile",
@@ -780,7 +695,7 @@
     "antonyms": [
       "soluzione"
     ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-a' (origine greca) ma è MASCHILE ('il problema', plurale 'i problemi')."
   },
   "progetto": {
     "gender": "Maschile",
@@ -788,8 +703,7 @@
     "definition": "Piano per il futuro.",
     "antonyms": [
       "passato"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "sorriso": {
     "gender": "Maschile",
@@ -797,8 +711,7 @@
     "definition": "Espressione di gioia.",
     "antonyms": [
       "smorfia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "sogno": {
     "gender": "Maschile",
@@ -806,8 +719,7 @@
     "definition": "Attività della mente nel sonno.",
     "antonyms": [
       "realtà"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "mondo": {
     "gender": "Maschile",
@@ -815,8 +727,7 @@
     "definition": "L'insieme di tutto ciò che esiste.",
     "antonyms": [
       "solitudine"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "paese": {
     "gender": "Maschile",
@@ -824,8 +735,7 @@
     "definition": "Territorio di una nazione.",
     "antonyms": [
       "città"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "villaggio": {
     "gender": "Maschile",
@@ -833,8 +743,7 @@
     "definition": "Piccolo centro abitato.",
     "antonyms": [
       "città"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "muro": {
     "gender": "Maschile",
@@ -842,8 +751,7 @@
     "definition": "Struttura verticale di muratura.",
     "antonyms": [
       "pavimento"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "pavimento": {
     "gender": "Maschile",
@@ -851,8 +759,7 @@
     "definition": "Superficie calpestabile.",
     "antonyms": [
       "soffitto"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "soffitto": {
     "gender": "Maschile",
@@ -860,8 +767,7 @@
     "definition": "Copertura interna superiore.",
     "antonyms": [
       "pavimento"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "letto": {
     "gender": "Maschile",
@@ -869,8 +775,7 @@
     "definition": "Mobile per dormire.",
     "antonyms": [
       "sedia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "quadro": {
     "gender": "Maschile",
@@ -878,8 +783,7 @@
     "definition": "Dipinto d'arte.",
     "antonyms": [
       "scultura"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "mare": {
     "gender": "Maschile",
@@ -887,8 +791,7 @@
     "definition": "Grande distesa d'acqua salata.",
     "antonyms": [
       "montagna"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "fiume": {
     "gender": "Maschile",
@@ -896,8 +799,7 @@
     "definition": "Corso d'acqua continuo.",
     "antonyms": [
       "mare"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "lago": {
     "gender": "Maschile",
@@ -905,8 +807,7 @@
     "definition": "Bacino d'acqua dolce.",
     "antonyms": [
       "fiume"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "abito": {
     "gender": "Maschile",
@@ -914,8 +815,7 @@
     "definition": "Indumento da indossare.",
     "antonyms": [
       "nudità"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "aeroporto": {
     "gender": "Maschile",
@@ -923,8 +823,7 @@
     "definition": "Struttura per aerei.",
     "antonyms": [
       "stazione"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "amico": {
     "gender": "Maschile",
@@ -932,8 +831,7 @@
     "definition": "Persona legata da amicizia.",
     "antonyms": [
       "nemico"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "animale": {
     "gender": "Maschile",
@@ -941,8 +839,7 @@
     "definition": "Essere vivente sensibile.",
     "antonyms": [
       "pianta"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "appartamento": {
     "gender": "Maschile",
@@ -950,8 +847,7 @@
     "definition": "Insieme di stanze d'abitazione.",
     "antonyms": [
       "casa"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "autobus": {
     "gender": "Maschile",
@@ -959,8 +855,7 @@
     "definition": "Mezzo di trasporto pubblico.",
     "antonyms": [
       "treno"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "bambino": {
     "gender": "Maschile",
@@ -968,8 +863,7 @@
     "definition": "Essere umano in tenera età.",
     "antonyms": [
       "adulto"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "banco": {
     "gender": "Maschile",
@@ -977,8 +871,7 @@
     "definition": "Tavolo da lavoro o scuola.",
     "antonyms": [
       "sedia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "bar": {
     "gender": "Maschile",
@@ -986,8 +879,7 @@
     "definition": "Locale per bevande.",
     "antonyms": [
       "ristorante"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "bicchiere": {
     "gender": "Maschile",
@@ -995,8 +887,7 @@
     "definition": "Recipiente per bere.",
     "antonyms": [
       "bottiglia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "biglietto": {
     "gender": "Maschile",
@@ -1004,8 +895,7 @@
     "definition": "Documento di viaggio.",
     "antonyms": [
       "moneta"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "bosco": {
     "gender": "Maschile",
@@ -1013,8 +903,7 @@
     "definition": "Terreno coperto da alberi.",
     "antonyms": [
       "prato"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "braccio": {
     "gender": "Maschile",
@@ -1023,7 +912,7 @@
     "antonyms": [
       "gamba"
     ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('il braccio'), diventa femminile per le parti del corpo al plurale ('le braccia')."
   },
   "burro": {
     "gender": "Maschile",
@@ -1031,8 +920,7 @@
     "definition": "Grasso del latte.",
     "antonyms": [
       "olio"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "calcio": {
     "gender": "Maschile",
@@ -1040,8 +928,7 @@
     "definition": "Sport con il pallone.",
     "antonyms": [
       "tennis"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "camino": {
     "gender": "Maschile",
@@ -1049,8 +936,7 @@
     "definition": "Struttura per il fuoco in casa.",
     "antonyms": [
       "stufa"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "campo": {
     "gender": "Maschile",
@@ -1058,8 +944,7 @@
     "definition": "Terreno agricolo.",
     "antonyms": [
       "città"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "capello": {
     "gender": "Maschile",
@@ -1067,8 +952,7 @@
     "definition": "Pelo della testa.",
     "antonyms": [
       "barba"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "carattere": {
     "gender": "Maschile",
@@ -1076,8 +960,7 @@
     "definition": "Indole di una persona.",
     "antonyms": [
       "aspetto"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "carnevale": {
     "gender": "Maschile",
@@ -1085,8 +968,7 @@
     "definition": "Festa di maschere.",
     "antonyms": [
       "quaresima"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "castello": {
     "gender": "Maschile",
@@ -1094,8 +976,7 @@
     "definition": "Fortezza antica.",
     "antonyms": [
       "capanna"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "centro": {
     "gender": "Maschile",
@@ -1103,8 +984,7 @@
     "definition": "Punto di mezzo di una città.",
     "antonyms": [
       "periferia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "cibo": {
     "gender": "Maschile",
@@ -1112,8 +992,7 @@
     "definition": "Alimento per il corpo.",
     "antonyms": [
       "bevanda"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "cinema": {
     "gender": "Maschile",
@@ -1122,7 +1001,7 @@
     "antonyms": [
       "teatro"
     ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    "grammar_rule": "💡 REMEMBER: Invariabile al plurale ('il cinema', 'i cinema')."
   },
   "coltello": {
     "gender": "Maschile",
@@ -1130,8 +1009,7 @@
     "definition": "Ustensile per tagliare.",
     "antonyms": [
       "forchetta"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "compito": {
     "gender": "Maschile",
@@ -1139,8 +1017,7 @@
     "definition": "Lavoro scolastico assegnato.",
     "antonyms": [
       "riposo"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "computer": {
     "gender": "Maschile",
@@ -1148,8 +1025,7 @@
     "definition": "Calcolatore elettronico.",
     "antonyms": [
       "foglio"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "consiglio": {
     "gender": "Maschile",
@@ -1157,8 +1033,7 @@
     "definition": "Suggerimento utile.",
     "antonyms": [
       "ordine"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "conto": {
     "gender": "Maschile",
@@ -1166,8 +1041,7 @@
     "definition": "Calcolo del prezzo.",
     "antonyms": [
       "debito"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "corpo": {
     "gender": "Maschile",
@@ -1175,8 +1049,7 @@
     "definition": "Struttura fisica.",
     "antonyms": [
       "anima"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "cuscino": {
     "gender": "Maschile",
@@ -1184,8 +1057,7 @@
     "definition": "Supporto morbido per la testa.",
     "antonyms": [
       "materasso"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "dente": {
     "gender": "Maschile",
@@ -1193,8 +1065,7 @@
     "definition": "Organo della masticazione.",
     "antonyms": [
       "lingua"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "deserto": {
     "gender": "Maschile",
@@ -1202,8 +1073,7 @@
     "definition": "Territorio arido e sabbioso.",
     "antonyms": [
       "foresta"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "dito": {
     "gender": "Maschile",
@@ -1211,8 +1081,7 @@
     "definition": "Estremità della mano.",
     "antonyms": [
       "piede"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "dolore": {
     "gender": "Maschile",
@@ -1220,8 +1089,7 @@
     "definition": "Sensazione di sofferenza.",
     "antonyms": [
       "piacere"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "fatto": {
     "gender": "Maschile",
@@ -1229,8 +1097,7 @@
     "definition": "Azione compiuta.",
     "antonyms": [
       "parola"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "figlio": {
     "gender": "Maschile",
@@ -1238,8 +1105,7 @@
     "definition": "Discendente diretto maschio.",
     "antonyms": [
       "padre"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "fiore": {
     "gender": "Maschile",
@@ -1247,8 +1113,7 @@
     "definition": "Parte colorata della pianta.",
     "antonyms": [
       "foglia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "foglio": {
     "gender": "Maschile",
@@ -1256,8 +1121,7 @@
     "definition": "Pezzo di carta.",
     "antonyms": [
       "quaderno"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "forno": {
     "gender": "Maschile",
@@ -1265,8 +1129,7 @@
     "definition": "Apparecchio per cuocere.",
     "antonyms": [
       "frigorifero"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "fratello": {
     "gender": "Maschile",
@@ -1274,8 +1137,7 @@
     "definition": "Figlio degli stessi genitori.",
     "antonyms": [
       "sorella"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "frutto": {
     "gender": "Maschile",
@@ -1283,8 +1145,7 @@
     "definition": "Prodotto commestibile delle piante.",
     "antonyms": [
       "fiore"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "giornale": {
     "gender": "Maschile",
@@ -1292,8 +1153,7 @@
     "definition": "Stampa quotidiana d'informazione.",
     "antonyms": [
       "libro"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "gioco": {
     "gender": "Maschile",
@@ -1301,8 +1161,7 @@
     "definition": "Attività di svago.",
     "antonyms": [
       "lavoro"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "gruppo": {
     "gender": "Maschile",
@@ -1310,8 +1169,7 @@
     "definition": "Insieme di persone o cose.",
     "antonyms": [
       "individuo"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "guanto": {
     "gender": "Maschile",
@@ -1319,8 +1177,7 @@
     "definition": "Copertura per le mani.",
     "antonyms": [
       "scarpa"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "inverno": {
     "gender": "Maschile",
@@ -1328,8 +1185,7 @@
     "definition": "Stagione fredda.",
     "antonyms": [
       "estate"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "luogo": {
     "gender": "Maschile",
@@ -1337,8 +1193,7 @@
     "definition": "Spazio determinato.",
     "antonyms": [
       "tempo"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "mercato": {
     "gender": "Maschile",
@@ -1346,8 +1201,7 @@
     "definition": "Luogo di compravendita.",
     "antonyms": [
       "negozio"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "museo": {
     "gender": "Maschile",
@@ -1355,8 +1209,7 @@
     "definition": "Luogo di reperti d'arte.",
     "antonyms": [
       "teatro"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "naso": {
     "gender": "Maschile",
@@ -1364,8 +1217,7 @@
     "definition": "Organo dell'olfatto.",
     "antonyms": [
       "bocca"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "negozio": {
     "gender": "Maschile",
@@ -1373,8 +1225,7 @@
     "definition": "Locale di vendita al dettaglio.",
     "antonyms": [
       "mercato"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "nome": {
     "gender": "Maschile",
@@ -1382,8 +1233,7 @@
     "definition": "Appellativo di una persona.",
     "antonyms": [
       "cognome"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "occhio": {
     "gender": "Maschile",
@@ -1391,8 +1241,7 @@
     "definition": "Organo della vista.",
     "antonyms": [
       "orecchio"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "orologio": {
     "gender": "Maschile",
@@ -1400,8 +1249,7 @@
     "definition": "Strumento per misurare il tempo.",
     "antonyms": [
       "calendario"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "ospedale": {
     "gender": "Maschile",
@@ -1409,8 +1257,7 @@
     "definition": "Luogo di cura dei malati.",
     "antonyms": [
       "scuola"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "piede": {
     "gender": "Maschile",
@@ -1418,8 +1265,7 @@
     "definition": "Parte finale della gamba.",
     "antonyms": [
       "mano"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "poeta": {
     "gender": "Maschile",
@@ -1427,8 +1273,7 @@
     "definition": "Chi scrive poesie.",
     "antonyms": [
       "lettore"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "pomodoro": {
     "gender": "Maschile",
@@ -1436,8 +1281,7 @@
     "definition": "Ortaggio rosso commestibile.",
     "antonyms": [
       "patata"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "ponte": {
     "gender": "Maschile",
@@ -1445,8 +1289,7 @@
     "definition": "Struttura sopra un fiume.",
     "antonyms": [
       "strada"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "porto": {
     "gender": "Maschile",
@@ -1454,8 +1297,7 @@
     "definition": "Luogo d'approdo delle navi.",
     "antonyms": [
       "aeroporto"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "prato": {
     "gender": "Maschile",
@@ -1463,8 +1305,7 @@
     "definition": "Terreno eroso d'erba.",
     "antonyms": [
       "bosco"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "prezzo": {
     "gender": "Maschile",
@@ -1472,8 +1313,7 @@
     "definition": "Valore in denaro di una cosa.",
     "antonyms": [
       "sconto"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "ragazzo": {
     "gender": "Maschile",
@@ -1481,8 +1321,7 @@
     "definition": "Giovane maschio.",
     "antonyms": [
       "ragazza"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "regalo": {
     "gender": "Maschile",
@@ -1490,8 +1329,7 @@
     "definition": "Dono per un'occasione.",
     "antonyms": [
       "dito"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "riso": {
     "gender": "Maschile",
@@ -1499,8 +1337,7 @@
     "definition": "Cereale o atto del ridere.",
     "antonyms": [
       "pianto"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "spazio": {
     "gender": "Maschile",
@@ -1508,8 +1345,7 @@
     "definition": "Estensione indefinita.",
     "antonyms": [
       "tempo"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "specchio": {
     "gender": "Maschile",
@@ -1517,8 +1353,7 @@
     "definition": "Vetro che riflette.",
     "antonyms": [
       "muro"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "sport": {
     "gender": "Maschile",
@@ -1526,8 +1361,7 @@
     "definition": "Attività fisica ludica.",
     "antonyms": [
       "pigrizia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "stivali": {
     "gender": "Maschile",
@@ -1535,8 +1369,7 @@
     "definition": "Calzature alte.",
     "antonyms": [
       "scarpe"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "tavolo": {
     "gender": "Maschile",
@@ -1544,8 +1377,7 @@
     "definition": "Mobile con gambe e piano.",
     "antonyms": [
       "sedia"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "uomo": {
     "gender": "Maschile",
@@ -1553,8 +1385,7 @@
     "definition": "Essere umano maschio.",
     "antonyms": [
       "donna"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "uovo": {
     "gender": "Maschile",
@@ -1563,7 +1394,7 @@
     "antonyms": [
       "pane"
     ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    "grammar_rule": "💡 REMEMBER: Nom maschile al singolare ('l'uovo'), ma FENOMENO SOVRAPPIÙ cambia genere e diventa femminile al plurale ('le uova')."
   },
   "vaso": {
     "gender": "Maschile",
@@ -1571,8 +1402,7 @@
     "definition": "Contenitore per fiori.",
     "antonyms": [
       "fiori"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "vino": {
     "gender": "Maschile",
@@ -1580,8 +1410,7 @@
     "definition": "Bevanda alcolica d'uva.",
     "antonyms": [
       "acqua"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "zucchero": {
     "gender": "Maschile",
@@ -1589,8 +1418,7 @@
     "definition": "Sostanza dolce bianca.",
     "antonyms": [
       "sale"
-    ],
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    ]
   },
   "arte": {
     "gender": "femminile",
@@ -1608,8 +1436,7 @@
       "abl_sing": "dall'arte",
       "loc_sing": "in arte",
       "nom_plur": "le arti"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "attore": {
     "gender": "maschile",
@@ -1627,8 +1454,7 @@
       "abl_sing": "dall'attore",
       "loc_sing": "in attore",
       "nom_plur": "gli attori"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "autunno": {
     "gender": "maschile",
@@ -1646,8 +1472,7 @@
       "abl_sing": "dall'autunno",
       "loc_sing": "in autunno",
       "nom_plur": "gli autunni"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "bagno": {
     "gender": "maschile",
@@ -1665,8 +1490,7 @@
       "abl_sing": "dal bagno",
       "loc_sing": "in bagno",
       "nom_plur": "i bagni"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "banca": {
     "gender": "femminile",
@@ -1684,8 +1508,7 @@
       "abl_sing": "dalla banca",
       "loc_sing": "in banca",
       "nom_plur": "le banche"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "barca": {
     "gender": "femminile",
@@ -1703,8 +1526,7 @@
       "abl_sing": "dalla barca",
       "loc_sing": "in barca",
       "nom_plur": "le barche"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "bicicletta": {
     "gender": "femminile",
@@ -1722,8 +1544,7 @@
       "abl_sing": "dalla bicicletta",
       "loc_sing": "in bicicletta",
       "nom_plur": "le biciclette"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "bottiglia": {
     "gender": "femminile",
@@ -1741,8 +1562,7 @@
       "abl_sing": "dalla bottiglia",
       "loc_sing": "in bottiglia",
       "nom_plur": "le bottiglie"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "campagna": {
     "gender": "femminile",
@@ -1760,8 +1580,7 @@
       "abl_sing": "dalla campagna",
       "loc_sing": "in campagna",
       "nom_plur": "le campagne"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "capitale": {
     "gender": "femminile",
@@ -1779,8 +1598,7 @@
       "abl_sing": "dalla capitale",
       "loc_sing": "in capitale",
       "nom_plur": "le capitali"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "carne": {
     "gender": "femminile",
@@ -1798,8 +1616,7 @@
       "abl_sing": "dalla carne",
       "loc_sing": "in carne",
       "nom_plur": "le carni"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "classe": {
     "gender": "femminile",
@@ -1817,8 +1634,7 @@
       "abl_sing": "dalla classe",
       "loc_sing": "in classe",
       "nom_plur": "le classi"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "colore": {
     "gender": "maschile",
@@ -1836,8 +1652,7 @@
       "abl_sing": "dal colore",
       "loc_sing": "in colore",
       "nom_plur": "i colori"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "concerto": {
     "gender": "maschile",
@@ -1855,8 +1670,7 @@
       "abl_sing": "dal concerto",
       "loc_sing": "in concerto",
       "nom_plur": "i concerti"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "festa": {
     "gender": "femminile",
@@ -1874,8 +1688,7 @@
       "abl_sing": "dalla festa",
       "loc_sing": "in festa",
       "nom_plur": "le feste"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "filosofia": {
     "gender": "femminile",
@@ -1893,8 +1706,7 @@
       "abl_sing": "dalla filosofia",
       "loc_sing": "in filosofia",
       "nom_plur": "le filosofie"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "giovane": {
     "gender": "maschile",
@@ -1912,8 +1724,7 @@
       "abl_sing": "dal giovane",
       "loc_sing": "in giovane",
       "nom_plur": "i giovani"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "isola": {
     "gender": "femminile",
@@ -1931,8 +1742,7 @@
       "abl_sing": "dall'isola",
       "loc_sing": "in isola",
       "nom_plur": "le isole"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "lettera": {
     "gender": "femminile",
@@ -1950,8 +1760,7 @@
       "abl_sing": "dalla lettera",
       "loc_sing": "in lettera",
       "nom_plur": "le lettere"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "madre": {
     "gender": "femminile",
@@ -1969,8 +1778,7 @@
       "abl_sing": "dalla madre",
       "loc_sing": "in madre",
       "nom_plur": "le madri"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "medico": {
     "gender": "maschile",
@@ -1988,8 +1796,7 @@
       "abl_sing": "dal medico",
       "loc_sing": "in medico",
       "nom_plur": "i medici"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "natura": {
     "gender": "femminile",
@@ -2007,8 +1814,7 @@
       "abl_sing": "dalla natura",
       "loc_sing": "in natura",
       "nom_plur": "le nature"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "parola": {
     "gender": "femminile",
@@ -2026,8 +1832,7 @@
       "abl_sing": "dalla parola",
       "loc_sing": "in parola",
       "nom_plur": "le parole"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   },
   "piazza": {
     "gender": "femminile",
@@ -2045,7 +1850,6 @@
       "abl_sing": "dalla piazza",
       "loc_sing": "in piazza",
       "nom_plur": "le piazze"
-    },
-    "grammar_rule": "📌 Regola del genere: i nomi in '-o' sono generalmente maschili (plur. '-i'), quelli in '-a' femminili (plur. '-e')."
+    }
   }
 }

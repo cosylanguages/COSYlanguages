@@ -82,10 +82,13 @@ class NounGenderEngine {
 
         const ruleBox = document.getElementById('grammar-rule-container');
         const ruleTextEl = document.getElementById('grammar-rule-text');
-        if (ruleTextEl) {
-            const rule = data.grammar_rule || "📌 Règle de genre: apprendre avec son article.";
-            ruleTextEl.textContent = rule;
-            if (ruleBox) ruleBox.style.display = 'flex';
+        if (ruleTextEl && ruleBox) {
+            if (data.grammar_rule) {
+                ruleTextEl.textContent = data.grammar_rule;
+                ruleBox.style.display = 'flex';
+            } else {
+                ruleBox.style.display = 'none';
+            }
         }
 
         document.getElementById('sing-form').innerHTML = `<span class="article">${data.article}</span> <span class="stem">${noun}</span>`;

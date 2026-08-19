@@ -81,8 +81,7 @@
         "parlato"
       ]
     },
-    "usage_hint": "parlare a (qualcuno) / di (qualcosa o qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "parlare a (qualcuno) / di (qualcosa o qualcuno)"
   },
   "amare": {
     "group": "1a coniugazione",
@@ -166,8 +165,7 @@
         "amato"
       ]
     },
-    "usage_hint": "+ oggetto diretto (senza preposizione)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto (senza preposizione)"
   },
   "camminare": {
     "group": "1a coniugazione",
@@ -251,8 +249,7 @@
         "camminato"
       ]
     },
-    "usage_hint": "camminare verso / in / per",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "camminare verso / in / per"
   },
   "studiare": {
     "group": "1a coniugazione",
@@ -336,8 +333,7 @@
         "studiato"
       ]
     },
-    "usage_hint": "+ oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto"
   },
   "lavorare": {
     "group": "1a coniugazione",
@@ -421,8 +417,7 @@
         "lavorato"
       ]
     },
-    "usage_hint": "lavorare per / con / in",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "lavorare per / con / in"
   },
   "abitare": {
     "group": "1a coniugazione",
@@ -506,8 +501,7 @@
         "abitato"
       ]
     },
-    "usage_hint": "abitare a (città) / in (paese o regione)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "abitare a (città) / in (paese o regione)"
   },
   "ascoltare": {
     "group": "1a coniugazione",
@@ -591,8 +585,7 @@
         "ascoltato"
       ]
     },
-    "usage_hint": "+ oggetto diretto (ascoltare qualcuno/qualcosa)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto (ascoltare qualcuno/qualcosa)"
   },
   "guardare": {
     "group": "1a coniugazione",
@@ -676,8 +669,7 @@
         "guardato"
       ]
     },
-    "usage_hint": "+ oggetto diretto (guardare qualcosa)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto (guardare qualcosa)"
   },
   "pensare": {
     "group": "1a coniugazione",
@@ -762,7 +754,7 @@
       ]
     },
     "usage_hint": "pensare a (qualcosa/qualcuno) / di (opinione)",
-    "grammar_rule": "📌 Richiede il Congiuntivo nelle frasi subordinate di opinione (es: 'penso che sia giusto')."
+    "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi subordinate di opinione ('penso che sia giusto')."
   },
   "cercare": {
     "group": "1a coniugazione",
@@ -846,8 +838,7 @@
         "cercato"
       ]
     },
-    "usage_hint": "cercare + oggetto diretto / cercare di (fare)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "cercare + oggetto diretto / cercare di (fare)"
   },
   "trovare": {
     "group": "1a coniugazione",
@@ -931,8 +922,7 @@
         "trovato"
       ]
     },
-    "usage_hint": "+ oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto"
   },
   "donare": {
     "group": "1a coniugazione",
@@ -1016,8 +1006,7 @@
         "donato"
       ]
     },
-    "usage_hint": "donare (qualcosa) a (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "donare (qualcosa) a (qualcuno)"
   },
   "domandare": {
     "group": "1a coniugazione",
@@ -1101,8 +1090,7 @@
         "domandato"
       ]
     },
-    "usage_hint": "domandare (qualcosa) a (qualcuno) / di (fare)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "domandare (qualcosa) a (qualcuno) / di (fare)"
   },
   "giocare": {
     "group": "1a coniugazione",
@@ -1186,8 +1174,7 @@
         "giocato"
       ]
     },
-    "usage_hint": "giocare a (gioco/sport) / con (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "giocare a (gioco/sport) / con (qualcuno)"
   },
   "cantare": {
     "group": "1a coniugazione",
@@ -1271,8 +1258,7 @@
         "cantato"
       ]
     },
-    "usage_hint": "+ oggetto diretto / per (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto / per (qualcuno)"
   },
   "ballare": {
     "group": "1a coniugazione",
@@ -1356,8 +1342,7 @@
         "ballato"
       ]
     },
-    "usage_hint": "ballare con / su",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "ballare con / su"
   },
   "viaggiare": {
     "group": "1a coniugazione",
@@ -1441,8 +1426,7 @@
         "viaggiato"
       ]
     },
-    "usage_hint": "voyaggiare in / a / con",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "voyaggiare in / a / con"
   },
   "passare": {
     "group": "1a coniugazione",
@@ -1526,8 +1510,7 @@
         "passato"
       ]
     },
-    "usage_hint": "passare per / da / passare + oggetto diretto (tempo)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "passare per / da / passare + oggetto diretto (tempo)"
   },
   "guadagnare": {
     "group": "1a coniugazione",
@@ -1611,8 +1594,7 @@
         "guadagnato"
       ]
     },
-    "usage_hint": "guadagnare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "guadagnare + oggetto diretto"
   },
   "preparare": {
     "group": "1a coniugazione",
@@ -1696,8 +1678,7 @@
         "preparato"
       ]
     },
-    "usage_hint": "preparare + oggetto diretto / prepararsi a",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "preparare + oggetto diretto / prepararsi a"
   },
   "visitare": {
     "group": "1a coniugazione",
@@ -1781,8 +1762,7 @@
         "visitato"
       ]
     },
-    "usage_hint": "+ oggetto diretto (visitare un luogo)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto (visitare un luogo)"
   },
   "aiutare": {
     "group": "1a coniugazione",
@@ -1866,8 +1846,7 @@
         "aiutato"
       ]
     },
-    "usage_hint": "aiutare (qualcuno) a (fare qualcosa)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "aiutare (qualcuno) a (fare qualcosa)"
   },
   "aspettare": {
     "group": "1a coniugazione",
@@ -1951,8 +1930,7 @@
         "aspettato"
       ]
     },
-    "usage_hint": "aspettare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "aspettare + oggetto diretto"
   },
   "arrivare": {
     "group": "1a coniugazione",
@@ -2036,8 +2014,7 @@
         "arrivato"
       ]
     },
-    "usage_hint": "arrivare a / in / da",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "arrivare a / in / da"
   },
   "portare": {
     "group": "1a coniugazione",
@@ -2121,8 +2098,7 @@
         "portato"
       ]
     },
-    "usage_hint": "portare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "portare + oggetto diretto"
   },
   "dimenticare": {
     "group": "1a coniugazione",
@@ -2206,8 +2182,7 @@
         "dimenticato"
       ]
     },
-    "usage_hint": "dimenticare + oggetto diretto / di (fare)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "dimenticare + oggetto diretto / di (fare)"
   },
   "ricordare": {
     "group": "1a coniugazione",
@@ -2291,8 +2266,7 @@
         "ricordato"
       ]
     },
-    "usage_hint": "ricordare (qualcosa) a (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "ricordare (qualcosa) a (qualcuno)"
   },
   "spiegare": {
     "group": "1a coniugazione",
@@ -2376,8 +2350,7 @@
         "spiegato"
       ]
     },
-    "usage_hint": "spiegare (qualcosa) a (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "spiegare (qualcosa) a (qualcuno)"
   },
   "comprare": {
     "group": "1a coniugazione",
@@ -2461,8 +2434,7 @@
         "comprato"
       ]
     },
-    "usage_hint": "comprare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "comprare + oggetto diretto"
   },
   "pagare": {
     "group": "1a coniugazione",
@@ -2546,8 +2518,7 @@
         "pagato"
       ]
     },
-    "usage_hint": "pagare (qualcosa) a (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "pagare (qualcosa) a (qualcuno)"
   },
   "cominciare": {
     "group": "1a coniugazione",
@@ -2631,8 +2602,7 @@
         "cominciato"
       ]
     },
-    "usage_hint": "cominciare a (fare qualcosa) / con",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "cominciare a (fare qualcosa) / con"
   },
   "imparare": {
     "group": "1a coniugazione",
@@ -2716,8 +2686,7 @@
         "imparato"
       ]
     },
-    "usage_hint": "imparare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "imparare + oggetto diretto"
   },
   "insegnare": {
     "group": "1a coniugazione",
@@ -2801,8 +2770,7 @@
         "insegnato"
       ]
     },
-    "usage_hint": "insegnare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "insegnare + oggetto diretto"
   },
   "sperare": {
     "group": "1a coniugazione",
@@ -2887,7 +2855,7 @@
       ]
     },
     "usage_hint": "sperare di (fare) / in (qualcosa)",
-    "grammar_rule": "📌 Richiede il Congiuntivo nelle frasi subordinate (es: 'spero che tu stia bene')."
+    "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi subordinate ('spero che tu stia bene')."
   },
   "sognare": {
     "group": "1a coniugazione",
@@ -2971,8 +2939,7 @@
         "sognato"
       ]
     },
-    "usage_hint": "sognare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "sognare + oggetto diretto"
   },
   "cambiare": {
     "group": "1a coniugazione",
@@ -3056,8 +3023,7 @@
         "cambiato"
       ]
     },
-    "usage_hint": "cambiare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "cambiare + oggetto diretto"
   },
   "incontrare": {
     "group": "1a coniugazione",
@@ -3141,8 +3107,7 @@
         "incontrato"
       ]
     },
-    "usage_hint": "incontrare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "incontrare + oggetto diretto"
   },
   "salvare": {
     "group": "1a coniugazione",
@@ -3226,8 +3191,7 @@
         "salvato"
       ]
     },
-    "usage_hint": "salvare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "salvare + oggetto diretto"
   },
   "guidare": {
     "group": "1a coniugazione",
@@ -3311,8 +3275,7 @@
         "guidato"
       ]
     },
-    "usage_hint": "guidare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "guidare + oggetto diretto"
   },
   "ordinare": {
     "group": "1a coniugazione",
@@ -3396,8 +3359,7 @@
         "ordinato"
       ]
     },
-    "usage_hint": "ordinare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "ordinare + oggetto diretto"
   },
   "organizzare": {
     "group": "1a coniugazione",
@@ -3481,8 +3443,7 @@
         "organizzato"
       ]
     },
-    "usage_hint": "organizzare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "organizzare + oggetto diretto"
   },
   "inviare": {
     "group": "1a coniugazione",
@@ -3566,8 +3527,7 @@
         "inviato"
       ]
     },
-    "usage_hint": "inviare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "inviare + oggetto diretto"
   },
   "rifiutare": {
     "group": "1a coniugazione",
@@ -3651,8 +3611,7 @@
         "rifiutato"
       ]
     },
-    "usage_hint": "rifiutare + oggetto diretto / di (fare)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "rifiutare + oggetto diretto / di (fare)"
   },
   "accettare": {
     "group": "1a coniugazione",
@@ -3736,8 +3695,7 @@
         "accettato"
       ]
     },
-    "usage_hint": "accettare + oggetto diretto / di (fare)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "accettare + oggetto diretto / di (fare)"
   },
   "baciare": {
     "group": "1a coniugazione",
@@ -3821,8 +3779,7 @@
         "baciato"
       ]
     },
-    "usage_hint": "baciare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "baciare + oggetto diretto"
   },
   "credere": {
     "group": "2a coniugazione",
@@ -3907,7 +3864,7 @@
       ]
     },
     "usage_hint": "credere + oggetto diretto",
-    "grammar_rule": "📌 Richiede il Congiuntivo nelle frasi di opinione e credenza (es: 'credo che veniamo')."
+    "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi di opinione e credenza ('credo che vengano')."
   },
   "sembrare": {
     "group": "1a coniugazione",
@@ -3991,8 +3948,7 @@
         "sembrato"
       ]
     },
-    "usage_hint": "sembrare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "sembrare + oggetto diretto"
   },
   "diventare": {
     "group": "1a coniugazione",
@@ -4076,8 +4032,7 @@
         "diventato"
       ]
     },
-    "usage_hint": "diventare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "diventare + oggetto diretto"
   },
   "nuotare": {
     "group": "1a coniugazione",
@@ -4161,8 +4116,7 @@
         "nuotato"
       ]
     },
-    "usage_hint": "nuotare in / con",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "nuotare in / con"
   },
   "volare": {
     "group": "1a coniugazione",
@@ -4246,8 +4200,7 @@
         "volato"
       ]
     },
-    "usage_hint": "volare verso / sopra",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "volare verso / sopra"
   },
   "partire": {
     "group": "3a coniugazione",
@@ -4331,8 +4284,7 @@
         "partato"
       ]
     },
-    "usage_hint": "partire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "partire + oggetto diretto"
   },
   "sentire": {
     "group": "3a coniugazione",
@@ -4416,8 +4368,7 @@
         "sentato"
       ]
     },
-    "usage_hint": "sentire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "sentire + oggetto diretto"
   },
   "pulire": {
     "group": "3a coniugazione",
@@ -4501,8 +4452,7 @@
         "pulato"
       ]
     },
-    "usage_hint": "+ oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto"
   },
   "capire": {
     "group": "3a coniugazione",
@@ -4586,8 +4536,7 @@
         "capato"
       ]
     },
-    "usage_hint": "capire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "capire + oggetto diretto"
   },
   "finire": {
     "group": "3a coniugazione",
@@ -4671,8 +4620,7 @@
         "finato"
       ]
     },
-    "usage_hint": "finire di (fare qualcosa) / per",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "finire di (fare qualcosa) / per"
   },
   "offrire": {
     "group": "3a coniugazione",
@@ -4756,8 +4704,7 @@
         "offrato"
       ]
     },
-    "usage_hint": "offrire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "offrire + oggetto diretto"
   },
   "uscire": {
     "group": "3a coniugazione",
@@ -4842,7 +4789,7 @@
       ]
     },
     "usage_hint": "uscire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "grammar_rule": "💡 REMEMBER: Alternanza della radice al presente: esco, esci, esce, usciamo, uscite, escono."
   },
   "salire": {
     "group": "3a coniugazione",
@@ -4926,8 +4873,7 @@
         "salato"
       ]
     },
-    "usage_hint": "salire su / in / a",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "salire su / in / a"
   },
   "essere": {
     "group": "2a coniugazione",
@@ -5011,8 +4957,7 @@
         "essato"
       ]
     },
-    "usage_hint": "essere di (possesso) / a / in",
-    "grammar_rule": "📌 Ausiliare fondamentale — usato nei tempi composti per verbes d'intransitivi e riflessivi."
+    "usage_hint": "essere di (possesso) / a / in"
   },
   "avere": {
     "group": "2a coniugazione",
@@ -5096,8 +5041,7 @@
         "avato"
       ]
     },
-    "usage_hint": "avere bisogno di / avere paura di / + oggetto diretto",
-    "grammar_rule": "📌 Ausiliare fondamentale — usato nei tempi composti per la maggior parte dei verbi transitivi."
+    "usage_hint": "avere bisogno di / avere paura di / + oggetto diretto"
   },
   "andare": {
     "group": "1a coniugazione",
@@ -5182,7 +5126,7 @@
       ]
     },
     "usage_hint": "andare a (città/luogo) / in (paese/luogo)",
-    "grammar_rule": "📌 Verbo di movimento — usa l'ausiliare 'essere' con accordo del participio passato (es: 'sono andato/a')."
+    "grammar_rule": "💡 REMEMBER: Verbo di movimento — usa l'ausiliare 'essere' con accordo del participio passato ('sono andato/a'). Presente altamente irregolare: vado, vai, va, andiamo, andate, vanno."
   },
   "venire": {
     "group": "3a coniugazione",
@@ -5267,7 +5211,7 @@
       ]
     },
     "usage_hint": "venire da (luogo) / con (persona)",
-    "grammar_rule": "📌 Verbo di movimento — usa l'ausiliare 'essere' (es: 'sono venuto')."
+    "grammar_rule": "💡 REMEMBER: Usa l'ausiliare 'essere' ('sono venuto/a'). Presente: vengo, vieni, viene, veniamo, venite, vengono."
   },
   "fare": {
     "group": "1a coniugazione",
@@ -5351,8 +5295,7 @@
         "fato"
       ]
     },
-    "usage_hint": "+ oggetto diretto / fare di",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto / fare di"
   },
   "dire": {
     "group": "3a coniugazione",
@@ -5437,7 +5380,7 @@
       ]
     },
     "usage_hint": "dire (qualcosa) a (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "grammar_rule": "💡 REMEMBER: Deriva dal latino 'dicere'. Participio passato: 'detto'. Imperativo singolare: 'dall' / 'di''."
   },
   "potere": {
     "group": "2a coniugazione",
@@ -5522,7 +5465,7 @@
       ]
     },
     "usage_hint": "+ infinito diretto",
-    "grammar_rule": "📌 Verbo servile/modale — esprime possibilità o permesso, seguito dall'infinito senza preposizione."
+    "grammar_rule": "💡 REMEMBER: Verbo servile/modale — esprime possibilità o permesso, seguito dall'infinito senza preposizione."
   },
   "volere": {
     "group": "2a coniugazione",
@@ -5607,7 +5550,7 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / + infinito",
-    "grammar_rule": "📌 Verbo servile/modale — seguito direttamente dall'infinito (es: 'voglio parlare') o richiede il Congiuntivo."
+    "grammar_rule": "💡 REMEMBER: Verbo servile/modale — seguito direttamente dall'infinito ('voglio andare') o richiede il Congiuntivo se i soggetti differiscono ('voglio che tu venga')."
   },
   "sapere": {
     "group": "2a coniugazione",
@@ -5691,8 +5634,7 @@
         "sapato"
       ]
     },
-    "usage_hint": "+ oggetto diretto / + infinito",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto / + infinito"
   },
   "dovere": {
     "group": "2a coniugazione",
@@ -5777,7 +5719,7 @@
       ]
     },
     "usage_hint": "dovere + oggetto diretto",
-    "grammar_rule": "📌 Verbo servile/modale — esprime un'obbligazione, seguito direttamente dall'infinito."
+    "grammar_rule": "💡 REMEMBER: Verbo servile/modale — esprime un'obbligazione, seguito direttamente dall'infinito senza preposizione."
   },
   "leggere": {
     "group": "2a coniugazione",
@@ -5861,8 +5803,7 @@
         "leggato"
       ]
     },
-    "usage_hint": "leggere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "leggere + oggetto diretto"
   },
   "scrivere": {
     "group": "2a coniugazione",
@@ -5946,8 +5887,7 @@
         "scrivato"
       ]
     },
-    "usage_hint": "scrivere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "scrivere + oggetto diretto"
   },
   "vedere": {
     "group": "2a coniugazione",
@@ -6031,8 +5971,7 @@
         "vedato"
       ]
     },
-    "usage_hint": "+ oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto"
   },
   "prendere": {
     "group": "2a coniugazione",
@@ -6116,8 +6055,7 @@
         "prendato"
       ]
     },
-    "usage_hint": "prendere + oggetto diretto / prendersi cura di",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "prendere + oggetto diretto / prendersi cura di"
   },
   "mettere": {
     "group": "2a coniugazione",
@@ -6201,8 +6139,7 @@
         "mettato"
       ]
     },
-    "usage_hint": "mettere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "mettere + oggetto diretto"
   },
   "chiudere": {
     "group": "2a coniugazione",
@@ -6286,8 +6223,7 @@
         "chiudato"
       ]
     },
-    "usage_hint": "chiudere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "chiudere + oggetto diretto"
   },
   "aprire": {
     "group": "3a coniugazione",
@@ -6371,8 +6307,7 @@
         "aprato"
       ]
     },
-    "usage_hint": "aprire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "aprire + oggetto diretto"
   },
   "chiedere": {
     "group": "2a coniugazione",
@@ -6456,8 +6391,7 @@
         "chiedato"
       ]
     },
-    "usage_hint": "chiedere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "chiedere + oggetto diretto"
   },
   "rispondere": {
     "group": "2a coniugazione",
@@ -6541,8 +6475,7 @@
         "rispondato"
       ]
     },
-    "usage_hint": "rispondere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "rispondere + oggetto diretto"
   },
   "vincere": {
     "group": "2a coniugazione",
@@ -6626,8 +6559,7 @@
         "vincato"
       ]
     },
-    "usage_hint": "vincere + oggetto diretto / contro",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "vincere + oggetto diretto / contro"
   },
   "perdere": {
     "group": "2a coniugazione",
@@ -6711,8 +6643,7 @@
         "perdato"
       ]
     },
-    "usage_hint": "perdere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "perdere + oggetto diretto"
   },
   "bere": {
     "group": "2a coniugazione",
@@ -6796,8 +6727,7 @@
         "bato"
       ]
     },
-    "usage_hint": "bere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "bere + oggetto diretto"
   },
   "rimanere": {
     "group": "2a coniugazione",
@@ -6881,8 +6811,7 @@
         "rimanato"
       ]
     },
-    "usage_hint": "rimanere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "rimanere + oggetto diretto"
   },
   "scendere": {
     "group": "2a coniugazione",
@@ -6966,8 +6895,7 @@
         "scendato"
       ]
     },
-    "usage_hint": "scendere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "scendere + oggetto diretto"
   },
   "correre": {
     "group": "2a coniugazione",
@@ -7051,8 +6979,7 @@
         "corrato"
       ]
     },
-    "usage_hint": "correre + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "correre + oggetto diretto"
   },
   "morire": {
     "group": "3a coniugazione",
@@ -7136,8 +7063,7 @@
         "morato"
       ]
     },
-    "usage_hint": "morire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "morire + oggetto diretto"
   },
   "nascere": {
     "group": "2a coniugazione",
@@ -7221,8 +7147,7 @@
         "nascato"
       ]
     },
-    "usage_hint": "nascere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "nascere + oggetto diretto"
   },
   "vivere": {
     "group": "2a coniugazione",
@@ -7306,8 +7231,7 @@
         "vivato"
       ]
     },
-    "usage_hint": "vivere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "vivere + oggetto diretto"
   },
   "chiamare": {
     "group": "1a coniugazione",
@@ -7391,8 +7315,7 @@
         "chiamato"
       ]
     },
-    "usage_hint": "+ oggetto diretto (chiamare qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto (chiamare qualcuno)"
   },
   "tornare": {
     "group": "1a coniugazione",
@@ -7476,8 +7399,7 @@
         "tornato"
       ]
     },
-    "usage_hint": "tornare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "tornare + oggetto diretto"
   },
   "entrare": {
     "group": "1a coniugazione",
@@ -7561,8 +7483,7 @@
         "entrato"
       ]
     },
-    "usage_hint": "entrare in / a",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "entrare in / a"
   },
   "giungere": {
     "group": "2a coniugazione",
@@ -7646,8 +7567,7 @@
         "giungato"
       ]
     },
-    "usage_hint": "giungere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "giungere + oggetto diretto"
   },
   "permettere": {
     "group": "2a coniugazione",
@@ -7731,8 +7651,7 @@
         "permettato"
       ]
     },
-    "usage_hint": "permettere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "permettere + oggetto diretto"
   },
   "promettere": {
     "group": "2a coniugazione",
@@ -7816,8 +7735,7 @@
         "promettato"
       ]
     },
-    "usage_hint": "promettere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "promettere + oggetto diretto"
   },
   "offendere": {
     "group": "2a coniugazione",
@@ -7901,8 +7819,7 @@
         "offendato"
       ]
     },
-    "usage_hint": "offendere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "offendere + oggetto diretto"
   },
   "difendere": {
     "group": "2a coniugazione",
@@ -7986,8 +7903,7 @@
         "difendato"
       ]
     },
-    "usage_hint": "difendere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "difendere + oggetto diretto"
   },
   "muovere": {
     "group": "2a coniugazione",
@@ -8071,8 +7987,7 @@
         "muovato"
       ]
     },
-    "usage_hint": "muovere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "muovere + oggetto diretto"
   },
   "accendere": {
     "group": "2a coniugazione",
@@ -8156,8 +8071,7 @@
         "accendato"
       ]
     },
-    "usage_hint": "accendere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "accendere + oggetto diretto"
   },
   "spegnere": {
     "group": "2a coniugazione",
@@ -8241,8 +8155,7 @@
         "spegnato"
       ]
     },
-    "usage_hint": "spegnere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "spegnere + oggetto diretto"
   },
   "battere": {
     "group": "2a coniugazione",
@@ -8326,8 +8239,7 @@
         "battato"
       ]
     },
-    "usage_hint": "battere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "battere + oggetto diretto"
   },
   "cadere": {
     "group": "2a coniugazione",
@@ -8411,8 +8323,7 @@
         "cadato"
       ]
     },
-    "usage_hint": "cadere da / su / in",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "cadere da / su / in"
   },
   "ridere": {
     "group": "2a coniugazione",
@@ -8496,8 +8407,7 @@
         "ridato"
       ]
     },
-    "usage_hint": "ridere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "ridere + oggetto diretto"
   },
   "accompagnare": {
     "group": "1a coniugazione",
@@ -8581,8 +8491,7 @@
         "accompagnato"
       ]
     },
-    "usage_hint": "accompagnare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "accompagnare + oggetto diretto"
   },
   "afferrare": {
     "group": "1a coniugazione",
@@ -8666,8 +8575,7 @@
         "afferrato"
       ]
     },
-    "usage_hint": "afferrare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "afferrare + oggetto diretto"
   },
   "alzare": {
     "group": "1a coniugazione",
@@ -8751,8 +8659,7 @@
         "alzato"
       ]
     },
-    "usage_hint": "alzare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "alzare + oggetto diretto"
   },
   "ammettere": {
     "group": "2a coniugazione",
@@ -8836,8 +8743,7 @@
         "ammettato"
       ]
     },
-    "usage_hint": "ammettere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "ammettere + oggetto diretto"
   },
   "annunciare": {
     "group": "1a coniugazione",
@@ -8921,8 +8827,7 @@
         "annunciato"
       ]
     },
-    "usage_hint": "annunciare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "annunciare + oggetto diretto"
   },
   "attraversare": {
     "group": "1a coniugazione",
@@ -9006,8 +8911,7 @@
         "attraversato"
       ]
     },
-    "usage_hint": "attraversare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "attraversare + oggetto diretto"
   },
   "bastare": {
     "group": "1a coniugazione",
@@ -9091,8 +8995,7 @@
         "bastato"
       ]
     },
-    "usage_hint": "bastare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "bastare + oggetto diretto"
   },
   "bloccare": {
     "group": "1a coniugazione",
@@ -9176,8 +9079,7 @@
         "bloccato"
       ]
     },
-    "usage_hint": "bloccare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "bloccare + oggetto diretto"
   },
   "bruciare": {
     "group": "1a coniugazione",
@@ -9261,8 +9163,7 @@
         "bruciato"
       ]
     },
-    "usage_hint": "bruciare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "bruciare + oggetto diretto"
   },
   "confermare": {
     "group": "1a coniugazione",
@@ -9346,8 +9247,7 @@
         "confermato"
       ]
     },
-    "usage_hint": "confermare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "confermare + oggetto diretto"
   },
   "conoscere": {
     "group": "2a coniugazione",
@@ -9431,8 +9331,7 @@
         "conoscato"
       ]
     },
-    "usage_hint": "conoscere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "conoscere + oggetto diretto"
   },
   "consigliare": {
     "group": "1a coniugazione",
@@ -9516,8 +9415,7 @@
         "consigliato"
       ]
     },
-    "usage_hint": "consigliare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "consigliare + oggetto diretto"
   },
   "contare": {
     "group": "1a coniugazione",
@@ -9601,8 +9499,7 @@
         "contato"
       ]
     },
-    "usage_hint": "contare su (qualcuno) / contare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "contare su (qualcuno) / contare + oggetto diretto"
   },
   "continuare": {
     "group": "1a coniugazione",
@@ -9686,8 +9583,7 @@
         "continuato"
       ]
     },
-    "usage_hint": "continua a (fare qualcosa)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "continua a (fare qualcosa)"
   },
   "coprire": {
     "group": "3a coniugazione",
@@ -9771,8 +9667,7 @@
         "coprato"
       ]
     },
-    "usage_hint": "coprire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "coprire + oggetto diretto"
   },
   "correggere": {
     "group": "2a coniugazione",
@@ -9856,8 +9751,7 @@
         "correggato"
       ]
     },
-    "usage_hint": "+ oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto"
   },
   "costruire": {
     "group": "3a coniugazione",
@@ -9941,8 +9835,7 @@
         "costruato"
       ]
     },
-    "usage_hint": "costruire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "costruire + oggetto diretto"
   },
   "cucinare": {
     "group": "1a coniugazione",
@@ -10026,8 +9919,7 @@
         "cucinato"
       ]
     },
-    "usage_hint": "cucinare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "cucinare + oggetto diretto"
   },
   "decisione": {
     "group": "1a coniugazione",
@@ -10111,8 +10003,7 @@
         "decisioneato"
       ]
     },
-    "usage_hint": "decisione + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "decisione + oggetto diretto"
   },
   "descrivere": {
     "group": "2a coniugazione",
@@ -10196,8 +10087,7 @@
         "descrivato"
       ]
     },
-    "usage_hint": "descrivere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "descrivere + oggetto diretto"
   },
   "dimostrare": {
     "group": "1a coniugazione",
@@ -10281,8 +10171,7 @@
         "dimostrato"
       ]
     },
-    "usage_hint": "dimostrare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "dimostrare + oggetto diretto"
   },
   "disegnare": {
     "group": "1a coniugazione",
@@ -10366,8 +10255,7 @@
         "disegnato"
       ]
     },
-    "usage_hint": "disegnare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "disegnare + oggetto diretto"
   },
   "distruggere": {
     "group": "2a coniugazione",
@@ -10451,8 +10339,7 @@
         "distruggato"
       ]
     },
-    "usage_hint": "+ oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto"
   },
   "dubitare": {
     "group": "1a coniugazione",
@@ -10536,8 +10423,7 @@
         "dubitato"
       ]
     },
-    "usage_hint": "dubitare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "dubitare + oggetto diretto"
   },
   "evitare": {
     "group": "1a coniugazione",
@@ -10621,8 +10507,7 @@
         "evitato"
       ]
     },
-    "usage_hint": "evitare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "evitare + oggetto diretto"
   },
   "fermare": {
     "group": "1a coniugazione",
@@ -10706,8 +10591,7 @@
         "fermato"
       ]
     },
-    "usage_hint": "fermare + oggetto diretto / fermarsi a",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "fermare + oggetto diretto / fermarsi a"
   },
   "firmare": {
     "group": "1a coniugazione",
@@ -10791,8 +10675,7 @@
         "firmato"
       ]
     },
-    "usage_hint": "firmare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "firmare + oggetto diretto"
   },
   "lasciare": {
     "group": "1a coniugazione",
@@ -10876,8 +10759,7 @@
         "lasciato"
       ]
     },
-    "usage_hint": "lasciare + oggetto diretto / di (fare)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "lasciare + oggetto diretto / di (fare)"
   },
   "mostrare": {
     "group": "1a coniugazione",
@@ -10961,8 +10843,7 @@
         "mostrato"
       ]
     },
-    "usage_hint": "mostrare (qualcosa) a (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "mostrare (qualcosa) a (qualcuno)"
   },
   "nascondere": {
     "group": "2a coniugazione",
@@ -11046,8 +10927,7 @@
         "nascondato"
       ]
     },
-    "usage_hint": "nascondere (qualcosa) a (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "nascondere (qualcosa) a (qualcuno)"
   },
   "piangere": {
     "group": "2a coniugazione",
@@ -11131,8 +11011,7 @@
         "piangato"
       ]
     },
-    "usage_hint": "piangere per / di (gioia/dolore)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "piangere per / di (gioia/dolore)"
   },
   "raccontare": {
     "group": "1a coniugazione",
@@ -11216,8 +11095,7 @@
         "raccontato"
       ]
     },
-    "usage_hint": "raccontare (qualcosa) a (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "raccontare (qualcosa) a (qualcuno)"
   },
   "vendere": {
     "group": "2a coniugazione",
@@ -11301,8 +11179,7 @@
         "vendato"
       ]
     },
-    "usage_hint": "vendere (qualcosa) a (qualcuno)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "vendere (qualcosa) a (qualcuno)"
   },
   "provare": {
     "group": "are",
@@ -11371,8 +11248,7 @@
         "provato"
       ]
     },
-    "usage_hint": "provare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "provare + oggetto diretto"
   },
   "salutare": {
     "group": "are",
@@ -11441,8 +11317,7 @@
         "salutato"
       ]
     },
-    "usage_hint": "salutare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "salutare + oggetto diretto"
   },
   "suonare": {
     "group": "are",
@@ -11511,8 +11386,7 @@
         "suonato"
       ]
     },
-    "usage_hint": "suonare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "suonare + oggetto diretto"
   },
   "telefonare": {
     "group": "are",
@@ -11581,8 +11455,7 @@
         "telefonato"
       ]
     },
-    "usage_hint": "telefonare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "telefonare + oggetto diretto"
   },
   "usare": {
     "group": "are",
@@ -11651,8 +11524,7 @@
         "usato"
       ]
     },
-    "usage_hint": "usare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "usare + oggetto diretto"
   },
   "dare": {
     "group": "are",
@@ -11721,8 +11593,7 @@
         "dato"
       ]
     },
-    "usage_hint": "dare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "dare + oggetto diretto"
   },
   "entrari": {
     "group": "are",
@@ -11791,8 +11662,7 @@
         "entrariato"
       ]
     },
-    "usage_hint": "entrari + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "entrari + oggetto diretto"
   },
   "mangiare": {
     "group": "are",
@@ -11861,8 +11731,7 @@
         "mangiato"
       ]
     },
-    "usage_hint": "mangiare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "mangiare + oggetto diretto"
   },
   "piacere": {
     "group": "ere",
@@ -11931,8 +11800,7 @@
         "piacato"
       ]
     },
-    "usage_hint": "piacere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "piacere + oggetto diretto"
   },
   "stare": {
     "group": "are",
@@ -12001,8 +11869,7 @@
         "stato"
       ]
     },
-    "usage_hint": "stare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "stare + oggetto diretto"
   },
   "invitare": {
     "group": "are",
@@ -12071,8 +11938,7 @@
         "invitato"
       ]
     },
-    "usage_hint": "invitare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "invitare + oggetto diretto"
   },
   "lanciare": {
     "group": "are",
@@ -12141,8 +12007,7 @@
         "lanciato"
       ]
     },
-    "usage_hint": "lanciare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "lanciare + oggetto diretto"
   },
   "lavare": {
     "group": "are",
@@ -12211,8 +12076,7 @@
         "lavato"
       ]
     },
-    "usage_hint": "lavare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "lavare + oggetto diretto"
   },
   "mancare": {
     "group": "are",
@@ -12281,8 +12145,7 @@
         "mancato"
       ]
     },
-    "usage_hint": "mancare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "mancare + oggetto diretto"
   },
   "preferire": {
     "group": "ire",
@@ -12351,8 +12214,7 @@
         "preferato"
       ]
     },
-    "usage_hint": "preferire + oggetto diretto / + infinito a",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "preferire + oggetto diretto / + infinito a"
   },
   "riposare": {
     "group": "are",
@@ -12421,8 +12283,7 @@
         "riposato"
       ]
     },
-    "usage_hint": "riposare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "riposare + oggetto diretto"
   },
   "rompere": {
     "group": "ere",
@@ -12491,8 +12352,7 @@
         "rompato"
       ]
     },
-    "usage_hint": "rompere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "rompere + oggetto diretto"
   },
   "scoprire": {
     "group": "ire",
@@ -12561,8 +12421,7 @@
         "scoprato"
       ]
     },
-    "usage_hint": "scoprire + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "scoprire + oggetto diretto"
   },
   "svegliare": {
     "group": "are",
@@ -12631,8 +12490,7 @@
         "svegliato"
       ]
     },
-    "usage_hint": "svegliare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "svegliare + oggetto diretto"
   },
   "annullare": {
     "group": "are",
@@ -12701,8 +12559,7 @@
         "annullato"
       ]
     },
-    "usage_hint": "annullare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "annullare + oggetto diretto"
   },
   "appartenere": {
     "group": "ere",
@@ -12771,8 +12628,7 @@
         "appartenato"
       ]
     },
-    "usage_hint": "appartenere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "appartenere + oggetto diretto"
   },
   "aumentare": {
     "group": "are",
@@ -12841,8 +12697,7 @@
         "aumentato"
       ]
     },
-    "usage_hint": "aumentare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "aumentare + oggetto diretto"
   },
   "cenare": {
     "group": "are",
@@ -12911,8 +12766,7 @@
         "cenato"
       ]
     },
-    "usage_hint": "cenare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "cenare + oggetto diretto"
   },
   "comprendere": {
     "group": "ere",
@@ -12981,8 +12835,7 @@
         "comprendato"
       ]
     },
-    "usage_hint": "comprendere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "comprendere + oggetto diretto"
   },
   "consegnare": {
     "group": "are",
@@ -13051,8 +12904,7 @@
         "consegnato"
       ]
     },
-    "usage_hint": "consegnare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "consegnare + oggetto diretto"
   },
   "decidere": {
     "group": "ere",
@@ -13121,8 +12973,7 @@
         "decidato"
       ]
     },
-    "usage_hint": "decidere di (fare qualcosa)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "decidere di (fare qualcosa)"
   },
   "desiderare": {
     "group": "are",
@@ -13191,8 +13042,7 @@
         "desiderato"
       ]
     },
-    "usage_hint": "+ oggetto diretto / + infinito",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "+ oggetto diretto / + infinito"
   },
   "raccogliere": {
     "group": "ere",
@@ -13261,8 +13111,7 @@
         "raccogliato"
       ]
     },
-    "usage_hint": "raccogliere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "raccogliere + oggetto diretto"
   },
   "raggiungere": {
     "group": "ere",
@@ -13331,8 +13180,7 @@
         "raggiungato"
       ]
     },
-    "usage_hint": "raggiungere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "raggiungere + oggetto diretto"
   },
   "regalare": {
     "group": "are",
@@ -13401,8 +13249,7 @@
         "regalato"
       ]
     },
-    "usage_hint": "regalare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "regalare + oggetto diretto"
   },
   "ricevere": {
     "group": "ere",
@@ -13471,8 +13318,7 @@
         "ricevato"
       ]
     },
-    "usage_hint": "ricevere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "ricevere + oggetto diretto"
   },
   "ringraziare": {
     "group": "are",
@@ -13541,8 +13387,7 @@
         "ringraziato"
       ]
     },
-    "usage_hint": "ringraziare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "ringraziare + oggetto diretto"
   },
   "ripetere": {
     "group": "ere",
@@ -13611,8 +13456,7 @@
         "ripetato"
       ]
     },
-    "usage_hint": "ripetere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "ripetere + oggetto diretto"
   },
   "sbagliare": {
     "group": "are",
@@ -13681,8 +13525,7 @@
         "sbagliato"
       ]
     },
-    "usage_hint": "sbagliare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "sbagliare + oggetto diretto"
   },
   "scegliere": {
     "group": "ere",
@@ -13751,8 +13594,7 @@
         "scegliato"
       ]
     },
-    "usage_hint": "scegliere + oggetto diretto / di (fare)",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "scegliere + oggetto diretto / di (fare)"
   },
   "uccidere": {
     "group": "ere",
@@ -13821,8 +13663,7 @@
         "uccidato"
       ]
     },
-    "usage_hint": "uccidere + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "uccidere + oggetto diretto"
   },
   "votare": {
     "group": "are",
@@ -13891,8 +13732,7 @@
         "votato"
       ]
     },
-    "usage_hint": "votare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "votare + oggetto diretto"
   },
   "avvisare": {
     "group": "are",
@@ -13961,7 +13801,6 @@
         "avvisato"
       ]
     },
-    "usage_hint": "avvisare + oggetto diretto",
-    "grammar_rule": "📌 1ª coniugazione (-are) — desinenze regolari: -o, -i, -a, -iamo, -ate, -ano. Ausiliare avere al passato prossimo."
+    "usage_hint": "avvisare + oggetto diretto"
   }
 }
