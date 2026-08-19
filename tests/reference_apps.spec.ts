@@ -19,6 +19,20 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         expect(verbFormHtml).toContain('class="ending"');
     });
 
+    test('fr-genre loads and displays noun gender, article, CEFR badge and plural', async ({ page }) => {
+        await page.goto('http://localhost:8080/apps/fr-genre/index.html');
+        await page.waitForSelector('#noun-search-input');
+
+        await page.fill('#noun-search-input', 'maison');
+        await page.keyboard.press('Enter');
+
+        await expect(page.locator('#noun-title')).toHaveText('maison');
+        await expect(page.locator('#gender-badge')).toContainText('Féminin');
+        await expect(page.locator('#noun-cefr-badge')).toContainText('Niveau');
+        await expect(page.locator('#sing-form')).toContainText('la maison');
+        await expect(page.locator('#plur-form')).toContainText('les maisons');
+    });
+
     test('ru-rod-padezhi loads and displays 6 cases with color-coded endings and CEFR level', async ({ page }) => {
         await page.goto('http://localhost:8080/apps/ru-rod-padezhi/index.html');
         await page.waitForSelector('#noun-search-input');

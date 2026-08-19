@@ -91,17 +91,51 @@ class NounGenderEngine {
             }
         }
 
-        document.getElementById('sing-form').innerHTML = `<span class="article">${data.article}</span> <span class="stem">${noun}</span>`;
+        const startsWithVowel = /^[aeiouyéèêàh]/i.test(noun);
+        const article = data.article || (startsWithVowel ? "l'" : (data.gender === 'Masculin' ? 'le' : 'la'));
+
+        let plural = data.plural;
+        if (!plural) {
+            if (noun.endsWith('al') && !['bal', 'carnaval', 'chacal', 'festival', 'recital'].includes(noun)) {
+                plural = noun.slice(0, -2) + 'aux';
+            } else if (['bijou', 'caillou', 'chou', 'genou', 'hibou', 'joujou', 'pou'].includes(noun)) {
+                plural = noun + 'x';
+            } else if (noun.endsWith('eau') || noun.endsWith('eu') || noun.endsWith('au')) {
+                plural = noun + 'x';
+            } else if (noun.endsWith('s') || noun.endsWith('x') || noun.endsWith('z')) {
+                plural = noun;
+            } else {
+                plural = noun + 's';
+            }
+        }
+
+        document.getElementById('sing-form').innerHTML = `<span class="article">${article}</span> <span class="stem">${noun}</span>`;
 
         // Plural ending split
         let stem = noun;
-        let ending = 's';
-        if (data.plural.endsWith('oux') || data.plural.endsWith('aux') || data.plural.endsWith('x')) {
-            ending = data.plural.slice(-1);
-            stem = data.plural.slice(0, -1);
-        } else if (data.plural.endsWith('s')) {
-            stem = noun;
-            ending = 's';
+        let ending = '';
+        if (plural.endsWith('aux') || plural.endsWith('oux') || plural.endsWith('eaux') || plural.endsWith('eux')) {
+            ending = plural.slice(-1);
+            stem = plural.slice(0, -1);
+        } else if (plural.endsWith('s')) {
+            if (noun.endsWith('s')) {
+                stem = noun;
+                ending = '';
+            } else {
+                stem = noun;
+                ending = 's';
+            }
+        } else if (plural.endsWith('x')) {
+            if (noun.endsWith('x')) {
+                stem = noun;
+                ending = '';
+            } else {
+                stem = noun;
+                ending = 'x';
+            }
+        } else {
+            stem = plural;
+            ending = '';
         }
         document.getElementById('plur-form').innerHTML = `<span class="article">les</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;
 
