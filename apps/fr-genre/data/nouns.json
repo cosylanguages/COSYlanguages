@@ -5,7 +5,9 @@
     "definition": "Bâtiment servant d'habitation.",
     "antonyms": [
       "rue"
-    ]
+    ],
+    "article": "la",
+    "plural": "maisons"
   },
   "voiture": {
     "gender": "Féminin",
@@ -13,7 +15,9 @@
     "definition": "Véhicule automobile.",
     "antonyms": [
       "piéton"
-    ]
+    ],
+    "article": "la",
+    "plural": "voitures"
   },
   "table": {
     "gender": "Féminin",
@@ -21,7 +25,9 @@
     "definition": "Meuble composé d'une surface plane.",
     "antonyms": [
       "chaise"
-    ]
+    ],
+    "article": "la",
+    "plural": "tables"
   },
   "chaise": {
     "gender": "Féminin",
@@ -29,7 +35,9 @@
     "definition": "Siège à dossier sans bras.",
     "antonyms": [
       "table"
-    ]
+    ],
+    "article": "la",
+    "plural": "chaises"
   },
   "porte": {
     "gender": "Féminin",
@@ -37,7 +45,9 @@
     "definition": "Ouverture permettant d'entrer.",
     "antonyms": [
       "fenêtre"
-    ]
+    ],
+    "article": "la",
+    "plural": "portes"
   },
   "fenêtre": {
     "gender": "Féminin",
@@ -45,7 +55,9 @@
     "definition": "Ouverture dans un mur pour le jour.",
     "antonyms": [
       "porte"
-    ]
+    ],
+    "article": "la",
+    "plural": "fenêtres"
   },
   "ville": {
     "gender": "Féminin",
@@ -53,7 +65,9 @@
     "definition": "Agglomération urbaine.",
     "antonyms": [
       "campagne"
-    ]
+    ],
+    "article": "la",
+    "plural": "villes"
   },
   "rue": {
     "gender": "Féminin",
@@ -61,7 +75,9 @@
     "definition": "Voie de circulation dans une ville.",
     "antonyms": [
       "place"
-    ]
+    ],
+    "article": "la",
+    "plural": "rues"
   },
   "école": {
     "gender": "Féminin",
@@ -69,7 +85,9 @@
     "definition": "Établissement d'enseignement.",
     "antonyms": [
       "maison"
-    ]
+    ],
+    "article": "l'",
+    "plural": "écoles"
   },
   "eau": {
     "gender": "Féminin",
@@ -78,7 +96,9 @@
     "antonyms": [
       "feu"
     ],
-    "grammar_rule": "💡 REMEMBER: Nom féminin ('l'eau') — pluriel irrégulier en '-x' ('les eaux')."
+    "grammar_rule": "💡 REMEMBER: Nom féminin ('l'eau') — pluriel irrégulier en '-x' ('les eaux').",
+    "article": "l'",
+    "plural": "eaux"
   },
   "terre": {
     "gender": "Féminin",
@@ -86,7 +106,9 @@
     "definition": "Planète ou sol sous nos pieds.",
     "antonyms": [
       "ciel"
-    ]
+    ],
+    "article": "la",
+    "plural": "terres"
   },
   "mer": {
     "gender": "Féminin",
@@ -94,7 +116,9 @@
     "definition": "Grande étendue d'eau salée.",
     "antonyms": [
       "montagne"
-    ]
+    ],
+    "article": "la",
+    "plural": "mers"
   },
   "montagne": {
     "gender": "Féminin",
@@ -102,7 +126,9 @@
     "definition": "Relief élevé du sol.",
     "antonyms": [
       "vallée"
-    ]
+    ],
+    "article": "la",
+    "plural": "montagnes"
   },
   "nuit": {
     "gender": "Féminin",
@@ -110,7 +136,9 @@
     "definition": "Période d'obscurité.",
     "antonyms": [
       "jour"
-    ]
+    ],
+    "article": "la",
+    "plural": "nuits"
   },
   "fleur": {
     "gender": "Féminin",
@@ -118,7 +146,9 @@
     "definition": "Partie colorée d'une plante.",
     "antonyms": [
       "arbre"
-    ]
+    ],
+    "article": "la",
+    "plural": "fleurs"
   },
   "pomme": {
     "gender": "Féminin",
@@ -126,7 +156,9 @@
     "definition": "Fruit du pommier.",
     "antonyms": [
       "poire"
-    ]
+    ],
+    "article": "la",
+    "plural": "pommes"
   },
   "clé": {
     "gender": "Féminin",
@@ -134,7 +166,9 @@
     "definition": "Instrument pour fermer une serrure.",
     "antonyms": [
       "serrure"
-    ]
+    ],
+    "article": "la",
+    "plural": "clés"
   },
   "chambre": {
     "gender": "Féminin",
@@ -142,7 +176,9 @@
     "definition": "Pièce d'une habitation.",
     "antonyms": [
       "salon"
-    ]
+    ],
+    "article": "la",
+    "plural": "chambres"
   },
   "cuisine": {
     "gender": "Féminin",
@@ -150,7 +186,9 @@
     "definition": "Pièce où l'on prépare les repas.",
     "antonyms": [
       "salle"
-    ]
+    ],
+    "article": "la",
+    "plural": "cuisines"
   },
   "musique": {
     "gender": "Féminin",
@@ -158,7 +196,9 @@
     "definition": "Art de combiner les sons.",
     "antonyms": [
       "silence"
-    ]
+    ],
+    "article": "la",
+    "plural": "musiques"
   },
   "lumière": {
     "gender": "Féminin",
@@ -166,7 +206,9 @@
     "definition": "Énergie éclairante.",
     "antonyms": [
       "ombre"
-    ]
+    ],
+    "article": "la",
+    "plural": "lumières"
   },
   "ombre": {
     "gender": "Féminin",
@@ -174,7 +216,9 @@
     "definition": "Zone sombre sans lumière.",
     "antonyms": [
       "lumière"
-    ]
+    ],
+    "article": "l'",
+    "plural": "ombres"
   },
   "idée": {
     "gender": "Féminin",
@@ -182,7 +226,9 @@
     "definition": "Représentation mentale.",
     "antonyms": [
       "acte"
-    ]
+    ],
+    "article": "l'",
+    "plural": "idées"
   },
   "vérité": {
     "gender": "Féminin",
@@ -190,7 +236,9 @@
     "definition": "Caractère de ce qui est vrai.",
     "antonyms": [
       "mensonge"
-    ]
+    ],
+    "article": "la",
+    "plural": "vérités"
   },
   "liberté": {
     "gender": "Féminin",
@@ -198,7 +246,9 @@
     "definition": "Pouvoir d'agir sans contrainte.",
     "antonyms": [
       "esclavage"
-    ]
+    ],
+    "article": "la",
+    "plural": "libertés"
   },
   "paix": {
     "gender": "Féminin",
@@ -206,7 +256,9 @@
     "definition": "Absence de guerre.",
     "antonyms": [
       "guerre"
-    ]
+    ],
+    "article": "la",
+    "plural": "paix"
   },
   "guerre": {
     "gender": "Féminin",
@@ -214,7 +266,9 @@
     "definition": "Conflit armé.",
     "antonyms": [
       "paix"
-    ]
+    ],
+    "article": "la",
+    "plural": "guerres"
   },
   "vie": {
     "gender": "Féminin",
@@ -222,7 +276,9 @@
     "definition": "Ensemble des phénomènes vivants.",
     "antonyms": [
       "mort"
-    ]
+    ],
+    "article": "la",
+    "plural": "vies"
   },
   "mort": {
     "gender": "Féminin",
@@ -230,7 +286,9 @@
     "definition": "Cessation de la vie.",
     "antonyms": [
       "vie"
-    ]
+    ],
+    "article": "la",
+    "plural": "morts"
   },
   "main": {
     "gender": "Féminin",
@@ -238,7 +296,9 @@
     "definition": "Partie du corps au bout du bras.",
     "antonyms": [
       "pied"
-    ]
+    ],
+    "article": "la",
+    "plural": "mains"
   },
   "tête": {
     "gender": "Féminin",
@@ -246,7 +306,9 @@
     "definition": "Partie supérieure du corps.",
     "antonyms": [
       "pied"
-    ]
+    ],
+    "article": "la",
+    "plural": "têtes"
   },
   "voix": {
     "gender": "Féminin",
@@ -254,7 +316,9 @@
     "definition": "Sons produits par les cordes vocales.",
     "antonyms": [
       "silence"
-    ]
+    ],
+    "article": "la",
+    "plural": "voix"
   },
   "route": {
     "gender": "Féminin",
@@ -262,7 +326,9 @@
     "definition": "Voie aménagée hors agglomération.",
     "antonyms": [
       "sentier"
-    ]
+    ],
+    "article": "la",
+    "plural": "routes"
   },
   "question": {
     "gender": "Féminin",
@@ -270,7 +336,9 @@
     "definition": "Demande faite pour savoir.",
     "antonyms": [
       "réponse"
-    ]
+    ],
+    "article": "la",
+    "plural": "questions"
   },
   "réponse": {
     "gender": "Féminin",
@@ -278,7 +346,9 @@
     "definition": "Réplique à une question.",
     "antonyms": [
       "question"
-    ]
+    ],
+    "article": "la",
+    "plural": "réponses"
   },
   "histoire": {
     "gender": "Féminin",
@@ -286,7 +356,9 @@
     "definition": "Récit d'événements.",
     "antonyms": [
       "réitération"
-    ]
+    ],
+    "article": "l'",
+    "plural": "histoires"
   },
   "famille": {
     "gender": "Féminin",
@@ -294,7 +366,9 @@
     "definition": "Groupe uni par la parenté.",
     "antonyms": [
       "solitude"
-    ]
+    ],
+    "article": "la",
+    "plural": "familles"
   },
   "saison": {
     "gender": "Féminin",
@@ -302,7 +376,9 @@
     "definition": "Période de l'année.",
     "antonyms": [
       "année"
-    ]
+    ],
+    "article": "la",
+    "plural": "saisons"
   },
   "semaine": {
     "gender": "Féminin",
@@ -310,7 +386,9 @@
     "definition": "Période de sept jours.",
     "antonyms": [
       "mois"
-    ]
+    ],
+    "article": "la",
+    "plural": "semaines"
   },
   "heure": {
     "gender": "Féminin",
@@ -318,7 +396,9 @@
     "definition": "Soixante minutes.",
     "antonyms": [
       "seconde"
-    ]
+    ],
+    "article": "l'",
+    "plural": "heures"
   },
   "minute": {
     "gender": "Féminin",
@@ -326,7 +406,9 @@
     "definition": "Soixante secondes.",
     "antonyms": [
       "heure"
-    ]
+    ],
+    "article": "la",
+    "plural": "minutes"
   },
   "seconde": {
     "gender": "Féminin",
@@ -334,7 +416,9 @@
     "definition": "Soixantième de minute.",
     "antonyms": [
       "minute"
-    ]
+    ],
+    "article": "la",
+    "plural": "secondes"
   },
   "chanson": {
     "gender": "Féminin",
@@ -342,7 +426,9 @@
     "definition": "Pièce de musique vocale.",
     "antonyms": [
       "poème"
-    ]
+    ],
+    "article": "la",
+    "plural": "chansons"
   },
   "pensée": {
     "gender": "Féminin",
@@ -350,7 +436,9 @@
     "definition": "Activité de l'esprit.",
     "antonyms": [
       "action"
-    ]
+    ],
+    "article": "la",
+    "plural": "pensées"
   },
   "joie": {
     "gender": "Féminin",
@@ -358,7 +446,9 @@
     "definition": "Sentiment vif de plaisir.",
     "antonyms": [
       "tristesse"
-    ]
+    ],
+    "article": "la",
+    "plural": "joies"
   },
   "tristesse": {
     "gender": "Féminin",
@@ -366,7 +456,9 @@
     "definition": "État affectif douloureux.",
     "antonyms": [
       "joie"
-    ]
+    ],
+    "article": "la",
+    "plural": "tristesses"
   },
   "peur": {
     "gender": "Féminin",
@@ -374,7 +466,9 @@
     "definition": "Émotion face au danger.",
     "antonyms": [
       "courage"
-    ]
+    ],
+    "article": "la",
+    "plural": "peurs"
   },
   "santé": {
     "gender": "Féminin",
@@ -382,7 +476,9 @@
     "definition": "Bon fonctionnement de l'organisme.",
     "antonyms": [
       "maladie"
-    ]
+    ],
+    "article": "la",
+    "plural": "santés"
   },
   "maladie": {
     "gender": "Féminin",
@@ -390,7 +486,9 @@
     "definition": "Altération de la santé.",
     "antonyms": [
       "santé"
-    ]
+    ],
+    "article": "la",
+    "plural": "maladies"
   },
   "solution": {
     "gender": "Féminin",
@@ -398,7 +496,9 @@
     "definition": "Moyen de résoudre un problème.",
     "antonyms": [
       "problème"
-    ]
+    ],
+    "article": "la",
+    "plural": "solutions"
   },
   "soleil": {
     "gender": "Masculin",
@@ -406,7 +506,9 @@
     "definition": "Astre éclairant la Terre.",
     "antonyms": [
       "lune"
-    ]
+    ],
+    "article": "le",
+    "plural": "soleils"
   },
   "livre": {
     "gender": "Masculin",
@@ -414,7 +516,9 @@
     "definition": "Assemblage de feuilles imprimées.",
     "antonyms": [
       "cahier"
-    ]
+    ],
+    "article": "le",
+    "plural": "livres"
   },
   "stylo": {
     "gender": "Masculin",
@@ -422,7 +526,9 @@
     "definition": "Instrument pour écrire.",
     "antonyms": [
       "crayon"
-    ]
+    ],
+    "article": "le",
+    "plural": "stylos"
   },
   "crayon": {
     "gender": "Masculin",
@@ -430,7 +536,9 @@
     "definition": "Bâtonnet de mine de plomb.",
     "antonyms": [
       "stylo"
-    ]
+    ],
+    "article": "le",
+    "plural": "crayons"
   },
   "cahier": {
     "gender": "Masculin",
@@ -438,7 +546,9 @@
     "definition": "Assemblage de feuilles vierges.",
     "antonyms": [
       "livre"
-    ]
+    ],
+    "article": "le",
+    "plural": "cahiers"
   },
   "sac": {
     "gender": "Masculin",
@@ -446,7 +556,9 @@
     "definition": "Récipient souple pour transporter.",
     "antonyms": [
       "poche"
-    ]
+    ],
+    "article": "le",
+    "plural": "sacs"
   },
   "manteau": {
     "gender": "Masculin",
@@ -454,7 +566,9 @@
     "definition": "Vêtement de dessus.",
     "antonyms": [
       "pantalon"
-    ]
+    ],
+    "article": "le",
+    "plural": "manteaux"
   },
   "pantalon": {
     "gender": "Masculin",
@@ -462,7 +576,9 @@
     "definition": "Vêtement pour le bas du corps.",
     "antonyms": [
       "jupe"
-    ]
+    ],
+    "article": "le",
+    "plural": "pantalons"
   },
   "chapeau": {
     "gender": "Masculin",
@@ -470,7 +586,9 @@
     "definition": "Couvre-chef.",
     "antonyms": [
       "casquette"
-    ]
+    ],
+    "article": "le",
+    "plural": "chapeaux"
   },
   "chien": {
     "gender": "Masculin",
@@ -478,7 +596,9 @@
     "definition": "Animal domestique fidèle.",
     "antonyms": [
       "chat"
-    ]
+    ],
+    "article": "le",
+    "plural": "chiens"
   },
   "chat": {
     "gender": "Masculin",
@@ -486,7 +606,9 @@
     "definition": "Félin domestique.",
     "antonyms": [
       "chien"
-    ]
+    ],
+    "article": "le",
+    "plural": "chats"
   },
   "cheval": {
     "gender": "Masculin",
@@ -494,7 +616,9 @@
     "definition": "Mammifère solipède.",
     "antonyms": [
       "vache"
-    ]
+    ],
+    "article": "le",
+    "plural": "chevaux"
   },
   "oiseau": {
     "gender": "Masculin",
@@ -502,7 +626,9 @@
     "definition": "Animal vertébré à plumes.",
     "antonyms": [
       "poisson"
-    ]
+    ],
+    "article": "l'",
+    "plural": "oiseaux"
   },
   "poisson": {
     "gender": "Masculin",
@@ -510,7 +636,9 @@
     "definition": "Animal aquatique à nageoires.",
     "antonyms": [
       "oiseau"
-    ]
+    ],
+    "article": "le",
+    "plural": "poissons"
   },
   "arbre": {
     "gender": "Masculin",
@@ -518,7 +646,9 @@
     "definition": "Végétal ligneux.",
     "antonyms": [
       "fleur"
-    ]
+    ],
+    "article": "l'",
+    "plural": "arbres"
   },
   "jardin": {
     "gender": "Masculin",
@@ -526,7 +656,9 @@
     "definition": "Terrain cultivé.",
     "antonyms": [
       "maison"
-    ]
+    ],
+    "article": "le",
+    "plural": "jardins"
   },
   "parc": {
     "gender": "Masculin",
@@ -534,7 +666,9 @@
     "definition": "Espace vert public.",
     "antonyms": [
       "rue"
-    ]
+    ],
+    "article": "le",
+    "plural": "parcs"
   },
   "vent": {
     "gender": "Masculin",
@@ -542,7 +676,9 @@
     "definition": "Déplacement d'air.",
     "antonyms": [
       "calme"
-    ]
+    ],
+    "article": "le",
+    "plural": "vents"
   },
   "feu": {
     "gender": "Masculin",
@@ -550,7 +686,9 @@
     "definition": "Combustion produisant de la chaleur.",
     "antonyms": [
       "eau"
-    ]
+    ],
+    "article": "le",
+    "plural": "feux"
   },
   "ciel": {
     "gender": "Masculin",
@@ -558,7 +696,9 @@
     "definition": "Espace visible au-dessus de la Terre.",
     "antonyms": [
       "terre"
-    ]
+    ],
+    "article": "le",
+    "plural": "cieux"
   },
   "jour": {
     "gender": "Masculin",
@@ -566,7 +706,9 @@
     "definition": "Période de clarté.",
     "antonyms": [
       "nuit"
-    ]
+    ],
+    "article": "le",
+    "plural": "jours"
   },
   "matin": {
     "gender": "Masculin",
@@ -574,7 +716,9 @@
     "definition": "Début de la journée.",
     "antonyms": [
       "soir"
-    ]
+    ],
+    "article": "le",
+    "plural": "matins"
   },
   "soir": {
     "gender": "Masculin",
@@ -582,7 +726,9 @@
     "definition": "Fin de la journée.",
     "antonyms": [
       "matin"
-    ]
+    ],
+    "article": "le",
+    "plural": "soirs"
   },
   "mois": {
     "gender": "Masculin",
@@ -590,7 +736,9 @@
     "definition": "Douzième partie de l'année.",
     "antonyms": [
       "année"
-    ]
+    ],
+    "article": "le",
+    "plural": "mois"
   },
   "an": {
     "gender": "Masculin",
@@ -598,7 +746,9 @@
     "definition": "Période de douze mois.",
     "antonyms": [
       "mois"
-    ]
+    ],
+    "article": "l'",
+    "plural": "ans"
   },
   "siècle": {
     "gender": "Masculin",
@@ -606,7 +756,9 @@
     "definition": "Période de cent ans.",
     "antonyms": [
       "année"
-    ]
+    ],
+    "article": "le",
+    "plural": "siècles"
   },
   "temps": {
     "gender": "Masculin",
@@ -614,7 +766,9 @@
     "definition": "Dimension de la durée.",
     "antonyms": [
       "espace"
-    ]
+    ],
+    "article": "le",
+    "plural": "temps"
   },
   "travail": {
     "gender": "Masculin",
@@ -623,7 +777,9 @@
     "antonyms": [
       "repos"
     ],
-    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les travaux')."
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les travaux').",
+    "article": "le",
+    "plural": "travaux"
   },
   "repos": {
     "gender": "Masculin",
@@ -631,7 +787,9 @@
     "definition": "Inactivité réparatrice.",
     "antonyms": [
       "travail"
-    ]
+    ],
+    "article": "le",
+    "plural": "repos"
   },
   "pain": {
     "gender": "Masculin",
@@ -639,7 +797,9 @@
     "definition": "Aliment à base de farine.",
     "antonyms": [
       "eau"
-    ]
+    ],
+    "article": "le",
+    "plural": "pains"
   },
   "fromage": {
     "gender": "Masculin",
@@ -647,7 +807,9 @@
     "definition": "Produit laitier.",
     "antonyms": [
       "lait"
-    ]
+    ],
+    "article": "le",
+    "plural": "fromages"
   },
   "lait": {
     "gender": "Masculin",
@@ -655,7 +817,9 @@
     "definition": "Liquide blanc nutritif.",
     "antonyms": [
       "eau"
-    ]
+    ],
+    "article": "le",
+    "plural": "laits"
   },
   "café": {
     "gender": "Masculin",
@@ -663,7 +827,9 @@
     "definition": "Boisson chaude stimulante.",
     "antonyms": [
       "thé"
-    ]
+    ],
+    "article": "le",
+    "plural": "cafés"
   },
   "thé": {
     "gender": "Masculin",
@@ -671,7 +837,9 @@
     "definition": "Boisson d'infusion.",
     "antonyms": [
       "café"
-    ]
+    ],
+    "article": "le",
+    "plural": "thés"
   },
   "repas": {
     "gender": "Masculin",
@@ -679,7 +847,9 @@
     "definition": "Nourriture prise à des heures fixes.",
     "antonyms": [
       "jeûne"
-    ]
+    ],
+    "article": "le",
+    "plural": "repas"
   },
   "restaurant": {
     "gender": "Masculin",
@@ -687,7 +857,9 @@
     "definition": "Établissement servant des repas.",
     "antonyms": [
       "maison"
-    ]
+    ],
+    "article": "le",
+    "plural": "restaurants"
   },
   "hôtel": {
     "gender": "Masculin",
@@ -695,7 +867,9 @@
     "definition": "Établissement d'hébergement.",
     "antonyms": [
       "maison"
-    ]
+    ],
+    "article": "l'",
+    "plural": "hôtels"
   },
   "train": {
     "gender": "Masculin",
@@ -703,7 +877,9 @@
     "definition": "Transport ferroviaire.",
     "antonyms": [
       "avion"
-    ]
+    ],
+    "article": "le",
+    "plural": "trains"
   },
   "avion": {
     "gender": "Masculin",
@@ -711,7 +887,9 @@
     "definition": "Aéronef à moteur.",
     "antonyms": [
       "bateau"
-    ]
+    ],
+    "article": "l'",
+    "plural": "avions"
   },
   "bateau": {
     "gender": "Masculin",
@@ -719,7 +897,9 @@
     "definition": "Engin flottant.",
     "antonyms": [
       "avion"
-    ]
+    ],
+    "article": "le",
+    "plural": "bateaux"
   },
   "voyage": {
     "gender": "Masculin",
@@ -727,7 +907,9 @@
     "definition": "Déplacement au loin.",
     "antonyms": [
       "séjour"
-    ]
+    ],
+    "article": "le",
+    "plural": "voyages"
   },
   "bruit": {
     "gender": "Masculin",
@@ -735,7 +917,9 @@
     "definition": "Ensemble de sons confus.",
     "antonyms": [
       "silence"
-    ]
+    ],
+    "article": "le",
+    "plural": "bruits"
   },
   "silence": {
     "gender": "Masculin",
@@ -743,7 +927,9 @@
     "definition": "Absence totale de bruit.",
     "antonyms": [
       "bruit"
-    ]
+    ],
+    "article": "le",
+    "plural": "silences"
   },
   "courage": {
     "gender": "Masculin",
@@ -751,7 +937,9 @@
     "definition": "Fermeté face au danger.",
     "antonyms": [
       "peur"
-    ]
+    ],
+    "article": "le",
+    "plural": "courages"
   },
   "problème": {
     "gender": "Masculin",
@@ -759,7 +947,9 @@
     "definition": "Question à résoudre.",
     "antonyms": [
       "solution"
-    ]
+    ],
+    "article": "le",
+    "plural": "problèmes"
   },
   "projet": {
     "gender": "Masculin",
@@ -767,7 +957,9 @@
     "definition": "Idée de ce qu'on veut réaliser.",
     "antonyms": [
       "passé"
-    ]
+    ],
+    "article": "le",
+    "plural": "projets"
   },
   "sourire": {
     "gender": "Masculin",
@@ -775,7 +967,9 @@
     "definition": "Expression de satisfaction.",
     "antonyms": [
       "grimace"
-    ]
+    ],
+    "article": "le",
+    "plural": "sourires"
   },
   "rêve": {
     "gender": "Masculin",
@@ -783,7 +977,9 @@
     "definition": "Production de l'esprit en dormant.",
     "antonyms": [
       "réalité"
-    ]
+    ],
+    "article": "le",
+    "plural": "rêves"
   },
   "monde": {
     "gender": "Masculin",
@@ -791,7 +987,9 @@
     "definition": "Ensemble de tout ce qui existe.",
     "antonyms": [
       "solitude"
-    ]
+    ],
+    "article": "le",
+    "plural": "mondes"
   },
   "pays": {
     "gender": "Masculin",
@@ -799,7 +997,9 @@
     "definition": "Territoire d'une nation.",
     "antonyms": [
       "ville"
-    ]
+    ],
+    "article": "le",
+    "plural": "pays"
   },
   "village": {
     "gender": "Masculin",
@@ -807,7 +1007,9 @@
     "definition": "Agglomération rurale.",
     "antonyms": [
       "ville"
-    ]
+    ],
+    "article": "le",
+    "plural": "villages"
   },
   "mur": {
     "gender": "Masculin",
@@ -815,7 +1017,9 @@
     "definition": "Ouvrage de maçonnerie vertical.",
     "antonyms": [
       "sol"
-    ]
+    ],
+    "article": "le",
+    "plural": "murs"
   },
   "sol": {
     "gender": "Masculin",
@@ -823,7 +1027,9 @@
     "definition": "Surface sur laquelle on marche.",
     "antonyms": [
       "plafond"
-    ]
+    ],
+    "article": "le",
+    "plural": "sols"
   },
   "plafond": {
     "gender": "Masculin",
@@ -831,7 +1037,9 @@
     "definition": "Surface supérieure d'une pièce.",
     "antonyms": [
       "sol"
-    ]
+    ],
+    "article": "le",
+    "plural": "plafonds"
   },
   "lit": {
     "gender": "Masculin",
@@ -839,7 +1047,9 @@
     "definition": "Meuble pour dormir.",
     "antonyms": [
       "chaise"
-    ]
+    ],
+    "article": "le",
+    "plural": "lits"
   },
   "accident": {
     "gender": "Masculin",
@@ -847,7 +1057,9 @@
     "definition": "Événement imprévu et malheureux.",
     "antonyms": [
       "sécurité"
-    ]
+    ],
+    "article": "l'",
+    "plural": "accidents"
   },
   "accord": {
     "gender": "Masculin",
@@ -855,7 +1067,9 @@
     "definition": "Entente entre personnes.",
     "antonyms": [
       "désaccord"
-    ]
+    ],
+    "article": "l'",
+    "plural": "accords"
   },
   "acteur": {
     "gender": "Masculin",
@@ -863,7 +1077,9 @@
     "definition": "Personne qui joue au théâtre ou au cinéma.",
     "antonyms": [
       "spectateur"
-    ]
+    ],
+    "article": "l'",
+    "plural": "acteurs"
   },
   "aéroport": {
     "gender": "Masculin",
@@ -871,7 +1087,9 @@
     "definition": "Ensemble d'installations pour les avions.",
     "antonyms": [
       "gare"
-    ]
+    ],
+    "article": "l'",
+    "plural": "aéroports"
   },
   "âge": {
     "gender": "Masculin",
@@ -879,7 +1097,9 @@
     "definition": "Durée de la vie d'un être.",
     "antonyms": [
       "jeunesse"
-    ]
+    ],
+    "article": "le",
+    "plural": "âges"
   },
   "agent": {
     "gender": "Masculin",
@@ -887,7 +1107,9 @@
     "definition": "Personne chargée de fonctions publiques.",
     "antonyms": [
       "citoyen"
-    ]
+    ],
+    "article": "l'",
+    "plural": "agents"
   },
   "agneau": {
     "gender": "Masculin",
@@ -895,7 +1117,9 @@
     "definition": "Petit de la brebis.",
     "antonyms": [
       "loup"
-    ]
+    ],
+    "article": "l'",
+    "plural": "agneaux"
   },
   "air": {
     "gender": "Masculin",
@@ -903,7 +1127,9 @@
     "definition": "Fluide gazeux de l'atmosphère.",
     "antonyms": [
       "vide"
-    ]
+    ],
+    "article": "l'",
+    "plural": "airs"
   },
   "alcool": {
     "gender": "Masculin",
@@ -911,7 +1137,9 @@
     "definition": "Liquide enivrant.",
     "antonyms": [
       "eau"
-    ]
+    ],
+    "article": "l'",
+    "plural": "alcools"
   },
   "animal": {
     "gender": "Masculin",
@@ -920,7 +1148,9 @@
     "antonyms": [
       "végétal"
     ],
-    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les animaux')."
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les animaux').",
+    "article": "l'",
+    "plural": "animaux"
   },
   "anniversaire": {
     "gender": "Masculin",
@@ -928,7 +1158,9 @@
     "definition": "Retour annuel d'un jour marqué par un événement.",
     "antonyms": [
       "deuil"
-    ]
+    ],
+    "article": "l'",
+    "plural": "anniversaires"
   },
   "appareil": {
     "gender": "Masculin",
@@ -936,7 +1168,9 @@
     "definition": "Assemblage d'organes d'un mécanisme.",
     "antonyms": [
       "outil"
-    ]
+    ],
+    "article": "l'",
+    "plural": "appareils"
   },
   "appartement": {
     "gender": "Masculin",
@@ -944,7 +1178,9 @@
     "definition": "Ensemble de pièces d'habitation.",
     "antonyms": [
       "maison"
-    ]
+    ],
+    "article": "l'",
+    "plural": "appartements"
   },
   "argent": {
     "gender": "Masculin",
@@ -952,7 +1188,9 @@
     "definition": "Monnaie ou métal précieux.",
     "antonyms": [
       "pauvreté"
-    ]
+    ],
+    "article": "l'",
+    "plural": "argents"
   },
   "arrêt": {
     "gender": "Masculin",
@@ -960,7 +1198,9 @@
     "definition": "Action de stopper.",
     "antonyms": [
       "départ"
-    ]
+    ],
+    "article": "l'",
+    "plural": "arrêts"
   },
   "art": {
     "gender": "Masculin",
@@ -968,7 +1208,9 @@
     "definition": "Expression de la beauté.",
     "antonyms": [
       "nature"
-    ]
+    ],
+    "article": "l'",
+    "plural": "arts"
   },
   "article": {
     "gender": "Masculin",
@@ -976,7 +1218,9 @@
     "definition": "Écrit formant un tout dans un journal.",
     "antonyms": [
       "livre"
-    ]
+    ],
+    "article": "l'",
+    "plural": "articles"
   },
   "aspect": {
     "gender": "Masculin",
@@ -984,7 +1228,9 @@
     "definition": "Apparence d'une chose.",
     "antonyms": [
       "fond"
-    ]
+    ],
+    "article": "l'",
+    "plural": "aspects"
   },
   "avertissement": {
     "gender": "Masculin",
@@ -992,7 +1238,9 @@
     "definition": "Appel à la prudence.",
     "antonyms": [
       "encouragement"
-    ]
+    ],
+    "article": "l'",
+    "plural": "avertissements"
   },
   "avis": {
     "gender": "Masculin",
@@ -1000,7 +1248,9 @@
     "definition": "Opinion exprimée.",
     "antonyms": [
       "doute"
-    ]
+    ],
+    "article": "l'",
+    "plural": "avis"
   },
   "bain": {
     "gender": "Masculin",
@@ -1008,7 +1258,9 @@
     "definition": "Immersion dans l'eau.",
     "antonyms": [
       "douche"
-    ]
+    ],
+    "article": "le",
+    "plural": "bains"
   },
   "balcon": {
     "gender": "Masculin",
@@ -1016,7 +1268,9 @@
     "definition": "Plateforme en saillie.",
     "antonyms": [
       "terrasse"
-    ]
+    ],
+    "article": "le",
+    "plural": "balcons"
   },
   "ballon": {
     "gender": "Masculin",
@@ -1024,7 +1278,9 @@
     "definition": "Balle de sport gonflée d'air.",
     "antonyms": [
       "balle"
-    ]
+    ],
+    "article": "le",
+    "plural": "ballons"
   },
   "banquier": {
     "gender": "Masculin",
@@ -1032,7 +1288,9 @@
     "definition": "Personne qui dirige une banque.",
     "antonyms": [
       "client"
-    ]
+    ],
+    "article": "le",
+    "plural": "banquiers"
   },
   "bâtiment": {
     "gender": "Masculin",
@@ -1040,15 +1298,19 @@
     "definition": "Construction immobilière.",
     "antonyms": [
       "terrain"
-    ]
+    ],
+    "article": "le",
+    "plural": "bâtiments"
   },
-  "bessin": {
+  "bassin": {
     "gender": "Masculin",
     "level": "A2",
     "definition": "Bassin d'eau.",
     "antonyms": [
       "lac"
-    ]
+    ],
+    "article": "le",
+    "plural": "bassins"
   },
   "besoin": {
     "gender": "Masculin",
@@ -1056,7 +1318,9 @@
     "definition": "Exigence de la nature.",
     "antonyms": [
       "superflu"
-    ]
+    ],
+    "article": "le",
+    "plural": "besoins"
   },
   "beurre": {
     "gender": "Masculin",
@@ -1064,7 +1328,9 @@
     "definition": "Matière grasse du lait.",
     "antonyms": [
       "huile"
-    ]
+    ],
+    "article": "le",
+    "plural": "beurres"
   },
   "billet": {
     "gender": "Masculin",
@@ -1072,7 +1338,9 @@
     "definition": "Titre de transport ou papier de banque.",
     "antonyms": [
       "pièce"
-    ]
+    ],
+    "article": "le",
+    "plural": "billets"
   },
   "biscuit": {
     "gender": "Masculin",
@@ -1080,7 +1348,9 @@
     "definition": "Petite gaufrette sèche.",
     "antonyms": [
       "gâteau"
-    ]
+    ],
+    "article": "le",
+    "plural": "biscuits"
   },
   "bois": {
     "gender": "Masculin",
@@ -1088,7 +1358,9 @@
     "definition": "Matière des arbres.",
     "antonyms": [
       "métal"
-    ]
+    ],
+    "article": "le",
+    "plural": "bois"
   },
   "bonheur": {
     "gender": "Masculin",
@@ -1096,7 +1368,9 @@
     "definition": "État de félicité.",
     "antonyms": [
       "malheur"
-    ]
+    ],
+    "article": "le",
+    "plural": "bonheurs"
   },
   "bureau": {
     "gender": "Masculin",
@@ -1104,7 +1378,9 @@
     "definition": "Meuble pour écrire ou pièce de travail.",
     "antonyms": [
       "atelier"
-    ]
+    ],
+    "article": "le",
+    "plural": "bureaux"
   },
   "bus": {
     "gender": "Masculin",
@@ -1112,7 +1388,9 @@
     "definition": "Autobus de ville.",
     "antonyms": [
       "train"
-    ]
+    ],
+    "article": "le",
+    "plural": "bus"
   },
   "cadeau": {
     "gender": "Masculin",
@@ -1120,7 +1398,9 @@
     "definition": "Objet offert pour faire plaisir.",
     "antonyms": [
       "dette"
-    ]
+    ],
+    "article": "le",
+    "plural": "cadeaux"
   },
   "calcul": {
     "gender": "Masculin",
@@ -1128,7 +1408,9 @@
     "definition": "Opération mathématique.",
     "antonyms": [
       "estimation"
-    ]
+    ],
+    "article": "le",
+    "plural": "calculs"
   },
   "calme": {
     "gender": "Masculin",
@@ -1136,7 +1418,9 @@
     "definition": "Absence d'agitation.",
     "antonyms": [
       "bruit"
-    ]
+    ],
+    "article": "le",
+    "plural": "calmes"
   },
   "camion": {
     "gender": "Masculin",
@@ -1144,7 +1428,9 @@
     "definition": "Grand véhicule de transport.",
     "antonyms": [
       "voiture"
-    ]
+    ],
+    "article": "le",
+    "plural": "camions"
   },
   "camp": {
     "gender": "Masculin",
@@ -1152,7 +1438,9 @@
     "definition": "Lieu de séjour temporaire sous la tente.",
     "antonyms": [
       "hôtel"
-    ]
+    ],
+    "article": "le",
+    "plural": "camps"
   },
   "canal": {
     "gender": "Masculin",
@@ -1160,7 +1448,9 @@
     "definition": "Voie d'eau artificielle.",
     "antonyms": [
       "fleuve"
-    ]
+    ],
+    "article": "le",
+    "plural": "canaux"
   },
   "charbon": {
     "gender": "Masculin",
@@ -1168,7 +1458,9 @@
     "definition": "Combustible fossile noir.",
     "antonyms": [
       "bois"
-    ]
+    ],
+    "article": "le",
+    "plural": "charbons"
   },
   "chemin": {
     "gender": "Masculin",
@@ -1176,7 +1468,9 @@
     "definition": "Voie de terre.",
     "antonyms": [
       "route"
-    ]
+    ],
+    "article": "le",
+    "plural": "chemins"
   },
   "choix": {
     "gender": "Masculin",
@@ -1184,7 +1478,9 @@
     "definition": "Action de choisir.",
     "antonyms": [
       "obligation"
-    ]
+    ],
+    "article": "le",
+    "plural": "choix"
   },
   "chocolat": {
     "gender": "Masculin",
@@ -1192,7 +1488,9 @@
     "definition": "Substance sucrée au cacao.",
     "antonyms": [
       "bonbon"
-    ]
+    ],
+    "article": "le",
+    "plural": "chocolats"
   },
   "cinéma": {
     "gender": "Masculin",
@@ -1200,7 +1498,9 @@
     "definition": "Salle de projection de films.",
     "antonyms": [
       "théâtre"
-    ]
+    ],
+    "article": "le",
+    "plural": "cinémas"
   },
   "citron": {
     "gender": "Masculin",
@@ -1208,7 +1508,9 @@
     "definition": "Agrume jaune acide.",
     "antonyms": [
       "orange"
-    ]
+    ],
+    "article": "le",
+    "plural": "citrons"
   },
   "client": {
     "gender": "Masculin",
@@ -1216,7 +1518,9 @@
     "definition": "Personne qui achète.",
     "antonyms": [
       "vendeur"
-    ]
+    ],
+    "article": "le",
+    "plural": "clients"
   },
   "climat": {
     "gender": "Masculin",
@@ -1224,15 +1528,19 @@
     "definition": "Ensemble des conditions atmosphériques.",
     "antonyms": [
       "météo"
-    ]
+    ],
+    "article": "le",
+    "plural": "climats"
   },
-  "coeur": {
+  "cœur": {
     "gender": "Masculin",
     "level": "A1",
     "definition": "Organe vital de la circulation.",
     "antonyms": [
       "esprit"
-    ]
+    ],
+    "article": "le",
+    "plural": "cœurs"
   },
   "coin": {
     "gender": "Masculin",
@@ -1240,7 +1548,9 @@
     "definition": "Angle de deux murs.",
     "antonyms": [
       "centre"
-    ]
+    ],
+    "article": "le",
+    "plural": "coins"
   },
   "colère": {
     "gender": "Féminin",
@@ -1248,7 +1558,9 @@
     "definition": "Vif mécontentement.",
     "antonyms": [
       "calme"
-    ]
+    ],
+    "article": "la",
+    "plural": "colères"
   },
   "collège": {
     "gender": "Masculin",
@@ -1256,7 +1568,9 @@
     "definition": "Établissement d'enseignement secondaire.",
     "antonyms": [
       "lycée"
-    ]
+    ],
+    "article": "le",
+    "plural": "collèges"
   },
   "combat": {
     "gender": "Masculin",
@@ -1264,7 +1578,9 @@
     "definition": "Lutte armée.",
     "antonyms": [
       "paix"
-    ]
+    ],
+    "article": "le",
+    "plural": "combats"
   },
   "commerce": {
     "gender": "Masculin",
@@ -1272,7 +1588,9 @@
     "definition": "Achat et vente de marchandises.",
     "antonyms": [
       "industrie"
-    ]
+    ],
+    "article": "le",
+    "plural": "commerces"
   },
   "compte": {
     "gender": "Masculin",
@@ -1280,7 +1598,9 @@
     "definition": "État de ce que l'on doit ou possède.",
     "antonyms": [
       "dette"
-    ]
+    ],
+    "article": "le",
+    "plural": "comptes"
   },
   "concert": {
     "gender": "Masculin",
@@ -1288,7 +1608,9 @@
     "definition": "Séance musicale.",
     "antonyms": [
       "opéra"
-    ]
+    ],
+    "article": "le",
+    "plural": "concerts"
   },
   "conseil": {
     "gender": "Masculin",
@@ -1296,15 +1618,19 @@
     "definition": "Avis donné à quelqu'un.",
     "antonyms": [
       "ordre"
-    ]
+    ],
+    "article": "le",
+    "plural": "conseils"
   },
   "continent": {
     "gender": "Masculin",
     "level": "A2",
-    "definition": "Vaste étendue de terre emmergée.",
+    "definition": "Vaste étendue de terre émergée.",
     "antonyms": [
       "île"
-    ]
+    ],
+    "article": "le",
+    "plural": "continents"
   },
   "contrat": {
     "gender": "Masculin",
@@ -1312,7 +1638,9 @@
     "definition": "Convention juridique entre parties.",
     "antonyms": [
       "litige"
-    ]
+    ],
+    "article": "le",
+    "plural": "contrats"
   },
   "contrôle": {
     "gender": "Masculin",
@@ -1320,7 +1648,9 @@
     "definition": "Vérification attentive.",
     "antonyms": [
       "laisser-faire"
-    ]
+    ],
+    "article": "le",
+    "plural": "contrôles"
   },
   "corps": {
     "gender": "Masculin",
@@ -1328,7 +1658,9 @@
     "definition": "Structure physique de l'homme.",
     "antonyms": [
       "âme"
-    ]
+    ],
+    "article": "le",
+    "plural": "corps"
   },
   "costume": {
     "gender": "Masculin",
@@ -1336,7 +1668,9 @@
     "definition": "Vêtement masculin complet.",
     "antonyms": [
       "robe"
-    ]
+    ],
+    "article": "le",
+    "plural": "costumes"
   },
   "coton": {
     "gender": "Masculin",
@@ -1344,7 +1678,9 @@
     "definition": "Fibre textile végétale.",
     "antonyms": [
       "laine"
-    ]
+    ],
+    "article": "le",
+    "plural": "cotons"
   },
   "coude": {
     "gender": "Masculin",
@@ -1352,7 +1688,9 @@
     "definition": "Articulation du bras.",
     "antonyms": [
       "genou"
-    ]
+    ],
+    "article": "le",
+    "plural": "coudes"
   },
   "coup": {
     "gender": "Masculin",
@@ -1360,7 +1698,9 @@
     "definition": "Choc rapide.",
     "antonyms": [
       "caresse"
-    ]
+    ],
+    "article": "le",
+    "plural": "coups"
   },
   "courrier": {
     "gender": "Masculin",
@@ -1368,7 +1708,9 @@
     "definition": "Ensemble des lettres envoyées.",
     "antonyms": [
       "colis"
-    ]
+    ],
+    "article": "le",
+    "plural": "courriers"
   },
   "cours": {
     "gender": "Masculin",
@@ -1376,7 +1718,9 @@
     "definition": "Enseignement donné par un professeur.",
     "antonyms": [
       "examen"
-    ]
+    ],
+    "article": "le",
+    "plural": "cours"
   },
   "couteau": {
     "gender": "Masculin",
@@ -1384,7 +1728,9 @@
     "definition": "Ustensile pour couper.",
     "antonyms": [
       "fourchette"
-    ]
+    ],
+    "article": "le",
+    "plural": "couteaux"
   },
   "couvercle": {
     "gender": "Masculin",
@@ -1392,15 +1738,9 @@
     "definition": "Pièce fermant un récipient.",
     "antonyms": [
       "boîte"
-    ]
-  },
-  "crayons": {
-    "gender": "Masculin",
-    "level": "A1",
-    "definition": "Outils de dessin.",
-    "antonyms": [
-      "stylo"
-    ]
+    ],
+    "article": "le",
+    "plural": "couvercles"
   },
   "crime": {
     "gender": "Masculin",
@@ -1408,7 +1748,9 @@
     "definition": "Infraction grave à la loi.",
     "antonyms": [
       "vertu"
-    ]
+    ],
+    "article": "le",
+    "plural": "crimes"
   },
   "cuisinier": {
     "gender": "Masculin",
@@ -1416,7 +1758,9 @@
     "definition": "Personne qui prépare à manger.",
     "antonyms": [
       "serveur"
-    ]
+    ],
+    "article": "le",
+    "plural": "cuisiniers"
   },
   "danger": {
     "gender": "Masculin",
@@ -1424,7 +1768,9 @@
     "definition": "Situation menaçante.",
     "antonyms": [
       "sécurité"
-    ]
+    ],
+    "article": "le",
+    "plural": "dangers"
   },
   "début": {
     "gender": "Masculin",
@@ -1432,7 +1778,9 @@
     "definition": "Premier moment.",
     "antonyms": [
       "fin"
-    ]
+    ],
+    "article": "le",
+    "plural": "débuts"
   },
   "départ": {
     "gender": "Masculin",
@@ -1440,7 +1788,9 @@
     "definition": "Action de s'en aller.",
     "antonyms": [
       "arrivée"
-    ]
+    ],
+    "article": "le",
+    "plural": "départs"
   },
   "dessin": {
     "gender": "Masculin",
@@ -1448,7 +1798,9 @@
     "definition": "Représentation graphique.",
     "antonyms": [
       "peinture"
-    ]
+    ],
+    "article": "le",
+    "plural": "dessins"
   },
   "devoir": {
     "gender": "Masculin",
@@ -1456,7 +1808,9 @@
     "definition": "Obligation morale.",
     "antonyms": [
       "droit"
-    ]
+    ],
+    "article": "le",
+    "plural": "devoirs"
   },
   "dictionnaire": {
     "gender": "Masculin",
@@ -1464,7 +1818,9 @@
     "definition": "Recueil de mots de la langue.",
     "antonyms": [
       "roman"
-    ]
+    ],
+    "article": "le",
+    "plural": "dictionnaires"
   },
   "dimanche": {
     "gender": "Masculin",
@@ -1472,7 +1828,9 @@
     "definition": "Dernier jour de la semaine.",
     "antonyms": [
       "lundi"
-    ]
+    ],
+    "article": "le",
+    "plural": "dimanches"
   },
   "directeur": {
     "gender": "Masculin",
@@ -1480,7 +1838,9 @@
     "definition": "Personne qui dirige une entreprise.",
     "antonyms": [
       "employé"
-    ]
+    ],
+    "article": "le",
+    "plural": "directeurs"
   },
   "discours": {
     "gender": "Masculin",
@@ -1488,7 +1848,9 @@
     "definition": "Propos tenus devant un public.",
     "antonyms": [
       "silence"
-    ]
+    ],
+    "article": "le",
+    "plural": "discours"
   },
   "doigt": {
     "gender": "Masculin",
@@ -1496,7 +1858,9 @@
     "definition": "Extrémité articulée de la main.",
     "antonyms": [
       "orteil"
-    ]
+    ],
+    "article": "le",
+    "plural": "doigts"
   },
   "dommage": {
     "gender": "Masculin",
@@ -1504,7 +1868,9 @@
     "definition": "Préjudice subi.",
     "antonyms": [
       "avantage"
-    ]
+    ],
+    "article": "le",
+    "plural": "dommages"
   },
   "doute": {
     "gender": "Masculin",
@@ -1512,7 +1878,9 @@
     "definition": "Incertitude de l'esprit.",
     "antonyms": [
       "certitude"
-    ]
+    ],
+    "article": "le",
+    "plural": "doutes"
   },
   "droit": {
     "gender": "Masculin",
@@ -1520,15 +1888,19 @@
     "definition": "Ce qui est permis par la loi.",
     "antonyms": [
       "devoir"
-    ]
+    ],
+    "article": "le",
+    "plural": "droits"
   },
-  "Éclair": {
+  "éclair": {
     "gender": "Masculin",
     "level": "A2",
     "definition": "Lumière vive de l'orage.",
     "antonyms": [
       "tonnerre"
-    ]
+    ],
+    "article": "l'",
+    "plural": "éclairs"
   },
   "écran": {
     "gender": "Masculin",
@@ -1536,7 +1908,9 @@
     "definition": "Surface d'affichage électronique.",
     "antonyms": [
       "clavier"
-    ]
+    ],
+    "article": "l'",
+    "plural": "écrans"
   },
   "effort": {
     "gender": "Masculin",
@@ -1544,7 +1918,9 @@
     "definition": "Mobilisation de ses forces.",
     "antonyms": [
       "repos"
-    ]
+    ],
+    "article": "l'",
+    "plural": "efforts"
   },
   "éléphant": {
     "gender": "Masculin",
@@ -1552,7 +1928,9 @@
     "definition": "Grand mammifère à trompe.",
     "antonyms": [
       "souris"
-    ]
+    ],
+    "article": "l'",
+    "plural": "éléphants"
   },
   "employé": {
     "gender": "Masculin",
@@ -1560,7 +1938,9 @@
     "definition": "Personne travaillant dans une entreprise.",
     "antonyms": [
       "patron"
-    ]
+    ],
+    "article": "l'",
+    "plural": "employés"
   },
   "endroit": {
     "gender": "Masculin",
@@ -1568,7 +1948,9 @@
     "definition": "Lieu déterminé.",
     "antonyms": [
       "espace"
-    ]
+    ],
+    "article": "l'",
+    "plural": "endroits"
   },
   "ennemi": {
     "gender": "Masculin",
@@ -1576,7 +1958,9 @@
     "definition": "Personne hostile.",
     "antonyms": [
       "ami"
-    ]
+    ],
+    "article": "l'",
+    "plural": "ennemis"
   },
   "escalier": {
     "gender": "Masculin",
@@ -1584,7 +1968,9 @@
     "definition": "Suite de marches.",
     "antonyms": [
       "ascenseur"
-    ]
+    ],
+    "article": "l'",
+    "plural": "escaliers"
   },
   "espace": {
     "gender": "Masculin",
@@ -1592,7 +1978,9 @@
     "definition": "Étendue indéfinie.",
     "antonyms": [
       "temps"
-    ]
+    ],
+    "article": "l'",
+    "plural": "espaces"
   },
   "esprit": {
     "gender": "Masculin",
@@ -1600,7 +1988,9 @@
     "definition": "Activité intellectuelle.",
     "antonyms": [
       "matière"
-    ]
+    ],
+    "article": "l'",
+    "plural": "esprits"
   },
   "espoir": {
     "gender": "Masculin",
@@ -1608,7 +1998,9 @@
     "definition": "Attente confiante.",
     "antonyms": [
       "désespoir"
-    ]
+    ],
+    "article": "l'",
+    "plural": "espoirs"
   },
   "essai": {
     "gender": "Masculin",
@@ -1616,7 +2008,9 @@
     "definition": "Tentative d'action.",
     "antonyms": [
       "échec"
-    ]
+    ],
+    "article": "l'",
+    "plural": "essais"
   },
   "été": {
     "gender": "Masculin",
@@ -1624,7 +2018,9 @@
     "definition": "Saison chaude.",
     "antonyms": [
       "hiver"
-    ]
+    ],
+    "article": "l'",
+    "plural": "étés"
   },
   "étudiant": {
     "gender": "Masculin",
@@ -1632,7 +2028,9 @@
     "definition": "Personne inscrite à l'université.",
     "antonyms": [
       "professeur"
-    ]
+    ],
+    "article": "l'",
+    "plural": "étudiants"
   },
   "exemple": {
     "gender": "Masculin",
@@ -1640,7 +2038,9 @@
     "definition": "Ce qui sert de modèle.",
     "antonyms": [
       "exception"
-    ]
+    ],
+    "article": "l'",
+    "plural": "exemples"
   },
   "exercice": {
     "gender": "Masculin",
@@ -1648,6 +2048,8 @@
     "definition": "Pratique pour apprendre.",
     "antonyms": [
       "repos"
-    ]
+    ],
+    "article": "l'",
+    "plural": "exercices"
   }
 }
