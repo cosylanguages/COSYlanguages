@@ -66,6 +66,14 @@ class ItalianGenderEngine {
         badge.className = `badge ${data.gender === 'Maschile' ? 'gender-masc' : 'gender-fem'}`;
         document.getElementById('noun-definition').textContent = data.definition;
 
+        const ruleBox = document.getElementById('grammar-rule-container');
+        const ruleTextEl = document.getElementById('grammar-rule-text');
+        if (ruleTextEl) {
+            const rule = data.grammar_rule || "📌 Regola del genere: i nomi in '-o' maschili, in '-a' femminili.";
+            ruleTextEl.textContent = rule;
+            if (ruleBox) ruleBox.style.display = 'flex';
+        }
+
         let stem = noun.slice(0, -1);
         let ending = noun.slice(-1);
         document.getElementById('sing-form').innerHTML = `<span class="article">${data.article}</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;

@@ -91,7 +91,8 @@
         "parlé"
       ]
     },
-    "usage_hint": "parler à (qqn) / de (qqch ou qqn)"
+    "usage_hint": "parler à (qqn) / de (qqch ou qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "aimer": {
     "group": "1er groupe",
@@ -185,7 +186,8 @@
         "aimé"
       ]
     },
-    "usage_hint": "+ COD (direct object)"
+    "usage_hint": "+ COD (direct object)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "marcher": {
     "group": "1er groupe",
@@ -278,7 +280,8 @@
         "marché"
       ]
     },
-    "usage_hint": "marcher vers / dans / avec"
+    "usage_hint": "marcher vers / dans / avec",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "étudier": {
     "group": "1er groupe",
@@ -371,7 +374,8 @@
         "étudié"
       ]
     },
-    "usage_hint": "+ COD / étudier à (l'université)"
+    "usage_hint": "+ COD / étudier à (l'université)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "travailler": {
     "group": "1er groupe",
@@ -464,7 +468,8 @@
         "travaillé"
       ]
     },
-    "usage_hint": "travailler pour / chez / avec / à"
+    "usage_hint": "travailler pour / chez / avec / à",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "habiter": {
     "group": "1er groupe",
@@ -557,7 +562,8 @@
         "habité"
       ]
     },
-    "usage_hint": "habiter à (ville) / en / au (pays) / dans"
+    "usage_hint": "habiter à (ville) / en / au (pays) / dans",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "écouter": {
     "group": "1er groupe",
@@ -650,7 +656,8 @@
         "écouté"
       ]
     },
-    "usage_hint": "+ COD (écouter qqn/qqch)"
+    "usage_hint": "+ COD (écouter qqn/qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "regarder": {
     "group": "1er groupe",
@@ -743,7 +750,8 @@
         "regardé"
       ]
     },
-    "usage_hint": "+ COD (regarder qqn/qqch)"
+    "usage_hint": "+ COD (regarder qqn/qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "penser": {
     "group": "1er groupe",
@@ -836,7 +844,8 @@
         "pensé"
       ]
     },
-    "usage_hint": "penser à (qqch/qqn) / penser de (opinion)"
+    "usage_hint": "penser à (qqch/qqn) / penser de (opinion)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "chercher": {
     "group": "1er groupe",
@@ -929,7 +938,8 @@
         "cherché"
       ]
     },
-    "usage_hint": "chercher + COD / chercher à (faire qqch)"
+    "usage_hint": "chercher + COD / chercher à (faire qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "trouver": {
     "group": "1er groupe",
@@ -1022,7 +1032,8 @@
         "trouvé"
       ]
     },
-    "usage_hint": "trouver + COD"
+    "usage_hint": "trouver + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "donner": {
     "group": "1er groupe",
@@ -1115,7 +1126,8 @@
         "donné"
       ]
     },
-    "usage_hint": "donner (qqch) à (qqn)"
+    "usage_hint": "donner (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "demander": {
     "group": "1er groupe",
@@ -1208,7 +1220,8 @@
         "demandé"
       ]
     },
-    "usage_hint": "demander (qqch) à (qqn) / de (faire qqch)"
+    "usage_hint": "demander (qqch) à (qqn) / de (faire qqch)",
+    "grammar_rule": "📌 Exige la préposition 'de' devant un infinitif (ex: 'demander de sortir') ou le Subjonctif."
   },
   "fermer": {
     "group": "1er groupe",
@@ -1301,7 +1314,8 @@
         "fermé"
       ]
     },
-    "usage_hint": "fermer + COD"
+    "usage_hint": "fermer + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "jouer": {
     "group": "1er groupe",
@@ -1394,7 +1408,8 @@
         "joué"
       ]
     },
-    "usage_hint": "jouer à (jeu/sport) / de (instrument de musique)"
+    "usage_hint": "jouer à (jeu/sport) / de (instrument de musique)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "chanter": {
     "group": "1er groupe",
@@ -1487,7 +1502,8 @@
         "chanté"
       ]
     },
-    "usage_hint": "chanter + COD / pour (qqn)"
+    "usage_hint": "chanter + COD / pour (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "danser": {
     "group": "1er groupe",
@@ -1580,7 +1596,8 @@
         "dansé"
       ]
     },
-    "usage_hint": "danser avec / sur"
+    "usage_hint": "danser avec / sur",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "voyager": {
     "group": "1er groupe",
@@ -1673,7 +1690,8 @@
         "voyagé"
       ]
     },
-    "usage_hint": "voyager en / à / avec"
+    "usage_hint": "voyager en / à / avec",
+    "grammar_rule": "📌 Orthographe en -ger — conserve le 'e' à la 1re personne du pluriel du présent ('nous voyageons')."
   },
   "passer": {
     "group": "1er groupe",
@@ -1766,7 +1784,8 @@
         "passé"
       ]
     },
-    "usage_hint": "passer par / devant / chez / passer + COD (temps)"
+    "usage_hint": "passer par / devant / chez / passer + COD (temps)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "gagner": {
     "group": "1er groupe",
@@ -1859,7 +1878,8 @@
         "gagné"
       ]
     },
-    "usage_hint": "gagner + COD / contre (un adversaire)"
+    "usage_hint": "gagner + COD / contre (un adversaire)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "préparer": {
     "group": "1er groupe",
@@ -1952,7 +1972,8 @@
         "préparé"
       ]
     },
-    "usage_hint": "préparer + COD / se préparer à"
+    "usage_hint": "préparer + COD / se préparer à",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "visiter": {
     "group": "1er groupe",
@@ -2045,7 +2066,8 @@
         "visité"
       ]
     },
-    "usage_hint": "+ COD (visiter un lieu)"
+    "usage_hint": "+ COD (visiter un lieu)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "aider": {
     "group": "1er groupe",
@@ -2138,7 +2160,8 @@
         "aidé"
       ]
     },
-    "usage_hint": "aider (qqn) à (faire qqch)"
+    "usage_hint": "aider (qqn) à (faire qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "monter": {
     "group": "1er groupe",
@@ -2231,7 +2254,8 @@
         "monté"
       ]
     },
-    "usage_hint": "monter dans / sur / à"
+    "usage_hint": "monter dans / sur / à",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "tomber": {
     "group": "1er groupe",
@@ -2324,7 +2348,8 @@
         "tombé"
       ]
     },
-    "usage_hint": "tomber de / sur / dans"
+    "usage_hint": "tomber de / sur / dans",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "rester": {
     "group": "1er groupe",
@@ -2417,7 +2442,8 @@
         "resté"
       ]
     },
-    "usage_hint": "rester à / chez / avec"
+    "usage_hint": "rester à / chez / avec",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "arriver": {
     "group": "1er groupe",
@@ -2510,7 +2536,8 @@
         "arrivé"
       ]
     },
-    "usage_hint": "arriver à / en / chez"
+    "usage_hint": "arriver à / en / chez",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "entrer": {
     "group": "1er groupe",
@@ -2603,7 +2630,8 @@
         "entré"
       ]
     },
-    "usage_hint": "entrer dans / en"
+    "usage_hint": "entrer dans / en",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "montrer": {
     "group": "1er groupe",
@@ -2696,7 +2724,8 @@
         "montré"
       ]
     },
-    "usage_hint": "montrer (qqch) à (qqn)"
+    "usage_hint": "montrer (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "cacher": {
     "group": "1er groupe",
@@ -2789,7 +2818,8 @@
         "caché"
       ]
     },
-    "usage_hint": "cacher (qqch) à (qqn)"
+    "usage_hint": "cacher (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "oublier": {
     "group": "1er groupe",
@@ -2882,7 +2912,8 @@
         "oublié"
       ]
     },
-    "usage_hint": "oublier + COD / de (faire qqch)"
+    "usage_hint": "oublier + COD / de (faire qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "compter": {
     "group": "1er groupe",
@@ -2975,7 +3006,8 @@
         "compté"
       ]
     },
-    "usage_hint": "compter sur (qqn) / compter + COD"
+    "usage_hint": "compter sur (qqn) / compter + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "décider": {
     "group": "1er groupe",
@@ -3068,7 +3100,8 @@
         "décidé"
       ]
     },
-    "usage_hint": "décider de (faire qqch)"
+    "usage_hint": "décider de (faire qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "espérer": {
     "group": "1er groupe",
@@ -3161,7 +3194,8 @@
         "espéré"
       ]
     },
-    "usage_hint": "espérer + COD / + infinitif"
+    "usage_hint": "espérer + COD / + infinitif",
+    "grammar_rule": "📌 Suivi de l'Indicatif/Futur si affirmé ('j'espère qu'il viendra'), du Subjonctif si négatif."
   },
   "préférer": {
     "group": "1er groupe",
@@ -3254,7 +3288,8 @@
         "préféré"
       ]
     },
-    "usage_hint": "préférer + COD / + infinitif à"
+    "usage_hint": "préférer + COD / + infinitif à",
+    "grammar_rule": "📌 Exige le Subjonctif pour exprimer une préférence subordonnée (ex: 'je préfère qu'il reste')."
   },
   "continuer": {
     "group": "1er groupe",
@@ -3347,7 +3382,8 @@
         "continué"
       ]
     },
-    "usage_hint": "continuer à / de (faire qqch)"
+    "usage_hint": "continuer à / de (faire qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "arrêter": {
     "group": "1er groupe",
@@ -3440,7 +3476,8 @@
         "arrêté"
       ]
     },
-    "usage_hint": "arrêter + COD / d'arrêter de (faire qqch)"
+    "usage_hint": "arrêter + COD / d'arrêter de (faire qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "expliquer": {
     "group": "1er groupe",
@@ -3533,7 +3570,8 @@
         "expliqué"
       ]
     },
-    "usage_hint": "expliquer (qqch) à (qqn)"
+    "usage_hint": "expliquer (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "séparer": {
     "group": "1er groupe",
@@ -3626,7 +3664,8 @@
         "séparé"
       ]
     },
-    "usage_hint": "séparer (qqch) de (qqch d'autre)"
+    "usage_hint": "séparer (qqch) de (qqch d'autre)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "pleurer": {
     "group": "1er groupe",
@@ -3719,7 +3758,8 @@
         "pleuré"
       ]
     },
-    "usage_hint": "pleurer de (joie/tristesse) / sur"
+    "usage_hint": "pleurer de (joie/tristesse) / sur",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "proposer": {
     "group": "1er groupe",
@@ -3812,7 +3852,8 @@
         "proposé"
       ]
     },
-    "usage_hint": "proposer (qqch) à (qqn) / de (faire)"
+    "usage_hint": "proposer (qqch) à (qqn) / de (faire)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "refuser": {
     "group": "1er groupe",
@@ -3905,7 +3946,8 @@
         "refusé"
       ]
     },
-    "usage_hint": "refuser + COD / de (faire qqch)"
+    "usage_hint": "refuser + COD / de (faire qqch)",
+    "grammar_rule": "📌 Exige la préposition 'de' devant un infinitif (ex: 'refuser de répondre')."
   },
   "accepter": {
     "group": "1er groupe",
@@ -3998,7 +4040,8 @@
         "accepté"
       ]
     },
-    "usage_hint": "accepter + COD / de (faire qqch)"
+    "usage_hint": "accepter + COD / de (faire qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "toucher": {
     "group": "1er groupe",
@@ -4091,7 +4134,8 @@
         "touché"
       ]
     },
-    "usage_hint": "toucher à (qqch) / + COD"
+    "usage_hint": "toucher à (qqch) / + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "quitter": {
     "group": "1er groupe",
@@ -4184,7 +4228,8 @@
         "quitté"
       ]
     },
-    "usage_hint": "+ COD (quitter un lieu ou qqn)"
+    "usage_hint": "+ COD (quitter un lieu ou qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "briller": {
     "group": "1er groupe",
@@ -4277,7 +4322,8 @@
         "brillé"
       ]
     },
-    "usage_hint": "briller par / dans"
+    "usage_hint": "briller par / dans",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "soigner": {
     "group": "1er groupe",
@@ -4370,7 +4416,8 @@
         "soigné"
       ]
     },
-    "usage_hint": "+ COD (soigner qqn/qqch)"
+    "usage_hint": "+ COD (soigner qqn/qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "sauver": {
     "group": "1er groupe",
@@ -4463,7 +4510,8 @@
         "sauvé"
       ]
     },
-    "usage_hint": "sauver (qqn) de (un danger)"
+    "usage_hint": "sauver (qqn) de (un danger)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "inviter": {
     "group": "1er groupe",
@@ -4556,7 +4604,8 @@
         "invité"
       ]
     },
-    "usage_hint": "inviter (qqn) à (un événement / faire qqch)"
+    "usage_hint": "inviter (qqn) à (un événement / faire qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "partager": {
     "group": "1er groupe",
@@ -4649,7 +4698,8 @@
         "partagé"
       ]
     },
-    "usage_hint": "partager (qqch) avec (qqn)"
+    "usage_hint": "partager (qqch) avec (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "pousser": {
     "group": "1er groupe",
@@ -4742,7 +4792,8 @@
         "poussé"
       ]
     },
-    "usage_hint": "pousser (qqn) à (faire qqch)"
+    "usage_hint": "pousser (qqn) à (faire qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "tirer": {
     "group": "1er groupe",
@@ -4835,7 +4886,8 @@
         "tiré"
       ]
     },
-    "usage_hint": "tirer sur / vers"
+    "usage_hint": "tirer sur / vers",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "laisser": {
     "group": "1er groupe",
@@ -4928,7 +4980,8 @@
         "laissé"
       ]
     },
-    "usage_hint": "laisser + COD / laisser (qqn) faire"
+    "usage_hint": "laisser + COD / laisser (qqn) faire",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "payer": {
     "group": "1er groupe",
@@ -5021,7 +5074,8 @@
         "payé"
       ]
     },
-    "usage_hint": "payer (qqch) à (qqn)"
+    "usage_hint": "payer (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "appeler": {
     "group": "1er groupe",
@@ -5114,7 +5168,8 @@
         "appelé"
       ]
     },
-    "usage_hint": "appeler + COD (appeler qqn)"
+    "usage_hint": "appeler + COD (appeler qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "imaginer": {
     "group": "1er groupe",
@@ -5207,7 +5262,8 @@
         "imaginé"
       ]
     },
-    "usage_hint": "imaginer + COD"
+    "usage_hint": "imaginer + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "créer": {
     "group": "1er groupe",
@@ -5300,7 +5356,8 @@
         "créé"
       ]
     },
-    "usage_hint": "créer + COD"
+    "usage_hint": "créer + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "exprimer": {
     "group": "1er groupe",
@@ -5393,7 +5450,8 @@
         "exprimé"
       ]
     },
-    "usage_hint": "exprimer (qqch) à (qqn)"
+    "usage_hint": "exprimer (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "remarquer": {
     "group": "1er groupe",
@@ -5486,7 +5544,8 @@
         "remarqué"
       ]
     },
-    "usage_hint": "+ COD (remarquer qqn/qqch)"
+    "usage_hint": "+ COD (remarquer qqn/qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "écraser": {
     "group": "1er groupe",
@@ -5579,7 +5638,8 @@
         "écrasé"
       ]
     },
-    "usage_hint": "écraser + COD"
+    "usage_hint": "écraser + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "voler": {
     "group": "1er groupe",
@@ -5672,7 +5732,8 @@
         "volé"
       ]
     },
-    "usage_hint": "voler vers / au-dessus de / voler (qqch) à (qqn)"
+    "usage_hint": "voler vers / au-dessus de / voler (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "nager": {
     "group": "1er groupe",
@@ -5765,7 +5826,8 @@
         "nagé"
       ]
     },
-    "usage_hint": "nager dans / avec"
+    "usage_hint": "nager dans / avec",
+    "grammar_rule": "📌 Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous nageons', 'je nageais')."
   },
   "sauter": {
     "group": "1er groupe",
@@ -5858,7 +5920,8 @@
         "sauté"
       ]
     },
-    "usage_hint": "sauter de / sur / par-dessus"
+    "usage_hint": "sauter de / sur / par-dessus",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "désirer": {
     "group": "1er groupe",
@@ -5951,7 +6014,8 @@
         "désiré"
       ]
     },
-    "usage_hint": "désirer + COD / + infinitif"
+    "usage_hint": "désirer + COD / + infinitif",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "admirer": {
     "group": "1er groupe",
@@ -6044,7 +6108,8 @@
         "admiré"
       ]
     },
-    "usage_hint": "admirer + COD"
+    "usage_hint": "admirer + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "souhaiter": {
     "group": "1er groupe",
@@ -6137,7 +6202,8 @@
         "souhaité"
       ]
     },
-    "usage_hint": "souhaiter (qqch) à (qqn)"
+    "usage_hint": "souhaiter (qqch) à (qqn)",
+    "grammar_rule": "📌 Exige le Subjonctif dans la subordonnée (ex: 'je souhaite qu'elle réussisse')."
   },
   "raconter": {
     "group": "1er groupe",
@@ -6230,7 +6296,8 @@
         "raconté"
       ]
     },
-    "usage_hint": "raconter (qqch) à (qqn)"
+    "usage_hint": "raconter (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "étonner": {
     "group": "1er groupe",
@@ -6323,7 +6390,8 @@
         "étonné"
       ]
     },
-    "usage_hint": "étonner + COD"
+    "usage_hint": "étonner + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "ressembler": {
     "group": "1er groupe",
@@ -6416,7 +6484,8 @@
         "ressemblé"
       ]
     },
-    "usage_hint": "ressembler à (qqn / qqch)"
+    "usage_hint": "ressembler à (qqn / qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "nettoyer": {
     "group": "1er groupe",
@@ -6509,7 +6578,8 @@
         "nettoyé"
       ]
     },
-    "usage_hint": "nettoyer + COD"
+    "usage_hint": "nettoyer + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "emprunter": {
     "group": "1er groupe",
@@ -6602,7 +6672,8 @@
         "emprunté"
       ]
     },
-    "usage_hint": "emprunter (qqch) à (qqn)"
+    "usage_hint": "emprunter (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "prêter": {
     "group": "1er groupe",
@@ -6695,7 +6766,8 @@
         "prêté"
       ]
     },
-    "usage_hint": "prêter (qqch) à (qqn)"
+    "usage_hint": "prêter (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "corriger": {
     "group": "1er groupe",
@@ -6788,7 +6860,8 @@
         "corrigé"
       ]
     },
-    "usage_hint": "corriger + COD"
+    "usage_hint": "corriger + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "protéger": {
     "group": "1er groupe",
@@ -6881,7 +6954,8 @@
         "protégé"
       ]
     },
-    "usage_hint": "protéger (qqn) contre / de"
+    "usage_hint": "protéger (qqn) contre / de",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "remplir": {
     "group": "2e groupe",
@@ -6974,7 +7048,8 @@
         "rempliré"
       ]
     },
-    "usage_hint": "remplir (qqch) de (qqch d'autre)"
+    "usage_hint": "remplir (qqch) de (qqch d'autre)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "choisir": {
     "group": "2e groupe",
@@ -7067,7 +7142,8 @@
         "choisiré"
       ]
     },
-    "usage_hint": "choisir + COD / de (faire qqch)"
+    "usage_hint": "choisir + COD / de (faire qqch)",
+    "grammar_rule": "📌 2e groupe (-ir) — interfixe '-iss-' au présent du pluriel ('nous choisissons') et à l'imparfait."
   },
   "finir": {
     "group": "2e groupe",
@@ -7160,7 +7236,8 @@
         "finiré"
       ]
     },
-    "usage_hint": "finir par (faire qqch) / de (faire qqch)"
+    "usage_hint": "finir par (faire qqch) / de (faire qqch)",
+    "grammar_rule": "📌 2e groupe (-ir) — interfixe '-iss-' régulier (ex: 'nous finissons', 'vous finissez')."
   },
   "réussir": {
     "group": "2e groupe",
@@ -7253,7 +7330,8 @@
         "réussiré"
       ]
     },
-    "usage_hint": "réussir à (faire qqch) / un examen (+ COD)"
+    "usage_hint": "réussir à (faire qqch) / un examen (+ COD)",
+    "grammar_rule": "📌 2e groupe (-ir) — exige la préposition 'à' devant un infinitif ('réussir à faire')."
   },
   "grandir": {
     "group": "2e groupe",
@@ -7346,7 +7424,8 @@
         "grandiré"
       ]
     },
-    "usage_hint": "grandir en / de"
+    "usage_hint": "grandir en / de",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "réfléchir": {
     "group": "2e groupe",
@@ -7439,7 +7518,8 @@
         "réfléchiré"
       ]
     },
-    "usage_hint": "réfléchir à (un problème / une décision)"
+    "usage_hint": "réfléchir à (un problème / une décision)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "obéir": {
     "group": "2e groupe",
@@ -7532,7 +7612,8 @@
         "obéiré"
       ]
     },
-    "usage_hint": "obéir à (qqn / une règle)"
+    "usage_hint": "obéir à (qqn / une règle)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "punir": {
     "group": "2e groupe",
@@ -7625,7 +7706,8 @@
         "puniré"
       ]
     },
-    "usage_hint": "punir (qqn) pour (une faute)"
+    "usage_hint": "punir (qqn) pour (une faute)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "nourrir": {
     "group": "2e groupe",
@@ -7718,7 +7800,8 @@
         "nourriré"
       ]
     },
-    "usage_hint": "nourrir + COD / se nourrir de"
+    "usage_hint": "nourrir + COD / se nourrir de",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "vieillir": {
     "group": "2e groupe",
@@ -7811,7 +7894,8 @@
         "vieilliré"
       ]
     },
-    "usage_hint": "vieillir de (plusieurs années)"
+    "usage_hint": "vieillir de (plusieurs années)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "guérir": {
     "group": "2e groupe",
@@ -7904,7 +7988,8 @@
         "guériré"
       ]
     },
-    "usage_hint": "guérir de (une maladie)"
+    "usage_hint": "guérir de (une maladie)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "aller": {
     "group": "3e groupe",
@@ -7997,7 +8082,8 @@
         "allé"
       ]
     },
-    "usage_hint": "aller à (ville/lieu) / en / chez"
+    "usage_hint": "aller à (ville/lieu) / en / chez",
+    "grammar_rule": "📌 Verbe du 3e groupe hautement irrégulier — sert à former le Futur Proche ('aller + infinitif')."
   },
   "faire": {
     "group": "3e groupe",
@@ -8090,7 +8176,8 @@
         "faireé"
       ]
     },
-    "usage_hint": "faire + COD / faire de (sport/musique)"
+    "usage_hint": "faire + COD / faire de (sport/musique)",
+    "grammar_rule": "📌 Sert à former les constructions causatives ('faire + infinitif', ex: 'faire réparer la voiture')."
   },
   "dire": {
     "group": "3e groupe",
@@ -8183,7 +8270,8 @@
         "direé"
       ]
     },
-    "usage_hint": "dire (qqch) à (qqn)"
+    "usage_hint": "dire (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "voir": {
     "group": "3e groupe",
@@ -8276,7 +8364,8 @@
         "voiré"
       ]
     },
-    "usage_hint": "voir + COD"
+    "usage_hint": "voir + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "pouvoir": {
     "group": "3e groupe",
@@ -8369,7 +8458,8 @@
         "pouvoiré"
       ]
     },
-    "usage_hint": "+ infinitif direct"
+    "usage_hint": "+ infinitif direct",
+    "grammar_rule": "📌 Verbe modal — suivi directement d'un infinitif sans préposition (ex: 'je peux vous aider')."
   },
   "vouloir": {
     "group": "3e groupe",
@@ -8462,7 +8552,8 @@
         "vouloiré"
       ]
     },
-    "usage_hint": "vouloir + COD / + infinitif"
+    "usage_hint": "vouloir + COD / + infinitif",
+    "grammar_rule": "📌 Exige le Subjonctif dans les propositions subordonnées (ex: 'je veux que tu viennes')."
   },
   "prendre": {
     "group": "3e groupe",
@@ -8555,7 +8646,8 @@
         "prendreé"
       ]
     },
-    "usage_hint": "prendre + COD / prendre soin de"
+    "usage_hint": "prendre + COD / prendre soin de",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "venir": {
     "group": "3e groupe",
@@ -8648,7 +8740,8 @@
         "veniré"
       ]
     },
-    "usage_hint": "venir de (origine/lieu) / avec"
+    "usage_hint": "venir de (origine/lieu) / avec",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "vendre": {
     "group": "3e groupe",
@@ -8741,7 +8834,8 @@
         "vendreé"
       ]
     },
-    "usage_hint": "vendre (qqch) à (qqn)"
+    "usage_hint": "vendre (qqch) à (qqn)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "détruire": {
     "group": "3e groupe",
@@ -8834,7 +8928,8 @@
         "détruireé"
       ]
     },
-    "usage_hint": "détruire + COD"
+    "usage_hint": "détruire + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "prévoir": {
     "group": "3e groupe",
@@ -8927,7 +9022,8 @@
         "prévoiré"
       ]
     },
-    "usage_hint": "prévoir + COD"
+    "usage_hint": "prévoir + COD",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "prévenir": {
     "group": "3e groupe",
@@ -9020,7 +9116,8 @@
         "préveniré"
       ]
     },
-    "usage_hint": "prévenir (qqn) de (qqch)"
+    "usage_hint": "prévenir (qqn) de (qqch)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "accorder": {
     "group": "1er groupe",
@@ -9113,7 +9210,8 @@
         "accordé"
       ]
     },
-    "usage_hint": "accorder + COD (complément d'objet direct)"
+    "usage_hint": "accorder + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "accuser": {
     "group": "1er groupe",
@@ -9206,7 +9304,8 @@
         "accusé"
       ]
     },
-    "usage_hint": "accuser + COD (complément d'objet direct)"
+    "usage_hint": "accuser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "acheter": {
     "group": "1er groupe",
@@ -9299,7 +9398,8 @@
         "acheté"
       ]
     },
-    "usage_hint": "acheter + COD (complément d'objet direct)"
+    "usage_hint": "acheter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "adorer": {
     "group": "1er groupe",
@@ -9392,7 +9492,8 @@
         "adoré"
       ]
     },
-    "usage_hint": "adorer + COD (complément d'objet direct)"
+    "usage_hint": "adorer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "affirmer": {
     "group": "1er groupe",
@@ -9485,7 +9586,8 @@
         "affirmé"
       ]
     },
-    "usage_hint": "affirmer + COD (complément d'objet direct)"
+    "usage_hint": "affirmer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "ajouter": {
     "group": "1er groupe",
@@ -9578,7 +9680,8 @@
         "ajouté"
       ]
     },
-    "usage_hint": "ajouter + COD (complément d'objet direct)"
+    "usage_hint": "ajouter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "allumer": {
     "group": "1er groupe",
@@ -9671,7 +9774,8 @@
         "allumé"
       ]
     },
-    "usage_hint": "allumer + COD (complément d'objet direct)"
+    "usage_hint": "allumer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "apporter": {
     "group": "1er groupe",
@@ -9764,7 +9868,8 @@
         "apporté"
       ]
     },
-    "usage_hint": "apporter + COD (complément d'objet direct)"
+    "usage_hint": "apporter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "approuver": {
     "group": "1er groupe",
@@ -9857,7 +9962,8 @@
         "approuvé"
       ]
     },
-    "usage_hint": "approuver + COD (complément d'objet direct)"
+    "usage_hint": "approuver + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "avancer": {
     "group": "1er groupe",
@@ -9950,7 +10056,8 @@
         "avancé"
       ]
     },
-    "usage_hint": "avancer + COD (complément d'objet direct)"
+    "usage_hint": "avancer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "blesser": {
     "group": "1er groupe",
@@ -10043,7 +10150,8 @@
         "blessé"
       ]
     },
-    "usage_hint": "blesser + COD (complément d'objet direct)"
+    "usage_hint": "blesser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "calmer": {
     "group": "1er groupe",
@@ -10136,7 +10244,8 @@
         "calmé"
       ]
     },
-    "usage_hint": "calmer + COD (complément d'objet direct)"
+    "usage_hint": "calmer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "changer": {
     "group": "1er groupe",
@@ -10229,7 +10338,8 @@
         "changé"
       ]
     },
-    "usage_hint": "changer + COD (complément d'objet direct)"
+    "usage_hint": "changer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "charger": {
     "group": "1er groupe",
@@ -10322,7 +10432,8 @@
         "chargé"
       ]
     },
-    "usage_hint": "charger + COD (complément d'objet direct)"
+    "usage_hint": "charger + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "chauffer": {
     "group": "1er groupe",
@@ -10415,7 +10526,8 @@
         "chauffé"
       ]
     },
-    "usage_hint": "chauffer + COD (complément d'objet direct)"
+    "usage_hint": "chauffer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "commander": {
     "group": "1er groupe",
@@ -10508,7 +10620,8 @@
         "commandé"
       ]
     },
-    "usage_hint": "commander + COD (complément d'objet direct)"
+    "usage_hint": "commander + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "comparer": {
     "group": "1er groupe",
@@ -10601,7 +10714,8 @@
         "comparé"
       ]
     },
-    "usage_hint": "comparer + COD (complément d'objet direct)"
+    "usage_hint": "comparer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "confirmer": {
     "group": "1er groupe",
@@ -10694,7 +10808,8 @@
         "confirmé"
       ]
     },
-    "usage_hint": "confirmer + COD (complément d'objet direct)"
+    "usage_hint": "confirmer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "considérer": {
     "group": "1er groupe",
@@ -10787,7 +10902,8 @@
         "considéré"
       ]
     },
-    "usage_hint": "considérer + COD (complément d'objet direct)"
+    "usage_hint": "considérer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "couper": {
     "group": "1er groupe",
@@ -10880,7 +10996,8 @@
         "coupé"
       ]
     },
-    "usage_hint": "couper + COD (complément d'objet direct)"
+    "usage_hint": "couper + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "coûter": {
     "group": "1er groupe",
@@ -10973,7 +11090,8 @@
         "coûté"
       ]
     },
-    "usage_hint": "coûter + COD (complément d'objet direct)"
+    "usage_hint": "coûter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "déclarer": {
     "group": "1er groupe",
@@ -11066,7 +11184,8 @@
         "déclaré"
       ]
     },
-    "usage_hint": "déclarer + COD (complément d'objet direct)"
+    "usage_hint": "déclarer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "déjeuner": {
     "group": "1er groupe",
@@ -11159,7 +11278,8 @@
         "déjeuné"
       ]
     },
-    "usage_hint": "déjeuner + COD (complément d'objet direct)"
+    "usage_hint": "déjeuner + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "dîner": {
     "group": "1er groupe",
@@ -11252,7 +11372,8 @@
         "dîné"
       ]
     },
-    "usage_hint": "dîner + COD (complément d'objet direct)"
+    "usage_hint": "dîner + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "discuter": {
     "group": "1er groupe",
@@ -11345,7 +11466,8 @@
         "discuté"
       ]
     },
-    "usage_hint": "discuter + COD (complément d'objet direct)"
+    "usage_hint": "discuter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "douter": {
     "group": "1er groupe",
@@ -11438,7 +11560,8 @@
         "douté"
       ]
     },
-    "usage_hint": "douter + COD (complément d'objet direct)"
+    "usage_hint": "douter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "éclairer": {
     "group": "1er groupe",
@@ -11531,7 +11654,8 @@
         "éclairé"
       ]
     },
-    "usage_hint": "éclairer + COD (complément d'objet direct)"
+    "usage_hint": "éclairer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "embrasser": {
     "group": "1er groupe",
@@ -11624,7 +11748,8 @@
         "embrassé"
       ]
     },
-    "usage_hint": "embrasser + COD (complément d'objet direct)"
+    "usage_hint": "embrasser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "emmener": {
     "group": "1er groupe",
@@ -11717,7 +11842,8 @@
         "emmené"
       ]
     },
-    "usage_hint": "emmener + COD (complément d'objet direct)"
+    "usage_hint": "emmener + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "enseigner": {
     "group": "1er groupe",
@@ -11810,7 +11936,8 @@
         "enseigné"
       ]
     },
-    "usage_hint": "enseigner + COD (complément d'objet direct)"
+    "usage_hint": "enseigner + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "envoyer": {
     "group": "1er groupe",
@@ -11903,7 +12030,8 @@
         "envoyé"
       ]
     },
-    "usage_hint": "envoyer + COD (complément d'objet direct)"
+    "usage_hint": "envoyer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "éviter": {
     "group": "1er groupe",
@@ -11996,7 +12124,8 @@
         "évité"
       ]
     },
-    "usage_hint": "éviter + COD (complément d'objet direct)"
+    "usage_hint": "éviter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "frapper": {
     "group": "1er groupe",
@@ -12089,7 +12218,8 @@
         "frappé"
       ]
     },
-    "usage_hint": "frapper + COD (complément d'objet direct)"
+    "usage_hint": "frapper + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "fumer": {
     "group": "1er groupe",
@@ -12182,7 +12312,8 @@
         "fumé"
       ]
     },
-    "usage_hint": "fumer + COD (complément d'objet direct)"
+    "usage_hint": "fumer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "garder": {
     "group": "1er groupe",
@@ -12275,7 +12406,8 @@
         "gardé"
       ]
     },
-    "usage_hint": "garder + COD (complément d'objet direct)"
+    "usage_hint": "garder + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "glisser": {
     "group": "1er groupe",
@@ -12368,7 +12500,8 @@
         "glissé"
       ]
     },
-    "usage_hint": "glisser + COD (complément d'objet direct)"
+    "usage_hint": "glisser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "hésiter": {
     "group": "1er groupe",
@@ -12461,7 +12594,8 @@
         "hésité"
       ]
     },
-    "usage_hint": "hésiter + COD (complément d'objet direct)"
+    "usage_hint": "hésiter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "ignorer": {
     "group": "1er groupe",
@@ -12554,7 +12688,8 @@
         "ignoré"
       ]
     },
-    "usage_hint": "ignorer + COD (complément d'objet direct)"
+    "usage_hint": "ignorer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "importer": {
     "group": "1er groupe",
@@ -12647,7 +12782,8 @@
         "importé"
       ]
     },
-    "usage_hint": "importer + COD (complément d'objet direct)"
+    "usage_hint": "importer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "indiquer": {
     "group": "1er groupe",
@@ -12740,7 +12876,8 @@
         "indiqué"
       ]
     },
-    "usage_hint": "indiquer + COD (complément d'objet direct)"
+    "usage_hint": "indiquer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "inquiéter": {
     "group": "1er groupe",
@@ -12833,7 +12970,8 @@
         "inquiété"
       ]
     },
-    "usage_hint": "inquiéter + COD (complément d'objet direct)"
+    "usage_hint": "inquiéter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "insister": {
     "group": "1er groupe",
@@ -12926,7 +13064,8 @@
         "insisté"
       ]
     },
-    "usage_hint": "insister + COD (complément d'objet direct)"
+    "usage_hint": "insister + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "installer": {
     "group": "1er groupe",
@@ -13019,7 +13158,8 @@
         "installé"
       ]
     },
-    "usage_hint": "installer + COD (complément d'objet direct)"
+    "usage_hint": "installer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "jeter": {
     "group": "1er groupe",
@@ -13112,7 +13252,8 @@
         "jeté"
       ]
     },
-    "usage_hint": "jeter + COD (complément d'objet direct)"
+    "usage_hint": "jeter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "juger": {
     "group": "1er groupe",
@@ -13205,7 +13346,8 @@
         "jugé"
       ]
     },
-    "usage_hint": "juger + COD (complément d'objet direct)"
+    "usage_hint": "juger + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "lever": {
     "group": "1er groupe",
@@ -13298,7 +13440,8 @@
         "levé"
       ]
     },
-    "usage_hint": "lever + COD (complément d'objet direct)"
+    "usage_hint": "lever + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "limiter": {
     "group": "1er groupe",
@@ -13391,7 +13534,8 @@
         "limité"
       ]
     },
-    "usage_hint": "limiter + COD (complément d'objet direct)"
+    "usage_hint": "limiter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "louer": {
     "group": "1er groupe",
@@ -13484,7 +13628,8 @@
         "loué"
       ]
     },
-    "usage_hint": "louer + COD (complément d'objet direct)"
+    "usage_hint": "louer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "manquer": {
     "group": "1er groupe",
@@ -13577,7 +13722,8 @@
         "manqué"
       ]
     },
-    "usage_hint": "manquer + COD (complément d'objet direct)"
+    "usage_hint": "manquer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "mener": {
     "group": "1er groupe",
@@ -13670,7 +13816,8 @@
         "mené"
       ]
     },
-    "usage_hint": "mener + COD (complément d'objet direct)"
+    "usage_hint": "mener + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "mesurer": {
     "group": "1er groupe",
@@ -13763,7 +13910,8 @@
         "mesuré"
       ]
     },
-    "usage_hint": "mesurer + COD (complément d'objet direct)"
+    "usage_hint": "mesurer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "nommer": {
     "group": "1er groupe",
@@ -13856,7 +14004,8 @@
         "nommé"
       ]
     },
-    "usage_hint": "nommer + COD (complément d'objet direct)"
+    "usage_hint": "nommer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "occuper": {
     "group": "1er groupe",
@@ -13949,7 +14098,8 @@
         "occupé"
       ]
     },
-    "usage_hint": "occuper + COD (complément d'objet direct)"
+    "usage_hint": "occuper + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "oser": {
     "group": "1er groupe",
@@ -14042,7 +14192,8 @@
         "osé"
       ]
     },
-    "usage_hint": "oser + COD (complément d'objet direct)"
+    "usage_hint": "oser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "porter": {
     "group": "1er groupe",
@@ -14135,7 +14286,8 @@
         "porté"
       ]
     },
-    "usage_hint": "porter + COD (complément d'objet direct)"
+    "usage_hint": "porter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "poser": {
     "group": "1er groupe",
@@ -14228,7 +14380,8 @@
         "posé"
       ]
     },
-    "usage_hint": "poser + COD (complément d'objet direct)"
+    "usage_hint": "poser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "présenter": {
     "group": "1er groupe",
@@ -14321,7 +14474,8 @@
         "présenté"
       ]
     },
-    "usage_hint": "présenter + COD (complément d'objet direct)"
+    "usage_hint": "présenter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "prier": {
     "group": "1er groupe",
@@ -14414,7 +14568,8 @@
         "prié"
       ]
     },
-    "usage_hint": "prier + COD (complément d'objet direct)"
+    "usage_hint": "prier + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "ramasser": {
     "group": "1er groupe",
@@ -14507,7 +14662,8 @@
         "ramassé"
       ]
     },
-    "usage_hint": "ramasser + COD (complément d'objet direct)"
+    "usage_hint": "ramasser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "regretter": {
     "group": "1er groupe",
@@ -14600,7 +14756,8 @@
         "regretté"
       ]
     },
-    "usage_hint": "regretter + COD (complément d'objet direct)"
+    "usage_hint": "regretter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "remplacer": {
     "group": "1er groupe",
@@ -14693,7 +14850,8 @@
         "remplacé"
       ]
     },
-    "usage_hint": "remplacer + COD (complément d'objet direct)"
+    "usage_hint": "remplacer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "rencontrer": {
     "group": "1er groupe",
@@ -14786,7 +14944,8 @@
         "rencontré"
       ]
     },
-    "usage_hint": "rencontrer + COD (complément d'objet direct)"
+    "usage_hint": "rencontrer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "réparer": {
     "group": "1er groupe",
@@ -14879,7 +15038,8 @@
         "réparé"
       ]
     },
-    "usage_hint": "réparer + COD (complément d'objet direct)"
+    "usage_hint": "réparer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "répéter": {
     "group": "1er groupe",
@@ -14972,7 +15132,8 @@
         "répété"
       ]
     },
-    "usage_hint": "répéter + COD (complément d'objet direct)"
+    "usage_hint": "répéter + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "reposer": {
     "group": "1er groupe",
@@ -15065,7 +15226,8 @@
         "reposé"
       ]
     },
-    "usage_hint": "reposer + COD (complément d'objet direct)"
+    "usage_hint": "reposer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "retourner": {
     "group": "1er groupe",
@@ -15158,7 +15320,8 @@
         "retourné"
       ]
     },
-    "usage_hint": "retourner + COD (complément d'objet direct)"
+    "usage_hint": "retourner + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "rêver": {
     "group": "1er groupe",
@@ -15251,7 +15414,8 @@
         "rêvé"
       ]
     },
-    "usage_hint": "rêver + COD (complément d'objet direct)"
+    "usage_hint": "rêver + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "rouler": {
     "group": "1er groupe",
@@ -15344,7 +15508,8 @@
         "roulé"
       ]
     },
-    "usage_hint": "rouler + COD (complément d'objet direct)"
+    "usage_hint": "rouler + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "sembler": {
     "group": "1er groupe",
@@ -15437,7 +15602,8 @@
         "semblé"
       ]
     },
-    "usage_hint": "sembler + COD (complément d'objet direct)"
+    "usage_hint": "sembler + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "signaler": {
     "group": "1er groupe",
@@ -15530,7 +15696,8 @@
         "signalé"
       ]
     },
-    "usage_hint": "signaler + COD (complément d'objet direct)"
+    "usage_hint": "signaler + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "téléphoner": {
     "group": "1er groupe",
@@ -15623,7 +15790,8 @@
         "téléphoné"
       ]
     },
-    "usage_hint": "téléphoner + COD (complément d'objet direct)"
+    "usage_hint": "téléphoner + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "traverser": {
     "group": "1er groupe",
@@ -15716,7 +15884,8 @@
         "traversé"
       ]
     },
-    "usage_hint": "traverser + COD (complément d'objet direct)"
+    "usage_hint": "traverser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "tromper": {
     "group": "1er groupe",
@@ -15809,7 +15978,8 @@
         "trompé"
       ]
     },
-    "usage_hint": "tromper + COD (complément d'objet direct)"
+    "usage_hint": "tromper + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "utiliser": {
     "group": "1er groupe",
@@ -15902,7 +16072,8 @@
         "utilisé"
       ]
     },
-    "usage_hint": "utiliser + COD (complément d'objet direct)"
+    "usage_hint": "utiliser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "admettre": {
     "group": "3e groupe",
@@ -15995,7 +16166,8 @@
         "admettreé"
       ]
     },
-    "usage_hint": "admettre + COD (complément d'objet direct)"
+    "usage_hint": "admettre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "agacer": {
     "group": "1er groupe",
@@ -16088,7 +16260,8 @@
         "agacé"
       ]
     },
-    "usage_hint": "agacer + COD (complément d'objet direct)"
+    "usage_hint": "agacer + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "amuser": {
     "group": "1er groupe",
@@ -16181,7 +16354,8 @@
         "amusé"
       ]
     },
-    "usage_hint": "amuser + COD (complément d'objet direct)"
+    "usage_hint": "amuser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "apprendre": {
     "group": "3e groupe",
@@ -16274,7 +16448,8 @@
         "apprendreé"
       ]
     },
-    "usage_hint": "apprendre + COD (complément d'objet direct)"
+    "usage_hint": "apprendre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "attraper": {
     "group": "1er groupe",
@@ -16367,7 +16542,8 @@
         "attrapé"
       ]
     },
-    "usage_hint": "attraper + COD (complément d'objet direct)"
+    "usage_hint": "attraper + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "bâtir": {
     "group": "2e groupe",
@@ -16460,7 +16636,8 @@
         "bâtiré"
       ]
     },
-    "usage_hint": "bâtir + COD (complément d'objet direct)"
+    "usage_hint": "bâtir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "boire": {
     "group": "3e groupe",
@@ -16553,7 +16730,8 @@
         "boireé"
       ]
     },
-    "usage_hint": "boire + COD (complément d'objet direct)"
+    "usage_hint": "boire + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "brûler": {
     "group": "1er groupe",
@@ -16646,7 +16824,8 @@
         "brûlé"
       ]
     },
-    "usage_hint": "brûler + COD (complément d'objet direct)"
+    "usage_hint": "brûler + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "casser": {
     "group": "1er groupe",
@@ -16739,7 +16918,8 @@
         "cassé"
       ]
     },
-    "usage_hint": "casser + COD (complément d'objet direct)"
+    "usage_hint": "casser + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "comprendre": {
     "group": "3e groupe",
@@ -16832,7 +17012,8 @@
         "comprendreé"
       ]
     },
-    "usage_hint": "comprendre + COD (complément d'objet direct)"
+    "usage_hint": "comprendre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "construire": {
     "group": "3e groupe",
@@ -16925,7 +17106,8 @@
         "construireé"
       ]
     },
-    "usage_hint": "construire + COD (complément d'objet direct)"
+    "usage_hint": "construire + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "courir": {
     "group": "3e groupe",
@@ -17018,7 +17200,8 @@
         "couriré"
       ]
     },
-    "usage_hint": "courir + COD (complément d'objet direct)"
+    "usage_hint": "courir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "croire": {
     "group": "3e groupe",
@@ -17111,7 +17294,8 @@
         "croireé"
       ]
     },
-    "usage_hint": "croire + COD (complément d'objet direct)"
+    "usage_hint": "croire + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "défendre": {
     "group": "3e groupe",
@@ -17204,7 +17388,8 @@
         "défendreé"
       ]
     },
-    "usage_hint": "défendre + COD (complément d'objet direct)"
+    "usage_hint": "défendre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "découvrir": {
     "group": "3e groupe",
@@ -17297,7 +17482,8 @@
         "découvriré"
       ]
     },
-    "usage_hint": "découvrir + COD (complément d'objet direct)"
+    "usage_hint": "découvrir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "descendre": {
     "group": "3e groupe",
@@ -17390,7 +17576,8 @@
         "descendreé"
       ]
     },
-    "usage_hint": "descendre + COD (complément d'objet direct)"
+    "usage_hint": "descendre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "devoir": {
     "group": "3e groupe",
@@ -17483,7 +17670,8 @@
         "devoiré"
       ]
     },
-    "usage_hint": "devoir + COD (complément d'objet direct)"
+    "usage_hint": "devoir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 Verbe modal — exprime l'obligation ou la probabilité, suivi directement d'un infinitif."
   },
   "dormir": {
     "group": "3e groupe",
@@ -17576,7 +17764,8 @@
         "dormiré"
       ]
     },
-    "usage_hint": "dormir + COD (complément d'objet direct)"
+    "usage_hint": "dormir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "écrire": {
     "group": "3e groupe",
@@ -17669,7 +17858,8 @@
         "écrireé"
       ]
     },
-    "usage_hint": "écrire + COD (complément d'objet direct)"
+    "usage_hint": "écrire + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "entendre": {
     "group": "3e groupe",
@@ -17762,7 +17952,8 @@
         "entendreé"
       ]
     },
-    "usage_hint": "entendre + COD (complément d'objet direct)"
+    "usage_hint": "entendre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "éteindre": {
     "group": "3e groupe",
@@ -17855,7 +18046,8 @@
         "éteindreé"
       ]
     },
-    "usage_hint": "éteindre + COD (complément d'objet direct)"
+    "usage_hint": "éteindre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "falloir": {
     "group": "3e groupe",
@@ -17948,7 +18140,8 @@
         "falloiré"
       ]
     },
-    "usage_hint": "falloir + COD (complément d'objet direct)"
+    "usage_hint": "falloir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 Verbe impersonnel — exige le Subjonctif (ex: 'il faut que nous partions')."
   },
   "lire": {
     "group": "3e groupe",
@@ -18041,7 +18234,8 @@
         "lireé"
       ]
     },
-    "usage_hint": "lire + COD (complément d'objet direct)"
+    "usage_hint": "lire + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "mettre": {
     "group": "3e groupe",
@@ -18134,7 +18328,8 @@
         "mettreé"
       ]
     },
-    "usage_hint": "mettre + COD (complément d'objet direct)"
+    "usage_hint": "mettre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "mourir": {
     "group": "3e groupe",
@@ -18227,7 +18422,8 @@
         "mouriré"
       ]
     },
-    "usage_hint": "mourir + COD (complément d'objet direct)"
+    "usage_hint": "mourir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "naître": {
     "group": "3e groupe",
@@ -18320,7 +18516,8 @@
         "naîtreé"
       ]
     },
-    "usage_hint": "naître + COD (complément d'objet direct)"
+    "usage_hint": "naître + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "ouvrir": {
     "group": "3e groupe",
@@ -18413,7 +18610,8 @@
         "ouvriré"
       ]
     },
-    "usage_hint": "ouvrir + COD (complément d'objet direct)"
+    "usage_hint": "ouvrir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "partir": {
     "group": "3e groupe",
@@ -18506,7 +18704,8 @@
         "partiré"
       ]
     },
-    "usage_hint": "partir + COD (complément d'objet direct)"
+    "usage_hint": "partir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "recevoir": {
     "group": "3e groupe",
@@ -18599,7 +18798,8 @@
         "recevoiré"
       ]
     },
-    "usage_hint": "recevoir + COD (complément d'objet direct)"
+    "usage_hint": "recevoir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "rendre": {
     "group": "3e groupe",
@@ -18692,7 +18892,8 @@
         "rendreé"
       ]
     },
-    "usage_hint": "rendre + COD (complément d'objet direct)"
+    "usage_hint": "rendre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "répondre": {
     "group": "3e groupe",
@@ -18785,7 +18986,8 @@
         "répondreé"
       ]
     },
-    "usage_hint": "répondre + COD (complément d'objet direct)"
+    "usage_hint": "répondre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "sortir": {
     "group": "3e groupe",
@@ -18878,7 +19080,8 @@
         "sortiré"
       ]
     },
-    "usage_hint": "sortir + COD (complément d'objet direct)"
+    "usage_hint": "sortir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "suivre": {
     "group": "3e groupe",
@@ -18971,7 +19174,8 @@
         "suivreé"
       ]
     },
-    "usage_hint": "suivre + COD (complément d'objet direct)"
+    "usage_hint": "suivre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "tenir": {
     "group": "3e groupe",
@@ -19064,7 +19268,8 @@
         "teniré"
       ]
     },
-    "usage_hint": "tenir + COD (complément d'objet direct)"
+    "usage_hint": "tenir + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   },
   "vivre": {
     "group": "3e groupe",
@@ -19157,6 +19362,7 @@
         "vivreé"
       ]
     },
-    "usage_hint": "vivre + COD (complément d'objet direct)"
+    "usage_hint": "vivre + COD (complément d'objet direct)",
+    "grammar_rule": "📌 1er groupe (-er) — terminaisons régulières: -e, -es, -e, -ons, -ez, -ent. Auxiliaire avoir au passé composé."
   }
 }

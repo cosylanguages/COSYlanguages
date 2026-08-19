@@ -108,6 +108,14 @@ class RussianConjugationEngine {
             if (usageBox) usageBox.style.display = 'flex';
         }
 
+        const ruleBox = document.getElementById('grammar-rule-container');
+        const ruleTextEl = document.getElementById('grammar-rule-text');
+        if (ruleTextEl) {
+            const rule = data.grammar_rule || "📌 Правило спряжения: I спряжение / II спряжение.";
+            ruleTextEl.textContent = rule;
+            if (ruleBox) ruleBox.style.display = 'flex';
+        }
+
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {
             document.getElementById('antonyms-container').style.display = 'flex';

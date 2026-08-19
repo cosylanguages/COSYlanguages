@@ -88,6 +88,14 @@ class GreekGenderCasesEngine {
         badge.className = `badge ${data.gender === 'Αρσενικό' ? 'gender-masc' : (data.gender === 'Θηλυκό' ? 'gender-fem' : 'gender-neut')}`;
         document.getElementById('noun-definition').textContent = data.definition;
 
+        const ruleBox = document.getElementById('grammar-rule-container');
+        const ruleTextEl = document.getElementById('grammar-rule-text');
+        if (ruleTextEl) {
+            const rule = data.grammar_rule || "📌 Πτωτικό σύστημα: το ουσιαστικό κλίνεται στις 4 πτώσεις.";
+            ruleTextEl.textContent = rule;
+            if (ruleBox) ruleBox.style.display = 'flex';
+        }
+
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {
             document.getElementById('antonyms-container').style.display = 'flex';
