@@ -4,6 +4,20 @@ print("Building 100% grammatically accurate Master Lexicon across all 8 Standalo
 
 def save_db(app_path, data):
     os.makedirs(os.path.dirname(app_path), exist_ok=True)
+    if "verbs.json" in app_path:
+        existing = {}
+        if os.path.exists(app_path):
+            try:
+                with open(app_path, "r", encoding="utf-8") as f:
+                    existing = json.load(f)
+            except Exception:
+                pass
+        for verb, vdata in data.items():
+            if "usage_hint" not in vdata or not vdata["usage_hint"]:
+                if verb in existing and existing[verb].get("usage_hint"):
+                    vdata["usage_hint"] = existing[verb]["usage_hint"]
+                else:
+                    vdata["usage_hint"] = f"{verb} + complément"
     with open(app_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"  Saved {app_path} ({len(data)} items)")

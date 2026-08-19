@@ -34,6 +34,8 @@ body { background-color: var(--cream-bg); color: var(--ink-text); font-family: v
 .aux-badge { background-color: #e8f5e9; color: var(--sage-primary); }
 .lexical-box { background-color: var(--cream-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
 .lexical-label { font-weight: 700; color: var(--sage-primary); }
+.usage-block { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; background-color: #f0f7f4; padding: 0.4rem 0.8rem; border-radius: 8px; border-left: 3px solid var(--sage-primary); }
+.usage-text { font-weight: 600; color: var(--sage-primary); }
 .pills-list { display: flex; gap: 0.5rem; flex-wrap: wrap; }
 .antonym-pill { background-color: #ffffff; border: 1px solid var(--accent-gold); padding: 0.2rem 0.7rem; border-radius: var(--radius-pill); font-size: 0.85rem; cursor: pointer; }
 .stem { color: var(--sage-dark); font-weight: 700; }

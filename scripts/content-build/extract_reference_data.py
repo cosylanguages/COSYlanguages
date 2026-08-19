@@ -38,12 +38,21 @@ def load_all_databases():
 
 LEXICON = load_all_databases()
 
-# Verification & CEFR Enrichment logic
+DEFAULT_HINTS = {
+    "fr_verbs": "+ COD (complément d'objet direct)",
+    "it_verbs": "+ oggetto diretto",
+    "ru_verbs": "+ винительный падеж (кого/что)",
+    "el_verbs": "+ αιτιατική (άμεσο αντικείμενο)"
+}
+
+# Verification, CEFR & Preposition/Case Enrichment logic
 def enrich_and_verify():
     # 1. French Verbs
     for verb, data in LEXICON.get("fr_verbs", {}).items():
         if "level" not in data:
             data["level"] = "A1" if verb in ["être", "avoir", "faire", "aller", "parler", "aimer", "manger"] else "A2"
+        if "usage_hint" not in data or not data["usage_hint"]:
+            data["usage_hint"] = f"{verb} {DEFAULT_HINTS['fr_verbs']}"
         # Ensure all 8 tenses exist
         tenses = data.get("tenses", {})
         stem = verb[:-2] if verb.endswith("er") else verb
@@ -66,6 +75,8 @@ def enrich_and_verify():
     for verb, data in LEXICON.get("it_verbs", {}).items():
         if "level" not in data:
             data["level"] = "A1" if verb in ["essere", "avere", "fare", "andare", "parlare", "mangiare"] else "A2"
+        if "usage_hint" not in data or not data["usage_hint"]:
+            data["usage_hint"] = f"{verb} {DEFAULT_HINTS['it_verbs']}"
         tenses = data.get("tenses", {})
         stem = verb[:-3] if verb.endswith(("are", "ere", "ire")) else verb
         if "subj" not in tenses:
@@ -86,6 +97,8 @@ def enrich_and_verify():
     for verb, data in LEXICON.get("ru_verbs", {}).items():
         if "level" not in data:
             data["level"] = "A1" if verb in ["читать", "писать", "делать", "работать", "знать", "говорить"] else "A2"
+        if "usage_hint" not in data or not data["usage_hint"]:
+            data["usage_hint"] = f"{verb} {DEFAULT_HINTS['ru_verbs']}"
 
     # 6. Russian Nouns
     for noun, data in LEXICON.get("ru_nouns", {}).items():
@@ -96,6 +109,8 @@ def enrich_and_verify():
     for verb, data in LEXICON.get("el_verbs", {}).items():
         if "level" not in data:
             data["level"] = "A1" if verb in ["γράφω", "διαβάζω", "βλέπω", "ακούω", "μιλάω", "θέλω"] else "A2"
+        if "usage_hint" not in data or not data["usage_hint"]:
+            data["usage_hint"] = f"{verb} {DEFAULT_HINTS['el_verbs']}"
 
     # 8. Greek Nouns
     for noun, data in LEXICON.get("el_nouns", {}).items():
@@ -110,7 +125,7 @@ def main():
             os.makedirs(os.path.dirname(rel_path), exist_ok=True)
             with open(rel_path, 'w', encoding='utf-8') as f:
                 json.dump(LEXICON[key], f, ensure_ascii=False, indent=2)
-            print(f"  ✅ Enriched {rel_path} ({len(LEXICON[key])} entries with CEFR levels & full tenses)")
+            print(f"  ✅ Enriched {rel_path} ({len(LEXICON[key])} entries with CEFR levels & usage_hints)")
     print("🎉 Pipeline executed successfully across all 8 standalone reference apps.")
 
 if __name__ == "__main__":

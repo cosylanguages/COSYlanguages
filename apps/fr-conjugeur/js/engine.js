@@ -159,6 +159,7 @@ class ConjugationEngine {
             group: "1er groupe (-er)",
             auxiliary: "avoir",
             definition: `Action de ${infinitive}.`,
+            usage_hint: `${infinitive} + COD (complément d'objet direct)`,
             antonyms: [],
             tenses: {
                 pres: [`je ${stem}e`, `tu ${stem}es`, `il/elle ${stem}e`, `nous ${stem}ons`, `vous ${stem}ez`, `ils/elles ${stem}ent`],
@@ -213,6 +214,14 @@ class ConjugationEngine {
         }
         levelBadge.textContent = `Niveau : ${data.level || 'A1'}`;
         document.getElementById('verb-definition').textContent = data.definition || 'Définition indisponible.';
+
+        const usageBox = document.getElementById('usage-container');
+        const usageHintEl = document.getElementById('verb-usage-hint');
+        if (usageHintEl) {
+            const usage = data.usage_hint || `${infinitive} + COD`;
+            usageHintEl.textContent = usage;
+            if (usageBox) usageBox.style.display = 'flex';
+        }
 
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {

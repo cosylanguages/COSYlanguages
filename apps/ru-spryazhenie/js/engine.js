@@ -55,6 +55,7 @@ class RussianConjugationEngine {
                 group: 'I спряжение (НСВ)',
                 pair: 'н/д',
                 definition: `Действие (${q}).`,
+                usage_hint: `${q} + винительный падеж (кого/что)`,
                 antonyms: [],
                 tenses: {
                     pres: [`я ${stem}ю`, `ты ${stem}ешь`, `он/она ${stem}ет`, `мы ${stem}ем`, `вы ${stem}ете`, `они ${stem}ют`],
@@ -98,6 +99,14 @@ class RussianConjugationEngine {
         }
         levelBadge.textContent = `Уровень: ${data.level || 'A1'}`;
         document.getElementById('verb-definition').textContent = data.definition;
+
+        const usageBox = document.getElementById('usage-container');
+        const usageHintEl = document.getElementById('verb-usage-hint');
+        if (usageHintEl) {
+            const usage = data.usage_hint || `${verb} + винительный падеж (кого/что)`;
+            usageHintEl.textContent = usage;
+            if (usageBox) usageBox.style.display = 'flex';
+        }
 
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {

@@ -11,6 +11,7 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         await expect(page.locator('#verb-infinitive')).toHaveText('parler');
         await expect(page.locator('#verb-group-badge')).toContainText('1er groupe');
         await expect(page.locator('#verb-cefr-badge')).toContainText('Niveau');
+        await expect(page.locator('#verb-usage-hint')).toContainText('parler à');
 
         // Check stem/ending color coding
         const verbFormHtml = await page.innerHTML('#tense-pres li:first-child .verb-form');
@@ -42,5 +43,6 @@ test.describe('Standalone Language Reference Apps Verification', () => {
 
         await expect(page.locator('#verb-infinitive')).toHaveText('γράφω');
         await expect(page.locator('#verb-definition')).not.toBeEmpty();
+        await expect(page.locator('#verb-usage-hint')).toContainText('γράφω σε');
     });
 });

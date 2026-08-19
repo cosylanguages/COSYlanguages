@@ -80,7 +80,8 @@
         "parlante",
         "parlato"
       ]
-    }
+    },
+    "usage_hint": "parlare a (qualcuno) / di (qualcosa o qualcuno)"
   },
   "amare": {
     "group": "1a coniugazione",
@@ -163,7 +164,8 @@
         "amante",
         "amato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto (senza preposizione)"
   },
   "camminare": {
     "group": "1a coniugazione",
@@ -246,7 +248,8 @@
         "camminante",
         "camminato"
       ]
-    }
+    },
+    "usage_hint": "camminare verso / in / per"
   },
   "studiare": {
     "group": "1a coniugazione",
@@ -329,7 +332,8 @@
         "studiante",
         "studiato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto"
   },
   "lavorare": {
     "group": "1a coniugazione",
@@ -412,7 +416,8 @@
         "lavorante",
         "lavorato"
       ]
-    }
+    },
+    "usage_hint": "lavorare per / con / in"
   },
   "abitare": {
     "group": "1a coniugazione",
@@ -495,7 +500,8 @@
         "abitante",
         "abitato"
       ]
-    }
+    },
+    "usage_hint": "abitare a (città) / in (paese o regione)"
   },
   "ascoltare": {
     "group": "1a coniugazione",
@@ -578,7 +584,8 @@
         "ascoltante",
         "ascoltato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto (ascoltare qualcuno/qualcosa)"
   },
   "guardare": {
     "group": "1a coniugazione",
@@ -661,7 +668,8 @@
         "guardante",
         "guardato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto (guardare qualcosa)"
   },
   "pensare": {
     "group": "1a coniugazione",
@@ -744,7 +752,8 @@
         "pensante",
         "pensato"
       ]
-    }
+    },
+    "usage_hint": "pensare a (qualcosa/qualcuno) / di (opinione)"
   },
   "cercare": {
     "group": "1a coniugazione",
@@ -827,7 +836,8 @@
         "cercante",
         "cercato"
       ]
-    }
+    },
+    "usage_hint": "cercare + oggetto diretto / cercare di (fare)"
   },
   "trovare": {
     "group": "1a coniugazione",
@@ -910,7 +920,8 @@
         "trovante",
         "trovato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto"
   },
   "donare": {
     "group": "1a coniugazione",
@@ -993,7 +1004,8 @@
         "donante",
         "donato"
       ]
-    }
+    },
+    "usage_hint": "donare (qualcosa) a (qualcuno)"
   },
   "domandare": {
     "group": "1a coniugazione",
@@ -1076,7 +1088,8 @@
         "domandante",
         "domandato"
       ]
-    }
+    },
+    "usage_hint": "domandare (qualcosa) a (qualcuno) / di (fare)"
   },
   "giocare": {
     "group": "1a coniugazione",
@@ -1159,7 +1172,8 @@
         "giocante",
         "giocato"
       ]
-    }
+    },
+    "usage_hint": "giocare a (gioco/sport) / con (qualcuno)"
   },
   "cantare": {
     "group": "1a coniugazione",
@@ -1242,7 +1256,8 @@
         "cantante",
         "cantato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto / per (qualcuno)"
   },
   "ballare": {
     "group": "1a coniugazione",
@@ -1325,7 +1340,8 @@
         "ballante",
         "ballato"
       ]
-    }
+    },
+    "usage_hint": "ballare con / su"
   },
   "viaggiare": {
     "group": "1a coniugazione",
@@ -1408,7 +1424,8 @@
         "viaggiante",
         "viaggiato"
       ]
-    }
+    },
+    "usage_hint": "voyaggiare in / a / con"
   },
   "passare": {
     "group": "1a coniugazione",
@@ -1491,7 +1508,8 @@
         "passante",
         "passato"
       ]
-    }
+    },
+    "usage_hint": "passare per / da / passare + oggetto diretto (tempo)"
   },
   "guadagnare": {
     "group": "1a coniugazione",
@@ -1574,7 +1592,8 @@
         "guadagnante",
         "guadagnato"
       ]
-    }
+    },
+    "usage_hint": "guadagnare + oggetto diretto"
   },
   "preparare": {
     "group": "1a coniugazione",
@@ -1657,7 +1676,8 @@
         "preparante",
         "preparato"
       ]
-    }
+    },
+    "usage_hint": "preparare + oggetto diretto / prepararsi a"
   },
   "visitare": {
     "group": "1a coniugazione",
@@ -1740,7 +1760,8 @@
         "visitante",
         "visitato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto (visitare un luogo)"
   },
   "aiutare": {
     "group": "1a coniugazione",
@@ -1823,7 +1844,8 @@
         "aiutante",
         "aiutato"
       ]
-    }
+    },
+    "usage_hint": "aiutare (qualcuno) a (fare qualcosa)"
   },
   "aspettare": {
     "group": "1a coniugazione",
@@ -1906,7 +1928,8 @@
         "aspettante",
         "aspettato"
       ]
-    }
+    },
+    "usage_hint": "aspettare + oggetto diretto"
   },
   "arrivare": {
     "group": "1a coniugazione",
@@ -1989,7 +2012,8 @@
         "arrivante",
         "arrivato"
       ]
-    }
+    },
+    "usage_hint": "arrivare a / in / da"
   },
   "portare": {
     "group": "1a coniugazione",
@@ -2072,7 +2096,8 @@
         "portante",
         "portato"
       ]
-    }
+    },
+    "usage_hint": "portare + oggetto diretto"
   },
   "dimenticare": {
     "group": "1a coniugazione",
@@ -2155,7 +2180,8 @@
         "dimenticante",
         "dimenticato"
       ]
-    }
+    },
+    "usage_hint": "dimenticare + oggetto diretto / di (fare)"
   },
   "ricordare": {
     "group": "1a coniugazione",
@@ -2238,7 +2264,8 @@
         "ricordante",
         "ricordato"
       ]
-    }
+    },
+    "usage_hint": "ricordare (qualcosa) a (qualcuno)"
   },
   "spiegare": {
     "group": "1a coniugazione",
@@ -2321,7 +2348,8 @@
         "spiegante",
         "spiegato"
       ]
-    }
+    },
+    "usage_hint": "spiegare (qualcosa) a (qualcuno)"
   },
   "comprare": {
     "group": "1a coniugazione",
@@ -2404,7 +2432,8 @@
         "comprante",
         "comprato"
       ]
-    }
+    },
+    "usage_hint": "comprare + oggetto diretto"
   },
   "pagare": {
     "group": "1a coniugazione",
@@ -2487,7 +2516,8 @@
         "pagante",
         "pagato"
       ]
-    }
+    },
+    "usage_hint": "pagare (qualcosa) a (qualcuno)"
   },
   "cominciare": {
     "group": "1a coniugazione",
@@ -2570,7 +2600,8 @@
         "cominciante",
         "cominciato"
       ]
-    }
+    },
+    "usage_hint": "cominciare a (fare qualcosa) / con"
   },
   "imparare": {
     "group": "1a coniugazione",
@@ -2653,7 +2684,8 @@
         "imparante",
         "imparato"
       ]
-    }
+    },
+    "usage_hint": "imparare + oggetto diretto"
   },
   "insegnare": {
     "group": "1a coniugazione",
@@ -2736,7 +2768,8 @@
         "insegnante",
         "insegnato"
       ]
-    }
+    },
+    "usage_hint": "insegnare + oggetto diretto"
   },
   "sperare": {
     "group": "1a coniugazione",
@@ -2819,7 +2852,8 @@
         "sperante",
         "sperato"
       ]
-    }
+    },
+    "usage_hint": "sperare di (fare) / in (qualcosa)"
   },
   "sognare": {
     "group": "1a coniugazione",
@@ -2902,7 +2936,8 @@
         "sognante",
         "sognato"
       ]
-    }
+    },
+    "usage_hint": "sognare + oggetto diretto"
   },
   "cambiare": {
     "group": "1a coniugazione",
@@ -2985,7 +3020,8 @@
         "cambiante",
         "cambiato"
       ]
-    }
+    },
+    "usage_hint": "cambiare + oggetto diretto"
   },
   "incontrare": {
     "group": "1a coniugazione",
@@ -3068,7 +3104,8 @@
         "incontrante",
         "incontrato"
       ]
-    }
+    },
+    "usage_hint": "incontrare + oggetto diretto"
   },
   "salvare": {
     "group": "1a coniugazione",
@@ -3151,7 +3188,8 @@
         "salvante",
         "salvato"
       ]
-    }
+    },
+    "usage_hint": "salvare + oggetto diretto"
   },
   "guidare": {
     "group": "1a coniugazione",
@@ -3234,7 +3272,8 @@
         "guidante",
         "guidato"
       ]
-    }
+    },
+    "usage_hint": "guidare + oggetto diretto"
   },
   "ordinare": {
     "group": "1a coniugazione",
@@ -3317,7 +3356,8 @@
         "ordinante",
         "ordinato"
       ]
-    }
+    },
+    "usage_hint": "ordinare + oggetto diretto"
   },
   "organizzare": {
     "group": "1a coniugazione",
@@ -3400,7 +3440,8 @@
         "organizzante",
         "organizzato"
       ]
-    }
+    },
+    "usage_hint": "organizzare + oggetto diretto"
   },
   "inviare": {
     "group": "1a coniugazione",
@@ -3483,7 +3524,8 @@
         "inviante",
         "inviato"
       ]
-    }
+    },
+    "usage_hint": "inviare + oggetto diretto"
   },
   "rifiutare": {
     "group": "1a coniugazione",
@@ -3566,7 +3608,8 @@
         "rifiutante",
         "rifiutato"
       ]
-    }
+    },
+    "usage_hint": "rifiutare + oggetto diretto / di (fare)"
   },
   "accettare": {
     "group": "1a coniugazione",
@@ -3649,7 +3692,8 @@
         "accettante",
         "accettato"
       ]
-    }
+    },
+    "usage_hint": "accettare + oggetto diretto / di (fare)"
   },
   "baciare": {
     "group": "1a coniugazione",
@@ -3732,7 +3776,8 @@
         "baciante",
         "baciato"
       ]
-    }
+    },
+    "usage_hint": "baciare + oggetto diretto"
   },
   "credere": {
     "group": "2a coniugazione",
@@ -3815,7 +3860,8 @@
         "credante",
         "credato"
       ]
-    }
+    },
+    "usage_hint": "credere + oggetto diretto"
   },
   "sembrare": {
     "group": "1a coniugazione",
@@ -3898,7 +3944,8 @@
         "sembrante",
         "sembrato"
       ]
-    }
+    },
+    "usage_hint": "sembrare + oggetto diretto"
   },
   "diventare": {
     "group": "1a coniugazione",
@@ -3981,7 +4028,8 @@
         "diventante",
         "diventato"
       ]
-    }
+    },
+    "usage_hint": "diventare + oggetto diretto"
   },
   "nuotare": {
     "group": "1a coniugazione",
@@ -4064,7 +4112,8 @@
         "nuotante",
         "nuotato"
       ]
-    }
+    },
+    "usage_hint": "nuotare in / con"
   },
   "volare": {
     "group": "1a coniugazione",
@@ -4147,7 +4196,8 @@
         "volante",
         "volato"
       ]
-    }
+    },
+    "usage_hint": "volare verso / sopra"
   },
   "partire": {
     "group": "3a coniugazione",
@@ -4230,7 +4280,8 @@
         "partante",
         "partato"
       ]
-    }
+    },
+    "usage_hint": "partire + oggetto diretto"
   },
   "sentire": {
     "group": "3a coniugazione",
@@ -4313,7 +4364,8 @@
         "sentante",
         "sentato"
       ]
-    }
+    },
+    "usage_hint": "sentire + oggetto diretto"
   },
   "pulire": {
     "group": "3a coniugazione",
@@ -4396,7 +4448,8 @@
         "pulante",
         "pulato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto"
   },
   "capire": {
     "group": "3a coniugazione",
@@ -4479,7 +4532,8 @@
         "capante",
         "capato"
       ]
-    }
+    },
+    "usage_hint": "capire + oggetto diretto"
   },
   "finire": {
     "group": "3a coniugazione",
@@ -4562,7 +4616,8 @@
         "finante",
         "finato"
       ]
-    }
+    },
+    "usage_hint": "finire di (fare qualcosa) / per"
   },
   "offrire": {
     "group": "3a coniugazione",
@@ -4645,7 +4700,8 @@
         "offrante",
         "offrato"
       ]
-    }
+    },
+    "usage_hint": "offrire + oggetto diretto"
   },
   "uscire": {
     "group": "3a coniugazione",
@@ -4728,7 +4784,8 @@
         "uscante",
         "uscato"
       ]
-    }
+    },
+    "usage_hint": "uscire + oggetto diretto"
   },
   "salire": {
     "group": "3a coniugazione",
@@ -4811,7 +4868,8 @@
         "salante",
         "salato"
       ]
-    }
+    },
+    "usage_hint": "salire su / in / a"
   },
   "essere": {
     "group": "2a coniugazione",
@@ -4894,7 +4952,8 @@
         "essante",
         "essato"
       ]
-    }
+    },
+    "usage_hint": "essere di (possesso) / a / in"
   },
   "avere": {
     "group": "2a coniugazione",
@@ -4977,7 +5036,8 @@
         "avante",
         "avato"
       ]
-    }
+    },
+    "usage_hint": "avere bisogno di / avere paura di / + oggetto diretto"
   },
   "andare": {
     "group": "1a coniugazione",
@@ -5060,7 +5120,8 @@
         "andante",
         "andato"
       ]
-    }
+    },
+    "usage_hint": "andare a (città/luogo) / in (paese/luogo)"
   },
   "venire": {
     "group": "3a coniugazione",
@@ -5143,7 +5204,8 @@
         "venante",
         "venato"
       ]
-    }
+    },
+    "usage_hint": "venire da (luogo) / con (persona)"
   },
   "fare": {
     "group": "1a coniugazione",
@@ -5226,7 +5288,8 @@
         "fante",
         "fato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto / fare di"
   },
   "dire": {
     "group": "3a coniugazione",
@@ -5309,7 +5372,8 @@
         "dante",
         "dato"
       ]
-    }
+    },
+    "usage_hint": "dire (qualcosa) a (qualcuno)"
   },
   "potere": {
     "group": "2a coniugazione",
@@ -5392,7 +5456,8 @@
         "potante",
         "potato"
       ]
-    }
+    },
+    "usage_hint": "+ infinito diretto"
   },
   "volere": {
     "group": "2a coniugazione",
@@ -5475,7 +5540,8 @@
         "volante",
         "volato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto / + infinito"
   },
   "sapere": {
     "group": "2a coniugazione",
@@ -5558,7 +5624,8 @@
         "sapante",
         "sapato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto / + infinito"
   },
   "dovere": {
     "group": "2a coniugazione",
@@ -5641,7 +5708,8 @@
         "dovante",
         "dovato"
       ]
-    }
+    },
+    "usage_hint": "dovere + oggetto diretto"
   },
   "leggere": {
     "group": "2a coniugazione",
@@ -5724,7 +5792,8 @@
         "leggante",
         "leggato"
       ]
-    }
+    },
+    "usage_hint": "leggere + oggetto diretto"
   },
   "scrivere": {
     "group": "2a coniugazione",
@@ -5807,7 +5876,8 @@
         "scrivante",
         "scrivato"
       ]
-    }
+    },
+    "usage_hint": "scrivere + oggetto diretto"
   },
   "vedere": {
     "group": "2a coniugazione",
@@ -5890,7 +5960,8 @@
         "vedante",
         "vedato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto"
   },
   "prendere": {
     "group": "2a coniugazione",
@@ -5973,7 +6044,8 @@
         "prendante",
         "prendato"
       ]
-    }
+    },
+    "usage_hint": "prendere + oggetto diretto / prendersi cura di"
   },
   "mettere": {
     "group": "2a coniugazione",
@@ -6056,7 +6128,8 @@
         "mettante",
         "mettato"
       ]
-    }
+    },
+    "usage_hint": "mettere + oggetto diretto"
   },
   "chiudere": {
     "group": "2a coniugazione",
@@ -6139,7 +6212,8 @@
         "chiudante",
         "chiudato"
       ]
-    }
+    },
+    "usage_hint": "chiudere + oggetto diretto"
   },
   "aprire": {
     "group": "3a coniugazione",
@@ -6222,7 +6296,8 @@
         "aprante",
         "aprato"
       ]
-    }
+    },
+    "usage_hint": "aprire + oggetto diretto"
   },
   "chiedere": {
     "group": "2a coniugazione",
@@ -6305,7 +6380,8 @@
         "chiedante",
         "chiedato"
       ]
-    }
+    },
+    "usage_hint": "chiedere + oggetto diretto"
   },
   "rispondere": {
     "group": "2a coniugazione",
@@ -6388,7 +6464,8 @@
         "rispondante",
         "rispondato"
       ]
-    }
+    },
+    "usage_hint": "rispondere + oggetto diretto"
   },
   "vincere": {
     "group": "2a coniugazione",
@@ -6471,7 +6548,8 @@
         "vincante",
         "vincato"
       ]
-    }
+    },
+    "usage_hint": "vincere + oggetto diretto / contro"
   },
   "perdere": {
     "group": "2a coniugazione",
@@ -6554,7 +6632,8 @@
         "perdante",
         "perdato"
       ]
-    }
+    },
+    "usage_hint": "perdere + oggetto diretto"
   },
   "bere": {
     "group": "2a coniugazione",
@@ -6637,7 +6716,8 @@
         "bante",
         "bato"
       ]
-    }
+    },
+    "usage_hint": "bere + oggetto diretto"
   },
   "rimanere": {
     "group": "2a coniugazione",
@@ -6720,7 +6800,8 @@
         "rimanante",
         "rimanato"
       ]
-    }
+    },
+    "usage_hint": "rimanere + oggetto diretto"
   },
   "scendere": {
     "group": "2a coniugazione",
@@ -6803,7 +6884,8 @@
         "scendante",
         "scendato"
       ]
-    }
+    },
+    "usage_hint": "scendere + oggetto diretto"
   },
   "correre": {
     "group": "2a coniugazione",
@@ -6886,7 +6968,8 @@
         "corrante",
         "corrato"
       ]
-    }
+    },
+    "usage_hint": "correre + oggetto diretto"
   },
   "morire": {
     "group": "3a coniugazione",
@@ -6969,7 +7052,8 @@
         "morante",
         "morato"
       ]
-    }
+    },
+    "usage_hint": "morire + oggetto diretto"
   },
   "nascere": {
     "group": "2a coniugazione",
@@ -7052,7 +7136,8 @@
         "nascante",
         "nascato"
       ]
-    }
+    },
+    "usage_hint": "nascere + oggetto diretto"
   },
   "vivere": {
     "group": "2a coniugazione",
@@ -7135,7 +7220,8 @@
         "vivante",
         "vivato"
       ]
-    }
+    },
+    "usage_hint": "vivere + oggetto diretto"
   },
   "chiamare": {
     "group": "1a coniugazione",
@@ -7218,7 +7304,8 @@
         "chiamante",
         "chiamato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto (chiamare qualcuno)"
   },
   "tornare": {
     "group": "1a coniugazione",
@@ -7301,7 +7388,8 @@
         "tornante",
         "tornato"
       ]
-    }
+    },
+    "usage_hint": "tornare + oggetto diretto"
   },
   "entrare": {
     "group": "1a coniugazione",
@@ -7384,7 +7472,8 @@
         "entrante",
         "entrato"
       ]
-    }
+    },
+    "usage_hint": "entrare in / a"
   },
   "giungere": {
     "group": "2a coniugazione",
@@ -7467,7 +7556,8 @@
         "giungante",
         "giungato"
       ]
-    }
+    },
+    "usage_hint": "giungere + oggetto diretto"
   },
   "permettere": {
     "group": "2a coniugazione",
@@ -7550,7 +7640,8 @@
         "permettante",
         "permettato"
       ]
-    }
+    },
+    "usage_hint": "permettere + oggetto diretto"
   },
   "promettere": {
     "group": "2a coniugazione",
@@ -7633,7 +7724,8 @@
         "promettante",
         "promettato"
       ]
-    }
+    },
+    "usage_hint": "promettere + oggetto diretto"
   },
   "offendere": {
     "group": "2a coniugazione",
@@ -7716,7 +7808,8 @@
         "offendante",
         "offendato"
       ]
-    }
+    },
+    "usage_hint": "offendere + oggetto diretto"
   },
   "difendere": {
     "group": "2a coniugazione",
@@ -7799,7 +7892,8 @@
         "difendante",
         "difendato"
       ]
-    }
+    },
+    "usage_hint": "difendere + oggetto diretto"
   },
   "muovere": {
     "group": "2a coniugazione",
@@ -7882,7 +7976,8 @@
         "muovante",
         "muovato"
       ]
-    }
+    },
+    "usage_hint": "muovere + oggetto diretto"
   },
   "accendere": {
     "group": "2a coniugazione",
@@ -7965,7 +8060,8 @@
         "accendante",
         "accendato"
       ]
-    }
+    },
+    "usage_hint": "accendere + oggetto diretto"
   },
   "spegnere": {
     "group": "2a coniugazione",
@@ -8048,7 +8144,8 @@
         "spegnante",
         "spegnato"
       ]
-    }
+    },
+    "usage_hint": "spegnere + oggetto diretto"
   },
   "battere": {
     "group": "2a coniugazione",
@@ -8131,7 +8228,8 @@
         "battante",
         "battato"
       ]
-    }
+    },
+    "usage_hint": "battere + oggetto diretto"
   },
   "cadere": {
     "group": "2a coniugazione",
@@ -8214,7 +8312,8 @@
         "cadante",
         "cadato"
       ]
-    }
+    },
+    "usage_hint": "cadere da / su / in"
   },
   "ridere": {
     "group": "2a coniugazione",
@@ -8297,7 +8396,8 @@
         "ridante",
         "ridato"
       ]
-    }
+    },
+    "usage_hint": "ridere + oggetto diretto"
   },
   "accompagnare": {
     "group": "1a coniugazione",
@@ -8380,7 +8480,8 @@
         "accompagnante",
         "accompagnato"
       ]
-    }
+    },
+    "usage_hint": "accompagnare + oggetto diretto"
   },
   "afferrare": {
     "group": "1a coniugazione",
@@ -8463,7 +8564,8 @@
         "afferrante",
         "afferrato"
       ]
-    }
+    },
+    "usage_hint": "afferrare + oggetto diretto"
   },
   "alzare": {
     "group": "1a coniugazione",
@@ -8546,7 +8648,8 @@
         "alzante",
         "alzato"
       ]
-    }
+    },
+    "usage_hint": "alzare + oggetto diretto"
   },
   "ammettere": {
     "group": "2a coniugazione",
@@ -8629,7 +8732,8 @@
         "ammettante",
         "ammettato"
       ]
-    }
+    },
+    "usage_hint": "ammettere + oggetto diretto"
   },
   "annunciare": {
     "group": "1a coniugazione",
@@ -8712,7 +8816,8 @@
         "annunciante",
         "annunciato"
       ]
-    }
+    },
+    "usage_hint": "annunciare + oggetto diretto"
   },
   "attraversare": {
     "group": "1a coniugazione",
@@ -8795,7 +8900,8 @@
         "attraversante",
         "attraversato"
       ]
-    }
+    },
+    "usage_hint": "attraversare + oggetto diretto"
   },
   "bastare": {
     "group": "1a coniugazione",
@@ -8878,7 +8984,8 @@
         "bastante",
         "bastato"
       ]
-    }
+    },
+    "usage_hint": "bastare + oggetto diretto"
   },
   "bloccare": {
     "group": "1a coniugazione",
@@ -8961,7 +9068,8 @@
         "bloccante",
         "bloccato"
       ]
-    }
+    },
+    "usage_hint": "bloccare + oggetto diretto"
   },
   "bruciare": {
     "group": "1a coniugazione",
@@ -9044,7 +9152,8 @@
         "bruciante",
         "bruciato"
       ]
-    }
+    },
+    "usage_hint": "bruciare + oggetto diretto"
   },
   "confermare": {
     "group": "1a coniugazione",
@@ -9127,7 +9236,8 @@
         "confermante",
         "confermato"
       ]
-    }
+    },
+    "usage_hint": "confermare + oggetto diretto"
   },
   "conoscere": {
     "group": "2a coniugazione",
@@ -9210,7 +9320,8 @@
         "conoscante",
         "conoscato"
       ]
-    }
+    },
+    "usage_hint": "conoscere + oggetto diretto"
   },
   "consigliare": {
     "group": "1a coniugazione",
@@ -9293,7 +9404,8 @@
         "consigliante",
         "consigliato"
       ]
-    }
+    },
+    "usage_hint": "consigliare + oggetto diretto"
   },
   "contare": {
     "group": "1a coniugazione",
@@ -9376,7 +9488,8 @@
         "contante",
         "contato"
       ]
-    }
+    },
+    "usage_hint": "contare su (qualcuno) / contare + oggetto diretto"
   },
   "continuare": {
     "group": "1a coniugazione",
@@ -9459,7 +9572,8 @@
         "continuante",
         "continuato"
       ]
-    }
+    },
+    "usage_hint": "continua a (fare qualcosa)"
   },
   "coprire": {
     "group": "3a coniugazione",
@@ -9542,7 +9656,8 @@
         "coprante",
         "coprato"
       ]
-    }
+    },
+    "usage_hint": "coprire + oggetto diretto"
   },
   "correggere": {
     "group": "2a coniugazione",
@@ -9625,7 +9740,8 @@
         "correggante",
         "correggato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto"
   },
   "costruire": {
     "group": "3a coniugazione",
@@ -9708,7 +9824,8 @@
         "costruante",
         "costruato"
       ]
-    }
+    },
+    "usage_hint": "costruire + oggetto diretto"
   },
   "cucinare": {
     "group": "1a coniugazione",
@@ -9791,7 +9908,8 @@
         "cucinante",
         "cucinato"
       ]
-    }
+    },
+    "usage_hint": "cucinare + oggetto diretto"
   },
   "decisione": {
     "group": "1a coniugazione",
@@ -9874,7 +9992,8 @@
         "decisioneante",
         "decisioneato"
       ]
-    }
+    },
+    "usage_hint": "decisione + oggetto diretto"
   },
   "descrivere": {
     "group": "2a coniugazione",
@@ -9957,7 +10076,8 @@
         "descrivante",
         "descrivato"
       ]
-    }
+    },
+    "usage_hint": "descrivere + oggetto diretto"
   },
   "dimostrare": {
     "group": "1a coniugazione",
@@ -10040,7 +10160,8 @@
         "dimostrante",
         "dimostrato"
       ]
-    }
+    },
+    "usage_hint": "dimostrare + oggetto diretto"
   },
   "disegnare": {
     "group": "1a coniugazione",
@@ -10123,7 +10244,8 @@
         "disegnante",
         "disegnato"
       ]
-    }
+    },
+    "usage_hint": "disegnare + oggetto diretto"
   },
   "distruggere": {
     "group": "2a coniugazione",
@@ -10206,7 +10328,8 @@
         "distruggante",
         "distruggato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto"
   },
   "dubitare": {
     "group": "1a coniugazione",
@@ -10289,7 +10412,8 @@
         "dubitante",
         "dubitato"
       ]
-    }
+    },
+    "usage_hint": "dubitare + oggetto diretto"
   },
   "evitare": {
     "group": "1a coniugazione",
@@ -10372,7 +10496,8 @@
         "evitante",
         "evitato"
       ]
-    }
+    },
+    "usage_hint": "evitare + oggetto diretto"
   },
   "fermare": {
     "group": "1a coniugazione",
@@ -10455,7 +10580,8 @@
         "fermante",
         "fermato"
       ]
-    }
+    },
+    "usage_hint": "fermare + oggetto diretto / fermarsi a"
   },
   "firmare": {
     "group": "1a coniugazione",
@@ -10538,7 +10664,8 @@
         "firmante",
         "firmato"
       ]
-    }
+    },
+    "usage_hint": "firmare + oggetto diretto"
   },
   "lasciare": {
     "group": "1a coniugazione",
@@ -10621,7 +10748,8 @@
         "lasciante",
         "lasciato"
       ]
-    }
+    },
+    "usage_hint": "lasciare + oggetto diretto / di (fare)"
   },
   "mostrare": {
     "group": "1a coniugazione",
@@ -10704,7 +10832,8 @@
         "mostrante",
         "mostrato"
       ]
-    }
+    },
+    "usage_hint": "mostrare (qualcosa) a (qualcuno)"
   },
   "nascondere": {
     "group": "2a coniugazione",
@@ -10787,7 +10916,8 @@
         "nascondante",
         "nascondato"
       ]
-    }
+    },
+    "usage_hint": "nascondere (qualcosa) a (qualcuno)"
   },
   "piangere": {
     "group": "2a coniugazione",
@@ -10870,7 +11000,8 @@
         "piangante",
         "piangato"
       ]
-    }
+    },
+    "usage_hint": "piangere per / di (gioia/dolore)"
   },
   "raccontare": {
     "group": "1a coniugazione",
@@ -10953,7 +11084,8 @@
         "raccontante",
         "raccontato"
       ]
-    }
+    },
+    "usage_hint": "raccontare (qualcosa) a (qualcuno)"
   },
   "vendere": {
     "group": "2a coniugazione",
@@ -11036,7 +11168,8 @@
         "vendante",
         "vendato"
       ]
-    }
+    },
+    "usage_hint": "vendere (qualcosa) a (qualcuno)"
   },
   "provare": {
     "group": "are",
@@ -11104,7 +11237,8 @@
         "provante",
         "provato"
       ]
-    }
+    },
+    "usage_hint": "provare + oggetto diretto"
   },
   "salutare": {
     "group": "are",
@@ -11172,7 +11306,8 @@
         "salutante",
         "salutato"
       ]
-    }
+    },
+    "usage_hint": "salutare + oggetto diretto"
   },
   "suonare": {
     "group": "are",
@@ -11240,7 +11375,8 @@
         "suonante",
         "suonato"
       ]
-    }
+    },
+    "usage_hint": "suonare + oggetto diretto"
   },
   "telefonare": {
     "group": "are",
@@ -11308,7 +11444,8 @@
         "telefonante",
         "telefonato"
       ]
-    }
+    },
+    "usage_hint": "telefonare + oggetto diretto"
   },
   "usare": {
     "group": "are",
@@ -11376,7 +11513,8 @@
         "usante",
         "usato"
       ]
-    }
+    },
+    "usage_hint": "usare + oggetto diretto"
   },
   "dare": {
     "group": "are",
@@ -11444,7 +11582,8 @@
         "dante",
         "dato"
       ]
-    }
+    },
+    "usage_hint": "dare + oggetto diretto"
   },
   "entrari": {
     "group": "are",
@@ -11512,7 +11651,8 @@
         "entrariante",
         "entrariato"
       ]
-    }
+    },
+    "usage_hint": "entrari + oggetto diretto"
   },
   "mangiare": {
     "group": "are",
@@ -11580,7 +11720,8 @@
         "mangiante",
         "mangiato"
       ]
-    }
+    },
+    "usage_hint": "mangiare + oggetto diretto"
   },
   "piacere": {
     "group": "ere",
@@ -11648,7 +11789,8 @@
         "piacante",
         "piacato"
       ]
-    }
+    },
+    "usage_hint": "piacere + oggetto diretto"
   },
   "stare": {
     "group": "are",
@@ -11716,7 +11858,8 @@
         "stante",
         "stato"
       ]
-    }
+    },
+    "usage_hint": "stare + oggetto diretto"
   },
   "invitare": {
     "group": "are",
@@ -11784,7 +11927,8 @@
         "invitante",
         "invitato"
       ]
-    }
+    },
+    "usage_hint": "invitare + oggetto diretto"
   },
   "lanciare": {
     "group": "are",
@@ -11852,7 +11996,8 @@
         "lanciante",
         "lanciato"
       ]
-    }
+    },
+    "usage_hint": "lanciare + oggetto diretto"
   },
   "lavare": {
     "group": "are",
@@ -11920,7 +12065,8 @@
         "lavante",
         "lavato"
       ]
-    }
+    },
+    "usage_hint": "lavare + oggetto diretto"
   },
   "mancare": {
     "group": "are",
@@ -11988,7 +12134,8 @@
         "mancante",
         "mancato"
       ]
-    }
+    },
+    "usage_hint": "mancare + oggetto diretto"
   },
   "preferire": {
     "group": "ire",
@@ -12056,7 +12203,8 @@
         "preferante",
         "preferato"
       ]
-    }
+    },
+    "usage_hint": "preferire + oggetto diretto / + infinito a"
   },
   "riposare": {
     "group": "are",
@@ -12124,7 +12272,8 @@
         "riposante",
         "riposato"
       ]
-    }
+    },
+    "usage_hint": "riposare + oggetto diretto"
   },
   "rompere": {
     "group": "ere",
@@ -12192,7 +12341,8 @@
         "rompante",
         "rompato"
       ]
-    }
+    },
+    "usage_hint": "rompere + oggetto diretto"
   },
   "scoprire": {
     "group": "ire",
@@ -12260,7 +12410,8 @@
         "scoprante",
         "scoprato"
       ]
-    }
+    },
+    "usage_hint": "scoprire + oggetto diretto"
   },
   "svegliare": {
     "group": "are",
@@ -12328,7 +12479,8 @@
         "svegliante",
         "svegliato"
       ]
-    }
+    },
+    "usage_hint": "svegliare + oggetto diretto"
   },
   "annullare": {
     "group": "are",
@@ -12396,7 +12548,8 @@
         "annullante",
         "annullato"
       ]
-    }
+    },
+    "usage_hint": "annullare + oggetto diretto"
   },
   "appartenere": {
     "group": "ere",
@@ -12464,7 +12617,8 @@
         "appartenante",
         "appartenato"
       ]
-    }
+    },
+    "usage_hint": "appartenere + oggetto diretto"
   },
   "aumentare": {
     "group": "are",
@@ -12532,7 +12686,8 @@
         "aumentante",
         "aumentato"
       ]
-    }
+    },
+    "usage_hint": "aumentare + oggetto diretto"
   },
   "cenare": {
     "group": "are",
@@ -12600,7 +12755,8 @@
         "cenante",
         "cenato"
       ]
-    }
+    },
+    "usage_hint": "cenare + oggetto diretto"
   },
   "comprendere": {
     "group": "ere",
@@ -12668,7 +12824,8 @@
         "comprendante",
         "comprendato"
       ]
-    }
+    },
+    "usage_hint": "comprendere + oggetto diretto"
   },
   "consegnare": {
     "group": "are",
@@ -12736,7 +12893,8 @@
         "consegnante",
         "consegnato"
       ]
-    }
+    },
+    "usage_hint": "consegnare + oggetto diretto"
   },
   "decidere": {
     "group": "ere",
@@ -12804,7 +12962,8 @@
         "decidante",
         "decidato"
       ]
-    }
+    },
+    "usage_hint": "decidere di (fare qualcosa)"
   },
   "desiderare": {
     "group": "are",
@@ -12872,7 +13031,8 @@
         "desiderante",
         "desiderato"
       ]
-    }
+    },
+    "usage_hint": "+ oggetto diretto / + infinito"
   },
   "raccogliere": {
     "group": "ere",
@@ -12940,7 +13100,8 @@
         "raccogliante",
         "raccogliato"
       ]
-    }
+    },
+    "usage_hint": "raccogliere + oggetto diretto"
   },
   "raggiungere": {
     "group": "ere",
@@ -13008,7 +13169,8 @@
         "raggiungante",
         "raggiungato"
       ]
-    }
+    },
+    "usage_hint": "raggiungere + oggetto diretto"
   },
   "regalare": {
     "group": "are",
@@ -13076,7 +13238,8 @@
         "regalante",
         "regalato"
       ]
-    }
+    },
+    "usage_hint": "regalare + oggetto diretto"
   },
   "ricevere": {
     "group": "ere",
@@ -13144,7 +13307,8 @@
         "ricevante",
         "ricevato"
       ]
-    }
+    },
+    "usage_hint": "ricevere + oggetto diretto"
   },
   "ringraziare": {
     "group": "are",
@@ -13212,7 +13376,8 @@
         "ringraziante",
         "ringraziato"
       ]
-    }
+    },
+    "usage_hint": "ringraziare + oggetto diretto"
   },
   "ripetere": {
     "group": "ere",
@@ -13280,7 +13445,8 @@
         "ripetante",
         "ripetato"
       ]
-    }
+    },
+    "usage_hint": "ripetere + oggetto diretto"
   },
   "sbagliare": {
     "group": "are",
@@ -13348,7 +13514,8 @@
         "sbagliante",
         "sbagliato"
       ]
-    }
+    },
+    "usage_hint": "sbagliare + oggetto diretto"
   },
   "scegliere": {
     "group": "ere",
@@ -13416,7 +13583,8 @@
         "scegliante",
         "scegliato"
       ]
-    }
+    },
+    "usage_hint": "scegliere + oggetto diretto / di (fare)"
   },
   "uccidere": {
     "group": "ere",
@@ -13484,7 +13652,8 @@
         "uccidante",
         "uccidato"
       ]
-    }
+    },
+    "usage_hint": "uccidere + oggetto diretto"
   },
   "votare": {
     "group": "are",
@@ -13552,7 +13721,8 @@
         "votante",
         "votato"
       ]
-    }
+    },
+    "usage_hint": "votare + oggetto diretto"
   },
   "avvisare": {
     "group": "are",
@@ -13620,6 +13790,7 @@
         "avvisante",
         "avvisato"
       ]
-    }
+    },
+    "usage_hint": "avvisare + oggetto diretto"
   }
 }
