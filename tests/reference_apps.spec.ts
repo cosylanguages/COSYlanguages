@@ -45,4 +45,27 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         await expect(page.locator('#verb-definition')).not.toBeEmpty();
         await expect(page.locator('#verb-usage-hint')).toContainText('γράφω σε');
     });
+
+    test('it-coniugatore displays usage hint and CEFR badge for Italian verbs', async ({ page }) => {
+        await page.goto('http://localhost:8080/apps/it-coniugatore/index.html');
+        await page.waitForSelector('#verb-search-input');
+
+        await page.fill('#verb-search-input', 'rispondere');
+        await page.keyboard.press('Enter');
+
+        await expect(page.locator('#verb-infinitive')).toHaveText('rispondere');
+        await expect(page.locator('#verb-usage-hint')).toContainText('rispondere a');
+    });
+
+    test('it-genere displays explicit article and plural form for Italian nouns', async ({ page }) => {
+        await page.goto('http://localhost:8080/apps/it-genere/index.html');
+        await page.waitForSelector('#noun-search-input');
+
+        await page.fill('#noun-search-input', 'casa');
+        await page.keyboard.press('Enter');
+
+        await expect(page.locator('#noun-title')).toHaveText('casa');
+        await expect(page.locator('#sing-form')).toContainText('la');
+        await expect(page.locator('#plur-form')).toContainText('case');
+    });
 });

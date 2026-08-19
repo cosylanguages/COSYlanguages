@@ -88,6 +88,17 @@ class GreekConjugationEngine {
         document.getElementById('verb-infinitive').textContent = verb;
         document.getElementById('verb-group-badge').textContent = data.group;
         document.getElementById('verb-voice-badge').textContent = data.voice;
+
+        let levelBadge = document.getElementById('verb-cefr-badge');
+        if (!levelBadge) {
+            levelBadge = document.createElement('span');
+            levelBadge.id = 'verb-cefr-badge';
+            levelBadge.className = 'badge cefr-badge';
+            const voiceBadge = document.getElementById('verb-voice-badge');
+            if (voiceBadge) voiceBadge.insertAdjacentElement('afterend', levelBadge);
+        }
+        if (levelBadge) levelBadge.textContent = `Επίπεδο : ${data.level || 'A1'}`;
+
         document.getElementById('verb-definition').textContent = data.definition;
 
         const usageBox = document.getElementById('usage-container');
