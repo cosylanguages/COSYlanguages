@@ -84,7 +84,8 @@ class GreekGenderCasesEngine {
         document.getElementById('noun-title').textContent = noun;
 
         const badge = document.getElementById('gender-badge');
-        badge.textContent = `${data.gender} (${data.article.toUpperCase()})`;
+        const artDisplay = (data.article || (data.gender === 'Αρσενικό' ? 'ο' : (data.gender === 'Θηλυκό' ? 'η' : 'το'))).toUpperCase();
+        badge.textContent = `${data.gender} (${artDisplay})`;
         badge.className = `badge ${data.gender === 'Αρσενικό' ? 'gender-masc' : (data.gender === 'Θηλυκό' ? 'gender-fem' : 'gender-neut')}`;
         document.getElementById('noun-definition').textContent = data.definition;
 

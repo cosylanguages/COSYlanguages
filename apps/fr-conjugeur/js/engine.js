@@ -347,16 +347,17 @@ class ConjugationEngine {
             return;
         }
 
-        const randomIdx = Math.floor(Math.random() * Math.min(tenseForms.length, 6));
+        const isSingleForm = tenseForms.length === 1;
+        const randomIdx = isSingleForm ? 0 : Math.floor(Math.random() * Math.min(tenseForms.length, 6));
         const targetForm = tenseForms[randomIdx];
-        const pronoun = pronouns[randomIdx] || 'il/elle';
+        const pronoun = isSingleForm ? 'il/elle' : (pronouns[randomIdx] || 'il/elle');
 
         // Clean full form to extract just the verb
         const cleanExpected = targetForm
-            .replace(/^(je|j'|tu|il\/elle|nous|vous|ils\/elles)\s+/i, '')
+            .replace(/^((je|tu|il\/elle|nous|vous|ils\/elles|que|qu'|que tu|que nous|que vous)\s+|j')/i, '')
             .trim();
 
-        const displayPronoun = targetForm.startsWith("j'") ? "j'" : pronoun;
+        const displayPronoun = targetForm.startsWith("j'") ? "j'" : (isSingleForm ? "il" : pronoun);
 
         this.currentQuestion = {
             verb: randomVerb,

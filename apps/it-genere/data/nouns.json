@@ -497,7 +497,7 @@
     ]
   },
   "cielo": {
-    "gender": "Masculin",
+    "gender": "Maschile",
     "level": "A1",
     "definition": "Spazio visibile sopra la terra.",
     "antonyms": [
@@ -1421,7 +1421,7 @@
     ]
   },
   "arte": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "l'",
     "level": "A1",
     "definition": "Attività umana creativa.",
@@ -1439,7 +1439,7 @@
     }
   },
   "attore": {
-    "gender": "maschile",
+    "gender": "Maschile",
     "article": "l'",
     "level": "A1",
     "definition": "Chi recita in uno spettacolo.",
@@ -1457,7 +1457,7 @@
     }
   },
   "autunno": {
-    "gender": "maschile",
+    "gender": "Maschile",
     "article": "l'",
     "level": "A1",
     "definition": "Stagione tra estate e inverno.",
@@ -1475,7 +1475,7 @@
     }
   },
   "bagno": {
-    "gender": "maschile",
+    "gender": "Maschile",
     "article": "il",
     "level": "A1",
     "definition": "Stanza per l'igiene personale.",
@@ -1493,7 +1493,7 @@
     }
   },
   "banca": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Istituto di credito.",
@@ -1511,7 +1511,7 @@
     }
   },
   "barca": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Piccola imbarcazione.",
@@ -1529,7 +1529,7 @@
     }
   },
   "bicicletta": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Veicolo a due ruote.",
@@ -1547,7 +1547,7 @@
     }
   },
   "bottiglia": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Recipiente per liquidi.",
@@ -1565,7 +1565,7 @@
     }
   },
   "campagna": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Territorio aperto coltivato.",
@@ -1583,7 +1583,7 @@
     }
   },
   "capitale": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Città sede del governo.",
@@ -1601,7 +1601,7 @@
     }
   },
   "carne": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Alimento di origine animale.",
@@ -1619,7 +1619,7 @@
     }
   },
   "classe": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Gruppo di studenti.",
@@ -1637,7 +1637,7 @@
     }
   },
   "colore": {
-    "gender": "maschile",
+    "gender": "Maschile",
     "article": "il",
     "level": "A1",
     "definition": "Percezione visiva della luce.",
@@ -1655,7 +1655,7 @@
     }
   },
   "concerto": {
-    "gender": "maschile",
+    "gender": "Maschile",
     "article": "il",
     "level": "A1",
     "definition": "Esecuzione di musica dal vivo.",
@@ -1673,7 +1673,7 @@
     }
   },
   "festa": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Celebrante solenne o lieta.",
@@ -1691,7 +1691,7 @@
     }
   },
   "filosofia": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A2",
     "definition": "Studio dei problemi fondamentali.",
@@ -1709,7 +1709,7 @@
     }
   },
   "giovane": {
-    "gender": "maschile",
+    "gender": "Maschile",
     "article": "il",
     "level": "A1",
     "definition": "Persona in età giovanile.",
@@ -1727,7 +1727,7 @@
     }
   },
   "isola": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "l'",
     "level": "A1",
     "definition": "Terra emersa circondata dalle acque.",
@@ -1745,7 +1745,7 @@
     }
   },
   "lettera": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Messaggio scritto o segno alfabetico.",
@@ -1763,7 +1763,7 @@
     }
   },
   "madre": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Genitore femminile.",
@@ -1781,7 +1781,7 @@
     }
   },
   "medico": {
-    "gender": "maschile",
+    "gender": "Maschile",
     "article": "il",
     "level": "A1",
     "definition": "Professionista della salute.",
@@ -1799,7 +1799,7 @@
     }
   },
   "natura": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Mondo fisico comprensivo di flora e fauna.",
@@ -1817,7 +1817,7 @@
     }
   },
   "parola": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Unità del linguaggio parlato.",
@@ -1835,7 +1835,7 @@
     }
   },
   "piazza": {
-    "gender": "femminile",
+    "gender": "Femminile",
     "article": "la",
     "level": "A1",
     "definition": "Spazio pubblico aperto in città.",

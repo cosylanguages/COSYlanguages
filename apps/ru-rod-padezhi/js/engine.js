@@ -84,8 +84,8 @@ class RussianGenderCasesEngine {
         document.getElementById('noun-title').textContent = noun;
 
         const badge = document.getElementById('gender-badge');
-        badge.textContent = `${data.gender} род`;
-        badge.className = `badge ${data.gender === 'Мужской' ? 'gender-masc' : (data.gender === 'Женский' ? 'gender-fem' : 'gender-neut')}`;
+        badge.textContent = `${data.gender.toLowerCase()} род`;
+        badge.className = `badge ${data.gender.toLowerCase() === 'мужской' ? 'gender-masc' : (data.gender.toLowerCase() === 'женский' ? 'gender-fem' : 'gender-neut')}`;
         document.getElementById('animacy-badge').textContent = data.animacy;
         document.getElementById('noun-definition').textContent = data.definition;
 

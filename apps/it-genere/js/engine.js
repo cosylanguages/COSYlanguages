@@ -77,13 +77,21 @@ class ItalianGenderEngine {
             }
         }
 
-        let stem = noun.slice(0, -1);
-        let ending = noun.slice(-1);
-        document.getElementById('sing-form').innerHTML = `<span class="article">${data.article}</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;
+        const isFem = data.gender === 'Femminile';
+        const isVowel = /^[aeiouàèéìòù]/i.test(noun);
+        const defaultArt = isVowel ? "l'" : (isFem ? 'la' : 'il');
+        const singArt = data.article || defaultArt;
 
-        let plurEnding = data.plural.slice(-1);
-        let plurStem = data.plural.slice(0, -1);
-        let plurArticle = data.gender === 'Maschile' ? 'i' : 'le';
+        let stem = noun.length > 1 ? noun.slice(0, -1) : noun;
+        let ending = noun.length > 1 ? noun.slice(-1) : '';
+        document.getElementById('sing-form').innerHTML = `<span class="article">${singArt}</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;
+
+        const defaultPlur = isFem ? (noun.endsWith('a') ? noun.slice(0, -1) + 'e' : noun + 'e') : (noun.slice(0, -1) + 'i');
+        const pluralForm = data.plural || defaultPlur;
+
+        let plurEnding = pluralForm.length > 1 ? pluralForm.slice(-1) : '';
+        let plurStem = pluralForm.length > 1 ? pluralForm.slice(0, -1) : pluralForm;
+        let plurArticle = isFem ? 'le' : (singArt === 'lo' || (isVowel && !isFem) ? 'gli' : 'i');
         document.getElementById('plur-form').innerHTML = `<span class="article">${plurArticle}</span> <span class="stem">${plurStem}</span><span class="ending">${plurEnding}</span>`;
 
         const antonymsBox = document.getElementById('antonyms-pills');
