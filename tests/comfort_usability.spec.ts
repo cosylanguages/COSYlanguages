@@ -162,4 +162,15 @@ test.describe('COSYlanguages Comfort, Usability & Responsive Adaptation', () => 
             expect(gcCardBg).not.toBe('rgb(255, 255, 255)');
         }
     });
+
+    test('Keyboard focus-visible indicators on interactive controls', async ({ page }) => {
+        await page.goto('http://localhost:8080/index.html');
+
+        const searchInput = page.locator('.styled-sel').first();
+        if (await searchInput.isVisible()) {
+            await searchInput.focus();
+            const boxShadow = await searchInput.evaluate((el) => window.getComputedStyle(el).boxShadow);
+            expect(boxShadow).not.toBe('none');
+        }
+    });
 });
