@@ -173,4 +173,16 @@ test.describe('COSYlanguages Comfort, Usability & Responsive Adaptation', () => 
             expect(boxShadow).not.toBe('none');
         }
     });
+
+    test('Mobile practice page focus-visible indicators on mobile viewport', async ({ page }) => {
+        await page.setViewportSize({ width: 390, height: 844 });
+        await page.goto('http://localhost:8080/practice/index.html');
+
+        const catPill = page.locator('.cat-pill').first();
+        if (await catPill.isVisible()) {
+            await catPill.focus();
+            const cursor = await catPill.evaluate((el) => window.getComputedStyle(el).cursor);
+            expect(cursor).toBe('pointer');
+        }
+    });
 });

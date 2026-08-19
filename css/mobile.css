@@ -210,6 +210,11 @@
     -webkit-tap-highlight-color: transparent;
   }
 
+  .cat-pill:focus, .cat-pill:focus-visible, .filter-chip:focus, .filter-chip:focus-visible, .lang-flag-btn:focus, .lang-flag-btn:focus-visible, .start-btn-primary:focus, .start-btn-primary:focus-visible {
+    outline: 3px solid var(--sage, #6b8f71) !important;
+    outline-offset: 2px !important;
+  }
+
   .cat-pill .cp-icon { font-size: 18px; }
   .cat-pill.active-vocab { border-color: var(--sage); background: var(--sage-pale); color: var(--sage-dark); }
   .cat-pill.active-grammar { border-color: var(--sage-dark); background: var(--sage-mist); color: var(--sage-deep); }
