@@ -91,17 +91,27 @@ class NounGenderEngine {
             }
         }
 
-        document.getElementById('sing-form').innerHTML = `<span class="article">${data.article}</span> <span class="stem">${noun}</span>`;
+        const isVowelStart = /^[aeiouyéèêhô]/i.test(noun);
+        const defaultArticle = isVowelStart ? "l'" : (data.gender === 'Masculin' ? 'le' : 'la');
+        const article = data.article || defaultArticle;
+        document.getElementById('sing-form').innerHTML = `<span class="article">${article}</span> <span class="stem">${noun}</span>`;
 
         // Plural ending split
+        const pluralForm = data.plural || (noun.endsWith('al') ? noun.slice(0, -2) + 'aux' : (noun.endsWith('s') || noun.endsWith('x') ? noun : noun + 's'));
         let stem = noun;
         let ending = 's';
-        if (data.plural.endsWith('oux') || data.plural.endsWith('aux') || data.plural.endsWith('x')) {
-            ending = data.plural.slice(-1);
-            stem = data.plural.slice(0, -1);
-        } else if (data.plural.endsWith('s')) {
+        if (pluralForm.endsWith('oux') || pluralForm.endsWith('aux') || pluralForm.endsWith('x')) {
+            ending = pluralForm.slice(-1);
+            stem = pluralForm.slice(0, -1);
+        } else if (pluralForm === noun) {
             stem = noun;
+            ending = '';
+        } else if (pluralForm.endsWith('s')) {
+            stem = pluralForm.slice(0, -1);
             ending = 's';
+        } else {
+            stem = pluralForm;
+            ending = '';
         }
         document.getElementById('plur-form').innerHTML = `<span class="article">les</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;
 
