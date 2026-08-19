@@ -4149,89 +4149,6 @@
       ]
     }
   },
-  "dormire": {
-    "group": "3a coniugazione",
-    "level": "A1",
-    "definition": "Riposare nello stato di sonno.",
-    "antonyms": [
-      "svegliarsi"
-    ],
-    "tenses": {
-      "presente": [
-        "dormo",
-        "dormi",
-        "dorme",
-        "dormiamo",
-        "dormite",
-        "dormono"
-      ],
-      "imperfetto": [
-        "dormivo",
-        "dormivi",
-        "dormiva",
-        "dormivamo",
-        "dormivate",
-        "dormivano"
-      ],
-      "futuro_semplice": [
-        "dormirò",
-        "dormirai",
-        "dormirà",
-        "dormiremo",
-        "dormirete",
-        "dormiranno"
-      ],
-      "condizionale_presente": [
-        "dormirei",
-        "dormiresti",
-        "dormirebbe",
-        "dormiremmo",
-        "dormireste",
-        "dormirebbero"
-      ],
-      "congiuntivo_presente": [
-        "che io dorma",
-        "che tu dorma",
-        "che egli dorma",
-        "che noi dormiamo",
-        "che voi dormiate",
-        "che essi dormano"
-      ],
-      "imperativo": [
-        "dormi!",
-        "dormiamo!",
-        "dormite!"
-      ],
-      "participio_passato": [
-        "dormito"
-      ],
-      "subj": [
-        "che io dormi",
-        "che tu dormi",
-        "che lui/lei dormi",
-        "che noi dormiamo",
-        "che voi dormiate",
-        "che loro dormino"
-      ],
-      "cond": [
-        "io dormerei",
-        "tu dormeresti",
-        "lui/lei dormerebbe",
-        "noi dormeremmo",
-        "voi dormereste",
-        "loro dormerebbero"
-      ],
-      "impv": [
-        "dorma",
-        "dormiamo",
-        "dormate"
-      ],
-      "part": [
-        "dormante",
-        "dormato"
-      ]
-    }
-  },
   "partire": {
     "group": "3a coniugazione",
     "level": "A1",
@@ -11458,6 +11375,2250 @@
       "part": [
         "usante",
         "usato"
+      ]
+    }
+  },
+  "dare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Offrire a qualcuno.",
+    "antonyms": [
+      "prendere"
+    ],
+    "tenses": {
+      "pres": [
+        "io do",
+        "tu dai",
+        "lui/lei dà",
+        "noi diamo",
+        "voi date",
+        "loro danno"
+      ],
+      "pass_comp": [
+        "io ho dato",
+        "tu hai dato",
+        "lui/lei ha dato",
+        "noi abbiamo dato",
+        "voi avete dato",
+        "loro hanno dato"
+      ],
+      "impf": [
+        "io davo",
+        "tu davi",
+        "lui/lei dava",
+        "noi davamo",
+        "voi davate",
+        "loro davano"
+      ],
+      "fut": [
+        "io darò",
+        "tu darai",
+        "lui/lei darà",
+        "noi daremo",
+        "voi darete",
+        "loro daranno"
+      ],
+      "cond": [
+        "io darei",
+        "tu dareresti",
+        "lui/lei darerebbe",
+        "noi dareremmo",
+        "voi darereste",
+        "loro darerebbero"
+      ],
+      "subj": [
+        "che io di",
+        "che tu di",
+        "che lui/lei di",
+        "che noi diamo",
+        "che voi diate",
+        "che loro dino"
+      ],
+      "impv": [
+        "da",
+        "diamo",
+        "date"
+      ],
+      "part": [
+        "dante",
+        "dato"
+      ]
+    }
+  },
+  "entrari": {
+    "group": "are",
+    "auxiliary": "essere",
+    "level": "A1",
+    "definition": "Passare all'interno.",
+    "antonyms": [
+      "uscire"
+    ],
+    "tenses": {
+      "pres": [
+        "io entro",
+        "tu entri",
+        "lui/lei entra",
+        "noi entriamo",
+        "voi entrate",
+        "loro entrano"
+      ],
+      "pass_comp": [
+        "io sono entrato",
+        "tu sei entrato",
+        "lui/lei è entrato",
+        "noi siamo entrato",
+        "voi siete entrato",
+        "loro sono entrato"
+      ],
+      "impf": [
+        "io entravo",
+        "tu entravi",
+        "lui/lei entrava",
+        "noi entravamo",
+        "voi entravate",
+        "loro entravano"
+      ],
+      "fut": [
+        "io entrerò",
+        "tu entrerai",
+        "lui/lei entrerà",
+        "noi entreremo",
+        "voi entrerete",
+        "loro entreranno"
+      ],
+      "cond": [
+        "io entrerei",
+        "tu entrereresti",
+        "lui/lei entrererebbe",
+        "noi entrereremmo",
+        "voi entrerereste",
+        "loro entrererebbero"
+      ],
+      "subj": [
+        "che io entrarii",
+        "che tu entrarii",
+        "che lui/lei entrarii",
+        "che noi entrariiamo",
+        "che voi entrariiate",
+        "che loro entrariino"
+      ],
+      "impv": [
+        "entraria",
+        "entrariiamo",
+        "entrariate"
+      ],
+      "part": [
+        "entrariante",
+        "entrariato"
+      ]
+    }
+  },
+  "mangiare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Nutrirsi di cibo.",
+    "antonyms": [
+      "digiunare"
+    ],
+    "tenses": {
+      "pres": [
+        "io mangio",
+        "tu mangi",
+        "lui/lei mangia",
+        "noi mangiamo",
+        "voi mangiate",
+        "loro mangiano"
+      ],
+      "pass_comp": [
+        "io ho mangiato",
+        "tu hai mangiato",
+        "lui/lei ha mangiato",
+        "noi abbiamo mangiato",
+        "voi avete mangiato",
+        "loro hanno mangiato"
+      ],
+      "impf": [
+        "io mangiavo",
+        "tu mangiavi",
+        "lui/lei mangiava",
+        "noi mangiavamo",
+        "voi mangiavate",
+        "loro mangiavano"
+      ],
+      "fut": [
+        "io mangerò",
+        "tu mangerai",
+        "lui/lei mangerà",
+        "noi mangeremo",
+        "voi mangerete",
+        "loro mangeranno"
+      ],
+      "cond": [
+        "io mangerei",
+        "tu mangereresti",
+        "lui/lei mangererebbe",
+        "noi mangereremmo",
+        "voi mangerereste",
+        "loro mangererebbero"
+      ],
+      "subj": [
+        "che io mangii",
+        "che tu mangii",
+        "che lui/lei mangii",
+        "che noi mangiiamo",
+        "che voi mangiiate",
+        "che loro mangiino"
+      ],
+      "impv": [
+        "mangia",
+        "mangiiamo",
+        "mangiate"
+      ],
+      "part": [
+        "mangiante",
+        "mangiato"
+      ]
+    }
+  },
+  "piacere": {
+    "group": "ere",
+    "auxiliary": "essere",
+    "level": "A1",
+    "definition": "Risultare gradito.",
+    "antonyms": [
+      "dispiacere"
+    ],
+    "tenses": {
+      "pres": [
+        "io piaccio",
+        "tu piaci",
+        "lui/lei piace",
+        "noi piacciamo",
+        "voi piacete",
+        "loro piacciono"
+      ],
+      "pass_comp": [
+        "io è piaciuto",
+        "tu è piaciuto",
+        "lui/lei è piaciuto",
+        "noi è piaciuto",
+        "voi è piaciuto",
+        "loro è piaciuto"
+      ],
+      "impf": [
+        "io piacevo",
+        "tu piacevi",
+        "lui/lei piaceva",
+        "noi piacevamo",
+        "voi piacevate",
+        "loro piacevano"
+      ],
+      "fut": [
+        "io piacerò",
+        "tu piacerai",
+        "lui/lei piacerà",
+        "noi piaceremo",
+        "voi piacerete",
+        "loro piaceranno"
+      ],
+      "cond": [
+        "io piacerei",
+        "tu piacereresti",
+        "lui/lei piacererebbe",
+        "noi piacereremmo",
+        "voi piacerereste",
+        "loro piacererebbero"
+      ],
+      "subj": [
+        "che io piaci",
+        "che tu piaci",
+        "che lui/lei piaci",
+        "che noi piaciamo",
+        "che voi piaciate",
+        "che loro piacino"
+      ],
+      "impv": [
+        "piaca",
+        "piaciamo",
+        "piacate"
+      ],
+      "part": [
+        "piacante",
+        "piacato"
+      ]
+    }
+  },
+  "stare": {
+    "group": "are",
+    "auxiliary": "essere",
+    "level": "A1",
+    "definition": "Trovarsi in una condizione.",
+    "antonyms": [
+      "andare"
+    ],
+    "tenses": {
+      "pres": [
+        "io sto",
+        "tu stai",
+        "lui/lei sta",
+        "noi stiamo",
+        "voi state",
+        "loro stanno"
+      ],
+      "pass_comp": [
+        "io sono stato",
+        "tu sei stato",
+        "lui/lei è stato",
+        "noi siamo stato",
+        "voi siete stato",
+        "loro sono stato"
+      ],
+      "impf": [
+        "io stavo",
+        "tu stavi",
+        "lui/lei stava",
+        "noi stavamo",
+        "voi stavate",
+        "loro stavano"
+      ],
+      "fut": [
+        "io starò",
+        "tu starai",
+        "lui/lei starà",
+        "noi staremo",
+        "voi starete",
+        "loro staranno"
+      ],
+      "cond": [
+        "io starei",
+        "tu stareresti",
+        "lui/lei starerebbe",
+        "noi stareremmo",
+        "voi starereste",
+        "loro starerebbero"
+      ],
+      "subj": [
+        "che io sti",
+        "che tu sti",
+        "che lui/lei sti",
+        "che noi stiamo",
+        "che voi stiate",
+        "che loro stino"
+      ],
+      "impv": [
+        "sta",
+        "stiamo",
+        "state"
+      ],
+      "part": [
+        "stante",
+        "stato"
+      ]
+    }
+  },
+  "invitare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Chiedere di venire.",
+    "antonyms": [
+      "cacciare"
+    ],
+    "tenses": {
+      "pres": [
+        "io invito",
+        "tu inviti",
+        "lui/lei invita",
+        "noi invitiamo",
+        "voi invitate",
+        "loro invitano"
+      ],
+      "pass_comp": [
+        "io ho invitato",
+        "tu hai invitato",
+        "lui/lei ha invitato",
+        "noi abbiamo invitato",
+        "voi avete invitato",
+        "loro hanno invitato"
+      ],
+      "impf": [
+        "io invitavo",
+        "tu invitavi",
+        "lui/lei invitava",
+        "noi invitavamo",
+        "voi invitavate",
+        "loro invitavano"
+      ],
+      "fut": [
+        "io inviterò",
+        "tu inviterai",
+        "lui/lei inviterà",
+        "noi inviteremo",
+        "voi inviterete",
+        "loro inviteranno"
+      ],
+      "cond": [
+        "io inviterei",
+        "tu invitereresti",
+        "lui/lei invitererebbe",
+        "noi invitereremmo",
+        "voi inviterereste",
+        "loro invitererebbero"
+      ],
+      "subj": [
+        "che io inviti",
+        "che tu inviti",
+        "che lui/lei inviti",
+        "che noi invitiamo",
+        "che voi invitiate",
+        "che loro invitino"
+      ],
+      "impv": [
+        "invita",
+        "invitiamo",
+        "invitate"
+      ],
+      "part": [
+        "invitante",
+        "invitato"
+      ]
+    }
+  },
+  "lanciare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Scagliare con forza.",
+    "antonyms": [
+      "raccogliere"
+    ],
+    "tenses": {
+      "pres": [
+        "io lancio",
+        "tu lanci",
+        "lui/lei lancia",
+        "noi lanciamo",
+        "voi lanciate",
+        "loro lanciano"
+      ],
+      "pass_comp": [
+        "io ho lanciato",
+        "tu hai lanciato",
+        "lui/lei ha lanciato",
+        "noi abbiamo lanciato",
+        "voi avete lanciato",
+        "loro hanno lanciato"
+      ],
+      "impf": [
+        "io lanciavo",
+        "tu lanciavi",
+        "lui/lei lanciava",
+        "noi lanciavamo",
+        "voi lanciavate",
+        "loro lanciavano"
+      ],
+      "fut": [
+        "io lancerò",
+        "tu lancerai",
+        "lui/lei lancerà",
+        "noi lanceremo",
+        "voi lancerete",
+        "loro lanceranno"
+      ],
+      "cond": [
+        "io lancerei",
+        "tu lancereresti",
+        "lui/lei lancererebbe",
+        "noi lancereremmo",
+        "voi lancerereste",
+        "loro lancererebbero"
+      ],
+      "subj": [
+        "che io lancii",
+        "che tu lancii",
+        "che lui/lei lancii",
+        "che noi lanciiamo",
+        "che voi lanciiate",
+        "che loro lanciino"
+      ],
+      "impv": [
+        "lancia",
+        "lanciiamo",
+        "lanciate"
+      ],
+      "part": [
+        "lanciante",
+        "lanciato"
+      ]
+    }
+  },
+  "lavare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Pulire con acqua.",
+    "antonyms": [
+      "sporcare"
+    ],
+    "tenses": {
+      "pres": [
+        "io lavo",
+        "tu lavi",
+        "lui/lei lava",
+        "noi laviamo",
+        "voi lavate",
+        "loro lavano"
+      ],
+      "pass_comp": [
+        "io ho lavato",
+        "tu hai lavato",
+        "lui/lei ha lavato",
+        "noi abbiamo lavato",
+        "voi avete lavato",
+        "loro hanno lavato"
+      ],
+      "impf": [
+        "io lavavo",
+        "tu lavavi",
+        "lui/lei lavava",
+        "noi lavavamo",
+        "voi lavavate",
+        "loro lavavano"
+      ],
+      "fut": [
+        "io laverò",
+        "tu laverai",
+        "lui/lei laverà",
+        "noi laveremo",
+        "voi laverete",
+        "loro laveranno"
+      ],
+      "cond": [
+        "io laverei",
+        "tu lavereresti",
+        "lui/lei lavererebbe",
+        "noi lavereremmo",
+        "voi laverereste",
+        "loro lavererebbero"
+      ],
+      "subj": [
+        "che io lavi",
+        "che tu lavi",
+        "che lui/lei lavi",
+        "che noi laviamo",
+        "che voi laviate",
+        "che loro lavino"
+      ],
+      "impv": [
+        "lava",
+        "laviamo",
+        "lavate"
+      ],
+      "part": [
+        "lavante",
+        "lavato"
+      ]
+    }
+  },
+  "mancare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Fattore di assenza.",
+    "antonyms": [
+      "bastare"
+    ],
+    "tenses": {
+      "pres": [
+        "io manco",
+        "tu manchi",
+        "lui/lei manca",
+        "noi manchiamo",
+        "voi mancate",
+        "loro mancano"
+      ],
+      "pass_comp": [
+        "io ho mancato",
+        "tu hai mancato",
+        "lui/lei ha mancato",
+        "noi abbiamo mancato",
+        "voi avete mancato",
+        "loro hanno mancato"
+      ],
+      "impf": [
+        "io mancavo",
+        "tu mancavi",
+        "lui/lei mancava",
+        "noi mancavamo",
+        "voi mancavate",
+        "loro mancavano"
+      ],
+      "fut": [
+        "io mancherò",
+        "tu mancherai",
+        "lui/lei mancherà",
+        "noi mancheremo",
+        "voi mancherete",
+        "loro mancheranno"
+      ],
+      "cond": [
+        "io mancherei",
+        "tu manchereresti",
+        "lui/lei manchererebbe",
+        "noi manchereremmo",
+        "voi mancherereste",
+        "loro manchererebbero"
+      ],
+      "subj": [
+        "che io manci",
+        "che tu manci",
+        "che lui/lei manci",
+        "che noi manciamo",
+        "che voi manciate",
+        "che loro mancino"
+      ],
+      "impv": [
+        "manca",
+        "manciamo",
+        "mancate"
+      ],
+      "part": [
+        "mancante",
+        "mancato"
+      ]
+    }
+  },
+  "preferire": {
+    "group": "ire",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Avere maggiore gradimento.",
+    "antonyms": [
+      "detestare"
+    ],
+    "tenses": {
+      "pres": [
+        "io preferisco",
+        "tu preferisci",
+        "lui/lei preferisce",
+        "noi preferiamo",
+        "voi preferite",
+        "loro preferiscono"
+      ],
+      "pass_comp": [
+        "io ho preferito",
+        "tu hai preferito",
+        "lui/lei ha preferito",
+        "noi abbiamo preferito",
+        "voi avete preferito",
+        "loro hanno preferito"
+      ],
+      "impf": [
+        "io preferivo",
+        "tu preferivi",
+        "lui/lei preferiva",
+        "noi preferivamo",
+        "voi preferivate",
+        "loro preferivano"
+      ],
+      "fut": [
+        "io preferirò",
+        "tu preferirai",
+        "lui/lei preferirà",
+        "noi preferiremo",
+        "voi preferirete",
+        "loro preferiranno"
+      ],
+      "cond": [
+        "io preferirei",
+        "tu preferireresti",
+        "lui/lei preferirerebbe",
+        "noi preferireremmo",
+        "voi preferirereste",
+        "loro preferirerebbero"
+      ],
+      "subj": [
+        "che io preferi",
+        "che tu preferi",
+        "che lui/lei preferi",
+        "che noi preferiamo",
+        "che voi preferiate",
+        "che loro preferino"
+      ],
+      "impv": [
+        "prefera",
+        "preferiamo",
+        "preferate"
+      ],
+      "part": [
+        "preferante",
+        "preferato"
+      ]
+    }
+  },
+  "riposare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Riconquistare le forze.",
+    "antonyms": [
+      "faticare"
+    ],
+    "tenses": {
+      "pres": [
+        "io riposo",
+        "tu riposi",
+        "lui/lei riposa",
+        "noi riposiamo",
+        "voi riposate",
+        "loro riposano"
+      ],
+      "pass_comp": [
+        "io ho riposato",
+        "tu hai riposato",
+        "lui/lei ha riposato",
+        "noi abbiamo riposato",
+        "voi avete riposato",
+        "loro hanno riposato"
+      ],
+      "impf": [
+        "io riposavo",
+        "tu riposavi",
+        "lui/lei riposava",
+        "noi riposavamo",
+        "voi riposavate",
+        "loro riposavano"
+      ],
+      "fut": [
+        "io riposerò",
+        "tu riposerai",
+        "lui/lei riposerà",
+        "noi riposeremo",
+        "voi riposerete",
+        "loro riposeranno"
+      ],
+      "cond": [
+        "io riposerei",
+        "tu riposereresti",
+        "lui/lei riposererebbe",
+        "noi riposereremmo",
+        "voi riposerereste",
+        "loro riposererebbero"
+      ],
+      "subj": [
+        "che io riposi",
+        "che tu riposi",
+        "che lui/lei riposi",
+        "che noi riposiamo",
+        "che voi riposiate",
+        "che loro riposino"
+      ],
+      "impv": [
+        "riposa",
+        "riposiamo",
+        "riposate"
+      ],
+      "part": [
+        "riposante",
+        "riposato"
+      ]
+    }
+  },
+  "rompere": {
+    "group": "ere",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Spezzare in parti.",
+    "antonyms": [
+      "aggiustare"
+    ],
+    "tenses": {
+      "pres": [
+        "io rompo",
+        "tu rompi",
+        "lui/lei rompe",
+        "noi rompiamo",
+        "voi rompete",
+        "loro rompono"
+      ],
+      "pass_comp": [
+        "io ho rotto",
+        "tu hai rotto",
+        "lui/lei ha rotto",
+        "noi abbiamo rotto",
+        "voi avete rotto",
+        "loro hanno rotto"
+      ],
+      "impf": [
+        "io rompevo",
+        "tu rompevi",
+        "lui/lei rompeva",
+        "noi rompevamo",
+        "voi rompevate",
+        "loro rompevano"
+      ],
+      "fut": [
+        "io romperò",
+        "tu romperai",
+        "lui/lei romperà",
+        "noi romperemo",
+        "voi romperete",
+        "loro romperanno"
+      ],
+      "cond": [
+        "io romperei",
+        "tu rompereresti",
+        "lui/lei rompererebbe",
+        "noi rompereremmo",
+        "voi romperereste",
+        "loro rompererebbero"
+      ],
+      "subj": [
+        "che io rompi",
+        "che tu rompi",
+        "che lui/lei rompi",
+        "che noi rompiamo",
+        "che voi rompiate",
+        "che loro rompino"
+      ],
+      "impv": [
+        "rompa",
+        "rompiamo",
+        "rompate"
+      ],
+      "part": [
+        "rompante",
+        "rompato"
+      ]
+    }
+  },
+  "scoprire": {
+    "group": "ire",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Trovare ciò che è celato.",
+    "antonyms": [
+      "nascondere"
+    ],
+    "tenses": {
+      "pres": [
+        "io scopro",
+        "tu scopri",
+        "lui/lei scopre",
+        "noi scopriamo",
+        "voi scoprite",
+        "loro scoprono"
+      ],
+      "pass_comp": [
+        "io ho scoperto",
+        "tu hai scoperto",
+        "lui/lei ha scoperto",
+        "noi abbiamo scoperto",
+        "voi avete scoperto",
+        "loro hanno scoperto"
+      ],
+      "impf": [
+        "io scoprivo",
+        "tu scoprivi",
+        "lui/lei scopriva",
+        "noi scoprivamo",
+        "voi scoprivate",
+        "loro scoprivano"
+      ],
+      "fut": [
+        "io scoprirò",
+        "tu scoprirai",
+        "lui/lei scoprirà",
+        "noi scopriremo",
+        "voi scoprirete",
+        "loro scopriranno"
+      ],
+      "cond": [
+        "io scoprirei",
+        "tu scoprireresti",
+        "lui/lei scoprirerebbe",
+        "noi scoprireremmo",
+        "voi scoprirereste",
+        "loro scoprirerebbero"
+      ],
+      "subj": [
+        "che io scopri",
+        "che tu scopri",
+        "che lui/lei scopri",
+        "che noi scopriamo",
+        "che voi scopriate",
+        "che loro scoprino"
+      ],
+      "impv": [
+        "scopra",
+        "scopriamo",
+        "scoprate"
+      ],
+      "part": [
+        "scoprante",
+        "scoprato"
+      ]
+    }
+  },
+  "svegliare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Interrompere il sonno.",
+    "antonyms": [
+      "addormentare"
+    ],
+    "tenses": {
+      "pres": [
+        "io sveglio",
+        "tu svegli",
+        "lui/lei sveglia",
+        "noi svegliamo",
+        "voi svegliate",
+        "loro svegliano"
+      ],
+      "pass_comp": [
+        "io ho svegliato",
+        "tu hai svegliato",
+        "lui/lei ha svegliato",
+        "noi abbiamo svegliato",
+        "voi avete svegliato",
+        "loro hanno svegliato"
+      ],
+      "impf": [
+        "io svegliavo",
+        "tu svegliavi",
+        "lui/lei svegliava",
+        "noi svegliavamo",
+        "voi svegliavate",
+        "loro svegliavano"
+      ],
+      "fut": [
+        "io sveglierò",
+        "tu sveglierai",
+        "lui/lei sveglierà",
+        "noi sveglieremo",
+        "voi sveglierete",
+        "loro sveglieranno"
+      ],
+      "cond": [
+        "io sveglierei",
+        "tu svegliereresti",
+        "lui/lei svegliererebbe",
+        "noi svegliereremmo",
+        "voi sveglierereste",
+        "loro svegliererebbero"
+      ],
+      "subj": [
+        "che io sveglii",
+        "che tu sveglii",
+        "che lui/lei sveglii",
+        "che noi svegliiamo",
+        "che voi svegliiate",
+        "che loro svegliino"
+      ],
+      "impv": [
+        "sveglia",
+        "svegliiamo",
+        "svegliate"
+      ],
+      "part": [
+        "svegliante",
+        "svegliato"
+      ]
+    }
+  },
+  "annullare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Rendere nullo.",
+    "antonyms": [
+      "confermare"
+    ],
+    "tenses": {
+      "pres": [
+        "io annullo",
+        "tu annulli",
+        "lui/lei annulla",
+        "noi annulliamo",
+        "voi annullate",
+        "loro annullano"
+      ],
+      "pass_comp": [
+        "io ho annullato",
+        "tu hai annullato",
+        "lui/lei ha annullato",
+        "noi abbiamo annullato",
+        "voi avete annullato",
+        "loro hanno annullato"
+      ],
+      "impf": [
+        "io annullavo",
+        "tu annullavi",
+        "lui/lei annullava",
+        "noi annullavamo",
+        "voi annullavate",
+        "loro annullavano"
+      ],
+      "fut": [
+        "io annullerò",
+        "tu annullerai",
+        "lui/lei annullerà",
+        "noi annulleremo",
+        "voi annullerete",
+        "loro annulleranno"
+      ],
+      "cond": [
+        "io annullerei",
+        "tu annullereresti",
+        "lui/lei annullererebbe",
+        "noi annullereremmo",
+        "voi annullerereste",
+        "loro annullererebbero"
+      ],
+      "subj": [
+        "che io annulli",
+        "che tu annulli",
+        "che lui/lei annulli",
+        "che noi annulliamo",
+        "che voi annulliate",
+        "che loro annullino"
+      ],
+      "impv": [
+        "annulla",
+        "annulliamo",
+        "annullate"
+      ],
+      "part": [
+        "annullante",
+        "annullato"
+      ]
+    }
+  },
+  "appartenere": {
+    "group": "ere",
+    "auxiliary": "essere",
+    "level": "A2",
+    "definition": "Essere di proprietà.",
+    "antonyms": [
+      "alienare"
+    ],
+    "tenses": {
+      "pres": [
+        "io appartengo",
+        "tu appartieni",
+        "lui/lei appartiene",
+        "noi apparteniamo",
+        "voi appartenete",
+        "loro appartengono"
+      ],
+      "pass_comp": [
+        "io è appartenuto",
+        "tu è appartenuto",
+        "lui/lei è appartenuto",
+        "noi è appartenuto",
+        "voi è appartenuto",
+        "loro è appartenuto"
+      ],
+      "impf": [
+        "io appartenevo",
+        "tu appartenevi",
+        "lui/lei apparteneva",
+        "noi appartenevamo",
+        "voi appartenevate",
+        "loro appartenevano"
+      ],
+      "fut": [
+        "io apparterrò",
+        "tu apparterrai",
+        "lui/lei apparterrà",
+        "noi apparterremo",
+        "voi apparterrete",
+        "loro apparterranno"
+      ],
+      "cond": [
+        "io apparterrei",
+        "tu apparterreresti",
+        "lui/lei apparterrerebbe",
+        "noi apparterreremmo",
+        "voi apparterrereste",
+        "loro apparterrerebbero"
+      ],
+      "subj": [
+        "che io apparteni",
+        "che tu apparteni",
+        "che lui/lei apparteni",
+        "che noi apparteniamo",
+        "che voi apparteniate",
+        "che loro appartenino"
+      ],
+      "impv": [
+        "appartena",
+        "apparteniamo",
+        "appartenate"
+      ],
+      "part": [
+        "appartenante",
+        "appartenato"
+      ]
+    }
+  },
+  "aumentare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Rendere maggiore.",
+    "antonyms": [
+      "diminuire"
+    ],
+    "tenses": {
+      "pres": [
+        "io aumento",
+        "tu aumenti",
+        "lui/lei aumenta",
+        "noi aumentiamo",
+        "voi aumentate",
+        "loro aumentano"
+      ],
+      "pass_comp": [
+        "io ho aumentato",
+        "tu hai aumentato",
+        "lui/lei ha aumentato",
+        "noi abbiamo aumentato",
+        "voi avete aumentato",
+        "loro hanno aumentato"
+      ],
+      "impf": [
+        "io aumentavo",
+        "tu aumentavi",
+        "lui/lei aumentava",
+        "noi aumentavamo",
+        "voi aumentavate",
+        "loro aumentavano"
+      ],
+      "fut": [
+        "io aumenterò",
+        "tu aumenterai",
+        "lui/lei aumenterà",
+        "noi aumenteremo",
+        "voi aumenterete",
+        "loro aumenteranno"
+      ],
+      "cond": [
+        "io aumenterei",
+        "tu aumentereresti",
+        "lui/lei aumentererebbe",
+        "noi aumentereremmo",
+        "voi aumenterereste",
+        "loro aumentererebbero"
+      ],
+      "subj": [
+        "che io aumenti",
+        "che tu aumenti",
+        "che lui/lei aumenti",
+        "che noi aumentiamo",
+        "che voi aumentiate",
+        "che loro aumentino"
+      ],
+      "impv": [
+        "aumenta",
+        "aumentiamo",
+        "aumentate"
+      ],
+      "part": [
+        "aumentante",
+        "aumentato"
+      ]
+    }
+  },
+  "cenare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Fare il pasto serale.",
+    "antonyms": [
+      "digiunare"
+    ],
+    "tenses": {
+      "pres": [
+        "io ceno",
+        "tu ceni",
+        "lui/lei cena",
+        "noi ceniamo",
+        "voi cenate",
+        "loro cenano"
+      ],
+      "pass_comp": [
+        "io ho cenato",
+        "tu hai cenato",
+        "lui/lei ha cenato",
+        "noi abbiamo cenato",
+        "voi avete cenato",
+        "loro hanno cenato"
+      ],
+      "impf": [
+        "io cenavo",
+        "tu cenavi",
+        "lui/lei cenava",
+        "noi cenavamo",
+        "voi cenavate",
+        "loro cenavano"
+      ],
+      "fut": [
+        "io cenerò",
+        "tu cenerai",
+        "lui/lei cenerà",
+        "noi ceneremo",
+        "voi cenerete",
+        "loro ceneranno"
+      ],
+      "cond": [
+        "io cenerei",
+        "tu cenereresti",
+        "lui/lei cenererebbe",
+        "noi cenereremmo",
+        "voi cenerereste",
+        "loro cenererebbero"
+      ],
+      "subj": [
+        "che io ceni",
+        "che tu ceni",
+        "che lui/lei ceni",
+        "che noi ceniamo",
+        "che voi ceniate",
+        "che loro cenino"
+      ],
+      "impv": [
+        "cena",
+        "ceniamo",
+        "cenate"
+      ],
+      "part": [
+        "cenante",
+        "cenato"
+      ]
+    }
+  },
+  "comprendere": {
+    "group": "ere",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Capire appieno.",
+    "antonyms": [
+      "fraintendere"
+    ],
+    "tenses": {
+      "pres": [
+        "io comprendo",
+        "tu comprendi",
+        "lui/lei comprende",
+        "noi comprendiamo",
+        "voi comprendete",
+        "loro comprendono"
+      ],
+      "pass_comp": [
+        "io ho compreso",
+        "tu hai compreso",
+        "lui/lei ha compreso",
+        "noi abbiamo compreso",
+        "voi avete compreso",
+        "loro hanno compreso"
+      ],
+      "impf": [
+        "io comprendevo",
+        "tu comprendevi",
+        "lui/lei comprendeva",
+        "noi comprendevamo",
+        "voi comprendevate",
+        "loro comprendevano"
+      ],
+      "fut": [
+        "io comprenderò",
+        "tu comprenderai",
+        "lui/lei comprenderà",
+        "noi comprenderemo",
+        "voi comprenderete",
+        "loro comprenderanno"
+      ],
+      "cond": [
+        "io comprenderei",
+        "tu comprendereresti",
+        "lui/lei comprendererebbe",
+        "noi comprendereremmo",
+        "voi comprenderereste",
+        "loro comprendererebbero"
+      ],
+      "subj": [
+        "che io comprendi",
+        "che tu comprendi",
+        "che lui/lei comprendi",
+        "che noi comprendiamo",
+        "che voi comprendiate",
+        "che loro comprendino"
+      ],
+      "impv": [
+        "comprenda",
+        "comprendiamo",
+        "comprendate"
+      ],
+      "part": [
+        "comprendante",
+        "comprendato"
+      ]
+    }
+  },
+  "consegnare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Affidare a mano.",
+    "antonyms": [
+      "trattenere"
+    ],
+    "tenses": {
+      "pres": [
+        "io consegno",
+        "tu consegni",
+        "lui/lei consegna",
+        "noi consegniamo",
+        "voi consegnate",
+        "loro consegnano"
+      ],
+      "pass_comp": [
+        "io ho consegnato",
+        "tu hai consegnato",
+        "lui/lei ha consegnato",
+        "noi abbiamo consegnato",
+        "voi avete consegnato",
+        "loro hanno consegnato"
+      ],
+      "impf": [
+        "io consegnavo",
+        "tu consegnavi",
+        "lui/lei consegnava",
+        "noi consegnavamo",
+        "voi consegnavate",
+        "loro consegnavano"
+      ],
+      "fut": [
+        "io consegnerò",
+        "tu consegnerai",
+        "lui/lei consegnerà",
+        "noi consegneremo",
+        "voi consegnerete",
+        "loro consegneranno"
+      ],
+      "cond": [
+        "io consegnerei",
+        "tu consegnereresti",
+        "lui/lei consegnererebbe",
+        "noi consegnereremmo",
+        "voi consegnerereste",
+        "loro consegnererebbero"
+      ],
+      "subj": [
+        "che io consegni",
+        "che tu consegni",
+        "che lui/lei consegni",
+        "che noi consegniamo",
+        "che voi consegniate",
+        "che loro consegnino"
+      ],
+      "impv": [
+        "consegna",
+        "consegniamo",
+        "consegnate"
+      ],
+      "part": [
+        "consegnante",
+        "consegnato"
+      ]
+    }
+  },
+  "decidere": {
+    "group": "ere",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Prendere una decisione.",
+    "antonyms": [
+      "esitare"
+    ],
+    "tenses": {
+      "pres": [
+        "io decido",
+        "tu decidi",
+        "lui/lei decide",
+        "noi decidiamo",
+        "voi decidete",
+        "loro decidono"
+      ],
+      "pass_comp": [
+        "io ho deciso",
+        "tu hai deciso",
+        "lui/lei ha deciso",
+        "noi abbiamo deciso",
+        "voi avete deciso",
+        "loro hanno deciso"
+      ],
+      "impf": [
+        "io decidevo",
+        "tu decidevi",
+        "lui/lei decideva",
+        "noi decidevamo",
+        "voi decidevate",
+        "loro decidevano"
+      ],
+      "fut": [
+        "io deciderò",
+        "tu deciderai",
+        "lui/lei deciderà",
+        "noi decideremo",
+        "voi deciderete",
+        "loro decideranno"
+      ],
+      "cond": [
+        "io deciderei",
+        "tu decidereresti",
+        "lui/lei decidererebbe",
+        "noi decidereremmo",
+        "voi deciderereste",
+        "loro decidererebbero"
+      ],
+      "subj": [
+        "che io decidi",
+        "che tu decidi",
+        "che lui/lei decidi",
+        "che noi decidiamo",
+        "che voi decidiate",
+        "che loro decidino"
+      ],
+      "impv": [
+        "decida",
+        "decidiamo",
+        "decidate"
+      ],
+      "part": [
+        "decidante",
+        "decidato"
+      ]
+    }
+  },
+  "desiderare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Bramare fortemente.",
+    "antonyms": [
+      "rifiutare"
+    ],
+    "tenses": {
+      "pres": [
+        "io desidero",
+        "tu desideri",
+        "lui/lei desidera",
+        "noi desideriamo",
+        "voi desiderate",
+        "loro desiderano"
+      ],
+      "pass_comp": [
+        "io ho desiderato",
+        "tu hai desiderato",
+        "lui/lei ha desiderato",
+        "noi abbiamo desiderato",
+        "voi avete desiderato",
+        "loro hanno desiderato"
+      ],
+      "impf": [
+        "io desideravo",
+        "tu desideravi",
+        "lui/lei desiderava",
+        "noi desideravamo",
+        "voi desideravate",
+        "loro desideravano"
+      ],
+      "fut": [
+        "io desidererò",
+        "tu desidererai",
+        "lui/lei desidererà",
+        "noi desidereremo",
+        "voi desidererete",
+        "loro desidereranno"
+      ],
+      "cond": [
+        "io desidererei",
+        "tu desiderereresti",
+        "lui/lei desiderererebbe",
+        "noi desiderereremmo",
+        "voi desidererereste",
+        "loro desiderererebbero"
+      ],
+      "subj": [
+        "che io desideri",
+        "che tu desideri",
+        "che lui/lei desideri",
+        "che noi desideriamo",
+        "che voi desideriate",
+        "che loro desiderino"
+      ],
+      "impv": [
+        "desidera",
+        "desideriamo",
+        "desiderate"
+      ],
+      "part": [
+        "desiderante",
+        "desiderato"
+      ]
+    }
+  },
+  "raccogliere": {
+    "group": "ere",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Prendere da terra.",
+    "antonyms": [
+      "disperdere"
+    ],
+    "tenses": {
+      "pres": [
+        "io raccolgo",
+        "tu raccogli",
+        "lui/lei raccoglie",
+        "noi raccogliamo",
+        "voi raccogliete",
+        "loro raccolgono"
+      ],
+      "pass_comp": [
+        "io ho raccolto",
+        "tu hai raccolto",
+        "lui/lei ha raccolto",
+        "noi abbiamo raccolto",
+        "voi avete raccolto",
+        "loro hanno raccolto"
+      ],
+      "impf": [
+        "io raccoglievo",
+        "tu raccoglievi",
+        "lui/lei raccoglieva",
+        "noi raccoglievamo",
+        "voi raccoglievate",
+        "loro raccoglievano"
+      ],
+      "fut": [
+        "io raccoglierò",
+        "tu raccoglierai",
+        "lui/lei raccoglierà",
+        "noi raccoglieremo",
+        "voi raccoglierete",
+        "loro raccoglieranno"
+      ],
+      "cond": [
+        "io raccoglierei",
+        "tu raccogliereresti",
+        "lui/lei raccogliererebbe",
+        "noi raccogliereremmo",
+        "voi raccoglierereste",
+        "loro raccogliererebbero"
+      ],
+      "subj": [
+        "che io raccoglii",
+        "che tu raccoglii",
+        "che lui/lei raccoglii",
+        "che noi raccogliiamo",
+        "che voi raccogliiate",
+        "che loro raccogliino"
+      ],
+      "impv": [
+        "raccoglia",
+        "raccogliiamo",
+        "raccogliate"
+      ],
+      "part": [
+        "raccogliante",
+        "raccogliato"
+      ]
+    }
+  },
+  "raggiungere": {
+    "group": "ere",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Giungere a destinazione.",
+    "antonyms": [
+      "allontanarsi"
+    ],
+    "tenses": {
+      "pres": [
+        "io raggiungo",
+        "tu raggiungi",
+        "lui/lei raggiunge",
+        "noi raggiungiamo",
+        "voi raggiungete",
+        "loro raggiungono"
+      ],
+      "pass_comp": [
+        "io ho raggiunto",
+        "tu hai raggiunto",
+        "lui/lei ha raggiunto",
+        "noi abbiamo raggiunto",
+        "voi avete raggiunto",
+        "loro hanno raggiunto"
+      ],
+      "impf": [
+        "io raggiungevo",
+        "tu raggiungevi",
+        "lui/lei raggiungeva",
+        "noi raggiungevamo",
+        "voi raggiungevate",
+        "loro raggiungevano"
+      ],
+      "fut": [
+        "io raggiungerò",
+        "tu raggiungerai",
+        "lui/lei raggiungerà",
+        "noi raggiungeremo",
+        "voi raggiungerete",
+        "loro raggiungeranno"
+      ],
+      "cond": [
+        "io raggiungerei",
+        "tu raggiungereresti",
+        "lui/lei raggiungererebbe",
+        "noi raggiungereremmo",
+        "voi raggiungerereste",
+        "loro raggiungererebbero"
+      ],
+      "subj": [
+        "che io raggiungi",
+        "che tu raggiungi",
+        "che lui/lei raggiungi",
+        "che noi raggiungiamo",
+        "che voi raggiungiate",
+        "che loro raggiungino"
+      ],
+      "impv": [
+        "raggiunga",
+        "raggiungiamo",
+        "raggiungate"
+      ],
+      "part": [
+        "raggiungante",
+        "raggiungato"
+      ]
+    }
+  },
+  "regalare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Donare senza compenso.",
+    "antonyms": [
+      "vendere"
+    ],
+    "tenses": {
+      "pres": [
+        "io regalo",
+        "tu regali",
+        "lui/lei regala",
+        "noi regaliamo",
+        "voi regalate",
+        "loro regalano"
+      ],
+      "pass_comp": [
+        "io ho regalato",
+        "tu hai regalato",
+        "lui/lei ha regalato",
+        "noi abbiamo regalato",
+        "voi avete regalato",
+        "loro hanno regalato"
+      ],
+      "impf": [
+        "io regalavo",
+        "tu regalavi",
+        "lui/lei regalava",
+        "noi regalavamo",
+        "voi regalavate",
+        "loro regalavano"
+      ],
+      "fut": [
+        "io regalerò",
+        "tu regalerai",
+        "lui/lei regalerà",
+        "noi regaleremo",
+        "voi regalerete",
+        "loro regaleranno"
+      ],
+      "cond": [
+        "io regalerei",
+        "tu regalereresti",
+        "lui/lei regalererebbe",
+        "noi regalereremmo",
+        "voi regalerereste",
+        "loro regalererebbero"
+      ],
+      "subj": [
+        "che io regali",
+        "che tu regali",
+        "che lui/lei regali",
+        "che noi regaliamo",
+        "che voi regaliate",
+        "che loro regalino"
+      ],
+      "impv": [
+        "regala",
+        "regaliamo",
+        "regalate"
+      ],
+      "part": [
+        "regalante",
+        "regalato"
+      ]
+    }
+  },
+  "ricevere": {
+    "group": "ere",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Prendere quanto inviato.",
+    "antonyms": [
+      "inviare"
+    ],
+    "tenses": {
+      "pres": [
+        "io ricevo",
+        "tu ricevi",
+        "lui/lei riceve",
+        "noi riceviamo",
+        "voi ricevete",
+        "loro ricevono"
+      ],
+      "pass_comp": [
+        "io ho ricevuto",
+        "tu hai ricevuto",
+        "lui/lei ha ricevuto",
+        "noi abbiamo ricevuto",
+        "voi avete ricevuto",
+        "loro hanno ricevuto"
+      ],
+      "impf": [
+        "io ricevevo",
+        "tu ricevevi",
+        "lui/lei riceveva",
+        "noi ricevevamo",
+        "voi ricevevate",
+        "loro ricevevano"
+      ],
+      "fut": [
+        "io riceverò",
+        "tu riceverai",
+        "lui/lei riceverà",
+        "noi riceveremo",
+        "voi riceverete",
+        "loro riceveranno"
+      ],
+      "cond": [
+        "io riceverei",
+        "tu ricevereresti",
+        "lui/lei ricevererebbe",
+        "noi ricevereremmo",
+        "voi riceverereste",
+        "loro ricevererebbero"
+      ],
+      "subj": [
+        "che io ricevi",
+        "che tu ricevi",
+        "che lui/lei ricevi",
+        "che noi riceviamo",
+        "che voi riceviate",
+        "che loro ricevino"
+      ],
+      "impv": [
+        "riceva",
+        "riceviamo",
+        "ricevate"
+      ],
+      "part": [
+        "ricevante",
+        "ricevato"
+      ]
+    }
+  },
+  "ringraziare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Rendere grazie.",
+    "antonyms": [
+      "offendere"
+    ],
+    "tenses": {
+      "pres": [
+        "io ringrazio",
+        "tu ringrazi",
+        "lui/lei ringrazia",
+        "noi ringraziamo",
+        "voi ringraziate",
+        "loro ringraziano"
+      ],
+      "pass_comp": [
+        "io ho ringraziato",
+        "tu hai ringraziato",
+        "lui/lei ha ringraziato",
+        "noi abbiamo ringraziato",
+        "voi avete ringraziato",
+        "loro hanno ringraziato"
+      ],
+      "impf": [
+        "io ringraziavo",
+        "tu ringraziavi",
+        "lui/lei ringraziava",
+        "noi ringraziavamo",
+        "voi ringraziavate",
+        "loro ringraziavano"
+      ],
+      "fut": [
+        "io ringrazierò",
+        "tu ringrazierai",
+        "lui/lei ringrazierà",
+        "noi ringrazieremo",
+        "voi ringrazierete",
+        "loro ringrazieranno"
+      ],
+      "cond": [
+        "io ringrazierei",
+        "tu ringraziereresti",
+        "lui/lei ringraziererebbe",
+        "noi ringraziereremmo",
+        "voi ringrazierereste",
+        "loro ringraziererebbero"
+      ],
+      "subj": [
+        "che io ringrazii",
+        "che tu ringrazii",
+        "che lui/lei ringrazii",
+        "che noi ringraziiamo",
+        "che voi ringraziiate",
+        "che loro ringraziino"
+      ],
+      "impv": [
+        "ringrazia",
+        "ringraziiamo",
+        "ringraziate"
+      ],
+      "part": [
+        "ringraziante",
+        "ringraziato"
+      ]
+    }
+  },
+  "ripetere": {
+    "group": "ere",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Dire una seconda volta.",
+    "antonyms": [
+      "tacere"
+    ],
+    "tenses": {
+      "pres": [
+        "io ripeto",
+        "tu ripeti",
+        "lui/lei ripete",
+        "noi ripetiamo",
+        "voi ripetete",
+        "loro ripetono"
+      ],
+      "pass_comp": [
+        "io ho ripetuto",
+        "tu hai ripetuto",
+        "lui/lei ha ripetuto",
+        "noi abbiamo ripetuto",
+        "voi avete ripetuto",
+        "loro hanno ripetuto"
+      ],
+      "impf": [
+        "io ripetevo",
+        "tu ripetevi",
+        "lui/lei ripeteva",
+        "noi ripetevamo",
+        "voi ripetevate",
+        "loro ripetevano"
+      ],
+      "fut": [
+        "io ripeterò",
+        "tu ripeterai",
+        "lui/lei ripeterà",
+        "noi ripeteremo",
+        "voi ripeterete",
+        "loro ripeteranno"
+      ],
+      "cond": [
+        "io ripeterei",
+        "tu ripetereresti",
+        "lui/lei ripetererebbe",
+        "noi ripetereremmo",
+        "voi ripeterereste",
+        "loro ripetererebbero"
+      ],
+      "subj": [
+        "che io ripeti",
+        "che tu ripeti",
+        "che lui/lei ripeti",
+        "che noi ripetiamo",
+        "che voi ripetiate",
+        "che loro ripetino"
+      ],
+      "impv": [
+        "ripeta",
+        "ripetiamo",
+        "ripetate"
+      ],
+      "part": [
+        "ripetante",
+        "ripetato"
+      ]
+    }
+  },
+  "sbagliare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Commettere errore.",
+    "antonyms": [
+      "indovinare"
+    ],
+    "tenses": {
+      "pres": [
+        "io sbaglio",
+        "tu sbagli",
+        "lui/lei sbaglia",
+        "noi sbagliamo",
+        "voi sbagliate",
+        "loro sbagliano"
+      ],
+      "pass_comp": [
+        "io ho sbagliato",
+        "tu hai sbagliato",
+        "lui/lei ha sbagliato",
+        "noi abbiamo sbagliato",
+        "voi avete sbagliato",
+        "loro hanno sbagliato"
+      ],
+      "impf": [
+        "io sbagliavo",
+        "tu sbagliavi",
+        "lui/lei sbagliava",
+        "noi sbagliavamo",
+        "voi sbagliavate",
+        "loro sbagliavano"
+      ],
+      "fut": [
+        "io sbaglierò",
+        "tu sbaglierai",
+        "lui/lei sbaglierà",
+        "noi sbaglieremo",
+        "voi sbaglierete",
+        "loro sbaglieranno"
+      ],
+      "cond": [
+        "io sbaglierei",
+        "tu sbagliereresti",
+        "lui/lei sbagliererebbe",
+        "noi sbagliereremmo",
+        "voi sbaglierereste",
+        "loro sbagliererebbero"
+      ],
+      "subj": [
+        "che io sbaglii",
+        "che tu sbaglii",
+        "che lui/lei sbaglii",
+        "che noi sbagliiamo",
+        "che voi sbagliiate",
+        "che loro sbagliino"
+      ],
+      "impv": [
+        "sbaglia",
+        "sbagliiamo",
+        "sbagliate"
+      ],
+      "part": [
+        "sbagliante",
+        "sbagliato"
+      ]
+    }
+  },
+  "scegliere": {
+    "group": "ere",
+    "auxiliary": "avere",
+    "level": "A1",
+    "definition": "Effettuare una scelta.",
+    "antonyms": [
+      "scartare"
+    ],
+    "tenses": {
+      "pres": [
+        "io scelgo",
+        "tu scegli",
+        "lui/lei sceglie",
+        "noi scegliamo",
+        "voi scegliete",
+        "loro scelgono"
+      ],
+      "pass_comp": [
+        "io ho scelto",
+        "tu hai scelto",
+        "lui/lei ha scelto",
+        "noi abbiamo scelto",
+        "voi avete scelto",
+        "loro hanno scelto"
+      ],
+      "impf": [
+        "io sceglievo",
+        "tu sceglievi",
+        "lui/lei sceglieva",
+        "noi sceglievamo",
+        "voi sceglievate",
+        "loro sceglievano"
+      ],
+      "fut": [
+        "io sceglierò",
+        "tu sceglierai",
+        "lui/lei sceglierà",
+        "noi sceglieremo",
+        "voi sceglierete",
+        "loro sceglieranno"
+      ],
+      "cond": [
+        "io sceglierei",
+        "tu scegliereresti",
+        "lui/lei scegliererebbe",
+        "noi scegliereremmo",
+        "voi sceglierereste",
+        "loro scegliererebbero"
+      ],
+      "subj": [
+        "che io sceglii",
+        "che tu sceglii",
+        "che lui/lei sceglii",
+        "che noi scegliiamo",
+        "che voi scegliiate",
+        "che loro scegliino"
+      ],
+      "impv": [
+        "sceglia",
+        "scegliiamo",
+        "scegliate"
+      ],
+      "part": [
+        "scegliante",
+        "scegliato"
+      ]
+    }
+  },
+  "uccidere": {
+    "group": "ere",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Togliere la vita.",
+    "antonyms": [
+      "salvare"
+    ],
+    "tenses": {
+      "pres": [
+        "io uccido",
+        "tu uccidi",
+        "lui/lei uccide",
+        "noi uccidiamo",
+        "voi uccidete",
+        "loro uccidono"
+      ],
+      "pass_comp": [
+        "io ho ucciso",
+        "tu hai ucciso",
+        "lui/lei ha ucciso",
+        "noi abbiamo ucciso",
+        "voi avete ucciso",
+        "loro hanno ucciso"
+      ],
+      "impf": [
+        "io uccidevo",
+        "tu uccidevi",
+        "lui/lei uccideva",
+        "noi uccidevamo",
+        "voi uccidevate",
+        "loro uccidevano"
+      ],
+      "fut": [
+        "io ucciderò",
+        "tu ucciderai",
+        "lui/lei ucciderà",
+        "noi uccideremo",
+        "voi ucciderete",
+        "loro uccideranno"
+      ],
+      "cond": [
+        "io ucciderei",
+        "tu uccidereresti",
+        "lui/lei uccidererebbe",
+        "noi uccidereremmo",
+        "voi ucciderereste",
+        "loro uccidererebbero"
+      ],
+      "subj": [
+        "che io uccidi",
+        "che tu uccidi",
+        "che lui/lei uccidi",
+        "che noi uccidiamo",
+        "che voi uccidiate",
+        "che loro uccidino"
+      ],
+      "impv": [
+        "uccida",
+        "uccidiamo",
+        "uccidate"
+      ],
+      "part": [
+        "uccidante",
+        "uccidato"
+      ]
+    }
+  },
+  "votare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Esprimere il voto.",
+    "antonyms": [
+      "astenersi"
+    ],
+    "tenses": {
+      "pres": [
+        "io voto",
+        "tu voti",
+        "lui/lei vota",
+        "noi votiamo",
+        "voi votate",
+        "loro votano"
+      ],
+      "pass_comp": [
+        "io ho votato",
+        "tu hai votato",
+        "lui/lei ha votato",
+        "noi abbiamo votato",
+        "voi avete votato",
+        "loro hanno votato"
+      ],
+      "impf": [
+        "io votavo",
+        "tu votavi",
+        "lui/lei votava",
+        "noi votavamo",
+        "voi votavate",
+        "loro votavano"
+      ],
+      "fut": [
+        "io voterò",
+        "tu voterai",
+        "lui/lei voterà",
+        "noi voteremo",
+        "voi voterete",
+        "loro voteranno"
+      ],
+      "cond": [
+        "io voterei",
+        "tu votereresti",
+        "lui/lei votererebbe",
+        "noi votereremmo",
+        "voi voterereste",
+        "loro votererebbero"
+      ],
+      "subj": [
+        "che io voti",
+        "che tu voti",
+        "che lui/lei voti",
+        "che noi votiamo",
+        "che voi votiate",
+        "che loro votino"
+      ],
+      "impv": [
+        "vota",
+        "votiamo",
+        "votate"
+      ],
+      "part": [
+        "votante",
+        "votato"
+      ]
+    }
+  },
+  "avvisare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Dare un avviso.",
+    "antonyms": [
+      "nascondere"
+    ],
+    "tenses": {
+      "pres": [
+        "io avviso",
+        "tu avvisi",
+        "lui/lei avvisa",
+        "noi avvisiamo",
+        "voi avvisate",
+        "loro avvisano"
+      ],
+      "pass_comp": [
+        "io ho avvisato",
+        "tu hai avvisato",
+        "lui/lei ha avvisato",
+        "noi abbiamo avvisato",
+        "voi avete avvisato",
+        "loro hanno avvisato"
+      ],
+      "impf": [
+        "io avvisavo",
+        "tu avvisavi",
+        "lui/lei avvisava",
+        "noi avvisavamo",
+        "voi avvisavate",
+        "loro avvisavano"
+      ],
+      "fut": [
+        "io avviserò",
+        "tu avviserai",
+        "lui/lei avviserà",
+        "noi avviseremo",
+        "voi avviserete",
+        "loro avviseranno"
+      ],
+      "cond": [
+        "io avviserei",
+        "tu avvisereresti",
+        "lui/lei avvisererebbe",
+        "noi avvisereremmo",
+        "voi avviserereste",
+        "loro avvisererebbero"
+      ],
+      "subj": [
+        "che io avvisi",
+        "che tu avvisi",
+        "che lui/lei avvisi",
+        "che noi avvisiamo",
+        "che voi avvisiate",
+        "che loro avvisino"
+      ],
+      "impv": [
+        "avvisa",
+        "avvisiamo",
+        "avvisate"
+      ],
+      "part": [
+        "avvisante",
+        "avvisato"
       ]
     }
   }

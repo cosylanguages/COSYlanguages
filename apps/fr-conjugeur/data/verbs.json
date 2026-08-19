@@ -4980,7 +4980,7 @@
     "tenses": {
       "indicatif_present": [
         "j'appelle",
-        "tu me appelles",
+        "tu appelles",
         "il/elle appelle",
         "nous appelons",
         "vous appellez",
@@ -5007,16 +5007,16 @@
         "tu appelleras",
         "il/elle appellera",
         "nous appellerons",
-        "vous me appellerez",
+        "vous appellerez",
         "ils/elles appelleront"
       ],
       "conditionnel_present": [
         "j'appellerais",
-        "tu me appellerais",
-        "il/elle me appellerait",
+        "tu appellerais",
+        "il/elle appellerait",
         "nous appellerions",
-        "vous me appelleriez",
-        "ils/elles me appelleraient"
+        "vous appelleriez",
+        "ils/elles appelleraient"
       ],
       "subjonctif_present": [
         "que j'appelle",
@@ -5024,7 +5024,7 @@
         "qu'il/elle appelle",
         "que nous appelions",
         "que vous appeliez",
-        "qu'ils/elles me appellent"
+        "qu'ils/elles appellent"
       ],
       "imperatif": [
         "appelle !",
@@ -5058,189 +5058,6 @@
       "part": [
         "appelant",
         "appelé"
-      ]
-    }
-  },
-  "rappeler": {
-    "group": "1er groupe",
-    "level": "A2",
-    "definition": "Faire revenir à la mémoire.",
-    "antonyms": [
-      "oublier"
-    ],
-    "auxiliary": "avoir",
-    "tenses": {
-      "indicatif_present": [
-        "je rappelle",
-        "tu rappelles",
-        "il/elle rappelle",
-        "nous rappelons",
-        "vous me rappellez",
-        "ils/elles rappellent"
-      ],
-      "indicatif_imparfait": [
-        "je me rappelais",
-        "tu me rappelais",
-        "il/elle rappelait",
-        "nous me rappelions",
-        "vous me me rappeliez",
-        "ils/elles me rappelaient"
-      ],
-      "pc": [
-        "j'ai rappelé",
-        "tu as rappelé",
-        "il/elle a rappelé",
-        "nous avons rappelé",
-        "vous avez rappelé",
-        "ils/elles ont rappelé"
-      ],
-      "indicatif_futur_simple": [
-        "je rappellerai",
-        "tu rappelleras",
-        "il/elle me rappellera",
-        "nous rappellerons",
-        "vous me me me rappellerez",
-        "ils/elles me me rappelleront"
-      ],
-      "conditionnel_present": [
-        "je rappellerais",
-        "tu me rappellerais",
-        "il/elle me rappellerait",
-        "nous rappellerions",
-        "vous me rappelleriez",
-        "ils/elles me rappelleraient"
-      ],
-      "subjonctif_present": [
-        "que je rappelle",
-        "que tu rappelles",
-        "qu'il/elle rappelle",
-        "que nous rappelions",
-        "que vous rappeliez",
-        "qu'ils/elles rappellent"
-      ],
-      "imperatif": [
-        "rappelle !",
-        "rappelons !",
-        "rappellez !"
-      ],
-      "participe_passe": [
-        "rappelé"
-      ],
-      "subj": [
-        "que je rappelle",
-        "que tu rappelles",
-        "qu'il/elle rappelle",
-        "que nous rappelions",
-        "que vous rappeliez",
-        "qu'ils/elles rappellent"
-      ],
-      "cond": [
-        "je rappellerais",
-        "tu rappellerais",
-        "il/elle rappellerait",
-        "nous rappellerions",
-        "vous rappelleriez",
-        "ils/elles rappelleraient"
-      ],
-      "impv": [
-        "rappelle",
-        "rappelons",
-        "rappellez"
-      ],
-      "part": [
-        "rappelant",
-        "rappelé"
-      ]
-    }
-  },
-  "commencer": {
-    "group": "1er groupe",
-    "level": "A1",
-    "definition": "Entreprendre la première étape.",
-    "antonyms": [
-      "finir"
-    ],
-    "auxiliary": "avoir",
-    "tenses": {
-      "indicatif_present": [
-        "je commence",
-        "tu commences",
-        "il/elle commence",
-        "nous commençons",
-        "vous commencez",
-        "ils/elles commencent"
-      ],
-      "indicatif_imparfait": [
-        "je me me commençais",
-        "tu me commençais",
-        "il/elle commençait",
-        "nous me me commencions",
-        "vous me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me re, the current forms have typos, let's clean them cleanly in python!"
-      ],
-      "pc": [
-        "j'ai commencé",
-        "tu as commencé",
-        "il/elle a commencé",
-        "nous avons commencé",
-        "vous avez commencé",
-        "ils/elles ont commencé"
-      ],
-      "indicatif_futur_simple": [
-        "je commencerai",
-        "tu commenceras",
-        "il/elle commencera",
-        "nous commencerons",
-        "vous commencerez",
-        "ils/elles commenceront"
-      ],
-      "conditionnel_present": [
-        "je commencerais",
-        "tu commencerais",
-        "il/elle commencerait",
-        "nous commencerions",
-        "vous commenceriez",
-        "ils/elles commenceraient"
-      ],
-      "subjonctif_present": [
-        "que je commence",
-        "que tu commences",
-        "qu'il/elle commence",
-        "que nous commencions",
-        "que vous commenciez",
-        "qu'ils/elles commencent"
-      ],
-      "imperatif": [
-        "commence !",
-        "commençons !",
-        "commencez !"
-      ],
-      "participe_passe": [
-        "commencé"
-      ],
-      "subj": [
-        "que je commence",
-        "que tu commences",
-        "qu'il/elle commence",
-        "que nous commencions",
-        "que vous commenciez",
-        "qu'ils/elles commencent"
-      ],
-      "cond": [
-        "je commencerais",
-        "tu commencerais",
-        "il/elle commencerait",
-        "nous commencerions",
-        "vous commenceriez",
-        "ils/elles commenceraient"
-      ],
-      "impv": [
-        "commence",
-        "commencons",
-        "commencez"
-      ],
-      "part": [
-        "commencant",
-        "commencé"
       ]
     }
   },
@@ -8004,282 +7821,6 @@
       ]
     }
   },
-  "manger": {
-    "group": "1er groupe",
-    "level": "A1",
-    "definition": "Absorber des aliments solides pour se nourrir.",
-    "antonyms": [
-      "jeûner"
-    ],
-    "auxiliary": "avoir",
-    "tenses": {
-      "indicatif_present": [
-        "je mange",
-        "tu manges",
-        "il/elle mange",
-        "nous me mangeons",
-        "vous mangez",
-        "ils/elles mangent"
-      ],
-      "indicatif_imparfait": [
-        "je me me mangeais",
-        "tu me mangeais",
-        "il/elle mangeait",
-        "nous me mangions",
-        "vous mangiez",
-        "ils/elles me me mangeaient"
-      ],
-      "pc": [
-        "j'ai mangé",
-        "tu as mangé",
-        "il/elle a mangé",
-        "nous avons mangé",
-        "vous avez mangé",
-        "ils/elles ont mangé"
-      ],
-      "indicatif_futur_simple": [
-        "je mangerai",
-        "tu mangeras",
-        "il/elle mangera",
-        "nous mangerons",
-        "vous mangerez",
-        "ils/elles mangeront"
-      ],
-      "conditionnel_present": [
-        "je me me me mangerais",
-        "tu me mangerais",
-        "il/elle me mangerait",
-        "nous mangerions",
-        "vous mangeriez",
-        "ils/elles mangeraient"
-      ],
-      "subjonctif_present": [
-        "que je mange",
-        "que tu manges",
-        "qu'il/elle mange",
-        "que nous mangions",
-        "que vous mangiez",
-        "qu'ils/elles mangent"
-      ],
-      "imperatif": [
-        "mange !",
-        "mangeons !",
-        "mangez !"
-      ],
-      "participe_passe": [
-        "mangé"
-      ],
-      "subj": [
-        "que je mange",
-        "que tu manges",
-        "qu'il/elle mange",
-        "que nous mangions",
-        "que vous mangiez",
-        "qu'ils/elles mangent"
-      ],
-      "cond": [
-        "je mangerais",
-        "tu mangerais",
-        "il/elle mangerait",
-        "nous mangerions",
-        "vous mangeriez",
-        "ils/elles mangeraient"
-      ],
-      "impv": [
-        "mange",
-        "mangons",
-        "mangez"
-      ],
-      "part": [
-        "mangant",
-        "mangé"
-      ]
-    }
-  },
-  "être": {
-    "group": "3e groupe",
-    "level": "A1",
-    "definition": "Exister ou posséder une qualité.",
-    "antonyms": [
-      "paraître"
-    ],
-    "auxiliary": "avoir",
-    "tenses": {
-      "indicatif_present": [
-        "je suis",
-        "tu es",
-        "il/elle est",
-        "nous sommes",
-        "vous êtes",
-        "ils/elles sont"
-      ],
-      "indicatif_imparfait": [
-        "j'étais",
-        "tu étais",
-        "il/elle était",
-        "nous étions",
-        "vous étiez",
-        "ils/elles étaient"
-      ],
-      "pc": [
-        "j'ai été",
-        "tu as été",
-        "il/elle a été",
-        "nous avons été",
-        "vous avez été",
-        "ils/elles ont été"
-      ],
-      "indicatif_futur_simple": [
-        "je serai",
-        "tu seras",
-        "il/elle sera",
-        "nous serons",
-        "vous serez",
-        "ils/elles seront"
-      ],
-      "conditionnel_present": [
-        "je serais",
-        "tu serais",
-        "il/elle serait",
-        "nous serions",
-        "vous seriez",
-        "ils/elles seraient"
-      ],
-      "subjonctif_present": [
-        "que je sois",
-        "que tu sois",
-        "qu'il/elle soit",
-        "que nous soyons",
-        "que vous soyez",
-        "qu'ils/elles soient"
-      ],
-      "imperatif": [
-        "sois !",
-        "soyons !",
-        "soyez !"
-      ],
-      "participe_passe": [
-        "été"
-      ],
-      "subj": [
-        "que j'êtree",
-        "que tu êtrees",
-        "qu'il/elle êtree",
-        "que nous êtreions",
-        "que vous êtreiez",
-        "qu'ils/elles êtreent"
-      ],
-      "cond": [
-        "j'êtreais",
-        "tu êtreais",
-        "il/elle êtreait",
-        "nous êtreions",
-        "vous êtreiez",
-        "ils/elles êtreaient"
-      ],
-      "impv": [
-        "êtree",
-        "êtreons",
-        "êtreez"
-      ],
-      "part": [
-        "êtreant",
-        "êtreé"
-      ]
-    }
-  },
-  "avoir": {
-    "group": "3e groupe",
-    "level": "A1",
-    "definition": "Posséder un bien ou un état.",
-    "antonyms": [
-      "manquer"
-    ],
-    "auxiliary": "avoir",
-    "tenses": {
-      "indicatif_present": [
-        "j'ai",
-        "tu as",
-        "il/elle a",
-        "nous avons",
-        "vous avez",
-        "ils/elles ont"
-      ],
-      "indicatif_imparfait": [
-        "j'avais",
-        "tu avais",
-        "il/elle avait",
-        "nous avions",
-        "vous aviez",
-        "ils/elles avaient"
-      ],
-      "pc": [
-        "j'ai eu",
-        "tu as eu",
-        "il/elle a eu",
-        "nous avons eu",
-        "vous avez eu",
-        "ils/elles ont eu"
-      ],
-      "indicatif_futur_simple": [
-        "j'aurai",
-        "tu auras",
-        "il/elle aura",
-        "nous aurons",
-        "vous aurez",
-        "ils/elles auront"
-      ],
-      "conditionnel_present": [
-        "j'aurais",
-        "tu aurais",
-        "il/elle aurait",
-        "nous aurions",
-        "vous auriez",
-        "ils/elles auraient"
-      ],
-      "subjonctif_present": [
-        "que j'aie",
-        "que tu aies",
-        "qu'il/elle ait",
-        "que nous ayons",
-        "que vous ayez",
-        "qu'ils/elles aient"
-      ],
-      "imperatif": [
-        "aie !",
-        "ayons !",
-        "ayez !"
-      ],
-      "participe_passe": [
-        "eu"
-      ],
-      "subj": [
-        "que j'avoire",
-        "que tu avoires",
-        "qu'il/elle avoire",
-        "que nous avoirions",
-        "que vous avoiriez",
-        "qu'ils/elles avoirent"
-      ],
-      "cond": [
-        "j'avoirais",
-        "tu avoirais",
-        "il/elle avoirait",
-        "nous avoirions",
-        "vous avoiriez",
-        "ils/elles avoiraient"
-      ],
-      "impv": [
-        "avoire",
-        "avoirons",
-        "avoirez"
-      ],
-      "part": [
-        "avoirant",
-        "avoiré"
-      ]
-    }
-  },
   "aller": {
     "group": "3e groupe",
     "level": "A1",
@@ -8829,98 +8370,6 @@
       "part": [
         "vouloirant",
         "vouloiré"
-      ]
-    }
-  },
-  "savoir": {
-    "group": "3e groupe",
-    "level": "A1",
-    "definition": "Avoir la connaissance.",
-    "antonyms": [
-      "ignorer"
-    ],
-    "auxiliary": "avoir",
-    "tenses": {
-      "indicatif_present": [
-        "je sais",
-        "tu sais",
-        "il/elle sait",
-        "nous savons",
-        "vous savez",
-        "ils/elles savent"
-      ],
-      "indicatif_imparfait": [
-        "je savais",
-        "tu savais",
-        "il/elle savait",
-        "nous savions",
-        "vous saviez",
-        "ils/elles savaient"
-      ],
-      "pc": [
-        "j'ai su",
-        "tu as su",
-        "il/elle a su",
-        "nous avons su",
-        "vous avez su",
-        "ils/elles ont su"
-      ],
-      "indicatif_futur_simple": [
-        "je saurai",
-        "tu sauras",
-        "il/elle saura",
-        "nous saurons",
-        "vous saurez",
-        "ils/elles sauront"
-      ],
-      "conditionnel_present": [
-        "je saurais",
-        "tu saurais",
-        "il/elle saurait",
-        "nous saurions",
-        "vous sauriez",
-        "ils/elles sauraient"
-      ],
-      "subjonctif_present": [
-        "que je sache",
-        "que tu saches",
-        "qu'il/elle sache",
-        "que nous sachions",
-        "que vous sachiez",
-        "qu'ils/elles sachent"
-      ],
-      "imperatif": [
-        "sache !",
-        "sachons !",
-        "sachez !"
-      ],
-      "participe_passe": [
-        "su"
-      ],
-      "subj": [
-        "que je savoire",
-        "que tu savoires",
-        "qu'il/elle savoire",
-        "que nous savoirions",
-        "que vous savoiriez",
-        "qu'ils/elles savoirent"
-      ],
-      "cond": [
-        "je savoirais",
-        "tu savoirais",
-        "il/elle savoirait",
-        "nous savoirions",
-        "vous savoiriez",
-        "ils/elles savoiraient"
-      ],
-      "impv": [
-        "savoire",
-        "savoirons",
-        "savoirez"
-      ],
-      "part": [
-        "savoirant",
-        "savoiré"
       ]
     }
   },
@@ -13446,7 +12895,7 @@
         "tu jettes",
         "il/elle jette",
         "nous jetons",
-        "vous me me jetez",
+        "vous me jetez",
         "ils/elles jettent"
       ],
       "indicatif_imparfait": [
@@ -13470,16 +12919,16 @@
         "tu jetteras",
         "il/elle jettera",
         "nous jetterons",
-        "vous me jetterez",
+        "vous jetterez",
         "ils/elles jetteront"
       ],
       "conditionnel_present": [
         "je jetterais",
-        "tu me jetterais",
-        "il/elle me jetterait",
+        "tu jetterais",
+        "il/elle jetterait",
         "nous jetterions",
-        "vous me me jetteriez",
-        "ils/elles me me jetteraient"
+        "vous me jetteriez",
+        "ils/elles me jetteraient"
       ],
       "subjonctif_present": [
         "que je jette",
@@ -16281,6 +15730,3226 @@
       "part": [
         "utilisant",
         "utilisé"
+      ]
+    }
+  },
+  "admettre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A2",
+    "definition": "Reconnaître comme vrai.",
+    "antonyms": [
+      "nier"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "j'admets",
+        "tu admets",
+        "il/elle admet",
+        "nous admetsons",
+        "vous admetsez",
+        "ils/elles admetsent"
+      ],
+      "indicatif_imparfait": [
+        "j'admettais",
+        "tu admettais",
+        "il/elle admettait",
+        "nous admettaions",
+        "vous admettaiez",
+        "ils/elles admettaaient"
+      ],
+      "pc": [
+        "j'ai admis",
+        "tu as admis",
+        "il/elle a admis",
+        "nous avons admis",
+        "vous avez admis",
+        "ils/elles ont admis"
+      ],
+      "indicatif_futur_simple": [
+        "j'admettrai",
+        "tu admettraas",
+        "il/elle admettraa",
+        "nous admettraons",
+        "vous admettraez",
+        "ils/elles admettraont"
+      ],
+      "conditionnel_present": [
+        "j'admettrais",
+        "tu admettrais",
+        "il/elle admettrait",
+        "nous admettraions",
+        "vous admettraiez",
+        "ils/elles admettraaient"
+      ],
+      "subjonctif_present": [
+        "que j'admette",
+        "que tu admettes",
+        "qu'il/elle admette",
+        "que nous admetteons",
+        "que vous admetteez",
+        "qu'ils/elles admettent"
+      ],
+      "imperatif": [
+        "admets !",
+        "admetsons !",
+        "admetsez !"
+      ],
+      "participe_passe": [
+        "admis"
+      ],
+      "subj": [
+        "que j'admettree",
+        "que tu admettrees",
+        "qu'il/elle admettree",
+        "que nous admettreions",
+        "que vous admettreiez",
+        "qu'ils/elles admettreent"
+      ],
+      "cond": [
+        "j'admettreais",
+        "tu admettreais",
+        "il/elle admettreait",
+        "nous admettreions",
+        "vous admettreiez",
+        "ils/elles admettreaient"
+      ],
+      "impv": [
+        "admettree",
+        "admettreons",
+        "admettreez"
+      ],
+      "part": [
+        "admettreant",
+        "admettreé"
+      ]
+    }
+  },
+  "agacer": {
+    "group": "1er groupe",
+    "auxiliary": "avoir",
+    "level": "A2",
+    "definition": "Irriter légèrement.",
+    "antonyms": [
+      "calmer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "j'agace",
+        "tu agaces",
+        "il/elle agace",
+        "nous agaceons",
+        "vous agaceez",
+        "ils/elles agaceent"
+      ],
+      "indicatif_imparfait": [
+        "j'agaçais",
+        "tu agaçais",
+        "il/elle agaçait",
+        "nous agaçaions",
+        "vous agaçaiez",
+        "ils/elles agaçaaient"
+      ],
+      "pc": [
+        "j'ai agacé",
+        "tu as agacé",
+        "il/elle a agacé",
+        "nous avons agacé",
+        "vous avez agacé",
+        "ils/elles ont agacé"
+      ],
+      "indicatif_futur_simple": [
+        "j'agacerai",
+        "tu agaceraas",
+        "il/elle agaceraa",
+        "nous agaceraons",
+        "vous agaceraez",
+        "ils/elles agaceraont"
+      ],
+      "conditionnel_present": [
+        "j'agacerais",
+        "tu agacerais",
+        "il/elle agacerait",
+        "nous agaceraions",
+        "vous agaceraiez",
+        "ils/elles agaceraaient"
+      ],
+      "subjonctif_present": [
+        "que j'agace",
+        "que tu agaces",
+        "qu'il/elle agace",
+        "que nous agaceons",
+        "que vous agaceez",
+        "qu'ils/elles agacent"
+      ],
+      "imperatif": [
+        "agace !",
+        "agaceons !",
+        "agaceez !"
+      ],
+      "participe_passe": [
+        "agacé"
+      ],
+      "subj": [
+        "que j'agace",
+        "que tu agaces",
+        "qu'il/elle agace",
+        "que nous agacions",
+        "que vous agaciez",
+        "qu'ils/elles agacent"
+      ],
+      "cond": [
+        "j'agacerais",
+        "tu agacerais",
+        "il/elle agacerait",
+        "nous agacerions",
+        "vous agaceriez",
+        "ils/elles agaceraient"
+      ],
+      "impv": [
+        "agace",
+        "agacons",
+        "agacez"
+      ],
+      "part": [
+        "agacant",
+        "agacé"
+      ]
+    }
+  },
+  "amuser": {
+    "group": "1er groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Divertir quelqu'un.",
+    "antonyms": [
+      "ennuyer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "j'amuse",
+        "tu amuses",
+        "il/elle amuse",
+        "nous amuseons",
+        "vous amuseez",
+        "ils/elles amuseent"
+      ],
+      "indicatif_imparfait": [
+        "j'amusais",
+        "tu amusais",
+        "il/elle amusait",
+        "nous amusaions",
+        "vous amusaiez",
+        "ils/elles amusaaient"
+      ],
+      "pc": [
+        "j'ai amusé",
+        "tu as amusé",
+        "il/elle a amusé",
+        "nous avons amusé",
+        "vous avez amusé",
+        "ils/elles ont amusé"
+      ],
+      "indicatif_futur_simple": [
+        "j'amuserai",
+        "tu amuseraas",
+        "il/elle amuseraa",
+        "nous amuseraons",
+        "vous amuseraez",
+        "ils/elles amuseraont"
+      ],
+      "conditionnel_present": [
+        "j'amuserais",
+        "tu amuserais",
+        "il/elle amuserait",
+        "nous amuseraions",
+        "vous amuseraiez",
+        "ils/elles amuseraaient"
+      ],
+      "subjonctif_present": [
+        "que j'amuse",
+        "que tu amuses",
+        "qu'il/elle amuse",
+        "que nous amuseons",
+        "que vous amuseez",
+        "qu'ils/elles amusent"
+      ],
+      "imperatif": [
+        "amuse !",
+        "amuseons !",
+        "amuseez !"
+      ],
+      "participe_passe": [
+        "amusé"
+      ],
+      "subj": [
+        "que j'amuse",
+        "que tu amuses",
+        "qu'il/elle amuse",
+        "que nous amusions",
+        "que vous amusiez",
+        "qu'ils/elles amusent"
+      ],
+      "cond": [
+        "j'amuserais",
+        "tu amuserais",
+        "il/elle amuserait",
+        "nous amuserions",
+        "vous amuseriez",
+        "ils/elles amuseraient"
+      ],
+      "impv": [
+        "amuse",
+        "amusons",
+        "amusez"
+      ],
+      "part": [
+        "amusant",
+        "amusé"
+      ]
+    }
+  },
+  "apprendre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Acquérir des connaissances.",
+    "antonyms": [
+      "oublier"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "j'apprends",
+        "tu apprends",
+        "il/elle apprend",
+        "nous apprendsons",
+        "vous apprendsez",
+        "ils/elles apprendsent"
+      ],
+      "indicatif_imparfait": [
+        "j'apprenais",
+        "tu apprenais",
+        "il/elle apprenait",
+        "nous apprenaions",
+        "vous apprenaiez",
+        "ils/elles apprenaaient"
+      ],
+      "pc": [
+        "j'ai appris",
+        "tu as appris",
+        "il/elle a appris",
+        "nous avons appris",
+        "vous avez appris",
+        "ils/elles ont appris"
+      ],
+      "indicatif_futur_simple": [
+        "j'apprendrai",
+        "tu apprendraas",
+        "il/elle apprendraa",
+        "nous apprendraons",
+        "vous apprendraez",
+        "ils/elles apprendraont"
+      ],
+      "conditionnel_present": [
+        "j'apprendrais",
+        "tu apprendrais",
+        "il/elle apprendrait",
+        "nous apprendraions",
+        "vous apprendraiez",
+        "ils/elles apprendraaient"
+      ],
+      "subjonctif_present": [
+        "que j'apprenne",
+        "que tu apprennes",
+        "qu'il/elle apprenne",
+        "que nous apprenneons",
+        "que vous apprenneez",
+        "qu'ils/elles apprennent"
+      ],
+      "imperatif": [
+        "apprends !",
+        "apprendsons !",
+        "apprendsez !"
+      ],
+      "participe_passe": [
+        "appris"
+      ],
+      "subj": [
+        "que j'apprendree",
+        "que tu apprendrees",
+        "qu'il/elle apprendree",
+        "que nous apprendreions",
+        "que vous apprendreiez",
+        "qu'ils/elles apprendreent"
+      ],
+      "cond": [
+        "j'apprendreais",
+        "tu apprendreais",
+        "il/elle apprendreait",
+        "nous apprendreions",
+        "vous apprendreiez",
+        "ils/elles apprendreaient"
+      ],
+      "impv": [
+        "apprendree",
+        "apprendreons",
+        "apprendreez"
+      ],
+      "part": [
+        "apprendreant",
+        "apprendreé"
+      ]
+    }
+  },
+  "attraper": {
+    "group": "1er groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Saisir rapidement.",
+    "antonyms": [
+      "lâcher"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "j'attrape",
+        "tu attrapes",
+        "il/elle attrape",
+        "nous attrapeons",
+        "vous attrapeez",
+        "ils/elles attrapeent"
+      ],
+      "indicatif_imparfait": [
+        "j'attrapais",
+        "tu attrapais",
+        "il/elle attrapait",
+        "nous attrapaions",
+        "vous attrapaiez",
+        "ils/elles attrapaaient"
+      ],
+      "pc": [
+        "j'ai attrapé",
+        "tu as attrapé",
+        "il/elle a attrapé",
+        "nous avons attrapé",
+        "vous avez attrapé",
+        "ils/elles ont attrapé"
+      ],
+      "indicatif_futur_simple": [
+        "j'attraperai",
+        "tu attraperaas",
+        "il/elle attraperaa",
+        "nous attraperaons",
+        "vous attraperaez",
+        "ils/elles attraperaont"
+      ],
+      "conditionnel_present": [
+        "j'attraperais",
+        "tu attraperais",
+        "il/elle attraperait",
+        "nous attraperaions",
+        "vous attraperaiez",
+        "ils/elles attraperaaient"
+      ],
+      "subjonctif_present": [
+        "que j'attrape",
+        "que tu attrapes",
+        "qu'il/elle attrape",
+        "que nous attrapeons",
+        "que vous attrapeez",
+        "qu'ils/elles attrapent"
+      ],
+      "imperatif": [
+        "attrape !",
+        "attrapeons !",
+        "attrapeez !"
+      ],
+      "participe_passe": [
+        "attrapé"
+      ],
+      "subj": [
+        "que j'attrape",
+        "que tu attrapes",
+        "qu'il/elle attrape",
+        "que nous attrapions",
+        "que vous attrapiez",
+        "qu'ils/elles attrapent"
+      ],
+      "cond": [
+        "j'attraperais",
+        "tu attraperais",
+        "il/elle attraperait",
+        "nous attraperions",
+        "vous attraperiez",
+        "ils/elles attraperaient"
+      ],
+      "impv": [
+        "attrape",
+        "attrapons",
+        "attrapez"
+      ],
+      "part": [
+        "attrapant",
+        "attrapé"
+      ]
+    }
+  },
+  "bâtir": {
+    "group": "2e groupe",
+    "auxiliary": "avoir",
+    "level": "A2",
+    "definition": "Construire un édifice.",
+    "antonyms": [
+      "détruire"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je bâtis",
+        "tu bâtis",
+        "il/elle bâti",
+        "nous bâtisons",
+        "vous bâtisez",
+        "ils/elles bâtisent"
+      ],
+      "indicatif_imparfait": [
+        "je bâtissais",
+        "tu bâtissais",
+        "il/elle bâtissait",
+        "nous bâtissaions",
+        "vous bâtissaiez",
+        "ils/elles bâtissaaient"
+      ],
+      "pc": [
+        "je ai bâti",
+        "tu as bâti",
+        "il/elle a bâti",
+        "nous avons bâti",
+        "vous avez bâti",
+        "ils/elles ont bâti"
+      ],
+      "indicatif_futur_simple": [
+        "je bâtirai",
+        "tu bâtiraas",
+        "il/elle bâtiraa",
+        "nous bâtiraons",
+        "vous bâtiraez",
+        "ils/elles bâtiraont"
+      ],
+      "conditionnel_present": [
+        "je bâtirais",
+        "tu bâtirais",
+        "il/elle bâtirait",
+        "nous bâtiraions",
+        "vous bâtiraiez",
+        "ils/elles bâtiraaient"
+      ],
+      "subjonctif_present": [
+        "que je bâtisse",
+        "que tu bâtisses",
+        "qu'il/elle bâtisse",
+        "que nous bâtisseons",
+        "que vous bâtisseez",
+        "qu'ils/elles bâtissent"
+      ],
+      "imperatif": [
+        "bâtis !",
+        "bâtisons !",
+        "bâtisez !"
+      ],
+      "participe_passe": [
+        "bâti"
+      ],
+      "subj": [
+        "que je bâtire",
+        "que tu bâtires",
+        "qu'il/elle bâtire",
+        "que nous bâtirions",
+        "que vous bâtiriez",
+        "qu'ils/elles bâtirent"
+      ],
+      "cond": [
+        "je bâtirais",
+        "tu bâtirais",
+        "il/elle bâtirait",
+        "nous bâtirions",
+        "vous bâtiriez",
+        "ils/elles bâtiraient"
+      ],
+      "impv": [
+        "bâtire",
+        "bâtirons",
+        "bâtirez"
+      ],
+      "part": [
+        "bâtirant",
+        "bâtiré"
+      ]
+    }
+  },
+  "boire": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Avaler un liquide.",
+    "antonyms": [
+      "manger"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je bois",
+        "tu bois",
+        "il/elle boi",
+        "nous boisons",
+        "vous boisez",
+        "ils/elles boisent"
+      ],
+      "indicatif_imparfait": [
+        "je buvais",
+        "tu buvais",
+        "il/elle buvait",
+        "nous buvaions",
+        "vous buvaiez",
+        "ils/elles buvaaient"
+      ],
+      "pc": [
+        "je ai bu",
+        "tu as bu",
+        "il/elle a bu",
+        "nous avons bu",
+        "vous avez bu",
+        "ils/elles ont bu"
+      ],
+      "indicatif_futur_simple": [
+        "je boirai",
+        "tu boiraas",
+        "il/elle boiraa",
+        "nous boiraons",
+        "vous boiraez",
+        "ils/elles boiraont"
+      ],
+      "conditionnel_present": [
+        "je boirais",
+        "tu boirais",
+        "il/elle boirait",
+        "nous boiraions",
+        "vous boiraiez",
+        "ils/elles boiraaient"
+      ],
+      "subjonctif_present": [
+        "que je boive",
+        "que tu boives",
+        "qu'il/elle boive",
+        "que nous boiveons",
+        "que vous boiveez",
+        "qu'ils/elles boivent"
+      ],
+      "imperatif": [
+        "bois !",
+        "boisons !",
+        "boisez !"
+      ],
+      "participe_passe": [
+        "bu"
+      ],
+      "subj": [
+        "que je boiree",
+        "que tu boirees",
+        "qu'il/elle boiree",
+        "que nous boireions",
+        "que vous boireiez",
+        "qu'ils/elles boireent"
+      ],
+      "cond": [
+        "je boireais",
+        "tu boireais",
+        "il/elle boireait",
+        "nous boireions",
+        "vous boireiez",
+        "ils/elles boireaient"
+      ],
+      "impv": [
+        "boiree",
+        "boireons",
+        "boireez"
+      ],
+      "part": [
+        "boireant",
+        "boireé"
+      ]
+    }
+  },
+  "brûler": {
+    "group": "1er groupe",
+    "auxiliary": "avoir",
+    "level": "A2",
+    "definition": "Consumer par le feu.",
+    "antonyms": [
+      "éteindre"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je brûle",
+        "tu brûles",
+        "il/elle brûle",
+        "nous brûleons",
+        "vous brûleez",
+        "ils/elles brûleent"
+      ],
+      "indicatif_imparfait": [
+        "je brûlais",
+        "tu brûlais",
+        "il/elle brûlait",
+        "nous brûlaions",
+        "vous brûlaiez",
+        "ils/elles brûlaaient"
+      ],
+      "pc": [
+        "je ai brûlé",
+        "tu as brûlé",
+        "il/elle a brûlé",
+        "nous avons brûlé",
+        "vous avez brûlé",
+        "ils/elles ont brûlé"
+      ],
+      "indicatif_futur_simple": [
+        "je brûlerai",
+        "tu brûleraas",
+        "il/elle brûleraa",
+        "nous brûleraons",
+        "vous brûleraez",
+        "ils/elles brûleraont"
+      ],
+      "conditionnel_present": [
+        "je brûlerais",
+        "tu brûlerais",
+        "il/elle brûlerait",
+        "nous brûleraions",
+        "vous brûleraiez",
+        "ils/elles brûleraaient"
+      ],
+      "subjonctif_present": [
+        "que je brûle",
+        "que tu brûles",
+        "qu'il/elle brûle",
+        "que nous brûleons",
+        "que vous brûleez",
+        "qu'ils/elles brûlent"
+      ],
+      "imperatif": [
+        "brûle !",
+        "brûleons !",
+        "brûleez !"
+      ],
+      "participe_passe": [
+        "brûlé"
+      ],
+      "subj": [
+        "que je brûle",
+        "que tu brûles",
+        "qu'il/elle brûle",
+        "que nous brûlions",
+        "que vous brûliez",
+        "qu'ils/elles brûlent"
+      ],
+      "cond": [
+        "je brûlerais",
+        "tu brûlerais",
+        "il/elle brûlerait",
+        "nous brûlerions",
+        "vous brûleriez",
+        "ils/elles brûleraient"
+      ],
+      "impv": [
+        "brûle",
+        "brûlons",
+        "brûlez"
+      ],
+      "part": [
+        "brûlant",
+        "brûlé"
+      ]
+    }
+  },
+  "casser": {
+    "group": "1er groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Briser en morceaux.",
+    "antonyms": [
+      "réparer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je casse",
+        "tu casses",
+        "il/elle casse",
+        "nous casseons",
+        "vous casseez",
+        "ils/elles casseent"
+      ],
+      "indicatif_imparfait": [
+        "je cassais",
+        "tu cassais",
+        "il/elle cassait",
+        "nous cassaions",
+        "vous cassaiez",
+        "ils/elles cassaaient"
+      ],
+      "pc": [
+        "je ai cassé",
+        "tu as cassé",
+        "il/elle a cassé",
+        "nous avons cassé",
+        "vous avez cassé",
+        "ils/elles ont cassé"
+      ],
+      "indicatif_futur_simple": [
+        "je casserai",
+        "tu casseraas",
+        "il/elle casseraa",
+        "nous casseraons",
+        "vous casseraez",
+        "ils/elles casseraont"
+      ],
+      "conditionnel_present": [
+        "je casserais",
+        "tu casserais",
+        "il/elle casserait",
+        "nous casseraions",
+        "vous casseraiez",
+        "ils/elles casseraaient"
+      ],
+      "subjonctif_present": [
+        "que je casse",
+        "que tu casses",
+        "qu'il/elle casse",
+        "que nous casseons",
+        "que vous casseez",
+        "qu'ils/elles cassent"
+      ],
+      "imperatif": [
+        "casse !",
+        "casseons !",
+        "casseez !"
+      ],
+      "participe_passe": [
+        "cassé"
+      ],
+      "subj": [
+        "que je casse",
+        "que tu casses",
+        "qu'il/elle casse",
+        "que nous cassions",
+        "que vous cassiez",
+        "qu'ils/elles cassent"
+      ],
+      "cond": [
+        "je casserais",
+        "tu casserais",
+        "il/elle casserait",
+        "nous casserions",
+        "vous casseriez",
+        "ils/elles casseraient"
+      ],
+      "impv": [
+        "casse",
+        "cassons",
+        "cassez"
+      ],
+      "part": [
+        "cassant",
+        "cassé"
+      ]
+    }
+  },
+  "comprendre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Saisir le sens.",
+    "antonyms": [
+      "ignorer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je comprends",
+        "tu comprends",
+        "il/elle comprend",
+        "nous comprendsons",
+        "vous comprendsez",
+        "ils/elles comprendsent"
+      ],
+      "indicatif_imparfait": [
+        "je comprenais",
+        "tu comprenais",
+        "il/elle comprenait",
+        "nous comprenaions",
+        "vous comprenaiez",
+        "ils/elles comprenaaient"
+      ],
+      "pc": [
+        "je ai compris",
+        "tu as compris",
+        "il/elle a compris",
+        "nous avons compris",
+        "vous avez compris",
+        "ils/elles ont compris"
+      ],
+      "indicatif_futur_simple": [
+        "je comprendrai",
+        "tu comprendraas",
+        "il/elle comprendraa",
+        "nous comprendraons",
+        "vous comprendraez",
+        "ils/elles comprendraont"
+      ],
+      "conditionnel_present": [
+        "je comprendrais",
+        "tu comprendrais",
+        "il/elle comprendrait",
+        "nous comprendraions",
+        "vous comprendraiez",
+        "ils/elles comprendraaient"
+      ],
+      "subjonctif_present": [
+        "que je comprenne",
+        "que tu comprennes",
+        "qu'il/elle comprenne",
+        "que nous comprenneons",
+        "que vous comprenneez",
+        "qu'ils/elles comprennent"
+      ],
+      "imperatif": [
+        "comprends !",
+        "comprendsons !",
+        "comprendsez !"
+      ],
+      "participe_passe": [
+        "compris"
+      ],
+      "subj": [
+        "que je comprendree",
+        "que tu comprendrees",
+        "qu'il/elle comprendree",
+        "que nous comprendreions",
+        "que vous comprendreiez",
+        "qu'ils/elles comprendreent"
+      ],
+      "cond": [
+        "je comprendreais",
+        "tu comprendreais",
+        "il/elle comprendreait",
+        "nous comprendreions",
+        "vous comprendreiez",
+        "ils/elles comprendreaient"
+      ],
+      "impv": [
+        "comprendree",
+        "comprendreons",
+        "comprendreez"
+      ],
+      "part": [
+        "comprendreant",
+        "comprendreé"
+      ]
+    }
+  },
+  "construire": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A2",
+    "definition": "Assembler pour édifier.",
+    "antonyms": [
+      "détruire"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je construis",
+        "tu construis",
+        "il/elle construi",
+        "nous construisons",
+        "vous construisez",
+        "ils/elles construisent"
+      ],
+      "indicatif_imparfait": [
+        "je construisais",
+        "tu construisais",
+        "il/elle construisait",
+        "nous construisaions",
+        "vous construisaiez",
+        "ils/elles construisaaient"
+      ],
+      "pc": [
+        "je ai construit",
+        "tu as construit",
+        "il/elle a construit",
+        "nous avons construit",
+        "vous avez construit",
+        "ils/elles ont construit"
+      ],
+      "indicatif_futur_simple": [
+        "je construirai",
+        "tu construiraas",
+        "il/elle construiraa",
+        "nous construiraons",
+        "vous construiraez",
+        "ils/elles construiraont"
+      ],
+      "conditionnel_present": [
+        "je construirais",
+        "tu construirais",
+        "il/elle construirait",
+        "nous construiraions",
+        "vous construiraiez",
+        "ils/elles construiraaient"
+      ],
+      "subjonctif_present": [
+        "que je construise",
+        "que tu construises",
+        "qu'il/elle construise",
+        "que nous construiseons",
+        "que vous construiseez",
+        "qu'ils/elles construisent"
+      ],
+      "imperatif": [
+        "construis !",
+        "construisons !",
+        "construisez !"
+      ],
+      "participe_passe": [
+        "construit"
+      ],
+      "subj": [
+        "que je construiree",
+        "que tu construirees",
+        "qu'il/elle construiree",
+        "que nous construireions",
+        "que vous construireiez",
+        "qu'ils/elles construireent"
+      ],
+      "cond": [
+        "je construireais",
+        "tu construireais",
+        "il/elle construireait",
+        "nous construireions",
+        "vous construireiez",
+        "ils/elles construireaient"
+      ],
+      "impv": [
+        "construiree",
+        "construireons",
+        "construireez"
+      ],
+      "part": [
+        "construireant",
+        "construireé"
+      ]
+    }
+  },
+  "courir": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Se déplacer rapidement à pied.",
+    "antonyms": [
+      "marcher"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je cours",
+        "tu cours",
+        "il/elle cour",
+        "nous coursons",
+        "vous coursez",
+        "ils/elles coursent"
+      ],
+      "indicatif_imparfait": [
+        "je courais",
+        "tu courais",
+        "il/elle courait",
+        "nous couraions",
+        "vous couraiez",
+        "ils/elles couraaient"
+      ],
+      "pc": [
+        "je ai couru",
+        "tu as couru",
+        "il/elle a couru",
+        "nous avons couru",
+        "vous avez couru",
+        "ils/elles ont couru"
+      ],
+      "indicatif_futur_simple": [
+        "je courrai",
+        "tu courraas",
+        "il/elle courraa",
+        "nous courraons",
+        "vous courraez",
+        "ils/elles courraont"
+      ],
+      "conditionnel_present": [
+        "je courrais",
+        "tu courrais",
+        "il/elle courrait",
+        "nous courraions",
+        "vous courraiez",
+        "ils/elles courraaient"
+      ],
+      "subjonctif_present": [
+        "que je coure",
+        "que tu coures",
+        "qu'il/elle coure",
+        "que nous coureons",
+        "que vous coureez",
+        "qu'ils/elles courent"
+      ],
+      "imperatif": [
+        "cours !",
+        "coursons !",
+        "coursez !"
+      ],
+      "participe_passe": [
+        "couru"
+      ],
+      "subj": [
+        "que je courire",
+        "que tu courires",
+        "qu'il/elle courire",
+        "que nous couririons",
+        "que vous couririez",
+        "qu'ils/elles courirent"
+      ],
+      "cond": [
+        "je courirais",
+        "tu courirais",
+        "il/elle courirait",
+        "nous couririons",
+        "vous couririez",
+        "ils/elles couriraient"
+      ],
+      "impv": [
+        "courire",
+        "courirons",
+        "courirez"
+      ],
+      "part": [
+        "courirant",
+        "couriré"
+      ]
+    }
+  },
+  "croire": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Tenir pour vrai.",
+    "antonyms": [
+      "douter"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je crois",
+        "tu crois",
+        "il/elle croi",
+        "nous croisons",
+        "vous croisez",
+        "ils/elles croisent"
+      ],
+      "indicatif_imparfait": [
+        "je croyais",
+        "tu croyais",
+        "il/elle croyait",
+        "nous croyaions",
+        "vous croyaiez",
+        "ils/elles croyaaient"
+      ],
+      "pc": [
+        "je ai cru",
+        "tu as cru",
+        "il/elle a cru",
+        "nous avons cru",
+        "vous avez cru",
+        "ils/elles ont cru"
+      ],
+      "indicatif_futur_simple": [
+        "je croirai",
+        "tu croiraas",
+        "il/elle croiraa",
+        "nous croiraons",
+        "vous croiraez",
+        "ils/elles croiraont"
+      ],
+      "conditionnel_present": [
+        "je croirais",
+        "tu croirais",
+        "il/elle croirait",
+        "nous croiraions",
+        "vous croiraiez",
+        "ils/elles croiraaient"
+      ],
+      "subjonctif_present": [
+        "que je croie",
+        "que tu croies",
+        "qu'il/elle croie",
+        "que nous croieons",
+        "que vous croieez",
+        "qu'ils/elles croient"
+      ],
+      "imperatif": [
+        "crois !",
+        "croisons !",
+        "croisez !"
+      ],
+      "participe_passe": [
+        "cru"
+      ],
+      "subj": [
+        "que je croiree",
+        "que tu croirees",
+        "qu'il/elle croiree",
+        "que nous croireions",
+        "que vous croireiez",
+        "qu'ils/elles croireent"
+      ],
+      "cond": [
+        "je croireais",
+        "tu croireais",
+        "il/elle croireait",
+        "nous croireions",
+        "vous croireiez",
+        "ils/elles croireaient"
+      ],
+      "impv": [
+        "croiree",
+        "croireons",
+        "croireez"
+      ],
+      "part": [
+        "croireant",
+        "croireé"
+      ]
+    }
+  },
+  "défendre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A2",
+    "definition": "Soutenir contre une attaque.",
+    "antonyms": [
+      "attaquer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je défends",
+        "tu défends",
+        "il/elle défend",
+        "nous défendsons",
+        "vous défendsez",
+        "ils/elles défendsent"
+      ],
+      "indicatif_imparfait": [
+        "je défendais",
+        "tu défendais",
+        "il/elle défendait",
+        "nous défendaions",
+        "vous défendaiez",
+        "ils/elles défendaaient"
+      ],
+      "pc": [
+        "je ai défendu",
+        "tu as défendu",
+        "il/elle a défendu",
+        "nous avons défendu",
+        "vous avez défendu",
+        "ils/elles ont défendu"
+      ],
+      "indicatif_futur_simple": [
+        "je défendrai",
+        "tu défendraas",
+        "il/elle défendraa",
+        "nous défendraons",
+        "vous défendraez",
+        "ils/elles défendraont"
+      ],
+      "conditionnel_present": [
+        "je défendrais",
+        "tu défendrais",
+        "il/elle défendrait",
+        "nous défendraions",
+        "vous défendraiez",
+        "ils/elles défendraaient"
+      ],
+      "subjonctif_present": [
+        "que je défende",
+        "que tu défendes",
+        "qu'il/elle défende",
+        "que nous défendeons",
+        "que vous défendeez",
+        "qu'ils/elles défendent"
+      ],
+      "imperatif": [
+        "défends !",
+        "défendsons !",
+        "défendsez !"
+      ],
+      "participe_passe": [
+        "défendu"
+      ],
+      "subj": [
+        "que je défendree",
+        "que tu défendrees",
+        "qu'il/elle défendree",
+        "que nous défendreions",
+        "que vous défendreiez",
+        "qu'ils/elles défendreent"
+      ],
+      "cond": [
+        "je défendreais",
+        "tu défendreais",
+        "il/elle défendreait",
+        "nous défendreions",
+        "vous défendreiez",
+        "ils/elles défendreaient"
+      ],
+      "impv": [
+        "défendree",
+        "défendreons",
+        "défendreez"
+      ],
+      "part": [
+        "défendreant",
+        "défendreé"
+      ]
+    }
+  },
+  "découvrir": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A2",
+    "definition": "Trouver ce qui était caché.",
+    "antonyms": [
+      "cacher"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je découvres",
+        "tu découvres",
+        "il/elle découvre",
+        "nous découvresons",
+        "vous découvresez",
+        "ils/elles découvresent"
+      ],
+      "indicatif_imparfait": [
+        "je découvrais",
+        "tu découvrais",
+        "il/elle découvrait",
+        "nous découvraions",
+        "vous découvraiez",
+        "ils/elles découvraaient"
+      ],
+      "pc": [
+        "je ai découvert",
+        "tu as découvert",
+        "il/elle a découvert",
+        "nous avons découvert",
+        "vous avez découvert",
+        "ils/elles ont découvert"
+      ],
+      "indicatif_futur_simple": [
+        "je découvrirai",
+        "tu découvriraas",
+        "il/elle découvriraa",
+        "nous découvriraons",
+        "vous découvriraez",
+        "ils/elles découvriraont"
+      ],
+      "conditionnel_present": [
+        "je découvrirais",
+        "tu découvrirais",
+        "il/elle découvrirait",
+        "nous découvriraions",
+        "vous découvriraiez",
+        "ils/elles découvriraaient"
+      ],
+      "subjonctif_present": [
+        "que je découvre",
+        "que tu découvres",
+        "qu'il/elle découvre",
+        "que nous découvreons",
+        "que vous découvreez",
+        "qu'ils/elles découvrent"
+      ],
+      "imperatif": [
+        "découvres !",
+        "découvresons !",
+        "découvresez !"
+      ],
+      "participe_passe": [
+        "découvert"
+      ],
+      "subj": [
+        "que je découvrire",
+        "que tu découvrires",
+        "qu'il/elle découvrire",
+        "que nous découvririons",
+        "que vous découvririez",
+        "qu'ils/elles découvrirent"
+      ],
+      "cond": [
+        "je découvrirais",
+        "tu découvrirais",
+        "il/elle découvrirait",
+        "nous découvririons",
+        "vous découvririez",
+        "ils/elles découvriraient"
+      ],
+      "impv": [
+        "découvrire",
+        "découvrirons",
+        "découvrirez"
+      ],
+      "part": [
+        "découvrirant",
+        "découvriré"
+      ]
+    }
+  },
+  "descendre": {
+    "group": "3e groupe",
+    "auxiliary": "être",
+    "level": "A1",
+    "definition": "Aller de haut en bas.",
+    "antonyms": [
+      "monter"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je descends",
+        "tu descends",
+        "il/elle descend",
+        "nous descendsons",
+        "vous descendsez",
+        "ils/elles descendsent"
+      ],
+      "indicatif_imparfait": [
+        "je descendais",
+        "tu descendais",
+        "il/elle descendait",
+        "nous descendaions",
+        "vous descendaiez",
+        "ils/elles descendaaient"
+      ],
+      "pc": [
+        "je suis descendu",
+        "tu es descendu",
+        "il/elle est descendu",
+        "nous sommes descendus",
+        "vous êtes descendus",
+        "ils/elles sont descendus"
+      ],
+      "indicatif_futur_simple": [
+        "je descendrai",
+        "tu descendraas",
+        "il/elle descendraa",
+        "nous descendraons",
+        "vous descendraez",
+        "ils/elles descendraont"
+      ],
+      "conditionnel_present": [
+        "je descendrais",
+        "tu descendrais",
+        "il/elle descendrait",
+        "nous descendraions",
+        "vous descendraiez",
+        "ils/elles descendraaient"
+      ],
+      "subjonctif_present": [
+        "que je descende",
+        "que tu descendes",
+        "qu'il/elle descende",
+        "que nous descendeons",
+        "que vous descendeez",
+        "qu'ils/elles descendent"
+      ],
+      "imperatif": [
+        "descends !",
+        "descendsons !",
+        "descendsez !"
+      ],
+      "participe_passe": [
+        "descendu"
+      ],
+      "subj": [
+        "que je descendree",
+        "que tu descendrees",
+        "qu'il/elle descendree",
+        "que nous descendreions",
+        "que vous descendreiez",
+        "qu'ils/elles descendreent"
+      ],
+      "cond": [
+        "je descendreais",
+        "tu descendreais",
+        "il/elle descendreait",
+        "nous descendreions",
+        "vous descendreiez",
+        "ils/elles descendreaient"
+      ],
+      "impv": [
+        "descendree",
+        "descendreons",
+        "descendreez"
+      ],
+      "part": [
+        "descendreant",
+        "descendreé"
+      ]
+    }
+  },
+  "devoir": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Avoir une obligation.",
+    "antonyms": [
+      "pouvoir"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je dois",
+        "tu dois",
+        "il/elle doi",
+        "nous doisons",
+        "vous doisez",
+        "ils/elles doisent"
+      ],
+      "indicatif_imparfait": [
+        "je devais",
+        "tu devais",
+        "il/elle devait",
+        "nous devaions",
+        "vous devaiez",
+        "ils/elles devaaient"
+      ],
+      "pc": [
+        "je ai dû",
+        "tu as dû",
+        "il/elle a dû",
+        "nous avons dû",
+        "vous avez dû",
+        "ils/elles ont dû"
+      ],
+      "indicatif_futur_simple": [
+        "je devrai",
+        "tu devraas",
+        "il/elle devraa",
+        "nous devraons",
+        "vous devraez",
+        "ils/elles devraont"
+      ],
+      "conditionnel_present": [
+        "je devrais",
+        "tu devrais",
+        "il/elle devrait",
+        "nous devraions",
+        "vous devraiez",
+        "ils/elles devraaient"
+      ],
+      "subjonctif_present": [
+        "que je doive",
+        "que tu doives",
+        "qu'il/elle doive",
+        "que nous doiveons",
+        "que vous doiveez",
+        "qu'ils/elles doivent"
+      ],
+      "imperatif": [
+        "dois !",
+        "doisons !",
+        "doisez !"
+      ],
+      "participe_passe": [
+        "dû"
+      ],
+      "subj": [
+        "que je devoire",
+        "que tu devoires",
+        "qu'il/elle devoire",
+        "que nous devoirions",
+        "que vous devoiriez",
+        "qu'ils/elles devoirent"
+      ],
+      "cond": [
+        "je devoirais",
+        "tu devoirais",
+        "il/elle devoirait",
+        "nous devoirions",
+        "vous devoiriez",
+        "ils/elles devoiraient"
+      ],
+      "impv": [
+        "devoire",
+        "devoirons",
+        "devoirez"
+      ],
+      "part": [
+        "devoirant",
+        "devoiré"
+      ]
+    }
+  },
+  "dormir": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Être dans l'état de sommeil.",
+    "antonyms": [
+      "veiller"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je dors",
+        "tu dors",
+        "il/elle dor",
+        "nous dorsons",
+        "vous dorsez",
+        "ils/elles dorsent"
+      ],
+      "indicatif_imparfait": [
+        "je dormais",
+        "tu dormais",
+        "il/elle dormait",
+        "nous dormaions",
+        "vous dormaiez",
+        "ils/elles dormaaient"
+      ],
+      "pc": [
+        "je ai dormi",
+        "tu as dormi",
+        "il/elle a dormi",
+        "nous avons dormi",
+        "vous avez dormi",
+        "ils/elles ont dormi"
+      ],
+      "indicatif_futur_simple": [
+        "je dormirai",
+        "tu dormiraas",
+        "il/elle dormiraa",
+        "nous dormiraons",
+        "vous dormiraez",
+        "ils/elles dormiraont"
+      ],
+      "conditionnel_present": [
+        "je dormirais",
+        "tu dormirais",
+        "il/elle dormirait",
+        "nous dormiraions",
+        "vous dormiraiez",
+        "ils/elles dormiraaient"
+      ],
+      "subjonctif_present": [
+        "que je dorme",
+        "que tu dormes",
+        "qu'il/elle dorme",
+        "que nous dormeons",
+        "que vous dormeez",
+        "qu'ils/elles dorment"
+      ],
+      "imperatif": [
+        "dors !",
+        "dorsons !",
+        "dorsez !"
+      ],
+      "participe_passe": [
+        "dormi"
+      ],
+      "subj": [
+        "que je dormire",
+        "que tu dormires",
+        "qu'il/elle dormire",
+        "que nous dormirions",
+        "que vous dormiriez",
+        "qu'ils/elles dormirent"
+      ],
+      "cond": [
+        "je dormirais",
+        "tu dormirais",
+        "il/elle dormirait",
+        "nous dormirions",
+        "vous dormiriez",
+        "ils/elles dormiraient"
+      ],
+      "impv": [
+        "dormire",
+        "dormirons",
+        "dormirez"
+      ],
+      "part": [
+        "dormirant",
+        "dormiré"
+      ]
+    }
+  },
+  "écrire": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Tracer des signes.",
+    "antonyms": [
+      "lire"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "j'écris",
+        "tu écris",
+        "il/elle écri",
+        "nous écrisons",
+        "vous écrisez",
+        "ils/elles écrisent"
+      ],
+      "indicatif_imparfait": [
+        "j'écrivais",
+        "tu écrivais",
+        "il/elle écrivait",
+        "nous écrivaions",
+        "vous écrivaiez",
+        "ils/elles écrivaaient"
+      ],
+      "pc": [
+        "j'ai écrit",
+        "tu as écrit",
+        "il/elle a écrit",
+        "nous avons écrit",
+        "vous avez écrit",
+        "ils/elles ont écrit"
+      ],
+      "indicatif_futur_simple": [
+        "j'écrirai",
+        "tu écriraas",
+        "il/elle écriraa",
+        "nous écriraons",
+        "vous écriraez",
+        "ils/elles écriraont"
+      ],
+      "conditionnel_present": [
+        "j'écrirais",
+        "tu écrirais",
+        "il/elle écrirait",
+        "nous écriraions",
+        "vous écriraiez",
+        "ils/elles écriraaient"
+      ],
+      "subjonctif_present": [
+        "que j'écrive",
+        "que tu écrives",
+        "qu'il/elle écrive",
+        "que nous écriveons",
+        "que vous écriveez",
+        "qu'ils/elles écrivent"
+      ],
+      "imperatif": [
+        "écris !",
+        "écrisons !",
+        "écrisez !"
+      ],
+      "participe_passe": [
+        "écrit"
+      ],
+      "subj": [
+        "que j'écriree",
+        "que tu écrirees",
+        "qu'il/elle écriree",
+        "que nous écrireions",
+        "que vous écrireiez",
+        "qu'ils/elles écrireent"
+      ],
+      "cond": [
+        "j'écrireais",
+        "tu écrireais",
+        "il/elle écrireait",
+        "nous écrireions",
+        "vous écrireiez",
+        "ils/elles écrireaient"
+      ],
+      "impv": [
+        "écriree",
+        "écrireons",
+        "écrireez"
+      ],
+      "part": [
+        "écrireant",
+        "écrireé"
+      ]
+    }
+  },
+  "entendre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Percevoir par l'ouïe.",
+    "antonyms": [
+      "ignorer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "j'entends",
+        "tu entends",
+        "il/elle entend",
+        "nous entendsons",
+        "vous entendsez",
+        "ils/elles entendsent"
+      ],
+      "indicatif_imparfait": [
+        "j'entendais",
+        "tu entendais",
+        "il/elle entendait",
+        "nous entendaions",
+        "vous entendaiez",
+        "ils/elles entendaaient"
+      ],
+      "pc": [
+        "j'ai entendu",
+        "tu as entendu",
+        "il/elle a entendu",
+        "nous avons entendu",
+        "vous avez entendu",
+        "ils/elles ont entendu"
+      ],
+      "indicatif_futur_simple": [
+        "j'entendrai",
+        "tu entendraas",
+        "il/elle entendraa",
+        "nous entendraons",
+        "vous entendraez",
+        "ils/elles entendraont"
+      ],
+      "conditionnel_present": [
+        "j'entendrais",
+        "tu entendrais",
+        "il/elle entendrait",
+        "nous entendraions",
+        "vous entendraiez",
+        "ils/elles entendraaient"
+      ],
+      "subjonctif_present": [
+        "que j'entende",
+        "que tu entendes",
+        "qu'il/elle entende",
+        "que nous entendeons",
+        "que vous entendeez",
+        "qu'ils/elles entendent"
+      ],
+      "imperatif": [
+        "entends !",
+        "entendsons !",
+        "entendsez !"
+      ],
+      "participe_passe": [
+        "entendu"
+      ],
+      "subj": [
+        "que j'entendree",
+        "que tu entendrees",
+        "qu'il/elle entendree",
+        "que nous entendreions",
+        "que vous entendreiez",
+        "qu'ils/elles entendreent"
+      ],
+      "cond": [
+        "j'entendreais",
+        "tu entendreais",
+        "il/elle entendreait",
+        "nous entendreions",
+        "vous entendreiez",
+        "ils/elles entendreaient"
+      ],
+      "impv": [
+        "entendree",
+        "entendreons",
+        "entendreez"
+      ],
+      "part": [
+        "entendreant",
+        "entendreé"
+      ]
+    }
+  },
+  "éteindre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A2",
+    "definition": "Faire cesser la lumière ou le feu.",
+    "antonyms": [
+      "allumer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "j'éteins",
+        "tu éteins",
+        "il/elle étein",
+        "nous éteinsons",
+        "vous éteinsez",
+        "ils/elles éteinsent"
+      ],
+      "indicatif_imparfait": [
+        "j'éteignais",
+        "tu éteignais",
+        "il/elle éteignait",
+        "nous éteignaions",
+        "vous éteignaiez",
+        "ils/elles éteignaaient"
+      ],
+      "pc": [
+        "j'ai éteint",
+        "tu as éteint",
+        "il/elle a éteint",
+        "nous avons éteint",
+        "vous avez éteint",
+        "ils/elles ont éteint"
+      ],
+      "indicatif_futur_simple": [
+        "j'éteindrai",
+        "tu éteindraas",
+        "il/elle éteindraa",
+        "nous éteindraons",
+        "vous éteindraez",
+        "ils/elles éteindraont"
+      ],
+      "conditionnel_present": [
+        "j'éteindrais",
+        "tu éteindrais",
+        "il/elle éteindrait",
+        "nous éteindraions",
+        "vous éteindraiez",
+        "ils/elles éteindraaient"
+      ],
+      "subjonctif_present": [
+        "que j'éteigne",
+        "que tu éteignes",
+        "qu'il/elle éteigne",
+        "que nous éteigneons",
+        "que vous éteigneez",
+        "qu'ils/elles éteignent"
+      ],
+      "imperatif": [
+        "éteins !",
+        "éteinsons !",
+        "éteinsez !"
+      ],
+      "participe_passe": [
+        "éteint"
+      ],
+      "subj": [
+        "que j'éteindree",
+        "que tu éteindrees",
+        "qu'il/elle éteindree",
+        "que nous éteindreions",
+        "que vous éteindreiez",
+        "qu'ils/elles éteindreent"
+      ],
+      "cond": [
+        "j'éteindreais",
+        "tu éteindreais",
+        "il/elle éteindreait",
+        "nous éteindreions",
+        "vous éteindreiez",
+        "ils/elles éteindreaient"
+      ],
+      "impv": [
+        "éteindree",
+        "éteindreons",
+        "éteindreez"
+      ],
+      "part": [
+        "éteindreant",
+        "éteindreé"
+      ]
+    }
+  },
+  "falloir": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Être nécessaire.",
+    "antonyms": [
+      "dispenser"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je faut",
+        "tu fauts",
+        "il/elle faut",
+        "nous fautons",
+        "vous fautez",
+        "ils/elles fautent"
+      ],
+      "indicatif_imparfait": [
+        "je fallait",
+        "tu fallait",
+        "il/elle fallait",
+        "nous fallaions",
+        "vous fallaiez",
+        "ils/elles fallaaient"
+      ],
+      "pc": [
+        "je ai fallu",
+        "tu as fallu",
+        "il/elle a fallu",
+        "nous avons fallu",
+        "vous avez fallu",
+        "ils/elles ont fallu"
+      ],
+      "indicatif_futur_simple": [
+        "je faudra",
+        "tu faudras",
+        "il/elle faudra",
+        "nous faudrons",
+        "vous faudrez",
+        "ils/elles faudront"
+      ],
+      "conditionnel_present": [
+        "je faudrait",
+        "tu faudrait",
+        "il/elle faudrait",
+        "nous faudraions",
+        "vous faudraiez",
+        "ils/elles faudraaient"
+      ],
+      "subjonctif_present": [
+        "que je faille",
+        "que tu failles",
+        "qu'il/elle faille",
+        "que nous failleons",
+        "que vous failleez",
+        "qu'ils/elles faillent"
+      ],
+      "imperatif": [
+        "faut !",
+        "fautons !",
+        "fautez !"
+      ],
+      "participe_passe": [
+        "fallu"
+      ],
+      "subj": [
+        "que je falloire",
+        "que tu falloires",
+        "qu'il/elle falloire",
+        "que nous falloirions",
+        "que vous falloiriez",
+        "qu'ils/elles falloirent"
+      ],
+      "cond": [
+        "je falloirais",
+        "tu falloirais",
+        "il/elle falloirait",
+        "nous falloirions",
+        "vous falloiriez",
+        "ils/elles falloiraient"
+      ],
+      "impv": [
+        "falloire",
+        "falloirons",
+        "falloirez"
+      ],
+      "part": [
+        "falloirant",
+        "falloiré"
+      ]
+    }
+  },
+  "lire": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Déchiffrer un texte.",
+    "antonyms": [
+      "écrire"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je lis",
+        "tu lis",
+        "il/elle li",
+        "nous lisons",
+        "vous lisez",
+        "ils/elles lisent"
+      ],
+      "indicatif_imparfait": [
+        "je lisais",
+        "tu lisais",
+        "il/elle lisait",
+        "nous lisaions",
+        "vous lisaiez",
+        "ils/elles lisaaient"
+      ],
+      "pc": [
+        "je ai lu",
+        "tu as lu",
+        "il/elle a lu",
+        "nous avons lu",
+        "vous avez lu",
+        "ils/elles ont lu"
+      ],
+      "indicatif_futur_simple": [
+        "je lirai",
+        "tu liraas",
+        "il/elle liraa",
+        "nous liraons",
+        "vous liraez",
+        "ils/elles liraont"
+      ],
+      "conditionnel_present": [
+        "je lirais",
+        "tu lirais",
+        "il/elle lirait",
+        "nous liraions",
+        "vous liraiez",
+        "ils/elles liraaient"
+      ],
+      "subjonctif_present": [
+        "que je lise",
+        "que tu lises",
+        "qu'il/elle lise",
+        "que nous liseons",
+        "que vous liseez",
+        "qu'ils/elles lisent"
+      ],
+      "imperatif": [
+        "lis !",
+        "lisons !",
+        "lisez !"
+      ],
+      "participe_passe": [
+        "lu"
+      ],
+      "subj": [
+        "que je liree",
+        "que tu lirees",
+        "qu'il/elle liree",
+        "que nous lireions",
+        "que vous lireiez",
+        "qu'ils/elles lireent"
+      ],
+      "cond": [
+        "je lireais",
+        "tu lireais",
+        "il/elle lireait",
+        "nous lireions",
+        "vous lireiez",
+        "ils/elles lireaient"
+      ],
+      "impv": [
+        "liree",
+        "lireons",
+        "lireez"
+      ],
+      "part": [
+        "lireant",
+        "lireé"
+      ]
+    }
+  },
+  "mettre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Placer quelque part.",
+    "antonyms": [
+      "enlever"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je mets",
+        "tu mets",
+        "il/elle met",
+        "nous metsons",
+        "vous metsez",
+        "ils/elles metsent"
+      ],
+      "indicatif_imparfait": [
+        "je mettais",
+        "tu mettais",
+        "il/elle mettait",
+        "nous mettaions",
+        "vous mettaiez",
+        "ils/elles mettaaient"
+      ],
+      "pc": [
+        "je ai mis",
+        "tu as mis",
+        "il/elle a mis",
+        "nous avons mis",
+        "vous avez mis",
+        "ils/elles ont mis"
+      ],
+      "indicatif_futur_simple": [
+        "je mettrai",
+        "tu mettraas",
+        "il/elle mettraa",
+        "nous mettraons",
+        "vous mettraez",
+        "ils/elles mettraont"
+      ],
+      "conditionnel_present": [
+        "je mettrais",
+        "tu mettrais",
+        "il/elle mettrait",
+        "nous mettraions",
+        "vous mettraiez",
+        "ils/elles mettraaient"
+      ],
+      "subjonctif_present": [
+        "que je mette",
+        "que tu mettes",
+        "qu'il/elle mette",
+        "que nous metteons",
+        "que vous metteez",
+        "qu'ils/elles mettent"
+      ],
+      "imperatif": [
+        "mets !",
+        "metsons !",
+        "metsez !"
+      ],
+      "participe_passe": [
+        "mis"
+      ],
+      "subj": [
+        "que je mettree",
+        "que tu mettrees",
+        "qu'il/elle mettree",
+        "que nous mettreions",
+        "que vous mettreiez",
+        "qu'ils/elles mettreent"
+      ],
+      "cond": [
+        "je mettreais",
+        "tu mettreais",
+        "il/elle mettreait",
+        "nous mettreions",
+        "vous mettreiez",
+        "ils/elles mettreaient"
+      ],
+      "impv": [
+        "mettree",
+        "mettreons",
+        "mettreez"
+      ],
+      "part": [
+        "mettreant",
+        "mettreé"
+      ]
+    }
+  },
+  "mourir": {
+    "group": "3e groupe",
+    "auxiliary": "être",
+    "level": "A1",
+    "definition": "Cesser de vivre.",
+    "antonyms": [
+      "naître"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je meurs",
+        "tu meurs",
+        "il/elle meur",
+        "nous meursons",
+        "vous meursez",
+        "ils/elles meursent"
+      ],
+      "indicatif_imparfait": [
+        "je mourais",
+        "tu mourais",
+        "il/elle mourait",
+        "nous mouraions",
+        "vous mouraiez",
+        "ils/elles mouraaient"
+      ],
+      "pc": [
+        "je suis mort",
+        "tu es mort",
+        "il/elle est mort",
+        "nous sommes morts",
+        "vous êtes morts",
+        "ils/elles sont morts"
+      ],
+      "indicatif_futur_simple": [
+        "je mourrai",
+        "tu mourraas",
+        "il/elle mourraa",
+        "nous mourraons",
+        "vous mourraez",
+        "ils/elles mourraont"
+      ],
+      "conditionnel_present": [
+        "je mourrais",
+        "tu mourrais",
+        "il/elle mourrait",
+        "nous mourraions",
+        "vous mourraiez",
+        "ils/elles mourraaient"
+      ],
+      "subjonctif_present": [
+        "que je meure",
+        "que tu meures",
+        "qu'il/elle meure",
+        "que nous meureons",
+        "que vous meureez",
+        "qu'ils/elles meurent"
+      ],
+      "imperatif": [
+        "meurs !",
+        "meursons !",
+        "meursez !"
+      ],
+      "participe_passe": [
+        "mort"
+      ],
+      "subj": [
+        "que je mourire",
+        "que tu mourires",
+        "qu'il/elle mourire",
+        "que nous mouririons",
+        "que vous mouririez",
+        "qu'ils/elles mourirent"
+      ],
+      "cond": [
+        "je mourirais",
+        "tu mourirais",
+        "il/elle mourirait",
+        "nous mouririons",
+        "vous mouririez",
+        "ils/elles mouriraient"
+      ],
+      "impv": [
+        "mourire",
+        "mourirons",
+        "mourirez"
+      ],
+      "part": [
+        "mourirant",
+        "mouriré"
+      ]
+    }
+  },
+  "naître": {
+    "group": "3e groupe",
+    "auxiliary": "être",
+    "level": "A1",
+    "definition": "Venir au monde.",
+    "antonyms": [
+      "mourir"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je nais",
+        "tu nais",
+        "il/elle nai",
+        "nous naisons",
+        "vous naisez",
+        "ils/elles naisent"
+      ],
+      "indicatif_imparfait": [
+        "je naissais",
+        "tu naissais",
+        "il/elle naissait",
+        "nous naissaions",
+        "vous naissaiez",
+        "ils/elles naissaaient"
+      ],
+      "pc": [
+        "je suis né",
+        "tu es né",
+        "il/elle est né",
+        "nous sommes nés",
+        "vous êtes nés",
+        "ils/elles sont nés"
+      ],
+      "indicatif_futur_simple": [
+        "je naîtrai",
+        "tu naîtraas",
+        "il/elle naîtraa",
+        "nous naîtraons",
+        "vous naîtraez",
+        "ils/elles naîtraont"
+      ],
+      "conditionnel_present": [
+        "je naîtrais",
+        "tu naîtrais",
+        "il/elle naîtrait",
+        "nous naîtraions",
+        "vous naîtraiez",
+        "ils/elles naîtraaient"
+      ],
+      "subjonctif_present": [
+        "que je naisse",
+        "que tu naisses",
+        "qu'il/elle naisse",
+        "que nous naisseons",
+        "que vous naisseez",
+        "qu'ils/elles naissent"
+      ],
+      "imperatif": [
+        "nais !",
+        "naisons !",
+        "naisez !"
+      ],
+      "participe_passe": [
+        "né"
+      ],
+      "subj": [
+        "que je naîtree",
+        "que tu naîtrees",
+        "qu'il/elle naîtree",
+        "que nous naîtreions",
+        "que vous naîtreiez",
+        "qu'ils/elles naîtreent"
+      ],
+      "cond": [
+        "je naîtreais",
+        "tu naîtreais",
+        "il/elle naîtreait",
+        "nous naîtreions",
+        "vous naîtreiez",
+        "ils/elles naîtreaient"
+      ],
+      "impv": [
+        "naîtree",
+        "naîtreons",
+        "naîtreez"
+      ],
+      "part": [
+        "naîtreant",
+        "naîtreé"
+      ]
+    }
+  },
+  "ouvrir": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Rendre accessible.",
+    "antonyms": [
+      "fermer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "j'ouvres",
+        "tu ouvres",
+        "il/elle ouvre",
+        "nous ouvresons",
+        "vous ouvresez",
+        "ils/elles ouvresent"
+      ],
+      "indicatif_imparfait": [
+        "j'ouvrais",
+        "tu ouvrais",
+        "il/elle ouvrait",
+        "nous ouvraions",
+        "vous ouvraiez",
+        "ils/elles ouvraaient"
+      ],
+      "pc": [
+        "j'ai ouvert",
+        "tu as ouvert",
+        "il/elle a ouvert",
+        "nous avons ouvert",
+        "vous avez ouvert",
+        "ils/elles ont ouvert"
+      ],
+      "indicatif_futur_simple": [
+        "j'ouvrirai",
+        "tu ouvriraas",
+        "il/elle ouvriraa",
+        "nous ouvriraons",
+        "vous ouvriraez",
+        "ils/elles ouvriraont"
+      ],
+      "conditionnel_present": [
+        "j'ouvrirais",
+        "tu ouvrirais",
+        "il/elle ouvrirait",
+        "nous ouvriraions",
+        "vous ouvriraiez",
+        "ils/elles ouvriraaient"
+      ],
+      "subjonctif_present": [
+        "que j'ouvre",
+        "que tu ouvres",
+        "qu'il/elle ouvre",
+        "que nous ouvreons",
+        "que vous ouvreez",
+        "qu'ils/elles ouvrent"
+      ],
+      "imperatif": [
+        "ouvres !",
+        "ouvresons !",
+        "ouvresez !"
+      ],
+      "participe_passe": [
+        "ouvert"
+      ],
+      "subj": [
+        "que j'ouvrire",
+        "que tu ouvrires",
+        "qu'il/elle ouvrire",
+        "que nous ouvririons",
+        "que vous ouvririez",
+        "qu'ils/elles ouvrirent"
+      ],
+      "cond": [
+        "j'ouvrirais",
+        "tu ouvrirais",
+        "il/elle ouvrirait",
+        "nous ouvririons",
+        "vous ouvririez",
+        "ils/elles ouvriraient"
+      ],
+      "impv": [
+        "ouvrire",
+        "ouvrirons",
+        "ouvrirez"
+      ],
+      "part": [
+        "ouvrirant",
+        "ouvriré"
+      ]
+    }
+  },
+  "partir": {
+    "group": "3e groupe",
+    "auxiliary": "être",
+    "level": "A1",
+    "definition": "S'en aller d'un lieu.",
+    "antonyms": [
+      "arriver"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je pars",
+        "tu pars",
+        "il/elle par",
+        "nous parsons",
+        "vous parsez",
+        "ils/elles parsent"
+      ],
+      "indicatif_imparfait": [
+        "je partais",
+        "tu partais",
+        "il/elle partait",
+        "nous partaions",
+        "vous partaiez",
+        "ils/elles partaaient"
+      ],
+      "pc": [
+        "je suis parti",
+        "tu es parti",
+        "il/elle est parti",
+        "nous sommes partis",
+        "vous êtes partis",
+        "ils/elles sont partis"
+      ],
+      "indicatif_futur_simple": [
+        "je partirai",
+        "tu partiraas",
+        "il/elle partiraa",
+        "nous partiraons",
+        "vous partiraez",
+        "ils/elles partiraont"
+      ],
+      "conditionnel_present": [
+        "je partirais",
+        "tu partirais",
+        "il/elle partirait",
+        "nous partiraions",
+        "vous partiraiez",
+        "ils/elles partiraaient"
+      ],
+      "subjonctif_present": [
+        "que je parte",
+        "que tu partes",
+        "qu'il/elle parte",
+        "que nous parteons",
+        "que vous parteez",
+        "qu'ils/elles partent"
+      ],
+      "imperatif": [
+        "pars !",
+        "parsons !",
+        "parsez !"
+      ],
+      "participe_passe": [
+        "parti"
+      ],
+      "subj": [
+        "que je partire",
+        "que tu partires",
+        "qu'il/elle partire",
+        "que nous partirions",
+        "que vous partiriez",
+        "qu'ils/elles partirent"
+      ],
+      "cond": [
+        "je partirais",
+        "tu partirais",
+        "il/elle partirait",
+        "nous partirions",
+        "vous partiriez",
+        "ils/elles partiraient"
+      ],
+      "impv": [
+        "partire",
+        "partirons",
+        "partirez"
+      ],
+      "part": [
+        "partirant",
+        "partiré"
+      ]
+    }
+  },
+  "recevoir": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Obtenir ce qui est envoyé.",
+    "antonyms": [
+      "envoyer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je reçois",
+        "tu reçois",
+        "il/elle reçoi",
+        "nous reçoisons",
+        "vous reçoisez",
+        "ils/elles reçoisent"
+      ],
+      "indicatif_imparfait": [
+        "je recevais",
+        "tu recevais",
+        "il/elle recevait",
+        "nous recevaions",
+        "vous recevaiez",
+        "ils/elles recevaaient"
+      ],
+      "pc": [
+        "je ai reçu",
+        "tu as reçu",
+        "il/elle a reçu",
+        "nous avons reçu",
+        "vous avez reçu",
+        "ils/elles ont reçu"
+      ],
+      "indicatif_futur_simple": [
+        "je recevrai",
+        "tu recevraas",
+        "il/elle recevraa",
+        "nous recevraons",
+        "vous recevraez",
+        "ils/elles recevraont"
+      ],
+      "conditionnel_present": [
+        "je recevrais",
+        "tu recevrais",
+        "il/elle recevrait",
+        "nous recevraions",
+        "vous recevraiez",
+        "ils/elles recevraaient"
+      ],
+      "subjonctif_present": [
+        "que je reçoive",
+        "que tu reçoives",
+        "qu'il/elle reçoive",
+        "que nous reçoiveons",
+        "que vous reçoiveez",
+        "qu'ils/elles reçoivent"
+      ],
+      "imperatif": [
+        "reçois !",
+        "reçoisons !",
+        "reçoisez !"
+      ],
+      "participe_passe": [
+        "reçu"
+      ],
+      "subj": [
+        "que je recevoire",
+        "que tu recevoires",
+        "qu'il/elle recevoire",
+        "que nous recevoirions",
+        "que vous recevoiriez",
+        "qu'ils/elles recevoirent"
+      ],
+      "cond": [
+        "je recevoirais",
+        "tu recevoirais",
+        "il/elle recevoirait",
+        "nous recevoirions",
+        "vous recevoiriez",
+        "ils/elles recevoiraient"
+      ],
+      "impv": [
+        "recevoire",
+        "recevoirons",
+        "recevoirez"
+      ],
+      "part": [
+        "recevoirant",
+        "recevoiré"
+      ]
+    }
+  },
+  "rendre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A2",
+    "definition": "Restituer quelque chose.",
+    "antonyms": [
+      "prendre"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je rends",
+        "tu rends",
+        "il/elle rend",
+        "nous rendsons",
+        "vous rendsez",
+        "ils/elles rendsent"
+      ],
+      "indicatif_imparfait": [
+        "je rendais",
+        "tu rendais",
+        "il/elle rendait",
+        "nous rendaions",
+        "vous rendaiez",
+        "ils/elles rendaaient"
+      ],
+      "pc": [
+        "je ai rendu",
+        "tu as rendu",
+        "il/elle a rendu",
+        "nous avons rendu",
+        "vous avez rendu",
+        "ils/elles ont rendu"
+      ],
+      "indicatif_futur_simple": [
+        "je rendrai",
+        "tu rendraas",
+        "il/elle rendraa",
+        "nous rendraons",
+        "vous rendraez",
+        "ils/elles rendraont"
+      ],
+      "conditionnel_present": [
+        "je rendrais",
+        "tu rendrais",
+        "il/elle rendrait",
+        "nous rendraions",
+        "vous rendraiez",
+        "ils/elles rendraaient"
+      ],
+      "subjonctif_present": [
+        "que je rende",
+        "que tu rendes",
+        "qu'il/elle rende",
+        "que nous rendeons",
+        "que vous rendeez",
+        "qu'ils/elles rendent"
+      ],
+      "imperatif": [
+        "rends !",
+        "rendsons !",
+        "rendsez !"
+      ],
+      "participe_passe": [
+        "rendu"
+      ],
+      "subj": [
+        "que je rendree",
+        "que tu rendrees",
+        "qu'il/elle rendree",
+        "que nous rendreions",
+        "que vous rendreiez",
+        "qu'ils/elles rendreent"
+      ],
+      "cond": [
+        "je rendreais",
+        "tu rendreais",
+        "il/elle rendreait",
+        "nous rendreions",
+        "vous rendreiez",
+        "ils/elles rendreaient"
+      ],
+      "impv": [
+        "rendree",
+        "rendreons",
+        "rendreez"
+      ],
+      "part": [
+        "rendreant",
+        "rendreé"
+      ]
+    }
+  },
+  "répondre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Donner une réplique.",
+    "antonyms": [
+      "demander"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je réponds",
+        "tu réponds",
+        "il/elle répond",
+        "nous répondsons",
+        "vous répondsez",
+        "ils/elles répondsent"
+      ],
+      "indicatif_imparfait": [
+        "je répondais",
+        "tu répondais",
+        "il/elle répondait",
+        "nous répondaions",
+        "vous répondaiez",
+        "ils/elles répondaaient"
+      ],
+      "pc": [
+        "je ai répondu",
+        "tu as répondu",
+        "il/elle a répondu",
+        "nous avons répondu",
+        "vous avez répondu",
+        "ils/elles ont répondu"
+      ],
+      "indicatif_futur_simple": [
+        "je répondrai",
+        "tu répondraas",
+        "il/elle répondraa",
+        "nous répondraons",
+        "vous répondraez",
+        "ils/elles répondraont"
+      ],
+      "conditionnel_present": [
+        "je répondrais",
+        "tu répondrais",
+        "il/elle répondrait",
+        "nous répondraions",
+        "vous répondraiez",
+        "ils/elles répondraaient"
+      ],
+      "subjonctif_present": [
+        "que je réponde",
+        "que tu répondes",
+        "qu'il/elle réponde",
+        "que nous répondeons",
+        "que vous répondeez",
+        "qu'ils/elles répondent"
+      ],
+      "imperatif": [
+        "réponds !",
+        "répondsons !",
+        "répondsez !"
+      ],
+      "participe_passe": [
+        "répondu"
+      ],
+      "subj": [
+        "que je répondree",
+        "que tu répondrees",
+        "qu'il/elle répondree",
+        "que nous répondreions",
+        "que vous répondreiez",
+        "qu'ils/elles répondreent"
+      ],
+      "cond": [
+        "je répondreais",
+        "tu répondreais",
+        "il/elle répondreait",
+        "nous répondreions",
+        "vous répondreiez",
+        "ils/elles répondreaient"
+      ],
+      "impv": [
+        "répondree",
+        "répondreons",
+        "répondreez"
+      ],
+      "part": [
+        "répondreant",
+        "répondreé"
+      ]
+    }
+  },
+  "sortir": {
+    "group": "3e groupe",
+    "auxiliary": "être",
+    "level": "A1",
+    "definition": "Aller à l'extérieur.",
+    "antonyms": [
+      "entrer"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je sors",
+        "tu sors",
+        "il/elle sor",
+        "nous sorsons",
+        "vous sorsez",
+        "ils/elles sorsent"
+      ],
+      "indicatif_imparfait": [
+        "je sortais",
+        "tu sortais",
+        "il/elle sortait",
+        "nous sortaions",
+        "vous sortaiez",
+        "ils/elles sortaaient"
+      ],
+      "pc": [
+        "je suis sorti",
+        "tu es sorti",
+        "il/elle est sorti",
+        "nous sommes sortis",
+        "vous êtes sortis",
+        "ils/elles sont sortis"
+      ],
+      "indicatif_futur_simple": [
+        "je sortirai",
+        "tu sortiraas",
+        "il/elle sortiraa",
+        "nous sortiraons",
+        "vous sortiraez",
+        "ils/elles sortiraont"
+      ],
+      "conditionnel_present": [
+        "je sortirais",
+        "tu sortirais",
+        "il/elle sortirait",
+        "nous sortiraions",
+        "vous sortiraiez",
+        "ils/elles sortiraaient"
+      ],
+      "subjonctif_present": [
+        "que je sorte",
+        "que tu sortes",
+        "qu'il/elle sorte",
+        "que nous sorteons",
+        "que vous sorteez",
+        "qu'ils/elles sortent"
+      ],
+      "imperatif": [
+        "sors !",
+        "sorsons !",
+        "sorsez !"
+      ],
+      "participe_passe": [
+        "sorti"
+      ],
+      "subj": [
+        "que je sortire",
+        "que tu sortires",
+        "qu'il/elle sortire",
+        "que nous sortirions",
+        "que vous sortiriez",
+        "qu'ils/elles sortirent"
+      ],
+      "cond": [
+        "je sortirais",
+        "tu sortirais",
+        "il/elle sortirait",
+        "nous sortirions",
+        "vous sortiriez",
+        "ils/elles sortiraient"
+      ],
+      "impv": [
+        "sortire",
+        "sortirons",
+        "sortirez"
+      ],
+      "part": [
+        "sortirant",
+        "sortiré"
+      ]
+    }
+  },
+  "suivre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Aller derrière quelqu'un.",
+    "antonyms": [
+      "précéder"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je suis",
+        "tu suis",
+        "il/elle sui",
+        "nous suisons",
+        "vous suisez",
+        "ils/elles suisent"
+      ],
+      "indicatif_imparfait": [
+        "je suivais",
+        "tu suivais",
+        "il/elle suivait",
+        "nous suivaions",
+        "vous suivaiez",
+        "ils/elles suivaaient"
+      ],
+      "pc": [
+        "je ai suivi",
+        "tu as suivi",
+        "il/elle a suivi",
+        "nous avons suivi",
+        "vous avez suivi",
+        "ils/elles ont suivi"
+      ],
+      "indicatif_futur_simple": [
+        "je suivrai",
+        "tu suivraas",
+        "il/elle suivraa",
+        "nous suivraons",
+        "vous suivraez",
+        "ils/elles suivraont"
+      ],
+      "conditionnel_present": [
+        "je suivrais",
+        "tu suivrais",
+        "il/elle suivrait",
+        "nous suivraions",
+        "vous suivraiez",
+        "ils/elles suivraaient"
+      ],
+      "subjonctif_present": [
+        "que je suive",
+        "que tu suives",
+        "qu'il/elle suive",
+        "que nous suiveons",
+        "que vous suiveez",
+        "qu'ils/elles suivent"
+      ],
+      "imperatif": [
+        "suis !",
+        "suisons !",
+        "suisez !"
+      ],
+      "participe_passe": [
+        "suivi"
+      ],
+      "subj": [
+        "que je suivree",
+        "que tu suivrees",
+        "qu'il/elle suivree",
+        "que nous suivreions",
+        "que vous suivreiez",
+        "qu'ils/elles suivreent"
+      ],
+      "cond": [
+        "je suivreais",
+        "tu suivreais",
+        "il/elle suivreait",
+        "nous suivreions",
+        "vous suivreiez",
+        "ils/elles suivreaient"
+      ],
+      "impv": [
+        "suivree",
+        "suivreons",
+        "suivreez"
+      ],
+      "part": [
+        "suivreant",
+        "suivreé"
+      ]
+    }
+  },
+  "tenir": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Avoir dans la main.",
+    "antonyms": [
+      "lâcher"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je tiens",
+        "tu tiens",
+        "il/elle tien",
+        "nous tiensons",
+        "vous tiensez",
+        "ils/elles tiensent"
+      ],
+      "indicatif_imparfait": [
+        "je tenais",
+        "tu tenais",
+        "il/elle tenait",
+        "nous tenaions",
+        "vous tenaiez",
+        "ils/elles tenaaient"
+      ],
+      "pc": [
+        "je ai tenu",
+        "tu as tenu",
+        "il/elle a tenu",
+        "nous avons tenu",
+        "vous avez tenu",
+        "ils/elles ont tenu"
+      ],
+      "indicatif_futur_simple": [
+        "je tiendrai",
+        "tu tiendraas",
+        "il/elle tiendraa",
+        "nous tiendraons",
+        "vous tiendraez",
+        "ils/elles tiendraont"
+      ],
+      "conditionnel_present": [
+        "je tiendrais",
+        "tu tiendrais",
+        "il/elle tiendrait",
+        "nous tiendraions",
+        "vous tiendraiez",
+        "ils/elles tiendraaient"
+      ],
+      "subjonctif_present": [
+        "que je tienne",
+        "que tu tiennes",
+        "qu'il/elle tienne",
+        "que nous tienneons",
+        "que vous tienneez",
+        "qu'ils/elles tiennent"
+      ],
+      "imperatif": [
+        "tiens !",
+        "tiensons !",
+        "tiensez !"
+      ],
+      "participe_passe": [
+        "tenu"
+      ],
+      "subj": [
+        "que je tenire",
+        "que tu tenires",
+        "qu'il/elle tenire",
+        "que nous tenirions",
+        "que vous teniriez",
+        "qu'ils/elles tenirent"
+      ],
+      "cond": [
+        "je tenirais",
+        "tu tenirais",
+        "il/elle tenirait",
+        "nous tenirions",
+        "vous teniriez",
+        "ils/elles teniraient"
+      ],
+      "impv": [
+        "tenire",
+        "tenirons",
+        "tenirez"
+      ],
+      "part": [
+        "tenirant",
+        "teniré"
+      ]
+    }
+  },
+  "vivre": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Être en vie.",
+    "antonyms": [
+      "mourir"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je vis",
+        "tu vis",
+        "il/elle vi",
+        "nous visons",
+        "vous visez",
+        "ils/elles visent"
+      ],
+      "indicatif_imparfait": [
+        "je vivais",
+        "tu vivais",
+        "il/elle vivait",
+        "nous vivaions",
+        "vous vivaiez",
+        "ils/elles vivaaient"
+      ],
+      "pc": [
+        "je ai vécu",
+        "tu as vécu",
+        "il/elle a vécu",
+        "nous avons vécu",
+        "vous avez vécu",
+        "ils/elles ont vécu"
+      ],
+      "indicatif_futur_simple": [
+        "je vivrai",
+        "tu vivraas",
+        "il/elle vivraa",
+        "nous vivraons",
+        "vous vivraez",
+        "ils/elles vivraont"
+      ],
+      "conditionnel_present": [
+        "je vivrais",
+        "tu vivrais",
+        "il/elle vivrait",
+        "nous vivraions",
+        "vous vivraiez",
+        "ils/elles vivraaient"
+      ],
+      "subjonctif_present": [
+        "que je vive",
+        "que tu vives",
+        "qu'il/elle vive",
+        "que nous viveons",
+        "que vous viveez",
+        "qu'ils/elles vivent"
+      ],
+      "imperatif": [
+        "vis !",
+        "visons !",
+        "visez !"
+      ],
+      "participe_passe": [
+        "vécu"
+      ],
+      "subj": [
+        "que je vivree",
+        "que tu vivrees",
+        "qu'il/elle vivree",
+        "que nous vivreions",
+        "que vous vivreiez",
+        "qu'ils/elles vivreent"
+      ],
+      "cond": [
+        "je vivreais",
+        "tu vivreais",
+        "il/elle vivreait",
+        "nous vivreions",
+        "vous vivreiez",
+        "ils/elles vivreaient"
+      ],
+      "impv": [
+        "vivree",
+        "vivreons",
+        "vivreez"
+      ],
+      "part": [
+        "vivreant",
+        "vivreé"
       ]
     }
   }
