@@ -88,6 +88,17 @@ class GreekGenderCasesEngine {
         badge.className = `badge ${data.gender === 'Αρσενικό' ? 'gender-masc' : (data.gender === 'Θηλυκό' ? 'gender-fem' : 'gender-neut')}`;
         document.getElementById('noun-definition').textContent = data.definition;
 
+        const ruleBox = document.getElementById('grammar-rule-container');
+        const ruleTextEl = document.getElementById('grammar-rule-text');
+        if (ruleTextEl && ruleBox) {
+            if (data.grammar_rule) {
+                ruleTextEl.textContent = data.grammar_rule;
+                ruleBox.style.display = 'flex';
+            } else {
+                ruleBox.style.display = 'none';
+            }
+        }
+
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {
             document.getElementById('antonyms-container').style.display = 'flex';

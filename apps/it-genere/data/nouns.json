@@ -221,7 +221,8 @@
     "definition": "Parte finale del braccio.",
     "antonyms": [
       "piede"
-    ]
+    ],
+    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-o' ma è FEMMINILE ('la mano', plurale 'le mani')."
   },
   "testa": {
     "gender": "Femminile",
@@ -693,7 +694,8 @@
     "definition": "Questione da risolvere.",
     "antonyms": [
       "soluzione"
-    ]
+    ],
+    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-a' (origine greca) ma è MASCHILE ('il problema', plurale 'i problemi')."
   },
   "progetto": {
     "gender": "Maschile",
@@ -909,7 +911,8 @@
     "definition": "Arto superiore dell'uomo.",
     "antonyms": [
       "gamba"
-    ]
+    ],
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('il braccio'), diventa femminile per le parti del corpo al plurale ('le braccia')."
   },
   "burro": {
     "gender": "Maschile",
@@ -997,7 +1000,8 @@
     "definition": "Sala di proiezione film.",
     "antonyms": [
       "teatro"
-    ]
+    ],
+    "grammar_rule": "💡 REMEMBER: Invariabile al plurale ('il cinema', 'i cinema')."
   },
   "coltello": {
     "gender": "Maschile",
@@ -1389,7 +1393,8 @@
     "definition": "Prodotto degli uccelli commestibile.",
     "antonyms": [
       "pane"
-    ]
+    ],
+    "grammar_rule": "💡 REMEMBER: Nom maschile al singolare ('l'uovo'), ma FENOMENO SOVRAPPIÙ cambia genere e diventa femminile al plurale ('le uova')."
   },
   "vaso": {
     "gender": "Maschile",

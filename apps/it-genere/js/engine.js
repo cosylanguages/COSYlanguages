@@ -66,6 +66,17 @@ class ItalianGenderEngine {
         badge.className = `badge ${data.gender === 'Maschile' ? 'gender-masc' : 'gender-fem'}`;
         document.getElementById('noun-definition').textContent = data.definition;
 
+        const ruleBox = document.getElementById('grammar-rule-container');
+        const ruleTextEl = document.getElementById('grammar-rule-text');
+        if (ruleTextEl && ruleBox) {
+            if (data.grammar_rule) {
+                ruleTextEl.textContent = data.grammar_rule;
+                ruleBox.style.display = 'flex';
+            } else {
+                ruleBox.style.display = 'none';
+            }
+        }
+
         let stem = noun.slice(0, -1);
         let ending = noun.slice(-1);
         document.getElementById('sing-form').innerHTML = `<span class="article">${data.article}</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;

@@ -108,6 +108,17 @@ class ItalianConjugationEngine {
             if (usageBox) usageBox.style.display = 'flex';
         }
 
+        const ruleBox = document.getElementById('grammar-rule-container');
+        const ruleTextEl = document.getElementById('grammar-rule-text');
+        if (ruleTextEl && ruleBox) {
+            if (data.grammar_rule) {
+                ruleTextEl.textContent = data.grammar_rule;
+                ruleBox.style.display = 'flex';
+            } else {
+                ruleBox.style.display = 'none';
+            }
+        }
+
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {
             document.getElementById('antonyms-container').style.display = 'flex';

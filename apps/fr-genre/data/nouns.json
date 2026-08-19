@@ -77,7 +77,8 @@
     "definition": "Liquide transparent et incolore.",
     "antonyms": [
       "feu"
-    ]
+    ],
+    "grammar_rule": "💡 REMEMBER: Nom féminin ('l'eau') — pluriel irrégulier en '-x' ('les eaux')."
   },
   "terre": {
     "gender": "Féminin",
@@ -621,7 +622,8 @@
     "definition": "Activité humaine productive.",
     "antonyms": [
       "repos"
-    ]
+    ],
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les travaux')."
   },
   "repos": {
     "gender": "Masculin",
@@ -917,7 +919,8 @@
     "definition": "Être vivant doué de sensibilité.",
     "antonyms": [
       "végétal"
-    ]
+    ],
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les animaux')."
   },
   "anniversaire": {
     "gender": "Masculin",

@@ -1208,7 +1208,8 @@
         "demandé"
       ]
     },
-    "usage_hint": "demander (qqch) à (qqn) / de (faire qqch)"
+    "usage_hint": "demander (qqch) à (qqn) / de (faire qqch)",
+    "grammar_rule": "💡 REMEMBER: Exige la préposition 'de' devant un infinitif ('demander de sortir') ou le Subjonctif ('demander que...')."
   },
   "fermer": {
     "group": "1er groupe",
@@ -1673,7 +1674,8 @@
         "voyagé"
       ]
     },
-    "usage_hint": "voyager en / à / avec"
+    "usage_hint": "voyager en / à / avec",
+    "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous voyageons')."
   },
   "passer": {
     "group": "1er groupe",
@@ -3161,7 +3163,8 @@
         "espéré"
       ]
     },
-    "usage_hint": "espérer + COD / + infinitif"
+    "usage_hint": "espérer + COD / + infinitif",
+    "grammar_rule": "💡 REMEMBER: Suivi de l'Indicatif/Futur si affirmé ('j'espère qu'il viendra'), mais exige le Subjonctif à la forme négative ou interrogative."
   },
   "préférer": {
     "group": "1er groupe",
@@ -3254,7 +3257,8 @@
         "préféré"
       ]
     },
-    "usage_hint": "préférer + COD / + infinitif à"
+    "usage_hint": "préférer + COD / + infinitif à",
+    "grammar_rule": "💡 REMEMBER: Exige le Subjonctif pour exprimer une préférence subordonnée ('je préfère qu'il reste'). Alternance d'accentuation: préférer -> je préfère."
   },
   "continuer": {
     "group": "1er groupe",
@@ -3905,7 +3909,8 @@
         "refusé"
       ]
     },
-    "usage_hint": "refuser + COD / de (faire qqch)"
+    "usage_hint": "refuser + COD / de (faire qqch)",
+    "grammar_rule": "💡 REMEMBER: Exige la préposition 'de' devant un infinitif ('refuser de répondre')."
   },
   "accepter": {
     "group": "1er groupe",
@@ -5021,7 +5026,8 @@
         "payé"
       ]
     },
-    "usage_hint": "payer (qqch) à (qqn)"
+    "usage_hint": "payer (qqch) à (qqn)",
+    "grammar_rule": "💡 REMEMBER: Le 'y' peut se changer en 'i' devant un 'e' muet ('je paie' / 'je paye')."
   },
   "appeler": {
     "group": "1er groupe",
@@ -5114,7 +5120,8 @@
         "appelé"
       ]
     },
-    "usage_hint": "appeler + COD (appeler qqn)"
+    "usage_hint": "appeler + COD (appeler qqn)",
+    "grammar_rule": "💡 REMEMBER: Double le 'l' devant un 'e' muet ('j'appelle', 'nous appelons')."
   },
   "imaginer": {
     "group": "1er groupe",
@@ -5765,7 +5772,8 @@
         "nagé"
       ]
     },
-    "usage_hint": "nager dans / avec"
+    "usage_hint": "nager dans / avec",
+    "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous nageons')."
   },
   "sauter": {
     "group": "1er groupe",
@@ -6137,7 +6145,8 @@
         "souhaité"
       ]
     },
-    "usage_hint": "souhaiter (qqch) à (qqn)"
+    "usage_hint": "souhaiter (qqch) à (qqn)",
+    "grammar_rule": "💡 REMEMBER: Exige le Subjonctif dans la subordonnée quand le sujet change ('je souhaite qu'elle réussisse')."
   },
   "raconter": {
     "group": "1er groupe",
@@ -7253,7 +7262,8 @@
         "réussiré"
       ]
     },
-    "usage_hint": "réussir à (faire qqch) / un examen (+ COD)"
+    "usage_hint": "réussir à (faire qqch) / un examen (+ COD)",
+    "grammar_rule": "💡 REMEMBER: Exige la préposition 'à' devant un infinitif ('réussir à faire')."
   },
   "grandir": {
     "group": "2e groupe",
@@ -8276,7 +8286,8 @@
         "voiré"
       ]
     },
-    "usage_hint": "voir + COD"
+    "usage_hint": "voir + COD",
+    "grammar_rule": "💡 REMEMBER: Futur et conditionnel à double 'r': 'je verrai'. Subjonctif: 'que je voie', 'que nous voyions'."
   },
   "pouvoir": {
     "group": "3e groupe",
@@ -8369,7 +8380,8 @@
         "pouvoiré"
       ]
     },
-    "usage_hint": "+ infinitif direct"
+    "usage_hint": "+ infinitif direct",
+    "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je peux aider'). Auxiliaire avoir."
   },
   "vouloir": {
     "group": "3e groupe",
@@ -8462,7 +8474,8 @@
         "vouloiré"
       ]
     },
-    "usage_hint": "vouloir + COD / + infinitif"
+    "usage_hint": "vouloir + COD / + infinitif",
+    "grammar_rule": "💡 REMEMBER: Exige TOUJOURS le Subjonctif dans les propositions subordonnées quand les sujets sont différents ('je veux que tu viennes')."
   },
   "prendre": {
     "group": "3e groupe",
@@ -8648,7 +8661,8 @@
         "veniré"
       ]
     },
-    "usage_hint": "venir de (origine/lieu) / avec"
+    "usage_hint": "venir de (origine/lieu) / avec",
+    "grammar_rule": "💡 REMEMBER: Auxiliaire être au passé composé ('il est venu'). Subjonctif: 'que je vienne', 'que nous venions'."
   },
   "vendre": {
     "group": "3e groupe",
@@ -9299,7 +9313,8 @@
         "acheté"
       ]
     },
-    "usage_hint": "acheter + COD (complément d'objet direct)"
+    "usage_hint": "acheter + COD (complément d'objet direct)",
+    "grammar_rule": "💡 REMEMBER: Change le 'e' muet en 'è' devant une syllabe muette ('j'achète', 'nous achetons')."
   },
   "adorer": {
     "group": "1er groupe",
@@ -11903,7 +11918,8 @@
         "envoyé"
       ]
     },
-    "usage_hint": "envoyer + COD (complément d'objet direct)"
+    "usage_hint": "envoyer + COD (complément d'objet direct)",
+    "grammar_rule": "💡 REMEMBER: Futur et Conditionnel très irréguliers: 'j'enverrai', 'j'enverrais' (tronc en 'enverr-')."
   },
   "éviter": {
     "group": "1er groupe",
@@ -13112,7 +13128,8 @@
         "jeté"
       ]
     },
-    "usage_hint": "jeter + COD (complément d'objet direct)"
+    "usage_hint": "jeter + COD (complément d'objet direct)",
+    "grammar_rule": "💡 REMEMBER: Double le 't' devant un 'e' muet ('je jette', 'nous jetons')."
   },
   "juger": {
     "group": "1er groupe",
@@ -17018,7 +17035,8 @@
         "couriré"
       ]
     },
-    "usage_hint": "courir + COD (complément d'objet direct)"
+    "usage_hint": "courir + COD (complément d'objet direct)",
+    "grammar_rule": "💡 REMEMBER: Participe passé 'couru'. Futur et conditionnel à double 'r': 'je courrai', 'je courrais'."
   },
   "croire": {
     "group": "3e groupe",
@@ -17483,7 +17501,8 @@
         "devoiré"
       ]
     },
-    "usage_hint": "devoir + COD (complément d'objet direct)"
+    "usage_hint": "devoir + COD (complément d'objet direct)",
+    "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je dois partir'). Participe passé 'dû' prend un accent circonflexe au masculin singulier."
   },
   "dormir": {
     "group": "3e groupe",
@@ -17948,7 +17967,8 @@
         "falloiré"
       ]
     },
-    "usage_hint": "falloir + COD (complément d'objet direct)"
+    "usage_hint": "falloir + COD (complément d'objet direct)",
+    "grammar_rule": "💡 REMEMBER: Verbe impersonnel stictement utilisé à la 3e personne ('il faut'). Exige le Subjonctif ('il faut que nous partions')."
   },
   "lire": {
     "group": "3e groupe",
@@ -18227,7 +18247,8 @@
         "mouriré"
       ]
     },
-    "usage_hint": "mourir + COD (complément d'objet direct)"
+    "usage_hint": "mourir + COD (complément d'objet direct)",
+    "grammar_rule": "💡 REMEMBER: Auxiliaire être au passé composé ('il est mort'). Futur: 'je mourrai'. Subjonctif: 'que je meure'."
   },
   "naître": {
     "group": "3e groupe",
@@ -19064,7 +19085,8 @@
         "teniré"
       ]
     },
-    "usage_hint": "tenir + COD (complément d'objet direct)"
+    "usage_hint": "tenir + COD (complément d'objet direct)",
+    "grammar_rule": "💡 REMEMBER: Mêmes irrégularités que venir ('je tiens', 'nous tenons', 'ils tiennent', 'que je tienne')."
   },
   "vivre": {
     "group": "3e groupe",

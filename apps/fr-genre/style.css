@@ -36,11 +36,13 @@ body { background-color: var(--cream-bg); color: var(--ink-text); font-family: v
 .gender-fem { background-color: #fce4ec; color: #880e4f; border-color: #f8bbd0; }
 .lexical-box { background-color: var(--cream-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
 .lexical-label { font-weight: 700; color: var(--sage-primary); }
+.grammar-rule-block { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; background-color: #fff8f0; padding: 0.45rem 0.85rem; border-radius: 8px; border-left: 3px solid var(--terracotta); }
+.rule-text { font-weight: 600; color: var(--ink-text); }
 .pills-list { display: flex; gap: 0.5rem; flex-wrap: wrap; }
 .antonym-pill { background-color: #ffffff; border: 1px solid var(--accent-gold); padding: 0.2rem 0.7rem; border-radius: var(--radius-pill); font-size: 0.85rem; cursor: pointer; }
 .plural-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
 .plural-card { background-color: var(--cream-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; text-align: center; }
-.plural-card p { font-size: 1.3rem; margin-top: 0.5rem; }
+.plural-card p { font-size: 1.3rem; margin-top: 0.5rem; white-space: nowrap; }
 .stem { color: var(--sage-dark); font-weight: 700; }
 .ending { color: var(--terracotta); font-weight: 800; }
 .article { color: var(--ink-muted); font-style: italic; }

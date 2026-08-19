@@ -753,7 +753,8 @@
         "pensato"
       ]
     },
-    "usage_hint": "pensare a (qualcosa/qualcuno) / di (opinione)"
+    "usage_hint": "pensare a (qualcosa/qualcuno) / di (opinione)",
+    "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi subordinate di opinione ('penso che sia giusto')."
   },
   "cercare": {
     "group": "1a coniugazione",
@@ -2853,7 +2854,8 @@
         "sperato"
       ]
     },
-    "usage_hint": "sperare di (fare) / in (qualcosa)"
+    "usage_hint": "sperare di (fare) / in (qualcosa)",
+    "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi subordinate ('spero che tu stia bene')."
   },
   "sognare": {
     "group": "1a coniugazione",
@@ -3861,7 +3863,8 @@
         "credato"
       ]
     },
-    "usage_hint": "credere + oggetto diretto"
+    "usage_hint": "credere + oggetto diretto",
+    "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi di opinione e credenza ('credo che vengano')."
   },
   "sembrare": {
     "group": "1a coniugazione",
@@ -4785,7 +4788,8 @@
         "uscato"
       ]
     },
-    "usage_hint": "uscire + oggetto diretto"
+    "usage_hint": "uscire + oggetto diretto",
+    "grammar_rule": "💡 REMEMBER: Alternanza della radice al presente: esco, esci, esce, usciamo, uscite, escono."
   },
   "salire": {
     "group": "3a coniugazione",
@@ -5121,7 +5125,8 @@
         "andato"
       ]
     },
-    "usage_hint": "andare a (città/luogo) / in (paese/luogo)"
+    "usage_hint": "andare a (città/luogo) / in (paese/luogo)",
+    "grammar_rule": "💡 REMEMBER: Verbo di movimento — usa l'ausiliare 'essere' con accordo del participio passato ('sono andato/a'). Presente altamente irregolare: vado, vai, va, andiamo, andate, vanno."
   },
   "venire": {
     "group": "3a coniugazione",
@@ -5205,7 +5210,8 @@
         "venato"
       ]
     },
-    "usage_hint": "venire da (luogo) / con (persona)"
+    "usage_hint": "venire da (luogo) / con (persona)",
+    "grammar_rule": "💡 REMEMBER: Usa l'ausiliare 'essere' ('sono venuto/a'). Presente: vengo, vieni, viene, veniamo, venite, vengono."
   },
   "fare": {
     "group": "1a coniugazione",
@@ -5373,7 +5379,8 @@
         "dato"
       ]
     },
-    "usage_hint": "dire (qualcosa) a (qualcuno)"
+    "usage_hint": "dire (qualcosa) a (qualcuno)",
+    "grammar_rule": "💡 REMEMBER: Deriva dal latino 'dicere'. Participio passato: 'detto'. Imperativo singolare: 'dall' / 'di''."
   },
   "potere": {
     "group": "2a coniugazione",
@@ -5457,7 +5464,8 @@
         "potato"
       ]
     },
-    "usage_hint": "+ infinito diretto"
+    "usage_hint": "+ infinito diretto",
+    "grammar_rule": "💡 REMEMBER: Verbo servile/modale — esprime possibilità o permesso, seguito dall'infinito senza preposizione."
   },
   "volere": {
     "group": "2a coniugazione",
@@ -5541,7 +5549,8 @@
         "volato"
       ]
     },
-    "usage_hint": "+ oggetto diretto / + infinito"
+    "usage_hint": "+ oggetto diretto / + infinito",
+    "grammar_rule": "💡 REMEMBER: Verbo servile/modale — seguito direttamente dall'infinito ('voglio andare') o richiede il Congiuntivo se i soggetti differiscono ('voglio che tu venga')."
   },
   "sapere": {
     "group": "2a coniugazione",
@@ -5709,7 +5718,8 @@
         "dovato"
       ]
     },
-    "usage_hint": "dovere + oggetto diretto"
+    "usage_hint": "dovere + oggetto diretto",
+    "grammar_rule": "💡 REMEMBER: Verbo servile/modale — esprime un'obbligazione, seguito direttamente dall'infinito senza preposizione."
   },
   "leggere": {
     "group": "2a coniugazione",
