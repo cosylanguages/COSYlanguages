@@ -154,5 +154,12 @@ test.describe('COSYlanguages Comfort, Usability & Responsive Adaptation', () => 
 
         const gameBg = await page.evaluate(() => window.getComputedStyle(document.body).backgroundColor);
         expect(gameBg).not.toBe('rgb(255, 255, 255)');
+
+        // Check dark mode background for game cards .gc
+        const gcCard = page.locator('.gc').first();
+        if (await gcCard.isVisible()) {
+            const gcCardBg = await gcCard.evaluate((el) => window.getComputedStyle(el).backgroundColor);
+            expect(gcCardBg).not.toBe('rgb(255, 255, 255)');
+        }
     });
 });
