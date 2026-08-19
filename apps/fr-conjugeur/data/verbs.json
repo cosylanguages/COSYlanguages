@@ -64,6 +64,31 @@
       ],
       "participe_passe": [
         "parlé"
+      ],
+      "subj": [
+        "que je parle",
+        "que tu parles",
+        "qu'il/elle parle",
+        "que nous parlions",
+        "que vous parliez",
+        "qu'ils/elles parlent"
+      ],
+      "cond": [
+        "je parlerais",
+        "tu parlerais",
+        "il/elle parlerait",
+        "nous parlerions",
+        "vous parleriez",
+        "ils/elles parleraient"
+      ],
+      "impv": [
+        "parle",
+        "parlons",
+        "parlez"
+      ],
+      "part": [
+        "parlant",
+        "parlé"
       ]
     },
     "usage_hint": "parler à (qqn) / de (qqch ou qqn)"
@@ -133,6 +158,31 @@
       ],
       "participe_passe": [
         "aimé"
+      ],
+      "subj": [
+        "que j'aime",
+        "que tu aimes",
+        "qu'il/elle aime",
+        "que nous aimions",
+        "que vous aimiez",
+        "qu'ils/elles aiment"
+      ],
+      "cond": [
+        "j'aimerais",
+        "tu aimerais",
+        "il/elle aimerait",
+        "nous aimerions",
+        "vous aimeriez",
+        "ils/elles aimeraient"
+      ],
+      "impv": [
+        "aime",
+        "aimons",
+        "aimez"
+      ],
+      "part": [
+        "aimant",
+        "aimé"
       ]
     },
     "usage_hint": "+ COD (direct object)"
@@ -200,6 +250,31 @@
         "marchez !"
       ],
       "participe_passe": [
+        "marché"
+      ],
+      "subj": [
+        "que je marche",
+        "que tu marches",
+        "qu'il/elle marche",
+        "que nous marchions",
+        "que vous marchiez",
+        "qu'ils/elles marchent"
+      ],
+      "cond": [
+        "je marcherais",
+        "tu marcherais",
+        "il/elle marcherait",
+        "nous marcherions",
+        "vous marcheriez",
+        "ils/elles marcheraient"
+      ],
+      "impv": [
+        "marche",
+        "marchons",
+        "marchez"
+      ],
+      "part": [
+        "marchant",
         "marché"
       ]
     },
@@ -269,6 +344,31 @@
       ],
       "participe_passe": [
         "étudié"
+      ],
+      "subj": [
+        "que j'étudie",
+        "que tu étudies",
+        "qu'il/elle étudie",
+        "que nous étudiions",
+        "que vous étudiiez",
+        "qu'ils/elles étudient"
+      ],
+      "cond": [
+        "j'étudierais",
+        "tu étudierais",
+        "il/elle étudierait",
+        "nous étudierions",
+        "vous étudieriez",
+        "ils/elles étudieraient"
+      ],
+      "impv": [
+        "étudie",
+        "étudions",
+        "étudiez"
+      ],
+      "part": [
+        "étudiant",
+        "étudié"
       ]
     },
     "usage_hint": "+ COD / étudier à (l'université)"
@@ -336,6 +436,31 @@
         "travaillez !"
       ],
       "participe_passe": [
+        "travaillé"
+      ],
+      "subj": [
+        "que je travaille",
+        "que tu travailles",
+        "qu'il/elle travaille",
+        "que nous travaillions",
+        "que vous travailliez",
+        "qu'ils/elles travaillent"
+      ],
+      "cond": [
+        "je travaillerais",
+        "tu travaillerais",
+        "il/elle travaillerait",
+        "nous travaillerions",
+        "vous travailleriez",
+        "ils/elles travailleraient"
+      ],
+      "impv": [
+        "travaille",
+        "travaillons",
+        "travaillez"
+      ],
+      "part": [
+        "travaillant",
         "travaillé"
       ]
     },
@@ -405,6 +530,31 @@
       ],
       "participe_passe": [
         "habité"
+      ],
+      "subj": [
+        "que j'habite",
+        "que tu habites",
+        "qu'il/elle habite",
+        "que nous habitions",
+        "que vous habitiez",
+        "qu'ils/elles habitent"
+      ],
+      "cond": [
+        "j'habiterais",
+        "tu habiterais",
+        "il/elle habiterait",
+        "nous habiterions",
+        "vous habiteriez",
+        "ils/elles habiteraient"
+      ],
+      "impv": [
+        "habite",
+        "habitons",
+        "habitez"
+      ],
+      "part": [
+        "habitant",
+        "habité"
       ]
     },
     "usage_hint": "habiter à (ville) / en / au (pays) / dans"
@@ -472,6 +622,31 @@
         "écoutez !"
       ],
       "participe_passe": [
+        "écouté"
+      ],
+      "subj": [
+        "que j'écoute",
+        "que tu écoutes",
+        "qu'il/elle écoute",
+        "que nous écoutions",
+        "que vous écoutiez",
+        "qu'ils/elles écoutent"
+      ],
+      "cond": [
+        "j'écouterais",
+        "tu écouterais",
+        "il/elle écouterait",
+        "nous écouterions",
+        "vous écouteriez",
+        "ils/elles écouteraient"
+      ],
+      "impv": [
+        "écoute",
+        "écoutons",
+        "écoutez"
+      ],
+      "part": [
+        "écoutant",
         "écouté"
       ]
     },
@@ -541,6 +716,31 @@
       ],
       "participe_passe": [
         "regardé"
+      ],
+      "subj": [
+        "que je regarde",
+        "que tu regardes",
+        "qu'il/elle regarde",
+        "que nous regardions",
+        "que vous regardiez",
+        "qu'ils/elles regardent"
+      ],
+      "cond": [
+        "je regarderais",
+        "tu regarderais",
+        "il/elle regarderait",
+        "nous regarderions",
+        "vous regarderiez",
+        "ils/elles regarderaient"
+      ],
+      "impv": [
+        "regarde",
+        "regardons",
+        "regardez"
+      ],
+      "part": [
+        "regardant",
+        "regardé"
       ]
     },
     "usage_hint": "+ COD (regarder qqn/qqch)"
@@ -608,6 +808,31 @@
         "pensez !"
       ],
       "participe_passe": [
+        "pensé"
+      ],
+      "subj": [
+        "que je pense",
+        "que tu penses",
+        "qu'il/elle pense",
+        "que nous pensions",
+        "que vous pensiez",
+        "qu'ils/elles pensent"
+      ],
+      "cond": [
+        "je penserais",
+        "tu penserais",
+        "il/elle penserait",
+        "nous penserions",
+        "vous penseriez",
+        "ils/elles penseraient"
+      ],
+      "impv": [
+        "pense",
+        "pensons",
+        "pensez"
+      ],
+      "part": [
+        "pensant",
         "pensé"
       ]
     },
@@ -677,6 +902,31 @@
       ],
       "participe_passe": [
         "cherché"
+      ],
+      "subj": [
+        "que je cherche",
+        "que tu cherches",
+        "qu'il/elle cherche",
+        "que nous cherchions",
+        "que vous cherchiez",
+        "qu'ils/elles cherchent"
+      ],
+      "cond": [
+        "je chercherais",
+        "tu chercherais",
+        "il/elle chercherait",
+        "nous chercherions",
+        "vous chercheriez",
+        "ils/elles chercheraient"
+      ],
+      "impv": [
+        "cherche",
+        "cherchons",
+        "cherchez"
+      ],
+      "part": [
+        "cherchant",
+        "cherché"
       ]
     },
     "usage_hint": "chercher + COD / chercher à (faire qqch)"
@@ -744,6 +994,31 @@
         "trouvez !"
       ],
       "participe_passe": [
+        "trouvé"
+      ],
+      "subj": [
+        "que je trouve",
+        "que tu trouves",
+        "qu'il/elle trouve",
+        "que nous trouvions",
+        "que vous trouviez",
+        "qu'ils/elles trouvent"
+      ],
+      "cond": [
+        "je trouverais",
+        "tu trouverais",
+        "il/elle trouverait",
+        "nous trouverions",
+        "vous trouveriez",
+        "ils/elles trouveraient"
+      ],
+      "impv": [
+        "trouve",
+        "trouvons",
+        "trouvez"
+      ],
+      "part": [
+        "trouvant",
         "trouvé"
       ]
     },
@@ -813,6 +1088,31 @@
       ],
       "participe_passe": [
         "donné"
+      ],
+      "subj": [
+        "que je donne",
+        "que tu donnes",
+        "qu'il/elle donne",
+        "que nous donnions",
+        "que vous donniez",
+        "qu'ils/elles donnent"
+      ],
+      "cond": [
+        "je donnerais",
+        "tu donnerais",
+        "il/elle donnerait",
+        "nous donnerions",
+        "vous donneriez",
+        "ils/elles donneraient"
+      ],
+      "impv": [
+        "donne",
+        "donnons",
+        "donnez"
+      ],
+      "part": [
+        "donnant",
+        "donné"
       ]
     },
     "usage_hint": "donner (qqch) à (qqn)"
@@ -880,6 +1180,31 @@
         "demandez !"
       ],
       "participe_passe": [
+        "demandé"
+      ],
+      "subj": [
+        "que je demande",
+        "que tu demandes",
+        "qu'il/elle demande",
+        "que nous demandions",
+        "que vous demandiez",
+        "qu'ils/elles demandent"
+      ],
+      "cond": [
+        "je demanderais",
+        "tu demanderais",
+        "il/elle demanderait",
+        "nous demanderions",
+        "vous demanderiez",
+        "ils/elles demanderaient"
+      ],
+      "impv": [
+        "demande",
+        "demandons",
+        "demandez"
+      ],
+      "part": [
+        "demandant",
         "demandé"
       ]
     },
@@ -950,6 +1275,31 @@
       ],
       "participe_passe": [
         "fermé"
+      ],
+      "subj": [
+        "que je ferme",
+        "que tu fermes",
+        "qu'il/elle ferme",
+        "que nous fermions",
+        "que vous fermiez",
+        "qu'ils/elles ferment"
+      ],
+      "cond": [
+        "je fermerais",
+        "tu fermerais",
+        "il/elle fermerait",
+        "nous fermerions",
+        "vous fermeriez",
+        "ils/elles fermeraient"
+      ],
+      "impv": [
+        "ferme",
+        "fermons",
+        "fermez"
+      ],
+      "part": [
+        "fermant",
+        "fermé"
       ]
     },
     "usage_hint": "fermer + COD"
@@ -1017,6 +1367,31 @@
         "jouez !"
       ],
       "participe_passe": [
+        "joué"
+      ],
+      "subj": [
+        "que je joue",
+        "que tu joues",
+        "qu'il/elle joue",
+        "que nous jouions",
+        "que vous jouiez",
+        "qu'ils/elles jouent"
+      ],
+      "cond": [
+        "je jouerais",
+        "tu jouerais",
+        "il/elle jouerait",
+        "nous jouerions",
+        "vous joueriez",
+        "ils/elles joueraient"
+      ],
+      "impv": [
+        "joue",
+        "jouons",
+        "jouez"
+      ],
+      "part": [
+        "jouant",
         "joué"
       ]
     },
@@ -1086,6 +1461,31 @@
       ],
       "participe_passe": [
         "chanté"
+      ],
+      "subj": [
+        "que je chante",
+        "que tu chantes",
+        "qu'il/elle chante",
+        "que nous chantions",
+        "que vous chantiez",
+        "qu'ils/elles chantent"
+      ],
+      "cond": [
+        "je chanterais",
+        "tu chanterais",
+        "il/elle chanterait",
+        "nous chanterions",
+        "vous chanteriez",
+        "ils/elles chanteraient"
+      ],
+      "impv": [
+        "chante",
+        "chantons",
+        "chantez"
+      ],
+      "part": [
+        "chantant",
+        "chanté"
       ]
     },
     "usage_hint": "chanter + COD / pour (qqn)"
@@ -1154,6 +1554,31 @@
       ],
       "participe_passe": [
         "dansé"
+      ],
+      "subj": [
+        "que je danse",
+        "que tu danses",
+        "qu'il/elle danse",
+        "que nous dansions",
+        "que vous dansiez",
+        "qu'ils/elles dansent"
+      ],
+      "cond": [
+        "je danserais",
+        "tu danserais",
+        "il/elle danserait",
+        "nous danserions",
+        "vous danseriez",
+        "ils/elles danseraient"
+      ],
+      "impv": [
+        "danse",
+        "dansons",
+        "dansez"
+      ],
+      "part": [
+        "dansant",
+        "dansé"
       ]
     },
     "usage_hint": "danser avec / sur"
@@ -1221,6 +1646,31 @@
         "voyagez !"
       ],
       "participe_passe": [
+        "voyagé"
+      ],
+      "subj": [
+        "que je voyage",
+        "que tu voyages",
+        "qu'il/elle voyage",
+        "que nous voyagions",
+        "que vous voyagiez",
+        "qu'ils/elles voyagent"
+      ],
+      "cond": [
+        "je voyagerais",
+        "tu voyagerais",
+        "il/elle voyagerait",
+        "nous voyagerions",
+        "vous voyageriez",
+        "ils/elles voyageraient"
+      ],
+      "impv": [
+        "voyage",
+        "voyagons",
+        "voyagez"
+      ],
+      "part": [
+        "voyagant",
         "voyagé"
       ]
     },
@@ -1291,6 +1741,31 @@
       ],
       "participe_passe": [
         "passé"
+      ],
+      "subj": [
+        "que je passe",
+        "que tu passes",
+        "qu'il/elle passe",
+        "que nous passions",
+        "que vous passiez",
+        "qu'ils/elles passent"
+      ],
+      "cond": [
+        "je passerais",
+        "tu passerais",
+        "il/elle passerait",
+        "nous passerions",
+        "vous passeriez",
+        "ils/elles passeraient"
+      ],
+      "impv": [
+        "passe",
+        "passons",
+        "passez"
+      ],
+      "part": [
+        "passant",
+        "passé"
       ]
     },
     "usage_hint": "passer par / devant / chez / passer + COD (temps)"
@@ -1358,6 +1833,31 @@
         "gagnez !"
       ],
       "participe_passe": [
+        "gagné"
+      ],
+      "subj": [
+        "que je gagne",
+        "que tu gagnes",
+        "qu'il/elle gagne",
+        "que nous gagnions",
+        "que vous gagniez",
+        "qu'ils/elles gagnent"
+      ],
+      "cond": [
+        "je gagnerais",
+        "tu gagnerais",
+        "il/elle gagnerait",
+        "nous gagnerions",
+        "vous gagneriez",
+        "ils/elles gagneraient"
+      ],
+      "impv": [
+        "gagne",
+        "gagnons",
+        "gagnez"
+      ],
+      "part": [
+        "gagnant",
         "gagné"
       ]
     },
@@ -1427,6 +1927,31 @@
       ],
       "participe_passe": [
         "préparé"
+      ],
+      "subj": [
+        "que je prépare",
+        "que tu prépares",
+        "qu'il/elle prépare",
+        "que nous préparions",
+        "que vous prépariez",
+        "qu'ils/elles préparent"
+      ],
+      "cond": [
+        "je préparerais",
+        "tu préparerais",
+        "il/elle préparerait",
+        "nous préparerions",
+        "vous prépareriez",
+        "ils/elles prépareraient"
+      ],
+      "impv": [
+        "prépare",
+        "préparons",
+        "préparez"
+      ],
+      "part": [
+        "préparant",
+        "préparé"
       ]
     },
     "usage_hint": "préparer + COD / se préparer à"
@@ -1494,6 +2019,31 @@
         "visitez !"
       ],
       "participe_passe": [
+        "visité"
+      ],
+      "subj": [
+        "que je visite",
+        "que tu visites",
+        "qu'il/elle visite",
+        "que nous visitions",
+        "que vous visitiez",
+        "qu'ils/elles visitent"
+      ],
+      "cond": [
+        "je visiterais",
+        "tu visiterais",
+        "il/elle visiterait",
+        "nous visiterions",
+        "vous visiteriez",
+        "ils/elles visiteraient"
+      ],
+      "impv": [
+        "visite",
+        "visitons",
+        "visitez"
+      ],
+      "part": [
+        "visitant",
         "visité"
       ]
     },
@@ -1563,6 +2113,31 @@
       ],
       "participe_passe": [
         "aidé"
+      ],
+      "subj": [
+        "que j'aide",
+        "que tu aides",
+        "qu'il/elle aide",
+        "que nous aidions",
+        "que vous aidiez",
+        "qu'ils/elles aident"
+      ],
+      "cond": [
+        "j'aiderais",
+        "tu aiderais",
+        "il/elle aiderait",
+        "nous aiderions",
+        "vous aideriez",
+        "ils/elles aideraient"
+      ],
+      "impv": [
+        "aide",
+        "aidons",
+        "aidez"
+      ],
+      "part": [
+        "aidant",
+        "aidé"
       ]
     },
     "usage_hint": "aider (qqn) à (faire qqch)"
@@ -1630,6 +2205,31 @@
         "montez !"
       ],
       "participe_passe": [
+        "monté"
+      ],
+      "subj": [
+        "que je monte",
+        "que tu montes",
+        "qu'il/elle monte",
+        "que nous montions",
+        "que vous montiez",
+        "qu'ils/elles montent"
+      ],
+      "cond": [
+        "je monterais",
+        "tu monterais",
+        "il/elle monterait",
+        "nous monterions",
+        "vous monteriez",
+        "ils/elles monteraient"
+      ],
+      "impv": [
+        "monte",
+        "montons",
+        "montez"
+      ],
+      "part": [
+        "montant",
         "monté"
       ]
     },
@@ -1699,6 +2299,31 @@
       ],
       "participe_passe": [
         "tombé"
+      ],
+      "subj": [
+        "que je tombe",
+        "que tu tombes",
+        "qu'il/elle tombe",
+        "que nous tombions",
+        "que vous tombiez",
+        "qu'ils/elles tombent"
+      ],
+      "cond": [
+        "je tomberais",
+        "tu tomberais",
+        "il/elle tomberait",
+        "nous tomberions",
+        "vous tomberiez",
+        "ils/elles tomberaient"
+      ],
+      "impv": [
+        "tombe",
+        "tombons",
+        "tombez"
+      ],
+      "part": [
+        "tombant",
+        "tombé"
       ]
     },
     "usage_hint": "tomber de / sur / dans"
@@ -1766,6 +2391,31 @@
         "restez !"
       ],
       "participe_passe": [
+        "resté"
+      ],
+      "subj": [
+        "que je reste",
+        "que tu restes",
+        "qu'il/elle reste",
+        "que nous restions",
+        "que vous restiez",
+        "qu'ils/elles restent"
+      ],
+      "cond": [
+        "je resterais",
+        "tu resterais",
+        "il/elle resterait",
+        "nous resterions",
+        "vous resteriez",
+        "ils/elles resteraient"
+      ],
+      "impv": [
+        "reste",
+        "restons",
+        "restez"
+      ],
+      "part": [
+        "restant",
         "resté"
       ]
     },
@@ -1835,6 +2485,31 @@
       ],
       "participe_passe": [
         "arrivé"
+      ],
+      "subj": [
+        "que j'arrive",
+        "que tu arrives",
+        "qu'il/elle arrive",
+        "que nous arrivions",
+        "que vous arriviez",
+        "qu'ils/elles arrivent"
+      ],
+      "cond": [
+        "j'arriverais",
+        "tu arriverais",
+        "il/elle arriverait",
+        "nous arriverions",
+        "vous arriveriez",
+        "ils/elles arriveraient"
+      ],
+      "impv": [
+        "arrive",
+        "arrivons",
+        "arrivez"
+      ],
+      "part": [
+        "arrivant",
+        "arrivé"
       ]
     },
     "usage_hint": "arriver à / en / chez"
@@ -1902,6 +2577,31 @@
         "entrez !"
       ],
       "participe_passe": [
+        "entré"
+      ],
+      "subj": [
+        "que j'entre",
+        "que tu entres",
+        "qu'il/elle entre",
+        "que nous entrions",
+        "que vous entriez",
+        "qu'ils/elles entrent"
+      ],
+      "cond": [
+        "j'entrerais",
+        "tu entrerais",
+        "il/elle entrerait",
+        "nous entrerions",
+        "vous entreriez",
+        "ils/elles entreraient"
+      ],
+      "impv": [
+        "entre",
+        "entrons",
+        "entrez"
+      ],
+      "part": [
+        "entrant",
         "entré"
       ]
     },
@@ -1971,6 +2671,31 @@
       ],
       "participe_passe": [
         "montré"
+      ],
+      "subj": [
+        "que je montre",
+        "que tu montres",
+        "qu'il/elle montre",
+        "que nous montrions",
+        "que vous montriez",
+        "qu'ils/elles montrent"
+      ],
+      "cond": [
+        "je montrerais",
+        "tu montrerais",
+        "il/elle montrerait",
+        "nous montrerions",
+        "vous montreriez",
+        "ils/elles montreraient"
+      ],
+      "impv": [
+        "montre",
+        "montrons",
+        "montrez"
+      ],
+      "part": [
+        "montrant",
+        "montré"
       ]
     },
     "usage_hint": "montrer (qqch) à (qqn)"
@@ -2038,6 +2763,31 @@
         "cachez !"
       ],
       "participe_passe": [
+        "caché"
+      ],
+      "subj": [
+        "que je cache",
+        "que tu caches",
+        "qu'il/elle cache",
+        "que nous cachions",
+        "que vous cachiez",
+        "qu'ils/elles cachent"
+      ],
+      "cond": [
+        "je cacherais",
+        "tu cacherais",
+        "il/elle cacherait",
+        "nous cacherions",
+        "vous cacheriez",
+        "ils/elles cacheraient"
+      ],
+      "impv": [
+        "cache",
+        "cachons",
+        "cachez"
+      ],
+      "part": [
+        "cachant",
         "caché"
       ]
     },
@@ -2107,6 +2857,31 @@
       ],
       "participe_passe": [
         "oublié"
+      ],
+      "subj": [
+        "que j'oublie",
+        "que tu oublies",
+        "qu'il/elle oublie",
+        "que nous oubliions",
+        "que vous oubliiez",
+        "qu'ils/elles oublient"
+      ],
+      "cond": [
+        "j'oublierais",
+        "tu oublierais",
+        "il/elle oublierait",
+        "nous oublierions",
+        "vous oublieriez",
+        "ils/elles oublieraient"
+      ],
+      "impv": [
+        "oublie",
+        "oublions",
+        "oubliez"
+      ],
+      "part": [
+        "oubliant",
+        "oublié"
       ]
     },
     "usage_hint": "oublier + COD / de (faire qqch)"
@@ -2174,6 +2949,31 @@
         "comptez !"
       ],
       "participe_passe": [
+        "compté"
+      ],
+      "subj": [
+        "que je compte",
+        "que tu comptes",
+        "qu'il/elle compte",
+        "que nous comptions",
+        "que vous comptiez",
+        "qu'ils/elles comptent"
+      ],
+      "cond": [
+        "je compterais",
+        "tu compterais",
+        "il/elle compterait",
+        "nous compterions",
+        "vous compteriez",
+        "ils/elles compteraient"
+      ],
+      "impv": [
+        "compte",
+        "comptons",
+        "comptez"
+      ],
+      "part": [
+        "comptant",
         "compté"
       ]
     },
@@ -2243,6 +3043,31 @@
       ],
       "participe_passe": [
         "décidé"
+      ],
+      "subj": [
+        "que je décide",
+        "que tu décides",
+        "qu'il/elle décide",
+        "que nous décidions",
+        "que vous décidiez",
+        "qu'ils/elles décident"
+      ],
+      "cond": [
+        "je déciderais",
+        "tu déciderais",
+        "il/elle déciderait",
+        "nous déciderions",
+        "vous décideriez",
+        "ils/elles décideraient"
+      ],
+      "impv": [
+        "décide",
+        "décidons",
+        "décidez"
+      ],
+      "part": [
+        "décidant",
+        "décidé"
       ]
     },
     "usage_hint": "décider de (faire qqch)"
@@ -2310,6 +3135,31 @@
         "espérez !"
       ],
       "participe_passe": [
+        "espéré"
+      ],
+      "subj": [
+        "que j'espére",
+        "que tu espéres",
+        "qu'il/elle espére",
+        "que nous espérions",
+        "que vous espériez",
+        "qu'ils/elles espérent"
+      ],
+      "cond": [
+        "j'espérerais",
+        "tu espérerais",
+        "il/elle espérerait",
+        "nous espérerions",
+        "vous espéreriez",
+        "ils/elles espéreraient"
+      ],
+      "impv": [
+        "espére",
+        "espérons",
+        "espérez"
+      ],
+      "part": [
+        "espérant",
         "espéré"
       ]
     },
@@ -2380,6 +3230,31 @@
       ],
       "participe_passe": [
         "préféré"
+      ],
+      "subj": [
+        "que je préfére",
+        "que tu préféres",
+        "qu'il/elle préfére",
+        "que nous préférions",
+        "que vous préfériez",
+        "qu'ils/elles préférent"
+      ],
+      "cond": [
+        "je préférerais",
+        "tu préférerais",
+        "il/elle préférerait",
+        "nous préférerions",
+        "vous préféreriez",
+        "ils/elles préféreraient"
+      ],
+      "impv": [
+        "préfére",
+        "préférons",
+        "préférez"
+      ],
+      "part": [
+        "préférant",
+        "préféré"
       ]
     },
     "usage_hint": "préférer + COD / + infinitif à",
@@ -2449,6 +3324,31 @@
       ],
       "participe_passe": [
         "continué"
+      ],
+      "subj": [
+        "que je continue",
+        "que tu continues",
+        "qu'il/elle continue",
+        "que nous continuions",
+        "que vous continuiez",
+        "qu'ils/elles continuent"
+      ],
+      "cond": [
+        "je continuerais",
+        "tu continuerais",
+        "il/elle continuerait",
+        "nous continuerions",
+        "vous continueriez",
+        "ils/elles continueraient"
+      ],
+      "impv": [
+        "continue",
+        "continuons",
+        "continuez"
+      ],
+      "part": [
+        "continuant",
+        "continué"
       ]
     },
     "usage_hint": "continuer à / de (faire qqch)"
@@ -2516,6 +3416,31 @@
         "arrêtez !"
       ],
       "participe_passe": [
+        "arrêté"
+      ],
+      "subj": [
+        "que j'arrête",
+        "que tu arrêtes",
+        "qu'il/elle arrête",
+        "que nous arrêtions",
+        "que vous arrêtiez",
+        "qu'ils/elles arrêtent"
+      ],
+      "cond": [
+        "j'arrêterais",
+        "tu arrêterais",
+        "il/elle arrêterait",
+        "nous arrêterions",
+        "vous arrêteriez",
+        "ils/elles arrêteraient"
+      ],
+      "impv": [
+        "arrête",
+        "arrêtons",
+        "arrêtez"
+      ],
+      "part": [
+        "arrêtant",
         "arrêté"
       ]
     },
@@ -2585,6 +3510,31 @@
       ],
       "participe_passe": [
         "expliqué"
+      ],
+      "subj": [
+        "que j'explique",
+        "que tu expliques",
+        "qu'il/elle explique",
+        "que nous expliquions",
+        "que vous expliquiez",
+        "qu'ils/elles expliquent"
+      ],
+      "cond": [
+        "j'expliquerais",
+        "tu expliquerais",
+        "il/elle expliquerait",
+        "nous expliquerions",
+        "vous expliqueriez",
+        "ils/elles expliqueraient"
+      ],
+      "impv": [
+        "explique",
+        "expliquons",
+        "expliquez"
+      ],
+      "part": [
+        "expliquant",
+        "expliqué"
       ]
     },
     "usage_hint": "expliquer (qqch) à (qqn)"
@@ -2652,6 +3602,31 @@
         "séparez !"
       ],
       "participe_passe": [
+        "séparé"
+      ],
+      "subj": [
+        "que je sépare",
+        "que tu sépares",
+        "qu'il/elle sépare",
+        "que nous séparions",
+        "que vous sépariez",
+        "qu'ils/elles séparent"
+      ],
+      "cond": [
+        "je séparerais",
+        "tu séparerais",
+        "il/elle séparerait",
+        "nous séparerions",
+        "vous sépareriez",
+        "ils/elles sépareraient"
+      ],
+      "impv": [
+        "sépare",
+        "séparons",
+        "séparez"
+      ],
+      "part": [
+        "séparant",
         "séparé"
       ]
     },
@@ -2721,6 +3696,31 @@
       ],
       "participe_passe": [
         "pleuré"
+      ],
+      "subj": [
+        "que je pleure",
+        "que tu pleures",
+        "qu'il/elle pleure",
+        "que nous pleurions",
+        "que vous pleuriez",
+        "qu'ils/elles pleurent"
+      ],
+      "cond": [
+        "je pleurerais",
+        "tu pleurerais",
+        "il/elle pleurerait",
+        "nous pleurerions",
+        "vous pleureriez",
+        "ils/elles pleureraient"
+      ],
+      "impv": [
+        "pleure",
+        "pleurons",
+        "pleurez"
+      ],
+      "part": [
+        "pleurant",
+        "pleuré"
       ]
     },
     "usage_hint": "pleurer de (joie/tristesse) / sur"
@@ -2789,6 +3789,31 @@
       ],
       "participe_passe": [
         "proposé"
+      ],
+      "subj": [
+        "que je propose",
+        "que tu proposes",
+        "qu'il/elle propose",
+        "que nous proposions",
+        "que vous proposiez",
+        "qu'ils/elles proposent"
+      ],
+      "cond": [
+        "je proposerais",
+        "tu proposerais",
+        "il/elle proposerait",
+        "nous proposerions",
+        "vous proposeriez",
+        "ils/elles proposeraient"
+      ],
+      "impv": [
+        "propose",
+        "proposons",
+        "proposez"
+      ],
+      "part": [
+        "proposant",
+        "proposé"
       ]
     },
     "usage_hint": "proposer (qqch) à (qqn) / de (faire)"
@@ -2856,6 +3881,31 @@
         "refusez !"
       ],
       "participe_passe": [
+        "refusé"
+      ],
+      "subj": [
+        "que je refuse",
+        "que tu refuses",
+        "qu'il/elle refuse",
+        "que nous refusions",
+        "que vous refusiez",
+        "qu'ils/elles refusent"
+      ],
+      "cond": [
+        "je refuserais",
+        "tu refuserais",
+        "il/elle refuserait",
+        "nous refuserions",
+        "vous refuseriez",
+        "ils/elles refuseraient"
+      ],
+      "impv": [
+        "refuse",
+        "refusons",
+        "refusez"
+      ],
+      "part": [
+        "refusant",
         "refusé"
       ]
     },
@@ -2926,6 +3976,31 @@
       ],
       "participe_passe": [
         "accepté"
+      ],
+      "subj": [
+        "que j'accepte",
+        "que tu acceptes",
+        "qu'il/elle accepte",
+        "que nous acceptions",
+        "que vous acceptiez",
+        "qu'ils/elles acceptent"
+      ],
+      "cond": [
+        "j'accepterais",
+        "tu accepterais",
+        "il/elle accepterait",
+        "nous accepterions",
+        "vous accepteriez",
+        "ils/elles accepteraient"
+      ],
+      "impv": [
+        "accepte",
+        "acceptons",
+        "acceptez"
+      ],
+      "part": [
+        "acceptant",
+        "accepté"
       ]
     },
     "usage_hint": "accepter + COD / de (faire qqch)"
@@ -2993,6 +4068,31 @@
         "touchez !"
       ],
       "participe_passe": [
+        "touché"
+      ],
+      "subj": [
+        "que je touche",
+        "que tu touches",
+        "qu'il/elle touche",
+        "que nous touchions",
+        "que vous touchiez",
+        "qu'ils/elles touchent"
+      ],
+      "cond": [
+        "je toucherais",
+        "tu toucherais",
+        "il/elle toucherait",
+        "nous toucherions",
+        "vous toucheriez",
+        "ils/elles toucheraient"
+      ],
+      "impv": [
+        "touche",
+        "touchons",
+        "touchez"
+      ],
+      "part": [
+        "touchant",
         "touché"
       ]
     },
@@ -3062,6 +4162,31 @@
       ],
       "participe_passe": [
         "quitté"
+      ],
+      "subj": [
+        "que je quitte",
+        "que tu quittes",
+        "qu'il/elle quitte",
+        "que nous quittions",
+        "que vous quittiez",
+        "qu'ils/elles quittent"
+      ],
+      "cond": [
+        "je quitterais",
+        "tu quitterais",
+        "il/elle quitterait",
+        "nous quitterions",
+        "vous quitteriez",
+        "ils/elles quitteraient"
+      ],
+      "impv": [
+        "quitte",
+        "quittons",
+        "quittez"
+      ],
+      "part": [
+        "quittant",
+        "quitté"
       ]
     },
     "usage_hint": "+ COD (quitter un lieu ou qqn)"
@@ -3129,6 +4254,31 @@
         "brillez !"
       ],
       "participe_passe": [
+        "brillé"
+      ],
+      "subj": [
+        "que je brille",
+        "que tu brilles",
+        "qu'il/elle brille",
+        "que nous brillions",
+        "que vous brilliez",
+        "qu'ils/elles brillent"
+      ],
+      "cond": [
+        "je brillerais",
+        "tu brillerais",
+        "il/elle brillerait",
+        "nous brillerions",
+        "vous brilleriez",
+        "ils/elles brilleraient"
+      ],
+      "impv": [
+        "brille",
+        "brillons",
+        "brillez"
+      ],
+      "part": [
+        "brillant",
         "brillé"
       ]
     },
@@ -3198,6 +4348,31 @@
       ],
       "participe_passe": [
         "soigné"
+      ],
+      "subj": [
+        "que je soigne",
+        "que tu soignes",
+        "qu'il/elle soigne",
+        "que nous soignions",
+        "que vous soigniez",
+        "qu'ils/elles soignent"
+      ],
+      "cond": [
+        "je soignerais",
+        "tu soignerais",
+        "il/elle soignerait",
+        "nous soignerions",
+        "vous soigneriez",
+        "ils/elles soigneraient"
+      ],
+      "impv": [
+        "soigne",
+        "soignons",
+        "soignez"
+      ],
+      "part": [
+        "soignant",
+        "soigné"
       ]
     },
     "usage_hint": "+ COD (soigner qqn/qqch)"
@@ -3265,6 +4440,31 @@
         "sauvez !"
       ],
       "participe_passe": [
+        "sauvé"
+      ],
+      "subj": [
+        "que je sauve",
+        "que tu sauves",
+        "qu'il/elle sauve",
+        "que nous sauvions",
+        "que vous sauviez",
+        "qu'ils/elles sauvent"
+      ],
+      "cond": [
+        "je sauverais",
+        "tu sauverais",
+        "il/elle sauverait",
+        "nous sauverions",
+        "vous sauveriez",
+        "ils/elles sauveraient"
+      ],
+      "impv": [
+        "sauve",
+        "sauvons",
+        "sauvez"
+      ],
+      "part": [
+        "sauvant",
         "sauvé"
       ]
     },
@@ -3334,6 +4534,31 @@
       ],
       "participe_passe": [
         "invité"
+      ],
+      "subj": [
+        "que j'invite",
+        "que tu invites",
+        "qu'il/elle invite",
+        "que nous invitions",
+        "que vous invitiez",
+        "qu'ils/elles invitent"
+      ],
+      "cond": [
+        "j'inviterais",
+        "tu inviterais",
+        "il/elle inviterait",
+        "nous inviterions",
+        "vous inviteriez",
+        "ils/elles inviteraient"
+      ],
+      "impv": [
+        "invite",
+        "invitons",
+        "invitez"
+      ],
+      "part": [
+        "invitant",
+        "invité"
       ]
     },
     "usage_hint": "inviter (qqn) à (un événement / faire qqch)"
@@ -3401,6 +4626,31 @@
         "partagez !"
       ],
       "participe_passe": [
+        "partagé"
+      ],
+      "subj": [
+        "que je partage",
+        "que tu partages",
+        "qu'il/elle partage",
+        "que nous partagions",
+        "que vous partagiez",
+        "qu'ils/elles partagent"
+      ],
+      "cond": [
+        "je partagerais",
+        "tu partagerais",
+        "il/elle partagerait",
+        "nous partagerions",
+        "vous partageriez",
+        "ils/elles partageraient"
+      ],
+      "impv": [
+        "partage",
+        "partagons",
+        "partagez"
+      ],
+      "part": [
+        "partagant",
         "partagé"
       ]
     },
@@ -3470,6 +4720,31 @@
       ],
       "participe_passe": [
         "poussé"
+      ],
+      "subj": [
+        "que je pousse",
+        "que tu pousses",
+        "qu'il/elle pousse",
+        "que nous poussions",
+        "que vous poussiez",
+        "qu'ils/elles poussent"
+      ],
+      "cond": [
+        "je pousserais",
+        "tu pousserais",
+        "il/elle pousserait",
+        "nous pousserions",
+        "vous pousseriez",
+        "ils/elles pousseraient"
+      ],
+      "impv": [
+        "pousse",
+        "poussons",
+        "poussez"
+      ],
+      "part": [
+        "poussant",
+        "poussé"
       ]
     },
     "usage_hint": "pousser (qqn) à (faire qqch)"
@@ -3537,6 +4812,31 @@
         "tirez !"
       ],
       "participe_passe": [
+        "tiré"
+      ],
+      "subj": [
+        "que je tire",
+        "que tu tires",
+        "qu'il/elle tire",
+        "que nous tirions",
+        "que vous tiriez",
+        "qu'ils/elles tirent"
+      ],
+      "cond": [
+        "je tirerais",
+        "tu tirerais",
+        "il/elle tirerait",
+        "nous tirerions",
+        "vous tireriez",
+        "ils/elles tireraient"
+      ],
+      "impv": [
+        "tire",
+        "tirons",
+        "tirez"
+      ],
+      "part": [
+        "tirant",
         "tiré"
       ]
     },
@@ -3606,6 +4906,31 @@
       ],
       "participe_passe": [
         "laissé"
+      ],
+      "subj": [
+        "que je laisse",
+        "que tu laisses",
+        "qu'il/elle laisse",
+        "que nous laissions",
+        "que vous laissiez",
+        "qu'ils/elles laissent"
+      ],
+      "cond": [
+        "je laisserais",
+        "tu laisserais",
+        "il/elle laisserait",
+        "nous laisserions",
+        "vous laisseriez",
+        "ils/elles laisseraient"
+      ],
+      "impv": [
+        "laisse",
+        "laissons",
+        "laissez"
+      ],
+      "part": [
+        "laissant",
+        "laissé"
       ]
     },
     "usage_hint": "laisser + COD / laisser (qqn) faire"
@@ -3673,6 +4998,31 @@
         "payez !"
       ],
       "participe_passe": [
+        "payé"
+      ],
+      "subj": [
+        "que je paye",
+        "que tu payes",
+        "qu'il/elle paye",
+        "que nous payions",
+        "que vous payiez",
+        "qu'ils/elles payent"
+      ],
+      "cond": [
+        "je payerais",
+        "tu payerais",
+        "il/elle payerait",
+        "nous payerions",
+        "vous payeriez",
+        "ils/elles payeraient"
+      ],
+      "impv": [
+        "paye",
+        "payons",
+        "payez"
+      ],
+      "part": [
+        "payant",
         "payé"
       ]
     },
@@ -3743,6 +5093,31 @@
       ],
       "participe_passe": [
         "appelé"
+      ],
+      "subj": [
+        "que j'appelle",
+        "que tu appelles",
+        "qu'il/elle appelle",
+        "que nous appelions",
+        "que vous appeliez",
+        "qu'ils/elles appellent"
+      ],
+      "cond": [
+        "j'appellerais",
+        "tu appellerais",
+        "il/elle appellerait",
+        "nous appellerions",
+        "vous appelleriez",
+        "ils/elles appelleraient"
+      ],
+      "impv": [
+        "appelle",
+        "appelons",
+        "appellez"
+      ],
+      "part": [
+        "appelant",
+        "appelé"
       ]
     },
     "usage_hint": "appeler + COD (appeler qqn)",
@@ -3812,6 +5187,31 @@
       ],
       "participe_passe": [
         "imaginé"
+      ],
+      "subj": [
+        "que j'imagine",
+        "que tu imagines",
+        "qu'il/elle imagine",
+        "que nous imaginions",
+        "que vous imaginiez",
+        "qu'ils/elles imaginent"
+      ],
+      "cond": [
+        "j'imaginerais",
+        "tu imaginerais",
+        "il/elle imaginerait",
+        "nous imaginerions",
+        "vous imagineriez",
+        "ils/elles imagineraient"
+      ],
+      "impv": [
+        "imagine",
+        "imaginons",
+        "imaginez"
+      ],
+      "part": [
+        "imaginant",
+        "imaginé"
       ]
     },
     "usage_hint": "imaginer + COD"
@@ -3879,6 +5279,31 @@
         "créez !"
       ],
       "participe_passe": [
+        "créé"
+      ],
+      "subj": [
+        "que je crée",
+        "que tu crées",
+        "qu'il/elle crée",
+        "que nous créions",
+        "que vous créiez",
+        "qu'ils/elles créent"
+      ],
+      "cond": [
+        "je créerais",
+        "tu créerais",
+        "il/elle créerait",
+        "nous créerions",
+        "vous créeriez",
+        "ils/elles créeraient"
+      ],
+      "impv": [
+        "crée",
+        "créons",
+        "créez"
+      ],
+      "part": [
+        "créant",
         "créé"
       ]
     },
@@ -3948,6 +5373,31 @@
       ],
       "participe_passe": [
         "exprimé"
+      ],
+      "subj": [
+        "que j'exprime",
+        "que tu exprimes",
+        "qu'il/elle exprime",
+        "que nous exprimions",
+        "que vous exprimiez",
+        "qu'ils/elles expriment"
+      ],
+      "cond": [
+        "j'exprimerais",
+        "tu exprimerais",
+        "il/elle exprimerait",
+        "nous exprimerions",
+        "vous exprimeriez",
+        "ils/elles exprimeraient"
+      ],
+      "impv": [
+        "exprime",
+        "exprimons",
+        "exprimez"
+      ],
+      "part": [
+        "exprimant",
+        "exprimé"
       ]
     },
     "usage_hint": "exprimer (qqch) à (qqn)"
@@ -4015,6 +5465,31 @@
         "remarquez !"
       ],
       "participe_passe": [
+        "remarqué"
+      ],
+      "subj": [
+        "que je remarque",
+        "que tu remarques",
+        "qu'il/elle remarque",
+        "que nous remarquions",
+        "que vous remarquiez",
+        "qu'ils/elles remarquent"
+      ],
+      "cond": [
+        "je remarquerais",
+        "tu remarquerais",
+        "il/elle remarquerait",
+        "nous remarquerions",
+        "vous remarqueriez",
+        "ils/elles remarqueraient"
+      ],
+      "impv": [
+        "remarque",
+        "remarquons",
+        "remarquez"
+      ],
+      "part": [
+        "remarquant",
         "remarqué"
       ]
     },
@@ -4084,6 +5559,31 @@
       ],
       "participe_passe": [
         "écrasé"
+      ],
+      "subj": [
+        "que j'écrase",
+        "que tu écrases",
+        "qu'il/elle écrase",
+        "que nous écrasions",
+        "que vous écrasiez",
+        "qu'ils/elles écrasent"
+      ],
+      "cond": [
+        "j'écraserais",
+        "tu écraserais",
+        "il/elle écraserait",
+        "nous écraserions",
+        "vous écraseriez",
+        "ils/elles écraseraient"
+      ],
+      "impv": [
+        "écrase",
+        "écrasons",
+        "écrasez"
+      ],
+      "part": [
+        "écrasant",
+        "écrasé"
       ]
     },
     "usage_hint": "écraser + COD"
@@ -4152,6 +5652,31 @@
       ],
       "participe_passe": [
         "volé"
+      ],
+      "subj": [
+        "que je vole",
+        "que tu voles",
+        "qu'il/elle vole",
+        "que nous volions",
+        "que vous voliez",
+        "qu'ils/elles volent"
+      ],
+      "cond": [
+        "je volerais",
+        "tu volerais",
+        "il/elle volerait",
+        "nous volerions",
+        "vous voleriez",
+        "ils/elles voleraient"
+      ],
+      "impv": [
+        "vole",
+        "volons",
+        "volez"
+      ],
+      "part": [
+        "volant",
+        "volé"
       ]
     },
     "usage_hint": "voler vers / au-dessus de / voler (qqch) à (qqn)"
@@ -4219,6 +5744,31 @@
         "nagez !"
       ],
       "participe_passe": [
+        "nagé"
+      ],
+      "subj": [
+        "que je nage",
+        "que tu nages",
+        "qu'il/elle nage",
+        "que nous nagions",
+        "que vous nagiez",
+        "qu'ils/elles nagent"
+      ],
+      "cond": [
+        "je nagerais",
+        "tu nagerais",
+        "il/elle nagerait",
+        "nous nagerions",
+        "vous nageriez",
+        "ils/elles nageraient"
+      ],
+      "impv": [
+        "nage",
+        "nagons",
+        "nagez"
+      ],
+      "part": [
+        "nagant",
         "nagé"
       ]
     },
@@ -4289,6 +5839,31 @@
       ],
       "participe_passe": [
         "sauté"
+      ],
+      "subj": [
+        "que je saute",
+        "que tu sautes",
+        "qu'il/elle saute",
+        "que nous sautions",
+        "que vous sautiez",
+        "qu'ils/elles sautent"
+      ],
+      "cond": [
+        "je sauterais",
+        "tu sauterais",
+        "il/elle sauterait",
+        "nous sauterions",
+        "vous sauteriez",
+        "ils/elles sauteraient"
+      ],
+      "impv": [
+        "saute",
+        "sautons",
+        "sautez"
+      ],
+      "part": [
+        "sautant",
+        "sauté"
       ]
     },
     "usage_hint": "sauter de / sur / par-dessus"
@@ -4356,6 +5931,31 @@
         "désirez !"
       ],
       "participe_passe": [
+        "désiré"
+      ],
+      "subj": [
+        "que je désire",
+        "que tu désires",
+        "qu'il/elle désire",
+        "que nous désirions",
+        "que vous désiriez",
+        "qu'ils/elles désirent"
+      ],
+      "cond": [
+        "je désirerais",
+        "tu désirerais",
+        "il/elle désirerait",
+        "nous désirerions",
+        "vous désireriez",
+        "ils/elles désireraient"
+      ],
+      "impv": [
+        "désire",
+        "désirons",
+        "désirez"
+      ],
+      "part": [
+        "désirant",
         "désiré"
       ]
     },
@@ -4425,6 +6025,31 @@
       ],
       "participe_passe": [
         "admiré"
+      ],
+      "subj": [
+        "que j'admire",
+        "que tu admires",
+        "qu'il/elle admire",
+        "que nous admirions",
+        "que vous admiriez",
+        "qu'ils/elles admirent"
+      ],
+      "cond": [
+        "j'admirerais",
+        "tu admirerais",
+        "il/elle admirerait",
+        "nous admirerions",
+        "vous admireriez",
+        "ils/elles admireraient"
+      ],
+      "impv": [
+        "admire",
+        "admirons",
+        "admirez"
+      ],
+      "part": [
+        "admirant",
+        "admiré"
       ]
     },
     "usage_hint": "admirer + COD"
@@ -4492,6 +6117,31 @@
         "souhaitez !"
       ],
       "participe_passe": [
+        "souhaité"
+      ],
+      "subj": [
+        "que je souhaite",
+        "que tu souhaites",
+        "qu'il/elle souhaite",
+        "que nous souhaitions",
+        "que vous souhaitiez",
+        "qu'ils/elles souhaitent"
+      ],
+      "cond": [
+        "je souhaiterais",
+        "tu souhaiterais",
+        "il/elle souhaiterait",
+        "nous souhaiterions",
+        "vous souhaiteriez",
+        "ils/elles souhaiteraient"
+      ],
+      "impv": [
+        "souhaite",
+        "souhaitons",
+        "souhaitez"
+      ],
+      "part": [
+        "souhaitant",
         "souhaité"
       ]
     },
@@ -4562,6 +6212,31 @@
       ],
       "participe_passe": [
         "raconté"
+      ],
+      "subj": [
+        "que je raconte",
+        "que tu racontes",
+        "qu'il/elle raconte",
+        "que nous racontions",
+        "que vous racontiez",
+        "qu'ils/elles racontent"
+      ],
+      "cond": [
+        "je raconterais",
+        "tu raconterais",
+        "il/elle raconterait",
+        "nous raconterions",
+        "vous raconteriez",
+        "ils/elles raconteraient"
+      ],
+      "impv": [
+        "raconte",
+        "racontons",
+        "racontez"
+      ],
+      "part": [
+        "racontant",
+        "raconté"
       ]
     },
     "usage_hint": "raconter (qqch) à (qqn)"
@@ -4629,6 +6304,31 @@
         "étonnez !"
       ],
       "participe_passe": [
+        "étonné"
+      ],
+      "subj": [
+        "que j'étonne",
+        "que tu étonnes",
+        "qu'il/elle étonne",
+        "que nous étonnions",
+        "que vous étonniez",
+        "qu'ils/elles étonnent"
+      ],
+      "cond": [
+        "j'étonnerais",
+        "tu étonnerais",
+        "il/elle étonnerait",
+        "nous étonnerions",
+        "vous étonneriez",
+        "ils/elles étonneraient"
+      ],
+      "impv": [
+        "étonne",
+        "étonnons",
+        "étonnez"
+      ],
+      "part": [
+        "étonnant",
         "étonné"
       ]
     },
@@ -4698,6 +6398,31 @@
       ],
       "participe_passe": [
         "ressemblé"
+      ],
+      "subj": [
+        "que je ressemble",
+        "que tu ressembles",
+        "qu'il/elle ressemble",
+        "que nous ressemblions",
+        "que vous ressembliez",
+        "qu'ils/elles ressemblent"
+      ],
+      "cond": [
+        "je ressemblerais",
+        "tu ressemblerais",
+        "il/elle ressemblerait",
+        "nous ressemblerions",
+        "vous ressembleriez",
+        "ils/elles ressembleraient"
+      ],
+      "impv": [
+        "ressemble",
+        "ressemblons",
+        "ressemblez"
+      ],
+      "part": [
+        "ressemblant",
+        "ressemblé"
       ]
     },
     "usage_hint": "ressembler à (qqn / qqch)"
@@ -4765,6 +6490,31 @@
         "nettoyez !"
       ],
       "participe_passe": [
+        "nettoyé"
+      ],
+      "subj": [
+        "que je nettoye",
+        "que tu nettoyes",
+        "qu'il/elle nettoye",
+        "que nous nettoyions",
+        "que vous nettoyiez",
+        "qu'ils/elles nettoyent"
+      ],
+      "cond": [
+        "je nettoyerais",
+        "tu nettoyerais",
+        "il/elle nettoyerait",
+        "nous nettoyerions",
+        "vous nettoyeriez",
+        "ils/elles nettoyeraient"
+      ],
+      "impv": [
+        "nettoye",
+        "nettoyons",
+        "nettoyez"
+      ],
+      "part": [
+        "nettoyant",
         "nettoyé"
       ]
     },
@@ -4834,6 +6584,31 @@
       ],
       "participe_passe": [
         "emprunté"
+      ],
+      "subj": [
+        "que j'emprunte",
+        "que tu empruntes",
+        "qu'il/elle emprunte",
+        "que nous empruntions",
+        "que vous empruntiez",
+        "qu'ils/elles empruntent"
+      ],
+      "cond": [
+        "j'emprunterais",
+        "tu emprunterais",
+        "il/elle emprunterait",
+        "nous emprunterions",
+        "vous emprunteriez",
+        "ils/elles emprunteraient"
+      ],
+      "impv": [
+        "emprunte",
+        "empruntons",
+        "empruntez"
+      ],
+      "part": [
+        "empruntant",
+        "emprunté"
       ]
     },
     "usage_hint": "emprunter (qqch) à (qqn)"
@@ -4901,6 +6676,31 @@
         "prêtez !"
       ],
       "participe_passe": [
+        "prêté"
+      ],
+      "subj": [
+        "que je prête",
+        "que tu prêtes",
+        "qu'il/elle prête",
+        "que nous prêtions",
+        "que vous prêtiez",
+        "qu'ils/elles prêtent"
+      ],
+      "cond": [
+        "je prêterais",
+        "tu prêterais",
+        "il/elle prêterait",
+        "nous prêterions",
+        "vous prêteriez",
+        "ils/elles prêteraient"
+      ],
+      "impv": [
+        "prête",
+        "prêtons",
+        "prêtez"
+      ],
+      "part": [
+        "prêtant",
         "prêté"
       ]
     },
@@ -4970,6 +6770,31 @@
       ],
       "participe_passe": [
         "corrigé"
+      ],
+      "subj": [
+        "que je corrige",
+        "que tu corriges",
+        "qu'il/elle corrige",
+        "que nous corrigions",
+        "que vous corrigiez",
+        "qu'ils/elles corrigent"
+      ],
+      "cond": [
+        "je corrigerais",
+        "tu corrigerais",
+        "il/elle corrigerait",
+        "nous corrigerions",
+        "vous corrigeriez",
+        "ils/elles corrigeraient"
+      ],
+      "impv": [
+        "corrige",
+        "corrigons",
+        "corrigez"
+      ],
+      "part": [
+        "corrigant",
+        "corrigé"
       ]
     },
     "usage_hint": "corriger + COD"
@@ -5037,6 +6862,31 @@
         "protègez !"
       ],
       "participe_passe": [
+        "protégé"
+      ],
+      "subj": [
+        "que je protége",
+        "que tu protéges",
+        "qu'il/elle protége",
+        "que nous protégions",
+        "que vous protégiez",
+        "qu'ils/elles protégent"
+      ],
+      "cond": [
+        "je protégerais",
+        "tu protégerais",
+        "il/elle protégerait",
+        "nous protégerions",
+        "vous protégeriez",
+        "ils/elles protégeraient"
+      ],
+      "impv": [
+        "protége",
+        "protégons",
+        "protégez"
+      ],
+      "part": [
+        "protégant",
         "protégé"
       ]
     },
@@ -5106,6 +6956,31 @@
       ],
       "participe_passe": [
         "rempli"
+      ],
+      "subj": [
+        "que je remplire",
+        "que tu remplires",
+        "qu'il/elle remplire",
+        "que nous remplirions",
+        "que vous rempliriez",
+        "qu'ils/elles remplirent"
+      ],
+      "cond": [
+        "je remplirais",
+        "tu remplirais",
+        "il/elle remplirait",
+        "nous remplirions",
+        "vous rempliriez",
+        "ils/elles rempliraient"
+      ],
+      "impv": [
+        "remplire",
+        "remplirons",
+        "remplirez"
+      ],
+      "part": [
+        "remplirant",
+        "rempliré"
       ]
     },
     "usage_hint": "remplir (qqch) de (qqch d'autre)"
@@ -5174,6 +7049,31 @@
       ],
       "participe_passe": [
         "choisi"
+      ],
+      "subj": [
+        "que je choisire",
+        "que tu choisires",
+        "qu'il/elle choisire",
+        "que nous choisirions",
+        "que vous choisiriez",
+        "qu'ils/elles choisirent"
+      ],
+      "cond": [
+        "je choisirais",
+        "tu choisirais",
+        "il/elle choisirait",
+        "nous choisirions",
+        "vous choisiriez",
+        "ils/elles choisiraient"
+      ],
+      "impv": [
+        "choisire",
+        "choisirons",
+        "choisirez"
+      ],
+      "part": [
+        "choisirant",
+        "choisiré"
       ]
     },
     "usage_hint": "choisir + COD / de (faire qqch)"
@@ -5242,6 +7142,31 @@
       ],
       "participe_passe": [
         "fini"
+      ],
+      "subj": [
+        "que je finire",
+        "que tu finires",
+        "qu'il/elle finire",
+        "que nous finirions",
+        "que vous finiriez",
+        "qu'ils/elles finirent"
+      ],
+      "cond": [
+        "je finirais",
+        "tu finirais",
+        "il/elle finirait",
+        "nous finirions",
+        "vous finiriez",
+        "ils/elles finiraient"
+      ],
+      "impv": [
+        "finire",
+        "finirons",
+        "finirez"
+      ],
+      "part": [
+        "finirant",
+        "finiré"
       ]
     },
     "usage_hint": "finir par (faire qqch) / de (faire qqch)"
@@ -5310,6 +7235,31 @@
       ],
       "participe_passe": [
         "réussi"
+      ],
+      "subj": [
+        "que je réussire",
+        "que tu réussires",
+        "qu'il/elle réussire",
+        "que nous réussirions",
+        "que vous réussiriez",
+        "qu'ils/elles réussirent"
+      ],
+      "cond": [
+        "je réussirais",
+        "tu réussirais",
+        "il/elle réussirait",
+        "nous réussirions",
+        "vous réussiriez",
+        "ils/elles réussiraient"
+      ],
+      "impv": [
+        "réussire",
+        "réussirons",
+        "réussirez"
+      ],
+      "part": [
+        "réussirant",
+        "réussiré"
       ]
     },
     "usage_hint": "réussir à (faire qqch) / un examen (+ COD)",
@@ -5379,6 +7329,31 @@
       ],
       "participe_passe": [
         "grandi"
+      ],
+      "subj": [
+        "que je grandire",
+        "que tu grandires",
+        "qu'il/elle grandire",
+        "que nous grandirions",
+        "que vous grandiriez",
+        "qu'ils/elles grandirent"
+      ],
+      "cond": [
+        "je grandirais",
+        "tu grandirais",
+        "il/elle grandirait",
+        "nous grandirions",
+        "vous grandiriez",
+        "ils/elles grandiraient"
+      ],
+      "impv": [
+        "grandire",
+        "grandirons",
+        "grandirez"
+      ],
+      "part": [
+        "grandirant",
+        "grandiré"
       ]
     },
     "usage_hint": "grandir en / de"
@@ -5447,6 +7422,31 @@
       ],
       "participe_passe": [
         "réfléchi"
+      ],
+      "subj": [
+        "que je réfléchire",
+        "que tu réfléchires",
+        "qu'il/elle réfléchire",
+        "que nous réfléchirions",
+        "que vous réfléchiriez",
+        "qu'ils/elles réfléchirent"
+      ],
+      "cond": [
+        "je réfléchirais",
+        "tu réfléchirais",
+        "il/elle réfléchirait",
+        "nous réfléchirions",
+        "vous réfléchiriez",
+        "ils/elles réfléchiraient"
+      ],
+      "impv": [
+        "réfléchire",
+        "réfléchirons",
+        "réfléchirez"
+      ],
+      "part": [
+        "réfléchirant",
+        "réfléchiré"
       ]
     },
     "usage_hint": "réfléchir à (un problème / une décision)"
@@ -5515,6 +7515,31 @@
       ],
       "participe_passe": [
         "obéi"
+      ],
+      "subj": [
+        "que j'obéire",
+        "que tu obéires",
+        "qu'il/elle obéire",
+        "que nous obéirions",
+        "que vous obéiriez",
+        "qu'ils/elles obéirent"
+      ],
+      "cond": [
+        "j'obéirais",
+        "tu obéirais",
+        "il/elle obéirait",
+        "nous obéirions",
+        "vous obéiriez",
+        "ils/elles obéiraient"
+      ],
+      "impv": [
+        "obéire",
+        "obéirons",
+        "obéirez"
+      ],
+      "part": [
+        "obéirant",
+        "obéiré"
       ]
     },
     "usage_hint": "obéir à (qqn / une règle)"
@@ -5583,6 +7608,31 @@
       ],
       "participe_passe": [
         "puni"
+      ],
+      "subj": [
+        "que je punire",
+        "que tu punires",
+        "qu'il/elle punire",
+        "que nous punirions",
+        "que vous puniriez",
+        "qu'ils/elles punirent"
+      ],
+      "cond": [
+        "je punirais",
+        "tu punirais",
+        "il/elle punirait",
+        "nous punirions",
+        "vous puniriez",
+        "ils/elles puniraient"
+      ],
+      "impv": [
+        "punire",
+        "punirons",
+        "punirez"
+      ],
+      "part": [
+        "punirant",
+        "puniré"
       ]
     },
     "usage_hint": "punir (qqn) pour (une faute)"
@@ -5651,6 +7701,31 @@
       ],
       "participe_passe": [
         "nourri"
+      ],
+      "subj": [
+        "que je nourrire",
+        "que tu nourrires",
+        "qu'il/elle nourrire",
+        "que nous nourririons",
+        "que vous nourririez",
+        "qu'ils/elles nourrirent"
+      ],
+      "cond": [
+        "je nourrirais",
+        "tu nourrirais",
+        "il/elle nourrirait",
+        "nous nourririons",
+        "vous nourririez",
+        "ils/elles nourriraient"
+      ],
+      "impv": [
+        "nourrire",
+        "nourrirons",
+        "nourrirez"
+      ],
+      "part": [
+        "nourrirant",
+        "nourriré"
       ]
     },
     "usage_hint": "nourrir + COD / se nourrir de"
@@ -5719,6 +7794,31 @@
       ],
       "participe_passe": [
         "vieilli"
+      ],
+      "subj": [
+        "que je vieillire",
+        "que tu vieillires",
+        "qu'il/elle vieillire",
+        "que nous vieillirions",
+        "que vous vieilliriez",
+        "qu'ils/elles vieillirent"
+      ],
+      "cond": [
+        "je vieillirais",
+        "tu vieillirais",
+        "il/elle vieillirait",
+        "nous vieillirions",
+        "vous vieilliriez",
+        "ils/elles vieilliraient"
+      ],
+      "impv": [
+        "vieillire",
+        "vieillirons",
+        "vieillirez"
+      ],
+      "part": [
+        "vieillirant",
+        "vieilliré"
       ]
     },
     "usage_hint": "vieillir de (plusieurs années)"
@@ -5787,6 +7887,31 @@
       ],
       "participe_passe": [
         "guéri"
+      ],
+      "subj": [
+        "que je guérire",
+        "que tu guérires",
+        "qu'il/elle guérire",
+        "que nous guéririons",
+        "que vous guéririez",
+        "qu'ils/elles guérirent"
+      ],
+      "cond": [
+        "je guérirais",
+        "tu guérirais",
+        "il/elle guérirait",
+        "nous guéririons",
+        "vous guéririez",
+        "ils/elles guériraient"
+      ],
+      "impv": [
+        "guérire",
+        "guérirons",
+        "guérirez"
+      ],
+      "part": [
+        "guérirant",
+        "guériré"
       ]
     },
     "usage_hint": "guérir de (une maladie)"
@@ -5854,6 +7979,31 @@
         "allez !"
       ],
       "participe_passe": [
+        "allé"
+      ],
+      "subj": [
+        "que j'alle",
+        "que tu alles",
+        "qu'il/elle alle",
+        "que nous allions",
+        "que vous alliez",
+        "qu'ils/elles allent"
+      ],
+      "cond": [
+        "j'allerais",
+        "tu allerais",
+        "il/elle allerait",
+        "nous allerions",
+        "vous alleriez",
+        "ils/elles alleraient"
+      ],
+      "impv": [
+        "alle",
+        "allons",
+        "allez"
+      ],
+      "part": [
+        "allant",
         "allé"
       ]
     },
@@ -5923,6 +8073,31 @@
       ],
       "participe_passe": [
         "fait"
+      ],
+      "subj": [
+        "que je fairee",
+        "que tu fairees",
+        "qu'il/elle fairee",
+        "que nous faireions",
+        "que vous faireiez",
+        "qu'ils/elles faireent"
+      ],
+      "cond": [
+        "je faireais",
+        "tu faireais",
+        "il/elle faireait",
+        "nous faireions",
+        "vous faireiez",
+        "ils/elles faireaient"
+      ],
+      "impv": [
+        "fairee",
+        "faireons",
+        "faireez"
+      ],
+      "part": [
+        "faireant",
+        "faireé"
       ]
     },
     "usage_hint": "faire + COD / faire de (sport/musique)"
@@ -5991,6 +8166,31 @@
       ],
       "participe_passe": [
         "dit"
+      ],
+      "subj": [
+        "que je diree",
+        "que tu direes",
+        "qu'il/elle diree",
+        "que nous direions",
+        "que vous direiez",
+        "qu'ils/elles direent"
+      ],
+      "cond": [
+        "je direais",
+        "tu direais",
+        "il/elle direait",
+        "nous direions",
+        "vous direiez",
+        "ils/elles direaient"
+      ],
+      "impv": [
+        "diree",
+        "direons",
+        "direez"
+      ],
+      "part": [
+        "direant",
+        "direé"
       ]
     },
     "usage_hint": "dire (qqch) à (qqn)"
@@ -6059,6 +8259,31 @@
       ],
       "participe_passe": [
         "vu"
+      ],
+      "subj": [
+        "que je voire",
+        "que tu voires",
+        "qu'il/elle voire",
+        "que nous voirions",
+        "que vous voiriez",
+        "qu'ils/elles voirent"
+      ],
+      "cond": [
+        "je voirais",
+        "tu voirais",
+        "il/elle voirait",
+        "nous voirions",
+        "vous voiriez",
+        "ils/elles voiraient"
+      ],
+      "impv": [
+        "voire",
+        "voirons",
+        "voirez"
+      ],
+      "part": [
+        "voirant",
+        "voiré"
       ]
     },
     "usage_hint": "voir + COD",
@@ -6128,6 +8353,31 @@
       ],
       "participe_passe": [
         "pu"
+      ],
+      "subj": [
+        "que je pouvoire",
+        "que tu pouvoires",
+        "qu'il/elle pouvoire",
+        "que nous pouvoirions",
+        "que vous pouvoiriez",
+        "qu'ils/elles pouvoirent"
+      ],
+      "cond": [
+        "je pouvoirais",
+        "tu pouvoirais",
+        "il/elle pouvoirait",
+        "nous pouvoirions",
+        "vous pouvoiriez",
+        "ils/elles pouvoiraient"
+      ],
+      "impv": [
+        "pouvoire",
+        "pouvoirons",
+        "pouvoirez"
+      ],
+      "part": [
+        "pouvoirant",
+        "pouvoiré"
       ]
     },
     "usage_hint": "+ infinitif direct",
@@ -6197,6 +8447,31 @@
       ],
       "participe_passe": [
         "voulu"
+      ],
+      "subj": [
+        "que je vouloire",
+        "que tu vouloires",
+        "qu'il/elle vouloire",
+        "que nous vouloirions",
+        "que vous vouloiriez",
+        "qu'ils/elles vouloirent"
+      ],
+      "cond": [
+        "je vouloirais",
+        "tu vouloirais",
+        "il/elle vouloirait",
+        "nous vouloirions",
+        "vous vouloiriez",
+        "ils/elles vouloiraient"
+      ],
+      "impv": [
+        "vouloire",
+        "vouloirons",
+        "vouloirez"
+      ],
+      "part": [
+        "vouloirant",
+        "vouloiré"
       ]
     },
     "usage_hint": "vouloir + COD / + infinitif",
@@ -6266,6 +8541,31 @@
       ],
       "participe_passe": [
         "pris"
+      ],
+      "subj": [
+        "que je prendree",
+        "que tu prendrees",
+        "qu'il/elle prendree",
+        "que nous prendreions",
+        "que vous prendreiez",
+        "qu'ils/elles prendreent"
+      ],
+      "cond": [
+        "je prendreais",
+        "tu prendreais",
+        "il/elle prendreait",
+        "nous prendreions",
+        "vous prendreiez",
+        "ils/elles prendreaient"
+      ],
+      "impv": [
+        "prendree",
+        "prendreons",
+        "prendreez"
+      ],
+      "part": [
+        "prendreant",
+        "prendreé"
       ]
     },
     "usage_hint": "prendre + COD / prendre soin de"
@@ -6334,6 +8634,31 @@
       ],
       "participe_passe": [
         "venu"
+      ],
+      "subj": [
+        "que je venire",
+        "que tu venires",
+        "qu'il/elle venire",
+        "que nous venirions",
+        "que vous veniriez",
+        "qu'ils/elles venirent"
+      ],
+      "cond": [
+        "je venirais",
+        "tu venirais",
+        "il/elle venirait",
+        "nous venirions",
+        "vous veniriez",
+        "ils/elles veniraient"
+      ],
+      "impv": [
+        "venire",
+        "venirons",
+        "venirez"
+      ],
+      "part": [
+        "venirant",
+        "veniré"
       ]
     },
     "usage_hint": "venir de (origine/lieu) / avec",
@@ -6403,6 +8728,31 @@
       ],
       "participe_passe": [
         "vendu"
+      ],
+      "subj": [
+        "que je vendree",
+        "que tu vendrees",
+        "qu'il/elle vendree",
+        "que nous vendreions",
+        "que vous vendreiez",
+        "qu'ils/elles vendreent"
+      ],
+      "cond": [
+        "je vendreais",
+        "tu vendreais",
+        "il/elle vendreait",
+        "nous vendreions",
+        "vous vendreiez",
+        "ils/elles vendreaient"
+      ],
+      "impv": [
+        "vendree",
+        "vendreons",
+        "vendreez"
+      ],
+      "part": [
+        "vendreant",
+        "vendreé"
       ]
     },
     "usage_hint": "vendre (qqch) à (qqn)"
@@ -6471,6 +8821,31 @@
       ],
       "participe_passe": [
         "détruit"
+      ],
+      "subj": [
+        "que je détruiree",
+        "que tu détruirees",
+        "qu'il/elle détruiree",
+        "que nous détruireions",
+        "que vous détruireiez",
+        "qu'ils/elles détruireent"
+      ],
+      "cond": [
+        "je détruireais",
+        "tu détruireais",
+        "il/elle détruireait",
+        "nous détruireions",
+        "vous détruireiez",
+        "ils/elles détruireaient"
+      ],
+      "impv": [
+        "détruiree",
+        "détruireons",
+        "détruireez"
+      ],
+      "part": [
+        "détruireant",
+        "détruireé"
       ]
     },
     "usage_hint": "détruire + COD"
@@ -6539,6 +8914,31 @@
       ],
       "participe_passe": [
         "prévu"
+      ],
+      "subj": [
+        "que je prévoire",
+        "que tu prévoires",
+        "qu'il/elle prévoire",
+        "que nous prévoirions",
+        "que vous prévoiriez",
+        "qu'ils/elles prévoirent"
+      ],
+      "cond": [
+        "je prévoirais",
+        "tu prévoirais",
+        "il/elle prévoirait",
+        "nous prévoirions",
+        "vous prévoiriez",
+        "ils/elles prévoiraient"
+      ],
+      "impv": [
+        "prévoire",
+        "prévoirons",
+        "prévoirez"
+      ],
+      "part": [
+        "prévoirant",
+        "prévoiré"
       ]
     },
     "usage_hint": "prévoir + COD"
@@ -6607,6 +9007,31 @@
       ],
       "participe_passe": [
         "prévenu"
+      ],
+      "subj": [
+        "que je prévenire",
+        "que tu prévenires",
+        "qu'il/elle prévenire",
+        "que nous prévenirions",
+        "que vous préveniriez",
+        "qu'ils/elles prévenirent"
+      ],
+      "cond": [
+        "je prévenirais",
+        "tu prévenirais",
+        "il/elle prévenirait",
+        "nous prévenirions",
+        "vous préveniriez",
+        "ils/elles préveniraient"
+      ],
+      "impv": [
+        "prévenire",
+        "prévenirons",
+        "prévenirez"
+      ],
+      "part": [
+        "prévenirant",
+        "préveniré"
       ]
     },
     "usage_hint": "prévenir (qqn) de (qqch)"
@@ -6674,6 +9099,31 @@
         "accordez !"
       ],
       "participe_passe": [
+        "accordé"
+      ],
+      "subj": [
+        "que j'accorde",
+        "que tu accordes",
+        "qu'il/elle accorde",
+        "que nous accordions",
+        "que vous accordiez",
+        "qu'ils/elles accordent"
+      ],
+      "cond": [
+        "j'accorderais",
+        "tu accorderais",
+        "il/elle accorderait",
+        "nous accorderions",
+        "vous accorderiez",
+        "ils/elles accorderaient"
+      ],
+      "impv": [
+        "accorde",
+        "accordons",
+        "accordez"
+      ],
+      "part": [
+        "accordant",
         "accordé"
       ]
     },
@@ -6743,6 +9193,31 @@
       ],
       "participe_passe": [
         "accusé"
+      ],
+      "subj": [
+        "que j'accuse",
+        "que tu accuses",
+        "qu'il/elle accuse",
+        "que nous accusions",
+        "que vous accusiez",
+        "qu'ils/elles accusent"
+      ],
+      "cond": [
+        "j'accuserais",
+        "tu accuserais",
+        "il/elle accuserait",
+        "nous accuserions",
+        "vous accuseriez",
+        "ils/elles accuseraient"
+      ],
+      "impv": [
+        "accuse",
+        "accusons",
+        "accusez"
+      ],
+      "part": [
+        "accusant",
+        "accusé"
       ]
     },
     "usage_hint": "accuser + COD (complément d'objet direct)"
@@ -6810,6 +9285,31 @@
         "achètez !"
       ],
       "participe_passe": [
+        "acheté"
+      ],
+      "subj": [
+        "que j'achete",
+        "que tu achetes",
+        "qu'il/elle achete",
+        "que nous achetions",
+        "que vous achetiez",
+        "qu'ils/elles achetent"
+      ],
+      "cond": [
+        "j'acheterais",
+        "tu acheterais",
+        "il/elle acheterait",
+        "nous acheterions",
+        "vous acheteriez",
+        "ils/elles acheteraient"
+      ],
+      "impv": [
+        "achete",
+        "achetons",
+        "achetez"
+      ],
+      "part": [
+        "achetant",
         "acheté"
       ]
     },
@@ -6880,6 +9380,31 @@
       ],
       "participe_passe": [
         "adoré"
+      ],
+      "subj": [
+        "que j'adore",
+        "que tu adores",
+        "qu'il/elle adore",
+        "que nous adorions",
+        "que vous adoriez",
+        "qu'ils/elles adorent"
+      ],
+      "cond": [
+        "j'adorerais",
+        "tu adorerais",
+        "il/elle adorerait",
+        "nous adorerions",
+        "vous adoreriez",
+        "ils/elles adoreraient"
+      ],
+      "impv": [
+        "adore",
+        "adorons",
+        "adorez"
+      ],
+      "part": [
+        "adorant",
+        "adoré"
       ]
     },
     "usage_hint": "adorer + COD (complément d'objet direct)"
@@ -6947,6 +9472,31 @@
         "affirmez !"
       ],
       "participe_passe": [
+        "affirmé"
+      ],
+      "subj": [
+        "que j'affirme",
+        "que tu affirmes",
+        "qu'il/elle affirme",
+        "que nous affirmions",
+        "que vous affirmiez",
+        "qu'ils/elles affirment"
+      ],
+      "cond": [
+        "j'affirmerais",
+        "tu affirmerais",
+        "il/elle affirmerait",
+        "nous affirmerions",
+        "vous affirmeriez",
+        "ils/elles affirmeraient"
+      ],
+      "impv": [
+        "affirme",
+        "affirmons",
+        "affirmez"
+      ],
+      "part": [
+        "affirmant",
         "affirmé"
       ]
     },
@@ -7016,6 +9566,31 @@
       ],
       "participe_passe": [
         "ajouté"
+      ],
+      "subj": [
+        "que j'ajoute",
+        "que tu ajoutes",
+        "qu'il/elle ajoute",
+        "que nous ajoutions",
+        "que vous ajoutiez",
+        "qu'ils/elles ajoutent"
+      ],
+      "cond": [
+        "j'ajouterais",
+        "tu ajouterais",
+        "il/elle ajouterait",
+        "nous ajouterions",
+        "vous ajouteriez",
+        "ils/elles ajouteraient"
+      ],
+      "impv": [
+        "ajoute",
+        "ajoutons",
+        "ajoutez"
+      ],
+      "part": [
+        "ajoutant",
+        "ajouté"
       ]
     },
     "usage_hint": "ajouter + COD (complément d'objet direct)"
@@ -7083,6 +9658,31 @@
         "allumez !"
       ],
       "participe_passe": [
+        "allumé"
+      ],
+      "subj": [
+        "que j'allume",
+        "que tu allumes",
+        "qu'il/elle allume",
+        "que nous allumions",
+        "que vous allumiez",
+        "qu'ils/elles allument"
+      ],
+      "cond": [
+        "j'allumerais",
+        "tu allumerais",
+        "il/elle allumerait",
+        "nous allumerions",
+        "vous allumeriez",
+        "ils/elles allumeraient"
+      ],
+      "impv": [
+        "allume",
+        "allumons",
+        "allumez"
+      ],
+      "part": [
+        "allumant",
         "allumé"
       ]
     },
@@ -7152,6 +9752,31 @@
       ],
       "participe_passe": [
         "apporté"
+      ],
+      "subj": [
+        "que j'apporte",
+        "que tu apportes",
+        "qu'il/elle apporte",
+        "que nous apportions",
+        "que vous apportiez",
+        "qu'ils/elles apportent"
+      ],
+      "cond": [
+        "j'apporterais",
+        "tu apporterais",
+        "il/elle apporterait",
+        "nous apporterions",
+        "vous apporteriez",
+        "ils/elles apporteraient"
+      ],
+      "impv": [
+        "apporte",
+        "apportons",
+        "apportez"
+      ],
+      "part": [
+        "apportant",
+        "apporté"
       ]
     },
     "usage_hint": "apporter + COD (complément d'objet direct)"
@@ -7219,6 +9844,31 @@
         "approuvez !"
       ],
       "participe_passe": [
+        "approuvé"
+      ],
+      "subj": [
+        "que j'approuve",
+        "que tu approuves",
+        "qu'il/elle approuve",
+        "que nous approuvions",
+        "que vous approuviez",
+        "qu'ils/elles approuvent"
+      ],
+      "cond": [
+        "j'approuverais",
+        "tu approuverais",
+        "il/elle approuverait",
+        "nous approuverions",
+        "vous approuveriez",
+        "ils/elles approuveraient"
+      ],
+      "impv": [
+        "approuve",
+        "approuvons",
+        "approuvez"
+      ],
+      "part": [
+        "approuvant",
         "approuvé"
       ]
     },
@@ -7288,6 +9938,31 @@
       ],
       "participe_passe": [
         "avancé"
+      ],
+      "subj": [
+        "que j'avance",
+        "que tu avances",
+        "qu'il/elle avance",
+        "que nous avancions",
+        "que vous avanciez",
+        "qu'ils/elles avancent"
+      ],
+      "cond": [
+        "j'avancerais",
+        "tu avancerais",
+        "il/elle avancerait",
+        "nous avancerions",
+        "vous avanceriez",
+        "ils/elles avanceraient"
+      ],
+      "impv": [
+        "avance",
+        "avancons",
+        "avancez"
+      ],
+      "part": [
+        "avancant",
+        "avancé"
       ]
     },
     "usage_hint": "avancer + COD (complément d'objet direct)"
@@ -7355,6 +10030,31 @@
         "blessez !"
       ],
       "participe_passe": [
+        "blessé"
+      ],
+      "subj": [
+        "que je blesse",
+        "que tu blesses",
+        "qu'il/elle blesse",
+        "que nous blessions",
+        "que vous blessiez",
+        "qu'ils/elles blessent"
+      ],
+      "cond": [
+        "je blesserais",
+        "tu blesserais",
+        "il/elle blesserait",
+        "nous blesserions",
+        "vous blesseriez",
+        "ils/elles blesseraient"
+      ],
+      "impv": [
+        "blesse",
+        "blessons",
+        "blessez"
+      ],
+      "part": [
+        "blessant",
         "blessé"
       ]
     },
@@ -7424,6 +10124,31 @@
       ],
       "participe_passe": [
         "calmé"
+      ],
+      "subj": [
+        "que je calme",
+        "que tu calmes",
+        "qu'il/elle calme",
+        "que nous calmions",
+        "que vous calmiez",
+        "qu'ils/elles calment"
+      ],
+      "cond": [
+        "je calmerais",
+        "tu calmerais",
+        "il/elle calmerait",
+        "nous calmerions",
+        "vous calmeriez",
+        "ils/elles calmeraient"
+      ],
+      "impv": [
+        "calme",
+        "calmons",
+        "calmez"
+      ],
+      "part": [
+        "calmant",
+        "calmé"
       ]
     },
     "usage_hint": "calmer + COD (complément d'objet direct)"
@@ -7491,6 +10216,31 @@
         "changez !"
       ],
       "participe_passe": [
+        "changé"
+      ],
+      "subj": [
+        "que je change",
+        "que tu changes",
+        "qu'il/elle change",
+        "que nous changions",
+        "que vous changiez",
+        "qu'ils/elles changent"
+      ],
+      "cond": [
+        "je changerais",
+        "tu changerais",
+        "il/elle changerait",
+        "nous changerions",
+        "vous changeriez",
+        "ils/elles changeraient"
+      ],
+      "impv": [
+        "change",
+        "changons",
+        "changez"
+      ],
+      "part": [
+        "changant",
         "changé"
       ]
     },
@@ -7560,6 +10310,31 @@
       ],
       "participe_passe": [
         "chargé"
+      ],
+      "subj": [
+        "que je charge",
+        "que tu charges",
+        "qu'il/elle charge",
+        "que nous chargions",
+        "que vous chargiez",
+        "qu'ils/elles chargent"
+      ],
+      "cond": [
+        "je chargerais",
+        "tu chargerais",
+        "il/elle chargerait",
+        "nous chargerions",
+        "vous chargeriez",
+        "ils/elles chargeraient"
+      ],
+      "impv": [
+        "charge",
+        "chargons",
+        "chargez"
+      ],
+      "part": [
+        "chargant",
+        "chargé"
       ]
     },
     "usage_hint": "charger + COD (complément d'objet direct)"
@@ -7627,6 +10402,31 @@
         "chauffez !"
       ],
       "participe_passe": [
+        "chauffé"
+      ],
+      "subj": [
+        "que je chauffe",
+        "que tu chauffes",
+        "qu'il/elle chauffe",
+        "que nous chauffions",
+        "que vous chauffiez",
+        "qu'ils/elles chauffent"
+      ],
+      "cond": [
+        "je chaufferais",
+        "tu chaufferais",
+        "il/elle chaufferait",
+        "nous chaufferions",
+        "vous chaufferiez",
+        "ils/elles chaufferaient"
+      ],
+      "impv": [
+        "chauffe",
+        "chauffons",
+        "chauffez"
+      ],
+      "part": [
+        "chauffant",
         "chauffé"
       ]
     },
@@ -7696,6 +10496,31 @@
       ],
       "participe_passe": [
         "commandé"
+      ],
+      "subj": [
+        "que je commande",
+        "que tu commandes",
+        "qu'il/elle commande",
+        "que nous commandions",
+        "que vous commandiez",
+        "qu'ils/elles commandent"
+      ],
+      "cond": [
+        "je commanderais",
+        "tu commanderais",
+        "il/elle commanderait",
+        "nous commanderions",
+        "vous commanderiez",
+        "ils/elles commanderaient"
+      ],
+      "impv": [
+        "commande",
+        "commandons",
+        "commandez"
+      ],
+      "part": [
+        "commandant",
+        "commandé"
       ]
     },
     "usage_hint": "commander + COD (complément d'objet direct)"
@@ -7763,6 +10588,31 @@
         "comparez !"
       ],
       "participe_passe": [
+        "comparé"
+      ],
+      "subj": [
+        "que je compare",
+        "que tu compares",
+        "qu'il/elle compare",
+        "que nous comparions",
+        "que vous compariez",
+        "qu'ils/elles comparent"
+      ],
+      "cond": [
+        "je comparerais",
+        "tu comparerais",
+        "il/elle comparerait",
+        "nous comparerions",
+        "vous compareriez",
+        "ils/elles compareraient"
+      ],
+      "impv": [
+        "compare",
+        "comparons",
+        "comparez"
+      ],
+      "part": [
+        "comparant",
         "comparé"
       ]
     },
@@ -7832,6 +10682,31 @@
       ],
       "participe_passe": [
         "confirmé"
+      ],
+      "subj": [
+        "que je confirme",
+        "que tu confirmes",
+        "qu'il/elle confirme",
+        "que nous confirmions",
+        "que vous confirmiez",
+        "qu'ils/elles confirment"
+      ],
+      "cond": [
+        "je confirmerais",
+        "tu confirmerais",
+        "il/elle confirmerait",
+        "nous confirmerions",
+        "vous confirmeriez",
+        "ils/elles confirmeraient"
+      ],
+      "impv": [
+        "confirme",
+        "confirmons",
+        "confirmez"
+      ],
+      "part": [
+        "confirmant",
+        "confirmé"
       ]
     },
     "usage_hint": "confirmer + COD (complément d'objet direct)"
@@ -7899,6 +10774,31 @@
         "considèrez !"
       ],
       "participe_passe": [
+        "considéré"
+      ],
+      "subj": [
+        "que je considére",
+        "que tu considéres",
+        "qu'il/elle considére",
+        "que nous considérions",
+        "que vous considériez",
+        "qu'ils/elles considérent"
+      ],
+      "cond": [
+        "je considérerais",
+        "tu considérerais",
+        "il/elle considérerait",
+        "nous considérerions",
+        "vous considéreriez",
+        "ils/elles considéreraient"
+      ],
+      "impv": [
+        "considére",
+        "considérons",
+        "considérez"
+      ],
+      "part": [
+        "considérant",
         "considéré"
       ]
     },
@@ -7968,6 +10868,31 @@
       ],
       "participe_passe": [
         "coupé"
+      ],
+      "subj": [
+        "que je coupe",
+        "que tu coupes",
+        "qu'il/elle coupe",
+        "que nous coupions",
+        "que vous coupiez",
+        "qu'ils/elles coupent"
+      ],
+      "cond": [
+        "je couperais",
+        "tu couperais",
+        "il/elle couperait",
+        "nous couperions",
+        "vous couperiez",
+        "ils/elles couperaient"
+      ],
+      "impv": [
+        "coupe",
+        "coupons",
+        "coupez"
+      ],
+      "part": [
+        "coupant",
+        "coupé"
       ]
     },
     "usage_hint": "couper + COD (complément d'objet direct)"
@@ -8035,6 +10960,31 @@
         "coûtez !"
       ],
       "participe_passe": [
+        "coûté"
+      ],
+      "subj": [
+        "que je coûte",
+        "que tu coûtes",
+        "qu'il/elle coûte",
+        "que nous coûtions",
+        "que vous coûtiez",
+        "qu'ils/elles coûtent"
+      ],
+      "cond": [
+        "je coûterais",
+        "tu coûterais",
+        "il/elle coûterait",
+        "nous coûterions",
+        "vous coûteriez",
+        "ils/elles coûteraient"
+      ],
+      "impv": [
+        "coûte",
+        "coûtons",
+        "coûtez"
+      ],
+      "part": [
+        "coûtant",
         "coûté"
       ]
     },
@@ -8104,6 +11054,31 @@
       ],
       "participe_passe": [
         "déclaré"
+      ],
+      "subj": [
+        "que je déclare",
+        "que tu déclares",
+        "qu'il/elle déclare",
+        "que nous déclarions",
+        "que vous déclariez",
+        "qu'ils/elles déclarent"
+      ],
+      "cond": [
+        "je déclarerais",
+        "tu déclarerais",
+        "il/elle déclarerait",
+        "nous déclarerions",
+        "vous déclareriez",
+        "ils/elles déclareraient"
+      ],
+      "impv": [
+        "déclare",
+        "déclarons",
+        "déclarez"
+      ],
+      "part": [
+        "déclarant",
+        "déclaré"
       ]
     },
     "usage_hint": "déclarer + COD (complément d'objet direct)"
@@ -8171,6 +11146,31 @@
         "déjeunez !"
       ],
       "participe_passe": [
+        "déjeuné"
+      ],
+      "subj": [
+        "que je déjeune",
+        "que tu déjeunes",
+        "qu'il/elle déjeune",
+        "que nous déjeunions",
+        "que vous déjeuniez",
+        "qu'ils/elles déjeunent"
+      ],
+      "cond": [
+        "je déjeunerais",
+        "tu déjeunerais",
+        "il/elle déjeunerait",
+        "nous déjeunerions",
+        "vous déjeuneriez",
+        "ils/elles déjeuneraient"
+      ],
+      "impv": [
+        "déjeune",
+        "déjeunons",
+        "déjeunez"
+      ],
+      "part": [
+        "déjeunant",
         "déjeuné"
       ]
     },
@@ -8240,6 +11240,31 @@
       ],
       "participe_passe": [
         "dîné"
+      ],
+      "subj": [
+        "que je dîne",
+        "que tu dînes",
+        "qu'il/elle dîne",
+        "que nous dînions",
+        "que vous dîniez",
+        "qu'ils/elles dînent"
+      ],
+      "cond": [
+        "je dînerais",
+        "tu dînerais",
+        "il/elle dînerait",
+        "nous dînerions",
+        "vous dîneriez",
+        "ils/elles dîneraient"
+      ],
+      "impv": [
+        "dîne",
+        "dînons",
+        "dînez"
+      ],
+      "part": [
+        "dînant",
+        "dîné"
       ]
     },
     "usage_hint": "dîner + COD (complément d'objet direct)"
@@ -8307,6 +11332,31 @@
         "discutez !"
       ],
       "participe_passe": [
+        "discuté"
+      ],
+      "subj": [
+        "que je discute",
+        "que tu discutes",
+        "qu'il/elle discute",
+        "que nous discutions",
+        "que vous discutiez",
+        "qu'ils/elles discutent"
+      ],
+      "cond": [
+        "je discuterais",
+        "tu discuterais",
+        "il/elle discuterait",
+        "nous discuterions",
+        "vous discuteriez",
+        "ils/elles discuteraient"
+      ],
+      "impv": [
+        "discute",
+        "discutons",
+        "discutez"
+      ],
+      "part": [
+        "discutant",
         "discuté"
       ]
     },
@@ -8376,6 +11426,31 @@
       ],
       "participe_passe": [
         "douté"
+      ],
+      "subj": [
+        "que je doute",
+        "que tu doutes",
+        "qu'il/elle doute",
+        "que nous doutions",
+        "que vous doutiez",
+        "qu'ils/elles doutent"
+      ],
+      "cond": [
+        "je douterais",
+        "tu douterais",
+        "il/elle douterait",
+        "nous douterions",
+        "vous douteriez",
+        "ils/elles douteraient"
+      ],
+      "impv": [
+        "doute",
+        "doutons",
+        "doutez"
+      ],
+      "part": [
+        "doutant",
+        "douté"
       ]
     },
     "usage_hint": "douter + COD (complément d'objet direct)"
@@ -8443,6 +11518,31 @@
         "éclairez !"
       ],
       "participe_passe": [
+        "éclairé"
+      ],
+      "subj": [
+        "que j'éclaire",
+        "que tu éclaires",
+        "qu'il/elle éclaire",
+        "que nous éclairions",
+        "que vous éclairiez",
+        "qu'ils/elles éclairent"
+      ],
+      "cond": [
+        "j'éclairerais",
+        "tu éclairerais",
+        "il/elle éclairerait",
+        "nous éclairerions",
+        "vous éclaireriez",
+        "ils/elles éclaireraient"
+      ],
+      "impv": [
+        "éclaire",
+        "éclairons",
+        "éclairez"
+      ],
+      "part": [
+        "éclairant",
         "éclairé"
       ]
     },
@@ -8512,6 +11612,31 @@
       ],
       "participe_passe": [
         "embrassé"
+      ],
+      "subj": [
+        "que j'embrasse",
+        "que tu embrasses",
+        "qu'il/elle embrasse",
+        "que nous embrassions",
+        "que vous embrassiez",
+        "qu'ils/elles embrassent"
+      ],
+      "cond": [
+        "j'embrasserais",
+        "tu embrasserais",
+        "il/elle embrasserait",
+        "nous embrasserions",
+        "vous embrasseriez",
+        "ils/elles embrasseraient"
+      ],
+      "impv": [
+        "embrasse",
+        "embrassons",
+        "embrassez"
+      ],
+      "part": [
+        "embrassant",
+        "embrassé"
       ]
     },
     "usage_hint": "embrasser + COD (complément d'objet direct)"
@@ -8579,6 +11704,31 @@
         "emmènez !"
       ],
       "participe_passe": [
+        "emmené"
+      ],
+      "subj": [
+        "que j'emmene",
+        "que tu emmenes",
+        "qu'il/elle emmene",
+        "que nous emmenions",
+        "que vous emmeniez",
+        "qu'ils/elles emmenent"
+      ],
+      "cond": [
+        "j'emmenerais",
+        "tu emmenerais",
+        "il/elle emmenerait",
+        "nous emmenerions",
+        "vous emmeneriez",
+        "ils/elles emmeneraient"
+      ],
+      "impv": [
+        "emmene",
+        "emmenons",
+        "emmenez"
+      ],
+      "part": [
+        "emmenant",
         "emmené"
       ]
     },
@@ -8648,6 +11798,31 @@
       ],
       "participe_passe": [
         "enseigné"
+      ],
+      "subj": [
+        "que j'enseigne",
+        "que tu enseignes",
+        "qu'il/elle enseigne",
+        "que nous enseignions",
+        "que vous enseigniez",
+        "qu'ils/elles enseignent"
+      ],
+      "cond": [
+        "j'enseignerais",
+        "tu enseignerais",
+        "il/elle enseignerait",
+        "nous enseignerions",
+        "vous enseigneriez",
+        "ils/elles enseigneraient"
+      ],
+      "impv": [
+        "enseigne",
+        "enseignons",
+        "enseignez"
+      ],
+      "part": [
+        "enseignant",
+        "enseigné"
       ]
     },
     "usage_hint": "enseigner + COD (complément d'objet direct)"
@@ -8715,6 +11890,31 @@
         "envoiez !"
       ],
       "participe_passe": [
+        "envoyé"
+      ],
+      "subj": [
+        "que j'envoye",
+        "que tu envoyes",
+        "qu'il/elle envoye",
+        "que nous envoyions",
+        "que vous envoyiez",
+        "qu'ils/elles envoyent"
+      ],
+      "cond": [
+        "j'envoyerais",
+        "tu envoyerais",
+        "il/elle envoyerait",
+        "nous envoyerions",
+        "vous envoyeriez",
+        "ils/elles envoyeraient"
+      ],
+      "impv": [
+        "envoye",
+        "envoyons",
+        "envoyez"
+      ],
+      "part": [
+        "envoyant",
         "envoyé"
       ]
     },
@@ -8785,6 +11985,31 @@
       ],
       "participe_passe": [
         "évité"
+      ],
+      "subj": [
+        "que j'évite",
+        "que tu évites",
+        "qu'il/elle évite",
+        "que nous évitions",
+        "que vous évitiez",
+        "qu'ils/elles évitent"
+      ],
+      "cond": [
+        "j'éviterais",
+        "tu éviterais",
+        "il/elle éviterait",
+        "nous éviterions",
+        "vous éviteriez",
+        "ils/elles éviteraient"
+      ],
+      "impv": [
+        "évite",
+        "évitons",
+        "évitez"
+      ],
+      "part": [
+        "évitant",
+        "évité"
       ]
     },
     "usage_hint": "éviter + COD (complément d'objet direct)"
@@ -8852,6 +12077,31 @@
         "frappez !"
       ],
       "participe_passe": [
+        "frappé"
+      ],
+      "subj": [
+        "que je frappe",
+        "que tu frappes",
+        "qu'il/elle frappe",
+        "que nous frappions",
+        "que vous frappiez",
+        "qu'ils/elles frappent"
+      ],
+      "cond": [
+        "je frapperais",
+        "tu frapperais",
+        "il/elle frapperait",
+        "nous frapperions",
+        "vous frapperiez",
+        "ils/elles frapperaient"
+      ],
+      "impv": [
+        "frappe",
+        "frappons",
+        "frappez"
+      ],
+      "part": [
+        "frappant",
         "frappé"
       ]
     },
@@ -8921,6 +12171,31 @@
       ],
       "participe_passe": [
         "fumé"
+      ],
+      "subj": [
+        "que je fume",
+        "que tu fumes",
+        "qu'il/elle fume",
+        "que nous fumions",
+        "que vous fumiez",
+        "qu'ils/elles fument"
+      ],
+      "cond": [
+        "je fumerais",
+        "tu fumerais",
+        "il/elle fumerait",
+        "nous fumerions",
+        "vous fumeriez",
+        "ils/elles fumeraient"
+      ],
+      "impv": [
+        "fume",
+        "fumons",
+        "fumez"
+      ],
+      "part": [
+        "fumant",
+        "fumé"
       ]
     },
     "usage_hint": "fumer + COD (complément d'objet direct)"
@@ -8988,6 +12263,31 @@
         "gardez !"
       ],
       "participe_passe": [
+        "gardé"
+      ],
+      "subj": [
+        "que je garde",
+        "que tu gardes",
+        "qu'il/elle garde",
+        "que nous gardions",
+        "que vous gardiez",
+        "qu'ils/elles gardent"
+      ],
+      "cond": [
+        "je garderais",
+        "tu garderais",
+        "il/elle garderait",
+        "nous garderions",
+        "vous garderiez",
+        "ils/elles garderaient"
+      ],
+      "impv": [
+        "garde",
+        "gardons",
+        "gardez"
+      ],
+      "part": [
+        "gardant",
         "gardé"
       ]
     },
@@ -9057,6 +12357,31 @@
       ],
       "participe_passe": [
         "glissé"
+      ],
+      "subj": [
+        "que je glisse",
+        "que tu glisses",
+        "qu'il/elle glisse",
+        "que nous glissions",
+        "que vous glissiez",
+        "qu'ils/elles glissent"
+      ],
+      "cond": [
+        "je glisserais",
+        "tu glisserais",
+        "il/elle glisserait",
+        "nous glisserions",
+        "vous glisseriez",
+        "ils/elles glisseraient"
+      ],
+      "impv": [
+        "glisse",
+        "glissons",
+        "glissez"
+      ],
+      "part": [
+        "glissant",
+        "glissé"
       ]
     },
     "usage_hint": "glisser + COD (complément d'objet direct)"
@@ -9124,6 +12449,31 @@
         "hésitez !"
       ],
       "participe_passe": [
+        "hésité"
+      ],
+      "subj": [
+        "que j'hésite",
+        "que tu hésites",
+        "qu'il/elle hésite",
+        "que nous hésitions",
+        "que vous hésitiez",
+        "qu'ils/elles hésitent"
+      ],
+      "cond": [
+        "j'hésiterais",
+        "tu hésiterais",
+        "il/elle hésiterait",
+        "nous hésiterions",
+        "vous hésiteriez",
+        "ils/elles hésiteraient"
+      ],
+      "impv": [
+        "hésite",
+        "hésitons",
+        "hésitez"
+      ],
+      "part": [
+        "hésitant",
         "hésité"
       ]
     },
@@ -9193,6 +12543,31 @@
       ],
       "participe_passe": [
         "ignoré"
+      ],
+      "subj": [
+        "que j'ignore",
+        "que tu ignores",
+        "qu'il/elle ignore",
+        "que nous ignorions",
+        "que vous ignoriez",
+        "qu'ils/elles ignorent"
+      ],
+      "cond": [
+        "j'ignorerais",
+        "tu ignorerais",
+        "il/elle ignorerait",
+        "nous ignorerions",
+        "vous ignoreriez",
+        "ils/elles ignoreraient"
+      ],
+      "impv": [
+        "ignore",
+        "ignorons",
+        "ignorez"
+      ],
+      "part": [
+        "ignorant",
+        "ignoré"
       ]
     },
     "usage_hint": "ignorer + COD (complément d'objet direct)"
@@ -9260,6 +12635,31 @@
         "importez !"
       ],
       "participe_passe": [
+        "importé"
+      ],
+      "subj": [
+        "que j'importe",
+        "que tu importes",
+        "qu'il/elle importe",
+        "que nous importions",
+        "que vous importiez",
+        "qu'ils/elles importent"
+      ],
+      "cond": [
+        "j'importerais",
+        "tu importerais",
+        "il/elle importerait",
+        "nous importerions",
+        "vous importeriez",
+        "ils/elles importeraient"
+      ],
+      "impv": [
+        "importe",
+        "importons",
+        "importez"
+      ],
+      "part": [
+        "important",
         "importé"
       ]
     },
@@ -9329,6 +12729,31 @@
       ],
       "participe_passe": [
         "indiqué"
+      ],
+      "subj": [
+        "que j'indique",
+        "que tu indiques",
+        "qu'il/elle indique",
+        "que nous indiquions",
+        "que vous indiquiez",
+        "qu'ils/elles indiquent"
+      ],
+      "cond": [
+        "j'indiquerais",
+        "tu indiquerais",
+        "il/elle indiquerait",
+        "nous indiquerions",
+        "vous indiqueriez",
+        "ils/elles indiqueraient"
+      ],
+      "impv": [
+        "indique",
+        "indiquons",
+        "indiquez"
+      ],
+      "part": [
+        "indiquant",
+        "indiqué"
       ]
     },
     "usage_hint": "indiquer + COD (complément d'objet direct)"
@@ -9396,6 +12821,31 @@
         "inquiètez !"
       ],
       "participe_passe": [
+        "inquiété"
+      ],
+      "subj": [
+        "que j'inquiéte",
+        "que tu inquiétes",
+        "qu'il/elle inquiéte",
+        "que nous inquiétions",
+        "que vous inquiétiez",
+        "qu'ils/elles inquiétent"
+      ],
+      "cond": [
+        "j'inquiéterais",
+        "tu inquiéterais",
+        "il/elle inquiéterait",
+        "nous inquiéterions",
+        "vous inquiéteriez",
+        "ils/elles inquiéteraient"
+      ],
+      "impv": [
+        "inquiéte",
+        "inquiétons",
+        "inquiétez"
+      ],
+      "part": [
+        "inquiétant",
         "inquiété"
       ]
     },
@@ -9465,6 +12915,31 @@
       ],
       "participe_passe": [
         "insisté"
+      ],
+      "subj": [
+        "que j'insiste",
+        "que tu insistes",
+        "qu'il/elle insiste",
+        "que nous insistions",
+        "que vous insistiez",
+        "qu'ils/elles insistent"
+      ],
+      "cond": [
+        "j'insisterais",
+        "tu insisterais",
+        "il/elle insisterait",
+        "nous insisterions",
+        "vous insisteriez",
+        "ils/elles insisteraient"
+      ],
+      "impv": [
+        "insiste",
+        "insistons",
+        "insistez"
+      ],
+      "part": [
+        "insistant",
+        "insisté"
       ]
     },
     "usage_hint": "insister + COD (complément d'objet direct)"
@@ -9533,6 +13008,31 @@
       ],
       "participe_passe": [
         "installé"
+      ],
+      "subj": [
+        "que j'installe",
+        "que tu installes",
+        "qu'il/elle installe",
+        "que nous installions",
+        "que vous installiez",
+        "qu'ils/elles installent"
+      ],
+      "cond": [
+        "j'installerais",
+        "tu installerais",
+        "il/elle installerait",
+        "nous installerions",
+        "vous installeriez",
+        "ils/elles installeraient"
+      ],
+      "impv": [
+        "installe",
+        "installons",
+        "installez"
+      ],
+      "part": [
+        "installant",
+        "installé"
       ]
     },
     "usage_hint": "installer + COD (complément d'objet direct)"
@@ -9600,6 +13100,31 @@
         "jetez !"
       ],
       "participe_passe": [
+        "jeté"
+      ],
+      "subj": [
+        "que je jete",
+        "que tu jetes",
+        "qu'il/elle jete",
+        "que nous jetions",
+        "que vous jetiez",
+        "qu'ils/elles jetent"
+      ],
+      "cond": [
+        "je jeterais",
+        "tu jeterais",
+        "il/elle jeterait",
+        "nous jeterions",
+        "vous jeteriez",
+        "ils/elles jeteraient"
+      ],
+      "impv": [
+        "jete",
+        "jetons",
+        "jetez"
+      ],
+      "part": [
+        "jetant",
         "jeté"
       ]
     },
@@ -9670,6 +13195,31 @@
       ],
       "participe_passe": [
         "jugé"
+      ],
+      "subj": [
+        "que je juge",
+        "que tu juges",
+        "qu'il/elle juge",
+        "que nous jugions",
+        "que vous jugiez",
+        "qu'ils/elles jugent"
+      ],
+      "cond": [
+        "je jugerais",
+        "tu jugerais",
+        "il/elle jugerait",
+        "nous jugerions",
+        "vous jugeriez",
+        "ils/elles jugeraient"
+      ],
+      "impv": [
+        "juge",
+        "jugons",
+        "jugez"
+      ],
+      "part": [
+        "jugant",
+        "jugé"
       ]
     },
     "usage_hint": "juger + COD (complément d'objet direct)"
@@ -9737,6 +13287,31 @@
         "lèvez !"
       ],
       "participe_passe": [
+        "levé"
+      ],
+      "subj": [
+        "que je leve",
+        "que tu leves",
+        "qu'il/elle leve",
+        "que nous levions",
+        "que vous leviez",
+        "qu'ils/elles levent"
+      ],
+      "cond": [
+        "je leverais",
+        "tu leverais",
+        "il/elle leverait",
+        "nous leverions",
+        "vous leveriez",
+        "ils/elles leveraient"
+      ],
+      "impv": [
+        "leve",
+        "levons",
+        "levez"
+      ],
+      "part": [
+        "levant",
         "levé"
       ]
     },
@@ -9806,6 +13381,31 @@
       ],
       "participe_passe": [
         "limité"
+      ],
+      "subj": [
+        "que je limite",
+        "que tu limites",
+        "qu'il/elle limite",
+        "que nous limitions",
+        "que vous limitiez",
+        "qu'ils/elles limitent"
+      ],
+      "cond": [
+        "je limiterais",
+        "tu limiterais",
+        "il/elle limiterait",
+        "nous limiterions",
+        "vous limiteriez",
+        "ils/elles limiteraient"
+      ],
+      "impv": [
+        "limite",
+        "limitons",
+        "limitez"
+      ],
+      "part": [
+        "limitant",
+        "limité"
       ]
     },
     "usage_hint": "limiter + COD (complément d'objet direct)"
@@ -9873,6 +13473,31 @@
         "louez !"
       ],
       "participe_passe": [
+        "loué"
+      ],
+      "subj": [
+        "que je loue",
+        "que tu loues",
+        "qu'il/elle loue",
+        "que nous louions",
+        "que vous louiez",
+        "qu'ils/elles louent"
+      ],
+      "cond": [
+        "je louerais",
+        "tu louerais",
+        "il/elle louerait",
+        "nous louerions",
+        "vous loueriez",
+        "ils/elles loueraient"
+      ],
+      "impv": [
+        "loue",
+        "louons",
+        "louez"
+      ],
+      "part": [
+        "louant",
         "loué"
       ]
     },
@@ -9942,6 +13567,31 @@
       ],
       "participe_passe": [
         "manqué"
+      ],
+      "subj": [
+        "que je manque",
+        "que tu manques",
+        "qu'il/elle manque",
+        "que nous manquions",
+        "que vous manquiez",
+        "qu'ils/elles manquent"
+      ],
+      "cond": [
+        "je manquerais",
+        "tu manquerais",
+        "il/elle manquerait",
+        "nous manquerions",
+        "vous manqueriez",
+        "ils/elles manqueraient"
+      ],
+      "impv": [
+        "manque",
+        "manquons",
+        "manquez"
+      ],
+      "part": [
+        "manquant",
+        "manqué"
       ]
     },
     "usage_hint": "manquer + COD (complément d'objet direct)"
@@ -10009,6 +13659,31 @@
         "mènez !"
       ],
       "participe_passe": [
+        "mené"
+      ],
+      "subj": [
+        "que je mene",
+        "que tu menes",
+        "qu'il/elle mene",
+        "que nous menions",
+        "que vous meniez",
+        "qu'ils/elles menent"
+      ],
+      "cond": [
+        "je menerais",
+        "tu menerais",
+        "il/elle menerait",
+        "nous menerions",
+        "vous meneriez",
+        "ils/elles meneraient"
+      ],
+      "impv": [
+        "mene",
+        "menons",
+        "menez"
+      ],
+      "part": [
+        "menant",
         "mené"
       ]
     },
@@ -10078,6 +13753,31 @@
       ],
       "participe_passe": [
         "mesuré"
+      ],
+      "subj": [
+        "que je mesure",
+        "que tu mesures",
+        "qu'il/elle mesure",
+        "que nous mesurions",
+        "que vous mesuriez",
+        "qu'ils/elles mesurent"
+      ],
+      "cond": [
+        "je mesurerais",
+        "tu mesurerais",
+        "il/elle mesurerait",
+        "nous mesurerions",
+        "vous mesureriez",
+        "ils/elles mesureraient"
+      ],
+      "impv": [
+        "mesure",
+        "mesurons",
+        "mesurez"
+      ],
+      "part": [
+        "mesurant",
+        "mesuré"
       ]
     },
     "usage_hint": "mesurer + COD (complément d'objet direct)"
@@ -10145,6 +13845,31 @@
         "nommez !"
       ],
       "participe_passe": [
+        "nommé"
+      ],
+      "subj": [
+        "que je nomme",
+        "que tu nommes",
+        "qu'il/elle nomme",
+        "que nous nommions",
+        "que vous nommiez",
+        "qu'ils/elles nomment"
+      ],
+      "cond": [
+        "je nommerais",
+        "tu nommerais",
+        "il/elle nommerait",
+        "nous nommerions",
+        "vous nommeriez",
+        "ils/elles nommeraient"
+      ],
+      "impv": [
+        "nomme",
+        "nommons",
+        "nommez"
+      ],
+      "part": [
+        "nommant",
         "nommé"
       ]
     },
@@ -10214,6 +13939,31 @@
       ],
       "participe_passe": [
         "occupé"
+      ],
+      "subj": [
+        "que j'occupe",
+        "que tu occupes",
+        "qu'il/elle occupe",
+        "que nous occupions",
+        "que vous occupiez",
+        "qu'ils/elles occupent"
+      ],
+      "cond": [
+        "j'occuperais",
+        "tu occuperais",
+        "il/elle occuperait",
+        "nous occuperions",
+        "vous occuperiez",
+        "ils/elles occuperaient"
+      ],
+      "impv": [
+        "occupe",
+        "occupons",
+        "occupez"
+      ],
+      "part": [
+        "occupant",
+        "occupé"
       ]
     },
     "usage_hint": "occuper + COD (complément d'objet direct)"
@@ -10281,6 +14031,31 @@
         "osez !"
       ],
       "participe_passe": [
+        "osé"
+      ],
+      "subj": [
+        "que j'ose",
+        "que tu oses",
+        "qu'il/elle ose",
+        "que nous osions",
+        "que vous osiez",
+        "qu'ils/elles osent"
+      ],
+      "cond": [
+        "j'oserais",
+        "tu oserais",
+        "il/elle oserait",
+        "nous oserions",
+        "vous oseriez",
+        "ils/elles oseraient"
+      ],
+      "impv": [
+        "ose",
+        "osons",
+        "osez"
+      ],
+      "part": [
+        "osant",
         "osé"
       ]
     },
@@ -10350,6 +14125,31 @@
       ],
       "participe_passe": [
         "porté"
+      ],
+      "subj": [
+        "que je porte",
+        "que tu portes",
+        "qu'il/elle porte",
+        "que nous portions",
+        "que vous portiez",
+        "qu'ils/elles portent"
+      ],
+      "cond": [
+        "je porterais",
+        "tu porterais",
+        "il/elle porterait",
+        "nous porterions",
+        "vous porteriez",
+        "ils/elles porteraient"
+      ],
+      "impv": [
+        "porte",
+        "portons",
+        "portez"
+      ],
+      "part": [
+        "portant",
+        "porté"
       ]
     },
     "usage_hint": "porter + COD (complément d'objet direct)"
@@ -10417,6 +14217,31 @@
         "posez !"
       ],
       "participe_passe": [
+        "posé"
+      ],
+      "subj": [
+        "que je pose",
+        "que tu poses",
+        "qu'il/elle pose",
+        "que nous posions",
+        "que vous posiez",
+        "qu'ils/elles posent"
+      ],
+      "cond": [
+        "je poserais",
+        "tu poserais",
+        "il/elle poserait",
+        "nous poserions",
+        "vous poseriez",
+        "ils/elles poseraient"
+      ],
+      "impv": [
+        "pose",
+        "posons",
+        "posez"
+      ],
+      "part": [
+        "posant",
         "posé"
       ]
     },
@@ -10486,6 +14311,31 @@
       ],
       "participe_passe": [
         "présenté"
+      ],
+      "subj": [
+        "que je présente",
+        "que tu présentes",
+        "qu'il/elle présente",
+        "que nous présentions",
+        "que vous présentiez",
+        "qu'ils/elles présentent"
+      ],
+      "cond": [
+        "je présenterais",
+        "tu présenterais",
+        "il/elle présenterait",
+        "nous présenterions",
+        "vous présenteriez",
+        "ils/elles présenteraient"
+      ],
+      "impv": [
+        "présente",
+        "présentons",
+        "présentez"
+      ],
+      "part": [
+        "présentant",
+        "présenté"
       ]
     },
     "usage_hint": "présenter + COD (complément d'objet direct)"
@@ -10553,6 +14403,31 @@
         "priez !"
       ],
       "participe_passe": [
+        "prié"
+      ],
+      "subj": [
+        "que je prie",
+        "que tu pries",
+        "qu'il/elle prie",
+        "que nous priions",
+        "que vous priiez",
+        "qu'ils/elles prient"
+      ],
+      "cond": [
+        "je prierais",
+        "tu prierais",
+        "il/elle prierait",
+        "nous prierions",
+        "vous prieriez",
+        "ils/elles prieraient"
+      ],
+      "impv": [
+        "prie",
+        "prions",
+        "priez"
+      ],
+      "part": [
+        "priant",
         "prié"
       ]
     },
@@ -10622,6 +14497,31 @@
       ],
       "participe_passe": [
         "ramassé"
+      ],
+      "subj": [
+        "que je ramasse",
+        "que tu ramasses",
+        "qu'il/elle ramasse",
+        "que nous ramassions",
+        "que vous ramassiez",
+        "qu'ils/elles ramassent"
+      ],
+      "cond": [
+        "je ramasserais",
+        "tu ramasserais",
+        "il/elle ramasserait",
+        "nous ramasserions",
+        "vous ramasseriez",
+        "ils/elles ramasseraient"
+      ],
+      "impv": [
+        "ramasse",
+        "ramassons",
+        "ramassez"
+      ],
+      "part": [
+        "ramassant",
+        "ramassé"
       ]
     },
     "usage_hint": "ramasser + COD (complément d'objet direct)"
@@ -10689,6 +14589,31 @@
         "regrettez !"
       ],
       "participe_passe": [
+        "regretté"
+      ],
+      "subj": [
+        "que je regrette",
+        "que tu regrettes",
+        "qu'il/elle regrette",
+        "que nous regrettions",
+        "que vous regrettiez",
+        "qu'ils/elles regrettent"
+      ],
+      "cond": [
+        "je regretterais",
+        "tu regretterais",
+        "il/elle regretterait",
+        "nous regretterions",
+        "vous regretteriez",
+        "ils/elles regretteraient"
+      ],
+      "impv": [
+        "regrette",
+        "regrettons",
+        "regrettez"
+      ],
+      "part": [
+        "regrettant",
         "regretté"
       ]
     },
@@ -10758,6 +14683,31 @@
       ],
       "participe_passe": [
         "remplacé"
+      ],
+      "subj": [
+        "que je remplace",
+        "que tu remplaces",
+        "qu'il/elle remplace",
+        "que nous remplacions",
+        "que vous remplaciez",
+        "qu'ils/elles remplacent"
+      ],
+      "cond": [
+        "je remplacerais",
+        "tu remplacerais",
+        "il/elle remplacerait",
+        "nous remplacerions",
+        "vous remplaceriez",
+        "ils/elles remplaceraient"
+      ],
+      "impv": [
+        "remplace",
+        "remplacons",
+        "remplacez"
+      ],
+      "part": [
+        "remplacant",
+        "remplacé"
       ]
     },
     "usage_hint": "remplacer + COD (complément d'objet direct)"
@@ -10825,6 +14775,31 @@
         "rencontrez !"
       ],
       "participe_passe": [
+        "rencontré"
+      ],
+      "subj": [
+        "que je rencontre",
+        "que tu rencontres",
+        "qu'il/elle rencontre",
+        "que nous rencontrions",
+        "que vous rencontriez",
+        "qu'ils/elles rencontrent"
+      ],
+      "cond": [
+        "je rencontrerais",
+        "tu rencontrerais",
+        "il/elle rencontrerait",
+        "nous rencontrerions",
+        "vous rencontreriez",
+        "ils/elles rencontreraient"
+      ],
+      "impv": [
+        "rencontre",
+        "rencontrons",
+        "rencontrez"
+      ],
+      "part": [
+        "rencontrant",
         "rencontré"
       ]
     },
@@ -10894,6 +14869,31 @@
       ],
       "participe_passe": [
         "réparé"
+      ],
+      "subj": [
+        "que je répare",
+        "que tu répares",
+        "qu'il/elle répare",
+        "que nous réparions",
+        "que vous répariez",
+        "qu'ils/elles réparent"
+      ],
+      "cond": [
+        "je réparerais",
+        "tu réparerais",
+        "il/elle réparerait",
+        "nous réparerions",
+        "vous répareriez",
+        "ils/elles répareraient"
+      ],
+      "impv": [
+        "répare",
+        "réparons",
+        "réparez"
+      ],
+      "part": [
+        "réparant",
+        "réparé"
       ]
     },
     "usage_hint": "réparer + COD (complément d'objet direct)"
@@ -10961,6 +14961,31 @@
         "répètez !"
       ],
       "participe_passe": [
+        "répété"
+      ],
+      "subj": [
+        "que je répéte",
+        "que tu répétes",
+        "qu'il/elle répéte",
+        "que nous répétions",
+        "que vous répétiez",
+        "qu'ils/elles répétent"
+      ],
+      "cond": [
+        "je répéterais",
+        "tu répéterais",
+        "il/elle répéterait",
+        "nous répéterions",
+        "vous répéteriez",
+        "ils/elles répéteraient"
+      ],
+      "impv": [
+        "répéte",
+        "répétons",
+        "répétez"
+      ],
+      "part": [
+        "répétant",
         "répété"
       ]
     },
@@ -11030,6 +15055,31 @@
       ],
       "participe_passe": [
         "reposé"
+      ],
+      "subj": [
+        "que je repose",
+        "que tu reposes",
+        "qu'il/elle repose",
+        "que nous reposions",
+        "que vous reposiez",
+        "qu'ils/elles reposent"
+      ],
+      "cond": [
+        "je reposerais",
+        "tu reposerais",
+        "il/elle reposerait",
+        "nous reposerions",
+        "vous reposeriez",
+        "ils/elles reposeraient"
+      ],
+      "impv": [
+        "repose",
+        "reposons",
+        "reposez"
+      ],
+      "part": [
+        "reposant",
+        "reposé"
       ]
     },
     "usage_hint": "reposer + COD (complément d'objet direct)"
@@ -11097,6 +15147,31 @@
         "retournez !"
       ],
       "participe_passe": [
+        "retourné"
+      ],
+      "subj": [
+        "que je retourne",
+        "que tu retournes",
+        "qu'il/elle retourne",
+        "que nous retournions",
+        "que vous retourniez",
+        "qu'ils/elles retournent"
+      ],
+      "cond": [
+        "je retournerais",
+        "tu retournerais",
+        "il/elle retournerait",
+        "nous retournerions",
+        "vous retourneriez",
+        "ils/elles retourneraient"
+      ],
+      "impv": [
+        "retourne",
+        "retournons",
+        "retournez"
+      ],
+      "part": [
+        "retournant",
         "retourné"
       ]
     },
@@ -11166,6 +15241,31 @@
       ],
       "participe_passe": [
         "rêvé"
+      ],
+      "subj": [
+        "que je rêve",
+        "que tu rêves",
+        "qu'il/elle rêve",
+        "que nous rêvions",
+        "que vous rêviez",
+        "qu'ils/elles rêvent"
+      ],
+      "cond": [
+        "je rêverais",
+        "tu rêverais",
+        "il/elle rêverait",
+        "nous rêverions",
+        "vous rêveriez",
+        "ils/elles rêveraient"
+      ],
+      "impv": [
+        "rêve",
+        "rêvons",
+        "rêvez"
+      ],
+      "part": [
+        "rêvant",
+        "rêvé"
       ]
     },
     "usage_hint": "rêver + COD (complément d'objet direct)"
@@ -11233,6 +15333,31 @@
         "roulez !"
       ],
       "participe_passe": [
+        "roulé"
+      ],
+      "subj": [
+        "que je roule",
+        "que tu roules",
+        "qu'il/elle roule",
+        "que nous roulions",
+        "que vous rouliez",
+        "qu'ils/elles roulent"
+      ],
+      "cond": [
+        "je roulerais",
+        "tu roulerais",
+        "il/elle roulerait",
+        "nous roulerions",
+        "vous rouleriez",
+        "ils/elles rouleraient"
+      ],
+      "impv": [
+        "roule",
+        "roulons",
+        "roulez"
+      ],
+      "part": [
+        "roulant",
         "roulé"
       ]
     },
@@ -11302,6 +15427,31 @@
       ],
       "participe_passe": [
         "semblé"
+      ],
+      "subj": [
+        "que je semble",
+        "que tu sembles",
+        "qu'il/elle semble",
+        "que nous semblions",
+        "que vous sembliez",
+        "qu'ils/elles semblent"
+      ],
+      "cond": [
+        "je semblerais",
+        "tu semblerais",
+        "il/elle semblerait",
+        "nous semblerions",
+        "vous sembleriez",
+        "ils/elles sembleraient"
+      ],
+      "impv": [
+        "semble",
+        "semblons",
+        "semblez"
+      ],
+      "part": [
+        "semblant",
+        "semblé"
       ]
     },
     "usage_hint": "sembler + COD (complément d'objet direct)"
@@ -11369,6 +15519,31 @@
         "signalez !"
       ],
       "participe_passe": [
+        "signalé"
+      ],
+      "subj": [
+        "que je signale",
+        "que tu signales",
+        "qu'il/elle signale",
+        "que nous signalions",
+        "que vous signaliez",
+        "qu'ils/elles signalent"
+      ],
+      "cond": [
+        "je signalerais",
+        "tu signalerais",
+        "il/elle signalerait",
+        "nous signalerions",
+        "vous signaleriez",
+        "ils/elles signaleraient"
+      ],
+      "impv": [
+        "signale",
+        "signalons",
+        "signalez"
+      ],
+      "part": [
+        "signalant",
         "signalé"
       ]
     },
@@ -11438,6 +15613,31 @@
       ],
       "participe_passe": [
         "téléphoné"
+      ],
+      "subj": [
+        "que je téléphone",
+        "que tu téléphones",
+        "qu'il/elle téléphone",
+        "que nous téléphonions",
+        "que vous téléphoniez",
+        "qu'ils/elles téléphonent"
+      ],
+      "cond": [
+        "je téléphonerais",
+        "tu téléphonerais",
+        "il/elle téléphonerait",
+        "nous téléphonerions",
+        "vous téléphoneriez",
+        "ils/elles téléphoneraient"
+      ],
+      "impv": [
+        "téléphone",
+        "téléphonons",
+        "téléphonez"
+      ],
+      "part": [
+        "téléphonant",
+        "téléphoné"
       ]
     },
     "usage_hint": "téléphoner + COD (complément d'objet direct)"
@@ -11505,6 +15705,31 @@
         "traversez !"
       ],
       "participe_passe": [
+        "traversé"
+      ],
+      "subj": [
+        "que je traverse",
+        "que tu traverses",
+        "qu'il/elle traverse",
+        "que nous traversions",
+        "que vous traversiez",
+        "qu'ils/elles traversent"
+      ],
+      "cond": [
+        "je traverserais",
+        "tu traverserais",
+        "il/elle traverserait",
+        "nous traverserions",
+        "vous traverseriez",
+        "ils/elles traverseraient"
+      ],
+      "impv": [
+        "traverse",
+        "traversons",
+        "traversez"
+      ],
+      "part": [
+        "traversant",
         "traversé"
       ]
     },
@@ -11574,6 +15799,31 @@
       ],
       "participe_passe": [
         "trompé"
+      ],
+      "subj": [
+        "que je trompe",
+        "que tu trompes",
+        "qu'il/elle trompe",
+        "que nous trompions",
+        "que vous trompiez",
+        "qu'ils/elles trompent"
+      ],
+      "cond": [
+        "je tromperais",
+        "tu tromperais",
+        "il/elle tromperait",
+        "nous tromperions",
+        "vous tromperiez",
+        "ils/elles tromperaient"
+      ],
+      "impv": [
+        "trompe",
+        "trompons",
+        "trompez"
+      ],
+      "part": [
+        "trompant",
+        "trompé"
       ]
     },
     "usage_hint": "tromper + COD (complément d'objet direct)"
@@ -11641,6 +15891,31 @@
         "utilisez !"
       ],
       "participe_passe": [
+        "utilisé"
+      ],
+      "subj": [
+        "que j'utilise",
+        "que tu utilises",
+        "qu'il/elle utilise",
+        "que nous utilisions",
+        "que vous utilisiez",
+        "qu'ils/elles utilisent"
+      ],
+      "cond": [
+        "j'utiliserais",
+        "tu utiliserais",
+        "il/elle utiliserait",
+        "nous utiliserions",
+        "vous utiliseriez",
+        "ils/elles utiliseraient"
+      ],
+      "impv": [
+        "utilise",
+        "utilisons",
+        "utilisez"
+      ],
+      "part": [
+        "utilisant",
         "utilisé"
       ]
     },
@@ -11710,6 +15985,31 @@
       ],
       "participe_passe": [
         "admis"
+      ],
+      "subj": [
+        "que j'admettree",
+        "que tu admettrees",
+        "qu'il/elle admettree",
+        "que nous admettreions",
+        "que vous admettreiez",
+        "qu'ils/elles admettreent"
+      ],
+      "cond": [
+        "j'admettreais",
+        "tu admettreais",
+        "il/elle admettreait",
+        "nous admettreions",
+        "vous admettreiez",
+        "ils/elles admettreaient"
+      ],
+      "impv": [
+        "admettree",
+        "admettreons",
+        "admettreez"
+      ],
+      "part": [
+        "admettreant",
+        "admettreé"
       ]
     },
     "usage_hint": "admettre + COD (complément d'objet direct)"
@@ -11777,6 +16077,31 @@
         "agaceez !"
       ],
       "participe_passe": [
+        "agacé"
+      ],
+      "subj": [
+        "que j'agace",
+        "que tu agaces",
+        "qu'il/elle agace",
+        "que nous agacions",
+        "que vous agaciez",
+        "qu'ils/elles agacent"
+      ],
+      "cond": [
+        "j'agacerais",
+        "tu agacerais",
+        "il/elle agacerait",
+        "nous agacerions",
+        "vous agaceriez",
+        "ils/elles agaceraient"
+      ],
+      "impv": [
+        "agace",
+        "agacons",
+        "agacez"
+      ],
+      "part": [
+        "agacant",
         "agacé"
       ]
     },
@@ -11846,6 +16171,31 @@
       ],
       "participe_passe": [
         "amusé"
+      ],
+      "subj": [
+        "que j'amuse",
+        "que tu amuses",
+        "qu'il/elle amuse",
+        "que nous amusions",
+        "que vous amusiez",
+        "qu'ils/elles amusent"
+      ],
+      "cond": [
+        "j'amuserais",
+        "tu amuserais",
+        "il/elle amuserait",
+        "nous amuserions",
+        "vous amuseriez",
+        "ils/elles amuseraient"
+      ],
+      "impv": [
+        "amuse",
+        "amusons",
+        "amusez"
+      ],
+      "part": [
+        "amusant",
+        "amusé"
       ]
     },
     "usage_hint": "amuser + COD (complément d'objet direct)"
@@ -11914,6 +16264,31 @@
       ],
       "participe_passe": [
         "appris"
+      ],
+      "subj": [
+        "que j'apprendree",
+        "que tu apprendrees",
+        "qu'il/elle apprendree",
+        "que nous apprendreions",
+        "que vous apprendreiez",
+        "qu'ils/elles apprendreent"
+      ],
+      "cond": [
+        "j'apprendreais",
+        "tu apprendreais",
+        "il/elle apprendreait",
+        "nous apprendreions",
+        "vous apprendreiez",
+        "ils/elles apprendreaient"
+      ],
+      "impv": [
+        "apprendree",
+        "apprendreons",
+        "apprendreez"
+      ],
+      "part": [
+        "apprendreant",
+        "apprendreé"
       ]
     },
     "usage_hint": "apprendre + COD (complément d'objet direct)"
@@ -11981,6 +16356,31 @@
         "attrapeez !"
       ],
       "participe_passe": [
+        "attrapé"
+      ],
+      "subj": [
+        "que j'attrape",
+        "que tu attrapes",
+        "qu'il/elle attrape",
+        "que nous attrapions",
+        "que vous attrapiez",
+        "qu'ils/elles attrapent"
+      ],
+      "cond": [
+        "j'attraperais",
+        "tu attraperais",
+        "il/elle attraperait",
+        "nous attraperions",
+        "vous attraperiez",
+        "ils/elles attraperaient"
+      ],
+      "impv": [
+        "attrape",
+        "attrapons",
+        "attrapez"
+      ],
+      "part": [
+        "attrapant",
         "attrapé"
       ]
     },
@@ -12050,6 +16450,31 @@
       ],
       "participe_passe": [
         "bâti"
+      ],
+      "subj": [
+        "que je bâtire",
+        "que tu bâtires",
+        "qu'il/elle bâtire",
+        "que nous bâtirions",
+        "que vous bâtiriez",
+        "qu'ils/elles bâtirent"
+      ],
+      "cond": [
+        "je bâtirais",
+        "tu bâtirais",
+        "il/elle bâtirait",
+        "nous bâtirions",
+        "vous bâtiriez",
+        "ils/elles bâtiraient"
+      ],
+      "impv": [
+        "bâtire",
+        "bâtirons",
+        "bâtirez"
+      ],
+      "part": [
+        "bâtirant",
+        "bâtiré"
       ]
     },
     "usage_hint": "bâtir + COD (complément d'objet direct)"
@@ -12118,6 +16543,31 @@
       ],
       "participe_passe": [
         "bu"
+      ],
+      "subj": [
+        "que je boiree",
+        "que tu boirees",
+        "qu'il/elle boiree",
+        "que nous boireions",
+        "que vous boireiez",
+        "qu'ils/elles boireent"
+      ],
+      "cond": [
+        "je boireais",
+        "tu boireais",
+        "il/elle boireait",
+        "nous boireions",
+        "vous boireiez",
+        "ils/elles boireaient"
+      ],
+      "impv": [
+        "boiree",
+        "boireons",
+        "boireez"
+      ],
+      "part": [
+        "boireant",
+        "boireé"
       ]
     },
     "usage_hint": "boire + COD (complément d'objet direct)"
@@ -12185,6 +16635,31 @@
         "brûleez !"
       ],
       "participe_passe": [
+        "brûlé"
+      ],
+      "subj": [
+        "que je brûle",
+        "que tu brûles",
+        "qu'il/elle brûle",
+        "que nous brûlions",
+        "que vous brûliez",
+        "qu'ils/elles brûlent"
+      ],
+      "cond": [
+        "je brûlerais",
+        "tu brûlerais",
+        "il/elle brûlerait",
+        "nous brûlerions",
+        "vous brûleriez",
+        "ils/elles brûleraient"
+      ],
+      "impv": [
+        "brûle",
+        "brûlons",
+        "brûlez"
+      ],
+      "part": [
+        "brûlant",
         "brûlé"
       ]
     },
@@ -12254,6 +16729,31 @@
       ],
       "participe_passe": [
         "cassé"
+      ],
+      "subj": [
+        "que je casse",
+        "que tu casses",
+        "qu'il/elle casse",
+        "que nous cassions",
+        "que vous cassiez",
+        "qu'ils/elles cassent"
+      ],
+      "cond": [
+        "je casserais",
+        "tu casserais",
+        "il/elle casserait",
+        "nous casserions",
+        "vous casseriez",
+        "ils/elles casseraient"
+      ],
+      "impv": [
+        "casse",
+        "cassons",
+        "cassez"
+      ],
+      "part": [
+        "cassant",
+        "cassé"
       ]
     },
     "usage_hint": "casser + COD (complément d'objet direct)"
@@ -12322,6 +16822,31 @@
       ],
       "participe_passe": [
         "compris"
+      ],
+      "subj": [
+        "que je comprendree",
+        "que tu comprendrees",
+        "qu'il/elle comprendree",
+        "que nous comprendreions",
+        "que vous comprendreiez",
+        "qu'ils/elles comprendreent"
+      ],
+      "cond": [
+        "je comprendreais",
+        "tu comprendreais",
+        "il/elle comprendreait",
+        "nous comprendreions",
+        "vous comprendreiez",
+        "ils/elles comprendreaient"
+      ],
+      "impv": [
+        "comprendree",
+        "comprendreons",
+        "comprendreez"
+      ],
+      "part": [
+        "comprendreant",
+        "comprendreé"
       ]
     },
     "usage_hint": "comprendre + COD (complément d'objet direct)"
@@ -12390,6 +16915,31 @@
       ],
       "participe_passe": [
         "construit"
+      ],
+      "subj": [
+        "que je construiree",
+        "que tu construirees",
+        "qu'il/elle construiree",
+        "que nous construireions",
+        "que vous construireiez",
+        "qu'ils/elles construireent"
+      ],
+      "cond": [
+        "je construireais",
+        "tu construireais",
+        "il/elle construireait",
+        "nous construireions",
+        "vous construireiez",
+        "ils/elles construireaient"
+      ],
+      "impv": [
+        "construiree",
+        "construireons",
+        "construireez"
+      ],
+      "part": [
+        "construireant",
+        "construireé"
       ]
     },
     "usage_hint": "construire + COD (complément d'objet direct)"
@@ -12458,6 +17008,31 @@
       ],
       "participe_passe": [
         "couru"
+      ],
+      "subj": [
+        "que je courire",
+        "que tu courires",
+        "qu'il/elle courire",
+        "que nous couririons",
+        "que vous couririez",
+        "qu'ils/elles courirent"
+      ],
+      "cond": [
+        "je courirais",
+        "tu courirais",
+        "il/elle courirait",
+        "nous couririons",
+        "vous couririez",
+        "ils/elles couriraient"
+      ],
+      "impv": [
+        "courire",
+        "courirons",
+        "courirez"
+      ],
+      "part": [
+        "courirant",
+        "couriré"
       ]
     },
     "usage_hint": "courir + COD (complément d'objet direct)",
@@ -12527,6 +17102,31 @@
       ],
       "participe_passe": [
         "cru"
+      ],
+      "subj": [
+        "que je croiree",
+        "que tu croirees",
+        "qu'il/elle croiree",
+        "que nous croireions",
+        "que vous croireiez",
+        "qu'ils/elles croireent"
+      ],
+      "cond": [
+        "je croireais",
+        "tu croireais",
+        "il/elle croireait",
+        "nous croireions",
+        "vous croireiez",
+        "ils/elles croireaient"
+      ],
+      "impv": [
+        "croiree",
+        "croireons",
+        "croireez"
+      ],
+      "part": [
+        "croireant",
+        "croireé"
       ]
     },
     "usage_hint": "croire + COD (complément d'objet direct)"
@@ -12595,6 +17195,31 @@
       ],
       "participe_passe": [
         "défendu"
+      ],
+      "subj": [
+        "que je défendree",
+        "que tu défendrees",
+        "qu'il/elle défendree",
+        "que nous défendreions",
+        "que vous défendreiez",
+        "qu'ils/elles défendreent"
+      ],
+      "cond": [
+        "je défendreais",
+        "tu défendreais",
+        "il/elle défendreait",
+        "nous défendreions",
+        "vous défendreiez",
+        "ils/elles défendreaient"
+      ],
+      "impv": [
+        "défendree",
+        "défendreons",
+        "défendreez"
+      ],
+      "part": [
+        "défendreant",
+        "défendreé"
       ]
     },
     "usage_hint": "défendre + COD (complément d'objet direct)"
@@ -12663,6 +17288,31 @@
       ],
       "participe_passe": [
         "découvert"
+      ],
+      "subj": [
+        "que je découvrire",
+        "que tu découvrires",
+        "qu'il/elle découvrire",
+        "que nous découvririons",
+        "que vous découvririez",
+        "qu'ils/elles découvrirent"
+      ],
+      "cond": [
+        "je découvrirais",
+        "tu découvrirais",
+        "il/elle découvrirait",
+        "nous découvririons",
+        "vous découvririez",
+        "ils/elles découvriraient"
+      ],
+      "impv": [
+        "découvrire",
+        "découvrirons",
+        "découvrirez"
+      ],
+      "part": [
+        "découvrirant",
+        "découvriré"
       ]
     },
     "usage_hint": "découvrir + COD (complément d'objet direct)"
@@ -12731,6 +17381,31 @@
       ],
       "participe_passe": [
         "descendu"
+      ],
+      "subj": [
+        "que je descendree",
+        "que tu descendrees",
+        "qu'il/elle descendree",
+        "que nous descendreions",
+        "que vous descendreiez",
+        "qu'ils/elles descendreent"
+      ],
+      "cond": [
+        "je descendreais",
+        "tu descendreais",
+        "il/elle descendreait",
+        "nous descendreions",
+        "vous descendreiez",
+        "ils/elles descendreaient"
+      ],
+      "impv": [
+        "descendree",
+        "descendreons",
+        "descendreez"
+      ],
+      "part": [
+        "descendreant",
+        "descendreé"
       ]
     },
     "usage_hint": "descendre + COD (complément d'objet direct)"
@@ -12799,6 +17474,31 @@
       ],
       "participe_passe": [
         "dû"
+      ],
+      "subj": [
+        "que je devoire",
+        "que tu devoires",
+        "qu'il/elle devoire",
+        "que nous devoirions",
+        "que vous devoiriez",
+        "qu'ils/elles devoirent"
+      ],
+      "cond": [
+        "je devoirais",
+        "tu devoirais",
+        "il/elle devoirait",
+        "nous devoirions",
+        "vous devoiriez",
+        "ils/elles devoiraient"
+      ],
+      "impv": [
+        "devoire",
+        "devoirons",
+        "devoirez"
+      ],
+      "part": [
+        "devoirant",
+        "devoiré"
       ]
     },
     "usage_hint": "devoir + COD (complément d'objet direct)",
@@ -12868,6 +17568,31 @@
       ],
       "participe_passe": [
         "dormi"
+      ],
+      "subj": [
+        "que je dormire",
+        "que tu dormires",
+        "qu'il/elle dormire",
+        "que nous dormirions",
+        "que vous dormiriez",
+        "qu'ils/elles dormirent"
+      ],
+      "cond": [
+        "je dormirais",
+        "tu dormirais",
+        "il/elle dormirait",
+        "nous dormirions",
+        "vous dormiriez",
+        "ils/elles dormiraient"
+      ],
+      "impv": [
+        "dormire",
+        "dormirons",
+        "dormirez"
+      ],
+      "part": [
+        "dormirant",
+        "dormiré"
       ]
     },
     "usage_hint": "dormir + COD (complément d'objet direct)"
@@ -12936,6 +17661,31 @@
       ],
       "participe_passe": [
         "écrit"
+      ],
+      "subj": [
+        "que j'écriree",
+        "que tu écrirees",
+        "qu'il/elle écriree",
+        "que nous écrireions",
+        "que vous écrireiez",
+        "qu'ils/elles écrireent"
+      ],
+      "cond": [
+        "j'écrireais",
+        "tu écrireais",
+        "il/elle écrireait",
+        "nous écrireions",
+        "vous écrireiez",
+        "ils/elles écrireaient"
+      ],
+      "impv": [
+        "écriree",
+        "écrireons",
+        "écrireez"
+      ],
+      "part": [
+        "écrireant",
+        "écrireé"
       ]
     },
     "usage_hint": "écrire + COD (complément d'objet direct)"
@@ -13004,6 +17754,31 @@
       ],
       "participe_passe": [
         "entendu"
+      ],
+      "subj": [
+        "que j'entendree",
+        "que tu entendrees",
+        "qu'il/elle entendree",
+        "que nous entendreions",
+        "que vous entendreiez",
+        "qu'ils/elles entendreent"
+      ],
+      "cond": [
+        "j'entendreais",
+        "tu entendreais",
+        "il/elle entendreait",
+        "nous entendreions",
+        "vous entendreiez",
+        "ils/elles entendreaient"
+      ],
+      "impv": [
+        "entendree",
+        "entendreons",
+        "entendreez"
+      ],
+      "part": [
+        "entendreant",
+        "entendreé"
       ]
     },
     "usage_hint": "entendre + COD (complément d'objet direct)"
@@ -13072,6 +17847,31 @@
       ],
       "participe_passe": [
         "éteint"
+      ],
+      "subj": [
+        "que j'éteindree",
+        "que tu éteindrees",
+        "qu'il/elle éteindree",
+        "que nous éteindreions",
+        "que vous éteindreiez",
+        "qu'ils/elles éteindreent"
+      ],
+      "cond": [
+        "j'éteindreais",
+        "tu éteindreais",
+        "il/elle éteindreait",
+        "nous éteindreions",
+        "vous éteindreiez",
+        "ils/elles éteindreaient"
+      ],
+      "impv": [
+        "éteindree",
+        "éteindreons",
+        "éteindreez"
+      ],
+      "part": [
+        "éteindreant",
+        "éteindreé"
       ]
     },
     "usage_hint": "éteindre + COD (complément d'objet direct)"
@@ -13107,6 +17907,18 @@
         "—"
       ],
       "participe_passe": [
+        "fallu"
+      ],
+      "subj": [
+        "qu'il faille"
+      ],
+      "cond": [
+        "il faudrait"
+      ],
+      "impv": [
+        "—"
+      ],
+      "part": [
         "fallu"
       ]
     },
@@ -13177,6 +17989,31 @@
       ],
       "participe_passe": [
         "lu"
+      ],
+      "subj": [
+        "que je liree",
+        "que tu lirees",
+        "qu'il/elle liree",
+        "que nous lireions",
+        "que vous lireiez",
+        "qu'ils/elles lireent"
+      ],
+      "cond": [
+        "je lireais",
+        "tu lireais",
+        "il/elle lireait",
+        "nous lireions",
+        "vous lireiez",
+        "ils/elles lireaient"
+      ],
+      "impv": [
+        "liree",
+        "lireons",
+        "lireez"
+      ],
+      "part": [
+        "lireant",
+        "lireé"
       ]
     },
     "usage_hint": "lire + COD (complément d'objet direct)"
@@ -13245,6 +18082,31 @@
       ],
       "participe_passe": [
         "mis"
+      ],
+      "subj": [
+        "que je mettree",
+        "que tu mettrees",
+        "qu'il/elle mettree",
+        "que nous mettreions",
+        "que vous mettreiez",
+        "qu'ils/elles mettreent"
+      ],
+      "cond": [
+        "je mettreais",
+        "tu mettreais",
+        "il/elle mettreait",
+        "nous mettreions",
+        "vous mettreiez",
+        "ils/elles mettreaient"
+      ],
+      "impv": [
+        "mettree",
+        "mettreons",
+        "mettreez"
+      ],
+      "part": [
+        "mettreant",
+        "mettreé"
       ]
     },
     "usage_hint": "mettre + COD (complément d'objet direct)"
@@ -13313,6 +18175,31 @@
       ],
       "participe_passe": [
         "mort"
+      ],
+      "subj": [
+        "que je mourire",
+        "que tu mourires",
+        "qu'il/elle mourire",
+        "que nous mouririons",
+        "que vous mouririez",
+        "qu'ils/elles mourirent"
+      ],
+      "cond": [
+        "je mourirais",
+        "tu mourirais",
+        "il/elle mourirait",
+        "nous mouririons",
+        "vous mouririez",
+        "ils/elles mouriraient"
+      ],
+      "impv": [
+        "mourire",
+        "mourirons",
+        "mourirez"
+      ],
+      "part": [
+        "mourirant",
+        "mouriré"
       ]
     },
     "usage_hint": "mourir + COD (complément d'objet direct)",
@@ -13382,6 +18269,31 @@
       ],
       "participe_passe": [
         "né"
+      ],
+      "subj": [
+        "que je naîtree",
+        "que tu naîtrees",
+        "qu'il/elle naîtree",
+        "que nous naîtreions",
+        "que vous naîtreiez",
+        "qu'ils/elles naîtreent"
+      ],
+      "cond": [
+        "je naîtreais",
+        "tu naîtreais",
+        "il/elle naîtreait",
+        "nous naîtreions",
+        "vous naîtreiez",
+        "ils/elles naîtreaient"
+      ],
+      "impv": [
+        "naîtree",
+        "naîtreons",
+        "naîtreez"
+      ],
+      "part": [
+        "naîtreant",
+        "naîtreé"
       ]
     },
     "usage_hint": "naître + COD (complément d'objet direct)"
@@ -13450,6 +18362,31 @@
       ],
       "participe_passe": [
         "ouvert"
+      ],
+      "subj": [
+        "que j'ouvrire",
+        "que tu ouvrires",
+        "qu'il/elle ouvrire",
+        "que nous ouvririons",
+        "que vous ouvririez",
+        "qu'ils/elles ouvrirent"
+      ],
+      "cond": [
+        "j'ouvrirais",
+        "tu ouvrirais",
+        "il/elle ouvrirait",
+        "nous ouvririons",
+        "vous ouvririez",
+        "ils/elles ouvriraient"
+      ],
+      "impv": [
+        "ouvrire",
+        "ouvrirons",
+        "ouvrirez"
+      ],
+      "part": [
+        "ouvrirant",
+        "ouvriré"
       ]
     },
     "usage_hint": "ouvrir + COD (complément d'objet direct)"
@@ -13518,6 +18455,31 @@
       ],
       "participe_passe": [
         "parti"
+      ],
+      "subj": [
+        "que je partire",
+        "que tu partires",
+        "qu'il/elle partire",
+        "que nous partirions",
+        "que vous partiriez",
+        "qu'ils/elles partirent"
+      ],
+      "cond": [
+        "je partirais",
+        "tu partirais",
+        "il/elle partirait",
+        "nous partirions",
+        "vous partiriez",
+        "ils/elles partiraient"
+      ],
+      "impv": [
+        "partire",
+        "partirons",
+        "partirez"
+      ],
+      "part": [
+        "partirant",
+        "partiré"
       ]
     },
     "usage_hint": "partir + COD (complément d'objet direct)"
@@ -13586,6 +18548,31 @@
       ],
       "participe_passe": [
         "reçu"
+      ],
+      "subj": [
+        "que je recevoire",
+        "que tu recevoires",
+        "qu'il/elle recevoire",
+        "que nous recevoirions",
+        "que vous recevoiriez",
+        "qu'ils/elles recevoirent"
+      ],
+      "cond": [
+        "je recevoirais",
+        "tu recevoirais",
+        "il/elle recevoirait",
+        "nous recevoirions",
+        "vous recevoiriez",
+        "ils/elles recevoiraient"
+      ],
+      "impv": [
+        "recevoire",
+        "recevoirons",
+        "recevoirez"
+      ],
+      "part": [
+        "recevoirant",
+        "recevoiré"
       ]
     },
     "usage_hint": "recevoir + COD (complément d'objet direct)"
@@ -13654,6 +18641,31 @@
       ],
       "participe_passe": [
         "rendu"
+      ],
+      "subj": [
+        "que je rendree",
+        "que tu rendrees",
+        "qu'il/elle rendree",
+        "que nous rendreions",
+        "que vous rendreiez",
+        "qu'ils/elles rendreent"
+      ],
+      "cond": [
+        "je rendreais",
+        "tu rendreais",
+        "il/elle rendreait",
+        "nous rendreions",
+        "vous rendreiez",
+        "ils/elles rendreaient"
+      ],
+      "impv": [
+        "rendree",
+        "rendreons",
+        "rendreez"
+      ],
+      "part": [
+        "rendreant",
+        "rendreé"
       ]
     },
     "usage_hint": "rendre + COD (complément d'objet direct)"
@@ -13722,6 +18734,31 @@
       ],
       "participe_passe": [
         "répondu"
+      ],
+      "subj": [
+        "que je répondree",
+        "que tu répondrees",
+        "qu'il/elle répondree",
+        "que nous répondreions",
+        "que vous répondreiez",
+        "qu'ils/elles répondreent"
+      ],
+      "cond": [
+        "je répondreais",
+        "tu répondreais",
+        "il/elle répondreait",
+        "nous répondreions",
+        "vous répondreiez",
+        "ils/elles répondreaient"
+      ],
+      "impv": [
+        "répondree",
+        "répondreons",
+        "répondreez"
+      ],
+      "part": [
+        "répondreant",
+        "répondreé"
       ]
     },
     "usage_hint": "répondre + COD (complément d'objet direct)"
@@ -13790,6 +18827,31 @@
       ],
       "participe_passe": [
         "sorti"
+      ],
+      "subj": [
+        "que je sortire",
+        "que tu sortires",
+        "qu'il/elle sortire",
+        "que nous sortirions",
+        "que vous sortiriez",
+        "qu'ils/elles sortirent"
+      ],
+      "cond": [
+        "je sortirais",
+        "tu sortirais",
+        "il/elle sortirait",
+        "nous sortirions",
+        "vous sortiriez",
+        "ils/elles sortiraient"
+      ],
+      "impv": [
+        "sortire",
+        "sortirons",
+        "sortirez"
+      ],
+      "part": [
+        "sortirant",
+        "sortiré"
       ]
     },
     "usage_hint": "sortir + COD (complément d'objet direct)"
@@ -13858,6 +18920,31 @@
       ],
       "participe_passe": [
         "suivi"
+      ],
+      "subj": [
+        "que je suivree",
+        "que tu suivrees",
+        "qu'il/elle suivree",
+        "que nous suivreions",
+        "que vous suivreiez",
+        "qu'ils/elles suivreent"
+      ],
+      "cond": [
+        "je suivreais",
+        "tu suivreais",
+        "il/elle suivreait",
+        "nous suivreions",
+        "vous suivreiez",
+        "ils/elles suivreaient"
+      ],
+      "impv": [
+        "suivree",
+        "suivreons",
+        "suivreez"
+      ],
+      "part": [
+        "suivreant",
+        "suivreé"
       ]
     },
     "usage_hint": "suivre + COD (complément d'objet direct)"
@@ -13926,6 +19013,31 @@
       ],
       "participe_passe": [
         "tenu"
+      ],
+      "subj": [
+        "que je tenire",
+        "que tu tenires",
+        "qu'il/elle tenire",
+        "que nous tenirions",
+        "que vous teniriez",
+        "qu'ils/elles tenirent"
+      ],
+      "cond": [
+        "je tenirais",
+        "tu tenirais",
+        "il/elle tenirait",
+        "nous tenirions",
+        "vous teniriez",
+        "ils/elles teniraient"
+      ],
+      "impv": [
+        "tenire",
+        "tenirons",
+        "tenirez"
+      ],
+      "part": [
+        "tenirant",
+        "teniré"
       ]
     },
     "usage_hint": "tenir + COD (complément d'objet direct)",
@@ -13995,6 +19107,31 @@
       ],
       "participe_passe": [
         "vécu"
+      ],
+      "subj": [
+        "que je vivree",
+        "que tu vivrees",
+        "qu'il/elle vivree",
+        "que nous vivreions",
+        "que vous vivreiez",
+        "qu'ils/elles vivreent"
+      ],
+      "cond": [
+        "je vivreais",
+        "tu vivreais",
+        "il/elle vivreait",
+        "nous vivreions",
+        "vous vivreiez",
+        "ils/elles vivreaient"
+      ],
+      "impv": [
+        "vivree",
+        "vivreons",
+        "vivreez"
+      ],
+      "part": [
+        "vivreant",
+        "vivreé"
       ]
     },
     "usage_hint": "vivre + COD (complément d'objet direct)"
@@ -14061,6 +19198,31 @@
       ],
       "participe_passe": [
         "été"
+      ],
+      "subj": [
+        "que je sois",
+        "que tu sois",
+        "qu'il/elle soit",
+        "que nous soyons",
+        "que vous soyez",
+        "qu'ils/elles soient"
+      ],
+      "cond": [
+        "je serais",
+        "tu serais",
+        "il/elle serait",
+        "nous serions",
+        "vous seriez",
+        "ils/elles seraient"
+      ],
+      "impv": [
+        "sois",
+        "soyons",
+        "soyez"
+      ],
+      "part": [
+        "étant",
+        "été"
       ]
     },
     "usage_hint": "être + adjectif / être à (qqn)"
@@ -14126,6 +19288,31 @@
         "ayez !"
       ],
       "participe_passe": [
+        "eu"
+      ],
+      "subj": [
+        "que j'aie",
+        "que tu aies",
+        "qu'il/elle ait",
+        "que nous ayons",
+        "que vous ayez",
+        "qu'ils/elles aient"
+      ],
+      "cond": [
+        "j'aurais",
+        "tu aurais",
+        "il/elle aurait",
+        "nous aurions",
+        "vous auriez",
+        "ils/elles auraient"
+      ],
+      "impv": [
+        "aie",
+        "ayons",
+        "ayez"
+      ],
+      "part": [
+        "ayant",
         "eu"
       ]
     },
