@@ -128,11 +128,27 @@ class ItalianConjugationEngine {
         }
 
         const pronouns = ['io', 'tu', 'lui/lei', 'noi', 'voi', 'loro'];
+        const tenseAliases = {
+            pres: ['pres', 'presente'],
+            imp: ['imp', 'imperfetto', 'impf'],
+            pc: ['pc', 'pass_comp', 'passato_prossimo'],
+            fut: ['fut', 'futuro_semplice', 'futuro']
+        };
+
         for (let t of ['pres', 'imp', 'pc', 'fut']) {
             const list = document.getElementById(`tense-${t}`);
-            if (list && data.tenses[t]) {
-                list.innerHTML = data.tenses[t].map((f, i) => `
-                    <li><span class="pronoun">${pronouns[i]}</span> <span>${this.formatColorCoded(f)}</span></li>
+            let forms = null;
+            if (data.tenses) {
+                for (let alias of (tenseAliases[t] || [t])) {
+                    if (data.tenses[alias]) {
+                        forms = data.tenses[alias];
+                        break;
+                    }
+                }
+            }
+            if (list && forms) {
+                list.innerHTML = forms.map((f, i) => `
+                    <li><span class="pronoun">${pronouns[i] || ''}</span> <span>${this.formatColorCoded(f)}</span></li>
                 `).join('');
             }
         }

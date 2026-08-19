@@ -117,20 +117,24 @@ class GreekGenderCasesEngine {
         } else document.getElementById('antonyms-container').style.display = 'none';
 
         const caseMeta = [
-            { key: 'nom', name: 'Ονομαστική' },
-            { key: 'gen', name: 'Γενική' },
-            { key: 'acc', name: 'Αιτιατική' },
-            { key: 'voc', name: 'Κλητική' }
+            { sing: 'nom_sing', plur: 'nom_plur', legacy: 'nom', name: 'Ονομαστική' },
+            { sing: 'gen_sing', plur: 'gen_plur', legacy: 'gen', name: 'Γενική' },
+            { sing: 'acc_sing', plur: 'acc_plur', legacy: 'acc', name: 'Αιτιατική' },
+            { sing: 'voc_sing', plur: 'voc_plur', legacy: 'voc', name: 'Κλητική' }
         ];
 
         const tbody = document.getElementById('cases-table-body');
-        tbody.innerHTML = caseMeta.map(c => `
+        tbody.innerHTML = caseMeta.map(c => {
+            const singVal = (data.cases && (data.cases[c.sing] || (data.cases[c.legacy] ? data.cases[c.legacy][0] : ''))) || '';
+            const plurVal = (data.cases && (data.cases[c.plur] || (data.cases[c.legacy] ? data.cases[c.legacy][1] : ''))) || '';
+            return `
             <tr>
                 <td><strong>${c.name}</strong></td>
-                <td>${this.formatColorCoded(data.cases[c.key][0])}</td>
-                <td>${this.formatColorCoded(data.cases[c.key][1])}</td>
+                <td>${this.formatColorCoded(singVal)}</td>
+                <td>${this.formatColorCoded(plurVal)}</td>
             </tr>
-        `).join('');
+            `;
+        }).join('');
     }
 
     toggleGameMode() {

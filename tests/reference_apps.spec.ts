@@ -68,4 +68,19 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         await expect(page.locator('#sing-form')).toContainText('la');
         await expect(page.locator('#plur-form')).toContainText('case');
     });
+
+    test('el-genos-ptoseis displays 4 cases with color-coded endings and CEFR level', async ({ page }) => {
+        await page.goto('http://localhost:8080/apps/el-genos-ptoseis/index.html');
+        await page.waitForSelector('#noun-search-input');
+
+        await page.fill('#noun-search-input', 'άνθρωπος');
+        await page.keyboard.press('Enter');
+
+        await expect(page.locator('#noun-title')).toHaveText('άνθρωπος');
+        await expect(page.locator('#gender-badge')).toContainText('Αρσενικό');
+
+        // Table body rows check (4 cases: nom, gen, acc, voc)
+        const rows = await page.locator('#cases-table-body tr').count();
+        expect(rows).toBe(4);
+    });
 });
