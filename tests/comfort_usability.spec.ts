@@ -185,4 +185,25 @@ test.describe('COSYlanguages Comfort, Usability & Responsive Adaptation', () => 
             expect(cursor).toBe('pointer');
         }
     });
+
+    test('Zero horizontal scrollbar overflow across small viewports (320px, 360px, 390px)', async ({ page }) => {
+        const pagesToTest = [
+            'http://localhost:8080/index.html',
+            'http://localhost:8080/practice/index.html',
+            'http://localhost:8080/games/index.html',
+            'http://localhost:8080/events/index.html'
+        ];
+
+        for (const url of pagesToTest) {
+            for (const width of [320, 360, 390]) {
+                await page.setViewportSize({ width, height: 740 });
+                await page.goto(url);
+
+                const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+                const clientWidth = await page.evaluate(() => document.documentElement.clientWidth);
+
+                expect(scrollWidth).toBeLessThanOrEqual(clientWidth);
+            }
+        }
+    });
 });

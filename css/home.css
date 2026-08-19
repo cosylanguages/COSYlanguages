@@ -89,6 +89,7 @@
   .calc-card { padding: 2rem 1.5rem; }
   .calc-result { padding: 1.5rem; justify-content: center; text-align: center; }
   .cr-price { font-size: 2.6rem; }
+  .events-row { flex-direction: column; text-align: center; padding: 1.5rem; gap: 1rem; }
 }
 
 /* Hide Pin to Home button on desktop */
