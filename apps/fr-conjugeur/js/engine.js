@@ -155,6 +155,9 @@ class ConjugationEngine {
 
     generateRegularErVerb(infinitive) {
         const stem = infinitive.slice(0, -2);
+        const startVowel = /^[aeiouyéèêàh]/i.test(infinitive);
+        const jeForm = startVowel ? `j'${stem}e` : `je ${stem}e`;
+        const impfJe = startVowel ? `j'${stem}ais` : `je ${stem}ais`;
         return {
             group: "1er groupe (-er)",
             auxiliary: "avoir",
@@ -162,14 +165,14 @@ class ConjugationEngine {
             usage_hint: `${infinitive} + COD (complément d'objet direct)`,
             antonyms: [],
             tenses: {
-                pres: [`je ${stem}e`, `tu ${stem}es`, `il/elle ${stem}e`, `nous ${stem}ons`, `vous ${stem}ez`, `ils/elles ${stem}ent`],
-                imp: [`je ${stem}ais`, `tu ${stem}ais`, `il/elle ${stem}ait`, `nous ${stem}ions`, `vous ${stem}iez`, `ils/elles ${stem}aient`],
+                indicatif_present: [jeForm, `tu ${stem}es`, `il/elle ${stem}e`, `nous ${stem}ons`, `vous ${stem}ez`, `ils/elles ${stem}ent`],
+                indicatif_imparfait: [impfJe, `tu ${stem}ais`, `il/elle ${stem}ait`, `nous ${stem}ions`, `vous ${stem}iez`, `ils/elles ${stem}aient`],
                 pc: [`j'ai ${stem}é`, `tu as ${stem}é`, `il/elle a ${stem}é`, `nous avons ${stem}é`, `vous avez ${stem}é`, `ils/elles ont ${stem}é`],
-                fut: [`je ${infinitive}ai`, `tu ${infinitive}as`, `il/elle ${infinitive}a`, `nous ${infinitive}ons`, `vous ${infinitive}ez`, `ils/elles ${infinitive}ont`],
-                subj: [`que je ${stem}e`, `que tu ${stem}es`, `qu'il/elle ${stem}e`, `que nous ${stem}ions`, `que vous ${stem}iez`, `qu'ils/elles ${stem}ent`],
-                cond: [`je ${infinitive}ais`, `tu ${infinitive}ais`, `il/elle ${infinitive}ait`, `nous ${infinitive}ions`, `vous ${infinitive}iez`, `ils/elles ${infinitive}aient`],
-                impv: [`${stem}e`, `${stem}ons`, `${stem}ez`],
-                part: [`${stem}ant`, `${stem}é`]
+                indicatif_futur_simple: [`je ${infinitive}ai`, `tu ${infinitive}as`, `il/elle ${infinitive}a`, `nous ${infinitive}ons`, `vous ${infinitive}ez`, `ils/elles ${infinitive}ont`],
+                subjonctif_present: [`que je ${stem}e`, `que tu ${stem}es`, `qu'il/elle ${stem}e`, `que nous ${stem}ions`, `que vous ${stem}iez`, `qu'ils/elles ${stem}ent`],
+                conditionnel_present: [`je ${infinitive}ais`, `tu ${infinitive}ais`, `il/elle ${infinitive}ait`, `nous ${infinitive}ions`, `vous ${infinitive}iez`, `ils/elles ${infinitive}aient`],
+                imperatif: [`${stem}e !`, `${stem}ons !`, `${stem}ez !`],
+                participe_passe: [`${stem}é`]
             }
         };
     }
@@ -325,33 +328,55 @@ class ConjugationEngine {
         const verbs = Object.keys(this.verbDb);
         if (verbs.length === 0) return;
 
-        const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
-        const verbData = this.verbDb[randomVerb];
-
-        const tenseKeys = ['pres', 'imp', 'fut', 'cond'];
-        const tenseNameMap = { pres: 'Présent', imp: 'Imparfait', fut: 'Futur simple', cond: 'Conditionnel' };
+        let randomVerb, verbData, targetForm, randomTense, randomIdx;
+        const tenseKeysMap = {
+            indicatif_present: 'Présent',
+            indicatif_imparfait: 'Imparfait',
+            indicatif_futur_simple: 'Futur simple',
+            conditionnel_present: 'Conditionnel'
+        };
         const pronouns = ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles'];
+        const possibleTenses = Object.keys(tenseKeysMap);
 
-        const randomTense = tenseKeys[Math.floor(Math.random() * tenseKeys.length)];
-        const randomIdx = Math.floor(Math.random() * 6);
+        let attempts = 0;
+        while (attempts < 20) {
+            randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
+            verbData = this.verbDb[randomVerb];
+            randomTense = possibleTenses[Math.floor(Math.random() * possibleTenses.length)];
+            randomIdx = Math.floor(Math.random() * 6);
+
+            const tenseForms = verbData?.tenses?.[randomTense] || verbData?.tenses?.[randomTense.replace('indicatif_', '').replace('_present', '').replace('_simple', '')];
+            if (tenseForms && tenseForms[randomIdx] && tenseForms[randomIdx] !== '—') {
+                targetForm = tenseForms[randomIdx];
+                break;
+            }
+            attempts++;
+        }
+
+        if (!targetForm || targetForm === '—') {
+            targetForm = 'parle';
+            randomVerb = 'parler';
+            randomTense = 'indicatif_present';
+            randomIdx = 0;
+        }
+
         const pronoun = pronouns[randomIdx];
+        const tenseName = tenseKeysMap[randomTense] || 'Présent';
 
-        const targetForm = verbData.tenses[randomTense][randomIdx];
-
-        // Clean full form to extract just the verb
+        // Clean full form to extract just the conjugated verb
         const cleanExpected = targetForm
             .replace(/^(je|j'|tu|il\/elle|nous|vous|ils\/elles)\s+/i, '')
             .trim();
 
         this.currentQuestion = {
             verb: randomVerb,
-            tense: tenseNameMap[randomTense],
+            tense: tenseName,
             pronoun: pronoun,
             expected: cleanExpected
         };
 
         document.getElementById('game-verb-prompt').textContent = randomVerb;
-        document.getElementById('game-tense-badge').textContent = tenseNameMap[randomTense];
+        document.getElementById('game-tense-badge').textContent = tenseName;
         document.getElementById('game-pronoun-prompt').textContent = pronoun;
 
         const answerInput = document.getElementById('game-answer-input');
