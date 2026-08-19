@@ -87,6 +87,16 @@ class GreekGenderCasesEngine {
         const artDisplay = (data.article || (data.gender === 'Αρσενικό' ? 'ο' : (data.gender === 'Θηλυκό' ? 'η' : 'το'))).toUpperCase();
         badge.textContent = `${data.gender} (${artDisplay})`;
         badge.className = `badge ${data.gender === 'Αρσενικό' ? 'gender-masc' : (data.gender === 'Θηλυκό' ? 'gender-fem' : 'gender-neut')}`;
+
+        let levelBadge = document.getElementById('noun-cefr-badge');
+        if (!levelBadge) {
+            levelBadge = document.createElement('span');
+            levelBadge.id = 'noun-cefr-badge';
+            levelBadge.className = 'badge cefr-badge';
+            if (badge) badge.insertAdjacentElement('afterend', levelBadge);
+        }
+        if (levelBadge) levelBadge.textContent = `Επίπεδο : ${data.level || 'A1'}`;
+
         document.getElementById('noun-definition').textContent = data.definition;
 
         const ruleBox = document.getElementById('grammar-rule-container');
@@ -107,20 +117,24 @@ class GreekGenderCasesEngine {
         } else document.getElementById('antonyms-container').style.display = 'none';
 
         const caseMeta = [
-            { key: 'nom', name: 'Ονομαστική' },
-            { key: 'gen', name: 'Γενική' },
-            { key: 'acc', name: 'Αιτιατική' },
-            { key: 'voc', name: 'Κλητική' }
+            { sing: 'nom_sing', plur: 'nom_plur', legacy: 'nom', name: 'Ονομαστική' },
+            { sing: 'gen_sing', plur: 'gen_plur', legacy: 'gen', name: 'Γενική' },
+            { sing: 'acc_sing', plur: 'acc_plur', legacy: 'acc', name: 'Αιτιατική' },
+            { sing: 'voc_sing', plur: 'voc_plur', legacy: 'voc', name: 'Κλητική' }
         ];
 
         const tbody = document.getElementById('cases-table-body');
-        tbody.innerHTML = caseMeta.map(c => `
+        tbody.innerHTML = caseMeta.map(c => {
+            const singVal = (data.cases && (data.cases[c.sing] || (data.cases[c.legacy] ? data.cases[c.legacy][0] : ''))) || '';
+            const plurVal = (data.cases && (data.cases[c.plur] || (data.cases[c.legacy] ? data.cases[c.legacy][1] : ''))) || '';
+            return `
             <tr>
                 <td><strong>${c.name}</strong></td>
-                <td>${this.formatColorCoded(data.cases[c.key][0])}</td>
-                <td>${this.formatColorCoded(data.cases[c.key][1])}</td>
+                <td>${this.formatColorCoded(singVal)}</td>
+                <td>${this.formatColorCoded(plurVal)}</td>
             </tr>
-        `).join('');
+            `;
+        }).join('');
     }
 
     toggleGameMode() {

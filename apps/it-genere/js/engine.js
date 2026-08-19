@@ -64,6 +64,16 @@ class ItalianGenderEngine {
         const badge = document.getElementById('gender-badge');
         badge.textContent = data.gender === 'Maschile' ? '♂️ Maschile (Il / Un)' : '♀️ Femminile (La / Una)';
         badge.className = `badge ${data.gender === 'Maschile' ? 'gender-masc' : 'gender-fem'}`;
+
+        let levelBadge = document.getElementById('noun-cefr-badge');
+        if (!levelBadge) {
+            levelBadge = document.createElement('span');
+            levelBadge.id = 'noun-cefr-badge';
+            levelBadge.className = 'badge cefr-badge';
+            if (badge) badge.insertAdjacentElement('afterend', levelBadge);
+        }
+        if (levelBadge) levelBadge.textContent = `Livello : ${data.level || 'A1'}`;
+
         document.getElementById('noun-definition').textContent = data.definition;
 
         const ruleBox = document.getElementById('grammar-rule-container');

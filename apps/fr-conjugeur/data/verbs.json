@@ -185,7 +185,7 @@
         "aimé"
       ]
     },
-    "usage_hint": "+ COD (direct object)"
+    "usage_hint": "+ COD (aimer qqn/qqch)"
   },
   "marcher": {
     "group": "1er groupe",
@@ -1302,7 +1302,7 @@
         "fermé"
       ]
     },
-    "usage_hint": "fermer + COD"
+    "usage_hint": "+ COD (fermer la porte)"
   },
   "jouer": {
     "group": "1er groupe",
@@ -2233,7 +2233,7 @@
         "monté"
       ]
     },
-    "usage_hint": "monter dans / sur / à"
+    "usage_hint": "monter dans (train) / sur (montagne) / à"
   },
   "tomber": {
     "group": "1er groupe",
@@ -2326,7 +2326,7 @@
         "tombé"
       ]
     },
-    "usage_hint": "tomber de / sur / dans"
+    "usage_hint": "tomber de (chaise) / sur (qqn) / dans"
   },
   "rester": {
     "group": "1er groupe",
@@ -2419,7 +2419,7 @@
         "resté"
       ]
     },
-    "usage_hint": "rester à / chez / avec"
+    "usage_hint": "rester + adjectif / à (lieu)"
   },
   "arriver": {
     "group": "1er groupe",
@@ -2512,7 +2512,7 @@
         "arrivé"
       ]
     },
-    "usage_hint": "arriver à / en / chez"
+    "usage_hint": "arriver à (ville) / en (pays) / chez (qqn)"
   },
   "entrer": {
     "group": "1er groupe",
@@ -2605,7 +2605,7 @@
         "entré"
       ]
     },
-    "usage_hint": "entrer dans / en"
+    "usage_hint": "entrer dans (lieu) / en (classe)"
   },
   "montrer": {
     "group": "1er groupe",
@@ -3444,7 +3444,7 @@
         "arrêté"
       ]
     },
-    "usage_hint": "arrêter + COD / d'arrêter de (faire qqch)"
+    "usage_hint": "arrêter + COD / d'arrêter de (faire)"
   },
   "expliquer": {
     "group": "1er groupe",
@@ -4096,7 +4096,7 @@
         "touché"
       ]
     },
-    "usage_hint": "toucher à (qqch) / + COD"
+    "usage_hint": "toucher à (qqch) / + COD (toucher le bois)"
   },
   "quitter": {
     "group": "1er groupe",
@@ -4282,7 +4282,7 @@
         "brillé"
       ]
     },
-    "usage_hint": "briller par / dans"
+    "usage_hint": "briller dans / par"
   },
   "soigner": {
     "group": "1er groupe",
@@ -4375,7 +4375,7 @@
         "soigné"
       ]
     },
-    "usage_hint": "+ COD (soigner qqn/qqch)"
+    "usage_hint": "+ COD (soigner un patient)"
   },
   "sauver": {
     "group": "1er groupe",
@@ -4561,7 +4561,7 @@
         "invité"
       ]
     },
-    "usage_hint": "inviter (qqn) à (un événement / faire qqch)"
+    "usage_hint": "inviter (qqn) à (dîner)"
   },
   "partager": {
     "group": "1er groupe",
@@ -4840,7 +4840,7 @@
         "tiré"
       ]
     },
-    "usage_hint": "tirer sur / vers"
+    "usage_hint": "tirer sur (une cible) / vers"
   },
   "laisser": {
     "group": "1er groupe",
@@ -5026,7 +5026,7 @@
         "payé"
       ]
     },
-    "usage_hint": "payer (qqch) à (qqn)",
+    "usage_hint": "payer (qqch) à (qqn) / pour",
     "grammar_rule": "💡 REMEMBER: Le 'y' peut se changer en 'i' devant un 'e' muet ('je paie' / 'je paye')."
   },
   "appeler": {
@@ -5214,7 +5214,7 @@
         "imaginé"
       ]
     },
-    "usage_hint": "imaginer + COD"
+    "usage_hint": "imaginer + COD (imaginer une scène)"
   },
   "créer": {
     "group": "1er groupe",
@@ -5307,7 +5307,7 @@
         "créé"
       ]
     },
-    "usage_hint": "créer + COD"
+    "usage_hint": "+ COD (créer un projet)"
   },
   "exprimer": {
     "group": "1er groupe",
@@ -5493,7 +5493,7 @@
         "remarqué"
       ]
     },
-    "usage_hint": "+ COD (remarquer qqn/qqch)"
+    "usage_hint": "+ COD (remarquer un détail)"
   },
   "écraser": {
     "group": "1er groupe",
@@ -5679,7 +5679,7 @@
         "volé"
       ]
     },
-    "usage_hint": "voler vers / au-dessus de / voler (qqch) à (qqn)"
+    "usage_hint": "voler vers / au-dessus de / + COD (voler un objet à qqn)"
   },
   "nager": {
     "group": "1er groupe",
@@ -5772,7 +5772,7 @@
         "nagé"
       ]
     },
-    "usage_hint": "nager dans / avec",
+    "usage_hint": "nager dans (mer/piscine) / avec",
     "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous nageons')."
   },
   "sauter": {
@@ -6052,7 +6052,7 @@
         "admiré"
       ]
     },
-    "usage_hint": "admirer + COD"
+    "usage_hint": "admirer + COD (admirer qqn)"
   },
   "souhaiter": {
     "group": "1er groupe",
@@ -6332,7 +6332,7 @@
         "étonné"
       ]
     },
-    "usage_hint": "étonner + COD"
+    "usage_hint": "étonner + COD (étonner qqn)"
   },
   "ressembler": {
     "group": "1er groupe",
@@ -6518,7 +6518,7 @@
         "nettoyé"
       ]
     },
-    "usage_hint": "nettoyer + COD"
+    "usage_hint": "+ COD (nettoyer la maison)"
   },
   "emprunter": {
     "group": "1er groupe",
@@ -6797,7 +6797,7 @@
         "corrigé"
       ]
     },
-    "usage_hint": "corriger + COD"
+    "usage_hint": "+ COD (corriger une faute)"
   },
   "protéger": {
     "group": "1er groupe",
@@ -6890,7 +6890,7 @@
         "protégé"
       ]
     },
-    "usage_hint": "protéger (qqn) contre / de"
+    "usage_hint": "protéger (qqn) contre / de (danger)"
   },
   "remplir": {
     "group": "2e groupe",
@@ -7169,7 +7169,7 @@
         "finiré"
       ]
     },
-    "usage_hint": "finir par (faire qqch) / de (faire qqch)"
+    "usage_hint": "finir par (faire) / de (faire) / + COD"
   },
   "réussir": {
     "group": "2e groupe",
@@ -7356,7 +7356,7 @@
         "grandiré"
       ]
     },
-    "usage_hint": "grandir en / de"
+    "usage_hint": "grandir en / dans"
   },
   "réfléchir": {
     "group": "2e groupe",
@@ -7728,7 +7728,7 @@
         "nourriré"
       ]
     },
-    "usage_hint": "nourrir + COD / se nourrir de"
+    "usage_hint": "+ COD / se nourrir de"
   },
   "vieillir": {
     "group": "2e groupe",
@@ -7821,7 +7821,7 @@
         "vieilliré"
       ]
     },
-    "usage_hint": "vieillir de (plusieurs années)"
+    "usage_hint": "vieillir de (quelques années)"
   },
   "guérir": {
     "group": "2e groupe",
@@ -8007,7 +8007,7 @@
         "allé"
       ]
     },
-    "usage_hint": "aller à (ville/lieu) / en / chez"
+    "usage_hint": "aller à (ville/lieu) / en / chez (qqn)"
   },
   "faire": {
     "group": "3e groupe",
@@ -8193,7 +8193,7 @@
         "direé"
       ]
     },
-    "usage_hint": "dire (qqch) à (qqn)"
+    "usage_hint": "dire (qqch) à (qqn) / de (faire qqch)"
   },
   "voir": {
     "group": "3e groupe",
@@ -8286,7 +8286,7 @@
         "voiré"
       ]
     },
-    "usage_hint": "voir + COD",
+    "usage_hint": "+ COD (voir qqn/qqch)",
     "grammar_rule": "💡 REMEMBER: Futur et conditionnel à double 'r': 'je verrai'. Subjonctif: 'que je voie', 'que nous voyions'."
   },
   "pouvoir": {
@@ -8380,7 +8380,7 @@
         "pouvoiré"
       ]
     },
-    "usage_hint": "+ infinitif direct",
+    "usage_hint": "+ infinitif direct (pouvoir faire)",
     "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je peux aider'). Auxiliaire avoir."
   },
   "vouloir": {
@@ -8474,7 +8474,7 @@
         "vouloiré"
       ]
     },
-    "usage_hint": "vouloir + COD / + infinitif",
+    "usage_hint": "+ COD / + infinitif direct",
     "grammar_rule": "💡 REMEMBER: Exige TOUJOURS le Subjonctif dans les propositions subordonnées quand les sujets sont différents ('je veux que tu viennes')."
   },
   "prendre": {
@@ -8661,7 +8661,7 @@
         "veniré"
       ]
     },
-    "usage_hint": "venir de (origine/lieu) / avec",
+    "usage_hint": "venir de (origine/lieu) / avec (qqn)",
     "grammar_rule": "💡 REMEMBER: Auxiliaire être au passé composé ('il est venu'). Subjonctif: 'que je vienne', 'que nous venions'."
   },
   "vendre": {
@@ -8848,7 +8848,7 @@
         "détruireé"
       ]
     },
-    "usage_hint": "détruire + COD"
+    "usage_hint": "+ COD (détruire un bâtiment)"
   },
   "prévoir": {
     "group": "3e groupe",
@@ -8941,7 +8941,7 @@
         "prévoiré"
       ]
     },
-    "usage_hint": "prévoir + COD"
+    "usage_hint": "prévoir + COD (prévoir un événement)"
   },
   "prévenir": {
     "group": "3e groupe",
@@ -9127,7 +9127,7 @@
         "accordé"
       ]
     },
-    "usage_hint": "accorder + COD (complément d'objet direct)"
+    "usage_hint": "accorder (qqch) à (qqn)"
   },
   "accuser": {
     "group": "1er groupe",
@@ -9220,7 +9220,7 @@
         "accusé"
       ]
     },
-    "usage_hint": "accuser + COD (complément d'objet direct)"
+    "usage_hint": "accuser (qqn) de (qqch)"
   },
   "acheter": {
     "group": "1er groupe",
@@ -9313,7 +9313,7 @@
         "acheté"
       ]
     },
-    "usage_hint": "acheter + COD (complément d'objet direct)",
+    "usage_hint": "acheter (qqch) à / pour (qqn)",
     "grammar_rule": "💡 REMEMBER: Change le 'e' muet en 'è' devant une syllabe muette ('j'achète', 'nous achetons')."
   },
   "adorer": {
@@ -9407,7 +9407,7 @@
         "adoré"
       ]
     },
-    "usage_hint": "adorer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (adorer qqn/qqch)"
   },
   "affirmer": {
     "group": "1er groupe",
@@ -9500,7 +9500,7 @@
         "affirmé"
       ]
     },
-    "usage_hint": "affirmer + COD (complément d'objet direct)"
+    "usage_hint": "affirmer + COD / que..."
   },
   "ajouter": {
     "group": "1er groupe",
@@ -9593,7 +9593,7 @@
         "ajouté"
       ]
     },
-    "usage_hint": "ajouter + COD (complément d'objet direct)"
+    "usage_hint": "ajouter (qqch) à (qqch d'autre)"
   },
   "allumer": {
     "group": "1er groupe",
@@ -9686,7 +9686,7 @@
         "allumé"
       ]
     },
-    "usage_hint": "allumer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (allumer la lumière)"
   },
   "apporter": {
     "group": "1er groupe",
@@ -9779,7 +9779,7 @@
         "apporté"
       ]
     },
-    "usage_hint": "apporter + COD (complément d'objet direct)"
+    "usage_hint": "apporter (qqch) à (qqn)"
   },
   "approuver": {
     "group": "1er groupe",
@@ -9872,7 +9872,7 @@
         "approuvé"
       ]
     },
-    "usage_hint": "approuver + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (approuver qqch)"
   },
   "avancer": {
     "group": "1er groupe",
@@ -9965,7 +9965,7 @@
         "avancé"
       ]
     },
-    "usage_hint": "avancer + COD (complément d'objet direct)"
+    "usage_hint": "avancer vers / de (quelques mètres)"
   },
   "blesser": {
     "group": "1er groupe",
@@ -10058,7 +10058,7 @@
         "blessé"
       ]
     },
-    "usage_hint": "blesser + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (blesser qqn)"
   },
   "calmer": {
     "group": "1er groupe",
@@ -10151,7 +10151,7 @@
         "calmé"
       ]
     },
-    "usage_hint": "calmer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (calmer un enfant)"
   },
   "changer": {
     "group": "1er groupe",
@@ -10244,7 +10244,7 @@
         "changé"
       ]
     },
-    "usage_hint": "changer + COD (complément d'objet direct)"
+    "usage_hint": "changer de (train/avis) / + COD"
   },
   "charger": {
     "group": "1er groupe",
@@ -10337,7 +10337,7 @@
         "chargé"
       ]
     },
-    "usage_hint": "charger + COD (complément d'objet direct)"
+    "usage_hint": "charger (qqn) de (faire qqch)"
   },
   "chauffer": {
     "group": "1er groupe",
@@ -10430,7 +10430,7 @@
         "chauffé"
       ]
     },
-    "usage_hint": "chauffer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (chauffer l'eau)"
   },
   "commander": {
     "group": "1er groupe",
@@ -10523,7 +10523,7 @@
         "commandé"
       ]
     },
-    "usage_hint": "commander + COD (complément d'objet direct)"
+    "usage_hint": "commander (qqch) à (qqn)"
   },
   "comparer": {
     "group": "1er groupe",
@@ -10616,7 +10616,7 @@
         "comparé"
       ]
     },
-    "usage_hint": "comparer + COD (complément d'objet direct)"
+    "usage_hint": "comparer (qqch) à / avec (qqch d'autre)"
   },
   "confirmer": {
     "group": "1er groupe",
@@ -10709,7 +10709,7 @@
         "confirmé"
       ]
     },
-    "usage_hint": "confirmer + COD (complément d'objet direct)"
+    "usage_hint": "confirmer (qqch) à (qqn)"
   },
   "considérer": {
     "group": "1er groupe",
@@ -10802,7 +10802,7 @@
         "considéré"
       ]
     },
-    "usage_hint": "considérer + COD (complément d'objet direct)"
+    "usage_hint": "considérer + COD comme (adjectif/nom)"
   },
   "couper": {
     "group": "1er groupe",
@@ -10895,7 +10895,7 @@
         "coupé"
       ]
     },
-    "usage_hint": "couper + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (couper le pain)"
   },
   "coûter": {
     "group": "1er groupe",
@@ -10988,7 +10988,7 @@
         "coûté"
       ]
     },
-    "usage_hint": "coûter + COD (complément d'objet direct)"
+    "usage_hint": "coûter (une somme) à (qqn)"
   },
   "déclarer": {
     "group": "1er groupe",
@@ -11081,7 +11081,7 @@
         "déclaré"
       ]
     },
-    "usage_hint": "déclarer + COD (complément d'objet direct)"
+    "usage_hint": "déclarer (qqch) à (qqn)"
   },
   "déjeuner": {
     "group": "1er groupe",
@@ -11174,7 +11174,7 @@
         "déjeuné"
       ]
     },
-    "usage_hint": "déjeuner + COD (complément d'objet direct)"
+    "usage_hint": "déjeuner de / avec"
   },
   "dîner": {
     "group": "1er groupe",
@@ -11267,7 +11267,7 @@
         "dîné"
       ]
     },
-    "usage_hint": "dîner + COD (complément d'objet direct)"
+    "usage_hint": "dîner chez / avec"
   },
   "discuter": {
     "group": "1er groupe",
@@ -11360,7 +11360,7 @@
         "discuté"
       ]
     },
-    "usage_hint": "discuter + COD (complément d'objet direct)"
+    "usage_hint": "discuter de (qqch) avec (qqn)"
   },
   "douter": {
     "group": "1er groupe",
@@ -11453,7 +11453,7 @@
         "douté"
       ]
     },
-    "usage_hint": "douter + COD (complément d'objet direct)"
+    "usage_hint": "douter de (qqch/qqn)"
   },
   "éclairer": {
     "group": "1er groupe",
@@ -11546,7 +11546,7 @@
         "éclairé"
       ]
     },
-    "usage_hint": "éclairer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (éclairer une pièce)"
   },
   "embrasser": {
     "group": "1er groupe",
@@ -11639,7 +11639,7 @@
         "embrassé"
       ]
     },
-    "usage_hint": "embrasser + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (embrasser qqn)"
   },
   "emmener": {
     "group": "1er groupe",
@@ -11732,7 +11732,7 @@
         "emmené"
       ]
     },
-    "usage_hint": "emmener + COD (complément d'objet direct)"
+    "usage_hint": "emmener (qqn) à / dans (un lieu)"
   },
   "enseigner": {
     "group": "1er groupe",
@@ -11825,7 +11825,7 @@
         "enseigné"
       ]
     },
-    "usage_hint": "enseigner + COD (complément d'objet direct)"
+    "usage_hint": "enseigner (qqch) à (qqn)"
   },
   "envoyer": {
     "group": "1er groupe",
@@ -11918,7 +11918,7 @@
         "envoyé"
       ]
     },
-    "usage_hint": "envoyer + COD (complément d'objet direct)",
+    "usage_hint": "envoyer (qqch) à (qqn)",
     "grammar_rule": "💡 REMEMBER: Futur et Conditionnel très irréguliers: 'j'enverrai', 'j'enverrais' (tronc en 'enverr-')."
   },
   "éviter": {
@@ -12012,7 +12012,7 @@
         "évité"
       ]
     },
-    "usage_hint": "éviter + COD (complément d'objet direct)"
+    "usage_hint": "éviter + COD / de (faire qqch)"
   },
   "frapper": {
     "group": "1er groupe",
@@ -12105,7 +12105,7 @@
         "frappé"
       ]
     },
-    "usage_hint": "frapper + COD (complément d'objet direct)"
+    "usage_hint": "frapper à (la porte) / + COD"
   },
   "fumer": {
     "group": "1er groupe",
@@ -12198,7 +12198,7 @@
         "fumé"
       ]
     },
-    "usage_hint": "fumer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (fumer une cigarette)"
   },
   "garder": {
     "group": "1er groupe",
@@ -12291,7 +12291,7 @@
         "gardé"
       ]
     },
-    "usage_hint": "garder + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (garder un secret)"
   },
   "glisser": {
     "group": "1er groupe",
@@ -12384,7 +12384,7 @@
         "glissé"
       ]
     },
-    "usage_hint": "glisser + COD (complément d'objet direct)"
+    "usage_hint": "glisser sur (le verglas)"
   },
   "hésiter": {
     "group": "1er groupe",
@@ -12477,7 +12477,7 @@
         "hésité"
       ]
     },
-    "usage_hint": "hésiter + COD (complément d'objet direct)"
+    "usage_hint": "hésiter à (faire qqch)"
   },
   "ignorer": {
     "group": "1er groupe",
@@ -12570,7 +12570,7 @@
         "ignoré"
       ]
     },
-    "usage_hint": "ignorer + COD (complément d'objet direct)"
+    "usage_hint": "ignorer + COD (ignorer qqn/qqch)"
   },
   "importer": {
     "group": "1er groupe",
@@ -12663,7 +12663,7 @@
         "importé"
       ]
     },
-    "usage_hint": "importer + COD (complément d'objet direct)"
+    "usage_hint": "importer de (pays) / peu importe"
   },
   "indiquer": {
     "group": "1er groupe",
@@ -12756,7 +12756,7 @@
         "indiqué"
       ]
     },
-    "usage_hint": "indiquer + COD (complément d'objet direct)"
+    "usage_hint": "indiquer (qqch) à (qqn)"
   },
   "inquiéter": {
     "group": "1er groupe",
@@ -12849,7 +12849,7 @@
         "inquiété"
       ]
     },
-    "usage_hint": "inquiéter + COD (complément d'objet direct)"
+    "usage_hint": "inquiéter + COD"
   },
   "insister": {
     "group": "1er groupe",
@@ -12942,7 +12942,7 @@
         "insisté"
       ]
     },
-    "usage_hint": "insister + COD (complément d'objet direct)"
+    "usage_hint": "insister sur (qqch) / pour (faire)"
   },
   "installer": {
     "group": "1er groupe",
@@ -13035,7 +13035,7 @@
         "installé"
       ]
     },
-    "usage_hint": "installer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD dans / sur"
   },
   "jeter": {
     "group": "1er groupe",
@@ -13128,7 +13128,7 @@
         "jeté"
       ]
     },
-    "usage_hint": "jeter + COD (complément d'objet direct)",
+    "usage_hint": "jeter (qqch) à / dans",
     "grammar_rule": "💡 REMEMBER: Double le 't' devant un 'e' muet ('je jette', 'nous jetons')."
   },
   "juger": {
@@ -13222,7 +13222,7 @@
         "jugé"
       ]
     },
-    "usage_hint": "juger + COD (complément d'objet direct)"
+    "usage_hint": "juger (qqn/qqch) sur"
   },
   "lever": {
     "group": "1er groupe",
@@ -13315,7 +13315,7 @@
         "levé"
       ]
     },
-    "usage_hint": "lever + COD (complément d'objet direct)"
+    "usage_hint": "lever + COD / se lever à (heure)"
   },
   "limiter": {
     "group": "1er groupe",
@@ -13408,7 +13408,7 @@
         "limité"
       ]
     },
-    "usage_hint": "limiter + COD (complément d'objet direct)"
+    "usage_hint": "limiter + COD à (un niveau)"
   },
   "louer": {
     "group": "1er groupe",
@@ -13501,7 +13501,7 @@
         "loué"
       ]
     },
-    "usage_hint": "louer + COD (complément d'objet direct)"
+    "usage_hint": "louer (qqch) à (qqn)"
   },
   "manquer": {
     "group": "1er groupe",
@@ -13594,7 +13594,7 @@
         "manqué"
       ]
     },
-    "usage_hint": "manquer + COD (complément d'objet direct)"
+    "usage_hint": "manquer à (qqn: tu me manques) / manquer de (qqch)"
   },
   "mener": {
     "group": "1er groupe",
@@ -13687,7 +13687,7 @@
         "mené"
       ]
     },
-    "usage_hint": "mener + COD (complément d'objet direct)"
+    "usage_hint": "mener (qqn) à (un endroit)"
   },
   "mesurer": {
     "group": "1er groupe",
@@ -13780,7 +13780,7 @@
         "mesuré"
       ]
     },
-    "usage_hint": "mesurer + COD (complément d'objet direct)"
+    "usage_hint": "mesurer + COD (mesurer une longueur)"
   },
   "nommer": {
     "group": "1er groupe",
@@ -13873,7 +13873,7 @@
         "nommé"
       ]
     },
-    "usage_hint": "nommer + COD (complément d'objet direct)"
+    "usage_hint": "nommer (qqn) + nom / adjectif"
   },
   "occuper": {
     "group": "1er groupe",
@@ -13966,7 +13966,7 @@
         "occupé"
       ]
     },
-    "usage_hint": "occuper + COD (complément d'objet direct)"
+    "usage_hint": "s'occuper de (qqn/qqch) / + COD"
   },
   "oser": {
     "group": "1er groupe",
@@ -14059,7 +14059,7 @@
         "osé"
       ]
     },
-    "usage_hint": "oser + COD (complément d'objet direct)"
+    "usage_hint": "oser + infinitif direct (oser faire)"
   },
   "porter": {
     "group": "1er groupe",
@@ -14152,7 +14152,7 @@
         "porté"
       ]
     },
-    "usage_hint": "porter + COD (complément d'objet direct)"
+    "usage_hint": "porter + COD (porter un vêtement)"
   },
   "poser": {
     "group": "1er groupe",
@@ -14245,7 +14245,7 @@
         "posé"
       ]
     },
-    "usage_hint": "poser + COD (complément d'objet direct)"
+    "usage_hint": "poser (qqch) sur (la table)"
   },
   "présenter": {
     "group": "1er groupe",
@@ -14338,7 +14338,7 @@
         "présenté"
       ]
     },
-    "usage_hint": "présenter + COD (complément d'objet direct)"
+    "usage_hint": "présenter (qqn) à (qqn d'autre)"
   },
   "prier": {
     "group": "1er groupe",
@@ -14431,7 +14431,7 @@
         "prié"
       ]
     },
-    "usage_hint": "prier + COD (complément d'objet direct)"
+    "usage_hint": "prier (qqn) de (faire qqch)"
   },
   "ramasser": {
     "group": "1er groupe",
@@ -14524,7 +14524,7 @@
         "ramassé"
       ]
     },
-    "usage_hint": "ramasser + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (ramasser un objet)"
   },
   "regretter": {
     "group": "1er groupe",
@@ -14617,7 +14617,7 @@
         "regretté"
       ]
     },
-    "usage_hint": "regretter + COD (complément d'objet direct)"
+    "usage_hint": "regretter + COD / de (faire)"
   },
   "remplacer": {
     "group": "1er groupe",
@@ -14710,7 +14710,7 @@
         "remplacé"
       ]
     },
-    "usage_hint": "remplacer + COD (complément d'objet direct)"
+    "usage_hint": "remplacer (qqch) par (autre chose)"
   },
   "rencontrer": {
     "group": "1er groupe",
@@ -14803,7 +14803,7 @@
         "rencontré"
       ]
     },
-    "usage_hint": "rencontrer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (rencontrer qqn)"
   },
   "réparer": {
     "group": "1er groupe",
@@ -14896,7 +14896,7 @@
         "réparé"
       ]
     },
-    "usage_hint": "réparer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (réparer une voiture)"
   },
   "répéter": {
     "group": "1er groupe",
@@ -14989,7 +14989,7 @@
         "répété"
       ]
     },
-    "usage_hint": "répéter + COD (complément d'objet direct)"
+    "usage_hint": "répéter (qqch) à (qqn)"
   },
   "reposer": {
     "group": "1er groupe",
@@ -15082,7 +15082,7 @@
         "reposé"
       ]
     },
-    "usage_hint": "reposer + COD (complément d'objet direct)"
+    "usage_hint": "se reposer sur / de (fatigue)"
   },
   "retourner": {
     "group": "1er groupe",
@@ -15175,7 +15175,7 @@
         "retourné"
       ]
     },
-    "usage_hint": "retourner + COD (complément d'objet direct)"
+    "usage_hint": "retourner à / en / chez"
   },
   "rêver": {
     "group": "1er groupe",
@@ -15268,7 +15268,7 @@
         "rêvé"
       ]
     },
-    "usage_hint": "rêver + COD (complément d'objet direct)"
+    "usage_hint": "rêver de (qqch/qqn / faire qqch)"
   },
   "rouler": {
     "group": "1er groupe",
@@ -15361,7 +15361,7 @@
         "roulé"
       ]
     },
-    "usage_hint": "rouler + COD (complément d'objet direct)"
+    "usage_hint": "rouler sur (la route) / à (100 km/h)"
   },
   "sembler": {
     "group": "1er groupe",
@@ -15454,7 +15454,7 @@
         "semblé"
       ]
     },
-    "usage_hint": "sembler + COD (complément d'objet direct)"
+    "usage_hint": "sembler + adjectif / à (qqn)"
   },
   "signaler": {
     "group": "1er groupe",
@@ -15547,7 +15547,7 @@
         "signalé"
       ]
     },
-    "usage_hint": "signaler + COD (complément d'objet direct)"
+    "usage_hint": "signaler (qqch) à (qqn)"
   },
   "téléphoner": {
     "group": "1er groupe",
@@ -15640,7 +15640,7 @@
         "téléphoné"
       ]
     },
-    "usage_hint": "téléphoner + COD (complément d'objet direct)"
+    "usage_hint": "téléphoner à (qqn)"
   },
   "traverser": {
     "group": "1er groupe",
@@ -15733,7 +15733,7 @@
         "traversé"
       ]
     },
-    "usage_hint": "traverser + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (traverser la rue)"
   },
   "tromper": {
     "group": "1er groupe",
@@ -15826,7 +15826,7 @@
         "trompé"
       ]
     },
-    "usage_hint": "tromper + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (tromper qqn)"
   },
   "utiliser": {
     "group": "1er groupe",
@@ -15919,7 +15919,7 @@
         "utilisé"
       ]
     },
-    "usage_hint": "utiliser + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (utiliser un outil)"
   },
   "admettre": {
     "group": "3e groupe",
@@ -16012,7 +16012,7 @@
         "admettreé"
       ]
     },
-    "usage_hint": "admettre + COD (complément d'objet direct)"
+    "usage_hint": "admettre + COD / que..."
   },
   "agacer": {
     "group": "1er groupe",
@@ -16105,7 +16105,7 @@
         "agacé"
       ]
     },
-    "usage_hint": "agacer + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (agacer qqn)"
   },
   "amuser": {
     "group": "1er groupe",
@@ -16198,7 +16198,7 @@
         "amusé"
       ]
     },
-    "usage_hint": "amuser + COD (complément d'objet direct)"
+    "usage_hint": "+ COD / s'amuser avec"
   },
   "apprendre": {
     "group": "3e groupe",
@@ -16291,7 +16291,7 @@
         "apprendreé"
       ]
     },
-    "usage_hint": "apprendre + COD (complément d'objet direct)"
+    "usage_hint": "apprendre (qqch) à (qqn) / apprendre à (faire)"
   },
   "attraper": {
     "group": "1er groupe",
@@ -16384,7 +16384,7 @@
         "attrapé"
       ]
     },
-    "usage_hint": "attraper + COD (complément d'objet direct)"
+    "usage_hint": "attraper + COD (attraper un ballon)"
   },
   "bâtir": {
     "group": "2e groupe",
@@ -16477,7 +16477,7 @@
         "bâtiré"
       ]
     },
-    "usage_hint": "bâtir + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (bâtir une maison)"
   },
   "boire": {
     "group": "3e groupe",
@@ -16570,7 +16570,7 @@
         "boireé"
       ]
     },
-    "usage_hint": "boire + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (boire un verre)"
   },
   "brûler": {
     "group": "1er groupe",
@@ -16663,7 +16663,7 @@
         "brûlé"
       ]
     },
-    "usage_hint": "brûler + COD (complément d'objet direct)"
+    "usage_hint": "brûler + COD (brûler du bois)"
   },
   "casser": {
     "group": "1er groupe",
@@ -16756,7 +16756,7 @@
         "cassé"
       ]
     },
-    "usage_hint": "casser + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (casser un verre)"
   },
   "comprendre": {
     "group": "3e groupe",
@@ -16849,7 +16849,7 @@
         "comprendreé"
       ]
     },
-    "usage_hint": "comprendre + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (comprendre qqn/qqch)"
   },
   "construire": {
     "group": "3e groupe",
@@ -16942,7 +16942,7 @@
         "construireé"
       ]
     },
-    "usage_hint": "construire + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (construire un pont)"
   },
   "courir": {
     "group": "3e groupe",
@@ -17035,7 +17035,7 @@
         "couriré"
       ]
     },
-    "usage_hint": "courir + COD (complément d'objet direct)",
+    "usage_hint": "courir vers / dans / après (qqn)",
     "grammar_rule": "💡 REMEMBER: Participe passé 'couru'. Futur et conditionnel à double 'r': 'je courrai', 'je courrais'."
   },
   "croire": {
@@ -17129,7 +17129,7 @@
         "croireé"
       ]
     },
-    "usage_hint": "croire + COD (complément d'objet direct)"
+    "usage_hint": "croire à (qqch) / en (dieu) / + COD"
   },
   "défendre": {
     "group": "3e groupe",
@@ -17222,7 +17222,7 @@
         "défendreé"
       ]
     },
-    "usage_hint": "défendre + COD (complément d'objet direct)"
+    "usage_hint": "défendre (qqn) contre (un danger) / de (faire)"
   },
   "découvrir": {
     "group": "3e groupe",
@@ -17315,7 +17315,7 @@
         "découvriré"
       ]
     },
-    "usage_hint": "découvrir + COD (complément d'objet direct)"
+    "usage_hint": "découvrir + COD (découvrir un lieu)"
   },
   "descendre": {
     "group": "3e groupe",
@@ -17408,7 +17408,7 @@
         "descendreé"
       ]
     },
-    "usage_hint": "descendre + COD (complément d'objet direct)"
+    "usage_hint": "descendre de (véhicule) / dans (rue)"
   },
   "devoir": {
     "group": "3e groupe",
@@ -17501,7 +17501,7 @@
         "devoiré"
       ]
     },
-    "usage_hint": "devoir + COD (complément d'objet direct)",
+    "usage_hint": "+ infinitif direct (devoir faire)",
     "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je dois partir'). Participe passé 'dû' prend un accent circonflexe au masculin singulier."
   },
   "dormir": {
@@ -17595,7 +17595,7 @@
         "dormiré"
       ]
     },
-    "usage_hint": "dormir + COD (complément d'objet direct)"
+    "usage_hint": "dormir dans (un lit) / pendant"
   },
   "écrire": {
     "group": "3e groupe",
@@ -17688,7 +17688,7 @@
         "écrireé"
       ]
     },
-    "usage_hint": "écrire + COD (complément d'objet direct)"
+    "usage_hint": "écrire (qqch) à (qqn)"
   },
   "entendre": {
     "group": "3e groupe",
@@ -17781,7 +17781,7 @@
         "entendreé"
       ]
     },
-    "usage_hint": "entendre + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (entendre un bruit)"
   },
   "éteindre": {
     "group": "3e groupe",
@@ -17874,7 +17874,7 @@
         "éteindreé"
       ]
     },
-    "usage_hint": "éteindre + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (éteindre le feu/la télé)"
   },
   "falloir": {
     "group": "3e groupe",
@@ -17922,7 +17922,7 @@
         "fallu"
       ]
     },
-    "usage_hint": "falloir + COD (complément d'objet direct)",
+    "usage_hint": "il faut + infinitif / + nom",
     "grammar_rule": "💡 REMEMBER: Verbe impersonnel stictement utilisé à la 3e personne ('il faut'). Exige le Subjonctif ('il faut que nous partions')."
   },
   "lire": {
@@ -18016,7 +18016,7 @@
         "lireé"
       ]
     },
-    "usage_hint": "lire + COD (complément d'objet direct)"
+    "usage_hint": "lire + COD (lire qqch) / à (qqn)"
   },
   "mettre": {
     "group": "3e groupe",
@@ -18109,7 +18109,7 @@
         "mettreé"
       ]
     },
-    "usage_hint": "mettre + COD (complément d'objet direct)"
+    "usage_hint": "mettre (qqch) sur / dans"
   },
   "mourir": {
     "group": "3e groupe",
@@ -18202,7 +18202,7 @@
         "mouriré"
       ]
     },
-    "usage_hint": "mourir + COD (complément d'objet direct)",
+    "usage_hint": "mourir de (maladie/faim) / pour",
     "grammar_rule": "💡 REMEMBER: Auxiliaire être au passé composé ('il est mort'). Futur: 'je mourrai'. Subjonctif: 'que je meure'."
   },
   "naître": {
@@ -18296,7 +18296,7 @@
         "naîtreé"
       ]
     },
-    "usage_hint": "naître + COD (complément d'objet direct)"
+    "usage_hint": "naître à (ville) / en (année/pays)"
   },
   "ouvrir": {
     "group": "3e groupe",
@@ -18389,7 +18389,7 @@
         "ouvriré"
       ]
     },
-    "usage_hint": "ouvrir + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (ouvrir une fenêtre)"
   },
   "partir": {
     "group": "3e groupe",
@@ -18482,7 +18482,7 @@
         "partiré"
       ]
     },
-    "usage_hint": "partir + COD (complément d'objet direct)"
+    "usage_hint": "intransitif: partir de (lieu) / pour (destination)"
   },
   "recevoir": {
     "group": "3e groupe",
@@ -18575,7 +18575,7 @@
         "recevoiré"
       ]
     },
-    "usage_hint": "recevoir + COD (complément d'objet direct)"
+    "usage_hint": "recevoir (qqch) de (qqn)"
   },
   "rendre": {
     "group": "3e groupe",
@@ -18668,7 +18668,7 @@
         "rendreé"
       ]
     },
-    "usage_hint": "rendre + COD (complément d'objet direct)"
+    "usage_hint": "rendre (qqch) à (qqn) / rendre + adjectif"
   },
   "répondre": {
     "group": "3e groupe",
@@ -18761,7 +18761,7 @@
         "répondreé"
       ]
     },
-    "usage_hint": "répondre + COD (complément d'objet direct)"
+    "usage_hint": "répondre à (qqn / qqch)"
   },
   "sortir": {
     "group": "3e groupe",
@@ -18854,7 +18854,7 @@
         "sortiré"
       ]
     },
-    "usage_hint": "sortir + COD (complément d'objet direct)"
+    "usage_hint": "sortir de (lieu) / avec (qqn) / + COD (sortir le chien)"
   },
   "suivre": {
     "group": "3e groupe",
@@ -18947,7 +18947,7 @@
         "suivreé"
       ]
     },
-    "usage_hint": "suivre + COD (complément d'objet direct)"
+    "usage_hint": "+ COD (suivre qqn/qqch)"
   },
   "tenir": {
     "group": "3e groupe",
@@ -19040,7 +19040,7 @@
         "teniré"
       ]
     },
-    "usage_hint": "tenir + COD (complément d'objet direct)",
+    "usage_hint": "tenir à (qqn/qqch) / + COD",
     "grammar_rule": "💡 REMEMBER: Mêmes irrégularités que venir ('je tiens', 'nous tenons', 'ils tiennent', 'que je tienne')."
   },
   "vivre": {
@@ -19134,7 +19134,7 @@
         "vivreé"
       ]
     },
-    "usage_hint": "vivre + COD (complément d'objet direct)"
+    "usage_hint": "vivre à / en / avec / de"
   },
   "être": {
     "group": "Auxiliaire / 3e groupe",
@@ -19225,7 +19225,7 @@
         "été"
       ]
     },
-    "usage_hint": "être + adjectif / être à (qqn)"
+    "usage_hint": "être à (appartenance) / en / dans / + adjectif"
   },
   "avoir": {
     "group": "Auxiliaire / 3e groupe",
@@ -19316,6 +19316,6 @@
         "eu"
       ]
     },
-    "usage_hint": "avoir + nom / avoir besoin de (qqch)"
+    "usage_hint": "avoir besoin de / avoir peur de / + COD"
   }
 }

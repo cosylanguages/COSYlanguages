@@ -87,6 +87,17 @@ class RussianGenderCasesEngine {
         badge.textContent = `${data.gender.toLowerCase()} род`;
         badge.className = `badge ${data.gender.toLowerCase() === 'мужской' ? 'gender-masc' : (data.gender.toLowerCase() === 'женский' ? 'gender-fem' : 'gender-neut')}`;
         document.getElementById('animacy-badge').textContent = data.animacy;
+
+        let levelBadge = document.getElementById('noun-cefr-badge');
+        if (!levelBadge) {
+            levelBadge = document.createElement('span');
+            levelBadge.id = 'noun-cefr-badge';
+            levelBadge.className = 'badge cefr-badge';
+            const animacyBadge = document.getElementById('animacy-badge');
+            if (animacyBadge) animacyBadge.insertAdjacentElement('afterend', levelBadge);
+        }
+        if (levelBadge) levelBadge.textContent = `Уровень : ${data.level || 'A1'}`;
+
         document.getElementById('noun-definition').textContent = data.definition;
 
         const ruleBox = document.getElementById('grammar-rule-container');

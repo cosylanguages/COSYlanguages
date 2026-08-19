@@ -5,7 +5,9 @@
     "definition": "Edificio adibito ad abitazione.",
     "antonyms": [
       "strada"
-    ]
+    ],
+    "article": "la",
+    "plural": "case"
   },
   "macchina": {
     "gender": "Femminile",
@@ -13,7 +15,9 @@
     "definition": "Veicolo automobile.",
     "antonyms": [
       "pedone"
-    ]
+    ],
+    "article": "la",
+    "plural": "macchine"
   },
   "tavola": {
     "gender": "Femminile",
@@ -21,7 +25,9 @@
     "definition": "Mobile con superficie piana.",
     "antonyms": [
       "sedia"
-    ]
+    ],
+    "article": "la",
+    "plural": "tavole"
   },
   "sedia": {
     "gender": "Femminile",
@@ -29,7 +35,9 @@
     "definition": "Mobile per sedersi.",
     "antonyms": [
       "tavola"
-    ]
+    ],
+    "article": "la",
+    "plural": "sedie"
   },
   "porta": {
     "gender": "Femminile",
@@ -37,7 +45,9 @@
     "definition": "Apertura per entrare in una stanza.",
     "antonyms": [
       "finestra"
-    ]
+    ],
+    "article": "la",
+    "plural": "porte"
   },
   "finestra": {
     "gender": "Femminile",
@@ -45,7 +55,9 @@
     "definition": "Apertura nel muro per la luce.",
     "antonyms": [
       "porta"
-    ]
+    ],
+    "article": "la",
+    "plural": "finestre"
   },
   "città": {
     "gender": "Femminile",
@@ -53,7 +65,9 @@
     "definition": "Centro abitato esteso.",
     "antonyms": [
       "campagna"
-    ]
+    ],
+    "article": "la",
+    "plural": "città"
   },
   "strada": {
     "gender": "Femminile",
@@ -61,7 +75,9 @@
     "definition": "Via di comunicazione.",
     "antonyms": [
       "piazza"
-    ]
+    ],
+    "article": "la",
+    "plural": "strade"
   },
   "scuola": {
     "gender": "Femminile",
@@ -69,7 +85,9 @@
     "definition": "Istituto di istruzione.",
     "antonyms": [
       "casa"
-    ]
+    ],
+    "article": "la",
+    "plural": "scuole"
   },
   "acqua": {
     "gender": "Femminile",
@@ -77,7 +95,9 @@
     "definition": "Liquido trasparente vital per la vita.",
     "antonyms": [
       "fuoco"
-    ]
+    ],
+    "article": "l'",
+    "plural": "acque"
   },
   "terra": {
     "gender": "Femminile",
@@ -85,7 +105,9 @@
     "definition": "Pianeta o suolo calpestabile.",
     "antonyms": [
       "cielo"
-    ]
+    ],
+    "article": "la",
+    "plural": "terre"
   },
   "materia": {
     "gender": "Femminile",
@@ -93,7 +115,9 @@
     "definition": "Sostanza fisica.",
     "antonyms": [
       "spirito"
-    ]
+    ],
+    "article": "la",
+    "plural": "materie"
   },
   "montagna": {
     "gender": "Femminile",
@@ -101,7 +125,9 @@
     "definition": "Rilievo naturale del terreno.",
     "antonyms": [
       "valle"
-    ]
+    ],
+    "article": "la",
+    "plural": "montagne"
   },
   "notte": {
     "gender": "Femminile",
@@ -109,7 +135,9 @@
     "definition": "Periodo di oscurità.",
     "antonyms": [
       "giorno"
-    ]
+    ],
+    "article": "la",
+    "plural": "notti"
   },
   "chiave": {
     "gender": "Femminile",
@@ -117,7 +145,9 @@
     "definition": "Strumento per aprire serrature.",
     "antonyms": [
       "serratura"
-    ]
+    ],
+    "article": "la",
+    "plural": "chiavi"
   },
   "stanza": {
     "gender": "Femminile",
@@ -125,7 +155,9 @@
     "definition": "Ambiente di una casa.",
     "antonyms": [
       "salone"
-    ]
+    ],
+    "article": "la",
+    "plural": "stanze"
   },
   "cucina": {
     "gender": "Femminile",
@@ -133,7 +165,9 @@
     "definition": "Stanza dove si cucina.",
     "antonyms": [
       "sala"
-    ]
+    ],
+    "article": "la",
+    "plural": "cucine"
   },
   "musica": {
     "gender": "Femminile",
@@ -141,7 +175,9 @@
     "definition": "Arte dei suoni.",
     "antonyms": [
       "silenzio"
-    ]
+    ],
+    "article": "la",
+    "plural": "musiche"
   },
   "luce": {
     "gender": "Femminile",
@@ -149,7 +185,9 @@
     "definition": "Radiazione luminosa.",
     "antonyms": [
       "ombra"
-    ]
+    ],
+    "article": "la",
+    "plural": "luci"
   },
   "ombra": {
     "gender": "Femminile",
@@ -157,7 +195,9 @@
     "definition": "Zona scura senza luce.",
     "antonyms": [
       "luce"
-    ]
+    ],
+    "article": "l'",
+    "plural": "ombre"
   },
   "idea": {
     "gender": "Femminile",
@@ -165,7 +205,9 @@
     "definition": "Rappresentazione mentale.",
     "antonyms": [
       "azione"
-    ]
+    ],
+    "article": "l'",
+    "plural": "idee"
   },
   "verità": {
     "gender": "Femminile",
@@ -173,7 +215,9 @@
     "definition": "Ciò che è vero.",
     "antonyms": [
       "bugia"
-    ]
+    ],
+    "article": "la",
+    "plural": "verità"
   },
   "libertà": {
     "gender": "Femminile",
@@ -181,7 +225,9 @@
     "definition": "Stato di chi è libero.",
     "antonyms": [
       "schiavitù"
-    ]
+    ],
+    "article": "la",
+    "plural": "libertà"
   },
   "pace": {
     "gender": "Femminile",
@@ -189,7 +235,9 @@
     "definition": "Assenza di guerra.",
     "antonyms": [
       "guerra"
-    ]
+    ],
+    "article": "la",
+    "plural": "paci"
   },
   "guerra": {
     "gender": "Femminile",
@@ -197,7 +245,9 @@
     "definition": "Conflitto armato.",
     "antonyms": [
       "pace"
-    ]
+    ],
+    "article": "la",
+    "plural": "guerre"
   },
   "vita": {
     "gender": "Femminile",
@@ -205,7 +255,9 @@
     "definition": "Esistenza biologica.",
     "antonyms": [
       "morte"
-    ]
+    ],
+    "article": "la",
+    "plural": "vite"
   },
   "morte": {
     "gender": "Femminile",
@@ -213,7 +265,9 @@
     "definition": "Cessazione della vita.",
     "antonyms": [
       "vita"
-    ]
+    ],
+    "article": "la",
+    "plural": "morti"
   },
   "mano": {
     "gender": "Femminile",
@@ -222,7 +276,9 @@
     "antonyms": [
       "piede"
     ],
-    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-o' ma è FEMMINILE ('la mano', plurale 'le mani')."
+    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-o' ma è FEMMINILE ('la mano', plurale 'le mani').",
+    "article": "la",
+    "plural": "mani"
   },
   "testa": {
     "gender": "Femminile",
@@ -230,7 +286,9 @@
     "definition": "Parte superiore del corpo.",
     "antonyms": [
       "piede"
-    ]
+    ],
+    "article": "la",
+    "plural": "teste"
   },
   "voce": {
     "gender": "Femminile",
@@ -238,7 +296,9 @@
     "definition": "Suono emesso dalle corde vocali.",
     "antonyms": [
       "silenzio"
-    ]
+    ],
+    "article": "la",
+    "plural": "voci"
   },
   "domanda": {
     "gender": "Femminile",
@@ -246,7 +306,9 @@
     "definition": "Richiesta per sapere.",
     "antonyms": [
       "risposta"
-    ]
+    ],
+    "article": "la",
+    "plural": "domande"
   },
   "risposta": {
     "gender": "Femminile",
@@ -254,7 +316,9 @@
     "definition": "Ciò che si dice in replica.",
     "antonyms": [
       "domanda"
-    ]
+    ],
+    "article": "la",
+    "plural": "risposte"
   },
   "storia": {
     "gender": "Femminile",
@@ -262,7 +326,9 @@
     "definition": "Racconto di eventi.",
     "antonyms": [
       "invenzione"
-    ]
+    ],
+    "article": "la",
+    "plural": "storie"
   },
   "famiglia": {
     "gender": "Femminile",
@@ -270,7 +336,9 @@
     "definition": "Insieme di persone unite da parentela.",
     "antonyms": [
       "solitudine"
-    ]
+    ],
+    "article": "la",
+    "plural": "famiglie"
   },
   "stagione": {
     "gender": "Femminile",
@@ -278,7 +346,9 @@
     "definition": "Periodo dell'anno.",
     "antonyms": [
       "anno"
-    ]
+    ],
+    "article": "la",
+    "plural": "stagioni"
   },
   "settimana": {
     "gender": "Femminile",
@@ -286,7 +356,9 @@
     "definition": "Periodo di sette giorni.",
     "antonyms": [
       "mese"
-    ]
+    ],
+    "article": "la",
+    "plural": "settimane"
   },
   "ora": {
     "gender": "Femminile",
@@ -294,7 +366,9 @@
     "definition": "Unità di tempo di 60 minuti.",
     "antonyms": [
       "secondo"
-    ]
+    ],
+    "article": "l'",
+    "plural": "ore"
   },
   "minuto": {
     "gender": "Maschile",
@@ -302,7 +376,9 @@
     "definition": "Sessanta secondi.",
     "antonyms": [
       "ora"
-    ]
+    ],
+    "article": "il",
+    "plural": "minuti"
   },
   "canzone": {
     "gender": "Femminile",
@@ -310,7 +386,9 @@
     "definition": "Composizione musicale cantata.",
     "antonyms": [
       "poesia"
-    ]
+    ],
+    "article": "la",
+    "plural": "canzoni"
   },
   "gioia": {
     "gender": "Femminile",
@@ -318,7 +396,9 @@
     "definition": "Sentimento di felicità.",
     "antonyms": [
       "tristezza"
-    ]
+    ],
+    "article": "la",
+    "plural": "gioie"
   },
   "tristezza": {
     "gender": "Femminile",
@@ -326,7 +406,9 @@
     "definition": "Sentimento di dolore morale.",
     "antonyms": [
       "gioia"
-    ]
+    ],
+    "article": "la",
+    "plural": "tristezze"
   },
   "paura": {
     "gender": "Femminile",
@@ -334,7 +416,9 @@
     "definition": "Emozione di fronte al pericolo.",
     "antonyms": [
       "coraggio"
-    ]
+    ],
+    "article": "la",
+    "plural": "paure"
   },
   "salute": {
     "gender": "Femminile",
@@ -342,7 +426,9 @@
     "definition": "Stato di benessere fisico.",
     "antonyms": [
       "malattia"
-    ]
+    ],
+    "article": "la",
+    "plural": "saluti"
   },
   "malattia": {
     "gender": "Femminile",
@@ -350,7 +436,9 @@
     "definition": "Alterazione della salute.",
     "antonyms": [
       "salute"
-    ]
+    ],
+    "article": "la",
+    "plural": "malattie"
   },
   "soluzione": {
     "gender": "Femminile",
@@ -358,7 +446,9 @@
     "definition": "Risposta a un problema.",
     "antonyms": [
       "problema"
-    ]
+    ],
+    "article": "la",
+    "plural": "soluzioni"
   },
   "sole": {
     "gender": "Maschile",
@@ -366,7 +456,9 @@
     "definition": "Stella al centro del sistema solare.",
     "antonyms": [
       "luna"
-    ]
+    ],
+    "article": "il",
+    "plural": "soli"
   },
   "libro": {
     "gender": "Maschile",
@@ -374,7 +466,9 @@
     "definition": "Insieme di fogli stampati.",
     "antonyms": [
       "quaderno"
-    ]
+    ],
+    "article": "il",
+    "plural": "libri"
   },
   "quaderno": {
     "gender": "Maschile",
@@ -382,7 +476,9 @@
     "definition": "Insieme di fogli bianchi.",
     "antonyms": [
       "libro"
-    ]
+    ],
+    "article": "il",
+    "plural": "quaderni"
   },
   "sacco": {
     "gender": "Maschile",
@@ -390,7 +486,9 @@
     "definition": "Involucro per contenere cose.",
     "antonyms": [
       "tasca"
-    ]
+    ],
+    "article": "il",
+    "plural": "sacchi"
   },
   "cappotto": {
     "gender": "Maschile",
@@ -398,7 +496,9 @@
     "definition": "Abito pesante invernale.",
     "antonyms": [
       "pantaloni"
-    ]
+    ],
+    "article": "il",
+    "plural": "cappotti"
   },
   "pantaloni": {
     "gender": "Maschile",
@@ -406,7 +506,9 @@
     "definition": "Indumento per le gambe.",
     "antonyms": [
       "gonna"
-    ]
+    ],
+    "article": "il",
+    "plural": "pantaloni"
   },
   "cappello": {
     "gender": "Maschile",
@@ -414,7 +516,9 @@
     "definition": "Copricapo.",
     "antonyms": [
       "scarpa"
-    ]
+    ],
+    "article": "il",
+    "plural": "cappelli"
   },
   "cane": {
     "gender": "Maschile",
@@ -422,7 +526,9 @@
     "definition": "Animale domestico fedele.",
     "antonyms": [
       "gatto"
-    ]
+    ],
+    "article": "il",
+    "plural": "cani"
   },
   "gatto": {
     "gender": "Maschile",
@@ -430,7 +536,9 @@
     "definition": "Feline domestico.",
     "antonyms": [
       "cane"
-    ]
+    ],
+    "article": "il",
+    "plural": "gatti"
   },
   "cavallo": {
     "gender": "Maschile",
@@ -438,7 +546,9 @@
     "definition": "Mammifero solipede.",
     "antonyms": [
       "mucca"
-    ]
+    ],
+    "article": "il",
+    "plural": "cavalli"
   },
   "uccello": {
     "gender": "Maschile",
@@ -446,7 +556,9 @@
     "definition": "Animale con piume e ali.",
     "antonyms": [
       "pesce"
-    ]
+    ],
+    "article": "l'",
+    "plural": "uccelli"
   },
   "pesce": {
     "gender": "Maschile",
@@ -454,7 +566,9 @@
     "definition": "Animale acquatico.",
     "antonyms": [
       "uccello"
-    ]
+    ],
+    "article": "il",
+    "plural": "pesci"
   },
   "albero": {
     "gender": "Maschile",
@@ -462,7 +576,9 @@
     "definition": "Pianta legnosa ad alto fusto.",
     "antonyms": [
       "fiore"
-    ]
+    ],
+    "article": "l'",
+    "plural": "alberi"
   },
   "giardino": {
     "gender": "Maschile",
@@ -470,7 +586,9 @@
     "definition": "Terreno coltivato a fiori e piante.",
     "antonyms": [
       "casa"
-    ]
+    ],
+    "article": "il",
+    "plural": "giardini"
   },
   "parco": {
     "gender": "Maschile",
@@ -478,7 +596,9 @@
     "definition": "Spazio verde pubblico.",
     "antonyms": [
       "strada"
-    ]
+    ],
+    "article": "il",
+    "plural": "parchi"
   },
   "vento": {
     "gender": "Maschile",
@@ -486,7 +606,9 @@
     "definition": "Movimento d'aria.",
     "antonyms": [
       "calma"
-    ]
+    ],
+    "article": "il",
+    "plural": "venti"
   },
   "fuoco": {
     "gender": "Maschile",
@@ -494,7 +616,9 @@
     "definition": "Combustione che produce calore.",
     "antonyms": [
       "acqua"
-    ]
+    ],
+    "article": "il",
+    "plural": "fuochi"
   },
   "cielo": {
     "gender": "Maschile",
@@ -502,7 +626,9 @@
     "definition": "Spazio visibile sopra la terra.",
     "antonyms": [
       "terra"
-    ]
+    ],
+    "article": "il",
+    "plural": "cieli"
   },
   "giorno": {
     "gender": "Maschile",
@@ -510,7 +636,9 @@
     "definition": "Periodo di luce.",
     "antonyms": [
       "notte"
-    ]
+    ],
+    "article": "il",
+    "plural": "giorni"
   },
   "mattino": {
     "gender": "Maschile",
@@ -518,7 +646,9 @@
     "definition": "Inizio della giornata.",
     "antonyms": [
       "sera"
-    ]
+    ],
+    "article": "il",
+    "plural": "mattini"
   },
   "sera": {
     "gender": "Femminile",
@@ -526,7 +656,9 @@
     "definition": "Fine della giornata.",
     "antonyms": [
       "mattino"
-    ]
+    ],
+    "article": "la",
+    "plural": "sere"
   },
   "mese": {
     "gender": "Maschile",
@@ -534,7 +666,9 @@
     "definition": "Dodicesima parte dell'anno.",
     "antonyms": [
       "anno"
-    ]
+    ],
+    "article": "il",
+    "plural": "mesi"
   },
   "anno": {
     "gender": "Maschile",
@@ -542,7 +676,9 @@
     "definition": "Periodo di dodici mesi.",
     "antonyms": [
       "mese"
-    ]
+    ],
+    "article": "l'",
+    "plural": "anni"
   },
   "secolo": {
     "gender": "Maschile",
@@ -550,7 +686,9 @@
     "definition": "Periodo di cento anni.",
     "antonyms": [
       "anno"
-    ]
+    ],
+    "article": "il",
+    "plural": "secoli"
   },
   "tempo": {
     "gender": "Maschile",
@@ -558,7 +696,9 @@
     "definition": "Dimensione della durata.",
     "antonyms": [
       "spazio"
-    ]
+    ],
+    "article": "il",
+    "plural": "tempi"
   },
   "lavoro": {
     "gender": "Maschile",
@@ -566,7 +706,9 @@
     "definition": "Attività umana produttiva.",
     "antonyms": [
       "riposo"
-    ]
+    ],
+    "article": "il",
+    "plural": "lavori"
   },
   "riposo": {
     "gender": "Maschile",
@@ -574,7 +716,9 @@
     "definition": "Inattività rigenerante.",
     "antonyms": [
       "lavoro"
-    ]
+    ],
+    "article": "il",
+    "plural": "riposi"
   },
   "pane": {
     "gender": "Maschile",
@@ -582,7 +726,9 @@
     "definition": "Cibo di farina cotta.",
     "antonyms": [
       "acqua"
-    ]
+    ],
+    "article": "il",
+    "plural": "pani"
   },
   "formaggio": {
     "gender": "Maschile",
@@ -590,7 +736,9 @@
     "definition": "Prodotto del latte.",
     "antonyms": [
       "latte"
-    ]
+    ],
+    "article": "il",
+    "plural": "formaggi"
   },
   "latte": {
     "gender": "Maschile",
@@ -598,7 +746,9 @@
     "definition": "Liquido bianco nutritivo.",
     "antonyms": [
       "acqua"
-    ]
+    ],
+    "article": "il",
+    "plural": "latti"
   },
   "caffè": {
     "gender": "Maschile",
@@ -606,7 +756,9 @@
     "definition": "Bevanda calda stimolante.",
     "antonyms": [
       "tè"
-    ]
+    ],
+    "article": "il",
+    "plural": "caffè"
   },
   "tè": {
     "gender": "Maschile",
@@ -614,7 +766,9 @@
     "definition": "Bevanda d'infuso.",
     "antonyms": [
       "caffè"
-    ]
+    ],
+    "article": "il",
+    "plural": "tè"
   },
   "pasto": {
     "gender": "Maschile",
@@ -622,7 +776,9 @@
     "definition": "Cibo preso a ore fisse.",
     "antonyms": [
       "digiuno"
-    ]
+    ],
+    "article": "il",
+    "plural": "pasti"
   },
   "ristorante": {
     "gender": "Maschile",
@@ -630,7 +786,9 @@
     "definition": "Locale dove si mangia.",
     "antonyms": [
       "casa"
-    ]
+    ],
+    "article": "il",
+    "plural": "ristoranti"
   },
   "albergo": {
     "gender": "Maschile",
@@ -638,7 +796,9 @@
     "definition": "Struttura di accoglienza.",
     "antonyms": [
       "casa"
-    ]
+    ],
+    "article": "l'",
+    "plural": "alberghi"
   },
   "treno": {
     "gender": "Maschile",
@@ -646,7 +806,9 @@
     "definition": "Mezzo di trasporto su rotaie.",
     "antonyms": [
       "aereo"
-    ]
+    ],
+    "article": "il",
+    "plural": "treni"
   },
   "aereo": {
     "gender": "Maschile",
@@ -654,7 +816,9 @@
     "definition": "Veicolo volante.",
     "antonyms": [
       "nave"
-    ]
+    ],
+    "article": "l'",
+    "plural": "aerei"
   },
   "viaggio": {
     "gender": "Maschile",
@@ -662,7 +826,9 @@
     "definition": "Spostamento in luoghi lontani.",
     "antonyms": [
       "soggiorno"
-    ]
+    ],
+    "article": "il",
+    "plural": "viaggi"
   },
   "rumore": {
     "gender": "Maschile",
@@ -670,7 +836,9 @@
     "definition": "Suono confuso.",
     "antonyms": [
       "silenzio"
-    ]
+    ],
+    "article": "il",
+    "plural": "rumori"
   },
   "silenzio": {
     "gender": "Maschile",
@@ -678,7 +846,9 @@
     "definition": "Assenza di rumore.",
     "antonyms": [
       "rumore"
-    ]
+    ],
+    "article": "il",
+    "plural": "silenzi"
   },
   "coraggio": {
     "gender": "Maschile",
@@ -686,7 +856,9 @@
     "definition": "Forza d'animo di fronte al pericolo.",
     "antonyms": [
       "paura"
-    ]
+    ],
+    "article": "il",
+    "plural": "coraggi"
   },
   "problema": {
     "gender": "Maschile",
@@ -695,7 +867,9 @@
     "antonyms": [
       "soluzione"
     ],
-    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-a' (origine greca) ma è MASCHILE ('il problema', plurale 'i problemi')."
+    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-a' (origine greca) ma è MASCHILE ('il problema', plurale 'i problemi').",
+    "article": "il",
+    "plural": "problemi"
   },
   "progetto": {
     "gender": "Maschile",
@@ -703,7 +877,9 @@
     "definition": "Piano per il futuro.",
     "antonyms": [
       "passato"
-    ]
+    ],
+    "article": "il",
+    "plural": "progetti"
   },
   "sorriso": {
     "gender": "Maschile",
@@ -711,7 +887,9 @@
     "definition": "Espressione di gioia.",
     "antonyms": [
       "smorfia"
-    ]
+    ],
+    "article": "il",
+    "plural": "sorrisi"
   },
   "sogno": {
     "gender": "Maschile",
@@ -719,7 +897,9 @@
     "definition": "Attività della mente nel sonno.",
     "antonyms": [
       "realtà"
-    ]
+    ],
+    "article": "il",
+    "plural": "sogni"
   },
   "mondo": {
     "gender": "Maschile",
@@ -727,7 +907,9 @@
     "definition": "L'insieme di tutto ciò che esiste.",
     "antonyms": [
       "solitudine"
-    ]
+    ],
+    "article": "il",
+    "plural": "mondi"
   },
   "paese": {
     "gender": "Maschile",
@@ -735,7 +917,9 @@
     "definition": "Territorio di una nazione.",
     "antonyms": [
       "città"
-    ]
+    ],
+    "article": "il",
+    "plural": "paesi"
   },
   "villaggio": {
     "gender": "Maschile",
@@ -743,7 +927,9 @@
     "definition": "Piccolo centro abitato.",
     "antonyms": [
       "città"
-    ]
+    ],
+    "article": "il",
+    "plural": "villaggi"
   },
   "muro": {
     "gender": "Maschile",
@@ -751,7 +937,9 @@
     "definition": "Struttura verticale di muratura.",
     "antonyms": [
       "pavimento"
-    ]
+    ],
+    "article": "il",
+    "plural": "muri"
   },
   "pavimento": {
     "gender": "Maschile",
@@ -759,7 +947,9 @@
     "definition": "Superficie calpestabile.",
     "antonyms": [
       "soffitto"
-    ]
+    ],
+    "article": "il",
+    "plural": "pavimenti"
   },
   "soffitto": {
     "gender": "Maschile",
@@ -767,7 +957,9 @@
     "definition": "Copertura interna superiore.",
     "antonyms": [
       "pavimento"
-    ]
+    ],
+    "article": "il",
+    "plural": "soffitti"
   },
   "letto": {
     "gender": "Maschile",
@@ -775,7 +967,9 @@
     "definition": "Mobile per dormire.",
     "antonyms": [
       "sedia"
-    ]
+    ],
+    "article": "il",
+    "plural": "letti"
   },
   "quadro": {
     "gender": "Maschile",
@@ -783,7 +977,9 @@
     "definition": "Dipinto d'arte.",
     "antonyms": [
       "scultura"
-    ]
+    ],
+    "article": "il",
+    "plural": "quadri"
   },
   "mare": {
     "gender": "Maschile",
@@ -791,7 +987,9 @@
     "definition": "Grande distesa d'acqua salata.",
     "antonyms": [
       "montagna"
-    ]
+    ],
+    "article": "il",
+    "plural": "mari"
   },
   "fiume": {
     "gender": "Maschile",
@@ -799,7 +997,9 @@
     "definition": "Corso d'acqua continuo.",
     "antonyms": [
       "mare"
-    ]
+    ],
+    "article": "il",
+    "plural": "fiumi"
   },
   "lago": {
     "gender": "Maschile",
@@ -807,7 +1007,9 @@
     "definition": "Bacino d'acqua dolce.",
     "antonyms": [
       "fiume"
-    ]
+    ],
+    "article": "il",
+    "plural": "laghi"
   },
   "abito": {
     "gender": "Maschile",
@@ -815,7 +1017,9 @@
     "definition": "Indumento da indossare.",
     "antonyms": [
       "nudità"
-    ]
+    ],
+    "article": "l'",
+    "plural": "abiti"
   },
   "aeroporto": {
     "gender": "Maschile",
@@ -823,7 +1027,9 @@
     "definition": "Struttura per aerei.",
     "antonyms": [
       "stazione"
-    ]
+    ],
+    "article": "l'",
+    "plural": "aeroporti"
   },
   "amico": {
     "gender": "Maschile",
@@ -831,7 +1037,9 @@
     "definition": "Persona legata da amicizia.",
     "antonyms": [
       "nemico"
-    ]
+    ],
+    "article": "l'",
+    "plural": "amici"
   },
   "animale": {
     "gender": "Maschile",
@@ -839,7 +1047,9 @@
     "definition": "Essere vivente sensibile.",
     "antonyms": [
       "pianta"
-    ]
+    ],
+    "article": "l'",
+    "plural": "animali"
   },
   "appartamento": {
     "gender": "Maschile",
@@ -847,7 +1057,9 @@
     "definition": "Insieme di stanze d'abitazione.",
     "antonyms": [
       "casa"
-    ]
+    ],
+    "article": "l'",
+    "plural": "appartamenti"
   },
   "autobus": {
     "gender": "Maschile",
@@ -855,7 +1067,9 @@
     "definition": "Mezzo di trasporto pubblico.",
     "antonyms": [
       "treno"
-    ]
+    ],
+    "article": "l'",
+    "plural": "autobus"
   },
   "bambino": {
     "gender": "Maschile",
@@ -863,7 +1077,9 @@
     "definition": "Essere umano in tenera età.",
     "antonyms": [
       "adulto"
-    ]
+    ],
+    "article": "il",
+    "plural": "bambini"
   },
   "banco": {
     "gender": "Maschile",
@@ -871,7 +1087,9 @@
     "definition": "Tavolo da lavoro o scuola.",
     "antonyms": [
       "sedia"
-    ]
+    ],
+    "article": "il",
+    "plural": "banchi"
   },
   "bar": {
     "gender": "Maschile",
@@ -879,7 +1097,9 @@
     "definition": "Locale per bevande.",
     "antonyms": [
       "ristorante"
-    ]
+    ],
+    "article": "il",
+    "plural": "bar"
   },
   "bicchiere": {
     "gender": "Maschile",
@@ -887,7 +1107,9 @@
     "definition": "Recipiente per bere.",
     "antonyms": [
       "bottiglia"
-    ]
+    ],
+    "article": "il",
+    "plural": "bicchieri"
   },
   "biglietto": {
     "gender": "Maschile",
@@ -895,7 +1117,9 @@
     "definition": "Documento di viaggio.",
     "antonyms": [
       "moneta"
-    ]
+    ],
+    "article": "il",
+    "plural": "biglietti"
   },
   "bosco": {
     "gender": "Maschile",
@@ -903,7 +1127,9 @@
     "definition": "Terreno coperto da alberi.",
     "antonyms": [
       "prato"
-    ]
+    ],
+    "article": "il",
+    "plural": "boschi"
   },
   "braccio": {
     "gender": "Maschile",
@@ -912,7 +1138,9 @@
     "antonyms": [
       "gamba"
     ],
-    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('il braccio'), diventa femminile per le parti del corpo al plurale ('le braccia')."
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('il braccio'), diventa femminile per le parti del corpo al plurale ('le braccia').",
+    "article": "il",
+    "plural": "braccia"
   },
   "burro": {
     "gender": "Maschile",
@@ -920,7 +1148,9 @@
     "definition": "Grasso del latte.",
     "antonyms": [
       "olio"
-    ]
+    ],
+    "article": "il",
+    "plural": "burri"
   },
   "calcio": {
     "gender": "Maschile",
@@ -928,7 +1158,9 @@
     "definition": "Sport con il pallone.",
     "antonyms": [
       "tennis"
-    ]
+    ],
+    "article": "il",
+    "plural": "calci"
   },
   "camino": {
     "gender": "Maschile",
@@ -936,7 +1168,9 @@
     "definition": "Struttura per il fuoco in casa.",
     "antonyms": [
       "stufa"
-    ]
+    ],
+    "article": "il",
+    "plural": "camini"
   },
   "campo": {
     "gender": "Maschile",
@@ -944,7 +1178,9 @@
     "definition": "Terreno agricolo.",
     "antonyms": [
       "città"
-    ]
+    ],
+    "article": "il",
+    "plural": "campi"
   },
   "capello": {
     "gender": "Maschile",
@@ -952,7 +1188,9 @@
     "definition": "Pelo della testa.",
     "antonyms": [
       "barba"
-    ]
+    ],
+    "article": "il",
+    "plural": "capelli"
   },
   "carattere": {
     "gender": "Maschile",
@@ -960,7 +1198,9 @@
     "definition": "Indole di una persona.",
     "antonyms": [
       "aspetto"
-    ]
+    ],
+    "article": "il",
+    "plural": "caratteri"
   },
   "carnevale": {
     "gender": "Maschile",
@@ -968,7 +1208,9 @@
     "definition": "Festa di maschere.",
     "antonyms": [
       "quaresima"
-    ]
+    ],
+    "article": "il",
+    "plural": "carnevali"
   },
   "castello": {
     "gender": "Maschile",
@@ -976,7 +1218,9 @@
     "definition": "Fortezza antica.",
     "antonyms": [
       "capanna"
-    ]
+    ],
+    "article": "il",
+    "plural": "castelli"
   },
   "centro": {
     "gender": "Maschile",
@@ -984,7 +1228,9 @@
     "definition": "Punto di mezzo di una città.",
     "antonyms": [
       "periferia"
-    ]
+    ],
+    "article": "il",
+    "plural": "centri"
   },
   "cibo": {
     "gender": "Maschile",
@@ -992,7 +1238,9 @@
     "definition": "Alimento per il corpo.",
     "antonyms": [
       "bevanda"
-    ]
+    ],
+    "article": "il",
+    "plural": "cibi"
   },
   "cinema": {
     "gender": "Maschile",
@@ -1001,7 +1249,9 @@
     "antonyms": [
       "teatro"
     ],
-    "grammar_rule": "💡 REMEMBER: Invariabile al plurale ('il cinema', 'i cinema')."
+    "grammar_rule": "💡 REMEMBER: Invariabile al plurale ('il cinema', 'i cinema').",
+    "article": "il",
+    "plural": "cinema"
   },
   "coltello": {
     "gender": "Maschile",
@@ -1009,7 +1259,9 @@
     "definition": "Ustensile per tagliare.",
     "antonyms": [
       "forchetta"
-    ]
+    ],
+    "article": "il",
+    "plural": "coltelli"
   },
   "compito": {
     "gender": "Maschile",
@@ -1017,7 +1269,9 @@
     "definition": "Lavoro scolastico assegnato.",
     "antonyms": [
       "riposo"
-    ]
+    ],
+    "article": "il",
+    "plural": "compiti"
   },
   "computer": {
     "gender": "Maschile",
@@ -1025,7 +1279,9 @@
     "definition": "Calcolatore elettronico.",
     "antonyms": [
       "foglio"
-    ]
+    ],
+    "article": "il",
+    "plural": "computer"
   },
   "consiglio": {
     "gender": "Maschile",
@@ -1033,7 +1289,9 @@
     "definition": "Suggerimento utile.",
     "antonyms": [
       "ordine"
-    ]
+    ],
+    "article": "il",
+    "plural": "consigli"
   },
   "conto": {
     "gender": "Maschile",
@@ -1041,7 +1299,9 @@
     "definition": "Calcolo del prezzo.",
     "antonyms": [
       "debito"
-    ]
+    ],
+    "article": "il",
+    "plural": "conti"
   },
   "corpo": {
     "gender": "Maschile",
@@ -1049,7 +1309,9 @@
     "definition": "Struttura fisica.",
     "antonyms": [
       "anima"
-    ]
+    ],
+    "article": "il",
+    "plural": "corpi"
   },
   "cuscino": {
     "gender": "Maschile",
@@ -1057,7 +1319,9 @@
     "definition": "Supporto morbido per la testa.",
     "antonyms": [
       "materasso"
-    ]
+    ],
+    "article": "il",
+    "plural": "cuscini"
   },
   "dente": {
     "gender": "Maschile",
@@ -1065,7 +1329,9 @@
     "definition": "Organo della masticazione.",
     "antonyms": [
       "lingua"
-    ]
+    ],
+    "article": "il",
+    "plural": "denti"
   },
   "deserto": {
     "gender": "Maschile",
@@ -1073,7 +1339,9 @@
     "definition": "Territorio arido e sabbioso.",
     "antonyms": [
       "foresta"
-    ]
+    ],
+    "article": "il",
+    "plural": "deserti"
   },
   "dito": {
     "gender": "Maschile",
@@ -1081,7 +1349,9 @@
     "definition": "Estremità della mano.",
     "antonyms": [
       "piede"
-    ]
+    ],
+    "article": "il",
+    "plural": "dita"
   },
   "dolore": {
     "gender": "Maschile",
@@ -1089,7 +1359,9 @@
     "definition": "Sensazione di sofferenza.",
     "antonyms": [
       "piacere"
-    ]
+    ],
+    "article": "il",
+    "plural": "dolori"
   },
   "fatto": {
     "gender": "Maschile",
@@ -1097,7 +1369,9 @@
     "definition": "Azione compiuta.",
     "antonyms": [
       "parola"
-    ]
+    ],
+    "article": "il",
+    "plural": "fatti"
   },
   "figlio": {
     "gender": "Maschile",
@@ -1105,7 +1379,9 @@
     "definition": "Discendente diretto maschio.",
     "antonyms": [
       "padre"
-    ]
+    ],
+    "article": "il",
+    "plural": "figli"
   },
   "fiore": {
     "gender": "Maschile",
@@ -1113,7 +1389,9 @@
     "definition": "Parte colorata della pianta.",
     "antonyms": [
       "foglia"
-    ]
+    ],
+    "article": "il",
+    "plural": "fiori"
   },
   "foglio": {
     "gender": "Maschile",
@@ -1121,7 +1399,9 @@
     "definition": "Pezzo di carta.",
     "antonyms": [
       "quaderno"
-    ]
+    ],
+    "article": "il",
+    "plural": "fogli"
   },
   "forno": {
     "gender": "Maschile",
@@ -1129,7 +1409,9 @@
     "definition": "Apparecchio per cuocere.",
     "antonyms": [
       "frigorifero"
-    ]
+    ],
+    "article": "il",
+    "plural": "forni"
   },
   "fratello": {
     "gender": "Maschile",
@@ -1137,7 +1419,9 @@
     "definition": "Figlio degli stessi genitori.",
     "antonyms": [
       "sorella"
-    ]
+    ],
+    "article": "il",
+    "plural": "fratelli"
   },
   "frutto": {
     "gender": "Maschile",
@@ -1145,7 +1429,9 @@
     "definition": "Prodotto commestibile delle piante.",
     "antonyms": [
       "fiore"
-    ]
+    ],
+    "article": "il",
+    "plural": "frutti"
   },
   "giornale": {
     "gender": "Maschile",
@@ -1153,7 +1439,9 @@
     "definition": "Stampa quotidiana d'informazione.",
     "antonyms": [
       "libro"
-    ]
+    ],
+    "article": "il",
+    "plural": "giornali"
   },
   "gioco": {
     "gender": "Maschile",
@@ -1161,7 +1449,9 @@
     "definition": "Attività di svago.",
     "antonyms": [
       "lavoro"
-    ]
+    ],
+    "article": "il",
+    "plural": "giochi"
   },
   "gruppo": {
     "gender": "Maschile",
@@ -1169,7 +1459,9 @@
     "definition": "Insieme di persone o cose.",
     "antonyms": [
       "individuo"
-    ]
+    ],
+    "article": "il",
+    "plural": "gruppi"
   },
   "guanto": {
     "gender": "Maschile",
@@ -1177,7 +1469,9 @@
     "definition": "Copertura per le mani.",
     "antonyms": [
       "scarpa"
-    ]
+    ],
+    "article": "il",
+    "plural": "guanti"
   },
   "inverno": {
     "gender": "Maschile",
@@ -1185,7 +1479,9 @@
     "definition": "Stagione fredda.",
     "antonyms": [
       "estate"
-    ]
+    ],
+    "article": "l'",
+    "plural": "inverni"
   },
   "luogo": {
     "gender": "Maschile",
@@ -1193,7 +1489,9 @@
     "definition": "Spazio determinato.",
     "antonyms": [
       "tempo"
-    ]
+    ],
+    "article": "il",
+    "plural": "luoghi"
   },
   "mercato": {
     "gender": "Maschile",
@@ -1201,7 +1499,9 @@
     "definition": "Luogo di compravendita.",
     "antonyms": [
       "negozio"
-    ]
+    ],
+    "article": "il",
+    "plural": "mercati"
   },
   "museo": {
     "gender": "Maschile",
@@ -1209,7 +1509,9 @@
     "definition": "Luogo di reperti d'arte.",
     "antonyms": [
       "teatro"
-    ]
+    ],
+    "article": "il",
+    "plural": "musei"
   },
   "naso": {
     "gender": "Maschile",
@@ -1217,7 +1519,9 @@
     "definition": "Organo dell'olfatto.",
     "antonyms": [
       "bocca"
-    ]
+    ],
+    "article": "il",
+    "plural": "nasi"
   },
   "negozio": {
     "gender": "Maschile",
@@ -1225,7 +1529,9 @@
     "definition": "Locale di vendita al dettaglio.",
     "antonyms": [
       "mercato"
-    ]
+    ],
+    "article": "il",
+    "plural": "negozi"
   },
   "nome": {
     "gender": "Maschile",
@@ -1233,7 +1539,9 @@
     "definition": "Appellativo di una persona.",
     "antonyms": [
       "cognome"
-    ]
+    ],
+    "article": "il",
+    "plural": "nomi"
   },
   "occhio": {
     "gender": "Maschile",
@@ -1241,7 +1549,9 @@
     "definition": "Organo della vista.",
     "antonyms": [
       "orecchio"
-    ]
+    ],
+    "article": "l'",
+    "plural": "occhi"
   },
   "orologio": {
     "gender": "Maschile",
@@ -1249,7 +1559,9 @@
     "definition": "Strumento per misurare il tempo.",
     "antonyms": [
       "calendario"
-    ]
+    ],
+    "article": "l'",
+    "plural": "orologi"
   },
   "ospedale": {
     "gender": "Maschile",
@@ -1257,7 +1569,9 @@
     "definition": "Luogo di cura dei malati.",
     "antonyms": [
       "scuola"
-    ]
+    ],
+    "article": "l'",
+    "plural": "ospedali"
   },
   "piede": {
     "gender": "Maschile",
@@ -1265,7 +1579,9 @@
     "definition": "Parte finale della gamba.",
     "antonyms": [
       "mano"
-    ]
+    ],
+    "article": "il",
+    "plural": "piedi"
   },
   "poeta": {
     "gender": "Maschile",
@@ -1273,7 +1589,9 @@
     "definition": "Chi scrive poesie.",
     "antonyms": [
       "lettore"
-    ]
+    ],
+    "article": "il",
+    "plural": "poeti"
   },
   "pomodoro": {
     "gender": "Maschile",
@@ -1281,7 +1599,9 @@
     "definition": "Ortaggio rosso commestibile.",
     "antonyms": [
       "patata"
-    ]
+    ],
+    "article": "il",
+    "plural": "pomodori"
   },
   "ponte": {
     "gender": "Maschile",
@@ -1289,7 +1609,9 @@
     "definition": "Struttura sopra un fiume.",
     "antonyms": [
       "strada"
-    ]
+    ],
+    "article": "il",
+    "plural": "ponti"
   },
   "porto": {
     "gender": "Maschile",
@@ -1297,7 +1619,9 @@
     "definition": "Luogo d'approdo delle navi.",
     "antonyms": [
       "aeroporto"
-    ]
+    ],
+    "article": "il",
+    "plural": "porti"
   },
   "prato": {
     "gender": "Maschile",
@@ -1305,7 +1629,9 @@
     "definition": "Terreno eroso d'erba.",
     "antonyms": [
       "bosco"
-    ]
+    ],
+    "article": "il",
+    "plural": "prati"
   },
   "prezzo": {
     "gender": "Maschile",
@@ -1313,7 +1639,9 @@
     "definition": "Valore in denaro di una cosa.",
     "antonyms": [
       "sconto"
-    ]
+    ],
+    "article": "il",
+    "plural": "prezzi"
   },
   "ragazzo": {
     "gender": "Maschile",
@@ -1321,7 +1649,9 @@
     "definition": "Giovane maschio.",
     "antonyms": [
       "ragazza"
-    ]
+    ],
+    "article": "il",
+    "plural": "ragazzi"
   },
   "regalo": {
     "gender": "Maschile",
@@ -1329,7 +1659,9 @@
     "definition": "Dono per un'occasione.",
     "antonyms": [
       "dito"
-    ]
+    ],
+    "article": "il",
+    "plural": "regali"
   },
   "riso": {
     "gender": "Maschile",
@@ -1337,7 +1669,9 @@
     "definition": "Cereale o atto del ridere.",
     "antonyms": [
       "pianto"
-    ]
+    ],
+    "article": "il",
+    "plural": "risi"
   },
   "spazio": {
     "gender": "Maschile",
@@ -1345,7 +1679,9 @@
     "definition": "Estensione indefinita.",
     "antonyms": [
       "tempo"
-    ]
+    ],
+    "article": "lo",
+    "plural": "spazi"
   },
   "specchio": {
     "gender": "Maschile",
@@ -1353,7 +1689,9 @@
     "definition": "Vetro che riflette.",
     "antonyms": [
       "muro"
-    ]
+    ],
+    "article": "lo",
+    "plural": "specchi"
   },
   "sport": {
     "gender": "Maschile",
@@ -1361,7 +1699,9 @@
     "definition": "Attività fisica ludica.",
     "antonyms": [
       "pigrizia"
-    ]
+    ],
+    "article": "lo",
+    "plural": "sport"
   },
   "stivali": {
     "gender": "Maschile",
@@ -1369,7 +1709,9 @@
     "definition": "Calzature alte.",
     "antonyms": [
       "scarpe"
-    ]
+    ],
+    "article": "gli",
+    "plural": "stivali"
   },
   "tavolo": {
     "gender": "Maschile",
@@ -1377,7 +1719,9 @@
     "definition": "Mobile con gambe e piano.",
     "antonyms": [
       "sedia"
-    ]
+    ],
+    "article": "il",
+    "plural": "tavoli"
   },
   "uomo": {
     "gender": "Maschile",
@@ -1385,7 +1729,9 @@
     "definition": "Essere umano maschio.",
     "antonyms": [
       "donna"
-    ]
+    ],
+    "article": "l'",
+    "plural": "uomini"
   },
   "uovo": {
     "gender": "Maschile",
@@ -1394,7 +1740,9 @@
     "antonyms": [
       "pane"
     ],
-    "grammar_rule": "💡 REMEMBER: Nom maschile al singolare ('l'uovo'), ma FENOMENO SOVRAPPIÙ cambia genere e diventa femminile al plurale ('le uova')."
+    "grammar_rule": "💡 REMEMBER: Nom maschile al singolare ('l'uovo'), ma FENOMENO SOVRAPPIÙ cambia genere e diventa femminile al plurale ('le uova').",
+    "article": "l'",
+    "plural": "uova"
   },
   "vaso": {
     "gender": "Maschile",
@@ -1402,7 +1750,9 @@
     "definition": "Contenitore per fiori.",
     "antonyms": [
       "fiori"
-    ]
+    ],
+    "article": "il",
+    "plural": "vasi"
   },
   "vino": {
     "gender": "Maschile",
@@ -1410,7 +1760,9 @@
     "definition": "Bevanda alcolica d'uva.",
     "antonyms": [
       "acqua"
-    ]
+    ],
+    "article": "il",
+    "plural": "vini"
   },
   "zucchero": {
     "gender": "Maschile",
@@ -1418,7 +1770,9 @@
     "definition": "Sostanza dolce bianca.",
     "antonyms": [
       "sale"
-    ]
+    ],
+    "article": "lo",
+    "plural": "zuccheri"
   },
   "arte": {
     "gender": "Femminile",
@@ -1436,7 +1790,8 @@
       "abl_sing": "dall'arte",
       "loc_sing": "in arte",
       "nom_plur": "le arti"
-    }
+    },
+    "plural": "arti"
   },
   "attore": {
     "gender": "Maschile",
@@ -1454,7 +1809,8 @@
       "abl_sing": "dall'attore",
       "loc_sing": "in attore",
       "nom_plur": "gli attori"
-    }
+    },
+    "plural": "attori"
   },
   "autunno": {
     "gender": "Maschile",
@@ -1472,7 +1828,8 @@
       "abl_sing": "dall'autunno",
       "loc_sing": "in autunno",
       "nom_plur": "gli autunni"
-    }
+    },
+    "plural": "autunni"
   },
   "bagno": {
     "gender": "Maschile",
@@ -1490,7 +1847,8 @@
       "abl_sing": "dal bagno",
       "loc_sing": "in bagno",
       "nom_plur": "i bagni"
-    }
+    },
+    "plural": "bagni"
   },
   "banca": {
     "gender": "Femminile",
@@ -1508,7 +1866,8 @@
       "abl_sing": "dalla banca",
       "loc_sing": "in banca",
       "nom_plur": "le banche"
-    }
+    },
+    "plural": "banche"
   },
   "barca": {
     "gender": "Femminile",
@@ -1526,7 +1885,8 @@
       "abl_sing": "dalla barca",
       "loc_sing": "in barca",
       "nom_plur": "le barche"
-    }
+    },
+    "plural": "barche"
   },
   "bicicletta": {
     "gender": "Femminile",
@@ -1544,7 +1904,8 @@
       "abl_sing": "dalla bicicletta",
       "loc_sing": "in bicicletta",
       "nom_plur": "le biciclette"
-    }
+    },
+    "plural": "biciclette"
   },
   "bottiglia": {
     "gender": "Femminile",
@@ -1562,7 +1923,8 @@
       "abl_sing": "dalla bottiglia",
       "loc_sing": "in bottiglia",
       "nom_plur": "le bottiglie"
-    }
+    },
+    "plural": "bottiglie"
   },
   "campagna": {
     "gender": "Femminile",
@@ -1580,7 +1942,8 @@
       "abl_sing": "dalla campagna",
       "loc_sing": "in campagna",
       "nom_plur": "le campagne"
-    }
+    },
+    "plural": "campagne"
   },
   "capitale": {
     "gender": "Femminile",
@@ -1598,7 +1961,8 @@
       "abl_sing": "dalla capitale",
       "loc_sing": "in capitale",
       "nom_plur": "le capitali"
-    }
+    },
+    "plural": "capitali"
   },
   "carne": {
     "gender": "Femminile",
@@ -1616,7 +1980,8 @@
       "abl_sing": "dalla carne",
       "loc_sing": "in carne",
       "nom_plur": "le carni"
-    }
+    },
+    "plural": "carni"
   },
   "classe": {
     "gender": "Femminile",
@@ -1634,7 +1999,8 @@
       "abl_sing": "dalla classe",
       "loc_sing": "in classe",
       "nom_plur": "le classi"
-    }
+    },
+    "plural": "classi"
   },
   "colore": {
     "gender": "Maschile",
@@ -1652,7 +2018,8 @@
       "abl_sing": "dal colore",
       "loc_sing": "in colore",
       "nom_plur": "i colori"
-    }
+    },
+    "plural": "colori"
   },
   "concerto": {
     "gender": "Maschile",
@@ -1670,7 +2037,8 @@
       "abl_sing": "dal concerto",
       "loc_sing": "in concerto",
       "nom_plur": "i concerti"
-    }
+    },
+    "plural": "concerti"
   },
   "festa": {
     "gender": "Femminile",
@@ -1688,7 +2056,8 @@
       "abl_sing": "dalla festa",
       "loc_sing": "in festa",
       "nom_plur": "le feste"
-    }
+    },
+    "plural": "feste"
   },
   "filosofia": {
     "gender": "Femminile",
@@ -1706,7 +2075,8 @@
       "abl_sing": "dalla filosofia",
       "loc_sing": "in filosofia",
       "nom_plur": "le filosofie"
-    }
+    },
+    "plural": "filosofie"
   },
   "giovane": {
     "gender": "Maschile",
@@ -1724,7 +2094,8 @@
       "abl_sing": "dal giovane",
       "loc_sing": "in giovane",
       "nom_plur": "i giovani"
-    }
+    },
+    "plural": "giovani"
   },
   "isola": {
     "gender": "Femminile",
@@ -1742,7 +2113,8 @@
       "abl_sing": "dall'isola",
       "loc_sing": "in isola",
       "nom_plur": "le isole"
-    }
+    },
+    "plural": "isole"
   },
   "lettera": {
     "gender": "Femminile",
@@ -1760,7 +2132,8 @@
       "abl_sing": "dalla lettera",
       "loc_sing": "in lettera",
       "nom_plur": "le lettere"
-    }
+    },
+    "plural": "lettere"
   },
   "madre": {
     "gender": "Femminile",
@@ -1778,7 +2151,8 @@
       "abl_sing": "dalla madre",
       "loc_sing": "in madre",
       "nom_plur": "le madri"
-    }
+    },
+    "plural": "madri"
   },
   "medico": {
     "gender": "Maschile",
@@ -1796,7 +2170,8 @@
       "abl_sing": "dal medico",
       "loc_sing": "in medico",
       "nom_plur": "i medici"
-    }
+    },
+    "plural": "medici"
   },
   "natura": {
     "gender": "Femminile",
@@ -1814,7 +2189,8 @@
       "abl_sing": "dalla natura",
       "loc_sing": "in natura",
       "nom_plur": "le nature"
-    }
+    },
+    "plural": "nature"
   },
   "parola": {
     "gender": "Femminile",
@@ -1832,7 +2208,8 @@
       "abl_sing": "dalla parola",
       "loc_sing": "in parola",
       "nom_plur": "le parole"
-    }
+    },
+    "plural": "parole"
   },
   "piazza": {
     "gender": "Femminile",
@@ -1850,6 +2227,7 @@
       "abl_sing": "dalla piazza",
       "loc_sing": "in piazza",
       "nom_plur": "le piazze"
-    }
+    },
+    "plural": "piazze"
   }
 }
