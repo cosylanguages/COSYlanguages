@@ -428,7 +428,7 @@
       "malattia"
     ],
     "article": "la",
-    "plural": "saluti"
+    "plural": "salute"
   },
   "malattia": {
     "gender": "Femminile",
@@ -507,7 +507,7 @@
     "antonyms": [
       "gonna"
     ],
-    "article": "il",
+    "article": "i",
     "plural": "pantaloni"
   },
   "cappello": {

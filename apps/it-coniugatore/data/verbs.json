@@ -1020,20 +1020,20 @@
         "cercheranno"
       ],
       "condizionale_presente": [
-        "cercerei",
-        "cerceresti",
-        "cercerebbe",
-        "cerceremmo",
-        "cercereste",
-        "cercrebbero"
+        "cercherei",
+        "cercheresti",
+        "cercherebbe",
+        "cercheremmo",
+        "cerchereste",
+        "cercherebbero"
       ],
       "cond": [
-        "cercerei",
-        "cerceresti",
-        "cercerebbe",
-        "cerceremmo",
-        "cercereste",
-        "cercrebbero"
+        "cercherei",
+        "cercheresti",
+        "cercherebbe",
+        "cercheremmo",
+        "cerchereste",
+        "cercherebbero"
       ],
       "congiuntivo_presente": [
         "che io cerchi",
@@ -1448,20 +1448,20 @@
         "giocheranno"
       ],
       "condizionale_presente": [
-        "giocerei",
-        "gioceresti",
-        "giocerebbe",
-        "gioceremmo",
-        "giocereste",
-        "giocrebbero"
+        "giocherei",
+        "giocheresti",
+        "giocherebbe",
+        "giocheremmo",
+        "giochereste",
+        "giocherebbero"
       ],
       "cond": [
-        "giocerei",
-        "gioceresti",
-        "giocerebbe",
-        "gioceremmo",
-        "giocereste",
-        "giocrebbero"
+        "giocherei",
+        "giocheresti",
+        "giocherebbe",
+        "giocheremmo",
+        "giochereste",
+        "giocherebbero"
       ],
       "congiuntivo_presente": [
         "che io giochi",
@@ -2732,20 +2732,20 @@
         "dimenticheranno"
       ],
       "condizionale_presente": [
-        "dimenticerei",
-        "dimenticeresti",
-        "dimenticerebbe",
-        "dimenticeremmo",
-        "dimenticereste",
-        "dimenticrebbero"
+        "dimenticherei",
+        "dimenticheresti",
+        "dimenticherebbe",
+        "dimenticheremmo",
+        "dimentichereste",
+        "dimenticherebbero"
       ],
       "cond": [
-        "dimenticerei",
-        "dimenticeresti",
-        "dimenticerebbe",
-        "dimenticeremmo",
-        "dimenticereste",
-        "dimenticrebbero"
+        "dimenticherei",
+        "dimenticheresti",
+        "dimenticherebbe",
+        "dimenticheremmo",
+        "dimentichereste",
+        "dimenticherebbero"
       ],
       "congiuntivo_presente": [
         "che io dimentichi",
@@ -2946,20 +2946,20 @@
         "spiegheranno"
       ],
       "condizionale_presente": [
-        "spiegerei",
-        "spiegeresti",
-        "spiegerebbe",
-        "spiegeremmo",
-        "spiegereste",
-        "spiegrebbero"
+        "spiegherei",
+        "spiegheresti",
+        "spiegherebbe",
+        "spiegheremmo",
+        "spieghereste",
+        "spiegherebbero"
       ],
       "cond": [
-        "spiegerei",
-        "spiegeresti",
-        "spiegerebbe",
-        "spiegeremmo",
-        "spiegereste",
-        "spiegrebbero"
+        "spiegherei",
+        "spiegheresti",
+        "spiegherebbe",
+        "spiegheremmo",
+        "spieghereste",
+        "spiegherebbero"
       ],
       "congiuntivo_presente": [
         "che io spieghi",
@@ -3160,20 +3160,20 @@
         "pagheranno"
       ],
       "condizionale_presente": [
-        "pagerei",
-        "pageresti",
-        "pagerebbe",
-        "pageremmo",
-        "pagereste",
-        "pagrebbero"
+        "pagherei",
+        "pagheresti",
+        "pagherebbe",
+        "pagheremmo",
+        "paghereste",
+        "pagherebbero"
       ],
       "cond": [
-        "pagerei",
-        "pageresti",
-        "pagerebbe",
-        "pageremmo",
-        "pagereste",
-        "pagrebbero"
+        "pagherei",
+        "pagheresti",
+        "pagherebbe",
+        "pagheremmo",
+        "paghereste",
+        "pagherebbero"
       ],
       "congiuntivo_presente": [
         "che io paghi",
@@ -11515,20 +11515,20 @@
         "bloccheranno"
       ],
       "condizionale_presente": [
-        "bloccerei",
-        "blocceresti",
-        "bloccerebbe",
-        "blocceremmo",
-        "bloccereste",
-        "bloccerrebbero"
+        "bloccherei",
+        "bloccheresti",
+        "bloccherebbe",
+        "bloccheremmo",
+        "blocchereste",
+        "bloccherebbero"
       ],
       "cond": [
-        "bloccerei",
-        "blocceresti",
-        "bloccerebbe",
-        "blocceremmo",
-        "bloccereste",
-        "bloccerrebbero"
+        "bloccherei",
+        "bloccheresti",
+        "bloccherebbe",
+        "bloccheremmo",
+        "blocchereste",
+        "bloccherebbero"
       ],
       "congiuntivo_presente": [
         "che io blocchi",
@@ -12634,113 +12634,6 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (cucinare un piatto)"
-  },
-  "decisione": {
-    "group": "1a coniugazione",
-    "level": "A2",
-    "definition": "Prendere una decisione.",
-    "antonyms": [
-      "esitare"
-    ],
-    "tenses": {
-      "presente": [
-        "decido",
-        "decidi",
-        "decida",
-        "decidiamo",
-        "decidate",
-        "decidano"
-      ],
-      "pres": [
-        "decido",
-        "decidi",
-        "decida",
-        "decidiamo",
-        "decidate",
-        "decidano"
-      ],
-      "imperfetto": [
-        "decidavo",
-        "decidavi",
-        "decidava",
-        "decidavamo",
-        "decidavate",
-        "decidavano"
-      ],
-      "imp": [
-        "decidavo",
-        "decidavi",
-        "decidava",
-        "decidavamo",
-        "decidavate",
-        "decidavano"
-      ],
-      "futuro_semplice": [
-        "deciderò",
-        "deciderai",
-        "deciderà",
-        "decideremo",
-        "deciderete",
-        "decideranno"
-      ],
-      "fut": [
-        "deciderò",
-        "deciderai",
-        "deciderà",
-        "decideremo",
-        "deciderete",
-        "decideranno"
-      ],
-      "condizionale_presente": [
-        "deciderei",
-        "decideresti",
-        "deciderebbe",
-        "decideremmo",
-        "decidereste",
-        "deciderrebbero"
-      ],
-      "cond": [
-        "deciderei",
-        "decideresti",
-        "deciderebbe",
-        "decideremmo",
-        "decidereste",
-        "deciderrebbero"
-      ],
-      "congiuntivo_presente": [
-        "che io decidi",
-        "che tu decidi",
-        "che egli decidi",
-        "che noi decidiamo",
-        "che voi decidiate",
-        "che essi decidino"
-      ],
-      "subj": [
-        "che io decidi",
-        "che tu decidi",
-        "che egli decidi",
-        "che noi decidiamo",
-        "che voi decidiate",
-        "che essi decidino"
-      ],
-      "imperativo": [
-        "decida!",
-        "decidiamo!",
-        "decidate!"
-      ],
-      "impv": [
-        "decida!",
-        "decidiamo!",
-        "decidate!"
-      ],
-      "participio_passato": [
-        "deciso"
-      ],
-      "part": [
-        "deciso"
-      ]
-    },
-    "usage_hint": "decidere di (fare qualcosa)"
   },
   "descrivere": {
     "group": "2a coniugazione",
@@ -14702,83 +14595,6 @@
     },
     "usage_hint": "dare (qualcosa) a (qualcuno)"
   },
-  "entrari": {
-    "group": "are",
-    "auxiliary": "essere",
-    "level": "A1",
-    "definition": "Passare all'interno.",
-    "antonyms": [
-      "uscire"
-    ],
-    "tenses": {
-      "pres": [
-        "io entro",
-        "tu entri",
-        "lui/lei entra",
-        "noi entriamo",
-        "voi entrate",
-        "loro entrano"
-      ],
-      "pass_comp": [
-        "io sono entrato",
-        "tu sei entrato",
-        "lui/lei è entrato",
-        "noi siamo entrato",
-        "voi siete entrato",
-        "loro sono entrato"
-      ],
-      "pc": [
-        "io sono entrato",
-        "tu sei entrato",
-        "lui/lei è entrato",
-        "noi siamo entrato",
-        "voi siete entrato",
-        "loro sono entrato"
-      ],
-      "impf": [
-        "io entravo",
-        "tu entravi",
-        "lui/lei entrava",
-        "noi entravamo",
-        "voi entravate",
-        "loro entravano"
-      ],
-      "fut": [
-        "io entrerò",
-        "tu entrerai",
-        "lui/lei entrerà",
-        "noi entreremo",
-        "voi entrerete",
-        "loro entreranno"
-      ],
-      "cond": [
-        "io entrerei",
-        "tu entrereresti",
-        "lui/lei entrererebbe",
-        "noi entrereremmo",
-        "voi entrerereste",
-        "loro entrererebbero"
-      ],
-      "subj": [
-        "che io entrarii",
-        "che tu entrarii",
-        "che lui/lei entrarii",
-        "che noi entrariiamo",
-        "che voi entrariiate",
-        "che loro entrariino"
-      ],
-      "impv": [
-        "entraria",
-        "entrariiamo",
-        "entrariate"
-      ],
-      "part": [
-        "entrariante",
-        "entrariato"
-      ]
-    },
-    "usage_hint": "intransitivo: entrare in / a"
-  },
   "mangiare": {
     "group": "are",
     "auxiliary": "avere",
@@ -15291,12 +15107,12 @@
         "loro mancheranno"
       ],
       "cond": [
-        "io mancherei",
-        "tu manchereresti",
-        "lui/lei manchererebbe",
-        "noi manchereremmo",
-        "voi mancherereste",
-        "loro manchererebbero"
+        "mancherei",
+        "mancheresti",
+        "mancherebbe",
+        "mancheremmo",
+        "manchereste",
+        "mancherebbero"
       ],
       "subj": [
         "che io manci",
@@ -15314,6 +15130,14 @@
       "part": [
         "mancante",
         "mancato"
+      ],
+      "condizionale_presente": [
+        "mancherei",
+        "mancheresti",
+        "mancherebbe",
+        "mancheremmo",
+        "manchereste",
+        "mancherebbero"
       ]
     },
     "usage_hint": "mancare a (qualcuno: mi manchi)"
@@ -17165,5 +16989,157 @@
       ]
     },
     "usage_hint": "avvisare (qualcuno) di (qualcosa)"
+  },
+  "interessare": {
+    "group": "1ª coniugazione (-are)",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Attrarre l'attenzione o la curiosità di qualcuno.",
+    "antonyms": [
+      "annoiare"
+    ],
+    "usage_hint": "interessare + oggetto diretto / interessarsi a/di",
+    "tenses": {
+      "presente": [
+        "interesso",
+        "interessi",
+        "interessa",
+        "interessiamo",
+        "interessate",
+        "interessano"
+      ],
+      "pres": [
+        "interesso",
+        "interessi",
+        "interessa",
+        "interessiamo",
+        "interessate",
+        "interessano"
+      ],
+      "imperfetto": [
+        "interessavo",
+        "interessavi",
+        "interessava",
+        "interessavamo",
+        "interessavate",
+        "interessavano"
+      ],
+      "imp": [
+        "interessavo",
+        "interessavi",
+        "interessava",
+        "interessavamo",
+        "interessavate",
+        "interessavano"
+      ],
+      "futuro_semplice": [
+        "interesserò",
+        "interesserai",
+        "interesserà",
+        "interesseremo",
+        "interesserete",
+        "interesseranno"
+      ],
+      "fut": [
+        "interesserò",
+        "interesserai",
+        "interesserà",
+        "interesseremo",
+        "interesserete",
+        "interesseranno"
+      ],
+      "condizionale_presente": [
+        "interesserei",
+        "interesseresti",
+        "interesserebbe",
+        "interesseremmo",
+        "interessereste",
+        "interesserebbero"
+      ],
+      "cond": [
+        "interesserei",
+        "interesseresti",
+        "interesserebbe",
+        "interesseremmo",
+        "interessereste",
+        "interesserebbero"
+      ]
+    }
+  },
+  "discutere": {
+    "group": "2ª coniugazione (-ere)",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Esaminare un argomento con altre persone.",
+    "antonyms": [
+      "tacere"
+    ],
+    "usage_hint": "discutere di (qualcosa) con (qualcuno)",
+    "tenses": {
+      "presente": [
+        "discuto",
+        "discuti",
+        "discute",
+        "discutiamo",
+        "discutete",
+        "discutono"
+      ],
+      "pres": [
+        "discuto",
+        "discuti",
+        "discute",
+        "discutiamo",
+        "discutete",
+        "discutono"
+      ],
+      "imperfetto": [
+        "discutevo",
+        "discutevi",
+        "discuteva",
+        "discutevamo",
+        "discutevate",
+        "discutevano"
+      ],
+      "imp": [
+        "discutevo",
+        "discutevi",
+        "discuteva",
+        "discutevamo",
+        "discutevate",
+        "discutevano"
+      ],
+      "futuro_semplice": [
+        "discuterò",
+        "discuterai",
+        "discuterà",
+        "discuteremo",
+        "discuterete",
+        "discuteranno"
+      ],
+      "fut": [
+        "discuterò",
+        "discuterai",
+        "discuterà",
+        "discuteremo",
+        "discuterete",
+        "discuteranno"
+      ],
+      "condizionale_presente": [
+        "discuterei",
+        "discuteresti",
+        "discuterebbe",
+        "discuteremmo",
+        "discutereste",
+        "discuterebbero"
+      ],
+      "cond": [
+        "discuterei",
+        "discuteresti",
+        "discuterebbe",
+        "discuteremmo",
+        "discutereste",
+        "discuterebbero"
+      ]
+    }
   }
 }
