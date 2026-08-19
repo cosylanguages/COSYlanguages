@@ -56,6 +56,7 @@ class ItalianConjugationEngine {
                 group: q.endsWith('are') ? '1ª coniugazione (-are)' : 'Coniugazione regolare',
                 auxiliary: 'avere',
                 definition: `Azione del verbo ${q}.`,
+                usage_hint: `${q} + oggetto diretto`,
                 antonyms: [],
                 tenses: {
                     pres: [`io ${stem}o`, `tu ${stem}i`, `lui/lei ${stem}a`, `noi ${stem}iamo`, `voi ${stem}ate`, `loro ${stem}ano`],
@@ -98,6 +99,14 @@ class ItalianConjugationEngine {
         }
         levelBadge.textContent = `Livello: ${data.level || 'A1'}`;
         document.getElementById('verb-definition').textContent = data.definition;
+
+        const usageBox = document.getElementById('usage-container');
+        const usageHintEl = document.getElementById('verb-usage-hint');
+        if (usageHintEl) {
+            const usage = data.usage_hint || `${verb} + oggetto diretto`;
+            usageHintEl.textContent = usage;
+            if (usageBox) usageBox.style.display = 'flex';
+        }
 
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {

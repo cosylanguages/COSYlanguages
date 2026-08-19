@@ -441,6 +441,22 @@ body {
     color: var(--ink-text);
 }
 
+.usage-block {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    background-color: #f0f7f4;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--sage-primary);
+}
+
+.usage-text {
+    font-weight: 600;
+    color: var(--sage-primary);
+}
+
 .antonyms-block {
     display: flex;
     align-items: center;

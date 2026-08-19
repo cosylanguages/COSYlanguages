@@ -55,6 +55,7 @@ class GreekConjugationEngine {
                 group: 'Τύπος Α\' (-ω)',
                 voice: 'Ενεργητική Φωνή',
                 definition: `Ρήμα (${q}).`,
+                usage_hint: `${q} + αιτιατική (άμεσο αντικείμενο)`,
                 antonyms: [],
                 tenses: {
                     pres: [`εγώ ${stem}ω`, `εσύ ${stem}εις`, `αυτός ${stem}ει`, `εμείς ${stem}ουμε`, `εσείς ${stem}ετε`, `αυτοί ${stem}ουν`],
@@ -88,6 +89,14 @@ class GreekConjugationEngine {
         document.getElementById('verb-group-badge').textContent = data.group;
         document.getElementById('verb-voice-badge').textContent = data.voice;
         document.getElementById('verb-definition').textContent = data.definition;
+
+        const usageBox = document.getElementById('usage-container');
+        const usageHintEl = document.getElementById('verb-usage-hint');
+        if (usageHintEl) {
+            const usage = data.usage_hint || `${verb} + αιτιατική (άμεσο αντικείμενο)`;
+            usageHintEl.textContent = usage;
+            if (usageBox) usageBox.style.display = 'flex';
+        }
 
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {
