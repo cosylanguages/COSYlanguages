@@ -34,7 +34,7 @@ class ItalianConjugationEngine {
         if (!q) { box.style.display = 'none'; return; }
         const matches = Object.keys(this.verbDb).filter(v => v.startsWith(q));
         if (matches.length > 0) {
-            box.innerHTML = matches.map(v => `
+            box.innerHTML = matches.slice(0, 6).map(v => `
                 <div class="suggestion-item" onclick="appEngine.searchVerb('${v}')">
                     <span><strong>${v}</strong></span>
                     <span>${this.verbDb[v].group}</span>
@@ -46,14 +46,14 @@ class ItalianConjugationEngine {
 
     searchVerb(query) {
         const q = query.trim().toLowerCase();
-        document.getElementById('search-suggestions').style.display = 'none';
+        const box = document.getElementById('search-suggestions');
+        if (box) box.style.display = 'none';
         if (this.verbDb[q]) {
             this.renderVerb(q, this.verbDb[q]);
         } else if (q) {
-            // Rule fallback for regular -are, -ere, -ire
             let stem = q.slice(0, -3);
             this.renderVerb(q, {
-                group: q.endsWith('are') ? '1ª coniugazione (-are)' : 'Coniugazione regolare',
+                group: q.endsWith('are') ? '1ª coniugazione (-are)' : (q.endsWith('ere') ? '2ª coniugazione (-ere)' : '3ª coniugazione (-ire)'),
                 auxiliary: 'avere',
                 definition: `Azione del verbo ${q}.`,
                 usage_hint: `${q} + oggetto diretto`,
@@ -61,8 +61,17 @@ class ItalianConjugationEngine {
                 tenses: {
                     pres: [`io ${stem}o`, `tu ${stem}i`, `lui/lei ${stem}a`, `noi ${stem}iamo`, `voi ${stem}ate`, `loro ${stem}ano`],
                     imp: [`io ${stem}avo`, `tu ${stem}avi`, `lui/lei ${stem}ava`, `noi ${stem}avamo`, `voi ${stem}avate`, `loro ${stem}avano`],
-                    pc: [`io ho ${stem}ato`, `tu hai ${stem}ato`, `lui/lei ha ${stem}ato`, `noi abbiamo ${stem}ato`, `voi avete ${stem}ato`, `loro hanno ${stem}ato`],
-                    fut: [`io ${stem}erò`, `tu ${stem}erai`, `lui/lei ${stem}erà`, `noi ${stem}eremo`, `voi ${stem}erete`, `loro ${stem}eranno`]
+                    pc: [`ho ${stem}ato`, `hai ${stem}ato`, `ha ${stem}ato`, `abbiamo ${stem}ato`, `avete ${stem}ato`, `hanno ${stem}ato`],
+                    trap_pass: [`avevo ${stem}ato`, `avevi ${stem}ato`, `aveva ${stem}ato`, `avevamo ${stem}ato`, `avevate ${stem}ato`, `avevano ${stem}ato`],
+                    fut: [`io ${stem}erò`, `tu ${stem}erai`, `lui/lei ${stem}erà`, `noi ${stem}eremo`, `voi ${stem}erete`, `loro ${stem}eranno`],
+                    fut_ant: [`avrò ${stem}ato`, `avrai ${stem}ato`, `avrà ${stem}ato`, `avremo ${stem}ato`, `avrete ${stem}ato`, `avranno ${stem}ato`],
+                    subj: [`che io ${stem}i`, `che tu ${stem}i`, `che lui/lei ${stem}i`, `che noi ${stem}iamo`, `che voi ${stem}iate`, `che loro ${stem}ino`],
+                    subj_pass: [`abbia ${stem}ato`, `abbia ${stem}ato`, `abbia ${stem}ato`, `abbiamo ${stem}ato`, `abbiate ${stem}ato`, `abbiano ${stem}ato`],
+                    subj_imp: [`${stem}assi`, `${stem}assi`, `${stem}asse`, `${stem}assimo`, `${stem}aste`, `${stem}assero`],
+                    cond: [`${stem}erei`, `${stem}eresti`, `${stem}erebbe`, `${stem}eremmo`, `${stem}ereste`, `${stem}erebbero`],
+                    cond_pass: [`avrei ${stem}ato`, `avresti ${stem}ato`, `avrebbe ${stem}ato`, `avremmo ${stem}ato`, `avreste ${stem}ato`, `avrebbero ${stem}ato`],
+                    impv: [`${stem}a!`, `${stem}iamo!`, `${stem}ate!`],
+                    part: [`${stem}ando`, `${stem}ato`]
                 }
             });
         }
@@ -128,14 +137,25 @@ class ItalianConjugationEngine {
         }
 
         const pronouns = ['io', 'tu', 'lui/lei', 'noi', 'voi', 'loro'];
+        const tenseIdList = ['pres', 'imp', 'pc', 'trap_pass', 'fut', 'fut_ant', 'subj', 'subj_pass', 'subj_imp', 'cond', 'cond_pass', 'impv', 'part'];
+
         const tenseAliases = {
             pres: ['pres', 'presente'],
             imp: ['imp', 'imperfetto', 'impf'],
             pc: ['pc', 'pass_comp', 'passato_prossimo'],
-            fut: ['fut', 'futuro_semplice', 'futuro']
+            trap_pass: ['trap_pass', 'trapassato_prossimo'],
+            fut: ['fut', 'futuro_semplice', 'futuro'],
+            fut_ant: ['fut_ant', 'futuro_anteriore'],
+            subj: ['subj', 'congiuntivo_presente'],
+            subj_pass: ['subj_pass', 'congiuntivo_passato'],
+            subj_imp: ['subj_imp', 'congiuntivo_imperfetto'],
+            cond: ['cond', 'condizionale_presente'],
+            cond_pass: ['cond_pass', 'condizionale_passato'],
+            impv: ['impv', 'imperativo'],
+            part: ['part', 'participio_passato']
         };
 
-        for (let t of ['pres', 'imp', 'pc', 'fut']) {
+        for (let t of tenseIdList) {
             const list = document.getElementById(`tense-${t}`);
             let forms = null;
             if (data.tenses) {
@@ -147,9 +167,10 @@ class ItalianConjugationEngine {
                 }
             }
             if (list && forms) {
-                list.innerHTML = forms.map((f, i) => `
-                    <li><span class="pronoun">${pronouns[i] || ''}</span> <span>${this.formatColorCoded(f)}</span></li>
-                `).join('');
+                list.innerHTML = forms.map((f, i) => {
+                    const cleanForm = f.replace(/^(io|tu|lui\/lei|lui|lei|noi|voi|loro|che io|che tu|che lui\/lei|che noi|che voi|che loro)\s+/i, '').trim();
+                    return `<li><span class="pronoun">${pronouns[i] || ''}</span> <span>${this.formatColorCoded(cleanForm)}</span></li>`;
+                }).join('');
             }
         }
     }
@@ -169,7 +190,8 @@ class ItalianConjugationEngine {
         const data = this.verbDb[randomVerb];
         const pronouns = ['io', 'tu', 'lui/lei', 'noi', 'voi', 'loro'];
         const pIdx = Math.floor(Math.random() * 6);
-        const target = data.tenses.pres[pIdx].replace(/^(io|tu|lui\/lei|noi|voi|loro)\s+/i, '');
+        const presForms = data.tenses.pres || data.tenses.presente || [];
+        const target = presForms[pIdx] ? presForms[pIdx].replace(/^(io|tu|lui\/lei|noi|voi|loro)\s+/i, '') : 'parla';
 
         this.currentQuestion = { verb: randomVerb, pronoun: pronouns[pIdx], expected: target };
         document.getElementById('game-verb-prompt').textContent = randomVerb;

@@ -34,7 +34,7 @@ class GreekConjugationEngine {
         if (!q) { box.style.display = 'none'; return; }
         const matches = Object.keys(this.verbDb).filter(v => v.startsWith(q));
         if (matches.length > 0) {
-            box.innerHTML = matches.map(v => `
+            box.innerHTML = matches.slice(0, 6).map(v => `
                 <div class="suggestion-item" onclick="appEngine.searchVerb('${v}')">
                     <span><strong>${v}</strong></span>
                     <span>${this.verbDb[v].group}</span>
@@ -46,7 +46,8 @@ class GreekConjugationEngine {
 
     searchVerb(query) {
         const q = query.trim().toLowerCase();
-        document.getElementById('search-suggestions').style.display = 'none';
+        const box = document.getElementById('search-suggestions');
+        if (box) box.style.display = 'none';
         if (this.verbDb[q]) {
             this.renderVerb(q, this.verbDb[q]);
         } else if (q) {
@@ -61,7 +62,11 @@ class GreekConjugationEngine {
                     pres: [`εγώ ${stem}ω`, `εσύ ${stem}εις`, `αυτός ${stem}ει`, `εμείς ${stem}ουμε`, `εσείς ${stem}ετε`, `αυτοί ${stem}ουν`],
                     imp: [`εγώ έ${stem}α`, `εσύ έ${stem}ες`, `αυτός έ${stem}ε`, `εμείς ${stem}αμε`, `εσείς ${stem}ατε`, `αυτοί έ${stem}αν`],
                     aor: [`εγώ έ${stem}α`, `εσύ έ${stem}ες`, `αυτός έ${stem}ε`, `εμείς ${stem}αμε`, `εσείς ${stem}ατε`, `αυτοί έ${stem}αν`],
-                    fut: [`εγώ θα ${stem}ω`, `εσύ θα ${stem}εις`, `αυτός θα ${stem}ει`, `εμείς θα ${stem}ουμε`, `εσείς θα ${stem}ετε`, `αυτοί θα ${stem}ουν`]
+                    fut: [`εγώ θα ${stem}ω`, `εσύ θα ${stem}εις`, `αυτός θα ${stem}ει`, `εμείς θα ${stem}ουμε`, `εσείς θα ${stem}ετε`, `αυτοί θα ${stem}ουν`],
+                    perf: [`εγώ έχω ${stem}ει`, `εσύ έχεις ${stem}ει`, `αυτός έχει ${stem}ει`, `εμείς έχουμε ${stem}ει`, `εσείς έχετε ${stem}ει`, `αυτοί έχουν ${stem}ει`],
+                    subj: [`να ${stem}ω`, `να ${stem}εις`, `να ${stem}ει`, `να ${stem}ουμε`, `να ${stem}ετε`, `να ${stem}ουν`],
+                    cond: [`θα έ${stem}α`, `θα έ${stem}ες`, `θα έ${stem}ε`, `θα ${stem}αμε`, `θα ${stem}ατε`, `θα έ${stem}αν`],
+                    impv: [`${stem}ε!`, `${stem}τε!`]
                 }
             });
         }
@@ -87,7 +92,7 @@ class GreekConjugationEngine {
         document.getElementById('verb-result-container').style.display = 'block';
         document.getElementById('verb-infinitive').textContent = verb;
         document.getElementById('verb-group-badge').textContent = data.group;
-        document.getElementById('verb-voice-badge').textContent = data.voice;
+        document.getElementById('verb-voice-badge').textContent = data.voice || '—';
 
         let levelBadge = document.getElementById('verb-cefr-badge');
         if (!levelBadge) {
@@ -127,12 +132,15 @@ class GreekConjugationEngine {
         } else document.getElementById('antonyms-container').style.display = 'none';
 
         const pronouns = ['εγώ', 'εσύ', 'αυτός/αυτή', 'εμείς', 'εσείς', 'αυτοί/αυτές'];
-        for (let t of ['pres', 'imp', 'aor', 'fut']) {
+        const tenseIdList = ['pres', 'imp', 'aor', 'fut', 'perf', 'subj', 'cond', 'impv'];
+
+        for (let t of tenseIdList) {
             const list = document.getElementById(`tense-${t}`);
-            if (list && data.tenses[t]) {
-                list.innerHTML = data.tenses[t].map((f, i) => `
-                    <li><span class="pronoun">${pronouns[i]}</span> <span>${this.formatColorCoded(f)}</span></li>
-                `).join('');
+            if (list && data.tenses && data.tenses[t]) {
+                list.innerHTML = data.tenses[t].map((f, i) => {
+                    const cleanForm = f.replace(/^(εγώ|εσύ|αυτός\/αυτή|αυτός|αυτή|εμείς|εσείς|αυτοί\/αυτές|αυτοί|αυτές)\s+/i, '').trim();
+                    return `<li><span class="pronoun">${pronouns[i] || ''}</span> <span>${this.formatColorCoded(cleanForm)}</span></li>`;
+                }).join('');
             }
         }
     }
@@ -152,7 +160,8 @@ class GreekConjugationEngine {
         const data = this.verbDb[randomVerb];
         const pronouns = ['εγώ', 'εσύ', 'αυτός/αυτή', 'εμείς', 'εσείς', 'αυτοί/αυτές'];
         const pIdx = Math.floor(Math.random() * 6);
-        const rawTarget = data.tenses.pres[pIdx];
+        const presForms = data.tenses.pres || [];
+        const rawTarget = presForms[pIdx] || 'γράφει';
         const target = rawTarget.replace(/^(εγώ|εσύ|αυτός\/αυτή|εμείς|εσείς|αυτοί\/αυτές)\s+/i, '').trim();
 
         this.currentQuestion = { verb: randomVerb, pronoun: pronouns[pIdx], expected: target };

@@ -29,7 +29,7 @@
             <section id="search-section-container" class="search-section">
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="verb-search-input" placeholder="Введите глагол (например: читать, любить, делать)..." autocomplete="off" autofocus>
+                    <input type="text" id="verb-search-input" placeholder="Введите глагол (например: читать, любить, знать, мочь)..." autocomplete="off" autofocus>
                     <button id="clear-search-btn" class="clear-btn">&times;</button>
                 </div>
                 <div id="search-suggestions" class="suggestions-list"></div>
@@ -91,11 +91,14 @@
 
                 <div class="tense-grid-layout">
                     <div class="mode-section">
-                        <h3>Формы глагола</h3>
+                        <h3>Времена и наклонения</h3>
                         <div class="tense-cards">
                             <div class="tense-card"><h4>Настоящее время</h4><ul id="tense-pres" class="conjugation-list"></ul></div>
                             <div class="tense-card"><h4>Прошедшее время</h4><ul id="tense-past" class="conjugation-list"></ul></div>
                             <div class="tense-card"><h4>Будущее время</h4><ul id="tense-fut" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Условное наклонение</h4><ul id="tense-cond" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Повелительное наклонение</h4><ul id="tense-impv" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Причастие & Деепричастие</h4><ul id="tense-part" class="conjugation-list"></ul></div>
                         </div>
                     </div>
                 </div>
@@ -109,7 +112,8 @@
                     <span>Быстрый выбор:</span>
                     <button class="tag-btn" onclick="appEngine.searchVerb('читать')">читать</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('любить')">любить</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('делать')">делать</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('знать')">знать</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('мочь')">мочь</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('быть')">быть</button>
                 </div>
             </section>

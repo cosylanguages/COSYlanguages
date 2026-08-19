@@ -165,23 +165,23 @@ class ConjugationEngine {
             usage_hint: `${infinitive} + COD (complément d'objet direct)`,
             antonyms: [],
             tenses: {
-                indicatif_present: [`${jePronoun}${stem}e`, `tu ${stem}es`, `il/elle ${stem}e`, `nous ${stem}ons`, `vous ${stem}ez`, `ils/elles ${stem}ent`],
-                indicatif_imparfait: [`${jePronoun}${stem}ais`, `tu ${stem}ais`, `il/elle ${stem}ait`, `nous ${stem}ions`, `vous ${stem}iez`, `ils/elles ${stem}aient`],
+                pres: [`${jePronoun}${stem}e`, `tu ${stem}es`, `il/elle ${stem}e`, `nous ${stem}ons`, `vous ${stem}ez`, `ils/elles ${stem}ent`],
+                imp: [`${jePronoun}${stem}ais`, `tu ${stem}ais`, `il/elle ${stem}ait`, `nous ${stem}ions`, `vous ${stem}iez`, `ils/elles ${stem}aient`],
                 pc: [`j'ai ${stem}é`, `tu as ${stem}é`, `il/elle a ${stem}é`, `nous avons ${stem}é`, `vous avez ${stem}é`, `ils/elles ont ${stem}é`],
-                indicatif_futur_simple: [`${jePronoun}${infinitive}ai`, `tu ${infinitive}as`, `il/elle ${infinitive}a`, `nous ${infinitive}ons`, `vous ${infinitive}ez`, `ils/elles ${infinitive}ont`],
-                conditionnel_present: [`${jePronoun}${infinitive}ais`, `tu ${infinitive}ais`, `il/elle ${infinitive}ait`, `nous ${infinitive}ions`, `vous ${infinitive}iez`, `ils/elles ${infinitive}aient`],
-                subjonctif_present: [`${queJePronoun}${stem}e`, `que tu ${stem}es`, `qu'il/elle ${stem}e`, `que nous ${stem}ions`, `que vous ${stem}iez`, `qu'ils/elles ${stem}ent`],
-                imperatif: [`${stem}e !`, `${stem}ons !`, `${stem}ez !`],
-                participe_passe: [`${stem}é`]
+                pqp: [`j'avais ${stem}é`, `tu avais ${stem}é`, `il/elle avait ${stem}é`, `nous avions ${stem}é`, `vous aviez ${stem}é`, `ils/elles avaient ${stem}é`],
+                fut: [`${jePronoun}${infinitive}ai`, `tu ${infinitive}as`, `il/elle ${infinitive}a`, `nous ${infinitive}ons`, `vous ${infinitive}ez`, `ils/elles ${infinitive}ont`],
+                fut_ant: [`j'aurai ${stem}é`, `tu auras ${stem}é`, `il/elle aura ${stem}é`, `nous aurons ${stem}é`, `vous aurez ${stem}é`, `ils/elles auront ${stem}é`],
+                cond: [`${jePronoun}${infinitive}ais`, `tu ${infinitive}ais`, `il/elle ${infinitive}ait`, `nous ${infinitive}ions`, `vous ${infinitive}iez`, `ils/elles ${infinitive}aient`],
+                cond_pass: [`j'aurais ${stem}é`, `tu aurais ${stem}é`, `il/elle aurait ${stem}é`, `nous aurions ${stem}é`, `vous auriez ${stem}é`, `ils/elles auraient ${stem}é`],
+                subj: [`${queJePronoun}${stem}e`, `que tu ${stem}es`, `qu'il/elle ${stem}e`, `que nous ${stem}ions`, `que vous ${stem}iez`, `qu'ils/elles ${stem}ent`],
+                subj_pass: [`que j'aie ${stem}é`, `que tu aies ${stem}é`, `qu'il/elle ait ${stem}é`, `que nous ayons ${stem}é`, `que vous ayez ${stem}é`, `qu'ils/elles aient ${stem}é`],
+                impv: [`${stem}e !`, `${stem}ons !`, `${stem}ez !`],
+                part: [`${stem}ant`, `${stem}é`]
             }
         };
     }
 
-    /**
-     * Color-code regular verb endings for pattern recognition
-     */
     formatColorCodedForm(form, infinitive) {
-        // List of regular endings sorted by length descending
         const regularEndings = ['issent', 'issez', 'issons', 'issais', 'issait', 'issaient', 'issiez', 'issions', 'eraient', 'erions', 'eriez', 'erais', 'erait', 'eront', 'erez', 'erons', 'eras', 'erai', 'aient', 'ions', 'iez', 'ais', 'ait', 'ons', 'ez', 'ent', 'es', 'is', 'it', 'e', 's', 't', 'é'];
 
         let words = form.split(' ');
@@ -253,12 +253,16 @@ class ConjugationEngine {
             imp: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             indicatif_imparfait: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             pc: ["j'", "tu", "il/elle", "nous", "vous", "ils/elles"],
+            pqp: ["j'", "tu", "il/elle", "nous", "vous", "ils/elles"],
             fut: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             indicatif_futur_simple: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
+            fut_ant: ["j'", "tu", "il/elle", "nous", "vous", "ils/elles"],
             subj: ["que je", "que tu", "qu'il/elle", "que nous", "que vous", "qu'ils/elles"],
             subjonctif_present: ["que je", "que tu", "qu'il/elle", "que nous", "que vous", "qu'ils/elles"],
+            subj_pass: ["que j'", "que tu", "qu'il/elle", "que nous", "que vous", "qu'ils/elles"],
             cond: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             conditionnel_present: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
+            cond_pass: ["j'", "tu", "il/elle", "nous", "vous", "ils/elles"],
             impv: ["(2e pers.)", "(1re pl.)", "(2e pl.)"],
             imperatif: ["(2e pers.)", "(1re pl.)", "(2e pl.)"],
             part: ["Présent", "Passé"],
@@ -270,10 +274,15 @@ class ConjugationEngine {
             indicatif_imparfait: "imp",
             indicatif_futur_simple: "fut",
             conditionnel_present: "cond",
+            conditionnel_passe: "cond_pass",
             subjonctif_present: "subj",
+            subjonctif_passe: "subj_pass",
+            plus_que_parfait: "pqp",
+            futur_anterieur: "fut_ant",
             imperatif: "impv",
             participe_passe: "part",
-            pres: "pres", imp: "imp", pc: "pc", fut: "fut", subj: "subj", cond: "cond", impv: "impv", part: "part"
+            pres: "pres", imp: "imp", pc: "pc", pqp: "pqp", fut: "fut", fut_ant: "fut_ant",
+            subj: "subj", subj_pass: "subj_pass", cond: "cond", cond_pass: "cond_pass", impv: "impv", part: "part"
         };
 
         for (const [tenseKey, forms] of Object.entries(data.tenses)) {
@@ -281,7 +290,8 @@ class ConjugationEngine {
             const listEl = document.getElementById(`tense-${targetId}`);
             if (listEl) {
                 listEl.innerHTML = forms.map((form, idx) => {
-                    const formattedForm = this.formatColorCodedForm(form, infinitive);
+                    const cleanForm = form.replace(/^(je\s+|j'|tu\s+|il\/elle\s+|nous\s+|vous\s+|ils\/elles\s+|que\s+je\s+|que\s+j'|que\s+tu\s+|qu'il\/elle\s+|que\s+nous\s+|que\s+vous\s+|qu'ils\/elles\s+)/i, '').trim();
+                    const formattedForm = this.formatColorCodedForm(cleanForm, infinitive);
                     return `<li><span class="pronoun">${pronounsMap[tenseKey]?.[idx] || ''}</span> <span class="verb-form">${formattedForm}</span></li>`;
                 }).join('');
             }
@@ -331,12 +341,19 @@ class ConjugationEngine {
         const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
         const verbData = this.verbDb[randomVerb];
 
-        const tenseKeys = ['indicatif_present', 'indicatif_imparfait', 'indicatif_futur_simple', 'conditionnel_present'];
+        const tenseKeys = ['pres', 'imp', 'pc', 'fut', 'cond', 'subj'];
         const tenseNameMap = {
+            pres: 'Présent',
             indicatif_present: 'Présent',
+            imp: 'Imparfait',
             indicatif_imparfait: 'Imparfait',
+            pc: 'Passé composé',
+            fut: 'Futur simple',
             indicatif_futur_simple: 'Futur simple',
-            conditionnel_present: 'Conditionnel'
+            cond: 'Conditionnel Présent',
+            conditionnel_present: 'Conditionnel Présent',
+            subj: 'Subjonctif Présent',
+            subjonctif_present: 'Subjonctif Présent'
         };
         const pronouns = ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles'];
 
@@ -352,7 +369,6 @@ class ConjugationEngine {
         const targetForm = tenseForms[randomIdx];
         const pronoun = isSingleForm ? 'il/elle' : (pronouns[randomIdx] || 'il/elle');
 
-        // Clean full form to extract just the verb
         const cleanExpected = targetForm
             .replace(/^((je|tu|il\/elle|nous|vous|ils\/elles|que|qu'|que tu|que nous|que vous)\s+|j')/i, '')
             .trim();
@@ -361,13 +377,13 @@ class ConjugationEngine {
 
         this.currentQuestion = {
             verb: randomVerb,
-            tense: tenseNameMap[randomTense],
+            tense: tenseNameMap[randomTense] || 'Présent',
             pronoun: displayPronoun,
             expected: cleanExpected
         };
 
         document.getElementById('game-verb-prompt').textContent = randomVerb;
-        document.getElementById('game-tense-badge').textContent = tenseNameMap[randomTense];
+        document.getElementById('game-tense-badge').textContent = tenseNameMap[randomTense] || 'Présent';
         document.getElementById('game-pronoun-prompt').textContent = displayPronoun;
 
         const answerInput = document.getElementById('game-answer-input');
