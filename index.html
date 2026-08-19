@@ -130,7 +130,7 @@
   <div class="courses-grid summary-grid">
     <div class="course-card dark reveal" style="background: linear-gradient(135deg, var(--sage-deep), #1a2a1d);">
       <div class="cc-icon">
-        <img src="images/logos/cosylanguages.png" alt="General Course logo" style="height: 50px; width: auto;">
+        <img src="images/logos/cosylanguages.png" alt="General Course logo" loading="lazy" decoding="async" width="50" height="50" style="height: 50px; width: auto;">
       </div>
       <h3 class="cc-title" data-translate-key="course_general">General Course</h3>
       <p class="cc-desc" data-translate-key="course_general_desc">The complete journey — all four skills growing together. Structured, progressive, built around your real adult life.</p>
@@ -138,7 +138,7 @@
     </div>
     <div class="course-card reveal" style="background: linear-gradient(135deg, var(--coral), #8a3a1d); color: white;">
       <div class="cc-icon">
-        <img src="images/speakingclubs.png" alt="Spoken Course logo" style="height: 50px; width: auto;">
+        <img src="images/speakingclubs.png" alt="Spoken Course logo" loading="lazy" decoding="async" width="50" height="50" style="height: 50px; width: auto;">
       </div>
       <h3 class="cc-title" data-translate-key="course_spoken">Spoken Course</h3>
       <p class="cc-desc" data-translate-key="course_spoken_desc">No grammar tables. No worksheets. Just you, your teacher and a real conversation in 15 or 30 minute sessions.</p>
@@ -146,7 +146,7 @@
     </div>
     <div class="course-card reveal" style="background: linear-gradient(135deg, var(--plum), #4a3a2a); color: white;">
       <div class="cc-icon">
-        <img src="images/cosyexamchallenge.png" alt="Exam Preparation logo" style="height: 50px; width: auto;">
+        <img src="images/cosyexamchallenge.png" alt="Exam Preparation logo" loading="lazy" decoding="async" width="50" height="50" style="height: 50px; width: auto;">
       </div>
       <h3 class="cc-title" data-translate-key="course_exam">Exam Preparation</h3>
       <p class="cc-desc" data-translate-key="course_exam_desc">Authentic tasks, exact exam conditions. Focus on the oral component where it matters most.</p>
@@ -183,7 +183,7 @@
       if (activeGrid && window.COSY_ACTIVE_LANGUAGES) {
         activeGrid.innerHTML = window.COSY_ACTIVE_LANGUAGES.map(l => `
           <a href="languages/${l.code}/" class="lang-card">
-            <img src="images/languages/${l.img || 'cosylanguages.png'}" alt="${l.name}">
+            <img src="images/languages/${l.img || 'cosylanguages.png'}" alt="${l.name}" loading="lazy" decoding="async" width="56" height="56">
             <div class="lang-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
             <div class="lang-resource-teaser">Resources →</div>
           </a>
@@ -342,7 +342,7 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <div class="fb-logo">
-        <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo">
+        <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
         <span class="fb-name">COSYlanguages</span>
       </div>
       <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>

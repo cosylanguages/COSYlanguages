@@ -113,6 +113,7 @@
         if (document.getElementById('back-to-top')) return;
         const btn = document.createElement('button');
         btn.id = 'back-to-top'; btn.innerHTML = '↑'; btn.setAttribute('title', 'Back to Top');
+        btn.setAttribute('aria-label', 'Back to Top');
         document.body.appendChild(btn);
         window.addEventListener('scroll', () => {
             if (window.scrollY > 500) btn.classList.add('visible');
@@ -380,10 +381,12 @@
           el.classList.toggle('open');
           const body = el.querySelector('.vocab-body, .history-body, .history-session-body, .mistake-body');
           const toggle = el.querySelector('.round-toggle');
+          const header = el.querySelector('.round-header, .vocab-header, .mistake-header') || el;
           if (!body) return;
           const isVisible = el.classList.contains('open');
           body.style.display = isVisible ? 'block' : 'none';
           if (toggle) toggle.textContent = isVisible ? '▲' : '▼';
+          header.setAttribute('aria-expanded', isVisible ? 'true' : 'false');
         };
 
         window.COSY.toggleRound = function(id) {
@@ -392,10 +395,12 @@
           el.classList.toggle('open');
           const body = el.querySelector('.round-body');
           const toggle = el.querySelector('.round-toggle');
+          const header = el.querySelector('.round-header') || el;
           if (!body) return;
           const isVisible = el.classList.contains('open');
           body.style.display = isVisible ? 'block' : 'none';
           if (toggle) toggle.textContent = isVisible ? '▲' : '▼';
+          header.setAttribute('aria-expanded', isVisible ? 'true' : 'false');
         };
 
         window.COSY.toggleDict = function() {
@@ -631,19 +636,23 @@
         const contents = options.map(opt => opt.querySelector('vim-choice-option-content')?.innerHTML || '');
 
         this.innerHTML = `
-          <div class="vim-choice-tabs" style="display:flex;gap:5px;margin-bottom:10px;overflow-x:auto;padding-bottom:5px;">
-            ${titles.map((t, i) => `<button class="vim-tab-btn ${i === 0 ? 'active' : ''}" data-idx="${i}" style="padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:var(--surface-color);color:var(--ink);cursor:pointer;font-size:.75rem;white-space:nowrap;">${t}</button>`).join('')}
+          <div class="vim-choice-tabs" role="tablist" style="display:flex;gap:5px;margin-bottom:10px;overflow-x:auto;padding-bottom:5px;">
+            ${titles.map((t, i) => `<button class="vim-tab-btn ${i === 0 ? 'active' : ''}" role="tab" aria-selected="${i === 0 ? 'true' : 'false'}" data-idx="${i}" style="padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:var(--surface-color);color:var(--ink);cursor:pointer;font-size:.75rem;white-space:nowrap;">${t}</button>`).join('')}
           </div>
           <div class="vim-choice-content" style="border:1px solid var(--border);border-radius:10px;padding:15px;background:var(--surface-color);color:var(--ink);">
-            ${contents.map((c, i) => `<div class="vim-tab-pane" style="display:${i === 0 ? 'block' : 'none'};">${c}</div>`).join('')}
+            ${contents.map((c, i) => `<div class="vim-tab-pane" role="tabpanel" style="display:${i === 0 ? 'block' : 'none'};">${c}</div>`).join('')}
           </div>
         `;
 
         this.querySelectorAll('.vim-tab-btn').forEach(btn => {
           btn.addEventListener('click', () => {
             const idx = btn.dataset.idx;
-            this.querySelectorAll('.vim-tab-btn').forEach(b => b.classList.remove('active'));
+            this.querySelectorAll('.vim-tab-btn').forEach(b => {
+              b.classList.remove('active');
+              b.setAttribute('aria-selected', 'false');
+            });
             btn.classList.add('active');
+            btn.setAttribute('aria-selected', 'true');
             this.querySelectorAll('.vim-tab-pane').forEach((p, i) => p.style.display = i == idx ? 'block' : 'none');
           });
         });
@@ -5144,14 +5153,36 @@
         setupSessionMiniNav();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
 
-        // FAQ Toggle
+        // FAQ Toggle & ARIA Initialization
         document.querySelectorAll('.faq-item').forEach(item => {
             const btn = item.querySelector('.faq-q');
-            if (btn) btn.addEventListener('click', () => {
-                const isOpen = item.classList.contains('open');
-                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-                if (!isOpen) item.classList.add('open');
-            });
+            if (btn) {
+                btn.setAttribute('role', 'button');
+                btn.setAttribute('tabindex', '0');
+                btn.setAttribute('aria-expanded', item.classList.contains('open') ? 'true' : 'false');
+                btn.addEventListener('click', () => {
+                    const isOpen = item.classList.contains('open');
+                    document.querySelectorAll('.faq-item').forEach(i => {
+                        i.classList.remove('open');
+                        const b = i.querySelector('.faq-q');
+                        if (b) b.setAttribute('aria-expanded', 'false');
+                    });
+                    if (!isOpen) {
+                        item.classList.add('open');
+                        btn.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            }
+        });
+
+        // Initialize ARIA accessibility attributes on collapsible round headers
+        document.querySelectorAll('.round-block, .mistake-block').forEach(block => {
+            const header = block.querySelector('.round-header, .vocab-header, .mistake-header');
+            if (header) {
+                header.setAttribute('role', 'button');
+                header.setAttribute('tabindex', '0');
+                header.setAttribute('aria-expanded', block.classList.contains('open') ? 'true' : 'false');
+            }
         });
 
         // Mobile Nav Injection
@@ -5192,6 +5223,7 @@
             btn.id = 'cosy-tour-fab';
             btn.className = 'cosy-tour-fab';
             btn.title = 'Take a site tour! 🧭';
+            btn.setAttribute('aria-label', 'Open navigation help guide');
             const labelText = getTourText('guide') || 'Guide';
             btn.innerHTML = `<span class="ct-fab-icon">🧭</span> ${labelText}`;
             document.body.appendChild(btn);
