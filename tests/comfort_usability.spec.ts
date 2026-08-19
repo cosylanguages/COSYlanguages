@@ -135,4 +135,24 @@ test.describe('COSYlanguages Comfort, Usability & Responsive Adaptation', () => 
             }
         }
     });
+
+    test('Practice & Games pages dark theme adaptation on mobile viewport', async ({ page }) => {
+        await page.setViewportSize({ width: 390, height: 844 });
+        await page.goto('http://localhost:8080/practice/index.html');
+
+        await page.evaluate(() => {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        });
+
+        const bg = await page.evaluate(() => window.getComputedStyle(document.body).backgroundColor);
+        expect(bg).not.toBe('rgb(255, 255, 255)');
+
+        await page.goto('http://localhost:8080/games/index.html');
+        await page.evaluate(() => {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        });
+
+        const gameBg = await page.evaluate(() => window.getComputedStyle(document.body).backgroundColor);
+        expect(gameBg).not.toBe('rgb(255, 255, 255)');
+    });
 });
