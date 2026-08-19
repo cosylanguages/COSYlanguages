@@ -130,7 +130,11 @@ html[data-theme="dark"], body.theme-dark {
 }
 
 
-/* MOBILE MENU */
+/* MOBILE MENU & BOTTOM NAV */
+.mobile-nav {
+  display: none;
+}
+
 #cosy-mobile-menu {
   display: none; position: fixed;
   top: 64px; left: 0; right: 0; bottom: 0;
@@ -156,11 +160,22 @@ html[data-theme="dark"], body.theme-dark {
   border-radius: 100px; margin-top: .5rem; font-weight: 700;
 }
 
-
 @media (max-width: 800px) {
   #cosy-nav { padding: 0 1rem; }
   .nav-links { display: none !important; }
   .nav-menu-btn { display: block !important; }
+  .mobile-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: rgba(253,248,240,.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid var(--border);
+    padding-bottom: max(var(--safe-bottom, 0px), 8px);
+    box-shadow: 0 -4px 24px rgba(46,74,51,.08);
+  }
 }
 
 /* ── Buttons (Unified Cosy Button System) ──────────── */
@@ -373,7 +388,7 @@ html[data-theme="dark"], body.theme-dark {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    z-index: 500;
+    z-index: 1045;
     width: 60px;
     height: 60px;
     border-radius: 100px;
@@ -384,9 +399,50 @@ html[data-theme="dark"], body.theme-dark {
     justify-content: center;
     font-size: 1.8rem;
     box-shadow: 0 10px 30px rgba(37,211,102,.3);
-    transition: all .2s;
+    transition: transform 0.25s ease, background-color 0.2s ease, box-shadow 0.25s ease, bottom 0.25s ease, right 0.25s ease;
 }
-.wa-fab:hover { transform: scale(1.1); }
+.wa-fab:hover { transform: scale(1.08); }
+
+/* ── Back to Top Floating Button ── */
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 14rem;
+  z-index: 2005;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--sage, #416b49);
+  color: #ffffff;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease, background-color 0.2s ease, box-shadow 0.25s ease, bottom 0.25s ease, right 0.25s ease;
+}
+
+#back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+#back-to-top:hover {
+  background: var(--sage-dark, #375742);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+#back-to-top:active {
+  transform: translateY(0);
+}
 
 /* ── Specialized Cards ─────────────────────────────── */
 .step {
@@ -586,11 +642,27 @@ html[data-theme="dark"], body.theme-dark {
 
 @media (max-width: 800px) {
   #dict-fab {
-    bottom: 5.5rem; /* Above mobile nav */
+    bottom: calc(72px + var(--safe-bottom, 0px)); /* Above mobile nav */
     right: 1rem;
+    z-index: 1050;
+  }
+  .wa-fab {
+    bottom: calc(72px + var(--safe-bottom, 0px));
+    right: 4.8rem;
+    width: 48px;
+    height: 48px;
+    font-size: 1.4rem;
+    z-index: 1045;
+  }
+  #back-to-top {
+    bottom: calc(72px + var(--safe-bottom, 0px));
+    right: 8.5rem;
+    width: 44px;
+    height: 44px;
+    z-index: 1040;
   }
   #dict-panel {
-    bottom: 9.5rem;
+    bottom: calc(130px + var(--safe-bottom, 0px));
     right: 1rem;
     left: 1rem;
     width: auto;
@@ -980,13 +1052,14 @@ html[data-theme="dark"], body.theme-dark {
 }
 
 /* Responsive adjustment for Mobile screens */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .cosy-tour-fab {
-    bottom: 5.5rem;
+    bottom: calc(72px + var(--safe-bottom, 0px));
     left: 1rem;
     padding: 10px 18px;
     font-size: 0.85rem;
     box-shadow: 0 4px 12px rgba(31,48,34,0.2);
+    z-index: 1050;
   }
   .cosy-tour-bubble {
     width: 280px;
