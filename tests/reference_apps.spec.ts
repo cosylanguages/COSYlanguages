@@ -122,6 +122,14 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         await expect(page.locator('#verb-pattern-text')).toContainText('depend on');
         await expect(page.locator('#mistake-text')).toContainText('It depends on');
 
+        // Check Verb vs Noun Preposition Contrast (e.g. influence)
+        await page.fill('#verb-search-input', 'influence');
+        await page.keyboard.press('Enter');
+
+        await expect(page.locator('#verb-title')).toHaveText('influence');
+        await expect(page.locator('#noun-parallel-container')).toBeVisible();
+        await expect(page.locator('#noun-parallel-text')).toContainText('influence ON me');
+
         // Check Phrasal Verb search
         await page.fill('#verb-search-input', 'turn down');
         await page.keyboard.press('Enter');
