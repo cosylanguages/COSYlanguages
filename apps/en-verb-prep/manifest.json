@@ -1,0 +1,16 @@
+{
+  "name": "English Verb Prepositions & Transitivity",
+  "short_name": "EN Prepositions",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#1b4332",
+  "description": "Master English transitive & intransitive verbs, dependent prepositions, usage patterns and pitfall mistakes offline.",
+  "icons": [
+    {
+      "src": "../../images/logos/cosylanguages.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

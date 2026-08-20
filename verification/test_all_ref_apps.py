@@ -93,6 +93,16 @@ APPS = [
         "expected_title": "άνθρωπος",
         "game_toggle": "#toggle-game-btn",
         "game_container": "#game-container"
+    },
+    {
+        "id": "en-verb-prep",
+        "path": "/apps/en-verb-prep/index.html",
+        "search_input": "#verb-search-input",
+        "search_term": "depend",
+        "title_id": "#verb-title",
+        "expected_title": "depend",
+        "game_toggle": "#toggle-game-btn",
+        "game_container": "#game-container"
     }
 ]
 
