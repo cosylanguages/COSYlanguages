@@ -10,6 +10,12 @@
     --border-color: #e0d8cc;
     --radius-card: 16px;
     --radius-pill: 30px;
+    --space-xs: 0.3rem;
+    --space-sm: 0.5rem;
+    --space-md: 0.8rem;
+    --space-lg: 1rem;
+    --space-xl: 1.5rem;
+    --space-2xl: 2rem;
     --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -32,7 +38,7 @@ body { background-color: var(--cream-bg); color: var(--ink-text); font-family: v
 .verb-result-card, .game-card { background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-card); padding: 2rem; margin-bottom: 2rem; }
 .badge { background-color: var(--cream-card); padding: 0.35rem 0.8rem; border-radius: var(--radius-pill); font-size: 0.85rem; font-weight: 600; border: 1px solid var(--border-color); }
 .aux-badge { background-color: #e8f5e9; color: var(--sage-primary); }
-.lexical-box { background-color: var(--cream-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.lexical-box { background-color: var(--cream-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: var(--space-lg); margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
 .lexical-label { font-weight: 700; color: var(--sage-primary); }
 .usage-block { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; background-color: #f0f7f4; padding: 0.4rem 0.8rem; border-radius: 8px; border-left: 3px solid var(--sage-primary); }
 .usage-text { font-weight: 600; color: var(--sage-primary); }
@@ -146,7 +152,7 @@ body { background-color: var(--cream-bg); color: var(--ink-text); font-family: v
     background: var(--cream-card, #fbfbf9);
     border: 2px solid var(--sage-light, #d8e2dc);
     border-radius: 8px;
-    padding: 12px 14px;
+    padding: 0.75rem 0.875rem;
     font-size: 0.95rem;
     font-weight: 500;
     color: var(--ink-main, #2b2d42);
