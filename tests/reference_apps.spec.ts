@@ -108,7 +108,7 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         expect(rows).toBe(4);
     });
 
-    test('en-verb-prep loads and displays transitivity badge, dependent prepositions, CEFR level, and game mode', async ({ page }) => {
+    test('en-verb-prep loads and displays transitivity badge, dependent prepositions, phrasal verbs with separability, CEFR level, and game mode', async ({ page }) => {
         await page.goto('http://localhost:8080/apps/en-verb-prep/index.html');
         await page.waitForSelector('#verb-search-input');
 
@@ -121,6 +121,15 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         await expect(page.locator('#verb-cefr-badge')).toContainText('Level: A2');
         await expect(page.locator('#verb-pattern-text')).toContainText('depend on');
         await expect(page.locator('#mistake-text')).toContainText('It depends on');
+
+        // Check Phrasal Verb search
+        await page.fill('#verb-search-input', 'turn down');
+        await page.keyboard.press('Enter');
+
+        await expect(page.locator('#verb-title')).toHaveText('turn down');
+        await expect(page.locator('#phrasal-badge')).toBeVisible();
+        await expect(page.locator('#separability-badge')).toHaveText('Separable');
+        await expect(page.locator('#transitivity-badge')).toContainText('Transitive (VT)');
 
         // Check Practice Mode Toggle
         await page.click('#toggle-game-btn');
