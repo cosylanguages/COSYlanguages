@@ -1352,7 +1352,7 @@ vim-choice { margin-bottom: 1.5rem; }
 /* ⚖️ My Life With & Without Ledger Style */
 .life-balance-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -1588,7 +1588,7 @@ body.theme-dark .life-ledger-column.without h5 {
 /* 🧠 MIND MATTERS: Clinical Case Study Folder Index Grid */
 .mind-history-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2.5rem 2rem;
   margin-top: 2rem;
 }
