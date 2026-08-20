@@ -5,6 +5,7 @@ class ItalianGenderEngine {
         this.gameScore = 0;
         this.gameStreak = 0;
         this.currentQuestion = null;
+        this.gamePracticeMode = 'gender';
         this.init();
     }
 
@@ -111,6 +112,17 @@ class ItalianGenderEngine {
         } else document.getElementById('antonyms-container').style.display = 'none';
     }
 
+    setPracticeMode(mode) {
+        this.gamePracticeMode = mode;
+        const gBtn = document.getElementById('mode-gender-btn');
+        const cBtn = document.getElementById('mode-cases-btn');
+        if (gBtn && cBtn) {
+            gBtn.className = mode === 'gender' ? 'badge active-mode' : 'badge';
+            cBtn.className = mode === 'articles' ? 'badge active-mode' : 'badge';
+        }
+        this.nextGameQuestion();
+    }
+
     toggleGameMode() {
         this.isGameActive = !this.isGameActive;
         document.getElementById('game-container').style.display = this.isGameActive ? 'block' : 'none';
@@ -121,12 +133,93 @@ class ItalianGenderEngine {
     }
 
     nextGameQuestion() {
+        if (this.gamePracticeMode === 'articles') {
+            this.nextArticlesQuestion();
+            return;
+        }
+        const choiceGroup = document.querySelector('.game-choice-group');
+        const mcGroup = document.getElementById('game-mc-options');
+        if (choiceGroup) choiceGroup.style.display = 'flex';
+        if (mcGroup) mcGroup.style.display = 'none';
         const nouns = Object.keys(this.nounDb);
         const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
         this.currentQuestion = { noun: randomNoun, expectedGender: this.nounDb[randomNoun].gender };
         document.getElementById('game-noun-prompt').textContent = randomNoun;
         document.getElementById('game-feedback-box').style.display = 'none';
         document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    nextArticlesQuestion() {
+        const choiceGroup = document.querySelector('.game-choice-group');
+        let mcGroup = document.getElementById('game-mc-options');
+        if (choiceGroup) choiceGroup.style.display = 'none';
+        if (!mcGroup) {
+            mcGroup = document.createElement('div');
+            mcGroup.id = 'game-mc-options';
+            mcGroup.className = 'mc-options-grid';
+            document.querySelector('.game-prompt-box').insertAdjacentElement('afterend', mcGroup);
+        }
+        mcGroup.style.display = 'grid';
+
+        const nouns = Object.keys(this.nounDb);
+        if (nouns.length === 0) return;
+
+        const targetNoun = nouns[Math.floor(Math.random() * nouns.length)];
+        const data = this.nounDb[targetNoun];
+
+        const prepPatterns = [
+            { prep: 'in', combines: { 'il': 'nel', 'la': 'nella', "l'": "nell'", 'i': 'nei', 'le': 'nelle' } },
+            { prep: 'a', combines: { 'il': 'al', 'la': 'alla', "l'": "all'", 'i': 'ai', 'le': 'alle' } },
+            { prep: 'da', combines: { 'il': 'dal', 'la': 'dalla', "l'": "dall'", 'i': 'dai', 'le': 'dalle' } }
+        ];
+
+        const pat = prepPatterns[Math.floor(Math.random() * prepPatterns.length)];
+        const art = data.article || (data.gender === 'Maschile' ? 'il' : 'la');
+        const combined = pat.combines[art] || `${pat.prep} ${art}`;
+        const correctVal = `${combined} ${targetNoun}`;
+
+        const distractors = new Set();
+        const artKeys = ["il", "la", "l'", "i", "le"];
+        for (let a of artKeys) {
+            let comb = pat.combines[a] || `${pat.prep} ${a}`;
+            let dVal = `${comb} ${targetNoun}`;
+            if (dVal !== correctVal) distractors.add(dVal);
+        }
+
+        const options = [correctVal, ...Array.from(distractors).slice(0, 3)].sort(() => 0.5 - Math.random());
+
+        this.currentQuestion = { noun: targetNoun, prep: pat.prep, art: art, expected: correctVal };
+
+        document.getElementById('game-noun-prompt').textContent = `${pat.prep} + ${art} (${targetNoun})`;
+        let labelEl = document.querySelector('.prompt-label');
+        if (labelEl) labelEl.textContent = 'Forma la preposizione articolata:';
+
+        mcGroup.innerHTML = options.map(opt => `
+            <button class="mc-option-btn" onclick="appEngine.checkArticlesChoice('${opt.replace(/'/g, "\'")}')">${opt}</button>
+        `).join('');
+
+        document.getElementById('game-feedback-box').style.display = 'none';
+        document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    checkArticlesChoice(selected) {
+        if (!this.currentQuestion) return;
+        const isCorrect = selected === this.currentQuestion.expected;
+        const feedback = document.getElementById('game-feedback-box');
+        feedback.style.display = 'block';
+
+        if (isCorrect) {
+            this.gameScore += 10; this.gameStreak += 1;
+            feedback.className = 'feedback-card correct';
+            feedback.innerHTML = `✅ Eccellente! <strong>${selected}</strong> è la forma corretta (+10 pti).`;
+        } else {
+            this.gameStreak = 0;
+            feedback.className = 'feedback-card wrong';
+            feedback.innerHTML = `❌ Ops! La forma corretta era: <strong>${this.currentQuestion.expected}</strong>.`;
+        }
+        document.getElementById('game-score').textContent = this.gameScore;
+        document.getElementById('game-streak').textContent = this.gameStreak;
+        document.getElementById('game-next-btn').style.display = 'block';
     }
 
     checkGameChoice(gender) {

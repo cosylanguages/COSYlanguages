@@ -5,6 +5,7 @@ class ItalianConjugationEngine {
         this.gameScore = 0;
         this.gameStreak = 0;
         this.currentQuestion = null;
+        this.gamePracticeMode = 'conjugation';
         this.init();
     }
 
@@ -184,7 +185,26 @@ class ItalianConjugationEngine {
         if (this.isGameActive) this.nextGameQuestion();
     }
 
+    setPracticeMode(mode) {
+        this.gamePracticeMode = mode;
+        const cBtn = document.getElementById('mode-conj-btn');
+        const gBtn = document.getElementById('mode-prep-btn');
+        if (cBtn && gBtn) {
+            cBtn.className = mode === 'conjugation' ? 'badge active-mode' : 'badge';
+            gBtn.className = mode === 'preposition' ? 'badge active-mode' : 'badge';
+        }
+        this.nextGameQuestion();
+    }
+
     nextGameQuestion() {
+        if (this.gamePracticeMode === 'preposition') {
+            this.nextPrepositionQuestion();
+            return;
+        }
+        const gameAnsInput = document.getElementById('game-answer-input');
+        const mcGroup = document.getElementById('game-mc-options');
+        if (gameAnsInput && gameAnsInput.parentElement) gameAnsInput.parentElement.style.display = 'flex';
+        if (mcGroup) mcGroup.style.display = 'none';
         const verbs = Object.keys(this.verbDb);
         const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
         const data = this.verbDb[randomVerb];
@@ -200,6 +220,65 @@ class ItalianConjugationEngine {
         document.getElementById('game-next-btn').style.display = 'none';
         const inp = document.getElementById('game-answer-input');
         inp.value = ''; inp.disabled = false; inp.focus();
+    }
+
+    nextPrepositionQuestion() {
+        const inputGroup = document.querySelector('.game-input-group');
+        let mcGroup = document.getElementById('game-mc-options');
+        if (inputGroup) inputGroup.style.display = 'none';
+        if (!mcGroup) {
+            mcGroup = document.createElement('div');
+            mcGroup.id = 'game-mc-options';
+            mcGroup.className = 'mc-options-grid';
+            document.querySelector('.game-prompt-box').insertAdjacentElement('afterend', mcGroup);
+        }
+        mcGroup.style.display = 'grid';
+
+        const verbsWithHints = Object.keys(this.verbDb).filter(k => this.verbDb[k].usage_hint);
+        if (verbsWithHints.length === 0) return;
+
+        const targetVerb = verbsWithHints[Math.floor(Math.random() * verbsWithHints.length)];
+        const correctHint = this.verbDb[targetVerb].usage_hint;
+
+        const uniqueHints = Array.from(new Set(verbsWithHints.map(k => this.verbDb[k].usage_hint).filter(h => h !== correctHint)));
+        uniqueHints.sort(() => 0.5 - Math.random());
+        const distractors = uniqueHints.slice(0, 3);
+        const options = [correctHint, ...distractors].sort(() => 0.5 - Math.random());
+
+        this.currentQuestion = { verb: targetVerb, expected: correctHint, isPreposition: true };
+
+        document.getElementById('game-verb-prompt').textContent = targetVerb;
+        document.getElementById('game-tense-badge').textContent = 'Preposizioni & Uso';
+        document.getElementById('game-pronoun-prompt').textContent = "Scegli l\'uso corretto :";
+
+        mcGroup.innerHTML = options.map(opt => `
+            <button class="mc-option-btn" onclick="appEngine.checkPrepositionChoice('${opt.replace(/'/g, "\'")}')">${opt}</button>
+        `).join('');
+
+        document.getElementById('game-feedback-box').style.display = 'none';
+        document.getElementById('game-submit-btn').style.display = 'none';
+        document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    checkPrepositionChoice(selected) {
+        if (!this.currentQuestion) return;
+        const isCorrect = selected === this.currentQuestion.expected;
+        const feedbackBox = document.getElementById('game-feedback-box');
+        feedbackBox.style.display = 'block';
+
+        if (isCorrect) {
+            this.gameScore += 10; this.gameStreak += 1;
+            feedbackBox.className = 'feedback-card correct';
+            feedbackBox.innerHTML = `✅ Eccellente! <strong>${this.currentQuestion.verb}</strong> ➔ ${selected} (+10 pti).`;
+        } else {
+            this.gameStreak = 0;
+            feedbackBox.className = 'feedback-card wrong';
+            feedbackBox.innerHTML = `❌ Ops! La risposta corretta era: <strong>${this.currentQuestion.verb}</strong> ➔ <strong>${this.currentQuestion.expected}</strong>.`;
+        }
+
+        document.getElementById('game-score').textContent = this.gameScore;
+        document.getElementById('game-streak').textContent = this.gameStreak;
+        document.getElementById('game-next-btn').style.display = 'block';
     }
 
     checkGameAnswer() {

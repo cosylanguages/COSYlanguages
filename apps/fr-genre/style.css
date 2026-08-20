@@ -131,3 +131,33 @@ body { background-color: var(--cream-bg); color: var(--ink-text); font-family: v
         grid-template-columns: 1fr;
     }
 }
+
+/* Multiple Choice Options Grid */
+.mc-options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 16px 0;
+}
+.mc-option-btn {
+    background: var(--cream-card, #fbfbf9);
+    border: 2px solid var(--sage-light, #d8e2dc);
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--ink-main, #2b2d42);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+.mc-option-btn:hover {
+    border-color: var(--terracotta, #e07a5f);
+    background: #fff;
+    transform: translateY(-2px);
+}
+.active-mode {
+    background: var(--terracotta, #e07a5f) !important;
+    color: #fff !important;
+    cursor: pointer;
+}

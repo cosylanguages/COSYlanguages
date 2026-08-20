@@ -5,6 +5,7 @@ class GreekGenderCasesEngine {
         this.gameScore = 0;
         this.gameStreak = 0;
         this.currentQuestion = null;
+        this.gamePracticeMode = 'gender';
         this.init();
     }
 
@@ -137,6 +138,17 @@ class GreekGenderCasesEngine {
         }).join('');
     }
 
+    setPracticeMode(mode) {
+        this.gamePracticeMode = mode;
+        const gBtn = document.getElementById('mode-gender-btn');
+        const cBtn = document.getElementById('mode-cases-btn');
+        if (gBtn && cBtn) {
+            gBtn.className = mode === 'gender' ? 'badge active-mode' : 'badge';
+            cBtn.className = mode === 'cases' ? 'badge active-mode' : 'badge';
+        }
+        this.nextGameQuestion();
+    }
+
     toggleGameMode() {
         this.isGameActive = !this.isGameActive;
         document.getElementById('game-container').style.display = this.isGameActive ? 'block' : 'none';
@@ -147,12 +159,94 @@ class GreekGenderCasesEngine {
     }
 
     nextGameQuestion() {
+        if (this.gamePracticeMode === 'cases') {
+            this.nextCasesQuestion();
+            return;
+        }
+        const choiceGroup = document.querySelector('.game-choice-group');
+        const mcGroup = document.getElementById('game-mc-options');
+        if (choiceGroup) choiceGroup.style.display = 'flex';
+        if (mcGroup) mcGroup.style.display = 'none';
         const nouns = Object.keys(this.nounDb);
         const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
         this.currentQuestion = { noun: randomNoun, expectedGender: this.nounDb[randomNoun].gender };
         document.getElementById('game-noun-prompt').textContent = randomNoun;
         document.getElementById('game-feedback-box').style.display = 'none';
         document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    nextCasesQuestion() {
+        const choiceGroup = document.querySelector('.game-choice-group');
+        let mcGroup = document.getElementById('game-mc-options');
+        if (choiceGroup) choiceGroup.style.display = 'none';
+        if (!mcGroup) {
+            mcGroup = document.createElement('div');
+            mcGroup.id = 'game-mc-options';
+            mcGroup.className = 'mc-options-grid';
+            document.querySelector('.game-prompt-box').insertAdjacentElement('afterend', mcGroup);
+        }
+        mcGroup.style.display = 'grid';
+
+        const nouns = Object.keys(this.nounDb);
+        if (nouns.length === 0) return;
+
+        const targetNoun = nouns[Math.floor(Math.random() * nouns.length)];
+        const data = this.nounDb[targetNoun];
+
+        const caseMeta = [
+            { key: 'gen_sing', name: 'Γενική ενικού (Gen. Sing.)' },
+            { key: 'acc_sing', name: 'Αιτιατική ενικού (Acc. Sing.)' },
+            { key: 'nom_plur', name: 'Ονομαστική πληθυντικού (Nom. Plur.)' },
+            { key: 'gen_plur', name: 'Γενική πληθυντικού (Gen. Plur.)' },
+            { key: 'acc_plur', name: 'Αιτιατική πληθυντικού (Acc. Plur.)' }
+        ];
+
+        const targetCase = caseMeta[Math.floor(Math.random() * caseMeta.length)];
+        let correctVal = data.cases ? data.cases[targetCase.key] : targetNoun;
+
+        const distractors = new Set();
+        while (distractors.size < 3) {
+            const rndN = nouns[Math.floor(Math.random() * nouns.length)];
+            const rndC = caseMeta[Math.floor(Math.random() * caseMeta.length)];
+            const dData = this.nounDb[rndN];
+            let val = dData.cases ? dData.cases[rndC.key] : null;
+            if (val && val !== correctVal) distractors.add(val);
+        }
+
+        const options = [correctVal, ...Array.from(distractors)].sort(() => 0.5 - Math.random());
+
+        this.currentQuestion = { noun: targetNoun, caseName: targetCase.name, expected: correctVal, isCases: true };
+
+        document.getElementById('game-noun-prompt').textContent = targetNoun;
+        let labelEl = document.querySelector('.prompt-label');
+        if (labelEl) labelEl.textContent = `Πτώση: ${targetCase.name}`;
+
+        mcGroup.innerHTML = options.map(opt => `
+            <button class="mc-option-btn" onclick="appEngine.checkCasesChoice('${opt.replace(/'/g, "\'")}')">${opt}</button>
+        `).join('');
+
+        document.getElementById('game-feedback-box').style.display = 'none';
+        document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    checkCasesChoice(selected) {
+        if (!this.currentQuestion) return;
+        const isCorrect = selected === this.currentQuestion.expected;
+        const feedback = document.getElementById('game-feedback-box');
+        feedback.style.display = 'block';
+
+        if (isCorrect) {
+            this.gameScore += 10; this.gameStreak += 1;
+            feedback.className = 'feedback-card correct';
+            feedback.innerHTML = `✅ Μπράβο! <strong>${this.currentQuestion.noun}</strong> (${this.currentQuestion.caseName}) ➔ <strong>${selected}</strong> (+10 πόντοι).`;
+        } else {
+            this.gameStreak = 0;
+            feedback.className = 'feedback-card wrong';
+            feedback.innerHTML = `❌ Λάθος! Η σωστή απάντηση είναι: <strong>${this.currentQuestion.noun}</strong> (${this.currentQuestion.caseName}) ➔ <strong>${this.currentQuestion.expected}</strong>.`;
+        }
+        document.getElementById('game-score').textContent = this.gameScore;
+        document.getElementById('game-streak').textContent = this.gameStreak;
+        document.getElementById('game-next-btn').style.display = 'block';
     }
 
     checkGameChoice(gender) {

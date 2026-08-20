@@ -5,6 +5,7 @@ class RussianConjugationEngine {
         this.gameScore = 0;
         this.gameStreak = 0;
         this.currentQuestion = null;
+        this.gamePracticeMode = 'conjugation';
         this.init();
     }
 
@@ -187,7 +188,26 @@ class RussianConjugationEngine {
         if (this.isGameActive) this.nextGameQuestion();
     }
 
+    setPracticeMode(mode) {
+        this.gamePracticeMode = mode;
+        const cBtn = document.getElementById('mode-conj-btn');
+        const gBtn = document.getElementById('mode-gov-btn');
+        if (cBtn && gBtn) {
+            cBtn.className = mode === 'conjugation' ? 'badge active-mode' : 'badge';
+            gBtn.className = mode === 'government' ? 'badge active-mode' : 'badge';
+        }
+        this.nextGameQuestion();
+    }
+
     nextGameQuestion() {
+        if (this.gamePracticeMode === 'government') {
+            this.nextGovernmentQuestion();
+            return;
+        }
+        const inputGroup = document.querySelector('.game-input-group');
+        const mcGroup = document.getElementById('game-mc-options');
+        if (inputGroup) inputGroup.style.display = 'flex';
+        if (mcGroup) mcGroup.style.display = 'none';
         const verbs = Object.keys(this.verbDb);
         const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
         const data = this.verbDb[randomVerb];
@@ -204,6 +224,63 @@ class RussianConjugationEngine {
         document.getElementById('game-next-btn').style.display = 'none';
         const inp = document.getElementById('game-answer-input');
         inp.value = ''; inp.disabled = false; inp.focus();
+    }
+
+    nextGovernmentQuestion() {
+        const inputGroup = document.querySelector('.game-input-group');
+        let mcGroup = document.getElementById('game-mc-options');
+        if (inputGroup) inputGroup.style.display = 'none';
+        if (!mcGroup) {
+            mcGroup = document.createElement('div');
+            mcGroup.id = 'game-mc-options';
+            mcGroup.className = 'mc-options-grid';
+            document.querySelector('.game-prompt-box').insertAdjacentElement('afterend', mcGroup);
+        }
+        mcGroup.style.display = 'grid';
+
+        const verbsWithHints = Object.keys(this.verbDb).filter(k => this.verbDb[k].usage_hint);
+        if (verbsWithHints.length === 0) return;
+
+        const targetVerb = verbsWithHints[Math.floor(Math.random() * verbsWithHints.length)];
+        const correctHint = this.verbDb[targetVerb].usage_hint;
+
+        const allHints = Array.from(new Set(verbsWithHints.map(k => this.verbDb[k].usage_hint).filter(h => h !== correctHint)));
+        allHints.sort(() => 0.5 - Math.random());
+        const distractors = allHints.slice(0, 3);
+        const options = [correctHint, ...distractors].sort(() => 0.5 - Math.random());
+
+        this.currentQuestion = { verb: targetVerb, expected: correctHint, isGovernment: true };
+
+        document.getElementById('game-verb-prompt').textContent = targetVerb;
+        document.getElementById('game-tense-badge').textContent = 'Управление & Предлоги';
+        document.getElementById('game-pronoun-prompt').textContent = 'Выберите верный вариант:';
+
+        mcGroup.innerHTML = options.map(opt => `
+            <button class="mc-option-btn" onclick="appEngine.checkGovernmentChoice('${opt.replace(/'/g, "\'")}')">${opt}</button>
+        `).join('');
+
+        document.getElementById('game-feedback-box').style.display = 'none';
+        document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    checkGovernmentChoice(selected) {
+        if (!this.currentQuestion) return;
+        const isCorrect = selected === this.currentQuestion.expected;
+        const feedback = document.getElementById('game-feedback-box');
+        feedback.style.display = 'block';
+
+        if (isCorrect) {
+            this.gameScore += 10; this.gameStreak += 1;
+            feedback.className = 'feedback-card correct';
+            feedback.innerHTML = `✅ Отлично! <strong>${this.currentQuestion.verb}</strong> ➔ ${selected} (+10 очков).`;
+        } else {
+            this.gameStreak = 0;
+            feedback.className = 'feedback-card wrong';
+            feedback.innerHTML = `❌ Ошибка! Правильно: <strong>${this.currentQuestion.verb}</strong> ➔ <strong>${this.currentQuestion.expected}</strong>.`;
+        }
+        document.getElementById('game-score').textContent = this.gameScore;
+        document.getElementById('game-streak').textContent = this.gameStreak;
+        document.getElementById('game-next-btn').style.display = 'block';
     }
 
     checkGameAnswer() {
