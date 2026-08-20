@@ -3295,5 +3295,91 @@
     "antonyms": [],
     "article": "l'",
     "plural": "œufs"
+  },
+  "vélo": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Bicyclette à deux roues mue par des pédales.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "vélos"
+  },
+  "moto": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Véhicule automobile à deux roues.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "motos"
+  },
+  "taxi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Automobile de transport individuel payant.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "taxis"
+  },
+  "mathématiques": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Science des nombres, des formes et des quantités.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nom féminin pluriel employé pour la matière scolaire.",
+    "article": "les",
+    "plural": "mathématiques"
+  },
+  "géographie": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Étude de la surface de la Terre et de l'organisation de l'espace.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "géographies"
+  },
+  "sciences": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Ensemble des connaissances fondées sur l'observation et le raisonnement.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nom féminin pluriel employé pour les matières scientifiques.",
+    "article": "les",
+    "plural": "sciences"
+  },
+  "nom": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Nom de famille d'une personne.",
+    "antonyms": [
+      "prénom"
+    ],
+    "article": "le",
+    "plural": "noms"
+  },
+  "prénom": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Nom individuel attribué à la naissance qui précède le nom de famille.",
+    "antonyms": [
+      "nom"
+    ],
+    "article": "le",
+    "plural": "prénoms"
+  },
+  "adresse": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Indications de domicile avec rue et numéro.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "adresses"
+  },
+  "numéro": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Suite de chiffres attribuée pour joindre une personne par téléphone.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "numéros"
   }
 }
