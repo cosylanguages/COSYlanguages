@@ -36,7 +36,7 @@ test.describe('Wonder Private Lesson (1-to-1) Mode Verification', () => {
     // Verify specific lesson contents
     await expect(page.locator('#p-step2 .vocab-word').first()).toContainText('Gender-neutral');
     await expect(page.locator('#p-step5 h4')).toContainText('⚡ Grammatical Precision: Focus Adverbs');
-    await expect(page.locator('#p-step8 h4')).toContainText('🎯 90-Second Speech Run: The Language Policy Pitch');
+    await expect(page.locator('#p-step8 h4')).toContainText('🎯 90-Second Speech Run: Does Inclusive Language Make Us Equal?');
 
     // Verify Host Utility bar controls
     await expect(page.locator('[data-session-mode="private"] .host-utility-bar')).toBeVisible();
