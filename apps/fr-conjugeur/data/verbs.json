@@ -4930,12 +4930,12 @@
     "auxiliary": "avoir",
     "tenses": {
       "indicatif_present": [
-        "j'espére",
-        "tu espéres",
-        "il/elle espére",
+        "j'espère",
+        "tu espères",
+        "il/elle espère",
         "nous espérons",
         "vous espérez",
-        "ils/elles espérent"
+        "ils/elles espèrent"
       ],
       "indicatif_imparfait": [
         "j'espérais",
@@ -4970,12 +4970,12 @@
         "ils/elles espéreraient"
       ],
       "subjonctif_present": [
-        "que j'espére",
-        "que tu espéres",
-        "qu'il/elle espére",
+        "que j'espère",
+        "que tu espères",
+        "qu'il/elle espère",
         "que nous espérions",
         "que vous espériez",
-        "qu'ils/elles espérent"
+        "qu'ils/elles espèrent"
       ],
       "imperatif": [
         "j'espére !",
@@ -4986,12 +4986,12 @@
         "espéré"
       ],
       "subj": [
-        "que j'espére",
-        "que tu espéres",
-        "qu'il/elle espére",
+        "que j'espère",
+        "que tu espères",
+        "qu'il/elle espère",
         "que nous espérions",
         "que vous espériez",
-        "qu'ils/elles espérent"
+        "qu'ils/elles espèrent"
       ],
       "cond": [
         "j'espérerais",
@@ -5011,12 +5011,12 @@
         "espéré"
       ],
       "pres": [
-        "j'espére",
-        "tu espéres",
-        "il/elle espére",
+        "j'espère",
+        "tu espères",
+        "il/elle espère",
         "nous espérons",
         "vous espérez",
-        "ils/elles espérent"
+        "ils/elles espèrent"
       ],
       "imp": [
         "j'espérais",
@@ -5080,12 +5080,12 @@
     "auxiliary": "avoir",
     "tenses": {
       "indicatif_present": [
-        "je préfére",
-        "tu préféres",
-        "il/elle préfére",
+        "je préfère",
+        "tu préfères",
+        "il/elle préfère",
         "nous préférons",
         "vous préférez",
-        "ils/elles préférent"
+        "ils/elles préfèrent"
       ],
       "indicatif_imparfait": [
         "je préférais",
@@ -5120,12 +5120,12 @@
         "ils/elles préféreraient"
       ],
       "subjonctif_present": [
-        "que je préfére",
-        "que tu préféres",
-        "qu'il/elle préfére",
+        "que je préfère",
+        "que tu préfères",
+        "qu'il/elle préfère",
         "que nous préférions",
         "que vous préfériez",
-        "qu'ils/elles préférent"
+        "qu'ils/elles préfèrent"
       ],
       "imperatif": [
         "préfére !",
@@ -5136,12 +5136,12 @@
         "préféré"
       ],
       "subj": [
-        "que je préfére",
-        "que tu préféres",
-        "qu'il/elle préfére",
+        "que je préfère",
+        "que tu préfères",
+        "qu'il/elle préfère",
         "que nous préférions",
         "que vous préfériez",
-        "qu'ils/elles préférent"
+        "qu'ils/elles préfèrent"
       ],
       "cond": [
         "je préférerais",
@@ -5161,12 +5161,12 @@
         "préféré"
       ],
       "pres": [
-        "je préfére",
-        "tu préféres",
-        "il/elle préfére",
+        "je préfère",
+        "tu préfères",
+        "il/elle préfère",
         "nous préférons",
         "vous préférez",
-        "ils/elles préférent"
+        "ils/elles préfèrent"
       ],
       "imp": [
         "je préférais",
@@ -7937,12 +7937,12 @@
         "ils/elles ont payé"
       ],
       "indicatif_futur_simple": [
-        "je payerai",
-        "tu payeras",
-        "il/elle payera",
-        "nous payerons",
-        "vous payerez",
-        "ils/elles payeront"
+        "je paierai",
+        "tu paieras",
+        "il/elle paiera",
+        "nous paierons",
+        "vous paierez",
+        "ils/elles paieront"
       ],
       "conditionnel_present": [
         "je payerais",
@@ -8010,12 +8010,12 @@
         "ils/elles payaient"
       ],
       "fut": [
-        "je payerai",
-        "tu payeras",
-        "il/elle payera",
-        "nous payerons",
-        "vous payerez",
-        "ils/elles payeront"
+        "je paierai",
+        "tu paieras",
+        "il/elle paiera",
+        "nous paierons",
+        "vous paierez",
+        "ils/elles paieront"
       ],
       "pqp": [
         "j'avais payé",
@@ -8067,7 +8067,7 @@
         "tu appelles",
         "il/elle appelle",
         "nous appelons",
-        "vous appellez",
+        "vous appelez",
         "ils/elles appellent"
       ],
       "indicatif_imparfait": [
@@ -8148,7 +8148,7 @@
         "tu appelles",
         "il/elle appelle",
         "nous appelons",
-        "vous appellez",
+        "vous appelez",
         "ils/elles appellent"
       ],
       "imp": [
@@ -9110,17 +9110,17 @@
         "je nage",
         "tu nages",
         "il/elle nage",
-        "nous naggeons",
+        "nous nageons",
         "vous nagez",
         "ils/elles nagent"
       ],
       "indicatif_imparfait": [
-        "je nagais",
-        "tu nagais",
-        "il/elle nagait",
+        "je nageais",
+        "tu nageais",
+        "il/elle nageait",
         "nous nagions",
         "vous nagiez",
-        "ils/elles nagaient"
+        "ils/elles nageaient"
       ],
       "pc": [
         "j'ai nagé",
@@ -9191,17 +9191,17 @@
         "je nage",
         "tu nages",
         "il/elle nage",
-        "nous naggeons",
+        "nous nageons",
         "vous nagez",
         "ils/elles nagent"
       ],
       "imp": [
-        "je nagais",
-        "tu nagais",
-        "il/elle nagait",
+        "je nageais",
+        "tu nageais",
+        "il/elle nageait",
         "nous nagions",
         "vous nagiez",
-        "ils/elles nagaient"
+        "ils/elles nageaient"
       ],
       "fut": [
         "je nagerai",
@@ -10301,12 +10301,12 @@
     "auxiliary": "avoir",
     "tenses": {
       "indicatif_present": [
-        "je nettoye",
-        "tu nettoyes",
-        "il/elle nettoye",
+        "je nettoie",
+        "tu nettoies",
+        "il/elle nettoie",
         "nous nettoyons",
         "vous nettoyez",
-        "ils/elles nettoyent"
+        "ils/elles nettoient"
       ],
       "indicatif_imparfait": [
         "je nettoyais",
@@ -10325,28 +10325,28 @@
         "ils/elles ont nettoyé"
       ],
       "indicatif_futur_simple": [
-        "je nettoyerai",
-        "tu nettoyeras",
-        "il/elle nettoyera",
-        "nous nettoyerons",
-        "vous nettoyerez",
-        "ils/elles nettoyeront"
+        "je nettoierai",
+        "tu nettoieras",
+        "il/elle nettoiera",
+        "nous nettoierons",
+        "vous nettoierez",
+        "ils/elles nettoieront"
       ],
       "conditionnel_present": [
-        "je nettoyerais",
-        "tu nettoyerais",
-        "il/elle nettoyerait",
-        "nous nettoyerions",
-        "vous nettoyeriez",
-        "ils/elles nettoyeraient"
+        "je nettoierais",
+        "tu nettoierais",
+        "il/elle nettoierait",
+        "nous nettoierions",
+        "vous nettoieriez",
+        "ils/elles nettoieraient"
       ],
       "subjonctif_present": [
-        "que je nettoye",
-        "que tu nettoyes",
-        "qu'il/elle nettoye",
+        "que je nettoie",
+        "que tu nettoies",
+        "qu'il/elle nettoie",
         "que nous nettoyions",
         "que vous nettoyiez",
-        "qu'ils/elles nettoyent"
+        "qu'ils/elles nettoient"
       ],
       "imperatif": [
         "nettoye !",
@@ -10357,20 +10357,20 @@
         "nettoyé"
       ],
       "subj": [
-        "que je nettoye",
-        "que tu nettoyes",
-        "qu'il/elle nettoye",
+        "que je nettoie",
+        "que tu nettoies",
+        "qu'il/elle nettoie",
         "que nous nettoyions",
         "que vous nettoyiez",
-        "qu'ils/elles nettoyent"
+        "qu'ils/elles nettoient"
       ],
       "cond": [
-        "je nettoyerais",
-        "tu nettoyerais",
-        "il/elle nettoyerait",
-        "nous nettoyerions",
-        "vous nettoyeriez",
-        "ils/elles nettoyeraient"
+        "je nettoierais",
+        "tu nettoierais",
+        "il/elle nettoierait",
+        "nous nettoierions",
+        "vous nettoieriez",
+        "ils/elles nettoieraient"
       ],
       "impv": [
         "nettoye",
@@ -10382,12 +10382,12 @@
         "nettoyé"
       ],
       "pres": [
-        "je nettoye",
-        "tu nettoyes",
-        "il/elle nettoye",
+        "je nettoie",
+        "tu nettoies",
+        "il/elle nettoie",
         "nous nettoyons",
         "vous nettoyez",
-        "ils/elles nettoyent"
+        "ils/elles nettoient"
       ],
       "imp": [
         "je nettoyais",
@@ -10398,12 +10398,12 @@
         "ils/elles nettoyaient"
       ],
       "fut": [
-        "je nettoyerai",
-        "tu nettoyeras",
-        "il/elle nettoyera",
-        "nous nettoyerons",
-        "vous nettoyerez",
-        "ils/elles nettoyeront"
+        "je nettoierai",
+        "tu nettoieras",
+        "il/elle nettoiera",
+        "nous nettoierons",
+        "vous nettoierez",
+        "ils/elles nettoieront"
       ],
       "pqp": [
         "j'avais nettoyé",
@@ -10751,17 +10751,17 @@
         "je corrige",
         "tu corriges",
         "il/elle corrige",
-        "nous corriggeons",
+        "nous corrigeons",
         "vous corrigez",
         "ils/elles corrigent"
       ],
       "indicatif_imparfait": [
-        "je corrigais",
-        "tu corrigais",
-        "il/elle corrigait",
+        "je corrigeais",
+        "tu corrigeais",
+        "il/elle corrigeait",
         "nous corrigions",
         "vous corrigiez",
-        "ils/elles corrigaient"
+        "ils/elles corrigeaient"
       ],
       "pc": [
         "j'ai corrigé",
@@ -10832,17 +10832,17 @@
         "je corrige",
         "tu corriges",
         "il/elle corrige",
-        "nous corriggeons",
+        "nous corrigeons",
         "vous corrigez",
         "ils/elles corrigent"
       ],
       "imp": [
-        "je corrigais",
-        "tu corrigais",
-        "il/elle corrigait",
+        "je corrigeais",
+        "tu corrigeais",
+        "il/elle corrigeait",
         "nous corrigions",
         "vous corrigiez",
-        "ils/elles corrigaient"
+        "ils/elles corrigeaient"
       ],
       "fut": [
         "je corrigerai",
@@ -10900,17 +10900,17 @@
         "je protège",
         "tu protèges",
         "il/elle protège",
-        "nous protègons",
-        "vous protègez",
+        "nous protégeons",
+        "vous protégez",
         "ils/elles protègent"
       ],
       "indicatif_imparfait": [
-        "je protègais",
-        "tu protègais",
-        "il/elle protègait",
-        "nous protègions",
-        "vous protègiez",
-        "ils/elles protègaient"
+        "je protégeais",
+        "tu protégeais",
+        "il/elle protégeait",
+        "nous protégions",
+        "vous protégiez",
+        "ils/elles protégeaient"
       ],
       "pc": [
         "j'ai protégé",
@@ -10940,8 +10940,8 @@
         "que je protège",
         "que tu protèges",
         "qu'il/elle protège",
-        "que nous protègions",
-        "que vous protègiez",
+        "que nous protégions",
+        "que vous protégiez",
         "qu'ils/elles protègent"
       ],
       "imperatif": [
@@ -10981,17 +10981,17 @@
         "je protège",
         "tu protèges",
         "il/elle protège",
-        "nous protègons",
-        "vous protègez",
+        "nous protégeons",
+        "vous protégez",
         "ils/elles protègent"
       ],
       "imp": [
-        "je protègais",
-        "tu protègais",
-        "il/elle protègait",
-        "nous protègions",
-        "vous protègiez",
-        "ils/elles protègaient"
+        "je protégeais",
+        "tu protégeais",
+        "il/elle protégeait",
+        "nous protégions",
+        "vous protégiez",
+        "ils/elles protégeaient"
       ],
       "fut": [
         "je protègerai",
@@ -14779,17 +14779,17 @@
         "j'achète",
         "tu achètes",
         "il/elle achète",
-        "nous achètons",
-        "vous achètez",
+        "nous achetons",
+        "vous achetez",
         "ils/elles achètent"
       ],
       "indicatif_imparfait": [
-        "j'achètais",
-        "tu achètais",
-        "il/elle achètait",
-        "nous achètions",
-        "vous achètiez",
-        "ils/elles achètaient"
+        "j'achetais",
+        "tu achetais",
+        "il/elle achetait",
+        "nous achetions",
+        "vous achetiez",
+        "ils/elles achetaient"
       ],
       "pc": [
         "j'ai acheté",
@@ -14800,27 +14800,27 @@
         "ils/elles ont acheté"
       ],
       "indicatif_futur_simple": [
-        "j'acheterai",
-        "tu acheteras",
-        "il/elle achetera",
-        "nous acheterons",
-        "vous acheterez",
-        "ils/elles acheteront"
+        "j'achèterai",
+        "tu achèteras",
+        "il/elle achètera",
+        "nous achèterons",
+        "vous achèterez",
+        "ils/elles achèteront"
       ],
       "conditionnel_present": [
-        "j'acheterais",
-        "tu acheterais",
-        "il/elle acheterait",
-        "nous acheterions",
-        "vous acheteriez",
-        "ils/elles acheteraient"
+        "j'achèterais",
+        "tu achèterais",
+        "il/elle achèterait",
+        "nous achèterions",
+        "vous achèteriez",
+        "ils/elles achèteraient"
       ],
       "subjonctif_present": [
         "que j'achète",
         "que tu achètes",
         "qu'il/elle achète",
-        "que nous achètions",
-        "que vous achètiez",
+        "que nous achetions",
+        "que vous achetiez",
         "qu'ils/elles achètent"
       ],
       "imperatif": [
@@ -14840,12 +14840,12 @@
         "qu'ils/elles achetent"
       ],
       "cond": [
-        "j'acheterais",
-        "tu acheterais",
-        "il/elle acheterait",
-        "nous acheterions",
-        "vous acheteriez",
-        "ils/elles acheteraient"
+        "j'achèterais",
+        "tu achèterais",
+        "il/elle achèterait",
+        "nous achèterions",
+        "vous achèteriez",
+        "ils/elles achèteraient"
       ],
       "impv": [
         "achete",
@@ -14860,25 +14860,25 @@
         "j'achète",
         "tu achètes",
         "il/elle achète",
-        "nous achètons",
-        "vous achètez",
+        "nous achetons",
+        "vous achetez",
         "ils/elles achètent"
       ],
       "imp": [
-        "j'achètais",
-        "tu achètais",
-        "il/elle achètait",
-        "nous achètions",
-        "vous achètiez",
-        "ils/elles achètaient"
+        "j'achetais",
+        "tu achetais",
+        "il/elle achetait",
+        "nous achetions",
+        "vous achetiez",
+        "ils/elles achetaient"
       ],
       "fut": [
-        "j'acheterai",
-        "tu acheteras",
-        "il/elle achetera",
-        "nous acheterons",
-        "vous acheterez",
-        "ils/elles acheteront"
+        "j'achèterai",
+        "tu achèteras",
+        "il/elle achètera",
+        "nous achèterons",
+        "vous achèterez",
+        "ils/elles achèteront"
       ],
       "pqp": [
         "j'avais acheté",
@@ -15823,17 +15823,17 @@
         "j'avance",
         "tu avances",
         "il/elle avance",
-        "nous avancons",
+        "nous avançons",
         "vous avancez",
         "ils/elles avancent"
       ],
       "indicatif_imparfait": [
-        "j'avancais",
-        "tu avancais",
-        "il/elle avancait",
+        "j'avançais",
+        "tu avançais",
+        "il/elle avançait",
         "nous avancions",
         "vous avanciez",
-        "ils/elles avancaient"
+        "ils/elles avançaient"
       ],
       "pc": [
         "j'ai avancé",
@@ -15904,17 +15904,17 @@
         "j'avance",
         "tu avances",
         "il/elle avance",
-        "nous avancons",
+        "nous avançons",
         "vous avancez",
         "ils/elles avancent"
       ],
       "imp": [
-        "j'avancais",
-        "tu avancais",
-        "il/elle avancait",
+        "j'avançais",
+        "tu avançais",
+        "il/elle avançait",
         "nous avancions",
         "vous avanciez",
-        "ils/elles avancaient"
+        "ils/elles avançaient"
       ],
       "fut": [
         "j'avancerai",
@@ -16270,17 +16270,17 @@
         "je change",
         "tu changes",
         "il/elle change",
-        "nous changons",
+        "nous changeons",
         "vous changez",
         "ils/elles changent"
       ],
       "indicatif_imparfait": [
-        "je changais",
-        "tu changais",
-        "il/elle changait",
+        "je changeais",
+        "tu changeais",
+        "il/elle changeait",
         "nous changions",
         "vous changiez",
-        "ils/elles changaient"
+        "ils/elles changeaient"
       ],
       "pc": [
         "j'ai changé",
@@ -16351,17 +16351,17 @@
         "je change",
         "tu changes",
         "il/elle change",
-        "nous changons",
+        "nous changeons",
         "vous changez",
         "ils/elles changent"
       ],
       "imp": [
-        "je changais",
-        "tu changais",
-        "il/elle changait",
+        "je changeais",
+        "tu changeais",
+        "il/elle changeait",
         "nous changions",
         "vous changiez",
-        "ils/elles changaient"
+        "ils/elles changeaient"
       ],
       "fut": [
         "je changerai",
@@ -16419,17 +16419,17 @@
         "je charge",
         "tu charges",
         "il/elle charge",
-        "nous chargons",
+        "nous chargeons",
         "vous chargez",
         "ils/elles chargent"
       ],
       "indicatif_imparfait": [
-        "je chargais",
-        "tu chargais",
-        "il/elle chargait",
+        "je chargeais",
+        "tu chargeais",
+        "il/elle chargeait",
         "nous chargions",
         "vous chargiez",
-        "ils/elles chargaient"
+        "ils/elles chargeaient"
       ],
       "pc": [
         "j'ai chargé",
@@ -16500,17 +16500,17 @@
         "je charge",
         "tu charges",
         "il/elle charge",
-        "nous chargons",
+        "nous chargeons",
         "vous chargez",
         "ils/elles chargent"
       ],
       "imp": [
-        "je chargais",
-        "tu chargais",
-        "il/elle chargait",
+        "je chargeais",
+        "tu chargeais",
+        "il/elle chargeait",
         "nous chargions",
         "vous chargiez",
-        "ils/elles chargaient"
+        "ils/elles chargeaient"
       ],
       "fut": [
         "je chargerai",
@@ -17164,17 +17164,17 @@
         "je considère",
         "tu considères",
         "il/elle considère",
-        "nous considèrons",
-        "vous considèrez",
+        "nous considérons",
+        "vous considérez",
         "ils/elles considèrent"
       ],
       "indicatif_imparfait": [
-        "je considèrais",
-        "tu considèrais",
-        "il/elle considèrait",
-        "nous considèrions",
-        "vous considèriez",
-        "ils/elles considèraient"
+        "je considérais",
+        "tu considérais",
+        "il/elle considérait",
+        "nous considérions",
+        "vous considériez",
+        "ils/elles considéraient"
       ],
       "pc": [
         "j'ai considéré",
@@ -17204,8 +17204,8 @@
         "que je considère",
         "que tu considères",
         "qu'il/elle considère",
-        "que nous considèrions",
-        "que vous considèriez",
+        "que nous considérions",
+        "que vous considériez",
         "qu'ils/elles considèrent"
       ],
       "imperatif": [
@@ -17245,17 +17245,17 @@
         "je considère",
         "tu considères",
         "il/elle considère",
-        "nous considèrons",
-        "vous considèrez",
+        "nous considérons",
+        "vous considérez",
         "ils/elles considèrent"
       ],
       "imp": [
-        "je considèrais",
-        "tu considèrais",
-        "il/elle considèrait",
-        "nous considèrions",
-        "vous considèriez",
-        "ils/elles considèraient"
+        "je considérais",
+        "tu considérais",
+        "il/elle considérait",
+        "nous considérions",
+        "vous considériez",
+        "ils/elles considéraient"
       ],
       "fut": [
         "je considérerai",
@@ -18654,17 +18654,17 @@
         "j'emmène",
         "tu emmènes",
         "il/elle emmène",
-        "nous emmènons",
-        "vous emmènez",
+        "nous emmenons",
+        "vous emmenez",
         "ils/elles emmènent"
       ],
       "indicatif_imparfait": [
-        "j'emmènais",
-        "tu emmènais",
-        "il/elle emmènait",
-        "nous emmènions",
-        "vous emmèniez",
-        "ils/elles emmènaient"
+        "j'emmenais",
+        "tu emmenais",
+        "il/elle emmenait",
+        "nous emmenions",
+        "vous emmeniez",
+        "ils/elles emmenaient"
       ],
       "pc": [
         "j'ai emmené",
@@ -18675,27 +18675,27 @@
         "ils/elles ont emmené"
       ],
       "indicatif_futur_simple": [
-        "j'emmenerai",
-        "tu emmeneras",
-        "il/elle emmenera",
-        "nous emmenerons",
-        "vous emmenerez",
-        "ils/elles emmeneront"
+        "j'emmènerai",
+        "tu emmèneras",
+        "il/elle emmènera",
+        "nous emmènerons",
+        "vous emmènerez",
+        "ils/elles emmèneront"
       ],
       "conditionnel_present": [
-        "j'emmenerais",
-        "tu emmenerais",
-        "il/elle emmenerait",
-        "nous emmenerions",
-        "vous emmeneriez",
-        "ils/elles emmeneraient"
+        "j'emmènerais",
+        "tu emmènerais",
+        "il/elle emmènerait",
+        "nous emmènerions",
+        "vous emmèneriez",
+        "ils/elles emmèneraient"
       ],
       "subjonctif_present": [
         "que j'emmène",
         "que tu emmènes",
         "qu'il/elle emmène",
-        "que nous emmènions",
-        "que vous emmèniez",
+        "que nous emmenions",
+        "que vous emmeniez",
         "qu'ils/elles emmènent"
       ],
       "imperatif": [
@@ -18715,12 +18715,12 @@
         "qu'ils/elles emmenent"
       ],
       "cond": [
-        "j'emmenerais",
-        "tu emmenerais",
-        "il/elle emmenerait",
-        "nous emmenerions",
-        "vous emmeneriez",
-        "ils/elles emmeneraient"
+        "j'emmènerais",
+        "tu emmènerais",
+        "il/elle emmènerait",
+        "nous emmènerions",
+        "vous emmèneriez",
+        "ils/elles emmèneraient"
       ],
       "impv": [
         "emmene",
@@ -18735,25 +18735,25 @@
         "j'emmène",
         "tu emmènes",
         "il/elle emmène",
-        "nous emmènons",
-        "vous emmènez",
+        "nous emmenons",
+        "vous emmenez",
         "ils/elles emmènent"
       ],
       "imp": [
-        "j'emmènais",
-        "tu emmènais",
-        "il/elle emmènait",
-        "nous emmènions",
-        "vous emmèniez",
-        "ils/elles emmènaient"
+        "j'emmenais",
+        "tu emmenais",
+        "il/elle emmenait",
+        "nous emmenions",
+        "vous emmeniez",
+        "ils/elles emmenaient"
       ],
       "fut": [
-        "j'emmenerai",
-        "tu emmeneras",
-        "il/elle emmenera",
-        "nous emmenerons",
-        "vous emmenerez",
-        "ils/elles emmeneront"
+        "j'emmènerai",
+        "tu emmèneras",
+        "il/elle emmènera",
+        "nous emmènerons",
+        "vous emmènerez",
+        "ils/elles emmèneront"
       ],
       "pqp": [
         "j'avais emmené",
@@ -18952,17 +18952,17 @@
         "j'envoie",
         "tu envoies",
         "il/elle envoie",
-        "nous envoions",
-        "vous envoiez",
+        "nous envoyons",
+        "vous envoyez",
         "ils/elles envoient"
       ],
       "indicatif_imparfait": [
-        "j'envoiais",
-        "tu envoiais",
-        "il/elle envoiait",
-        "nous envoiions",
-        "vous envoiiez",
-        "ils/elles envoiaient"
+        "j'envoyais",
+        "tu envoyais",
+        "il/elle envoyait",
+        "nous envoyions",
+        "vous envoyiez",
+        "ils/elles envoyaient"
       ],
       "pc": [
         "j'ai envoyé",
@@ -18973,27 +18973,27 @@
         "ils/elles ont envoyé"
       ],
       "indicatif_futur_simple": [
-        "j'envoyerai",
-        "tu envoyeras",
-        "il/elle envoyera",
-        "nous envoyerons",
-        "vous envoyerez",
-        "ils/elles envoyeront"
+        "j'enverrai",
+        "tu enverras",
+        "il/elle enverra",
+        "nous enverrons",
+        "vous enverrez",
+        "ils/elles enverront"
       ],
       "conditionnel_present": [
-        "j'envoyerais",
-        "tu envoyerais",
-        "il/elle envoyerait",
-        "nous envoyerions",
-        "vous envoyeriez",
-        "ils/elles envoyeraient"
+        "j'enverrais",
+        "tu enverrais",
+        "il/elle enverrait",
+        "nous enverrions",
+        "vous enverriez",
+        "ils/elles enverraient"
       ],
       "subjonctif_present": [
         "que j'envoie",
         "que tu envoies",
         "qu'il/elle envoie",
-        "que nous envoiions",
-        "que vous envoiiez",
+        "que nous envoyions",
+        "que vous envoyiez",
         "qu'ils/elles envoient"
       ],
       "imperatif": [
@@ -19013,12 +19013,12 @@
         "qu'ils/elles envoyent"
       ],
       "cond": [
-        "j'envoyerais",
-        "tu envoyerais",
-        "il/elle envoyerait",
-        "nous envoyerions",
-        "vous envoyeriez",
-        "ils/elles envoyeraient"
+        "j'enverrais",
+        "tu enverrais",
+        "il/elle enverrait",
+        "nous enverrions",
+        "vous enverriez",
+        "ils/elles enverraient"
       ],
       "impv": [
         "envoye",
@@ -19033,25 +19033,25 @@
         "j'envoie",
         "tu envoies",
         "il/elle envoie",
-        "nous envoions",
-        "vous envoiez",
+        "nous envoyons",
+        "vous envoyez",
         "ils/elles envoient"
       ],
       "imp": [
-        "j'envoiais",
-        "tu envoiais",
-        "il/elle envoiait",
-        "nous envoiions",
-        "vous envoiiez",
-        "ils/elles envoiaient"
+        "j'envoyais",
+        "tu envoyais",
+        "il/elle envoyait",
+        "nous envoyions",
+        "vous envoyiez",
+        "ils/elles envoyaient"
       ],
       "fut": [
-        "j'envoyerai",
-        "tu envoyeras",
-        "il/elle envoyera",
-        "nous envoyerons",
-        "vous envoyerez",
-        "ils/elles envoyeront"
+        "j'enverrai",
+        "tu enverras",
+        "il/elle enverra",
+        "nous enverrons",
+        "vous enverrez",
+        "ils/elles enverront"
       ],
       "pqp": [
         "j'avais envoyé",
@@ -20443,17 +20443,17 @@
         "j'inquiète",
         "tu inquiètes",
         "il/elle inquiète",
-        "nous inquiètons",
-        "vous inquiètez",
+        "nous inquiétons",
+        "vous inquiétez",
         "ils/elles inquiètent"
       ],
       "indicatif_imparfait": [
-        "j'inquiètais",
-        "tu inquiètais",
-        "il/elle inquiètait",
-        "nous inquiètions",
-        "vous inquiètiez",
-        "ils/elles inquiètaient"
+        "j'inquiétais",
+        "tu inquiétais",
+        "il/elle inquiétait",
+        "nous inquiétions",
+        "vous inquiétiez",
+        "ils/elles inquiétaient"
       ],
       "pc": [
         "j'ai inquiété",
@@ -20483,8 +20483,8 @@
         "que j'inquiète",
         "que tu inquiètes",
         "qu'il/elle inquiète",
-        "que nous inquiètions",
-        "que vous inquiètiez",
+        "que nous inquiétions",
+        "que vous inquiétiez",
         "qu'ils/elles inquiètent"
       ],
       "imperatif": [
@@ -20524,17 +20524,17 @@
         "j'inquiète",
         "tu inquiètes",
         "il/elle inquiète",
-        "nous inquiètons",
-        "vous inquiètez",
+        "nous inquiétons",
+        "vous inquiétez",
         "ils/elles inquiètent"
       ],
       "imp": [
-        "j'inquiètais",
-        "tu inquiètais",
-        "il/elle inquiètait",
-        "nous inquiètions",
-        "vous inquiètiez",
-        "ils/elles inquiètaient"
+        "j'inquiétais",
+        "tu inquiétais",
+        "il/elle inquiétait",
+        "nous inquiétions",
+        "vous inquiétiez",
+        "ils/elles inquiétaient"
       ],
       "fut": [
         "j'inquiéterai",
@@ -21040,17 +21040,17 @@
         "je juge",
         "tu juges",
         "il/elle juge",
-        "nous jugons",
+        "nous jugeons",
         "vous jugez",
         "ils/elles jugent"
       ],
       "indicatif_imparfait": [
-        "je jugais",
-        "tu jugais",
-        "il/elle jugait",
+        "je jugeais",
+        "tu jugeais",
+        "il/elle jugeait",
         "nous jugions",
         "vous jugiez",
-        "ils/elles jugaient"
+        "ils/elles jugeaient"
       ],
       "pc": [
         "j'ai jugé",
@@ -21121,17 +21121,17 @@
         "je juge",
         "tu juges",
         "il/elle juge",
-        "nous jugons",
+        "nous jugeons",
         "vous jugez",
         "ils/elles jugent"
       ],
       "imp": [
-        "je jugais",
-        "tu jugais",
-        "il/elle jugait",
+        "je jugeais",
+        "tu jugeais",
+        "il/elle jugeait",
         "nous jugions",
         "vous jugiez",
-        "ils/elles jugaient"
+        "ils/elles jugeaient"
       ],
       "fut": [
         "je jugerai",
@@ -21189,17 +21189,17 @@
         "je lève",
         "tu lèves",
         "il/elle lève",
-        "nous lèvons",
-        "vous lèvez",
+        "nous levons",
+        "vous levez",
         "ils/elles lèvent"
       ],
       "indicatif_imparfait": [
-        "je lèvais",
-        "tu lèvais",
-        "il/elle lèvait",
-        "nous lèvions",
-        "vous lèviez",
-        "ils/elles lèvaient"
+        "je levais",
+        "tu levais",
+        "il/elle levait",
+        "nous levions",
+        "vous leviez",
+        "ils/elles levaient"
       ],
       "pc": [
         "j'ai levé",
@@ -21210,27 +21210,27 @@
         "ils/elles ont levé"
       ],
       "indicatif_futur_simple": [
-        "je leverai",
-        "tu leveras",
-        "il/elle levera",
-        "nous leverons",
-        "vous leverez",
-        "ils/elles leveront"
+        "je lèverai",
+        "tu lèveras",
+        "il/elle lèvera",
+        "nous lèverons",
+        "vous lèverez",
+        "ils/elles lèveront"
       ],
       "conditionnel_present": [
-        "je leverais",
-        "tu leverais",
-        "il/elle leverait",
-        "nous leverions",
-        "vous leveriez",
-        "ils/elles leveraient"
+        "je lèverais",
+        "tu lèverais",
+        "il/elle lèverait",
+        "nous lèverions",
+        "vous lèveriez",
+        "ils/elles lèveraient"
       ],
       "subjonctif_present": [
         "que je lève",
         "que tu lèves",
         "qu'il/elle lève",
-        "que nous lèvions",
-        "que vous lèviez",
+        "que nous levions",
+        "que vous leviez",
         "qu'ils/elles lèvent"
       ],
       "imperatif": [
@@ -21250,12 +21250,12 @@
         "qu'ils/elles levent"
       ],
       "cond": [
-        "je leverais",
-        "tu leverais",
-        "il/elle leverait",
-        "nous leverions",
-        "vous leveriez",
-        "ils/elles leveraient"
+        "je lèverais",
+        "tu lèverais",
+        "il/elle lèverait",
+        "nous lèverions",
+        "vous lèveriez",
+        "ils/elles lèveraient"
       ],
       "impv": [
         "leve",
@@ -21270,25 +21270,25 @@
         "je lève",
         "tu lèves",
         "il/elle lève",
-        "nous lèvons",
-        "vous lèvez",
+        "nous levons",
+        "vous levez",
         "ils/elles lèvent"
       ],
       "imp": [
-        "je lèvais",
-        "tu lèvais",
-        "il/elle lèvait",
-        "nous lèvions",
-        "vous lèviez",
-        "ils/elles lèvaient"
+        "je levais",
+        "tu levais",
+        "il/elle levait",
+        "nous levions",
+        "vous leviez",
+        "ils/elles levaient"
       ],
       "fut": [
-        "je leverai",
-        "tu leveras",
-        "il/elle levera",
-        "nous leverons",
-        "vous leverez",
-        "ils/elles leveront"
+        "je lèverai",
+        "tu lèveras",
+        "il/elle lèvera",
+        "nous lèverons",
+        "vous lèverez",
+        "ils/elles lèveront"
       ],
       "pqp": [
         "j'avais levé",
@@ -21785,17 +21785,17 @@
         "je mène",
         "tu mènes",
         "il/elle mène",
-        "nous mènons",
-        "vous mènez",
+        "nous menons",
+        "vous menez",
         "ils/elles mènent"
       ],
       "indicatif_imparfait": [
-        "je mènais",
-        "tu mènais",
-        "il/elle mènait",
-        "nous mènions",
-        "vous mèniez",
-        "ils/elles mènaient"
+        "je menais",
+        "tu menais",
+        "il/elle menait",
+        "nous menions",
+        "vous meniez",
+        "ils/elles menaient"
       ],
       "pc": [
         "j'ai mené",
@@ -21806,27 +21806,27 @@
         "ils/elles ont mené"
       ],
       "indicatif_futur_simple": [
-        "je menerai",
-        "tu meneras",
-        "il/elle menera",
-        "nous menerons",
-        "vous menerez",
-        "ils/elles meneront"
+        "je mènerai",
+        "tu mèneras",
+        "il/elle mènera",
+        "nous mènerons",
+        "vous mènerez",
+        "ils/elles mèneront"
       ],
       "conditionnel_present": [
-        "je menerais",
-        "tu menerais",
-        "il/elle menerait",
-        "nous menerions",
-        "vous meneriez",
-        "ils/elles meneraient"
+        "je mènerais",
+        "tu mènerais",
+        "il/elle mènerait",
+        "nous mènerions",
+        "vous mèneriez",
+        "ils/elles mèneraient"
       ],
       "subjonctif_present": [
         "que je mène",
         "que tu mènes",
         "qu'il/elle mène",
-        "que nous mènions",
-        "que vous mèniez",
+        "que nous menions",
+        "que vous meniez",
         "qu'ils/elles mènent"
       ],
       "imperatif": [
@@ -21846,12 +21846,12 @@
         "qu'ils/elles menent"
       ],
       "cond": [
-        "je menerais",
-        "tu menerais",
-        "il/elle menerait",
-        "nous menerions",
-        "vous meneriez",
-        "ils/elles meneraient"
+        "je mènerais",
+        "tu mènerais",
+        "il/elle mènerait",
+        "nous mènerions",
+        "vous mèneriez",
+        "ils/elles mèneraient"
       ],
       "impv": [
         "mene",
@@ -21866,25 +21866,25 @@
         "je mène",
         "tu mènes",
         "il/elle mène",
-        "nous mènons",
-        "vous mènez",
+        "nous menons",
+        "vous menez",
         "ils/elles mènent"
       ],
       "imp": [
-        "je mènais",
-        "tu mènais",
-        "il/elle mènait",
-        "nous mènions",
-        "vous mèniez",
-        "ils/elles mènaient"
+        "je menais",
+        "tu menais",
+        "il/elle menait",
+        "nous menions",
+        "vous meniez",
+        "ils/elles menaient"
       ],
       "fut": [
-        "je menerai",
-        "tu meneras",
-        "il/elle menera",
-        "nous menerons",
-        "vous menerez",
-        "ils/elles meneront"
+        "je mènerai",
+        "tu mèneras",
+        "il/elle mènera",
+        "nous mènerons",
+        "vous mènerez",
+        "ils/elles mèneront"
       ],
       "pqp": [
         "j'avais mené",
@@ -23424,17 +23424,17 @@
         "je remplace",
         "tu remplaces",
         "il/elle remplace",
-        "nous remplacons",
+        "nous remplaçons",
         "vous remplacez",
         "ils/elles remplacent"
       ],
       "indicatif_imparfait": [
-        "je remplacais",
-        "tu remplacais",
-        "il/elle remplacait",
+        "je remplaçais",
+        "tu remplaçais",
+        "il/elle remplaçait",
         "nous remplacions",
         "vous remplaciez",
-        "ils/elles remplacaient"
+        "ils/elles remplaçaient"
       ],
       "pc": [
         "j'ai remplacé",
@@ -23505,17 +23505,17 @@
         "je remplace",
         "tu remplaces",
         "il/elle remplace",
-        "nous remplacons",
+        "nous remplaçons",
         "vous remplacez",
         "ils/elles remplacent"
       ],
       "imp": [
-        "je remplacais",
-        "tu remplacais",
-        "il/elle remplacait",
+        "je remplaçais",
+        "tu remplaçais",
+        "il/elle remplaçait",
         "nous remplacions",
         "vous remplaciez",
-        "ils/elles remplacaient"
+        "ils/elles remplaçaient"
       ],
       "fut": [
         "je remplacerai",
@@ -23871,17 +23871,17 @@
         "je répète",
         "tu répètes",
         "il/elle répète",
-        "nous répètons",
-        "vous répètez",
+        "nous répétons",
+        "vous répétez",
         "ils/elles répètent"
       ],
       "indicatif_imparfait": [
-        "je répètais",
-        "tu répètais",
-        "il/elle répètait",
-        "nous répètions",
-        "vous répètiez",
-        "ils/elles répètaient"
+        "je répétais",
+        "tu répétais",
+        "il/elle répétait",
+        "nous répétions",
+        "vous répétiez",
+        "ils/elles répétaient"
       ],
       "pc": [
         "j'ai répété",
@@ -23911,8 +23911,8 @@
         "que je répète",
         "que tu répètes",
         "qu'il/elle répète",
-        "que nous répètions",
-        "que vous répètiez",
+        "que nous répétions",
+        "que vous répétiez",
         "qu'ils/elles répètent"
       ],
       "imperatif": [
@@ -23952,17 +23952,17 @@
         "je répète",
         "tu répètes",
         "il/elle répète",
-        "nous répètons",
-        "vous répètez",
+        "nous répétons",
+        "vous répétez",
         "ils/elles répètent"
       ],
       "imp": [
-        "je répètais",
-        "tu répètais",
-        "il/elle répètait",
-        "nous répètions",
-        "vous répètiez",
-        "ils/elles répètaient"
+        "je répétais",
+        "tu répétais",
+        "il/elle répétait",
+        "nous répétions",
+        "vous répétiez",
+        "ils/elles répétaient"
       ],
       "fut": [
         "je répéterai",
@@ -25510,16 +25510,16 @@
         "j'admets",
         "tu admets",
         "il/elle admet",
-        "nous admetsons",
-        "vous admetsez",
-        "ils/elles admetsent"
+        "nous admettons",
+        "vous admettez",
+        "ils/elles admettent"
       ],
       "indicatif_imparfait": [
         "j'admettais",
         "tu admettais",
         "il/elle admettait",
-        "nous admettaions",
-        "vous admettaiez",
+        "nous admettions",
+        "vous admettiez",
         "ils/elles admettaient"
       ],
       "pc": [
@@ -25534,9 +25534,9 @@
         "j'admettrai",
         "tu admettras",
         "il/elle admettra",
-        "nous admettraons",
-        "vous admettraez",
-        "ils/elles admettraont"
+        "nous admettrons",
+        "vous admettrez",
+        "ils/elles admettront"
       ],
       "conditionnel_present": [
         "j'admettrais",
@@ -25550,8 +25550,8 @@
         "que j'admette",
         "que tu admettes",
         "qu'il/elle admette",
-        "que nous admetteons",
-        "que vous admetteez",
+        "que nous admettions",
+        "que vous admettiez",
         "qu'ils/elles admettent"
       ],
       "imperatif": [
@@ -25566,8 +25566,8 @@
         "que j'admettree",
         "que tu admettrees",
         "qu'il/elle admettree",
-        "que nous admettreions",
-        "que vous admettreiez",
+        "que nous admettions",
+        "que vous admettiez",
         "qu'ils/elles admettreent"
       ],
       "cond": [
@@ -25591,25 +25591,25 @@
         "j'admets",
         "tu admets",
         "il/elle admet",
-        "nous admetsons",
-        "vous admetsez",
-        "ils/elles admetsent"
+        "nous admettons",
+        "vous admettez",
+        "ils/elles admettent"
       ],
       "imp": [
         "j'admettais",
         "tu admettais",
         "il/elle admettait",
-        "nous admettaions",
-        "vous admettaiez",
+        "nous admettions",
+        "vous admettiez",
         "ils/elles admettaient"
       ],
       "fut": [
         "j'admettrai",
         "tu admettras",
         "il/elle admettra",
-        "nous admettraons",
-        "vous admettraez",
-        "ils/elles admettraont"
+        "nous admettrons",
+        "vous admettrez",
+        "ils/elles admettront"
       ],
       "pqp": [
         "j'avais admis",
@@ -25659,16 +25659,16 @@
         "j'agace",
         "tu agaces",
         "il/elle agace",
-        "nous agaceons",
-        "vous agaceez",
-        "ils/elles agaceent"
+        "nous agaçons",
+        "vous agacez",
+        "ils/elles agacent"
       ],
       "indicatif_imparfait": [
         "j'agaçais",
         "tu agaçais",
         "il/elle agaçait",
-        "nous agaçaions",
-        "vous agaçaiez",
+        "nous agacions",
+        "vous agaciez",
         "ils/elles agaçaient"
       ],
       "pc": [
@@ -25683,24 +25683,24 @@
         "j'agacerai",
         "tu agaceras",
         "il/elle agacera",
-        "nous agaceraons",
-        "vous agaceraez",
-        "ils/elles agaceraont"
+        "nous agacerons",
+        "vous agacerez",
+        "ils/elles agaceront"
       ],
       "conditionnel_present": [
         "j'agacerais",
         "tu agacerais",
         "il/elle agacerait",
-        "nous agaceraions",
-        "vous agaceraiez",
+        "nous agacerions",
+        "vous agaceriez",
         "ils/elles agaceraient"
       ],
       "subjonctif_present": [
         "que j'agace",
         "que tu agaces",
         "qu'il/elle agace",
-        "que nous agaceons",
-        "que vous agaceez",
+        "que nous agacions",
+        "que vous agaciez",
         "qu'ils/elles agacent"
       ],
       "imperatif": [
@@ -25740,25 +25740,25 @@
         "j'agace",
         "tu agaces",
         "il/elle agace",
-        "nous agaceons",
-        "vous agaceez",
-        "ils/elles agaceent"
+        "nous agaçons",
+        "vous agacez",
+        "ils/elles agacent"
       ],
       "imp": [
         "j'agaçais",
         "tu agaçais",
         "il/elle agaçait",
-        "nous agaçaions",
-        "vous agaçaiez",
+        "nous agacions",
+        "vous agaciez",
         "ils/elles agaçaient"
       ],
       "fut": [
         "j'agacerai",
         "tu agaceras",
         "il/elle agacera",
-        "nous agaceraons",
-        "vous agaceraez",
-        "ils/elles agaceraont"
+        "nous agacerons",
+        "vous agacerez",
+        "ils/elles agaceront"
       ],
       "pqp": [
         "j'avais agacé",
@@ -25808,16 +25808,16 @@
         "j'amuse",
         "tu amuses",
         "il/elle amuse",
-        "nous amuseons",
-        "vous amuseez",
-        "ils/elles amuseent"
+        "nous amusons",
+        "vous amusez",
+        "ils/elles amusent"
       ],
       "indicatif_imparfait": [
         "j'amusais",
         "tu amusais",
         "il/elle amusait",
-        "nous amusaions",
-        "vous amusaiez",
+        "nous amusions",
+        "vous amusiez",
         "ils/elles amusaient"
       ],
       "pc": [
@@ -25832,24 +25832,24 @@
         "j'amuserai",
         "tu amuseras",
         "il/elle amusera",
-        "nous amuseraons",
-        "vous amuseraez",
-        "ils/elles amuseraont"
+        "nous amuserons",
+        "vous amuserez",
+        "ils/elles amuseront"
       ],
       "conditionnel_present": [
         "j'amuserais",
         "tu amuserais",
         "il/elle amuserait",
-        "nous amuseraions",
-        "vous amuseraiez",
+        "nous amuserions",
+        "vous amuseriez",
         "ils/elles amuseraient"
       ],
       "subjonctif_present": [
         "que j'amuse",
         "que tu amuses",
         "qu'il/elle amuse",
-        "que nous amuseons",
-        "que vous amuseez",
+        "que nous amusions",
+        "que vous amusiez",
         "qu'ils/elles amusent"
       ],
       "imperatif": [
@@ -25889,25 +25889,25 @@
         "j'amuse",
         "tu amuses",
         "il/elle amuse",
-        "nous amuseons",
-        "vous amuseez",
-        "ils/elles amuseent"
+        "nous amusons",
+        "vous amusez",
+        "ils/elles amusent"
       ],
       "imp": [
         "j'amusais",
         "tu amusais",
         "il/elle amusait",
-        "nous amusaions",
-        "vous amusaiez",
+        "nous amusions",
+        "vous amusiez",
         "ils/elles amusaient"
       ],
       "fut": [
         "j'amuserai",
         "tu amuseras",
         "il/elle amusera",
-        "nous amuseraons",
-        "vous amuseraez",
-        "ils/elles amuseraont"
+        "nous amuserons",
+        "vous amuserez",
+        "ils/elles amuseront"
       ],
       "pqp": [
         "j'avais amusé",
@@ -25957,16 +25957,16 @@
         "j'apprends",
         "tu apprends",
         "il/elle apprend",
-        "nous apprendsons",
-        "vous apprendsez",
-        "ils/elles apprendsent"
+        "nous apprenons",
+        "vous apprenez",
+        "ils/elles apprennent"
       ],
       "indicatif_imparfait": [
         "j'apprenais",
         "tu apprenais",
         "il/elle apprenait",
-        "nous apprenaions",
-        "vous apprenaiez",
+        "nous apprenions",
+        "vous appreniez",
         "ils/elles apprenaient"
       ],
       "pc": [
@@ -25981,9 +25981,9 @@
         "j'apprendrai",
         "tu apprendras",
         "il/elle apprendra",
-        "nous apprendraons",
-        "vous apprendraez",
-        "ils/elles apprendraont"
+        "nous apprendrons",
+        "vous apprendrez",
+        "ils/elles apprendront"
       ],
       "conditionnel_present": [
         "j'apprendrais",
@@ -25997,8 +25997,8 @@
         "que j'apprenne",
         "que tu apprennes",
         "qu'il/elle apprenne",
-        "que nous apprenneons",
-        "que vous apprenneez",
+        "que nous apprenions",
+        "que vous appreniez",
         "qu'ils/elles apprennent"
       ],
       "imperatif": [
@@ -26013,8 +26013,8 @@
         "que j'apprendree",
         "que tu apprendrees",
         "qu'il/elle apprendree",
-        "que nous apprendreions",
-        "que vous apprendreiez",
+        "que nous apprenions",
+        "que vous appreniez",
         "qu'ils/elles apprendreent"
       ],
       "cond": [
@@ -26038,25 +26038,25 @@
         "j'apprends",
         "tu apprends",
         "il/elle apprend",
-        "nous apprendsons",
-        "vous apprendsez",
-        "ils/elles apprendsent"
+        "nous apprenons",
+        "vous apprenez",
+        "ils/elles apprennent"
       ],
       "imp": [
         "j'apprenais",
         "tu apprenais",
         "il/elle apprenait",
-        "nous apprenaions",
-        "vous apprenaiez",
+        "nous apprenions",
+        "vous appreniez",
         "ils/elles apprenaient"
       ],
       "fut": [
         "j'apprendrai",
         "tu apprendras",
         "il/elle apprendra",
-        "nous apprendraons",
-        "vous apprendraez",
-        "ils/elles apprendraont"
+        "nous apprendrons",
+        "vous apprendrez",
+        "ils/elles apprendront"
       ],
       "pqp": [
         "j'avais appris",
@@ -26106,16 +26106,16 @@
         "j'attrape",
         "tu attrapes",
         "il/elle attrape",
-        "nous attrapeons",
-        "vous attrapeez",
-        "ils/elles attrapeent"
+        "nous attrapons",
+        "vous attrapez",
+        "ils/elles attrapent"
       ],
       "indicatif_imparfait": [
         "j'attrapais",
         "tu attrapais",
         "il/elle attrapait",
-        "nous attrapaions",
-        "vous attrapaiez",
+        "nous attrapions",
+        "vous attrapiez",
         "ils/elles attrapaient"
       ],
       "pc": [
@@ -26130,24 +26130,24 @@
         "j'attraperai",
         "tu attraperas",
         "il/elle attrapera",
-        "nous attraperaons",
-        "vous attraperaez",
-        "ils/elles attraperaont"
+        "nous attraperons",
+        "vous attraperez",
+        "ils/elles attraperont"
       ],
       "conditionnel_present": [
         "j'attraperais",
         "tu attraperais",
         "il/elle attraperait",
-        "nous attraperaions",
-        "vous attraperaiez",
+        "nous attraperions",
+        "vous attraperiez",
         "ils/elles attraperaient"
       ],
       "subjonctif_present": [
         "que j'attrape",
         "que tu attrapes",
         "qu'il/elle attrape",
-        "que nous attrapeons",
-        "que vous attrapeez",
+        "que nous attrapions",
+        "que vous attrapiez",
         "qu'ils/elles attrapent"
       ],
       "imperatif": [
@@ -26187,25 +26187,25 @@
         "j'attrape",
         "tu attrapes",
         "il/elle attrape",
-        "nous attrapeons",
-        "vous attrapeez",
-        "ils/elles attrapeent"
+        "nous attrapons",
+        "vous attrapez",
+        "ils/elles attrapent"
       ],
       "imp": [
         "j'attrapais",
         "tu attrapais",
         "il/elle attrapait",
-        "nous attrapaions",
-        "vous attrapaiez",
+        "nous attrapions",
+        "vous attrapiez",
         "ils/elles attrapaient"
       ],
       "fut": [
         "j'attraperai",
         "tu attraperas",
         "il/elle attrapera",
-        "nous attraperaons",
-        "vous attraperaez",
-        "ils/elles attraperaont"
+        "nous attraperons",
+        "vous attraperez",
+        "ils/elles attraperont"
       ],
       "pqp": [
         "j'avais attrapé",
@@ -26254,17 +26254,17 @@
       "indicatif_present": [
         "je bâtis",
         "tu bâtis",
-        "il/elle bâti",
-        "nous bâtisons",
-        "vous bâtisez",
-        "ils/elles bâtisent"
+        "il/elle bâtit",
+        "nous bâtissons",
+        "vous bâtissez",
+        "ils/elles bâtissent"
       ],
       "indicatif_imparfait": [
         "je bâtissais",
         "tu bâtissais",
         "il/elle bâtissait",
-        "nous bâtissaions",
-        "vous bâtissaiez",
+        "nous bâtissions",
+        "vous bâtissiez",
         "ils/elles bâtissaient"
       ],
       "pc": [
@@ -26279,24 +26279,24 @@
         "je bâtirai",
         "tu bâtiras",
         "il/elle bâtira",
-        "nous bâtiraons",
-        "vous bâtiraez",
-        "ils/elles bâtiraont"
+        "nous bâtirons",
+        "vous bâtirez",
+        "ils/elles bâtiront"
       ],
       "conditionnel_present": [
         "je bâtirais",
         "tu bâtirais",
         "il/elle bâtirait",
-        "nous bâtiraions",
-        "vous bâtiraiez",
+        "nous bâtirions",
+        "vous bâtiriez",
         "ils/elles bâtiraient"
       ],
       "subjonctif_present": [
         "que je bâtisse",
         "que tu bâtisses",
         "qu'il/elle bâtisse",
-        "que nous bâtisseons",
-        "que vous bâtisseez",
+        "que nous bâtissions",
+        "que vous bâtissiez",
         "qu'ils/elles bâtissent"
       ],
       "imperatif": [
@@ -26311,8 +26311,8 @@
         "que je bâtire",
         "que tu bâtires",
         "qu'il/elle bâtire",
-        "que nous bâtirions",
-        "que vous bâtiriez",
+        "que nous bâtissions",
+        "que vous bâtissiez",
         "qu'ils/elles bâtirent"
       ],
       "cond": [
@@ -26335,26 +26335,26 @@
       "pres": [
         "je bâtis",
         "tu bâtis",
-        "il/elle bâti",
-        "nous bâtisons",
-        "vous bâtisez",
-        "ils/elles bâtisent"
+        "il/elle bâtit",
+        "nous bâtissons",
+        "vous bâtissez",
+        "ils/elles bâtissent"
       ],
       "imp": [
         "je bâtissais",
         "tu bâtissais",
         "il/elle bâtissait",
-        "nous bâtissaions",
-        "vous bâtissaiez",
+        "nous bâtissions",
+        "vous bâtissiez",
         "ils/elles bâtissaient"
       ],
       "fut": [
         "je bâtirai",
         "tu bâtiras",
         "il/elle bâtira",
-        "nous bâtiraons",
-        "vous bâtiraez",
-        "ils/elles bâtiraont"
+        "nous bâtirons",
+        "vous bâtirez",
+        "ils/elles bâtiront"
       ],
       "pqp": [
         "j'avais bâti",
@@ -26403,17 +26403,17 @@
       "indicatif_present": [
         "je bois",
         "tu bois",
-        "il/elle boi",
-        "nous boisons",
-        "vous boisez",
-        "ils/elles boisent"
+        "il/elle boit",
+        "nous buvons",
+        "vous buvez",
+        "ils/elles boivent"
       ],
       "indicatif_imparfait": [
         "je buvais",
         "tu buvais",
         "il/elle buvait",
-        "nous buvaions",
-        "vous buvaiez",
+        "nous buvions",
+        "vous buviez",
         "ils/elles buvaient"
       ],
       "pc": [
@@ -26428,9 +26428,9 @@
         "je boirai",
         "tu boiras",
         "il/elle boira",
-        "nous boiraons",
-        "vous boiraez",
-        "ils/elles boiraont"
+        "nous boirons",
+        "vous boirez",
+        "ils/elles boiront"
       ],
       "conditionnel_present": [
         "je boirais",
@@ -26444,8 +26444,8 @@
         "que je boive",
         "que tu boives",
         "qu'il/elle boive",
-        "que nous boiveons",
-        "que vous boiveez",
+        "que nous buvions",
+        "que vous buviez",
         "qu'ils/elles boivent"
       ],
       "imperatif": [
@@ -26460,8 +26460,8 @@
         "que je boiree",
         "que tu boirees",
         "qu'il/elle boiree",
-        "que nous boireions",
-        "que vous boireiez",
+        "que nous buvions",
+        "que vous buviez",
         "qu'ils/elles boireent"
       ],
       "cond": [
@@ -26484,26 +26484,26 @@
       "pres": [
         "je bois",
         "tu bois",
-        "il/elle boi",
-        "nous boisons",
-        "vous boisez",
-        "ils/elles boisent"
+        "il/elle boit",
+        "nous buvons",
+        "vous buvez",
+        "ils/elles boivent"
       ],
       "imp": [
         "je buvais",
         "tu buvais",
         "il/elle buvait",
-        "nous buvaions",
-        "vous buvaiez",
+        "nous buvions",
+        "vous buviez",
         "ils/elles buvaient"
       ],
       "fut": [
         "je boirai",
         "tu boiras",
         "il/elle boira",
-        "nous boiraons",
-        "vous boiraez",
-        "ils/elles boiraont"
+        "nous boirons",
+        "vous boirez",
+        "ils/elles boiront"
       ],
       "pqp": [
         "j'avais bu",
@@ -26553,16 +26553,16 @@
         "je brûle",
         "tu brûles",
         "il/elle brûle",
-        "nous brûleons",
-        "vous brûleez",
-        "ils/elles brûleent"
+        "nous brûlons",
+        "vous brûlez",
+        "ils/elles brûlent"
       ],
       "indicatif_imparfait": [
         "je brûlais",
         "tu brûlais",
         "il/elle brûlait",
-        "nous brûlaions",
-        "vous brûlaiez",
+        "nous brûlions",
+        "vous brûliez",
         "ils/elles brûlaient"
       ],
       "pc": [
@@ -26577,24 +26577,24 @@
         "je brûlerai",
         "tu brûleras",
         "il/elle brûlera",
-        "nous brûleraons",
-        "vous brûleraez",
-        "ils/elles brûleraont"
+        "nous brûlerons",
+        "vous brûlerez",
+        "ils/elles brûleront"
       ],
       "conditionnel_present": [
         "je brûlerais",
         "tu brûlerais",
         "il/elle brûlerait",
-        "nous brûleraions",
-        "vous brûleraiez",
+        "nous brûlerions",
+        "vous brûleriez",
         "ils/elles brûleraient"
       ],
       "subjonctif_present": [
         "que je brûle",
         "que tu brûles",
         "qu'il/elle brûle",
-        "que nous brûleons",
-        "que vous brûleez",
+        "que nous brûlions",
+        "que vous brûliez",
         "qu'ils/elles brûlent"
       ],
       "imperatif": [
@@ -26634,25 +26634,25 @@
         "je brûle",
         "tu brûles",
         "il/elle brûle",
-        "nous brûleons",
-        "vous brûleez",
-        "ils/elles brûleent"
+        "nous brûlons",
+        "vous brûlez",
+        "ils/elles brûlent"
       ],
       "imp": [
         "je brûlais",
         "tu brûlais",
         "il/elle brûlait",
-        "nous brûlaions",
-        "vous brûlaiez",
+        "nous brûlions",
+        "vous brûliez",
         "ils/elles brûlaient"
       ],
       "fut": [
         "je brûlerai",
         "tu brûleras",
         "il/elle brûlera",
-        "nous brûleraons",
-        "vous brûleraez",
-        "ils/elles brûleraont"
+        "nous brûlerons",
+        "vous brûlerez",
+        "ils/elles brûleront"
       ],
       "pqp": [
         "j'avais brûlé",
@@ -26702,16 +26702,16 @@
         "je casse",
         "tu casses",
         "il/elle casse",
-        "nous casseons",
-        "vous casseez",
-        "ils/elles casseent"
+        "nous cassons",
+        "vous cassez",
+        "ils/elles cassent"
       ],
       "indicatif_imparfait": [
         "je cassais",
         "tu cassais",
         "il/elle cassait",
-        "nous cassaions",
-        "vous cassaiez",
+        "nous cassions",
+        "vous cassiez",
         "ils/elles cassaient"
       ],
       "pc": [
@@ -26726,24 +26726,24 @@
         "je casserai",
         "tu casseras",
         "il/elle cassera",
-        "nous casseraons",
-        "vous casseraez",
-        "ils/elles casseraont"
+        "nous casserons",
+        "vous casserez",
+        "ils/elles casseront"
       ],
       "conditionnel_present": [
         "je casserais",
         "tu casserais",
         "il/elle casserait",
-        "nous casseraions",
-        "vous casseraiez",
+        "nous casserions",
+        "vous casseriez",
         "ils/elles casseraient"
       ],
       "subjonctif_present": [
         "que je casse",
         "que tu casses",
         "qu'il/elle casse",
-        "que nous casseons",
-        "que vous casseez",
+        "que nous cassions",
+        "que vous cassiez",
         "qu'ils/elles cassent"
       ],
       "imperatif": [
@@ -26783,25 +26783,25 @@
         "je casse",
         "tu casses",
         "il/elle casse",
-        "nous casseons",
-        "vous casseez",
-        "ils/elles casseent"
+        "nous cassons",
+        "vous cassez",
+        "ils/elles cassent"
       ],
       "imp": [
         "je cassais",
         "tu cassais",
         "il/elle cassait",
-        "nous cassaions",
-        "vous cassaiez",
+        "nous cassions",
+        "vous cassiez",
         "ils/elles cassaient"
       ],
       "fut": [
         "je casserai",
         "tu casseras",
         "il/elle cassera",
-        "nous casseraons",
-        "vous casseraez",
-        "ils/elles casseraont"
+        "nous casserons",
+        "vous casserez",
+        "ils/elles casseront"
       ],
       "pqp": [
         "j'avais cassé",
@@ -26851,16 +26851,16 @@
         "je comprends",
         "tu comprends",
         "il/elle comprend",
-        "nous comprendsons",
-        "vous comprendsez",
-        "ils/elles comprendsent"
+        "nous comprenons",
+        "vous comprenez",
+        "ils/elles comprennent"
       ],
       "indicatif_imparfait": [
         "je comprenais",
         "tu comprenais",
         "il/elle comprenait",
-        "nous comprenaions",
-        "vous comprenaiez",
+        "nous comprenions",
+        "vous compreniez",
         "ils/elles comprenaient"
       ],
       "pc": [
@@ -26875,9 +26875,9 @@
         "je comprendrai",
         "tu comprendras",
         "il/elle comprendra",
-        "nous comprendraons",
-        "vous comprendraez",
-        "ils/elles comprendraont"
+        "nous comprendrons",
+        "vous comprendrez",
+        "ils/elles comprendront"
       ],
       "conditionnel_present": [
         "je comprendrais",
@@ -26891,8 +26891,8 @@
         "que je comprenne",
         "que tu comprennes",
         "qu'il/elle comprenne",
-        "que nous comprenneons",
-        "que vous comprenneez",
+        "que nous comprenions",
+        "que vous compreniez",
         "qu'ils/elles comprennent"
       ],
       "imperatif": [
@@ -26907,8 +26907,8 @@
         "que je comprendree",
         "que tu comprendrees",
         "qu'il/elle comprendree",
-        "que nous comprendreions",
-        "que vous comprendreiez",
+        "que nous comprenions",
+        "que vous compreniez",
         "qu'ils/elles comprendreent"
       ],
       "cond": [
@@ -26932,25 +26932,25 @@
         "je comprends",
         "tu comprends",
         "il/elle comprend",
-        "nous comprendsons",
-        "vous comprendsez",
-        "ils/elles comprendsent"
+        "nous comprenons",
+        "vous comprenez",
+        "ils/elles comprennent"
       ],
       "imp": [
         "je comprenais",
         "tu comprenais",
         "il/elle comprenait",
-        "nous comprenaions",
-        "vous comprenaiez",
+        "nous comprenions",
+        "vous compreniez",
         "ils/elles comprenaient"
       ],
       "fut": [
         "je comprendrai",
         "tu comprendras",
         "il/elle comprendra",
-        "nous comprendraons",
-        "vous comprendraez",
-        "ils/elles comprendraont"
+        "nous comprendrons",
+        "vous comprendrez",
+        "ils/elles comprendront"
       ],
       "pqp": [
         "j'avais compris",
@@ -26999,7 +26999,7 @@
       "indicatif_present": [
         "je construis",
         "tu construis",
-        "il/elle construi",
+        "il/elle construit",
         "nous construisons",
         "vous construisez",
         "ils/elles construisent"
@@ -27008,8 +27008,8 @@
         "je construisais",
         "tu construisais",
         "il/elle construisait",
-        "nous construisaions",
-        "vous construisaiez",
+        "nous construisions",
+        "vous construisiez",
         "ils/elles construisaient"
       ],
       "pc": [
@@ -27024,9 +27024,9 @@
         "je construirai",
         "tu construiras",
         "il/elle construira",
-        "nous construiraons",
-        "vous construiraez",
-        "ils/elles construiraont"
+        "nous construirons",
+        "vous construirez",
+        "ils/elles construiront"
       ],
       "conditionnel_present": [
         "je construirais",
@@ -27040,8 +27040,8 @@
         "que je construise",
         "que tu construises",
         "qu'il/elle construise",
-        "que nous construiseons",
-        "que vous construiseez",
+        "que nous construisions",
+        "que vous construisiez",
         "qu'ils/elles construisent"
       ],
       "imperatif": [
@@ -27056,8 +27056,8 @@
         "que je construiree",
         "que tu construirees",
         "qu'il/elle construiree",
-        "que nous construireions",
-        "que vous construireiez",
+        "que nous construisions",
+        "que vous construisiez",
         "qu'ils/elles construireent"
       ],
       "cond": [
@@ -27080,7 +27080,7 @@
       "pres": [
         "je construis",
         "tu construis",
-        "il/elle construi",
+        "il/elle construit",
         "nous construisons",
         "vous construisez",
         "ils/elles construisent"
@@ -27089,17 +27089,17 @@
         "je construisais",
         "tu construisais",
         "il/elle construisait",
-        "nous construisaions",
-        "vous construisaiez",
+        "nous construisions",
+        "vous construisiez",
         "ils/elles construisaient"
       ],
       "fut": [
         "je construirai",
         "tu construiras",
         "il/elle construira",
-        "nous construiraons",
-        "vous construiraez",
-        "ils/elles construiraont"
+        "nous construirons",
+        "vous construirez",
+        "ils/elles construiront"
       ],
       "pqp": [
         "j'avais construit",
@@ -27148,17 +27148,17 @@
       "indicatif_present": [
         "je cours",
         "tu cours",
-        "il/elle cour",
-        "nous coursons",
-        "vous coursez",
-        "ils/elles coursent"
+        "il/elle court",
+        "nous courons",
+        "vous courez",
+        "ils/elles courent"
       ],
       "indicatif_imparfait": [
         "je courais",
         "tu courais",
         "il/elle courait",
-        "nous couraions",
-        "vous couraiez",
+        "nous courions",
+        "vous couriez",
         "ils/elles couraient"
       ],
       "pc": [
@@ -27173,9 +27173,9 @@
         "je courrai",
         "tu courras",
         "il/elle courra",
-        "nous courraons",
-        "vous courraez",
-        "ils/elles courraont"
+        "nous courrons",
+        "vous courrez",
+        "ils/elles courront"
       ],
       "conditionnel_present": [
         "je courrais",
@@ -27189,8 +27189,8 @@
         "que je coure",
         "que tu coures",
         "qu'il/elle coure",
-        "que nous coureons",
-        "que vous coureez",
+        "que nous courions",
+        "que vous couriez",
         "qu'ils/elles courent"
       ],
       "imperatif": [
@@ -27205,8 +27205,8 @@
         "que je courire",
         "que tu courires",
         "qu'il/elle courire",
-        "que nous couririons",
-        "que vous couririez",
+        "que nous courions",
+        "que vous couriez",
         "qu'ils/elles courirent"
       ],
       "cond": [
@@ -27229,26 +27229,26 @@
       "pres": [
         "je cours",
         "tu cours",
-        "il/elle cour",
-        "nous coursons",
-        "vous coursez",
-        "ils/elles coursent"
+        "il/elle court",
+        "nous courons",
+        "vous courez",
+        "ils/elles courent"
       ],
       "imp": [
         "je courais",
         "tu courais",
         "il/elle courait",
-        "nous couraions",
-        "vous couraiez",
+        "nous courions",
+        "vous couriez",
         "ils/elles couraient"
       ],
       "fut": [
         "je courrai",
         "tu courras",
         "il/elle courra",
-        "nous courraons",
-        "vous courraez",
-        "ils/elles courraont"
+        "nous courrons",
+        "vous courrez",
+        "ils/elles courront"
       ],
       "pqp": [
         "j'avais couru",
@@ -27298,17 +27298,17 @@
       "indicatif_present": [
         "je crois",
         "tu crois",
-        "il/elle croi",
-        "nous croisons",
-        "vous croisez",
-        "ils/elles croisent"
+        "il/elle croit",
+        "nous croyons",
+        "vous croyez",
+        "ils/elles croient"
       ],
       "indicatif_imparfait": [
         "je croyais",
         "tu croyais",
         "il/elle croyait",
-        "nous croyaions",
-        "vous croyaiez",
+        "nous croyions",
+        "vous croyiez",
         "ils/elles croyaient"
       ],
       "pc": [
@@ -27323,9 +27323,9 @@
         "je croirai",
         "tu croiras",
         "il/elle croira",
-        "nous croiraons",
-        "vous croiraez",
-        "ils/elles croiraont"
+        "nous croirons",
+        "vous croirez",
+        "ils/elles croiront"
       ],
       "conditionnel_present": [
         "je croirais",
@@ -27339,8 +27339,8 @@
         "que je croie",
         "que tu croies",
         "qu'il/elle croie",
-        "que nous croieons",
-        "que vous croieez",
+        "que nous croyions",
+        "que vous croyiez",
         "qu'ils/elles croient"
       ],
       "imperatif": [
@@ -27355,8 +27355,8 @@
         "que je croiree",
         "que tu croirees",
         "qu'il/elle croiree",
-        "que nous croireions",
-        "que vous croireiez",
+        "que nous croyions",
+        "que vous croyiez",
         "qu'ils/elles croireent"
       ],
       "cond": [
@@ -27379,26 +27379,26 @@
       "pres": [
         "je crois",
         "tu crois",
-        "il/elle croi",
-        "nous croisons",
-        "vous croisez",
-        "ils/elles croisent"
+        "il/elle croit",
+        "nous croyons",
+        "vous croyez",
+        "ils/elles croient"
       ],
       "imp": [
         "je croyais",
         "tu croyais",
         "il/elle croyait",
-        "nous croyaions",
-        "vous croyaiez",
+        "nous croyions",
+        "vous croyiez",
         "ils/elles croyaient"
       ],
       "fut": [
         "je croirai",
         "tu croiras",
         "il/elle croira",
-        "nous croiraons",
-        "vous croiraez",
-        "ils/elles croiraont"
+        "nous croirons",
+        "vous croirez",
+        "ils/elles croiront"
       ],
       "pqp": [
         "j'avais cru",
@@ -27448,16 +27448,16 @@
         "je défends",
         "tu défends",
         "il/elle défend",
-        "nous défendsons",
-        "vous défendsez",
-        "ils/elles défendsent"
+        "nous défendons",
+        "vous défendez",
+        "ils/elles défendent"
       ],
       "indicatif_imparfait": [
         "je défendais",
         "tu défendais",
         "il/elle défendait",
-        "nous défendaions",
-        "vous défendaiez",
+        "nous défendions",
+        "vous défendiez",
         "ils/elles défendaient"
       ],
       "pc": [
@@ -27472,9 +27472,9 @@
         "je défendrai",
         "tu défendras",
         "il/elle défendra",
-        "nous défendraons",
-        "vous défendraez",
-        "ils/elles défendraont"
+        "nous défendrons",
+        "vous défendrez",
+        "ils/elles défendront"
       ],
       "conditionnel_present": [
         "je défendrais",
@@ -27488,8 +27488,8 @@
         "que je défende",
         "que tu défendes",
         "qu'il/elle défende",
-        "que nous défendeons",
-        "que vous défendeez",
+        "que nous défendions",
+        "que vous défendiez",
         "qu'ils/elles défendent"
       ],
       "imperatif": [
@@ -27504,8 +27504,8 @@
         "que je défendree",
         "que tu défendrees",
         "qu'il/elle défendree",
-        "que nous défendreions",
-        "que vous défendreiez",
+        "que nous défendions",
+        "que vous défendiez",
         "qu'ils/elles défendreent"
       ],
       "cond": [
@@ -27529,25 +27529,25 @@
         "je défends",
         "tu défends",
         "il/elle défend",
-        "nous défendsons",
-        "vous défendsez",
-        "ils/elles défendsent"
+        "nous défendons",
+        "vous défendez",
+        "ils/elles défendent"
       ],
       "imp": [
         "je défendais",
         "tu défendais",
         "il/elle défendait",
-        "nous défendaions",
-        "vous défendaiez",
+        "nous défendions",
+        "vous défendiez",
         "ils/elles défendaient"
       ],
       "fut": [
         "je défendrai",
         "tu défendras",
         "il/elle défendra",
-        "nous défendraons",
-        "vous défendraez",
-        "ils/elles défendraont"
+        "nous défendrons",
+        "vous défendrez",
+        "ils/elles défendront"
       ],
       "pqp": [
         "j'avais défendu",
@@ -27594,19 +27594,19 @@
     ],
     "tenses": {
       "indicatif_present": [
-        "je découvres",
+        "je découvre",
         "tu découvres",
         "il/elle découvre",
-        "nous découvresons",
-        "vous découvresez",
-        "ils/elles découvresent"
+        "nous découvrons",
+        "vous découvrez",
+        "ils/elles découvrent"
       ],
       "indicatif_imparfait": [
         "je découvrais",
         "tu découvrais",
         "il/elle découvrait",
-        "nous découvraions",
-        "vous découvraiez",
+        "nous découvrions",
+        "vous découvriez",
         "ils/elles découvraient"
       ],
       "pc": [
@@ -27621,24 +27621,24 @@
         "je découvrirai",
         "tu découvriras",
         "il/elle découvrira",
-        "nous découvriraons",
-        "vous découvriraez",
-        "ils/elles découvriraont"
+        "nous découvrirons",
+        "vous découvrirez",
+        "ils/elles découvriront"
       ],
       "conditionnel_present": [
         "je découvrirais",
         "tu découvrirais",
         "il/elle découvrirait",
-        "nous découvriraions",
-        "vous découvriraiez",
+        "nous découvririons",
+        "vous découvririez",
         "ils/elles découvriraient"
       ],
       "subjonctif_present": [
         "que je découvre",
         "que tu découvres",
         "qu'il/elle découvre",
-        "que nous découvreons",
-        "que vous découvreez",
+        "que nous découvrions",
+        "que vous découvriez",
         "qu'ils/elles découvrent"
       ],
       "imperatif": [
@@ -27653,8 +27653,8 @@
         "que je découvrire",
         "que tu découvrires",
         "qu'il/elle découvrire",
-        "que nous découvririons",
-        "que vous découvririez",
+        "que nous découvrions",
+        "que vous découvriez",
         "qu'ils/elles découvrirent"
       ],
       "cond": [
@@ -27675,28 +27675,28 @@
         "découvert"
       ],
       "pres": [
-        "je découvres",
+        "je découvre",
         "tu découvres",
         "il/elle découvre",
-        "nous découvresons",
-        "vous découvresez",
-        "ils/elles découvresent"
+        "nous découvrons",
+        "vous découvrez",
+        "ils/elles découvrent"
       ],
       "imp": [
         "je découvrais",
         "tu découvrais",
         "il/elle découvrait",
-        "nous découvraions",
-        "vous découvraiez",
+        "nous découvrions",
+        "vous découvriez",
         "ils/elles découvraient"
       ],
       "fut": [
         "je découvrirai",
         "tu découvriras",
         "il/elle découvrira",
-        "nous découvriraons",
-        "vous découvriraez",
-        "ils/elles découvriraont"
+        "nous découvrirons",
+        "vous découvrirez",
+        "ils/elles découvriront"
       ],
       "pqp": [
         "j'avais découvert",
@@ -27746,16 +27746,16 @@
         "je descends",
         "tu descends",
         "il/elle descend",
-        "nous descendsons",
-        "vous descendsez",
-        "ils/elles descendsent"
+        "nous descendons",
+        "vous descendez",
+        "ils/elles descendent"
       ],
       "indicatif_imparfait": [
         "je descendais",
         "tu descendais",
         "il/elle descendait",
-        "nous descendaions",
-        "vous descendaiez",
+        "nous descendions",
+        "vous descendiez",
         "ils/elles descendaient"
       ],
       "pc": [
@@ -27770,9 +27770,9 @@
         "je descendrai",
         "tu descendras",
         "il/elle descendra",
-        "nous descendraons",
-        "vous descendraez",
-        "ils/elles descendraont"
+        "nous descendrons",
+        "vous descendrez",
+        "ils/elles descendront"
       ],
       "conditionnel_present": [
         "je descendrais",
@@ -27786,8 +27786,8 @@
         "que je descende",
         "que tu descendes",
         "qu'il/elle descende",
-        "que nous descendeons",
-        "que vous descendeez",
+        "que nous descendions",
+        "que vous descendiez",
         "qu'ils/elles descendent"
       ],
       "imperatif": [
@@ -27802,8 +27802,8 @@
         "que je descendree",
         "que tu descendrees",
         "qu'il/elle descendree",
-        "que nous descendreions",
-        "que vous descendreiez",
+        "que nous descendions",
+        "que vous descendiez",
         "qu'ils/elles descendreent"
       ],
       "cond": [
@@ -27827,25 +27827,25 @@
         "je descends",
         "tu descends",
         "il/elle descend",
-        "nous descendsons",
-        "vous descendsez",
-        "ils/elles descendsent"
+        "nous descendons",
+        "vous descendez",
+        "ils/elles descendent"
       ],
       "imp": [
         "je descendais",
         "tu descendais",
         "il/elle descendait",
-        "nous descendaions",
-        "vous descendaiez",
+        "nous descendions",
+        "vous descendiez",
         "ils/elles descendaient"
       ],
       "fut": [
         "je descendrai",
         "tu descendras",
         "il/elle descendra",
-        "nous descendraons",
-        "vous descendraez",
-        "ils/elles descendraont"
+        "nous descendrons",
+        "vous descendrez",
+        "ils/elles descendront"
       ],
       "pqp": [
         "j'étais descendu",
@@ -27894,17 +27894,17 @@
       "indicatif_present": [
         "je dois",
         "tu dois",
-        "il/elle doi",
-        "nous doisons",
-        "vous doisez",
-        "ils/elles doisent"
+        "il/elle doit",
+        "nous devons",
+        "vous devez",
+        "ils/elles doivent"
       ],
       "indicatif_imparfait": [
         "je devais",
         "tu devais",
         "il/elle devait",
-        "nous devaions",
-        "vous devaiez",
+        "nous devions",
+        "vous deviez",
         "ils/elles devaient"
       ],
       "pc": [
@@ -27919,9 +27919,9 @@
         "je devrai",
         "tu devras",
         "il/elle devra",
-        "nous devraons",
-        "vous devraez",
-        "ils/elles devraont"
+        "nous devrons",
+        "vous devrez",
+        "ils/elles devront"
       ],
       "conditionnel_present": [
         "je devrais",
@@ -27935,8 +27935,8 @@
         "que je doive",
         "que tu doives",
         "qu'il/elle doive",
-        "que nous doiveons",
-        "que vous doiveez",
+        "que nous devions",
+        "que vous deviez",
         "qu'ils/elles doivent"
       ],
       "imperatif": [
@@ -27951,8 +27951,8 @@
         "que je devoire",
         "que tu devoires",
         "qu'il/elle devoire",
-        "que nous devoirions",
-        "que vous devoiriez",
+        "que nous devions",
+        "que vous deviez",
         "qu'ils/elles devoirent"
       ],
       "cond": [
@@ -27975,26 +27975,26 @@
       "pres": [
         "je dois",
         "tu dois",
-        "il/elle doi",
-        "nous doisons",
-        "vous doisez",
-        "ils/elles doisent"
+        "il/elle doit",
+        "nous devons",
+        "vous devez",
+        "ils/elles doivent"
       ],
       "imp": [
         "je devais",
         "tu devais",
         "il/elle devait",
-        "nous devaions",
-        "vous devaiez",
+        "nous devions",
+        "vous deviez",
         "ils/elles devaient"
       ],
       "fut": [
         "je devrai",
         "tu devras",
         "il/elle devra",
-        "nous devraons",
-        "vous devraez",
-        "ils/elles devraont"
+        "nous devrons",
+        "vous devrez",
+        "ils/elles devront"
       ],
       "pqp": [
         "j'avais dû",
@@ -28044,17 +28044,17 @@
       "indicatif_present": [
         "je dors",
         "tu dors",
-        "il/elle dor",
-        "nous dorsons",
-        "vous dorsez",
-        "ils/elles dorsent"
+        "il/elle dort",
+        "nous dormons",
+        "vous dormez",
+        "ils/elles dorment"
       ],
       "indicatif_imparfait": [
         "je dormais",
         "tu dormais",
         "il/elle dormait",
-        "nous dormaions",
-        "vous dormaiez",
+        "nous dormions",
+        "vous dormiez",
         "ils/elles dormaient"
       ],
       "pc": [
@@ -28069,24 +28069,24 @@
         "je dormirai",
         "tu dormiras",
         "il/elle dormira",
-        "nous dormiraons",
-        "vous dormiraez",
-        "ils/elles dormiraont"
+        "nous dormirons",
+        "vous dormirez",
+        "ils/elles dormiront"
       ],
       "conditionnel_present": [
         "je dormirais",
         "tu dormirais",
         "il/elle dormirait",
-        "nous dormiraions",
-        "vous dormiraiez",
+        "nous dormirions",
+        "vous dormiriez",
         "ils/elles dormiraient"
       ],
       "subjonctif_present": [
         "que je dorme",
         "que tu dormes",
         "qu'il/elle dorme",
-        "que nous dormeons",
-        "que vous dormeez",
+        "que nous dormions",
+        "que vous dormiez",
         "qu'ils/elles dorment"
       ],
       "imperatif": [
@@ -28101,8 +28101,8 @@
         "que je dormire",
         "que tu dormires",
         "qu'il/elle dormire",
-        "que nous dormirions",
-        "que vous dormiriez",
+        "que nous dormions",
+        "que vous dormiez",
         "qu'ils/elles dormirent"
       ],
       "cond": [
@@ -28125,26 +28125,26 @@
       "pres": [
         "je dors",
         "tu dors",
-        "il/elle dor",
-        "nous dorsons",
-        "vous dorsez",
-        "ils/elles dorsent"
+        "il/elle dort",
+        "nous dormons",
+        "vous dormez",
+        "ils/elles dorment"
       ],
       "imp": [
         "je dormais",
         "tu dormais",
         "il/elle dormait",
-        "nous dormaions",
-        "vous dormaiez",
+        "nous dormions",
+        "vous dormiez",
         "ils/elles dormaient"
       ],
       "fut": [
         "je dormirai",
         "tu dormiras",
         "il/elle dormira",
-        "nous dormiraons",
-        "vous dormiraez",
-        "ils/elles dormiraont"
+        "nous dormirons",
+        "vous dormirez",
+        "ils/elles dormiront"
       ],
       "pqp": [
         "j'avais dormi",
@@ -28193,17 +28193,17 @@
       "indicatif_present": [
         "j'écris",
         "tu écris",
-        "il/elle écri",
-        "nous écrisons",
-        "vous écrisez",
-        "ils/elles écrisent"
+        "il/elle écrit",
+        "nous écrivons",
+        "vous écrivez",
+        "ils/elles écrivent"
       ],
       "indicatif_imparfait": [
         "j'écrivais",
         "tu écrivais",
         "il/elle écrivait",
-        "nous écrivaions",
-        "vous écrivaiez",
+        "nous écrivions",
+        "vous écriviez",
         "ils/elles écrivaient"
       ],
       "pc": [
@@ -28218,9 +28218,9 @@
         "j'écrirai",
         "tu écriras",
         "il/elle écrira",
-        "nous écriraons",
-        "vous écriraez",
-        "ils/elles écriraont"
+        "nous écrirons",
+        "vous écrirez",
+        "ils/elles écriront"
       ],
       "conditionnel_present": [
         "j'écrirais",
@@ -28234,8 +28234,8 @@
         "que j'écrive",
         "que tu écrives",
         "qu'il/elle écrive",
-        "que nous écriveons",
-        "que vous écriveez",
+        "que nous écrivions",
+        "que vous écriviez",
         "qu'ils/elles écrivent"
       ],
       "imperatif": [
@@ -28250,8 +28250,8 @@
         "que j'écriree",
         "que tu écrirees",
         "qu'il/elle écriree",
-        "que nous écrireions",
-        "que vous écrireiez",
+        "que nous écrivions",
+        "que vous écriviez",
         "qu'ils/elles écrireent"
       ],
       "cond": [
@@ -28274,26 +28274,26 @@
       "pres": [
         "j'écris",
         "tu écris",
-        "il/elle écri",
-        "nous écrisons",
-        "vous écrisez",
-        "ils/elles écrisent"
+        "il/elle écrit",
+        "nous écrivons",
+        "vous écrivez",
+        "ils/elles écrivent"
       ],
       "imp": [
         "j'écrivais",
         "tu écrivais",
         "il/elle écrivait",
-        "nous écrivaions",
-        "vous écrivaiez",
+        "nous écrivions",
+        "vous écriviez",
         "ils/elles écrivaient"
       ],
       "fut": [
         "j'écrirai",
         "tu écriras",
         "il/elle écrira",
-        "nous écriraons",
-        "vous écriraez",
-        "ils/elles écriraont"
+        "nous écrirons",
+        "vous écrirez",
+        "ils/elles écriront"
       ],
       "pqp": [
         "j'avais écrit",
@@ -28343,16 +28343,16 @@
         "j'entends",
         "tu entends",
         "il/elle entend",
-        "nous entendsons",
-        "vous entendsez",
-        "ils/elles entendsent"
+        "nous entendons",
+        "vous entendez",
+        "ils/elles entendent"
       ],
       "indicatif_imparfait": [
         "j'entendais",
         "tu entendais",
         "il/elle entendait",
-        "nous entendaions",
-        "vous entendaiez",
+        "nous entendions",
+        "vous entendiez",
         "ils/elles entendaient"
       ],
       "pc": [
@@ -28367,9 +28367,9 @@
         "j'entendrai",
         "tu entendras",
         "il/elle entendra",
-        "nous entendraons",
-        "vous entendraez",
-        "ils/elles entendraont"
+        "nous entendrons",
+        "vous entendrez",
+        "ils/elles entendront"
       ],
       "conditionnel_present": [
         "j'entendrais",
@@ -28383,8 +28383,8 @@
         "que j'entende",
         "que tu entendes",
         "qu'il/elle entende",
-        "que nous entendeons",
-        "que vous entendeez",
+        "que nous entendions",
+        "que vous entendiez",
         "qu'ils/elles entendent"
       ],
       "imperatif": [
@@ -28399,8 +28399,8 @@
         "que j'entendree",
         "que tu entendrees",
         "qu'il/elle entendree",
-        "que nous entendreions",
-        "que vous entendreiez",
+        "que nous entendions",
+        "que vous entendiez",
         "qu'ils/elles entendreent"
       ],
       "cond": [
@@ -28424,25 +28424,25 @@
         "j'entends",
         "tu entends",
         "il/elle entend",
-        "nous entendsons",
-        "vous entendsez",
-        "ils/elles entendsent"
+        "nous entendons",
+        "vous entendez",
+        "ils/elles entendent"
       ],
       "imp": [
         "j'entendais",
         "tu entendais",
         "il/elle entendait",
-        "nous entendaions",
-        "vous entendaiez",
+        "nous entendions",
+        "vous entendiez",
         "ils/elles entendaient"
       ],
       "fut": [
         "j'entendrai",
         "tu entendras",
         "il/elle entendra",
-        "nous entendraons",
-        "vous entendraez",
-        "ils/elles entendraont"
+        "nous entendrons",
+        "vous entendrez",
+        "ils/elles entendront"
       ],
       "pqp": [
         "j'avais entendu",
@@ -28491,17 +28491,17 @@
       "indicatif_present": [
         "j'éteins",
         "tu éteins",
-        "il/elle étein",
-        "nous éteinsons",
-        "vous éteinsez",
-        "ils/elles éteinsent"
+        "il/elle éteint",
+        "nous éteignons",
+        "vous éteignez",
+        "ils/elles éteignent"
       ],
       "indicatif_imparfait": [
         "j'éteignais",
         "tu éteignais",
         "il/elle éteignait",
-        "nous éteignaions",
-        "vous éteignaiez",
+        "nous éteignions",
+        "vous éteigniez",
         "ils/elles éteignaient"
       ],
       "pc": [
@@ -28516,9 +28516,9 @@
         "j'éteindrai",
         "tu éteindras",
         "il/elle éteindra",
-        "nous éteindraons",
-        "vous éteindraez",
-        "ils/elles éteindraont"
+        "nous éteindrons",
+        "vous éteindrez",
+        "ils/elles éteindront"
       ],
       "conditionnel_present": [
         "j'éteindrais",
@@ -28532,8 +28532,8 @@
         "que j'éteigne",
         "que tu éteignes",
         "qu'il/elle éteigne",
-        "que nous éteigneons",
-        "que vous éteigneez",
+        "que nous éteignions",
+        "que vous éteigniez",
         "qu'ils/elles éteignent"
       ],
       "imperatif": [
@@ -28548,8 +28548,8 @@
         "que j'éteindree",
         "que tu éteindrees",
         "qu'il/elle éteindree",
-        "que nous éteindreions",
-        "que vous éteindreiez",
+        "que nous éteignions",
+        "que vous éteigniez",
         "qu'ils/elles éteindreent"
       ],
       "cond": [
@@ -28572,26 +28572,26 @@
       "pres": [
         "j'éteins",
         "tu éteins",
-        "il/elle étein",
-        "nous éteinsons",
-        "vous éteinsez",
-        "ils/elles éteinsent"
+        "il/elle éteint",
+        "nous éteignons",
+        "vous éteignez",
+        "ils/elles éteignent"
       ],
       "imp": [
         "j'éteignais",
         "tu éteignais",
         "il/elle éteignait",
-        "nous éteignaions",
-        "vous éteignaiez",
+        "nous éteignions",
+        "vous éteigniez",
         "ils/elles éteignaient"
       ],
       "fut": [
         "j'éteindrai",
         "tu éteindras",
         "il/elle éteindra",
-        "nous éteindraons",
-        "vous éteindraez",
-        "ils/elles éteindraont"
+        "nous éteindrons",
+        "vous éteindrez",
+        "ils/elles éteindront"
       ],
       "pqp": [
         "j'avais éteint",
@@ -28731,7 +28731,7 @@
       "indicatif_present": [
         "je lis",
         "tu lis",
-        "il/elle li",
+        "il/elle lit",
         "nous lisons",
         "vous lisez",
         "ils/elles lisent"
@@ -28740,8 +28740,8 @@
         "je lisais",
         "tu lisais",
         "il/elle lisait",
-        "nous lisaions",
-        "vous lisaiez",
+        "nous lisions",
+        "vous lisiez",
         "ils/elles lisaient"
       ],
       "pc": [
@@ -28756,9 +28756,9 @@
         "je lirai",
         "tu liras",
         "il/elle lira",
-        "nous liraons",
-        "vous liraez",
-        "ils/elles liraont"
+        "nous lirons",
+        "vous lirez",
+        "ils/elles liront"
       ],
       "conditionnel_present": [
         "je lirais",
@@ -28772,8 +28772,8 @@
         "que je lise",
         "que tu lises",
         "qu'il/elle lise",
-        "que nous liseons",
-        "que vous liseez",
+        "que nous lisions",
+        "que vous lisiez",
         "qu'ils/elles lisent"
       ],
       "imperatif": [
@@ -28788,8 +28788,8 @@
         "que je liree",
         "que tu lirees",
         "qu'il/elle liree",
-        "que nous lireions",
-        "que vous lireiez",
+        "que nous lisions",
+        "que vous lisiez",
         "qu'ils/elles lireent"
       ],
       "cond": [
@@ -28812,7 +28812,7 @@
       "pres": [
         "je lis",
         "tu lis",
-        "il/elle li",
+        "il/elle lit",
         "nous lisons",
         "vous lisez",
         "ils/elles lisent"
@@ -28821,17 +28821,17 @@
         "je lisais",
         "tu lisais",
         "il/elle lisait",
-        "nous lisaions",
-        "vous lisaiez",
+        "nous lisions",
+        "vous lisiez",
         "ils/elles lisaient"
       ],
       "fut": [
         "je lirai",
         "tu liras",
         "il/elle lira",
-        "nous liraons",
-        "vous liraez",
-        "ils/elles liraont"
+        "nous lirons",
+        "vous lirez",
+        "ils/elles liront"
       ],
       "pqp": [
         "j'avais lu",
@@ -28881,16 +28881,16 @@
         "je mets",
         "tu mets",
         "il/elle met",
-        "nous metsons",
-        "vous metsez",
-        "ils/elles metsent"
+        "nous mettons",
+        "vous mettez",
+        "ils/elles mettent"
       ],
       "indicatif_imparfait": [
         "je mettais",
         "tu mettais",
         "il/elle mettait",
-        "nous mettaions",
-        "vous mettaiez",
+        "nous mettions",
+        "vous mettiez",
         "ils/elles mettaient"
       ],
       "pc": [
@@ -28905,9 +28905,9 @@
         "je mettrai",
         "tu mettras",
         "il/elle mettra",
-        "nous mettraons",
-        "vous mettraez",
-        "ils/elles mettraont"
+        "nous mettrons",
+        "vous mettrez",
+        "ils/elles mettront"
       ],
       "conditionnel_present": [
         "je mettrais",
@@ -28921,8 +28921,8 @@
         "que je mette",
         "que tu mettes",
         "qu'il/elle mette",
-        "que nous metteons",
-        "que vous metteez",
+        "que nous mettions",
+        "que vous mettiez",
         "qu'ils/elles mettent"
       ],
       "imperatif": [
@@ -28937,8 +28937,8 @@
         "que je mettree",
         "que tu mettrees",
         "qu'il/elle mettree",
-        "que nous mettreions",
-        "que vous mettreiez",
+        "que nous mettions",
+        "que vous mettiez",
         "qu'ils/elles mettreent"
       ],
       "cond": [
@@ -28962,25 +28962,25 @@
         "je mets",
         "tu mets",
         "il/elle met",
-        "nous metsons",
-        "vous metsez",
-        "ils/elles metsent"
+        "nous mettons",
+        "vous mettez",
+        "ils/elles mettent"
       ],
       "imp": [
         "je mettais",
         "tu mettais",
         "il/elle mettait",
-        "nous mettaions",
-        "vous mettaiez",
+        "nous mettions",
+        "vous mettiez",
         "ils/elles mettaient"
       ],
       "fut": [
         "je mettrai",
         "tu mettras",
         "il/elle mettra",
-        "nous mettraons",
-        "vous mettraez",
-        "ils/elles mettraont"
+        "nous mettrons",
+        "vous mettrez",
+        "ils/elles mettront"
       ],
       "pqp": [
         "j'avais mis",
@@ -29029,17 +29029,17 @@
       "indicatif_present": [
         "je meurs",
         "tu meurs",
-        "il/elle meur",
-        "nous meursons",
-        "vous meursez",
-        "ils/elles meursent"
+        "il/elle meurt",
+        "nous mourons",
+        "vous mourez",
+        "ils/elles meurent"
       ],
       "indicatif_imparfait": [
         "je mourais",
         "tu mourais",
         "il/elle mourait",
-        "nous mouraions",
-        "vous mouraiez",
+        "nous mourions",
+        "vous mouriez",
         "ils/elles mouraient"
       ],
       "pc": [
@@ -29054,9 +29054,9 @@
         "je mourrai",
         "tu mourras",
         "il/elle mourra",
-        "nous mourraons",
-        "vous mourraez",
-        "ils/elles mourraont"
+        "nous mourrons",
+        "vous mourrez",
+        "ils/elles mourront"
       ],
       "conditionnel_present": [
         "je mourrais",
@@ -29070,8 +29070,8 @@
         "que je meure",
         "que tu meures",
         "qu'il/elle meure",
-        "que nous meureons",
-        "que vous meureez",
+        "que nous mourions",
+        "que vous mouriez",
         "qu'ils/elles meurent"
       ],
       "imperatif": [
@@ -29086,8 +29086,8 @@
         "que je mourire",
         "que tu mourires",
         "qu'il/elle mourire",
-        "que nous mouririons",
-        "que vous mouririez",
+        "que nous mourions",
+        "que vous mouriez",
         "qu'ils/elles mourirent"
       ],
       "cond": [
@@ -29110,26 +29110,26 @@
       "pres": [
         "je meurs",
         "tu meurs",
-        "il/elle meur",
-        "nous meursons",
-        "vous meursez",
-        "ils/elles meursent"
+        "il/elle meurt",
+        "nous mourons",
+        "vous mourez",
+        "ils/elles meurent"
       ],
       "imp": [
         "je mourais",
         "tu mourais",
         "il/elle mourait",
-        "nous mouraions",
-        "vous mouraiez",
+        "nous mourions",
+        "vous mouriez",
         "ils/elles mouraient"
       ],
       "fut": [
         "je mourrai",
         "tu mourras",
         "il/elle mourra",
-        "nous mourraons",
-        "vous mourraez",
-        "ils/elles mourraont"
+        "nous mourrons",
+        "vous mourrez",
+        "ils/elles mourront"
       ],
       "pqp": [
         "j'étais mort",
@@ -29179,17 +29179,17 @@
       "indicatif_present": [
         "je nais",
         "tu nais",
-        "il/elle nai",
-        "nous naisons",
-        "vous naisez",
-        "ils/elles naisent"
+        "il/elle naît",
+        "nous naissons",
+        "vous naissez",
+        "ils/elles naissent"
       ],
       "indicatif_imparfait": [
         "je naissais",
         "tu naissais",
         "il/elle naissait",
-        "nous naissaions",
-        "vous naissaiez",
+        "nous naissions",
+        "vous naissiez",
         "ils/elles naissaient"
       ],
       "pc": [
@@ -29204,9 +29204,9 @@
         "je naîtrai",
         "tu naîtras",
         "il/elle naîtra",
-        "nous naîtraons",
-        "vous naîtraez",
-        "ils/elles naîtraont"
+        "nous naîtrons",
+        "vous naîtrez",
+        "ils/elles naîtront"
       ],
       "conditionnel_present": [
         "je naîtrais",
@@ -29220,8 +29220,8 @@
         "que je naisse",
         "que tu naisses",
         "qu'il/elle naisse",
-        "que nous naisseons",
-        "que vous naisseez",
+        "que nous naissions",
+        "que vous naissiez",
         "qu'ils/elles naissent"
       ],
       "imperatif": [
@@ -29236,8 +29236,8 @@
         "que je naîtree",
         "que tu naîtrees",
         "qu'il/elle naîtree",
-        "que nous naîtreions",
-        "que vous naîtreiez",
+        "que nous naissions",
+        "que vous naissiez",
         "qu'ils/elles naîtreent"
       ],
       "cond": [
@@ -29260,26 +29260,26 @@
       "pres": [
         "je nais",
         "tu nais",
-        "il/elle nai",
-        "nous naisons",
-        "vous naisez",
-        "ils/elles naisent"
+        "il/elle naît",
+        "nous naissons",
+        "vous naissez",
+        "ils/elles naissent"
       ],
       "imp": [
         "je naissais",
         "tu naissais",
         "il/elle naissait",
-        "nous naissaions",
-        "vous naissaiez",
+        "nous naissions",
+        "vous naissiez",
         "ils/elles naissaient"
       ],
       "fut": [
         "je naîtrai",
         "tu naîtras",
         "il/elle naîtra",
-        "nous naîtraons",
-        "vous naîtraez",
-        "ils/elles naîtraont"
+        "nous naîtrons",
+        "vous naîtrez",
+        "ils/elles naîtront"
       ],
       "pqp": [
         "j'étais né",
@@ -29326,19 +29326,19 @@
     ],
     "tenses": {
       "indicatif_present": [
-        "j'ouvres",
+        "j'ouvre",
         "tu ouvres",
         "il/elle ouvre",
-        "nous ouvresons",
-        "vous ouvresez",
-        "ils/elles ouvresent"
+        "nous ouvrons",
+        "vous ouvrez",
+        "ils/elles ouvrent"
       ],
       "indicatif_imparfait": [
         "j'ouvrais",
         "tu ouvrais",
         "il/elle ouvrait",
-        "nous ouvraions",
-        "vous ouvraiez",
+        "nous ouvrions",
+        "vous ouvriez",
         "ils/elles ouvraient"
       ],
       "pc": [
@@ -29353,24 +29353,24 @@
         "j'ouvrirai",
         "tu ouvriras",
         "il/elle ouvrira",
-        "nous ouvriraons",
-        "vous ouvriraez",
-        "ils/elles ouvriraont"
+        "nous ouvrirons",
+        "vous ouvrirez",
+        "ils/elles ouvriront"
       ],
       "conditionnel_present": [
         "j'ouvrirais",
         "tu ouvrirais",
         "il/elle ouvrirait",
-        "nous ouvriraions",
-        "vous ouvriraiez",
+        "nous ouvririons",
+        "vous ouvririez",
         "ils/elles ouvriraient"
       ],
       "subjonctif_present": [
         "que j'ouvre",
         "que tu ouvres",
         "qu'il/elle ouvre",
-        "que nous ouvreons",
-        "que vous ouvreez",
+        "que nous ouvrions",
+        "que vous ouvriez",
         "qu'ils/elles ouvrent"
       ],
       "imperatif": [
@@ -29385,8 +29385,8 @@
         "que j'ouvrire",
         "que tu ouvrires",
         "qu'il/elle ouvrire",
-        "que nous ouvririons",
-        "que vous ouvririez",
+        "que nous ouvrions",
+        "que vous ouvriez",
         "qu'ils/elles ouvrirent"
       ],
       "cond": [
@@ -29407,28 +29407,28 @@
         "ouvert"
       ],
       "pres": [
-        "j'ouvres",
+        "j'ouvre",
         "tu ouvres",
         "il/elle ouvre",
-        "nous ouvresons",
-        "vous ouvresez",
-        "ils/elles ouvresent"
+        "nous ouvrons",
+        "vous ouvrez",
+        "ils/elles ouvrent"
       ],
       "imp": [
         "j'ouvrais",
         "tu ouvrais",
         "il/elle ouvrait",
-        "nous ouvraions",
-        "vous ouvraiez",
+        "nous ouvrions",
+        "vous ouvriez",
         "ils/elles ouvraient"
       ],
       "fut": [
         "j'ouvrirai",
         "tu ouvriras",
         "il/elle ouvrira",
-        "nous ouvriraons",
-        "vous ouvriraez",
-        "ils/elles ouvriraont"
+        "nous ouvrirons",
+        "vous ouvrirez",
+        "ils/elles ouvriront"
       ],
       "pqp": [
         "j'avais ouvert",
@@ -29477,17 +29477,17 @@
       "indicatif_present": [
         "je pars",
         "tu pars",
-        "il/elle par",
-        "nous parsons",
-        "vous parsez",
-        "ils/elles parsent"
+        "il/elle part",
+        "nous partons",
+        "vous partez",
+        "ils/elles partent"
       ],
       "indicatif_imparfait": [
         "je partais",
         "tu partais",
         "il/elle partait",
-        "nous partaions",
-        "vous partaiez",
+        "nous partions",
+        "vous partiez",
         "ils/elles partaient"
       ],
       "pc": [
@@ -29502,24 +29502,24 @@
         "je partirai",
         "tu partiras",
         "il/elle partira",
-        "nous partiraons",
-        "vous partiraez",
-        "ils/elles partiraont"
+        "nous partirons",
+        "vous partirez",
+        "ils/elles partiront"
       ],
       "conditionnel_present": [
         "je partirais",
         "tu partirais",
         "il/elle partirait",
-        "nous partiraions",
-        "vous partiraiez",
+        "nous partirions",
+        "vous partiriez",
         "ils/elles partiraient"
       ],
       "subjonctif_present": [
         "que je parte",
         "que tu partes",
         "qu'il/elle parte",
-        "que nous parteons",
-        "que vous parteez",
+        "que nous partions",
+        "que vous partiez",
         "qu'ils/elles partent"
       ],
       "imperatif": [
@@ -29534,8 +29534,8 @@
         "que je partire",
         "que tu partires",
         "qu'il/elle partire",
-        "que nous partirions",
-        "que vous partiriez",
+        "que nous partions",
+        "que vous partiez",
         "qu'ils/elles partirent"
       ],
       "cond": [
@@ -29558,26 +29558,26 @@
       "pres": [
         "je pars",
         "tu pars",
-        "il/elle par",
-        "nous parsons",
-        "vous parsez",
-        "ils/elles parsent"
+        "il/elle part",
+        "nous partons",
+        "vous partez",
+        "ils/elles partent"
       ],
       "imp": [
         "je partais",
         "tu partais",
         "il/elle partait",
-        "nous partaions",
-        "vous partaiez",
+        "nous partions",
+        "vous partiez",
         "ils/elles partaient"
       ],
       "fut": [
         "je partirai",
         "tu partiras",
         "il/elle partira",
-        "nous partiraons",
-        "vous partiraez",
-        "ils/elles partiraont"
+        "nous partirons",
+        "vous partirez",
+        "ils/elles partiront"
       ],
       "pqp": [
         "j'étais parti",
@@ -29626,17 +29626,17 @@
       "indicatif_present": [
         "je reçois",
         "tu reçois",
-        "il/elle reçoi",
-        "nous reçoisons",
-        "vous reçoisez",
-        "ils/elles reçoisent"
+        "il/elle reçoit",
+        "nous recevons",
+        "vous recevez",
+        "ils/elles reçoivent"
       ],
       "indicatif_imparfait": [
         "je recevais",
         "tu recevais",
         "il/elle recevait",
-        "nous recevaions",
-        "vous recevaiez",
+        "nous recevions",
+        "vous receviez",
         "ils/elles recevaient"
       ],
       "pc": [
@@ -29651,9 +29651,9 @@
         "je recevrai",
         "tu recevras",
         "il/elle recevra",
-        "nous recevraons",
-        "vous recevraez",
-        "ils/elles recevraont"
+        "nous recevrons",
+        "vous recevrez",
+        "ils/elles recevront"
       ],
       "conditionnel_present": [
         "je recevrais",
@@ -29667,8 +29667,8 @@
         "que je reçoive",
         "que tu reçoives",
         "qu'il/elle reçoive",
-        "que nous reçoiveons",
-        "que vous reçoiveez",
+        "que nous recevions",
+        "que vous receviez",
         "qu'ils/elles reçoivent"
       ],
       "imperatif": [
@@ -29683,8 +29683,8 @@
         "que je recevoire",
         "que tu recevoires",
         "qu'il/elle recevoire",
-        "que nous recevoirions",
-        "que vous recevoiriez",
+        "que nous recevions",
+        "que vous receviez",
         "qu'ils/elles recevoirent"
       ],
       "cond": [
@@ -29707,26 +29707,26 @@
       "pres": [
         "je reçois",
         "tu reçois",
-        "il/elle reçoi",
-        "nous reçoisons",
-        "vous reçoisez",
-        "ils/elles reçoisent"
+        "il/elle reçoit",
+        "nous recevons",
+        "vous recevez",
+        "ils/elles reçoivent"
       ],
       "imp": [
         "je recevais",
         "tu recevais",
         "il/elle recevait",
-        "nous recevaions",
-        "vous recevaiez",
+        "nous recevions",
+        "vous receviez",
         "ils/elles recevaient"
       ],
       "fut": [
         "je recevrai",
         "tu recevras",
         "il/elle recevra",
-        "nous recevraons",
-        "vous recevraez",
-        "ils/elles recevraont"
+        "nous recevrons",
+        "vous recevrez",
+        "ils/elles recevront"
       ],
       "pqp": [
         "j'avais reçu",
@@ -29776,16 +29776,16 @@
         "je rends",
         "tu rends",
         "il/elle rend",
-        "nous rendsons",
-        "vous rendsez",
-        "ils/elles rendsent"
+        "nous rendons",
+        "vous rendez",
+        "ils/elles rendent"
       ],
       "indicatif_imparfait": [
         "je rendais",
         "tu rendais",
         "il/elle rendait",
-        "nous rendaions",
-        "vous rendaiez",
+        "nous rendions",
+        "vous rendiez",
         "ils/elles rendaient"
       ],
       "pc": [
@@ -29800,9 +29800,9 @@
         "je rendrai",
         "tu rendras",
         "il/elle rendra",
-        "nous rendraons",
-        "vous rendraez",
-        "ils/elles rendraont"
+        "nous rendrons",
+        "vous rendrez",
+        "ils/elles rendront"
       ],
       "conditionnel_present": [
         "je rendrais",
@@ -29816,8 +29816,8 @@
         "que je rende",
         "que tu rendes",
         "qu'il/elle rende",
-        "que nous rendeons",
-        "que vous rendeez",
+        "que nous rendions",
+        "que vous rendiez",
         "qu'ils/elles rendent"
       ],
       "imperatif": [
@@ -29832,8 +29832,8 @@
         "que je rendree",
         "que tu rendrees",
         "qu'il/elle rendree",
-        "que nous rendreions",
-        "que vous rendreiez",
+        "que nous rendions",
+        "que vous rendiez",
         "qu'ils/elles rendreent"
       ],
       "cond": [
@@ -29857,25 +29857,25 @@
         "je rends",
         "tu rends",
         "il/elle rend",
-        "nous rendsons",
-        "vous rendsez",
-        "ils/elles rendsent"
+        "nous rendons",
+        "vous rendez",
+        "ils/elles rendent"
       ],
       "imp": [
         "je rendais",
         "tu rendais",
         "il/elle rendait",
-        "nous rendaions",
-        "vous rendaiez",
+        "nous rendions",
+        "vous rendiez",
         "ils/elles rendaient"
       ],
       "fut": [
         "je rendrai",
         "tu rendras",
         "il/elle rendra",
-        "nous rendraons",
-        "vous rendraez",
-        "ils/elles rendraont"
+        "nous rendrons",
+        "vous rendrez",
+        "ils/elles rendront"
       ],
       "pqp": [
         "j'avais rendu",
@@ -29925,16 +29925,16 @@
         "je réponds",
         "tu réponds",
         "il/elle répond",
-        "nous répondsons",
-        "vous répondsez",
-        "ils/elles répondsent"
+        "nous répondons",
+        "vous répondez",
+        "ils/elles répondent"
       ],
       "indicatif_imparfait": [
         "je répondais",
         "tu répondais",
         "il/elle répondait",
-        "nous répondaions",
-        "vous répondaiez",
+        "nous répondions",
+        "vous répondiez",
         "ils/elles répondaient"
       ],
       "pc": [
@@ -29949,9 +29949,9 @@
         "je répondrai",
         "tu répondras",
         "il/elle répondra",
-        "nous répondraons",
-        "vous répondraez",
-        "ils/elles répondraont"
+        "nous répondrons",
+        "vous répondrez",
+        "ils/elles répondront"
       ],
       "conditionnel_present": [
         "je répondrais",
@@ -29965,8 +29965,8 @@
         "que je réponde",
         "que tu répondes",
         "qu'il/elle réponde",
-        "que nous répondeons",
-        "que vous répondeez",
+        "que nous répondions",
+        "que vous répondiez",
         "qu'ils/elles répondent"
       ],
       "imperatif": [
@@ -29981,8 +29981,8 @@
         "que je répondree",
         "que tu répondrees",
         "qu'il/elle répondree",
-        "que nous répondreions",
-        "que vous répondreiez",
+        "que nous répondions",
+        "que vous répondiez",
         "qu'ils/elles répondreent"
       ],
       "cond": [
@@ -30006,25 +30006,25 @@
         "je réponds",
         "tu réponds",
         "il/elle répond",
-        "nous répondsons",
-        "vous répondsez",
-        "ils/elles répondsent"
+        "nous répondons",
+        "vous répondez",
+        "ils/elles répondent"
       ],
       "imp": [
         "je répondais",
         "tu répondais",
         "il/elle répondait",
-        "nous répondaions",
-        "vous répondaiez",
+        "nous répondions",
+        "vous répondiez",
         "ils/elles répondaient"
       ],
       "fut": [
         "je répondrai",
         "tu répondras",
         "il/elle répondra",
-        "nous répondraons",
-        "vous répondraez",
-        "ils/elles répondraont"
+        "nous répondrons",
+        "vous répondrez",
+        "ils/elles répondront"
       ],
       "pqp": [
         "j'avais répondu",
@@ -30073,17 +30073,17 @@
       "indicatif_present": [
         "je sors",
         "tu sors",
-        "il/elle sor",
-        "nous sorsons",
-        "vous sorsez",
-        "ils/elles sorsent"
+        "il/elle sort",
+        "nous sortons",
+        "vous sortez",
+        "ils/elles sortent"
       ],
       "indicatif_imparfait": [
         "je sortais",
         "tu sortais",
         "il/elle sortait",
-        "nous sortaions",
-        "vous sortaiez",
+        "nous sortions",
+        "vous sortiez",
         "ils/elles sortaient"
       ],
       "pc": [
@@ -30098,24 +30098,24 @@
         "je sortirai",
         "tu sortiras",
         "il/elle sortira",
-        "nous sortiraons",
-        "vous sortiraez",
-        "ils/elles sortiraont"
+        "nous sortirons",
+        "vous sortirez",
+        "ils/elles sortiront"
       ],
       "conditionnel_present": [
         "je sortirais",
         "tu sortirais",
         "il/elle sortirait",
-        "nous sortiraions",
-        "vous sortiraiez",
+        "nous sortirions",
+        "vous sortiriez",
         "ils/elles sortiraient"
       ],
       "subjonctif_present": [
         "que je sorte",
         "que tu sortes",
         "qu'il/elle sorte",
-        "que nous sorteons",
-        "que vous sorteez",
+        "que nous sortions",
+        "que vous sortiez",
         "qu'ils/elles sortent"
       ],
       "imperatif": [
@@ -30130,8 +30130,8 @@
         "que je sortire",
         "que tu sortires",
         "qu'il/elle sortire",
-        "que nous sortirions",
-        "que vous sortiriez",
+        "que nous sortions",
+        "que vous sortiez",
         "qu'ils/elles sortirent"
       ],
       "cond": [
@@ -30154,26 +30154,26 @@
       "pres": [
         "je sors",
         "tu sors",
-        "il/elle sor",
-        "nous sorsons",
-        "vous sorsez",
-        "ils/elles sorsent"
+        "il/elle sort",
+        "nous sortons",
+        "vous sortez",
+        "ils/elles sortent"
       ],
       "imp": [
         "je sortais",
         "tu sortais",
         "il/elle sortait",
-        "nous sortaions",
-        "vous sortaiez",
+        "nous sortions",
+        "vous sortiez",
         "ils/elles sortaient"
       ],
       "fut": [
         "je sortirai",
         "tu sortiras",
         "il/elle sortira",
-        "nous sortiraons",
-        "vous sortiraez",
-        "ils/elles sortiraont"
+        "nous sortirons",
+        "vous sortirez",
+        "ils/elles sortiront"
       ],
       "pqp": [
         "j'étais sorti",
@@ -30222,17 +30222,17 @@
       "indicatif_present": [
         "je suis",
         "tu suis",
-        "il/elle sui",
-        "nous suisons",
-        "vous suisez",
-        "ils/elles suisent"
+        "il/elle suit",
+        "nous suivons",
+        "vous suivez",
+        "ils/elles suivent"
       ],
       "indicatif_imparfait": [
         "je suivais",
         "tu suivais",
         "il/elle suivait",
-        "nous suivaions",
-        "vous suivaiez",
+        "nous suivions",
+        "vous suiviez",
         "ils/elles suivaient"
       ],
       "pc": [
@@ -30247,9 +30247,9 @@
         "je suivrai",
         "tu suivras",
         "il/elle suivra",
-        "nous suivraons",
-        "vous suivraez",
-        "ils/elles suivraont"
+        "nous suivrons",
+        "vous suivrez",
+        "ils/elles suivront"
       ],
       "conditionnel_present": [
         "je suivrais",
@@ -30263,8 +30263,8 @@
         "que je suive",
         "que tu suives",
         "qu'il/elle suive",
-        "que nous suiveons",
-        "que vous suiveez",
+        "que nous suivions",
+        "que vous suiviez",
         "qu'ils/elles suivent"
       ],
       "imperatif": [
@@ -30279,8 +30279,8 @@
         "que je suivree",
         "que tu suivrees",
         "qu'il/elle suivree",
-        "que nous suivreions",
-        "que vous suivreiez",
+        "que nous suivions",
+        "que vous suiviez",
         "qu'ils/elles suivreent"
       ],
       "cond": [
@@ -30303,26 +30303,26 @@
       "pres": [
         "je suis",
         "tu suis",
-        "il/elle sui",
-        "nous suisons",
-        "vous suisez",
-        "ils/elles suisent"
+        "il/elle suit",
+        "nous suivons",
+        "vous suivez",
+        "ils/elles suivent"
       ],
       "imp": [
         "je suivais",
         "tu suivais",
         "il/elle suivait",
-        "nous suivaions",
-        "vous suivaiez",
+        "nous suivions",
+        "vous suiviez",
         "ils/elles suivaient"
       ],
       "fut": [
         "je suivrai",
         "tu suivras",
         "il/elle suivra",
-        "nous suivraons",
-        "vous suivraez",
-        "ils/elles suivraont"
+        "nous suivrons",
+        "vous suivrez",
+        "ils/elles suivront"
       ],
       "pqp": [
         "j'avais suivi",
@@ -30371,17 +30371,17 @@
       "indicatif_present": [
         "je tiens",
         "tu tiens",
-        "il/elle tien",
-        "nous tiensons",
-        "vous tiensez",
-        "ils/elles tiensent"
+        "il/elle tient",
+        "nous tenons",
+        "vous tenez",
+        "ils/elles tiennent"
       ],
       "indicatif_imparfait": [
         "je tenais",
         "tu tenais",
         "il/elle tenait",
-        "nous tenaions",
-        "vous tenaiez",
+        "nous tenions",
+        "vous teniez",
         "ils/elles tenaient"
       ],
       "pc": [
@@ -30396,9 +30396,9 @@
         "je tiendrai",
         "tu tiendras",
         "il/elle tiendra",
-        "nous tiendraons",
-        "vous tiendraez",
-        "ils/elles tiendraont"
+        "nous tiendrons",
+        "vous tiendrez",
+        "ils/elles tiendront"
       ],
       "conditionnel_present": [
         "je tiendrais",
@@ -30412,8 +30412,8 @@
         "que je tienne",
         "que tu tiennes",
         "qu'il/elle tienne",
-        "que nous tienneons",
-        "que vous tienneez",
+        "que nous tenions",
+        "que vous teniez",
         "qu'ils/elles tiennent"
       ],
       "imperatif": [
@@ -30428,8 +30428,8 @@
         "que je tenire",
         "que tu tenires",
         "qu'il/elle tenire",
-        "que nous tenirions",
-        "que vous teniriez",
+        "que nous tenions",
+        "que vous teniez",
         "qu'ils/elles tenirent"
       ],
       "cond": [
@@ -30452,26 +30452,26 @@
       "pres": [
         "je tiens",
         "tu tiens",
-        "il/elle tien",
-        "nous tiensons",
-        "vous tiensez",
-        "ils/elles tiensent"
+        "il/elle tient",
+        "nous tenons",
+        "vous tenez",
+        "ils/elles tiennent"
       ],
       "imp": [
         "je tenais",
         "tu tenais",
         "il/elle tenait",
-        "nous tenaions",
-        "vous tenaiez",
+        "nous tenions",
+        "vous teniez",
         "ils/elles tenaient"
       ],
       "fut": [
         "je tiendrai",
         "tu tiendras",
         "il/elle tiendra",
-        "nous tiendraons",
-        "vous tiendraez",
-        "ils/elles tiendraont"
+        "nous tiendrons",
+        "vous tiendrez",
+        "ils/elles tiendront"
       ],
       "pqp": [
         "j'avais tenu",
@@ -30521,17 +30521,17 @@
       "indicatif_present": [
         "je vis",
         "tu vis",
-        "il/elle vi",
-        "nous visons",
-        "vous visez",
-        "ils/elles visent"
+        "il/elle vit",
+        "nous vivons",
+        "vous vivez",
+        "ils/elles vivent"
       ],
       "indicatif_imparfait": [
         "je vivais",
         "tu vivais",
         "il/elle vivait",
-        "nous vivaions",
-        "vous vivaiez",
+        "nous vivions",
+        "vous viviez",
         "ils/elles vivaient"
       ],
       "pc": [
@@ -30546,9 +30546,9 @@
         "je vivrai",
         "tu vivras",
         "il/elle vivra",
-        "nous vivraons",
-        "vous vivraez",
-        "ils/elles vivraont"
+        "nous vivrons",
+        "vous vivrez",
+        "ils/elles vivront"
       ],
       "conditionnel_present": [
         "je vivrais",
@@ -30562,8 +30562,8 @@
         "que je vive",
         "que tu vives",
         "qu'il/elle vive",
-        "que nous viveons",
-        "que vous viveez",
+        "que nous vivions",
+        "que vous viviez",
         "qu'ils/elles vivent"
       ],
       "imperatif": [
@@ -30578,8 +30578,8 @@
         "que je vivree",
         "que tu vivrees",
         "qu'il/elle vivree",
-        "que nous vivreions",
-        "que vous vivreiez",
+        "que nous vivions",
+        "que vous viviez",
         "qu'ils/elles vivreent"
       ],
       "cond": [
@@ -30602,26 +30602,26 @@
       "pres": [
         "je vis",
         "tu vis",
-        "il/elle vi",
-        "nous visons",
-        "vous visez",
-        "ils/elles visent"
+        "il/elle vit",
+        "nous vivons",
+        "vous vivez",
+        "ils/elles vivent"
       ],
       "imp": [
         "je vivais",
         "tu vivais",
         "il/elle vivait",
-        "nous vivaions",
-        "vous vivaiez",
+        "nous vivions",
+        "vous viviez",
         "ils/elles vivaient"
       ],
       "fut": [
         "je vivrai",
         "tu vivras",
         "il/elle vivra",
-        "nous vivraons",
-        "vous vivraez",
-        "ils/elles vivraont"
+        "nous vivrons",
+        "vous vivrez",
+        "ils/elles vivront"
       ],
       "pqp": [
         "j'avais vécu",
