@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Standalone Language Reference Apps Verification', () => {
-    test('fr-conjugeur loads and displays CEFR badge and color-coded verb endings', async ({ page }) => {
+    test('fr-conjugeur loads and displays CEFR badge, expanded tenses and color-coded verb endings', async ({ page }) => {
         await page.goto('http://localhost:8080/apps/fr-conjugeur/index.html');
         await page.waitForSelector('#verb-search-input');
 
@@ -17,6 +17,25 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         const verbFormHtml = await page.innerHTML('#tense-pres li:first-child .verb-form');
         expect(verbFormHtml).toContain('class="stem"');
         expect(verbFormHtml).toContain('class="ending"');
+
+        // Check expanded tenses (pqp, cond_pass, subj_pass, fut_ant)
+        await expect(page.locator('#tense-pqp')).not.toBeEmpty();
+        await expect(page.locator('#tense-cond_pass')).not.toBeEmpty();
+        await expect(page.locator('#tense-subj_pass')).not.toBeEmpty();
+        await expect(page.locator('#tense-fut_ant')).not.toBeEmpty();
+    });
+
+    test('ru-spryazhenie displays expanded tenses including conditional and imperative', async ({ page }) => {
+        await page.goto('http://localhost:8080/apps/ru-spryazhenie/index.html');
+        await page.waitForSelector('#verb-search-input');
+
+        await page.fill('#verb-search-input', 'читать');
+        await page.keyboard.press('Enter');
+
+        await expect(page.locator('#verb-infinitive')).toContainText('читать');
+        await expect(page.locator('#tense-pres')).not.toBeEmpty();
+        await expect(page.locator('#tense-cond')).not.toBeEmpty();
+        await expect(page.locator('#tense-impv')).not.toBeEmpty();
     });
 
     test('ru-rod-padezhi loads and displays 6 cases with color-coded endings and CEFR level', async ({ page }) => {
@@ -34,7 +53,7 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         expect(rows).toBe(6);
     });
 
-    test('el-klisi-rimaton loads and performs verb search', async ({ page }) => {
+    test('el-klisi-rimaton loads and displays expanded tenses including Parakeimenos and Subjunctive', async ({ page }) => {
         await page.goto('http://localhost:8080/apps/el-klisi-rimaton/index.html');
         await page.waitForSelector('#verb-search-input');
 
@@ -44,9 +63,11 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         await expect(page.locator('#verb-infinitive')).toHaveText('γράφω');
         await expect(page.locator('#verb-definition')).not.toBeEmpty();
         await expect(page.locator('#verb-usage-hint')).toContainText('γράφω σε');
+        await expect(page.locator('#tense-perf')).not.toBeEmpty();
+        await expect(page.locator('#tense-subj')).not.toBeEmpty();
     });
 
-    test('it-coniugatore displays usage hint and CEFR badge for Italian verbs', async ({ page }) => {
+    test('it-coniugatore displays usage hint, CEFR badge and expanded compound tenses for Italian verbs', async ({ page }) => {
         await page.goto('http://localhost:8080/apps/it-coniugatore/index.html');
         await page.waitForSelector('#verb-search-input');
 
@@ -55,6 +76,9 @@ test.describe('Standalone Language Reference Apps Verification', () => {
 
         await expect(page.locator('#verb-infinitive')).toHaveText('rispondere');
         await expect(page.locator('#verb-usage-hint')).toContainText('rispondere a');
+        await expect(page.locator('#tense-trap_pass')).not.toBeEmpty();
+        await expect(page.locator('#tense-cond_pass')).not.toBeEmpty();
+        await expect(page.locator('#tense-subj_pass')).not.toBeEmpty();
     });
 
     test('it-genere displays explicit article and plural form for Italian nouns', async ({ page }) => {

@@ -29,7 +29,7 @@
             <section id="search-section-container" class="search-section">
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="verb-search-input" placeholder="Cerca un verbo (es: parlare, andare, fare)..." autocomplete="off" autofocus>
+                    <input type="text" id="verb-search-input" placeholder="Cerca un verbo (es: parlare, andare, fare, sapere)..." autocomplete="off" autofocus>
                     <button id="clear-search-btn" class="clear-btn">&times;</button>
                 </div>
                 <div id="search-suggestions" class="suggestions-list"></div>
@@ -96,7 +96,22 @@
                             <div class="tense-card"><h4>Presente</h4><ul id="tense-pres" class="conjugation-list"></ul></div>
                             <div class="tense-card"><h4>Imperfetto</h4><ul id="tense-imp" class="conjugation-list"></ul></div>
                             <div class="tense-card"><h4>Passato Prossimo</h4><ul id="tense-pc" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Trapassato Prossimo</h4><ul id="tense-trap_pass" class="conjugation-list"></ul></div>
                             <div class="tense-card"><h4>Futuro Semplice</h4><ul id="tense-fut" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Futuro Anteriore</h4><ul id="tense-fut_ant" class="conjugation-list"></ul></div>
+                        </div>
+                    </div>
+
+                    <div class="mode-section">
+                        <h3>Congiuntivo, Condizionale & Imperativo</h3>
+                        <div class="tense-cards">
+                            <div class="tense-card"><h4>Congiuntivo Presente</h4><ul id="tense-subj" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Congiuntivo Passato</h4><ul id="tense-subj_pass" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Congiuntivo Imperfetto</h4><ul id="tense-subj_imp" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Condizionale Presente</h4><ul id="tense-cond" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Condizionale Passato</h4><ul id="tense-cond_pass" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Imperativo</h4><ul id="tense-impv" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Participio & Gerundio</h4><ul id="tense-part" class="conjugation-list"></ul></div>
                         </div>
                     </div>
                 </div>
@@ -112,6 +127,8 @@
                     <button class="tag-btn" onclick="appEngine.searchVerb('essere')">essere</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('avere')">avere</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('andare')">andare</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('sapere')">sapere</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('potere')">potere</button>
                 </div>
             </section>
         </main>

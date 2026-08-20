@@ -29,7 +29,7 @@
             <section id="search-section-container" class="search-section">
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="verb-search-input" placeholder="Αναζητήστε ρήμα (π.χ. γράφω, αγαπώ, είμαι)..." autocomplete="off" autofocus>
+                    <input type="text" id="verb-search-input" placeholder="Αναζητήστε ρήμα (π.χ. γράφω, αγαπώ, είμαι, ξέρω)..." autocomplete="off" autofocus>
                     <button id="clear-search-btn" class="clear-btn">&times;</button>
                 </div>
                 <div id="search-suggestions" class="suggestions-list"></div>
@@ -91,12 +91,16 @@
 
                 <div class="tense-grid-layout">
                     <div class="mode-section">
-                        <h3>Χρόνοι Ρήματος</h3>
+                        <h3>Οριστική, Υποτακτική & Προστακτική</h3>
                         <div class="tense-cards">
                             <div class="tense-card"><h4>Ενεστώτας</h4><ul id="tense-pres" class="conjugation-list"></ul></div>
                             <div class="tense-card"><h4>Παρατατικός</h4><ul id="tense-imp" class="conjugation-list"></ul></div>
                             <div class="tense-card"><h4>Αόριστος</h4><ul id="tense-aor" class="conjugation-list"></ul></div>
                             <div class="tense-card"><h4>Μέλλουσας</h4><ul id="tense-fut" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Παρακείμενος</h4><ul id="tense-perf" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Υποτακτική</h4><ul id="tense-subj" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Υποθετική (Conditionnel)</h4><ul id="tense-cond" class="conjugation-list"></ul></div>
+                            <div class="tense-card"><h4>Προστακτική</h4><ul id="tense-impv" class="conjugation-list"></ul></div>
                         </div>
                     </div>
                 </div>
@@ -110,6 +114,8 @@
                     <span>Γρήγορες επιλογές:</span>
                     <button class="tag-btn" onclick="appEngine.searchVerb('γράφω')">γράφω</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('αγαπώ')">αγαπώ</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('ξέρω')">ξέρω</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('μπορώ')">μπορώ</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('είμαι')">είμαι</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('έχω')">έχω</button>
                 </div>

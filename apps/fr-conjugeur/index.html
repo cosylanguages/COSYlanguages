@@ -35,7 +35,7 @@
             <section id="search-section-container" class="search-section">
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="verb-search-input" placeholder="Tapez un verbe (ex: parler, suis, aller)..." autocomplete="off" autofocus>
+                    <input type="text" id="verb-search-input" placeholder="Tapez un verbe (ex: parler, suis, aller, savoir)..." autocomplete="off" autofocus>
                     <button id="clear-search-btn" class="clear-btn">&times;</button>
                 </div>
                 <div id="search-suggestions" class="suggestions-list"></div>
@@ -124,23 +124,39 @@
                                 <ul id="tense-pc" class="conjugation-list"></ul>
                             </div>
                             <div class="tense-card">
+                                <h4>Plus-que-parfait</h4>
+                                <ul id="tense-pqp" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
                                 <h4>Futur simple</h4>
                                 <ul id="tense-fut" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Futur antérieur</h4>
+                                <ul id="tense-fut_ant" class="conjugation-list"></ul>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Subjonctif & Conditionnel -->
+                    <!-- Subjonctif, Conditionnel & Impératif -->
                     <div class="mode-section">
-                        <h3>Subjonctif & Conditionnel</h3>
+                        <h3>Subjonctif, Conditionnel & Impératif</h3>
                         <div class="tense-cards">
                             <div class="tense-card">
                                 <h4>Subjonctif Présent</h4>
                                 <ul id="tense-subj" class="conjugation-list"></ul>
                             </div>
                             <div class="tense-card">
+                                <h4>Subjonctif Passé</h4>
+                                <ul id="tense-subj_pass" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
                                 <h4>Conditionnel Présent</h4>
                                 <ul id="tense-cond" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Conditionnel Passé</h4>
+                                <ul id="tense-cond_pass" class="conjugation-list"></ul>
                             </div>
                             <div class="tense-card">
                                 <h4>Impératif</h4>
@@ -166,8 +182,8 @@
                     <button class="tag-btn" onclick="appEngine.searchVerb('être')">être</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('avoir')">avoir</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('aller')">aller</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('faire')">faire</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('finir')">finir</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('savoir')">savoir</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('pouvoir')">pouvoir</button>
                 </div>
             </section>
         </main>

@@ -34,7 +34,7 @@ class RussianConjugationEngine {
         if (!q) { box.style.display = 'none'; return; }
         const matches = Object.keys(this.verbDb).filter(v => v.startsWith(q));
         if (matches.length > 0) {
-            box.innerHTML = matches.map(v => `
+            box.innerHTML = matches.slice(0, 6).map(v => `
                 <div class="suggestion-item" onclick="appEngine.searchVerb('${v}')">
                     <span><strong>${v}</strong></span>
                     <span>${this.verbDb[v].group}</span>
@@ -46,7 +46,8 @@ class RussianConjugationEngine {
 
     searchVerb(query) {
         const q = query.trim().toLowerCase();
-        document.getElementById('search-suggestions').style.display = 'none';
+        const box = document.getElementById('search-suggestions');
+        if (box) box.style.display = 'none';
         if (this.verbDb[q]) {
             this.renderVerb(q, this.verbDb[q]);
         } else if (q) {
@@ -60,7 +61,10 @@ class RussianConjugationEngine {
                 tenses: {
                     pres: [`я ${stem}ю`, `ты ${stem}ешь`, `он/она ${stem}ет`, `мы ${stem}ем`, `вы ${stem}ете`, `они ${stem}ют`],
                     past: [`он ${stem}л`, `она ${stem}ла`, `оно ${stem}ло`, `они ${stem}ли`],
-                    fut: [`я буду ${q}`, `ты будешь ${q}`, `он/она будет ${q}`, `мы будем ${q}`, `вы будете ${q}`, `они будут ${q}`]
+                    fut: [`я буду ${q}`, `ты будешь ${q}`, `он/она будет ${q}`, `мы будем ${q}`, `вы будете ${q}`, `они будут ${q}`],
+                    cond: [`я бы ${stem}л`, `ты бы ${stem}л`, `он(а) бы ${stem}л`, `мы бы ${stem}ли`, `вы бы ${stem}ли`, `они бы ${stem}ли`],
+                    impv: [`${stem}й!`, `${stem}йте!`],
+                    part: [`${stem}ющий`, `${stem}вший`]
                 }
             });
         }
@@ -88,7 +92,7 @@ class RussianConjugationEngine {
         document.getElementById('verb-result-container').style.display = 'block';
         document.getElementById('verb-infinitive').textContent = verb;
         document.getElementById('verb-group-badge').textContent = data.group;
-        document.getElementById('verb-aspect-badge').textContent = `Пара: ${data.pair}`;
+        document.getElementById('verb-aspect-badge').textContent = `Пара: ${data.pair || '—'}`;
 
         let levelBadge = document.getElementById('verb-cefr-badge');
         if (!levelBadge) {
@@ -128,23 +132,48 @@ class RussianConjugationEngine {
         const pronounsPres = ['я', 'ты', 'он/она́', 'мы', 'вы', 'они́'];
         const listPres = document.getElementById('tense-pres');
         if (listPres && data.tenses.pres) {
-            listPres.innerHTML = data.tenses.pres.map((f, i) => `
-                <li><span class="pronoun">${pronounsPres[i]}</span> <span>${this.formatColorCoded(f)}</span></li>
-            `).join('');
+            listPres.innerHTML = data.tenses.pres.map((f, i) => {
+                const cleanForm = f.replace(/^(я|ты|он\/она́|он|она|мы|вы|они́|они)\s+/i, '').trim();
+                return `<li><span class="pronoun">${pronounsPres[i] || ''}</span> <span>${this.formatColorCoded(cleanForm)}</span></li>`;
+            }).join('');
         }
 
         const pronounsPast = ['он', 'она́', 'оно́', 'они́'];
         const listPast = document.getElementById('tense-past');
         if (listPast && data.tenses.past) {
-            listPast.innerHTML = data.tenses.past.map((f, i) => `
-                <li><span class="pronoun">${pronounsPast[i] || ''}</span> <span>${this.formatColorCoded(f)}</span></li>
-            `).join('');
+            listPast.innerHTML = data.tenses.past.map((f, i) => {
+                const cleanForm = f.replace(/^(он|она́|она|оно́|оно|они́|они)\s+/i, '').trim();
+                return `<li><span class="pronoun">${pronounsPast[i] || ''}</span> <span>${this.formatColorCoded(cleanForm)}</span></li>`;
+            }).join('');
         }
 
         const listFut = document.getElementById('tense-fut');
         if (listFut && data.tenses.fut) {
-            listFut.innerHTML = data.tenses.fut.map((f, i) => `
-                <li><span class="pronoun">${pronounsPres[i]}</span> <span>${f}</span></li>
+            listFut.innerHTML = data.tenses.fut.map((f, i) => {
+                const cleanForm = f.replace(/^(я|ты|он\/она́|он|она|мы|вы|они́|они)\s+/i, '').trim();
+                return `<li><span class="pronoun">${pronounsPres[i] || ''}</span> <span>${cleanForm}</span></li>`;
+            }).join('');
+        }
+
+        const listCond = document.getElementById('tense-cond');
+        if (listCond && data.tenses.cond) {
+            listCond.innerHTML = data.tenses.cond.map((f, i) => {
+                const cleanForm = f.replace(/^(я|ты|он\/она́|он|она|мы|вы|они́|они)\s+/i, '').trim();
+                return `<li><span class="pronoun">${pronounsPres[i] || ''}</span> <span>${cleanForm}</span></li>`;
+            }).join('');
+        }
+
+        const listImpv = document.getElementById('tense-impv');
+        if (listImpv && data.tenses.impv) {
+            listImpv.innerHTML = data.tenses.impv.map((f, i) => `
+                <li><span class="pronoun">${i === 0 ? '(ты)' : '(вы)'}</span> <span>${f}</span></li>
+            `).join('');
+        }
+
+        const listPart = document.getElementById('tense-part');
+        if (listPart && data.tenses.part) {
+            listPart.innerHTML = data.tenses.part.map((f, i) => `
+                <li><span class="pronoun">${i === 0 ? 'наст.' : 'прош.'}</span> <span>${f}</span></li>
             `).join('');
         }
     }
@@ -164,7 +193,8 @@ class RussianConjugationEngine {
         const data = this.verbDb[randomVerb];
         const pronouns = ['я', 'ты', 'он/она', 'мы', 'вы', 'они'];
         const pIdx = Math.floor(Math.random() * 6);
-        const rawTarget = data.tenses.pres[pIdx];
+        const presForms = data.tenses.pres || [];
+        const rawTarget = presForms[pIdx] || 'читает';
         const target = rawTarget.replace(/[\u0300-\u036f]/g, "").replace(/^(я|ты|он\/она́|мы|вы|они́)\s+/i, '').trim();
 
         this.currentQuestion = { verb: randomVerb, pronoun: pronouns[pIdx], expected: target };
