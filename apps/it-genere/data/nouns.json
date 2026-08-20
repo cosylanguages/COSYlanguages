@@ -2229,5 +2229,85 @@
       "nom_plur": "le piazze"
     },
     "plural": "piazze"
+  },
+  "paio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Insieme di due cose della stessa specie considerate come un tutt'uno.",
+    "antonyms": [
+      "singolo"
+    ],
+    "article": "il",
+    "plural": "paia",
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un paio'), diventa femminile al plurale con terminazione irregolare in '-a' ('le paia').",
+    "cases": {
+      "nom_sing": "il paio",
+      "gen_sing": "del paio",
+      "dat_sing": "al paio",
+      "acc_sing": "il paio",
+      "abl_sing": "dal paio",
+      "loc_sing": "in paio",
+      "nom_plur": "le paia"
+    }
+  },
+  "centinaio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Quantità pari a circa cento unità.",
+    "antonyms": [
+      "unità"
+    ],
+    "article": "il",
+    "plural": "centinaia",
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un centinaio'), diventa femminile al plurale con terminazione irregolare in '-a' ('le centinaia').",
+    "cases": {
+      "nom_sing": "il centinaio",
+      "gen_sing": "del centinaio",
+      "dat_sing": "al centinaio",
+      "acc_sing": "il centinaio",
+      "abl_sing": "dal centinaio",
+      "loc_sing": "in centinaio",
+      "nom_plur": "le centinaia"
+    }
+  },
+  "migliaio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Quantità pari a circa mille unità.",
+    "antonyms": [
+      "unità"
+    ],
+    "article": "il",
+    "plural": "migliaia",
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un migliaio'), diventa femminile al plurale con terminazione irregolare in '-a' ('le migliaia').",
+    "cases": {
+      "nom_sing": "il migliaio",
+      "gen_sing": "del migliaio",
+      "dat_sing": "al migliaio",
+      "acc_sing": "il migliaio",
+      "abl_sing": "dal migliaio",
+      "loc_sing": "in migliaio",
+      "nom_plur": "le migliaia"
+    }
+  },
+  "ala": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Organo del volo degli uccelli e degli insetti.",
+    "antonyms": [
+      "zampa"
+    ],
+    "article": "l'",
+    "plural": "ali",
+    "grammar_rule": "💡 REMEMBER: Femminile singolare ('un'ala') con elisione dell'articolo indeterminativo davanti a vocale; plurale regolare ('le ali').",
+    "cases": {
+      "nom_sing": "l'ala",
+      "gen_sing": "dell'ala",
+      "dat_sing": "all'ala",
+      "acc_sing": "l'ala",
+      "abl_sing": "dall'ala",
+      "loc_sing": "in ala",
+      "nom_plur": "le ali"
+    }
   }
 }
