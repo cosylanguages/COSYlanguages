@@ -5,6 +5,7 @@ class RussianGenderCasesEngine {
         this.gameScore = 0;
         this.gameStreak = 0;
         this.currentQuestion = null;
+        this.gamePracticeMode = 'gender';
         this.init();
     }
 
@@ -141,6 +142,17 @@ class RussianGenderCasesEngine {
         }).join('');
     }
 
+    setPracticeMode(mode) {
+        this.gamePracticeMode = mode;
+        const gBtn = document.getElementById('mode-gender-btn');
+        const cBtn = document.getElementById('mode-cases-btn');
+        if (gBtn && cBtn) {
+            gBtn.className = mode === 'gender' ? 'badge active-mode' : 'badge';
+            cBtn.className = mode === 'cases' ? 'badge active-mode' : 'badge';
+        }
+        this.nextGameQuestion();
+    }
+
     toggleGameMode() {
         this.isGameActive = !this.isGameActive;
         document.getElementById('game-container').style.display = this.isGameActive ? 'block' : 'none';
@@ -151,12 +163,101 @@ class RussianGenderCasesEngine {
     }
 
     nextGameQuestion() {
+        if (this.gamePracticeMode === 'cases') {
+            this.nextCasesQuestion();
+            return;
+        }
+        const choiceGroup = document.querySelector('.game-choice-group');
+        const mcGroup = document.getElementById('game-mc-options');
+        if (choiceGroup) choiceGroup.style.display = 'flex';
+        if (mcGroup) mcGroup.style.display = 'none';
         const nouns = Object.keys(this.nounDb);
         const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
         this.currentQuestion = { noun: randomNoun, expectedGender: this.nounDb[randomNoun].gender };
         document.getElementById('game-noun-prompt').textContent = randomNoun;
         document.getElementById('game-feedback-box').style.display = 'none';
         document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    nextCasesQuestion() {
+        const choiceGroup = document.querySelector('.game-choice-group');
+        let mcGroup = document.getElementById('game-mc-options');
+        if (choiceGroup) choiceGroup.style.display = 'none';
+        if (!mcGroup) {
+            mcGroup = document.createElement('div');
+            mcGroup.id = 'game-mc-options';
+            mcGroup.className = 'mc-options-grid';
+            document.querySelector('.game-prompt-box').insertAdjacentElement('afterend', mcGroup);
+        }
+        mcGroup.style.display = 'grid';
+
+        const nouns = Object.keys(this.nounDb);
+        if (nouns.length === 0) return;
+
+        const targetNoun = nouns[Math.floor(Math.random() * nouns.length)];
+        const data = this.nounDb[targetNoun];
+
+        const caseMeta = [
+            { key: 'gen_sing', legacyKey: 'gen', legacyIdx: 0, name: 'Родительный п. (ед.ч.)' },
+            { key: 'dat_sing', legacyKey: 'dat', legacyIdx: 0, name: 'Дательный п. (ед.ч.)' },
+            { key: 'acc_sing', legacyKey: 'acc', legacyIdx: 0, name: 'Винительный п. (ед.ч.)' },
+            { key: 'ins_sing', legacyKey: 'inst', legacyIdx: 0, name: 'Творительный п. (ед.ч.)' },
+            { key: 'pre_sing', legacyKey: 'prep', legacyIdx: 0, name: 'Предложный п. (ед.ч.)' },
+            { key: 'nom_plur', legacyKey: 'nom', legacyIdx: 1, name: 'Именительный п. (мн.ч.)' },
+            { key: 'gen_plur', legacyKey: 'gen', legacyIdx: 1, name: 'Родительный п. (мн.ч.)' }
+        ];
+
+        const targetCase = caseMeta[Math.floor(Math.random() * caseMeta.length)];
+        let correctVal = data.cases ? (data.cases[targetCase.key] || (data.cases[targetCase.legacyKey] ? data.cases[targetCase.legacyKey][targetCase.legacyIdx] : null)) : null;
+        if (!correctVal) correctVal = targetNoun;
+        correctVal = correctVal.replace(/[\u0300-\u036f]/g, "");
+
+        const distractors = new Set();
+        while (distractors.size < 3) {
+            const rndN = nouns[Math.floor(Math.random() * nouns.length)];
+            const rndC = caseMeta[Math.floor(Math.random() * caseMeta.length)];
+            const dData = this.nounDb[rndN];
+            let val = dData.cases ? (dData.cases[rndC.key] || (dData.cases[rndC.legacyKey] ? dData.cases[rndC.legacyKey][rndC.legacyIdx] : null)) : null;
+            if (val) {
+                val = val.replace(/[\u0300-\u036f]/g, "");
+                if (val !== correctVal) distractors.add(val);
+            }
+        }
+
+        const options = [correctVal, ...Array.from(distractors)].sort(() => 0.5 - Math.random());
+
+        this.currentQuestion = { noun: targetNoun, caseName: targetCase.name, expected: correctVal, isCases: true };
+
+        document.getElementById('game-noun-prompt').textContent = targetNoun;
+        let labelEl = document.querySelector('.prompt-label');
+        if (labelEl) labelEl.textContent = `Форма: ${targetCase.name}`;
+
+        mcGroup.innerHTML = options.map(opt => `
+            <button class="mc-option-btn" onclick="appEngine.checkCasesChoice('${opt.replace(/'/g, "\'")}')">${opt}</button>
+        `).join('');
+
+        document.getElementById('game-feedback-box').style.display = 'none';
+        document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    checkCasesChoice(selected) {
+        if (!this.currentQuestion) return;
+        const isCorrect = selected === this.currentQuestion.expected;
+        const feedback = document.getElementById('game-feedback-box');
+        feedback.style.display = 'block';
+
+        if (isCorrect) {
+            this.gameScore += 10; this.gameStreak += 1;
+            feedback.className = 'feedback-card correct';
+            feedback.innerHTML = `✅ Отлично! <strong>${this.currentQuestion.noun}</strong> (${this.currentQuestion.caseName}) ➔ <strong>${selected}</strong> (+10 очков).`;
+        } else {
+            this.gameStreak = 0;
+            feedback.className = 'feedback-card wrong';
+            feedback.innerHTML = `❌ Ошибка! Правильно: <strong>${this.currentQuestion.noun}</strong> (${this.currentQuestion.caseName}) ➔ <strong>${this.currentQuestion.expected}</strong>.`;
+        }
+        document.getElementById('game-score').textContent = this.gameScore;
+        document.getElementById('game-streak').textContent = this.gameStreak;
+        document.getElementById('game-next-btn').style.display = 'block';
     }
 
     checkGameChoice(gender) {

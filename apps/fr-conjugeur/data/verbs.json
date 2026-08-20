@@ -31623,5 +31623,299 @@
         "qu'ils/elles aient mangé"
       ]
     }
+  },
+  "skier": {
+    "group": "1er groupe",
+    "level": "A2",
+    "definition": "Glisser sur la neige à l'aide de skis.",
+    "antonyms": [],
+    "auxiliary": "avoir",
+    "tenses": {
+      "indicatif_present": [
+        "je skie",
+        "tu skies",
+        "il/elle skie",
+        "nous skions",
+        "vous skiez",
+        "ils/elles skient"
+      ],
+      "indicatif_imparfait": [
+        "je skiais",
+        "tu skiais",
+        "il/elle skiait",
+        "nous skiions",
+        "vous skiiez",
+        "ils/elles skiaient"
+      ],
+      "pc": [
+        "j'ai skié",
+        "tu as skié",
+        "il/elle a skié",
+        "nous avons skié",
+        "vous avez skié",
+        "ils/elles ont skié"
+      ],
+      "indicatif_futur_simple": [
+        "je skierai",
+        "tu skieras",
+        "il/elle skiera",
+        "nous skierons",
+        "vous skierez",
+        "ils/elles skieront"
+      ],
+      "conditionnel_present": [
+        "je skierais",
+        "tu skierais",
+        "il/elle skierait",
+        "nous skierions",
+        "vous skieriez",
+        "ils/elles skieraient"
+      ],
+      "subjonctif_present": [
+        "que je skie",
+        "que tu skies",
+        "qu'il/elle skie",
+        "que nous skiions",
+        "que vous skiiez",
+        "qu'ils/elles skient"
+      ],
+      "imperatif": [
+        "skie !",
+        "skions !",
+        "skiez !"
+      ],
+      "participe_passe": [
+        "skié"
+      ],
+      "subj": [
+        "que je skie",
+        "que tu skies",
+        "qu'il/elle skie",
+        "que nous skiions",
+        "que vous skiiez",
+        "qu'ils/elles skient"
+      ],
+      "cond": [
+        "je skierais",
+        "tu skierais",
+        "il/elle skierait",
+        "nous skierions",
+        "vous skieriez",
+        "ils/elles skieraient"
+      ],
+      "impv": [
+        "skie",
+        "skions",
+        "skiez"
+      ],
+      "part": [
+        "skiant",
+        "skié"
+      ],
+      "pres": [
+        "je skie",
+        "tu skies",
+        "il/elle skie",
+        "nous skions",
+        "vous skiez",
+        "ils/elles skient"
+      ],
+      "imp": [
+        "je skiais",
+        "tu skiais",
+        "il/elle skiait",
+        "nous skiions",
+        "vous skiiez",
+        "ils/elles skiaient"
+      ],
+      "fut": [
+        "je skierai",
+        "tu skieras",
+        "il/elle skiera",
+        "nous skierons",
+        "vous skierez",
+        "ils/elles skieront"
+      ],
+      "pqp": [
+        "j'avais skié",
+        "tu avais skié",
+        "il/elle avait skié",
+        "nous avions skié",
+        "vous aviez skié",
+        "ils/elles avaient skié"
+      ],
+      "fut_ant": [
+        "j'aurai skié",
+        "tu auras skié",
+        "il/elle aura skié",
+        "nous aurons skié",
+        "vous aurez skié",
+        "ils/elles auront skié"
+      ],
+      "cond_pass": [
+        "j'aurais skié",
+        "tu aurais skié",
+        "il/elle aurait skié",
+        "nous aurions skié",
+        "vous auriez skié",
+        "ils/elles auraient skié"
+      ],
+      "subj_pass": [
+        "que j'aie skié",
+        "que tu aies skié",
+        "qu'il/elle ait skié",
+        "que nous ayons skié",
+        "que vous ayez skié",
+        "qu'ils/elles aient skié"
+      ]
+    },
+    "usage_hint": "skier sur les pistes"
+  },
+  "tousser": {
+    "group": "1er groupe",
+    "level": "A2",
+    "definition": "Expulser de l'air des poumons avec bruit.",
+    "antonyms": [],
+    "auxiliary": "avoir",
+    "tenses": {
+      "indicatif_present": [
+        "je tousse",
+        "tu tousses",
+        "il/elle tousse",
+        "nous toussons",
+        "vous toussez",
+        "ils/elles toussent"
+      ],
+      "indicatif_imparfait": [
+        "je toussais",
+        "tu toussais",
+        "il/elle toussait",
+        "nous toussions",
+        "vous toussiez",
+        "ils/elles toussaient"
+      ],
+      "pc": [
+        "j'ai toussé",
+        "tu as toussé",
+        "il/elle a toussé",
+        "nous avons toussé",
+        "vous avez toussé",
+        "ils/elles ont toussé"
+      ],
+      "indicatif_futur_simple": [
+        "je tousserai",
+        "tu tousseras",
+        "il/elle toussera",
+        "nous tousserons",
+        "vous tousserez",
+        "ils/elles tousseront"
+      ],
+      "conditionnel_present": [
+        "je tousserais",
+        "tu tousserais",
+        "il/elle tousserait",
+        "nous tousserions",
+        "vous tousseriez",
+        "ils/elles tousseraient"
+      ],
+      "subjonctif_present": [
+        "que je tousse",
+        "que tu tousses",
+        "qu'il/elle tousse",
+        "que nous toussions",
+        "que vous toussiez",
+        "qu'ils/elles toussent"
+      ],
+      "imperatif": [
+        "tousse !",
+        "toussons !",
+        "toussez !"
+      ],
+      "participe_passe": [
+        "toussé"
+      ],
+      "subj": [
+        "que je tousse",
+        "que tu tousses",
+        "qu'il/elle tousse",
+        "que nous toussions",
+        "que vous toussiez",
+        "qu'ils/elles toussent"
+      ],
+      "cond": [
+        "je tousserais",
+        "tu tousserais",
+        "il/elle tousserait",
+        "nous tousserions",
+        "vous tousseriez",
+        "ils/elles tousseraient"
+      ],
+      "impv": [
+        "tousse",
+        "toussons",
+        "toussez"
+      ],
+      "part": [
+        "toussant",
+        "toussé"
+      ],
+      "pres": [
+        "je tousse",
+        "tu tousses",
+        "il/elle tousse",
+        "nous toussons",
+        "vous toussez",
+        "ils/elles toussent"
+      ],
+      "imp": [
+        "je toussais",
+        "tu toussais",
+        "il/elle toussait",
+        "nous toussions",
+        "vous toussiez",
+        "ils/elles toussaient"
+      ],
+      "fut": [
+        "je tousserai",
+        "tu tousseras",
+        "il/elle toussera",
+        "nous tousserons",
+        "vous tousserez",
+        "ils/elles tousseront"
+      ],
+      "pqp": [
+        "j'avais toussé",
+        "tu avais toussé",
+        "il/elle avait toussé",
+        "nous avions toussé",
+        "vous aviez toussé",
+        "ils/elles avaient toussé"
+      ],
+      "fut_ant": [
+        "j'aurai toussé",
+        "tu auras toussé",
+        "il/elle aura toussé",
+        "nous aurons toussé",
+        "vous aurez toussé",
+        "ils/elles auront toussé"
+      ],
+      "cond_pass": [
+        "j'aurais toussé",
+        "tu aurais toussé",
+        "il/elle aurait toussé",
+        "nous aurions toussé",
+        "vous auriez toussé",
+        "ils/elles auraient toussé"
+      ],
+      "subj_pass": [
+        "que j'aie toussé",
+        "que tu aies toussé",
+        "qu'il/elle ait toussé",
+        "que nous ayons toussé",
+        "que vous ayez toussé",
+        "qu'ils/elles aient toussé"
+      ]
+    },
+    "usage_hint": "tousser à cause d'un rhume"
   }
 }

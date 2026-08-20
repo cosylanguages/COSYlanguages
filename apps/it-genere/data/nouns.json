@@ -2994,5 +2994,94 @@
     "article": "l'",
     "plural": "estati",
     "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili."
+  },
+  "valigia": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Contenitore portatile per vestiti durante un viaggio.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "valigie"
+  },
+  "passaporto": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Documento ufficiale di riconoscimento per viaggiare.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "passaporti"
+  },
+  "squadra": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Gruppo di atleti o persone che collaborano.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "squadre"
+  },
+  "partita": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Incontro sportivo tra due squadre o giocatori.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "partite"
+  },
+  "piscina": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Vasca artificiale usata per la natazione.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "piscine"
+  },
+  "denaro": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Moneta usata come mezzo di pagamento.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "denari"
+  },
+  "pubblicità": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Promozione di prodotti o servizi al pubblico.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "pubblicità"
+  },
+  "programma": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Trasmissione televisiva o piano di attività.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nome maschile d'origine greca in '-a' ('il programma / i programmi').",
+    "article": "il",
+    "plural": "programmi"
+  },
+  "medicina": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Sostanza usata per curare le malattie.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "medicine"
+  },
+  "febbre": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Aumento anormale della temperatura corporea.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "febbri"
+  },
+  "raffreddore": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Infezione comune delle vie respiratorie.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "raffreddori"
   }
 }

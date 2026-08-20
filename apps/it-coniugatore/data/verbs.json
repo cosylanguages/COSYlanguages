@@ -25733,5 +25733,469 @@
         "avranno previsto"
       ]
     }
+  },
+  "sciare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Scivolare sulla neve con gli sci.",
+    "antonyms": [],
+    "auxiliary": "avere",
+    "usage_hint": "sciare sulle piste",
+    "tenses": {
+      "presente": [
+        "scio",
+        "scii",
+        "scia",
+        "sciamo",
+        "sciate",
+        "sciano"
+      ],
+      "pres": [
+        "scio",
+        "scii",
+        "scia",
+        "sciamo",
+        "sciate",
+        "sciano"
+      ],
+      "imperfetto": [
+        "sciavo",
+        "sciavi",
+        "sciava",
+        "sciavamo",
+        "sciavate",
+        "sciavano"
+      ],
+      "imp": [
+        "sciavo",
+        "sciavi",
+        "sciava",
+        "sciavamo",
+        "sciavate",
+        "sciavano"
+      ],
+      "futuro_semplice": [
+        "scierò",
+        "scierai",
+        "scierà",
+        "scieremo",
+        "scierete",
+        "scieranno"
+      ],
+      "fut": [
+        "scierò",
+        "scierai",
+        "scierà",
+        "scieremo",
+        "scierete",
+        "scieranno"
+      ],
+      "condizionale_presente": [
+        "scierei",
+        "scieresti",
+        "scierebbe",
+        "scieremmo",
+        "sciereste",
+        "scierebbero"
+      ],
+      "cond": [
+        "scierei",
+        "scieresti",
+        "scierebbe",
+        "scieremmo",
+        "sciereste",
+        "scierebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io scii",
+        "che tu scii",
+        "che egli scii",
+        "che noi sciamo",
+        "che voi sciate",
+        "che essi sciino"
+      ],
+      "subj": [
+        "che io scii",
+        "che tu scii",
+        "che egli scii",
+        "che noi sciamo",
+        "che voi sciate",
+        "che essi sciino"
+      ],
+      "imperativo": [
+        "scia!",
+        "sciamo!",
+        "sciate!"
+      ],
+      "impv": [
+        "scia!",
+        "sciamo!",
+        "sciate!"
+      ],
+      "participio_passato": [
+        "sciato"
+      ],
+      "part": [
+        "sciato"
+      ],
+      "cond_pass": [
+        "avrei sciato",
+        "avresti sciato",
+        "avrebbe sciato",
+        "avremmo sciato",
+        "avreste sciato",
+        "avrebbero sciato"
+      ],
+      "subj_pass": [
+        "abbia sciato",
+        "abbia sciato",
+        "abbia sciato",
+        "abbiamo sciato",
+        "abbiate sciato",
+        "abbiano sciato"
+      ],
+      "subj_imp": [
+        "sciassi",
+        "sciassi",
+        "sciasse",
+        "sciassimo",
+        "sciaste",
+        "sciassero"
+      ],
+      "trap_pass": [
+        "avevo sciato",
+        "avevi sciato",
+        "aveva sciato",
+        "avevamo sciato",
+        "avevate sciato",
+        "avevano sciato"
+      ],
+      "fut_ant": [
+        "avrò sciato",
+        "avrai sciato",
+        "avrà sciato",
+        "avremo sciato",
+        "avrete sciato",
+        "avranno sciato"
+      ],
+      "pc": [
+        "ho sciato",
+        "hai sciato",
+        "ha sciato",
+        "abbiamo sciato",
+        "avete sciato",
+        "hanno sciato"
+      ]
+    }
+  },
+  "tossire": {
+    "group": "3a coniugazione",
+    "level": "A2",
+    "definition": "Espellere aria dai polmoni con un colpo.",
+    "antonyms": [],
+    "auxiliary": "avere",
+    "usage_hint": "tossire per il raffreddore",
+    "tenses": {
+      "presente": [
+        "tossisco",
+        "tossisci",
+        "tossisce",
+        "tossiamo",
+        "tossite",
+        "tossiscono"
+      ],
+      "pres": [
+        "tossisco",
+        "tossisci",
+        "tossisce",
+        "tossiamo",
+        "tossite",
+        "tossiscono"
+      ],
+      "imperfetto": [
+        "tossivo",
+        "tossivi",
+        "tossiva",
+        "tossivamo",
+        "tossivate",
+        "tossivano"
+      ],
+      "imp": [
+        "tossivo",
+        "tossivi",
+        "tossiva",
+        "tossivamo",
+        "tossivate",
+        "tossivano"
+      ],
+      "futuro_semplice": [
+        "tossirò",
+        "tossirai",
+        "tossirà",
+        "tossiremo",
+        "tossirete",
+        "tossiranno"
+      ],
+      "fut": [
+        "tossirò",
+        "tossirai",
+        "tossirà",
+        "tossiremo",
+        "tossirete",
+        "tossiranno"
+      ],
+      "condizionale_presente": [
+        "tossirei",
+        "tossiresti",
+        "tossirebbe",
+        "tossiremmo",
+        "tossireste",
+        "tossirebbero"
+      ],
+      "cond": [
+        "tossirei",
+        "tossiresti",
+        "tossirebbe",
+        "tossiremmo",
+        "tossireste",
+        "tossirebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io tossisca",
+        "che tu tossisca",
+        "che egli tossisca",
+        "che noi tossiamo",
+        "che voi tossiate",
+        "che essi tossiscano"
+      ],
+      "subj": [
+        "che io tossisca",
+        "che tu tossisca",
+        "che egli tossisca",
+        "che noi tossiamo",
+        "che voi tossiate",
+        "che essi tossiscano"
+      ],
+      "imperativo": [
+        "tossisci!",
+        "tossiamo!",
+        "tossite!"
+      ],
+      "impv": [
+        "tossisci!",
+        "tossiamo!",
+        "tossite!"
+      ],
+      "participio_passato": [
+        "tossito"
+      ],
+      "part": [
+        "tossito"
+      ],
+      "cond_pass": [
+        "avrei tossito",
+        "avresti tossito",
+        "avrebbe tossito",
+        "avremmo tossito",
+        "avreste tossito",
+        "avrebbero tossito"
+      ],
+      "subj_pass": [
+        "abbia tossito",
+        "abbia tossito",
+        "abbia tossito",
+        "abbiamo tossito",
+        "abbiate tossito",
+        "abbiano tossito"
+      ],
+      "subj_imp": [
+        "tossissi",
+        "tossissi",
+        "tossisse",
+        "tossissimo",
+        "tossiste",
+        "tossissero"
+      ],
+      "trap_pass": [
+        "avevo tossito",
+        "avevi tossito",
+        "aveva tossito",
+        "avevamo tossito",
+        "avevate tossito",
+        "avevano tossito"
+      ],
+      "fut_ant": [
+        "avrò tossito",
+        "avrai tossito",
+        "avrà tossito",
+        "avremo tossito",
+        "avrete tossito",
+        "avranno tossito"
+      ],
+      "pc": [
+        "ho tossito",
+        "hai tossito",
+        "ha tossito",
+        "abbiamo tossito",
+        "avete tossito",
+        "hanno tossito"
+      ]
+    }
+  },
+  "guarire": {
+    "group": "3a coniugazione",
+    "level": "A2",
+    "definition": "Ritornare in buona salute dopo una malattia.",
+    "antonyms": [
+      "ammalarsi"
+    ],
+    "auxiliary": "essere",
+    "usage_hint": "guarire da una malattia",
+    "tenses": {
+      "presente": [
+        "guarisco",
+        "guarisci",
+        "guarisce",
+        "guariamo",
+        "guarite",
+        "guariscono"
+      ],
+      "pres": [
+        "guarisco",
+        "guarisci",
+        "guarisce",
+        "guariamo",
+        "guarite",
+        "guariscono"
+      ],
+      "imperfetto": [
+        "guarivo",
+        "guarivi",
+        "guariva",
+        "guarivamo",
+        "guarivate",
+        "guarivano"
+      ],
+      "imp": [
+        "guarivo",
+        "guarivi",
+        "guariva",
+        "guarivamo",
+        "guarivate",
+        "guarivano"
+      ],
+      "futuro_semplice": [
+        "guarirò",
+        "guarirai",
+        "guarirà",
+        "guariremo",
+        "guarirete",
+        "guariranno"
+      ],
+      "fut": [
+        "guarirò",
+        "guarirai",
+        "guarirà",
+        "guariremo",
+        "guarirete",
+        "guariranno"
+      ],
+      "condizionale_presente": [
+        "guarirei",
+        "guariresti",
+        "guarirebbe",
+        "guariremmo",
+        "guarireste",
+        "guarirebbero"
+      ],
+      "cond": [
+        "guarirei",
+        "guariresti",
+        "guarirebbe",
+        "guariremmo",
+        "guarireste",
+        "guarirebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io guarisca",
+        "che tu guarisca",
+        "che egli guarisca",
+        "che noi guariamo",
+        "che voi guariate",
+        "che essi guariscano"
+      ],
+      "subj": [
+        "che io guarisca",
+        "che tu guarisca",
+        "che egli guarisca",
+        "che noi guariamo",
+        "che voi guariate",
+        "che essi guariscano"
+      ],
+      "imperativo": [
+        "guarisci!",
+        "guariamo!",
+        "guarite!"
+      ],
+      "impv": [
+        "guarisci!",
+        "guariamo!",
+        "guarite!"
+      ],
+      "participio_passato": [
+        "guarito"
+      ],
+      "part": [
+        "guarito"
+      ],
+      "cond_pass": [
+        "sarei guarito",
+        "saresti guarito",
+        "sarebbe guarito",
+        "saremmo guariti",
+        "sareste guariti",
+        "sarebbero guariti"
+      ],
+      "subj_pass": [
+        "sia guarito",
+        "sia guarito",
+        "sia guarito",
+        "siamo guariti",
+        "siate guariti",
+        "siano guariti"
+      ],
+      "subj_imp": [
+        "guarissi",
+        "guarissi",
+        "guarisse",
+        "guarissimo",
+        "guariste",
+        "guarissero"
+      ],
+      "trap_pass": [
+        "ero guarito",
+        "eri guarito",
+        "era guarito",
+        "eravamo guariti",
+        "eravate guariti",
+        "erano guariti"
+      ],
+      "fut_ant": [
+        "sarò guarito",
+        "sarai guarito",
+        "sarà guarito",
+        "saremo guariti",
+        "sarete guariti",
+        "saranno guariti"
+      ],
+      "pc": [
+        "sono guarito",
+        "sei guarito",
+        "è guarito",
+        "siamo guariti",
+        "siete guariti",
+        "sono guariti"
+      ]
+    }
   }
 }
