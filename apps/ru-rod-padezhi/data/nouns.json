@@ -2854,14 +2854,14 @@
       "gen_sing": "автомобиля",
       "dat_sing": "автомобилю",
       "acc_sing": "автомобиль",
-      "inst_sing": "автомобилем",
-      "prep_sing": "автомобиле",
+      "ins_sing": "автомобилем",
+      "pre_sing": "автомобиле",
       "nom_plur": "автомобили",
       "gen_plur": "автомобилей",
       "dat_plur": "автомобилям",
       "acc_plur": "автомобили",
-      "inst_plur": "автомобилями",
-      "prep_plur": "автомобилях"
+      "ins_plur": "автомобилями",
+      "pre_plur": "автомобилях"
     }
   },
   "билет": {
@@ -2876,14 +2876,14 @@
       "gen_sing": "билета",
       "dat_sing": "билету",
       "acc_sing": "билет",
-      "inst_sing": "билетом",
-      "prep_sing": "билете",
+      "ins_sing": "билетом",
+      "pre_sing": "билете",
       "nom_plur": "билеты",
       "gen_plur": "билетов",
       "dat_plur": "билетам",
       "acc_plur": "билеты",
-      "inst_plur": "билетами",
-      "prep_plur": "билетах"
+      "ins_plur": "билетами",
+      "pre_plur": "билетах"
     }
   },
   "вечер": {
@@ -2898,14 +2898,14 @@
       "gen_sing": "вечера",
       "dat_sing": "вечеру",
       "acc_sing": "вечер",
-      "inst_sing": "вечером",
-      "prep_sing": "вечере",
+      "ins_sing": "вечером",
+      "pre_sing": "вечере",
       "nom_plur": "вечера",
       "gen_plur": "вечеров",
       "dat_plur": "вечерам",
       "acc_plur": "вечера",
-      "inst_plur": "вечерами",
-      "prep_plur": "вечерах"
+      "ins_plur": "вечерами",
+      "pre_plur": "вечерах"
     }
   },
   "врач": {
@@ -2920,14 +2920,14 @@
       "gen_sing": "врача",
       "dat_sing": "врачу",
       "acc_sing": "врача",
-      "inst_sing": "врачом",
-      "prep_sing": "враче",
+      "ins_sing": "врачом",
+      "pre_sing": "враче",
       "nom_plur": "врачи",
       "gen_plur": "врачей",
       "dat_plur": "врачам",
       "acc_plur": "врачей",
-      "inst_plur": "врачами",
-      "prep_plur": "врачах"
+      "ins_plur": "врачами",
+      "pre_plur": "врачах"
     }
   },
   "завтрак": {
@@ -2942,14 +2942,14 @@
       "gen_sing": "завтрака",
       "dat_sing": "завтраку",
       "acc_sing": "завтрак",
-      "inst_sing": "завтраком",
-      "prep_sing": "завтраке",
+      "ins_sing": "завтраком",
+      "pre_sing": "завтраке",
       "nom_plur": "завтраки",
       "gen_plur": "завтраков",
       "dat_plur": "завтракам",
       "acc_plur": "завтраки",
-      "inst_plur": "завтраками",
-      "prep_plur": "завтраках"
+      "ins_plur": "завтраками",
+      "pre_plur": "завтраках"
     }
   },
   "карандаш": {
@@ -2964,14 +2964,14 @@
       "gen_sing": "карандаша",
       "dat_sing": "карандашу",
       "acc_sing": "карандаш",
-      "inst_sing": "карандашом",
-      "prep_sing": "карандаше",
+      "ins_sing": "карандашом",
+      "pre_sing": "карандаше",
       "nom_plur": "карандаши",
       "gen_plur": "карандашей",
       "dat_plur": "карандашам",
       "acc_plur": "карандаши",
-      "inst_plur": "карандашами",
-      "prep_plur": "карандашах"
+      "ins_plur": "карандашами",
+      "pre_plur": "карандашах"
     }
   },
   "квартира": {
@@ -2986,14 +2986,14 @@
       "gen_sing": "квартиры",
       "dat_sing": "квартире",
       "acc_sing": "квартиру",
-      "inst_sing": "квартирой",
-      "prep_sing": "квартире",
+      "ins_sing": "квартирой",
+      "pre_sing": "квартире",
       "nom_plur": "квартиры",
       "gen_plur": "квартир",
       "dat_plur": "квартирам",
       "acc_plur": "квартиры",
-      "inst_plur": "квартирами",
-      "prep_plur": "квартирах"
+      "ins_plur": "квартирами",
+      "pre_plur": "квартирах"
     }
   },
   "обед": {
@@ -3008,14 +3008,14 @@
       "gen_sing": "обеда",
       "dat_sing": "обеду",
       "acc_sing": "обед",
-      "inst_sing": "обедом",
-      "prep_sing": "обеде",
+      "ins_sing": "обедом",
+      "pre_sing": "обеде",
       "nom_plur": "обеды",
       "gen_plur": "обедов",
       "dat_plur": "обедам",
       "acc_plur": "обеды",
-      "inst_plur": "обедами",
-      "prep_plur": "обедах"
+      "ins_plur": "обедами",
+      "pre_plur": "обедах"
     }
   },
   "самолет": {
@@ -3030,14 +3030,14 @@
       "gen_sing": "самолета",
       "dat_sing": "самолету",
       "acc_sing": "самолет",
-      "inst_sing": "самолетом",
-      "prep_sing": "самолете",
+      "ins_sing": "самолетом",
+      "pre_sing": "самолете",
       "nom_plur": "самолеты",
       "gen_plur": "самолетов",
       "dat_plur": "самолетам",
       "acc_plur": "самолеты",
-      "inst_plur": "самолетами",
-      "prep_plur": "самолетах"
+      "ins_plur": "самолетами",
+      "pre_plur": "самолетах"
     }
   },
   "сахар": {
@@ -3052,14 +3052,14 @@
       "gen_sing": "сахара",
       "dat_sing": "сахару",
       "acc_sing": "сахар",
-      "inst_sing": "сахаром",
-      "prep_sing": "сахаре",
+      "ins_sing": "сахаром",
+      "pre_sing": "сахаре",
       "nom_plur": "сахара",
       "gen_plur": "сахаров",
       "dat_plur": "сахарам",
       "acc_plur": "сахара",
-      "inst_plur": "сахарами",
-      "prep_plur": "сахарах"
+      "ins_plur": "сахарами",
+      "pre_plur": "сахарах"
     }
   },
   "соль": {
@@ -3074,14 +3074,14 @@
       "gen_sing": "соли",
       "dat_sing": "соли",
       "acc_sing": "соль",
-      "inst_sing": "солью",
-      "prep_sing": "соли",
+      "ins_sing": "солью",
+      "pre_sing": "соли",
       "nom_plur": "соли",
       "gen_plur": "солей",
       "dat_plur": "солям",
       "acc_plur": "соли",
-      "inst_plur": "солями",
-      "prep_plur": "солях"
+      "ins_plur": "солями",
+      "pre_plur": "солях"
     }
   },
   "овощ": {
@@ -3096,14 +3096,14 @@
       "gen_sing": "овоща",
       "dat_sing": "овощу",
       "acc_sing": "овощ",
-      "inst_sing": "овощем",
-      "prep_sing": "овоще",
+      "ins_sing": "овощем",
+      "pre_sing": "овоще",
       "nom_plur": "овощи",
       "gen_plur": "овощей",
       "dat_plur": "овощам",
       "acc_plur": "овощи",
-      "inst_plur": "овощами",
-      "prep_plur": "овощах"
+      "ins_plur": "овощами",
+      "pre_plur": "овощах"
     }
   },
   "фрукт": {
@@ -3118,14 +3118,14 @@
       "gen_sing": "фрукта",
       "dat_sing": "фрукту",
       "acc_sing": "фрукт",
-      "inst_sing": "фруктом",
-      "prep_sing": "фрукте",
+      "ins_sing": "фруктом",
+      "pre_sing": "фрукте",
       "nom_plur": "фрукты",
       "gen_plur": "фруктов",
       "dat_plur": "фруктам",
       "acc_plur": "фрукты",
-      "inst_plur": "фруктами",
-      "prep_plur": "фруктах"
+      "ins_plur": "фруктами",
+      "pre_plur": "фруктах"
     }
   },
   "шкаф": {
@@ -3140,14 +3140,14 @@
       "gen_sing": "шкафа",
       "dat_sing": "шкафу",
       "acc_sing": "шкаф",
-      "inst_sing": "шкафом",
-      "prep_sing": "шкафу",
+      "ins_sing": "шкафом",
+      "pre_sing": "шкафу",
       "nom_plur": "шкафы",
       "gen_plur": "шкафов",
       "dat_plur": "шкафам",
       "acc_plur": "шкафы",
-      "inst_plur": "шкафами",
-      "prep_plur": "шкафах"
+      "ins_plur": "шкафами",
+      "pre_plur": "шкафах"
     }
   },
   "пальто": {
@@ -3162,14 +3162,14 @@
       "gen_sing": "пальто",
       "dat_sing": "пальто",
       "acc_sing": "пальто",
-      "inst_sing": "пальто",
-      "prep_sing": "пальто",
+      "ins_sing": "пальто",
+      "pre_sing": "пальто",
       "nom_plur": "пальто",
       "gen_plur": "пальто",
       "dat_plur": "пальто",
       "acc_plur": "пальто",
-      "inst_plur": "пальто",
-      "prep_plur": "пальто"
+      "ins_plur": "пальто",
+      "pre_plur": "пальто"
     },
     "grammar_rule": "💡 REMEMBER: Несклоняемое существительное среднего рода (не меняет окончания по падежам)."
   },
@@ -3185,14 +3185,14 @@
       "gen_sing": "шапки",
       "dat_sing": "шапке",
       "acc_sing": "шапку",
-      "inst_sing": "шапкой",
-      "prep_sing": "шапке",
+      "ins_sing": "шапкой",
+      "pre_sing": "шапке",
       "nom_plur": "шапки",
       "gen_plur": "шапок",
       "dat_plur": "шапкам",
       "acc_plur": "шапки",
-      "inst_plur": "шапками",
-      "prep_plur": "шапках"
+      "ins_plur": "шапками",
+      "pre_plur": "шапках"
     }
   },
   "обувь": {
@@ -3207,14 +3207,14 @@
       "gen_sing": "обуви",
       "dat_sing": "обуви",
       "acc_sing": "обувь",
-      "inst_sing": "обувью",
-      "prep_sing": "обуви",
+      "ins_sing": "обувью",
+      "pre_sing": "обуви",
       "nom_plur": "обуви",
       "gen_plur": "обуви",
       "dat_plur": "обувям",
       "acc_plur": "обувь",
-      "inst_plur": "обувями",
-      "prep_plur": "обувях"
+      "ins_plur": "обувями",
+      "pre_plur": "обувях"
     }
   },
   "глаз": {
@@ -3229,14 +3229,14 @@
       "gen_sing": "глаза",
       "dat_sing": "глазу",
       "acc_sing": "глаз",
-      "inst_sing": "глазом",
-      "prep_sing": "глазе",
+      "ins_sing": "глазом",
+      "pre_sing": "глазе",
       "nom_plur": "глаза",
       "gen_plur": "глаз",
       "dat_plur": "глазам",
       "acc_plur": "глаза",
-      "inst_plur": "глазами",
-      "prep_plur": "глазах"
+      "ins_plur": "глазами",
+      "pre_plur": "глазах"
     }
   },
   "ухо": {
@@ -3251,14 +3251,14 @@
       "gen_sing": "уха",
       "dat_sing": "уху",
       "acc_sing": "ухо",
-      "inst_sing": "ухом",
-      "prep_sing": "ухе",
+      "ins_sing": "ухом",
+      "pre_sing": "ухе",
       "nom_plur": "уши",
       "gen_plur": "ушей",
       "dat_plur": "ушам",
       "acc_plur": "уши",
-      "inst_plur": "ушами",
-      "prep_plur": "ушах"
+      "ins_plur": "ушами",
+      "pre_plur": "ушах"
     }
   },
   "рука": {
@@ -3273,14 +3273,14 @@
       "gen_sing": "руки",
       "dat_sing": "руке",
       "acc_sing": "руку",
-      "inst_sing": "рукой",
-      "prep_sing": "руке",
+      "ins_sing": "рукой",
+      "pre_sing": "руке",
       "nom_plur": "руки",
       "gen_plur": "рук",
       "dat_plur": "рукам",
       "acc_plur": "руки",
-      "inst_plur": "руками",
-      "prep_plur": "руках"
+      "ins_plur": "руками",
+      "pre_plur": "руках"
     }
   },
   "нога": {
@@ -3295,14 +3295,14 @@
       "gen_sing": "ноги",
       "dat_sing": "ноге",
       "acc_sing": "ногу",
-      "inst_sing": "ногой",
-      "prep_sing": "ноге",
+      "ins_sing": "ногой",
+      "pre_sing": "ноге",
       "nom_plur": "ноги",
       "gen_plur": "ног",
       "dat_plur": "ногам",
       "acc_plur": "ноги",
-      "inst_plur": "ногами",
-      "prep_plur": "ногах"
+      "ins_plur": "ногами",
+      "pre_plur": "ногах"
     }
   },
   "душа": {
@@ -3317,14 +3317,14 @@
       "gen_sing": "души",
       "dat_sing": "душе",
       "acc_sing": "душу",
-      "inst_sing": "душой",
-      "prep_sing": "душе",
+      "ins_sing": "душой",
+      "pre_sing": "душе",
       "nom_plur": "души",
       "gen_plur": "душ",
       "dat_plur": "душам",
       "acc_plur": "души",
-      "inst_plur": "душами",
-      "prep_plur": "душах"
+      "ins_plur": "душами",
+      "pre_plur": "душах"
     }
   },
   "жизнь": {
@@ -3339,14 +3339,14 @@
       "gen_sing": "жизни",
       "dat_sing": "жизни",
       "acc_sing": "жизнь",
-      "inst_sing": "жизнью",
-      "prep_sing": "жизни",
+      "ins_sing": "жизнью",
+      "pre_sing": "жизни",
       "nom_plur": "жизни",
       "gen_plur": "жизней",
       "dat_plur": "жизням",
       "acc_plur": "жизни",
-      "inst_plur": "жизнями",
-      "prep_plur": "жизнях"
+      "ins_plur": "жизнями",
+      "pre_plur": "жизнях"
     }
   },
   "мир": {
@@ -3361,14 +3361,14 @@
       "gen_sing": "мира",
       "dat_sing": "миру",
       "acc_sing": "мир",
-      "inst_sing": "миром",
-      "prep_sing": "мире",
+      "ins_sing": "миром",
+      "pre_sing": "мире",
       "nom_plur": "миры",
       "gen_plur": "миров",
       "dat_plur": "мирам",
       "acc_plur": "миры",
-      "inst_plur": "мирами",
-      "prep_plur": "мирах"
+      "ins_plur": "мирами",
+      "pre_plur": "мирах"
     }
   },
   "ученик": {
@@ -3383,14 +3383,14 @@
       "gen_sing": "ученика",
       "dat_sing": "ученику",
       "acc_sing": "ученика",
-      "inst_sing": "учеником",
-      "prep_sing": "ученике",
+      "ins_sing": "учеником",
+      "pre_sing": "ученике",
       "nom_plur": "ученики",
       "gen_plur": "учеников",
       "dat_plur": "ученикам",
       "acc_plur": "учеников",
-      "inst_plur": "учениками",
-      "prep_plur": "учениках"
+      "ins_plur": "учениками",
+      "pre_plur": "учениках"
     }
   },
   "час": {
@@ -3405,14 +3405,14 @@
       "gen_sing": "часа",
       "dat_sing": "часу",
       "acc_sing": "час",
-      "inst_sing": "часом",
-      "prep_sing": "часе",
+      "ins_sing": "часом",
+      "pre_sing": "часе",
       "nom_plur": "часы",
       "gen_plur": "часов",
       "dat_plur": "часам",
       "acc_plur": "часы",
-      "inst_plur": "часами",
-      "prep_plur": "часах"
+      "ins_plur": "часами",
+      "pre_plur": "часах"
     }
   },
   "адрес": {
@@ -3427,14 +3427,14 @@
       "gen_sing": "адреса",
       "dat_sing": "адресу",
       "acc_sing": "адрес",
-      "inst_sing": "адресом",
-      "prep_sing": "адресе",
+      "ins_sing": "адресом",
+      "pre_sing": "адресе",
       "nom_plur": "адреса",
       "gen_plur": "адресов",
       "dat_plur": "адресам",
       "acc_plur": "адреса",
-      "inst_plur": "адресами",
-      "prep_plur": "адресах"
+      "ins_plur": "адресами",
+      "pre_plur": "адресах"
     }
   },
   "актер": {
@@ -3449,14 +3449,14 @@
       "gen_sing": "актера",
       "dat_sing": "актеру",
       "acc_sing": "актера",
-      "inst_sing": "актером",
-      "prep_sing": "актере",
+      "ins_sing": "актером",
+      "pre_sing": "актере",
       "nom_plur": "актеры",
       "gen_plur": "актеров",
       "dat_plur": "актерам",
       "acc_plur": "актеров",
-      "inst_plur": "актерами",
-      "prep_plur": "актерах"
+      "ins_plur": "актерами",
+      "pre_plur": "актерах"
     }
   },
   "дедушка": {
@@ -3471,14 +3471,14 @@
       "gen_sing": "дедушки",
       "dat_sing": "дедушке",
       "acc_sing": "дедушку",
-      "inst_sing": "дедушкой",
-      "prep_sing": "дедушке",
+      "ins_sing": "дедушкой",
+      "pre_sing": "дедушке",
       "nom_plur": "дедушки",
       "gen_plur": "дедушек",
       "dat_plur": "дедушкам",
       "acc_plur": "дедушек",
-      "inst_plur": "дедушками",
-      "prep_plur": "дедушках"
+      "ins_plur": "дедушками",
+      "pre_plur": "дедушках"
     }
   },
   "дядя": {
@@ -3493,14 +3493,14 @@
       "gen_sing": "дяди",
       "dat_sing": "дяде",
       "acc_sing": "дядю",
-      "inst_sing": "дядей",
-      "prep_sing": "дяде",
+      "ins_sing": "дядей",
+      "pre_sing": "дяде",
       "nom_plur": "дяди",
       "gen_plur": "дядей",
       "dat_plur": "дядям",
       "acc_plur": "дядей",
-      "inst_plur": "дядями",
-      "prep_plur": "дядях"
+      "ins_plur": "дядями",
+      "pre_plur": "дядях"
     }
   },
   "тетя": {
@@ -3515,14 +3515,14 @@
       "gen_sing": "тети",
       "dat_sing": "тете",
       "acc_sing": "тетю",
-      "inst_sing": "тетей",
-      "prep_sing": "тете",
+      "ins_sing": "тетей",
+      "pre_sing": "тете",
       "nom_plur": "тети",
       "gen_plur": "тетей",
       "dat_plur": "тетям",
       "acc_plur": "тетей",
-      "inst_plur": "тетями",
-      "prep_plur": "тетях"
+      "ins_plur": "тетями",
+      "pre_plur": "тетях"
     }
   },
   "мужик": {
@@ -3537,18 +3537,18 @@
       "gen_sing": "мужика",
       "dat_sing": "мужику",
       "acc_sing": "мужика",
-      "inst_sing": "мужиком",
-      "prep_sing": "мужике",
+      "ins_sing": "мужиком",
+      "pre_sing": "мужике",
       "nom_plur": "мужики",
       "gen_plur": "мужиков",
       "dat_plur": "мужикам",
       "acc_plur": "мужиков",
-      "inst_plur": "мужиками",
-      "prep_plur": "мужиках"
+      "ins_plur": "мужиками",
+      "pre_plur": "мужиках"
     }
   },
   "деньги": {
-    "gender": "Средний",
+    "gender": "Не имеет",
     "level": "A1",
     "definition": "Средство платежа.",
     "antonyms": [
@@ -3559,14 +3559,14 @@
       "gen_sing": "денег",
       "dat_sing": "деньгам",
       "acc_sing": "деньги",
-      "inst_sing": "деньгами",
-      "prep_sing": "деньгах",
+      "ins_sing": "деньгами",
+      "pre_sing": "деньгах",
       "nom_plur": "деньги",
       "gen_plur": "денег",
       "dat_plur": "деньгам",
       "acc_plur": "деньги",
-      "inst_plur": "деньгами",
-      "prep_plur": "деньгах"
+      "ins_plur": "деньгами",
+      "pre_plur": "деньгах"
     }
   },
   "сад": {
@@ -3581,14 +3581,14 @@
       "gen_sing": "сада",
       "dat_sing": "саду",
       "acc_sing": "сад",
-      "inst_sing": "садом",
-      "prep_sing": "саду",
+      "ins_sing": "садом",
+      "pre_sing": "саду",
       "nom_plur": "сады",
       "gen_plur": "садов",
       "dat_plur": "садам",
       "acc_plur": "сады",
-      "inst_plur": "садами",
-      "prep_plur": "садах"
+      "ins_plur": "садами",
+      "pre_plur": "садах"
     }
   },
   "огонь": {
@@ -3603,14 +3603,14 @@
       "gen_sing": "огня",
       "dat_sing": "огню",
       "acc_sing": "огонь",
-      "inst_sing": "огнем",
-      "prep_sing": "огне",
+      "ins_sing": "огнем",
+      "pre_sing": "огне",
       "nom_plur": "огни",
       "gen_plur": "огней",
       "dat_plur": "огням",
       "acc_plur": "огни",
-      "inst_plur": "огнями",
-      "prep_plur": "огнях"
+      "ins_plur": "огнями",
+      "pre_plur": "огнях"
     }
   },
   "воздух": {
@@ -3625,14 +3625,14 @@
       "gen_sing": "воздуха",
       "dat_sing": "воздуху",
       "acc_sing": "воздух",
-      "inst_sing": "воздухом",
-      "prep_sing": "воздухе",
+      "ins_sing": "воздухом",
+      "pre_sing": "воздухе",
       "nom_plur": "воздухи",
       "gen_plur": "воздухов",
       "dat_plur": "воздухам",
       "acc_plur": "воздухи",
-      "inst_plur": "воздухами",
-      "prep_plur": "воздухах"
+      "ins_plur": "воздухами",
+      "pre_plur": "воздухах"
     }
   },
   "дождь": {
@@ -3647,14 +3647,14 @@
       "gen_sing": "дождя",
       "dat_sing": "дождю",
       "acc_sing": "дождь",
-      "inst_sing": "дождем",
-      "prep_sing": "дожде",
+      "ins_sing": "дождем",
+      "pre_sing": "дожде",
       "nom_plur": "дожди",
       "gen_plur": "дождей",
       "dat_plur": "дождям",
       "acc_plur": "дожди",
-      "inst_plur": "дождями",
-      "prep_plur": "дождях"
+      "ins_plur": "дождями",
+      "pre_plur": "дождях"
     }
   },
   "снег": {
@@ -3669,14 +3669,14 @@
       "gen_sing": "снега",
       "dat_sing": "снегу",
       "acc_sing": "снег",
-      "inst_sing": "снегом",
-      "prep_sing": "снегу",
+      "ins_sing": "снегом",
+      "pre_sing": "снегу",
       "nom_plur": "снега",
       "gen_plur": "снегов",
       "dat_plur": "снегам",
       "acc_plur": "снега",
-      "inst_plur": "снегами",
-      "prep_plur": "снегах"
+      "ins_plur": "снегами",
+      "pre_plur": "снегах"
     }
   },
   "ветер": {
@@ -3691,14 +3691,14 @@
       "gen_sing": "ветра",
       "dat_sing": "ветру",
       "acc_sing": "ветер",
-      "inst_sing": "ветром",
-      "prep_sing": "ветре",
+      "ins_sing": "ветром",
+      "pre_sing": "ветре",
       "nom_plur": "ветры",
       "gen_plur": "ветров",
       "dat_plur": "ветрам",
       "acc_plur": "ветры",
-      "inst_plur": "ветрами",
-      "prep_plur": "ветрах"
+      "ins_plur": "ветрами",
+      "pre_plur": "ветрах"
     }
   },
   "тепло": {
@@ -3713,14 +3713,14 @@
       "gen_sing": "тепла",
       "dat_sing": "теплу",
       "acc_sing": "тепло",
-      "inst_sing": "теплом",
-      "prep_sing": "тепле",
+      "ins_sing": "теплом",
+      "pre_sing": "тепле",
       "nom_plur": "тепла",
       "gen_plur": "тепл",
       "dat_plur": "теплам",
       "acc_plur": "тепла",
-      "inst_plur": "теплами",
-      "prep_plur": "теплах"
+      "ins_plur": "теплами",
+      "pre_plur": "теплах"
     }
   },
   "холод": {
@@ -3735,14 +3735,14 @@
       "gen_sing": "холода",
       "dat_sing": "холоду",
       "acc_sing": "холод",
-      "inst_sing": "холодом",
-      "prep_sing": "холоде",
+      "ins_sing": "холодом",
+      "pre_sing": "холоде",
       "nom_plur": "холода",
       "gen_plur": "холодов",
       "dat_plur": "холодам",
       "acc_plur": "холода",
-      "inst_plur": "холодами",
-      "prep_plur": "холодах"
+      "ins_plur": "холодами",
+      "pre_plur": "холодах"
     }
   },
   "свет": {
@@ -3757,14 +3757,14 @@
       "gen_sing": "света",
       "dat_sing": "свету",
       "acc_sing": "свет",
-      "inst_sing": "светом",
-      "prep_sing": "свете",
+      "ins_sing": "светом",
+      "pre_sing": "свете",
       "nom_plur": "света",
       "gen_plur": "светов",
       "dat_plur": "светам",
       "acc_plur": "света",
-      "inst_plur": "светами",
-      "prep_plur": "светах"
+      "ins_plur": "светами",
+      "pre_plur": "светах"
     }
   },
   "тьма": {
@@ -3779,14 +3779,14 @@
       "gen_sing": "тьмы",
       "dat_sing": "тьме",
       "acc_sing": "тьму",
-      "inst_sing": "тьмой",
-      "prep_sing": "тьме",
+      "ins_sing": "тьмой",
+      "pre_sing": "тьме",
       "nom_plur": "тьмы",
       "gen_plur": "тем",
       "dat_plur": "тьмам",
       "acc_plur": "тьмы",
-      "inst_plur": "тьмами",
-      "prep_plur": "тьмах"
+      "ins_plur": "тьмами",
+      "pre_plur": "тьмах"
     }
   }
 }
