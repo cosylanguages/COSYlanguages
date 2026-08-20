@@ -3371,5 +3371,51 @@
     "antonyms": [],
     "article": "il",
     "plural": "compleanni"
+  },
+  "valle": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Pianura racchiusa tra montagne o colline.",
+    "antonyms": [
+      "montagna"
+    ],
+    "article": "la",
+    "plural": "valli"
+  },
+  "collina": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Rilievo del terreno di altezza inferiore alla montagna.",
+    "antonyms": [
+      "valle"
+    ],
+    "article": "la",
+    "plural": "colline"
+  },
+  "temporale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Violenta perturbazione atmosferica con pioggia e tuoni.",
+    "antonyms": [
+      "sereno"
+    ],
+    "article": "il",
+    "plural": "temporali"
+  },
+  "tuono": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Forte rumore provocato dal fulmine durante un temporale.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "tuoni"
+  },
+  "nebbia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Condensazione di vapore acqueo nei bassi strati dell'atmosfera.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "nebbie"
   }
 }

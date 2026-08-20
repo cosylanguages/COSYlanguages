@@ -28057,5 +28057,161 @@
         "hanno lavato i piatti"
       ]
     }
+  },
+  "ricordarsi": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Conservare o richiamare alla memoria una persona o cosa.",
+    "antonyms": [
+      "dimenticarsi"
+    ],
+    "auxiliary": "essere",
+    "usage_hint": "ricordarsi di (qualcosa/qualcuno)",
+    "tenses": {
+      "presente": [
+        "mi ricordo",
+        "ti ricordi",
+        "si ricorda",
+        "ci ricordiamo",
+        "vi ricordate",
+        "si ricordano"
+      ],
+      "pres": [
+        "mi ricordo",
+        "ti ricordi",
+        "si ricorda",
+        "ci ricordiamo",
+        "vi ricordate",
+        "si ricordano"
+      ],
+      "imperfetto": [
+        "mi ricordavo",
+        "ti ricordavi",
+        "si ricordava",
+        "ci ricordavamo",
+        "vi ricordavate",
+        "si ricordavano"
+      ],
+      "imp": [
+        "mi ricordavo",
+        "ti ricordavi",
+        "si ricordava",
+        "ci ricordavamo",
+        "vi ricordavate",
+        "si ricordavano"
+      ],
+      "futuro_semplice": [
+        "mi ricorderò",
+        "ti ricorderai",
+        "si ricorderà",
+        "ci ricorderemo",
+        "vi ricorderete",
+        "si ricorderanno"
+      ],
+      "fut": [
+        "mi ricorderò",
+        "ti ricorderai",
+        "si ricorderà",
+        "ci ricorderemo",
+        "vi ricorderete",
+        "si ricorderanno"
+      ],
+      "condizionale_presente": [
+        "mi ricorderei",
+        "ti ricorderesti",
+        "si ricorderebbe",
+        "ci ricorderemmo",
+        "vi ricordereste",
+        "si ricorderebbero"
+      ],
+      "cond": [
+        "mi ricorderei",
+        "ti ricorderesti",
+        "si ricorderebbe",
+        "ci ricorderemmo",
+        "vi ricordereste",
+        "si ricorderebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io mi ricordi",
+        "che tu ti ricordi",
+        "che egli si ricordi",
+        "che noi ci ricordiamo",
+        "che voi vi ricordiate",
+        "che essi si ricordino"
+      ],
+      "subj": [
+        "che io mi ricordi",
+        "che tu ti ricordi",
+        "che egli si ricordi",
+        "che noi ci ricordiamo",
+        "che voi vi ricordiate",
+        "che essi si ricordino"
+      ],
+      "imperativo": [
+        "ricordati!",
+        "ricordiamoci!",
+        "ricordatevi!"
+      ],
+      "impv": [
+        "ricordati!",
+        "ricordiamoci!",
+        "ricordatevi!"
+      ],
+      "participio_passato": [
+        "ricordato"
+      ],
+      "part": [
+        "ricordato"
+      ],
+      "cond_pass": [
+        "mi sarei ricordato",
+        "ti saresti ricordato",
+        "si sarebbe ricordato",
+        "ci saremmo ricordati",
+        "vi sareste ricordati",
+        "si sarebbero ricordati"
+      ],
+      "subj_pass": [
+        "mi sia ricordato",
+        "ti sia ricordato",
+        "si sia ricordato",
+        "ci siamo ricordati",
+        "vi siate ricordati",
+        "si siano ricordati"
+      ],
+      "subj_imp": [
+        "mi ricordassi",
+        "ti ricordassi",
+        "si ricordasse",
+        "ci ricordassimo",
+        "vi ricordaste",
+        "si ricordassero"
+      ],
+      "trap_pass": [
+        "mi ero ricordato",
+        "ti eri ricordato",
+        "si era ricordato",
+        "ci eravamo ricordati",
+        "vi eravate ricordati",
+        "si erano ricordati"
+      ],
+      "fut_ant": [
+        "mi sarò ricordato",
+        "ti sarai ricordato",
+        "si sarà ricordato",
+        "ci saremo ricordati",
+        "vi sarete ricordati",
+        "si saranno ricordati"
+      ],
+      "pc": [
+        "mi sono ricordato",
+        "ti sei ricordato",
+        "si è ricordato",
+        "ci siamo ricordati",
+        "vi siete ricordati",
+        "si sono ricordati"
+      ]
+    }
   }
 }
