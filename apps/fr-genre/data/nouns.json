@@ -2490,5 +2490,166 @@
     ],
     "article": "le",
     "plural": "gants"
+  },
+  "pluie": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Eau tombant des nuages sous forme de gouttes.",
+    "antonyms": [
+      "sécheresse"
+    ],
+    "article": "la",
+    "plural": "pluies"
+  },
+  "neige": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Précipitation d'eau congelée sous forme de flocons.",
+    "antonyms": [
+      "pluie"
+    ],
+    "article": "la",
+    "plural": "neiges"
+  },
+  "glace": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Eau solide sous l'effet du froid.",
+    "antonyms": [
+      "feu"
+    ],
+    "article": "la",
+    "plural": "glaces"
+  },
+  "nuage": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Masse de vapeur d'eau suspendue dans l'atmosphère.",
+    "antonyms": [
+      "soleil"
+    ],
+    "article": "le",
+    "plural": "nuages"
+  },
+  "étoile": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Astre céleste produisant sa propre lumière.",
+    "antonyms": [
+      "soleil"
+    ],
+    "article": "l'",
+    "plural": "étoiles"
+  },
+  "lune": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Satellite naturel de la Terre.",
+    "antonyms": [
+      "soleil"
+    ],
+    "article": "la",
+    "plural": "lunes"
+  },
+  "rivière": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Cours d'eau naturel s'écoulant dans un autre.",
+    "antonyms": [
+      "fleuve"
+    ],
+    "article": "la",
+    "plural": "rivières"
+  },
+  "forêt": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vaste étendue couverte d'arbres.",
+    "antonyms": [
+      "désert"
+    ],
+    "article": "la",
+    "plural": "forêts"
+  },
+  "magasin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Local commercial où l'on vend des marchandises.",
+    "antonyms": [
+      "marché"
+    ],
+    "article": "le",
+    "plural": "magasins"
+  },
+  "marché": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Lieu public de vente de produits alimentaires.",
+    "antonyms": [
+      "magasin"
+    ],
+    "article": "le",
+    "plural": "marchés"
+  },
+  "banque": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Établissement financier.",
+    "antonyms": [
+      "magasin"
+    ],
+    "article": "la",
+    "plural": "banques"
+  },
+  "église": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Édifice consacré au culte chrétien.",
+    "antonyms": [
+      "mosquée"
+    ],
+    "article": "l'",
+    "plural": "églises"
+  },
+  "hôpital": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Établissement de soins médicaux.",
+    "antonyms": [
+      "école"
+    ],
+    "article": "l'",
+    "plural": "hôpitaux",
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-aux' ('les hôpitaux')."
+  },
+  "pharmacie": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Officine où l'on prépare et vend des médicaments.",
+    "antonyms": [
+      "hôpital"
+    ],
+    "article": "la",
+    "plural": "pharmacies"
+  },
+  "gare": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Ensemble des installations ferroviaires pour voyageurs.",
+    "antonyms": [
+      "aéroport"
+    ],
+    "article": "la",
+    "plural": "gares"
+  },
+  "pont": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ouvrage reliant deux rives au-dessus d'un obstacle.",
+    "antonyms": [
+      "tunnel"
+    ],
+    "article": "le",
+    "plural": "ponts"
   }
 }

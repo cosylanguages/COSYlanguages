@@ -2589,5 +2589,105 @@
     ],
     "article": "la",
     "plural": "scarpe"
+  },
+  "pioggia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Precipitazione d'acqua dalle nuvole.",
+    "antonyms": [
+      "siccità"
+    ],
+    "article": "la",
+    "plural": "piogge"
+  },
+  "neve": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Precipitazione atmosferica in forma di fiocchi ghiacciati.",
+    "antonyms": [
+      "pioggia"
+    ],
+    "article": "la",
+    "plural": "nevi"
+  },
+  "ghiaccio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Acqua allo stato solido per il freddo.",
+    "antonyms": [
+      "fuoco"
+    ],
+    "article": "il",
+    "plural": "ghiacci"
+  },
+  "nuvola": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Ammasso di vapore acqueo nel cielo.",
+    "antonyms": [
+      "sole"
+    ],
+    "article": "la",
+    "plural": "nuvole"
+  },
+  "stella": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Corpo celeste che brilla di luce propria.",
+    "antonyms": [
+      "sole"
+    ],
+    "article": "la",
+    "plural": "stelle"
+  },
+  "luna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Satellite naturale della Terra.",
+    "antonyms": [
+      "sole"
+    ],
+    "article": "la",
+    "plural": "lune"
+  },
+  "foresta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Vasta estensione di terreno coperta di alberi.",
+    "antonyms": [
+      "deserto"
+    ],
+    "article": "la",
+    "plural": "foreste"
+  },
+  "chiesa": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Edificio di culto cristiano.",
+    "antonyms": [
+      "moschea"
+    ],
+    "article": "la",
+    "plural": "chiese"
+  },
+  "farmacia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Negozio dove si vendono i farmaci.",
+    "antonyms": [
+      "ospedale"
+    ],
+    "article": "la",
+    "plural": "farmacie"
+  },
+  "stazione": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Insieme di fabbricati per la fermata dei treni.",
+    "antonyms": [
+      "aeroporto"
+    ],
+    "article": "la",
+    "plural": "stazioni"
   }
 }
