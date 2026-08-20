@@ -2198,5 +2198,157 @@
     "antonyms": [],
     "article": "le",
     "plural": "gris"
+  },
+  "père": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Parent du sexe masculin.",
+    "antonyms": [
+      "mère"
+    ],
+    "article": "le",
+    "plural": "pères"
+  },
+  "mère": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Parent du sexe féminin.",
+    "antonyms": [
+      "père"
+    ],
+    "article": "la",
+    "plural": "mères"
+  },
+  "frère": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Garçon issu des mêmes parents.",
+    "antonyms": [
+      "sœur"
+    ],
+    "article": "le",
+    "plural": "frères"
+  },
+  "sœur": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Fille issue des mêmes parents.",
+    "antonyms": [
+      "frère"
+    ],
+    "article": "la",
+    "plural": "sœurs"
+  },
+  "fils": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Enfant du sexe masculin par rapport à ses parents.",
+    "antonyms": [
+      "fille"
+    ],
+    "article": "le",
+    "plural": "fils"
+  },
+  "fille": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Enfant du sexe féminin par rapport à ses parents.",
+    "antonyms": [
+      "fils"
+    ],
+    "article": "la",
+    "plural": "filles"
+  },
+  "parent": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Père ou mère d'un enfant.",
+    "antonyms": [
+      "enfant"
+    ],
+    "article": "le",
+    "plural": "parents"
+  },
+  "enfant": {
+    "gender": "Masculin / Féminin",
+    "level": "A1",
+    "definition": "Jeune être humain dans l'enfance.",
+    "antonyms": [
+      "parent"
+    ],
+    "article": "l'",
+    "plural": "enfants"
+  },
+  "grand-père": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Père du père ou de la mère.",
+    "antonyms": [
+      "grand-mère"
+    ],
+    "article": "le",
+    "plural": "grands-pères",
+    "grammar_rule": "💡 REMEMBER: Nom composé masculin — pluriel régulier où chaque élément s'accorde ('les grands-pères')."
+  },
+  "grand-mère": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Mère du père ou de la mère.",
+    "antonyms": [
+      "grand-père"
+    ],
+    "article": "la",
+    "plural": "grands-mères",
+    "grammar_rule": "💡 REMEMBER: Nom composé féminin — 'grand' prend un 's' au pluriel ('les grands-mères')."
+  },
+  "lundi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Premier jour de la semaine.",
+    "antonyms": [
+      "dimanche"
+    ],
+    "article": "le",
+    "plural": "lundis"
+  },
+  "mardi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Deuxième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "mardis"
+  },
+  "mercredi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Troisième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "mercredis"
+  },
+  "jeudi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Quatrième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "jeudis"
+  },
+  "vendredi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Cinquième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "vendredis"
+  },
+  "samedi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Sixième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "samedis"
   }
 }

@@ -2365,5 +2365,121 @@
     "antonyms": [],
     "article": "il",
     "plural": "grigi"
+  },
+  "padre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Genitore maschile.",
+    "antonyms": [
+      "madre"
+    ],
+    "article": "il",
+    "plural": "padri"
+  },
+  "sorella": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Figlia degli stessi genitori.",
+    "antonyms": [
+      "fratello"
+    ],
+    "article": "la",
+    "plural": "sorelle"
+  },
+  "figlia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Discendente diretta femmina.",
+    "antonyms": [
+      "figlio"
+    ],
+    "article": "la",
+    "plural": "figlie"
+  },
+  "nonno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Padre del padre o della madre.",
+    "antonyms": [
+      "nonna"
+    ],
+    "article": "il",
+    "plural": "nonni"
+  },
+  "nonna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Madre del padre o della madre.",
+    "antonyms": [
+      "nonno"
+    ],
+    "article": "la",
+    "plural": "nonne"
+  },
+  "lunedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Primo giorno della settimana.",
+    "antonyms": [
+      "domenica"
+    ],
+    "article": "il",
+    "plural": "lunedì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il lunedì', 'i lunedì')."
+  },
+  "martedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Secondo giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "martedì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il martedì', 'i martedì')."
+  },
+  "mercoledì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terzo giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "mercoledì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il mercoledì', 'i mercoledì')."
+  },
+  "giovedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quarto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giovedì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il giovedì', 'i giovedì')."
+  },
+  "venerdì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quinto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "venerdì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il venerdì', 'i venerdì')."
+  },
+  "sabato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sesto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "sabati"
+  },
+  "domenica": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Settimo e ultimo giorno della settimana.",
+    "antonyms": [
+      "lunedì"
+    ],
+    "article": "la",
+    "plural": "domeniche",
+    "grammar_rule": "💡 REMEMBER: Nome femminile — forma il plurale regolare in '-che' ('le domeniche')."
   }
 }
