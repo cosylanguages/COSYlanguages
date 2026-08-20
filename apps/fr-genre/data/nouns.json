@@ -2051,5 +2051,60 @@
     ],
     "article": "l'",
     "plural": "exercices"
+  },
+  "amour": {
+    "gender": "Masculin",
+    "level": "B1",
+    "definition": "Sentiment d'affection et d'attachement envers une personne.",
+    "antonyms": [
+      "haine"
+    ],
+    "article": "l'",
+    "plural": "amours",
+    "grammar_rule": "💡 REMEMBER: Nom masculin au singulier ('un amour'), mais féminin au pluriel dans le style poétique ou littéraire ('de belles amours')."
+  },
+  "orgue": {
+    "gender": "Masculin",
+    "level": "B2",
+    "definition": "Grand instrument de musique à tuyaux et à clavier.",
+    "antonyms": [
+      "piano"
+    ],
+    "article": "l'",
+    "plural": "orgues",
+    "grammar_rule": "💡 REMEMBER: Nom masculin au singulier ('un grand orgue'), mais souvent féminin au pluriel ('les grandes orgues')."
+  },
+  "gens": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Personnes en nombre indéterminé.",
+    "antonyms": [
+      "individu"
+    ],
+    "article": "les",
+    "plural": "gens",
+    "grammar_rule": "💡 REMEMBER: Nom masculin pluriel ('les gens'), mais tout adjectif placé immédiatement devant lui prend la forme féminine ('toutes les vieilles gens')."
+  },
+  "après-midi": {
+    "gender": "Masculin / Féminin",
+    "level": "A1",
+    "definition": "Partie de la journée entre le midi et le soir.",
+    "antonyms": [
+      "matinée"
+    ],
+    "article": "l'",
+    "plural": "après-midi",
+    "grammar_rule": "💡 REMEMBER: Genre invariable — accepté au masculin et au féminin ('un/une après-midi'), et invariable au pluriel ('des après-midi')."
+  },
+  "œuvre": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Production de l'esprit, activité ou résultat d'un travail.",
+    "antonyms": [
+      "destruction"
+    ],
+    "article": "l'",
+    "plural": "œuvres",
+    "grammar_rule": "💡 REMEMBER: Nom féminin ('une œuvre d'art'), mais masculin dans des expressions techniques comme 'le gros œuvre' en bâtiment."
   }
 }
