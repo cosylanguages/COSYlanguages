@@ -13,6 +13,7 @@
     --orange-vi: #ea580c;
     --purple-both: #7c3aed;
     --gold-cefr: #d97706;
+    --teal-sep: #0d9488;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -108,9 +109,37 @@ body {
     color: #ffffff;
 }
 
-/* Search Section */
+/* Search Section & Filters */
 .search-section {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.filter-pills-bar {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-pill {
+    min-height: 40px;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    background: var(--cream-card);
+    color: var(--ink-muted);
+    font-size: 0.88rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-pill:hover, .filter-pill.active {
+    background: var(--sage-primary);
+    color: #ffffff;
+    border-color: var(--sage-primary);
 }
 
 .search-box {
@@ -227,6 +256,16 @@ body {
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+.phrasal-badge {
+    background: rgba(124, 58, 237, 0.15);
+    color: var(--purple-both);
+}
+
+.sep-badge {
+    background: rgba(13, 148, 136, 0.15);
+    color: var(--teal-sep);
 }
 
 .trans-vt {
@@ -496,6 +535,11 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: background 0.2s;
+}
+
+.phrasal-tag {
+    border-color: rgba(124, 58, 237, 0.3);
+    color: var(--purple-both);
 }
 
 .tag-btn:hover, .antonym-pill:hover {

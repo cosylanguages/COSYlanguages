@@ -1,12 +1,14 @@
 /**
- * COSYlanguages Standalone App — English Verb Prepositions & Transitivity Engine (en-verb-prep)
- * Provides offline search, transitivity rules, dependent prepositions, sequential navigation & practice game mode.
+ * COSYlanguages Standalone App — English Verb Prepositions & Phrasal Verbs Engine (en-verb-prep)
+ * Provides offline search, transitivity rules, dependent prepositions, phrasal verbs, separability, sequential navigation & practice game mode.
  */
 
 class EnglishVerbPrepEngine {
     constructor() {
         this.verbDb = {};
         this.verbKeys = [];
+        this.filteredKeys = [];
+        this.activeFilter = 'all';
         this.currentIndex = -1;
         this.isGameActive = false;
         this.gameScore = 0;
@@ -20,9 +22,41 @@ class EnglishVerbPrepEngine {
             const response = await fetch('data/verbs.json');
             this.verbDb = await response.json();
             this.verbKeys = Object.keys(this.verbDb);
+            this.updateFilteredKeys();
             this.bindEvents();
         } catch (err) {
             console.error("Failed to load verbs database:", err);
+        }
+    }
+
+    setFilter(filterType) {
+        this.activeFilter = filterType;
+
+        // Update active filter pill styling
+        ['all', 'prep', 'phrasal'].forEach(f => {
+            const btn = document.getElementById(`filter-${f}`);
+            if (btn) {
+                if (f === filterType) btn.classList.add('active');
+                else btn.classList.remove('active');
+            }
+        });
+
+        this.updateFilteredKeys();
+
+        // Re-run search if input has value
+        const input = document.getElementById('verb-search-input');
+        if (input && input.value.trim()) {
+            this.handleSearchInput(input.value);
+        }
+    }
+
+    updateFilteredKeys() {
+        if (this.activeFilter === 'phrasal') {
+            this.filteredKeys = this.verbKeys.filter(k => this.verbDb[k].is_phrasal);
+        } else if (this.activeFilter === 'prep') {
+            this.filteredKeys = this.verbKeys.filter(k => !this.verbDb[k].is_phrasal);
+        } else {
+            this.filteredKeys = [...this.verbKeys];
         }
     }
 
@@ -75,15 +109,17 @@ class EnglishVerbPrepEngine {
             return;
         }
 
-        const matches = this.verbKeys.filter(key => key.toLowerCase().includes(cleanQuery));
+        const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
+        const matches = pool.filter(key => key.toLowerCase().includes(cleanQuery));
 
         if (matches.length > 0 && suggestionsBox) {
             suggestionsBox.innerHTML = matches.slice(0, 6).map(key => {
                 const data = this.verbDb[key];
+                const typeLabel = data.is_phrasal ? 'Phrasal Verb' : `${data.transitivity} (${data.transitivity_code})`;
                 return `
                 <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key}')">
                     <span><strong>${key}</strong></span>
-                    <span style="color: var(--ink-muted); font-size: 0.85rem;">${data.transitivity} (${data.transitivity_code})</span>
+                    <span style="color: ${data.is_phrasal ? 'var(--purple-both)' : 'var(--ink-muted)'}; font-size: 0.85rem; font-weight: 600;">${typeLabel}</span>
                 </div>
             `;
             }).join('');
@@ -118,12 +154,14 @@ class EnglishVerbPrepEngine {
         }
 
         if (matchedKey) {
-            this.currentIndex = this.verbKeys.indexOf(matchedKey);
+            const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
+            this.currentIndex = pool.indexOf(matchedKey);
             this.renderVerbResult(matchedKey, this.verbDb[matchedKey]);
         } else {
             // Dynamic fallback generator
             this.currentIndex = -1;
             const fallbackData = {
+                is_phrasal: cleanQuery.includes(' '),
                 transitivity: "Transitive",
                 transitivity_code: "VT",
                 prepositions: ["none"],
@@ -135,7 +173,7 @@ class EnglishVerbPrepEngine {
                     `She always tries to ${cleanQuery} accurately.`,
                     `They decided to ${cleanQuery} the situation carefully.`
                 ],
-                common_mistake: `⚠️ Check whether '${cleanQuery}' requires a dependent preposition before the object.`,
+                common_mistake: `⚠️ Check whether '${cleanQuery}' requires a dependent preposition or particle.`,
                 synonyms: [],
                 antonyms: []
             };
@@ -150,6 +188,24 @@ class EnglishVerbPrepEngine {
 
         document.getElementById('verb-title').textContent = verbKey;
 
+        // Phrasal Verb Badge
+        const phrasalBadge = document.getElementById('phrasal-badge');
+        if (data.is_phrasal) {
+            phrasalBadge.style.display = 'inline-block';
+            phrasalBadge.textContent = 'Phrasal Verb 🧩';
+        } else {
+            phrasalBadge.style.display = 'none';
+        }
+
+        // Separability Badge
+        const sepBadge = document.getElementById('separability-badge');
+        if (data.is_phrasal && data.separability) {
+            sepBadge.style.display = 'inline-block';
+            sepBadge.textContent = data.separability;
+        } else {
+            sepBadge.style.display = 'none';
+        }
+
         // Transitivity Badge
         const transBadge = document.getElementById('transitivity-badge');
         transBadge.textContent = `${data.transitivity} (${data.transitivity_code})`;
@@ -161,10 +217,10 @@ class EnglishVerbPrepEngine {
             transBadge.className = 'badge trans-both';
         }
 
-        // Preposition Badge
+        // Preposition / Particle Badge
         const prepBadge = document.getElementById('prep-badge');
         const prepList = (data.prepositions || []).join(' / ');
-        prepBadge.textContent = prepList === 'none' ? 'No preposition (Direct Object)' : `Prep: ${prepList}`;
+        prepBadge.textContent = prepList === 'none' ? 'No preposition (Direct Object)' : (data.is_phrasal ? `Particle: ${prepList}` : `Prep: ${prepList}`);
 
         // CEFR Level
         document.getElementById('verb-cefr-badge').textContent = `Level: ${data.level || 'A2'}`;
@@ -206,27 +262,30 @@ class EnglishVerbPrepEngine {
 
     /* Sequential Item Navigation */
     navigateNext() {
-        if (this.verbKeys.length === 0) return;
-        this.currentIndex = (this.currentIndex + 1) % this.verbKeys.length;
-        const key = this.verbKeys[this.currentIndex];
+        const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
+        if (pool.length === 0) return;
+        this.currentIndex = (this.currentIndex + 1) % pool.length;
+        const key = pool[this.currentIndex];
         this.searchVerb(key);
     }
 
     navigatePrevious() {
-        if (this.verbKeys.length === 0) return;
-        this.currentIndex = (this.currentIndex - 1 + this.verbKeys.length) % this.verbKeys.length;
-        const key = this.verbKeys[this.currentIndex];
+        const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
+        if (pool.length === 0) return;
+        this.currentIndex = (this.currentIndex - 1 + pool.length) % pool.length;
+        const key = pool[this.currentIndex];
         this.searchVerb(key);
     }
 
     navigateRandom() {
-        if (this.verbKeys.length === 0) return;
-        let nextIdx = Math.floor(Math.random() * this.verbKeys.length);
-        if (nextIdx === this.currentIndex && this.verbKeys.length > 1) {
-            nextIdx = (nextIdx + 1) % this.verbKeys.length;
+        const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
+        if (pool.length === 0) return;
+        let nextIdx = Math.floor(Math.random() * pool.length);
+        if (nextIdx === this.currentIndex && pool.length > 1) {
+            nextIdx = (nextIdx + 1) % pool.length;
         }
         this.currentIndex = nextIdx;
-        const key = this.verbKeys[this.currentIndex];
+        const key = pool[this.currentIndex];
         this.searchVerb(key);
     }
 
@@ -264,16 +323,17 @@ class EnglishVerbPrepEngine {
     }
 
     nextGameQuestion() {
-        if (this.verbKeys.length === 0) return;
+        const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
+        if (pool.length === 0) return;
 
-        const randomKey = this.verbKeys[Math.floor(Math.random() * this.verbKeys.length)];
+        const randomKey = pool[Math.floor(Math.random() * pool.length)];
         const data = this.verbDb[randomKey];
 
         const primaryPrep = data.prepositions?.[0] || 'none';
         const transCode = data.transitivity_code;
 
-        // Pool of prepositions
-        const prepPool = ['on', 'to', 'for', 'of', 'from', 'in', 'about', 'with', 'none'];
+        // Pool of particles / prepositions
+        const prepPool = ['down', 'up', 'off', 'on', 'out of', 'into', 'for', 'to', 'from', 'with', 'none'];
 
         // Build choices
         let choices = [primaryPrep];
@@ -294,6 +354,16 @@ class EnglishVerbPrepEngine {
         };
 
         document.getElementById('game-verb-prompt').textContent = randomKey;
+
+        const typeBadge = document.getElementById('game-type-badge');
+        if (data.is_phrasal) {
+            typeBadge.className = 'badge phrasal-badge';
+            typeBadge.textContent = `Phrasal Verb (${data.separability || 'Inseparable'})`;
+        } else {
+            typeBadge.className = 'badge prep-badge';
+            typeBadge.textContent = 'Verb + Preposition';
+        }
+
         document.getElementById('game-transitivity-badge').textContent = `${data.transitivity} (${transCode})`;
 
         const exampleSentence = data.examples?.[0] || `Verb: ${randomKey}`;
@@ -330,7 +400,7 @@ class EnglishVerbPrepEngine {
             this.gameScore += 10;
             this.gameStreak += 1;
             feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Excellent! Correct preposition for <strong>${this.currentQuestion.verb}</strong> is <strong>${expected === 'none' ? 'Direct Object (No Preposition)' : expected}</strong> (+10 pts).`;
+            feedback.innerHTML = `✅ Excellent! Correct particle/preposition for <strong>${this.currentQuestion.verb}</strong> is <strong>${expected === 'none' ? 'Direct Object (No Preposition)' : expected}</strong> (+10 pts).`;
         } else {
             this.gameStreak = 0;
             feedback.className = 'feedback-card wrong';

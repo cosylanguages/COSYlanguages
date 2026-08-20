@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Verb Prepositions & Transitivity | COSYlanguages</title>
+    <title>English Verb Prepositions & Phrasal Verbs | COSYlanguages</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1b4332">
@@ -15,8 +15,8 @@
             <div class="logo-badge">
                 <span class="brand-icon">🇬🇧</span>
                 <div class="brand-text">
-                    <h1>English Verb Prepositions</h1>
-                    <p class="tagline">Transitivity (VT/VI/Both), Preposition Patterns & Grammar Pitfalls</p>
+                    <h1>English Verbs &amp; Prepositions</h1>
+                    <p class="tagline">Transitivity, Dependent Prepositions, Phrasal Verbs &amp; Separability</p>
                 </div>
             </div>
 
@@ -30,12 +30,19 @@
             </div>
         </header>
 
-        <!-- Search Bar -->
+        <!-- Search & Filter Bar -->
         <main class="app-main">
             <section id="search-section-container" class="search-section">
+                <!-- Filter Pills -->
+                <div class="filter-pills-bar">
+                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">All Verbs</button>
+                    <button class="filter-pill" id="filter-prep" onclick="appEngine.setFilter('prep')">Verb Prepositions</button>
+                    <button class="filter-pill" id="filter-phrasal" onclick="appEngine.setFilter('phrasal')">Phrasal Verbs 🧩</button>
+                </div>
+
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="verb-search-input" placeholder="Search a verb (e.g. depend, discuss, apologize, look forward to)..." autocomplete="off" autofocus>
+                    <input type="text" id="verb-search-input" placeholder="Search a verb or phrasal verb (e.g. depend, turn down, give up, discuss)..." autocomplete="off" autofocus>
                     <button id="clear-search-btn" class="clear-btn" style="display: none;">&times;</button>
                 </div>
                 <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
@@ -45,8 +52,8 @@
             <section id="game-container" class="game-card" style="display: none;">
                 <div class="game-header">
                     <div class="game-title">
-                        <h2>🎮 Preposition & Transitivity Trainer</h2>
-                        <p>Master correct dependent prepositions and transitivity patterns!</p>
+                        <h2>🎮 Preposition &amp; Phrasal Verb Trainer</h2>
+                        <p>Master prepositions, phrasal verbs, particles, and separability rules!</p>
                     </div>
                     <div class="score-badge">
                         <span>Score: <strong id="game-score">0</strong></span>
@@ -55,14 +62,15 @@
                 </div>
 
                 <div class="game-prompt-box">
-                    <span class="prompt-label">Verb:</span>
-                    <h3 id="game-verb-prompt">depend</h3>
+                    <span class="prompt-label">Verb / Phrasal Verb:</span>
+                    <h3 id="game-verb-prompt">turn down</h3>
                     <div class="prompt-details">
-                        <span id="game-transitivity-badge" class="badge">Intransitive (VI)</span>
-                        <span id="game-question-prompt" class="prompt-question">Which preposition goes with this verb?</span>
+                        <span id="game-type-badge" class="badge phrasal-badge">Phrasal Verb</span>
+                        <span id="game-transitivity-badge" class="badge">Transitive (VT)</span>
+                        <span id="game-question-prompt" class="prompt-question">Which particle/preposition or option is correct?</span>
                     </div>
                     <div id="game-sentence-prompt" class="game-sentence-box" style="margin-top: 1rem; font-size: 1.05rem;">
-                        "Our plans depend <strong class="blank-spot">[ ? ]</strong> the weather."
+                        "He offered her a promotion, but she turned <strong class="blank-spot">[ ? ]</strong> it."
                     </div>
                 </div>
 
@@ -79,18 +87,20 @@
             <section id="verb-result-container" class="verb-result-card" style="display: none;">
                 <!-- Result Navigation Controls -->
                 <div class="nav-controls-bar">
-                    <button class="nav-btn" onclick="appEngine.navigatePrevious()" title="Previous Verb">◀ Prev</button>
-                    <button class="nav-btn random-btn" onclick="appEngine.navigateRandom()" title="Random Verb">🎲 Random</button>
-                    <button class="nav-btn" onclick="appEngine.navigateNext()" title="Next Verb">Next ▶</button>
+                    <button class="nav-btn" onclick="appEngine.navigatePrevious()" title="Previous Entry">◀ Prev</button>
+                    <button class="nav-btn random-btn" onclick="appEngine.navigateRandom()" title="Random Entry">🎲 Random</button>
+                    <button class="nav-btn" onclick="appEngine.navigateNext()" title="Next Entry">Next ▶</button>
                 </div>
 
                 <!-- Header Info -->
                 <div class="verb-header">
                     <div class="verb-title-group">
-                        <h2 id="verb-title">depend</h2>
-                        <span id="transitivity-badge" class="badge trans-vi">Intransitive (VI)</span>
-                        <span id="prep-badge" class="badge prep-badge">on / upon</span>
-                        <span id="verb-cefr-badge" class="badge cefr-badge">Level: A2</span>
+                        <h2 id="verb-title">turn down</h2>
+                        <span id="phrasal-badge" class="badge phrasal-badge" style="display: none;">Phrasal Verb 🧩</span>
+                        <span id="transitivity-badge" class="badge trans-vt">Transitive (VT)</span>
+                        <span id="separability-badge" class="badge sep-badge" style="display: none;">Separable</span>
+                        <span id="prep-badge" class="badge prep-badge">down</span>
+                        <span id="verb-cefr-badge" class="badge cefr-badge">Level: B1</span>
                         <button id="speak-verb-btn" class="tts-btn" title="Listen to pronunciation">🔊 Listen</button>
                     </div>
 
@@ -98,26 +108,26 @@
                     <div class="lexical-box">
                         <div class="def-block">
                             <span class="lexical-label">📖 Definition:</span>
-                            <span id="verb-definition" class="def-text">To be controlled, decided, or influenced by someone or something else.</span>
+                            <span id="verb-definition" class="def-text">To reject an offer or invitation, or to reduce volume.</span>
                         </div>
                         <div id="pattern-container" class="usage-block">
-                            <span class="lexical-label">💡 Structure & Pattern:</span>
-                            <span id="verb-pattern-text" class="usage-text">depend on [someone / something]</span>
+                            <span class="lexical-label">💡 Structure &amp; Pattern:</span>
+                            <span id="verb-pattern-text" class="usage-text">turn down [something] OR turn [something / pronoun] down</span>
                         </div>
                         <div id="grammar-rule-container" class="grammar-rule-block">
-                            <span class="lexical-label">📌 Grammar & Transitivity Rule:</span>
-                            <span id="grammar-rule-text" class="rule-text">Always requires the preposition 'on' (or formal 'upon') before a noun or gerund object.</span>
+                            <span class="lexical-label">📌 Grammar, Particle &amp; Separability Rule:</span>
+                            <span id="grammar-rule-text" class="rule-text">Separable phrasal verb. Noun objects can go before or after particle, but pronoun objects MUST go in between.</span>
                         </div>
                         <div id="mistake-container" class="mistake-block">
-                            <span class="lexical-label">⚠️ Common Pitfall & Mistake:</span>
-                            <span id="mistake-text" class="mistake-text">❌ It depends of the situation. ➔ ✅ It depends on the situation.</span>
+                            <span class="lexical-label">⚠️ Common Pitfall &amp; Mistake:</span>
+                            <span id="mistake-text" class="mistake-text">❌ He turned down it. ➔ ✅ He turned it down.</span>
                         </div>
                         <div id="examples-container" class="examples-block">
                             <span class="lexical-label">💬 Example Sentences:</span>
                             <ul id="examples-list" class="examples-list"></ul>
                         </div>
                         <div id="antonyms-container" class="antonyms-block">
-                            <span class="lexical-label">↔️ Synonyms & Antonyms:</span>
+                            <span class="lexical-label">↔️ Synonyms &amp; Antonyms:</span>
                             <div id="antonyms-pills" class="pills-list"></div>
                         </div>
                     </div>
@@ -127,26 +137,31 @@
             <!-- Initial Empty State -->
             <section id="empty-state" class="empty-state-box">
                 <span class="empty-icon">🌿</span>
-                <h3>Search any English verb</h3>
-                <p>Explore <strong style="color: var(--blue);">transitivity classifications</strong> (Transitive direct, Intransitive, Dual), dependent prepositions, usage patterns, clear example sentences, and common pitfalls to eliminate typical language errors.</p>
+                <h3>Search English verbs &amp; phrasal verbs</h3>
+                <p>Explore <strong style="color: var(--blue);">transitivity classifications</strong>, dependent prepositions, <strong style="color: var(--purple-both);">phrasal verbs &amp; separability rules</strong> (separable, inseparable, 3-part phrasal verbs), clear example sentences, and common pitfalls.</p>
                 <div class="quick-tags">
-                    <span>Quick Suggestions:</span>
+                    <span>Quick Verb Suggestions:</span>
                     <button class="tag-btn" onclick="appEngine.searchVerb('depend')">depend</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('apologize')">apologize</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('discuss')">discuss</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('look forward to')">look forward to</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('listen')">listen</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('accuse')">accuse</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('prevent')">prevent</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('succeed')">succeed</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('marry')">marry</button>
+                </div>
+                <div class="quick-tags" style="margin-top: 0.75rem;">
+                    <span>Popular Phrasal Verbs 🧩:</span>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('turn down')">turn down</button>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('give up')">give up</button>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('look up to')">look up to</button>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('run out of')">run out of</button>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('put off')">put off</button>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('figure out')">figure out</button>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('get along with')">get along with</button>
                 </div>
             </section>
         </main>
 
         <!-- Cozy Footer -->
         <footer class="app-footer">
-            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — English Verb Prepositions & Transitivity Reference Engine. 100% offline & private.</p>
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — English Verbs, Prepositions &amp; Phrasal Verbs Reference Engine. 100% offline &amp; private.</p>
         </footer>
     </div>
 
