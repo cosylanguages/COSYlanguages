@@ -9172,12 +9172,12 @@
         "abbiano stato"
       ],
       "subj_imp": [
-        "essessi",
-        "essessi",
-        "essesse",
-        "essessimo",
-        "esseste",
-        "essessero"
+        "fossi",
+        "fossi",
+        "fosse",
+        "fossimo",
+        "foste",
+        "fossero"
       ],
       "trap_pass": [
         "avevo stato",
@@ -9798,12 +9798,12 @@
         "abbiano fatto"
       ],
       "subj_imp": [
-        "fassi",
-        "fassi",
-        "fasse",
-        "fassimo",
-        "faste",
-        "fassero"
+        "facessi",
+        "facessi",
+        "facesse",
+        "facessimo",
+        "faceste",
+        "facessero"
       ],
       "trap_pass": [
         "avevo fatto",
@@ -9954,12 +9954,12 @@
         "abbiano detto"
       ],
       "subj_imp": [
-        "dissi",
-        "dissi",
-        "disse",
-        "dissimo",
-        "diste",
-        "dissero"
+        "dicessi",
+        "dicessi",
+        "dicesse",
+        "dicessimo",
+        "diceste",
+        "dicessero"
       ],
       "trap_pass": [
         "avevo detto",
@@ -12454,12 +12454,12 @@
         "abbiano bevuto"
       ],
       "subj_imp": [
-        "bessi",
-        "bessi",
-        "besse",
-        "bessimo",
-        "beste",
-        "bessero"
+        "bevessi",
+        "bevessi",
+        "bevesse",
+        "bevessimo",
+        "beveste",
+        "bevessero"
       ],
       "trap_pass": [
         "avevo bevuto",
@@ -21317,12 +21317,12 @@
         "abbiano dato"
       ],
       "subj_imp": [
-        "dassi",
-        "dassi",
-        "dasse",
-        "dassimo",
-        "daste",
-        "dassero"
+        "dessi",
+        "dessi",
+        "desse",
+        "dessimo",
+        "deste",
+        "dessero"
       ],
       "trap_pass": [
         "avevo dato",
@@ -21692,12 +21692,12 @@
         "siano stati"
       ],
       "subj_imp": [
-        "stassi",
-        "stassi",
-        "stasse",
-        "stassimo",
-        "staste",
-        "stassero"
+        "stessi",
+        "stessi",
+        "stesse",
+        "stessimo",
+        "steste",
+        "stessero"
       ],
       "trap_pass": [
         "ero stato",
