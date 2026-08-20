@@ -119,12 +119,13 @@
 @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
 .fi { opacity: 0; animation: fadeUp .38s ease forwards; }
 
-@media(max-width: 600px) {
+@media(max-width: 800px) {
   .game-grid { grid-template-columns: 1fr; }
   .go-topbar { padding: 1rem; }
-  .go-body { padding: 1.5rem 1rem 3rem; }
+  .go-body { padding: 1.5rem 1rem calc(120px + var(--safe-bottom, 0px)); }
   .game-card { padding: 1.5rem; }
   .setup-options { grid-template-columns: 1fr; gap: 0.75rem; }
+  .word-options { grid-template-columns: 1fr; gap: 0.75rem; }
   .lobby-preferences-bar { gap: 8px; }
   .filter-bar { gap: 5px; }
   .re-actions { flex-direction: column; width: 100%; }
@@ -218,20 +219,20 @@
 html[data-theme="dark"] .gc,
 body.theme-dark .gc {
     background: #222b22 !important;
-    border-color: rgba(107, 143, 113, 0.2) !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
 }
 
 html[data-theme="dark"] .game-card,
 body.theme-dark .game-card {
     background: #222b22 !important;
-    border-color: rgba(107, 143, 113, 0.2) !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
     color: #e8f0e9 !important;
 }
 
 html[data-theme="dark"] .setup-opt,
 body.theme-dark .setup-opt {
     background: #222b22 !important;
-    border-color: rgba(107, 143, 113, 0.2) !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
     color: #c8d8c9 !important;
 }
 
@@ -239,4 +240,80 @@ html[data-theme="dark"] .setup-opt:hover,
 body.theme-dark .setup-opt:hover {
     border-color: var(--sage, #6c9172) !important;
     color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .word-opt,
+body.theme-dark .word-opt {
+    background: #222b22 !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .chain-display,
+body.theme-dark .chain-display {
+    background: #182019 !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .score-bar,
+body.theme-dark .score-bar {
+    background: #1f2c20 !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .sb-val,
+body.theme-dark .sb-val {
+    color: var(--sage-dark, #a8c0ab) !important;
+}
+
+html[data-theme="dark"] .game-input,
+body.theme-dark .game-input {
+    background: #182019 !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .btn-g-secondary,
+body.theme-dark .btn-g-secondary {
+    background: #222b22 !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .round-end,
+body.theme-dark .round-end {
+    background: #222b22 !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .re-stats,
+body.theme-dark .re-stats {
+    background: #182019 !important;
+    border-color: rgba(107, 143, 113, 0.25) !important;
+}
+
+html[data-theme="dark"] .re-title,
+body.theme-dark .re-title {
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .why-container,
+body.theme-dark .why-container {
+    background: #1f2c20 !important;
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .why-text,
+body.theme-dark .why-text {
+    color: #e8f0e9 !important;
+}
+
+html[data-theme="dark"] .btn-gender,
+body.theme-dark .btn-gender {
+    background: #222b22 !important;
+    color: #e8f0e9 !important;
+    border-color: rgba(107, 143, 113, 0.3) !important;
 }
