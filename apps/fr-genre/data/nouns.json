@@ -2350,5 +2350,145 @@
     "antonyms": [],
     "article": "le",
     "plural": "samedis"
+  },
+  "assiette": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Pièce de vaisselle creuse ou plate pour servir la nourriture.",
+    "antonyms": [
+      "bol"
+    ],
+    "article": "l'",
+    "plural": "assiettes"
+  },
+  "verre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Récipient pour boire des liquides.",
+    "antonyms": [
+      "tasse"
+    ],
+    "article": "le",
+    "plural": "verres"
+  },
+  "fourchette": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Ustensile de table à dents pour piquer les aliments.",
+    "antonyms": [
+      "couteau"
+    ],
+    "article": "la",
+    "plural": "fourchettes"
+  },
+  "cuillère": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Ustensile de table creux pour prélever les liquides ou aliments.",
+    "antonyms": [
+      "fourchette"
+    ],
+    "article": "la",
+    "plural": "cuillères"
+  },
+  "sel": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Condiment blanc utilisé pour assaisonner les plats.",
+    "antonyms": [
+      "poivre"
+    ],
+    "article": "le",
+    "plural": "sels"
+  },
+  "poivre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Epice piquante utilisée pour relever le goût des aliments.",
+    "antonyms": [
+      "sel"
+    ],
+    "article": "le",
+    "plural": "poivres"
+  },
+  "sucre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Substance douce et sucrée d'origine végétale.",
+    "antonyms": [
+      "sel"
+    ],
+    "article": "le",
+    "plural": "sucres"
+  },
+  "chemise": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement pour le haut du corps avec col et boutons.",
+    "antonyms": [
+      "pantalon"
+    ],
+    "article": "la",
+    "plural": "chemises"
+  },
+  "robe": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement féminin d'une seule pièce couvrant le corps.",
+    "antonyms": [
+      "costume"
+    ],
+    "article": "la",
+    "plural": "robes"
+  },
+  "jupe": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement féminin suspendu à la taille.",
+    "antonyms": [
+      "pantalon"
+    ],
+    "article": "la",
+    "plural": "jupes"
+  },
+  "veste": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement à manches se portant par-dessus la chemise.",
+    "antonyms": [
+      "manteau"
+    ],
+    "article": "la",
+    "plural": "vestes"
+  },
+  "chaussette": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement de tricot recouvrant le pied et la cheville.",
+    "antonyms": [
+      "chaussure"
+    ],
+    "article": "la",
+    "plural": "chaussettes"
+  },
+  "chaussure": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Objet en cuir ou tissu servant à chaausser le pied.",
+    "antonyms": [
+      "chaussette"
+    ],
+    "article": "la",
+    "plural": "chaussures"
+  },
+  "gant": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Vêtement qui s'adapte exactement à la main.",
+    "antonyms": [
+      "chaussette"
+    ],
+    "article": "le",
+    "plural": "gants"
   }
 }

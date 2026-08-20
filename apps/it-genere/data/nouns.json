@@ -2481,5 +2481,113 @@
     "article": "la",
     "plural": "domeniche",
     "grammar_rule": "💡 REMEMBER: Nome femminile — forma il plurale regolare in '-che' ('le domeniche')."
+  },
+  "piatto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Stoviglia di forma rotonda usata per servire il cibo.",
+    "antonyms": [
+      "bicchiere"
+    ],
+    "article": "il",
+    "plural": "piatti"
+  },
+  "forchetta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Posata da tavola con rebbi per infilzare gli alimenti.",
+    "antonyms": [
+      "coltello"
+    ],
+    "article": "la",
+    "plural": "forchette"
+  },
+  "cucchiaio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Posata da tavola concava per raccogliere liquidi.",
+    "antonyms": [
+      "forchetta"
+    ],
+    "article": "il",
+    "plural": "cucchiai"
+  },
+  "sale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sostanza minerale usata per insaporire i cibi.",
+    "antonyms": [
+      "pepe"
+    ],
+    "article": "il",
+    "plural": "sali"
+  },
+  "pepe": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Spezia piccante usata in cucina.",
+    "antonyms": [
+      "sale"
+    ],
+    "article": "il",
+    "plural": "pepi"
+  },
+  "camicia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Indumento per il busto con colletto e bottoni.",
+    "antonyms": [
+      "pantaloni"
+    ],
+    "article": "la",
+    "plural": "camicie"
+  },
+  "vestito": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indumento maschile o femminile completo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "vestiti"
+  },
+  "gonna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Indumento femminile che pende dalla vita in giù.",
+    "antonyms": [
+      "pantaloni"
+    ],
+    "article": "la",
+    "plural": "gonne"
+  },
+  "giacca": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Indumento con maniche che si porta sopra la camicia.",
+    "antonyms": [
+      "cappotto"
+    ],
+    "article": "la",
+    "plural": "giacche"
+  },
+  "calzino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indumento di maglia che ricopre il piede.",
+    "antonyms": [
+      "scarpa"
+    ],
+    "article": "il",
+    "plural": "calzini"
+  },
+  "scarpa": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Calzatura che protegge il piede.",
+    "antonyms": [
+      "calzino"
+    ],
+    "article": "la",
+    "plural": "scarpe"
   }
 }
