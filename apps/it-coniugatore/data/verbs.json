@@ -21494,20 +21494,20 @@
         "loro piacciono"
       ],
       "pass_comp": [
-        "io è piaciuto",
-        "tu è piaciuto",
+        "io sono piaciuto",
+        "tu sei piaciuto",
         "lui/lei è piaciuto",
-        "noi è piaciuto",
-        "voi è piaciuto",
-        "loro è piaciuto"
+        "noi siamo piaciuti",
+        "voi siete piaciuti",
+        "loro sono piaciuti"
       ],
       "pc": [
-        "sono piacato",
-        "sei piacato",
-        "è piacato",
-        "siamo piacati",
-        "siete piacati",
-        "sono piacati"
+        "sono piaciuto",
+        "sei piaciuto",
+        "è piaciuto",
+        "siamo piaciuti",
+        "siete piaciuti",
+        "sono piaciuti"
       ],
       "impf": [
         "io piacevo",
@@ -21547,8 +21547,8 @@
         "piacate"
       ],
       "part": [
-        "piacante",
-        "piacato"
+        "piacente",
+        "piaciuto"
       ],
       "cond_pass": [
         "sarei piacato",
@@ -22305,8 +22305,8 @@
         "preferate"
       ],
       "part": [
-        "preferante",
-        "preferato"
+        "preferente",
+        "preferito"
       ],
       "cond_pass": [
         "avrei preferito",
@@ -22555,8 +22555,8 @@
         "rompate"
       ],
       "part": [
-        "rompante",
-        "rompato"
+        "rompente",
+        "rotto"
       ],
       "cond_pass": [
         "avrei rotto",
@@ -22680,8 +22680,8 @@
         "scoprate"
       ],
       "part": [
-        "scoprante",
-        "scoprato"
+        "scoprente",
+        "scoperto"
       ],
       "cond_pass": [
         "avrei scoperto",
@@ -23055,8 +23055,8 @@
         "appartenate"
       ],
       "part": [
-        "appartenante",
-        "appartenato"
+        "appartenente",
+        "appartenuto"
       ],
       "cond_pass": [
         "sarei appartenato",
@@ -23430,8 +23430,8 @@
         "comprendate"
       ],
       "part": [
-        "comprendante",
-        "comprendato"
+        "comprendente",
+        "compreso"
       ],
       "cond_pass": [
         "avrei compreso",
@@ -23680,8 +23680,8 @@
         "decidate"
       ],
       "part": [
-        "decidante",
-        "decidato"
+        "decidente",
+        "deciso"
       ],
       "cond_pass": [
         "avrei decidato",
@@ -23930,8 +23930,8 @@
         "raccogliate"
       ],
       "part": [
-        "raccogliante",
-        "raccogliato"
+        "raccogliente",
+        "raccolto"
       ],
       "cond_pass": [
         "avrei raccogliato",
@@ -24055,8 +24055,8 @@
         "raggiungate"
       ],
       "part": [
-        "raggiungante",
-        "raggiungato"
+        "raggiungente",
+        "raggiunto"
       ],
       "cond_pass": [
         "avrei raggiungato",
@@ -24305,8 +24305,8 @@
         "ricevate"
       ],
       "part": [
-        "ricevante",
-        "ricevato"
+        "ricevente",
+        "ricevuto"
       ],
       "cond_pass": [
         "avrei ricevuto",
@@ -24555,8 +24555,8 @@
         "ripetate"
       ],
       "part": [
-        "ripetante",
-        "ripetato"
+        "ripetente",
+        "ripetuto"
       ],
       "cond_pass": [
         "avrei ripetato",
@@ -24805,8 +24805,8 @@
         "scegliate"
       ],
       "part": [
-        "scegliante",
-        "scegliato"
+        "scegliente",
+        "scelto"
       ],
       "cond_pass": [
         "avrei scegliato",
@@ -24930,8 +24930,8 @@
         "uccidate"
       ],
       "part": [
-        "uccidante",
-        "uccidato"
+        "uccidente",
+        "ucciso"
       ],
       "cond_pass": [
         "avrei uccidato",
@@ -25512,7 +25512,7 @@
       ],
       "part": [
         "discutendo",
-        "discututo"
+        "discusso"
       ]
     }
   },
