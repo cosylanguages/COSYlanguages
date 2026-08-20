@@ -3381,5 +3381,71 @@
     "antonyms": [],
     "article": "le",
     "plural": "numéros"
+  },
+  "île": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Espace de terre entouré d'eau de tous côtés.",
+    "antonyms": [
+      "continent"
+    ],
+    "article": "l'",
+    "plural": "îles"
+  },
+  "désert": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Grande région aride très peu peuplée.",
+    "antonyms": [
+      "forêt"
+    ],
+    "article": "le",
+    "plural": "déserts"
+  },
+  "vallée": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Espace allongé entre deux montagnes.",
+    "antonyms": [
+      "montagne"
+    ],
+    "article": "la",
+    "plural": "vallées"
+  },
+  "colline": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Élévation de terrain plus basse qu'une montagne.",
+    "antonyms": [
+      "vallée"
+    ],
+    "article": "la",
+    "plural": "collines"
+  },
+  "orage": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Perturbation atmosphérique avec pluie, éclairs et tonnerre.",
+    "antonyms": [
+      "calme"
+    ],
+    "article": "l'",
+    "plural": "orages"
+  },
+  "tonnerre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Bruit sec ou sourd produit par l'éclair.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "tonnerres"
+  },
+  "brouillard": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Nuage bas au niveau du sol réduisant la visibilité.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "brouillards"
   }
 }
