@@ -32142,7 +32142,7 @@
         "il/elle s'excusait",
         "nous nous excusions",
         "vous vous excusiez",
-        "ils/elles s'exculaient"
+        "ils/elles s'excusaient"
       ],
       "pc": [
         "je me suis excusé",
@@ -32530,14 +32530,14 @@
     "tenses": {
       "pres": [
         "je licencie",
-        "tu me licencies",
+        "tu licencies",
         "il/elle licencie",
         "nous licencions",
         "vous licenciez",
         "ils/elles licencient"
       ],
       "imp": [
-        "je me licenciais",
+        "je licenciais",
         "tu licenciais",
         "il/elle licenciait",
         "nous licencions",
@@ -32594,7 +32594,7 @@
       ],
       "subj": [
         "que je licencie",
-        "que tu me licencies",
+        "que tu licencies",
         "qu'il/elle licencie",
         "que nous licencions",
         "que vous licenciez",
@@ -32816,6 +32816,303 @@
       "part": [
         "démissionnant",
         "démissionné"
+      ]
+    }
+  },
+  "cuisiner": {
+    "group": "1er groupe",
+    "level": "A2",
+    "definition": "Préparer des repas en faisant de la cuisine.",
+    "antonyms": [],
+    "auxiliary": "avoir",
+    "usage_hint": "cuisiner un plat / pour la famille",
+    "tenses": {
+      "pres": [
+        "je cuisine",
+        "tu cuisines",
+        "il/elle cuisine",
+        "nous cuisinons",
+        "vous cuisinez",
+        "ils/elles cuisinent"
+      ],
+      "imp": [
+        "je cuisinais",
+        "tu cuisinais",
+        "il/elle cuisinait",
+        "nous cuisinions",
+        "vous cuisiniez",
+        "ils/elles cuisinaient"
+      ],
+      "pc": [
+        "j'ai cuisiné",
+        "tu as cuisiné",
+        "il/elle a cuisiné",
+        "nous avons cuisiné",
+        "vous avez cuisiné",
+        "ils/elles ont cuisiné"
+      ],
+      "pqp": [
+        "j'avais cuisiné",
+        "tu avais cuisiné",
+        "il/elle avait cuisiné",
+        "nous avions cuisiné",
+        "vous aviez cuisiné",
+        "ils/elles avaient cuisiné"
+      ],
+      "fut": [
+        "je cuisinerai",
+        "tu cuisineras",
+        "il/elle cuisinera",
+        "nous cuisinerons",
+        "vous cuisinerez",
+        "ils/elles cuisineront"
+      ],
+      "fut_ant": [
+        "j'aurai cuisiné",
+        "tu auras cuisiné",
+        "il/elle aura cuisiné",
+        "nous aurons cuisiné",
+        "vous aurez cuisiné",
+        "ils/elles auront cuisiné"
+      ],
+      "cond": [
+        "je cuisinerais",
+        "tu cuisinerais",
+        "il/elle cuisinerait",
+        "nous cuisinerions",
+        "vous cuisineriez",
+        "ils/elles cuisineraient"
+      ],
+      "cond_pass": [
+        "j'aurais cuisiné",
+        "tu aurais cuisiné",
+        "il/elle aurait cuisiné",
+        "nous aurions cuisiné",
+        "vous auriez cuisiné",
+        "ils/elles auraient cuisiné"
+      ],
+      "subj": [
+        "que je cuisine",
+        "que tu cuisines",
+        "qu'il/elle cuisine",
+        "que nous cuisinions",
+        "que vous cuisiniez",
+        "qu'ils/elles cuisinent"
+      ],
+      "subj_pass": [
+        "que j'aie cuisiné",
+        "que tu aies cuisiné",
+        "qu'il/elle ait cuisiné",
+        "que nous ayons cuisiné",
+        "que vous ayez cuisiné",
+        "qu'ils/elles aient cuisiné"
+      ],
+      "impv": [
+        "cuisine !",
+        "cuisinons !",
+        "cuisinez !"
+      ],
+      "part": [
+        "cuisinant",
+        "cuisiné"
+      ]
+    }
+  },
+  "repasser": {
+    "group": "1er groupe",
+    "level": "A2",
+    "definition": "Lisser le linge au fer chaud.",
+    "antonyms": [],
+    "auxiliary": "avoir",
+    "usage_hint": "repasser une chemise",
+    "tenses": {
+      "pres": [
+        "je repasse",
+        "tu repasses",
+        "il/elle repasse",
+        "nous repassons",
+        "vous repassez",
+        "ils/elles repassent"
+      ],
+      "imp": [
+        "je repassais",
+        "tu repassais",
+        "il/elle repassait",
+        "nous repassions",
+        "vous repassiez",
+        "ils/elles repassaient"
+      ],
+      "pc": [
+        "j'ai repassé",
+        "tu as repassé",
+        "il/elle a repassé",
+        "nous avons repassé",
+        "vous avez repassé",
+        "ils/elles ont repassé"
+      ],
+      "pqp": [
+        "j'avais repassé",
+        "tu avais repassé",
+        "il/elle avait repassé",
+        "nous avions repassé",
+        "vous aviez repassé",
+        "ils/elles avaient repassé"
+      ],
+      "fut": [
+        "je repasserai",
+        "tu repasseras",
+        "il/elle repassera",
+        "nous repasserons",
+        "vous repasserez",
+        "ils/elles repasseront"
+      ],
+      "fut_ant": [
+        "j'aurai repassé",
+        "tu auras repassé",
+        "il/elle aura repassé",
+        "nous aurons repassé",
+        "vous aurez repassé",
+        "ils/elles auront repassé"
+      ],
+      "cond": [
+        "je repasserais",
+        "tu repasserais",
+        "il/elle repasserait",
+        "nous repasserions",
+        "vous repasseriez",
+        "ils/elles repasseraient"
+      ],
+      "cond_pass": [
+        "j'aurais repassé",
+        "tu aurais repassé",
+        "il/elle aurait repassé",
+        "nous aurions repassé",
+        "vous auriez repassé",
+        "ils/elles auraient repassé"
+      ],
+      "subj": [
+        "que je repasse",
+        "que tu repasses",
+        "qu'il/elle repasse",
+        "que nous repassions",
+        "que vous repassiez",
+        "qu'ils/elles repassent"
+      ],
+      "subj_pass": [
+        "que j'aie repassé",
+        "que tu aies repassé",
+        "qu'il/elle ait repassé",
+        "que nous ayons repassé",
+        "que vous ayez repassé",
+        "qu'ils/elles aient repassé"
+      ],
+      "impv": [
+        "repasse !",
+        "repassons !",
+        "repassez !"
+      ],
+      "part": [
+        "repassant",
+        "repassé"
+      ]
+    }
+  },
+  "faire la vaisselle": {
+    "group": "3e groupe",
+    "level": "A2",
+    "definition": "Laver et essuyer les assiettes, verres et couverts après les repas.",
+    "antonyms": [],
+    "auxiliary": "avoir",
+    "usage_hint": "faire la vaisselle après le dîner",
+    "tenses": {
+      "pres": [
+        "je fais la vaisselle",
+        "tu fais la vaisselle",
+        "il/elle fait la vaisselle",
+        "nous faisons la vaisselle",
+        "vous faites la vaisselle",
+        "ils/elles font la vaisselle"
+      ],
+      "imp": [
+        "je faisais la vaisselle",
+        "tu faisais la vaisselle",
+        "il/elle faisait la vaisselle",
+        "nous faisions la vaisselle",
+        "vous faisiez la vaisselle",
+        "ils/elles faisaient la vaisselle"
+      ],
+      "pc": [
+        "j'ai fait la vaisselle",
+        "tu as fait la vaisselle",
+        "il/elle a fait la vaisselle",
+        "nous avons fait la vaisselle",
+        "vous avez fait la vaisselle",
+        "ils/elles ont fait la vaisselle"
+      ],
+      "pqp": [
+        "j'avais fait la vaisselle",
+        "tu avais fait la vaisselle",
+        "il/elle avait fait la vaisselle",
+        "nous avions fait la vaisselle",
+        "vous aviez fait la vaisselle",
+        "ils/elles avaient fait la vaisselle"
+      ],
+      "fut": [
+        "je ferai la vaisselle",
+        "tu feras la vaisselle",
+        "il/elle fera la vaisselle",
+        "nous ferons la vaisselle",
+        "vous ferez la vaisselle",
+        "ils/elles feront la vaisselle"
+      ],
+      "fut_ant": [
+        "j'aurai fait la vaisselle",
+        "tu auras fait la vaisselle",
+        "il/elle aura fait la vaisselle",
+        "nous aurons fait la vaisselle",
+        "vous aurez fait la vaisselle",
+        "ils/elles auront fait la vaisselle"
+      ],
+      "cond": [
+        "je ferais la vaisselle",
+        "tu ferais la vaisselle",
+        "il/elle ferait la vaisselle",
+        "nous ferions la vaisselle",
+        "vous feriez la vaisselle",
+        "ils/elles feraient la vaisselle"
+      ],
+      "cond_pass": [
+        "j'aurais fait la vaisselle",
+        "tu aurais fait la vaisselle",
+        "il/elle aurait fait la vaisselle",
+        "nous aurions fait la vaisselle",
+        "vous auriez fait la vaisselle",
+        "ils/elles auraient fait la vaisselle"
+      ],
+      "subj": [
+        "que je fasse la vaisselle",
+        "que tu fasses la vaisselle",
+        "qu'il/elle fasse la vaisselle",
+        "que nous fassions la vaisselle",
+        "que vous fassiez la vaisselle",
+        "qu'ils/elles fassent la vaisselle"
+      ],
+      "subj_pass": [
+        "que j'aie fait la vaisselle",
+        "que tu aies fait la vaisselle",
+        "qu'il/elle ait fait la vaisselle",
+        "que nous ayons fait la vaisselle",
+        "que vous ayez fait la vaisselle",
+        "qu'ils/elles aient fait la vaisselle"
+      ],
+      "impv": [
+        "fais la vaisselle !",
+        "faisons la vaisselle !",
+        "faites la vaisselle !"
+      ],
+      "part": [
+        "faisant la vaisselle",
+        "fait la vaisselle"
       ]
     }
   }
