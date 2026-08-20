@@ -2051,5 +2051,60 @@
     ],
     "article": "l'",
     "plural": "exercices"
+  },
+  "amour": {
+    "gender": "Masculin",
+    "level": "B1",
+    "definition": "Sentiment d'affection et d'attachement intense.",
+    "antonyms": [
+      "haine"
+    ],
+    "article": "l'",
+    "plural": "amours",
+    "grammar_rule": "💡 REMEMBER: Nom masculin au singulier ('un amour'), mais féminin poétique ou littéraire au pluriel ('de belles amours')."
+  },
+  "orgue": {
+    "gender": "Masculin",
+    "level": "B2",
+    "definition": "Grand instrument de musique à vent composé de tuyaux et de claviers.",
+    "antonyms": [
+      "silence"
+    ],
+    "article": "l'",
+    "plural": "orgues",
+    "grammar_rule": "💡 REMEMBER: Nom masculin au singulier ('un orgue'), mais souvent féminin au pluriel pour désigner un instrument monumental ('les grandes orgues')."
+  },
+  "gens": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Ensemble de personnes considérées de manière collective.",
+    "antonyms": [
+      "solitude"
+    ],
+    "article": "les",
+    "plural": "gens",
+    "grammar_rule": "💡 REMEMBER: Nom masculin pluriel ('les gens'), mais tout adjectif placé immédiatement avant lui prend la forme féminine ('toutes les vieilles gens')."
+  },
+  "après-midi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Période de la journée située entre le midi et le coucher du soleil.",
+    "antonyms": [
+      "matin"
+    ],
+    "article": "l'",
+    "plural": "après-midi",
+    "grammar_rule": "💡 REMEMBER: Genre invariable — accepté aussi bien au masculin qu'au féminin ('un/une après-midi'), et invariable au pluriel ('des après-midi')."
+  },
+  "œuvre": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Produit d'un travail artistique, littéraire ou d'une activité intellectuelle.",
+    "antonyms": [
+      "destruction"
+    ],
+    "article": "l'",
+    "plural": "œuvres",
+    "grammar_rule": "💡 REMEMBER: Nom féminin dans la plupart des sens ('une œuvre'), mais masculin dans le domaine du bâtiment et de la construction ('le gros œuvre')."
   }
 }
