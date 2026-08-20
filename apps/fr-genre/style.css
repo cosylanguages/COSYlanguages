@@ -57,3 +57,77 @@ body { background-color: var(--cream-bg); color: var(--ink-text); font-family: v
 .feedback-card { padding: 1rem; border-radius: 12px; text-align: center; font-weight: 600; margin-bottom: 1rem; }
 .feedback-card.correct { background-color: #d4edda; color: #155724; }
 .feedback-card.wrong { background-color: #f8d7da; color: #721c24; }
+
+
+/* ==========================================================================
+   Responsive Adaptations & Mobile Touch Optimizations
+   ========================================================================== */
+.table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 0.5rem;
+    border-radius: 12px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .app-container {
+        padding: 1rem 0.8rem;
+    }
+
+    .app-header {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        gap: 0.8rem;
+        margin-bottom: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .logo-badge {
+        justify-content: center;
+    }
+
+    .header-actions {
+        justify-content: center;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .mode-toggle-btn, .install-pwa-btn, .tag-btn, .choice-btn, .game-btn, .tts-btn {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mode-toggle-btn {
+        width: 100%;
+    }
+
+    .verb-result-card, .game-card, .noun-result-card, .empty-state-box {
+        padding: 1.25rem 1rem;
+    }
+
+    .verb-title-group, .noun-title-group {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .game-input-group, .game-choice-group {
+        flex-direction: column;
+    }
+
+    .game-input-group input {
+        width: 100%;
+        min-height: 44px;
+    }
+
+    .game-btn, .choice-btn {
+        width: 100%;
+    }
+
+    .tense-cards, .plural-grid {
+        grid-template-columns: 1fr;
+    }
+}
