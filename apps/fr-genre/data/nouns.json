@@ -2717,5 +2717,126 @@
     "article": "le",
     "plural": "policiers",
     "grammar_rule": "💡 REMEMBER: Féminin régulier en '-ière' avec accent grave ('une policière')."
+  },
+  "amitié": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sentiment d'affection réciproque entre deux personnes.",
+    "antonyms": [
+      "inimitié"
+    ],
+    "article": "l'",
+    "plural": "amitiés"
+  },
+  "confiance": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sentiment de sécurité envers quelqu'un ou quelque chose.",
+    "antonyms": [
+      "méfiance"
+    ],
+    "article": "la",
+    "plural": "confiances"
+  },
+  "patience": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Aptitude à attendre sans s'énerver.",
+    "antonyms": [
+      "impatience"
+    ],
+    "article": "la",
+    "plural": "patiences"
+  },
+  "honte": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sentiment pénible d'humiliation ou de culpabilité.",
+    "antonyms": [
+      "fierté"
+    ],
+    "article": "la",
+    "plural": "hontes",
+    "grammar_rule": "💡 REMEMBER: \"h\" aspiré — pas d'élision (\"la honte\", pas \"l'honte\")."
+  },
+  "fierté": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sentiment de satisfaction légitime de soi ou d'autrui.",
+    "antonyms": [
+      "honte"
+    ],
+    "article": "la",
+    "plural": "fiertés"
+  },
+  "curiosité": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Désir de savoir ou d'apprendre de nouvelles choses.",
+    "antonyms": [
+      "indifférence"
+    ],
+    "article": "la",
+    "plural": "curiosités"
+  },
+  "ordinateur": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Machine électronique de traitement de l'information.",
+    "antonyms": [
+      "papier"
+    ],
+    "article": "l'",
+    "plural": "ordinateurs"
+  },
+  "téléphone": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Appareil de communication vocale à distance.",
+    "antonyms": [
+      "lettre"
+    ],
+    "article": "le",
+    "plural": "téléphones"
+  },
+  "internet": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Réseau informatique mondial interconnecté.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "internets",
+    "grammar_rule": "💡 REMEMBER: Souvent employé sans article ou avec majuscule (\"sur Internet\", \"l'internet\")."
+  },
+  "clavier": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Ensemble des touches d'un ordinateur ou d'un piano.",
+    "antonyms": [
+      "écran"
+    ],
+    "article": "le",
+    "plural": "claviers"
+  },
+  "souris": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Dispositif de pointage pour ordinateur ou petit rongeur.",
+    "antonyms": [
+      "clavier"
+    ],
+    "article": "la",
+    "plural": "souris",
+    "grammar_rule": "💡 REMEMBER: Toujours du genre féminin (\"la souris\"), y compris pour le périphérique informatique. Invariable au pluriel."
+  },
+  "message": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Texte ou information transmis à un destinataire.",
+    "antonyms": [
+      "silence"
+    ],
+    "article": "le",
+    "plural": "messages"
   }
 }
