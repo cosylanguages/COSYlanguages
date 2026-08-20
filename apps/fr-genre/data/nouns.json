@@ -2651,5 +2651,318 @@
     ],
     "article": "le",
     "plural": "ponts"
+  },
+  "médecin": {
+    "gender": "Masculin / Féminin",
+    "level": "A1",
+    "definition": "Professionnel de la santé qui traite les malades.",
+    "antonyms": [
+      "patient"
+    ],
+    "article": "le",
+    "plural": "médecins",
+    "grammar_rule": "💡 REMEMBER: Nom de profession historiquement masculin. En usage standard, le mot s'utilise pour les deux genres ('un médecin', 'une médecin')."
+  },
+  "professeur": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne qui enseigne une discipline à des élèves.",
+    "antonyms": [
+      "élève"
+    ],
+    "article": "le",
+    "plural": "professeurs",
+    "grammar_rule": "💡 REMEMBER: Le féminin moderne est 'professeure' ('une professeure'), très répandu bien que la forme masculine reste parfois employée dans certains registres formels."
+  },
+  "avocat": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Juriste qui défend les personnes en justice.",
+    "antonyms": [
+      "client"
+    ],
+    "article": "l'",
+    "plural": "avocats",
+    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-e' ('une avocate'). Ne pas confondre avec le fruit ('l'avocat')."
+  },
+  "ingénieur": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Spécialiste qui conçoit et dirige des projets techniques.",
+    "antonyms": [
+      "ouvrier"
+    ],
+    "article": "l'",
+    "plural": "ingénieurs",
+    "grammar_rule": "💡 REMEMBER: Le féminin s'écrit 'ingénieure' ('une ingénieure') avec un '-e' final."
+  },
+  "infirmier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne prodiguant des soins médicaux aux patients.",
+    "antonyms": [
+      "patient"
+    ],
+    "article": "l'",
+    "plural": "infirmiers",
+    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-ière' avec accent grave ('une infirmière')."
+  },
+  "policier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Membre des forces de maintien de l'ordre.",
+    "antonyms": [
+      "criminel"
+    ],
+    "article": "le",
+    "plural": "policiers",
+    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-ière' avec accent grave ('une policière')."
+  },
+  "amitié": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sentiment d'affection réciproque entre deux personnes.",
+    "antonyms": [
+      "inimitié"
+    ],
+    "article": "l'",
+    "plural": "amitiés"
+  },
+  "confiance": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sentiment de sécurité envers quelqu'un ou quelque chose.",
+    "antonyms": [
+      "méfiance"
+    ],
+    "article": "la",
+    "plural": "confiances"
+  },
+  "patience": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Aptitude à attendre sans s'énerver.",
+    "antonyms": [
+      "impatience"
+    ],
+    "article": "la",
+    "plural": "patiences"
+  },
+  "honte": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sentiment pénible d'humiliation ou de culpabilité.",
+    "antonyms": [
+      "fierté"
+    ],
+    "article": "la",
+    "plural": "hontes",
+    "grammar_rule": "💡 REMEMBER: \"h\" aspiré — pas d'élision (\"la honte\", pas \"l'honte\")."
+  },
+  "fierté": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Sentiment de satisfaction légitime de soi ou d'autrui.",
+    "antonyms": [
+      "honte"
+    ],
+    "article": "la",
+    "plural": "fiertés"
+  },
+  "curiosité": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Désir de savoir ou d'apprendre de nouvelles choses.",
+    "antonyms": [
+      "indifférence"
+    ],
+    "article": "la",
+    "plural": "curiosités"
+  },
+  "ordinateur": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Machine électronique de traitement de l'information.",
+    "antonyms": [
+      "papier"
+    ],
+    "article": "l'",
+    "plural": "ordinateurs"
+  },
+  "téléphone": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Appareil de communication vocale à distance.",
+    "antonyms": [
+      "lettre"
+    ],
+    "article": "le",
+    "plural": "téléphones"
+  },
+  "internet": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Réseau informatique mondial interconnecté.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "internets",
+    "grammar_rule": "💡 REMEMBER: Souvent employé sans article ou avec majuscule (\"sur Internet\", \"l'internet\")."
+  },
+  "clavier": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Ensemble des touches d'un ordinateur ou d'un piano.",
+    "antonyms": [
+      "écran"
+    ],
+    "article": "le",
+    "plural": "claviers"
+  },
+  "souris": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Dispositif de pointage pour ordinateur ou petit rongeur.",
+    "antonyms": [
+      "clavier"
+    ],
+    "article": "la",
+    "plural": "souris",
+    "grammar_rule": "💡 REMEMBER: Toujours du genre féminin (\"la souris\"), y compris pour le périphérique informatique. Invariable au pluriel."
+  },
+  "message": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Texte ou information transmis à un destinataire.",
+    "antonyms": [
+      "silence"
+    ],
+    "article": "le",
+    "plural": "messages"
+  },
+  "janvier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Premier mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "janviers"
+  },
+  "février": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Deuxième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "févriers"
+  },
+  "mars": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Troisième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "mars"
+  },
+  "avril": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Quatrième mois de l'année civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "avrils"
+  },
+  "mai": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Cinquième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "mais"
+  },
+  "juin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Sixième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "juins"
+  },
+  "juillet": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Septième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "juillets"
+  },
+  "août": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Huitième mois de l'année civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "aoûts"
+  },
+  "septembre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Neuvième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "septembres"
+  },
+  "octobre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Dixième mois de l'année civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "octobres"
+  },
+  "novembre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Onzième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "novembres"
+  },
+  "décembre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Douzième et dernier mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "décembres"
+  },
+  "printemps": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Saison entre l'hiver et l'été.",
+    "antonyms": [
+      "automne"
+    ],
+    "article": "le",
+    "plural": "printemps"
+  },
+  "automne": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Saison entre l'été et l'hiver.",
+    "antonyms": [
+      "printemps"
+    ],
+    "article": "l'",
+    "plural": "automnes"
+  },
+  "hiver": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Saison la plus froide de l'année.",
+    "antonyms": [
+      "été"
+    ],
+    "article": "l'",
+    "plural": "hivers"
   }
 }

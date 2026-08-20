@@ -2689,5 +2689,310 @@
     ],
     "article": "la",
     "plural": "stazioni"
+  },
+  "professore": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Chi insegna in una scuola secondaria o università.",
+    "antonyms": [
+      "studente"
+    ],
+    "article": "il",
+    "plural": "professori",
+    "grammar_rule": "💡 REMEMBER: Forma il femminile con il suffisso '-essa' ('la professoressa')."
+  },
+  "avvocato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Professionista legale che assiste le parti in giudizio.",
+    "antonyms": [
+      "cliente"
+    ],
+    "article": "l'",
+    "plural": "avvocati",
+    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'avvocata' (forma promuovente) o 'avvocatessa' (tradizionale)."
+  },
+  "ingegnere": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Specialista che progetta strutture e sistemi tecnici.",
+    "antonyms": [
+      "operaio"
+    ],
+    "article": "l'",
+    "plural": "ingegneri",
+    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'l'ingegnera' (regolare) oppure resta 'l'ingegnere'."
+  },
+  "infermiere": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Operatore sanitario che assiste i malati.",
+    "antonyms": [
+      "paziente"
+    ],
+    "article": "l'",
+    "plural": "infermieri",
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('l'infermiera')."
+  },
+  "poliziotto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Membro delle forze dell'ordine pubbliche.",
+    "antonyms": [
+      "criminale"
+    ],
+    "article": "il",
+    "plural": "poliziotti",
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la poliziotta')."
+  },
+  "cuoco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Chi prepara i cibi in cucina per mestiere.",
+    "antonyms": [
+      "cameriere"
+    ],
+    "article": "il",
+    "plural": "cuochi",
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la cuoca'). Plurale maschile in '-chi' ('i cuochi')."
+  },
+  "amicizia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Legame di affetto reciproco tra persone.",
+    "antonyms": [
+      "inimicizia"
+    ],
+    "article": "l'",
+    "plural": "amicizie"
+  },
+  "fiducia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Sentimento di sicurezza verso qualcuno.",
+    "antonyms": [
+      "sfiducia"
+    ],
+    "article": "la",
+    "plural": "fiducie"
+  },
+  "pazienza": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Capacità di attendere con calma.",
+    "antonyms": [
+      "impazienza"
+    ],
+    "article": "la",
+    "plural": "pazienze"
+  },
+  "vergogna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Sentimento di umiliazione o colpa.",
+    "antonyms": [
+      "orgoglio"
+    ],
+    "article": "la",
+    "plural": "vergogne"
+  },
+  "orgoglio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Fiero sentimento di stima per se stessi.",
+    "antonyms": [
+      "vergogna"
+    ],
+    "article": "l'",
+    "plural": "orgogli"
+  },
+  "curiosità": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Desiderio di sapere e conoscere cose nuove.",
+    "antonyms": [
+      "indifferenza"
+    ],
+    "article": "la",
+    "plural": "curiosità",
+    "grammar_rule": "💡 REMEMBER: Nome accentato sull'ultima sillaba, invariabile al plurale (\"la curiosità\", \"le curiosità\")."
+  },
+  "telefono": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Dispositivo per la comunicazione vocale a distanza.",
+    "antonyms": [
+      "lettera"
+    ],
+    "article": "il",
+    "plural": "telefoni"
+  },
+  "internet": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Rete informatica globale interconnessa.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "internet",
+    "grammar_rule": "💡 REMEMBER: Prestito dall'inglese, invariabile al plurale."
+  },
+  "schermo": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Superficie su cui si visualizzano immagini ed elementi grafici.",
+    "antonyms": [
+      "tastiera"
+    ],
+    "article": "lo",
+    "plural": "schermi"
+  },
+  "tastiera": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Insieme di tasti per digitare testo su un computer.",
+    "antonyms": [
+      "schermo"
+    ],
+    "article": "la",
+    "plural": "tastiere"
+  },
+  "mouse": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Dispositivo di puntamento manuale per computer.",
+    "antonyms": [
+      "tastiera"
+    ],
+    "article": "il",
+    "plural": "mouse",
+    "grammar_rule": "💡 REMEMBER: Prestito non adattato dall'inglese; rimane invariabile al plurale (\"il mouse\", \"i mouse\")."
+  },
+  "messaggio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Comunicazione scritta o vocale inviata a qualcuno.",
+    "antonyms": [
+      "silenzio"
+    ],
+    "article": "il",
+    "plural": "messaggi"
+  },
+  "gennaio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Primo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "gennai"
+  },
+  "febbraio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Secondo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "febbrai"
+  },
+  "marzo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terzo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "marzi"
+  },
+  "aprile": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quarto mese dell'anno civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "aprili"
+  },
+  "maggio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quinto mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "maggi"
+  },
+  "giugno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sesto mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giugni"
+  },
+  "luglio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Settimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "lugli"
+  },
+  "agosto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Ottavo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "agosti"
+  },
+  "settembre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Nono mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "settembri"
+  },
+  "ottobre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Decimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "ottobri"
+  },
+  "novembre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Undicesimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "novembri"
+  },
+  "dicembre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Dodicesimo e ultimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "dicembri"
+  },
+  "primavera": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Stagione tra l'inverno e l'estate.",
+    "antonyms": [
+      "autunno"
+    ],
+    "article": "la",
+    "plural": "primavere",
+    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili."
+  },
+  "estate": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Stagione più calda dell'anno.",
+    "antonyms": [
+      "inverno"
+    ],
+    "article": "l'",
+    "plural": "estati",
+    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili."
   }
 }
