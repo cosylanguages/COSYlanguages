@@ -2689,5 +2689,71 @@
     ],
     "article": "la",
     "plural": "stazioni"
+  },
+  "professore": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Chi insegna in una scuola secondaria o università.",
+    "antonyms": [
+      "studente"
+    ],
+    "article": "il",
+    "plural": "professori",
+    "grammar_rule": "💡 REMEMBER: Forma il femminile con il suffisso '-essa' ('la professoressa')."
+  },
+  "avvocato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Professionista legale che assiste le parti in giudizio.",
+    "antonyms": [
+      "cliente"
+    ],
+    "article": "l'",
+    "plural": "avvocati",
+    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'avvocata' (forma promuovente) o 'avvocatessa' (tradizionale)."
+  },
+  "ingegnere": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Specialista che progetta strutture e sistemi tecnici.",
+    "antonyms": [
+      "operaio"
+    ],
+    "article": "l'",
+    "plural": "ingegneri",
+    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'l'ingegnera' (regolare) oppure resta 'l'ingegnere'."
+  },
+  "infermiere": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Operatore sanitario che assiste i malati.",
+    "antonyms": [
+      "paziente"
+    ],
+    "article": "l'",
+    "plural": "infermieri",
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('l'infermiera')."
+  },
+  "poliziotto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Membro delle forze dell'ordine pubbliche.",
+    "antonyms": [
+      "criminale"
+    ],
+    "article": "il",
+    "plural": "poliziotti",
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la poliziotta')."
+  },
+  "cuoco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Chi prepara i cibi in cucina per mestiere.",
+    "antonyms": [
+      "cameriere"
+    ],
+    "article": "il",
+    "plural": "cuochi",
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la cuoca'). Plurale maschile in '-chi' ('i cuochi')."
   }
 }

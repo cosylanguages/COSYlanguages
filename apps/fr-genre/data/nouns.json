@@ -2651,5 +2651,71 @@
     ],
     "article": "le",
     "plural": "ponts"
+  },
+  "médecin": {
+    "gender": "Masculin / Féminin",
+    "level": "A1",
+    "definition": "Professionnel de la santé qui traite les malades.",
+    "antonyms": [
+      "patient"
+    ],
+    "article": "le",
+    "plural": "médecins",
+    "grammar_rule": "💡 REMEMBER: Nom de profession historiquement masculin. En usage standard, le mot s'utilise pour les deux genres ('un médecin', 'une médecin')."
+  },
+  "professeur": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne qui enseigne une discipline à des élèves.",
+    "antonyms": [
+      "élève"
+    ],
+    "article": "le",
+    "plural": "professeurs",
+    "grammar_rule": "💡 REMEMBER: Le féminin moderne est 'professeure' ('une professeure'), très répandu bien que la forme masculine reste parfois employée dans certains registres formels."
+  },
+  "avocat": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Juriste qui défend les personnes en justice.",
+    "antonyms": [
+      "client"
+    ],
+    "article": "l'",
+    "plural": "avocats",
+    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-e' ('une avocate'). Ne pas confondre avec le fruit ('l'avocat')."
+  },
+  "ingénieur": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Spécialiste qui conçoit et dirige des projets techniques.",
+    "antonyms": [
+      "ouvrier"
+    ],
+    "article": "l'",
+    "plural": "ingénieurs",
+    "grammar_rule": "💡 REMEMBER: Le féminin s'écrit 'ingénieure' ('une ingénieure') avec un '-e' final."
+  },
+  "infirmier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Personne prodiguant des soins médicaux aux patients.",
+    "antonyms": [
+      "patient"
+    ],
+    "article": "l'",
+    "plural": "infirmiers",
+    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-ière' avec accent grave ('une infirmière')."
+  },
+  "policier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Membre des forces de maintien de l'ordre.",
+    "antonyms": [
+      "criminel"
+    ],
+    "article": "le",
+    "plural": "policiers",
+    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-ière' avec accent grave ('une policière')."
   }
 }
