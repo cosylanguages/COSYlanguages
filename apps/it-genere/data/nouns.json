@@ -422,7 +422,7 @@
   },
   "salute": {
     "gender": "Femminile",
-    "level": "A1",
+    "level": "A2",
     "definition": "Stato di benessere fisico.",
     "antonyms": [
       "malattia"
@@ -1023,7 +1023,7 @@
   },
   "aeroporto": {
     "gender": "Maschile",
-    "level": "A1",
+    "level": "A2",
     "definition": "Struttura per aerei.",
     "antonyms": [
       "stazione"
@@ -1113,7 +1113,7 @@
   },
   "biglietto": {
     "gender": "Maschile",
-    "level": "A1",
+    "level": "A2",
     "definition": "Documento di viaggio.",
     "antonyms": [
       "moneta"
@@ -1435,7 +1435,7 @@
   },
   "giornale": {
     "gender": "Maschile",
-    "level": "A1",
+    "level": "A2",
     "definition": "Stampa quotidiana d'informazione.",
     "antonyms": [
       "libro"
@@ -1525,7 +1525,7 @@
   },
   "negozio": {
     "gender": "Maschile",
-    "level": "A1",
+    "level": "A2",
     "definition": "Locale di vendita al dettaglio.",
     "antonyms": [
       "mercato"
@@ -1635,7 +1635,7 @@
   },
   "prezzo": {
     "gender": "Maschile",
-    "level": "A1",
+    "level": "A2",
     "definition": "Valore in denaro di una cosa.",
     "antonyms": [
       "sconto"
@@ -1695,7 +1695,7 @@
   },
   "sport": {
     "gender": "Maschile",
-    "level": "A1",
+    "level": "A2",
     "definition": "Attività fisica ludica.",
     "antonyms": [
       "pigrizia"
@@ -3083,5 +3083,147 @@
     "antonyms": [],
     "article": "il",
     "plural": "raffreddori"
+  },
+  "ambiente": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Insieme delle condizioni naturali e sociali che circondano un organismo.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "ambienti"
+  },
+  "inquinamento": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Alterazione dell'ambiente naturale dovuta a sostanze nocive.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "inquinamenti"
+  },
+  "società": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Insieme di individui organizzati in una comunità strutturata.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "società"
+  },
+  "governo": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Organo esecutivo che dirige uno Stato.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "governi"
+  },
+  "economia": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Sistema di produzione, distribuzione e consumo della ricchezza.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "economie"
+  },
+  "azienda": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Organizzazione economica di beni e persone per la produzione.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "aziende"
+  },
+  "collega": {
+    "gender": "Maschile / Femminile",
+    "level": "B1",
+    "definition": "Persona che esercita la stessa professione o lavora nello stesso posto.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Stessa forma al singolare per maschile e femminile ('il collega' / 'la collega'). Plurale: 'i colleghi' / 'le colleghe'.",
+    "article": "il",
+    "plural": "colleghi"
+  },
+  "riunione": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Incontro organizzato di persone per discutere questioni di lavoro.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "riunioni"
+  },
+  "carriera": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Percorso professionale e di avanzamento nella vita lavorativa.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "carriere"
+  },
+  "stipendio": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Compenso in denaro corrisposto periodicamente al lavoratore.",
+    "antonyms": [],
+    "article": "lo",
+    "plural": "stipendi"
+  },
+  "relazione": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Rapporto reciproco tra persone, gruppi o entità.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "relazioni"
+  },
+  "malinteso": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Incomprensione o errore d'interpretazione tra persone.",
+    "antonyms": [
+      "accordo"
+    ],
+    "article": "il",
+    "plural": "malintesi"
+  },
+  "delusione": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Sentimento di amarezza derivante da un'aspettativa non realizzata.",
+    "antonyms": [
+      "soddisfazione"
+    ],
+    "article": "la",
+    "plural": "delusioni"
+  },
+  "opinione": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Giudizio o idea personale riguardo a un argomento.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "opinioni"
+  },
+  "dibattito": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Discussione pubblica su argomenti di interesse generale.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "dibattiti"
+  },
+  "media": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Mezzi di comunicazione di massa.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Sostantivo maschile invariabile di origine latina ('i media').",
+    "article": "i",
+    "plural": "media"
+  },
+  "rete": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Insieme di connessioni informatiche o sociali.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "reti"
   }
 }

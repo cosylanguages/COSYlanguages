@@ -2498,7 +2498,7 @@
   },
   "viaggiare": {
     "group": "1a coniugazione",
-    "level": "A1",
+    "level": "A2",
     "definition": "Fare un viaggio.",
     "antonyms": [
       "restare a casa"
@@ -4370,7 +4370,7 @@
   },
   "comprare": {
     "group": "1a coniugazione",
-    "level": "A1",
+    "level": "A2",
     "definition": "Acquistare beni.",
     "antonyms": [
       "vendere"
@@ -4526,7 +4526,7 @@
   },
   "pagare": {
     "group": "1a coniugazione",
-    "level": "A1",
+    "level": "A2",
     "definition": "Versare denaro.",
     "antonyms": [
       "riscuotere"
@@ -7492,7 +7492,7 @@
   },
   "nuotare": {
     "group": "1a coniugazione",
-    "level": "A1",
+    "level": "A2",
     "definition": "Muoversi nell'acqua.",
     "antonyms": [
       "affondare"
@@ -20447,7 +20447,7 @@
   },
   "vendere": {
     "group": "2a coniugazione",
-    "level": "A1",
+    "level": "A2",
     "definition": "Cedere per denaro.",
     "antonyms": [
       "comprare"
@@ -26195,6 +26195,1558 @@
         "siamo guariti",
         "siete guariti",
         "sono guariti"
+      ]
+    }
+  },
+  "lamentarsi": {
+    "group": "1a coniugazione",
+    "level": "B1",
+    "definition": "Esprimere sofferenza, scontento o insoddisfazione.",
+    "antonyms": [
+      "rallegrarsi"
+    ],
+    "auxiliary": "essere",
+    "usage_hint": "lamentarsi di (qualcosa/qualcuno)",
+    "tenses": {
+      "presente": [
+        "mi lamento",
+        "ti lamenti",
+        "si lamenta",
+        "ci lamentiamo",
+        "vi lamentate",
+        "si lamentano"
+      ],
+      "pres": [
+        "mi lamento",
+        "ti lamenti",
+        "si lamenta",
+        "ci lamentiamo",
+        "vi lamentate",
+        "si lamentano"
+      ],
+      "imperfetto": [
+        "mi lamentavo",
+        "ti lamentavi",
+        "si lamentava",
+        "ci lamentavamo",
+        "vi lamentavate",
+        "si lamentavano"
+      ],
+      "imp": [
+        "mi lamentavo",
+        "ti lamentavi",
+        "si lamentava",
+        "ci lamentavamo",
+        "vi lamentavate",
+        "si lamentavano"
+      ],
+      "futuro_semplice": [
+        "mi lamenterò",
+        "ti lamenterai",
+        "si lamenterà",
+        "ci lamenteremo",
+        "vi lamenterete",
+        "si lamenteranno"
+      ],
+      "fut": [
+        "mi lamenterò",
+        "ti lamenterai",
+        "si lamenterà",
+        "ci lamenteremo",
+        "vi lamenterete",
+        "si lamenteranno"
+      ],
+      "condizionale_presente": [
+        "mi lamenterei",
+        "ti lamenteresti",
+        "si lamenterebbe",
+        "ci lamenteremmo",
+        "vi lamentereste",
+        "si lamenterebbero"
+      ],
+      "cond": [
+        "mi lamenterei",
+        "ti lamenteresti",
+        "si lamenterebbe",
+        "ci lamenteremmo",
+        "vi lamentereste",
+        "si lamenterebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io mi lamenti",
+        "che tu ti lamenti",
+        "che egli si lamenti",
+        "che noi ci lamentiamo",
+        "che voi vi lamentiate",
+        "che essi si lamentino"
+      ],
+      "subj": [
+        "che io mi lamenti",
+        "che tu ti lamenti",
+        "che egli si lamenti",
+        "che noi ci lamentiamo",
+        "che voi vi lamentiate",
+        "che essi si lamentino"
+      ],
+      "imperativo": [
+        "lamentati!",
+        "lamentiamoci!",
+        "lamentatevi!"
+      ],
+      "impv": [
+        "lamentati!",
+        "lamentiamoci!",
+        "lamentatevi!"
+      ],
+      "participio_passato": [
+        "lamentato"
+      ],
+      "part": [
+        "lamentato"
+      ],
+      "cond_pass": [
+        "mi sarei lamentato",
+        "ti saresti lamentato",
+        "si sarebbe lamentato",
+        "ci saremmo lamentati",
+        "vi sareste lamentati",
+        "si sarebbero lamentati"
+      ],
+      "subj_pass": [
+        "mi sia lamentato",
+        "ti sia lamentato",
+        "si sia lamentato",
+        "ci siamo lamentati",
+        "vi siate lamentati",
+        "si siano lamentati"
+      ],
+      "subj_imp": [
+        "mi lamentassi",
+        "ti lamentassi",
+        "si lamentasse",
+        "ci lamentassimo",
+        "vi lamentaste",
+        "si lamentassero"
+      ],
+      "trap_pass": [
+        "mi ero lamentato",
+        "ti eri lamentato",
+        "si era lamentato",
+        "ci eravamo lamentati",
+        "vi eravate lamentati",
+        "si erano lamentati"
+      ],
+      "fut_ant": [
+        "mi sarò lamentato",
+        "ti sarai lamentato",
+        "si sarà lamentato",
+        "ci saremo lamentati",
+        "vi sarete lamentati",
+        "si saranno lamentati"
+      ],
+      "pc": [
+        "mi sono lamentato",
+        "ti sei lamentato",
+        "si è lamentato",
+        "ci siamo lamentati",
+        "vi siete lamentati",
+        "si sono lamentati"
+      ]
+    }
+  },
+  "litigare": {
+    "group": "1a coniugazione",
+    "level": "B1",
+    "definition": "Avere un contrasto verbale o un bisticcio con qualcuno.",
+    "antonyms": [
+      "pacificarsi"
+    ],
+    "auxiliary": "avere",
+    "usage_hint": "litigare con (qualcuno) / per (qualcosa)",
+    "tenses": {
+      "presente": [
+        "litigo",
+        "litighi",
+        "litiga",
+        "litighiamo",
+        "litigate",
+        "litigano"
+      ],
+      "pres": [
+        "litigo",
+        "litighi",
+        "litiga",
+        "litighiamo",
+        "litigate",
+        "litigano"
+      ],
+      "imperfetto": [
+        "litigavo",
+        "litigavi",
+        "litigava",
+        "litigavamo",
+        "litigate",
+        "litigavano"
+      ],
+      "imp": [
+        "litigavo",
+        "litigavi",
+        "litigava",
+        "litigavamo",
+        "litigate",
+        "litigavano"
+      ],
+      "futuro_semplice": [
+        "litigherò",
+        "litigherai",
+        "litigherà",
+        "litigheremo",
+        "litigherete",
+        "litigheranno"
+      ],
+      "fut": [
+        "litigherò",
+        "litigherai",
+        "litigherà",
+        "litigheremo",
+        "litigherete",
+        "litigheranno"
+      ],
+      "condizionale_presente": [
+        "litigherei",
+        "litigheresti",
+        "litigherebbe",
+        "litigheremmo",
+        "litighereste",
+        "litigherebbero"
+      ],
+      "cond": [
+        "litigherei",
+        "litigheresti",
+        "litigherebbe",
+        "litigheremmo",
+        "litighereste",
+        "litigherebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io litighi",
+        "che tu litighi",
+        "che egli litighi",
+        "che noi litighiamo",
+        "che voi litighiate",
+        "che essi litighino"
+      ],
+      "subj": [
+        "che io litighi",
+        "che tu litighi",
+        "che egli litighi",
+        "che noi litighiamo",
+        "che voi litighiate",
+        "che essi litighino"
+      ],
+      "imperativo": [
+        "litiga!",
+        "litighiamo!",
+        "litigate!"
+      ],
+      "impv": [
+        "litiga!",
+        "litighiamo!",
+        "litigate!"
+      ],
+      "participio_passato": [
+        "litigato"
+      ],
+      "part": [
+        "litigato"
+      ],
+      "cond_pass": [
+        "avrei litigato",
+        "avresti litigato",
+        "avrebbe litigato",
+        "avremmo litigato",
+        "avreste litigato",
+        "avrebbero litigato"
+      ],
+      "subj_pass": [
+        "abbia litigato",
+        "abbia litigato",
+        "abbia litigato",
+        "abbiamo litigato",
+        "abbiate litigato",
+        "abbiano litigato"
+      ],
+      "subj_imp": [
+        "litigassi",
+        "litigassi",
+        "litigasse",
+        "litigassimo",
+        "litigaste",
+        "litigassero"
+      ],
+      "trap_pass": [
+        "avevo litigato",
+        "avevi litigato",
+        "aveva litigato",
+        "avevamo litigato",
+        "avevate litigato",
+        "avevano litigato"
+      ],
+      "fut_ant": [
+        "avrò litigato",
+        "avrai litigato",
+        "avrà litigato",
+        "avremo litigato",
+        "avrete litigato",
+        "avranno litigato"
+      ],
+      "pc": [
+        "ho litigato",
+        "hai litigato",
+        "ha litigato",
+        "abbiamo litigato",
+        "avete litigato",
+        "hanno litigato"
+      ]
+    }
+  },
+  "scusarsi": {
+    "group": "1a coniugazione",
+    "level": "B1",
+    "definition": "Chiedere perdono per un errore o un ritardo.",
+    "antonyms": [],
+    "auxiliary": "essere",
+    "usage_hint": "scusarsi con (qualcuno) / per (qualcosa)",
+    "tenses": {
+      "presente": [
+        "mi scuso",
+        "ti scusi",
+        "si scusa",
+        "ci scusiamo",
+        "vi scusate",
+        "si scusano"
+      ],
+      "pres": [
+        "mi scuso",
+        "ti scusi",
+        "si scusa",
+        "ci scusiamo",
+        "vi scusate",
+        "si scusano"
+      ],
+      "imperfetto": [
+        "mi scusavo",
+        "ti scusavi",
+        "si scusava",
+        "ci scusavamo",
+        "vi scusavate",
+        "si scusavano"
+      ],
+      "imp": [
+        "mi scusavo",
+        "ti scusavi",
+        "si scusava",
+        "ci scusavamo",
+        "vi scusavate",
+        "si scusavano"
+      ],
+      "futuro_semplice": [
+        "mi scuserò",
+        "ti scuserai",
+        "si scuserà",
+        "ci scuseremo",
+        "vi scuserete",
+        "si scuseranno"
+      ],
+      "fut": [
+        "mi scuserò",
+        "ti scuserai",
+        "si scuserà",
+        "ci scuseremo",
+        "vi scuserete",
+        "si scuseranno"
+      ],
+      "condizionale_presente": [
+        "mi scuserei",
+        "ti scuseresti",
+        "si scuserebbe",
+        "ci scuseremmo",
+        "vi scusereste",
+        "si scuserebbero"
+      ],
+      "cond": [
+        "mi scuserei",
+        "ti scuseresti",
+        "si scuserebbe",
+        "ci scuseremmo",
+        "vi scusereste",
+        "si scuserebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io mi scusi",
+        "che tu ti scusi",
+        "che egli si scusi",
+        "che noi ci scusiamo",
+        "che voi vi scusiate",
+        "che essi si scusino"
+      ],
+      "subj": [
+        "che io mi scusi",
+        "che tu ti scusi",
+        "che egli si scusi",
+        "che noi ci scusiamo",
+        "che voi vi scusiate",
+        "che essi si scusino"
+      ],
+      "imperativo": [
+        "scusati!",
+        "scusiamoci!",
+        "scusatevi!"
+      ],
+      "impv": [
+        "scusati!",
+        "scusiamoci!",
+        "scusatevi!"
+      ],
+      "participio_passato": [
+        "scusato"
+      ],
+      "part": [
+        "scusato"
+      ],
+      "cond_pass": [
+        "mi sarei scusato",
+        "ti saresti scusato",
+        "si sarebbe scusato",
+        "ci saremmo scusati",
+        "vi sareste scusati",
+        "si sarebbero scusati"
+      ],
+      "subj_pass": [
+        "mi sia scusato",
+        "ti sia scusato",
+        "si sia scusato",
+        "ci siamo scusati",
+        "vi siate scusati",
+        "si siano scusati"
+      ],
+      "subj_imp": [
+        "mi scusassi",
+        "ti scusassi",
+        "si scusasse",
+        "ci scusassimo",
+        "vi scusaste",
+        "si scusassero"
+      ],
+      "trap_pass": [
+        "mi ero scusato",
+        "ti eri scusato",
+        "si era scusato",
+        "ci eravamo scusati",
+        "vi eravate scusati",
+        "si erano scusati"
+      ],
+      "fut_ant": [
+        "mi sarò scusato",
+        "ti sarai scusato",
+        "si sarà scusato",
+        "ci saremo scusati",
+        "vi sarete scusati",
+        "si saranno scusati"
+      ],
+      "pc": [
+        "mi sono scusato",
+        "ti sei scusato",
+        "si è scusato",
+        "ci siamo scusati",
+        "vi siete scusati",
+        "si sono scusati"
+      ]
+    }
+  },
+  "sottolineare": {
+    "group": "1a coniugazione",
+    "level": "B1",
+    "definition": "Evidenziare o dare particolare rilievo a un concetto.",
+    "antonyms": [],
+    "auxiliary": "avere",
+    "usage_hint": "sottolineare l'importanza di (qualcosa)",
+    "tenses": {
+      "presente": [
+        "sottolineo",
+        "sottolinei",
+        "sottolinea",
+        "sottolineiamo",
+        "sottolineate",
+        "sottolineano"
+      ],
+      "pres": [
+        "sottolineo",
+        "sottolinei",
+        "sottolinea",
+        "sottolineiamo",
+        "sottolineate",
+        "sottolineano"
+      ],
+      "imperfetto": [
+        "sottolineavo",
+        "sottolineavi",
+        "sottolineava",
+        "sottolineavamo",
+        "sottolineavate",
+        "sottolineavano"
+      ],
+      "imp": [
+        "sottolineavo",
+        "sottolineavi",
+        "sottolineava",
+        "sottolineavamo",
+        "sottolineavate",
+        "sottolineavano"
+      ],
+      "futuro_semplice": [
+        "sottolineerò",
+        "sottolineerai",
+        "sottolineerà",
+        "sottolineeremo",
+        "sottolineerete",
+        "sottolineeranno"
+      ],
+      "fut": [
+        "sottolineerò",
+        "sottolineerai",
+        "sottolineerà",
+        "sottolineeremo",
+        "sottolineerete",
+        "sottolineeranno"
+      ],
+      "condizionale_presente": [
+        "sottolineerei",
+        "sottolineeresti",
+        "sottolineerebbe",
+        "sottolineeremmo",
+        "sottolineereste",
+        "sottolineerebbero"
+      ],
+      "cond": [
+        "sottolineerei",
+        "sottolineeresti",
+        "sottolineerebbe",
+        "sottolineeremmo",
+        "sottolineereste",
+        "sottolineerebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io sottolinei",
+        "che tu sottolinei",
+        "che egli sottolinei",
+        "che noi sottolineiamo",
+        "che voi sottolineiate",
+        "che essi sottolineino"
+      ],
+      "subj": [
+        "che io sottolinei",
+        "che tu sottolinei",
+        "che egli sottolinei",
+        "che noi sottolineiamo",
+        "che voi sottolineiate",
+        "che essi sottolineino"
+      ],
+      "imperativo": [
+        "sottolinea!",
+        "sottolineiamo!",
+        "sottolineate!"
+      ],
+      "impv": [
+        "sottolinea!",
+        "sottolineiamo!",
+        "sottolineate!"
+      ],
+      "participio_passato": [
+        "sottolineato"
+      ],
+      "part": [
+        "sottolineato"
+      ],
+      "cond_pass": [
+        "avrei sottolineato",
+        "avresti sottolineato",
+        "avrebbe sottolineato",
+        "avremmo sottolineato",
+        "avreste sottolineato",
+        "avrebbero sottolineato"
+      ],
+      "subj_pass": [
+        "abbia sottolineato",
+        "abbia sottolineato",
+        "abbia sottolineato",
+        "abbiamo sottolineato",
+        "abbiate sottolineato",
+        "abbiano sottolineato"
+      ],
+      "subj_imp": [
+        "sottolineassi",
+        "sottolineassi",
+        "sottolineasse",
+        "sottolineassimo",
+        "sottolineaste",
+        "sottolineassero"
+      ],
+      "trap_pass": [
+        "avevo sottolineato",
+        "avevi sottolineato",
+        "aveva sottolineato",
+        "avevamo sottolineato",
+        "avevate sottolineato",
+        "avevano sottolineato"
+      ],
+      "fut_ant": [
+        "avrò sottolineato",
+        "avrai sottolineato",
+        "avrà sottolineato",
+        "avremo sottolineato",
+        "avrete sottolineato",
+        "avranno sottolineato"
+      ],
+      "pc": [
+        "ho sottolineato",
+        "hai sottolineato",
+        "ha sottolineato",
+        "abbiamo sottolineato",
+        "avete sottolineato",
+        "hanno sottolineato"
+      ]
+    }
+  },
+  "menzionare": {
+    "group": "1a coniugazione",
+    "level": "B1",
+    "definition": "Fare cenno o citare brevemente qualcosa.",
+    "antonyms": [
+      "omettere"
+    ],
+    "auxiliary": "avere",
+    "usage_hint": "menzionare (qualcosa) a (qualcuno)",
+    "tenses": {
+      "presente": [
+        "menziono",
+        "menzioni",
+        "menziona",
+        "menzioniamo",
+        "menzionate",
+        "menzionano"
+      ],
+      "pres": [
+        "menziono",
+        "menzioni",
+        "menziona",
+        "menzioniamo",
+        "menzionate",
+        "menzionano"
+      ],
+      "imperfetto": [
+        "menzionavo",
+        "menzionavi",
+        "menzionava",
+        "menzionavamo",
+        "menzionavate",
+        "menzionavano"
+      ],
+      "imp": [
+        "menzionavo",
+        "menzionavi",
+        "menzionava",
+        "menzionavamo",
+        "menzionavate",
+        "menzionavano"
+      ],
+      "futuro_semplice": [
+        "menzionerò",
+        "menzionerai",
+        "menzionerà",
+        "menzioneremo",
+        "menzionerete",
+        "menzioneranno"
+      ],
+      "fut": [
+        "menzionerò",
+        "menzionerai",
+        "menzionerà",
+        "menzioneremo",
+        "menzionerete",
+        "menzioneranno"
+      ],
+      "condizionale_presente": [
+        "menzionerei",
+        "menzioneresti",
+        "menzionerebbe",
+        "menzioneremmo",
+        "menzionereste",
+        "menzionerebbero"
+      ],
+      "cond": [
+        "menzionerei",
+        "menzioneresti",
+        "menzionerebbe",
+        "menzioneremmo",
+        "menzionereste",
+        "menzionerebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io menzioni",
+        "che tu menzioni",
+        "che egli menzioni",
+        "che noi menzioniamo",
+        "che voi menzioniate",
+        "che essi menzionino"
+      ],
+      "subj": [
+        "che io menzioni",
+        "che tu menzioni",
+        "che egli menzioni",
+        "che noi menzioniamo",
+        "che voi menzioniate",
+        "che essi menzionino"
+      ],
+      "imperativo": [
+        "menziona!",
+        "menzioniamo!",
+        "menzionate!"
+      ],
+      "impv": [
+        "menziona!",
+        "menzioniamo!",
+        "menzionate!"
+      ],
+      "participio_passato": [
+        "menzionato"
+      ],
+      "part": [
+        "menzionato"
+      ],
+      "cond_pass": [
+        "avrei menzionato",
+        "avresti menzionato",
+        "avrebbe menzionato",
+        "avremmo menzionato",
+        "avreste menzionato",
+        "avrebbero menzionato"
+      ],
+      "subj_pass": [
+        "abbia menzionato",
+        "abbia menzionato",
+        "abbia menzionato",
+        "abbiamo menzionato",
+        "abbiate menzionato",
+        "abbiano menzionato"
+      ],
+      "subj_imp": [
+        "menzionassi",
+        "menzionassi",
+        "menzionasse",
+        "menzionassimo",
+        "menzionaste",
+        "menzionassero"
+      ],
+      "trap_pass": [
+        "avevo menzionato",
+        "avevi menzionato",
+        "aveva menzionato",
+        "avevamo menzionato",
+        "avevate menzionato",
+        "avevano menzionato"
+      ],
+      "fut_ant": [
+        "avrò menzionato",
+        "avrai menzionato",
+        "avrà menzionato",
+        "avremo menzionato",
+        "avrete menzionato",
+        "avranno menzionato"
+      ],
+      "pc": [
+        "ho menzionato",
+        "hai menzionato",
+        "ha menzionato",
+        "abbiamo menzionato",
+        "avete menzionato",
+        "hanno menzionato"
+      ]
+    }
+  },
+  "insistere": {
+    "group": "2a coniugazione",
+    "level": "B1",
+    "definition": "Persistere con fermezza in una richiesta o opinione.",
+    "antonyms": [
+      "cedere"
+    ],
+    "auxiliary": "avere",
+    "usage_hint": "insistere su (qualcosa) / per (fare qualcosa)",
+    "tenses": {
+      "presente": [
+        "insisto",
+        "insisti",
+        "insiste",
+        "insistiamo",
+        "insistete",
+        "insistono"
+      ],
+      "pres": [
+        "insisto",
+        "insisti",
+        "insiste",
+        "insistiamo",
+        "insistete",
+        "insistono"
+      ],
+      "imperfetto": [
+        "insistevo",
+        "insistevi",
+        "insisteva",
+        "insistevamo",
+        "insistevate",
+        "insistevano"
+      ],
+      "imp": [
+        "insistevo",
+        "insistevi",
+        "insisteva",
+        "insistevamo",
+        "insistevate",
+        "insistevano"
+      ],
+      "futuro_semplice": [
+        "insisterò",
+        "insisterai",
+        "insisterà",
+        "insisteremo",
+        "insisterete",
+        "insisteranno"
+      ],
+      "fut": [
+        "insisterò",
+        "insisterai",
+        "insisterà",
+        "insisteremo",
+        "insisterete",
+        "insisteranno"
+      ],
+      "condizionale_presente": [
+        "insisterei",
+        "insisteresti",
+        "insisterebbe",
+        "insisteremmo",
+        "insistereste",
+        "insisterebbero"
+      ],
+      "cond": [
+        "insisterei",
+        "insisteresti",
+        "insisterebbe",
+        "insisteremmo",
+        "insistereste",
+        "insisterebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io insista",
+        "che tu insista",
+        "che egli insista",
+        "che noi insistiamo",
+        "che voi insistiate",
+        "che essi insistano"
+      ],
+      "subj": [
+        "che io insista",
+        "che tu insista",
+        "che egli insista",
+        "che noi insistiamo",
+        "che voi insistiate",
+        "che essi insistano"
+      ],
+      "imperativo": [
+        "insisti!",
+        "insistiamo!",
+        "insistete!"
+      ],
+      "impv": [
+        "insisti!",
+        "insistiamo!",
+        "insistete!"
+      ],
+      "participio_passato": [
+        "insistito"
+      ],
+      "part": [
+        "insistito"
+      ],
+      "cond_pass": [
+        "avrei insistito",
+        "avresti insistito",
+        "avrebbe insistito",
+        "avremmo insistito",
+        "avreste insistito",
+        "avrebbero insistito"
+      ],
+      "subj_pass": [
+        "abbia insistito",
+        "abbia insistito",
+        "abbia insistito",
+        "abbiamo insistito",
+        "abbiate insistito",
+        "abbiano insistito"
+      ],
+      "subj_imp": [
+        "insistessi",
+        "insistessi",
+        "insistesse",
+        "insistessimo",
+        "insisteste",
+        "insistessero"
+      ],
+      "trap_pass": [
+        "avevo insistito",
+        "avevi insistito",
+        "aveva insistito",
+        "avevamo insistito",
+        "avevate insistito",
+        "avevano insistito"
+      ],
+      "fut_ant": [
+        "avrò insistito",
+        "avrai insistito",
+        "avrà insistito",
+        "avremo insistito",
+        "avrete insistito",
+        "avranno insistito"
+      ],
+      "pc": [
+        "ho insistito",
+        "hai insistito",
+        "ha insistito",
+        "abbiamo insistito",
+        "avete insistito",
+        "hanno insistito"
+      ]
+    }
+  },
+  "negoziare": {
+    "group": "1a coniugazione",
+    "level": "B1",
+    "definition": "Trattare per raggiungere un accordo.",
+    "antonyms": [],
+    "auxiliary": "avere",
+    "usage_hint": "negoziare con (qualcuno) / su (un argomento)",
+    "tenses": {
+      "presente": [
+        "negozio",
+        "negozii",
+        "negozia",
+        "negoziamo",
+        "negoziate",
+        "negoziano"
+      ],
+      "pres": [
+        "negozio",
+        "negozii",
+        "negozia",
+        "negoziamo",
+        "negoziate",
+        "negoziano"
+      ],
+      "imperfetto": [
+        "negoziavo",
+        "negoziavi",
+        "negoziava",
+        "negoziavamo",
+        "negoziavate",
+        "negoziavano"
+      ],
+      "imp": [
+        "negoziavo",
+        "negoziavi",
+        "negoziava",
+        "negoziavamo",
+        "negoziavate",
+        "negoziavano"
+      ],
+      "futuro_semplice": [
+        "negozierò",
+        "negozierai",
+        "negozierà",
+        "negozieremo",
+        "negozierete",
+        "negozieranno"
+      ],
+      "fut": [
+        "negozierò",
+        "negozierai",
+        "negozierà",
+        "negozieremo",
+        "negozierete",
+        "negozieranno"
+      ],
+      "condizionale_presente": [
+        "negozierei",
+        "negozieresti",
+        "negozierebbe",
+        "negozieremmo",
+        "negoziereste",
+        "negozierebbero"
+      ],
+      "cond": [
+        "negozierei",
+        "negozieresti",
+        "negozierebbe",
+        "negozieremmo",
+        "negoziereste",
+        "negozierebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io negozii",
+        "che tu negozii",
+        "che egli negozii",
+        "che noi negoziamo",
+        "che voi negoziate",
+        "che essi negoziino"
+      ],
+      "subj": [
+        "che io negozii",
+        "che tu negozii",
+        "che egli negozii",
+        "che noi negoziamo",
+        "che voi negoziate",
+        "che essi negoziino"
+      ],
+      "imperativo": [
+        "negozia!",
+        "negoziamo!",
+        "negoziate!"
+      ],
+      "impv": [
+        "negozia!",
+        "negoziamo!",
+        "negoziate!"
+      ],
+      "participio_passato": [
+        "negoziato"
+      ],
+      "part": [
+        "negoziato"
+      ],
+      "cond_pass": [
+        "avrei negoziato",
+        "avresti negoziato",
+        "avrebbe negoziato",
+        "avremmo negoziato",
+        "avreste negoziato",
+        "avrebbero negoziato"
+      ],
+      "subj_pass": [
+        "abbia negoziato",
+        "abbia negoziato",
+        "abbia negoziato",
+        "abbiamo negoziato",
+        "abbiate negoziato",
+        "abbiano negoziato"
+      ],
+      "subj_imp": [
+        "negoziassi",
+        "negoziassi",
+        "negoziasse",
+        "negoziassimo",
+        "negoziaste",
+        "negoziassero"
+      ],
+      "trap_pass": [
+        "avevo negoziato",
+        "avevi negoziato",
+        "aveva negoziato",
+        "avevamo negoziato",
+        "avevate negoziato",
+        "avevano negoziato"
+      ],
+      "fut_ant": [
+        "avrò negoziato",
+        "avrai negoziato",
+        "avrà negoziato",
+        "avremo negoziato",
+        "avrete negoziato",
+        "avranno negoziato"
+      ],
+      "pc": [
+        "ho negoziato",
+        "hai negoziato",
+        "ha negoziato",
+        "abbiamo negoziato",
+        "avete negoziato",
+        "hanno negoziato"
+      ]
+    }
+  },
+  "licenziare": {
+    "group": "1a coniugazione",
+    "level": "B1",
+    "definition": "Interrompere il rapporto di lavoro di un dipendente.",
+    "antonyms": [
+      "assumere"
+    ],
+    "auxiliary": "avere",
+    "usage_hint": "licenziare (un dipendente)",
+    "tenses": {
+      "presente": [
+        "licenzio",
+        "licenzii",
+        "licenzia",
+        "licenziamo",
+        "licenziate",
+        "licenziano"
+      ],
+      "pres": [
+        "licenzio",
+        "licenzii",
+        "licenzia",
+        "licenziamo",
+        "licenziate",
+        "licenziano"
+      ],
+      "imperfetto": [
+        "licenziavo",
+        "licenziavi",
+        "licenziava",
+        "licenziavamo",
+        "licenziavate",
+        "licenziavano"
+      ],
+      "imp": [
+        "licenziavo",
+        "licenziavi",
+        "licenziava",
+        "licenziavamo",
+        "licenziavate",
+        "licenziavano"
+      ],
+      "futuro_semplice": [
+        "licenzierò",
+        "licenzierai",
+        "licenzierà",
+        "licenzieremo",
+        "licenzierete",
+        "licenzieranno"
+      ],
+      "fut": [
+        "licenzierò",
+        "licenzierai",
+        "licenzierà",
+        "licenzieremo",
+        "licenzierete",
+        "licenzieranno"
+      ],
+      "condizionale_presente": [
+        "licenzierei",
+        "licenzieresti",
+        "licenzierebbe",
+        "licenzieremmo",
+        "licenziereste",
+        "licenzierebbero"
+      ],
+      "cond": [
+        "licenzierei",
+        "licenzieresti",
+        "licenzierebbe",
+        "licenzieremmo",
+        "licenziereste",
+        "licenzierebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io licenzii",
+        "che tu licenzii",
+        "che egli licenzii",
+        "che noi licenziamo",
+        "che voi licenziate",
+        "che essi licenziino"
+      ],
+      "subj": [
+        "che io licenzii",
+        "che tu licenzii",
+        "che egli licenzii",
+        "che noi licenziamo",
+        "che voi licenziate",
+        "che essi licenziino"
+      ],
+      "imperativo": [
+        "licenzia!",
+        "licenziamo!",
+        "licenziate!"
+      ],
+      "impv": [
+        "licenzia!",
+        "licenziamo!",
+        "licenziate!"
+      ],
+      "participio_passato": [
+        "licenziato"
+      ],
+      "part": [
+        "licenziato"
+      ],
+      "cond_pass": [
+        "avrei licenziato",
+        "avresti licenziato",
+        "avrebbe licenziato",
+        "avremmo licenziato",
+        "avreste licenziato",
+        "avrebbero licenziato"
+      ],
+      "subj_pass": [
+        "abbia licenziato",
+        "abbia licenziato",
+        "abbia licenziato",
+        "abbiamo licenziato",
+        "abbiate licenziato",
+        "abbiano licenziato"
+      ],
+      "subj_imp": [
+        "licenziassi",
+        "licenziassi",
+        "licenziasse",
+        "licenziassimo",
+        "licenziaste",
+        "licenziassero"
+      ],
+      "trap_pass": [
+        "avevo licenziato",
+        "avevi licenziato",
+        "aveva licenziato",
+        "avevamo licenziato",
+        "avevate licenziato",
+        "avevano licenziato"
+      ],
+      "fut_ant": [
+        "avrò licenziato",
+        "avrai licenziato",
+        "avrà licenziato",
+        "avremo licenziato",
+        "avrete licenziato",
+        "avranno licenziato"
+      ],
+      "pc": [
+        "ho licenziato",
+        "hai licenziato",
+        "ha licenziato",
+        "abbiamo licenziato",
+        "avete licenziato",
+        "hanno licenziato"
+      ]
+    }
+  },
+  "assumere": {
+    "group": "2a coniugazione",
+    "level": "B1",
+    "definition": "Prendere alle proprie dipendenze un lavoratore.",
+    "antonyms": [
+      "licenziare"
+    ],
+    "auxiliary": "avere",
+    "usage_hint": "assumere (un lavoratore)",
+    "tenses": {
+      "presente": [
+        "assumo",
+        "assumi",
+        "assume",
+        "assumiamo",
+        "assumete",
+        "assumono"
+      ],
+      "pres": [
+        "assumo",
+        "assumi",
+        "assume",
+        "assumiamo",
+        "assumete",
+        "assumono"
+      ],
+      "imperfetto": [
+        "assumevo",
+        "assumevi",
+        "assumeva",
+        "assumevamo",
+        "assumevate",
+        "assumevano"
+      ],
+      "imp": [
+        "assumevo",
+        "assumevi",
+        "assumeva",
+        "assumevamo",
+        "assumevate",
+        "assumevano"
+      ],
+      "futuro_semplice": [
+        "assumerò",
+        "assumerai",
+        "assumerà",
+        "assumeremo",
+        "assumerete",
+        "assumeranno"
+      ],
+      "fut": [
+        "assumerò",
+        "assumerai",
+        "assumerà",
+        "assumeremo",
+        "assumerete",
+        "assumeranno"
+      ],
+      "condizionale_presente": [
+        "assumerei",
+        "assumeresti",
+        "assumerebbe",
+        "assumeremmo",
+        "assumereste",
+        "assumerebbero"
+      ],
+      "cond": [
+        "assumerei",
+        "assumeresti",
+        "assumerebbe",
+        "assumeremmo",
+        "assumereste",
+        "assumerebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io assuma",
+        "che tu assuma",
+        "che egli assuma",
+        "che noi assumiamo",
+        "che voi assumiate",
+        "che essi assumano"
+      ],
+      "subj": [
+        "che io assuma",
+        "che tu assuma",
+        "che egli assuma",
+        "che noi assumiamo",
+        "che voi assumiate",
+        "che essi assumano"
+      ],
+      "imperativo": [
+        "assumi!",
+        "assumiamo!",
+        "assumete!"
+      ],
+      "impv": [
+        "assumi!",
+        "assumiamo!",
+        "assumete!"
+      ],
+      "participio_passato": [
+        "assunto"
+      ],
+      "part": [
+        "assunto"
+      ],
+      "cond_pass": [
+        "avrei assunto",
+        "avresti assunto",
+        "avrebbe assunto",
+        "avremmo assunto",
+        "avreste assunto",
+        "avrebbero assunto"
+      ],
+      "subj_pass": [
+        "abbia assunto",
+        "abbia assunto",
+        "abbia assunto",
+        "abbiamo assunto",
+        "abbiate assunto",
+        "abbiano assunto"
+      ],
+      "subj_imp": [
+        "assumessi",
+        "assumessi",
+        "assumesse",
+        "assumessimo",
+        "assumeste",
+        "assumessero"
+      ],
+      "trap_pass": [
+        "avevo assunto",
+        "avevi assunto",
+        "aveva assunto",
+        "avevamo assunto",
+        "avevate assunto",
+        "avevano assunto"
+      ],
+      "fut_ant": [
+        "avrò assunto",
+        "avrai assunto",
+        "avrà assunto",
+        "avremo assunto",
+        "avrete assunto",
+        "avranno assunto"
+      ],
+      "pc": [
+        "ho assunto",
+        "hai assunto",
+        "ha assunto",
+        "abbiamo assunto",
+        "avete assunto",
+        "hanno assunto"
+      ]
+    }
+  },
+  "dimettersi": {
+    "group": "2a coniugazione",
+    "level": "B1",
+    "definition": "Rinunciare volontariamente a una carica o a un impiego.",
+    "antonyms": [],
+    "auxiliary": "essere",
+    "usage_hint": "dimettersi da (un lavoro / un incarico)",
+    "tenses": {
+      "presente": [
+        "mi dimetto",
+        "ti dimetti",
+        "si dimette",
+        "ci dimettiamo",
+        "vi dimettete",
+        "si dimettono"
+      ],
+      "pres": [
+        "mi dimetto",
+        "ti dimetti",
+        "si dimette",
+        "ci dimettiamo",
+        "vi dimettete",
+        "si dimettono"
+      ],
+      "imperfetto": [
+        "mi dimettevo",
+        "ti dimettevi",
+        "si dimetteva",
+        "ci dimettevamo",
+        "vi dimettevate",
+        "si dimettevano"
+      ],
+      "imp": [
+        "mi dimettevo",
+        "ti dimettevi",
+        "si dimetteva",
+        "ci dimettevamo",
+        "vi dimettevate",
+        "si dimettevano"
+      ],
+      "futuro_semplice": [
+        "mi dimetterò",
+        "ti dimetterai",
+        "si dimetterà",
+        "ci dimetteremo",
+        "vi dimetterete",
+        "si dimetteranno"
+      ],
+      "fut": [
+        "mi dimetterò",
+        "ti dimetterai",
+        "si dimetterà",
+        "ci dimetteremo",
+        "vi dimetterete",
+        "si dimetteranno"
+      ],
+      "condizionale_presente": [
+        "mi dimetterei",
+        "ti dimetteresti",
+        "si dimetterebbe",
+        "ci dimetteremmo",
+        "vi dimettereste",
+        "si dimetterebbero"
+      ],
+      "cond": [
+        "mi dimetterei",
+        "ti dimetteresti",
+        "si dimetterebbe",
+        "ci dimetteremmo",
+        "vi dimettereste",
+        "si dimetterebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io mi dimetta",
+        "che tu ti dimetta",
+        "che egli si dimetta",
+        "che noi ci dimettiamo",
+        "che voi vi dimettiate",
+        "che essi si dimettano"
+      ],
+      "subj": [
+        "che io mi dimetta",
+        "che tu ti dimetta",
+        "che egli si dimetta",
+        "che noi ci dimettiamo",
+        "che voi vi dimettiate",
+        "che essi si dimettano"
+      ],
+      "imperativo": [
+        "dimettiti!",
+        "dimettiamoci!",
+        "dimettetevi!"
+      ],
+      "impv": [
+        "dimettiti!",
+        "dimettiamoci!",
+        "dimettetevi!"
+      ],
+      "participio_passato": [
+        "dimesso"
+      ],
+      "part": [
+        "dimesso"
+      ],
+      "cond_pass": [
+        "mi sarei dimesso",
+        "ti saresti dimesso",
+        "si sarebbe dimesso",
+        "ci saremmo dimessi",
+        "vi sareste dimessi",
+        "si sarebbero dimessi"
+      ],
+      "subj_pass": [
+        "mi sia dimesso",
+        "ti sia dimesso",
+        "si sia dimesso",
+        "ci siamo dimessi",
+        "vi siate dimessi",
+        "si siano dimessi"
+      ],
+      "subj_imp": [
+        "mi dimettessi",
+        "ti dimettessi",
+        "si dimettesse",
+        "ci dimettessimo",
+        "vi dimetteste",
+        "si dimettessero"
+      ],
+      "trap_pass": [
+        "mi ero dimesso",
+        "ti eri dimesso",
+        "si era dimesso",
+        "ci eravamo dimessi",
+        "vi eravate dimessi",
+        "si erano dimessi"
+      ],
+      "fut_ant": [
+        "mi sarò dimesso",
+        "ti sarai dimesso",
+        "si sarà dimesso",
+        "ci saremo dimessi",
+        "vi sarete dimessi",
+        "si saranno dimessi"
+      ],
+      "pc": [
+        "mi sono dimesso",
+        "ti sei dimesso",
+        "si è dimesso",
+        "ci siamo dimessi",
+        "vi siete dimessi",
+        "si sono dimessi"
       ]
     }
   }
