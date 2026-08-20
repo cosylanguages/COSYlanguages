@@ -78,7 +78,10 @@ class ItalianConjugationEngine {
         }
     }
 
-    formatColorCoded(form) {
+    formatColorCoded(form, isIrregular = false) {
+        if (isIrregular) {
+            return form;
+        }
         const endings = ['avamo', 'avate', 'avano', 'eremo', 'erete', 'eranno', 'iamo', 'ate', 'ano', 'avo', 'avi', 'ava', 'erò', 'erai', 'erà', 'ato', 'o', 'i', 'a'];
         let words = form.split(' ');
         let lastWord = words.pop();
@@ -170,7 +173,7 @@ class ItalianConjugationEngine {
             if (list && forms) {
                 list.innerHTML = forms.map((f, i) => {
                     const cleanForm = f.replace(/^(io|tu|lui\/lei|lui|lei|noi|voi|loro|che io|che tu|che lui\/lei|che noi|che voi|che loro)\s+/i, '').trim();
-                    return `<li><span class="pronoun">${pronouns[i] || ''}</span> <span>${this.formatColorCoded(cleanForm)}</span></li>`;
+                    return `<li><span class="pronoun">${pronouns[i] || ''}</span> <span>${this.formatColorCoded(cleanForm, data.irregular)}</span></li>`;
                 }).join('');
             }
         }

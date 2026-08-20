@@ -182,7 +182,10 @@ class ConjugationEngine {
         };
     }
 
-    formatColorCodedForm(form, infinitive) {
+    formatColorCodedForm(form, infinitive, isIrregular = false) {
+        if (isIrregular) {
+            return form;
+        }
         const regularEndings = ['issent', 'issez', 'issons', 'issais', 'issait', 'issaient', 'issiez', 'issions', 'eraient', 'erions', 'eriez', 'erais', 'erait', 'eront', 'erez', 'erons', 'eras', 'erai', 'aient', 'ions', 'iez', 'ais', 'ait', 'ons', 'ez', 'ent', 'es', 'is', 'it', 'e', 's', 't', 'é'];
 
         let words = form.split(' ');
@@ -292,7 +295,7 @@ class ConjugationEngine {
             if (listEl) {
                 listEl.innerHTML = forms.map((form, idx) => {
                     const cleanForm = form.replace(/^(je\s+|j'|tu\s+|il\/elle\s+|nous\s+|vous\s+|ils\/elles\s+|que\s+je\s+|que\s+j'|que\s+tu\s+|qu'il\/elle\s+|que\s+nous\s+|que\s+vous\s+|qu'ils\/elles\s+)/i, '').trim();
-                    const formattedForm = this.formatColorCodedForm(cleanForm, infinitive);
+                    const formattedForm = this.formatColorCodedForm(cleanForm, infinitive, data.irregular);
                     return `<li><span class="pronoun">${pronounsMap[tenseKey]?.[idx] || ''}</span> <span class="verb-form">${formattedForm}</span></li>`;
                 }).join('');
             }

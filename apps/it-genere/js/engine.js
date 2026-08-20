@@ -99,11 +99,15 @@ class ItalianGenderEngine {
 
         const defaultPlur = isFem ? (noun.endsWith('a') ? noun.slice(0, -1) + 'e' : noun + 'e') : (noun.slice(0, -1) + 'i');
         const pluralForm = data.plural || defaultPlur;
-
-        let plurEnding = pluralForm.length > 1 ? pluralForm.slice(-1) : '';
-        let plurStem = pluralForm.length > 1 ? pluralForm.slice(0, -1) : pluralForm;
         let plurArticle = isFem ? 'le' : (singArt === 'lo' || (isVowel && !isFem) ? 'gli' : 'i');
-        document.getElementById('plur-form').innerHTML = `<span class="article">${plurArticle}</span> <span class="stem">${plurStem}</span><span class="ending">${plurEnding}</span>`;
+
+        if (data.irregular) {
+            document.getElementById('plur-form').innerHTML = `<span class="article">${plurArticle}</span> <span>${pluralForm}</span>`;
+        } else {
+            let plurEnding = pluralForm.length > 1 ? pluralForm.slice(-1) : '';
+            let plurStem = pluralForm.length > 1 ? pluralForm.slice(0, -1) : pluralForm;
+            document.getElementById('plur-form').innerHTML = `<span class="article">${plurArticle}</span> <span class="stem">${plurStem}</span><span class="ending">${plurEnding}</span>`;
+        }
 
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {

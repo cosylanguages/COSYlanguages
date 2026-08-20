@@ -64,7 +64,10 @@ class GreekGenderCasesEngine {
         }
     }
 
-    formatColorCoded(phrase) {
+    formatColorCoded(phrase, isIrregular = false) {
+        if (isIrregular) {
+            return phrase;
+        }
         const endings = ['ους', 'ων', 'ες', 'οι', 'ου', 'ος', 'ης', 'ας', 'ια', 'α', 'η', 'ο'];
         let words = phrase.split(' ');
         let lastWord = words.pop();
@@ -131,8 +134,8 @@ class GreekGenderCasesEngine {
             return `
             <tr>
                 <td><strong>${c.name}</strong></td>
-                <td>${this.formatColorCoded(singVal)}</td>
-                <td>${this.formatColorCoded(plurVal)}</td>
+                <td>${this.formatColorCoded(singVal, data.irregular)}</td>
+                <td>${this.formatColorCoded(plurVal, data.irregular)}</td>
             </tr>
             `;
         }).join('');

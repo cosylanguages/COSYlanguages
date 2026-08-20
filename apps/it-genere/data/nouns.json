@@ -7,7 +7,8 @@
       "strada"
     ],
     "article": "la",
-    "plural": "case"
+    "plural": "case",
+    "irregular": false
   },
   "macchina": {
     "gender": "Femminile",
@@ -17,7 +18,8 @@
       "pedone"
     ],
     "article": "la",
-    "plural": "macchine"
+    "plural": "macchine",
+    "irregular": false
   },
   "tavola": {
     "gender": "Femminile",
@@ -27,7 +29,8 @@
       "sedia"
     ],
     "article": "la",
-    "plural": "tavole"
+    "plural": "tavole",
+    "irregular": false
   },
   "sedia": {
     "gender": "Femminile",
@@ -37,7 +40,8 @@
       "tavola"
     ],
     "article": "la",
-    "plural": "sedie"
+    "plural": "sedie",
+    "irregular": false
   },
   "porta": {
     "gender": "Femminile",
@@ -47,7 +51,8 @@
       "finestra"
     ],
     "article": "la",
-    "plural": "porte"
+    "plural": "porte",
+    "irregular": false
   },
   "finestra": {
     "gender": "Femminile",
@@ -57,7 +62,8 @@
       "porta"
     ],
     "article": "la",
-    "plural": "finestre"
+    "plural": "finestre",
+    "irregular": false
   },
   "città": {
     "gender": "Femminile",
@@ -67,7 +73,8 @@
       "campagna"
     ],
     "article": "la",
-    "plural": "città"
+    "plural": "città",
+    "irregular": false
   },
   "strada": {
     "gender": "Femminile",
@@ -77,7 +84,8 @@
       "piazza"
     ],
     "article": "la",
-    "plural": "strade"
+    "plural": "strade",
+    "irregular": false
   },
   "scuola": {
     "gender": "Femminile",
@@ -87,7 +95,8 @@
       "casa"
     ],
     "article": "la",
-    "plural": "scuole"
+    "plural": "scuole",
+    "irregular": false
   },
   "acqua": {
     "gender": "Femminile",
@@ -97,7 +106,8 @@
       "fuoco"
     ],
     "article": "l'",
-    "plural": "acque"
+    "plural": "acque",
+    "irregular": false
   },
   "terra": {
     "gender": "Femminile",
@@ -107,7 +117,8 @@
       "cielo"
     ],
     "article": "la",
-    "plural": "terre"
+    "plural": "terre",
+    "irregular": false
   },
   "materia": {
     "gender": "Femminile",
@@ -117,7 +128,8 @@
       "spirito"
     ],
     "article": "la",
-    "plural": "materie"
+    "plural": "materie",
+    "irregular": false
   },
   "montagna": {
     "gender": "Femminile",
@@ -127,7 +139,8 @@
       "valle"
     ],
     "article": "la",
-    "plural": "montagne"
+    "plural": "montagne",
+    "irregular": false
   },
   "notte": {
     "gender": "Femminile",
@@ -137,7 +150,8 @@
       "giorno"
     ],
     "article": "la",
-    "plural": "notti"
+    "plural": "notti",
+    "irregular": false
   },
   "chiave": {
     "gender": "Femminile",
@@ -147,7 +161,8 @@
       "serratura"
     ],
     "article": "la",
-    "plural": "chiavi"
+    "plural": "chiavi",
+    "irregular": false
   },
   "stanza": {
     "gender": "Femminile",
@@ -157,7 +172,8 @@
       "salone"
     ],
     "article": "la",
-    "plural": "stanze"
+    "plural": "stanze",
+    "irregular": false
   },
   "cucina": {
     "gender": "Femminile",
@@ -167,7 +183,8 @@
       "sala"
     ],
     "article": "la",
-    "plural": "cucine"
+    "plural": "cucine",
+    "irregular": false
   },
   "musica": {
     "gender": "Femminile",
@@ -177,7 +194,8 @@
       "silenzio"
     ],
     "article": "la",
-    "plural": "musiche"
+    "plural": "musiche",
+    "irregular": false
   },
   "luce": {
     "gender": "Femminile",
@@ -187,7 +205,8 @@
       "ombra"
     ],
     "article": "la",
-    "plural": "luci"
+    "plural": "luci",
+    "irregular": false
   },
   "ombra": {
     "gender": "Femminile",
@@ -197,7 +216,8 @@
       "luce"
     ],
     "article": "l'",
-    "plural": "ombre"
+    "plural": "ombre",
+    "irregular": false
   },
   "idea": {
     "gender": "Femminile",
@@ -207,7 +227,8 @@
       "azione"
     ],
     "article": "l'",
-    "plural": "idee"
+    "plural": "idee",
+    "irregular": false
   },
   "verità": {
     "gender": "Femminile",
@@ -217,7 +238,8 @@
       "bugia"
     ],
     "article": "la",
-    "plural": "verità"
+    "plural": "verità",
+    "irregular": false
   },
   "libertà": {
     "gender": "Femminile",
@@ -227,7 +249,8 @@
       "schiavitù"
     ],
     "article": "la",
-    "plural": "libertà"
+    "plural": "libertà",
+    "irregular": false
   },
   "pace": {
     "gender": "Femminile",
@@ -237,7 +260,8 @@
       "guerra"
     ],
     "article": "la",
-    "plural": "paci"
+    "plural": "paci",
+    "irregular": false
   },
   "guerra": {
     "gender": "Femminile",
@@ -247,7 +271,8 @@
       "pace"
     ],
     "article": "la",
-    "plural": "guerre"
+    "plural": "guerre",
+    "irregular": false
   },
   "vita": {
     "gender": "Femminile",
@@ -257,7 +282,8 @@
       "morte"
     ],
     "article": "la",
-    "plural": "vite"
+    "plural": "vite",
+    "irregular": false
   },
   "morte": {
     "gender": "Femminile",
@@ -267,7 +293,8 @@
       "vita"
     ],
     "article": "la",
-    "plural": "morti"
+    "plural": "morti",
+    "irregular": false
   },
   "mano": {
     "gender": "Femminile",
@@ -278,7 +305,8 @@
     ],
     "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-o' ma è FEMMINILE ('la mano', plurale 'le mani').",
     "article": "la",
-    "plural": "mani"
+    "plural": "mani",
+    "irregular": false
   },
   "testa": {
     "gender": "Femminile",
@@ -288,7 +316,8 @@
       "piede"
     ],
     "article": "la",
-    "plural": "teste"
+    "plural": "teste",
+    "irregular": false
   },
   "voce": {
     "gender": "Femminile",
@@ -298,7 +327,8 @@
       "silenzio"
     ],
     "article": "la",
-    "plural": "voci"
+    "plural": "voci",
+    "irregular": false
   },
   "domanda": {
     "gender": "Femminile",
@@ -308,7 +338,8 @@
       "risposta"
     ],
     "article": "la",
-    "plural": "domande"
+    "plural": "domande",
+    "irregular": false
   },
   "risposta": {
     "gender": "Femminile",
@@ -318,7 +349,8 @@
       "domanda"
     ],
     "article": "la",
-    "plural": "risposte"
+    "plural": "risposte",
+    "irregular": false
   },
   "storia": {
     "gender": "Femminile",
@@ -328,7 +360,8 @@
       "invenzione"
     ],
     "article": "la",
-    "plural": "storie"
+    "plural": "storie",
+    "irregular": false
   },
   "famiglia": {
     "gender": "Femminile",
@@ -338,7 +371,8 @@
       "solitudine"
     ],
     "article": "la",
-    "plural": "famiglie"
+    "plural": "famiglie",
+    "irregular": false
   },
   "stagione": {
     "gender": "Femminile",
@@ -348,7 +382,8 @@
       "anno"
     ],
     "article": "la",
-    "plural": "stagioni"
+    "plural": "stagioni",
+    "irregular": false
   },
   "settimana": {
     "gender": "Femminile",
@@ -358,7 +393,8 @@
       "mese"
     ],
     "article": "la",
-    "plural": "settimane"
+    "plural": "settimane",
+    "irregular": false
   },
   "ora": {
     "gender": "Femminile",
@@ -368,7 +404,8 @@
       "secondo"
     ],
     "article": "l'",
-    "plural": "ore"
+    "plural": "ore",
+    "irregular": false
   },
   "minuto": {
     "gender": "Maschile",
@@ -378,7 +415,8 @@
       "ora"
     ],
     "article": "il",
-    "plural": "minuti"
+    "plural": "minuti",
+    "irregular": false
   },
   "canzone": {
     "gender": "Femminile",
@@ -388,7 +426,8 @@
       "poesia"
     ],
     "article": "la",
-    "plural": "canzoni"
+    "plural": "canzoni",
+    "irregular": false
   },
   "gioia": {
     "gender": "Femminile",
@@ -398,7 +437,8 @@
       "tristezza"
     ],
     "article": "la",
-    "plural": "gioie"
+    "plural": "gioie",
+    "irregular": false
   },
   "tristezza": {
     "gender": "Femminile",
@@ -408,7 +448,8 @@
       "gioia"
     ],
     "article": "la",
-    "plural": "tristezze"
+    "plural": "tristezze",
+    "irregular": false
   },
   "paura": {
     "gender": "Femminile",
@@ -418,7 +459,8 @@
       "coraggio"
     ],
     "article": "la",
-    "plural": "paure"
+    "plural": "paure",
+    "irregular": false
   },
   "salute": {
     "gender": "Femminile",
@@ -428,7 +470,8 @@
       "malattia"
     ],
     "article": "la",
-    "plural": "salute"
+    "plural": "salute",
+    "irregular": true
   },
   "malattia": {
     "gender": "Femminile",
@@ -438,7 +481,8 @@
       "salute"
     ],
     "article": "la",
-    "plural": "malattie"
+    "plural": "malattie",
+    "irregular": false
   },
   "soluzione": {
     "gender": "Femminile",
@@ -448,7 +492,8 @@
       "problema"
     ],
     "article": "la",
-    "plural": "soluzioni"
+    "plural": "soluzioni",
+    "irregular": false
   },
   "sole": {
     "gender": "Maschile",
@@ -458,7 +503,8 @@
       "luna"
     ],
     "article": "il",
-    "plural": "soli"
+    "plural": "soli",
+    "irregular": false
   },
   "libro": {
     "gender": "Maschile",
@@ -468,7 +514,8 @@
       "quaderno"
     ],
     "article": "il",
-    "plural": "libri"
+    "plural": "libri",
+    "irregular": false
   },
   "quaderno": {
     "gender": "Maschile",
@@ -478,7 +525,8 @@
       "libro"
     ],
     "article": "il",
-    "plural": "quaderni"
+    "plural": "quaderni",
+    "irregular": false
   },
   "sacco": {
     "gender": "Maschile",
@@ -488,7 +536,8 @@
       "tasca"
     ],
     "article": "il",
-    "plural": "sacchi"
+    "plural": "sacchi",
+    "irregular": false
   },
   "cappotto": {
     "gender": "Maschile",
@@ -498,7 +547,8 @@
       "pantaloni"
     ],
     "article": "il",
-    "plural": "cappotti"
+    "plural": "cappotti",
+    "irregular": false
   },
   "pantaloni": {
     "gender": "Maschile",
@@ -508,7 +558,8 @@
       "gonna"
     ],
     "article": "i",
-    "plural": "pantaloni"
+    "plural": "pantaloni",
+    "irregular": false
   },
   "cappello": {
     "gender": "Maschile",
@@ -518,7 +569,8 @@
       "scarpa"
     ],
     "article": "il",
-    "plural": "cappelli"
+    "plural": "cappelli",
+    "irregular": false
   },
   "cane": {
     "gender": "Maschile",
@@ -528,7 +580,8 @@
       "gatto"
     ],
     "article": "il",
-    "plural": "cani"
+    "plural": "cani",
+    "irregular": false
   },
   "gatto": {
     "gender": "Maschile",
@@ -538,7 +591,8 @@
       "cane"
     ],
     "article": "il",
-    "plural": "gatti"
+    "plural": "gatti",
+    "irregular": false
   },
   "cavallo": {
     "gender": "Maschile",
@@ -548,7 +602,8 @@
       "mucca"
     ],
     "article": "il",
-    "plural": "cavalli"
+    "plural": "cavalli",
+    "irregular": false
   },
   "uccello": {
     "gender": "Maschile",
@@ -558,7 +613,8 @@
       "pesce"
     ],
     "article": "l'",
-    "plural": "uccelli"
+    "plural": "uccelli",
+    "irregular": false
   },
   "pesce": {
     "gender": "Maschile",
@@ -568,7 +624,8 @@
       "uccello"
     ],
     "article": "il",
-    "plural": "pesci"
+    "plural": "pesci",
+    "irregular": false
   },
   "albero": {
     "gender": "Maschile",
@@ -578,7 +635,8 @@
       "fiore"
     ],
     "article": "l'",
-    "plural": "alberi"
+    "plural": "alberi",
+    "irregular": false
   },
   "giardino": {
     "gender": "Maschile",
@@ -588,7 +646,8 @@
       "casa"
     ],
     "article": "il",
-    "plural": "giardini"
+    "plural": "giardini",
+    "irregular": false
   },
   "parco": {
     "gender": "Maschile",
@@ -598,7 +657,8 @@
       "strada"
     ],
     "article": "il",
-    "plural": "parchi"
+    "plural": "parchi",
+    "irregular": false
   },
   "vento": {
     "gender": "Maschile",
@@ -608,7 +668,8 @@
       "calma"
     ],
     "article": "il",
-    "plural": "venti"
+    "plural": "venti",
+    "irregular": false
   },
   "fuoco": {
     "gender": "Maschile",
@@ -618,7 +679,8 @@
       "acqua"
     ],
     "article": "il",
-    "plural": "fuochi"
+    "plural": "fuochi",
+    "irregular": false
   },
   "cielo": {
     "gender": "Maschile",
@@ -628,7 +690,8 @@
       "terra"
     ],
     "article": "il",
-    "plural": "cieli"
+    "plural": "cieli",
+    "irregular": false
   },
   "giorno": {
     "gender": "Maschile",
@@ -638,7 +701,8 @@
       "notte"
     ],
     "article": "il",
-    "plural": "giorni"
+    "plural": "giorni",
+    "irregular": false
   },
   "mattino": {
     "gender": "Maschile",
@@ -648,7 +712,8 @@
       "sera"
     ],
     "article": "il",
-    "plural": "mattini"
+    "plural": "mattini",
+    "irregular": false
   },
   "sera": {
     "gender": "Femminile",
@@ -658,7 +723,8 @@
       "mattino"
     ],
     "article": "la",
-    "plural": "sere"
+    "plural": "sere",
+    "irregular": false
   },
   "mese": {
     "gender": "Maschile",
@@ -668,7 +734,8 @@
       "anno"
     ],
     "article": "il",
-    "plural": "mesi"
+    "plural": "mesi",
+    "irregular": false
   },
   "anno": {
     "gender": "Maschile",
@@ -678,7 +745,8 @@
       "mese"
     ],
     "article": "l'",
-    "plural": "anni"
+    "plural": "anni",
+    "irregular": false
   },
   "secolo": {
     "gender": "Maschile",
@@ -688,7 +756,8 @@
       "anno"
     ],
     "article": "il",
-    "plural": "secoli"
+    "plural": "secoli",
+    "irregular": false
   },
   "tempo": {
     "gender": "Maschile",
@@ -698,7 +767,8 @@
       "spazio"
     ],
     "article": "il",
-    "plural": "tempi"
+    "plural": "tempi",
+    "irregular": false
   },
   "lavoro": {
     "gender": "Maschile",
@@ -708,7 +778,8 @@
       "riposo"
     ],
     "article": "il",
-    "plural": "lavori"
+    "plural": "lavori",
+    "irregular": false
   },
   "riposo": {
     "gender": "Maschile",
@@ -718,7 +789,8 @@
       "lavoro"
     ],
     "article": "il",
-    "plural": "riposi"
+    "plural": "riposi",
+    "irregular": false
   },
   "pane": {
     "gender": "Maschile",
@@ -728,7 +800,8 @@
       "acqua"
     ],
     "article": "il",
-    "plural": "pani"
+    "plural": "pani",
+    "irregular": false
   },
   "formaggio": {
     "gender": "Maschile",
@@ -738,7 +811,8 @@
       "latte"
     ],
     "article": "il",
-    "plural": "formaggi"
+    "plural": "formaggi",
+    "irregular": false
   },
   "latte": {
     "gender": "Maschile",
@@ -748,7 +822,8 @@
       "acqua"
     ],
     "article": "il",
-    "plural": "latti"
+    "plural": "latti",
+    "irregular": false
   },
   "caffè": {
     "gender": "Maschile",
@@ -758,7 +833,8 @@
       "tè"
     ],
     "article": "il",
-    "plural": "caffè"
+    "plural": "caffè",
+    "irregular": false
   },
   "tè": {
     "gender": "Maschile",
@@ -768,7 +844,8 @@
       "caffè"
     ],
     "article": "il",
-    "plural": "tè"
+    "plural": "tè",
+    "irregular": false
   },
   "pasto": {
     "gender": "Maschile",
@@ -778,7 +855,8 @@
       "digiuno"
     ],
     "article": "il",
-    "plural": "pasti"
+    "plural": "pasti",
+    "irregular": false
   },
   "ristorante": {
     "gender": "Maschile",
@@ -788,7 +866,8 @@
       "casa"
     ],
     "article": "il",
-    "plural": "ristoranti"
+    "plural": "ristoranti",
+    "irregular": false
   },
   "albergo": {
     "gender": "Maschile",
@@ -798,7 +877,8 @@
       "casa"
     ],
     "article": "l'",
-    "plural": "alberghi"
+    "plural": "alberghi",
+    "irregular": false
   },
   "treno": {
     "gender": "Maschile",
@@ -808,7 +888,8 @@
       "aereo"
     ],
     "article": "il",
-    "plural": "treni"
+    "plural": "treni",
+    "irregular": false
   },
   "aereo": {
     "gender": "Maschile",
@@ -818,7 +899,8 @@
       "nave"
     ],
     "article": "l'",
-    "plural": "aerei"
+    "plural": "aerei",
+    "irregular": false
   },
   "viaggio": {
     "gender": "Maschile",
@@ -828,7 +910,8 @@
       "soggiorno"
     ],
     "article": "il",
-    "plural": "viaggi"
+    "plural": "viaggi",
+    "irregular": false
   },
   "rumore": {
     "gender": "Maschile",
@@ -838,7 +921,8 @@
       "silenzio"
     ],
     "article": "il",
-    "plural": "rumori"
+    "plural": "rumori",
+    "irregular": false
   },
   "silenzio": {
     "gender": "Maschile",
@@ -848,7 +932,8 @@
       "rumore"
     ],
     "article": "il",
-    "plural": "silenzi"
+    "plural": "silenzi",
+    "irregular": false
   },
   "coraggio": {
     "gender": "Maschile",
@@ -858,7 +943,8 @@
       "paura"
     ],
     "article": "il",
-    "plural": "coraggi"
+    "plural": "coraggi",
+    "irregular": false
   },
   "problema": {
     "gender": "Maschile",
@@ -869,7 +955,8 @@
     ],
     "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-a' (origine greca) ma è MASCHILE ('il problema', plurale 'i problemi').",
     "article": "il",
-    "plural": "problemi"
+    "plural": "problemi",
+    "irregular": false
   },
   "progetto": {
     "gender": "Maschile",
@@ -879,7 +966,8 @@
       "passato"
     ],
     "article": "il",
-    "plural": "progetti"
+    "plural": "progetti",
+    "irregular": false
   },
   "sorriso": {
     "gender": "Maschile",
@@ -889,7 +977,8 @@
       "smorfia"
     ],
     "article": "il",
-    "plural": "sorrisi"
+    "plural": "sorrisi",
+    "irregular": false
   },
   "sogno": {
     "gender": "Maschile",
@@ -899,7 +988,8 @@
       "realtà"
     ],
     "article": "il",
-    "plural": "sogni"
+    "plural": "sogni",
+    "irregular": false
   },
   "mondo": {
     "gender": "Maschile",
@@ -909,7 +999,8 @@
       "solitudine"
     ],
     "article": "il",
-    "plural": "mondi"
+    "plural": "mondi",
+    "irregular": false
   },
   "paese": {
     "gender": "Maschile",
@@ -919,7 +1010,8 @@
       "città"
     ],
     "article": "il",
-    "plural": "paesi"
+    "plural": "paesi",
+    "irregular": false
   },
   "villaggio": {
     "gender": "Maschile",
@@ -929,7 +1021,8 @@
       "città"
     ],
     "article": "il",
-    "plural": "villaggi"
+    "plural": "villaggi",
+    "irregular": false
   },
   "muro": {
     "gender": "Maschile",
@@ -939,7 +1032,8 @@
       "pavimento"
     ],
     "article": "il",
-    "plural": "muri"
+    "plural": "muri",
+    "irregular": false
   },
   "pavimento": {
     "gender": "Maschile",
@@ -949,7 +1043,8 @@
       "soffitto"
     ],
     "article": "il",
-    "plural": "pavimenti"
+    "plural": "pavimenti",
+    "irregular": false
   },
   "soffitto": {
     "gender": "Maschile",
@@ -959,7 +1054,8 @@
       "pavimento"
     ],
     "article": "il",
-    "plural": "soffitti"
+    "plural": "soffitti",
+    "irregular": false
   },
   "letto": {
     "gender": "Maschile",
@@ -969,7 +1065,8 @@
       "sedia"
     ],
     "article": "il",
-    "plural": "letti"
+    "plural": "letti",
+    "irregular": false
   },
   "quadro": {
     "gender": "Maschile",
@@ -979,7 +1076,8 @@
       "scultura"
     ],
     "article": "il",
-    "plural": "quadri"
+    "plural": "quadri",
+    "irregular": false
   },
   "mare": {
     "gender": "Maschile",
@@ -989,7 +1087,8 @@
       "montagna"
     ],
     "article": "il",
-    "plural": "mari"
+    "plural": "mari",
+    "irregular": false
   },
   "fiume": {
     "gender": "Maschile",
@@ -999,7 +1098,8 @@
       "mare"
     ],
     "article": "il",
-    "plural": "fiumi"
+    "plural": "fiumi",
+    "irregular": false
   },
   "lago": {
     "gender": "Maschile",
@@ -1009,7 +1109,8 @@
       "fiume"
     ],
     "article": "il",
-    "plural": "laghi"
+    "plural": "laghi",
+    "irregular": false
   },
   "abito": {
     "gender": "Maschile",
@@ -1019,7 +1120,8 @@
       "nudità"
     ],
     "article": "l'",
-    "plural": "abiti"
+    "plural": "abiti",
+    "irregular": false
   },
   "aeroporto": {
     "gender": "Maschile",
@@ -1029,7 +1131,8 @@
       "stazione"
     ],
     "article": "l'",
-    "plural": "aeroporti"
+    "plural": "aeroporti",
+    "irregular": false
   },
   "amico": {
     "gender": "Maschile",
@@ -1039,7 +1142,8 @@
       "nemico"
     ],
     "article": "l'",
-    "plural": "amici"
+    "plural": "amici",
+    "irregular": true
   },
   "animale": {
     "gender": "Maschile",
@@ -1049,7 +1153,8 @@
       "pianta"
     ],
     "article": "l'",
-    "plural": "animali"
+    "plural": "animali",
+    "irregular": false
   },
   "appartamento": {
     "gender": "Maschile",
@@ -1059,7 +1164,8 @@
       "casa"
     ],
     "article": "l'",
-    "plural": "appartamenti"
+    "plural": "appartamenti",
+    "irregular": false
   },
   "autobus": {
     "gender": "Maschile",
@@ -1069,7 +1175,8 @@
       "treno"
     ],
     "article": "l'",
-    "plural": "autobus"
+    "plural": "autobus",
+    "irregular": false
   },
   "bambino": {
     "gender": "Maschile",
@@ -1079,7 +1186,8 @@
       "adulto"
     ],
     "article": "il",
-    "plural": "bambini"
+    "plural": "bambini",
+    "irregular": false
   },
   "banco": {
     "gender": "Maschile",
@@ -1089,7 +1197,8 @@
       "sedia"
     ],
     "article": "il",
-    "plural": "banchi"
+    "plural": "banchi",
+    "irregular": false
   },
   "bar": {
     "gender": "Maschile",
@@ -1099,7 +1208,8 @@
       "ristorante"
     ],
     "article": "il",
-    "plural": "bar"
+    "plural": "bar",
+    "irregular": false
   },
   "bicchiere": {
     "gender": "Maschile",
@@ -1109,7 +1219,8 @@
       "bottiglia"
     ],
     "article": "il",
-    "plural": "bicchieri"
+    "plural": "bicchieri",
+    "irregular": false
   },
   "biglietto": {
     "gender": "Maschile",
@@ -1119,7 +1230,8 @@
       "moneta"
     ],
     "article": "il",
-    "plural": "biglietti"
+    "plural": "biglietti",
+    "irregular": false
   },
   "bosco": {
     "gender": "Maschile",
@@ -1129,7 +1241,8 @@
       "prato"
     ],
     "article": "il",
-    "plural": "boschi"
+    "plural": "boschi",
+    "irregular": false
   },
   "braccio": {
     "gender": "Maschile",
@@ -1140,7 +1253,8 @@
     ],
     "grammar_rule": "💡 REMEMBER: Maschile al singolare ('il braccio'), diventa femminile per le parti del corpo al plurale ('le braccia').",
     "article": "il",
-    "plural": "braccia"
+    "plural": "braccia",
+    "irregular": true
   },
   "burro": {
     "gender": "Maschile",
@@ -1150,7 +1264,8 @@
       "olio"
     ],
     "article": "il",
-    "plural": "burri"
+    "plural": "burri",
+    "irregular": false
   },
   "calcio": {
     "gender": "Maschile",
@@ -1160,7 +1275,8 @@
       "tennis"
     ],
     "article": "il",
-    "plural": "calci"
+    "plural": "calci",
+    "irregular": false
   },
   "camino": {
     "gender": "Maschile",
@@ -1170,7 +1286,8 @@
       "stufa"
     ],
     "article": "il",
-    "plural": "camini"
+    "plural": "camini",
+    "irregular": false
   },
   "campo": {
     "gender": "Maschile",
@@ -1180,7 +1297,8 @@
       "città"
     ],
     "article": "il",
-    "plural": "campi"
+    "plural": "campi",
+    "irregular": false
   },
   "capello": {
     "gender": "Maschile",
@@ -1190,7 +1308,8 @@
       "barba"
     ],
     "article": "il",
-    "plural": "capelli"
+    "plural": "capelli",
+    "irregular": false
   },
   "carattere": {
     "gender": "Maschile",
@@ -1200,7 +1319,8 @@
       "aspetto"
     ],
     "article": "il",
-    "plural": "caratteri"
+    "plural": "caratteri",
+    "irregular": false
   },
   "carnevale": {
     "gender": "Maschile",
@@ -1210,7 +1330,8 @@
       "quaresima"
     ],
     "article": "il",
-    "plural": "carnevali"
+    "plural": "carnevali",
+    "irregular": false
   },
   "castello": {
     "gender": "Maschile",
@@ -1220,7 +1341,8 @@
       "capanna"
     ],
     "article": "il",
-    "plural": "castelli"
+    "plural": "castelli",
+    "irregular": false
   },
   "centro": {
     "gender": "Maschile",
@@ -1230,7 +1352,8 @@
       "periferia"
     ],
     "article": "il",
-    "plural": "centri"
+    "plural": "centri",
+    "irregular": false
   },
   "cibo": {
     "gender": "Maschile",
@@ -1240,7 +1363,8 @@
       "bevanda"
     ],
     "article": "il",
-    "plural": "cibi"
+    "plural": "cibi",
+    "irregular": false
   },
   "cinema": {
     "gender": "Maschile",
@@ -1251,7 +1375,8 @@
     ],
     "grammar_rule": "💡 REMEMBER: Invariabile al plurale ('il cinema', 'i cinema').",
     "article": "il",
-    "plural": "cinema"
+    "plural": "cinema",
+    "irregular": true
   },
   "coltello": {
     "gender": "Maschile",
@@ -1261,7 +1386,8 @@
       "forchetta"
     ],
     "article": "il",
-    "plural": "coltelli"
+    "plural": "coltelli",
+    "irregular": false
   },
   "compito": {
     "gender": "Maschile",
@@ -1271,7 +1397,8 @@
       "riposo"
     ],
     "article": "il",
-    "plural": "compiti"
+    "plural": "compiti",
+    "irregular": false
   },
   "computer": {
     "gender": "Maschile",
@@ -1281,7 +1408,8 @@
       "foglio"
     ],
     "article": "il",
-    "plural": "computer"
+    "plural": "computer",
+    "irregular": false
   },
   "consiglio": {
     "gender": "Maschile",
@@ -1291,7 +1419,8 @@
       "ordine"
     ],
     "article": "il",
-    "plural": "consigli"
+    "plural": "consigli",
+    "irregular": false
   },
   "conto": {
     "gender": "Maschile",
@@ -1301,7 +1430,8 @@
       "debito"
     ],
     "article": "il",
-    "plural": "conti"
+    "plural": "conti",
+    "irregular": false
   },
   "corpo": {
     "gender": "Maschile",
@@ -1311,7 +1441,8 @@
       "anima"
     ],
     "article": "il",
-    "plural": "corpi"
+    "plural": "corpi",
+    "irregular": false
   },
   "cuscino": {
     "gender": "Maschile",
@@ -1321,7 +1452,8 @@
       "materasso"
     ],
     "article": "il",
-    "plural": "cuscini"
+    "plural": "cuscini",
+    "irregular": false
   },
   "dente": {
     "gender": "Maschile",
@@ -1331,7 +1463,8 @@
       "lingua"
     ],
     "article": "il",
-    "plural": "denti"
+    "plural": "denti",
+    "irregular": false
   },
   "deserto": {
     "gender": "Maschile",
@@ -1341,7 +1474,8 @@
       "foresta"
     ],
     "article": "il",
-    "plural": "deserti"
+    "plural": "deserti",
+    "irregular": false
   },
   "dito": {
     "gender": "Maschile",
@@ -1351,7 +1485,8 @@
       "piede"
     ],
     "article": "il",
-    "plural": "dita"
+    "plural": "dita",
+    "irregular": true
   },
   "dolore": {
     "gender": "Maschile",
@@ -1361,7 +1496,8 @@
       "piacere"
     ],
     "article": "il",
-    "plural": "dolori"
+    "plural": "dolori",
+    "irregular": false
   },
   "fatto": {
     "gender": "Maschile",
@@ -1371,7 +1507,8 @@
       "parola"
     ],
     "article": "il",
-    "plural": "fatti"
+    "plural": "fatti",
+    "irregular": false
   },
   "figlio": {
     "gender": "Maschile",
@@ -1381,7 +1518,8 @@
       "padre"
     ],
     "article": "il",
-    "plural": "figli"
+    "plural": "figli",
+    "irregular": false
   },
   "fiore": {
     "gender": "Maschile",
@@ -1391,7 +1529,8 @@
       "foglia"
     ],
     "article": "il",
-    "plural": "fiori"
+    "plural": "fiori",
+    "irregular": false
   },
   "foglio": {
     "gender": "Maschile",
@@ -1401,7 +1540,8 @@
       "quaderno"
     ],
     "article": "il",
-    "plural": "fogli"
+    "plural": "fogli",
+    "irregular": false
   },
   "forno": {
     "gender": "Maschile",
@@ -1411,7 +1551,8 @@
       "frigorifero"
     ],
     "article": "il",
-    "plural": "forni"
+    "plural": "forni",
+    "irregular": false
   },
   "fratello": {
     "gender": "Maschile",
@@ -1421,7 +1562,8 @@
       "sorella"
     ],
     "article": "il",
-    "plural": "fratelli"
+    "plural": "fratelli",
+    "irregular": false
   },
   "frutto": {
     "gender": "Maschile",
@@ -1431,7 +1573,8 @@
       "fiore"
     ],
     "article": "il",
-    "plural": "frutti"
+    "plural": "frutti",
+    "irregular": false
   },
   "giornale": {
     "gender": "Maschile",
@@ -1441,7 +1584,8 @@
       "libro"
     ],
     "article": "il",
-    "plural": "giornali"
+    "plural": "giornali",
+    "irregular": false
   },
   "gioco": {
     "gender": "Maschile",
@@ -1451,7 +1595,8 @@
       "lavoro"
     ],
     "article": "il",
-    "plural": "giochi"
+    "plural": "giochi",
+    "irregular": false
   },
   "gruppo": {
     "gender": "Maschile",
@@ -1461,7 +1606,8 @@
       "individuo"
     ],
     "article": "il",
-    "plural": "gruppi"
+    "plural": "gruppi",
+    "irregular": false
   },
   "guanto": {
     "gender": "Maschile",
@@ -1471,7 +1617,8 @@
       "scarpa"
     ],
     "article": "il",
-    "plural": "guanti"
+    "plural": "guanti",
+    "irregular": false
   },
   "inverno": {
     "gender": "Maschile",
@@ -1481,7 +1628,8 @@
       "estate"
     ],
     "article": "l'",
-    "plural": "inverni"
+    "plural": "inverni",
+    "irregular": false
   },
   "luogo": {
     "gender": "Maschile",
@@ -1491,7 +1639,8 @@
       "tempo"
     ],
     "article": "il",
-    "plural": "luoghi"
+    "plural": "luoghi",
+    "irregular": false
   },
   "mercato": {
     "gender": "Maschile",
@@ -1501,7 +1650,8 @@
       "negozio"
     ],
     "article": "il",
-    "plural": "mercati"
+    "plural": "mercati",
+    "irregular": false
   },
   "museo": {
     "gender": "Maschile",
@@ -1511,7 +1661,8 @@
       "teatro"
     ],
     "article": "il",
-    "plural": "musei"
+    "plural": "musei",
+    "irregular": false
   },
   "naso": {
     "gender": "Maschile",
@@ -1521,7 +1672,8 @@
       "bocca"
     ],
     "article": "il",
-    "plural": "nasi"
+    "plural": "nasi",
+    "irregular": false
   },
   "negozio": {
     "gender": "Maschile",
@@ -1531,7 +1683,8 @@
       "mercato"
     ],
     "article": "il",
-    "plural": "negozi"
+    "plural": "negozi",
+    "irregular": false
   },
   "nome": {
     "gender": "Maschile",
@@ -1541,7 +1694,8 @@
       "cognome"
     ],
     "article": "il",
-    "plural": "nomi"
+    "plural": "nomi",
+    "irregular": false
   },
   "occhio": {
     "gender": "Maschile",
@@ -1551,7 +1705,8 @@
       "orecchio"
     ],
     "article": "l'",
-    "plural": "occhi"
+    "plural": "occhi",
+    "irregular": false
   },
   "orologio": {
     "gender": "Maschile",
@@ -1561,7 +1716,8 @@
       "calendario"
     ],
     "article": "l'",
-    "plural": "orologi"
+    "plural": "orologi",
+    "irregular": false
   },
   "ospedale": {
     "gender": "Maschile",
@@ -1571,7 +1727,8 @@
       "scuola"
     ],
     "article": "l'",
-    "plural": "ospedali"
+    "plural": "ospedali",
+    "irregular": false
   },
   "piede": {
     "gender": "Maschile",
@@ -1581,7 +1738,8 @@
       "mano"
     ],
     "article": "il",
-    "plural": "piedi"
+    "plural": "piedi",
+    "irregular": false
   },
   "poeta": {
     "gender": "Maschile",
@@ -1591,7 +1749,8 @@
       "lettore"
     ],
     "article": "il",
-    "plural": "poeti"
+    "plural": "poeti",
+    "irregular": false
   },
   "pomodoro": {
     "gender": "Maschile",
@@ -1601,7 +1760,8 @@
       "patata"
     ],
     "article": "il",
-    "plural": "pomodori"
+    "plural": "pomodori",
+    "irregular": false
   },
   "ponte": {
     "gender": "Maschile",
@@ -1611,7 +1771,8 @@
       "strada"
     ],
     "article": "il",
-    "plural": "ponti"
+    "plural": "ponti",
+    "irregular": false
   },
   "porto": {
     "gender": "Maschile",
@@ -1621,7 +1782,8 @@
       "aeroporto"
     ],
     "article": "il",
-    "plural": "porti"
+    "plural": "porti",
+    "irregular": false
   },
   "prato": {
     "gender": "Maschile",
@@ -1631,7 +1793,8 @@
       "bosco"
     ],
     "article": "il",
-    "plural": "prati"
+    "plural": "prati",
+    "irregular": false
   },
   "prezzo": {
     "gender": "Maschile",
@@ -1641,7 +1804,8 @@
       "sconto"
     ],
     "article": "il",
-    "plural": "prezzi"
+    "plural": "prezzi",
+    "irregular": false
   },
   "ragazzo": {
     "gender": "Maschile",
@@ -1651,7 +1815,8 @@
       "ragazza"
     ],
     "article": "il",
-    "plural": "ragazzi"
+    "plural": "ragazzi",
+    "irregular": false
   },
   "regalo": {
     "gender": "Maschile",
@@ -1661,7 +1826,8 @@
       "dito"
     ],
     "article": "il",
-    "plural": "regali"
+    "plural": "regali",
+    "irregular": false
   },
   "riso": {
     "gender": "Maschile",
@@ -1671,7 +1837,8 @@
       "pianto"
     ],
     "article": "il",
-    "plural": "risi"
+    "plural": "risi",
+    "irregular": false
   },
   "spazio": {
     "gender": "Maschile",
@@ -1681,7 +1848,8 @@
       "tempo"
     ],
     "article": "lo",
-    "plural": "spazi"
+    "plural": "spazi",
+    "irregular": false
   },
   "specchio": {
     "gender": "Maschile",
@@ -1691,7 +1859,8 @@
       "muro"
     ],
     "article": "lo",
-    "plural": "specchi"
+    "plural": "specchi",
+    "irregular": false
   },
   "sport": {
     "gender": "Maschile",
@@ -1701,7 +1870,8 @@
       "pigrizia"
     ],
     "article": "lo",
-    "plural": "sport"
+    "plural": "sport",
+    "irregular": false
   },
   "stivali": {
     "gender": "Maschile",
@@ -1711,7 +1881,8 @@
       "scarpe"
     ],
     "article": "gli",
-    "plural": "stivali"
+    "plural": "stivali",
+    "irregular": false
   },
   "tavolo": {
     "gender": "Maschile",
@@ -1721,7 +1892,8 @@
       "sedia"
     ],
     "article": "il",
-    "plural": "tavoli"
+    "plural": "tavoli",
+    "irregular": false
   },
   "uomo": {
     "gender": "Maschile",
@@ -1731,7 +1903,8 @@
       "donna"
     ],
     "article": "l'",
-    "plural": "uomini"
+    "plural": "uomini",
+    "irregular": true
   },
   "uovo": {
     "gender": "Maschile",
@@ -1742,7 +1915,8 @@
     ],
     "grammar_rule": "💡 REMEMBER: Nom maschile al singolare ('l'uovo'), ma FENOMENO SOVRAPPIÙ cambia genere e diventa femminile al plurale ('le uova').",
     "article": "l'",
-    "plural": "uova"
+    "plural": "uova",
+    "irregular": true
   },
   "vaso": {
     "gender": "Maschile",
@@ -1752,7 +1926,8 @@
       "fiori"
     ],
     "article": "il",
-    "plural": "vasi"
+    "plural": "vasi",
+    "irregular": false
   },
   "vino": {
     "gender": "Maschile",
@@ -1762,7 +1937,8 @@
       "acqua"
     ],
     "article": "il",
-    "plural": "vini"
+    "plural": "vini",
+    "irregular": false
   },
   "zucchero": {
     "gender": "Maschile",
@@ -1772,7 +1948,8 @@
       "sale"
     ],
     "article": "lo",
-    "plural": "zuccheri"
+    "plural": "zuccheri",
+    "irregular": false
   },
   "arte": {
     "gender": "Femminile",
@@ -1791,7 +1968,8 @@
       "loc_sing": "in arte",
       "nom_plur": "le arti"
     },
-    "plural": "arti"
+    "plural": "arti",
+    "irregular": false
   },
   "attore": {
     "gender": "Maschile",
@@ -1810,7 +1988,8 @@
       "loc_sing": "in attore",
       "nom_plur": "gli attori"
     },
-    "plural": "attori"
+    "plural": "attori",
+    "irregular": false
   },
   "autunno": {
     "gender": "Maschile",
@@ -1829,7 +2008,8 @@
       "loc_sing": "in autunno",
       "nom_plur": "gli autunni"
     },
-    "plural": "autunni"
+    "plural": "autunni",
+    "irregular": false
   },
   "bagno": {
     "gender": "Maschile",
@@ -1848,7 +2028,8 @@
       "loc_sing": "in bagno",
       "nom_plur": "i bagni"
     },
-    "plural": "bagni"
+    "plural": "bagni",
+    "irregular": false
   },
   "banca": {
     "gender": "Femminile",
@@ -1867,7 +2048,8 @@
       "loc_sing": "in banca",
       "nom_plur": "le banche"
     },
-    "plural": "banche"
+    "plural": "banche",
+    "irregular": false
   },
   "barca": {
     "gender": "Femminile",
@@ -1886,7 +2068,8 @@
       "loc_sing": "in barca",
       "nom_plur": "le barche"
     },
-    "plural": "barche"
+    "plural": "barche",
+    "irregular": false
   },
   "bicicletta": {
     "gender": "Femminile",
@@ -1905,7 +2088,8 @@
       "loc_sing": "in bicicletta",
       "nom_plur": "le biciclette"
     },
-    "plural": "biciclette"
+    "plural": "biciclette",
+    "irregular": false
   },
   "bottiglia": {
     "gender": "Femminile",
@@ -1924,7 +2108,8 @@
       "loc_sing": "in bottiglia",
       "nom_plur": "le bottiglie"
     },
-    "plural": "bottiglie"
+    "plural": "bottiglie",
+    "irregular": false
   },
   "campagna": {
     "gender": "Femminile",
@@ -1943,7 +2128,8 @@
       "loc_sing": "in campagna",
       "nom_plur": "le campagne"
     },
-    "plural": "campagne"
+    "plural": "campagne",
+    "irregular": false
   },
   "capitale": {
     "gender": "Femminile",
@@ -1962,7 +2148,8 @@
       "loc_sing": "in capitale",
       "nom_plur": "le capitali"
     },
-    "plural": "capitali"
+    "plural": "capitali",
+    "irregular": false
   },
   "carne": {
     "gender": "Femminile",
@@ -1981,7 +2168,8 @@
       "loc_sing": "in carne",
       "nom_plur": "le carni"
     },
-    "plural": "carni"
+    "plural": "carni",
+    "irregular": false
   },
   "classe": {
     "gender": "Femminile",
@@ -2000,7 +2188,8 @@
       "loc_sing": "in classe",
       "nom_plur": "le classi"
     },
-    "plural": "classi"
+    "plural": "classi",
+    "irregular": false
   },
   "colore": {
     "gender": "Maschile",
@@ -2019,7 +2208,8 @@
       "loc_sing": "in colore",
       "nom_plur": "i colori"
     },
-    "plural": "colori"
+    "plural": "colori",
+    "irregular": false
   },
   "concerto": {
     "gender": "Maschile",
@@ -2038,7 +2228,8 @@
       "loc_sing": "in concerto",
       "nom_plur": "i concerti"
     },
-    "plural": "concerti"
+    "plural": "concerti",
+    "irregular": false
   },
   "festa": {
     "gender": "Femminile",
@@ -2057,7 +2248,8 @@
       "loc_sing": "in festa",
       "nom_plur": "le feste"
     },
-    "plural": "feste"
+    "plural": "feste",
+    "irregular": false
   },
   "filosofia": {
     "gender": "Femminile",
@@ -2076,7 +2268,8 @@
       "loc_sing": "in filosofia",
       "nom_plur": "le filosofie"
     },
-    "plural": "filosofie"
+    "plural": "filosofie",
+    "irregular": false
   },
   "giovane": {
     "gender": "Maschile",
@@ -2095,7 +2288,8 @@
       "loc_sing": "in giovane",
       "nom_plur": "i giovani"
     },
-    "plural": "giovani"
+    "plural": "giovani",
+    "irregular": false
   },
   "isola": {
     "gender": "Femminile",
@@ -2114,7 +2308,8 @@
       "loc_sing": "in isola",
       "nom_plur": "le isole"
     },
-    "plural": "isole"
+    "plural": "isole",
+    "irregular": false
   },
   "lettera": {
     "gender": "Femminile",
@@ -2133,7 +2328,8 @@
       "loc_sing": "in lettera",
       "nom_plur": "le lettere"
     },
-    "plural": "lettere"
+    "plural": "lettere",
+    "irregular": false
   },
   "madre": {
     "gender": "Femminile",
@@ -2152,7 +2348,8 @@
       "loc_sing": "in madre",
       "nom_plur": "le madri"
     },
-    "plural": "madri"
+    "plural": "madri",
+    "irregular": false
   },
   "medico": {
     "gender": "Maschile",
@@ -2171,7 +2368,8 @@
       "loc_sing": "in medico",
       "nom_plur": "i medici"
     },
-    "plural": "medici"
+    "plural": "medici",
+    "irregular": true
   },
   "natura": {
     "gender": "Femminile",
@@ -2190,7 +2388,8 @@
       "loc_sing": "in natura",
       "nom_plur": "le nature"
     },
-    "plural": "nature"
+    "plural": "nature",
+    "irregular": false
   },
   "parola": {
     "gender": "Femminile",
@@ -2209,7 +2408,8 @@
       "loc_sing": "in parola",
       "nom_plur": "le parole"
     },
-    "plural": "parole"
+    "plural": "parole",
+    "irregular": false
   },
   "piazza": {
     "gender": "Femminile",
@@ -2228,7 +2428,8 @@
       "loc_sing": "in piazza",
       "nom_plur": "le piazze"
     },
-    "plural": "piazze"
+    "plural": "piazze",
+    "irregular": false
   },
   "paio": {
     "gender": "Maschile",
@@ -2239,7 +2440,8 @@
     ],
     "article": "un",
     "plural": "paia",
-    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un paio'), ma cambia genere e diventa femminile al plurale con desinenza in '-a' ('le paia')."
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un paio'), ma cambia genere e diventa femminile al plurale con desinenza in '-a' ('le paia').",
+    "irregular": true
   },
   "centinaio": {
     "gender": "Maschile",
@@ -2250,7 +2452,8 @@
     ],
     "article": "un",
     "plural": "centinaia",
-    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un centinaio'), ma cambia genere e diventa femminile al plurale con desinenza in '-a' ('le centinaia')."
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un centinaio'), ma cambia genere e diventa femminile al plurale con desinenza in '-a' ('le centinaia').",
+    "irregular": true
   },
   "migliaio": {
     "gender": "Maschile",
@@ -2261,7 +2464,8 @@
     ],
     "article": "un",
     "plural": "migliaia",
-    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un migliaio'), ma cambia genere e diventa femminile al plurale con desinenza in '-a' ('le migliaia')."
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un migliaio'), ma cambia genere e diventa femminile al plurale con desinenza in '-a' ('le migliaia').",
+    "irregular": true
   },
   "ala": {
     "gender": "Femminile",
@@ -2272,7 +2476,8 @@
     ],
     "article": "un'",
     "plural": "ali",
-    "grammar_rule": "💡 REMEMBER: Femminile al singolare; prende l'articolo eliso 'un\\' davanti a vocale ('un'ala'), mentre al plurale segue la forma regolare ('le ali')."
+    "grammar_rule": "💡 REMEMBER: Femminile al singolare; prende l'articolo eliso 'un\\' davanti a vocale ('un'ala'), mentre al plurale segue la forma regolare ('le ali').",
+    "irregular": true
   },
   "rosso": {
     "gender": "Maschile",
@@ -2280,7 +2485,8 @@
     "definition": "Colore del sangue e del fuoco.",
     "antonyms": [],
     "article": "il",
-    "plural": "rossi"
+    "plural": "rossi",
+    "irregular": false
   },
   "blu": {
     "gender": "Maschile",
@@ -2288,7 +2494,8 @@
     "definition": "Colore del cielo sereno e del mare profondo.",
     "antonyms": [],
     "article": "il",
-    "plural": "blu"
+    "plural": "blu",
+    "irregular": true
   },
   "verde": {
     "gender": "Maschile",
@@ -2296,7 +2503,8 @@
     "definition": "Colore dell'erba fresca e delle foglie.",
     "antonyms": [],
     "article": "il",
-    "plural": "verdi"
+    "plural": "verdi",
+    "irregular": false
   },
   "giallo": {
     "gender": "Maschile",
@@ -2304,7 +2512,8 @@
     "definition": "Colore del sole e del limone.",
     "antonyms": [],
     "article": "il",
-    "plural": "gialli"
+    "plural": "gialli",
+    "irregular": false
   },
   "nero": {
     "gender": "Maschile",
@@ -2314,7 +2523,8 @@
       "bianco"
     ],
     "article": "il",
-    "plural": "neri"
+    "plural": "neri",
+    "irregular": false
   },
   "bianco": {
     "gender": "Maschile",
@@ -2324,7 +2534,8 @@
       "nero"
     ],
     "article": "il",
-    "plural": "bianchi"
+    "plural": "bianchi",
+    "irregular": false
   },
   "arancione": {
     "gender": "Maschile",
@@ -2332,7 +2543,8 @@
     "definition": "Colore secondario tra il rosso e il giallo.",
     "antonyms": [],
     "article": "l'",
-    "plural": "arancioni"
+    "plural": "arancioni",
+    "irregular": false
   },
   "viola": {
     "gender": "Maschile",
@@ -2340,7 +2552,8 @@
     "definition": "Colore secondario tra il blu e il rosso.",
     "antonyms": [],
     "article": "il",
-    "plural": "viola"
+    "plural": "viola",
+    "irregular": true
   },
   "rosa": {
     "gender": "Maschile",
@@ -2348,7 +2561,8 @@
     "definition": "Colore chiaro ottenuto mescolando il rosso e il bianco.",
     "antonyms": [],
     "article": "il",
-    "plural": "rosa"
+    "plural": "rosa",
+    "irregular": true
   },
   "marrone": {
     "gender": "Maschile",
@@ -2356,7 +2570,8 @@
     "definition": "Colore del legno e della terra.",
     "antonyms": [],
     "article": "il",
-    "plural": "marroni"
+    "plural": "marroni",
+    "irregular": false
   },
   "grigio": {
     "gender": "Maschile",
@@ -2364,7 +2579,8 @@
     "definition": "Colore neutro tra il nero e il bianco.",
     "antonyms": [],
     "article": "il",
-    "plural": "grigi"
+    "plural": "grigi",
+    "irregular": false
   },
   "padre": {
     "gender": "Maschile",
@@ -2374,7 +2590,8 @@
       "madre"
     ],
     "article": "il",
-    "plural": "padri"
+    "plural": "padri",
+    "irregular": false
   },
   "sorella": {
     "gender": "Femminile",
@@ -2384,7 +2601,8 @@
       "fratello"
     ],
     "article": "la",
-    "plural": "sorelle"
+    "plural": "sorelle",
+    "irregular": false
   },
   "figlia": {
     "gender": "Femminile",
@@ -2394,7 +2612,8 @@
       "figlio"
     ],
     "article": "la",
-    "plural": "figlie"
+    "plural": "figlie",
+    "irregular": false
   },
   "nonno": {
     "gender": "Maschile",
@@ -2404,7 +2623,8 @@
       "nonna"
     ],
     "article": "il",
-    "plural": "nonni"
+    "plural": "nonni",
+    "irregular": false
   },
   "nonna": {
     "gender": "Femminile",
@@ -2414,7 +2634,8 @@
       "nonno"
     ],
     "article": "la",
-    "plural": "nonne"
+    "plural": "nonne",
+    "irregular": false
   },
   "lunedì": {
     "gender": "Maschile",
@@ -2425,7 +2646,8 @@
     ],
     "article": "il",
     "plural": "lunedì",
-    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il lunedì', 'i lunedì')."
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il lunedì', 'i lunedì').",
+    "irregular": false
   },
   "martedì": {
     "gender": "Maschile",
@@ -2434,7 +2656,8 @@
     "antonyms": [],
     "article": "il",
     "plural": "martedì",
-    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il martedì', 'i martedì')."
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il martedì', 'i martedì').",
+    "irregular": false
   },
   "mercoledì": {
     "gender": "Maschile",
@@ -2443,7 +2666,8 @@
     "antonyms": [],
     "article": "il",
     "plural": "mercoledì",
-    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il mercoledì', 'i mercoledì')."
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il mercoledì', 'i mercoledì').",
+    "irregular": false
   },
   "giovedì": {
     "gender": "Maschile",
@@ -2452,7 +2676,8 @@
     "antonyms": [],
     "article": "il",
     "plural": "giovedì",
-    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il giovedì', 'i giovedì')."
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il giovedì', 'i giovedì').",
+    "irregular": false
   },
   "venerdì": {
     "gender": "Maschile",
@@ -2461,7 +2686,8 @@
     "antonyms": [],
     "article": "il",
     "plural": "venerdì",
-    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il venerdì', 'i venerdì')."
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il venerdì', 'i venerdì').",
+    "irregular": false
   },
   "sabato": {
     "gender": "Maschile",
@@ -2469,7 +2695,8 @@
     "definition": "Sesto giorno della settimana.",
     "antonyms": [],
     "article": "il",
-    "plural": "sabati"
+    "plural": "sabati",
+    "irregular": false
   },
   "domenica": {
     "gender": "Femminile",
@@ -2480,7 +2707,8 @@
     ],
     "article": "la",
     "plural": "domeniche",
-    "grammar_rule": "💡 REMEMBER: Nome femminile — forma il plurale regolare in '-che' ('le domeniche')."
+    "grammar_rule": "💡 REMEMBER: Nome femminile — forma il plurale regolare in '-che' ('le domeniche').",
+    "irregular": false
   },
   "piatto": {
     "gender": "Maschile",
@@ -2490,7 +2718,8 @@
       "bicchiere"
     ],
     "article": "il",
-    "plural": "piatti"
+    "plural": "piatti",
+    "irregular": false
   },
   "forchetta": {
     "gender": "Femminile",
@@ -2500,7 +2729,8 @@
       "coltello"
     ],
     "article": "la",
-    "plural": "forchette"
+    "plural": "forchette",
+    "irregular": false
   },
   "cucchiaio": {
     "gender": "Maschile",
@@ -2510,7 +2740,8 @@
       "forchetta"
     ],
     "article": "il",
-    "plural": "cucchiai"
+    "plural": "cucchiai",
+    "irregular": false
   },
   "sale": {
     "gender": "Maschile",
@@ -2520,7 +2751,8 @@
       "pepe"
     ],
     "article": "il",
-    "plural": "sali"
+    "plural": "sali",
+    "irregular": false
   },
   "pepe": {
     "gender": "Maschile",
@@ -2530,7 +2762,8 @@
       "sale"
     ],
     "article": "il",
-    "plural": "pepi"
+    "plural": "pepi",
+    "irregular": false
   },
   "camicia": {
     "gender": "Femminile",
@@ -2540,7 +2773,8 @@
       "pantaloni"
     ],
     "article": "la",
-    "plural": "camicie"
+    "plural": "camicie",
+    "irregular": false
   },
   "vestito": {
     "gender": "Maschile",
@@ -2548,7 +2782,8 @@
     "definition": "Indumento maschile o femminile completo.",
     "antonyms": [],
     "article": "il",
-    "plural": "vestiti"
+    "plural": "vestiti",
+    "irregular": false
   },
   "gonna": {
     "gender": "Femminile",
@@ -2558,7 +2793,8 @@
       "pantaloni"
     ],
     "article": "la",
-    "plural": "gonne"
+    "plural": "gonne",
+    "irregular": false
   },
   "giacca": {
     "gender": "Femminile",
@@ -2568,7 +2804,8 @@
       "cappotto"
     ],
     "article": "la",
-    "plural": "giacche"
+    "plural": "giacche",
+    "irregular": false
   },
   "calzino": {
     "gender": "Maschile",
@@ -2578,7 +2815,8 @@
       "scarpa"
     ],
     "article": "il",
-    "plural": "calzini"
+    "plural": "calzini",
+    "irregular": false
   },
   "scarpa": {
     "gender": "Femminile",
@@ -2588,7 +2826,8 @@
       "calzino"
     ],
     "article": "la",
-    "plural": "scarpe"
+    "plural": "scarpe",
+    "irregular": false
   },
   "pioggia": {
     "gender": "Femminile",
@@ -2598,7 +2837,8 @@
       "siccità"
     ],
     "article": "la",
-    "plural": "piogge"
+    "plural": "piogge",
+    "irregular": false
   },
   "neve": {
     "gender": "Femminile",
@@ -2608,7 +2848,8 @@
       "pioggia"
     ],
     "article": "la",
-    "plural": "nevi"
+    "plural": "nevi",
+    "irregular": false
   },
   "ghiaccio": {
     "gender": "Maschile",
@@ -2618,7 +2859,8 @@
       "fuoco"
     ],
     "article": "il",
-    "plural": "ghiacci"
+    "plural": "ghiacci",
+    "irregular": false
   },
   "nuvola": {
     "gender": "Femminile",
@@ -2628,7 +2870,8 @@
       "sole"
     ],
     "article": "la",
-    "plural": "nuvole"
+    "plural": "nuvole",
+    "irregular": false
   },
   "stella": {
     "gender": "Femminile",
@@ -2638,7 +2881,8 @@
       "sole"
     ],
     "article": "la",
-    "plural": "stelle"
+    "plural": "stelle",
+    "irregular": false
   },
   "luna": {
     "gender": "Femminile",
@@ -2648,7 +2892,8 @@
       "sole"
     ],
     "article": "la",
-    "plural": "lune"
+    "plural": "lune",
+    "irregular": false
   },
   "foresta": {
     "gender": "Femminile",
@@ -2658,7 +2903,8 @@
       "deserto"
     ],
     "article": "la",
-    "plural": "foreste"
+    "plural": "foreste",
+    "irregular": false
   },
   "chiesa": {
     "gender": "Femminile",
@@ -2668,7 +2914,8 @@
       "moschea"
     ],
     "article": "la",
-    "plural": "chiese"
+    "plural": "chiese",
+    "irregular": false
   },
   "farmacia": {
     "gender": "Femminile",
@@ -2678,7 +2925,8 @@
       "ospedale"
     ],
     "article": "la",
-    "plural": "farmacie"
+    "plural": "farmacie",
+    "irregular": false
   },
   "stazione": {
     "gender": "Femminile",
@@ -2688,7 +2936,8 @@
       "aeroporto"
     ],
     "article": "la",
-    "plural": "stazioni"
+    "plural": "stazioni",
+    "irregular": false
   },
   "professore": {
     "gender": "Maschile",
@@ -2699,7 +2948,8 @@
     ],
     "article": "il",
     "plural": "professori",
-    "grammar_rule": "💡 REMEMBER: Forma il femminile con il suffisso '-essa' ('la professoressa')."
+    "grammar_rule": "💡 REMEMBER: Forma il femminile con il suffisso '-essa' ('la professoressa').",
+    "irregular": false
   },
   "avvocato": {
     "gender": "Maschile",
@@ -2710,7 +2960,8 @@
     ],
     "article": "l'",
     "plural": "avvocati",
-    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'avvocata' (forma promuovente) o 'avvocatessa' (tradizionale)."
+    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'avvocata' (forma promuovente) o 'avvocatessa' (tradizionale).",
+    "irregular": false
   },
   "ingegnere": {
     "gender": "Maschile",
@@ -2721,7 +2972,8 @@
     ],
     "article": "l'",
     "plural": "ingegneri",
-    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'l'ingegnera' (regolare) oppure resta 'l'ingegnere'."
+    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'l'ingegnera' (regolare) oppure resta 'l'ingegnere'.",
+    "irregular": false
   },
   "infermiere": {
     "gender": "Maschile",
@@ -2732,7 +2984,8 @@
     ],
     "article": "l'",
     "plural": "infermieri",
-    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('l'infermiera')."
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('l'infermiera').",
+    "irregular": false
   },
   "poliziotto": {
     "gender": "Maschile",
@@ -2743,7 +2996,8 @@
     ],
     "article": "il",
     "plural": "poliziotti",
-    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la poliziotta')."
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la poliziotta').",
+    "irregular": false
   },
   "cuoco": {
     "gender": "Maschile",
@@ -2754,7 +3008,8 @@
     ],
     "article": "il",
     "plural": "cuochi",
-    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la cuoca'). Plurale maschile in '-chi' ('i cuochi')."
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la cuoca'). Plurale maschile in '-chi' ('i cuochi').",
+    "irregular": false
   },
   "amicizia": {
     "gender": "Femminile",
@@ -2764,7 +3019,8 @@
       "inimicizia"
     ],
     "article": "l'",
-    "plural": "amicizie"
+    "plural": "amicizie",
+    "irregular": false
   },
   "fiducia": {
     "gender": "Femminile",
@@ -2774,7 +3030,8 @@
       "sfiducia"
     ],
     "article": "la",
-    "plural": "fiducie"
+    "plural": "fiducie",
+    "irregular": false
   },
   "pazienza": {
     "gender": "Femminile",
@@ -2784,7 +3041,8 @@
       "impazienza"
     ],
     "article": "la",
-    "plural": "pazienze"
+    "plural": "pazienze",
+    "irregular": false
   },
   "vergogna": {
     "gender": "Femminile",
@@ -2794,7 +3052,8 @@
       "orgoglio"
     ],
     "article": "la",
-    "plural": "vergogne"
+    "plural": "vergogne",
+    "irregular": false
   },
   "orgoglio": {
     "gender": "Maschile",
@@ -2804,7 +3063,8 @@
       "vergogna"
     ],
     "article": "l'",
-    "plural": "orgogli"
+    "plural": "orgogli",
+    "irregular": false
   },
   "curiosità": {
     "gender": "Femminile",
@@ -2815,7 +3075,8 @@
     ],
     "article": "la",
     "plural": "curiosità",
-    "grammar_rule": "💡 REMEMBER: Nome accentato sull'ultima sillaba, invariabile al plurale (\"la curiosità\", \"le curiosità\")."
+    "grammar_rule": "💡 REMEMBER: Nome accentato sull'ultima sillaba, invariabile al plurale (\"la curiosità\", \"le curiosità\").",
+    "irregular": false
   },
   "telefono": {
     "gender": "Maschile",
@@ -2825,7 +3086,8 @@
       "lettera"
     ],
     "article": "il",
-    "plural": "telefoni"
+    "plural": "telefoni",
+    "irregular": false
   },
   "internet": {
     "gender": "Maschile",
@@ -2834,7 +3096,8 @@
     "antonyms": [],
     "article": "l'",
     "plural": "internet",
-    "grammar_rule": "💡 REMEMBER: Prestito dall'inglese, invariabile al plurale."
+    "grammar_rule": "💡 REMEMBER: Prestito dall'inglese, invariabile al plurale.",
+    "irregular": false
   },
   "schermo": {
     "gender": "Maschile",
@@ -2844,7 +3107,8 @@
       "tastiera"
     ],
     "article": "lo",
-    "plural": "schermi"
+    "plural": "schermi",
+    "irregular": false
   },
   "tastiera": {
     "gender": "Femminile",
@@ -2854,7 +3118,8 @@
       "schermo"
     ],
     "article": "la",
-    "plural": "tastiere"
+    "plural": "tastiere",
+    "irregular": false
   },
   "mouse": {
     "gender": "Maschile",
@@ -2865,7 +3130,8 @@
     ],
     "article": "il",
     "plural": "mouse",
-    "grammar_rule": "💡 REMEMBER: Prestito non adattato dall'inglese; rimane invariabile al plurale (\"il mouse\", \"i mouse\")."
+    "grammar_rule": "💡 REMEMBER: Prestito non adattato dall'inglese; rimane invariabile al plurale (\"il mouse\", \"i mouse\").",
+    "irregular": true
   },
   "messaggio": {
     "gender": "Maschile",
@@ -2875,7 +3141,8 @@
       "silenzio"
     ],
     "article": "il",
-    "plural": "messaggi"
+    "plural": "messaggi",
+    "irregular": false
   },
   "gennaio": {
     "gender": "Maschile",
@@ -2883,7 +3150,8 @@
     "definition": "Primo mese dell'anno civile.",
     "antonyms": [],
     "article": "il",
-    "plural": "gennai"
+    "plural": "gennai",
+    "irregular": false
   },
   "febbraio": {
     "gender": "Maschile",
@@ -2891,7 +3159,8 @@
     "definition": "Secondo mese dell'anno civile.",
     "antonyms": [],
     "article": "il",
-    "plural": "febbrai"
+    "plural": "febbrai",
+    "irregular": false
   },
   "marzo": {
     "gender": "Maschile",
@@ -2899,7 +3168,8 @@
     "definition": "Terzo mese dell'anno civile.",
     "antonyms": [],
     "article": "il",
-    "plural": "marzi"
+    "plural": "marzi",
+    "irregular": false
   },
   "aprile": {
     "gender": "Maschile",
@@ -2907,7 +3177,8 @@
     "definition": "Quarto mese dell'anno civile.",
     "antonyms": [],
     "article": "l'",
-    "plural": "aprili"
+    "plural": "aprili",
+    "irregular": false
   },
   "maggio": {
     "gender": "Maschile",
@@ -2915,7 +3186,8 @@
     "definition": "Quinto mese dell'anno civile.",
     "antonyms": [],
     "article": "il",
-    "plural": "maggi"
+    "plural": "maggi",
+    "irregular": false
   },
   "giugno": {
     "gender": "Maschile",
@@ -2923,7 +3195,8 @@
     "definition": "Sesto mese dell'anno civile.",
     "antonyms": [],
     "article": "il",
-    "plural": "giugni"
+    "plural": "giugni",
+    "irregular": false
   },
   "luglio": {
     "gender": "Maschile",
@@ -2931,7 +3204,8 @@
     "definition": "Settimo mese dell'anno civile.",
     "antonyms": [],
     "article": "il",
-    "plural": "lugli"
+    "plural": "lugli",
+    "irregular": false
   },
   "agosto": {
     "gender": "Maschile",
@@ -2939,7 +3213,8 @@
     "definition": "Ottavo mese dell'anno civile.",
     "antonyms": [],
     "article": "l'",
-    "plural": "agosti"
+    "plural": "agosti",
+    "irregular": false
   },
   "settembre": {
     "gender": "Maschile",
@@ -2947,7 +3222,8 @@
     "definition": "Nono mese dell'anno civile.",
     "antonyms": [],
     "article": "il",
-    "plural": "settembri"
+    "plural": "settembri",
+    "irregular": false
   },
   "ottobre": {
     "gender": "Maschile",
@@ -2955,7 +3231,8 @@
     "definition": "Decimo mese dell'anno civile.",
     "antonyms": [],
     "article": "l'",
-    "plural": "ottobri"
+    "plural": "ottobri",
+    "irregular": false
   },
   "novembre": {
     "gender": "Maschile",
@@ -2963,7 +3240,8 @@
     "definition": "Undicesimo mese dell'anno civile.",
     "antonyms": [],
     "article": "il",
-    "plural": "novembri"
+    "plural": "novembri",
+    "irregular": false
   },
   "dicembre": {
     "gender": "Maschile",
@@ -2971,7 +3249,8 @@
     "definition": "Dodicesimo e ultimo mese dell'anno civile.",
     "antonyms": [],
     "article": "il",
-    "plural": "dicembri"
+    "plural": "dicembri",
+    "irregular": false
   },
   "primavera": {
     "gender": "Femminile",
@@ -2982,7 +3261,8 @@
     ],
     "article": "la",
     "plural": "primavere",
-    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili."
+    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili.",
+    "irregular": false
   },
   "estate": {
     "gender": "Femminile",
@@ -2993,7 +3273,8 @@
     ],
     "article": "l'",
     "plural": "estati",
-    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili."
+    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili.",
+    "irregular": false
   },
   "valigia": {
     "gender": "Femminile",
@@ -3001,7 +3282,8 @@
     "definition": "Contenitore portatile per vestiti durante un viaggio.",
     "antonyms": [],
     "article": "la",
-    "plural": "valigie"
+    "plural": "valigie",
+    "irregular": false
   },
   "passaporto": {
     "gender": "Maschile",
@@ -3009,7 +3291,8 @@
     "definition": "Documento ufficiale di riconoscimento per viaggiare.",
     "antonyms": [],
     "article": "il",
-    "plural": "passaporti"
+    "plural": "passaporti",
+    "irregular": false
   },
   "squadra": {
     "gender": "Femminile",
@@ -3017,7 +3300,8 @@
     "definition": "Gruppo di atleti o persone che collaborano.",
     "antonyms": [],
     "article": "la",
-    "plural": "squadre"
+    "plural": "squadre",
+    "irregular": false
   },
   "partita": {
     "gender": "Femminile",
@@ -3025,7 +3309,8 @@
     "definition": "Incontro sportivo tra due squadre o giocatori.",
     "antonyms": [],
     "article": "la",
-    "plural": "partite"
+    "plural": "partite",
+    "irregular": false
   },
   "piscina": {
     "gender": "Femminile",
@@ -3033,7 +3318,8 @@
     "definition": "Vasca artificiale usata per la natazione.",
     "antonyms": [],
     "article": "la",
-    "plural": "piscine"
+    "plural": "piscine",
+    "irregular": false
   },
   "denaro": {
     "gender": "Maschile",
@@ -3041,7 +3327,8 @@
     "definition": "Moneta usata come mezzo di pagamento.",
     "antonyms": [],
     "article": "il",
-    "plural": "denari"
+    "plural": "denari",
+    "irregular": false
   },
   "pubblicità": {
     "gender": "Femminile",
@@ -3049,7 +3336,8 @@
     "definition": "Promozione di prodotti o servizi al pubblico.",
     "antonyms": [],
     "article": "la",
-    "plural": "pubblicità"
+    "plural": "pubblicità",
+    "irregular": false
   },
   "programma": {
     "gender": "Maschile",
@@ -3058,7 +3346,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nome maschile d'origine greca in '-a' ('il programma / i programmi').",
     "article": "il",
-    "plural": "programmi"
+    "plural": "programmi",
+    "irregular": false
   },
   "medicina": {
     "gender": "Femminile",
@@ -3066,7 +3355,8 @@
     "definition": "Sostanza usata per curare le malattie.",
     "antonyms": [],
     "article": "la",
-    "plural": "medicine"
+    "plural": "medicine",
+    "irregular": false
   },
   "febbre": {
     "gender": "Femminile",
@@ -3074,7 +3364,8 @@
     "definition": "Aumento anormale della temperatura corporea.",
     "antonyms": [],
     "article": "la",
-    "plural": "febbri"
+    "plural": "febbri",
+    "irregular": false
   },
   "raffreddore": {
     "gender": "Maschile",
@@ -3082,7 +3373,8 @@
     "definition": "Infezione comune delle vie respiratorie.",
     "antonyms": [],
     "article": "il",
-    "plural": "raffreddori"
+    "plural": "raffreddori",
+    "irregular": false
   },
   "ambiente": {
     "gender": "Maschile",
@@ -3090,7 +3382,8 @@
     "definition": "Insieme delle condizioni naturali e sociali che circondano un organismo.",
     "antonyms": [],
     "article": "l'",
-    "plural": "ambienti"
+    "plural": "ambienti",
+    "irregular": false
   },
   "inquinamento": {
     "gender": "Maschile",
@@ -3098,7 +3391,8 @@
     "definition": "Alterazione dell'ambiente naturale dovuta a sostanze nocive.",
     "antonyms": [],
     "article": "l'",
-    "plural": "inquinamenti"
+    "plural": "inquinamenti",
+    "irregular": false
   },
   "società": {
     "gender": "Femminile",
@@ -3106,7 +3400,8 @@
     "definition": "Insieme di individui organizzati in una comunità strutturata.",
     "antonyms": [],
     "article": "la",
-    "plural": "società"
+    "plural": "società",
+    "irregular": false
   },
   "governo": {
     "gender": "Maschile",
@@ -3114,7 +3409,8 @@
     "definition": "Organo esecutivo che dirige uno Stato.",
     "antonyms": [],
     "article": "il",
-    "plural": "governi"
+    "plural": "governi",
+    "irregular": false
   },
   "economia": {
     "gender": "Femminile",
@@ -3122,7 +3418,8 @@
     "definition": "Sistema di produzione, distribuzione e consumo della ricchezza.",
     "antonyms": [],
     "article": "l'",
-    "plural": "economie"
+    "plural": "economie",
+    "irregular": false
   },
   "azienda": {
     "gender": "Femminile",
@@ -3130,7 +3427,8 @@
     "definition": "Organizzazione economica di beni e persone per la produzione.",
     "antonyms": [],
     "article": "l'",
-    "plural": "aziende"
+    "plural": "aziende",
+    "irregular": false
   },
   "collega": {
     "gender": "Maschile / Femminile",
@@ -3139,7 +3437,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Stessa forma al singolare per maschile e femminile ('il collega' / 'la collega'). Plurale: 'i colleghi' / 'le colleghe'.",
     "article": "il",
-    "plural": "colleghi"
+    "plural": "colleghi",
+    "irregular": true
   },
   "riunione": {
     "gender": "Femminile",
@@ -3147,7 +3446,8 @@
     "definition": "Incontro organizzato di persone per discutere questioni di lavoro.",
     "antonyms": [],
     "article": "la",
-    "plural": "riunioni"
+    "plural": "riunioni",
+    "irregular": false
   },
   "carriera": {
     "gender": "Femminile",
@@ -3155,7 +3455,8 @@
     "definition": "Percorso professionale e di avanzamento nella vita lavorativa.",
     "antonyms": [],
     "article": "la",
-    "plural": "carriere"
+    "plural": "carriere",
+    "irregular": false
   },
   "stipendio": {
     "gender": "Maschile",
@@ -3163,7 +3464,8 @@
     "definition": "Compenso in denaro corrisposto periodicamente al lavoratore.",
     "antonyms": [],
     "article": "lo",
-    "plural": "stipendi"
+    "plural": "stipendi",
+    "irregular": false
   },
   "relazione": {
     "gender": "Femminile",
@@ -3171,7 +3473,8 @@
     "definition": "Rapporto reciproco tra persone, gruppi o entità.",
     "antonyms": [],
     "article": "la",
-    "plural": "relazioni"
+    "plural": "relazioni",
+    "irregular": false
   },
   "malinteso": {
     "gender": "Maschile",
@@ -3181,7 +3484,8 @@
       "accordo"
     ],
     "article": "il",
-    "plural": "malintesi"
+    "plural": "malintesi",
+    "irregular": false
   },
   "delusione": {
     "gender": "Femminile",
@@ -3191,7 +3495,8 @@
       "soddisfazione"
     ],
     "article": "la",
-    "plural": "delusioni"
+    "plural": "delusioni",
+    "irregular": false
   },
   "opinione": {
     "gender": "Femminile",
@@ -3199,7 +3504,8 @@
     "definition": "Giudizio o idea personale riguardo a un argomento.",
     "antonyms": [],
     "article": "l'",
-    "plural": "opinioni"
+    "plural": "opinioni",
+    "irregular": false
   },
   "dibattito": {
     "gender": "Maschile",
@@ -3207,7 +3513,8 @@
     "definition": "Discussione pubblica su argomenti di interesse generale.",
     "antonyms": [],
     "article": "il",
-    "plural": "dibattiti"
+    "plural": "dibattiti",
+    "irregular": false
   },
   "media": {
     "gender": "Maschile",
@@ -3216,7 +3523,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Sostantivo maschile invariabile di origine latina ('i media').",
     "article": "i",
-    "plural": "media"
+    "plural": "media",
+    "irregular": true
   },
   "rete": {
     "gender": "Femminile",
@@ -3224,7 +3532,8 @@
     "definition": "Insieme di connessioni informatiche o sociali.",
     "antonyms": [],
     "article": "la",
-    "plural": "reti"
+    "plural": "reti",
+    "irregular": false
   },
   "armadio": {
     "gender": "Maschile",
@@ -3232,7 +3541,8 @@
     "definition": "Grande mobile a porte per riporre vestiti o oggetti.",
     "antonyms": [],
     "article": "l'",
-    "plural": "armadi"
+    "plural": "armadi",
+    "irregular": false
   },
   "scaffale": {
     "gender": "Maschile",
@@ -3240,7 +3550,8 @@
     "definition": "Struttura a ripiani usata per riporre libri o oggetti.",
     "antonyms": [],
     "article": "lo",
-    "plural": "scaffali"
+    "plural": "scaffali",
+    "irregular": false
   },
   "cassetto": {
     "gender": "Maschile",
@@ -3248,7 +3559,8 @@
     "definition": "Elemento scorrevole di un mobile per riporre piccoli oggetti.",
     "antonyms": [],
     "article": "il",
-    "plural": "cassetti"
+    "plural": "cassetti",
+    "irregular": false
   },
   "lampada": {
     "gender": "Femminile",
@@ -3256,7 +3568,8 @@
     "definition": "Apparecchio per produrre luce artificiale in una stanza.",
     "antonyms": [],
     "article": "la",
-    "plural": "lampade"
+    "plural": "lampade",
+    "irregular": false
   },
   "divano": {
     "gender": "Maschile",
@@ -3264,7 +3577,8 @@
     "definition": "Mobile imbottito a più posti con schienale e braccioli.",
     "antonyms": [],
     "article": "il",
-    "plural": "divani"
+    "plural": "divani",
+    "irregular": false
   },
   "verdura": {
     "gender": "Femminile",
@@ -3274,7 +3588,8 @@
       "frutta"
     ],
     "article": "la",
-    "plural": "verdure"
+    "plural": "verdure",
+    "irregular": false
   },
   "pasta": {
     "gender": "Femminile",
@@ -3282,7 +3597,8 @@
     "definition": "Alimento a base di farina o semola di grano cotto in acqua.",
     "antonyms": [],
     "article": "la",
-    "plural": "paste"
+    "plural": "paste",
+    "irregular": false
   },
   "moto": {
     "gender": "Femminile",
@@ -3291,7 +3607,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nome femminile invariabile al plurale ('la moto / le moto').",
     "article": "la",
-    "plural": "moto"
+    "plural": "moto",
+    "irregular": true
   },
   "taxi": {
     "gender": "Maschile",
@@ -3300,7 +3617,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nome maschile d'origine straniera invariabile al plurale ('il taxi / i taxi').",
     "article": "il",
-    "plural": "taxi"
+    "plural": "taxi",
+    "irregular": false
   },
   "matematica": {
     "gender": "Femminile",
@@ -3308,7 +3626,8 @@
     "definition": "Scienza che studia i numeri, le quantità e le forme geometriche.",
     "antonyms": [],
     "article": "la",
-    "plural": "matematiche"
+    "plural": "matematiche",
+    "irregular": false
   },
   "geografia": {
     "gender": "Femminile",
@@ -3316,7 +3635,8 @@
     "definition": "Scienza che studia e descrive la superficie della Terra.",
     "antonyms": [],
     "article": "la",
-    "plural": "geografie"
+    "plural": "geografie",
+    "irregular": false
   },
   "scienze": {
     "gender": "Femminile",
@@ -3325,7 +3645,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nome femminile plurale usato per la materia scolastica.",
     "article": "le",
-    "plural": "scienze"
+    "plural": "scienze",
+    "irregular": true
   },
   "cognome": {
     "gender": "Maschile",
@@ -3335,7 +3656,8 @@
       "nome"
     ],
     "article": "il",
-    "plural": "cognomi"
+    "plural": "cognomi",
+    "irregular": false
   },
   "età": {
     "gender": "Femminile",
@@ -3346,7 +3668,8 @@
     ],
     "grammar_rule": "💡 REMEMBER: Nome femminile accentato invariabile al plurale ('l'età / le età').",
     "article": "l'",
-    "plural": "età"
+    "plural": "età",
+    "irregular": false
   },
   "indirizzo": {
     "gender": "Maschile",
@@ -3354,7 +3677,8 @@
     "definition": "Indicazione del luogo di residenza con via e numero civico.",
     "antonyms": [],
     "article": "l'",
-    "plural": "indirizzi"
+    "plural": "indirizzi",
+    "irregular": false
   },
   "numero": {
     "gender": "Maschile",
@@ -3362,7 +3686,8 @@
     "definition": "Serie di cifre per chiamare un contatto telefonico.",
     "antonyms": [],
     "article": "il",
-    "plural": "numeri"
+    "plural": "numeri",
+    "irregular": false
   },
   "compleanno": {
     "gender": "Maschile",
@@ -3370,7 +3695,8 @@
     "definition": "Giorno dell'anno in cui ricorre l'anniversario della propria nascita.",
     "antonyms": [],
     "article": "il",
-    "plural": "compleanni"
+    "plural": "compleanni",
+    "irregular": false
   },
   "valle": {
     "gender": "Femminile",
@@ -3380,7 +3706,8 @@
       "montagna"
     ],
     "article": "la",
-    "plural": "valli"
+    "plural": "valli",
+    "irregular": false
   },
   "collina": {
     "gender": "Femminile",
@@ -3390,7 +3717,8 @@
       "valle"
     ],
     "article": "la",
-    "plural": "colline"
+    "plural": "colline",
+    "irregular": false
   },
   "temporale": {
     "gender": "Maschile",
@@ -3400,7 +3728,8 @@
       "sereno"
     ],
     "article": "il",
-    "plural": "temporali"
+    "plural": "temporali",
+    "irregular": false
   },
   "tuono": {
     "gender": "Maschile",
@@ -3408,7 +3737,8 @@
     "definition": "Forte rumore provocato dal fulmine durante un temporale.",
     "antonyms": [],
     "article": "il",
-    "plural": "tuoni"
+    "plural": "tuoni",
+    "irregular": false
   },
   "nebbia": {
     "gender": "Femminile",
@@ -3416,6 +3746,7 @@
     "definition": "Condensazione di vapore acqueo nei bassi strati dell'atmosfera.",
     "antonyms": [],
     "article": "la",
-    "plural": "nebbie"
+    "plural": "nebbie",
+    "irregular": false
   }
 }

@@ -99,22 +99,26 @@ class NounGenderEngine {
 
         // Plural ending split
         const pluralForm = data.plural || (noun.endsWith('al') ? noun.slice(0, -2) + 'aux' : (noun.endsWith('s') || noun.endsWith('x') ? noun : noun + 's'));
-        let stem = noun;
-        let ending = 's';
-        if (pluralForm.endsWith('oux') || pluralForm.endsWith('aux') || pluralForm.endsWith('x')) {
-            ending = pluralForm.slice(-1);
-            stem = pluralForm.slice(0, -1);
-        } else if (pluralForm === noun) {
-            stem = noun;
-            ending = '';
-        } else if (pluralForm.endsWith('s')) {
-            stem = pluralForm.slice(0, -1);
-            ending = 's';
+        if (data.irregular) {
+            document.getElementById('plur-form').innerHTML = `<span class="article">les</span> <span>${pluralForm}</span>`;
         } else {
-            stem = pluralForm;
-            ending = '';
+            let stem = noun;
+            let ending = 's';
+            if (pluralForm.endsWith('oux') || pluralForm.endsWith('aux') || pluralForm.endsWith('x')) {
+                ending = pluralForm.slice(-1);
+                stem = pluralForm.slice(0, -1);
+            } else if (pluralForm === noun) {
+                stem = noun;
+                ending = '';
+            } else if (pluralForm.endsWith('s')) {
+                stem = pluralForm.slice(0, -1);
+                ending = 's';
+            } else {
+                stem = pluralForm;
+                ending = '';
+            }
+            document.getElementById('plur-form').innerHTML = `<span class="article">les</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;
         }
-        document.getElementById('plur-form').innerHTML = `<span class="article">les</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;
 
         const antonymsBox = document.getElementById('antonyms-pills');
         if (data.antonyms && data.antonyms.length > 0) {
