@@ -1,0 +1,802 @@
+{
+  "depend": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["on", "upon"],
+    "pattern": "depend on [someone / something]",
+    "level": "A2",
+    "definition": "To be controlled, decided, or influenced by someone or something else.",
+    "grammar_rule": "Always requires the preposition 'on' (or formal 'upon') before a noun or gerund object.",
+    "examples": [
+      "Our weekend plans depend on the weather.",
+      "Children depend on their parents for love and security."
+    ],
+    "common_mistake": "❌ It depends of the situation. ➔ ✅ It depends on the situation.",
+    "synonyms": ["rely", "hinge", "count"],
+    "antonyms": []
+  },
+  "apologize": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["to", "for"],
+    "pattern": "apologize to [someone] for [doing something]",
+    "level": "A2",
+    "definition": "To express regret or say sorry for doing something wrong.",
+    "grammar_rule": "Use 'to' before the person receiving the apology, and 'for' before the reason or gerund (-ing).",
+    "examples": [
+      "He apologized to his colleagues for being late.",
+      "You should apologize for making that remark."
+    ],
+    "common_mistake": "❌ He apologized me. ➔ ✅ He apologized to me.",
+    "synonyms": ["express regret", "ask forgiveness"],
+    "antonyms": []
+  },
+  "discuss": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["none"],
+    "pattern": "discuss [something] (direct object)",
+    "level": "A2",
+    "definition": "To talk about something in detail with someone.",
+    "grammar_rule": "Strictly transitive direct verb! Do NOT add 'about' after 'discuss'.",
+    "examples": [
+      "We need to discuss the new budget in tomorrow's meeting.",
+      "They discussed the problem openly."
+    ],
+    "common_mistake": "❌ We discussed about the project. ➔ ✅ We discussed the project.",
+    "synonyms": ["debate", "deliberate", "talk over"],
+    "antonyms": ["ignore", "overlook"]
+  },
+  "look forward to": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["to"],
+    "pattern": "look forward to + [noun / gerund (-ing)]",
+    "level": "B1",
+    "definition": "To feel excited or pleased about something that is going to happen.",
+    "grammar_rule": "'To' is a preposition here, NOT an infinitive marker. Always follow with a noun or -ing verb form.",
+    "examples": [
+      "I look forward to meeting you next week.",
+      "She is looking forward to her summer vacation."
+    ],
+    "common_mistake": "❌ I look forward to meet you. ➔ ✅ I look forward to meeting you.",
+    "synonyms": ["anticipate", "await"],
+    "antonyms": ["dread"]
+  },
+  "listen": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["to"],
+    "pattern": "listen to [someone / something]",
+    "level": "A1",
+    "definition": "To pay attention to sound or give attention to someone speaking.",
+    "grammar_rule": "Requires 'to' when followed by an object. Without an object, 'listen' stands alone.",
+    "examples": [
+      "I love listening to jazz music in the evening.",
+      "Please listen to the teacher carefully."
+    ],
+    "common_mistake": "❌ Listen me! ➔ ✅ Listen to me!",
+    "synonyms": ["pay attention", "hearken"],
+    "antonyms": ["ignore"]
+  },
+  "accuse": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["of"],
+    "pattern": "accuse [someone] of [something / gerund]",
+    "level": "B1",
+    "definition": "To say that someone has done something wrong or committed a crime.",
+    "grammar_rule": "Takes a direct object (the person accused) followed by 'of' + noun/gerund.",
+    "examples": [
+      "They accused him of cheating on the exam.",
+      "She was falsely accused of theft."
+    ],
+    "common_mistake": "❌ They accused him for stealing. ➔ ✅ They accused him of stealing.",
+    "synonyms": ["charge", "blame", "indict"],
+    "antonyms": ["absolve", "exonerate"]
+  },
+  "prevent": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "prevent [someone / something] from [gerund (-ing)]",
+    "level": "B1",
+    "definition": "To stop something from happening or stop someone from doing something.",
+    "grammar_rule": "Takes a direct object followed by 'from' + gerund (-ing).",
+    "examples": [
+      "Heavy snow prevented us from leaving the cabin.",
+      "Good security measures prevent accidents from occurring."
+    ],
+    "common_mistake": "❌ Rain prevented us to go outside. ➔ ✅ Rain prevented us from going outside.",
+    "synonyms": ["hinder", "stop", "block", "inhibit"],
+    "antonyms": ["allow", "enable", "encourage"]
+  },
+  "succeed": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["in"],
+    "pattern": "succeed in [doing something]",
+    "level": "B1",
+    "definition": "To achieve a desired aim or result.",
+    "grammar_rule": "Requires 'in' + noun or gerund (-ing) when specifying the domain of success.",
+    "examples": [
+      "She succeeded in passing her final exams with top honors.",
+      "After months of trial, they succeeded in launching the app."
+    ],
+    "common_mistake": "❌ He succeeded to pass the exam. ➔ ✅ He succeeded in passing the exam.",
+    "synonyms": ["achieve", "triumph", "accomplish"],
+    "antonyms": ["fail", "botch"]
+  },
+  "complain": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["about", "to", "of"],
+    "pattern": "complain to [someone] about / of [something]",
+    "level": "A2",
+    "definition": "To express dissatisfaction, pain, or annoyance about something.",
+    "grammar_rule": "Use 'to' for the person/authority receiving complaints, and 'about' or 'of' for the topic/pain.",
+    "examples": [
+      "The customer complained to the manager about the cold food.",
+      "He complained of a sudden headache."
+    ],
+    "common_mistake": "❌ She complained the noise. ➔ ✅ She complained about the noise.",
+    "synonyms": ["grumble", "protest", "whine"],
+    "antonyms": ["praise", "compliment"]
+  },
+  "approve": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["of"],
+    "pattern": "approve of [someone / something]",
+    "level": "B1",
+    "definition": "To believe that someone or something is good, acceptable, or suitable.",
+    "grammar_rule": "'Approve of' means to hold a favorable opinion. (Note: transitive 'approve' means to give formal authorization).",
+    "examples": [
+      "Her parents didn't approve of her choice of career.",
+      "Do you approve of working overtime on weekends?"
+    ],
+    "common_mistake": "❌ I don't approve your behavior. ➔ ✅ I don't approve of your behavior.",
+    "synonyms": ["favor", "endorse", "sanction"],
+    "antonyms": ["disapprove", "condemn"]
+  },
+  "insist": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["on"],
+    "pattern": "insist on [doing something / noun]",
+    "level": "B1",
+    "definition": "To demand something forcefully, not accepting refusal.",
+    "grammar_rule": "Followed by 'on' + noun or gerund (-ing).",
+    "examples": [
+      "He insisted on paying for the whole dinner.",
+      "They insist on absolute punctuality."
+    ],
+    "common_mistake": "❌ She insisted to pay the bill. ➔ ✅ She insisted on paying the bill.",
+    "synonyms": ["demand", "persist", "assert"],
+    "antonyms": ["yield", "relinquish"]
+  },
+  "belong": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["to"],
+    "pattern": "belong to [someone / something]",
+    "level": "A1",
+    "definition": "To be the property of or be a member/part of something.",
+    "grammar_rule": "Always followed by 'to' when indicating ownership or organization membership.",
+    "examples": [
+      "This antique watch belonged to my grandfather.",
+      "Which sports club do you belong to?"
+    ],
+    "common_mistake": "❌ This book belongs me. ➔ ✅ This book belongs to me.",
+    "synonyms": ["pertain to", "be owned by"],
+    "antonyms": []
+  },
+  "rely": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["on", "upon"],
+    "pattern": "rely on [someone / something]",
+    "level": "B1",
+    "definition": "To trust or depend on someone or something with confidence.",
+    "grammar_rule": "Requires 'on' (or 'upon') before the object.",
+    "examples": [
+      "You can always rely on David to keep a secret.",
+      "Modern businesses rely heavily on digital communication."
+    ],
+    "common_mistake": "❌ Don't rely in luck. ➔ ✅ Don't rely on luck.",
+    "synonyms": ["depend", "count on", "bank on"],
+    "antonyms": ["distrust"]
+  },
+  "marry": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["none"],
+    "pattern": "marry [someone] (direct object)",
+    "level": "A2",
+    "definition": "To become the legally accepted husband or wife of someone.",
+    "grammar_rule": "Active verb is transitive direct (no preposition). Passive 'be married to' uses 'to'.",
+    "examples": [
+      "She married her high school sweetheart last month.",
+      "Will you marry me?"
+    ],
+    "common_mistake": "❌ He married with a famous actress. ➔ ✅ He married a famous actress.",
+    "synonyms": ["wed", "tie the knot with"],
+    "antonyms": ["divorce"]
+  },
+  "enter": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["none"],
+    "pattern": "enter [a room / building / market]",
+    "level": "A2",
+    "definition": "To come or go into a place.",
+    "grammar_rule": "Direct object when referring to physical places. (Note: 'enter into an agreement' is a phrasal idiom).",
+    "examples": [
+      "Please knock before you enter the room.",
+      "The thief entered the house through the back window."
+    ],
+    "common_mistake": "❌ She entered into the classroom. ➔ ✅ She entered the classroom.",
+    "synonyms": ["go into", "step into", "access"],
+    "antonyms": ["exit", "leave"]
+  },
+  "reach": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["none"],
+    "pattern": "reach [a destination / agreement / person]",
+    "level": "A2",
+    "definition": "To arrive at a place, achieve a milestone, or contact someone.",
+    "grammar_rule": "Transitive direct object without preposition. Do NOT use 'at' or 'to'.",
+    "examples": [
+      "We reached the hotel late in the evening.",
+      "They finally reached a consensus."
+    ],
+    "common_mistake": "❌ We reached to the top of the hill. ➔ ✅ We reached the top of the hill.",
+    "synonyms": ["arrive at", "attain", "contact"],
+    "antonyms": ["depart from", "miss"]
+  },
+  "congratulate": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["on"],
+    "pattern": "congratulate [someone] on [something / gerund]",
+    "level": "B1",
+    "definition": "To express praise and joy to someone for their achievement or good fortune.",
+    "grammar_rule": "Takes a direct object (the person) followed by 'on' + achievement.",
+    "examples": [
+      "I congratulated her on her promotion.",
+      "We congratulated the team on winning the tournament."
+    ],
+    "common_mistake": "❌ I congratulated him for his success. ➔ ✅ I congratulated him on his success.",
+    "synonyms": ["felicitate", "compliment"],
+    "antonyms": []
+  },
+  "blame": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["for", "on"],
+    "pattern": "blame [someone] for [something] OR blame [something] on [someone]",
+    "level": "B1",
+    "definition": "To assign responsibility or fault to someone or something.",
+    "grammar_rule": "Two valid structures: 'blame PERSON for THING' or 'blame THING on PERSON'.",
+    "examples": [
+      "Don't blame him for the mistake.",
+      "She blamed the accident on the slippery road."
+    ],
+    "common_mistake": "❌ Don't blame on him for this. ➔ ✅ Don't blame him for this.",
+    "synonyms": ["accuse", "hold responsible"],
+    "antonyms": ["exonerate", "absolve"]
+  },
+  "concentrate": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["on"],
+    "pattern": "concentrate on [something / gerund]",
+    "level": "A2",
+    "definition": "To direct all your attention and efforts toward a single activity.",
+    "grammar_rule": "Requires 'on' before the subject of focus or action.",
+    "examples": [
+      "I need a quiet place to concentrate on my studies.",
+      "Concentrate on breathing deeply."
+    ],
+    "common_mistake": "❌ He concentrated in his work. ➔ ✅ He concentrated on his work.",
+    "synonyms": ["focus on", "center on"],
+    "antonyms": ["divert", "distract"]
+  },
+  "focus": {
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["on"],
+    "pattern": "focus on [something] / focus [something] on [something]",
+    "level": "A2",
+    "definition": "To pay central attention to a topic, or direct light/effort onto an object.",
+    "grammar_rule": "Can be intransitive ('focus on X') or transitive ('focus attention on X'). Always uses 'on'.",
+    "examples": [
+      "The presentation focuses on sustainable energy.",
+      "She focused her camera on the flying eagle."
+    ],
+    "common_mistake": "❌ Let's focus in the main issue. ➔ ✅ Let's focus on the main issue.",
+    "synonyms": ["concentrate on", "zero in on"],
+    "antonyms": ["ignore"]
+  },
+  "consist": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["of", "in"],
+    "pattern": "consist of [components] / consist in [essential quality]",
+    "level": "B1",
+    "definition": "To be composed or made up of specified parts or elements.",
+    "grammar_rule": "Use 'consist of' for physical/constituent components. Use 'consist in' for defining features.",
+    "examples": [
+      "The team consists of five experienced engineers.",
+      "True happiness consists in being satisfied with what you have."
+    ],
+    "common_mistake": "❌ The salad consists from tomatoes and cucumbers. ➔ ✅ The salad consists of tomatoes and cucumbers.",
+    "synonyms": ["comprise", "be composed of", "include"],
+    "antonyms": []
+  },
+  "suffer": {
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["from"],
+    "pattern": "suffer from [an illness / hardship]",
+    "level": "A2",
+    "definition": "To experience physical or mental pain, illness, or disadvantage.",
+    "grammar_rule": "Intransitive 'suffer from' takes illness/pain. Transitive direct 'suffer' takes abstract loss (e.g. suffer defeat/losses).",
+    "examples": [
+      "Many people suffer from seasonal allergies in spring.",
+      "The company suffered heavy financial losses."
+    ],
+    "common_mistake": "❌ He suffers with asthma. ➔ ✅ He suffers from asthma.",
+    "synonyms": ["endure", "undergo", "afflicted by"],
+    "antonyms": ["flourish", "thrive"]
+  },
+  "remind": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["of"],
+    "pattern": "remind [someone] of [someone / something]",
+    "level": "B1",
+    "definition": "To cause someone to remember something or resemble someone.",
+    "grammar_rule": "Direct object (person) followed by 'of' + noun, or followed by 'to' + infinitive.",
+    "examples": [
+      "This song reminds me of my college days.",
+      "Please remind me to call the accountant later."
+    ],
+    "common_mistake": "❌ This reminds me about my hometown. ➔ ✅ This reminds me of my hometown.",
+    "synonyms": ["evoke", "recollect"],
+    "antonyms": ["forget"]
+  },
+  "warn": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["about", "against", "of"],
+    "pattern": "warn [someone] about / against / of [danger / action]",
+    "level": "B1",
+    "definition": "To inform someone in advance of possible danger, risk, or problem.",
+    "grammar_rule": "Direct object (person) followed by 'about/of' + noun or 'against' + gerund (-ing).",
+    "examples": [
+      "The weather report warned us about the upcoming storm.",
+      "Doctors warn against eating too much processed sugar."
+    ],
+    "common_mistake": "❌ They warned us to not swim. ➔ ✅ They warned us against swimming / not to swim.",
+    "synonyms": ["caution", "alert", "forewarn"],
+    "antonyms": []
+  },
+  "charge": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["with", "for"],
+    "pattern": "charge [someone] with [a crime] OR charge [someone] [money] for [a service]",
+    "level": "B2",
+    "definition": "To formally accuse someone of a crime, or demand a price for goods/services.",
+    "grammar_rule": "'Charge with' for legal accusation; 'charge for' for financial payment.",
+    "examples": [
+      "Police charged the suspect with armed robbery.",
+      "The garage charged us $200 for the car repairs."
+    ],
+    "common_mistake": "❌ He was charged of theft. ➔ ✅ He was charged with theft.",
+    "synonyms": ["indict", "bill"],
+    "antonyms": ["acquit"]
+  },
+  "borrow": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "borrow [something] from [someone]",
+    "level": "A1",
+    "definition": "To take and use something belonging to someone else, intending to return it.",
+    "grammar_rule": "Direct object (item) followed by 'from' + owner. (Do NOT confuse with 'lend').",
+    "examples": [
+      "Can I borrow a pen from you?",
+      "She borrowed three books from the library."
+    ],
+    "common_mistake": "❌ Can I borrow to you a pen? ➔ ✅ Can I borrow a pen from you?",
+    "synonyms": ["obtain on loan"],
+    "antonyms": ["lend", "return"]
+  },
+  "lend": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "lend [something] to [someone] / lend [someone] [something]",
+    "level": "A2",
+    "definition": "To give something to someone for a temporary period.",
+    "grammar_rule": "Dual object structure: direct item + 'to' + receiver, or receiver + direct item.",
+    "examples": [
+      "I lent my bicycle to my brother.",
+      "Could you lend me some money until Friday?"
+    ],
+    "common_mistake": "❌ He lent me from his car. ➔ ✅ He lent me his car.",
+    "synonyms": ["loan", "advance"],
+    "antonyms": ["borrow"]
+  },
+  "protect": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from", "against"],
+    "pattern": "protect [someone / something] from / against [danger]",
+    "level": "A2",
+    "definition": "To keep someone or something safe from harm, injury, or loss.",
+    "grammar_rule": "Direct object followed by 'from' or 'against'.",
+    "examples": [
+      "Sunscreen protects your skin from harmful UV rays.",
+      "Vaccines protect against severe infectious diseases."
+    ],
+    "common_mistake": "❌ Protect your skin to the sun. ➔ ✅ Protect your skin from the sun.",
+    "synonyms": ["shield", "guard", "defend"],
+    "antonyms": ["expose", "endanger"]
+  },
+  "substitute": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["for"],
+    "pattern": "substitute [A] for [B]",
+    "level": "B2",
+    "definition": "To use or put something in place of another.",
+    "grammar_rule": "Takes new item A, followed by 'for' + original item B.",
+    "examples": [
+      "You can substitute olive oil for butter in this recipe.",
+      "The coach substituted a younger player for the fatigued veteran."
+    ],
+    "common_mistake": "❌ Substitute apples with oranges (when putting apples in). ➔ ✅ Substitute apples for oranges.",
+    "synonyms": ["replace", "exchange", "swap"],
+    "antonyms": ["retain"]
+  },
+  "replace": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["with", "by"],
+    "pattern": "replace [A] with [B]",
+    "level": "A2",
+    "definition": "To take the place of or substitute something with another.",
+    "grammar_rule": "Takes original item A, followed by 'with' + new item B.",
+    "examples": [
+      "We replaced our old television with a modern 4K screen.",
+      "Coal heating is being replaced by renewable energy."
+    ],
+    "common_mistake": "❌ Replace the old model for a new one. ➔ ✅ Replace the old model with a new one.",
+    "synonyms": ["substitute", "swap out"],
+    "antonyms": ["keep"]
+  },
+  "search": {
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["for"],
+    "pattern": "search for [something] OR search [a place]",
+    "level": "A1",
+    "definition": "To look carefully in order to find someone or something.",
+    "grammar_rule": "'Search for X' means seeking item X. 'Search X' means physically examining place X.",
+    "examples": [
+      "They searched for their lost keys everywhere.",
+      "Customs officers searched the suspicious luggage."
+    ],
+    "common_mistake": "❌ He searched his keys. ➔ ✅ He searched for his keys.",
+    "synonyms": ["seek", "look for", "hunt for"],
+    "antonyms": ["ignore"]
+  },
+  "run": {
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["into", "out of", "away from"],
+    "pattern": "run (VI) / run [a company] (VT)",
+    "level": "A1",
+    "definition": "To move quickly on foot (intransitive), or operate/manage a business (transitive).",
+    "grammar_rule": "Intransitive in movement; transitive direct when managing an organization.",
+    "examples": [
+      "She runs five miles every morning.",
+      "He has been running a successful startup for three years."
+    ],
+    "common_mistake": "❌ He runs of a company. ➔ ✅ He runs a company.",
+    "synonyms": ["sprint", "manage", "operate"],
+    "antonyms": ["walk", "halt"]
+  },
+  "stop": {
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["from"],
+    "pattern": "stop [doing something] (gerund) vs stop to [do something] (infinitive purpose)",
+    "level": "A1",
+    "definition": "To halt motion, action, or operation.",
+    "grammar_rule": "Gerund means quit action entirely. Infinitive means pause current activity to do another.",
+    "examples": [
+      "He stopped smoking three years ago.",
+      "On the drive home, we stopped to buy groceries."
+    ],
+    "common_mistake": "❌ He stopped to smoke (when quitting). ➔ ✅ He stopped smoking.",
+    "synonyms": ["halt", "cease", "discontinue"],
+    "antonyms": ["start", "continue"]
+  },
+  "change": {
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["into", "from", "to"],
+    "pattern": "change [something] into [something else]",
+    "level": "A1",
+    "definition": "To make or become different.",
+    "grammar_rule": "Intransitive (the situation changes) or transitive direct (you change something). Uses 'into' for transformation.",
+    "examples": [
+      "The caterpillar changed into a beautiful butterfly.",
+      "You need to change your password regularly."
+    ],
+    "common_mistake": "❌ Change to another clothes. ➔ ✅ Change into other clothes.",
+    "synonyms": ["alter", "transform", "modify"],
+    "antonyms": ["remain", "preserve"]
+  },
+  "prefer": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "prefer [A] to [B] / prefer [gerund] to [gerund]",
+    "level": "A2",
+    "definition": "To like one thing or person better than another.",
+    "grammar_rule": "Always use 'to' when comparing two options with 'prefer', NEVER 'than'.",
+    "examples": [
+      "I prefer tea to coffee in the morning.",
+      "She prefers walking to driving in heavy traffic."
+    ],
+    "common_mistake": "❌ I prefer tea than coffee. ➔ ✅ I prefer tea to coffee.",
+    "synonyms": ["favor", "choose rather"],
+    "antonyms": ["dislike"]
+  },
+  "differ": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["from", "in", "with"],
+    "pattern": "differ from [something] / differ in [aspect]",
+    "level": "B2",
+    "definition": "To be unlike or distinct in nature, quality, or form.",
+    "grammar_rule": "Use 'differ from' for dissimilarity; 'differ in' for the point of distinction.",
+    "examples": [
+      "British English differs from American English in spelling and vocabulary.",
+      "The two models differ mainly in battery capacity."
+    ],
+    "common_mistake": "❌ This approach differs than mine. ➔ ✅ This approach differs from mine.",
+    "synonyms": ["vary", "diverge"],
+    "antonyms": ["resemble", "match"]
+  },
+  "depend on": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["on"],
+    "pattern": "depend on [someone / something]",
+    "level": "A2",
+    "definition": "To rely on or be contingent upon.",
+    "grammar_rule": "Standard phrasal combination with required preposition 'on'.",
+    "examples": [
+      "Our survival depends on clean water.",
+      "Success depends on hard work."
+    ],
+    "common_mistake": "❌ Depends to you. ➔ ✅ Depends on you.",
+    "synonyms": ["rely on"],
+    "antonyms": []
+  },
+  "talk": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["to", "with", "about"],
+    "pattern": "talk to / with [someone] about [something]",
+    "level": "A1",
+    "definition": "To speak in order to give information or express feelings.",
+    "grammar_rule": "'To' / 'with' for listeners, 'about' for subjects.",
+    "examples": [
+      "I need to talk to you about the project.",
+      "She spent an hour talking with her sister."
+    ],
+    "common_mistake": "❌ Talk the teacher. ➔ ✅ Talk to the teacher.",
+    "synonyms": ["speak", "converse"],
+    "antonyms": ["be silent"]
+  },
+  "speak": {
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["to", "with", "about"],
+    "pattern": "speak [a language] (VT) / speak to [someone] (VI)",
+    "level": "A1",
+    "definition": "To utter words, communicate orally, or know a language.",
+    "grammar_rule": "Transitive when naming a language ('speak fluent French'); intransitive with 'to/with' for people.",
+    "examples": [
+      "She speaks four foreign languages fluently.",
+      "May I speak to Mr. Henderson, please?"
+    ],
+    "common_mistake": "❌ Speak to French. ➔ ✅ Speak French.",
+    "synonyms": ["utter", "talk", "articulate"],
+    "antonyms": []
+  },
+  "explain": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "explain [something] to [someone]",
+    "level": "A2",
+    "definition": "To make something clear or easy to understand by describing it.",
+    "grammar_rule": "The listener MUST be preceded by 'to', even if placed before the topic.",
+    "examples": [
+      "Can you explain this rule to me?",
+      "The professor explained the theory to the class."
+    ],
+    "common_mistake": "❌ Explain me this problem. ➔ ✅ Explain this problem to me.",
+    "synonyms": ["clarify", "elucidate", "expound"],
+    "antonyms": ["confuse", "obscure"]
+  },
+  "describe": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "describe [something] to [someone]",
+    "level": "A2",
+    "definition": "To give a detailed account in words of someone or something.",
+    "grammar_rule": "Transitive direct verb for topic; use 'to' for the listener.",
+    "examples": [
+      "She described her trip to her friends.",
+      "The witness described the suspect to police officers."
+    ],
+    "common_mistake": "❌ Describe to me your car. ➔ ✅ Describe your car to me.",
+    "synonyms": ["depict", "portray", "detail"],
+    "antonyms": []
+  },
+  "suggest": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "suggest [something / gerund] to [someone]",
+    "level": "B1",
+    "definition": "To put forward an idea, plan, or option for consideration.",
+    "grammar_rule": "Never followed by an indirect object without 'to'. Takes gerund or 'that' clause.",
+    "examples": [
+      "I suggested going for a walk.",
+      "He suggested a solution to the manager."
+    ],
+    "common_mistake": "❌ She suggested me a restaurant. ➔ ✅ She suggested a restaurant to me.",
+    "synonyms": ["propose", "recommend"],
+    "antonyms": []
+  },
+  "recommend": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "recommend [something / gerund] to [someone]",
+    "level": "B1",
+    "definition": "To advise or praise something as being suitable for a particular purpose.",
+    "grammar_rule": "Takes gerund or direct object; listener requires 'to'.",
+    "examples": [
+      "The doctor recommended taking a rest.",
+      "Can you recommend a good hotel to us?"
+    ],
+    "common_mistake": "❌ He recommended me a book. ➔ ✅ He recommended a book to me.",
+    "synonyms": ["advise", "endorse"],
+    "antonyms": ["discourage"]
+  },
+  "wait": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["for"],
+    "pattern": "wait for [someone / something]",
+    "level": "A1",
+    "definition": "To stay in a place or delay action until something expected happens.",
+    "grammar_rule": "Requires 'for' when specifying the target of waiting. (Compare with transitive 'await').",
+    "examples": [
+      "We waited for the bus for thirty minutes.",
+      "She is waiting for her exam results."
+    ],
+    "common_mistake": "❌ Wait me! ➔ ✅ Wait for me!",
+    "synonyms": ["bide time", "await"],
+    "antonyms": []
+  },
+  "avert": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "avert [one's eyes / a disaster] from [something]",
+    "level": "C1",
+    "definition": "To turn away or prevent an undesirable event from happening.",
+    "grammar_rule": "Direct object required; use 'from' when turning gaze or focus away.",
+    "examples": [
+      "He averted his eyes from the gruesome accident.",
+      "Prompt emergency response averted a major catastrophe."
+    ],
+    "common_mistake": "❌ Avert off the crisis. ➔ ✅ Avert the crisis.",
+    "synonyms": ["prevent", "avoid", "fend off"],
+    "antonyms": ["cause", "invite"]
+  },
+  "attribute": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "attribute [effect] to [cause / person]",
+    "level": "B2",
+    "definition": "To regard something as being caused by a specific person or factor.",
+    "grammar_rule": "Requires direct object (effect) followed by 'to' + cause.",
+    "examples": [
+      "The doctor attributes her quick recovery to good nutrition.",
+      "Historians attribute the collapse to economic instability."
+    ],
+    "common_mistake": "❌ Attribute the success for hard work. ➔ ✅ Attribute the success to hard work.",
+    "synonyms": ["ascribe", "credit", "impute"],
+    "antonyms": []
+  },
+  "refrain": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["from"],
+    "pattern": "refrain from [gerund (-ing) / noun]",
+    "level": "B2",
+    "definition": "To stop oneself from doing or enjoying something.",
+    "grammar_rule": "Requires 'from' + gerund (-ing).",
+    "examples": [
+      "Please refrain from smoking inside the terminal.",
+      "Passengers are asked to refrain from using mobile devices during takeoff."
+    ],
+    "common_mistake": "❌ Refrain to speak during the exam. ➔ ✅ Refrain from speaking during the exam.",
+    "synonyms": ["abstain", "desist", "hold back"],
+    "antonyms": ["indulge", "persist"]
+  },
+  "abstain": {
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["from"],
+    "pattern": "abstain from [gerund (-ing) / noun]",
+    "level": "B2",
+    "definition": "To formally choose not to vote, or restrain oneself from indulging.",
+    "grammar_rule": "Requires 'from' before the activity or vote.",
+    "examples": [
+      "Ten members voted in favor, two against, and three abstained from voting.",
+      "Athletes should abstain from alcohol during training."
+    ],
+    "common_mistake": "❌ Abstain of voting. ➔ ✅ Abstain from voting.",
+    "synonyms": ["refrain", "withhold"],
+    "antonyms": ["participate", "indulge"]
+  },
+  "dedicate": {
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "dedicate [something] to [someone / cause / gerund]",
+    "level": "B1",
+    "definition": "To devote time, effort, or a work of art to a specific purpose or person.",
+    "grammar_rule": "Followed by 'to' (preposition). When followed by a verb, use the gerund (-ing).",
+    "examples": [
+      "She dedicated her life to helping underprivileged children.",
+      "The author dedicated his latest book to his late mother."
+    ],
+    "common_mistake": "❌ Dedicated to help others. ➔ ✅ Dedicated to helping others.",
+    "synonyms": ["devote", "commit", "consecrate"],
+    "antonyms": []
+  },
+  "commit": {
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["to"],
+    "pattern": "commit [a crime] (VT) / commit oneself to [gerund] (VT reflexive)",
+    "level": "B1",
+    "definition": "To carry out an action, or pledge loyalty/time to a cause.",
+    "grammar_rule": "'Commit to' takes a gerund (-ing) or noun object.",
+    "examples": [
+      "The company committed to reducing carbon emissions by 50%.",
+      "He committed a grave error during the interview."
+    ],
+    "common_mistake": "❌ Committed to reduce pollution. ➔ ✅ Committed to reducing pollution.",
+    "synonyms": ["pledge", "devote", "perpetrate"],
+    "antonyms": ["welch", "renege"]
+  }
+}

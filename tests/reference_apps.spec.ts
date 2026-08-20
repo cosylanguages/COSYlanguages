@@ -107,4 +107,24 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         const rows = await page.locator('#cases-table-body tr').count();
         expect(rows).toBe(4);
     });
+
+    test('en-verb-prep loads and displays transitivity badge, dependent prepositions, CEFR level, and game mode', async ({ page }) => {
+        await page.goto('http://localhost:8080/apps/en-verb-prep/index.html');
+        await page.waitForSelector('#verb-search-input');
+
+        await page.fill('#verb-search-input', 'depend');
+        await page.keyboard.press('Enter');
+
+        await expect(page.locator('#verb-title')).toHaveText('depend');
+        await expect(page.locator('#transitivity-badge')).toContainText('Intransitive (VI)');
+        await expect(page.locator('#prep-badge')).toContainText('on / upon');
+        await expect(page.locator('#verb-cefr-badge')).toContainText('Level: A2');
+        await expect(page.locator('#verb-pattern-text')).toContainText('depend on');
+        await expect(page.locator('#mistake-text')).toContainText('It depends on');
+
+        // Check Practice Mode Toggle
+        await page.click('#toggle-game-btn');
+        await expect(page.locator('#game-container')).toBeVisible();
+        await expect(page.locator('#game-verb-prompt')).not.toBeEmpty();
+    });
 });
