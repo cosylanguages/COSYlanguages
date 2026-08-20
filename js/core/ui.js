@@ -3001,8 +3001,11 @@
                 .session-switcher-btn {
                     display: inline-flex;
                     align-items: center;
+                    justify-content: center;
                     gap: 0.4rem;
-                    padding: 0.35rem 0.9rem;
+                    padding: 0.45rem 1rem;
+                    min-height: 44px;
+                    box-sizing: border-box;
                     background: var(--surface-color, #ffffff);
                     border: 1px solid var(--border);
                     border-radius: 50px;
