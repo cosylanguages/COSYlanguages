@@ -2138,10 +2138,7 @@
             let visibleCount = 0;
 
             sessions.forEach(sess => {
-                if (sess.closest('.pinned-challenges-section')) {
-                    return;
-                }
-
+                const isPinned = !!sess.closest('.pinned-challenges-section');
                 const titleAttr = (sess.getAttribute('data-title') || '').toLowerCase();
                 const langAttr = sess.getAttribute('data-lang') || 'en';
                 const levelsAttr = sess.getAttribute('data-level') || '';
@@ -2156,7 +2153,7 @@
 
                 if (matchQuery && matchLang && matchLevel && matchSensitive) {
                     sess.style.setProperty('display', '', '');
-                    visibleCount++;
+                    if (!isPinned) visibleCount++;
                 } else {
                     sess.style.setProperty('display', 'none', 'important');
                 }
@@ -2877,8 +2874,10 @@
         const mainContainer = document.querySelector('main.content-container');
         if (!mainContainer) return;
 
+        const currentPage = matchedGroup.pages.find(page => page.path === relativePath);
+
         // Determine current document language
-        let docLang = (document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+        let docLang = currentPage ? currentPage.lang : (document.documentElement.lang || 'en').toLowerCase().split('-')[0];
         if (!['en', 'fr', 'ru'].includes(docLang)) {
             docLang = 'en';
         }
