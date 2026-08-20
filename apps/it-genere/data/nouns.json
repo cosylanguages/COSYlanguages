@@ -3225,5 +3225,63 @@
     "antonyms": [],
     "article": "la",
     "plural": "reti"
+  },
+  "armadio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Grande mobile a porte per riporre vestiti o oggetti.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "armadi"
+  },
+  "scaffale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Struttura a ripiani usata per riporre libri o oggetti.",
+    "antonyms": [],
+    "article": "lo",
+    "plural": "scaffali"
+  },
+  "cassetto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Elemento scorrevole di un mobile per riporre piccoli oggetti.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "cassetti"
+  },
+  "lampada": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Apparecchio per produrre luce artificiale in una stanza.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "lampade"
+  },
+  "divano": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Mobile imbottito a più posti con schienale e braccioli.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "divani"
+  },
+  "verdura": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Insieme di piante orticole ed eduli usate in cucina.",
+    "antonyms": [
+      "frutta"
+    ],
+    "article": "la",
+    "plural": "verdure"
+  },
+  "pasta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Alimento a base di farina o semola di grano cotto in acqua.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "paste"
   }
 }

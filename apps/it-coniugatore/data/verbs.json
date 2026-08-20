@@ -27749,5 +27749,313 @@
         "si sono dimessi"
       ]
     }
+  },
+  "stirare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Stendere le pieghe dei tessuti lavati usando il ferro caldo.",
+    "antonyms": [],
+    "auxiliary": "avere",
+    "usage_hint": "stirare una camicia / i vestiti",
+    "tenses": {
+      "presente": [
+        "stiro",
+        "stiri",
+        "stira",
+        "stiriamo",
+        "stirate",
+        "stirano"
+      ],
+      "pres": [
+        "stiro",
+        "stiri",
+        "stira",
+        "stiriamo",
+        "stirate",
+        "stirano"
+      ],
+      "imperfetto": [
+        "stiravo",
+        "stiravi",
+        "stirava",
+        "stiravamo",
+        "stiravate",
+        "stiravano"
+      ],
+      "imp": [
+        "stiravo",
+        "stiravi",
+        "stirava",
+        "stiravamo",
+        "stiravate",
+        "stiravano"
+      ],
+      "futuro_semplice": [
+        "stirerò",
+        "stirerai",
+        "stirerà",
+        "stireremo",
+        "stirerete",
+        "stireranno"
+      ],
+      "fut": [
+        "stirerò",
+        "stirerai",
+        "stirerà",
+        "stireremo",
+        "stirerete",
+        "stireranno"
+      ],
+      "condizionale_presente": [
+        "stirerei",
+        "stireresti",
+        "stirerebbe",
+        "stireremmo",
+        "stirereste",
+        "stirerebbero"
+      ],
+      "cond": [
+        "stirerei",
+        "stireresti",
+        "stirerebbe",
+        "stireremmo",
+        "stirereste",
+        "stirerebbero"
+      ],
+      "congiuntivo_presente": [
+        "che io stiri",
+        "che tu stiri",
+        "che egli stiri",
+        "che noi stiriamo",
+        "che voi stiriate",
+        "che essi stirino"
+      ],
+      "subj": [
+        "che io stiri",
+        "che tu stiri",
+        "che egli stiri",
+        "che noi stiriamo",
+        "che voi stiriate",
+        "che essi stirino"
+      ],
+      "imperativo": [
+        "stira!",
+        "stiriamo!",
+        "stirate!"
+      ],
+      "impv": [
+        "stira!",
+        "stiriamo!",
+        "stirate!"
+      ],
+      "participio_passato": [
+        "stirato"
+      ],
+      "part": [
+        "stirato"
+      ],
+      "cond_pass": [
+        "avrei stirato",
+        "avresti stirato",
+        "avrebbe stirato",
+        "avremmo stirato",
+        "avreste stirato",
+        "avrebbero stirato"
+      ],
+      "subj_pass": [
+        "abbia stirato",
+        "abbia stirato",
+        "abbia stirato",
+        "abbiamo stirato",
+        "abbiate stirato",
+        "abbiano stirato"
+      ],
+      "subj_imp": [
+        "stirassi",
+        "stirassi",
+        "stirasse",
+        "stirassimo",
+        "stiraste",
+        "stirassero"
+      ],
+      "trap_pass": [
+        "avevo stirato",
+        "avevi stirato",
+        "aveva stirato",
+        "avevamo stirato",
+        "avevate stirato",
+        "avevano stirato"
+      ],
+      "fut_ant": [
+        "avrò stirato",
+        "avrai stirato",
+        "avrà stirato",
+        "avremo stirato",
+        "avrete stirato",
+        "avranno stirato"
+      ],
+      "pc": [
+        "ho stirato",
+        "hai stirato",
+        "ha stirato",
+        "abbiamo stirato",
+        "avete stirato",
+        "hanno stirato"
+      ]
+    }
+  },
+  "lavare i piatti": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Pulire piatti, bicchieri e posate con acqua e sapone dopo i pasti.",
+    "antonyms": [],
+    "auxiliary": "avere",
+    "usage_hint": "lavare i piatti dopo la cena",
+    "tenses": {
+      "presente": [
+        "lavo i piatti",
+        "lavi i piatti",
+        "lava i piatti",
+        "laviamo i piatti",
+        "lavate i piatti",
+        "lavano i piatti"
+      ],
+      "pres": [
+        "lavo i piatti",
+        "lavi i piatti",
+        "lava i piatti",
+        "laviamo i piatti",
+        "lavate i piatti",
+        "lavano i piatti"
+      ],
+      "imperfetto": [
+        "lavavo i piatti",
+        "lavavi i piatti",
+        "lavava i piatti",
+        "lavavamo i piatti",
+        "lavavate i piatti",
+        "lavavano i piatti"
+      ],
+      "imp": [
+        "lavavo i piatti",
+        "lavavi i piatti",
+        "lavava i piatti",
+        "lavavamo i piatti",
+        "lavavate i piatti",
+        "lavavano i piatti"
+      ],
+      "futuro_semplice": [
+        "laverò i piatti",
+        "laverai i piatti",
+        "laverà i piatti",
+        "laveremo i piatti",
+        "laverete i piatti",
+        "laveranno i piatti"
+      ],
+      "fut": [
+        "laverò i piatti",
+        "laverai i piatti",
+        "laverà i piatti",
+        "laveremo i piatti",
+        "laverete i piatti",
+        "laveranno i piatti"
+      ],
+      "condizionale_presente": [
+        "laverei i piatti",
+        "laveresti i piatti",
+        "laverebbe i piatti",
+        "laveremmo i piatti",
+        "lavereste i piatti",
+        "laverebbero i piatti"
+      ],
+      "cond": [
+        "laverei i piatti",
+        "laveresti i piatti",
+        "laverebbe i piatti",
+        "laveremmo i piatti",
+        "lavereste i piatti",
+        "laverebbero i piatti"
+      ],
+      "congiuntivo_presente": [
+        "che io lavi i piatti",
+        "che tu lavi i piatti",
+        "che egli lavi i piatti",
+        "che noi laviamo i piatti",
+        "che voi laviate i piatti",
+        "che essi lavino i piatti"
+      ],
+      "subj": [
+        "che io lavi i piatti",
+        "che tu lavi i piatti",
+        "che egli lavi i piatti",
+        "che noi laviamo i piatti",
+        "che voi laviate i piatti",
+        "che essi lavino i piatti"
+      ],
+      "imperativo": [
+        "lava i piatti!",
+        "laviamo i piatti!",
+        "lavate i piatti!"
+      ],
+      "impv": [
+        "lava i piatti!",
+        "laviamo i piatti!",
+        "lavate i piatti!"
+      ],
+      "participio_passato": [
+        "lavato i piatti"
+      ],
+      "part": [
+        "lavato i piatti"
+      ],
+      "cond_pass": [
+        "avrei lavato i piatti",
+        "avresti lavato i piatti",
+        "avrebbe lavato i piatti",
+        "avremmo lavato i piatti",
+        "avreste lavato i piatti",
+        "avrebbero lavato i piatti"
+      ],
+      "subj_pass": [
+        "abbia lavato i piatti",
+        "abbia lavato i piatti",
+        "abbia lavato i piatti",
+        "abbiamo lavato i piatti",
+        "abbiate lavato i piatti",
+        "abbiano lavato i piatti"
+      ],
+      "subj_imp": [
+        "lavassi i piatti",
+        "lavassi i piatti",
+        "lavasse i piatti",
+        "lavassimo i piatti",
+        "lavaste i piatti",
+        "lavassero i piatti"
+      ],
+      "trap_pass": [
+        "avevo lavato i piatti",
+        "avevi lavato i piatti",
+        "aveva lavato i piatti",
+        "avevamo lavato i piatti",
+        "avevate lavato i piatti",
+        "avevano lavato i piatti"
+      ],
+      "fut_ant": [
+        "avrò lavato i piatti",
+        "avrai lavato i piatti",
+        "avrà lavato i piatti",
+        "avremo lavato i piatti",
+        "avrete lavato i piatti",
+        "avranno lavato i piatti"
+      ],
+      "pc": [
+        "ho lavato i piatti",
+        "hai lavato i piatti",
+        "ha lavato i piatti",
+        "abbiamo lavato i piatti",
+        "avete lavato i piatti",
+        "hanno lavato i piatti"
+      ]
+    }
   }
 }

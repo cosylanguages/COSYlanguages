@@ -3211,5 +3211,89 @@
     "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-x' ('les réseaux').",
     "article": "le",
     "plural": "réseaux"
+  },
+  "armoire": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Grand meuble fermé à portes pour ranger les vêtements.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "armoires"
+  },
+  "étagère": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Planche horizontale fixée à un mur pour poser des objets.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "étagères"
+  },
+  "tiroir": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Compartiment coulissant d'un meuble.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "tiroirs"
+  },
+  "lampe": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Appareil servant à éclairer une pièce.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "lampes"
+  },
+  "canapé": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Siège confortable à plusieurs places avec dossier.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "canapés"
+  },
+  "légume": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Plante potagère consommée dans l'alimentation.",
+    "antonyms": [
+      "fruit"
+    ],
+    "article": "le",
+    "plural": "légumes"
+  },
+  "viande": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Chair animale utilisée pour la nourriture.",
+    "antonyms": [
+      "poisson"
+    ],
+    "article": "la",
+    "plural": "viandes"
+  },
+  "riz": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Céréale à petits grains blancs consommée cuite.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "riz"
+  },
+  "pâtes": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Aliment fabriqué à base de semoule de blé dur cuit à l'eau.",
+    "antonyms": [],
+    "article": "les",
+    "plural": "pâtes"
+  },
+  "œuf": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Produit pondu par la poule consommé en cuisine.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "œufs"
   }
 }
