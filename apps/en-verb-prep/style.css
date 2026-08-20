@@ -333,11 +333,26 @@ body {
     gap: 1.2rem;
 }
 
-.def-block, .usage-block, .grammar-rule-block, .mistake-block, .examples-block, .antonyms-block {
+.def-block, .usage-block, .noun-parallel-block, .grammar-rule-block, .mistake-block, .examples-block, .antonyms-block {
     background: var(--cream-bg);
     padding: 1rem 1.2rem;
     border-radius: 12px;
     border: 1px solid var(--border-color);
+}
+
+.noun-parallel-block {
+    background: rgba(217, 119, 6, 0.08);
+    border-color: rgba(217, 119, 6, 0.3);
+}
+
+.noun-parallel-block .lexical-label {
+    color: var(--gold-cefr);
+}
+
+.noun-parallel-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ink);
 }
 
 .mistake-block {

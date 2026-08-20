@@ -1,6 +1,6 @@
 /**
  * COSYlanguages Standalone App — English Verb Prepositions & Phrasal Verbs Engine (en-verb-prep)
- * Provides offline search, transitivity rules, dependent prepositions, phrasal verbs, separability, sequential navigation & practice game mode.
+ * Provides offline search, transitivity rules, dependent prepositions, phrasal verbs, separability, noun contrasts, sequential navigation & practice game mode.
  */
 
 class EnglishVerbPrepEngine {
@@ -228,6 +228,17 @@ class EnglishVerbPrepEngine {
         // Lexical details
         document.getElementById('verb-definition').textContent = data.definition || 'Definition unavailable.';
         document.getElementById('verb-pattern-text').textContent = data.pattern || verbKey;
+
+        // Noun Parallel Contrast Box
+        const nounParallelBox = document.getElementById('noun-parallel-container');
+        const nounParallelText = document.getElementById('noun-parallel-text');
+        if (data.noun_parallel) {
+            nounParallelText.textContent = data.noun_parallel;
+            nounParallelBox.style.display = 'block';
+        } else {
+            nounParallelBox.style.display = 'none';
+        }
+
         document.getElementById('grammar-rule-text').textContent = data.grammar_rule || '';
 
         // Mistake box

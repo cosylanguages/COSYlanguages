@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Verb Prepositions & Phrasal Verbs | COSYlanguages</title>
+    <title>English Verb Prepositions &amp; Phrasal Verbs | COSYlanguages</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1b4332">
@@ -16,7 +16,7 @@
                 <span class="brand-icon">🇬🇧</span>
                 <div class="brand-text">
                     <h1>English Verbs &amp; Prepositions</h1>
-                    <p class="tagline">Transitivity, Dependent Prepositions, Phrasal Verbs &amp; Separability</p>
+                    <p class="tagline">Transitivity, Dependent Prepositions, Phrasal Verbs &amp; Noun Contrasts</p>
                 </div>
             </div>
 
@@ -42,7 +42,7 @@
 
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="verb-search-input" placeholder="Search a verb or phrasal verb (e.g. depend, turn down, give up, discuss)..." autocomplete="off" autofocus>
+                    <input type="text" id="verb-search-input" placeholder="Search a verb (e.g. influence, affect, depend, answer, turn down, give up)..." autocomplete="off" autofocus>
                     <button id="clear-search-btn" class="clear-btn" style="display: none;">&times;</button>
                 </div>
                 <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
@@ -53,7 +53,7 @@
                 <div class="game-header">
                     <div class="game-title">
                         <h2>🎮 Preposition &amp; Phrasal Verb Trainer</h2>
-                        <p>Master prepositions, phrasal verbs, particles, and separability rules!</p>
+                        <p>Master prepositions, phrasal verbs, particles, separability, and verb/noun contrasts!</p>
                     </div>
                     <div class="score-badge">
                         <span>Score: <strong id="game-score">0</strong></span>
@@ -63,14 +63,14 @@
 
                 <div class="game-prompt-box">
                     <span class="prompt-label">Verb / Phrasal Verb:</span>
-                    <h3 id="game-verb-prompt">turn down</h3>
+                    <h3 id="game-verb-prompt">influence</h3>
                     <div class="prompt-details">
-                        <span id="game-type-badge" class="badge phrasal-badge">Phrasal Verb</span>
+                        <span id="game-type-badge" class="badge prep-badge">Verb + Preposition</span>
                         <span id="game-transitivity-badge" class="badge">Transitive (VT)</span>
-                        <span id="game-question-prompt" class="prompt-question">Which particle/preposition or option is correct?</span>
+                        <span id="game-question-prompt" class="prompt-question">Which preposition or pattern is correct?</span>
                     </div>
                     <div id="game-sentence-prompt" class="game-sentence-box" style="margin-top: 1rem; font-size: 1.05rem;">
-                        "He offered her a promotion, but she turned <strong class="blank-spot">[ ? ]</strong> it."
+                        "Weather can strongly influence <strong class="blank-spot">[ ? ]</strong> people's mood."
                     </div>
                 </div>
 
@@ -95,11 +95,11 @@
                 <!-- Header Info -->
                 <div class="verb-header">
                     <div class="verb-title-group">
-                        <h2 id="verb-title">turn down</h2>
+                        <h2 id="verb-title">influence</h2>
                         <span id="phrasal-badge" class="badge phrasal-badge" style="display: none;">Phrasal Verb 🧩</span>
                         <span id="transitivity-badge" class="badge trans-vt">Transitive (VT)</span>
                         <span id="separability-badge" class="badge sep-badge" style="display: none;">Separable</span>
-                        <span id="prep-badge" class="badge prep-badge">down</span>
+                        <span id="prep-badge" class="badge prep-badge">No Preposition (Direct Object)</span>
                         <span id="verb-cefr-badge" class="badge cefr-badge">Level: B1</span>
                         <button id="speak-verb-btn" class="tts-btn" title="Listen to pronunciation">🔊 Listen</button>
                     </div>
@@ -108,19 +108,24 @@
                     <div class="lexical-box">
                         <div class="def-block">
                             <span class="lexical-label">📖 Definition:</span>
-                            <span id="verb-definition" class="def-text">To reject an offer or invitation, or to reduce volume.</span>
+                            <span id="verb-definition" class="def-text">To have an effect on the character, development, or behavior of someone or something.</span>
                         </div>
                         <div id="pattern-container" class="usage-block">
                             <span class="lexical-label">💡 Structure &amp; Pattern:</span>
-                            <span id="verb-pattern-text" class="usage-text">turn down [something] OR turn [something / pronoun] down</span>
+                            <span id="verb-pattern-text" class="usage-text">influence [someone / something] (direct object)</span>
+                        </div>
+                        <!-- Noun Parallel Contrast Box -->
+                        <div id="noun-parallel-container" class="noun-parallel-block" style="display: none;">
+                            <span class="lexical-label">⚡ Verb vs. Noun Preposition Contrast:</span>
+                            <span id="noun-parallel-text" class="noun-parallel-text">Verb: 'It influences me' (no prep) ➔ Noun: 'It has an influence ON me' (uses ON)</span>
                         </div>
                         <div id="grammar-rule-container" class="grammar-rule-block">
                             <span class="lexical-label">📌 Grammar, Particle &amp; Separability Rule:</span>
-                            <span id="grammar-rule-text" class="rule-text">Separable phrasal verb. Noun objects can go before or after particle, but pronoun objects MUST go in between.</span>
+                            <span id="grammar-rule-text" class="rule-text">Direct transitive verb without preposition! Do NOT use 'on' after the verb 'influence'. However, the noun 'influence' DOES take 'on'.</span>
                         </div>
                         <div id="mistake-container" class="mistake-block">
                             <span class="lexical-label">⚠️ Common Pitfall &amp; Mistake:</span>
-                            <span id="mistake-text" class="mistake-text">❌ He turned down it. ➔ ✅ He turned it down.</span>
+                            <span id="mistake-text" class="mistake-text">❌ It influences on my decision. ➔ ✅ It influences my decision.</span>
                         </div>
                         <div id="examples-container" class="examples-block">
                             <span class="lexical-label">💬 Example Sentences:</span>
@@ -138,13 +143,17 @@
             <section id="empty-state" class="empty-state-box">
                 <span class="empty-icon">🌿</span>
                 <h3>Search English verbs &amp; phrasal verbs</h3>
-                <p>Explore <strong style="color: var(--blue);">transitivity classifications</strong>, dependent prepositions, <strong style="color: var(--purple-both);">phrasal verbs &amp; separability rules</strong> (separable, inseparable, 3-part phrasal verbs), clear example sentences, and common pitfalls.</p>
+                <p>Explore <strong style="color: var(--blue);">transitivity classifications</strong>, dependent prepositions, <strong style="color: var(--gold-cefr);">Verb vs. Noun Preposition Contrasts</strong> (e.g. <em>influence X me</em> vs. <em>an influence ON me</em>), phrasal verbs &amp; separability rules, clear examples, and pitfall fixes.</p>
                 <div class="quick-tags">
-                    <span>Quick Verb Suggestions:</span>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('depend')">depend</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('apologize')">apologize</button>
+                    <span>Essential Verbs (A0–B2):</span>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('influence')">influence</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('affect')">affect</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('answer')">answer</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('contact')">contact</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('visit')">visit</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('approach')">approach</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('arrive')">arrive</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('discuss')">discuss</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('accuse')">accuse</button>
                 </div>
                 <div class="quick-tags" style="margin-top: 0.75rem;">
                     <span>Popular Phrasal Verbs 🧩:</span>
@@ -152,9 +161,9 @@
                     <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('give up')">give up</button>
                     <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('look up to')">look up to</button>
                     <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('run out of')">run out of</button>
-                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('put off')">put off</button>
-                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('figure out')">figure out</button>
-                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('get along with')">get along with</button>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('look at')">look at</button>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('look for')">look for</button>
+                    <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('think of')">think of</button>
                 </div>
             </section>
         </main>
