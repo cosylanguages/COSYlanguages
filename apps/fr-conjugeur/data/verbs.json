@@ -2537,7 +2537,7 @@
   },
   "voyager": {
     "group": "1er groupe",
-    "level": "A1",
+    "level": "A2",
     "definition": "Faire un déplacement.",
     "antonyms": [
       "rester chez soi"
@@ -7905,7 +7905,7 @@
   },
   "payer": {
     "group": "1er groupe",
-    "level": "A1",
+    "level": "A2",
     "definition": "Donner de l'argent.",
     "antonyms": [
       "voler"
@@ -9099,7 +9099,7 @@
   },
   "nager": {
     "group": "1er groupe",
-    "level": "A1",
+    "level": "A2",
     "definition": "Se déplacer dans l'eau.",
     "antonyms": [
       "couler"
@@ -13874,7 +13874,7 @@
   },
   "vendre": {
     "group": "3e groupe",
-    "level": "A1",
+    "level": "A2",
     "definition": "Céder contre de l'argent.",
     "antonyms": [
       "acheter"
@@ -14768,7 +14768,7 @@
   },
   "acheter": {
     "group": "1er groupe",
-    "level": "A1",
+    "level": "A2",
     "definition": "Acquérir un bien contre paiement.",
     "antonyms": [
       "vendre"
@@ -31917,5 +31917,906 @@
       ]
     },
     "usage_hint": "tousser à cause d'un rhume"
+  },
+  "se plaindre": {
+    "group": "3e groupe",
+    "level": "B1",
+    "definition": "Exprimer son mécontentement ou sa souffrance.",
+    "antonyms": [
+      "se réjouir"
+    ],
+    "auxiliary": "être",
+    "usage_hint": "se plaindre de (qqch/qqn)",
+    "tenses": {
+      "pres": [
+        "je me plains",
+        "tu te plains",
+        "il/elle se plaint",
+        "nous nous plaignons",
+        "vous vous plaignez",
+        "ils/elles se plaignent"
+      ],
+      "imp": [
+        "je me plaignais",
+        "tu te plaignais",
+        "il/elle se plaignait",
+        "nous nous plaignions",
+        "vous vous plaigniez",
+        "ils/elles se plaignaient"
+      ],
+      "pc": [
+        "je me suis plaint",
+        "tu t'es plaint",
+        "il/elle s'est plaint(e)",
+        "nous nous sommes plaints",
+        "vous vous êtes plaints",
+        "ils/elles se sont plaint(e)s"
+      ],
+      "pqp": [
+        "je m'étais plaint",
+        "tu t'étais plaint",
+        "il/elle s'était plaint",
+        "nous nous étions plaints",
+        "vous vous étiez plaints",
+        "ils/elles s'étaient plaints"
+      ],
+      "fut": [
+        "je me plaindrai",
+        "tu te plaindras",
+        "il/elle se plaindra",
+        "nous nous plaindrons",
+        "vous vous plaindrez",
+        "ils/elles se plaindront"
+      ],
+      "fut_ant": [
+        "je me serai plaint",
+        "tu te seras plaint",
+        "il/elle se sera plaint",
+        "nous nous serons plaints",
+        "vous vous serez plaints",
+        "ils/elles se seront plaints"
+      ],
+      "cond": [
+        "je me plaindrais",
+        "tu te plaindrais",
+        "il/elle se plaindrait",
+        "nous nous plaindrions",
+        "vous vous plaindriez",
+        "ils/elles se plaindraient"
+      ],
+      "cond_pass": [
+        "je me serais plaint",
+        "tu te serais plaint",
+        "il/elle se serait plaint",
+        "nous nous serions plaints",
+        "vous vous seriez plaints",
+        "ils/elles se seraient plaints"
+      ],
+      "subj": [
+        "que je me plaigne",
+        "que tu te plaignes",
+        "qu'il/elle se plaigne",
+        "que nous nous plaignions",
+        "que vous vous plaigniez",
+        "qu'ils/elles se plaignent"
+      ],
+      "subj_pass": [
+        "que je me sois plaint",
+        "que tu te sois plaint",
+        "qu'il/elle se soit plaint",
+        "que nous nous soyons plaints",
+        "que vous vous soyez plaints",
+        "qu'ils/elles se soient plaints"
+      ],
+      "impv": [
+        "plains-toi !",
+        "plaignons-nous !",
+        "plaignez-vous !"
+      ],
+      "part": [
+        "se plaignant",
+        "plaint"
+      ]
+    }
+  },
+  "se disputer": {
+    "group": "1er groupe",
+    "level": "B1",
+    "definition": "Avoir un échange verbal violent ou un désaccord.",
+    "antonyms": [
+      "s'entendre"
+    ],
+    "auxiliary": "être",
+    "usage_hint": "se disputer avec (qqn) / pour (qqch)",
+    "tenses": {
+      "pres": [
+        "je me dispute",
+        "tu te disputes",
+        "il/elle se dispute",
+        "nous nous disputons",
+        "vous vous disputez",
+        "ils/elles se disputent"
+      ],
+      "imp": [
+        "je me disputais",
+        "tu te disputais",
+        "il/elle se disputait",
+        "nous nous disputions",
+        "vous vous disputiez",
+        "ils/elles se disputaient"
+      ],
+      "pc": [
+        "je me suis disputé",
+        "tu t'es disputé",
+        "il/elle s'est disputé(e)",
+        "nous nous sommes disputés",
+        "vous vous êtes disputés",
+        "ils/elles se sont disputé(e)s"
+      ],
+      "pqp": [
+        "je m'étais disputé",
+        "tu t'étais disputé",
+        "il/elle s'était disputé",
+        "nous nous étions disputés",
+        "vous vous étiez disputés",
+        "ils/elles s'étaient disputés"
+      ],
+      "fut": [
+        "je me disputerai",
+        "tu te disputeras",
+        "il/elle se disputera",
+        "nous nous disputerons",
+        "vous vous disputerez",
+        "ils/elles se disputeront"
+      ],
+      "fut_ant": [
+        "je me serai disputé",
+        "tu te seras disputé",
+        "il/elle se sera disputé",
+        "nous nous serons disputés",
+        "vous vous serez disputés",
+        "ils/elles se seront disputés"
+      ],
+      "cond": [
+        "je me disputerais",
+        "tu te disputerais",
+        "il/elle se disputerait",
+        "nous nous disputerions",
+        "vous vous disputeriez",
+        "ils/elles se disputeraient"
+      ],
+      "cond_pass": [
+        "je me serais disputé",
+        "tu te serais disputé",
+        "il/elle se serait disputé",
+        "nous nous serions disputés",
+        "vous vous seriez disputés",
+        "ils/elles se seraient disputés"
+      ],
+      "subj": [
+        "que je me dispute",
+        "que tu te disputes",
+        "qu'il/elle se dispute",
+        "que nous nous disputions",
+        "que vous vous disputiez",
+        "qu'ils/elles se disputent"
+      ],
+      "subj_pass": [
+        "que je me sois disputé",
+        "que tu te sois disputé",
+        "qu'il/elle se soit disputé",
+        "que nous nous soyons disputés",
+        "que vous vous soyez disputés",
+        "qu'ils/elles se soient disputés"
+      ],
+      "impv": [
+        "dispute-toi !",
+        "disputons-nous !",
+        "disputez-vous !"
+      ],
+      "part": [
+        "se disputant",
+        "disputé"
+      ]
+    }
+  },
+  "s'excuser": {
+    "group": "1er groupe",
+    "level": "B1",
+    "definition": "Demander pardon pour une faute ou un retard.",
+    "antonyms": [],
+    "auxiliary": "être",
+    "usage_hint": "s'excuser auprès de (qqn) / pour (qqch)",
+    "tenses": {
+      "pres": [
+        "je m'excuse",
+        "tu t'excuses",
+        "il/elle s'excuse",
+        "nous nous excusons",
+        "vous vous excusez",
+        "ils/elles s'excusent"
+      ],
+      "imp": [
+        "je m'excusais",
+        "tu t'excusais",
+        "il/elle s'excusait",
+        "nous nous excusions",
+        "vous vous excusiez",
+        "ils/elles s'exculaient"
+      ],
+      "pc": [
+        "je me suis excusé",
+        "tu t'es excusé",
+        "il/elle s'est excusé(e)",
+        "nous nous sommes excusés",
+        "vous vous êtes excusés",
+        "ils/elles se sont excusé(e)s"
+      ],
+      "pqp": [
+        "je m'étais excusé",
+        "tu t'étais excusé",
+        "il/elle s'était excusé",
+        "nous nous étions excusés",
+        "vous vous étiez excusés",
+        "ils/elles s'étaient excusés"
+      ],
+      "fut": [
+        "je m'excuserai",
+        "tu t'excuseras",
+        "il/elle s'excusera",
+        "nous nous excuserons",
+        "vous vous excuserez",
+        "ils/elles s'excuseront"
+      ],
+      "fut_ant": [
+        "je me serai excusé",
+        "tu te seras excusé",
+        "il/elle se sera excusé",
+        "nous nous serons excusés",
+        "vous vous serez excusés",
+        "ils/elles se seront excusés"
+      ],
+      "cond": [
+        "je m'excuserais",
+        "tu t'excuserais",
+        "il/elle s'excuserait",
+        "nous nous excuserions",
+        "vous vous excuseriez",
+        "ils/elles s'excuseraient"
+      ],
+      "cond_pass": [
+        "je me serais excusé",
+        "tu te serais excusé",
+        "il/elle se serait excusé",
+        "nous nous serions excusés",
+        "vous vous seriez excusés",
+        "ils/elles se seraient excusés"
+      ],
+      "subj": [
+        "que je m'excuse",
+        "que tu t'excuses",
+        "qu'il/elle s'excuse",
+        "que nous nous excusions",
+        "que vous vous excusiez",
+        "qu'ils/elles s'excusent"
+      ],
+      "subj_pass": [
+        "que je me sois excusé",
+        "que tu te sois excusé",
+        "qu'il/elle se soit excusé",
+        "que nous nous soyons excusés",
+        "que vous vous soyez excusés",
+        "qu'ils/elles se soient excusés"
+      ],
+      "impv": [
+        "excuse-toi !",
+        "excusons-nous !",
+        "excusez-vous !"
+      ],
+      "part": [
+        "s'excusant",
+        "excusé"
+      ]
+    }
+  },
+  "souligner": {
+    "group": "1er groupe",
+    "level": "B1",
+    "definition": "Mettre en évidence ou insister sur un point.",
+    "antonyms": [],
+    "auxiliary": "avoir",
+    "usage_hint": "souligner l'importance de (qqch)",
+    "tenses": {
+      "pres": [
+        "je souligne",
+        "tu soulignes",
+        "il/elle souligne",
+        "nous soulignons",
+        "vous soulignez",
+        "ils/elles soulignent"
+      ],
+      "imp": [
+        "je soulignais",
+        "tu soulignais",
+        "il/elle soulignait",
+        "nous soulignions",
+        "vous souligniez",
+        "ils/elles soulignaient"
+      ],
+      "pc": [
+        "j'ai souligné",
+        "tu as souligné",
+        "il/elle a souligné",
+        "nous avons souligné",
+        "vous avez souligné",
+        "ils/elles ont souligné"
+      ],
+      "pqp": [
+        "j'avais souligné",
+        "tu avais souligné",
+        "il/elle avait souligné",
+        "nous avions souligné",
+        "vous aviez souligné",
+        "ils/elles avaient souligné"
+      ],
+      "fut": [
+        "je soulignerai",
+        "tu souligneras",
+        "il/elle soulignera",
+        "nous soulignerons",
+        "vous soulignerez",
+        "ils/elles souligneront"
+      ],
+      "fut_ant": [
+        "j'aurai souligné",
+        "tu auras souligné",
+        "il/elle aura souligné",
+        "nous aurons souligné",
+        "vous aurez souligné",
+        "ils/elles auront souligné"
+      ],
+      "cond": [
+        "je soulignerais",
+        "tu soulignerais",
+        "il/elle soulignerait",
+        "nous soulignerions",
+        "vous souligneriez",
+        "ils/elles souligneraient"
+      ],
+      "cond_pass": [
+        "j'aurais souligné",
+        "tu aurais souligné",
+        "il/elle aurait souligné",
+        "nous aurions souligné",
+        "vous auriez souligné",
+        "ils/elles auraient souligné"
+      ],
+      "subj": [
+        "que je souligne",
+        "que tu soulignes",
+        "qu'il/elle souligne",
+        "que nous soulignions",
+        "que vous souligniez",
+        "qu'ils/elles soulignent"
+      ],
+      "subj_pass": [
+        "que j'aie souligné",
+        "que tu aies souligné",
+        "qu'il/elle ait souligné",
+        "que nous ayons souligné",
+        "que vous ayez souligné",
+        "qu'ils/elles aient souligné"
+      ],
+      "impv": [
+        "souligne !",
+        "soulignons !",
+        "soulignez !"
+      ],
+      "part": [
+        "soulignant",
+        "souligné"
+      ]
+    }
+  },
+  "mentionner": {
+    "group": "1er groupe",
+    "level": "B1",
+    "definition": "Signaler ou citer brièvement.",
+    "antonyms": [
+      "omettre"
+    ],
+    "auxiliary": "avoir",
+    "usage_hint": "mentionner (qqch) à (qqn)",
+    "tenses": {
+      "pres": [
+        "je mentionne",
+        "tu mentionnes",
+        "il/elle mentionne",
+        "nous mentionnons",
+        "vous mentionnez",
+        "ils/elles mentionnent"
+      ],
+      "imp": [
+        "je mentionnais",
+        "tu mentionnais",
+        "il/elle mentionnait",
+        "nous mentionnions",
+        "vous mentionniez",
+        "ils/elles mentionnaient"
+      ],
+      "pc": [
+        "j'ai mentionné",
+        "tu as mentionné",
+        "il/elle a mentionné",
+        "nous avons mentionné",
+        "vous avez mentionné",
+        "ils/elles ont mentionné"
+      ],
+      "pqp": [
+        "j'avais mentionné",
+        "tu avais mentionné",
+        "il/elle avait mentionné",
+        "nous avions mentionné",
+        "vous aviez mentionné",
+        "ils/elles avaient mentionné"
+      ],
+      "fut": [
+        "je mentionnerai",
+        "tu mentionneras",
+        "il/elle mentionnera",
+        "nous mentionnerons",
+        "vous mentionnerez",
+        "ils/elles mentionneront"
+      ],
+      "fut_ant": [
+        "j'aurai mentionné",
+        "tu auras mentionné",
+        "il/elle aura mentionné",
+        "nous aurons mentionné",
+        "vous aurez mentionné",
+        "ils/elles auront mentionné"
+      ],
+      "cond": [
+        "je mentionnerais",
+        "tu mentionnerais",
+        "il/elle mentionnerait",
+        "nous mentionnerions",
+        "vous mentionneriez",
+        "ils/elles mentionneraient"
+      ],
+      "cond_pass": [
+        "j'aurais mentionné",
+        "tu aurais mentionné",
+        "il/elle aurait mentionné",
+        "nous aurions mentionné",
+        "vous auriez mentionné",
+        "ils/elles auraient mentionné"
+      ],
+      "subj": [
+        "que je mentionne",
+        "que tu mentionnes",
+        "qu'il/elle mentionne",
+        "que nous mentionnions",
+        "que vous mentionniez",
+        "qu'ils/elles mentionnent"
+      ],
+      "subj_pass": [
+        "que j'aie mentionné",
+        "que tu aies mentionné",
+        "qu'il/elle ait mentionné",
+        "que nous ayons mentionné",
+        "que vous ayez mentionné",
+        "qu'ils/elles aient mentionné"
+      ],
+      "impv": [
+        "mentionne !",
+        "mentionnons !",
+        "mentionnez !"
+      ],
+      "part": [
+        "mentionnant",
+        "mentionné"
+      ]
+    }
+  },
+  "négocier": {
+    "group": "1er groupe",
+    "level": "B1",
+    "definition": "Discuter pour parvenir à un accord.",
+    "antonyms": [],
+    "auxiliary": "avoir",
+    "usage_hint": "négocier avec (qqn) / sur (un sujet)",
+    "tenses": {
+      "pres": [
+        "je négocie",
+        "tu négocies",
+        "il/elle négocie",
+        "nous négocions",
+        "vous négociez",
+        "ils/elles négocient"
+      ],
+      "imp": [
+        "je négociais",
+        "tu négociais",
+        "il/elle négociait",
+        "nous négociions",
+        "vous négociiez",
+        "ils/elles négociaient"
+      ],
+      "pc": [
+        "j'ai négocié",
+        "tu as négocié",
+        "il/elle a négocié",
+        "nous avons négocié",
+        "vous avez négocié",
+        "ils/elles ont négocié"
+      ],
+      "pqp": [
+        "j'avais négocié",
+        "tu avais négocié",
+        "il/elle avait négocié",
+        "nous avions négocié",
+        "vous aviez négocié",
+        "ils/elles avaient négocié"
+      ],
+      "fut": [
+        "je négocierai",
+        "tu négocieras",
+        "il/elle négociera",
+        "nous négocierons",
+        "vous négocierez",
+        "ils/elles négocieront"
+      ],
+      "fut_ant": [
+        "j'aurai négocié",
+        "tu auras négocié",
+        "il/elle aura négocié",
+        "nous aurons négocié",
+        "vous aurez négocié",
+        "ils/elles auront négocié"
+      ],
+      "cond": [
+        "je négocierais",
+        "tu négocierais",
+        "il/elle négocierait",
+        "nous négocierions",
+        "vous négocieriez",
+        "ils/elles négocieraient"
+      ],
+      "cond_pass": [
+        "j'aurais négocié",
+        "tu aurais négocié",
+        "il/elle aurait négocié",
+        "nous aurions négocié",
+        "vous auriez négocié",
+        "ils/elles auraient négocié"
+      ],
+      "subj": [
+        "que je négocie",
+        "que tu négocies",
+        "qu'il/elle négocie",
+        "que nous négociions",
+        "que vous négociiez",
+        "qu'ils/elles négocient"
+      ],
+      "subj_pass": [
+        "que j'aie négocié",
+        "que tu aies négocié",
+        "qu'il/elle ait négocié",
+        "que nous ayons négocié",
+        "que vous ayez négocié",
+        "qu'ils/elles aient négocié"
+      ],
+      "impv": [
+        "négocie !",
+        "négocions !",
+        "négociez !"
+      ],
+      "part": [
+        "négociant",
+        "négocié"
+      ]
+    }
+  },
+  "licencier": {
+    "group": "1er groupe",
+    "level": "B1",
+    "definition": "Rupture du contrat de travail d'un salarié par l'employeur.",
+    "antonyms": [
+      "embaucher"
+    ],
+    "auxiliary": "avoir",
+    "usage_hint": "licencier (un employé)",
+    "tenses": {
+      "pres": [
+        "je licencie",
+        "tu me licencies",
+        "il/elle licencie",
+        "nous licencions",
+        "vous licenciez",
+        "ils/elles licencient"
+      ],
+      "imp": [
+        "je me licenciais",
+        "tu licenciais",
+        "il/elle licenciait",
+        "nous licencions",
+        "vous licenciez",
+        "ils/elles licenciaient"
+      ],
+      "pc": [
+        "j'ai licencié",
+        "tu as licencié",
+        "il/elle a licencié",
+        "nous avons licencié",
+        "vous avez licencié",
+        "ils/elles ont licencié"
+      ],
+      "pqp": [
+        "j'avais licencié",
+        "tu avais licencié",
+        "il/elle avait licencié",
+        "nous avions licencié",
+        "vous aviez licencié",
+        "ils/elles avaient licencié"
+      ],
+      "fut": [
+        "je licencierai",
+        "tu licencieras",
+        "il/elle licenciera",
+        "nous licencierons",
+        "vous licencierez",
+        "ils/elles licencieront"
+      ],
+      "fut_ant": [
+        "j'aurai licencié",
+        "tu auras licencié",
+        "il/elle aura licencié",
+        "nous aurons licencié",
+        "vous aurez licencié",
+        "ils/elles auront licencié"
+      ],
+      "cond": [
+        "je licencierais",
+        "tu licencierais",
+        "il/elle licencierait",
+        "nous licencierions",
+        "vous licencieriez",
+        "ils/elles licencieraient"
+      ],
+      "cond_pass": [
+        "j'aurais licencié",
+        "tu aurais licencié",
+        "il/elle aurait licencié",
+        "nous aurions licencié",
+        "vous auriez licencié",
+        "ils/elles auraient licencié"
+      ],
+      "subj": [
+        "que je licencie",
+        "que tu me licencies",
+        "qu'il/elle licencie",
+        "que nous licencions",
+        "que vous licenciez",
+        "qu'ils/elles licencient"
+      ],
+      "subj_pass": [
+        "que j'aie licencié",
+        "que tu aies licencié",
+        "qu'il/elle ait licencié",
+        "que nous ayons licencié",
+        "que vous ayez licencié",
+        "qu'ils/elles aient licencié"
+      ],
+      "impv": [
+        "licencie !",
+        "licencions !",
+        "licenciez !"
+      ],
+      "part": [
+        "licenciant",
+        "licencié"
+      ]
+    }
+  },
+  "embaucher": {
+    "group": "1er groupe",
+    "level": "B1",
+    "definition": "Engager quelqu'un dans un emploi.",
+    "antonyms": [
+      "licencier"
+    ],
+    "auxiliary": "avoir",
+    "usage_hint": "embaucher (un salarié)",
+    "tenses": {
+      "pres": [
+        "j'embauche",
+        "tu embauches",
+        "il/elle embauche",
+        "nous embauchons",
+        "vous embauchez",
+        "ils/elles embauchent"
+      ],
+      "imp": [
+        "j'embauchais",
+        "tu embauchais",
+        "il/elle embauchait",
+        "nous embauchions",
+        "vous embauchiez",
+        "ils/elles embauchaient"
+      ],
+      "pc": [
+        "j'ai embauché",
+        "tu as embauché",
+        "il/elle a embauché",
+        "nous avons embauché",
+        "vous avez embauché",
+        "ils/elles ont embauché"
+      ],
+      "pqp": [
+        "j'avais embauché",
+        "tu avais embauché",
+        "il/elle avait embauché",
+        "nous avions embauché",
+        "vous aviez embauché",
+        "ils/elles avaient embauché"
+      ],
+      "fut": [
+        "j'embaucherai",
+        "tu embaucheras",
+        "il/elle embauchera",
+        "nous embaucherons",
+        "vous embaucherez",
+        "ils/elles embaucheront"
+      ],
+      "fut_ant": [
+        "j'aurai embauché",
+        "tu auras embauché",
+        "il/elle aura embauché",
+        "nous aurons embauché",
+        "vous aurez embauché",
+        "ils/elles auront embauché"
+      ],
+      "cond": [
+        "j'embaucherais",
+        "tu embaucherais",
+        "il/elle embaucherait",
+        "nous embaucherions",
+        "vous embaucheriez",
+        "ils/elles embaucheraient"
+      ],
+      "cond_pass": [
+        "j'aurais embauché",
+        "tu aurais embauché",
+        "il/elle aurait embauché",
+        "nous aurions embauché",
+        "vous auriez embauché",
+        "ils/elles auraient embauché"
+      ],
+      "subj": [
+        "que j'embauche",
+        "que tu embauches",
+        "qu'il/elle embauche",
+        "que nous embauchions",
+        "que vous embauchiez",
+        "qu'ils/elles embauchent"
+      ],
+      "subj_pass": [
+        "que j'aie embauché",
+        "que tu aies embauché",
+        "qu'il/elle ait embauché",
+        "que nous ayons embauché",
+        "que vous ayez embauché",
+        "qu'ils/elles aient embauché"
+      ],
+      "impv": [
+        "embauche !",
+        "embauchons !",
+        "embauchez !"
+      ],
+      "part": [
+        "embauchant",
+        "embauché"
+      ]
+    }
+  },
+  "démissionner": {
+    "group": "1er groupe",
+    "level": "B1",
+    "definition": "Quitter volontairement son emploi.",
+    "antonyms": [],
+    "auxiliary": "avoir",
+    "usage_hint": "démissionner de (son poste)",
+    "tenses": {
+      "pres": [
+        "je démissionne",
+        "tu démissionnes",
+        "il/elle démissionne",
+        "nous démissionnons",
+        "vous démissionnez",
+        "ils/elles démissionnent"
+      ],
+      "imp": [
+        "je démissionnais",
+        "tu démissionnais",
+        "il/elle démissionnait",
+        "nous démissionnions",
+        "vous démissionniez",
+        "ils/elles démissionnaient"
+      ],
+      "pc": [
+        "j'ai démissionné",
+        "tu as démissionné",
+        "il/elle a démissionné",
+        "nous avons démissionné",
+        "vous avez démissionné",
+        "ils/elles ont démissionné"
+      ],
+      "pqp": [
+        "j'avais démissionné",
+        "tu avais démissionné",
+        "il/elle avait démissionné",
+        "nous avions démissionné",
+        "vous aviez démissionné",
+        "ils/elles avaient démissionné"
+      ],
+      "fut": [
+        "je démissionnerai",
+        "tu démissionneras",
+        "il/elle démissionnera",
+        "nous démissionnerons",
+        "vous démissionnerez",
+        "ils/elles démissionneront"
+      ],
+      "fut_ant": [
+        "j'aurai démissionné",
+        "tu auras démissionné",
+        "il/elle aura démissionné",
+        "nous aurons démissionné",
+        "vous aurez démissionné",
+        "ils/elles auront démissionné"
+      ],
+      "cond": [
+        "je démissionnerais",
+        "tu démissionnerais",
+        "il/elle démissionnerait",
+        "nous démissionnerions",
+        "vous démissionneriez",
+        "ils/elles démissionneraient"
+      ],
+      "cond_pass": [
+        "j'aurais démissionné",
+        "tu aurais démissionné",
+        "il/elle aurait démissionné",
+        "nous aurions démissionné",
+        "vous auriez démissionné",
+        "ils/elles auraient démissionné"
+      ],
+      "subj": [
+        "que je démissionne",
+        "que tu démissionnes",
+        "qu'il/elle démissionne",
+        "que nous démissionnions",
+        "que vous démissionniez",
+        "qu'ils/elles démissionnent"
+      ],
+      "subj_pass": [
+        "que j'aie démissionné",
+        "que tu aies démissionné",
+        "qu'il/elle ait démissionné",
+        "que nous ayons démissionné",
+        "que vous ayez démissionné",
+        "qu'ils/elles aient démissionné"
+      ],
+      "impv": [
+        "démissionne !",
+        "démissionnons !",
+        "démissionnez !"
+      ],
+      "part": [
+        "démissionnant",
+        "démissionné"
+      ]
+    }
   }
 }

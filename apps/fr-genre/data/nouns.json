@@ -472,7 +472,7 @@
   },
   "santé": {
     "gender": "Féminin",
-    "level": "A1",
+    "level": "A2",
     "definition": "Bon fonctionnement de l'organisme.",
     "antonyms": [
       "maladie"
@@ -1083,7 +1083,7 @@
   },
   "aéroport": {
     "gender": "Masculin",
-    "level": "A1",
+    "level": "A2",
     "definition": "Ensemble d'installations pour les avions.",
     "antonyms": [
       "gare"
@@ -1184,7 +1184,7 @@
   },
   "argent": {
     "gender": "Masculin",
-    "level": "A1",
+    "level": "A2",
     "definition": "Monnaie ou métal précieux.",
     "antonyms": [
       "pauvreté"
@@ -1334,7 +1334,7 @@
   },
   "billet": {
     "gender": "Masculin",
-    "level": "A1",
+    "level": "A2",
     "definition": "Titre de transport ou papier de banque.",
     "antonyms": [
       "pièce"
@@ -2573,7 +2573,7 @@
   },
   "magasin": {
     "gender": "Masculin",
-    "level": "A1",
+    "level": "A2",
     "definition": "Local commercial où l'on vend des marchandises.",
     "antonyms": [
       "marché"
@@ -3069,5 +3069,147 @@
     "antonyms": [],
     "article": "le",
     "plural": "rhumes"
+  },
+  "environnement": {
+    "gender": "Masculin",
+    "level": "B1",
+    "definition": "Ensemble des éléments naturels et artificiels qui entourent un organisme.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "environnements"
+  },
+  "pollution": {
+    "gender": "Féminin",
+    "level": "B1",
+    "definition": "Dégradation de l'environnement par des substances nocives.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "pollutions"
+  },
+  "société": {
+    "gender": "Féminin",
+    "level": "B1",
+    "definition": "Ensemble de personnes vivant en communauté organisée.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "sociétés"
+  },
+  "gouvernement": {
+    "gender": "Masculin",
+    "level": "B1",
+    "definition": "Organe politique qui dirige un État.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "gouvernements"
+  },
+  "économie": {
+    "gender": "Féminin",
+    "level": "B1",
+    "definition": "Système de production, de distribution et de consommation des richesses.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "économies"
+  },
+  "entreprise": {
+    "gender": "Féminin",
+    "level": "B1",
+    "definition": "Organisation économique de production de biens ou de services.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "entreprises"
+  },
+  "collègue": {
+    "gender": "Masculin / Féminin",
+    "level": "B1",
+    "definition": "Personne qui travaille dans la même entreprise ou profession.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nom de forme identique au masculin et au féminin ('un collègue' / 'une collègue').",
+    "article": "le",
+    "plural": "collègues"
+  },
+  "réunion": {
+    "gender": "Féminin",
+    "level": "B1",
+    "definition": "Rassemblement de personnes pour discuter d'un sujet professionnel.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "réunions"
+  },
+  "carrière": {
+    "gender": "Féminin",
+    "level": "B1",
+    "definition": "Parcours professionnel continu au cours de la vie active.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "carrières"
+  },
+  "salaire": {
+    "gender": "Masculin",
+    "level": "B1",
+    "definition": "Rémunération versée à un employé pour son travail.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "salaires"
+  },
+  "relation": {
+    "gender": "Féminin",
+    "level": "B1",
+    "definition": "Lien ou rapport réciproque entre personnes ou entités.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "relations"
+  },
+  "malentendu": {
+    "gender": "Masculin",
+    "level": "B1",
+    "definition": "Désaccord fondé sur une mauvaise interprétation.",
+    "antonyms": [
+      "entente"
+    ],
+    "article": "le",
+    "plural": "malentendus"
+  },
+  "déception": {
+    "gender": "Féminin",
+    "level": "B1",
+    "definition": "Sentiment de tristesse face à une attente non réalisée.",
+    "antonyms": [
+      "satisfaction"
+    ],
+    "article": "la",
+    "plural": "déceptions"
+  },
+  "opinion": {
+    "gender": "Féminin",
+    "level": "B1",
+    "definition": "Jugement ou avis personnel porté sur un sujet.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "opinions"
+  },
+  "débat": {
+    "gender": "Masculin",
+    "level": "B1",
+    "definition": "Discussion organisée entre personnes aux avis divergents.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "débats"
+  },
+  "média": {
+    "gender": "Masculin",
+    "level": "B1",
+    "definition": "Moyen de diffusion d'informations au grand public.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "médias"
+  },
+  "réseau": {
+    "gender": "Masculin",
+    "level": "B1",
+    "definition": "Ensemble d'interconnexions informatiques ou sociales.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-x' ('les réseaux').",
+    "article": "le",
+    "plural": "réseaux"
   }
 }
