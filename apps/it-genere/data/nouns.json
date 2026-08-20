@@ -2273,5 +2273,97 @@
     "article": "un'",
     "plural": "ali",
     "grammar_rule": "💡 REMEMBER: Femminile al singolare; prende l'articolo eliso 'un\\' davanti a vocale ('un'ala'), mentre al plurale segue la forma regolare ('le ali')."
+  },
+  "rosso": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del sangue e del fuoco.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "rossi"
+  },
+  "blu": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del cielo sereno e del mare profondo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "blu"
+  },
+  "verde": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore dell'erba fresca e delle foglie.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "verdi"
+  },
+  "giallo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del sole e del limone.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "gialli"
+  },
+  "nero": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del buio e della notte senza luce.",
+    "antonyms": [
+      "bianco"
+    ],
+    "article": "il",
+    "plural": "neri"
+  },
+  "bianco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore della neve fresca e del latte.",
+    "antonyms": [
+      "nero"
+    ],
+    "article": "il",
+    "plural": "bianchi"
+  },
+  "arancione": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore secondario tra il rosso e il giallo.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "arancioni"
+  },
+  "viola": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore secondario tra il blu e il rosso.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "viola"
+  },
+  "rosa": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore chiaro ottenuto mescolando il rosso e il bianco.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "rosa"
+  },
+  "marrone": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del legno e della terra.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "marroni"
+  },
+  "grigio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore neutro tra il nero e il bianco.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "grigi"
   }
 }

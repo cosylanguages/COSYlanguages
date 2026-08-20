@@ -2106,5 +2106,97 @@
     "article": "l'",
     "plural": "œuvres",
     "grammar_rule": "💡 REMEMBER: Nom féminin ('une œuvre d'art'), mais masculin dans des expressions techniques comme 'le gros œuvre' en bâtiment."
+  },
+  "rouge": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur du sang et du coquelicot.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "rouges"
+  },
+  "bleu": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur du ciel dégagé et de la mer.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "bleus"
+  },
+  "vert": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur de l'herbe et des feuilles.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "verts"
+  },
+  "jaune": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur du soleil et du citron.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "jaunes"
+  },
+  "noir": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur de la nuit sombre sans lumière.",
+    "antonyms": [
+      "blanc"
+    ],
+    "article": "le",
+    "plural": "noirs"
+  },
+  "blanc": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur de la neige fraîche et du lait.",
+    "antonyms": [
+      "noir"
+    ],
+    "article": "le",
+    "plural": "blancs"
+  },
+  "orange": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur secondaire entre le rouge et le jaune.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "oranges"
+  },
+  "violet": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur secondaire entre le bleu et le rouge.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "violets"
+  },
+  "rose": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur claire obtenue en mélangeant le rouge et le blanc.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "roses"
+  },
+  "marron": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur de la châtaigne et du bois.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "marrons"
+  },
+  "gris": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Couleur neutre entre le noir et le blanc.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "gris"
   }
 }
