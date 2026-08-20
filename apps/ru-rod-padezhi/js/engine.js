@@ -66,7 +66,10 @@ class RussianGenderCasesEngine {
         }
     }
 
-    formatColorCoded(word) {
+    formatColorCoded(word, isIrregular = false) {
+        if (isIrregular) {
+            return word;
+        }
         const endings = ['ами', 'ях', 'ах', 'ов', 'ев', 'ом', 'ем', 'ой', 'ей', 'ам', 'ям', 'а', 'я', 'у', 'ю', 'ы', 'и', 'е', 'о'];
         let clean = word.replace(/[\u0300-\u036f]/g, "");
         for (let end of endings) {
@@ -135,8 +138,8 @@ class RussianGenderCasesEngine {
             <tr>
                 <td><strong>${c.name}</strong></td>
                 <td style="color: var(--ink-muted);">${c.q}</td>
-                <td>${this.formatColorCoded(singVal)}</td>
-                <td>${this.formatColorCoded(plurVal)}</td>
+                <td>${this.formatColorCoded(singVal, data.irregular)}</td>
+                <td>${this.formatColorCoded(plurVal, data.irregular)}</td>
             </tr>
         `;
         }).join('');

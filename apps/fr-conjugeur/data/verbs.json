@@ -147,7 +147,8 @@
         "qu'ils/elles aient parlé"
       ]
     },
-    "usage_hint": "parler à (qqn) / de (qqch ou qqn)"
+    "usage_hint": "parler à (qqn) / de (qqch ou qqn)",
+    "irregular": false
   },
   "aimer": {
     "group": "1er groupe",
@@ -297,7 +298,8 @@
         "qu'ils/elles aient aimé"
       ]
     },
-    "usage_hint": "+ COD (aimer qqn/qqch)"
+    "usage_hint": "+ COD (aimer qqn/qqch)",
+    "irregular": false
   },
   "marcher": {
     "group": "1er groupe",
@@ -446,7 +448,8 @@
         "qu'ils/elles aient marché"
       ]
     },
-    "usage_hint": "marcher vers / dans / avec"
+    "usage_hint": "marcher vers / dans / avec",
+    "irregular": false
   },
   "étudier": {
     "group": "1er groupe",
@@ -595,7 +598,8 @@
         "qu'ils/elles aient étudié"
       ]
     },
-    "usage_hint": "+ COD / étudier à (l'université)"
+    "usage_hint": "+ COD / étudier à (l'université)",
+    "irregular": false
   },
   "travailler": {
     "group": "1er groupe",
@@ -744,7 +748,8 @@
         "qu'ils/elles aient travaillé"
       ]
     },
-    "usage_hint": "travailler pour / chez / avec / à"
+    "usage_hint": "travailler pour / chez / avec / à",
+    "irregular": false
   },
   "habiter": {
     "group": "1er groupe",
@@ -893,7 +898,8 @@
         "qu'ils/elles aient habité"
       ]
     },
-    "usage_hint": "habiter à (ville) / en / au (pays) / dans"
+    "usage_hint": "habiter à (ville) / en / au (pays) / dans",
+    "irregular": false
   },
   "écouter": {
     "group": "1er groupe",
@@ -1042,7 +1048,8 @@
         "qu'ils/elles aient écouté"
       ]
     },
-    "usage_hint": "+ COD (écouter qqn/qqch)"
+    "usage_hint": "+ COD (écouter qqn/qqch)",
+    "irregular": false
   },
   "regarder": {
     "group": "1er groupe",
@@ -1191,7 +1198,8 @@
         "qu'ils/elles aient regardé"
       ]
     },
-    "usage_hint": "+ COD (regarder qqn/qqch)"
+    "usage_hint": "+ COD (regarder qqn/qqch)",
+    "irregular": false
   },
   "penser": {
     "group": "1er groupe",
@@ -1340,7 +1348,8 @@
         "qu'ils/elles aient pensé"
       ]
     },
-    "usage_hint": "penser à (qqch/qqn) / penser de (opinion)"
+    "usage_hint": "penser à (qqch/qqn) / penser de (opinion)",
+    "irregular": false
   },
   "chercher": {
     "group": "1er groupe",
@@ -1489,7 +1498,8 @@
         "qu'ils/elles aient cherché"
       ]
     },
-    "usage_hint": "chercher + COD / chercher à (faire qqch)"
+    "usage_hint": "chercher + COD / chercher à (faire qqch)",
+    "irregular": false
   },
   "trouver": {
     "group": "1er groupe",
@@ -1638,7 +1648,8 @@
         "qu'ils/elles aient trouvé"
       ]
     },
-    "usage_hint": "trouver + COD"
+    "usage_hint": "trouver + COD",
+    "irregular": false
   },
   "donner": {
     "group": "1er groupe",
@@ -1787,7 +1798,8 @@
         "qu'ils/elles aient donné"
       ]
     },
-    "usage_hint": "donner (qqch) à (qqn)"
+    "usage_hint": "donner (qqch) à (qqn)",
+    "irregular": false
   },
   "demander": {
     "group": "1er groupe",
@@ -1937,7 +1949,8 @@
       ]
     },
     "usage_hint": "demander (qqch) à (qqn) / de (faire qqch)",
-    "grammar_rule": "💡 REMEMBER: Exige la préposition 'de' devant un infinitif ('demander de sortir') ou le Subjonctif ('demander que...')."
+    "grammar_rule": "💡 REMEMBER: Exige la préposition 'de' devant un infinitif ('demander de sortir') ou le Subjonctif ('demander que...').",
+    "irregular": false
   },
   "fermer": {
     "group": "1er groupe",
@@ -2086,7 +2099,8 @@
         "qu'ils/elles aient fermé"
       ]
     },
-    "usage_hint": "+ COD (fermer la porte)"
+    "usage_hint": "+ COD (fermer la porte)",
+    "irregular": false
   },
   "jouer": {
     "group": "1er groupe",
@@ -2235,7 +2249,8 @@
         "qu'ils/elles aient joué"
       ]
     },
-    "usage_hint": "jouer à (jeu/sport) / de (instrument de musique)"
+    "usage_hint": "jouer à (jeu/sport) / de (instrument de musique)",
+    "irregular": false
   },
   "chanter": {
     "group": "1er groupe",
@@ -2384,7 +2399,8 @@
         "qu'ils/elles aient chanté"
       ]
     },
-    "usage_hint": "chanter + COD / pour (qqn)"
+    "usage_hint": "chanter + COD / pour (qqn)",
+    "irregular": false
   },
   "danser": {
     "group": "1er groupe",
@@ -2533,7 +2549,8 @@
         "qu'ils/elles aient dansé"
       ]
     },
-    "usage_hint": "danser avec / sur"
+    "usage_hint": "danser avec / sur",
+    "irregular": false
   },
   "voyager": {
     "group": "1er groupe",
@@ -2683,7 +2700,8 @@
       ]
     },
     "usage_hint": "voyager en / à / avec",
-    "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous voyageons')."
+    "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous voyageons').",
+    "irregular": false
   },
   "passer": {
     "group": "1er groupe",
@@ -2832,7 +2850,8 @@
         "qu'ils/elles aient passé"
       ]
     },
-    "usage_hint": "passer par / devant / chez / passer + COD (temps)"
+    "usage_hint": "passer par / devant / chez / passer + COD (temps)",
+    "irregular": false
   },
   "gagner": {
     "group": "1er groupe",
@@ -2981,7 +3000,8 @@
         "qu'ils/elles aient gagné"
       ]
     },
-    "usage_hint": "gagner + COD / contre (un adversaire)"
+    "usage_hint": "gagner + COD / contre (un adversaire)",
+    "irregular": false
   },
   "préparer": {
     "group": "1er groupe",
@@ -3130,7 +3150,8 @@
         "qu'ils/elles aient préparé"
       ]
     },
-    "usage_hint": "préparer + COD / se préparer à"
+    "usage_hint": "préparer + COD / se préparer à",
+    "irregular": false
   },
   "visiter": {
     "group": "1er groupe",
@@ -3279,7 +3300,8 @@
         "qu'ils/elles aient visité"
       ]
     },
-    "usage_hint": "+ COD (visiter un lieu)"
+    "usage_hint": "+ COD (visiter un lieu)",
+    "irregular": false
   },
   "aider": {
     "group": "1er groupe",
@@ -3428,7 +3450,8 @@
         "qu'ils/elles aient aidé"
       ]
     },
-    "usage_hint": "aider (qqn) à (faire qqch)"
+    "usage_hint": "aider (qqn) à (faire qqch)",
+    "irregular": false
   },
   "monter": {
     "group": "1er groupe",
@@ -3577,7 +3600,8 @@
         "qu'ils/elles soient montés"
       ]
     },
-    "usage_hint": "monter dans (train) / sur (montagne) / à"
+    "usage_hint": "monter dans (train) / sur (montagne) / à",
+    "irregular": false
   },
   "tomber": {
     "group": "1er groupe",
@@ -3726,7 +3750,8 @@
         "qu'ils/elles soient tombés"
       ]
     },
-    "usage_hint": "tomber de (chaise) / sur (qqn) / dans"
+    "usage_hint": "tomber de (chaise) / sur (qqn) / dans",
+    "irregular": false
   },
   "rester": {
     "group": "1er groupe",
@@ -3875,7 +3900,8 @@
         "qu'ils/elles soient restés"
       ]
     },
-    "usage_hint": "rester + adjectif / à (lieu)"
+    "usage_hint": "rester + adjectif / à (lieu)",
+    "irregular": false
   },
   "arriver": {
     "group": "1er groupe",
@@ -4024,7 +4050,8 @@
         "qu'ils/elles soient arrivés"
       ]
     },
-    "usage_hint": "arriver à (ville) / en (pays) / chez (qqn)"
+    "usage_hint": "arriver à (ville) / en (pays) / chez (qqn)",
+    "irregular": false
   },
   "entrer": {
     "group": "1er groupe",
@@ -4173,7 +4200,8 @@
         "qu'ils/elles soient entrés"
       ]
     },
-    "usage_hint": "entrer dans (lieu) / en (classe)"
+    "usage_hint": "entrer dans (lieu) / en (classe)",
+    "irregular": false
   },
   "montrer": {
     "group": "1er groupe",
@@ -4322,7 +4350,8 @@
         "qu'ils/elles aient montré"
       ]
     },
-    "usage_hint": "montrer (qqch) à (qqn)"
+    "usage_hint": "montrer (qqch) à (qqn)",
+    "irregular": false
   },
   "cacher": {
     "group": "1er groupe",
@@ -4471,7 +4500,8 @@
         "qu'ils/elles aient caché"
       ]
     },
-    "usage_hint": "cacher (qqch) à (qqn)"
+    "usage_hint": "cacher (qqch) à (qqn)",
+    "irregular": false
   },
   "oublier": {
     "group": "1er groupe",
@@ -4620,7 +4650,8 @@
         "qu'ils/elles aient oublié"
       ]
     },
-    "usage_hint": "oublier + COD / de (faire qqch)"
+    "usage_hint": "oublier + COD / de (faire qqch)",
+    "irregular": false
   },
   "compter": {
     "group": "1er groupe",
@@ -4769,7 +4800,8 @@
         "qu'ils/elles aient compté"
       ]
     },
-    "usage_hint": "compter sur (qqn) / compter + COD"
+    "usage_hint": "compter sur (qqn) / compter + COD",
+    "irregular": false
   },
   "décider": {
     "group": "1er groupe",
@@ -4918,7 +4950,8 @@
         "qu'ils/elles aient décidé"
       ]
     },
-    "usage_hint": "décider de (faire qqch)"
+    "usage_hint": "décider de (faire qqch)",
+    "irregular": false
   },
   "espérer": {
     "group": "1er groupe",
@@ -5068,7 +5101,8 @@
       ]
     },
     "usage_hint": "espérer + COD / + infinitif",
-    "grammar_rule": "💡 REMEMBER: Suivi de l'Indicatif/Futur si affirmé ('j'espère qu'il viendra'), mais exige le Subjonctif à la forme négative ou interrogative."
+    "grammar_rule": "💡 REMEMBER: Suivi de l'Indicatif/Futur si affirmé ('j'espère qu'il viendra'), mais exige le Subjonctif à la forme négative ou interrogative.",
+    "irregular": false
   },
   "préférer": {
     "group": "1er groupe",
@@ -5218,7 +5252,8 @@
       ]
     },
     "usage_hint": "préférer + COD / + infinitif à",
-    "grammar_rule": "💡 REMEMBER: Exige le Subjonctif pour exprimer une préférence subordonnée ('je préfère qu'il reste'). Alternance d'accentuation: préférer -> je préfère."
+    "grammar_rule": "💡 REMEMBER: Exige le Subjonctif pour exprimer une préférence subordonnée ('je préfère qu'il reste'). Alternance d'accentuation: préférer -> je préfère.",
+    "irregular": false
   },
   "continuer": {
     "group": "1er groupe",
@@ -5367,7 +5402,8 @@
         "qu'ils/elles aient continué"
       ]
     },
-    "usage_hint": "continuer à / de (faire qqch)"
+    "usage_hint": "continuer à / de (faire qqch)",
+    "irregular": false
   },
   "arrêter": {
     "group": "1er groupe",
@@ -5516,7 +5552,8 @@
         "qu'ils/elles aient arrêté"
       ]
     },
-    "usage_hint": "arrêter + COD / d'arrêter de (faire)"
+    "usage_hint": "arrêter + COD / d'arrêter de (faire)",
+    "irregular": false
   },
   "expliquer": {
     "group": "1er groupe",
@@ -5665,7 +5702,8 @@
         "qu'ils/elles aient expliqué"
       ]
     },
-    "usage_hint": "expliquer (qqch) à (qqn)"
+    "usage_hint": "expliquer (qqch) à (qqn)",
+    "irregular": false
   },
   "séparer": {
     "group": "1er groupe",
@@ -5814,7 +5852,8 @@
         "qu'ils/elles aient séparé"
       ]
     },
-    "usage_hint": "séparer (qqch) de (qqch d'autre)"
+    "usage_hint": "séparer (qqch) de (qqch d'autre)",
+    "irregular": false
   },
   "pleurer": {
     "group": "1er groupe",
@@ -5963,7 +6002,8 @@
         "qu'ils/elles aient pleuré"
       ]
     },
-    "usage_hint": "pleurer de (joie/tristesse) / sur"
+    "usage_hint": "pleurer de (joie/tristesse) / sur",
+    "irregular": false
   },
   "proposer": {
     "group": "1er groupe",
@@ -6112,7 +6152,8 @@
         "qu'ils/elles aient proposé"
       ]
     },
-    "usage_hint": "proposer (qqch) à (qqn) / de (faire)"
+    "usage_hint": "proposer (qqch) à (qqn) / de (faire)",
+    "irregular": false
   },
   "refuser": {
     "group": "1er groupe",
@@ -6262,7 +6303,8 @@
       ]
     },
     "usage_hint": "refuser + COD / de (faire qqch)",
-    "grammar_rule": "💡 REMEMBER: Exige la préposition 'de' devant un infinitif ('refuser de répondre')."
+    "grammar_rule": "💡 REMEMBER: Exige la préposition 'de' devant un infinitif ('refuser de répondre').",
+    "irregular": false
   },
   "accepter": {
     "group": "1er groupe",
@@ -6411,7 +6453,8 @@
         "qu'ils/elles aient accepté"
       ]
     },
-    "usage_hint": "accepter + COD / de (faire qqch)"
+    "usage_hint": "accepter + COD / de (faire qqch)",
+    "irregular": false
   },
   "toucher": {
     "group": "1er groupe",
@@ -6560,7 +6603,8 @@
         "qu'ils/elles aient touché"
       ]
     },
-    "usage_hint": "toucher à (qqch) / + COD (toucher le bois)"
+    "usage_hint": "toucher à (qqch) / + COD (toucher le bois)",
+    "irregular": false
   },
   "quitter": {
     "group": "1er groupe",
@@ -6709,7 +6753,8 @@
         "qu'ils/elles aient quitté"
       ]
     },
-    "usage_hint": "+ COD (quitter un lieu ou qqn)"
+    "usage_hint": "+ COD (quitter un lieu ou qqn)",
+    "irregular": false
   },
   "briller": {
     "group": "1er groupe",
@@ -6858,7 +6903,8 @@
         "qu'ils/elles aient brillé"
       ]
     },
-    "usage_hint": "briller dans / par"
+    "usage_hint": "briller dans / par",
+    "irregular": false
   },
   "soigner": {
     "group": "1er groupe",
@@ -7007,7 +7053,8 @@
         "qu'ils/elles aient soigné"
       ]
     },
-    "usage_hint": "+ COD (soigner un patient)"
+    "usage_hint": "+ COD (soigner un patient)",
+    "irregular": false
   },
   "sauver": {
     "group": "1er groupe",
@@ -7156,7 +7203,8 @@
         "qu'ils/elles aient sauvé"
       ]
     },
-    "usage_hint": "sauver (qqn) de (un danger)"
+    "usage_hint": "sauver (qqn) de (un danger)",
+    "irregular": false
   },
   "inviter": {
     "group": "1er groupe",
@@ -7305,7 +7353,8 @@
         "qu'ils/elles aient invité"
       ]
     },
-    "usage_hint": "inviter (qqn) à (dîner)"
+    "usage_hint": "inviter (qqn) à (dîner)",
+    "irregular": false
   },
   "partager": {
     "group": "1er groupe",
@@ -7454,7 +7503,8 @@
         "qu'ils/elles aient partagé"
       ]
     },
-    "usage_hint": "partager (qqch) avec (qqn)"
+    "usage_hint": "partager (qqch) avec (qqn)",
+    "irregular": false
   },
   "pousser": {
     "group": "1er groupe",
@@ -7603,7 +7653,8 @@
         "qu'ils/elles aient poussé"
       ]
     },
-    "usage_hint": "pousser (qqn) à (faire qqch)"
+    "usage_hint": "pousser (qqn) à (faire qqch)",
+    "irregular": false
   },
   "tirer": {
     "group": "1er groupe",
@@ -7752,7 +7803,8 @@
         "qu'ils/elles aient tiré"
       ]
     },
-    "usage_hint": "tirer sur (une cible) / vers"
+    "usage_hint": "tirer sur (une cible) / vers",
+    "irregular": false
   },
   "laisser": {
     "group": "1er groupe",
@@ -7901,7 +7953,8 @@
         "qu'ils/elles aient laissé"
       ]
     },
-    "usage_hint": "laisser + COD / laisser (qqn) faire"
+    "usage_hint": "laisser + COD / laisser (qqn) faire",
+    "irregular": false
   },
   "payer": {
     "group": "1er groupe",
@@ -8051,7 +8104,8 @@
       ]
     },
     "usage_hint": "payer (qqch) à (qqn) / pour",
-    "grammar_rule": "💡 REMEMBER: Le 'y' peut se changer en 'i' devant un 'e' muet ('je paie' / 'je paye')."
+    "grammar_rule": "💡 REMEMBER: Le 'y' peut se changer en 'i' devant un 'e' muet ('je paie' / 'je paye').",
+    "irregular": false
   },
   "appeler": {
     "group": "1er groupe",
@@ -8201,7 +8255,8 @@
       ]
     },
     "usage_hint": "appeler + COD (appeler qqn)",
-    "grammar_rule": "💡 REMEMBER: Double le 'l' devant un 'e' muet ('j'appelle', 'nous appelons')."
+    "grammar_rule": "💡 REMEMBER: Double le 'l' devant un 'e' muet ('j'appelle', 'nous appelons').",
+    "irregular": false
   },
   "imaginer": {
     "group": "1er groupe",
@@ -8350,7 +8405,8 @@
         "qu'ils/elles aient imaginé"
       ]
     },
-    "usage_hint": "imaginer + COD (imaginer une scène)"
+    "usage_hint": "imaginer + COD (imaginer une scène)",
+    "irregular": false
   },
   "créer": {
     "group": "1er groupe",
@@ -8499,7 +8555,8 @@
         "qu'ils/elles aient créé"
       ]
     },
-    "usage_hint": "+ COD (créer un projet)"
+    "usage_hint": "+ COD (créer un projet)",
+    "irregular": false
   },
   "exprimer": {
     "group": "1er groupe",
@@ -8648,7 +8705,8 @@
         "qu'ils/elles aient exprimé"
       ]
     },
-    "usage_hint": "exprimer (qqch) à (qqn)"
+    "usage_hint": "exprimer (qqch) à (qqn)",
+    "irregular": false
   },
   "remarquer": {
     "group": "1er groupe",
@@ -8797,7 +8855,8 @@
         "qu'ils/elles aient remarqué"
       ]
     },
-    "usage_hint": "+ COD (remarquer un détail)"
+    "usage_hint": "+ COD (remarquer un détail)",
+    "irregular": false
   },
   "écraser": {
     "group": "1er groupe",
@@ -8946,7 +9005,8 @@
         "qu'ils/elles aient écrasé"
       ]
     },
-    "usage_hint": "écraser + COD"
+    "usage_hint": "écraser + COD",
+    "irregular": false
   },
   "voler": {
     "group": "1er groupe",
@@ -9095,7 +9155,8 @@
         "qu'ils/elles aient volé"
       ]
     },
-    "usage_hint": "voler vers / au-dessus de / + COD (voler un objet à qqn)"
+    "usage_hint": "voler vers / au-dessus de / + COD (voler un objet à qqn)",
+    "irregular": false
   },
   "nager": {
     "group": "1er groupe",
@@ -9245,7 +9306,8 @@
       ]
     },
     "usage_hint": "nager dans (mer/piscine) / avec",
-    "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous nageons')."
+    "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous nageons').",
+    "irregular": false
   },
   "sauter": {
     "group": "1er groupe",
@@ -9394,7 +9456,8 @@
         "qu'ils/elles aient sauté"
       ]
     },
-    "usage_hint": "sauter de / sur / par-dessus"
+    "usage_hint": "sauter de / sur / par-dessus",
+    "irregular": false
   },
   "désirer": {
     "group": "1er groupe",
@@ -9543,7 +9606,8 @@
         "qu'ils/elles aient désiré"
       ]
     },
-    "usage_hint": "désirer + COD / + infinitif"
+    "usage_hint": "désirer + COD / + infinitif",
+    "irregular": false
   },
   "admirer": {
     "group": "1er groupe",
@@ -9692,7 +9756,8 @@
         "qu'ils/elles aient admiré"
       ]
     },
-    "usage_hint": "admirer + COD (admirer qqn)"
+    "usage_hint": "admirer + COD (admirer qqn)",
+    "irregular": false
   },
   "souhaiter": {
     "group": "1er groupe",
@@ -9842,7 +9907,8 @@
       ]
     },
     "usage_hint": "souhaiter (qqch) à (qqn)",
-    "grammar_rule": "💡 REMEMBER: Exige le Subjonctif dans la subordonnée quand le sujet change ('je souhaite qu'elle réussisse')."
+    "grammar_rule": "💡 REMEMBER: Exige le Subjonctif dans la subordonnée quand le sujet change ('je souhaite qu'elle réussisse').",
+    "irregular": false
   },
   "raconter": {
     "group": "1er groupe",
@@ -9991,7 +10057,8 @@
         "qu'ils/elles aient raconté"
       ]
     },
-    "usage_hint": "raconter (qqch) à (qqn)"
+    "usage_hint": "raconter (qqch) à (qqn)",
+    "irregular": false
   },
   "étonner": {
     "group": "1er groupe",
@@ -10140,7 +10207,8 @@
         "qu'ils/elles aient étonné"
       ]
     },
-    "usage_hint": "étonner + COD (étonner qqn)"
+    "usage_hint": "étonner + COD (étonner qqn)",
+    "irregular": false
   },
   "ressembler": {
     "group": "1er groupe",
@@ -10289,7 +10357,8 @@
         "qu'ils/elles aient ressemblé"
       ]
     },
-    "usage_hint": "ressembler à (qqn / qqch)"
+    "usage_hint": "ressembler à (qqn / qqch)",
+    "irregular": false
   },
   "nettoyer": {
     "group": "1er groupe",
@@ -10438,7 +10507,8 @@
         "qu'ils/elles aient nettoyé"
       ]
     },
-    "usage_hint": "+ COD (nettoyer la maison)"
+    "usage_hint": "+ COD (nettoyer la maison)",
+    "irregular": false
   },
   "emprunter": {
     "group": "1er groupe",
@@ -10587,7 +10657,8 @@
         "qu'ils/elles aient emprunté"
       ]
     },
-    "usage_hint": "emprunter (qqch) à (qqn)"
+    "usage_hint": "emprunter (qqch) à (qqn)",
+    "irregular": false
   },
   "prêter": {
     "group": "1er groupe",
@@ -10736,7 +10807,8 @@
         "qu'ils/elles aient prêté"
       ]
     },
-    "usage_hint": "prêter (qqch) à (qqn)"
+    "usage_hint": "prêter (qqch) à (qqn)",
+    "irregular": false
   },
   "corriger": {
     "group": "1er groupe",
@@ -10885,7 +10957,8 @@
         "qu'ils/elles aient corrigé"
       ]
     },
-    "usage_hint": "+ COD (corriger une faute)"
+    "usage_hint": "+ COD (corriger une faute)",
+    "irregular": false
   },
   "protéger": {
     "group": "1er groupe",
@@ -11034,7 +11107,8 @@
         "qu'ils/elles aient protégé"
       ]
     },
-    "usage_hint": "protéger (qqn) contre / de (danger)"
+    "usage_hint": "protéger (qqn) contre / de (danger)",
+    "irregular": false
   },
   "remplir": {
     "group": "2e groupe",
@@ -11183,7 +11257,8 @@
         "qu'ils/elles aient rempli"
       ]
     },
-    "usage_hint": "remplir (qqch) de (qqch d'autre)"
+    "usage_hint": "remplir (qqch) de (qqch d'autre)",
+    "irregular": false
   },
   "choisir": {
     "group": "2e groupe",
@@ -11332,7 +11407,8 @@
         "qu'ils/elles aient choisi"
       ]
     },
-    "usage_hint": "choisir + COD / de (faire qqch)"
+    "usage_hint": "choisir + COD / de (faire qqch)",
+    "irregular": false
   },
   "finir": {
     "group": "2e groupe",
@@ -11481,7 +11557,8 @@
         "qu'ils/elles aient fini"
       ]
     },
-    "usage_hint": "finir par (faire) / de (faire) / + COD"
+    "usage_hint": "finir par (faire) / de (faire) / + COD",
+    "irregular": false
   },
   "réussir": {
     "group": "2e groupe",
@@ -11631,7 +11708,8 @@
       ]
     },
     "usage_hint": "réussir à (faire qqch) / un examen (+ COD)",
-    "grammar_rule": "💡 REMEMBER: Exige la préposition 'à' devant un infinitif ('réussir à faire')."
+    "grammar_rule": "💡 REMEMBER: Exige la préposition 'à' devant un infinitif ('réussir à faire').",
+    "irregular": false
   },
   "grandir": {
     "group": "2e groupe",
@@ -11780,7 +11858,8 @@
         "qu'ils/elles aient grandi"
       ]
     },
-    "usage_hint": "grandir en / dans"
+    "usage_hint": "grandir en / dans",
+    "irregular": false
   },
   "réfléchir": {
     "group": "2e groupe",
@@ -11929,7 +12008,8 @@
         "qu'ils/elles aient réfléchi"
       ]
     },
-    "usage_hint": "réfléchir à (un problème / une décision)"
+    "usage_hint": "réfléchir à (un problème / une décision)",
+    "irregular": false
   },
   "obéir": {
     "group": "2e groupe",
@@ -12078,7 +12158,8 @@
         "qu'ils/elles aient obéi"
       ]
     },
-    "usage_hint": "obéir à (qqn / une règle)"
+    "usage_hint": "obéir à (qqn / une règle)",
+    "irregular": false
   },
   "punir": {
     "group": "2e groupe",
@@ -12227,7 +12308,8 @@
         "qu'ils/elles aient puni"
       ]
     },
-    "usage_hint": "punir (qqn) pour (une faute)"
+    "usage_hint": "punir (qqn) pour (une faute)",
+    "irregular": false
   },
   "nourrir": {
     "group": "2e groupe",
@@ -12376,7 +12458,8 @@
         "qu'ils/elles aient nourri"
       ]
     },
-    "usage_hint": "+ COD / se nourrir de"
+    "usage_hint": "+ COD / se nourrir de",
+    "irregular": false
   },
   "vieillir": {
     "group": "2e groupe",
@@ -12525,7 +12608,8 @@
         "qu'ils/elles aient vieilli"
       ]
     },
-    "usage_hint": "vieillir de (quelques années)"
+    "usage_hint": "vieillir de (quelques années)",
+    "irregular": false
   },
   "guérir": {
     "group": "2e groupe",
@@ -12674,7 +12758,8 @@
         "qu'ils/elles aient guéri"
       ]
     },
-    "usage_hint": "guérir de (une maladie)"
+    "usage_hint": "guérir de (une maladie)",
+    "irregular": false
   },
   "aller": {
     "group": "3e groupe",
@@ -12823,7 +12908,8 @@
         "qu'ils/elles soient allés"
       ]
     },
-    "usage_hint": "aller à (ville/lieu) / en / chez (qqn)"
+    "usage_hint": "aller à (ville/lieu) / en / chez (qqn)",
+    "irregular": true
   },
   "faire": {
     "group": "3e groupe",
@@ -12972,7 +13058,8 @@
         "qu'ils/elles aient fait"
       ]
     },
-    "usage_hint": "faire + COD / faire de (sport/musique)"
+    "usage_hint": "faire + COD / faire de (sport/musique)",
+    "irregular": true
   },
   "dire": {
     "group": "3e groupe",
@@ -13121,7 +13208,8 @@
         "qu'ils/elles aient dit"
       ]
     },
-    "usage_hint": "dire (qqch) à (qqn) / de (faire qqch)"
+    "usage_hint": "dire (qqch) à (qqn) / de (faire qqch)",
+    "irregular": true
   },
   "voir": {
     "group": "3e groupe",
@@ -13271,7 +13359,8 @@
       ]
     },
     "usage_hint": "+ COD (voir qqn/qqch)",
-    "grammar_rule": "💡 REMEMBER: Futur et conditionnel à double 'r': 'je verrai'. Subjonctif: 'que je voie', 'que nous voyions'."
+    "grammar_rule": "💡 REMEMBER: Futur et conditionnel à double 'r': 'je verrai'. Subjonctif: 'que je voie', 'que nous voyions'.",
+    "irregular": true
   },
   "pouvoir": {
     "group": "3e groupe",
@@ -13421,7 +13510,8 @@
       ]
     },
     "usage_hint": "+ infinitif direct (pouvoir faire)",
-    "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je peux aider'). Auxiliaire avoir."
+    "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je peux aider'). Auxiliaire avoir.",
+    "irregular": true
   },
   "vouloir": {
     "group": "3e groupe",
@@ -13571,7 +13661,8 @@
       ]
     },
     "usage_hint": "+ COD / + infinitif direct",
-    "grammar_rule": "💡 REMEMBER: Exige TOUJOURS le Subjonctif dans les propositions subordonnées quand les sujets sont différents ('je veux que tu viennes')."
+    "grammar_rule": "💡 REMEMBER: Exige TOUJOURS le Subjonctif dans les propositions subordonnées quand les sujets sont différents ('je veux que tu viennes').",
+    "irregular": true
   },
   "prendre": {
     "group": "3e groupe",
@@ -13720,7 +13811,8 @@
         "qu'ils/elles aient pris"
       ]
     },
-    "usage_hint": "prendre + COD / prendre soin de"
+    "usage_hint": "prendre + COD / prendre soin de",
+    "irregular": true
   },
   "venir": {
     "group": "3e groupe",
@@ -13870,7 +13962,8 @@
       ]
     },
     "usage_hint": "venir de (origine/lieu) / avec (qqn)",
-    "grammar_rule": "💡 REMEMBER: Auxiliaire être au passé composé ('il est venu'). Subjonctif: 'que je vienne', 'que nous venions'."
+    "grammar_rule": "💡 REMEMBER: Auxiliaire être au passé composé ('il est venu'). Subjonctif: 'que je vienne', 'que nous venions'.",
+    "irregular": true
   },
   "vendre": {
     "group": "3e groupe",
@@ -14019,7 +14112,8 @@
         "qu'ils/elles aient vendu"
       ]
     },
-    "usage_hint": "vendre (qqch) à (qqn)"
+    "usage_hint": "vendre (qqch) à (qqn)",
+    "irregular": true
   },
   "détruire": {
     "group": "3e groupe",
@@ -14168,7 +14262,8 @@
         "qu'ils/elles aient détruit"
       ]
     },
-    "usage_hint": "+ COD (détruire un bâtiment)"
+    "usage_hint": "+ COD (détruire un bâtiment)",
+    "irregular": true
   },
   "prévoir": {
     "group": "3e groupe",
@@ -14317,7 +14412,8 @@
         "qu'ils/elles aient prévu"
       ]
     },
-    "usage_hint": "prévoir + COD (prévoir un événement)"
+    "usage_hint": "prévoir + COD (prévoir un événement)",
+    "irregular": true
   },
   "prévenir": {
     "group": "3e groupe",
@@ -14466,7 +14562,8 @@
         "qu'ils/elles aient prévenu"
       ]
     },
-    "usage_hint": "prévenir (qqn) de (qqch)"
+    "usage_hint": "prévenir (qqn) de (qqch)",
+    "irregular": true
   },
   "accorder": {
     "group": "1er groupe",
@@ -14615,7 +14712,8 @@
         "qu'ils/elles aient accordé"
       ]
     },
-    "usage_hint": "accorder (qqch) à (qqn)"
+    "usage_hint": "accorder (qqch) à (qqn)",
+    "irregular": false
   },
   "accuser": {
     "group": "1er groupe",
@@ -14764,7 +14862,8 @@
         "qu'ils/elles aient accusé"
       ]
     },
-    "usage_hint": "accuser (qqn) de (qqch)"
+    "usage_hint": "accuser (qqn) de (qqch)",
+    "irregular": false
   },
   "acheter": {
     "group": "1er groupe",
@@ -14914,7 +15013,8 @@
       ]
     },
     "usage_hint": "acheter (qqch) à / pour (qqn)",
-    "grammar_rule": "💡 REMEMBER: Change le 'e' muet en 'è' devant une syllabe muette ('j'achète', 'nous achetons')."
+    "grammar_rule": "💡 REMEMBER: Change le 'e' muet en 'è' devant une syllabe muette ('j'achète', 'nous achetons').",
+    "irregular": false
   },
   "adorer": {
     "group": "1er groupe",
@@ -15063,7 +15163,8 @@
         "qu'ils/elles aient adoré"
       ]
     },
-    "usage_hint": "+ COD (adorer qqn/qqch)"
+    "usage_hint": "+ COD (adorer qqn/qqch)",
+    "irregular": false
   },
   "affirmer": {
     "group": "1er groupe",
@@ -15212,7 +15313,8 @@
         "qu'ils/elles aient affirmé"
       ]
     },
-    "usage_hint": "affirmer + COD / que..."
+    "usage_hint": "affirmer + COD / que...",
+    "irregular": false
   },
   "ajouter": {
     "group": "1er groupe",
@@ -15361,7 +15463,8 @@
         "qu'ils/elles aient ajouté"
       ]
     },
-    "usage_hint": "ajouter (qqch) à (qqch d'autre)"
+    "usage_hint": "ajouter (qqch) à (qqch d'autre)",
+    "irregular": false
   },
   "allumer": {
     "group": "1er groupe",
@@ -15510,7 +15613,8 @@
         "qu'ils/elles aient allumé"
       ]
     },
-    "usage_hint": "+ COD (allumer la lumière)"
+    "usage_hint": "+ COD (allumer la lumière)",
+    "irregular": false
   },
   "apporter": {
     "group": "1er groupe",
@@ -15659,7 +15763,8 @@
         "qu'ils/elles aient apporté"
       ]
     },
-    "usage_hint": "apporter (qqch) à (qqn)"
+    "usage_hint": "apporter (qqch) à (qqn)",
+    "irregular": false
   },
   "approuver": {
     "group": "1er groupe",
@@ -15808,7 +15913,8 @@
         "qu'ils/elles aient approuvé"
       ]
     },
-    "usage_hint": "+ COD (approuver qqch)"
+    "usage_hint": "+ COD (approuver qqch)",
+    "irregular": false
   },
   "avancer": {
     "group": "1er groupe",
@@ -15957,7 +16063,8 @@
         "qu'ils/elles aient avancé"
       ]
     },
-    "usage_hint": "avancer vers / de (quelques mètres)"
+    "usage_hint": "avancer vers / de (quelques mètres)",
+    "irregular": false
   },
   "blesser": {
     "group": "1er groupe",
@@ -16106,7 +16213,8 @@
         "qu'ils/elles aient blessé"
       ]
     },
-    "usage_hint": "+ COD (blesser qqn)"
+    "usage_hint": "+ COD (blesser qqn)",
+    "irregular": false
   },
   "calmer": {
     "group": "1er groupe",
@@ -16255,7 +16363,8 @@
         "qu'ils/elles aient calmé"
       ]
     },
-    "usage_hint": "+ COD (calmer un enfant)"
+    "usage_hint": "+ COD (calmer un enfant)",
+    "irregular": false
   },
   "changer": {
     "group": "1er groupe",
@@ -16404,7 +16513,8 @@
         "qu'ils/elles aient changé"
       ]
     },
-    "usage_hint": "changer de (train/avis) / + COD"
+    "usage_hint": "changer de (train/avis) / + COD",
+    "irregular": false
   },
   "charger": {
     "group": "1er groupe",
@@ -16553,7 +16663,8 @@
         "qu'ils/elles aient chargé"
       ]
     },
-    "usage_hint": "charger (qqn) de (faire qqch)"
+    "usage_hint": "charger (qqn) de (faire qqch)",
+    "irregular": false
   },
   "chauffer": {
     "group": "1er groupe",
@@ -16702,7 +16813,8 @@
         "qu'ils/elles aient chauffé"
       ]
     },
-    "usage_hint": "+ COD (chauffer l'eau)"
+    "usage_hint": "+ COD (chauffer l'eau)",
+    "irregular": false
   },
   "commander": {
     "group": "1er groupe",
@@ -16851,7 +16963,8 @@
         "qu'ils/elles aient commandé"
       ]
     },
-    "usage_hint": "commander (qqch) à (qqn)"
+    "usage_hint": "commander (qqch) à (qqn)",
+    "irregular": false
   },
   "comparer": {
     "group": "1er groupe",
@@ -17000,7 +17113,8 @@
         "qu'ils/elles aient comparé"
       ]
     },
-    "usage_hint": "comparer (qqch) à / avec (qqch d'autre)"
+    "usage_hint": "comparer (qqch) à / avec (qqch d'autre)",
+    "irregular": false
   },
   "confirmer": {
     "group": "1er groupe",
@@ -17149,7 +17263,8 @@
         "qu'ils/elles aient confirmé"
       ]
     },
-    "usage_hint": "confirmer (qqch) à (qqn)"
+    "usage_hint": "confirmer (qqch) à (qqn)",
+    "irregular": false
   },
   "considérer": {
     "group": "1er groupe",
@@ -17298,7 +17413,8 @@
         "qu'ils/elles aient considéré"
       ]
     },
-    "usage_hint": "considérer + COD comme (adjectif/nom)"
+    "usage_hint": "considérer + COD comme (adjectif/nom)",
+    "irregular": false
   },
   "couper": {
     "group": "1er groupe",
@@ -17447,7 +17563,8 @@
         "qu'ils/elles aient coupé"
       ]
     },
-    "usage_hint": "+ COD (couper le pain)"
+    "usage_hint": "+ COD (couper le pain)",
+    "irregular": false
   },
   "coûter": {
     "group": "1er groupe",
@@ -17596,7 +17713,8 @@
         "qu'ils/elles aient coûté"
       ]
     },
-    "usage_hint": "coûter (une somme) à (qqn)"
+    "usage_hint": "coûter (une somme) à (qqn)",
+    "irregular": false
   },
   "déclarer": {
     "group": "1er groupe",
@@ -17745,7 +17863,8 @@
         "qu'ils/elles aient déclaré"
       ]
     },
-    "usage_hint": "déclarer (qqch) à (qqn)"
+    "usage_hint": "déclarer (qqch) à (qqn)",
+    "irregular": false
   },
   "déjeuner": {
     "group": "1er groupe",
@@ -17894,7 +18013,8 @@
         "qu'ils/elles aient déjeuné"
       ]
     },
-    "usage_hint": "déjeuner de / avec"
+    "usage_hint": "déjeuner de / avec",
+    "irregular": false
   },
   "dîner": {
     "group": "1er groupe",
@@ -18043,7 +18163,8 @@
         "qu'ils/elles aient dîné"
       ]
     },
-    "usage_hint": "dîner chez / avec"
+    "usage_hint": "dîner chez / avec",
+    "irregular": false
   },
   "discuter": {
     "group": "1er groupe",
@@ -18192,7 +18313,8 @@
         "qu'ils/elles aient discuté"
       ]
     },
-    "usage_hint": "discuter de (qqch) avec (qqn)"
+    "usage_hint": "discuter de (qqch) avec (qqn)",
+    "irregular": false
   },
   "douter": {
     "group": "1er groupe",
@@ -18341,7 +18463,8 @@
         "qu'ils/elles aient douté"
       ]
     },
-    "usage_hint": "douter de (qqch/qqn)"
+    "usage_hint": "douter de (qqch/qqn)",
+    "irregular": false
   },
   "éclairer": {
     "group": "1er groupe",
@@ -18490,7 +18613,8 @@
         "qu'ils/elles aient éclairé"
       ]
     },
-    "usage_hint": "+ COD (éclairer une pièce)"
+    "usage_hint": "+ COD (éclairer une pièce)",
+    "irregular": false
   },
   "embrasser": {
     "group": "1er groupe",
@@ -18639,7 +18763,8 @@
         "qu'ils/elles aient embrassé"
       ]
     },
-    "usage_hint": "+ COD (embrasser qqn)"
+    "usage_hint": "+ COD (embrasser qqn)",
+    "irregular": false
   },
   "emmener": {
     "group": "1er groupe",
@@ -18788,7 +18913,8 @@
         "qu'ils/elles aient emmené"
       ]
     },
-    "usage_hint": "emmener (qqn) à / dans (un lieu)"
+    "usage_hint": "emmener (qqn) à / dans (un lieu)",
+    "irregular": false
   },
   "enseigner": {
     "group": "1er groupe",
@@ -18937,7 +19063,8 @@
         "qu'ils/elles aient enseigné"
       ]
     },
-    "usage_hint": "enseigner (qqch) à (qqn)"
+    "usage_hint": "enseigner (qqch) à (qqn)",
+    "irregular": false
   },
   "envoyer": {
     "group": "1er groupe",
@@ -19087,7 +19214,8 @@
       ]
     },
     "usage_hint": "envoyer (qqch) à (qqn)",
-    "grammar_rule": "💡 REMEMBER: Futur et Conditionnel très irréguliers: 'j'enverrai', 'j'enverrais' (tronc en 'enverr-')."
+    "grammar_rule": "💡 REMEMBER: Futur et Conditionnel très irréguliers: 'j'enverrai', 'j'enverrais' (tronc en 'enverr-').",
+    "irregular": false
   },
   "éviter": {
     "group": "1er groupe",
@@ -19236,7 +19364,8 @@
         "qu'ils/elles aient évité"
       ]
     },
-    "usage_hint": "éviter + COD / de (faire qqch)"
+    "usage_hint": "éviter + COD / de (faire qqch)",
+    "irregular": false
   },
   "frapper": {
     "group": "1er groupe",
@@ -19385,7 +19514,8 @@
         "qu'ils/elles aient frappé"
       ]
     },
-    "usage_hint": "frapper à (la porte) / + COD"
+    "usage_hint": "frapper à (la porte) / + COD",
+    "irregular": false
   },
   "fumer": {
     "group": "1er groupe",
@@ -19534,7 +19664,8 @@
         "qu'ils/elles aient fumé"
       ]
     },
-    "usage_hint": "+ COD (fumer une cigarette)"
+    "usage_hint": "+ COD (fumer une cigarette)",
+    "irregular": false
   },
   "garder": {
     "group": "1er groupe",
@@ -19683,7 +19814,8 @@
         "qu'ils/elles aient gardé"
       ]
     },
-    "usage_hint": "+ COD (garder un secret)"
+    "usage_hint": "+ COD (garder un secret)",
+    "irregular": false
   },
   "glisser": {
     "group": "1er groupe",
@@ -19832,7 +19964,8 @@
         "qu'ils/elles aient glissé"
       ]
     },
-    "usage_hint": "glisser sur (le verglas)"
+    "usage_hint": "glisser sur (le verglas)",
+    "irregular": false
   },
   "hésiter": {
     "group": "1er groupe",
@@ -19981,7 +20114,8 @@
         "qu'ils/elles aient hésité"
       ]
     },
-    "usage_hint": "hésiter à (faire qqch)"
+    "usage_hint": "hésiter à (faire qqch)",
+    "irregular": false
   },
   "ignorer": {
     "group": "1er groupe",
@@ -20130,7 +20264,8 @@
         "qu'ils/elles aient ignoré"
       ]
     },
-    "usage_hint": "ignorer + COD (ignorer qqn/qqch)"
+    "usage_hint": "ignorer + COD (ignorer qqn/qqch)",
+    "irregular": false
   },
   "importer": {
     "group": "1er groupe",
@@ -20279,7 +20414,8 @@
         "qu'ils/elles aient importé"
       ]
     },
-    "usage_hint": "importer de (pays) / peu importe"
+    "usage_hint": "importer de (pays) / peu importe",
+    "irregular": false
   },
   "indiquer": {
     "group": "1er groupe",
@@ -20428,7 +20564,8 @@
         "qu'ils/elles aient indiqué"
       ]
     },
-    "usage_hint": "indiquer (qqch) à (qqn)"
+    "usage_hint": "indiquer (qqch) à (qqn)",
+    "irregular": false
   },
   "inquiéter": {
     "group": "1er groupe",
@@ -20577,7 +20714,8 @@
         "qu'ils/elles aient inquiété"
       ]
     },
-    "usage_hint": "inquiéter + COD"
+    "usage_hint": "inquiéter + COD",
+    "irregular": false
   },
   "insister": {
     "group": "1er groupe",
@@ -20726,7 +20864,8 @@
         "qu'ils/elles aient insisté"
       ]
     },
-    "usage_hint": "insister sur (qqch) / pour (faire)"
+    "usage_hint": "insister sur (qqch) / pour (faire)",
+    "irregular": false
   },
   "installer": {
     "group": "1er groupe",
@@ -20875,7 +21014,8 @@
         "qu'ils/elles aient installé"
       ]
     },
-    "usage_hint": "+ COD dans / sur"
+    "usage_hint": "+ COD dans / sur",
+    "irregular": false
   },
   "jeter": {
     "group": "1er groupe",
@@ -21025,7 +21165,8 @@
       ]
     },
     "usage_hint": "jeter (qqch) à / dans",
-    "grammar_rule": "💡 REMEMBER: Double le 't' devant un 'e' muet ('je jette', 'nous jetons')."
+    "grammar_rule": "💡 REMEMBER: Double le 't' devant un 'e' muet ('je jette', 'nous jetons').",
+    "irregular": false
   },
   "juger": {
     "group": "1er groupe",
@@ -21174,7 +21315,8 @@
         "qu'ils/elles aient jugé"
       ]
     },
-    "usage_hint": "juger (qqn/qqch) sur"
+    "usage_hint": "juger (qqn/qqch) sur",
+    "irregular": false
   },
   "lever": {
     "group": "1er groupe",
@@ -21323,7 +21465,8 @@
         "qu'ils/elles aient levé"
       ]
     },
-    "usage_hint": "lever + COD / se lever à (heure)"
+    "usage_hint": "lever + COD / se lever à (heure)",
+    "irregular": false
   },
   "limiter": {
     "group": "1er groupe",
@@ -21472,7 +21615,8 @@
         "qu'ils/elles aient limité"
       ]
     },
-    "usage_hint": "limiter + COD à (un niveau)"
+    "usage_hint": "limiter + COD à (un niveau)",
+    "irregular": false
   },
   "louer": {
     "group": "1er groupe",
@@ -21621,7 +21765,8 @@
         "qu'ils/elles aient loué"
       ]
     },
-    "usage_hint": "louer (qqch) à (qqn)"
+    "usage_hint": "louer (qqch) à (qqn)",
+    "irregular": false
   },
   "manquer": {
     "group": "1er groupe",
@@ -21770,7 +21915,8 @@
         "qu'ils/elles aient manqué"
       ]
     },
-    "usage_hint": "manquer à (qqn: tu me manques) / manquer de (qqch)"
+    "usage_hint": "manquer à (qqn: tu me manques) / manquer de (qqch)",
+    "irregular": false
   },
   "mener": {
     "group": "1er groupe",
@@ -21919,7 +22065,8 @@
         "qu'ils/elles aient mené"
       ]
     },
-    "usage_hint": "mener (qqn) à (un endroit)"
+    "usage_hint": "mener (qqn) à (un endroit)",
+    "irregular": false
   },
   "mesurer": {
     "group": "1er groupe",
@@ -22068,7 +22215,8 @@
         "qu'ils/elles aient mesuré"
       ]
     },
-    "usage_hint": "mesurer + COD (mesurer une longueur)"
+    "usage_hint": "mesurer + COD (mesurer une longueur)",
+    "irregular": false
   },
   "nommer": {
     "group": "1er groupe",
@@ -22217,7 +22365,8 @@
         "qu'ils/elles aient nommé"
       ]
     },
-    "usage_hint": "nommer (qqn) + nom / adjectif"
+    "usage_hint": "nommer (qqn) + nom / adjectif",
+    "irregular": false
   },
   "occuper": {
     "group": "1er groupe",
@@ -22366,7 +22515,8 @@
         "qu'ils/elles aient occupé"
       ]
     },
-    "usage_hint": "s'occuper de (qqn/qqch) / + COD"
+    "usage_hint": "s'occuper de (qqn/qqch) / + COD",
+    "irregular": false
   },
   "oser": {
     "group": "1er groupe",
@@ -22515,7 +22665,8 @@
         "qu'ils/elles aient osé"
       ]
     },
-    "usage_hint": "oser + infinitif direct (oser faire)"
+    "usage_hint": "oser + infinitif direct (oser faire)",
+    "irregular": false
   },
   "porter": {
     "group": "1er groupe",
@@ -22664,7 +22815,8 @@
         "qu'ils/elles aient porté"
       ]
     },
-    "usage_hint": "porter + COD (porter un vêtement)"
+    "usage_hint": "porter + COD (porter un vêtement)",
+    "irregular": false
   },
   "poser": {
     "group": "1er groupe",
@@ -22813,7 +22965,8 @@
         "qu'ils/elles aient posé"
       ]
     },
-    "usage_hint": "poser (qqch) sur (la table)"
+    "usage_hint": "poser (qqch) sur (la table)",
+    "irregular": false
   },
   "présenter": {
     "group": "1er groupe",
@@ -22962,7 +23115,8 @@
         "qu'ils/elles aient présenté"
       ]
     },
-    "usage_hint": "présenter (qqn) à (qqn d'autre)"
+    "usage_hint": "présenter (qqn) à (qqn d'autre)",
+    "irregular": false
   },
   "prier": {
     "group": "1er groupe",
@@ -23111,7 +23265,8 @@
         "qu'ils/elles aient prié"
       ]
     },
-    "usage_hint": "prier (qqn) de (faire qqch)"
+    "usage_hint": "prier (qqn) de (faire qqch)",
+    "irregular": false
   },
   "ramasser": {
     "group": "1er groupe",
@@ -23260,7 +23415,8 @@
         "qu'ils/elles aient ramassé"
       ]
     },
-    "usage_hint": "+ COD (ramasser un objet)"
+    "usage_hint": "+ COD (ramasser un objet)",
+    "irregular": false
   },
   "regretter": {
     "group": "1er groupe",
@@ -23409,7 +23565,8 @@
         "qu'ils/elles aient regretté"
       ]
     },
-    "usage_hint": "regretter + COD / de (faire)"
+    "usage_hint": "regretter + COD / de (faire)",
+    "irregular": false
   },
   "remplacer": {
     "group": "1er groupe",
@@ -23558,7 +23715,8 @@
         "qu'ils/elles aient remplacé"
       ]
     },
-    "usage_hint": "remplacer (qqch) par (autre chose)"
+    "usage_hint": "remplacer (qqch) par (autre chose)",
+    "irregular": false
   },
   "rencontrer": {
     "group": "1er groupe",
@@ -23707,7 +23865,8 @@
         "qu'ils/elles aient rencontré"
       ]
     },
-    "usage_hint": "+ COD (rencontrer qqn)"
+    "usage_hint": "+ COD (rencontrer qqn)",
+    "irregular": false
   },
   "réparer": {
     "group": "1er groupe",
@@ -23856,7 +24015,8 @@
         "qu'ils/elles aient réparé"
       ]
     },
-    "usage_hint": "+ COD (réparer une voiture)"
+    "usage_hint": "+ COD (réparer une voiture)",
+    "irregular": false
   },
   "répéter": {
     "group": "1er groupe",
@@ -24005,7 +24165,8 @@
         "qu'ils/elles aient répété"
       ]
     },
-    "usage_hint": "répéter (qqch) à (qqn)"
+    "usage_hint": "répéter (qqch) à (qqn)",
+    "irregular": false
   },
   "reposer": {
     "group": "1er groupe",
@@ -24154,7 +24315,8 @@
         "qu'ils/elles aient reposé"
       ]
     },
-    "usage_hint": "se reposer sur / de (fatigue)"
+    "usage_hint": "se reposer sur / de (fatigue)",
+    "irregular": false
   },
   "retourner": {
     "group": "1er groupe",
@@ -24303,7 +24465,8 @@
         "qu'ils/elles soient retournés"
       ]
     },
-    "usage_hint": "retourner à / en / chez"
+    "usage_hint": "retourner à / en / chez",
+    "irregular": false
   },
   "rêver": {
     "group": "1er groupe",
@@ -24452,7 +24615,8 @@
         "qu'ils/elles aient rêvé"
       ]
     },
-    "usage_hint": "rêver de (qqch/qqn / faire qqch)"
+    "usage_hint": "rêver de (qqch/qqn / faire qqch)",
+    "irregular": false
   },
   "rouler": {
     "group": "1er groupe",
@@ -24601,7 +24765,8 @@
         "qu'ils/elles aient roulé"
       ]
     },
-    "usage_hint": "rouler sur (la route) / à (100 km/h)"
+    "usage_hint": "rouler sur (la route) / à (100 km/h)",
+    "irregular": false
   },
   "sembler": {
     "group": "1er groupe",
@@ -24750,7 +24915,8 @@
         "qu'ils/elles aient semblé"
       ]
     },
-    "usage_hint": "sembler + adjectif / à (qqn)"
+    "usage_hint": "sembler + adjectif / à (qqn)",
+    "irregular": false
   },
   "signaler": {
     "group": "1er groupe",
@@ -24899,7 +25065,8 @@
         "qu'ils/elles aient signalé"
       ]
     },
-    "usage_hint": "signaler (qqch) à (qqn)"
+    "usage_hint": "signaler (qqch) à (qqn)",
+    "irregular": false
   },
   "téléphoner": {
     "group": "1er groupe",
@@ -25048,7 +25215,8 @@
         "qu'ils/elles aient téléphoné"
       ]
     },
-    "usage_hint": "téléphoner à (qqn)"
+    "usage_hint": "téléphoner à (qqn)",
+    "irregular": false
   },
   "traverser": {
     "group": "1er groupe",
@@ -25197,7 +25365,8 @@
         "qu'ils/elles aient traversé"
       ]
     },
-    "usage_hint": "+ COD (traverser la rue)"
+    "usage_hint": "+ COD (traverser la rue)",
+    "irregular": false
   },
   "tromper": {
     "group": "1er groupe",
@@ -25346,7 +25515,8 @@
         "qu'ils/elles aient trompé"
       ]
     },
-    "usage_hint": "+ COD (tromper qqn)"
+    "usage_hint": "+ COD (tromper qqn)",
+    "irregular": false
   },
   "utiliser": {
     "group": "1er groupe",
@@ -25495,7 +25665,8 @@
         "qu'ils/elles aient utilisé"
       ]
     },
-    "usage_hint": "+ COD (utiliser un outil)"
+    "usage_hint": "+ COD (utiliser un outil)",
+    "irregular": false
   },
   "admettre": {
     "group": "3e groupe",
@@ -25644,7 +25815,8 @@
         "qu'ils/elles aient admis"
       ]
     },
-    "usage_hint": "admettre + COD / que..."
+    "usage_hint": "admettre + COD / que...",
+    "irregular": true
   },
   "agacer": {
     "group": "1er groupe",
@@ -25793,7 +25965,8 @@
         "qu'ils/elles aient agacé"
       ]
     },
-    "usage_hint": "+ COD (agacer qqn)"
+    "usage_hint": "+ COD (agacer qqn)",
+    "irregular": false
   },
   "amuser": {
     "group": "1er groupe",
@@ -25942,7 +26115,8 @@
         "qu'ils/elles aient amusé"
       ]
     },
-    "usage_hint": "+ COD / s'amuser avec"
+    "usage_hint": "+ COD / s'amuser avec",
+    "irregular": false
   },
   "apprendre": {
     "group": "3e groupe",
@@ -26091,7 +26265,8 @@
         "qu'ils/elles aient appris"
       ]
     },
-    "usage_hint": "apprendre (qqch) à (qqn) / apprendre à (faire)"
+    "usage_hint": "apprendre (qqch) à (qqn) / apprendre à (faire)",
+    "irregular": true
   },
   "attraper": {
     "group": "1er groupe",
@@ -26240,7 +26415,8 @@
         "qu'ils/elles aient attrapé"
       ]
     },
-    "usage_hint": "attraper + COD (attraper un ballon)"
+    "usage_hint": "attraper + COD (attraper un ballon)",
+    "irregular": false
   },
   "bâtir": {
     "group": "2e groupe",
@@ -26389,7 +26565,8 @@
         "qu'ils/elles aient bâti"
       ]
     },
-    "usage_hint": "+ COD (bâtir une maison)"
+    "usage_hint": "+ COD (bâtir une maison)",
+    "irregular": false
   },
   "boire": {
     "group": "3e groupe",
@@ -26538,7 +26715,8 @@
         "qu'ils/elles aient bu"
       ]
     },
-    "usage_hint": "+ COD (boire un verre)"
+    "usage_hint": "+ COD (boire un verre)",
+    "irregular": true
   },
   "brûler": {
     "group": "1er groupe",
@@ -26687,7 +26865,8 @@
         "qu'ils/elles aient brûlé"
       ]
     },
-    "usage_hint": "brûler + COD (brûler du bois)"
+    "usage_hint": "brûler + COD (brûler du bois)",
+    "irregular": false
   },
   "casser": {
     "group": "1er groupe",
@@ -26836,7 +27015,8 @@
         "qu'ils/elles aient cassé"
       ]
     },
-    "usage_hint": "+ COD (casser un verre)"
+    "usage_hint": "+ COD (casser un verre)",
+    "irregular": false
   },
   "comprendre": {
     "group": "3e groupe",
@@ -26985,7 +27165,8 @@
         "qu'ils/elles aient compris"
       ]
     },
-    "usage_hint": "+ COD (comprendre qqn/qqch)"
+    "usage_hint": "+ COD (comprendre qqn/qqch)",
+    "irregular": true
   },
   "construire": {
     "group": "3e groupe",
@@ -27134,7 +27315,8 @@
         "qu'ils/elles aient construit"
       ]
     },
-    "usage_hint": "+ COD (construire un pont)"
+    "usage_hint": "+ COD (construire un pont)",
+    "irregular": true
   },
   "courir": {
     "group": "3e groupe",
@@ -27284,7 +27466,8 @@
       ]
     },
     "usage_hint": "courir vers / dans / après (qqn)",
-    "grammar_rule": "💡 REMEMBER: Participe passé 'couru'. Futur et conditionnel à double 'r': 'je courrai', 'je courrais'."
+    "grammar_rule": "💡 REMEMBER: Participe passé 'couru'. Futur et conditionnel à double 'r': 'je courrai', 'je courrais'.",
+    "irregular": true
   },
   "croire": {
     "group": "3e groupe",
@@ -27433,7 +27616,8 @@
         "qu'ils/elles aient cru"
       ]
     },
-    "usage_hint": "croire à (qqch) / en (dieu) / + COD"
+    "usage_hint": "croire à (qqch) / en (dieu) / + COD",
+    "irregular": true
   },
   "défendre": {
     "group": "3e groupe",
@@ -27582,7 +27766,8 @@
         "qu'ils/elles aient défendu"
       ]
     },
-    "usage_hint": "défendre (qqn) contre (un danger) / de (faire)"
+    "usage_hint": "défendre (qqn) contre (un danger) / de (faire)",
+    "irregular": true
   },
   "découvrir": {
     "group": "3e groupe",
@@ -27731,7 +27916,8 @@
         "qu'ils/elles aient découvert"
       ]
     },
-    "usage_hint": "découvrir + COD (découvrir un lieu)"
+    "usage_hint": "découvrir + COD (découvrir un lieu)",
+    "irregular": true
   },
   "descendre": {
     "group": "3e groupe",
@@ -27880,7 +28066,8 @@
         "qu'ils/elles soient descendus"
       ]
     },
-    "usage_hint": "descendre de (véhicule) / dans (rue)"
+    "usage_hint": "descendre de (véhicule) / dans (rue)",
+    "irregular": true
   },
   "devoir": {
     "group": "3e groupe",
@@ -28030,7 +28217,8 @@
       ]
     },
     "usage_hint": "+ infinitif direct (devoir faire)",
-    "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je dois partir'). Participe passé 'dû' prend un accent circonflexe au masculin singulier."
+    "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je dois partir'). Participe passé 'dû' prend un accent circonflexe au masculin singulier.",
+    "irregular": true
   },
   "dormir": {
     "group": "3e groupe",
@@ -28179,7 +28367,8 @@
         "qu'ils/elles aient dormi"
       ]
     },
-    "usage_hint": "dormir dans (un lit) / pendant"
+    "usage_hint": "dormir dans (un lit) / pendant",
+    "irregular": true
   },
   "écrire": {
     "group": "3e groupe",
@@ -28328,7 +28517,8 @@
         "qu'ils/elles aient écrit"
       ]
     },
-    "usage_hint": "écrire (qqch) à (qqn)"
+    "usage_hint": "écrire (qqch) à (qqn)",
+    "irregular": true
   },
   "entendre": {
     "group": "3e groupe",
@@ -28477,7 +28667,8 @@
         "qu'ils/elles aient entendu"
       ]
     },
-    "usage_hint": "+ COD (entendre un bruit)"
+    "usage_hint": "+ COD (entendre un bruit)",
+    "irregular": true
   },
   "éteindre": {
     "group": "3e groupe",
@@ -28626,7 +28817,8 @@
         "qu'ils/elles aient éteint"
       ]
     },
-    "usage_hint": "+ COD (éteindre le feu/la télé)"
+    "usage_hint": "+ COD (éteindre le feu/la télé)",
+    "irregular": true
   },
   "falloir": {
     "group": "3e groupe",
@@ -28717,7 +28909,8 @@
       ]
     },
     "usage_hint": "il faut + infinitif / + nom",
-    "grammar_rule": "💡 REMEMBER: Verbe impersonnel stictement utilisé à la 3e personne ('il faut'). Exige le Subjonctif ('il faut que nous partions')."
+    "grammar_rule": "💡 REMEMBER: Verbe impersonnel stictement utilisé à la 3e personne ('il faut'). Exige le Subjonctif ('il faut que nous partions').",
+    "irregular": true
   },
   "lire": {
     "group": "3e groupe",
@@ -28866,7 +29059,8 @@
         "qu'ils/elles aient lu"
       ]
     },
-    "usage_hint": "lire + COD (lire qqch) / à (qqn)"
+    "usage_hint": "lire + COD (lire qqch) / à (qqn)",
+    "irregular": true
   },
   "mettre": {
     "group": "3e groupe",
@@ -29015,7 +29209,8 @@
         "qu'ils/elles aient mis"
       ]
     },
-    "usage_hint": "mettre (qqch) sur / dans"
+    "usage_hint": "mettre (qqch) sur / dans",
+    "irregular": true
   },
   "mourir": {
     "group": "3e groupe",
@@ -29165,7 +29360,8 @@
       ]
     },
     "usage_hint": "mourir de (maladie/faim) / pour",
-    "grammar_rule": "💡 REMEMBER: Auxiliaire être au passé composé ('il est mort'). Futur: 'je mourrai'. Subjonctif: 'que je meure'."
+    "grammar_rule": "💡 REMEMBER: Auxiliaire être au passé composé ('il est mort'). Futur: 'je mourrai'. Subjonctif: 'que je meure'.",
+    "irregular": true
   },
   "naître": {
     "group": "3e groupe",
@@ -29314,7 +29510,8 @@
         "qu'ils/elles soient nés"
       ]
     },
-    "usage_hint": "naître à (ville) / en (année/pays)"
+    "usage_hint": "naître à (ville) / en (année/pays)",
+    "irregular": true
   },
   "ouvrir": {
     "group": "3e groupe",
@@ -29463,7 +29660,8 @@
         "qu'ils/elles aient ouvert"
       ]
     },
-    "usage_hint": "+ COD (ouvrir une fenêtre)"
+    "usage_hint": "+ COD (ouvrir une fenêtre)",
+    "irregular": true
   },
   "partir": {
     "group": "3e groupe",
@@ -29612,7 +29810,8 @@
         "qu'ils/elles soient partis"
       ]
     },
-    "usage_hint": "intransitif: partir de (lieu) / pour (destination)"
+    "usage_hint": "intransitif: partir de (lieu) / pour (destination)",
+    "irregular": true
   },
   "recevoir": {
     "group": "3e groupe",
@@ -29761,7 +29960,8 @@
         "qu'ils/elles aient reçu"
       ]
     },
-    "usage_hint": "recevoir (qqch) de (qqn)"
+    "usage_hint": "recevoir (qqch) de (qqn)",
+    "irregular": true
   },
   "rendre": {
     "group": "3e groupe",
@@ -29910,7 +30110,8 @@
         "qu'ils/elles aient rendu"
       ]
     },
-    "usage_hint": "rendre (qqch) à (qqn) / rendre + adjectif"
+    "usage_hint": "rendre (qqch) à (qqn) / rendre + adjectif",
+    "irregular": true
   },
   "répondre": {
     "group": "3e groupe",
@@ -30059,7 +30260,8 @@
         "qu'ils/elles aient répondu"
       ]
     },
-    "usage_hint": "répondre à (qqn / qqch)"
+    "usage_hint": "répondre à (qqn / qqch)",
+    "irregular": true
   },
   "sortir": {
     "group": "3e groupe",
@@ -30208,7 +30410,8 @@
         "qu'ils/elles soient sortis"
       ]
     },
-    "usage_hint": "sortir de (lieu) / avec (qqn) / + COD (sortir le chien)"
+    "usage_hint": "sortir de (lieu) / avec (qqn) / + COD (sortir le chien)",
+    "irregular": true
   },
   "suivre": {
     "group": "3e groupe",
@@ -30357,7 +30560,8 @@
         "qu'ils/elles aient suivi"
       ]
     },
-    "usage_hint": "+ COD (suivre qqn/qqch)"
+    "usage_hint": "+ COD (suivre qqn/qqch)",
+    "irregular": true
   },
   "tenir": {
     "group": "3e groupe",
@@ -30507,7 +30711,8 @@
       ]
     },
     "usage_hint": "tenir à (qqn/qqch) / + COD",
-    "grammar_rule": "💡 REMEMBER: Mêmes irrégularités que venir ('je tiens', 'nous tenons', 'ils tiennent', 'que je tienne')."
+    "grammar_rule": "💡 REMEMBER: Mêmes irrégularités que venir ('je tiens', 'nous tenons', 'ils tiennent', 'que je tienne').",
+    "irregular": true
   },
   "vivre": {
     "group": "3e groupe",
@@ -30656,7 +30861,8 @@
         "qu'ils/elles aient vécu"
       ]
     },
-    "usage_hint": "vivre à / en / avec / de"
+    "usage_hint": "vivre à / en / avec / de",
+    "irregular": true
   },
   "être": {
     "group": "Auxiliaire / 3e groupe",
@@ -30803,7 +31009,8 @@
         "qu'ils/elles aient été"
       ]
     },
-    "usage_hint": "être à (appartenance) / en / dans / + adjectif"
+    "usage_hint": "être à (appartenance) / en / dans / + adjectif",
+    "irregular": true
   },
   "avoir": {
     "group": "Auxiliaire / 3e groupe",
@@ -30950,7 +31157,8 @@
         "qu'ils/elles aient eu"
       ]
     },
-    "usage_hint": "avoir besoin de / avoir peur de / + COD"
+    "usage_hint": "avoir besoin de / avoir peur de / + COD",
+    "irregular": true
   },
   "savoir": {
     "group": "3e groupe",
@@ -31054,7 +31262,8 @@
       "participe_passe": [
         "su"
       ]
-    }
+    },
+    "irregular": true
   },
   "envisager": {
     "group": "1er groupe",
@@ -31158,7 +31367,8 @@
       "participe_passe": [
         "envisagé"
       ]
-    }
+    },
+    "irregular": false
   },
   "susciter": {
     "group": "1er groupe",
@@ -31262,7 +31472,8 @@
       "participe_passe": [
         "suscité"
       ]
-    }
+    },
+    "irregular": false
   },
   "convaincre": {
     "group": "3e groupe",
@@ -31366,7 +31577,8 @@
       "participe_passe": [
         "convaincu"
       ]
-    }
+    },
+    "irregular": true
   },
   "compromettre": {
     "group": "3e groupe",
@@ -31470,7 +31682,8 @@
       "participe_passe": [
         "compromis"
       ]
-    }
+    },
+    "irregular": true
   },
   "manger": {
     "group": 1,
@@ -31622,7 +31835,8 @@
         "que vous ayez mangé",
         "qu'ils/elles aient mangé"
       ]
-    }
+    },
+    "irregular": false
   },
   "skier": {
     "group": "1er groupe",
@@ -31769,7 +31983,8 @@
         "qu'ils/elles aient skié"
       ]
     },
-    "usage_hint": "skier sur les pistes"
+    "usage_hint": "skier sur les pistes",
+    "irregular": false
   },
   "tousser": {
     "group": "1er groupe",
@@ -31916,7 +32131,8 @@
         "qu'ils/elles aient toussé"
       ]
     },
-    "usage_hint": "tousser à cause d'un rhume"
+    "usage_hint": "tousser à cause d'un rhume",
+    "irregular": false
   },
   "se plaindre": {
     "group": "3e groupe",
@@ -32017,7 +32233,8 @@
         "se plaignant",
         "plaint"
       ]
-    }
+    },
+    "irregular": true
   },
   "se disputer": {
     "group": "1er groupe",
@@ -32118,7 +32335,8 @@
         "se disputant",
         "disputé"
       ]
-    }
+    },
+    "irregular": false
   },
   "s'excuser": {
     "group": "1er groupe",
@@ -32217,7 +32435,8 @@
         "s'excusant",
         "excusé"
       ]
-    }
+    },
+    "irregular": false
   },
   "souligner": {
     "group": "1er groupe",
@@ -32316,7 +32535,8 @@
         "soulignant",
         "souligné"
       ]
-    }
+    },
+    "irregular": false
   },
   "mentionner": {
     "group": "1er groupe",
@@ -32417,7 +32637,8 @@
         "mentionnant",
         "mentionné"
       ]
-    }
+    },
+    "irregular": false
   },
   "négocier": {
     "group": "1er groupe",
@@ -32516,7 +32737,8 @@
         "négociant",
         "négocié"
       ]
-    }
+    },
+    "irregular": false
   },
   "licencier": {
     "group": "1er groupe",
@@ -32617,7 +32839,8 @@
         "licenciant",
         "licencié"
       ]
-    }
+    },
+    "irregular": false
   },
   "embaucher": {
     "group": "1er groupe",
@@ -32718,7 +32941,8 @@
         "embauchant",
         "embauché"
       ]
-    }
+    },
+    "irregular": false
   },
   "démissionner": {
     "group": "1er groupe",
@@ -32817,7 +33041,8 @@
         "démissionnant",
         "démissionné"
       ]
-    }
+    },
+    "irregular": false
   },
   "cuisiner": {
     "group": "1er groupe",
@@ -32916,7 +33141,8 @@
         "cuisinant",
         "cuisiné"
       ]
-    }
+    },
+    "irregular": false
   },
   "repasser": {
     "group": "1er groupe",
@@ -33015,7 +33241,8 @@
         "repassant",
         "repassé"
       ]
-    }
+    },
+    "irregular": false
   },
   "faire la vaisselle": {
     "group": "3e groupe",
@@ -33114,7 +33341,8 @@
         "faisant la vaisselle",
         "fait la vaisselle"
       ]
-    }
+    },
+    "irregular": true
   },
   "essayer": {
     "group": "1er groupe",
@@ -33215,7 +33443,8 @@
         "essayant",
         "essayé"
       ]
-    }
+    },
+    "irregular": false
   },
   "se souvenir de": {
     "group": "3e groupe",
@@ -33316,6 +33545,7 @@
         "se souvenant",
         "souvenu"
       ]
-    }
+    },
+    "irregular": true
   }
 }

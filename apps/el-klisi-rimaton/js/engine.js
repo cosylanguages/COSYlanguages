@@ -73,7 +73,10 @@ class GreekConjugationEngine {
         }
     }
 
-    formatColorCoded(form) {
+    formatColorCoded(form, isIrregular = false) {
+        if (isIrregular) {
+            return form;
+        }
         const endings = ['ουμε', 'ετε', 'ουν', 'εις', 'ει', 'αμε', 'ατε', 'αν', 'ες', 'ει', 'ω', 'α'];
         let words = form.split(' ');
         let lastWord = words.pop();
@@ -140,7 +143,7 @@ class GreekConjugationEngine {
             if (list && data.tenses && data.tenses[t]) {
                 list.innerHTML = data.tenses[t].map((f, i) => {
                     const cleanForm = f.replace(/^(εγώ|εσύ|αυτός\/αυτή|αυτός|αυτή|εμείς|εσείς|αυτοί\/αυτές|αυτοί|αυτές)\s+/i, '').trim();
-                    return `<li><span class="pronoun">${pronouns[i] || ''}</span> <span>${this.formatColorCoded(cleanForm)}</span></li>`;
+                    return `<li><span class="pronoun">${pronouns[i] || ''}</span> <span>${this.formatColorCoded(cleanForm, data.irregular)}</span></li>`;
                 }).join('');
             }
         }

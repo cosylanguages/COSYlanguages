@@ -153,7 +153,8 @@
       ]
     },
     "usage_hint": "parlare a (qualcuno) / di (qualcosa o qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "amare": {
     "group": "1a coniugazione",
@@ -309,7 +310,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (amare qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "camminare": {
     "group": "1a coniugazione",
@@ -465,7 +467,8 @@
       ]
     },
     "usage_hint": "camminare per (strada) / verso / con",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "studiare": {
     "group": "1a coniugazione",
@@ -621,7 +624,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (studiare lingua)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "lavorare": {
     "group": "1a coniugazione",
@@ -777,7 +781,8 @@
       ]
     },
     "usage_hint": "lavorare per / con / in",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "abitare": {
     "group": "1a coniugazione",
@@ -933,7 +938,8 @@
       ]
     },
     "usage_hint": "abitare a (città) / in (paese o regione)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "ascoltare": {
     "group": "1a coniugazione",
@@ -1089,7 +1095,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (ascoltare musica)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "guardare": {
     "group": "1a coniugazione",
@@ -1245,7 +1252,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (guardare la TV)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "pensare": {
     "group": "1a coniugazione",
@@ -1402,7 +1410,8 @@
     },
     "usage_hint": "pensare a (qualcosa/qualcuno) / di (opinione)",
     "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi subordinate di opinione ('penso che sia giusto').",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "cercare": {
     "group": "1a coniugazione",
@@ -1558,7 +1567,8 @@
       ]
     },
     "usage_hint": "cercare + oggetto diretto / cercare di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "trovare": {
     "group": "1a coniugazione",
@@ -1714,7 +1724,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (trovare le chiavi)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "donare": {
     "group": "1a coniugazione",
@@ -1870,7 +1881,8 @@
       ]
     },
     "usage_hint": "donare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "domandare": {
     "group": "1a coniugazione",
@@ -2026,7 +2038,8 @@
       ]
     },
     "usage_hint": "domandare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "giocare": {
     "group": "1a coniugazione",
@@ -2182,7 +2195,8 @@
       ]
     },
     "usage_hint": "giocare a (gioco/sport) / con (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "cantare": {
     "group": "1a coniugazione",
@@ -2338,7 +2352,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / per (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "ballare": {
     "group": "1a coniugazione",
@@ -2494,7 +2509,8 @@
       ]
     },
     "usage_hint": "ballare con / su",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "viaggiare": {
     "group": "1a coniugazione",
@@ -2650,7 +2666,8 @@
       ]
     },
     "usage_hint": "viaggiare in / a / con",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "passare": {
     "group": "1a coniugazione",
@@ -2806,7 +2823,8 @@
       ]
     },
     "usage_hint": "passare per / da / + oggetto diretto (tempo)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "guadagnare": {
     "group": "1a coniugazione",
@@ -2962,7 +2980,8 @@
       ]
     },
     "usage_hint": "guadagnare + oggetto diretto (guadagnare soldi)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "preparare": {
     "group": "1a coniugazione",
@@ -3118,7 +3137,8 @@
       ]
     },
     "usage_hint": "preparare + oggetto diretto / prepararsi a",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "visitare": {
     "group": "1a coniugazione",
@@ -3274,7 +3294,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (visitare una città)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "aiutare": {
     "group": "1a coniugazione",
@@ -3430,7 +3451,8 @@
       ]
     },
     "usage_hint": "aiutare (qualcuno) a (fare qualcosa)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "aspettare": {
     "group": "1a coniugazione",
@@ -3586,7 +3608,8 @@
       ]
     },
     "usage_hint": "aspettare + oggetto diretto (aspettare qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "arrivare": {
     "group": "1a coniugazione",
@@ -3742,7 +3765,8 @@
       ]
     },
     "usage_hint": "intransitivo: arrivare a (città) / in (stazione) / da",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": false
   },
   "portare": {
     "group": "1a coniugazione",
@@ -3898,7 +3922,8 @@
       ]
     },
     "usage_hint": "portare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "dimenticare": {
     "group": "1a coniugazione",
@@ -4054,7 +4079,8 @@
       ]
     },
     "usage_hint": "dimenticare + oggetto diretto / di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "ricordare": {
     "group": "1a coniugazione",
@@ -4210,7 +4236,8 @@
       ]
     },
     "usage_hint": "ricordare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "spiegare": {
     "group": "1a coniugazione",
@@ -4366,7 +4393,8 @@
       ]
     },
     "usage_hint": "spiegare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "comprare": {
     "group": "1a coniugazione",
@@ -4522,7 +4550,8 @@
       ]
     },
     "usage_hint": "comprare (qualcosa) per (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "pagare": {
     "group": "1a coniugazione",
@@ -4678,7 +4707,8 @@
       ]
     },
     "usage_hint": "pagare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "cominciare": {
     "group": "1a coniugazione",
@@ -4834,7 +4864,8 @@
       ]
     },
     "usage_hint": "cominciare a (fare qualcosa) / con",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "imparare": {
     "group": "1a coniugazione",
@@ -4990,7 +5021,8 @@
       ]
     },
     "usage_hint": "imparare a (fare qualcosa) / + oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "insegnare": {
     "group": "1a coniugazione",
@@ -5146,7 +5178,8 @@
       ]
     },
     "usage_hint": "insegnare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "sperare": {
     "group": "1a coniugazione",
@@ -5303,7 +5336,8 @@
     },
     "usage_hint": "sperare di (fare) / in (qualcosa)",
     "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi subordinate ('spero che tu stia bene').",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "sognare": {
     "group": "1a coniugazione",
@@ -5459,7 +5493,8 @@
       ]
     },
     "usage_hint": "sognare di (fare qualcosa) / + oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "cambiare": {
     "group": "1a coniugazione",
@@ -5615,7 +5650,8 @@
       ]
     },
     "usage_hint": "cambiare + oggetto diretto / di (idea)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "incontrare": {
     "group": "1a coniugazione",
@@ -5771,7 +5807,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (incontrare un amico)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "salvare": {
     "group": "1a coniugazione",
@@ -5927,7 +5964,8 @@
       ]
     },
     "usage_hint": "salvare (qualcuno) da (un pericolo)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "guidare": {
     "group": "1a coniugazione",
@@ -6083,7 +6121,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (guidare l'auto)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "ordinare": {
     "group": "1a coniugazione",
@@ -6239,7 +6278,8 @@
       ]
     },
     "usage_hint": "ordinare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "organizzare": {
     "group": "1a coniugazione",
@@ -6395,7 +6435,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "inviare": {
     "group": "1a coniugazione",
@@ -6551,7 +6592,8 @@
       ]
     },
     "usage_hint": "inviare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "rifiutare": {
     "group": "1a coniugazione",
@@ -6707,7 +6749,8 @@
       ]
     },
     "usage_hint": "rifiutare + oggetto diretto / di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "accettare": {
     "group": "1a coniugazione",
@@ -6863,7 +6906,8 @@
       ]
     },
     "usage_hint": "accettare + oggetto diretto / di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "baciare": {
     "group": "1a coniugazione",
@@ -7019,7 +7063,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (baciare qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "credere": {
     "group": "2a coniugazione",
@@ -7176,7 +7221,8 @@
     },
     "usage_hint": "credere a (qualcuno) / in (dio) / di (fare)",
     "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi di opinione e credenza ('credo che vengano').",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "sembrare": {
     "group": "1a coniugazione",
@@ -7332,7 +7378,8 @@
       ]
     },
     "usage_hint": "sembrare + aggettivo / a (qualcuno)",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": false
   },
   "diventare": {
     "group": "1a coniugazione",
@@ -7488,7 +7535,8 @@
       ]
     },
     "usage_hint": "+ sostantivo / + aggettivo",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": false
   },
   "nuotare": {
     "group": "1a coniugazione",
@@ -7644,7 +7692,8 @@
       ]
     },
     "usage_hint": "nuotare in (mare/piscina) / con",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "volare": {
     "group": "1a coniugazione",
@@ -7800,7 +7849,8 @@
       ]
     },
     "usage_hint": "volare verso / sopra / in",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "partire": {
     "group": "3a coniugazione",
@@ -7956,7 +8006,8 @@
       ]
     },
     "usage_hint": "intransitivo: partire per (destinazione) / da (luogo)",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": false
   },
   "sentire": {
     "group": "3a coniugazione",
@@ -8112,7 +8163,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / sentire parlare di",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "pulire": {
     "group": "3a coniugazione",
@@ -8268,7 +8320,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (pulire la casa)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "capire": {
     "group": "3a coniugazione",
@@ -8424,7 +8477,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (capire la lezione)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "finire": {
     "group": "3a coniugazione",
@@ -8580,7 +8634,8 @@
       ]
     },
     "usage_hint": "finire di (fare qualcosa) / per",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "offrire": {
     "group": "3a coniugazione",
@@ -8736,7 +8791,8 @@
       ]
     },
     "usage_hint": "offrire (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "uscire": {
     "group": "3a coniugazione",
@@ -8893,7 +8949,8 @@
     },
     "usage_hint": "intransitivo: uscire da (casa) / con (amici)",
     "grammar_rule": "💡 REMEMBER: Alternanza della radice al presente: esco, esci, esce, usciamo, uscite, escono.",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": false
   },
   "salire": {
     "group": "3a coniugazione",
@@ -9049,7 +9106,8 @@
       ]
     },
     "usage_hint": "intransitivo: salire su (treno) / in (auto)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "essere": {
     "group": "2a coniugazione",
@@ -9205,7 +9263,8 @@
       ]
     },
     "usage_hint": "essere di (possesso) / in / a / + aggettivo",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "avere": {
     "group": "2a coniugazione",
@@ -9361,7 +9420,8 @@
       ]
     },
     "usage_hint": "avere bisogno di / avere paura di / + oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "andare": {
     "group": "1a coniugazione",
@@ -9518,7 +9578,8 @@
     },
     "usage_hint": "intransitivo: andare a (città) / in (paese/luogo)",
     "grammar_rule": "💡 REMEMBER: Verbo di movimento — usa l'ausiliare 'essere' con accordo del participio passato ('sono andato/a'). Presente altamente irregolare: vado, vai, va, andiamo, andate, vanno.",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": true
   },
   "venire": {
     "group": "3a coniugazione",
@@ -9675,7 +9736,8 @@
     },
     "usage_hint": "intransitivo: venire da (luogo) / con (persona)",
     "grammar_rule": "💡 REMEMBER: Usa l'ausiliare 'essere' ('sono venuto/a'). Presente: vengo, vieni, viene, veniamo, venite, vengono.",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": true
   },
   "fare": {
     "group": "1a coniugazione",
@@ -9831,7 +9893,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / fare di",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "dire": {
     "group": "3a coniugazione",
@@ -9988,7 +10051,8 @@
     },
     "usage_hint": "dire (qualcosa) a (qualcuno)",
     "grammar_rule": "💡 REMEMBER: Deriva dal latino 'dicere'. Participio passato: 'detto'. Imperativo singolare: 'dall' / 'di''.",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "potere": {
     "group": "2a coniugazione",
@@ -10145,7 +10209,8 @@
     },
     "usage_hint": "+ infinito diretto (potere fare)",
     "grammar_rule": "💡 REMEMBER: Verbo servile/modale — esprime possibilità o permesso, seguito dall'infinito senza preposizione.",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "volere": {
     "group": "2a coniugazione",
@@ -10302,7 +10367,8 @@
     },
     "usage_hint": "+ oggetto diretto / + infinito diretto",
     "grammar_rule": "💡 REMEMBER: Verbo servile/modale — seguito direttamente dall'infinito ('voglio andare') o richiede il Congiuntivo se i soggetti differiscono ('voglio che tu venga').",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "sapere": {
     "group": "2a coniugazione",
@@ -10458,7 +10524,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / + infinito direct",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "dovere": {
     "group": "2a coniugazione",
@@ -10615,7 +10682,8 @@
     },
     "usage_hint": "+ infinito diretto (dovere fare)",
     "grammar_rule": "💡 REMEMBER: Verbo servile/modale — esprime un'obbligazione, seguito direttamente dall'infinito senza preposizione.",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "leggere": {
     "group": "2a coniugazione",
@@ -10771,7 +10839,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (leggere un libro)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "scrivere": {
     "group": "2a coniugazione",
@@ -10927,7 +10996,8 @@
       ]
     },
     "usage_hint": "scrivere (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "vedere": {
     "group": "2a coniugazione",
@@ -11083,7 +11153,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (vedere qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "prendere": {
     "group": "2a coniugazione",
@@ -11239,7 +11310,8 @@
       ]
     },
     "usage_hint": "prendere + oggetto diretto / prendersi cura di",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "mettere": {
     "group": "2a coniugazione",
@@ -11395,7 +11467,8 @@
       ]
     },
     "usage_hint": "mettere (qualcosa) in / su",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "chiudere": {
     "group": "2a coniugazione",
@@ -11551,7 +11624,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (chiudere la porta)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "aprire": {
     "group": "3a coniugazione",
@@ -11707,7 +11781,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (aprire la finestra)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "chiedere": {
     "group": "2a coniugazione",
@@ -11863,7 +11938,8 @@
       ]
     },
     "usage_hint": "chiedere (qualcosa) a (qualcuno) / di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "rispondere": {
     "group": "2a coniugazione",
@@ -12019,7 +12095,8 @@
       ]
     },
     "usage_hint": "rispondere a (qualcuno / qualcosa)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "vincere": {
     "group": "2a coniugazione",
@@ -12175,7 +12252,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / contro (un avversario)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "perdere": {
     "group": "2a coniugazione",
@@ -12331,7 +12409,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / contro",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "bere": {
     "group": "2a coniugazione",
@@ -12487,7 +12566,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (bere acqua)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "rimanere": {
     "group": "2a coniugazione",
@@ -12643,7 +12723,8 @@
       ]
     },
     "usage_hint": "intransitivo: rimanere a / in / con",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": true
   },
   "scendere": {
     "group": "2a coniugazione",
@@ -12799,7 +12880,8 @@
       ]
     },
     "usage_hint": "intransitivo: scendere da (treno) / in (strada)",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": false
   },
   "correre": {
     "group": "2a coniugazione",
@@ -12955,7 +13037,8 @@
       ]
     },
     "usage_hint": "correre verso / in / dietro a",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "morire": {
     "group": "3a coniugazione",
@@ -13111,7 +13194,8 @@
       ]
     },
     "usage_hint": "morire di (malattia) / per",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": true
   },
   "nascere": {
     "group": "2a coniugazione",
@@ -13267,7 +13351,8 @@
       ]
     },
     "usage_hint": "nascere a (città) / in (anno)",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": true
   },
   "vivere": {
     "group": "2a coniugazione",
@@ -13423,7 +13508,8 @@
       ]
     },
     "usage_hint": "vivere a / in / con / di",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "chiamare": {
     "group": "1a coniugazione",
@@ -13579,7 +13665,8 @@
       ]
     },
     "usage_hint": "chiamare + oggetto diretto (chiamare qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "tornare": {
     "group": "1a coniugazione",
@@ -13735,7 +13822,8 @@
       ]
     },
     "usage_hint": "intransitivo: tornare a / in / da",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "entrare": {
     "group": "1a coniugazione",
@@ -13891,7 +13979,8 @@
       ]
     },
     "usage_hint": "intransitivo: entrare in (stanza) / a (teatro)",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": false
   },
   "giungere": {
     "group": "2a coniugazione",
@@ -14047,7 +14136,8 @@
       ]
     },
     "usage_hint": "intransitivo: giungere a / in",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "permettere": {
     "group": "2a coniugazione",
@@ -14203,7 +14293,8 @@
       ]
     },
     "usage_hint": "permettere (qualcosa) a (qualcuno) / di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "promettere": {
     "group": "2a coniugazione",
@@ -14359,7 +14450,8 @@
       ]
     },
     "usage_hint": "promettere (qualcosa) a (qualcuno) / di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "offendere": {
     "group": "2a coniugazione",
@@ -14515,7 +14607,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (offendere qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "difendere": {
     "group": "2a coniugazione",
@@ -14671,7 +14764,8 @@
       ]
     },
     "usage_hint": "difendere (qualcuno) da / contro",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "muovere": {
     "group": "2a coniugazione",
@@ -14827,7 +14921,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "accendere": {
     "group": "2a coniugazione",
@@ -14983,7 +15078,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (accendere la luce)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "spegnere": {
     "group": "2a coniugazione",
@@ -15139,7 +15235,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (spegnere la TV)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "battere": {
     "group": "2a coniugazione",
@@ -15295,7 +15392,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / contro",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "cadere": {
     "group": "2a coniugazione",
@@ -15451,7 +15549,8 @@
       ]
     },
     "usage_hint": "intransitivo: cadere da / su / in",
-    "auxiliary": "essere"
+    "auxiliary": "essere",
+    "irregular": false
   },
   "ridere": {
     "group": "2a coniugazione",
@@ -15607,7 +15706,8 @@
       ]
     },
     "usage_hint": "ridere di (qualcosa/qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "accompagnare": {
     "group": "1a coniugazione",
@@ -15763,7 +15863,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (accompagnare qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "afferrare": {
     "group": "1a coniugazione",
@@ -15919,7 +16020,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "alzare": {
     "group": "1a coniugazione",
@@ -16075,7 +16177,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / alzarsi",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "ammettere": {
     "group": "2a coniugazione",
@@ -16231,7 +16334,8 @@
       ]
     },
     "usage_hint": "ammettere + oggetto diretto / di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "annunciare": {
     "group": "1a coniugazione",
@@ -16387,7 +16491,8 @@
       ]
     },
     "usage_hint": "annunciare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "attraversare": {
     "group": "1a coniugazione",
@@ -16543,7 +16648,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (attraversare la strada)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "bastare": {
     "group": "1a coniugazione",
@@ -16699,7 +16805,8 @@
       ]
     },
     "usage_hint": "bastare a (qualcuno) / per (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "bloccare": {
     "group": "1a coniugazione",
@@ -16855,7 +16962,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "bruciare": {
     "group": "1a coniugazione",
@@ -17011,7 +17119,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto / in",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "confermare": {
     "group": "1a coniugazione",
@@ -17167,7 +17276,8 @@
       ]
     },
     "usage_hint": "confermare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "conoscere": {
     "group": "2a coniugazione",
@@ -17323,7 +17433,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (conoscere una persona)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "consigliare": {
     "group": "1a coniugazione",
@@ -17479,7 +17590,8 @@
       ]
     },
     "usage_hint": "consigliare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": true
   },
   "contare": {
     "group": "1a coniugazione",
@@ -17635,7 +17747,8 @@
       ]
     },
     "usage_hint": "contare su (qualcuno) / contare + oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "continuare": {
     "group": "1a coniugazione",
@@ -17791,7 +17904,8 @@
       ]
     },
     "usage_hint": "continua a (fare qualcosa)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "coprire": {
     "group": "3a coniugazione",
@@ -17947,7 +18061,8 @@
       ]
     },
     "usage_hint": "coprire (qualcosa) con (qualcos'altro)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "correggere": {
     "group": "2a coniugazione",
@@ -18103,7 +18218,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "costruire": {
     "group": "3a coniugazione",
@@ -18259,7 +18375,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (costruire una casa)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "cucinare": {
     "group": "1a coniugazione",
@@ -18415,7 +18532,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (cucinare un piatto)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "descrivere": {
     "group": "2a coniugazione",
@@ -18571,7 +18689,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "dimostrare": {
     "group": "1a coniugazione",
@@ -18727,7 +18846,8 @@
       ]
     },
     "usage_hint": "dimostrare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "disegnare": {
     "group": "1a coniugazione",
@@ -18883,7 +19003,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "distruggere": {
     "group": "2a coniugazione",
@@ -19039,7 +19160,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "dubitare": {
     "group": "1a coniugazione",
@@ -19195,7 +19317,8 @@
       ]
     },
     "usage_hint": "dubitare di (qualcosa/qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "evitare": {
     "group": "1a coniugazione",
@@ -19351,7 +19474,8 @@
       ]
     },
     "usage_hint": "evitare + oggetto diretto / di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "fermare": {
     "group": "1a coniugazione",
@@ -19507,7 +19631,8 @@
       ]
     },
     "usage_hint": "fermare + oggetto diretto / fermarsi a",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "firmare": {
     "group": "1a coniugazione",
@@ -19663,7 +19788,8 @@
       ]
     },
     "usage_hint": "+ oggetto diretto",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "lasciare": {
     "group": "1a coniugazione",
@@ -19819,7 +19945,8 @@
       ]
     },
     "usage_hint": "lasciare + oggetto diretto / di (fare)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "mostrare": {
     "group": "1a coniugazione",
@@ -19975,7 +20102,8 @@
       ]
     },
     "usage_hint": "mostrare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "nascondere": {
     "group": "2a coniugazione",
@@ -20131,7 +20259,8 @@
       ]
     },
     "usage_hint": "nascondere (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "piangere": {
     "group": "2a coniugazione",
@@ -20287,7 +20416,8 @@
       ]
     },
     "usage_hint": "piangere per / di (gioia/dolore)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "raccontare": {
     "group": "1a coniugazione",
@@ -20443,7 +20573,8 @@
       ]
     },
     "usage_hint": "raccontare (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "vendere": {
     "group": "2a coniugazione",
@@ -20599,7 +20730,8 @@
       ]
     },
     "usage_hint": "vendere (qualcosa) a (qualcuno)",
-    "auxiliary": "avere"
+    "auxiliary": "avere",
+    "irregular": false
   },
   "provare": {
     "group": "are",
@@ -20724,7 +20856,8 @@
         "loro provavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto / a (fare)"
+    "usage_hint": "+ oggetto diretto / a (fare)",
+    "irregular": false
   },
   "salutare": {
     "group": "are",
@@ -20849,7 +20982,8 @@
         "loro salutavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto (salutare qualcuno)"
+    "usage_hint": "+ oggetto diretto (salutare qualcuno)",
+    "irregular": false
   },
   "suonare": {
     "group": "are",
@@ -20974,7 +21108,8 @@
         "loro suonavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto / a (chitarra)"
+    "usage_hint": "+ oggetto diretto / a (chitarra)",
+    "irregular": false
   },
   "telefonare": {
     "group": "are",
@@ -21099,7 +21234,8 @@
         "loro telefonavano"
       ]
     },
-    "usage_hint": "telefonare a (qualcuno)"
+    "usage_hint": "telefonare a (qualcuno)",
+    "irregular": false
   },
   "usare": {
     "group": "are",
@@ -21224,7 +21360,8 @@
         "loro usavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto"
+    "usage_hint": "+ oggetto diretto",
+    "irregular": false
   },
   "dare": {
     "group": "are",
@@ -21349,7 +21486,8 @@
         "loro davano"
       ]
     },
-    "usage_hint": "dare (qualcosa) a (qualcuno)"
+    "usage_hint": "dare (qualcosa) a (qualcuno)",
+    "irregular": true
   },
   "mangiare": {
     "group": "are",
@@ -21474,7 +21612,8 @@
         "loro mangiavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto (mangiare qualcosa)"
+    "usage_hint": "+ oggetto diretto (mangiare qualcosa)",
+    "irregular": false
   },
   "piacere": {
     "group": "ere",
@@ -21599,7 +21738,8 @@
         "loro piacevano"
       ]
     },
-    "usage_hint": "piacere a (qualcuno: mi piace il caffè)"
+    "usage_hint": "piacere a (qualcuno: mi piace il caffè)",
+    "irregular": true
   },
   "stare": {
     "group": "are",
@@ -21724,7 +21864,8 @@
         "loro stavano"
       ]
     },
-    "usage_hint": "stare a (casa) / in / con / + gerundio"
+    "usage_hint": "stare a (casa) / in / con / + gerundio",
+    "irregular": true
   },
   "invitare": {
     "group": "are",
@@ -21849,7 +21990,8 @@
         "loro invitavano"
       ]
     },
-    "usage_hint": "invitare (qualcuno) a (cena / fare)"
+    "usage_hint": "invitare (qualcuno) a (cena / fare)",
+    "irregular": false
   },
   "lanciare": {
     "group": "are",
@@ -21974,7 +22116,8 @@
         "loro lanciavano"
       ]
     },
-    "usage_hint": "lanciare (qualcosa) a (qualcuno)"
+    "usage_hint": "lanciare (qualcosa) a (qualcuno)",
+    "irregular": false
   },
   "lavare": {
     "group": "are",
@@ -22099,7 +22242,8 @@
         "loro lavavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto (lavare i piatti)"
+    "usage_hint": "+ oggetto diretto (lavare i piatti)",
+    "irregular": false
   },
   "mancare": {
     "group": "are",
@@ -22232,7 +22376,8 @@
         "loro mancavano"
       ]
     },
-    "usage_hint": "mancare a (qualcuno: mi manchi)"
+    "usage_hint": "mancare a (qualcuno: mi manchi)",
+    "irregular": false
   },
   "preferire": {
     "group": "ire",
@@ -22357,7 +22502,8 @@
         "loro preferivano"
       ]
     },
-    "usage_hint": "preferire + oggetto diretto / + infinito a"
+    "usage_hint": "preferire + oggetto diretto / + infinito a",
+    "irregular": false
   },
   "riposare": {
     "group": "are",
@@ -22482,7 +22628,8 @@
         "loro riposavano"
       ]
     },
-    "usage_hint": "riposarsi in / su"
+    "usage_hint": "riposarsi in / su",
+    "irregular": false
   },
   "rompere": {
     "group": "ere",
@@ -22607,7 +22754,8 @@
         "loro rompevano"
       ]
     },
-    "usage_hint": "+ oggetto diretto (rompere un vetro)"
+    "usage_hint": "+ oggetto diretto (rompere un vetro)",
+    "irregular": false
   },
   "scoprire": {
     "group": "ire",
@@ -22732,7 +22880,8 @@
         "loro scoprivano"
       ]
     },
-    "usage_hint": "+ oggetto diretto"
+    "usage_hint": "+ oggetto diretto",
+    "irregular": false
   },
   "svegliare": {
     "group": "are",
@@ -22857,7 +23006,8 @@
         "loro svegliavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto / svegliarsi alle"
+    "usage_hint": "+ oggetto diretto / svegliarsi alle",
+    "irregular": true
   },
   "annullare": {
     "group": "are",
@@ -22982,7 +23132,8 @@
         "loro annullavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto"
+    "usage_hint": "+ oggetto diretto",
+    "irregular": false
   },
   "appartenere": {
     "group": "ere",
@@ -23107,7 +23258,8 @@
         "loro appartenevano"
       ]
     },
-    "usage_hint": "appartenere a (qualcuno)"
+    "usage_hint": "appartenere a (qualcuno)",
+    "irregular": true
   },
   "aumentare": {
     "group": "are",
@@ -23232,7 +23384,8 @@
         "loro aumentavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto / di (percentuale)"
+    "usage_hint": "+ oggetto diretto / di (percentuale)",
+    "irregular": false
   },
   "cenare": {
     "group": "are",
@@ -23357,7 +23510,8 @@
         "loro cenavano"
       ]
     },
-    "usage_hint": "cenare con / a (casa)"
+    "usage_hint": "cenare con / a (casa)",
+    "irregular": false
   },
   "comprendere": {
     "group": "ere",
@@ -23482,7 +23636,8 @@
         "loro comprendevano"
       ]
     },
-    "usage_hint": "+ oggetto diretto"
+    "usage_hint": "+ oggetto diretto",
+    "irregular": false
   },
   "consegnare": {
     "group": "are",
@@ -23607,7 +23762,8 @@
         "loro consegnavano"
       ]
     },
-    "usage_hint": "consegnare (qualcosa) a (qualcuno)"
+    "usage_hint": "consegnare (qualcosa) a (qualcuno)",
+    "irregular": false
   },
   "decidere": {
     "group": "ere",
@@ -23732,7 +23888,8 @@
         "loro decidevano"
       ]
     },
-    "usage_hint": "decidere di (fare qualcosa)"
+    "usage_hint": "decidere di (fare qualcosa)",
+    "irregular": false
   },
   "desiderare": {
     "group": "are",
@@ -23857,7 +24014,8 @@
         "loro desideravano"
       ]
     },
-    "usage_hint": "desiderare + oggetto diretto / + infinito"
+    "usage_hint": "desiderare + oggetto diretto / + infinito",
+    "irregular": false
   },
   "raccogliere": {
     "group": "ere",
@@ -23982,7 +24140,8 @@
         "loro raccoglievano"
       ]
     },
-    "usage_hint": "+ oggetto diretto"
+    "usage_hint": "+ oggetto diretto",
+    "irregular": true
   },
   "raggiungere": {
     "group": "ere",
@@ -24107,7 +24266,8 @@
         "loro raggiungevano"
       ]
     },
-    "usage_hint": "+ oggetto diretto"
+    "usage_hint": "+ oggetto diretto",
+    "irregular": false
   },
   "regalare": {
     "group": "are",
@@ -24232,7 +24392,8 @@
         "loro regalavano"
       ]
     },
-    "usage_hint": "regalare (qualcosa) a (qualcuno)"
+    "usage_hint": "regalare (qualcosa) a (qualcuno)",
+    "irregular": false
   },
   "ricevere": {
     "group": "ere",
@@ -24357,7 +24518,8 @@
         "loro ricevevano"
       ]
     },
-    "usage_hint": "ricevere (qualcosa) da (qualcuno)"
+    "usage_hint": "ricevere (qualcosa) da (qualcuno)",
+    "irregular": false
   },
   "ringraziare": {
     "group": "are",
@@ -24482,7 +24644,8 @@
         "loro ringraziavano"
       ]
     },
-    "usage_hint": "ringraziare (qualcuno) per (qualcosa)"
+    "usage_hint": "ringraziare (qualcuno) per (qualcosa)",
+    "irregular": true
   },
   "ripetere": {
     "group": "ere",
@@ -24607,7 +24770,8 @@
         "loro ripetevano"
       ]
     },
-    "usage_hint": "+ oggetto diretto"
+    "usage_hint": "+ oggetto diretto",
+    "irregular": false
   },
   "sbagliare": {
     "group": "are",
@@ -24732,7 +24896,8 @@
         "loro sbagliavano"
       ]
     },
-    "usage_hint": "+ oggetto diretto / a (fare)"
+    "usage_hint": "+ oggetto diretto / a (fare)",
+    "irregular": true
   },
   "scegliere": {
     "group": "ere",
@@ -24857,7 +25022,8 @@
         "loro sceglievano"
       ]
     },
-    "usage_hint": "scegliere + oggetto diretto / di (fare)"
+    "usage_hint": "scegliere + oggetto diretto / di (fare)",
+    "irregular": true
   },
   "uccidere": {
     "group": "ere",
@@ -24982,7 +25148,8 @@
         "loro uccidevano"
       ]
     },
-    "usage_hint": "+ oggetto diretto"
+    "usage_hint": "+ oggetto diretto",
+    "irregular": false
   },
   "votare": {
     "group": "are",
@@ -25107,7 +25274,8 @@
         "loro votavano"
       ]
     },
-    "usage_hint": "votare per / + oggetto diretto"
+    "usage_hint": "votare per / + oggetto diretto",
+    "irregular": false
   },
   "avvisare": {
     "group": "are",
@@ -25232,7 +25400,8 @@
         "loro avvisavano"
       ]
     },
-    "usage_hint": "avvisare (qualcuno) di (qualcosa)"
+    "usage_hint": "avvisare (qualcuno) di (qualcosa)",
+    "irregular": false
   },
   "interessare": {
     "group": "1ª coniugazione (-are)",
@@ -25373,7 +25542,8 @@
         "interessando",
         "interessato"
       ]
-    }
+    },
+    "irregular": false
   },
   "discutere": {
     "group": "2ª coniugazione (-ere)",
@@ -25514,7 +25684,8 @@
         "discutendo",
         "discusso"
       ]
-    }
+    },
+    "irregular": false
   },
   "convincere": {
     "group": "2ª coniugazione (-ere)",
@@ -25623,7 +25794,8 @@
         "avrete convinto",
         "avranno convinto"
       ]
-    }
+    },
+    "irregular": false
   },
   "prevedere": {
     "group": "2ª coniugazione (-ere)",
@@ -25732,7 +25904,8 @@
         "avrete previsto",
         "avranno previsto"
       ]
-    }
+    },
+    "irregular": false
   },
   "sciare": {
     "group": "1a coniugazione",
@@ -25886,7 +26059,8 @@
         "avete sciato",
         "hanno sciato"
       ]
-    }
+    },
+    "irregular": false
   },
   "tossire": {
     "group": "3a coniugazione",
@@ -26040,7 +26214,8 @@
         "avete tossito",
         "hanno tossito"
       ]
-    }
+    },
+    "irregular": false
   },
   "guarire": {
     "group": "3a coniugazione",
@@ -26196,7 +26371,8 @@
         "siete guariti",
         "sono guariti"
       ]
-    }
+    },
+    "irregular": false
   },
   "lamentarsi": {
     "group": "1a coniugazione",
@@ -26352,7 +26528,8 @@
         "vi siete lamentati",
         "si sono lamentati"
       ]
-    }
+    },
+    "irregular": false
   },
   "litigare": {
     "group": "1a coniugazione",
@@ -26508,7 +26685,8 @@
         "avete litigato",
         "hanno litigato"
       ]
-    }
+    },
+    "irregular": false
   },
   "scusarsi": {
     "group": "1a coniugazione",
@@ -26662,7 +26840,8 @@
         "vi siete scusati",
         "si sono scusati"
       ]
-    }
+    },
+    "irregular": false
   },
   "sottolineare": {
     "group": "1a coniugazione",
@@ -26816,7 +26995,8 @@
         "avete sottolineato",
         "hanno sottolineato"
       ]
-    }
+    },
+    "irregular": false
   },
   "menzionare": {
     "group": "1a coniugazione",
@@ -26972,7 +27152,8 @@
         "avete menzionato",
         "hanno menzionato"
       ]
-    }
+    },
+    "irregular": false
   },
   "insistere": {
     "group": "2a coniugazione",
@@ -27128,7 +27309,8 @@
         "avete insistito",
         "hanno insistito"
       ]
-    }
+    },
+    "irregular": false
   },
   "negoziare": {
     "group": "1a coniugazione",
@@ -27282,7 +27464,8 @@
         "avete negoziato",
         "hanno negoziato"
       ]
-    }
+    },
+    "irregular": true
   },
   "licenziare": {
     "group": "1a coniugazione",
@@ -27438,7 +27621,8 @@
         "avete licenziato",
         "hanno licenziato"
       ]
-    }
+    },
+    "irregular": true
   },
   "assumere": {
     "group": "2a coniugazione",
@@ -27594,7 +27778,8 @@
         "avete assunto",
         "hanno assunto"
       ]
-    }
+    },
+    "irregular": false
   },
   "dimettersi": {
     "group": "2a coniugazione",
@@ -27748,7 +27933,8 @@
         "vi siete dimessi",
         "si sono dimessi"
       ]
-    }
+    },
+    "irregular": false
   },
   "stirare": {
     "group": "1a coniugazione",
@@ -27902,7 +28088,8 @@
         "avete stirato",
         "hanno stirato"
       ]
-    }
+    },
+    "irregular": false
   },
   "lavare i piatti": {
     "group": "1a coniugazione",
@@ -28056,7 +28243,8 @@
         "avete lavato i piatti",
         "hanno lavato i piatti"
       ]
-    }
+    },
+    "irregular": false
   },
   "ricordarsi": {
     "group": "1a coniugazione",
@@ -28212,6 +28400,7 @@
         "vi siete ricordati",
         "si sono ricordati"
       ]
-    }
+    },
+    "irregular": false
   }
 }

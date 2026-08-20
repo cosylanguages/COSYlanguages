@@ -7,7 +7,8 @@
       "rue"
     ],
     "article": "la",
-    "plural": "maisons"
+    "plural": "maisons",
+    "irregular": false
   },
   "voiture": {
     "gender": "Féminin",
@@ -17,7 +18,8 @@
       "piéton"
     ],
     "article": "la",
-    "plural": "voitures"
+    "plural": "voitures",
+    "irregular": false
   },
   "table": {
     "gender": "Féminin",
@@ -27,7 +29,8 @@
       "chaise"
     ],
     "article": "la",
-    "plural": "tables"
+    "plural": "tables",
+    "irregular": false
   },
   "chaise": {
     "gender": "Féminin",
@@ -37,7 +40,8 @@
       "table"
     ],
     "article": "la",
-    "plural": "chaises"
+    "plural": "chaises",
+    "irregular": false
   },
   "porte": {
     "gender": "Féminin",
@@ -47,7 +51,8 @@
       "fenêtre"
     ],
     "article": "la",
-    "plural": "portes"
+    "plural": "portes",
+    "irregular": false
   },
   "fenêtre": {
     "gender": "Féminin",
@@ -57,7 +62,8 @@
       "porte"
     ],
     "article": "la",
-    "plural": "fenêtres"
+    "plural": "fenêtres",
+    "irregular": false
   },
   "ville": {
     "gender": "Féminin",
@@ -67,7 +73,8 @@
       "campagne"
     ],
     "article": "la",
-    "plural": "villes"
+    "plural": "villes",
+    "irregular": false
   },
   "rue": {
     "gender": "Féminin",
@@ -77,7 +84,8 @@
       "place"
     ],
     "article": "la",
-    "plural": "rues"
+    "plural": "rues",
+    "irregular": false
   },
   "école": {
     "gender": "Féminin",
@@ -87,7 +95,8 @@
       "maison"
     ],
     "article": "l'",
-    "plural": "écoles"
+    "plural": "écoles",
+    "irregular": false
   },
   "eau": {
     "gender": "Féminin",
@@ -98,7 +107,8 @@
     ],
     "grammar_rule": "💡 REMEMBER: Nom féminin ('l'eau') — pluriel irrégulier en '-x' ('les eaux').",
     "article": "l'",
-    "plural": "eaux"
+    "plural": "eaux",
+    "irregular": false
   },
   "terre": {
     "gender": "Féminin",
@@ -108,7 +118,8 @@
       "ciel"
     ],
     "article": "la",
-    "plural": "terres"
+    "plural": "terres",
+    "irregular": false
   },
   "mer": {
     "gender": "Féminin",
@@ -118,7 +129,8 @@
       "montagne"
     ],
     "article": "la",
-    "plural": "mers"
+    "plural": "mers",
+    "irregular": false
   },
   "montagne": {
     "gender": "Féminin",
@@ -128,7 +140,8 @@
       "vallée"
     ],
     "article": "la",
-    "plural": "montagnes"
+    "plural": "montagnes",
+    "irregular": false
   },
   "nuit": {
     "gender": "Féminin",
@@ -138,7 +151,8 @@
       "jour"
     ],
     "article": "la",
-    "plural": "nuits"
+    "plural": "nuits",
+    "irregular": false
   },
   "fleur": {
     "gender": "Féminin",
@@ -148,7 +162,8 @@
       "arbre"
     ],
     "article": "la",
-    "plural": "fleurs"
+    "plural": "fleurs",
+    "irregular": false
   },
   "pomme": {
     "gender": "Féminin",
@@ -158,7 +173,8 @@
       "poire"
     ],
     "article": "la",
-    "plural": "pommes"
+    "plural": "pommes",
+    "irregular": false
   },
   "clé": {
     "gender": "Féminin",
@@ -168,7 +184,8 @@
       "serrure"
     ],
     "article": "la",
-    "plural": "clés"
+    "plural": "clés",
+    "irregular": false
   },
   "chambre": {
     "gender": "Féminin",
@@ -178,7 +195,8 @@
       "salon"
     ],
     "article": "la",
-    "plural": "chambres"
+    "plural": "chambres",
+    "irregular": false
   },
   "cuisine": {
     "gender": "Féminin",
@@ -188,7 +206,8 @@
       "salle"
     ],
     "article": "la",
-    "plural": "cuisines"
+    "plural": "cuisines",
+    "irregular": false
   },
   "musique": {
     "gender": "Féminin",
@@ -198,7 +217,8 @@
       "silence"
     ],
     "article": "la",
-    "plural": "musiques"
+    "plural": "musiques",
+    "irregular": false
   },
   "lumière": {
     "gender": "Féminin",
@@ -208,7 +228,8 @@
       "ombre"
     ],
     "article": "la",
-    "plural": "lumières"
+    "plural": "lumières",
+    "irregular": false
   },
   "ombre": {
     "gender": "Féminin",
@@ -218,7 +239,8 @@
       "lumière"
     ],
     "article": "l'",
-    "plural": "ombres"
+    "plural": "ombres",
+    "irregular": false
   },
   "idée": {
     "gender": "Féminin",
@@ -228,7 +250,8 @@
       "acte"
     ],
     "article": "l'",
-    "plural": "idées"
+    "plural": "idées",
+    "irregular": false
   },
   "vérité": {
     "gender": "Féminin",
@@ -238,7 +261,8 @@
       "mensonge"
     ],
     "article": "la",
-    "plural": "vérités"
+    "plural": "vérités",
+    "irregular": false
   },
   "liberté": {
     "gender": "Féminin",
@@ -248,7 +272,8 @@
       "esclavage"
     ],
     "article": "la",
-    "plural": "libertés"
+    "plural": "libertés",
+    "irregular": false
   },
   "paix": {
     "gender": "Féminin",
@@ -258,7 +283,8 @@
       "guerre"
     ],
     "article": "la",
-    "plural": "paix"
+    "plural": "paix",
+    "irregular": false
   },
   "guerre": {
     "gender": "Féminin",
@@ -268,7 +294,8 @@
       "paix"
     ],
     "article": "la",
-    "plural": "guerres"
+    "plural": "guerres",
+    "irregular": false
   },
   "vie": {
     "gender": "Féminin",
@@ -278,7 +305,8 @@
       "mort"
     ],
     "article": "la",
-    "plural": "vies"
+    "plural": "vies",
+    "irregular": false
   },
   "mort": {
     "gender": "Féminin",
@@ -288,7 +316,8 @@
       "vie"
     ],
     "article": "la",
-    "plural": "morts"
+    "plural": "morts",
+    "irregular": false
   },
   "main": {
     "gender": "Féminin",
@@ -298,7 +327,8 @@
       "pied"
     ],
     "article": "la",
-    "plural": "mains"
+    "plural": "mains",
+    "irregular": false
   },
   "tête": {
     "gender": "Féminin",
@@ -308,7 +338,8 @@
       "pied"
     ],
     "article": "la",
-    "plural": "têtes"
+    "plural": "têtes",
+    "irregular": false
   },
   "voix": {
     "gender": "Féminin",
@@ -318,7 +349,8 @@
       "silence"
     ],
     "article": "la",
-    "plural": "voix"
+    "plural": "voix",
+    "irregular": false
   },
   "route": {
     "gender": "Féminin",
@@ -328,7 +360,8 @@
       "sentier"
     ],
     "article": "la",
-    "plural": "routes"
+    "plural": "routes",
+    "irregular": false
   },
   "question": {
     "gender": "Féminin",
@@ -338,7 +371,8 @@
       "réponse"
     ],
     "article": "la",
-    "plural": "questions"
+    "plural": "questions",
+    "irregular": false
   },
   "réponse": {
     "gender": "Féminin",
@@ -348,7 +382,8 @@
       "question"
     ],
     "article": "la",
-    "plural": "réponses"
+    "plural": "réponses",
+    "irregular": false
   },
   "histoire": {
     "gender": "Féminin",
@@ -358,7 +393,8 @@
       "réitération"
     ],
     "article": "l'",
-    "plural": "histoires"
+    "plural": "histoires",
+    "irregular": false
   },
   "famille": {
     "gender": "Féminin",
@@ -368,7 +404,8 @@
       "solitude"
     ],
     "article": "la",
-    "plural": "familles"
+    "plural": "familles",
+    "irregular": false
   },
   "saison": {
     "gender": "Féminin",
@@ -378,7 +415,8 @@
       "année"
     ],
     "article": "la",
-    "plural": "saisons"
+    "plural": "saisons",
+    "irregular": false
   },
   "semaine": {
     "gender": "Féminin",
@@ -388,7 +426,8 @@
       "mois"
     ],
     "article": "la",
-    "plural": "semaines"
+    "plural": "semaines",
+    "irregular": false
   },
   "heure": {
     "gender": "Féminin",
@@ -398,7 +437,8 @@
       "seconde"
     ],
     "article": "l'",
-    "plural": "heures"
+    "plural": "heures",
+    "irregular": false
   },
   "minute": {
     "gender": "Féminin",
@@ -408,7 +448,8 @@
       "heure"
     ],
     "article": "la",
-    "plural": "minutes"
+    "plural": "minutes",
+    "irregular": false
   },
   "seconde": {
     "gender": "Féminin",
@@ -418,7 +459,8 @@
       "minute"
     ],
     "article": "la",
-    "plural": "secondes"
+    "plural": "secondes",
+    "irregular": false
   },
   "chanson": {
     "gender": "Féminin",
@@ -428,7 +470,8 @@
       "poème"
     ],
     "article": "la",
-    "plural": "chansons"
+    "plural": "chansons",
+    "irregular": false
   },
   "pensée": {
     "gender": "Féminin",
@@ -438,7 +481,8 @@
       "action"
     ],
     "article": "la",
-    "plural": "pensées"
+    "plural": "pensées",
+    "irregular": false
   },
   "joie": {
     "gender": "Féminin",
@@ -448,7 +492,8 @@
       "tristesse"
     ],
     "article": "la",
-    "plural": "joies"
+    "plural": "joies",
+    "irregular": false
   },
   "tristesse": {
     "gender": "Féminin",
@@ -458,7 +503,8 @@
       "joie"
     ],
     "article": "la",
-    "plural": "tristesses"
+    "plural": "tristesses",
+    "irregular": false
   },
   "peur": {
     "gender": "Féminin",
@@ -468,7 +514,8 @@
       "courage"
     ],
     "article": "la",
-    "plural": "peurs"
+    "plural": "peurs",
+    "irregular": false
   },
   "santé": {
     "gender": "Féminin",
@@ -478,7 +525,8 @@
       "maladie"
     ],
     "article": "la",
-    "plural": "santés"
+    "plural": "santés",
+    "irregular": false
   },
   "maladie": {
     "gender": "Féminin",
@@ -488,7 +536,8 @@
       "santé"
     ],
     "article": "la",
-    "plural": "maladies"
+    "plural": "maladies",
+    "irregular": false
   },
   "solution": {
     "gender": "Féminin",
@@ -498,7 +547,8 @@
       "problème"
     ],
     "article": "la",
-    "plural": "solutions"
+    "plural": "solutions",
+    "irregular": false
   },
   "soleil": {
     "gender": "Masculin",
@@ -508,7 +558,8 @@
       "lune"
     ],
     "article": "le",
-    "plural": "soleils"
+    "plural": "soleils",
+    "irregular": false
   },
   "livre": {
     "gender": "Masculin",
@@ -518,7 +569,8 @@
       "cahier"
     ],
     "article": "le",
-    "plural": "livres"
+    "plural": "livres",
+    "irregular": false
   },
   "stylo": {
     "gender": "Masculin",
@@ -528,7 +580,8 @@
       "crayon"
     ],
     "article": "le",
-    "plural": "stylos"
+    "plural": "stylos",
+    "irregular": false
   },
   "crayon": {
     "gender": "Masculin",
@@ -538,7 +591,8 @@
       "stylo"
     ],
     "article": "le",
-    "plural": "crayons"
+    "plural": "crayons",
+    "irregular": false
   },
   "cahier": {
     "gender": "Masculin",
@@ -548,7 +602,8 @@
       "livre"
     ],
     "article": "le",
-    "plural": "cahiers"
+    "plural": "cahiers",
+    "irregular": false
   },
   "sac": {
     "gender": "Masculin",
@@ -558,7 +613,8 @@
       "poche"
     ],
     "article": "le",
-    "plural": "sacs"
+    "plural": "sacs",
+    "irregular": false
   },
   "manteau": {
     "gender": "Masculin",
@@ -568,7 +624,8 @@
       "pantalon"
     ],
     "article": "le",
-    "plural": "manteaux"
+    "plural": "manteaux",
+    "irregular": false
   },
   "pantalon": {
     "gender": "Masculin",
@@ -578,7 +635,8 @@
       "jupe"
     ],
     "article": "le",
-    "plural": "pantalons"
+    "plural": "pantalons",
+    "irregular": false
   },
   "chapeau": {
     "gender": "Masculin",
@@ -588,7 +646,8 @@
       "casquette"
     ],
     "article": "le",
-    "plural": "chapeaux"
+    "plural": "chapeaux",
+    "irregular": false
   },
   "chien": {
     "gender": "Masculin",
@@ -598,7 +657,8 @@
       "chat"
     ],
     "article": "le",
-    "plural": "chiens"
+    "plural": "chiens",
+    "irregular": false
   },
   "chat": {
     "gender": "Masculin",
@@ -608,7 +668,8 @@
       "chien"
     ],
     "article": "le",
-    "plural": "chats"
+    "plural": "chats",
+    "irregular": false
   },
   "cheval": {
     "gender": "Masculin",
@@ -618,7 +679,8 @@
       "vache"
     ],
     "article": "le",
-    "plural": "chevaux"
+    "plural": "chevaux",
+    "irregular": false
   },
   "oiseau": {
     "gender": "Masculin",
@@ -628,7 +690,8 @@
       "poisson"
     ],
     "article": "l'",
-    "plural": "oiseaux"
+    "plural": "oiseaux",
+    "irregular": false
   },
   "poisson": {
     "gender": "Masculin",
@@ -638,7 +701,8 @@
       "oiseau"
     ],
     "article": "le",
-    "plural": "poissons"
+    "plural": "poissons",
+    "irregular": false
   },
   "arbre": {
     "gender": "Masculin",
@@ -648,7 +712,8 @@
       "fleur"
     ],
     "article": "l'",
-    "plural": "arbres"
+    "plural": "arbres",
+    "irregular": false
   },
   "jardin": {
     "gender": "Masculin",
@@ -658,7 +723,8 @@
       "maison"
     ],
     "article": "le",
-    "plural": "jardins"
+    "plural": "jardins",
+    "irregular": false
   },
   "parc": {
     "gender": "Masculin",
@@ -668,7 +734,8 @@
       "rue"
     ],
     "article": "le",
-    "plural": "parcs"
+    "plural": "parcs",
+    "irregular": false
   },
   "vent": {
     "gender": "Masculin",
@@ -678,7 +745,8 @@
       "calme"
     ],
     "article": "le",
-    "plural": "vents"
+    "plural": "vents",
+    "irregular": false
   },
   "feu": {
     "gender": "Masculin",
@@ -688,7 +756,8 @@
       "eau"
     ],
     "article": "le",
-    "plural": "feux"
+    "plural": "feux",
+    "irregular": false
   },
   "ciel": {
     "gender": "Masculin",
@@ -698,7 +767,8 @@
       "terre"
     ],
     "article": "le",
-    "plural": "cieux"
+    "plural": "cieux",
+    "irregular": true
   },
   "jour": {
     "gender": "Masculin",
@@ -708,7 +778,8 @@
       "nuit"
     ],
     "article": "le",
-    "plural": "jours"
+    "plural": "jours",
+    "irregular": false
   },
   "matin": {
     "gender": "Masculin",
@@ -718,7 +789,8 @@
       "soir"
     ],
     "article": "le",
-    "plural": "matins"
+    "plural": "matins",
+    "irregular": false
   },
   "soir": {
     "gender": "Masculin",
@@ -728,7 +800,8 @@
       "matin"
     ],
     "article": "le",
-    "plural": "soirs"
+    "plural": "soirs",
+    "irregular": false
   },
   "mois": {
     "gender": "Masculin",
@@ -738,7 +811,8 @@
       "année"
     ],
     "article": "le",
-    "plural": "mois"
+    "plural": "mois",
+    "irregular": false
   },
   "an": {
     "gender": "Masculin",
@@ -748,7 +822,8 @@
       "mois"
     ],
     "article": "l'",
-    "plural": "ans"
+    "plural": "ans",
+    "irregular": false
   },
   "siècle": {
     "gender": "Masculin",
@@ -758,7 +833,8 @@
       "année"
     ],
     "article": "le",
-    "plural": "siècles"
+    "plural": "siècles",
+    "irregular": false
   },
   "temps": {
     "gender": "Masculin",
@@ -768,7 +844,8 @@
       "espace"
     ],
     "article": "le",
-    "plural": "temps"
+    "plural": "temps",
+    "irregular": false
   },
   "travail": {
     "gender": "Masculin",
@@ -779,7 +856,8 @@
     ],
     "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les travaux').",
     "article": "le",
-    "plural": "travaux"
+    "plural": "travaux",
+    "irregular": true
   },
   "repos": {
     "gender": "Masculin",
@@ -789,7 +867,8 @@
       "travail"
     ],
     "article": "le",
-    "plural": "repos"
+    "plural": "repos",
+    "irregular": false
   },
   "pain": {
     "gender": "Masculin",
@@ -799,7 +878,8 @@
       "eau"
     ],
     "article": "le",
-    "plural": "pains"
+    "plural": "pains",
+    "irregular": false
   },
   "fromage": {
     "gender": "Masculin",
@@ -809,7 +889,8 @@
       "lait"
     ],
     "article": "le",
-    "plural": "fromages"
+    "plural": "fromages",
+    "irregular": false
   },
   "lait": {
     "gender": "Masculin",
@@ -819,7 +900,8 @@
       "eau"
     ],
     "article": "le",
-    "plural": "laits"
+    "plural": "laits",
+    "irregular": false
   },
   "café": {
     "gender": "Masculin",
@@ -829,7 +911,8 @@
       "thé"
     ],
     "article": "le",
-    "plural": "cafés"
+    "plural": "cafés",
+    "irregular": false
   },
   "thé": {
     "gender": "Masculin",
@@ -839,7 +922,8 @@
       "café"
     ],
     "article": "le",
-    "plural": "thés"
+    "plural": "thés",
+    "irregular": false
   },
   "repas": {
     "gender": "Masculin",
@@ -849,7 +933,8 @@
       "jeûne"
     ],
     "article": "le",
-    "plural": "repas"
+    "plural": "repas",
+    "irregular": false
   },
   "restaurant": {
     "gender": "Masculin",
@@ -859,7 +944,8 @@
       "maison"
     ],
     "article": "le",
-    "plural": "restaurants"
+    "plural": "restaurants",
+    "irregular": false
   },
   "hôtel": {
     "gender": "Masculin",
@@ -869,7 +955,8 @@
       "maison"
     ],
     "article": "l'",
-    "plural": "hôtels"
+    "plural": "hôtels",
+    "irregular": false
   },
   "train": {
     "gender": "Masculin",
@@ -879,7 +966,8 @@
       "avion"
     ],
     "article": "le",
-    "plural": "trains"
+    "plural": "trains",
+    "irregular": false
   },
   "avion": {
     "gender": "Masculin",
@@ -889,7 +977,8 @@
       "bateau"
     ],
     "article": "l'",
-    "plural": "avions"
+    "plural": "avions",
+    "irregular": false
   },
   "bateau": {
     "gender": "Masculin",
@@ -899,7 +988,8 @@
       "avion"
     ],
     "article": "le",
-    "plural": "bateaux"
+    "plural": "bateaux",
+    "irregular": false
   },
   "voyage": {
     "gender": "Masculin",
@@ -909,7 +999,8 @@
       "séjour"
     ],
     "article": "le",
-    "plural": "voyages"
+    "plural": "voyages",
+    "irregular": false
   },
   "bruit": {
     "gender": "Masculin",
@@ -919,7 +1010,8 @@
       "silence"
     ],
     "article": "le",
-    "plural": "bruits"
+    "plural": "bruits",
+    "irregular": false
   },
   "silence": {
     "gender": "Masculin",
@@ -929,7 +1021,8 @@
       "bruit"
     ],
     "article": "le",
-    "plural": "silences"
+    "plural": "silences",
+    "irregular": false
   },
   "courage": {
     "gender": "Masculin",
@@ -939,7 +1032,8 @@
       "peur"
     ],
     "article": "le",
-    "plural": "courages"
+    "plural": "courages",
+    "irregular": false
   },
   "problème": {
     "gender": "Masculin",
@@ -949,7 +1043,8 @@
       "solution"
     ],
     "article": "le",
-    "plural": "problèmes"
+    "plural": "problèmes",
+    "irregular": false
   },
   "projet": {
     "gender": "Masculin",
@@ -959,7 +1054,8 @@
       "passé"
     ],
     "article": "le",
-    "plural": "projets"
+    "plural": "projets",
+    "irregular": false
   },
   "sourire": {
     "gender": "Masculin",
@@ -969,7 +1065,8 @@
       "grimace"
     ],
     "article": "le",
-    "plural": "sourires"
+    "plural": "sourires",
+    "irregular": false
   },
   "rêve": {
     "gender": "Masculin",
@@ -979,7 +1076,8 @@
       "réalité"
     ],
     "article": "le",
-    "plural": "rêves"
+    "plural": "rêves",
+    "irregular": false
   },
   "monde": {
     "gender": "Masculin",
@@ -989,7 +1087,8 @@
       "solitude"
     ],
     "article": "le",
-    "plural": "mondes"
+    "plural": "mondes",
+    "irregular": false
   },
   "pays": {
     "gender": "Masculin",
@@ -999,7 +1098,8 @@
       "ville"
     ],
     "article": "le",
-    "plural": "pays"
+    "plural": "pays",
+    "irregular": false
   },
   "village": {
     "gender": "Masculin",
@@ -1009,7 +1109,8 @@
       "ville"
     ],
     "article": "le",
-    "plural": "villages"
+    "plural": "villages",
+    "irregular": false
   },
   "mur": {
     "gender": "Masculin",
@@ -1019,7 +1120,8 @@
       "sol"
     ],
     "article": "le",
-    "plural": "murs"
+    "plural": "murs",
+    "irregular": false
   },
   "sol": {
     "gender": "Masculin",
@@ -1029,7 +1131,8 @@
       "plafond"
     ],
     "article": "le",
-    "plural": "sols"
+    "plural": "sols",
+    "irregular": false
   },
   "plafond": {
     "gender": "Masculin",
@@ -1039,7 +1142,8 @@
       "sol"
     ],
     "article": "le",
-    "plural": "plafonds"
+    "plural": "plafonds",
+    "irregular": false
   },
   "lit": {
     "gender": "Masculin",
@@ -1049,7 +1153,8 @@
       "chaise"
     ],
     "article": "le",
-    "plural": "lits"
+    "plural": "lits",
+    "irregular": false
   },
   "accident": {
     "gender": "Masculin",
@@ -1059,7 +1164,8 @@
       "sécurité"
     ],
     "article": "l'",
-    "plural": "accidents"
+    "plural": "accidents",
+    "irregular": false
   },
   "accord": {
     "gender": "Masculin",
@@ -1069,7 +1175,8 @@
       "désaccord"
     ],
     "article": "l'",
-    "plural": "accords"
+    "plural": "accords",
+    "irregular": false
   },
   "acteur": {
     "gender": "Masculin",
@@ -1079,7 +1186,8 @@
       "spectateur"
     ],
     "article": "l'",
-    "plural": "acteurs"
+    "plural": "acteurs",
+    "irregular": false
   },
   "aéroport": {
     "gender": "Masculin",
@@ -1089,7 +1197,8 @@
       "gare"
     ],
     "article": "l'",
-    "plural": "aéroports"
+    "plural": "aéroports",
+    "irregular": false
   },
   "âge": {
     "gender": "Masculin",
@@ -1099,7 +1208,8 @@
       "jeunesse"
     ],
     "article": "l'",
-    "plural": "âges"
+    "plural": "âges",
+    "irregular": false
   },
   "agent": {
     "gender": "Masculin",
@@ -1109,7 +1219,8 @@
       "citoyen"
     ],
     "article": "l'",
-    "plural": "agents"
+    "plural": "agents",
+    "irregular": false
   },
   "agneau": {
     "gender": "Masculin",
@@ -1119,7 +1230,8 @@
       "loup"
     ],
     "article": "l'",
-    "plural": "agneaux"
+    "plural": "agneaux",
+    "irregular": false
   },
   "air": {
     "gender": "Masculin",
@@ -1129,7 +1241,8 @@
       "vide"
     ],
     "article": "l'",
-    "plural": "airs"
+    "plural": "airs",
+    "irregular": false
   },
   "alcool": {
     "gender": "Masculin",
@@ -1139,7 +1252,8 @@
       "eau"
     ],
     "article": "l'",
-    "plural": "alcools"
+    "plural": "alcools",
+    "irregular": false
   },
   "animal": {
     "gender": "Masculin",
@@ -1150,7 +1264,8 @@
     ],
     "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les animaux').",
     "article": "l'",
-    "plural": "animaux"
+    "plural": "animaux",
+    "irregular": false
   },
   "anniversaire": {
     "gender": "Masculin",
@@ -1160,7 +1275,8 @@
       "deuil"
     ],
     "article": "l'",
-    "plural": "anniversaires"
+    "plural": "anniversaires",
+    "irregular": false
   },
   "appareil": {
     "gender": "Masculin",
@@ -1170,7 +1286,8 @@
       "outil"
     ],
     "article": "l'",
-    "plural": "appareils"
+    "plural": "appareils",
+    "irregular": false
   },
   "appartement": {
     "gender": "Masculin",
@@ -1180,7 +1297,8 @@
       "maison"
     ],
     "article": "l'",
-    "plural": "appartements"
+    "plural": "appartements",
+    "irregular": false
   },
   "argent": {
     "gender": "Masculin",
@@ -1190,7 +1308,8 @@
       "pauvreté"
     ],
     "article": "l'",
-    "plural": "argents"
+    "plural": "argents",
+    "irregular": false
   },
   "arrêt": {
     "gender": "Masculin",
@@ -1200,7 +1319,8 @@
       "départ"
     ],
     "article": "l'",
-    "plural": "arrêts"
+    "plural": "arrêts",
+    "irregular": false
   },
   "art": {
     "gender": "Masculin",
@@ -1210,7 +1330,8 @@
       "nature"
     ],
     "article": "l'",
-    "plural": "arts"
+    "plural": "arts",
+    "irregular": false
   },
   "article": {
     "gender": "Masculin",
@@ -1220,7 +1341,8 @@
       "livre"
     ],
     "article": "l'",
-    "plural": "articles"
+    "plural": "articles",
+    "irregular": false
   },
   "aspect": {
     "gender": "Masculin",
@@ -1230,7 +1352,8 @@
       "fond"
     ],
     "article": "l'",
-    "plural": "aspects"
+    "plural": "aspects",
+    "irregular": false
   },
   "avertissement": {
     "gender": "Masculin",
@@ -1240,7 +1363,8 @@
       "encouragement"
     ],
     "article": "l'",
-    "plural": "avertissements"
+    "plural": "avertissements",
+    "irregular": false
   },
   "avis": {
     "gender": "Masculin",
@@ -1250,7 +1374,8 @@
       "doute"
     ],
     "article": "l'",
-    "plural": "avis"
+    "plural": "avis",
+    "irregular": false
   },
   "bain": {
     "gender": "Masculin",
@@ -1260,7 +1385,8 @@
       "douche"
     ],
     "article": "le",
-    "plural": "bains"
+    "plural": "bains",
+    "irregular": false
   },
   "balcon": {
     "gender": "Masculin",
@@ -1270,7 +1396,8 @@
       "terrasse"
     ],
     "article": "le",
-    "plural": "balcons"
+    "plural": "balcons",
+    "irregular": false
   },
   "ballon": {
     "gender": "Masculin",
@@ -1280,7 +1407,8 @@
       "balle"
     ],
     "article": "le",
-    "plural": "ballons"
+    "plural": "ballons",
+    "irregular": false
   },
   "banquier": {
     "gender": "Masculin",
@@ -1290,7 +1418,8 @@
       "client"
     ],
     "article": "le",
-    "plural": "banquiers"
+    "plural": "banquiers",
+    "irregular": false
   },
   "bâtiment": {
     "gender": "Masculin",
@@ -1300,7 +1429,8 @@
       "terrain"
     ],
     "article": "le",
-    "plural": "bâtiments"
+    "plural": "bâtiments",
+    "irregular": false
   },
   "bassin": {
     "gender": "Masculin",
@@ -1310,7 +1440,8 @@
       "lac"
     ],
     "article": "le",
-    "plural": "bassins"
+    "plural": "bassins",
+    "irregular": false
   },
   "besoin": {
     "gender": "Masculin",
@@ -1320,7 +1451,8 @@
       "superflu"
     ],
     "article": "le",
-    "plural": "besoins"
+    "plural": "besoins",
+    "irregular": false
   },
   "beurre": {
     "gender": "Masculin",
@@ -1330,7 +1462,8 @@
       "huile"
     ],
     "article": "le",
-    "plural": "beurres"
+    "plural": "beurres",
+    "irregular": false
   },
   "billet": {
     "gender": "Masculin",
@@ -1340,7 +1473,8 @@
       "pièce"
     ],
     "article": "le",
-    "plural": "billets"
+    "plural": "billets",
+    "irregular": false
   },
   "biscuit": {
     "gender": "Masculin",
@@ -1350,7 +1484,8 @@
       "gâteau"
     ],
     "article": "le",
-    "plural": "biscuits"
+    "plural": "biscuits",
+    "irregular": false
   },
   "bois": {
     "gender": "Masculin",
@@ -1360,7 +1495,8 @@
       "métal"
     ],
     "article": "le",
-    "plural": "bois"
+    "plural": "bois",
+    "irregular": false
   },
   "bonheur": {
     "gender": "Masculin",
@@ -1370,7 +1506,8 @@
       "malheur"
     ],
     "article": "le",
-    "plural": "bonheurs"
+    "plural": "bonheurs",
+    "irregular": false
   },
   "bureau": {
     "gender": "Masculin",
@@ -1380,7 +1517,8 @@
       "atelier"
     ],
     "article": "le",
-    "plural": "bureaux"
+    "plural": "bureaux",
+    "irregular": false
   },
   "bus": {
     "gender": "Masculin",
@@ -1390,7 +1528,8 @@
       "train"
     ],
     "article": "le",
-    "plural": "bus"
+    "plural": "bus",
+    "irregular": false
   },
   "cadeau": {
     "gender": "Masculin",
@@ -1400,7 +1539,8 @@
       "dette"
     ],
     "article": "le",
-    "plural": "cadeaux"
+    "plural": "cadeaux",
+    "irregular": false
   },
   "calcul": {
     "gender": "Masculin",
@@ -1410,7 +1550,8 @@
       "estimation"
     ],
     "article": "le",
-    "plural": "calculs"
+    "plural": "calculs",
+    "irregular": false
   },
   "calme": {
     "gender": "Masculin",
@@ -1420,7 +1561,8 @@
       "bruit"
     ],
     "article": "le",
-    "plural": "calmes"
+    "plural": "calmes",
+    "irregular": false
   },
   "camion": {
     "gender": "Masculin",
@@ -1430,7 +1572,8 @@
       "voiture"
     ],
     "article": "le",
-    "plural": "camions"
+    "plural": "camions",
+    "irregular": false
   },
   "camp": {
     "gender": "Masculin",
@@ -1440,7 +1583,8 @@
       "hôtel"
     ],
     "article": "le",
-    "plural": "camps"
+    "plural": "camps",
+    "irregular": false
   },
   "canal": {
     "gender": "Masculin",
@@ -1450,7 +1594,8 @@
       "fleuve"
     ],
     "article": "le",
-    "plural": "canaux"
+    "plural": "canaux",
+    "irregular": false
   },
   "charbon": {
     "gender": "Masculin",
@@ -1460,7 +1605,8 @@
       "bois"
     ],
     "article": "le",
-    "plural": "charbons"
+    "plural": "charbons",
+    "irregular": false
   },
   "chemin": {
     "gender": "Masculin",
@@ -1470,7 +1616,8 @@
       "route"
     ],
     "article": "le",
-    "plural": "chemins"
+    "plural": "chemins",
+    "irregular": false
   },
   "choix": {
     "gender": "Masculin",
@@ -1480,7 +1627,8 @@
       "obligation"
     ],
     "article": "le",
-    "plural": "choix"
+    "plural": "choix",
+    "irregular": false
   },
   "chocolat": {
     "gender": "Masculin",
@@ -1490,7 +1638,8 @@
       "bonbon"
     ],
     "article": "le",
-    "plural": "chocolats"
+    "plural": "chocolats",
+    "irregular": false
   },
   "cinéma": {
     "gender": "Masculin",
@@ -1500,7 +1649,8 @@
       "théâtre"
     ],
     "article": "le",
-    "plural": "cinémas"
+    "plural": "cinémas",
+    "irregular": false
   },
   "citron": {
     "gender": "Masculin",
@@ -1510,7 +1660,8 @@
       "orange"
     ],
     "article": "le",
-    "plural": "citrons"
+    "plural": "citrons",
+    "irregular": false
   },
   "client": {
     "gender": "Masculin",
@@ -1520,7 +1671,8 @@
       "vendeur"
     ],
     "article": "le",
-    "plural": "clients"
+    "plural": "clients",
+    "irregular": false
   },
   "climat": {
     "gender": "Masculin",
@@ -1530,7 +1682,8 @@
       "météo"
     ],
     "article": "le",
-    "plural": "climats"
+    "plural": "climats",
+    "irregular": false
   },
   "cœur": {
     "gender": "Masculin",
@@ -1540,7 +1693,8 @@
       "esprit"
     ],
     "article": "le",
-    "plural": "cœurs"
+    "plural": "cœurs",
+    "irregular": false
   },
   "coin": {
     "gender": "Masculin",
@@ -1550,7 +1704,8 @@
       "centre"
     ],
     "article": "le",
-    "plural": "coins"
+    "plural": "coins",
+    "irregular": false
   },
   "colère": {
     "gender": "Féminin",
@@ -1560,7 +1715,8 @@
       "calme"
     ],
     "article": "la",
-    "plural": "colères"
+    "plural": "colères",
+    "irregular": false
   },
   "collège": {
     "gender": "Masculin",
@@ -1570,7 +1726,8 @@
       "lycée"
     ],
     "article": "le",
-    "plural": "collèges"
+    "plural": "collèges",
+    "irregular": false
   },
   "combat": {
     "gender": "Masculin",
@@ -1580,7 +1737,8 @@
       "paix"
     ],
     "article": "le",
-    "plural": "combats"
+    "plural": "combats",
+    "irregular": false
   },
   "commerce": {
     "gender": "Masculin",
@@ -1590,7 +1748,8 @@
       "industrie"
     ],
     "article": "le",
-    "plural": "commerces"
+    "plural": "commerces",
+    "irregular": false
   },
   "compte": {
     "gender": "Masculin",
@@ -1600,7 +1759,8 @@
       "dette"
     ],
     "article": "le",
-    "plural": "comptes"
+    "plural": "comptes",
+    "irregular": false
   },
   "concert": {
     "gender": "Masculin",
@@ -1610,7 +1770,8 @@
       "opéra"
     ],
     "article": "le",
-    "plural": "concerts"
+    "plural": "concerts",
+    "irregular": false
   },
   "conseil": {
     "gender": "Masculin",
@@ -1620,7 +1781,8 @@
       "ordre"
     ],
     "article": "le",
-    "plural": "conseils"
+    "plural": "conseils",
+    "irregular": false
   },
   "continent": {
     "gender": "Masculin",
@@ -1630,7 +1792,8 @@
       "île"
     ],
     "article": "le",
-    "plural": "continents"
+    "plural": "continents",
+    "irregular": false
   },
   "contrat": {
     "gender": "Masculin",
@@ -1640,7 +1803,8 @@
       "litige"
     ],
     "article": "le",
-    "plural": "contrats"
+    "plural": "contrats",
+    "irregular": false
   },
   "contrôle": {
     "gender": "Masculin",
@@ -1650,7 +1814,8 @@
       "laisser-faire"
     ],
     "article": "le",
-    "plural": "contrôles"
+    "plural": "contrôles",
+    "irregular": false
   },
   "corps": {
     "gender": "Masculin",
@@ -1660,7 +1825,8 @@
       "âme"
     ],
     "article": "le",
-    "plural": "corps"
+    "plural": "corps",
+    "irregular": false
   },
   "costume": {
     "gender": "Masculin",
@@ -1670,7 +1836,8 @@
       "robe"
     ],
     "article": "le",
-    "plural": "costumes"
+    "plural": "costumes",
+    "irregular": false
   },
   "coton": {
     "gender": "Masculin",
@@ -1680,7 +1847,8 @@
       "laine"
     ],
     "article": "le",
-    "plural": "cotons"
+    "plural": "cotons",
+    "irregular": false
   },
   "coude": {
     "gender": "Masculin",
@@ -1690,7 +1858,8 @@
       "genou"
     ],
     "article": "le",
-    "plural": "coudes"
+    "plural": "coudes",
+    "irregular": false
   },
   "coup": {
     "gender": "Masculin",
@@ -1700,7 +1869,8 @@
       "caresse"
     ],
     "article": "le",
-    "plural": "coups"
+    "plural": "coups",
+    "irregular": false
   },
   "courrier": {
     "gender": "Masculin",
@@ -1710,7 +1880,8 @@
       "colis"
     ],
     "article": "le",
-    "plural": "courriers"
+    "plural": "courriers",
+    "irregular": false
   },
   "cours": {
     "gender": "Masculin",
@@ -1720,7 +1891,8 @@
       "examen"
     ],
     "article": "le",
-    "plural": "cours"
+    "plural": "cours",
+    "irregular": false
   },
   "couteau": {
     "gender": "Masculin",
@@ -1730,7 +1902,8 @@
       "fourchette"
     ],
     "article": "le",
-    "plural": "couteaux"
+    "plural": "couteaux",
+    "irregular": false
   },
   "couvercle": {
     "gender": "Masculin",
@@ -1740,7 +1913,8 @@
       "boîte"
     ],
     "article": "le",
-    "plural": "couvercles"
+    "plural": "couvercles",
+    "irregular": false
   },
   "crime": {
     "gender": "Masculin",
@@ -1750,7 +1924,8 @@
       "vertu"
     ],
     "article": "le",
-    "plural": "crimes"
+    "plural": "crimes",
+    "irregular": false
   },
   "cuisinier": {
     "gender": "Masculin",
@@ -1760,7 +1935,8 @@
       "serveur"
     ],
     "article": "le",
-    "plural": "cuisiniers"
+    "plural": "cuisiniers",
+    "irregular": false
   },
   "danger": {
     "gender": "Masculin",
@@ -1770,7 +1946,8 @@
       "sécurité"
     ],
     "article": "le",
-    "plural": "dangers"
+    "plural": "dangers",
+    "irregular": false
   },
   "début": {
     "gender": "Masculin",
@@ -1780,7 +1957,8 @@
       "fin"
     ],
     "article": "le",
-    "plural": "débuts"
+    "plural": "débuts",
+    "irregular": false
   },
   "départ": {
     "gender": "Masculin",
@@ -1790,7 +1968,8 @@
       "arrivée"
     ],
     "article": "le",
-    "plural": "départs"
+    "plural": "départs",
+    "irregular": false
   },
   "dessin": {
     "gender": "Masculin",
@@ -1800,7 +1979,8 @@
       "peinture"
     ],
     "article": "le",
-    "plural": "dessins"
+    "plural": "dessins",
+    "irregular": false
   },
   "devoir": {
     "gender": "Masculin",
@@ -1810,7 +1990,8 @@
       "droit"
     ],
     "article": "le",
-    "plural": "devoirs"
+    "plural": "devoirs",
+    "irregular": false
   },
   "dictionnaire": {
     "gender": "Masculin",
@@ -1820,7 +2001,8 @@
       "roman"
     ],
     "article": "le",
-    "plural": "dictionnaires"
+    "plural": "dictionnaires",
+    "irregular": false
   },
   "dimanche": {
     "gender": "Masculin",
@@ -1830,7 +2012,8 @@
       "lundi"
     ],
     "article": "le",
-    "plural": "dimanches"
+    "plural": "dimanches",
+    "irregular": false
   },
   "directeur": {
     "gender": "Masculin",
@@ -1840,7 +2023,8 @@
       "employé"
     ],
     "article": "le",
-    "plural": "directeurs"
+    "plural": "directeurs",
+    "irregular": false
   },
   "discours": {
     "gender": "Masculin",
@@ -1850,7 +2034,8 @@
       "silence"
     ],
     "article": "le",
-    "plural": "discours"
+    "plural": "discours",
+    "irregular": false
   },
   "doigt": {
     "gender": "Masculin",
@@ -1860,7 +2045,8 @@
       "orteil"
     ],
     "article": "le",
-    "plural": "doigts"
+    "plural": "doigts",
+    "irregular": false
   },
   "dommage": {
     "gender": "Masculin",
@@ -1870,7 +2056,8 @@
       "avantage"
     ],
     "article": "le",
-    "plural": "dommages"
+    "plural": "dommages",
+    "irregular": false
   },
   "doute": {
     "gender": "Masculin",
@@ -1880,7 +2067,8 @@
       "certitude"
     ],
     "article": "le",
-    "plural": "doutes"
+    "plural": "doutes",
+    "irregular": false
   },
   "droit": {
     "gender": "Masculin",
@@ -1890,7 +2078,8 @@
       "devoir"
     ],
     "article": "le",
-    "plural": "droits"
+    "plural": "droits",
+    "irregular": false
   },
   "éclair": {
     "gender": "Masculin",
@@ -1900,7 +2089,8 @@
       "tonnerre"
     ],
     "article": "l'",
-    "plural": "éclairs"
+    "plural": "éclairs",
+    "irregular": false
   },
   "écran": {
     "gender": "Masculin",
@@ -1910,7 +2100,8 @@
       "clavier"
     ],
     "article": "l'",
-    "plural": "écrans"
+    "plural": "écrans",
+    "irregular": false
   },
   "effort": {
     "gender": "Masculin",
@@ -1920,7 +2111,8 @@
       "repos"
     ],
     "article": "l'",
-    "plural": "efforts"
+    "plural": "efforts",
+    "irregular": false
   },
   "éléphant": {
     "gender": "Masculin",
@@ -1930,7 +2122,8 @@
       "souris"
     ],
     "article": "l'",
-    "plural": "éléphants"
+    "plural": "éléphants",
+    "irregular": false
   },
   "employé": {
     "gender": "Masculin",
@@ -1940,7 +2133,8 @@
       "patron"
     ],
     "article": "l'",
-    "plural": "employés"
+    "plural": "employés",
+    "irregular": false
   },
   "endroit": {
     "gender": "Masculin",
@@ -1950,7 +2144,8 @@
       "espace"
     ],
     "article": "l'",
-    "plural": "endroits"
+    "plural": "endroits",
+    "irregular": false
   },
   "ennemi": {
     "gender": "Masculin",
@@ -1960,7 +2155,8 @@
       "ami"
     ],
     "article": "l'",
-    "plural": "ennemis"
+    "plural": "ennemis",
+    "irregular": false
   },
   "escalier": {
     "gender": "Masculin",
@@ -1970,7 +2166,8 @@
       "ascenseur"
     ],
     "article": "l'",
-    "plural": "escaliers"
+    "plural": "escaliers",
+    "irregular": false
   },
   "espace": {
     "gender": "Masculin",
@@ -1980,7 +2177,8 @@
       "temps"
     ],
     "article": "l'",
-    "plural": "espaces"
+    "plural": "espaces",
+    "irregular": false
   },
   "esprit": {
     "gender": "Masculin",
@@ -1990,7 +2188,8 @@
       "matière"
     ],
     "article": "l'",
-    "plural": "esprits"
+    "plural": "esprits",
+    "irregular": false
   },
   "espoir": {
     "gender": "Masculin",
@@ -2000,7 +2199,8 @@
       "désespoir"
     ],
     "article": "l'",
-    "plural": "espoirs"
+    "plural": "espoirs",
+    "irregular": false
   },
   "essai": {
     "gender": "Masculin",
@@ -2010,7 +2210,8 @@
       "échec"
     ],
     "article": "l'",
-    "plural": "essais"
+    "plural": "essais",
+    "irregular": false
   },
   "été": {
     "gender": "Masculin",
@@ -2020,7 +2221,8 @@
       "hiver"
     ],
     "article": "l'",
-    "plural": "étés"
+    "plural": "étés",
+    "irregular": false
   },
   "étudiant": {
     "gender": "Masculin",
@@ -2030,7 +2232,8 @@
       "professeur"
     ],
     "article": "l'",
-    "plural": "étudiants"
+    "plural": "étudiants",
+    "irregular": false
   },
   "exemple": {
     "gender": "Masculin",
@@ -2040,7 +2243,8 @@
       "exception"
     ],
     "article": "l'",
-    "plural": "exemples"
+    "plural": "exemples",
+    "irregular": false
   },
   "exercice": {
     "gender": "Masculin",
@@ -2050,7 +2254,8 @@
       "repos"
     ],
     "article": "l'",
-    "plural": "exercices"
+    "plural": "exercices",
+    "irregular": false
   },
   "amour": {
     "gender": "Masculin",
@@ -2061,7 +2266,8 @@
     ],
     "article": "l'",
     "plural": "amours",
-    "grammar_rule": "💡 REMEMBER: Nom masculin au singulier ('un amour'), mais féminin au pluriel dans le style poétique ou littéraire ('de belles amours')."
+    "grammar_rule": "💡 REMEMBER: Nom masculin au singulier ('un amour'), mais féminin au pluriel dans le style poétique ou littéraire ('de belles amours').",
+    "irregular": false
   },
   "orgue": {
     "gender": "Masculin",
@@ -2072,7 +2278,8 @@
     ],
     "article": "l'",
     "plural": "orgues",
-    "grammar_rule": "💡 REMEMBER: Nom masculin au singulier ('un grand orgue'), mais souvent féminin au pluriel ('les grandes orgues')."
+    "grammar_rule": "💡 REMEMBER: Nom masculin au singulier ('un grand orgue'), mais souvent féminin au pluriel ('les grandes orgues').",
+    "irregular": false
   },
   "gens": {
     "gender": "Masculin",
@@ -2083,7 +2290,8 @@
     ],
     "article": "les",
     "plural": "gens",
-    "grammar_rule": "💡 REMEMBER: Nom masculin pluriel ('les gens'), mais tout adjectif placé immédiatement devant lui prend la forme féminine ('toutes les vieilles gens')."
+    "grammar_rule": "💡 REMEMBER: Nom masculin pluriel ('les gens'), mais tout adjectif placé immédiatement devant lui prend la forme féminine ('toutes les vieilles gens').",
+    "irregular": false
   },
   "après-midi": {
     "gender": "Masculin / Féminin",
@@ -2094,7 +2302,8 @@
     ],
     "article": "l'",
     "plural": "après-midi",
-    "grammar_rule": "💡 REMEMBER: Genre invariable — accepté au masculin et au féminin ('un/une après-midi'), et invariable au pluriel ('des après-midi')."
+    "grammar_rule": "💡 REMEMBER: Genre invariable — accepté au masculin et au féminin ('un/une après-midi'), et invariable au pluriel ('des après-midi').",
+    "irregular": true
   },
   "œuvre": {
     "gender": "Féminin",
@@ -2105,7 +2314,8 @@
     ],
     "article": "l'",
     "plural": "œuvres",
-    "grammar_rule": "💡 REMEMBER: Nom féminin ('une œuvre d'art'), mais masculin dans des expressions techniques comme 'le gros œuvre' en bâtiment."
+    "grammar_rule": "💡 REMEMBER: Nom féminin ('une œuvre d'art'), mais masculin dans des expressions techniques comme 'le gros œuvre' en bâtiment.",
+    "irregular": false
   },
   "rouge": {
     "gender": "Masculin",
@@ -2113,7 +2323,8 @@
     "definition": "Couleur du sang et du coquelicot.",
     "antonyms": [],
     "article": "le",
-    "plural": "rouges"
+    "plural": "rouges",
+    "irregular": false
   },
   "bleu": {
     "gender": "Masculin",
@@ -2121,7 +2332,8 @@
     "definition": "Couleur du ciel dégagé et de la mer.",
     "antonyms": [],
     "article": "le",
-    "plural": "bleus"
+    "plural": "bleus",
+    "irregular": true
   },
   "vert": {
     "gender": "Masculin",
@@ -2129,7 +2341,8 @@
     "definition": "Couleur de l'herbe et des feuilles.",
     "antonyms": [],
     "article": "le",
-    "plural": "verts"
+    "plural": "verts",
+    "irregular": false
   },
   "jaune": {
     "gender": "Masculin",
@@ -2137,7 +2350,8 @@
     "definition": "Couleur du soleil et du citron.",
     "antonyms": [],
     "article": "le",
-    "plural": "jaunes"
+    "plural": "jaunes",
+    "irregular": false
   },
   "noir": {
     "gender": "Masculin",
@@ -2147,7 +2361,8 @@
       "blanc"
     ],
     "article": "le",
-    "plural": "noirs"
+    "plural": "noirs",
+    "irregular": false
   },
   "blanc": {
     "gender": "Masculin",
@@ -2157,7 +2372,8 @@
       "noir"
     ],
     "article": "le",
-    "plural": "blancs"
+    "plural": "blancs",
+    "irregular": false
   },
   "orange": {
     "gender": "Masculin",
@@ -2165,7 +2381,8 @@
     "definition": "Couleur secondaire entre le rouge et le jaune.",
     "antonyms": [],
     "article": "l'",
-    "plural": "oranges"
+    "plural": "oranges",
+    "irregular": false
   },
   "violet": {
     "gender": "Masculin",
@@ -2173,7 +2390,8 @@
     "definition": "Couleur secondaire entre le bleu et le rouge.",
     "antonyms": [],
     "article": "le",
-    "plural": "violets"
+    "plural": "violets",
+    "irregular": false
   },
   "rose": {
     "gender": "Masculin",
@@ -2181,7 +2399,8 @@
     "definition": "Couleur claire obtenue en mélangeant le rouge et le blanc.",
     "antonyms": [],
     "article": "le",
-    "plural": "roses"
+    "plural": "roses",
+    "irregular": false
   },
   "marron": {
     "gender": "Masculin",
@@ -2189,7 +2408,8 @@
     "definition": "Couleur de la châtaigne et du bois.",
     "antonyms": [],
     "article": "le",
-    "plural": "marrons"
+    "plural": "marrons",
+    "irregular": false
   },
   "gris": {
     "gender": "Masculin",
@@ -2197,7 +2417,8 @@
     "definition": "Couleur neutre entre le noir et le blanc.",
     "antonyms": [],
     "article": "le",
-    "plural": "gris"
+    "plural": "gris",
+    "irregular": false
   },
   "père": {
     "gender": "Masculin",
@@ -2207,7 +2428,8 @@
       "mère"
     ],
     "article": "le",
-    "plural": "pères"
+    "plural": "pères",
+    "irregular": false
   },
   "mère": {
     "gender": "Féminin",
@@ -2217,7 +2439,8 @@
       "père"
     ],
     "article": "la",
-    "plural": "mères"
+    "plural": "mères",
+    "irregular": false
   },
   "frère": {
     "gender": "Masculin",
@@ -2227,7 +2450,8 @@
       "sœur"
     ],
     "article": "le",
-    "plural": "frères"
+    "plural": "frères",
+    "irregular": false
   },
   "sœur": {
     "gender": "Féminin",
@@ -2237,7 +2461,8 @@
       "frère"
     ],
     "article": "la",
-    "plural": "sœurs"
+    "plural": "sœurs",
+    "irregular": false
   },
   "fils": {
     "gender": "Masculin",
@@ -2247,7 +2472,8 @@
       "fille"
     ],
     "article": "le",
-    "plural": "fils"
+    "plural": "fils",
+    "irregular": false
   },
   "fille": {
     "gender": "Féminin",
@@ -2257,7 +2483,8 @@
       "fils"
     ],
     "article": "la",
-    "plural": "filles"
+    "plural": "filles",
+    "irregular": false
   },
   "parent": {
     "gender": "Masculin",
@@ -2267,7 +2494,8 @@
       "enfant"
     ],
     "article": "le",
-    "plural": "parents"
+    "plural": "parents",
+    "irregular": false
   },
   "enfant": {
     "gender": "Masculin / Féminin",
@@ -2277,7 +2505,8 @@
       "parent"
     ],
     "article": "l'",
-    "plural": "enfants"
+    "plural": "enfants",
+    "irregular": false
   },
   "grand-père": {
     "gender": "Masculin",
@@ -2288,7 +2517,8 @@
     ],
     "article": "le",
     "plural": "grands-pères",
-    "grammar_rule": "💡 REMEMBER: Nom composé masculin — pluriel régulier où chaque élément s'accorde ('les grands-pères')."
+    "grammar_rule": "💡 REMEMBER: Nom composé masculin — pluriel régulier où chaque élément s'accorde ('les grands-pères').",
+    "irregular": true
   },
   "grand-mère": {
     "gender": "Féminin",
@@ -2299,7 +2529,8 @@
     ],
     "article": "la",
     "plural": "grands-mères",
-    "grammar_rule": "💡 REMEMBER: Nom composé féminin — 'grand' prend un 's' au pluriel ('les grands-mères')."
+    "grammar_rule": "💡 REMEMBER: Nom composé féminin — 'grand' prend un 's' au pluriel ('les grands-mères').",
+    "irregular": true
   },
   "lundi": {
     "gender": "Masculin",
@@ -2309,7 +2540,8 @@
       "dimanche"
     ],
     "article": "le",
-    "plural": "lundis"
+    "plural": "lundis",
+    "irregular": false
   },
   "mardi": {
     "gender": "Masculin",
@@ -2317,7 +2549,8 @@
     "definition": "Deuxième jour de la semaine.",
     "antonyms": [],
     "article": "le",
-    "plural": "mardis"
+    "plural": "mardis",
+    "irregular": false
   },
   "mercredi": {
     "gender": "Masculin",
@@ -2325,7 +2558,8 @@
     "definition": "Troisième jour de la semaine.",
     "antonyms": [],
     "article": "le",
-    "plural": "mercredis"
+    "plural": "mercredis",
+    "irregular": false
   },
   "jeudi": {
     "gender": "Masculin",
@@ -2333,7 +2567,8 @@
     "definition": "Quatrième jour de la semaine.",
     "antonyms": [],
     "article": "le",
-    "plural": "jeudis"
+    "plural": "jeudis",
+    "irregular": false
   },
   "vendredi": {
     "gender": "Masculin",
@@ -2341,7 +2576,8 @@
     "definition": "Cinquième jour de la semaine.",
     "antonyms": [],
     "article": "le",
-    "plural": "vendredis"
+    "plural": "vendredis",
+    "irregular": false
   },
   "samedi": {
     "gender": "Masculin",
@@ -2349,7 +2585,8 @@
     "definition": "Sixième jour de la semaine.",
     "antonyms": [],
     "article": "le",
-    "plural": "samedis"
+    "plural": "samedis",
+    "irregular": false
   },
   "assiette": {
     "gender": "Féminin",
@@ -2359,7 +2596,8 @@
       "bol"
     ],
     "article": "l'",
-    "plural": "assiettes"
+    "plural": "assiettes",
+    "irregular": false
   },
   "verre": {
     "gender": "Masculin",
@@ -2369,7 +2607,8 @@
       "tasse"
     ],
     "article": "le",
-    "plural": "verres"
+    "plural": "verres",
+    "irregular": false
   },
   "fourchette": {
     "gender": "Féminin",
@@ -2379,7 +2618,8 @@
       "couteau"
     ],
     "article": "la",
-    "plural": "fourchettes"
+    "plural": "fourchettes",
+    "irregular": false
   },
   "cuillère": {
     "gender": "Féminin",
@@ -2389,7 +2629,8 @@
       "fourchette"
     ],
     "article": "la",
-    "plural": "cuillères"
+    "plural": "cuillères",
+    "irregular": false
   },
   "sel": {
     "gender": "Masculin",
@@ -2399,7 +2640,8 @@
       "poivre"
     ],
     "article": "le",
-    "plural": "sels"
+    "plural": "sels",
+    "irregular": false
   },
   "poivre": {
     "gender": "Masculin",
@@ -2409,7 +2651,8 @@
       "sel"
     ],
     "article": "le",
-    "plural": "poivres"
+    "plural": "poivres",
+    "irregular": false
   },
   "sucre": {
     "gender": "Masculin",
@@ -2419,7 +2662,8 @@
       "sel"
     ],
     "article": "le",
-    "plural": "sucres"
+    "plural": "sucres",
+    "irregular": false
   },
   "chemise": {
     "gender": "Féminin",
@@ -2429,7 +2673,8 @@
       "pantalon"
     ],
     "article": "la",
-    "plural": "chemises"
+    "plural": "chemises",
+    "irregular": false
   },
   "robe": {
     "gender": "Féminin",
@@ -2439,7 +2684,8 @@
       "costume"
     ],
     "article": "la",
-    "plural": "robes"
+    "plural": "robes",
+    "irregular": false
   },
   "jupe": {
     "gender": "Féminin",
@@ -2449,7 +2695,8 @@
       "pantalon"
     ],
     "article": "la",
-    "plural": "jupes"
+    "plural": "jupes",
+    "irregular": false
   },
   "veste": {
     "gender": "Féminin",
@@ -2459,7 +2706,8 @@
       "manteau"
     ],
     "article": "la",
-    "plural": "vestes"
+    "plural": "vestes",
+    "irregular": false
   },
   "chaussette": {
     "gender": "Féminin",
@@ -2469,7 +2717,8 @@
       "chaussure"
     ],
     "article": "la",
-    "plural": "chaussettes"
+    "plural": "chaussettes",
+    "irregular": false
   },
   "chaussure": {
     "gender": "Féminin",
@@ -2479,7 +2728,8 @@
       "chaussette"
     ],
     "article": "la",
-    "plural": "chaussures"
+    "plural": "chaussures",
+    "irregular": false
   },
   "gant": {
     "gender": "Masculin",
@@ -2489,7 +2739,8 @@
       "chaussette"
     ],
     "article": "le",
-    "plural": "gants"
+    "plural": "gants",
+    "irregular": false
   },
   "pluie": {
     "gender": "Féminin",
@@ -2499,7 +2750,8 @@
       "sécheresse"
     ],
     "article": "la",
-    "plural": "pluies"
+    "plural": "pluies",
+    "irregular": false
   },
   "neige": {
     "gender": "Féminin",
@@ -2509,7 +2761,8 @@
       "pluie"
     ],
     "article": "la",
-    "plural": "neiges"
+    "plural": "neiges",
+    "irregular": false
   },
   "glace": {
     "gender": "Féminin",
@@ -2519,7 +2772,8 @@
       "feu"
     ],
     "article": "la",
-    "plural": "glaces"
+    "plural": "glaces",
+    "irregular": false
   },
   "nuage": {
     "gender": "Masculin",
@@ -2529,7 +2783,8 @@
       "soleil"
     ],
     "article": "le",
-    "plural": "nuages"
+    "plural": "nuages",
+    "irregular": false
   },
   "étoile": {
     "gender": "Féminin",
@@ -2539,7 +2794,8 @@
       "soleil"
     ],
     "article": "l'",
-    "plural": "étoiles"
+    "plural": "étoiles",
+    "irregular": false
   },
   "lune": {
     "gender": "Féminin",
@@ -2549,7 +2805,8 @@
       "soleil"
     ],
     "article": "la",
-    "plural": "lunes"
+    "plural": "lunes",
+    "irregular": false
   },
   "rivière": {
     "gender": "Féminin",
@@ -2559,7 +2816,8 @@
       "fleuve"
     ],
     "article": "la",
-    "plural": "rivières"
+    "plural": "rivières",
+    "irregular": false
   },
   "forêt": {
     "gender": "Féminin",
@@ -2569,7 +2827,8 @@
       "désert"
     ],
     "article": "la",
-    "plural": "forêts"
+    "plural": "forêts",
+    "irregular": false
   },
   "magasin": {
     "gender": "Masculin",
@@ -2579,7 +2838,8 @@
       "marché"
     ],
     "article": "le",
-    "plural": "magasins"
+    "plural": "magasins",
+    "irregular": false
   },
   "marché": {
     "gender": "Masculin",
@@ -2589,7 +2849,8 @@
       "magasin"
     ],
     "article": "le",
-    "plural": "marchés"
+    "plural": "marchés",
+    "irregular": false
   },
   "banque": {
     "gender": "Féminin",
@@ -2599,7 +2860,8 @@
       "magasin"
     ],
     "article": "la",
-    "plural": "banques"
+    "plural": "banques",
+    "irregular": false
   },
   "église": {
     "gender": "Féminin",
@@ -2609,7 +2871,8 @@
       "mosquée"
     ],
     "article": "l'",
-    "plural": "églises"
+    "plural": "églises",
+    "irregular": false
   },
   "hôpital": {
     "gender": "Masculin",
@@ -2620,7 +2883,8 @@
     ],
     "article": "l'",
     "plural": "hôpitaux",
-    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-aux' ('les hôpitaux')."
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-aux' ('les hôpitaux').",
+    "irregular": false
   },
   "pharmacie": {
     "gender": "Féminin",
@@ -2630,7 +2894,8 @@
       "hôpital"
     ],
     "article": "la",
-    "plural": "pharmacies"
+    "plural": "pharmacies",
+    "irregular": false
   },
   "gare": {
     "gender": "Féminin",
@@ -2640,7 +2905,8 @@
       "aéroport"
     ],
     "article": "la",
-    "plural": "gares"
+    "plural": "gares",
+    "irregular": false
   },
   "pont": {
     "gender": "Masculin",
@@ -2650,7 +2916,8 @@
       "tunnel"
     ],
     "article": "le",
-    "plural": "ponts"
+    "plural": "ponts",
+    "irregular": false
   },
   "médecin": {
     "gender": "Masculin / Féminin",
@@ -2661,7 +2928,8 @@
     ],
     "article": "le",
     "plural": "médecins",
-    "grammar_rule": "💡 REMEMBER: Nom de profession historiquement masculin. En usage standard, le mot s'utilise pour les deux genres ('un médecin', 'une médecin')."
+    "grammar_rule": "💡 REMEMBER: Nom de profession historiquement masculin. En usage standard, le mot s'utilise pour les deux genres ('un médecin', 'une médecin').",
+    "irregular": false
   },
   "professeur": {
     "gender": "Masculin",
@@ -2672,7 +2940,8 @@
     ],
     "article": "le",
     "plural": "professeurs",
-    "grammar_rule": "💡 REMEMBER: Le féminin moderne est 'professeure' ('une professeure'), très répandu bien que la forme masculine reste parfois employée dans certains registres formels."
+    "grammar_rule": "💡 REMEMBER: Le féminin moderne est 'professeure' ('une professeure'), très répandu bien que la forme masculine reste parfois employée dans certains registres formels.",
+    "irregular": false
   },
   "avocat": {
     "gender": "Masculin",
@@ -2683,7 +2952,8 @@
     ],
     "article": "l'",
     "plural": "avocats",
-    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-e' ('une avocate'). Ne pas confondre avec le fruit ('l'avocat')."
+    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-e' ('une avocate'). Ne pas confondre avec le fruit ('l'avocat').",
+    "irregular": false
   },
   "ingénieur": {
     "gender": "Masculin",
@@ -2694,7 +2964,8 @@
     ],
     "article": "l'",
     "plural": "ingénieurs",
-    "grammar_rule": "💡 REMEMBER: Le féminin s'écrit 'ingénieure' ('une ingénieure') avec un '-e' final."
+    "grammar_rule": "💡 REMEMBER: Le féminin s'écrit 'ingénieure' ('une ingénieure') avec un '-e' final.",
+    "irregular": false
   },
   "infirmier": {
     "gender": "Masculin",
@@ -2705,7 +2976,8 @@
     ],
     "article": "l'",
     "plural": "infirmiers",
-    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-ière' avec accent grave ('une infirmière')."
+    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-ière' avec accent grave ('une infirmière').",
+    "irregular": false
   },
   "policier": {
     "gender": "Masculin",
@@ -2716,7 +2988,8 @@
     ],
     "article": "le",
     "plural": "policiers",
-    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-ière' avec accent grave ('une policière')."
+    "grammar_rule": "💡 REMEMBER: Féminin régulier en '-ière' avec accent grave ('une policière').",
+    "irregular": false
   },
   "amitié": {
     "gender": "Féminin",
@@ -2726,7 +2999,8 @@
       "inimitié"
     ],
     "article": "l'",
-    "plural": "amitiés"
+    "plural": "amitiés",
+    "irregular": false
   },
   "confiance": {
     "gender": "Féminin",
@@ -2736,7 +3010,8 @@
       "méfiance"
     ],
     "article": "la",
-    "plural": "confiances"
+    "plural": "confiances",
+    "irregular": false
   },
   "patience": {
     "gender": "Féminin",
@@ -2746,7 +3021,8 @@
       "impatience"
     ],
     "article": "la",
-    "plural": "patiences"
+    "plural": "patiences",
+    "irregular": false
   },
   "honte": {
     "gender": "Féminin",
@@ -2757,7 +3033,8 @@
     ],
     "article": "la",
     "plural": "hontes",
-    "grammar_rule": "💡 REMEMBER: \"h\" aspiré — pas d'élision (\"la honte\", pas \"l'honte\")."
+    "grammar_rule": "💡 REMEMBER: \"h\" aspiré — pas d'élision (\"la honte\", pas \"l'honte\").",
+    "irregular": false
   },
   "fierté": {
     "gender": "Féminin",
@@ -2767,7 +3044,8 @@
       "honte"
     ],
     "article": "la",
-    "plural": "fiertés"
+    "plural": "fiertés",
+    "irregular": false
   },
   "curiosité": {
     "gender": "Féminin",
@@ -2777,7 +3055,8 @@
       "indifférence"
     ],
     "article": "la",
-    "plural": "curiosités"
+    "plural": "curiosités",
+    "irregular": false
   },
   "ordinateur": {
     "gender": "Masculin",
@@ -2787,7 +3066,8 @@
       "papier"
     ],
     "article": "l'",
-    "plural": "ordinateurs"
+    "plural": "ordinateurs",
+    "irregular": false
   },
   "téléphone": {
     "gender": "Masculin",
@@ -2797,7 +3077,8 @@
       "lettre"
     ],
     "article": "le",
-    "plural": "téléphones"
+    "plural": "téléphones",
+    "irregular": false
   },
   "internet": {
     "gender": "Masculin",
@@ -2806,7 +3087,8 @@
     "antonyms": [],
     "article": "l'",
     "plural": "internets",
-    "grammar_rule": "💡 REMEMBER: Souvent employé sans article ou avec majuscule (\"sur Internet\", \"l'internet\")."
+    "grammar_rule": "💡 REMEMBER: Souvent employé sans article ou avec majuscule (\"sur Internet\", \"l'internet\").",
+    "irregular": false
   },
   "clavier": {
     "gender": "Masculin",
@@ -2816,7 +3098,8 @@
       "écran"
     ],
     "article": "le",
-    "plural": "claviers"
+    "plural": "claviers",
+    "irregular": false
   },
   "souris": {
     "gender": "Féminin",
@@ -2827,7 +3110,8 @@
     ],
     "article": "la",
     "plural": "souris",
-    "grammar_rule": "💡 REMEMBER: Toujours du genre féminin (\"la souris\"), y compris pour le périphérique informatique. Invariable au pluriel."
+    "grammar_rule": "💡 REMEMBER: Toujours du genre féminin (\"la souris\"), y compris pour le périphérique informatique. Invariable au pluriel.",
+    "irregular": false
   },
   "message": {
     "gender": "Masculin",
@@ -2837,7 +3121,8 @@
       "silence"
     ],
     "article": "le",
-    "plural": "messages"
+    "plural": "messages",
+    "irregular": false
   },
   "janvier": {
     "gender": "Masculin",
@@ -2845,7 +3130,8 @@
     "definition": "Premier mois de l'année civile.",
     "antonyms": [],
     "article": "le",
-    "plural": "janviers"
+    "plural": "janviers",
+    "irregular": false
   },
   "février": {
     "gender": "Masculin",
@@ -2853,7 +3139,8 @@
     "definition": "Deuxième mois de l'année civile.",
     "antonyms": [],
     "article": "le",
-    "plural": "févriers"
+    "plural": "févriers",
+    "irregular": false
   },
   "mars": {
     "gender": "Masculin",
@@ -2861,7 +3148,8 @@
     "definition": "Troisième mois de l'année civile.",
     "antonyms": [],
     "article": "le",
-    "plural": "mars"
+    "plural": "mars",
+    "irregular": false
   },
   "avril": {
     "gender": "Masculin",
@@ -2869,7 +3157,8 @@
     "definition": "Quatrième mois de l'année civile.",
     "antonyms": [],
     "article": "l'",
-    "plural": "avrils"
+    "plural": "avrils",
+    "irregular": false
   },
   "mai": {
     "gender": "Masculin",
@@ -2877,7 +3166,8 @@
     "definition": "Cinquième mois de l'année civile.",
     "antonyms": [],
     "article": "le",
-    "plural": "mais"
+    "plural": "mais",
+    "irregular": false
   },
   "juin": {
     "gender": "Masculin",
@@ -2885,7 +3175,8 @@
     "definition": "Sixième mois de l'année civile.",
     "antonyms": [],
     "article": "le",
-    "plural": "juins"
+    "plural": "juins",
+    "irregular": false
   },
   "juillet": {
     "gender": "Masculin",
@@ -2893,7 +3184,8 @@
     "definition": "Septième mois de l'année civile.",
     "antonyms": [],
     "article": "le",
-    "plural": "juillets"
+    "plural": "juillets",
+    "irregular": false
   },
   "août": {
     "gender": "Masculin",
@@ -2901,7 +3193,8 @@
     "definition": "Huitième mois de l'année civile.",
     "antonyms": [],
     "article": "l'",
-    "plural": "aoûts"
+    "plural": "aoûts",
+    "irregular": false
   },
   "septembre": {
     "gender": "Masculin",
@@ -2909,7 +3202,8 @@
     "definition": "Neuvième mois de l'année civile.",
     "antonyms": [],
     "article": "le",
-    "plural": "septembres"
+    "plural": "septembres",
+    "irregular": false
   },
   "octobre": {
     "gender": "Masculin",
@@ -2917,7 +3211,8 @@
     "definition": "Dixième mois de l'année civile.",
     "antonyms": [],
     "article": "l'",
-    "plural": "octobres"
+    "plural": "octobres",
+    "irregular": false
   },
   "novembre": {
     "gender": "Masculin",
@@ -2925,7 +3220,8 @@
     "definition": "Onzième mois de l'année civile.",
     "antonyms": [],
     "article": "le",
-    "plural": "novembres"
+    "plural": "novembres",
+    "irregular": false
   },
   "décembre": {
     "gender": "Masculin",
@@ -2933,7 +3229,8 @@
     "definition": "Douzième et dernier mois de l'année civile.",
     "antonyms": [],
     "article": "le",
-    "plural": "décembres"
+    "plural": "décembres",
+    "irregular": false
   },
   "printemps": {
     "gender": "Masculin",
@@ -2943,7 +3240,8 @@
       "automne"
     ],
     "article": "le",
-    "plural": "printemps"
+    "plural": "printemps",
+    "irregular": false
   },
   "automne": {
     "gender": "Masculin",
@@ -2953,7 +3251,8 @@
       "printemps"
     ],
     "article": "l'",
-    "plural": "automnes"
+    "plural": "automnes",
+    "irregular": false
   },
   "hiver": {
     "gender": "Masculin",
@@ -2963,7 +3262,8 @@
       "été"
     ],
     "article": "l'",
-    "plural": "hivers"
+    "plural": "hivers",
+    "irregular": false
   },
   "valise": {
     "gender": "Féminin",
@@ -2971,7 +3271,8 @@
     "definition": "Bagage rigide ou souple pour transporter ses affaires.",
     "antonyms": [],
     "article": "la",
-    "plural": "valises"
+    "plural": "valises",
+    "irregular": false
   },
   "passeport": {
     "gender": "Masculin",
@@ -2979,7 +3280,8 @@
     "definition": "Document officiel d'identité pour voyager à l'étranger.",
     "antonyms": [],
     "article": "le",
-    "plural": "passeports"
+    "plural": "passeports",
+    "irregular": false
   },
   "sport": {
     "gender": "Masculin",
@@ -2987,7 +3289,8 @@
     "definition": "Activité physique exercée selon des règles.",
     "antonyms": [],
     "article": "le",
-    "plural": "sports"
+    "plural": "sports",
+    "irregular": false
   },
   "équipe": {
     "gender": "Féminin",
@@ -2995,7 +3298,8 @@
     "definition": "Groupe de personnes jouant ou travaillant ensemble.",
     "antonyms": [],
     "article": "l'",
-    "plural": "équipes"
+    "plural": "équipes",
+    "irregular": false
   },
   "match": {
     "gender": "Masculin",
@@ -3003,7 +3307,8 @@
     "definition": "Compétition sportive entre deux adversaires.",
     "antonyms": [],
     "article": "le",
-    "plural": "matchs"
+    "plural": "matchs",
+    "irregular": false
   },
   "piscine": {
     "gender": "Féminin",
@@ -3011,7 +3316,8 @@
     "definition": "Bassin artificiel rempli d'eau pour la natation.",
     "antonyms": [],
     "article": "la",
-    "plural": "piscines"
+    "plural": "piscines",
+    "irregular": false
   },
   "prix": {
     "gender": "Masculin",
@@ -3019,7 +3325,8 @@
     "definition": "Somme d'argent à payer pour acheter quelque chose.",
     "antonyms": [],
     "article": "le",
-    "plural": "prix"
+    "plural": "prix",
+    "irregular": false
   },
   "publicité": {
     "gender": "Féminin",
@@ -3027,7 +3334,8 @@
     "definition": "Action de faire connaître un produit au public.",
     "antonyms": [],
     "article": "la",
-    "plural": "publicités"
+    "plural": "publicités",
+    "irregular": false
   },
   "journal": {
     "gender": "Masculin",
@@ -3036,7 +3344,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-aux' ('les journaux').",
     "article": "le",
-    "plural": "journaux"
+    "plural": "journaux",
+    "irregular": false
   },
   "émission": {
     "gender": "Féminin",
@@ -3044,7 +3353,8 @@
     "definition": "Programme diffusé à la télévision ou à la radio.",
     "antonyms": [],
     "article": "l'",
-    "plural": "émissions"
+    "plural": "émissions",
+    "irregular": false
   },
   "médicament": {
     "gender": "Masculin",
@@ -3052,7 +3362,8 @@
     "definition": "Substance utilisée pour soigner ou guérir une maladie.",
     "antonyms": [],
     "article": "le",
-    "plural": "médicaments"
+    "plural": "médicaments",
+    "irregular": false
   },
   "fièvre": {
     "gender": "Féminin",
@@ -3060,7 +3371,8 @@
     "definition": "Élévation anormale de la température du corps.",
     "antonyms": [],
     "article": "la",
-    "plural": "fièvres"
+    "plural": "fièvres",
+    "irregular": false
   },
   "rhume": {
     "gender": "Masculin",
@@ -3068,7 +3380,8 @@
     "definition": "Infection virale bénigne des voies respiratoires.",
     "antonyms": [],
     "article": "le",
-    "plural": "rhumes"
+    "plural": "rhumes",
+    "irregular": false
   },
   "environnement": {
     "gender": "Masculin",
@@ -3076,7 +3389,8 @@
     "definition": "Ensemble des éléments naturels et artificiels qui entourent un organisme.",
     "antonyms": [],
     "article": "l'",
-    "plural": "environnements"
+    "plural": "environnements",
+    "irregular": false
   },
   "pollution": {
     "gender": "Féminin",
@@ -3084,7 +3398,8 @@
     "definition": "Dégradation de l'environnement par des substances nocives.",
     "antonyms": [],
     "article": "la",
-    "plural": "pollutions"
+    "plural": "pollutions",
+    "irregular": false
   },
   "société": {
     "gender": "Féminin",
@@ -3092,7 +3407,8 @@
     "definition": "Ensemble de personnes vivant en communauté organisée.",
     "antonyms": [],
     "article": "la",
-    "plural": "sociétés"
+    "plural": "sociétés",
+    "irregular": false
   },
   "gouvernement": {
     "gender": "Masculin",
@@ -3100,7 +3416,8 @@
     "definition": "Organe politique qui dirige un État.",
     "antonyms": [],
     "article": "le",
-    "plural": "gouvernements"
+    "plural": "gouvernements",
+    "irregular": false
   },
   "économie": {
     "gender": "Féminin",
@@ -3108,7 +3425,8 @@
     "definition": "Système de production, de distribution et de consommation des richesses.",
     "antonyms": [],
     "article": "l'",
-    "plural": "économies"
+    "plural": "économies",
+    "irregular": false
   },
   "entreprise": {
     "gender": "Féminin",
@@ -3116,7 +3434,8 @@
     "definition": "Organisation économique de production de biens ou de services.",
     "antonyms": [],
     "article": "l'",
-    "plural": "entreprises"
+    "plural": "entreprises",
+    "irregular": false
   },
   "collègue": {
     "gender": "Masculin / Féminin",
@@ -3125,7 +3444,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nom de forme identique au masculin et au féminin ('un collègue' / 'une collègue').",
     "article": "le",
-    "plural": "collègues"
+    "plural": "collègues",
+    "irregular": false
   },
   "réunion": {
     "gender": "Féminin",
@@ -3133,7 +3453,8 @@
     "definition": "Rassemblement de personnes pour discuter d'un sujet professionnel.",
     "antonyms": [],
     "article": "la",
-    "plural": "réunions"
+    "plural": "réunions",
+    "irregular": false
   },
   "carrière": {
     "gender": "Féminin",
@@ -3141,7 +3462,8 @@
     "definition": "Parcours professionnel continu au cours de la vie active.",
     "antonyms": [],
     "article": "la",
-    "plural": "carrières"
+    "plural": "carrières",
+    "irregular": false
   },
   "salaire": {
     "gender": "Masculin",
@@ -3149,7 +3471,8 @@
     "definition": "Rémunération versée à un employé pour son travail.",
     "antonyms": [],
     "article": "le",
-    "plural": "salaires"
+    "plural": "salaires",
+    "irregular": false
   },
   "relation": {
     "gender": "Féminin",
@@ -3157,7 +3480,8 @@
     "definition": "Lien ou rapport réciproque entre personnes ou entités.",
     "antonyms": [],
     "article": "la",
-    "plural": "relations"
+    "plural": "relations",
+    "irregular": false
   },
   "malentendu": {
     "gender": "Masculin",
@@ -3167,7 +3491,8 @@
       "entente"
     ],
     "article": "le",
-    "plural": "malentendus"
+    "plural": "malentendus",
+    "irregular": false
   },
   "déception": {
     "gender": "Féminin",
@@ -3177,7 +3502,8 @@
       "satisfaction"
     ],
     "article": "la",
-    "plural": "déceptions"
+    "plural": "déceptions",
+    "irregular": false
   },
   "opinion": {
     "gender": "Féminin",
@@ -3185,7 +3511,8 @@
     "definition": "Jugement ou avis personnel porté sur un sujet.",
     "antonyms": [],
     "article": "l'",
-    "plural": "opinions"
+    "plural": "opinions",
+    "irregular": false
   },
   "débat": {
     "gender": "Masculin",
@@ -3193,7 +3520,8 @@
     "definition": "Discussion organisée entre personnes aux avis divergents.",
     "antonyms": [],
     "article": "le",
-    "plural": "débats"
+    "plural": "débats",
+    "irregular": false
   },
   "média": {
     "gender": "Masculin",
@@ -3201,7 +3529,8 @@
     "definition": "Moyen de diffusion d'informations au grand public.",
     "antonyms": [],
     "article": "le",
-    "plural": "médias"
+    "plural": "médias",
+    "irregular": false
   },
   "réseau": {
     "gender": "Masculin",
@@ -3210,7 +3539,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-x' ('les réseaux').",
     "article": "le",
-    "plural": "réseaux"
+    "plural": "réseaux",
+    "irregular": false
   },
   "armoire": {
     "gender": "Féminin",
@@ -3218,7 +3548,8 @@
     "definition": "Grand meuble fermé à portes pour ranger les vêtements.",
     "antonyms": [],
     "article": "l'",
-    "plural": "armoires"
+    "plural": "armoires",
+    "irregular": false
   },
   "étagère": {
     "gender": "Féminin",
@@ -3226,7 +3557,8 @@
     "definition": "Planche horizontale fixée à un mur pour poser des objets.",
     "antonyms": [],
     "article": "l'",
-    "plural": "étagères"
+    "plural": "étagères",
+    "irregular": false
   },
   "tiroir": {
     "gender": "Masculin",
@@ -3234,7 +3566,8 @@
     "definition": "Compartiment coulissant d'un meuble.",
     "antonyms": [],
     "article": "le",
-    "plural": "tiroirs"
+    "plural": "tiroirs",
+    "irregular": false
   },
   "lampe": {
     "gender": "Féminin",
@@ -3242,7 +3575,8 @@
     "definition": "Appareil servant à éclairer une pièce.",
     "antonyms": [],
     "article": "la",
-    "plural": "lampes"
+    "plural": "lampes",
+    "irregular": false
   },
   "canapé": {
     "gender": "Masculin",
@@ -3250,7 +3584,8 @@
     "definition": "Siège confortable à plusieurs places avec dossier.",
     "antonyms": [],
     "article": "le",
-    "plural": "canapés"
+    "plural": "canapés",
+    "irregular": false
   },
   "légume": {
     "gender": "Masculin",
@@ -3260,7 +3595,8 @@
       "fruit"
     ],
     "article": "le",
-    "plural": "légumes"
+    "plural": "légumes",
+    "irregular": false
   },
   "viande": {
     "gender": "Féminin",
@@ -3270,7 +3606,8 @@
       "poisson"
     ],
     "article": "la",
-    "plural": "viandes"
+    "plural": "viandes",
+    "irregular": false
   },
   "riz": {
     "gender": "Masculin",
@@ -3278,7 +3615,8 @@
     "definition": "Céréale à petits grains blancs consommée cuite.",
     "antonyms": [],
     "article": "le",
-    "plural": "riz"
+    "plural": "riz",
+    "irregular": false
   },
   "pâtes": {
     "gender": "Féminin",
@@ -3286,7 +3624,8 @@
     "definition": "Aliment fabriqué à base de semoule de blé dur cuit à l'eau.",
     "antonyms": [],
     "article": "les",
-    "plural": "pâtes"
+    "plural": "pâtes",
+    "irregular": false
   },
   "œuf": {
     "gender": "Masculin",
@@ -3294,7 +3633,8 @@
     "definition": "Produit pondu par la poule consommé en cuisine.",
     "antonyms": [],
     "article": "l'",
-    "plural": "œufs"
+    "plural": "œufs",
+    "irregular": false
   },
   "vélo": {
     "gender": "Masculin",
@@ -3302,7 +3642,8 @@
     "definition": "Bicyclette à deux roues mue par des pédales.",
     "antonyms": [],
     "article": "le",
-    "plural": "vélos"
+    "plural": "vélos",
+    "irregular": false
   },
   "moto": {
     "gender": "Féminin",
@@ -3310,7 +3651,8 @@
     "definition": "Véhicule automobile à deux roues.",
     "antonyms": [],
     "article": "la",
-    "plural": "motos"
+    "plural": "motos",
+    "irregular": false
   },
   "taxi": {
     "gender": "Masculin",
@@ -3318,7 +3660,8 @@
     "definition": "Automobile de transport individuel payant.",
     "antonyms": [],
     "article": "le",
-    "plural": "taxis"
+    "plural": "taxis",
+    "irregular": false
   },
   "mathématiques": {
     "gender": "Féminin",
@@ -3327,7 +3670,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nom féminin pluriel employé pour la matière scolaire.",
     "article": "les",
-    "plural": "mathématiques"
+    "plural": "mathématiques",
+    "irregular": false
   },
   "géographie": {
     "gender": "Féminin",
@@ -3335,7 +3679,8 @@
     "definition": "Étude de la surface de la Terre et de l'organisation de l'espace.",
     "antonyms": [],
     "article": "la",
-    "plural": "géographies"
+    "plural": "géographies",
+    "irregular": false
   },
   "sciences": {
     "gender": "Féminin",
@@ -3344,7 +3689,8 @@
     "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nom féminin pluriel employé pour les matières scientifiques.",
     "article": "les",
-    "plural": "sciences"
+    "plural": "sciences",
+    "irregular": false
   },
   "nom": {
     "gender": "Masculin",
@@ -3354,7 +3700,8 @@
       "prénom"
     ],
     "article": "le",
-    "plural": "noms"
+    "plural": "noms",
+    "irregular": false
   },
   "prénom": {
     "gender": "Masculin",
@@ -3364,7 +3711,8 @@
       "nom"
     ],
     "article": "le",
-    "plural": "prénoms"
+    "plural": "prénoms",
+    "irregular": false
   },
   "adresse": {
     "gender": "Féminin",
@@ -3372,7 +3720,8 @@
     "definition": "Indications de domicile avec rue et numéro.",
     "antonyms": [],
     "article": "l'",
-    "plural": "adresses"
+    "plural": "adresses",
+    "irregular": false
   },
   "numéro": {
     "gender": "Masculin",
@@ -3380,7 +3729,8 @@
     "definition": "Suite de chiffres attribuée pour joindre une personne par téléphone.",
     "antonyms": [],
     "article": "le",
-    "plural": "numéros"
+    "plural": "numéros",
+    "irregular": false
   },
   "île": {
     "gender": "Féminin",
@@ -3390,7 +3740,8 @@
       "continent"
     ],
     "article": "l'",
-    "plural": "îles"
+    "plural": "îles",
+    "irregular": false
   },
   "désert": {
     "gender": "Masculin",
@@ -3400,7 +3751,8 @@
       "forêt"
     ],
     "article": "le",
-    "plural": "déserts"
+    "plural": "déserts",
+    "irregular": false
   },
   "vallée": {
     "gender": "Féminin",
@@ -3410,7 +3762,8 @@
       "montagne"
     ],
     "article": "la",
-    "plural": "vallées"
+    "plural": "vallées",
+    "irregular": false
   },
   "colline": {
     "gender": "Féminin",
@@ -3420,7 +3773,8 @@
       "vallée"
     ],
     "article": "la",
-    "plural": "collines"
+    "plural": "collines",
+    "irregular": false
   },
   "orage": {
     "gender": "Masculin",
@@ -3430,7 +3784,8 @@
       "calme"
     ],
     "article": "l'",
-    "plural": "orages"
+    "plural": "orages",
+    "irregular": false
   },
   "tonnerre": {
     "gender": "Masculin",
@@ -3438,7 +3793,8 @@
     "definition": "Bruit sec ou sourd produit par l'éclair.",
     "antonyms": [],
     "article": "le",
-    "plural": "tonnerres"
+    "plural": "tonnerres",
+    "irregular": false
   },
   "brouillard": {
     "gender": "Masculin",
@@ -3446,6 +3802,7 @@
     "definition": "Nuage bas au niveau du sol réduisant la visibilité.",
     "antonyms": [],
     "article": "le",
-    "plural": "brouillards"
+    "plural": "brouillards",
+    "irregular": false
   }
 }

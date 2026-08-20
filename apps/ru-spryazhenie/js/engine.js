@@ -71,7 +71,10 @@ class RussianConjugationEngine {
         }
     }
 
-    formatColorCoded(form) {
+    formatColorCoded(form, isIrregular = false) {
+        if (isIrregular) {
+            return form;
+        }
         const endings = ['ешь', 'ет', 'ем', 'ете', 'ют', 'ит', 'им', 'ите', 'ат', 'ят', 'ла', 'ло', 'ли', 'ю', 'у', 'л'];
         let words = form.split(' ');
         let lastWord = words.pop();
@@ -135,7 +138,7 @@ class RussianConjugationEngine {
         if (listPres && data.tenses.pres) {
             listPres.innerHTML = data.tenses.pres.map((f, i) => {
                 const cleanForm = f.replace(/^(я|ты|он\/она́|он|она|мы|вы|они́|они)\s+/i, '').trim();
-                return `<li><span class="pronoun">${pronounsPres[i] || ''}</span> <span>${this.formatColorCoded(cleanForm)}</span></li>`;
+                return `<li><span class="pronoun">${pronounsPres[i] || ''}</span> <span>${this.formatColorCoded(cleanForm, data.irregular)}</span></li>`;
             }).join('');
         }
 
@@ -144,7 +147,7 @@ class RussianConjugationEngine {
         if (listPast && data.tenses.past) {
             listPast.innerHTML = data.tenses.past.map((f, i) => {
                 const cleanForm = f.replace(/^(он|она́|она|оно́|оно|они́|они)\s+/i, '').trim();
-                return `<li><span class="pronoun">${pronounsPast[i] || ''}</span> <span>${this.formatColorCoded(cleanForm)}</span></li>`;
+                return `<li><span class="pronoun">${pronounsPast[i] || ''}</span> <span>${this.formatColorCoded(cleanForm, data.irregular)}</span></li>`;
             }).join('');
         }
 
