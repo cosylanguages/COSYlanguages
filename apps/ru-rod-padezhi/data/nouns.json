@@ -4082,5 +4082,46 @@
       "ins_plur": "се́рыми",
       "pre_plur": "се́рых"
     }
+  },
+  "нос": {
+    "gender": "Мужской",
+    "level": "A1",
+    "definition": "Орган обоняния и дыхания на лице человека.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "нос",
+      "gen_sing": "но́са",
+      "dat_sing": "но́су",
+      "acc_sing": "нос",
+      "ins_sing": "но́сом",
+      "pre_sing": "но́се",
+      "nom_plur": "носы́",
+      "gen_plur": "носо́в",
+      "dat_plur": "носа́м",
+      "acc_plur": "носы́",
+      "ins_plur": "носа́ми",
+      "pre_plur": "носа́х"
+    }
+  },
+  "рот": {
+    "gender": "Мужской",
+    "level": "A1",
+    "definition": "Отверстие на лице человека для приема пищи и речи.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "рот",
+      "gen_sing": "рта",
+      "dat_sing": "рту",
+      "acc_sing": "рот",
+      "ins_sing": "ртом",
+      "pre_sing": "рте",
+      "nom_plur": "рты",
+      "gen_plur": "ртов",
+      "dat_plur": "ртам",
+      "acc_plur": "рты",
+      "ins_plur": "ртами",
+      "pre_plur": "ртах"
+    },
+    "grammar_rule": "💡 REMEMBER: Существительное с беглой гласной 'о' в корне (рот -> рта, рту, ртом)."
   }
 }

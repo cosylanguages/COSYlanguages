@@ -2365,5 +2365,115 @@
     "antonyms": [],
     "article": "il",
     "plural": "grigi"
+  },
+  "padre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Genitore maschile.",
+    "antonyms": [
+      "madre"
+    ],
+    "article": "il",
+    "plural": "padri"
+  },
+  "sorella": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Persona nata dagli stessi genitori.",
+    "antonyms": [
+      "fratello"
+    ],
+    "article": "la",
+    "plural": "sorelle"
+  },
+  "figlia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Femmina nata dai propri genitori.",
+    "antonyms": [
+      "figlio"
+    ],
+    "article": "la",
+    "plural": "figlie"
+  },
+  "nonno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Padre del padre o della madre.",
+    "antonyms": [
+      "nonna"
+    ],
+    "article": "il",
+    "plural": "nonni"
+  },
+  "nonna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Madre del padre o della madre.",
+    "antonyms": [
+      "nonno"
+    ],
+    "article": "la",
+    "plural": "nonne"
+  },
+  "lunedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Primo giorno della settimana.",
+    "antonyms": [
+      "domenica"
+    ],
+    "article": "il",
+    "plural": "lunedì"
+  },
+  "martedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Secondo giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "martedì"
+  },
+  "mercoledì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terzo giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "mercoledì"
+  },
+  "giovedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quarto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giovedì"
+  },
+  "venerdì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quinto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "venerdì"
+  },
+  "sabato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sesto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "sabati"
+  },
+  "domenica": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Ultimo giorno della settimana.",
+    "antonyms": [
+      "lunedì"
+    ],
+    "article": "la",
+    "plural": "domeniche"
   }
 }
