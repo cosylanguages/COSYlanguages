@@ -44,8 +44,13 @@
             COSYGame.maxRounds = 10;
 
             const data = COSYLoader.getGameData(lang);
-            let questionCount = 0;
-            let questions = (data.etymology || []).filter(q => q.level === levelVal);
+            let levelMap = {
+                'easy': ['easy', 'starter', 'a1', 'a2', 'elementary'],
+                'medium': ['medium', 'intermediate', 'b1', 'b2'],
+                'hard': ['hard', 'advanced', 'c1', 'c2', 'proficiency']
+            };
+            let allowedLevels = levelMap[levelVal] || [levelVal];
+            let questions = (data.etymology || []).filter(q => !q.level || allowedLevels.includes(q.level.toLowerCase()));
 
             if (questions.length === 0) {
               questions = [{ word: 'Error', options: ['None'], answer: 'None', detail: 'No data found for this level.' }];
@@ -66,7 +71,7 @@
                 body.innerHTML = `
                   <div class="score-bar">
                     <div class="sb-item"><div class="sb-val" id="et-score">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
-                    <div class="sb-item"><div class="sb-val">${questionCount}/${COSYGame.maxRounds}</div><div class="sb-lbl">Question</div></div>
+                    <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Question</div></div>
                   </div>
                   <div class="game-card">
                     <div class="game-label">Where does this word come from?</div>

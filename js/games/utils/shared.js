@@ -597,7 +597,7 @@
         const lid = window.getLevelCode(level);
         if (window.COSY && window.COSY.loadLanguageData) await window.COSY.loadLanguageData(lang, lid);
         if (window.location.pathname.includes('/games/')) {
-            const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../';
+            const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../../';
             const l = window.getLangCode(lang);
 
             const scriptsToLoad = [
