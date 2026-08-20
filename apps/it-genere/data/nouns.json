@@ -2365,5 +2365,329 @@
     "antonyms": [],
     "article": "il",
     "plural": "grigi"
+  },
+  "padre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Genitore maschile.",
+    "antonyms": [
+      "madre"
+    ],
+    "article": "il",
+    "plural": "padri"
+  },
+  "sorella": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Figlia degli stessi genitori.",
+    "antonyms": [
+      "fratello"
+    ],
+    "article": "la",
+    "plural": "sorelle"
+  },
+  "figlia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Discendente diretta femmina.",
+    "antonyms": [
+      "figlio"
+    ],
+    "article": "la",
+    "plural": "figlie"
+  },
+  "nonno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Padre del padre o della madre.",
+    "antonyms": [
+      "nonna"
+    ],
+    "article": "il",
+    "plural": "nonni"
+  },
+  "nonna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Madre del padre o della madre.",
+    "antonyms": [
+      "nonno"
+    ],
+    "article": "la",
+    "plural": "nonne"
+  },
+  "lunedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Primo giorno della settimana.",
+    "antonyms": [
+      "domenica"
+    ],
+    "article": "il",
+    "plural": "lunedì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il lunedì', 'i lunedì')."
+  },
+  "martedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Secondo giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "martedì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il martedì', 'i martedì')."
+  },
+  "mercoledì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terzo giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "mercoledì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il mercoledì', 'i mercoledì')."
+  },
+  "giovedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quarto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giovedì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il giovedì', 'i giovedì')."
+  },
+  "venerdì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quinto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "venerdì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il venerdì', 'i venerdì')."
+  },
+  "sabato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sesto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "sabati"
+  },
+  "domenica": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Settimo e ultimo giorno della settimana.",
+    "antonyms": [
+      "lunedì"
+    ],
+    "article": "la",
+    "plural": "domeniche",
+    "grammar_rule": "💡 REMEMBER: Nome femminile — forma il plurale regolare in '-che' ('le domeniche')."
+  },
+  "piatto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Stoviglia di forma rotonda usata per servire il cibo.",
+    "antonyms": [
+      "bicchiere"
+    ],
+    "article": "il",
+    "plural": "piatti"
+  },
+  "forchetta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Posata da tavola con rebbi per infilzare gli alimenti.",
+    "antonyms": [
+      "coltello"
+    ],
+    "article": "la",
+    "plural": "forchette"
+  },
+  "cucchiaio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Posata da tavola concava per raccogliere liquidi.",
+    "antonyms": [
+      "forchetta"
+    ],
+    "article": "il",
+    "plural": "cucchiai"
+  },
+  "sale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sostanza minerale usata per insaporire i cibi.",
+    "antonyms": [
+      "pepe"
+    ],
+    "article": "il",
+    "plural": "sali"
+  },
+  "pepe": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Spezia piccante usata in cucina.",
+    "antonyms": [
+      "sale"
+    ],
+    "article": "il",
+    "plural": "pepi"
+  },
+  "camicia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Indumento per il busto con colletto e bottoni.",
+    "antonyms": [
+      "pantaloni"
+    ],
+    "article": "la",
+    "plural": "camicie"
+  },
+  "vestito": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indumento maschile o femminile completo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "vestiti"
+  },
+  "gonna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Indumento femminile che pende dalla vita in giù.",
+    "antonyms": [
+      "pantaloni"
+    ],
+    "article": "la",
+    "plural": "gonne"
+  },
+  "giacca": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Indumento con maniche che si porta sopra la camicia.",
+    "antonyms": [
+      "cappotto"
+    ],
+    "article": "la",
+    "plural": "giacche"
+  },
+  "calzino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indumento di maglia che ricopre il piede.",
+    "antonyms": [
+      "scarpa"
+    ],
+    "article": "il",
+    "plural": "calzini"
+  },
+  "scarpa": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Calzatura che protegge il piede.",
+    "antonyms": [
+      "calzino"
+    ],
+    "article": "la",
+    "plural": "scarpe"
+  },
+  "pioggia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Precipitazione d'acqua dalle nuvole.",
+    "antonyms": [
+      "siccità"
+    ],
+    "article": "la",
+    "plural": "piogge"
+  },
+  "neve": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Precipitazione atmosferica in forma di fiocchi ghiacciati.",
+    "antonyms": [
+      "pioggia"
+    ],
+    "article": "la",
+    "plural": "nevi"
+  },
+  "ghiaccio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Acqua allo stato solido per il freddo.",
+    "antonyms": [
+      "fuoco"
+    ],
+    "article": "il",
+    "plural": "ghiacci"
+  },
+  "nuvola": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Ammasso di vapore acqueo nel cielo.",
+    "antonyms": [
+      "sole"
+    ],
+    "article": "la",
+    "plural": "nuvole"
+  },
+  "stella": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Corpo celeste che brilla di luce propria.",
+    "antonyms": [
+      "sole"
+    ],
+    "article": "la",
+    "plural": "stelle"
+  },
+  "luna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Satellite naturale della Terra.",
+    "antonyms": [
+      "sole"
+    ],
+    "article": "la",
+    "plural": "lune"
+  },
+  "foresta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Vasta estensione di terreno coperta di alberi.",
+    "antonyms": [
+      "deserto"
+    ],
+    "article": "la",
+    "plural": "foreste"
+  },
+  "chiesa": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Edificio di culto cristiano.",
+    "antonyms": [
+      "moschea"
+    ],
+    "article": "la",
+    "plural": "chiese"
+  },
+  "farmacia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Negozio dove si vendono i farmaci.",
+    "antonyms": [
+      "ospedale"
+    ],
+    "article": "la",
+    "plural": "farmacie"
+  },
+  "stazione": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Insieme di fabbricati per la fermata dei treni.",
+    "antonyms": [
+      "aeroporto"
+    ],
+    "article": "la",
+    "plural": "stazioni"
   }
 }

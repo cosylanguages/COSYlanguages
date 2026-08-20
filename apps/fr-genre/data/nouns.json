@@ -2198,5 +2198,458 @@
     "antonyms": [],
     "article": "le",
     "plural": "gris"
+  },
+  "père": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Parent du sexe masculin.",
+    "antonyms": [
+      "mère"
+    ],
+    "article": "le",
+    "plural": "pères"
+  },
+  "mère": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Parent du sexe féminin.",
+    "antonyms": [
+      "père"
+    ],
+    "article": "la",
+    "plural": "mères"
+  },
+  "frère": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Garçon issu des mêmes parents.",
+    "antonyms": [
+      "sœur"
+    ],
+    "article": "le",
+    "plural": "frères"
+  },
+  "sœur": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Fille issue des mêmes parents.",
+    "antonyms": [
+      "frère"
+    ],
+    "article": "la",
+    "plural": "sœurs"
+  },
+  "fils": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Enfant du sexe masculin par rapport à ses parents.",
+    "antonyms": [
+      "fille"
+    ],
+    "article": "le",
+    "plural": "fils"
+  },
+  "fille": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Enfant du sexe féminin par rapport à ses parents.",
+    "antonyms": [
+      "fils"
+    ],
+    "article": "la",
+    "plural": "filles"
+  },
+  "parent": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Père ou mère d'un enfant.",
+    "antonyms": [
+      "enfant"
+    ],
+    "article": "le",
+    "plural": "parents"
+  },
+  "enfant": {
+    "gender": "Masculin / Féminin",
+    "level": "A1",
+    "definition": "Jeune être humain dans l'enfance.",
+    "antonyms": [
+      "parent"
+    ],
+    "article": "l'",
+    "plural": "enfants"
+  },
+  "grand-père": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Père du père ou de la mère.",
+    "antonyms": [
+      "grand-mère"
+    ],
+    "article": "le",
+    "plural": "grands-pères",
+    "grammar_rule": "💡 REMEMBER: Nom composé masculin — pluriel régulier où chaque élément s'accorde ('les grands-pères')."
+  },
+  "grand-mère": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Mère du père ou de la mère.",
+    "antonyms": [
+      "grand-père"
+    ],
+    "article": "la",
+    "plural": "grands-mères",
+    "grammar_rule": "💡 REMEMBER: Nom composé féminin — 'grand' prend un 's' au pluriel ('les grands-mères')."
+  },
+  "lundi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Premier jour de la semaine.",
+    "antonyms": [
+      "dimanche"
+    ],
+    "article": "le",
+    "plural": "lundis"
+  },
+  "mardi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Deuxième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "mardis"
+  },
+  "mercredi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Troisième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "mercredis"
+  },
+  "jeudi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Quatrième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "jeudis"
+  },
+  "vendredi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Cinquième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "vendredis"
+  },
+  "samedi": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Sixième jour de la semaine.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "samedis"
+  },
+  "assiette": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Pièce de vaisselle creuse ou plate pour servir la nourriture.",
+    "antonyms": [
+      "bol"
+    ],
+    "article": "l'",
+    "plural": "assiettes"
+  },
+  "verre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Récipient pour boire des liquides.",
+    "antonyms": [
+      "tasse"
+    ],
+    "article": "le",
+    "plural": "verres"
+  },
+  "fourchette": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Ustensile de table à dents pour piquer les aliments.",
+    "antonyms": [
+      "couteau"
+    ],
+    "article": "la",
+    "plural": "fourchettes"
+  },
+  "cuillère": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Ustensile de table creux pour prélever les liquides ou aliments.",
+    "antonyms": [
+      "fourchette"
+    ],
+    "article": "la",
+    "plural": "cuillères"
+  },
+  "sel": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Condiment blanc utilisé pour assaisonner les plats.",
+    "antonyms": [
+      "poivre"
+    ],
+    "article": "le",
+    "plural": "sels"
+  },
+  "poivre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Epice piquante utilisée pour relever le goût des aliments.",
+    "antonyms": [
+      "sel"
+    ],
+    "article": "le",
+    "plural": "poivres"
+  },
+  "sucre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Substance douce et sucrée d'origine végétale.",
+    "antonyms": [
+      "sel"
+    ],
+    "article": "le",
+    "plural": "sucres"
+  },
+  "chemise": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement pour le haut du corps avec col et boutons.",
+    "antonyms": [
+      "pantalon"
+    ],
+    "article": "la",
+    "plural": "chemises"
+  },
+  "robe": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement féminin d'une seule pièce couvrant le corps.",
+    "antonyms": [
+      "costume"
+    ],
+    "article": "la",
+    "plural": "robes"
+  },
+  "jupe": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement féminin suspendu à la taille.",
+    "antonyms": [
+      "pantalon"
+    ],
+    "article": "la",
+    "plural": "jupes"
+  },
+  "veste": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement à manches se portant par-dessus la chemise.",
+    "antonyms": [
+      "manteau"
+    ],
+    "article": "la",
+    "plural": "vestes"
+  },
+  "chaussette": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vêtement de tricot recouvrant le pied et la cheville.",
+    "antonyms": [
+      "chaussure"
+    ],
+    "article": "la",
+    "plural": "chaussettes"
+  },
+  "chaussure": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Objet en cuir ou tissu servant à chaausser le pied.",
+    "antonyms": [
+      "chaussette"
+    ],
+    "article": "la",
+    "plural": "chaussures"
+  },
+  "gant": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Vêtement qui s'adapte exactement à la main.",
+    "antonyms": [
+      "chaussette"
+    ],
+    "article": "le",
+    "plural": "gants"
+  },
+  "pluie": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Eau tombant des nuages sous forme de gouttes.",
+    "antonyms": [
+      "sécheresse"
+    ],
+    "article": "la",
+    "plural": "pluies"
+  },
+  "neige": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Précipitation d'eau congelée sous forme de flocons.",
+    "antonyms": [
+      "pluie"
+    ],
+    "article": "la",
+    "plural": "neiges"
+  },
+  "glace": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Eau solide sous l'effet du froid.",
+    "antonyms": [
+      "feu"
+    ],
+    "article": "la",
+    "plural": "glaces"
+  },
+  "nuage": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Masse de vapeur d'eau suspendue dans l'atmosphère.",
+    "antonyms": [
+      "soleil"
+    ],
+    "article": "le",
+    "plural": "nuages"
+  },
+  "étoile": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Astre céleste produisant sa propre lumière.",
+    "antonyms": [
+      "soleil"
+    ],
+    "article": "l'",
+    "plural": "étoiles"
+  },
+  "lune": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Satellite naturel de la Terre.",
+    "antonyms": [
+      "soleil"
+    ],
+    "article": "la",
+    "plural": "lunes"
+  },
+  "rivière": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Cours d'eau naturel s'écoulant dans un autre.",
+    "antonyms": [
+      "fleuve"
+    ],
+    "article": "la",
+    "plural": "rivières"
+  },
+  "forêt": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Vaste étendue couverte d'arbres.",
+    "antonyms": [
+      "désert"
+    ],
+    "article": "la",
+    "plural": "forêts"
+  },
+  "magasin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Local commercial où l'on vend des marchandises.",
+    "antonyms": [
+      "marché"
+    ],
+    "article": "le",
+    "plural": "magasins"
+  },
+  "marché": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Lieu public de vente de produits alimentaires.",
+    "antonyms": [
+      "magasin"
+    ],
+    "article": "le",
+    "plural": "marchés"
+  },
+  "banque": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Établissement financier.",
+    "antonyms": [
+      "magasin"
+    ],
+    "article": "la",
+    "plural": "banques"
+  },
+  "église": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Édifice consacré au culte chrétien.",
+    "antonyms": [
+      "mosquée"
+    ],
+    "article": "l'",
+    "plural": "églises"
+  },
+  "hôpital": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Établissement de soins médicaux.",
+    "antonyms": [
+      "école"
+    ],
+    "article": "l'",
+    "plural": "hôpitaux",
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-aux' ('les hôpitaux')."
+  },
+  "pharmacie": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Officine où l'on prépare et vend des médicaments.",
+    "antonyms": [
+      "hôpital"
+    ],
+    "article": "la",
+    "plural": "pharmacies"
+  },
+  "gare": {
+    "gender": "Féminin",
+    "level": "A1",
+    "definition": "Ensemble des installations ferroviaires pour voyageurs.",
+    "antonyms": [
+      "aéroport"
+    ],
+    "article": "la",
+    "plural": "gares"
+  },
+  "pont": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Ouvrage reliant deux rives au-dessus d'un obstacle.",
+    "antonyms": [
+      "tunnel"
+    ],
+    "article": "le",
+    "plural": "ponts"
   }
 }
