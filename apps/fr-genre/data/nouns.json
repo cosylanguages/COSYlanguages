@@ -2838,5 +2838,131 @@
     ],
     "article": "le",
     "plural": "messages"
+  },
+  "janvier": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Premier mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "janviers"
+  },
+  "février": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Deuxième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "févriers"
+  },
+  "mars": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Troisième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "mars"
+  },
+  "avril": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Quatrième mois de l'année civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "avrils"
+  },
+  "mai": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Cinquième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "mais"
+  },
+  "juin": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Sixième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "juins"
+  },
+  "juillet": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Septième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "juillets"
+  },
+  "août": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Huitième mois de l'année civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "aoûts"
+  },
+  "septembre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Neuvième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "septembres"
+  },
+  "octobre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Dixième mois de l'année civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "octobres"
+  },
+  "novembre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Onzième mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "novembres"
+  },
+  "décembre": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Douzième et dernier mois de l'année civile.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "décembres"
+  },
+  "printemps": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Saison entre l'hiver et l'été.",
+    "antonyms": [
+      "automne"
+    ],
+    "article": "le",
+    "plural": "printemps"
+  },
+  "automne": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Saison entre l'été et l'hiver.",
+    "antonyms": [
+      "printemps"
+    ],
+    "article": "l'",
+    "plural": "automnes"
+  },
+  "hiver": {
+    "gender": "Masculin",
+    "level": "A1",
+    "definition": "Saison la plus froide de l'année.",
+    "antonyms": [
+      "été"
+    ],
+    "article": "l'",
+    "plural": "hivers"
   }
 }

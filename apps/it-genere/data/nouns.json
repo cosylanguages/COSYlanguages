@@ -2876,5 +2876,123 @@
     ],
     "article": "il",
     "plural": "messaggi"
+  },
+  "gennaio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Primo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "gennai"
+  },
+  "febbraio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Secondo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "febbrai"
+  },
+  "marzo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terzo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "marzi"
+  },
+  "aprile": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quarto mese dell'anno civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "aprili"
+  },
+  "maggio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quinto mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "maggi"
+  },
+  "giugno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sesto mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giugni"
+  },
+  "luglio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Settimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "lugli"
+  },
+  "agosto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Ottavo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "agosti"
+  },
+  "settembre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Nono mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "settembri"
+  },
+  "ottobre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Decimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "ottobri"
+  },
+  "novembre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Undicesimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "novembri"
+  },
+  "dicembre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Dodicesimo e ultimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "dicembri"
+  },
+  "primavera": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Stagione tra l'inverno e l'estate.",
+    "antonyms": [
+      "autunno"
+    ],
+    "article": "la",
+    "plural": "primavere",
+    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili."
+  },
+  "estate": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Stagione più calda dell'anno.",
+    "antonyms": [
+      "inverno"
+    ],
+    "article": "l'",
+    "plural": "estati",
+    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili."
   }
 }
