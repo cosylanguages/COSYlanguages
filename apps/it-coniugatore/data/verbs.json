@@ -217,7 +217,7 @@
         "amerebbe",
         "ameremmo",
         "amereste",
-        "amrebbero"
+        "amerebbero"
       ],
       "cond": [
         "amerei",
@@ -225,7 +225,7 @@
         "amerebbe",
         "ameremmo",
         "amereste",
-        "amrebbero"
+        "amerebbero"
       ],
       "congiuntivo_presente": [
         "che io ami",
@@ -373,7 +373,7 @@
         "camminerebbe",
         "cammineremmo",
         "camminereste",
-        "camminrebbero"
+        "camminerebbero"
       ],
       "cond": [
         "camminerei",
@@ -381,7 +381,7 @@
         "camminerebbe",
         "cammineremmo",
         "camminereste",
-        "camminrebbero"
+        "camminerebbero"
       ],
       "congiuntivo_presente": [
         "che io cammini",
@@ -529,7 +529,7 @@
         "studierebbe",
         "studieremmo",
         "studiereste",
-        "studirebbero"
+        "studierebbero"
       ],
       "cond": [
         "studierei",
@@ -537,7 +537,7 @@
         "studierebbe",
         "studieremmo",
         "studiereste",
-        "studirebbero"
+        "studierebbero"
       ],
       "congiuntivo_presente": [
         "che io studii",
@@ -685,7 +685,7 @@
         "lavorerebbe",
         "lavoreremmo",
         "lavorereste",
-        "lavorrebbero"
+        "lavorerebbero"
       ],
       "cond": [
         "lavorerei",
@@ -693,7 +693,7 @@
         "lavorerebbe",
         "lavoreremmo",
         "lavorereste",
-        "lavorrebbero"
+        "lavorerebbero"
       ],
       "congiuntivo_presente": [
         "che io lavori",
@@ -841,7 +841,7 @@
         "abiterebbe",
         "abiteremmo",
         "abitereste",
-        "abitrebbero"
+        "abiterebbero"
       ],
       "cond": [
         "abiterei",
@@ -849,7 +849,7 @@
         "abiterebbe",
         "abiteremmo",
         "abitereste",
-        "abitrebbero"
+        "abiterebbero"
       ],
       "congiuntivo_presente": [
         "che io abiti",
@@ -997,7 +997,7 @@
         "ascolterebbe",
         "ascolteremmo",
         "ascoltereste",
-        "ascoltrebbero"
+        "ascolterebbero"
       ],
       "cond": [
         "ascolterei",
@@ -1005,7 +1005,7 @@
         "ascolterebbe",
         "ascolteremmo",
         "ascoltereste",
-        "ascoltrebbero"
+        "ascolterebbero"
       ],
       "congiuntivo_presente": [
         "che io ascolti",
@@ -1153,7 +1153,7 @@
         "guarderebbe",
         "guarderemmo",
         "guardereste",
-        "guardrebbero"
+        "guarderebbero"
       ],
       "cond": [
         "guarderei",
@@ -1161,7 +1161,7 @@
         "guarderebbe",
         "guarderemmo",
         "guardereste",
-        "guardrebbero"
+        "guarderebbero"
       ],
       "congiuntivo_presente": [
         "che io guardi",
@@ -1309,7 +1309,7 @@
         "penserebbe",
         "penseremmo",
         "pensereste",
-        "pensrebbero"
+        "penserebbero"
       ],
       "cond": [
         "penserei",
@@ -1317,7 +1317,7 @@
         "penserebbe",
         "penseremmo",
         "pensereste",
-        "pensrebbero"
+        "penserebbero"
       ],
       "congiuntivo_presente": [
         "che io pensi",
@@ -1622,7 +1622,7 @@
         "troverebbe",
         "troveremmo",
         "trovereste",
-        "trovrebbero"
+        "troverebbero"
       ],
       "cond": [
         "troverei",
@@ -1630,7 +1630,7 @@
         "troverebbe",
         "troveremmo",
         "trovereste",
-        "trovrebbero"
+        "troverebbero"
       ],
       "congiuntivo_presente": [
         "che io trovi",
@@ -1778,7 +1778,7 @@
         "donerebbe",
         "doneremmo",
         "donereste",
-        "donrebbero"
+        "donerebbero"
       ],
       "cond": [
         "donerei",
@@ -1786,7 +1786,7 @@
         "donerebbe",
         "doneremmo",
         "donereste",
-        "donrebbero"
+        "donerebbero"
       ],
       "congiuntivo_presente": [
         "che io doni",
@@ -1934,7 +1934,7 @@
         "domanderebbe",
         "domanderemmo",
         "domandereste",
-        "domandrebbero"
+        "domanderebbero"
       ],
       "cond": [
         "domanderei",
@@ -1942,7 +1942,7 @@
         "domanderebbe",
         "domanderemmo",
         "domandereste",
-        "domandrebbero"
+        "domanderebbero"
       ],
       "congiuntivo_presente": [
         "che io domandi",
@@ -2246,7 +2246,7 @@
         "canterebbe",
         "canteremmo",
         "cantereste",
-        "cantrebbero"
+        "canterebbero"
       ],
       "cond": [
         "canterei",
@@ -2254,7 +2254,7 @@
         "canterebbe",
         "canteremmo",
         "cantereste",
-        "cantrebbero"
+        "canterebbero"
       ],
       "congiuntivo_presente": [
         "che io canti",
@@ -2402,7 +2402,7 @@
         "ballerebbe",
         "balleremmo",
         "ballereste",
-        "ballrebbero"
+        "ballerebbero"
       ],
       "cond": [
         "ballerei",
@@ -2410,7 +2410,7 @@
         "ballerebbe",
         "balleremmo",
         "ballereste",
-        "ballrebbero"
+        "ballerebbero"
       ],
       "congiuntivo_presente": [
         "che io balli",
@@ -2553,20 +2553,20 @@
         "viaggieranno"
       ],
       "condizionale_presente": [
-        "viaggierei",
-        "viaggieresti",
-        "viaggierebbe",
-        "viaggieremmo",
-        "viaggiereste",
-        "viaggirebbero"
+        "viaggerei",
+        "viaggeresti",
+        "viaggerebbe",
+        "viaggeremmo",
+        "viaggereste",
+        "viaggerebbero"
       ],
       "cond": [
-        "viaggierei",
-        "viaggieresti",
-        "viaggierebbe",
-        "viaggieremmo",
-        "viaggiereste",
-        "viaggirebbero"
+        "viaggerei",
+        "viaggeresti",
+        "viaggerebbe",
+        "viaggeremmo",
+        "viaggereste",
+        "viaggerebbero"
       ],
       "congiuntivo_presente": [
         "che io viaggii",
@@ -2714,7 +2714,7 @@
         "passerebbe",
         "passeremmo",
         "passereste",
-        "passrebbero"
+        "passerebbero"
       ],
       "cond": [
         "passerei",
@@ -2722,7 +2722,7 @@
         "passerebbe",
         "passeremmo",
         "passereste",
-        "passrebbero"
+        "passerebbero"
       ],
       "congiuntivo_presente": [
         "che io passi",
@@ -2870,7 +2870,7 @@
         "guadagnerebbe",
         "guadagneremmo",
         "guadagnereste",
-        "guadagnrebbero"
+        "guadagnerebbero"
       ],
       "cond": [
         "guadagnerei",
@@ -2878,7 +2878,7 @@
         "guadagnerebbe",
         "guadagneremmo",
         "guadagnereste",
-        "guadagnrebbero"
+        "guadagnerebbero"
       ],
       "congiuntivo_presente": [
         "che io guadagni",
@@ -3026,7 +3026,7 @@
         "preparerebbe",
         "prepareremmo",
         "preparereste",
-        "preparrebbero"
+        "preparerebbero"
       ],
       "cond": [
         "preparerei",
@@ -3034,7 +3034,7 @@
         "preparerebbe",
         "prepareremmo",
         "preparereste",
-        "preparrebbero"
+        "preparerebbero"
       ],
       "congiuntivo_presente": [
         "che io prepari",
@@ -3182,7 +3182,7 @@
         "visiterebbe",
         "visiteremmo",
         "visitereste",
-        "visitrebbero"
+        "visiterebbero"
       ],
       "cond": [
         "visiterei",
@@ -3190,7 +3190,7 @@
         "visiterebbe",
         "visiteremmo",
         "visitereste",
-        "visitrebbero"
+        "visiterebbero"
       ],
       "congiuntivo_presente": [
         "che io visiti",
@@ -3338,7 +3338,7 @@
         "aiuterebbe",
         "aiuteremmo",
         "aiutereste",
-        "aiutrebbero"
+        "aiuterebbero"
       ],
       "cond": [
         "aiuterei",
@@ -3346,7 +3346,7 @@
         "aiuterebbe",
         "aiuteremmo",
         "aiutereste",
-        "aiutrebbero"
+        "aiuterebbero"
       ],
       "congiuntivo_presente": [
         "che io aiuti",
@@ -3494,7 +3494,7 @@
         "aspetterebbe",
         "aspetteremmo",
         "aspettereste",
-        "aspettrebbero"
+        "aspetterebbero"
       ],
       "cond": [
         "aspetterei",
@@ -3502,7 +3502,7 @@
         "aspetterebbe",
         "aspetteremmo",
         "aspettereste",
-        "aspettrebbero"
+        "aspetterebbero"
       ],
       "congiuntivo_presente": [
         "che io aspetti",
@@ -3650,7 +3650,7 @@
         "arriverebbe",
         "arriveremmo",
         "arrivereste",
-        "arrivrebbero"
+        "arriverebbero"
       ],
       "cond": [
         "arriverei",
@@ -3658,7 +3658,7 @@
         "arriverebbe",
         "arriveremmo",
         "arrivereste",
-        "arrivrebbero"
+        "arriverebbero"
       ],
       "congiuntivo_presente": [
         "che io arrivi",
@@ -3806,7 +3806,7 @@
         "porterebbe",
         "porteremmo",
         "portereste",
-        "portrebbero"
+        "porterebbero"
       ],
       "cond": [
         "porterei",
@@ -3814,7 +3814,7 @@
         "porterebbe",
         "porteremmo",
         "portereste",
-        "portrebbero"
+        "porterebbero"
       ],
       "congiuntivo_presente": [
         "che io porti",
@@ -4118,7 +4118,7 @@
         "ricorderebbe",
         "ricorderemmo",
         "ricordereste",
-        "ricordrebbero"
+        "ricorderebbero"
       ],
       "cond": [
         "ricorderei",
@@ -4126,7 +4126,7 @@
         "ricorderebbe",
         "ricorderemmo",
         "ricordereste",
-        "ricordrebbero"
+        "ricorderebbero"
       ],
       "congiuntivo_presente": [
         "che io ricordi",
@@ -4430,7 +4430,7 @@
         "comprerebbe",
         "compreremmo",
         "comprereste",
-        "comprrebbero"
+        "comprerebbero"
       ],
       "cond": [
         "comprerei",
@@ -4438,7 +4438,7 @@
         "comprerebbe",
         "compreremmo",
         "comprereste",
-        "comprrebbero"
+        "comprerebbero"
       ],
       "congiuntivo_presente": [
         "che io compri",
@@ -4737,20 +4737,20 @@
         "comincieranno"
       ],
       "condizionale_presente": [
-        "comincierei",
-        "comincieresti",
-        "comincierebbe",
-        "comincieremmo",
-        "cominciereste",
-        "comincirebbero"
+        "comincerei",
+        "cominceresti",
+        "comincerebbe",
+        "cominceremmo",
+        "comincereste",
+        "comincerebbero"
       ],
       "cond": [
-        "comincierei",
-        "comincieresti",
-        "comincierebbe",
-        "comincieremmo",
-        "cominciereste",
-        "comincirebbero"
+        "comincerei",
+        "cominceresti",
+        "comincerebbe",
+        "cominceremmo",
+        "comincereste",
+        "comincerebbero"
       ],
       "congiuntivo_presente": [
         "che io comincii",
@@ -4898,7 +4898,7 @@
         "imparerebbe",
         "impareremmo",
         "imparereste",
-        "imparrebbero"
+        "imparerebbero"
       ],
       "cond": [
         "imparerei",
@@ -4906,7 +4906,7 @@
         "imparerebbe",
         "impareremmo",
         "imparereste",
-        "imparrebbero"
+        "imparerebbero"
       ],
       "congiuntivo_presente": [
         "che io impari",
@@ -5054,7 +5054,7 @@
         "insegnerebbe",
         "insegneremmo",
         "insegnereste",
-        "insegnrebbero"
+        "insegnerebbero"
       ],
       "cond": [
         "insegnerei",
@@ -5062,7 +5062,7 @@
         "insegnerebbe",
         "insegneremmo",
         "insegnereste",
-        "insegnrebbero"
+        "insegnerebbero"
       ],
       "congiuntivo_presente": [
         "che io insegni",
@@ -5210,7 +5210,7 @@
         "spererebbe",
         "spereremmo",
         "sperereste",
-        "sperrebbero"
+        "spererebbero"
       ],
       "cond": [
         "spererei",
@@ -5218,7 +5218,7 @@
         "spererebbe",
         "spereremmo",
         "sperereste",
-        "sperrebbero"
+        "spererebbero"
       ],
       "congiuntivo_presente": [
         "che io speri",
@@ -5367,7 +5367,7 @@
         "sognerebbe",
         "sogneremmo",
         "sognereste",
-        "sognrebbero"
+        "sognerebbero"
       ],
       "cond": [
         "sognerei",
@@ -5375,7 +5375,7 @@
         "sognerebbe",
         "sogneremmo",
         "sognereste",
-        "sognrebbero"
+        "sognerebbero"
       ],
       "congiuntivo_presente": [
         "che io sogni",
@@ -5523,7 +5523,7 @@
         "cambierebbe",
         "cambieremmo",
         "cambiereste",
-        "cambirebbero"
+        "cambierebbero"
       ],
       "cond": [
         "cambierei",
@@ -5531,7 +5531,7 @@
         "cambierebbe",
         "cambieremmo",
         "cambiereste",
-        "cambirebbero"
+        "cambierebbero"
       ],
       "congiuntivo_presente": [
         "che io cambii",
@@ -5679,7 +5679,7 @@
         "incontrerebbe",
         "incontreremmo",
         "incontrereste",
-        "incontrrebbero"
+        "incontrerebbero"
       ],
       "cond": [
         "incontrerei",
@@ -5687,7 +5687,7 @@
         "incontrerebbe",
         "incontreremmo",
         "incontrereste",
-        "incontrrebbero"
+        "incontrerebbero"
       ],
       "congiuntivo_presente": [
         "che io incontri",
@@ -5835,7 +5835,7 @@
         "salverebbe",
         "salveremmo",
         "salvereste",
-        "salvrebbero"
+        "salverebbero"
       ],
       "cond": [
         "salverei",
@@ -5843,7 +5843,7 @@
         "salverebbe",
         "salveremmo",
         "salvereste",
-        "salvrebbero"
+        "salverebbero"
       ],
       "congiuntivo_presente": [
         "che io salvi",
@@ -5991,7 +5991,7 @@
         "guiderebbe",
         "guideremmo",
         "guidereste",
-        "guidrebbero"
+        "guiderebbero"
       ],
       "cond": [
         "guiderei",
@@ -5999,7 +5999,7 @@
         "guiderebbe",
         "guideremmo",
         "guidereste",
-        "guidrebbero"
+        "guiderebbero"
       ],
       "congiuntivo_presente": [
         "che io guidi",
@@ -6147,7 +6147,7 @@
         "ordinerebbe",
         "ordineremmo",
         "ordinereste",
-        "ordinrebbero"
+        "ordinerebbero"
       ],
       "cond": [
         "ordinerei",
@@ -6155,7 +6155,7 @@
         "ordinerebbe",
         "ordineremmo",
         "ordinereste",
-        "ordinrebbero"
+        "ordinerebbero"
       ],
       "congiuntivo_presente": [
         "che io ordini",
@@ -6303,7 +6303,7 @@
         "organizzerebbe",
         "organizzeremmo",
         "organizzereste",
-        "organizzrebbero"
+        "organizzerebbero"
       ],
       "cond": [
         "organizzerei",
@@ -6311,7 +6311,7 @@
         "organizzerebbe",
         "organizzeremmo",
         "organizzereste",
-        "organizzrebbero"
+        "organizzerebbero"
       ],
       "congiuntivo_presente": [
         "che io organizzi",
@@ -6459,7 +6459,7 @@
         "invierebbe",
         "invieremmo",
         "inviereste",
-        "invirebbero"
+        "invierebbero"
       ],
       "cond": [
         "invierei",
@@ -6467,7 +6467,7 @@
         "invierebbe",
         "invieremmo",
         "inviereste",
-        "invirebbero"
+        "invierebbero"
       ],
       "congiuntivo_presente": [
         "che io invii",
@@ -6615,7 +6615,7 @@
         "rifiuterebbe",
         "rifiuteremmo",
         "rifiutereste",
-        "rifiutrebbero"
+        "rifiuterebbero"
       ],
       "cond": [
         "rifiuterei",
@@ -6623,7 +6623,7 @@
         "rifiuterebbe",
         "rifiuteremmo",
         "rifiutereste",
-        "rifiutrebbero"
+        "rifiuterebbero"
       ],
       "congiuntivo_presente": [
         "che io rifiuti",
@@ -6771,7 +6771,7 @@
         "accetterebbe",
         "accetteremmo",
         "accettereste",
-        "accettrebbero"
+        "accetterebbero"
       ],
       "cond": [
         "accetterei",
@@ -6779,7 +6779,7 @@
         "accetterebbe",
         "accetteremmo",
         "accettereste",
-        "accettrebbero"
+        "accetterebbero"
       ],
       "congiuntivo_presente": [
         "che io accetti",
@@ -6922,20 +6922,20 @@
         "bacieranno"
       ],
       "condizionale_presente": [
-        "bacierei",
-        "bacieresti",
-        "bacierebbe",
-        "bacieremmo",
-        "baciereste",
-        "bacirebbero"
+        "bacerei",
+        "baceresti",
+        "bacerebbe",
+        "baceremmo",
+        "bacereste",
+        "bacerebbero"
       ],
       "cond": [
-        "bacierei",
-        "bacieresti",
-        "bacierebbe",
-        "bacieremmo",
-        "baciereste",
-        "bacirebbero"
+        "bacerei",
+        "baceresti",
+        "bacerebbe",
+        "baceremmo",
+        "bacereste",
+        "bacerebbero"
       ],
       "congiuntivo_presente": [
         "che io bacii",
@@ -7083,7 +7083,7 @@
         "crederebbe",
         "crederemmo",
         "credereste",
-        "credrebbero"
+        "crederebbero"
       ],
       "cond": [
         "crederei",
@@ -7091,7 +7091,7 @@
         "crederebbe",
         "crederemmo",
         "credereste",
-        "credrebbero"
+        "crederebbero"
       ],
       "congiuntivo_presente": [
         "che io creda",
@@ -7240,7 +7240,7 @@
         "sembrerebbe",
         "sembreremmo",
         "sembrereste",
-        "sembrrebbero"
+        "sembrerebbero"
       ],
       "cond": [
         "sembrerei",
@@ -7248,7 +7248,7 @@
         "sembrerebbe",
         "sembreremmo",
         "sembrereste",
-        "sembrrebbero"
+        "sembrerebbero"
       ],
       "congiuntivo_presente": [
         "che io sembri",
@@ -7396,7 +7396,7 @@
         "diventerebbe",
         "diventeremmo",
         "diventereste",
-        "diventrebbero"
+        "diventerebbero"
       ],
       "cond": [
         "diventerei",
@@ -7404,7 +7404,7 @@
         "diventerebbe",
         "diventeremmo",
         "diventereste",
-        "diventrebbero"
+        "diventerebbero"
       ],
       "congiuntivo_presente": [
         "che io diventi",
@@ -7552,7 +7552,7 @@
         "nuoterebbe",
         "nuoteremmo",
         "nuotereste",
-        "nuotrebbero"
+        "nuoterebbero"
       ],
       "cond": [
         "nuoterei",
@@ -7560,7 +7560,7 @@
         "nuoterebbe",
         "nuoteremmo",
         "nuotereste",
-        "nuotrebbero"
+        "nuoterebbero"
       ],
       "congiuntivo_presente": [
         "che io nuoti",
@@ -7708,7 +7708,7 @@
         "volerebbe",
         "voleremmo",
         "volereste",
-        "volrebbero"
+        "volerebbero"
       ],
       "cond": [
         "volerei",
@@ -7716,7 +7716,7 @@
         "volerebbe",
         "voleremmo",
         "volereste",
-        "volrebbero"
+        "volerebbero"
       ],
       "congiuntivo_presente": [
         "che io voli",
@@ -9172,12 +9172,12 @@
         "abbiano stato"
       ],
       "subj_imp": [
-        "essessi",
-        "essessi",
-        "essesse",
-        "essessimo",
-        "esseste",
-        "essessero"
+        "fossi",
+        "fossi",
+        "fosse",
+        "fossimo",
+        "foste",
+        "fossero"
       ],
       "trap_pass": [
         "avevo stato",
@@ -9798,12 +9798,12 @@
         "abbiano fatto"
       ],
       "subj_imp": [
-        "fassi",
-        "fassi",
-        "fasse",
-        "fassimo",
-        "faste",
-        "fassero"
+        "facessi",
+        "facessi",
+        "facesse",
+        "facessimo",
+        "faceste",
+        "facessero"
       ],
       "trap_pass": [
         "avevo fatto",
@@ -9954,12 +9954,12 @@
         "abbiano detto"
       ],
       "subj_imp": [
-        "dissi",
-        "dissi",
-        "disse",
-        "dissimo",
-        "diste",
-        "dissero"
+        "dicessi",
+        "dicessi",
+        "dicesse",
+        "dicessimo",
+        "diceste",
+        "dicessero"
       ],
       "trap_pass": [
         "avevo detto",
@@ -12454,12 +12454,12 @@
         "abbiano bevuto"
       ],
       "subj_imp": [
-        "bessi",
-        "bessi",
-        "besse",
-        "bessimo",
-        "beste",
-        "bessero"
+        "bevessi",
+        "bevessi",
+        "bevesse",
+        "bevessimo",
+        "beveste",
+        "bevessero"
       ],
       "trap_pass": [
         "avevo bevuto",
@@ -13487,7 +13487,7 @@
         "chiamerebbe",
         "chiameremmo",
         "chiamereste",
-        "chiamrebbero"
+        "chiamerebbero"
       ],
       "cond": [
         "chiamerei",
@@ -13495,7 +13495,7 @@
         "chiamerebbe",
         "chiameremmo",
         "chiamereste",
-        "chiamrebbero"
+        "chiamerebbero"
       ],
       "congiuntivo_presente": [
         "che io chiami",
@@ -13643,7 +13643,7 @@
         "tornerebbe",
         "torneremmo",
         "tornereste",
-        "tornrebbero"
+        "tornerebbero"
       ],
       "cond": [
         "tornerei",
@@ -13651,7 +13651,7 @@
         "tornerebbe",
         "torneremmo",
         "tornereste",
-        "tornrebbero"
+        "tornerebbero"
       ],
       "congiuntivo_presente": [
         "che io torni",
@@ -13799,7 +13799,7 @@
         "entrerebbe",
         "entreremmo",
         "entrereste",
-        "entrrebbero"
+        "entrerebbero"
       ],
       "cond": [
         "entrerei",
@@ -13807,7 +13807,7 @@
         "entrerebbe",
         "entreremmo",
         "entrereste",
-        "entrrebbero"
+        "entrerebbero"
       ],
       "congiuntivo_presente": [
         "che io entri",
@@ -13955,7 +13955,7 @@
         "giungerebbe",
         "giungeremmo",
         "giungereste",
-        "giungrebbero"
+        "giungerebbero"
       ],
       "cond": [
         "giungerei",
@@ -13963,7 +13963,7 @@
         "giungerebbe",
         "giungeremmo",
         "giungereste",
-        "giungrebbero"
+        "giungerebbero"
       ],
       "congiuntivo_presente": [
         "che io giunga",
@@ -14111,7 +14111,7 @@
         "permetterebbe",
         "permetteremmo",
         "permettereste",
-        "permettrebbero"
+        "permetterebbero"
       ],
       "cond": [
         "permetterei",
@@ -14119,7 +14119,7 @@
         "permetterebbe",
         "permetteremmo",
         "permettereste",
-        "permettrebbero"
+        "permetterebbero"
       ],
       "congiuntivo_presente": [
         "che io permetta",
@@ -14267,7 +14267,7 @@
         "prometterebbe",
         "prometteremmo",
         "promettereste",
-        "promettrebbero"
+        "prometterebbero"
       ],
       "cond": [
         "prometterei",
@@ -14275,7 +14275,7 @@
         "prometterebbe",
         "prometteremmo",
         "promettereste",
-        "promettrebbero"
+        "prometterebbero"
       ],
       "congiuntivo_presente": [
         "che io prometta",
@@ -14423,7 +14423,7 @@
         "offenderebbe",
         "offenderemmo",
         "offendereste",
-        "offendrebbero"
+        "offenderebbero"
       ],
       "cond": [
         "offenderei",
@@ -14431,7 +14431,7 @@
         "offenderebbe",
         "offenderemmo",
         "offendereste",
-        "offendrebbero"
+        "offenderebbero"
       ],
       "congiuntivo_presente": [
         "che io offenda",
@@ -14579,7 +14579,7 @@
         "difenderebbe",
         "difenderemmo",
         "difendereste",
-        "difendrebbero"
+        "difenderebbero"
       ],
       "cond": [
         "difenderei",
@@ -14587,7 +14587,7 @@
         "difenderebbe",
         "difenderemmo",
         "difendereste",
-        "difendrebbero"
+        "difenderebbero"
       ],
       "congiuntivo_presente": [
         "che io difenda",
@@ -14735,7 +14735,7 @@
         "muoverebbe",
         "muoveremmo",
         "muovereste",
-        "muovrebbero"
+        "muoverebbero"
       ],
       "cond": [
         "muoverei",
@@ -14743,7 +14743,7 @@
         "muoverebbe",
         "muoveremmo",
         "muovereste",
-        "muovrebbero"
+        "muoverebbero"
       ],
       "congiuntivo_presente": [
         "che io muova",
@@ -14891,7 +14891,7 @@
         "accenderebbe",
         "accenderemmo",
         "accendereste",
-        "accendrebbero"
+        "accenderebbero"
       ],
       "cond": [
         "accenderei",
@@ -14899,7 +14899,7 @@
         "accenderebbe",
         "accenderemmo",
         "accendereste",
-        "accendrebbero"
+        "accenderebbero"
       ],
       "congiuntivo_presente": [
         "che io accenda",
@@ -15047,7 +15047,7 @@
         "spegnerebbe",
         "spegneremmo",
         "spegnereste",
-        "spegnrebbero"
+        "spegnerebbero"
       ],
       "cond": [
         "spegnerei",
@@ -15055,7 +15055,7 @@
         "spegnerebbe",
         "spegneremmo",
         "spegnereste",
-        "spegnrebbero"
+        "spegnerebbero"
       ],
       "congiuntivo_presente": [
         "che io spegna",
@@ -15203,7 +15203,7 @@
         "batterebbe",
         "batteremmo",
         "battereste",
-        "battrebbero"
+        "batterebbero"
       ],
       "cond": [
         "batterei",
@@ -15211,7 +15211,7 @@
         "batterebbe",
         "batteremmo",
         "battereste",
-        "battrebbero"
+        "batterebbero"
       ],
       "congiuntivo_presente": [
         "che io batta",
@@ -15359,7 +15359,7 @@
         "caderebbe",
         "caderemmo",
         "cadereste",
-        "cadrebbero"
+        "caderebbero"
       ],
       "cond": [
         "caderei",
@@ -15367,7 +15367,7 @@
         "caderebbe",
         "caderemmo",
         "cadereste",
-        "cadrebbero"
+        "caderebbero"
       ],
       "congiuntivo_presente": [
         "che io cada",
@@ -15515,7 +15515,7 @@
         "riderebbe",
         "rideremmo",
         "ridereste",
-        "ridrebbero"
+        "riderebbero"
       ],
       "cond": [
         "riderei",
@@ -15523,7 +15523,7 @@
         "riderebbe",
         "rideremmo",
         "ridereste",
-        "ridrebbero"
+        "riderebbero"
       ],
       "congiuntivo_presente": [
         "che io rida",
@@ -15671,7 +15671,7 @@
         "accompagnerebbe",
         "accompagneremmo",
         "accompagnereste",
-        "accompagnerrebbero"
+        "accompagnerebbero"
       ],
       "cond": [
         "accompagnerei",
@@ -15679,7 +15679,7 @@
         "accompagnerebbe",
         "accompagneremmo",
         "accompagnereste",
-        "accompagnerrebbero"
+        "accompagnerebbero"
       ],
       "congiuntivo_presente": [
         "che io accompagni",
@@ -15827,7 +15827,7 @@
         "afferrerebbe",
         "afferreremmo",
         "afferrereste",
-        "afferrerrebbero"
+        "afferrerebbero"
       ],
       "cond": [
         "afferrerei",
@@ -15835,7 +15835,7 @@
         "afferrerebbe",
         "afferreremmo",
         "afferrereste",
-        "afferrerrebbero"
+        "afferrerebbero"
       ],
       "congiuntivo_presente": [
         "che io afferri",
@@ -15983,7 +15983,7 @@
         "alzerebbe",
         "alzeremmo",
         "alzereste",
-        "alzerrebbero"
+        "alzerebbero"
       ],
       "cond": [
         "alzerei",
@@ -15991,7 +15991,7 @@
         "alzerebbe",
         "alzeremmo",
         "alzereste",
-        "alzerrebbero"
+        "alzerebbero"
       ],
       "congiuntivo_presente": [
         "che io alzi",
@@ -16139,7 +16139,7 @@
         "ammetterebbe",
         "ammetteremmo",
         "ammettereste",
-        "ammetterrebbero"
+        "ammetterebbero"
       ],
       "cond": [
         "ammetterei",
@@ -16147,7 +16147,7 @@
         "ammetterebbe",
         "ammetteremmo",
         "ammettereste",
-        "ammetterrebbero"
+        "ammetterebbero"
       ],
       "congiuntivo_presente": [
         "che io ammetta",
@@ -16290,20 +16290,20 @@
         "annuncieranno"
       ],
       "condizionale_presente": [
-        "annuncierei",
-        "annuncieresti",
-        "annuncierebbe",
-        "annuncieremmo",
-        "annunciereste",
-        "annuncierrebbero"
+        "annuncerei",
+        "annunceresti",
+        "annuncerebbe",
+        "annunceremmo",
+        "annuncereste",
+        "annuncerebbero"
       ],
       "cond": [
-        "annuncierei",
-        "annuncieresti",
-        "annuncierebbe",
-        "annuncieremmo",
-        "annunciereste",
-        "annuncierrebbero"
+        "annuncerei",
+        "annunceresti",
+        "annuncerebbe",
+        "annunceremmo",
+        "annuncereste",
+        "annuncerebbero"
       ],
       "congiuntivo_presente": [
         "che io annunci",
@@ -16451,7 +16451,7 @@
         "attraverserebbe",
         "attraverseremmo",
         "attraversereste",
-        "attraverserrebbero"
+        "attraverserebbero"
       ],
       "cond": [
         "attraverserei",
@@ -16459,7 +16459,7 @@
         "attraverserebbe",
         "attraverseremmo",
         "attraversereste",
-        "attraverserrebbero"
+        "attraverserebbero"
       ],
       "congiuntivo_presente": [
         "che io attraversi",
@@ -16607,7 +16607,7 @@
         "basterebbe",
         "basteremmo",
         "bastereste",
-        "basterrebbero"
+        "basterebbero"
       ],
       "cond": [
         "basterei",
@@ -16615,7 +16615,7 @@
         "basterebbe",
         "basteremmo",
         "bastereste",
-        "basterrebbero"
+        "basterebbero"
       ],
       "congiuntivo_presente": [
         "che io basti",
@@ -16914,20 +16914,20 @@
         "brucieranno"
       ],
       "condizionale_presente": [
-        "brucierei",
-        "brucieresti",
-        "brucierebbe",
-        "brucieremmo",
-        "bruciereste",
-        "brucierrebbero"
+        "brucerei",
+        "bruceresti",
+        "brucerebbe",
+        "bruceremmo",
+        "brucereste",
+        "brucerebbero"
       ],
       "cond": [
-        "brucierei",
-        "brucieresti",
-        "brucierebbe",
-        "brucieremmo",
-        "bruciereste",
-        "brucierrebbero"
+        "brucerei",
+        "bruceresti",
+        "brucerebbe",
+        "bruceremmo",
+        "brucereste",
+        "brucerebbero"
       ],
       "congiuntivo_presente": [
         "che io bruci",
@@ -17075,7 +17075,7 @@
         "confermerebbe",
         "confermeremmo",
         "confermereste",
-        "confermerrebbero"
+        "confermerebbero"
       ],
       "cond": [
         "confermerei",
@@ -17083,7 +17083,7 @@
         "confermerebbe",
         "confermeremmo",
         "confermereste",
-        "confermerrebbero"
+        "confermerebbero"
       ],
       "congiuntivo_presente": [
         "che io confermi",
@@ -17231,7 +17231,7 @@
         "conoscerebbe",
         "conosceremmo",
         "conoscereste",
-        "conoscerrebbero"
+        "conoscerebbero"
       ],
       "cond": [
         "conoscerei",
@@ -17239,7 +17239,7 @@
         "conoscerebbe",
         "conosceremmo",
         "conoscereste",
-        "conoscerrebbero"
+        "conoscerebbero"
       ],
       "congiuntivo_presente": [
         "che io conosca",
@@ -17387,7 +17387,7 @@
         "consiglierebbe",
         "consiglieremmo",
         "consigliereste",
-        "consiglierrebbero"
+        "consiglierebbero"
       ],
       "cond": [
         "consiglierei",
@@ -17395,7 +17395,7 @@
         "consiglierebbe",
         "consiglieremmo",
         "consigliereste",
-        "consiglierrebbero"
+        "consiglierebbero"
       ],
       "congiuntivo_presente": [
         "che io consigli",
@@ -17543,7 +17543,7 @@
         "conterebbe",
         "conteremmo",
         "contereste",
-        "conterrebbero"
+        "conterebbero"
       ],
       "cond": [
         "conterei",
@@ -17551,7 +17551,7 @@
         "conterebbe",
         "conteremmo",
         "contereste",
-        "conterrebbero"
+        "conterebbero"
       ],
       "congiuntivo_presente": [
         "che io conti",
@@ -17699,7 +17699,7 @@
         "continuerebbe",
         "continueremmo",
         "continuereste",
-        "continuerrebbero"
+        "continuerebbero"
       ],
       "cond": [
         "continuerei",
@@ -17707,7 +17707,7 @@
         "continuerebbe",
         "continueremmo",
         "continuereste",
-        "continuerrebbero"
+        "continuerebbero"
       ],
       "congiuntivo_presente": [
         "che io continui",
@@ -17855,7 +17855,7 @@
         "coprirebbe",
         "copriremmo",
         "coprireste",
-        "coprirrebbero"
+        "coprirebbero"
       ],
       "cond": [
         "coprirei",
@@ -17863,7 +17863,7 @@
         "coprirebbe",
         "copriremmo",
         "coprireste",
-        "coprirrebbero"
+        "coprirebbero"
       ],
       "congiuntivo_presente": [
         "che io copra",
@@ -18011,7 +18011,7 @@
         "correggerebbe",
         "correggeremmo",
         "correggereste",
-        "correggerrebbero"
+        "correggerebbero"
       ],
       "cond": [
         "correggerei",
@@ -18019,7 +18019,7 @@
         "correggerebbe",
         "correggeremmo",
         "correggereste",
-        "correggerrebbero"
+        "correggerebbero"
       ],
       "congiuntivo_presente": [
         "che io corregga",
@@ -18167,7 +18167,7 @@
         "costruirebbe",
         "costruiremmo",
         "costruireste",
-        "costruirrebbero"
+        "costruirebbero"
       ],
       "cond": [
         "costruirei",
@@ -18175,7 +18175,7 @@
         "costruirebbe",
         "costruiremmo",
         "costruireste",
-        "costruirrebbero"
+        "costruirebbero"
       ],
       "congiuntivo_presente": [
         "che io costrua",
@@ -18323,7 +18323,7 @@
         "cucinerebbe",
         "cucineremmo",
         "cucinereste",
-        "cucinerrebbero"
+        "cucinerebbero"
       ],
       "cond": [
         "cucinerei",
@@ -18331,7 +18331,7 @@
         "cucinerebbe",
         "cucineremmo",
         "cucinereste",
-        "cucinerrebbero"
+        "cucinerebbero"
       ],
       "congiuntivo_presente": [
         "che io cucini",
@@ -18479,7 +18479,7 @@
         "descriverebbe",
         "descriveremmo",
         "descrivereste",
-        "descriverrebbero"
+        "descriverebbero"
       ],
       "cond": [
         "descriverei",
@@ -18487,7 +18487,7 @@
         "descriverebbe",
         "descriveremmo",
         "descrivereste",
-        "descriverrebbero"
+        "descriverebbero"
       ],
       "congiuntivo_presente": [
         "che io descriva",
@@ -18635,7 +18635,7 @@
         "dimostrerebbe",
         "dimostreremmo",
         "dimostrereste",
-        "dimostrerrebbero"
+        "dimostrerebbero"
       ],
       "cond": [
         "dimostrerei",
@@ -18643,7 +18643,7 @@
         "dimostrerebbe",
         "dimostreremmo",
         "dimostrereste",
-        "dimostrerrebbero"
+        "dimostrerebbero"
       ],
       "congiuntivo_presente": [
         "che io dimostri",
@@ -18791,7 +18791,7 @@
         "disegnerebbe",
         "disegneremmo",
         "disegnereste",
-        "disegnerrebbero"
+        "disegnerebbero"
       ],
       "cond": [
         "disegnerei",
@@ -18799,7 +18799,7 @@
         "disegnerebbe",
         "disegneremmo",
         "disegnereste",
-        "disegnerrebbero"
+        "disegnerebbero"
       ],
       "congiuntivo_presente": [
         "che io disegni",
@@ -18947,7 +18947,7 @@
         "distruggerebbe",
         "distruggeremmo",
         "distruggereste",
-        "distruggerrebbero"
+        "distruggerebbero"
       ],
       "cond": [
         "distruggerei",
@@ -18955,7 +18955,7 @@
         "distruggerebbe",
         "distruggeremmo",
         "distruggereste",
-        "distruggerrebbero"
+        "distruggerebbero"
       ],
       "congiuntivo_presente": [
         "che io distrugga",
@@ -19103,7 +19103,7 @@
         "dubiterebbe",
         "dubiteremmo",
         "dubitereste",
-        "dubiterrebbero"
+        "dubiterebbero"
       ],
       "cond": [
         "dubiterei",
@@ -19111,7 +19111,7 @@
         "dubiterebbe",
         "dubiteremmo",
         "dubitereste",
-        "dubiterrebbero"
+        "dubiterebbero"
       ],
       "congiuntivo_presente": [
         "che io dubiti",
@@ -19259,7 +19259,7 @@
         "eviterebbe",
         "eviteremmo",
         "evitereste",
-        "eviterrebbero"
+        "eviterebbero"
       ],
       "cond": [
         "eviterei",
@@ -19267,7 +19267,7 @@
         "eviterebbe",
         "eviteremmo",
         "evitereste",
-        "eviterrebbero"
+        "eviterebbero"
       ],
       "congiuntivo_presente": [
         "che io eviti",
@@ -19415,7 +19415,7 @@
         "fermerebbe",
         "fermeremmo",
         "fermereste",
-        "fermerrebbero"
+        "fermerebbero"
       ],
       "cond": [
         "fermerei",
@@ -19423,7 +19423,7 @@
         "fermerebbe",
         "fermeremmo",
         "fermereste",
-        "fermerrebbero"
+        "fermerebbero"
       ],
       "congiuntivo_presente": [
         "che io fermi",
@@ -19571,7 +19571,7 @@
         "firmerebbe",
         "firmeremmo",
         "firmereste",
-        "firmerrebbero"
+        "firmerebbero"
       ],
       "cond": [
         "firmerei",
@@ -19579,7 +19579,7 @@
         "firmerebbe",
         "firmeremmo",
         "firmereste",
-        "firmerrebbero"
+        "firmerebbero"
       ],
       "congiuntivo_presente": [
         "che io firmi",
@@ -19722,20 +19722,20 @@
         "lascieranno"
       ],
       "condizionale_presente": [
-        "lascierei",
-        "lascieresti",
-        "lascierebbe",
-        "lascieremmo",
-        "lasciereste",
-        "lascierrebbero"
+        "lascerei",
+        "lasceresti",
+        "lascerebbe",
+        "lasceremmo",
+        "lascereste",
+        "lascerebbero"
       ],
       "cond": [
-        "lascierei",
-        "lascieresti",
-        "lascierebbe",
-        "lascieremmo",
-        "lasciereste",
-        "lascierrebbero"
+        "lascerei",
+        "lasceresti",
+        "lascerebbe",
+        "lasceremmo",
+        "lascereste",
+        "lascerebbero"
       ],
       "congiuntivo_presente": [
         "che io lasci",
@@ -19883,7 +19883,7 @@
         "mostrerebbe",
         "mostreremmo",
         "mostrereste",
-        "mostrerrebbero"
+        "mostrerebbero"
       ],
       "cond": [
         "mostrerei",
@@ -19891,7 +19891,7 @@
         "mostrerebbe",
         "mostreremmo",
         "mostrereste",
-        "mostrerrebbero"
+        "mostrerebbero"
       ],
       "congiuntivo_presente": [
         "che io mostri",
@@ -20039,7 +20039,7 @@
         "nasconderebbe",
         "nasconderemmo",
         "nascondereste",
-        "nasconderrebbero"
+        "nasconderebbero"
       ],
       "cond": [
         "nasconderei",
@@ -20047,7 +20047,7 @@
         "nasconderebbe",
         "nasconderemmo",
         "nascondereste",
-        "nasconderrebbero"
+        "nasconderebbero"
       ],
       "congiuntivo_presente": [
         "che io nasconda",
@@ -20195,7 +20195,7 @@
         "piangerebbe",
         "piangeremmo",
         "piangereste",
-        "piangerrebbero"
+        "piangerebbero"
       ],
       "cond": [
         "piangerei",
@@ -20203,7 +20203,7 @@
         "piangerebbe",
         "piangeremmo",
         "piangereste",
-        "piangerrebbero"
+        "piangerebbero"
       ],
       "congiuntivo_presente": [
         "che io pianga",
@@ -20351,7 +20351,7 @@
         "racconterebbe",
         "racconteremmo",
         "raccontereste",
-        "racconterrebbero"
+        "racconterebbero"
       ],
       "cond": [
         "racconterei",
@@ -20359,7 +20359,7 @@
         "racconterebbe",
         "racconteremmo",
         "raccontereste",
-        "racconterrebbero"
+        "racconterebbero"
       ],
       "congiuntivo_presente": [
         "che io racconti",
@@ -20507,7 +20507,7 @@
         "venderebbe",
         "venderemmo",
         "vendereste",
-        "venderrebbero"
+        "venderebbero"
       ],
       "cond": [
         "venderei",
@@ -20515,7 +20515,7 @@
         "venderebbe",
         "venderemmo",
         "vendereste",
-        "venderrebbero"
+        "venderebbero"
       ],
       "congiuntivo_presente": [
         "che io venda",
@@ -20652,11 +20652,11 @@
       ],
       "cond": [
         "io proverei",
-        "tu provereresti",
-        "lui/lei provererebbe",
-        "noi provereremmo",
-        "voi proverereste",
-        "loro provererebbero"
+        "tu proveresti",
+        "lui/lei proverebbe",
+        "noi proveremmo",
+        "voi provereste",
+        "loro proverebbero"
       ],
       "subj": [
         "che io provi",
@@ -20777,11 +20777,11 @@
       ],
       "cond": [
         "io saluterei",
-        "tu salutereresti",
-        "lui/lei salutererebbe",
-        "noi salutereremmo",
-        "voi saluterereste",
-        "loro salutererebbero"
+        "tu saluteresti",
+        "lui/lei saluterebbe",
+        "noi saluteremmo",
+        "voi salutereste",
+        "loro saluterebbero"
       ],
       "subj": [
         "che io saluti",
@@ -20902,11 +20902,11 @@
       ],
       "cond": [
         "io suonerei",
-        "tu suonereresti",
+        "tu suoneresti",
         "lui/lei suonererebbe",
-        "noi suonereremmo",
-        "voi suonerereste",
-        "loro suonererebbero"
+        "noi suoneremmo",
+        "voi suonereste",
+        "loro suonerebbero"
       ],
       "subj": [
         "che io suoni",
@@ -21027,11 +21027,11 @@
       ],
       "cond": [
         "io telefonerei",
-        "tu telefonereresti",
-        "lui/lei telefonererebbe",
-        "noi telefonereremmo",
-        "voi telefonerereste",
-        "loro telefonererebbero"
+        "tu telefoneresti",
+        "lui/lei telefonerebbe",
+        "noi telefoneremmo",
+        "voi telefonereste",
+        "loro telefonerebbero"
       ],
       "subj": [
         "che io telefoni",
@@ -21152,11 +21152,11 @@
       ],
       "cond": [
         "io userei",
-        "tu usereresti",
-        "lui/lei usererebbe",
-        "noi usereremmo",
-        "voi userereste",
-        "loro usererebbero"
+        "tu useresti",
+        "lui/lei userebbe",
+        "noi useremmo",
+        "voi usereste",
+        "loro userebbero"
       ],
       "subj": [
         "che io usi",
@@ -21277,11 +21277,11 @@
       ],
       "cond": [
         "io darei",
-        "tu dareresti",
-        "lui/lei darerebbe",
-        "noi dareremmo",
-        "voi darereste",
-        "loro darerebbero"
+        "tu daresti",
+        "lui/lei darebbe",
+        "noi daremmo",
+        "voi dareste",
+        "loro darebbero"
       ],
       "subj": [
         "che io di",
@@ -21317,12 +21317,12 @@
         "abbiano dato"
       ],
       "subj_imp": [
-        "dassi",
-        "dassi",
-        "dasse",
-        "dassimo",
-        "daste",
-        "dassero"
+        "dessi",
+        "dessi",
+        "desse",
+        "dessimo",
+        "deste",
+        "dessero"
       ],
       "trap_pass": [
         "avevo dato",
@@ -21402,11 +21402,11 @@
       ],
       "cond": [
         "io mangerei",
-        "tu mangereresti",
-        "lui/lei mangererebbe",
-        "noi mangereremmo",
-        "voi mangerereste",
-        "loro mangererebbero"
+        "tu mangeresti",
+        "lui/lei mangerebbe",
+        "noi mangeremmo",
+        "voi mangereste",
+        "loro mangerebbero"
       ],
       "subj": [
         "che io mangii",
@@ -21494,20 +21494,20 @@
         "loro piacciono"
       ],
       "pass_comp": [
-        "io è piaciuto",
-        "tu è piaciuto",
+        "io sono piaciuto",
+        "tu sei piaciuto",
         "lui/lei è piaciuto",
-        "noi è piaciuto",
-        "voi è piaciuto",
-        "loro è piaciuto"
+        "noi siamo piaciuti",
+        "voi siete piaciuti",
+        "loro sono piaciuti"
       ],
       "pc": [
-        "sono piacato",
-        "sei piacato",
-        "è piacato",
-        "siamo piacati",
-        "siete piacati",
-        "sono piacati"
+        "sono piaciuto",
+        "sei piaciuto",
+        "è piaciuto",
+        "siamo piaciuti",
+        "siete piaciuti",
+        "sono piaciuti"
       ],
       "impf": [
         "io piacevo",
@@ -21527,11 +21527,11 @@
       ],
       "cond": [
         "io piacerei",
-        "tu piacereresti",
-        "lui/lei piacererebbe",
-        "noi piacereremmo",
-        "voi piacerereste",
-        "loro piacererebbero"
+        "tu piaceresti",
+        "lui/lei piacerebbe",
+        "noi piaceremmo",
+        "voi piacereste",
+        "loro piacerebbero"
       ],
       "subj": [
         "che io piaci",
@@ -21547,8 +21547,8 @@
         "piacate"
       ],
       "part": [
-        "piacante",
-        "piacato"
+        "piacente",
+        "piaciuto"
       ],
       "cond_pass": [
         "sarei piacato",
@@ -21652,11 +21652,11 @@
       ],
       "cond": [
         "io starei",
-        "tu stareresti",
-        "lui/lei starerebbe",
-        "noi stareremmo",
-        "voi starereste",
-        "loro starerebbero"
+        "tu staresti",
+        "lui/lei starebbe",
+        "noi staremmo",
+        "voi stareste",
+        "loro starebbero"
       ],
       "subj": [
         "che io sti",
@@ -21692,12 +21692,12 @@
         "siano stati"
       ],
       "subj_imp": [
-        "stassi",
-        "stassi",
-        "stasse",
-        "stassimo",
-        "staste",
-        "stassero"
+        "stessi",
+        "stessi",
+        "stesse",
+        "stessimo",
+        "steste",
+        "stessero"
       ],
       "trap_pass": [
         "ero stato",
@@ -21777,11 +21777,11 @@
       ],
       "cond": [
         "io inviterei",
-        "tu invitereresti",
-        "lui/lei invitererebbe",
-        "noi invitereremmo",
-        "voi inviterereste",
-        "loro invitererebbero"
+        "tu inviteresti",
+        "lui/lei inviterebbe",
+        "noi inviteremmo",
+        "voi invitereste",
+        "loro inviterebbero"
       ],
       "subj": [
         "che io inviti",
@@ -21902,11 +21902,11 @@
       ],
       "cond": [
         "io lancerei",
-        "tu lancereresti",
-        "lui/lei lancererebbe",
-        "noi lancereremmo",
-        "voi lancerereste",
-        "loro lancererebbero"
+        "tu lanceresti",
+        "lui/lei lancerebbe",
+        "noi lanceremmo",
+        "voi lancereste",
+        "loro lancerebbero"
       ],
       "subj": [
         "che io lancii",
@@ -22027,11 +22027,11 @@
       ],
       "cond": [
         "io laverei",
-        "tu lavereresti",
-        "lui/lei lavererebbe",
-        "noi lavereremmo",
-        "voi laverereste",
-        "loro lavererebbero"
+        "tu laveresti",
+        "lui/lei laverebbe",
+        "noi laveremmo",
+        "voi lavereste",
+        "loro laverebbero"
       ],
       "subj": [
         "che io lavi",
@@ -22285,11 +22285,11 @@
       ],
       "cond": [
         "io preferirei",
-        "tu preferireresti",
-        "lui/lei preferirerebbe",
-        "noi preferireremmo",
-        "voi preferirereste",
-        "loro preferirerebbero"
+        "tu preferiresti",
+        "lui/lei preferirebbe",
+        "noi preferiremmo",
+        "voi preferireste",
+        "loro preferirebbero"
       ],
       "subj": [
         "che io preferi",
@@ -22305,8 +22305,8 @@
         "preferate"
       ],
       "part": [
-        "preferante",
-        "preferato"
+        "preferente",
+        "preferito"
       ],
       "cond_pass": [
         "avrei preferito",
@@ -22410,11 +22410,11 @@
       ],
       "cond": [
         "io riposerei",
-        "tu riposereresti",
-        "lui/lei riposererebbe",
-        "noi riposereremmo",
-        "voi riposerereste",
-        "loro riposererebbero"
+        "tu riposeresti",
+        "lui/lei riposerebbe",
+        "noi riposeremmo",
+        "voi riposereste",
+        "loro riposerebbero"
       ],
       "subj": [
         "che io riposi",
@@ -22535,11 +22535,11 @@
       ],
       "cond": [
         "io romperei",
-        "tu rompereresti",
-        "lui/lei rompererebbe",
-        "noi rompereremmo",
-        "voi romperereste",
-        "loro rompererebbero"
+        "tu romperesti",
+        "lui/lei romperebbe",
+        "noi romperemmo",
+        "voi rompereste",
+        "loro romperebbero"
       ],
       "subj": [
         "che io rompi",
@@ -22555,8 +22555,8 @@
         "rompate"
       ],
       "part": [
-        "rompante",
-        "rompato"
+        "rompente",
+        "rotto"
       ],
       "cond_pass": [
         "avrei rotto",
@@ -22660,11 +22660,11 @@
       ],
       "cond": [
         "io scoprirei",
-        "tu scoprireresti",
-        "lui/lei scoprirerebbe",
-        "noi scoprireremmo",
-        "voi scoprirereste",
-        "loro scoprirerebbero"
+        "tu scopriresti",
+        "lui/lei scoprirebbe",
+        "noi scopriremmo",
+        "voi scoprireste",
+        "loro scoprirebbero"
       ],
       "subj": [
         "che io scopri",
@@ -22680,8 +22680,8 @@
         "scoprate"
       ],
       "part": [
-        "scoprante",
-        "scoprato"
+        "scoprente",
+        "scoperto"
       ],
       "cond_pass": [
         "avrei scoperto",
@@ -22785,11 +22785,11 @@
       ],
       "cond": [
         "io sveglierei",
-        "tu svegliereresti",
-        "lui/lei svegliererebbe",
-        "noi svegliereremmo",
-        "voi sveglierereste",
-        "loro svegliererebbero"
+        "tu sveglieresti",
+        "lui/lei sveglierebbe",
+        "noi sveglieremmo",
+        "voi svegliereste",
+        "loro sveglierebbero"
       ],
       "subj": [
         "che io sveglii",
@@ -22910,11 +22910,11 @@
       ],
       "cond": [
         "io annullerei",
-        "tu annullereresti",
-        "lui/lei annullererebbe",
-        "noi annullereremmo",
-        "voi annullerereste",
-        "loro annullererebbero"
+        "tu annulleresti",
+        "lui/lei annullerebbe",
+        "noi annulleremmo",
+        "voi annullereste",
+        "loro annullerebbero"
       ],
       "subj": [
         "che io annulli",
@@ -23035,11 +23035,11 @@
       ],
       "cond": [
         "io apparterrei",
-        "tu apparterreresti",
-        "lui/lei apparterrerebbe",
-        "noi apparterreremmo",
-        "voi apparterrereste",
-        "loro apparterrerebbero"
+        "tu apparterresti",
+        "lui/lei apparterrebbe",
+        "noi apparterremmo",
+        "voi apparterreste",
+        "loro apparterrebbero"
       ],
       "subj": [
         "che io apparteni",
@@ -23055,8 +23055,8 @@
         "appartenate"
       ],
       "part": [
-        "appartenante",
-        "appartenato"
+        "appartenente",
+        "appartenuto"
       ],
       "cond_pass": [
         "sarei appartenato",
@@ -23160,11 +23160,11 @@
       ],
       "cond": [
         "io aumenterei",
-        "tu aumentereresti",
-        "lui/lei aumentererebbe",
-        "noi aumentereremmo",
-        "voi aumenterereste",
-        "loro aumentererebbero"
+        "tu aumenteresti",
+        "lui/lei aumenterebbe",
+        "noi aumenteremmo",
+        "voi aumentereste",
+        "loro aumenterebbero"
       ],
       "subj": [
         "che io aumenti",
@@ -23285,11 +23285,11 @@
       ],
       "cond": [
         "io cenerei",
-        "tu cenereresti",
-        "lui/lei cenererebbe",
-        "noi cenereremmo",
-        "voi cenerereste",
-        "loro cenererebbero"
+        "tu ceneresti",
+        "lui/lei cenerebbe",
+        "noi ceneremmo",
+        "voi cenereste",
+        "loro cenerebbero"
       ],
       "subj": [
         "che io ceni",
@@ -23410,11 +23410,11 @@
       ],
       "cond": [
         "io comprenderei",
-        "tu comprendereresti",
-        "lui/lei comprendererebbe",
-        "noi comprendereremmo",
-        "voi comprenderereste",
-        "loro comprendererebbero"
+        "tu comprenderesti",
+        "lui/lei comprenderebbe",
+        "noi comprenderemmo",
+        "voi comprendereste",
+        "loro comprenderebbero"
       ],
       "subj": [
         "che io comprendi",
@@ -23430,8 +23430,8 @@
         "comprendate"
       ],
       "part": [
-        "comprendante",
-        "comprendato"
+        "comprendente",
+        "compreso"
       ],
       "cond_pass": [
         "avrei compreso",
@@ -23535,11 +23535,11 @@
       ],
       "cond": [
         "io consegnerei",
-        "tu consegnereresti",
-        "lui/lei consegnererebbe",
-        "noi consegnereremmo",
-        "voi consegnerereste",
-        "loro consegnererebbero"
+        "tu consegneresti",
+        "lui/lei consegnerebbe",
+        "noi consegneremmo",
+        "voi consegnereste",
+        "loro consegnerebbero"
       ],
       "subj": [
         "che io consegni",
@@ -23660,11 +23660,11 @@
       ],
       "cond": [
         "io deciderei",
-        "tu decidereresti",
-        "lui/lei decidererebbe",
-        "noi decidereremmo",
-        "voi deciderereste",
-        "loro decidererebbero"
+        "tu decideresti",
+        "lui/lei deciderebbe",
+        "noi decideremmo",
+        "voi decidereste",
+        "loro deciderebbero"
       ],
       "subj": [
         "che io decidi",
@@ -23680,8 +23680,8 @@
         "decidate"
       ],
       "part": [
-        "decidante",
-        "decidato"
+        "decidente",
+        "deciso"
       ],
       "cond_pass": [
         "avrei decidato",
@@ -23785,11 +23785,11 @@
       ],
       "cond": [
         "io desidererei",
-        "tu desiderereresti",
-        "lui/lei desiderererebbe",
-        "noi desiderereremmo",
-        "voi desidererereste",
-        "loro desiderererebbero"
+        "tu desidereresti",
+        "lui/lei desidererebbe",
+        "noi desidereremmo",
+        "voi desiderereste",
+        "loro desidererebbero"
       ],
       "subj": [
         "che io desideri",
@@ -23910,11 +23910,11 @@
       ],
       "cond": [
         "io raccoglierei",
-        "tu raccogliereresti",
-        "lui/lei raccogliererebbe",
-        "noi raccogliereremmo",
-        "voi raccoglierereste",
-        "loro raccogliererebbero"
+        "tu raccoglieresti",
+        "lui/lei raccoglierebbe",
+        "noi raccoglieremmo",
+        "voi raccogliereste",
+        "loro raccoglierebbero"
       ],
       "subj": [
         "che io raccoglii",
@@ -23930,8 +23930,8 @@
         "raccogliate"
       ],
       "part": [
-        "raccogliante",
-        "raccogliato"
+        "raccogliente",
+        "raccolto"
       ],
       "cond_pass": [
         "avrei raccogliato",
@@ -24035,11 +24035,11 @@
       ],
       "cond": [
         "io raggiungerei",
-        "tu raggiungereresti",
-        "lui/lei raggiungererebbe",
-        "noi raggiungereremmo",
-        "voi raggiungerereste",
-        "loro raggiungererebbero"
+        "tu raggiungeresti",
+        "lui/lei raggiungerebbe",
+        "noi raggiungeremmo",
+        "voi raggiungereste",
+        "loro raggiungerebbero"
       ],
       "subj": [
         "che io raggiungi",
@@ -24055,8 +24055,8 @@
         "raggiungate"
       ],
       "part": [
-        "raggiungante",
-        "raggiungato"
+        "raggiungente",
+        "raggiunto"
       ],
       "cond_pass": [
         "avrei raggiungato",
@@ -24160,11 +24160,11 @@
       ],
       "cond": [
         "io regalerei",
-        "tu regalereresti",
-        "lui/lei regalererebbe",
-        "noi regalereremmo",
-        "voi regalerereste",
-        "loro regalererebbero"
+        "tu regaleresti",
+        "lui/lei regalerebbe",
+        "noi regaleremmo",
+        "voi regalereste",
+        "loro regalerebbero"
       ],
       "subj": [
         "che io regali",
@@ -24285,11 +24285,11 @@
       ],
       "cond": [
         "io riceverei",
-        "tu ricevereresti",
-        "lui/lei ricevererebbe",
-        "noi ricevereremmo",
-        "voi riceverereste",
-        "loro ricevererebbero"
+        "tu riceveresti",
+        "lui/lei riceverebbe",
+        "noi riceveremmo",
+        "voi ricevereste",
+        "loro riceverebbero"
       ],
       "subj": [
         "che io ricevi",
@@ -24305,8 +24305,8 @@
         "ricevate"
       ],
       "part": [
-        "ricevante",
-        "ricevato"
+        "ricevente",
+        "ricevuto"
       ],
       "cond_pass": [
         "avrei ricevuto",
@@ -24410,11 +24410,11 @@
       ],
       "cond": [
         "io ringrazierei",
-        "tu ringraziereresti",
-        "lui/lei ringraziererebbe",
-        "noi ringraziereremmo",
-        "voi ringrazierereste",
-        "loro ringraziererebbero"
+        "tu ringrazieresti",
+        "lui/lei ringrazierebbe",
+        "noi ringrazieremmo",
+        "voi ringraziereste",
+        "loro ringrazierebbero"
       ],
       "subj": [
         "che io ringrazii",
@@ -24535,11 +24535,11 @@
       ],
       "cond": [
         "io ripeterei",
-        "tu ripetereresti",
-        "lui/lei ripetererebbe",
-        "noi ripetereremmo",
-        "voi ripeterereste",
-        "loro ripetererebbero"
+        "tu ripeteresti",
+        "lui/lei ripeterebbe",
+        "noi ripeteremmo",
+        "voi ripetereste",
+        "loro ripeterebbero"
       ],
       "subj": [
         "che io ripeti",
@@ -24555,8 +24555,8 @@
         "ripetate"
       ],
       "part": [
-        "ripetante",
-        "ripetato"
+        "ripetente",
+        "ripetuto"
       ],
       "cond_pass": [
         "avrei ripetato",
@@ -24660,11 +24660,11 @@
       ],
       "cond": [
         "io sbaglierei",
-        "tu sbagliereresti",
-        "lui/lei sbagliererebbe",
-        "noi sbagliereremmo",
-        "voi sbaglierereste",
-        "loro sbagliererebbero"
+        "tu sbaglieresti",
+        "lui/lei sbaglierebbe",
+        "noi sbaglieremmo",
+        "voi sbagliereste",
+        "loro sbaglierebbero"
       ],
       "subj": [
         "che io sbaglii",
@@ -24785,11 +24785,11 @@
       ],
       "cond": [
         "io sceglierei",
-        "tu scegliereresti",
-        "lui/lei scegliererebbe",
-        "noi scegliereremmo",
-        "voi sceglierereste",
-        "loro scegliererebbero"
+        "tu sceglieresti",
+        "lui/lei sceglierebbe",
+        "noi sceglieremmo",
+        "voi scegliereste",
+        "loro sceglierebbero"
       ],
       "subj": [
         "che io sceglii",
@@ -24805,8 +24805,8 @@
         "scegliate"
       ],
       "part": [
-        "scegliante",
-        "scegliato"
+        "scegliente",
+        "scelto"
       ],
       "cond_pass": [
         "avrei scegliato",
@@ -24910,11 +24910,11 @@
       ],
       "cond": [
         "io ucciderei",
-        "tu uccidereresti",
-        "lui/lei uccidererebbe",
-        "noi uccidereremmo",
-        "voi ucciderereste",
-        "loro uccidererebbero"
+        "tu uccideresti",
+        "lui/lei ucciderebbe",
+        "noi uccideremmo",
+        "voi uccidereste",
+        "loro ucciderebbero"
       ],
       "subj": [
         "che io uccidi",
@@ -24930,8 +24930,8 @@
         "uccidate"
       ],
       "part": [
-        "uccidante",
-        "uccidato"
+        "uccidente",
+        "ucciso"
       ],
       "cond_pass": [
         "avrei uccidato",
@@ -25035,11 +25035,11 @@
       ],
       "cond": [
         "io voterei",
-        "tu votereresti",
-        "lui/lei votererebbe",
-        "noi votereremmo",
-        "voi voterereste",
-        "loro votererebbero"
+        "tu voteresti",
+        "lui/lei voterebbe",
+        "noi voteremmo",
+        "voi votereste",
+        "loro voterebbero"
       ],
       "subj": [
         "che io voti",
@@ -25160,11 +25160,11 @@
       ],
       "cond": [
         "io avviserei",
-        "tu avvisereresti",
-        "lui/lei avvisererebbe",
-        "noi avvisereremmo",
-        "voi avviserereste",
-        "loro avvisererebbero"
+        "tu avviseresti",
+        "lui/lei avviserebbe",
+        "noi avviseremmo",
+        "voi avvisereste",
+        "loro avviserebbero"
       ],
       "subj": [
         "che io avvisi",
@@ -25512,7 +25512,7 @@
       ],
       "part": [
         "discutendo",
-        "discututo"
+        "discusso"
       ]
     }
   },
@@ -25676,12 +25676,12 @@
         "prevedano"
       ],
       "cond": [
-        "prevedrei",
-        "prevedresti",
-        "prevedrebbe",
-        "prevedremmo",
-        "prevedreste",
-        "prevedrebbero"
+        "prevederei",
+        "prevederesti",
+        "prevederebbe",
+        "prevederemmo",
+        "prevedereste",
+        "prevederebbero"
       ],
       "impv": [
         "prevedi",
