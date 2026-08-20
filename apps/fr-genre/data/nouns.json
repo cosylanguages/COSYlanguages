@@ -2964,5 +2964,110 @@
     ],
     "article": "l'",
     "plural": "hivers"
+  },
+  "valise": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Bagage rigide ou souple pour transporter ses affaires.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "valises"
+  },
+  "passeport": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Document officiel d'identité pour voyager à l'étranger.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "passeports"
+  },
+  "sport": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Activité physique exercée selon des règles.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "sports"
+  },
+  "équipe": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Groupe de personnes jouant ou travaillant ensemble.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "équipes"
+  },
+  "match": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Compétition sportive entre deux adversaires.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "matchs"
+  },
+  "piscine": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Bassin artificiel rempli d'eau pour la natation.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "piscines"
+  },
+  "prix": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Somme d'argent à payer pour acheter quelque chose.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "prix"
+  },
+  "publicité": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Action de faire connaître un produit au public.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "publicités"
+  },
+  "journal": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Publication quotidienne imprimée ou en ligne d'actualités.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-aux' ('les journaux').",
+    "article": "le",
+    "plural": "journaux"
+  },
+  "émission": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Programme diffusé à la télévision ou à la radio.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "émissions"
+  },
+  "médicament": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Substance utilisée pour soigner ou guérir une maladie.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "médicaments"
+  },
+  "fièvre": {
+    "gender": "Féminin",
+    "level": "A2",
+    "definition": "Élévation anormale de la température du corps.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "fièvres"
+  },
+  "rhume": {
+    "gender": "Masculin",
+    "level": "A2",
+    "definition": "Infection virale bénigne des voies respiratoires.",
+    "antonyms": [],
+    "article": "le",
+    "plural": "rhumes"
   }
 }
