@@ -3283,5 +3283,93 @@
     "antonyms": [],
     "article": "la",
     "plural": "paste"
+  },
+  "moto": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Veicolo a due ruote a motore.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nome femminile invariabile al plurale ('la moto / le moto').",
+    "article": "la",
+    "plural": "moto"
+  },
+  "taxi": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Automobile per il trasporto individuale di passeggeri a pagamento.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nome maschile d'origine straniera invariabile al plurale ('il taxi / i taxi').",
+    "article": "il",
+    "plural": "taxi"
+  },
+  "matematica": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Scienza che studia i numeri, le quantità e le forme geometriche.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "matematiche"
+  },
+  "geografia": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Scienza che studia e descrive la superficie della Terra.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "geografie"
+  },
+  "scienze": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Insieme delle discipline di osservazione e studio della natura.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nome femminile plurale usato per la materia scolastica.",
+    "article": "le",
+    "plural": "scienze"
+  },
+  "cognome": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Nome di famiglia trasmesso di generazione in generazione.",
+    "antonyms": [
+      "nome"
+    ],
+    "article": "il",
+    "plural": "cognomi"
+  },
+  "età": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Numero di anni vissuti da una persona dalla nascita.",
+    "antonyms": [
+      "giovinezza"
+    ],
+    "grammar_rule": "💡 REMEMBER: Nome femminile accentato invariabile al plurale ('l'età / le età').",
+    "article": "l'",
+    "plural": "età"
+  },
+  "indirizzo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indicazione del luogo di residenza con via e numero civico.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "indirizzi"
+  },
+  "numero": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Serie di cifre per chiamare un contatto telefonico.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "numeri"
+  },
+  "compleanno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Giorno dell'anno in cui ricorre l'anniversario della propria nascita.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "compleanni"
   }
 }
