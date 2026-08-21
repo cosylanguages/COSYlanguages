@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "en_proficiency_work_001",
-        "topic": "The Protestant work ethic as civilisational achievement vs as the original source of adult misery — which legacy dominates today?",
+        "topic": "The Protestant work ethic as civilisational achievement vs as the original source of adult misery: which legacy dominates today?",
         "sideA": "Civilisational achievement",
         "sideB": "Source of misery",
         "ideasA": [
@@ -17,18 +17,18 @@
         "level": "proficiency",
         "theme": "work",
         "sub_theme": null,
-        "word": "The Protestant work ethic as civilisational achievement vs as the original source of adult misery — which legacy dominates today?",
+        "word": "The Protestant work ethic as civilisational achievement vs as the original source of adult misery: which legacy dominates today?",
         "form": "other",
         "definitions": [
             {
-                "text": "The Protestant work ethic as civilisational achievement vs as the original source of adult misery — which legacy dominates today?",
+                "text": "The Protestant work ethic as civilisational achievement vs as the original source of adult misery: which legacy dominates today?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_work_002",
-        "topic": "The commodification of passion vs the liberation of turning work into meaning — is \"do what you love\" advice or a trap?",
+        "topic": "The commodification of passion vs the liberation of turning work into meaning: is \"do what you love\" advice or a trap?",
         "sideA": "Advice",
         "sideB": "Trap",
         "ideasA": [
@@ -43,18 +43,18 @@
         "level": "proficiency",
         "theme": "work",
         "sub_theme": null,
-        "word": "The commodification of passion vs the liberation of turning work into meaning — is \"do what you love\" advice or a trap?",
+        "word": "The commodification of passion vs the liberation of turning work into meaning: is \"do what you love\" advice or a trap?",
         "form": "other",
         "definitions": [
             {
-                "text": "The commodification of passion vs the liberation of turning work into meaning — is \"do what you love\" advice or a trap?",
+                "text": "The commodification of passion vs the liberation of turning work into meaning: is \"do what you love\" advice or a trap?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_work_003",
-        "topic": "Career as identity vs career as means — which is the more coherent relationship for a modern adult to have with their work?",
+        "topic": "Career as identity vs career as means: which is the more coherent relationship for a modern adult to have with their work?",
         "sideA": "Identity",
         "sideB": "Means",
         "ideasA": [
@@ -69,18 +69,18 @@
         "level": "proficiency",
         "theme": "work",
         "sub_theme": null,
-        "word": "Career as identity vs career as means — which is the more coherent relationship for a modern adult to have with their work?",
+        "word": "Career as identity vs career as means: which is the more coherent relationship for a modern adult to have with their work?",
         "form": "other",
         "definitions": [
             {
-                "text": "Career as identity vs career as means — which is the more coherent relationship for a modern adult to have with their work?",
+                "text": "Career as identity vs career as means: which is the more coherent relationship for a modern adult to have with their work?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_work_004",
-        "topic": "The virtuous overworker vs the strategic idler — which has been more dishonestly celebrated in Western culture?",
+        "topic": "The virtuous overworker vs the strategic idler: which has been more dishonestly celebrated in Western culture?",
         "sideA": "Overworker",
         "sideB": "Idler",
         "ideasA": [
@@ -95,18 +95,18 @@
         "level": "proficiency",
         "theme": "work",
         "sub_theme": null,
-        "word": "The virtuous overworker vs the strategic idler — which has been more dishonestly celebrated in Western culture?",
+        "word": "The virtuous overworker vs the strategic idler: which has been more dishonestly celebrated in Western culture?",
         "form": "other",
         "definitions": [
             {
-                "text": "The virtuous overworker vs the strategic idler — which has been more dishonestly celebrated in Western culture?",
+                "text": "The virtuous overworker vs the strategic idler: which has been more dishonestly celebrated in Western culture?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_work_005",
-        "topic": "Adult ambition as admirable vs adult ambition as a failure to accept finitude — which reading is more psychologically honest?",
+        "topic": "Adult ambition as admirable vs adult ambition as a failure to accept finitude: which reading is more psychologically honest?",
         "sideA": "Admirable",
         "sideB": "Failure to accept finitude",
         "ideasA": [
@@ -121,18 +121,18 @@
         "level": "proficiency",
         "theme": "work",
         "sub_theme": null,
-        "word": "Adult ambition as admirable vs adult ambition as a failure to accept finitude — which reading is more psychologically honest?",
+        "word": "Adult ambition as admirable vs adult ambition as a failure to accept finitude: which reading is more psychologically honest?",
         "form": "other",
         "definitions": [
             {
-                "text": "Adult ambition as admirable vs adult ambition as a failure to accept finitude — which reading is more psychologically honest?",
+                "text": "Adult ambition as admirable vs adult ambition as a failure to accept finitude: which reading is more psychologically honest?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_001",
-        "topic": "Romantic love as the organising principle of adult life vs as a historically contingent and commercially sustained myth — which is more defensible?",
+        "topic": "Romantic love as the organising principle of adult life vs as a historically contingent and commercially sustained myth: which is more defensible?",
         "sideA": "Organising principle",
         "sideB": "Commercial myth",
         "ideasA": [
@@ -147,18 +147,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Romantic love as the organising principle of adult life vs as a historically contingent and commercially sustained myth — which is more defensible?",
+        "word": "Romantic love as the organising principle of adult life vs as a historically contingent and commercially sustained myth: which is more defensible?",
         "form": "other",
         "definitions": [
             {
-                "text": "Romantic love as the organising principle of adult life vs as a historically contingent and commercially sustained myth — which is more defensible?",
+                "text": "Romantic love as the organising principle of adult life vs as a historically contingent and commercially sustained myth: which is more defensible?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_002",
-        "topic": "Radical transparency in relationships vs the necessity of a private self — can intimacy and individuation coexist?",
+        "topic": "Radical transparency in relationships vs the necessity of a private self: can intimacy and individuation coexist?",
         "sideA": "Transparency",
         "sideB": "Private self",
         "ideasA": [
@@ -173,18 +173,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Radical transparency in relationships vs the necessity of a private self — can intimacy and individuation coexist?",
+        "word": "Radical transparency in relationships vs the necessity of a private self: can intimacy and individuation coexist?",
         "form": "other",
         "definitions": [
             {
-                "text": "Radical transparency in relationships vs the necessity of a private self — can intimacy and individuation coexist?",
+                "text": "Radical transparency in relationships vs the necessity of a private self: can intimacy and individuation coexist?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_003",
-        "topic": "The ethics of care as a feminist corrective vs as a reassignment of the same burdens — has the concept delivered on its promise?",
+        "topic": "The ethics of care as a feminist corrective vs as a reassignment of the same burdens: has the concept delivered on its promise?",
         "sideA": "Feminist corrective",
         "sideB": "Reassignment of burdens",
         "ideasA": [
@@ -199,18 +199,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The ethics of care as a feminist corrective vs as a reassignment of the same burdens — has the concept delivered on its promise?",
+        "word": "The ethics of care as a feminist corrective vs as a reassignment of the same burdens: has the concept delivered on its promise?",
         "form": "other",
         "definitions": [
             {
-                "text": "The ethics of care as a feminist corrective vs as a reassignment of the same burdens — has the concept delivered on its promise?",
+                "text": "The ethics of care as a feminist corrective vs as a reassignment of the same burdens: has the concept delivered on its promise?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_004",
-        "topic": "Choosing to be childless as resistance to pronatalist ideology vs as an entirely personal decision with no political dimension — can these be cleanly separated?",
+        "topic": "Choosing to be childless as resistance to pronatalist ideology vs as an entirely personal decision with no political dimension: can these be cleanly separated?",
         "sideA": "Resistance",
         "sideB": "Personal decision",
         "ideasA": [
@@ -225,18 +225,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Choosing to be childless as resistance to pronatalist ideology vs as an entirely personal decision with no political dimension — can these be cleanly separated?",
+        "word": "Choosing to be childless as resistance to pronatalist ideology vs as an entirely personal decision with no political dimension: can these be cleanly separated?",
         "form": "other",
         "definitions": [
             {
-                "text": "Choosing to be childless as resistance to pronatalist ideology vs as an entirely personal decision with no political dimension — can these be cleanly separated?",
+                "text": "Choosing to be childless as resistance to pronatalist ideology vs as an entirely personal decision with no political dimension: can these be cleanly separated?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_005",
-        "topic": "The awareness of mortality as the precondition for a meaningful adult life vs as its primary obstacle — which is the more liveable position?",
+        "topic": "The awareness of mortality as the precondition for a meaningful adult life vs as its primary obstacle: which is the more liveable position?",
         "sideA": "Precondition",
         "sideB": "Obstacle",
         "ideasA": [
@@ -251,18 +251,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The awareness of mortality as the precondition for a meaningful adult life vs as its primary obstacle — which is the more liveable position?",
+        "word": "The awareness of mortality as the precondition for a meaningful adult life vs as its primary obstacle: which is the more liveable position?",
         "form": "other",
         "definitions": [
             {
-                "text": "The awareness of mortality as the precondition for a meaningful adult life vs as its primary obstacle — which is the more liveable position?",
+                "text": "The awareness of mortality as the precondition for a meaningful adult life vs as its primary obstacle: which is the more liveable position?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_006",
-        "topic": "Ageing as decline vs ageing as accumulation — which narrative is more honest, and which more useful?",
+        "topic": "Ageing as decline vs ageing as accumulation: which narrative is more honest, and which more useful?",
         "sideA": "Decline",
         "sideB": "Accumulation",
         "ideasA": [
@@ -277,18 +277,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Ageing as decline vs ageing as accumulation — which narrative is more honest, and which more useful?",
+        "word": "Ageing as decline vs ageing as accumulation: which narrative is more honest, and which more useful?",
         "form": "other",
         "definitions": [
             {
-                "text": "Ageing as decline vs ageing as accumulation — which narrative is more honest, and which more useful?",
+                "text": "Ageing as decline vs ageing as accumulation: which narrative is more honest, and which more useful?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_001",
-        "topic": "The medicalisation of ageing as progress vs as a refusal to accept the human condition — where should the line be drawn?",
+        "topic": "The medicalisation of ageing as progress vs as a refusal to accept the human condition: where should the line be drawn?",
         "sideA": "Progress",
         "sideB": "Refusal",
         "ideasA": [
@@ -303,18 +303,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "The medicalisation of ageing as progress vs as a refusal to accept the human condition — where should the line be drawn?",
+        "word": "The medicalisation of ageing as progress vs as a refusal to accept the human condition: where should the line be drawn?",
         "form": "other",
         "definitions": [
             {
-                "text": "The medicalisation of ageing as progress vs as a refusal to accept the human condition — where should the line be drawn?",
+                "text": "The medicalisation of ageing as progress vs as a refusal to accept the human condition: where should the line be drawn?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_007",
-        "topic": "Memory as the substance of adult identity vs memory as a highly unreliable narrator — what are the implications for how we construct a self?",
+        "topic": "Memory as the substance of adult identity vs memory as a highly unreliable narrator: what are the implications for how we construct a self?",
         "sideA": "Substance",
         "sideB": "Unreliable narrator",
         "ideasA": [
@@ -329,18 +329,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Memory as the substance of adult identity vs memory as a highly unreliable narrator — what are the implications for how we construct a self?",
+        "word": "Memory as the substance of adult identity vs memory as a highly unreliable narrator: what are the implications for how we construct a self?",
         "form": "other",
         "definitions": [
             {
-                "text": "Memory as the substance of adult identity vs memory as a highly unreliable narrator — what are the implications for how we construct a self?",
+                "text": "Memory as the substance of adult identity vs memory as a highly unreliable narrator: what are the implications for how we construct a self?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_008",
-        "topic": "The adult citizen's complicity in unjust systems through ordinary consumption vs the structural irrelevance of individual moral purity — which is the more honest framing?",
+        "topic": "The adult citizen's complicity in unjust systems through ordinary consumption vs the structural irrelevance of individual moral purity: which is the more honest framing?",
         "sideA": "Complicity",
         "sideB": "Structural irrelevance",
         "ideasA": [
@@ -355,18 +355,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The adult citizen's complicity in unjust systems through ordinary consumption vs the structural irrelevance of individual moral purity — which is the more honest framing?",
+        "word": "The adult citizen's complicity in unjust systems through ordinary consumption vs the structural irrelevance of individual moral purity: which is the more honest framing?",
         "form": "other",
         "definitions": [
             {
-                "text": "The adult citizen's complicity in unjust systems through ordinary consumption vs the structural irrelevance of individual moral purity — which is the more honest framing?",
+                "text": "The adult citizen's complicity in unjust systems through ordinary consumption vs the structural irrelevance of individual moral purity: which is the more honest framing?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_009",
-        "topic": "Political disillusionment as a rational response to available evidence vs as a form of privilege — which reading is more empirically defensible?",
+        "topic": "Political disillusionment as a rational response to available evidence vs as a form of privilege: which reading is more empirically defensible?",
         "sideA": "Rational response",
         "sideB": "Privilege",
         "ideasA": [
@@ -381,18 +381,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Political disillusionment as a rational response to available evidence vs as a form of privilege — which reading is more empirically defensible?",
+        "word": "Political disillusionment as a rational response to available evidence vs as a form of privilege: which reading is more empirically defensible?",
         "form": "other",
         "definitions": [
             {
-                "text": "Political disillusionment as a rational response to available evidence vs as a form of privilege — which reading is more empirically defensible?",
+                "text": "Political disillusionment as a rational response to available evidence vs as a form of privilege: which reading is more empirically defensible?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_010",
-        "topic": "Intergenerational justice as the central moral challenge of our time vs as a concept that systematically obscures present-tense class and racial inequality — which is the stronger critique?",
+        "topic": "Intergenerational justice as the central moral challenge of our time vs as a concept that systematically obscures present-tense class and racial inequality: which is the stronger critique?",
         "sideA": "Moral challenge",
         "sideB": "Obscures inequality",
         "ideasA": [
@@ -407,18 +407,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Intergenerational justice as the central moral challenge of our time vs as a concept that systematically obscures present-tense class and racial inequality — which is the stronger critique?",
+        "word": "Intergenerational justice as the central moral challenge of our time vs as a concept that systematically obscures present-tense class and racial inequality: which is the stronger critique?",
         "form": "other",
         "definitions": [
             {
-                "text": "Intergenerational justice as the central moral challenge of our time vs as a concept that systematically obscures present-tense class and racial inequality — which is the stronger critique?",
+                "text": "Intergenerational justice as the central moral challenge of our time vs as a concept that systematically obscures present-tense class and racial inequality: which is the stronger critique?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_011",
-        "topic": "Liberal democracy as the least-bad system vs as a system that has structurally exhausted its reforming capacity — which verdict does the evidence support?",
+        "topic": "Liberal democracy as the least-bad system vs as a system that has structurally exhausted its reforming capacity: which verdict does the evidence support?",
         "sideA": "Least-bad system",
         "sideB": "Exhausted capacity",
         "ideasA": [
@@ -433,18 +433,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Liberal democracy as the least-bad system vs as a system that has structurally exhausted its reforming capacity — which verdict does the evidence support?",
+        "word": "Liberal democracy as the least-bad system vs as a system that has structurally exhausted its reforming capacity: which verdict does the evidence support?",
         "form": "other",
         "definitions": [
             {
-                "text": "Liberal democracy as the least-bad system vs as a system that has structurally exhausted its reforming capacity — which verdict does the evidence support?",
+                "text": "Liberal democracy as the least-bad system vs as a system that has structurally exhausted its reforming capacity: which verdict does the evidence support?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_012",
-        "topic": "The capacity for self-deception as a cognitive defect vs as an adaptive mechanism — which account better serves the adult who wants to live well?",
+        "topic": "The capacity for self-deception as a cognitive defect vs as an adaptive mechanism: which account better serves the adult who wants to live well?",
         "sideA": "Cognitive defect",
         "sideB": "Adaptive mechanism",
         "ideasA": [
@@ -459,18 +459,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The capacity for self-deception as a cognitive defect vs as an adaptive mechanism — which account better serves the adult who wants to live well?",
+        "word": "The capacity for self-deception as a cognitive defect vs as an adaptive mechanism: which account better serves the adult who wants to live well?",
         "form": "other",
         "definitions": [
             {
-                "text": "The capacity for self-deception as a cognitive defect vs as an adaptive mechanism — which account better serves the adult who wants to live well?",
+                "text": "The capacity for self-deception as a cognitive defect vs as an adaptive mechanism: which account better serves the adult who wants to live well?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_002",
-        "topic": "Expertise as epistemic authority vs expertise as a form of institutional power that merits scrutiny — when does healthy scepticism become epistemic cowardice?",
+        "topic": "Expertise as epistemic authority vs expertise as a form of institutional power that merits scrutiny: when does healthy scepticism become epistemic cowardice?",
         "sideA": "Epistemic authority",
         "sideB": "Institutional power",
         "ideasA": [
@@ -485,18 +485,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Expertise as epistemic authority vs expertise as a form of institutional power that merits scrutiny — when does healthy scepticism become epistemic cowardice?",
+        "word": "Expertise as epistemic authority vs expertise as a form of institutional power that merits scrutiny: when does healthy scepticism become epistemic cowardice?",
         "form": "other",
         "definitions": [
             {
-                "text": "Expertise as epistemic authority vs expertise as a form of institutional power that merits scrutiny — when does healthy scepticism become epistemic cowardice?",
+                "text": "Expertise as epistemic authority vs expertise as a form of institutional power that merits scrutiny: when does healthy scepticism become epistemic cowardice?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_013",
-        "topic": "Narrative as the primary way adults make sense of their lives vs narrative as the primary way adults mislead themselves — which function dominates?",
+        "topic": "Narrative as the primary way adults make sense of their lives vs narrative as the primary way adults mislead themselves: which function dominates?",
         "sideA": "Sense-making",
         "sideB": "Misleading",
         "ideasA": [
@@ -511,18 +511,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Narrative as the primary way adults make sense of their lives vs narrative as the primary way adults mislead themselves — which function dominates?",
+        "word": "Narrative as the primary way adults make sense of their lives vs narrative as the primary way adults mislead themselves: which function dominates?",
         "form": "other",
         "definitions": [
             {
-                "text": "Narrative as the primary way adults make sense of their lives vs narrative as the primary way adults mislead themselves — which function dominates?",
+                "text": "Narrative as the primary way adults make sense of their lives vs narrative as the primary way adults mislead themselves: which function dominates?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_014",
-        "topic": "Honesty as an unconditional virtue vs honesty as a contextual one — is there a coherent account of truthfulness that survives contact with real adult relationships?",
+        "topic": "Honesty as an unconditional virtue vs honesty as a contextual one: is there a coherent account of truthfulness that survives contact with real adult relationships?",
         "sideA": "Unconditional virtue",
         "sideB": "Contextual virtue",
         "ideasA": [
@@ -537,18 +537,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Honesty as an unconditional virtue vs honesty as a contextual one — is there a coherent account of truthfulness that survives contact with real adult relationships?",
+        "word": "Honesty as an unconditional virtue vs honesty as a contextual one: is there a coherent account of truthfulness that survives contact with real adult relationships?",
         "form": "other",
         "definitions": [
             {
-                "text": "Honesty as an unconditional virtue vs honesty as a contextual one — is there a coherent account of truthfulness that survives contact with real adult relationships?",
+                "text": "Honesty as an unconditional virtue vs honesty as a contextual one: is there a coherent account of truthfulness that survives contact with real adult relationships?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_015",
-        "topic": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will — which represents a more sophisticated relationship with reality?",
+        "topic": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will: which represents a more sophisticated relationship with reality?",
         "sideA": "Figured it out",
         "sideB": "Accepted never will",
         "ideasA": [
@@ -563,18 +563,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will — which represents a more sophisticated relationship with reality?",
+        "word": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will: which represents a more sophisticated relationship with reality?",
         "form": "other",
         "definitions": [
             {
-                "text": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will — which represents a more sophisticated relationship with reality?",
+                "text": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will: which represents a more sophisticated relationship with reality?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_003",
-        "topic": "Telling your therapist everything vs telling your hairdresser everything — which professional relationship is empirically more transformative, and why does the answer make us uncomfortable?",
+        "topic": "Telling your therapist everything vs telling your hairdresser everything: which professional relationship is empirically more transformative, and why does the answer make us uncomfortable?",
         "sideA": "Therapist",
         "sideB": "Hairdresser",
         "ideasA": [
@@ -589,18 +589,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Telling your therapist everything vs telling your hairdresser everything — which professional relationship is empirically more transformative, and why does the answer make us uncomfortable?",
+        "word": "Telling your therapist everything vs telling your hairdresser everything: which professional relationship is empirically more transformative, and why does the answer make us uncomfortable?",
         "form": "other",
         "definitions": [
             {
-                "text": "Telling your therapist everything vs telling your hairdresser everything — which professional relationship is empirically more transformative, and why does the answer make us uncomfortable?",
+                "text": "Telling your therapist everything vs telling your hairdresser everything: which professional relationship is empirically more transformative, and why does the answer make us uncomfortable?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_016",
-        "topic": "Language as constitutive of thought vs language as merely expressive — does language shape or reflect reality?",
+        "topic": "Language as constitutive of thought vs language as merely expressive: does language shape or reflect reality?",
         "sideA": "Constitutive",
         "sideB": "Expressive",
         "ideasA": [
@@ -615,18 +615,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Language as constitutive of thought vs language as merely expressive — does language shape or reflect reality?",
+        "word": "Language as constitutive of thought vs language as merely expressive: does language shape or reflect reality?",
         "form": "other",
         "definitions": [
             {
-                "text": "Language as constitutive of thought vs language as merely expressive — does language shape or reflect reality?",
+                "text": "Language as constitutive of thought vs language as merely expressive: does language shape or reflect reality?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_017",
-        "topic": "Precision vs ambiguity — which is the more valuable property of language in public discourse?",
+        "topic": "Precision vs ambiguity: which is the more valuable property of language in public discourse?",
         "sideA": "Precision",
         "sideB": "Ambiguity",
         "ideasA": [
@@ -641,18 +641,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Precision vs ambiguity — which is the more valuable property of language in public discourse?",
+        "word": "Precision vs ambiguity: which is the more valuable property of language in public discourse?",
         "form": "other",
         "definitions": [
             {
-                "text": "Precision vs ambiguity — which is the more valuable property of language in public discourse?",
+                "text": "Precision vs ambiguity: which is the more valuable property of language in public discourse?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_018",
-        "topic": "Rhetoric vs logic — which is ultimately more persuasive, and which should be?",
+        "topic": "Rhetoric vs logic: which is ultimately more persuasive, and which should be?",
         "sideA": "Rhetoric",
         "sideB": "Logic",
         "ideasA": [
@@ -667,18 +667,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Rhetoric vs logic — which is ultimately more persuasive, and which should be?",
+        "word": "Rhetoric vs logic: which is ultimately more persuasive, and which should be?",
         "form": "other",
         "definitions": [
             {
-                "text": "Rhetoric vs logic — which is ultimately more persuasive, and which should be?",
+                "text": "Rhetoric vs logic: which is ultimately more persuasive, and which should be?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_art_culture_001",
-        "topic": "Literal meaning vs interpretive meaning — who owns the meaning of a text?",
+        "topic": "Literal meaning vs interpretive meaning: who owns the meaning of a text?",
         "sideA": "Literal",
         "sideB": "Interpretive",
         "ideasA": [
@@ -693,18 +693,18 @@
         "level": "proficiency",
         "theme": "art_culture",
         "sub_theme": null,
-        "word": "Literal meaning vs interpretive meaning — who owns the meaning of a text?",
+        "word": "Literal meaning vs interpretive meaning: who owns the meaning of a text?",
         "form": "other",
         "definitions": [
             {
-                "text": "Literal meaning vs interpretive meaning — who owns the meaning of a text?",
+                "text": "Literal meaning vs interpretive meaning: who owns the meaning of a text?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_004",
-        "topic": "Scientific consensus vs epistemic humility — when is deference to expertise warranted?",
+        "topic": "Scientific consensus vs epistemic humility: when is deference to expertise warranted?",
         "sideA": "Consensus",
         "sideB": "Humility",
         "ideasA": [
@@ -719,18 +719,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Scientific consensus vs epistemic humility — when is deference to expertise warranted?",
+        "word": "Scientific consensus vs epistemic humility: when is deference to expertise warranted?",
         "form": "other",
         "definitions": [
             {
-                "text": "Scientific consensus vs epistemic humility — when is deference to expertise warranted?",
+                "text": "Scientific consensus vs epistemic humility: when is deference to expertise warranted?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_019",
-        "topic": "Expertise vs lived experience — which carries more evidential weight in public debate?",
+        "topic": "Expertise vs lived experience: which carries more evidential weight in public debate?",
         "sideA": "Expertise",
         "sideB": "Lived Experience",
         "ideasA": [
@@ -745,18 +745,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Expertise vs lived experience — which carries more evidential weight in public debate?",
+        "word": "Expertise vs lived experience: which carries more evidential weight in public debate?",
         "form": "other",
         "definitions": [
             {
-                "text": "Expertise vs lived experience — which carries more evidential weight in public debate?",
+                "text": "Expertise vs lived experience: which carries more evidential weight in public debate?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_020",
-        "topic": "Doubt as intellectual virtue vs doubt as paralysis — when does scepticism become irresponsible?",
+        "topic": "Doubt as intellectual virtue vs doubt as paralysis: when does scepticism become irresponsible?",
         "sideA": "Virtue",
         "sideB": "Paralysis",
         "ideasA": [
@@ -771,18 +771,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Doubt as intellectual virtue vs doubt as paralysis — when does scepticism become irresponsible?",
+        "word": "Doubt as intellectual virtue vs doubt as paralysis: when does scepticism become irresponsible?",
         "form": "other",
         "definitions": [
             {
-                "text": "Doubt as intellectual virtue vs doubt as paralysis — when does scepticism become irresponsible?",
+                "text": "Doubt as intellectual virtue vs doubt as paralysis: when does scepticism become irresponsible?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_005",
-        "topic": "Narrative vs data — which more reliably moves people toward truth?",
+        "topic": "Narrative vs data: which more reliably moves people toward truth?",
         "sideA": "Narrative",
         "sideB": "Data",
         "ideasA": [
@@ -797,18 +797,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Narrative vs data — which more reliably moves people toward truth?",
+        "word": "Narrative vs data: which more reliably moves people toward truth?",
         "form": "other",
         "definitions": [
             {
-                "text": "Narrative vs data — which more reliably moves people toward truth?",
+                "text": "Narrative vs data: which more reliably moves people toward truth?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_021",
-        "topic": "Legitimacy through consent vs legitimacy through outcome — what truly justifies political authority?",
+        "topic": "Legitimacy through consent vs legitimacy through outcome: what truly justifies political authority?",
         "sideA": "Consent",
         "sideB": "Outcome",
         "ideasA": [
@@ -823,18 +823,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Legitimacy through consent vs legitimacy through outcome — what truly justifies political authority?",
+        "word": "Legitimacy through consent vs legitimacy through outcome: what truly justifies political authority?",
         "form": "other",
         "definitions": [
             {
-                "text": "Legitimacy through consent vs legitimacy through outcome — what truly justifies political authority?",
+                "text": "Legitimacy through consent vs legitimacy through outcome: what truly justifies political authority?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_022",
-        "topic": "The state as guarantor of liberty vs the state as its primary threat — which is the more historically defensible view?",
+        "topic": "The state as guarantor of liberty vs the state as its primary threat: which is the more historically defensible view?",
         "sideA": "Guarantor",
         "sideB": "Threat",
         "ideasA": [
@@ -849,18 +849,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The state as guarantor of liberty vs the state as its primary threat — which is the more historically defensible view?",
+        "word": "The state as guarantor of liberty vs the state as its primary threat: which is the more historically defensible view?",
         "form": "other",
         "definitions": [
             {
-                "text": "The state as guarantor of liberty vs the state as its primary threat — which is the more historically defensible view?",
+                "text": "The state as guarantor of liberty vs the state as its primary threat: which is the more historically defensible view?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_023",
-        "topic": "Rights-based politics vs responsibility-based politics — which makes for a more coherent public culture?",
+        "topic": "Rights-based politics vs responsibility-based politics: which makes for a more coherent public culture?",
         "sideA": "Rights",
         "sideB": "Responsibilities",
         "ideasA": [
@@ -875,18 +875,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Rights-based politics vs responsibility-based politics — which makes for a more coherent public culture?",
+        "word": "Rights-based politics vs responsibility-based politics: which makes for a more coherent public culture?",
         "form": "other",
         "definitions": [
             {
-                "text": "Rights-based politics vs responsibility-based politics — which makes for a more coherent public culture?",
+                "text": "Rights-based politics vs responsibility-based politics: which makes for a more coherent public culture?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_024",
-        "topic": "The ideal of neutrality vs the inevitability of value-laden governance — can the liberal state be truly neutral?",
+        "topic": "The ideal of neutrality vs the inevitability of value-laden governance: can the liberal state be truly neutral?",
         "sideA": "Neutrality",
         "sideB": "Value-laden",
         "ideasA": [
@@ -901,18 +901,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The ideal of neutrality vs the inevitability of value-laden governance — can the liberal state be truly neutral?",
+        "word": "The ideal of neutrality vs the inevitability of value-laden governance: can the liberal state be truly neutral?",
         "form": "other",
         "definitions": [
             {
-                "text": "The ideal of neutrality vs the inevitability of value-laden governance — can the liberal state be truly neutral?",
+                "text": "The ideal of neutrality vs the inevitability of value-laden governance: can the liberal state be truly neutral?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_art_culture_002",
-        "topic": "Intention vs reception — whose reading of a work is authoritative?",
+        "topic": "Intention vs reception: whose reading of a work is authoritative?",
         "sideA": "Intention",
         "sideB": "Reception",
         "ideasA": [
@@ -927,18 +927,18 @@
         "level": "proficiency",
         "theme": "art_culture",
         "sub_theme": null,
-        "word": "Intention vs reception — whose reading of a work is authoritative?",
+        "word": "Intention vs reception: whose reading of a work is authoritative?",
         "form": "other",
         "definitions": [
             {
-                "text": "Intention vs reception — whose reading of a work is authoritative?",
+                "text": "Intention vs reception: whose reading of a work is authoritative?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_art_culture_003",
-        "topic": "Aesthetic value vs moral value — can a beautiful work also be an evil one?",
+        "topic": "Aesthetic value vs moral value: can a beautiful work also be an evil one?",
         "sideA": "Aesthetic",
         "sideB": "Moral",
         "ideasA": [
@@ -953,18 +953,18 @@
         "level": "proficiency",
         "theme": "art_culture",
         "sub_theme": null,
-        "word": "Aesthetic value vs moral value — can a beautiful work also be an evil one?",
+        "word": "Aesthetic value vs moral value: can a beautiful work also be an evil one?",
         "form": "other",
         "definitions": [
             {
-                "text": "Aesthetic value vs moral value — can a beautiful work also be an evil one?",
+                "text": "Aesthetic value vs moral value: can a beautiful work also be an evil one?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_art_culture_004",
-        "topic": "The avant-garde vs accessibility — should art challenge or include?",
+        "topic": "The avant-garde vs accessibility: should art challenge or include?",
         "sideA": "Avant-garde",
         "sideB": "Accessibility",
         "ideasA": [
@@ -979,18 +979,18 @@
         "level": "proficiency",
         "theme": "art_culture",
         "sub_theme": null,
-        "word": "The avant-garde vs accessibility — should art challenge or include?",
+        "word": "The avant-garde vs accessibility: should art challenge or include?",
         "form": "other",
         "definitions": [
             {
-                "text": "The avant-garde vs accessibility — should art challenge or include?",
+                "text": "The avant-garde vs accessibility: should art challenge or include?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_art_culture_005",
-        "topic": "Institutionalised art vs outsider art — which carries more authentic cultural weight?",
+        "topic": "Institutionalised art vs outsider art: which carries more authentic cultural weight?",
         "sideA": "Institutionalised",
         "sideB": "Outsider",
         "ideasA": [
@@ -1005,18 +1005,18 @@
         "level": "proficiency",
         "theme": "art_culture",
         "sub_theme": null,
-        "word": "Institutionalised art vs outsider art — which carries more authentic cultural weight?",
+        "word": "Institutionalised art vs outsider art: which carries more authentic cultural weight?",
         "form": "other",
         "definitions": [
             {
-                "text": "Institutionalised art vs outsider art — which carries more authentic cultural weight?",
+                "text": "Institutionalised art vs outsider art: which carries more authentic cultural weight?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_006",
-        "topic": "The precautionary principle vs proactionary principle — which should govern emerging technologies?",
+        "topic": "The precautionary principle vs proactionary principle: which should govern emerging technologies?",
         "sideA": "Precautionary",
         "sideB": "Proactionary",
         "ideasA": [
@@ -1031,18 +1031,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "The precautionary principle vs proactionary principle — which should govern emerging technologies?",
+        "word": "The precautionary principle vs proactionary principle: which should govern emerging technologies?",
         "form": "other",
         "definitions": [
             {
-                "text": "The precautionary principle vs proactionary principle — which should govern emerging technologies?",
+                "text": "The precautionary principle vs proactionary principle: which should govern emerging technologies?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_007",
-        "topic": "Scientific progress as inherently good vs progress as ethically neutral — who bears responsibility for the uses of knowledge?",
+        "topic": "Scientific progress as inherently good vs progress as ethically neutral: who bears responsibility for the uses of knowledge?",
         "sideA": "Inherently Good",
         "sideB": "Ethically Neutral",
         "ideasA": [
@@ -1057,18 +1057,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Scientific progress as inherently good vs progress as ethically neutral — who bears responsibility for the uses of knowledge?",
+        "word": "Scientific progress as inherently good vs progress as ethically neutral: who bears responsibility for the uses of knowledge?",
         "form": "other",
         "definitions": [
             {
-                "text": "Scientific progress as inherently good vs progress as ethically neutral — who bears responsibility for the uses of knowledge?",
+                "text": "Scientific progress as inherently good vs progress as ethically neutral: who bears responsibility for the uses of knowledge?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_008",
-        "topic": "Existential risk mitigation vs present suffering reduction — where should humanity's moral priorities lie?",
+        "topic": "Existential risk mitigation vs present suffering reduction: where should humanity's moral priorities lie?",
         "sideA": "Existential Risk",
         "sideB": "Present Suffering",
         "ideasA": [
@@ -1083,18 +1083,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Existential risk mitigation vs present suffering reduction — where should humanity's moral priorities lie?",
+        "word": "Existential risk mitigation vs present suffering reduction: where should humanity's moral priorities lie?",
         "form": "other",
         "definitions": [
             {
-                "text": "Existential risk mitigation vs present suffering reduction — where should humanity's moral priorities lie?",
+                "text": "Existential risk mitigation vs present suffering reduction: where should humanity's moral priorities lie?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_009",
-        "topic": "Human consciousness vs artificial general intelligence — could a machine ever be a moral patient?",
+        "topic": "Human consciousness vs artificial general intelligence: could a machine ever be a moral patient?",
         "sideA": "Consciousness",
         "sideB": "AGI",
         "ideasA": [
@@ -1109,18 +1109,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Human consciousness vs artificial general intelligence — could a machine ever be a moral patient?",
+        "word": "Human consciousness vs artificial general intelligence: could a machine ever be a moral patient?",
         "form": "other",
         "definitions": [
             {
-                "text": "Human consciousness vs artificial general intelligence — could a machine ever be a moral patient?",
+                "text": "Human consciousness vs artificial general intelligence: could a machine ever be a moral patient?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_025",
-        "topic": "Progress as real vs progress as illusion — is history moving anywhere?",
+        "topic": "Progress as real vs progress as illusion: is history moving anywhere?",
         "sideA": "Real",
         "sideB": "Illusion",
         "ideasA": [
@@ -1135,18 +1135,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Progress as real vs progress as illusion — is history moving anywhere?",
+        "word": "Progress as real vs progress as illusion: is history moving anywhere?",
         "form": "other",
         "definitions": [
             {
-                "text": "Progress as real vs progress as illusion — is history moving anywhere?",
+                "text": "Progress as real vs progress as illusion: is history moving anywhere?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_026",
-        "topic": "Western liberal order vs multipolar world — which is the more stable basis for international relations?",
+        "topic": "Western liberal order vs multipolar world: which is the more stable basis for international relations?",
         "sideA": "Liberal Order",
         "sideB": "Multipolarity",
         "ideasA": [
@@ -1161,18 +1161,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Western liberal order vs multipolar world — which is the more stable basis for international relations?",
+        "word": "Western liberal order vs multipolar world: which is the more stable basis for international relations?",
         "form": "other",
         "definitions": [
             {
-                "text": "Western liberal order vs multipolar world — which is the more stable basis for international relations?",
+                "text": "Western liberal order vs multipolar world: which is the more stable basis for international relations?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_027",
-        "topic": "Memory vs forgetting — which is more essential to a healthy collective identity?",
+        "topic": "Memory vs forgetting: which is more essential to a healthy collective identity?",
         "sideA": "Memory",
         "sideB": "Forgetting",
         "ideasA": [
@@ -1187,18 +1187,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Memory vs forgetting — which is more essential to a healthy collective identity?",
+        "word": "Memory vs forgetting: which is more essential to a healthy collective identity?",
         "form": "other",
         "definitions": [
             {
-                "text": "Memory vs forgetting — which is more essential to a healthy collective identity?",
+                "text": "Memory vs forgetting: which is more essential to a healthy collective identity?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_028",
-        "topic": "The tragedy of the commons vs the possibility of cooperation — what does history tell us about human nature?",
+        "topic": "The tragedy of the commons vs the possibility of cooperation: what does history tell us about human nature?",
         "sideA": "Tragedy",
         "sideB": "Cooperation",
         "ideasA": [
@@ -1213,18 +1213,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The tragedy of the commons vs the possibility of cooperation — what does history tell us about human nature?",
+        "word": "The tragedy of the commons vs the possibility of cooperation: what does history tell us about human nature?",
         "form": "other",
         "definitions": [
             {
-                "text": "The tragedy of the commons vs the possibility of cooperation — what does history tell us about human nature?",
+                "text": "The tragedy of the commons vs the possibility of cooperation: what does history tell us about human nature?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_010",
-        "topic": "Silence vs speech — which carries more communicative power in moments of crisis?",
+        "topic": "Silence vs speech: which carries more communicative power in moments of crisis?",
         "sideA": "Silence",
         "sideB": "Speech",
         "ideasA": [
@@ -1239,18 +1239,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Silence vs speech — which carries more communicative power in moments of crisis?",
+        "word": "Silence vs speech: which carries more communicative power in moments of crisis?",
         "form": "other",
         "definitions": [
             {
-                "text": "Silence vs speech — which carries more communicative power in moments of crisis?",
+                "text": "Silence vs speech: which carries more communicative power in moments of crisis?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_art_culture_006",
-        "topic": "Translation as fidelity vs translation as creative act — which is the more honest approach?",
+        "topic": "Translation as fidelity vs translation as creative act: which is the more honest approach?",
         "sideA": "Fidelity",
         "sideB": "Creative act",
         "ideasA": [
@@ -1265,18 +1265,18 @@
         "level": "proficiency",
         "theme": "art_culture",
         "sub_theme": null,
-        "word": "Translation as fidelity vs translation as creative act — which is the more honest approach?",
+        "word": "Translation as fidelity vs translation as creative act: which is the more honest approach?",
         "form": "other",
         "definitions": [
             {
-                "text": "Translation as fidelity vs translation as creative act — which is the more honest approach?",
+                "text": "Translation as fidelity vs translation as creative act: which is the more honest approach?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_011",
-        "topic": "Institutional knowledge vs distributed knowledge — which is more robust against error?",
+        "topic": "Institutional knowledge vs distributed knowledge: which is more robust against error?",
         "sideA": "Institutional knowledge",
         "sideB": "Distributed knowledge",
         "ideasA": [
@@ -1291,18 +1291,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Institutional knowledge vs distributed knowledge — which is more robust against error?",
+        "word": "Institutional knowledge vs distributed knowledge: which is more robust against error?",
         "form": "other",
         "definitions": [
             {
-                "text": "Institutional knowledge vs distributed knowledge — which is more robust against error?",
+                "text": "Institutional knowledge vs distributed knowledge: which is more robust against error?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_029",
-        "topic": "The map vs the territory — when does our model of reality become a prison?",
+        "topic": "The map vs the territory: when does our model of reality become a prison?",
         "sideA": "The Map (Models)",
         "sideB": "The Territory (Reality)",
         "ideasA": [
@@ -1317,18 +1317,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The map vs the territory — when does our model of reality become a prison?",
+        "word": "The map vs the territory: when does our model of reality become a prison?",
         "form": "other",
         "definitions": [
             {
-                "text": "The map vs the territory — when does our model of reality become a prison?",
+                "text": "The map vs the territory: when does our model of reality become a prison?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_030",
-        "topic": "Revolution vs reform — which is the more effective engine of lasting change?",
+        "topic": "Revolution vs reform: which is the more effective engine of lasting change?",
         "sideA": "Revolution",
         "sideB": "Reform",
         "ideasA": [
@@ -1343,18 +1343,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Revolution vs reform — which is the more effective engine of lasting change?",
+        "word": "Revolution vs reform: which is the more effective engine of lasting change?",
         "form": "other",
         "definitions": [
             {
-                "text": "Revolution vs reform — which is the more effective engine of lasting change?",
+                "text": "Revolution vs reform: which is the more effective engine of lasting change?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_031",
-        "topic": "Justice as procedure vs justice as outcome — what should we be aiming at?",
+        "topic": "Justice as procedure vs justice as outcome: what should we be aiming at?",
         "sideA": "Procedure",
         "sideB": "Outcome",
         "ideasA": [
@@ -1369,18 +1369,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Justice as procedure vs justice as outcome — what should we be aiming at?",
+        "word": "Justice as procedure vs justice as outcome: what should we be aiming at?",
         "form": "other",
         "definitions": [
             {
-                "text": "Justice as procedure vs justice as outcome — what should we be aiming at?",
+                "text": "Justice as procedure vs justice as outcome: what should we be aiming at?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_art_culture_007",
-        "topic": "Form vs content — which is the truer measure of artistic achievement?",
+        "topic": "Form vs content: which is the truer measure of artistic achievement?",
         "sideA": "Form",
         "sideB": "Content",
         "ideasA": [
@@ -1395,18 +1395,18 @@
         "level": "proficiency",
         "theme": "art_culture",
         "sub_theme": null,
-        "word": "Form vs content — which is the truer measure of artistic achievement?",
+        "word": "Form vs content: which is the truer measure of artistic achievement?",
         "form": "other",
         "definitions": [
             {
-                "text": "Form vs content — which is the truer measure of artistic achievement?",
+                "text": "Form vs content: which is the truer measure of artistic achievement?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_art_culture_008",
-        "topic": "The death of the author vs the author's continued relevance — has Barthes won?",
+        "topic": "The death of the author vs the author's continued relevance: has Barthes won?",
         "sideA": "Death of the Author",
         "sideB": "Author's Relevance",
         "ideasA": [
@@ -1421,18 +1421,18 @@
         "level": "proficiency",
         "theme": "art_culture",
         "sub_theme": null,
-        "word": "The death of the author vs the author's continued relevance — has Barthes won?",
+        "word": "The death of the author vs the author's continued relevance: has Barthes won?",
         "form": "other",
         "definitions": [
             {
-                "text": "The death of the author vs the author's continued relevance — has Barthes won?",
+                "text": "The death of the author vs the author's continued relevance: has Barthes won?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_012",
-        "topic": "Enhancement ethics vs the sanctity of natural limits — should humans be free to augment their capacities?",
+        "topic": "Enhancement ethics vs the sanctity of natural limits: should humans be free to augment their capacities?",
         "sideA": "Enhancement",
         "sideB": "Natural Limits",
         "ideasA": [
@@ -1447,18 +1447,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Enhancement ethics vs the sanctity of natural limits — should humans be free to augment their capacities?",
+        "word": "Enhancement ethics vs the sanctity of natural limits: should humans be free to augment their capacities?",
         "form": "other",
         "definitions": [
             {
-                "text": "Enhancement ethics vs the sanctity of natural limits — should humans be free to augment their capacities?",
+                "text": "Enhancement ethics vs the sanctity of natural limits: should humans be free to augment their capacities?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_013",
-        "topic": "Long-termism vs present-focused ethics — which should guide our most consequential decisions?",
+        "topic": "Long-termism vs present-focused ethics: which should guide our most consequential decisions?",
         "sideA": "Long-termism",
         "sideB": "Present-focused",
         "ideasA": [
@@ -1473,18 +1473,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Long-termism vs present-focused ethics — which should guide our most consequential decisions?",
+        "word": "Long-termism vs present-focused ethics: which should guide our most consequential decisions?",
         "form": "other",
         "definitions": [
             {
-                "text": "Long-termism vs present-focused ethics — which should guide our most consequential decisions?",
+                "text": "Long-termism vs present-focused ethics: which should guide our most consequential decisions?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_032",
-        "topic": "Animal rights vs human exceptionalism — on what grounds can different moral status ever be justified?",
+        "topic": "Animal rights vs human exceptionalism: on what grounds can different moral status ever be justified?",
         "sideA": "Animal Rights",
         "sideB": "Human Exceptionalism",
         "ideasA": [
@@ -1499,18 +1499,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Animal rights vs human exceptionalism — on what grounds can different moral status ever be justified?",
+        "word": "Animal rights vs human exceptionalism: on what grounds can different moral status ever be justified?",
         "form": "other",
         "definitions": [
             {
-                "text": "Animal rights vs human exceptionalism — on what grounds can different moral status ever be justified?",
+                "text": "Animal rights vs human exceptionalism: on what grounds can different moral status ever be justified?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_033",
-        "topic": "Tragedy as the dominant mode of history vs comedy — which more accurately describes the human story?",
+        "topic": "Tragedy as the dominant mode of history vs comedy: which more accurately describes the human story?",
         "sideA": "Tragedy",
         "sideB": "Comedy",
         "ideasA": [
@@ -1525,18 +1525,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Tragedy as the dominant mode of history vs comedy — which more accurately describes the human story?",
+        "word": "Tragedy as the dominant mode of history vs comedy: which more accurately describes the human story?",
         "form": "other",
         "definitions": [
             {
-                "text": "Tragedy as the dominant mode of history vs comedy — which more accurately describes the human story?",
+                "text": "Tragedy as the dominant mode of history vs comedy: which more accurately describes the human story?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_034",
-        "topic": "Civilisational decline as inevitable vs contingent — are we doomed by structure or by choices?",
+        "topic": "Civilisational decline as inevitable vs contingent: are we doomed by structure or by choices?",
         "sideA": "Inevitable",
         "sideB": "Contingent",
         "ideasA": [
@@ -1551,18 +1551,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Civilisational decline as inevitable vs contingent — are we doomed by structure or by choices?",
+        "word": "Civilisational decline as inevitable vs contingent: are we doomed by structure or by choices?",
         "form": "other",
         "definitions": [
             {
-                "text": "Civilisational decline as inevitable vs contingent — are we doomed by structure or by choices?",
+                "text": "Civilisational decline as inevitable vs contingent: are we doomed by structure or by choices?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_014",
-        "topic": "The Socratic method vs just telling people the answer — is productive ignorance a kindness or a cruelty?",
+        "topic": "The Socratic method vs just telling people the answer: is productive ignorance a kindness or a cruelty?",
         "sideA": "Socratic Method",
         "sideB": "Just telling the answer",
         "ideasA": [
@@ -1577,18 +1577,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "The Socratic method vs just telling people the answer — is productive ignorance a kindness or a cruelty?",
+        "word": "The Socratic method vs just telling people the answer: is productive ignorance a kindness or a cruelty?",
         "form": "other",
         "definitions": [
             {
-                "text": "The Socratic method vs just telling people the answer — is productive ignorance a kindness or a cruelty?",
+                "text": "The Socratic method vs just telling people the answer: is productive ignorance a kindness or a cruelty?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_035",
-        "topic": "The Ship of Theseus vs your childhood self — at what point does gradual replacement become a different person, and does it matter?",
+        "topic": "The Ship of Theseus vs your childhood self: at what point does gradual replacement become a different person, and does it matter?",
         "sideA": "Continuity of Self",
         "sideB": "Radical Discontinuity",
         "ideasA": [
@@ -1603,18 +1603,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The Ship of Theseus vs your childhood self — at what point does gradual replacement become a different person, and does it matter?",
+        "word": "The Ship of Theseus vs your childhood self: at what point does gradual replacement become a different person, and does it matter?",
         "form": "other",
         "definitions": [
             {
-                "text": "The Ship of Theseus vs your childhood self — at what point does gradual replacement become a different person, and does it matter?",
+                "text": "The Ship of Theseus vs your childhood self: at what point does gradual replacement become a different person, and does it matter?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_036",
-        "topic": "Infinite wisdom vs infinite contentment — if forced to choose, which would constitute the better life and why can't we have both?",
+        "topic": "Infinite wisdom vs infinite contentment: if forced to choose, which would constitute the better life and why can't we have both?",
         "sideA": "Infinite Wisdom",
         "sideB": "Infinite Contentment",
         "ideasA": [
@@ -1629,18 +1629,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Infinite wisdom vs infinite contentment — if forced to choose, which would constitute the better life and why can't we have both?",
+        "word": "Infinite wisdom vs infinite contentment: if forced to choose, which would constitute the better life and why can't we have both?",
         "form": "other",
         "definitions": [
             {
-                "text": "Infinite wisdom vs infinite contentment — if forced to choose, which would constitute the better life and why can't we have both?",
+                "text": "Infinite wisdom vs infinite contentment: if forced to choose, which would constitute the better life and why can't we have both?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_037",
-        "topic": "The word \"moist\" vs the concept of \"moist\" — is widespread phonaesthetic aversion a linguistic phenomenon or a cultural one?",
+        "topic": "The word \"moist\" vs the concept of \"moist\": is widespread phonaesthetic aversion a linguistic phenomenon or a cultural one?",
         "sideA": "Linguistic",
         "sideB": "Cultural",
         "ideasA": [
@@ -1655,18 +1655,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "The word \"moist\" vs the concept of \"moist\" — is widespread phonaesthetic aversion a linguistic phenomenon or a cultural one?",
+        "word": "The word \"moist\" vs the concept of \"moist\": is widespread phonaesthetic aversion a linguistic phenomenon or a cultural one?",
         "form": "other",
         "definitions": [
             {
-                "text": "The word \"moist\" vs the concept of \"moist\" — is widespread phonaesthetic aversion a linguistic phenomenon or a cultural one?",
+                "text": "The word \"moist\" vs the concept of \"moist\": is widespread phonaesthetic aversion a linguistic phenomenon or a cultural one?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_language_038",
-        "topic": "Being right and ignored vs being wrong and celebrated — which is the more accurate description of the human condition?",
+        "topic": "Being right and ignored vs being wrong and celebrated: which is the more accurate description of the human condition?",
         "sideA": "Right and Ignored",
         "sideB": "Wrong and Celebrated",
         "ideasA": [
@@ -1681,18 +1681,18 @@
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Being right and ignored vs being wrong and celebrated — which is the more accurate description of the human condition?",
+        "word": "Being right and ignored vs being wrong and celebrated: which is the more accurate description of the human condition?",
         "form": "other",
         "definitions": [
             {
-                "text": "Being right and ignored vs being wrong and celebrated — which is the more accurate description of the human condition?",
+                "text": "Being right and ignored vs being wrong and celebrated: which is the more accurate description of the human condition?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_015",
-        "topic": "Hot takes vs no takes — in an age of epistemic saturation, is silence the most radical intellectual act?",
+        "topic": "Hot takes vs no takes: in an age of epistemic saturation, is silence the most radical intellectual act?",
         "sideA": "Hot Takes",
         "sideB": "No Takes",
         "ideasA": [
@@ -1707,18 +1707,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Hot takes vs no takes — in an age of epistemic saturation, is silence the most radical intellectual act?",
+        "word": "Hot takes vs no takes: in an age of epistemic saturation, is silence the most radical intellectual act?",
         "form": "other",
         "definitions": [
             {
-                "text": "Hot takes vs no takes — in an age of epistemic saturation, is silence the most radical intellectual act?",
+                "text": "Hot takes vs no takes: in an age of epistemic saturation, is silence the most radical intellectual act?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_work_006",
-        "topic": "Procrastination as pathology vs procrastination as philosophy — is delayed action ever the wisest form of agency?",
+        "topic": "Procrastination as pathology vs procrastination as philosophy: is delayed action ever the wisest form of agency?",
         "sideA": "Pathology",
         "sideB": "Philosophy",
         "ideasA": [
@@ -1733,11 +1733,11 @@
         "level": "proficiency",
         "theme": "work",
         "sub_theme": null,
-        "word": "Procrastination as pathology vs procrastination as philosophy — is delayed action ever the wisest form of agency?",
+        "word": "Procrastination as pathology vs procrastination as philosophy: is delayed action ever the wisest form of agency?",
         "form": "other",
         "definitions": [
             {
-                "text": "Procrastination as pathology vs procrastination as philosophy — is delayed action ever the wisest form of agency?",
+                "text": "Procrastination as pathology vs procrastination as philosophy: is delayed action ever the wisest form of agency?",
                 "examples": []
             }
         ]
