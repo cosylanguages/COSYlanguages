@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "fr_elementary_social_001",
-        "word": "Un salaire élevé vs un court trajet — qu'est-ce qui compte le plus dans un travail ?",
+        "word": "Un salaire élevé vs un court trajet: qu'est-ce qui compte le plus dans un travail ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -10,7 +10,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Un salaire élevé vs un court trajet — qu'est-ce qui compte le plus dans un travail ?",
+                "text": "Un salaire élevé vs un court trajet: qu'est-ce qui compte le plus dans un travail ?",
                 "examples": []
             }
         ],
@@ -27,7 +27,7 @@
     },
     {
         "id": "fr_elementary_social_002",
-        "word": "Changer souvent d'emploi vs rester dans la même entreprise — qu'est-ce qui est le mieux pour votre carrière ?",
+        "word": "Changer souvent d'emploi vs rester dans la même entreprise: qu'est-ce qui est le mieux pour votre carrière ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -35,7 +35,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Changer souvent d'emploi vs rester dans la même entreprise — qu'est-ce qui est le mieux pour votre carrière ?",
+                "text": "Changer souvent d'emploi vs rester dans la même entreprise: qu'est-ce qui est le mieux pour votre carrière ?",
                 "examples": []
             }
         ],
@@ -52,7 +52,7 @@
     },
     {
         "id": "fr_elementary_social_003",
-        "word": "Faire des heures supplémentaires vs partir à l'heure tous les jours — quelle est la meilleure habitude ?",
+        "word": "Faire des heures supplémentaires vs partir à l'heure tous les jours: quelle est la meilleure habitude ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -60,7 +60,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Faire des heures supplémentaires vs partir à l'heure tous les jours — quelle est la meilleure habitude ?",
+                "text": "Faire des heures supplémentaires vs partir à l'heure tous les jours: quelle est la meilleure habitude ?",
                 "examples": []
             }
         ],
@@ -77,7 +77,7 @@
     },
     {
         "id": "fr_elementary_social_004",
-        "word": "Un patron strict vs un patron détendu — pour qui est-il préférable de travailler ?",
+        "word": "Un patron strict vs un patron détendu: pour qui est-il préférable de travailler ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -85,7 +85,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Un patron strict vs un patron détendu — pour qui est-il préférable de travailler ?",
+                "text": "Un patron strict vs un patron détendu: pour qui est-il préférable de travailler ?",
                 "examples": []
             }
         ],
@@ -102,7 +102,7 @@
     },
     {
         "id": "fr_elementary_social_005",
-        "word": "Travailler dans une grande entreprise vs une petite entreprise — qu'est-ce qui est mieux ?",
+        "word": "Travailler dans une grande entreprise vs une petite entreprise: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -110,7 +110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travailler dans une grande entreprise vs une petite entreprise — qu'est-ce qui est mieux ?",
+                "text": "Travailler dans une grande entreprise vs une petite entreprise: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -127,7 +127,7 @@
     },
     {
         "id": "fr_elementary_social_006",
-        "word": "Obtenir une promotion vs obtenir plus de temps libre — que choisiriez-vous ?",
+        "word": "Obtenir une promotion vs obtenir plus de temps libre: que choisiriez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -135,7 +135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Obtenir une promotion vs obtenir plus de temps libre — que choisiriez-vous ?",
+                "text": "Obtenir une promotion vs obtenir plus de temps libre: que choisiriez-vous ?",
                 "examples": []
             }
         ],
@@ -152,7 +152,7 @@
     },
     {
         "id": "fr_elementary_social_007",
-        "word": "Acheter une maison vs louer toute sa vie — quelle est la décision financière la plus intelligente ?",
+        "word": "Acheter une maison vs louer toute sa vie: quelle est la décision financière la plus intelligente ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -160,7 +160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Acheter une maison vs louer toute sa vie — quelle est la décision financière la plus intelligente ?",
+                "text": "Acheter une maison vs louer toute sa vie: quelle est la décision financière la plus intelligente ?",
                 "examples": []
             }
         ],
@@ -177,7 +177,7 @@
     },
     {
         "id": "fr_elementary_social_008",
-        "word": "Vivre en centre-ville vs vivre en banlieue — qu'est-ce qui est mieux ?",
+        "word": "Vivre en centre-ville vs vivre en banlieue: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -185,7 +185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre en centre-ville vs vivre en banlieue — qu'est-ce qui est mieux ?",
+                "text": "Vivre en centre-ville vs vivre en banlieue: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -202,7 +202,7 @@
     },
     {
         "id": "fr_elementary_social_009",
-        "word": "Dépenser de l'argent pour des expériences vs pour des objets — qu'est-ce qui vous rend plus heureux ?",
+        "word": "Dépenser de l'argent pour des expériences vs pour des objets: qu'est-ce qui vous rend plus heureux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -210,7 +210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dépenser de l'argent pour des expériences vs pour des objets — qu'est-ce qui vous rend plus heureux ?",
+                "text": "Dépenser de l'argent pour des expériences vs pour des objets: qu'est-ce qui vous rend plus heureux ?",
                 "examples": []
             }
         ],
@@ -227,7 +227,7 @@
     },
     {
         "id": "fr_elementary_social_010",
-        "word": "Cuisiner tous les jours vs préparer les repas une fois par semaine — qu'est-ce qui est le plus pratique ?",
+        "word": "Cuisiner tous les jours vs préparer les repas une fois par semaine: qu'est-ce qui est le plus pratique ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -235,7 +235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cuisiner tous les jours vs préparer les repas une fois par semaine — qu'est-ce qui est le plus pratique ?",
+                "text": "Cuisiner tous les jours vs préparer les repas une fois par semaine: qu'est-ce qui est le plus pratique ?",
                 "examples": []
             }
         ],
@@ -252,7 +252,7 @@
     },
     {
         "id": "fr_elementary_social_011",
-        "word": "Avoir une femme de ménage vs faire son propre ménage — quel est le meilleur choix ?",
+        "word": "Avoir une femme de ménage vs faire son propre ménage: quel est le meilleur choix ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -260,7 +260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avoir une femme de ménage vs faire son propre ménage — quel est le meilleur choix ?",
+                "text": "Avoir une femme de ménage vs faire son propre ménage: quel est le meilleur choix ?",
                 "examples": []
             }
         ],
@@ -277,7 +277,7 @@
     },
     {
         "id": "fr_elementary_people_001",
-        "word": "Vivre avec un partenaire vs vivre seul — qu'est-ce qui est mieux pour les adultes ?",
+        "word": "Vivre avec un partenaire vs vivre seul: qu'est-ce qui est mieux pour les adultes ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -285,7 +285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre avec un partenaire vs vivre seul — qu'est-ce qui est mieux pour les adultes ?",
+                "text": "Vivre avec un partenaire vs vivre seul: qu'est-ce qui est mieux pour les adultes ?",
                 "examples": []
             }
         ],
@@ -302,7 +302,7 @@
     },
     {
         "id": "fr_elementary_people_002",
-        "word": "Avoir des enfants tôt vs avoir des enfants plus tard dans la vie — qu'est-ce qui est mieux ?",
+        "word": "Avoir des enfants tôt vs avoir des enfants plus tard dans la vie: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -310,7 +310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avoir des enfants tôt vs avoir des enfants plus tard dans la vie — qu'est-ce qui est mieux ?",
+                "text": "Avoir des enfants tôt vs avoir des enfants plus tard dans la vie: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -327,7 +327,7 @@
     },
     {
         "id": "fr_elementary_people_003",
-        "word": "Relations familiales étroites vs indépendance vis-à-vis de la famille — qu'est-ce qui est le plus important à l'âge adulte ?",
+        "word": "Relations familiales étroites vs indépendance vis-à-vis de la famille: qu'est-ce qui est le plus important à l'âge adulte ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -335,7 +335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Relations familiales étroites vs indépendance vis-à-vis de la famille — qu'est-ce qui est le plus important à l'âge adulte ?",
+                "text": "Relations familiales étroites vs indépendance vis-à-vis de la famille: qu'est-ce qui est le plus important à l'âge adulte ?",
                 "examples": []
             }
         ],
@@ -352,7 +352,7 @@
     },
     {
         "id": "fr_elementary_people_004",
-        "word": "Rencontrer de nouvelles personnes vs garder d'anciennes amitiés — qu'est-ce qui a le plus de valeur ?",
+        "word": "Rencontrer de nouvelles personnes vs garder d'anciennes amitiés: qu'est-ce qui a le plus de valeur ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -360,7 +360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Rencontrer de nouvelles personnes vs garder d'anciennes amitiés — qu'est-ce qui a le plus de valeur ?",
+                "text": "Rencontrer de nouvelles personnes vs garder d'anciennes amitiés: qu'est-ce qui a le plus de valeur ?",
                 "examples": []
             }
         ],
@@ -377,7 +377,7 @@
     },
     {
         "id": "fr_elementary_social_012",
-        "word": "Socialiser après le travail vs rentrer directement à la maison — qu'est-ce qui est mieux pour les relations de travail ?",
+        "word": "Socialiser après le travail vs rentrer directement à la maison: qu'est-ce qui est mieux pour les relations de travail ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -385,7 +385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Socialiser après le travail vs rentrer directement à la maison — qu'est-ce qui est mieux pour les relations de travail ?",
+                "text": "Socialiser après le travail vs rentrer directement à la maison: qu'est-ce qui est mieux pour les relations de travail ?",
                 "examples": []
             }
         ],
@@ -402,7 +402,7 @@
     },
     {
         "id": "fr_elementary_social_013",
-        "word": "Aller à la salle de sport vs faire de l'exercice à l'extérieur — qu'est-ce qui est mieux pour les adultes ?",
+        "word": "Aller à la salle de sport vs faire de l'exercice à l'extérieur: qu'est-ce qui est mieux pour les adultes ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -410,7 +410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Aller à la salle de sport vs faire de l'exercice à l'extérieur — qu'est-ce qui est mieux pour les adultes ?",
+                "text": "Aller à la salle de sport vs faire de l'exercice à l'extérieur: qu'est-ce qui est mieux pour les adultes ?",
                 "examples": []
             }
         ],
@@ -427,7 +427,7 @@
     },
     {
         "id": "fr_elementary_social_014",
-        "word": "Régime strict vs manger de tout avec modération — qu'est-ce qui est plus sain ?",
+        "word": "Régime strict vs manger de tout avec modération: qu'est-ce qui est plus sain ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -435,7 +435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Régime strict vs manger de tout avec modération — qu'est-ce qui est plus sain ?",
+                "text": "Régime strict vs manger de tout avec modération: qu'est-ce qui est plus sain ?",
                 "examples": []
             }
         ],
@@ -452,7 +452,7 @@
     },
     {
         "id": "fr_elementary_social_015",
-        "word": "Voir un médecin tôt vs attendre de voir si on va mieux — qu'est-ce qui est le plus sage ?",
+        "word": "Voir un médecin tôt vs attendre de voir si on va mieux: qu'est-ce qui est le plus sage ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -460,7 +460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Voir un médecin tôt vs attendre de voir si on va mieux — qu'est-ce qui est le plus sage ?",
+                "text": "Voir un médecin tôt vs attendre de voir si on va mieux: qu'est-ce qui est le plus sage ?",
                 "examples": []
             }
         ],
@@ -477,7 +477,7 @@
     },
     {
         "id": "fr_elementary_social_016",
-        "word": "Dormir huit heures vs dormir six heures mais faire de l'exercice — qu'est-ce qui est mieux pour l'énergie ?",
+        "word": "Dormir huit heures vs dormir six heures mais faire de l'exercice: qu'est-ce qui est mieux pour l'énergie ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -485,7 +485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dormir huit heures vs dormir six heures mais faire de l'exercice — qu'est-ce qui est mieux pour l'énergie ?",
+                "text": "Dormir huit heures vs dormir six heures mais faire de l'exercice: qu'est-ce qui est mieux pour l'énergie ?",
                 "examples": []
             }
         ],
@@ -502,7 +502,7 @@
     },
     {
         "id": "fr_elementary_social_017",
-        "word": "Réduire le stress par le sport vs par la relaxation — qu'est-ce qui fonctionne le mieux ?",
+        "word": "Réduire le stress par le sport vs par la relaxation: qu'est-ce qui fonctionne le mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -510,7 +510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Réduire le stress par le sport vs par la relaxation — qu'est-ce qui fonctionne le mieux ?",
+                "text": "Réduire le stress par le sport vs par la relaxation: qu'est-ce qui fonctionne le mieux ?",
                 "examples": []
             }
         ],
@@ -527,7 +527,7 @@
     },
     {
         "id": "fr_elementary_technology_001",
-        "word": "Smartphones vs conversation en face à face — qu'utilisons-nous le plus, et est-ce un problème ?",
+        "word": "Smartphones vs conversation en face à face: qu'utilisons-nous le plus, et est-ce un problème ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "technology",
@@ -535,7 +535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Smartphones vs conversation en face à face — qu'utilisons-nous le plus, et est-ce un problème ?",
+                "text": "Smartphones vs conversation en face à face: qu'utilisons-nous le plus, et est-ce un problème ?",
                 "examples": []
             }
         ],
@@ -552,7 +552,7 @@
     },
     {
         "id": "fr_elementary_technology_002",
-        "word": "Banque en ligne vs aller à la banque — qu'est-ce qui est mieux ?",
+        "word": "Banque en ligne vs aller à la banque: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "technology",
@@ -560,7 +560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Banque en ligne vs aller à la banque — qu'est-ce qui est mieux ?",
+                "text": "Banque en ligne vs aller à la banque: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -577,7 +577,7 @@
     },
     {
         "id": "fr_elementary_social_018",
-        "word": "Travailler avec du papier vs travailler numériquement — qu'est-ce qui est le plus efficace ?",
+        "word": "Travailler avec du papier vs travailler numériquement: qu'est-ce qui est le plus efficace ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -585,7 +585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travailler avec du papier vs travailler numériquement — qu'est-ce qui est le plus efficace ?",
+                "text": "Travailler avec du papier vs travailler numériquement: qu'est-ce qui est le plus efficace ?",
                 "examples": []
             }
         ],
@@ -602,7 +602,7 @@
     },
     {
         "id": "fr_elementary_social_019",
-        "word": "Réseaux sociaux pour le réseautage vs rencontrer les gens en personne — qu'est-ce qui est le plus utile professionnellement ?",
+        "word": "Réseaux sociaux pour le réseautage vs rencontrer les gens en personne: qu'est-ce qui est le plus utile professionnellement ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -610,7 +610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Réseaux sociaux pour le réseautage vs rencontrer les gens en personne — qu'est-ce qui est le plus utile professionnellement ?",
+                "text": "Réseaux sociaux pour le réseautage vs rencontrer les gens en personne: qu'est-ce qui est le plus utile professionnellement ?",
                 "examples": []
             }
         ],
@@ -627,7 +627,7 @@
     },
     {
         "id": "fr_elementary_social_020",
-        "word": "Voyage organisé vs voyage indépendant — qu'est-ce qui est mieux pour les adultes ?",
+        "word": "Voyage organisé vs voyage indépendant: qu'est-ce qui est mieux pour les adultes ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -635,7 +635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Voyage organisé vs voyage indépendant — qu'est-ce qui est mieux pour les adultes ?",
+                "text": "Voyage organisé vs voyage indépendant: qu'est-ce qui est mieux pour les adultes ?",
                 "examples": []
             }
         ],
@@ -652,7 +652,7 @@
     },
     {
         "id": "fr_elementary_social_021",
-        "word": "Séjour en ville vs vacances à la plage — quelle est la meilleure façon de se détendre ?",
+        "word": "Séjour en ville vs vacances à la plage: quelle est la meilleure façon de se détendre ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -660,7 +660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Séjour en ville vs vacances à la plage — quelle est la meilleure façon de se détendre ?",
+                "text": "Séjour en ville vs vacances à la plage: quelle est la meilleure façon de se détendre ?",
                 "examples": []
             }
         ],
@@ -677,7 +677,7 @@
     },
     {
         "id": "fr_elementary_social_022",
-        "word": "Une seule longue vacance par an vs plusieurs courts séjours — qu'est-ce qui est mieux ?",
+        "word": "Une seule longue vacance par an vs plusieurs courts séjours: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -685,7 +685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Une seule longue vacance par an vs plusieurs courts séjours — qu'est-ce qui est mieux ?",
+                "text": "Une seule longue vacance par an vs plusieurs courts séjours: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -702,7 +702,7 @@
     },
     {
         "id": "fr_elementary_social_023",
-        "word": "Voyager en couple vs voyager seul — qu'est-ce qui est le plus agréable ?",
+        "word": "Voyager en couple vs voyager seul: qu'est-ce qui est le plus agréable ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -710,7 +710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Voyager en couple vs voyager seul — qu'est-ce qui est le plus agréable ?",
+                "text": "Voyager en couple vs voyager seul: qu'est-ce qui est le plus agréable ?",
                 "examples": []
             }
         ],
@@ -727,7 +727,7 @@
     },
     {
         "id": "fr_elementary_people_005",
-        "word": "Parler à son partenaire de chaque petit problème vs garder les choses pour soi — qu'est-ce qui est le plus sain ?",
+        "word": "Parler à son partenaire de chaque petit problème vs garder les choses pour soi: qu'est-ce qui est le plus sain ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -735,7 +735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Parler à son partenaire de chaque petit problème vs garder les choses pour soi — qu'est-ce qui est le plus sain ?",
+                "text": "Parler à son partenaire de chaque petit problème vs garder les choses pour soi: qu'est-ce qui est le plus sain ?",
                 "examples": []
             }
         ],
@@ -752,7 +752,7 @@
     },
     {
         "id": "fr_elementary_social_024",
-        "word": "Consulter son téléphone dès le matin vs attendre après le petit-déjeuner — quelle est la meilleure habitude ?",
+        "word": "Consulter son téléphone dès le matin vs attendre après le petit-déjeuner: quelle est la meilleure habitude ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -760,7 +760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Consulter son téléphone dès le matin vs attendre après le petit-déjeuner — quelle est la meilleure habitude ?",
+                "text": "Consulter son téléphone dès le matin vs attendre après le petit-déjeuner: quelle est la meilleure habitude ?",
                 "examples": []
             }
         ],
@@ -777,7 +777,7 @@
     },
     {
         "id": "fr_elementary_people_006",
-        "word": "Connaître le nom de ses voisins vs ne pas les connaître — quelle est l'expérience adulte la plus normale aujourd'hui ?",
+        "word": "Connaître le nom de ses voisins vs ne pas les connaître: quelle est l'expérience adulte la plus normale aujourd'hui ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -785,7 +785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Connaître le nom de ses voisins vs ne pas les connaître — quelle est l'expérience adulte la plus normale aujourd'hui ?",
+                "text": "Connaître le nom de ses voisins vs ne pas les connaître: quelle est l'expérience adulte la plus normale aujourd'hui ?",
                 "examples": []
             }
         ],
@@ -802,7 +802,7 @@
     },
     {
         "id": "fr_elementary_social_025",
-        "word": "Faire les courses avec une liste vs sans liste — quel type de personne a une meilleure vie ?",
+        "word": "Faire les courses avec une liste vs sans liste: quel type de personne a une meilleure vie ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -810,7 +810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Faire les courses avec une liste vs sans liste — quel type de personne a une meilleure vie ?",
+                "text": "Faire les courses avec une liste vs sans liste: quel type de personne a une meilleure vie ?",
                 "examples": []
             }
         ],
@@ -827,7 +827,7 @@
     },
     {
         "id": "fr_elementary_social_026",
-        "word": "Dire à son patron qu'on est malade vs aller travailler malade — quel est le choix le plus courageux ?",
+        "word": "Dire à son patron qu'on est malade vs aller travailler malade: quel est le choix le plus courageux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -835,7 +835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dire à son patron qu'on est malade vs aller travailler malade — quel est le choix le plus courageux ?",
+                "text": "Dire à son patron qu'on est malade vs aller travailler malade: quel est le choix le plus courageux ?",
                 "examples": []
             }
         ],
@@ -852,7 +852,7 @@
     },
     {
         "id": "fr_elementary_social_027",
-        "word": "Travailler à temps plein vs travailler à temps partiel — qu'est-ce qui est mieux ?",
+        "word": "Travailler à temps plein vs travailler à temps partiel: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -860,7 +860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travailler à temps plein vs travailler à temps partiel — qu'est-ce qui est mieux ?",
+                "text": "Travailler à temps plein vs travailler à temps partiel: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -877,7 +877,7 @@
     },
     {
         "id": "fr_elementary_social_028",
-        "word": "Travailler dans un bureau vs travailler à domicile — que préférez-vous ?",
+        "word": "Travailler dans un bureau vs travailler à domicile: que préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -885,7 +885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travailler dans un bureau vs travailler à domicile — que préférez-vous ?",
+                "text": "Travailler dans un bureau vs travailler à domicile: que préférez-vous ?",
                 "examples": []
             }
         ],
@@ -902,7 +902,7 @@
     },
     {
         "id": "fr_elementary_social_029",
-        "word": "Un travail qu'on aime vs un travail bien payé — qu'est-ce qui est le plus important ?",
+        "word": "Un travail qu'on aime vs un travail bien payé: qu'est-ce qui est le plus important ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -910,7 +910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Un travail qu'on aime vs un travail bien payé — qu'est-ce qui est le plus important ?",
+                "text": "Un travail qu'on aime vs un travail bien payé: qu'est-ce qui est le plus important ?",
                 "examples": []
             }
         ],
@@ -927,7 +927,7 @@
     },
     {
         "id": "fr_elementary_social_030",
-        "word": "Travailler avec d'autres personnes vs travailler seul — qu'est-ce qui est mieux ?",
+        "word": "Travailler avec d'autres personnes vs travailler seul: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -935,7 +935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travailler avec d'autres personnes vs travailler seul — qu'est-ce qui est mieux ?",
+                "text": "Travailler avec d'autres personnes vs travailler seul: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -952,7 +952,7 @@
     },
     {
         "id": "fr_elementary_social_031",
-        "word": "Un trajet court vs un trajet long — qu'est-ce qui est le plus acceptable ?",
+        "word": "Un trajet court vs un trajet long: qu'est-ce qui est le plus acceptable ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -960,7 +960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Un trajet court vs un trajet long — qu'est-ce qui est le plus acceptable ?",
+                "text": "Un trajet court vs un trajet long: qu'est-ce qui est le plus acceptable ?",
                 "examples": []
             }
         ],
@@ -977,7 +977,7 @@
     },
     {
         "id": "fr_elementary_people_007",
-        "word": "Vivre seul vs vivre avec un partenaire — qu'est-ce qui est mieux ?",
+        "word": "Vivre seul vs vivre avec un partenaire: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -985,7 +985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre seul vs vivre avec un partenaire — qu'est-ce qui est mieux ?",
+                "text": "Vivre seul vs vivre avec un partenaire: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1002,7 +1002,7 @@
     },
     {
         "id": "fr_elementary_social_032",
-        "word": "Grande ville vs petite ville — quel est le meilleur endroit pour vivre en tant qu'adulte ?",
+        "word": "Grande ville vs petite ville: quel est le meilleur endroit pour vivre en tant qu'adulte ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1010,7 +1010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Grande ville vs petite ville — quel est le meilleur endroit pour vivre en tant qu'adulte ?",
+                "text": "Grande ville vs petite ville: quel est le meilleur endroit pour vivre en tant qu'adulte ?",
                 "examples": []
             }
         ],
@@ -1027,7 +1027,7 @@
     },
     {
         "id": "fr_elementary_social_033",
-        "word": "Cuisiner à la maison vs manger à l'extérieur — qu'est-ce qui est mieux pour la vie quotidienne ?",
+        "word": "Cuisiner à la maison vs manger à l'extérieur: qu'est-ce qui est mieux pour la vie quotidienne ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1035,7 +1035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cuisiner à la maison vs manger à l'extérieur — qu'est-ce qui est mieux pour la vie quotidienne ?",
+                "text": "Cuisiner à la maison vs manger à l'extérieur: qu'est-ce qui est mieux pour la vie quotidienne ?",
                 "examples": []
             }
         ],
@@ -1052,7 +1052,7 @@
     },
     {
         "id": "fr_elementary_people_008",
-        "word": "Avoir des enfants vs ne pas avoir d'enfants — quelle vie est la meilleure ?",
+        "word": "Avoir des enfants vs ne pas avoir d'enfants: quelle vie est la meilleure ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -1060,7 +1060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avoir des enfants vs ne pas avoir d'enfants — quelle vie est la meilleure ?",
+                "text": "Avoir des enfants vs ne pas avoir d'enfants: quelle vie est la meilleure ?",
                 "examples": []
             }
         ],
@@ -1077,7 +1077,7 @@
     },
     {
         "id": "fr_elementary_social_034",
-        "word": "Louer un appartement vs acheter une maison — qu'est-ce qui est mieux pour les jeunes adultes ?",
+        "word": "Louer un appartement vs acheter une maison: qu'est-ce qui est mieux pour les jeunes adultes ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1085,7 +1085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Louer un appartement vs acheter une maison — qu'est-ce qui est mieux pour les jeunes adultes ?",
+                "text": "Louer un appartement vs acheter une maison: qu'est-ce qui est mieux pour les jeunes adultes ?",
                 "examples": []
             }
         ],
@@ -1102,7 +1102,7 @@
     },
     {
         "id": "fr_elementary_social_035",
-        "word": "Faire de l'exercice tous les jours vs se reposer — qu'est-ce qui est mieux pour votre santé ?",
+        "word": "Faire de l'exercice tous les jours vs se reposer: qu'est-ce qui est mieux pour votre santé ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1110,7 +1110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Faire de l'exercice tous les jours vs se reposer — qu'est-ce qui est mieux pour votre santé ?",
+                "text": "Faire de l'exercice tous les jours vs se reposer: qu'est-ce qui est mieux pour votre santé ?",
                 "examples": []
             }
         ],
@@ -1127,7 +1127,7 @@
     },
     {
         "id": "fr_elementary_social_036",
-        "word": "Aller chez le médecin vs attendre — qu'est-ce qui est mieux quand on se sent malade ?",
+        "word": "Aller chez le médecin vs attendre: qu'est-ce qui est mieux quand on se sent malade ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1135,7 +1135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Aller chez le médecin vs attendre — qu'est-ce qui est mieux quand on se sent malade ?",
+                "text": "Aller chez le médecin vs attendre: qu'est-ce qui est mieux quand on se sent malade ?",
                 "examples": []
             }
         ],
@@ -1152,7 +1152,7 @@
     },
     {
         "id": "fr_elementary_social_037",
-        "word": "Dormir huit heures vs dormir moins — qu'est-ce qui est le plus réaliste pour les adultes ?",
+        "word": "Dormir huit heures vs dormir moins: qu'est-ce qui est le plus réaliste pour les adultes ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1160,7 +1160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dormir huit heures vs dormir moins — qu'est-ce qui est le plus réaliste pour les adultes ?",
+                "text": "Dormir huit heures vs dormir moins: qu'est-ce qui est le plus réaliste pour les adultes ?",
                 "examples": []
             }
         ],
@@ -1177,7 +1177,7 @@
     },
     {
         "id": "fr_elementary_social_038",
-        "word": "Aller au travail à pied vs prendre la voiture — qu'est-ce qui est mieux pour votre santé ?",
+        "word": "Aller au travail à pied vs prendre la voiture: qu'est-ce qui est mieux pour votre santé ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1185,7 +1185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Aller au travail à pied vs prendre la voiture — qu'est-ce qui est mieux pour votre santé ?",
+                "text": "Aller au travail à pied vs prendre la voiture: qu'est-ce qui est mieux pour votre santé ?",
                 "examples": []
             }
         ],
@@ -1202,7 +1202,7 @@
     },
     {
         "id": "fr_elementary_social_039",
-        "word": "Achats en ligne vs achats en magasin — que préférez-vous ?",
+        "word": "Achats en ligne vs achats en magasin: que préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1210,7 +1210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Achats en ligne vs achats en magasin — que préférez-vous ?",
+                "text": "Achats en ligne vs achats en magasin: que préférez-vous ?",
                 "examples": []
             }
         ],
@@ -1227,7 +1227,7 @@
     },
     {
         "id": "fr_elementary_social_040",
-        "word": "Économiser pour l'avenir vs profiter de l'argent maintenant — qu'est-ce qui est le plus sage ?",
+        "word": "Économiser pour l'avenir vs profiter de l'argent maintenant: qu'est-ce qui est le plus sage ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1235,7 +1235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Économiser pour l'avenir vs profiter de l'argent maintenant — qu'est-ce qui est le plus sage ?",
+                "text": "Économiser pour l'avenir vs profiter de l'argent maintenant: qu'est-ce qui est le plus sage ?",
                 "examples": []
             }
         ],
@@ -1252,7 +1252,7 @@
     },
     {
         "id": "fr_elementary_social_041",
-        "word": "Choses chères vs choses bon marché — qu'est-ce qui a le meilleur rapport qualité-prix ?",
+        "word": "Choses chères vs choses bon marché: qu'est-ce qui a le meilleur rapport qualité-prix ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1260,7 +1260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Choses chères vs choses bon marché — qu'est-ce qui a le meilleur rapport qualité-prix ?",
+                "text": "Choses chères vs choses bon marché: qu'est-ce qui a le meilleur rapport qualité-prix ?",
                 "examples": []
             }
         ],
@@ -1277,7 +1277,7 @@
     },
     {
         "id": "fr_elementary_social_042",
-        "word": "Acheter neuf vs acheter d'occasion — qu'est-ce qui est mieux ?",
+        "word": "Acheter neuf vs acheter d'occasion: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1285,7 +1285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Acheter neuf vs acheter d'occasion — qu'est-ce qui est mieux ?",
+                "text": "Acheter neuf vs acheter d'occasion: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1302,7 +1302,7 @@
     },
     {
         "id": "fr_elementary_social_043",
-        "word": "Regarder la télé à la maison vs sortir — quelle est la meilleure soirée ?",
+        "word": "Regarder la télé à la maison vs sortir: quelle est la meilleure soirée ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1310,7 +1310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Regarder la télé à la maison vs sortir — quelle est la meilleure soirée ?",
+                "text": "Regarder la télé à la maison vs sortir: quelle est la meilleure soirée ?",
                 "examples": []
             }
         ],
@@ -1327,7 +1327,7 @@
     },
     {
         "id": "fr_elementary_social_044",
-        "word": "Vacances en famille vs vacances entre amis — qu'est-ce qui est mieux ?",
+        "word": "Vacances en famille vs vacances entre amis: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1335,7 +1335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vacances en famille vs vacances entre amis — qu'est-ce qui est mieux ?",
+                "text": "Vacances en famille vs vacances entre amis: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1352,7 +1352,7 @@
     },
     {
         "id": "fr_elementary_social_045",
-        "word": "Rester dans son pays vs voyager à l'étranger — quelles sont les meilleures vacances ?",
+        "word": "Rester dans son pays vs voyager à l'étranger: quelles sont les meilleures vacances ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1360,7 +1360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Rester dans son pays vs voyager à l'étranger — quelles sont les meilleures vacances ?",
+                "text": "Rester dans son pays vs voyager à l'étranger: quelles sont les meilleures vacances ?",
                 "examples": []
             }
         ],
@@ -1377,7 +1377,7 @@
     },
     {
         "id": "fr_elementary_social_046",
-        "word": "Le sport vs la lecture — quel est le meilleur passe-temps pour les adultes ?",
+        "word": "Le sport vs la lecture: quel est le meilleur passe-temps pour les adultes ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1385,7 +1385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le sport vs la lecture — quel est le meilleur passe-temps pour les adultes ?",
+                "text": "Le sport vs la lecture: quel est le meilleur passe-temps pour les adultes ?",
                 "examples": []
             }
         ],
@@ -1402,7 +1402,7 @@
     },
     {
         "id": "fr_elementary_people_009",
-        "word": "Voir des amis souvent vs avoir du temps seul — qu'est-ce qui est le plus important ?",
+        "word": "Voir des amis souvent vs avoir du temps seul: qu'est-ce qui est le plus important ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -1410,7 +1410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Voir des amis souvent vs avoir du temps seul — qu'est-ce qui est le plus important ?",
+                "text": "Voir des amis souvent vs avoir du temps seul: qu'est-ce qui est le plus important ?",
                 "examples": []
             }
         ],
@@ -1427,7 +1427,7 @@
     },
     {
         "id": "fr_elementary_social_047",
-        "word": "Répondre aux e-mails immédiatement vs les laisser pour plus tard — qu'est-ce qui est le plus professionnel ?",
+        "word": "Répondre aux e-mails immédiatement vs les laisser pour plus tard: qu'est-ce qui est le plus professionnel ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1435,7 +1435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Répondre aux e-mails immédiatement vs les laisser pour plus tard — qu'est-ce qui est le plus professionnel ?",
+                "text": "Répondre aux e-mails immédiatement vs les laisser pour plus tard: qu'est-ce qui est le plus professionnel ?",
                 "examples": []
             }
         ],
@@ -1452,7 +1452,7 @@
     },
     {
         "id": "fr_elementary_social_048",
-        "word": "Faire la vaisselle immédiatement vs la laisser jusqu'à demain — qu'est-ce qui est mieux ?",
+        "word": "Faire la vaisselle immédiatement vs la laisser jusqu'à demain: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1460,7 +1460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Faire la vaisselle immédiatement vs la laisser jusqu'à demain — qu'est-ce qui est mieux ?",
+                "text": "Faire la vaisselle immédiatement vs la laisser jusqu'à demain: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1477,7 +1477,7 @@
     },
     {
         "id": "fr_elementary_social_049",
-        "word": "Être toujours en avance vs toujours cinq minutes en retard — qu'est-ce qui est pire au travail ?",
+        "word": "Être toujours en avance vs toujours cinq minutes en retard: qu'est-ce qui est pire au travail ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1485,7 +1485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Être toujours en avance vs toujours cinq minutes en retard — qu'est-ce qui est pire au travail ?",
+                "text": "Être toujours en avance vs toujours cinq minutes en retard: qu'est-ce qui est pire au travail ?",
                 "examples": []
             }
         ],
@@ -1502,7 +1502,7 @@
     },
     {
         "id": "fr_elementary_social_050",
-        "word": "Avoir un bureau très organisé vs un bureau en désordre — quelle personne est la plus productive ?",
+        "word": "Avoir un bureau très organisé vs un bureau en désordre: quelle personne est la plus productive ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1510,7 +1510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avoir un bureau très organisé vs un bureau en désordre — quelle personne est la plus productive ?",
+                "text": "Avoir un bureau très organisé vs un bureau en désordre: quelle personne est la plus productive ?",
                 "examples": []
             }
         ],
@@ -1527,7 +1527,7 @@
     },
     {
         "id": "fr_elementary_social_051",
-        "word": "Parler de travail au dîner vs pas de discussion de travail au dîner — quelle règle est la meilleure ?",
+        "word": "Parler de travail au dîner vs pas de discussion de travail au dîner: quelle règle est la meilleure ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1535,7 +1535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Parler de travail au dîner vs pas de discussion de travail au dîner — quelle règle est la meilleure ?",
+                "text": "Parler de travail au dîner vs pas de discussion de travail au dîner: quelle règle est la meilleure ?",
                 "examples": []
             }
         ],
@@ -1552,7 +1552,7 @@
     },
     {
         "id": "fr_elementary_people_010",
-        "word": "Vivre en famille vs Seul — qu'est-ce qui est mieux ?",
+        "word": "Vivre en famille vs Seul: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -1560,7 +1560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre en famille vs Seul — qu'est-ce qui est mieux ?",
+                "text": "Vivre en famille vs Seul: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1577,7 +1577,7 @@
     },
     {
         "id": "fr_elementary_people_011",
-        "word": "Avoir un frère vs une sœur — qu'est-ce qui est mieux ?",
+        "word": "Avoir un frère vs une sœur: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -1585,7 +1585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avoir un frère vs une sœur — qu'est-ce qui est mieux ?",
+                "text": "Avoir un frère vs une sœur: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1602,7 +1602,7 @@
     },
     {
         "id": "fr_elementary_people_012",
-        "word": "Grande vs Petite famille — laquelle est la plus agréable ?",
+        "word": "Grande vs Petite famille: laquelle est la plus agréable ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -1610,7 +1610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Grande vs Petite famille — laquelle est la plus agréable ?",
+                "text": "Grande vs Petite famille: laquelle est la plus agréable ?",
                 "examples": []
             }
         ],
@@ -1627,7 +1627,7 @@
     },
     {
         "id": "fr_elementary_people_013",
-        "word": "L'aîné vs Le cadet — qu'est-ce qui est mieux ?",
+        "word": "L'aîné vs Le cadet: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -1635,7 +1635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'aîné vs Le cadet — qu'est-ce qui est mieux ?",
+                "text": "L'aîné vs Le cadet: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1652,7 +1652,7 @@
     },
     {
         "id": "fr_elementary_social_052",
-        "word": "École le matin vs après-midi — qu'est-ce qui est mieux ?",
+        "word": "École le matin vs après-midi: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1660,7 +1660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "École le matin vs après-midi — qu'est-ce qui est mieux ?",
+                "text": "École le matin vs après-midi: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1677,7 +1677,7 @@
     },
     {
         "id": "fr_elementary_social_053",
-        "word": "Lecture vs Maths — lequel est le plus amusant ?",
+        "word": "Lecture vs Maths: lequel est le plus amusant ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1685,7 +1685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lecture vs Maths — lequel est le plus amusant ?",
+                "text": "Lecture vs Maths: lequel est le plus amusant ?",
                 "examples": []
             }
         ],
@@ -1702,7 +1702,7 @@
     },
     {
         "id": "fr_elementary_social_054",
-        "word": "École vs Maison — qu'est-ce qui est mieux ?",
+        "word": "École vs Maison: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1710,7 +1710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "École vs Maison — qu'est-ce qui est mieux ?",
+                "text": "École vs Maison: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1727,7 +1727,7 @@
     },
     {
         "id": "fr_elementary_social_055",
-        "word": "Devoirs vs Pas de devoirs — qu'est-ce qui aide le plus ?",
+        "word": "Devoirs vs Pas de devoirs: qu'est-ce qui aide le plus ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1735,7 +1735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Devoirs vs Pas de devoirs — qu'est-ce qui aide le plus ?",
+                "text": "Devoirs vs Pas de devoirs: qu'est-ce qui aide le plus ?",
                 "examples": []
             }
         ],
@@ -1752,7 +1752,7 @@
     },
     {
         "id": "fr_elementary_social_056",
-        "word": "Seul vs Avec un partenaire — que préférez-vous ?",
+        "word": "Seul vs Avec un partenaire: que préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1760,7 +1760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Seul vs Avec un partenaire — que préférez-vous ?",
+                "text": "Seul vs Avec un partenaire: que préférez-vous ?",
                 "examples": []
             }
         ],
@@ -1777,7 +1777,7 @@
     },
     {
         "id": "fr_elementary_social_057",
-        "word": "Papier vs Ordinateur — lequel est le mieux ?",
+        "word": "Papier vs Ordinateur: lequel est le mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1785,7 +1785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Papier vs Ordinateur — lequel est le mieux ?",
+                "text": "Papier vs Ordinateur: lequel est le mieux ?",
                 "examples": []
             }
         ],
@@ -1802,7 +1802,7 @@
     },
     {
         "id": "fr_elementary_social_058",
-        "word": "Petit-déjeuner vs Dîner — quel repas est le plus important ?",
+        "word": "Petit-déjeuner vs Dîner: quel repas est le plus important ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1810,7 +1810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Petit-déjeuner vs Dîner — quel repas est le plus important ?",
+                "text": "Petit-déjeuner vs Dîner: quel repas est le plus important ?",
                 "examples": []
             }
         ],
@@ -1827,7 +1827,7 @@
     },
     {
         "id": "fr_elementary_social_059",
-        "word": "Chaud vs Froid — lequel est le mieux ?",
+        "word": "Chaud vs Froid: lequel est le mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1835,7 +1835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Chaud vs Froid — lequel est le mieux ?",
+                "text": "Chaud vs Froid: lequel est le mieux ?",
                 "examples": []
             }
         ],
@@ -1852,7 +1852,7 @@
     },
     {
         "id": "fr_elementary_social_060",
-        "word": "Maison vs Restaurant — lequel est le mieux ?",
+        "word": "Maison vs Restaurant: lequel est le mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1860,7 +1860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Maison vs Restaurant — lequel est le mieux ?",
+                "text": "Maison vs Restaurant: lequel est le mieux ?",
                 "examples": []
             }
         ],
@@ -1877,7 +1877,7 @@
     },
     {
         "id": "fr_elementary_social_061",
-        "word": "Sucré vs Salé — que préférez-vous ?",
+        "word": "Sucré vs Salé: que préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1885,7 +1885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sucré vs Salé — que préférez-vous ?",
+                "text": "Sucré vs Salé: que préférez-vous ?",
                 "examples": []
             }
         ],
@@ -1902,7 +1902,7 @@
     },
     {
         "id": "fr_elementary_social_062",
-        "word": "Cuisiner vs Acheter — qu'est-ce qui est plus agréable ?",
+        "word": "Cuisiner vs Acheter: qu'est-ce qui est plus agréable ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1910,7 +1910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cuisiner vs Acheter — qu'est-ce qui est plus agréable ?",
+                "text": "Cuisiner vs Acheter: qu'est-ce qui est plus agréable ?",
                 "examples": []
             }
         ],
@@ -1927,7 +1927,7 @@
     },
     {
         "id": "fr_elementary_social_063",
-        "word": "Se lever tôt vs tard — qu'est-ce qui est mieux ?",
+        "word": "Se lever tôt vs tard: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1935,7 +1935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Se lever tôt vs tard — qu'est-ce qui est mieux ?",
+                "text": "Se lever tôt vs tard: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1952,7 +1952,7 @@
     },
     {
         "id": "fr_elementary_social_064",
-        "word": "Matin vs Soir — quel moment de la journée est le plus agréable ?",
+        "word": "Matin vs Soir: quel moment de la journée est le plus agréable ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1960,7 +1960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Matin vs Soir — quel moment de la journée est le plus agréable ?",
+                "text": "Matin vs Soir: quel moment de la journée est le plus agréable ?",
                 "examples": []
             }
         ],
@@ -1977,7 +1977,7 @@
     },
     {
         "id": "fr_elementary_social_065",
-        "word": "Semaine vs Week-end — que préférez-vous ?",
+        "word": "Semaine vs Week-end: que préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -1985,7 +1985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Semaine vs Week-end — que préférez-vous ?",
+                "text": "Semaine vs Week-end: que préférez-vous ?",
                 "examples": []
             }
         ],
@@ -2002,7 +2002,7 @@
     },
     {
         "id": "fr_elementary_environment_001",
-        "word": "Été vs Hiver — quelle saison est la meilleure ?",
+        "word": "Été vs Hiver: quelle saison est la meilleure ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "environment",
@@ -2010,7 +2010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Été vs Hiver — quelle saison est la meilleure ?",
+                "text": "Été vs Hiver: quelle saison est la meilleure ?",
                 "examples": []
             }
         ],
@@ -2027,7 +2027,7 @@
     },
     {
         "id": "fr_elementary_social_066",
-        "word": "Se coucher tôt vs tard — qu'est-ce qui est le plus sain ?",
+        "word": "Se coucher tôt vs tard: qu'est-ce qui est le plus sain ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2035,7 +2035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Se coucher tôt vs tard — qu'est-ce qui est le plus sain ?",
+                "text": "Se coucher tôt vs tard: qu'est-ce qui est le plus sain ?",
                 "examples": []
             }
         ],
@@ -2052,7 +2052,7 @@
     },
     {
         "id": "fr_elementary_social_067",
-        "word": "Maison vs Appartement — lequel est le mieux ?",
+        "word": "Maison vs Appartement: lequel est le mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2060,7 +2060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Maison vs Appartement — lequel est le mieux ?",
+                "text": "Maison vs Appartement: lequel est le mieux ?",
                 "examples": []
             }
         ],
@@ -2077,7 +2077,7 @@
     },
     {
         "id": "fr_elementary_social_068",
-        "word": "Ville vs Campagne — où est-il préférable de vivre ?",
+        "word": "Ville vs Campagne: où est-il préférable de vivre ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2085,7 +2085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ville vs Campagne — où est-il préférable de vivre ?",
+                "text": "Ville vs Campagne: où est-il préférable de vivre ?",
                 "examples": []
             }
         ],
@@ -2102,7 +2102,7 @@
     },
     {
         "id": "fr_elementary_social_069",
-        "word": "Chambre vs Salon — quelle pièce préférez-vous ?",
+        "word": "Chambre vs Salon: quelle pièce préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2110,7 +2110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Chambre vs Salon — quelle pièce préférez-vous ?",
+                "text": "Chambre vs Salon: quelle pièce préférez-vous ?",
                 "examples": []
             }
         ],
@@ -2127,7 +2127,7 @@
     },
     {
         "id": "fr_elementary_social_070",
-        "word": "Jeux d'intérieur vs d'extérieur — lesquels sont les plus amusants ?",
+        "word": "Jeux d'intérieur vs d'extérieur: lesquels sont les plus amusants ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2135,7 +2135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Jeux d'intérieur vs d'extérieur — lesquels sont les plus amusants ?",
+                "text": "Jeux d'intérieur vs d'extérieur: lesquels sont les plus amusants ?",
                 "examples": []
             }
         ],
@@ -2152,7 +2152,7 @@
     },
     {
         "id": "fr_elementary_social_071",
-        "word": "TV vs Livre — lequel est le mieux ?",
+        "word": "TV vs Livre: lequel est le mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2160,7 +2160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "TV vs Livre — lequel est le mieux ?",
+                "text": "TV vs Livre: lequel est le mieux ?",
                 "examples": []
             }
         ],
@@ -2177,7 +2177,7 @@
     },
     {
         "id": "fr_elementary_social_072",
-        "word": "Sport vs Jeu vidéo — lequel est le plus amusant ?",
+        "word": "Sport vs Jeu vidéo: lequel est le plus amusant ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2185,7 +2185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sport vs Jeu vidéo — lequel est le plus amusant ?",
+                "text": "Sport vs Jeu vidéo: lequel est le plus amusant ?",
                 "examples": []
             }
         ],
@@ -2202,7 +2202,7 @@
     },
     {
         "id": "fr_elementary_social_073",
-        "word": "Dessin vs Chant — quel passe-temps est le meilleur ?",
+        "word": "Dessin vs Chant: quel passe-temps est le meilleur ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2210,7 +2210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dessin vs Chant — quel passe-temps est le meilleur ?",
+                "text": "Dessin vs Chant: quel passe-temps est le meilleur ?",
                 "examples": []
             }
         ],
@@ -2227,7 +2227,7 @@
     },
     {
         "id": "fr_elementary_social_074",
-        "word": "Jouer seul vs avec des amis — lequel est le plus amusant ?",
+        "word": "Jouer seul vs avec des amis: lequel est le plus amusant ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2235,7 +2235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Jouer seul vs avec des amis — lequel est le plus amusant ?",
+                "text": "Jouer seul vs avec des amis: lequel est le plus amusant ?",
                 "examples": []
             }
         ],
@@ -2252,7 +2252,7 @@
     },
     {
         "id": "fr_elementary_social_075",
-        "word": "Natation vs Course — quel sport préférez-vous ?",
+        "word": "Natation vs Course: quel sport préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2260,7 +2260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Natation vs Course — quel sport préférez-vous ?",
+                "text": "Natation vs Course: quel sport préférez-vous ?",
                 "examples": []
             }
         ],
@@ -2277,7 +2277,7 @@
     },
     {
         "id": "fr_elementary_social_076",
-        "word": "Musique vs Sport — quel passe-temps est le meilleur ?",
+        "word": "Musique vs Sport: quel passe-temps est le meilleur ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2285,7 +2285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Musique vs Sport — quel passe-temps est le meilleur ?",
+                "text": "Musique vs Sport: quel passe-temps est le meilleur ?",
                 "examples": []
             }
         ],
@@ -2302,7 +2302,7 @@
     },
     {
         "id": "fr_elementary_social_077",
-        "word": "Animaux de ferme vs sauvages — lesquels sont les plus intéressants ?",
+        "word": "Animaux de ferme vs sauvages: lesquels sont les plus intéressants ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2310,7 +2310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Animaux de ferme vs sauvages — lesquels sont les plus intéressants ?",
+                "text": "Animaux de ferme vs sauvages: lesquels sont les plus intéressants ?",
                 "examples": []
             }
         ],
@@ -2327,7 +2327,7 @@
     },
     {
         "id": "fr_elementary_environment_002",
-        "word": "Pluie vs Soleil — quel temps préférez-vous ?",
+        "word": "Pluie vs Soleil: quel temps préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "environment",
@@ -2335,7 +2335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Pluie vs Soleil — quel temps préférez-vous ?",
+                "text": "Pluie vs Soleil: quel temps préférez-vous ?",
                 "examples": []
             }
         ],
@@ -2352,7 +2352,7 @@
     },
     {
         "id": "fr_elementary_social_078",
-        "word": "Mer vs Montagne — lequel est le mieux pour les vacances ?",
+        "word": "Mer vs Montagne: lequel est le mieux pour les vacances ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2360,7 +2360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mer vs Montagne — lequel est le mieux pour les vacances ?",
+                "text": "Mer vs Montagne: lequel est le mieux pour les vacances ?",
                 "examples": []
             }
         ],
@@ -2377,7 +2377,7 @@
     },
     {
         "id": "fr_elementary_environment_003",
-        "word": "Fleurs vs Arbres — lesquels sont les plus beaux ?",
+        "word": "Fleurs vs Arbres: lesquels sont les plus beaux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "environment",
@@ -2385,7 +2385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fleurs vs Arbres — lesquels sont les plus beaux ?",
+                "text": "Fleurs vs Arbres: lesquels sont les plus beaux ?",
                 "examples": []
             }
         ],
@@ -2402,7 +2402,7 @@
     },
     {
         "id": "fr_elementary_social_079",
-        "word": "Voiture vs Bus — lequel est le mieux ?",
+        "word": "Voiture vs Bus: lequel est le mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2410,7 +2410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Voiture vs Bus — lequel est le mieux ?",
+                "text": "Voiture vs Bus: lequel est le mieux ?",
                 "examples": []
             }
         ],
@@ -2427,7 +2427,7 @@
     },
     {
         "id": "fr_elementary_social_080",
-        "word": "Marcher vs Vélo — quel est le meilleur moyen de se déplacer ?",
+        "word": "Marcher vs Vélo: quel est le meilleur moyen de se déplacer ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2435,7 +2435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Marcher vs Vélo — quel est le meilleur moyen de se déplacer ?",
+                "text": "Marcher vs Vélo: quel est le meilleur moyen de se déplacer ?",
                 "examples": []
             }
         ],
@@ -2452,7 +2452,7 @@
     },
     {
         "id": "fr_elementary_social_081",
-        "word": "Vacances courtes vs longues — qu'est-ce qui est mieux ?",
+        "word": "Vacances courtes vs longues: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2460,7 +2460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vacances courtes vs longues — qu'est-ce qui est mieux ?",
+                "text": "Vacances courtes vs longues: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -2477,7 +2477,7 @@
     },
     {
         "id": "fr_elementary_social_082",
-        "word": "Voyager seul vs en famille — lequel est le plus amusant ?",
+        "word": "Voyager seul vs en famille: lequel est le plus amusant ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2485,7 +2485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Voyager seul vs en famille — lequel est le plus amusant ?",
+                "text": "Voyager seul vs en famille: lequel est le plus amusant ?",
                 "examples": []
             }
         ],
@@ -2552,7 +2552,7 @@
     },
     {
         "id": "fr_elementary_social_085",
-        "word": "Étudier le matin ou étudier le soir — quand est-ce mieux ?",
+        "word": "Étudier le matin ou étudier le soir: quand est-ce mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2560,7 +2560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Étudier le matin ou étudier le soir — quand est-ce mieux ?",
+                "text": "Étudier le matin ou étudier le soir: quand est-ce mieux ?",
                 "examples": []
             }
         ],
@@ -2577,7 +2577,7 @@
     },
     {
         "id": "fr_elementary_social_086",
-        "word": "Professeurs sévères ou professeurs sympas — qui aide le plus les élèves ?",
+        "word": "Professeurs sévères ou professeurs sympas: qui aide le plus les élèves ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2585,7 +2585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Professeurs sévères ou professeurs sympas — qui aide le plus les élèves ?",
+                "text": "Professeurs sévères ou professeurs sympas: qui aide le plus les élèves ?",
                 "examples": []
             }
         ],
@@ -2602,7 +2602,7 @@
     },
     {
         "id": "fr_elementary_social_087",
-        "word": "Apprendre avec un manuel ou apprendre avec des vidéos — qu'est-ce qui est plus efficace ?",
+        "word": "Apprendre avec un manuel ou apprendre avec des vidéos: qu'est-ce qui est plus efficace ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2610,7 +2610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Apprendre avec un manuel ou apprendre avec des vidéos — qu'est-ce qui est plus efficace ?",
+                "text": "Apprendre avec un manuel ou apprendre avec des vidéos: qu'est-ce qui est plus efficace ?",
                 "examples": []
             }
         ],
@@ -2627,7 +2627,7 @@
     },
     {
         "id": "fr_elementary_social_088",
-        "word": "Cours courts ou cours longs — lesquels aident à mieux apprendre ?",
+        "word": "Cours courts ou cours longs: lesquels aident à mieux apprendre ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2635,7 +2635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cours courts ou cours longs — lesquels aident à mieux apprendre ?",
+                "text": "Cours courts ou cours longs: lesquels aident à mieux apprendre ?",
                 "examples": []
             }
         ],
@@ -2652,7 +2652,7 @@
     },
     {
         "id": "fr_elementary_social_089",
-        "word": "Projets de groupe ou travaux individuels — que préférez-vous ?",
+        "word": "Projets de groupe ou travaux individuels: que préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2660,7 +2660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Projets de groupe ou travaux individuels — que préférez-vous ?",
+                "text": "Projets de groupe ou travaux individuels: que préférez-vous ?",
                 "examples": []
             }
         ],
@@ -2677,7 +2677,7 @@
     },
     {
         "id": "fr_elementary_social_090",
-        "word": "Uniforme scolaire ou vêtements décontractés à l'école — qu'est-ce qui est mieux ?",
+        "word": "Uniforme scolaire ou vêtements décontractés à l'école: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2685,7 +2685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Uniforme scolaire ou vêtements décontractés à l'école — qu'est-ce qui est mieux ?",
+                "text": "Uniforme scolaire ou vêtements décontractés à l'école: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -2702,7 +2702,7 @@
     },
     {
         "id": "fr_elementary_social_091",
-        "word": "Repas faits maison ou restauration rapide — qu'est-ce qui est mieux ?",
+        "word": "Repas faits maison ou restauration rapide: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2710,7 +2710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Repas faits maison ou restauration rapide — qu'est-ce qui est mieux ?",
+                "text": "Repas faits maison ou restauration rapide: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -2727,7 +2727,7 @@
     },
     {
         "id": "fr_elementary_social_092",
-        "word": "Trois gros repas ou plusieurs petites collations — qu'est-ce qui est plus sain ?",
+        "word": "Trois gros repas ou plusieurs petites collations: qu'est-ce qui est plus sain ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2735,7 +2735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Trois gros repas ou plusieurs petites collations — qu'est-ce qui est plus sain ?",
+                "text": "Trois gros repas ou plusieurs petites collations: qu'est-ce qui est plus sain ?",
                 "examples": []
             }
         ],
@@ -2752,7 +2752,7 @@
     },
     {
         "id": "fr_elementary_social_093",
-        "word": "Nourriture végétarienne ou viande — quel régime est le meilleur ?",
+        "word": "Nourriture végétarienne ou viande: quel régime est le meilleur ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2760,7 +2760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Nourriture végétarienne ou viande — quel régime est le meilleur ?",
+                "text": "Nourriture végétarienne ou viande: quel régime est le meilleur ?",
                 "examples": []
             }
         ],
@@ -2777,7 +2777,7 @@
     },
     {
         "id": "fr_elementary_social_094",
-        "word": "Boire du thé ou boire du café — qu'est-ce qui est mieux ?",
+        "word": "Boire du thé ou boire du café: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2785,7 +2785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Boire du thé ou boire du café — qu'est-ce qui est mieux ?",
+                "text": "Boire du thé ou boire du café: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -2802,7 +2802,7 @@
     },
     {
         "id": "fr_elementary_social_095",
-        "word": "Manger seul ou manger avec d'autres — que préférez-vous ?",
+        "word": "Manger seul ou manger avec d'autres: que préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2810,7 +2810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Manger seul ou manger avec d'autres — que préférez-vous ?",
+                "text": "Manger seul ou manger avec d'autres: que préférez-vous ?",
                 "examples": []
             }
         ],
@@ -2827,7 +2827,7 @@
     },
     {
         "id": "fr_elementary_social_096",
-        "word": "Pratiquer un sport d'équipe ou un sport individuel — qu'est-ce qui est mieux ?",
+        "word": "Pratiquer un sport d'équipe ou un sport individuel: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2835,7 +2835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Pratiquer un sport d'équipe ou un sport individuel — qu'est-ce qui est mieux ?",
+                "text": "Pratiquer un sport d'équipe ou un sport individuel: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -2852,7 +2852,7 @@
     },
     {
         "id": "fr_elementary_social_097",
-        "word": "Passer son temps libre à l'intérieur ou à l'extérieur — qu'est-ce qui est mieux ?",
+        "word": "Passer son temps libre à l'intérieur ou à l'extérieur: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2860,7 +2860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Passer son temps libre à l'intérieur ou à l'extérieur — qu'est-ce qui est mieux ?",
+                "text": "Passer son temps libre à l'intérieur ou à l'extérieur: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -2877,7 +2877,7 @@
     },
     {
         "id": "fr_elementary_social_098",
-        "word": "Cinéma ou théâtre — quelle est la meilleure sortie ?",
+        "word": "Cinéma ou théâtre: quelle est la meilleure sortie ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2885,7 +2885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cinéma ou théâtre — quelle est la meilleure sortie ?",
+                "text": "Cinéma ou théâtre: quelle est la meilleure sortie ?",
                 "examples": []
             }
         ],
@@ -2902,7 +2902,7 @@
     },
     {
         "id": "fr_elementary_social_099",
-        "word": "Écouter de la musique ou jouer d'un instrument — qu'est-ce qui est plus agréable ?",
+        "word": "Écouter de la musique ou jouer d'un instrument: qu'est-ce qui est plus agréable ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2910,7 +2910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Écouter de la musique ou jouer d'un instrument — qu'est-ce qui est plus agréable ?",
+                "text": "Écouter de la musique ou jouer d'un instrument: qu'est-ce qui est plus agréable ?",
                 "examples": []
             }
         ],
@@ -2927,7 +2927,7 @@
     },
     {
         "id": "fr_elementary_social_100",
-        "word": "Jeux vidéo ou jeux de société — lesquels sont les plus amusants ?",
+        "word": "Jeux vidéo ou jeux de société: lesquels sont les plus amusants ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2935,7 +2935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Jeux vidéo ou jeux de société — lesquels sont les plus amusants ?",
+                "text": "Jeux vidéo ou jeux de société: lesquels sont les plus amusants ?",
                 "examples": []
             }
         ],
@@ -2952,7 +2952,7 @@
     },
     {
         "id": "fr_elementary_social_101",
-        "word": "Faire du shopping ou rester à la maison — quelle est la meilleure façon de passer le week-end ?",
+        "word": "Faire du shopping ou rester à la maison: quelle est la meilleure façon de passer le week-end ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -2960,7 +2960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Faire du shopping ou rester à la maison — quelle est la meilleure façon de passer le week-end ?",
+                "text": "Faire du shopping ou rester à la maison: quelle est la meilleure façon de passer le week-end ?",
                 "examples": []
             }
         ],
@@ -2977,7 +2977,7 @@
     },
     {
         "id": "fr_elementary_technology_003",
-        "word": "Téléphone portable ou ordinateur — lequel est le plus utile dans la vie quotidienne ?",
+        "word": "Téléphone portable ou ordinateur: lequel est le plus utile dans la vie quotidienne ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "technology",
@@ -2985,7 +2985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Téléphone portable ou ordinateur — lequel est le plus utile dans la vie quotidienne ?",
+                "text": "Téléphone portable ou ordinateur: lequel est le plus utile dans la vie quotidienne ?",
                 "examples": []
             }
         ],
@@ -3002,7 +3002,7 @@
     },
     {
         "id": "fr_elementary_technology_004",
-        "word": "Envoyer un message ou passer un appel téléphonique — qu'est-ce qui est mieux ?",
+        "word": "Envoyer un message ou passer un appel téléphonique: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "technology",
@@ -3010,7 +3010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Envoyer un message ou passer un appel téléphonique — qu'est-ce qui est mieux ?",
+                "text": "Envoyer un message ou passer un appel téléphonique: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3027,7 +3027,7 @@
     },
     {
         "id": "fr_elementary_social_102",
-        "word": "Livre numérique ou livre papier — lequel préférez-vous lire ?",
+        "word": "Livre numérique ou livre papier: lequel préférez-vous lire ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3035,7 +3035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Livre numérique ou livre papier — lequel préférez-vous lire ?",
+                "text": "Livre numérique ou livre papier: lequel préférez-vous lire ?",
                 "examples": []
             }
         ],
@@ -3052,7 +3052,7 @@
     },
     {
         "id": "fr_elementary_technology_005",
-        "word": "Prendre des photos avec son téléphone ou avec un appareil photo — lequel donne de meilleurs résultats ?",
+        "word": "Prendre des photos avec son téléphone ou avec un appareil photo: lequel donne de meilleurs résultats ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "technology",
@@ -3060,7 +3060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Prendre des photos avec son téléphone ou avec un appareil photo — lequel donne de meilleurs résultats ?",
+                "text": "Prendre des photos avec son téléphone ou avec un appareil photo: lequel donne de meilleurs résultats ?",
                 "examples": []
             }
         ],
@@ -3077,7 +3077,7 @@
     },
     {
         "id": "fr_elementary_social_103",
-        "word": "Vacances à la plage ou vacances à la montagne — qu'est-ce qui est mieux ?",
+        "word": "Vacances à la plage ou vacances à la montagne: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3085,7 +3085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vacances à la plage ou vacances à la montagne — qu'est-ce qui est mieux ?",
+                "text": "Vacances à la plage ou vacances à la montagne: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3102,7 +3102,7 @@
     },
     {
         "id": "fr_elementary_social_104",
-        "word": "Voyager en train ou voyager en avion — qu'est-ce qui est mieux ?",
+        "word": "Voyager en train ou voyager en avion: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3110,7 +3110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Voyager en train ou voyager en avion — qu'est-ce qui est mieux ?",
+                "text": "Voyager en train ou voyager en avion: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3127,7 +3127,7 @@
     },
     {
         "id": "fr_elementary_social_105",
-        "word": "Visiter une ville célèbre ou visiter un petit village — qu'est-ce qui est plus intéressant ?",
+        "word": "Visiter une ville célèbre ou visiter un petit village: qu'est-ce qui est plus intéressant ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3135,7 +3135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Visiter une ville célèbre ou visiter un petit village — qu'est-ce qui est plus intéressant ?",
+                "text": "Visiter une ville célèbre ou visiter un petit village: qu'est-ce qui est plus intéressant ?",
                 "examples": []
             }
         ],
@@ -3152,7 +3152,7 @@
     },
     {
         "id": "fr_elementary_social_106",
-        "word": "Séjourner à l'hôtel ou chez l'habitant — que préférez-vous ?",
+        "word": "Séjourner à l'hôtel ou chez l'habitant: que préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3160,7 +3160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Séjourner à l'hôtel ou chez l'habitant — que préférez-vous ?",
+                "text": "Séjourner à l'hôtel ou chez l'habitant: que préférez-vous ?",
                 "examples": []
             }
         ],
@@ -3177,7 +3177,7 @@
     },
     {
         "id": "fr_elementary_social_107",
-        "word": "Voyager à l'étranger ou explorer son propre pays — qu'est-ce qui en vaut le plus la peine ?",
+        "word": "Voyager à l'étranger ou explorer son propre pays: qu'est-ce qui en vaut le plus la peine ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3185,7 +3185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Voyager à l'étranger ou explorer son propre pays — qu'est-ce qui en vaut le plus la peine ?",
+                "text": "Voyager à l'étranger ou explorer son propre pays: qu'est-ce qui en vaut le plus la peine ?",
                 "examples": []
             }
         ],
@@ -3202,7 +3202,7 @@
     },
     {
         "id": "fr_elementary_people_014",
-        "word": "Avoir beaucoup d'amis ou avoir quelques amis proches — qu'est-ce qui est mieux ?",
+        "word": "Avoir beaucoup d'amis ou avoir quelques amis proches: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -3210,7 +3210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avoir beaucoup d'amis ou avoir quelques amis proches — qu'est-ce qui est mieux ?",
+                "text": "Avoir beaucoup d'amis ou avoir quelques amis proches: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3227,7 +3227,7 @@
     },
     {
         "id": "fr_elementary_people_015",
-        "word": "Rencontrer des amis en personne ou discuter en ligne — qu'est-ce qui est plus satisfaisant ?",
+        "word": "Rencontrer des amis en personne ou discuter en ligne: qu'est-ce qui est plus satisfaisant ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -3235,7 +3235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Rencontrer des amis en personne ou discuter en ligne — qu'est-ce qui est plus satisfaisant ?",
+                "text": "Rencontrer des amis en personne ou discuter en ligne: qu'est-ce qui est plus satisfaisant ?",
                 "examples": []
             }
         ],
@@ -3252,7 +3252,7 @@
     },
     {
         "id": "fr_elementary_people_016",
-        "word": "Vivre chez ses parents ou vivre dans un appartement étudiant — qu'est-ce qui est mieux pour les jeunes ?",
+        "word": "Vivre chez ses parents ou vivre dans un appartement étudiant: qu'est-ce qui est mieux pour les jeunes ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -3260,7 +3260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre chez ses parents ou vivre dans un appartement étudiant — qu'est-ce qui est mieux pour les jeunes ?",
+                "text": "Vivre chez ses parents ou vivre dans un appartement étudiant: qu'est-ce qui est mieux pour les jeunes ?",
                 "examples": []
             }
         ],
@@ -3277,7 +3277,7 @@
     },
     {
         "id": "fr_elementary_people_017",
-        "word": "Fêter son anniversaire à la maison ou sortir — qu'est-ce qui est le plus sympa ?",
+        "word": "Fêter son anniversaire à la maison ou sortir: qu'est-ce qui est le plus sympa ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -3285,7 +3285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fêter son anniversaire à la maison ou sortir — qu'est-ce qui est le plus sympa ?",
+                "text": "Fêter son anniversaire à la maison ou sortir: qu'est-ce qui est le plus sympa ?",
                 "examples": []
             }
         ],
@@ -3302,7 +3302,7 @@
     },
     {
         "id": "fr_elementary_social_108",
-        "word": "Économiser de l'argent ou dépenser de l'argent — qu'est-ce qui est plus sage ?",
+        "word": "Économiser de l'argent ou dépenser de l'argent: qu'est-ce qui est plus sage ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3310,7 +3310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Économiser de l'argent ou dépenser de l'argent — qu'est-ce qui est plus sage ?",
+                "text": "Économiser de l'argent ou dépenser de l'argent: qu'est-ce qui est plus sage ?",
                 "examples": []
             }
         ],
@@ -3327,7 +3327,7 @@
     },
     {
         "id": "fr_elementary_social_109",
-        "word": "Travailler à temps partiel pendant ses études ou se concentrer uniquement sur l'école — qu'est-ce qui est mieux ?",
+        "word": "Travailler à temps partiel pendant ses études ou se concentrer uniquement sur l'école: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3335,7 +3335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travailler à temps partiel pendant ses études ou se concentrer uniquement sur l'école — qu'est-ce qui est mieux ?",
+                "text": "Travailler à temps partiel pendant ses études ou se concentrer uniquement sur l'école: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3352,7 +3352,7 @@
     },
     {
         "id": "fr_elementary_social_110",
-        "word": "Gagner beaucoup d'argent ou avoir du temps libre — qu'est-ce qui compte le plus ?",
+        "word": "Gagner beaucoup d'argent ou avoir du temps libre: qu'est-ce qui compte le plus ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3360,7 +3360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Gagner beaucoup d'argent ou avoir du temps libre — qu'est-ce qui compte le plus ?",
+                "text": "Gagner beaucoup d'argent ou avoir du temps libre: qu'est-ce qui compte le plus ?",
                 "examples": []
             }
         ],
@@ -3377,7 +3377,7 @@
     },
     {
         "id": "fr_elementary_people_018",
-        "word": "Vivre avec ses grands-parents vs ne pas vivre avec eux — qu'est-ce qui est le plus agréable ?",
+        "word": "Vivre avec ses grands-parents vs ne pas vivre avec eux: qu'est-ce qui est le plus agréable ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -3385,7 +3385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre avec ses grands-parents vs ne pas vivre avec eux — qu'est-ce qui est le plus agréable ?",
+                "text": "Vivre avec ses grands-parents vs ne pas vivre avec eux: qu'est-ce qui est le plus agréable ?",
                 "examples": []
             }
         ],
@@ -3402,7 +3402,7 @@
     },
     {
         "id": "fr_elementary_social_111",
-        "word": "La cuisine de maman vs la cuisine de papa — laquelle est la meilleure ?",
+        "word": "La cuisine de maman vs la cuisine de papa: laquelle est la meilleure ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3410,7 +3410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La cuisine de maman vs la cuisine de papa — laquelle est la meilleure ?",
+                "text": "La cuisine de maman vs la cuisine de papa: laquelle est la meilleure ?",
                 "examples": []
             }
         ],
@@ -3427,7 +3427,7 @@
     },
     {
         "id": "fr_elementary_social_112",
-        "word": "Maths vs art — quelle matière est la plus amusante ?",
+        "word": "Maths vs art: quelle matière est la plus amusante ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3435,7 +3435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Maths vs art — quelle matière est la plus amusante ?",
+                "text": "Maths vs art: quelle matière est la plus amusante ?",
                 "examples": []
             }
         ],
@@ -3452,7 +3452,7 @@
     },
     {
         "id": "fr_elementary_social_113",
-        "word": "Écrire sur papier vs taper sur une tablette — qu'est-ce qui est mieux ?",
+        "word": "Écrire sur papier vs taper sur une tablette: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3460,7 +3460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Écrire sur papier vs taper sur une tablette — qu'est-ce qui est mieux ?",
+                "text": "Écrire sur papier vs taper sur une tablette: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3477,7 +3477,7 @@
     },
     {
         "id": "fr_elementary_social_114",
-        "word": "Pizza vs pâtes — qu'est-ce qui est le plus bon ?",
+        "word": "Pizza vs pâtes: qu'est-ce qui est le plus bon ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3485,7 +3485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Pizza vs pâtes — qu'est-ce qui est le plus bon ?",
+                "text": "Pizza vs pâtes: qu'est-ce qui est le plus bon ?",
                 "examples": []
             }
         ],
@@ -3502,7 +3502,7 @@
     },
     {
         "id": "fr_elementary_social_115",
-        "word": "Glace vs gâteau — quel est le meilleur dessert ?",
+        "word": "Glace vs gâteau: quel est le meilleur dessert ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3510,7 +3510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Glace vs gâteau — quel est le meilleur dessert ?",
+                "text": "Glace vs gâteau: quel est le meilleur dessert ?",
                 "examples": []
             }
         ],
@@ -3527,7 +3527,7 @@
     },
     {
         "id": "fr_elementary_environment_004",
-        "word": "Jours courts vs jours longs — qu'est-ce qui est mieux ?",
+        "word": "Jours courts vs jours longs: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "environment",
@@ -3535,7 +3535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Jours courts vs jours longs — qu'est-ce qui est mieux ?",
+                "text": "Jours courts vs jours longs: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3552,7 +3552,7 @@
     },
     {
         "id": "fr_elementary_social_116",
-        "word": "Journée au parc vs journée à la plage — qu'est-ce qui est mieux ?",
+        "word": "Journée au parc vs journée à la plage: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3560,7 +3560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Journée au parc vs journée à la plage — qu'est-ce qui est mieux ?",
+                "text": "Journée au parc vs journée à la plage: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3577,7 +3577,7 @@
     },
     {
         "id": "fr_elementary_social_117",
-        "word": "Avion vs train — qu'est-ce qui est le plus amusant ?",
+        "word": "Avion vs train: qu'est-ce qui est le plus amusant ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3585,7 +3585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avion vs train — qu'est-ce qui est le plus amusant ?",
+                "text": "Avion vs train: qu'est-ce qui est le plus amusant ?",
                 "examples": []
             }
         ],
@@ -3602,7 +3602,7 @@
     },
     {
         "id": "fr_elementary_social_118",
-        "word": "Douche le matin vs douche le soir — qu'est-ce qui est mieux ?",
+        "word": "Douche le matin vs douche le soir: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3610,7 +3610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Douche le matin vs douche le soir — qu'est-ce qui est mieux ?",
+                "text": "Douche le matin vs douche le soir: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3627,7 +3627,7 @@
     },
     {
         "id": "fr_elementary_social_119",
-        "word": "Chats qui renversent des choses vs chiens qui mâchent des chaussures — quel animal est le plus agaçant ?",
+        "word": "Chats qui renversent des choses vs chiens qui mâchent des chaussures: quel animal est le plus agaçant ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3635,7 +3635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Chats qui renversent des choses vs chiens qui mâchent des chaussures — quel animal est le plus agaçant ?",
+                "text": "Chats qui renversent des choses vs chiens qui mâchent des chaussures: quel animal est le plus agaçant ?",
                 "examples": []
             }
         ],
@@ -3652,7 +3652,7 @@
     },
     {
         "id": "fr_elementary_social_120",
-        "word": "Manger de la pizza avec une fourchette vs avec les mains — qu'est-ce qui est correct ?",
+        "word": "Manger de la pizza avec une fourchette vs avec les mains: qu'est-ce qui est correct ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3660,7 +3660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Manger de la pizza avec une fourchette vs avec les mains — qu'est-ce qui est correct ?",
+                "text": "Manger de la pizza avec une fourchette vs avec les mains: qu'est-ce qui est correct ?",
                 "examples": []
             }
         ],
@@ -3677,7 +3677,7 @@
     },
     {
         "id": "fr_elementary_social_121",
-        "word": "Dormir avec des chaussettes vs sans chaussettes — qu'est-ce qui est mieux ?",
+        "word": "Dormir avec des chaussettes vs sans chaussettes: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3685,7 +3685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dormir avec des chaussettes vs sans chaussettes — qu'est-ce qui est mieux ?",
+                "text": "Dormir avec des chaussettes vs sans chaussettes: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3702,7 +3702,7 @@
     },
     {
         "id": "fr_elementary_social_122",
-        "word": "Château de sable vs bonhomme de neige — qu'est-ce qui est le plus amusant à construire ?",
+        "word": "Château de sable vs bonhomme de neige: qu'est-ce qui est le plus amusant à construire ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3710,7 +3710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Château de sable vs bonhomme de neige — qu'est-ce qui est le plus amusant à construire ?",
+                "text": "Château de sable vs bonhomme de neige: qu'est-ce qui est le plus amusant à construire ?",
                 "examples": []
             }
         ],
@@ -3727,7 +3727,7 @@
     },
     {
         "id": "fr_elementary_social_123",
-        "word": "Beaucoup d'examens vs très peu d'examens — qu'est-ce qui est le plus juste ?",
+        "word": "Beaucoup d'examens vs très peu d'examens: qu'est-ce qui est le plus juste ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3735,7 +3735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Beaucoup d'examens vs très peu d'examens — qu'est-ce qui est le plus juste ?",
+                "text": "Beaucoup d'examens vs très peu d'examens: qu'est-ce qui est le plus juste ?",
                 "examples": []
             }
         ],
@@ -3752,7 +3752,7 @@
     },
     {
         "id": "fr_elementary_social_124",
-        "word": "Commencer l'école à 7 ans vs commencer à 5 ans — qu'est-ce qui est mieux pour les enfants ?",
+        "word": "Commencer l'école à 7 ans vs commencer à 5 ans: qu'est-ce qui est mieux pour les enfants ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3760,7 +3760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Commencer l'école à 7 ans vs commencer à 5 ans — qu'est-ce qui est mieux pour les enfants ?",
+                "text": "Commencer l'école à 7 ans vs commencer à 5 ans: qu'est-ce qui est mieux pour les enfants ?",
                 "examples": []
             }
         ],
@@ -3777,7 +3777,7 @@
     },
     {
         "id": "fr_elementary_social_125",
-        "word": "Manger lentement vs manger rapidement — qu'est-ce qui est mieux pour vous ?",
+        "word": "Manger lentement vs manger rapidement: qu'est-ce qui est mieux pour vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3785,7 +3785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Manger lentement vs manger rapidement — qu'est-ce qui est mieux pour vous ?",
+                "text": "Manger lentement vs manger rapidement: qu'est-ce qui est mieux pour vous ?",
                 "examples": []
             }
         ],
@@ -3802,7 +3802,7 @@
     },
     {
         "id": "fr_elementary_social_126",
-        "word": "Cuisiner à la maison vs commander en ligne — qu'est-ce qui est mieux ?",
+        "word": "Cuisiner à la maison vs commander en ligne: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3810,7 +3810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cuisiner à la maison vs commander en ligne — qu'est-ce qui est mieux ?",
+                "text": "Cuisiner à la maison vs commander en ligne: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3827,7 +3827,7 @@
     },
     {
         "id": "fr_elementary_social_127",
-        "word": "Cuisiner vs faire de la pâtisserie — qu'est-ce qui est le plus amusant comme passe-temps ?",
+        "word": "Cuisiner vs faire de la pâtisserie: qu'est-ce qui est le plus amusant comme passe-temps ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3835,7 +3835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cuisiner vs faire de la pâtisserie — qu'est-ce qui est le plus amusant comme passe-temps ?",
+                "text": "Cuisiner vs faire de la pâtisserie: qu'est-ce qui est le plus amusant comme passe-temps ?",
                 "examples": []
             }
         ],
@@ -3852,7 +3852,7 @@
     },
     {
         "id": "fr_elementary_social_128",
-        "word": "Aller à la salle de sport vs faire de l'exercice dehors — qu'est-ce qui est mieux ?",
+        "word": "Aller à la salle de sport vs faire de l'exercice dehors: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3860,7 +3860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Aller à la salle de sport vs faire de l'exercice dehors — qu'est-ce qui est mieux ?",
+                "text": "Aller à la salle de sport vs faire de l'exercice dehors: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3877,7 +3877,7 @@
     },
     {
         "id": "fr_elementary_technology_006",
-        "word": "Photos sur téléphone vs photos imprimées — qu'est-ce qui est mieux ?",
+        "word": "Photos sur téléphone vs photos imprimées: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "technology",
@@ -3885,7 +3885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Photos sur téléphone vs photos imprimées — qu'est-ce qui est mieux ?",
+                "text": "Photos sur téléphone vs photos imprimées: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -3902,7 +3902,7 @@
     },
     {
         "id": "fr_elementary_technology_007",
-        "word": "Smart TV vs écran d'ordinateur — qu'est-ce qui est mieux pour regarder des films ?",
+        "word": "Smart TV vs écran d'ordinateur: qu'est-ce qui est mieux pour regarder des films ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "technology",
@@ -3910,7 +3910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Smart TV vs écran d'ordinateur — qu'est-ce qui est mieux pour regarder des films ?",
+                "text": "Smart TV vs écran d'ordinateur: qu'est-ce qui est mieux pour regarder des films ?",
                 "examples": []
             }
         ],
@@ -3927,7 +3927,7 @@
     },
     {
         "id": "fr_elementary_social_129",
-        "word": "Pays chaud vs pays froid — quelle est la meilleure destination de vacances ?",
+        "word": "Pays chaud vs pays froid: quelle est la meilleure destination de vacances ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3935,7 +3935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Pays chaud vs pays froid — quelle est la meilleure destination de vacances ?",
+                "text": "Pays chaud vs pays froid: quelle est la meilleure destination de vacances ?",
                 "examples": []
             }
         ],
@@ -3952,7 +3952,7 @@
     },
     {
         "id": "fr_elementary_people_019",
-        "word": "Offrir des cadeaux vs recevoir des cadeaux — que préférez-vous ?",
+        "word": "Offrir des cadeaux vs recevoir des cadeaux: que préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
@@ -3960,7 +3960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Offrir des cadeaux vs recevoir des cadeaux — que préférez-vous ?",
+                "text": "Offrir des cadeaux vs recevoir des cadeaux: que préférez-vous ?",
                 "examples": []
             }
         ],
@@ -3977,7 +3977,7 @@
     },
     {
         "id": "fr_elementary_social_130",
-        "word": "Travailler à l'intérieur vs travailler à l'extérieur — qu'est-ce qui est mieux ?",
+        "word": "Travailler à l'intérieur vs travailler à l'extérieur: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -3985,7 +3985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travailler à l'intérieur vs travailler à l'extérieur — qu'est-ce qui est mieux ?",
+                "text": "Travailler à l'intérieur vs travailler à l'extérieur: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -4002,7 +4002,7 @@
     },
     {
         "id": "fr_elementary_social_131",
-        "word": "Ananas sur la pizza vs pas d'ananas — qu'est-ce qui est correct ?",
+        "word": "Ananas sur la pizza vs pas d'ananas: qu'est-ce qui est correct ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -4010,7 +4010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ananas sur la pizza vs pas d'ananas — qu'est-ce qui est correct ?",
+                "text": "Ananas sur la pizza vs pas d'ananas: qu'est-ce qui est correct ?",
                 "examples": []
             }
         ],
@@ -4027,7 +4027,7 @@
     },
     {
         "id": "fr_elementary_social_132",
-        "word": "Mettre le lait en premier vs mettre le thé — qu'est-ce qui est mieux ?",
+        "word": "Mettre le lait en premier vs mettre le thé: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -4035,7 +4035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mettre le lait en premier vs mettre le thé — qu'est-ce qui est mieux ?",
+                "text": "Mettre le lait en premier vs mettre le thé: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -4052,7 +4052,7 @@
     },
     {
         "id": "fr_elementary_social_133",
-        "word": "Lundi vs Vendredi — quel jour est réellement le pire ?",
+        "word": "Lundi vs Vendredi: quel jour est réellement le pire ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -4060,7 +4060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lundi vs Vendredi — quel jour est réellement le pire ?",
+                "text": "Lundi vs Vendredi: quel jour est réellement le pire ?",
                 "examples": []
             }
         ],
@@ -4077,7 +4077,7 @@
     },
     {
         "id": "fr_elementary_social_134",
-        "word": "Se réveiller cinq minutes avant l'alarme vs dormir jusqu'à l'alarme — qu'est-ce qui est le plus agaçant ?",
+        "word": "Se réveiller cinq minutes avant l'alarme vs dormir jusqu'à l'alarme: qu'est-ce qui est le plus agaçant ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -4085,7 +4085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Se réveiller cinq minutes avant l'alarme vs dormir jusqu'à l'alarme — qu'est-ce qui est le plus agaçant ?",
+                "text": "Se réveiller cinq minutes avant l'alarme vs dormir jusqu'à l'alarme: qu'est-ce qui est le plus agaçant ?",
                 "examples": []
             }
         ],
@@ -4102,7 +4102,7 @@
     },
     {
         "id": "fr_elementary_social_135",
-        "word": "Chats vs chiens — quel animal est secrètement le patron de la maison ?",
+        "word": "Chats vs chiens: quel animal est secrètement le patron de la maison ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "social",
@@ -4110,7 +4110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Chats vs chiens — quel animal est secrètement le patron de la maison ?",
+                "text": "Chats vs chiens: quel animal est secrètement le patron de la maison ?",
                 "examples": []
             }
         ],
@@ -4127,7 +4127,7 @@
     },
     {
         "id": "fr_elementary_environment_005",
-        "word": "Avoir trop chaud vs avoir trop froid — qu'est-ce qui est le pire ?",
+        "word": "Avoir trop chaud vs avoir trop froid: qu'est-ce qui est le pire ?",
         "lang": "fr",
         "level": "elementary",
         "theme": "environment",
@@ -4135,7 +4135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avoir trop chaud vs avoir trop froid — qu'est-ce qui est le pire ?",
+                "text": "Avoir trop chaud vs avoir trop froid: qu'est-ce qui est le pire ?",
                 "examples": []
             }
         ],

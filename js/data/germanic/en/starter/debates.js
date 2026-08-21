@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "en_starter_food_drink_001",
-        "topic": "Coffee vs tea — which is a better morning drink?",
+        "topic": "Coffee vs tea: which is a better morning drink?",
         "sideA": "Coffee",
         "sideB": "Tea",
         "ideasA": [
@@ -17,18 +17,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "drinks",
-        "word": "Coffee vs tea — which is a better morning drink?",
+        "word": "Coffee vs tea: which is a better morning drink?",
         "form": "other",
         "definitions": [
             {
-                "text": "Coffee vs tea — which is a better morning drink?",
+                "text": "Coffee vs tea: which is a better morning drink?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_002",
-        "topic": "Restaurant vs home cooking — which is better?",
+        "topic": "Restaurant vs home cooking: which is better?",
         "sideA": "Restaurant",
         "sideB": "Home cooking",
         "ideasA": [
@@ -43,18 +43,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "cooking",
-        "word": "Restaurant vs home cooking — which is better?",
+        "word": "Restaurant vs home cooking: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Restaurant vs home cooking — which is better?",
+                "text": "Restaurant vs home cooking: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_animals_001",
-        "topic": "Cats that knock things off tables vs dogs that chew shoes — which pet is more annoying?",
+        "topic": "Cats that knock things off tables vs dogs that chew shoes: which pet is more annoying?",
         "sideA": "Cats",
         "sideB": "Dogs",
         "ideasA": [
@@ -69,18 +69,18 @@
         "level": "starter",
         "theme": "animals",
         "sub_theme": null,
-        "word": "Cats that knock things off tables vs dogs that chew shoes — which pet is more annoying?",
+        "word": "Cats that knock things off tables vs dogs that chew shoes: which pet is more annoying?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cats that knock things off tables vs dogs that chew shoes — which pet is more annoying?",
+                "text": "Cats that knock things off tables vs dogs that chew shoes: which pet is more annoying?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_001",
-        "topic": "Summer vs winter — which season is better?",
+        "topic": "Summer vs winter: which season is better?",
         "sideA": "Summer",
         "sideB": "Winter",
         "ideasA": [
@@ -95,18 +95,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Summer vs winter — which season is better?",
+        "word": "Summer vs winter: which season is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Summer vs winter — which season is better?",
+                "text": "Summer vs winter: which season is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_001",
-        "topic": "Book vs film — which is better?",
+        "topic": "Book vs film: which is better?",
         "sideA": "Book",
         "sideB": "Film",
         "ideasA": [
@@ -121,18 +121,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Book vs film — which is better?",
+        "word": "Book vs film: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Book vs film — which is better?",
+                "text": "Book vs film: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_001",
-        "topic": "Bicycle vs car — which is better for the city?",
+        "topic": "Bicycle vs car: which is better for the city?",
         "sideA": "Bicycle",
         "sideB": "Car",
         "ideasA": [
@@ -147,18 +147,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Bicycle vs car — which is better for the city?",
+        "word": "Bicycle vs car: which is better for the city?",
         "form": "other",
         "definitions": [
             {
-                "text": "Bicycle vs car — which is better for the city?",
+                "text": "Bicycle vs car: which is better for the city?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_003",
-        "topic": "Pizza vs burger — which is better?",
+        "topic": "Pizza vs burger: which is better?",
         "sideA": "Pizza",
         "sideB": "Burger",
         "ideasA": [
@@ -173,18 +173,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Pizza vs burger — which is better?",
+        "word": "Pizza vs burger: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Pizza vs burger — which is better?",
+                "text": "Pizza vs burger: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_001",
-        "topic": "City vs countryside — which is a better place to live?",
+        "topic": "City vs countryside: which is a better place to live?",
         "sideA": "City",
         "sideB": "Countryside",
         "ideasA": [
@@ -199,18 +199,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "City vs countryside — which is a better place to live?",
+        "word": "City vs countryside: which is a better place to live?",
         "form": "other",
         "definitions": [
             {
-                "text": "City vs countryside — which is a better place to live?",
+                "text": "City vs countryside: which is a better place to live?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_002",
-        "topic": "Morning vs evening — which part of the day is nicer?",
+        "topic": "Morning vs evening: which part of the day is nicer?",
         "sideA": "Morning",
         "sideB": "Evening",
         "ideasA": [
@@ -225,18 +225,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Morning vs evening — which part of the day is nicer?",
+        "word": "Morning vs evening: which part of the day is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Morning vs evening — which part of the day is nicer?",
+                "text": "Morning vs evening: which part of the day is nicer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_002",
-        "topic": "Train vs plane — which is better for travel?",
+        "topic": "Train vs plane: which is better for travel?",
         "sideA": "Train",
         "sideB": "Plane",
         "ideasA": [
@@ -251,18 +251,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Train vs plane — which is better for travel?",
+        "word": "Train vs plane: which is better for travel?",
         "form": "other",
         "definitions": [
             {
-                "text": "Train vs plane — which is better for travel?",
+                "text": "Train vs plane: which is better for travel?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_003",
-        "topic": "Sea vs mountains — which is better for a holiday?",
+        "topic": "Sea vs mountains: which is better for a holiday?",
         "sideA": "Sea",
         "sideB": "Mountains",
         "ideasA": [
@@ -277,18 +277,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Sea vs mountains — which is better for a holiday?",
+        "word": "Sea vs mountains: which is better for a holiday?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sea vs mountains — which is better for a holiday?",
+                "text": "Sea vs mountains: which is better for a holiday?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_001",
-        "topic": "Solo vs partner work — which is better?",
+        "topic": "Solo vs partner work: which is better?",
         "sideA": "Solo",
         "sideB": "Partner",
         "ideasA": [
@@ -303,18 +303,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Solo vs partner work — which is better?",
+        "word": "Solo vs partner work: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Solo vs partner work — which is better?",
+                "text": "Solo vs partner work: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_technology_001",
-        "topic": "Phone call vs text message — which is better?",
+        "topic": "Phone call vs text message: which is better?",
         "sideA": "Call",
         "sideB": "Text",
         "ideasA": [
@@ -329,18 +329,18 @@
         "level": "starter",
         "theme": "technology",
         "sub_theme": null,
-        "word": "Phone call vs text message — which is better?",
+        "word": "Phone call vs text message: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Phone call vs text message — which is better?",
+                "text": "Phone call vs text message: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_clothes_001",
-        "topic": "Comfortable clothes vs smart clothes — which is better?",
+        "topic": "Comfortable clothes vs smart clothes: which is better?",
         "sideA": "Comfortable",
         "sideB": "Smart",
         "ideasA": [
@@ -355,18 +355,18 @@
         "level": "starter",
         "theme": "clothes",
         "sub_theme": null,
-        "word": "Comfortable clothes vs smart clothes — which is better?",
+        "word": "Comfortable clothes vs smart clothes: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Comfortable clothes vs smart clothes — which is better?",
+                "text": "Comfortable clothes vs smart clothes: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_004",
-        "topic": "Sugar vs salt — which is more important?",
+        "topic": "Sugar vs salt: which is more important?",
         "sideA": "Sugar",
         "sideB": "Salt",
         "ideasA": [
@@ -381,18 +381,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Sugar vs salt — which is more important?",
+        "word": "Sugar vs salt: which is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sugar vs salt — which is more important?",
+                "text": "Sugar vs salt: which is more important?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_002",
-        "topic": "Big parties vs small dinners — which is better?",
+        "topic": "Big parties vs small dinners: which is better?",
         "sideA": "Big parties",
         "sideB": "Small dinners",
         "ideasA": [
@@ -407,18 +407,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Big parties vs small dinners — which is better?",
+        "word": "Big parties vs small dinners: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Big parties vs small dinners — which is better?",
+                "text": "Big parties vs small dinners: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_002",
-        "topic": "House vs flat — which is better to live in?",
+        "topic": "House vs flat: which is better to live in?",
         "sideA": "House",
         "sideB": "Flat",
         "ideasA": [
@@ -433,18 +433,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "House vs flat — which is better to live in?",
+        "word": "House vs flat: which is better to live in?",
         "form": "other",
         "definitions": [
             {
-                "text": "House vs flat — which is better to live in?",
+                "text": "House vs flat: which is better to live in?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_003",
-        "topic": "Money vs free time — which is more important?",
+        "topic": "Money vs free time: which is more important?",
         "sideA": "Money",
         "sideB": "Free time",
         "ideasA": [
@@ -459,18 +459,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Money vs free time — which is more important?",
+        "word": "Money vs free time: which is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "Money vs free time — which is more important?",
+                "text": "Money vs free time: which is more important?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_005",
-        "topic": "Dark chocolate vs milk chocolate — which is better?",
+        "topic": "Dark chocolate vs milk chocolate: which is better?",
         "sideA": "Dark",
         "sideB": "Milk",
         "ideasA": [
@@ -485,18 +485,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Dark chocolate vs milk chocolate — which is better?",
+        "word": "Dark chocolate vs milk chocolate: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Dark chocolate vs milk chocolate — which is better?",
+                "text": "Dark chocolate vs milk chocolate: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_004",
-        "topic": "Cinema vs Netflix at home — which is better?",
+        "topic": "Cinema vs Netflix at home: which is better?",
         "sideA": "Cinema",
         "sideB": "Netflix",
         "ideasA": [
@@ -511,18 +511,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Cinema vs Netflix at home — which is better?",
+        "word": "Cinema vs Netflix at home: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cinema vs Netflix at home — which is better?",
+                "text": "Cinema vs Netflix at home: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_004",
-        "topic": "Solo travel vs travel with friends — which is better?",
+        "topic": "Solo travel vs travel with friends: which is better?",
         "sideA": "Solo",
         "sideB": "Friends",
         "ideasA": [
@@ -537,18 +537,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Solo travel vs travel with friends — which is better?",
+        "word": "Solo travel vs travel with friends: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Solo travel vs travel with friends — which is better?",
+                "text": "Solo travel vs travel with friends: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_005",
-        "topic": "Podcasts vs music — which is better in the car?",
+        "topic": "Podcasts vs music: which is better in the car?",
         "sideA": "Podcasts",
         "sideB": "Music",
         "ideasA": [
@@ -563,18 +563,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Podcasts vs music — which is better in the car?",
+        "word": "Podcasts vs music: which is better in the car?",
         "form": "other",
         "definitions": [
             {
-                "text": "Podcasts vs music — which is better in the car?",
+                "text": "Podcasts vs music: which is better in the car?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_nature_001",
-        "topic": "Rain vs wind — which is worse?",
+        "topic": "Rain vs wind: which is worse?",
         "sideA": "Rain",
         "sideB": "Wind",
         "ideasA": [
@@ -589,18 +589,18 @@
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
-        "word": "Rain vs wind — which is worse?",
+        "word": "Rain vs wind: which is worse?",
         "form": "other",
         "definitions": [
             {
-                "text": "Rain vs wind — which is worse?",
+                "text": "Rain vs wind: which is worse?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_006",
-        "topic": "Surprise gift vs choosing your gift — which is better?",
+        "topic": "Surprise gift vs choosing your gift: which is better?",
         "sideA": "Surprise",
         "sideB": "Choosing",
         "ideasA": [
@@ -615,18 +615,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Surprise gift vs choosing your gift — which is better?",
+        "word": "Surprise gift vs choosing your gift: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Surprise gift vs choosing your gift — which is better?",
+                "text": "Surprise gift vs choosing your gift: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_technology_002",
-        "topic": "Writing on paper vs typing on a tablet — which is better?",
+        "topic": "Writing on paper vs typing on a tablet: which is better?",
         "sideA": "Paper",
         "sideB": "Tablet",
         "ideasA": [
@@ -641,18 +641,18 @@
         "level": "starter",
         "theme": "technology",
         "sub_theme": null,
-        "word": "Writing on paper vs typing on a tablet — which is better?",
+        "word": "Writing on paper vs typing on a tablet: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Writing on paper vs typing on a tablet — which is better?",
+                "text": "Writing on paper vs typing on a tablet: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_006",
-        "topic": "Sandwich vs salad — which is better for lunch?",
+        "topic": "Sandwich vs salad: which is better for lunch?",
         "sideA": "Sandwich",
         "sideB": "Salad",
         "ideasA": [
@@ -667,18 +667,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "meals",
-        "word": "Sandwich vs salad — which is better for lunch?",
+        "word": "Sandwich vs salad: which is better for lunch?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sandwich vs salad — which is better for lunch?",
+                "text": "Sandwich vs salad: which is better for lunch?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_005",
-        "topic": "Hotel vs camping — which is better for holiday?",
+        "topic": "Hotel vs camping: which is better for holiday?",
         "sideA": "Hotel",
         "sideB": "Camping",
         "ideasA": [
@@ -693,18 +693,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Hotel vs camping — which is better for holiday?",
+        "word": "Hotel vs camping: which is better for holiday?",
         "form": "other",
         "definitions": [
             {
-                "text": "Hotel vs camping — which is better for holiday?",
+                "text": "Hotel vs camping: which is better for holiday?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_002",
-        "topic": "Speaking vs listening — which is more important?",
+        "topic": "Speaking vs listening: which is more important?",
         "sideA": "Speaking",
         "sideB": "Listening",
         "ideasA": [
@@ -719,18 +719,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Speaking vs listening — which is more important?",
+        "word": "Speaking vs listening: which is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "Speaking vs listening — which is more important?",
+                "text": "Speaking vs listening: which is more important?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_003",
-        "topic": "Spring vs Autumn — which is better?",
+        "topic": "Spring vs Autumn: which is better?",
         "sideA": "Spring",
         "sideB": "Autumn",
         "ideasA": [
@@ -745,18 +745,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Spring vs Autumn — which is better?",
+        "word": "Spring vs Autumn: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Spring vs Autumn — which is better?",
+                "text": "Spring vs Autumn: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_007",
-        "topic": "Fruit vs vegetables — which is better?",
+        "topic": "Fruit vs vegetables: which is better?",
         "sideA": "Fruit",
         "sideB": "Vegetables",
         "ideasA": [
@@ -771,18 +771,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Fruit vs vegetables — which is better?",
+        "word": "Fruit vs vegetables: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Fruit vs vegetables — which is better?",
+                "text": "Fruit vs vegetables: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_007",
-        "topic": "Action movies vs comedies — which is better?",
+        "topic": "Action movies vs comedies: which is better?",
         "sideA": "Action",
         "sideB": "Comedy",
         "ideasA": [
@@ -797,18 +797,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Action movies vs comedies — which is better?",
+        "word": "Action movies vs comedies: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Action movies vs comedies — which is better?",
+                "text": "Action movies vs comedies: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_003",
-        "topic": "Washing dishes vs vacuuming — which is better?",
+        "topic": "Washing dishes vs vacuuming: which is better?",
         "sideA": "Dishes",
         "sideB": "Vacuuming",
         "ideasA": [
@@ -823,18 +823,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Washing dishes vs vacuuming — which is better?",
+        "word": "Washing dishes vs vacuuming: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Washing dishes vs vacuuming — which is better?",
+                "text": "Washing dishes vs vacuuming: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_008",
-        "topic": "Pop music vs rock music — which is better?",
+        "topic": "Pop music vs rock music: which is better?",
         "sideA": "Pop",
         "sideB": "Rock",
         "ideasA": [
@@ -849,18 +849,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Pop music vs rock music — which is better?",
+        "word": "Pop music vs rock music: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Pop music vs rock music — which is better?",
+                "text": "Pop music vs rock music: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_004",
-        "topic": "Early bird vs night owl — which is better?",
+        "topic": "Early bird vs night owl: which is better?",
         "sideA": "Early bird",
         "sideB": "Night owl",
         "ideasA": [
@@ -875,18 +875,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Early bird vs night owl — which is better?",
+        "word": "Early bird vs night owl: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Early bird vs night owl — which is better?",
+                "text": "Early bird vs night owl: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_health_medicine_001",
-        "topic": "Walking vs running — which is better?",
+        "topic": "Walking vs running: which is better?",
         "sideA": "Walking",
         "sideB": "Running",
         "ideasA": [
@@ -901,18 +901,18 @@
         "level": "starter",
         "theme": "health_medicine",
         "sub_theme": null,
-        "word": "Walking vs running — which is better?",
+        "word": "Walking vs running: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Walking vs running — which is better?",
+                "text": "Walking vs running: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_technology_003",
-        "topic": "Laptop vs desktop — which is better?",
+        "topic": "Laptop vs desktop: which is better?",
         "sideA": "Laptop",
         "sideB": "Desktop",
         "ideasA": [
@@ -927,18 +927,18 @@
         "level": "starter",
         "theme": "technology",
         "sub_theme": null,
-        "word": "Laptop vs desktop — which is better?",
+        "word": "Laptop vs desktop: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Laptop vs desktop — which is better?",
+                "text": "Laptop vs desktop: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_006",
-        "topic": "Public transport vs taxi — which is better?",
+        "topic": "Public transport vs taxi: which is better?",
         "sideA": "Bus/Train",
         "sideB": "Taxi",
         "ideasA": [
@@ -953,18 +953,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Public transport vs taxi — which is better?",
+        "word": "Public transport vs taxi: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Public transport vs taxi — which is better?",
+                "text": "Public transport vs taxi: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_008",
-        "topic": "Ice cream vs cake — which is a better dessert?",
+        "topic": "Ice cream vs cake: which is a better dessert?",
         "sideA": "Ice cream",
         "sideB": "Cake",
         "ideasA": [
@@ -979,18 +979,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Ice cream vs cake — which is a better dessert?",
+        "word": "Ice cream vs cake: which is a better dessert?",
         "form": "other",
         "definitions": [
             {
-                "text": "Ice cream vs cake — which is a better dessert?",
+                "text": "Ice cream vs cake: which is a better dessert?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_technology_004",
-        "topic": "Email vs letter — which is better?",
+        "topic": "Email vs letter: which is better?",
         "sideA": "Email",
         "sideB": "Letter",
         "ideasA": [
@@ -1005,18 +1005,18 @@
         "level": "starter",
         "theme": "technology",
         "sub_theme": null,
-        "word": "Email vs letter — which is better?",
+        "word": "Email vs letter: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Email vs letter — which is better?",
+                "text": "Email vs letter: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_nature_002",
-        "topic": "Beach vs park — which is better?",
+        "topic": "Beach vs park: which is better?",
         "sideA": "Beach",
         "sideB": "Park",
         "ideasA": [
@@ -1031,18 +1031,18 @@
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
-        "word": "Beach vs park — which is better?",
+        "word": "Beach vs park: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Beach vs park — which is better?",
+                "text": "Beach vs park: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_004",
-        "topic": "Cooking vs cleaning — which is better?",
+        "topic": "Cooking vs cleaning: which is better?",
         "sideA": "Cooking",
         "sideB": "Cleaning",
         "ideasA": [
@@ -1057,18 +1057,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Cooking vs cleaning — which is better?",
+        "word": "Cooking vs cleaning: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cooking vs cleaning — which is better?",
+                "text": "Cooking vs cleaning: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_007",
-        "topic": "Short holiday vs long holiday — which is better?",
+        "topic": "Short holiday vs long holiday: which is better?",
         "sideA": "Short",
         "sideB": "Long",
         "ideasA": [
@@ -1083,18 +1083,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Short holiday vs long holiday — which is better?",
+        "word": "Short holiday vs long holiday: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Short holiday vs long holiday — which is better?",
+                "text": "Short holiday vs long holiday: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_009",
-        "topic": "Fiction vs non-fiction — which is better?",
+        "topic": "Fiction vs non-fiction: which is better?",
         "sideA": "Fiction",
         "sideB": "Non-fiction",
         "ideasA": [
@@ -1109,18 +1109,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Fiction vs non-fiction — which is better?",
+        "word": "Fiction vs non-fiction: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Fiction vs non-fiction — which is better?",
+                "text": "Fiction vs non-fiction: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_009",
-        "topic": "Sweet vs savoury breakfast — which is better?",
+        "topic": "Sweet vs savoury breakfast: which is better?",
         "sideA": "Sweet",
         "sideB": "Savoury",
         "ideasA": [
@@ -1135,18 +1135,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "meals",
-        "word": "Sweet vs savoury breakfast — which is better?",
+        "word": "Sweet vs savoury breakfast: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sweet vs savoury breakfast — which is better?",
+                "text": "Sweet vs savoury breakfast: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_008",
-        "topic": "Mountain cabin vs city hotel — which is better?",
+        "topic": "Mountain cabin vs city hotel: which is better?",
         "sideA": "Cabin",
         "sideB": "Hotel",
         "ideasA": [
@@ -1161,18 +1161,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Mountain cabin vs city hotel — which is better?",
+        "word": "Mountain cabin vs city hotel: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Mountain cabin vs city hotel — which is better?",
+                "text": "Mountain cabin vs city hotel: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_technology_005",
-        "topic": "Group chat vs private message — which is better?",
+        "topic": "Group chat vs private message: which is better?",
         "sideA": "Group",
         "sideB": "Private",
         "ideasA": [
@@ -1187,18 +1187,18 @@
         "level": "starter",
         "theme": "technology",
         "sub_theme": null,
-        "word": "Group chat vs private message — which is better?",
+        "word": "Group chat vs private message: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Group chat vs private message — which is better?",
+                "text": "Group chat vs private message: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_003",
-        "topic": "Office vs home — which is a better place to work?",
+        "topic": "Office vs home: which is a better place to work?",
         "sideA": "Office",
         "sideB": "Home",
         "ideasA": [
@@ -1213,18 +1213,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Office vs home — which is a better place to work?",
+        "word": "Office vs home: which is a better place to work?",
         "form": "other",
         "definitions": [
             {
-                "text": "Office vs home — which is a better place to work?",
+                "text": "Office vs home: which is a better place to work?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_009",
-        "topic": "Physical map vs GPS — which is better?",
+        "topic": "Physical map vs GPS: which is better?",
         "sideA": "Physical",
         "sideB": "GPS",
         "ideasA": [
@@ -1239,18 +1239,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Physical map vs GPS — which is better?",
+        "word": "Physical map vs GPS: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Physical map vs GPS — which is better?",
+                "text": "Physical map vs GPS: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_010",
-        "topic": "Gift card vs actual gift — which is better?",
+        "topic": "Gift card vs actual gift: which is better?",
         "sideA": "Gift card",
         "sideB": "Actual gift",
         "ideasA": [
@@ -1265,18 +1265,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Gift card vs actual gift — which is better?",
+        "word": "Gift card vs actual gift: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Gift card vs actual gift — which is better?",
+                "text": "Gift card vs actual gift: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_health_medicine_002",
-        "topic": "Swimming vs cycling — which is better?",
+        "topic": "Swimming vs cycling: which is better?",
         "sideA": "Swimming",
         "sideB": "Cycling",
         "ideasA": [
@@ -1291,18 +1291,18 @@
         "level": "starter",
         "theme": "health_medicine",
         "sub_theme": null,
-        "word": "Swimming vs cycling — which is better?",
+        "word": "Swimming vs cycling: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Swimming vs cycling — which is better?",
+                "text": "Swimming vs cycling: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_004",
-        "topic": "Eating at desk vs break room — which is better?",
+        "topic": "Eating at desk vs break room: which is better?",
         "sideA": "Desk",
         "sideB": "Break room",
         "ideasA": [
@@ -1317,18 +1317,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Eating at desk vs break room — which is better?",
+        "word": "Eating at desk vs break room: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Eating at desk vs break room — which is better?",
+                "text": "Eating at desk vs break room: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_005",
-        "topic": "Morning person vs night person — which is better?",
+        "topic": "Morning person vs night person: which is better?",
         "sideA": "Morning",
         "sideB": "Night",
         "ideasA": [
@@ -1343,18 +1343,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Morning person vs night person — which is better?",
+        "word": "Morning person vs night person: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Morning person vs night person — which is better?",
+                "text": "Morning person vs night person: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_011",
-        "topic": "Paper book vs E-book — which is better?",
+        "topic": "Paper book vs E-book: which is better?",
         "sideA": "Paper",
         "sideB": "E-book",
         "ideasA": [
@@ -1369,18 +1369,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Paper book vs E-book — which is better?",
+        "word": "Paper book vs E-book: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Paper book vs E-book — which is better?",
+                "text": "Paper book vs E-book: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_clothes_002",
-        "topic": "New clothes vs vintage — which is better?",
+        "topic": "New clothes vs vintage: which is better?",
         "sideA": "New",
         "sideB": "Vintage",
         "ideasA": [
@@ -1395,18 +1395,18 @@
         "level": "starter",
         "theme": "clothes",
         "sub_theme": null,
-        "word": "New clothes vs vintage — which is better?",
+        "word": "New clothes vs vintage: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "New clothes vs vintage — which is better?",
+                "text": "New clothes vs vintage: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_010",
-        "topic": "Hot food vs cold food — which is better?",
+        "topic": "Hot food vs cold food: which is better?",
         "sideA": "Hot",
         "sideB": "Cold",
         "ideasA": [
@@ -1421,18 +1421,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Hot food vs cold food — which is better?",
+        "word": "Hot food vs cold food: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Hot food vs cold food — which is better?",
+                "text": "Hot food vs cold food: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_011",
-        "topic": "Breakfast vs dinner — which meal is more important?",
+        "topic": "Breakfast vs dinner: which meal is more important?",
         "sideA": "Breakfast",
         "sideB": "Dinner",
         "ideasA": [
@@ -1447,18 +1447,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "meals",
-        "word": "Breakfast vs dinner — which meal is more important?",
+        "word": "Breakfast vs dinner: which meal is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "Breakfast vs dinner — which meal is more important?",
+                "text": "Breakfast vs dinner: which meal is more important?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_nature_003",
-        "topic": "City park vs forest — which is better?",
+        "topic": "City park vs forest: which is better?",
         "sideA": "Park",
         "sideB": "Forest",
         "ideasA": [
@@ -1473,18 +1473,18 @@
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
-        "word": "City park vs forest — which is better?",
+        "word": "City park vs forest: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "City park vs forest — which is better?",
+                "text": "City park vs forest: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_technology_006",
-        "topic": "Texting vs voice notes — which is better?",
+        "topic": "Texting vs voice notes: which is better?",
         "sideA": "Texting",
         "sideB": "Voice notes",
         "ideasA": [
@@ -1499,18 +1499,18 @@
         "level": "starter",
         "theme": "technology",
         "sub_theme": null,
-        "word": "Texting vs voice notes — which is better?",
+        "word": "Texting vs voice notes: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Texting vs voice notes — which is better?",
+                "text": "Texting vs voice notes: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_005",
-        "topic": "Living with family vs living alone — which is better?",
+        "topic": "Living with family vs living alone: which is better?",
         "sideA": "With family",
         "sideB": "Alone",
         "ideasA": [
@@ -1525,18 +1525,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Living with family vs living alone — which is better?",
+        "word": "Living with family vs living alone: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Living with family vs living alone — which is better?",
+                "text": "Living with family vs living alone: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_012",
-        "topic": "Having a brother vs having a sister — which is better?",
+        "topic": "Having a brother vs having a sister: which is better?",
         "sideA": "Brother",
         "sideB": "Sister",
         "ideasA": [
@@ -1551,18 +1551,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Having a brother vs having a sister — which is better?",
+        "word": "Having a brother vs having a sister: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Having a brother vs having a sister — which is better?",
+                "text": "Having a brother vs having a sister: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_013",
-        "topic": "Big family vs small family — which is nicer?",
+        "topic": "Big family vs small family: which is nicer?",
         "sideA": "Big family",
         "sideB": "Small family",
         "ideasA": [
@@ -1577,18 +1577,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Big family vs small family — which is nicer?",
+        "word": "Big family vs small family: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Big family vs small family — which is nicer?",
+                "text": "Big family vs small family: which is nicer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_014",
-        "topic": "Being the oldest child vs being the youngest — which is better?",
+        "topic": "Being the oldest child vs being the youngest: which is better?",
         "sideA": "Oldest",
         "sideB": "Youngest",
         "ideasA": [
@@ -1603,18 +1603,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Being the oldest child vs being the youngest — which is better?",
+        "word": "Being the oldest child vs being the youngest: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Being the oldest child vs being the youngest — which is better?",
+                "text": "Being the oldest child vs being the youngest: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_005",
-        "topic": "Morning school vs afternoon school — which is better?",
+        "topic": "Morning school vs afternoon school: which is better?",
         "sideA": "Morning",
         "sideB": "Afternoon",
         "ideasA": [
@@ -1629,18 +1629,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Morning school vs afternoon school — which is better?",
+        "word": "Morning school vs afternoon school: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Morning school vs afternoon school — which is better?",
+                "text": "Morning school vs afternoon school: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_015",
-        "topic": "Reading vs maths — which subject is more fun?",
+        "topic": "Reading vs maths: which subject is more fun?",
         "sideA": "Reading",
         "sideB": "Maths",
         "ideasA": [
@@ -1655,18 +1655,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Reading vs maths — which subject is more fun?",
+        "word": "Reading vs maths: which subject is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Reading vs maths — which subject is more fun?",
+                "text": "Reading vs maths: which subject is more fun?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_006",
-        "topic": "Learning at school vs learning at home — which is better?",
+        "topic": "Learning at school vs learning at home: which is better?",
         "sideA": "School",
         "sideB": "Home",
         "ideasA": [
@@ -1681,18 +1681,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Learning at school vs learning at home — which is better?",
+        "word": "Learning at school vs learning at home: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Learning at school vs learning at home — which is better?",
+                "text": "Learning at school vs learning at home: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_007",
-        "topic": "Homework vs no homework — which helps you more?",
+        "topic": "Homework vs no homework: which helps you more?",
         "sideA": "Homework",
         "sideB": "No homework",
         "ideasA": [
@@ -1707,18 +1707,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Homework vs no homework — which helps you more?",
+        "word": "Homework vs no homework: which helps you more?",
         "form": "other",
         "definitions": [
             {
-                "text": "Homework vs no homework — which helps you more?",
+                "text": "Homework vs no homework: which helps you more?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_technology_007",
-        "topic": "Writing on paper vs typing on a computer — which is better?",
+        "topic": "Writing on paper vs typing on a computer: which is better?",
         "sideA": "Paper",
         "sideB": "Computer",
         "ideasA": [
@@ -1733,18 +1733,18 @@
         "level": "starter",
         "theme": "technology",
         "sub_theme": null,
-        "word": "Writing on paper vs typing on a computer — which is better?",
+        "word": "Writing on paper vs typing on a computer: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Writing on paper vs typing on a computer — which is better?",
+                "text": "Writing on paper vs typing on a computer: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_012",
-        "topic": "Sweet food vs savoury food — which do you prefer?",
+        "topic": "Sweet food vs savoury food: which do you prefer?",
         "sideA": "Sweet",
         "sideB": "Savoury",
         "ideasA": [
@@ -1759,18 +1759,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Sweet food vs savoury food — which do you prefer?",
+        "word": "Sweet food vs savoury food: which do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sweet food vs savoury food — which do you prefer?",
+                "text": "Sweet food vs savoury food: which do you prefer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_013",
-        "topic": "Cooking with a parent vs buying food ready-made — which is nicer?",
+        "topic": "Cooking with a parent vs buying food ready-made: which is nicer?",
         "sideA": "Cooking",
         "sideB": "Ready-made",
         "ideasA": [
@@ -1785,18 +1785,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "cooking",
-        "word": "Cooking with a parent vs buying food ready-made — which is nicer?",
+        "word": "Cooking with a parent vs buying food ready-made: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cooking with a parent vs buying food ready-made — which is nicer?",
+                "text": "Cooking with a parent vs buying food ready-made: which is nicer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_006",
-        "topic": "Waking up early vs waking up late — which is better?",
+        "topic": "Waking up early vs waking up late: which is better?",
         "sideA": "Early",
         "sideB": "Late",
         "ideasA": [
@@ -1811,18 +1811,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Waking up early vs waking up late — which is better?",
+        "word": "Waking up early vs waking up late: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Waking up early vs waking up late — which is better?",
+                "text": "Waking up early vs waking up late: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_007",
-        "topic": "Weekdays vs weekends — which do you prefer?",
+        "topic": "Weekdays vs weekends: which do you prefer?",
         "sideA": "Weekdays",
         "sideB": "Weekends",
         "ideasA": [
@@ -1837,18 +1837,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Weekdays vs weekends — which do you prefer?",
+        "word": "Weekdays vs weekends: which do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Weekdays vs weekends — which do you prefer?",
+                "text": "Weekdays vs weekends: which do you prefer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_006",
-        "topic": "Bedroom vs living room — which room do you prefer?",
+        "topic": "Bedroom vs living room: which room do you prefer?",
         "sideA": "Bedroom",
         "sideB": "Living room",
         "ideasA": [
@@ -1863,18 +1863,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Bedroom vs living room — which room do you prefer?",
+        "word": "Bedroom vs living room: which room do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Bedroom vs living room — which room do you prefer?",
+                "text": "Bedroom vs living room: which room do you prefer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_016",
-        "topic": "Indoor games vs outdoor games — which are more fun?",
+        "topic": "Indoor games vs outdoor games: which are more fun?",
         "sideA": "Indoor",
         "sideB": "Outdoor",
         "ideasA": [
@@ -1889,18 +1889,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Indoor games vs outdoor games — which are more fun?",
+        "word": "Indoor games vs outdoor games: which are more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Indoor games vs outdoor games — which are more fun?",
+                "text": "Indoor games vs outdoor games: which are more fun?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_017",
-        "topic": "Watching TV vs reading a book — which is better?",
+        "topic": "Watching TV vs reading a book: which is better?",
         "sideA": "TV",
         "sideB": "Book",
         "ideasA": [
@@ -1915,18 +1915,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Watching TV vs reading a book — which is better?",
+        "word": "Watching TV vs reading a book: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Watching TV vs reading a book — which is better?",
+                "text": "Watching TV vs reading a book: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_018",
-        "topic": "Playing sport vs playing a video game — which is more fun?",
+        "topic": "Playing sport vs playing a video game: which is more fun?",
         "sideA": "Sport",
         "sideB": "Video game",
         "ideasA": [
@@ -1941,18 +1941,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Playing sport vs playing a video game — which is more fun?",
+        "word": "Playing sport vs playing a video game: which is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Playing sport vs playing a video game — which is more fun?",
+                "text": "Playing sport vs playing a video game: which is more fun?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_019",
-        "topic": "Drawing vs singing — which hobby is better?",
+        "topic": "Drawing vs singing: which hobby is better?",
         "sideA": "Drawing",
         "sideB": "Singing",
         "ideasA": [
@@ -1967,18 +1967,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Drawing vs singing — which hobby is better?",
+        "word": "Drawing vs singing: which hobby is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Drawing vs singing — which hobby is better?",
+                "text": "Drawing vs singing: which hobby is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_020",
-        "topic": "Playing alone vs playing with friends — which is more fun?",
+        "topic": "Playing alone vs playing with friends: which is more fun?",
         "sideA": "Alone",
         "sideB": "Friends",
         "ideasA": [
@@ -1993,18 +1993,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Playing alone vs playing with friends — which is more fun?",
+        "word": "Playing alone vs playing with friends: which is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Playing alone vs playing with friends — which is more fun?",
+                "text": "Playing alone vs playing with friends: which is more fun?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_health_medicine_003",
-        "topic": "Swimming vs running — which sport do you prefer?",
+        "topic": "Swimming vs running: which sport do you prefer?",
         "sideA": "Swimming",
         "sideB": "Running",
         "ideasA": [
@@ -2019,18 +2019,18 @@
         "level": "starter",
         "theme": "health_medicine",
         "sub_theme": null,
-        "word": "Swimming vs running — which sport do you prefer?",
+        "word": "Swimming vs running: which sport do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Swimming vs running — which sport do you prefer?",
+                "text": "Swimming vs running: which sport do you prefer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_021",
-        "topic": "Music vs sport — which is a better hobby?",
+        "topic": "Music vs sport: which is a better hobby?",
         "sideA": "Music",
         "sideB": "Sport",
         "ideasA": [
@@ -2045,18 +2045,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Music vs sport — which is a better hobby?",
+        "word": "Music vs sport: which is a better hobby?",
         "form": "other",
         "definitions": [
             {
-                "text": "Music vs sport — which is a better hobby?",
+                "text": "Music vs sport: which is a better hobby?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_animals_002",
-        "topic": "Farm animals vs wild animals — which are more interesting?",
+        "topic": "Farm animals vs wild animals: which are more interesting?",
         "sideA": "Farm",
         "sideB": "Wild",
         "ideasA": [
@@ -2071,18 +2071,18 @@
         "level": "starter",
         "theme": "animals",
         "sub_theme": null,
-        "word": "Farm animals vs wild animals — which are more interesting?",
+        "word": "Farm animals vs wild animals: which are more interesting?",
         "form": "other",
         "definitions": [
             {
-                "text": "Farm animals vs wild animals — which are more interesting?",
+                "text": "Farm animals vs wild animals: which are more interesting?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_nature_004",
-        "topic": "Rain vs sunshine — which weather do you prefer?",
+        "topic": "Rain vs sunshine: which weather do you prefer?",
         "sideA": "Rain",
         "sideB": "Sunshine",
         "ideasA": [
@@ -2097,18 +2097,18 @@
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
-        "word": "Rain vs sunshine — which weather do you prefer?",
+        "word": "Rain vs sunshine: which weather do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Rain vs sunshine — which weather do you prefer?",
+                "text": "Rain vs sunshine: which weather do you prefer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_nature_005",
-        "topic": "Flowers vs trees — which are more beautiful?",
+        "topic": "Flowers vs trees: which are more beautiful?",
         "sideA": "Flowers",
         "sideB": "Trees",
         "ideasA": [
@@ -2123,18 +2123,18 @@
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
-        "word": "Flowers vs trees — which are more beautiful?",
+        "word": "Flowers vs trees: which are more beautiful?",
         "form": "other",
         "definitions": [
             {
-                "text": "Flowers vs trees — which are more beautiful?",
+                "text": "Flowers vs trees: which are more beautiful?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_010",
-        "topic": "Car vs bus — which is better to travel in?",
+        "topic": "Car vs bus: which is better to travel in?",
         "sideA": "Car",
         "sideB": "Bus",
         "ideasA": [
@@ -2149,18 +2149,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Car vs bus — which is better to travel in?",
+        "word": "Car vs bus: which is better to travel in?",
         "form": "other",
         "definitions": [
             {
-                "text": "Car vs bus — which is better to travel in?",
+                "text": "Car vs bus: which is better to travel in?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_011",
-        "topic": "Walking vs cycling — which is better to get around?",
+        "topic": "Walking vs cycling: which is better to get around?",
         "sideA": "Walking",
         "sideB": "Cycling",
         "ideasA": [
@@ -2175,18 +2175,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Walking vs cycling — which is better to get around?",
+        "word": "Walking vs cycling: which is better to get around?",
         "form": "other",
         "definitions": [
             {
-                "text": "Walking vs cycling — which is better to get around?",
+                "text": "Walking vs cycling: which is better to get around?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_012",
-        "topic": "Travelling alone vs travelling with family — which is more fun?",
+        "topic": "Travelling alone vs travelling with family: which is more fun?",
         "sideA": "Alone",
         "sideB": "Family",
         "ideasA": [
@@ -2201,18 +2201,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Travelling alone vs travelling with family — which is more fun?",
+        "word": "Travelling alone vs travelling with family: which is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Travelling alone vs travelling with family — which is more fun?",
+                "text": "Travelling alone vs travelling with family: which is more fun?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_022",
-        "topic": "Living with grandparents vs not living with them — which is nicer?",
+        "topic": "Living with grandparents vs not living with them: which is nicer?",
         "sideA": "Grandparents",
         "sideB": "Not with them",
         "ideasA": [
@@ -2227,18 +2227,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Living with grandparents vs not living with them — which is nicer?",
+        "word": "Living with grandparents vs not living with them: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Living with grandparents vs not living with them — which is nicer?",
+                "text": "Living with grandparents vs not living with them: which is nicer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_014",
-        "topic": "Mum's cooking vs dad's cooking — which is better?",
+        "topic": "Mum's cooking vs dad's cooking: which is better?",
         "sideA": "Mum's",
         "sideB": "Dad's",
         "ideasA": [
@@ -2253,18 +2253,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "cooking",
-        "word": "Mum's cooking vs dad's cooking — which is better?",
+        "word": "Mum's cooking vs dad's cooking: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Mum's cooking vs dad's cooking — which is better?",
+                "text": "Mum's cooking vs dad's cooking: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_023",
-        "topic": "Maths vs art — which subject is more fun?",
+        "topic": "Maths vs art: which subject is more fun?",
         "sideA": "Maths",
         "sideB": "Art",
         "ideasA": [
@@ -2279,18 +2279,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Maths vs art — which subject is more fun?",
+        "word": "Maths vs art: which subject is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Maths vs art — which subject is more fun?",
+                "text": "Maths vs art: which subject is more fun?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_nature_006",
-        "topic": "Day at the park vs day at the beach — which is better?",
+        "topic": "Day at the park vs day at the beach: which is better?",
         "sideA": "Park",
         "sideB": "Beach",
         "ideasA": [
@@ -2305,18 +2305,18 @@
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
-        "word": "Day at the park vs day at the beach — which is better?",
+        "word": "Day at the park vs day at the beach: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Day at the park vs day at the beach — which is better?",
+                "text": "Day at the park vs day at the beach: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_015",
-        "topic": "Eating pizza with a fork vs eating pizza with your hands — which is better?",
+        "topic": "Eating pizza with a fork vs eating pizza with your hands: which is better?",
         "sideA": "Fork",
         "sideB": "Hands",
         "ideasA": [
@@ -2331,18 +2331,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Eating pizza with a fork vs eating pizza with your hands — which is better?",
+        "word": "Eating pizza with a fork vs eating pizza with your hands: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Eating pizza with a fork vs eating pizza with your hands — which is better?",
+                "text": "Eating pizza with a fork vs eating pizza with your hands: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_007",
-        "topic": "Sleeping with socks on vs sleeping without socks — which is better?",
+        "topic": "Sleeping with socks on vs sleeping without socks: which is better?",
         "sideA": "Socks on",
         "sideB": "No socks",
         "ideasA": [
@@ -2357,18 +2357,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Sleeping with socks on vs sleeping without socks — which is better?",
+        "word": "Sleeping with socks on vs sleeping without socks: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sleeping with socks on vs sleeping without socks — which is better?",
+                "text": "Sleeping with socks on vs sleeping without socks: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_008",
-        "topic": "Working full-time vs working part-time — which is better?",
+        "topic": "Working full-time vs working part-time: which is better?",
         "sideA": "Full-time",
         "sideB": "Part-time",
         "ideasA": [
@@ -2383,18 +2383,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Working full-time vs working part-time — which is better?",
+        "word": "Working full-time vs working part-time: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working full-time vs working part-time — which is better?",
+                "text": "Working full-time vs working part-time: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_009",
-        "topic": "A job you love vs a job that pays well — which is more important?",
+        "topic": "A job you love vs a job that pays well: which is more important?",
         "sideA": "Love",
         "sideB": "Money",
         "ideasA": [
@@ -2409,18 +2409,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "A job you love vs a job that pays well — which is more important?",
+        "word": "A job you love vs a job that pays well: which is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "A job you love vs a job that pays well — which is more important?",
+                "text": "A job you love vs a job that pays well: which is more important?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_008",
-        "topic": "Big city vs small town — which is a better place to live as an adult?",
+        "topic": "Big city vs small town: which is a better place to live as an adult?",
         "sideA": "Big city",
         "sideB": "Small town",
         "ideasA": [
@@ -2435,18 +2435,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Big city vs small town — which is a better place to live as an adult?",
+        "word": "Big city vs small town: which is a better place to live as an adult?",
         "form": "other",
         "definitions": [
             {
-                "text": "Big city vs small town — which is a better place to live as an adult?",
+                "text": "Big city vs small town: which is a better place to live as an adult?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_024",
-        "topic": "Having children vs not having children — which life is better?",
+        "topic": "Having children vs not having children: which life is better?",
         "sideA": "Children",
         "sideB": "No children",
         "ideasA": [
@@ -2461,18 +2461,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Having children vs not having children — which life is better?",
+        "word": "Having children vs not having children: which life is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Having children vs not having children — which life is better?",
+                "text": "Having children vs not having children: which life is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_health_medicine_004",
-        "topic": "Exercise every day vs rest — which is better for your health?",
+        "topic": "Exercise every day vs rest: which is better for your health?",
         "sideA": "Exercise",
         "sideB": "Rest",
         "ideasA": [
@@ -2487,18 +2487,18 @@
         "level": "starter",
         "theme": "health_medicine",
         "sub_theme": null,
-        "word": "Exercise every day vs rest — which is better for your health?",
+        "word": "Exercise every day vs rest: which is better for your health?",
         "form": "other",
         "definitions": [
             {
-                "text": "Exercise every day vs rest — which is better for your health?",
+                "text": "Exercise every day vs rest: which is better for your health?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_health_medicine_005",
-        "topic": "Going to the doctor vs waiting — which is better when you feel ill?",
+        "topic": "Going to the doctor vs waiting: which is better when you feel ill?",
         "sideA": "Doctor",
         "sideB": "Waiting",
         "ideasA": [
@@ -2513,18 +2513,18 @@
         "level": "starter",
         "theme": "health_medicine",
         "sub_theme": null,
-        "word": "Going to the doctor vs waiting — which is better when you feel ill?",
+        "word": "Going to the doctor vs waiting: which is better when you feel ill?",
         "form": "other",
         "definitions": [
             {
-                "text": "Going to the doctor vs waiting — which is better when you feel ill?",
+                "text": "Going to the doctor vs waiting: which is better when you feel ill?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_health_medicine_006",
-        "topic": "Sleeping eight hours vs sleeping less — which is more realistic for adults?",
+        "topic": "Sleeping eight hours vs sleeping less: which is more realistic for adults?",
         "sideA": "8 hours",
         "sideB": "Less",
         "ideasA": [
@@ -2539,18 +2539,18 @@
         "level": "starter",
         "theme": "health_medicine",
         "sub_theme": null,
-        "word": "Sleeping eight hours vs sleeping less — which is more realistic for adults?",
+        "word": "Sleeping eight hours vs sleeping less: which is more realistic for adults?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sleeping eight hours vs sleeping less — which is more realistic for adults?",
+                "text": "Sleeping eight hours vs sleeping less: which is more realistic for adults?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_009",
-        "topic": "Online shopping vs shopping in a store — which do you prefer?",
+        "topic": "Online shopping vs shopping in a store: which do you prefer?",
         "sideA": "Online",
         "sideB": "Store",
         "ideasA": [
@@ -2565,18 +2565,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Online shopping vs shopping in a store — which do you prefer?",
+        "word": "Online shopping vs shopping in a store: which do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Online shopping vs shopping in a store — which do you prefer?",
+                "text": "Online shopping vs shopping in a store: which do you prefer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_010",
-        "topic": "Expensive things vs cheap things — which is better value?",
+        "topic": "Expensive things vs cheap things: which is better value?",
         "sideA": "Expensive",
         "sideB": "Cheap",
         "ideasA": [
@@ -2591,18 +2591,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Expensive things vs cheap things — which is better value?",
+        "word": "Expensive things vs cheap things: which is better value?",
         "form": "other",
         "definitions": [
             {
-                "text": "Expensive things vs cheap things — which is better value?",
+                "text": "Expensive things vs cheap things: which is better value?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_011",
-        "topic": "Buying new vs buying second-hand — which is better?",
+        "topic": "Buying new vs buying second-hand: which is better?",
         "sideA": "New",
         "sideB": "Second-hand",
         "ideasA": [
@@ -2617,18 +2617,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Buying new vs buying second-hand — which is better?",
+        "word": "Buying new vs buying second-hand: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Buying new vs buying second-hand — which is better?",
+                "text": "Buying new vs buying second-hand: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_025",
-        "topic": "Watching TV at home vs going out — which is a better evening?",
+        "topic": "Watching TV at home vs going out: which is a better evening?",
         "sideA": "TV at home",
         "sideB": "Going out",
         "ideasA": [
@@ -2643,18 +2643,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Watching TV at home vs going out — which is a better evening?",
+        "word": "Watching TV at home vs going out: which is a better evening?",
         "form": "other",
         "definitions": [
             {
-                "text": "Watching TV at home vs going out — which is a better evening?",
+                "text": "Watching TV at home vs going out: which is a better evening?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_013",
-        "topic": "Holidays with family vs holidays with friends — which is better?",
+        "topic": "Holidays with family vs holidays with friends: which is better?",
         "sideA": "Family",
         "sideB": "Friends",
         "ideasA": [
@@ -2669,18 +2669,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Holidays with family vs holidays with friends — which is better?",
+        "word": "Holidays with family vs holidays with friends: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Holidays with family vs holidays with friends — which is better?",
+                "text": "Holidays with family vs holidays with friends: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_014",
-        "topic": "Staying in your country vs travelling abroad — which is a better holiday?",
+        "topic": "Staying in your country vs travelling abroad: which is a better holiday?",
         "sideA": "My country",
         "sideB": "Abroad",
         "ideasA": [
@@ -2695,18 +2695,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Staying in your country vs travelling abroad — which is a better holiday?",
+        "word": "Staying in your country vs travelling abroad: which is a better holiday?",
         "form": "other",
         "definitions": [
             {
-                "text": "Staying in your country vs travelling abroad — which is a better holiday?",
+                "text": "Staying in your country vs travelling abroad: which is a better holiday?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_010",
-        "topic": "Replying to emails immediately vs leaving them for later — which is more professional?",
+        "topic": "Replying to emails immediately vs leaving them for later: which is more professional?",
         "sideA": "Immediately",
         "sideB": "Later",
         "ideasA": [
@@ -2721,18 +2721,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Replying to emails immediately vs leaving them for later — which is more professional?",
+        "word": "Replying to emails immediately vs leaving them for later: which is more professional?",
         "form": "other",
         "definitions": [
             {
-                "text": "Replying to emails immediately vs leaving them for later — which is more professional?",
+                "text": "Replying to emails immediately vs leaving them for later: which is more professional?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_012",
-        "topic": "Doing the dishes immediately vs leaving them until tomorrow — which is better?",
+        "topic": "Doing the dishes immediately vs leaving them until tomorrow: which is better?",
         "sideA": "Immediately",
         "sideB": "Tomorrow",
         "ideasA": [
@@ -2747,18 +2747,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Doing the dishes immediately vs leaving them until tomorrow — which is better?",
+        "word": "Doing the dishes immediately vs leaving them until tomorrow: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Doing the dishes immediately vs leaving them until tomorrow — which is better?",
+                "text": "Doing the dishes immediately vs leaving them until tomorrow: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_011",
-        "topic": "Having a very organised desk vs a messy desk — which person is more productive?",
+        "topic": "Having a very organised desk vs a messy desk: which person is more productive?",
         "sideA": "Organised",
         "sideB": "Messy",
         "ideasA": [
@@ -2773,18 +2773,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Having a very organised desk vs a messy desk — which person is more productive?",
+        "word": "Having a very organised desk vs a messy desk: which person is more productive?",
         "form": "other",
         "definitions": [
             {
-                "text": "Having a very organised desk vs a messy desk — which person is more productive?",
+                "text": "Having a very organised desk vs a messy desk: which person is more productive?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_016",
-        "topic": "Talking about work at dinner vs no work talk at dinner — which rule is better?",
+        "topic": "Talking about work at dinner vs no work talk at dinner: which rule is better?",
         "sideA": "Work talk",
         "sideB": "No work talk",
         "ideasA": [
@@ -2799,18 +2799,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "meals",
-        "word": "Talking about work at dinner vs no work talk at dinner — which rule is better?",
+        "word": "Talking about work at dinner vs no work talk at dinner: which rule is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Talking about work at dinner vs no work talk at dinner — which rule is better?",
+                "text": "Talking about work at dinner vs no work talk at dinner: which rule is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_013",
-        "topic": "Spoon vs fork — which is better?",
+        "topic": "Spoon vs fork: which is better?",
         "sideA": "Spoon",
         "sideB": "Fork",
         "ideasA": [
@@ -2825,18 +2825,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Spoon vs fork — which is better?",
+        "word": "Spoon vs fork: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Spoon vs fork — which is better?",
+                "text": "Spoon vs fork: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_014",
-        "topic": "Hat vs shoes — which is more important?",
+        "topic": "Hat vs shoes: which is more important?",
         "sideA": "Hat",
         "sideB": "Shoes",
         "ideasA": [
@@ -2851,18 +2851,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Hat vs shoes — which is more important?",
+        "word": "Hat vs shoes: which is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "Hat vs shoes — which is more important?",
+                "text": "Hat vs shoes: which is more important?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_015",
-        "topic": "Socks vs no socks — which is nicer?",
+        "topic": "Socks vs no socks: which is nicer?",
         "sideA": "Socks",
         "sideB": "No socks",
         "ideasA": [
@@ -2877,18 +2877,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Socks vs no socks — which is nicer?",
+        "word": "Socks vs no socks: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Socks vs no socks — which is nicer?",
+                "text": "Socks vs no socks: which is nicer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_012",
-        "topic": "Working alone vs working with a partner — which do you prefer?",
+        "topic": "Working alone vs working with a partner: which do you prefer?",
         "sideA": "Alone",
         "sideB": "Partner",
         "ideasA": [
@@ -2903,18 +2903,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Working alone vs working with a partner — which do you prefer?",
+        "word": "Working alone vs working with a partner: which do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working alone vs working with a partner — which do you prefer?",
+                "text": "Working alone vs working with a partner: which do you prefer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_017",
-        "topic": "Eating at home vs eating at a restaurant — which is better?",
+        "topic": "Eating at home vs eating at a restaurant: which is better?",
         "sideA": "Home",
         "sideB": "Restaurant",
         "ideasA": [
@@ -2929,18 +2929,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Eating at home vs eating at a restaurant — which is better?",
+        "word": "Eating at home vs eating at a restaurant: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Eating at home vs eating at a restaurant — which is better?",
+                "text": "Eating at home vs eating at a restaurant: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_018",
-        "topic": "Sweet food vs salty food — which do you prefer?",
+        "topic": "Sweet food vs salty food: which do you prefer?",
         "sideA": "Sweet",
         "sideB": "Salty",
         "ideasA": [
@@ -2955,18 +2955,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Sweet food vs salty food — which do you prefer?",
+        "word": "Sweet food vs salty food: which do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sweet food vs salty food — which do you prefer?",
+                "text": "Sweet food vs salty food: which do you prefer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_019",
-        "topic": "Pizza vs pasta — which is nicer?",
+        "topic": "Pizza vs pasta: which is nicer?",
         "sideA": "Pizza",
         "sideB": "Pasta",
         "ideasA": [
@@ -2981,18 +2981,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
-        "word": "Pizza vs pasta — which is nicer?",
+        "word": "Pizza vs pasta: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Pizza vs pasta — which is nicer?",
+                "text": "Pizza vs pasta: which is nicer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_nature_007",
-        "topic": "Short days vs long days — which is better?",
+        "topic": "Short days vs long days: which is better?",
         "sideA": "Short days",
         "sideB": "Long days",
         "ideasA": [
@@ -3007,18 +3007,18 @@
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
-        "word": "Short days vs long days — which is better?",
+        "word": "Short days vs long days: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Short days vs long days — which is better?",
+                "text": "Short days vs long days: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_015",
-        "topic": "Plane vs train — which is more fun?",
+        "topic": "Plane vs train: which is more fun?",
         "sideA": "Plane",
         "sideB": "Train",
         "ideasA": [
@@ -3033,18 +3033,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Plane vs train — which is more fun?",
+        "word": "Plane vs train: which is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Plane vs train — which is more fun?",
+                "text": "Plane vs train: which is more fun?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_020",
-        "topic": "Breakfast vs no breakfast — which is better for you?",
+        "topic": "Breakfast vs no breakfast: which is better for you?",
         "sideA": "Breakfast",
         "sideB": "No breakfast",
         "ideasA": [
@@ -3059,18 +3059,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "meals",
-        "word": "Breakfast vs no breakfast — which is better for you?",
+        "word": "Breakfast vs no breakfast: which is better for you?",
         "form": "other",
         "definitions": [
             {
-                "text": "Breakfast vs no breakfast — which is better for you?",
+                "text": "Breakfast vs no breakfast: which is better for you?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_021",
-        "topic": "Water vs juice — which is healthier?",
+        "topic": "Water vs juice: which is healthier?",
         "sideA": "Water",
         "sideB": "Juice",
         "ideasA": [
@@ -3085,18 +3085,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "drinks",
-        "word": "Water vs juice — which is healthier?",
+        "word": "Water vs juice: which is healthier?",
         "form": "other",
         "definitions": [
             {
-                "text": "Water vs juice — which is healthier?",
+                "text": "Water vs juice: which is healthier?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_022",
-        "topic": "Meat vs vegetables — which is more important in a meal?",
+        "topic": "Meat vs vegetables: which is more important in a meal?",
         "sideA": "Meat",
         "sideB": "Vegetables",
         "ideasA": [
@@ -3111,18 +3111,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "meals",
-        "word": "Meat vs vegetables — which is more important in a meal?",
+        "word": "Meat vs vegetables: which is more important in a meal?",
         "form": "other",
         "definitions": [
             {
-                "text": "Meat vs vegetables — which is more important in a meal?",
+                "text": "Meat vs vegetables: which is more important in a meal?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_016",
-        "topic": "City vs village — which is a better place to live?",
+        "topic": "City vs village: which is a better place to live?",
         "sideA": "City",
         "sideB": "Village",
         "ideasA": [
@@ -3137,18 +3137,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "City vs village — which is a better place to live?",
+        "word": "City vs village: which is a better place to live?",
         "form": "other",
         "definitions": [
             {
-                "text": "City vs village — which is a better place to live?",
+                "text": "City vs village: which is a better place to live?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_013",
-        "topic": "Cash vs card — which is better to pay with?",
+        "topic": "Cash vs card: which is better to pay with?",
         "sideA": "Cash",
         "sideB": "Card",
         "ideasA": [
@@ -3163,18 +3163,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Cash vs card — which is better to pay with?",
+        "word": "Cash vs card: which is better to pay with?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cash vs card — which is better to pay with?",
+                "text": "Cash vs card: which is better to pay with?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_014",
-        "topic": "Saving money vs spending money — which is better?",
+        "topic": "Saving money vs spending money: which is better?",
         "sideA": "Saving",
         "sideB": "Spending",
         "ideasA": [
@@ -3189,18 +3189,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Saving money vs spending money — which is better?",
+        "word": "Saving money vs spending money: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Saving money vs spending money — which is better?",
+                "text": "Saving money vs spending money: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_015",
-        "topic": "Renting vs buying — which is better?",
+        "topic": "Renting vs buying: which is better?",
         "sideA": "Renting",
         "sideB": "Buying",
         "ideasA": [
@@ -3215,18 +3215,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Renting vs buying — which is better?",
+        "word": "Renting vs buying: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Renting vs buying — which is better?",
+                "text": "Renting vs buying: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_016",
-        "topic": "Walking vs driving — which is better in the city?",
+        "topic": "Walking vs driving: which is better in the city?",
         "sideA": "Walking",
         "sideB": "Driving",
         "ideasA": [
@@ -3241,18 +3241,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Walking vs driving — which is better in the city?",
+        "word": "Walking vs driving: which is better in the city?",
         "form": "other",
         "definitions": [
             {
-                "text": "Walking vs driving — which is better in the city?",
+                "text": "Walking vs driving: which is better in the city?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_technology_008",
-        "topic": "Phone call vs message — which is better?",
+        "topic": "Phone call vs message: which is better?",
         "sideA": "Call",
         "sideB": "Message",
         "ideasA": [
@@ -3267,18 +3267,18 @@
         "level": "starter",
         "theme": "technology",
         "sub_theme": null,
-        "word": "Phone call vs message — which is better?",
+        "word": "Phone call vs message: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Phone call vs message — which is better?",
+                "text": "Phone call vs message: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_008",
-        "topic": "Monday vs Friday — which day is better?",
+        "topic": "Monday vs Friday: which day is better?",
         "sideA": "Monday",
         "sideB": "Friday",
         "ideasA": [
@@ -3293,18 +3293,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Monday vs Friday — which day is better?",
+        "word": "Monday vs Friday: which day is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Monday vs Friday — which day is better?",
+                "text": "Monday vs Friday: which day is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_nature_008",
-        "topic": "Too hot vs too cold — which is worse?",
+        "topic": "Too hot vs too cold: which is worse?",
         "sideA": "Too hot",
         "sideB": "Too cold",
         "ideasA": [
@@ -3319,18 +3319,18 @@
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
-        "word": "Too hot vs too cold — which is worse?",
+        "word": "Too hot vs too cold: which is worse?",
         "form": "other",
         "definitions": [
             {
-                "text": "Too hot vs too cold — which is worse?",
+                "text": "Too hot vs too cold: which is worse?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_017",
-        "topic": "Window seat vs aisle seat — which is better on a plane?",
+        "topic": "Window seat vs aisle seat: which is better on a plane?",
         "sideA": "Window",
         "sideB": "Aisle",
         "ideasA": [
@@ -3345,18 +3345,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Window seat vs aisle seat — which is better on a plane?",
+        "word": "Window seat vs aisle seat: which is better on a plane?",
         "form": "other",
         "definitions": [
             {
-                "text": "Window seat vs aisle seat — which is better on a plane?",
+                "text": "Window seat vs aisle seat: which is better on a plane?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_016",
-        "topic": "Working with other people vs working alone — which is better?",
+        "topic": "Working with other people vs working alone: which is better?",
         "sideA": "People",
         "sideB": "Alone",
         "ideasA": [
@@ -3371,18 +3371,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Working with other people vs working alone — which is better?",
+        "word": "Working with other people vs working alone: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working with other people vs working alone — which is better?",
+                "text": "Working with other people vs working alone: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_food_drink_023",
-        "topic": "Cooking at home vs eating out — which is better for daily life?",
+        "topic": "Cooking at home vs eating out: which is better for daily life?",
         "sideA": "At home",
         "sideB": "Eating out",
         "ideasA": [
@@ -3397,18 +3397,18 @@
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": "cooking",
-        "word": "Cooking at home vs eating out — which is better for daily life?",
+        "word": "Cooking at home vs eating out: which is better for daily life?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cooking at home vs eating out — which is better for daily life?",
+                "text": "Cooking at home vs eating out: which is better for daily life?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_017",
-        "topic": "Renting a flat vs buying a house — which is better for young adults?",
+        "topic": "Renting a flat vs buying a house: which is better for young adults?",
         "sideA": "Rent flat",
         "sideB": "Buy house",
         "ideasA": [
@@ -3423,18 +3423,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Renting a flat vs buying a house — which is better for young adults?",
+        "word": "Renting a flat vs buying a house: which is better for young adults?",
         "form": "other",
         "definitions": [
             {
-                "text": "Renting a flat vs buying a house — which is better for young adults?",
+                "text": "Renting a flat vs buying a house: which is better for young adults?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_018",
-        "topic": "Walking to work vs taking the car — which is better for your health?",
+        "topic": "Walking to work vs taking the car: which is better for your health?",
         "sideA": "Walking",
         "sideB": "Car",
         "ideasA": [
@@ -3449,18 +3449,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Walking to work vs taking the car — which is better for your health?",
+        "word": "Walking to work vs taking the car: which is better for your health?",
         "form": "other",
         "definitions": [
             {
-                "text": "Walking to work vs taking the car — which is better for your health?",
+                "text": "Walking to work vs taking the car: which is better for your health?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_017",
-        "topic": "Saving for the future vs enjoying money now — which is wiser?",
+        "topic": "Saving for the future vs enjoying money now: which is wiser?",
         "sideA": "Saving",
         "sideB": "Enjoying",
         "ideasA": [
@@ -3475,18 +3475,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Saving for the future vs enjoying money now — which is wiser?",
+        "word": "Saving for the future vs enjoying money now: which is wiser?",
         "form": "other",
         "definitions": [
             {
-                "text": "Saving for the future vs enjoying money now — which is wiser?",
+                "text": "Saving for the future vs enjoying money now: which is wiser?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_026",
-        "topic": "Sport vs reading — which is a better hobby for adults?",
+        "topic": "Sport vs reading: which is a better hobby for adults?",
         "sideA": "Sport",
         "sideB": "Reading",
         "ideasA": [
@@ -3501,18 +3501,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Sport vs reading — which is a better hobby for adults?",
+        "word": "Sport vs reading: which is a better hobby for adults?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sport vs reading — which is a better hobby for adults?",
+                "text": "Sport vs reading: which is a better hobby for adults?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_social_027",
-        "topic": "Seeing friends often vs having time alone — which is more important?",
+        "topic": "Seeing friends often vs having time alone: which is more important?",
         "sideA": "Friends",
         "sideB": "Alone time",
         "ideasA": [
@@ -3527,18 +3527,18 @@
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
-        "word": "Seeing friends often vs having time alone — which is more important?",
+        "word": "Seeing friends often vs having time alone: which is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "Seeing friends often vs having time alone — which is more important?",
+                "text": "Seeing friends often vs having time alone: which is more important?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_009",
-        "topic": "Morning shower vs evening shower — which is better?",
+        "topic": "Morning shower vs evening shower: which is better?",
         "sideA": "Morning",
         "sideB": "Evening",
         "ideasA": [
@@ -3553,18 +3553,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Morning shower vs evening shower — which is better?",
+        "word": "Morning shower vs evening shower: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Morning shower vs evening shower — which is better?",
+                "text": "Morning shower vs evening shower: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_018",
-        "topic": "Morning work vs evening work — which is better?",
+        "topic": "Morning work vs evening work: which is better?",
         "sideA": "Morning",
         "sideB": "Evening",
         "ideasA": [
@@ -3579,18 +3579,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Morning work vs evening work — which is better?",
+        "word": "Morning work vs evening work: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Morning work vs evening work — which is better?",
+                "text": "Morning work vs evening work: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_019",
-        "topic": "Car vs bus — which is better to go to work?",
+        "topic": "Car vs bus: which is better to go to work?",
         "sideA": "Car",
         "sideB": "Bus",
         "ideasA": [
@@ -3605,18 +3605,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "Car vs bus — which is better to go to work?",
+        "word": "Car vs bus: which is better to go to work?",
         "form": "other",
         "definitions": [
             {
-                "text": "Car vs bus — which is better to go to work?",
+                "text": "Car vs bus: which is better to go to work?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_time_010",
-        "topic": "Morning shower vs evening shower — which is correct?",
+        "topic": "Morning shower vs evening shower: which is correct?",
         "sideA": "Morning",
         "sideB": "Evening",
         "ideasA": [
@@ -3631,18 +3631,18 @@
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
-        "word": "Morning shower vs evening shower — which is correct?",
+        "word": "Morning shower vs evening shower: which is correct?",
         "form": "other",
         "definitions": [
             {
-                "text": "Morning shower vs evening shower — which is correct?",
+                "text": "Morning shower vs evening shower: which is correct?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_019",
-        "topic": "Working in an office vs working from home — which do you prefer?",
+        "topic": "Working in an office vs working from home: which do you prefer?",
         "sideA": "Office",
         "sideB": "Home",
         "ideasA": [
@@ -3657,18 +3657,18 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Working in an office vs working from home — which do you prefer?",
+        "word": "Working in an office vs working from home: which do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working in an office vs working from home — which do you prefer?",
+                "text": "Working in an office vs working from home: which do you prefer?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_travel_020",
-        "topic": "A short commute vs a long commute — which is more acceptable?",
+        "topic": "A short commute vs a long commute: which is more acceptable?",
         "sideA": "Short",
         "sideB": "Long",
         "ideasA": [
@@ -3683,18 +3683,18 @@
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
-        "word": "A short commute vs a long commute — which is more acceptable?",
+        "word": "A short commute vs a long commute: which is more acceptable?",
         "form": "other",
         "definitions": [
             {
-                "text": "A short commute vs a long commute — which is more acceptable?",
+                "text": "A short commute vs a long commute: which is more acceptable?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_furniture_018",
-        "topic": "Living alone vs living with a partner — which is better?",
+        "topic": "Living alone vs living with a partner: which is better?",
         "sideA": "Alone",
         "sideB": "Partner",
         "ideasA": [
@@ -3709,18 +3709,18 @@
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
-        "word": "Living alone vs living with a partner — which is better?",
+        "word": "Living alone vs living with a partner: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Living alone vs living with a partner — which is better?",
+                "text": "Living alone vs living with a partner: which is better?",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_starter_work_020",
-        "topic": "Being always early vs always five minutes late — which is worse at work?",
+        "topic": "Being always early vs always five minutes late: which is worse at work?",
         "sideA": "Early",
         "sideB": "Late",
         "ideasA": [
@@ -3735,11 +3735,11 @@
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
-        "word": "Being always early vs always five minutes late — which is worse at work?",
+        "word": "Being always early vs always five minutes late: which is worse at work?",
         "form": "other",
         "definitions": [
             {
-                "text": "Being always early vs always five minutes late — which is worse at work?",
+                "text": "Being always early vs always five minutes late: which is worse at work?",
                 "examples": []
             }
         ]

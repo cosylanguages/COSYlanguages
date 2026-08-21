@@ -1,7 +1,7 @@
 (function() {
     const data = [
         {
-            "topic": "La settimana lavorativa di quattro giorni vs la settimana di cinque giorni — quale modello avvantaggia maggiormente lavoratori e datori di lavoro?",
+            "topic": "La settimana lavorativa di quattro giorni vs la settimana di cinque giorni: quale modello avvantaggia maggiormente lavoratori e datori di lavoro?",
             "sideA": "Settimana di 4 giorni",
             "sideB": "Settimana di 5 giorni",
             "level": "upper_intermediate",
@@ -14,10 +14,10 @@
                 "Potrebbe portare a un aumento dello stress se la stessa quantità di lavoro deve essere compressa in meno giorni.",
                 "Potrebbe causare sfide operative per le aziende che devono essere disponibili per i clienti cinque o sette giorni alla settimana."
             ],
-            "word": "La settimana lavorativa di quattro giorni vs la settimana di cinque giorni — quale modello avvantaggia maggiormente lavoratori e datori di lavoro?",
+            "word": "La settimana lavorativa di quattro giorni vs la settimana di cinque giorni: quale modello avvantaggia maggiormente lavoratori e datori di lavoro?",
             "definitions": [
                 {
-                    "text": "La settimana lavorativa di quattro giorni vs la settimana di cinque giorni — quale modello avvantaggia maggiormente lavoratori e datori di lavoro?",
+                    "text": "La settimana lavorativa di quattro giorni vs la settimana di cinque giorni: quale modello avvantaggia maggiormente lavoratori e datori di lavoro?",
                     "examples": []
                 }
             ],
@@ -27,7 +27,7 @@
             "id": "it_upper_intermediate_language_001"
         },
         {
-            "topic": "Reddito di base universale vs welfare mirato — quale è la rete di sicurezza più efficace per gli adulti che lavorano?",
+            "topic": "Reddito di base universale vs welfare mirato: quale è la rete di sicurezza più efficace per gli adulti che lavorano?",
             "sideA": "UBI",
             "sideB": "Welfare mirato",
             "level": "upper_intermediate",
@@ -40,10 +40,10 @@
                 "I sistemi mirati garantiscono che le limitate risorse pubbliche siano dirette verso coloro che ne hanno più bisogno.",
                 "Un pagamento universale potrebbe essere proibitivamente costoso e potrebbe potenzialmente scoraggiare alcuni dal cercare lavoro."
             ],
-            "word": "Reddito di base universale vs welfare mirato — quale è la rete di sicurezza più efficace per gli adulti che lavorano?",
+            "word": "Reddito di base universale vs welfare mirato: quale è la rete di sicurezza più efficace per gli adulti che lavorano?",
             "definitions": [
                 {
-                    "text": "Reddito di base universale vs welfare mirato — quale è la rete di sicurezza più efficace per gli adulti che lavorano?",
+                    "text": "Reddito di base universale vs welfare mirato: quale è la rete di sicurezza più efficace per gli adulti che lavorano?",
                     "examples": []
                 }
             ],
@@ -53,7 +53,7 @@
             "id": "it_upper_intermediate_work_001"
         },
         {
-            "topic": "La gig economy vs l'impiego a tempo indeterminato — quale modello serve meglio i lavoratori nel lungo periodo?",
+            "topic": "La gig economy vs l'impiego a tempo indeterminato: quale modello serve meglio i lavoratori nel lungo periodo?",
             "sideA": "Gig economy",
             "sideB": "Tempo indeterminato",
             "level": "upper_intermediate",
@@ -66,10 +66,10 @@
                 "I ruoli permanenti offrono vantaggi essenziali come ferie pagate, assicurazione sanitaria e contributi pensionistici.",
                 "Fornisce un reddito stabile e prevedibile, fondamentale per la pianificazione finanziaria e la sicurezza a lungo termine."
             ],
-            "word": "La gig economy vs l'impiego a tempo indeterminato — quale modello serve meglio i lavoratori nel lungo periodo?",
+            "word": "La gig economy vs l'impiego a tempo indeterminato: quale modello serve meglio i lavoratori nel lungo periodo?",
             "definitions": [
                 {
-                    "text": "La gig economy vs l'impiego a tempo indeterminato — quale modello serve meglio i lavoratori nel lungo periodo?",
+                    "text": "La gig economy vs l'impiego a tempo indeterminato: quale modello serve meglio i lavoratori nel lungo periodo?",
                     "examples": []
                 }
             ],
@@ -79,7 +79,7 @@
             "id": "it_upper_intermediate_language_002"
         },
         {
-            "topic": "Meritocrazia vs vantaggio strutturale — cosa spiega più accuratamente il successo professionale?",
+            "topic": "Meritocrazia vs vantaggio strutturale: cosa spiega più accuratamente il successo professionale?",
             "sideA": "Meritocrazia",
             "sideB": "Vantaggio strutturale",
             "level": "upper_intermediate",
@@ -92,10 +92,10 @@
                 "Fattori come il background socio-economico e il networking spesso giocano un ruolo decisivo nell'aprire le porte.",
                 "Le disuguaglianze sistemiche possono impedire anche alle persone più talentuose di raggiungere il loro pieno potenziale."
             ],
-            "word": "Meritocrazia vs vantaggio strutturale — cosa spiega più accuratamente il successo professionale?",
+            "word": "Meritocrazia vs vantaggio strutturale: cosa spiega più accuratamente il successo professionale?",
             "definitions": [
                 {
-                    "text": "Meritocrazia vs vantaggio strutturale — cosa spiega più accuratamente il successo professionale?",
+                    "text": "Meritocrazia vs vantaggio strutturale: cosa spiega più accuratamente il successo professionale?",
                     "examples": []
                 }
             ],
@@ -105,7 +105,7 @@
             "id": "it_upper_intermediate_language_003"
         },
         {
-            "topic": "Trasparenza retributiva vs privacy salariale — cosa crea un luogo di lavoro più equo?",
+            "topic": "Trasparenza retributiva vs privacy salariale: cosa crea un luogo di lavoro più equo?",
             "sideA": "Trasparenza",
             "sideB": "Privacy",
             "level": "upper_intermediate",
@@ -118,10 +118,10 @@
                 "Rivelare gli stipendi può portare a risentimento e attriti tra colleghi, danneggiando potenzialmente il morale del team.",
                 "Rispettare la privacy consente maggiore flessibilità nel premiare le prestazioni eccezionali senza causare controversie pubbliche."
             ],
-            "word": "Trasparenza retributiva vs privacy salariale — cosa crea un luogo di lavoro più equo?",
+            "word": "Trasparenza retributiva vs privacy salariale: cosa crea un luogo di lavoro più equo?",
             "definitions": [
                 {
-                    "text": "Trasparenza retributiva vs privacy salariale — cosa crea un luogo di lavoro più equo?",
+                    "text": "Trasparenza retributiva vs privacy salariale: cosa crea un luogo di lavoro più equo?",
                     "examples": []
                 }
             ],
@@ -131,7 +131,7 @@
             "id": "it_upper_intermediate_language_004"
         },
         {
-            "topic": "Automazione vs lavoro umano — quale è la maggiore minaccia a lungo termine per l'occupazione adulta?",
+            "topic": "Automazione vs lavoro umano: quale è la maggiore minaccia a lungo termine per l'occupazione adulta?",
             "sideA": "Automazione",
             "sideB": "Lavoro umano",
             "level": "upper_intermediate",
@@ -144,10 +144,10 @@
                 "I lavoratori umani possiedono qualità uniche come empatia, creatività e pensiero critico che le macchine non possono replicare.",
                 "Le nuove tecnologie spesso creano settori e categorie lavorative completamente nuovi che richiedono la supervisione umana."
             ],
-            "word": "Automazione vs lavoro umano — quale è la maggiore minaccia a lungo termine per l'occupazione adulta?",
+            "word": "Automazione vs lavoro umano: quale è la maggiore minaccia a lungo termine per l'occupazione adulta?",
             "definitions": [
                 {
-                    "text": "Automazione vs lavoro umano — quale è la maggiore minaccia a lungo termine per l'occupazione adulta?",
+                    "text": "Automazione vs lavoro umano: quale è la maggiore minaccia a lungo termine per l'occupazione adulta?",
                     "examples": []
                 }
             ],
@@ -157,7 +157,7 @@
             "id": "it_upper_intermediate_technology_001"
         },
         {
-            "topic": "Lavoro a distanza vs presenza in ufficio — cosa è meglio per la progressione di carriera e la cultura del team?",
+            "topic": "Lavoro a distanza vs presenza in ufficio: cosa è meglio per la progressione di carriera e la cultura del team?",
             "sideA": "Lavoro a distanza",
             "sideB": "Presenza in ufficio",
             "level": "upper_intermediate",
@@ -170,10 +170,10 @@
                 "Le interazioni spontanee faccia a faccia portano spesso a una risoluzione dei problemi e a un'innovazione più creative.",
                 "Essere fisicamente presenti rende più facile costruire un rapporto con i mentori e rimanere visibili al senior management."
             ],
-            "word": "Lavoro a distanza vs presenza in ufficio — cosa è meglio per la progressione di carriera e la cultura del team?",
+            "word": "Lavoro a distanza vs presenza in ufficio: cosa è meglio per la progressione di carriera e la cultura del team?",
             "definitions": [
                 {
-                    "text": "Lavoro a distanza vs presenza in ufficio — cosa è meglio per la progressione di carriera e la cultura del team?",
+                    "text": "Lavoro a distanza vs presenza in ufficio: cosa è meglio per la progressione di carriera e la cultura del team?",
                     "examples": []
                 }
             ],
@@ -183,7 +183,7 @@
             "id": "it_upper_intermediate_language_005"
         },
         {
-            "topic": "Congedo parentale paritario per uomini e donne vs congedo di maternità più lungo — quale politica è più equa?",
+            "topic": "Congedo parentale paritario per uomini e donne vs congedo di maternità più lungo: quale politica è più equa?",
             "sideA": "Congedo paritario",
             "sideB": "Maternità più lunga",
             "level": "upper_intermediate",
@@ -196,10 +196,10 @@
                 "Riconosce la realtà fisica del parto e l'importanza del recupero materno e dell'allattamento al seno.",
                 "Il supporto mirato per le madri potrebbe essere più appropriato culturalmente e praticamente per molte famiglie."
             ],
-            "word": "Congedo parentale paritario per uomini e donne vs congedo di maternità più lungo — quale politica è più equa?",
+            "word": "Congedo parentale paritario per uomini e donne vs congedo di maternità più lungo: quale politica è più equa?",
             "definitions": [
                 {
-                    "text": "Congedo parentale paritario per uomini e donne vs congedo di maternità più lungo — quale politica è più equa?",
+                    "text": "Congedo parentale paritario per uomini e donne vs congedo di maternità più lungo: quale politica è più equa?",
                     "examples": []
                 }
             ],
@@ -209,7 +209,7 @@
             "id": "it_upper_intermediate_work_002"
         },
         {
-            "topic": "Scegliere di non avere figli vs pressione sociale per avere una famiglia — cosa merita più rispetto?",
+            "topic": "Scegliere di non avere figli vs pressione sociale per avere una famiglia: cosa merita più rispetto?",
             "sideA": "Senza figli",
             "sideB": "Pressione familiare",
             "level": "upper_intermediate",
@@ -222,10 +222,10 @@
                 "Le unità familiari sono fondamentali per la stabilità e la continuazione della società e dei suoi valori culturali.",
                 "Il desiderio di crescere una famiglia è un istinto umano profondamente radicato che dovrebbe essere sostenuto e celebrato."
             ],
-            "word": "Scegliere di non avere figli vs pressione sociale per avere una famiglia — cosa merita più rispetto?",
+            "word": "Scegliere di non avere figli vs pressione sociale per avere una famiglia: cosa merita più rispetto?",
             "definitions": [
                 {
-                    "text": "Scegliere di non avere figli vs pressione sociale per avere una famiglia — cosa merita più rispetto?",
+                    "text": "Scegliere di non avere figli vs pressione sociale per avere una famiglia: cosa merita più rispetto?",
                     "examples": []
                 }
             ],
@@ -235,7 +235,7 @@
             "id": "it_upper_intermediate_work_003"
         },
         {
-            "topic": "Il matrimonio come istituzione vs la convivenza senza matrimonio — cosa è più rilevante oggi?",
+            "topic": "Il matrimonio come istituzione vs la convivenza senza matrimonio: cosa è più rilevante oggi?",
             "sideA": "Matrimonio",
             "sideB": "Convivenza",
             "level": "upper_intermediate",
@@ -248,10 +248,10 @@
                 "Le relazioni moderne dovrebbero basarsi sulla fiducia reciproca e sull'impegno piuttosto che su un contratto legale.",
                 "La convivenza offre maggiore flessibilità ed evita il processo costoso e complicato di un potenziale divorzio."
             ],
-            "word": "Il matrimonio come istituzione vs la convivenza senza matrimonio — cosa è più rilevante oggi?",
+            "word": "Il matrimonio come istituzione vs la convivenza senza matrimonio: cosa è più rilevante oggi?",
             "definitions": [
                 {
-                    "text": "Il matrimonio come istituzione vs la convivenza senza matrimonio — cosa è più rilevante oggi?",
+                    "text": "Il matrimonio come istituzione vs la convivenza senza matrimonio: cosa è più rilevante oggi?",
                     "examples": []
                 }
             ],
@@ -261,7 +261,7 @@
             "id": "it_upper_intermediate_work_004"
         },
         {
-            "topic": "Famiglie a doppio reddito vs un partner che resta a casa — quale modello è migliore per bambini e adulti?",
+            "topic": "Famiglie a doppio reddito vs un partner che resta a casa: quale modello è migliore per bambini e adulti?",
             "sideA": "Doppio reddito",
             "sideB": "Partner a casa",
             "level": "upper_intermediate",
@@ -274,10 +274,10 @@
                 "Avere un genitore a casa garantisce un supporto emotivo e una supervisione costanti durante gli anni formativi del bambino.",
                 "Riduce lo stress di bilanciare due carriere impegnative con la complessità della gestione domestica."
             ],
-            "word": "Famiglie a doppio reddito vs un partner che resta a casa — quale modello è migliore per bambini e adulti?",
+            "word": "Famiglie a doppio reddito vs un partner che resta a casa: quale modello è migliore per bambini e adulti?",
             "definitions": [
                 {
-                    "text": "Famiglie a doppio reddito vs un partner che resta a casa — quale modello è migliore per bambini e adulti?",
+                    "text": "Famiglie a doppio reddito vs un partner che resta a casa: quale modello è migliore per bambini e adulti?",
                     "examples": []
                 }
             ],
@@ -287,7 +287,7 @@
             "id": "it_upper_intermediate_work_005"
         },
         {
-            "topic": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali — quale spiegazione ha più peso?",
+            "topic": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali: quale spiegazione ha più peso?",
             "sideA": "Problema strutturale",
             "sideB": "Scelte individuali",
             "level": "upper_intermediate",
@@ -300,10 +300,10 @@
                 "Le differenze di guadagno possono spesso essere attribuite a decisioni personali riguardanti l'orario di lavoro e le interruzioni di carriera.",
                 "Le donne possono scegliere percorsi di carriera più flessibili o meno rischiosi che offrono naturalmente compensi diversi."
             ],
-            "word": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali — quale spiegazione ha più peso?",
+            "word": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali: quale spiegazione ha più peso?",
             "definitions": [
                 {
-                    "text": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali — quale spiegazione ha più peso?",
+                    "text": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali: quale spiegazione ha più peso?",
                     "examples": []
                 }
             ],
@@ -313,7 +313,7 @@
             "id": "it_upper_intermediate_work_006"
         },
         {
-            "topic": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale — quale modello abitativo si adatta meglio agli adulti moderni?",
+            "topic": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale: quale modello abitativo si adatta meglio agli adulti moderni?",
             "sideA": "Proprietà",
             "sideB": "Affitto professionale",
             "level": "upper_intermediate",
@@ -326,10 +326,10 @@
                 "Un settore degli affitti professionale offre maggiore mobilità per coloro che devono spostarsi per lavoro o stile di vita.",
                 "L'affitto elimina l'onere dei costi di manutenzione e i rischi finanziari associati alle fluttuazioni del mercato immobiliare."
             ],
-            "word": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale — quale modello abitativo si adatta meglio agli adulti moderni?",
+            "word": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale: quale modello abitativo si adatta meglio agli adulti moderni?",
             "definitions": [
                 {
-                    "text": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale — quale modello abitativo si adatta meglio agli adulti moderni?",
+                    "text": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale: quale modello abitativo si adatta meglio agli adulti moderni?",
                     "examples": []
                 }
             ],
@@ -339,7 +339,7 @@
             "id": "it_upper_intermediate_work_007"
         },
         {
-            "topic": "La gentrificazione come miglioramento vs la gentrificazione come spostamento — quale inquadramento è più onesto?",
+            "topic": "La gentrificazione come miglioramento vs la gentrificazione come spostamento: quale inquadramento è più onesto?",
             "sideA": "Miglioramento",
             "sideB": "Spostamento",
             "level": "upper_intermediate",
@@ -352,10 +352,10 @@
                 "L'aumento degli affitti spesso costringe i residenti di lunga data e le piccole imprese ad abbandonare le proprie comunità.",
                 "La gentrificazione può cancellare la storia culturale e il tessuto sociale di un quartiere, rendendolo inaccessibile."
             ],
-            "word": "La gentrificazione come miglioramento vs la gentrificazione come spostamento — quale inquadramento è più onesto?",
+            "word": "La gentrificazione come miglioramento vs la gentrificazione come spostamento: quale inquadramento è più onesto?",
             "definitions": [
                 {
-                    "text": "La gentrificazione come miglioramento vs la gentrificazione come spostamento — quale inquadramento è più onesto?",
+                    "text": "La gentrificazione come miglioramento vs la gentrificazione come spostamento: quale inquadramento è più onesto?",
                     "examples": []
                 }
             ],
@@ -365,7 +365,7 @@
             "id": "it_upper_intermediate_work_008"
         },
         {
-            "topic": "Densità urbana vs espansione suburbana — quale è il modello migliore per città vivibili?",
+            "topic": "Densità urbana vs espansione suburbana: quale è il modello migliore per città vivibili?",
             "sideA": "Densità urbana",
             "sideB": "Espansione suburbana",
             "level": "upper_intermediate",
@@ -378,10 +378,10 @@
                 "La vita suburbana offre più spazio, privacy e un ambiente più tranquillo per le famiglie per crescere i figli.",
                 "Una densità inferiore può ridurre l'effetto 'isola di calore urbana' e fornire maggiore accesso agli spazi verdi."
             ],
-            "word": "Densità urbana vs espansione suburbana — quale è il modello migliore per città vivibili?",
+            "word": "Densità urbana vs espansione suburbana: quale è il modello migliore per città vivibili?",
             "definitions": [
                 {
-                    "text": "Densità urbana vs espansione suburbana — quale è il modello migliore per città vivibili?",
+                    "text": "Densità urbana vs espansione suburbana: quale è il modello migliore per città vivibili?",
                     "examples": []
                 }
             ],
@@ -391,7 +391,7 @@
             "id": "it_upper_intermediate_work_009"
         },
         {
-            "topic": "Vivere vicino alla famiglia vs allontanarsi per opportunità — quale scelta produce un migliore benessere a lungo termine?",
+            "topic": "Vivere vicino alla famiglia vs allontanarsi per opportunità: quale scelta produce un migliore benessere a lungo termine?",
             "sideA": "Vivere vicino",
             "sideB": "Allontanarsi",
             "level": "upper_intermediate",
@@ -404,10 +404,10 @@
                 "Il trasferimento può aprire prospettive di carriera significativamente migliori e un maggiore potenziale di guadagno.",
                 "Vivere in modo indipendente in un nuovo ambiente favorisce la crescita personale, la resilienza e una prospettiva di vita più ampia."
             ],
-            "word": "Vivere vicino alla famiglia vs allontanarsi per opportunità — quale scelta produce un migliore benessere a lungo termine?",
+            "word": "Vivere vicino alla famiglia vs allontanarsi per opportunità: quale scelta produce un migliore benessere a lungo termine?",
             "definitions": [
                 {
-                    "text": "Vivere vicino alla famiglia vs allontanarsi per opportunità — quale scelta produce un migliore benessere a lungo termine?",
+                    "text": "Vivere vicino alla famiglia vs allontanarsi per opportunità: quale scelta produce un migliore benessere a lungo termine?",
                     "examples": []
                 }
             ],
@@ -417,7 +417,7 @@
             "id": "it_upper_intermediate_work_010"
         },
         {
-            "topic": "Una popolazione che invecchia come crisi vs come risorsa — quale inquadramento è più produttivo?",
+            "topic": "Una popolazione che invecchia come crisi vs come risorsa: quale inquadramento è più produttivo?",
             "sideA": "Crisi",
             "sideB": "Risorsa",
             "level": "upper_intermediate",
@@ -430,10 +430,10 @@
                 "Gli adulti più anziani possiedono un patrimonio di esperienza, saggezza e conoscenza istituzionale inestimabile per la società.",
                 "La 'silver economy' crea nuovi mercati e opportunità di volontariato e tutoraggio intergenerazionale."
             ],
-            "word": "Una popolazione che invecchia come crisi vs come risorsa — quale inquadramento è più produttivo?",
+            "word": "Una popolazione che invecchia come crisi vs come risorsa: quale inquadramento è più produttivo?",
             "definitions": [
                 {
-                    "text": "Una popolazione che invecchia come crisi vs come risorsa — quale inquadramento è più produttivo?",
+                    "text": "Una popolazione che invecchia come crisi vs come risorsa: quale inquadramento è più produttivo?",
                     "examples": []
                 }
             ],
@@ -443,7 +443,7 @@
             "id": "it_upper_intermediate_work_011"
         },
         {
-            "topic": "Responsabilità personale per la salute vs fattori sistemici — cosa ha più peso nello spiegare i risultati sanitari?",
+            "topic": "Responsabilità personale per la salute vs fattori sistemici: cosa ha più peso nello spiegare i risultati sanitari?",
             "sideA": "Responsabilità personale",
             "sideB": "Fattori sistemici",
             "level": "upper_intermediate",
@@ -456,10 +456,10 @@
                 "Lo status socio-economico e l'accesso a cibo nutriente e conveniente sono spesso al di fuori del controllo diretto di un individuo.",
                 "Fattori ambientali come l'inquinamento e le condizioni di lavoro hanno un impatto profondo sulla salute di una popolazione."
             ],
-            "word": "Responsabilità personale per la salute vs fattori sistemici — cosa ha più peso nello spiegare i risultati sanitari?",
+            "word": "Responsabilità personale per la salute vs fattori sistemici: cosa ha più peso nello spiegare i risultati sanitari?",
             "definitions": [
                 {
-                    "text": "Responsabilità personale per la salute vs fattori sistemici — cosa ha più peso nello spiegare i risultati sanitari?",
+                    "text": "Responsabilità personale per la salute vs fattori sistemici: cosa ha più peso nello spiegare i risultati sanitari?",
                     "examples": []
                 }
             ],
@@ -469,7 +469,7 @@
             "id": "it_upper_intermediate_health_medicine_001"
         },
         {
-            "topic": "Giornate per la salute mentale come legittimo diritto sul posto di lavoro vs fonte di abusi — dove dovrebbero tracciare il limite i datori di lavoro?",
+            "topic": "Giornate per la salute mentale come legittimo diritto sul posto di lavoro vs fonte di abusi: dove dovrebbero tracciare il limite i datori di lavoro?",
             "sideA": "Diritto legittimo",
             "sideB": "Fonte di abusi",
             "level": "upper_intermediate",
@@ -482,10 +482,10 @@
                 "Senza linee guida chiare, alcuni dipendenti potrebbero usare i giorni di salute mentale per evitare scadenze o prendere ferie extra.",
                 "Un'elevata frequenza di assenze non programmate può interrompere i flussi di lavoro e gravare ingiustamente sugli altri membri del team."
             ],
-            "word": "Giornate per la salute mentale come legittimo diritto sul posto di lavoro vs fonte di abusi — dove dovrebbero tracciare il limite i datori di lavoro?",
+            "word": "Giornate per la salute mentale come legittimo diritto sul posto di lavoro vs fonte di abusi: dove dovrebbero tracciare il limite i datori di lavoro?",
             "definitions": [
                 {
-                    "text": "Giornate per la salute mentale come legittimo diritto sul posto di lavoro vs fonte di abusi — dove dovrebbero tracciare il limite i datori di lavoro?",
+                    "text": "Giornate per la salute mentale come legittimo diritto sul posto di lavoro vs fonte di abusi: dove dovrebbero tracciare il limite i datori di lavoro?",
                     "examples": []
                 }
             ],
@@ -495,7 +495,7 @@
             "id": "it_upper_intermediate_language_006"
         },
         {
-            "topic": "Medicina preventiva vs medicina curativa — quale dovrebbe ricevere più finanziamenti pubblici?",
+            "topic": "Medicina preventiva vs medicina curativa: quale dovrebbe ricevere più finanziamenti pubblici?",
             "sideA": "Preventiva",
             "sideB": "Curativa",
             "level": "upper_intermediate",
@@ -508,10 +508,10 @@
                 "L'etica sociale richiede di fornire la migliore assistenza possibile a coloro che attualmente soffrono di malattie.",
                 "La medicina curativa è essenziale per gestire le emergenze e le condizioni croniche che non possono essere prevenute."
             ],
-            "word": "Medicina preventiva vs medicina curativa — quale dovrebbe ricevere più finanziamenti pubblici?",
+            "word": "Medicina preventiva vs medicina curativa: quale dovrebbe ricevere più finanziamenti pubblici?",
             "definitions": [
                 {
-                    "text": "Medicina preventiva vs medicina curativa — quale dovrebbe ricevere più finanziamenti pubblici?",
+                    "text": "Medicina preventiva vs medicina curativa: quale dovrebbe ricevere più finanziamenti pubblici?",
                     "examples": []
                 }
             ],
@@ -521,7 +521,7 @@
             "id": "it_upper_intermediate_health_medicine_002"
         },
         {
-            "topic": "Medicina anti-invecchiamento vs invecchiare con grazia — quale atteggiamento è più coerente?",
+            "topic": "Medicina anti-invecchiamento vs invecchiare con grazia: quale atteggiamento è più coerente?",
             "sideA": "Anti-age",
             "sideB": "Invecchiare con grazia",
             "level": "upper_intermediate",
@@ -534,10 +534,10 @@
                 "L'invecchiamento è una parte naturale dell'esperienza umana che dovrebbe essere accettata e abbracciata con dignità.",
                 "L'ossessione per la giovinezza può portare a procedure mediche non necessarie e alla mancata valorizzazione della saggezza dell'età."
             ],
-            "word": "Medicina anti-invecchiamento vs invecchiare con grazia — quale atteggiamento è più coerente?",
+            "word": "Medicina anti-invecchiamento vs invecchiare con grazia: quale atteggiamento è più coerente?",
             "definitions": [
                 {
-                    "text": "Medicina anti-invecchiamento vs invecchiare con grazia — quale atteggiamento è più coerente?",
+                    "text": "Medicina anti-invecchiamento vs invecchiare con grazia: quale atteggiamento è più coerente?",
                     "examples": []
                 }
             ],
@@ -547,7 +547,7 @@
             "id": "it_upper_intermediate_health_medicine_003"
         },
         {
-            "topic": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy — dove dovrebbe risiedere l'equilibrio?",
+            "topic": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy: dove dovrebbe risiedere l'equilibrio?",
             "sideA": "Sicurezza pubblica",
             "sideB": "Privacy",
             "level": "upper_intermediate",
@@ -560,10 +560,10 @@
                 "La sorveglianza di massa può portare a un 'effetto raggelante' in cui le persone hanno paura di esprimersi o protestare.",
                 "Proteggere i dati personali è un diritto umano fondamentale che impedisce l'abuso di potere da parte di governi o aziende."
             ],
-            "word": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy — dove dovrebbe risiedere l'equilibrio?",
+            "word": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy: dove dovrebbe risiedere l'equilibrio?",
             "definitions": [
                 {
-                    "text": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy — dove dovrebbe risiedere l'equilibrio?",
+                    "text": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy: dove dovrebbe risiedere l'equilibrio?",
                     "examples": []
                 }
             ],
@@ -573,7 +573,7 @@
             "id": "it_upper_intermediate_technology_002"
         },
         {
-            "topic": "I social media come strumento di impegno civile vs come motore di polarizzazione — quale effetto domina?",
+            "topic": "I social media come strumento di impegno civile vs come motore di polarizzazione: quale effetto domina?",
             "sideA": "Impegno civile",
             "sideB": "Polarizzazione",
             "level": "upper_intermediate",
@@ -586,10 +586,10 @@
                 "Gli algoritmi tendono a creare camere dell'eco che rafforzano i pregiudizi esistenti e l'ostilità verso le opinioni opposte.",
                 "La diffusione di disinformazione e 'fake news' può minare i processi democratici e la coesione sociale."
             ],
-            "word": "I social media come strumento di impegno civile vs come motore di polarizzazione — quale effetto domina?",
+            "word": "I social media come strumento di impegno civile vs come motore di polarizzazione: quale effetto domina?",
             "definitions": [
                 {
-                    "text": "I social media come strumento di impegno civile vs come motore di polarizzazione — quale effetto domina?",
+                    "text": "I social media come strumento di impegno civile vs come motore di polarizzazione: quale effetto domina?",
                     "examples": []
                 }
             ],
@@ -599,7 +599,7 @@
             "id": "it_upper_intermediate_technology_003"
         },
         {
-            "topic": "L'IA nel reclutamento vs giudizio umano — cosa produce decisioni di assunzione più eque?",
+            "topic": "L'IA nel reclutamento vs giudizio umano: cosa produce decisioni di assunzione più eque?",
             "sideA": "IA",
             "sideB": "Giudizio umano",
             "level": "upper_intermediate",
@@ -612,10 +612,10 @@
                 "Gli algoritmi possono inavvertitamente apprendere e replicare i pregiudizi esistenti presenti nei dati storici su cui sono addestrati.",
                 "I reclutatori umani possono valutare le 'soft skills', l'adattamento culturale e il potenziale in modi che il software non può attualmente eguagliare."
             ],
-            "word": "L'IA nel reclutamento vs giudizio umano — cosa produce decisioni di assunzione più eque?",
+            "word": "L'IA nel reclutamento vs giudizio umano: cosa produce decisioni di assunzione più eque?",
             "definitions": [
                 {
-                    "text": "L'IA nel reclutamento vs giudizio umano — cosa produce decisioni di assunzione più eque?",
+                    "text": "L'IA nel reclutamento vs giudizio umano: cosa produce decisioni di assunzione più eque?",
                     "examples": []
                 }
             ],
@@ -625,7 +625,7 @@
             "id": "it_upper_intermediate_technology_004"
         },
         {
-            "topic": "Il diritto all'oblio online vs il diritto all'informazione del pubblico — cosa dovrebbe avere la precedenza?",
+            "topic": "Il diritto all'oblio online vs il diritto all'informazione del pubblico: cosa dovrebbe avere la precedenza?",
             "sideA": "Diritto all'oblio",
             "sideB": "Diritto info",
             "level": "upper_intermediate",
@@ -638,10 +638,10 @@
                 "Il pubblico ha un interesse legittimo ad accedere a documenti storici accurati, specialmente riguardanti figure pubbliche.",
                 "Censurare i risultati di ricerca potrebbe portare a una visione distorta della verità e minare la libertà di stampa."
             ],
-            "word": "Il diritto all'oblio online vs il diritto all'informazione del pubblico — cosa dovrebbe avere la precedenza?",
+            "word": "Il diritto all'oblio online vs il diritto all'informazione del pubblico: cosa dovrebbe avere la precedenza?",
             "definitions": [
                 {
-                    "text": "Il diritto all'oblio online vs il diritto all'informazione del pubblico — cosa dovrebbe avere la precedenza?",
+                    "text": "Il diritto all'oblio online vs il diritto all'informazione del pubblico: cosa dovrebbe avere la precedenza?",
                     "examples": []
                 }
             ],
@@ -651,7 +651,7 @@
             "id": "it_upper_intermediate_technology_005"
         },
         {
-            "topic": "Voto obbligatorio vs voto volontario — cosa produce democrazie più sane?",
+            "topic": "Voto obbligatorio vs voto volontario: cosa produce democrazie più sane?",
             "sideA": "Obbligatorio",
             "sideB": "Volontario",
             "level": "upper_intermediate",
@@ -664,10 +664,10 @@
                 "Il diritto di voto dovrebbe includere anche il diritto di scegliere di non partecipare se non ci si sente rappresentati.",
                 "I sistemi volontari garantiscono che chi vota sia realmente impegnato e motivato dalle proprie convinzioni."
             ],
-            "word": "Voto obbligatorio vs voto volontario — cosa produce democrazie più sane?",
+            "word": "Voto obbligatorio vs voto volontario: cosa produce democrazie più sane?",
             "definitions": [
                 {
-                    "text": "Voto obbligatorio vs voto volontario — cosa produce democrazie più sane?",
+                    "text": "Voto obbligatorio vs voto volontario: cosa produce democrazie più sane?",
                     "examples": []
                 }
             ],
@@ -677,7 +677,7 @@
             "id": "it_upper_intermediate_work_012"
         },
         {
-            "topic": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali — cosa è più efficace per gli adulti di oggi?",
+            "topic": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali: cosa è più efficace per gli adulti di oggi?",
             "sideA": "Protesta",
             "sideB": "Istituzionale",
             "level": "upper_intermediate",
@@ -690,10 +690,10 @@
                 "Lavorare all'interno dei canali stabiliti porta a cambiamenti più sostenibili e legali.",
                 "L'impegno istituzionale consente un dibattito sfumato e la complessa negoziazione necessaria per approvare una legislazione efficace."
             ],
-            "word": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali — cosa è più efficace per gli adulti di oggi?",
+            "word": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali: cosa è più efficace per gli adulti di oggi?",
             "definitions": [
                 {
-                    "text": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali — cosa è più efficace per gli adulti di oggi?",
+                    "text": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali: cosa è più efficace per gli adulti di oggi?",
                     "examples": []
                 }
             ],
@@ -703,7 +703,7 @@
             "id": "it_upper_intermediate_work_013"
         },
         {
-            "topic": "Identità nazionale vs identità europea o globale — cosa è più significativo per gli adulti nel 2026?",
+            "topic": "Identità nazionale vs identità europea o globale: cosa è più significativo per gli adulti nel 2026?",
             "sideA": "Identità nazionale",
             "sideB": "Identità globale",
             "level": "upper_intermediate",
@@ -716,10 +716,10 @@
                 "Le sfide globali richiedono un'identità unificata e una cooperazione internazionale.",
                 "In un mondo interconnesso, molte persone si sentono più allineate con i valori universali che con i ristretti interessi nazionali."
             ],
-            "word": "Identità nazionale vs identità europea o globale — cosa è più significativo per gli adulti nel 2026?",
+            "word": "Identità nazionale vs identità europea o globale: cosa è più significativo per gli adulti nel 2026?",
             "definitions": [
                 {
-                    "text": "Identità nazionale vs identità europea o globale — cosa è più significativo per gli adulti nel 2026?",
+                    "text": "Identità nazionale vs identità europea o globale: cosa è più significativo per gli adulti nel 2026?",
                     "examples": []
                 }
             ],
@@ -729,7 +729,7 @@
             "id": "it_upper_intermediate_work_014"
         },
         {
-            "topic": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa — quale è la scelta politica più difendibile?",
+            "topic": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa: quale è la scelta politica più difendibile?",
             "sideA": "Aumento tasse",
             "sideB": "Tagli alla spesa",
             "level": "upper_intermediate",
@@ -742,10 +742,10 @@
                 "Abbassare le tasse può stimolare la crescita economica lasciando più soldi nelle mani di individui e imprese.",
                 "I tagli alla spesa costringono i governi a essere più efficienti ed eliminare programmi dispendiosi o non necessari."
             ],
-            "word": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa — quale è la scelta politica più difendibile?",
+            "word": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa: quale è la scelta politica più difendibile?",
             "definitions": [
                 {
-                    "text": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa — quale è la scelta politica più difendibile?",
+                    "text": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa: quale è la scelta politica più difendibile?",
                     "examples": []
                 }
             ],
@@ -755,7 +755,7 @@
             "id": "it_upper_intermediate_work_015"
         },
         {
-            "topic": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo — quale è l'esperienza adulta più universale?",
+            "topic": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo: quale è l'esperienza adulta più universale?",
             "sideA": "Ammettere ignoranza",
             "sideB": "Fingere",
             "level": "upper_intermediate",
@@ -768,10 +768,10 @@
                 "La pressione per apparire competenti porta spesso gli adulti a fingere conoscenza in materia finanziaria.",
                 "Fingere di capire argomenti complessi è una comune strategia di sopravvivenza sociale in molti contesti professionali."
             ],
-            "word": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo — quale è l'esperienza adulta più universale?",
+            "word": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo: quale è l'esperienza adulta più universale?",
             "definitions": [
                 {
-                    "text": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo — quale è l'esperienza adulta più universale?",
+                    "text": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo: quale è l'esperienza adulta più universale?",
                     "examples": []
                 }
             ],
@@ -781,7 +781,7 @@
             "id": "it_upper_intermediate_work_016"
         },
         {
-            "topic": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi — quale ruolo è più estenuante?",
+            "topic": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi: quale ruolo è più estenuante?",
             "sideA": "L'organizzatore",
             "sideB": "L'ospite",
             "level": "upper_intermediate",
@@ -794,10 +794,10 @@
                 "Essere sempre un ospite può portare a una sensazione di mancanza di controllo e allo sforzo di adattarsi costantemente ai piani altrui.",
                 "Socializzare può essere mentalmente faticoso anche per chi non ha la responsabilità aggiuntiva dell'organizzazione."
             ],
-            "word": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi — quale ruolo è più estenuante?",
+            "word": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi: quale ruolo è più estenuante?",
             "definitions": [
                 {
-                    "text": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi — quale ruolo è più estenuante?",
+                    "text": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi: quale ruolo è più estenuante?",
                     "examples": []
                 }
             ],
@@ -807,7 +807,7 @@
             "id": "it_upper_intermediate_work_017"
         },
         {
-            "topic": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto — quale persona è più tollerabile?",
+            "topic": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto: quale persona è più tollerabile?",
             "sideA": "Opinione forte",
             "sideB": "Indifferenza",
             "level": "upper_intermediate",
@@ -820,10 +820,10 @@
                 "Un atteggiamento rilassato previene conflitti non necessari e favorisce un luogo di lavoro più tollerante e meno stressante.",
                 "Concentrarsi sul lavoro piuttosto che sulle banali abitudini domestiche rende il collega più professionale."
             ],
-            "word": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto — quale persona è più tollerabile?",
+            "word": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto: quale persona è più tollerabile?",
             "definitions": [
                 {
-                    "text": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto — quale persona è più tollerabile?",
+                    "text": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto: quale persona è più tollerabile?",
                     "examples": []
                 }
             ],
@@ -833,7 +833,7 @@
             "id": "it_upper_intermediate_language_007"
         },
         {
-            "topic": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno — quale strategia è migliore per la carriera e la salute mentale?",
+            "topic": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno: quale strategia è migliore per la carriera e la salute mentale?",
             "sideA": "Tutti",
             "sideB": "Nessuno",
             "level": "upper_intermediate",
@@ -846,10 +846,10 @@
                 "Stabilire confini chiari tra lavoro e vita privata è essenziale per mantenere la salute mentale a lungo termine.",
                 "La salute mentale è meglio preservata trascorrendo tempo di qualità con famiglia e amici piuttosto che sentirsi obbligati a eventi di lavoro."
             ],
-            "word": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno — quale strategia è migliore per la carriera e la salute mentale?",
+            "word": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno: quale strategia è migliore per la carriera e la salute mentale?",
             "definitions": [
                 {
-                    "text": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno — quale strategia è migliore per la carriera e la salute mentale?",
+                    "text": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno: quale strategia è migliore per la carriera e la salute mentale?",
                     "examples": []
                 }
             ],
@@ -859,7 +859,7 @@
             "id": "it_upper_intermediate_language_008"
         },
         {
-            "topic": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla — quale gruppo è più affidabile?",
+            "topic": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla: quale gruppo è più affidabile?",
             "sideA": "Confusi",
             "sideB": "Divertiti",
             "level": "upper_intermediate",
@@ -872,10 +872,10 @@
                 "Provare piacere in compiti meticolosi suggerisce un alto livello di competenza, attenzione ai dettagli e affidabilità.",
                 "Chi ama l'organizzazione e la conformità è probabilmente responsabile e affidabile anche in altre aree della vita."
             ],
-            "word": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla — quale gruppo è più affidabile?",
+            "word": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla: quale gruppo è più affidabile?",
             "definitions": [
                 {
-                    "text": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla — quale gruppo è più affidabile?",
+                    "text": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla: quale gruppo è più affidabile?",
                     "examples": []
                 }
             ],
@@ -885,7 +885,7 @@
             "id": "it_upper_intermediate_work_018"
         },
         {
-            "topic": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene — quale è la risposta adulta più onesta?",
+            "topic": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene: quale è la risposta adulta più onesta?",
             "sideA": "Lamentarsi",
             "sideB": "Fingere tutto bene",
             "level": "upper_intermediate",
@@ -898,10 +898,10 @@
                 "Mantenere una prospettiva positiva può essere un modo per gestire lo stress e non far dominare le preoccupazioni finanziarie.",
                 "Alcuni preferiscono mantenere privata la propria situazione finanziaria per mantenere la dignità ed evitare di gravare sugli altri."
             ],
-            "word": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene — quale è la risposta adulta più onesta?",
+            "word": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene: quale è la risposta adulta più onesta?",
             "definitions": [
                 {
-                    "text": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene — quale è la risposta adulta più onesta?",
+                    "text": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene: quale è la risposta adulta più onesta?",
                     "examples": []
                 }
             ],
@@ -911,7 +911,7 @@
             "id": "it_upper_intermediate_work_019"
         },
         {
-            "topic": "Social media vs interazioni faccia a faccia — cosa è meglio per costruire relazioni?",
+            "topic": "Social media vs interazioni faccia a faccia: cosa è meglio per costruire relazioni?",
             "sideA": "Social media",
             "sideB": "Faccia a faccia",
             "level": "upper_intermediate",
@@ -924,10 +924,10 @@
                 "La presenza fisica e gli indizi non verbali sono essenziali per costruire una fiducia profonda e un'intimità emotiva.",
                 "Le interazioni di persona hanno meno probabilità di essere interpretate male e favoriscono connessioni più significative."
             ],
-            "word": "Social media vs interazioni faccia a faccia — cosa è meglio per costruire relazioni?",
+            "word": "Social media vs interazioni faccia a faccia: cosa è meglio per costruire relazioni?",
             "definitions": [
                 {
-                    "text": "Social media vs interazioni faccia a faccia — cosa è meglio per costruire relazioni?",
+                    "text": "Social media vs interazioni faccia a faccia: cosa è meglio per costruire relazioni?",
                     "examples": []
                 }
             ],
@@ -937,7 +937,7 @@
             "id": "it_upper_intermediate_work_020"
         },
         {
-            "topic": "Vita urbana vs vita rurale — quale offre una migliore qualità della vita?",
+            "topic": "Vita urbana vs vita rurale: quale offre una migliore qualità della vita?",
             "sideA": "Urbana",
             "sideB": "Rurale",
             "level": "upper_intermediate",
@@ -950,10 +950,10 @@
                 "Le aree rurali offrono un ambiente tranquillo con meno inquinamento, più spazio e un legame più forte con la natura.",
                 "Un ritmo di vita più lento e comunità più piccole possono portare a meno stress e legami sociali più significativi."
             ],
-            "word": "Vita urbana vs vita rurale — quale offre una migliore qualità della vita?",
+            "word": "Vita urbana vs vita rurale: quale offre una migliore qualità della vita?",
             "definitions": [
                 {
-                    "text": "Vita urbana vs vita rurale — quale offre una migliore qualità della vita?",
+                    "text": "Vita urbana vs vita rurale: quale offre una migliore qualità della vita?",
                     "examples": []
                 }
             ],
@@ -963,7 +963,7 @@
             "id": "it_upper_intermediate_work_021"
         },
         {
-            "topic": "Apprendimento online vs aula tradizionale — quale è il futuro dell'istruzione?",
+            "topic": "Apprendimento online vs aula tradizionale: quale è il futuro dell'istruzione?",
             "sideA": "Online",
             "sideB": "Aula",
             "level": "upper_intermediate",
@@ -976,10 +976,10 @@
                 "L'interazione faccia a faccia con insegnanti e compagni è cruciale per sviluppare abilità sociali e capacità collaborative.",
                 "Un'aula fisica fornisce un ambiente strutturato che può favorire la concentrazione e la disciplina."
             ],
-            "word": "Apprendimento online vs aula tradizionale — quale è il futuro dell'istruzione?",
+            "word": "Apprendimento online vs aula tradizionale: quale è il futuro dell'istruzione?",
             "definitions": [
                 {
-                    "text": "Apprendimento online vs aula tradizionale — quale è il futuro dell'istruzione?",
+                    "text": "Apprendimento online vs aula tradizionale: quale è il futuro dell'istruzione?",
                     "examples": []
                 }
             ],
@@ -989,7 +989,7 @@
             "id": "it_upper_intermediate_language_009"
         },
         {
-            "topic": "Energia rinnovabile vs energia nucleare — quale è la soluzione migliore per il clima?",
+            "topic": "Energia rinnovabile vs energia nucleare: quale è la soluzione migliore per il clima?",
             "sideA": "Rinnovabile",
             "sideB": "Nucleare",
             "level": "upper_intermediate",
@@ -1002,10 +1002,10 @@
                 "L'energia nucleare fornisce un 'carico di base' costante e affidabile non dipendente dalle condizioni meteorologiche.",
                 "La moderna tecnologia nucleare genera enormi quantità di elettricità con emissioni di carbonio estremamente basse."
             ],
-            "word": "Energia rinnovabile vs energia nucleare — quale è la soluzione migliore per il clima?",
+            "word": "Energia rinnovabile vs energia nucleare: quale è la soluzione migliore per il clima?",
             "definitions": [
                 {
-                    "text": "Energia rinnovabile vs energia nucleare — quale è la soluzione migliore per il clima?",
+                    "text": "Energia rinnovabile vs energia nucleare: quale è la soluzione migliore per il clima?",
                     "examples": []
                 }
             ],
@@ -1015,7 +1015,7 @@
             "id": "it_upper_intermediate_environment_001"
         },
         {
-            "topic": "Fast fashion vs abbigliamento sostenibile — possiamo permetterci di essere etici?",
+            "topic": "Fast fashion vs abbigliamento sostenibile: possiamo permetterci di essere etici?",
             "sideA": "Fast fashion",
             "sideB": "Sostenibile",
             "level": "upper_intermediate",
@@ -1028,10 +1028,10 @@
                 "L'abbigliamento sostenibile è di qualità superiore e dura più a lungo, il che è più economico ed ecologico a lungo termine.",
                 "Sostenere marchi etici aiuta a combattere lo sfruttamento dei lavoratori e i massicci danni ambientali causati dall'industria."
             ],
-            "word": "Fast fashion vs abbigliamento sostenibile — possiamo permetterci di essere etici?",
+            "word": "Fast fashion vs abbigliamento sostenibile: possiamo permetterci di essere etici?",
             "definitions": [
                 {
-                    "text": "Fast fashion vs abbigliamento sostenibile — possiamo permetterci di essere etici?",
+                    "text": "Fast fashion vs abbigliamento sostenibile: possiamo permetterci di essere etici?",
                     "examples": []
                 }
             ],
@@ -1041,7 +1041,7 @@
             "id": "it_upper_intermediate_environment_002"
         },
         {
-            "topic": "Specializzarsi presto vs un'istruzione generale ampia — cosa prepara meglio gli studenti alla vita?",
+            "topic": "Specializzarsi presto vs un'istruzione generale ampia: cosa prepara meglio gli studenti alla vita?",
             "sideA": "Specializzazione",
             "sideB": "Istruzione ampia",
             "level": "upper_intermediate",
@@ -1054,10 +1054,10 @@
                 "Un'istruzione ampia favorisce il pensiero critico tra diverse discipline e prepara a un futuro imprevedibile.",
                 "Imparare una varietà di materie aiuta a scoprire le proprie passioni e a diventare cittadini più completi."
             ],
-            "word": "Specializzarsi presto vs un'istruzione generale ampia — cosa prepara meglio gli studenti alla vita?",
+            "word": "Specializzarsi presto vs un'istruzione generale ampia: cosa prepara meglio gli studenti alla vita?",
             "definitions": [
                 {
-                    "text": "Specializzarsi presto vs un'istruzione generale ampia — cosa prepara meglio gli studenti alla vita?",
+                    "text": "Specializzarsi presto vs un'istruzione generale ampia: cosa prepara meglio gli studenti alla vita?",
                     "examples": []
                 }
             ],
@@ -1067,7 +1067,7 @@
             "id": "it_upper_intermediate_language_010"
         },
         {
-            "topic": "Capacità di pensiero critico vs conoscenza della materia — a cosa dovrebbero dare priorità le scuole?",
+            "topic": "Capacità di pensiero critico vs conoscenza della materia: a cosa dovrebbero dare priorità le scuole?",
             "sideA": "Pensiero critico",
             "sideB": "Conoscenza della materia",
             "level": "upper_intermediate",
@@ -1080,10 +1080,10 @@
                 "Una solida base di conoscenze specifiche è necessaria prima di poter iniziare a pensare criticamente a un argomento.",
                 "La conoscenza approfondita fornisce il contesto e le prove richieste per un'analisi significativa e accurata."
             ],
-            "word": "Capacità di pensiero critico vs conoscenza della materia — a cosa dovrebbero dare priorità le scuole?",
+            "word": "Capacità di pensiero critico vs conoscenza della materia: a cosa dovrebbero dare priorità le scuole?",
             "definitions": [
                 {
-                    "text": "Capacità di pensiero critico vs conoscenza della materia — a cosa dovrebbero dare priorità le scuole?",
+                    "text": "Capacità di pensiero critico vs conoscenza della materia: a cosa dovrebbero dare priorità le scuole?",
                     "examples": []
                 }
             ],
@@ -1093,7 +1093,7 @@
             "id": "it_upper_intermediate_language_011"
         },
         {
-            "topic": "Tasse universitarie vs università gratuita — quale modello è più equo?",
+            "topic": "Tasse universitarie vs università gratuita: quale modello è più equo?",
             "sideA": "Tasse universitarie",
             "sideB": "Università gratuita",
             "level": "upper_intermediate",
@@ -1106,10 +1106,10 @@
                 "L'istruzione superiore dovrebbe essere un diritto fondamentale accessibile a tutti, indipendentemente dal reddito.",
                 "L'università gratuita impedisce agli studenti di laurearsi con debiti enormi e incoraggia la mobilità sociale."
             ],
-            "word": "Tasse universitarie vs università gratuita — quale modello è più equo?",
+            "word": "Tasse universitarie vs università gratuita: quale modello è più equo?",
             "definitions": [
                 {
-                    "text": "Tasse universitarie vs università gratuita — quale modello è più equo?",
+                    "text": "Tasse universitarie vs università gratuita: quale modello è più equo?",
                     "examples": []
                 }
             ],
@@ -1119,7 +1119,7 @@
             "id": "it_upper_intermediate_work_022"
         },
         {
-            "topic": "Test standardizzati vs valutazione del portfolio — cosa riflette più accuratamente le capacità?",
+            "topic": "Test standardizzati vs valutazione del portfolio: cosa riflette più accuratamente le capacità?",
             "sideA": "Test standardizzati",
             "sideB": "Valutazione portfolio",
             "level": "upper_intermediate",
@@ -1132,10 +1132,10 @@
                 "I portfolio mostrano i progressi e i risultati in un lungo periodo, fornendo una visione più completa delle abilità.",
                 "Una varietà di campioni di lavoro permette di valutare creatività, persistenza e applicazione pratica."
             ],
-            "word": "Test standardizzati vs valutazione del portfolio — cosa riflette più accuratamente le capacità?",
+            "word": "Test standardizzati vs valutazione del portfolio: cosa riflette più accuratamente le capacità?",
             "definitions": [
                 {
-                    "text": "Test standardizzati vs valutazione del portfolio — cosa riflette più accuratamente le capacità?",
+                    "text": "Test standardizzati vs valutazione del portfolio: cosa riflette più accuratamente le capacità?",
                     "examples": []
                 }
             ],
@@ -1145,7 +1145,7 @@
             "id": "it_upper_intermediate_language_012"
         },
         {
-            "topic": "Intelligenza accademica vs intelligenza emotiva — cosa conta di più per il successo?",
+            "topic": "Intelligenza accademica vs intelligenza emotiva: cosa conta di più per il successo?",
             "sideA": "Intelligenza accademica",
             "sideB": "Intelligenza emotiva",
             "level": "upper_intermediate",
@@ -1158,10 +1158,10 @@
                 "La capacità di gestire le emozioni e costruire relazioni è fondamentale per la leadership e il lavoro di squadra.",
                 "L'intelligenza emotiva aiuta a navigare nelle complessità sociali e ad adattarsi alle sfide del mondo moderno."
             ],
-            "word": "Intelligenza accademica vs intelligenza emotiva — cosa conta di più per il successo?",
+            "word": "Intelligenza accademica vs intelligenza emotiva: cosa conta di più per il successo?",
             "definitions": [
                 {
-                    "text": "Intelligenza accademica vs intelligenza emotiva — cosa conta di più per il successo?",
+                    "text": "Intelligenza accademica vs intelligenza emotiva: cosa conta di più per il successo?",
                     "examples": []
                 }
             ],
@@ -1171,7 +1171,7 @@
             "id": "it_upper_intermediate_language_013"
         },
         {
-            "topic": "Insegnare la creatività vs insegnare la disciplina — quale dovrebbe essere il focus dell'istruzione moderna?",
+            "topic": "Insegnare la creatività vs insegnare la disciplina: quale dovrebbe essere il focus dell'istruzione moderna?",
             "sideA": "Creatività",
             "sideB": "Disciplina",
             "level": "upper_intermediate",
@@ -1184,10 +1184,10 @@
                 "Sviluppare la disciplina e una forte etica del lavoro è fondamentale per raggiungere obiettivi a lungo termine.",
                 "Un ambiente strutturato aiuta gli studenti a costruire la persistenza e la concentrazione necessarie per abilità difficili."
             ],
-            "word": "Insegnare la creatività vs insegnare la disciplina — quale dovrebbe essere il focus dell'istruzione moderna?",
+            "word": "Insegnare la creatività vs insegnare la disciplina: quale dovrebbe essere il focus dell'istruzione moderna?",
             "definitions": [
                 {
-                    "text": "Insegnare la creatività vs insegnare la disciplina — quale dovrebbe essere il focus dell'istruzione moderna?",
+                    "text": "Insegnare la creatività vs insegnare la disciplina: quale dovrebbe essere il focus dell'istruzione moderna?",
                     "examples": []
                 }
             ],
@@ -1197,7 +1197,7 @@
             "id": "it_upper_intermediate_language_014"
         },
         {
-            "topic": "Regolamentazione dei social media vs libertà di espressione — a cosa dovrebbe essere data la priorità?",
+            "topic": "Regolamentazione dei social media vs libertà di espressione: a cosa dovrebbe essere data la priorità?",
             "sideA": "Regolamentazione",
             "sideB": "Libertà di espressione",
             "level": "upper_intermediate",
@@ -1210,10 +1210,10 @@
                 "Il diritto di esprimersi senza censura è un pilastro della democrazia e deve essere protetto ad ogni costo.",
                 "Un'eccessiva regolamentazione potrebbe portare alla soppressione delle voci dissenzienti e dare ai governi troppo potere."
             ],
-            "word": "Regolamentazione dei social media vs libertà di espressione — a cosa dovrebbe essere data la priorità?",
+            "word": "Regolamentazione dei social media vs libertà di espressione: a cosa dovrebbe essere data la priorità?",
             "definitions": [
                 {
-                    "text": "Regolamentazione dei social media vs libertà di espressione — a cosa dovrebbe essere data la priorità?",
+                    "text": "Regolamentazione dei social media vs libertà di espressione: a cosa dovrebbe essere data la priorità?",
                     "examples": []
                 }
             ],
@@ -1223,7 +1223,7 @@
             "id": "it_upper_intermediate_technology_006"
         },
         {
-            "topic": "Curatela algoritmica vs selezione editoriale — quale è il modo più affidabile di fornire notizie?",
+            "topic": "Curatela algoritmica vs selezione editoriale: quale è il modo più affidabile di fornire notizie?",
             "sideA": "Algoritmi",
             "sideB": "Selezione editoriale",
             "level": "upper_intermediate",
@@ -1236,10 +1236,10 @@
                 "Gli editori umani forniscono contesto essenziale, supervisione etica e un impegno per l'accuratezza giornalistica.",
                 "I giornalisti professionisti possono indagare su storie complesse in modi che gli algoritmi non possono attualmente eguagliare."
             ],
-            "word": "Curatela algoritmica vs selezione editoriale — quale è il modo più affidabile di fornire notizie?",
+            "word": "Curatela algoritmica vs selezione editoriale: quale è il modo più affidabile di fornire notizie?",
             "definitions": [
                 {
-                    "text": "Curatela algoritmica vs selezione editoriale — quale è il modo più affidabile di fornire notizie?",
+                    "text": "Curatela algoritmica vs selezione editoriale: quale è il modo più affidabile di fornire notizie?",
                     "examples": []
                 }
             ],
@@ -1249,7 +1249,7 @@
             "id": "it_upper_intermediate_technology_007"
         },
         {
-            "topic": "Crescita economica vs protezione ambientale — possono coesistere o una deve cedere il passo?",
+            "topic": "Crescita economica vs protezione ambientale: possono coesistere o una deve cedere il passo?",
             "sideA": "Crescita economica",
             "sideB": "Protezione ambientale",
             "level": "upper_intermediate",
@@ -1262,10 +1262,10 @@
                 "Una crescita infinita su un pianeta finito è impossibile; dobbiamo dare priorità alla salute del pianeta rispetto al PIL.",
                 "Proteggere la biodiversità e il clima è un prerequisito per qualsiasi stabilità economica o benessere umano a lungo termine."
             ],
-            "word": "Crescita economica vs protezione ambientale — possono coesistere o una deve cedere il passo?",
+            "word": "Crescita economica vs protezione ambientale: possono coesistere o una deve cedere il passo?",
             "definitions": [
                 {
-                    "text": "Crescita economica vs protezione ambientale — possono coesistere o una deve cedere il passo?",
+                    "text": "Crescita economica vs protezione ambientale: possono coesistere o una deve cedere il passo?",
                     "examples": []
                 }
             ],
@@ -1275,7 +1275,7 @@
             "id": "it_upper_intermediate_environment_003"
         },
         {
-            "topic": "Tasse sul carbonio vs sussidi verdi — quale è la politica climatica più efficace?",
+            "topic": "Tasse sul carbonio vs sussidi verdi: quale è la politica climatica più efficace?",
             "sideA": "Tasse sul carbonio",
             "sideB": "Sussidi verdi",
             "level": "upper_intermediate",
@@ -1288,10 +1288,10 @@
                 "Incentivi finanziari per energie rinnovabili e veicoli elettrici possono accelerare la transizione ecologica.",
                 "I sussidi aiutano ad abbassare il costo iniziale delle tecnologie verdi, rendendole più accessibili al grande pubblico."
             ],
-            "word": "Tasse sul carbonio vs sussidi verdi — quale è la politica climatica più efficace?",
+            "word": "Tasse sul carbonio vs sussidi verdi: quale è la politica climatica più efficace?",
             "definitions": [
                 {
-                    "text": "Tasse sul carbonio vs sussidi verdi — quale è la politica climatica più efficace?",
+                    "text": "Tasse sul carbonio vs sussidi verdi: quale è la politica climatica più efficace?",
                     "examples": []
                 }
             ],
@@ -1301,7 +1301,7 @@
             "id": "it_upper_intermediate_environment_004"
         },
         {
-            "topic": "Decrescita vs crescita sostenibile — quale è la risposta giusta alla crisi climatica?",
+            "topic": "Decrescita vs crescita sostenibile: quale è la risposta giusta alla crisi climatica?",
             "sideA": "Decrescita",
             "sideB": "Crescita sostenibile",
             "level": "upper_intermediate",
@@ -1314,10 +1314,10 @@
                 "Possiamo disaccoppiare la crescita dall'impatto ambientale attraverso innovazione, efficienza ed energia rinnovabile.",
                 "La crescita sostenibile fornisce le risorse per sollevare le persone dalla povertà proteggendo l'ambiente."
             ],
-            "word": "Decrescita vs crescita sostenibile — quale è la risposta giusta alla crisi climatica?",
+            "word": "Decrescita vs crescita sostenibile: quale è la risposta giusta alla crisi climatica?",
             "definitions": [
                 {
-                    "text": "Decrescita vs crescita sostenibile — quale è la risposta giusta alla crisi climatica?",
+                    "text": "Decrescita vs crescita sostenibile: quale è la risposta giusta alla crisi climatica?",
                     "examples": []
                 }
             ],
@@ -1327,7 +1327,7 @@
             "id": "it_upper_intermediate_environment_005"
         },
         {
-            "topic": "Responsabilità individuale vs responsabilità aziendale — chi è più colpevole per i danni ambientali?",
+            "topic": "Responsabilità individuale vs responsabilità aziendale: chi è più colpevole per i danni ambientali?",
             "sideA": "Responsabilità individuale",
             "sideB": "Responsabilità aziendale",
             "level": "upper_intermediate",
@@ -1340,10 +1340,10 @@
                 "Un piccolo numero di grandi aziende è responsabile della stragrande maggioranza delle emissioni globali.",
                 "Il cambiamento sistemico deve essere guidato da chi ha più potere piuttosto che porre l'onere sugli individui."
             ],
-            "word": "Responsabilità individuale vs responsabilità aziendale — chi è più colpevole per i danni ambientali?",
+            "word": "Responsabilità individuale vs responsabilità aziendale: chi è più colpevole per i danni ambientali?",
             "definitions": [
                 {
-                    "text": "Responsabilità individuale vs responsabilità aziendale — chi è più colpevole per i danni ambientali?",
+                    "text": "Responsabilità individuale vs responsabilità aziendale: chi è più colpevole per i danni ambientali?",
                     "examples": []
                 }
             ],
@@ -1353,7 +1353,7 @@
             "id": "it_upper_intermediate_environment_006"
         },
         {
-            "topic": "Democrazia diretta vs democrazia rappresentativa — quale è più efficace?",
+            "topic": "Democrazia diretta vs democrazia rappresentativa: quale è più efficace?",
             "sideA": "Democrazia diretta",
             "sideB": "Democrazia rappresentativa",
             "level": "upper_intermediate",
@@ -1366,10 +1366,10 @@
                 "I rappresentanti eletti hanno il tempo e l'esperienza per studiare questioni complesse e prendere decisioni informate.",
                 "I sistemi rappresentativi proteggono dalla 'tirannia della maggioranza' e garantiscono il rispetto dei diritti delle minoranze."
             ],
-            "word": "Democrazia diretta vs democrazia rappresentativa — quale è più efficace?",
+            "word": "Democrazia diretta vs democrazia rappresentativa: quale è più efficace?",
             "definitions": [
                 {
-                    "text": "Democrazia diretta vs democrazia rappresentativa — quale è più efficace?",
+                    "text": "Democrazia diretta vs democrazia rappresentativa: quale è più efficace?",
                     "examples": []
                 }
             ],
@@ -1379,7 +1379,7 @@
             "id": "it_upper_intermediate_work_023"
         },
         {
-            "topic": "Forte governo centrale vs autonomia regionale — cosa serve meglio i cittadini?",
+            "topic": "Forte governo centrale vs autonomia regionale: cosa serve meglio i cittadini?",
             "sideA": "Governo centrale",
             "sideB": "Autonomia regionale",
             "level": "upper_intermediate",
@@ -1392,10 +1392,10 @@
                 "I governi regionali sono più vicini alle persone e possono comprendere meglio i bisogni locali e le differenze culturali.",
                 "L'autonomia permette di sperimentare diverse politiche che possono poi essere adottate da altre regioni se hanno successo."
             ],
-            "word": "Forte governo centrale vs autonomia regionale — cosa serve meglio i cittadini?",
+            "word": "Forte governo centrale vs autonomia regionale: cosa serve meglio i cittadini?",
             "definitions": [
                 {
-                    "text": "Forte governo centrale vs autonomia regionale — cosa serve meglio i cittadini?",
+                    "text": "Forte governo centrale vs autonomia regionale: cosa serve meglio i cittadini?",
                     "examples": []
                 }
             ],
@@ -1405,7 +1405,7 @@
             "id": "it_upper_intermediate_work_024"
         },
         {
-            "topic": "Meritocrazia vs azioni positive — quale è la base più equa per l'opportunità?",
+            "topic": "Meritocrazia vs azioni positive: quale è la base più equa per l'opportunità?",
             "sideA": "Meritocrazia",
             "sideB": "Azioni positive",
             "level": "upper_intermediate",
@@ -1418,10 +1418,10 @@
                 "Misure proattive sono necessarie per livellare il campo di gioco e affrontare le disuguaglianze storiche e sistemiche.",
                 "La diversità nel luogo di lavoro e nell'istruzione arricchisce la società e garantisce la rappresentanza di diverse prospettive."
             ],
-            "word": "Meritocrazia vs azioni positive — quale è la base più equa per l'opportunità?",
+            "word": "Meritocrazia vs azioni positive: quale è la base più equa per l'opportunità?",
             "definitions": [
                 {
-                    "text": "Meritocrazia vs azioni positive — quale è la base più equa per l'opportunità?",
+                    "text": "Meritocrazia vs azioni positive: quale è la base più equa per l'opportunità?",
                     "examples": []
                 }
             ],
@@ -1431,7 +1431,7 @@
             "id": "it_upper_intermediate_work_025"
         },
         {
-            "topic": "Frontiere aperte vs immigrazione controllata — cosa serve meglio sia le comunità ospitanti che quelle migranti?",
+            "topic": "Frontiere aperte vs immigrazione controllata: cosa serve meglio sia le comunità ospitanti che quelle migranti?",
             "sideA": "Frontiere aperte",
             "sideB": "Immigrazione controllata",
             "level": "upper_intermediate",
@@ -1444,10 +1444,10 @@
                 "I sistemi controllati permettono ai governi di gestire i servizi pubblici e garantire l'integrazione dei nuovi arrivati.",
                 "Regolare l'immigrazione può aiutare a proteggere i salari e le condizioni di lavoro della forza lavoro esistente."
             ],
-            "word": "Frontiere aperte vs immigrazione controllata — cosa serve meglio sia le comunità ospitanti che quelle migranti?",
+            "word": "Frontiere aperte vs immigrazione controllata: cosa serve meglio sia le comunità ospitanti che quelle migranti?",
             "definitions": [
                 {
-                    "text": "Frontiere aperte vs immigrazione controllata — cosa serve meglio sia le comunità ospitanti che quelle migranti?",
+                    "text": "Frontiere aperte vs immigrazione controllata: cosa serve meglio sia le comunità ospitanti che quelle migranti?",
                     "examples": []
                 }
             ],
@@ -1457,7 +1457,7 @@
             "id": "it_upper_intermediate_work_026"
         },
         {
-            "topic": "Utilitarismo vs etica deontologica — quale offre un quadro morale migliore?",
+            "topic": "Utilitarismo vs etica deontologica: quale offre un quadro morale migliore?",
             "sideA": "Utilitarismo",
             "sideB": "Deontologia",
             "level": "upper_intermediate",
@@ -1470,10 +1470,10 @@
                 "Certe azioni sono intrinsecamente giuste o sbagliate, indipendentemente dalle conseguenze; dobbiamo seguire regole universali.",
                 "Rispettare i diritti e i doveri individuali è l'unico modo per garantire la vera giustizia e la dignità umana."
             ],
-            "word": "Utilitarismo vs etica deontologica — quale offre un quadro morale migliore?",
+            "word": "Utilitarismo vs etica deontologica: quale offre un quadro morale migliore?",
             "definitions": [
                 {
-                    "text": "Utilitarismo vs etica deontologica — quale offre un quadro morale migliore?",
+                    "text": "Utilitarismo vs etica deontologica: quale offre un quadro morale migliore?",
                     "examples": []
                 }
             ],
@@ -1483,7 +1483,7 @@
             "id": "it_upper_intermediate_language_015"
         },
         {
-            "topic": "Libertà di parola vs protezione dal danno — dove dovrebbe essere tracciato il limite?",
+            "topic": "Libertà di parola vs protezione dal danno: dove dovrebbe essere tracciato il limite?",
             "sideA": "Libertà di parola",
             "sideB": "Protezione dal danno",
             "level": "upper_intermediate",
@@ -1496,10 +1496,10 @@
                 "La società ha il dovere di proteggere i gruppi vulnerabili dai discorsi d'odio che possono portare a danni nel mondo reale.",
                 "Il diritto alla libera espressione non include il diritto di diffondere disinformazione che mette in pericolo la salute pubblica."
             ],
-            "word": "Libertà di parola vs protezione dal danno — dove dovrebbe essere tracciato il limite?",
+            "word": "Libertà di parola vs protezione dal danno: dove dovrebbe essere tracciato il limite?",
             "definitions": [
                 {
-                    "text": "Libertà di parola vs protezione dal danno — dove dovrebbe essere tracciato il limite?",
+                    "text": "Libertà di parola vs protezione dal danno: dove dovrebbe essere tracciato il limite?",
                     "examples": []
                 }
             ],
@@ -1509,7 +1509,7 @@
             "id": "it_upper_intermediate_work_027"
         },
         {
-            "topic": "Relativismo culturale vs diritti umani universali — quale è la posizione più forte?",
+            "topic": "Relativismo culturale vs diritti umani universali: quale è la posizione più forte?",
             "sideA": "Relativismo culturale",
             "sideB": "Diritti universali",
             "level": "upper_intermediate",
@@ -1522,10 +1522,10 @@
                 "I diritti umani fondamentali dovrebbero essere protetti ovunque indipendentemente dalla cultura.",
                 "Standard universali sono necessari per prevenire l'oppressione di individui e gruppi sotto il pretesto della tradizione."
             ],
-            "word": "Relativismo culturale vs diritti umani universali — quale è la posizione più forte?",
+            "word": "Relativismo culturale vs diritti umani universali: quale è la posizione più forte?",
             "definitions": [
                 {
-                    "text": "Relativismo culturale vs diritti umani universali — quale è la posizione più forte?",
+                    "text": "Relativismo culturale vs diritti umani universali: quale è la posizione più forte?",
                     "examples": []
                 }
             ],
@@ -1535,7 +1535,7 @@
             "id": "it_upper_intermediate_work_028"
         },
         {
-            "topic": "Punizione vs riabilitazione — quale dovrebbe essere l'obiettivo del sistema giudiziario?",
+            "topic": "Punizione vs riabilitazione: quale dovrebbe essere l'obiettivo del sistema giudiziario?",
             "sideA": "Punizione",
             "sideB": "Riabilitazione",
             "level": "upper_intermediate",
@@ -1548,10 +1548,10 @@
                 "L'obiettivo primario dovrebbe essere aiutare i trasgressori a reintegrarsi e affrontare le cause alla base del loro comportamento.",
                 "La riabilitazione è più efficace nel ridurre i tassi di recidiva e nel costruire una società più sicura a lungo termine."
             ],
-            "word": "Punizione vs riabilitazione — quale dovrebbe essere l'obiettivo del sistema giudiziario?",
+            "word": "Punizione vs riabilitazione: quale dovrebbe essere l'obiettivo del sistema giudiziario?",
             "definitions": [
                 {
-                    "text": "Punizione vs riabilitazione — quale dovrebbe essere l'obiettivo del sistema giudiziario?",
+                    "text": "Punizione vs riabilitazione: quale dovrebbe essere l'obiettivo del sistema giudiziario?",
                     "examples": []
                 }
             ],
@@ -1561,7 +1561,7 @@
             "id": "it_upper_intermediate_work_029"
         },
         {
-            "topic": "Sapere troppo vs sapere troppo poco — quale condizione è più pericolosa per l'adulto moderno?",
+            "topic": "Sapere troppo vs sapere troppo poco: quale condizione è più pericolosa per l'adulto moderno?",
             "sideA": "Sapere troppo",
             "sideB": "Sapere troppo poco",
             "level": "upper_intermediate",
@@ -1574,10 +1574,10 @@
                 "L'ignoranza di informazioni critiche può portare a scelte di vita sbagliate e vulnerabilità allo sfruttamento o alla disinformazione.",
                 "La mancanza di conoscenza impedisce agli individui di partecipare efficacemente ai processi democratici e al discorso sociale."
             ],
-            "word": "Sapere troppo vs sapere troppo poco — quale condizione è più pericolosa per l'adulto moderno?",
+            "word": "Sapere troppo vs sapere troppo poco: quale condizione è più pericolosa per l'adulto moderno?",
             "definitions": [
                 {
-                    "text": "Sapere troppo vs sapere troppo poco — quale condizione è più pericolosa per l'adulto moderno?",
+                    "text": "Sapere troppo vs sapere troppo poco: quale condizione è più pericolosa per l'adulto moderno?",
                     "examples": []
                 }
             ],
@@ -1587,7 +1587,7 @@
             "id": "it_upper_intermediate_language_016"
         },
         {
-            "topic": "Essere in anticipo ovunque vs essere sempre leggermente in ritardo — quale è il peggior crimine sociale?",
+            "topic": "Essere in anticipo ovunque vs essere sempre leggermente in ritardo: quale è il peggior crimine sociale?",
             "sideA": "Essere in anticipo",
             "sideB": "Essere in ritardo",
             "level": "upper_intermediate",
@@ -1600,10 +1600,10 @@
                 "Il ritardo costante dimostra una fondamentale mancanza di rispetto per il tempo altrui e per i programmi professionali.",
                 "Può danneggiare la reputazione di affidabilità e interrompere il flusso di riunioni o incontri sociali."
             ],
-            "word": "Essere in anticipo ovunque vs essere sempre leggermente in ritardo — quale è il peggior crimine sociale?",
+            "word": "Essere in anticipo ovunque vs essere sempre leggermente in ritardo: quale è il peggior crimine sociale?",
             "definitions": [
                 {
-                    "text": "Essere in anticipo ovunque vs essere sempre leggermente in ritardo — quale è il peggior crimine sociale?",
+                    "text": "Essere in anticipo ovunque vs essere sempre leggermente in ritardo: quale è il peggior crimine sociale?",
                     "examples": []
                 }
             ],
@@ -1613,7 +1613,7 @@
             "id": "it_upper_intermediate_language_017"
         },
         {
-            "topic": "Piegare il bucato immediatamente vs vivere con una montagna di panni — quale scelta di vita è più difendibile?",
+            "topic": "Piegare il bucato immediatamente vs vivere con una montagna di panni: quale scelta di vita è più difendibile?",
             "sideA": "Piegare subito",
             "sideB": "Montagna di panni",
             "level": "upper_intermediate",
@@ -1626,10 +1626,10 @@
                 "Dare priorità ad attività più significative rispetto a banali compiti domestici può portare a una vita più appagante e meno rigida.",
                 "Un approccio rilassato risparmia tempo ed energia immediati, che possono essere reindirizzati verso il lavoro, la famiglia o il relax."
             ],
-            "word": "Piegare il bucato immediatamente vs vivere con una montagna di panni — quale scelta di vita è più difendibile?",
+            "word": "Piegare il bucato immediatamente vs vivere con una montagna di panni: quale scelta di vita è più difendibile?",
             "definitions": [
                 {
-                    "text": "Piegare il bucato immediatamente vs vivere con una montagna di panni — quale scelta di vita è più difendibile?",
+                    "text": "Piegare il bucato immediatamente vs vivere con una montagna di panni: quale scelta di vita è più difendibile?",
                     "examples": []
                 }
             ],
@@ -1639,7 +1639,7 @@
             "id": "it_upper_intermediate_language_018"
         },
         {
-            "topic": "L'invenzione della sveglia vs l'invenzione del tasto 'snooze' — quale ha fatto più danni all'umanità?",
+            "topic": "L'invenzione della sveglia vs l'invenzione del tasto 'snooze': quale ha fatto più danni all'umanità?",
             "sideA": "Sveglia",
             "sideB": "Tasto snooze",
             "level": "upper_intermediate",
@@ -1652,10 +1652,10 @@
                 "Il tasto snooze incoraggia la 'frammentazione del sonno', che può lasciare gli individui più intontiti e meno vigili.",
                 "Favorisce un'abitudine alla procrastinazione e al rinvio delle responsabilità che può influire negativamente sulle prestazioni professionali."
             ],
-            "word": "L'invenzione della sveglia vs l'invenzione del tasto 'snooze' — quale ha fatto più danni all'umanità?",
+            "word": "L'invenzione della sveglia vs l'invenzione del tasto 'snooze': quale ha fatto più danni all'umanità?",
             "definitions": [
                 {
-                    "text": "L'invenzione della sveglia vs l'invenzione del tasto 'snooze' — quale ha fatto più danni all'umanità?",
+                    "text": "L'invenzione della sveglia vs l'invenzione del tasto 'snooze': quale ha fatto più danni all'umanità?",
                     "examples": []
                 }
             ],
@@ -1665,7 +1665,7 @@
             "id": "it_upper_intermediate_language_019"
         },
         {
-            "topic": "Fantasmi vs alieni — quale sarebbe una scoperta più dirompente per la società moderna?",
+            "topic": "Fantasmi vs alieni: quale sarebbe una scoperta più dirompente per la società moderna?",
             "sideA": "Fantasmi",
             "sideB": "Alieni",
             "level": "upper_intermediate",
@@ -1678,10 +1678,10 @@
                 "Il contatto con la vita extraterrestre costringerebbe l'umanità a riconsiderare il suo posto nell'universo e il suo status unico.",
                 "Potrebbe comportare rischi significativi per la sicurezza o sfide tecnologiche che la società è attualmente impreparata a gestire."
             ],
-            "word": "Fantasmi vs alieni — quale sarebbe una scoperta più dirompente per la società moderna?",
+            "word": "Fantasmi vs alieni: quale sarebbe una scoperta più dirompente per la società moderna?",
             "definitions": [
                 {
-                    "text": "Fantasmi vs alieni — quale sarebbe una scoperta più dirompente per la società moderna?",
+                    "text": "Fantasmi vs alieni: quale sarebbe una scoperta più dirompente per la società moderna?",
                     "examples": []
                 }
             ],
@@ -1691,7 +1691,7 @@
             "id": "it_upper_intermediate_language_020"
         },
         {
-            "topic": "Cereali prima del latte vs latte prima dei cereali — è una questione di preferenza o di fatto oggettivo?",
+            "topic": "Cereali prima del latte vs latte prima dei cereali: è una questione di preferenza o di fatto oggettivo?",
             "sideA": "Cereali prima",
             "sideB": "Latte prima",
             "level": "upper_intermediate",
@@ -1704,10 +1704,10 @@
                 "Aggiungere prima il latte permette di riscaldare il liquido con precisione prima di aggiungere i cereali, mantenendo la temperatura desiderata.",
                 "Assicura che i cereali rimangano più croccanti più a lungo, poiché non vengono immediatamente immersi nel latte."
             ],
-            "word": "Cereali prima del latte vs latte prima dei cereali — è una questione di preferenza o di fatto oggettivo?",
+            "word": "Cereali prima del latte vs latte prima dei cereali: è una questione di preferenza o di fatto oggettivo?",
             "definitions": [
                 {
-                    "text": "Cereali prima del latte vs latte prima dei cereali — è una questione di preferenza o di fatto oggettivo?",
+                    "text": "Cereali prima del latte vs latte prima dei cereali: è una questione di preferenza o di fatto oggettivo?",
                     "examples": []
                 }
             ],
@@ -1717,7 +1717,7 @@
             "id": "it_upper_intermediate_language_021"
         },
         {
-            "topic": "Whistleblowing vs lealtà istituzionale — quale è la scelta più etica?",
+            "topic": "Whistleblowing vs lealtà istituzionale: quale è la scelta più etica?",
             "sideA": "Whistleblowing",
             "sideB": "Lealtà",
             "level": "upper_intermediate",
@@ -1730,10 +1730,10 @@
                 "La lealtà alla propria istituzione è essenziale per mantenere la stabilità e l'efficacia di organizzazioni complesse.",
                 "Le questioni interne dovrebbero essere risolte attraverso i canali stabiliti per prevenire danni reputazionali non necessari e disordini sociali."
             ],
-            "word": "Whistleblowing vs lealtà istituzionale — quale è la scelta più etica?",
+            "word": "Whistleblowing vs lealtà istituzionale: quale è la scelta più etica?",
             "definitions": [
                 {
-                    "text": "Whistleblowing vs lealtà istituzionale — quale è la scelta più etica?",
+                    "text": "Whistleblowing vs lealtà istituzionale: quale è la scelta più etica?",
                     "examples": []
                 }
             ],
@@ -1743,7 +1743,7 @@
             "id": "it_upper_intermediate_work_030"
         },
         {
-            "topic": "Ottimismo vs realismo — quale è la visione del mondo più produttiva per la carriera?",
+            "topic": "Ottimismo vs realismo: quale è la visione del mondo più produttiva per la carriera?",
             "sideA": "Ottimismo",
             "sideB": "Realismo",
             "level": "upper_intermediate",
@@ -1756,10 +1756,10 @@
                 "Una valutazione realistica delle sfide impedisce lo spreco di risorse su obiettivi irragніungibili o progetti eccessivamente ambiziosi.",
                 "Il realismo consente una pianificazione delle emergenze e una gestione del rischio più efficaci in ambienti professionali volatili."
             ],
-            "word": "Ottimismo vs realismo — quale è la visione del mondo più produttiva per la carriera?",
+            "word": "Ottimismo vs realismo: quale è la visione del mondo più produttiva per la carriera?",
             "definitions": [
                 {
-                    "text": "Ottimismo vs realismo — quale è la visione del mondo più produttiva per la carriera?",
+                    "text": "Ottimismo vs realismo: quale è la visione del mondo più produttiva per la carriera?",
                     "examples": []
                 }
             ],
@@ -1769,7 +1769,7 @@
             "id": "it_upper_intermediate_language_022"
         },
         {
-            "topic": "Imprenditorialità vs lavoro dipendente — cosa contribuisce di più alla società?",
+            "topic": "Imprenditorialità vs lavoro dipendente: cosa contribuisce di più alla società?",
             "sideA": "Imprenditorialità",
             "sideB": "Lavoro dipendente",
             "level": "upper_intermediate",
@@ -1782,10 +1782,10 @@
                 "Gli sforzi collettivi di milioni di dipendenti forniscono la stabilità e l'esperienza essenziali che mantengono la società in funzione.",
                 "L'occupazione fornisce una base imponibile costante e supporta l'infrastruttura stabilita dell'economia globale."
             ],
-            "word": "Imprenditorialità vs lavoro dipendente — cosa contribuisce di più alla società?",
+            "word": "Imprenditorialità vs lavoro dipendente: cosa contribuisce di più alla società?",
             "definitions": [
                 {
-                    "text": "Imprenditorialità vs lavoro dipendente — cosa contribuisce di più alla società?",
+                    "text": "Imprenditorialità vs lavoro dipendente: cosa contribuisce di più alla società?",
                     "examples": []
                 }
             ],
@@ -1795,7 +1795,7 @@
             "id": "it_upper_intermediate_work_031"
         },
         {
-            "topic": "Nazionalismo vs globalismo — quale è il quadro più coerente per il XXI secolo?",
+            "topic": "Nazionalismo vs globalismo: quale è il quadro più coerente per il XXI secolo?",
             "sideA": "Nazionalismo",
             "sideB": "Globalismo",
             "level": "upper_intermediate",
@@ -1808,10 +1808,10 @@
                 "Le sfide globali come il cambiamento climatico e le pandemie richiedono un approccio internazionale unificato che trascenda i confini.",
                 "Un'economia globale interconnessa promuove la pace e la prosperità rendendo le nazioni interdipendenti e collaborative."
             ],
-            "word": "Nazionalismo vs globalismo — quale è il quadro più coerente per il XXI secolo?",
+            "word": "Nazionalismo vs globalismo: quale è il quadro più coerente per il XXI secolo?",
             "definitions": [
                 {
-                    "text": "Nazionalismo vs globalismo — quale è il quadro più coerente per il XXI secolo?",
+                    "text": "Nazionalismo vs globalismo: quale è il quadro più coerente per il XXI secolo?",
                     "examples": []
                 }
             ],
@@ -1821,7 +1821,7 @@
             "id": "it_upper_intermediate_work_032"
         },
         {
-            "topic": "Istruzione domiciliare vs scuola tradizionale — cosa produce individui più equilibrati?",
+            "topic": "Istruzione domiciliare vs scuola tradizionale: cosa produce individui più equilibrati?",
             "sideA": "Istruzione domiciliare",
             "sideB": "Scuola tradizionale",
             "level": "upper_intermediate",
@@ -1834,10 +1834,10 @@
                 "Le scuole tradizionali forniscono un ambiente sociale diversificato in cui i bambini imparano a interagire con persone di diversa estrazione.",
                 "L'ambiente strutturato di una scuola favorisce abilità di vita essenziali come la disciplina, il lavoro di squadra e la sana competizione."
             ],
-            "word": "Istruzione domiciliare vs scuola tradizionale — cosa produce individui più equilibrati?",
+            "word": "Istruzione domiciliare vs scuola tradizionale: cosa produce individui più equilibrati?",
             "definitions": [
                 {
-                    "text": "Istruzione domiciliare vs scuola tradizionale — cosa produce individui più equilibrati?",
+                    "text": "Istruzione domiciliare vs scuola tradizionale: cosa produce individui più equilibrati?",
                     "examples": []
                 }
             ],
@@ -1847,7 +1847,7 @@
             "id": "it_upper_intermediate_language_023"
         },
         {
-            "topic": "Sistemi di votazione vs feedback descrittivo — cosa motiva gli studenti in modo più efficace?",
+            "topic": "Sistemi di votazione vs feedback descrittivo: cosa motiva gli studenti in modo più efficace?",
             "sideA": "Voti",
             "sideB": "Feedback descrittivo",
             "level": "upper_intermediate",
@@ -1860,10 +1860,10 @@
                 "Un feedback dettagliato fornisce indicazioni specifiche su come migliorare, favorendo una mentalità di crescita piuttosto che la focalizzazione sul voto.",
                 "Rimuovere la pressione dei voti può ridurre l'ansia e incoraggiare un amore più genuino per l'apprendimento e l'esplorazione."
             ],
-            "word": "Sistemi di votazione vs feedback descrittivo — cosa motiva gli studenti in modo più efficace?",
+            "word": "Sistemi di votazione vs feedback descrittivo: cosa motiva gli studenti in modo più efficace?",
             "definitions": [
                 {
-                    "text": "Sistemi di votazione vs feedback descrittivo — cosa motiva gli studenti in modo più efficace?",
+                    "text": "Sistemi di votazione vs feedback descrittivo: cosa motiva gli studenti in modo più efficace?",
                     "examples": []
                 }
             ],
@@ -1873,7 +1873,7 @@
             "id": "it_upper_intermediate_language_024"
         },
         {
-            "topic": "Intelligenza artificiale vs giudizio umano — cosa dovrebbe guidare le decisioni chiave nel business?",
+            "topic": "Intelligenza artificiale vs giudizio umano: cosa dovrebbe guidare le decisioni chiave nel business?",
             "sideA": "Intelligenza artificiale",
             "sideB": "Giudizio umano",
             "level": "upper_intermediate",
@@ -1886,10 +1886,10 @@
                 "I leader umani possono considerare sfumature etiche, contesto sociale e implicazioni a lungo termine che le macchine non possono ancora cogliere.",
                 "Il giudizio implica empatia e intuito, che sono cruciali per navigare in situazioni interpersonali e politiche complesse."
             ],
-            "word": "Intelligenza artificiale vs giudizio umano — cosa dovrebbe guidare le decisioni chiave nel business?",
+            "word": "Intelligenza artificiale vs giudizio umano: cosa dovrebbe guidare le decisioni chiave nel business?",
             "definitions": [
                 {
-                    "text": "Intelligenza artificiale vs giudizio umano — cosa dovrebbe guidare le decisioni chiave nel business?",
+                    "text": "Intelligenza artificiale vs giudizio umano: cosa dovrebbe guidare le decisioni chiave nel business?",
                     "examples": []
                 }
             ],
@@ -1899,7 +1899,7 @@
             "id": "it_upper_intermediate_technology_008"
         },
         {
-            "topic": "Ottimismo tecnologico vs scetticismo tecnologico — quale è la posizione predefinita più razionale oggi?",
+            "topic": "Ottimismo tecnologico vs scetticismo tecnologico: quale è la posizione predefinita più razionale oggi?",
             "sideA": "Ottimismo tech",
             "sideB": "Scetticismo tech",
             "level": "upper_intermediate",
@@ -1912,10 +1912,10 @@
                 "Un approccio scettico è necessario per identificare e mitigare le conseguenze impreviste del rapido progresso tecnologico.",
                 "Mettere in discussione le motivazioni dei giganti tecnologici aiuta a proteggere la privacy individuale e previene l'erosione dei valori democratici."
             ],
-            "word": "Ottimismo tecnologico vs scetticismo tecnologico — quale è la posizione predefinita più razionale oggi?",
+            "word": "Ottimismo tecnologico vs scetticismo tecnologico: quale è la posizione predefinita più razionale oggi?",
             "definitions": [
                 {
-                    "text": "Ottimismo tecnologico vs scetticismo tecnologico — quale è la posizione predefinita più razionale oggi?",
+                    "text": "Ottimismo tecnologico vs scetticismo tecnologico: quale è la posizione predefinita più razionale oggi?",
                     "examples": []
                 }
             ],
@@ -1925,7 +1925,7 @@
             "id": "it_upper_intermediate_technology_009"
         },
         {
-            "topic": "Identità digitale vs identità nel mondo reale — cosa ci definisce di più oggi?",
+            "topic": "Identità digitale vs identità nel mondo reale: cosa ci definisce di più oggi?",
             "sideA": "Identità digitale",
             "sideB": "Identità reale",
             "level": "upper_intermediate",
@@ -1938,10 +1938,10 @@
                 "Le interazioni nel mondo reale comportano un livello di profondità e autenticità che non può essere replicato in un ambiente digitale.",
                 "Le nostre esperienze fisiche e le relazioni immediate rimangono i motori più significativi dei nostri valori e della crescita personale."
             ],
-            "word": "Identità digitale vs identità nel mondo reale — cosa ci definisce di più oggi?",
+            "word": "Identità digitale vs identità nel mondo reale: cosa ci definisce di più oggi?",
             "definitions": [
                 {
-                    "text": "Identità digitale vs identità nel mondo reale — cosa ci definisce di più oggi?",
+                    "text": "Identità digitale vs identità nel mondo reale: cosa ci definisce di più oggi?",
                     "examples": []
                 }
             ],
@@ -1951,7 +1951,7 @@
             "id": "it_upper_intermediate_technology_010"
         },
         {
-            "topic": "Eco-ansia vs ottimismo climatico — quale è la risposta più costruttiva alla crisi?",
+            "topic": "Eco-ansia vs ottimismo climatico: quale è la risposta più costruttiva alla crisi?",
             "sideA": "Eco-ansia",
             "sideB": "Ottimismo climatico",
             "level": "upper_intermediate",
@@ -1964,10 +1964,10 @@
                 "L'ottimismo previene la disperazione e la paralisi, permettendo alle persone di concentrarsi sulle soluzioni e partecipare ad azioni positive.",
                 "Credere che il cambiamento sia possibile è un prerequisito per lo sforzo sostenuto richiesto per costruire un futuro sostenibile."
             ],
-            "word": "Eco-ansia vs ottimismo climatico — quale è la risposta più costruttiva alla crisi?",
+            "word": "Eco-ansia vs ottimismo climatico: quale è la risposta più costruttiva alla crisi?",
             "definitions": [
                 {
-                    "text": "Eco-ansia vs ottimismo climatico — quale è la risposta più costruttiva alla crisi?",
+                    "text": "Eco-ansia vs ottimismo climatico: quale è la risposta più costruttiva alla crisi?",
                     "examples": []
                 }
             ],

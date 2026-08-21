@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "fr_advanced_social_phrase_hirarchies_organisationnelles_",
-        "word": "Hiérarchies organisationnelles horizontales vs structures de gestion verticales — qu'est-ce qui sert le mieux les adultes qui y travaillent ?",
+        "word": "Hiérarchies organisationnelles horizontales vs structures de gestion verticales: qu'est-ce qui sert le mieux les adultes qui y travaillent ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -10,7 +10,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Hiérarchies organisationnelles horizontales vs structures de gestion verticales — qu'est-ce qui sert le mieux les adultes qui y travaillent ?",
+                "text": "Hiérarchies organisationnelles horizontales vs structures de gestion verticales: qu'est-ce qui sert le mieux les adultes qui y travaillent ?",
                 "examples": []
             }
         ],
@@ -27,7 +27,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_le_culte_de_la_productivit_vs_",
-        "word": "Le culte de la productivité vs l'éloge de l'oisiveté — qu'est-ce qui reflète le mieux ce dont les humains ont réellement besoin au travail ?",
+        "word": "Le culte de la productivité vs l'éloge de l'oisiveté: qu'est-ce qui reflète le mieux ce dont les humains ont réellement besoin au travail ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -35,7 +35,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le culte de la productivité vs l'éloge de l'oisiveté — qu'est-ce qui reflète le mieux ce dont les humains ont réellement besoin au travail ?",
+                "text": "Le culte de la productivité vs l'éloge de l'oisiveté: qu'est-ce qui reflète le mieux ce dont les humains ont réellement besoin au travail ?",
                 "examples": []
             }
         ],
@@ -52,7 +52,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_le_leadership_comme_comptence_",
-        "word": "Le leadership comme compétence s'apprenant vs le leadership comme qualité innée — quel récit est le plus défendable empiriquement ?",
+        "word": "Le leadership comme compétence s'apprenant vs le leadership comme qualité innée: quel récit est le plus défendable empiriquement ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -60,7 +60,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le leadership comme compétence s'apprenant vs le leadership comme qualité innée — quel récit est le plus défendable empiriquement ?",
+                "text": "Le leadership comme compétence s'apprenant vs le leadership comme qualité innée: quel récit est le plus défendable empiriquement ?",
                 "examples": []
             }
         ],
@@ -77,7 +77,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_culture_de_la_performance_hust",
-        "word": "Culture de la performance (hustle culture) vs slow living — qui gagne, et qui devrait gagner ?",
+        "word": "Culture de la performance (hustle culture) vs slow living: qui gagne, et qui devrait gagner ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -85,7 +85,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Culture de la performance (hustle culture) vs slow living — qui gagne, et qui devrait gagner ?",
+                "text": "Culture de la performance (hustle culture) vs slow living: qui gagne, et qui devrait gagner ?",
                 "examples": []
             }
         ],
@@ -102,7 +102,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_la_responsabilit_sociale_des_e",
-        "word": "La responsabilité sociale des entreprises comme engagement sincère vs comme gestion de la réputation — quel cadrage est le plus honnête ?",
+        "word": "La responsabilité sociale des entreprises comme engagement sincère vs comme gestion de la réputation: quel cadrage est le plus honnête ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -110,7 +110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La responsabilité sociale des entreprises comme engagement sincère vs comme gestion de la réputation — quel cadrage est le plus honnête ?",
+                "text": "La responsabilité sociale des entreprises comme engagement sincère vs comme gestion de la réputation: quel cadrage est le plus honnête ?",
                 "examples": []
             }
         ],
@@ -127,7 +127,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_lidentit_adulte_comme_fixe_vs_",
-        "word": "L'identité adulte comme fixe vs perpétuellement en construction — quel récit reflète le mieux l'expérience vécue ?",
+        "word": "L'identité adulte comme fixe vs perpétuellement en construction: quel récit reflète le mieux l'expérience vécue ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -135,7 +135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'identité adulte comme fixe vs perpétuellement en construction — quel récit reflète le mieux l'expérience vécue ?",
+                "text": "L'identité adulte comme fixe vs perpétuellement en construction: quel récit reflète le mieux l'expérience vécue ?",
                 "examples": []
             }
         ],
@@ -152,7 +152,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_la_domestication_du_fminisme_p",
-        "word": "La domestication du féminisme par la culture de consommation vs le féminisme remodelant réellement la vie adulte — qu'est-ce qui est le plus vrai ?",
+        "word": "La domestication du féminisme par la culture de consommation vs le féminisme remodelant réellement la vie adulte: qu'est-ce qui est le plus vrai ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -160,7 +160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La domestication du féminisme par la culture de consommation vs le féminisme remodelant réellement la vie adulte — qu'est-ce qui est le plus vrai ?",
+                "text": "La domestication du féminisme par la culture de consommation vs le féminisme remodelant réellement la vie adulte: qu'est-ce qui est le plus vrai ?",
                 "examples": []
             }
         ],
@@ -177,7 +177,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_la_crise_de_la_quarantaine_com",
-        "word": "La crise de la quarantaine comme pathologie vs la crise de la quarantaine comme réévaluation légitime — quel cadrage est le plus utile ?",
+        "word": "La crise de la quarantaine comme pathologie vs la crise de la quarantaine comme réévaluation légitime: quel cadrage est le plus utile ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -185,7 +185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La crise de la quarantaine comme pathologie vs la crise de la quarantaine comme réévaluation légitime — quel cadrage est le plus utile ?",
+                "text": "La crise de la quarantaine comme pathologie vs la crise de la quarantaine comme réévaluation légitime: quel cadrage est le plus utile ?",
                 "examples": []
             }
         ],
@@ -202,7 +202,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_la_pression_dtre_extraordinair",
-        "word": "La pression d'être extraordinaire vs la dignité d'une vie ordinaire — quel est l'idéal le plus humain à défendre ?",
+        "word": "La pression d'être extraordinaire vs la dignité d'une vie ordinaire: quel est l'idéal le plus humain à défendre ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -210,7 +210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La pression d'être extraordinaire vs la dignité d'une vie ordinaire — quel est l'idéal le plus humain à défendre ?",
+                "text": "La pression d'être extraordinaire vs la dignité d'une vie ordinaire: quel est l'idéal le plus humain à défendre ?",
                 "examples": []
             }
         ],
@@ -227,7 +227,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_lobligation_de_soccuper_de_par",
-        "word": "L'obligation de s'occuper de parents vieillissants vs la responsabilité de l'État — où la charge doit-elle retomber ?",
+        "word": "L'obligation de s'occuper de parents vieillissants vs la responsabilité de l'État: où la charge doit-elle retomber ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -235,7 +235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'obligation de s'occuper de parents vieillissants vs la responsabilité de l'État — où la charge doit-elle retomber ?",
+                "text": "L'obligation de s'occuper de parents vieillissants vs la responsabilité de l'État: où la charge doit-elle retomber ?",
                 "examples": []
             }
         ],
@@ -252,7 +252,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_lhonntet_radicale_dans_les_rel",
-        "word": "L'honnêteté radicale dans les relations vs le silence stratégique — quelle est l'approche la plus éthique de l'intimité ?",
+        "word": "L'honnêteté radicale dans les relations vs le silence stratégique: quelle est l'approche la plus éthique de l'intimité ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -260,7 +260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'honnêteté radicale dans les relations vs le silence stratégique — quelle est l'approche la plus éthique de l'intimité ?",
+                "text": "L'honnêteté radicale dans les relations vs le silence stratégique: quelle est l'approche la plus éthique de l'intimité ?",
                 "examples": []
             }
         ],
@@ -277,7 +277,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_choisir_son_cercle_social_dlib",
-        "word": "Choisir son cercle social délibérément vs laisser les relations se former organiquement — qu'est-ce qui produit des amitiés adultes plus authentiques ?",
+        "word": "Choisir son cercle social délibérément vs laisser les relations se former organiquement: qu'est-ce qui produit des amitiés adultes plus authentiques ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -285,7 +285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Choisir son cercle social délibérément vs laisser les relations se former organiquement — qu'est-ce qui produit des amitiés adultes plus authentiques ?",
+                "text": "Choisir son cercle social délibérément vs laisser les relations se former organiquement: qu'est-ce qui produit des amitiés adultes plus authentiques ?",
                 "examples": []
             }
         ],
@@ -302,7 +302,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_la_famille_nuclaire_comme_unit",
-        "word": "La famille nucléaire comme unité sociale optimale vs comme arrangement historiquement contingent — quelle vue est la plus défendable ?",
+        "word": "La famille nucléaire comme unité sociale optimale vs comme arrangement historiquement contingent: quelle vue est la plus défendable ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -310,7 +310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La famille nucléaire comme unité sociale optimale vs comme arrangement historiquement contingent — quelle vue est la plus défendable ?",
+                "text": "La famille nucléaire comme unité sociale optimale vs comme arrangement historiquement contingent: quelle vue est la plus défendable ?",
                 "examples": []
             }
         ],
@@ -327,7 +327,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_gouvernance_technocratique_vs_",
-        "word": "Gouvernance technocratique vs populisme démocratique — qu'est-ce qui pose le plus grand risque à long terme pour les citoyens adultes ?",
+        "word": "Gouvernance technocratique vs populisme démocratique: qu'est-ce qui pose le plus grand risque à long terme pour les citoyens adultes ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -335,7 +335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Gouvernance technocratique vs populisme démocratique — qu'est-ce qui pose le plus grand risque à long terme pour les citoyens adultes ?",
+                "text": "Gouvernance technocratique vs populisme démocratique: qu'est-ce qui pose le plus grand risque à long terme pour les citoyens adultes ?",
                 "examples": []
             }
         ],
@@ -352,7 +352,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_justice_intergnrationnelle_vs_",
-        "word": "Justice intergénérationnelle vs bien-être actuel — qu'est-ce qui devrait être prioritaire dans les politiques publiques ?",
+        "word": "Justice intergénérationnelle vs bien-être actuel: qu'est-ce qui devrait être prioritaire dans les politiques publiques ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -360,7 +360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Justice intergénérationnelle vs bien-être actuel — qu'est-ce qui devrait être prioritaire dans les politiques publiques ?",
+                "text": "Justice intergénérationnelle vs bien-être actuel: qu'est-ce qui devrait être prioritaire dans les politiques publiques ?",
                 "examples": []
             }
         ],
@@ -377,7 +377,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_lobligation_de_voter_vs_le_dro",
-        "word": "L'obligation de voter vs le droit de s'abstenir — quelle est la position civique la plus défendable ?",
+        "word": "L'obligation de voter vs le droit de s'abstenir: quelle est la position civique la plus défendable ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -385,7 +385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'obligation de voter vs le droit de s'abstenir — quelle est la position civique la plus défendable ?",
+                "text": "L'obligation de voter vs le droit de s'abstenir: quelle est la position civique la plus défendable ?",
                 "examples": []
             }
         ],
@@ -402,7 +402,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_le_patriotisme_comme_vertu_civ",
-        "word": "Le patriotisme comme vertu civique vs le patriotisme comme défaillance cognitive — quel récit est le plus convaincant ?",
+        "word": "Le patriotisme comme vertu civique vs le patriotisme comme défaillance cognitive: quel récit est le plus convaincant ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -410,7 +410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le patriotisme comme vertu civique vs le patriotisme comme défaillance cognitive — quel récit est le plus convaincant ?",
+                "text": "Le patriotisme comme vertu civique vs le patriotisme comme défaillance cognitive: quel récit est le plus convaincant ?",
                 "examples": []
             }
         ],
@@ -427,7 +427,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_labsolutisme_de_la_libert_dexp",
-        "word": "L'absolutisme de la liberté d'expression vs la parole régulée — qu'est-ce qui produit de meilleurs résultats pour les sociétés démocratiques adultes ?",
+        "word": "L'absolutisme de la liberté d'expression vs la parole régulée: qu'est-ce qui produit de meilleurs résultats pour les sociétés démocratiques adultes ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -435,7 +435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'absolutisme de la liberté d'expression vs la parole régulée — qu'est-ce qui produit de meilleurs résultats pour les sociétés démocratiques adultes ?",
+                "text": "L'absolutisme de la liberté d'expression vs la parole régulée: qu'est-ce qui produit de meilleurs résultats pour les sociétés démocratiques adultes ?",
                 "examples": []
             }
         ],
@@ -452,7 +452,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_une_carrire_pleine_de_sens_vs_",
-        "word": "Une carrière pleine de sens vs un travail qui finance une vie privée pleine de sens — quelle est l'ambition adulte la plus honnête ?",
+        "word": "Une carrière pleine de sens vs un travail qui finance une vie privée pleine de sens: quelle est l'ambition adulte la plus honnête ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -460,7 +460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Une carrière pleine de sens vs un travail qui finance une vie privée pleine de sens — quelle est l'ambition adulte la plus honnête ?",
+                "text": "Une carrière pleine de sens vs un travail qui finance une vie privée pleine de sens: quelle est l'ambition adulte la plus honnête ?",
                 "examples": []
             }
         ],
@@ -477,7 +477,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_religion_vs_philosophie_sculir",
-        "word": "Religion vs philosophie séculière — qu'est-ce qui répond le mieux aux besoins existentiels des adultes modernes ?",
+        "word": "Religion vs philosophie séculière: qu'est-ce qui répond le mieux aux besoins existentiels des adultes modernes ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -485,7 +485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Religion vs philosophie séculière — qu'est-ce qui répond le mieux aux besoins existentiels des adultes modernes ?",
+                "text": "Religion vs philosophie séculière: qu'est-ce qui répond le mieux aux besoins existentiels des adultes modernes ?",
                 "examples": []
             }
         ],
@@ -502,7 +502,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_la_vie_examine_vs_la_vie_absor",
-        "word": "La vie examinée vs la vie absorbée — laquelle vaut le plus la peine d'être vécue, et qui peut en décider ?",
+        "word": "La vie examinée vs la vie absorbée: laquelle vaut le plus la peine d'être vécue, et qui peut en décider ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -510,7 +510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La vie examinée vs la vie absorbée — laquelle vaut le plus la peine d'être vécue, et qui peut en décider ?",
+                "text": "La vie examinée vs la vie absorbée: laquelle vaut le plus la peine d'être vécue, et qui peut en décider ?",
                 "examples": []
             }
         ],
@@ -527,7 +527,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_lhritage_legacy_vs_la_prsence_",
-        "word": "L'héritage (legacy) vs la présence — quelle est la chose la plus cohérente à rechercher pour un adulte ?",
+        "word": "L'héritage (legacy) vs la présence: quelle est la chose la plus cohérente à rechercher pour un adulte ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -535,7 +535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'héritage (legacy) vs la présence — quelle est la chose la plus cohérente à rechercher pour un adulte ?",
+                "text": "L'héritage (legacy) vs la présence: quelle est la chose la plus cohérente à rechercher pour un adulte ?",
                 "examples": []
             }
         ],
@@ -552,7 +552,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_ladulte_qui_a_enfin_compris_vs",
-        "word": "L'adulte qui a « enfin compris » vs l'adulte qui a accepté qu'il ne comprendra jamais — qui est le plus conscient de soi ?",
+        "word": "L'adulte qui a « enfin compris » vs l'adulte qui a accepté qu'il ne comprendra jamais: qui est le plus conscient de soi ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -560,7 +560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'adulte qui a « enfin compris » vs l'adulte qui a accepté qu'il ne comprendra jamais — qui est le plus conscient de soi ?",
+                "text": "L'adulte qui a « enfin compris » vs l'adulte qui a accepté qu'il ne comprendra jamais: qui est le plus conscient de soi ?",
                 "examples": []
             }
         ],
@@ -577,7 +577,7 @@
     },
     {
         "id": "fr_advanced_emotions_phrase_tout_dire_son_thrapeute_vs_tou",
-        "word": "Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est la plus efficace sur le plan thérapeutique ?",
+        "word": "Tout dire à son thérapeute vs tout dire à son coiffeur: quelle relation professionnelle est la plus efficace sur le plan thérapeutique ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "emotions",
@@ -585,7 +585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est la plus efficace sur le plan thérapeutique ?",
+                "text": "Tout dire à son thérapeute vs tout dire à son coiffeur: quelle relation professionnelle est la plus efficace sur le plan thérapeutique ?",
                 "examples": []
             }
         ],
@@ -602,7 +602,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_lanxit_du_dimanche_dun_adulte_",
-        "word": "L'anxiété du dimanche d'un adulte au planning chargé vs l'anxiété du dimanche d'un adulte au planning vide — qu'est-ce qui est le plus troublant existentiellement ?",
+        "word": "L'anxiété du dimanche d'un adulte au planning chargé vs l'anxiété du dimanche d'un adulte au planning vide: qu'est-ce qui est le plus troublant existentiellement ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -610,7 +610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'anxiété du dimanche d'un adulte au planning chargé vs l'anxiété du dimanche d'un adulte au planning vide — qu'est-ce qui est le plus troublant existentiellement ?",
+                "text": "L'anxiété du dimanche d'un adulte au planning chargé vs l'anxiété du dimanche d'un adulte au planning vide: qu'est-ce qui est le plus troublant existentiellement ?",
                 "examples": []
             }
         ],
@@ -627,7 +627,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_suranalyser_chaque_dcision_maj",
-        "word": "Suranalyser chaque décision majeure de la vie vs les prendre impulsivement — quelle stratégie a le meilleur bilan empirique ?",
+        "word": "Suranalyser chaque décision majeure de la vie vs les prendre impulsivement: quelle stratégie a le meilleur bilan empirique ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -635,7 +635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Suranalyser chaque décision majeure de la vie vs les prendre impulsivement — quelle stratégie a le meilleur bilan empirique ?",
+                "text": "Suranalyser chaque décision majeure de la vie vs les prendre impulsivement: quelle stratégie a le meilleur bilan empirique ?",
                 "examples": []
             }
         ],
@@ -652,7 +652,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_les_adultes_qui_lisent_des_liv",
-        "word": "Les adultes qui lisent des livres de développement personnel vs les adultes qui refusent de le faire — quel groupe est le plus difficile à supporter lors d'un dîner ?",
+        "word": "Les adultes qui lisent des livres de développement personnel vs les adultes qui refusent de le faire: quel groupe est le plus difficile à supporter lors d'un dîner ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -660,7 +660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Les adultes qui lisent des livres de développement personnel vs les adultes qui refusent de le faire — quel groupe est le plus difficile à supporter lors d'un dîner ?",
+                "text": "Les adultes qui lisent des livres de développement personnel vs les adultes qui refusent de le faire: quel groupe est le plus difficile à supporter lors d'un dîner ?",
                 "examples": []
             }
         ],
@@ -677,7 +677,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_crativit_de_lia_vs_art_humain_",
-        "word": "Créativité de l'IA vs art humain — les machines peuvent-elles vraiment créer de l'art ?",
+        "word": "Créativité de l'IA vs art humain: les machines peuvent-elles vraiment créer de l'art ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -685,7 +685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Créativité de l'IA vs art humain — les machines peuvent-elles vraiment créer de l'art ?",
+                "text": "Créativité de l'IA vs art humain: les machines peuvent-elles vraiment créer de l'art ?",
                 "examples": []
             }
         ],
@@ -702,7 +702,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_exploration_spatiale_vs_explor",
-        "word": "Exploration spatiale vs exploration des grands fonds — où devrions-nous concentrer nos ressources ?",
+        "word": "Exploration spatiale vs exploration des grands fonds: où devrions-nous concentrer nos ressources ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -710,7 +710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Exploration spatiale vs exploration des grands fonds — où devrions-nous concentrer nos ressources ?",
+                "text": "Exploration spatiale vs exploration des grands fonds: où devrions-nous concentrer nos ressources ?",
                 "examples": []
             }
         ],
@@ -727,7 +727,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_vie_prive_numrique_vs_scurit_n",
-        "word": "Vie privée numérique vs sécurité nationale — la surveillance totale est-elle jamais justifiée ?",
+        "word": "Vie privée numérique vs sécurité nationale: la surveillance totale est-elle jamais justifiée ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -735,7 +735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vie privée numérique vs sécurité nationale — la surveillance totale est-elle jamais justifiée ?",
+                "text": "Vie privée numérique vs sécurité nationale: la surveillance totale est-elle jamais justifiée ?",
                 "examples": []
             }
         ],
@@ -752,7 +752,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_aliments_gntiquement_modifis_v",
-        "word": "Aliments génétiquement modifiés vs agriculture biologique — comment devrions-nous nourrir le monde ?",
+        "word": "Aliments génétiquement modifiés vs agriculture biologique: comment devrions-nous nourrir le monde ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -760,7 +760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Aliments génétiquement modifiés vs agriculture biologique — comment devrions-nous nourrir le monde ?",
+                "text": "Aliments génétiquement modifiés vs agriculture biologique: comment devrions-nous nourrir le monde ?",
                 "examples": []
             }
         ],
@@ -777,7 +777,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_revenu_universel_vs_programmes",
-        "word": "Revenu universel vs programmes de garantie d'emploi — quel est le meilleur filet de sécurité sociale ?",
+        "word": "Revenu universel vs programmes de garantie d'emploi: quel est le meilleur filet de sécurité sociale ?",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -785,7 +785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Revenu universel vs programmes de garantie d'emploi — quel est le meilleur filet de sécurité sociale ?",
+                "text": "Revenu universel vs programmes de garantie d'emploi: quel est le meilleur filet de sécurité sociale ?",
                 "examples": []
             }
         ],

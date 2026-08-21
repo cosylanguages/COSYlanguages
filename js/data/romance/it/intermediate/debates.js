@@ -1,7 +1,7 @@
 (function() {
     const data = [
         {
-            "topic": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?",
+            "topic": "Lavoro da remoto vs lavoro in ufficio: cosa è meglio per produttività e benessere?",
             "sideA": "Remoto",
             "sideB": "Ufficio",
             "level": "intermediate",
@@ -14,10 +14,10 @@
                 "La comunicazione faccia a faccia rende il lavoro di squadra molto più veloce e semplice.",
                 "Lavorare in ufficio aiuta a separare la vita professionale da quella privata."
             ],
-            "word": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?",
+            "word": "Lavoro da remoto vs lavoro in ufficio: cosa è meglio per produttività e benessere?",
             "definitions": [
                 {
-                    "text": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?",
+                    "text": "Lavoro da remoto vs lavoro in ufficio: cosa è meglio per produttività e benessere?",
                     "examples": []
                 }
             ],
@@ -27,7 +27,7 @@
             "id": "it_intermediate_jobs_001"
         },
         {
-            "topic": "Sicurezza del lavoro vs crescita professionale — cosa dovrebbero dare priorità gli adulti?",
+            "topic": "Sicurezza del lavoro vs crescita professionale: cosa dovrebbero dare priorità gli adulti?",
             "sideA": "Sicurezza",
             "sideB": "Crescita",
             "level": "intermediate",
@@ -40,10 +40,10 @@
                 "Prendersi dei rischi può portare a migliori opportunità e a uno stipendio più alto.",
                 "Cambiare spesso lavoro aiuta a imparare nuove competenze più velocemente."
             ],
-            "word": "Sicurezza del lavoro vs crescita professionale — cosa dovrebbero dare priorità gli adulti?",
+            "word": "Sicurezza del lavoro vs crescita professionale: cosa dovrebbero dare priorità gli adulti?",
             "definitions": [
                 {
-                    "text": "Sicurezza del lavoro vs crescita professionale — cosa dovrebbero dare priorità gli adulti?",
+                    "text": "Sicurezza del lavoro vs crescita professionale: cosa dovrebbero dare priorità gli adulti?",
                     "examples": []
                 }
             ],
@@ -53,7 +53,7 @@
             "id": "it_intermediate_jobs_002"
         },
         {
-            "topic": "Avviare un'attività in proprio vs lavorare per un datore di lavoro — qual è la scelta migliore a 30 anni?",
+            "topic": "Avviare un'attività in proprio vs lavorare per un datore di lavoro: qual è la scelta migliore a 30 anni?",
             "sideA": "Propria attività",
             "sideB": "Dipendente",
             "level": "intermediate",
@@ -66,10 +66,10 @@
                 "Lavorare per un'azienda offre un reddito costante e benefici.",
                 "Non devi preoccuparti dell'amministrazione e dei rischi di un'impresa."
             ],
-            "word": "Avviare un'attività in proprio vs lavorare per un datore di lavoro — qual è la scelta migliore a 30 anni?",
+            "word": "Avviare un'attività in proprio vs lavorare per un datore di lavoro: qual è la scelta migliore a 30 anni?",
             "definitions": [
                 {
-                    "text": "Avviare un'attività in proprio vs lavorare per un datore di lavoro — qual è la scelta migliore a 30 anni?",
+                    "text": "Avviare un'attività in proprio vs lavorare per un datore di lavoro: qual è la scelta migliore a 30 anni?",
                     "examples": []
                 }
             ],
@@ -79,7 +79,7 @@
             "id": "it_intermediate_jobs_003"
         },
         {
-            "topic": "Ambizione vs equilibrio vita-lavoro — si possono davvero avere entrambi?",
+            "topic": "Ambizione vs equilibrio vita-lavoro: si possono davvero avere entrambi?",
             "sideA": "Ambizione",
             "sideB": "Equilibrio",
             "level": "intermediate",
@@ -92,10 +92,10 @@
                 "Passare del tempo con la famiglia e gli amici è più importante per la felicità.",
                 "Il burnout può accadere se ci si concentra solo sulla carriera per troppo tempo."
             ],
-            "word": "Ambizione vs equilibrio vita-lavoro — si possono davvero avere entrambi?",
+            "word": "Ambizione vs equilibrio vita-lavoro: si possono davvero avere entrambi?",
             "definitions": [
                 {
-                    "text": "Ambizione vs equilibrio vita-lavoro — si possono davvero avere entrambi?",
+                    "text": "Ambizione vs equilibrio vita-lavoro: si possono davvero avere entrambi?",
                     "examples": []
                 }
             ],
@@ -105,7 +105,7 @@
             "id": "it_intermediate_jobs_004"
         },
         {
-            "topic": "Networking vs sviluppo delle competenze — cosa fa avanzare di più la tua carriera?",
+            "topic": "Networking vs sviluppo delle competenze: cosa fa avanzare di più la tua carriera?",
             "sideA": "Networking",
             "sideB": "Competenze",
             "level": "intermediate",
@@ -118,10 +118,10 @@
                 "Se sei eccellente in quello che fai, le opportunità ti troveranno sempre.",
                 "Le competenze tecniche sono la base di una carriera di successo e duratura."
             ],
-            "word": "Networking vs sviluppo delle competenze — cosa fa avanzare di più la tua carriera?",
+            "word": "Networking vs sviluppo delle competenze: cosa fa avanzare di più la tua carriera?",
             "definitions": [
                 {
-                    "text": "Networking vs sviluppo delle competenze — cosa fa avanzare di più la tua carriera?",
+                    "text": "Networking vs sviluppo delle competenze: cosa fa avanzare di più la tua carriera?",
                     "examples": []
                 }
             ],
@@ -131,7 +131,7 @@
             "id": "it_intermediate_jobs_005"
         },
         {
-            "topic": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente — cosa motiva di più gli adulti?",
+            "topic": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente: cosa motiva di più gli adulti?",
             "sideA": "Feedback",
             "sideB": "Indipendenza",
             "level": "intermediate",
@@ -144,10 +144,10 @@
                 "Fidarsi dei dipendenti affinché lavorino da soli mostra rispetto per le loro capacità.",
                 "L'indipendenza permette di essere più creativi e di trovare le proprie soluzioni."
             ],
-            "word": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente — cosa motiva di più gli adulti?",
+            "word": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente: cosa motiva di più gli adulti?",
             "definitions": [
                 {
-                    "text": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente — cosa motiva di più gli adulti?",
+                    "text": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente: cosa motiva di più gli adulti?",
                     "examples": []
                 }
             ],
@@ -157,7 +157,7 @@
             "id": "it_intermediate_jobs_006"
         },
         {
-            "topic": "Cambiare carriera a 40 anni vs restare nel proprio campo — qual è la decisione più saggia?",
+            "topic": "Cambiare carriera a 40 anni vs restare nel proprio campo: qual è la decisione più saggia?",
             "sideA": "Cambiare",
             "sideB": "Restare",
             "level": "intermediate",
@@ -170,10 +170,10 @@
                 "A 40 anni hai un'esperienza preziosa che vale la pena mantenere nel tuo campo attuale.",
                 "Iniziare da zero può essere molto rischioso se hai responsabilità familiari."
             ],
-            "word": "Cambiare carriera a 40 anni vs restare nel proprio campo — qual è la decisione più saggia?",
+            "word": "Cambiare carriera a 40 anni vs restare nel proprio campo: qual è la decisione più saggia?",
             "definitions": [
                 {
-                    "text": "Cambiare carriera a 40 anni vs restare nel proprio campo — qual è la decisione più saggia?",
+                    "text": "Cambiare carriera a 40 anni vs restare nel proprio campo: qual è la decisione più saggia?",
                     "examples": []
                 }
             ],
@@ -183,7 +183,7 @@
             "id": "it_intermediate_jobs_007"
         },
         {
-            "topic": "Estinguere anticipatamente il mutuo vs investire quei soldi — cosa è più intelligente?",
+            "topic": "Estinguere anticipatamente il mutuo vs investire quei soldi: cosa è più intelligente?",
             "sideA": "Estinguere mutuo",
             "sideB": "Investire",
             "level": "intermediate",
@@ -196,10 +196,10 @@
                 "Investire nel mercato azionario può dare un rendimento maggiore rispetto all'interesse che paghi.",
                 "È meglio avere beni liquidi da poter usare in caso di emergenza."
             ],
-            "word": "Estinguere anticipatamente il mutuo vs investire quei soldi — cosa è più intelligente?",
+            "word": "Estinguere anticipatamente il mutuo vs investire quei soldi: cosa è più intelligente?",
             "definitions": [
                 {
-                    "text": "Estinguere anticipatamente il mutuo vs investire quei soldi — cosa è più intelligente?",
+                    "text": "Estinguere anticipatamente il mutuo vs investire quei soldi: cosa è più intelligente?",
                     "examples": []
                 }
             ],
@@ -209,7 +209,7 @@
             "id": "it_intermediate_shopping_001"
         },
         {
-            "topic": "Possedere una casa vs affittare permanentemente — cosa si adatta meglio alla vita adulta moderna?",
+            "topic": "Possedere una casa vs affittare permanentemente: cosa si adatta meglio alla vita adulta moderna?",
             "sideA": "Possedere",
             "sideB": "Affittare",
             "level": "intermediate",
@@ -222,10 +222,10 @@
                 "L'affitto ti dà la flessibilità di spostarti facilmente per lavoro o stile di vita.",
                 "Il proprietario è responsabile di tutte le riparazioni e dei costi di manutenzione."
             ],
-            "word": "Possedere una casa vs affittare permanentemente — cosa si adatta meglio alla vita adulta moderna?",
+            "word": "Possedere una casa vs affittare permanentemente: cosa si adatta meglio alla vita adulta moderna?",
             "definitions": [
                 {
-                    "text": "Possedere una casa vs affittare permanentemente — cosa si adatta meglio alla vita adulta moderna?",
+                    "text": "Possedere una casa vs affittare permanentemente: cosa si adatta meglio alla vita adulta moderna?",
                     "examples": []
                 }
             ],
@@ -235,7 +235,7 @@
             "id": "it_intermediate_shopping_002"
         },
         {
-            "topic": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni — cosa è più saggio?",
+            "topic": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni: cosa è più saggio?",
             "sideA": "Risparmiare presto",
             "sideB": "Godersi ora",
             "level": "intermediate",
@@ -248,10 +248,10 @@
                 "Si è giovani una volta sola, quindi dovresti viaggiare e fare esperienze ora.",
                 "Il futuro è incerto, quindi è meglio godersi i soldi finché si può."
             ],
-            "word": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni — cosa è più saggio?",
+            "word": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni: cosa è più saggio?",
             "definitions": [
                 {
-                    "text": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni — cosa è più saggio?",
+                    "text": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni: cosa è più saggio?",
                     "examples": []
                 }
             ],
@@ -261,7 +261,7 @@
             "id": "it_intermediate_shopping_003"
         },
         {
-            "topic": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora — quale approccio è più sano?",
+            "topic": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora: quale approccio è più sano?",
             "sideA": "Sotto possibilità",
             "sideB": "Godersi ora",
             "level": "intermediate",
@@ -274,10 +274,10 @@
                 "Comprare cose di alta qualità può rendere la vita quotidiana più confortevole.",
                 "Regalarsi belle cose è una buona ricompensa per il proprio duro lavoro."
             ],
-            "word": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora — quale approccio è più sano?",
+            "word": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora: quale approccio è più sano?",
             "definitions": [
                 {
-                    "text": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora — quale approccio è più sano?",
+                    "text": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora: quale approccio è più sano?",
                     "examples": []
                 }
             ],
@@ -287,7 +287,7 @@
             "id": "it_intermediate_shopping_004"
         },
         {
-            "topic": "Due redditi in una famiglia vs un partner che resta a casa — cosa funziona meglio per le famiglie?",
+            "topic": "Due redditi in una famiglia vs un partner che resta a casa: cosa funziona meglio per le famiglie?",
             "sideA": "Due redditi",
             "sideB": "Uno a casa",
             "level": "intermediate",
@@ -300,10 +300,10 @@
                 "Avere un genitore a casa è molto vantaggioso per lo sviluppo dei figli.",
                 "Una persona può concentrarsi sulla casa, rendendo la vita familiare meno stressante."
             ],
-            "word": "Due redditi in una famiglia vs un partner che resta a casa — cosa funziona meglio per le famiglie?",
+            "word": "Due redditi in una famiglia vs un partner che resta a casa: cosa funziona meglio per le famiglie?",
             "definitions": [
                 {
-                    "text": "Due redditi in una famiglia vs un partner che resta a casa — cosa funziona meglio per le famiglie?",
+                    "text": "Due redditi in una famiglia vs un partner che resta a casa: cosa funziona meglio per le famiglie?",
                     "examples": []
                 }
             ],
@@ -313,7 +313,7 @@
             "id": "it_intermediate_social_001"
         },
         {
-            "topic": "Avere figli vs scegliere di non averne — cosa rende la vita adulta più appagante?",
+            "topic": "Avere figli vs scegliere di non averne: cosa rende la vita adulta più appagante?",
             "sideA": "Avere figli",
             "sideB": "Niente figli",
             "level": "intermediate",
@@ -326,10 +326,10 @@
                 "Scegliere di non avere figli permette più libertà e viaggi spontanei.",
                 "Puoi concentrare tutta la tua energia sulla carriera, gli hobby e il partner."
             ],
-            "word": "Avere figli vs scegliere di non averne — cosa rende la vita adulta più appagante?",
+            "word": "Avere figli vs scegliere di non averne: cosa rende la vita adulta più appagante?",
             "definitions": [
                 {
-                    "text": "Avere figli vs scegliere di non averne — cosa rende la vita adulta più appagante?",
+                    "text": "Avere figli vs scegliere di non averne: cosa rende la vita adulta più appagante?",
                     "examples": []
                 }
             ],
@@ -339,7 +339,7 @@
             "id": "it_intermediate_social_002"
         },
         {
-            "topic": "Genitorialità severa vs genitorialità permissiva — cosa produce adulti più felici?",
+            "topic": "Genitorialità severa vs genitorialità permissiva: cosa produce adulti più felici?",
             "sideA": "Severa",
             "sideB": "Permissiva",
             "level": "intermediate",
@@ -352,10 +352,10 @@
                 "Dare libertà ai figli li aiuta a diventare più creativi e indipendenti.",
                 "Un ambiente caloroso e flessibile costruisce un legame più forte con i genitori."
             ],
-            "word": "Genitorialità severa vs genitorialità permissiva — cosa produce adulti più felici?",
+            "word": "Genitorialità severa vs genitorialità permissiva: cosa produce adulti più felici?",
             "definitions": [
                 {
-                    "text": "Genitorialità severa vs genitorialità permissiva — cosa produce adulti più felici?",
+                    "text": "Genitorialità severa vs genitorialità permissiva: cosa produce adulti più felici?",
                     "examples": []
                 }
             ],
@@ -365,7 +365,7 @@
             "id": "it_intermediate_social_003"
         },
         {
-            "topic": "Relazione a lungo termine vs restare single — cosa è meglio per la crescita personale?",
+            "topic": "Relazione a lungo termine vs restare single: cosa è meglio per la crescita personale?",
             "sideA": "Relazione",
             "sideB": "Single",
             "level": "intermediate",
@@ -378,10 +378,10 @@
                 "Essere single ti permette di concentrarti interamente sui tuoi obiettivi e interessi.",
                 "Hai la libertà di prendere ogni decisione senza consultare nessuno."
             ],
-            "word": "Relazione a lungo termine vs restare single — cosa è meglio per la crescita personale?",
+            "word": "Relazione a lungo termine vs restare single: cosa è meglio per la crescita personale?",
             "definitions": [
                 {
-                    "text": "Relazione a lungo termine vs restare single — cosa è meglio per la crescita personale?",
+                    "text": "Relazione a lungo termine vs restare single: cosa è meglio per la crescita personale?",
                     "examples": []
                 }
             ],
@@ -391,7 +391,7 @@
             "id": "it_intermediate_social_004"
         },
         {
-            "topic": "Mantenere vita lavorativa e privata separate vs integrarle — cosa è più sano?",
+            "topic": "Mantenere vita lavorativa e privata separate vs integrarle: cosa è più sano?",
             "sideA": "Separate",
             "sideB": "Integrate",
             "level": "intermediate",
@@ -404,10 +404,10 @@
                 "L'integrazione permette di essere più flessibili con il proprio tempo durante il giorno.",
                 "Se ami il tuo lavoro, è naturale che faccia parte di chi sei."
             ],
-            "word": "Mantenere vita lavorativa e privata separate vs integrarle — cosa è più sano?",
+            "word": "Mantenere vita lavorativa e privata separate vs integrarle: cosa è più sano?",
             "definitions": [
                 {
-                    "text": "Mantenere vita lavorativa e privata separate vs integrarle — cosa è più sano?",
+                    "text": "Mantenere vita lavorativa e privata separate vs integrarle: cosa è più sano?",
                     "examples": []
                 }
             ],
@@ -417,7 +417,7 @@
             "id": "it_intermediate_jobs_008"
         },
         {
-            "topic": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia — qual è la scelta giusta?",
+            "topic": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia: qual è la scelta giusta?",
             "sideA": "All'estero",
             "sideB": "Vicini alla famiglia",
             "level": "intermediate",
@@ -430,10 +430,10 @@
                 "Stare vicino alla famiglia offre una rete di supporto per crescere i figli.",
                 "È importante mantenere le proprie radici culturali e stare vicino ai vecchi amici."
             ],
-            "word": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia — qual è la scelta giusta?",
+            "word": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia: qual è la scelta giusta?",
             "definitions": [
                 {
-                    "text": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia — qual è la scelta giusta?",
+                    "text": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia: qual è la scelta giusta?",
                     "examples": []
                 }
             ],
@@ -443,7 +443,7 @@
             "id": "it_intermediate_travel_001"
         },
         {
-            "topic": "Dare priorità alla salute fisica vs salute mentale — su cosa dovrebbero concentrarsi prima gli adulti?",
+            "topic": "Dare priorità alla salute fisica vs salute mentale: su cosa dovrebbero concentrarsi prima gli adulti?",
             "sideA": "Fisica",
             "sideB": "Mentale",
             "level": "intermediate",
@@ -456,10 +456,10 @@
                 "Il benessere mentale è essenziale per la felicità e le buone relazioni.",
                 "Se non sei mentalmente sano, è difficile prendersi cura del proprio corpo."
             ],
-            "word": "Dare priorità alla salute fisica vs salute mentale — su cosa dovrebbero concentrarsi prima gli adulti?",
+            "word": "Dare priorità alla salute fisica vs salute mentale: su cosa dovrebbero concentrarsi prima gli adulti?",
             "definitions": [
                 {
-                    "text": "Dare priorità alla salute fisica vs salute mentale — su cosa dovrebbero concentrarsi prima gli adulti?",
+                    "text": "Dare priorità alla salute fisica vs salute mentale: su cosa dovrebbero concentrarsi prima gli adulti?",
                     "examples": []
                 }
             ],
@@ -469,7 +469,7 @@
             "id": "it_intermediate_health_medicine_001"
         },
         {
-            "topic": "Sanità privata vs affidarsi al sistema pubblico — qual è la migliore strategia per un adulto?",
+            "topic": "Sanità privata vs affidarsi al sistema pubblico: qual è la migliore strategia per un adulto?",
             "sideA": "Privata",
             "sideB": "Pubblica",
             "level": "intermediate",
@@ -482,10 +482,10 @@
                 "Un sistema pubblico è più equo perché fornisce cure a tutti, indipendentemente dai soldi.",
                 "L'assistenza sanitaria essenziale dovrebbe essere un diritto, non qualcosa da comprare."
             ],
-            "word": "Sanità privata vs affidarsi al sistema pubblico — qual è la migliore strategia per un adulto?",
+            "word": "Sanità privata vs affidarsi al sistema pubblico: qual è la migliore strategia per un adulto?",
             "definitions": [
                 {
-                    "text": "Sanità privata vs affidarsi al sistema pubblico — qual è la migliore strategia per un adulto?",
+                    "text": "Sanità privata vs affidarsi al sistema pubblico: qual è la migliore strategia per un adulto?",
                     "examples": []
                 }
             ],
@@ -495,7 +495,7 @@
             "id": "it_intermediate_health_medicine_002"
         },
         {
-            "topic": "Controlli medici regolari vs andarci solo quando si è malati — qual è l'approccio più intelligente?",
+            "topic": "Controlli medici regolari vs andarci solo quando si è malati: qual è l'approccio più intelligente?",
             "sideA": "Controlli regolari",
             "sideB": "Solo se malati",
             "level": "intermediate",
@@ -508,10 +508,10 @@
                 "Non dovresti sprecare il tempo del medico se ti senti perfettamente bene.",
                 "I nostri corpi possono spesso guarire da soli senza interventi medici."
             ],
-            "word": "Controlli medici regolari vs andarci solo quando si è malati — qual è l'approccio più intelligente?",
+            "word": "Controlli medici regolari vs andarci solo quando si è malati: qual è l'approccio più intelligente?",
             "definitions": [
                 {
-                    "text": "Controlli medici regolari vs andarci solo quando si è malati — qual è l'approccio più intelligente?",
+                    "text": "Controlli medici regolari vs andarci solo quando si è malati: qual è l'approccio più intelligente?",
                     "examples": []
                 }
             ],
@@ -521,7 +521,7 @@
             "id": "it_intermediate_health_medicine_003"
         },
         {
-            "topic": "Ridurre l'alcol vs ridurre lo stress — cosa ha un impatto maggiore sulla salute degli adulti?",
+            "topic": "Ridurre l'alcol vs ridurre lo stress: cosa ha un impatto maggiore sulla salute degli adulti?",
             "sideA": "Meno alcol",
             "sideB": "Meno stress",
             "level": "intermediate",
@@ -534,10 +534,10 @@
                 "Lo stress cronico è un killer silenzioso che causa molti problemi di salute moderni.",
                 "Imparare a rilassarsi è più importante che preoccuparsi di cosa si beve."
             ],
-            "word": "Ridurre l'alcol vs ridurre lo stress — cosa ha un impatto maggiore sulla salute degli adulti?",
+            "word": "Ridurre l'alcol vs ridurre lo stress: cosa ha un impatto maggiore sulla salute degli adulti?",
             "definitions": [
                 {
-                    "text": "Ridurre l'alcol vs ridurre lo stress — cosa ha un impatto maggiore sulla salute degli adulti?",
+                    "text": "Ridurre l'alcol vs ridurre lo stress: cosa ha un impatto maggiore sulla salute degli adulti?",
                     "examples": []
                 }
             ],
@@ -547,7 +547,7 @@
             "id": "it_intermediate_health_medicine_004"
         },
         {
-            "topic": "Libertà individuale vs responsabilità comunitaria — cosa dovrebbe guidare le decisioni degli adulti?",
+            "topic": "Libertà individuale vs responsabilità comunitaria: cosa dovrebbe guidare le decisioni degli adulti?",
             "sideA": "Libertà",
             "sideB": "Responsabilità",
             "level": "intermediate",
@@ -560,10 +560,10 @@
                 "Abbiamo tutti il dovere di aiutare i nostri vicini e migliorare la nostra comunità.",
                 "Una società funziona bene solo se tutti pensano al bene comune."
             ],
-            "word": "Libertà individuale vs responsabilità comunitaria — cosa dovrebbe guidare le decisioni degli adulti?",
+            "word": "Libertà individuale vs responsabilità comunitaria: cosa dovrebbe guidare le decisioni degli adulti?",
             "definitions": [
                 {
-                    "text": "Libertà individuale vs responsabilità comunitaria — cosa dovrebbe guidare le decisioni degli adulti?",
+                    "text": "Libertà individuale vs responsabilità comunitaria: cosa dovrebbe guidare le decisioni degli adulti?",
                     "examples": []
                 }
             ],
@@ -573,7 +573,7 @@
             "id": "it_intermediate_social_005"
         },
         {
-            "topic": "Ottimismo sul futuro vs realismo — qual è l'atteggiamento più utile per gli adulti?",
+            "topic": "Ottimismo sul futuro vs realismo: qual è l'atteggiamento più utile per gli adulti?",
             "sideA": "Ottimismo",
             "sideB": "Realismo",
             "level": "intermediate",
@@ -586,10 +586,10 @@
                 "Il realismo aiuta a prepararsi alle sfide e a prendere decisioni migliori.",
                 "È meglio vedere il mondo com'è, non come vorresti che fosse."
             ],
-            "word": "Ottimismo sul futuro vs realismo — qual è l'atteggiamento più utile per gli adulti?",
+            "word": "Ottimismo sul futuro vs realismo: qual è l'atteggiamento più utile per gli adulti?",
             "definitions": [
                 {
-                    "text": "Ottimismo sul futuro vs realismo — qual è l'atteggiamento più utile per gli adulti?",
+                    "text": "Ottimismo sul futuro vs realismo: qual è l'atteggiamento più utile per gli adulti?",
                     "examples": []
                 }
             ],
@@ -599,7 +599,7 @@
             "id": "it_intermediate_social_006"
         },
         {
-            "topic": "Cambiare il mondo vs costruirsi una vita personale stabile — quale è l'ambizione più onesta?",
+            "topic": "Cambiare il mondo vs costruirsi una vita personale stabile: quale è l'ambizione più onesta?",
             "sideA": "Cambiare il mondo",
             "sideB": "Vita stabile",
             "level": "intermediate",
@@ -612,10 +612,10 @@
                 "Prendersi cura della propria famiglia ed essere una brava persona è sufficiente.",
                 "Cercare di cambiare il mondo è spesso irrealistico e porta alla frustrazione."
             ],
-            "word": "Cambiare il mondo vs costruirsi una vita personale stabile — quale è l'ambizione più onesta?",
+            "word": "Cambiare il mondo vs costruirsi una vita personale stabile: quale è l'ambizione più onesta?",
             "definitions": [
                 {
-                    "text": "Cambiare il mondo vs costruirsi una vita personale stabile — quale è l'ambizione più onesta?",
+                    "text": "Cambiare il mondo vs costruirsi una vita personale stabile: quale è l'ambizione più onesta?",
                     "examples": []
                 }
             ],
@@ -625,7 +625,7 @@
             "id": "it_intermediate_social_007"
         },
         {
-            "topic": "Dedicare il proprio tempo al volontariato vs donare denaro — cosa fa più bene?",
+            "topic": "Dedicare il proprio tempo al volontariato vs donare denaro: cosa fa più bene?",
             "sideA": "Volontariato",
             "sideB": "Donare denaro",
             "level": "intermediate",
@@ -638,10 +638,10 @@
                 "Le organizzazioni benefiche possono usare i soldi per acquistare risorse professionali.",
                 "Donare è più efficiente se hai un lavoro impegnativo e uno stipendio alto."
             ],
-            "word": "Dedicare il proprio tempo al volontariato vs donare denaro — cosa fa più bene?",
+            "word": "Dedicare il proprio tempo al volontariato vs donare denaro: cosa fa più bene?",
             "definitions": [
                 {
-                    "text": "Dedicare il proprio tempo al volontariato vs donare denaro — cosa fa più bene?",
+                    "text": "Dedicare il proprio tempo al volontariato vs donare denaro: cosa fa più bene?",
                     "examples": []
                 }
             ],
@@ -651,7 +651,7 @@
             "id": "it_intermediate_social_008"
         },
         {
-            "topic": "Seguire i valori della propria generazione vs metterli in discussione — cosa è più ammirevole?",
+            "topic": "Seguire i valori della propria generazione vs metterli in discussione: cosa è più ammirevole?",
             "sideA": "Seguire",
             "sideB": "Mettere in discussione",
             "level": "intermediate",
@@ -664,10 +664,10 @@
                 "Ogni generazione dovrebbe decidere quali valori sono ancora rilevanti oggi.",
                 "Mettere in discussione lo status quo è necessario per il progresso."
             ],
-            "word": "Seguire i valori della propria generazione vs metterli in discussione — cosa è più ammirevole?",
+            "word": "Seguire i valori della propria generazione vs metterli in discussione: cosa è più ammirevole?",
             "definitions": [
                 {
-                    "text": "Seguire i valori della propria generazione vs metterli in discussione — cosa è più ammirevole?",
+                    "text": "Seguire i valori della propria generazione vs metterli in discussione: cosa è più ammirevole?",
                     "examples": []
                 }
             ],
@@ -677,7 +677,7 @@
             "id": "it_intermediate_social_009"
         },
         {
-            "topic": "Sapere quanto guadagnano i colleghi vs non saperlo — cosa è meglio per l'armonia in ufficio?",
+            "topic": "Sapere quanto guadagnano i colleghi vs non saperlo: cosa è meglio per l'armonia in ufficio?",
             "sideA": "Saperlo",
             "sideB": "Non saperlo",
             "level": "intermediate",
@@ -690,10 +690,10 @@
                 "Il denaro è una questione privata e parlarne può causare gelosie.",
                 "La privacy evita inutili competizioni e tensioni tra colleghi."
             ],
-            "word": "Sapere quanto guadagnano i colleghi vs non saperlo — cosa è meglio per l'armonia in ufficio?",
+            "word": "Sapere quanto guadagnano i colleghi vs non saperlo: cosa è meglio per l'armonia in ufficio?",
             "definitions": [
                 {
-                    "text": "Sapere quanto guadagnano i colleghi vs non saperlo — cosa è meglio per l'armonia in ufficio?",
+                    "text": "Sapere quanto guadagnano i colleghi vs non saperlo: cosa è meglio per l'armonia in ufficio?",
                     "examples": []
                 }
             ],
@@ -703,7 +703,7 @@
             "id": "it_intermediate_jobs_009"
         },
         {
-            "topic": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo — cosa è più rispettoso nella vita adulta?",
+            "topic": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo: cosa è più rispettoso nella vita adulta?",
             "sideA": "Subito",
             "sideB": "Con calma",
             "level": "intermediate",
@@ -716,10 +716,10 @@
                 "Prendersi il proprio tempo permette di dare una risposta più ponderata e migliore.",
                 "È importante avere dei confini e non essere schiavi del telefono."
             ],
-            "word": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo — cosa è più rispettoso nella vita adulta?",
+            "word": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo: cosa è più rispettoso nella vita adulta?",
             "definitions": [
                 {
-                    "text": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo — cosa è più rispettoso nella vita adulta?",
+                    "text": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo: cosa è più rispettoso nella vita adulta?",
                     "examples": []
                 }
             ],
@@ -729,7 +729,7 @@
             "id": "it_intermediate_social_010"
         },
         {
-            "topic": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo — quale è l'esperienza adulta più comune?",
+            "topic": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo: quale è l'esperienza adulta più comune?",
             "sideA": "Ammettere",
             "sideB": "Fingere",
             "level": "intermediate",
@@ -742,10 +742,10 @@
                 "Fingere di sapere aiuta a sembrare professionali e sicuri di sé.",
                 "È meglio fare ricerche private più tardi che sembrare ignoranti ora."
             ],
-            "word": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo — quale è l'esperienza adulta più comune?",
+            "word": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo: quale è l'esperienza adulta più comune?",
             "definitions": [
                 {
-                    "text": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo — quale è l'esperienza adulta più comune?",
+                    "text": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo: quale è l'esperienza adulta più comune?",
                     "examples": []
                 }
             ],
@@ -755,7 +755,7 @@
             "id": "it_intermediate_shopping_005"
         },
         {
-            "topic": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia — quale è la peggiore abitudine adulta?",
+            "topic": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia: quale è la peggiore abitudine adulta?",
             "sideA": "Annullare",
             "sideB": "Uscire comunque",
             "level": "intermediate",
@@ -768,10 +768,10 @@
                 "Dovresti mantenere le promesse anche se non ne hai voglia.",
                 "Una volta lì, probabilmente ti divertirai e sarai felice di essere andato."
             ],
-            "word": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia — quale è la peggiore abitudine adulta?",
+            "word": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia: quale è la peggiore abitudine adulta?",
             "definitions": [
                 {
-                    "text": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia — quale è la peggiore abitudine adulta?",
+                    "text": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia: quale è la peggiore abitudine adulta?",
                     "examples": []
                 }
             ],
@@ -781,7 +781,7 @@
             "id": "it_intermediate_social_011"
         },
         {
-            "topic": "Parlare apertamente di soldi con gli amici vs mantenere la privacy — qual è l'approccio più maturo?",
+            "topic": "Parlare apertamente di soldi con gli amici vs mantenere la privacy: qual è l'approccio più maturo?",
             "sideA": "Parlarne apertamente",
             "sideB": "Mantenerlo privato",
             "level": "intermediate",
@@ -794,10 +794,10 @@
                 "Il denaro può creare una divisione tra amici che guadagnano cifre diverse.",
                 "È più educato tenere i dettagli finanziari per sé nelle situazioni sociali."
             ],
-            "word": "Parlare apertamente di soldi con gli amici vs mantenere la privacy — qual è l'approccio più maturo?",
+            "word": "Parlare apertamente di soldi con gli amici vs mantenere la privacy: qual è l'approccio più maturo?",
             "definitions": [
                 {
-                    "text": "Parlare apertamente di soldi con gli amici vs mantenere la privacy — qual è l'approccio più maturo?",
+                    "text": "Parlare apertamente di soldi con gli amici vs mantenere la privacy: qual è l'approccio più maturo?",
                     "examples": []
                 }
             ],
@@ -859,7 +859,7 @@
             "id": "it_intermediate_environment_001"
         },
         {
-            "topic": "Apprendimento online o apprendimento in aula — cosa è più efficace?",
+            "topic": "Apprendimento online o apprendimento in aula: cosa è più efficace?",
             "sideA": "Online",
             "sideB": "Aula",
             "level": "intermediate",
@@ -872,10 +872,10 @@
                 "In un'aula, puoi interagire direttamente con gli altri studenti e l'insegnante.",
                 "Una scuola fisica offre un ambiente migliore per concentrarsi sugli studi."
             ],
-            "word": "Apprendimento online o apprendimento in aula — cosa è più efficace?",
+            "word": "Apprendimento online o apprendimento in aula: cosa è più efficace?",
             "definitions": [
                 {
-                    "text": "Apprendimento online o apprendimento in aula — cosa è più efficace?",
+                    "text": "Apprendimento online o apprendimento in aula: cosa è più efficace?",
                     "examples": []
                 }
             ],
@@ -885,7 +885,7 @@
             "id": "it_intermediate_jobs_010"
         },
         {
-            "topic": "Memorizzare fatti o imparare come trovare informazioni — quale abilità è più importante?",
+            "topic": "Memorizzare fatti o imparare come trovare informazioni: quale abilità è più importante?",
             "sideA": "Fatti",
             "sideB": "Trovare info",
             "level": "intermediate",
@@ -898,10 +898,10 @@
                 "È più utile sapere come ricercare e analizzare i dati che memorizzarli.",
                 "I fatti cambiano nel tempo, ma la capacità di trovare informazioni è per sempre."
             ],
-            "word": "Memorizzare fatti o imparare come trovare informazioni — quale abilità è più importante?",
+            "word": "Memorizzare fatti o imparare come trovare informazioni: quale abilità è più importante?",
             "definitions": [
                 {
-                    "text": "Memorizzare fatti o imparare come trovare informazioni — quale abilità è più importante?",
+                    "text": "Memorizzare fatti o imparare come trovare informazioni: quale abilità è più importante?",
                     "examples": []
                 }
             ],
@@ -911,7 +911,7 @@
             "id": "it_intermediate_jobs_011"
         },
         {
-            "topic": "Istruzione universitaria o formazione professionale — quale è il percorso migliore?",
+            "topic": "Istruzione universitaria o formazione professionale: quale è il percorso migliore?",
             "sideA": "Università",
             "sideB": "Professionale",
             "level": "intermediate",
@@ -924,10 +924,10 @@
                 "La formazione professionale ti prepara per un lavoro specifico con abilità pratiche.",
                 "Puoi iniziare a guadagnare prima ed evitare ingenti debiti studenteschi."
             ],
-            "word": "Istruzione universitaria o formazione professionale — quale è il percorso migliore?",
+            "word": "Istruzione universitaria o formazione professionale: quale è il percorso migliore?",
             "definitions": [
                 {
-                    "text": "Istruzione universitaria o formazione professionale — quale è il percorso migliore?",
+                    "text": "Istruzione universitaria o formazione professionale: quale è il percorso migliore?",
                     "examples": []
                 }
             ],
@@ -937,7 +937,7 @@
             "id": "it_intermediate_jobs_012"
         },
         {
-            "topic": "Esami o valutazione continua — quale è il modo più giusto per valutare gli studenti?",
+            "topic": "Esami o valutazione continua: quale è il modo più giusto per valutare gli studenti?",
             "sideA": "Esami",
             "sideB": "Continua",
             "level": "intermediate",
@@ -950,10 +950,10 @@
                 "La valutazione continua è meno stressante e mostra il vero progresso dello studente.",
                 "Incoraggia un lavoro costante durante tutto l'anno invece di un solo giorno."
             ],
-            "word": "Esami o valutazione continua — quale è il modo più giusto per valutare gli studenti?",
+            "word": "Esami o valutazione continua: quale è il modo più giusto per valutare gli studenti?",
             "definitions": [
                 {
-                    "text": "Esami o valutazione continua — quale è il modo più giusto per valutare gli studenti?",
+                    "text": "Esami o valutazione continua: quale è il modo più giusto per valutare gli studenti?",
                     "examples": []
                 }
             ],
@@ -963,7 +963,7 @@
             "id": "it_intermediate_jobs_013"
         },
         {
-            "topic": "Imparare una lingua straniera a scuola o vivere all'estero — cosa è più efficace?",
+            "topic": "Imparare una lingua straniera a scuola o vivere all'estero: cosa è più efficace?",
             "sideA": "Scuola",
             "sideB": "Vivere all'estero",
             "level": "intermediate",
@@ -976,10 +976,10 @@
                 "Vivere all'estero ti costringe a parlare la lingua in situazioni reali ogni giorno.",
                 "Impari la cultura e il modo naturale di parlare molto più velocemente."
             ],
-            "word": "Imparare una lingua straniera a scuola o vivere all'estero — cosa è più efficace?",
+            "word": "Imparare una lingua straniera a scuola o vivere all'estero: cosa è più efficace?",
             "definitions": [
                 {
-                    "text": "Imparare una lingua straniera a scuola o vivere all'estero — cosa è più efficace?",
+                    "text": "Imparare una lingua straniera a scuola o vivere all'estero: cosa è più efficace?",
                     "examples": []
                 }
             ],
@@ -989,7 +989,7 @@
             "id": "it_intermediate_jobs_014"
         },
         {
-            "topic": "Scuole maschili o femminili o scuole miste — quali sono migliori per gli studenti?",
+            "topic": "Scuole maschili o femminili o scuole miste: quali sono migliori per gli studenti?",
             "sideA": "Solo maschi/femmine",
             "sideB": "Mista",
             "level": "intermediate",
@@ -1002,10 +1002,10 @@
                 "Le scuole miste riflettono il mondo reale dove uomini e donne lavorano insieme.",
                 "Interagire con tutti aiuta a sviluppare migliori abilità sociali e comunicative."
             ],
-            "word": "Scuole maschili o femminili o scuole miste — quali sono migliori per gli studenti?",
+            "word": "Scuole maschili o femminili o scuole miste: quali sono migliori per gli studenti?",
             "definitions": [
                 {
-                    "text": "Scuole maschili o femminili o scuole miste — quali sono migliori per gli studenti?",
+                    "text": "Scuole maschili o femminili o scuole miste: quali sono migliori per gli studenti?",
                     "examples": []
                 }
             ],
@@ -1015,7 +1015,7 @@
             "id": "it_intermediate_jobs_015"
         },
         {
-            "topic": "Social media o comunicazione faccia a faccia — cosa è meglio per restare in contatto?",
+            "topic": "Social media o comunicazione faccia a faccia: cosa è meglio per restare in contatto?",
             "sideA": "Social media",
             "sideB": "Faccia a faccia",
             "level": "intermediate",
@@ -1028,10 +1028,10 @@
                 "La comunicazione faccia a faccia permette di vedere il linguaggio del corpo.",
                 "Incontrarsi di persona costruisce relazioni molto più profonde e significative."
             ],
-            "word": "Social media o comunicazione faccia a faccia — cosa è meglio per restare in contatto?",
+            "word": "Social media o comunicazione faccia a faccia: cosa è meglio per restare in contatto?",
             "definitions": [
                 {
-                    "text": "Social media o comunicazione faccia a faccia — cosa è meglio per restare in contatto?",
+                    "text": "Social media o comunicazione faccia a faccia: cosa è meglio per restare in contatto?",
                     "examples": []
                 }
             ],
@@ -1041,7 +1041,7 @@
             "id": "it_intermediate_social_014"
         },
         {
-            "topic": "Servizi di streaming o TV tradizionale — cosa è meglio?",
+            "topic": "Servizi di streaming o TV tradizionale: cosa è meglio?",
             "sideA": "Streaming",
             "sideB": "TV classica",
             "level": "intermediate",
@@ -1054,10 +1054,10 @@
                 "La TV tradizionale è migliore per eventi dal vivo come notizie e sport.",
                 "Guardare lo stesso programma contemporaneamente agli altri crea comunità."
             ],
-            "word": "Servizi di streaming o TV tradizionale — cosa è meglio?",
+            "word": "Servizi di streaming o TV tradizionale: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Servizi di streaming o TV tradizionale — cosa è meglio?",
+                    "text": "Servizi di streaming o TV tradizionale: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1067,7 +1067,7 @@
             "id": "it_intermediate_technology_001"
         },
         {
-            "topic": "Lavorare da casa o lavorare in ufficio — cosa è più produttivo?",
+            "topic": "Lavorare da casa o lavorare in ufficio: cosa è più produttivo?",
             "sideA": "Casa",
             "sideB": "Ufficio",
             "level": "intermediate",
@@ -1080,10 +1080,10 @@
                 "I manager possono supportare il proprio team in modo più efficace in ufficio.",
                 "È più facile fare riunioni veloci e risolvere problemi quando tutti sono presenti."
             ],
-            "word": "Lavorare da casa o lavorare in ufficio — cosa è più produttivo?",
+            "word": "Lavorare da casa o lavorare in ufficio: cosa è più produttivo?",
             "definitions": [
                 {
-                    "text": "Lavorare da casa o lavorare in ufficio — cosa è più produttivo?",
+                    "text": "Lavorare da casa o lavorare in ufficio: cosa è più produttivo?",
                     "examples": []
                 }
             ],
@@ -1093,7 +1093,7 @@
             "id": "it_intermediate_jobs_016"
         },
         {
-            "topic": "Leggere le notizie online o leggere un giornale — cosa è più affidabile?",
+            "topic": "Leggere le notizie online o leggere un giornale: cosa è più affidabile?",
             "sideA": "Notizie online",
             "sideB": "Giornale",
             "level": "intermediate",
@@ -1106,10 +1106,10 @@
                 "I giornali hanno spesso un giornalismo di qualità superiore e articoli approfonditi.",
                 "Leggere un giornale fisico è un buon modo per staccare dagli schermi."
             ],
-            "word": "Leggere le notizie online o leggere un giornale — cosa è più affidabile?",
+            "word": "Leggere le notizie online o leggere un giornale: cosa è più affidabile?",
             "definitions": [
                 {
-                    "text": "Leggere le notizie online o leggere un giornale — cosa è più affidabile?",
+                    "text": "Leggere le notizie online o leggere un giornale: cosa è più affidabile?",
                     "examples": []
                 }
             ],
@@ -1119,7 +1119,7 @@
             "id": "it_intermediate_technology_002"
         },
         {
-            "topic": "Passare il tempo sui social media o passare il tempo nella natura — cosa è meglio per la tua salute mentale?",
+            "topic": "Passare il tempo sui social media o passare il tempo nella natura: cosa è meglio per la tua salute mentale?",
             "sideA": "Social media",
             "sideB": "Natura",
             "level": "intermediate",
@@ -1132,10 +1132,10 @@
                 "Passare del tempo nella natura riduce lo stress e migliora significativamente l'umore.",
                 "Stare all'aria aperta aiuta a schiarirsi le idee e godersi il presente."
             ],
-            "word": "Passare il tempo sui social media o passare il tempo nella natura — cosa è meglio per la tua salute mentale?",
+            "word": "Passare il tempo sui social media o passare il tempo nella natura: cosa è meglio per la tua salute mentale?",
             "definitions": [
                 {
-                    "text": "Passare il tempo sui social media o passare il tempo nella natura — cosa è meglio per la tua salute mentale?",
+                    "text": "Passare il tempo sui social media o passare il tempo nella natura: cosa è meglio per la tua salute mentale?",
                     "examples": []
                 }
             ],
@@ -1145,7 +1145,7 @@
             "id": "it_intermediate_health_medicine_005"
         },
         {
-            "topic": "Usare i trasporti pubblici o guidare l'auto — cosa è meglio per la società?",
+            "topic": "Usare i trasporti pubblici o guidare l'auto: cosa è meglio per la società?",
             "sideA": "Trasporti pubblici",
             "sideB": "Auto",
             "level": "intermediate",
@@ -1158,10 +1158,10 @@
                 "Guidare l'auto ti dà più libertà e fa risparmiare tempo in molti viaggi.",
                 "È più comodo e privato che viaggiare su un autobus o un treno affollato."
             ],
-            "word": "Usare i trasporti pubblici o guidare l'auto — cosa è meglio per la società?",
+            "word": "Usare i trasporti pubblici o guidare l'auto: cosa è meglio per la società?",
             "definitions": [
                 {
-                    "text": "Usare i trasporti pubblici o guidare l'auto — cosa è meglio per la società?",
+                    "text": "Usare i trasporti pubblici o guidare l'auto: cosa è meglio per la società?",
                     "examples": []
                 }
             ],
@@ -1171,7 +1171,7 @@
             "id": "it_intermediate_environment_002"
         },
         {
-            "topic": "Comprare vestiti usati o comprare vestiti nuovi — quale è l'abitudine migliore?",
+            "topic": "Comprare vestiti usati o comprare vestiti nuovi: quale è l'abitudine migliore?",
             "sideA": "Usato",
             "sideB": "Nuovo",
             "level": "intermediate",
@@ -1184,10 +1184,10 @@
                 "I vestiti nuovi sono generalmente in condizioni migliori e durano più a lungo.",
                 "Seguire le nuove tendenze è un modo divertente per esprimere il proprio stile."
             ],
-            "word": "Comprare vestiti usati o comprare vestiti nuovi — quale è l'abitudine migliore?",
+            "word": "Comprare vestiti usati o comprare vestiti nuovi: quale è l'abitudine migliore?",
             "definitions": [
                 {
-                    "text": "Comprare vestiti usati o comprare vestiti nuovi — quale è l'abitudine migliore?",
+                    "text": "Comprare vestiti usati o comprare vestiti nuovi: quale è l'abitudine migliore?",
                     "examples": []
                 }
             ],
@@ -1197,7 +1197,7 @@
             "id": "it_intermediate_environment_003"
         },
         {
-            "topic": "Vivere in città o vivere in campagna — cosa si adatta meglio ai giovani?",
+            "topic": "Vivere in città o vivere in campagna: cosa si adatta meglio ai giovani?",
             "sideA": "Città",
             "sideB": "Campagna",
             "level": "intermediate",
@@ -1210,10 +1210,10 @@
                 "La campagna offre un ambiente più sano con più spazio e natura.",
                 "Vivere fuori città è molto più economico, quindi puoi risparmiare di più."
             ],
-            "word": "Vivere in città o vivere in campagna — cosa si adatta meglio ai giovani?",
+            "word": "Vivere in città o vivere in campagna: cosa si adatta meglio ai giovani?",
             "definitions": [
                 {
-                    "text": "Vivere in città o vivere in campagna — cosa si adatta meglio ai giovani?",
+                    "text": "Vivere in città o vivere in campagna: cosa si adatta meglio ai giovani?",
                     "examples": []
                 }
             ],
@@ -1223,7 +1223,7 @@
             "id": "it_intermediate_travel_002"
         },
         {
-            "topic": "Vegetarianismo o mangiare carne — cosa è meglio per il pianeta?",
+            "topic": "Vegetarianismo o mangiare carne: cosa è meglio per il pianeta?",
             "sideA": "Vegetarianismo",
             "sideB": "Carne",
             "level": "intermediate",
@@ -1236,10 +1236,10 @@
                 "La carne è una buona fonte di proteine e vitamine essenziali per molte persone.",
                 "Pratiche agricole sostenibili possono rendere la produzione di carne meno dannosa."
             ],
-            "word": "Vegetarianismo o mangiare carne — cosa è meglio per il pianeta?",
+            "word": "Vegetarianismo o mangiare carne: cosa è meglio per il pianeta?",
             "definitions": [
                 {
-                    "text": "Vegetarianismo o mangiare carne — cosa è meglio per il pianeta?",
+                    "text": "Vegetarianismo o mangiare carne: cosa è meglio per il pianeta?",
                     "examples": []
                 }
             ],
@@ -1249,7 +1249,7 @@
             "id": "it_intermediate_environment_004"
         },
         {
-            "topic": "Cambiamenti nello stile di vita individuale o azione del governo — cosa fa di più per l'ambiente?",
+            "topic": "Cambiamenti nello stile di vita individuale o azione del governo: cosa fa di più per l'ambiente?",
             "sideA": "Individuale",
             "sideB": "Governo",
             "level": "intermediate",
@@ -1262,10 +1262,10 @@
                 "Solo i governi possono fare leggi per fermare l'inquinamento delle grandi industrie.",
                 "Gli accordi internazionali sono necessari per risolvere i problemi globali."
             ],
-            "word": "Cambiamenti nello stile di vita individuale o azione del governo — cosa fa di più per l'ambiente?",
+            "word": "Cambiamenti nello stile di vita individuale o azione del governo: cosa fa di più per l'ambiente?",
             "definitions": [
                 {
-                    "text": "Cambiamenti nello stile di vita individuale o azione del governo — cosa fa di più per l'ambiente?",
+                    "text": "Cambiamenti nello stile di vita individuale o azione del governo: cosa fa di più per l'ambiente?",
                     "examples": []
                 }
             ],
@@ -1275,7 +1275,7 @@
             "id": "it_intermediate_environment_005"
         },
         {
-            "topic": "Un lavoro stabile o una carriera creativa — quale è la scelta di vita migliore?",
+            "topic": "Un lavoro stabile o una carriera creativa: quale è la scelta di vita migliore?",
             "sideA": "Lavoro stabile",
             "sideB": "Carriera creativa",
             "level": "intermediate",
@@ -1288,10 +1288,10 @@
                 "Una carriera creativa è più appagante perché puoi esprimere te stesso.",
                 "Fare ciò che ami ogni giorno è meglio che avere uno stipendio alto."
             ],
-            "word": "Un lavoro stabile o una carriera creativa — quale è la scelta di vita migliore?",
+            "word": "Un lavoro stabile o una carriera creativa: quale è la scelta di vita migliore?",
             "definitions": [
                 {
-                    "text": "Un lavoro stabile o una carriera creativa — quale è la scelta di vita migliore?",
+                    "text": "Un lavoro stabile o una carriera creativa: quale è la scelta di vita migliore?",
                     "examples": []
                 }
             ],
@@ -1301,7 +1301,7 @@
             "id": "it_intermediate_jobs_017"
         },
         {
-            "topic": "Aprire la propria attività o lavorare per un'azienda — cosa è meglio?",
+            "topic": "Aprire la propria attività o lavorare per un'azienda: cosa è meglio?",
             "sideA": "Propria attività",
             "sideB": "Azienda",
             "level": "intermediate",
@@ -1314,10 +1314,10 @@
                 "Lavorare per un'azienda offre più sicurezza e un migliore equilibrio vita-lavoro.",
                 "Hai colleghi che ti supportano e puoi imparare dai tuoi manager."
             ],
-            "word": "Aprire la propria attività o lavorare per un'azienda — cosa è meglio?",
+            "word": "Aprire la propria attività o lavorare per un'azienda: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Aprire la propria attività o lavorare per un'azienda — cosa è meglio?",
+                    "text": "Aprire la propria attività o lavorare per un'azienda: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1327,7 +1327,7 @@
             "id": "it_intermediate_jobs_018"
         },
         {
-            "topic": "Salario alto o soddisfazione sul lavoro — cosa conta di più al lavoro?",
+            "topic": "Salario alto o soddisfazione sul lavoro: cosa conta di più al lavoro?",
             "sideA": "Salario",
             "sideB": "Soddisfazione",
             "level": "intermediate",
@@ -1340,10 +1340,10 @@
                 "Se sei felice al lavoro, sarai più produttivo e meno stressato.",
                 "Passiamo la maggior parte della nostra vita a lavorare, quindi dovrebbe piacerci."
             ],
-            "word": "Salario alto o soddisfazione sul lavoro — cosa conta di più al lavoro?",
+            "word": "Salario alto o soddisfazione sul lavoro: cosa conta di più al lavoro?",
             "definitions": [
                 {
-                    "text": "Salario alto o soddisfazione sul lavoro — cosa conta di più al lavoro?",
+                    "text": "Salario alto o soddisfazione sul lavoro: cosa conta di più al lavoro?",
                     "examples": []
                 }
             ],
@@ -1353,7 +1353,7 @@
             "id": "it_intermediate_jobs_019"
         },
         {
-            "topic": "Lavorare molte ore o avere un equilibrio vita-lavoro — cosa porta a un maggiore successo?",
+            "topic": "Lavorare molte ore o avere un equilibrio vita-lavoro: cosa porta a un maggiore successo?",
             "sideA": "Molte ore",
             "sideB": "Equilibrio",
             "level": "intermediate",
@@ -1366,10 +1366,10 @@
                 "Un buon equilibrio ti aiuta a rimanere creativo e produttivo a lungo termine.",
                 "Il successo non è solo lavoro; è anche salute e relazioni."
             ],
-            "word": "Lavorare molte ore o avere un equilibrio vita-lavoro — cosa porta a un maggiore successo?",
+            "word": "Lavorare molte ore o avere un equilibrio vita-lavoro: cosa porta a un maggiore successo?",
             "definitions": [
                 {
-                    "text": "Lavorare molte ore o avere un equilibrio vita-lavoro — cosa porta a un maggiore successo?",
+                    "text": "Lavorare molte ore o avere un equilibrio vita-lavoro: cosa porta a un maggiore successo?",
                     "examples": []
                 }
             ],
@@ -1379,7 +1379,7 @@
             "id": "it_intermediate_jobs_020"
         },
         {
-            "topic": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro — cosa è più saggio?",
+            "topic": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro: cosa è più saggio?",
             "sideA": "Passione",
             "sideB": "Prospettive",
             "level": "intermediate",
@@ -1392,10 +1392,10 @@
                 "È più saggio scegliere un lavoro molto richiesto e ben pagato.",
                 "Puoi usare i soldi di un buon lavoro per seguire le tue passioni nel tempo libero."
             ],
-            "word": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro — cosa è più saggio?",
+            "word": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro: cosa è più saggio?",
             "definitions": [
                 {
-                    "text": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro — cosa è più saggio?",
+                    "text": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro: cosa è più saggio?",
                     "examples": []
                 }
             ],
@@ -1405,7 +1405,7 @@
             "id": "it_intermediate_jobs_021"
         },
         {
-            "topic": "Vivere come individuo o mettere al primo posto la comunità — cosa è più importante?",
+            "topic": "Vivere come individuo o mettere al primo posto la comunità: cosa è più importante?",
             "sideA": "Individuo",
             "sideB": "Comunità",
             "level": "intermediate",
@@ -1418,10 +1418,10 @@
                 "Aiutare gli altri e far parte di un gruppo rende la vita più gratificante.",
                 "Una comunità forte fornisce supporto e sicurezza per tutti."
             ],
-            "word": "Vivere come individuo o mettere al primo posto la comunità — cosa è più importante?",
+            "word": "Vivere come individuo o mettere al primo posto la comunità: cosa è più importante?",
             "definitions": [
                 {
-                    "text": "Vivere come individuo o mettere al primo posto la comunità — cosa è più importante?",
+                    "text": "Vivere come individuo o mettere al primo posto la comunità: cosa è più importante?",
                     "examples": []
                 }
             ],
@@ -1431,7 +1431,7 @@
             "id": "it_intermediate_social_015"
         },
         {
-            "topic": "Valori tradizionali o valori moderni — quali sono più importanti da conservare?",
+            "topic": "Valori tradizionali o valori moderni: quali sono più importanti da conservare?",
             "sideA": "Tradizionali",
             "sideB": "Moderni",
             "level": "intermediate",
@@ -1444,10 +1444,10 @@
                 "I valori moderni come l'uguaglianza rendono la società più giusta per tutti.",
                 "Dobbiamo aggiornare i nostri valori per risolvere le sfide del XXI secolo."
             ],
-            "word": "Valori tradizionali o valori moderni — quali sono più importanti da conservare?",
+            "word": "Valori tradizionali o valori moderni: quali sono più importanti da conservare?",
             "definitions": [
                 {
-                    "text": "Valori tradizionali o valori moderni — quali sono più importanti da conservare?",
+                    "text": "Valori tradizionali o valori moderni: quali sono più importanti da conservare?",
                     "examples": []
                 }
             ],
@@ -1457,7 +1457,7 @@
             "id": "it_intermediate_social_016"
         },
         {
-            "topic": "Fare volontariato o donare soldi in beneficenza — cosa aiuta di più?",
+            "topic": "Fare volontariato o donare soldi in beneficenza: cosa aiuta di più?",
             "sideA": "Volontariato",
             "sideB": "Donare",
             "level": "intermediate",
@@ -1470,10 +1470,10 @@
                 "I soldi possono essere usati per pagare aiuti professionali più efficaci.",
                 "Donare è un modo rapido per le persone impegnate di sostenere una causa."
             ],
-            "word": "Fare volontariato o donare soldi in beneficenza — cosa aiuta di più?",
+            "word": "Fare volontariato o donare soldi in beneficenza: cosa aiuta di più?",
             "definitions": [
                 {
-                    "text": "Fare volontariato o donare soldi in beneficenza — cosa aiuta di più?",
+                    "text": "Fare volontariato o donare soldi in beneficenza: cosa aiuta di più?",
                     "examples": []
                 }
             ],
@@ -1483,7 +1483,7 @@
             "id": "it_intermediate_social_017"
         },
         {
-            "topic": "Fama o fare la differenza in silenzio — quale è l'obiettivo migliore nella vita?",
+            "topic": "Fama o fare la differenza in silenzio: quale è l'obiettivo migliore nella vita?",
             "sideA": "Fama",
             "sideB": "Differenza silenziosa",
             "level": "intermediate",
@@ -1496,10 +1496,10 @@
                 "Aiutare le persone in silenzio è più sincero ed evita lo stress della fama.",
                 "Avere un impatto reale nella comunità locale è più importante della fama."
             ],
-            "word": "Fama o fare la differenza in silenzio — quale è l'obiettivo migliore nella vita?",
+            "word": "Fama o fare la differenza in silenzio: quale è l'obiettivo migliore nella vita?",
             "definitions": [
                 {
-                    "text": "Fama o fare la differenza in silenzio — quale è l'obiettivo migliore nella vita?",
+                    "text": "Fama o fare la differenza in silenzio: quale è l'obiettivo migliore nella vita?",
                     "examples": []
                 }
             ],
@@ -1509,7 +1509,7 @@
             "id": "it_intermediate_social_018"
         },
         {
-            "topic": "Seguire le regole o pensare con la propria testa — cosa conta di più?",
+            "topic": "Seguire le regole o pensare con la propria testa: cosa conta di più?",
             "sideA": "Regole",
             "sideB": "Pensiero proprio",
             "level": "intermediate",
@@ -1522,10 +1522,10 @@
                 "Il progresso avviene solo quando le persone mettono in discussione le regole.",
                 "È importante avere le proprie opinioni e non limitarsi a seguire la massa."
             ],
-            "word": "Seguire le regole o pensare con la propria testa — cosa conta di più?",
+            "word": "Seguire le regole o pensare con la propria testa: cosa conta di più?",
             "definitions": [
                 {
-                    "text": "Seguire le regole o pensare con la propria testa — cosa conta di più?",
+                    "text": "Seguire le regole o pensare con la propria testa: cosa conta di più?",
                     "examples": []
                 }
             ],
@@ -1535,7 +1535,7 @@
             "id": "it_intermediate_social_019"
         },
         {
-            "topic": "Salute fisica o salute mentale — quale dovrebbe essere la priorità?",
+            "topic": "Salute fisica o salute mentale: quale dovrebbe essere la priorità?",
             "sideA": "Fisica",
             "sideB": "Mentale",
             "level": "intermediate",
@@ -1548,10 +1548,10 @@
                 "La salute mentale è la base di come viviamo il mondo.",
                 "Senza una mente sana, è molto difficile mantenere un corpo sano."
             ],
-            "word": "Salute fisica o salute mentale — quale dovrebbe essere la priorità?",
+            "word": "Salute fisica o salute mentale: quale dovrebbe essere la priorità?",
             "definitions": [
                 {
-                    "text": "Salute fisica o salute mentale — quale dovrebbe essere la priorità?",
+                    "text": "Salute fisica o salute mentale: quale dovrebbe essere la priorità?",
                     "examples": []
                 }
             ],
@@ -1561,7 +1561,7 @@
             "id": "it_intermediate_health_medicine_006"
         },
         {
-            "topic": "Prevenzione o cura — quale è l'approccio migliore alla sanità?",
+            "topic": "Prevenzione o cura: quale è l'approccio migliore alla sanità?",
             "sideA": "Prevenzione",
             "sideB": "Cura",
             "level": "intermediate",
@@ -1574,10 +1574,10 @@
                 "La scienza medica dovrebbe concentrarsi sul trovare cure migliori per i mali gravi.",
                 "Avremo sempre bisogno di cure efficaci per incidenti e malattie impreviste."
             ],
-            "word": "Prevenzione o cura — quale è l'approccio migliore alla sanità?",
+            "word": "Prevenzione o cura: quale è l'approccio migliore alla sanità?",
             "definitions": [
                 {
-                    "text": "Prevenzione o cura — quale è l'approccio migliore alla sanità?",
+                    "text": "Prevenzione o cura: quale è l'approccio migliore alla sanità?",
                     "examples": []
                 }
             ],
@@ -1587,7 +1587,7 @@
             "id": "it_intermediate_health_medicine_007"
         },
         {
-            "topic": "Sport competitivo o esercizio fisico per divertimento — cosa è meglio per te?",
+            "topic": "Sport competitivo o esercizio fisico per divertimento: cosa è meglio per te?",
             "sideA": "Competitivo",
             "sideB": "Divertimento",
             "level": "intermediate",
@@ -1600,10 +1600,10 @@
                 "L'esercizio per divertimento è più sostenibile e riduce il rischio di infortuni.",
                 "Dovrebbe riguardare il relax e il piacere del movimento, non la vittoria."
             ],
-            "word": "Sport competitivo o esercizio fisico per divertimento — cosa è meglio per te?",
+            "word": "Sport competitivo o esercizio fisico per divertimento: cosa è meglio per te?",
             "definitions": [
                 {
-                    "text": "Sport competitivo o esercizio fisico per divertimento — cosa è meglio per te?",
+                    "text": "Sport competitivo o esercizio fisico per divertimento: cosa è meglio per te?",
                     "examples": []
                 }
             ],
@@ -1613,7 +1613,7 @@
             "id": "it_intermediate_health_medicine_008"
         },
         {
-            "topic": "Sanità privata o sanità pubblica — quale sistema è più equo?",
+            "topic": "Sanità privata o sanità pubblica: quale sistema è più equo?",
             "sideA": "Privata",
             "sideB": "Pubblica",
             "level": "intermediate",
@@ -1626,10 +1626,10 @@
                 "La sanità pubblica garantisce che tutti ricevano aiuto, indipendentemente dal reddito.",
                 "Una società giusta dovrebbe fornire lo stesso livello di cure a ogni cittadino."
             ],
-            "word": "Sanità privata o sanità pubblica — quale sistema è più equo?",
+            "word": "Sanità privata o sanità pubblica: quale sistema è più equo?",
             "definitions": [
                 {
-                    "text": "Sanità privata o sanità pubblica — quale sistema è più equo?",
+                    "text": "Sanità privata o sanità pubblica: quale sistema è più equo?",
                     "examples": []
                 }
             ],
@@ -1639,7 +1639,7 @@
             "id": "it_intermediate_health_medicine_009"
         },
         {
-            "topic": "Cinema o letteratura — quale è una forma d'arte più potente?",
+            "topic": "Cinema o letteratura: quale è una forma d'arte più potente?",
             "sideA": "Cinema",
             "sideB": "Letteratura",
             "level": "intermediate",
@@ -1652,10 +1652,10 @@
                 "I libri ti permettono di immaginare il mondo e i personaggi a modo tuo.",
                 "La letteratura può esplorare i pensieri interni più profondamente dei film."
             ],
-            "word": "Cinema o letteratura — quale è una forma d'arte più potente?",
+            "word": "Cinema o letteratura: quale è una forma d'arte più potente?",
             "definitions": [
                 {
-                    "text": "Cinema o letteratura — quale è una forma d'arte più potente?",
+                    "text": "Cinema o letteratura: quale è una forma d'arte più potente?",
                     "examples": []
                 }
             ],
@@ -1665,7 +1665,7 @@
             "id": "it_intermediate_language_001"
         },
         {
-            "topic": "Arte moderna o arte classica — cosa è più prezioso?",
+            "topic": "Arte moderna o arte classica: cosa è più prezioso?",
             "sideA": "Moderna",
             "sideB": "Classica",
             "level": "intermediate",
@@ -1678,10 +1678,10 @@
                 "L'arte classica mostra un'incredibile abilità tecnica e ha superato la prova del tempo.",
                 "La bellezza dei dipinti e delle sculture tradizionali è più universale."
             ],
-            "word": "Arte moderna o arte classica — cosa è più prezioso?",
+            "word": "Arte moderna o arte classica: cosa è più prezioso?",
             "definitions": [
                 {
-                    "text": "Arte moderna o arte classica — cosa è più prezioso?",
+                    "text": "Arte moderna o arte classica: cosa è più prezioso?",
                     "examples": []
                 }
             ],
@@ -1691,7 +1691,7 @@
             "id": "it_intermediate_language_002"
         },
         {
-            "topic": "Preservare i vecchi edifici o costruirne di nuovi — cosa conta di più?",
+            "topic": "Preservare i vecchi edifici o costruirne di nuovi: cosa conta di più?",
             "sideA": "Preservare",
             "sideB": "Costruire",
             "level": "intermediate",
@@ -1704,10 +1704,10 @@
                 "I nuovi edifici possono essere più efficienti dal punto di vista energetico.",
                 "L'architettura moderna può essere bella e rappresentare il nostro tempo."
             ],
-            "word": "Preservare i vecchi edifici o costruirne di nuovi — cosa conta di più?",
+            "word": "Preservare i vecchi edifici o costruirne di nuovi: cosa conta di più?",
             "definitions": [
                 {
-                    "text": "Preservare i vecchi edifici o costruirne di nuovi — cosa conta di più?",
+                    "text": "Preservare i vecchi edifici o costruirne di nuovi: cosa conta di più?",
                     "examples": []
                 }
             ],
@@ -1717,7 +1717,7 @@
             "id": "it_intermediate_language_003"
         },
         {
-            "topic": "Cultura locale o globalizzazione — cosa arricchisce di più le comunità?",
+            "topic": "Cultura locale o globalizzazione: cosa arricchisce di più le comunità?",
             "sideA": "Locale",
             "sideB": "Globalizzazione",
             "level": "intermediate",
@@ -1730,10 +1730,10 @@
                 "La globalizzazione ci permette di condividere idee e prodotti da tutto il mondo.",
                 "Avvicina le persone e aiuta a capire culture diverse."
             ],
-            "word": "Cultura locale o globalizzazione — cosa arricchisce di più le comunità?",
+            "word": "Cultura locale o globalizzazione: cosa arricchisce di più le comunità?",
             "definitions": [
                 {
-                    "text": "Cultura locale o globalizzazione — cosa arricchisce di più le comunità?",
+                    "text": "Cultura locale o globalizzazione: cosa arricchisce di più le comunità?",
                     "examples": []
                 }
             ],
@@ -1743,7 +1743,7 @@
             "id": "it_intermediate_social_020"
         },
         {
-            "topic": "Imparare dai propri errori vs imparare dai propri successi — cosa insegna di più?",
+            "topic": "Imparare dai propri errori vs imparare dai propri successi: cosa insegna di più?",
             "sideA": "Errori",
             "sideB": "Successi",
             "level": "intermediate",
@@ -1756,10 +1756,10 @@
                 "Il successo mostra la strada giusta e dà la fiducia necessaria per continuare.",
                 "Imparare da ciò che funziona è più efficiente che ripetere errori."
             ],
-            "word": "Imparare dai propri errori vs imparare dai propri successi — cosa insegna di più?",
+            "word": "Imparare dai propri errori vs imparare dai propri successi: cosa insegna di più?",
             "definitions": [
                 {
-                    "text": "Imparare dai propri errori vs imparare dai propri successi — cosa insegna di più?",
+                    "text": "Imparare dai propri errori vs imparare dai propri successi: cosa insegna di più?",
                     "examples": []
                 }
             ],
@@ -1769,7 +1769,7 @@
             "id": "it_intermediate_jobs_022"
         },
         {
-            "topic": "Tablet in classe vs quaderni tradizionali — cosa aiuta di più gli studenti?",
+            "topic": "Tablet in classe vs quaderni tradizionali: cosa aiuta di più gli studenti?",
             "sideA": "Tablet",
             "sideB": "Quaderni",
             "level": "intermediate",
@@ -1782,10 +1782,10 @@
                 "Scrivere a mano aiuta a ricordare le informazioni meglio che digitare.",
                 "I quaderni non hanno distrazioni come giochi o notifiche social."
             ],
-            "word": "Tablet in classe vs quaderni tradizionali — cosa aiuta di più gli studenti?",
+            "word": "Tablet in classe vs quaderni tradizionali: cosa aiuta di più gli studenti?",
             "definitions": [
                 {
-                    "text": "Tablet in classe vs quaderni tradizionali — cosa aiuta di più gli studenti?",
+                    "text": "Tablet in classe vs quaderni tradizionali: cosa aiuta di più gli studenti?",
                     "examples": []
                 }
             ],
@@ -1795,7 +1795,7 @@
             "id": "it_intermediate_jobs_023"
         },
         {
-            "topic": "Essere sempre rintracciabili vs avere tempo libero digitale — cosa è meglio?",
+            "topic": "Essere sempre rintracciabili vs avere tempo libero digitale: cosa è meglio?",
             "sideA": "Sempre rintracciabili",
             "sideB": "Tempo libero",
             "level": "intermediate",
@@ -1808,10 +1808,10 @@
                 "Il tempo libero digitale è necessario per ridurre lo stress e migliorare la salute.",
                 "Dobbiamo staccare dal mondo virtuale per godoci quello reale."
             ],
-            "word": "Essere sempre rintracciabili vs avere tempo libero digitale — cosa è meglio?",
+            "word": "Essere sempre rintracciabili vs avere tempo libero digitale: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Essere sempre rintracciabili vs avere tempo libero digitale — cosa è meglio?",
+                    "text": "Essere sempre rintracciabili vs avere tempo libero digitale: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1821,7 +1821,7 @@
             "id": "it_intermediate_technology_003"
         },
         {
-            "topic": "Riutilizzare le cose vs riciclare — cosa è più efficace?",
+            "topic": "Riutilizzare le cose vs riciclare: cosa è più efficace?",
             "sideA": "Riutilizzare",
             "sideB": "Riciclare",
             "level": "intermediate",
@@ -1834,10 +1834,10 @@
                 "Il riciclaggio è più pratico per grandi quantità di rifiuti come plastica e vetro.",
                 "Permette di trasformare vecchi materiali in nuovi prodotti su larga scala."
             ],
-            "word": "Riutilizzare le cose vs riciclare — cosa è più efficace?",
+            "word": "Riutilizzare le cose vs riciclare: cosa è più efficace?",
             "definitions": [
                 {
-                    "text": "Riutilizzare le cose vs riciclare — cosa è più efficace?",
+                    "text": "Riutilizzare le cose vs riciclare: cosa è più efficace?",
                     "examples": []
                 }
             ],
@@ -1847,7 +1847,7 @@
             "id": "it_intermediate_environment_006"
         },
         {
-            "topic": "Una sola carriera per tutta la vita vs cambiare spesso carriera — cosa è meglio?",
+            "topic": "Una sola carriera per tutta la vita vs cambiare spesso carriera: cosa è meglio?",
             "sideA": "Una carriera",
             "sideB": "Cambiare spesso",
             "level": "intermediate",
@@ -1860,10 +1860,10 @@
                 "Cambiare carriera permette di esplorare diversi interessi e restare motivati.",
                 "Ti rende più adattabile ai cambiamenti del mercato del lavoro moderno."
             ],
-            "word": "Una sola carriera per tutta la vita vs cambiare spesso carriera — cosa è meglio?",
+            "word": "Una sola carriera per tutta la vita vs cambiare spesso carriera: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Una sola carriera per tutta la vita vs cambiare spesso carriera — cosa è meglio?",
+                    "text": "Una sola carriera per tutta la vita vs cambiare spesso carriera: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1873,7 +1873,7 @@
             "id": "it_intermediate_jobs_024"
         },
         {
-            "topic": "Dormire vs fare esercizio — cosa ha un impatto maggiore sulla tua salute?",
+            "topic": "Dormire vs fare esercizio: cosa ha un impatto maggiore sulla tua salute?",
             "sideA": "Dormire",
             "sideB": "Esercizio",
             "level": "intermediate",
@@ -1886,10 +1886,10 @@
                 "L'esercizio regolare rafforza il cuore, i muscoli e migliora l'umore.",
                 "Essere attivi dà più energia e aiuta a dormire meglio la notte."
             ],
-            "word": "Dormire vs fare esercizio — cosa ha un impatto maggiore sulla tua salute?",
+            "word": "Dormire vs fare esercizio: cosa ha un impatto maggiore sulla tua salute?",
             "definitions": [
                 {
-                    "text": "Dormire vs fare esercizio — cosa ha un impatto maggiore sulla tua salute?",
+                    "text": "Dormire vs fare esercizio: cosa ha un impatto maggiore sulla tua salute?",
                     "examples": []
                 }
             ],
@@ -1899,7 +1899,7 @@
             "id": "it_intermediate_health_medicine_010"
         },
         {
-            "topic": "Musica pop vs musica classica — quale ha un impatto culturale maggiore?",
+            "topic": "Musica pop vs musica classica: quale ha un impatto culturale maggiore?",
             "sideA": "Pop",
             "sideB": "Classica",
             "level": "intermediate",
@@ -1912,10 +1912,10 @@
                 "La musica classica ha una bellezza senza tempo e ha influenzato tutti i generi.",
                 "Richiede un alto livello di abilità e può esprimere emozioni complesse."
             ],
-            "word": "Musica pop vs musica classica — quale ha un impatto culturale maggiore?",
+            "word": "Musica pop vs musica classica: quale ha un impatto culturale maggiore?",
             "definitions": [
                 {
-                    "text": "Musica pop vs musica classica — quale ha un impatto culturale maggiore?",
+                    "text": "Musica pop vs musica classica: quale ha un impatto culturale maggiore?",
                     "examples": []
                 }
             ],
@@ -1925,7 +1925,7 @@
             "id": "it_intermediate_language_004"
         },
         {
-            "topic": "Sapere come finisce qualcosa vs essere sorpresi — cosa è meglio?",
+            "topic": "Sapere come finisce qualcosa vs essere sorpresi: cosa è meglio?",
             "sideA": "Sapere",
             "sideB": "Sorpresi",
             "level": "intermediate",
@@ -1938,10 +1938,10 @@
                 "La sorpresa e la suspense rendono una storia eccitante e memorabile.",
                 "Vivere i colpi di scena per la prima volta è un'esperienza unica e divertente."
             ],
-            "word": "Sapere come finisce qualcosa vs essere sorpresi — cosa è meglio?",
+            "word": "Sapere come finisce qualcosa vs essere sorpresi: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Sapere come finisce qualcosa vs essere sorpresi — cosa è meglio?",
+                    "text": "Sapere come finisce qualcosa vs essere sorpresi: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1951,7 +1951,7 @@
             "id": "it_intermediate_language_005"
         },
         {
-            "topic": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo — cosa è più rispettoso?",
+            "topic": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo: cosa è più rispettoso?",
             "sideA": "Immediatamente",
             "sideB": "Prendersi tempo",
             "level": "intermediate",
@@ -1964,10 +1964,10 @@
                 "Prendersi tempo permette di dare una risposta più ponderata e migliore.",
                 "È importante avere dei confini e non essere schiavi del telefono."
             ],
-            "word": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo — cosa è più rispettoso?",
+            "word": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo: cosa è più rispettoso?",
             "definitions": [
                 {
-                    "text": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo — cosa è più rispettoso?",
+                    "text": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo: cosa è più rispettoso?",
                     "examples": []
                 }
             ],
@@ -1977,7 +1977,7 @@
             "id": "it_intermediate_social_021"
         },
         {
-            "topic": "Binge-watching vs guardare un episodio a settimana — quale è il modo giusto?",
+            "topic": "Binge-watching vs guardare un episodio a settimana: quale è il modo giusto?",
             "sideA": "Binge-watching",
             "sideB": "Settimanale",
             "level": "intermediate",
@@ -1990,10 +1990,10 @@
                 "Guardare un episodio a settimana dà tempo per riflettere e parlarne.",
                 "Fa durare l'esperienza più a lungo e crea più attesa."
             ],
-            "word": "Binge-watching vs guardare un episodio a settimana — quale è il modo giusto?",
+            "word": "Binge-watching vs guardare un episodio a settimana: quale è il modo giusto?",
             "definitions": [
                 {
-                    "text": "Binge-watching vs guardare un episodio a settimana — quale è il modo giusto?",
+                    "text": "Binge-watching vs guardare un episodio a settimana: quale è il modo giusto?",
                     "examples": []
                 }
             ],
@@ -2003,7 +2003,7 @@
             "id": "it_intermediate_language_006"
         },
         {
-            "topic": "Posto finestrino vs posto corridoio — quale è oggettivamente migliore?",
+            "topic": "Posto finestrino vs posto corridoio: quale è oggettivamente migliore?",
             "sideA": "Finestrino",
             "sideB": "Corridoio",
             "level": "intermediate",
@@ -2016,10 +2016,10 @@
                 "Il posto corridoio ti dà più spazio per le gambe e puoi alzarti facilmente.",
                 "Non devi chiedere a nessuno di spostarsi se devi andare in bagno."
             ],
-            "word": "Posto finestrino vs posto corridoio — quale è oggettivamente migliore?",
+            "word": "Posto finestrino vs posto corridoio: quale è oggettivamente migliore?",
             "definitions": [
                 {
-                    "text": "Posto finestrino vs posto corridoio — quale è oggettivamente migliore?",
+                    "text": "Posto finestrino vs posto corridoio: quale è oggettivamente migliore?",
                     "examples": []
                 }
             ],
@@ -2029,7 +2029,7 @@
             "id": "it_intermediate_travel_003"
         },
         {
-            "topic": "Saltare la palestra una volta vs andare e fare una brutta sessione — cosa è peggio?",
+            "topic": "Saltare la palestra una volta vs andare e fare una brutta sessione: cosa è peggio?",
             "sideA": "Saltare",
             "sideB": "Brutta sessione",
             "level": "intermediate",
@@ -2042,10 +2042,10 @@
                 "Andare anche quando non ne hai voglia aiuta a costruire disciplina.",
                 "Anche un allenamento leggero o 'brutto' è meglio per il corpo che non fare nulla."
             ],
-            "word": "Saltare la palestra una volta vs andare e fare una brutta sessione — cosa è peggio?",
+            "word": "Saltare la palestra una volta vs andare e fare una brutta sessione: cosa è peggio?",
             "definitions": [
                 {
-                    "text": "Saltare la palestra una volta vs andare e fare una brutta sessione — cosa è peggio?",
+                    "text": "Saltare la palestra una volta vs andare e fare una brutta sessione: cosa è peggio?",
                     "examples": []
                 }
             ],
@@ -2055,7 +2055,7 @@
             "id": "it_intermediate_health_medicine_011"
         },
         {
-            "topic": "Parlare con se stessi vs parlare con il proprio animale — cosa è più ragionevole?",
+            "topic": "Parlare con se stessi vs parlare con il proprio animale: cosa è più ragionevole?",
             "sideA": "Con se stessi",
             "sideB": "Con l'animale",
             "level": "intermediate",
@@ -2068,10 +2068,10 @@
                 "Gli animali sono ottimi ascoltatori e offrono conforto emotivo.",
                 "Parlare a un animale sembra più sociale e meno solitario che parlare a se stessi."
             ],
-            "word": "Parlare con se stessi vs parlare con il proprio animale — cosa è più ragionevole?",
+            "word": "Parlare con se stessi vs parlare con il proprio animale: cosa è più ragionevole?",
             "definitions": [
                 {
-                    "text": "Parlare con se stessi vs parlare con il proprio animale — cosa è più ragionevole?",
+                    "text": "Parlare con se stessi vs parlare con il proprio animale: cosa è più ragionevole?",
                     "examples": []
                 }
             ],

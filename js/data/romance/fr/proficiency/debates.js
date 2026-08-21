@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "fr_proficiency_work_001",
-        "word": "L'éthique protestante du travail comme accomplissement civilisationnel vs comme source originelle de la misère adulte — quel héritage domine aujourd'hui ?",
+        "word": "L'éthique protestante du travail comme accomplissement civilisationnel vs comme source originelle de la misère adulte: quel héritage domine aujourd'hui ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "work",
@@ -10,7 +10,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'éthique protestante du travail comme accomplissement civilisationnel vs comme source originelle de la misère adulte — quel héritage domine aujourd'hui ?",
+                "text": "L'éthique protestante du travail comme accomplissement civilisationnel vs comme source originelle de la misère adulte: quel héritage domine aujourd'hui ?",
                 "examples": []
             }
         ],
@@ -27,7 +27,7 @@
     },
     {
         "id": "fr_proficiency_work_002",
-        "word": "La marchandisation de la passion vs la libération du travail transformé en sens — « faites ce que vous aimez » est-il un conseil ou un piège ?",
+        "word": "La marchandisation de la passion vs la libération du travail transformé en sens: « faites ce que vous aimez » est-il un conseil ou un piège ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "work",
@@ -35,7 +35,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La marchandisation de la passion vs la libération du travail transformé en sens — « faites ce que vous aimez » est-il un conseil ou un piège ?",
+                "text": "La marchandisation de la passion vs la libération du travail transformé en sens: « faites ce que vous aimez » est-il un conseil ou un piège ?",
                 "examples": []
             }
         ],
@@ -52,7 +52,7 @@
     },
     {
         "id": "fr_proficiency_work_003",
-        "word": "La carrière comme identité vs la carrière comme moyen — quelle est la relation la plus cohérente pour un adulte moderne avec son travail ?",
+        "word": "La carrière comme identité vs la carrière comme moyen: quelle est la relation la plus cohérente pour un adulte moderne avec son travail ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "work",
@@ -60,7 +60,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La carrière comme identité vs la carrière comme moyen — quelle est la relation la plus cohérente pour un adulte moderne avec son travail ?",
+                "text": "La carrière comme identité vs la carrière comme moyen: quelle est la relation la plus cohérente pour un adulte moderne avec son travail ?",
                 "examples": []
             }
         ],
@@ -77,7 +77,7 @@
     },
     {
         "id": "fr_proficiency_work_004",
-        "word": "Le travailleur acharné vertueux vs l'oisif stratégique — lequel a été célébré de la manière la plus malhonnête dans la culture occidentale ?",
+        "word": "Le travailleur acharné vertueux vs l'oisif stratégique: lequel a été célébré de la manière la plus malhonnête dans la culture occidentale ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "work",
@@ -85,7 +85,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le travailleur acharné vertueux vs l'oisif stratégique — lequel a été célébré de la manière la plus malhonnête dans la culture occidentale ?",
+                "text": "Le travailleur acharné vertueux vs l'oisif stratégique: lequel a été célébré de la manière la plus malhonnête dans la culture occidentale ?",
                 "examples": []
             }
         ],
@@ -102,7 +102,7 @@
     },
     {
         "id": "fr_proficiency_work_005",
-        "word": "L'ambition adulte comme admirable vs l'ambition adulte comme incapacité à accepter la finitude — quelle lecture est la plus honnête psychologiquement ?",
+        "word": "L'ambition adulte comme admirable vs l'ambition adulte comme incapacité à accepter la finitude: quelle lecture est la plus honnête psychologiquement ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "work",
@@ -110,7 +110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'ambition adulte comme admirable vs l'ambition adulte comme incapacité à accepter la finitude — quelle lecture est la plus honnête psychologiquement ?",
+                "text": "L'ambition adulte comme admirable vs l'ambition adulte comme incapacité à accepter la finitude: quelle lecture est la plus honnête psychologiquement ?",
                 "examples": []
             }
         ],
@@ -127,7 +127,7 @@
     },
     {
         "id": "fr_proficiency_social_001",
-        "word": "L'amour romantique comme principe organisateur de la vie adulte vs comme mythe historiquement contingent et commercialement soutenu — lequel est le plus défendable ?",
+        "word": "L'amour romantique comme principe organisateur de la vie adulte vs comme mythe historiquement contingent et commercialement soutenu: lequel est le plus défendable ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -135,7 +135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'amour romantique comme principe organisateur de la vie adulte vs comme mythe historiquement contingent et commercialement soutenu — lequel est le plus défendable ?",
+                "text": "L'amour romantique comme principe organisateur de la vie adulte vs comme mythe historiquement contingent et commercialement soutenu: lequel est le plus défendable ?",
                 "examples": []
             }
         ],
@@ -152,7 +152,7 @@
     },
     {
         "id": "fr_proficiency_social_002",
-        "word": "Transparence radicale dans les relations vs nécessité d'un soi privé — l'intimité et l'individuation peuvent-elles coexister ?",
+        "word": "Transparence radicale dans les relations vs nécessité d'un soi privé: l'intimité et l'individuation peuvent-elles coexister ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -160,7 +160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Transparence radicale dans les relations vs nécessité d'un soi privé — l'intimité et l'individuation peuvent-elles coexister ?",
+                "text": "Transparence radicale dans les relations vs nécessité d'un soi privé: l'intimité et l'individuation peuvent-elles coexister ?",
                 "examples": []
             }
         ],
@@ -177,7 +177,7 @@
     },
     {
         "id": "fr_proficiency_social_003",
-        "word": "L'éthique du soin comme correctif féministe vs comme réassignation des mêmes fardeaux — le concept a-t-il tenu sa promesse ?",
+        "word": "L'éthique du soin comme correctif féministe vs comme réassignation des mêmes fardeaux: le concept a-t-il tenu sa promesse ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -185,7 +185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'éthique du soin comme correctif féministe vs comme réassignation des mêmes fardeaux — le concept a-t-il tenu sa promesse ?",
+                "text": "L'éthique du soin comme correctif féministe vs comme réassignation des mêmes fardeaux: le concept a-t-il tenu sa promesse ?",
                 "examples": []
             }
         ],
@@ -202,7 +202,7 @@
     },
     {
         "id": "fr_proficiency_social_004",
-        "word": "Choisir de ne pas avoir d'enfants comme résistance à l'idéologie pronataliste vs comme décision entièrement personnelle sans dimension politique — peut-on les séparer nettement ?",
+        "word": "Choisir de ne pas avoir d'enfants comme résistance à l'idéologie pronataliste vs comme décision entièrement personnelle sans dimension politique: peut-on les séparer nettement ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -210,7 +210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Choisir de ne pas avoir d'enfants comme résistance à l'idéologie pronataliste vs comme décision entièrement personnelle sans dimension politique — peut-on les séparer nettement ?",
+                "text": "Choisir de ne pas avoir d'enfants comme résistance à l'idéologie pronataliste vs comme décision entièrement personnelle sans dimension politique: peut-on les séparer nettement ?",
                 "examples": []
             }
         ],
@@ -227,7 +227,7 @@
     },
     {
         "id": "fr_proficiency_social_005",
-        "word": "La conscience de la mortalité comme condition préalable à une vie adulte pleine de sens vs comme son principal obstacle — quelle est la position la plus vivable ?",
+        "word": "La conscience de la mortalité comme condition préalable à une vie adulte pleine de sens vs comme son principal obstacle: quelle est la position la plus vivable ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -235,7 +235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La conscience de la mortalité comme condition préalable à une vie adulte pleine de sens vs comme son principal obstacle — quelle est la position la plus vivable ?",
+                "text": "La conscience de la mortalité comme condition préalable à une vie adulte pleine de sens vs comme son principal obstacle: quelle est la position la plus vivable ?",
                 "examples": []
             }
         ],
@@ -252,7 +252,7 @@
     },
     {
         "id": "fr_proficiency_social_006",
-        "word": "Le vieillissement comme déclin vs le vieillissement comme accumulation — quel récit est le plus honnête, et lequel est le plus utile ?",
+        "word": "Le vieillissement comme déclin vs le vieillissement comme accumulation: quel récit est le plus honnête, et lequel est le plus utile ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -260,7 +260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le vieillissement comme déclin vs le vieillissement comme accumulation — quel récit est le plus honnête, et lequel est le plus utile ?",
+                "text": "Le vieillissement comme déclin vs le vieillissement comme accumulation: quel récit est le plus honnête, et lequel est le plus utile ?",
                 "examples": []
             }
         ],
@@ -277,7 +277,7 @@
     },
     {
         "id": "fr_proficiency_social_007",
-        "word": "La médicalisation du vieillissement comme progrès vs comme refus d'accepter la condition humaine — où placer la limite ?",
+        "word": "La médicalisation du vieillissement comme progrès vs comme refus d'accepter la condition humaine: où placer la limite ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -285,7 +285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La médicalisation du vieillissement comme progrès vs comme refus d'accepter la condition humaine — où placer la limite ?",
+                "text": "La médicalisation du vieillissement comme progrès vs comme refus d'accepter la condition humaine: où placer la limite ?",
                 "examples": []
             }
         ],
@@ -302,7 +302,7 @@
     },
     {
         "id": "fr_proficiency_social_008",
-        "word": "La mémoire comme substance de l'identité adulte vs la mémoire comme narrateur hautement peu fiable — quelles conséquences pour la construction de soi ?",
+        "word": "La mémoire comme substance de l'identité adulte vs la mémoire comme narrateur hautement peu fiable: quelles conséquences pour la construction de soi ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -310,7 +310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La mémoire comme substance de l'identité adulte vs la mémoire comme narrateur hautement peu fiable — quelles conséquences pour la construction de soi ?",
+                "text": "La mémoire comme substance de l'identité adulte vs la mémoire comme narrateur hautement peu fiable: quelles conséquences pour la construction de soi ?",
                 "examples": []
             }
         ],
@@ -327,7 +327,7 @@
     },
     {
         "id": "fr_proficiency_social_009",
-        "word": "La complicité du citoyen adulte dans des systèmes injustes par la consommation ordinaire vs l'impertinence structurelle de la pureté morale individuelle — quel cadre est le plus honnête ?",
+        "word": "La complicité du citoyen adulte dans des systèmes injustes par la consommation ordinaire vs l'impertinence structurelle de la pureté morale individuelle: quel cadre est le plus honnête ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -335,7 +335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La complicité du citoyen adulte dans des systèmes injustes par la consommation ordinaire vs l'impertinence structurelle de la pureté morale individuelle — quel cadre est le plus honnête ?",
+                "text": "La complicité du citoyen adulte dans des systèmes injustes par la consommation ordinaire vs l'impertinence structurelle de la pureté morale individuelle: quel cadre est le plus honnête ?",
                 "examples": []
             }
         ],
@@ -352,7 +352,7 @@
     },
     {
         "id": "fr_proficiency_social_010",
-        "word": "Le désenchantement politique comme réponse rationnelle aux preuves disponibles vs comme forme de privilège — quelle lecture est la plus défendable empiriquement ?",
+        "word": "Le désenchantement politique comme réponse rationnelle aux preuves disponibles vs comme forme de privilège: quelle lecture est la plus défendable empiriquement ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -360,7 +360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le désenchantement politique comme réponse rationnelle aux preuves disponibles vs comme forme de privilège — quelle lecture est la plus défendable empiriquement ?",
+                "text": "Le désenchantement politique comme réponse rationnelle aux preuves disponibles vs comme forme de privilège: quelle lecture est la plus défendable empiriquement ?",
                 "examples": []
             }
         ],
@@ -377,7 +377,7 @@
     },
     {
         "id": "fr_proficiency_social_011",
-        "word": "La justice intergénérationnelle comme défi moral central de notre temps vs comme concept qui occulte systématiquement les inégalités de classe et de race actuelles — quelle est la critique la plus forte ?",
+        "word": "La justice intergénérationnelle comme défi moral central de notre temps vs comme concept qui occulte systématiquement les inégalités de classe et de race actuelles: quelle est la critique la plus forte ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -385,7 +385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La justice intergénérationnelle comme défi moral central de notre temps vs comme concept qui occulte systématiquement les inégalités de classe et de race actuelles — quelle est la critique la plus forte ?",
+                "text": "La justice intergénérationnelle comme défi moral central de notre temps vs comme concept qui occulte systématiquement les inégalités de classe et de race actuelles: quelle est la critique la plus forte ?",
                 "examples": []
             }
         ],
@@ -402,7 +402,7 @@
     },
     {
         "id": "fr_proficiency_social_012",
-        "word": "La démocratie libérale comme le moins mauvais des systèmes vs comme un système ayant structurellement épuisé sa capacité de réforme — quel verdict les preuves soutiennent-elles ?",
+        "word": "La démocratie libérale comme le moins mauvais des systèmes vs comme un système ayant structurellement épuisé sa capacité de réforme: quel verdict les preuves soutiennent-elles ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -410,7 +410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La démocratie libérale comme le moins mauvais des systèmes vs comme un système ayant structurellement épuisé sa capacité de réforme — quel verdict les preuves soutiennent-elles ?",
+                "text": "La démocratie libérale comme le moins mauvais des systèmes vs comme un système ayant structurellement épuisé sa capacité de réforme: quel verdict les preuves soutiennent-elles ?",
                 "examples": []
             }
         ],
@@ -427,7 +427,7 @@
     },
     {
         "id": "fr_proficiency_social_013",
-        "word": "La capacité d'auto-tromperie comme défaut cognitif vs comme mécanisme adaptatif — quel récit sert le mieux l'adulte qui veut bien vivre ?",
+        "word": "La capacité d'auto-tromperie comme défaut cognitif vs comme mécanisme adaptatif: quel récit sert le mieux l'adulte qui veut bien vivre ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -435,7 +435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La capacité d'auto-tromperie comme défaut cognitif vs comme mécanisme adaptatif — quel récit sert le mieux l'adulte qui veut bien vivre ?",
+                "text": "La capacité d'auto-tromperie comme défaut cognitif vs comme mécanisme adaptatif: quel récit sert le mieux l'adulte qui veut bien vivre ?",
                 "examples": []
             }
         ],
@@ -452,7 +452,7 @@
     },
     {
         "id": "fr_proficiency_social_014",
-        "word": "L'expertise comme autorité épistémique vs l'expertise comme forme de pouvoir institutionnel méritant examen — quand le scepticisme sain devient-il lâcheté épistémique ?",
+        "word": "L'expertise comme autorité épistémique vs l'expertise comme forme de pouvoir institutionnel méritant examen: quand le scepticisme sain devient-il lâcheté épistémique ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -460,7 +460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'expertise comme autorité épistémique vs l'expertise comme forme de pouvoir institutionnel méritant examen — quand le scepticisme sain devient-il lâcheté épistémique ?",
+                "text": "L'expertise comme autorité épistémique vs l'expertise comme forme de pouvoir institutionnel méritant examen: quand le scepticisme sain devient-il lâcheté épistémique ?",
                 "examples": []
             }
         ],
@@ -477,7 +477,7 @@
     },
     {
         "id": "fr_proficiency_social_015",
-        "word": "Le récit comme moyen principal pour les adultes de donner sens à leur vie vs le récit comme moyen principal pour les adultes de s'égarer — quelle fonction domine ?",
+        "word": "Le récit comme moyen principal pour les adultes de donner sens à leur vie vs le récit comme moyen principal pour les adultes de s'égarer: quelle fonction domine ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -485,7 +485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le récit comme moyen principal pour les adultes de donner sens à leur vie vs le récit comme moyen principal pour les adultes de s'égarer — quelle fonction domine ?",
+                "text": "Le récit comme moyen principal pour les adultes de donner sens à leur vie vs le récit comme moyen principal pour les adultes de s'égarer: quelle fonction domine ?",
                 "examples": []
             }
         ],
@@ -502,7 +502,7 @@
     },
     {
         "id": "fr_proficiency_social_016",
-        "word": "L'honnêteté comme vertu inconditionnelle vs l'honnêteté comme vertu contextuelle — existe-t-il un compte-rendu cohérent de la sincérité qui survive au contact des relations adultes réelles ?",
+        "word": "L'honnêteté comme vertu inconditionnelle vs l'honnêteté comme vertu contextuelle: existe-t-il un compte-rendu cohérent de la sincérité qui survive au contact des relations adultes réelles ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -510,7 +510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'honnêteté comme vertu inconditionnelle vs l'honnêteté comme vertu contextuelle — existe-t-il un compte-rendu cohérent de la sincérité qui survive au contact des relations adultes réelles ?",
+                "text": "L'honnêteté comme vertu inconditionnelle vs l'honnêteté comme vertu contextuelle: existe-t-il un compte-rendu cohérent de la sincérité qui survive au contact des relations adultes réelles ?",
                 "examples": []
             }
         ],
@@ -527,7 +527,7 @@
     },
     {
         "id": "fr_proficiency_social_017",
-        "word": "L'adulte qui a « enfin tout compris » vs l'adulte qui a accepté qu'il ne comprendrait jamais — lequel représente une relation plus sophistiquée à la réalité ?",
+        "word": "L'adulte qui a « enfin tout compris » vs l'adulte qui a accepté qu'il ne comprendrait jamais: lequel représente une relation plus sophistiquée à la réalité ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -535,7 +535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'adulte qui a « enfin tout compris » vs l'adulte qui a accepté qu'il ne comprendrait jamais — lequel représente une relation plus sophistiquée à la réalité ?",
+                "text": "L'adulte qui a « enfin tout compris » vs l'adulte qui a accepté qu'il ne comprendrait jamais: lequel représente une relation plus sophistiquée à la réalité ?",
                 "examples": []
             }
         ],
@@ -552,7 +552,7 @@
     },
     {
         "id": "fr_proficiency_social_018",
-        "word": "Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est empiriquement la plus transformative, et pourquoi la réponse nous met-elle mal à l'aise ?",
+        "word": "Tout dire à son thérapeute vs tout dire à son coiffeur: quelle relation professionnelle est empiriquement la plus transformative, et pourquoi la réponse nous met-elle mal à l'aise ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -560,7 +560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est empiriquement la plus transformative, et pourquoi la réponse nous met-elle mal à l'aise ?",
+                "text": "Tout dire à son thérapeute vs tout dire à son coiffeur: quelle relation professionnelle est empiriquement la plus transformative, et pourquoi la réponse nous met-elle mal à l'aise ?",
                 "examples": []
             }
         ],
@@ -577,7 +577,7 @@
     },
     {
         "id": "fr_proficiency_social_019",
-        "word": "Le langage comme constitutif de la pensée vs le langage comme simple expression — le langage façonne-t-il ou reflète-t-il la réalité ?",
+        "word": "Le langage comme constitutif de la pensée vs le langage comme simple expression: le langage façonne-t-il ou reflète-t-il la réalité ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -585,7 +585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le langage comme constitutif de la pensée vs le langage comme simple expression — le langage façonne-t-il ou reflète-t-il la réalité ?",
+                "text": "Le langage comme constitutif de la pensée vs le langage comme simple expression: le langage façonne-t-il ou reflète-t-il la réalité ?",
                 "examples": []
             }
         ],
@@ -602,7 +602,7 @@
     },
     {
         "id": "fr_proficiency_social_020",
-        "word": "Précision vs ambiguïté — quelle est la propriété du langage la plus précieuse dans le discours public ?",
+        "word": "Précision vs ambiguïté: quelle est la propriété du langage la plus précieuse dans le discours public ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -610,7 +610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Précision vs ambiguïté — quelle est la propriété du langage la plus précieuse dans le discours public ?",
+                "text": "Précision vs ambiguïté: quelle est la propriété du langage la plus précieuse dans le discours public ?",
                 "examples": []
             }
         ],
@@ -627,7 +627,7 @@
     },
     {
         "id": "fr_proficiency_social_021",
-        "word": "Rhétorique vs logique — laquelle est finalement la plus persuasive, et laquelle devrait l'être ?",
+        "word": "Rhétorique vs logique: laquelle est finalement la plus persuasive, et laquelle devrait l'être ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -635,7 +635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Rhétorique vs logique — laquelle est finalement la plus persuasive, et laquelle devrait l'être ?",
+                "text": "Rhétorique vs logique: laquelle est finalement la plus persuasive, et laquelle devrait l'être ?",
                 "examples": []
             }
         ],
@@ -652,7 +652,7 @@
     },
     {
         "id": "fr_proficiency_social_022",
-        "word": "Sens littéral vs sens interprétatif — à qui appartient le sens d'un texte ?",
+        "word": "Sens littéral vs sens interprétatif: à qui appartient le sens d'un texte ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -660,7 +660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sens littéral vs sens interprétatif — à qui appartient le sens d'un texte ?",
+                "text": "Sens littéral vs sens interprétatif: à qui appartient le sens d'un texte ?",
                 "examples": []
             }
         ],
@@ -677,7 +677,7 @@
     },
     {
         "id": "fr_proficiency_social_023",
-        "word": "Consensus scientifique vs humilité épistémique — quand s'en remettre à l'expertise est-il justifié ?",
+        "word": "Consensus scientifique vs humilité épistémique: quand s'en remettre à l'expertise est-il justifié ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -685,7 +685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Consensus scientifique vs humilité épistémique — quand s'en remettre à l'expertise est-il justifié ?",
+                "text": "Consensus scientifique vs humilité épistémique: quand s'en remettre à l'expertise est-il justifié ?",
                 "examples": []
             }
         ],
@@ -702,7 +702,7 @@
     },
     {
         "id": "fr_proficiency_social_024",
-        "word": "Expertise vs expérience vécue — lequel porte le plus de poids probant dans le débat public ?",
+        "word": "Expertise vs expérience vécue: lequel porte le plus de poids probant dans le débat public ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -710,7 +710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Expertise vs expérience vécue — lequel porte le plus de poids probant dans le débat public ?",
+                "text": "Expertise vs expérience vécue: lequel porte le plus de poids probant dans le débat public ?",
                 "examples": []
             }
         ],
@@ -727,7 +727,7 @@
     },
     {
         "id": "fr_proficiency_social_025",
-        "word": "Le doute comme vertu intellectuelle vs le doute comme paralysie — quand le scepticisme devient-il irresponsable ?",
+        "word": "Le doute comme vertu intellectuelle vs le doute comme paralysie: quand le scepticisme devient-il irresponsable ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -735,7 +735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le doute comme vertu intellectuelle vs le doute comme paralysie — quand le scepticisme devient-il irresponsable ?",
+                "text": "Le doute comme vertu intellectuelle vs le doute comme paralysie: quand le scepticisme devient-il irresponsable ?",
                 "examples": []
             }
         ],
@@ -752,7 +752,7 @@
     },
     {
         "id": "fr_proficiency_social_026",
-        "word": "Récit vs données — lequel mène le plus fidèlement vers la vérité ?",
+        "word": "Récit vs données: lequel mène le plus fidèlement vers la vérité ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -760,7 +760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Récit vs données — lequel mène le plus fidèlement vers la vérité ?",
+                "text": "Récit vs données: lequel mène le plus fidèlement vers la vérité ?",
                 "examples": []
             }
         ],
@@ -777,7 +777,7 @@
     },
     {
         "id": "fr_proficiency_social_027",
-        "word": "Légitimité par le consentement vs légitimité par le résultat — qu'est-ce qui justifie réellement l'autorité politique ?",
+        "word": "Légitimité par le consentement vs légitimité par le résultat: qu'est-ce qui justifie réellement l'autorité politique ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -785,7 +785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Légitimité par le consentement vs légitimité par le résultat — qu'est-ce qui justifie réellement l'autorité politique ?",
+                "text": "Légitimité par le consentement vs légitimité par le résultat: qu'est-ce qui justifie réellement l'autorité politique ?",
                 "examples": []
             }
         ],
@@ -802,7 +802,7 @@
     },
     {
         "id": "fr_proficiency_social_028",
-        "word": "L'État comme garant de la liberté vs l'État comme sa menace principale — quelle vision est la plus défendable historiquement ?",
+        "word": "L'État comme garant de la liberté vs l'État comme sa menace principale: quelle vision est la plus défendable historiquement ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -810,7 +810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'État comme garant de la liberté vs l'État comme sa menace principale — quelle vision est la plus défendable historiquement ?",
+                "text": "L'État comme garant de la liberté vs l'État comme sa menace principale: quelle vision est la plus défendable historiquement ?",
                 "examples": []
             }
         ],
@@ -827,7 +827,7 @@
     },
     {
         "id": "fr_proficiency_social_029",
-        "word": "Politique fondée sur les droits vs politique fondée sur les responsabilités — qu'est-ce qui rend une culture publique plus cohérente ?",
+        "word": "Politique fondée sur les droits vs politique fondée sur les responsabilités: qu'est-ce qui rend une culture publique plus cohérente ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -835,7 +835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Politique fondée sur les droits vs politique fondée sur les responsabilités — qu'est-ce qui rend une culture publique plus cohérente ?",
+                "text": "Politique fondée sur les droits vs politique fondée sur les responsabilités: qu'est-ce qui rend une culture publique plus cohérente ?",
                 "examples": []
             }
         ],
@@ -852,7 +852,7 @@
     },
     {
         "id": "fr_proficiency_social_030",
-        "word": "L'idéal de neutralité vs l'inéluctabilité d'une gouvernance chargée de valeurs — l'État libéral peut-il être vraiment neutre ?",
+        "word": "L'idéal de neutralité vs l'inéluctabilité d'une gouvernance chargée de valeurs: l'État libéral peut-il être vraiment neutre ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -860,7 +860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'idéal de neutralité vs l'inéluctabilité d'une gouvernance chargée de valeurs — l'État libéral peut-il être vraiment neutre ?",
+                "text": "L'idéal de neutralité vs l'inéluctabilité d'une gouvernance chargée de valeurs: l'État libéral peut-il être vraiment neutre ?",
                 "examples": []
             }
         ],
@@ -877,7 +877,7 @@
     },
     {
         "id": "fr_proficiency_social_031",
-        "word": "Intention vs réception — quelle lecture d'une œuvre fait autorité ?",
+        "word": "Intention vs réception: quelle lecture d'une œuvre fait autorité ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -885,7 +885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Intention vs réception — quelle lecture d'une œuvre fait autorité ?",
+                "text": "Intention vs réception: quelle lecture d'une œuvre fait autorité ?",
                 "examples": []
             }
         ],
@@ -902,7 +902,7 @@
     },
     {
         "id": "fr_proficiency_social_032",
-        "word": "Valeur esthétique vs valeur morale — une œuvre belle peut-elle aussi être maléfique ?",
+        "word": "Valeur esthétique vs valeur morale: une œuvre belle peut-elle aussi être maléfique ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -910,7 +910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Valeur esthétique vs valeur morale — une œuvre belle peut-elle aussi être maléfique ?",
+                "text": "Valeur esthétique vs valeur morale: une œuvre belle peut-elle aussi être maléfique ?",
                 "examples": []
             }
         ],
@@ -927,7 +927,7 @@
     },
     {
         "id": "fr_proficiency_social_033",
-        "word": "L'avant-garde vs l'accessibilité — l'art doit-il défier ou inclure ?",
+        "word": "L'avant-garde vs l'accessibilité: l'art doit-il défier ou inclure ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -935,7 +935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'avant-garde vs l'accessibilité — l'art doit-il défier ou inclure ?",
+                "text": "L'avant-garde vs l'accessibilité: l'art doit-il défier ou inclure ?",
                 "examples": []
             }
         ],
@@ -952,7 +952,7 @@
     },
     {
         "id": "fr_proficiency_social_034",
-        "word": "L'art institutionnalisé vs l'art brut (outsider art) — lequel porte le poids culturel le plus authentique ?",
+        "word": "L'art institutionnalisé vs l'art brut (outsider art): lequel porte le poids culturel le plus authentique ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -960,7 +960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'art institutionnalisé vs l'art brut (outsider art) — lequel porte le poids culturel le plus authentique ?",
+                "text": "L'art institutionnalisé vs l'art brut (outsider art): lequel porte le poids culturel le plus authentique ?",
                 "examples": []
             }
         ],
@@ -977,7 +977,7 @@
     },
     {
         "id": "fr_proficiency_social_035",
-        "word": "Le principe de précaution vs le principe de proaction — lequel doit régir les technologies émergentes ?",
+        "word": "Le principe de précaution vs le principe de proaction: lequel doit régir les technologies émergentes ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -985,7 +985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le principe de précaution vs le principe de proaction — lequel doit régir les technologies émergentes ?",
+                "text": "Le principe de précaution vs le principe de proaction: lequel doit régir les technologies émergentes ?",
                 "examples": []
             }
         ],
@@ -1002,7 +1002,7 @@
     },
     {
         "id": "fr_proficiency_social_036",
-        "word": "Le progrès scientifique comme intrinsèquement bon vs le progrès comme éthiquement neutre — qui porte la responsabilité de l'usage des connaissances ?",
+        "word": "Le progrès scientifique comme intrinsèquement bon vs le progrès comme éthiquement neutre: qui porte la responsabilité de l'usage des connaissances ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -1010,7 +1010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le progrès scientifique comme intrinsèquement bon vs le progrès comme éthiquement neutre — qui porte la responsabilité de l'usage des connaissances ?",
+                "text": "Le progrès scientifique comme intrinsèquement bon vs le progrès comme éthiquement neutre: qui porte la responsabilité de l'usage des connaissances ?",
                 "examples": []
             }
         ],
@@ -1027,7 +1027,7 @@
     },
     {
         "id": "fr_proficiency_social_037",
-        "word": "Mitigation des risques existentiels vs réduction de la souffrance actuelle — où doivent se situer les priorités morales de l'humanité ?",
+        "word": "Mitigation des risques existentiels vs réduction de la souffrance actuelle: où doivent se situer les priorités morales de l'humanité ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -1035,7 +1035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mitigation des risques existentiels vs réduction de la souffrance actuelle — où doivent se situer les priorités morales de l'humanité ?",
+                "text": "Mitigation des risques existentiels vs réduction de la souffrance actuelle: où doivent se situer les priorités morales de l'humanité ?",
                 "examples": []
             }
         ],
@@ -1052,7 +1052,7 @@
     },
     {
         "id": "fr_proficiency_social_038",
-        "word": "Conscience humaine vs intelligence artificielle générale — une machine pourrait-elle jamais être un patient moral ?",
+        "word": "Conscience humaine vs intelligence artificielle générale: une machine pourrait-elle jamais être un patient moral ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -1060,14 +1060,14 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Conscience humaine vs intelligence artificielle générale — une machine pourrait-elle jamais être un patient moral ?",
+                "text": "Conscience humaine vs intelligence artificielle générale: une machine pourrait-elle jamais être un patient moral ?",
                 "examples": []
             }
         ],
         "sideA": "Conscience",
         "sideB": "IAG",
         "ideasA": [
-            "Le statut moral exige la capacité de « sentience » — l'expérience subjective et qualitative de la douleur et du plaisir — qui est uniquement biologique.",
+            "Le statut moral exige la capacité de « sentience »: l'expérience subjective et qualitative de la douleur et du plaisir: qui est uniquement biologique.",
             "Une IAG, aussi sophistiquée soit-elle, est en fin de compte un ensemble d'algorithmes dépourvus de la « vie intérieure » qui justifie la considération morale."
         ],
         "ideasB": [
@@ -1077,7 +1077,7 @@
     },
     {
         "id": "fr_proficiency_social_039",
-        "word": "Le progrès comme réel vs le progrès comme illusion — l'histoire va-t-elle quelque part ?",
+        "word": "Le progrès comme réel vs le progrès comme illusion: l'histoire va-t-elle quelque part ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -1085,7 +1085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le progrès comme réel vs le progrès comme illusion — l'histoire va-t-elle quelque part ?",
+                "text": "Le progrès comme réel vs le progrès comme illusion: l'histoire va-t-elle quelque part ?",
                 "examples": []
             }
         ],
@@ -1102,7 +1102,7 @@
     },
     {
         "id": "fr_proficiency_social_040",
-        "word": "Ordre libéral occidental vs monde multipolaire — quelle est la base la plus stable pour les relations internationales ?",
+        "word": "Ordre libéral occidental vs monde multipolaire: quelle est la base la plus stable pour les relations internationales ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -1110,7 +1110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ordre libéral occidental vs monde multipolaire — quelle est la base la plus stable pour les relations internationales ?",
+                "text": "Ordre libéral occidental vs monde multipolaire: quelle est la base la plus stable pour les relations internationales ?",
                 "examples": []
             }
         ],
@@ -1127,7 +1127,7 @@
     },
     {
         "id": "fr_proficiency_social_041",
-        "word": "Mémoire vs oubli — lequel est le plus essentiel à une identité collective saine ?",
+        "word": "Mémoire vs oubli: lequel est le plus essentiel à une identité collective saine ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -1135,7 +1135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mémoire vs oubli — lequel est le plus essentiel à une identité collective saine ?",
+                "text": "Mémoire vs oubli: lequel est le plus essentiel à une identité collective saine ?",
                 "examples": []
             }
         ],
@@ -1152,7 +1152,7 @@
     },
     {
         "id": "fr_proficiency_social_042",
-        "word": "La tragédie des communs vs la possibilité de coopération — que nous dit l'histoire sur la nature humaine ?",
+        "word": "La tragédie des communs vs la possibilité de coopération: que nous dit l'histoire sur la nature humaine ?",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -1160,7 +1160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La tragédie des communs vs la possibilité de coopération — que nous dit l'histoire sur la nature humaine ?",
+                "text": "La tragédie des communs vs la possibilité de coopération: que nous dit l'histoire sur la nature humaine ?",
                 "examples": []
             }
         ],
@@ -1542,7 +1542,7 @@
         "sideA": "Continuité du Soi",
         "sideB": "Discontinuité radicale",
         "ideasA": [
-            "L'identité ne se trouve pas dans le substrat matériel, mais dans la continuité du schéma — le flux de souvenirs et de valeurs.",
+            "L'identité ne se trouve pas dans le substrat matériel, mais dans la continuité du schéma: le flux de souvenirs et de valeurs.",
             "Le soi est un projet narratif ; tant que l'histoire est cohérente, la personne reste fondamentalement la même."
         ],
         "ideasB": [
@@ -1592,7 +1592,7 @@
         "sideA": "Linguistique",
         "sideB": "Culturel",
         "ideasA": [
-            "L'articulation physique du mot — la combinaison de la consonne nasale et de la diphtongue — déclenche un inconfort sensoriel.",
+            "L'articulation physique du mot: la combinaison de la consonne nasale et de la diphtongue: déclenche un inconfort sensoriel.",
             "Certains phonèmes possèdent une « texture » naturelle qui peut être universellement repoussante."
         ],
         "ideasB": [

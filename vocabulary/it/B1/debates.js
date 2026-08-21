@@ -2,21 +2,21 @@
     const data = [
     {
         "id": "it_intermediate_jobs_001",
-        "word": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?",
+        "word": "Lavoro da remoto vs lavoro in ufficio: cosa è meglio per produttività e benessere?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?",
+                "text": "Lavoro da remoto vs lavoro in ufficio: cosa è meglio per produttività e benessere?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?",
+            "topic": "Lavoro da remoto vs lavoro in ufficio: cosa è meglio per produttività e benessere?",
             "sideA": "Remoto",
             "sideB": "Ufficio",
             "ideasA": [
@@ -31,21 +31,21 @@
     },
     {
         "id": "it_intermediate_jobs_002",
-        "word": "Sicurezza del lavoro vs crescita professionale — cosa dovrebbero dare priorità gli adulti?",
+        "word": "Sicurezza del lavoro vs crescita professionale: cosa dovrebbero dare priorità gli adulti?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sicurezza del lavoro vs crescita professionale — cosa dovrebbero dare priorità gli adulti?",
+                "text": "Sicurezza del lavoro vs crescita professionale: cosa dovrebbero dare priorità gli adulti?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Sicurezza del lavoro vs crescita professionale — cosa dovrebbero dare priorità gli adulti?",
+            "topic": "Sicurezza del lavoro vs crescita professionale: cosa dovrebbero dare priorità gli adulti?",
             "sideA": "Sicurezza",
             "sideB": "Crescita",
             "ideasA": [
@@ -60,21 +60,21 @@
     },
     {
         "id": "it_intermediate_jobs_003",
-        "word": "Avviare un'attività in proprio vs lavorare per un datore di lavoro — qual è la scelta migliore a 30 anni?",
+        "word": "Avviare un'attività in proprio vs lavorare per un datore di lavoro: qual è la scelta migliore a 30 anni?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avviare un'attività in proprio vs lavorare per un datore di lavoro — qual è la scelta migliore a 30 anni?",
+                "text": "Avviare un'attività in proprio vs lavorare per un datore di lavoro: qual è la scelta migliore a 30 anni?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Avviare un'attività in proprio vs lavorare per un datore di lavoro — qual è la scelta migliore a 30 anni?",
+            "topic": "Avviare un'attività in proprio vs lavorare per un datore di lavoro: qual è la scelta migliore a 30 anni?",
             "sideA": "Propria attività",
             "sideB": "Dipendente",
             "ideasA": [
@@ -89,21 +89,21 @@
     },
     {
         "id": "it_intermediate_jobs_004",
-        "word": "Ambizione vs equilibrio vita-lavoro — si possono davvero avere entrambi?",
+        "word": "Ambizione vs equilibrio vita-lavoro: si possono davvero avere entrambi?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ambizione vs equilibrio vita-lavoro — si possono davvero avere entrambi?",
+                "text": "Ambizione vs equilibrio vita-lavoro: si possono davvero avere entrambi?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Ambizione vs equilibrio vita-lavoro — si possono davvero avere entrambi?",
+            "topic": "Ambizione vs equilibrio vita-lavoro: si possono davvero avere entrambi?",
             "sideA": "Ambizione",
             "sideB": "Equilibrio",
             "ideasA": [
@@ -118,21 +118,21 @@
     },
     {
         "id": "it_intermediate_jobs_005",
-        "word": "Networking vs sviluppo delle competenze — cosa fa avanzare di più la tua carriera?",
+        "word": "Networking vs sviluppo delle competenze: cosa fa avanzare di più la tua carriera?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Networking vs sviluppo delle competenze — cosa fa avanzare di più la tua carriera?",
+                "text": "Networking vs sviluppo delle competenze: cosa fa avanzare di più la tua carriera?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Networking vs sviluppo delle competenze — cosa fa avanzare di più la tua carriera?",
+            "topic": "Networking vs sviluppo delle competenze: cosa fa avanzare di più la tua carriera?",
             "sideA": "Networking",
             "sideB": "Competenze",
             "ideasA": [
@@ -147,21 +147,21 @@
     },
     {
         "id": "it_intermediate_jobs_006",
-        "word": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente — cosa motiva di più gli adulti?",
+        "word": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente: cosa motiva di più gli adulti?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente — cosa motiva di più gli adulti?",
+                "text": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente: cosa motiva di più gli adulti?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente — cosa motiva di più gli adulti?",
+            "topic": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente: cosa motiva di più gli adulti?",
             "sideA": "Feedback",
             "sideB": "Indipendenza",
             "ideasA": [
@@ -176,21 +176,21 @@
     },
     {
         "id": "it_intermediate_jobs_007",
-        "word": "Cambiare carriera a 40 anni vs restare nel proprio campo — qual è la decisione più saggia?",
+        "word": "Cambiare carriera a 40 anni vs restare nel proprio campo: qual è la decisione più saggia?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cambiare carriera a 40 anni vs restare nel proprio campo — qual è la decisione più saggia?",
+                "text": "Cambiare carriera a 40 anni vs restare nel proprio campo: qual è la decisione più saggia?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Cambiare carriera a 40 anni vs restare nel proprio campo — qual è la decisione più saggia?",
+            "topic": "Cambiare carriera a 40 anni vs restare nel proprio campo: qual è la decisione più saggia?",
             "sideA": "Cambiare",
             "sideB": "Restare",
             "ideasA": [
@@ -205,21 +205,21 @@
     },
     {
         "id": "it_intermediate_shopping_001",
-        "word": "Estinguere anticipatamente il mutuo vs investire quei soldi — cosa è più intelligente?",
+        "word": "Estinguere anticipatamente il mutuo vs investire quei soldi: cosa è più intelligente?",
         "lang": "it",
         "level": "intermediate",
         "theme": "shopping",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Estinguere anticipatamente il mutuo vs investire quei soldi — cosa è più intelligente?",
+                "text": "Estinguere anticipatamente il mutuo vs investire quei soldi: cosa è più intelligente?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Estinguere anticipatamente il mutuo vs investire quei soldi — cosa è più intelligente?",
+            "topic": "Estinguere anticipatamente il mutuo vs investire quei soldi: cosa è più intelligente?",
             "sideA": "Estinguere mutuo",
             "sideB": "Investire",
             "ideasA": [
@@ -234,21 +234,21 @@
     },
     {
         "id": "it_intermediate_shopping_002",
-        "word": "Possedere una casa vs affittare permanentemente — cosa si adatta meglio alla vita adulta moderna?",
+        "word": "Possedere una casa vs affittare permanentemente: cosa si adatta meglio alla vita adulta moderna?",
         "lang": "it",
         "level": "intermediate",
         "theme": "shopping",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Possedere una casa vs affittare permanentemente — cosa si adatta meglio alla vita adulta moderna?",
+                "text": "Possedere una casa vs affittare permanentemente: cosa si adatta meglio alla vita adulta moderna?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Possedere una casa vs affittare permanentemente — cosa si adatta meglio alla vita adulta moderna?",
+            "topic": "Possedere una casa vs affittare permanentemente: cosa si adatta meglio alla vita adulta moderna?",
             "sideA": "Possedere",
             "sideB": "Affittare",
             "ideasA": [
@@ -263,21 +263,21 @@
     },
     {
         "id": "it_intermediate_shopping_003",
-        "word": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni — cosa è più saggio?",
+        "word": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni: cosa è più saggio?",
         "lang": "it",
         "level": "intermediate",
         "theme": "shopping",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni — cosa è più saggio?",
+                "text": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni: cosa è più saggio?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni — cosa è più saggio?",
+            "topic": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni: cosa è più saggio?",
             "sideA": "Risparmiare presto",
             "sideB": "Godersi ora",
             "ideasA": [
@@ -292,21 +292,21 @@
     },
     {
         "id": "it_intermediate_shopping_004",
-        "word": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora — quale approccio è più sano?",
+        "word": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora: quale approccio è più sano?",
         "lang": "it",
         "level": "intermediate",
         "theme": "shopping",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora — quale approccio è più sano?",
+                "text": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora: quale approccio è più sano?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora — quale approccio è più sano?",
+            "topic": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora: quale approccio è più sano?",
             "sideA": "Sotto possibilità",
             "sideB": "Godersi ora",
             "ideasA": [
@@ -321,21 +321,21 @@
     },
     {
         "id": "it_intermediate_social_001",
-        "word": "Due redditi in una famiglia vs un partner che resta a casa — cosa funziona meglio per le famiglie?",
+        "word": "Due redditi in una famiglia vs un partner che resta a casa: cosa funziona meglio per le famiglie?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Due redditi in una famiglia vs un partner che resta a casa — cosa funziona meglio per le famiglie?",
+                "text": "Due redditi in una famiglia vs un partner che resta a casa: cosa funziona meglio per le famiglie?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Due redditi in una famiglia vs un partner che resta a casa — cosa funziona meglio per le famiglie?",
+            "topic": "Due redditi in una famiglia vs un partner che resta a casa: cosa funziona meglio per le famiglie?",
             "sideA": "Due redditi",
             "sideB": "Uno a casa",
             "ideasA": [
@@ -350,21 +350,21 @@
     },
     {
         "id": "it_intermediate_social_002",
-        "word": "Avere figli vs scegliere di non averne — cosa rende la vita adulta più appagante?",
+        "word": "Avere figli vs scegliere di non averne: cosa rende la vita adulta più appagante?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avere figli vs scegliere di non averne — cosa rende la vita adulta più appagante?",
+                "text": "Avere figli vs scegliere di non averne: cosa rende la vita adulta più appagante?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Avere figli vs scegliere di non averne — cosa rende la vita adulta più appagante?",
+            "topic": "Avere figli vs scegliere di non averne: cosa rende la vita adulta più appagante?",
             "sideA": "Avere figli",
             "sideB": "Niente figli",
             "ideasA": [
@@ -379,21 +379,21 @@
     },
     {
         "id": "it_intermediate_social_003",
-        "word": "Genitorialità severa vs genitorialità permissiva — cosa produce adulti più felici?",
+        "word": "Genitorialità severa vs genitorialità permissiva: cosa produce adulti più felici?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Genitorialità severa vs genitorialità permissiva — cosa produce adulti più felici?",
+                "text": "Genitorialità severa vs genitorialità permissiva: cosa produce adulti più felici?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Genitorialità severa vs genitorialità permissiva — cosa produce adulti più felici?",
+            "topic": "Genitorialità severa vs genitorialità permissiva: cosa produce adulti più felici?",
             "sideA": "Severa",
             "sideB": "Permissiva",
             "ideasA": [
@@ -408,21 +408,21 @@
     },
     {
         "id": "it_intermediate_social_004",
-        "word": "Relazione a lungo termine vs restare single — cosa è meglio per la crescita personale?",
+        "word": "Relazione a lungo termine vs restare single: cosa è meglio per la crescita personale?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Relazione a lungo termine vs restare single — cosa è meglio per la crescita personale?",
+                "text": "Relazione a lungo termine vs restare single: cosa è meglio per la crescita personale?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Relazione a lungo termine vs restare single — cosa è meglio per la crescita personale?",
+            "topic": "Relazione a lungo termine vs restare single: cosa è meglio per la crescita personale?",
             "sideA": "Relazione",
             "sideB": "Single",
             "ideasA": [
@@ -437,21 +437,21 @@
     },
     {
         "id": "it_intermediate_jobs_008",
-        "word": "Mantenere vita lavorativa e privata separate vs integrarle — cosa è più sano?",
+        "word": "Mantenere vita lavorativa e privata separate vs integrarle: cosa è più sano?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mantenere vita lavorativa e privata separate vs integrarle — cosa è più sano?",
+                "text": "Mantenere vita lavorativa e privata separate vs integrarle: cosa è più sano?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Mantenere vita lavorativa e privata separate vs integrarle — cosa è più sano?",
+            "topic": "Mantenere vita lavorativa e privata separate vs integrarle: cosa è più sano?",
             "sideA": "Separate",
             "sideB": "Integrate",
             "ideasA": [
@@ -466,21 +466,21 @@
     },
     {
         "id": "it_intermediate_travel_001",
-        "word": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia — qual è la scelta giusta?",
+        "word": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia: qual è la scelta giusta?",
         "lang": "it",
         "level": "intermediate",
         "theme": "travel",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia — qual è la scelta giusta?",
+                "text": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia: qual è la scelta giusta?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia — qual è la scelta giusta?",
+            "topic": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia: qual è la scelta giusta?",
             "sideA": "All'estero",
             "sideB": "Vicini alla famiglia",
             "ideasA": [
@@ -495,21 +495,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_001",
-        "word": "Dare priorità alla salute fisica vs salute mentale — su cosa dovrebbero concentrarsi prima gli adulti?",
+        "word": "Dare priorità alla salute fisica vs salute mentale: su cosa dovrebbero concentrarsi prima gli adulti?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dare priorità alla salute fisica vs salute mentale — su cosa dovrebbero concentrarsi prima gli adulti?",
+                "text": "Dare priorità alla salute fisica vs salute mentale: su cosa dovrebbero concentrarsi prima gli adulti?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Dare priorità alla salute fisica vs salute mentale — su cosa dovrebbero concentrarsi prima gli adulti?",
+            "topic": "Dare priorità alla salute fisica vs salute mentale: su cosa dovrebbero concentrarsi prima gli adulti?",
             "sideA": "Fisica",
             "sideB": "Mentale",
             "ideasA": [
@@ -524,21 +524,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_002",
-        "word": "Sanità privata vs affidarsi al sistema pubblico — qual è la migliore strategia per un adulto?",
+        "word": "Sanità privata vs affidarsi al sistema pubblico: qual è la migliore strategia per un adulto?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sanità privata vs affidarsi al sistema pubblico — qual è la migliore strategia per un adulto?",
+                "text": "Sanità privata vs affidarsi al sistema pubblico: qual è la migliore strategia per un adulto?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Sanità privata vs affidarsi al sistema pubblico — qual è la migliore strategia per un adulto?",
+            "topic": "Sanità privata vs affidarsi al sistema pubblico: qual è la migliore strategia per un adulto?",
             "sideA": "Privata",
             "sideB": "Pubblica",
             "ideasA": [
@@ -553,21 +553,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_003",
-        "word": "Controlli medici regolari vs andarci solo quando si è malati — qual è l'approccio più intelligente?",
+        "word": "Controlli medici regolari vs andarci solo quando si è malati: qual è l'approccio più intelligente?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Controlli medici regolari vs andarci solo quando si è malati — qual è l'approccio più intelligente?",
+                "text": "Controlli medici regolari vs andarci solo quando si è malati: qual è l'approccio più intelligente?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Controlli medici regolari vs andarci solo quando si è malati — qual è l'approccio più intelligente?",
+            "topic": "Controlli medici regolari vs andarci solo quando si è malati: qual è l'approccio più intelligente?",
             "sideA": "Controlli regolari",
             "sideB": "Solo se malati",
             "ideasA": [
@@ -582,21 +582,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_004",
-        "word": "Ridurre l'alcol vs ridurre lo stress — cosa ha un impatto maggiore sulla salute degli adulti?",
+        "word": "Ridurre l'alcol vs ridurre lo stress: cosa ha un impatto maggiore sulla salute degli adulti?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ridurre l'alcol vs ridurre lo stress — cosa ha un impatto maggiore sulla salute degli adulti?",
+                "text": "Ridurre l'alcol vs ridurre lo stress: cosa ha un impatto maggiore sulla salute degli adulti?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Ridurre l'alcol vs ridurre lo stress — cosa ha un impatto maggiore sulla salute degli adulti?",
+            "topic": "Ridurre l'alcol vs ridurre lo stress: cosa ha un impatto maggiore sulla salute degli adulti?",
             "sideA": "Meno alcol",
             "sideB": "Meno stress",
             "ideasA": [
@@ -611,21 +611,21 @@
     },
     {
         "id": "it_intermediate_social_005",
-        "word": "Libertà individuale vs responsabilità comunitaria — cosa dovrebbe guidare le decisioni degli adulti?",
+        "word": "Libertà individuale vs responsabilità comunitaria: cosa dovrebbe guidare le decisioni degli adulti?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Libertà individuale vs responsabilità comunitaria — cosa dovrebbe guidare le decisioni degli adulti?",
+                "text": "Libertà individuale vs responsabilità comunitaria: cosa dovrebbe guidare le decisioni degli adulti?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Libertà individuale vs responsabilità comunitaria — cosa dovrebbe guidare le decisioni degli adulti?",
+            "topic": "Libertà individuale vs responsabilità comunitaria: cosa dovrebbe guidare le decisioni degli adulti?",
             "sideA": "Libertà",
             "sideB": "Responsabilità",
             "ideasA": [
@@ -640,21 +640,21 @@
     },
     {
         "id": "it_intermediate_social_006",
-        "word": "Ottimismo sul futuro vs realismo — qual è l'atteggiamento più utile per gli adulti?",
+        "word": "Ottimismo sul futuro vs realismo: qual è l'atteggiamento più utile per gli adulti?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ottimismo sul futuro vs realismo — qual è l'atteggiamento più utile per gli adulti?",
+                "text": "Ottimismo sul futuro vs realismo: qual è l'atteggiamento più utile per gli adulti?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Ottimismo sul futuro vs realismo — qual è l'atteggiamento più utile per gli adulti?",
+            "topic": "Ottimismo sul futuro vs realismo: qual è l'atteggiamento più utile per gli adulti?",
             "sideA": "Ottimismo",
             "sideB": "Realismo",
             "ideasA": [
@@ -669,21 +669,21 @@
     },
     {
         "id": "it_intermediate_social_007",
-        "word": "Cambiare il mondo vs costruirsi una vita personale stabile — quale è l'ambizione più onesta?",
+        "word": "Cambiare il mondo vs costruirsi una vita personale stabile: quale è l'ambizione più onesta?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cambiare il mondo vs costruirsi una vita personale stabile — quale è l'ambizione più onesta?",
+                "text": "Cambiare il mondo vs costruirsi una vita personale stabile: quale è l'ambizione più onesta?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Cambiare il mondo vs costruirsi una vita personale stabile — quale è l'ambizione più onesta?",
+            "topic": "Cambiare il mondo vs costruirsi una vita personale stabile: quale è l'ambizione più onesta?",
             "sideA": "Cambiare il mondo",
             "sideB": "Vita stabile",
             "ideasA": [
@@ -698,21 +698,21 @@
     },
     {
         "id": "it_intermediate_social_008",
-        "word": "Dedicare il proprio tempo al volontariato vs donare denaro — cosa fa più bene?",
+        "word": "Dedicare il proprio tempo al volontariato vs donare denaro: cosa fa più bene?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dedicare il proprio tempo al volontariato vs donare denaro — cosa fa più bene?",
+                "text": "Dedicare il proprio tempo al volontariato vs donare denaro: cosa fa più bene?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Dedicare il proprio tempo al volontariato vs donare denaro — cosa fa più bene?",
+            "topic": "Dedicare il proprio tempo al volontariato vs donare denaro: cosa fa più bene?",
             "sideA": "Volontariato",
             "sideB": "Donare denaro",
             "ideasA": [
@@ -727,21 +727,21 @@
     },
     {
         "id": "it_intermediate_social_009",
-        "word": "Seguire i valori della propria generazione vs metterli in discussione — cosa è più ammirevole?",
+        "word": "Seguire i valori della propria generazione vs metterli in discussione: cosa è più ammirevole?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Seguire i valori della propria generazione vs metterli in discussione — cosa è più ammirevole?",
+                "text": "Seguire i valori della propria generazione vs metterli in discussione: cosa è più ammirevole?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Seguire i valori della propria generazione vs metterli in discussione — cosa è più ammirevole?",
+            "topic": "Seguire i valori della propria generazione vs metterli in discussione: cosa è più ammirevole?",
             "sideA": "Seguire",
             "sideB": "Mettere in discussione",
             "ideasA": [
@@ -756,21 +756,21 @@
     },
     {
         "id": "it_intermediate_jobs_009",
-        "word": "Sapere quanto guadagnano i colleghi vs non saperlo — cosa è meglio per l'armonia in ufficio?",
+        "word": "Sapere quanto guadagnano i colleghi vs non saperlo: cosa è meglio per l'armonia in ufficio?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sapere quanto guadagnano i colleghi vs non saperlo — cosa è meglio per l'armonia in ufficio?",
+                "text": "Sapere quanto guadagnano i colleghi vs non saperlo: cosa è meglio per l'armonia in ufficio?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Sapere quanto guadagnano i colleghi vs non saperlo — cosa è meglio per l'armonia in ufficio?",
+            "topic": "Sapere quanto guadagnano i colleghi vs non saperlo: cosa è meglio per l'armonia in ufficio?",
             "sideA": "Saperlo",
             "sideB": "Non saperlo",
             "ideasA": [
@@ -785,21 +785,21 @@
     },
     {
         "id": "it_intermediate_social_010",
-        "word": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo — cosa è più rispettoso nella vita adulta?",
+        "word": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo: cosa è più rispettoso nella vita adulta?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo — cosa è più rispettoso nella vita adulta?",
+                "text": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo: cosa è più rispettoso nella vita adulta?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo — cosa è più rispettoso nella vita adulta?",
+            "topic": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo: cosa è più rispettoso nella vita adulta?",
             "sideA": "Subito",
             "sideB": "Con calma",
             "ideasA": [
@@ -814,21 +814,21 @@
     },
     {
         "id": "it_intermediate_shopping_005",
-        "word": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo — quale è l'esperienza adulta più comune?",
+        "word": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo: quale è l'esperienza adulta più comune?",
         "lang": "it",
         "level": "intermediate",
         "theme": "shopping",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo — quale è l'esperienza adulta più comune?",
+                "text": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo: quale è l'esperienza adulta più comune?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo — quale è l'esperienza adulta più comune?",
+            "topic": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo: quale è l'esperienza adulta più comune?",
             "sideA": "Ammettere",
             "sideB": "Fingere",
             "ideasA": [
@@ -843,21 +843,21 @@
     },
     {
         "id": "it_intermediate_social_011",
-        "word": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia — quale è la peggiore abitudine adulta?",
+        "word": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia: quale è la peggiore abitudine adulta?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia — quale è la peggiore abitudine adulta?",
+                "text": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia: quale è la peggiore abitudine adulta?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia — quale è la peggiore abitudine adulta?",
+            "topic": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia: quale è la peggiore abitudine adulta?",
             "sideA": "Annullare",
             "sideB": "Uscire comunque",
             "ideasA": [
@@ -872,21 +872,21 @@
     },
     {
         "id": "it_intermediate_social_012",
-        "word": "Parlare apertamente di soldi con gli amici vs mantenere la privacy — qual è l'approccio più maturo?",
+        "word": "Parlare apertamente di soldi con gli amici vs mantenere la privacy: qual è l'approccio più maturo?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Parlare apertamente di soldi con gli amici vs mantenere la privacy — qual è l'approccio più maturo?",
+                "text": "Parlare apertamente di soldi con gli amici vs mantenere la privacy: qual è l'approccio più maturo?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Parlare apertamente di soldi con gli amici vs mantenere la privacy — qual è l'approccio più maturo?",
+            "topic": "Parlare apertamente di soldi con gli amici vs mantenere la privacy: qual è l'approccio più maturo?",
             "sideA": "Parlarne apertamente",
             "sideB": "Mantenerlo privato",
             "ideasA": [
@@ -959,21 +959,21 @@
     },
     {
         "id": "it_intermediate_jobs_010",
-        "word": "Apprendimento online o apprendimento in aula — cosa è più efficace?",
+        "word": "Apprendimento online o apprendimento in aula: cosa è più efficace?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Apprendimento online o apprendimento in aula — cosa è più efficace?",
+                "text": "Apprendimento online o apprendimento in aula: cosa è più efficace?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Apprendimento online o apprendimento in aula — cosa è più efficace?",
+            "topic": "Apprendimento online o apprendimento in aula: cosa è più efficace?",
             "sideA": "Online",
             "sideB": "Aula",
             "ideasA": [
@@ -988,21 +988,21 @@
     },
     {
         "id": "it_intermediate_jobs_011",
-        "word": "Memorizzare fatti o imparare come trovare informazioni — quale abilità è più importante?",
+        "word": "Memorizzare fatti o imparare come trovare informazioni: quale abilità è più importante?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Memorizzare fatti o imparare come trovare informazioni — quale abilità è più importante?",
+                "text": "Memorizzare fatti o imparare come trovare informazioni: quale abilità è più importante?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Memorizzare fatti o imparare come trovare informazioni — quale abilità è più importante?",
+            "topic": "Memorizzare fatti o imparare come trovare informazioni: quale abilità è più importante?",
             "sideA": "Fatti",
             "sideB": "Trovare info",
             "ideasA": [
@@ -1017,21 +1017,21 @@
     },
     {
         "id": "it_intermediate_jobs_012",
-        "word": "Istruzione universitaria o formazione professionale — quale è il percorso migliore?",
+        "word": "Istruzione universitaria o formazione professionale: quale è il percorso migliore?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Istruzione universitaria o formazione professionale — quale è il percorso migliore?",
+                "text": "Istruzione universitaria o formazione professionale: quale è il percorso migliore?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Istruzione universitaria o formazione professionale — quale è il percorso migliore?",
+            "topic": "Istruzione universitaria o formazione professionale: quale è il percorso migliore?",
             "sideA": "Università",
             "sideB": "Professionale",
             "ideasA": [
@@ -1046,21 +1046,21 @@
     },
     {
         "id": "it_intermediate_jobs_013",
-        "word": "Esami o valutazione continua — quale è il modo più giusto per valutare gli studenti?",
+        "word": "Esami o valutazione continua: quale è il modo più giusto per valutare gli studenti?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Esami o valutazione continua — quale è il modo più giusto per valutare gli studenti?",
+                "text": "Esami o valutazione continua: quale è il modo più giusto per valutare gli studenti?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Esami o valutazione continua — quale è il modo più giusto per valutare gli studenti?",
+            "topic": "Esami o valutazione continua: quale è il modo più giusto per valutare gli studenti?",
             "sideA": "Esami",
             "sideB": "Continua",
             "ideasA": [
@@ -1075,21 +1075,21 @@
     },
     {
         "id": "it_intermediate_jobs_014",
-        "word": "Imparare una lingua straniera a scuola o vivere all'estero — cosa è più efficace?",
+        "word": "Imparare una lingua straniera a scuola o vivere all'estero: cosa è più efficace?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Imparare una lingua straniera a scuola o vivere all'estero — cosa è più efficace?",
+                "text": "Imparare una lingua straniera a scuola o vivere all'estero: cosa è più efficace?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Imparare una lingua straniera a scuola o vivere all'estero — cosa è più efficace?",
+            "topic": "Imparare una lingua straniera a scuola o vivere all'estero: cosa è più efficace?",
             "sideA": "Scuola",
             "sideB": "Vivere all'estero",
             "ideasA": [
@@ -1104,21 +1104,21 @@
     },
     {
         "id": "it_intermediate_jobs_015",
-        "word": "Scuole maschili o femminili o scuole miste — quali sono migliori per gli studenti?",
+        "word": "Scuole maschili o femminili o scuole miste: quali sono migliori per gli studenti?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Scuole maschili o femminili o scuole miste — quali sono migliori per gli studenti?",
+                "text": "Scuole maschili o femminili o scuole miste: quali sono migliori per gli studenti?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Scuole maschili o femminili o scuole miste — quali sono migliori per gli studenti?",
+            "topic": "Scuole maschili o femminili o scuole miste: quali sono migliori per gli studenti?",
             "sideA": "Solo maschi/femmine",
             "sideB": "Mista",
             "ideasA": [
@@ -1133,21 +1133,21 @@
     },
     {
         "id": "it_intermediate_social_014",
-        "word": "Social media o comunicazione faccia a faccia — cosa è meglio per restare in contatto?",
+        "word": "Social media o comunicazione faccia a faccia: cosa è meglio per restare in contatto?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Social media o comunicazione faccia a faccia — cosa è meglio per restare in contatto?",
+                "text": "Social media o comunicazione faccia a faccia: cosa è meglio per restare in contatto?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Social media o comunicazione faccia a faccia — cosa è meglio per restare in contatto?",
+            "topic": "Social media o comunicazione faccia a faccia: cosa è meglio per restare in contatto?",
             "sideA": "Social media",
             "sideB": "Faccia a faccia",
             "ideasA": [
@@ -1162,21 +1162,21 @@
     },
     {
         "id": "it_intermediate_technology_001",
-        "word": "Servizi di streaming o TV tradizionale — cosa è meglio?",
+        "word": "Servizi di streaming o TV tradizionale: cosa è meglio?",
         "lang": "it",
         "level": "intermediate",
         "theme": "technology",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Servizi di streaming o TV tradizionale — cosa è meglio?",
+                "text": "Servizi di streaming o TV tradizionale: cosa è meglio?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Servizi di streaming o TV tradizionale — cosa è meglio?",
+            "topic": "Servizi di streaming o TV tradizionale: cosa è meglio?",
             "sideA": "Streaming",
             "sideB": "TV classica",
             "ideasA": [
@@ -1191,21 +1191,21 @@
     },
     {
         "id": "it_intermediate_jobs_016",
-        "word": "Lavorare da casa o lavorare in ufficio — cosa è più produttivo?",
+        "word": "Lavorare da casa o lavorare in ufficio: cosa è più produttivo?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare da casa o lavorare in ufficio — cosa è più produttivo?",
+                "text": "Lavorare da casa o lavorare in ufficio: cosa è più produttivo?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Lavorare da casa o lavorare in ufficio — cosa è più produttivo?",
+            "topic": "Lavorare da casa o lavorare in ufficio: cosa è più produttivo?",
             "sideA": "Casa",
             "sideB": "Ufficio",
             "ideasA": [
@@ -1220,21 +1220,21 @@
     },
     {
         "id": "it_intermediate_technology_002",
-        "word": "Leggere le notizie online o leggere un giornale — cosa è più affidabile?",
+        "word": "Leggere le notizie online o leggere un giornale: cosa è più affidabile?",
         "lang": "it",
         "level": "intermediate",
         "theme": "technology",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Leggere le notizie online o leggere un giornale — cosa è più affidabile?",
+                "text": "Leggere le notizie online o leggere un giornale: cosa è più affidabile?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Leggere le notizie online o leggere un giornale — cosa è più affidabile?",
+            "topic": "Leggere le notizie online o leggere un giornale: cosa è più affidabile?",
             "sideA": "Notizie online",
             "sideB": "Giornale",
             "ideasA": [
@@ -1249,21 +1249,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_005",
-        "word": "Passare il tempo sui social media o passare il tempo nella natura — cosa è meglio per la tua salute mentale?",
+        "word": "Passare il tempo sui social media o passare il tempo nella natura: cosa è meglio per la tua salute mentale?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Passare il tempo sui social media o passare il tempo nella natura — cosa è meglio per la tua salute mentale?",
+                "text": "Passare il tempo sui social media o passare il tempo nella natura: cosa è meglio per la tua salute mentale?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Passare il tempo sui social media o passare il tempo nella natura — cosa è meglio per la tua salute mentale?",
+            "topic": "Passare il tempo sui social media o passare il tempo nella natura: cosa è meglio per la tua salute mentale?",
             "sideA": "Social media",
             "sideB": "Natura",
             "ideasA": [
@@ -1278,21 +1278,21 @@
     },
     {
         "id": "it_intermediate_environment_002",
-        "word": "Usare i trasporti pubblici o guidare l'auto — cosa è meglio per la società?",
+        "word": "Usare i trasporti pubblici o guidare l'auto: cosa è meglio per la società?",
         "lang": "it",
         "level": "intermediate",
         "theme": "environment",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Usare i trasporti pubblici o guidare l'auto — cosa è meglio per la società?",
+                "text": "Usare i trasporti pubblici o guidare l'auto: cosa è meglio per la società?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Usare i trasporti pubblici o guidare l'auto — cosa è meglio per la società?",
+            "topic": "Usare i trasporti pubblici o guidare l'auto: cosa è meglio per la società?",
             "sideA": "Trasporti pubblici",
             "sideB": "Auto",
             "ideasA": [
@@ -1307,21 +1307,21 @@
     },
     {
         "id": "it_intermediate_environment_003",
-        "word": "Comprare vestiti usati o comprare vestiti nuovi — quale è l'abitudine migliore?",
+        "word": "Comprare vestiti usati o comprare vestiti nuovi: quale è l'abitudine migliore?",
         "lang": "it",
         "level": "intermediate",
         "theme": "environment",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Comprare vestiti usati o comprare vestiti nuovi — quale è l'abitudine migliore?",
+                "text": "Comprare vestiti usati o comprare vestiti nuovi: quale è l'abitudine migliore?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Comprare vestiti usati o comprare vestiti nuovi — quale è l'abitudine migliore?",
+            "topic": "Comprare vestiti usati o comprare vestiti nuovi: quale è l'abitudine migliore?",
             "sideA": "Usato",
             "sideB": "Nuovo",
             "ideasA": [
@@ -1336,21 +1336,21 @@
     },
     {
         "id": "it_intermediate_travel_002",
-        "word": "Vivere in città o vivere in campagna — cosa si adatta meglio ai giovani?",
+        "word": "Vivere in città o vivere in campagna: cosa si adatta meglio ai giovani?",
         "lang": "it",
         "level": "intermediate",
         "theme": "travel",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivere in città o vivere in campagna — cosa si adatta meglio ai giovani?",
+                "text": "Vivere in città o vivere in campagna: cosa si adatta meglio ai giovani?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Vivere in città o vivere in campagna — cosa si adatta meglio ai giovani?",
+            "topic": "Vivere in città o vivere in campagna: cosa si adatta meglio ai giovani?",
             "sideA": "Città",
             "sideB": "Campagna",
             "ideasA": [
@@ -1365,21 +1365,21 @@
     },
     {
         "id": "it_intermediate_environment_004",
-        "word": "Vegetarianismo o mangiare carne — cosa è meglio per il pianeta?",
+        "word": "Vegetarianismo o mangiare carne: cosa è meglio per il pianeta?",
         "lang": "it",
         "level": "intermediate",
         "theme": "environment",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vegetarianismo o mangiare carne — cosa è meglio per il pianeta?",
+                "text": "Vegetarianismo o mangiare carne: cosa è meglio per il pianeta?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Vegetarianismo o mangiare carne — cosa è meglio per il pianeta?",
+            "topic": "Vegetarianismo o mangiare carne: cosa è meglio per il pianeta?",
             "sideA": "Vegetarianismo",
             "sideB": "Carne",
             "ideasA": [
@@ -1394,21 +1394,21 @@
     },
     {
         "id": "it_intermediate_environment_005",
-        "word": "Cambiamenti nello stile di vita individuale o azione del governo — cosa fa di più per l'ambiente?",
+        "word": "Cambiamenti nello stile di vita individuale o azione del governo: cosa fa di più per l'ambiente?",
         "lang": "it",
         "level": "intermediate",
         "theme": "environment",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cambiamenti nello stile di vita individuale o azione del governo — cosa fa di più per l'ambiente?",
+                "text": "Cambiamenti nello stile di vita individuale o azione del governo: cosa fa di più per l'ambiente?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Cambiamenti nello stile di vita individuale o azione del governo — cosa fa di più per l'ambiente?",
+            "topic": "Cambiamenti nello stile di vita individuale o azione del governo: cosa fa di più per l'ambiente?",
             "sideA": "Individuale",
             "sideB": "Governo",
             "ideasA": [
@@ -1423,21 +1423,21 @@
     },
     {
         "id": "it_intermediate_jobs_017",
-        "word": "Un lavoro stabile o una carriera creativa — quale è la scelta di vita migliore?",
+        "word": "Un lavoro stabile o una carriera creativa: quale è la scelta di vita migliore?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Un lavoro stabile o una carriera creativa — quale è la scelta di vita migliore?",
+                "text": "Un lavoro stabile o una carriera creativa: quale è la scelta di vita migliore?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Un lavoro stabile o una carriera creativa — quale è la scelta di vita migliore?",
+            "topic": "Un lavoro stabile o una carriera creativa: quale è la scelta di vita migliore?",
             "sideA": "Lavoro stabile",
             "sideB": "Carriera creativa",
             "ideasA": [
@@ -1452,21 +1452,21 @@
     },
     {
         "id": "it_intermediate_jobs_018",
-        "word": "Aprire la propria attività o lavorare per un'azienda — cosa è meglio?",
+        "word": "Aprire la propria attività o lavorare per un'azienda: cosa è meglio?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Aprire la propria attività o lavorare per un'azienda — cosa è meglio?",
+                "text": "Aprire la propria attività o lavorare per un'azienda: cosa è meglio?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Aprire la propria attività o lavorare per un'azienda — cosa è meglio?",
+            "topic": "Aprire la propria attività o lavorare per un'azienda: cosa è meglio?",
             "sideA": "Propria attività",
             "sideB": "Azienda",
             "ideasA": [
@@ -1481,21 +1481,21 @@
     },
     {
         "id": "it_intermediate_jobs_019",
-        "word": "Salario alto o soddisfazione sul lavoro — cosa conta di più al lavoro?",
+        "word": "Salario alto o soddisfazione sul lavoro: cosa conta di più al lavoro?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Salario alto o soddisfazione sul lavoro — cosa conta di più al lavoro?",
+                "text": "Salario alto o soddisfazione sul lavoro: cosa conta di più al lavoro?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Salario alto o soddisfazione sul lavoro — cosa conta di più al lavoro?",
+            "topic": "Salario alto o soddisfazione sul lavoro: cosa conta di più al lavoro?",
             "sideA": "Salario",
             "sideB": "Soddisfazione",
             "ideasA": [
@@ -1510,21 +1510,21 @@
     },
     {
         "id": "it_intermediate_jobs_020",
-        "word": "Lavorare molte ore o avere un equilibrio vita-lavoro — cosa porta a un maggiore successo?",
+        "word": "Lavorare molte ore o avere un equilibrio vita-lavoro: cosa porta a un maggiore successo?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare molte ore o avere un equilibrio vita-lavoro — cosa porta a un maggiore successo?",
+                "text": "Lavorare molte ore o avere un equilibrio vita-lavoro: cosa porta a un maggiore successo?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Lavorare molte ore o avere un equilibrio vita-lavoro — cosa porta a un maggiore successo?",
+            "topic": "Lavorare molte ore o avere un equilibrio vita-lavoro: cosa porta a un maggiore successo?",
             "sideA": "Molte ore",
             "sideB": "Equilibrio",
             "ideasA": [
@@ -1539,21 +1539,21 @@
     },
     {
         "id": "it_intermediate_jobs_021",
-        "word": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro — cosa è più saggio?",
+        "word": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro: cosa è più saggio?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro — cosa è più saggio?",
+                "text": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro: cosa è più saggio?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro — cosa è più saggio?",
+            "topic": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro: cosa è più saggio?",
             "sideA": "Passione",
             "sideB": "Prospettive",
             "ideasA": [
@@ -1568,21 +1568,21 @@
     },
     {
         "id": "it_intermediate_social_015",
-        "word": "Vivere come individuo o mettere al primo posto la comunità — cosa è più importante?",
+        "word": "Vivere come individuo o mettere al primo posto la comunità: cosa è più importante?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivere come individuo o mettere al primo posto la comunità — cosa è più importante?",
+                "text": "Vivere come individuo o mettere al primo posto la comunità: cosa è più importante?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Vivere come individuo o mettere al primo posto la comunità — cosa è più importante?",
+            "topic": "Vivere come individuo o mettere al primo posto la comunità: cosa è più importante?",
             "sideA": "Individuo",
             "sideB": "Comunità",
             "ideasA": [
@@ -1597,21 +1597,21 @@
     },
     {
         "id": "it_intermediate_social_016",
-        "word": "Valori tradizionali o valori moderni — quali sono più importanti da conservare?",
+        "word": "Valori tradizionali o valori moderni: quali sono più importanti da conservare?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Valori tradizionali o valori moderni — quali sono più importanti da conservare?",
+                "text": "Valori tradizionali o valori moderni: quali sono più importanti da conservare?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Valori tradizionali o valori moderni — quali sono più importanti da conservare?",
+            "topic": "Valori tradizionali o valori moderni: quali sono più importanti da conservare?",
             "sideA": "Tradizionali",
             "sideB": "Moderni",
             "ideasA": [
@@ -1626,21 +1626,21 @@
     },
     {
         "id": "it_intermediate_social_017",
-        "word": "Fare volontariato o donare soldi in beneficenza — cosa aiuta di più?",
+        "word": "Fare volontariato o donare soldi in beneficenza: cosa aiuta di più?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fare volontariato o donare soldi in beneficenza — cosa aiuta di più?",
+                "text": "Fare volontariato o donare soldi in beneficenza: cosa aiuta di più?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Fare volontariato o donare soldi in beneficenza — cosa aiuta di più?",
+            "topic": "Fare volontariato o donare soldi in beneficenza: cosa aiuta di più?",
             "sideA": "Volontariato",
             "sideB": "Donare",
             "ideasA": [
@@ -1655,21 +1655,21 @@
     },
     {
         "id": "it_intermediate_social_018",
-        "word": "Fama o fare la differenza in silenzio — quale è l'obiettivo migliore nella vita?",
+        "word": "Fama o fare la differenza in silenzio: quale è l'obiettivo migliore nella vita?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fama o fare la differenza in silenzio — quale è l'obiettivo migliore nella vita?",
+                "text": "Fama o fare la differenza in silenzio: quale è l'obiettivo migliore nella vita?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Fama o fare la differenza in silenzio — quale è l'obiettivo migliore nella vita?",
+            "topic": "Fama o fare la differenza in silenzio: quale è l'obiettivo migliore nella vita?",
             "sideA": "Fama",
             "sideB": "Differenza silenziosa",
             "ideasA": [
@@ -1684,21 +1684,21 @@
     },
     {
         "id": "it_intermediate_social_019",
-        "word": "Seguire le regole o pensare con la propria testa — cosa conta di più?",
+        "word": "Seguire le regole o pensare con la propria testa: cosa conta di più?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Seguire le regole o pensare con la propria testa — cosa conta di più?",
+                "text": "Seguire le regole o pensare con la propria testa: cosa conta di più?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Seguire le regole o pensare con la propria testa — cosa conta di più?",
+            "topic": "Seguire le regole o pensare con la propria testa: cosa conta di più?",
             "sideA": "Regole",
             "sideB": "Pensiero proprio",
             "ideasA": [
@@ -1713,21 +1713,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_006",
-        "word": "Salute fisica o salute mentale — quale dovrebbe essere la priorità?",
+        "word": "Salute fisica o salute mentale: quale dovrebbe essere la priorità?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Salute fisica o salute mentale — quale dovrebbe essere la priorità?",
+                "text": "Salute fisica o salute mentale: quale dovrebbe essere la priorità?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Salute fisica o salute mentale — quale dovrebbe essere la priorità?",
+            "topic": "Salute fisica o salute mentale: quale dovrebbe essere la priorità?",
             "sideA": "Fisica",
             "sideB": "Mentale",
             "ideasA": [
@@ -1742,21 +1742,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_007",
-        "word": "Prevenzione o cura — quale è l'approccio migliore alla sanità?",
+        "word": "Prevenzione o cura: quale è l'approccio migliore alla sanità?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Prevenzione o cura — quale è l'approccio migliore alla sanità?",
+                "text": "Prevenzione o cura: quale è l'approccio migliore alla sanità?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Prevenzione o cura — quale è l'approccio migliore alla sanità?",
+            "topic": "Prevenzione o cura: quale è l'approccio migliore alla sanità?",
             "sideA": "Prevenzione",
             "sideB": "Cura",
             "ideasA": [
@@ -1771,21 +1771,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_008",
-        "word": "Sport competitivo o esercizio fisico per divertimento — cosa è meglio per te?",
+        "word": "Sport competitivo o esercizio fisico per divertimento: cosa è meglio per te?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sport competitivo o esercizio fisico per divertimento — cosa è meglio per te?",
+                "text": "Sport competitivo o esercizio fisico per divertimento: cosa è meglio per te?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Sport competitivo o esercizio fisico per divertimento — cosa è meglio per te?",
+            "topic": "Sport competitivo o esercizio fisico per divertimento: cosa è meglio per te?",
             "sideA": "Competitivo",
             "sideB": "Divertimento",
             "ideasA": [
@@ -1800,21 +1800,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_009",
-        "word": "Sanità privata o sanità pubblica — quale sistema è più equo?",
+        "word": "Sanità privata o sanità pubblica: quale sistema è più equo?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sanità privata o sanità pubblica — quale sistema è più equo?",
+                "text": "Sanità privata o sanità pubblica: quale sistema è più equo?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Sanità privata o sanità pubblica — quale sistema è più equo?",
+            "topic": "Sanità privata o sanità pubblica: quale sistema è più equo?",
             "sideA": "Privata",
             "sideB": "Pubblica",
             "ideasA": [
@@ -1829,21 +1829,21 @@
     },
     {
         "id": "it_intermediate_language_001",
-        "word": "Cinema o letteratura — quale è una forma d'arte più potente?",
+        "word": "Cinema o letteratura: quale è una forma d'arte più potente?",
         "lang": "it",
         "level": "intermediate",
         "theme": "language",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cinema o letteratura — quale è una forma d'arte più potente?",
+                "text": "Cinema o letteratura: quale è una forma d'arte più potente?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Cinema o letteratura — quale è una forma d'arte più potente?",
+            "topic": "Cinema o letteratura: quale è una forma d'arte più potente?",
             "sideA": "Cinema",
             "sideB": "Letteratura",
             "ideasA": [
@@ -1858,21 +1858,21 @@
     },
     {
         "id": "it_intermediate_language_002",
-        "word": "Arte moderna o arte classica — cosa è più prezioso?",
+        "word": "Arte moderna o arte classica: cosa è più prezioso?",
         "lang": "it",
         "level": "intermediate",
         "theme": "language",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Arte moderna o arte classica — cosa è più prezioso?",
+                "text": "Arte moderna o arte classica: cosa è più prezioso?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Arte moderna o arte classica — cosa è più prezioso?",
+            "topic": "Arte moderna o arte classica: cosa è più prezioso?",
             "sideA": "Moderna",
             "sideB": "Classica",
             "ideasA": [
@@ -1887,21 +1887,21 @@
     },
     {
         "id": "it_intermediate_language_003",
-        "word": "Preservare i vecchi edifici o costruirne di nuovi — cosa conta di più?",
+        "word": "Preservare i vecchi edifici o costruirne di nuovi: cosa conta di più?",
         "lang": "it",
         "level": "intermediate",
         "theme": "language",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Preservare i vecchi edifici o costruirne di nuovi — cosa conta di più?",
+                "text": "Preservare i vecchi edifici o costruirne di nuovi: cosa conta di più?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Preservare i vecchi edifici o costruirne di nuovi — cosa conta di più?",
+            "topic": "Preservare i vecchi edifici o costruirne di nuovi: cosa conta di più?",
             "sideA": "Preservare",
             "sideB": "Costruire",
             "ideasA": [
@@ -1916,21 +1916,21 @@
     },
     {
         "id": "it_intermediate_social_020",
-        "word": "Cultura locale o globalizzazione — cosa arricchisce di più le comunità?",
+        "word": "Cultura locale o globalizzazione: cosa arricchisce di più le comunità?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cultura locale o globalizzazione — cosa arricchisce di più le comunità?",
+                "text": "Cultura locale o globalizzazione: cosa arricchisce di più le comunità?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Cultura locale o globalizzazione — cosa arricchisce di più le comunità?",
+            "topic": "Cultura locale o globalizzazione: cosa arricchisce di più le comunità?",
             "sideA": "Locale",
             "sideB": "Globalizzazione",
             "ideasA": [
@@ -1945,21 +1945,21 @@
     },
     {
         "id": "it_intermediate_jobs_022",
-        "word": "Imparare dai propri errori vs imparare dai propri successi — cosa insegna di più?",
+        "word": "Imparare dai propri errori vs imparare dai propri successi: cosa insegna di più?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Imparare dai propri errori vs imparare dai propri successi — cosa insegna di più?",
+                "text": "Imparare dai propri errori vs imparare dai propri successi: cosa insegna di più?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Imparare dai propri errori vs imparare dai propri successi — cosa insegna di più?",
+            "topic": "Imparare dai propri errori vs imparare dai propri successi: cosa insegna di più?",
             "sideA": "Errori",
             "sideB": "Successi",
             "ideasA": [
@@ -1974,21 +1974,21 @@
     },
     {
         "id": "it_intermediate_jobs_023",
-        "word": "Tablet in classe vs quaderni tradizionali — cosa aiuta di più gli studenti?",
+        "word": "Tablet in classe vs quaderni tradizionali: cosa aiuta di più gli studenti?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Tablet in classe vs quaderni tradizionali — cosa aiuta di più gli studenti?",
+                "text": "Tablet in classe vs quaderni tradizionali: cosa aiuta di più gli studenti?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Tablet in classe vs quaderni tradizionali — cosa aiuta di più gli studenti?",
+            "topic": "Tablet in classe vs quaderni tradizionali: cosa aiuta di più gli studenti?",
             "sideA": "Tablet",
             "sideB": "Quaderni",
             "ideasA": [
@@ -2003,21 +2003,21 @@
     },
     {
         "id": "it_intermediate_technology_003",
-        "word": "Essere sempre rintracciabili vs avere tempo libero digitale — cosa è meglio?",
+        "word": "Essere sempre rintracciabili vs avere tempo libero digitale: cosa è meglio?",
         "lang": "it",
         "level": "intermediate",
         "theme": "technology",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Essere sempre rintracciabili vs avere tempo libero digitale — cosa è meglio?",
+                "text": "Essere sempre rintracciabili vs avere tempo libero digitale: cosa è meglio?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Essere sempre rintracciabili vs avere tempo libero digitale — cosa è meglio?",
+            "topic": "Essere sempre rintracciabili vs avere tempo libero digitale: cosa è meglio?",
             "sideA": "Sempre rintracciabili",
             "sideB": "Tempo libero",
             "ideasA": [
@@ -2032,21 +2032,21 @@
     },
     {
         "id": "it_intermediate_environment_006",
-        "word": "Riutilizzare le cose vs riciclare — cosa è più efficace?",
+        "word": "Riutilizzare le cose vs riciclare: cosa è più efficace?",
         "lang": "it",
         "level": "intermediate",
         "theme": "environment",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Riutilizzare le cose vs riciclare — cosa è più efficace?",
+                "text": "Riutilizzare le cose vs riciclare: cosa è più efficace?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Riutilizzare le cose vs riciclare — cosa è più efficace?",
+            "topic": "Riutilizzare le cose vs riciclare: cosa è più efficace?",
             "sideA": "Riutilizzare",
             "sideB": "Riciclare",
             "ideasA": [
@@ -2061,21 +2061,21 @@
     },
     {
         "id": "it_intermediate_jobs_024",
-        "word": "Una sola carriera per tutta la vita vs cambiare spesso carriera — cosa è meglio?",
+        "word": "Una sola carriera per tutta la vita vs cambiare spesso carriera: cosa è meglio?",
         "lang": "it",
         "level": "intermediate",
         "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Una sola carriera per tutta la vita vs cambiare spesso carriera — cosa è meglio?",
+                "text": "Una sola carriera per tutta la vita vs cambiare spesso carriera: cosa è meglio?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Una sola carriera per tutta la vita vs cambiare spesso carriera — cosa è meglio?",
+            "topic": "Una sola carriera per tutta la vita vs cambiare spesso carriera: cosa è meglio?",
             "sideA": "Una carriera",
             "sideB": "Cambiare spesso",
             "ideasA": [
@@ -2090,21 +2090,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_010",
-        "word": "Dormire vs fare esercizio — cosa ha un impatto maggiore sulla tua salute?",
+        "word": "Dormire vs fare esercizio: cosa ha un impatto maggiore sulla tua salute?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dormire vs fare esercizio — cosa ha un impatto maggiore sulla tua salute?",
+                "text": "Dormire vs fare esercizio: cosa ha un impatto maggiore sulla tua salute?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Dormire vs fare esercizio — cosa ha un impatto maggiore sulla tua salute?",
+            "topic": "Dormire vs fare esercizio: cosa ha un impatto maggiore sulla tua salute?",
             "sideA": "Dormire",
             "sideB": "Esercizio",
             "ideasA": [
@@ -2119,21 +2119,21 @@
     },
     {
         "id": "it_intermediate_language_004",
-        "word": "Musica pop vs musica classica — quale ha un impatto culturale maggiore?",
+        "word": "Musica pop vs musica classica: quale ha un impatto culturale maggiore?",
         "lang": "it",
         "level": "intermediate",
         "theme": "language",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Musica pop vs musica classica — quale ha un impatto culturale maggiore?",
+                "text": "Musica pop vs musica classica: quale ha un impatto culturale maggiore?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Musica pop vs musica classica — quale ha un impatto culturale maggiore?",
+            "topic": "Musica pop vs musica classica: quale ha un impatto culturale maggiore?",
             "sideA": "Pop",
             "sideB": "Classica",
             "ideasA": [
@@ -2148,21 +2148,21 @@
     },
     {
         "id": "it_intermediate_language_005",
-        "word": "Sapere come finisce qualcosa vs essere sorpresi — cosa è meglio?",
+        "word": "Sapere come finisce qualcosa vs essere sorpresi: cosa è meglio?",
         "lang": "it",
         "level": "intermediate",
         "theme": "language",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sapere come finisce qualcosa vs essere sorpresi — cosa è meglio?",
+                "text": "Sapere come finisce qualcosa vs essere sorpresi: cosa è meglio?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Sapere come finisce qualcosa vs essere sorpresi — cosa è meglio?",
+            "topic": "Sapere come finisce qualcosa vs essere sorpresi: cosa è meglio?",
             "sideA": "Sapere",
             "sideB": "Sorpresi",
             "ideasA": [
@@ -2177,21 +2177,21 @@
     },
     {
         "id": "it_intermediate_social_021",
-        "word": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo — cosa è più rispettoso?",
+        "word": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo: cosa è più rispettoso?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo — cosa è più rispettoso?",
+                "text": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo: cosa è più rispettoso?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo — cosa è più rispettoso?",
+            "topic": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo: cosa è più rispettoso?",
             "sideA": "Immediatamente",
             "sideB": "Prendersi tempo",
             "ideasA": [
@@ -2206,21 +2206,21 @@
     },
     {
         "id": "it_intermediate_language_006",
-        "word": "Binge-watching vs guardare un episodio a settimana — quale è il modo giusto?",
+        "word": "Binge-watching vs guardare un episodio a settimana: quale è il modo giusto?",
         "lang": "it",
         "level": "intermediate",
         "theme": "language",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Binge-watching vs guardare un episodio a settimana — quale è il modo giusto?",
+                "text": "Binge-watching vs guardare un episodio a settimana: quale è il modo giusto?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Binge-watching vs guardare un episodio a settimana — quale è il modo giusto?",
+            "topic": "Binge-watching vs guardare un episodio a settimana: quale è il modo giusto?",
             "sideA": "Binge-watching",
             "sideB": "Settimanale",
             "ideasA": [
@@ -2235,21 +2235,21 @@
     },
     {
         "id": "it_intermediate_travel_003",
-        "word": "Posto finestrino vs posto corridoio — quale è oggettivamente migliore?",
+        "word": "Posto finestrino vs posto corridoio: quale è oggettivamente migliore?",
         "lang": "it",
         "level": "intermediate",
         "theme": "travel",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Posto finestrino vs posto corridoio — quale è oggettivamente migliore?",
+                "text": "Posto finestrino vs posto corridoio: quale è oggettivamente migliore?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Posto finestrino vs posto corridoio — quale è oggettivamente migliore?",
+            "topic": "Posto finestrino vs posto corridoio: quale è oggettivamente migliore?",
             "sideA": "Finestrino",
             "sideB": "Corridoio",
             "ideasA": [
@@ -2264,21 +2264,21 @@
     },
     {
         "id": "it_intermediate_health_medicine_011",
-        "word": "Saltare la palestra una volta vs andare e fare una brutta sessione — cosa è peggio?",
+        "word": "Saltare la palestra una volta vs andare e fare una brutta sessione: cosa è peggio?",
         "lang": "it",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Saltare la palestra una volta vs andare e fare una brutta sessione — cosa è peggio?",
+                "text": "Saltare la palestra una volta vs andare e fare una brutta sessione: cosa è peggio?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Saltare la palestra una volta vs andare e fare una brutta sessione — cosa è peggio?",
+            "topic": "Saltare la palestra una volta vs andare e fare una brutta sessione: cosa è peggio?",
             "sideA": "Saltare",
             "sideB": "Brutta sessione",
             "ideasA": [
@@ -2293,21 +2293,21 @@
     },
     {
         "id": "it_intermediate_social_022",
-        "word": "Parlare con se stessi vs parlare con il proprio animale — cosa è più ragionevole?",
+        "word": "Parlare con se stessi vs parlare con il proprio animale: cosa è più ragionevole?",
         "lang": "it",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Parlare con se stessi vs parlare con il proprio animale — cosa è più ragionevole?",
+                "text": "Parlare con se stessi vs parlare con il proprio animale: cosa è più ragionevole?",
                 "examples": []
             }
         ],
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "topic": "Parlare con se stessi vs parlare con il proprio animale — cosa è più ragionevole?",
+            "topic": "Parlare con se stessi vs parlare con il proprio animale: cosa è più ragionevole?",
             "sideA": "Con se stessi",
             "sideB": "Con l'animale",
             "ideasA": [

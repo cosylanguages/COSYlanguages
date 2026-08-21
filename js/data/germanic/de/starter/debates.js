@@ -1,7 +1,7 @@
 (function() {
     const data = [
         {
-                "topic": "Kaffee vs. Tee — welches morgendliche Getränk ist besser?",
+                "topic": "Kaffee vs. Tee: welches morgendliche Getränk ist besser?",
                 "sideA": "Kaffee",
                 "sideB": "Tee",
                 "level": "starter",
@@ -16,11 +16,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Kaffee vs. Tee — welches morgendliche Getränk ist besser?",
+                "word": "Kaffee vs. Tee: welches morgendliche Getränk ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Kaffee vs. Tee — welches morgendliche Getränk ist besser?",
+                                "text": "Kaffee vs. Tee: welches morgendliche Getränk ist besser?",
                                 "examples": [
                                         "Energie",
                                         "Riecht toll",
@@ -33,7 +33,7 @@
                 "id": "de_starter_food_drink_001"
         },
         {
-                "topic": "Restaurant vs. Kochen zu Hause — was ist besser?",
+                "topic": "Restaurant vs. Kochen zu Hause: was ist besser?",
                 "sideA": "Restaurant",
                 "sideB": "Kochen zu Hause",
                 "level": "starter",
@@ -48,11 +48,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Restaurant vs. Kochen zu Hause — was ist besser?",
+                "word": "Restaurant vs. Kochen zu Hause: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Restaurant vs. Kochen zu Hause — was ist besser?",
+                                "text": "Restaurant vs. Kochen zu Hause: was ist besser?",
                                 "examples": [
                                         "Kein Abwasch",
                                         "Professionelle Köche",
@@ -65,7 +65,7 @@
                 "id": "de_starter_food_drink_002"
         },
         {
-                "topic": "Sommer vs. Winter — welche Jahreszeit ist besser?",
+                "topic": "Sommer vs. Winter: welche Jahreszeit ist besser?",
                 "sideA": "Sommer",
                 "sideB": "Winter",
                 "level": "starter",
@@ -80,11 +80,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Sommer vs. Winter — welche Jahreszeit ist besser?",
+                "word": "Sommer vs. Winter: welche Jahreszeit ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Sommer vs. Winter — welche Jahreszeit ist besser?",
+                                "text": "Sommer vs. Winter: welche Jahreszeit ist besser?",
                                 "examples": [
                                         "Sonnig",
                                         "Strand",
@@ -97,7 +97,7 @@
                 "id": "de_starter_nature_001"
         },
         {
-                "topic": "Buch vs. Film — was ist besser?",
+                "topic": "Buch vs. Film: was ist besser?",
                 "sideA": "Buch",
                 "sideB": "Film",
                 "level": "starter",
@@ -112,11 +112,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Buch vs. Film — was ist besser?",
+                "word": "Buch vs. Film: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Buch vs. Film — was ist besser?",
+                                "text": "Buch vs. Film: was ist besser?",
                                 "examples": [
                                         "Fantasie nutzen",
                                         "Viele Dinge lernen",
@@ -129,7 +129,7 @@
                 "id": "de_starter_social_001"
         },
         {
-                "topic": "Fahrrad vs. Auto — was ist besser für die Stadt?",
+                "topic": "Fahrrad vs. Auto: was ist besser für die Stadt?",
                 "sideA": "Fahrrad",
                 "sideB": "Auto",
                 "level": "starter",
@@ -144,11 +144,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Fahrrad vs. Auto — was ist besser für die Stadt?",
+                "word": "Fahrrad vs. Auto: was ist besser für die Stadt?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Fahrrad vs. Auto — was ist besser für die Stadt?",
+                                "text": "Fahrrad vs. Auto: was ist besser für die Stadt?",
                                 "examples": [
                                         "Gut für den Körper",
                                         "Es ist kostenlos",
@@ -161,7 +161,7 @@
                 "id": "de_starter_travel_001"
         },
         {
-                "topic": "Pizza vs. Burger — was ist besser?",
+                "topic": "Pizza vs. Burger: was ist besser?",
                 "sideA": "Pizza",
                 "sideB": "Burger",
                 "level": "starter",
@@ -176,11 +176,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Pizza vs. Burger — was ist besser?",
+                "word": "Pizza vs. Burger: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Pizza vs. Burger — was ist besser?",
+                                "text": "Pizza vs. Burger: was ist besser?",
                                 "examples": [
                                         "Man kann sie teilen",
                                         "Viel Käse",
@@ -193,7 +193,7 @@
                 "id": "de_starter_food_drink_003"
         },
         {
-                "topic": "Stadt vs. Land — wo lässt es sich besser leben?",
+                "topic": "Stadt vs. Land: wo lässt es sich besser leben?",
                 "sideA": "Stadt",
                 "sideB": "Land",
                 "level": "starter",
@@ -208,11 +208,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Stadt vs. Land — wo lässt es sich besser leben?",
+                "word": "Stadt vs. Land: wo lässt es sich besser leben?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Stadt vs. Land — wo lässt es sich besser leben?",
+                                "text": "Stadt vs. Land: wo lässt es sich besser leben?",
                                 "examples": [
                                         "Viele Geschäfte",
                                         "Nachts ausgehen",
@@ -225,7 +225,7 @@
                 "id": "de_starter_furniture_001"
         },
         {
-                "topic": "Morgen vs. Abend — welche Tageszeit ist schöner?",
+                "topic": "Morgen vs. Abend: welche Tageszeit ist schöner?",
                 "sideA": "Morgen",
                 "sideB": "Abend",
                 "level": "starter",
@@ -240,11 +240,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Morgen vs. Abend — welche Tageszeit ist schöner?",
+                "word": "Morgen vs. Abend: welche Tageszeit ist schöner?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Morgen vs. Abend — welche Tageszeit ist schöner?",
+                                "text": "Morgen vs. Abend: welche Tageszeit ist schöner?",
                                 "examples": [
                                         "Viel Energie",
                                         "Sonnenaufgang",
@@ -257,7 +257,7 @@
                 "id": "de_starter_time_001"
         },
         {
-                "topic": "Zug vs. Flugzeug — was ist besser zum Reisen?",
+                "topic": "Zug vs. Flugzeug: was ist besser zum Reisen?",
                 "sideA": "Zug",
                 "sideB": "Flugzeug",
                 "level": "starter",
@@ -272,11 +272,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Zug vs. Flugzeug — was ist besser zum Reisen?",
+                "word": "Zug vs. Flugzeug: was ist besser zum Reisen?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Zug vs. Flugzeug — was ist besser zum Reisen?",
+                                "text": "Zug vs. Flugzeug: was ist besser zum Reisen?",
                                 "examples": [
                                         "Aussicht genießen",
                                         "Besser für die Natur",
@@ -289,7 +289,7 @@
                 "id": "de_starter_travel_002"
         },
         {
-                "topic": "Meer vs. Berge — was ist besser für den Urlaub?",
+                "topic": "Meer vs. Berge: was ist besser für den Urlaub?",
                 "sideA": "Meer",
                 "sideB": "Berge",
                 "level": "starter",
@@ -304,11 +304,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Meer vs. Berge — was ist besser für den Urlaub?",
+                "word": "Meer vs. Berge: was ist besser für den Urlaub?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Meer vs. Berge — was ist besser für den Urlaub?",
+                                "text": "Meer vs. Berge: was ist besser für den Urlaub?",
                                 "examples": [
                                         "Schwimmen",
                                         "Sonne",
@@ -321,7 +321,7 @@
                 "id": "de_starter_travel_003"
         },
         {
-                "topic": "Alleine arbeiten vs. Partnerarbeit — was ist besser?",
+                "topic": "Alleine arbeiten vs. Partnerarbeit: was ist besser?",
                 "sideA": "Alleine",
                 "sideB": "Partner",
                 "level": "starter",
@@ -336,11 +336,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Alleine arbeiten vs. Partnerarbeit — was ist besser?",
+                "word": "Alleine arbeiten vs. Partnerarbeit: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Alleine arbeiten vs. Partnerarbeit — was ist besser?",
+                                "text": "Alleine arbeiten vs. Partnerarbeit: was ist besser?",
                                 "examples": [
                                         "Besser konzentrieren",
                                         "Geht schneller",
@@ -353,7 +353,7 @@
                 "id": "de_starter_work_001"
         },
         {
-                "topic": "Anruf vs. Textnachricht — was ist besser?",
+                "topic": "Anruf vs. Textnachricht: was ist besser?",
                 "sideA": "Anruf",
                 "sideB": "Nachricht",
                 "level": "starter",
@@ -368,11 +368,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Anruf vs. Textnachricht — was ist besser?",
+                "word": "Anruf vs. Textnachricht: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Anruf vs. Textnachricht — was ist besser?",
+                                "text": "Anruf vs. Textnachricht: was ist besser?",
                                 "examples": [
                                         "Direkter",
                                         "Die Stimme hören",
@@ -385,7 +385,7 @@
                 "id": "de_starter_technology_001"
         },
         {
-                "topic": "Bequeme Kleidung vs. schicke Kleidung — was ist besser?",
+                "topic": "Bequeme Kleidung vs. schicke Kleidung: was ist besser?",
                 "sideA": "Bequem",
                 "sideB": "Schick",
                 "level": "starter",
@@ -400,11 +400,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Bequeme Kleidung vs. schicke Kleidung — was ist besser?",
+                "word": "Bequeme Kleidung vs. schicke Kleidung: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Bequeme Kleidung vs. schicke Kleidung — was ist besser?",
+                                "text": "Bequeme Kleidung vs. schicke Kleidung: was ist besser?",
                                 "examples": [
                                         "Sich gut fühlen",
                                         "Praktisch",
@@ -417,7 +417,7 @@
                 "id": "de_starter_clothes_001"
         },
         {
-                "topic": "Zucker vs. Salz — was ist wichtiger?",
+                "topic": "Zucker vs. Salz: was ist wichtiger?",
                 "sideA": "Zucker",
                 "sideB": "Salz",
                 "level": "starter",
@@ -432,11 +432,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Zucker vs. Salz — was ist wichtiger?",
+                "word": "Zucker vs. Salz: was ist wichtiger?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Zucker vs. Salz — was ist wichtiger?",
+                                "text": "Zucker vs. Salz: was ist wichtiger?",
                                 "examples": [
                                         "Für Nachtisch",
                                         "Jeder liebt Schokolade",
@@ -449,7 +449,7 @@
                 "id": "de_starter_food_drink_004"
         },
         {
-                "topic": "Große Partys vs. kleine Abendessen — was ist besser?",
+                "topic": "Große Partys vs. kleine Abendessen: was ist besser?",
                 "sideA": "Große Partys",
                 "sideB": "Kleine Essen",
                 "level": "starter",
@@ -464,11 +464,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Große Partys vs. kleine Abendessen — was ist besser?",
+                "word": "Große Partys vs. kleine Abendessen: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Große Partys vs. kleine Abendessen — was ist besser?",
+                                "text": "Große Partys vs. kleine Abendessen: was ist besser?",
                                 "examples": [
                                         "Neue Leute treffen",
                                         "Laute Musik",
@@ -481,7 +481,7 @@
                 "id": "de_starter_social_002"
         },
         {
-                "topic": "Haus vs. Wohnung — was ist besser zum Wohnen?",
+                "topic": "Haus vs. Wohnung: was ist besser zum Wohnen?",
                 "sideA": "Haus",
                 "sideB": "Wohnung",
                 "level": "starter",
@@ -496,11 +496,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Haus vs. Wohnung — was ist besser zum Wohnen?",
+                "word": "Haus vs. Wohnung: was ist besser zum Wohnen?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Haus vs. Wohnung — was ist besser zum Wohnen?",
+                                "text": "Haus vs. Wohnung: was ist besser zum Wohnen?",
                                 "examples": [
                                         "Garten",
                                         "Platz",
@@ -513,7 +513,7 @@
                 "id": "de_starter_furniture_002"
         },
         {
-                "topic": "Geld vs. Freizeit — was ist wichtiger?",
+                "topic": "Geld vs. Freizeit: was ist wichtiger?",
                 "sideA": "Geld",
                 "sideB": "Freizeit",
                 "level": "starter",
@@ -528,11 +528,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Geld vs. Freizeit — was ist wichtiger?",
+                "word": "Geld vs. Freizeit: was ist wichtiger?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Geld vs. Freizeit — was ist wichtiger?",
+                                "text": "Geld vs. Freizeit: was ist wichtiger?",
                                 "examples": [
                                         "Kann Dinge kaufen",
                                         "Es gibt Sicherheit",
@@ -545,7 +545,7 @@
                 "id": "de_starter_social_003"
         },
         {
-                "topic": "Zartbitterschokolade vs. Vollmilchschokolade — was ist besser?",
+                "topic": "Zartbitterschokolade vs. Vollmilchschokolade: was ist besser?",
                 "sideA": "Zartbitter",
                 "sideB": "Vollmilch",
                 "level": "starter",
@@ -560,11 +560,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Zartbitterschokolade vs. Vollmilchschokolade — was ist besser?",
+                "word": "Zartbitterschokolade vs. Vollmilchschokolade: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Zartbitterschokolade vs. Vollmilchschokolade — was ist besser?",
+                                "text": "Zartbitterschokolade vs. Vollmilchschokolade: was ist besser?",
                                 "examples": [
                                         "Gut für das Herz",
                                         "Weniger Zucker",
@@ -577,7 +577,7 @@
                 "id": "de_starter_food_drink_005"
         },
         {
-                "topic": "Kino vs. Netflix zu Hause — was ist besser?",
+                "topic": "Kino vs. Netflix zu Hause: was ist besser?",
                 "sideA": "Kino",
                 "sideB": "Netflix",
                 "level": "starter",
@@ -592,11 +592,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Kino vs. Netflix zu Hause — was ist besser?",
+                "word": "Kino vs. Netflix zu Hause: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Kino vs. Netflix zu Hause — was ist besser?",
+                                "text": "Kino vs. Netflix zu Hause: was ist besser?",
                                 "examples": [
                                         "Große Leinwand",
                                         "Der Sound ist toll",
@@ -609,7 +609,7 @@
                 "id": "de_starter_social_004"
         },
         {
-                "topic": "Alleine reisen vs. Reisen mit Freunden — was ist besser?",
+                "topic": "Alleine reisen vs. Reisen mit Freunden: was ist besser?",
                 "sideA": "Alleine",
                 "sideB": "Freunde",
                 "level": "starter",
@@ -624,11 +624,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Alleine reisen vs. Reisen mit Freunden — was ist besser?",
+                "word": "Alleine reisen vs. Reisen mit Freunden: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Alleine reisen vs. Reisen mit Freunden — was ist besser?",
+                                "text": "Alleine reisen vs. Reisen mit Freunden: was ist besser?",
                                 "examples": [
                                         "Man wählt alles",
                                         "Mehr Leute treffen",
@@ -641,7 +641,7 @@
                 "id": "de_starter_travel_004"
         },
         {
-                "topic": "Podcasts vs. Musik — was ist besser im Auto?",
+                "topic": "Podcasts vs. Musik: was ist besser im Auto?",
                 "sideA": "Podcasts",
                 "sideB": "Musik",
                 "level": "starter",
@@ -656,11 +656,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Podcasts vs. Musik — was ist besser im Auto?",
+                "word": "Podcasts vs. Musik: was ist besser im Auto?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Podcasts vs. Musik — was ist besser im Auto?",
+                                "text": "Podcasts vs. Musik: was ist besser im Auto?",
                                 "examples": [
                                         "Dinge lernen",
                                         "Interessante Geschichten",
@@ -673,7 +673,7 @@
                 "id": "de_starter_social_005"
         },
         {
-                "topic": "Regen vs. Wind — was ist schlimmer?",
+                "topic": "Regen vs. Wind: was ist schlimmer?",
                 "sideA": "Regen",
                 "sideB": "Wind",
                 "level": "starter",
@@ -688,11 +688,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Regen vs. Wind — was ist schlimmer?",
+                "word": "Regen vs. Wind: was ist schlimmer?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Regen vs. Wind — was ist schlimmer?",
+                                "text": "Regen vs. Wind: was ist schlimmer?",
                                 "examples": [
                                         "Alles ist nass",
                                         "Traurige Stimmung",
@@ -705,7 +705,7 @@
                 "id": "de_starter_nature_002"
         },
         {
-                "topic": "Überraschungsgeschenk vs. Geschenk aussuchen — was ist besser?",
+                "topic": "Überraschungsgeschenk vs. Geschenk aussuchen: was ist besser?",
                 "sideA": "Überraschung",
                 "sideB": "Aussuchen",
                 "level": "starter",
@@ -720,11 +720,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Überraschungsgeschenk vs. Geschenk aussuchen — was ist besser?",
+                "word": "Überraschungsgeschenk vs. Geschenk aussuchen: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Überraschungsgeschenk vs. Geschenk aussuchen — was ist besser?",
+                                "text": "Überraschungsgeschenk vs. Geschenk aussuchen: was ist besser?",
                                 "examples": [
                                         "Starke Emotion",
                                         "Es ist nett",
@@ -737,7 +737,7 @@
                 "id": "de_starter_social_006"
         },
         {
-                "topic": "Auf Papier schreiben vs. Tablet schreiben — was ist besser?",
+                "topic": "Auf Papier schreiben vs. Tablet schreiben: was ist besser?",
                 "sideA": "Papier",
                 "sideB": "Tablet",
                 "level": "starter",
@@ -752,11 +752,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Auf Papier schreiben vs. Tablet schreiben — was ist besser?",
+                "word": "Auf Papier schreiben vs. Tablet schreiben: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Auf Papier schreiben vs. Tablet schreiben — was ist besser?",
+                                "text": "Auf Papier schreiben vs. Tablet schreiben: was ist besser?",
                                 "examples": [
                                         "Keine Batterie",
                                         "Gutes Gefühl",
@@ -769,7 +769,7 @@
                 "id": "de_starter_technology_002"
         },
         {
-                "topic": "Sandwich vs. Salat — was ist besser zum Mittagessen?",
+                "topic": "Sandwich vs. Salat: was ist besser zum Mittagessen?",
                 "sideA": "Sandwich",
                 "sideB": "Salat",
                 "level": "starter",
@@ -784,11 +784,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Sandwich vs. Salat — was ist besser zum Mittagessen?",
+                "word": "Sandwich vs. Salat: was ist besser zum Mittagessen?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Sandwich vs. Salat — was ist besser zum Mittagessen?",
+                                "text": "Sandwich vs. Salat: was ist besser zum Mittagessen?",
                                 "examples": [
                                         "Einfach mitzunehmen",
                                         "Voller Magen",
@@ -801,7 +801,7 @@
                 "id": "de_starter_food_drink_006"
         },
         {
-                "topic": "Hotel vs. Camping — was ist besser für den Urlaub?",
+                "topic": "Hotel vs. Camping: was ist besser für den Urlaub?",
                 "sideA": "Hotel",
                 "sideB": "Camping",
                 "level": "starter",
@@ -816,11 +816,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Hotel vs. Camping — was ist besser für den Urlaub?",
+                "word": "Hotel vs. Camping: was ist besser für den Urlaub?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Hotel vs. Camping — was ist besser für den Urlaub?",
+                                "text": "Hotel vs. Camping: was ist besser für den Urlaub?",
                                 "examples": [
                                         "Bequem",
                                         "Hat Frühstück",
@@ -833,7 +833,7 @@
                 "id": "de_starter_travel_005"
         },
         {
-                "topic": "Sprechen vs. Zuhören — was ist wichtiger?",
+                "topic": "Sprechen vs. Zuhören: was ist wichtiger?",
                 "sideA": "Sprechen",
                 "sideB": "Zuhören",
                 "level": "starter",
@@ -848,11 +848,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Sprechen vs. Zuhören — was ist wichtiger?",
+                "word": "Sprechen vs. Zuhören: was ist wichtiger?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Sprechen vs. Zuhören — was ist wichtiger?",
+                                "text": "Sprechen vs. Zuhören: was ist wichtiger?",
                                 "examples": [
                                         "Ideen teilen",
                                         "Wichtig als Anführer",
@@ -865,7 +865,7 @@
                 "id": "de_starter_work_002"
         },
         {
-                "topic": "Frühling vs. Herbst — was ist besser?",
+                "topic": "Frühling vs. Herbst: was ist besser?",
                 "sideA": "Frühling",
                 "sideB": "Herbst",
                 "level": "starter",
@@ -880,11 +880,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Frühling vs. Herbst — was ist besser?",
+                "word": "Frühling vs. Herbst: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Frühling vs. Herbst — was ist besser?",
+                                "text": "Frühling vs. Herbst: was ist besser?",
                                 "examples": [
                                         "Blumen wachsen",
                                         "Wärmeres Wetter",
@@ -897,7 +897,7 @@
                 "id": "de_starter_nature_003"
         },
         {
-                "topic": "Obst vs. Gemüse — was ist besser?",
+                "topic": "Obst vs. Gemüse: was ist besser?",
                 "sideA": "Obst",
                 "sideB": "Gemüse",
                 "level": "starter",
@@ -912,11 +912,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Obst vs. Gemüse — was ist besser?",
+                "word": "Obst vs. Gemüse: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Obst vs. Gemüse — was ist besser?",
+                                "text": "Obst vs. Gemüse: was ist besser?",
                                 "examples": [
                                         "Sie sind süß",
                                         "Toll als Snack",
@@ -929,7 +929,7 @@
                 "id": "de_starter_food_drink_007"
         },
         {
-                "topic": "Actionfilme vs. Komödien — was ist besser?",
+                "topic": "Actionfilme vs. Komödien: was ist besser?",
                 "sideA": "Action",
                 "sideB": "Komödie",
                 "level": "starter",
@@ -944,11 +944,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Actionfilme vs. Komödien — was ist besser?",
+                "word": "Actionfilme vs. Komödien: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Actionfilme vs. Komödien — was ist besser?",
+                                "text": "Actionfilme vs. Komödien: was ist besser?",
                                 "examples": [
                                         "Aufregend und schnell",
                                         "Coole Effekte",
@@ -961,7 +961,7 @@
                 "id": "de_starter_social_007"
         },
         {
-                "topic": "Geschirr spülen vs. Staubsaugen — was ist besser?",
+                "topic": "Geschirr spülen vs. Staubsaugen: was ist besser?",
                 "sideA": "Spülen",
                 "sideB": "Saugen",
                 "level": "starter",
@@ -976,11 +976,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Geschirr spülen vs. Staubsaugen — was ist besser?",
+                "word": "Geschirr spülen vs. Staubsaugen: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Geschirr spülen vs. Staubsaugen — was ist besser?",
+                                "text": "Geschirr spülen vs. Staubsaugen: was ist besser?",
                                 "examples": [
                                         "Warmes Wasser ist schön",
                                         "Ruhige Arbeit",
@@ -993,7 +993,7 @@
                 "id": "de_starter_furniture_003"
         },
         {
-                "topic": "Popmusik vs. Rockmusik — was ist besser?",
+                "topic": "Popmusik vs. Rockmusik: was ist besser?",
                 "sideA": "Pop",
                 "sideB": "Rock",
                 "level": "starter",
@@ -1008,11 +1008,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Popmusik vs. Rockmusik — was ist besser?",
+                "word": "Popmusik vs. Rockmusik: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Popmusik vs. Rockmusik — was ist besser?",
+                                "text": "Popmusik vs. Rockmusik: was ist besser?",
                                 "examples": [
                                         "Ohrwürmer",
                                         "Gut zum Tanzen",
@@ -1025,7 +1025,7 @@
                 "id": "de_starter_social_008"
         },
         {
-                "topic": "Frühaufsteher vs. Nachtmensch — was ist besser?",
+                "topic": "Frühaufsteher vs. Nachtmensch: was ist besser?",
                 "sideA": "Frühaufsteher",
                 "sideB": "Nachtmensch",
                 "level": "starter",
@@ -1040,11 +1040,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Frühaufsteher vs. Nachtmensch — was ist besser?",
+                "word": "Frühaufsteher vs. Nachtmensch: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Frühaufsteher vs. Nachtmensch — was ist besser?",
+                                "text": "Frühaufsteher vs. Nachtmensch: was ist besser?",
                                 "examples": [
                                         "Ruhiger Morgen",
                                         "Produktiver Tag",
@@ -1057,7 +1057,7 @@
                 "id": "de_starter_time_002"
         },
         {
-                "topic": "Gehen vs. Laufen — was ist besser?",
+                "topic": "Gehen vs. Laufen: was ist besser?",
                 "sideA": "Gehen",
                 "sideB": "Laufen",
                 "level": "starter",
@@ -1072,11 +1072,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Gehen vs. Laufen — was ist besser?",
+                "word": "Gehen vs. Laufen: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Gehen vs. Laufen — was ist besser?",
+                                "text": "Gehen vs. Laufen: was ist besser?",
                                 "examples": [
                                         "Entspannend",
                                         "Kann Natur sehen",
@@ -1089,7 +1089,7 @@
                 "id": "de_starter_health_medicine_001"
         },
         {
-                "topic": "Laptop vs. Desktop-PC — was ist besser?",
+                "topic": "Laptop vs. Desktop-PC: was ist besser?",
                 "sideA": "Laptop",
                 "sideB": "Desktop",
                 "level": "starter",
@@ -1104,11 +1104,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Laptop vs. Desktop-PC — was ist besser?",
+                "word": "Laptop vs. Desktop-PC: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Laptop vs. Desktop-PC — was ist besser?",
+                                "text": "Laptop vs. Desktop-PC: was ist besser?",
                                 "examples": [
                                         "Kann ihn bewegen",
                                         "Überall arbeiten",
@@ -1121,7 +1121,7 @@
                 "id": "de_starter_technology_003"
         },
         {
-                "topic": "Öffentliche Verkehrsmittel vs. Taxi — was ist besser?",
+                "topic": "Öffentliche Verkehrsmittel vs. Taxi: was ist besser?",
                 "sideA": "Bus/Zug",
                 "sideB": "Taxi",
                 "level": "starter",
@@ -1136,11 +1136,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Öffentliche Verkehrsmittel vs. Taxi — was ist besser?",
+                "word": "Öffentliche Verkehrsmittel vs. Taxi: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Öffentliche Verkehrsmittel vs. Taxi — was ist besser?",
+                                "text": "Öffentliche Verkehrsmittel vs. Taxi: was ist besser?",
                                 "examples": [
                                         "Günstiger",
                                         "Besser für die Natur",
@@ -1153,7 +1153,7 @@
                 "id": "de_starter_travel_006"
         },
         {
-                "topic": "Eiscreme vs. Kuchen — was ist ein besseres Dessert?",
+                "topic": "Eiscreme vs. Kuchen: was ist ein besseres Dessert?",
                 "sideA": "Eiscreme",
                 "sideB": "Kuchen",
                 "level": "starter",
@@ -1168,11 +1168,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Eiscreme vs. Kuchen — was ist ein besseres Dessert?",
+                "word": "Eiscreme vs. Kuchen: was ist ein besseres Dessert?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Eiscreme vs. Kuchen — was ist ein besseres Dessert?",
+                                "text": "Eiscreme vs. Kuchen: was ist ein besseres Dessert?",
                                 "examples": [
                                         "Kalt",
                                         "Frisch",
@@ -1185,7 +1185,7 @@
                 "id": "de_starter_food_drink_008"
         },
         {
-                "topic": "E-Mail vs. Brief — was ist besser?",
+                "topic": "E-Mail vs. Brief: was ist besser?",
                 "sideA": "E-Mail",
                 "sideB": "Brief",
                 "level": "starter",
@@ -1200,11 +1200,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "E-Mail vs. Brief — was ist besser?",
+                "word": "E-Mail vs. Brief: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "E-Mail vs. Brief — was ist besser?",
+                                "text": "E-Mail vs. Brief: was ist besser?",
                                 "examples": [
                                         "Sehr schnell",
                                         "Kostenlos",
@@ -1217,7 +1217,7 @@
                 "id": "de_starter_technology_004"
         },
         {
-                "topic": "Strand vs. Park — was ist besser?",
+                "topic": "Strand vs. Park: was ist besser?",
                 "sideA": "Strand",
                 "sideB": "Park",
                 "level": "starter",
@@ -1232,11 +1232,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Strand vs. Park — was ist besser?",
+                "word": "Strand vs. Park: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Strand vs. Park — was ist besser?",
+                                "text": "Strand vs. Park: was ist besser?",
                                 "examples": [
                                         "Kann schwimmen",
                                         "Sand macht Spaß",
@@ -1249,7 +1249,7 @@
                 "id": "de_starter_nature_004"
         },
         {
-                "topic": "Kochen vs. Putzen — was ist besser?",
+                "topic": "Kochen vs. Putzen: was ist besser?",
                 "sideA": "Kochen",
                 "sideB": "Putzen",
                 "level": "starter",
@@ -1264,11 +1264,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Kochen vs. Putzen — was ist besser?",
+                "word": "Kochen vs. Putzen: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Kochen vs. Putzen — was ist besser?",
+                                "text": "Kochen vs. Putzen: was ist besser?",
                                 "examples": [
                                         "Kreativ",
                                         "Leckeres Ergebnis",
@@ -1281,7 +1281,7 @@
                 "id": "de_starter_furniture_004"
         },
         {
-                "topic": "Kurzer Urlaub vs. langer Urlaub — was ist besser?",
+                "topic": "Kurzer Urlaub vs. langer Urlaub: was ist besser?",
                 "sideA": "Kurz",
                 "sideB": "Lang",
                 "level": "starter",
@@ -1296,11 +1296,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Kurzer Urlaub vs. langer Urlaub — was ist besser?",
+                "word": "Kurzer Urlaub vs. langer Urlaub: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Kurzer Urlaub vs. langer Urlaub — was ist besser?",
+                                "text": "Kurzer Urlaub vs. langer Urlaub: was ist besser?",
                                 "examples": [
                                         "Einfache Planung",
                                         "Viele Reisen",
@@ -1313,7 +1313,7 @@
                 "id": "de_starter_travel_007"
         },
         {
-                "topic": "Belletristik vs. Sachbuch — was ist besser?",
+                "topic": "Belletristik vs. Sachbuch: was ist besser?",
                 "sideA": "Belletristik",
                 "sideB": "Sachbuch",
                 "level": "starter",
@@ -1328,11 +1328,11 @@
                 ],
                 "lang": "de",
                 "sub_theme": null,
-                "word": "Belletristik vs. Sachbuch — was ist besser?",
+                "word": "Belletristik vs. Sachbuch: was ist besser?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Belletristik vs. Sachbuch — was ist besser?",
+                                "text": "Belletristik vs. Sachbuch: was ist besser?",
                                 "examples": [
                                         "Spannende Geschichten",
                                         "Eskapismus",

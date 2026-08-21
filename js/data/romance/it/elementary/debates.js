@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "it_elementary_jobs_001",
-        "word": "Uno stipendio alto vs un breve tragitto giornaliero — cosa conta di più in un lavoro?",
+        "word": "Uno stipendio alto vs un breve tragitto giornaliero: cosa conta di più in un lavoro?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -10,7 +10,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Uno stipendio alto vs un breve tragitto giornaliero — cosa conta di più in un lavoro?",
+                "text": "Uno stipendio alto vs un breve tragitto giornaliero: cosa conta di più in un lavoro?",
                 "examples": []
             }
         ],
@@ -27,7 +27,7 @@
     },
     {
         "id": "it_elementary_jobs_002",
-        "word": "Cambiare spesso lavoro vs restare nella stessa azienda — cosa è meglio per la tua carriera?",
+        "word": "Cambiare spesso lavoro vs restare nella stessa azienda: cosa è meglio per la tua carriera?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -35,7 +35,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cambiare spesso lavoro vs restare nella stessa azienda — cosa è meglio per la tua carriera?",
+                "text": "Cambiare spesso lavoro vs restare nella stessa azienda: cosa è meglio per la tua carriera?",
                 "examples": []
             }
         ],
@@ -52,7 +52,7 @@
     },
     {
         "id": "it_elementary_jobs_003",
-        "word": "Lavorare straordinari vs uscire in orario ogni giorno — qual è l'abitudine migliore?",
+        "word": "Lavorare straordinari vs uscire in orario ogni giorno: qual è l'abitudine migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -60,7 +60,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare straordinari vs uscire in orario ogni giorno — qual è l'abitudine migliore?",
+                "text": "Lavorare straordinari vs uscire in orario ogni giorno: qual è l'abitudine migliore?",
                 "examples": []
             }
         ],
@@ -77,7 +77,7 @@
     },
     {
         "id": "it_elementary_jobs_004",
-        "word": "Un capo severo vs un capo rilassato — con chi è meglio lavorare?",
+        "word": "Un capo severo vs un capo rilassato: con chi è meglio lavorare?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -85,7 +85,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Un capo severo vs un capo rilassato — con chi è meglio lavorare?",
+                "text": "Un capo severo vs un capo rilassato: con chi è meglio lavorare?",
                 "examples": []
             }
         ],
@@ -102,7 +102,7 @@
     },
     {
         "id": "it_elementary_jobs_005",
-        "word": "Lavorare in una grande azienda vs una piccola azienda — cosa è meglio?",
+        "word": "Lavorare in una grande azienda vs una piccola azienda: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -110,7 +110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare in una grande azienda vs una piccola azienda — cosa è meglio?",
+                "text": "Lavorare in una grande azienda vs una piccola azienda: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -127,7 +127,7 @@
     },
     {
         "id": "it_elementary_jobs_006",
-        "word": "Ottenere una promozione vs avere più tempo libero — cosa sceglieresti?",
+        "word": "Ottenere una promozione vs avere più tempo libero: cosa sceglieresti?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -135,7 +135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ottenere una promozione vs avere più tempo libero — cosa sceglieresti?",
+                "text": "Ottenere una promozione vs avere più tempo libero: cosa sceglieresti?",
                 "examples": []
             }
         ],
@@ -152,7 +152,7 @@
     },
     {
         "id": "it_elementary_places_001",
-        "word": "Comprare casa vs affittare a vita — qual è la decisione finanziaria più intelligente?",
+        "word": "Comprare casa vs affittare a vita: qual è la decisione finanziaria più intelligente?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -160,7 +160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Comprare casa vs affittare a vita — qual è la decisione finanziaria più intelligente?",
+                "text": "Comprare casa vs affittare a vita: qual è la decisione finanziaria più intelligente?",
                 "examples": []
             }
         ],
@@ -177,7 +177,7 @@
     },
     {
         "id": "it_elementary_travel_001",
-        "word": "Vivere in centro città vs vivere in periferia — cosa è meglio?",
+        "word": "Vivere in centro città vs vivere in periferia: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -185,7 +185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivere in centro città vs vivere in periferia — cosa è meglio?",
+                "text": "Vivere in centro città vs vivere in periferia: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -202,7 +202,7 @@
     },
     {
         "id": "it_elementary_places_002",
-        "word": "Spendere soldi per esperienze vs per oggetti — cosa ti rende più felice?",
+        "word": "Spendere soldi per esperienze vs per oggetti: cosa ti rende più felice?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -210,7 +210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Spendere soldi per esperienze vs per oggetti — cosa ti rende più felice?",
+                "text": "Spendere soldi per esperienze vs per oggetti: cosa ti rende più felice?",
                 "examples": []
             }
         ],
@@ -227,7 +227,7 @@
     },
     {
         "id": "it_elementary_food_drink_001",
-        "word": "Cucinare ogni giorno vs preparare i pasti una volta a settimana — cosa è più pratico?",
+        "word": "Cucinare ogni giorno vs preparare i pasti una volta a settimana: cosa è più pratico?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -235,7 +235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cucinare ogni giorno vs preparare i pasti una volta a settimana — cosa è più pratico?",
+                "text": "Cucinare ogni giorno vs preparare i pasti una volta a settimana: cosa è più pratico?",
                 "examples": []
             }
         ],
@@ -252,7 +252,7 @@
     },
     {
         "id": "it_elementary_places_003",
-        "word": "Avere una persona per le pulizie vs fare le pulizie da soli — qual è la scelta migliore?",
+        "word": "Avere una persona per le pulizie vs fare le pulizie da soli: qual è la scelta migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -260,7 +260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avere una persona per le pulizie vs fare le pulizie da soli — qual è la scelta migliore?",
+                "text": "Avere una persona per le pulizie vs fare le pulizie da soli: qual è la scelta migliore?",
                 "examples": []
             }
         ],
@@ -277,7 +277,7 @@
     },
     {
         "id": "it_elementary_people_001",
-        "word": "Vivere con un partner vs vivere da soli — cosa è meglio per gli adulti?",
+        "word": "Vivere con un partner vs vivere da soli: cosa è meglio per gli adulti?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -285,7 +285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivere con un partner vs vivere da soli — cosa è meglio per gli adulti?",
+                "text": "Vivere con un partner vs vivere da soli: cosa è meglio per gli adulti?",
                 "examples": []
             }
         ],
@@ -302,7 +302,7 @@
     },
     {
         "id": "it_elementary_people_002",
-        "word": "Avere figli presto vs avere figli più tardi nella vita — cosa è meglio?",
+        "word": "Avere figli presto vs avere figli più tardi nella vita: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -310,7 +310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avere figli presto vs avere figli più tardi nella vita — cosa è meglio?",
+                "text": "Avere figli presto vs avere figli più tardi nella vita: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -327,7 +327,7 @@
     },
     {
         "id": "it_elementary_people_003",
-        "word": "Legami familiari stretti vs indipendenza dalla famiglia — cosa è più importante da adulti?",
+        "word": "Legami familiari stretti vs indipendenza dalla famiglia: cosa è più importante da adulti?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -335,7 +335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Legami familiari stretti vs indipendenza dalla famiglia — cosa è più importante da adulti?",
+                "text": "Legami familiari stretti vs indipendenza dalla famiglia: cosa è più importante da adulti?",
                 "examples": []
             }
         ],
@@ -352,7 +352,7 @@
     },
     {
         "id": "it_elementary_people_004",
-        "word": "Incontrare nuove persone vs mantenere le vecchie amicizie — cosa ha più valore?",
+        "word": "Incontrare nuove persone vs mantenere le vecchie amicizie: cosa ha più valore?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -360,7 +360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Incontrare nuove persone vs mantenere le vecchie amicizie — cosa ha più valore?",
+                "text": "Incontrare nuove persone vs mantenere le vecchie amicizie: cosa ha più valore?",
                 "examples": []
             }
         ],
@@ -377,7 +377,7 @@
     },
     {
         "id": "it_elementary_jobs_007",
-        "word": "Socializzare dopo il lavoro vs tornare direttamente a casa — cosa è meglio per le relazioni lavorative?",
+        "word": "Socializzare dopo il lavoro vs tornare direttamente a casa: cosa è meglio per le relazioni lavorative?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -385,7 +385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Socializzare dopo il lavoro vs tornare direttamente a casa — cosa è meglio per le relazioni lavorative?",
+                "text": "Socializzare dopo il lavoro vs tornare direttamente a casa: cosa è meglio per le relazioni lavorative?",
                 "examples": []
             }
         ],
@@ -402,7 +402,7 @@
     },
     {
         "id": "it_elementary_body_001",
-        "word": "Andare in palestra vs fare esercizio all'aperto — cosa è meglio per gli adulti?",
+        "word": "Andare in palestra vs fare esercizio all'aperto: cosa è meglio per gli adulti?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -410,7 +410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Andare in palestra vs fare esercizio all'aperto — cosa è meglio per gli adulti?",
+                "text": "Andare in palestra vs fare esercizio all'aperto: cosa è meglio per gli adulti?",
                 "examples": []
             }
         ],
@@ -427,7 +427,7 @@
     },
     {
         "id": "it_elementary_body_002",
-        "word": "Dieta ferrea vs mangiare tutto con moderazione — cosa è più sano?",
+        "word": "Dieta ferrea vs mangiare tutto con moderazione: cosa è più sano?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -435,7 +435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dieta ferrea vs mangiare tutto con moderazione — cosa è più sano?",
+                "text": "Dieta ferrea vs mangiare tutto con moderazione: cosa è più sano?",
                 "examples": []
             }
         ],
@@ -452,7 +452,7 @@
     },
     {
         "id": "it_elementary_body_003",
-        "word": "Vedere il medico subito vs aspettare per vedere se si migliora — cosa è più saggio?",
+        "word": "Vedere il medico subito vs aspettare per vedere se si migliora: cosa è più saggio?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -460,7 +460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vedere il medico subito vs aspettare per vedere se si migliora — cosa è più saggio?",
+                "text": "Vedere il medico subito vs aspettare per vedere se si migliora: cosa è più saggio?",
                 "examples": []
             }
         ],
@@ -477,7 +477,7 @@
     },
     {
         "id": "it_elementary_body_004",
-        "word": "Dormire otto ore vs dormire sei ore ma fare esercizio — cosa è meglio per l'energia?",
+        "word": "Dormire otto ore vs dormire sei ore ma fare esercizio: cosa è meglio per l'energia?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -485,7 +485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dormire otto ore vs dormire sei ore ma fare esercizio — cosa è meglio per l'energia?",
+                "text": "Dormire otto ore vs dormire sei ore ma fare esercizio: cosa è meglio per l'energia?",
                 "examples": []
             }
         ],
@@ -502,7 +502,7 @@
     },
     {
         "id": "it_elementary_body_005",
-        "word": "Ridurre lo stress attraverso lo sport vs attraverso il relax — cosa funziona meglio?",
+        "word": "Ridurre lo stress attraverso lo sport vs attraverso il relax: cosa funziona meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -510,7 +510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ridurre lo stress attraverso lo sport vs attraverso il relax — cosa funziona meglio?",
+                "text": "Ridurre lo stress attraverso lo sport vs attraverso il relax: cosa funziona meglio?",
                 "examples": []
             }
         ],
@@ -527,7 +527,7 @@
     },
     {
         "id": "it_elementary_technology_001",
-        "word": "Smartphone vs conversazione faccia a faccia — cosa usiamo di più, ed è un problema?",
+        "word": "Smartphone vs conversazione faccia a faccia: cosa usiamo di più, ed è un problema?",
         "lang": "it",
         "level": "elementary",
         "theme": "technology",
@@ -535,7 +535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Smartphone vs conversazione faccia a faccia — cosa usiamo di più, ed è un problema?",
+                "text": "Smartphone vs conversazione faccia a faccia: cosa usiamo di più, ed è un problema?",
                 "examples": []
             }
         ],
@@ -552,7 +552,7 @@
     },
     {
         "id": "it_elementary_technology_002",
-        "word": "Banking online vs andare in banca — cosa è meglio?",
+        "word": "Banking online vs andare in banca: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "technology",
@@ -560,7 +560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Banking online vs andare in banca — cosa è meglio?",
+                "text": "Banking online vs andare in banca: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -577,7 +577,7 @@
     },
     {
         "id": "it_elementary_jobs_008",
-        "word": "Lavorare con la carta vs lavorare digitalmente — cosa è più efficiente?",
+        "word": "Lavorare con la carta vs lavorare digitalmente: cosa è più efficiente?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -585,7 +585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare con la carta vs lavorare digitalmente — cosa è più efficiente?",
+                "text": "Lavorare con la carta vs lavorare digitalmente: cosa è più efficiente?",
                 "examples": []
             }
         ],
@@ -602,7 +602,7 @@
     },
     {
         "id": "it_elementary_jobs_009",
-        "word": "Social media per il networking vs incontrare persone di persona — cosa è più utile professionalmente?",
+        "word": "Social media per il networking vs incontrare persone di persona: cosa è più utile professionalmente?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -610,7 +610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Social media per il networking vs incontrare persone di persona — cosa è più utile professionalmente?",
+                "text": "Social media per il networking vs incontrare persone di persona: cosa è più utile professionalmente?",
                 "examples": []
             }
         ],
@@ -627,7 +627,7 @@
     },
     {
         "id": "it_elementary_travel_002",
-        "word": "Viaggio organizzato vs viaggio indipendente — cosa è meglio per gli adulti?",
+        "word": "Viaggio organizzato vs viaggio indipendente: cosa è meglio per gli adulti?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -635,7 +635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Viaggio organizzato vs viaggio indipendente — cosa è meglio per gli adulti?",
+                "text": "Viaggio organizzato vs viaggio indipendente: cosa è meglio per gli adulti?",
                 "examples": []
             }
         ],
@@ -652,7 +652,7 @@
     },
     {
         "id": "it_elementary_travel_003",
-        "word": "Soggiorno in città vs vacanza al mare — qual è il modo migliore per rilassarsi?",
+        "word": "Soggiorno in città vs vacanza al mare: qual è il modo migliore per rilassarsi?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -660,7 +660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Soggiorno in città vs vacanza al mare — qual è il modo migliore per rilassarsi?",
+                "text": "Soggiorno in città vs vacanza al mare: qual è il modo migliore per rilassarsi?",
                 "examples": []
             }
         ],
@@ -677,7 +677,7 @@
     },
     {
         "id": "it_elementary_travel_004",
-        "word": "Una vacanza lunga all'anno vs diversi brevi soggiorni — cosa è meglio?",
+        "word": "Una vacanza lunga all'anno vs diversi brevi soggiorni: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -685,7 +685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Una vacanza lunga all'anno vs diversi brevi soggiorni — cosa è meglio?",
+                "text": "Una vacanza lunga all'anno vs diversi brevi soggiorni: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -702,7 +702,7 @@
     },
     {
         "id": "it_elementary_travel_005",
-        "word": "Viaggiare in coppia vs viaggiare da soli — cosa è più piacevole?",
+        "word": "Viaggiare in coppia vs viaggiare da soli: cosa è più piacevole?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -710,7 +710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Viaggiare in coppia vs viaggiare da soli — cosa è più piacevole?",
+                "text": "Viaggiare in coppia vs viaggiare da soli: cosa è più piacevole?",
                 "examples": []
             }
         ],
@@ -727,7 +727,7 @@
     },
     {
         "id": "it_elementary_people_005",
-        "word": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé — cosa è più sano?",
+        "word": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé: cosa è più sano?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -735,7 +735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé — cosa è più sano?",
+                "text": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé: cosa è più sano?",
                 "examples": []
             }
         ],
@@ -752,7 +752,7 @@
     },
     {
         "id": "it_elementary_places_004",
-        "word": "Controllare il telefono appena svegli vs aspettare dopo colazione — quale è un'abitudine migliore?",
+        "word": "Controllare il telefono appena svegli vs aspettare dopo colazione: quale è un'abitudine migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -760,7 +760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Controllare il telefono appena svegli vs aspettare dopo colazione — quale è un'abitudine migliore?",
+                "text": "Controllare il telefono appena svegli vs aspettare dopo colazione: quale è un'abitudine migliore?",
                 "examples": []
             }
         ],
@@ -777,7 +777,7 @@
     },
     {
         "id": "it_elementary_people_006",
-        "word": "Conoscere il nome dei vicini vs non conoscerli — qual è l'esperienza adulta più normale oggi?",
+        "word": "Conoscere il nome dei vicini vs non conoscerli: qual è l'esperienza adulta più normale oggi?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -785,7 +785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Conoscere il nome dei vicini vs non conoscerli — qual è l'esperienza adulta più normale oggi?",
+                "text": "Conoscere il nome dei vicini vs non conoscerli: qual è l'esperienza adulta più normale oggi?",
                 "examples": []
             }
         ],
@@ -802,7 +802,7 @@
     },
     {
         "id": "it_elementary_places_005",
-        "word": "Fare la spesa con una lista vs senza lista — quale tipo di persona vive meglio?",
+        "word": "Fare la spesa con una lista vs senza lista: quale tipo di persona vive meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -810,7 +810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fare la spesa con una lista vs senza lista — quale tipo di persona vive meglio?",
+                "text": "Fare la spesa con una lista vs senza lista: quale tipo di persona vive meglio?",
                 "examples": []
             }
         ],
@@ -827,7 +827,7 @@
     },
     {
         "id": "it_elementary_jobs_010",
-        "word": "Dire al capo che sei malato vs andare al lavoro malato — quale è la scelta più coraggiosa?",
+        "word": "Dire al capo che sei malato vs andare al lavoro malato: quale è la scelta più coraggiosa?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -835,7 +835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dire al capo che sei malato vs andare al lavoro malato — quale è la scelta più coraggiosa?",
+                "text": "Dire al capo che sei malato vs andare al lavoro malato: quale è la scelta più coraggiosa?",
                 "examples": []
             }
         ],
@@ -852,7 +852,7 @@
     },
     {
         "id": "it_elementary_jobs_011",
-        "word": "Lavorare a tempo pieno vs lavorare a tempo parziale — cosa è meglio?",
+        "word": "Lavorare a tempo pieno vs lavorare a tempo parziale: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -860,7 +860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare a tempo pieno vs lavorare a tempo parziale — cosa è meglio?",
+                "text": "Lavorare a tempo pieno vs lavorare a tempo parziale: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -877,7 +877,7 @@
     },
     {
         "id": "it_elementary_jobs_012",
-        "word": "Lavorare in ufficio vs lavorare da casa — cosa è meglio?",
+        "word": "Lavorare in ufficio vs lavorare da casa: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -885,7 +885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare in ufficio vs lavorare da casa — cosa è meglio?",
+                "text": "Lavorare in ufficio vs lavorare da casa: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -902,7 +902,7 @@
     },
     {
         "id": "it_elementary_jobs_013",
-        "word": "Un lavoro che ami vs un lavoro che paga bene — cosa è più importante?",
+        "word": "Un lavoro che ami vs un lavoro che paga bene: cosa è più importante?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -910,7 +910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Un lavoro che ami vs un lavoro che paga bene — cosa è più importante?",
+                "text": "Un lavoro che ami vs un lavoro che paga bene: cosa è più importante?",
                 "examples": []
             }
         ],
@@ -927,7 +927,7 @@
     },
     {
         "id": "it_elementary_jobs_014",
-        "word": "Lavorare con altre persone vs lavorare da soli — cosa è meglio?",
+        "word": "Lavorare con altre persone vs lavorare da soli: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -935,7 +935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare con altre persone vs lavorare da soli — cosa è meglio?",
+                "text": "Lavorare con altre persone vs lavorare da soli: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -952,7 +952,7 @@
     },
     {
         "id": "it_elementary_jobs_015",
-        "word": "Un tragitto breve vs un tragitto lungo — cosa è più accettabile?",
+        "word": "Un tragitto breve vs un tragitto lungo: cosa è più accettabile?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -960,7 +960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Un tragitto breve vs un tragitto lungo — cosa è più accettabile?",
+                "text": "Un tragitto breve vs un tragitto lungo: cosa è più accettabile?",
                 "examples": []
             }
         ],
@@ -977,7 +977,7 @@
     },
     {
         "id": "it_elementary_people_007",
-        "word": "Vivere da soli vs vivere con un partner — cosa è meglio?",
+        "word": "Vivere da soli vs vivere con un partner: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -985,7 +985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivere da soli vs vivere con un partner — cosa è meglio?",
+                "text": "Vivere da soli vs vivere con un partner: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1002,7 +1002,7 @@
     },
     {
         "id": "it_elementary_travel_006",
-        "word": "Grande città vs piccola città — qual è il posto migliore dove vivere da adulti?",
+        "word": "Grande città vs piccola città: qual è il posto migliore dove vivere da adulti?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -1010,7 +1010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Grande città vs piccola città — qual è il posto migliore dove vivere da adulti?",
+                "text": "Grande città vs piccola città: qual è il posto migliore dove vivere da adulti?",
                 "examples": []
             }
         ],
@@ -1027,7 +1027,7 @@
     },
     {
         "id": "it_elementary_food_drink_002",
-        "word": "Cucinare a casa vs mangiare fuori — cosa è meglio per la vita quotidiana?",
+        "word": "Cucinare a casa vs mangiare fuori: cosa è meglio per la vita quotidiana?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -1035,7 +1035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cucinare a casa vs mangiare fuori — cosa è meglio per la vita quotidiana?",
+                "text": "Cucinare a casa vs mangiare fuori: cosa è meglio per la vita quotidiana?",
                 "examples": []
             }
         ],
@@ -1052,7 +1052,7 @@
     },
     {
         "id": "it_elementary_people_008",
-        "word": "Avere figli vs non avere figli — quale vita è migliore?",
+        "word": "Avere figli vs non avere figli: quale vita è migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -1060,7 +1060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avere figli vs non avere figli — quale vita è migliore?",
+                "text": "Avere figli vs non avere figli: quale vita è migliore?",
                 "examples": []
             }
         ],
@@ -1077,7 +1077,7 @@
     },
     {
         "id": "it_elementary_places_006",
-        "word": "Affittare un appartamento vs comprare una casa — cosa è meglio per i giovani adulti?",
+        "word": "Affittare un appartamento vs comprare una casa: cosa è meglio per i giovani adulti?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -1085,7 +1085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Affittare un appartamento vs comprare una casa — cosa è meglio per i giovani adulti?",
+                "text": "Affittare un appartamento vs comprare una casa: cosa è meglio per i giovani adulti?",
                 "examples": []
             }
         ],
@@ -1102,7 +1102,7 @@
     },
     {
         "id": "it_elementary_body_006",
-        "word": "Esercizio ogni giorno vs riposo — cosa è meglio per la tua salute?",
+        "word": "Esercizio ogni giorno vs riposo: cosa è meglio per la tua salute?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -1110,7 +1110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Esercizio ogni giorno vs riposo — cosa è meglio per la tua salute?",
+                "text": "Esercizio ogni giorno vs riposo: cosa è meglio per la tua salute?",
                 "examples": []
             }
         ],
@@ -1127,7 +1127,7 @@
     },
     {
         "id": "it_elementary_body_007",
-        "word": "Andare dal medico vs aspettare — cosa è meglio quando ti senti male?",
+        "word": "Andare dal medico vs aspettare: cosa è meglio quando ti senti male?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -1135,7 +1135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Andare dal medico vs aspettare — cosa è meglio quando ti senti male?",
+                "text": "Andare dal medico vs aspettare: cosa è meglio quando ti senti male?",
                 "examples": []
             }
         ],
@@ -1152,7 +1152,7 @@
     },
     {
         "id": "it_elementary_body_008",
-        "word": "Dormire otto ore vs dormire meno — cosa è più realistico per gli adulti?",
+        "word": "Dormire otto ore vs dormire meno: cosa è più realistico per gli adulti?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -1160,7 +1160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dormire otto ore vs dormire meno — cosa è più realistico per gli adulti?",
+                "text": "Dormire otto ore vs dormire meno: cosa è più realistico per gli adulti?",
                 "examples": []
             }
         ],
@@ -1177,7 +1177,7 @@
     },
     {
         "id": "it_elementary_body_009",
-        "word": "Andare al lavoro a piedi vs prendere l'auto — cosa è meglio per la tua salute?",
+        "word": "Andare al lavoro a piedi vs prendere l'auto: cosa è meglio per la tua salute?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -1185,7 +1185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Andare al lavoro a piedi vs prendere l'auto — cosa è meglio per la tua salute?",
+                "text": "Andare al lavoro a piedi vs prendere l'auto: cosa è meglio per la tua salute?",
                 "examples": []
             }
         ],
@@ -1202,7 +1202,7 @@
     },
     {
         "id": "it_elementary_places_007",
-        "word": "Acquisti online vs acquisti in un negozio — cosa è meglio?",
+        "word": "Acquisti online vs acquisti in un negozio: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -1210,7 +1210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Acquisti online vs acquisti in un negozio — cosa è meglio?",
+                "text": "Acquisti online vs acquisti in un negozio: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1227,7 +1227,7 @@
     },
     {
         "id": "it_elementary_jobs_016",
-        "word": "Risparmiare per il futuro vs godersi i soldi ora — cosa è più saggio?",
+        "word": "Risparmiare per il futuro vs godersi i soldi ora: cosa è più saggio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1235,7 +1235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Risparmiare per il futuro vs godersi i soldi ora — cosa è più saggio?",
+                "text": "Risparmiare per il futuro vs godersi i soldi ora: cosa è più saggio?",
                 "examples": []
             }
         ],
@@ -1252,7 +1252,7 @@
     },
     {
         "id": "it_elementary_places_008",
-        "word": "Cose costose vs cose economiche — cosa ha il miglior valore?",
+        "word": "Cose costose vs cose economiche: cosa ha il miglior valore?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -1260,7 +1260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cose costose vs cose economiche — cosa ha il miglior valore?",
+                "text": "Cose costose vs cose economiche: cosa ha il miglior valore?",
                 "examples": []
             }
         ],
@@ -1277,7 +1277,7 @@
     },
     {
         "id": "it_elementary_places_009",
-        "word": "Comprare nuovo vs comprare di seconda mano — cosa è meglio?",
+        "word": "Comprare nuovo vs comprare di seconda mano: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -1285,7 +1285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Comprare nuovo vs comprare di seconda mano — cosa è meglio?",
+                "text": "Comprare nuovo vs comprare di seconda mano: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1302,7 +1302,7 @@
     },
     {
         "id": "it_elementary_social_001",
-        "word": "Guardare la TV a casa vs uscire — qual è la serata migliore?",
+        "word": "Guardare la TV a casa vs uscire: qual è la serata migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -1310,7 +1310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Guardare la TV a casa vs uscire — qual è la serata migliore?",
+                "text": "Guardare la TV a casa vs uscire: qual è la serata migliore?",
                 "examples": []
             }
         ],
@@ -1327,7 +1327,7 @@
     },
     {
         "id": "it_elementary_travel_007",
-        "word": "Vacanze in famiglia vs vacanze con amici — cosa è meglio?",
+        "word": "Vacanze in famiglia vs vacanze con amici: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -1335,7 +1335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vacanze in famiglia vs vacanze con amici — cosa è meglio?",
+                "text": "Vacanze in famiglia vs vacanze con amici: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1352,7 +1352,7 @@
     },
     {
         "id": "it_elementary_travel_008",
-        "word": "Rimanere nel proprio paese vs viaggiare all'estero — qual è la vacanza migliore?",
+        "word": "Rimanere nel proprio paese vs viaggiare all'estero: qual è la vacanza migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -1360,7 +1360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Rimanere nel proprio paese vs viaggiare all'estero — qual è la vacanza migliore?",
+                "text": "Rimanere nel proprio paese vs viaggiare all'estero: qual è la vacanza migliore?",
                 "examples": []
             }
         ],
@@ -1377,7 +1377,7 @@
     },
     {
         "id": "it_elementary_social_002",
-        "word": "Sport vs lettura — qual è il miglior hobby per gli adulti?",
+        "word": "Sport vs lettura: qual è il miglior hobby per gli adulti?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -1385,7 +1385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sport vs lettura — qual è il miglior hobby per gli adulti?",
+                "text": "Sport vs lettura: qual è il miglior hobby per gli adulti?",
                 "examples": []
             }
         ],
@@ -1402,7 +1402,7 @@
     },
     {
         "id": "it_elementary_people_009",
-        "word": "Vedere spesso gli amici vs avere tempo da soli — cosa è più importante?",
+        "word": "Vedere spesso gli amici vs avere tempo da soli: cosa è più importante?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -1410,7 +1410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vedere spesso gli amici vs avere tempo da soli — cosa è più importante?",
+                "text": "Vedere spesso gli amici vs avere tempo da soli: cosa è più importante?",
                 "examples": []
             }
         ],
@@ -1427,7 +1427,7 @@
     },
     {
         "id": "it_elementary_jobs_017",
-        "word": "Rispondere alle email immediatamente vs lasciarle per dopo — cosa è più professionale?",
+        "word": "Rispondere alle email immediatamente vs lasciarle per dopo: cosa è più professionale?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1435,7 +1435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Rispondere alle email immediatamente vs lasciarle per dopo — cosa è più professionale?",
+                "text": "Rispondere alle email immediatamente vs lasciarle per dopo: cosa è più professionale?",
                 "examples": []
             }
         ],
@@ -1452,7 +1452,7 @@
     },
     {
         "id": "it_elementary_places_010",
-        "word": "Lavare i piatti immediatamente vs lasciarli fino a domani — cosa è meglio?",
+        "word": "Lavare i piatti immediatamente vs lasciarli fino a domani: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -1460,7 +1460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavare i piatti immediatamente vs lasciarli fino a domani — cosa è meglio?",
+                "text": "Lavare i piatti immediatamente vs lasciarli fino a domani: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1477,7 +1477,7 @@
     },
     {
         "id": "it_elementary_jobs_018",
-        "word": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio al lavoro?",
+        "word": "Essere sempre in anticipo vs sempre cinque minuti in ritardo: cosa è peggio al lavoro?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1485,7 +1485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio al lavoro?",
+                "text": "Essere sempre in anticipo vs sempre cinque minuti in ritardo: cosa è peggio al lavoro?",
                 "examples": []
             }
         ],
@@ -1502,7 +1502,7 @@
     },
     {
         "id": "it_elementary_jobs_019",
-        "word": "Avere una scrivania molto organizzata vs una scrivania disordinata — quale persona è più produttiva?",
+        "word": "Avere una scrivania molto organizzata vs una scrivania disordinata: quale persona è più produttiva?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1510,7 +1510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avere una scrivania molto organizzata vs una scrivania disordinata — quale persona è più produttiva?",
+                "text": "Avere una scrivania molto organizzata vs una scrivania disordinata: quale persona è più produttiva?",
                 "examples": []
             }
         ],
@@ -1527,7 +1527,7 @@
     },
     {
         "id": "it_elementary_places_011",
-        "word": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — quale regola è migliore?",
+        "word": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena: quale regola è migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -1535,7 +1535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — quale regola è migliore?",
+                "text": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena: quale regola è migliore?",
                 "examples": []
             }
         ],
@@ -1552,7 +1552,7 @@
     },
     {
         "id": "it_elementary_people_010",
-        "word": "Vivere in famiglia vs Da soli — cosa è meglio?",
+        "word": "Vivere in famiglia vs Da soli: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -1560,7 +1560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivere in famiglia vs Da soli — cosa è meglio?",
+                "text": "Vivere in famiglia vs Da soli: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1577,7 +1577,7 @@
     },
     {
         "id": "it_elementary_people_011",
-        "word": "Avere un fratello vs una sorella — cosa è meglio?",
+        "word": "Avere un fratello vs una sorella: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -1585,7 +1585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avere un fratello vs una sorella — cosa è meglio?",
+                "text": "Avere un fratello vs una sorella: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1602,7 +1602,7 @@
     },
     {
         "id": "it_elementary_people_012",
-        "word": "Famiglia grande vs piccola — quale è più bella?",
+        "word": "Famiglia grande vs piccola: quale è più bella?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -1610,7 +1610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Famiglia grande vs piccola — quale è più bella?",
+                "text": "Famiglia grande vs piccola: quale è più bella?",
                 "examples": []
             }
         ],
@@ -1627,7 +1627,7 @@
     },
     {
         "id": "it_elementary_people_013",
-        "word": "Il più grande vs Il più piccolo — cosa è meglio?",
+        "word": "Il più grande vs Il più piccolo: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -1635,7 +1635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Il più grande vs Il più piccolo — cosa è meglio?",
+                "text": "Il più grande vs Il più piccolo: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1652,7 +1652,7 @@
     },
     {
         "id": "it_elementary_jobs_020",
-        "word": "Scuola di mattina vs pomeriggio — cosa è meglio?",
+        "word": "Scuola di mattina vs pomeriggio: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1660,7 +1660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Scuola di mattina vs pomeriggio — cosa è meglio?",
+                "text": "Scuola di mattina vs pomeriggio: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1677,7 +1677,7 @@
     },
     {
         "id": "it_elementary_jobs_021",
-        "word": "Lettura vs Matematica — quale è più divertente?",
+        "word": "Lettura vs Matematica: quale è più divertente?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1685,7 +1685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lettura vs Matematica — quale è più divertente?",
+                "text": "Lettura vs Matematica: quale è più divertente?",
                 "examples": []
             }
         ],
@@ -1702,7 +1702,7 @@
     },
     {
         "id": "it_elementary_jobs_022",
-        "word": "Scuola vs Casa — cosa è meglio?",
+        "word": "Scuola vs Casa: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1710,7 +1710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Scuola vs Casa — cosa è meglio?",
+                "text": "Scuola vs Casa: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1727,7 +1727,7 @@
     },
     {
         "id": "it_elementary_jobs_023",
-        "word": "Compiti vs Niente compiti — cosa aiuta di più?",
+        "word": "Compiti vs Niente compiti: cosa aiuta di più?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1735,7 +1735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Compiti vs Niente compiti — cosa aiuta di più?",
+                "text": "Compiti vs Niente compiti: cosa aiuta di più?",
                 "examples": []
             }
         ],
@@ -1752,7 +1752,7 @@
     },
     {
         "id": "it_elementary_jobs_024",
-        "word": "Da soli vs In coppia — cosa è meglio?",
+        "word": "Da soli vs In coppia: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1760,7 +1760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Da soli vs In coppia — cosa è meglio?",
+                "text": "Da soli vs In coppia: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1777,7 +1777,7 @@
     },
     {
         "id": "it_elementary_jobs_025",
-        "word": "Carta vs Computer — cosa è meglio?",
+        "word": "Carta vs Computer: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -1785,7 +1785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Carta vs Computer — cosa è meglio?",
+                "text": "Carta vs Computer: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1802,7 +1802,7 @@
     },
     {
         "id": "it_elementary_food_drink_003",
-        "word": "Colazione vs Cena — quale pasto è più importante?",
+        "word": "Colazione vs Cena: quale pasto è più importante?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -1810,7 +1810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Colazione vs Cena — quale pasto è più importante?",
+                "text": "Colazione vs Cena: quale pasto è più importante?",
                 "examples": []
             }
         ],
@@ -1827,7 +1827,7 @@
     },
     {
         "id": "it_elementary_food_drink_004",
-        "word": "Cibo caldo vs freddo — cosa è meglio?",
+        "word": "Cibo caldo vs freddo: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -1835,7 +1835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cibo caldo vs freddo — cosa è meglio?",
+                "text": "Cibo caldo vs freddo: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1852,7 +1852,7 @@
     },
     {
         "id": "it_elementary_food_drink_005",
-        "word": "Casa vs Ristorante — cosa è meglio?",
+        "word": "Casa vs Ristorante: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -1860,7 +1860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Casa vs Ristorante — cosa è meglio?",
+                "text": "Casa vs Ristorante: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1877,7 +1877,7 @@
     },
     {
         "id": "it_elementary_food_drink_006",
-        "word": "Dolce vs Salato — cosa è meglio?",
+        "word": "Dolce vs Salato: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -1885,7 +1885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dolce vs Salato — cosa è meglio?",
+                "text": "Dolce vs Salato: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1902,7 +1902,7 @@
     },
     {
         "id": "it_elementary_food_drink_007",
-        "word": "Cucinare vs Comprare — cosa è più bello?",
+        "word": "Cucinare vs Comprare: cosa è più bello?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -1910,7 +1910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cucinare vs Comprare — cosa è più bello?",
+                "text": "Cucinare vs Comprare: cosa è più bello?",
                 "examples": []
             }
         ],
@@ -1927,7 +1927,7 @@
     },
     {
         "id": "it_elementary_places_012",
-        "word": "Svegliarsi presto vs tardi — cosa è meglio?",
+        "word": "Svegliarsi presto vs tardi: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -1935,7 +1935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Svegliarsi presto vs tardi — cosa è meglio?",
+                "text": "Svegliarsi presto vs tardi: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1952,7 +1952,7 @@
     },
     {
         "id": "it_elementary_places_013",
-        "word": "Mattina vs Sera — quale parte del giorno è più bella?",
+        "word": "Mattina vs Sera: quale parte del giorno è più bella?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -1960,7 +1960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mattina vs Sera — quale parte del giorno è più bella?",
+                "text": "Mattina vs Sera: quale parte del giorno è più bella?",
                 "examples": []
             }
         ],
@@ -1977,7 +1977,7 @@
     },
     {
         "id": "it_elementary_places_014",
-        "word": "Giorni feriali vs Fine settimana — cosa è meglio?",
+        "word": "Giorni feriali vs Fine settimana: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -1985,7 +1985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Giorni feriali vs Fine settimana — cosa è meglio?",
+                "text": "Giorni feriali vs Fine settimana: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2002,7 +2002,7 @@
     },
     {
         "id": "it_elementary_environment_001",
-        "word": "Estate vs Inverno — quale stagione è migliore?",
+        "word": "Estate vs Inverno: quale stagione è migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "environment",
@@ -2010,7 +2010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Estate vs Inverno — quale stagione è migliore?",
+                "text": "Estate vs Inverno: quale stagione è migliore?",
                 "examples": []
             }
         ],
@@ -2027,7 +2027,7 @@
     },
     {
         "id": "it_elementary_places_015",
-        "word": "Andare a letto presto vs tardi — cosa è più salutare?",
+        "word": "Andare a letto presto vs tardi: cosa è più salutare?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -2035,7 +2035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Andare a letto presto vs tardi — cosa è più salutare?",
+                "text": "Andare a letto presto vs tardi: cosa è più salutare?",
                 "examples": []
             }
         ],
@@ -2052,7 +2052,7 @@
     },
     {
         "id": "it_elementary_places_016",
-        "word": "Casa vs Appartamento — cosa è meglio?",
+        "word": "Casa vs Appartamento: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -2060,7 +2060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Casa vs Appartamento — cosa è meglio?",
+                "text": "Casa vs Appartamento: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2077,7 +2077,7 @@
     },
     {
         "id": "it_elementary_travel_009",
-        "word": "Città vs Campagna — quale è un posto migliore dove vivere?",
+        "word": "Città vs Campagna: quale è un posto migliore dove vivere?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -2085,7 +2085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Città vs Campagna — quale è un posto migliore dove vivere?",
+                "text": "Città vs Campagna: quale è un posto migliore dove vivere?",
                 "examples": []
             }
         ],
@@ -2102,7 +2102,7 @@
     },
     {
         "id": "it_elementary_places_017",
-        "word": "Camera vs Soggiorno — cosa è meglio?",
+        "word": "Camera vs Soggiorno: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -2110,7 +2110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Camera vs Soggiorno — cosa è meglio?",
+                "text": "Camera vs Soggiorno: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2127,7 +2127,7 @@
     },
     {
         "id": "it_elementary_social_003",
-        "word": "Giochi al chiuso vs all'aperto — quali sono più divertenti?",
+        "word": "Giochi al chiuso vs all'aperto: quali sono più divertenti?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2135,7 +2135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Giochi al chiuso vs all'aperto — quali sono più divertenti?",
+                "text": "Giochi al chiuso vs all'aperto: quali sono più divertenti?",
                 "examples": []
             }
         ],
@@ -2152,7 +2152,7 @@
     },
     {
         "id": "it_elementary_social_004",
-        "word": "TV vs Libro — cosa è meglio?",
+        "word": "TV vs Libro: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2160,7 +2160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "TV vs Libro — cosa è meglio?",
+                "text": "TV vs Libro: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2177,7 +2177,7 @@
     },
     {
         "id": "it_elementary_social_005",
-        "word": "Sport vs Videogioco — quale è più divertente?",
+        "word": "Sport vs Videogioco: quale è più divertente?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2185,7 +2185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sport vs Videogioco — quale è più divertente?",
+                "text": "Sport vs Videogioco: quale è più divertente?",
                 "examples": []
             }
         ],
@@ -2202,7 +2202,7 @@
     },
     {
         "id": "it_elementary_social_006",
-        "word": "Disegno vs Canto — quale hobby è migliore?",
+        "word": "Disegno vs Canto: quale hobby è migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2210,7 +2210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Disegno vs Canto — quale hobby è migliore?",
+                "text": "Disegno vs Canto: quale hobby è migliore?",
                 "examples": []
             }
         ],
@@ -2227,7 +2227,7 @@
     },
     {
         "id": "it_elementary_social_007",
-        "word": "Giocare da soli vs con amici — quale è più divertente?",
+        "word": "Giocare da soli vs con amici: quale è più divertente?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2235,7 +2235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Giocare da soli vs con amici — quale è più divertente?",
+                "text": "Giocare da soli vs con amici: quale è più divertente?",
                 "examples": []
             }
         ],
@@ -2252,7 +2252,7 @@
     },
     {
         "id": "it_elementary_social_008",
-        "word": "Nuoto vs Corsa — cosa è meglio?",
+        "word": "Nuoto vs Corsa: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2260,7 +2260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Nuoto vs Corsa — cosa è meglio?",
+                "text": "Nuoto vs Corsa: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2277,7 +2277,7 @@
     },
     {
         "id": "it_elementary_social_009",
-        "word": "Musica vs Sport — quale è un hobby migliore?",
+        "word": "Musica vs Sport: quale è un hobby migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2285,7 +2285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Musica vs Sport — quale è un hobby migliore?",
+                "text": "Musica vs Sport: quale è un hobby migliore?",
                 "examples": []
             }
         ],
@@ -2302,7 +2302,7 @@
     },
     {
         "id": "it_elementary_nature_001",
-        "word": "Animali da fattoria vs selvatici — quali sono più interessanti?",
+        "word": "Animali da fattoria vs selvatici: quali sono più interessanti?",
         "lang": "it",
         "level": "elementary",
         "theme": "nature",
@@ -2310,7 +2310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Animali da fattoria vs selvatici — quali sono più interessanti?",
+                "text": "Animali da fattoria vs selvatici: quali sono più interessanti?",
                 "examples": []
             }
         ],
@@ -2327,7 +2327,7 @@
     },
     {
         "id": "it_elementary_environment_002",
-        "word": "Pioggia vs Sole — cosa è meglio?",
+        "word": "Pioggia vs Sole: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "environment",
@@ -2335,7 +2335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Pioggia vs Sole — cosa è meglio?",
+                "text": "Pioggia vs Sole: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2352,7 +2352,7 @@
     },
     {
         "id": "it_elementary_travel_010",
-        "word": "Mare vs Montagna — quale è meglio per una vacanza?",
+        "word": "Mare vs Montagna: quale è meglio per una vacanza?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -2360,7 +2360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mare vs Montagna — quale è meglio per una vacanza?",
+                "text": "Mare vs Montagna: quale è meglio per una vacanza?",
                 "examples": []
             }
         ],
@@ -2377,7 +2377,7 @@
     },
     {
         "id": "it_elementary_environment_003",
-        "word": "Fiori vs Alberi — quali sono più belli?",
+        "word": "Fiori vs Alberi: quali sono più belli?",
         "lang": "it",
         "level": "elementary",
         "theme": "environment",
@@ -2385,7 +2385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fiori vs Alberi — quali sono più belli?",
+                "text": "Fiori vs Alberi: quali sono più belli?",
                 "examples": []
             }
         ],
@@ -2402,7 +2402,7 @@
     },
     {
         "id": "it_elementary_travel_011",
-        "word": "Auto vs Autobus — cosa è meglio?",
+        "word": "Auto vs Autobus: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -2410,7 +2410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Auto vs Autobus — cosa è meglio?",
+                "text": "Auto vs Autobus: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2427,7 +2427,7 @@
     },
     {
         "id": "it_elementary_travel_012",
-        "word": "Camminare vs Bici — con cosa è meglio spostarsi?",
+        "word": "Camminare vs Bici: con cosa è meglio spostarsi?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -2435,7 +2435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Camminare vs Bici — con cosa è meglio spostarsi?",
+                "text": "Camminare vs Bici: con cosa è meglio spostarsi?",
                 "examples": []
             }
         ],
@@ -2452,7 +2452,7 @@
     },
     {
         "id": "it_elementary_travel_013",
-        "word": "Vacanze brevi vs lunghe — cosa è meglio?",
+        "word": "Vacanze brevi vs lunghe: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -2460,7 +2460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vacanze brevi vs lunghe — cosa è meglio?",
+                "text": "Vacanze brevi vs lunghe: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2477,7 +2477,7 @@
     },
     {
         "id": "it_elementary_travel_014",
-        "word": "Viaggiare soli vs in famiglia — quale è più divertente?",
+        "word": "Viaggiare soli vs in famiglia: quale è più divertente?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -2485,7 +2485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Viaggiare soli vs in famiglia — quale è più divertente?",
+                "text": "Viaggiare soli vs in famiglia: quale è più divertente?",
                 "examples": []
             }
         ],
@@ -2552,7 +2552,7 @@
     },
     {
         "id": "it_elementary_jobs_026",
-        "word": "Studiare la mattina o studiare la sera — quando è meglio?",
+        "word": "Studiare la mattina o studiare la sera: quando è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -2560,7 +2560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Studiare la mattina o studiare la sera — quando è meglio?",
+                "text": "Studiare la mattina o studiare la sera: quando è meglio?",
                 "examples": []
             }
         ],
@@ -2577,7 +2577,7 @@
     },
     {
         "id": "it_elementary_jobs_027",
-        "word": "Insegnanti severi o insegnanti amichevoli — chi aiuta di più gli studenti?",
+        "word": "Insegnanti severi o insegnanti amichevoli: chi aiuta di più gli studenti?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -2585,7 +2585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Insegnanti severi o insegnanti amichevoli — chi aiuta di più gli studenti?",
+                "text": "Insegnanti severi o insegnanti amichevoli: chi aiuta di più gli studenti?",
                 "examples": []
             }
         ],
@@ -2602,7 +2602,7 @@
     },
     {
         "id": "it_elementary_jobs_028",
-        "word": "Imparare con un libro di testo o imparare con i video — cosa è più efficace?",
+        "word": "Imparare con un libro di testo o imparare con i video: cosa è più efficace?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -2610,7 +2610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Imparare con un libro di testo o imparare con i video — cosa è più efficace?",
+                "text": "Imparare con un libro di testo o imparare con i video: cosa è più efficace?",
                 "examples": []
             }
         ],
@@ -2627,7 +2627,7 @@
     },
     {
         "id": "it_elementary_jobs_029",
-        "word": "Lezioni brevi o lezioni lunghe — quali aiutano a imparare meglio?",
+        "word": "Lezioni brevi o lezioni lunghe: quali aiutano a imparare meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -2635,7 +2635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lezioni brevi o lezioni lunghe — quali aiutano a imparare meglio?",
+                "text": "Lezioni brevi o lezioni lunghe: quali aiutano a imparare meglio?",
                 "examples": []
             }
         ],
@@ -2652,7 +2652,7 @@
     },
     {
         "id": "it_elementary_jobs_030",
-        "word": "Progetti di gruppo o compiti individuali — cosa è meglio?",
+        "word": "Progetti di gruppo o compiti individuali: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -2660,7 +2660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Progetti di gruppo o compiti individuali — cosa è meglio?",
+                "text": "Progetti di gruppo o compiti individuali: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2677,7 +2677,7 @@
     },
     {
         "id": "it_elementary_jobs_031",
-        "word": "Uniforme scolastica o vestiti casual a scuola — cosa è meglio?",
+        "word": "Uniforme scolastica o vestiti casual a scuola: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -2685,7 +2685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Uniforme scolastica o vestiti casual a scuola — cosa è meglio?",
+                "text": "Uniforme scolastica o vestiti casual a scuola: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2702,7 +2702,7 @@
     },
     {
         "id": "it_elementary_food_drink_008",
-        "word": "Pasti cucinati in casa o fast food — cosa è meglio?",
+        "word": "Pasti cucinati in casa o fast food: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -2710,7 +2710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Pasti cucinati in casa o fast food — cosa è meglio?",
+                "text": "Pasti cucinati in casa o fast food: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2727,7 +2727,7 @@
     },
     {
         "id": "it_elementary_food_drink_009",
-        "word": "Tre pasti abbondanti o molti piccoli spuntini — cosa è più sano?",
+        "word": "Tre pasti abbondanti o molti piccoli spuntini: cosa è più sano?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -2735,7 +2735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Tre pasti abbondanti o molti piccoli spuntini — cosa è più sano?",
+                "text": "Tre pasti abbondanti o molti piccoli spuntini: cosa è più sano?",
                 "examples": []
             }
         ],
@@ -2752,7 +2752,7 @@
     },
     {
         "id": "it_elementary_food_drink_010",
-        "word": "Cibo vegetariano o carne — quale dieta è migliore?",
+        "word": "Cibo vegetariano o carne: quale dieta è migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -2760,7 +2760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cibo vegetariano o carne — quale dieta è migliore?",
+                "text": "Cibo vegetariano o carne: quale dieta è migliore?",
                 "examples": []
             }
         ],
@@ -2777,7 +2777,7 @@
     },
     {
         "id": "it_elementary_food_drink_011",
-        "word": "Bere tè o bere caffè — cosa è meglio?",
+        "word": "Bere tè o bere caffè: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -2785,7 +2785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Bere tè o bere caffè — cosa è meglio?",
+                "text": "Bere tè o bere caffè: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2802,7 +2802,7 @@
     },
     {
         "id": "it_elementary_food_drink_012",
-        "word": "Mangiare da soli o mangiare con altri — cosa è meglio?",
+        "word": "Mangiare da soli o mangiare con altri: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -2810,7 +2810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mangiare da soli o mangiare con altri — cosa è meglio?",
+                "text": "Mangiare da soli o mangiare con altri: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2827,7 +2827,7 @@
     },
     {
         "id": "it_elementary_social_011",
-        "word": "Praticare uno sport di squadra o uno sport individuale — cosa è meglio?",
+        "word": "Praticare uno sport di squadra o uno sport individuale: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2835,7 +2835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Praticare uno sport di squadra o uno sport individuale — cosa è meglio?",
+                "text": "Praticare uno sport di squadra o uno sport individuale: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2852,7 +2852,7 @@
     },
     {
         "id": "it_elementary_social_012",
-        "word": "Passare il tempo libero al chiuso o all'aperto — cosa è meglio?",
+        "word": "Passare il tempo libero al chiuso o all'aperto: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2860,7 +2860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Passare il tempo libero al chiuso o all'aperto — cosa è meglio?",
+                "text": "Passare il tempo libero al chiuso o all'aperto: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2877,7 +2877,7 @@
     },
     {
         "id": "it_elementary_social_013",
-        "word": "Cinema o teatro — quale è la migliore serata fuori?",
+        "word": "Cinema o teatro: quale è la migliore serata fuori?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2885,7 +2885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cinema o teatro — quale è la migliore serata fuori?",
+                "text": "Cinema o teatro: quale è la migliore serata fuori?",
                 "examples": []
             }
         ],
@@ -2902,7 +2902,7 @@
     },
     {
         "id": "it_elementary_social_014",
-        "word": "Ascoltare musica o suonare uno strumento — cosa è più piacevole?",
+        "word": "Ascoltare musica o suonare uno strumento: cosa è più piacevole?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2910,7 +2910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ascoltare musica o suonare uno strumento — cosa è più piacevole?",
+                "text": "Ascoltare musica o suonare uno strumento: cosa è più piacevole?",
                 "examples": []
             }
         ],
@@ -2927,7 +2927,7 @@
     },
     {
         "id": "it_elementary_social_015",
-        "word": "Videogiochi o giochi da tavolo — quali sono più divertenti?",
+        "word": "Videogiochi o giochi da tavolo: quali sono più divertenti?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2935,7 +2935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Videogiochi o giochi da tavolo — quali sono più divertenti?",
+                "text": "Videogiochi o giochi da tavolo: quali sono più divertenti?",
                 "examples": []
             }
         ],
@@ -2952,7 +2952,7 @@
     },
     {
         "id": "it_elementary_social_016",
-        "word": "Fare shopping o restare a casa — quale è il modo migliore per trascorrere il fine settimana?",
+        "word": "Fare shopping o restare a casa: quale è il modo migliore per trascorrere il fine settimana?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -2960,7 +2960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fare shopping o restare a casa — quale è il modo migliore per trascorrere il fine settimana?",
+                "text": "Fare shopping o restare a casa: quale è il modo migliore per trascorrere il fine settimana?",
                 "examples": []
             }
         ],
@@ -2977,7 +2977,7 @@
     },
     {
         "id": "it_elementary_technology_003",
-        "word": "Cellulare o computer — quale è più utile nella vita quotidiana?",
+        "word": "Cellulare o computer: quale è più utile nella vita quotidiana?",
         "lang": "it",
         "level": "elementary",
         "theme": "technology",
@@ -2985,7 +2985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cellulare o computer — quale è più utile nella vita quotidiana?",
+                "text": "Cellulare o computer: quale è più utile nella vita quotidiana?",
                 "examples": []
             }
         ],
@@ -3002,7 +3002,7 @@
     },
     {
         "id": "it_elementary_technology_004",
-        "word": "Inviare un messaggio o fare una telefonata — cosa è meglio?",
+        "word": "Inviare un messaggio o fare una telefonata: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "technology",
@@ -3010,7 +3010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Inviare un messaggio o fare una telefonata — cosa è meglio?",
+                "text": "Inviare un messaggio o fare una telefonata: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3027,7 +3027,7 @@
     },
     {
         "id": "it_elementary_social_017",
-        "word": "E-book o libro cartaceo — cosa è meglio leggere?",
+        "word": "E-book o libro cartaceo: cosa è meglio leggere?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -3035,7 +3035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "E-book o libro cartaceo — cosa è meglio leggere?",
+                "text": "E-book o libro cartaceo: cosa è meglio leggere?",
                 "examples": []
             }
         ],
@@ -3052,7 +3052,7 @@
     },
     {
         "id": "it_elementary_technology_005",
-        "word": "Scattare foto con il telefono o con una fotocamera — cosa dà risultati migliori?",
+        "word": "Scattare foto con il telefono o con una fotocamera: cosa dà risultati migliori?",
         "lang": "it",
         "level": "elementary",
         "theme": "technology",
@@ -3060,7 +3060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Scattare foto con il telefono o con una fotocamera — cosa dà risultati migliori?",
+                "text": "Scattare foto con il telefono o con una fotocamera: cosa dà risultati migliori?",
                 "examples": []
             }
         ],
@@ -3077,7 +3077,7 @@
     },
     {
         "id": "it_elementary_travel_015",
-        "word": "Vacanze al mare o vacanze in montagna — cosa è meglio?",
+        "word": "Vacanze al mare o vacanze in montagna: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -3085,7 +3085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vacanze al mare o vacanze in montagna — cosa è meglio?",
+                "text": "Vacanze al mare o vacanze in montagna: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3102,7 +3102,7 @@
     },
     {
         "id": "it_elementary_travel_016",
-        "word": "Viaggiare in treno o viaggiare in aereo — cosa è meglio?",
+        "word": "Viaggiare in treno o viaggiare in aereo: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -3110,7 +3110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Viaggiare in treno o viaggiare in aereo — cosa è meglio?",
+                "text": "Viaggiare in treno o viaggiare in aereo: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3127,7 +3127,7 @@
     },
     {
         "id": "it_elementary_travel_017",
-        "word": "Visitare una città famosa o visitare un piccolo villaggio — cosa è più interessante?",
+        "word": "Visitare una città famosa o visitare un piccolo villaggio: cosa è più interessante?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -3135,7 +3135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Visitare una città famosa o visitare un piccolo villaggio — cosa è più interessante?",
+                "text": "Visitare una città famosa o visitare un piccolo villaggio: cosa è più interessante?",
                 "examples": []
             }
         ],
@@ -3152,7 +3152,7 @@
     },
     {
         "id": "it_elementary_travel_018",
-        "word": "Soggiornare in un hotel o presso una famiglia locale — cosa è meglio?",
+        "word": "Soggiornare in un hotel o presso una famiglia locale: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -3160,7 +3160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Soggiornare in un hotel o presso una famiglia locale — cosa è meglio?",
+                "text": "Soggiornare in un hotel o presso una famiglia locale: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3177,7 +3177,7 @@
     },
     {
         "id": "it_elementary_travel_019",
-        "word": "Viaggiare all'estero o esplorare il proprio paese — cosa vale di più la pena?",
+        "word": "Viaggiare all'estero o esplorare il proprio paese: cosa vale di più la pena?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -3185,7 +3185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Viaggiare all'estero o esplorare il proprio paese — cosa vale di più la pena?",
+                "text": "Viaggiare all'estero o esplorare il proprio paese: cosa vale di più la pena?",
                 "examples": []
             }
         ],
@@ -3202,7 +3202,7 @@
     },
     {
         "id": "it_elementary_people_014",
-        "word": "Avere molti amici o avere pochi amici stretti — cosa è meglio?",
+        "word": "Avere molti amici o avere pochi amici stretti: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -3210,7 +3210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avere molti amici o avere pochi amici stretti — cosa è meglio?",
+                "text": "Avere molti amici o avere pochi amici stretti: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3227,7 +3227,7 @@
     },
     {
         "id": "it_elementary_people_015",
-        "word": "Incontrare gli amici di persona o chattare online — cosa è più soddisfacente?",
+        "word": "Incontrare gli amici di persona o chattare online: cosa è più soddisfacente?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -3235,7 +3235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Incontrare gli amici di persona o chattare online — cosa è più soddisfacente?",
+                "text": "Incontrare gli amici di persona o chattare online: cosa è più soddisfacente?",
                 "examples": []
             }
         ],
@@ -3252,7 +3252,7 @@
     },
     {
         "id": "it_elementary_people_016",
-        "word": "Vivere con i genitori o in un appartamento per studenti — cosa è meglio per i giovani?",
+        "word": "Vivere con i genitori o in un appartamento per studenti: cosa è meglio per i giovani?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -3260,7 +3260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivere con i genitori o in un appartamento per studenti — cosa è meglio per i giovani?",
+                "text": "Vivere con i genitori o in un appartamento per studenti: cosa è meglio per i giovani?",
                 "examples": []
             }
         ],
@@ -3277,7 +3277,7 @@
     },
     {
         "id": "it_elementary_people_017",
-        "word": "Festeggiare il compleanno a casa o uscire — cosa è più carino?",
+        "word": "Festeggiare il compleanno a casa o uscire: cosa è più carino?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -3285,7 +3285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Festeggiare il compleanno a casa o uscire — cosa è più carino?",
+                "text": "Festeggiare il compleanno a casa o uscire: cosa è più carino?",
                 "examples": []
             }
         ],
@@ -3302,7 +3302,7 @@
     },
     {
         "id": "it_elementary_jobs_032",
-        "word": "Risparmiare denaro o spendere denaro — cosa è più saggio?",
+        "word": "Risparmiare denaro o spendere denaro: cosa è più saggio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -3310,7 +3310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Risparmiare denaro o spendere denaro — cosa è più saggio?",
+                "text": "Risparmiare denaro o spendere denaro: cosa è più saggio?",
                 "examples": []
             }
         ],
@@ -3327,7 +3327,7 @@
     },
     {
         "id": "it_elementary_jobs_033",
-        "word": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola — cosa è meglio?",
+        "word": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -3335,7 +3335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola — cosa è meglio?",
+                "text": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3352,7 +3352,7 @@
     },
     {
         "id": "it_elementary_jobs_034",
-        "word": "Guadagnare molti soldi o avere tempo libero — cosa conta di più?",
+        "word": "Guadagnare molti soldi o avere tempo libero: cosa conta di più?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -3360,7 +3360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Guadagnare molti soldi o avere tempo libero — cosa conta di più?",
+                "text": "Guadagnare molti soldi o avere tempo libero: cosa conta di più?",
                 "examples": []
             }
         ],
@@ -3377,7 +3377,7 @@
     },
     {
         "id": "it_elementary_people_018",
-        "word": "Vivere con i nonni vs non vivere con loro — cosa è più piacevole?",
+        "word": "Vivere con i nonni vs non vivere con loro: cosa è più piacevole?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -3385,7 +3385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivere con i nonni vs non vivere con loro — cosa è più piacevole?",
+                "text": "Vivere con i nonni vs non vivere con loro: cosa è più piacevole?",
                 "examples": []
             }
         ],
@@ -3402,7 +3402,7 @@
     },
     {
         "id": "it_elementary_food_drink_013",
-        "word": "Cucina della mamma vs cucina del papà — quale è migliore?",
+        "word": "Cucina della mamma vs cucina del papà: quale è migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -3410,7 +3410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cucina della mamma vs cucina del papà — quale è migliore?",
+                "text": "Cucina della mamma vs cucina del papà: quale è migliore?",
                 "examples": []
             }
         ],
@@ -3427,7 +3427,7 @@
     },
     {
         "id": "it_elementary_jobs_035",
-        "word": "Matematica vs arte — quale materia è più divertente?",
+        "word": "Matematica vs arte: quale materia è più divertente?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -3435,7 +3435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Matematica vs arte — quale materia è più divertente?",
+                "text": "Matematica vs arte: quale materia è più divertente?",
                 "examples": []
             }
         ],
@@ -3452,7 +3452,7 @@
     },
     {
         "id": "it_elementary_jobs_036",
-        "word": "Scrivere su carta vs scrivere su un tablet — cosa è meglio?",
+        "word": "Scrivere su carta vs scrivere su un tablet: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -3460,7 +3460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Scrivere su carta vs scrivere su un tablet — cosa è meglio?",
+                "text": "Scrivere su carta vs scrivere su un tablet: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3477,7 +3477,7 @@
     },
     {
         "id": "it_elementary_food_drink_014",
-        "word": "Pizza vs pasta — cosa è più buono?",
+        "word": "Pizza vs pasta: cosa è più buono?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -3485,7 +3485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Pizza vs pasta — cosa è più buono?",
+                "text": "Pizza vs pasta: cosa è più buono?",
                 "examples": []
             }
         ],
@@ -3502,7 +3502,7 @@
     },
     {
         "id": "it_elementary_food_drink_015",
-        "word": "Gelato vs torta — quale è il dessert migliore?",
+        "word": "Gelato vs torta: quale è il dessert migliore?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -3510,7 +3510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Gelato vs torta — quale è il dessert migliore?",
+                "text": "Gelato vs torta: quale è il dessert migliore?",
                 "examples": []
             }
         ],
@@ -3527,7 +3527,7 @@
     },
     {
         "id": "it_elementary_environment_004",
-        "word": "Giorni brevi vs giorni lunghi — cosa è meglio?",
+        "word": "Giorni brevi vs giorni lunghi: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "environment",
@@ -3535,7 +3535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Giorni brevi vs giorni lunghi — cosa è meglio?",
+                "text": "Giorni brevi vs giorni lunghi: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3552,7 +3552,7 @@
     },
     {
         "id": "it_elementary_travel_020",
-        "word": "Giorno al parco vs giorno in spiaggia — cosa è meglio?",
+        "word": "Giorno al parco vs giorno in spiaggia: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -3560,7 +3560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Giorno al parco vs giorno in spiaggia — cosa è meglio?",
+                "text": "Giorno al parco vs giorno in spiaggia: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3577,7 +3577,7 @@
     },
     {
         "id": "it_elementary_travel_021",
-        "word": "Aereo vs treno — cosa è più divertente?",
+        "word": "Aereo vs treno: cosa è più divertente?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -3585,7 +3585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Aereo vs treno — cosa è più divertente?",
+                "text": "Aereo vs treno: cosa è più divertente?",
                 "examples": []
             }
         ],
@@ -3602,7 +3602,7 @@
     },
     {
         "id": "it_elementary_places_019",
-        "word": "Doccia al mattino vs doccia alla sera — cosa è meglio?",
+        "word": "Doccia al mattino vs doccia alla sera: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -3610,7 +3610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Doccia al mattino vs doccia alla sera — cosa è meglio?",
+                "text": "Doccia al mattino vs doccia alla sera: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3627,7 +3627,7 @@
     },
     {
         "id": "it_elementary_nature_002",
-        "word": "Gatti che buttano giù le cose vs cani che masticano le scarpe — quale animale è più fastidioso?",
+        "word": "Gatti che buttano giù le cose vs cani che masticano le scarpe: quale animale è più fastidioso?",
         "lang": "it",
         "level": "elementary",
         "theme": "nature",
@@ -3635,7 +3635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Gatti che buttano giù le cose vs cani che masticano le scarpe — quale animale è più fastidioso?",
+                "text": "Gatti che buttano giù le cose vs cani che masticano le scarpe: quale animale è più fastidioso?",
                 "examples": []
             }
         ],
@@ -3652,7 +3652,7 @@
     },
     {
         "id": "it_elementary_food_drink_016",
-        "word": "Mangiare la pizza con la forchetta vs con le mani — cosa è corretto?",
+        "word": "Mangiare la pizza con la forchetta vs con le mani: cosa è corretto?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -3660,7 +3660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mangiare la pizza con la forchetta vs con le mani — cosa è corretto?",
+                "text": "Mangiare la pizza con la forchetta vs con le mani: cosa è corretto?",
                 "examples": []
             }
         ],
@@ -3677,7 +3677,7 @@
     },
     {
         "id": "it_elementary_places_020",
-        "word": "Dormire con le calze vs senza calze — cosa è meglio?",
+        "word": "Dormire con le calze vs senza calze: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -3685,7 +3685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dormire con le calze vs senza calze — cosa è meglio?",
+                "text": "Dormire con le calze vs senza calze: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3702,7 +3702,7 @@
     },
     {
         "id": "it_elementary_social_018",
-        "word": "Castello di sabbia vs pupazzo di neve — cosa è più divertente da costruire?",
+        "word": "Castello di sabbia vs pupazzo di neve: cosa è più divertente da costruire?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -3710,7 +3710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Castello di sabbia vs pupazzo di neve — cosa è più divertente da costruire?",
+                "text": "Castello di sabbia vs pupazzo di neve: cosa è più divertente da costruire?",
                 "examples": []
             }
         ],
@@ -3727,7 +3727,7 @@
     },
     {
         "id": "it_elementary_jobs_037",
-        "word": "Molti esami vs pochissimi esami — cosa è più giusto?",
+        "word": "Molti esami vs pochissimi esami: cosa è più giusto?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -3735,7 +3735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Molti esami vs pochissimi esami — cosa è più giusto?",
+                "text": "Molti esami vs pochissimi esami: cosa è più giusto?",
                 "examples": []
             }
         ],
@@ -3752,7 +3752,7 @@
     },
     {
         "id": "it_elementary_jobs_038",
-        "word": "Iniziare la scuola a 7 anni vs iniziare a 5 anni — cosa è meglio per i bambini?",
+        "word": "Iniziare la scuola a 7 anni vs iniziare a 5 anni: cosa è meglio per i bambini?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -3760,7 +3760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Iniziare la scuola a 7 anni vs iniziare a 5 anni — cosa è meglio per i bambini?",
+                "text": "Iniziare la scuola a 7 anni vs iniziare a 5 anni: cosa è meglio per i bambini?",
                 "examples": []
             }
         ],
@@ -3777,7 +3777,7 @@
     },
     {
         "id": "it_elementary_body_010",
-        "word": "Mangiare lentamente vs mangiare velocemente — cosa è meglio per te?",
+        "word": "Mangiare lentamente vs mangiare velocemente: cosa è meglio per te?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -3785,7 +3785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mangiare lentamente vs mangiare velocemente — cosa è meglio per te?",
+                "text": "Mangiare lentamente vs mangiare velocemente: cosa è meglio per te?",
                 "examples": []
             }
         ],
@@ -3802,7 +3802,7 @@
     },
     {
         "id": "it_elementary_food_drink_017",
-        "word": "Cucinare a casa vs ordinare online — cosa è meglio?",
+        "word": "Cucinare a casa vs ordinare online: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -3810,7 +3810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cucinare a casa vs ordinare online — cosa è meglio?",
+                "text": "Cucinare a casa vs ordinare online: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3827,7 +3827,7 @@
     },
     {
         "id": "it_elementary_social_019",
-        "word": "Cucinare vs fare dolci — cosa è più divertente come hobby?",
+        "word": "Cucinare vs fare dolci: cosa è più divertente come hobby?",
         "lang": "it",
         "level": "elementary",
         "theme": "social",
@@ -3835,7 +3835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cucinare vs fare dolci — cosa è più divertente come hobby?",
+                "text": "Cucinare vs fare dolci: cosa è più divertente come hobby?",
                 "examples": []
             }
         ],
@@ -3852,7 +3852,7 @@
     },
     {
         "id": "it_elementary_body_011",
-        "word": "Andare in palestra vs allenarsi all'aperto — cosa è meglio?",
+        "word": "Andare in palestra vs allenarsi all'aperto: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "body",
@@ -3860,7 +3860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Andare in palestra vs allenarsi all'aperto — cosa è meglio?",
+                "text": "Andare in palestra vs allenarsi all'aperto: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3877,7 +3877,7 @@
     },
     {
         "id": "it_elementary_technology_006",
-        "word": "Foto sul telefono vs foto stampate — cosa è meglio?",
+        "word": "Foto sul telefono vs foto stampate: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "technology",
@@ -3885,7 +3885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Foto sul telefono vs foto stampate — cosa è meglio?",
+                "text": "Foto sul telefono vs foto stampate: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3902,7 +3902,7 @@
     },
     {
         "id": "it_elementary_technology_007",
-        "word": "Smart TV vs schermo del computer — cosa è meglio per guardare film?",
+        "word": "Smart TV vs schermo del computer: cosa è meglio per guardare film?",
         "lang": "it",
         "level": "elementary",
         "theme": "technology",
@@ -3910,7 +3910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Smart TV vs schermo del computer — cosa è meglio per guardare film?",
+                "text": "Smart TV vs schermo del computer: cosa è meglio per guardare film?",
                 "examples": []
             }
         ],
@@ -3927,7 +3927,7 @@
     },
     {
         "id": "it_elementary_travel_022",
-        "word": "Paese caldo vs paese freddo — quale è la migliore destinazione per le vacanze?",
+        "word": "Paese caldo vs paese freddo: quale è la migliore destinazione per le vacanze?",
         "lang": "it",
         "level": "elementary",
         "theme": "travel",
@@ -3935,7 +3935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Paese caldo vs paese freddo — quale è la migliore destinazione per le vacanze?",
+                "text": "Paese caldo vs paese freddo: quale è la migliore destinazione per le vacanze?",
                 "examples": []
             }
         ],
@@ -3952,7 +3952,7 @@
     },
     {
         "id": "it_elementary_people_019",
-        "word": "Fare regali vs ricevere regali — cosa è meglio?",
+        "word": "Fare regali vs ricevere regali: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "people",
@@ -3960,7 +3960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fare regali vs ricevere regali — cosa è meglio?",
+                "text": "Fare regali vs ricevere regali: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3977,7 +3977,7 @@
     },
     {
         "id": "it_elementary_jobs_039",
-        "word": "Lavorare al chiuso vs lavorare all'aperto — cosa è meglio?",
+        "word": "Lavorare al chiuso vs lavorare all'aperto: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "jobs",
@@ -3985,7 +3985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lavorare al chiuso vs lavorare all'aperto — cosa è meglio?",
+                "text": "Lavorare al chiuso vs lavorare all'aperto: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4002,7 +4002,7 @@
     },
     {
         "id": "it_elementary_food_drink_018",
-        "word": "Ananas sulla pizza vs niente ananas — cosa è corretto?",
+        "word": "Ananas sulla pizza vs niente ananas: cosa è corretto?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -4010,7 +4010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ananas sulla pizza vs niente ananas — cosa è corretto?",
+                "text": "Ananas sulla pizza vs niente ananas: cosa è corretto?",
                 "examples": []
             }
         ],
@@ -4027,7 +4027,7 @@
     },
     {
         "id": "it_elementary_food_drink_019",
-        "word": "Mettere prima il latte vs mettere prima il tè — cosa è meglio?",
+        "word": "Mettere prima il latte vs mettere prima il tè: cosa è meglio?",
         "lang": "it",
         "level": "elementary",
         "theme": "food_drink",
@@ -4035,7 +4035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mettere prima il latte vs mettere prima il tè — cosa è meglio?",
+                "text": "Mettere prima il latte vs mettere prima il tè: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4052,7 +4052,7 @@
     },
     {
         "id": "it_elementary_places_021",
-        "word": "Lunedì vs Venerdì — quale giorno è effettivamente peggiore?",
+        "word": "Lunedì vs Venerdì: quale giorno è effettivamente peggiore?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -4060,7 +4060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lunedì vs Venerdì — quale giorno è effettivamente peggiore?",
+                "text": "Lunedì vs Venerdì: quale giorno è effettivamente peggiore?",
                 "examples": []
             }
         ],
@@ -4077,7 +4077,7 @@
     },
     {
         "id": "it_elementary_places_022",
-        "word": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia — cosa è più fastidioso?",
+        "word": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia: cosa è più fastidioso?",
         "lang": "it",
         "level": "elementary",
         "theme": "places",
@@ -4085,7 +4085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia — cosa è più fastidioso?",
+                "text": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia: cosa è più fastidioso?",
                 "examples": []
             }
         ],
@@ -4102,7 +4102,7 @@
     },
     {
         "id": "it_elementary_nature_003",
-        "word": "Gatti vs cani — quale animale è segretamente il capo della casa?",
+        "word": "Gatti vs cani: quale animale è segretamente il capo della casa?",
         "lang": "it",
         "level": "elementary",
         "theme": "nature",
@@ -4110,7 +4110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Gatti vs cani — quale animale è segretamente il capo della casa?",
+                "text": "Gatti vs cani: quale animale è segretamente il capo della casa?",
                 "examples": []
             }
         ],
@@ -4127,7 +4127,7 @@
     },
     {
         "id": "it_elementary_environment_005",
-        "word": "Avere troppo caldo vs avere troppo freddo — cosa è peggio?",
+        "word": "Avere troppo caldo vs avere troppo freddo: cosa è peggio?",
         "lang": "it",
         "level": "elementary",
         "theme": "environment",
@@ -4135,7 +4135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avere troppo caldo vs avere troppo freddo — cosa è peggio?",
+                "text": "Avere troppo caldo vs avere troppo freddo: cosa è peggio?",
                 "examples": []
             }
         ],

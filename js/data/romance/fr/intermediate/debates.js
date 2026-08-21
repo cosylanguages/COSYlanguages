@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "fr_intermediate_social_001",
-        "word": "Travail à distance vs travail au bureau — qu'est-ce qui est le mieux pour la productivité et le bien-être ?",
+        "word": "Travail à distance vs travail au bureau: qu'est-ce qui est le mieux pour la productivité et le bien-être ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -10,7 +10,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travail à distance vs travail au bureau — qu'est-ce qui est le mieux pour la productivité et le bien-être ?",
+                "text": "Travail à distance vs travail au bureau: qu'est-ce qui est le mieux pour la productivité et le bien-être ?",
                 "examples": []
             }
         ],
@@ -27,7 +27,7 @@
     },
     {
         "id": "fr_intermediate_social_002",
-        "word": "Sécurité d'emploi vs évolution de carrière — sur quoi les adultes devraient-ils donner la priorité ?",
+        "word": "Sécurité d'emploi vs évolution de carrière: sur quoi les adultes devraient-ils donner la priorité ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -35,7 +35,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sécurité d'emploi vs évolution de carrière — sur quoi les adultes devraient-ils donner la priorité ?",
+                "text": "Sécurité d'emploi vs évolution de carrière: sur quoi les adultes devraient-ils donner la priorité ?",
                 "examples": []
             }
         ],
@@ -52,7 +52,7 @@
     },
     {
         "id": "fr_intermediate_social_003",
-        "word": "Créer sa propre entreprise vs travailler pour un employeur — quel est le meilleur choix à 30 ans ?",
+        "word": "Créer sa propre entreprise vs travailler pour un employeur: quel est le meilleur choix à 30 ans ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -60,7 +60,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Créer sa propre entreprise vs travailler pour un employeur — quel est le meilleur choix à 30 ans ?",
+                "text": "Créer sa propre entreprise vs travailler pour un employeur: quel est le meilleur choix à 30 ans ?",
                 "examples": []
             }
         ],
@@ -77,7 +77,7 @@
     },
     {
         "id": "fr_intermediate_social_004",
-        "word": "Ambition vs équilibre vie-travail — peut-on vraiment avoir les deux ?",
+        "word": "Ambition vs équilibre vie-travail: peut-on vraiment avoir les deux ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -85,7 +85,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ambition vs équilibre vie-travail — peut-on vraiment avoir les deux ?",
+                "text": "Ambition vs équilibre vie-travail: peut-on vraiment avoir les deux ?",
                 "examples": []
             }
         ],
@@ -102,7 +102,7 @@
     },
     {
         "id": "fr_intermediate_social_005",
-        "word": "Réseautage vs développement des compétences — qu'est-ce qui fait progresser le plus votre carrière ?",
+        "word": "Réseautage vs développement des compétences: qu'est-ce qui fait progresser le plus votre carrière ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -110,7 +110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Réseautage vs développement des compétences — qu'est-ce qui fait progresser le plus votre carrière ?",
+                "text": "Réseautage vs développement des compétences: qu'est-ce qui fait progresser le plus votre carrière ?",
                 "examples": []
             }
         ],
@@ -127,7 +127,7 @@
     },
     {
         "id": "fr_intermediate_social_006",
-        "word": "Feedback honnête d'un manager vs être laissé à travailler de manière autonome — qu'est-ce qui motive le plus les adultes ?",
+        "word": "Feedback honnête d'un manager vs être laissé à travailler de manière autonome: qu'est-ce qui motive le plus les adultes ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -135,7 +135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Feedback honnête d'un manager vs être laissé à travailler de manière autonome — qu'est-ce qui motive le plus les adultes ?",
+                "text": "Feedback honnête d'un manager vs être laissé à travailler de manière autonome: qu'est-ce qui motive le plus les adultes ?",
                 "examples": []
             }
         ],
@@ -152,7 +152,7 @@
     },
     {
         "id": "fr_intermediate_social_007",
-        "word": "Changer de carrière à 40 ans vs rester dans son domaine — quelle est la décision la plus sage ?",
+        "word": "Changer de carrière à 40 ans vs rester dans son domaine: quelle est la décision la plus sage ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -160,7 +160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Changer de carrière à 40 ans vs rester dans son domaine — quelle est la décision la plus sage ?",
+                "text": "Changer de carrière à 40 ans vs rester dans son domaine: quelle est la décision la plus sage ?",
                 "examples": []
             }
         ],
@@ -177,7 +177,7 @@
     },
     {
         "id": "fr_intermediate_social_008",
-        "word": "Rembourser son hypothèque par anticipation vs investir cet argent — qu'est-ce qui est le plus intelligent ?",
+        "word": "Rembourser son hypothèque par anticipation vs investir cet argent: qu'est-ce qui est le plus intelligent ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -185,7 +185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Rembourser son hypothèque par anticipation vs investir cet argent — qu'est-ce qui est le plus intelligent ?",
+                "text": "Rembourser son hypothèque par anticipation vs investir cet argent: qu'est-ce qui est le plus intelligent ?",
                 "examples": []
             }
         ],
@@ -202,7 +202,7 @@
     },
     {
         "id": "fr_intermediate_social_009",
-        "word": "Posséder une maison vs louer en permanence — qu'est-ce qui convient le mieux à la vie adulte moderne ?",
+        "word": "Posséder une maison vs louer en permanence: qu'est-ce qui convient le mieux à la vie adulte moderne ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -210,7 +210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Posséder une maison vs louer en permanence — qu'est-ce qui convient le mieux à la vie adulte moderne ?",
+                "text": "Posséder une maison vs louer en permanence: qu'est-ce qui convient le mieux à la vie adulte moderne ?",
                 "examples": []
             }
         ],
@@ -227,7 +227,7 @@
     },
     {
         "id": "fr_intermediate_social_010",
-        "word": "Épargner tôt pour la retraite vs profiter de son argent à la trentaine — qu'est-ce qui est plus sage ?",
+        "word": "Épargner tôt pour la retraite vs profiter de son argent à la trentaine: qu'est-ce qui est plus sage ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -235,7 +235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Épargner tôt pour la retraite vs profiter de son argent à la trentaine — qu'est-ce qui est plus sage ?",
+                "text": "Épargner tôt pour la retraite vs profiter de son argent à la trentaine: qu'est-ce qui est plus sage ?",
                 "examples": []
             }
         ],
@@ -252,7 +252,7 @@
     },
     {
         "id": "fr_intermediate_social_011",
-        "word": "Vivre en dessous de ses moyens vs dépenser pour profiter de la vie maintenant — quelle approche est la plus saine ?",
+        "word": "Vivre en dessous de ses moyens vs dépenser pour profiter de la vie maintenant: quelle approche est la plus saine ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -260,7 +260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre en dessous de ses moyens vs dépenser pour profiter de la vie maintenant — quelle approche est la plus saine ?",
+                "text": "Vivre en dessous de ses moyens vs dépenser pour profiter de la vie maintenant: quelle approche est la plus saine ?",
                 "examples": []
             }
         ],
@@ -277,7 +277,7 @@
     },
     {
         "id": "fr_intermediate_social_012",
-        "word": "Deux revenus dans un foyer vs un partenaire qui reste à la maison — qu'est-ce qui fonctionne le mieux pour les familles ?",
+        "word": "Deux revenus dans un foyer vs un partenaire qui reste à la maison: qu'est-ce qui fonctionne le mieux pour les familles ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -285,7 +285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Deux revenus dans un foyer vs un partenaire qui reste à la maison — qu'est-ce qui fonctionne le mieux pour les familles ?",
+                "text": "Deux revenus dans un foyer vs un partenaire qui reste à la maison: qu'est-ce qui fonctionne le mieux pour les familles ?",
                 "examples": []
             }
         ],
@@ -302,7 +302,7 @@
     },
     {
         "id": "fr_intermediate_social_013",
-        "word": "Avoir des enfants vs choisir de ne pas en avoir — qu'est-ce qui rend la vie adulte plus épanouissante ?",
+        "word": "Avoir des enfants vs choisir de ne pas en avoir: qu'est-ce qui rend la vie adulte plus épanouissante ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -310,7 +310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avoir des enfants vs choisir de ne pas en avoir — qu'est-ce qui rend la vie adulte plus épanouissante ?",
+                "text": "Avoir des enfants vs choisir de ne pas en avoir: qu'est-ce qui rend la vie adulte plus épanouissante ?",
                 "examples": []
             }
         ],
@@ -327,7 +327,7 @@
     },
     {
         "id": "fr_intermediate_social_014",
-        "word": "Parentalité stricte vs parentalité permissive — qu'est-ce qui produit des adultes plus heureux ?",
+        "word": "Parentalité stricte vs parentalité permissive: qu'est-ce qui produit des adultes plus heureux ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -335,7 +335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Parentalité stricte vs parentalité permissive — qu'est-ce qui produit des adultes plus heureux ?",
+                "text": "Parentalité stricte vs parentalité permissive: qu'est-ce qui produit des adultes plus heureux ?",
                 "examples": []
             }
         ],
@@ -352,7 +352,7 @@
     },
     {
         "id": "fr_intermediate_social_015",
-        "word": "Relation à long terme vs rester célibataire — qu'est-ce qui est le mieux pour la croissance personnelle ?",
+        "word": "Relation à long terme vs rester célibataire: qu'est-ce qui est le mieux pour la croissance personnelle ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -360,7 +360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Relation à long terme vs rester célibataire — qu'est-ce qui est le mieux pour la croissance personnelle ?",
+                "text": "Relation à long terme vs rester célibataire: qu'est-ce qui est le mieux pour la croissance personnelle ?",
                 "examples": []
             }
         ],
@@ -377,7 +377,7 @@
     },
     {
         "id": "fr_intermediate_social_016",
-        "word": "Garder la vie professionnelle et la vie privée séparées vs les intégrer — qu'est-ce qui est le plus sain ?",
+        "word": "Garder la vie professionnelle et la vie privée séparées vs les intégrer: qu'est-ce qui est le plus sain ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -385,7 +385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Garder la vie professionnelle et la vie privée séparées vs les intégrer — qu'est-ce qui est le plus sain ?",
+                "text": "Garder la vie professionnelle et la vie privée séparées vs les intégrer: qu'est-ce qui est le plus sain ?",
                 "examples": []
             }
         ],
@@ -402,7 +402,7 @@
     },
     {
         "id": "fr_intermediate_social_017",
-        "word": "S'installer à l'étranger en couple vs rester proche de la famille — quel est le bon choix ?",
+        "word": "S'installer à l'étranger en couple vs rester proche de la famille: quel est le bon choix ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -410,7 +410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "S'installer à l'étranger en couple vs rester proche de la famille — quel est le bon choix ?",
+                "text": "S'installer à l'étranger en couple vs rester proche de la famille: quel est le bon choix ?",
                 "examples": []
             }
         ],
@@ -427,7 +427,7 @@
     },
     {
         "id": "fr_intermediate_social_018",
-        "word": "Donner la priorité à la santé physique vs la santé mentale — sur quoi les adultes devraient-ils se concentrer en premier ?",
+        "word": "Donner la priorité à la santé physique vs la santé mentale: sur quoi les adultes devraient-ils se concentrer en premier ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -435,7 +435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Donner la priorité à la santé physique vs la santé mentale — sur quoi les adultes devraient-ils se concentrer en premier ?",
+                "text": "Donner la priorité à la santé physique vs la santé mentale: sur quoi les adultes devraient-ils se concentrer en premier ?",
                 "examples": []
             }
         ],
@@ -452,7 +452,7 @@
     },
     {
         "id": "fr_intermediate_social_019",
-        "word": "Santé privée vs s'appuyer sur le système public — quelle est la meilleure stratégie pour un adulte ?",
+        "word": "Santé privée vs s'appuyer sur le système public: quelle est la meilleure stratégie pour un adulte ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -460,7 +460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Santé privée vs s'appuyer sur le système public — quelle est la meilleure stratégie pour un adulte ?",
+                "text": "Santé privée vs s'appuyer sur le système public: quelle est la meilleure stratégie pour un adulte ?",
                 "examples": []
             }
         ],
@@ -477,7 +477,7 @@
     },
     {
         "id": "fr_intermediate_social_020",
-        "word": "Contrôles médicaux réguliers vs n'y aller que lorsqu'on est malade — quelle est l'approche la plus intelligente ?",
+        "word": "Contrôles médicaux réguliers vs n'y aller que lorsqu'on est malade: quelle est l'approche la plus intelligente ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -485,7 +485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Contrôles médicaux réguliers vs n'y aller que lorsqu'on est malade — quelle est l'approche la plus intelligente ?",
+                "text": "Contrôles médicaux réguliers vs n'y aller que lorsqu'on est malade: quelle est l'approche la plus intelligente ?",
                 "examples": []
             }
         ],
@@ -502,7 +502,7 @@
     },
     {
         "id": "fr_intermediate_social_021",
-        "word": "Réduire l'alcool vs réduire le stress — qu'est-ce qui a le plus d'impact sur la santé des adultes ?",
+        "word": "Réduire l'alcool vs réduire le stress: qu'est-ce qui a le plus d'impact sur la santé des adultes ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -510,7 +510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Réduire l'alcool vs réduire le stress — qu'est-ce qui a le plus d'impact sur la santé des adultes ?",
+                "text": "Réduire l'alcool vs réduire le stress: qu'est-ce qui a le plus d'impact sur la santé des adultes ?",
                 "examples": []
             }
         ],
@@ -527,7 +527,7 @@
     },
     {
         "id": "fr_intermediate_social_022",
-        "word": "Liberté individuelle vs responsabilité communautaire — qu'est-ce qui devrait guider les décisions des adultes ?",
+        "word": "Liberté individuelle vs responsabilité communautaire: qu'est-ce qui devrait guider les décisions des adultes ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -535,7 +535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Liberté individuelle vs responsabilité communautaire — qu'est-ce qui devrait guider les décisions des adultes ?",
+                "text": "Liberté individuelle vs responsabilité communautaire: qu'est-ce qui devrait guider les décisions des adultes ?",
                 "examples": []
             }
         ],
@@ -552,7 +552,7 @@
     },
     {
         "id": "fr_intermediate_social_023",
-        "word": "Optimisme pour l'avenir vs réalisme — quelle est l'attitude la plus utile pour les adultes ?",
+        "word": "Optimisme pour l'avenir vs réalisme: quelle est l'attitude la plus utile pour les adultes ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -560,7 +560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Optimisme pour l'avenir vs réalisme — quelle est l'attitude la plus utile pour les adultes ?",
+                "text": "Optimisme pour l'avenir vs réalisme: quelle est l'attitude la plus utile pour les adultes ?",
                 "examples": []
             }
         ],
@@ -577,7 +577,7 @@
     },
     {
         "id": "fr_intermediate_social_024",
-        "word": "Changer le monde vs construire une vie personnelle stable — quelle est l'ambition la plus honnête ?",
+        "word": "Changer le monde vs construire une vie personnelle stable: quelle est l'ambition la plus honnête ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -585,7 +585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Changer le monde vs construire une vie personnelle stable — quelle est l'ambition la plus honnête ?",
+                "text": "Changer le monde vs construire une vie personnelle stable: quelle est l'ambition la plus honnête ?",
                 "examples": []
             }
         ],
@@ -602,7 +602,7 @@
     },
     {
         "id": "fr_intermediate_social_025",
-        "word": "Consacrer son temps au bénévolat vs donner de l'argent — qu'est-ce qui fait le plus de bien ?",
+        "word": "Consacrer son temps au bénévolat vs donner de l'argent: qu'est-ce qui fait le plus de bien ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -610,7 +610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Consacrer son temps au bénévolat vs donner de l'argent — qu'est-ce qui fait le plus de bien ?",
+                "text": "Consacrer son temps au bénévolat vs donner de l'argent: qu'est-ce qui fait le plus de bien ?",
                 "examples": []
             }
         ],
@@ -627,7 +627,7 @@
     },
     {
         "id": "fr_intermediate_social_026",
-        "word": "Suivre les valeurs de sa génération vs les remettre en question — qu'est-ce qui est le plus admirable ?",
+        "word": "Suivre les valeurs de sa génération vs les remettre en question: qu'est-ce qui est le plus admirable ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -635,7 +635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Suivre les valeurs de sa génération vs les remettre en question — qu'est-ce qui est le plus admirable ?",
+                "text": "Suivre les valeurs de sa génération vs les remettre en question: qu'est-ce qui est le plus admirable ?",
                 "examples": []
             }
         ],
@@ -652,7 +652,7 @@
     },
     {
         "id": "fr_intermediate_social_027",
-        "word": "Savoir combien vos collègues gagnent vs ne pas savoir — qu'est-ce qui est le mieux pour l'harmonie au bureau ?",
+        "word": "Savoir combien vos collègues gagnent vs ne pas savoir: qu'est-ce qui est le mieux pour l'harmonie au bureau ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -660,7 +660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Savoir combien vos collègues gagnent vs ne pas savoir — qu'est-ce qui est le mieux pour l'harmonie au bureau ?",
+                "text": "Savoir combien vos collègues gagnent vs ne pas savoir: qu'est-ce qui est le mieux pour l'harmonie au bureau ?",
                 "examples": []
             }
         ],
@@ -677,7 +677,7 @@
     },
     {
         "id": "fr_intermediate_social_028",
-        "word": "Répondre aux messages immédiatement vs prendre son temps — qu'est-ce qui est le plus respectueux dans la vie adulte ?",
+        "word": "Répondre aux messages immédiatement vs prendre son temps: qu'est-ce qui est le plus respectueux dans la vie adulte ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -685,7 +685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Répondre aux messages immédiatement vs prendre son temps — qu'est-ce qui est le plus respectueux dans la vie adulte ?",
+                "text": "Répondre aux messages immédiatement vs prendre son temps: qu'est-ce qui est le plus respectueux dans la vie adulte ?",
                 "examples": []
             }
         ],
@@ -702,7 +702,7 @@
     },
     {
         "id": "fr_intermediate_social_029",
-        "word": "Admettre qu'on n'a aucune idée de ce qu'est un fonds de pension vs prétendre qu'on le sait — quelle est l'expérience adulte la plus courante ?",
+        "word": "Admettre qu'on n'a aucune idée de ce qu'est un fonds de pension vs prétendre qu'on le sait: quelle est l'expérience adulte la plus courante ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -710,7 +710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Admettre qu'on n'a aucune idée de ce qu'est un fonds de pension vs prétendre qu'on le sait — quelle est l'expérience adulte la plus courante ?",
+                "text": "Admettre qu'on n'a aucune idée de ce qu'est un fonds de pension vs prétendre qu'on le sait: quelle est l'expérience adulte la plus courante ?",
                 "examples": []
             }
         ],
@@ -727,7 +727,7 @@
     },
     {
         "id": "fr_intermediate_social_030",
-        "word": "Annuler des plans à la dernière minute vs sortir quand on n'en a pas envie — quelle est la pire habitude adulte ?",
+        "word": "Annuler des plans à la dernière minute vs sortir quand on n'en a pas envie: quelle est la pire habitude adulte ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -735,7 +735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Annuler des plans à la dernière minute vs sortir quand on n'en a pas envie — quelle est la pire habitude adulte ?",
+                "text": "Annuler des plans à la dernière minute vs sortir quand on n'en a pas envie: quelle est la pire habitude adulte ?",
                 "examples": []
             }
         ],
@@ -752,7 +752,7 @@
     },
     {
         "id": "fr_intermediate_social_031",
-        "word": "Parler ouvertement d'argent avec ses amis vs garder cela privé — quelle est l'approche la plus mature ?",
+        "word": "Parler ouvertement d'argent avec ses amis vs garder cela privé: quelle est l'approche la plus mature ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -760,7 +760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Parler ouvertement d'argent avec ses amis vs garder cela privé — quelle est l'approche la plus mature ?",
+                "text": "Parler ouvertement d'argent avec ses amis vs garder cela privé: quelle est l'approche la plus mature ?",
                 "examples": []
             }
         ],
@@ -827,7 +827,7 @@
     },
     {
         "id": "fr_intermediate_social_034",
-        "word": "Apprentissage en ligne ou apprentissage en classe — qu'est-ce qui est le plus efficace ?",
+        "word": "Apprentissage en ligne ou apprentissage en classe: qu'est-ce qui est le plus efficace ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -835,7 +835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Apprentissage en ligne ou apprentissage en classe — qu'est-ce qui est le plus efficace ?",
+                "text": "Apprentissage en ligne ou apprentissage en classe: qu'est-ce qui est le plus efficace ?",
                 "examples": []
             }
         ],
@@ -852,7 +852,7 @@
     },
     {
         "id": "fr_intermediate_social_035",
-        "word": "Mémoriser des faits ou apprendre à trouver des informations — quelle compétence est la plus importante ?",
+        "word": "Mémoriser des faits ou apprendre à trouver des informations: quelle compétence est la plus importante ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -860,7 +860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mémoriser des faits ou apprendre à trouver des informations — quelle compétence est la plus importante ?",
+                "text": "Mémoriser des faits ou apprendre à trouver des informations: quelle compétence est la plus importante ?",
                 "examples": []
             }
         ],
@@ -877,7 +877,7 @@
     },
     {
         "id": "fr_intermediate_social_036",
-        "word": "Études universitaires ou formation professionnelle — quelle est la meilleure voie ?",
+        "word": "Études universitaires ou formation professionnelle: quelle est la meilleure voie ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -885,7 +885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Études universitaires ou formation professionnelle — quelle est la meilleure voie ?",
+                "text": "Études universitaires ou formation professionnelle: quelle est la meilleure voie ?",
                 "examples": []
             }
         ],
@@ -902,7 +902,7 @@
     },
     {
         "id": "fr_intermediate_social_037",
-        "word": "Examens ou évaluation continue — quel est le moyen le plus juste d'évaluer les élèves ?",
+        "word": "Examens ou évaluation continue: quel est le moyen le plus juste d'évaluer les élèves ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -910,7 +910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Examens ou évaluation continue — quel est le moyen le plus juste d'évaluer les élèves ?",
+                "text": "Examens ou évaluation continue: quel est le moyen le plus juste d'évaluer les élèves ?",
                 "examples": []
             }
         ],
@@ -927,7 +927,7 @@
     },
     {
         "id": "fr_intermediate_social_038",
-        "word": "Apprendre une langue étrangère à l'école ou vivre à l'étranger — qu'est-ce qui est le plus efficace ?",
+        "word": "Apprendre une langue étrangère à l'école ou vivre à l'étranger: qu'est-ce qui est le plus efficace ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -935,7 +935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Apprendre une langue étrangère à l'école ou vivre à l'étranger — qu'est-ce qui est le plus efficace ?",
+                "text": "Apprendre une langue étrangère à l'école ou vivre à l'étranger: qu'est-ce qui est le plus efficace ?",
                 "examples": []
             }
         ],
@@ -952,7 +952,7 @@
     },
     {
         "id": "fr_intermediate_social_039",
-        "word": "Écoles non mixtes ou écoles mixtes — lesquelles sont les meilleures pour les élèves ?",
+        "word": "Écoles non mixtes ou écoles mixtes: lesquelles sont les meilleures pour les élèves ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -960,7 +960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Écoles non mixtes ou écoles mixtes — lesquelles sont les meilleures pour les élèves ?",
+                "text": "Écoles non mixtes ou écoles mixtes: lesquelles sont les meilleures pour les élèves ?",
                 "examples": []
             }
         ],
@@ -977,7 +977,7 @@
     },
     {
         "id": "fr_intermediate_social_040",
-        "word": "Réseaux sociaux ou communication en face à face — qu'est-ce qui est le mieux pour rester en contact ?",
+        "word": "Réseaux sociaux ou communication en face à face: qu'est-ce qui est le mieux pour rester en contact ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -985,7 +985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Réseaux sociaux ou communication en face à face — qu'est-ce qui est le mieux pour rester en contact ?",
+                "text": "Réseaux sociaux ou communication en face à face: qu'est-ce qui est le mieux pour rester en contact ?",
                 "examples": []
             }
         ],
@@ -1002,7 +1002,7 @@
     },
     {
         "id": "fr_intermediate_social_041",
-        "word": "Services de streaming ou télévision traditionnelle — qu'est-ce qui est le mieux ?",
+        "word": "Services de streaming ou télévision traditionnelle: qu'est-ce qui est le mieux ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1010,7 +1010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Services de streaming ou télévision traditionnelle — qu'est-ce qui est le mieux ?",
+                "text": "Services de streaming ou télévision traditionnelle: qu'est-ce qui est le mieux ?",
                 "examples": []
             }
         ],
@@ -1027,7 +1027,7 @@
     },
     {
         "id": "fr_intermediate_social_042",
-        "word": "Travailler de chez soi ou travailler dans un bureau — qu'est-ce qui est le plus productif ?",
+        "word": "Travailler de chez soi ou travailler dans un bureau: qu'est-ce qui est le plus productif ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1035,7 +1035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travailler de chez soi ou travailler dans un bureau — qu'est-ce qui est le plus productif ?",
+                "text": "Travailler de chez soi ou travailler dans un bureau: qu'est-ce qui est le plus productif ?",
                 "examples": []
             }
         ],
@@ -1052,7 +1052,7 @@
     },
     {
         "id": "fr_intermediate_social_043",
-        "word": "Lire les infos en ligne ou lire un journal — qu'est-ce qui est le plus fiable ?",
+        "word": "Lire les infos en ligne ou lire un journal: qu'est-ce qui est le plus fiable ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1060,7 +1060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Lire les infos en ligne ou lire un journal — qu'est-ce qui est le plus fiable ?",
+                "text": "Lire les infos en ligne ou lire un journal: qu'est-ce qui est le plus fiable ?",
                 "examples": []
             }
         ],
@@ -1077,7 +1077,7 @@
     },
     {
         "id": "fr_intermediate_social_044",
-        "word": "Passer du temps sur les réseaux sociaux ou passer du temps dans la nature — qu'est-ce qui est le mieux pour votre santé mentale ?",
+        "word": "Passer du temps sur les réseaux sociaux ou passer du temps dans la nature: qu'est-ce qui est le mieux pour votre santé mentale ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1085,7 +1085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Passer du temps sur les réseaux sociaux ou passer du temps dans la nature — qu'est-ce qui est le mieux pour votre santé mentale ?",
+                "text": "Passer du temps sur les réseaux sociaux ou passer du temps dans la nature: qu'est-ce qui est le mieux pour votre santé mentale ?",
                 "examples": []
             }
         ],
@@ -1102,7 +1102,7 @@
     },
     {
         "id": "fr_intermediate_social_045",
-        "word": "Utiliser les transports publics ou conduire une voiture — qu'est-ce qui est le mieux pour la société ?",
+        "word": "Utiliser les transports publics ou conduire une voiture: qu'est-ce qui est le mieux pour la société ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1110,7 +1110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Utiliser les transports publics ou conduire une voiture — qu'est-ce qui est le mieux pour la société ?",
+                "text": "Utiliser les transports publics ou conduire une voiture: qu'est-ce qui est le mieux pour la société ?",
                 "examples": []
             }
         ],
@@ -1127,7 +1127,7 @@
     },
     {
         "id": "fr_intermediate_social_046",
-        "word": "Acheter des vêtements d'occasion ou acheter des vêtements neufs — quelle est la meilleure habitude ?",
+        "word": "Acheter des vêtements d'occasion ou acheter des vêtements neufs: quelle est la meilleure habitude ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1135,7 +1135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Acheter des vêtements d'occasion ou acheter des vêtements neufs — quelle est la meilleure habitude ?",
+                "text": "Acheter des vêtements d'occasion ou acheter des vêtements neufs: quelle est la meilleure habitude ?",
                 "examples": []
             }
         ],
@@ -1152,7 +1152,7 @@
     },
     {
         "id": "fr_intermediate_social_047",
-        "word": "Vivre en ville ou vivre à la campagne — qu'est-ce qui convient le mieux aux jeunes ?",
+        "word": "Vivre en ville ou vivre à la campagne: qu'est-ce qui convient le mieux aux jeunes ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1160,7 +1160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre en ville ou vivre à la campagne — qu'est-ce qui convient le mieux aux jeunes ?",
+                "text": "Vivre en ville ou vivre à la campagne: qu'est-ce qui convient le mieux aux jeunes ?",
                 "examples": []
             }
         ],
@@ -1177,7 +1177,7 @@
     },
     {
         "id": "fr_intermediate_social_048",
-        "word": "Végétarisme ou manger de la viande — qu'est-ce qui est le mieux pour la planète ?",
+        "word": "Végétarisme ou manger de la viande: qu'est-ce qui est le mieux pour la planète ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1185,7 +1185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Végétarisme ou manger de la viande — qu'est-ce qui est le mieux pour la planète ?",
+                "text": "Végétarisme ou manger de la viande: qu'est-ce qui est le mieux pour la planète ?",
                 "examples": []
             }
         ],
@@ -1202,7 +1202,7 @@
     },
     {
         "id": "fr_intermediate_social_049",
-        "word": "Changements de mode de vie individuels ou action gouvernementale — qu'est-ce qui fait le plus pour l'environnement ?",
+        "word": "Changements de mode de vie individuels ou action gouvernementale: qu'est-ce qui fait le plus pour l'environnement ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1210,7 +1210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Changements de mode de vie individuels ou action gouvernementale — qu'est-ce qui fait le plus pour l'environnement ?",
+                "text": "Changements de mode de vie individuels ou action gouvernementale: qu'est-ce qui fait le plus pour l'environnement ?",
                 "examples": []
             }
         ],
@@ -1227,7 +1227,7 @@
     },
     {
         "id": "fr_intermediate_social_050",
-        "word": "Un emploi stable ou une carrière créative — quel est le meilleur choix de vie ?",
+        "word": "Un emploi stable ou une carrière créative: quel est le meilleur choix de vie ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1235,7 +1235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Un emploi stable ou une carrière créative — quel est le meilleur choix de vie ?",
+                "text": "Un emploi stable ou une carrière créative: quel est le meilleur choix de vie ?",
                 "examples": []
             }
         ],
@@ -1252,7 +1252,7 @@
     },
     {
         "id": "fr_intermediate_social_051",
-        "word": "Créer sa propre entreprise ou travailler pour une entreprise — qu'est-ce qui est mieux ?",
+        "word": "Créer sa propre entreprise ou travailler pour une entreprise: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1260,7 +1260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Créer sa propre entreprise ou travailler pour une entreprise — qu'est-ce qui est mieux ?",
+                "text": "Créer sa propre entreprise ou travailler pour une entreprise: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1277,7 +1277,7 @@
     },
     {
         "id": "fr_intermediate_social_052",
-        "word": "Salaire élevé ou satisfaction au travail — qu'est-ce qui compte le plus au travail ?",
+        "word": "Salaire élevé ou satisfaction au travail: qu'est-ce qui compte le plus au travail ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1285,7 +1285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Salaire élevé ou satisfaction au travail — qu'est-ce qui compte le plus au travail ?",
+                "text": "Salaire élevé ou satisfaction au travail: qu'est-ce qui compte le plus au travail ?",
                 "examples": []
             }
         ],
@@ -1302,7 +1302,7 @@
     },
     {
         "id": "fr_intermediate_social_053",
-        "word": "Travailler de longues heures ou avoir un équilibre vie-travail — qu'est-ce qui mène à plus de succès ?",
+        "word": "Travailler de longues heures ou avoir un équilibre vie-travail: qu'est-ce qui mène à plus de succès ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1310,7 +1310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Travailler de longues heures ou avoir un équilibre vie-travail — qu'est-ce qui mène à plus de succès ?",
+                "text": "Travailler de longues heures ou avoir un équilibre vie-travail: qu'est-ce qui mène à plus de succès ?",
                 "examples": []
             }
         ],
@@ -1327,7 +1327,7 @@
     },
     {
         "id": "fr_intermediate_social_054",
-        "word": "Choisir une carrière basée sur la passion ou sur les perspectives d'emploi — qu'est-ce qui est le plus sage ?",
+        "word": "Choisir une carrière basée sur la passion ou sur les perspectives d'emploi: qu'est-ce qui est le plus sage ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1335,7 +1335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Choisir une carrière basée sur la passion ou sur les perspectives d'emploi — qu'est-ce qui est le plus sage ?",
+                "text": "Choisir une carrière basée sur la passion ou sur les perspectives d'emploi: qu'est-ce qui est le plus sage ?",
                 "examples": []
             }
         ],
@@ -1352,7 +1352,7 @@
     },
     {
         "id": "fr_intermediate_social_055",
-        "word": "Vivre en tant qu'individu ou faire passer la communauté en premier — qu'est-ce qui est le plus important ?",
+        "word": "Vivre en tant qu'individu ou faire passer la communauté en premier: qu'est-ce qui est le plus important ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1360,7 +1360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre en tant qu'individu ou faire passer la communauté en premier — qu'est-ce qui est le plus important ?",
+                "text": "Vivre en tant qu'individu ou faire passer la communauté en premier: qu'est-ce qui est le plus important ?",
                 "examples": []
             }
         ],
@@ -1377,7 +1377,7 @@
     },
     {
         "id": "fr_intermediate_social_056",
-        "word": "Valeurs traditionnelles ou valeurs modernes — lesquelles sont les plus importantes à conserver ?",
+        "word": "Valeurs traditionnelles ou valeurs modernes: lesquelles sont les plus importantes à conserver ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1385,7 +1385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Valeurs traditionnelles ou valeurs modernes — lesquelles sont les plus importantes à conserver ?",
+                "text": "Valeurs traditionnelles ou valeurs modernes: lesquelles sont les plus importantes à conserver ?",
                 "examples": []
             }
         ],
@@ -1402,7 +1402,7 @@
     },
     {
         "id": "fr_intermediate_social_057",
-        "word": "Faire du bénévolat ou donner de l'argent à des œuvres de charité — qu'est-ce qui aide le plus ?",
+        "word": "Faire du bénévolat ou donner de l'argent à des œuvres de charité: qu'est-ce qui aide le plus ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1410,7 +1410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Faire du bénévolat ou donner de l'argent à des œuvres de charité — qu'est-ce qui aide le plus ?",
+                "text": "Faire du bénévolat ou donner de l'argent à des œuvres de charité: qu'est-ce qui aide le plus ?",
                 "examples": []
             }
         ],
@@ -1427,7 +1427,7 @@
     },
     {
         "id": "fr_intermediate_social_058",
-        "word": "La célébrité ou faire la différence discrètement — quel est le meilleur but dans la vie ?",
+        "word": "La célébrité ou faire la différence discrètement: quel est le meilleur but dans la vie ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1435,7 +1435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La célébrité ou faire la différence discrètement — quel est le meilleur but dans la vie ?",
+                "text": "La célébrité ou faire la différence discrètement: quel est le meilleur but dans la vie ?",
                 "examples": []
             }
         ],
@@ -1452,7 +1452,7 @@
     },
     {
         "id": "fr_intermediate_social_059",
-        "word": "Suivre les règles ou penser par soi-même — qu'est-ce qui compte le plus ?",
+        "word": "Suivre les règles ou penser par soi-même: qu'est-ce qui compte le plus ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1460,7 +1460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Suivre les règles ou penser par soi-même — qu'est-ce qui compte le plus ?",
+                "text": "Suivre les règles ou penser par soi-même: qu'est-ce qui compte le plus ?",
                 "examples": []
             }
         ],
@@ -1477,7 +1477,7 @@
     },
     {
         "id": "fr_intermediate_social_060",
-        "word": "Santé physique ou santé mentale — quelle devrait être la priorité ?",
+        "word": "Santé physique ou santé mentale: quelle devrait être la priorité ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1485,7 +1485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Santé physique ou santé mentale — quelle devrait être la priorité ?",
+                "text": "Santé physique ou santé mentale: quelle devrait être la priorité ?",
                 "examples": []
             }
         ],
@@ -1502,7 +1502,7 @@
     },
     {
         "id": "fr_intermediate_social_061",
-        "word": "Prévention ou traitement — quelle est la meilleure approche des soins de santé ?",
+        "word": "Prévention ou traitement: quelle est la meilleure approche des soins de santé ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1510,7 +1510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Prévention ou traitement — quelle est la meilleure approche des soins de santé ?",
+                "text": "Prévention ou traitement: quelle est la meilleure approche des soins de santé ?",
                 "examples": []
             }
         ],
@@ -1527,7 +1527,7 @@
     },
     {
         "id": "fr_intermediate_social_062",
-        "word": "Sport de compétition ou exercice pour le plaisir — qu'est-ce qui est mieux pour vous ?",
+        "word": "Sport de compétition ou exercice pour le plaisir: qu'est-ce qui est mieux pour vous ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1535,7 +1535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sport de compétition ou exercice pour le plaisir — qu'est-ce qui est mieux pour vous ?",
+                "text": "Sport de compétition ou exercice pour le plaisir: qu'est-ce qui est mieux pour vous ?",
                 "examples": []
             }
         ],
@@ -1552,7 +1552,7 @@
     },
     {
         "id": "fr_intermediate_social_063",
-        "word": "Santé privée ou santé publique — quel système est le plus juste ?",
+        "word": "Santé privée ou santé publique: quel système est le plus juste ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1560,7 +1560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Santé privée ou santé publique — quel système est le plus juste ?",
+                "text": "Santé privée ou santé publique: quel système est le plus juste ?",
                 "examples": []
             }
         ],
@@ -1577,7 +1577,7 @@
     },
     {
         "id": "fr_intermediate_social_064",
-        "word": "Cinéma ou littérature — quelle est une forme d'art plus puissante ?",
+        "word": "Cinéma ou littérature: quelle est une forme d'art plus puissante ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1585,7 +1585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cinéma ou littérature — quelle est une forme d'art plus puissante ?",
+                "text": "Cinéma ou littérature: quelle est une forme d'art plus puissante ?",
                 "examples": []
             }
         ],
@@ -1602,7 +1602,7 @@
     },
     {
         "id": "fr_intermediate_social_065",
-        "word": "Art moderne ou art classique — qu'est-ce qui a le plus de valeur ?",
+        "word": "Art moderne ou art classique: qu'est-ce qui a le plus de valeur ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1610,7 +1610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Art moderne ou art classique — qu'est-ce qui a le plus de valeur ?",
+                "text": "Art moderne ou art classique: qu'est-ce qui a le plus de valeur ?",
                 "examples": []
             }
         ],
@@ -1627,7 +1627,7 @@
     },
     {
         "id": "fr_intermediate_social_066",
-        "word": "Préserver les vieux bâtiments ou en construire de nouveaux — qu'est-ce qui compte le plus ?",
+        "word": "Préserver les vieux bâtiments ou en construire de nouveaux: qu'est-ce qui compte le plus ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1635,7 +1635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Préserver les vieux bâtiments ou en construire de nouveaux — qu'est-ce qui compte le plus ?",
+                "text": "Préserver les vieux bâtiments ou en construire de nouveaux: qu'est-ce qui compte le plus ?",
                 "examples": []
             }
         ],
@@ -1652,7 +1652,7 @@
     },
     {
         "id": "fr_intermediate_social_067",
-        "word": "Culture locale ou mondialisation — qu'est-ce qui enrichit le plus les communautés ?",
+        "word": "Culture locale ou mondialisation: qu'est-ce qui enrichit le plus les communautés ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1660,7 +1660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Culture locale ou mondialisation — qu'est-ce qui enrichit le plus les communautés ?",
+                "text": "Culture locale ou mondialisation: qu'est-ce qui enrichit le plus les communautés ?",
                 "examples": []
             }
         ],
@@ -1677,7 +1677,7 @@
     },
     {
         "id": "fr_intermediate_social_068",
-        "word": "Apprendre de ses erreurs vs apprendre de ses succès — qu'est-ce qui instruit le plus ?",
+        "word": "Apprendre de ses erreurs vs apprendre de ses succès: qu'est-ce qui instruit le plus ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1685,7 +1685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Apprendre de ses erreurs vs apprendre de ses succès — qu'est-ce qui instruit le plus ?",
+                "text": "Apprendre de ses erreurs vs apprendre de ses succès: qu'est-ce qui instruit le plus ?",
                 "examples": []
             }
         ],
@@ -1702,7 +1702,7 @@
     },
     {
         "id": "fr_intermediate_social_069",
-        "word": "Tablettes en classe vs cahiers traditionnels — qu'est-ce qui aide le plus les élèves ?",
+        "word": "Tablettes en classe vs cahiers traditionnels: qu'est-ce qui aide le plus les élèves ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1710,7 +1710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Tablettes en classe vs cahiers traditionnels — qu'est-ce qui aide le plus les élèves ?",
+                "text": "Tablettes en classe vs cahiers traditionnels: qu'est-ce qui aide le plus les élèves ?",
                 "examples": []
             }
         ],
@@ -1727,7 +1727,7 @@
     },
     {
         "id": "fr_intermediate_social_070",
-        "word": "Être toujours joignable vs avoir du temps libre numérique — qu'est-ce qui est mieux ?",
+        "word": "Être toujours joignable vs avoir du temps libre numérique: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1735,7 +1735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Être toujours joignable vs avoir du temps libre numérique — qu'est-ce qui est mieux ?",
+                "text": "Être toujours joignable vs avoir du temps libre numérique: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1752,7 +1752,7 @@
     },
     {
         "id": "fr_intermediate_social_071",
-        "word": "Réutiliser les choses vs recycler — qu'est-ce qui est le plus efficace ?",
+        "word": "Réutiliser les choses vs recycler: qu'est-ce qui est le plus efficace ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1760,7 +1760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Réutiliser les choses vs recycler — qu'est-ce qui est le plus efficace ?",
+                "text": "Réutiliser les choses vs recycler: qu'est-ce qui est le plus efficace ?",
                 "examples": []
             }
         ],
@@ -1777,7 +1777,7 @@
     },
     {
         "id": "fr_intermediate_social_072",
-        "word": "Une seule carrière pour toute la vie vs changer de carrière souvent — qu'est-ce qui est mieux ?",
+        "word": "Une seule carrière pour toute la vie vs changer de carrière souvent: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1785,7 +1785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Une seule carrière pour toute la vie vs changer de carrière souvent — qu'est-ce qui est mieux ?",
+                "text": "Une seule carrière pour toute la vie vs changer de carrière souvent: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1802,7 +1802,7 @@
     },
     {
         "id": "fr_intermediate_social_073",
-        "word": "Sommeil vs exercice — qu'est-ce qui a le plus d'impact sur votre santé ?",
+        "word": "Sommeil vs exercice: qu'est-ce qui a le plus d'impact sur votre santé ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1810,7 +1810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sommeil vs exercice — qu'est-ce qui a le plus d'impact sur votre santé ?",
+                "text": "Sommeil vs exercice: qu'est-ce qui a le plus d'impact sur votre santé ?",
                 "examples": []
             }
         ],
@@ -1827,7 +1827,7 @@
     },
     {
         "id": "fr_intermediate_social_074",
-        "word": "Musique pop vs musique classique — laquelle a le plus d'impact culturel ?",
+        "word": "Musique pop vs musique classique: laquelle a le plus d'impact culturel ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1835,7 +1835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Musique pop vs musique classique — laquelle a le plus d'impact culturel ?",
+                "text": "Musique pop vs musique classique: laquelle a le plus d'impact culturel ?",
                 "examples": []
             }
         ],
@@ -1852,7 +1852,7 @@
     },
     {
         "id": "fr_intermediate_social_075",
-        "word": "Savoir comment quelque chose se termine vs être surpris — qu'est-ce qui est mieux ?",
+        "word": "Savoir comment quelque chose se termine vs être surpris: qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1860,7 +1860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Savoir comment quelque chose se termine vs être surpris — qu'est-ce qui est mieux ?",
+                "text": "Savoir comment quelque chose se termine vs être surpris: qu'est-ce qui est mieux ?",
                 "examples": []
             }
         ],
@@ -1877,7 +1877,7 @@
     },
     {
         "id": "fr_intermediate_social_076",
-        "word": "Répondre immédiatement aux messages vs prendre son temps — qu'est-ce qui est plus respectueux ?",
+        "word": "Répondre immédiatement aux messages vs prendre son temps: qu'est-ce qui est plus respectueux ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1885,7 +1885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Répondre immédiatement aux messages vs prendre son temps — qu'est-ce qui est plus respectueux ?",
+                "text": "Répondre immédiatement aux messages vs prendre son temps: qu'est-ce qui est plus respectueux ?",
                 "examples": []
             }
         ],
@@ -1902,7 +1902,7 @@
     },
     {
         "id": "fr_intermediate_social_077",
-        "word": "Regarder une série d'un coup vs regarder un épisode par semaine — quelle est la bonne manière ?",
+        "word": "Regarder une série d'un coup vs regarder un épisode par semaine: quelle est la bonne manière ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1910,7 +1910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Regarder une série d'un coup vs regarder un épisode par semaine — quelle est la bonne manière ?",
+                "text": "Regarder une série d'un coup vs regarder un épisode par semaine: quelle est la bonne manière ?",
                 "examples": []
             }
         ],
@@ -1927,7 +1927,7 @@
     },
     {
         "id": "fr_intermediate_social_078",
-        "word": "Siège côté fenêtre vs siège côté couloir — lequel est objectivement le meilleur ?",
+        "word": "Siège côté fenêtre vs siège côté couloir: lequel est objectivement le meilleur ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1935,7 +1935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Siège côté fenêtre vs siège côté couloir — lequel est objectivement le meilleur ?",
+                "text": "Siège côté fenêtre vs siège côté couloir: lequel est objectivement le meilleur ?",
                 "examples": []
             }
         ],
@@ -1952,7 +1952,7 @@
     },
     {
         "id": "fr_intermediate_social_079",
-        "word": "Sauter la salle une fois vs y aller et avoir une mauvaise séance — qu'est-ce qui est le pire ?",
+        "word": "Sauter la salle une fois vs y aller et avoir une mauvaise séance: qu'est-ce qui est le pire ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1960,7 +1960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Sauter la salle une fois vs y aller et avoir une mauvaise séance — qu'est-ce qui est le pire ?",
+                "text": "Sauter la salle une fois vs y aller et avoir une mauvaise séance: qu'est-ce qui est le pire ?",
                 "examples": []
             }
         ],
@@ -1977,7 +1977,7 @@
     },
     {
         "id": "fr_intermediate_social_080",
-        "word": "Se parler à soi-même vs parler à son animal — qu'est-ce qui est le plus raisonnable ?",
+        "word": "Se parler à soi-même vs parler à son animal: qu'est-ce qui est le plus raisonnable ?",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -1985,7 +1985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Se parler à soi-même vs parler à son animal — qu'est-ce qui est le plus raisonnable ?",
+                "text": "Se parler à soi-même vs parler à son animal: qu'est-ce qui est le plus raisonnable ?",
                 "examples": []
             }
         ],

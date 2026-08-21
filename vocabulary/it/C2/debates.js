@@ -1645,7 +1645,7 @@
             "level": "proficiency",
             "theme": "language",
             "ideasA": [
-                "L'articolazione fisica della parola — la combinazione della 'm' e del dittongo 'oi' — scatena un disagio sensoriale.",
+                "L'articolazione fisica della parola: la combinazione della 'm' e del dittongo 'oi': scatena un disagio sensoriale.",
                 "Certi fonemi possiedono una 'consistenza' naturale che può essere universalmente respingente."
             ],
             "ideasB": [

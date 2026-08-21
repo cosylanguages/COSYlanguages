@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "fr_upper_intermediate_social_001",
-        "word": "La semaine de travail de quatre jours vs la semaine de cinq jours — quel modèle profite le plus aux travailleurs et aux employeurs ?",
+        "word": "La semaine de travail de quatre jours vs la semaine de cinq jours: quel modèle profite le plus aux travailleurs et aux employeurs ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -10,7 +10,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La semaine de travail de quatre jours vs la semaine de cinq jours — quel modèle profite le plus aux travailleurs et aux employeurs ?",
+                "text": "La semaine de travail de quatre jours vs la semaine de cinq jours: quel modèle profite le plus aux travailleurs et aux employeurs ?",
                 "examples": []
             }
         ],
@@ -27,7 +27,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_002",
-        "word": "Revenu de base universel vs protection sociale ciblée — quel est le filet de sécurité le plus efficace pour les adultes qui travaillent ?",
+        "word": "Revenu de base universel vs protection sociale ciblée: quel est le filet de sécurité le plus efficace pour les adultes qui travaillent ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -35,7 +35,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Revenu de base universel vs protection sociale ciblée — quel est le filet de sécurité le plus efficace pour les adultes qui travaillent ?",
+                "text": "Revenu de base universel vs protection sociale ciblée: quel est le filet de sécurité le plus efficace pour les adultes qui travaillent ?",
                 "examples": []
             }
         ],
@@ -52,7 +52,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_003",
-        "word": "L'économie à la tâche vs l'emploi permanent — quel modèle sert le mieux les travailleurs sur le long terme ?",
+        "word": "L'économie à la tâche vs l'emploi permanent: quel modèle sert le mieux les travailleurs sur le long terme ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -60,7 +60,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'économie à la tâche vs l'emploi permanent — quel modèle sert le mieux les travailleurs sur le long terme ?",
+                "text": "L'économie à la tâche vs l'emploi permanent: quel modèle sert le mieux les travailleurs sur le long terme ?",
                 "examples": []
             }
         ],
@@ -77,7 +77,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_004",
-        "word": "Méritocratie vs avantage structurel — qu'est-ce qui explique le mieux le succès professionnel ?",
+        "word": "Méritocratie vs avantage structurel: qu'est-ce qui explique le mieux le succès professionnel ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -85,7 +85,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Méritocratie vs avantage structurel — qu'est-ce qui explique le mieux le succès professionnel ?",
+                "text": "Méritocratie vs avantage structurel: qu'est-ce qui explique le mieux le succès professionnel ?",
                 "examples": []
             }
         ],
@@ -102,7 +102,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_005",
-        "word": "Transparence salariale vs confidentialité des salaires — qu'est-ce qui crée un lieu de travail plus juste ?",
+        "word": "Transparence salariale vs confidentialité des salaires: qu'est-ce qui crée un lieu de travail plus juste ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -110,7 +110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Transparence salariale vs confidentialité des salaires — qu'est-ce qui crée un lieu de travail plus juste ?",
+                "text": "Transparence salariale vs confidentialité des salaires: qu'est-ce qui crée un lieu de travail plus juste ?",
                 "examples": []
             }
         ],
@@ -127,7 +127,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_006",
-        "word": "Automatisation vs travail humain — quelle est la plus grande menace à long terme pour l'emploi des adultes ?",
+        "word": "Automatisation vs travail humain: quelle est la plus grande menace à long terme pour l'emploi des adultes ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -135,7 +135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Automatisation vs travail humain — quelle est la plus grande menace à long terme pour l'emploi des adultes ?",
+                "text": "Automatisation vs travail humain: quelle est la plus grande menace à long terme pour l'emploi des adultes ?",
                 "examples": []
             }
         ],
@@ -152,7 +152,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_007",
-        "word": "Télétravail vs présence au bureau — qu'est-ce qui est mieux pour la progression de carrière et la culture d'équipe ?",
+        "word": "Télétravail vs présence au bureau: qu'est-ce qui est mieux pour la progression de carrière et la culture d'équipe ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -160,7 +160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Télétravail vs présence au bureau — qu'est-ce qui est mieux pour la progression de carrière et la culture d'équipe ?",
+                "text": "Télétravail vs présence au bureau: qu'est-ce qui est mieux pour la progression de carrière et la culture d'équipe ?",
                 "examples": []
             }
         ],
@@ -177,7 +177,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_008",
-        "word": "Congé parental égal pour les hommes et les femmes vs congé de maternité plus long — quelle politique est la plus juste ?",
+        "word": "Congé parental égal pour les hommes et les femmes vs congé de maternité plus long: quelle politique est la plus juste ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -185,7 +185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Congé parental égal pour les hommes et les femmes vs congé de maternité plus long — quelle politique est la plus juste ?",
+                "text": "Congé parental égal pour les hommes et les femmes vs congé de maternité plus long: quelle politique est la plus juste ?",
                 "examples": []
             }
         ],
@@ -202,7 +202,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_009",
-        "word": "Choisir de ne pas avoir d'enfants vs pression sociale pour avoir une famille — qu'est-ce qui mérite le plus de respect ?",
+        "word": "Choisir de ne pas avoir d'enfants vs pression sociale pour avoir une famille: qu'est-ce qui mérite le plus de respect ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -210,7 +210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Choisir de ne pas avoir d'enfants vs pression sociale pour avoir une famille — qu'est-ce qui mérite le plus de respect ?",
+                "text": "Choisir de ne pas avoir d'enfants vs pression sociale pour avoir une famille: qu'est-ce qui mérite le plus de respect ?",
                 "examples": []
             }
         ],
@@ -227,7 +227,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_010",
-        "word": "Le mariage en tant qu'institution vs la cohabitation sans mariage — qu'est-ce qui est le plus pertinent aujourd'hui ?",
+        "word": "Le mariage en tant qu'institution vs la cohabitation sans mariage: qu'est-ce qui est le plus pertinent aujourd'hui ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -235,7 +235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le mariage en tant qu'institution vs la cohabitation sans mariage — qu'est-ce qui est le plus pertinent aujourd'hui ?",
+                "text": "Le mariage en tant qu'institution vs la cohabitation sans mariage: qu'est-ce qui est le plus pertinent aujourd'hui ?",
                 "examples": []
             }
         ],
@@ -252,7 +252,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_011",
-        "word": "Ménages à double revenu vs un partenaire restant à la maison — quel modèle est le meilleur pour les enfants et les adultes ?",
+        "word": "Ménages à double revenu vs un partenaire restant à la maison: quel modèle est le meilleur pour les enfants et les adultes ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -260,7 +260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ménages à double revenu vs un partenaire restant à la maison — quel modèle est le meilleur pour les enfants et les adultes ?",
+                "text": "Ménages à double revenu vs un partenaire restant à la maison: quel modèle est le meilleur pour les enfants et les adultes ?",
                 "examples": []
             }
         ],
@@ -277,7 +277,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_012",
-        "word": "L'écart salarial entre les sexes comme problème structurel vs une question de choix individuels — quelle explication a le plus de poids ?",
+        "word": "L'écart salarial entre les sexes comme problème structurel vs une question de choix individuels: quelle explication a le plus de poids ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -285,7 +285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'écart salarial entre les sexes comme problème structurel vs une question de choix individuels — quelle explication a le plus de poids ?",
+                "text": "L'écart salarial entre les sexes comme problème structurel vs une question de choix individuels: quelle explication a le plus de poids ?",
                 "examples": []
             }
         ],
@@ -302,7 +302,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_013",
-        "word": "La propriété immobilière comme objectif vs un marché locatif professionnel — quel modèle de logement convient le mieux aux adultes modernes ?",
+        "word": "La propriété immobilière comme objectif vs un marché locatif professionnel: quel modèle de logement convient le mieux aux adultes modernes ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -310,7 +310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La propriété immobilière comme objectif vs un marché locatif professionnel — quel modèle de logement convient le mieux aux adultes modernes ?",
+                "text": "La propriété immobilière comme objectif vs un marché locatif professionnel: quel modèle de logement convient le mieux aux adultes modernes ?",
                 "examples": []
             }
         ],
@@ -327,7 +327,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_014",
-        "word": "La gentrification comme amélioration vs la gentrification comme déplacement — quel cadrage est le plus honnête ?",
+        "word": "La gentrification comme amélioration vs la gentrification comme déplacement: quel cadrage est le plus honnête ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -335,7 +335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La gentrification comme amélioration vs la gentrification comme déplacement — quel cadrage est le plus honnête ?",
+                "text": "La gentrification comme amélioration vs la gentrification comme déplacement: quel cadrage est le plus honnête ?",
                 "examples": []
             }
         ],
@@ -352,7 +352,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_015",
-        "word": "Densité urbaine vs étalement suburbain — quel est le meilleur modèle pour des villes vivables ?",
+        "word": "Densité urbaine vs étalement suburbain: quel est le meilleur modèle pour des villes vivables ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -360,7 +360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Densité urbaine vs étalement suburbain — quel est le meilleur modèle pour des villes vivables ?",
+                "text": "Densité urbaine vs étalement suburbain: quel est le meilleur modèle pour des villes vivables ?",
                 "examples": []
             }
         ],
@@ -377,7 +377,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_016",
-        "word": "Vivre près de sa famille vs s'éloigner pour les opportunités — quel choix produit le meilleur bien-être à long terme ?",
+        "word": "Vivre près de sa famille vs s'éloigner pour les opportunités: quel choix produit le meilleur bien-être à long terme ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -385,7 +385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vivre près de sa famille vs s'éloigner pour les opportunités — quel choix produit le meilleur bien-être à long terme ?",
+                "text": "Vivre près de sa famille vs s'éloigner pour les opportunités: quel choix produit le meilleur bien-être à long terme ?",
                 "examples": []
             }
         ],
@@ -402,7 +402,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_017",
-        "word": "Une population vieillissante comme crise vs comme ressource — quel cadrage est le plus productif ?",
+        "word": "Une population vieillissante comme crise vs comme ressource: quel cadrage est le plus productif ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -410,7 +410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Une population vieillissante comme crise vs comme ressource — quel cadrage est le plus productif ?",
+                "text": "Une population vieillissante comme crise vs comme ressource: quel cadrage est le plus productif ?",
                 "examples": []
             }
         ],
@@ -427,7 +427,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_018",
-        "word": "Responsabilité personnelle pour la santé vs facteurs systémiques — qu'est-ce qui pèse le plus dans l'explication des résultats de santé ?",
+        "word": "Responsabilité personnelle pour la santé vs facteurs systémiques: qu'est-ce qui pèse le plus dans l'explication des résultats de santé ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -435,7 +435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Responsabilité personnelle pour la santé vs facteurs systémiques — qu'est-ce qui pèse le plus dans l'explication des résultats de santé ?",
+                "text": "Responsabilité personnelle pour la santé vs facteurs systémiques: qu'est-ce qui pèse le plus dans l'explication des résultats de santé ?",
                 "examples": []
             }
         ],
@@ -452,7 +452,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_019",
-        "word": "Les jours de santé mentale comme droit légitime au travail vs source d'abus — où les employeurs doivent-ils placer la limite ?",
+        "word": "Les jours de santé mentale comme droit légitime au travail vs source d'abus: où les employeurs doivent-ils placer la limite ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -460,7 +460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Les jours de santé mentale comme droit légitime au travail vs source d'abus — où les employeurs doivent-ils placer la limite ?",
+                "text": "Les jours de santé mentale comme droit légitime au travail vs source d'abus: où les employeurs doivent-ils placer la limite ?",
                 "examples": []
             }
         ],
@@ -477,7 +477,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_020",
-        "word": "Médecine préventive vs médecine curative — laquelle devrait recevoir plus de fonds publics ?",
+        "word": "Médecine préventive vs médecine curative: laquelle devrait recevoir plus de fonds publics ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -485,7 +485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Médecine préventive vs médecine curative — laquelle devrait recevoir plus de fonds publics ?",
+                "text": "Médecine préventive vs médecine curative: laquelle devrait recevoir plus de fonds publics ?",
                 "examples": []
             }
         ],
@@ -502,7 +502,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_021",
-        "word": "Médecine anti-âge vs vieillir avec grâce — quelle attitude est la plus cohérente ?",
+        "word": "Médecine anti-âge vs vieillir avec grâce: quelle attitude est la plus cohérente ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -510,7 +510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Médecine anti-âge vs vieillir avec grâce — quelle attitude est la plus cohérente ?",
+                "text": "Médecine anti-âge vs vieillir avec grâce: quelle attitude est la plus cohérente ?",
                 "examples": []
             }
         ],
@@ -527,7 +527,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_022",
-        "word": "Technologie de surveillance pour la sécurité publique vs droit à la vie privée — où doit se situer l'équilibre ?",
+        "word": "Technologie de surveillance pour la sécurité publique vs droit à la vie privée: où doit se situer l'équilibre ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -535,7 +535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Technologie de surveillance pour la sécurité publique vs droit à la vie privée — où doit se situer l'équilibre ?",
+                "text": "Technologie de surveillance pour la sécurité publique vs droit à la vie privée: où doit se situer l'équilibre ?",
                 "examples": []
             }
         ],
@@ -552,7 +552,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_023",
-        "word": "Les réseaux sociaux comme outil d'engagement civique vs comme moteur de polarisation — quel effet domine ?",
+        "word": "Les réseaux sociaux comme outil d'engagement civique vs comme moteur de polarisation: quel effet domine ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -560,7 +560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Les réseaux sociaux comme outil d'engagement civique vs comme moteur de polarisation — quel effet domine ?",
+                "text": "Les réseaux sociaux comme outil d'engagement civique vs comme moteur de polarisation: quel effet domine ?",
                 "examples": []
             }
         ],
@@ -577,7 +577,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_024",
-        "word": "L'IA dans le recrutement vs le jugement humain — qu'est-ce qui produit des décisions d'embauche plus justes ?",
+        "word": "L'IA dans le recrutement vs le jugement humain: qu'est-ce qui produit des décisions d'embauche plus justes ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -585,7 +585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'IA dans le recrutement vs le jugement humain — qu'est-ce qui produit des décisions d'embauche plus justes ?",
+                "text": "L'IA dans le recrutement vs le jugement humain: qu'est-ce qui produit des décisions d'embauche plus justes ?",
                 "examples": []
             }
         ],
@@ -602,7 +602,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_025",
-        "word": "Le droit à l'oubli en ligne vs le droit du public à l'information — qu'est-ce qui devrait primer ?",
+        "word": "Le droit à l'oubli en ligne vs le droit du public à l'information: qu'est-ce qui devrait primer ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -610,7 +610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le droit à l'oubli en ligne vs le droit du public à l'information — qu'est-ce qui devrait primer ?",
+                "text": "Le droit à l'oubli en ligne vs le droit du public à l'information: qu'est-ce qui devrait primer ?",
                 "examples": []
             }
         ],
@@ -627,7 +627,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_026",
-        "word": "Vote obligatoire vs vote volontaire — qu'est-ce qui produit des démocraties plus saines ?",
+        "word": "Vote obligatoire vs vote volontaire: qu'est-ce qui produit des démocraties plus saines ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -635,7 +635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vote obligatoire vs vote volontaire — qu'est-ce qui produit des démocraties plus saines ?",
+                "text": "Vote obligatoire vs vote volontaire: qu'est-ce qui produit des démocraties plus saines ?",
                 "examples": []
             }
         ],
@@ -652,7 +652,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_027",
-        "word": "Engagement politique par la protestation vs par les canaux institutionnels — qu'est-ce qui est le plus efficace pour les adultes aujourd'hui ?",
+        "word": "Engagement politique par la protestation vs par les canaux institutionnels: qu'est-ce qui est le plus efficace pour les adultes aujourd'hui ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -660,7 +660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Engagement politique par la protestation vs par les canaux institutionnels — qu'est-ce qui est le plus efficace pour les adultes aujourd'hui ?",
+                "text": "Engagement politique par la protestation vs par les canaux institutionnels: qu'est-ce qui est le plus efficace pour les adultes aujourd'hui ?",
                 "examples": []
             }
         ],
@@ -677,7 +677,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_028",
-        "word": "Identité nationale vs identité européenne ou mondiale — qu'est-ce qui a le plus de sens pour les adultes en 2026 ?",
+        "word": "Identité nationale vs identité européenne ou mondiale: qu'est-ce qui a le plus de sens pour les adultes en 2026 ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -685,7 +685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Identité nationale vs identité européenne ou mondiale — qu'est-ce qui a le plus de sens pour les adultes en 2026 ?",
+                "text": "Identité nationale vs identité européenne ou mondiale: qu'est-ce qui a le plus de sens pour les adultes en 2026 ?",
                 "examples": []
             }
         ],
@@ -702,7 +702,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_029",
-        "word": "Augmentations d'impôts pour financer les services publics vs coupes budgétaires — quel est le choix politique le plus défendable ?",
+        "word": "Augmentations d'impôts pour financer les services publics vs coupes budgétaires: quel est le choix politique le plus défendable ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -710,7 +710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Augmentations d'impôts pour financer les services publics vs coupes budgétaires — quel est le choix politique le plus défendable ?",
+                "text": "Augmentations d'impôts pour financer les services publics vs coupes budgétaires: quel est le choix politique le plus défendable ?",
                 "examples": []
             }
         ],
@@ -727,7 +727,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_030",
-        "word": "Admettre que vous n'avez aucune idée de la façon dont fonctionne votre retraite vs prétendre avec assurance que vous le savez — quelle est l'expérience adulte la plus universelle ?",
+        "word": "Admettre que vous n'avez aucune idée de la façon dont fonctionne votre retraite vs prétendre avec assurance que vous le savez: quelle est l'expérience adulte la plus universelle ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -735,7 +735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Admettre que vous n'avez aucune idée de la façon dont fonctionne votre retraite vs prétendre avec assurance que vous le savez — quelle est l'expérience adulte la plus universelle ?",
+                "text": "Admettre que vous n'avez aucune idée de la façon dont fonctionne votre retraite vs prétendre avec assurance que vous le savez: quelle est l'expérience adulte la plus universelle ?",
                 "examples": []
             }
         ],
@@ -752,7 +752,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_031",
-        "word": "Être la personne qui planifie toujours les événements sociaux vs être toujours celle qui se contente de venir — quel rôle est le plus épuisant ?",
+        "word": "Être la personne qui planifie toujours les événements sociaux vs être toujours celle qui se contente de venir: quel rôle est le plus épuisant ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -760,7 +760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Être la personne qui planifie toujours les événements sociaux vs être toujours celle qui se contente de venir — quel rôle est le plus épuisant ?",
+                "text": "Être la personne qui planifie toujours les événements sociaux vs être toujours celle qui se contente de venir: quel rôle est le plus épuisant ?",
                 "examples": []
             }
         ],
@@ -777,7 +777,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_032",
-        "word": "Avoir une opinion tranchée sur les habitudes de cuisine de vos collègues vs ne pas s'en soucier du tout — quelle personne est la plus tolérable ?",
+        "word": "Avoir une opinion tranchée sur les habitudes de cuisine de vos collègues vs ne pas s'en soucier du tout: quelle personne est la plus tolérable ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -785,7 +785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avoir une opinion tranchée sur les habitudes de cuisine de vos collègues vs ne pas s'en soucier du tout — quelle personne est la plus tolérable ?",
+                "text": "Avoir une opinion tranchée sur les habitudes de cuisine de vos collègues vs ne pas s'en soucier du tout: quelle personne est la plus tolérable ?",
                 "examples": []
             }
         ],
@@ -802,7 +802,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_033",
-        "word": "Assister à chaque événement social facultatif au travail vs n'assister à aucun — quelle stratégie est la meilleure pour votre carrière et votre santé mentale ?",
+        "word": "Assister à chaque événement social facultatif au travail vs n'assister à aucun: quelle stratégie est la meilleure pour votre carrière et votre santé mentale ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -810,7 +810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Assister à chaque événement social facultatif au travail vs n'assister à aucun — quelle stratégie est la meilleure pour votre carrière et votre santé mentale ?",
+                "text": "Assister à chaque événement social facultatif au travail vs n'assister à aucun: quelle stratégie est la meilleure pour votre carrière et votre santé mentale ?",
                 "examples": []
             }
         ],
@@ -827,7 +827,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_034",
-        "word": "Les adultes qui sont encore perplexes devant leur déclaration d'impôts vs les adultes qui aiment la faire — quel groupe est le plus digne de confiance ?",
+        "word": "Les adultes qui sont encore perplexes devant leur déclaration d'impôts vs les adultes qui aiment la faire: quel groupe est le plus digne de confiance ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -835,7 +835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Les adultes qui sont encore perplexes devant leur déclaration d'impôts vs les adultes qui aiment la faire — quel groupe est le plus digne de confiance ?",
+                "text": "Les adultes qui sont encore perplexes devant leur déclaration d'impôts vs les adultes qui aiment la faire: quel groupe est le plus digne de confiance ?",
                 "examples": []
             }
         ],
@@ -852,7 +852,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_035",
-        "word": "Se plaindre du coût de la vie auprès de ses amis vs prétendre que tout va bien — quelle est la réponse adulte la plus honnête ?",
+        "word": "Se plaindre du coût de la vie auprès de ses amis vs prétendre que tout va bien: quelle est la réponse adulte la plus honnête ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -860,7 +860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Se plaindre du coût de la vie auprès de ses amis vs prétendre que tout va bien — quelle est la réponse adulte la plus honnête ?",
+                "text": "Se plaindre du coût de la vie auprès de ses amis vs prétendre que tout va bien: quelle est la réponse adulte la plus honnête ?",
                 "examples": []
             }
         ],
@@ -877,7 +877,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_036",
-        "word": "Réseaux sociaux vs interactions en face à face — qu'est-ce qui est mieux pour construire des relations ?",
+        "word": "Réseaux sociaux vs interactions en face à face: qu'est-ce qui est mieux pour construire des relations ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -885,7 +885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Réseaux sociaux vs interactions en face à face — qu'est-ce qui est mieux pour construire des relations ?",
+                "text": "Réseaux sociaux vs interactions en face à face: qu'est-ce qui est mieux pour construire des relations ?",
                 "examples": []
             }
         ],
@@ -902,7 +902,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_037",
-        "word": "Vie urbaine vs vie rurale — laquelle offre une meilleure qualité de vie ?",
+        "word": "Vie urbaine vs vie rurale: laquelle offre une meilleure qualité de vie ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -910,7 +910,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Vie urbaine vs vie rurale — laquelle offre une meilleure qualité de vie ?",
+                "text": "Vie urbaine vs vie rurale: laquelle offre une meilleure qualité de vie ?",
                 "examples": []
             }
         ],
@@ -927,7 +927,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_038",
-        "word": "Apprentissage en ligne vs salle de classe traditionnelle — quel est l'avenir de l'éducation ?",
+        "word": "Apprentissage en ligne vs salle de classe traditionnelle: quel est l'avenir de l'éducation ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -935,7 +935,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Apprentissage en ligne vs salle de classe traditionnelle — quel est l'avenir de l'éducation ?",
+                "text": "Apprentissage en ligne vs salle de classe traditionnelle: quel est l'avenir de l'éducation ?",
                 "examples": []
             }
         ],
@@ -952,7 +952,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_039",
-        "word": "Énergie renouvelable vs énergie nucléaire — quelle est la meilleure solution pour le climat ?",
+        "word": "Énergie renouvelable vs énergie nucléaire: quelle est la meilleure solution pour le climat ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -960,7 +960,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Énergie renouvelable vs énergie nucléaire — quelle est la meilleure solution pour le climat ?",
+                "text": "Énergie renouvelable vs énergie nucléaire: quelle est la meilleure solution pour le climat ?",
                 "examples": []
             }
         ],
@@ -977,7 +977,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_040",
-        "word": "Mode éphémère vs vêtements durables — pouvons-nous nous permettre d'être éthiques ?",
+        "word": "Mode éphémère vs vêtements durables: pouvons-nous nous permettre d'être éthiques ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -985,7 +985,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Mode éphémère vs vêtements durables — pouvons-nous nous permettre d'être éthiques ?",
+                "text": "Mode éphémère vs vêtements durables: pouvons-nous nous permettre d'être éthiques ?",
                 "examples": []
             }
         ],
@@ -1002,7 +1002,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_041",
-        "word": "Spécialisation précoce vs éducation générale large — qu'est-ce qui prépare le mieux les étudiants à la vie ?",
+        "word": "Spécialisation précoce vs éducation générale large: qu'est-ce qui prépare le mieux les étudiants à la vie ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1010,7 +1010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Spécialisation précoce vs éducation générale large — qu'est-ce qui prépare le mieux les étudiants à la vie ?",
+                "text": "Spécialisation précoce vs éducation générale large: qu'est-ce qui prépare le mieux les étudiants à la vie ?",
                 "examples": []
             }
         ],
@@ -1027,7 +1027,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_042",
-        "word": "Compétences de pensée critique vs connaissances disciplinaires — sur quoi les écoles devraient-elles se concentrer ?",
+        "word": "Compétences de pensée critique vs connaissances disciplinaires: sur quoi les écoles devraient-elles se concentrer ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1035,7 +1035,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Compétences de pensée critique vs connaissances disciplinaires — sur quoi les écoles devraient-elles se concentrer ?",
+                "text": "Compétences de pensée critique vs connaissances disciplinaires: sur quoi les écoles devraient-elles se concentrer ?",
                 "examples": []
             }
         ],
@@ -1052,7 +1052,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_043",
-        "word": "Frais de scolarité vs université gratuite — quel modèle est le plus juste ?",
+        "word": "Frais de scolarité vs université gratuite: quel modèle est le plus juste ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1060,7 +1060,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Frais de scolarité vs université gratuite — quel modèle est le plus juste ?",
+                "text": "Frais de scolarité vs université gratuite: quel modèle est le plus juste ?",
                 "examples": []
             }
         ],
@@ -1077,7 +1077,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_044",
-        "word": "Tests standardisés vs évaluation par portfolio — qu'est-ce qui reflète le mieux les capacités ?",
+        "word": "Tests standardisés vs évaluation par portfolio: qu'est-ce qui reflète le mieux les capacités ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1085,7 +1085,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Tests standardisés vs évaluation par portfolio — qu'est-ce qui reflète le mieux les capacités ?",
+                "text": "Tests standardisés vs évaluation par portfolio: qu'est-ce qui reflète le mieux les capacités ?",
                 "examples": []
             }
         ],
@@ -1102,7 +1102,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_045",
-        "word": "Intelligence académique vs intelligence émotionnelle — qu'est-ce qui compte le plus pour le succès ?",
+        "word": "Intelligence académique vs intelligence émotionnelle: qu'est-ce qui compte le plus pour le succès ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1110,7 +1110,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Intelligence académique vs intelligence émotionnelle — qu'est-ce qui compte le plus pour le succès ?",
+                "text": "Intelligence académique vs intelligence émotionnelle: qu'est-ce qui compte le plus pour le succès ?",
                 "examples": []
             }
         ],
@@ -1127,7 +1127,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_046",
-        "word": "Enseigner la créativité vs enseigner la discipline — quel devrait être l'objectif de l'éducation moderne ?",
+        "word": "Enseigner la créativité vs enseigner la discipline: quel devrait être l'objectif de l'éducation moderne ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1135,7 +1135,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Enseigner la créativité vs enseigner la discipline — quel devrait être l'objectif de l'éducation moderne ?",
+                "text": "Enseigner la créativité vs enseigner la discipline: quel devrait être l'objectif de l'éducation moderne ?",
                 "examples": []
             }
         ],
@@ -1152,7 +1152,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_047",
-        "word": "Réglementation des réseaux sociaux vs liberté d'expression — que faut-il privilégier ?",
+        "word": "Réglementation des réseaux sociaux vs liberté d'expression: que faut-il privilégier ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1160,7 +1160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Réglementation des réseaux sociaux vs liberté d'expression — que faut-il privilégier ?",
+                "text": "Réglementation des réseaux sociaux vs liberté d'expression: que faut-il privilégier ?",
                 "examples": []
             }
         ],
@@ -1177,7 +1177,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_048",
-        "word": "Curation algorithmique vs sélection éditoriale — quelle est la manière la plus fiable de s'informer ?",
+        "word": "Curation algorithmique vs sélection éditoriale: quelle est la manière la plus fiable de s'informer ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1185,7 +1185,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Curation algorithmique vs sélection éditoriale — quelle est la manière la plus fiable de s'informer ?",
+                "text": "Curation algorithmique vs sélection éditoriale: quelle est la manière la plus fiable de s'informer ?",
                 "examples": []
             }
         ],
@@ -1202,7 +1202,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_049",
-        "word": "Cresissance économique vs protection de l'environnement — peuvent-ils coexister ?",
+        "word": "Cresissance économique vs protection de l'environnement: peuvent-ils coexister ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1210,7 +1210,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Cresissance économique vs protection de l'environnement — peuvent-ils coexister ?",
+                "text": "Cresissance économique vs protection de l'environnement: peuvent-ils coexister ?",
                 "examples": []
             }
         ],
@@ -1227,7 +1227,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_050",
-        "word": "Taxes carbone vs subventions vertes — quelle politique climatique est la plus efficace ?",
+        "word": "Taxes carbone vs subventions vertes: quelle politique climatique est la plus efficace ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1235,7 +1235,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Taxes carbone vs subventions vertes — quelle politique climatique est la plus efficace ?",
+                "text": "Taxes carbone vs subventions vertes: quelle politique climatique est la plus efficace ?",
                 "examples": []
             }
         ],
@@ -1252,7 +1252,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_051",
-        "word": "Décroissance vs croissance durable — quelle est la bonne réponse à la crise climatique ?",
+        "word": "Décroissance vs croissance durable: quelle est la bonne réponse à la crise climatique ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1260,7 +1260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Décroissance vs croissance durable — quelle est la bonne réponse à la crise climatique ?",
+                "text": "Décroissance vs croissance durable: quelle est la bonne réponse à la crise climatique ?",
                 "examples": []
             }
         ],
@@ -1277,7 +1277,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_052",
-        "word": "Responsabilité individuelle vs responsabilité d'entreprise — qui est le plus coupable des dommages environnementaux ?",
+        "word": "Responsabilité individuelle vs responsabilité d'entreprise: qui est le plus coupable des dommages environnementaux ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1285,7 +1285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Responsabilité individuelle vs responsabilité d'entreprise — qui est le plus coupable des dommages environnementaux ?",
+                "text": "Responsabilité individuelle vs responsabilité d'entreprise: qui est le plus coupable des dommages environnementaux ?",
                 "examples": []
             }
         ],
@@ -1302,7 +1302,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_053",
-        "word": "Démocratie directe vs démocratie représentative — laquelle est la plus efficace ?",
+        "word": "Démocratie directe vs démocratie représentative: laquelle est la plus efficace ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1310,7 +1310,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Démocratie directe vs démocratie représentative — laquelle est la plus efficace ?",
+                "text": "Démocratie directe vs démocratie représentative: laquelle est la plus efficace ?",
                 "examples": []
             }
         ],
@@ -1327,7 +1327,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_054",
-        "word": "Gouvernement central fort vs autonomie régionale — qu'est-ce qui sert le mieux les citoyens ?",
+        "word": "Gouvernement central fort vs autonomie régionale: qu'est-ce qui sert le mieux les citoyens ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1335,7 +1335,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Gouvernement central fort vs autonomie régionale — qu'est-ce qui sert le mieux les citoyens ?",
+                "text": "Gouvernement central fort vs autonomie régionale: qu'est-ce qui sert le mieux les citoyens ?",
                 "examples": []
             }
         ],
@@ -1352,7 +1352,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_055",
-        "word": "Méritocratie vs action positive — quelle est la base la plus juste pour l'égalité des chances ?",
+        "word": "Méritocratie vs action positive: quelle est la base la plus juste pour l'égalité des chances ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1360,7 +1360,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Méritocratie vs action positive — quelle est la base la plus juste pour l'égalité des chances ?",
+                "text": "Méritocratie vs action positive: quelle est la base la plus juste pour l'égalité des chances ?",
                 "examples": []
             }
         ],
@@ -1377,7 +1377,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_056",
-        "word": "Frontières ouvertes vs immigration contrôlée — qu'est-ce qui sert le mieux les communautés ?",
+        "word": "Frontières ouvertes vs immigration contrôlée: qu'est-ce qui sert le mieux les communautés ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1385,7 +1385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Frontières ouvertes vs immigration contrôlée — qu'est-ce qui sert le mieux les communautés ?",
+                "text": "Frontières ouvertes vs immigration contrôlée: qu'est-ce qui sert le mieux les communautés ?",
                 "examples": []
             }
         ],
@@ -1402,7 +1402,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_057",
-        "word": "Utilitarisme vs éthique déontologique — quel est le meilleur cadre moral ?",
+        "word": "Utilitarisme vs éthique déontologique: quel est le meilleur cadre moral ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1410,7 +1410,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Utilitarisme vs éthique déontologique — quel est le meilleur cadre moral ?",
+                "text": "Utilitarisme vs éthique déontologique: quel est le meilleur cadre moral ?",
                 "examples": []
             }
         ],
@@ -1427,7 +1427,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_058",
-        "word": "Liberté d'expression vs protection contre les préjudices — où faut-il placer la limite ?",
+        "word": "Liberté d'expression vs protection contre les préjudices: où faut-il placer la limite ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1435,7 +1435,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Liberté d'expression vs protection contre les préjudices — où faut-il placer la limite ?",
+                "text": "Liberté d'expression vs protection contre les préjudices: où faut-il placer la limite ?",
                 "examples": []
             }
         ],
@@ -1452,7 +1452,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_059",
-        "word": "Relativisme culturel vs droits de l'homme universels — quelle est la position la plus forte ?",
+        "word": "Relativisme culturel vs droits de l'homme universels: quelle est la position la plus forte ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1460,7 +1460,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Relativisme culturel vs droits de l'homme universels — quelle est la position la plus forte ?",
+                "text": "Relativisme culturel vs droits de l'homme universels: quelle est la position la plus forte ?",
                 "examples": []
             }
         ],
@@ -1477,7 +1477,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_060",
-        "word": "Punition vs réhabilitation — quel devrait être l'objectif du système judiciaire ?",
+        "word": "Punition vs réhabilitation: quel devrait être l'objectif du système judiciaire ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1485,7 +1485,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Punition vs réhabilitation — quel devrait être l'objectif du système judiciaire ?",
+                "text": "Punition vs réhabilitation: quel devrait être l'objectif du système judiciaire ?",
                 "examples": []
             }
         ],
@@ -1502,7 +1502,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_061",
-        "word": "Savoir trop vs savoir trop peu — quelle condition est la plus dangereuse pour l'adulte moderne ?",
+        "word": "Savoir trop vs savoir trop peu: quelle condition est la plus dangereuse pour l'adulte moderne ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1510,7 +1510,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Savoir trop vs savoir trop peu — quelle condition est la plus dangereuse pour l'adulte moderne ?",
+                "text": "Savoir trop vs savoir trop peu: quelle condition est la plus dangereuse pour l'adulte moderne ?",
                 "examples": []
             }
         ],
@@ -1527,7 +1527,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_062",
-        "word": "Être en avance partout vs être toujours légèrement en retard — quel est le plus grand crime social ?",
+        "word": "Être en avance partout vs être toujours légèrement en retard: quel est le plus grand crime social ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1535,7 +1535,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Être en avance partout vs être toujours légèrement en retard — quel est le plus grand crime social ?",
+                "text": "Être en avance partout vs être toujours légèrement en retard: quel est le plus grand crime social ?",
                 "examples": []
             }
         ],
@@ -1552,7 +1552,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_063",
-        "word": "Plier le linge immédiatement vs vivre avec une pile — quel choix de vie est le plus défendable ?",
+        "word": "Plier le linge immédiatement vs vivre avec une pile: quel choix de vie est le plus défendable ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1560,7 +1560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Plier le linge immédiatement vs vivre avec une pile — quel choix de vie est le plus défendable ?",
+                "text": "Plier le linge immédiatement vs vivre avec une pile: quel choix de vie est le plus défendable ?",
                 "examples": []
             }
         ],
@@ -1577,7 +1577,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_064",
-        "word": "L'invention du réveil vs l'invention du bouton 'snooze' — lequel a fait le plus de mal à l'humanité ?",
+        "word": "L'invention du réveil vs l'invention du bouton 'snooze': lequel a fait le plus de mal à l'humanité ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1585,7 +1585,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "L'invention du réveil vs l'invention du bouton 'snooze' — lequel a fait le plus de mal à l'humanité ?",
+                "text": "L'invention du réveil vs l'invention du bouton 'snooze': lequel a fait le plus de mal à l'humanité ?",
                 "examples": []
             }
         ],
@@ -1602,7 +1602,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_065",
-        "word": "Fantômes vs extraterrestres — quelle serait la découverte la plus perturbatrice pour la société moderne ?",
+        "word": "Fantômes vs extraterrestres: quelle serait la découverte la plus perturbatrice pour la société moderne ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1610,7 +1610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fantômes vs extraterrestres — quelle serait la découverte la plus perturbatrice pour la société moderne ?",
+                "text": "Fantômes vs extraterrestres: quelle serait la découverte la plus perturbatrice pour la société moderne ?",
                 "examples": []
             }
         ],
@@ -1627,7 +1627,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_066",
-        "word": "Céréales avant le lait vs lait avant les céréales — est-ce une question de préférence ou de fait objectif ?",
+        "word": "Céréales avant le lait vs lait avant les céréales: est-ce une question de préférence ou de fait objectif ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1635,7 +1635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Céréales avant le lait vs lait avant les céréales — est-ce une question de préférence ou de fait objectif ?",
+                "text": "Céréales avant le lait vs lait avant les céréales: est-ce une question de préférence ou de fait objectif ?",
                 "examples": []
             }
         ],
@@ -1652,7 +1652,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_067",
-        "word": "Alerte éthique (whistleblowing) vs loyauté institutionnelle — quel est le choix le plus éthique ?",
+        "word": "Alerte éthique (whistleblowing) vs loyauté institutionnelle: quel est le choix le plus éthique ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1660,7 +1660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Alerte éthique (whistleblowing) vs loyauté institutionnelle — quel est le choix le plus éthique ?",
+                "text": "Alerte éthique (whistleblowing) vs loyauté institutionnelle: quel est le choix le plus éthique ?",
                 "examples": []
             }
         ],
@@ -1677,7 +1677,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_068",
-        "word": "Optimisme vs réalisme — quelle est la vision du monde la plus productive pour une carrière ?",
+        "word": "Optimisme vs réalisme: quelle est la vision du monde la plus productive pour une carrière ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1685,7 +1685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Optimisme vs réalisme — quelle est la vision du monde la plus productive pour une carrière ?",
+                "text": "Optimisme vs réalisme: quelle est la vision du monde la plus productive pour une carrière ?",
                 "examples": []
             }
         ],
@@ -1702,7 +1702,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_069",
-        "word": "Entrepreneuriat vs salariat — qu'est-ce qui contribue le plus à la société ?",
+        "word": "Entrepreneuriat vs salariat: qu'est-ce qui contribue le plus à la société ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1710,7 +1710,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Entrepreneuriat vs salariat — qu'est-ce qui contribue le plus à la société ?",
+                "text": "Entrepreneuriat vs salariat: qu'est-ce qui contribue le plus à la société ?",
                 "examples": []
             }
         ],
@@ -1727,7 +1727,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_070",
-        "word": "Nationalisme vs globalisme — quel est le cadre le plus cohérent pour le 21e siècle ?",
+        "word": "Nationalisme vs globalisme: quel est le cadre le plus cohérent pour le 21e siècle ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1735,7 +1735,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Nationalisme vs globalisme — quel est le cadre le plus cohérent pour le 21e siècle ?",
+                "text": "Nationalisme vs globalisme: quel est le cadre le plus cohérent pour le 21e siècle ?",
                 "examples": []
             }
         ],
@@ -1752,7 +1752,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_071",
-        "word": "École à la maison vs école traditionnelle — qu'est-ce qui produit des individus plus équilibrés ?",
+        "word": "École à la maison vs école traditionnelle: qu'est-ce qui produit des individus plus équilibrés ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1760,7 +1760,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "École à la maison vs école traditionnelle — qu'est-ce qui produit des individus plus équilibrés ?",
+                "text": "École à la maison vs école traditionnelle: qu'est-ce qui produit des individus plus équilibrés ?",
                 "examples": []
             }
         ],
@@ -1777,7 +1777,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_072",
-        "word": "Systèmes de notation vs feedback descriptif — qu'est-ce qui motive les élèves le plus efficacement ?",
+        "word": "Systèmes de notation vs feedback descriptif: qu'est-ce qui motive les élèves le plus efficacement ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1785,7 +1785,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Systèmes de notation vs feedback descriptif — qu'est-ce qui motive les élèves le plus efficacement ?",
+                "text": "Systèmes de notation vs feedback descriptif: qu'est-ce qui motive les élèves le plus efficacement ?",
                 "examples": []
             }
         ],
@@ -1802,7 +1802,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_073",
-        "word": "Intelligence artificielle vs jugement humain — qu'est-ce qui devrait guider les décisions clés en entreprise ?",
+        "word": "Intelligence artificielle vs jugement humain: qu'est-ce qui devrait guider les décisions clés en entreprise ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1810,7 +1810,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Intelligence artificielle vs jugement humain — qu'est-ce qui devrait guider les décisions clés en entreprise ?",
+                "text": "Intelligence artificielle vs jugement humain: qu'est-ce qui devrait guider les décisions clés en entreprise ?",
                 "examples": []
             }
         ],
@@ -1827,7 +1827,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_074",
-        "word": "Optimisme technologique vs scepticisme technologique — quelle est la posture par défaut la plus rationnelle aujourd'hui ?",
+        "word": "Optimisme technologique vs scepticisme technologique: quelle est la posture par défaut la plus rationnelle aujourd'hui ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1835,7 +1835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Optimisme technologique vs scepticisme technologique — quelle est la posture par défaut la plus rationnelle aujourd'hui ?",
+                "text": "Optimisme technologique vs scepticisme technologique: quelle est la posture par défaut la plus rationnelle aujourd'hui ?",
                 "examples": []
             }
         ],
@@ -1852,7 +1852,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_075",
-        "word": "Identité numérique vs identité réelle — qu'est-ce qui nous définit le plus aujourd'hui ?",
+        "word": "Identité numérique vs identité réelle: qu'est-ce qui nous définit le plus aujourd'hui ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1860,7 +1860,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Identité numérique vs identité réelle — qu'est-ce qui nous définit le plus aujourd'hui ?",
+                "text": "Identité numérique vs identité réelle: qu'est-ce qui nous définit le plus aujourd'hui ?",
                 "examples": []
             }
         ],
@@ -1877,7 +1877,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_076",
-        "word": "Éco-anxiété vs optimisme climatique — quelle est la réponse la plus constructive à la crise ?",
+        "word": "Éco-anxiété vs optimisme climatique: quelle est la réponse la plus constructive à la crise ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -1885,7 +1885,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Éco-anxiété vs optimisme climatique — quelle est la réponse la plus constructive à la crise ?",
+                "text": "Éco-anxiété vs optimisme climatique: quelle est la réponse la plus constructive à la crise ?",
                 "examples": []
             }
         ],
