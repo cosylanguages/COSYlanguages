@@ -6,7 +6,7 @@ window.curriculumData.fr_a1 = [
   lessons_count:5,
   lessons:[
     { code:'FR-001', num:1, title:'Bonjour & Bienvenue',
-      grammar:'Verbe être (présent) — formes affirmatives',
+      grammar:'Verbe être (présent): formes affirmatives',
       pronunciation: [
         {
           point: "L'alphabet français",
@@ -169,7 +169,7 @@ window.curriculumData.fr_a1 = [
       task:'Deviner le métier de son partenaire',
       cando:'Peut parler de sa profession de base',
       hw:'Énumérer 10 objets de son bureau' },
-    { code:'FR-03', num:3, title:'Où j\'habite — ma maison',
+    { code:'FR-03', num:3, title:'Où j\'habite: ma maison',
       grammar:'Habiter + prépositions de lieu (à, en)',
       pronunciation: [
         {
@@ -315,7 +315,7 @@ window.curriculumData.fr_a1 = [
       task:'Trouver quelqu\'un qui fait la même activité',
       cando:'Peut parler de ses loisirs',
       hw:'Rédiger 5 phrases sur ses goûts' },
-    { code:'FR-10', num:10, title:'Révision Unité 1 — Ma vie',
+    { code:'FR-10', num:10, title:'Révision Unité 1: Ma vie',
       grammar:'Récapitulatif présent, articles et possessifs',
       vocab: ['Tout le vocabulaire de l\'Unité 1'],
       verbs:['Être','Avoir','Faire','Verbes en -ER'],
@@ -449,7 +449,7 @@ window.curriculumData.fr_a1 = [
       task:'Transmettre un message secret',
       cando:'Peut rapporter ce que quelqu\'un a dit',
       hw:'Transformer 5 phrases directes en indirectes' },
-    { code:'FR-20', num:20, title:'Unit 2 Review — Mon passé',
+    { code:'FR-20', num:20, title:'Unit 2 Review: Mon passé',
       grammar:'Bilan Passé composé / Imparfait',
       vocab: ['Tout le vocabulaire de l\'Unité 2'],
       verbs:['Tous les verbes au passé'],
@@ -484,7 +484,7 @@ window.curriculumData.fr_a1 = [
     { code:'FR-27', num:7, title:'Mes résolutions', grammar:'Intentions', lessons_count:1 },
     { code:'FR-28', num:8, title:'Le monde en 2050', grammar:'Hypothèses', lessons_count:1 },
     { code:'FR-29', num:9, title:'Vouloir vs Pouvoir au futur', grammar:'Modaux au futur', lessons_count:1 },
-    { code:'FR-30', num:10, title:'Unit 3 Review — Futur', grammar:'Bilan Futur', lessons_count:1 },
+    { code:'FR-30', num:10, title:'Unit 3 Review: Futur', grammar:'Bilan Futur', lessons_count:1 },
   ]
 },
 {
@@ -507,7 +507,7 @@ window.curriculumData.fr_a1 = [
     { code:'FR-37', num:7, title:'Loisirs culturels', grammar:'Sorties', lessons_count:1 },
     { code:'FR-38', num:8, title:'L\'environnement', grammar:'Écologie', lessons_count:1 },
     { code:'FR-39', num:9, title:'Vivre ensemble', grammar:'Société', lessons_count:1 },
-    { code:'FR-40', num:10, title:'Unit 4 Review — Opinions', grammar:'Bilan Opinions', lessons_count:1 },
+    { code:'FR-40', num:10, title:'Unit 4 Review: Opinions', grammar:'Bilan Opinions', lessons_count:1 },
   ]
 },
 {
