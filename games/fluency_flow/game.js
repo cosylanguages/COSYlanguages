@@ -26,7 +26,7 @@
         body.innerHTML = `
             <div class="setup-screen">
               <h2>Fluency Flow 🗣️</h2>
-              <p>A topic will appear. Speak about it for the chosen duration without stopping. The goal is fluency — keep the words coming, don't worry about mistakes.</p>
+              <p>A topic will appear. Speak about it for the chosen duration without stopping. The goal is fluency: keep the words coming, don't worry about mistakes.</p>
               <div class="setup-field"><label>Level</label>
                 <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -88,7 +88,7 @@
                     <ul style="font-size:.85rem; text-align:left; margin:0 0 1rem 1rem; padding:0; line-height:1.4">
                         ${hints.map(h => `<li>${esc(h)}</li>`).join('')}
                     </ul>` : ''}
-                  <div class="game-sub">Speak about this topic for <strong>${durStr}</strong> without stopping. Don't worry about mistakes — keep talking!</div>
+                  <div class="game-sub">Speak about this topic for <strong>${durStr}</strong> without stopping. Don't worry about mistakes: keep talking!</div>
                   <div id="timer-container">${gameUtils.renderTimerRing(dur, dur)}</div>
                   <div class="game-controls">
                     <button class="btn-g-primary" id="ff-btn">▶ Start speaking</button>

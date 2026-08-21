@@ -77,7 +77,7 @@
                   <div class="game-card">
                     <div class="game-label">🎭 Famous quote ${category ? '· ' + category : ''}</div>
                     <div class="game-prompt" style="font-style:italic;font-size:1.1rem">"${qText}"</div>
-                    ${author ? `<div style="text-align:right; font-weight:700; margin-top:.5rem; color:var(--ink-muted)">— ${author}${origin ? `, <span style="font-weight:400; font-style:italic">${origin}</span>` : ''}</div>` : ''}
+                    ${author ? `<div style="text-align:right; font-weight:700; margin-top:.5rem; color:var(--ink-muted)">:  ${author}${origin ? `, <span style="font-weight:400; font-style:italic">${origin}</span>` : ''}</div>` : ''}
 
                     <div style="background:var(--sage-light); border-radius:12px; padding:14px; margin-top:1.25rem; border:1px solid rgba(107,143,113,.2); text-align:left;">
                         <div style="font-size:.65rem; text-transform:uppercase; font-weight:900; color:var(--sage-dark); margin-bottom:.4rem; letter-spacing:.05em;">Task</div>

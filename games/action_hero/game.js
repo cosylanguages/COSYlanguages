@@ -17,7 +17,7 @@
         body.innerHTML = `
             <div class="setup-screen">
               <h2>Action Hero 🎭</h2>
-              <p>Hold your phone to your forehead (screen facing others). They describe the word — you guess. Each round is 60 seconds. Pass or guess as many words as you can.</p>
+              <p>Hold your phone to your forehead (screen facing others). They describe the word: you guess. Each round is 60 seconds. Pass or guess as many words as you can.</p>
 
               <!-- Hands-free sensory tip -->
               <div style="background: var(--cream-dark); border: 1.5px dashed var(--border); border-radius: 12px; padding: 1rem; margin-bottom: 1.5rem; text-align: left; font-size: 0.88rem; line-height: 1.5;">
@@ -131,7 +131,7 @@
                 <div class="game-card" style="text-align:center">
                   <div class="game-label">🎭 Hold to forehead · ${DUR}s</div>
                   <div class="game-prompt" style="font-size:2.5rem;letter-spacing:.05em">${currentWord}</div>
-                  <div class="game-sub">Others describe this word — you guess!</div>
+                  <div class="game-sub">Others describe this word: you guess!</div>
                   <div id="timer-container">${gameUtils.renderTimerRing(DUR, DUR)}</div>
                   <div class="game-controls" style="justify-content:center;gap:1rem">
                     <button class="btn-g-primary" style="background:var(--green)" onclick="COSY_GAME.ahResult(true)">✓ Got it!</button>
@@ -161,7 +161,7 @@
                 <div class="round-end">
                   <div class="re-icon">🏆</div>
                   <div class="re-title">Round over!</div>
-                  <div class="re-sub">Time's up — here's how you did:</div>
+                  <div class="re-sub">Time's up: here's how you did:</div>
                   <div class="re-stats">
                     <div class="sb-item"><div class="re-stat-val" style="color:var(--green)">${correct}</div><div class="re-stat-lbl">✓ Correct</div></div>
                     <div class="sb-item"><div class="re-stat-val" style="color:var(--ink-muted)">${skipped}</div><div class="re-stat-lbl">↷ Skipped</div></div>

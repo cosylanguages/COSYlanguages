@@ -6,7 +6,7 @@ window.curriculumData.it_a1 = [
   lessons_count:5,
   lessons:[
     { code:'IT-001', num:1, title:'Buongiorno & Benvenuti',
-      grammar:'Verbo essere (presente): forme affermative',
+      grammar:'Verbo essere (presente) — forme affermative',
       pronunciation: [
         {
           point: "L'alfabeto italiano",
@@ -134,7 +134,7 @@ window.curriculumData.it_a1 = [
       task:'Speed dating di presentazione',
       cando:'Può presentarsi e salutare con cortesia',
       hw:'Imparare i numeri da 1 a 20' },
-    { code:'IT-02', num:2, title:'Il mio lavoro: cosa faccio',
+    { code:'IT-02', num:2, title:'Il mio lavoro — cosa faccio',
       grammar:'Presente di AVERE + articoli indeterminativi',
       pronunciation: [
         {
@@ -160,7 +160,7 @@ window.curriculumData.it_a1 = [
       task:'Indovinare il lavoro del compagno',
       cando:'Può parlare della propria professione',
       hw:'Elencare 10 oggetti dell\'ufficio' },
-    { code:'IT-03', num:3, title:'Dove vivo: la mia casa',
+    { code:'IT-03', num:3, title:'Dove vivo — la mia casa',
       grammar:'Verbi in -ARE (abitare) + preposizioni di luogo',
       pronunciation: [
         {
@@ -208,7 +208,7 @@ window.curriculumData.it_a1 = [
       task:'Role-play al mercato',
       cando:'Sa fare acquisti di base',
       hw:'Memorizzare i numeri fino a 100' },
-    { code:'IT-06', num:6, title:'Al ristorante: cibo e bevande',
+    { code:'IT-06', num:6, title:'Al ristorante — cibo e bevande',
       grammar:'Articoli determinativi (ripasso) + Vorrei...',
       vocab: ['pane','caffè','acqua','vino','pizza','piatto'],
       verbs:['mangiare','bere','ordinare'],

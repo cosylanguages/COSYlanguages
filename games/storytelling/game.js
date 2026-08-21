@@ -302,7 +302,7 @@
                                 <span class="story-badge badge-grammar">${line.grammar}</span>
                                 ${line.vocab ? `<span class="story-badge badge-vocab">${line.vocab}</span>` : ''}
                                 ${line.linkWord ? `<span class="story-badge badge-link">${line.linkWord}</span>` : ''}
-                                <span style="font-size:0.75rem; color:var(--ink-faint); margin-left:8px;">— Player ${line.author}</span>
+                                <span style="font-size:0.75rem; color:var(--ink-faint); margin-left:8px;">, Player ${line.author}</span>
                             </div>
                         `).join('') : '<div style="color:var(--ink-faint); text-align:center; padding: 2rem 0; font-style:italic;">No lines woven yet. Start the legend!</div>'}
                     </div>

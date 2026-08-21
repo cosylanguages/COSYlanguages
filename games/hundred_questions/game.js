@@ -44,7 +44,7 @@
             rules_intro: "Before you start, please read and agree to the rules:",
             rules_footer: "And finally... Friendship and family bonds are not killed by time. But by \"we already know everything\".",
             rules_bullets: [
-                "One question per meeting — or in chat, wherever it leads.",
+                "One question per meeting: or in chat, wherever it leads.",
                 "Both players answer. Or the whole group in a circle.",
                 "Honesty must not offend. An answer is a gift, not evidence.",
                 "Once per evening you can say \"pass\". Without explanation.",
@@ -84,9 +84,9 @@
             rules_intro: "Перед началом игры, пожалуйста, ознакомьтесь с правилами:",
             rules_footer: "И последнее... Отношения убивает не время. А «мы и так всё знаем».",
             rules_bullets: [
-                "Один вопрос за встречу — или в переписке, куда занесёт.",
+                "Один вопрос за встречу: или в переписке, куда занесёт.",
                 "Отвечают оба. Или вся компания по кругу.",
-                "На честность нельзя обижаться. Ответ — подарок, а не улика.",
+                "На честность нельзя обижаться. Ответ: подарок, а не улика.",
                 "Раз за вечер можно сказать «пропускаю». Без объяснений.",
                 "Уровни идут от лёгких к трудным. Не перескакивайте.",
                 "И главное: это способ узнать человека, которого вы «и так знаете».",
@@ -124,7 +124,7 @@
             rules_intro: "Avant de commencer, veuillez lire et accepter les règles :",
             rules_footer: "Et enfin... L'amour et l'amitié ne sont pas tués par le temps. Mais par \"on sait déjà tout\".",
             rules_bullets: [
-                "Une question par rencontre — ou par message, là où le vent vous mène.",
+                "Une question par rencontre: ou par message, là où le vent vous mène.",
                 "Les deux répondent. Ou tout le groupe à tour de rôle.",
                 "L'honnêteté ne doit pas blesser. Une réponse est un cadeau, pas une preuve.",
                 "Une fois par soirée, vous pouvez dire « je passe ». Sans explication.",

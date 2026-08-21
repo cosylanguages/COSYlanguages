@@ -18,7 +18,7 @@
         body.innerHTML = `
             <div class="setup-screen">
               <h2>Word Linker 🔗</h2>
-              <p>Four words appear. Find the connection between three of them — and spot the odd one out. Tests vocabulary depth and lateral thinking.</p>
+              <p>Four words appear. Find the connection between three of them, and spot the odd one out. Tests vocabulary depth and lateral thinking.</p>
               <div class="setup-field"><label>Mode</label>
                 <select class="styled-sel" id="s-mode">
                   <option value="odd">Odd One Out ❌</option>

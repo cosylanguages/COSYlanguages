@@ -25,7 +25,7 @@
         ['Option A1 🏔️', 'Option A2 🏖️'],
         ['Option B1 ☕', 'Option B2 🍵']
       ],
-      critic: [], // Quotes for Critic's Corner: "Quote" — Author
+      critic: [], // Quotes for Critic's Corner: "Quote": Author
       action: {
         // Use short codes for levels
         A1: ['Word1', 'Word2'],

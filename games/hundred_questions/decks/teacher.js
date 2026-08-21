@@ -94,7 +94,7 @@
         "questions": [
             {
                 "en": "Do you secretly believe homework is a subtle form of mental torture?",
-                "ru": "Веришь ли ты втайне, что домашка — это изощренная психологическая пытка?",
+                "ru": "Веришь ли ты втайне, что домашка: это изощренная психологическая пытка?",
                 "fr": "Penses-tu secrètement que les devoirs sont une forme subtile de torture mentale ?"
             },
             {

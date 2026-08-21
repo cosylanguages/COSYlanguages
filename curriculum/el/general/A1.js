@@ -6,7 +6,7 @@ window.curriculumData.el_a1 = [
   lessons_count:5,
   lessons:[
     { code:'EL-001', num:1, title:'Γεια σας & Καλώς ήρθατε',
-      grammar:'Ρήμα "είμαι" (ενεστώτας): καταφατικός τύπος',
+      grammar:'Ρήμα "είμαι" (ενεστώτας) — καταφατικός τύπος',
       pronunciation: [
         {
           point: "Το Ελληνικό Αλφάβητο",
@@ -112,7 +112,7 @@ window.curriculumData.el_a1 = [
       grammar:'Αλφάβητο + Προσωπικές αντωνυμίες + Ρήμα είμαι',
       pronunciation: [
         {
-          point: "The Greek Alphabet: Vowels",
+          point: "The Greek Alphabet — Vowels",
           explain: "Greek has 7 vowel letters but only 5 vowel sounds (a, e, i, o, u).",
           examples: [
             { pattern: "Α, α", ipa: "/a/", word: "καλά" },
@@ -133,7 +133,7 @@ window.curriculumData.el_a1 = [
       task:'Speed dating γνωριμίας',
       cando:'Μπορεί να συστήνεται και να χαιρετάει ευγενικά',
       hw:'Μαθαίνω το αλφάβητο' },
-    { code:'EL-02', num:2, title:'Η δουλειά μου: τι κάνω',
+    { code:'EL-02', num:2, title:'Η δουλειά μου — τι κάνω',
       grammar:'Άρθρο + Ουσιαστικά (Επαγγέλματα)',
       pronunciation: [
         {
@@ -159,7 +159,7 @@ window.curriculumData.el_a1 = [
       task:'Μαντεύω τη δουλειά του συμμαθητή μου',
       cando:'Μπορεί να μιλάει για το επάγγελμά του',
       hw:'Λίστα με 10 αντικείμενα γραφείου' },
-    { code:'EL-03', num:3, title:'Πού μένω: το σπίτι μου',
+    { code:'EL-03', num:3, title:'Πού μένω — το σπίτι μου',
       grammar:'Ρήμα "μένω" + Προθέσεις τόπου (σε, από)',
       pronunciation: [
         {
@@ -207,7 +207,7 @@ window.curriculumData.el_a1 = [
       task:'Στην αγορά: παζάρια για την τιμή',
       cando:'Μπορεί να κάνει βασικές αγορές',
       hw:'Μαθαίνω τους αριθμούς έως το 100' },
-    { code:'EL-06', num:6, title:'Στο εστιατόριο: φαγητό και ποτό',
+    { code:'EL-06', num:6, title:'Στο εστιατόριο — φαγητό και ποτό',
       grammar:'Πτώση Αιτιατική (αντικείμενο) + "Θα ήθελα..."',
       vocab: ['ψωμί','καφές','νερό','κρασί','φαγητό','πιάτο'],
       verbs:['τρώω','πίνω','παραγγέλνω'],
