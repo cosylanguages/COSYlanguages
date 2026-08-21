@@ -123,13 +123,16 @@
     };
 
     const setupSessionMiniNav = () => {
-        // Clean up any existing dynamic session nav
-        const existingNav = document.getElementById('session-mini-nav');
-        if (existingNav) existingNav.remove();
+        // Clean up any existing dynamic session nav (if not static inside sticky header)
+        const existingDynamicNav = document.querySelector('#session-mini-nav:not(.sd-sticky-header *)');
+        if (existingDynamicNav) existingDynamicNav.remove();
 
         // Check if page already has static jump links (e.g. in sticky header)
-        const staticNav = document.querySelector('.sd-jump-links:not(#session-mini-nav)');
+        const staticNav = document.querySelector('.sd-sticky-header .sd-jump-links, .sd-jump-links:not(#session-mini-nav)');
         if (staticNav) {
+            if (!staticNav.id) {
+                staticNav.id = 'session-mini-nav';
+            }
             const staticLinks = staticNav.querySelectorAll('.sd-jump-link');
             if (staticLinks.length > 0) {
                 const staticCandidates = [];
