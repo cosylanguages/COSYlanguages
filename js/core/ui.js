@@ -123,18 +123,85 @@
     };
 
     const setupSessionMiniNav = () => {
-        const isSessionPage = window.location.pathname.includes('/sessions/') || document.querySelector('.session-hero');
-        if (!isSessionPage) return;
-
+        // Clean up any existing dynamic session nav
         const existingNav = document.getElementById('session-mini-nav');
         if (existingNav) existingNav.remove();
 
-        const main = document.querySelector('main.content-container') || document.querySelector('main') || document.body;
+        // Check if page already has static jump links (e.g. in sticky header)
+        const staticNav = document.querySelector('.sd-jump-links:not(#session-mini-nav)');
+        if (staticNav) {
+            const staticLinks = staticNav.querySelectorAll('.sd-jump-link');
+            if (staticLinks.length > 0) {
+                const staticCandidates = [];
+                staticLinks.forEach(link => {
+                    const href = link.getAttribute('href');
+                    if (href && href.startsWith('#')) {
+                        const targetEl = document.querySelector(href);
+                        if (targetEl) {
+                            staticCandidates.push({ id: href.substring(1), link: link, el: targetEl });
+                        }
+                    }
+
+                    if (!link.dataset.jumpBound) {
+                        link.dataset.jumpBound = 'true';
+                        link.addEventListener('click', (e) => {
+                            const href = link.getAttribute('href');
+                            if (href && href.startsWith('#')) {
+                                e.preventDefault();
+                                const targetEl = document.querySelector(href);
+                                if (targetEl) {
+                                    const offset = 80;
+                                    const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
+                                    const offsetPosition = elementPosition - offset;
+                                    window.scrollTo({
+                                        top: offsetPosition,
+                                        behavior: 'smooth'
+                                    });
+                                }
+                            }
+                        });
+                    }
+                });
+
+                if (staticCandidates.length > 0) {
+                    const onStaticScroll = () => {
+                        let currentId = '';
+                        const scrollPosition = window.scrollY + 140;
+
+                        staticCandidates.forEach(sec => {
+                            const top = sec.el.offsetTop;
+                            const height = sec.el.offsetHeight;
+                            if (scrollPosition >= top && scrollPosition < top + height) {
+                                currentId = sec.id;
+                            }
+                        });
+
+                        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50 && staticCandidates.length > 0) {
+                            currentId = staticCandidates[staticCandidates.length - 1].id;
+                        }
+
+                        staticCandidates.forEach(sec => {
+                            if (sec.id === currentId) {
+                                sec.link.classList.add('active');
+                            } else {
+                                sec.link.classList.remove('active');
+                            }
+                        });
+                    };
+
+                    window.addEventListener('scroll', onStaticScroll, { passive: true });
+                    onStaticScroll();
+                    return;
+                }
+            }
+        }
+
+        const main = document.querySelector('main.content-container, main.practice-container, main.page, main#main-content, main#notebook-container, main, article, .page, #hub') || document.body;
         if (!main) return;
 
         const cleanLabelText = (rawText) => {
             if (!rawText) return '';
-            let t = rawText.replace(/[▲▼]/g, '').trim();
+            let t = rawText.replace(/[▲▼]/g, '').replace(/\s*\d+\s*(games|sessions|words|items)\s*$/gi, '').trim();
             if (t.length > 25) {
                 const shortText = t.split(/\s*[\u2014\-–:]\s*/)[0].trim();
                 if (shortText && shortText.length <= 25) {
@@ -151,6 +218,7 @@
 
         // Select major section elements and headers dynamically
         const selectors = [
+            'section[id]',
             'section',
             '#vocabulary',
             '#listening-exercise',
@@ -160,22 +228,28 @@
             '.round-block',
             '.mistake-block',
             '.private-step',
+            '.sec-title',
             'h2.section-title',
-            '.round-header',
-            '.mistake-header'
+            'h2.sec-h2',
+            'h2'
         ];
 
         const elements = main.querySelectorAll(selectors.join(', '));
 
         elements.forEach(el => {
-            // Find target section container
-            let targetEl = el;
-            if (el.classList.contains('round-header') || el.classList.contains('mistake-header') || el.classList.contains('section-title')) {
-                targetEl = el.closest('.round-block, .mistake-block, section, [id]') || el;
+            // Avoid selecting internal elements like modals, FABs, form fields, footer
+            if (el.closest('#cosy-nav, #dict-panel, #pin-modal, #back-to-top, .mobile-nav, footer, header, #sd-drawer, .summary-modal')) {
+                return;
             }
 
-            // Skip hidden mode containers
-            if (targetEl.closest('[data-session-mode][style*="display: none"], [data-session-mode][style*="display:none"]')) {
+            // Find target section container
+            let targetEl = el;
+            if (el.classList.contains('round-header') || el.classList.contains('mistake-header') || el.classList.contains('section-title') || el.classList.contains('sec-title') || el.classList.contains('sec-h2') || el.tagName === 'H2') {
+                targetEl = el.closest('.round-block, .mistake-block, section, article') || el;
+            }
+
+            // Skip hidden mode containers or invisible blocks
+            if (targetEl.closest('[data-session-mode][style*="display: none"], [data-session-mode][style*="display:none"], [style*="display: none"]')) {
                 return;
             }
 
@@ -187,10 +261,16 @@
 
             const sid = targetEl.id;
             if (seenIds.has(sid)) return;
-            if (['cosy-nav', 'description', 'structure', 'wonder-passcode-gate', 'kus-dynamic-switcher-placeholder', 'session-mini-nav', 'back-to-top', 'go-deeper'].includes(sid)) return;
+
+            const blacklistedIds = [
+                'cosy-nav', 'description', 'structure', 'wonder-passcode-gate',
+                'kus-dynamic-switcher-placeholder', 'session-mini-nav', 'back-to-top',
+                'go-deeper', 'dict-panel', 'pin-modal', 'main-content', 'main', 'notebook-container'
+            ];
+            if (blacklistedIds.includes(sid)) return;
 
             // Extract title
-            const headerEl = targetEl.querySelector('.section-title, .round-header, .mistake-header, h2, h3, summary') || (targetEl.matches('h2, h3') ? targetEl : null);
+            const headerEl = targetEl.querySelector('.section-title, .sec-title, .sec-h2, .round-header, .mistake-header, h2, h3, summary') || (targetEl.matches('h2, h3, .sec-title, .sec-h2') ? targetEl : null);
             let rawTitle = headerEl ? headerEl.textContent.trim() : '';
 
             if (!rawTitle) {
@@ -205,12 +285,12 @@
             candidates.push({ id: sid, label: label, el: targetEl });
         });
 
-        if (candidates.length === 0) return;
+        if (candidates.length < 2) return;
 
         const navContainer = document.createElement('nav');
         navContainer.id = 'session-mini-nav';
         navContainer.className = 'session-mini-nav sd-jump-links';
-        navContainer.setAttribute('aria-label', 'Session section jump links');
+        navContainer.setAttribute('aria-label', 'Page section jump links');
 
         let linksHtml = '';
         candidates.forEach(sec => {
@@ -223,7 +303,10 @@
                              main.querySelector('.session-meta-grid') ||
                              main.querySelector('.cosy-session-switcher-placeholder') ||
                              main.querySelector('.back-link') ||
-                             main.querySelector('.cosy-breadcrumbs');
+                             main.querySelector('.cosy-breadcrumbs') ||
+                             main.querySelector('.filter-bar') ||
+                             main.querySelector('.hero-ctas') ||
+                             main.firstElementChild;
 
         if (targetAnchor && targetAnchor.nextSibling) {
             targetAnchor.parentNode.insertBefore(navContainer, targetAnchor.nextSibling);
