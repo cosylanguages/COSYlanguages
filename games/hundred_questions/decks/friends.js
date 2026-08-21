@@ -18,9 +18,9 @@
         "range": "1–13",
         "questions": [
             {
-                "ru": "Каким было твоё первое впечатление обо мне — честно?",
-                "en": "What was your first impression of me — honestly?",
-                "fr": "Quelle a été ta première impression de moi — honnêtement ?"
+                "ru": "Каким было твоё первое впечатление обо мне, честно?",
+                "en": "What was your first impression of me, honestly?",
+                "fr": "Quelle a été ta première impression de moi, honnêtement ?"
             },
             {
                 "ru": "Почему, по-твоему, мы вообще подружились?",
@@ -58,9 +58,9 @@
                 "fr": "Quel jour que nous avons passé ensemble aimerais-tu revivre ?"
             },
             {
-                "ru": "Что мы делали раньше и перестали — а зря?",
-                "en": "What did we use to do that we stopped doing — and shouldn't have?",
-                "fr": "Qu'est-ce qu'on faisait avant et qu'on a arrêté — à tort ?"
+                "ru": "Что мы делали раньше и перестали, а зря?",
+                "en": "What did we use to do that we stopped doing, and shouldn't have?",
+                "fr": "Qu'est-ce qu'on faisait avant et qu'on a arrêté, à tort ?"
             },
             {
                 "ru": "Какое тайное прозвище мне подошло бы, по-твоему?",
@@ -113,9 +113,9 @@
                 "fr": "Qu'est-ce que nous avions prévu et que nous n'avons jamais fait ?"
             },
             {
-                "ru": "Какая ссора могла нас развести — и что нас удержало?",
-                "en": "What argument could have torn us apart — and what kept us together?",
-                "fr": "Quelle dispute aurait pu nous séparer — et qu'est-ce qui nous a retenus ?"
+                "ru": "Какая ссора могла нас развести, и что нас удержало?",
+                "en": "What argument could have torn us apart, and what kept us together?",
+                "fr": "Quelle dispute aurait pu nous séparer, et qu'est-ce qui nous a retenus ?"
             },
             {
                 "ru": "Что ты помнишь из нашей дружбы, чего я уже не помню?",
@@ -133,12 +133,12 @@
                 "fr": "Quel cadeau ou quel geste de ma part t'a le plus marqué ?"
             },
             {
-                "ru": "Что тогда казалось катастрофой, а теперь — наша легенда?",
+                "ru": "Что тогда казалось катастрофой, а теперь наша легенда?",
                 "en": "What seemed like a disaster back then, but is now our legend?",
                 "fr": "Qu'est-ce qui semblait être une catastrophe à l'époque, et est maintenant notre légende ?"
             },
             {
-                "ru": "Кем мы были, когда познакомились, — и насколько изменились?",
+                "ru": "Кем мы были, когда познакомились, и насколько изменились?",
                 "en": "Who were we when we met, and how much have we changed?",
                 "fr": "Qui étions-nous quand on s'est rencontrés, et à quel point avons-nous changé ?"
             },
@@ -163,9 +163,9 @@
         "range": "26–38",
         "questions": [
             {
-                "ru": "Хватает ли тебе меня сейчас — честно?",
-                "en": "Do you get enough of me right now — honestly?",
-                "fr": "Est-ce que tu me vois assez en ce moment — franchement ?"
+                "ru": "Хватает ли тебе меня сейчас, честно?",
+                "en": "Do you get enough of me right now, honestly?",
+                "fr": "Est-ce que tu me vois assez en ce moment, franchement ?"
             },
             {
                 "ru": "Что изменилось в нашей дружбе за последние годы?",
@@ -178,9 +178,9 @@
                 "fr": "De quelles rencontres as-tu le plus besoin : en groupe bruyant ou en tête-à-tête ?"
             },
             {
-                "ru": "О чём мы всё время говорим — и о чём никогда?",
-                "en": "What do we talk about all the time — and what do we never talk about?",
-                "fr": "De quoi parle-t-on tout le temps — et de quoi ne parle-t-on jamais ?"
+                "ru": "О чём мы всё время говорим, и о чём никогда?",
+                "en": "What do we talk about all the time, and what do we never talk about?",
+                "fr": "De quoi parle-t-on tout le temps, et de quoi ne parle-t-on jamais ?"
             },
             {
                 "ru": "Что тебе даёт наша дружба такого, чего не даёт семья?",
@@ -188,14 +188,14 @@
                 "fr": "Qu'est-ce que notre amitié t'apporte que ta famille ne t'apporte pas ?"
             },
             {
-                "ru": "Когда тебе тяжело — почему ты звонишь мне или не звонишь?",
-                "en": "When times are tough — why do you call me, or why don't you?",
-                "fr": "Quand c'est difficile pour toi — pourquoi m'appelles-tu, ou pourquoi ne m'appelles-tu pas ?"
+                "ru": "Когда тебе тяжело: почему ты звонишь мне или не звонишь?",
+                "en": "When times are tough: why do you call me, or why don't you?",
+                "fr": "Quand c'est difficile pour toi: pourquoi m'appelles-tu, ou pourquoi ne m'appelles-tu pas ?"
             },
             {
-                "ru": "Какой помощи ты от меня никогда не попросишь — и почему?",
-                "en": "What kind of help would you never ask me for — and why?",
-                "fr": "Quelle aide ne me demanderais-tu jamais — et pourquoi ?"
+                "ru": "Какой помощи ты от меня никогда не попросишь, и почему?",
+                "en": "What kind of help would you never ask me for, and why?",
+                "fr": "Quelle aide ne me demanderais-tu jamais, et pourquoi ?"
             },
             {
                 "ru": "Что из моей жизни тебе неинтересно, но ты слушаешь?",
@@ -208,9 +208,9 @@
                 "fr": "Comment sais-tu que je vais mal, même si je garde le silence ?"
             },
             {
-                "ru": "Что для тебя «настоящий друг» — и дотягиваю ли я?",
-                "en": "What does \"a real friend\" mean to you — and do I measure up?",
-                "fr": "C'est quoi un « vrai ami » pour toi — et est-ce que je corresponds ?"
+                "ru": "Что для тебя «настоящий друг», и дотягиваю ли я?",
+                "en": "What does \"a real friend\" mean to you: and do I measure up?",
+                "fr": "C'est quoi un « vrai ami » pour toi, et est-ce que je corresponds ?"
             },
             {
                 "ru": "Какие темы для тебя закрыты даже со мной?",
@@ -253,14 +253,14 @@
                 "fr": "Quelle erreur de ma part vois-tu, tout en gardant le silence ?"
             },
             {
-                "ru": "Что обо мне говорят за спиной — и что ты отвечаешь?",
-                "en": "What do people say about me behind my back — and how do you respond?",
-                "fr": "Que dit-on de moi dans mon dos — et que réponds-tu ?"
+                "ru": "Что обо мне говорят за спиной, и что ты отвечаешь?",
+                "en": "What do people say about me behind my back, and how do you respond?",
+                "fr": "Que dit-on de moi dans mon dos, et que réponds-tu ?"
             },
             {
-                "ru": "Какой мой выбор ты не одобряешь — молча?",
+                "ru": "Какой мой выбор ты не одобряешь: молча?",
                 "en": "What choice of mine do you silently disapprove of?",
-                "fr": "Quel choix de ma part désapprouves-tu — en silence ?"
+                "fr": "Quel choix de ma part désapprouves-tu: en silence ?"
             },
             {
                 "ru": "В чём я обманываю себя, по-твоему?",
@@ -278,9 +278,9 @@
                 "fr": "Qu'est-ce que tu n'aimes franchement pas dans ma façon de vivre ?"
             },
             {
-                "ru": "Что со мной происходит, когда я злюсь или влюбляюсь, — со стороны?",
+                "ru": "Что со мной происходит, когда я злюсь или влюбляюсь, со стороны?",
                 "en": "From the outside, what happens to me when I get angry or fall in love?",
-                "fr": "De l'extérieur, que se passe-t-il chez moi когда я злюсь или влюбляюсь, — со стороны ?"
+                "fr": "De l'extérieur, que se passe-t-il chez moi когда я злюсь или влюбляюсь, со стороны ?"
             },
             {
                 "ru": "Про какое моё решение ты втайне думаешь «зря»?",
@@ -313,14 +313,14 @@
                 "fr": "De quelle partie de ta vie ne me parles-tu jamais ?"
             },
             {
-                "ru": "Что в нашей дружбе тебя ранило — а я, кажется, не в курсе?",
+                "ru": "Что в нашей дружбе тебя ранило: а я, кажется, не в курсе?",
                 "en": "What has hurt you in our friendship that I seem unaware of?",
                 "fr": "Qu'est-ce qui t'a blessé dans notre amitié sans que je semble le savoir ?"
             },
             {
-                "ru": "Бывает ли у тебя зависть ко мне — и к чему именно?",
-                "en": "Do you ever feel envious of me — and of what exactly?",
-                "fr": "T'arrive-t-il de m'envier — et pour quoi précisément ?"
+                "ru": "Бывает ли у тебя зависть ко мне: и к чему именно?",
+                "en": "Do you ever feel envious of me: and of what exactly?",
+                "fr": "T'arrive-t-il de m'envier: et pour quoi précisément ?"
             },
             {
                 "ru": "Была ли моя шутка, которая на самом деле обидела тебя?",
@@ -338,7 +338,7 @@
                 "fr": "Quelle demande de ma part a été plus difficile à accepter que je ne le pense ?"
             },
             {
-                "ru": "Что тебе важно услышать от меня — а я этого не говорю?",
+                "ru": "Что тебе важно услышать от меня: а я этого не говорю?",
                 "en": "What is important for you to hear from me that I don't say?",
                 "fr": "Qu'est-ce qu'il est important pour toi d'entendre de ma part et que je ne dis pas ?"
             },
@@ -428,9 +428,9 @@
                 "fr": "Qu'est-ce qui constituerait une trahison en amitié pour toi ?"
             },
             {
-                "ru": "Кому из нас дружба нужнее — честно?",
-                "en": "Who needs this friendship more — honestly?",
-                "fr": "Qui de nous deux a le plus besoin de cette amitié — honnêtement ?"
+                "ru": "Кому из нас дружба нужнее, честно?",
+                "en": "Who needs this friendship more, honestly?",
+                "fr": "Qui de nous deux a le plus besoin de cette amitié, honnêtement ?"
             },
             {
                 "ru": "Что ты чувствуешь, когда я надолго пропадаю?",
@@ -463,14 +463,14 @@
                 "fr": "Qu'est-ce qui te permet de garder la tête hors de l'eau quand tout s'effondre ?"
             },
             {
-                "ru": "О чём ты мечтаешь сейчас — без поправки на реальность?",
-                "en": "What are you dreaming of now — without checking in with reality?",
-                "fr": "À quoi rêves-tu en ce moment — sans te soucier de la réalité ?"
+                "ru": "О чём ты мечтаешь сейчас, без поправки на реальность?",
+                "en": "What are you dreaming of now, without checking in with reality?",
+                "fr": "À quoi rêves-tu en ce moment, sans te soucier de la réalité ?"
             },
             {
-                "ru": "Что тебе во мне даёт силы — если даёт?",
-                "en": "What about me gives you strength — if anything?",
-                "fr": "Qu'est-ce qui, chez moi, te donne de la force — si tant est que ce soit le cas ?"
+                "ru": "Что тебе во мне даёт силы, если даёт?",
+                "en": "What about me gives you strength, if anything?",
+                "fr": "Qu'est-ce qui, chez moi, te donne de la force, si tant est que ce soit le cas ?"
             },
             {
                 "ru": "Какую свою слабость ты прячешь ото всех?",
@@ -478,9 +478,9 @@
                 "fr": "Quelle faiblesse caches-tu à tout le monde ?"
             },
             {
-                "ru": "Перед кем ты чувствуешь вину — и молчишь об этом?",
-                "en": "Who do you feel guilty towards — and stay silent about?",
-                "fr": "Envers qui te sens-tu coupable — tout en le gardant pour toi ?"
+                "ru": "Перед кем ты чувствуешь вину, и молчишь об этом?",
+                "en": "Who do you feel guilty towards, and stay silent about?",
+                "fr": "Envers qui te sens-tu coupable, tout en le gardant pour toi ?"
             },
             {
                 "ru": "Какую перемену в жизни ты откладываешь из страха?",
@@ -513,9 +513,9 @@
                 "fr": "Qu'est-ce qui te soigne le mieux : les gens, l'action ou la solitude ?"
             },
             {
-                "ru": "Каким человеком тебе хочется быть — и что мешает?",
-                "en": "What kind of person do you want to be — and what is stopping you?",
-                "fr": "Quel genre de personne aimerais-tu être — et qu'est-ce qui t'en empêche ?"
+                "ru": "Каким человеком тебе хочется быть, и что мешает?",
+                "en": "What kind of person do you want to be, and what is stopping you?",
+                "fr": "Quel genre de personne aimerais-tu être, et qu'est-ce qui t'en empêche ?"
             }
         ]
     },
@@ -528,9 +528,9 @@
         "range": "89–100",
         "questions": [
             {
-                "ru": "Если бы мы познакомились сегодня — мы бы подружились?",
-                "en": "If we met for the first time today — would we become friends?",
-                "fr": "Si nous nous rencontrions aujourd'hui pour la première fois — deviendrions-nous amis ?"
+                "ru": "Если бы мы познакомились сегодня, мы бы подружились?",
+                "en": "If we met for the first time today, would we become friends?",
+                "fr": "Si nous nous rencontrions aujourd'hui pour la première fois, deviendrions-nous amis ?"
             },
             {
                 "ru": "Что ты расскажешь обо мне своим детям?",
@@ -553,14 +553,14 @@
                 "fr": "Qu'as-tu compris de ma vie sans oser le dire à voix haute ?"
             },
             {
-                "ru": "Рядом со мной ты становишься лучшей версией себя — или нет?",
-                "en": "Do you become a better version of yourself around me — or not?",
-                "fr": "Deviens-tu une meilleure version de toi-même à mes côtés — ou non ?"
+                "ru": "Рядом со мной ты становишься лучшей версией себя, или нет?",
+                "en": "Do you become a better version of yourself around me, or not?",
+                "fr": "Deviens-tu une meilleure version de toi-même à mes côtés, ou non ?"
             },
             {
-                "ru": "Чего тебе не хватает в нашей дружбе — только честно?",
-                "en": "What is missing from our friendship — honestly?",
-                "fr": "Qu'est-ce qui te manque dans notre amitié — franchement ?"
+                "ru": "Чего тебе не хватает в нашей дружбе, только честно?",
+                "en": "What is missing from our friendship, honestly?",
+                "fr": "Qu'est-ce qui te manque dans notre amitié, franchement ?"
             },
             {
                 "ru": "Где для тебя граница, после которой дружба заканчивается?",
@@ -573,19 +573,19 @@
                 "fr": "Qu'aimerais-tu que nous fassions ensemble avant de vieillir ?"
             },
             {
-                "ru": "Кто из нас позвонит первым после ссоры — и почему всегда так?",
-                "en": "Which of us would call first after a fight — and why is it always like that?",
-                "fr": "Lequel de nous deux appellerait le premier après une dispute — et pourquoi en est-il toujours ainsi ?"
+                "ru": "Кто из нас позвонит первым после ссоры, и почему всегда так?",
+                "en": "Which of us would call first after a fight, and why is it always like that?",
+                "fr": "Lequel de nous deux appellerait le premier après une dispute, et pourquoi en est-il toujours ainsi ?"
             },
             {
-                "ru": "Почему мы всё ещё дружим — настоящий ответ, не автоматический?",
-                "en": "Why are we still friends — the real answer, not the automatic one?",
-                "fr": "Pourquoi sommes-nous toujours amis — la vraie réponse, pas celle automatique ?"
+                "ru": "Почему мы всё ещё дружим: настоящий ответ, не автоматический?",
+                "en": "Why are we still friends: the real answer, not the automatic one?",
+                "fr": "Pourquoi sommes-nous toujours amis: la vraie réponse, pas celle automatique ?"
             },
             {
-                "ru": "Какой вопрос из этого списка тебе страшнее всего задать мне — и почему?",
-                "en": "Which question on this list are you most afraid to ask me — and why?",
-                "fr": "Quelle question de cette liste as-tu le plus peur de me poser — et pourquoi ?"
+                "ru": "Какой вопрос из этого списка тебе страшнее всего задать мне, и почему?",
+                "en": "Which question on this list are you most afraid to ask me, and why?",
+                "fr": "Quelle question de cette liste as-tu le plus peur de me poser, et pourquoi ?"
             }
         ]
     }

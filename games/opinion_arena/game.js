@@ -23,7 +23,7 @@
         body.innerHTML = `
             <div class="setup-screen">
               <h2>Opinion Arena 🏟️</h2>
-              <p>A statement appears. Agree or disagree — then speak for 1–2 minutes defending your view. Great for building confident, opinionated language.</p>
+              <p>A statement appears. Agree or disagree, then speak for 1–2 minutes defending your view. Great for building confident, opinionated language.</p>
               <div class="setup-field"><label>Level</label>
                 <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>

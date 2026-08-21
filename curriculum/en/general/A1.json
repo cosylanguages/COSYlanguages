@@ -11,7 +11,7 @@
           "lesson": 1,
           "title": "Hello & Welcome",
           "grammar": [
-            "Verb \"to be\" (am/is/are): positive forms"
+            "Verb \"to be\" (am/is/are) — positive forms"
           ],
           "vocabulary": [
             "Hello",
@@ -27,7 +27,7 @@
           "lesson": 2,
           "title": "What is your name?",
           "grammar": [
-            "Verb \"to be\": questions (What is...?)"
+            "Verb \"to be\" — questions (What is...?)"
           ],
           "vocabulary": [
             "Name",
@@ -88,7 +88,7 @@
       "lessons": [
         {
           "lesson": 1,
-          "title": "A day in my life: routines revisited",
+          "title": "A day in my life — routines revisited",
           "grammar": [
             "Present simple: all persons + frequency adverbs (mid-position)"
           ],
@@ -110,7 +110,7 @@
         },
         {
           "lesson": 2,
-          "title": "My job: describing work in detail",
+          "title": "My job — describing work in detail",
           "grammar": [
             "Present simple: \"I work with/for/in; I am responsible for…\""
           ],
@@ -161,7 +161,7 @@
         },
         {
           "lesson": 4,
-          "title": "Earning and spending: money vocabulary",
+          "title": "Earning and spending — money vocabulary",
           "grammar": [
             "How much do you earn/spend? Present simple + object; too + adjective / enough"
           ],
@@ -185,7 +185,7 @@
         },
         {
           "lesson": 5,
-          "title": "My home: renting and buying",
+          "title": "My home — renting and buying",
           "grammar": [
             "Have to / don't have to (obligation intro); How much does it cost?"
           ],
@@ -210,7 +210,7 @@
         },
         {
           "lesson": 6,
-          "title": "Food and health: what you eat, how you feel",
+          "title": "Food and health — what you eat, how you feel",
           "grammar": [
             "Should / shouldn't for advice: \"You should eat more… / You shouldn't…\""
           ],
@@ -310,7 +310,7 @@
         },
         {
           "lesson": 10,
-          "title": "Unit 1 Review: My life today",
+          "title": "Unit 1 Review — My life today",
           "grammar": [
             "Present simple (all forms) + should + have to + frequency + like -ing"
           ],
@@ -319,7 +319,7 @@
             "ALL Unit 1 verbs",
             "ALL Unit 1 adjectives"
           ],
-          "teacher_notes": "code: \"A1-10\"\nspeaking: \"Oral: describe your life today (3 minutes, all topics)\"\nlistening: \"Extended listening: 3 speakers describing their lives\"\nreading: \"Full \\\"My adult life\\\" profile\"\nwriting: \"\\\"My life today\\\" paragraph (150 words)\"\ntask: \"Speed networking: 2 min each, 3 partners\"\ncando: \"Can describe all aspects of present adult life\"\nhw: \"Portfolio: write your \\\"My Life Today\\\" profile\""
+          "teacher_notes": "code: \"A1-10\"\nspeaking: \"Oral: describe your life today (3 minutes, all topics)\"\nlistening: \"Extended listening — 3 speakers describing their lives\"\nreading: \"Full \\\"My adult life\\\" profile\"\nwriting: \"\\\"My life today\\\" paragraph (150 words)\"\ntask: \"Speed networking: 2 min each, 3 partners\"\ncando: \"Can describe all aspects of present adult life\"\nhw: \"Portfolio: write your \\\"My Life Today\\\" profile\""
         }
       ]
     },
@@ -329,7 +329,7 @@
       "lessons": [
         {
           "lesson": 1,
-          "title": "My career story: past simple review",
+          "title": "My career story — past simple review",
           "grammar": [
             "Past simple: regular + irregular review + time expressions (in 2015, after that, then)"
           ],
@@ -353,7 +353,7 @@
         },
         {
           "lesson": 2,
-          "title": "What were you doing?: past continuous",
+          "title": "What were you doing? — past continuous",
           "grammar": [
             "Past continuous: was/were + -ing; contrast with past simple (while, when)"
           ],
@@ -375,7 +375,7 @@
         },
         {
           "lesson": 3,
-          "title": "I used to…: past habits and states",
+          "title": "I used to… — past habits and states",
           "grammar": [
             "Used to + infinitive for past habits and states no longer true"
           ],
@@ -393,7 +393,7 @@
         },
         {
           "lesson": 4,
-          "title": "Have you ever…?: life experiences",
+          "title": "Have you ever…? — life experiences",
           "grammar": [
             "Present perfect: have/has + past participle + ever/never for experience"
           ],
@@ -415,13 +415,13 @@
             "terrible",
             "interesting"
           ],
-          "teacher_notes": "code: \"A1-14\"\npronunciation: [{\"point\":\"Been vs Gone\",\"explain\":\"Differentiate between these two participles in connected speech.\",\"examples\":[{\"pattern\":\"been\",\"ipa\":\"/biːn/\",\"word\":\"I've been to Paris\"},{\"pattern\":\"gone\",\"ipa\":\"/ɡɒn/\",\"word\":\"He's gone to Paris\"}],\"extension\":\"'Been' implies a return, while 'Gone' implies the person is still there. Pronunciation is clear: /iː/ vs /ɒ/.\",\"visual\":\"🛫↔️🛬\"}]\nspeaking: \"Ask a partner 5 \\\"Have you ever…?\\\" questions\"\nlistening: \"An interview about life experiences\"\nreading: \"A \\\"bucket list\\\" article\"\nwriting: \"5 sentences: \\\"I have / have never ___\\\"\"\ntask: \"\\\"Have you ever…?\\\" class survey: find someone who has\"\ncando: \"Can ask and talk about life experiences using present perfect\"\nhw: \"Write a \\\"Things I have and haven't done\\\" list with sentences\""
+          "teacher_notes": "code: \"A1-14\"\npronunciation: [{\"point\":\"Been vs Gone\",\"explain\":\"Differentiate between these two participles in connected speech.\",\"examples\":[{\"pattern\":\"been\",\"ipa\":\"/biːn/\",\"word\":\"I've been to Paris\"},{\"pattern\":\"gone\",\"ipa\":\"/ɡɒn/\",\"word\":\"He's gone to Paris\"}],\"extension\":\"'Been' implies a return, while 'Gone' implies the person is still there. Pronunciation is clear: /iː/ vs /ɒ/.\",\"visual\":\"🛫↔️🛬\"}]\nspeaking: \"Ask a partner 5 \\\"Have you ever…?\\\" questions\"\nlistening: \"An interview about life experiences\"\nreading: \"A \\\"bucket list\\\" article\"\nwriting: \"5 sentences: \\\"I have / have never ___\\\"\"\ntask: \"\\\"Have you ever…?\\\" class survey — find someone who has\"\ncando: \"Can ask and talk about life experiences using present perfect\"\nhw: \"Write a \\\"Things I have and haven't done\\\" list with sentences\""
         },
         {
           "lesson": 5,
-          "title": "I have just…: recent events",
+          "title": "I have just… — recent events",
           "grammar": [
-            "Present perfect: just, already, yet: meaning and position"
+            "Present perfect: just, already, yet — meaning and position"
           ],
           "vocabulary": [
             "just",
@@ -440,7 +440,7 @@
         },
         {
           "lesson": 6,
-          "title": "Since when? For how long?: duration",
+          "title": "Since when? For how long? — duration",
           "grammar": [
             "Present perfect: for + period, since + point in time; How long have you…?"
           ],
@@ -462,7 +462,7 @@
         },
         {
           "lesson": 7,
-          "title": "Telling a story: narrative skills",
+          "title": "Telling a story — narrative skills",
           "grammar": [
             "Past simple + past continuous + present perfect (mixed past narrative)"
           ],
@@ -489,7 +489,7 @@
         },
         {
           "lesson": 8,
-          "title": "A difficult situation: problem narration",
+          "title": "A difficult situation — problem narration",
           "grammar": [
             "Past tenses + wish/if only (intro): \"I wish I had…\""
           ],
@@ -532,7 +532,7 @@
         },
         {
           "lesson": 10,
-          "title": "Unit 2 Review: My past",
+          "title": "Unit 2 Review — My past",
           "grammar": [
             "Past simple, past continuous, used to, present perfect (all uses)"
           ],
@@ -551,7 +551,7 @@
       "lessons": [
         {
           "lesson": 1,
-          "title": "I'm going to change: plans and intentions",
+          "title": "I'm going to change — plans and intentions",
           "grammar": [
             "Going to + infinitive for intention; present continuous for fixed arrangements"
           ],
@@ -576,7 +576,7 @@
         },
         {
           "lesson": 2,
-          "title": "It will be…: predictions and decisions",
+          "title": "It will be… — predictions and decisions",
           "grammar": [
             "Will: predictions and spontaneous decisions; contrast with going to"
           ],
@@ -596,7 +596,7 @@
         },
         {
           "lesson": 3,
-          "title": "What are you doing on Friday?: arrangements",
+          "title": "What are you doing on Friday? — arrangements",
           "grammar": [
             "Present continuous for fixed future arrangements"
           ],
@@ -619,7 +619,7 @@
         },
         {
           "lesson": 4,
-          "title": "If you work hard…: real conditions",
+          "title": "If you work hard… — real conditions",
           "grammar": [
             "First conditional: if + present simple + will"
           ],
@@ -639,7 +639,7 @@
         },
         {
           "lesson": 5,
-          "title": "What would you do?: imagined situations",
+          "title": "What would you do? — imagined situations",
           "grammar": [
             "Second conditional (intro): if + past + would; \"I would love to / If I had…\""
           ],
@@ -657,7 +657,7 @@
         },
         {
           "lesson": 6,
-          "title": "Making decisions: comparing options",
+          "title": "Making decisions — comparing options",
           "grammar": [
             "Comparatives and superlatives (extended); \"It is better to… / the best option is…\""
           ],
@@ -683,7 +683,7 @@
         },
         {
           "lesson": 7,
-          "title": "What should I do?: giving advice",
+          "title": "What should I do? — giving advice",
           "grammar": [
             "Should/shouldn't; \"Why don't you + infinitive\"; imperative for strong advice"
           ],
@@ -708,9 +708,9 @@
         },
         {
           "lesson": 8,
-          "title": "I need to…: obligation and necessity",
+          "title": "I need to… — obligation and necessity",
           "grammar": [
-            "Need to / must / have to: necessity; mustn't for prohibition"
+            "Need to / must / have to — necessity; mustn't for prohibition"
           ],
           "vocabulary": [
             "urgent",
@@ -750,7 +750,7 @@
         },
         {
           "lesson": 10,
-          "title": "Unit 3 Review: My future",
+          "title": "Unit 3 Review — My future",
           "grammar": [
             "Going to, will, present continuous (future), first + second conditional, should, must"
           ],
@@ -769,7 +769,7 @@
       "lessons": [
         {
           "lesson": 1,
-          "title": "Describing people: personality in depth",
+          "title": "Describing people — personality in depth",
           "grammar": [
             "Adjective + preposition: good at, bad at, interested in, worried about"
           ],
@@ -794,7 +794,7 @@
         },
         {
           "lesson": 2,
-          "title": "The person who…: relative clauses",
+          "title": "The person who… — relative clauses",
           "grammar": [
             "Defining relative clauses: who (people), which/that (things), where (places)"
           ],
@@ -815,7 +815,7 @@
         },
         {
           "lesson": 3,
-          "title": "Agreeing and discussing: question tags",
+          "title": "Agreeing and discussing — question tags",
           "grammar": [
             "Question tags: positive statement → negative tag; negative → positive"
           ],
@@ -836,7 +836,7 @@
         },
         {
           "lesson": 4,
-          "title": "Could you tell me…?: indirect questions",
+          "title": "Could you tell me…? — indirect questions",
           "grammar": [
             "Indirect questions: statement word order after question intro"
           ],
@@ -856,7 +856,7 @@
         },
         {
           "lesson": 5,
-          "title": "What do you think?: opinions and discussions",
+          "title": "What do you think? — opinions and discussions",
           "grammar": [
             "Opinion phrases: \"I think/believe that + clause\"; agreeing/disagreeing"
           ],
@@ -882,7 +882,7 @@
         },
         {
           "lesson": 6,
-          "title": "Talking about culture: customs and norms",
+          "title": "Talking about culture — customs and norms",
           "grammar": [
             "Present simple for general truths; \"It is + adjective + to + infinitive\""
           ],
@@ -905,7 +905,7 @@
         },
         {
           "lesson": 7,
-          "title": "A community event: social English",
+          "title": "A community event — social English",
           "grammar": [
             "Inviting: \"Would you like to…?\" / \"Could you come to…?\" Accepting/declining politely"
           ],
@@ -930,7 +930,7 @@
         },
         {
           "lesson": 8,
-          "title": "On the phone: telephone English",
+          "title": "On the phone — telephone English",
           "grammar": [
             "Formal telephone phrases; modal verbs for politeness (could, would)"
           ],
@@ -952,7 +952,7 @@
         },
         {
           "lesson": 9,
-          "title": "Writing an email: formal and informal",
+          "title": "Writing an email — formal and informal",
           "grammar": [
             "Formal vs informal register; tenses in emails (present + past + future)"
           ],
@@ -973,11 +973,11 @@
             "informal",
             "polite"
           ],
-          "teacher_notes": "code: \"A1-39\"\nspeaking: \"Discuss: what makes an email professional?\"\nlistening: \"An email being read aloud\"\nreading: \"Formal vs informal emails: compare\"\nwriting: \"A formal and informal version of the same email\"\ntask: \"Email correction challenge: fix 6 register errors\"\ncando: \"Can write a simple formal and informal email\"\nhw: \"Write a formal email and an informal one on the same topic\""
+          "teacher_notes": "code: \"A1-39\"\nspeaking: \"Discuss: what makes an email professional?\"\nlistening: \"An email being read aloud\"\nreading: \"Formal vs informal emails — compare\"\nwriting: \"A formal and informal version of the same email\"\ntask: \"Email correction challenge: fix 6 register errors\"\ncando: \"Can write a simple formal and informal email\"\nhw: \"Write a formal email and an informal one on the same topic\""
         },
         {
           "lesson": 10,
-          "title": "Unit 4 Review: Relationships and communication",
+          "title": "Unit 4 Review — Relationships and communication",
           "grammar": [
             "Relative clauses, question tags, indirect questions, opinion phrases, modal verbs"
           ],
@@ -996,7 +996,7 @@
       "lessons": [
         {
           "lesson": 1,
-          "title": "My opinions on the world: discussion topics",
+          "title": "My opinions on the world — discussion topics",
           "grammar": [
             "Mixed A1 grammar in discussion; because + connectors: however, so, but"
           ],
@@ -1022,7 +1022,7 @@
         },
         {
           "lesson": 2,
-          "title": "Real conversations: fluency practice",
+          "title": "Real conversations — fluency practice",
           "grammar": [
             "Review of all A1 grammar through fluency tasks"
           ],
@@ -1037,11 +1037,11 @@
             "ALL A1 verbs in natural speech",
             "ALL A1 adjectives in natural speech"
           ],
-          "teacher_notes": "code: \"A1-42\"\nspeaking: \"Extended conversation: 5 minutes on a topic\"\nlistening: \"Authentic short conversations (TV/radio extract)\"\nreading: \"A full dialogue: analyse and discuss\"\nwriting: \"Self-record a 2-minute monologue\"\ntask: \"Partner feedback: fluency, grammar, vocabulary\"\ncando: \"Can maintain a short extended conversation at A1\"\nhw: \"Write a script and then speak without reading it\""
+          "teacher_notes": "code: \"A1-42\"\nspeaking: \"Extended conversation: 5 minutes on a topic\"\nlistening: \"Authentic short conversations (TV/radio extract)\"\nreading: \"A full dialogue — analyse and discuss\"\nwriting: \"Self-record a 2-minute monologue\"\ntask: \"Partner feedback: fluency, grammar, vocabulary\"\ncando: \"Can maintain a short extended conversation at A1\"\nhw: \"Write a script and then speak without reading it\""
         },
         {
           "lesson": 3,
-          "title": "Building vocabulary: word families and collocations",
+          "title": "Building vocabulary — word families and collocations",
           "grammar": [
             "Collocations: do + noun, make + noun, have + noun, take + noun"
           ],
@@ -1055,11 +1055,11 @@
             "have",
             "take"
           ],
-          "teacher_notes": "code: \"A1-43\"\nspeaking: \"Collocation matching game\"\nlistening: \"Collocations in authentic short clips\"\nreading: \"A text: find and note collocations\"\nwriting: \"Write 8 collocations in full sentences\"\ntask: \"Collocation bingo\"\ncando: \"Can use common collocations naturally\"\nhw: \"Create a collocation word map for 5 key verbs\""
+          "teacher_notes": "code: \"A1-43\"\nspeaking: \"Collocation matching game\"\nlistening: \"Collocations in authentic short clips\"\nreading: \"A text — find and note collocations\"\nwriting: \"Write 8 collocations in full sentences\"\ntask: \"Collocation bingo\"\ncando: \"Can use common collocations naturally\"\nhw: \"Create a collocation word map for 5 key verbs\""
         },
         {
           "lesson": 4,
-          "title": "Pronunciation: stress and intonation",
+          "title": "Pronunciation — stress and intonation",
           "grammar": [
             "Word and sentence stress; rising vs falling intonation in questions"
           ],
@@ -1068,13 +1068,13 @@
             "intonation",
             "syllable",
             "emphasis",
-            "ALL: focus on correct stress"
+            "ALL — focus on correct stress"
           ],
           "teacher_notes": "code: \"A1-44\"\nspeaking: \"Drill: say sentences with correct stress pattern\"\nlistening: \"Listen and mark stress; identify question intonation\"\nreading: \"Read sentences aloud with marked stress\"\nwriting: \"Write stress marks on 10 words\"\ntask: \"Pronunciation challenge: read and record\"\ncando: \"Can produce correct word stress in known vocabulary\"\nhw: \"Learn stress patterns for 20 key A1 words\""
         },
         {
           "lesson": 5,
-          "title": "Reading strategies: understanding more",
+          "title": "Reading strategies — understanding more",
           "grammar": [
             "Mixed A1 grammar in reading context"
           ],
@@ -1098,7 +1098,7 @@
         },
         {
           "lesson": 6,
-          "title": "Writing paragraphs: structure and cohesion",
+          "title": "Writing paragraphs — structure and cohesion",
           "grammar": [
             "Discourse connectors: firstly, also, however, for example, in conclusion"
           ],
@@ -1118,28 +1118,28 @@
             "structured",
             "logical"
           ],
-          "teacher_notes": "code: \"A1-46\"\nspeaking: \"Discuss: what makes a good paragraph?\"\nlistening: \"A short structured talk\"\nreading: \"3 model paragraphs: identify structure\"\nwriting: \"A structured paragraph on a given topic\"\ntask: \"Peer editing: improve a partner's paragraph\"\ncando: \"Can write a structured paragraph with connectors\"\nhw: \"Write a paragraph on your favourite topic using full structure\""
+          "teacher_notes": "code: \"A1-46\"\nspeaking: \"Discuss: what makes a good paragraph?\"\nlistening: \"A short structured talk\"\nreading: \"3 model paragraphs — identify structure\"\nwriting: \"A structured paragraph on a given topic\"\ntask: \"Peer editing: improve a partner's paragraph\"\ncando: \"Can write a structured paragraph with connectors\"\nhw: \"Write a paragraph on your favourite topic using full structure\""
         },
         {
           "lesson": 7,
-          "title": "A2 preview: What's coming next?",
+          "title": "A2 preview — What's coming next?",
           "grammar": [
             "Past simple vs present perfect (contrast); going to vs will (contrast)"
           ],
           "vocabulary": [
             "A2 preview vocabulary: conditionals, reported speech, comparisons",
-            "ALL: seen in A2 context"
+            "ALL — seen in A2 context"
           ],
           "teacher_notes": "code: \"A1-47\"\nspeaking: \"Discuss: what do you find hardest in English?\"\nlistening: \"A short A2-level dialogue\"\nreading: \"A short A2-level article\"\nwriting: \"Your personal language learning goals\"\ntask: \"A1 reflection: what have you learned?\"\ncando: \"Can identify areas to develop at A2\"\nhw: \"Write your 5 goals for A2\""
         },
         {
           "lesson": 8,
-          "title": "Revision day: grammar",
+          "title": "Revision day — grammar",
           "grammar": [
-            "ALL A1 grammar structures: error-focused revision"
+            "ALL A1 grammar structures — error-focused revision"
           ],
           "vocabulary": [
-            "ALL A1 vocabulary: student choice",
+            "ALL A1 vocabulary — student choice",
             "ALL"
           ],
           "teacher_notes": "code: \"A1-48\"\nspeaking: \"Grammar auction game\"\nlistening: \"Dictation: 15 A1 sentences\"\nreading: \"Grammar reading: identify and correct errors\"\nwriting: \"Grammar test: all A1 structures\"\ntask: \"Error correction relay\"\ncando: \"Can recognise and correct common A1 grammar errors\"\nhw: \"Complete a personal grammar correction log\""

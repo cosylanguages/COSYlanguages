@@ -3,19 +3,19 @@
 Each language has its own folder (en/, fr/, it/, ru/, el/).
 Each folder is divided into linguistic layers:
 
-- **morphology/**: word forms: verbs, nouns, adjectives, pronouns, determiners, numerals
-- **syntax/**: sentence structure: word order, sentence types, clauses
-- **phonology/**: sound system: IPA inventory, stress, intonation
-- **particles/**: prepositions, postpositions, particles
+- **morphology/** — word forms: verbs, nouns, adjectives, pronouns, determiners, numerals
+- **syntax/** — sentence structure: word order, sentence types, clauses
+- **phonology/** — sound system: IPA inventory, stress, intonation
+- **particles/** — prepositions, postpositions, particles
 
-## Level assignment: mandatory
+## Level assignment — mandatory
 
 Every grammar group and every rule must carry a `level` field (A1–C2).
 This is not optional. A grammar entry without a level will not be displayed correctly.
 
 ### What level means here
 The level marks when a student first encounters this concept.
-It does not mean the concept only exists at that level; it means this is where it is introduced.
+It does not mean the concept only exists at that level — it means this is where it is introduced.
 
 ### Level assignment guide
 | Level | Introduce when… |
@@ -27,7 +27,7 @@ It does not mean the concept only exists at that level; it means this is where i
 | C1 | The concept is needed for fluent, flexible, precise use |
 | C2 | The concept involves full mastery, rare forms, or stylistic precision |
 
-## Definitions: mandatory
+## Definitions — mandatory
 
 Every grammar group must have a `definition` field.
 Every rule inside a group must have an `explanation` field.
@@ -79,7 +79,7 @@ An English grammar file uses English labels and examples.
 A Greek grammar file uses Greek labels and examples throughout.
 There are NO translation pairs in grammar files.
 
-## Cross-referencing with vocabulary: no duplication rule
+## Cross-referencing with vocabulary — no duplication rule
 Grammar files are the **single source of truth** for word paradigms (verb conjugations,
 noun declensions, adjective agreements, etc.).
 Vocabulary files contain the word's meaning, definition, example, synonyms, antonyms.
@@ -93,11 +93,11 @@ Neither file duplicates what the other owns.
 
 ### Practical example
 `γράφω` (I write) in Greek:
-- **vocabulary/el/A1/topic_actions.json**: has the definition, example, image_hint, synonyms
+- **vocabulary/el/A1/topic_actions.json** — has the definition, example, image_hint, synonyms
   and `grammar_refs: [{ layer: "morphology", category: "verbs", group_id: "present_simple" }]`
-- **grammar/el/morphology/verbs.json**, group `present_simple`: has the conjugation table,
+- **grammar/el/morphology/verbs.json**, group `present_simple` — has the conjugation table,
   rules, exceptions, and `word_ids: ["el_verb_γράφω"]`
-- **data/index/el_index.json**: has one entry for `el_verb_γράφω` pointing to both files
+- **data/index/el_index.json** — has one entry for `el_verb_γράφω` pointing to both files
 
 This means a student searching for `γράφω` finds both the meaning AND the grammar,
 without either file storing the other's data.

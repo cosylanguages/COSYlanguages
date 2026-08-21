@@ -6,7 +6,7 @@ window.curriculumData.es_a1 = [
   lessons_count:5,
   lessons:[
     { code:'ES-001', num:1, title:'Hola & Bienvenidos',
-      grammar:'Verbo "ser" (presente): formas afirmativas',
+      grammar:'Verbo "ser" (presente) — formas afirmativas',
       pronunciation: [
         {
           point: "El Alfabeto Español",

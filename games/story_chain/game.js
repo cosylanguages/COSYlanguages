@@ -60,7 +60,7 @@
                     <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
                   </div>
                     <div class="game-card">
-                        <div class="game-label">🤫 Host only — keep secret!</div>
+                        <div class="game-label">🤫 Host only: keep secret!</div>
                         <div class="game-prompt" id="sc-word">${currentWord}</div>
                         <div class="game-sub">Use this word in a sentence. Don't say it! Others must guess.</div>
                     </div>

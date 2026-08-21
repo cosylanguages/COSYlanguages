@@ -95,7 +95,7 @@
                     <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
                   </div>
                   <div class="game-card">
-                    <div class="game-label">👤 Host only — keep this secret!</div>
+                    <div class="game-label">👤 Host only: keep this secret!</div>
                     <div class="game-prompt">${identity.person}</div>
                     <div class="game-sub">Clue for you: "${identity.clue}"<br><br>Others ask yes/no questions. You can only answer: <strong>Yes / No / Maybe / Partly</strong>.</div>
                   </div>

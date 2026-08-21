@@ -3,12 +3,12 @@
 Organised by: language → course type → CEFR level file.
 
 ## Course types
-- **general**: standard General English/French/etc.
-- **spoken**: focus on speaking and conversation
-- **exam**: exam preparation (IELTS, DELF, etc.)
-- **travelling**: travel-focused language
-- **professional**: business and professional language
-- **relocation**: for people moving to a new country
+- **general** — standard General English/French/etc.
+- **spoken** — focus on speaking and conversation
+- **exam** — exam preparation (IELTS, DELF, etc.)
+- **travelling** — travel-focused language
+- **professional** — business and professional language
+- **relocation** — for people moving to a new country
 
 > More course types may be added in the future. When adding a new course type:
 > 1. Add it to this README

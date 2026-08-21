@@ -1,7 +1,7 @@
 # Planned features for English
 
 Track planned subpages, content, and features for this language that are not yet built.
-Do not scatter TODO comments in HTML files — put them here.
+Do not scatter TODO comments in HTML files: put them here.
 
 ## Planned subpages
 | Page | Status | Notes |

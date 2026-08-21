@@ -30,12 +30,12 @@
                 "level": { "type": "string", "enum": ["A1","A2","B1","B2","C1","C2"], "description": "CEFR level this specific rule is introduced at" },
                 "explanation": { "type": "string", "description": "Plain-language explanation of this rule, written at the stated level. Do not use metalanguage above the student's level." },
                 "example": { "type": "string", "description": "Example sentence in the target language illustrating this rule" },
-                "counter_example": { "type": "string", "description": "An incorrect form showing what to avoid; optional but valuable from B1 upwards" }
+                "counter_example": { "type": "string", "description": "An incorrect form showing what to avoid — optional but valuable from B1 upwards" }
               }
             }
           },
           "examples": { "type": "array", "items": { "type": "string" }, "description": "Additional example sentences in the target language" },
-          "exceptions": { "type": "array", "items": { "type": "string" }, "description": "Exceptions or irregular forms: in the target language" },
+          "exceptions": { "type": "array", "items": { "type": "string" }, "description": "Exceptions or irregular forms — in the target language" },
           "word_ids": {
             "type": "array",
             "items": { "type": "string" },

@@ -11,7 +11,7 @@
           "lesson": 1,
           "title": "Bonjour & Bienvenue",
           "grammar": [
-            "Verbe être (présent): formes affirmatives"
+            "Verbe être (présent) — formes affirmatives"
           ],
           "vocabulary": [
             "Bonjour",
@@ -123,7 +123,7 @@
         },
         {
           "lesson": 3,
-          "title": "Où j'habite: ma maison",
+          "title": "Où j'habite — ma maison",
           "grammar": [
             "Habiter + prépositions de lieu (à, en)"
           ],
@@ -269,7 +269,7 @@
         },
         {
           "lesson": 10,
-          "title": "Révision Unité 1: Ma vie",
+          "title": "Révision Unité 1 — Ma vie",
           "grammar": [
             "Récapitulatif présent, articles et possessifs"
           ],
@@ -465,7 +465,7 @@
         },
         {
           "lesson": 20,
-          "title": "Unit 2 Review: Mon passé",
+          "title": "Unit 2 Review — Mon passé",
           "grammar": [
             "Bilan Passé composé / Imparfait"
           ],
@@ -556,7 +556,7 @@
         },
         {
           "lesson": 10,
-          "title": "Unit 3 Review: Futur",
+          "title": "Unit 3 Review — Futur",
           "grammar": [
             "Bilan Futur"
           ],
@@ -642,7 +642,7 @@
         },
         {
           "lesson": 10,
-          "title": "Unit 4 Review: Opinions",
+          "title": "Unit 4 Review — Opinions",
           "grammar": [
             "Bilan Opinions"
           ],

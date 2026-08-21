@@ -141,7 +141,7 @@
                     <div class="game-card" style="text-align:center">
                       <div class="re-icon">🗳️</div>
                       <div class="re-title">Both sides heard!</div>
-                      <div class="re-sub">Vote now — who was most convincing?</div>
+                      <div class="re-sub">Vote now: who was most convincing?</div>
                       <div class="setup-options" style="margin-bottom:1.2rem">
                         <div class="setup-opt"><span>🅰️</span>${esc(sides[0].name)}</div>
                         <div class="setup-opt"><span>🅱️</span>${esc(sides[1].name)}</div>
