@@ -1,7 +1,7 @@
 (function() {
     const data = [
         {
-            "topic": "Caffè vs Tè — quale bevanda mattutina è migliore?",
+            "topic": "Caffè vs Tè: quale bevanda mattutina è migliore?",
             "sideA": "Caffè",
             "sideB": "Tè",
             "level": "starter",
@@ -14,10 +14,10 @@
                 "Sano",
                 "Relax"
             ],
-            "word": "Caffè vs Tè — quale bevanda mattutina è migliore?",
+            "word": "Caffè vs Tè: quale bevanda mattutina è migliore?",
             "definitions": [
                 {
-                    "text": "Caffè vs Tè — quale bevanda mattutina è migliore?",
+                    "text": "Caffè vs Tè: quale bevanda mattutina è migliore?",
                     "examples": []
                 }
             ],
@@ -27,7 +27,7 @@
             "id": "it_starter_food_drink_001"
         },
         {
-            "topic": "Ristorante vs cucina casalinga — cosa è meglio?",
+            "topic": "Ristorante vs cucina casalinga: cosa è meglio?",
             "sideA": "Ristorante",
             "sideB": "Cucina casalinga",
             "level": "starter",
@@ -40,10 +40,10 @@
                 "È più economico",
                 "È più sano"
             ],
-            "word": "Ristorante vs cucina casalinga — cosa è meglio?",
+            "word": "Ristorante vs cucina casalinga: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Ristorante vs cucina casalinga — cosa è meglio?",
+                    "text": "Ristorante vs cucina casalinga: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -53,7 +53,7 @@
             "id": "it_starter_food_drink_002"
         },
         {
-            "topic": "Colazione vs niente colazione — cosa è meglio?",
+            "topic": "Colazione vs niente colazione: cosa è meglio?",
             "sideA": "Colazione",
             "sideB": "Niente colazione",
             "level": "starter",
@@ -66,10 +66,10 @@
                 "Risparmia tempo",
                 "Non ho fame"
             ],
-            "word": "Colazione vs niente colazione — cosa è meglio?",
+            "word": "Colazione vs niente colazione: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Colazione vs niente colazione — cosa è meglio?",
+                    "text": "Colazione vs niente colazione: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -79,7 +79,7 @@
             "id": "it_starter_food_drink_003"
         },
         {
-            "topic": "Acqua vs Succo — cosa è più sano?",
+            "topic": "Acqua vs Succo: cosa è più sano?",
             "sideA": "Acqua",
             "sideB": "Succo",
             "level": "starter",
@@ -92,10 +92,10 @@
                 "Vitamine",
                 "Dolce"
             ],
-            "word": "Acqua vs Succo — cosa è più sano?",
+            "word": "Acqua vs Succo: cosa è più sano?",
             "definitions": [
                 {
-                    "text": "Acqua vs Succo — cosa è più sano?",
+                    "text": "Acqua vs Succo: cosa è più sano?",
                     "examples": []
                 }
             ],
@@ -105,7 +105,7 @@
             "id": "it_starter_food_drink_004"
         },
         {
-            "topic": "Carne vs Verdure — cosa è più importante in un pasto?",
+            "topic": "Carne vs Verdure: cosa è più importante in un pasto?",
             "sideA": "Carne",
             "sideB": "Verdure",
             "level": "starter",
@@ -118,10 +118,10 @@
                 "Vitamine",
                 "Sano"
             ],
-            "word": "Carne vs Verdure — cosa è più importante in un pasto?",
+            "word": "Carne vs Verdure: cosa è più importante in un pasto?",
             "definitions": [
                 {
-                    "text": "Carne vs Verdure — cosa è più importante in un pasto?",
+                    "text": "Carne vs Verdure: cosa è più importante in un pasto?",
                     "examples": []
                 }
             ],
@@ -131,7 +131,7 @@
             "id": "it_starter_food_drink_005"
         },
         {
-            "topic": "Casa vs Appartamento — cosa è meglio per vivere?",
+            "topic": "Casa vs Appartamento: cosa è meglio per vivere?",
             "sideA": "Casa",
             "sideB": "Appartamento",
             "level": "starter",
@@ -144,10 +144,10 @@
                 "Economico",
                 "Facile da pulire"
             ],
-            "word": "Casa vs Appartamento — cosa è meglio per vivere?",
+            "word": "Casa vs Appartamento: cosa è meglio per vivere?",
             "definitions": [
                 {
-                    "text": "Casa vs Appartamento — cosa è meglio per vivere?",
+                    "text": "Casa vs Appartamento: cosa è meglio per vivere?",
                     "examples": []
                 }
             ],
@@ -157,7 +157,7 @@
             "id": "it_starter_furniture_001"
         },
         {
-            "topic": "Città vs campagna — cosa è meglio?",
+            "topic": "Città vs campagna: cosa è meglio?",
             "sideA": "Città",
             "sideB": "Campagna",
             "level": "starter",
@@ -170,10 +170,10 @@
                 "Posto tranquillo",
                 "Aria pulita"
             ],
-            "word": "Città vs campagna — cosa è meglio?",
+            "word": "Città vs campagna: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Città vs campagna — cosa è meglio?",
+                    "text": "Città vs campagna: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -183,7 +183,7 @@
             "id": "it_starter_places_001"
         },
         {
-            "topic": "Contanti vs Carta — cosa è meglio per pagare?",
+            "topic": "Contanti vs Carta: cosa è meglio per pagare?",
             "sideA": "Contanti",
             "sideB": "Carta",
             "level": "starter",
@@ -196,10 +196,10 @@
                 "Veloce",
                 "Sicura"
             ],
-            "word": "Contanti vs Carta — cosa è meglio per pagare?",
+            "word": "Contanti vs Carta: cosa è meglio per pagare?",
             "definitions": [
                 {
-                    "text": "Contanti vs Carta — cosa è meglio per pagare?",
+                    "text": "Contanti vs Carta: cosa è meglio per pagare?",
                     "examples": []
                 }
             ],
@@ -209,7 +209,7 @@
             "id": "it_starter_work_001"
         },
         {
-            "topic": "Risparmiare vs Spendere — cosa è meglio?",
+            "topic": "Risparmiare vs Spendere: cosa è meglio?",
             "sideA": "Risparmiare",
             "sideB": "Spendere",
             "level": "starter",
@@ -222,10 +222,10 @@
                 "Divertente ora",
                 "Negozi"
             ],
-            "word": "Risparmiare vs Spendere — cosa è meglio?",
+            "word": "Risparmiare vs Spendere: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Risparmiare vs Spendere — cosa è meglio?",
+                    "text": "Risparmiare vs Spendere: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -235,7 +235,7 @@
             "id": "it_starter_work_002"
         },
         {
-            "topic": "Affittare vs Comprare — cosa è meglio?",
+            "topic": "Affittare vs Comprare: cosa è meglio?",
             "sideA": "Affittare",
             "sideB": "Comprare",
             "level": "starter",
@@ -248,10 +248,10 @@
                 "Investimento",
                 "È tuo"
             ],
-            "word": "Affittare vs Comprare — cosa è meglio?",
+            "word": "Affittare vs Comprare: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Affittare vs Comprare — cosa è meglio?",
+                    "text": "Affittare vs Comprare: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -261,7 +261,7 @@
             "id": "it_starter_work_003"
         },
         {
-            "topic": "Mattino vs Sera — which part of the day is nicer?",
+            "topic": "Mattino vs Sera: which part of the day is nicer?",
             "sideA": "Mattino",
             "sideB": "Sera",
             "level": "starter",
@@ -274,10 +274,10 @@
                 "Puoi riposare",
                 "Guarda film"
             ],
-            "word": "Mattino vs Sera — which part of the day is nicer?",
+            "word": "Mattino vs Sera: which part of the day is nicer?",
             "definitions": [
                 {
-                    "text": "Mattino vs Sera — which part of the day is nicer?",
+                    "text": "Mattino vs Sera: which part of the day is nicer?",
                     "examples": []
                 }
             ],
@@ -287,7 +287,7 @@
             "id": "it_starter_time_001"
         },
         {
-            "topic": "Auto vs Autobus — which is better to travel in?",
+            "topic": "Auto vs Autobus: which is better to travel in?",
             "sideA": "Auto",
             "sideB": "Autobus",
             "level": "starter",
@@ -300,10 +300,10 @@
                 "Economico",
                 "Sociale"
             ],
-            "word": "Auto vs Autobus — which is better to travel in?",
+            "word": "Auto vs Autobus: which is better to travel in?",
             "definitions": [
                 {
-                    "text": "Auto vs Autobus — which is better to travel in?",
+                    "text": "Auto vs Autobus: which is better to travel in?",
                     "examples": []
                 }
             ],
@@ -313,7 +313,7 @@
             "id": "it_starter_travel_001"
         },
         {
-            "topic": "Camminare vs Guidare — cosa è meglio in città?",
+            "topic": "Camminare vs Guidare: cosa è meglio in città?",
             "sideA": "Camminare",
             "sideB": "Guidare",
             "level": "starter",
@@ -326,10 +326,10 @@
                 "Niente pioggia",
                 "Comodo"
             ],
-            "word": "Camminare vs Guidare — cosa è meglio in città?",
+            "word": "Camminare vs Guidare: cosa è meglio in città?",
             "definitions": [
                 {
-                    "text": "Camminare vs Guidare — cosa è meglio in città?",
+                    "text": "Camminare vs Guidare: cosa è meglio in città?",
                     "examples": []
                 }
             ],
@@ -339,7 +339,7 @@
             "id": "it_starter_travel_002"
         },
         {
-            "topic": "Ufficio vs Casa — quale posto è migliore per lavorare?",
+            "topic": "Ufficio vs Casa: quale posto è migliore per lavorare?",
             "sideA": "Ufficio",
             "sideB": "Casa",
             "level": "starter",
@@ -352,10 +352,10 @@
                 "Niente viaggi",
                 "Vestiti comodi"
             ],
-            "word": "Ufficio vs Casa — quale posto è migliore per lavorare?",
+            "word": "Ufficio vs Casa: quale posto è migliore per lavorare?",
             "definitions": [
                 {
-                    "text": "Ufficio vs Casa — quale posto è migliore per lavorare?",
+                    "text": "Ufficio vs Casa: quale posto è migliore per lavorare?",
                     "examples": []
                 }
             ],
@@ -365,7 +365,7 @@
             "id": "it_starter_work_004"
         },
         {
-            "topic": "Persona mattutina vs persona notturna — cosa è meglio?",
+            "topic": "Persona mattutina vs persona notturna: cosa è meglio?",
             "sideA": "Mattutina",
             "sideB": "Notturna",
             "level": "starter",
@@ -378,10 +378,10 @@
                 "Tempo creativo",
                 "Niente rumore"
             ],
-            "word": "Persona mattutina vs persona notturna — cosa è meglio?",
+            "word": "Persona mattutina vs persona notturna: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Persona mattutina vs persona notturna — cosa è meglio?",
+                    "text": "Persona mattutina vs persona notturna: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -391,7 +391,7 @@
             "id": "it_starter_furniture_002"
         },
         {
-            "topic": "Estate vs Inverno — quale stagione è meglio?",
+            "topic": "Estate vs Inverno: quale stagione è meglio?",
             "sideA": "Estate",
             "sideB": "Inverno",
             "level": "starter",
@@ -404,10 +404,10 @@
                 "Neve",
                 "Sciare"
             ],
-            "word": "Estate vs Inverno — quale stagione è meglio?",
+            "word": "Estate vs Inverno: quale stagione è meglio?",
             "definitions": [
                 {
-                    "text": "Estate vs Inverno — quale stagione è meglio?",
+                    "text": "Estate vs Inverno: quale stagione è meglio?",
                     "examples": []
                 }
             ],
@@ -417,7 +417,7 @@
             "id": "it_starter_time_002"
         },
         {
-            "topic": "Breve vs Lunga — cosa è meglio?",
+            "topic": "Breve vs Lunga: cosa è meglio?",
             "sideA": "Breve",
             "sideB": "Lunga",
             "level": "starter",
@@ -430,10 +430,10 @@
                 "Relax more",
                 "Vedi più posti"
             ],
-            "word": "Breve vs Lunga — cosa è meglio?",
+            "word": "Breve vs Lunga: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Breve vs Lunga — cosa è meglio?",
+                    "text": "Breve vs Lunga: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -443,7 +443,7 @@
             "id": "it_starter_travel_003"
         },
         {
-            "topic": "Telefonata vs messaggio — cosa è meglio?",
+            "topic": "Telefonata vs messaggio: cosa è meglio?",
             "sideA": "Chiamata",
             "sideB": "Messaggio",
             "level": "starter",
@@ -456,10 +456,10 @@
                 "Pensa prima di scrivere",
                 "Leggi dopo"
             ],
-            "word": "Telefonata vs messaggio — cosa è meglio?",
+            "word": "Telefonata vs messaggio: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Telefonata vs messaggio — cosa è meglio?",
+                    "text": "Telefonata vs messaggio: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -469,7 +469,7 @@
             "id": "it_starter_technology_001"
         },
         {
-            "topic": "Lunedì vs venerdì — cosa è meglio?",
+            "topic": "Lunedì vs venerdì: cosa è meglio?",
             "sideA": "Lunedì",
             "sideB": "Venerdì",
             "level": "starter",
@@ -482,10 +482,10 @@
                 "Fine settimana in arrivo",
                 "Tempo di festa"
             ],
-            "word": "Lunedì vs venerdì — cosa è meglio?",
+            "word": "Lunedì vs venerdì: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Lunedì vs venerdì — cosa è meglio?",
+                    "text": "Lunedì vs venerdì: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -495,7 +495,7 @@
             "id": "it_starter_furniture_003"
         },
         {
-            "topic": "Troppo caldo vs troppo freddo — cosa è peggio?",
+            "topic": "Troppo caldo vs troppo freddo: cosa è peggio?",
             "sideA": "Troppo caldo",
             "sideB": "Troppo freddo",
             "level": "starter",
@@ -508,10 +508,10 @@
                 "Servono molti vestiti",
                 "Si congela"
             ],
-            "word": "Troppo caldo vs troppo freddo — cosa è peggio?",
+            "word": "Troppo caldo vs troppo freddo: cosa è peggio?",
             "definitions": [
                 {
-                    "text": "Troppo caldo vs troppo freddo — cosa è peggio?",
+                    "text": "Troppo caldo vs troppo freddo: cosa è peggio?",
                     "examples": []
                 }
             ],
@@ -521,7 +521,7 @@
             "id": "it_starter_nature_001"
         },
         {
-            "topic": "Posto finestrino vs posto corridoio — cosa è meglio?",
+            "topic": "Posto finestrino vs posto corridoio: cosa è meglio?",
             "sideA": "Finestrino",
             "sideB": "Corridoio",
             "level": "starter",
@@ -534,10 +534,10 @@
                 "Facile camminare",
                 "Più spazio"
             ],
-            "word": "Posto finestrino vs posto corridoio — cosa è meglio?",
+            "word": "Posto finestrino vs posto corridoio: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Posto finestrino vs posto corridoio — cosa è meglio?",
+                    "text": "Posto finestrino vs posto corridoio: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -547,7 +547,7 @@
             "id": "it_starter_places_002"
         },
         {
-            "topic": "Rosso vs Blu — cosa è meglio?",
+            "topic": "Rosso vs Blu: cosa è meglio?",
             "sideA": "Rosso",
             "sideB": "Blu",
             "level": "starter",
@@ -560,10 +560,10 @@
                 "Colore calmo",
                 "Mare e cielo"
             ],
-            "word": "Rosso vs Blu — cosa è meglio?",
+            "word": "Rosso vs Blu: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Rosso vs Blu — cosa è meglio?",
+                    "text": "Rosso vs Blu: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -573,7 +573,7 @@
             "id": "it_starter_colours_001"
         },
         {
-            "topic": "Giallo vs Verde — cosa è più felice?",
+            "topic": "Giallo vs Verde: cosa è più felice?",
             "sideA": "Giallo",
             "sideB": "Verde",
             "level": "starter",
@@ -586,10 +586,10 @@
                 "Colore della natura",
                 "Come gli alberi"
             ],
-            "word": "Giallo vs Verde — cosa è più felice?",
+            "word": "Giallo vs Verde: cosa è più felice?",
             "definitions": [
                 {
-                    "text": "Giallo vs Verde — cosa è più felice?",
+                    "text": "Giallo vs Verde: cosa è più felice?",
                     "examples": []
                 }
             ],
@@ -599,7 +599,7 @@
             "id": "it_starter_colours_002"
         },
         {
-            "topic": "Nero vs Bianco — cosa è meglio?",
+            "topic": "Nero vs Bianco: cosa è meglio?",
             "sideA": "Nero",
             "sideB": "Bianco",
             "level": "starter",
@@ -612,10 +612,10 @@
                 "Pulito",
                 "Luminoso"
             ],
-            "word": "Nero vs Bianco — cosa è meglio?",
+            "word": "Nero vs Bianco: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Nero vs Bianco — cosa è meglio?",
+                    "text": "Nero vs Bianco: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -625,7 +625,7 @@
             "id": "it_starter_colours_003"
         },
         {
-            "topic": "Rosa vs Viola — cosa è meglio?",
+            "topic": "Rosa vs Viola: cosa è meglio?",
             "sideA": "Rosa",
             "sideB": "Viola",
             "level": "starter",
@@ -638,10 +638,10 @@
                 "Colore reale",
                 "Bel frutto"
             ],
-            "word": "Rosa vs Viola — cosa è meglio?",
+            "word": "Rosa vs Viola: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Rosa vs Viola — cosa è meglio?",
+                    "text": "Rosa vs Viola: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -651,7 +651,7 @@
             "id": "it_starter_colours_004"
         },
         {
-            "topic": "Numeri grandi vs piccoli — cosa è più divertente?",
+            "topic": "Numeri grandi vs piccoli: cosa è più divertente?",
             "sideA": "Grandi",
             "sideB": "Piccoli",
             "level": "starter",
@@ -664,10 +664,10 @@
                 "Facile da imparare",
                 "Veloce"
             ],
-            "word": "Numeri grandi vs piccoli — cosa è più divertente?",
+            "word": "Numeri grandi vs piccoli: cosa è più divertente?",
             "definitions": [
                 {
-                    "text": "Numeri grandi vs piccoli — cosa è più divertente?",
+                    "text": "Numeri grandi vs piccoli: cosa è più divertente?",
                     "examples": []
                 }
             ],
@@ -677,7 +677,7 @@
             "id": "it_starter_numbers_001"
         },
         {
-            "topic": "Palla vs Bambola — cosa è meglio?",
+            "topic": "Palla vs Bambola: cosa è meglio?",
             "sideA": "Palla",
             "sideB": "Bambola",
             "level": "starter",
@@ -690,10 +690,10 @@
                 "Racconta storie",
                 "Decorazione"
             ],
-            "word": "Palla vs Bambola — cosa è meglio?",
+            "word": "Palla vs Bambola: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Palla vs Bambola — cosa è meglio?",
+                    "text": "Palla vs Bambola: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -703,7 +703,7 @@
             "id": "it_starter_social_001"
         },
         {
-            "topic": "Matita vs Penna — cosa è meglio?",
+            "topic": "Matita vs Penna: cosa è meglio?",
             "sideA": "Matita",
             "sideB": "Penna",
             "level": "starter",
@@ -716,10 +716,10 @@
                 "Permanente",
                 "Scrittura pulita"
             ],
-            "word": "Matita vs Penna — cosa è meglio?",
+            "word": "Matita vs Penna: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Matita vs Penna — cosa è meglio?",
+                    "text": "Matita vs Penna: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -729,7 +729,7 @@
             "id": "it_starter_work_005"
         },
         {
-            "topic": "Libro vs Immagine — cosa è meglio?",
+            "topic": "Libro vs Immagine: cosa è meglio?",
             "sideA": "Libro",
             "sideB": "Immagine",
             "level": "starter",
@@ -742,10 +742,10 @@
                 "Veloce da vedere",
                 "Bello"
             ],
-            "word": "Libro vs Immagine — cosa è meglio?",
+            "word": "Libro vs Immagine: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Libro vs Immagine — cosa è meglio?",
+                    "text": "Libro vs Immagine: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -755,7 +755,7 @@
             "id": "it_starter_work_006"
         },
         {
-            "topic": "Sedia vs Pavimento — cosa è meglio?",
+            "topic": "Sedia vs Pavimento: cosa è meglio?",
             "sideA": "Sedia",
             "sideB": "Pavimento",
             "level": "starter",
@@ -768,10 +768,10 @@
                 "Molto spazio",
                 "Relax"
             ],
-            "word": "Sedia vs Pavimento — cosa è meglio?",
+            "word": "Sedia vs Pavimento: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Sedia vs Pavimento — cosa è meglio?",
+                    "text": "Sedia vs Pavimento: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -781,7 +781,7 @@
             "id": "it_starter_furniture_004"
         },
         {
-            "topic": "Gatto vs Cane — cosa è meglio?",
+            "topic": "Gatto vs Cane: cosa è meglio?",
             "sideA": "Gatto",
             "sideB": "Cane",
             "level": "starter",
@@ -794,10 +794,10 @@
                 "Amico fedele",
                 "Gioca fuori"
             ],
-            "word": "Gatto vs Cane — cosa è meglio?",
+            "word": "Gatto vs Cane: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Gatto vs Cane — cosa è meglio?",
+                    "text": "Gatto vs Cane: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -807,7 +807,7 @@
             "id": "it_starter_animals_001"
         },
         {
-            "topic": "Pesce vs Uccello — cosa è meglio?",
+            "topic": "Pesce vs Uccello: cosa è meglio?",
             "sideA": "Pesce",
             "sideB": "Uccello",
             "level": "starter",
@@ -820,10 +820,10 @@
                 "Può cantare",
                 "Suoni felici"
             ],
-            "word": "Pesce vs Uccello — cosa è meglio?",
+            "word": "Pesce vs Uccello: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Pesce vs Uccello — cosa è meglio?",
+                    "text": "Pesce vs Uccello: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -833,7 +833,7 @@
             "id": "it_starter_animals_002"
         },
         {
-            "topic": "Animali grandi vs piccoli — cosa è meglio?",
+            "topic": "Animali grandi vs piccoli: cosa è meglio?",
             "sideA": "Grandi",
             "sideB": "Piccoli",
             "level": "starter",
@@ -846,10 +846,10 @@
                 "Carini",
                 "Piccolo spazio"
             ],
-            "word": "Animali grandi vs piccoli — cosa è meglio?",
+            "word": "Animali grandi vs piccoli: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Animali grandi vs piccoli — cosa è meglio?",
+                    "text": "Animali grandi vs piccoli: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -859,7 +859,7 @@
             "id": "it_starter_animals_003"
         },
         {
-            "topic": "Coniglio vs Criceto — cosa è meglio?",
+            "topic": "Coniglio vs Criceto: cosa è meglio?",
             "sideA": "Coniglio",
             "sideB": "Criceto",
             "level": "starter",
@@ -872,10 +872,10 @@
                 "Piccolo",
                 "Bello da guardare"
             ],
-            "word": "Coniglio vs Criceto — cosa è meglio?",
+            "word": "Coniglio vs Criceto: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Coniglio vs Criceto — cosa è meglio?",
+                    "text": "Coniglio vs Criceto: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -885,7 +885,7 @@
             "id": "it_starter_animals_004"
         },
         {
-            "topic": "Mela vs Banana — cosa è meglio?",
+            "topic": "Mela vs Banana: cosa è meglio?",
             "sideA": "Mela",
             "sideB": "Banana",
             "level": "starter",
@@ -898,10 +898,10 @@
                 "Facile da sbucciare",
                 "Morbida"
             ],
-            "word": "Mela vs Banana — cosa è meglio?",
+            "word": "Mela vs Banana: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Mela vs Banana — cosa è meglio?",
+                    "text": "Mela vs Banana: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -911,7 +911,7 @@
             "id": "it_starter_food_drink_006"
         },
         {
-            "topic": "Pane vs Riso — cosa è meglio?",
+            "topic": "Pane vs Riso: cosa è meglio?",
             "sideA": "Pane",
             "sideB": "Riso",
             "level": "starter",
@@ -924,10 +924,10 @@
                 "Sano",
                 "Buono con la carne"
             ],
-            "word": "Pane vs Riso — cosa è meglio?",
+            "word": "Pane vs Riso: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Pane vs Riso — cosa è meglio?",
+                    "text": "Pane vs Riso: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -937,7 +937,7 @@
             "id": "it_starter_food_drink_007"
         },
         {
-            "topic": "Latte vs Acqua — cosa è meglio?",
+            "topic": "Latte vs Acqua: cosa è meglio?",
             "sideA": "Latte",
             "sideB": "Acqua",
             "level": "starter",
@@ -950,10 +950,10 @@
                 "Fresco",
                 "Base"
             ],
-            "word": "Latte vs Acqua — cosa è meglio?",
+            "word": "Latte vs Acqua: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Latte vs Acqua — cosa è meglio?",
+                    "text": "Latte vs Acqua: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -963,7 +963,7 @@
             "id": "it_starter_food_drink_008"
         },
         {
-            "topic": "Rosa vs Arancione — cosa è meglio?",
+            "topic": "Rosa vs Arancione: cosa è meglio?",
             "sideA": "Rosa",
             "sideB": "Arancione",
             "level": "starter",
@@ -976,10 +976,10 @@
                 "Luminoso",
                 "Come il frutto"
             ],
-            "word": "Rosa vs Arancione — cosa è meglio?",
+            "word": "Rosa vs Arancione: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Rosa vs Arancione — cosa è meglio?",
+                    "text": "Rosa vs Arancione: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -989,7 +989,7 @@
             "id": "it_starter_colours_005"
         },
         {
-            "topic": "Sedia vs divano — cosa è meglio?",
+            "topic": "Sedia vs divano: cosa è meglio?",
             "sideA": "Sedia",
             "sideB": "Divano",
             "level": "starter",
@@ -1002,10 +1002,10 @@
                 "Molto morbido",
                 "Guarda la TV"
             ],
-            "word": "Sedia vs divano — cosa è meglio?",
+            "word": "Sedia vs divano: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Sedia vs divano — cosa è meglio?",
+                    "text": "Sedia vs divano: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1015,7 +1015,7 @@
             "id": "it_starter_furniture_005"
         },
         {
-            "topic": "Borsa vs scatola — cosa è meglio?",
+            "topic": "Borsa vs scatola: cosa è meglio?",
             "sideA": "Borsa",
             "sideB": "Scatola",
             "level": "starter",
@@ -1028,10 +1028,10 @@
                 "Per i giocattoli",
                 "Protegge le cose"
             ],
-            "word": "Borsa vs scatola — cosa è meglio?",
+            "word": "Borsa vs scatola: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Borsa vs scatola — cosa è meglio?",
+                    "text": "Borsa vs scatola: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1041,7 +1041,7 @@
             "id": "it_starter_furniture_006"
         },
         {
-            "topic": "Leone vs elefante — cosa è meglio?",
+            "topic": "Leone vs elefante: cosa è meglio?",
             "sideA": "Leone",
             "sideB": "Elefante",
             "level": "starter",
@@ -1054,10 +1054,10 @@
                 "Orecchie grandi",
                 "Molto intelligente"
             ],
-            "word": "Leone vs elefante — cosa è meglio?",
+            "word": "Leone vs elefante: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Leone vs elefante — cosa è meglio?",
+                    "text": "Leone vs elefante: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1067,7 +1067,7 @@
             "id": "it_starter_animals_005"
         },
         {
-            "topic": "Cucchiaio vs Forchetta — cosa è meglio?",
+            "topic": "Cucchiaio vs Forchetta: cosa è meglio?",
             "sideA": "Cucchiaio",
             "sideB": "Forchetta",
             "level": "starter",
@@ -1080,10 +1080,10 @@
                 "Per la pasta",
                 "Carne"
             ],
-            "word": "Cucchiaio vs Forchetta — cosa è meglio?",
+            "word": "Cucchiaio vs Forchetta: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Cucchiaio vs Forchetta — cosa è meglio?",
+                    "text": "Cucchiaio vs Forchetta: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1093,7 +1093,7 @@
             "id": "it_starter_furniture_007"
         },
         {
-            "topic": "Cappello vs Scarpe — cosa è più importante?",
+            "topic": "Cappello vs Scarpe: cosa è più importante?",
             "sideA": "Cappello",
             "sideB": "Scarpe",
             "level": "starter",
@@ -1106,10 +1106,10 @@
                 "Proteggi i piedi",
                 "Per camminare"
             ],
-            "word": "Cappello vs Scarpe — cosa è più importante?",
+            "word": "Cappello vs Scarpe: cosa è più importante?",
             "definitions": [
                 {
-                    "text": "Cappello vs Scarpe — cosa è più importante?",
+                    "text": "Cappello vs Scarpe: cosa è più importante?",
                     "examples": []
                 }
             ],
@@ -1119,7 +1119,7 @@
             "id": "it_starter_furniture_008"
         },
         {
-            "topic": "Sole vs luna — cosa è meglio?",
+            "topic": "Sole vs luna: cosa è meglio?",
             "sideA": "Sole",
             "sideB": "Luna",
             "level": "starter",
@@ -1132,10 +1132,10 @@
                 "Bellissima",
                 "Luce notturna"
             ],
-            "word": "Sole vs luna — cosa è meglio?",
+            "word": "Sole vs luna: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Sole vs luna — cosa è meglio?",
+                    "text": "Sole vs luna: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1145,7 +1145,7 @@
             "id": "it_starter_nature_002"
         },
         {
-            "topic": "Calze vs Senza calze — cosa è meglio?",
+            "topic": "Calze vs Senza calze: cosa è meglio?",
             "sideA": "Calze",
             "sideB": "Senza calze",
             "level": "starter",
@@ -1158,10 +1158,10 @@
                 "Piedi freschi",
                 "Estate"
             ],
-            "word": "Calze vs Senza calze — cosa è meglio?",
+            "word": "Calze vs Senza calze: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Calze vs Senza calze — cosa è meglio?",
+                    "text": "Calze vs Senza calze: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1171,7 +1171,7 @@
             "id": "it_starter_furniture_009"
         },
         {
-            "topic": "Vivere con la famiglia vs vivere da soli — cosa è meglio?",
+            "topic": "Vivere con la famiglia vs vivere da soli: cosa è meglio?",
             "sideA": "Famiglia",
             "sideB": "Da soli",
             "level": "starter",
@@ -1184,10 +1184,10 @@
                 "Pace",
                 "Le tue regole"
             ],
-            "word": "Vivere con la famiglia vs vivere da soli — cosa è meglio?",
+            "word": "Vivere con la famiglia vs vivere da soli: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Vivere con la famiglia vs vivere da soli — cosa è meglio?",
+                    "text": "Vivere con la famiglia vs vivere da soli: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1197,7 +1197,7 @@
             "id": "it_starter_people_001"
         },
         {
-            "topic": "Fratello vs Sorella — cosa è meglio?",
+            "topic": "Fratello vs Sorella: cosa è meglio?",
             "sideA": "Fratello",
             "sideB": "Sorella",
             "level": "starter",
@@ -1210,10 +1210,10 @@
                 "Condividi segreti",
                 "Gentile"
             ],
-            "word": "Fratello vs Sorella — cosa è meglio?",
+            "word": "Fratello vs Sorella: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Fratello vs Sorella — cosa è meglio?",
+                    "text": "Fratello vs Sorella: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1223,7 +1223,7 @@
             "id": "it_starter_social_002"
         },
         {
-            "topic": "Famiglia numerosa vs Piccola famiglia — cosa è meglio?",
+            "topic": "Famiglia numerosa vs Piccola famiglia: cosa è meglio?",
             "sideA": "Famiglia numerosa",
             "sideB": "Piccola famiglia",
             "level": "starter",
@@ -1236,10 +1236,10 @@
                 "Tranquillo",
                 "Più spazio"
             ],
-            "word": "Famiglia numerosa vs Piccola famiglia — cosa è meglio?",
+            "word": "Famiglia numerosa vs Piccola famiglia: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Famiglia numerosa vs Piccola famiglia — cosa è meglio?",
+                    "text": "Famiglia numerosa vs Piccola famiglia: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1249,7 +1249,7 @@
             "id": "it_starter_social_003"
         },
         {
-            "topic": "Maggiore vs Minore — cosa è meglio?",
+            "topic": "Maggiore vs Minore: cosa è meglio?",
             "sideA": "Maggiore",
             "sideB": "Minore",
             "level": "starter",
@@ -1262,10 +1262,10 @@
                 "Ricevi aiuto",
                 "Rilassato"
             ],
-            "word": "Maggiore vs Minore — cosa è meglio?",
+            "word": "Maggiore vs Minore: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Maggiore vs Minore — cosa è meglio?",
+                    "text": "Maggiore vs Minore: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1275,7 +1275,7 @@
             "id": "it_starter_social_004"
         },
         {
-            "topic": "Mattino vs Pomeriggio — cosa è meglio?",
+            "topic": "Mattino vs Pomeriggio: cosa è meglio?",
             "sideA": "Mattino",
             "sideB": "Pomeriggio",
             "level": "starter",
@@ -1288,10 +1288,10 @@
                 "Dormi fino a tardi",
                 "Mattina tranquilla"
             ],
-            "word": "Mattino vs Pomeriggio — cosa è meglio?",
+            "word": "Mattino vs Pomeriggio: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Mattino vs Pomeriggio — cosa è meglio?",
+                    "text": "Mattino vs Pomeriggio: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1301,7 +1301,7 @@
             "id": "it_starter_work_007"
         },
         {
-            "topic": "Lettura vs matematica — cosa è più divertente?",
+            "topic": "Lettura vs matematica: cosa è più divertente?",
             "sideA": "Lettura",
             "sideB": "Matematica",
             "level": "starter",
@@ -1314,10 +1314,10 @@
                 "Logica",
                 "Numbers"
             ],
-            "word": "Lettura vs matematica — cosa è più divertente?",
+            "word": "Lettura vs matematica: cosa è più divertente?",
             "definitions": [
                 {
-                    "text": "Lettura vs matematica — cosa è più divertente?",
+                    "text": "Lettura vs matematica: cosa è più divertente?",
                     "examples": []
                 }
             ],
@@ -1327,7 +1327,7 @@
             "id": "it_starter_social_005"
         },
         {
-            "topic": "Scuola vs Casa — cosa è meglio?",
+            "topic": "Scuola vs Casa: cosa è meglio?",
             "sideA": "Scuola",
             "sideB": "Casa",
             "level": "starter",
@@ -1340,10 +1340,10 @@
                 "Rilassato",
                 "Niente viaggi"
             ],
-            "word": "Scuola vs Casa — cosa è meglio?",
+            "word": "Scuola vs Casa: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Scuola vs Casa — cosa è meglio?",
+                    "text": "Scuola vs Casa: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1353,7 +1353,7 @@
             "id": "it_starter_work_008"
         },
         {
-            "topic": "Compiti vs Niente compiti — cosa ti aiuta di più?",
+            "topic": "Compiti vs Niente compiti: cosa ti aiuta di più?",
             "sideA": "Compiti",
             "sideB": "Niente compiti",
             "level": "starter",
@@ -1366,10 +1366,10 @@
                 "Più gioco",
                 "Meno stress"
             ],
-            "word": "Compiti vs Niente compiti — cosa ti aiuta di più?",
+            "word": "Compiti vs Niente compiti: cosa ti aiuta di più?",
             "definitions": [
                 {
-                    "text": "Compiti vs Niente compiti — cosa ti aiuta di più?",
+                    "text": "Compiti vs Niente compiti: cosa ti aiuta di più?",
                     "examples": []
                 }
             ],
@@ -1379,7 +1379,7 @@
             "id": "it_starter_work_009"
         },
         {
-            "topic": "Da soli vs Partner — cosa preferisci?",
+            "topic": "Da soli vs Partner: cosa preferisci?",
             "sideA": "Da soli",
             "sideB": "Partner",
             "level": "starter",
@@ -1392,10 +1392,10 @@
                 "Idee condivise",
                 "Divertente"
             ],
-            "word": "Da soli vs Partner — cosa preferisci?",
+            "word": "Da soli vs Partner: cosa preferisci?",
             "definitions": [
                 {
-                    "text": "Da soli vs Partner — cosa preferisci?",
+                    "text": "Da soli vs Partner: cosa preferisci?",
                     "examples": []
                 }
             ],
@@ -1405,7 +1405,7 @@
             "id": "it_starter_work_010"
         },
         {
-            "topic": "Scrivere su carta vs scrivere al computer — cosa è meglio?",
+            "topic": "Scrivere su carta vs scrivere al computer: cosa è meglio?",
             "sideA": "Carta",
             "sideB": "Computer",
             "level": "starter",
@@ -1418,10 +1418,10 @@
                 "Veloce",
                 "Corregge l'ortografia"
             ],
-            "word": "Scrivere su carta vs scrivere al computer — cosa è meglio?",
+            "word": "Scrivere su carta vs scrivere al computer: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Scrivere su carta vs scrivere al computer — cosa è meglio?",
+                    "text": "Scrivere su carta vs scrivere al computer: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1431,7 +1431,7 @@
             "id": "it_starter_technology_002"
         },
         {
-            "topic": "Colazione vs Cena — which meal is more important?",
+            "topic": "Colazione vs Cena: which meal is more important?",
             "sideA": "Colazione",
             "sideB": "Cena",
             "level": "starter",
@@ -1444,10 +1444,10 @@
                 "Tempo in famiglia",
                 "Pasto abbondante"
             ],
-            "word": "Colazione vs Cena — which meal is more important?",
+            "word": "Colazione vs Cena: which meal is more important?",
             "definitions": [
                 {
-                    "text": "Colazione vs Cena — which meal is more important?",
+                    "text": "Colazione vs Cena: which meal is more important?",
                     "examples": []
                 }
             ],
@@ -1457,7 +1457,7 @@
             "id": "it_starter_food_drink_009"
         },
         {
-            "topic": "Caldo vs Freddo — cosa è meglio?",
+            "topic": "Caldo vs Freddo: cosa è meglio?",
             "sideA": "Caldo",
             "sideB": "Freddo",
             "level": "starter",
@@ -1470,10 +1470,10 @@
                 "Estate",
                 "Insalata"
             ],
-            "word": "Caldo vs Freddo — cosa è meglio?",
+            "word": "Caldo vs Freddo: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Caldo vs Freddo — cosa è meglio?",
+                    "text": "Caldo vs Freddo: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1483,7 +1483,7 @@
             "id": "it_starter_food_drink_010"
         },
         {
-            "topic": "Dolce vs Salato — cosa preferisci?",
+            "topic": "Dolce vs Salato: cosa preferisci?",
             "sideA": "Dolce",
             "sideB": "Salato",
             "level": "starter",
@@ -1496,10 +1496,10 @@
                 "Cibo vero",
                 "Sale"
             ],
-            "word": "Dolce vs Salato — cosa preferisci?",
+            "word": "Dolce vs Salato: cosa preferisci?",
             "definitions": [
                 {
-                    "text": "Dolce vs Salato — cosa preferisci?",
+                    "text": "Dolce vs Salato: cosa preferisci?",
                     "examples": []
                 }
             ],
@@ -1509,7 +1509,7 @@
             "id": "it_starter_food_drink_011"
         },
         {
-            "topic": "Cucinare con un genitore vs comprare cibo pronto — cosa è meglio?",
+            "topic": "Cucinare con un genitore vs comprare cibo pronto: cosa è meglio?",
             "sideA": "Cucinare",
             "sideB": "Pronto",
             "level": "starter",
@@ -1522,10 +1522,10 @@
                 "Veloce",
                 "Niente disordine"
             ],
-            "word": "Cucinare con un genitore vs comprare cibo pronto — cosa è meglio?",
+            "word": "Cucinare con un genitore vs comprare cibo pronto: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Cucinare con un genitore vs comprare cibo pronto — cosa è meglio?",
+                    "text": "Cucinare con un genitore vs comprare cibo pronto: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1535,7 +1535,7 @@
             "id": "it_starter_food_drink_012"
         },
         {
-            "topic": "Presto vs Tardi — cosa è meglio?",
+            "topic": "Presto vs Tardi: cosa è meglio?",
             "sideA": "Presto",
             "sideB": "Tardi",
             "level": "starter",
@@ -1548,10 +1548,10 @@
                 "Creativo di notte",
                 "Dormi fino a tardi"
             ],
-            "word": "Presto vs Tardi — cosa è meglio?",
+            "word": "Presto vs Tardi: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Presto vs Tardi — cosa è meglio?",
+                    "text": "Presto vs Tardi: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1561,7 +1561,7 @@
             "id": "it_starter_time_003"
         },
         {
-            "topic": "Mattina vs sera — cosa è meglio?",
+            "topic": "Mattina vs sera: cosa è meglio?",
             "sideA": "Mattina",
             "sideB": "Sera",
             "level": "starter",
@@ -1574,10 +1574,10 @@
                 "Tranquillo",
                 "Riposo"
             ],
-            "word": "Mattina vs sera — cosa è meglio?",
+            "word": "Mattina vs sera: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Mattina vs sera — cosa è meglio?",
+                    "text": "Mattina vs sera: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1587,7 +1587,7 @@
             "id": "it_starter_nature_003"
         },
         {
-            "topic": "Feriali vs Fine settimana — cosa preferisci?",
+            "topic": "Feriali vs Fine settimana: cosa preferisci?",
             "sideA": "Feriali",
             "sideB": "Fine settimana",
             "level": "starter",
@@ -1600,10 +1600,10 @@
                 "Divertente",
                 "Hobby"
             ],
-            "word": "Feriali vs Fine settimana — cosa preferisci?",
+            "word": "Feriali vs Fine settimana: cosa preferisci?",
             "definitions": [
                 {
-                    "text": "Feriali vs Fine settimana — cosa preferisci?",
+                    "text": "Feriali vs Fine settimana: cosa preferisci?",
                     "examples": []
                 }
             ],
@@ -1613,7 +1613,7 @@
             "id": "it_starter_time_004"
         },
         {
-            "topic": "Camera vs Soggiorno — quale stanza preferisci?",
+            "topic": "Camera vs Soggiorno: quale stanza preferisci?",
             "sideA": "Camera",
             "sideB": "Soggiorno",
             "level": "starter",
@@ -1626,10 +1626,10 @@
                 "Grande TV",
                 "Divano"
             ],
-            "word": "Camera vs Soggiorno — quale stanza preferisci?",
+            "word": "Camera vs Soggiorno: quale stanza preferisci?",
             "definitions": [
                 {
-                    "text": "Camera vs Soggiorno — quale stanza preferisci?",
+                    "text": "Camera vs Soggiorno: quale stanza preferisci?",
                     "examples": []
                 }
             ],
@@ -1639,7 +1639,7 @@
             "id": "it_starter_furniture_010"
         },
         {
-            "topic": "Al chiuso vs All'aperto — cosa è più divertente?",
+            "topic": "Al chiuso vs All'aperto: cosa è più divertente?",
             "sideA": "Al chiuso",
             "sideB": "All'aperto",
             "level": "starter",
@@ -1652,10 +1652,10 @@
                 "Sole",
                 "Corsa"
             ],
-            "word": "Al chiuso vs All'aperto — cosa è più divertente?",
+            "word": "Al chiuso vs All'aperto: cosa è più divertente?",
             "definitions": [
                 {
-                    "text": "Al chiuso vs All'aperto — cosa è più divertente?",
+                    "text": "Al chiuso vs All'aperto: cosa è più divertente?",
                     "examples": []
                 }
             ],
@@ -1665,7 +1665,7 @@
             "id": "it_starter_social_006"
         },
         {
-            "topic": "TV vs Libro — cosa è meglio?",
+            "topic": "TV vs Libro: cosa è meglio?",
             "sideA": "TV",
             "sideB": "Libro",
             "level": "starter",
@@ -1678,10 +1678,10 @@
                 "Immagina",
                 "Profondo"
             ],
-            "word": "TV vs Libro — cosa è meglio?",
+            "word": "TV vs Libro: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "TV vs Libro — cosa è meglio?",
+                    "text": "TV vs Libro: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1691,7 +1691,7 @@
             "id": "it_starter_social_007"
         },
         {
-            "topic": "Fare sport vs giocare ai videogiochi — cosa è più divertente?",
+            "topic": "Fare sport vs giocare ai videogiochi: cosa è più divertente?",
             "sideA": "Sport",
             "sideB": "Videogiochi",
             "level": "starter",
@@ -1704,10 +1704,10 @@
                 "Abilità",
                 "Storia"
             ],
-            "word": "Fare sport vs giocare ai videogiochi — cosa è più divertente?",
+            "word": "Fare sport vs giocare ai videogiochi: cosa è più divertente?",
             "definitions": [
                 {
-                    "text": "Fare sport vs giocare ai videogiochi — cosa è più divertente?",
+                    "text": "Fare sport vs giocare ai videogiochi: cosa è più divertente?",
                     "examples": []
                 }
             ],
@@ -1717,7 +1717,7 @@
             "id": "it_starter_social_008"
         },
         {
-            "topic": "Disegnare vs Cantare — which hobby is better?",
+            "topic": "Disegnare vs Cantare: which hobby is better?",
             "sideA": "Disegnare",
             "sideB": "Cantare",
             "level": "starter",
@@ -1730,10 +1730,10 @@
                 "Usa la voce",
                 "Musica"
             ],
-            "word": "Disegnare vs Cantare — which hobby is better?",
+            "word": "Disegnare vs Cantare: which hobby is better?",
             "definitions": [
                 {
-                    "text": "Disegnare vs Cantare — which hobby is better?",
+                    "text": "Disegnare vs Cantare: which hobby is better?",
                     "examples": []
                 }
             ],
@@ -1743,7 +1743,7 @@
             "id": "it_starter_social_009"
         },
         {
-            "topic": "Da soli vs Amici — which is more fun?",
+            "topic": "Da soli vs Amici: which is more fun?",
             "sideA": "Da soli",
             "sideB": "Amici",
             "level": "starter",
@@ -1756,10 +1756,10 @@
                 "Condividi",
                 "Ridi"
             ],
-            "word": "Da soli vs Amici — which is more fun?",
+            "word": "Da soli vs Amici: which is more fun?",
             "definitions": [
                 {
-                    "text": "Da soli vs Amici — which is more fun?",
+                    "text": "Da soli vs Amici: which is more fun?",
                     "examples": []
                 }
             ],
@@ -1769,7 +1769,7 @@
             "id": "it_starter_social_010"
         },
         {
-            "topic": "Nuotare vs Correre — which sport do you prefer?",
+            "topic": "Nuotare vs Correre: which sport do you prefer?",
             "sideA": "Nuotare",
             "sideB": "Correre",
             "level": "starter",
@@ -1782,10 +1782,10 @@
                 "Aria fresca",
                 "Facile"
             ],
-            "word": "Nuotare vs Correre — which sport do you prefer?",
+            "word": "Nuotare vs Correre: which sport do you prefer?",
             "definitions": [
                 {
-                    "text": "Nuotare vs Correre — which sport do you prefer?",
+                    "text": "Nuotare vs Correre: which sport do you prefer?",
                     "examples": []
                 }
             ],
@@ -1795,7 +1795,7 @@
             "id": "it_starter_health_medicine_001"
         },
         {
-            "topic": "Musica vs sport — cosa è meglio?",
+            "topic": "Musica vs sport: cosa è meglio?",
             "sideA": "Musica",
             "sideB": "Sport",
             "level": "starter",
@@ -1808,10 +1808,10 @@
                 "Attivo",
                 "Salute"
             ],
-            "word": "Musica vs sport — cosa è meglio?",
+            "word": "Musica vs sport: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Musica vs sport — cosa è meglio?",
+                    "text": "Musica vs sport: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -1821,7 +1821,7 @@
             "id": "it_starter_social_011"
         },
         {
-            "topic": "Fattoria vs Selvaggi — cosa è più interessante?",
+            "topic": "Fattoria vs Selvaggi: cosa è più interessante?",
             "sideA": "Fattoria",
             "sideB": "Selvaggi",
             "level": "starter",
@@ -1834,10 +1834,10 @@
                 "Giungla",
                 "Emozionante"
             ],
-            "word": "Fattoria vs Selvaggi — cosa è più interessante?",
+            "word": "Fattoria vs Selvaggi: cosa è più interessante?",
             "definitions": [
                 {
-                    "text": "Fattoria vs Selvaggi — cosa è più interessante?",
+                    "text": "Fattoria vs Selvaggi: cosa è più interessante?",
                     "examples": []
                 }
             ],
@@ -1847,7 +1847,7 @@
             "id": "it_starter_animals_006"
         },
         {
-            "topic": "Pioggia vs Sole — quale tempo preferisci?",
+            "topic": "Pioggia vs Sole: quale tempo preferisci?",
             "sideA": "Pioggia",
             "sideB": "Sole",
             "level": "starter",
@@ -1860,10 +1860,10 @@
                 "Spiaggia",
                 "Energia"
             ],
-            "word": "Pioggia vs Sole — quale tempo preferisci?",
+            "word": "Pioggia vs Sole: quale tempo preferisci?",
             "definitions": [
                 {
-                    "text": "Pioggia vs Sole — quale tempo preferisci?",
+                    "text": "Pioggia vs Sole: quale tempo preferisci?",
                     "examples": []
                 }
             ],
@@ -1873,7 +1873,7 @@
             "id": "it_starter_nature_004"
         },
         {
-            "topic": "Mare vs Montagna — cosa è meglio per una vacanza?",
+            "topic": "Mare vs Montagna: cosa è meglio per una vacanza?",
             "sideA": "Mare",
             "sideB": "Montagna",
             "level": "starter",
@@ -1886,10 +1886,10 @@
                 "Escursioni",
                 "Bellissima"
             ],
-            "word": "Mare vs Montagna — cosa è meglio per una vacanza?",
+            "word": "Mare vs Montagna: cosa è meglio per una vacanza?",
             "definitions": [
                 {
-                    "text": "Mare vs Montagna — cosa è meglio per una vacanza?",
+                    "text": "Mare vs Montagna: cosa è meglio per una vacanza?",
                     "examples": []
                 }
             ],
@@ -1899,7 +1899,7 @@
             "id": "it_starter_travel_004"
         },
         {
-            "topic": "Fiori vs Alberi — cosa è più bello?",
+            "topic": "Fiori vs Alberi: cosa è più bello?",
             "sideA": "Fiori",
             "sideB": "Alberi",
             "level": "starter",
@@ -1912,10 +1912,10 @@
                 "Ombra",
                 "Ossigenο"
             ],
-            "word": "Fiori vs Alberi — cosa è più bello?",
+            "word": "Fiori vs Alberi: cosa è più bello?",
             "definitions": [
                 {
-                    "text": "Fiori vs Alberi — cosa è più bello?",
+                    "text": "Fiori vs Alberi: cosa è più bello?",
                     "examples": []
                 }
             ],
@@ -1925,7 +1925,7 @@
             "id": "it_starter_nature_005"
         },
         {
-            "topic": "Camminare vs Bicicletta — cosa è meglio per spostarsi?",
+            "topic": "Camminare vs Bicicletta: cosa è meglio per spostarsi?",
             "sideA": "Camminare",
             "sideB": "Bicicletta",
             "level": "starter",
@@ -1938,10 +1938,10 @@
                 "Veloce",
                 "Divertente"
             ],
-            "word": "Camminare vs Bicicletta — cosa è meglio per spostarsi?",
+            "word": "Camminare vs Bicicletta: cosa è meglio per spostarsi?",
             "definitions": [
                 {
-                    "text": "Camminare vs Bicicletta — cosa è meglio per spostarsi?",
+                    "text": "Camminare vs Bicicletta: cosa è meglio per spostarsi?",
                     "examples": []
                 }
             ],
@@ -1951,7 +1951,7 @@
             "id": "it_starter_travel_005"
         },
         {
-            "topic": "Viaggiare da soli vs viaggiare con la famiglia — cosa è più divertente?",
+            "topic": "Viaggiare da soli vs viaggiare con la famiglia: cosa è più divertente?",
             "sideA": "Da soli",
             "sideB": "Famiglia",
             "level": "starter",
@@ -1964,10 +1964,10 @@
                 "Divertimento condiviso",
                 "Sicuro"
             ],
-            "word": "Viaggiare da soli vs viaggiare con la famiglia — cosa è più divertente?",
+            "word": "Viaggiare da soli vs viaggiare con la famiglia: cosa è più divertente?",
             "definitions": [
                 {
-                    "text": "Viaggiare da soli vs viaggiare con la famiglia — cosa è più divertente?",
+                    "text": "Viaggiare da soli vs viaggiare con la famiglia: cosa è più divertente?",
                     "examples": []
                 }
             ],
@@ -1977,7 +1977,7 @@
             "id": "it_starter_places_003"
         },
         {
-            "topic": "Nonni vs Non con loro — cosa è meglio?",
+            "topic": "Nonni vs Non con loro: cosa è meglio?",
             "sideA": "Nonni",
             "sideB": "Non con loro",
             "level": "starter",
@@ -1990,10 +1990,10 @@
                 "Più spazio",
                 "Casa tranquilla"
             ],
-            "word": "Nonni vs Non con loro — cosa è meglio?",
+            "word": "Nonni vs Non con loro: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Nonni vs Non con loro — cosa è meglio?",
+                    "text": "Nonni vs Non con loro: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2003,7 +2003,7 @@
             "id": "it_starter_social_012"
         },
         {
-            "topic": "Mamma vs Papà — cosa è meglio?",
+            "topic": "Mamma vs Papà: cosa è meglio?",
             "sideA": "Mamma",
             "sideB": "Papà",
             "level": "starter",
@@ -2016,10 +2016,10 @@
                 "Migliore pizza",
                 "Nuove ricette"
             ],
-            "word": "Mamma vs Papà — cosa è meglio?",
+            "word": "Mamma vs Papà: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Mamma vs Papà — cosa è meglio?",
+                    "text": "Mamma vs Papà: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2029,7 +2029,7 @@
             "id": "it_starter_food_drink_013"
         },
         {
-            "topic": "Matematica vs Arte — cosa è più divertente?",
+            "topic": "Matematica vs Arte: cosa è più divertente?",
             "sideA": "Matematica",
             "sideB": "Arte",
             "level": "starter",
@@ -2042,10 +2042,10 @@
                 "Colori",
                 "Pittura"
             ],
-            "word": "Matematica vs Arte — cosa è più divertente?",
+            "word": "Matematica vs Arte: cosa è più divertente?",
             "definitions": [
                 {
-                    "text": "Matematica vs Arte — cosa è più divertente?",
+                    "text": "Matematica vs Arte: cosa è più divertente?",
                     "examples": []
                 }
             ],
@@ -2055,7 +2055,7 @@
             "id": "it_starter_social_013"
         },
         {
-            "topic": "Carta vs Tablet — cosa è meglio?",
+            "topic": "Carta vs Tablet: cosa è meglio?",
             "sideA": "Carta",
             "sideB": "Tablet",
             "level": "starter",
@@ -2068,10 +2068,10 @@
                 "Veloce",
                 "Risparmia carta"
             ],
-            "word": "Carta vs Tablet — cosa è meglio?",
+            "word": "Carta vs Tablet: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Carta vs Tablet — cosa è meglio?",
+                    "text": "Carta vs Tablet: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2081,7 +2081,7 @@
             "id": "it_starter_technology_003"
         },
         {
-            "topic": "Parco vs Spiaggia — cosa è meglio?",
+            "topic": "Parco vs Spiaggia: cosa è meglio?",
             "sideA": "Parco",
             "sideB": "Spiaggia",
             "level": "starter",
@@ -2094,10 +2094,10 @@
                 "Sabbia",
                 "Mare"
             ],
-            "word": "Parco vs Spiaggia — cosa è meglio?",
+            "word": "Parco vs Spiaggia: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Parco vs Spiaggia — cosa è meglio?",
+                    "text": "Parco vs Spiaggia: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2107,7 +2107,7 @@
             "id": "it_starter_nature_006"
         },
         {
-            "topic": "Gatti vs Cani — which pet is more annoying?",
+            "topic": "Gatti vs Cani: which pet is more annoying?",
             "sideA": "Gatti",
             "sideB": "Cani",
             "level": "starter",
@@ -2120,10 +2120,10 @@
                 "No scarpe",
                 "Costoso"
             ],
-            "word": "Gatti vs Cani — which pet is more annoying?",
+            "word": "Gatti vs Cani: which pet is more annoying?",
             "definitions": [
                 {
-                    "text": "Gatti vs Cani — which pet is more annoying?",
+                    "text": "Gatti vs Cani: which pet is more annoying?",
                     "examples": []
                 }
             ],
@@ -2133,7 +2133,7 @@
             "id": "it_starter_animals_007"
         },
         {
-            "topic": "Mangiare la pizza con la forchetta vs mangiare la pizza con le mani — cosa è meglio?",
+            "topic": "Mangiare la pizza con la forchetta vs mangiare la pizza con le mani: cosa è meglio?",
             "sideA": "Forchetta",
             "sideB": "Mani",
             "level": "starter",
@@ -2146,10 +2146,10 @@
                 "Veloce",
                 "Modo vero"
             ],
-            "word": "Mangiare la pizza con la forchetta vs mangiare la pizza con le mani — cosa è meglio?",
+            "word": "Mangiare la pizza con la forchetta vs mangiare la pizza con le mani: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Mangiare la pizza con la forchetta vs mangiare la pizza con le mani — cosa è meglio?",
+                    "text": "Mangiare la pizza con la forchetta vs mangiare la pizza con le mani: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2159,7 +2159,7 @@
             "id": "it_starter_food_drink_014"
         },
         {
-            "topic": "Tempo pieno vs Tempo parziale — cosa è meglio?",
+            "topic": "Tempo pieno vs Tempo parziale: cosa è meglio?",
             "sideA": "Tempo pieno",
             "sideB": "Tempo parziale",
             "level": "starter",
@@ -2172,10 +2172,10 @@
                 "Tempo libero",
                 "Niente stress"
             ],
-            "word": "Tempo pieno vs Tempo parziale — cosa è meglio?",
+            "word": "Tempo pieno vs Tempo parziale: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Tempo pieno vs Tempo parziale — cosa è meglio?",
+                    "text": "Tempo pieno vs Tempo parziale: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2185,7 +2185,7 @@
             "id": "it_starter_work_011"
         },
         {
-            "topic": "Amore vs Soldi — cosa è più importante?",
+            "topic": "Amore vs Soldi: cosa è più importante?",
             "sideA": "Amore",
             "sideB": "Soldi",
             "level": "starter",
@@ -2198,10 +2198,10 @@
                 "Casa",
                 "No problems"
             ],
-            "word": "Amore vs Soldi — cosa è più importante?",
+            "word": "Amore vs Soldi: cosa è più importante?",
             "definitions": [
                 {
-                    "text": "Amore vs Soldi — cosa è più importante?",
+                    "text": "Amore vs Soldi: cosa è più importante?",
                     "examples": []
                 }
             ],
@@ -2211,7 +2211,7 @@
             "id": "it_starter_work_012"
         },
         {
-            "topic": "Grande città vs piccola città — cosa è meglio?",
+            "topic": "Grande città vs piccola città: cosa è meglio?",
             "sideA": "Grande città",
             "sideB": "Piccola città",
             "level": "starter",
@@ -2224,10 +2224,10 @@
                 "Amichevole",
                 "Tranquillo"
             ],
-            "word": "Grande città vs piccola città — cosa è meglio?",
+            "word": "Grande città vs piccola città: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Grande città vs piccola città — cosa è meglio?",
+                    "text": "Grande città vs piccola città: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2237,7 +2237,7 @@
             "id": "it_starter_places_004"
         },
         {
-            "topic": "Avere figli vs non avere figli — cosa è meglio?",
+            "topic": "Avere figli vs non avere figli: cosa è meglio?",
             "sideA": "Figli",
             "sideB": "Niente figli",
             "level": "starter",
@@ -2250,10 +2250,10 @@
                 "Tempo libero",
                 "Viaggi facili"
             ],
-            "word": "Avere figli vs non avere figli — cosa è meglio?",
+            "word": "Avere figli vs non avere figli: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Avere figli vs non avere figli — cosa è meglio?",
+                    "text": "Avere figli vs non avere figli: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2263,7 +2263,7 @@
             "id": "it_starter_people_002"
         },
         {
-            "topic": "Esercizio vs Riposo — cosa è meglio per la salute?",
+            "topic": "Esercizio vs Riposo: cosa è meglio per la salute?",
             "sideA": "Esercizio",
             "sideB": "Riposo",
             "level": "starter",
@@ -2276,10 +2276,10 @@
                 "Recovery",
                 "Relax"
             ],
-            "word": "Esercizio vs Riposo — cosa è meglio per la salute?",
+            "word": "Esercizio vs Riposo: cosa è meglio per la salute?",
             "definitions": [
                 {
-                    "text": "Esercizio vs Riposo — cosa è meglio per la salute?",
+                    "text": "Esercizio vs Riposo: cosa è meglio per la salute?",
                     "examples": []
                 }
             ],
@@ -2289,7 +2289,7 @@
             "id": "it_starter_health_medicine_002"
         },
         {
-            "topic": "Dottore vs Aspettare — cosa è meglio quando stai male?",
+            "topic": "Dottore vs Aspettare: cosa è meglio quando stai male?",
             "sideA": "Dottore",
             "sideB": "Aspettare",
             "level": "starter",
@@ -2302,10 +2302,10 @@
                 "Save money",
                 "Naturale"
             ],
-            "word": "Dottore vs Aspettare — cosa è meglio quando stai male?",
+            "word": "Dottore vs Aspettare: cosa è meglio quando stai male?",
             "definitions": [
                 {
-                    "text": "Dottore vs Aspettare — cosa è meglio quando stai male?",
+                    "text": "Dottore vs Aspettare: cosa è meglio quando stai male?",
                     "examples": []
                 }
             ],
@@ -2315,7 +2315,7 @@
             "id": "it_starter_health_medicine_003"
         },
         {
-            "topic": "8 ore vs Meno — cosa è più realistico per un adulto?",
+            "topic": "8 ore vs Meno: cosa è più realistico per un adulto?",
             "sideA": "8 ore",
             "sideB": "Meno",
             "level": "starter",
@@ -2328,10 +2328,10 @@
                 "More work",
                 "Play"
             ],
-            "word": "8 ore vs Meno — cosa è più realistico per un adulto?",
+            "word": "8 ore vs Meno: cosa è più realistico per un adulto?",
             "definitions": [
                 {
-                    "text": "8 ore vs Meno — cosa è più realistico per un adulto?",
+                    "text": "8 ore vs Meno: cosa è più realistico per un adulto?",
                     "examples": []
                 }
             ],
@@ -2341,7 +2341,7 @@
             "id": "it_starter_health_medicine_004"
         },
         {
-            "topic": "Online vs Negozio — cosa preferisci?",
+            "topic": "Online vs Negozio: cosa preferisci?",
             "sideA": "Online",
             "sideB": "Negozio",
             "level": "starter",
@@ -2354,10 +2354,10 @@
                 "See items",
                 "Try"
             ],
-            "word": "Online vs Negozio — cosa preferisci?",
+            "word": "Online vs Negozio: cosa preferisci?",
             "definitions": [
                 {
-                    "text": "Online vs Negozio — cosa preferisci?",
+                    "text": "Online vs Negozio: cosa preferisci?",
                     "examples": []
                 }
             ],
@@ -2367,7 +2367,7 @@
             "id": "it_starter_furniture_011"
         },
         {
-            "topic": "Costoso vs Economico — quale ha più valore?",
+            "topic": "Costoso vs Economico: quale ha più valore?",
             "sideA": "Costoso",
             "sideB": "Economico",
             "level": "starter",
@@ -2380,10 +2380,10 @@
                 "Soldi",
                 "Più cose"
             ],
-            "word": "Costoso vs Economico — quale ha più valore?",
+            "word": "Costoso vs Economico: quale ha più valore?",
             "definitions": [
                 {
-                    "text": "Costoso vs Economico — quale ha più valore?",
+                    "text": "Costoso vs Economico: quale ha più valore?",
                     "examples": []
                 }
             ],
@@ -2393,7 +2393,7 @@
             "id": "it_starter_furniture_012"
         },
         {
-            "topic": "Nuovo vs Seconda mano — cosa è meglio?",
+            "topic": "Nuovo vs Seconda mano: cosa è meglio?",
             "sideA": "Nuovo",
             "sideB": "Seconda mano",
             "level": "starter",
@@ -2406,10 +2406,10 @@
                 "Economico",
                 "Natura"
             ],
-            "word": "Nuovo vs Seconda mano — cosa è meglio?",
+            "word": "Nuovo vs Seconda mano: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Nuovo vs Seconda mano — cosa è meglio?",
+                    "text": "Nuovo vs Seconda mano: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2419,7 +2419,7 @@
             "id": "it_starter_furniture_013"
         },
         {
-            "topic": "TV a casa vs Uscire — quale serata è migliore?",
+            "topic": "TV a casa vs Uscire: quale serata è migliore?",
             "sideA": "TV a casa",
             "sideB": "Uscire",
             "level": "starter",
@@ -2432,10 +2432,10 @@
                 "Amici",
                 "New places"
             ],
-            "word": "TV a casa vs Uscire — quale serata è migliore?",
+            "word": "TV a casa vs Uscire: quale serata è migliore?",
             "definitions": [
                 {
-                    "text": "TV a casa vs Uscire — quale serata è migliore?",
+                    "text": "TV a casa vs Uscire: quale serata è migliore?",
                     "examples": []
                 }
             ],
@@ -2445,7 +2445,7 @@
             "id": "it_starter_social_014"
         },
         {
-            "topic": "Famiglia vs Amici — cosa è meglio?",
+            "topic": "Famiglia vs Amici: cosa è meglio?",
             "sideA": "Famiglia",
             "sideB": "Amici",
             "level": "starter",
@@ -2458,10 +2458,10 @@
                 "Emozionante",
                 "Festa"
             ],
-            "word": "Famiglia vs Amici — cosa è meglio?",
+            "word": "Famiglia vs Amici: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Famiglia vs Amici — cosa è meglio?",
+                    "text": "Famiglia vs Amici: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2471,7 +2471,7 @@
             "id": "it_starter_travel_006"
         },
         {
-            "topic": "Mio paese vs Estero — quale vacanza è migliore?",
+            "topic": "Mio paese vs Estero: quale vacanza è migliore?",
             "sideA": "Mio paese",
             "sideB": "Estero",
             "level": "starter",
@@ -2484,10 +2484,10 @@
                 "Culture",
                 "Adventure"
             ],
-            "word": "Mio paese vs Estero — quale vacanza è migliore?",
+            "word": "Mio paese vs Estero: quale vacanza è migliore?",
             "definitions": [
                 {
-                    "text": "Mio paese vs Estero — quale vacanza è migliore?",
+                    "text": "Mio paese vs Estero: quale vacanza è migliore?",
                     "examples": []
                 }
             ],
@@ -2497,7 +2497,7 @@
             "id": "it_starter_travel_007"
         },
         {
-            "topic": "Sport vs Lettura — quale hobby è migliore per un adulto?",
+            "topic": "Sport vs Lettura: quale hobby è migliore per un adulto?",
             "sideA": "Sport",
             "sideB": "Lettura",
             "level": "starter",
@@ -2510,10 +2510,10 @@
                 "Relax",
                 "Conoscenza"
             ],
-            "word": "Sport vs Lettura — quale hobby è migliore per un adulto?",
+            "word": "Sport vs Lettura: quale hobby è migliore per un adulto?",
             "definitions": [
                 {
-                    "text": "Sport vs Lettura — quale hobby è migliore per un adulto?",
+                    "text": "Sport vs Lettura: quale hobby è migliore per un adulto?",
                     "examples": []
                 }
             ],
@@ -2523,7 +2523,7 @@
             "id": "it_starter_social_015"
         },
         {
-            "topic": "Amici vs Tempo solo — cosa è più importante?",
+            "topic": "Amici vs Tempo solo: cosa è più importante?",
             "sideA": "Amici",
             "sideB": "Tempo solo",
             "level": "starter",
@@ -2536,10 +2536,10 @@
                 "Pace",
                 "Hobby"
             ],
-            "word": "Amici vs Tempo solo — cosa è più importante?",
+            "word": "Amici vs Tempo solo: cosa è più importante?",
             "definitions": [
                 {
-                    "text": "Amici vs Tempo solo — cosa è più importante?",
+                    "text": "Amici vs Tempo solo: cosa è più importante?",
                     "examples": []
                 }
             ],
@@ -2549,7 +2549,7 @@
             "id": "it_starter_social_016"
         },
         {
-            "topic": "Subito vs Dopo — cosa è più professionale?",
+            "topic": "Subito vs Dopo: cosa è più professionale?",
             "sideA": "Subito",
             "sideB": "Dopo",
             "level": "starter",
@@ -2562,10 +2562,10 @@
                 "Think",
                 "Niente fretta"
             ],
-            "word": "Subito vs Dopo — cosa è più professionale?",
+            "word": "Subito vs Dopo: cosa è più professionale?",
             "definitions": [
                 {
-                    "text": "Subito vs Dopo — cosa è più professionale?",
+                    "text": "Subito vs Dopo: cosa è più professionale?",
                     "examples": []
                 }
             ],
@@ -2575,7 +2575,7 @@
             "id": "it_starter_work_013"
         },
         {
-            "topic": "Subito vs Domani — cosa è meglio?",
+            "topic": "Subito vs Domani: cosa è meglio?",
             "sideA": "Subito",
             "sideB": "Domani",
             "level": "starter",
@@ -2588,10 +2588,10 @@
                 "Relax",
                 "Dopo"
             ],
-            "word": "Subito vs Domani — cosa è meglio?",
+            "word": "Subito vs Domani: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Subito vs Domani — cosa è meglio?",
+                    "text": "Subito vs Domani: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2601,7 +2601,7 @@
             "id": "it_starter_furniture_014"
         },
         {
-            "topic": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio?",
+            "topic": "Essere sempre in anticipo vs sempre cinque minuti in ritardo: cosa è peggio?",
             "sideA": "Anticipo",
             "sideB": "Ritardo",
             "level": "starter",
@@ -2614,10 +2614,10 @@
                 "Non educato",
                 "Perdi inizio"
             ],
-            "word": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio?",
+            "word": "Essere sempre in anticipo vs sempre cinque minuti in ritardo: cosa è peggio?",
             "definitions": [
                 {
-                    "text": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio?",
+                    "text": "Essere sempre in anticipo vs sempre cinque minuti in ritardo: cosa è peggio?",
                     "examples": []
                 }
             ],
@@ -2627,7 +2627,7 @@
             "id": "it_starter_work_014"
         },
         {
-            "topic": "Organizzata vs Disordinata — chi è più produttivo?",
+            "topic": "Organizzata vs Disordinata: chi è più produttivo?",
             "sideA": "Organizzata",
             "sideB": "Disordinata",
             "level": "starter",
@@ -2640,10 +2640,10 @@
                 "Creativo",
                 "Veloce"
             ],
-            "word": "Organizzata vs Disordinata — chi è più produttivo?",
+            "word": "Organizzata vs Disordinata: chi è più produttivo?",
             "definitions": [
                 {
-                    "text": "Organizzata vs Disordinata — chi è più produttivo?",
+                    "text": "Organizzata vs Disordinata: chi è più produttivo?",
                     "examples": []
                 }
             ],
@@ -2653,7 +2653,7 @@
             "id": "it_starter_work_015"
         },
         {
-            "topic": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — cosa è meglio?",
+            "topic": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena: cosa è meglio?",
             "sideA": "Parlare di lavoro",
             "sideB": "Niente lavoro",
             "level": "starter",
@@ -2666,10 +2666,10 @@
                 "Relax",
                 "Tempo in famiglia"
             ],
-            "word": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — cosa è meglio?",
+            "word": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — cosa è meglio?",
+                    "text": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2679,7 +2679,7 @@
             "id": "it_starter_food_drink_015"
         },
         {
-            "topic": "Casa vs Ristorante — cosa è meglio?",
+            "topic": "Casa vs Ristorante: cosa è meglio?",
             "sideA": "Casa",
             "sideB": "Ristorante",
             "level": "starter",
@@ -2692,10 +2692,10 @@
                 "Niente piatti",
                 "Chef professionisti"
             ],
-            "word": "Casa vs Ristorante — cosa è meglio?",
+            "word": "Casa vs Ristorante: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Casa vs Ristorante — cosa è meglio?",
+                    "text": "Casa vs Ristorante: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2705,7 +2705,7 @@
             "id": "it_starter_food_drink_016"
         },
         {
-            "topic": "Pizza vs Pasta — cosa è meglio?",
+            "topic": "Pizza vs Pasta: cosa è meglio?",
             "sideA": "Pizza",
             "sideB": "Pasta",
             "level": "starter",
@@ -2718,10 +2718,10 @@
                 "Molti tipi",
                 "Salsa"
             ],
-            "word": "Pizza vs Pasta — cosa è meglio?",
+            "word": "Pizza vs Pasta: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Pizza vs Pasta — cosa è meglio?",
+                    "text": "Pizza vs Pasta: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2731,7 +2731,7 @@
             "id": "it_starter_food_drink_017"
         },
         {
-            "topic": "Gelato vs Torta — which is a better dessert?",
+            "topic": "Gelato vs Torta: which is a better dessert?",
             "sideA": "Gelato",
             "sideB": "Torta",
             "level": "starter",
@@ -2744,10 +2744,10 @@
                 "Calda",
                 "Compleanno"
             ],
-            "word": "Gelato vs Torta — which is a better dessert?",
+            "word": "Gelato vs Torta: which is a better dessert?",
             "definitions": [
                 {
-                    "text": "Gelato vs Torta — which is a better dessert?",
+                    "text": "Gelato vs Torta: which is a better dessert?",
                     "examples": []
                 }
             ],
@@ -2757,7 +2757,7 @@
             "id": "it_starter_food_drink_018"
         },
         {
-            "topic": "Giornate corte vs Giornate lunghe — cosa è meglio?",
+            "topic": "Giornate corte vs Giornate lunghe: cosa è meglio?",
             "sideA": "Giornate corte",
             "sideB": "Giornate lunghe",
             "level": "starter",
@@ -2770,10 +2770,10 @@
                 "Più sole",
                 "Gioca fuori"
             ],
-            "word": "Giornate corte vs Giornate lunghe — cosa è meglio?",
+            "word": "Giornate corte vs Giornate lunghe: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Giornate corte vs Giornate lunghe — cosa è meglio?",
+                    "text": "Giornate corte vs Giornate lunghe: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2783,7 +2783,7 @@
             "id": "it_starter_nature_007"
         },
         {
-            "topic": "Aereo vs Treno — which is more fun?",
+            "topic": "Aereo vs Treno: which is more fun?",
             "sideA": "Aereo",
             "sideB": "Treno",
             "level": "starter",
@@ -2796,10 +2796,10 @@
                 "Natura",
                 "Spazio"
             ],
-            "word": "Aereo vs Treno — which is more fun?",
+            "word": "Aereo vs Treno: which is more fun?",
             "definitions": [
                 {
-                    "text": "Aereo vs Treno — which is more fun?",
+                    "text": "Aereo vs Treno: which is more fun?",
                     "examples": []
                 }
             ],
@@ -2809,7 +2809,7 @@
             "id": "it_starter_travel_008"
         },
         {
-            "topic": "Colazione vs No breakfast — cosa è meglio per te?",
+            "topic": "Colazione vs No breakfast: cosa è meglio per te?",
             "sideA": "Colazione",
             "sideB": "No breakfast",
             "level": "starter",
@@ -2822,10 +2822,10 @@
                 "Risparmia tempo",
                 "Non ho fame"
             ],
-            "word": "Colazione vs No breakfast — cosa è meglio per te?",
+            "word": "Colazione vs No breakfast: cosa è meglio per te?",
             "definitions": [
                 {
-                    "text": "Colazione vs No breakfast — cosa è meglio per te?",
+                    "text": "Colazione vs No breakfast: cosa è meglio per te?",
                     "examples": []
                 }
             ],
@@ -2835,7 +2835,7 @@
             "id": "it_starter_food_drink_019"
         },
         {
-            "topic": "Città vs Villaggio — quale posto è migliore per vivere?",
+            "topic": "Città vs Villaggio: quale posto è migliore per vivere?",
             "sideA": "Città",
             "sideB": "Villaggio",
             "level": "starter",
@@ -2848,10 +2848,10 @@
                 "Tranquillo",
                 "Aria"
             ],
-            "word": "Città vs Villaggio — quale posto è migliore per vivere?",
+            "word": "Città vs Villaggio: quale posto è migliore per vivere?",
             "definitions": [
                 {
-                    "text": "Città vs Villaggio — quale posto è migliore per vivere?",
+                    "text": "Città vs Villaggio: quale posto è migliore per vivere?",
                     "examples": []
                 }
             ],
@@ -2861,7 +2861,7 @@
             "id": "it_starter_furniture_015"
         },
         {
-            "topic": "Mattino vs Notte — cosa è meglio?",
+            "topic": "Mattino vs Notte: cosa è meglio?",
             "sideA": "Mattino",
             "sideB": "Notte",
             "level": "starter",
@@ -2874,10 +2874,10 @@
                 "Creativo",
                 "No noise"
             ],
-            "word": "Mattino vs Notte — cosa è meglio?",
+            "word": "Mattino vs Notte: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Mattino vs Notte — cosa è meglio?",
+                    "text": "Mattino vs Notte: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2887,7 +2887,7 @@
             "id": "it_starter_time_005"
         },
         {
-            "topic": "Call vs Message — cosa è meglio?",
+            "topic": "Call vs Message: cosa è meglio?",
             "sideA": "Call",
             "sideB": "Message",
             "level": "starter",
@@ -2900,10 +2900,10 @@
                 "Pensa prima",
                 "Dopo"
             ],
-            "word": "Call vs Message — cosa è meglio?",
+            "word": "Call vs Message: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Call vs Message — cosa è meglio?",
+                    "text": "Call vs Message: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -2913,7 +2913,7 @@
             "id": "it_starter_technology_004"
         },
         {
-            "topic": "Monday vs Friday — quale giorno è meglio?",
+            "topic": "Monday vs Friday: quale giorno è meglio?",
             "sideA": "Monday",
             "sideB": "Friday",
             "level": "starter",
@@ -2926,10 +2926,10 @@
                 "Fine settimana",
                 "Festa"
             ],
-            "word": "Monday vs Friday — quale giorno è meglio?",
+            "word": "Monday vs Friday: quale giorno è meglio?",
             "definitions": [
                 {
-                    "text": "Monday vs Friday — quale giorno è meglio?",
+                    "text": "Monday vs Friday: quale giorno è meglio?",
                     "examples": []
                 }
             ],
@@ -2939,7 +2939,7 @@
             "id": "it_starter_time_006"
         },
         {
-            "topic": "Too hot vs Too cold — cosa è peggio?",
+            "topic": "Too hot vs Too cold: cosa è peggio?",
             "sideA": "Too hot",
             "sideB": "Too cold",
             "level": "starter",
@@ -2952,10 +2952,10 @@
                 "Vestiti",
                 "Si congela"
             ],
-            "word": "Too hot vs Too cold — cosa è peggio?",
+            "word": "Too hot vs Too cold: cosa è peggio?",
             "definitions": [
                 {
-                    "text": "Too hot vs Too cold — cosa è peggio?",
+                    "text": "Too hot vs Too cold: cosa è peggio?",
                     "examples": []
                 }
             ],
@@ -2965,7 +2965,7 @@
             "id": "it_starter_nature_008"
         },
         {
-            "topic": "Window vs Aisle — cosa è meglio in aereo?",
+            "topic": "Window vs Aisle: cosa è meglio in aereo?",
             "sideA": "Window",
             "sideB": "Aisle",
             "level": "starter",
@@ -2978,10 +2978,10 @@
                 "Cammini facile",
                 "Spazio"
             ],
-            "word": "Window vs Aisle — cosa è meglio in aereo?",
+            "word": "Window vs Aisle: cosa è meglio in aereo?",
             "definitions": [
                 {
-                    "text": "Window vs Aisle — cosa è meglio in aereo?",
+                    "text": "Window vs Aisle: cosa è meglio in aereo?",
                     "examples": []
                 }
             ],
@@ -2991,7 +2991,7 @@
             "id": "it_starter_travel_009"
         },
         {
-            "topic": "Persone vs Da soli — cosa è meglio?",
+            "topic": "Persone vs Da soli: cosa è meglio?",
             "sideA": "Persone",
             "sideB": "Da soli",
             "level": "starter",
@@ -3004,10 +3004,10 @@
                 "Focus",
                 "Veloce"
             ],
-            "word": "Persone vs Da soli — cosa è meglio?",
+            "word": "Persone vs Da soli: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Persone vs Da soli — cosa è meglio?",
+                    "text": "Persone vs Da soli: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -3017,7 +3017,7 @@
             "id": "it_starter_work_016"
         },
         {
-            "topic": "Big city vs Small town — quale posto è migliore per un adulto?",
+            "topic": "Big city vs Small town: quale posto è migliore per un adulto?",
             "sideA": "Big city",
             "sideB": "Small town",
             "level": "starter",
@@ -3030,10 +3030,10 @@
                 "Friendly",
                 "Economico"
             ],
-            "word": "Big city vs Small town — quale posto è migliore per un adulto?",
+            "word": "Big city vs Small town: quale posto è migliore per un adulto?",
             "definitions": [
                 {
-                    "text": "Big city vs Small town — quale posto è migliore per un adulto?",
+                    "text": "Big city vs Small town: quale posto è migliore per un adulto?",
                     "examples": []
                 }
             ],
@@ -3043,7 +3043,7 @@
             "id": "it_starter_furniture_016"
         },
         {
-            "topic": "A casa vs Mangiare fuori — cosa è meglio per la vita quotidiana?",
+            "topic": "A casa vs Mangiare fuori: cosa è meglio per la vita quotidiana?",
             "sideA": "A casa",
             "sideB": "Mangiare fuori",
             "level": "starter",
@@ -3056,10 +3056,10 @@
                 "Risparmia tempo",
                 "No mess"
             ],
-            "word": "A casa vs Mangiare fuori — cosa è meglio per la vita quotidiana?",
+            "word": "A casa vs Mangiare fuori: cosa è meglio per la vita quotidiana?",
             "definitions": [
                 {
-                    "text": "A casa vs Mangiare fuori — cosa è meglio per la vita quotidiana?",
+                    "text": "A casa vs Mangiare fuori: cosa è meglio per la vita quotidiana?",
                     "examples": []
                 }
             ],
@@ -3069,7 +3069,7 @@
             "id": "it_starter_food_drink_020"
         },
         {
-            "topic": "Figli vs Senza figli — quale vita è migliore?",
+            "topic": "Figli vs Senza figli: quale vita è migliore?",
             "sideA": "Figli",
             "sideB": "Senza figli",
             "level": "starter",
@@ -3082,10 +3082,10 @@
                 "Tempo libero",
                 "Travel"
             ],
-            "word": "Figli vs Senza figli — quale vita è migliore?",
+            "word": "Figli vs Senza figli: quale vita è migliore?",
             "definitions": [
                 {
-                    "text": "Figli vs Senza figli — quale vita è migliore?",
+                    "text": "Figli vs Senza figli: quale vita è migliore?",
                     "examples": []
                 }
             ],
@@ -3095,7 +3095,7 @@
             "id": "it_starter_social_017"
         },
         {
-            "topic": "Affittare vs Comprare casa — cosa è meglio per i giovani?",
+            "topic": "Affittare vs Comprare casa: cosa è meglio per i giovani?",
             "sideA": "Affittare",
             "sideB": "Comprare casa",
             "level": "starter",
@@ -3108,10 +3108,10 @@
                 "Investimento",
                 "Spazio"
             ],
-            "word": "Affittare vs Comprare casa — cosa è meglio per i giovani?",
+            "word": "Affittare vs Comprare casa: cosa è meglio per i giovani?",
             "definitions": [
                 {
-                    "text": "Affittare vs Comprare casa — cosa è meglio per i giovani?",
+                    "text": "Affittare vs Comprare casa: cosa è meglio per i giovani?",
                     "examples": []
                 }
             ],
@@ -3121,7 +3121,7 @@
             "id": "it_starter_furniture_017"
         },
         {
-            "topic": "Camminare vs Auto — cosa è meglio per la salute?",
+            "topic": "Camminare vs Auto: cosa è meglio per la salute?",
             "sideA": "Camminare",
             "sideB": "Auto",
             "level": "starter",
@@ -3134,10 +3134,10 @@
                 "Comodo",
                 "Veloce"
             ],
-            "word": "Camminare vs Auto — cosa è meglio per la salute?",
+            "word": "Camminare vs Auto: cosa è meglio per la salute?",
             "definitions": [
                 {
-                    "text": "Camminare vs Auto — cosa è meglio per la salute?",
+                    "text": "Camminare vs Auto: cosa è meglio per la salute?",
                     "examples": []
                 }
             ],
@@ -3147,7 +3147,7 @@
             "id": "it_starter_travel_010"
         },
         {
-            "topic": "Risparmiare vs Godersi ora — cosa è più saggio?",
+            "topic": "Risparmiare vs Godersi ora: cosa è più saggio?",
             "sideA": "Risparmiare",
             "sideB": "Godersi ora",
             "level": "starter",
@@ -3160,10 +3160,10 @@
                 "Happy today",
                 "Ricordi"
             ],
-            "word": "Risparmiare vs Godersi ora — cosa è più saggio?",
+            "word": "Risparmiare vs Godersi ora: cosa è più saggio?",
             "definitions": [
                 {
-                    "text": "Risparmiare vs Godersi ora — cosa è più saggio?",
+                    "text": "Risparmiare vs Godersi ora: cosa è più saggio?",
                     "examples": []
                 }
             ],
@@ -3173,7 +3173,7 @@
             "id": "it_starter_work_017"
         },
         {
-            "topic": "Costose vs Economiche — quale ha più valore?",
+            "topic": "Costose vs Economiche: quale ha più valore?",
             "sideA": "Costose",
             "sideB": "Economiche",
             "level": "starter",
@@ -3186,10 +3186,10 @@
                 "Soldi",
                 "Many things"
             ],
-            "word": "Costose vs Economiche — quale ha più valore?",
+            "word": "Costose vs Economiche: quale ha più valore?",
             "definitions": [
                 {
-                    "text": "Costose vs Economiche — quale ha più valore?",
+                    "text": "Costose vs Economiche: quale ha più valore?",
                     "examples": []
                 }
             ],
@@ -3199,7 +3199,7 @@
             "id": "it_starter_furniture_018"
         },
         {
-            "topic": "Parlare lavoro vs Niente lavoro — quale regola è migliore?",
+            "topic": "Parlare lavoro vs Niente lavoro: quale regola è migliore?",
             "sideA": "Parlare lavoro",
             "sideB": "Niente lavoro",
             "level": "starter",
@@ -3212,10 +3212,10 @@
                 "Relax",
                 "Tempo in famiglia"
             ],
-            "word": "Parlare lavoro vs Niente lavoro — quale regola è migliore?",
+            "word": "Parlare lavoro vs Niente lavoro: quale regola è migliore?",
             "definitions": [
                 {
-                    "text": "Parlare lavoro vs Niente lavoro — quale regola è migliore?",
+                    "text": "Parlare lavoro vs Niente lavoro: quale regola è migliore?",
                     "examples": []
                 }
             ],
@@ -3225,7 +3225,7 @@
             "id": "it_starter_food_drink_021"
         },
         {
-            "topic": "Nuotare vs Corsa — which sport do you prefer?",
+            "topic": "Nuotare vs Corsa: which sport do you prefer?",
             "sideA": "Nuotare",
             "sideB": "Corsa",
             "level": "starter",
@@ -3238,10 +3238,10 @@
                 "Aria fresca",
                 "Facile"
             ],
-            "word": "Nuotare vs Corsa — which sport do you prefer?",
+            "word": "Nuotare vs Corsa: which sport do you prefer?",
             "definitions": [
                 {
-                    "text": "Nuotare vs Corsa — which sport do you prefer?",
+                    "text": "Nuotare vs Corsa: which sport do you prefer?",
                     "examples": []
                 }
             ],
@@ -3251,7 +3251,7 @@
             "id": "it_starter_health_medicine_005"
         },
         {
-            "topic": "Cammini facile vs Bicicletta — which is better to get around?",
+            "topic": "Cammini facile vs Bicicletta: which is better to get around?",
             "sideA": "Cammini facile",
             "sideB": "Bicicletta",
             "level": "starter",
@@ -3264,10 +3264,10 @@
                 "Veloce",
                 "Divertente"
             ],
-            "word": "Cammini facile vs Bicicletta — which is better to get around?",
+            "word": "Cammini facile vs Bicicletta: which is better to get around?",
             "definitions": [
                 {
-                    "text": "Cammini facile vs Bicicletta — which is better to get around?",
+                    "text": "Cammini facile vs Bicicletta: which is better to get around?",
                     "examples": []
                 }
             ],
@@ -3277,7 +3277,7 @@
             "id": "it_starter_travel_011"
         },
         {
-            "topic": "Mattino vs Sera — cosa è meglio?",
+            "topic": "Mattino vs Sera: cosa è meglio?",
             "sideA": "Mattino",
             "sideB": "Sera",
             "level": "starter",
@@ -3290,10 +3290,10 @@
                 "Rilassante",
                 "Letto pulito"
             ],
-            "word": "Mattino vs Sera — cosa è meglio?",
+            "word": "Mattino vs Sera: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Mattino vs Sera — cosa è meglio?",
+                    "text": "Mattino vs Sera: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -3303,7 +3303,7 @@
             "id": "it_starter_time_007"
         },
         {
-            "topic": "Auto vs Autobus — cosa è meglio per andare al lavoro?",
+            "topic": "Auto vs Autobus: cosa è meglio per andare al lavoro?",
             "sideA": "Auto",
             "sideB": "Autobus",
             "level": "starter",
@@ -3316,10 +3316,10 @@
                 "Economico",
                 "Natura"
             ],
-            "word": "Auto vs Autobus — cosa è meglio per andare al lavoro?",
+            "word": "Auto vs Autobus: cosa è meglio per andare al lavoro?",
             "definitions": [
                 {
-                    "text": "Auto vs Autobus — cosa è meglio per andare al lavoro?",
+                    "text": "Auto vs Autobus: cosa è meglio per andare al lavoro?",
                     "examples": []
                 }
             ],
@@ -3329,7 +3329,7 @@
             "id": "it_starter_travel_012"
         },
         {
-            "topic": "Cammini facile vs Guidare — cosa è meglio in città?",
+            "topic": "Cammini facile vs Guidare: cosa è meglio in città?",
             "sideA": "Cammini facile",
             "sideB": "Guidare",
             "level": "starter",
@@ -3342,10 +3342,10 @@
                 "Niente pioggia",
                 "Comode"
             ],
-            "word": "Cammini facile vs Guidare — cosa è meglio in città?",
+            "word": "Cammini facile vs Guidare: cosa è meglio in città?",
             "definitions": [
                 {
-                    "text": "Cammini facile vs Guidare — cosa è meglio in città?",
+                    "text": "Cammini facile vs Guidare: cosa è meglio in città?",
                     "examples": []
                 }
             ],
@@ -3355,7 +3355,7 @@
             "id": "it_starter_travel_013"
         },
         {
-            "topic": "Mattino vs Sera — cosa è giusto?",
+            "topic": "Mattino vs Sera: cosa è giusto?",
             "sideA": "Mattino",
             "sideB": "Sera",
             "level": "starter",
@@ -3368,10 +3368,10 @@
                 "Rilassante",
                 "Letto pulito"
             ],
-            "word": "Mattino vs Sera — cosa è giusto?",
+            "word": "Mattino vs Sera: cosa è giusto?",
             "definitions": [
                 {
-                    "text": "Mattino vs Sera — cosa è giusto?",
+                    "text": "Mattino vs Sera: cosa è giusto?",
                     "examples": []
                 }
             ],
@@ -3381,7 +3381,7 @@
             "id": "it_starter_time_008"
         },
         {
-            "topic": "Ufficio vs Casa — cosa preferisci?",
+            "topic": "Ufficio vs Casa: cosa preferisci?",
             "sideA": "Ufficio",
             "sideB": "Casa",
             "level": "starter",
@@ -3394,10 +3394,10 @@
                 "Comodo",
                 "Niente viaggi"
             ],
-            "word": "Ufficio vs Casa — cosa preferisci?",
+            "word": "Ufficio vs Casa: cosa preferisci?",
             "definitions": [
                 {
-                    "text": "Ufficio vs Casa — cosa preferisci?",
+                    "text": "Ufficio vs Casa: cosa preferisci?",
                     "examples": []
                 }
             ],
@@ -3407,7 +3407,7 @@
             "id": "it_starter_work_018"
         },
         {
-            "topic": "Breve vs Lunga — cosa è più accettabile?",
+            "topic": "Breve vs Lunga: cosa è più accettabile?",
             "sideA": "Breve",
             "sideB": "Lunga",
             "level": "starter",
@@ -3420,10 +3420,10 @@
                 "Musica",
                 "Lettura"
             ],
-            "word": "Breve vs Lunga — cosa è più accettabile?",
+            "word": "Breve vs Lunga: cosa è più accettabile?",
             "definitions": [
                 {
-                    "text": "Breve vs Lunga — cosa è più accettabile?",
+                    "text": "Breve vs Lunga: cosa è più accettabile?",
                     "examples": []
                 }
             ],
@@ -3433,7 +3433,7 @@
             "id": "it_starter_travel_014"
         },
         {
-            "topic": "Da soli vs Partner — cosa è meglio?",
+            "topic": "Da soli vs Partner: cosa è meglio?",
             "sideA": "Da soli",
             "sideB": "Partner",
             "level": "starter",
@@ -3446,10 +3446,10 @@
                 "Share life",
                 "Help"
             ],
-            "word": "Da soli vs Partner — cosa è meglio?",
+            "word": "Da soli vs Partner: cosa è meglio?",
             "definitions": [
                 {
-                    "text": "Da soli vs Partner — cosa è meglio?",
+                    "text": "Da soli vs Partner: cosa è meglio?",
                     "examples": []
                 }
             ],
@@ -3459,7 +3459,7 @@
             "id": "it_starter_furniture_019"
         },
         {
-            "topic": "Affittare appartamento vs Comprare casa — cosa è meglio per i giovani?",
+            "topic": "Affittare appartamento vs Comprare casa: cosa è meglio per i giovani?",
             "sideA": "Affittare appartamento",
             "sideB": "Comprare casa",
             "level": "starter",
@@ -3472,10 +3472,10 @@
                 "Investimento",
                 "Spazio"
             ],
-            "word": "Affittare appartamento vs Comprare casa — cosa è meglio per i giovani?",
+            "word": "Affittare appartamento vs Comprare casa: cosa è meglio per i giovani?",
             "definitions": [
                 {
-                    "text": "Affittare appartamento vs Comprare casa — cosa è meglio per i giovani?",
+                    "text": "Affittare appartamento vs Comprare casa: cosa è meglio per i giovani?",
                     "examples": []
                 }
             ],
@@ -3485,7 +3485,7 @@
             "id": "it_starter_furniture_020"
         },
         {
-            "topic": "Cammini facile vs Auto — cosa è meglio per la salute?",
+            "topic": "Cammini facile vs Auto: cosa è meglio per la salute?",
             "sideA": "Cammini facile",
             "sideB": "Auto",
             "level": "starter",
@@ -3498,10 +3498,10 @@
                 "Comode",
                 "Veloce"
             ],
-            "word": "Cammini facile vs Auto — cosa è meglio per la salute?",
+            "word": "Cammini facile vs Auto: cosa è meglio per la salute?",
             "definitions": [
                 {
-                    "text": "Cammini facile vs Auto — cosa è meglio per la salute?",
+                    "text": "Cammini facile vs Auto: cosa è meglio per la salute?",
                     "examples": []
                 }
             ],
@@ -3511,7 +3511,7 @@
             "id": "it_starter_travel_015"
         },
         {
-            "topic": "Presto vs Tardi — cosa è peggio al lavoro?",
+            "topic": "Presto vs Tardi: cosa è peggio al lavoro?",
             "sideA": "Presto",
             "sideB": "Tardi",
             "level": "starter",
@@ -3524,10 +3524,10 @@
                 "Non educato",
                 "Perdi inizio"
             ],
-            "word": "Presto vs Tardi — cosa è peggio al lavoro?",
+            "word": "Presto vs Tardi: cosa è peggio al lavoro?",
             "definitions": [
                 {
-                    "text": "Presto vs Tardi — cosa è peggio al lavoro?",
+                    "text": "Presto vs Tardi: cosa è peggio al lavoro?",
                     "examples": []
                 }
             ],

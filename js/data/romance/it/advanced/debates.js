@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "topic": "Gerarchie organizzative piatte vs strutture di gestione verticale — cosa serve meglio agli adulti che lavorano al loro interno?",
+        "topic": "Gerarchie organizzative piatte vs strutture di gestione verticale: cosa serve meglio agli adulti che lavorano al loro interno?",
         "sideA": "Gerarchia piatta",
         "sideB": "Struttura verticale",
         "level": "advanced",
@@ -14,10 +14,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Gerarchie organizzative piatte vs strutture di gestione verticale — cosa serve meglio agli adulti che lavorano al loro interno?",
+        "word": "Gerarchie organizzative piatte vs strutture di gestione verticale: cosa serve meglio agli adulti che lavorano al loro interno?",
         "definitions": [
             {
-                "text": "Gerarchie organizzative piatte vs strutture di gestione verticale — cosa serve meglio agli adulti che lavorano al loro interno?",
+                "text": "Gerarchie organizzative piatte vs strutture di gestione verticale: cosa serve meglio agli adulti che lavorano al loro interno?",
                 "examples": []
             }
         ],
@@ -27,7 +27,7 @@
         "id": "it_advanced_work_phrase_gerarchie_organizzative_piatte"
     },
     {
-        "topic": "Il culto della produttività vs la difesa dell'ozio — cosa riflette meglio ciò di cui gli esseri umani hanno realmente bisogno dal lavoro?",
+        "topic": "Il culto della produttività vs la difesa dell'ozio: cosa riflette meglio ciò di cui gli esseri umani hanno realmente bisogno dal lavoro?",
         "sideA": "Produttività",
         "sideB": "Ozio",
         "level": "advanced",
@@ -40,10 +40,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Il culto della produttività vs la difesa dell'ozio — cosa riflette meglio ciò di cui gli esseri umani hanno realmente bisogno dal lavoro?",
+        "word": "Il culto della produttività vs la difesa dell'ozio: cosa riflette meglio ciò di cui gli esseri umani hanno realmente bisogno dal lavoro?",
         "definitions": [
             {
-                "text": "Il culto della produttività vs la difesa dell'ozio — cosa riflette meglio ciò di cui gli esseri umani hanno realmente bisogno dal lavoro?",
+                "text": "Il culto della produttività vs la difesa dell'ozio: cosa riflette meglio ciò di cui gli esseri umani hanno realmente bisogno dal lavoro?",
                 "examples": []
             }
         ],
@@ -53,7 +53,7 @@
         "id": "it_advanced_work_phrase_il_culto_della_produttivit_vs_"
     },
     {
-        "topic": "La leadership come abilità apprendibile vs la leadership come qualità innata — quale resoconto è più difendibile empiricamente?",
+        "topic": "La leadership come abilità apprendibile vs la leadership come qualità innata: quale resoconto è più difendibile empiricamente?",
         "sideA": "Abilità acquisita",
         "sideB": "Qualità innata",
         "level": "advanced",
@@ -66,10 +66,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "La leadership come abilità apprendibile vs la leadership come qualità innata — quale resoconto è più difendibile empiricamente?",
+        "word": "La leadership come abilità apprendibile vs la leadership come qualità innata: quale resoconto è più difendibile empiricamente?",
         "definitions": [
             {
-                "text": "La leadership come abilità apprendibile vs la leadership come qualità innata — quale resoconto è più difendibile empiricamente?",
+                "text": "La leadership come abilità apprendibile vs la leadership come qualità innata: quale resoconto è più difendibile empiricamente?",
                 "examples": []
             }
         ],
@@ -79,7 +79,7 @@
         "id": "it_advanced_work_phrase_la_leadership_come_abilit_appr"
     },
     {
-        "topic": "Hustle culture vs slow living — chi sta vincendo e chi dovrebbe vincere?",
+        "topic": "Hustle culture vs slow living: chi sta vincendo e chi dovrebbe vincere?",
         "sideA": "Hustle culture",
         "sideB": "Slow living",
         "level": "advanced",
@@ -92,10 +92,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Hustle culture vs slow living — chi sta vincendo e chi dovrebbe vincere?",
+        "word": "Hustle culture vs slow living: chi sta vincendo e chi dovrebbe vincere?",
         "definitions": [
             {
-                "text": "Hustle culture vs slow living — chi sta vincendo e chi dovrebbe vincere?",
+                "text": "Hustle culture vs slow living: chi sta vincendo e chi dovrebbe vincere?",
                 "examples": []
             }
         ],
@@ -105,7 +105,7 @@
         "id": "it_advanced_time_phrase_hustle_culture_vs_slow_living_"
     },
     {
-        "topic": "Responsabilità sociale d'impresa come impegno genuino vs come gestione della reputazione — quale inquadramento è più onesto?",
+        "topic": "Responsabilità sociale d'impresa come impegno genuino vs come gestione della reputazione: quale inquadramento è più onesto?",
         "sideA": "Impegno genuino",
         "sideB": "Gestione reputazione",
         "level": "advanced",
@@ -118,10 +118,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Responsabilità sociale d'impresa come impegno genuino vs come gestione della reputazione — quale inquadramento è più onesto?",
+        "word": "Responsabilità sociale d'impresa come impegno genuino vs come gestione della reputazione: quale inquadramento è più onesto?",
         "definitions": [
             {
-                "text": "Responsabilità sociale d'impresa come impegno genuino vs come gestione della reputazione — quale inquadramento è più onesto?",
+                "text": "Responsabilità sociale d'impresa come impegno genuino vs come gestione della reputazione: quale inquadramento è più onesto?",
                 "examples": []
             }
         ],
@@ -131,7 +131,7 @@
         "id": "it_advanced_work_phrase_responsabilit_sociale_dimpresa"
     },
     {
-        "topic": "L'identità adulta come fissa vs perennemente in costruzione — quale resoconto riflette meglio l'esperienza vissuta?",
+        "topic": "L'identità adulta come fissa vs perennemente in costruzione: quale resoconto riflette meglio l'esperienza vissuta?",
         "sideA": "Identità fissa",
         "sideB": "In costruzione",
         "level": "advanced",
@@ -144,10 +144,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "L'identità adulta come fissa vs perennemente in costruzione — quale resoconto riflette meglio l'esperienza vissuta?",
+        "word": "L'identità adulta come fissa vs perennemente in costruzione: quale resoconto riflette meglio l'esperienza vissuta?",
         "definitions": [
             {
-                "text": "L'identità adulta come fissa vs perennemente in costruzione — quale resoconto riflette meglio l'esperienza vissuta?",
+                "text": "L'identità adulta come fissa vs perennemente in costruzione: quale resoconto riflette meglio l'esperienza vissuta?",
                 "examples": []
             }
         ],
@@ -157,7 +157,7 @@
         "id": "it_advanced_work_phrase_lidentit_adulta_come_fissa_vs_"
     },
     {
-        "topic": "L'addomesticamento del femminismo da parte della cultura del consumo vs il femminismo che rimodella genuinamente la vita adulta — cosa è più vero?",
+        "topic": "L'addomesticamento del femminismo da parte della cultura del consumo vs il femminismo che rimodella genuinamente la vita adulta: cosa è più vero?",
         "sideA": "Femm. di consumo",
         "sideB": "Rimodellamento reale",
         "level": "advanced",
@@ -170,10 +170,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "L'addomesticamento del femminismo da parte della cultura del consumo vs il femminismo che rimodella genuinamente la vita adulta — cosa è più vero?",
+        "word": "L'addomesticamento del femminismo da parte della cultura del consumo vs il femminismo che rimodella genuinamente la vita adulta: cosa è più vero?",
         "definitions": [
             {
-                "text": "L'addomesticamento del femminismo da parte della cultura del consumo vs il femminismo che rimodella genuinamente la vita adulta — cosa è più vero?",
+                "text": "L'addomesticamento del femminismo da parte della cultura del consumo vs il femminismo che rimodella genuinamente la vita adulta: cosa è più vero?",
                 "examples": []
             }
         ],
@@ -183,7 +183,7 @@
         "id": "it_advanced_work_phrase_laddomesticamento_del_femminis"
     },
     {
-        "topic": "Crisi di mezza età come patologia vs crisi di mezza età come legittima rivalutazione — quale inquadramento è più utile?",
+        "topic": "Crisi di mezza età come patologia vs crisi di mezza età come legittima rivalutazione: quale inquadramento è più utile?",
         "sideA": "Patologia",
         "sideB": "Rivalutazione",
         "level": "advanced",
@@ -196,10 +196,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Crisi di mezza età come patologia vs crisi di mezza età come legittima rivalutazione — quale inquadramento è più utile?",
+        "word": "Crisi di mezza età come patologia vs crisi di mezza età come legittima rivalutazione: quale inquadramento è più utile?",
         "definitions": [
             {
-                "text": "Crisi di mezza età come patologia vs crisi di mezza età come legittima rivalutazione — quale inquadramento è più utile?",
+                "text": "Crisi di mezza età come patologia vs crisi di mezza età come legittima rivalutazione: quale inquadramento è più utile?",
                 "examples": []
             }
         ],
@@ -209,7 +209,7 @@
         "id": "it_advanced_work_phrase_crisi_di_mezza_et_come_patolog"
     },
     {
-        "topic": "La pressione per essere straordinari vs la dignità di una vita ordinaria — quale è l'ideale più umano da sostenere?",
+        "topic": "La pressione per essere straordinari vs la dignità di una vita ordinaria: quale è l'ideale più umano da sostenere?",
         "sideA": "Straordinario",
         "sideB": "Dignità ordinaria",
         "level": "advanced",
@@ -222,10 +222,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "La pressione per essere straordinari vs la dignità di una vita ordinaria — quale è l'ideale più umano da sostenere?",
+        "word": "La pressione per essere straordinari vs la dignità di una vita ordinaria: quale è l'ideale più umano da sostenere?",
         "definitions": [
             {
-                "text": "La pressione per essere straordinari vs la dignità di una vita ordinaria — quale è l'ideale più umano da sostenere?",
+                "text": "La pressione per essere straordinari vs la dignità di una vita ordinaria: quale è l'ideale più umano da sostenere?",
                 "examples": []
             }
         ],
@@ -235,7 +235,7 @@
         "id": "it_advanced_work_phrase_la_pressione_per_essere_straor"
     },
     {
-        "topic": "L'obbligo di prendersi cura dei genitori anziani vs la responsabilità dello Stato — su chi dovrebbe ricadere l'onere?",
+        "topic": "L'obbligo di prendersi cura dei genitori anziani vs la responsabilità dello Stato: su chi dovrebbe ricadere l'onere?",
         "sideA": "Obbligo familiare",
         "sideB": "Resp. dello Stato",
         "level": "advanced",
@@ -248,10 +248,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "L'obbligo di prendersi cura dei genitori anziani vs la responsabilità dello Stato — su chi dovrebbe ricadere l'onere?",
+        "word": "L'obbligo di prendersi cura dei genitori anziani vs la responsabilità dello Stato: su chi dovrebbe ricadere l'onere?",
         "definitions": [
             {
-                "text": "L'obbligo di prendersi cura dei genitori anziani vs la responsabilità dello Stato — su chi dovrebbe ricadere l'onere?",
+                "text": "L'obbligo di prendersi cura dei genitori anziani vs la responsabilità dello Stato: su chi dovrebbe ricadere l'onere?",
                 "examples": []
             }
         ],
@@ -261,7 +261,7 @@
         "id": "it_advanced_work_phrase_lobbligo_di_prendersi_cura_dei"
     },
     {
-        "topic": "Onestà radicale nelle relazioni vs silenzio strategico — quale è l'approccio più etico all'intimità?",
+        "topic": "Onestà radicale nelle relazioni vs silenzio strategico: quale è l'approccio più etico all'intimità?",
         "sideA": "Onestà radicale",
         "sideB": "Silenzio strategico",
         "level": "advanced",
@@ -274,10 +274,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Onestà radicale nelle relazioni vs silenzio strategico — quale è l'approccio più etico all'intimità?",
+        "word": "Onestà radicale nelle relazioni vs silenzio strategico: quale è l'approccio più etico all'intimità?",
         "definitions": [
             {
-                "text": "Onestà radicale nelle relazioni vs silenzio strategico — quale è l'approccio più etico all'intimità?",
+                "text": "Onestà radicale nelle relazioni vs silenzio strategico: quale è l'approccio più etico all'intimità?",
                 "examples": []
             }
         ],
@@ -287,7 +287,7 @@
         "id": "it_advanced_work_phrase_onest_radicale_nelle_relazioni"
     },
     {
-        "topic": "Scegliere la propria cerchia sociale deliberatamente vs lasciare che le relazioni si formino organicamente — cosa produce amicizie adulte più autentiche?",
+        "topic": "Scegliere la propria cerchia sociale deliberatamente vs lasciare che le relazioni si formino organicamente: cosa produce amicizie adulte più autentiche?",
         "sideA": "Scelta deliberata",
         "sideB": "Formazione organica",
         "level": "advanced",
@@ -300,10 +300,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Scegliere la propria cerchia sociale deliberatamente vs lasciare che le relazioni si formino organicamente — cosa produce amicizie adulte più autentiche?",
+        "word": "Scegliere la propria cerchia sociale deliberatamente vs lasciare che le relazioni si formino organicamente: cosa produce amicizie adulte più autentiche?",
         "definitions": [
             {
-                "text": "Scegliere la propria cerchia sociale deliberatamente vs lasciare che le relazioni si formino organicamente — cosa produce amicizie adulte più autentiche?",
+                "text": "Scegliere la propria cerchia sociale deliberatamente vs lasciare che le relazioni si formino organicamente: cosa produce amicizie adulte più autentiche?",
                 "examples": []
             }
         ],
@@ -313,7 +313,7 @@
         "id": "it_advanced_work_phrase_scegliere_la_propria_cerchia_s"
     },
     {
-        "topic": "La famiglia nucleare come unità sociale ottimale vs come disposizione storicamente contingente — quale visione è più difendibile?",
+        "topic": "La famiglia nucleare come unità sociale ottimale vs come disposizione storicamente contingente: quale visione è più difendibile?",
         "sideA": "Unità ottimale",
         "sideB": "Arrang. storico",
         "level": "advanced",
@@ -326,10 +326,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "La famiglia nucleare come unità sociale ottimale vs come disposizione storicamente contingente — quale visione è più difendibile?",
+        "word": "La famiglia nucleare come unità sociale ottimale vs come disposizione storicamente contingente: quale visione è più difendibile?",
         "definitions": [
             {
-                "text": "La famiglia nucleare come unità sociale ottimale vs come disposizione storicamente contingente — quale visione è più difendibile?",
+                "text": "La famiglia nucleare come unità sociale ottimale vs come disposizione storicamente contingente: quale visione è più difendibile?",
                 "examples": []
             }
         ],
@@ -339,7 +339,7 @@
         "id": "it_advanced_work_phrase_la_famiglia_nucleare_come_unit"
     },
     {
-        "topic": "Governance tecnocratica vs populismo democratico — cosa rappresenta il maggior rischio a lungo termine per i cittadini adulti?",
+        "topic": "Governance tecnocratica vs populismo democratico: cosa rappresenta il maggior rischio a lungo termine per i cittadini adulti?",
         "sideA": "Tecnocrazia",
         "sideB": "Populismo",
         "level": "advanced",
@@ -352,10 +352,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Governance tecnocratica vs populismo democratico — cosa rappresenta il maggior rischio a lungo termine per i cittadini adulti?",
+        "word": "Governance tecnocratica vs populismo democratico: cosa rappresenta il maggior rischio a lungo termine per i cittadini adulti?",
         "definitions": [
             {
-                "text": "Governance tecnocratica vs populismo democratico — cosa rappresenta il maggior rischio a lungo termine per i cittadini adulti?",
+                "text": "Governance tecnocratica vs populismo democratico: cosa rappresenta il maggior rischio a lungo termine per i cittadini adulti?",
                 "examples": []
             }
         ],
@@ -365,7 +365,7 @@
         "id": "it_advanced_work_phrase_governance_tecnocratica_vs_pop"
     },
     {
-        "topic": "Giustizia intergenerazionale vs benessere attuale — cosa dovrebbe avere la priorità nelle politiche pubbliche?",
+        "topic": "Giustizia intergenerazionale vs benessere attuale: cosa dovrebbe avere la priorità nelle politiche pubbliche?",
         "sideA": "Giustizia intergen.",
         "sideB": "Benessere attuale",
         "level": "advanced",
@@ -378,10 +378,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Giustizia intergenerazionale vs benessere attuale — cosa dovrebbe avere la priorità nelle politiche pubbliche?",
+        "word": "Giustizia intergenerazionale vs benessere attuale: cosa dovrebbe avere la priorità nelle politiche pubbliche?",
         "definitions": [
             {
-                "text": "Giustizia intergenerazionale vs benessere attuale — cosa dovrebbe avere la priorità nelle politiche pubbliche?",
+                "text": "Giustizia intergenerazionale vs benessere attuale: cosa dovrebbe avere la priorità nelle politiche pubbliche?",
                 "examples": []
             }
         ],
@@ -391,7 +391,7 @@
         "id": "it_advanced_work_phrase_giustizia_intergenerazionale_v"
     },
     {
-        "topic": "L'obbligo di voto vs il diritto di astenersi — quale è la posizione civica più difendibile?",
+        "topic": "L'obbligo di voto vs il diritto di astenersi: quale è la posizione civica più difendibile?",
         "sideA": "Obbligo di voto",
         "sideB": "Diritto astensione",
         "level": "advanced",
@@ -404,10 +404,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "L'obbligo di voto vs il diritto di astenersi — quale è la posizione civica più difendibile?",
+        "word": "L'obbligo di voto vs il diritto di astenersi: quale è la posizione civica più difendibile?",
         "definitions": [
             {
-                "text": "L'obbligo di voto vs il diritto di astenersi — quale è la posizione civica più difendibile?",
+                "text": "L'obbligo di voto vs il diritto di astenersi: quale è la posizione civica più difendibile?",
                 "examples": []
             }
         ],
@@ -417,7 +417,7 @@
         "id": "it_advanced_work_phrase_lobbligo_di_voto_vs_il_diritto"
     },
     {
-        "topic": "Il patriottismo come virtù civica vs il patriottismo come fallimento cognitivo — quale resoconto è più persuasivo?",
+        "topic": "Il patriottismo come virtù civica vs il patriottismo come fallimento cognitivo: quale resoconto è più persuasivo?",
         "sideA": "Virtù civica",
         "sideB": "Fallimento cognitivo",
         "level": "advanced",
@@ -430,10 +430,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Il patriottismo come virtù civica vs il patriottismo come fallimento cognitivo — quale resoconto è più persuasivo?",
+        "word": "Il patriottismo come virtù civica vs il patriottismo come fallimento cognitivo: quale resoconto è più persuasivo?",
         "definitions": [
             {
-                "text": "Il patriottismo come virtù civica vs il patriottismo come fallimento cognitivo — quale resoconto è più persuasivo?",
+                "text": "Il patriottismo come virtù civica vs il patriottismo come fallimento cognitivo: quale resoconto è più persuasivo?",
                 "examples": []
             }
         ],
@@ -443,7 +443,7 @@
         "id": "it_advanced_work_phrase_il_patriottismo_come_virt_civi"
     },
     {
-        "topic": "Assolutismo della libertà di parola vs parola regolamentata — cosa produce risultati migliori per le società democratiche adulte?",
+        "topic": "Assolutismo della libertà di parola vs parola regolamentata: cosa produce risultati migliori per le società democratiche adulte?",
         "sideA": "Assolutismo",
         "sideB": "Parola regolata",
         "level": "advanced",
@@ -456,10 +456,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Assolutismo della libertà di parola vs parola regolamentata — cosa produce risultati migliori per le società democratiche adulte?",
+        "word": "Assolutismo della libertà di parola vs parola regolamentata: cosa produce risultati migliori per le società democratiche adulte?",
         "definitions": [
             {
-                "text": "Assolutismo della libertà di parola vs parola regolamentata — cosa produce risultati migliori per le società democratiche adulte?",
+                "text": "Assolutismo della libertà di parola vs parola regolamentata: cosa produce risultati migliori per le società democratiche adulte?",
                 "examples": []
             }
         ],
@@ -469,7 +469,7 @@
         "id": "it_advanced_work_phrase_assolutismo_della_libert_di_pa"
     },
     {
-        "topic": "Una carriera significativa vs un lavoro che finanzia una vita privata significativa — quale è la più onesta ambizione adulta?",
+        "topic": "Una carriera significativa vs un lavoro che finanzia una vita privata significativa: quale è la più onesta ambizione adulta?",
         "sideA": "Carriera signif.",
         "sideB": "Finanziare vita priv.",
         "level": "advanced",
@@ -482,10 +482,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Una carriera significativa vs un lavoro che finanzia una vita privata significativa — quale è la più onesta ambizione adulta?",
+        "word": "Una carriera significativa vs un lavoro che finanzia una vita privata significativa: quale è la più onesta ambizione adulta?",
         "definitions": [
             {
-                "text": "Una carriera significativa vs un lavoro che finanzia una vita privata significativa — quale è la più onesta ambizione adulta?",
+                "text": "Una carriera significativa vs un lavoro che finanzia una vita privata significativa: quale è la più onesta ambizione adulta?",
                 "examples": []
             }
         ],
@@ -495,7 +495,7 @@
         "id": "it_advanced_work_phrase_una_carriera_significativa_vs_"
     },
     {
-        "topic": "Religione vs filosofia secolare — cosa affronta più efficacemente i bisogni esistenziali degli adulti moderni?",
+        "topic": "Religione vs filosofia secolare: cosa affronta più efficacemente i bisogni esistenziali degli adulti moderni?",
         "sideA": "Religione",
         "sideB": "Filosofia secolare",
         "level": "advanced",
@@ -508,10 +508,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Religione vs filosofia secolare — cosa affronta più efficacemente i bisogni esistenziali degli adulti moderni?",
+        "word": "Religione vs filosofia secolare: cosa affronta più efficacemente i bisogni esistenziali degli adulti moderni?",
         "definitions": [
             {
-                "text": "Religione vs filosofia secolare — cosa affronta più efficacemente i bisogni esistenziali degli adulti moderni?",
+                "text": "Religione vs filosofia secolare: cosa affronta più efficacemente i bisogni esistenziali degli adulti moderni?",
                 "examples": []
             }
         ],
@@ -521,7 +521,7 @@
         "id": "it_advanced_work_phrase_religione_vs_filosofia_secolar"
     },
     {
-        "topic": "La vita esaminata vs la vita assorbita — quale vale di più la pena di essere vissuta e chi può deciderlo?",
+        "topic": "La vita esaminata vs la vita assorbita: quale vale di più la pena di essere vissuta e chi può deciderlo?",
         "sideA": "Vita esaminata",
         "sideB": "Vita assorbita",
         "level": "advanced",
@@ -534,10 +534,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "La vita esaminata vs la vita assorbita — quale vale di più la pena di essere vissuta e chi può deciderlo?",
+        "word": "La vita esaminata vs la vita assorbita: quale vale di più la pena di essere vissuta e chi può deciderlo?",
         "definitions": [
             {
-                "text": "La vita esaminata vs la vita assorbita — quale vale di più la pena di essere vissuta e chi può deciderlo?",
+                "text": "La vita esaminata vs la vita assorbita: quale vale di più la pena di essere vissuta e chi può deciderlo?",
                 "examples": []
             }
         ],
@@ -547,7 +547,7 @@
         "id": "it_advanced_work_phrase_la_vita_esaminata_vs_la_vita_a"
     },
     {
-        "topic": "Eredità (legacy) vs presenza — per cosa è più coerente lottare per un adulto?",
+        "topic": "Eredità (legacy) vs presenza: per cosa è più coerente lottare per un adulto?",
         "sideA": "Eredità",
         "sideB": "Presenza",
         "level": "advanced",
@@ -560,10 +560,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Eredità (legacy) vs presenza — per cosa è più coerente lottare per un adulto?",
+        "word": "Eredità (legacy) vs presenza: per cosa è più coerente lottare per un adulto?",
         "definitions": [
             {
-                "text": "Eredità (legacy) vs presenza — per cosa è più coerente lottare per un adulto?",
+                "text": "Eredità (legacy) vs presenza: per cosa è più coerente lottare per un adulto?",
                 "examples": []
             }
         ],
@@ -573,7 +573,7 @@
         "id": "it_advanced_work_phrase_eredit_legacy_vs_presenza_per_"
     },
     {
-        "topic": "L'adulto che ha «finalmente capito» vs l'adulto che ha accettato che non capirà mai — chi è più consapevole di sé?",
+        "topic": "L'adulto che ha «finalmente capito» vs l'adulto che ha accettato che non capirà mai: chi è più consapevole di sé?",
         "sideA": "Ha capito",
         "sideB": "Accettata ignoranza",
         "level": "advanced",
@@ -586,10 +586,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "L'adulto che ha «finalmente capito» vs l'adulto che ha accettato che non capirà mai — chi è più consapevole di sé?",
+        "word": "L'adulto che ha «finalmente capito» vs l'adulto che ha accettato che non capirà mai: chi è più consapevole di sé?",
         "definitions": [
             {
-                "text": "L'adulto che ha «finalmente capito» vs l'adulto che ha accettato che non capirà mai — chi è più consapevole di sé?",
+                "text": "L'adulto che ha «finalmente capito» vs l'adulto che ha accettato che non capirà mai: chi è più consapevole di sé?",
                 "examples": []
             }
         ],
@@ -599,7 +599,7 @@
         "id": "it_advanced_work_phrase_ladulto_che_ha_finalmente_capi"
     },
     {
-        "topic": "Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere — quale relazione professionale è più efficace terapeuticamente?",
+        "topic": "Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere: quale relazione professionale è più efficace terapeuticamente?",
         "sideA": "Terapeuta",
         "sideB": "Parrucchiere",
         "level": "advanced",
@@ -612,10 +612,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere — quale relazione professionale è più efficace terapeuticamente?",
+        "word": "Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere: quale relazione professionale è più efficace terapeuticamente?",
         "definitions": [
             {
-                "text": "Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere — quale relazione professionale è più efficace terapeuticamente?",
+                "text": "Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere: quale relazione professionale è più efficace terapeuticamente?",
                 "examples": []
             }
         ],
@@ -625,7 +625,7 @@
         "id": "it_advanced_health_medicine_phrase_dire_tutto_al_proprio_terapeut"
     },
     {
-        "topic": "L'ansia della domenica di un adulto con un'agenda piena vs l'ansia della domenica di un adulto con un'agenda vuota — cosa è più esistenzialmente preoccupante?",
+        "topic": "L'ansia della domenica di un adulto con un'agenda piena vs l'ansia della domenica di un adulto con un'agenda vuota: cosa è più esistenzialmente preoccupante?",
         "sideA": "Agenda piena",
         "sideB": "Agenda vuota",
         "level": "advanced",
@@ -638,10 +638,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "L'ansia della domenica di un adulto con un'agenda piena vs l'ansia della domenica di un adulto con un'agenda vuota — cosa è più esistenzialmente preoccupante?",
+        "word": "L'ansia della domenica di un adulto con un'agenda piena vs l'ansia della domenica di un adulto con un'agenda vuota: cosa è più esistenzialmente preoccupante?",
         "definitions": [
             {
-                "text": "L'ansia della domenica di un adulto con un'agenda piena vs l'ansia della domenica di un adulto con un'agenda vuota — cosa è più esistenzialmente preoccupante?",
+                "text": "L'ansia della domenica di un adulto con un'agenda piena vs l'ansia della domenica di un adulto con un'agenda vuota: cosa è più esistenzialmente preoccupante?",
                 "examples": []
             }
         ],
@@ -651,7 +651,7 @@
         "id": "it_advanced_work_phrase_lansia_della_domenica_di_un_ad"
     },
     {
-        "topic": "Eccessiva riflessione su ogni decisione importante della vita vs prenderle impulsivamente — quale strategia ha il miglior curriculum empirico?",
+        "topic": "Eccessiva riflessione su ogni decisione importante della vita vs prenderle impulsivamente: quale strategia ha il miglior curriculum empirico?",
         "sideA": "Riflessione",
         "sideB": "Impulsività",
         "level": "advanced",
@@ -664,10 +664,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Eccessiva riflessione su ogni decisione importante della vita vs prenderle impulsivamente — quale strategia ha il miglior curriculum empirico?",
+        "word": "Eccessiva riflessione su ogni decisione importante della vita vs prenderle impulsivamente: quale strategia ha il miglior curriculum empirico?",
         "definitions": [
             {
-                "text": "Eccessiva riflessione su ogni decisione importante della vita vs prenderle impulsivamente — quale strategia ha il miglior curriculum empirico?",
+                "text": "Eccessiva riflessione su ogni decisione importante della vita vs prenderle impulsivamente: quale strategia ha il miglior curriculum empirico?",
                 "examples": []
             }
         ],
@@ -677,7 +677,7 @@
         "id": "it_advanced_work_phrase_eccessiva_riflessione_su_ogni_"
     },
     {
-        "topic": "Adulti che leggono libri di auto-aiuto vs adulti che si rifiutano di farlo — quale gruppo è più difficile da frequentare a una cena?",
+        "topic": "Adulti che leggono libri di auto-aiuto vs adulti che si rifiutano di farlo: quale gruppo è più difficile da frequentare a una cena?",
         "sideA": "Lettori auto-aiuto",
         "sideB": "Si rifiutano",
         "level": "advanced",
@@ -690,10 +690,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Adulti che leggono libri di auto-aiuto vs adulti che si rifiutano di farlo — quale gruppo è più difficile da frequentare a una cena?",
+        "word": "Adulti che leggono libri di auto-aiuto vs adulti che si rifiutano di farlo: quale gruppo è più difficile da frequentare a una cena?",
         "definitions": [
             {
-                "text": "Adulti che leggono libri di auto-aiuto vs adulti che si rifiutano di farlo — quale gruppo è più difficile da frequentare a una cena?",
+                "text": "Adulti che leggono libri di auto-aiuto vs adulti che si rifiutano di farlo: quale gruppo è più difficile da frequentare a una cena?",
                 "examples": []
             }
         ],
@@ -703,7 +703,7 @@
         "id": "it_advanced_work_phrase_adulti_che_leggono_libri_di_au"
     },
     {
-        "topic": "Creatività dell'IA vs arte umana — le macchine possono davvero creare arte?",
+        "topic": "Creatività dell'IA vs arte umana: le macchine possono davvero creare arte?",
         "sideA": "Creatività IA",
         "sideB": "Arte umana",
         "level": "advanced",
@@ -716,10 +716,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Creatività dell'IA vs arte umana — le macchine possono davvero creare arte?",
+        "word": "Creatività dell'IA vs arte umana: le macchine possono davvero creare arte?",
         "definitions": [
             {
-                "text": "Creatività dell'IA vs arte umana — le macchine possono davvero creare arte?",
+                "text": "Creatività dell'IA vs arte umana: le macchine possono davvero creare arte?",
                 "examples": []
             }
         ],
@@ -729,7 +729,7 @@
         "id": "it_advanced_technology_phrase_creativit_dellia_vs_arte_umana"
     },
     {
-        "topic": "Esplorazione spaziale vs esplorazione degli abissi — dove dovremmo concentrare le nostre risorse?",
+        "topic": "Esplorazione spaziale vs esplorazione degli abissi: dove dovremmo concentrare le nostre risorse?",
         "sideA": "Spazio",
         "sideB": "Abissi",
         "level": "advanced",
@@ -742,10 +742,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Esplorazione spaziale vs esplorazione degli abissi — dove dovremmo concentrare le nostre risorse?",
+        "word": "Esplorazione spaziale vs esplorazione degli abissi: dove dovremmo concentrare le nostre risorse?",
         "definitions": [
             {
-                "text": "Esplorazione spaziale vs esplorazione degli abissi — dove dovremmo concentrare le nostre risorse?",
+                "text": "Esplorazione spaziale vs esplorazione degli abissi: dove dovremmo concentrare le nostre risorse?",
                 "examples": []
             }
         ],
@@ -755,7 +755,7 @@
         "id": "it_advanced_technology_phrase_esplorazione_spaziale_vs_esplo"
     },
     {
-        "topic": "Privacy digitale vs sicurezza nazionale — la sorveglianza totale è mai giustificata?",
+        "topic": "Privacy digitale vs sicurezza nazionale: la sorveglianza totale è mai giustificata?",
         "sideA": "Privacy",
         "sideB": "Sicurezza",
         "level": "advanced",
@@ -768,10 +768,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Privacy digitale vs sicurezza nazionale — la sorveglianza totale è mai giustificata?",
+        "word": "Privacy digitale vs sicurezza nazionale: la sorveglianza totale è mai giustificata?",
         "definitions": [
             {
-                "text": "Privacy digitale vs sicurezza nazionale — la sorveglianza totale è mai giustificata?",
+                "text": "Privacy digitale vs sicurezza nazionale: la sorveglianza totale è mai giustificata?",
                 "examples": []
             }
         ],
@@ -781,7 +781,7 @@
         "id": "it_advanced_work_phrase_privacy_digitale_vs_sicurezza_"
     },
     {
-        "topic": "Alimenti geneticamente modificati vs agricoltura biologica — come dovremmo nutrire il mondo?",
+        "topic": "Alimenti geneticamente modificati vs agricoltura biologica: come dovremmo nutrire il mondo?",
         "sideA": "OGM",
         "sideB": "Biologico",
         "level": "advanced",
@@ -794,10 +794,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Alimenti geneticamente modificati vs agricoltura biologica — come dovremmo nutrire il mondo?",
+        "word": "Alimenti geneticamente modificati vs agricoltura biologica: come dovremmo nutrire il mondo?",
         "definitions": [
             {
-                "text": "Alimenti geneticamente modificati vs agricoltura biologica — come dovremmo nutrire il mondo?",
+                "text": "Alimenti geneticamente modificati vs agricoltura biologica: come dovremmo nutrire il mondo?",
                 "examples": []
             }
         ],
@@ -807,7 +807,7 @@
         "id": "it_advanced_technology_phrase_alimenti_geneticamente_modific"
     },
     {
-        "topic": "Reddito di base universale vs programmi di garanzia del lavoro — qual è la migliore rete di sicurezza sociale?",
+        "topic": "Reddito di base universale vs programmi di garanzia del lavoro: qual è la migliore rete di sicurezza sociale?",
         "sideA": "Reddito universale",
         "sideB": "Garanzia lavoro",
         "level": "advanced",
@@ -820,10 +820,10 @@
             "Idea per B 1",
             "Idea per B 2"
         ],
-        "word": "Reddito di base universale vs programmi di garanzia del lavoro — qual è la migliore rete di sicurezza sociale?",
+        "word": "Reddito di base universale vs programmi di garanzia del lavoro: qual è la migliore rete di sicurezza sociale?",
         "definitions": [
             {
-                "text": "Reddito di base universale vs programmi di garanzia del lavoro — qual è la migliore rete di sicurezza sociale?",
+                "text": "Reddito di base universale vs programmi di garanzia del lavoro: qual è la migliore rete di sicurezza sociale?",
                 "examples": []
             }
         ],

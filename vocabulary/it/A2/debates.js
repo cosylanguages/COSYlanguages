@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "topic": "Uno stipendio alto vs un breve tragitto giornaliero — cosa conta di più in un lavoro?",
+        "topic": "Uno stipendio alto vs un breve tragitto giornaliero: cosa conta di più in un lavoro?",
         "sideA": "Stipendio alto",
         "sideB": "Breve tragitto",
         "level": "elementary",
@@ -14,10 +14,10 @@
             "Ridurre lo stress del viaggio quotidiano",
             "Più tempo per la vita personale"
         ],
-        "word": "Uno stipendio alto vs un breve tragitto giornaliero — cosa conta di più in un lavoro?",
+        "word": "Uno stipendio alto vs un breve tragitto giornaliero: cosa conta di più in un lavoro?",
         "definitions": [
             {
-                "text": "Uno stipendio alto vs un breve tragitto giornaliero — cosa conta di più in un lavoro?",
+                "text": "Uno stipendio alto vs un breve tragitto giornaliero: cosa conta di più in un lavoro?",
                 "examples": []
             }
         ],
@@ -29,7 +29,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cambiare spesso lavoro vs restare nella stessa azienda — cosa è meglio per la tua carriera?",
+        "topic": "Cambiare spesso lavoro vs restare nella stessa azienda: cosa è meglio per la tua carriera?",
         "sideA": "Cambiare lavoro",
         "sideB": "Restare",
         "level": "elementary",
@@ -42,10 +42,10 @@
             "Costruire fiducia professionale a lungo termine",
             "Opportunità di promozione interna"
         ],
-        "word": "Cambiare spesso lavoro vs restare nella stessa azienda — cosa è meglio per la tua carriera?",
+        "word": "Cambiare spesso lavoro vs restare nella stessa azienda: cosa è meglio per la tua carriera?",
         "definitions": [
             {
-                "text": "Cambiare spesso lavoro vs restare nella stessa azienda — cosa è meglio per la tua carriera?",
+                "text": "Cambiare spesso lavoro vs restare nella stessa azienda: cosa è meglio per la tua carriera?",
                 "examples": []
             }
         ],
@@ -57,7 +57,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lavorare straordinari vs uscire in orario ogni giorno — qual è l'abitudine migliore?",
+        "topic": "Lavorare straordinari vs uscire in orario ogni giorno: qual è l'abitudine migliore?",
         "sideA": "Straordinari",
         "sideB": "In orario",
         "level": "elementary",
@@ -70,10 +70,10 @@
             "Prevenire il burnout professionale",
             "Mantenere un sano equilibrio vita-lavoro"
         ],
-        "word": "Lavorare straordinari vs uscire in orario ogni giorno — qual è l'abitudine migliore?",
+        "word": "Lavorare straordinari vs uscire in orario ogni giorno: qual è l'abitudine migliore?",
         "definitions": [
             {
-                "text": "Lavorare straordinari vs uscire in orario ogni giorno — qual è l'abitudine migliore?",
+                "text": "Lavorare straordinari vs uscire in orario ogni giorno: qual è l'abitudine migliore?",
                 "examples": []
             }
         ],
@@ -85,7 +85,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Un capo severo vs un capo rilassato — con chi è meglio lavorare?",
+        "topic": "Un capo severo vs un capo rilassato: con chi è meglio lavorare?",
         "sideA": "Capo severo",
         "sideB": "Capo rilassato",
         "level": "elementary",
@@ -98,10 +98,10 @@
             "Incoraggia il pensiero creativo",
             "Livelli inferiori di pressione sul posto di lavoro"
         ],
-        "word": "Un capo severo vs un capo rilassato — con chi è meglio lavorare?",
+        "word": "Un capo severo vs un capo rilassato: con chi è meglio lavorare?",
         "definitions": [
             {
-                "text": "Un capo severo vs un capo rilassato — con chi è meglio lavorare?",
+                "text": "Un capo severo vs un capo rilassato: con chi è meglio lavorare?",
                 "examples": []
             }
         ],
@@ -113,7 +113,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lavorare in una grande azienda vs una piccola azienda — cosa è meglio?",
+        "topic": "Lavorare in una grande azienda vs una piccola azienda: cosa è meglio?",
         "sideA": "Grande azienda",
         "sideB": "Piccola azienda",
         "level": "elementary",
@@ -126,10 +126,10 @@
             "Atmosfera amichevole e familiare",
             "Responsabilità più varie"
         ],
-        "word": "Lavorare in una grande azienda vs una piccola azienda — cosa è meglio?",
+        "word": "Lavorare in una grande azienda vs una piccola azienda: cosa è meglio?",
         "definitions": [
             {
-                "text": "Lavorare in una grande azienda vs una piccola azienda — cosa è meglio?",
+                "text": "Lavorare in una grande azienda vs una piccola azienda: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -141,7 +141,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Ottenere una promozione vs avere più tempo libero — cosa sceglieresti?",
+        "topic": "Ottenere una promozione vs avere più tempo libero: cosa sceglieresti?",
         "sideA": "Promozione",
         "sideB": "Tempo libero",
         "level": "elementary",
@@ -154,10 +154,10 @@
             "Concentrarsi sulle attività familiari",
             "Sviluppare hobby personali"
         ],
-        "word": "Ottenere una promozione vs avere più tempo libero — cosa sceglieresti?",
+        "word": "Ottenere una promozione vs avere più tempo libero: cosa sceglieresti?",
         "definitions": [
             {
-                "text": "Ottenere una promozione vs avere più tempo libero — cosa sceglieresti?",
+                "text": "Ottenere una promozione vs avere più tempo libero: cosa sceglieresti?",
                 "examples": []
             }
         ],
@@ -169,7 +169,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Comprare casa vs affittare a vita — qual è la decisione finanziaria più intelligente?",
+        "topic": "Comprare casa vs affittare a vita: qual è la decisione finanziaria più intelligente?",
         "sideA": "Comprare",
         "sideB": "Affittare",
         "level": "elementary",
@@ -182,10 +182,10 @@
             "Maggiore flessibilità di movimento",
             "Nessuna responsabilità per le riparazioni"
         ],
-        "word": "Comprare casa vs affittare a vita — qual è la decisione finanziaria più intelligente?",
+        "word": "Comprare casa vs affittare a vita: qual è la decisione finanziaria più intelligente?",
         "definitions": [
             {
-                "text": "Comprare casa vs affittare a vita — qual è la decisione finanziaria più intelligente?",
+                "text": "Comprare casa vs affittare a vita: qual è la decisione finanziaria più intelligente?",
                 "examples": []
             }
         ],
@@ -197,7 +197,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vivere in centro città vs vivere in periferia — cosa è meglio?",
+        "topic": "Vivere in centro città vs vivere in periferia: cosa è meglio?",
         "sideA": "Centro città",
         "sideB": "Periferia",
         "level": "elementary",
@@ -210,10 +210,10 @@
             "Ambiente più tranquillo e sicuro",
             "Più spazio per le famiglie"
         ],
-        "word": "Vivere in centro città vs vivere in periferia — cosa è meglio?",
+        "word": "Vivere in centro città vs vivere in periferia: cosa è meglio?",
         "definitions": [
             {
-                "text": "Vivere in centro città vs vivere in periferia — cosa è meglio?",
+                "text": "Vivere in centro città vs vivere in periferia: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -225,7 +225,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Spendere soldi per esperienze vs per oggetti — cosa ti rende più felice?",
+        "topic": "Spendere soldi per esperienze vs per oggetti: cosa ti rende più felice?",
         "sideA": "Esperienze",
         "sideB": "Oggetti",
         "level": "elementary",
@@ -238,10 +238,10 @@
             "Uso pratico quotidiano",
             "Valore fisico duraturo"
         ],
-        "word": "Spendere soldi per esperienze vs per oggetti — cosa ti rende più felice?",
+        "word": "Spendere soldi per esperienze vs per oggetti: cosa ti rende più felice?",
         "definitions": [
             {
-                "text": "Spendere soldi per esperienze vs per oggetti — cosa ti rende più felice?",
+                "text": "Spendere soldi per esperienze vs per oggetti: cosa ti rende più felice?",
                 "examples": []
             }
         ],
@@ -253,7 +253,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cucinare ogni giorno vs preparare i pasti una volta a settimana — cosa è più pratico?",
+        "topic": "Cucinare ogni giorno vs preparare i pasti una volta a settimana: cosa è più pratico?",
         "sideA": "Cucinare ogni giorno",
         "sideB": "Meal prepping",
         "level": "elementary",
@@ -266,10 +266,10 @@
             "Risparmiare tempo significativo",
             "Migliore organizzazione della cucina"
         ],
-        "word": "Cucinare ogni giorno vs preparare i pasti una volta a settimana — cosa è più pratico?",
+        "word": "Cucinare ogni giorno vs preparare i pasti una volta a settimana: cosa è più pratico?",
         "definitions": [
             {
-                "text": "Cucinare ogni giorno vs preparare i pasti una volta a settimana — cosa è più pratico?",
+                "text": "Cucinare ogni giorno vs preparare i pasti una volta a settimana: cosa è più pratico?",
                 "examples": []
             }
         ],
@@ -281,7 +281,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Avere una persona per le pulizie vs fare le pulizie da soli — qual è la scelta migliore?",
+        "topic": "Avere una persona per le pulizie vs fare le pulizie da soli: qual è la scelta migliore?",
         "sideA": "Pulizie pro",
         "sideB": "Da soli",
         "level": "elementary",
@@ -294,10 +294,10 @@
             "Risparmiare denaro familiare",
             "Mantenere il controllo totale"
         ],
-        "word": "Avere una persona per le pulizie vs fare le pulizie da soli — qual è la scelta migliore?",
+        "word": "Avere una persona per le pulizie vs fare le pulizie da soli: qual è la scelta migliore?",
         "definitions": [
             {
-                "text": "Avere una persona per le pulizie vs fare le pulizie da soli — qual è la scelta migliore?",
+                "text": "Avere una persona per le pulizie vs fare le pulizie da soli: qual è la scelta migliore?",
                 "examples": []
             }
         ],
@@ -309,7 +309,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vivere con un partner vs vivere da soli — cosa è meglio per gli adulti?",
+        "topic": "Vivere con un partner vs vivere da soli: cosa è meglio per gli adulti?",
         "sideA": "Con partner",
         "sideB": "Da soli",
         "level": "elementary",
@@ -322,10 +322,10 @@
             "Totale indipendenza personale",
             "Pace e tranquillità"
         ],
-        "word": "Vivere con un partner vs vivere da soli — cosa è meglio per gli adulti?",
+        "word": "Vivere con un partner vs vivere da soli: cosa è meglio per gli adulti?",
         "definitions": [
             {
-                "text": "Vivere con un partner vs vivere da soli — cosa è meglio per gli adulti?",
+                "text": "Vivere con un partner vs vivere da soli: cosa è meglio per gli adulti?",
                 "examples": []
             }
         ],
@@ -337,7 +337,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Avere figli presto vs avere figli più tardi nella vita — cosa è meglio?",
+        "topic": "Avere figli presto vs avere figli più tardi nella vita: cosa è meglio?",
         "sideA": "Presto",
         "sideB": "Più tardi",
         "level": "elementary",
@@ -350,10 +350,10 @@
             "Migliore stabilità finanziaria",
             "Più esperienza di vita da condividere"
         ],
-        "word": "Avere figli presto vs avere figli più tardi nella vita — cosa è meglio?",
+        "word": "Avere figli presto vs avere figli più tardi nella vita: cosa è meglio?",
         "definitions": [
             {
-                "text": "Avere figli presto vs avere figli più tardi nella vita — cosa è meglio?",
+                "text": "Avere figli presto vs avere figli più tardi nella vita: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -365,7 +365,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Legami familiari stretti vs indipendenza dalla famiglia — cosa è più importante da adulti?",
+        "topic": "Legami familiari stretti vs indipendenza dalla famiglia: cosa è più importante da adulti?",
         "sideA": "Legami stretti",
         "sideB": "Indipendenza",
         "level": "elementary",
@@ -378,10 +378,10 @@
             "Libertà personale",
             "Prendere decisioni indipendenti"
         ],
-        "word": "Legami familiari stretti vs indipendenza dalla famiglia — cosa è più importante da adulti?",
+        "word": "Legami familiari stretti vs indipendenza dalla famiglia: cosa è più importante da adulti?",
         "definitions": [
             {
-                "text": "Legami familiari stretti vs indipendenza dalla famiglia — cosa è più importante da adulti?",
+                "text": "Legami familiari stretti vs indipendenza dalla famiglia: cosa è più importante da adulti?",
                 "examples": []
             }
         ],
@@ -393,7 +393,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Incontrare nuove persone vs mantenere le vecchie amicizie — cosa ha più valore?",
+        "topic": "Incontrare nuove persone vs mantenere le vecchie amicizie: cosa ha più valore?",
         "sideA": "Nuove persone",
         "sideB": "Vecchi amici",
         "level": "elementary",
@@ -406,10 +406,10 @@
             "Storia personale condivisa",
             "Livello di fiducia più elevato"
         ],
-        "word": "Incontrare nuove persone vs mantenere le vecchie amicizie — cosa ha più valore?",
+        "word": "Incontrare nuove persone vs mantenere le vecchie amicizie: cosa ha più valore?",
         "definitions": [
             {
-                "text": "Incontrare nuove persone vs mantenere le vecchie amicizie — cosa ha più valore?",
+                "text": "Incontrare nuove persone vs mantenere le vecchie amicizie: cosa ha più valore?",
                 "examples": []
             }
         ],
@@ -421,7 +421,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Socializzare dopo il lavoro vs tornare direttamente a casa — cosa è meglio per le relazioni lavorative?",
+        "topic": "Socializzare dopo il lavoro vs tornare direttamente a casa: cosa è meglio per le relazioni lavorative?",
         "sideA": "Socializzare",
         "sideB": "Tornare a casa",
         "level": "elementary",
@@ -434,10 +434,10 @@
             "Recuperare energia mentale",
             "Tempo di qualità con la famiglia"
         ],
-        "word": "Socializzare dopo il lavoro vs tornare direttamente a casa — cosa è meglio per le relazioni lavorative?",
+        "word": "Socializzare dopo il lavoro vs tornare direttamente a casa: cosa è meglio per le relazioni lavorative?",
         "definitions": [
             {
-                "text": "Socializzare dopo il lavoro vs tornare direttamente a casa — cosa è meglio per le relazioni lavorative?",
+                "text": "Socializzare dopo il lavoro vs tornare direttamente a casa: cosa è meglio per le relazioni lavorative?",
                 "examples": []
             }
         ],
@@ -449,7 +449,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Andare in palestra vs fare esercizio all'aperto — cosa è meglio per gli adulti?",
+        "topic": "Andare in palestra vs fare esercizio all'aperto: cosa è meglio per gli adulti?",
         "sideA": "Palestra",
         "sideB": "All'aperto",
         "level": "elementary",
@@ -462,10 +462,10 @@
             "Godersi l'aria fresca",
             "Nessuna quota associativa mensile"
         ],
-        "word": "Andare in palestra vs fare esercizio all'aperto — cosa è meglio per gli adulti?",
+        "word": "Andare in palestra vs fare esercizio all'aperto: cosa è meglio per gli adulti?",
         "definitions": [
             {
-                "text": "Andare in palestra vs fare esercizio all'aperto — cosa è meglio per gli adulti?",
+                "text": "Andare in palestra vs fare esercizio all'aperto: cosa è meglio per gli adulti?",
                 "examples": []
             }
         ],
@@ -477,7 +477,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Dieta ferrea vs mangiare tutto con moderazione — cosa è più sano?",
+        "topic": "Dieta ferrea vs mangiare tutto con moderazione: cosa è più sano?",
         "sideA": "Dieta ferrea",
         "sideB": "Moderazione",
         "level": "elementary",
@@ -490,10 +490,10 @@
             "Equilibrio sostenibile a lungo termine",
             "Godersi diversi tipi di cibo"
         ],
-        "word": "Dieta ferrea vs mangiare tutto con moderazione — cosa è più sano?",
+        "word": "Dieta ferrea vs mangiare tutto con moderazione: cosa è più sano?",
         "definitions": [
             {
-                "text": "Dieta ferrea vs mangiare tutto con moderazione — cosa è più sano?",
+                "text": "Dieta ferrea vs mangiare tutto con moderazione: cosa è più sano?",
                 "examples": []
             }
         ],
@@ -505,7 +505,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vedere il medico subito vs aspettare per vedere se si migliora — cosa è più saggio?",
+        "topic": "Vedere il medico subito vs aspettare per vedere se si migliora: cosa è più saggio?",
         "sideA": "Subito",
         "sideB": "Aspettare",
         "level": "elementary",
@@ -518,10 +518,10 @@
             "Permettere il recupero naturale",
             "Evitare medicine non necessarie"
         ],
-        "word": "Vedere il medico subito vs aspettare per vedere se si migliora — cosa è più saggio?",
+        "word": "Vedere il medico subito vs aspettare per vedere se si migliora: cosa è più saggio?",
         "definitions": [
             {
-                "text": "Vedere il medico subito vs aspettare per vedere se si migliora — cosa è più saggio?",
+                "text": "Vedere il medico subito vs aspettare per vedere se si migliora: cosa è più saggio?",
                 "examples": []
             }
         ],
@@ -533,7 +533,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Dormire otto ore vs dormire sei ore ma fare esercizio — cosa è meglio per l'energia?",
+        "topic": "Dormire otto ore vs dormire sei ore ma fare esercizio: cosa è meglio per l'energia?",
         "sideA": "8 ore",
         "sideB": "6 ore + sport",
         "level": "elementary",
@@ -546,10 +546,10 @@
             "Maggiore forma fisica",
             "Mantenere il corpo attivo"
         ],
-        "word": "Dormire otto ore vs dormire sei ore ma fare esercizio — cosa è meglio per l'energia?",
+        "word": "Dormire otto ore vs dormire sei ore ma fare esercizio: cosa è meglio per l'energia?",
         "definitions": [
             {
-                "text": "Dormire otto ore vs dormire sei ore ma fare esercizio — cosa è meglio per l'energia?",
+                "text": "Dormire otto ore vs dormire sei ore ma fare esercizio: cosa è meglio per l'energia?",
                 "examples": []
             }
         ],
@@ -561,7 +561,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Ridurre lo stress attraverso lo sport vs attraverso il relax — cosa funziona meglio?",
+        "topic": "Ridurre lo stress attraverso lo sport vs attraverso il relax: cosa funziona meglio?",
         "sideA": "Sport",
         "sideB": "Relax",
         "level": "elementary",
@@ -574,10 +574,10 @@
             "Pace mentale",
             "Calmare la mente"
         ],
-        "word": "Ridurre lo stress attraverso lo sport vs attraverso il relax — cosa funziona meglio?",
+        "word": "Ridurre lo stress attraverso lo sport vs attraverso il relax: cosa funziona meglio?",
         "definitions": [
             {
-                "text": "Ridurre lo stress attraverso lo sport vs attraverso il relax — cosa funziona meglio?",
+                "text": "Ridurre lo stress attraverso lo sport vs attraverso il relax: cosa funziona meglio?",
                 "examples": []
             }
         ],
@@ -589,7 +589,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Smartphone vs conversazione faccia a faccia — cosa usiamo di più, ed è un problema?",
+        "topic": "Smartphone vs conversazione faccia a faccia: cosa usiamo di più, ed è un problema?",
         "sideA": "Smartphone",
         "sideB": "Faccia a faccia",
         "level": "elementary",
@@ -602,10 +602,10 @@
             "Esprimere emozioni reali",
             "Migliore concentrazione personale"
         ],
-        "word": "Smartphone vs conversazione faccia a faccia — cosa usiamo di più, ed è un problema?",
+        "word": "Smartphone vs conversazione faccia a faccia: cosa usiamo di più, ed è un problema?",
         "definitions": [
             {
-                "text": "Smartphone vs conversazione faccia a faccia — cosa usiamo di più, ed è un problema?",
+                "text": "Smartphone vs conversazione faccia a faccia: cosa usiamo di più, ed è un problema?",
                 "examples": []
             }
         ],
@@ -617,7 +617,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Banking online vs andare in banca — cosa è meglio?",
+        "topic": "Banking online vs andare in banca: cosa è meglio?",
         "sideA": "Online",
         "sideB": "Andare in banca",
         "level": "elementary",
@@ -630,10 +630,10 @@
             "Consulenza esperta personale",
             "Sicurezza fisica"
         ],
-        "word": "Banking online vs andare in banca — cosa è meglio?",
+        "word": "Banking online vs andare in banca: cosa è meglio?",
         "definitions": [
             {
-                "text": "Banking online vs andare in banca — cosa è meglio?",
+                "text": "Banking online vs andare in banca: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -645,7 +645,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lavorare con la carta vs lavorare digitalmente — cosa è più efficiente?",
+        "topic": "Lavorare con la carta vs lavorare digitalmente: cosa è più efficiente?",
         "sideA": "Carta",
         "sideB": "Digitale",
         "level": "elementary",
@@ -658,10 +658,10 @@
             "Archiviazione digitale efficiente",
             "Ricerca rapida delle informazioni"
         ],
-        "word": "Lavorare con la carta vs lavorare digitalmente — cosa è più efficiente?",
+        "word": "Lavorare con la carta vs lavorare digitalmente: cosa è più efficiente?",
         "definitions": [
             {
-                "text": "Lavorare con la carta vs lavorare digitalmente — cosa è più efficiente?",
+                "text": "Lavorare con la carta vs lavorare digitalmente: cosa è più efficiente?",
                 "examples": []
             }
         ],
@@ -673,7 +673,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Social media per il networking vs incontrare persone di persona — cosa è più utile professionalmente?",
+        "topic": "Social media per il networking vs incontrare persone di persona: cosa è più utile professionalmente?",
         "sideA": "Social media",
         "sideB": "Di persona",
         "level": "elementary",
@@ -686,10 +686,10 @@
             "Costruire una fiducia più forte",
             "Avere un impatto personale"
         ],
-        "word": "Social media per il networking vs incontrare persone di persona — cosa è più utile professionalmente?",
+        "word": "Social media per il networking vs incontrare persone di persona: cosa è più utile professionalmente?",
         "definitions": [
             {
-                "text": "Social media per il networking vs incontrare persone di persona — cosa è più utile professionalmente?",
+                "text": "Social media per il networking vs incontrare persone di persona: cosa è più utile professionalmente?",
                 "examples": []
             }
         ],
@@ -701,7 +701,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Viaggio organizzato vs viaggio indipendente — cosa è meglio per gli adulti?",
+        "topic": "Viaggio organizzato vs viaggio indipendente: cosa è meglio per gli adulti?",
         "sideA": "Organizzato",
         "sideB": "Indipendente",
         "level": "elementary",
@@ -714,10 +714,10 @@
             "Avventura autentica",
             "Esperienze locali uniche"
         ],
-        "word": "Viaggio organizzato vs viaggio indipendente — cosa è meglio per gli adulti?",
+        "word": "Viaggio organizzato vs viaggio indipendente: cosa è meglio per gli adulti?",
         "definitions": [
             {
-                "text": "Viaggio organizzato vs viaggio indipendente — cosa è meglio per gli adulti?",
+                "text": "Viaggio organizzato vs viaggio indipendente: cosa è meglio per gli adulti?",
                 "examples": []
             }
         ],
@@ -729,7 +729,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Soggiorno in città vs vacanza al mare — qual è il modo migliore per rilassarsi?",
+        "topic": "Soggiorno in città vs vacanza al mare: qual è il modo migliore per rilassarsi?",
         "sideA": "Città",
         "sideB": "Mare",
         "level": "elementary",
@@ -742,10 +742,10 @@
             "Rilassante brezza marina",
             "Completo relax fisico"
         ],
-        "word": "Soggiorno in città vs vacanza al mare — qual è il modo migliore per rilassarsi?",
+        "word": "Soggiorno in città vs vacanza al mare: qual è il modo migliore per rilassarsi?",
         "definitions": [
             {
-                "text": "Soggiorno in città vs vacanza al mare — qual è il modo migliore per rilassarsi?",
+                "text": "Soggiorno in città vs vacanza al mare: qual è il modo migliore per rilassarsi?",
                 "examples": []
             }
         ],
@@ -757,7 +757,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Una vacanza lunga all'anno vs diversi brevi soggiorni — cosa è meglio?",
+        "topic": "Una vacanza lunga all'anno vs diversi brevi soggiorni: cosa è meglio?",
         "sideA": "Una lunga",
         "sideB": "Diverse brevi",
         "level": "elementary",
@@ -770,10 +770,10 @@
             "Pause regolari dal lavoro",
             "Visitare più destinazioni"
         ],
-        "word": "Una vacanza lunga all'anno vs diversi brevi soggiorni — cosa è meglio?",
+        "word": "Una vacanza lunga all'anno vs diversi brevi soggiorni: cosa è meglio?",
         "definitions": [
             {
-                "text": "Una vacanza lunga all'anno vs diversi brevi soggiorni — cosa è meglio?",
+                "text": "Una vacanza lunga all'anno vs diversi brevi soggiorni: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -785,7 +785,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Viaggiare in coppia vs viaggiare da soli — cosa è più piacevole?",
+        "topic": "Viaggiare in coppia vs viaggiare da soli: cosa è più piacevole?",
         "sideA": "In coppia",
         "sideB": "Da soli",
         "level": "elementary",
@@ -798,10 +798,10 @@
             "Scelta personale completa",
             "Incontrare più persone locali"
         ],
-        "word": "Viaggiare in coppia vs viaggiare da soli — cosa è più piacevole?",
+        "word": "Viaggiare in coppia vs viaggiare da soli: cosa è più piacevole?",
         "definitions": [
             {
-                "text": "Viaggiare in coppia vs viaggiare da soli — cosa è più piacevole?",
+                "text": "Viaggiare in coppia vs viaggiare da soli: cosa è più piacevole?",
                 "examples": []
             }
         ],
@@ -813,7 +813,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé — cosa è più sano?",
+        "topic": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé: cosa è più sano?",
         "sideA": "Raccontare tutto",
         "sideB": "Tenere per sé",
         "level": "elementary",
@@ -826,10 +826,10 @@
             "Evitare drammi inutili",
             "Pace mentale interna"
         ],
-        "word": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé — cosa è più sano?",
+        "word": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé: cosa è più sano?",
         "definitions": [
             {
-                "text": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé — cosa è più sano?",
+                "text": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé: cosa è più sano?",
                 "examples": []
             }
         ],
@@ -841,7 +841,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Controllare il telefono appena svegli vs aspettare dopo colazione — quale è un'abitudine migliore?",
+        "topic": "Controllare il telefono appena svegli vs aspettare dopo colazione: quale è un'abitudine migliore?",
         "sideA": "Appena svegli",
         "sideB": "Dopo colazione",
         "level": "elementary",
@@ -854,10 +854,10 @@
             "Inizio tranquillo della giornata",
             "Praticare l'alimentazione consapevole"
         ],
-        "word": "Controllare il telefono appena svegli vs aspettare dopo colazione — quale è un'abitudine migliore?",
+        "word": "Controllare il telefono appena svegli vs aspettare dopo colazione: quale è un'abitudine migliore?",
         "definitions": [
             {
-                "text": "Controllare il telefono appena svegli vs aspettare dopo colazione — quale è un'abitudine migliore?",
+                "text": "Controllare il telefono appena svegli vs aspettare dopo colazione: quale è un'abitudine migliore?",
                 "examples": []
             }
         ],
@@ -869,7 +869,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Conoscere il nome dei vicini vs non conoscerli — qual è l'esperienza adulta più normale oggi?",
+        "topic": "Conoscere il nome dei vicini vs non conoscerli: qual è l'esperienza adulta più normale oggi?",
         "sideA": "Conoscerli",
         "sideB": "Non conoscerli",
         "level": "elementary",
@@ -882,10 +882,10 @@
             "Mantenere la totale privacy",
             "Evitare i pettegolezzi locali"
         ],
-        "word": "Conoscere il nome dei vicini vs non conoscerli — qual è l'esperienza adulta più normale oggi?",
+        "word": "Conoscere il nome dei vicini vs non conoscerli: qual è l'esperienza adulta più normale oggi?",
         "definitions": [
             {
-                "text": "Conoscere il nome dei vicini vs non conoscerli — qual è l'esperienza adulta più normale oggi?",
+                "text": "Conoscere il nome dei vicini vs non conoscerli: qual è l'esperienza adulta più normale oggi?",
                 "examples": []
             }
         ],
@@ -897,7 +897,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Fare la spesa con una lista vs senza lista — quale tipo di persona vive meglio?",
+        "topic": "Fare la spesa con una lista vs senza lista: quale tipo di persona vive meglio?",
         "sideA": "Con lista",
         "sideB": "Senza lista",
         "level": "elementary",
@@ -910,10 +910,10 @@
             "Scelte spontanee",
             "Idee creative in cucina"
         ],
-        "word": "Fare la spesa con una lista vs senza lista — quale tipo di persona vive meglio?",
+        "word": "Fare la spesa con una lista vs senza lista: quale tipo di persona vive meglio?",
         "definitions": [
             {
-                "text": "Fare la spesa con una lista vs senza lista — quale tipo di persona vive meglio?",
+                "text": "Fare la spesa con una lista vs senza lista: quale tipo di persona vive meglio?",
                 "examples": []
             }
         ],
@@ -925,7 +925,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Dire al capo che sei malato vs andare al lavoro malato — quale è la scelta più coraggiosa?",
+        "topic": "Dire al capo che sei malato vs andare al lavoro malato: quale è la scelta più coraggiosa?",
         "sideA": "Dirlo",
         "sideB": "Andare malato",
         "level": "elementary",
@@ -938,10 +938,10 @@
             "Mostrare impegno lavorativo",
             "Finire scadenze importanti"
         ],
-        "word": "Dire al capo che sei malato vs andare al lavoro malato — quale è la scelta più coraggiosa?",
+        "word": "Dire al capo che sei malato vs andare al lavoro malato: quale è la scelta più coraggiosa?",
         "definitions": [
             {
-                "text": "Dire al capo che sei malato vs andare al lavoro malato — quale è la scelta più coraggiosa?",
+                "text": "Dire al capo che sei malato vs andare al lavoro malato: quale è la scelta più coraggiosa?",
                 "examples": []
             }
         ],
@@ -953,7 +953,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lavorare a tempo pieno vs lavorare a tempo parziale — cosa è meglio?",
+        "topic": "Lavorare a tempo pieno vs lavorare a tempo parziale: cosa è meglio?",
         "sideA": "Tempo pieno",
         "sideB": "Tempo parziale",
         "level": "elementary",
@@ -966,10 +966,10 @@
             "Migliore equilibrio di vita",
             "Più tempo per lo studio"
         ],
-        "word": "Lavorare a tempo pieno vs lavorare a tempo parziale — cosa è meglio?",
+        "word": "Lavorare a tempo pieno vs lavorare a tempo parziale: cosa è meglio?",
         "definitions": [
             {
-                "text": "Lavorare a tempo pieno vs lavorare a tempo parziale — cosa è meglio?",
+                "text": "Lavorare a tempo pieno vs lavorare a tempo parziale: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -981,7 +981,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lavorare in ufficio vs lavorare da casa — cosa è meglio?",
+        "topic": "Lavorare in ufficio vs lavorare da casa: cosa è meglio?",
         "sideA": "Ufficio",
         "sideB": "Casa",
         "level": "elementary",
@@ -994,10 +994,10 @@
             "Nessun tempo di pendolarismo",
             "Orari di lavoro flessibili"
         ],
-        "word": "Lavorare in ufficio vs lavorare da casa — cosa è meglio?",
+        "word": "Lavorare in ufficio vs lavorare da casa: cosa è meglio?",
         "definitions": [
             {
-                "text": "Lavorare in ufficio vs lavorare da casa — cosa è meglio?",
+                "text": "Lavorare in ufficio vs lavorare da casa: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1009,7 +1009,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Un lavoro che ami vs un lavoro che paga bene — cosa è più importante?",
+        "topic": "Un lavoro che ami vs un lavoro che paga bene: cosa è più importante?",
         "sideA": "Lavoro amato",
         "sideB": "Paga bene",
         "level": "elementary",
@@ -1022,10 +1022,10 @@
             "Maggiore libertà finanziaria",
             "Qualità della vita superiore"
         ],
-        "word": "Un lavoro che ami vs un lavoro che paga bene — cosa è più importante?",
+        "word": "Un lavoro che ami vs un lavoro che paga bene: cosa è più importante?",
         "definitions": [
             {
-                "text": "Un lavoro che ami vs un lavoro che paga bene — cosa è più importante?",
+                "text": "Un lavoro che ami vs un lavoro che paga bene: cosa è più importante?",
                 "examples": []
             }
         ],
@@ -1037,7 +1037,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lavorare con altre persone vs lavorare da soli — cosa è meglio?",
+        "topic": "Lavorare con altre persone vs lavorare da soli: cosa è meglio?",
         "sideA": "Con altri",
         "sideB": "Da soli",
         "level": "elementary",
@@ -1050,10 +1050,10 @@
             "Concentrazione mentale silenziosa",
             "Stile di lavoro indipendente"
         ],
-        "word": "Lavorare con altre persone vs lavorare da soli — cosa è meglio?",
+        "word": "Lavorare con altre persone vs lavorare da soli: cosa è meglio?",
         "definitions": [
             {
-                "text": "Lavorare con altre persone vs lavorare da soli — cosa è meglio?",
+                "text": "Lavorare con altre persone vs lavorare da soli: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1065,7 +1065,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Un tragitto breve vs un tragitto lungo — cosa è più accettabile?",
+        "topic": "Un tragitto breve vs un tragitto lungo: cosa è più accettabile?",
         "sideA": "Breve",
         "sideB": "Lungo",
         "level": "elementary",
@@ -1078,10 +1078,10 @@
             "Alloggi suburbani più economici",
             "Tempo per i podcast"
         ],
-        "word": "Un tragitto breve vs un tragitto lungo — cosa è più accettabile?",
+        "word": "Un tragitto breve vs un tragitto lungo: cosa è più accettabile?",
         "definitions": [
             {
-                "text": "Un tragitto breve vs un tragitto lungo — cosa è più accettabile?",
+                "text": "Un tragitto breve vs un tragitto lungo: cosa è più accettabile?",
                 "examples": []
             }
         ],
@@ -1093,7 +1093,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vivere da soli vs vivere con un partner — cosa è meglio?",
+        "topic": "Vivere da soli vs vivere con un partner: cosa è meglio?",
         "sideA": "Da soli",
         "sideB": "Partner",
         "level": "elementary",
@@ -1106,10 +1106,10 @@
             "Vita quotidiana condivisa",
             "Supporto durante i problemi"
         ],
-        "word": "Vivere da soli vs vivere con un partner — cosa è meglio?",
+        "word": "Vivere da soli vs vivere con un partner: cosa è meglio?",
         "definitions": [
             {
-                "text": "Vivere da soli vs vivere con un partner — cosa è meglio?",
+                "text": "Vivere da soli vs vivere con un partner: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1121,7 +1121,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Grande città vs piccola città — qual è il posto migliore dove vivere da adulti?",
+        "topic": "Grande città vs piccola città: qual è il posto migliore dove vivere da adulti?",
         "sideA": "Grande città",
         "sideB": "Piccola città",
         "level": "elementary",
@@ -1134,10 +1134,10 @@
             "Minori costi della vita",
             "Aria pulita e fresca"
         ],
-        "word": "Grande città vs piccola città — qual è il posto migliore dove vivere da adulti?",
+        "word": "Grande città vs piccola città: qual è il posto migliore dove vivere da adulti?",
         "definitions": [
             {
-                "text": "Grande città vs piccola città — qual è il posto migliore dove vivere da adulti?",
+                "text": "Grande città vs piccola città: qual è il posto migliore dove vivere da adulti?",
                 "examples": []
             }
         ],
@@ -1149,7 +1149,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cucinare a casa vs mangiare fuori — cosa è meglio per la vita quotidiana?",
+        "topic": "Cucinare a casa vs mangiare fuori: cosa è meglio per la vita quotidiana?",
         "sideA": "A casa",
         "sideB": "Fuori",
         "level": "elementary",
@@ -1162,10 +1162,10 @@
             "Nessuna pulizia della cucina",
             "Provare cibo professionale"
         ],
-        "word": "Cucinare a casa vs mangiare fuori — cosa è meglio per la vita quotidiana?",
+        "word": "Cucinare a casa vs mangiare fuori: cosa è meglio per la vita quotidiana?",
         "definitions": [
             {
-                "text": "Cucinare a casa vs mangiare fuori — cosa è meglio per la vita quotidiana?",
+                "text": "Cucinare a casa vs mangiare fuori: cosa è meglio per la vita quotidiana?",
                 "examples": []
             }
         ],
@@ -1177,7 +1177,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Avere figli vs non avere figli — quale vita è migliore?",
+        "topic": "Avere figli vs non avere figli: quale vita è migliore?",
         "sideA": "Figli",
         "sideB": "Niente figli",
         "level": "elementary",
@@ -1190,10 +1190,10 @@
             "Totale libertà di viaggiare",
             "Intensa concentrazione sulla carriera"
         ],
-        "word": "Avere figli vs non avere figli — quale vita è migliore?",
+        "word": "Avere figli vs non avere figli: quale vita è migliore?",
         "definitions": [
             {
-                "text": "Avere figli vs non avere figli — quale vita è migliore?",
+                "text": "Avere figli vs non avere figli: quale vita è migliore?",
                 "examples": []
             }
         ],
@@ -1205,7 +1205,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Affittare un appartamento vs comprare una casa — cosa è meglio per i giovani adulti?",
+        "topic": "Affittare un appartamento vs comprare una casa: cosa è meglio per i giovani adulti?",
         "sideA": "Affittare",
         "sideB": "Comprare",
         "level": "elementary",
@@ -1218,10 +1218,10 @@
             "Costruire il capitale immobiliare",
             "Spazio per un giardino"
         ],
-        "word": "Affittare un appartamento vs comprare una casa — cosa è meglio per i giovani adulti?",
+        "word": "Affittare un appartamento vs comprare una casa: cosa è meglio per i giovani adulti?",
         "definitions": [
             {
-                "text": "Affittare un appartamento vs comprare una casa — cosa è meglio per i giovani adulti?",
+                "text": "Affittare un appartamento vs comprare una casa: cosa è meglio per i giovani adulti?",
                 "examples": []
             }
         ],
@@ -1233,7 +1233,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Esercizio ogni giorno vs riposo — cosa è meglio per la tua salute?",
+        "topic": "Esercizio ogni giorno vs riposo: cosa è meglio per la tua salute?",
         "sideA": "Esercizio",
         "sideB": "Riposo",
         "level": "elementary",
@@ -1246,10 +1246,10 @@
             "Essenziale recupero muscolare",
             "Supporto alla salute mentale"
         ],
-        "word": "Esercizio ogni giorno vs riposo — cosa è meglio per la tua salute?",
+        "word": "Esercizio ogni giorno vs riposo: cosa è meglio per la tua salute?",
         "definitions": [
             {
-                "text": "Esercizio ogni giorno vs riposo — cosa è meglio per la tua salute?",
+                "text": "Esercizio ogni giorno vs riposo: cosa è meglio per la tua salute?",
                 "examples": []
             }
         ],
@@ -1261,7 +1261,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Andare dal medico vs aspettare — cosa è meglio quando ti senti male?",
+        "topic": "Andare dal medico vs aspettare: cosa è meglio quando ti senti male?",
         "sideA": "Medico",
         "sideB": "Aspettare",
         "level": "elementary",
@@ -1274,10 +1274,10 @@
             "Evitare cliniche affollate",
             "Supportare la guarigione naturale"
         ],
-        "word": "Andare dal medico vs aspettare — cosa è meglio quando ti senti male?",
+        "word": "Andare dal medico vs aspettare: cosa è meglio quando ti senti male?",
         "definitions": [
             {
-                "text": "Andare dal medico vs aspettare — cosa è meglio quando ti senti male?",
+                "text": "Andare dal medico vs aspettare: cosa è meglio quando ti senti male?",
                 "examples": []
             }
         ],
@@ -1289,7 +1289,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Dormire otto ore vs dormire meno — cosa è più realistico per gli adulti?",
+        "topic": "Dormire otto ore vs dormire meno: cosa è più realistico per gli adulti?",
         "sideA": "8 ore",
         "sideB": "Meno",
         "level": "elementary",
@@ -1302,10 +1302,10 @@
             "Affrontare la realtà vita-lavoro",
             "Tempo per gli hobby serali"
         ],
-        "word": "Dormire otto ore vs dormire meno — cosa è più realistico per gli adulti?",
+        "word": "Dormire otto ore vs dormire meno: cosa è più realistico per gli adulti?",
         "definitions": [
             {
-                "text": "Dormire otto ore vs dormire meno — cosa è più realistico per gli adulti?",
+                "text": "Dormire otto ore vs dormire meno: cosa è più realistico per gli adulti?",
                 "examples": []
             }
         ],
@@ -1317,7 +1317,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Andare al lavoro a piedi vs prendere l'auto — cosa è meglio per la tua salute?",
+        "topic": "Andare al lavoro a piedi vs prendere l'auto: cosa è meglio per la tua salute?",
         "sideA": "A piedi",
         "sideB": "Auto",
         "level": "elementary",
@@ -1330,10 +1330,10 @@
             "Protezione dalle intemperie",
             "Risparmiare energia fisica"
         ],
-        "word": "Andare al lavoro a piedi vs prendere l'auto — cosa è meglio per la tua salute?",
+        "word": "Andare al lavoro a piedi vs prendere l'auto: cosa è meglio per la tua salute?",
         "definitions": [
             {
-                "text": "Andare al lavoro a piedi vs prendere l'auto — cosa è meglio per la tua salute?",
+                "text": "Andare al lavoro a piedi vs prendere l'auto: cosa è meglio per la tua salute?",
                 "examples": []
             }
         ],
@@ -1345,7 +1345,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Acquisti online vs acquisti in un negozio — cosa è meglio?",
+        "topic": "Acquisti online vs acquisti in un negozio: cosa è meglio?",
         "sideA": "Online",
         "sideB": "Negozio",
         "level": "elementary",
@@ -1358,10 +1358,10 @@
             "Provare i vestiti",
             "Supportare le attività locali"
         ],
-        "word": "Acquisti online vs acquisti in un negozio — cosa è meglio?",
+        "word": "Acquisti online vs acquisti in un negozio: cosa è meglio?",
         "definitions": [
             {
-                "text": "Acquisti online vs acquisti in un negozio — cosa è meglio?",
+                "text": "Acquisti online vs acquisti in un negozio: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1373,7 +1373,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Risparmiare per il futuro vs godersi i soldi ora — cosa è più saggio?",
+        "topic": "Risparmiare per il futuro vs godersi i soldi ora: cosa è più saggio?",
         "sideA": "Risparmiare",
         "sideB": "Godersi ora",
         "level": "elementary",
@@ -1386,10 +1386,10 @@
             "Aumentare la felicità mentale",
             "Vivere appieno la vita"
         ],
-        "word": "Risparmiare per il futuro vs godersi i soldi ora — cosa è più saggio?",
+        "word": "Risparmiare per il futuro vs godersi i soldi ora: cosa è più saggio?",
         "definitions": [
             {
-                "text": "Risparmiare per il futuro vs godersi i soldi ora — cosa è più saggio?",
+                "text": "Risparmiare per il futuro vs godersi i soldi ora: cosa è più saggio?",
                 "examples": []
             }
         ],
@@ -1401,7 +1401,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cose costose vs cose economiche — cosa ha il miglior valore?",
+        "topic": "Cose costose vs cose economiche: cosa ha il miglior valore?",
         "sideA": "Costose",
         "sideB": "Economiche",
         "level": "elementary",
@@ -1414,10 +1414,10 @@
             "Basso rischio finanziario",
             "Risparmiare più denaro"
         ],
-        "word": "Cose costose vs cose economiche — cosa ha il miglior valore?",
+        "word": "Cose costose vs cose economiche: cosa ha il miglior valore?",
         "definitions": [
             {
-                "text": "Cose costose vs cose economiche — cosa ha il miglior valore?",
+                "text": "Cose costose vs cose economiche: cosa ha il miglior valore?",
                 "examples": []
             }
         ],
@@ -1429,7 +1429,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Comprare nuovo vs comprare di seconda mano — cosa è meglio?",
+        "topic": "Comprare nuovo vs comprare di seconda mano: cosa è meglio?",
         "sideA": "Nuovo",
         "sideB": "Seconda mano",
         "level": "elementary",
@@ -1442,10 +1442,10 @@
             "Scelta eco-compatibile",
             "Prezzi molto bassi"
         ],
-        "word": "Comprare nuovo vs comprare di seconda mano — cosa è meglio?",
+        "word": "Comprare nuovo vs comprare di seconda mano: cosa è meglio?",
         "definitions": [
             {
-                "text": "Comprare nuovo vs comprare di seconda mano — cosa è meglio?",
+                "text": "Comprare nuovo vs comprare di seconda mano: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1457,7 +1457,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Guardare la TV a casa vs uscire — qual è la serata migliore?",
+        "topic": "Guardare la TV a casa vs uscire: qual è la serata migliore?",
         "sideA": "TV",
         "sideB": "Uscire",
         "level": "elementary",
@@ -1470,10 +1470,10 @@
             "Contatto sociale",
             "Atmosfera vivace"
         ],
-        "word": "Guardare la TV a casa vs uscire — qual è la serata migliore?",
+        "word": "Guardare la TV a casa vs uscire: qual è la serata migliore?",
         "definitions": [
             {
-                "text": "Guardare la TV a casa vs uscire — qual è la serata migliore?",
+                "text": "Guardare la TV a casa vs uscire: qual è la serata migliore?",
                 "examples": []
             }
         ],
@@ -1485,7 +1485,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vacanze in famiglia vs vacanze con amici — cosa è meglio?",
+        "topic": "Vacanze in famiglia vs vacanze con amici: cosa è meglio?",
         "sideA": "Famiglia",
         "sideB": "Amici",
         "level": "elementary",
@@ -1498,10 +1498,10 @@
             "Condividere hobby simili",
             "Livelli di energia dinamici"
         ],
-        "word": "Vacanze in famiglia vs vacanze con amici — cosa è meglio?",
+        "word": "Vacanze in famiglia vs vacanze con amici: cosa è meglio?",
         "definitions": [
             {
-                "text": "Vacanze in famiglia vs vacanze con amici — cosa è meglio?",
+                "text": "Vacanze in famiglia vs vacanze con amici: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1513,7 +1513,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Rimanere nel proprio paese vs viaggiare all'estero — qual è la vacanza migliore?",
+        "topic": "Rimanere nel proprio paese vs viaggiare all'estero: qual è la vacanza migliore?",
         "sideA": "Proprio paese",
         "sideB": "Estero",
         "level": "elementary",
@@ -1526,10 +1526,10 @@
             "Imparare culture straniere",
             "Praticare nuove lingue"
         ],
-        "word": "Rimanere nel proprio paese vs viaggiare all'estero — qual è la vacanza migliore?",
+        "word": "Rimanere nel proprio paese vs viaggiare all'estero: qual è la vacanza migliore?",
         "definitions": [
             {
-                "text": "Rimanere nel proprio paese vs viaggiare all'estero — qual è la vacanza migliore?",
+                "text": "Rimanere nel proprio paese vs viaggiare all'estero: qual è la vacanza migliore?",
                 "examples": []
             }
         ],
@@ -1541,7 +1541,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Sport vs lettura — qual è il miglior hobby per gli adulti?",
+        "topic": "Sport vs lettura: qual è il miglior hobby per gli adulti?",
         "sideA": "Sport",
         "sideB": "Lettura",
         "level": "elementary",
@@ -1554,10 +1554,10 @@
             "Stimolare la crescita mentale",
             "Profondo relax mentale"
         ],
-        "word": "Sport vs lettura — qual è il miglior hobby per gli adulti?",
+        "word": "Sport vs lettura: qual è il miglior hobby per gli adulti?",
         "definitions": [
             {
-                "text": "Sport vs lettura — qual è il miglior hobby per gli adulti?",
+                "text": "Sport vs lettura: qual è il miglior hobby per gli adulti?",
                 "examples": []
             }
         ],
@@ -1569,7 +1569,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vedere spesso gli amici vs avere tempo da soli — cosa è più importante?",
+        "topic": "Vedere spesso gli amici vs avere tempo da soli: cosa è più importante?",
         "sideA": "Amici",
         "sideB": "Da soli",
         "level": "elementary",
@@ -1582,10 +1582,10 @@
             "Spazio per l'autoriflessione",
             "Totale pace mentale"
         ],
-        "word": "Vedere spesso gli amici vs avere tempo da soli — cosa è più importante?",
+        "word": "Vedere spesso gli amici vs avere tempo da soli: cosa è più importante?",
         "definitions": [
             {
-                "text": "Vedere spesso gli amici vs avere tempo da soli — cosa è più importante?",
+                "text": "Vedere spesso gli amici vs avere tempo da soli: cosa è più importante?",
                 "examples": []
             }
         ],
@@ -1597,7 +1597,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Rispondere alle email immediatamente vs lasciarle per dopo — cosa è più professionale?",
+        "topic": "Rispondere alle email immediatamente vs lasciarle per dopo: cosa è più professionale?",
         "sideA": "Immediatamente",
         "sideB": "Dopo",
         "level": "elementary",
@@ -1610,10 +1610,10 @@
             "Preparare risposte ponderate",
             "Mantenere una concentrazione profonda"
         ],
-        "word": "Rispondere alle email immediatamente vs lasciarle per dopo — cosa è più professionale?",
+        "word": "Rispondere alle email immediatamente vs lasciarle per dopo: cosa è più professionale?",
         "definitions": [
             {
-                "text": "Rispondere alle email immediatamente vs lasciarle per dopo — cosa è più professionale?",
+                "text": "Rispondere alle email immediatamente vs lasciarle per dopo: cosa è più professionale?",
                 "examples": []
             }
         ],
@@ -1625,7 +1625,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lavare i piatti immediatamente vs lasciarli fino a domani — cosa è meglio?",
+        "topic": "Lavare i piatti immediatamente vs lasciarli fino a domani: cosa è meglio?",
         "sideA": "Immediatamente",
         "sideB": "Domani",
         "level": "elementary",
@@ -1638,10 +1638,10 @@
             "Godersi il riposo serale",
             "Passare del tempo con la famiglia"
         ],
-        "word": "Lavare i piatti immediatamente vs lasciarli fino a domani — cosa è meglio?",
+        "word": "Lavare i piatti immediatamente vs lasciarli fino a domani: cosa è meglio?",
         "definitions": [
             {
-                "text": "Lavare i piatti immediatamente vs lasciarli fino a domani — cosa è meglio?",
+                "text": "Lavare i piatti immediatamente vs lasciarli fino a domani: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1653,7 +1653,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio al lavoro?",
+        "topic": "Essere sempre in anticipo vs sempre cinque minuti in ritardo: cosa è peggio al lavoro?",
         "sideA": "Anticipo",
         "sideB": "Ritardo",
         "level": "elementary",
@@ -1666,10 +1666,10 @@
             "Sembra poco professionale",
             "Perdere l'inizio delle riunioni"
         ],
-        "word": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio al lavoro?",
+        "word": "Essere sempre in anticipo vs sempre cinque minuti in ritardo: cosa è peggio al lavoro?",
         "definitions": [
             {
-                "text": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio al lavoro?",
+                "text": "Essere sempre in anticipo vs sempre cinque minuti in ritardo: cosa è peggio al lavoro?",
                 "examples": []
             }
         ],
@@ -1681,7 +1681,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Avere una scrivania molto organizzata vs una scrivania disordinata — quale persona è più produttiva?",
+        "topic": "Avere una scrivania molto organizzata vs una scrivania disordinata: quale persona è più produttiva?",
         "sideA": "Organizzata",
         "sideB": "Disordinata",
         "level": "elementary",
@@ -1694,10 +1694,10 @@
             "Incoraggia il caos creativo",
             "Accesso rapido agli strumenti"
         ],
-        "word": "Avere una scrivania molto organizzata vs una scrivania disordinata — quale persona è più produttiva?",
+        "word": "Avere una scrivania molto organizzata vs una scrivania disordinata: quale persona è più produttiva?",
         "definitions": [
             {
-                "text": "Avere una scrivania molto organizzata vs una scrivania disordinata — quale persona è più produttiva?",
+                "text": "Avere una scrivania molto organizzata vs una scrivania disordinata: quale persona è più produttiva?",
                 "examples": []
             }
         ],
@@ -1709,7 +1709,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — quale regola è migliore?",
+        "topic": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena: quale regola è migliore?",
         "sideA": "Parlare di lavoro",
         "sideB": "Niente lavoro",
         "level": "elementary",
@@ -1722,10 +1722,10 @@
             "Disconnettersi completamente",
             "Tempo di relax di qualità"
         ],
-        "word": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — quale regola è migliore?",
+        "word": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena: quale regola è migliore?",
         "definitions": [
             {
-                "text": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — quale regola è migliore?",
+                "text": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena: quale regola è migliore?",
                 "examples": []
             }
         ],
@@ -1737,7 +1737,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vivere in famiglia vs Da soli — cosa è meglio?",
+        "topic": "Vivere in famiglia vs Da soli: cosa è meglio?",
         "sideA": "In famiglia",
         "sideB": "Da soli",
         "level": "elementary",
@@ -1750,10 +1750,10 @@
             "Totale indipendenza",
             "Assoluta privacy"
         ],
-        "word": "Vivere in famiglia vs Da soli — cosa è meglio?",
+        "word": "Vivere in famiglia vs Da soli: cosa è meglio?",
         "definitions": [
             {
-                "text": "Vivere in famiglia vs Da soli — cosa è meglio?",
+                "text": "Vivere in famiglia vs Da soli: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1765,7 +1765,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Avere un fratello vs una sorella — cosa è meglio?",
+        "topic": "Avere un fratello vs una sorella: cosa è meglio?",
         "sideA": "Fratello",
         "sideB": "Sorella",
         "level": "elementary",
@@ -1778,10 +1778,10 @@
             "Fare discorsi profondi",
             "Condividere segreti"
         ],
-        "word": "Avere un fratello vs una sorella — cosa è meglio?",
+        "word": "Avere un fratello vs una sorella: cosa è meglio?",
         "definitions": [
             {
-                "text": "Avere un fratello vs una sorella — cosa è meglio?",
+                "text": "Avere un fratello vs una sorella: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1793,7 +1793,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Famiglia grande vs piccola — quale è più bella?",
+        "topic": "Famiglia grande vs piccola: quale è più bella?",
         "sideA": "Grande",
         "sideB": "Piccola",
         "level": "elementary",
@@ -1806,10 +1806,10 @@
             "Vita quotidiana tranquilla",
             "Legami emotivi più stretti"
         ],
-        "word": "Famiglia grande vs piccola — quale è più bella?",
+        "word": "Famiglia grande vs piccola: quale è più bella?",
         "definitions": [
             {
-                "text": "Famiglia grande vs piccola — quale è più bella?",
+                "text": "Famiglia grande vs piccola: quale è più bella?",
                 "examples": []
             }
         ],
@@ -1821,7 +1821,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Il più grande vs Il più piccolo — cosa è meglio?",
+        "topic": "Il più grande vs Il più piccolo: cosa è meglio?",
         "sideA": "Grande",
         "sideB": "Piccolo",
         "level": "elementary",
@@ -1834,10 +1834,10 @@
             "Ricevere attenzioni extra",
             "Regole più rilassate"
         ],
-        "word": "Il più grande vs Il più piccolo — cosa è meglio?",
+        "word": "Il più grande vs Il più piccolo: cosa è meglio?",
         "definitions": [
             {
-                "text": "Il più grande vs Il più piccolo — cosa è meglio?",
+                "text": "Il più grande vs Il più piccolo: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1849,7 +1849,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Scuola di mattina vs pomeriggio — cosa è meglio?",
+        "topic": "Scuola di mattina vs pomeriggio: cosa è meglio?",
         "sideA": "Mattina",
         "sideB": "Pomeriggio",
         "level": "elementary",
@@ -1862,10 +1862,10 @@
             "Poter dormire tardi",
             "Inizio giornata tranquillo"
         ],
-        "word": "Scuola di mattina vs pomeriggio — cosa è meglio?",
+        "word": "Scuola di mattina vs pomeriggio: cosa è meglio?",
         "definitions": [
             {
-                "text": "Scuola di mattina vs pomeriggio — cosa è meglio?",
+                "text": "Scuola di mattina vs pomeriggio: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1877,7 +1877,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lettura vs Matematica — quale è più divertente?",
+        "topic": "Lettura vs Matematica: quale è più divertente?",
         "sideA": "Lettura",
         "sideB": "Matematica",
         "level": "elementary",
@@ -1890,10 +1890,10 @@
             "Risoluzione di problemi complessi",
             "Pensiero logico"
         ],
-        "word": "Lettura vs Matematica — quale è più divertente?",
+        "word": "Lettura vs Matematica: quale è più divertente?",
         "definitions": [
             {
-                "text": "Lettura vs Matematica — quale è più divertente?",
+                "text": "Lettura vs Matematica: quale è più divertente?",
                 "examples": []
             }
         ],
@@ -1905,7 +1905,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Scuola vs Casa — cosa è meglio?",
+        "topic": "Scuola vs Casa: cosa è meglio?",
         "sideA": "Scuola",
         "sideB": "Casa",
         "level": "elementary",
@@ -1918,10 +1918,10 @@
             "Setup confortevole",
             "Orari di apprendimento flessibili"
         ],
-        "word": "Scuola vs Casa — cosa è meglio?",
+        "word": "Scuola vs Casa: cosa è meglio?",
         "definitions": [
             {
-                "text": "Scuola vs Casa — cosa è meglio?",
+                "text": "Scuola vs Casa: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1933,7 +1933,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Compiti vs Niente compiti — cosa aiuta di più?",
+        "topic": "Compiti vs Niente compiti: cosa aiuta di più?",
         "sideA": "Compiti",
         "sideB": "Niente",
         "level": "elementary",
@@ -1946,10 +1946,10 @@
             "Più tempo libero",
             "Periodo di riposo mentale"
         ],
-        "word": "Compiti vs Niente compiti — cosa aiuta di più?",
+        "word": "Compiti vs Niente compiti: cosa aiuta di più?",
         "definitions": [
             {
-                "text": "Compiti vs Niente compiti — cosa aiuta di più?",
+                "text": "Compiti vs Niente compiti: cosa aiuta di più?",
                 "examples": []
             }
         ],
@@ -1961,7 +1961,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Da soli vs In coppia — cosa è meglio?",
+        "topic": "Da soli vs In coppia: cosa è meglio?",
         "sideA": "Da soli",
         "sideB": "Coppia",
         "level": "elementary",
@@ -1974,10 +1974,10 @@
             "Condividere la conoscenza",
             "Divertimento collaborativo"
         ],
-        "word": "Da soli vs In coppia — cosa è meglio?",
+        "word": "Da soli vs In coppia: cosa è meglio?",
         "definitions": [
             {
-                "text": "Da soli vs In coppia — cosa è meglio?",
+                "text": "Da soli vs In coppia: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -1989,7 +1989,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Carta vs Computer — cosa è meglio?",
+        "topic": "Carta vs Computer: cosa è meglio?",
         "sideA": "Carta",
         "sideB": "Computer",
         "level": "elementary",
@@ -2002,10 +2002,10 @@
             "Velocità di digitazione",
             "Strumenti di ricerca digitale"
         ],
-        "word": "Carta vs Computer — cosa è meglio?",
+        "word": "Carta vs Computer: cosa è meglio?",
         "definitions": [
             {
-                "text": "Carta vs Computer — cosa è meglio?",
+                "text": "Carta vs Computer: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2017,7 +2017,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Colazione vs Cena — quale pasto è più importante?",
+        "topic": "Colazione vs Cena: quale pasto è più importante?",
         "sideA": "Colazione",
         "sideB": "Cena",
         "level": "elementary",
@@ -2030,10 +2030,10 @@
             "Tempo di riunione familiare",
             "Pasto principale della giornata"
         ],
-        "word": "Colazione vs Cena — quale pasto è più importante?",
+        "word": "Colazione vs Cena: quale pasto è più importante?",
         "definitions": [
             {
-                "text": "Colazione vs Cena — quale pasto è più importante?",
+                "text": "Colazione vs Cena: quale pasto è più importante?",
                 "examples": []
             }
         ],
@@ -2045,7 +2045,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cibo caldo vs freddo — cosa è meglio?",
+        "topic": "Cibo caldo vs freddo: cosa è meglio?",
         "sideA": "Caldo",
         "sideB": "Freddo",
         "level": "elementary",
@@ -2058,10 +2058,10 @@
             "Fresco per l'estate",
             "Varietà di insalate"
         ],
-        "word": "Cibo caldo vs freddo — cosa è meglio?",
+        "word": "Cibo caldo vs freddo: cosa è meglio?",
         "definitions": [
             {
-                "text": "Cibo caldo vs freddo — cosa è meglio?",
+                "text": "Cibo caldo vs freddo: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2073,7 +2073,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Casa vs Ristorante — cosa è meglio?",
+        "topic": "Casa vs Ristorante: cosa è meglio?",
         "sideA": "Casa",
         "sideB": "Ristorante",
         "level": "elementary",
@@ -2086,10 +2086,10 @@
             "Chef professionisti",
             "Zero pulizia"
         ],
-        "word": "Casa vs Ristorante — cosa è meglio?",
+        "word": "Casa vs Ristorante: cosa è meglio?",
         "definitions": [
             {
-                "text": "Casa vs Ristorante — cosa è meglio?",
+                "text": "Casa vs Ristorante: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2101,7 +2101,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Dolce vs Salato — cosa è meglio?",
+        "topic": "Dolce vs Salato: cosa è meglio?",
         "sideA": "Dolce",
         "sideB": "Salato",
         "level": "elementary",
@@ -2114,10 +2114,10 @@
             "Alto valore nutrizionale",
             "Sentirsi sazi più a lungo"
         ],
-        "word": "Dolce vs Salato — cosa è meglio?",
+        "word": "Dolce vs Salato: cosa è meglio?",
         "definitions": [
             {
-                "text": "Dolce vs Salato — cosa è meglio?",
+                "text": "Dolce vs Salato: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2129,7 +2129,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cucinare vs Comprare — cosa è più bello?",
+        "topic": "Cucinare vs Comprare: cosa è più bello?",
         "sideA": "Cucinare",
         "sideB": "Comprare",
         "level": "elementary",
@@ -2142,10 +2142,10 @@
             "Totale comodità",
             "Risparmiare tempo"
         ],
-        "word": "Cucinare vs Comprare — cosa è più bello?",
+        "word": "Cucinare vs Comprare: cosa è più bello?",
         "definitions": [
             {
-                "text": "Cucinare vs Comprare — cosa è più bello?",
+                "text": "Cucinare vs Comprare: cosa è più bello?",
                 "examples": []
             }
         ],
@@ -2157,7 +2157,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Svegliarsi presto vs tardi — cosa è meglio?",
+        "topic": "Svegliarsi presto vs tardi: cosa è meglio?",
         "sideA": "Presto",
         "sideB": "Tardi",
         "level": "elementary",
@@ -2170,10 +2170,10 @@
             "Riposo fisico completo",
             "Alta energia notturna"
         ],
-        "word": "Svegliarsi presto vs tardi — cosa è meglio?",
+        "word": "Svegliarsi presto vs tardi: cosa è meglio?",
         "definitions": [
             {
-                "text": "Svegliarsi presto vs tardi — cosa è meglio?",
+                "text": "Svegliarsi presto vs tardi: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2185,7 +2185,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Mattina vs Sera — quale parte del giorno è più bella?",
+        "topic": "Mattina vs Sera: quale parte del giorno è più bella?",
         "sideA": "Mattina",
         "sideB": "Sera",
         "level": "elementary",
@@ -2198,10 +2198,10 @@
             "Tempo sociale",
             "Relax completo"
         ],
-        "word": "Mattina vs Sera — quale parte del giorno è più bella?",
+        "word": "Mattina vs Sera: quale parte del giorno è più bella?",
         "definitions": [
             {
-                "text": "Mattina vs Sera — quale parte del giorno è più bella?",
+                "text": "Mattina vs Sera: quale parte del giorno è più bella?",
                 "examples": []
             }
         ],
@@ -2213,7 +2213,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Giorni feriali vs Fine settimana — cosa è meglio?",
+        "topic": "Giorni feriali vs Fine settimana: cosa è meglio?",
         "sideA": "Feriali",
         "sideB": "Fine settimana",
         "level": "elementary",
@@ -2226,10 +2226,10 @@
             "Totale libertà personale",
             "Tempo per gli hobby"
         ],
-        "word": "Giorni feriali vs Fine settimana — cosa è meglio?",
+        "word": "Giorni feriali vs Fine settimana: cosa è meglio?",
         "definitions": [
             {
-                "text": "Giorni feriali vs Fine settimana — cosa è meglio?",
+                "text": "Giorni feriali vs Fine settimana: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2241,7 +2241,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Estate vs Inverno — quale stagione è migliore?",
+        "topic": "Estate vs Inverno: quale stagione è migliore?",
         "sideA": "Estate",
         "sideB": "Inverno",
         "level": "elementary",
@@ -2254,10 +2254,10 @@
             "Attività sulla neve",
             "Atmosfera accogliente"
         ],
-        "word": "Estate vs Inverno — quale stagione è migliore?",
+        "word": "Estate vs Inverno: quale stagione è migliore?",
         "definitions": [
             {
-                "text": "Estate vs Inverno — quale stagione è migliore?",
+                "text": "Estate vs Inverno: quale stagione è migliore?",
                 "examples": []
             }
         ],
@@ -2269,7 +2269,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Andare a letto presto vs tardi — cosa è più salutare?",
+        "topic": "Andare a letto presto vs tardi: cosa è più salutare?",
         "sideA": "Presto",
         "sideB": "Tardi",
         "level": "elementary",
@@ -2282,10 +2282,10 @@
             "Creatività serale",
             "Tempo per i film"
         ],
-        "word": "Andare a letto presto vs tardi — cosa è più salutare?",
+        "word": "Andare a letto presto vs tardi: cosa è più salutare?",
         "definitions": [
             {
-                "text": "Andare a letto presto vs tardi — cosa è più salutare?",
+                "text": "Andare a letto presto vs tardi: cosa è più salutare?",
                 "examples": []
             }
         ],
@@ -2297,7 +2297,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Casa vs Appartamento — cosa è meglio?",
+        "topic": "Casa vs Appartamento: cosa è meglio?",
         "sideA": "Casa",
         "sideB": "Appartamento",
         "level": "elementary",
@@ -2310,10 +2310,10 @@
             "Pulizia facile",
             "Posizione centrale"
         ],
-        "word": "Casa vs Appartamento — cosa è meglio?",
+        "word": "Casa vs Appartamento: cosa è meglio?",
         "definitions": [
             {
-                "text": "Casa vs Appartamento — cosa è meglio?",
+                "text": "Casa vs Appartamento: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2325,7 +2325,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Città vs Campagna — quale è un posto migliore dove vivere?",
+        "topic": "Città vs Campagna: quale è un posto migliore dove vivere?",
         "sideA": "Città",
         "sideB": "Campagna",
         "level": "elementary",
@@ -2338,10 +2338,10 @@
             "Aria fresca e pulita",
             "Natura silenziosa"
         ],
-        "word": "Città vs Campagna — quale è un posto migliore dove vivere?",
+        "word": "Città vs Campagna: quale è un posto migliore dove vivere?",
         "definitions": [
             {
-                "text": "Città vs Campagna — quale è un posto migliore dove vivere?",
+                "text": "Città vs Campagna: quale è un posto migliore dove vivere?",
                 "examples": []
             }
         ],
@@ -2353,7 +2353,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Camera vs Soggiorno — cosa è meglio?",
+        "topic": "Camera vs Soggiorno: cosa è meglio?",
         "sideA": "Camera",
         "sideB": "Soggiorno",
         "level": "elementary",
@@ -2366,10 +2366,10 @@
             "Spazio familiare",
             "TV a grande schermo"
         ],
-        "word": "Camera vs Soggiorno — cosa è meglio?",
+        "word": "Camera vs Soggiorno: cosa è meglio?",
         "definitions": [
             {
-                "text": "Camera vs Soggiorno — cosa è meglio?",
+                "text": "Camera vs Soggiorno: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2381,7 +2381,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Giochi al chiuso vs all'aperto — quali sono più divertenti?",
+        "topic": "Giochi al chiuso vs all'aperto: quali sono più divertenti?",
         "sideA": "Chiuso",
         "sideB": "Aperto",
         "level": "elementary",
@@ -2394,10 +2394,10 @@
             "Movimento attivo",
             "Benefici della luce solare"
         ],
-        "word": "Giochi al chiuso vs all'aperto — quali sono più divertenti?",
+        "word": "Giochi al chiuso vs all'aperto: quali sono più divertenti?",
         "definitions": [
             {
-                "text": "Giochi al chiuso vs all'aperto — quali sono più divertenti?",
+                "text": "Giochi al chiuso vs all'aperto: quali sono più divertenti?",
                 "examples": []
             }
         ],
@@ -2409,7 +2409,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "TV vs Libro — cosa è meglio?",
+        "topic": "TV vs Libro: cosa è meglio?",
         "sideA": "TV",
         "sideB": "Libro",
         "level": "elementary",
@@ -2422,10 +2422,10 @@
             "Profonda immaginazione",
             "Crescita del vocabolario"
         ],
-        "word": "TV vs Libro — cosa è meglio?",
+        "word": "TV vs Libro: cosa è meglio?",
         "definitions": [
             {
-                "text": "TV vs Libro — cosa è meglio?",
+                "text": "TV vs Libro: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2437,7 +2437,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Sport vs Videogioco — quale è più divertente?",
+        "topic": "Sport vs Videogioco: quale è più divertente?",
         "sideA": "Sport",
         "sideB": "Videogioco",
         "level": "elementary",
@@ -2450,10 +2450,10 @@
             "Abilità strategiche",
             "Mondi digitali"
         ],
-        "word": "Sport vs Videogioco — quale è più divertente?",
+        "word": "Sport vs Videogioco: quale è più divertente?",
         "definitions": [
             {
-                "text": "Sport vs Videogioco — quale è più divertente?",
+                "text": "Sport vs Videogioco: quale è più divertente?",
                 "examples": []
             }
         ],
@@ -2465,7 +2465,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Disegno vs Canto — quale hobby è migliore?",
+        "topic": "Disegno vs Canto: quale hobby è migliore?",
         "sideA": "Disegno",
         "sideB": "Canto",
         "level": "elementary",
@@ -2478,10 +2478,10 @@
             "Rilascio emotivo",
             "Espressione musicale"
         ],
-        "word": "Disegno vs Canto — quale hobby è migliore?",
+        "word": "Disegno vs Canto: quale hobby è migliore?",
         "definitions": [
             {
-                "text": "Disegno vs Canto — quale hobby è migliore?",
+                "text": "Disegno vs Canto: quale hobby è migliore?",
                 "examples": []
             }
         ],
@@ -2493,7 +2493,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Giocare da soli vs con amici — quale è più divertente?",
+        "topic": "Giocare da soli vs con amici: quale è più divertente?",
         "sideA": "Soli",
         "sideB": "Amici",
         "level": "elementary",
@@ -2506,10 +2506,10 @@
             "Risate condivise",
             "Gioco collaborativo"
         ],
-        "word": "Giocare da soli vs con amici — quale è più divertente?",
+        "word": "Giocare da soli vs con amici: quale è più divertente?",
         "definitions": [
             {
-                "text": "Giocare da soli vs con amici — quale è più divertente?",
+                "text": "Giocare da soli vs con amici: quale è più divertente?",
                 "examples": []
             }
         ],
@@ -2521,7 +2521,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Nuoto vs Corsa — cosa è meglio?",
+        "topic": "Nuoto vs Corsa: cosa è meglio?",
         "sideA": "Nuoto",
         "sideB": "Corsa",
         "level": "elementary",
@@ -2534,10 +2534,10 @@
             "Facile da iniziare",
             "Viste all'aperto"
         ],
-        "word": "Nuoto vs Corsa — cosa è meglio?",
+        "word": "Nuoto vs Corsa: cosa è meglio?",
         "definitions": [
             {
-                "text": "Nuoto vs Corsa — cosa è meglio?",
+                "text": "Nuoto vs Corsa: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2549,7 +2549,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Musica vs Sport — quale è un hobby migliore?",
+        "topic": "Musica vs Sport: quale è un hobby migliore?",
         "sideA": "Musica",
         "sideB": "Sport",
         "level": "elementary",
@@ -2562,10 +2562,10 @@
             "Forma fisica",
             "Successo di squadra"
         ],
-        "word": "Musica vs Sport — quale è un hobby migliore?",
+        "word": "Musica vs Sport: quale è un hobby migliore?",
         "definitions": [
             {
-                "text": "Musica vs Sport — quale è un hobby migliore?",
+                "text": "Musica vs Sport: quale è un hobby migliore?",
                 "examples": []
             }
         ],
@@ -2577,7 +2577,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Animali da fattoria vs selvatici — quali sono più interessanti?",
+        "topic": "Animali da fattoria vs selvatici: quali sono più interessanti?",
         "sideA": "Fattoria",
         "sideB": "Selvatici",
         "level": "elementary",
@@ -2590,10 +2590,10 @@
             "Biomi esotici",
             "Mistero naturale"
         ],
-        "word": "Animali da fattoria vs selvatici — quali sono più interessanti?",
+        "word": "Animali da fattoria vs selvatici: quali sono più interessanti?",
         "definitions": [
             {
-                "text": "Animali da fattoria vs selvatici — quali sono più interessanti?",
+                "text": "Animali da fattoria vs selvatici: quali sono più interessanti?",
                 "examples": []
             }
         ],
@@ -2605,7 +2605,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Pioggia vs Sole — cosa è meglio?",
+        "topic": "Pioggia vs Sole: cosa è meglio?",
         "sideA": "Pioggia",
         "sideB": "Sole",
         "level": "elementary",
@@ -2618,10 +2618,10 @@
             "Tempo perfetto per la spiaggia",
             "Vitamina D"
         ],
-        "word": "Pioggia vs Sole — cosa è meglio?",
+        "word": "Pioggia vs Sole: cosa è meglio?",
         "definitions": [
             {
-                "text": "Pioggia vs Sole — cosa è meglio?",
+                "text": "Pioggia vs Sole: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2633,7 +2633,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Mare vs Montagna — quale è meglio per una vacanza?",
+        "topic": "Mare vs Montagna: quale è meglio per una vacanza?",
         "sideA": "Mare",
         "sideB": "Montagna",
         "level": "elementary",
@@ -2646,10 +2646,10 @@
             "Aria fresca e pulita",
             "Splendide viste sulle montagne"
         ],
-        "word": "Mare vs Montagna — quale è meglio per una vacanza?",
+        "word": "Mare vs Montagna: quale è meglio per una vacanza?",
         "definitions": [
             {
-                "text": "Mare vs Montagna — quale è meglio per una vacanza?",
+                "text": "Mare vs Montagna: quale è meglio per una vacanza?",
                 "examples": []
             }
         ],
@@ -2661,7 +2661,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Fiori vs Alberi — quali sono più belli?",
+        "topic": "Fiori vs Alberi: quali sono più belli?",
         "sideA": "Fiori",
         "sideB": "Alberi",
         "level": "elementary",
@@ -2674,10 +2674,10 @@
             "Altezza maestosa",
             "Forniscono ossigeno"
         ],
-        "word": "Fiori vs Alberi — quali sono più belli?",
+        "word": "Fiori vs Alberi: quali sono più belli?",
         "definitions": [
             {
-                "text": "Fiori vs Alberi — quali sono più belli?",
+                "text": "Fiori vs Alberi: quali sono più belli?",
                 "examples": []
             }
         ],
@@ -2689,7 +2689,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Auto vs Autobus — cosa è meglio?",
+        "topic": "Auto vs Autobus: cosa è meglio?",
         "sideA": "Auto",
         "sideB": "Autobus",
         "level": "elementary",
@@ -2702,10 +2702,10 @@
             "Costi inferiori",
             "Rispettoso dell'ambiente"
         ],
-        "word": "Auto vs Autobus — cosa è meglio?",
+        "word": "Auto vs Autobus: cosa è meglio?",
         "definitions": [
             {
-                "text": "Auto vs Autobus — cosa è meglio?",
+                "text": "Auto vs Autobus: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2717,7 +2717,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Camminare vs Bici — con cosa è meglio spostarsi?",
+        "topic": "Camminare vs Bici: con cosa è meglio spostarsi?",
         "sideA": "Camminare",
         "sideB": "Bici",
         "level": "elementary",
@@ -2730,10 +2730,10 @@
             "Velocità più elevata",
             "Raggio di viaggio più lungo"
         ],
-        "word": "Camminare vs Bici — con cosa è meglio spostarsi?",
+        "word": "Camminare vs Bici: con cosa è meglio spostarsi?",
         "definitions": [
             {
-                "text": "Camminare vs Bici — con cosa è meglio spostarsi?",
+                "text": "Camminare vs Bici: con cosa è meglio spostarsi?",
                 "examples": []
             }
         ],
@@ -2745,7 +2745,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vacanze brevi vs lunghe — cosa è meglio?",
+        "topic": "Vacanze brevi vs lunghe: cosa è meglio?",
         "sideA": "Brevi",
         "sideB": "Lunghe",
         "level": "elementary",
@@ -2758,10 +2758,10 @@
             "Reset mentale completo",
             "Immersione culturale"
         ],
-        "word": "Vacanze brevi vs lunghe — cosa è meglio?",
+        "word": "Vacanze brevi vs lunghe: cosa è meglio?",
         "definitions": [
             {
-                "text": "Vacanze brevi vs lunghe — cosa è meglio?",
+                "text": "Vacanze brevi vs lunghe: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2773,7 +2773,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Viaggiare soli vs in famiglia — quale è più divertente?",
+        "topic": "Viaggiare soli vs in famiglia: quale è più divertente?",
         "sideA": "Soli",
         "sideB": "Famiglia",
         "level": "elementary",
@@ -2786,10 +2786,10 @@
             "Gioia condivisa",
             "Supporto finanziario"
         ],
-        "word": "Viaggiare soli vs in famiglia — quale è più divertente?",
+        "word": "Viaggiare soli vs in famiglia: quale è più divertente?",
         "definitions": [
             {
-                "text": "Viaggiare soli vs in famiglia — quale è più divertente?",
+                "text": "Viaggiare soli vs in famiglia: quale è più divertente?",
                 "examples": []
             }
         ],
@@ -2857,7 +2857,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Studiare la mattina o studiare la sera — quando è meglio?",
+        "topic": "Studiare la mattina o studiare la sera: quando è meglio?",
         "sideA": "Mattina",
         "sideB": "Sera",
         "level": "elementary",
@@ -2870,10 +2870,10 @@
             "Ambiente notturno tranquillo",
             "Ripassare il materiale quotidiano"
         ],
-        "word": "Studiare la mattina o studiare la sera — quando è meglio?",
+        "word": "Studiare la mattina o studiare la sera: quando è meglio?",
         "definitions": [
             {
-                "text": "Studiare la mattina o studiare la sera — quando è meglio?",
+                "text": "Studiare la mattina o studiare la sera: quando è meglio?",
                 "examples": []
             }
         ],
@@ -2885,7 +2885,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Insegnanti severi o insegnanti amichevoli — chi aiuta di più gli studenti?",
+        "topic": "Insegnanti severi o insegnanti amichevoli: chi aiuta di più gli studenti?",
         "sideA": "Severi",
         "sideB": "Amichevoli",
         "level": "elementary",
@@ -2898,10 +2898,10 @@
             "Motivazione degli studenti",
             "Porre domande aperte"
         ],
-        "word": "Insegnanti severi o insegnanti amichevoli — chi aiuta di più gli studenti?",
+        "word": "Insegnanti severi o insegnanti amichevoli: chi aiuta di più gli studenti?",
         "definitions": [
             {
-                "text": "Insegnanti severi o insegnanti amichevoli — chi aiuta di più gli studenti?",
+                "text": "Insegnanti severi o insegnanti amichevoli: chi aiuta di più gli studenti?",
                 "examples": []
             }
         ],
@@ -2913,7 +2913,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Imparare con un libro di testo o imparare con i video — cosa è più efficace?",
+        "topic": "Imparare con un libro di testo o imparare con i video: cosa è più efficace?",
         "sideA": "Libro",
         "sideB": "Video",
         "level": "elementary",
@@ -2926,10 +2926,10 @@
             "Moderne basi visive",
             "Contenuto dinamico"
         ],
-        "word": "Imparare con un libro di testo o imparare con i video — cosa è più efficace?",
+        "word": "Imparare con un libro di testo o imparare con i video: cosa è più efficace?",
         "definitions": [
             {
-                "text": "Imparare con un libro di testo o imparare con i video — cosa è più efficace?",
+                "text": "Imparare con un libro di testo o imparare con i video: cosa è più efficace?",
                 "examples": []
             }
         ],
@@ -2941,7 +2941,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lezioni brevi o lezioni lunghe — quali aiutano a imparare meglio?",
+        "topic": "Lezioni brevi o lezioni lunghe: quali aiutano a imparare meglio?",
         "sideA": "Brevi",
         "sideB": "Lunghe",
         "level": "elementary",
@@ -2954,10 +2954,10 @@
             "Immersione profonda nel tema",
             "Tempo di studio dettagliato"
         ],
-        "word": "Lezioni brevi o lezioni lunghe — quali aiutano a imparare meglio?",
+        "word": "Lezioni brevi o lezioni lunghe: quali aiutano a imparare meglio?",
         "definitions": [
             {
-                "text": "Lezioni brevi o lezioni lunghe — quali aiutano a imparare meglio?",
+                "text": "Lezioni brevi o lezioni lunghe: quali aiutano a imparare meglio?",
                 "examples": []
             }
         ],
@@ -2969,7 +2969,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Progetti di gruppo o compiti individuali — cosa è meglio?",
+        "topic": "Progetti di gruppo o compiti individuali: cosa è meglio?",
         "sideA": "Gruppo",
         "sideB": "Individuale",
         "level": "elementary",
@@ -2982,10 +2982,10 @@
             "Sviluppare l'autosufficienza",
             "Focus di studio personale"
         ],
-        "word": "Progetti di gruppo o compiti individuali — cosa è meglio?",
+        "word": "Progetti di gruppo o compiti individuali: cosa è meglio?",
         "definitions": [
             {
-                "text": "Progetti di gruppo o compiti individuali — cosa è meglio?",
+                "text": "Progetti di gruppo o compiti individuali: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -2997,7 +2997,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Uniforme scolastica o vestiti casual a scuola — cosa è meglio?",
+        "topic": "Uniforme scolastica o vestiti casual a scuola: cosa è meglio?",
         "sideA": "Uniforme",
         "sideB": "Casual",
         "level": "elementary",
@@ -3010,10 +3010,10 @@
             "Auto-espressione personale",
             "Comfort quotidiano"
         ],
-        "word": "Uniforme scolastica o vestiti casual a scuola — cosa è meglio?",
+        "word": "Uniforme scolastica o vestiti casual a scuola: cosa è meglio?",
         "definitions": [
             {
-                "text": "Uniforme scolastica o vestiti casual a scuola — cosa è meglio?",
+                "text": "Uniforme scolastica o vestiti casual a scuola: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3025,7 +3025,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Pasti cucinati in casa o fast food — cosa è meglio?",
+        "topic": "Pasti cucinati in casa o fast food: cosa è meglio?",
         "sideA": "In casa",
         "sideB": "Fast food",
         "level": "elementary",
@@ -3038,10 +3038,10 @@
             "Servizio istantaneo",
             "Grande comodità"
         ],
-        "word": "Pasti cucinati in casa o fast food — cosa è meglio?",
+        "word": "Pasti cucinati in casa o fast food: cosa è meglio?",
         "definitions": [
             {
-                "text": "Pasti cucinati in casa o fast food — cosa è meglio?",
+                "text": "Pasti cucinati in casa o fast food: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3053,7 +3053,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Tre pasti abbondanti o molti piccoli spuntini — cosa è più sano?",
+        "topic": "Tre pasti abbondanti o molti piccoli spuntini: cosa è più sano?",
         "sideA": "Grandi pasti",
         "sideB": "Spuntini",
         "level": "elementary",
@@ -3066,10 +3066,10 @@
             "Mantenere l'energia stabile",
             "Supportare il metabolismo"
         ],
-        "word": "Tre pasti abbondanti o molti piccoli spuntini — cosa è più sano?",
+        "word": "Tre pasti abbondanti o molti piccoli spuntini: cosa è più sano?",
         "definitions": [
             {
-                "text": "Tre pasti abbondanti o molti piccoli spuntini — cosa è più sano?",
+                "text": "Tre pasti abbondanti o molti piccoli spuntini: cosa è più sano?",
                 "examples": []
             }
         ],
@@ -3081,7 +3081,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cibo vegetariano o carne — quale dieta è migliore?",
+        "topic": "Cibo vegetariano o carne: quale dieta è migliore?",
         "sideA": "Vegetariano",
         "sideB": "Carne",
         "level": "elementary",
@@ -3094,10 +3094,10 @@
             "Alti livelli proteici",
             "Gusto tradizionale"
         ],
-        "word": "Cibo vegetariano o carne — quale dieta è migliore?",
+        "word": "Cibo vegetariano o carne: quale dieta è migliore?",
         "definitions": [
             {
-                "text": "Cibo vegetariano o carne — quale dieta è migliore?",
+                "text": "Cibo vegetariano o carne: quale dieta è migliore?",
                 "examples": []
             }
         ],
@@ -3109,7 +3109,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Bere tè o bere caffè — cosa è meglio?",
+        "topic": "Bere tè o bere caffè: cosa è meglio?",
         "sideA": "Tè",
         "sideB": "Caffè",
         "level": "elementary",
@@ -3122,10 +3122,10 @@
             "Spinta di energia istantanea",
             "Cultura sociale globale"
         ],
-        "word": "Bere tè o bere caffè — cosa è meglio?",
+        "word": "Bere tè o bere caffè: cosa è meglio?",
         "definitions": [
             {
-                "text": "Bere tè o bere caffè — cosa è meglio?",
+                "text": "Bere tè o bere caffè: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3137,7 +3137,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Mangiare da soli o mangiare con altri — cosa è meglio?",
+        "topic": "Mangiare da soli o mangiare con altri: cosa è meglio?",
         "sideA": "Da soli",
         "sideB": "Con altri",
         "level": "elementary",
@@ -3150,10 +3150,10 @@
             "Legame sociale ed emotivo",
             "Condividere la gioia del cibo"
         ],
-        "word": "Mangiare da soli o mangiare con altri — cosa è meglio?",
+        "word": "Mangiare da soli o mangiare con altri: cosa è meglio?",
         "definitions": [
             {
-                "text": "Mangiare da soli o mangiare con altri — cosa è meglio?",
+                "text": "Mangiare da soli o mangiare con altri: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3165,7 +3165,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Praticare uno sport di squadra o uno sport individuale — cosa è meglio?",
+        "topic": "Praticare uno sport di squadra o uno sport individuale: cosa è meglio?",
         "sideA": "Sport di squadra",
         "sideB": "Sport individuale",
         "level": "elementary",
@@ -3178,10 +3178,10 @@
             "Obiettivi di performance personali",
             "Autosufficienza"
         ],
-        "word": "Praticare uno sport di squadra o uno sport individuale — cosa è meglio?",
+        "word": "Praticare uno sport di squadra o uno sport individuale: cosa è meglio?",
         "definitions": [
             {
-                "text": "Praticare uno sport di squadra o uno sport individuale — cosa è meglio?",
+                "text": "Praticare uno sport di squadra o uno sport individuale: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3193,7 +3193,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Passare il tempo libero al chiuso o all'aperto — cosa è meglio?",
+        "topic": "Passare il tempo libero al chiuso o all'aperto: cosa è meglio?",
         "sideA": "Al chiuso",
         "sideB": "All'aperto",
         "level": "elementary",
@@ -3206,10 +3206,10 @@
             "Salute nella natura",
             "Movimento fisico attivo"
         ],
-        "word": "Passare il tempo libero al chiuso o all'aperto — cosa è meglio?",
+        "word": "Passare il tempo libero al chiuso o all'aperto: cosa è meglio?",
         "definitions": [
             {
-                "text": "Passare il tempo libero al chiuso o all'aperto — cosa è meglio?",
+                "text": "Passare il tempo libero al chiuso o all'aperto: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3221,7 +3221,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cinema o teatro — quale è la migliore serata fuori?",
+        "topic": "Cinema o teatro: quale è la migliore serata fuori?",
         "sideA": "Cinema",
         "sideB": "Teatro",
         "level": "elementary",
@@ -3234,10 +3234,10 @@
             "Esperienza di recitazione dal vivo",
             "Tradizione culturale"
         ],
-        "word": "Cinema o teatro — quale è la migliore serata fuori?",
+        "word": "Cinema o teatro: quale è la migliore serata fuori?",
         "definitions": [
             {
-                "text": "Cinema o teatro — quale è la migliore serata fuori?",
+                "text": "Cinema o teatro: quale è la migliore serata fuori?",
                 "examples": []
             }
         ],
@@ -3249,7 +3249,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Ascoltare musica o suonare uno strumento — cosa è più piacevole?",
+        "topic": "Ascoltare musica o suonare uno strumento: cosa è più piacevole?",
         "sideA": "Ascoltare",
         "sideB": "Suonare",
         "level": "elementary",
@@ -3262,10 +3262,10 @@
             "Intenso sviluppo delle abilità",
             "Rilascio emotivo creativo"
         ],
-        "word": "Ascoltare musica o suonare uno strumento — cosa è più piacevole?",
+        "word": "Ascoltare musica o suonare uno strumento: cosa è più piacevole?",
         "definitions": [
             {
-                "text": "Ascoltare musica o suonare uno strumento — cosa è più piacevole?",
+                "text": "Ascoltare musica o suonare uno strumento: cosa è più piacevole?",
                 "examples": []
             }
         ],
@@ -3277,7 +3277,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Videogiochi o giochi da tavolo — quali sono più divertenti?",
+        "topic": "Videogiochi o giochi da tavolo: quali sono più divertenti?",
         "sideA": "Videogiochi",
         "sideB": "Giochi da tavolo",
         "level": "elementary",
@@ -3290,10 +3290,10 @@
             "Divertimento faccia a faccia",
             "Pezzi di gioco tattili"
         ],
-        "word": "Videogiochi o giochi da tavolo — quali sono più divertenti?",
+        "word": "Videogiochi o giochi da tavolo: quali sono più divertenti?",
         "definitions": [
             {
-                "text": "Videogiochi o giochi da tavolo — quali sono più divertenti?",
+                "text": "Videogiochi o giochi da tavolo: quali sono più divertenti?",
                 "examples": []
             }
         ],
@@ -3305,7 +3305,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Fare shopping o restare a casa — quale è il modo migliore per trascorrere il fine settimana?",
+        "topic": "Fare shopping o restare a casa: quale è il modo migliore per trascorrere il fine settimana?",
         "sideA": "Shopping",
         "sideB": "Restare a casa",
         "level": "elementary",
@@ -3318,10 +3318,10 @@
             "Pieno relax mentale",
             "Recupero dell'energia fisica"
         ],
-        "word": "Fare shopping o restare a casa — quale è il modo migliore per trascorrere il fine settimana?",
+        "word": "Fare shopping o restare a casa: quale è il modo migliore per trascorrere il fine settimana?",
         "definitions": [
             {
-                "text": "Fare shopping o restare a casa — quale è il modo migliore per trascorrere il fine settimana?",
+                "text": "Fare shopping o restare a casa: quale è il modo migliore per trascorrere il fine settimana?",
                 "examples": []
             }
         ],
@@ -3333,7 +3333,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cellulare o computer — quale è più utile nella vita quotidiana?",
+        "topic": "Cellulare o computer: quale è più utile nella vita quotidiana?",
         "sideA": "Cellulare",
         "sideB": "Computer",
         "level": "elementary",
@@ -3346,10 +3346,10 @@
             "Schermo di visualizzazione più grande",
             "Potenti strumenti di lavoro"
         ],
-        "word": "Cellulare o computer — quale è più utile nella vita quotidiana?",
+        "word": "Cellulare o computer: quale è più utile nella vita quotidiana?",
         "definitions": [
             {
-                "text": "Cellulare o computer — quale è più utile nella vita quotidiana?",
+                "text": "Cellulare o computer: quale è più utile nella vita quotidiana?",
                 "examples": []
             }
         ],
@@ -3361,7 +3361,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Inviare un messaggio o fare una telefonata — cosa è meglio?",
+        "topic": "Inviare un messaggio o fare una telefonata: cosa è meglio?",
         "sideA": "Messaggio",
         "sideB": "Chiamata",
         "level": "elementary",
@@ -3374,10 +3374,10 @@
             "Sentire l'emozione vocale",
             "Ottenere risultati diretti"
         ],
-        "word": "Inviare un messaggio o fare una telefonata — cosa è meglio?",
+        "word": "Inviare un messaggio o fare una telefonata: cosa è meglio?",
         "definitions": [
             {
-                "text": "Inviare un messaggio o fare una telefonata — cosa è meglio?",
+                "text": "Inviare un messaggio o fare una telefonata: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3389,7 +3389,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "E-book o libro cartaceo — cosa è meglio leggere?",
+        "topic": "E-book o libro cartaceo: cosa è meglio leggere?",
         "sideA": "E-book",
         "sideB": "Libro cartaceo",
         "level": "elementary",
@@ -3402,10 +3402,10 @@
             "Classica sensazione tattile",
             "Nessuna batteria necessaria"
         ],
-        "word": "E-book o libro cartaceo — cosa è meglio leggere?",
+        "word": "E-book o libro cartaceo: cosa è meglio leggere?",
         "definitions": [
             {
-                "text": "E-book o libro cartaceo — cosa è meglio leggere?",
+                "text": "E-book o libro cartaceo: cosa è meglio leggere?",
                 "examples": []
             }
         ],
@@ -3417,7 +3417,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Scattare foto con il telefono o con una fotocamera — cosa dà risultati migliori?",
+        "topic": "Scattare foto con il telefono o con una fotocamera: cosa dà risultati migliori?",
         "sideA": "Telefono",
         "sideB": "Fotocamera",
         "level": "elementary",
@@ -3430,10 +3430,10 @@
             "Alta qualità ottica",
             "Controllo manuale professionale"
         ],
-        "word": "Scattare foto con il telefono o con una fotocamera — cosa dà risultati migliori?",
+        "word": "Scattare foto con il telefono o con una fotocamera: cosa dà risultati migliori?",
         "definitions": [
             {
-                "text": "Scattare foto con il telefono o con una fotocamera — cosa dà risultati migliori?",
+                "text": "Scattare foto con il telefono o con una fotocamera: cosa dà risultati migliori?",
                 "examples": []
             }
         ],
@@ -3445,7 +3445,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vacanze al mare o vacanze in montagna — cosa è meglio?",
+        "topic": "Vacanze al mare o vacanze in montagna: cosa è meglio?",
         "sideA": "Mare",
         "sideB": "Montagna",
         "level": "elementary",
@@ -3458,10 +3458,10 @@
             "Migliorare la salute con l'escursionismo",
             "Splendide viste panoramiche"
         ],
-        "word": "Vacanze al mare o vacanze in montagna — cosa è meglio?",
+        "word": "Vacanze al mare o vacanze in montagna: cosa è meglio?",
         "definitions": [
             {
-                "text": "Vacanze al mare o vacanze in montagna — cosa è meglio?",
+                "text": "Vacanze al mare o vacanze in montagna: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3473,7 +3473,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Viaggiare in treno o viaggiare in aereo — cosa è meglio?",
+        "topic": "Viaggiare in treno o viaggiare in aereo: cosa è meglio?",
         "sideA": "Treno",
         "sideB": "Aereo",
         "level": "elementary",
@@ -3486,10 +3486,10 @@
             "Massima velocità di viaggio",
             "Viaggi a lunga distanza"
         ],
-        "word": "Viaggiare in treno o viaggiare in aereo — cosa è meglio?",
+        "word": "Viaggiare in treno o viaggiare in aereo: cosa è meglio?",
         "definitions": [
             {
-                "text": "Viaggiare in treno o viaggiare in aereo — cosa è meglio?",
+                "text": "Viaggiare in treno o viaggiare in aereo: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3501,7 +3501,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Visitare una città famosa o visitare un piccolo villaggio — cosa è più interessante?",
+        "topic": "Visitare una città famosa o visitare un piccolo villaggio: cosa è più interessante?",
         "sideA": "Città",
         "sideB": "Villaggio",
         "level": "elementary",
@@ -3514,10 +3514,10 @@
             "Tradizioni locali",
             "Tranquillo fascino del villaggio"
         ],
-        "word": "Visitare una città famosa o visitare un piccolo villaggio — cosa è più interessante?",
+        "word": "Visitare una città famosa o visitare un piccolo villaggio: cosa è più interessante?",
         "definitions": [
             {
-                "text": "Visitare una città famosa o visitare un piccolo villaggio — cosa è più interessante?",
+                "text": "Visitare una città famosa o visitare un piccolo villaggio: cosa è più interessante?",
                 "examples": []
             }
         ],
@@ -3529,7 +3529,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Soggiornare in un hotel o presso una famiglia locale — cosa è meglio?",
+        "topic": "Soggiornare in un hotel o presso una famiglia locale: cosa è meglio?",
         "sideA": "Hotel",
         "sideB": "Famiglia locale",
         "level": "elementary",
@@ -3542,10 +3542,10 @@
             "Profondo scambio culturale",
             "Migliore pratica della lingua"
         ],
-        "word": "Soggiornare in un hotel o presso una famiglia locale — cosa è meglio?",
+        "word": "Soggiornare in un hotel o presso una famiglia locale: cosa è meglio?",
         "definitions": [
             {
-                "text": "Soggiornare in un hotel o presso una famiglia locale — cosa è meglio?",
+                "text": "Soggiornare in un hotel o presso una famiglia locale: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3557,7 +3557,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Viaggiare all'estero o esplorare il proprio paese — cosa vale di più la pena?",
+        "topic": "Viaggiare all'estero o esplorare il proprio paese: cosa vale di più la pena?",
         "sideA": "Estero",
         "sideB": "Proprio paese",
         "level": "elementary",
@@ -3570,10 +3570,10 @@
             "Trovare gemme nascoste",
             "Pianificazione del viaggio più facile"
         ],
-        "word": "Viaggiare all'estero o esplorare il proprio paese — cosa vale di più la pena?",
+        "word": "Viaggiare all'estero o esplorare il proprio paese: cosa vale di più la pena?",
         "definitions": [
             {
-                "text": "Viaggiare all'estero o esplorare il proprio paese — cosa vale di più la pena?",
+                "text": "Viaggiare all'estero o esplorare il proprio paese: cosa vale di più la pena?",
                 "examples": []
             }
         ],
@@ -3585,7 +3585,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Avere molti amici o avere pochi amici stretti — cosa è meglio?",
+        "topic": "Avere molti amici o avere pochi amici stretti: cosa è meglio?",
         "sideA": "Molti amici",
         "sideB": "Amici stretti",
         "level": "elementary",
@@ -3598,10 +3598,10 @@
             "Profonda lealtà",
             "Forte legame di fiducia"
         ],
-        "word": "Avere molti amici o avere pochi amici stretti — cosa è meglio?",
+        "word": "Avere molti amici o avere pochi amici stretti: cosa è meglio?",
         "definitions": [
             {
-                "text": "Avere molti amici o avere pochi amici stretti — cosa è meglio?",
+                "text": "Avere molti amici o avere pochi amici stretti: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3613,7 +3613,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Incontrare gli amici di persona o chattare online — cosa è più soddisfacente?",
+        "topic": "Incontrare gli amici di persona o chattare online: cosa è più soddisfacente?",
         "sideA": "Di persona",
         "sideB": "Online",
         "level": "elementary",
@@ -3626,10 +3626,10 @@
             "Alta efficienza temporale",
             "Rimanere facilmente connessi"
         ],
-        "word": "Incontrare gli amici di persona o chattare online — cosa è più soddisfacente?",
+        "word": "Incontrare gli amici di persona o chattare online: cosa è più soddisfacente?",
         "definitions": [
             {
-                "text": "Incontrare gli amici di persona o chattare online — cosa è più soddisfacente?",
+                "text": "Incontrare gli amici di persona o chattare online: cosa è più soddisfacente?",
                 "examples": []
             }
         ],
@@ -3641,7 +3641,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vivere con i genitori o in un appartamento per studenti — cosa è meglio per i giovani?",
+        "topic": "Vivere con i genitori o in un appartamento per studenti: cosa è meglio per i giovani?",
         "sideA": "Genitori",
         "sideB": "Appartamento studenti",
         "level": "elementary",
@@ -3654,10 +3654,10 @@
             "Vita sociale vivace",
             "Costruire l'autosufficienza"
         ],
-        "word": "Vivere con i genitori o in un appartamento per studenti — cosa è meglio per i giovani?",
+        "word": "Vivere con i genitori o in un appartamento per studenti: cosa è meglio per i giovani?",
         "definitions": [
             {
-                "text": "Vivere con i genitori o in un appartamento per studenti — cosa è meglio per i giovani?",
+                "text": "Vivere con i genitori o in un appartamento per studenti: cosa è meglio per i giovani?",
                 "examples": []
             }
         ],
@@ -3669,7 +3669,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Festeggiare il compleanno a casa o uscire — cosa è più carino?",
+        "topic": "Festeggiare il compleanno a casa o uscire: cosa è più carino?",
         "sideA": "Casa",
         "sideB": "Uscire",
         "level": "elementary",
@@ -3682,10 +3682,10 @@
             "Nessuna pulizia domestica",
             "Provare cibo professionale"
         ],
-        "word": "Festeggiare il compleanno a casa o uscire — cosa è più carino?",
+        "word": "Festeggiare il compleanno a casa o uscire: cosa è più carino?",
         "definitions": [
             {
-                "text": "Festeggiare il compleanno a casa o uscire — cosa è più carino?",
+                "text": "Festeggiare il compleanno a casa o uscire: cosa è più carino?",
                 "examples": []
             }
         ],
@@ -3697,7 +3697,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Risparmiare denaro o spendere denaro — cosa è più saggio?",
+        "topic": "Risparmiare denaro o spendere denaro: cosa è più saggio?",
         "sideA": "Risparmiare",
         "sideB": "Spendere",
         "level": "elementary",
@@ -3710,10 +3710,10 @@
             "Ricevere gioia istantanea",
             "Supportare la salute economica"
         ],
-        "word": "Risparmiare denaro o spendere denaro — cosa è più saggio?",
+        "word": "Risparmiare denaro o spendere denaro: cosa è più saggio?",
         "definitions": [
             {
-                "text": "Risparmiare denaro o spendere denaro — cosa è più saggio?",
+                "text": "Risparmiare denaro o spendere denaro: cosa è più saggio?",
                 "examples": []
             }
         ],
@@ -3725,7 +3725,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola — cosa è meglio?",
+        "topic": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola: cosa è meglio?",
         "sideA": "Part-time",
         "sideB": "Solo scuola",
         "level": "elementary",
@@ -3738,10 +3738,10 @@
             "Eccellenza accademica",
             "Minore stress quotidiano"
         ],
-        "word": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola — cosa è meglio?",
+        "word": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola: cosa è meglio?",
         "definitions": [
             {
-                "text": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola — cosa è meglio?",
+                "text": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3753,7 +3753,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Guadagnare molti soldi o avere tempo libero — cosa conta di più?",
+        "topic": "Guadagnare molti soldi o avere tempo libero: cosa conta di più?",
         "sideA": "Soldi",
         "sideB": "Tempo libero",
         "level": "elementary",
@@ -3766,10 +3766,10 @@
             "Proteggere la salute mentale",
             "Famiglia e hobby"
         ],
-        "word": "Guadagnare molti soldi o avere tempo libero — cosa conta di più?",
+        "word": "Guadagnare molti soldi o avere tempo libero: cosa conta di più?",
         "definitions": [
             {
-                "text": "Guadagnare molti soldi o avere tempo libero — cosa conta di più?",
+                "text": "Guadagnare molti soldi o avere tempo libero: cosa conta di più?",
                 "examples": []
             }
         ],
@@ -3781,7 +3781,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Vivere con i nonni vs non vivere con loro — cosa è più piacevole?",
+        "topic": "Vivere con i nonni vs non vivere con loro: cosa è più piacevole?",
         "sideA": "Con i nonni",
         "sideB": "Senza i nonni",
         "level": "elementary",
@@ -3794,10 +3794,10 @@
             "Maggiore privacy domestica",
             "Ambiente domestico tranquillo"
         ],
-        "word": "Vivere con i nonni vs non vivere con loro — cosa è più piacevole?",
+        "word": "Vivere con i nonni vs non vivere con loro: cosa è più piacevole?",
         "definitions": [
             {
-                "text": "Vivere con i nonni vs non vivere con loro — cosa è più piacevole?",
+                "text": "Vivere con i nonni vs non vivere con loro: cosa è più piacevole?",
                 "examples": []
             }
         ],
@@ -3809,7 +3809,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cucina della mamma vs cucina del papà — quale è migliore?",
+        "topic": "Cucina della mamma vs cucina del papà: quale è migliore?",
         "sideA": "Mamma",
         "sideB": "Papà",
         "level": "elementary",
@@ -3822,10 +3822,10 @@
             "Nuove ricette innovative",
             "Speciali dolcetti del weekend"
         ],
-        "word": "Cucina della mamma vs cucina del papà — quale è migliore?",
+        "word": "Cucina della mamma vs cucina del papà: quale è migliore?",
         "definitions": [
             {
-                "text": "Cucina della mamma vs cucina del papà — quale è migliore?",
+                "text": "Cucina della mamma vs cucina del papà: quale è migliore?",
                 "examples": []
             }
         ],
@@ -3837,7 +3837,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Matematica vs arte — quale materia è più divertente?",
+        "topic": "Matematica vs arte: quale materia è più divertente?",
         "sideA": "Matematica",
         "sideB": "Arte",
         "level": "elementary",
@@ -3850,10 +3850,10 @@
             "Auto-espressione creativa",
             "Rilascio emotivo"
         ],
-        "word": "Matematica vs arte — quale materia è più divertente?",
+        "word": "Matematica vs arte: quale materia è più divertente?",
         "definitions": [
             {
-                "text": "Matematica vs arte — quale materia è più divertente?",
+                "text": "Matematica vs arte: quale materia è più divertente?",
                 "examples": []
             }
         ],
@@ -3865,7 +3865,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Scrivere su carta vs scrivere su un tablet — cosa è meglio?",
+        "topic": "Scrivere su carta vs scrivere su un tablet: cosa è meglio?",
         "sideA": "Carta",
         "sideB": "Tablet",
         "level": "elementary",
@@ -3878,10 +3878,10 @@
             "Comodità di archiviazione",
             "Utile auto-correzione"
         ],
-        "word": "Scrivere su carta vs scrivere su un tablet — cosa è meglio?",
+        "word": "Scrivere su carta vs scrivere su un tablet: cosa è meglio?",
         "definitions": [
             {
-                "text": "Scrivere su carta vs scrivere su un tablet — cosa è meglio?",
+                "text": "Scrivere su carta vs scrivere su un tablet: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3893,7 +3893,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Pizza vs pasta — cosa è più buono?",
+        "topic": "Pizza vs pasta: cosa è più buono?",
         "sideA": "Pizza",
         "sideB": "Pasta",
         "level": "elementary",
@@ -3906,10 +3906,10 @@
             "Formati di pasta versatili",
             "Ricchi sughi deliziosi"
         ],
-        "word": "Pizza vs pasta — cosa è più buono?",
+        "word": "Pizza vs pasta: cosa è più buono?",
         "definitions": [
             {
-                "text": "Pizza vs pasta — cosa è più buono?",
+                "text": "Pizza vs pasta: cosa è più buono?",
                 "examples": []
             }
         ],
@@ -3921,7 +3921,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Gelato vs torta — quale è il dessert migliore?",
+        "topic": "Gelato vs torta: quale è il dessert migliore?",
         "sideA": "Gelato",
         "sideB": "Torta",
         "level": "elementary",
@@ -3934,10 +3934,10 @@
             "Caldo comfort del dessert",
             "Sentimento di celebrazione"
         ],
-        "word": "Gelato vs torta — quale è il dessert migliore?",
+        "word": "Gelato vs torta: quale è il dessert migliore?",
         "definitions": [
             {
-                "text": "Gelato vs torta — quale è il dessert migliore?",
+                "text": "Gelato vs torta: quale è il dessert migliore?",
                 "examples": []
             }
         ],
@@ -3949,7 +3949,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Giorni brevi vs giorni lunghi — cosa è meglio?",
+        "topic": "Giorni brevi vs giorni lunghi: cosa è meglio?",
         "sideA": "Giorni brevi",
         "sideB": "Giorni lunghi",
         "level": "elementary",
@@ -3962,10 +3962,10 @@
             "Ricevere Vitamina D",
             "Più tempo all'aperto"
         ],
-        "word": "Giorni brevi vs giorni lunghi — cosa è meglio?",
+        "word": "Giorni brevi vs giorni lunghi: cosa è meglio?",
         "definitions": [
             {
-                "text": "Giorni brevi vs giorni lunghi — cosa è meglio?",
+                "text": "Giorni brevi vs giorni lunghi: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -3977,7 +3977,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Giorno al parco vs giorno in spiaggia — cosa è meglio?",
+        "topic": "Giorno al parco vs giorno in spiaggia: cosa è meglio?",
         "sideA": "Parco",
         "sideB": "Spiaggia",
         "level": "elementary",
@@ -3990,10 +3990,10 @@
             "Rilassante brezza marina",
             "Intense attività con le onde"
         ],
-        "word": "Giorno al parco vs giorno in spiaggia — cosa è meglio?",
+        "word": "Giorno al parco vs giorno in spiaggia: cosa è meglio?",
         "definitions": [
             {
-                "text": "Giorno al parco vs giorno in spiaggia — cosa è meglio?",
+                "text": "Giorno al parco vs giorno in spiaggia: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4005,7 +4005,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Aereo vs treno — cosa è più divertente?",
+        "topic": "Aereo vs treno: cosa è più divertente?",
         "sideA": "Aereo",
         "sideB": "Treno",
         "level": "elementary",
@@ -4018,10 +4018,10 @@
             "Godersi il paesaggio in movimento",
             "Spazio per camminare"
         ],
-        "word": "Aereo vs treno — cosa è più divertente?",
+        "word": "Aereo vs treno: cosa è più divertente?",
         "definitions": [
             {
-                "text": "Aereo vs treno — cosa è più divertente?",
+                "text": "Aereo vs treno: cosa è più divertente?",
                 "examples": []
             }
         ],
@@ -4033,7 +4033,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Doccia al mattino vs doccia alla sera — cosa è meglio?",
+        "topic": "Doccia al mattino vs doccia alla sera: cosa è meglio?",
         "sideA": "Mattino",
         "sideB": "Sera",
         "level": "elementary",
@@ -4046,10 +4046,10 @@
             "Relax completo",
             "Mantenere le lenzuola pulite"
         ],
-        "word": "Doccia al mattino vs doccia alla sera — cosa è meglio?",
+        "word": "Doccia al mattino vs doccia alla sera: cosa è meglio?",
         "definitions": [
             {
-                "text": "Doccia al mattino vs doccia alla sera — cosa è meglio?",
+                "text": "Doccia al mattino vs doccia alla sera: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4061,7 +4061,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Gatti che buttano giù le cose vs cani che masticano le scarpe — quale animale è più fastidioso?",
+        "topic": "Gatti che buttano giù le cose vs cani che masticano le scarpe: quale animale è più fastidioso?",
         "sideA": "Gatti",
         "sideB": "Cani",
         "level": "elementary",
@@ -4074,10 +4074,10 @@
             "Danni alla proprietà",
             "Costose riparazioni di scarpe"
         ],
-        "word": "Gatti che buttano giù le cose vs cani che masticano le scarpe — quale animale è più fastidioso?",
+        "word": "Gatti che buttano giù le cose vs cani che masticano le scarpe: quale animale è più fastidioso?",
         "definitions": [
             {
-                "text": "Gatti che buttano giù le cose vs cani che masticano le scarpe — quale animale è più fastidioso?",
+                "text": "Gatti che buttano giù le cose vs cani che masticano le scarpe: quale animale è più fastidioso?",
                 "examples": []
             }
         ],
@@ -4089,7 +4089,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Mangiare la pizza con la forchetta vs con le mani — cosa è corretto?",
+        "topic": "Mangiare la pizza con la forchetta vs con le mani: cosa è corretto?",
         "sideA": "Forchetta",
         "sideB": "Mani",
         "level": "elementary",
@@ -4102,10 +4102,10 @@
             "Divertimento diretto con il cibo",
             "Stile di alimentazione autentico"
         ],
-        "word": "Mangiare la pizza con la forchetta vs con le mani — cosa è corretto?",
+        "word": "Mangiare la pizza con la forchetta vs con le mani: cosa è corretto?",
         "definitions": [
             {
-                "text": "Mangiare la pizza con la forchetta vs con le mani — cosa è corretto?",
+                "text": "Mangiare la pizza con la forchetta vs con le mani: cosa è corretto?",
                 "examples": []
             }
         ],
@@ -4117,7 +4117,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Dormire con le calze vs senza calze — cosa è meglio?",
+        "topic": "Dormire con le calze vs senza calze: cosa è meglio?",
         "sideA": "Con le calze",
         "sideB": "Senza",
         "level": "elementary",
@@ -4130,10 +4130,10 @@
             "Raffreddamento naturale del corpo",
             "Sensazione naturale della pelle"
         ],
-        "word": "Dormire con le calze vs senza calze — cosa è meglio?",
+        "word": "Dormire con le calze vs senza calze: cosa è meglio?",
         "definitions": [
             {
-                "text": "Dormire con le calze vs senza calze — cosa è meglio?",
+                "text": "Dormire con le calze vs senza calze: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4145,7 +4145,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Castello di sabbia vs pupazzo di neve — cosa è più divertente da costruire?",
+        "topic": "Castello di sabbia vs pupazzo di neve: cosa è più divertente da costruire?",
         "sideA": "Castello di sabbia",
         "sideB": "Pupazzo di neve",
         "level": "elementary",
@@ -4158,10 +4158,10 @@
             "Magia stagionale invernale",
             "Divertimento sociale collaborativo"
         ],
-        "word": "Castello di sabbia vs pupazzo di neve — cosa è più divertente da costruire?",
+        "word": "Castello di sabbia vs pupazzo di neve: cosa è più divertente da costruire?",
         "definitions": [
             {
-                "text": "Castello di sabbia vs pupazzo di neve — cosa è più divertente da costruire?",
+                "text": "Castello di sabbia vs pupazzo di neve: cosa è più divertente da costruire?",
                 "examples": []
             }
         ],
@@ -4173,7 +4173,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Molti esami vs pochissimi esami — cosa è più giusto?",
+        "topic": "Molti esami vs pochissimi esami: cosa è più giusto?",
         "sideA": "Molti esami",
         "sideB": "Pochissimi esami",
         "level": "elementary",
@@ -4186,10 +4186,10 @@
             "Intenso focus sui progetti",
             "Ridurre lo stress degli studenti"
         ],
-        "word": "Molti esami vs pochissimi esami — cosa è più giusto?",
+        "word": "Molti esami vs pochissimi esami: cosa è più giusto?",
         "definitions": [
             {
-                "text": "Molti esami vs pochissimi esami — cosa è più giusto?",
+                "text": "Molti esami vs pochissimi esami: cosa è più giusto?",
                 "examples": []
             }
         ],
@@ -4201,7 +4201,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Iniziare la scuola a 7 anni vs iniziare a 5 anni — cosa è meglio per i bambini?",
+        "topic": "Iniziare la scuola a 7 anni vs iniziare a 5 anni: cosa è meglio per i bambini?",
         "sideA": "A 7 anni",
         "sideB": "A 5 anni",
         "level": "elementary",
@@ -4214,10 +4214,10 @@
             "Alfabetizzazione quotidiana precoce",
             "Inizio strutturato della vita"
         ],
-        "word": "Iniziare la scuola a 7 anni vs iniziare a 5 anni — cosa è meglio per i bambini?",
+        "word": "Iniziare la scuola a 7 anni vs iniziare a 5 anni: cosa è meglio per i bambini?",
         "definitions": [
             {
-                "text": "Iniziare la scuola a 7 anni vs iniziare a 5 anni — cosa è meglio per i bambini?",
+                "text": "Iniziare la scuola a 7 anni vs iniziare a 5 anni: cosa è meglio per i bambini?",
                 "examples": []
             }
         ],
@@ -4229,7 +4229,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Mangiare lentamente vs mangiare velocemente — cosa è meglio per te?",
+        "topic": "Mangiare lentamente vs mangiare velocemente: cosa è meglio per te?",
         "sideA": "Lentamente",
         "sideB": "Velocemente",
         "level": "elementary",
@@ -4242,10 +4242,10 @@
             "Risparmiare tempo quotidiano",
             "Abitudini efficienti"
         ],
-        "word": "Mangiare lentamente vs mangiare velocemente — cosa è meglio per te?",
+        "word": "Mangiare lentamente vs mangiare velocemente: cosa è meglio per te?",
         "definitions": [
             {
-                "text": "Mangiare lentamente vs mangiare velocemente — cosa è meglio per te?",
+                "text": "Mangiare lentamente vs mangiare velocemente: cosa è meglio per te?",
                 "examples": []
             }
         ],
@@ -4257,7 +4257,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cucinare a casa vs ordinare online — cosa è meglio?",
+        "topic": "Cucinare a casa vs ordinare online: cosa è meglio?",
         "sideA": "Cucinare a casa",
         "sideB": "Ordinare online",
         "level": "elementary",
@@ -4270,10 +4270,10 @@
             "Estrema facilità quotidiana",
             "Zero sforzo fisico"
         ],
-        "word": "Cucinare a casa vs ordinare online — cosa è meglio?",
+        "word": "Cucinare a casa vs ordinare online: cosa è meglio?",
         "definitions": [
             {
-                "text": "Cucinare a casa vs ordinare online — cosa è meglio?",
+                "text": "Cucinare a casa vs ordinare online: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4285,7 +4285,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Cucinare vs fare dolci — cosa è più divertente come hobby?",
+        "topic": "Cucinare vs fare dolci: cosa è più divertente come hobby?",
         "sideA": "Cucinare",
         "sideB": "Pasticceria",
         "level": "elementary",
@@ -4298,10 +4298,10 @@
             "Precisione scientifica",
             "Dolci ricompense"
         ],
-        "word": "Cucinare vs fare dolci — cosa è più divertente come hobby?",
+        "word": "Cucinare vs fare dolci: cosa è più divertente come hobby?",
         "definitions": [
             {
-                "text": "Cucinare vs fare dolci — cosa è più divertente come hobby?",
+                "text": "Cucinare vs fare dolci: cosa è più divertente come hobby?",
                 "examples": []
             }
         ],
@@ -4313,7 +4313,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Andare in palestra vs allenarsi all'aperto — cosa è meglio?",
+        "topic": "Andare in palestra vs allenarsi all'aperto: cosa è meglio?",
         "sideA": "Palestra",
         "sideB": "All'aperto",
         "level": "elementary",
@@ -4326,10 +4326,10 @@
             "Respirare aria fresca",
             "Terreno variabile"
         ],
-        "word": "Andare in palestra vs allenarsi all'aperto — cosa è meglio?",
+        "word": "Andare in palestra vs allenarsi all'aperto: cosa è meglio?",
         "definitions": [
             {
-                "text": "Andare in palestra vs allenarsi all'aperto — cosa è meglio?",
+                "text": "Andare in palestra vs allenarsi all'aperto: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4341,7 +4341,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Foto sul telefono vs foto stampate — cosa è meglio?",
+        "topic": "Foto sul telefono vs foto stampate: cosa è meglio?",
         "sideA": "Sul telefono",
         "sideB": "Stampate",
         "level": "elementary",
@@ -4354,10 +4354,10 @@
             "Storia tattile",
             "Valore decorativo fisico"
         ],
-        "word": "Foto sul telefono vs foto stampate — cosa è meglio?",
+        "word": "Foto sul telefono vs foto stampate: cosa è meglio?",
         "definitions": [
             {
-                "text": "Foto sul telefono vs foto stampate — cosa è meglio?",
+                "text": "Foto sul telefono vs foto stampate: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4369,7 +4369,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Smart TV vs schermo del computer — cosa è meglio per guardare film?",
+        "topic": "Smart TV vs schermo del computer: cosa è meglio per guardare film?",
         "sideA": "Smart TV",
         "sideB": "Computer",
         "level": "elementary",
@@ -4382,10 +4382,10 @@
             "Privacy personale",
             "Visione ravvicinata"
         ],
-        "word": "Smart TV vs schermo del computer — cosa è meglio per guardare film?",
+        "word": "Smart TV vs schermo del computer: cosa è meglio per guardare film?",
         "definitions": [
             {
-                "text": "Smart TV vs schermo del computer — cosa è meglio per guardare film?",
+                "text": "Smart TV vs schermo del computer: cosa è meglio per guardare film?",
                 "examples": []
             }
         ],
@@ -4397,7 +4397,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Paese caldo vs paese freddo — quale è la migliore destinazione per le vacanze?",
+        "topic": "Paese caldo vs paese freddo: quale è la migliore destinazione per le vacanze?",
         "sideA": "Paese caldo",
         "sideB": "Paese freddo",
         "level": "elementary",
@@ -4410,10 +4410,10 @@
             "Benefici per la salute dello sci",
             "Vedere l'aurora boreale"
         ],
-        "word": "Paese caldo vs paese freddo — quale è la migliore destinazione per le vacanze?",
+        "word": "Paese caldo vs paese freddo: quale è la migliore destinazione per le vacanze?",
         "definitions": [
             {
-                "text": "Paese caldo vs paese freddo — quale è la migliore destinazione per le vacanze?",
+                "text": "Paese caldo vs paese freddo: quale è la migliore destinazione per le vacanze?",
                 "examples": []
             }
         ],
@@ -4425,7 +4425,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Fare regali vs ricevere regali — cosa è meglio?",
+        "topic": "Fare regali vs ricevere regali: cosa è meglio?",
         "sideA": "Fare regali",
         "sideB": "Ricevere regali",
         "level": "elementary",
@@ -4438,10 +4438,10 @@
             "Sorpresa eccitante",
             "Sentirsi veramente apprezzati"
         ],
-        "word": "Fare regali vs ricevere regali — cosa è meglio?",
+        "word": "Fare regali vs ricevere regali: cosa è meglio?",
         "definitions": [
             {
-                "text": "Fare regali vs ricevere regali — cosa è meglio?",
+                "text": "Fare regali vs ricevere regali: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4453,7 +4453,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lavorare al chiuso vs lavorare all'aperto — cosa è meglio?",
+        "topic": "Lavorare al chiuso vs lavorare all'aperto: cosa è meglio?",
         "sideA": "Al chiuso",
         "sideB": "All'aperto",
         "level": "elementary",
@@ -4466,10 +4466,10 @@
             "Migliorare la salute fisica",
             "Godersi panorami mutevoli"
         ],
-        "word": "Lavorare al chiuso vs lavorare all'aperto — cosa è meglio?",
+        "word": "Lavorare al chiuso vs lavorare all'aperto: cosa è meglio?",
         "definitions": [
             {
-                "text": "Lavorare al chiuso vs lavorare all'aperto — cosa è meglio?",
+                "text": "Lavorare al chiuso vs lavorare all'aperto: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4481,7 +4481,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Ananas sulla pizza vs niente ananas — cosa è corretto?",
+        "topic": "Ananas sulla pizza vs niente ananas: cosa è corretto?",
         "sideA": "Ananas",
         "sideB": "Niente ananas",
         "level": "elementary",
@@ -4494,10 +4494,10 @@
             "Seguire le regole tradizionali",
             "Evitare scontri di sapore"
         ],
-        "word": "Ananas sulla pizza vs niente ananas — cosa è corretto?",
+        "word": "Ananas sulla pizza vs niente ananas: cosa è corretto?",
         "definitions": [
             {
-                "text": "Ananas sulla pizza vs niente ananas — cosa è corretto?",
+                "text": "Ananas sulla pizza vs niente ananas: cosa è corretto?",
                 "examples": []
             }
         ],
@@ -4509,7 +4509,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Mettere prima il latte vs mettere prima il tè — cosa è meglio?",
+        "topic": "Mettere prima il latte vs mettere prima il tè: cosa è meglio?",
         "sideA": "Prima il latte",
         "sideB": "Prima il tè",
         "level": "elementary",
@@ -4522,10 +4522,10 @@
             "Migliore processo di infusione",
             "Gusto pieno e intenso"
         ],
-        "word": "Mettere prima il latte vs mettere prima il tè — cosa è meglio?",
+        "word": "Mettere prima il latte vs mettere prima il tè: cosa è meglio?",
         "definitions": [
             {
-                "text": "Mettere prima il latte vs mettere prima il tè — cosa è meglio?",
+                "text": "Mettere prima il latte vs mettere prima il tè: cosa è meglio?",
                 "examples": []
             }
         ],
@@ -4537,7 +4537,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Lunedì vs Venerdì — quale giorno è effettivamente peggiore?",
+        "topic": "Lunedì vs Venerdì: quale giorno è effettivamente peggiore?",
         "sideA": "Lunedì",
         "sideB": "Venerdì",
         "level": "elementary",
@@ -4550,10 +4550,10 @@
             "Lunga attesa per il weekend",
             "Fatica di fine lavoro"
         ],
-        "word": "Lunedì vs Venerdì — quale giorno è effettivamente peggiore?",
+        "word": "Lunedì vs Venerdì: quale giorno è effettivamente peggiore?",
         "definitions": [
             {
-                "text": "Lunedì vs Venerdì — quale giorno è effettivamente peggiore?",
+                "text": "Lunedì vs Venerdì: quale giorno è effettivamente peggiore?",
                 "examples": []
             }
         ],
@@ -4565,7 +4565,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia — cosa è più fastidioso?",
+        "topic": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia: cosa è più fastidioso?",
         "sideA": "Prima della sveglia",
         "sideB": "Fino alla sveglia",
         "level": "elementary",
@@ -4578,10 +4578,10 @@
             "Effetto shock",
             "Nessun tempo di preparazione"
         ],
-        "word": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia — cosa è più fastidioso?",
+        "word": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia: cosa è più fastidioso?",
         "definitions": [
             {
-                "text": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia — cosa è più fastidioso?",
+                "text": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia: cosa è più fastidioso?",
                 "examples": []
             }
         ],
@@ -4593,7 +4593,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Gatti vs cani — quale animale è segretamente il capo della casa?",
+        "topic": "Gatti vs cani: quale animale è segretamente il capo della casa?",
         "sideA": "Gatti",
         "sideB": "Cani",
         "level": "elementary",
@@ -4606,10 +4606,10 @@
             "Energia fisica",
             "Lealtà palese"
         ],
-        "word": "Gatti vs cani — quale animale è segretamente il capo della casa?",
+        "word": "Gatti vs cani: quale animale è segretamente il capo della casa?",
         "definitions": [
             {
-                "text": "Gatti vs cani — quale animale è segretamente il capo della casa?",
+                "text": "Gatti vs cani: quale animale è segretamente il capo della casa?",
                 "examples": []
             }
         ],
@@ -4621,7 +4621,7 @@
         "emoji": "💬"
     },
     {
-        "topic": "Avere troppo caldo vs avere troppo freddo — cosa è peggio?",
+        "topic": "Avere troppo caldo vs avere troppo freddo: cosa è peggio?",
         "sideA": "Troppo caldo",
         "sideB": "Troppo freddo",
         "level": "elementary",
@@ -4634,10 +4634,10 @@
             "Dolore da brividi",
             "Abbigliamento invernale restrittivo"
         ],
-        "word": "Avere troppo caldo vs avere troppo freddo — cosa è peggio?",
+        "word": "Avere troppo caldo vs avere troppo freddo: cosa è peggio?",
         "definitions": [
             {
-                "text": "Avere troppo caldo vs avere troppo freddo — cosa è peggio?",
+                "text": "Avere troppo caldo vs avere troppo freddo: cosa è peggio?",
                 "examples": []
             }
         ],
