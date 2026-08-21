@@ -150,7 +150,7 @@
                                 e.preventDefault();
                                 const targetEl = document.querySelector(href);
                                 if (targetEl) {
-                                    const offset = 80;
+                                    const offset = 112;
                                     const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
                                     const offsetPosition = elementPosition - offset;
                                     window.scrollTo({
@@ -237,8 +237,8 @@
         const elements = main.querySelectorAll(selectors.join(', '));
 
         elements.forEach(el => {
-            // Avoid selecting internal elements like modals, FABs, form fields, footer
-            if (el.closest('#cosy-nav, #dict-panel, #pin-modal, #back-to-top, .mobile-nav, footer, header, #sd-drawer, .summary-modal')) {
+            // Avoid selecting internal elements like modals, FABs, form fields, footer, drawer
+            if (el.closest('#cosy-nav, #dict-panel, #pin-modal, #back-to-top, .mobile-nav, footer, header, #sd-drawer, .sd-drawer, .summary-modal')) {
                 return;
             }
 
@@ -265,7 +265,8 @@
             const blacklistedIds = [
                 'cosy-nav', 'description', 'structure', 'wonder-passcode-gate',
                 'kus-dynamic-switcher-placeholder', 'session-mini-nav', 'back-to-top',
-                'go-deeper', 'dict-panel', 'pin-modal', 'main-content', 'main', 'notebook-container'
+                'go-deeper', 'dict-panel', 'pin-modal', 'main-content', 'main', 'notebook-container',
+                'sd-drawer', 'sd-drawer-backdrop', 'session-directory-root'
             ];
             if (blacklistedIds.includes(sid)) return;
 
@@ -287,44 +288,59 @@
 
         if (candidates.length < 2) return;
 
-        const navContainer = document.createElement('nav');
-        navContainer.id = 'session-mini-nav';
-        navContainer.className = 'session-mini-nav sd-jump-links';
-        navContainer.setAttribute('aria-label', 'Page section jump links');
+        // Build standardized dynamic sticky subheader
+        const headerContainer = document.createElement('header');
+        headerContainer.id = 'session-mini-nav';
+        headerContainer.className = 'sd-sticky-header';
+
+        const p = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '';
+        let breadcrumbsHtml = `<a href="${p}index.html">Home</a>`;
+        const existingBc = document.querySelector('.sd-breadcrumbs, .cosy-breadcrumbs');
+        if (existingBc && existingBc.children.length > 0) {
+            breadcrumbsHtml = existingBc.innerHTML;
+        } else {
+            const pageTitle = (document.title || '').split('—')[0].split('|')[0].trim();
+            if (pageTitle && pageTitle.toLowerCase() !== 'home' && pageTitle.toLowerCase() !== 'cosylanguages') {
+                breadcrumbsHtml += `<span class="sep">/</span><span class="current">${pageTitle}</span>`;
+            }
+        }
 
         let linksHtml = '';
         candidates.forEach(sec => {
             linksHtml += `<a href="#${sec.id}" class="sd-jump-link">${sec.label}</a>`;
         });
-        navContainer.innerHTML = linksHtml;
 
-        // Insert position
-        const targetAnchor = main.querySelector('.science-session-info-box') ||
-                             main.querySelector('.session-meta-grid') ||
-                             main.querySelector('.cosy-session-switcher-placeholder') ||
-                             main.querySelector('.back-link') ||
-                             main.querySelector('.cosy-breadcrumbs') ||
-                             main.querySelector('.filter-bar') ||
-                             main.querySelector('.hero-ctas') ||
-                             main.firstElementChild;
+        headerContainer.innerHTML = `
+          <div class="sd-header-inner">
+            <div class="sd-breadcrumbs">
+              ${breadcrumbsHtml}
+            </div>
+            <nav class="sd-jump-links" aria-label="Page section jump links">
+              ${linksHtml}
+            </nav>
+            <button class="sd-hamburger-btn" id="dyn-sd-hamburger" aria-label="Toggle Navigation Menu">☰</button>
+          </div>
+        `;
 
-        if (targetAnchor && targetAnchor.nextSibling) {
-            targetAnchor.parentNode.insertBefore(navContainer, targetAnchor.nextSibling);
-        } else if (targetAnchor) {
-            targetAnchor.parentNode.appendChild(navContainer);
+        // Insert headerContainer directly below cosy-nav or main-nav
+        const navEl = document.getElementById('cosy-nav') || document.getElementById('main-nav');
+        if (navEl && navEl.nextSibling) {
+            navEl.parentNode.insertBefore(headerContainer, navEl.nextSibling);
+        } else if (navEl) {
+            navEl.parentNode.appendChild(headerContainer);
         } else {
-            main.prepend(navContainer);
+            document.body.prepend(headerContainer);
         }
 
-        const jumpLinks = navContainer.querySelectorAll('.sd-jump-link');
-        jumpLinks.forEach(link => {
+        const jumpNavLinks = headerContainer.querySelectorAll('.sd-jump-link');
+        jumpNavLinks.forEach(link => {
             link.addEventListener('click', (e) => {
                 const href = link.getAttribute('href');
                 if (href && href.startsWith('#')) {
                     e.preventDefault();
                     const targetEl = document.querySelector(href);
                     if (targetEl) {
-                        const offset = 80;
+                        const offset = 112;
                         const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
                         const offsetPosition = elementPosition - offset;
                         window.scrollTo({
@@ -336,6 +352,80 @@
             });
         });
 
+        // Mobile Hamburger & Drawer Handler for Dynamic Header
+        const hamburgerBtn = headerContainer.querySelector('#dyn-sd-hamburger');
+        if (hamburgerBtn) {
+            hamburgerBtn.addEventListener('click', () => {
+                let drawer = document.getElementById('sd-drawer');
+                let backdrop = document.getElementById('sd-drawer-backdrop');
+
+                if (!drawer) {
+                    backdrop = document.createElement('div');
+                    backdrop.id = 'sd-drawer-backdrop';
+                    backdrop.className = 'sd-drawer-backdrop';
+                    document.body.appendChild(backdrop);
+
+                    drawer = document.createElement('aside');
+                    drawer.id = 'sd-drawer';
+                    drawer.className = 'sd-drawer';
+                    drawer.setAttribute('aria-label', 'Mobile Navigation Drawer');
+
+                    let drawerNavHtml = '';
+                    candidates.forEach(sec => {
+                        drawerNavHtml += `<a href="#${sec.id}" class="sd-drawer-link">${sec.label}</a>`;
+                    });
+
+                    drawer.innerHTML = `
+                        <div class="sd-drawer-header">
+                            <span class="sd-drawer-title">Navigation</span>
+                            <button class="sd-drawer-close" id="sd-drawer-close">✕</button>
+                        </div>
+                        <nav class="sd-drawer-nav">
+                            ${drawerNavHtml}
+                        </nav>
+                    `;
+                    document.body.appendChild(drawer);
+
+                    const closeDrawer = () => {
+                        drawer.classList.remove('open');
+                        backdrop.classList.remove('open');
+                        hamburgerBtn.setAttribute('aria-expanded', 'false');
+                    };
+
+                    backdrop.addEventListener('click', closeDrawer);
+                    const closeBtn = drawer.querySelector('#sd-drawer-close');
+                    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+
+                    drawer.querySelectorAll('.sd-drawer-link').forEach(dLink => {
+                        dLink.addEventListener('click', (e) => {
+                            const href = dLink.getAttribute('href');
+                            if (href && href.startsWith('#')) {
+                                e.preventDefault();
+                                closeDrawer();
+                                const tEl = document.querySelector(href);
+                                if (tEl) {
+                                    const offsetPos = tEl.getBoundingClientRect().top + window.scrollY - 112;
+                                    window.scrollTo({ top: offsetPos, behavior: 'smooth' });
+                                }
+                            }
+                        });
+                    });
+                }
+
+                const isOpen = drawer.classList.contains('open');
+                if (isOpen) {
+                    drawer.classList.remove('open');
+                    backdrop.classList.remove('open');
+                    hamburgerBtn.setAttribute('aria-expanded', 'false');
+                } else {
+                    drawer.classList.add('open');
+                    backdrop.classList.add('open');
+                    hamburgerBtn.setAttribute('aria-expanded', 'true');
+                }
+            });
+        }
+
+        const jumpNavContainer = headerContainer.querySelector('.sd-jump-links');
         const onScroll = () => {
             let currentId = '';
             const scrollPosition = window.scrollY + 140;
@@ -352,15 +442,15 @@
                 currentId = candidates[candidates.length - 1].id;
             }
 
-            jumpLinks.forEach(link => {
+            jumpNavLinks.forEach(link => {
                 const href = link.getAttribute('href');
                 if (href === '#' + currentId) {
                     link.classList.add('active');
-                    if (navContainer.scrollWidth > navContainer.clientWidth) {
+                    if (jumpNavContainer && jumpNavContainer.scrollWidth > jumpNavContainer.clientWidth) {
                         const linkLeft = link.offsetLeft;
                         const linkWidth = link.offsetWidth;
-                        const navWidth = navContainer.clientWidth;
-                        navContainer.scrollTo({
+                        const navWidth = jumpNavContainer.clientWidth;
+                        jumpNavContainer.scrollTo({
                             left: linkLeft - (navWidth / 2) + (linkWidth / 2),
                             behavior: 'smooth'
                         });
