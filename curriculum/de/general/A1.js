@@ -6,7 +6,7 @@ window.curriculumData.de_a1 = [
   lessons_count:5,
   lessons:[
     { code:'DE-001', num:1, title:'Hallo & Willkommen',
-      grammar:'Verb "sein" (Präsens) — Aussagesätze',
+      grammar:'Verb "sein" (Präsens): Aussagesätze',
       pronunciation: [
         {
           point: "Das deutsche Alphabet",
