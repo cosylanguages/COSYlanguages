@@ -1,25 +1,19 @@
 # COSYlanguages Master Syllabus & Knowledge Map
-## COMPLETE A0–A1 ENGLISH VISUAL DICTIONARY & VOCABULARY COURSE
-### Volume 1: The World of English (Comprehensive CEFR A0–A1 Architecture)
+## COMPLETE A0–A1 ENGLISH VISUAL DICTIONARY & GRAMMAR KNOWLEDGE TREE COURSE
+### Volume 1: The World of English & Complete Beginner Grammar Architecture
 
 ---
 
 ## Executive Overview & Architectural System
 
-This master specification defines the definitive knowledge map for the COSYlanguages A0–A1 English Visual Dictionary & Vocabulary Course. Standard dictionary formats present isolated lexical items without context. This course is engineered as a **pedagogical knowledge system** where every lexical unit is integrated into a 10-tier micro-module:
-
-1. **Core Nouns & Concept Terms** (Concrete visual objects and foundational concepts)
-2. **Essential Action Verbs** (High-frequency verbs governed by theme)
-3. **Descriptive Adjectives & Adverbs** (Qualifiers, states, and frequencies)
-4. **Natural Collocations & Word Partnerships** (Verb + Noun, Adjective + Noun, Preposition + Noun)
-5. **Fixed Expressions & Set Phrases** (Formulaic speech units and social routines)
-6. **Sentence Frames & Substitution Structures** (Modular syntax templates)
-7. **Micro-Dialogues** (Contextual real-life oral exchanges)
-8. **Grammar Links & Syntactic Anchors** (Embedded grammar rules and structural mechanics)
-9. **Visual Scene & Infographic Page Specifications** (Callouts, labeled scene keys, and spatial layouts)
-10. **Recycling & Active Production Tasks** (Integrated oral and written practice)
+This master specification defines the definitive knowledge map for the COSYlanguages A0–A1 English Visual Dictionary & Vocabulary Course and the integrated **A0–A1 English Grammar Knowledge Tree**. Standard dictionaries and traditional grammar textbooks isolate words or rules. COSYlanguages structures language learning into a **3-stage pedagogical continuum**:
+1. **Recognition** (Visual visual cues, infographics, auditory mapping)
+2. **Controlled Production** (Substitution tables, sentence frames, micro-dialogues)
+3. **Free Production** (Real-life oral exchanges, functional tasks, communicative speaking)
 
 ---
+
+# SECTION 1: A0–A1 ENGLISH VISUAL DICTIONARY & VOCABULARY COURSE
 
 ## PART 1 — ABOUT ME & PERSONAL IDENTITY
 
@@ -330,11 +324,267 @@ This master specification defines the definitive knowledge map for the COSYlangu
 
 ---
 
-## APPENDIX & FINAL REFERENCE SECTION
+# SECTION 2: COSYlanguages COMPLETE ENGLISH GRAMMAR A0–A1 (GRAMMAR KNOWLEDGE TREE)
 
-1. **Alphabetical English ➔ French / Spanish / Native Index**
-2. **500 Most Frequent Nouns for A0–A1**
-3. **300 Most Frequent Verbs with Irregular Forms**
-4. **200 Most Frequent Adjectives**
-5. **Basic Pronunciation & IPA Guide for Vowels and Consonants**
-6. **Essential Classroom Expressions & Mini Phrasebook**
+### Estimated Scope:
+- **28 Parts**
+- **220 Grammar Units**
+- **1,500+ Examples**
+- **500+ Mini Dialogues**
+- **Grammar maps, Visual infographics, Substitution tables, Common mistake callouts, and Oral production frames**
+
+---
+
+## PART 1 — THE BUILDING BLOCKS OF ENGLISH
+- **UNIT 1: The English Alphabet & Mechanics**
+  - 1.1 Capital letters vs. small letters (Rules for names, days, months, 'I').
+  - 1.2 Alphabetical order & dictionary skills.
+  - 1.3 Spelling names & addresses: *How do you spell your name? / Can you spell that, please?*
+  - 1.4 Common abbreviations (ID, TV, VIP, e.g., i.e., PC, UK, US).
+
+- **UNIT 2: Sounds & Pronunciation Mechanics**
+  - 2.1 Vowels vs. Consonants (A, E, I, O, U vs. Consonants).
+  - 2.2 Short vs. Long Vowel pairs (ship / sheep, sit / seat).
+  - 2.3 Silent letters in common words (know, listen, answer, write, talk, walk, half).
+  - 2.4 Word stress in multi-syllable nouns and occupations.
+  - 2.5 Sentence stress & schwa sound /ə/ in unstressed syllables.
+  - 2.6 Basic intonation: Rising in Yes/No questions, Falling in Statements and Wh- questions.
+  - 2.7 Connected speech basics: Consonant-to-vowel linking (*an apple, stand up*).
+
+- **UNIT 3: Numbers, Money, Dates & Time**
+  - 3.1 Cardinal numbers 0–1000 & -teen vs -ty stress rules.
+  - 3.2 Ordinal numbers (1st, 2nd, 3rd, 4th...) and birthdates.
+  - 3.3 Telephone numbers, room numbers, and email dictation (@ = *at*, . = *dot*).
+  - 3.4 Money, prices, and currencies (€, $, £).
+  - 3.5 Telling the time (digital vs. *past/to*).
+  - 3.6 Basic fractions (*a half, a quarter*) & percentages (*50%*).
+
+---
+
+## PART 2 — NOUNS & POSSESSION
+- **UNIT 4: What is a Noun?** (Common, proper, concrete vs. basic abstract).
+- **UNIT 5: Singular Nouns** (Introduction with *a/an*).
+- **UNIT 6: Plural Nouns**
+  - Regular plural ending `-s` (*book ➔ books*).
+  - Plural endings `-es` after `-s, -sh, -ch, -x, -z` (*bus ➔ buses, watch ➔ watches*).
+  - Nouns ending in `-y` (*city ➔ cities* vs *boy ➔ boys*).
+  - Nouns ending in `-f/-fe` (*knife ➔ knives, half ➔ halves*).
+  - Nouns ending in `-o` (*potato ➔ potatoes* vs *photo ➔ photos*).
+  - Irregular plurals (*man ➔ men, woman ➔ women, child ➔ children, person ➔ people, foot ➔ feet, tooth ➔ teeth, mouse ➔ mice, sheep ➔ sheep*).
+- **UNIT 7: Countable Nouns** (Using *a/an*, numbers, *many, a few*).
+- **UNIT 8: Uncountable Nouns** (Water, coffee, money, information, advice, furniture, luggage).
+- **UNIT 9: Nouns with Dual Usage** (A chicken / chicken; a coffee / coffee; a glass / glass).
+- **UNIT 10: Expressing Possession**
+  - Possessive `'s` for singular (*John's car, my mother's house*).
+  - Possessive `'` for regular plurals (*my parents' room*).
+  - Irregular plural possession (*children's books, men's clothes*).
+  - Possessive `of` for inanimate objects (*the door of the house, the end of the day*).
+  - Question word: *Whose...?* (*Whose bag is this? It's Sarah's.*)
+
+---
+
+## PART 3 — ARTICLES & DETERMINERS
+- **UNIT 11: Indefinite Article 'a'** (Consonant sounds: *a book, a university*).
+- **UNIT 12: Indefinite Article 'an'** (Vowel sounds: *an apple, an hour*).
+- **UNIT 13: Definite Article 'the'** (Specific items, previously mentioned, unique things: *the sun, the moon, the sky*).
+- **UNIT 14: Zero Article** (Plural and uncountable nouns in general sense, countries, cities, languages, meals).
+- **UNIT 15: Master Article Choice Flowchart** (Decision tree: Countable/Uncountable ➔ Specific/General).
+
+---
+
+## PART 4 — PRONOUNS
+- **Personal Subject Pronouns:** *I, you, he, she, it, we, they*.
+- **Personal Object Pronouns:** *me, you, him, her, it, us, them*.
+- **Possessive Adjectives:** *my, your, his, her, its, our, their*.
+- **Possessive Pronouns:** *mine, yours, his, hers, ours, theirs*.
+- **Reflexive Pronouns (Basic):** *myself, yourself, himself, herself, itself, ourselves, yourselves, themselves*.
+- **Demonstratives:** *this, that, these, those* (Near vs. Far, Singular vs. Plural).
+- **Indefinite Pronouns:** *someone/somebody, something, somewhere, anyone/anybody, anything, anywhere, no one/nobody, nothing, nowhere, everyone/everybody, everything, everywhere*.
+- **Question Pronouns:** *who, what, which, whose, where, when, why, how*.
+
+---
+
+## PART 5 — ADJECTIVES & COMPARISONS
+- **Types of Adjectives:** Opinion, Size, Age, Shape, Colour, Origin, Material, Purpose.
+- **Order of Adjectives:** `Opinion ➔ Size ➔ Age ➔ Shape ➔ Colour ➔ Origin ➔ Material ➔ Noun` (*a lovely small old round brown wooden table*).
+- **Comparative Adjectives:** Short adjectives (`-er than`) vs. Long adjectives (`more + adj + than`). Irregulars: *good ➔ better, bad ➔ worse, far ➔ further*.
+- **Superlative Adjectives:** Short adjectives (`the -est`) vs. Long adjectives (`the most + adj`). Irregulars: *the best, the worst, the furthest*.
+- **Structures of Equality & Intensity:** *as... as*, *too + adj*, *not + adj + enough*, *adj + enough*.
+
+---
+
+## PART 6 — ADVERBS
+- **Adverbs of Frequency:** *always, usually, normally, often, sometimes, occasionally, rarely, seldom, never* (Position: before main verb, after *to be*).
+- **Adverbs of Time:** *today, yesterday, tomorrow, now, later, early, late, already, still, yet, soon*.
+- **Adverbs of Place:** *here, there, everywhere, inside, outside, upstairs, downstairs*.
+- **Adverbs of Manner:** Formation with `-ly` (*quick ➔ quickly, careful ➔ carefully*). Irregulars: *fast ➔ fast, hard ➔ hard, good ➔ well*.
+- **Adverbs of Degree:** *very, really, quite, extremely, too, enough*.
+
+---
+
+## PART 7 — QUANTIFIERS & DETERMINERS
+- *Some* vs. *Any* (Affirmative vs. Negative & Questions).
+- Exceptions for *Some* in requests and offers (*Would you like some tea? Can I have some water?*).
+- *No* vs. *None*.
+- *Much*, *Many*, *A lot of*, *Lots of*.
+- *A few* (Countable) vs. *A little* (Uncountable).
+- *Every*, *Each*, *Both*, *All*, *Another*, *Other*.
+
+---
+
+## PART 8 — PREPOSITIONS
+- **Prepositions of Time:**
+  - `at`: specific times (*at 5 o'clock, at night, at the weekend, at Christmas*).
+  - `on`: days and dates (*on Monday, on 15th May, on my birthday*).
+  - `in`: months, years, seasons, centuries, parts of the day (*in May, in 2026, in summer, in the morning*).
+  - `before`, `after`, `during`, `until`, `since`, `for`.
+- **Prepositions of Place:** *in, on, at, under, behind, in front of, next to, between, among, opposite, near, inside, outside, above, below, over*.
+- **Prepositions of Movement:** *to, from, into, out of, onto, off, towards, away from, past, through, across, along, round/around*.
+
+---
+
+## PART 9 — VERB SYSTEM & MODALS
+- **Auxiliary Verbs:** *Be, Have, Do*.
+- **Most Frequent 150 Verbs Classification:** Movement, Communication, Daily Routine, Cognition, Feelings.
+- **Verb Structures:** `verb + noun`, `verb + to + infinitive` (*want to go, need to study*), `verb + -ing` (*like swimming, enjoy reading*).
+- **Modal Verbs (A0–A1 Scope):**
+  - `Can / Can't`: Ability, permission, requests (*I can swim. Can I sit here?*).
+  - `Could`: Polite requests (*Could you help me, please?*).
+  - `Must / Mustn't`: Strong obligation and prohibition (*You must stop. You mustn't smoke here.*).
+  - `Have to / Don't have to`: External obligation and lack of obligation (*I have to go to work. You don't have to pay.*).
+  - `Should / Shouldn't`: Basic advice (*You should see a doctor.*).
+  - `May`: Formal permission (*May I come in?*).
+
+---
+
+## PART 10 — TENSE SYSTEM
+- **Present Simple:**
+  - Positive, negative, questions, short answers.
+  - Third person `-s / -es / -ies` spelling and pronunciation rules (`/s/`, `/z/`, `/ɪz/`).
+  - Signal words & frequency adverbs.
+- **Present Continuous:**
+  - Positive (`am/is/are + -ing`), negative, questions.
+  - Spelling rules for `-ing` (double consonants, dropping `-e`).
+  - Stative verbs non-continuous rule (*like, want, need, know, understand, believe, remember*).
+  - Temporary actions vs. actions happening now.
+- **Past Simple:**
+  - Regular verbs (`-ed` endings: `/t/`, `/d/`, `/ɪd/`).
+  - Top 50 irregular verbs (*be ➔ was/were, go ➔ went, have ➔ had, see ➔ saw, do ➔ did, make ➔ made, take ➔ took, come ➔ came, eat ➔ ate, drink ➔ drank...*).
+  - Negative (`didn't + infinitive`) and questions (`Did you + infinitive?`).
+  - Past time expressions (*yesterday, last night, 2 days ago, in 2020*).
+- **Future Structures:**
+  - `Be going to + infinitive`: Intentions and future plans.
+  - `Present Continuous`: Fixed social/travel arrangements.
+  - `Will / Won't + infinitive`: Spontaneous decisions, promises, and future predictions with *I think / maybe*.
+
+---
+
+## PART 11 — QUESTION FORMATION
+- **Yes/No Questions:** Auxiliary verb inversion (`Are you...? Do you...? Can you...? Did you...?`).
+- **Wh- Questions:** `Wh- word + auxiliary verb + subject + main verb` (*Where do you live? What did you eat?*).
+- **Question Tags (Recognition):** Positive statement ➔ Negative tag (*It's cold, isn't it? You speak English, don't you?*).
+- **Indirect Questions (Polite Introduction):** *Could you tell me where the station is? / Do you know what time it opens?*
+
+---
+
+## PART 12 — NEGATION
+- Full negation system across tenses: *don't, doesn't, didn't, am not, isn't, aren't, wasn't, weren't, can't, won't, haven't got, hasn't got*.
+
+---
+
+## PART 13 — IMPERATIVES & INSTRUCTIONS
+- Positive imperatives (*Open your book. Sit down. Turn left.*).
+- Negative imperatives (*Don't touch. Don't worry.*).
+- Softened imperatives with *Please* and *Let's* (*Let's go! Please take a seat.*).
+
+---
+
+## PART 14 — THERE IS / THERE ARE
+- Singular (*There is a book on the table*), Plural (*There are two cars*).
+- Uncountable (*There is some milk in the fridge*).
+- Negatives (*There isn't a computer / There aren't any chairs / There is no water*).
+- Questions (*Is there a lift? Are there any shops near here?*).
+
+---
+
+## PART 15 — HAVE GOT
+- British English `have got / hasn't got` vs American English `have / don't have` comparison.
+
+---
+
+## PART 16 — EXPRESSING LIKES, DISLIKES & PREFERENCES
+- `Like / Love / Enjoy / Hate + -ing`.
+- `Would like to + infinitive` (Offers and requests).
+- `Prefer [X] to [Y]` / `Would rather`.
+
+---
+
+## PART 17 — CONJUNCTIONS & LINKING WORDS
+- `and`, `but`, `or`, `because`, `so`, `although` (Basic recognition).
+
+---
+
+## PART 18 — TIME EXPRESSIONS & DURATION
+- `every day/week/month`, `once a week`, `twice a month`, `three times a year`, `last night`, `next week`, `ago`, `for`, `since`.
+
+---
+
+## PART 19 — BASIC PASSIVE (RECOGNITION)
+- Present simple passive for origin and labels: *is made in [country], is called [name], is spoken in [place]*.
+
+---
+
+## PART 20 — BASIC REPORTED SPEECH (RECOGNITION)
+- Reporting statements: *He says that..., She tells me that...*.
+
+---
+
+## PART 21 — TOP 50 COMMON PHRASAL VERBS
+- *Get up, sit down, stand up, come in, go out, turn on, turn off, pick up, put down, look for, find out, wake up, take off, put on, come back, go away, look after, fill in, try on, give up...*
+
+---
+
+## PART 22 — HIGH-FREQUENCY COLLOCATIONS
+- **Make vs. Do:** *make coffee, make a mistake, make progress, make a decision* vs. *do homework, do housework, do exercise, do research*.
+- **Have, Take, Go, Catch:** *have breakfast, take a shower, go shopping, catch a bus, miss a train, tell a story, say sorry*.
+
+---
+
+## PART 23 — FUNCTIONAL ENGLISH MODULES
+- Greetings & Goodbyes
+- Shopping & Paying
+- Restaurants & Cafes
+- Directions & Navigation
+- Hotel Check-in
+- Doctor & Pharmacy
+- Emergency & Asking for Help
+
+---
+
+## PART 24 — GRAMMAR FOR SPEAKING & SENTENCE BUILDERS
+- Substitution tables, oral conversation patterns, question frames, and answer frames for immediate fluency.
+
+---
+
+## PART 25 — COMMON MISTAKES & DIAGNOSTICS
+- Detailed diagnostic callouts of typical beginner errors (*"I am agree" ➔ "I agree"; "He go" ➔ "He goes"; "I have 20 years" ➔ "I am 20 years old"*).
+
+---
+
+## PART 26 — PRONUNCIATION & SPELLING MECHANICS
+- Pronunciation rules for `-ed` past endings (`/t/`, `/d/`, `/ɪd/`) and plural `-s/-es` endings.
+
+---
+
+## PART 27 — REVIEW, CONSOLIDATION & GRAMMAR MAPS
+- Visual mindmaps, flowcharts, mixed practice quizzes, speaking challenges, and self-assessment checklists.
+
+---
+
+## PART 28 — APPENDICES & MASTER TABLES
+- Core A0–A1 Irregular Verbs List
+- Preposition Combinations Guide
+- Question Word Master Guide
+- Punctuation & Capitalization Rules
+- Contractions Master List (UK/US)
+- CEFR A0–A1 Grammar Mastery Checklist
