@@ -1,91 +1,166 @@
 # COSYlanguages Master Syllabus & Knowledge Map
 ## COMPLETE C2 ENGLISH VISUAL DICTIONARY & GRAMMAR KNOWLEDGE TREE COURSE
-### Volume 6: Comprehensive Master Specification & Encyclopedic Syllabus (CEFR C2.1 & C2.2)
+### Volume 6: Comprehensive Master Specification & Encyclopedic Syllabus (CEFR C2.1 & C2.2 Master Language Ecosystem)
 
 ---
 
 ## Executive Overview & Architectural System
 
-This master specification defines the native-level mastery and proficiency curriculum for the COSYlanguages C2 English ecosystem (unifying **C2.1** and **C2.2** CEFR sub-levels). At C2, learners command full native register fluidity, effortless stylistic adaptability, mastery of archaic and literary lexicon, domain-specific erudition across jurisprudence, science, and literature, as well as the ability to decipher and employ dry irony, subtle sarcasm, poetic devices, and unconstrained syntactic structures.
+This master specification defines the definitive **English Encyclopedia of Mastery** for the COSYlanguages C2 English ecosystem (unifying **C2.1** and **C2.2** CEFR sub-levels). At C2, language learning evolves from grammatical accuracy into native-level stylistic choice, unconstrained rhetorical impact, near-native prosody, genre mastery, cultural/literary erudition, and domain-specific authority.
+
+The course is organized into **5 Integrated Architectural Pillars**:
+1. **Pillar I — Encyclopedic Visual Dictionary** (45 Specialized Domains across 10 Strategic Master Fields).
+2. **Pillar II — Grammar, Stylistics & Information Packaging** (Register Shifting, Sentence Cadence & Corpus Mechanics).
+3. **Pillar III — Rhetoric, Discourse & Near-Native Communication** (Persuasion, Diplomatic Tact, Irony & Near-Native Prosody).
+4. **Pillar IV — Professional & Academic Mastery** (Legal Opinions, Executive Leadership & Boardroom Negotiations).
+5. **Pillar V — Literary & Cultural Competence & Encyclopedic Reference Suite** (Shakespearean Allusions, Mythological Metaphors, Classical Loan Expressions, Synonym Networks, and Corpus Error Diagnostics).
 
 ---
 
-# SECTION 1: COMPLETE C2 ENGLISH VISUAL DICTIONARY & VOCABULARY KNOWLEDGE MAP
+# PILLAR I — ENCYCLOPEDIC VISUAL DICTIONARY
 
 ---
 
-## PART 1 — NATIVE PROFICIENCY, STYLISTIC NUANCE & HIGH REGISTER
-
-### UNIT 1: Literary Registers, Archaic Lexicon & Poetics (C2.1)
-- **1.1 High Literary, Rare & Archaic Lexicon**
-  - **Core Vocabulary:** Quintessential, ephemeral, ubiquitous, ostentatious, sycophant, taciturn, fastidious, magnanimous, verisimilitude, obfuscation, vicarious, ephemeral, perspicacious, grandiloquent, surreptitious, pulchritude, petulant.
-  - **Essential Verbs:** Enthrall, obfuscate, juxtapose, epitomize, accentuate, vindicate, venerate, lambast, dissemble.
-  - **Adjectives:** Quintessential, fastidious, perspicacious, taciturn, grandiloquent, ephemeral, ubiquitous, magnanimous.
-  - **Collocations:** Quintessential example, fastidious attention to detail, ephemeral nature of youth, verisimilitude of character, perspicacious observer, grandiloquent prose.
-  - **Set Phrases:** Her prose possesses an ephemeral, almost heartbreaking beauty. / His fastidious attention to detail was legendary among his literary peers. / The novel relies on historical verisimilitude to immerse the reader.
-  - **Sentence Frames:** `The author juxtaposes + [Concept A] + with + [Concept B] + to emphasize + [Theme]`, `Far from being + [Adjective A], his demeanor was marked by + [Adjective B] + composure`.
-  - **Micro-Dialogue:**
-    - *A:* How would you evaluate the author's narrative style in her latest masterpiece?
-    - *B:* It is marked by a perspicacious understanding of human frailty, combining grandiloquent descriptive passages with striking emotional verisimilitude.
-
-- **1.2 Subtleties of Wit, Irony, Satire & Idiomatic Elegance (C2.2)**
-  - **Core Vocabulary:** Sarcasm, irony, double entendre, understatement, hyperbole, satire, wit, banter, cynicism, paronomasia, tongue-in-cheek, paradox, sardonic humor, laconic delivery.
-  - **Essential Verbs:** Satirize, mock, deride, lampoon, insinuate, retort, quip, understate.
-  - **Adjectives:** Sardonic, tongue-in-cheek, laconic, biting, razor-sharp, paradoxical, satirical, cynical.
-  - **Collocations:** Sardonic humor, biting satire, laconic response, tongue-in-cheek remark, razor-sharp wit, double entendre.
-  - **Set Phrases:** The remark was delivered with a subtle touch of dry, sardonic irony. / The article is a brilliant piece of political satire lampooning corporate greed. / His laconic reply left no room for further debate.
-  - **Micro-Dialogue:**
-    - *A:* Did the critic actually praise the director's performance?
-    - *B:* On the surface, yes; but anyone attuned to subtle irony could see that her praise was entirely tongue-in-cheek.
+## PART 1 — ADVANCED LITERATURE, POETICS & LITERARY CRITICISM
+- **1.1 Literary Genres, Sub-Genres & Narrative Forms**
+  - **Core Lexicon:** Epic, tragedy, comedy, satire, pastoral, gothic, dystopian, utopian, magical realism, bildungsroman, historical fiction, metafiction, flash fiction, creative nonfiction.
+- **1.2 Rhetorical Devices, Poetics & Stylistic Figures**
+  - **Core Lexicon:** Metaphor, extended metaphor, conceit, allegory, symbolism, motif, imagery, personification, allusion, foreshadowing, dramatic irony, situational irony, verbal irony, stream of consciousness, free indirect discourse, pathetic fallacy, metonymy, synecdoche, anaphora, epistrophe, zeugma, litotes, oxymoron, paradox, chiasmus, parallelism, ellipsis, asyndeton, polysyndeton, euphemism, dysphemism.
+- **1.3 Literary Criticism, Hermeneutics & Cultural Theory**
+  - **Core Lexicon:** Structuralism, post-structuralism, feminist criticism, Marxist criticism, psychoanalytic criticism, reader-response theory, postcolonial criticism, ecocriticism, narratology, deconstruction, hermeneutics, intertextuality.
 
 ---
 
-### UNIT 2: Domain Erudition: Legal, Scientific & Philosophical Mastery (C2.1 & C2.2)
-- **2.1 Jurisprudence, Statutory Interpretation & Legal Erudition**
-  - **Core Vocabulary:** Jurisprudence, statutory construction, precedent, writ of habeas corpus, prima facie, bona fide, force majeure, sub judice, obiter dicta, ratio decidendi, indemnification, tort, jurisprudence, jurisprudence.
-  - **Set Phrases:** The ruling established a binding legal precedent across all appellate courts. / The agreement contained a standard force majeure clause protecting both contracting parties.
-
-- **2.2 Epistemology, Philosophy of Mind & Ethics**
-  - **Core Vocabulary:** Solipsism, utilitarianism, deontological ethics, existentialism, determinism, phenomenology, cognitive dissonance, dialectical materialism, heuristic.
-  - **Set Phrases:** From a strictly deontological perspective, the moral value of an action resides in duty itself, regardless of consequences. / The argument collapses under epistemological scrutiny.
+## PART 2 — METAPHYSICS, EPISTEMOLOGY & PHILOSOPHICAL DISCIPLINES
+- **2.1 Branches of Philosophical Inquiry**
+  - **Core Lexicon:** Metaphysics, ontology, epistemology, logic, ethics, political philosophy, existentialism, phenomenology, stoicism, utilitarianism, pragmatism, absurdism, analytic philosophy, continental philosophy, philosophy of language, philosophy of mind, philosophy of science.
 
 ---
 
-# SECTION 2: COMPLETE C2 ENGLISH GRAMMAR KNOWLEDGE TREE COURSE
+## PART 3 — ENCYCLOPEDIC JURISPRUDENCE & STATUTORY DRAFTING
+- **3.1 Constitutional, Civil & Criminal Law**
+  - **Core Lexicon:** Constitutional law, civil law, criminal law, international law, human rights, intellectual property, corporate law, employment law, administrative law, environmental law, tax law, contract law, legal drafting, court procedure, legal Latin.
 
 ---
 
-## PART 1 — NATIVE SYNTACTIC FLUIDITY & UNCONSTRAINED SYNTAX (C2.1 & C2.2)
+## PART 4 — MACROECONOMICS, FINANCIAL DERIVATIVES & GAME THEORY
+- **4.1 Economic Theories & Global Markets**
+  - **Core Lexicon:** Microeconomics, macroeconomics, international finance, central banking, monetary policy, fiscal policy, investment, financial derivatives, corporate finance, accounting, behavioural economics, development economics, game theory, economic history.
 
-### UNIT 1: Advanced Stylistic Inversion & Rhetorical Rearrangement
-- **Complex Fronting & Topicalization:**
-  - *Standard:* The ancient castle stood atop the misty mountain peak.
-  - *Fronted/Literary:* **Atop the misty mountain peak stood the ancient castle.**
-  - *Standard:* Her devotion to the pursuit of truth was so total that she sacrificed everything.
-  - *Inverted/Emphatic:* **Such was her devotion to the pursuit of truth that she sacrificed everything.**
-  - *Standard:* The storm was so severe that all shipping lanes were closed.
-  - *Inverted:* **So severe was the storm that all shipping lanes were closed.**
+---
 
-### UNIT 2: Unconstrained Clause Interplay, Parenthetical Insertion & Ellipsis
-- **Parenthetical Interruptions & Stylistic Dashes:**
-  - *The proposal—despite having been initially dismissed by senior board members as hopelessly idealistic—ultimately laid the foundation for the company's revival.*
-- **Absolute Clauses (Substantive Participles without Conjunctions):**
-  - *The weather having cleared, the expedition resumed its ascent up the ridge.*
-  - *All tasks completed, the team adjourned for the evening.*
-- **Advanced Subjunctive & Suppositional Inversion (Omitting 'If'):**
-  - *Standard:* If he had known about the hidden risks, he would never have invested.
-  - *Inverted:* **Had he known about the hidden risks, he would never have invested.**
-  - *Standard:* If the emergency services were to fail, chaos would ensue.
-  - *Inverted:* **Were the emergency services to fail, chaos would ensue.**
-  - *Standard:* If should you require further assistance, please notify our team.
-  - *Inverted:* **Should you require further assistance, please notify our team.**
+## PART 5 — ADVANCED SCIENCE, NEUROSCIENCE & QUANTUM TECH
+- **5.1 Pure & Applied Sciences**
+  - **Core Lexicon:** Theoretical physics, organic chemistry, molecular biology, genetics, clinical medicine, astronomy, astrophysics, climate science, neuroscience, artificial intelligence, quantum mechanics terminology, research design.
 
-### UNIT 3: Master Class in Register Adaptability & Rhetorical Devices
-- **Parallelism & Antithesis:**
-  - *“To err is human; to forgive, divine.”*
-  - *Not only does the framework address structural inefficiencies, but it also fosters long-term innovation.*
-- **Litotes (Ironical Understatement via Double Negative):**
-  - *He is **no fool** when it comes to contract negotiation.* (= He is extremely clever.)
-  - *The performance was **not uninteresting**.* (= It was quite interesting.)
-- **Chiasmus (ABBA Sentence Structure):**
-  - *Ask not what your country can do for you—ask what you can do for your country.*
+---
+
+## PART 6 — CYBERNETICS, COMPUTING & DIGITAL ETHICS
+- **6.1 Advanced Computing & Artificial Intelligence**
+  - **Core Lexicon:** Machine learning, deep learning, large language models (LLMs), cybersecurity, programming paradigms, cloud computing, network architecture, operating systems, data science, blockchain, virtual reality, augmented reality, quantum computing, automation, human-computer interaction (HCI).
+
+---
+
+## PART 7 — HISTORIOGRAPHY, HERITAGE & CIVILIZATIONS
+- **7.1 Historical Eras & Historiographical Methodology**
+  - **Core Lexicon:** Ancient history, Middle Ages, Renaissance, Industrial Revolution, World Wars, Cold War, modern history, history of science, history of philosophy, history of English, historiography, archival research.
+
+---
+
+## PART 8 — FINE ARTS, MUSICOLOGY & ARCHITECTURE
+- **8.1 Visual & Performing Arts**
+  - **Core Lexicon:** Painting, sculpture, architecture, musicology, opera, theatre, cinema, photography, graphic design, fashion, contemporary art, curatorial practice.
+
+---
+
+## PART 9 — MEDIA, BROADCASTING & PUBLIC RELATIONS
+- **9.1 Journalism, Media Ethics & Propaganda**
+  - **Core Lexicon:** Investigative journalism, broadcasting, publishing, advertising, political communication, public relations, media ethics, documentaries, digital media, press freedom, disinformation.
+
+---
+
+## PART 10 — CLINICAL PSYCHOLOGY & COGNITIVE SCIENCE
+- **10.1 Psychological Frameworks & Behavioral Science**
+  - **Core Lexicon:** Clinical psychology, developmental psychology, behavioural psychology, cognitive science, educational psychology, social psychology, personality theory, neuroscience, psychotherapy, cognitive biases.
+
+---
+
+# PILLAR II — GRAMMAR, STYLISTIC CHOICE & INFORMATION PACKAGING
+
+---
+
+## PART 1 — INFORMATION STRUCTURE & RHETORICAL PACKAGING
+- **Theme/Rheme Dynamics:** Strategic placement of known vs new information.
+- **End-Weight & End-Focus:** Arranging complex, heavy clauses at sentence termination for maximum rhetorical impact.
+- **Syntactic Fronting & Inversion:** Inverting standard SVO word order for dramatic emphasis.
+
+---
+
+## PART 2 — REGISTER SHIFTING MASTERCLASS
+- **Multi-Register Transformations:** Seamlessly translating identical semantic content across **6 Registers**:
+  1. *Conversational / Informal*
+  2. *Corporate Business*
+  3. *Academic / Scholarly*
+  4. *Journalistic / Editorial*
+  5. *Legal / Statutory*
+  6. *High Literary / Poetic*
+
+---
+
+## PART 3 — STYLISTICS, SENTENCE CADENCE & CORPUS MECHANICS
+- **Sentence Cadence & Rhythm:** Alternating short staccato sentences with periodic and balanced sentences to control reading pace.
+- **Corpus-Grounded Grammar:** Masterclass in authentic, highly natural C2 structures drawn from international corpora.
+- **Dialect & Regional Variety Awareness:** Recognizing vocabulary, grammar, and usage distinctions across British, American, Australian, Irish, Canadian, Indian, and South African English.
+
+---
+
+# PILLAR III — RHETORIC, DISCOURSE & NEAR-NATIVE COMMUNICATION
+
+---
+
+## PART 1 — HIGH-LEVEL RHETORIC, PERSUASION & DIPLOMACY
+- **Rhetorical Mastery:** Classical persuasion (ethos, pathos, logos), political speechwriting, scientific presentation, and conference addresses.
+- **Diplomatic Tact & Subtlety:** Expressing dissent, negotiating concessions, and resolving conflicts without causing offence.
+- **Irony, Satire & Humor:** Mastering dry humor, double entendre, sardonic commentary, and cultural wit.
+
+---
+
+## PART 2 — NEAR-NATIVE PROSODY & PUBLIC SPEAKING
+- **Prosodic Control:** Pitch modulation, emotional intonation, contrastive stress, and voice projection for keynotes and public addresses.
+
+---
+
+# PILLAR IV — PROFESSIONAL & ACADEMIC MASTERY
+
+---
+
+## PART 1 — EXECUTIVE LEADERSHIP & ACADEMIC PUBLISHING
+- **Academic Writing:** Research papers, grant proposals, conference abstracts, literature reviews, white papers, and policy reports.
+- **Professional & Executive Leadership:** Boardroom meetings, crisis communication, media interviews, legal opinions, and high-stakes international negotiations.
+
+---
+
+# PILLAR V — LITERARY & CULTURAL COMPETENCE & REFERENCE SUITE
+
+---
+
+## PART 1 — CULTURAL ALLUSIONS, SHAKESPEARE & CLASSICAL ALLUSIONS
+- **Historical & Cultural References:** Origins of idioms, Biblical allusions, Shakespearean expressions (*hoist with his own petard, the green-eyed monster*), and Greek/Roman mythological metaphors.
+
+---
+
+## PART 2 — ENCYCLOPEDIC C2 MASTER REFERENCE SUITE
+1. **4,000–5,000 Advanced C2 Lexical Items (Domain-categorized)**
+2. **2,000+ Native-Level Collocations with Register Notes**
+3. **1,000+ C2 Idioms (Labelled as Common, Formal, Literary, or Regional)**
+4. **500+ Culturally Significant Proverbs & Sayings**
+5. **500+ Phrasal Verbs Grouped Semantically**
+6. **1,000 Advanced Synonym Networks (Detailing connotation, register, and collocational restrictions)**
+7. **500 Discourse Markers across Academic, Professional, Persuasive, and Conversational Contexts**
+8. **500 Academic Lexical Bundles Drawn from Authentic Corpora**
+9. **500 Professional Communication Phrases for Boardrooms, Diplomacy, and Keynotes**
+10. **Classical Expressions (Latin, French, Greek) with Pronunciation, Meaning, and Register Notes:**
+    - *prima facie, de facto, raison d'être, status quo, ad hoc, vice versa, carte blanche, coup d'état, magnum opus, persona non grata, terra incognita, zeitgeist*.
+11. **Comprehensive C2 Style & Register Usage Manual**
+12. **Corpus-Based Learner Difficulties Diagnostic at C2 Level**
+13. **Master Reference Resources Guide (Dictionaries, Corpora, Style Guides & Writing Manuals)**
