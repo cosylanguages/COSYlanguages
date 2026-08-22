@@ -235,14 +235,11 @@
     document.addEventListener('DOMContentLoaded', () => {
         if (document.getElementById('calc-lang')) {
             window.calcPrice();
-            renderExtendableCalculator();
-
             ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'].forEach(id => {
                 const el = document.getElementById(id);
                 if (el) {
                     el.addEventListener('change', () => {
                         window.calcPrice();
-                        renderExtendableCalculator();
                     });
                 }
             });

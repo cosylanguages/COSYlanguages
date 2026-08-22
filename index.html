@@ -277,48 +277,63 @@
   <p class="sec-p" data-translate-key="sec_p_pricing">See exactly what you'll pay. No hidden fees.</p>
 
   <div class="calc-card reveal">
-    <!-- Hidden native select controls for state & accessibility -->
-    <div class="calc-selects-hidden" style="display:none;" aria-hidden="true">
-      <select id="calc-lang" onchange="calcPrice()">
-        <option value="en" data-translate-key="english">English 🇬🇧</option>
-        <option value="fr" data-translate-key="french">Français 🇫🇷</option>
-        <option value="it" data-translate-key="italian">Italiano 🇮🇹</option>
-        <option value="ru" data-translate-key="russian">Русский 🇷🇺</option>
-        <option value="el" data-translate-key="greek">Ελληνικά 🇬🇷</option>
-      </select>
-      <select id="calc-type" onchange="calcPrice()">
-        <option value="general" selected data-translate-key="course_general">General Course 📖</option>
-        <option value="spoken" data-translate-key="course_spoken">Spoken Course 🗣️</option>
-        <option value="exam" data-translate-key="course_exam">Exam Preparation 📝</option>
-        <option value="travelling" data-translate-key="course_travelling">Travelling Course ✈️</option>
-        <option value="professional" data-translate-key="course_professional">Professional Course 💼</option>
-        <option value="relocation" data-translate-key="course_relocation">Relocation Course 🏡</option>
-        <option value="group" data-translate-key="calc_course_group">Group Lessons 👥</option>
-      </select>
-      <select id="calc-dur" onchange="calcPrice()">
-        <option value="15">15 min</option>
-        <option value="30">30 min</option>
-        <option value="60" selected>60 min</option>
-        <option value="90">90 min</option>
-        <option value="120">120 min</option>
-      </select>
-      <select id="calc-pack" onchange="calcPrice()">
-        <option value="1" data-translate-key="pack_standard">1 lesson</option>
-        <option value="8" data-translate-key="pack_starter">8 lessons (5% off)</option>
-        <option value="16" data-translate-key="pack_progress">16 lessons (10% off)</option>
-        <option value="32" data-translate-key="pack_maestro">32 lessons (15% off)</option>
-      </select>
-      <select id="calc-cur" onchange="calcPrice()">
-        <option value="EUR">Euro (€)</option>
-        <option value="USD">Dollar ($)</option>
-        <option value="RUB">Ruble (₽)</option>
-      </select>
-    </div>
-
-    <!-- Compact extendable chip bar & drawer -->
+    <!-- Compact Inline Chips Bar with embedded selects -->
     <div class="calc-configurator">
-      <div class="calc-chips-bar" id="calc-chips-bar" role="tablist" aria-label="Price Calculator Configuration"></div>
-      <div class="calc-options-panel" id="calc-options-panel" role="tabpanel"></div>
+      <div class="calc-chips-bar" id="calc-chips-bar" aria-label="Price Calculator Configuration">
+        <div class="calc-chip-item">
+          <span class="chip-lbl">Language:</span>
+          <select id="calc-lang" onchange="calcPrice()" class="calc-chip-select">
+            <option value="en" data-translate-key="english">English 🇬🇧</option>
+            <option value="fr" data-translate-key="french">Français 🇫🇷</option>
+            <option value="it" data-translate-key="italian">Italiano 🇮🇹</option>
+            <option value="ru" data-translate-key="russian">Русский 🇷🇺</option>
+            <option value="el" data-translate-key="greek">Ελληνικά 🇬🇷</option>
+          </select>
+        </div>
+
+        <div class="calc-chip-item">
+          <span class="chip-lbl">Course:</span>
+          <select id="calc-type" onchange="calcPrice()" class="calc-chip-select">
+            <option value="general" selected data-translate-key="course_general">General Course 📖</option>
+            <option value="spoken" data-translate-key="course_spoken">Spoken Course 🗣️</option>
+            <option value="exam" data-translate-key="course_exam">Exam Preparation 📝</option>
+            <option value="travelling" data-translate-key="course_travelling">Travelling Course ✈️</option>
+            <option value="professional" data-translate-key="course_professional">Professional Course 💼</option>
+            <option value="relocation" data-translate-key="course_relocation">Relocation Course 🏡</option>
+            <option value="group" data-translate-key="calc_course_group">Group Lessons 👥</option>
+          </select>
+        </div>
+
+        <div class="calc-chip-item" id="dur-field">
+          <span class="chip-lbl">Duration:</span>
+          <select id="calc-dur" onchange="calcPrice()" class="calc-chip-select">
+            <option value="15">15 min</option>
+            <option value="30">30 min</option>
+            <option value="60" selected>60 min</option>
+            <option value="90">90 min</option>
+            <option value="120">120 min</option>
+          </select>
+        </div>
+
+        <div class="calc-chip-item" id="pack-field">
+          <span class="chip-lbl">Pack:</span>
+          <select id="calc-pack" onchange="calcPrice()" class="calc-chip-select">
+            <option value="1" data-translate-key="pack_standard">1 lesson</option>
+            <option value="8" data-translate-key="pack_starter">8 lessons (5% off)</option>
+            <option value="16" data-translate-key="pack_progress">16 lessons (10% off)</option>
+            <option value="32" data-translate-key="pack_maestro">32 lessons (15% off)</option>
+          </select>
+        </div>
+
+        <div class="calc-chip-item">
+          <span class="chip-lbl">Currency:</span>
+          <select id="calc-cur" onchange="calcPrice()" class="calc-chip-select">
+            <option value="EUR">Euro (€)</option>
+            <option value="USD">Dollar ($)</option>
+            <option value="RUB">Ruble (₽)</option>
+          </select>
+        </div>
+      </div>
     </div>
 
     <!-- Output price card -->
