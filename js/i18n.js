@@ -107,14 +107,7 @@
               <a href="${prefix}#languages" data-i18n="nav.languages">Languages 🌍</a>
               <a href="${prefix}practice/index.html" data-i18n="nav.practice">Free Practice 💡</a>
               <a href="${prefix}placement-quiz.html">Placement Quiz 📝</a>
-              <a href="${prefix}print-cards.html">Leitner Print Studio 🖨️</a>
-              <a href="${prefix}print-zine.html">Foldable Pocket Zines 📖</a>
-              <a href="${prefix}print-box.html">Leitner Box Template 📦</a>
-              <a href="${prefix}print-boardgame.html">Printable Board Game 🎲</a>
-              <a href="${prefix}classroom-sync.html">Classroom Synchronizer 🤝</a>
               <a href="${prefix}notebook/index.html">My Notebook 📓</a>
-              <a href="${prefix}vocabulary/index.html">Vocabulary Library 📖</a>
-              <a href="${prefix}grammar/index.html">Grammar Tables 📐</a>
               <a href="${prefix}events/index.html" data-i18n="nav.events">Events 🎉</a>
               <a href="${prefix}games/index.html" data-i18n="nav.games">Games 🎮</a>
             </div>
