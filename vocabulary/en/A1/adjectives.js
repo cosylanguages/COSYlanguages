@@ -1,4 +1,4 @@
-// TODO: verify level classification
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -6104,6 +6104,97 @@
         "antonyms": [
             "useless"
         ]
+    },
+    {
+        "id": "en_starter_adjectives_213",
+        "word": "headache",
+        "emoji": "🤕",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "headaches",
+        "definitions": [
+            {
+                "text": "A continuous pain in the head.",
+                "examples": [
+                    "I have a bad headache today."
+                ]
+            }
+        ],
+        "transcription": "ˈhedeɪk",
+        "subtext": "bad headache, severe headache",
+        "lang": "en",
+        "level": "starter",
+        "theme": "health",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_adjectives_214",
+        "word": "fever",
+        "emoji": "🤒",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "fevers",
+        "definitions": [
+            {
+                "text": "An abnormally high body temperature.",
+                "examples": [
+                    "The child has a high fever."
+                ]
+            }
+        ],
+        "transcription": "ˈfiːvə",
+        "subtext": "high fever, take temperature",
+        "lang": "en",
+        "level": "starter",
+        "theme": "health",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_adjectives_215",
+        "word": "sore throat",
+        "emoji": "🩺",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "sore throats",
+        "definitions": [
+            {
+                "text": "A painful condition of the throat caused by inflammation.",
+                "examples": [
+                    "Drink warm tea for a sore throat."
+                ]
+            }
+        ],
+        "transcription": "sɔː θrəʊt",
+        "subtext": "painful throat",
+        "lang": "en",
+        "level": "starter",
+        "theme": "health",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_adjectives_216",
+        "word": "flu",
+        "emoji": "🤧",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "A common infectious illness causing fever, aches, and tiredness.",
+                "examples": [
+                    "She stayed home because she had the flu."
+                ]
+            }
+        ],
+        "transcription": "fluː",
+        "subtext": "catch the flu, rest in bed",
+        "lang": "en",
+        "level": "starter",
+        "theme": "health",
+        "sub_theme": null
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

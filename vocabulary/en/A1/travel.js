@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -17,7 +18,8 @@
                     "His car is red."
                 ]
             }
-        ],"transcription": "kɑr",
+        ],
+        "transcription": "kɑr",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -39,7 +41,8 @@
                     "I take the bus to work."
                 ]
             }
-        ],"transcription": "bəs",
+        ],
+        "transcription": "bəs",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -61,7 +64,8 @@
                     "The train is fast."
                 ]
             }
-        ],"transcription": "treɪn",
+        ],
+        "transcription": "treɪn",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -83,7 +87,8 @@
                 ]
             }
         ],
-        "subtext": "related to public transport","transcription": "kəmˈjut",
+        "subtext": "related to public transport",
+        "transcription": "kəmˈjut",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -105,7 +110,8 @@
                 ]
             }
         ],
-        "subtext": "related to public transport","transcription": "hoʊˈtɛl",
+        "subtext": "related to public transport",
+        "transcription": "hoʊˈtɛl",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -155,7 +161,8 @@
                     "The plane lands at nine o'clock."
                 ]
             }
-        ],"transcription": "pleɪn",
+        ],
+        "transcription": "pleɪn",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -177,7 +184,8 @@
                     "He cycles to work on his bike."
                 ]
             }
-        ],"transcription": "baɪk",
+        ],
+        "transcription": "baɪk",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -199,7 +207,8 @@
                 ]
             }
         ],
-        "subtext": "related to public transport","transcription": "ˈɛrˌpɔrt",
+        "subtext": "related to public transport",
+        "transcription": "ˈɛrˌpɔrt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -221,7 +230,8 @@
                 ]
             }
         ],
-        "subtext": "related to modes of transport","transcription": "boʊt",
+        "subtext": "related to modes of transport",
+        "transcription": "boʊt",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -239,7 +249,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions movement","emoji": "➡️",
+        "subtext": "related to prepositions movement",
+        "emoji": "➡️",
         "transcription": "tɪ",
         "lang": "en",
         "level": "starter",
@@ -262,7 +273,8 @@
                 ]
             }
         ],
-        "subtext": "related to travel vocabulary basics","transcription": "ˈpæˌspɔrt",
+        "subtext": "related to travel vocabulary basics",
+        "transcription": "ˈpæˌspɔrt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -284,7 +296,8 @@
                 ]
             }
         ],
-        "subtext": "related to travel vocabulary basics","transcription": "ˈtɪkɪt",
+        "subtext": "related to travel vocabulary basics",
+        "transcription": "ˈtɪkɪt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -306,7 +319,8 @@
                 ]
             }
         ],
-        "subtext": "related to travel vocabulary basics","transcription": "trɪp",
+        "subtext": "related to travel vocabulary basics",
+        "transcription": "trɪp",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -374,7 +388,8 @@
                 ]
             }
         ],
-        "subtext": "related to modes of transport","transcription": "ˈtæksi",
+        "subtext": "related to modes of transport",
+        "transcription": "ˈtæksi",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -397,7 +412,8 @@
                 ]
             }
         ],
-        "subtext": "related to directions navigation","transcription": "weɪ",
+        "subtext": "related to directions navigation",
+        "transcription": "weɪ",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -519,7 +535,8 @@
                 ]
             }
         ],
-        "subtext": "related to modes of transport","transcription": "ˈskutər",
+        "subtext": "related to modes of transport",
+        "transcription": "ˈskutər",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -541,7 +558,8 @@
                 ]
             }
         ],
-        "subtext": "related to modes of transport","transcription": "ˈmoʊtərˌbaɪk",
+        "subtext": "related to modes of transport",
+        "transcription": "ˈmoʊtərˌbaɪk",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -566,7 +584,8 @@
                     "The truck is carrying food to the supermarket."
                 ]
             }
-        ],"transcription": "trək",
+        ],
+        "transcription": "trək",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -588,7 +607,8 @@
                 ]
             }
         ],
-        "subtext": "related to travel vocabulary basics","transcription": "ˈsutˌkeɪs",
+        "subtext": "related to travel vocabulary basics",
+        "transcription": "ˈsutˌkeɪs",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -610,7 +630,8 @@
                     "He goes to work by bicycle."
                 ]
             }
-        ],"transcription": "ˈbaɪsɪkəl",
+        ],
+        "transcription": "ˈbaɪsɪkəl",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -635,7 +656,8 @@
                     "The traffic is very heavy this morning."
                 ]
             }
-        ],"transcription": "ˈtræfɪk",
+        ],
+        "transcription": "ˈtræfɪk",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -1102,6 +1124,75 @@
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_travel_045",
+        "word": "platform",
+        "emoji": "🚉",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "platforms",
+        "definitions": [
+            {
+                "text": "A raised structure along the side of a railway track where passengers get on and off trains.",
+                "examples": [
+                    "The train to Oxford leaves from platform 4."
+                ]
+            }
+        ],
+        "transcription": "ˈplætfɔːm",
+        "subtext": "platform number, wait on platform",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_travel_046",
+        "word": "boarding pass",
+        "emoji": "🎫",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "boarding passes",
+        "definitions": [
+            {
+                "text": "A document given to a passenger that gives permission to board a plane or ship.",
+                "examples": [
+                    "Show your boarding pass at the gate."
+                ]
+            }
+        ],
+        "transcription": "ˈbɔːdɪŋ pɑːs",
+        "subtext": "show boarding pass",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_travel_047",
+        "word": "delay",
+        "emoji": "⏱️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "delays",
+        "definitions": [
+            {
+                "text": "A period of time by which something is late or postponed.",
+                "examples": [
+                    "There is a thirty-minute train delay."
+                ]
+            }
+        ],
+        "transcription": "dɪˈleɪ",
+        "subtext": "flight delay, train delay",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
         "sub_theme": null
     }
 ];

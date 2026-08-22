@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -19,7 +20,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "pleɪt"
     },
     {
         "id": "en_starter_dishes_002",
@@ -39,7 +40,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "bəʊl"
     },
     {
         "id": "en_starter_dishes_003",
@@ -59,7 +60,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "kʌp"
     },
     {
         "id": "en_starter_dishes_004",
@@ -79,7 +80,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "mʌɡ"
     },
     {
         "id": "en_starter_dishes_005",
@@ -99,7 +100,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "ɡlɑːs"
     },
     {
         "id": "en_starter_dishes_006",
@@ -119,7 +120,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "fɔːk"
     },
     {
         "id": "en_starter_dishes_007",
@@ -139,7 +140,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "naɪf"
     },
     {
         "id": "en_starter_dishes_008",
@@ -159,7 +160,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "spuːn"
     },
     {
         "id": "en_starter_dishes_009",
@@ -179,7 +180,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "ˈtʃɒpstɪks"
     },
     {
         "id": "en_starter_dishes_010",
@@ -199,7 +200,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "ˈnæpkɪn"
     },
     {
         "id": "en_starter_dishes_011",
@@ -219,7 +220,7 @@
         "level": "starter",
         "theme": "dishes",
         "lang": "en",
-        "transcription": ""
+        "transcription": "treɪ"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

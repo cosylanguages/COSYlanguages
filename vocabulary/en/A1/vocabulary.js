@@ -2573,7 +2573,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_001",
+        "id": "en_starter_vocabulary_language_97",
         "word": "language",
         "emoji": "🗣️",
         "form": "noun",
@@ -2597,7 +2597,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_002",
+        "id": "en_starter_vocabulary_meaning_98",
         "word": "meaning",
         "emoji": "💡",
         "form": "noun",

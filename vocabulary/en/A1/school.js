@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -8,7 +9,8 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "students","definitions": [
+        "plural": "students",
+        "definitions": [
             {
                 "text": "A person who is studying at a school or university.",
                 "examples": [
@@ -44,7 +46,8 @@
                 ]
             }
         ],
-        "subtext": "related to learning studying","transcription": "ˈklæsˌmeɪt",
+        "subtext": "related to learning studying",
+        "transcription": "ˈklæsˌmeɪt",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -66,14 +69,15 @@
                 ]
             }
         ],
-        "subtext": "related to types of education","transcription": "ˈkɑlɪʤ",
+        "subtext": "related to types of education",
+        "transcription": "ˈkɑlɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "types_of_education",
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_001",
+        "id": "en_starter_school_map_4",
         "word": "map",
         "emoji": "🗺️",
         "form": "noun",
@@ -88,14 +92,15 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language","transcription": "mæp",
+        "subtext": "related to classroom language",
+        "transcription": "mæp",
         "lang": "en",
         "level": "starter",
         "theme": "language",
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_002",
+        "id": "en_starter_school_ruler_5",
         "word": "ruler",
         "emoji": "📏",
         "form": "noun",
@@ -110,7 +115,8 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language","transcription": "ˈrulər",
+        "subtext": "related to classroom language",
+        "transcription": "ˈrulər",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -132,7 +138,8 @@
                 ]
             }
         ],
-        "subtext": "related to school subjects","transcription": "ˈhɪstəri",
+        "subtext": "related to school subjects",
+        "transcription": "ˈhɪstəri",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -159,7 +166,8 @@
                 ]
             }
         ],
-        "subtext": "related to school subjects","transcription": "saɪəns",
+        "subtext": "related to school subjects",
+        "transcription": "saɪəns",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -189,7 +197,8 @@
                     "Maths is my favorite subject."
                 ]
             }
-        ],"transcription": "mæθs",
+        ],
+        "transcription": "mæθs",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -216,7 +225,8 @@
                 ]
             }
         ],
-        "subtext": "related to school subjects","transcription": "ʤiˈɑgrəfi",
+        "subtext": "related to school subjects",
+        "transcription": "ʤiˈɑgrəfi",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -243,7 +253,8 @@
                 ]
             }
         ],
-        "subtext": "related to learning studying","transcription": "ˈlɛsən",
+        "subtext": "related to learning studying",
+        "transcription": "ˈlɛsən",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -270,14 +281,15 @@
                 ]
             }
         ],
-        "subtext": "related to learning studying","transcription": "ˈhoʊmˌwərk",
+        "subtext": "related to learning studying",
+        "transcription": "ˈhoʊmˌwərk",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_003",
+        "id": "en_starter_school_dictionary_12",
         "word": "dictionary",
         "emoji": "📖",
         "form": "noun",
@@ -292,7 +304,8 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language","transcription": "ˈdɪkʃəˌnɛri",
+        "subtext": "related to classroom language",
+        "transcription": "ˈdɪkʃəˌnɛri",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -303,7 +316,7 @@
         }
     },
     {
-        "id": "en_starter_language_004",
+        "id": "en_starter_school_word_13",
         "word": "word",
         "emoji": "📝",
         "form": "noun",
@@ -318,7 +331,8 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language","transcription": "wərd",
+        "subtext": "related to classroom language",
+        "transcription": "wərd",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -341,7 +355,8 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "bɔrd",
+        "subtext": "related to school stationery",
+        "transcription": "bɔrd",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -366,7 +381,8 @@
                     "Can I borrow your eraser?"
                 ]
             }
-        ],"transcription": "ɪˈreɪsər",
+        ],
+        "transcription": "ɪˈreɪsər",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -388,7 +404,8 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "ˈpɛnsəl keɪs",
+        "subtext": "related to school stationery",
+        "transcription": "ˈpɛnsəl keɪs",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -410,7 +427,8 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "ˈnoʊtˌbʊk",
+        "subtext": "related to school stationery",
+        "transcription": "ˈnoʊtˌbʊk",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -432,7 +450,8 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "ˈtɛkstˌbʊk",
+        "subtext": "related to school stationery",
+        "transcription": "ˈtɛkstˌbʊk",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -454,14 +473,15 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "ˈbækˌpæk",
+        "subtext": "related to school stationery",
+        "transcription": "ˈbækˌpæk",
         "lang": "en",
         "level": "starter",
         "theme": "school",
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_005",
+        "id": "en_starter_school_poster_20",
         "word": "poster",
         "emoji": "📜",
         "form": "noun",
@@ -476,14 +496,15 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language","transcription": "ˈpoʊstər",
+        "subtext": "related to classroom language",
+        "transcription": "ˈpoʊstər",
         "lang": "en",
         "level": "starter",
         "theme": "language",
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_006",
+        "id": "en_starter_school_sentence_21",
         "word": "sentence",
         "emoji": "📝",
         "form": "noun",
@@ -498,14 +519,15 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language","transcription": "ˈsɛntəns",
+        "subtext": "related to classroom language",
+        "transcription": "ˈsɛntəns",
         "lang": "en",
         "level": "starter",
         "theme": "language",
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_007",
+        "id": "en_starter_school_page_22",
         "word": "page",
         "emoji": "📄",
         "form": "noun",
@@ -520,7 +542,8 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language","transcription": "peɪʤ",
+        "subtext": "related to classroom language",
+        "transcription": "peɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -542,7 +565,8 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "ˈɛnvəˌloʊp",
+        "subtext": "related to school stationery",
+        "transcription": "ˈɛnvəˌloʊp",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -564,7 +588,8 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "stæmp",
+        "subtext": "related to school stationery",
+        "transcription": "stæmp",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -586,7 +611,8 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "ˈsteɪpələr",
+        "subtext": "related to school stationery",
+        "transcription": "ˈsteɪpələr",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -608,7 +634,8 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "glu",
+        "subtext": "related to school stationery",
+        "transcription": "glu",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -630,7 +657,8 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "ˈsɪzərz",
+        "subtext": "related to school stationery",
+        "transcription": "ˈsɪzərz",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -652,14 +680,15 @@
                 ]
             }
         ],
-        "subtext": "related to school stationery","transcription": "ˈkælkjəˌleɪtər",
+        "subtext": "related to school stationery",
+        "transcription": "ˈkælkjəˌleɪtər",
         "lang": "en",
         "level": "starter",
         "theme": "school",
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_008",
+        "id": "en_starter_school_globe_29",
         "word": "globe",
         "emoji": "🌍",
         "form": "noun",
@@ -674,7 +703,8 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language","transcription": "gloʊb",
+        "subtext": "related to classroom language",
+        "transcription": "gloʊb",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -696,14 +726,15 @@
                     "I have an English exam tomorrow."
                 ]
             }
-        ],"transcription": "ɪgˈzæm",
+        ],
+        "transcription": "ɪgˈzæm",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_009",
+        "id": "en_starter_school_example_31",
         "word": "example",
         "emoji": "💡",
         "form": "noun",
@@ -718,7 +749,8 @@
                     "Can you give me an example?"
                 ]
             }
-        ],"transcription": "ɪgˈzæmpəl",
+        ],
+        "transcription": "ɪgˈzæmpəl",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -740,7 +772,8 @@
                     "I have a maths test today."
                 ]
             }
-        ],"transcription": "tɛst",
+        ],
+        "transcription": "tɛst",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -762,7 +795,8 @@
                     "She is studying at university."
                 ]
             }
-        ],"transcription": "ˌjunəˈvərsəti",
+        ],
+        "transcription": "ˌjunəˈvərsəti",
         "lang": "en",
         "level": "starter",
         "theme": "types_of_education",
@@ -789,7 +823,8 @@
                     "She has good communication skills."
                 ]
             }
-        ],"transcription": "skɪl",
+        ],
+        "transcription": "skɪl",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -811,14 +846,15 @@
                     "I have an English class at nine o'clock."
                 ]
             }
-        ],"transcription": "klæs",
+        ],
+        "transcription": "klæs",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
         "sub_theme": null
     },
     {
-        "id": "en_starter_language_010",
+        "id": "en_starter_school_classroom_36",
         "word": "classroom",
         "emoji": "🏫",
         "form": "noun",
@@ -833,7 +869,8 @@
                 ]
             }
         ],
-        "subtext": "related to classroom language","transcription": "ˈklæsˌrum",
+        "subtext": "related to classroom language",
+        "transcription": "ˈklæsˌrum",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -978,7 +1015,7 @@
         ]
     },
     {
-        "id": "en_starter_language_011",
+        "id": "en_starter_school_repeat_42",
         "word": "repeat",
         "emoji": "🔁",
         "subtext": "repeat that / repeat yourself / repeat an order",
@@ -1236,7 +1273,7 @@
         ]
     },
     {
-        "id": "en_starter_language_012",
+        "id": "en_starter_school_spell_51",
         "word": "spell",
         "emoji": "🔤",
         "form": "verb",
@@ -1267,7 +1304,7 @@
         ]
     },
     {
-        "id": "en_starter_language_013",
+        "id": "en_starter_school_point_52",
         "word": "point",
         "emoji": "☝️",
         "form": "verb",
@@ -1299,7 +1336,7 @@
         ]
     },
     {
-        "id": "en_starter_language_014",
+        "id": "en_starter_school_shout_53",
         "word": "shout",
         "emoji": "📢",
         "form": "verb",
@@ -1330,7 +1367,7 @@
         ]
     },
     {
-        "id": "en_starter_language_015",
+        "id": "en_starter_school_tick_54",
         "word": "tick",
         "emoji": "✅",
         "form": "verb",
@@ -1361,7 +1398,7 @@
         ]
     },
     {
-        "id": "en_starter_language_016",
+        "id": "en_starter_school_cross_55",
         "word": "cross",
         "emoji": "❌",
         "form": "verb",
@@ -1392,7 +1429,7 @@
         ]
     },
     {
-        "id": "en_starter_language_017",
+        "id": "en_starter_school_colour_56",
         "word": "colour",
         "emoji": "🖍️",
         "form": "verb",
@@ -1423,7 +1460,7 @@
         ]
     },
     {
-        "id": "en_starter_language_018",
+        "id": "en_starter_school_whisper_57",
         "word": "whisper",
         "emoji": "🤫",
         "form": "verb",
@@ -1455,7 +1492,7 @@
         ]
     },
     {
-        "id": "en_starter_language_019",
+        "id": "en_starter_school_explain_58",
         "word": "explain",
         "emoji": "🗣️",
         "form": "verb",

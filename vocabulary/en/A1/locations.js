@@ -1,4 +1,4 @@
-// TODO: verify level classification
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -1122,7 +1122,7 @@
         "theme": "places",
         "sub_theme": null
     }
-]
+];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

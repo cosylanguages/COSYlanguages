@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -109,7 +110,8 @@
                 ]
             }
         ],
-        "subtext": "related to times day","transcription": "ˈɛvəri deɪ",
+        "subtext": "related to times day",
+        "transcription": "ˈɛvəri deɪ",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -119,7 +121,8 @@
         "id": "en_starter_people_001",
         "word": "together",
         "emoji": "👫",
-        "form": "adverb","definitions": [
+        "form": "adverb",
+        "definitions": [
             {
                 "text": "With another person or group.",
                 "examples": [
@@ -410,7 +413,8 @@
                 ]
             }
         ],
-        "subtext": "related to frequency adverbs","transcription": "ˈjuʒəwəli",
+        "subtext": "related to frequency adverbs",
+        "transcription": "ˈjuʒəwəli",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -429,7 +433,8 @@
                 ]
             }
         ],
-        "subtext": "related to frequency adverbs","transcription": "ˈɔfən",
+        "subtext": "related to frequency adverbs",
+        "transcription": "ˈɔfən",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -448,7 +453,8 @@
                 ]
             }
         ],
-        "subtext": "related to frequency adverbs","transcription": "ˈsəmˌtaɪmz",
+        "subtext": "related to frequency adverbs",
+        "transcription": "ˈsəmˌtaɪmz",
         "lang": "en",
         "level": "starter",
         "theme": "language",

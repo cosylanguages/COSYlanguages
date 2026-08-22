@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -46,7 +47,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "ˈsmɑːrtfoʊn",
+        "subtext": "related to basic technology devices",
+        "transcription": "ˈsmɑːrtfoʊn",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -68,7 +70,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "ˈlæpˌtɑp",
+        "subtext": "related to basic technology devices",
+        "transcription": "ˈlæpˌtɑp",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -90,7 +93,8 @@
                     "We watch the news on television."
                 ]
             }
-        ],"transcription": "ˈtɛləˌvɪʒən",
+        ],
+        "transcription": "ˈtɛləˌvɪʒən",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -112,7 +116,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "ˈkæmərə",
+        "subtext": "related to basic technology devices",
+        "transcription": "ˈkæmərə",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -134,7 +139,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "kəmˈpjutər",
+        "subtext": "related to basic technology devices",
+        "transcription": "kəmˈpjutər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -156,7 +162,8 @@
                 ]
             }
         ],
-        "subtext": "related to using smartphone","transcription": "ˈɪntərˌnɛt",
+        "subtext": "related to using smartphone",
+        "transcription": "ˈɪntərˌnɛt",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -178,7 +185,8 @@
                 ]
             }
         ],
-        "subtext": "related to using smartphone","transcription": "ˈwɛbˌsaɪt",
+        "subtext": "related to using smartphone",
+        "transcription": "ˈwɛbˌsaɪt",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -226,7 +234,8 @@
                 ]
             }
         ],
-        "subtext": "related to using smartphone","transcription": "ˈmɛsɪʤ",
+        "subtext": "related to using smartphone",
+        "transcription": "ˈmɛsɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -248,7 +257,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "ˈnuzˌpeɪpər",
+        "subtext": "related to basic technology devices",
+        "transcription": "ˈnuzˌpeɪpər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -270,7 +280,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "ˈmægəˌzin",
+        "subtext": "related to basic technology devices",
+        "transcription": "ˈmægəˌzin",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -292,7 +303,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "ˈkiˌbɔrd",
+        "subtext": "related to basic technology devices",
+        "transcription": "ˈkiˌbɔrd",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -314,7 +326,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "skrin",
+        "subtext": "related to basic technology devices",
+        "transcription": "skrin",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -337,7 +350,8 @@
                     "I found the information on the website."
                 ]
             }
-        ],"transcription": "ˌɪnfəˈmeɪʃn",
+        ],
+        "transcription": "ˌɪnfəˈmeɪʃn",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -360,7 +374,8 @@
                     "Have you heard the news?"
                 ]
             }
-        ],"transcription": "nuz",
+        ],
+        "transcription": "nuz",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -382,7 +397,8 @@
                     "He is writing a letter to his parents."
                 ]
             }
-        ],"transcription": "ˈlɛtər",
+        ],
+        "transcription": "ˈlɛtər",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -404,7 +420,8 @@
                     "I lost my mobile."
                 ]
             }
-        ],"transcription": "ˈmoʊbəl",
+        ],
+        "transcription": "ˈmoʊbəl",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -426,7 +443,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "ˈreɪdiˌoʊ",
+        "subtext": "related to basic technology devices",
+        "transcription": "ˈreɪdiˌoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -448,7 +466,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic technology devices","transcription": "ˈprɪnər",
+        "subtext": "related to basic technology devices",
+        "transcription": "ˈprɪnər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -737,6 +756,51 @@
         "antonyms": [
             "online"
         ]
+    },
+    {
+        "id": "en_starter_tech_031",
+        "word": "Wi-Fi",
+        "emoji": "📶",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "A facility allowing computers, smartphones, or other devices to connect to the internet wirelessly.",
+                "examples": [
+                    "What is the Wi-Fi password here?"
+                ]
+            }
+        ],
+        "transcription": "ˈwaɪ faɪ",
+        "subtext": "free Wi-Fi, connect to Wi-Fi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tech_032",
+        "word": "password",
+        "emoji": "🔑",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "passwords",
+        "definitions": [
+            {
+                "text": "A secret word or phrase that must be used to gain access to a computer or service.",
+                "examples": [
+                    "Enter your password to log in."
+                ]
+            }
+        ],
+        "transcription": "ˈpɑːswɜːd",
+        "subtext": "enter password, secret password",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

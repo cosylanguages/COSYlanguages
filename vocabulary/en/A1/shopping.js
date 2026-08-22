@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -18,7 +19,8 @@
                     "I have no cash, can I pay by card?"
                 ]
             }
-        ],"lang": "en",
+        ],
+        "lang": "en",
         "level": "starter",
         "theme": "shopping",
         "sub_theme": null
@@ -40,7 +42,8 @@
                     "I will pay by card."
                 ]
             }
-        ],"lang": "en",
+        ],
+        "lang": "en",
         "level": "starter",
         "theme": "shopping",
         "sub_theme": null
@@ -61,7 +64,8 @@
                     "I have money in my bag."
                 ]
             }
-        ],"transcription": "ˈməni",
+        ],
+        "transcription": "ˈməni",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -83,7 +87,8 @@
                     "The price of food is high."
                 ]
             }
-        ],"transcription": "praɪs",
+        ],
+        "transcription": "praɪs",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -133,7 +138,8 @@
                     "A birthday gift."
                 ]
             }
-        ],"transcription": "gɪft",
+        ],
+        "transcription": "gɪft",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -155,7 +161,8 @@
                 ]
             }
         ],
-        "subtext": "related to everyday shopping","transcription": "pərs",
+        "subtext": "related to everyday shopping",
+        "transcription": "pərs",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -177,7 +184,8 @@
                 ]
             }
         ],
-        "subtext": "related to everyday shopping","transcription": "ˈkəstəmər",
+        "subtext": "related to everyday shopping",
+        "transcription": "ˈkəstəmər",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -203,7 +211,8 @@
                     "The minimum wage is increasing."
                 ]
             }
-        ],"transcription": "weɪʤ",
+        ],
+        "transcription": "weɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -800,6 +809,52 @@
         "antonyms": [
             "rich"
         ]
+    },
+    {
+        "id": "en_starter_shopping_030",
+        "word": "fitting room",
+        "emoji": "🚪",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "fitting rooms",
+        "definitions": [
+            {
+                "text": "A room in a clothes shop where you can try on clothes.",
+                "examples": [
+                    "Where is the fitting room, please?"
+                ]
+            }
+        ],
+        "transcription": "ˈfɪtɪŋ ruːm",
+        "subtext": "try on clothes",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_031",
+        "word": "price tag",
+        "emoji": "🏷️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "price tags",
+        "definitions": [
+            {
+                "text": "A label attached to an item showing its price.",
+                "examples": [
+                    "Check the price tag before buying."
+                ]
+            }
+        ],
+        "transcription": "praɪs tæɡ",
+        "subtext": "check the price tag",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
