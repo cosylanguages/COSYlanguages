@@ -128,6 +128,14 @@
         'calc-cur': 'calc_label_currency'
     };
 
+    const SHORT_LABELS = {
+        'calc-lang': 'Language',
+        'calc-type': 'Course',
+        'calc-dur': 'Duration',
+        'calc-pack': 'Pack',
+        'calc-cur': 'Currency'
+    };
+
     function renderExtendableCalculator() {
         const chipsBar = document.getElementById('calc-chips-bar');
         const optionsPanel = document.getElementById('calc-options-panel');
@@ -149,18 +157,13 @@
             chipBtn.setAttribute('aria-selected', activeCategory === catId ? 'true' : 'false');
 
             const icon = CATEGORY_ICONS[catId] || '';
+            const shortLbl = SHORT_LABELS[catId] || '';
             let valText = selectedOpt ? selectedOpt.textContent : '';
 
-            // Clean icon duplication if option already has emoji
-            if (valText && icon && valText.includes(icon)) {
-                chipBtn.innerHTML = `<span class="chip-val">${valText}</span> <span class="chip-arrow">▾</span>`;
-            } else {
-                chipBtn.innerHTML = `<span class="chip-icon">${icon}</span> <span class="chip-val">${valText}</span> <span class="chip-arrow">▾</span>`;
-            }
+            chipBtn.innerHTML = `<span class="chip-lbl">${shortLbl}:</span> <span class="chip-val">${valText}</span> <span class="chip-arrow">▾</span>`;
 
             chipBtn.addEventListener('click', () => {
                 if (activeCategory === catId) {
-                    // Toggle collapse if clicking active
                     activeCategory = activeCategory ? null : catId;
                 } else {
                     activeCategory = catId;
