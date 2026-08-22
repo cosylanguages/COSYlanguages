@@ -24,9 +24,12 @@ test.describe('Hybrid & Community Workspace ("Beyond the Screen 🌿")', () => {
     await expect(zineCard.first()).toBeVisible();
     await expect(radioCard.first()).toBeVisible();
 
-    // Verify footer link to hybrid
-    const footerLink = page.locator('footer a[href="index.html"], footer a[href="hybrid/index.html"], footer a[href*="hybrid"]');
-    await expect(footerLink.first()).toBeVisible();
+    // Verify footer link to hybrid and check hidden links are not present
+    const footer = page.locator('footer');
+    await expect(footer).toContainText('Hybrid & Community 🌿');
+    await expect(footer).not.toContainText('Classroom Synchronizer');
+    await expect(footer).not.toContainText('Leitner Print Studio');
+    await expect(footer).not.toContainText('Vocabulary Library');
   });
 
   test('Bridge Tools /hybrid/bridge.html renders and QR generator works', async ({ page }) => {
