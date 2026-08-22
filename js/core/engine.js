@@ -103,6 +103,7 @@ function getPrefixedKey(key) {
 const NAV_CONFIG = {
     free: [
         { key: 'home',     href: 'index.html',           icon: ''   },
+        { key: 'about',    href: 'about/index.html',     icon: '🏡' },
         { key: 'practice', href: 'practice/index.html',  icon: '💡' },
         { key: 'notebook', href: 'notebook/index.html',  icon: '📓' },
         { key: 'games',    href: 'games/index.html',     icon: '🎮' },
@@ -220,9 +221,9 @@ function updateNavActiveState() {
 }
 
 const NAV_FALLBACKS = {
-    ba: { home: 'Баш бит', practice: 'Практика', hybrid: 'Гибрид', games: 'Уйындар', events: 'Чаралар', contact: 'Бәйләнеш' },
-    tt: { home: 'Төп бит', practice: 'Практика', hybrid: 'Гибрид', games: 'Уеннар', events: 'Чаралар', contact: 'Бәйләнеш' },
-    ru: { home: 'Главная', practice: 'Практика', hybrid: 'Гибрид', games: 'Игры', events: 'Мероприятия', contact: 'Связь' }
+    ba: { home: 'Баш бит', about: 'О нас', practice: 'Практика', hybrid: 'Гибрид', games: 'Уйындар', events: 'Чаралар', contact: 'Бәйләнеш' },
+    tt: { home: 'Төп бит', about: 'О нас', practice: 'Практика', hybrid: 'Гибрид', games: 'Уеннар', events: 'Чаралар', contact: 'Бәйләнеш' },
+    ru: { home: 'Главная', about: 'О нас', practice: 'Практика', hybrid: 'Гибрид', games: 'Игры', events: 'Мероприятия', contact: 'Связь' }
 };
 
 function getNavLabel(key, fallback) {
