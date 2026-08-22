@@ -14,17 +14,21 @@
         if (window.COSY && typeof window.COSY.getPrefix === 'function') {
             return window.COSY.getPrefix();
         }
-        // Fallback relative prefix detector
-        const path = window.location.pathname;
-        const depth = (path.match(/\//g) || []).length;
-        // Adjust for repo root or custom directory
-        const isCOSYlanguages = path.includes('/COSYlanguages/');
-        const baseDepth = isCOSYlanguages ? 2 : 1;
-        const relativeDepth = depth - baseDepth;
-        if (relativeDepth > 0) {
-            return '../'.repeat(relativeDepth);
+        // Fallback relative prefix detector handling files and missing trailing slashes
+        let relativePath = window.location.pathname;
+        if (relativePath.startsWith('/COSYlanguages/')) {
+            relativePath = relativePath.substring('/COSYlanguages/'.length);
+        } else if (relativePath.startsWith('/COSYlanguages')) {
+            relativePath = relativePath.substring('/COSYlanguages'.length);
+        } else if (relativePath.startsWith('/')) {
+            relativePath = relativePath.substring(1);
         }
-        return './';
+        const segments = relativePath.split('/').filter(Boolean);
+        if (segments.length > 0 && segments[segments.length - 1].includes('.')) {
+            segments.pop();
+        }
+        const depth = segments.length;
+        return depth > 0 ? '../'.repeat(depth) : './';
     }
 
     // Helper to resolve nested or dot-separated keys
@@ -81,6 +85,16 @@
     function injectCanonicalFooter() {
         const footer = document.querySelector('footer');
         if (!footer) return;
+
+        // Skip canonical footer injection for standalone reference apps or custom footers
+        if (
+            footer.classList.contains('app-footer') ||
+            footer.hasAttribute('data-no-canonical-footer') ||
+            footer.closest('.app-container') ||
+            document.querySelector('.app-container')
+        ) {
+            return;
+        }
 
         const prefix = getPrefix();
         footer.className = footer.className || '';

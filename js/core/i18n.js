@@ -192,12 +192,20 @@
         if (window.COSY && typeof window.COSY.getPrefix === 'function') {
             prefix = window.COSY.getPrefix();
         } else {
-            const path = window.location.pathname;
-            const depth = (path.match(/\//g) || []).length;
-            const isCOSYlanguages = path.includes('/COSYlanguages/');
-            const baseDepth = isCOSYlanguages ? 2 : 1;
-            const relativeDepth = depth - baseDepth;
-            prefix = relativeDepth > 0 ? '../'.repeat(relativeDepth) : './';
+            let relativePath = window.location.pathname;
+            if (relativePath.startsWith('/COSYlanguages/')) {
+                relativePath = relativePath.substring('/COSYlanguages/'.length);
+            } else if (relativePath.startsWith('/COSYlanguages')) {
+                relativePath = relativePath.substring('/COSYlanguages'.length);
+            } else if (relativePath.startsWith('/')) {
+                relativePath = relativePath.substring(1);
+            }
+            const segments = relativePath.split('/').filter(Boolean);
+            if (segments.length > 0 && segments[segments.length - 1].includes('.')) {
+                segments.pop();
+            }
+            const depth = segments.length;
+            prefix = depth > 0 ? '../'.repeat(depth) : './';
         }
 
         const uiScript = document.createElement('script');
