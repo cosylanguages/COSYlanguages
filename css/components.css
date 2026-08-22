@@ -1172,100 +1172,143 @@ html[data-theme="dark"], body.theme-dark {
   cursor: default;
 }
 
-/* ── Segmented Control Configurator ────────────────── */
+/* ── Compact Extendable Price Calculator ────────────────── */
 .calc-card {
-  padding: 3rem !important;
-}
-
-.calc-grid {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 1.5rem !important;
-  margin-bottom: 2.5rem !important;
-  counter-reset: calc-step;
-}
-
-.calc-field {
-  background: var(--cream);
-  padding: 1.5rem;
-  border-radius: 16px;
+  padding: 2.25rem !important;
+  border-radius: var(--r-xl);
+  background: var(--warm-white);
   border: 1px solid var(--border);
-  transition: border-color 0.2s, box-shadow 0.2s;
-  box-sizing: border-box;
+  box-shadow: 0 16px 40px rgba(28, 25, 23, 0.04);
 }
 
-.calc-field:hover {
-  border-color: var(--teal);
-  box-shadow: var(--shadow-sm);
+.calc-configurator {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
 }
 
-.calc-field label {
-  display: flex !important;
-  align-items: center !important;
-  font-family: var(--font-sans) !important;
-  font-size: 0.9rem !important;
-  font-weight: 800 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
-  color: var(--sage-dark) !important;
-  margin-bottom: 1rem !important;
-}
-
-.calc-field label::before {
-  counter-increment: calc-step;
-  content: counter(calc-step);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--teal);
-  color: white;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  font-size: 0.75rem;
-  font-weight: 800;
-  margin-right: 10px;
-  flex-shrink: 0;
-}
-
-.segmented-control {
+/* Summary Chips Bar */
+.calc-chips-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.75rem;
+  background: var(--cream, #F4EFEB);
+  border: 1px solid var(--border);
+  border-radius: 20px;
 }
 
-.segment-btn {
+.calc-chip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   background: var(--surface-color, #ffffff);
-  border: 1px solid var(--border);
-  color: var(--ink-soft);
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-size: 0.9rem;
+  border: 1.5px solid var(--border);
+  color: var(--ink);
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-family: var(--font-sans, 'DM Sans', sans-serif);
+  font-size: 0.88rem;
   font-weight: 700;
   cursor: pointer;
-  font-family: var(--font-sans);
   transition: all 0.2s ease;
   user-select: none;
+  min-height: 44px;
 }
 
-.segment-btn:hover:not(:disabled) {
+.calc-chip-btn:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+  background: var(--teal-light);
+  transform: translateY(-1px);
+}
+
+.calc-chip-btn.active {
+  background: var(--teal) !important;
+  border-color: var(--teal) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(45, 125, 111, 0.25);
+}
+
+.calc-chip-btn .chip-arrow {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  transition: transform 0.2s ease;
+}
+
+.calc-chip-btn.active .chip-arrow {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
+/* Options Drawer Panel */
+.calc-options-panel {
+  display: none;
+  background: var(--surface-color, #ffffff);
+  border: 1.5px solid var(--border);
+  border-radius: 18px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03);
+  animation: calcPanelSlide 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.calc-options-panel.open {
+  display: block;
+}
+
+@keyframes calcPanelSlide {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.calc-options-header {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sage-dark);
+  margin-bottom: 0.85rem;
+}
+
+.calc-options-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.calc-option-pill {
+  background: var(--cream, #F4EFEB);
+  border: 1px solid var(--border);
+  color: var(--ink-soft);
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-family: var(--font-sans, 'DM Sans', sans-serif);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  min-height: 40px;
+}
+
+.calc-option-pill:hover:not(:disabled) {
   border-color: var(--teal);
   color: var(--teal);
   background: var(--teal-light);
 }
 
-.segment-btn.active {
-  background: var(--teal) !important;
-  border-color: var(--teal) !important;
-  color: white !important;
-  box-shadow: 0 4px 12px rgba(46,74,51,0.15);
+.calc-option-pill.active {
+  background: var(--ink) !important;
+  border-color: var(--ink) !important;
+  color: #ffffff !important;
+  font-weight: 700;
 }
 
-.segment-btn:disabled {
+.calc-option-pill.disabled {
   opacity: 0.4;
   cursor: not-allowed;
-  background: var(--cream-dark);
-  border-color: var(--border);
+  text-decoration: line-through;
 }
 
 /* Search Box Styles */
