@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COSY Classroom Synchronizer — COSYlanguages</title>
+    <title>COSY Room Synchronizer — COSYlanguages</title>
     <link rel="icon" href="images/logos/cosylanguages.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
@@ -288,10 +288,10 @@
 <main class="page">
     <div class="sync-container">
         <div class="header-title">
-            <h1>COSY Classroom Synchronizer 🤝</h1>
+            <h1>COSY Room Synchronizer 🤝</h1>
             <p style="color: var(--ink-soft); font-size: 1.1rem;">Zero-Database, Account-Free Live Lesson Coordinator & Speaking Timers.</p>
             <div style="background: var(--cream-dark); border: 1px solid var(--border); border-left: 4px solid var(--sage-deep, #3d5a45); padding: 1rem; border-radius: 8px; max-width: 800px; margin: 1.5rem auto 0; text-align: left; font-size: 0.95rem; line-height: 1.5;">
-                🎓 <strong>Teacher Pro-Tip:</strong> Want to use COSY speaking club sessions for your core curriculum lessons on <strong>ProgressMe (Edvibe)</strong> instead of running standalone clubs? Check out our step-by-step <strong><a href="docs/progressme-lessons-guide.md" style="color: var(--sage-deep, #3d5a45); text-decoration: underline; font-weight: bold;">ProgressMe Lessons Integration Guide</a></strong>.
+                🎓 <strong>Teacher Pro-Tip:</strong> Want to use COSY speaking club sessions for your core learning path lessons on <strong>ProgressMe (Edvibe)</strong> instead of running standalone clubs? Check out our step-by-step <strong><a href="docs/progressme-lessons-guide.md" style="color: var(--sage-deep, #3d5a45); text-decoration: underline; font-weight: bold;">ProgressMe Lessons Integration Guide</a></strong>.
             </div>
         </div>
 
@@ -307,7 +307,7 @@
             </div>
 
             <div class="setup-col">
-                <h3>Join a Live Lesson (Student)</h3>
+                <h3>Join a Live Session (Learner)</h3>
                 <div class="input-group">
                     <input type="text" id="student-room" class="input-text" placeholder="Enter Room Name to Join">
                     <button class="btn-action btn-secondary" onclick="joinRoom()">Join Room ✏️</button>
@@ -368,7 +368,7 @@
             <!-- Right Side: Student Live Dashboard -->
             <div class="role-panel student">
                 <div class="panel-header">
-                    <div class="panel-badge">Student View</div>
+                    <div class="panel-badge">Learner View</div>
                     <span style="font-size:1.5rem;">✏️</span>
                 </div>
 
@@ -480,7 +480,7 @@
         });
         tCard.appendChild(tVocabCont);
 
-        // Render Student View (Initially Hidden)
+        // Render Learner View (Initially Hidden)
         const sCard = document.getElementById("student-lesson-card");
         sCard.innerHTML = "";
 
@@ -647,13 +647,13 @@
         peer = new Peer(`cosy-room-${room}`);
 
         peer.on('open', (id) => {
-            document.getElementById('host-status').textContent = `Room created! Invite student to join room: ${room}`;
+            document.getElementById('host-status').textContent = `Room created! Invite learner to join room: ${room}`;
             document.getElementById('host-status').style.color = "#2f855a";
         });
 
         peer.on('connection', (connection) => {
             conn = connection;
-            document.getElementById('host-status').textContent = "Student connected to live classroom!";
+            document.getElementById('host-status').textContent = "Learner connected to live session!";
             document.getElementById('host-status').style.color = "#2f855a";
 
             conn.on('data', (data) => {
@@ -676,7 +676,7 @@
         }
         document.getElementById('join-status').textContent = "Connecting to room...";
 
-        // Join requires a unique student peer id
+        // Join requires a unique learner peer id
         peer = new Peer();
 
         peer.on('open', (id) => {
