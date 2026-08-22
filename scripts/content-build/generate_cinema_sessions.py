@@ -1320,8 +1320,8 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
                 definition, _ = VOCAB_DB[w_low]
                 example = f"The screenplay of '{title}' utilizes '{word}' to express how {details['protagonist']} reacts in '{details['setting']}'."
             else:
-                definition = f"An authentic slang term, colloquialism, or key dialogue featured in '{title}' to establish context."
-                example = f"The characters in '{title}' use the expression '{word}' during a pivotal scene inside {details['setting']} to emphasize the drama."
+                definition = f"An authentic term featured in '{title}'."
+                example = f"In '{title}', the expression '{word}' reflects the atmosphere in {details['setting']}."
 
             definition = calibrate_text_for_level(definition, level, "definition")
             example = calibrate_text_for_level(example, level, "example")
