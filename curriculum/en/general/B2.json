@@ -2,5 +2,262 @@
   "language": "en",
   "course_type": "general",
   "level": "upper_intermediate",
-  "units": []
+  "units": [
+    {
+      "unit": 1,
+      "title": "Government, Governance & Law",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Branches of Government & Public Administration",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Parliament",
+            "Cabinet",
+            "Bureaucracy",
+            "Legislation",
+            "Civil servant",
+            "Enact",
+            "Ministerial decree",
+            "Bureaucratic hurdle",
+            "Constitutional reform"
+          ],
+          "teacher_notes": "Examine public administration, legislative procedures, and register distinctions (civil servant vs bureaucrat vs official)."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Advanced Modal Nuance & Past Deduction",
+          "duration_minutes": 60,
+          "grammar": [
+            "Must have / Can't have / Might have + V3",
+            "Should have / Ought to have + V3",
+            "Bound to / Highly likely to + Verb"
+          ],
+          "teacher_notes": "Practice high-confidence past deduction and modal criticism of administrative/policy decisions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Judicial Procedure & Corporate Compliance",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Jurisdiction",
+            "Prosecution",
+            "Verdict",
+            "Liable",
+            "Admissible",
+            "Copyright infringement",
+            "Regulatory compliance",
+            "Indemnification clause"
+          ],
+          "teacher_notes": "Discuss criminal/civil legal procedures, intellectual property rights, and corporate compliance standards."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Economics, Markets & Corporate Strategy",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Macroeconomics, Inflation & Global Trade",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Macroeconomics",
+            "Inflation",
+            "GDP growth",
+            "Labor market",
+            "Monetary policy",
+            "Tariff",
+            "Stock market",
+            "Cryptocurrency",
+            "Trade deficit"
+          ],
+          "teacher_notes": "Analyze central bank monetary policies, market fluctuations, global tariffs, and trade agreements."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Nominalization & Academic Register Shifts",
+          "duration_minutes": 60,
+          "grammar": [
+            "Verbal active structure -> Nominalized noun phrase"
+          ],
+          "teacher_notes": "Transform active sentences into formal nominalized noun structures ('A thorough analysis of market data led to...')."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Corporate Leadership & Market Segmentation",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Executive leadership",
+            "Venture capital",
+            "Stakeholder",
+            "Risk management",
+            "Brand loyalty",
+            "Customer acquisition",
+            "Public relations",
+            "Market share"
+          ],
+          "teacher_notes": "Present strategic corporate visions, pitch for venture capital, and discuss customer retention strategies."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Science, AI & Digital Ethics",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Empirical Methodology & Aerospace Tech",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Empirical data",
+            "Control group",
+            "Double-blind study",
+            "Peer review",
+            "Orbital trajectory",
+            "Aerospace engineering",
+            "Propulsion",
+            "Payload"
+          ],
+          "teacher_notes": "Evaluate scientific double-blind study methodology, control groups, and aerospace engineering milestones."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Hedging, Nuance & Academic Stance Devices",
+          "duration_minutes": 60,
+          "grammar": [
+            "Probability adverbs (arguably, presumably)",
+            "Epistemic verbs (tend to, appear to, suggest that)",
+            "Hedging stance frames"
+          ],
+          "teacher_notes": "Master cautious hedging devices in scientific claims ('The data would seem to indicate...')."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Artificial Intelligence & Cybersecurity",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Machine learning",
+            "Neural network",
+            "Predictive analytics",
+            "Cloud storage",
+            "Data encryption",
+            "Digital ethics",
+            "Cybersecurity breach"
+          ],
+          "teacher_notes": "Debate predictive machine learning models, digital ethics frameworks, and cloud data security."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Media, Psychology & Moral Philosophy",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Investigative Journalism & Media Bias",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Investigative reporting",
+            "Press freedom",
+            "Whistleblower",
+            "Media bias",
+            "Disinformation",
+            "Digital echo chamber",
+            "Viral clickbait",
+            "Fact-checker"
+          ],
+          "teacher_notes": "Explore press freedom protection, investigative journalism, and combating digital echo chambers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Syntactic Inversion & Cleft Sentences",
+          "duration_minutes": 60,
+          "grammar": [
+            "Negative adverb inversion (Rarely do we encounter...)",
+            "It-clefts & Wh-clefts (It was the CEO who approved...)"
+          ],
+          "teacher_notes": "Apply syntactic inversion and cleft structures for rhetorical emphasis in formal speeches and writing."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Cognitive Biases & Moral Logic",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Cognitive bias",
+            "Emotional intelligence",
+            "Habit formation",
+            "Psychological resilience",
+            "Utilitarianism",
+            "Ethical dilemma",
+            "Moral obligation"
+          ],
+          "teacher_notes": "Examine cognitive biases in decision making, emotional intelligence, and utilitarian ethics."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Environment, Higher Ed & Global Alliances",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Circular Economy & International Relations",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Circular economy",
+            "Carbon market",
+            "Biodiversity",
+            "Urban sustainability",
+            "Diplomacy",
+            "Multilateral treaty",
+            "Peacekeeping",
+            "Diplomatic immunity"
+          ],
+          "teacher_notes": "Discuss circular economy models, urban sustainability plans, and multilateral diplomatic treaties."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Advanced Relative Clauses & Reporting Verbs",
+          "duration_minutes": 60,
+          "grammar": [
+            "Adverbial relatives (whereby, wherein, of which)",
+            "Reduced participle clauses (representing / submitted)",
+            "Impersonal passive reporting (It is alleged that...)"
+          ],
+          "teacher_notes": "Practice advanced relative pronouns, active/passive reduced clauses, and formal reporting verbs."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Higher Education & Rhetorical Public Speaking",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Dissertation",
+            "Academic integrity",
+            "Peer-reviewed journal",
+            "Symposium",
+            "Public speaking rhetoric",
+            "Contrastive stress",
+            "Negotiation strategy"
+          ],
+          "teacher_notes": "Deliver executive keynote speeches, use contrastive stress, and negotiate high-stakes deals."
+        }
+      ]
+    }
+  ]
 }

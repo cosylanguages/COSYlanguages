@@ -2,5 +2,259 @@
   "language": "en",
   "course_type": "general",
   "level": "proficiency",
-  "units": []
+  "units": [
+    {
+      "unit": 1,
+      "title": "Poetics, Narrative & Literary Hermeneutics",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Literary Genres & Epistolary Forms",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Epistolary",
+            "Metafictional",
+            "Bildungsroman",
+            "Magical realism",
+            "Creative nonfiction",
+            "Allegorize",
+            "Juxtapose",
+            "Subvert genre conventions"
+          ],
+          "teacher_notes": "Deconstruct narrative sub-genres, epistolary fiction, bildungsroman progressions, and stylistic genre subversion."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Information Structure & Inversion Mechanics",
+          "duration_minutes": 60,
+          "grammar": [
+            "End-weight & end-focus principle",
+            "Negative adverbial inversion",
+            "Syntactic fronting for dramatic cadence"
+          ],
+          "teacher_notes": "Master end-weight placement and syntactic inversion ('Seldom has a scientific discovery so profoundly reshaped...')."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Poetics, Trope Analysis & Hermeneutics",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Stream of consciousness",
+            "Free indirect discourse",
+            "Pathetic fallacy",
+            "Extended conceit",
+            "Paradox",
+            "Chiasmus",
+            "Hermeneutic circle",
+            "Deconstruction",
+            "Intertextuality"
+          ],
+          "teacher_notes": "Analyze rhetorical tropes (synecdoche, zeugma, litotes, chiasmus), free indirect discourse, and hermeneutic criticism."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Metaphysics, Jurisprudence & Derivatives",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Ontology, Phenomenology & Epistemology",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Ontology",
+            "Phenomenology",
+            "Epistemology",
+            "Absurdism",
+            "Pragmatism",
+            "Existential angst",
+            "Analytic philosophy",
+            "Continental philosophy"
+          ],
+          "teacher_notes": "Compare analytic language analysis with continental phenomenology, ontology, and existentialism."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Multi-Register Transformations (6 Registers)",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational vs Corporate vs Academic vs Journalistic vs Legal vs High Literary register shifts"
+          ],
+          "teacher_notes": "Execute seamless transformations of identical semantic content across 6 distinct communicative registers."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Statutory Drafting & Financial Game Theory",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Ratio decidendi",
+            "Obiter dictum",
+            "Mens rea",
+            "Actus reus",
+            "Statutory drafting",
+            "Nash equilibrium",
+            "Financial derivatives",
+            "Credit default swap",
+            "Systemic insolvency"
+          ],
+          "teacher_notes": "Evaluate ratio decidendi in constitutional legal opinions, Nash equilibrium in game theory, and credit default swaps."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Quantum Physics, Cybernetics & Historiography",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Quantum Mechanics & Genomic Sequencing",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Quantum entanglement",
+            "CRISPR gene editing",
+            "Quantum superposition",
+            "Neural plasticity",
+            "Astrophysics",
+            "Thermodynamic law",
+            "Catalytic"
+          ],
+          "teacher_notes": "Explore quantum entanglement, superposition in computing, CRISPR genome mapping, and neural plasticity."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Sentence Cadence & Corpus Mechanics",
+          "duration_minutes": 60,
+          "grammar": [
+            "Alternating staccato vs periodic vs balanced sentences",
+            "Corpus-grounded native collocations",
+            "Regional variety & dialect awareness"
+          ],
+          "teacher_notes": "Master sentence cadence control, corpus-grounded native structures, and international English varieties."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Algorithmic Governance & Archival Historiography",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Large language models",
+            "Algorithmic governance",
+            "Zero-trust architecture",
+            "Primary source analysis",
+            "Historiographical debate",
+            "Historical revisionism",
+            "Periodization"
+          ],
+          "teacher_notes": "Analyze LLM benchmarking, algorithmic governance ethics, zero-trust cloud security, and historiographical revisionism."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Musicology, Media Spin & Clinical Science",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Polyphony, Atonality & Structural Aesthetics",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Avant-garde",
+            "Polyphony",
+            "Atonality",
+            "Chiaroscuro lighting",
+            "Curatorial narrative",
+            "Structural aesthetics",
+            "Iconography"
+          ],
+          "teacher_notes": "Examine avant-garde musicology, chiaroscuro visual aesthetics, polyphonic composition, and museum curation."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Classical Loan Expressions & Etymology",
+          "duration_minutes": 60,
+          "grammar": [
+            "Latin loan expressions (prima facie, de facto, status quo, ad hoc, vice versa, magnum opus, persona non grata)",
+            "French loan expressions (carte blanche, coup d'\u00e9tat, raison d'\u00eatre, zeitgeist)"
+          ],
+          "teacher_notes": "Incorporate Latin and French loan phrases with native pronunciation, appropriate register, and semantic precision."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Fourth Estate, Spin Doctoring & Neuroplasticity",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Fourth estate",
+            "Manufacturing consent",
+            "Spin doctoring",
+            "Media ethics",
+            "Cognitive restructuring",
+            "Neuroplasticity",
+            "Psychoanalytic theory"
+          ],
+          "teacher_notes": "Deconstruct political spin doctoring, manufacturing consent in broadcast media, and cognitive restructuring."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Diplomatic Tact, Cultural Allusions & Executive Leadership",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Shakespearean Allusions & Mythological Metaphors",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Hoist with his own petard",
+            "Green-eyed monster",
+            "Pound of flesh",
+            "Sound and fury",
+            "Achilles' heel",
+            "Pandora's box",
+            "Trojan horse",
+            "Pyrrhic victory"
+          ],
+          "teacher_notes": "Master Shakespearean idioms, classical Greek/Roman mythological metaphors, and cultural proverb allusions."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Executive Boardroom & Legal Opinion Writing",
+          "duration_minutes": 60,
+          "grammar": [
+            "Legal opinions & statutory drafting",
+            "Executive white papers & board proposals",
+            "Diplomatic policy directives"
+          ],
+          "teacher_notes": "Write formal legal opinions, statutory clauses, executive board white papers, and diplomatic policy directives."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "High-Level Diplomacy, Tact & Prosodic Mastery",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Diplomatic tact",
+            "Expressing dissent subtly",
+            "Sardonic commentary",
+            "Prosodic modulation",
+            "Emotional intonation",
+            "Keynote persuasion"
+          ],
+          "teacher_notes": "Master unconstrained rhetorical persuasion, subtle diplomatic dissent, sardonic wit, and near-native prosody."
+        }
+      ]
+    }
+  ]
 }

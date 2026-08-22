@@ -5,166 +5,261 @@
   "units": [
     {
       "unit": 1,
-      "title": "Science, Tech & Society",
+      "title": "Academic Research, Ethics & Statistics",
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
-          "title": "Science, Tech & Society - Vocabulary I",
+          "title": "Academic Genres & Systematic Reviews",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Systematic review",
+            "Meta-analysis",
+            "Policy brief",
+            "Monograph",
+            "Corroborate",
+            "Substantiate",
+            "Extrapolate",
+            "Scrutinize",
+            "Empirical",
+            "Exhaustive"
           ],
-          "teacher_notes": "Focus on advanced science, tech & society vocabulary and registers."
+          "teacher_notes": "Focus on academic publication genres, literature synthesis, and lexical bundles ('It is widely acknowledged that...')."
         },
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Science, Tech & Society - Advanced Grammar",
+          "title": "Advanced Hedging & Epistemic Stance",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Epistemic distance adverbs (arguably, conceivably, presumably)",
+            "Past modal hedging (would seem to indicate)",
+            "Cautious stance frames"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Master hedging claims in research publications to avoid overgeneralization."
         },
         {
           "lesson": 3,
           "type": "spoken",
-          "title": "Science, Tech & Society - Seminar & Debate",
-          "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "title": "Research Ethics & Statistical Data Analysis",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Plagiarism",
+            "Institutional review board",
+            "Replication crisis",
+            "Methodological rigor",
+            "Confidence interval",
+            "Standard deviation",
+            "Sampling bias",
+            "Regression analysis",
+            "Statistically significant"
+          ],
+          "teacher_notes": "Examine research ethics, consent protocols, statistical power, regression analysis, and outlier detection."
         }
       ]
     },
     {
       "unit": 2,
-      "title": "Power & Institutions",
+      "title": "Jurisprudence, Macroeconomics & Banking",
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
-          "title": "Power & Institutions - Vocabulary I",
+          "title": "Litigation, Contracts & Constitutional Law",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Indictment",
+            "Plea bargain",
+            "Affidavit",
+            "Contractual liability",
+            "Negligence",
+            "Indemnification clause",
+            "Ratification",
+            "Unconstitutional",
+            "Sovereign rights"
           ],
-          "teacher_notes": "Focus on advanced power & institutions vocabulary and registers."
+          "teacher_notes": "Deconstruct criminal indictments, civil tort liability, contractual indemnity, and constitutional law."
         },
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Power & Institutions - Advanced Grammar",
+          "title": "Theme/Rheme Alignment & Inversion",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Theme/Rheme information structure",
+            "Syntactic fronting and negative adverb inversion",
+            "End-weight principle"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Optimize legal and academic prose flow placing known information in Theme and new heavy clauses at Rheme."
         },
         {
           "lesson": 3,
           "type": "spoken",
-          "title": "Power & Institutions - Seminar & Debate",
-          "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "title": "Macroeconomics & Financial Contagion",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Behavioural economics",
+            "Price elasticity",
+            "Monetary policy intervention",
+            "Nudge theory",
+            "Portfolio diversification",
+            "Financial contagion",
+            "Liquidity crisis",
+            "Inflation hedge"
+          ],
+          "teacher_notes": "Debate monetary policy interventions, behavioural nudge theory, portfolio diversification, and systemic financial risk."
         }
       ]
     },
     {
       "unit": 3,
-      "title": "Social Structures",
+      "title": "Corporate Governance, AI & Bioethics",
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
-          "title": "Social Structures - Vocabulary I",
+          "title": "Corporate Governance & Disruptive Innovation",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Corporate governance",
+            "Executive leadership",
+            "Performance appraisal",
+            "Change management",
+            "Risk assessment",
+            "Contingency plan",
+            "Disruptive innovation",
+            "Venture capital"
           ],
-          "teacher_notes": "Focus on advanced social structures vocabulary and registers."
+          "teacher_notes": "Analyze executive leadership standards, performance appraisals, change management, and disruptive business scaling."
         },
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Social Structures - Advanced Grammar",
+          "title": "Cohesion, Ellipsis & Substitution",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Advanced cohesive devices (accordingly, notwithstanding)",
+            "Formal substitution (do so, such, former/latter)",
+            "Ellipsis in comparative clauses"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Utilize advanced connectors and formal substitution ('the former vs the latter') to ensure tight cohesive flow."
         },
         {
           "lesson": 3,
           "type": "spoken",
-          "title": "Social Structures - Seminar & Debate",
-          "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "title": "Generative AI, Bioethics & Quantum Computing",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Phase III clinical trial",
+            "Bioethics committee",
+            "Diagnostic accuracy",
+            "Generative AI",
+            "Deep learning architecture",
+            "Neural network optimization",
+            "Zero-trust architecture",
+            "Quantum computing"
+          ],
+          "teacher_notes": "Explore bioethical research limits, generative AI architecture, zero-trust cloud security, and quantum encryption."
         }
       ]
     },
     {
       "unit": 4,
-      "title": "Knowledge & Truth",
+      "title": "Epistemology, Cognitive Dissonance & Media",
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
-          "title": "Knowledge & Truth - Vocabulary I",
+          "title": "Investigative Press & Editorial Independence",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Investigative reporting",
+            "Press freedom index",
+            "Media manipulation",
+            "Whistleblower protection",
+            "Editorial independence",
+            "Freedom of information"
           ],
-          "teacher_notes": "Focus on advanced knowledge & truth vocabulary and registers."
+          "teacher_notes": "Examine editorial independence, whistleblowing safeguards, and investigating corporate corruption."
         },
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Knowledge & Truth - Advanced Grammar",
+          "title": "Periodic & Balanced Sentence Cadence",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Periodic sentence structure (main clause delayed)",
+            "Balanced parallel sentence construction",
+            "Advanced punctuation mechanics"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Craft periodic sentences for dramatic impact and balanced parallel structures for rhetorical speeches."
         },
         {
           "lesson": 3,
           "type": "spoken",
-          "title": "Knowledge & Truth - Seminar & Debate",
-          "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "title": "Epistemological Inquiry & Cognitive Dissonance",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Epistemology",
+            "Metaphysics",
+            "Free will",
+            "Determinism",
+            "Normative ethics",
+            "Cognitive behavioral therapy",
+            "Confirmation bias",
+            "Cognitive dissonance"
+          ],
+          "teacher_notes": "Discuss epistemological bounds of knowledge, metaphysical determinism, confirmation bias, and cognitive restructuring."
         }
       ]
     },
     {
       "unit": 5,
-      "title": "Discourse & Argument",
+      "title": "Geopolitics, Circular Economy & Public Speaking",
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
-          "title": "Discourse & Argument - Vocabulary I",
+          "title": "Diplomacy, Soft Power & Circular Economy",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Soft power",
+            "Diplomatic protocol",
+            "International sanctions",
+            "Territorial integrity",
+            "Circular economy model",
+            "Carbon offset scheme",
+            "Biodiversity conservation",
+            "Climate adaptation"
           ],
-          "teacher_notes": "Focus on advanced discourse & argument vocabulary and registers."
+          "teacher_notes": "Evaluate soft power diplomacy, multilateral treaties, territorial integrity, and circular economic models."
         },
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Discourse & Argument - Advanced Grammar",
+          "title": "Executive Writing Genres & Proposals",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Policy briefs & position papers",
+            "Business feasibility reports",
+            "Executive proposals & white papers"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Write high-level policy briefs, feasibility reports, executive proposals, and white papers."
         },
         {
           "lesson": 3,
           "type": "spoken",
-          "title": "Discourse & Argument - Seminar & Debate",
-          "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "title": "Public Speaking Rhetoric & Q&A Under Pressure",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Anaphora",
+            "Rule of three",
+            "Antithesis",
+            "Thought group chunking",
+            "Pitch range modulation",
+            "High-level negotiation phrases"
+          ],
+          "teacher_notes": "Master classical rhetorical figures, thought group chunking, and handling adversarial Q&A sessions under pressure."
         }
       ]
     }

@@ -5,40 +5,39 @@
   "groups": [
     {
       "id": "be_present_simple",
-      "label": "Verb TO BE — Present Simple",
+      "label": "Verb TO BE \u2014 Present & Past Simple",
       "level": "starter",
-      "definition": "TBD",
-      "emoji": "👤",
+      "definition": "Essential linking verb expressing state, identity, age, origin, and condition.",
+      "emoji": "\ud83d\udc64",
       "rules": [
-        "I am",
-        "You / We / They are",
-        "He / She / It is"
+        "Present: I am; You/We/They are; He/She/It is.",
+        "Past: I/He/She/It was; You/We/They were.",
+        "Negatives: am not, isn't, aren't, wasn't, weren't."
       ],
       "examples": [
         {
           "t": "I am a student.",
-          "m": "Example of first person singular"
+          "m": "Present simple be"
         },
         {
-          "t": "She is happy.",
-          "m": "Example of third person singular"
+          "t": "They were at home yesterday.",
+          "m": "Past simple be"
         }
       ],
       "practice_links": [
-        "grammar/en-be.html"
+        "grammar/en/morphology/en-be.html"
       ]
     },
     {
       "id": "present_simple",
-      "label": "Present Simple",
+      "label": "Present Simple Tense",
       "level": "starter",
-      "definition": "TBD",
-      "emoji": "🕐",
+      "definition": "Expressing habits, routines, general scientific truths, and permanent states.",
+      "emoji": "\ud83d\udd50",
       "rules": [
         "Use for habits, routines, and general truths.",
-        "Add -s for He/She/It.",
-        "Use don't/doesn't for negatives.",
-        "Use Do/Does for questions."
+        "Add -s/-es for He/She/It (walks, watches, studies).",
+        "Negatives & Questions: use do/does + base verb (don't work / does she live?)."
       ],
       "examples": [
         {
@@ -47,31 +46,31 @@
         },
         {
           "t": "She works in Paris.",
-          "m": "Third person -s"
+          "m": "Third person singular -s"
         },
         {
-          "t": "He doesn't like coffee.",
+          "t": "He doesn't drink coffee.",
           "m": "Negative"
         }
       ],
       "practice_links": [
-        "grammar/en-present-simple.html"
+        "grammar/en/morphology/en-present-simple.html"
       ]
     },
     {
       "id": "past_simple",
-      "label": "Past Simple",
+      "label": "Past Simple Tense",
       "level": "elementary",
-      "definition": "TBD",
-      "emoji": "🕰️",
+      "definition": "Completed actions at a finished, specific time in the past.",
+      "emoji": "\ud83d\udd70\ufe0f",
       "rules": [
-        "Use for finished actions in the past.",
-        "Regular verbs add -ed.",
-        "Irregular verbs have unique forms (e.g., go -> went)."
+        "Regular verbs: add -ed (walked, played, lived).",
+        "Irregular verbs: unique V2 forms (go -> went, see -> saw, buy -> bought).",
+        "Negatives & Questions: didn't + base verb / Did + subject + base verb?"
       ],
       "examples": [
         {
-          "t": "Yesterday, I walked to the gym.",
+          "t": "Yesterday, I walked to work.",
           "m": "Regular verb"
         },
         {
@@ -80,31 +79,32 @@
         }
       ],
       "practice_links": [
-        "grammar/en-past-simple.html"
+        "grammar/en/morphology/en-past-simple.html"
       ]
     },
     {
-      "id": "future_going_to",
-      "label": "Future: Going to",
-      "level": "elementary",
-      "definition": "TBD",
-      "emoji": "🔮",
+      "id": "modals_deduction",
+      "label": "Modal Verbs of Obligation & Deduction",
+      "level": "intermediate",
+      "emoji": "\ud83d\udd10",
+      "definition": "Expressing obligation (must, have to), advice (should), ability (can, could), and deduction (must be, can't have been).",
       "rules": [
-        "Formula: BE + GOING TO + VERB",
-        "Use for plans and intentions."
+        "Obligation: Must (internal) vs Have to (external).",
+        "Advice: Should / Shouldn't + base verb.",
+        "Past Deduction: Must have + V3 (certain positive) / Can't have + V3 (certain negative)."
       ],
       "examples": [
         {
-          "t": "I am going to study tonight.",
-          "m": "Plan"
+          "t": "You must wear a helmet.",
+          "m": "Obligation"
         },
         {
-          "t": "They are going to visit us.",
-          "m": "Intention"
+          "t": "She must have forgotten the key.",
+          "m": "Past deduction"
         }
       ],
       "practice_links": [
-        "grammar/en-future-going-to.html"
+        "grammar/en/morphology/en-modals.html"
       ]
     }
   ]

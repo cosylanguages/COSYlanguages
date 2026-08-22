@@ -2,5 +2,338 @@
   "language": "en",
   "course_type": "general",
   "level": "elementary",
-  "units": []
+  "units": [
+    {
+      "unit": 1,
+      "title": "Personal Life & Relationships",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Life History & Upbringing",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Biography",
+            "Background",
+            "Birthplace",
+            "Hometown",
+            "Upbringing",
+            "Childhood",
+            "Youth",
+            "Adulthood",
+            "Memory",
+            "Milestone",
+            "Graduation",
+            "Qualification"
+          ],
+          "teacher_notes": "Focus on life milestones, past biography, and childhood memories using Past Simple."
+        },
+        {
+          "lesson": 2,
+          "type": "vocab",
+          "title": "Personality & Character Traits",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Reliable",
+            "Hard-working",
+            "Lazy",
+            "Generous",
+            "Selfish",
+            "Patient",
+            "Impatient",
+            "Stubborn",
+            "Flexible",
+            "Moody",
+            "Cheerful",
+            "Shy",
+            "Outgoing",
+            "Polite",
+            "Rude",
+            "Honest",
+            "Sensitive",
+            "Sensible"
+          ],
+          "teacher_notes": "Describe friends, family, and colleagues using descriptive adjectives and character collocations."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Social Circles & Friendships",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Acquaintance",
+            "Childhood friend",
+            "Close friend",
+            "Social gathering",
+            "Invitation",
+            "Host",
+            "Guest",
+            "Reunion",
+            "Get-together"
+          ],
+          "teacher_notes": "Practice invitations, catching up with friends, and social gathering etiquette."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Housing & Neighbourhoods",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Renting, Buying & Moving",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Property",
+            "Advert",
+            "Listing",
+            "Rent",
+            "Deposit",
+            "Landlord",
+            "Tenant",
+            "Rental agreement",
+            "Contract",
+            "Lease",
+            "Estate agency",
+            "Utilities"
+          ],
+          "teacher_notes": "Inquire about property adverts, monthly rent, deposit terms, and flat viewings."
+        },
+        {
+          "lesson": 2,
+          "type": "vocab",
+          "title": "Household Maintenance & Repairs",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Maintenance",
+            "Repair",
+            "Issue",
+            "Leak",
+            "Crack",
+            "Radiator",
+            "Boiler",
+            "Pipe",
+            "Tap",
+            "Plumber",
+            "Electrician",
+            "Technician"
+          ],
+          "teacher_notes": "Report household problems, dripping taps, and broken appliances to landlords or repair technicians."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Neighbourhood & City Life",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Suburb",
+            "District",
+            "Neighbourhood",
+            "Convenience store",
+            "Laundrette",
+            "Recycling point",
+            "Community centre",
+            "Pedestrian zone",
+            "Pavement"
+          ],
+          "teacher_notes": "Compare local amenities, urban vs rural lifestyle preferences, and neighborhood safety."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Workplace & Career",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Office Communication & Tasks",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Schedule",
+            "Calendar",
+            "Deadline",
+            "Project",
+            "Presentation",
+            "Report",
+            "Spreadsheet",
+            "Client",
+            "Supplier",
+            "Colleague",
+            "Supervisor"
+          ],
+          "teacher_notes": "Discuss office schedules, deadlines, meeting arrangements, and professional emails."
+        },
+        {
+          "lesson": 2,
+          "type": "vocab",
+          "title": "Job Seeking & Employment Terms",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Application",
+            "CV",
+            "Interview",
+            "Work experience",
+            "Qualification",
+            "Full-time",
+            "Part-time",
+            "Shift work",
+            "Salary",
+            "Wage",
+            "Promotion"
+          ],
+          "teacher_notes": "Prepare for job interviews, discuss qualifications, work experience, and career goals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Commuting & Business Trips",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Commute",
+            "Rush hour",
+            "Traffic congestion",
+            "Monthly pass",
+            "Itinerary",
+            "Flight booking",
+            "Receipt",
+            "Claim",
+            "Expenses"
+          ],
+          "teacher_notes": "Discuss daily commuting habits, travel delays, and expense claims for business trips."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Health & Wellbeing",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Symptoms, Injuries & Emergencies",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Fever",
+            "Infection",
+            "Allergy",
+            "Rash",
+            "Cut",
+            "Wound",
+            "Burn",
+            "Bruise",
+            "Sprain",
+            "Fracture",
+            "Dizziness",
+            "Nausea"
+          ],
+          "teacher_notes": "Describe physical pain, medical symptoms, and accidental injuries clearly."
+        },
+        {
+          "lesson": 2,
+          "type": "vocab",
+          "title": "At the Doctor's & Pharmacy",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Appointment",
+            "Consultation",
+            "Doctor",
+            "GP",
+            "Prescription",
+            "Medicine",
+            "Painkillers",
+            "Antibiotics",
+            "Ointment",
+            "Bandage",
+            "Plaster"
+          ],
+          "teacher_notes": "Roleplay medical consultations, taking prescriptions, and buying medicine at a pharmacy."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Nutrition & Healthy Living",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Nutrition",
+            "Calories",
+            "Vitamins",
+            "Protein",
+            "Carbohydrates",
+            "Fiber",
+            "Vegetarian",
+            "Vegan",
+            "Gluten-free",
+            "Junk food",
+            "Workout",
+            "Hydration"
+          ],
+          "teacher_notes": "Discuss dietary choices, exercise routines, active lifestyles, and fitness habits."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Travel, Culture & Shopping",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Booking Travel & Accommodation",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Reservation",
+            "Single room",
+            "Double room",
+            "Twin room",
+            "Reception",
+            "Check-in",
+            "Check-out",
+            "Key card",
+            "Boarding pass",
+            "Customs"
+          ],
+          "teacher_notes": "Practice hotel check-in/check-out procedures, flight bookings, and handling luggage."
+        },
+        {
+          "lesson": 2,
+          "type": "vocab",
+          "title": "Shopping, Retail & Online Orders",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Fitting room",
+            "Receipt",
+            "Refund",
+            "Exchange",
+            "Discount",
+            "Self-checkout",
+            "Loyalty card",
+            "Parcel",
+            "Tracking number",
+            "Contactless"
+          ],
+          "teacher_notes": "Handle clothes shopping, returns, online parcel tracking, and banking transactions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Sightseeing & Local Traditions",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Sightseeing",
+            "Monument",
+            "Landmark",
+            "Museum",
+            "Tourist attraction",
+            "Tour guide",
+            "Audio guide",
+            "Local specialty",
+            "Street food"
+          ],
+          "teacher_notes": "Explore tourist attractions, ask for guided tour details, and sample regional gastronomy."
+        }
+      ]
+    }
+  ]
 }

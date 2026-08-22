@@ -2,5 +2,32 @@
   "language": "en",
   "category": "stress",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "word_sentence_stress",
+      "label": "Word Stress, Schwa & Sentence Rhythm",
+      "level": "starter",
+      "emoji": "\ud83c\udfaf",
+      "definition": "English stress-timed rhythm: stressing content words, unstressing function words with Schwa /\u0259/, and shifting stress in derivatives.",
+      "rules": [
+        "Nouns & Occupations: 1st syllable stress (DOC-tor, TEA-cher, WA-ter).",
+        "Numbers: -teen stress 2nd syllable (thir-TEEN); -ty stress 1st syllable (THIR-ty).",
+        "Schwa /\u0259/: unstressed vowel sound in words like doctor /\u02c8d\u0252k.t\u0259/ or about /\u0259\u02c8ba\u028at/.",
+        "Contrastive stress: emphasizing contrasting words (I said RED, not BLUE)."
+      ],
+      "examples": [
+        {
+          "t": "I am a DOCTOR.",
+          "m": "First syllable noun stress"
+        },
+        {
+          "t": "Thirteen vs Thirty.",
+          "m": "-teen vs -ty stress rules"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/phonology/en-stress.html"
+      ]
+    }
+  ]
 }

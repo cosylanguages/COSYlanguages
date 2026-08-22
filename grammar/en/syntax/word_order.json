@@ -7,19 +7,20 @@
       "id": "word_order_svo",
       "label": "Basic Word Order (SVO)",
       "level": "starter",
-      "definition": "TBD",
-      "emoji": "➡️",
+      "definition": "Canonical Subject-Verb-Object English sentence structure and adverb placement.",
+      "emoji": "\u27a1\ufe0f",
       "rules": [
-        "Subject + Verb + Object"
+        "Standard order: Subject + Verb + Direct Object + Manner + Place + Time.",
+        "Frequency Adverbs: Place before main verbs, but AFTER verb to be (I always eat breakfast / She is never late)."
       ],
       "examples": [
         {
-          "t": "I drink coffee.",
-          "m": "S + V + O"
+          "t": "I drink coffee every morning.",
+          "m": "S + V + O + Time"
         },
         {
-          "t": "She speaks English.",
-          "m": "S + V + O"
+          "t": "She speaks English fluently at work.",
+          "m": "S + V + O + Manner + Place"
         }
       ],
       "practice_links": [
@@ -30,24 +31,44 @@
       "id": "there_is_are",
       "label": "There is / There are",
       "level": "starter",
-      "definition": "TBD",
-      "emoji": "📍",
+      "definition": "Existential structures asserting the presence or existence of singular/uncountable or plural entities.",
+      "emoji": "\ud83d\udccd",
       "rules": [
-        "There is + singular noun.",
-        "There are + plural noun."
+        "There is + singular countable or uncountable noun (There is a book / There is water).",
+        "There are + plural countable noun (There are three apples)."
       ],
       "examples": [
         {
           "t": "There is a book on the table.",
-          "m": "Singular"
+          "m": "Singular existential"
         },
         {
-          "t": "There are three people here.",
-          "m": "Plural"
+          "t": "There are three people in the room.",
+          "m": "Plural existential"
         }
       ],
       "practice_links": [
         "grammar/en-there-is.html"
+      ]
+    },
+    {
+      "id": "theme_rheme_packaging",
+      "label": "Theme/Rheme Information Packaging",
+      "level": "advanced",
+      "emoji": "\ud83d\udce6",
+      "definition": "Strategic discourse alignment placing known context at sentence start (Theme) and new heavy information at sentence end (Rheme / End-Weight).",
+      "rules": [
+        "Place established context in Theme position at the beginning of the sentence.",
+        "Place new, crucial, or heavy information in Rheme position at the end of the sentence."
+      ],
+      "examples": [
+        {
+          "t": "Underpinning the recovery plan was an uncompromising commitment to environmental policy.",
+          "m": "End-weight Rheme alignment"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/syntax/en-information-packaging.html"
       ]
     }
   ]

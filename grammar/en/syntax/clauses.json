@@ -2,5 +2,57 @@
   "language": "en",
   "category": "clauses",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "relative_clauses",
+      "label": "Relative Clauses (Defining & Non-Defining)",
+      "level": "elementary",
+      "emoji": "\ud83d\udd17",
+      "definition": "Clauses introduced by who, which, that, where, or whose to add information about a noun.",
+      "rules": [
+        "Defining (no commas): essential info (The man who lives next door is a doctor).",
+        "Non-defining (with commas): extra info (My brother, who lives in Paris, is an architect).",
+        "Whose: expresses possession (A writer whose book won an award)."
+      ],
+      "examples": [
+        {
+          "t": "The woman who called you is my supervisor.",
+          "m": "Defining relative clause"
+        },
+        {
+          "t": "London, which is the capital of the UK, is very historic.",
+          "m": "Non-defining relative clause"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/syntax/en-relative-clauses.html"
+      ]
+    },
+    {
+      "id": "conditional_clauses",
+      "label": "Conditionals (Zero, First, Second, Third)",
+      "level": "intermediate",
+      "emoji": "\ud83d\udd00",
+      "definition": "Expressing conditions and outcomes across real and hypothetical situations.",
+      "rules": [
+        "Zero: If + Present Simple, Present Simple (general truths).",
+        "First: If + Present Simple, WILL + Base Verb (real future possibility).",
+        "Second: If + Past Simple, WOULD + Base Verb (unreal present/future).",
+        "Third: If + Past Perfect, WOULD HAVE + V3 (unreal past regret)."
+      ],
+      "examples": [
+        {
+          "t": "If it rains tomorrow, we will stay home.",
+          "m": "First conditional"
+        },
+        {
+          "t": "If I had more time, I would travel more.",
+          "m": "Second conditional"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/syntax/en-conditionals.html"
+      ]
+    }
+  ]
 }

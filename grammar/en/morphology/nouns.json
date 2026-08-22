@@ -7,25 +7,56 @@
       "id": "plurals",
       "label": "Nouns & Plurals",
       "level": "starter",
-      "definition": "TBD",
-      "emoji": "🍎🍎",
+      "definition": "Rules for forming plural nouns from singular forms across regular and irregular categories.",
+      "emoji": "\ud83c\udf4e\ud83c\udf4e",
       "rules": [
-        "Most nouns: add -s (cat -> cats).",
-        "Nouns ending in -s, -sh, -ch, -x: add -es (bus -> buses).",
-        "Nouns ending in consonant + -y: change to -ies (city -> cities)."
+        "Most regular nouns: add -s (cat -> cats).",
+        "Nouns ending in -s, -sh, -ch, -x, -z: add -es (bus -> buses, watch -> watches).",
+        "Nouns ending in consonant + -y: change to -ies (city -> cities).",
+        "Irregulars: man -> men, woman -> women, child -> children, person -> people, foot -> feet, tooth -> teeth, sheep -> sheep."
       ],
       "examples": [
         {
           "t": "One car, two cars.",
-          "m": "Regular plural"
+          "m": "Regular plural -s"
         },
         {
           "t": "One box, two boxes.",
-          "m": "Ending in -x"
+          "m": "Ending in -x (-es)"
+        },
+        {
+          "t": "Three children are playing.",
+          "m": "Irregular plural"
         }
       ],
       "practice_links": [
-        "grammar/en-plurals.html"
+        "grammar/en/morphology/en-plurals.html"
+      ]
+    },
+    {
+      "id": "possession",
+      "label": "Possessive Nouns ('s vs s')",
+      "level": "starter",
+      "definition": "Expressing ownership or connection using possessive apostrophe 's or of.",
+      "emoji": "\ud83d\udd11",
+      "rules": [
+        "Singular nouns: add 's (John's car, my mother's house).",
+        "Regular plural nouns: add ' (my parents' room).",
+        "Irregular plural nouns: add 's (the children's toys).",
+        "Inanimate objects: use 'of' (the door of the house)."
+      ],
+      "examples": [
+        {
+          "t": "This is Sarah's book.",
+          "m": "Singular possessive"
+        },
+        {
+          "t": "Where is the teachers' office?",
+          "m": "Regular plural possessive"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/morphology/en-possessives.html"
       ]
     }
   ]

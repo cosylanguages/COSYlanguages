@@ -2,5 +2,80 @@
   "language": "en",
   "category": "adjectives",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "adjective_order",
+      "label": "Adjective Order (OSASCOMP)",
+      "level": "elementary",
+      "emoji": "\ud83c\udfa8",
+      "definition": "Standard sequence when using multiple adjectives before a noun: Opinion, Size, Age, Shape, Colour, Origin, Material, Purpose.",
+      "rules": [
+        "Opinion -> Size -> Age -> Shape -> Colour -> Origin -> Material -> Purpose + Noun",
+        "Example: A beautiful small old round red Italian wooden dining table."
+      ],
+      "examples": [
+        {
+          "t": "A lovely big new black leather jacket.",
+          "m": "Opinion + Size + Age + Colour + Material"
+        },
+        {
+          "t": "A modern Japanese electric car.",
+          "m": "Age + Origin + Purpose"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/morphology/en-adjectives.html"
+      ]
+    },
+    {
+      "id": "comparatives_superlatives",
+      "label": "Comparatives & Superlatives",
+      "level": "elementary",
+      "emoji": "\ud83d\udcc8",
+      "definition": "Forming comparative (-er / more) and superlative (-est / most) forms to compare qualities.",
+      "rules": [
+        "1-syllable: add -er / -est (tall -> taller -> tallest).",
+        "Ending in -y: -ier / -iest (happy -> happier -> happiest).",
+        "2+ syllables: use 'more' / 'the most' (more expensive -> the most expensive).",
+        "Irregulars: good -> better -> best, bad -> worse -> worst, far -> farther -> farthest."
+      ],
+      "examples": [
+        {
+          "t": "London is bigger than Oxford.",
+          "m": "Comparative 1-syllable"
+        },
+        {
+          "t": "This is the most interesting book.",
+          "m": "Superlative multi-syllable"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/morphology/en-comparatives.html"
+      ]
+    },
+    {
+      "id": "participial_adjectives",
+      "label": "Participial Adjectives (-ed vs -ing)",
+      "level": "intermediate",
+      "emoji": "\ud83d\udca1",
+      "definition": "Adjectives ending in -ed describe feelings/internal states; adjectives ending in -ing describe the cause/thing provoking the feeling.",
+      "rules": [
+        "-ed describe human emotional state: I am bored / interested / exhausted.",
+        "-ing describe the external cause: The lesson is boring / interesting / exhausting."
+      ],
+      "examples": [
+        {
+          "t": "I am fascinated by history.",
+          "m": "Internal feeling (-ed)"
+        },
+        {
+          "t": "History is a fascinating subject.",
+          "m": "External cause (-ing)"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/morphology/en-participial-adjectives.html"
+      ]
+    }
+  ]
 }

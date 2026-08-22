@@ -2,5 +2,56 @@
   "language": "en",
   "category": "prepositions",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "prepositions_time_place",
+      "label": "Prepositions of Time & Place (AT, ON, IN)",
+      "level": "starter",
+      "emoji": "\u23f3",
+      "definition": "Core prepositions specifying temporal points/durations and spatial locations.",
+      "rules": [
+        "AT: specific times & precise points (at 5 PM, at night, at the bus stop, at home).",
+        "ON: days, dates, surfaces, & streets (on Monday, on May 15th, on the table, on Oxford Street).",
+        "IN: months, years, seasons, enclosed spaces, cities, & countries (in May, in 2026, in summer, in the room, in London)."
+      ],
+      "examples": [
+        {
+          "t": "Meet me at 5 o'clock at the station.",
+          "m": "AT for time & point"
+        },
+        {
+          "t": "The meeting is on Monday in Room 302.",
+          "m": "ON for day & IN for room"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/particles/en-prepositions.html"
+      ]
+    },
+    {
+      "id": "dependent_prepositions",
+      "label": "Dependent Prepositions with Verbs & Nouns",
+      "level": "intermediate",
+      "emoji": "\ud83d\udccc",
+      "definition": "Fixed prepositions required by specific verbs, adjectives, and nouns.",
+      "rules": [
+        "Verb + Preposition: depend ON, belong TO, listen TO, insist ON, look FOR.",
+        "Adjective + Preposition: interested IN, good AT, proud OF, allergic TO, famous FOR.",
+        "Structural contrast: Verb influence (no prep) vs Noun influence ON."
+      ],
+      "examples": [
+        {
+          "t": "She is interested in modern art.",
+          "m": "Adjective + Preposition"
+        },
+        {
+          "t": "It depends on the weather.",
+          "m": "Verb + Preposition"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/particles/en-dependent-prepositions.html"
+      ]
+    }
+  ]
 }

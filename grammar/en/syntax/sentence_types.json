@@ -2,5 +2,57 @@
   "language": "en",
   "category": "sentence_types",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "questions_negation",
+      "label": "Question Formation & Negation System",
+      "level": "starter",
+      "emoji": "\u2753",
+      "definition": "Forming Yes/No questions, Wh- questions, imperatives, and negative sentences using auxiliary verbs.",
+      "rules": [
+        "Yes/No Questions: Auxiliary / Modal + Subject + Main Verb? (Do you speak English?)",
+        "Wh- Questions: Question Word + Auxiliary + Subject + Main Verb? (Where do you live?)",
+        "Negation: Subject + Auxiliary + NOT + Main Verb (I don't know / She isn't here).",
+        "Imperatives: Base verb for positive; Don't + base verb for negative (Open the door! / Don't touch that!)."
+      ],
+      "examples": [
+        {
+          "t": "Where does she work?",
+          "m": "Wh- Question"
+        },
+        {
+          "t": "Don't forget your umbrella!",
+          "m": "Negative imperative"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/syntax/en-questions.html"
+      ]
+    },
+    {
+      "id": "cleft_inversion",
+      "label": "Cleft Sentences & Inversion for Emphasis",
+      "level": "upper_intermediate",
+      "emoji": "\u26a1",
+      "definition": "Syntactic re-packaging techniques (It-clefts, Wh-clefts, Inversion) to place focus or dramatic emphasis on specific elements.",
+      "rules": [
+        "It-Cleft: It is/was + [Focused Element] + that/who... (It was Sarah who solved the issue).",
+        "Wh-Cleft: What I + [Verb] + is/was... (What we need is clear communication).",
+        "Inversion after negative adverbs: Never / Rarely / Seldom + Auxiliary + Subject + Verb (Rarely have I seen such dedication)."
+      ],
+      "examples": [
+        {
+          "t": "It was the CEO who approved the budget.",
+          "m": "It-cleft emphasis"
+        },
+        {
+          "t": "Seldom do we encounter such resistance.",
+          "m": "Negative adverbial inversion"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/syntax/en-emphasis.html"
+      ]
+    }
+  ]
 }

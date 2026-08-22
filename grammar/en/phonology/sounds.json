@@ -2,5 +2,30 @@
   "language": "en",
   "category": "sounds",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "vowels_consonants",
+      "label": "English Vowel Pairs & Silent Letters",
+      "level": "starter",
+      "emoji": "\ud83d\udde3\ufe0f",
+      "definition": "Distinguishing short vs long vowel pairs (/\u026a/ vs /i\u02d0/) and identifying silent letters.",
+      "rules": [
+        "Short vs Long Vowels: ship /\u0283\u026ap/ vs sheep /\u0283i\u02d0p/; sit /s\u026at/ vs seat /si\u02d0t/.",
+        "Silent letters: know (silent k), listen (silent t), write (silent w), climb (silent b)."
+      ],
+      "examples": [
+        {
+          "t": "A ship and a sheep.",
+          "m": "Short /\u026a/ vs long /i\u02d0/"
+        },
+        {
+          "t": "I know how to write.",
+          "m": "Silent K and silent W"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/phonology/en-sounds.html"
+      ]
+    }
+  ]
 }

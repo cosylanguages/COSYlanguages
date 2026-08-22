@@ -2,5 +2,31 @@
   "language": "en",
   "category": "numerals",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "cardinals_ordinals",
+      "label": "Cardinal & Ordinal Numerals",
+      "level": "starter",
+      "emoji": "\ud83d\udd22",
+      "definition": "Expressing quantity (cardinals: 1, 2, 3) and order/rank (ordinals: 1st, 2nd, 3rd).",
+      "rules": [
+        "Cardinals: one, two, three, ten, twenty, hundred, thousand, million.",
+        "Ordinals: first (1st), second (2nd), third (3rd), fourth (4th), twenty-first (21st).",
+        "Stress rule: -teen numbers stress 2nd syllable (thir-TEEN); -ty numbers stress 1st syllable (THIR-ty)."
+      ],
+      "examples": [
+        {
+          "t": "I have three brothers.",
+          "m": "Cardinal quantity"
+        },
+        {
+          "t": "His birthday is on May 15th.",
+          "m": "Ordinal date"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/morphology/en-numerals.html"
+      ]
+    }
+  ]
 }

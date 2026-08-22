@@ -2,5 +2,265 @@
   "language": "en",
   "course_type": "general",
   "level": "intermediate",
-  "units": []
+  "units": [
+    {
+      "unit": 1,
+      "title": "Personality, Psychology & Growth",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Character Nuances & Self-Identity",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Ambition",
+            "Empathy",
+            "Insecurity",
+            "Temperament",
+            "Charisma",
+            "Reliability",
+            "Integrity",
+            "Level-headed",
+            "Conscientious",
+            "Arrogant",
+            "Humble",
+            "Introverted"
+          ],
+          "teacher_notes": "Analyze character nuances, temperament, first impressions, and register control (reliable vs dependable)."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Present Perfect Continuous vs Simple",
+          "duration_minutes": 60,
+          "grammar": [
+            "Present Perfect Continuous (duration/process)",
+            "Present Perfect Simple (completion/quantity)"
+          ],
+          "teacher_notes": "Compare action duration ('have been studying for 3 hours') vs completed results ('have read 3 chapters')."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Wellbeing, Stress & Resilience",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Burnout",
+            "Resilience",
+            "Coping mechanism",
+            "Mindfulness",
+            "Therapy",
+            "Mental health",
+            "Growth mindset",
+            "Self-discipline",
+            "Bounce back"
+          ],
+          "teacher_notes": "Discuss coping mechanisms, preventing burnout, work-life balance, and emotional resilience."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Work, Career & Projects",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Employment, Applications & Recruitment",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Cover letter",
+            "Portfolio",
+            "Recruiter",
+            "Hiring manager",
+            "Vacancy",
+            "Remuneration",
+            "Probation period",
+            "Tailor a CV",
+            "Competitive package"
+          ],
+          "teacher_notes": "Focus on job recruitment, tailoring CVs, professional cover letters, and salary negotiations."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Past Perfect Simple & Continuous",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past Perfect Simple (had + V3)",
+            "Past Perfect Continuous (had been + V-ing)"
+          ],
+          "teacher_notes": "Contrast past actions completed prior to another past event vs ongoing background past activities."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Project Management & Team Dynamics",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Workflow",
+            "Milestone",
+            "Bottleneck",
+            "Delegation",
+            "Constructive feedback",
+            "Escalation",
+            "Streamline",
+            "Issue a refund"
+          ],
+          "teacher_notes": "Discuss meeting tight deadlines, resolving bottlenecks, handling complaints, and team collaboration."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Media, Digital Life & Environment",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "News Media, Objectivity & Bias",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Headline",
+            "Media bias",
+            "Objectivity",
+            "Censorship",
+            "Fact-checking",
+            "Sensational headline",
+            "Verify sources",
+            "Read between the lines"
+          ],
+          "teacher_notes": "Analyze news consumption, identifying fake news, fact-checking, and sensational reporting."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Causative Structures (Have/Get Done)",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subject + HAVE/GET + Object + Past Participle (V3)"
+          ],
+          "teacher_notes": "Practice arranging professional services ('having my car fixed', 'getting the data encrypted')."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Cybersecurity & Green Sustainability",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Digital footprint",
+            "Data protection",
+            "Firewall",
+            "Encryption",
+            "Carbon footprint",
+            "Biodiversity",
+            "Phase out fossil fuels",
+            "Renewable grid"
+          ],
+          "teacher_notes": "Debate digital privacy rights, cybersecurity practices, and environmental sustainability initiatives."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Finance, Society & Education",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Personal Budgeting & Consumer Protection",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Expenditure",
+            "Interest rate",
+            "Mortgage",
+            "Phishing scam",
+            "Consumer rights",
+            "Cut back on",
+            "Fall for a scam",
+            "Savings account"
+          ],
+          "teacher_notes": "Cover personal finance budgeting, interest rates, avoiding online phishing scams, and consumer rights."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Second & Third Conditionals + Wishes",
+          "duration_minutes": 60,
+          "grammar": [
+            "Second Conditional (Unreal Present)",
+            "Third Conditional (Past Regrets)",
+            "I wish + Past Simple / Past Perfect"
+          ],
+          "teacher_notes": "Express hypothetical present scenarios, past regrets ('If I had studied...'), and desires for change."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Academic Integrity & Civic Rights",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Dissertation",
+            "Academic honesty",
+            "Plagiarism",
+            "Peer review",
+            "Research methodology",
+            "Civic duty",
+            "Human rights",
+            "Social integration"
+          ],
+          "teacher_notes": "Discuss academic research ethics, avoiding plagiarism, volunteering, and promoting community equality."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Functional & Professional English Masterclass",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Business Negotiations & Complaints",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Dissatisfaction",
+            "Inconvenience",
+            "Trade-off",
+            "Halfway",
+            "Elaborate",
+            "Assessment",
+            "Oversight",
+            "Perspective"
+          ],
+          "teacher_notes": "Master formal complaints, handling client issues, polite disagreement, and negotiating trade-offs."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Modals of Deduction & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Present Deduction (must/can't/might be)",
+            "Past Deduction (must have + V3)",
+            "Defining & Non-defining Relative Clauses"
+          ],
+          "teacher_notes": "Practice present and past speculation ('must have been delayed') and cohesive relative clauses."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Presentations, Meetings & Public Speaking",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Today I'd like to talk to you about...",
+            "Interrupt politely",
+            "Constructive feedback",
+            "Wrap up action items",
+            "Formal vs Informal register switch"
+          ],
+          "teacher_notes": "Deliver structured presentations, chair meetings, manage Q&A sessions, and switch register effectively."
+        }
+      ]
+    }
+  ]
 }

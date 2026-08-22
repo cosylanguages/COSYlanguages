@@ -5,12 +5,13 @@
   "groups": [
     {
       "id": "personal_pronouns",
-      "label": "Personal Pronouns",
+      "label": "Personal Subject & Object Pronouns",
       "level": "starter",
-      "emoji": "👥",
+      "emoji": "\ud83d\udc65",
+      "definition": "Words replacing nouns in subject or object positions in sentences.",
       "rules": [
-        "Subject: I, You, He, She, It, We, They",
-        "Object: me, you, him, her, it, us, them"
+        "Subject Pronouns (perform action): I, You, He, She, It, We, They.",
+        "Object Pronouns (receive action / after prepositions): me, you, him, her, it, us, them."
       ],
       "examples": [
         {
@@ -18,37 +19,62 @@
           "m": "Subject pronoun"
         },
         {
-          "t": "She called me.",
+          "t": "She called me yesterday.",
           "m": "Object pronoun"
         }
       ],
       "practice_links": [
-        "grammar/en-pronouns.html"
-      ],
-      "definition": "TBD"
+        "grammar/en/morphology/en-pronouns.html"
+      ]
     },
     {
-      "id": "possessive_adjectives",
-      "label": "Possessive Adjectives",
+      "id": "possessive_pronouns",
+      "label": "Possessive Adjectives vs Possessive Pronouns",
       "level": "starter",
-      "emoji": "🏠",
+      "emoji": "\ud83c\udfe0",
+      "definition": "Expressing ownership with noun-following adjectives (my, your) or standalone pronouns (mine, yours).",
       "rules": [
-        "my, your, his, her, its, our, their"
+        "Possessive Adjectives (before noun): my, your, his, her, its, our, your, their.",
+        "Possessive Pronouns (standalone): mine, yours, his, hers, ours, yours, theirs."
       ],
       "examples": [
         {
           "t": "This is my house.",
-          "m": "Possessive"
+          "m": "Possessive adjective"
         },
         {
-          "t": "What is your name?",
-          "m": "Possessive"
+          "t": "The red car is mine.",
+          "m": "Possessive pronoun"
         }
       ],
       "practice_links": [
-        "grammar/en-possessives.html"
+        "grammar/en/morphology/en-possessives.html"
+      ]
+    },
+    {
+      "id": "reflexive_demonstrative",
+      "label": "Reflexive & Demonstrative Pronouns",
+      "level": "elementary",
+      "emoji": "\ud83d\udc48",
+      "definition": "Reflexive pronouns (-self / -selves) and demonstratives (this, that, these, those).",
+      "rules": [
+        "Reflexive: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.",
+        "Demonstrative Singular: This (near), That (far).",
+        "Demonstrative Plural: These (near), Those (far)."
       ],
-      "definition": "TBD"
+      "examples": [
+        {
+          "t": "He cut himself while cooking.",
+          "m": "Reflexive pronoun"
+        },
+        {
+          "t": "These are my keys.",
+          "m": "Demonstrative near plural"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/morphology/en-pronouns.html"
+      ]
     }
   ]
 }

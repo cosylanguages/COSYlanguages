@@ -2,5 +2,30 @@
   "language": "en",
   "category": "intonation",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "basic_intonation",
+      "label": "Rising vs Falling Intonation",
+      "level": "starter",
+      "emoji": "\ud83d\udcc8",
+      "definition": "Pitch movements conveying grammatical sentence type, certainty, or check-in politeness.",
+      "rules": [
+        "Rising intonation \u2197: Yes/No questions and polite check-ins (Are you ready? \u2197).",
+        "Falling intonation \u2198: Statements, Wh- questions, and firm commands (Where do you live? \u2198)."
+      ],
+      "examples": [
+        {
+          "t": "Do you speak English? \u2197",
+          "m": "Rising Yes/No question"
+        },
+        {
+          "t": "What is your name? \u2198",
+          "m": "Falling Wh- question"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/phonology/en-intonation.html"
+      ]
+    }
+  ]
 }

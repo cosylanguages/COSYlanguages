@@ -5,32 +5,59 @@
   "groups": [
     {
       "id": "articles",
-      "label": "Articles — A, AN, THE",
+      "label": "Articles \u2014 A, AN, THE & Zero Article",
       "level": "starter",
-      "emoji": "🅰️",
+      "emoji": "\ud83c\udd70\ufe0f",
+      "definition": "Determiners modifying nouns to indicate general (A/AN), specific (THE), or broad category (Zero Article) references.",
       "rules": [
-        "A: before consonant sounds (a book).",
-        "AN: before vowel sounds (an apple).",
-        "THE: for specific things (the sun)."
+        "A: before consonant sounds (a book, a university).",
+        "AN: before vowel sounds (an apple, an hour).",
+        "THE: for specific, previously mentioned, or unique items (the sun, the CEO).",
+        "Zero Article: for general plurals, uncountables, meals, languages, cities, and countries."
       ],
       "examples": [
         {
           "t": "A man is here.",
-          "m": "Indefinite"
+          "m": "Indefinite first mention"
         },
         {
           "t": "An orange.",
-          "m": "Indefinite with vowel"
+          "m": "Indefinite with vowel sound"
         },
         {
-          "t": "The capital of France.",
-          "m": "Definite"
+          "t": "The sun rises in the east.",
+          "m": "Definite unique item"
         }
       ],
       "practice_links": [
-        "grammar/en-articles.html"
+        "grammar/en/morphology/en-articles.html"
+      ]
+    },
+    {
+      "id": "quantifiers",
+      "label": "Quantifiers \u2014 Some, Any, Much, Many, A lot of",
+      "level": "elementary",
+      "emoji": "\ud83d\udd22",
+      "definition": "Determiners expressing quantity or degree before countable and uncountable nouns.",
+      "rules": [
+        "Some: positive statements and polite offers/requests (I have some water. Would you like some coffee?).",
+        "Any: negative statements and general questions (I don't have any money. Are there any questions?).",
+        "Much: uncountable nouns in negative/questions (Not much time).",
+        "Many: countable plural nouns (Many students)."
       ],
-      "definition": "TBD"
+      "examples": [
+        {
+          "t": "We have some apples in the kitchen.",
+          "m": "Affirmative countable"
+        },
+        {
+          "t": "Do you have any advice?",
+          "m": "Question uncountable"
+        }
+      ],
+      "practice_links": [
+        "grammar/en/morphology/en-quantifiers.html"
+      ]
     }
   ]
 }
