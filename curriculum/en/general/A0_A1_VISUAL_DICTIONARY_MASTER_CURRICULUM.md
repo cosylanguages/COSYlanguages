@@ -6,9 +6,9 @@
 
 ## Executive Overview & Architectural System
 
-This master document defines the ultimate pedagogical specification for the COSYlanguages A0–A1 English ecosystem. It seamlessly unifies two monumental frameworks into a single synchronized syllabus:
-1. **The Complete A0–A1 English Visual Dictionary & Vocabulary Course** (40 Major Parts, 250+ Sub-Units, 4,000+ Words, 2,000+ Collocations, 1,200+ Set Phrases, 300+ Micro-Dialogues).
-2. **The Complete A0–A1 English Grammar Knowledge Tree** (28 Major Parts, 220 Grammar Units, 1,500+ Examples, 500+ Mini Dialogues, Substitution Tables, Common Mistake Diagnostics, and Speaking/Writing Production Frames).
+This master specification defines the ultimate pedagogical specification for the COSYlanguages A0–A1 English ecosystem. It seamlessly unifies two monumental frameworks into a single synchronized syllabus:
+1. **The Complete A0–A1 English Visual Dictionary & Vocabulary Course** (10 Major Parts, 16 Foundational Units, 120+ Sub-Modules, 4,000+ Words, 2,000+ Collocations, 1,200+ Set Phrases, 300+ Micro-Dialogues).
+2. **The Complete A0–A1 English Grammar Knowledge Tree** (11 Major Structural Parts, 28 Complete Grammar Units, 1,500+ Examples, 500+ Mini Dialogues, Substitution Tables, Common Mistake Diagnostics, and Speaking/Writing Production Frames).
 
 ---
 
@@ -63,6 +63,10 @@ This master document defines the ultimate pedagogical specification for the COSY
     - Turkey ➔ Turkish ➔ Turkish
   - **Essential Verbs:** Come from, speak, learn, study, teach, translate, understand, repeat, pronounce, practice.
   - **Set Phrases:** Where are you from? / I'm from Canada. / Where were you born? / I was born in Toronto. / I live in London. / Do you speak English? / I speak a little French. / How do you say this in English? / I'm learning English.
+  - **Micro-Dialogue:**
+    - *A:* Where are you from?
+    - *B:* I'm from Spain, but I live in London now. Do you speak Spanish?
+    - *A:* Un poco! I speak a little Spanish, but I'm learning.
 
 ---
 
@@ -72,15 +76,26 @@ This master document defines the ultimate pedagogical specification for the COSY
   - **Essential Verbs:** Love, raise, support, help, look like, grow up, live with, take care of.
   - **Collocations:** Younger brother, elder sister, only child, look like your mother, live with parents.
   - **Set Phrases:** I have two brothers and one sister. / She is my younger sister. / Are you an only child? / I live with my parents. / He looks just like his father.
+  - **Micro-Dialogue:**
+    - *A:* Do you have any brothers or sisters?
+    - *B:* Yes, I have an elder brother and a younger sister. What about you?
+    - *A:* I'm an only child.
 - **2.2 Extended Family & In-Laws**
   - **Core Vocabulary:** Grandmother, grandma, grandfather, grandpa, grandparents, uncle, aunt, cousin, nephew, niece, grandson, granddaughter, stepmother, stepfather, stepbrother, stepsister, mother-in-law, father-in-law, brother-in-law, sister-in-law, relative.
   - **Collocations:** Close relative, distant relative, extended family, family member, family tree, family reunion, family dinner.
   - **Set Phrases:** We visit my grandparents every weekend. / This is my uncle on my mother's side. / How often do you see your cousins?
+  - **Micro-Dialogue:**
+    - *A:* Is that your grandmother in the photo?
+    - *B:* Yes! She lives in Scotland, so we visit her every summer.
 - **2.3 Relationships & Marital Status**
   - **Core Vocabulary:** Friend, best friend, neighbour, colleague, classmate, roommate, partner, boyfriend, girlfriend, husband, wife, fiancé, fiancée, couple.
   - **Status Adjectives:** Single, married, engaged, divorced, separated, widowed.
   - **Essential Verbs:** Meet, get married, get divorced, live together, fall in love, hang out with, stay in touch.
   - **Set Phrases:** We are married. / He is my best friend. / Meet my colleague, Alex. / How long have you been married?
+  - **Micro-Dialogue:**
+    - *A:* Alex, this is my roommate, John.
+    - *B:* Hi John, nice to meet you! How long have you and Alex been roommates?
+    - *C:* Nice to meet you too! We've been roommates for two years.
 
 ---
 
@@ -89,27 +104,48 @@ This master document defines the ultimate pedagogical specification for the COSY
   - **Core Vocabulary:** Head, hair, face, forehead, temple, eyebrow, eyelash, eye, pupil, nose, nostril, cheek, mouth, lip, tongue, tooth, teeth, chin, jaw, ear, neck, throat.
   - **Essential Verbs:** See, look, watch, blink, smile, laugh, cry, kiss, bite, chew, taste, hear, listen, yawn.
   - **Collocations:** Blue eyes, dark eyes, open your mouth, close your eyes, brush your teeth, wash your face, smile at someone.
+  - **Set Phrases:** Brush your teeth every morning and evening. / Wash your face with water. / Smile for the camera!
+  - **Micro-Dialogue:**
+    - *A:* Open your mouth, please. Say "ah".
+    - *B:* Ahhh.
+    - *A:* Your throat looks a bit red.
 - **3.2 Hair Types, Colours & Hairstyles**
   - **Core Vocabulary:** Hair, haircut, salon, hairdresser, shampoo, comb, brush, beard, moustache, ponytail, fringe/bangs, braid, bun.
   - **Adjectives:** Straight, curly, wavy, short, long, medium-length, blond, brown, black, red, grey, white, bald.
   - **Set Phrases:** She has long curly blond hair. / He wears a beard. / I need a haircut. / Brush your hair!
+  - **Micro-Dialogue:**
+    - *A:* What kind of hair does your sister have?
+    - *B:* She has long, wavy brown hair with a fringe.
 - **3.3 Upper & Lower Body Anatomy**
   - **Core Vocabulary:** Shoulder, chest, back, waist, hip, arm, elbow, wrist, hand, palm, finger, thumb, index finger, middle finger, ring finger, little finger, nail, leg, thigh, knee, calf, ankle, heel, foot, feet, toe, toenail.
   - **Internal Organs (Basic):** Heart, brain, lungs, stomach, liver, blood, bone, muscle, skin.
   - **Verbs:** Touch, hold, carry, lift, throw, catch, kick, clap, wave, point, stand, sit, walk, run, jump, bend, stretch.
   - **Set Phrases:** Raise your hand! / Shake hands. / Wash your hands before eating. / Stand up! / Sit down!
+  - **Micro-Dialogue:**
+    - *A:* Please raise your hand if you know the answer.
+    - *B:* *raises hand* I know! The answer is London.
 - **3.4 Physical Appearance & Build**
   - **Core Vocabulary:** Height, weight, build, appearance.
   - **Adjectives:** Tall, short, medium height, slim, thin, skinny, chubby, overweight, strong, weak, handsome, beautiful, attractive, pretty, cute, plain, young, middle-aged, old.
   - **Set Phrases:** What does he look like? / He is tall and slim with blue eyes. / She is very pretty.
+  - **Micro-Dialogue:**
+    - *A:* Can you describe the lost boy?
+    - *B:* He is about six years old, short, slim, with short blond hair and blue eyes.
 - **3.5 Emotions, Feelings & Mental States**
   - **Core Vocabulary:** Happiness, sadness, anger, fear, surprise, excitement, stress, fatigue, boredom.
   - **Adjectives:** Happy, sad, angry, annoyed, worried, anxious, surprised, excited, bored, tired, exhausted, relaxed, calm, hungry, thirsty, scared, frightened, proud.
   - **Set Phrases:** How are you feeling today? / I'm feeling very tired. / Don't be worried! / I'm excited about the trip. / Are you hungry? / I'm thirsty, I need water.
+  - **Micro-Dialogue:**
+    - *A:* Are you okay? You look tired.
+    - *B:* I'm exhausted. I worked until midnight yesterday.
 - **3.6 Health, Illness & Body Pain**
   - **Core Vocabulary:** Health, illness, disease, cold, flu, fever, temperature, cough, sneeze, headache, toothache, stomach ache, backache, sore throat, pain, wound, injury, medicine, pill, syrup, prescription, doctor, nurse, patient, pharmacy, hospital, ambulance.
   - **Verbs:** Feel ill, cough, sneeze, bleed, hurt, recover, rest, take medicine, visit the doctor, call an ambulance.
   - **Set Phrases:** I feel sick. / I have a bad headache. / My back hurts. / My throat is sore. / You should stay in bed. / Call an ambulance!
+  - **Micro-Dialogue:**
+    - *A:* What's wrong?
+    - *B:* I have a terrible headache and my throat is sore.
+    - *A:* You should take some medicine and stay in bed today.
 
 ---
 
@@ -118,15 +154,27 @@ This master document defines the ultimate pedagogical specification for the COSY
 ### UNIT 4: Everyday & Seasonal Clothing
 - **4.1 Everyday Upper & Lower Body Clothes**
   - **Core Vocabulary:** Clothes, shirt, T-shirt, polo shirt, blouse, sweater/jumper, hoodie, jacket, coat, trousers/pants, jeans, shorts, skirt, dress, tracksuit, suit, pajamas, underwear, socks.
+  - **Adjectives:** Formal, casual, comfortable, tight, loose, clean, dirty.
+  - **Set Phrases:** What are you wearing today? / I'm wearing jeans and a black hoodie.
+  - **Micro-Dialogue:**
+    - *A:* What do you wear to work?
+    - *B:* Usually a white shirt and smart trousers, but on Fridays I wear jeans.
 - **4.2 Footwear & Shoes**
   - **Core Vocabulary:** Shoes, boots, trainers/sneakers, sandals, slippers, high heels, socks, tights.
+  - **Set Phrases:** Put on your shoes. / Take off your dirty boots.
 - **4.3 Winter & Summer Weather Gear**
   - **Core Vocabulary:** Raincoat, winter coat, scarf, gloves, mittens, beanie, sun hat, cap, swimsuit, swimming trunks, sunglasses, umbrella.
+  - **Set Phrases:** Take an umbrella, it's raining outside! / Don't forget your sunglasses.
 - **4.4 Accessories, Jewellery & Bags**
   - **Core Vocabulary:** Belt, tie, watch, ring, necklace, bracelet, earrings, wallet, purse, handbag, backpack, suitcase.
+  - **Set Phrases:** Where is my wallet? / She wears a gold ring on her left hand.
 - **4.5 Dressing Actions & Fitting Room**
   - **Verbs & Collocations:** Wear, put on, take off, try on, change, wash, iron, fit, suit, match, zip up, button up.
-  - **Set Phrases:** What are you wearing today? / Where is the fitting room? / What size is this? / It fits me well. / Put on your coat! / Take off your shoes.
+  - **Set Phrases:** Where is the fitting room? / What size is this? / It fits me well. / Put on your coat! / Take off your shoes.
+  - **Micro-Dialogue:**
+    - *A:* Excuse me, where is the fitting room?
+    - *B:* Over there on the left.
+    - *A:* Thank you! I'd like to try on this dress in size medium.
 
 ---
 
@@ -135,24 +183,38 @@ This master document defines the ultimate pedagogical specification for the COSY
 ### UNIT 5: Housing & Building Exterior
 - **5.1 House vs. Apartment Building**
   - **Core Vocabulary:** House, cottage, flat/apartment, block of flats, skyscraper, floor, storey, ground floor, first floor, top floor, roof, chimney, wall, door, front door, window, balcony, terrace, stairs, lift/elevator, entrance, exit.
+  - **Set Phrases:** I live on the third floor of a block of flats. / Is there a lift in the building?
+  - **Micro-Dialogue:**
+    - *A:* Do you live in a house or a flat?
+    - *B:* I live in a two-bedroom flat on the second floor.
 - **5.2 Garden, Yard & Garage**
   - **Core Vocabulary:** Garden, yard, lawn, fence, gate, garage, driveway, mailbox, plants, flowers, path.
+  - **Set Phrases:** We have a small garden with flowers. / Park the car in the garage.
 
 ---
 
 ### UNIT 6: Inside the Home (Room by Room)
 - **6.1 Living Room & Relaxation Area**
   - **Core Vocabulary:** Sofa/couch, armchair, coffee table, TV stand, television, bookshelf, bookcase, fireplace, rug, carpet, curtain, lamp, painting, cushion, light switch, socket.
+  - **Set Phrases:** Turn on the light switch. / Please sit on the sofa.
 - **6.2 Bedroom & Sleep Essentials**
   - **Core Vocabulary:** Bed, double bed, single bed, mattress, pillow, pillowcase, blanket, duvet, sheet, wardrobe, chest of drawers, bedside table, alarm clock, mirror, hanger.
   - **Sleep Verbs:** Go to bed, fall asleep, sleep, dream, wake up, get up, make the bed, turn off the light.
+  - **Micro-Dialogue:**
+    - *A:* What time do you usually go to bed?
+    - *B:* Around 11 PM. I set my alarm clock for 7 AM.
 - **6.3 Kitchen Appliances & Storage**
   - **Core Vocabulary:** Kitchen, fridge/refrigerator, freezer, cooker/stove, oven, microwave, dishwasher, kettle, toaster, blender, sink, tap, cupboard, drawer, countertop, bin.
+  - **Set Phrases:** Put the milk back in the fridge. / Is the dishwasher clean?
 - **6.4 Kitchen Tableware & Cooking Utensils**
   - **Core Vocabulary:** Plate, bowl, cup, mug, glass, knife, fork, spoon, teaspoon, chopstick, frying pan, saucepan, cutting board, tray, napkin.
+  - **Set Phrases:** Could you pass me a glass of water, please? / Set the table with forks and knives.
 - **6.5 Bathroom & Personal Hygiene**
   - **Core Vocabulary:** Bathroom, toilet, sink/basin, bathtub, shower, mirror, towel, towel rail, soap, liquid soap, shampoo, conditioner, shower gel, toothbrush, toothpaste, mouthwash, razor, shaving cream, comb, hairdryer, toilet paper.
   - **Hygiene Action Verbs:** Take a shower, have a bath, wash your hands, brush your teeth, comb your hair, dry your hair, shave.
+  - **Micro-Dialogue:**
+    - *A:* Where can I wash my hands?
+    - *B:* The bathroom is at the end of the corridor on the right. There is soap and a clean towel.
 
 ---
 
@@ -176,6 +238,9 @@ This master document defines the ultimate pedagogical specification for the COSY
 - **8.1 Breakfast Routine**
   - **Core Vocabulary:** Breakfast, cereal, oatmeal, toast with jam, fried egg, boiled egg, omelette, pancake, coffee, tea, orange juice.
   - **Set Phrases:** What do you have for breakfast? / I usually drink coffee and eat toast. / Would you like some orange juice?
+  - **Micro-Dialogue:**
+    - *A:* What would you like for breakfast?
+    - *B:* Just a cup of black coffee and some toast with jam, please.
 - **8.2 Lunch & Dinner Meals**
   - **Core Vocabulary:** Lunch, dinner, supper, soup, salad, sandwich, burger, pizza, pasta, steak, roast chicken, side dish, rice, fries, dessert.
 - **8.3 Snacks & Drinks**
@@ -186,6 +251,11 @@ This master document defines the ultimate pedagogical specification for the COSY
 - **8.5 Restaurant & Cafe Dining**
   - **Core Vocabulary:** Restaurant, cafe, bakery, fast food, menu, wine list, waiter, waitress, chef, customer, table, reservation, order, bill/check, tip, cash, card.
   - **Set Phrases:** A table for two, please. / Can I see the menu? / I would like to order... / Is this dish spicy? / Could we have the bill, please? / Keep the change.
+  - **Micro-Dialogue:**
+    - *A:* Are you ready to order?
+    - *B:* Yes, I'd like the grilled chicken with salad, please.
+    - *A:* And to drink?
+    - *B:* Still water, please.
 
 ---
 
@@ -325,21 +395,21 @@ This master document defines the ultimate pedagogical specification for the COSY
 - **UNIT 4: What is a Noun?** (Common, proper, concrete vs. basic abstract).
 - **UNIT 5: Singular Nouns** (Introduction with *a/an*).
 - **UNIT 6: Plural Nouns**
-  - Regular plural ending `-s` (*book ➔ books*).
-  - Plural endings `-es` after `-s, -sh, -ch, -x, -z` (*bus ➔ buses, watch ➔ watches*).
-  - Nouns ending in `-y` (*city ➔ cities* vs *boy ➔ boys*).
-  - Nouns ending in `-f/-fe` (*knife ➔ knives, half ➔ halves*).
-  - Nouns ending in `-o` (*potato ➔ potatoes* vs *photo ➔ photos*).
-  - Irregular plurals (*man ➔ men, woman ➔ women, child ➔ children, person ➔ people, foot ➔ feet, tooth ➔ teeth, mouse ➔ mice, sheep ➔ sheep*).
+  - 6.1 Regular plural ending `-s` (*book ➔ books*).
+  - 6.2 Plural endings `-es` after `-s, -sh, -ch, -x, -z` (*bus ➔ buses, watch ➔ watches*).
+  - 6.3 Nouns ending in `-y` (*city ➔ cities* vs *boy ➔ boys*).
+  - 6.4 Nouns ending in `-f/-fe` (*knife ➔ knives, half ➔ halves*).
+  - 6.5 Nouns ending in `-o` (*potato ➔ potatoes* vs *photo ➔ photos*).
+  - 6.6 Irregular plurals (*man ➔ men, woman ➔ women, child ➔ children, person ➔ people, foot ➔ feet, tooth ➔ teeth, mouse ➔ mice, sheep ➔ sheep*).
 - **UNIT 7: Countable Nouns** (Using *a/an*, numbers, *many, a few*).
 - **UNIT 8: Uncountable Nouns** (Water, coffee, money, information, advice, furniture, luggage).
 - **UNIT 9: Nouns with Dual Usage** (A chicken / chicken; a coffee / coffee; a glass / glass).
 - **UNIT 10: Expressing Possession**
-  - Possessive `'s` for singular (*John's car, my mother's house*).
-  - Possessive `'` for regular plurals (*my parents' room*).
-  - Irregular plural possession (*children's books, men's clothes*).
-  - Possessive `of` for inanimate objects (*the door of the house, the end of the day*).
-  - Question word: *Whose...?* (*Whose bag is this? It's Sarah's.*)
+  - 10.1 Possessive `'s` for singular (*John's car, my mother's house*).
+  - 10.2 Possessive `'` for regular plurals (*my parents' room*).
+  - 10.3 Irregular plural possession (*children's books, men's clothes*).
+  - 10.4 Possessive `of` for inanimate objects (*the door of the house, the end of the day*).
+  - 10.5 Question word: *Whose...?* (*Whose bag is this? It's Sarah's.*)
 
 ---
 
