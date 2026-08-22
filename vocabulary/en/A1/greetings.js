@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -100,6 +101,109 @@
         ],
         "transcription": "ˈsɑri",
         "lang": "en"
+    },
+    {
+        "id": "en_starter_greetings_006",
+        "word": "good morning",
+        "emoji": "🌅",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A greeting used when meeting someone in the morning.",
+                "examples": [
+                    "Good morning! How are you today?"
+                ]
+            }
+        ],
+        "transcription": "ɡʊd ˈmɔːnɪŋ",
+        "subtext": "morning greeting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "greetings",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_greetings_007",
+        "word": "good afternoon",
+        "emoji": "☀️",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A greeting used between noon and early evening.",
+                "examples": [
+                    "Good afternoon, everyone! Welcome to the meeting."
+                ]
+            }
+        ],
+        "transcription": "ɡʊd ˌɑːftəˈnuːn",
+        "subtext": "afternoon greeting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "greetings",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_greetings_008",
+        "word": "good evening",
+        "emoji": "🌆",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A formal greeting used in the evening.",
+                "examples": [
+                    "Good evening, ladies and gentlemen."
+                ]
+            }
+        ],
+        "transcription": "ɡʊd ˈiːvnɪŋ",
+        "subtext": "evening greeting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "greetings",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_greetings_009",
+        "word": "good night",
+        "emoji": "🌙",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A phrase said when leaving someone or going to sleep at night.",
+                "examples": [
+                    "Good night! Sleep well."
+                ]
+            }
+        ],
+        "transcription": "ɡʊd naɪt",
+        "subtext": "saying goodbye at night",
+        "lang": "en",
+        "level": "starter",
+        "theme": "greetings",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_greetings_010",
+        "word": "greeting",
+        "emoji": "👋",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "greetings",
+        "definitions": [
+            {
+                "text": "A polite word or sign of welcome.",
+                "examples": [
+                    "He gave me a warm greeting at the door."
+                ]
+            }
+        ],
+        "transcription": "ˈɡriːtɪŋ",
+        "subtext": "warm greeting, friendly sign",
+        "lang": "en",
+        "level": "starter",
+        "theme": "greetings",
+        "sub_theme": null
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

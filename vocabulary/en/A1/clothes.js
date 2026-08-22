@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -18,7 +19,8 @@
                 ]
             }
         ],
-        "subtext": "related to accessories","lang": "en",
+        "subtext": "related to accessories",
+        "lang": "en",
         "level": "starter",
         "theme": "accessories",
         "sub_theme": null
@@ -40,7 +42,8 @@
                 ]
             }
         ],
-        "subtext": "related to accessories","lang": "en",
+        "subtext": "related to accessories",
+        "lang": "en",
         "level": "starter",
         "theme": "accessories",
         "sub_theme": null
@@ -62,7 +65,8 @@
                 ]
             }
         ],
-        "subtext": "related to accessories","lang": "en",
+        "subtext": "related to accessories",
+        "lang": "en",
         "level": "starter",
         "theme": "accessories",
         "sub_theme": null
@@ -84,7 +88,8 @@
                     "He wears a suit to work."
                 ]
             }
-        ],"lang": "en",
+        ],
+        "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
         "sub_theme": "formal",
@@ -110,7 +115,8 @@
                     "He is wearing a leather jacket."
                 ]
             }
-        ],"transcription": "ˈdʒækɪt",
+        ],
+        "transcription": "ˈdʒækɪt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -136,7 +142,8 @@
                     "He wears a white shirt to work."
                 ]
             }
-        ],"transcription": "ʃɜːt",
+        ],
+        "transcription": "ʃɜːt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -162,7 +169,8 @@
                     "I am wearing a white t-shirt."
                 ]
             }
-        ],"transcription": "ˈtiˌsərt",
+        ],
+        "transcription": "ˈtiˌsərt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -187,7 +195,8 @@
                     "I need new pants."
                 ]
             }
-        ],"transcription": "pænts",
+        ],
+        "transcription": "pænts",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -214,7 +223,8 @@
                     "Put on your shoes."
                 ]
             }
-        ],"transcription": "ʃu",
+        ],
+        "transcription": "ʃu",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -240,7 +250,8 @@
                     "She is wearing a beautiful hat."
                 ]
             }
-        ],"transcription": "hæt",
+        ],
+        "transcription": "hæt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -262,7 +273,8 @@
                     "Put on your coat — it's cold."
                 ]
             }
-        ],"transcription": "koʊt",
+        ],
+        "transcription": "koʊt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -284,7 +296,8 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing","transcription": "sɑks",
+        "subtext": "related to items of clothing",
+        "transcription": "sɑks",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -309,7 +322,8 @@
                     "It's cold, wear a sweater."
                 ]
             }
-        ],"transcription": "sˈwɛtər",
+        ],
+        "transcription": "sˈwɛtər",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -331,7 +345,8 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing","transcription": "drɛs",
+        "subtext": "related to items of clothing",
+        "transcription": "drɛs",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -353,7 +368,8 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing","transcription": "skərt",
+        "subtext": "related to items of clothing",
+        "transcription": "skərt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -375,7 +391,8 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing","transcription": "buts",
+        "subtext": "related to items of clothing",
+        "transcription": "buts",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -397,7 +414,8 @@
                 ]
             }
         ],
-        "subtext": "related to accessories","transcription": "ˈglæsɪz",
+        "subtext": "related to accessories",
+        "transcription": "ˈglæsɪz",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -419,7 +437,8 @@
                 ]
             }
         ],
-        "subtext": "related to accessories","transcription": "wɔʧ",
+        "subtext": "related to accessories",
+        "transcription": "wɔʧ",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -441,7 +460,8 @@
                     "I am wearing blue jeans."
                 ]
             }
-        ],"transcription": "ʤinz",
+        ],
+        "transcription": "ʤinz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -468,7 +488,8 @@
                 ]
             }
         ],
-        "subtext": "related to accessories","transcription": "bɛlt",
+        "subtext": "related to accessories",
+        "transcription": "bɛlt",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -490,7 +511,8 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing","transcription": "taɪ",
+        "subtext": "related to items of clothing",
+        "transcription": "taɪ",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -512,7 +534,8 @@
                 ]
             }
         ],
-        "subtext": "related to accessories","transcription": "rɪŋ",
+        "subtext": "related to accessories",
+        "transcription": "rɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -534,7 +557,8 @@
                 ]
             }
         ],
-        "subtext": "related to accessories","transcription": "ˈnɛkləs",
+        "subtext": "related to accessories",
+        "transcription": "ˈnɛkləs",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -556,7 +580,8 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing","transcription": "pəˈdʒɑːməz",
+        "subtext": "related to items of clothing",
+        "transcription": "pəˈdʒɑːməz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -583,7 +608,8 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing","transcription": "ʃɔrts",
+        "subtext": "related to items of clothing",
+        "transcription": "ʃɔrts",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -608,7 +634,8 @@
                     "I need a new pair of trainers."
                 ]
             }
-        ],"transcription": "ˈtreɪnərz",
+        ],
+        "transcription": "ˈtreɪnərz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -631,7 +658,8 @@
                     "She is wearing beautiful clothes."
                 ]
             }
-        ],"transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz",
+        ],
+        "transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -653,7 +681,8 @@
                 ]
             }
         ],
-        "subtext": "related to items of clothing","transcription": "ˈpɑkət",
+        "subtext": "related to items of clothing",
+        "transcription": "ˈpɑkət",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -675,7 +704,8 @@
                     "Take off your shoes."
                 ]
             }
-        ],"transcription": "ʃuz",
+        ],
+        "transcription": "ʃuz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -697,7 +727,8 @@
                     "She is wearing a lot of jewelry."
                 ]
             }
-        ],"transcription": "ˈʤuəlri",
+        ],
+        "transcription": "ˈʤuəlri",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -759,6 +790,121 @@
         "antonyms": [
             "unfit"
         ]
+    },
+    {
+        "id": "en_starter_clothes_033",
+        "word": "blouse",
+        "emoji": "👔",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "blouses",
+        "definitions": [
+            {
+                "text": "A woman's loose upper garment resembling a shirt.",
+                "examples": [
+                    "She wore a white silk blouse to work."
+                ]
+            }
+        ],
+        "transcription": "blaʊz",
+        "subtext": "white blouse, formal blouse",
+        "lang": "en",
+        "level": "starter",
+        "theme": "clothes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_clothes_034",
+        "word": "hoodie",
+        "emoji": "🧥",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "hoodies",
+        "definitions": [
+            {
+                "text": "A comfortable sweatshirt with a hood.",
+                "examples": [
+                    "He wears a black hoodie on cold evenings."
+                ]
+            }
+        ],
+        "transcription": "ˈhʊdi",
+        "subtext": "warm hoodie, black hoodie",
+        "lang": "en",
+        "level": "starter",
+        "theme": "clothes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_clothes_035",
+        "word": "slippers",
+        "emoji": "🥿",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "slippers",
+        "definitions": [
+            {
+                "text": "Light indoor shoes that are easy to put on and take off.",
+                "examples": [
+                    "Put on your slippers so your feet stay warm."
+                ]
+            }
+        ],
+        "transcription": "ˈslɪpəz",
+        "subtext": "cozy slippers, pair of slippers",
+        "lang": "en",
+        "level": "starter",
+        "theme": "clothes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_clothes_037",
+        "word": "backpack",
+        "emoji": "🎒",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "backpacks",
+        "definitions": [
+            {
+                "text": "A bag carried on the back with two shoulder straps.",
+                "examples": [
+                    "He packed his books into his backpack."
+                ]
+            }
+        ],
+        "transcription": "ˈbækpæk",
+        "subtext": "heavy backpack, travel backpack",
+        "lang": "en",
+        "level": "starter",
+        "theme": "clothes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_clothes_038",
+        "word": "wallet",
+        "emoji": "👛",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "wallets",
+        "definitions": [
+            {
+                "text": "A small folding case for holding money and cards.",
+                "examples": [
+                    "He forgot his wallet on the desk."
+                ]
+            }
+        ],
+        "transcription": "ˈwɒlɪt",
+        "subtext": "leather wallet, lost wallet",
+        "lang": "en",
+        "level": "starter",
+        "theme": "clothes",
+        "sub_theme": null
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

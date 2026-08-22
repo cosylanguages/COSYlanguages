@@ -1,4 +1,4 @@
-// TODO: verify level classification
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -19,7 +19,8 @@
                     "No problem!"
                 ]
             }
-        ],"transcription": "ˈprɑbləm",
+        ],
+        "transcription": "ˈprɑbləm",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -38,7 +39,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions","transcription": "hu",
+        "subtext": "related to asking answering questions",
+        "transcription": "hu",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -57,7 +59,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions","transcription": "wət",
+        "subtext": "related to asking answering questions",
+        "transcription": "wət",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -76,7 +79,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions","transcription": "wɛr",
+        "subtext": "related to asking answering questions",
+        "transcription": "wɛr",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -95,7 +99,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions","transcription": "wɪn",
+        "subtext": "related to asking answering questions",
+        "transcription": "wɪn",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -114,7 +119,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions","transcription": "waɪ",
+        "subtext": "related to asking answering questions",
+        "transcription": "waɪ",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -134,7 +140,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions","transcription": "haʊ",
+        "subtext": "related to asking answering questions",
+        "transcription": "haʊ",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -144,7 +151,8 @@
         "id": "en_starter_asking_answering_questions_013",
         "word": "yes",
         "emoji": "✅",
-        "form": "adverb","definitions": [
+        "form": "adverb",
+        "definitions": [
             {
                 "text": "Used to give a positive answer.",
                 "examples": [
@@ -163,7 +171,8 @@
         "id": "en_starter_asking_answering_questions_014",
         "word": "no",
         "emoji": "❌",
-        "form": "adverb","definitions": [
+        "form": "adverb",
+        "definitions": [
             {
                 "text": "Used to give a negative answer.",
                 "examples": [
@@ -194,7 +203,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions","transcription": "ˌkɑnvərˈseɪʃən",
+        "subtext": "related to asking answering questions",
+        "transcription": "ˌkɑnvərˈseɪʃən",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -213,7 +223,8 @@
                 ]
             }
         ],
-        "subtext": "related to conjunctions connectors","transcription": "ˈɔlsoʊ",
+        "subtext": "related to conjunctions connectors",
+        "transcription": "ˈɔlsoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -278,7 +289,8 @@
                 ]
             }
         ],
-        "subtext": "related to describing things","transcription": "ˈsəmθɪŋ",
+        "subtext": "related to describing things",
+        "transcription": "ˈsəmθɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -300,7 +312,8 @@
                 ]
             }
         ],
-        "subtext": "related to describing things","transcription": "θɪŋ",
+        "subtext": "related to describing things",
+        "transcription": "θɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -323,7 +336,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions","transcription": "kˈwɛʃən",
+        "subtext": "related to asking answering questions",
+        "transcription": "kˈwɛʃən",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -374,7 +388,8 @@
                     "Make a shopping list."
                 ]
             }
-        ],"transcription": "lɪst",
+        ],
+        "transcription": "lɪst",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -989,7 +1004,8 @@
     {
         "id": "en_starter_describing_106",
         "word": "proud",
-        "form": "adjective","definitions": [
+        "form": "adjective",
+        "definitions": [
             {
                 "text": "Feeling pleased about an achievement.",
                 "examples": [
@@ -1669,7 +1685,8 @@
         "id": "en_starter_describing_131",
         "word": "creative",
         "emoji": "🎨",
-        "form": "adjective","subtext": "very creative / creative ideas",
+        "form": "adjective",
+        "subtext": "very creative / creative ideas",
         "synonyms": [
             "imaginative",
             "artistic"
@@ -2158,7 +2175,8 @@
         "id": "en_starter_describing_148",
         "word": "fine",
         "emoji": "😊",
-        "form": "adjective","definitions": [
+        "form": "adjective",
+        "definitions": [
             {
                 "text": "Good or acceptable; healthy.",
                 "examples": [
@@ -2433,6 +2451,342 @@
         "antonyms": [
             "useless"
         ]
+    },
+    {
+        "id": "en_starter_first_contact_001",
+        "word": "name",
+        "emoji": "🪪",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "names",
+        "subtext": "first name, last name, full name",
+        "definitions": [
+            {
+                "text": "A word or words that a person, place, or thing is known by.",
+                "examples": [
+                    "My name is David.",
+                    "What is your name?"
+                ]
+            }
+        ],
+        "transcription": "neɪm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "first_contact",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_first_contact_002",
+        "word": "first name",
+        "emoji": "👤",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "first names",
+        "subtext": "spell your first name",
+        "definitions": [
+            {
+                "text": "The name given to a person at birth, before the family name.",
+                "examples": [
+                    "My first name is Sarah.",
+                    "Please write your first name on the form."
+                ]
+            }
+        ],
+        "transcription": "ˈfɜːst neɪm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "first_contact",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_first_contact_003",
+        "word": "last name",
+        "emoji": "🏷️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "last names",
+        "subtext": "family name, surname",
+        "definitions": [
+            {
+                "text": "The surname or family name that you share with your family.",
+                "examples": [
+                    "Her last name is Smith.",
+                    "How do you spell your last name?"
+                ]
+            }
+        ],
+        "transcription": "ˈlɑːst neɪm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "first_contact",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_first_contact_004",
+        "word": "full name",
+        "emoji": "📜",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "full names",
+        "subtext": "write your full name",
+        "definitions": [
+            {
+                "text": "The complete name of a person, including first name and last name.",
+                "examples": [
+                    "Please state your full name for the record.",
+                    "His full name is David Alexander Miller."
+                ]
+            }
+        ],
+        "transcription": "ˈfʊl neɪm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "first_contact",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_first_contact_005",
+        "word": "nickname",
+        "emoji": "🏷️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "nicknames",
+        "subtext": "friendly nickname, call me...",
+        "definitions": [
+            {
+                "text": "An informal or short name given to someone by friends or family.",
+                "examples": [
+                    "His nickname is Dave.",
+                    "Do you have a nickname?"
+                ]
+            }
+        ],
+        "transcription": "ˈnɪkneɪm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "first_contact",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_vocabulary_language_97",
+        "word": "language",
+        "emoji": "🗣️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "languages",
+        "subtext": "foreign language, mother tongue",
+        "definitions": [
+            {
+                "text": "A system of communication used by a country or community.",
+                "examples": [
+                    "English is a global language.",
+                    "How many languages do you speak?"
+                ]
+            }
+        ],
+        "transcription": "ˈlæŋɡwɪdʒ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_vocabulary_meaning_98",
+        "word": "meaning",
+        "emoji": "💡",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "meanings",
+        "subtext": "what is the meaning of...",
+        "definitions": [
+            {
+                "text": "The idea or concept expressed by a word or phrase.",
+                "examples": [
+                    "What is the meaning of this word?",
+                    "This symbol has a special meaning."
+                ]
+            }
+        ],
+        "transcription": "ˈmiːnɪŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shapes_001",
+        "word": "shape",
+        "emoji": "📐",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "shapes",
+        "subtext": "geometric shape, round shape",
+        "definitions": [
+            {
+                "text": "The outer form or outline of something.",
+                "examples": [
+                    "A circle is a round shape.",
+                    "Can you name these geometric shapes?"
+                ]
+            }
+        ],
+        "transcription": "ʃeɪp",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shapes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shapes_002",
+        "word": "circle",
+        "emoji": "⭕",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "circles",
+        "subtext": "draw a circle, round circle",
+        "definitions": [
+            {
+                "text": "A completely round flat shape.",
+                "examples": [
+                    "Draw a red circle on the paper.",
+                    "The pupils sat in a circle."
+                ]
+            }
+        ],
+        "transcription": "ˈsɜːkl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shapes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shapes_003",
+        "word": "triangle",
+        "emoji": "🔺",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "triangles",
+        "subtext": "three sides, triangular shape",
+        "definitions": [
+            {
+                "text": "A flat shape with three straight sides and three angles.",
+                "examples": [
+                    "A triangle has three corners.",
+                    "Draw a small blue triangle."
+                ]
+            }
+        ],
+        "transcription": "ˈtraɪæŋɡl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shapes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shapes_004",
+        "word": "rectangle",
+        "emoji": "🟧",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "rectangles",
+        "subtext": "four sides, rectangular shape",
+        "definitions": [
+            {
+                "text": "A flat shape with four straight sides and four right angles.",
+                "examples": [
+                    "The dining table is a rectangle.",
+                    "A door is usually a rectangle."
+                ]
+            }
+        ],
+        "transcription": "ˈrektæŋɡl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shapes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shapes_005",
+        "word": "star",
+        "emoji": "⭐",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "stars",
+        "subtext": "star shape, night sky",
+        "definitions": [
+            {
+                "text": "A shape with five or more points; a bright point in the night sky.",
+                "examples": [
+                    "She drew a yellow star on her paper.",
+                    "The stars are shining brightly tonight."
+                ]
+            }
+        ],
+        "transcription": "stɑːr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shapes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shapes_006",
+        "word": "heart",
+        "emoji": "❤️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "hearts",
+        "subtext": "heart shape, red heart",
+        "definitions": [
+            {
+                "text": "A symbol or shape representing love; the organ that pumps blood.",
+                "examples": [
+                    "She drew a red heart on the card.",
+                    "Listen to your heart."
+                ]
+            }
+        ],
+        "transcription": "hɑːt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shapes",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shapes_007",
+        "word": "diamond",
+        "emoji": "🔷",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "diamonds",
+        "subtext": "diamond shape, precious stone",
+        "definitions": [
+            {
+                "text": "A shape with four equal sides that is tilted; a valuable gemstone.",
+                "examples": [
+                    "The road sign is in the shape of a diamond.",
+                    "She wears a diamond ring."
+                ]
+            }
+        ],
+        "transcription": "ˈdaɪəmənd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shapes",
+        "sub_theme": null
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

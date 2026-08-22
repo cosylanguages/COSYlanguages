@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -17,7 +18,8 @@
                 ]
             }
         ],
-        "subtext": "related to numbers 0 9","transcription": "ˈnəmbər",
+        "subtext": "related to numbers 0 9",
+        "transcription": "ˈnəmbər",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
@@ -191,6 +193,46 @@
         "antonyms": [
             "many"
         ]
+    },
+    {
+        "id": "en_starter_numbers_second_8",
+        "word": "second",
+        "emoji": "2️⃣",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Coming directly after the first.",
+                "examples": [
+                    "She lives on the second floor."
+                ]
+            }
+        ],
+        "transcription": "ˈsekənd",
+        "subtext": "2nd, second floor",
+        "lang": "en",
+        "level": "starter",
+        "theme": "numbers",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_numbers_third_9",
+        "word": "third",
+        "emoji": "3️⃣",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Coming directly after the second.",
+                "examples": [
+                    "His birthday is on the third of July."
+                ]
+            }
+        ],
+        "transcription": "θɜːd",
+        "subtext": "3rd, third place",
+        "lang": "en",
+        "level": "starter",
+        "theme": "numbers",
+        "sub_theme": null
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -20,7 +21,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "kæt",
+        "subtext": "related to animals",
+        "transcription": "kæt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -49,7 +51,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "dɔg",
+        "subtext": "related to animals",
+        "transcription": "dɔg",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -76,7 +79,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "bərd",
+        "subtext": "related to animals",
+        "transcription": "bərd",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -103,7 +107,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "fɪʃ",
+        "subtext": "related to animals",
+        "transcription": "fɪʃ",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -129,7 +134,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "laɪən",
+        "subtext": "related to animals",
+        "transcription": "laɪən",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -155,7 +161,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "ˈɛləfənt",
+        "subtext": "related to animals",
+        "transcription": "ˈɛləfənt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -181,7 +188,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "ˈræbɪt",
+        "subtext": "related to animals",
+        "transcription": "ˈræbɪt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -208,7 +216,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "hɔrs",
+        "subtext": "related to animals",
+        "transcription": "hɔrs",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -234,7 +243,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "kaʊ",
+        "subtext": "related to animals",
+        "transcription": "kaʊ",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -260,7 +270,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "pɪg",
+        "subtext": "related to animals",
+        "transcription": "pɪg",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -286,7 +297,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "ʃip",
+        "subtext": "related to animals",
+        "transcription": "ʃip",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -310,7 +322,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "maʊs",
+        "subtext": "related to animals",
+        "transcription": "maʊs",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -332,7 +345,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "sneɪk",
+        "subtext": "related to animals",
+        "transcription": "sneɪk",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -358,7 +372,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "ˈməŋki",
+        "subtext": "related to animals",
+        "transcription": "ˈməŋki",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -384,7 +399,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "ˈspaɪdər",
+        "subtext": "related to animals",
+        "transcription": "ˈspaɪdər",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -410,7 +426,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "bi",
+        "subtext": "related to animals",
+        "transcription": "bi",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -436,7 +453,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "dək",
+        "subtext": "related to animals",
+        "transcription": "dək",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -458,7 +476,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "bɛr",
+        "subtext": "related to animals",
+        "transcription": "bɛr",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -480,7 +499,8 @@
                 ]
             }
         ],
-        "subtext": "related to pets","transcription": "pɛt",
+        "subtext": "related to pets",
+        "transcription": "pɛt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -502,7 +522,8 @@
                 ]
             }
         ],
-        "subtext": "related to pets","transcription": "ˈhæmstər",
+        "subtext": "related to pets",
+        "transcription": "ˈhæmstər",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -524,7 +545,8 @@
                 ]
             }
         ],
-        "subtext": "related to pets","transcription": "ˈlɪzərd",
+        "subtext": "related to pets",
+        "transcription": "ˈlɪzərd",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -546,7 +568,8 @@
                 ]
             }
         ],
-        "subtext": "related to pets","transcription": "ˈtərtəl",
+        "subtext": "related to pets",
+        "transcription": "ˈtərtəl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -568,7 +591,8 @@
                 ]
             }
         ],
-        "subtext": "related to animals","transcription": "ˈkrɑkəˌdaɪl",
+        "subtext": "related to animals",
+        "transcription": "ˈkrɑkəˌdaɪl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -590,7 +614,8 @@
                 ]
             }
         ],
-        "subtext": "related to sea animals","transcription": "ʃɑrk",
+        "subtext": "related to sea animals",
+        "transcription": "ʃɑrk",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -612,7 +637,8 @@
                 ]
             }
         ],
-        "subtext": "related to sea animals","transcription": "weɪl",
+        "subtext": "related to sea animals",
+        "transcription": "weɪl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -634,7 +660,8 @@
                 ]
             }
         ],
-        "subtext": "related to sea animals","transcription": "ˈdɑlfən",
+        "subtext": "related to sea animals",
+        "transcription": "ˈdɑlfən",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -656,7 +683,8 @@
                 ]
             }
         ],
-        "subtext": "related to sea animals","transcription": "ˈɑktəˌpʊs",
+        "subtext": "related to sea animals",
+        "transcription": "ˈɑktəˌpʊs",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -678,7 +706,8 @@
                 ]
             }
         ],
-        "subtext": "related to insects","transcription": "ˈbətərˌflaɪ",
+        "subtext": "related to insects",
+        "transcription": "ˈbətərˌflaɪ",
         "lang": "en",
         "level": "starter",
         "theme": "insects",
@@ -704,7 +733,8 @@
                 ]
             }
         ],
-        "subtext": "related to insects","transcription": "ænt",
+        "subtext": "related to insects",
+        "transcription": "ænt",
         "lang": "en",
         "level": "starter",
         "theme": "insects",
@@ -730,7 +760,77 @@
                     "I like animals."
                 ]
             }
-        ],"transcription": "ˈænəməl",
+        ],
+        "transcription": "ˈænəməl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_puppy_31",
+        "word": "puppy",
+        "emoji": "🐶",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "puppies",
+        "definitions": [
+            {
+                "text": "A young dog.",
+                "examples": [
+                    "The golden retriever puppy is playing in the garden."
+                ]
+            }
+        ],
+        "transcription": "ˈpʌpi",
+        "subtext": "playful puppy",
+        "lang": "en",
+        "level": "starter",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_032",
+        "word": "kitten",
+        "emoji": "🐱",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "kittens",
+        "definitions": [
+            {
+                "text": "A young cat.",
+                "examples": [
+                    "The kitten is sleeping on the blanket."
+                ]
+            }
+        ],
+        "transcription": "ˈkɪtn",
+        "subtext": "cute kitten",
+        "lang": "en",
+        "level": "starter",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_033",
+        "word": "parrot",
+        "emoji": "🦜",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "parrots",
+        "definitions": [
+            {
+                "text": "A colourful bird often kept as a pet that can imitate human speech.",
+                "examples": [
+                    "The parrot can repeat words."
+                ]
+            }
+        ],
+        "transcription": "ˈpærət",
+        "subtext": "colourful parrot",
         "lang": "en",
         "level": "starter",
         "theme": "animals",

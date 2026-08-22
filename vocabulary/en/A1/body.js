@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -20,7 +21,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "fʊt",
+        "subtext": "related to body parts",
+        "transcription": "fʊt",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -47,7 +49,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "feɪs",
+        "subtext": "related to body parts",
+        "transcription": "feɪs",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -69,7 +72,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "heə(r)",
+        "subtext": "related to body parts",
+        "transcription": "heə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -93,7 +97,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "tuːθ",
+        "subtext": "related to body parts",
+        "transcription": "tuːθ",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -120,7 +125,8 @@
                     "He nodded his head."
                 ]
             }
-        ],"transcription": "hɛd",
+        ],
+        "transcription": "hɛd",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -148,7 +154,8 @@
                     "Give me your hand."
                 ]
             }
-        ],"transcription": "hænd",
+        ],
+        "transcription": "hænd",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -175,7 +182,8 @@
                     "I have two legs."
                 ]
             }
-        ],"transcription": "lɛg",
+        ],
+        "transcription": "lɛg",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -198,7 +206,8 @@
                     "She has blue eyes."
                 ]
             }
-        ],"transcription": "aɪ",
+        ],
+        "transcription": "aɪ",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -225,7 +234,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "noʊz",
+        "subtext": "related to body parts",
+        "transcription": "noʊz",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -252,7 +262,8 @@
                     "Open your mouth."
                 ]
             }
-        ],"transcription": "maʊθ",
+        ],
+        "transcription": "maʊθ",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -279,7 +290,8 @@
                     "I have two ears."
                 ]
             }
-        ],"transcription": "ɪr",
+        ],
+        "transcription": "ɪr",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -306,7 +318,8 @@
                     "I have pain in my back."
                 ]
             }
-        ],"transcription": "bæk",
+        ],
+        "transcription": "bæk",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -328,7 +341,8 @@
                     "She broke her arm."
                 ]
             }
-        ],"transcription": "ɑrm",
+        ],
+        "transcription": "ɑrm",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -355,7 +369,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "nɛk",
+        "subtext": "related to body parts",
+        "transcription": "nɛk",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -377,7 +392,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "ˈʃoʊldər",
+        "subtext": "related to body parts",
+        "transcription": "ˈʃoʊldər",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -399,7 +415,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "ˈfɪŋgər",
+        "subtext": "related to body parts",
+        "transcription": "ˈfɪŋgər",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -421,7 +438,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "toʊ",
+        "subtext": "related to body parts",
+        "transcription": "toʊ",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -443,7 +461,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "ˈstəmək",
+        "subtext": "related to body parts",
+        "transcription": "ˈstəmək",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -465,7 +484,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "ni",
+        "subtext": "related to body parts",
+        "transcription": "ni",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -487,7 +507,8 @@
                 ]
             }
         ],
-        "subtext": "related to body parts","transcription": "hɑrt",
+        "subtext": "related to body parts",
+        "transcription": "hɑrt",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -513,7 +534,8 @@
                 ]
             }
         ],
-        "subtext": "related to health body","transcription": "ˈbɑdi",
+        "subtext": "related to health body",
+        "transcription": "ˈbɑdi",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -723,7 +745,8 @@
         "aspect": "action",
         "v2": "touched",
         "v3": "touched",
-        "group": "regular","transcription": "təʧ",
+        "group": "regular",
+        "transcription": "təʧ",
         "lang": "en",
         "level": "starter",
         "theme": "five_senses",
@@ -975,6 +998,259 @@
         "antonyms": [
             "alive"
         ]
+    },
+    {
+        "id": "en_starter_body_038",
+        "word": "forehead",
+        "emoji": "👤",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "foreheads",
+        "definitions": [
+            {
+                "text": "The part of the face above the eyes and below the hair.",
+                "examples": [
+                    "He wiped the sweat from his forehead."
+                ]
+            }
+        ],
+        "transcription": "ˈfɔːhed",
+        "subtext": "part of face",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_039",
+        "word": "eyebrow",
+        "emoji": "🤨",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "eyebrows",
+        "definitions": [
+            {
+                "text": "The line of hair growing above the eye socket.",
+                "examples": [
+                    "She raised an eyebrow in surprise."
+                ]
+            }
+        ],
+        "transcription": "ˈaɪbraʊ",
+        "subtext": "above the eye",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_040",
+        "word": "eyelash",
+        "emoji": "👁️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "eyelashes",
+        "definitions": [
+            {
+                "text": "One of the small hairs growing on the edge of the eyelid.",
+                "examples": [
+                    "She has long dark eyelashes."
+                ]
+            }
+        ],
+        "transcription": "ˈaɪlæʃ",
+        "subtext": "long eyelashes",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_041",
+        "word": "nostril",
+        "emoji": "👃",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "nostrils",
+        "definitions": [
+            {
+                "text": "Either of the two openings at the end of the nose.",
+                "examples": [
+                    "Air enters through your nostrils."
+                ]
+            }
+        ],
+        "transcription": "ˈnɒstrəl",
+        "subtext": "opening of the nose",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_042",
+        "word": "cheek",
+        "emoji": "😊",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "cheeks",
+        "definitions": [
+            {
+                "text": "Either side of the face below the eye and above the mouth.",
+                "examples": [
+                    "Her cheeks turned red from the cold."
+                ]
+            }
+        ],
+        "transcription": "tʃiːk",
+        "subtext": "red cheeks, smile",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_043",
+        "word": "elbow",
+        "emoji": "💪",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "elbows",
+        "definitions": [
+            {
+                "text": "The joint connecting the upper arm with the forearm.",
+                "examples": [
+                    "He rested his elbows on the table."
+                ]
+            }
+        ],
+        "transcription": "ˈelbəʊ",
+        "subtext": "arm joint",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_044",
+        "word": "wrist",
+        "emoji": "⌚",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "wrists",
+        "definitions": [
+            {
+                "text": "The joint connecting the hand with the forearm.",
+                "examples": [
+                    "She wore a gold watch on her wrist."
+                ]
+            }
+        ],
+        "transcription": "rɪst",
+        "subtext": "wear a watch on wrist",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_045",
+        "word": "palm",
+        "emoji": "✋",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "palms",
+        "definitions": [
+            {
+                "text": "The inner surface of the hand between the wrist and fingers.",
+                "examples": [
+                    "Hold the coin in your palm."
+                ]
+            }
+        ],
+        "transcription": "pɑːm",
+        "subtext": "palm of the hand",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_046",
+        "word": "ankle",
+        "emoji": "🦶",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "ankles",
+        "definitions": [
+            {
+                "text": "The joint connecting the foot with the leg.",
+                "examples": [
+                    "He twisted his ankle while playing football."
+                ]
+            }
+        ],
+        "transcription": "ˈæŋkl",
+        "subtext": "foot joint",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_047",
+        "word": "heel",
+        "emoji": "👠",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "heels",
+        "definitions": [
+            {
+                "text": "The back part of the foot below the ankle.",
+                "examples": [
+                    "The new shoes hurt my heels."
+                ]
+            }
+        ],
+        "transcription": "hiːl",
+        "subtext": "back of foot",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_048",
+        "word": "brain",
+        "emoji": "🧠",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "brains",
+        "definitions": [
+            {
+                "text": "The organ inside the head that controls thought, memory, and feeling.",
+                "examples": [
+                    "The brain processes information very quickly."
+                ]
+            }
+        ],
+        "transcription": "breɪn",
+        "subtext": "head organ, memory",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

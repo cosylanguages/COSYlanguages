@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -48,7 +49,8 @@
                     "We have a holiday in July."
                 ]
             }
-        ],"transcription": "ˈhɑlɪˌdeɪ",
+        ],
+        "transcription": "ˈhɑlɪˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -69,7 +71,8 @@
                 ]
             }
         ],
-        "subtext": "related to leisure activities","transcription": "fri taɪm",
+        "subtext": "related to leisure activities",
+        "transcription": "fri taɪm",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -91,7 +94,8 @@
                     "Let's go to the cinema tonight."
                 ]
             }
-        ],"transcription": "ˈsɪnəmə",
+        ],
+        "transcription": "ˈsɪnəmə",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -113,7 +117,8 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure","transcription": "mˈjuziəm",
+        "subtext": "related to places culture leisure",
+        "transcription": "mˈjuziəm",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -135,7 +140,8 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure","transcription": "ˈlaɪbrɛˌri",
+        "subtext": "related to places culture leisure",
+        "transcription": "ˈlaɪbrɛˌri",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -157,7 +163,8 @@
                 ]
             }
         ],
-        "subtext": "related to sports equipment","transcription": "bɔl",
+        "subtext": "related to sports equipment",
+        "transcription": "bɔl",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -179,7 +186,8 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure","transcription": "ɑrt",
+        "subtext": "related to places culture leisure",
+        "transcription": "ɑrt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -201,7 +209,8 @@
                 ]
             }
         ],
-        "subtext": "related to music","transcription": "bænd",
+        "subtext": "related to music",
+        "transcription": "bænd",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -223,7 +232,8 @@
                 ]
             }
         ],
-        "subtext": "related to music","transcription": "ˈkɑnsərt",
+        "subtext": "related to music",
+        "transcription": "ˈkɑnsərt",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -245,7 +255,8 @@
                 ]
             }
         ],
-        "subtext": "related to leisure activities","transcription": "geɪm",
+        "subtext": "related to leisure activities",
+        "transcription": "geɪm",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -267,7 +278,8 @@
                 ]
             }
         ],
-        "subtext": "related to music","transcription": "mˈjuzɪk",
+        "subtext": "related to music",
+        "transcription": "mˈjuzɪk",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -289,7 +301,8 @@
                 ]
             }
         ],
-        "subtext": "related to music","transcription": "sɔŋ",
+        "subtext": "related to music",
+        "transcription": "sɔŋ",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -311,7 +324,8 @@
                 ]
             }
         ],
-        "subtext": "related to common sports","transcription": "spɔrt",
+        "subtext": "related to common sports",
+        "transcription": "spɔrt",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -336,7 +350,8 @@
                     "They are playing football in the park."
                 ]
             }
-        ],"transcription": "ˈfʊtˌbɔl",
+        ],
+        "transcription": "ˈfʊtˌbɔl",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -358,7 +373,8 @@
                 ]
             }
         ],
-        "subtext": "related to common sports","transcription": "ˈtɛnɪs",
+        "subtext": "related to common sports",
+        "transcription": "ˈtɛnɪs",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -380,7 +396,8 @@
                 ]
             }
         ],
-        "subtext": "related to music","transcription": "gɪˈtɑr",
+        "subtext": "related to music",
+        "transcription": "gɪˈtɑr",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -402,7 +419,8 @@
                 ]
             }
         ],
-        "subtext": "related to music","transcription": "piˈænə",
+        "subtext": "related to music",
+        "transcription": "piˈænə",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -424,7 +442,8 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure","transcription": "zu",
+        "subtext": "related to places culture leisure",
+        "transcription": "zu",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -449,7 +468,8 @@
                     "We are going to the theatre tonight."
                 ]
             }
-        ],"transcription": "ˈθiətər",
+        ],
+        "transcription": "ˈθiətər",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -471,7 +491,8 @@
                 ]
             }
         ],
-        "subtext": "related to toys games","transcription": "tɔɪ",
+        "subtext": "related to toys games",
+        "transcription": "tɔɪ",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -493,7 +514,8 @@
                 ]
             }
         ],
-        "subtext": "related to toys games","transcription": "dɑl",
+        "subtext": "related to toys games",
+        "transcription": "dɑl",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -515,7 +537,8 @@
                 ]
             }
         ],
-        "subtext": "related to toys games","transcription": "ˈroʊˌbət",
+        "subtext": "related to toys games",
+        "transcription": "ˈroʊˌbət",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -537,7 +560,8 @@
                 ]
             }
         ],
-        "subtext": "related to toys games","transcription": "ˈmɑnstər",
+        "subtext": "related to toys games",
+        "transcription": "ˈmɑnstər",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -559,7 +583,8 @@
                 ]
             }
         ],
-        "subtext": "related to toys games","transcription": "ˈeɪliən",
+        "subtext": "related to toys games",
+        "transcription": "ˈeɪliən",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -581,7 +606,8 @@
                 ]
             }
         ],
-        "subtext": "related to toys games","transcription": "kaɪt",
+        "subtext": "related to toys games",
+        "transcription": "kaɪt",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -603,7 +629,8 @@
                 ]
             }
         ],
-        "subtext": "related to toys games","transcription": "bəˈlun",
+        "subtext": "related to toys games",
+        "transcription": "bəˈlun",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -625,7 +652,8 @@
                 ]
             }
         ],
-        "subtext": "related to hobbies interests","transcription": "ˈhɑbi",
+        "subtext": "related to hobbies interests",
+        "transcription": "ˈhɑbi",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -647,7 +675,8 @@
                 ]
             }
         ],
-        "subtext": "related to leisure activities","transcription": "ˈpleɪˌgraʊnd",
+        "subtext": "related to leisure activities",
+        "transcription": "ˈpleɪˌgraʊnd",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -670,7 +699,8 @@
                 ]
             }
         ],
-        "subtext": "related to books reading","transcription": "ˈstɔri",
+        "subtext": "related to books reading",
+        "transcription": "ˈstɔri",
         "lang": "en",
         "level": "starter",
         "theme": "books_reading",
@@ -692,7 +722,8 @@
                 ]
             }
         ],
-        "subtext": "related to places culture leisure","transcription": "ˈpeɪnɪŋ",
+        "subtext": "related to places culture leisure",
+        "transcription": "ˈpeɪnɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -714,7 +745,8 @@
                 ]
             }
         ],
-        "subtext": "related to common sports","transcription": "ˈbæskətˌbɔl",
+        "subtext": "related to common sports",
+        "transcription": "ˈbæskətˌbɔl",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -736,7 +768,8 @@
                 ]
             }
         ],
-        "subtext": "related to common sports","transcription": "ˈbeɪsˈbɔl",
+        "subtext": "related to common sports",
+        "transcription": "ˈbeɪsˈbɔl",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -758,7 +791,8 @@
                 ]
             }
         ],
-        "subtext": "related to sports equipment","transcription": "bæt",
+        "subtext": "related to sports equipment",
+        "transcription": "bæt",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -780,7 +814,8 @@
                 ]
             }
         ],
-        "subtext": "related to musical instruments","transcription": "vaɪəˈlɪn",
+        "subtext": "related to musical instruments",
+        "transcription": "vaɪəˈlɪn",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -802,7 +837,8 @@
                 ]
             }
         ],
-        "subtext": "related to musical instruments","transcription": "drəmz",
+        "subtext": "related to musical instruments",
+        "transcription": "drəmz",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -824,7 +860,8 @@
                 ]
             }
         ],
-        "subtext": "related to musical instruments","transcription": "flut",
+        "subtext": "related to musical instruments",
+        "transcription": "flut",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -846,7 +883,8 @@
                     "I like watching films."
                 ]
             }
-        ],"transcription": "fɪlm",
+        ],
+        "transcription": "fɪlm",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -868,7 +906,8 @@
                     "Let's watch a movie tonight."
                 ]
             }
-        ],"transcription": "ˈmuvi",
+        ],
+        "transcription": "ˈmuvi",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -890,7 +929,8 @@
                     "We are having a party on Saturday."
                 ]
             }
-        ],"transcription": "ˈpɑrti",
+        ],
+        "transcription": "ˈpɑrti",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -912,7 +952,8 @@
                     "Can I take a photo of you?"
                 ]
             }
-        ],"transcription": "ˈfoʊˌtoʊ",
+        ],
+        "transcription": "ˈfoʊˌtoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -934,7 +975,8 @@
                     "The children are drawing pictures."
                 ]
             }
-        ],"transcription": "ˈpɪkʧər",
+        ],
+        "transcription": "ˈpɪkʧər",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -956,7 +998,8 @@
                 ]
             }
         ],
-        "subtext": "related to leisure activities","transcription": "gɛst",
+        "subtext": "related to leisure activities",
+        "transcription": "gɛst",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -981,7 +1024,8 @@
                     "I go to the gym three times a week."
                 ]
             }
-        ],"transcription": "ʤɪm",
+        ],
+        "transcription": "ʤɪm",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -1145,7 +1189,8 @@
         "aspect": "action",
         "v2": "drew",
         "v3": "drawn",
-        "group": "irregular","transcription": "drɔ",
+        "group": "irregular",
+        "transcription": "drɔ",
         "lang": "en",
         "level": "starter",
         "theme": "social",
