@@ -3,6 +3,7 @@
 *_results.txt
 server.log
 *_check.txt
+axe_violations_temp.json
 
 *.log
 node_modules/
