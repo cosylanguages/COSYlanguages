@@ -54,11 +54,14 @@
         const durField = document.getElementById('dur-field');
         const packField = document.getElementById('pack-field');
 
+        if (durField && packField) {
+            durField.style.opacity = type === 'group' ? '.4' : '';
+            packField.style.opacity = type === 'group' ? '.4' : '';
+            durField.style.pointerEvents = type === 'group' ? 'none' : '';
+            packField.style.pointerEvents = type === 'group' ? 'none' : '';
+        }
+
         if (type === 'group') {
-            durField.style.opacity = '.4';
-            packField.style.opacity = '.4';
-            durField.style.pointerEvents = 'none';
-            packField.style.pointerEvents = 'none';
             const avail = GRP_LG[lang];
             if (avail) {
                 el('calc-total').textContent = window.t('calc_contact_us');
@@ -73,11 +76,6 @@
             el('calc-cta').href = `https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons%20in%20${encodeURIComponent(avail || 'this language')}.`;
             return;
         }
-
-        durField.style.opacity = '';
-        packField.style.opacity = '';
-        durField.style.pointerEvents = '';
-        packField.style.pointerEvents = '';
 
         const baseVal = (BASE_DUR[dur] || 20);
         const discount = DISC[pack];
@@ -112,76 +110,136 @@
         el('calc-cta').href = 'https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20book%20a%20lesson.';
     };
 
-    function buildSegmentedControls() {
-        const ids = ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'];
-        ids.forEach(id => {
-            const selectEl = document.getElementById(id);
+    let activeCategory = 'calc-type';
+
+    const CATEGORY_ICONS = {
+        'calc-lang': '🌍',
+        'calc-type': '🎓',
+        'calc-dur': '⏱️',
+        'calc-pack': '📦',
+        'calc-cur': '💵'
+    };
+
+    const CATEGORY_LABELS = {
+        'calc-lang': 'calc_label_language',
+        'calc-type': 'calc_label_course',
+        'calc-dur': 'calc_label_duration',
+        'calc-pack': 'calc_label_pack',
+        'calc-cur': 'calc_label_currency'
+    };
+
+    function renderExtendableCalculator() {
+        const chipsBar = document.getElementById('calc-chips-bar');
+        const optionsPanel = document.getElementById('calc-options-panel');
+        if (!chipsBar || !optionsPanel) return;
+
+        const categories = ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'];
+
+        // Build Chips Bar
+        chipsBar.innerHTML = '';
+        categories.forEach(catId => {
+            const selectEl = document.getElementById(catId);
             if (!selectEl) return;
-            selectEl.style.display = 'none';
 
-            let container = document.getElementById(id + '-segmented');
-            if (!container) {
-                container = document.createElement('div');
-                container.id = id + '-segmented';
-                container.className = 'segmented-control';
-                selectEl.parentNode.appendChild(container);
+            const selectedOpt = selectEl.options[selectEl.selectedIndex];
+            const chipBtn = document.createElement('button');
+            chipBtn.type = 'button';
+            chipBtn.className = 'calc-chip-btn' + (activeCategory === catId ? ' active' : '');
+            chipBtn.setAttribute('role', 'tab');
+            chipBtn.setAttribute('aria-selected', activeCategory === catId ? 'true' : 'false');
+
+            const icon = CATEGORY_ICONS[catId] || '';
+            let valText = selectedOpt ? selectedOpt.textContent : '';
+
+            // Clean icon duplication if option already has emoji
+            if (valText && icon && valText.includes(icon)) {
+                chipBtn.innerHTML = `<span class="chip-val">${valText}</span> <span class="chip-arrow">▾</span>`;
+            } else {
+                chipBtn.innerHTML = `<span class="chip-icon">${icon}</span> <span class="chip-val">${valText}</span> <span class="chip-arrow">▾</span>`;
             }
-        });
-        syncSegmentedButtons();
-    }
 
-    function syncSegmentedButtons() {
-        const ids = ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'];
-        ids.forEach(id => {
-            const selectEl = document.getElementById(id);
-            const container = document.getElementById(id + '-segmented');
-            if (!selectEl || !container) return;
-
-            container.innerHTML = '';
-            Array.from(selectEl.options).forEach(opt => {
-                if (opt.style.display === 'none') return;
-
-                const btn = document.createElement('button');
-                btn.type = 'button';
-                btn.className = 'segment-btn';
-                if (opt.value === selectEl.value) {
-                    btn.classList.add('active');
+            chipBtn.addEventListener('click', () => {
+                if (activeCategory === catId) {
+                    // Toggle collapse if clicking active
+                    activeCategory = activeCategory ? null : catId;
+                } else {
+                    activeCategory = catId;
                 }
-                if (opt.disabled) {
-                    btn.disabled = true;
-                    btn.classList.add('disabled');
-                }
-
-                btn.textContent = opt.textContent;
-                if (opt.hasAttribute('data-translate-key')) {
-                    btn.setAttribute('data-translate-key', opt.getAttribute('data-translate-key'));
-                }
-                if (opt.hasAttribute('data-i18n')) {
-                    btn.setAttribute('data-i18n', opt.getAttribute('data-i18n'));
-                }
-
-                btn.addEventListener('click', () => {
-                    if (opt.disabled) return;
-                    selectEl.value = opt.value;
-                    selectEl.dispatchEvent(new Event('change'));
-                });
-
-                container.appendChild(btn);
+                renderExtendableCalculator();
             });
+
+            chipsBar.appendChild(chipBtn);
         });
+
+        // Build Options Drawer Panel
+        optionsPanel.innerHTML = '';
+        if (!activeCategory) {
+            optionsPanel.classList.remove('open');
+            return;
+        }
+
+        optionsPanel.classList.add('open');
+        const targetSelect = document.getElementById(activeCategory);
+        if (!targetSelect) return;
+
+        const headerDiv = document.createElement('div');
+        headerDiv.className = 'calc-options-header';
+        const labelKey = CATEGORY_LABELS[activeCategory];
+        const labelText = window.t ? window.t(labelKey) : 'Select Option';
+        headerDiv.textContent = labelText;
+        optionsPanel.appendChild(headerDiv);
+
+        const gridDiv = document.createElement('div');
+        gridDiv.className = 'calc-options-grid';
+
+        Array.from(targetSelect.options).forEach(opt => {
+            if (opt.style.display === 'none') return;
+
+            const pillBtn = document.createElement('button');
+            pillBtn.type = 'button';
+            pillBtn.className = 'calc-option-pill' + (opt.value === targetSelect.value ? ' active' : '');
+            if (opt.disabled) {
+                pillBtn.disabled = true;
+                pillBtn.classList.add('disabled');
+            }
+
+            pillBtn.textContent = opt.textContent;
+            if (opt.hasAttribute('data-translate-key')) {
+                pillBtn.setAttribute('data-translate-key', opt.getAttribute('data-translate-key'));
+            }
+
+            pillBtn.addEventListener('click', () => {
+                if (opt.disabled) return;
+                targetSelect.value = opt.value;
+                targetSelect.dispatchEvent(new Event('change'));
+
+                // Auto-advance to next natural category for rapid configuration flow
+                const categories = ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'];
+                const idx = categories.indexOf(activeCategory);
+                if (idx !== -1 && idx < categories.length - 1) {
+                    activeCategory = categories[idx + 1];
+                }
+                renderExtendableCalculator();
+            });
+
+            gridDiv.appendChild(pillBtn);
+        });
+
+        optionsPanel.appendChild(gridDiv);
     }
 
     // Auto-init if on a page with a calculator
     document.addEventListener('DOMContentLoaded', () => {
         if (document.getElementById('calc-lang')) {
-            buildSegmentedControls();
             window.calcPrice();
+            renderExtendableCalculator();
+
             ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'].forEach(id => {
                 const el = document.getElementById(id);
                 if (el) {
                     el.addEventListener('change', () => {
                         window.calcPrice();
-                        syncSegmentedButtons();
+                        renderExtendableCalculator();
                     });
                 }
             });
