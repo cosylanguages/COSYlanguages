@@ -10,6 +10,8 @@ node_modules/
 test-results/
 results/
 audit_screenshots/
+verification/screenshots/
+verification/videos/
 failure-*.png
 .DS_Store
 Thumbs.db
