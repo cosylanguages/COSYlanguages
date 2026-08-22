@@ -6,7 +6,8 @@
         "word": "hello",
         "translation": "hello",
         "level": "starter",
-        "theme": "social",
+        "theme": "about_me",
+        "sub_theme": "personal_info_first_contact",
         "language": "en",
         "emoji": "👋",
         "form": "interjection",
@@ -26,7 +27,8 @@
         "word": "goodbye",
         "translation": "goodbye",
         "level": "starter",
-        "theme": "social",
+        "theme": "about_me",
+        "sub_theme": "personal_info_first_contact",
         "language": "en",
         "emoji": "👋",
         "form": "interjection",
@@ -46,7 +48,8 @@
         "word": "please",
         "translation": "please",
         "level": "starter",
-        "theme": "social",
+        "theme": "about_me",
+        "sub_theme": "personal_info_first_contact",
         "language": "en",
         "emoji": "🙏",
         "form": "adverb",
@@ -66,7 +69,8 @@
         "word": "thank you",
         "translation": "thank you",
         "level": "starter",
-        "theme": "social",
+        "theme": "about_me",
+        "sub_theme": "personal_info_first_contact",
         "language": "en",
         "emoji": "😊",
         "form": "phrase",
@@ -86,7 +90,8 @@
         "word": "sorry",
         "translation": "sorry",
         "level": "starter",
-        "theme": "social",
+        "theme": "about_me",
+        "sub_theme": "personal_info_first_contact",
         "language": "en",
         "emoji": "🙇",
         "form": "adjective",
@@ -99,6 +104,90 @@
             }
         ],
         "transcription": "ˈsɑri",
+        "lang": "en"
+    },
+    {
+        "id": "en_starter_greetings_006",
+        "word": "good morning",
+        "translation": "good morning",
+        "level": "starter",
+        "theme": "about_me",
+        "sub_theme": "personal_info_first_contact",
+        "language": "en",
+        "emoji": "🌅",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Used to greet someone in the morning.",
+                "examples": [
+                    "Good morning, class!"
+                ]
+            }
+        ],
+        "transcription": "ɡʊd ˈmɔːrnɪŋ",
+        "lang": "en"
+    },
+    {
+        "id": "en_starter_greetings_007",
+        "word": "good afternoon",
+        "translation": "good afternoon",
+        "level": "starter",
+        "theme": "about_me",
+        "sub_theme": "personal_info_first_contact",
+        "language": "en",
+        "emoji": "☀️",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Used to greet someone in the afternoon.",
+                "examples": [
+                    "Good afternoon, Mr. Smith."
+                ]
+            }
+        ],
+        "transcription": "ɡʊd ˌæftərˈnuːn",
+        "lang": "en"
+    },
+    {
+        "id": "en_starter_greetings_008",
+        "word": "good evening",
+        "translation": "good evening",
+        "level": "starter",
+        "theme": "about_me",
+        "sub_theme": "personal_info_first_contact",
+        "language": "en",
+        "emoji": "🌆",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Used to greet someone in the evening.",
+                "examples": [
+                    "Good evening! Welcome to our restaurant."
+                ]
+            }
+        ],
+        "transcription": "ɡʊd ˈiːvnɪŋ",
+        "lang": "en"
+    },
+    {
+        "id": "en_starter_greetings_009",
+        "word": "nice to meet you",
+        "translation": "nice to meet you",
+        "level": "starter",
+        "theme": "about_me",
+        "sub_theme": "personal_info_first_contact",
+        "language": "en",
+        "emoji": "🤝",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Polite formula used when meeting someone for the first time.",
+                "examples": [
+                    "Hello David, nice to meet you."
+                ]
+            }
+        ],
+        "transcription": "naɪs tə miːt juː",
         "lang": "en"
     }
 ];
