@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSYzine 📰 | Printable Language Newspaper — COSYlanguages</title>
+    <meta name="description" content="A printable A2–B1 mini-newspaper & booklet per language. Idioms, short culture articles, comic strips, and reader stories in our Learner Voices column.">
+    <meta property="og:title" content="COSYzine 📰 | Printable Language Newspaper — COSYlanguages">
+    <meta property="og:description" content="Read, fold, and collect pocket zines in English, French, Italian, Russian, and Greek. Submit your short texts to Learner Voices!">
+    <meta property="og:image" content="../images/logos/cosylanguages.png">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <link rel="manifest" href="../apps/free-portal/manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/home.css">
+
+    <style>
+        .zine-issue-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .zine-issue-card {
+            background: #ffffff;
+            border: 1.5px solid var(--border);
+            border-radius: var(--r-md, 16px);
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .zine-issue-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+        }
+        .issue-badge {
+            display: inline-block;
+            background: #fef3c7;
+            color: #92400e;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 0.25rem 0.6rem;
+            border-radius: 12px;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .issue-lang-tag {
+            font-size: 1.1rem;
+            margin-right: 0.3rem;
+        }
+        .submission-box {
+            background: linear-gradient(135deg, #fdf6eb, #f9eae1);
+            border: 1.5px solid #ebd0be;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2.5rem 0;
+        }
+        .signup-card {
+            background: #ffffff;
+            border: 2px dashed var(--sage, #9cb39e);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            margin: 2.5rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYzine." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<!-- Sticky Top Navigation Header -->
+<header class="sd-sticky-header">
+  <div class="sd-header-inner">
+    <div class="sd-breadcrumbs">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="index.html">Beyond the Screen 🌿</a>
+      <span class="sep">/</span>
+      <span class="current">COSYzine 📰</span>
+    </div>
+    <nav class="sd-jump-links" aria-label="Page jump links">
+      <a href="#concept" class="sd-jump-link">Concept</a>
+      <a href="#issues" class="sd-jump-link">Issues</a>
+      <a href="#voices" class="sd-jump-link">Learner Voices</a>
+      <a href="#fold" class="sd-jump-link">Fold Format</a>
+    </nav>
+  </div>
+</header>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag">📰 COSYzine</div>
+      <h1>A printable <em>mini-newspaper</em> for real language learners.</h1>
+      <p class="hero-sub">A2–B1 short stories, idioms, comic strips, seasonal cultural specials, and community submissions folded into an 8-page pocket booklet. Take your reading habit offline.</p>
+      <div class="hero-ctas">
+        <a href="#issues" class="btn-primary">Browse Issues ↓</a>
+        <a href="#voices" class="btn-secondary">Submit Your Text ✍️</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="speak-badge" style="background: linear-gradient(135deg, #7c4a24, #3d2310);">
+        <span class="sb-label">Printable Pocket Literature</span>
+        <div class="sb-title">Foldable paper zines you can slide into your pocket.</div>
+        <div class="sb-desc">Printed on a single sheet of A4 paper with simple 8-page folding cuts. Read on the train, park bench, or over morning coffee.</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="page" role="main">
+
+<section id="concept">
+  <span class="sec-tag">📖 Inside COSYzine</span>
+  <h2 class="sec-h2">What's in Every Issue?</h2>
+  <p class="sec-p">Crafted specifically for A2–B1 learners across English, French, Italian, Russian, and Greek.</p>
+
+  <div class="steps">
+    <div class="step reveal step-1">
+      <div class="step-num">1</div>
+      <h3>📰 2-Minute Stories &amp; Idioms</h3>
+      <p>Short cultural vignettes, idiomatic expressions explained in context, and 10 key vocabulary callouts.</p>
+    </div>
+    <div class="step reveal step-2">
+      <div class="step-num">2</div>
+      <h3>🎨 Visual Comic Strip &amp; Puzzles</h3>
+      <p>Bite-sized visual dialogue comic, crossword or wordsearch puzzle, and a seasonal cultural recipe or song spot.</p>
+    </div>
+    <div class="step reveal step-3">
+      <div class="step-num">3</div>
+      <h3>🗣️ Learner Voices Column</h3>
+      <p>Short essays, reflection pieces, and funny language learning anecdotes submitted directly by COSY students!</p>
+    </div>
+  </div>
+</section>
+
+<section id="issues">
+  <span class="sec-tag">📚 Issue Archive</span>
+  <h2 class="sec-h2">Upcoming COSYzine Issues</h2>
+  <p class="sec-p">Real downloadable PDF issues launching soon across all COSY languages.</p>
+
+  <div class="zine-issue-grid">
+    <div class="zine-issue-card reveal">
+      <div>
+        <span class="issue-badge">⏳ Coming Soon</span>
+        <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;"><span class="issue-lang-tag">🇬🇧</span> Issue #1: London Rain &amp; Tea Culture</h3>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> English</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Exploring British small talk, weather idioms, a coffee vs. tea dialogue comic, and a student story from our London Speaking Club.</p>
+      </div>
+      <button disabled class="btn-secondary" style="opacity:0.6; cursor:not-allowed; margin-top:1rem; width:100%;">📥 PDF Download (Stub)</button>
+    </div>
+
+    <div class="zine-issue-card reveal">
+      <div>
+        <span class="issue-badge">⏳ Coming Soon</span>
+        <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;"><span class="issue-lang-tag">🇫🇷</span> Édition #1: Le Café du Matin &amp; Flânerie</h3>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> Français</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">The art of Parisian wandering, everyday boulangerie vocabulary, 5 essential French idioms, and a reader submission on learning French in Lyon.</p>
+      </div>
+      <button disabled class="btn-secondary" style="opacity:0.6; cursor:not-allowed; margin-top:1rem; width:100%;">📥 PDF Download (Stub)</button>
+    </div>
+
+    <div class="zine-issue-card reveal">
+      <div>
+        <span class="issue-badge">⏳ Coming Soon</span>
+        <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;"><span class="issue-lang-tag">🇮🇹</span> Edizione #1: La Dolce Vita &amp; Aperitivo</h3>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> Italiano</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Italian gestures decoded, regional food culture, conversational espresso bar prompts, and a learner story on moving to Tuscany.</p>
+      </div>
+      <button disabled class="btn-secondary" style="opacity:0.6; cursor:not-allowed; margin-top:1rem; width:100%;">📥 PDF Download (Stub)</button>
+    </div>
+
+    <div class="zine-issue-card reveal">
+      <div>
+        <span class="issue-badge">⏳ Coming Soon</span>
+        <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;"><span class="issue-lang-tag">🇷🇺</span> Выпуск #1: Уютные вечера и традиции</h3>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> Русский</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Чайные традиции, пословицы о дружбе, комикс про путешествие на поезде и история ученика о первом разговоре на русском.</p>
+      </div>
+      <button disabled class="btn-secondary" style="opacity:0.6; cursor:not-allowed; margin-top:1rem; width:100%;">📥 PDF Download (Stub)</button>
+    </div>
+  </div>
+</section>
+
+<section id="voices">
+  <div class="submission-box reveal">
+    <h3 style="margin:0 0 0.75rem; font-family:'Fraunces', serif; color:#8c3d1d; font-size:1.4rem;">✍️ Submit Your Text to 'Learner Voices'</h3>
+    <p style="color:var(--ink-soft); font-size:0.95rem; line-height:1.5; margin-bottom:1.25rem;">Are you learning English, French, Italian, Russian, or Greek with us or in your own time? Write a short text (100–250 words) about a funny misunderstanding, a breakthrough moment, or your favorite local spot. Selected texts will be published in our printed COSYzine issues with language corrections!</p>
+
+    <div style="background:#ffffff; padding:1.25rem; border-radius:12px; border:1px solid #e2c1b2; margin-bottom:1.25rem;">
+      <h4 style="margin:0 0 0.5rem; color:#8c3d1d; font-size:0.95rem;">Guidelines for Learner Submissions:</h4>
+      <ul style="margin:0; padding-left:1.2rem; font-size:0.88rem; color:var(--ink-soft); line-height:1.5;">
+        <li>Length: 100 to 250 words</li>
+        <li>Language: English, French, Italian, Russian, or Greek</li>
+        <li>Level: Any level (A1 to C1 welcome!)</li>
+        <li>Topic: Language journey, cultural reflection, or travel story</li>
+      </ul>
+    </div>
+
+    <a href="mailto:cosylanguages@gmail.com?subject=Learner%20Voices%20COSYzine%20Submission&body=Hi%20COSYlanguages%20Team!%0A%0AI'd%20like%20to%20submit%20a%20short%20text%20for%20the%20Learner%20Voices%20column in%20COSYzine.%0A%0A---%0ALanguage:%20[English%20/%20French%20/%20Italian%20/%20Russian%20/%20Greek]%0AMy%20Name%20/%20Alias:%20[Your%20Name]%0AMy%20Text%20(100-250%20words):%0A[Paste%20your%20story%20here]%0A---" class="btn-primary" style="background:#8c3d1d; border-color:#8c3d1d;">✉️ Email Your Text to cosylanguages@gmail.com</a>
+  </div>
+</section>
+
+<section id="fold">
+  <span class="sec-tag">✂️ Printable Format</span>
+  <h2 class="sec-h2">The 8-Page Foldable Zine Format</h2>
+  <p class="sec-p">COSYzine uses our standard single-sheet folding compiler implemented in Foldable Pocket Zines.</p>
+
+  <div class="tools-grid">
+    <div class="tool-card reveal" style="grid-column: 1 / -1;">
+      <div class="tool-free-label">📖 Interactive Compiler</div>
+      <h3>Generate Custom Vocabulary Zines Today 📖</h3>
+      <p>While waiting for official newspaper issues, you can generate and print your own custom 8-page pocket booklets using any vocabulary category or your personal notebook words!</p>
+      <div style="margin-top:1rem;">
+        <a href="../print-zine.html" class="btn-primary">Open Pocket Zine Compiler →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="signup">
+  <div class="signup-card reveal">
+    <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;">Get Notified When Issue #1 Drops 🚀</h3>
+    <p style="color:var(--muted); font-size:0.9rem; max-width:550px; margin:0 auto 1.25rem;">Message us on WhatsApp or send an email to be notified the moment COSYzine Issue #1 is available for download!</p>
+    <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+      <a href="https://wa.me/330766784195?text=Hi!%20Please%20notify%20me%20when%20COSYzine%20Issue%20%231%20is%20published." class="btn-primary">💬 Notify me on WhatsApp</a>
+      <a href="mailto:cosylanguages@gmail.com?subject=Notify%20me%20about%20COSYzine" class="btn-secondary">✉️ Email Notification</a>
+    </div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="cta-section reveal">
+    <h2>Questions or ideas for COSYzine? 🌱</h2>
+    <p>Message us on WhatsApp or Telegram to suggest topics, recipes, or culture specials for upcoming issues.</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%20have%20an%20idea%20for%20COSYzine." class="btn-primary">💬 WhatsApp</a>
+      <a href="https://t.me/cosylanguagesproject" class="btn-secondary">✈️ Telegram</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3>Courses</h3>
+      <a href="../apps/premium-courses/general/">General Course 📖</a>
+      <a href="../apps/premium-courses/spoken/">Spoken Course 🗣️</a>
+      <a href="../apps/premium-courses/exam/">Exam Preparation 📝</a>
+      <a href="../apps/premium-courses/travelling/">Travelling Course ✈️</a>
+      <a href="../apps/premium-courses/professional/">Professional Course 💼</a>
+      <a href="../apps/premium-courses/relocation/">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Explore</h3>
+      <a href="../#languages">Languages 🌍</a>
+      <a href="../practice/index.html">Free Practice 💡</a>
+      <a href="../placement-quiz.html">Placement Quiz 📝</a>
+      <a href="../print-cards.html">Leitner Print Studio 🖨️</a>
+      <a href="../print-zine.html">Foldable Pocket Zines 📖</a>
+      <a href="../print-box.html">Leitner Box Template 📦</a>
+      <a href="../print-boardgame.html">Printable Board Game 🎲</a>
+      <a href="index.html">Hybrid &amp; Community 🌿</a>
+      <a href="../classroom-sync.html">Classroom Synchronizer 🤝</a>
+      <a href="../notebook/index.html">My Notebook 📓</a>
+      <a href="../vocabulary/index.html">Vocabulary Library 📖</a>
+      <a href="../grammar/index.html">Grammar Tables 📐</a>
+      <a href="../events/index.html">Events 🎉</a>
+      <a href="../games/index.html">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 COSYlanguages — All rights reserved</div>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<div id="toast"></div>
+
+</body>
+</html>

@@ -111,6 +111,7 @@
               <a href="${prefix}print-zine.html">Foldable Pocket Zines 📖</a>
               <a href="${prefix}print-box.html">Leitner Box Template 📦</a>
               <a href="${prefix}print-boardgame.html">Printable Board Game 🎲</a>
+              <a href="${prefix}hybrid/index.html">Hybrid &amp; Community 🌿</a>
               <a href="${prefix}classroom-sync.html">Classroom Synchronizer 🤝</a>
               <a href="${prefix}notebook/index.html">My Notebook 📓</a>
               <a href="${prefix}vocabulary/index.html">Vocabulary Library 📖</a>
