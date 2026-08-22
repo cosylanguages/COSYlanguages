@@ -104,10 +104,10 @@ const NAV_CONFIG = {
     free: [
         { key: 'home',     href: 'index.html',           icon: ''   },
         { key: 'practice', href: 'practice/index.html',  icon: '💡' },
-        { key: 'hybrid',   href: 'hybrid/index.html',    icon: '🌿' },
         { key: 'notebook', href: 'notebook/index.html',  icon: '📓' },
         { key: 'games',    href: 'games/index.html',     icon: '🎮' },
-        { key: 'events',   href: 'events/index.html',    icon: '🎉' }
+        { key: 'events',   href: 'events/index.html',    icon: '🎉' },
+        { key: 'hybrid',   href: 'hybrid/index.html',    icon: '🌿' }
     ]
 };
 
@@ -351,6 +351,7 @@ function mobileMenuHTML (mode) {
       <a href="${p}notebook/index.html" data-translate-key="nav_notebook" data-i18n="nav.notebook">📓 Notebook</a>
       <a href="${p}games/index.html" data-translate-key="nav_games" data-i18n="nav.games">🎮 Games</a>
       <a href="${p}events/index.html" data-translate-key="nav_events" data-i18n="nav.events">🎉 Events</a>
+      <a href="${p}hybrid/index.html" data-translate-key="nav_hybrid" data-i18n="nav.hybrid">🌿 Hybrid</a>
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);" data-i18n="label.language">Language 🌍</span>
