@@ -1,4 +1,3 @@
-// TODO: verify level classification
 (function() {
 const data = [
     {
