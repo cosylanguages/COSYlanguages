@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridge Tools 🔗 | Hybrid Learning — COSYlanguages</title>
+    <meta name="description" content="Connect physical printables with digital practice. Generate QR codes for Leitner flashcards and explore COSYlanguages printable offline studio.">
+    <meta property="og:title" content="Bridge Tools 🔗 | Hybrid Learning — COSYlanguages">
+    <meta property="og:description" content="Generate printable QR codes linking paper cards directly to online audio, practice games, and Speaking Club sessions.">
+    <meta property="og:image" content="../images/logos/cosylanguages.png">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <link rel="manifest" href="../apps/free-portal/manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/home.css">
+
+    <!-- Client-side QRCode generator library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <style>
+        .qr-widget-card {
+            background: #ffffff;
+            border: 2px solid var(--border);
+            border-radius: var(--r-md, 16px);
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+        }
+        .qr-input-group {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1.25rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        .qr-input {
+            flex-grow: 1;
+            padding: 0.75rem 1rem;
+            border: 1.5px solid var(--border);
+            border-radius: 10px;
+            font-size: 0.95rem;
+            font-family: var(--font-sans);
+            outline: none;
+            background: var(--cream, #FAF7F2);
+            color: var(--ink, #222);
+            min-width: 260px;
+        }
+        .qr-input:focus {
+            border-color: var(--sage-deep, #3d5a45);
+            background: #ffffff;
+        }
+        .qr-presets {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+        .qr-pill {
+            background: var(--cream, #FAF7F2);
+            border: 1px solid var(--border);
+            padding: 0.35rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            color: var(--ink-soft);
+            transition: all 0.2s ease;
+        }
+        .qr-pill:hover {
+            background: var(--sage-light);
+            border-color: var(--sage);
+            color: var(--sage-deep);
+        }
+        .qr-output-area {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+            background: var(--cream, #FAF7F2);
+            padding: 2rem;
+            border-radius: 14px;
+            border: 1px dashed var(--border);
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+        .qr-code-box {
+            background: #ffffff;
+            padding: 1.25rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 180px;
+            min-height: 180px;
+        }
+        .qr-code-box canvas, .qr-code-box img {
+            max-width: 160px;
+            height: auto;
+            display: block;
+        }
+        .qr-meta {
+            max-width: 320px;
+        }
+        .qr-actions {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        .pwa-teaser-card {
+            background: linear-gradient(135deg, #eef7f0, #e1f2e5);
+            border: 1.5px solid #a3d9b1;
+            border-radius: 16px;
+            padding: 1.75rem;
+            margin: 2.5rem 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 1.25rem;
+        }
+        .pwa-icon {
+            font-size: 2.2rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20Bridge%20Tools." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<!-- Sticky Top Navigation Header -->
+<header class="sd-sticky-header">
+  <div class="sd-header-inner">
+    <div class="sd-breadcrumbs">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="index.html">Beyond the Screen 🌿</a>
+      <span class="sep">/</span>
+      <span class="current">Bridge Tools 🔗</span>
+    </div>
+    <nav class="sd-jump-links" aria-label="Page jump links">
+      <a href="#concept" class="sd-jump-link">The Loop</a>
+      <a href="#generator" class="sd-jump-link">QR Generator</a>
+      <a href="#printables" class="sd-jump-link">Printables Hub</a>
+      <a href="#pwa" class="sd-jump-link">Offline PWA</a>
+    </nav>
+  </div>
+</header>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag">🔗 Bridge Tools</div>
+      <h1>Connect paper flashcards to <em>digital audio &amp; games</em>.</h1>
+      <p class="hero-sub">Printable cards shouldn't live in isolation. Bridge Tools generate QR codes that link your physical zines and flashcards back to online audio pronunciations, interactive quizzes, and Speaking Club sessions.</p>
+      <div class="hero-ctas">
+        <a href="#generator" class="btn-primary">Generate QR Code ↓</a>
+        <a href="#printables" class="btn-secondary">Printable Tools Hub ↓</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="speak-badge" style="background: linear-gradient(135deg, #2b4836, #15261b);">
+        <span class="sb-label">The Online ↔ Offline Bridge</span>
+        <div class="sb-title">Scan a printed card to listen to real audio or jump into a game.</div>
+        <div class="sb-desc">Stick generated QR codes onto your Leitner cards, pocket zines, or textbook notes to bridge your offline review with online practice.</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="page" role="main">
+
+<section id="concept">
+  <span class="sec-tag">🔄 Seamless Loop</span>
+  <h2 class="sec-h2">How One Topic Connects Everything</h2>
+  <p class="sec-p">A single vocabulary topic flows smoothly across paper, audio, and conversation.</p>
+
+  <div class="steps">
+    <div class="step reveal step-1">
+      <div class="step-num">1</div>
+      <h3>🗣️ Speaking Club / Lesson</h3>
+      <p>You attend a session on <em>"Travel &amp; Airport Etiquette"</em> and discover 10 key B1 phrases.</p>
+    </div>
+    <div class="step reveal step-2">
+      <div class="step-num">2</div>
+      <h3>🖨️ Printable Flashcard + QR Code</h3>
+      <p>Print Leitner cards with QR codes pointing directly to your audio draft or interactive practice set.</p>
+    </div>
+    <div class="step reveal step-3">
+      <div class="step-num">3</div>
+      <h3>📻 Radio Episode &amp; Zine</h3>
+      <p>Review the topic in a 5-minute podcast recap or in your 8-page foldable pocket zine during your daily walk.</p>
+    </div>
+  </div>
+</section>
+
+<section id="generator">
+  <span class="sec-tag">📲 Interactive Tool</span>
+  <h2 class="sec-h2">COSY QR Code Generator</h2>
+  <p class="sec-p">Paste any COSYlanguages URL or text to generate a printable QR code label for your cards or zines.</p>
+
+  <div class="qr-widget-card reveal">
+    <h3 style="margin-top:0; font-family:'Fraunces', serif;">Create a Printable QR Code Label 🏷️</h3>
+    <p style="color:var(--muted); font-size:0.9rem;">Type or paste a page URL below, or choose a quick preset. Download the generated QR code or print it directly.</p>
+
+    <div class="qr-presets">
+      <span class="qr-label-sm" style="font-size:0.8rem; font-weight:bold; color:var(--ink-soft); align-self:center;">Quick Presets:</span>
+      <button class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYlanguages/practice/index.html')">💡 Free Practice Hub</button>
+      <button class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYlanguages/games/index.html')">🎮 Language Games</button>
+      <button class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYlanguages/events/index.html')">🎉 Speaking Clubs</button>
+      <button class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYlanguages/print-zine.html')">📖 Pocket Zine Compiler</button>
+    </div>
+
+    <div class="qr-input-group">
+      <input type="text" id="qr-input-url" class="qr-input" placeholder="https://cosylanguages.github.io/COSYlanguages/practice/index.html" value="https://cosylanguages.github.io/COSYlanguages/practice/index.html">
+      <button onclick="generateQRCode()" class="btn-primary" style="white-space:nowrap;">Generate QR Code</button>
+    </div>
+
+    <div class="qr-output-area">
+      <div class="qr-code-box" id="qr-code-target">
+        <!-- QR Code renders here -->
+      </div>
+      <div class="qr-meta">
+        <h4 style="margin:0 0 0.5rem; font-family:'Fraunces', serif; color:var(--sage-deep);">Target Link:</h4>
+        <div id="qr-url-display" style="font-size:0.85rem; word-break:break-all; color:var(--ink-soft); font-family:monospace; margin-bottom:1rem; background:#ffffff; padding:0.5rem 0.75rem; border-radius:6px; border:1px solid var(--border);">https://cosylanguages.github.io/COSYlanguages/practice/index.html</div>
+
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;">Stick this QR code on a Leitner card or pocket booklet so learners can scan and jump straight to audio practice!</p>
+
+        <div class="qr-actions">
+          <button onclick="downloadQRCode()" class="btn-secondary" style="font-size:0.85rem; padding:0.4rem 0.9rem;">💾 Download PNG</button>
+          <button onclick="printQRCodeLabel()" class="btn-secondary" style="font-size:0.85rem; padding:0.4rem 0.9rem;">🖨️ Print Label</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="printables">
+  <span class="sec-tag">🖨️ Complete Suite</span>
+  <h2 class="sec-h2">Existing Printable Tools Hub</h2>
+  <p class="sec-p">All of COSYlanguages' physical paper tools gathered in one place.</p>
+
+  <div class="tools-grid">
+    <div class="tool-card reveal">
+      <div class="tool-free-label">🖨️ Flashcard Creator</div>
+      <h3>Leitner Print Studio 🖨️</h3>
+      <p>Print double-sided flashcards complete with phonetic markers, CEFR tags, and memory prompts.</p>
+      <a href="../print-cards.html" class="tool-link">Open Leitner Studio →</a>
+    </div>
+
+    <div class="tool-card reveal">
+      <div class="tool-free-label">📖 8-Page Booklet</div>
+      <h3>Foldable Pocket Zines 📖</h3>
+      <p>Compile 6 vocabulary items into an 8-page mini-booklet using a single sheet of A4 paper.</p>
+      <a href="../print-zine.html" class="tool-link">Open Zine Compiler →</a>
+    </div>
+
+    <div class="tool-card reveal">
+      <div class="tool-free-label">📦 DIY Hardware</div>
+      <h3>Leitner Box Template 📦</h3>
+      <p>Downloadable cardboard folding template to build a physical 5-compartment spaced repetition box.</p>
+      <a href="../print-box.html" class="tool-link">Get Box Template →</a>
+    </div>
+
+    <div class="tool-card reveal">
+      <div class="tool-free-label">🎲 Tabletop Practice</div>
+      <h3>Printable Board Game 🎲</h3>
+      <p>A printable tabletop board game for 2–4 players to practice speaking and answer conversation challenges.</p>
+      <a href="../print-boardgame.html" class="tool-link">Download Board Game →</a>
+    </div>
+  </div>
+</section>
+
+<section id="pwa">
+  <div class="pwa-teaser-card reveal">
+    <div class="pwa-icon">📲</div>
+    <div>
+      <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif; color:#1e4620;">Coming Soon: Offline-First PWA Mode ⚡</h3>
+      <p style="margin:0; font-size:0.95rem; color:#2c5e30; line-height:1.5;">We are building offline service-worker caching for <a href="../practice/index.html" style="color:#1e4620; font-weight:bold;">Practice Hub</a> and <a href="../games/index.html" style="color:#1e4620; font-weight:bold;">Language Games</a>. Soon you'll be able to pin COSYlanguages to your home screen and complete exercises on the subway or off the grid without an internet connection!</p>
+    </div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="cta-section reveal">
+    <h2>Need custom printables for your classroom? 🌱</h2>
+    <p>Contact us on WhatsApp or Telegram to request bespoke zine templates or bulk printable packs.</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages%20Bridge%20Tools." class="btn-primary">💬 WhatsApp</a>
+      <a href="https://t.me/cosylanguagesproject" class="btn-secondary">✈️ Telegram</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3>Courses</h3>
+      <a href="../apps/premium-courses/general/">General Course 📖</a>
+      <a href="../apps/premium-courses/spoken/">Spoken Course 🗣️</a>
+      <a href="../apps/premium-courses/exam/">Exam Preparation 📝</a>
+      <a href="../apps/premium-courses/travelling/">Travelling Course ✈️</a>
+      <a href="../apps/premium-courses/professional/">Professional Course 💼</a>
+      <a href="../apps/premium-courses/relocation/">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Explore</h3>
+      <a href="../#languages">Languages 🌍</a>
+      <a href="../practice/index.html">Free Practice 💡</a>
+      <a href="../placement-quiz.html">Placement Quiz 📝</a>
+      <a href="../print-cards.html">Leitner Print Studio 🖨️</a>
+      <a href="../print-zine.html">Foldable Pocket Zines 📖</a>
+      <a href="../print-box.html">Leitner Box Template 📦</a>
+      <a href="../print-boardgame.html">Printable Board Game 🎲</a>
+      <a href="index.html">Hybrid &amp; Community 🌿</a>
+      <a href="../classroom-sync.html">Classroom Synchronizer 🤝</a>
+      <a href="../notebook/index.html">My Notebook 📓</a>
+      <a href="../vocabulary/index.html">Vocabulary Library 📖</a>
+      <a href="../grammar/index.html">Grammar Tables 📐</a>
+      <a href="../events/index.html">Events 🎉</a>
+      <a href="../games/index.html">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 COSYlanguages — All rights reserved</div>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+
+<script>
+    let qrcodeObj = null;
+
+    function renderFallbackCanvasQR(text, targetEl) {
+        targetEl.innerHTML = '';
+        const canvas = document.createElement('canvas');
+        canvas.width = 160;
+        canvas.height = 160;
+        const ctx = canvas.getContext('2d');
+
+        // Draw simple stylized QR placeholder matrix
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, 160, 160);
+        ctx.fillStyle = '#2b4836';
+
+        // Outer positioning squares
+        const drawPositionSquare = (x, y) => {
+            ctx.fillRect(x, y, 40, 40);
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(x + 5, y + 5, 30, 30);
+            ctx.fillStyle = '#2b4836';
+            ctx.fillRect(x + 10, y + 10, 20, 20);
+        };
+        drawPositionSquare(10, 10);
+        drawPositionSquare(110, 10);
+        drawPositionSquare(10, 110);
+
+        // Pseudorandom data bits based on string hash
+        let hash = 0;
+        for (let i = 0; i < text.length; i++) {
+            hash = (hash << 5) - hash + text.charCodeAt(i);
+            hash |= 0;
+        }
+
+        for (let r = 0; r < 12; r++) {
+            for (let c = 0; c < 12; c++) {
+                if ((r < 4 && c < 4) || (r < 4 && c > 7) || (r > 7 && c < 4)) continue;
+                const bit = Math.abs((hash * (r + 1) * (c + 1)) % 7);
+                if (bit > 2) {
+                    ctx.fillRect(10 + c * 11.5, 10 + r * 11.5, 9, 9);
+                }
+            }
+        }
+        targetEl.appendChild(canvas);
+    }
+
+    function generateQRCode() {
+        const input = document.getElementById('qr-input-url');
+        const urlDisplay = document.getElementById('qr-url-display');
+        const target = document.getElementById('qr-code-target');
+        const text = input ? input.value.trim() : 'https://cosylanguages.github.io/COSYlanguages/';
+
+        if (!text) return;
+        if (urlDisplay) urlDisplay.textContent = text;
+        target.innerHTML = '';
+
+        if (typeof QRCode !== 'undefined') {
+            try {
+                qrcodeObj = new QRCode(target, {
+                    text: text,
+                    width: 150,
+                    height: 150,
+                    colorDark : "#2b4836",
+                    colorLight : "#ffffff",
+                    correctLevel : QRCode.CorrectLevel.H
+                });
+            } catch (e) {
+                renderFallbackCanvasQR(text, target);
+            }
+        } else {
+            renderFallbackCanvasQR(text, target);
+        }
+    }
+
+    function setQrPreset(url) {
+        const input = document.getElementById('qr-input-url');
+        if (input) {
+            input.value = url;
+            generateQRCode();
+        }
+    }
+
+    function downloadQRCode() {
+        const target = document.getElementById('qr-code-target');
+        const img = target.querySelector('img');
+        const canvas = target.querySelector('canvas');
+
+        let dataUrl = null;
+        if (img && img.src) dataUrl = img.src;
+        else if (canvas) dataUrl = canvas.toDataURL("image/png");
+
+        if (!dataUrl) return alert('Generates QR code first.');
+
+        const a = document.createElement('a');
+        a.href = dataUrl;
+        a.download = 'cosy-qr-code.png';
+        a.click();
+    }
+
+    function printQRCodeLabel() {
+        const text = document.getElementById('qr-url-display').textContent;
+        const target = document.getElementById('qr-code-target');
+        const canvas = target.querySelector('canvas');
+        const img = target.querySelector('img');
+        const dataUrl = (img && img.src) ? img.src : (canvas ? canvas.toDataURL() : '');
+
+        const printWin = window.open('', '_blank');
+        printWin.document.write(`
+            <html>
+            <head>
+                <title>Print COSY QR Label</title>
+                <style>
+                    body { font-family: sans-serif; text-align: center; padding: 2rem; }
+                    .card { border: 2px dashed #3d5a45; padding: 1.5rem; display: inline-block; border-radius: 12px; max-width: 250px; }
+                    img { width: 150px; height: 150px; }
+                    .brand { font-weight: bold; color: #3d5a45; margin-top: 0.5rem; font-size: 0.9rem; }
+                    .url { font-size: 0.75rem; word-break: break-all; color: #666; margin-top: 0.25rem; }
+                </style>
+            </head>
+            <body onload="window.print();window.close();">
+                <div class="card">
+                    <img src="${dataUrl}">
+                    <div class="brand">🏡 COSYlanguages Bridge Label</div>
+                    <div class="url">${text}</div>
+                </div>
+            </body>
+            </html>
+        `);
+        printWin.document.close();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        generateQRCode();
+    });
+</script>
+<div id="toast"></div>
+
+</body>
+</html>

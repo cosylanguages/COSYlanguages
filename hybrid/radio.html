@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSY Radio 📻 | Podcast & Audio Stream — COSYlanguages</title>
+    <meta name="description" content="5–10 min slow-speech podcasts, word-of-the-day breakdowns, and live Speaking Club recordings turned into audio episodes. Tune in to COSY Radio.">
+    <meta property="og:title" content="COSY Radio 📻 | Podcast & Audio Stream — COSYlanguages">
+    <meta property="og:description" content="Slow-speech news recaps, language immersion, and Speaking Club highlights. Launching soon on COSYlanguages.">
+    <meta property="og:image" content="../images/logos/cosylanguages.png">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <link rel="manifest" href="../apps/free-portal/manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/home.css">
+
+    <style>
+        .episode-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .episode-card {
+            background: #ffffff;
+            border: 1.5px solid var(--border);
+            border-radius: var(--r-md, 16px);
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .episode-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+        }
+        .ep-badge {
+            display: inline-block;
+            background: #f3e8ff;
+            color: #6b21a8;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 0.25rem 0.6rem;
+            border-radius: 12px;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .ep-duration {
+            font-size: 0.8rem;
+            background: var(--cream, #FAF7F2);
+            color: var(--ink-soft);
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            font-weight: bold;
+        }
+        .stub-player {
+            background: var(--cream, #FAF7F2);
+            border: 1px dashed var(--border);
+            border-radius: 10px;
+            padding: 0.75rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 1rem;
+            font-family: monospace;
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .clubs-crosslink-card {
+            background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+            border: 1.5px solid #ddd6fe;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2.5rem 0;
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSY%20Radio." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<!-- Sticky Top Navigation Header -->
+<header class="sd-sticky-header">
+  <div class="sd-header-inner">
+    <div class="sd-breadcrumbs">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="index.html">Beyond the Screen 🌿</a>
+      <span class="sep">/</span>
+      <span class="current">COSY Radio 📻</span>
+    </div>
+    <nav class="sd-jump-links" aria-label="Page jump links">
+      <a href="#concept" class="sd-jump-link">Concept</a>
+      <a href="#episodes" class="sd-jump-link">Episodes</a>
+      <a href="#source" class="sd-jump-link">Speaking Clubs</a>
+      <a href="#start" class="sd-jump-link">Join</a>
+    </nav>
+  </div>
+</header>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag">📻 COSY Radio</div>
+      <h1>Slow-speech podcasts &amp; <em>live audio streams</em>.</h1>
+      <p class="hero-sub">5–10 minute slow-speech news recaps, idiom breakdowns, and real Speaking Club highlights designed to train your ear without needing to watch a screen.</p>
+
+      <div class="hero-teacher" style="background:#fef3c7; border-color:#f59e0b; color:#78350f;">
+        <span>📻 Launching Soon:</span>
+        <span>We are currently recording pilot episodes! Sign up below to get notified when episode #1 streams.</span>
+      </div>
+
+      <div class="hero-ctas" style="margin-top:1.5rem;">
+        <a href="https://wa.me/330766784195?text=Hi!%20Please%20notify%20me%20when%20COSY%20Radio%20launches." class="btn-primary">💬 Notify me on WhatsApp</a>
+        <a href="mailto:cosylanguages@gmail.com?subject=COSY%20Radio%20Launch%20Notification" class="btn-secondary">✉️ Email Notification</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="speak-badge" style="background: linear-gradient(135deg, #5b3554, #2c1629);">
+        <span class="sb-label">Audio Immersion Progress</span>
+        <div class="sb-title">From 5-minute podcasts to a live weekly conversation hour.</div>
+        <div class="sb-desc">Phase 1 starts with slow-speech podcast episodes. Phase 2 introduces weekly live audio hours. Phase 3 evolves into a 24/7 internet radio stream.</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="page" role="main">
+
+<section id="concept">
+  <span class="sec-tag">🎙️ Audio Roadmap</span>
+  <h2 class="sec-h2">The Evolution of COSY Radio</h2>
+  <p class="sec-p">Building an accessible, natural listening habit for foreign language learners.</p>
+
+  <div class="steps">
+    <div class="step reveal step-1">
+      <div class="step-num">1</div>
+      <h3>🎙️ Phase 1: Slow-Speech Podcasts</h3>
+      <p>5–10 minute digestible episodes: Word of the Day, slow-speech news recaps, and culture breakdowns.</p>
+    </div>
+    <div class="step reveal step-2">
+      <div class="step-num">2</div>
+      <h3>📻 Phase 2: Live Weekly Hour</h3>
+      <p>A live-streamed weekly conversation hour hosted by COSY teachers with guest student call-ins!</p>
+    </div>
+    <div class="step reveal step-3">
+      <div class="step-num">3</div>
+      <h3>📡 Phase 3: 24/7 COSY Stream</h3>
+      <p>A continuous internet radio stream featuring curated music, podcasts, and Speaking Club highlights.</p>
+    </div>
+  </div>
+</section>
+
+<section id="episodes">
+  <span class="sec-tag">🎧 Preview Schedule</span>
+  <h2 class="sec-h2">Upcoming Radio Episodes</h2>
+  <p class="sec-p">Preview of initial episodes currently in production.</p>
+
+  <div class="episode-grid">
+    <div class="episode-card reveal">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+          <span class="ep-badge">⏳ Episode #01</span>
+          <span class="ep-duration">⏱️ 6 min</span>
+        </div>
+        <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;">🇬🇧 English: "Small Talk in the UK"</h3>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>Topic:</strong> Weather, politeness &amp; British humor | <strong>Level:</strong> A2–B1</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Slow-speech breakdown of UK weather vocabulary, how to handle unexpected awkward pauses, and real native dialogue examples.</p>
+      </div>
+      <div class="stub-player">
+        <span>▶ 0:00 / 6:15</span>
+        <span style="font-weight:bold; color:#6b21a8;">[ Coming Soon ]</span>
+      </div>
+    </div>
+
+    <div class="episode-card reveal">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+          <span class="ep-badge">⏳ Episode #02</span>
+          <span class="ep-duration">⏱️ 8 min</span>
+        </div>
+        <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;">🇫🇷 Français: "Le Café &amp; La Boulangerie"</h3>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>Topic:</strong> Ordering pastries &amp; Parisian café etiquette | <strong>Level:</strong> A2–B1</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Listen to authentic bakery exchanges recorded at a slow, clear pace with key vocabulary highlighted for repetition.</p>
+      </div>
+      <div class="stub-player">
+        <span>▶ 0:00 / 8:30</span>
+        <span style="font-weight:bold; color:#6b21a8;">[ Coming Soon ]</span>
+      </div>
+    </div>
+
+    <div class="episode-card reveal">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+          <span class="ep-badge">⏳ Episode #03</span>
+          <span class="ep-duration">⏱️ 7 min</span>
+        </div>
+        <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;">🇮🇹 Italiano: "L'Arte dell'Aperitivo"</h3>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>Topic:</strong> Italian social traditions &amp; food terms | <strong>Level:</strong> A2–B1</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Explore Italian social habits, key cocktail and snack vocabulary, and useful phrases for evening socializing.</p>
+      </div>
+      <div class="stub-player">
+        <span>▶ 0:00 / 7:45</span>
+        <span style="font-weight:bold; color:#6b21a8;">[ Coming Soon ]</span>
+      </div>
+    </div>
+
+    <div class="episode-card reveal">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+          <span class="ep-badge">⏳ Episode #04</span>
+          <span class="ep-duration">⏱️ 9 min</span>
+        </div>
+        <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;">🇷🇺 Русский: "Разговоры за чаем"</h3>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>Topic:</strong> Russian tea culture &amp; idiom stories | <strong>Level:</strong> A2–B1</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Разбор популярных идиом, медленная речь для практики слуха и история традиции чаепития в России.</p>
+      </div>
+      <div class="stub-player">
+        <span>▶ 0:00 / 9:10</span>
+        <span style="font-weight:bold; color:#6b21a8;">[ Coming Soon ]</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="source">
+  <div class="clubs-crosslink-card reveal">
+    <div style="font-size:3rem; line-height:1;">🎉</div>
+    <div style="flex-grow:1;">
+      <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif; color:#4c1d95;">Speaking Clubs — The Source Material for Radio</h3>
+      <p style="margin:0 0 1rem; font-size:0.95rem; color:#5b21b6; line-height:1.5;">Did you know our Speaking Clubs are where COSY Radio content is born? Key discussion questions, vocabulary breakdowns, and teacher recaps from real club sessions become podcast episodes!</p>
+      <a href="../events/index.html" class="btn-primary" style="background:#6b21a8; border-color:#6b21a8;">Explore Live Speaking Clubs &amp; Events →</a>
+    </div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="cta-section reveal">
+    <h2>Want to host an episode or suggest a topic? 🌱</h2>
+    <p>Message us on WhatsApp or Telegram to send podcast requests or ask about contributing to COSY Radio.</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%20have%20a%20suggestion%20for%20COSY%20Radio." class="btn-primary">💬 WhatsApp</a>
+      <a href="https://t.me/cosylanguagesproject" class="btn-secondary">✈️ Telegram</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3>Courses</h3>
+      <a href="../apps/premium-courses/general/">General Course 📖</a>
+      <a href="../apps/premium-courses/spoken/">Spoken Course 🗣️</a>
+      <a href="../apps/premium-courses/exam/">Exam Preparation 📝</a>
+      <a href="../apps/premium-courses/travelling/">Travelling Course ✈️</a>
+      <a href="../apps/premium-courses/professional/">Professional Course 💼</a>
+      <a href="../apps/premium-courses/relocation/">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Explore</h3>
+      <a href="../#languages">Languages 🌍</a>
+      <a href="../practice/index.html">Free Practice 💡</a>
+      <a href="../placement-quiz.html">Placement Quiz 📝</a>
+      <a href="../print-cards.html">Leitner Print Studio 🖨️</a>
+      <a href="../print-zine.html">Foldable Pocket Zines 📖</a>
+      <a href="../print-box.html">Leitner Box Template 📦</a>
+      <a href="../print-boardgame.html">Printable Board Game 🎲</a>
+      <a href="index.html">Hybrid &amp; Community 🌿</a>
+      <a href="../classroom-sync.html">Classroom Synchronizer 🤝</a>
+      <a href="../notebook/index.html">My Notebook 📓</a>
+      <a href="../vocabulary/index.html">Vocabulary Library 📖</a>
+      <a href="../grammar/index.html">Grammar Tables 📐</a>
+      <a href="../events/index.html">Events 🎉</a>
+      <a href="../games/index.html">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 COSYlanguages — All rights reserved</div>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<div id="toast"></div>
+
+</body>
+</html>
