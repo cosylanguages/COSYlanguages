@@ -1,337 +1,240 @@
 # COSYlanguages Master Syllabus & Knowledge Map
 ## COMPLETE A0–A1 ENGLISH VISUAL DICTIONARY & GRAMMAR KNOWLEDGE TREE COURSE
-### Volume 1: The World of English & Complete Beginner Grammar Architecture
+### Volume 1: The World of English, Granular Vocabulary Units & Beginner Grammar Architecture
 
 ---
 
 ## Executive Overview & Architectural System
 
-This master specification defines the definitive knowledge map for the COSYlanguages A0–A1 English Visual Dictionary & Vocabulary Course and the integrated **A0–A1 English Grammar Knowledge Tree**. Standard dictionaries and traditional grammar textbooks isolate words or rules. COSYlanguages structures language learning into a **3-stage pedagogical continuum**:
-1. **Recognition** (Visual visual cues, infographics, auditory mapping)
-2. **Controlled Production** (Substitution tables, sentence frames, micro-dialogues)
-3. **Free Production** (Real-life oral exchanges, functional tasks, communicative speaking)
+This master specification defines the definitive knowledge map for COSYlanguages A0–A1 English language learning.
+Standard dictionaries and traditional coursebooks isolate words or present flat lists. COSYlanguages organizes the entire A0–A1 lexicon and grammar system into **pedagogically calibrated sub-units**.
+
+### Granular Sub-Unit Sub-Division Rules:
+1. **High-Frequency Natural Life Units** (e.g., Daily Routine, Food, House) are systematically divided into contextual sub-units (e.g., *Morning Routine*, *Workday Routine*, *Weekend Routine*; *Breakfast*, *Lunch*, *Dinner*, *Snacks*, *Dining Out*).
+2. **Foundational Primitive Units** (e.g., Primary Colours, Basic Shapes, Cardinal Numbers 0–10) are kept **intentionally unified/monolithic** to prevent over-engineering and preserve A0 cognitive ease.
+3. Every sub-unit provides **Core Nouns**, **Essential Verbs**, **Adjectives**, **Collocations**, **Set Phrases**, **Sentence Frames**, and **Micro-Dialogues**.
 
 ---
 
-# SECTION 1: A0–A1 ENGLISH VISUAL DICTIONARY & VOCABULARY COURSE
+# SECTION 1: A0–A1 ENGLISH VISUAL DICTIONARY & VOCABULARY KNOWLEDGE MAP
+
+---
 
 ## PART 1 — ABOUT ME & PERSONAL IDENTITY
 
 ### UNIT 1: Personal Information & Identification
-- **1.1 First Contact & Introducing Yourself**
-  - **Core Vocabulary:** Name, first name, middle name, last name, surname, family name, full name, nickname, age, birthday, date of birth, nationality, citizenship, country, hometown, city, village, address, postcode/ZIP code, apartment, street, phone number, mobile phone, email address, website, passport, ID card, driver's licence, signature.
-  - **Essential Verbs:** Be, have, live, come from, introduce, spell, write, sign, meet, know, remember, forget.
-  - **Adjectives & Qualifiers:** Young, old, married, single, divorced, friendly, local, foreign, official, personal.
-  - **Collocations:** First name, last name, full name, phone number, email address, home address, date of birth, national ID card, driver's licence, spell your name, fill in a form.
-  - **Set Phrases & Formulaic Language:** What's your name? / My name is... / Nice to meet you. / Where are you from? / I'm from... / I live in... / How old are you? / I'm [25] years old. / Could you spell that, please? / Here is my ID. / What's your phone number?
-  - **Sentence Frames:** `I am + [Name/Nationality]`, `I live in + [City/Country]`, `My phone number is + [Number]`.
-  - **Micro-Dialogue:**
-    - *A:* Hello! What's your name?
-    - *B:* Hi, my name is Emma.
-    - *A:* Nice to meet you, Emma. Where are you from?
-    - *B:* I'm from Canada, but I live in London.
-  - **Grammar Integration:** Present simple of *to be*; possessive adjectives (*my, your, his, her*); Wh- question words (*What, Where, How old*).
-
-- **1.2 Countries, Nationalities & Languages**
-  - **Core Vocabulary:** World, continent, country, capital city, nationality, language, mother tongue, foreign language, native speaker, flag, border, culture.
-  - **Country/Nationality Triads:**
-    - United Kingdom ➔ British ➔ English
-    - United States ➔ American ➔ English
-    - Canada ➔ Canadian ➔ English / French
-    - France ➔ French ➔ French
-    - Germany ➔ German ➔ German
-    - Italy ➔ Italian ➔ Italian
-    - Spain ➔ Spanish ➔ Spanish
-    - Portugal ➔ Portuguese ➔ Portuguese
-    - Greece ➔ Greek ➔ Greek
-    - Japan ➔ Japanese ➔ Japanese
-    - China ➔ Chinese ➔ Mandarin / Chinese
-    - Brazil ➔ Brazilian ➔ Portuguese
-    - Mexico ➔ Mexican ➔ Spanish
-    - Ukraine ➔ Ukrainian ➔ Ukrainian
-  - **Essential Verbs:** Speak, learn, study, teach, translate, understand, repeat, pronounce, practice.
-  - **Set Phrases:** Do you speak English? / I speak a little English. / How do you say [word] in English? / I am learning Italian. / What language do they speak in Switzerland?
-  - **Grammar Integration:** Capitalization rules for nationalities and languages; `speak + [language]` vs `be + from + [country]`.
+- **1.1 First Contact & Basic Greetings**
+  - **Core Vocabulary:** Name, first name, last name, full name, nickname, greeting, hello, hi, morning, afternoon, evening.
+  - **Essential Verbs:** Be, call, spell, say, meet.
+  - **Collocations:** First name, last name, full name, spell your name.
+  - **Set Phrases:** What's your name? / My name is... / I'm... / Nice to meet you. / Good morning! / See you later.
+- **1.2 Personal Details & Contact Info**
+  - **Core Vocabulary:** Age, birthday, date of birth, address, street, house number, postcode/ZIP code, phone number, mobile phone, email address, passport, ID card, signature.
+  - **Essential Verbs:** Live, have, write, sign, fill in.
+  - **Set Phrases:** How old are you? / I'm 25 years old. / What's your email address? / My phone number is...
+- **1.3 Origin, Countries & Languages**
+  - **Core Vocabulary:** Country, city, town, village, capital, nationality, language, flag, native speaker.
+  - **Set Phrases:** Where are you from? / I'm from Canada. / I live in London. / Do you speak English? / I speak a little French.
 
 ---
 
 ### UNIT 2: Family & Relationships
 - **2.1 Immediate Family**
-  - **Core Vocabulary:** Mother, mum/mom, father, dad, parents, brother, sister, son, daughter, baby, child, children, twin, elder brother, younger sister, only child.
-  - **Essential Verbs:** Love, raise, support, help, look like, grow up, live with, take care of.
-  - **Set Phrases:** I have two brothers and one sister. / She is my younger sister. / Are you an only child? / I live with my parents.
-  - **Grammar Integration:** Possessive *'s* (*My mother's name is Sarah*); plural nouns (*child ➔ children*).
-
+  - **Core Vocabulary:** Mother, mum/mom, father, dad, parents, brother, sister, son, daughter, baby, child, children, twin, only child.
+  - **Set Phrases:** I have a brother and two sisters. / She lives with her parents. / How many children do you have?
 - **2.2 Extended Family & In-Laws**
-  - **Core Vocabulary:** Grandmother, grandfather, grandparents, uncle, aunt, cousin, nephew, niece, grandson, granddaughter, stepmother, stepfather, stepbrother, stepsister, mother-in-law, father-in-law, brother-in-law, sister-in-law, relative.
-  - **Collocations:** Close relative, distant relative, extended family, family member, family tree, family reunion, family dinner.
-  - **Set Phrases:** We visit my grandparents every weekend. / This is my uncle on my mother's side.
-
+  - **Core Vocabulary:** Grandmother, grandfather, grandparents, uncle, aunt, cousin, nephew, niece, grandson, granddaughter, mother-in-law, father-in-law, brother-in-law, sister-in-law, relative.
+  - **Collocations:** Close relative, family member, family photo, family dinner.
 - **2.3 Relationships & Marital Status**
-  - **Core Vocabulary:** Boyfriend, girlfriend, partner, husband, wife, fiancé, fiancée, couple, friend, best friend, neighbour, colleague, classmate, roommate.
-  - **Status Adjectives:** Single, married, engaged, divorced, separated, widowed.
-  - **Essential Verbs:** Meet, get married, get divorced, live together, fall in love, hang out with, stay in touch.
+  - **Core Vocabulary:** Friend, best friend, neighbour, colleague, roommate, partner, boyfriend, girlfriend, husband, wife, couple.
+  - **Status Adjectives:** Single, married, divorced, separated.
+  - **Set Phrases:** We are married. / He is my best friend. / Meet my colleague, Alex.
 
 ---
 
 ### UNIT 3: The Human Body & Physical Appearance
-- **3.1 The Head & Face**
-  - **Core Vocabulary:** Head, hair, face, forehead, temple, eyebrow, eyelash, eye, pupil, nose, nostril, cheek, mouth, lip, tongue, tooth, teeth, chin, jaw, ear, neck, throat.
-  - **Action Verbs:** See, look, watch, blink, smile, kiss, hear, listen, bite, chew, taste, laugh, cry, yawn.
-  - **Collocations:** Blue eyes, dark eyes, open your mouth, close your eyes, brush your teeth, wash your face, smile at someone.
-
+- **3.1 Face & Facial Expressions**
+  - **Core Vocabulary:** Face, forehead, eyebrow, eyelash, eye, pupil, nose, nostril, cheek, mouth, lip, tongue, tooth, teeth, chin, jaw, ear, neck.
+  - **Essential Verbs:** See, look, watch, blink, smile, laugh, cry, kiss, bite, chew.
 - **3.2 Hair & Hairstyles**
-  - **Core Vocabulary:** Hair, haircut, hair type, hairdresser, salon, shampoo, comb, brush, hairband.
-  - **Hair Adjectives:** Straight, curly, wavy, short, long, medium-length, blond, brown, black, red, grey, white, bald.
-  - **Facial Hair & Styles:** Beard, moustache, ponytail, fringe/bangs, braid, bun.
-  - **Set Phrases:** He has short curly hair. / She has long blond hair and blue eyes. / I need a haircut.
-
-- **3.3 Upper & Lower Body**
-  - **Core Vocabulary:** Shoulder, chest, back, waist, hip, arm, elbow, wrist, hand, palm, finger, thumb, index finger, middle finger, ring finger, little finger, nail, leg, thigh, knee, calf, ankle, heel, foot, feet, toe, toenail.
-  - **Internal Organs & System (Basic):** Heart, brain, lungs, stomach, liver, blood, bone, muscle, skin.
-  - **Body Movement Verbs:** Touch, hold, carry, lift, throw, catch, kick, clap, wave, point, bend, stretch, sit, stand, walk, run, jump.
-  - **Set Phrases:** Raise your hand. / Shake hands. / Hold my hand. / Wash your hands before eating. / My back hurts.
-
----
-
-### UNIT 4: Feelings, Emotions & Health
-- **4.1 Everyday Emotions & Mental States**
-  - **Core Vocabulary:** Happiness, sadness, anger, fear, surprise, excitement, stress, fatigue, boredom.
-  - **Adjectives:** Happy, sad, angry, annoyed, worried, anxious, surprised, excited, bored, tired, exhausted, relaxed, calm, hungry, thirsty, scared.
-  - **Set Phrases:** How are you feeling today? / I'm feeling very tired. / Don't be worried! / I am excited about the trip. / Are you hungry?
-
-- **4.2 Health, Illness & Medical Care**
-  - **Core Vocabulary:** Health, illness, disease, pain, headache, toothache, stomach ache, backache, sore throat, cough, fever, temperature, cold, flu, allergy, medicine, pill, syrup, prescription, doctor, nurse, patient, hospital, clinic, pharmacy, ambulance.
-  - **Verbs:** Feel ill, cough, sneeze, bleed, hurt, recover, rest, take medicine, visit the doctor, call an ambulance.
-  - **Set Phrases:** I have a bad headache. / My throat is sore. / You should stay in bed. / I need to see a doctor. / Where is the nearest pharmacy?
-  - **Grammar Integration:** Uncountable/Countable pain structures (*I have a headache* vs *I have pain in my arm*); `avoir mal à` equivalents (`I have a sore...` / `My ... hurts`).
+  - **Core Vocabulary:** Hair, haircut, salon, hairdresser, beard, moustache, ponytail, fringe/bangs.
+  - **Adjectives:** Straight, curly, wavy, short, long, blond, brown, black, red, grey, bald.
+  - **Set Phrases:** She has long curly blond hair. / He wears a beard. / I need a haircut.
+- **3.3 Upper & Lower Body Parts**
+  - **Core Vocabulary:** Head, shoulder, chest, back, waist, hip, arm, elbow, wrist, hand, palm, finger, thumb, leg, thigh, knee, ankle, heel, foot, feet, toe.
+  - **Verbs:** Touch, hold, carry, lift, throw, catch, kick, clap, wave, point, stand, sit, walk, run, jump.
+- **3.4 Health, Illness & Body Pain**
+  - **Core Vocabulary:** Health, illness, cold, flu, fever, cough, headache, toothache, stomach ache, sore throat, pain, medicine, pill, doctor, nurse, pharmacy, hospital.
+  - **Set Phrases:** I feel sick. / I have a bad headache. / My back hurts. / You should stay in bed.
 
 ---
 
 ## PART 2 — CLOTHES & PERSONAL BELONGINGS
 
-### UNIT 5: Clothing & Fashion
-- **5.1 Everyday & Formal Clothing**
-  - **Core Vocabulary:** Clothes, shirt, T-shirt, polo shirt, blouse, sweater/jumper, hoodie, jacket, coat, raincoat, suit, dress, skirt, trousers/pants, jeans, shorts, tracksuit, pajamas, underwear, socks.
-  - **Footwear:** Shoes, boots, trainers/sneakers, sandals, high heels, slippers.
-  - **Accessories & Jewellery:** Hat, cap, beanie, scarf, gloves, belt, tie, glasses, sunglasses, watch, ring, necklace, bracelet, earrings, wallet, purse, handbag, backpack, umbrella.
-  - **Clothing Action Verbs:** Wear, put on, take off, try on, change, wash, iron, fit, suit, match.
-  - **Collocations:** Wear a coat, put on your shoes, try on a dress, take off your hat, a pair of trousers, a pair of shoes.
-  - **Set Phrases:** What are you wearing today? / I am wearing jeans and a T-shirt. / Does this shirt fit me? / Where is the fitting room?
+### UNIT 4: Everyday & Seasonal Clothing
+- **4.1 Everyday Upper & Lower Body Clothes**
+  - **Core Vocabulary:** Shirt, T-shirt, polo shirt, blouse, sweater/jumper, hoodie, jacket, coat, trousers/pants, jeans, shorts, skirt, dress.
+- **4.2 Footwear & Socks**
+  - **Core Vocabulary:** Shoes, boots, trainers/sneakers, sandals, slippers, high heels, socks.
+- **4.3 Winter & Summer Weather Gear**
+  - **Core Vocabulary:** Raincoat, winter coat, scarf, gloves, mittens, beanie, sun hat, cap, swimsuit, swimming trunks, sunglasses, umbrella.
+- **4.4 Accessories, Jewellery & Bags**
+  - **Core Vocabulary:** Belt, tie, watch, ring, necklace, bracelet, earrings, wallet, purse, handbag, backpack, suitcase.
+- **4.5 Dressing Actions & Fitting Room**
+  - **Verbs & Collocations:** Wear, put on, take off, try on, change, wash, iron, fit, suit, match.
+  - **Set Phrases:** Where is the fitting room? / What size is this? / It fits me well. / Put on your coat!
 
 ---
 
 ## PART 3 — HOME & EVERYDAY LIVING
 
-### UNIT 6: The House & Apartment Building
-- **6.1 Building Structure & Exterior**
-  - **Core Vocabulary:** House, cottage, apartment/flat, block of flats, skyscraper, floor/storey, ground floor, first floor, top floor, roof, chimney, wall, door, front door, bell, window, balcony, terrace, garden, lawn, yard, garage, driveway, fence, gate, stairs, lift/elevator, entrance, exit.
-  - **Verbs:** Live, move, rent, buy, sell, build, lock, unlock, open, close.
-  - **Set Phrases:** I live on the second floor. / Is there a lift in the building? / Lock the front door, please.
-
-- **6.2 Rooms & Interior Layout**
-  - **Core Vocabulary:** Room, living room, bedroom, bathroom, kitchen, dining room, hallway, corridor, study/office, basement, attic, utility room, store room.
-  - **Structural Prepositions of Place:** In, on, under, next to, between, behind, in front of, opposite, inside, outside, above, below, on the left, on the right, in the corner.
+### UNIT 5: Housing & Exterior
+- **5.1 House vs. Apartment Building**
+  - **Core Vocabulary:** House, cottage, flat/apartment, block of flats, floor, storey, ground floor, top floor, balcony, terrace, roof, door, window.
+- **5.2 Garden, Yard & Garage**
+  - **Core Vocabulary:** Garden, yard, lawn, fence, gate, garage, driveway, mailbox, plants, flowers.
 
 ---
 
-### UNIT 7: Living Room & Bedroom
-- **7.1 Living Room Furniture & Décor**
-  - **Core Vocabulary:** Sofa/couch, armchair, coffee table, TV stand, television, bookshelf, bookcase, fireplace, rug, carpet, curtain, cushion, painting, poster, plant, lamp, light switch, socket.
-
-- **7.2 Bedroom & Sleep Routine**
-  - **Core Vocabulary:** Bed, double bed, single bed, mattress, pillow, pillowcase, sheet, blanket, duvet, duvet cover, wardrobe, chest of drawers, bedside table, alarm clock, mirror, hanger.
-  - **Sleep Verbs:** Go to bed, fall asleep, sleep, dream, wake up, get up, make the bed, turn off the light.
-
----
-
-### UNIT 8: Kitchen & Bathroom
-- **8.1 Kitchen Appliances & Cooking Tools**
-  - **Core Vocabulary:** Kitchen, fridge/refrigerator, freezer, cooker/stove, oven, microwave, dishwasher, toaster, kettle, blender, sink, tap, cupboard, drawer, countertop, bin.
-  - **Utensils & Tableware:** Plate, bowl, cup, mug, glass, knife, fork, spoon, teaspoon, chopstick, frying pan, saucepan, kettle, cutting board, tray, napkin.
-
-- **8.2 Bathroom & Personal Hygiene**
-  - **Core Vocabulary:** Bathroom, toilet, sink/basin, bathtub, shower, mirror, towel, towel rail, soap, liquid soap, shampoo, conditioner, shower gel, toothbrush, toothpaste, mouthwash, razor, shaving cream, comb, hairdryer, toilet paper.
-  - **Hygiene Action Verbs:** Take a shower, have a bath, wash your hands, brush your teeth, comb your hair, dry your hair, shave.
+### UNIT 6: Inside the Home (Room by Room)
+- **6.1 Living Room & Relaxation Area**
+  - **Core Vocabulary:** Sofa/couch, armchair, coffee table, TV stand, television, bookshelf, bookcase, rug, carpet, curtain, lamp, painting, cushion.
+- **6.2 Bedroom & Sleep Essentials**
+  - **Core Vocabulary:** Bed, double bed, single bed, mattress, pillow, blanket, duvet, sheet, wardrobe, chest of drawers, bedside table, alarm clock, mirror.
+- **6.3 Kitchen Appliances & Storage**
+  - **Core Vocabulary:** Kitchen, fridge/refrigerator, freezer, cooker/stove, oven, microwave, dishwasher, kettle, toaster, sink, tap, cupboard, drawer, countertop, bin.
+- **6.4 Kitchen Tableware & Utensils**
+  - **Core Vocabulary:** Plate, bowl, cup, mug, glass, knife, fork, spoon, teaspoon, frying pan, saucepan, cutting board.
+- **6.5 Bathroom & Hygiene Tools**
+  - **Core Vocabulary:** Bathroom, toilet, sink, bathtub, shower, mirror, towel, soap, shampoo, toothbrush, toothpaste, hairdryer, razor, toilet paper.
 
 ---
 
 ## PART 4 — FOOD, DRINK & GASTRONOMY
 
-### UNIT 9: Food Categories & Ingredients
-- **9.1 Fruits & Vegetables**
-  - **Fruits:** Apple, banana, orange, lemon, lime, strawberry, raspberry, blueberry, grape, peach, pear, plum, pineapple, watermelon, melon, kiwi, mango, avocado.
-  - **Vegetables:** Potato, tomato, onion, garlic, carrot, cucumber, lettuce, spinach, broccoli, cauliflower, cabbage, pepper, mushroom, zucchini, pea, bean, corn.
-
-- **9.2 Meat, Fish & Seafood**
-  - **Meat & Poultry:** Meat, beef, pork, lamb, chicken, turkey, duck, ham, bacon, sausage, steak, minced meat.
-  - **Fish & Seafood:** Fish, salmon, tuna, trout, cod, seafood, prawn/shrimp, crab, lobster, mussel, squid.
-
-- **9.3 Dairy, Bakery & Pantry Staples**
-  - **Dairy & Eggs:** Milk, butter, cheese, yoghurt, cream, sour cream, ice cream, egg, egg yolk, egg white.
-  - **Bakery & Grains:** Bread, white bread, brown bread, baguette, roll, toast, croissant, flour, rice, pasta, noodles, cereal, oats.
-  - **Spices, Oils & Condiments:** Salt, black pepper, sugar, olive oil, vegetable oil, vinegar, mustard, ketchup, mayonnaise, soy sauce, honey, jam.
+### UNIT 7: Food Categories
+- **7.1 Fruits & Berries**
+  - **Core Vocabulary:** Apple, banana, orange, lemon, lime, strawberry, raspberry, blueberry, grape, peach, pear, watermelon, pineapple, kiwi, mango.
+- **7.2 Vegetables & Herbs**
+  - **Core Vocabulary:** Potato, tomato, onion, garlic, carrot, cucumber, lettuce, spinach, broccoli, pepper, mushroom, bean, pea, corn.
+- **7.3 Meat, Poultry & Seafood**
+  - **Core Vocabulary:** Meat, beef, pork, lamb, chicken, turkey, bacon, sausage, steak, fish, salmon, tuna, prawn/shrimp.
+- **7.4 Dairy, Eggs & Bakery**
+  - **Core Vocabulary:** Milk, butter, cheese, yoghurt, cream, ice cream, egg, bread, toast, croissant, baguette, roll, cake, pie, cookie.
+- **7.5 Pantry Staples & Condiments**
+  - **Core Vocabulary:** Rice, pasta, flour, sugar, salt, pepper, olive oil, vinegar, ketchup, mustard, mayonnaise, honey, jam.
 
 ---
 
-### UNIT 10: Meals, Cooking & Restaurants
-- **10.1 Meals & Taste Descriptions**
-  - **Meals:** Breakfast, lunch, dinner, supper, snack, dessert.
-  - **Taste & Texture Adjectives:** Sweet, salty, bitter, sour, spicy/hot, mild, delicious, tasty, fresh, stale, raw, cooked, fried, grilled, baked, boiled, roasted, healthy, unhealthy.
-
-- **10.2 Restaurant & Cafe Vocabulary**
-  - **Core Vocabulary:** Restaurant, cafe, bakery, menu, wine list, waiter, waitress, chef, customer, table, reservation, order, bill/check, tip, cash, card.
-  - **Set Phrases:** A table for two, please. / Can I see the menu? / I would like to order... / Is this dish spicy? / Could we have the bill, please? / Keep the change.
+### UNIT 8: Meals, Cooking & Eating Out
+- **8.1 Breakfast Routine**
+  - **Core Vocabulary:** Breakfast, cereal, oatmeal, toast with jam, fried egg, coffee, tea, orange juice.
+  - **Set Phrases:** What do you have for breakfast? / I usually drink coffee and eat toast.
+- **8.2 Lunch & Dinner Meals**
+  - **Core Vocabulary:** Lunch, dinner, supper, soup, salad, sandwich, pasta, steak, side dish, dessert.
+- **8.3 Snacks & Drinks**
+  - **Core Vocabulary:** Snack, nuts, crisps/chips, chocolate, fruit, water, still water, sparkling water, juice, soda, coffee, tea, milk.
+- **8.4 Cooking Verbs & Tastes**
+  - **Action Verbs:** Cook, bake, boil, fry, grill, roast, chop, slice, mix, pour, peel.
+  - **Taste Adjectives:** Sweet, salty, sour, bitter, spicy, hot, cold, delicious, fresh.
+- **8.5 Restaurant & Cafe Dining**
+  - **Core Vocabulary:** Restaurant, cafe, menu, waiter, waitress, customer, bill/check, tip, reservation.
+  - **Set Phrases:** A table for two, please. / Can I have the menu? / I would like... / Could we have the bill, please?
 
 ---
 
 ## PART 5 — DAILY ROUTINE, TIME & CALENDAR
 
-### UNIT 11: Daily Routine & Time
-- **11.1 Morning to Evening Routine**
-  - **Verbs:** Wake up, get up, take a shower, brush teeth, get dressed, comb hair, make breakfast, eat breakfast, drink coffee, leave home, go to work/school, commute, arrive at work, start work, have lunch, finish work, get home, cook dinner, watch TV, read a book, go to sleep.
+### UNIT 9: Daily Routines (Contextual Progression)
+- **9.1 Morning Routine**
+  - **Core Vocabulary & Verbs:** Wake up, get up, turn off the alarm, make the bed, go to the bathroom, wash face, brush teeth, take a shower, shave, get dressed, make breakfast, eat breakfast, drink coffee/tea, pack bag, leave home.
+- **9.2 Commute & Working / School Day Routine**
+  - **Core Vocabulary & Verbs:** Leave the house, catch the bus/train, drive to work, arrive at work/school, start work, check emails, attend meetings, study, have a lunch break, finish work, commute back home.
+- **9.3 Evening & Night Routine**
+  - **Core Vocabulary & Verbs:** Get home, relax, take off shoes, change clothes, cook dinner, eat dinner, wash dishes, watch TV, read a book, take a bath, put on pajamas, go to bed, fall asleep.
+- **9.4 Workday vs. Weekend Routines**
+  - **Core Vocabulary & Verbs:** Workday, weekday, weekend, day off, sleep in, go for a walk, meet friends, do housework, do laundry, clean the house, relax.
 
-- **11.2 Clock Time, Days & Months**
-  - **Clock Time:** O'clock, half past, quarter past, quarter to, minute, second, hour, morning, afternoon, evening, night, midnight, noon.
-  - **Days of the Week:** Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, weekday, weekend.
-  - **Months of the Year:** January, February, March, April, May, June, July, August, September, October, November, December.
+---
+
+### UNIT 10: Time, Days, Months & Seasons
+- **10.1 Clock Time & Parts of the Day**
+  - **Core Vocabulary:** Clock, watch, hour, minute, second, o'clock, half past, quarter past, quarter to, morning, afternoon, evening, night, midnight, noon.
+- **10.2 Days of the Week & Weekend**
+  - **Core Vocabulary:** Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, weekday, weekend.
+- **10.3 Months, Seasons & Dates**
+  - **Months:** January to December.
   - **Seasons:** Spring, summer, autumn/fall, winter.
-  - **Time Expressions:** Today, yesterday, tomorrow, now, later, early, late, always, usually, often, sometimes, rarely, never.
+  - **Dates & Years:** Ordinal numbers for dates (*15th of May*), years (*2026*).
 
 ---
 
-## PART 6 — CITY, TRANSPORTATION & TRAVEL
+## PART 6 — CITY, TRANSPORT & TRAVEL
 
-### UNIT 12: City Life & Places
-- **12.1 Urban Buildings & Infrastructure**
-  - **Core Vocabulary:** City, town, village, street, avenue, road, square, park, bridge, building, skyscraper, shop/store, supermarket, shopping centre/mall, market, bakery, butcher, pharmacy, bank, post office, police station, fire station, hospital, library, museum, cinema, theatre, hotel, restaurant, church, school, university.
-
----
-
-### UNIT 13: Transport & Travel
-- **13.1 Means of Transport**
-  - **Core Vocabulary:** Car, bus, coach, train, metro/subway, tram, taxi, bicycle/bike, motorbike, scooter, plane, boat, ship, ferry.
-
-- **13.2 Travel Infrastructure & Documents**
-  - **Core Vocabulary:** Station, train station, bus stop, airport, terminal, platform, ticket office, ticket, single ticket, return ticket, passport, visa, luggage/baggage, suitcase, handbag, boarding pass, delay, flight, journey, trip.
-  - **Action Verbs:** Travel, depart, arrive, catch, miss, book, check in, board, land, drive, ride, fly.
-  - **Set Phrases:** Where is the bus stop? / Two tickets to London, please. / What time does the train leave? / Is there a delay?
+### UNIT 11: City Infrastructure & Places
+- **11.1 Shops & Shopping Places**
+  - **Core Vocabulary:** Shop, store, supermarket, shopping mall, bakery, butcher, pharmacy, market, clothing store, bookshop.
+- **11.2 Public Services & Institutions**
+  - **Core Vocabulary:** Bank, post office, police station, fire station, hospital, clinic, library, school, university, town hall.
+- **11.3 Entertainment & Leisure Places**
+  - **Core Vocabulary:** Park, square, cinema, theatre, museum, art gallery, restaurant, cafe, gym, swimming pool, stadium, zoo.
 
 ---
 
-## PART 7 — SCHOOL, WORK & TECHNOLOGY
-
-### UNIT 14: School & Education
-- **14.1 Classroom & Objects**
-  - **Core Vocabulary:** Classroom, desk, chair, board/whiteboard, marker, eraser, book, textbook, notebook, pencil, pen, ruler, scissors, glue, eraser/rubber, pencil case, backpack, computer.
-
-- **14.2 School Subjects & Activities**
-  - **Core Vocabulary:** Mathematics/maths, science, English, history, geography, art, music, physical education (PE), biology, chemistry, physics.
-  - **Action Verbs:** Read, write, listen, speak, learn, study, teach, ask, answer, calculate, draw, paint, pass an exam, fail an exam.
+### UNIT 12: Transport & Travel
+- **12.1 Means of Transport**
+  - **Core Vocabulary:** Car, bus, coach, train, metro/subway, tram, taxi, bicycle, motorbike, plane, boat, ship, ferry.
+- **12.2 Travel Infrastructure & Tickets**
+  - **Core Vocabulary:** Station, train station, bus stop, airport, terminal, platform, ticket office, ticket, single ticket, return ticket, boarding pass, luggage, suitcase, delay.
+  - **Set Phrases:** Where is the ticket office? / One return ticket to London, please. / What time does the train arrive?
 
 ---
 
-### UNIT 15: Work & Office
-- **15.1 Professions & Workplace**
-  - **Professions:** Teacher, doctor, nurse, engineer, manager, programmer, designer, accountant, lawyer, secretary, driver, waiter, chef, police officer, firefighter, shop assistant.
-  - **Office Objects & Tech:** Office, desk, laptop, computer, keyboard, mouse, monitor, printer, scanner, paper, document, file, folder, notebook, pen, telephone.
-  - **Work Verbs:** Work, manage, organize, type, print, send an email, call, attend a meeting, sign a contract, earn a salary.
+## PART 13 — SCHOOL, WORK & DIGITAL TECHNOLOGY
+
+### UNIT 13: Education, Work & Digital Devices
+- **13.1 School & Classroom Objects**
+  - **Core Vocabulary:** School, classroom, desk, chair, board, marker, book, notebook, pen, pencil, ruler, scissors, backpack.
+- **13.2 Professions & Workplace**
+  - **Core Vocabulary:** Teacher, doctor, nurse, engineer, manager, office, desk, computer, meeting, email, salary.
+- **13.3 Digital World & Devices**
+  - **Core Vocabulary:** Phone, smartphone, laptop, tablet, screen, keyboard, mouse, Wi-Fi, internet, app, password.
 
 ---
 
-### UNIT 16: Technology & Digital World
-- **16.1 Digital Devices & Software**
-  - **Core Vocabulary:** Phone, smartphone, tablet, laptop, computer, screen, keyboard, mouse, headphones, charger, battery, Wi-Fi, internet, website, app, password, email, message, social media, link, video call.
-  - **Tech Verbs:** Turn on, turn off, click, type, send, receive, download, upload, save, delete, charge, search online.
+## PART 14 — NATURE, WEATHER & ANIMALS
+
+### UNIT 14: Nature, Environment & Animals
+- **14.1 Natural Landscapes & Weather**
+  - **Core Vocabulary:** Sun, moon, star, sky, mountain, forest, river, lake, sea, beach, rain, snow, wind, cloud, temperature.
+- **14.2 Animals (Domestic & Wild)**
+  - **Core Vocabulary:** Dog, cat, rabbit, cow, horse, pig, sheep, chicken, lion, tiger, elephant, bear, fish, bird.
 
 ---
 
-## PART 8 — NATURE, WEATHER & ANIMALS
+## PART 15 — HOBBIES, SPORTS & FREE TIME
 
-### UNIT 17: Nature & Geography
-- **17.1 Natural Landscapes & Earth**
-  - **Core Vocabulary:** Nature, earth, sky, sun, moon, star, mountain, hill, valley, forest, wood, jungle, river, lake, sea, ocean, beach, coast, island, desert, field, plant, tree, flower, grass, leaf.
-
-- **17.2 Weather & Climate**
-  - **Core Vocabulary:** Weather, temperature, sun, sunshine, cloud, rain, rainstorm, snow, wind, storm, fog, ice, degree, heat, cold.
-  - **Weather Adjectives:** Sunny, cloudy, rainy, snowy, windy, stormy, foggy, warm, hot, cold, freezing, wet, dry.
+### UNIT 15: Hobbies & Physical Activity
+- **15.1 Hobbies & Leisure**
+  - **Core Vocabulary:** Music, reading, drawing, photography, cooking, gardening, gaming, travelling, shopping.
+- **15.2 Sports & Fitness**
+  - **Core Vocabulary:** Football, basketball, tennis, swimming, running, gym, match, team, ball.
 
 ---
 
-### UNIT 18: Animals & Wildlife
-- **18.1 Domestic & Farm Animals**
-  - **Pets:** Dog, puppy, cat, kitten, rabbit, hamster, goldfish, parrot.
-  - **Farm Animals:** Cow, bull, calf, horse, donkey, sheep, lamb, goat, pig, chicken, rooster, hen, duck, turkey.
+## PART 16 — UNIFIED FOUNDATIONAL PRIMITIVES (MONOLITHIC BY DESIGN)
 
-- **18.2 Wild Animals, Birds & Sea Life**
-  - **Wild Animals:** Lion, tiger, elephant, bear, wolf, fox, deer, monkey, kangaroo, giraffe, zebra, snake.
-  - **Birds & Sea Life:** Bird, eagle, owl, penguin, fish, shark, whale, dolphin, octopus, crab, turtle.
-  - **Insects:** Fly, mosquito, bee, butterfly, ant, spider.
-
----
-
-## PART 9 — HOBBIES, SPORTS & ENTERTAINMENT
-
-### UNIT 19: Hobbies & Free Time
-- **19.1 Leisure Activities**
-  - **Core Vocabulary:** Music, reading, drawing, painting, photography, cooking, baking, gardening, fishing, camping, travelling, gaming, dancing, singing, shopping.
-  - **Set Phrases:** What are your hobbies? / In my free time, I like reading books. / I enjoy listening to music.
-
----
-
-### UNIT 20: Sports & Physical Exercise
-- **20.1 Popular Sports & Gym**
-  - **Core Vocabulary:** Football/soccer, basketball, volleyball, tennis, table tennis, badminton, golf, rugby, swimming, running, cycling, skiing, gymnastics, yoga, fitness, gym, stadium, pitch, court, pool, match, game, team, ball.
-  - **Sport Action Verbs:** Play, run, jump, swim, throw, catch, kick, hit, win, lose, score a goal.
-
----
-
-## PART 10 — NUMBERS, COLOURS, SHAPES & CORE GRAMMAR VISUALS
-
-### UNIT 21: Numbers & Mathematics
-- **21.1 Cardinal & Ordinal Numbers**
-  - **0–20:** Zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty.
-  - **Tens & Hundreds:** Thirty, forty, fifty, sixty, seventy, eighty, ninety, one hundred, two hundred, one thousand, one million.
-  - **Ordinals:** First (1st), second (2nd), third (3rd), fourth (4th), fifth (5th), tenth (10th), twentieth (20th).
-
----
-
-### UNIT 22: Colours & Shapes
-- **22.1 Colours**
-  - **Primary & Secondary:** Red, blue, yellow, green, orange, purple, pink, brown, black, white, grey, gold, silver.
-  - **Shades:** Light blue, dark green, bright red.
-
-- **22.2 Shapes & Geometry**
-  - **Core Shapes:** Circle, square, triangle, rectangle, oval, heart, star, diamond, cube, sphere, cylinder, cone.
-
----
-
-### UNIT 23: Opposites & High-Frequency Adjectives
-- **Key Pairs:** Big/small, long/short, tall/short, hot/cold, fast/slow, easy/difficult, clean/dirty, heavy/light, full/empty, expensive/cheap, beautiful/ugly, young/old, happy/sad, good/bad, open/closed, right/wrong, early/late.
-
----
-
-### UNIT 24: Core Prepositions of Place & Movement
-- **Spatial Markers:** On, under, in, next to, between, behind, in front of, above, below, inside, outside, left, right, straight ahead, near, far.
-
----
-
-### UNIT 25: Master Action Verbs Index (150 Essential Verbs)
-- **Movement:** Walk, run, jump, climb, swim, fly, drive, ride, fall, stand, sit, dance.
-- **Communication:** Speak, talk, listen, hear, say, tell, ask, answer, write, read, call, shout, whisper.
-- **Daily Actions:** Eat, drink, cook, wash, clean, buy, pay, open, close, turn on, turn off, sleep, wake up, work, study.
-- **Cognition & Feelings:** Think, know, understand, remember, forget, love, like, hate, prefer, want, need.
+### UNIT 16: Primitive Core Boards
+- **16.1 Numbers 0–20, Tens, Hundreds & Thousands**
+  - *Unified single-board reference for cognitive simplicity at A0 level.*
+- **16.2 Colours & Shades**
+  - *Unified visual color palette board.*
+- **16.3 Geometry & Basic Shapes**
+  - *Circle, square, triangle, rectangle, oval, heart, star, cube, sphere.*
 
 ---
 
 # SECTION 2: COSYlanguages COMPLETE ENGLISH GRAMMAR A0–A1 (GRAMMAR KNOWLEDGE TREE)
-
-### Estimated Scope:
-- **28 Parts**
-- **220 Grammar Units**
-- **1,500+ Examples**
-- **500+ Mini Dialogues**
-- **Grammar maps, Visual infographics, Substitution tables, Common mistake callouts, and Oral production frames**
 
 ---
 
@@ -393,198 +296,44 @@ This master specification defines the definitive knowledge map for the COSYlangu
 ---
 
 ## PART 4 — PRONOUNS
-- **Personal Subject Pronouns:** *I, you, he, she, it, we, they*.
-- **Personal Object Pronouns:** *me, you, him, her, it, us, them*.
-- **Possessive Adjectives:** *my, your, his, her, its, our, their*.
-- **Possessive Pronouns:** *mine, yours, his, hers, ours, theirs*.
-- **Reflexive Pronouns (Basic):** *myself, yourself, himself, herself, itself, ourselves, yourselves, themselves*.
-- **Demonstratives:** *this, that, these, those* (Near vs. Far, Singular vs. Plural).
-- **Indefinite Pronouns:** *someone/somebody, something, somewhere, anyone/anybody, anything, anywhere, no one/nobody, nothing, nowhere, everyone/everybody, everything, everywhere*.
-- **Question Pronouns:** *who, what, which, whose, where, when, why, how*.
+- **UNIT 16: Personal Subject Pronouns** (*I, you, he, she, it, we, they*).
+- **UNIT 17: Personal Object Pronouns** (*me, you, him, her, it, us, them*).
+- **UNIT 18: Possessive Adjectives & Pronouns** (*my/mine, your/yours, his/his, her/hers, our/ours, their/theirs*).
+- **UNIT 19: Reflexive & Demonstrative Pronouns** (*myself, yourself; this, that, these, those*).
+- **UNIT 20: Indefinite & Question Pronouns** (*someone, anything, nowhere; who, what, which, whose*).
 
 ---
 
 ## PART 5 — ADJECTIVES & COMPARISONS
-- **Types of Adjectives:** Opinion, Size, Age, Shape, Colour, Origin, Material, Purpose.
-- **Order of Adjectives:** `Opinion ➔ Size ➔ Age ➔ Shape ➔ Colour ➔ Origin ➔ Material ➔ Noun` (*a lovely small old round brown wooden table*).
-- **Comparative Adjectives:** Short adjectives (`-er than`) vs. Long adjectives (`more + adj + than`). Irregulars: *good ➔ better, bad ➔ worse, far ➔ further*.
-- **Superlative Adjectives:** Short adjectives (`the -est`) vs. Long adjectives (`the most + adj`). Irregulars: *the best, the worst, the furthest*.
-- **Structures of Equality & Intensity:** *as... as*, *too + adj*, *not + adj + enough*, *adj + enough*.
+- **UNIT 21: Adjective Order & Descriptive Categories** (*Opinion, Size, Age, Shape, Colour, Origin, Material*).
+- **UNIT 22: Comparatives & Superlatives** (*-er than / more than; the -est / the most; as... as*).
 
 ---
 
 ## PART 6 — ADVERBS
-- **Adverbs of Frequency:** *always, usually, normally, often, sometimes, occasionally, rarely, seldom, never* (Position: before main verb, after *to be*).
-- **Adverbs of Time:** *today, yesterday, tomorrow, now, later, early, late, already, still, yet, soon*.
-- **Adverbs of Place:** *here, there, everywhere, inside, outside, upstairs, downstairs*.
-- **Adverbs of Manner:** Formation with `-ly` (*quick ➔ quickly, careful ➔ carefully*). Irregulars: *fast ➔ fast, hard ➔ hard, good ➔ well*.
-- **Adverbs of Degree:** *very, really, quite, extremely, too, enough*.
+- **UNIT 23: Adverbs of Frequency, Time, Place, Manner & Degree** (*always, yesterday, here, quickly, very*).
 
 ---
 
-## PART 7 — QUANTIFIERS & DETERMINERS
-- *Some* vs. *Any* (Affirmative vs. Negative & Questions).
-- Exceptions for *Some* in requests and offers (*Would you like some tea? Can I have some water?*).
-- *No* vs. *None*.
-- *Much*, *Many*, *A lot of*, *Lots of*.
-- *A few* (Countable) vs. *A little* (Uncountable).
-- *Every*, *Each*, *Both*, *All*, *Another*, *Other*.
+## PART 7 — QUANTIFIERS
+- **UNIT 24: Quantifiers & Determiners** (*some, any, no, much, many, a lot of, a few, a little, each, every, all*).
 
 ---
 
 ## PART 8 — PREPOSITIONS
-- **Prepositions of Time:**
-  - `at`: specific times (*at 5 o'clock, at night, at the weekend, at Christmas*).
-  - `on`: days and dates (*on Monday, on 15th May, on my birthday*).
-  - `in`: months, years, seasons, centuries, parts of the day (*in May, in 2026, in summer, in the morning*).
-  - `before`, `after`, `during`, `until`, `since`, `for`.
-- **Prepositions of Place:** *in, on, at, under, behind, in front of, next to, between, among, opposite, near, inside, outside, above, below, over*.
-- **Prepositions of Movement:** *to, from, into, out of, onto, off, towards, away from, past, through, across, along, round/around*.
+- **UNIT 25: Prepositions of Time, Place & Movement** (*at, on, in, under, behind, next to, to, into, across*).
 
 ---
 
 ## PART 9 — VERB SYSTEM & MODALS
-- **Auxiliary Verbs:** *Be, Have, Do*.
-- **Most Frequent 150 Verbs Classification:** Movement, Communication, Daily Routine, Cognition, Feelings.
-- **Verb Structures:** `verb + noun`, `verb + to + infinitive` (*want to go, need to study*), `verb + -ing` (*like swimming, enjoy reading*).
-- **Modal Verbs (A0–A1 Scope):**
-  - `Can / Can't`: Ability, permission, requests (*I can swim. Can I sit here?*).
-  - `Could`: Polite requests (*Could you help me, please?*).
-  - `Must / Mustn't`: Strong obligation and prohibition (*You must stop. You mustn't smoke here.*).
-  - `Have to / Don't have to`: External obligation and lack of obligation (*I have to go to work. You don't have to pay.*).
-  - `Should / Shouldn't`: Basic advice (*You should see a doctor.*).
-  - `May`: Formal permission (*May I come in?*).
+- **UNIT 26: Verb System & Modal Verbs** (*be, have, do; can, could, must, have to, should, may*).
 
 ---
 
 ## PART 10 — TENSE SYSTEM
-- **Present Simple:**
-  - Positive, negative, questions, short answers.
-  - Third person `-s / -es / -ies` spelling and pronunciation rules (`/s/`, `/z/`, `/ɪz/`).
-  - Signal words & frequency adverbs.
-- **Present Continuous:**
-  - Positive (`am/is/are + -ing`), negative, questions.
-  - Spelling rules for `-ing` (double consonants, dropping `-e`).
-  - Stative verbs non-continuous rule (*like, want, need, know, understand, believe, remember*).
-  - Temporary actions vs. actions happening now.
-- **Past Simple:**
-  - Regular verbs (`-ed` endings: `/t/`, `/d/`, `/ɪd/`).
-  - Top 50 irregular verbs (*be ➔ was/were, go ➔ went, have ➔ had, see ➔ saw, do ➔ did, make ➔ made, take ➔ took, come ➔ came, eat ➔ ate, drink ➔ drank...*).
-  - Negative (`didn't + infinitive`) and questions (`Did you + infinitive?`).
-  - Past time expressions (*yesterday, last night, 2 days ago, in 2020*).
-- **Future Structures:**
-  - `Be going to + infinitive`: Intentions and future plans.
-  - `Present Continuous`: Fixed social/travel arrangements.
-  - `Will / Won't + infinitive`: Spontaneous decisions, promises, and future predictions with *I think / maybe*.
+- **UNIT 27: Present Simple, Present Continuous, Past Simple & Future Forms** (*Present Simple, Present Continuous, Past Simple regular/irregular, Be going to, Will*).
 
 ---
 
-## PART 11 — QUESTION FORMATION
-- **Yes/No Questions:** Auxiliary verb inversion (`Are you...? Do you...? Can you...? Did you...?`).
-- **Wh- Questions:** `Wh- word + auxiliary verb + subject + main verb` (*Where do you live? What did you eat?*).
-- **Question Tags (Recognition):** Positive statement ➔ Negative tag (*It's cold, isn't it? You speak English, don't you?*).
-- **Indirect Questions (Polite Introduction):** *Could you tell me where the station is? / Do you know what time it opens?*
-
----
-
-## PART 12 — NEGATION
-- Full negation system across tenses: *don't, doesn't, didn't, am not, isn't, aren't, wasn't, weren't, can't, won't, haven't got, hasn't got*.
-
----
-
-## PART 13 — IMPERATIVES & INSTRUCTIONS
-- Positive imperatives (*Open your book. Sit down. Turn left.*).
-- Negative imperatives (*Don't touch. Don't worry.*).
-- Softened imperatives with *Please* and *Let's* (*Let's go! Please take a seat.*).
-
----
-
-## PART 14 — THERE IS / THERE ARE
-- Singular (*There is a book on the table*), Plural (*There are two cars*).
-- Uncountable (*There is some milk in the fridge*).
-- Negatives (*There isn't a computer / There aren't any chairs / There is no water*).
-- Questions (*Is there a lift? Are there any shops near here?*).
-
----
-
-## PART 15 — HAVE GOT
-- British English `have got / hasn't got` vs American English `have / don't have` comparison.
-
----
-
-## PART 16 — EXPRESSING LIKES, DISLIKES & PREFERENCES
-- `Like / Love / Enjoy / Hate + -ing`.
-- `Would like to + infinitive` (Offers and requests).
-- `Prefer [X] to [Y]` / `Would rather`.
-
----
-
-## PART 17 — CONJUNCTIONS & LINKING WORDS
-- `and`, `but`, `or`, `because`, `so`, `although` (Basic recognition).
-
----
-
-## PART 18 — TIME EXPRESSIONS & DURATION
-- `every day/week/month`, `once a week`, `twice a month`, `three times a year`, `last night`, `next week`, `ago`, `for`, `since`.
-
----
-
-## PART 19 — BASIC PASSIVE (RECOGNITION)
-- Present simple passive for origin and labels: *is made in [country], is called [name], is spoken in [place]*.
-
----
-
-## PART 20 — BASIC REPORTED SPEECH (RECOGNITION)
-- Reporting statements: *He says that..., She tells me that...*.
-
----
-
-## PART 21 — TOP 50 COMMON PHRASAL VERBS
-- *Get up, sit down, stand up, come in, go out, turn on, turn off, pick up, put down, look for, find out, wake up, take off, put on, come back, go away, look after, fill in, try on, give up...*
-
----
-
-## PART 22 — HIGH-FREQUENCY COLLOCATIONS
-- **Make vs. Do:** *make coffee, make a mistake, make progress, make a decision* vs. *do homework, do housework, do exercise, do research*.
-- **Have, Take, Go, Catch:** *have breakfast, take a shower, go shopping, catch a bus, miss a train, tell a story, say sorry*.
-
----
-
-## PART 23 — FUNCTIONAL ENGLISH MODULES
-- Greetings & Goodbyes
-- Shopping & Paying
-- Restaurants & Cafes
-- Directions & Navigation
-- Hotel Check-in
-- Doctor & Pharmacy
-- Emergency & Asking for Help
-
----
-
-## PART 24 — GRAMMAR FOR SPEAKING & SENTENCE BUILDERS
-- Substitution tables, oral conversation patterns, question frames, and answer frames for immediate fluency.
-
----
-
-## PART 25 — COMMON MISTAKES & DIAGNOSTICS
-- Detailed diagnostic callouts of typical beginner errors (*"I am agree" ➔ "I agree"; "He go" ➔ "He goes"; "I have 20 years" ➔ "I am 20 years old"*).
-
----
-
-## PART 26 — PRONUNCIATION & SPELLING MECHANICS
-- Pronunciation rules for `-ed` past endings (`/t/`, `/d/`, `/ɪd/`) and plural `-s/-es` endings.
-
----
-
-## PART 27 — REVIEW, CONSOLIDATION & GRAMMAR MAPS
-- Visual mindmaps, flowcharts, mixed practice quizzes, speaking challenges, and self-assessment checklists.
-
----
-
-## PART 28 — APPENDICES & MASTER TABLES
-- Core A0–A1 Irregular Verbs List
-- Preposition Combinations Guide
-- Question Word Master Guide
-- Punctuation & Capitalization Rules
-- Contractions Master List (UK/US)
-- CEFR A0–A1 Grammar Mastery Checklist
+## PART 11 — QUESTIONS & NEGATION
+- **UNIT 28: Question Formation & Negation System** (*Yes/No questions, Wh- questions, Question tags, Imperatives, There is/are, Have got*).
