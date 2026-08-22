@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COSYzine 📰 | Printable Language Newspaper — COSYlanguages</title>
-    <meta name="description" content="A printable A2–B1 mini-newspaper & booklet per language. Idioms, short culture articles, comic strips, and reader stories in our Learner Voices column.">
+    <meta name="description" content="A printable A2–B1 mini-newspaper & booklet per language. Idioms, short culture articles, comic strips, competitions, and reader stories in our Learner Voices column.">
     <meta property="og:title" content="COSYzine 📰 | Printable Language Newspaper — COSYlanguages">
-    <meta property="og:description" content="Read, fold, and collect pocket zines in English, French, Italian, Russian, and Greek. Submit your short texts to Learner Voices!">
+    <meta property="og:description" content="Read, fold, and collect pocket zines in English, French, Italian, Russian, and Greek. Submit your short texts to Learner Voices and enter issue competitions!">
     <meta property="og:image" content="../images/logos/cosylanguages.png">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
@@ -59,6 +59,34 @@
             font-size: 1.1rem;
             margin-right: 0.3rem;
         }
+        .comp-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0 1rem;
+        }
+        .comp-card {
+            background: #ffffff;
+            border: 1.5px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+        .comp-card h3 {
+            margin: 0 0 0.5rem;
+            font-family: 'Fraunces', serif;
+            font-size: 1.15rem;
+            color: var(--ink-strong, #1f2937);
+        }
+        .comp-card p {
+            font-size: 0.9rem;
+            color: var(--ink-soft);
+            line-height: 1.45;
+            margin: 0 0 1rem;
+        }
         .submission-box {
             background: linear-gradient(135deg, #fdf6eb, #f9eae1);
             border: 1.5px solid #ebd0be;
@@ -94,6 +122,7 @@
     </div>
     <nav class="sd-jump-links" aria-label="Page jump links">
       <a href="#concept" class="sd-jump-link">Concept</a>
+      <a href="#competitions" class="sd-jump-link">Competitions</a>
       <a href="#issues" class="sd-jump-link">Issues</a>
       <a href="#voices" class="sd-jump-link">Learner Voices</a>
       <a href="#fold" class="sd-jump-link">Fold Format</a>
@@ -109,7 +138,7 @@
       <p class="hero-sub">A2–B1 short stories, idioms, comic strips, seasonal cultural specials, and community submissions folded into an 8-page pocket booklet. Take your reading habit offline.</p>
       <div class="hero-ctas">
         <a href="#issues" class="btn-primary">Browse Issues ↓</a>
-        <a href="#voices" class="btn-secondary">Submit Your Text ✍️</a>
+        <a href="#competitions" class="btn-secondary">Enter Competitions 🏆</a>
       </div>
     </div>
 
@@ -140,20 +169,77 @@
   <div class="steps">
     <div class="step reveal step-1">
       <div class="step-num">1</div>
-      <h3>📰 2-Minute Stories &amp; Idioms</h3>
-      <p>Short cultural vignettes, idiomatic expressions explained in context, and 10 key vocabulary callouts.</p>
+      <h3>📰 Wonder of the Month</h3>
+      <p>This month's writing prompt, borrowed straight from our "I Couldn't Help But Wonder" Speaking Club. Submit your own 100-word "wondering" for a chance to see it printed.</p>
     </div>
     <div class="step reveal step-2">
       <div class="step-num">2</div>
-      <h3>🎨 Visual Comic Strip &amp; Puzzles</h3>
-      <p>Bite-sized visual dialogue comic, crossword or wordsearch puzzle, and a seasonal cultural recipe or song spot.</p>
+      <h3>🕵️ Idiom Detective</h3>
+      <p>A short riddle built from three real idioms in your language. Solve it first, get named in the next issue.</p>
     </div>
     <div class="step reveal step-3">
       <div class="step-num">3</div>
-      <h3>🗣️ Learner Voices Column</h3>
-      <p>Short essays, reflection pieces, and funny language learning anecdotes submitted directly by COSY students!</p>
+      <h3>📐 This Month's Grammar, Decoded</h3>
+      <p>One tricky grammar point per language, explained the way our Conjugation &amp; Gender Engines do: patterns, not rules to memorise.</p>
+    </div>
+    <div class="step reveal step-4">
+      <div class="step-num">4</div>
+      <h3>🚧 False Friend of the Month</h3>
+      <p>One dangerous look-alike word per language pair, illustrated as a tiny comic misunderstanding, so you never make that mistake out loud.</p>
+    </div>
+    <div class="step reveal step-5">
+      <div class="step-num">5</div>
+      <h3>🗣️ Borrowed from the Streets</h3>
+      <p>What people actually say vs. what the textbook says, plus when not to use it.</p>
+    </div>
+    <div class="step reveal step-6">
+      <div class="step-num">6</div>
+      <h3>💌 Reader Mailbag &amp; Learner Voices</h3>
+      <p>Real reactions to last issue, and short submitted stories from students learning right now, printed with light corrections.</p>
     </div>
   </div>
+</section>
+
+<section id="competitions">
+  <span class="sec-tag">🏆 Competitions</span>
+  <h2 class="sec-h2">Something to Win, Every Issue</h2>
+  <p class="sec-p">A magazine you read is nice. A magazine you might appear in is better.</p>
+
+  <div class="comp-grid">
+    <div class="comp-card reveal">
+      <div>
+        <h3>✍️ Wonder Writing Contest</h3>
+        <p>Answer this issue's "I Couldn't Help But Wonder" prompt in 100 words or fewer, in your target language. One winner per level (A2/B1/B2/C1) per language gets published next issue.</p>
+      </div>
+      <a href="mailto:cosylanguages@gmail.com?subject=Wonder%20Writing%20Contest%20Submission" class="btn-secondary" style="font-size:0.85rem; padding:0.5rem 0.8rem; text-align:center;">✉️ Submit Entry</a>
+    </div>
+
+    <div class="comp-card reveal">
+      <div>
+        <h3>🕵️ Idiom Detective</h3>
+        <p>Crack the idiom riddle first and get your name in print, plus a small discount on your next lesson pack.</p>
+      </div>
+      <a href="mailto:cosylanguages@gmail.com?subject=Idiom%20Detective%20Submission" class="btn-secondary" style="font-size:0.85rem; padding:0.5rem 0.8rem; text-align:center;">✉️ Submit Solution</a>
+    </div>
+
+    <div class="comp-card reveal">
+      <div>
+        <h3>📸 COSY Sightings</h3>
+        <p>Spot your language "in the wild" — a menu, a sign, an overheard conversation. Submit a photo and a one-line caption for our "COSY Sightings" column.</p>
+      </div>
+      <a href="mailto:cosylanguages@gmail.com?subject=COSY%20Sightings%20Submission" class="btn-secondary" style="font-size:0.85rem; padding:0.5rem 0.8rem; text-align:center;">✉️ Submit Photo</a>
+    </div>
+
+    <div class="comp-card reveal">
+      <div>
+        <h3>🎨 Cover Art Contest</h3>
+        <p>Draw or doodle next season's zine cover. The winning design gets printed for real, on the actual cover.</p>
+      </div>
+      <a href="mailto:cosylanguages@gmail.com?subject=Cover%20Art%20Contest%20Submission" class="btn-secondary" style="font-size:0.85rem; padding:0.5rem 0.8rem; text-align:center;">✉️ Submit Artwork</a>
+    </div>
+  </div>
+
+  <p style="font-size:0.9rem; color:var(--muted); text-align:center; margin-top:1rem;">Same level, across every language — a Greek A2 learner and a French A2 learner compete on equal footing. Prompts are judged on creativity, not grammar.</p>
 </section>
 
 <section id="issues">
@@ -166,8 +252,9 @@
       <div>
         <span class="issue-badge">⏳ Coming Soon</span>
         <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;"><span class="issue-lang-tag">🇬🇧</span> Issue #1: London Rain &amp; Tea Culture</h3>
-        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> English</p>
-        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Exploring British small talk, weather idioms, a coffee vs. tea dialogue comic, and a student story from our London Speaking Club.</p>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:0.75rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> English</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4; margin-bottom:0.75rem;">Exploring British small talk, weather idioms, a coffee vs. tea dialogue comic, and a student story from our London Speaking Club.</p>
+        <p style="font-size:0.85rem; color:var(--sage-dark, #4b6e51); background:#f2f7f3; padding:0.5rem 0.75rem; border-radius:8px; line-height:1.35; margin:0;"><strong>This issue's Wonder:</strong> "Do raindrops select where to fall?" · <strong>False Friend:</strong> <em>actually</em> vs. <em>actuellement</em>.</p>
       </div>
       <button disabled class="btn-secondary" style="opacity:0.6; cursor:not-allowed; margin-top:1rem; width:100%;">📥 PDF Download (Stub)</button>
     </div>
@@ -176,8 +263,9 @@
       <div>
         <span class="issue-badge">⏳ Coming Soon</span>
         <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;"><span class="issue-lang-tag">🇫🇷</span> Édition #1: Le Café du Matin &amp; Flânerie</h3>
-        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> Français</p>
-        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">The art of Parisian wandering, everyday boulangerie vocabulary, 5 essential French idioms, and a reader submission on learning French in Lyon.</p>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:0.75rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> Français</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4; margin-bottom:0.75rem;">The art of Parisian wandering, everyday boulangerie vocabulary, 5 essential French idioms, and a reader submission on learning French in Lyon.</p>
+        <p style="font-size:0.85rem; color:var(--sage-dark, #4b6e51); background:#f2f7f3; padding:0.5rem 0.75rem; border-radius:8px; line-height:1.35; margin:0;"><strong>Cette édition Wonder:</strong> "Pourquoi court-on après le temps?" · <strong>Faux ami:</strong> <em>envier</em> vs. <em>envy</em>.</p>
       </div>
       <button disabled class="btn-secondary" style="opacity:0.6; cursor:not-allowed; margin-top:1rem; width:100%;">📥 PDF Download (Stub)</button>
     </div>
@@ -186,8 +274,9 @@
       <div>
         <span class="issue-badge">⏳ Coming Soon</span>
         <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;"><span class="issue-lang-tag">🇮🇹</span> Edizione #1: La Dolce Vita &amp; Aperitivo</h3>
-        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> Italiano</p>
-        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Italian gestures decoded, regional food culture, conversational espresso bar prompts, and a learner story on moving to Tuscany.</p>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:0.75rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> Italiano</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4; margin-bottom:0.75rem;">Italian gestures decoded, regional food culture, conversational espresso bar prompts, and a learner story on moving to Tuscany.</p>
+        <p style="font-size:0.85rem; color:var(--sage-dark, #4b6e51); background:#f2f7f3; padding:0.5rem 0.75rem; border-radius:8px; line-height:1.35; margin:0;"><strong>Edizione Wonder:</strong> "Dove vanno i pensieri non detti?" · <strong>Falso amico:</strong> <em>eventualmente</em> vs. <em>eventually</em>.</p>
       </div>
       <button disabled class="btn-secondary" style="opacity:0.6; cursor:not-allowed; margin-top:1rem; width:100%;">📥 PDF Download (Stub)</button>
     </div>
@@ -196,8 +285,9 @@
       <div>
         <span class="issue-badge">⏳ Coming Soon</span>
         <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif;"><span class="issue-lang-tag">🇷🇺</span> Выпуск #1: Уютные вечера и традиции</h3>
-        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> Русский</p>
-        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4;">Чайные традиции, пословицы о дружбе, комикс про путешествие на поезде и история ученика о первом разговоре на русском.</p>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:0.75rem;"><strong>CEFR Level:</strong> A2–B1 | <strong>Language:</strong> Русский</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); line-height:1.4; margin-bottom:0.75rem;">Чайные традиции, пословицы о дружбе, комикс про путешествие на поезде и история ученика о первом разговоре на русском.</p>
+        <p style="font-size:0.85rem; color:var(--sage-dark, #4b6e51); background:#f2f7f3; padding:0.5rem 0.75rem; border-radius:8px; line-height:1.35; margin:0;"><strong>Выпуск Wonder:</strong> "Почему мы помним старые песни?" · <strong>Ложный друг:</strong> <em>магазин</em> vs. <em>magazine</em>.</p>
       </div>
       <button disabled class="btn-secondary" style="opacity:0.6; cursor:not-allowed; margin-top:1rem; width:100%;">📥 PDF Download (Stub)</button>
     </div>
@@ -219,7 +309,7 @@
       </ul>
     </div>
 
-    <a href="mailto:cosylanguages@gmail.com?subject=Learner%20Voices%20COSYzine%20Submission&body=Hi%20COSYlanguages%20Team!%0A%0AI'd%20like%20to%20submit%20a%20short%20text%20for%20the%20Learner%20Voices%20column in%20COSYzine.%0A%0A---%0ALanguage:%20[English%20/%20French%20/%20Italian%20/%20Russian%20/%20Greek]%0AMy%20Name%20/%20Alias:%20[Your%20Name]%0AMy%20Text%20(100-250%20words):%0A[Paste%20your%20story%20here]%0A---" class="btn-primary" style="background:#8c3d1d; border-color:#8c3d1d;">✉️ Email Your Text to cosylanguages@gmail.com</a>
+    <a href="mailto:cosylanguages@gmail.com?subject=Learner%20Voices%20COSYzine%20Submission&body=Hi%20COSYlanguages%20Team!%0A%0AI'd%20like%20to%20submit%20a%20short%20text%20for%20the%20Learner%20Voices%20column%20in%20COSYzine.%0A%0A---%0ALanguage:%20[English%20/%20French%20/%20Italian%20/%20Russian%20/%20Greek]%0AMy%20Name%20/%20Alias:%20[Your%20Name]%0AMy%20Text%20(100-250%20words):%0A[Paste%20your%20story%20here]%0A---" class="btn-primary" style="background:#8c3d1d; border-color:#8c3d1d;">✉️ Email Your Text to cosylanguages@gmail.com</a>
   </div>
 </section>
 
