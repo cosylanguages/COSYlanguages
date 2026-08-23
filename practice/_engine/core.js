@@ -1298,6 +1298,29 @@
         return items.filter(i => i.lang?.toLowerCase() === lang.toLowerCase() && i.nextReview <= now);
     };
 
+    engine.speakText = function(text, lang) {
+        if (!text) return;
+        if (window.gameUtils && typeof window.gameUtils.speak === 'function') {
+            window.gameUtils.speak(text, lang || engine.session?.lang || 'en');
+            return;
+        }
+        if (!window.speechSynthesis) return;
+        window.speechSynthesis.cancel();
+        const msg = new SpeechSynthesisUtterance(text);
+        const langMap = {
+            'en': 'en-GB', 'fr': 'fr-FR', 'it': 'it-IT', 'ru': 'ru-RU', 'el': 'el-GR',
+            'es': 'es-ES', 'de': 'de-DE', 'pt': 'pt-PT'
+        };
+        const targetLang = langMap[lang || engine.session?.lang || 'en'] || 'en-GB';
+        msg.lang = targetLang;
+        const voices = window.speechSynthesis.getVoices();
+        if (voices.length > 0) {
+            const voice = voices.find(v => v.lang === targetLang) || voices.find(v => v.lang.startsWith(targetLang.split('-')[0]));
+            if (voice) msg.voice = voice;
+        }
+        window.speechSynthesis.speak(msg);
+    };
+
     // Expose engine
     window.cosyPracticeEngine = engine;
 

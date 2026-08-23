@@ -320,8 +320,13 @@
             qs = pool.map(item => {
                 const isVocabOrGrammar = (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary');
                 if (isVocabOrGrammar) {
-                    let types = ['mc', 'tf', 'type', 'sc', 'ls', 'mp', 'cloze'];
+                    let types = ['mc', 'tf', 'type', 'sc', 'ls', 'mp', 'cloze', 'dictation'];
                     let type = types[Math.floor(Math.random() * types.length)];
+                    if (type === 'dictation') {
+                        const examplesArr = (item.examples && item.examples.length > 0) ? item.examples : (item.definitions?.[0]?.examples || []);
+                        const hasEx = examplesArr.length > 0 && examplesArr[0]?.text;
+                        if (!hasEx) type = 'ls';
+                    }
 
                     // Guard against missing examples for scramble & cloze questions
                     const hasExamples = Array.isArray(item.examples)

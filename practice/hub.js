@@ -288,16 +288,20 @@
         startMistakeReview() {
             const engine = window.cosyPracticeEngine;
             if (!engine || !engine.state.mistakes || engine.state.mistakes.length === 0) {
-                return alert("No mistakes to review!");
+                const msg = "No mistakes saved yet — well done! Practice new themes to test your skills. 🌟";
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast(msg, false);
+                else alert(msg);
+                return;
             }
             const qs = engine.state.mistakes.map(m => ({
                 type: 'type',
-                q: `Review: "${m.definitions?.[0]?.text || m.word}"`,
+                q: `Review: "${m.definitions?.[0]?.text || m.translation || m.word}"`,
                 item: m,
-                ans: m.word
+                ans: m.word,
+                ruleHint: m.usage_hint || m.collocation || (m.preposition ? `Preposition: ${m.word} ${m.preposition}` : null)
             }));
 
-            window.beginSession('multi', 'Review', 'mixed', 'all', false, qs.slice(0, 10));
+            window.beginSession('multi', 'Remediation', 'mixed', 'all', false, qs.slice(0, 10));
         },
 
         startSRSReview(lang) {
