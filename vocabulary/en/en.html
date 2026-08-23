@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vocabulary Reference — COSYlanguages</title>
+<title>Vocabulary Reference - COSYlanguages</title>
     <!-- English Data Files -->
     <script src="A1/vocabulary.js"></script>
     <script src="A1/animals.js"></script>
@@ -84,22 +84,22 @@
   <div class="sb-section">
     <span class="sb-label">Levels</span>
     <a class="sb-item active" onclick="jumpLevel('A1')">
-      <span class="sb-dot filled dot-a1"></span>A1 — Beginner
+      <span class="sb-dot filled dot-a1"></span>A1 - Beginner
     </a>
     <a class="sb-item" onclick="jumpLevel('A2')">
-      <span class="sb-dot filled dot-a2"></span>A2 — Elementary
+      <span class="sb-dot filled dot-a2"></span>A2 - Elementary
     </a>
     <a class="sb-item" onclick="jumpLevel('B1')">
-      <span class="sb-dot filled dot-b1"></span>B1 — Intermediate
+      <span class="sb-dot filled dot-b1"></span>B1 - Intermediate
     </a>
     <a class="sb-item" onclick="jumpLevel('B2')">
-      <span class="sb-dot filled dot-b2"></span>B2 — Upper-Intermediate
+      <span class="sb-dot filled dot-b2"></span>B2 - Upper-Intermediate
     </a>
     <a class="sb-item" onclick="jumpLevel('C1')">
-      <span class="sb-dot filled dot-c1"></span>C1 — Advanced
+      <span class="sb-dot filled dot-c1"></span>C1 - Advanced
     </a>
     <a class="sb-item" onclick="jumpLevel('C2')">
-      <span class="sb-dot filled dot-c2"></span>C2 — Proficiency
+      <span class="sb-dot filled dot-c2"></span>C2 - Proficiency
     </a>
   </div>
 
@@ -180,7 +180,7 @@ const VOCAB_CONFIG = {
   B1: { color: '#E65100', lt: '#FFF3E0', name: 'Intermediate', desc: 'Nuance, precision and real fluency' },
   B2: { color: '#AD1457', lt: '#FCE4EC', name: 'Upper-Intermediate', desc: 'Complex ideas, register and precision' },
   C1: { color: '#004D40', lt: '#E0F2F1', name: 'Advanced', desc: 'Precision, register and rhetorical skill' },
-  C2: { color: '#1A237E', lt: '#E8EAF6', name: 'Proficiency', desc: 'Mastery — philosophical, rhetorical, exact' }
+  C2: { color: '#1A237E', lt: '#E8EAF6', name: 'Proficiency', desc: 'Mastery - philosophical, rhetorical, exact' }
 };
 
 let VOCAB = {};
@@ -532,7 +532,7 @@ window.checkType = function(id, answer, lv) {
     addScore(10);
   } else if (result === 'close') {
     input.classList.add('close');
-    fb.textContent = `Almost! Check spelling — answer: "${answer}"`;
+    fb.textContent = `Almost! Check spelling - answer: "${answer}"`;
     fb.classList.add('show','near');
     addScore(3);
   } else {
@@ -606,7 +606,7 @@ window.checkMC = function(btn, key) {
     addScore(8);
   } else {
     btn.classList.add('wrong');
-    if (fb) { fb.textContent='❌ Not quite — correct answer highlighted in green.'; fb.classList.add('show','err'); }
+    if (fb) { fb.textContent='❌ Not quite - correct answer highlighted in green.'; fb.classList.add('show','err'); }
   }
 };
 
@@ -661,7 +661,7 @@ window.matchClick = function(el, lv) {
     matchWord = {lv, idx, el};
     el.classList.add('selected-word');
   } else {
-    // def selected — check against selected word
+    // def selected - check against selected word
     if (!matchWord || matchWord.lv !== lv) {
       el.classList.toggle('selected-def');
       return;

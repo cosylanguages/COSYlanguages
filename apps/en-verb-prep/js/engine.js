@@ -1,5 +1,5 @@
 /**
- * COSYlanguages Standalone App — English Verb Prepositions & Phrasal Verbs Engine (en-verb-prep)
+ * COSYlanguages Standalone App - English Verb Prepositions & Phrasal Verbs Engine (en-verb-prep)
  * Provides offline search, transitivity rules, dependent prepositions, phrasal verbs, separability, noun contrasts, sequential navigation & practice game mode.
  */
 

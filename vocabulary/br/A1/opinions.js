@@ -13,7 +13,7 @@
       { t:"Kousket eo an obererezh gwellañ.", tag:"Daily life", h:["Pet eurvezh e kouskit?","Hag-eñ e kouskit mat?","Da bet eur e tait d'ar gwele?","Hag-eñ e kouskit d'an endervezh?","Hag-eñ eo kousket ho tra garetañ?"] },
       { t:"Gwelloc'h eo ar sonerezh eget ar skinwel.", tag:"Free time", h:["Hag-eñ e selaouit sonerezh bemdez?","Peseurt sonerezh a garit?","Pet eurvezh skinwel e sellit outo?","Petra eo ho programm karetañ?","Petra a rit d'an abardaez?"] },
       { t:"Pouezus eo debriñ lein.", tag:"Food", h:["Hag-eñ e zebrit lein bemdez?","Petra a zebrit d'ar mintin?","Hag-eñ eo lein ur pred bras evidoc'h?","Hag-eñ e zebrit lein er gêr?","Petra eo ul lein skouer en ho pro?"] },
-      { t:"Plijus eo neuñviñ.", tag:"Sport", h:["Hag-eñ e ouzit neuñviñ?","Hag-eñ e karit an dour?","Pelec'h e neuñvit — er poull-neuñv pe er mor?","Peseurt sport a garit?","Hag-eñ eo pouezus ar sport evidoc'h?"] },
+      { t:"Plijus eo neuñviñ.", tag:"Sport", h:["Hag-eñ e ouzit neuñviñ?","Hag-eñ e karit an dour?","Pelec'h e neuñvit - er poull-neuñv pe er mor?","Peseurt sport a garit?","Hag-eñ eo pouezus ar sport evidoc'h?"] },
       { t:"Lous eo ar filmoù kozh.", tag:"Entertainment", h:["Peseurt filmoù a garit?","Hag-eñ e sellit ouzh filmoù kozh pe nevez?","Piv eo ho c'hoarier karetañ?","Petra eo ur film mat?","Pelec'h e sellit ouzh filmoù?"] },
       { t:"Ur mennozh meur eo an ananaz war ar pizza.", tag:"Food", h:["Hag-eñ e karit ar pizza?","Petra eo ho kornad karetañ?","Hag-eñ e lakaoc'h frouezh war boued sall?","Hag-eñ eo brudet kement-mañ en ho pro?","Petra eo ar gornad pizza fallañ evidoc'h?"] }
     ];

@@ -1,7 +1,7 @@
 (function() {
     const data = [
         {
-            "t": "Il sé non è qualcosa che scopriamo — è qualcosa che inventiamo continuamente.",
+            "t": "Il sé non è qualcosa che scopriamo - è qualcosa che inventiamo continuamente.",
             "tag": "Identità & Filosofia",
             "h": [
                 "Questa idea ti sembra liberatoria o destabilizzante?",
@@ -10,10 +10,10 @@
                 "Il sé che presenti agli altri modella il sé che diventi?",
                 "Cosa succede all'identità in caso di perdita radicale?"
             ],
-            "word": "Il sé non è qualcosa che scopriamo — è qualcosa che inventiamo continuamente.",
+            "word": "Il sé non è qualcosa che scopriamo - è qualcosa che inventiamo continuamente.",
             "definitions": [
                 {
-                    "text": "Il sé non è qualcosa che scopriamo — è qualcosa che inventiamo continuamente.",
+                    "text": "Il sé non è qualcosa che scopriamo - è qualcosa che inventiamo continuamente.",
                     "examples": [
                         "Questa idea ti sembra liberatoria o destabilizzante?",
                         "Cosa significherebbero le tue scelte se l'identità fosse costruita?",
@@ -31,7 +31,7 @@
             "id": "it_proficiency_social_022"
         },
         {
-            "t": "La compassione che richiede una storia semplice non è vera compassione — è sentimentalismo.",
+            "t": "La compassione che richiede una storia semplice non è vera compassione - è sentimentalismo.",
             "tag": "Etica",
             "h": [
                 "Differenza tra compassione genuina e reazione emotiva?",
@@ -40,10 +40,10 @@
                 "La semplificazione è necessaria per l'empatia?",
                 "Costo del ridurre la sofferenza a un racconto digeribile?"
             ],
-            "word": "La compassione che richiede una storia semplice non è vera compassione — è sentimentalismo.",
+            "word": "La compassione che richiede una storia semplice non è vera compassione - è sentimentalismo.",
             "definitions": [
                 {
-                    "text": "La compassione che richiede una storia semplice non è vera compassione — è sentimentalismo.",
+                    "text": "La compassione che richiede una storia semplice non è vera compassione - è sentimentalismo.",
                     "examples": [
                         "Differenza tra compassione genuina e reazione emotiva?",
                         "Un caso in cui una storia semplificata ha distorto la realtà?",
@@ -91,7 +91,7 @@
             "id": "it_proficiency_social_024"
         },
         {
-            "t": "Il linguaggio non descrive la realtà — la costruisce.",
+            "t": "Il linguaggio non descrive la realtà - la costruisce.",
             "tag": "Linguistica & Filosofia",
             "h": [
                 "Imparare un'altra lingua ti ha dato accesso a nuovi pensieri?",
@@ -100,10 +100,10 @@
                 "È possibile un concetto senza una parola?",
                 "Un'idea può essere pienamente tradotta?"
             ],
-            "word": "Il linguaggio non descrive la realtà — la costruisce.",
+            "word": "Il linguaggio non descrive la realtà - la costruisce.",
             "definitions": [
                 {
-                    "text": "Il linguaggio non descrive la realtà — la costruisce.",
+                    "text": "Il linguaggio non descrive la realtà - la costruisce.",
                     "examples": [
                         "Imparare un'altra lingua ti ha dato accesso a nuovi pensieri?",
                         "Senti cose che nessuna lingua può nominare?",
@@ -241,7 +241,7 @@
             "id": "it_proficiency_social_029"
         },
         {
-            "t": "Internet non ci ha resi più informati — ci ha resi più sicuri dei nostri errori.",
+            "t": "Internet non ci ha resi più informati - ci ha resi più sicuri dei nostri errori.",
             "tag": "Tecnologia & Epistemologia",
             "h": [
                 "Credenza plasmata dagli algoritmi?",
@@ -250,10 +250,10 @@
                 "L'esperienza ha ancora senso?",
                 "Fiducia nella tua capacità di valutare le info?"
             ],
-            "word": "Internet non ci ha resi più informati — ci ha resi più sicuri dei nostri errori.",
+            "word": "Internet non ci ha resi più informati - ci ha resi più sicuri dei nostri errori.",
             "definitions": [
                 {
-                    "text": "Internet non ci ha resi più informati — ci ha resi più sicuri dei nostri errori.",
+                    "text": "Internet non ci ha resi più informati - ci ha resi più sicuri dei nostri errori.",
                     "examples": [
                         "Credenza plasmata dagli algoritmi?",
                         "Problema di Internet o della natura umana?",
@@ -276,7 +276,7 @@
             "h": [
                 "Arte che ha fatto entrambi contemporaneamente?",
                 "Gerarchia dei valori o snobismo?",
-                "A cosa attingi nel dolore — difficoltà o consolazione?",
+                "A cosa attingi nel dolore - difficoltà o consolazione?",
                 "L'arte disturbante cambia il comportamento?",
                 "Scopo dell'arte: sfida, riflesso o trascendenza?"
             ],
@@ -287,7 +287,7 @@
                     "examples": [
                         "Arte che ha fatto entrambi contemporaneamente?",
                         "Gerarchia dei valori o snobismo?",
-                        "A cosa attingi nel dolore — difficoltà o consolazione?",
+                        "A cosa attingi nel dolore - difficoltà o consolazione?",
                         "L'arte disturbante cambia il comportamento?",
                         "Scopo dell'arte: sfida, riflesso o trascendenza?"
                     ]
@@ -361,7 +361,7 @@
             "id": "it_proficiency_social_033"
         },
         {
-            "t": "La memoria non è una registrazione di ciò che è accaduto — è una storia che continuiamo a riscrivere.",
+            "t": "La memoria non è una registrazione di ciò che è accaduto - è una storia che continuiamo a riscrivere.",
             "tag": "Psicologia",
             "h": [
                 "Ricordo contraddetto da un testimone?",
@@ -370,10 +370,10 @@
                 "Un ricordo riscritto può essere più vero dell'evento?",
                 "Affidabilità del tuo ricordo più vivido?"
             ],
-            "word": "La memoria non è una registrazione di ciò che è accaduto — è una storia che continuiamo a riscrivere.",
+            "word": "La memoria non è una registrazione di ciò che è accaduto - è una storia che continuiamo a riscrivere.",
             "definitions": [
                 {
-                    "text": "La memoria non è una registrazione di ciò che è accaduto — è una storia che continuiamo a riscrivere.",
+                    "text": "La memoria non è una registrazione di ciò che è accaduto - è una storia che continuiamo a riscrivere.",
                     "examples": [
                         "Ricordo contraddetto da un testimone?",
                         "Modifichiamo i ricordi per la nostra immagine?",
@@ -391,7 +391,7 @@
             "id": "it_proficiency_social_034"
         },
         {
-            "t": "Non c'è consumo etico sotto il tardo capitalismo — ed è un motivo per agire, non per arrendersi.",
+            "t": "Non c'è consumo etico sotto il tardo capitalismo - ed è un motivo per agire, non per arrendersi.",
             "tag": "Etica",
             "h": [
                 "Le scelte individuali contano?",
@@ -400,10 +400,10 @@
                 "Vivere eticamente in un sistema non etico?",
                 "La consapevolezza cambia il tuo comportamento?"
             ],
-            "word": "Non c'è consumo etico sotto il tardo capitalismo — ed è un motivo per agire, non per arrendersi.",
+            "word": "Non c'è consumo etico sotto il tardo capitalismo - ed è un motivo per agire, non per arrendersi.",
             "definitions": [
                 {
-                    "text": "Non c'è consumo etico sotto il tardo capitalismo — ed è un motivo per agire, non per arrendersi.",
+                    "text": "Non c'è consumo etico sotto il tardo capitalismo - ed è un motivo per agire, non per arrendersi.",
                     "examples": [
                         "Le scelte individuali contano?",
                         "La responsabilità personale è una mossa politica?",
@@ -421,7 +421,7 @@
             "id": "it_proficiency_social_035"
         },
         {
-            "t": "La vita esaminata vale la pena di essere vissuta — ma esaminarla troppo da vicino può renderla invivibile.",
+            "t": "La vita esaminata vale la pena di essere vissuta - ma esaminarla troppo da vicino può renderla invivibile.",
             "tag": "Filosofia",
             "h": [
                 "Quanto autoriflessione è troppa?",
@@ -430,10 +430,10 @@
                 "Vivere bene senza auto-esame?",
                 "Costo e guadagno della tua riflessione?"
             ],
-            "word": "La vita esaminata vale la pena di essere vissuta — ma esaminarla troppo da vicino può renderla invivibile.",
+            "word": "La vita esaminata vale la pena di essere vissuta - ma esaminarla troppo da vicino può renderla invivibile.",
             "definitions": [
                 {
-                    "text": "La vita esaminata vale la pena di essere vissuta — ma esaminarla troppo da vicino può renderla invivibile.",
+                    "text": "La vita esaminata vale la pena di essere vissuta - ma esaminarla troppo da vicino può renderla invivibile.",
                     "examples": [
                         "Quanto autoriflessione è troppa?",
                         "L'introspezione come evitamento?",

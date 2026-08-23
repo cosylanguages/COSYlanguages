@@ -13,7 +13,7 @@ Examples: en_starter_animals_001 · fr_intermediate_emotions_042 · ru_elementar
 Rules:
   - IDs are permanent. Never regenerate or change an assigned ID.
   - IDs must be globally unique across the entire codebase.
-  - All games must reference words by ID only — never by word string.
+  - All games must reference words by ID only - never by word string.
   - The id field is always ASCII even when the word field is in a non-Latin script.
 
 ## Required fields (every entry, every language)
@@ -36,16 +36,16 @@ Rules:
 |----------------|----------------|-------|
 | sub_theme      | string\|null   | Slug from THEMES.md sub-theme list. |
 | plural         | string         | Nouns only. |
-| gender         | string         | m / f / n — Romance + Slavic nouns. |
+| gender         | string         | m / f / n - Romance + Slavic nouns. |
 | article        | string         | Definite article in target language. |
 | synonyms       | array[string]  | |
-| antonyms       | array[string]  | Standardised form — NOT the legacy "opposite" string field. |
+| antonyms       | array[string]  | Standardised form - NOT the legacy "opposite" string field. |
 | collocations   | array[string]  | Phrases in the TARGET language, not English. |
 | subtext        | string         | Short usage note. |
-| countability   | string         | countable / uncountable / both — nouns. |
+| countability   | string         | countable / uncountable / both - nouns. |
 | auxiliary      | string         | Verb auxiliary (avoir, être, haben, etc.). |
 | group          | string         | Verb conjugation group/class. |
-| classification | string         | regular / irregular — verbs. |
+| classification | string         | regular / irregular - verbs. |
 | v2             | string         | Past stem / Greek aorist stem. |
 | v3             | string         | Past participle. |
 | v4             | string         | Gerund / present participle. |
@@ -63,8 +63,8 @@ Rules:
 
 ## What is NOT allowed
 
-- Field named "opposite" (string) — use "antonyms" array instead.
-- Theme values with level suffixes (e.g. "animals_A1") — use "animals".
+- Field named "opposite" (string) - use "antonyms" array instead.
+- Theme values with level suffixes (e.g. "animals_A1") - use "animals".
 - Duplicate IDs anywhere in js/data/.
-- Game files referencing vocabulary by word string — use IDs.
-- The "image" or "imageUrl" field — removed, do not re-add.
+- Game files referencing vocabulary by word string - use IDs.
+- The "image" or "imageUrl" field - removed, do not re-add.

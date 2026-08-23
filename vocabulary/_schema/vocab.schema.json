@@ -19,12 +19,12 @@
           "phonetic": { "type": "string", "description": "IPA pronunciation" },
           "definition": { "type": "string", "description": "A short definition of the word, written entirely in the target language using only vocabulary appropriate for the stated CEFR level. Mandatory on every entry. No translation." },
           "example": { "type": "string", "description": "Example sentence in target language" },
-          "synonyms": { "type": "array", "items": { "type": "string" }, "description": "Words with similar meaning — all in the target language" },
-          "antonyms": { "type": "array", "items": { "type": "string" }, "description": "Words with opposite meaning — all in the target language" },
+          "synonyms": { "type": "array", "items": { "type": "string" }, "description": "Words with similar meaning - all in the target language" },
+          "antonyms": { "type": "array", "items": { "type": "string" }, "description": "Words with opposite meaning - all in the target language" },
           "image_hint": { "type": "string", "description": "Emoji visual hint" },
           "grammar_refs": {
             "type": "array",
-            "description": "Links to grammar groups that govern this word's forms. Prevents duplication — the grammar file is the single source of truth for paradigms.",
+            "description": "Links to grammar groups that govern this word's forms. Prevents duplication - the grammar file is the single source of truth for paradigms.",
             "items": {
               "type": "object",
               "required": ["layer", "category", "group_id"],

@@ -75,18 +75,18 @@
       ],
       "rounds": {
         "warm_up": {
-          "title": "🟠 Warm-up — Brain and Technology▲",
+          "title": "🟠 Warm-up - Brain and Technology▲",
           "questions": [
             "How do you feel when you spend a whole day looking at computer screens?",
             "Do you think your brain is more like a highly advanced computer or something completely different?"
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Contrast Connectors▲",
+          "title": "⚡ Grammar Practice - Contrast Connectors▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Theoretical Discussion▲",
+          "title": "🔵 Round 1 - Theoretical Discussion▲",
           "items": [
             {
               "main": "According to the article, how does a biological synapse pass signals, and what makes it superior to a computer?",
@@ -135,7 +135,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\n\n🧠Human Synapses\n💾Artificial Nodes\n\nWhich computing unit possesses a superior biological future?"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Agree or Disagree?▲",
+          "title": "🟢 Round 2 - The Future: Agree or Disagree?▲",
           "items": [
             {
               "main": "If future research continues to support this study, how will bio-computing chips change our digital networks?",
@@ -256,18 +256,18 @@
       ],
       "rounds": {
         "warm_up": {
-          "title": "🟠 Warm-up — Silicon vs Brain▲",
+          "title": "🟠 Warm-up - Silicon vs Brain▲",
           "questions": [
             "Are you comfortable with the idea of AI outperforming human intelligence in analytical tasks?",
             "What is one human brain capability that you think computers will never be able to duplicate?"
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Contrast Connectors▲",
+          "title": "⚡ Grammar Practice - Contrast Connectors▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Theoretical Discussion▲",
+          "title": "🔵 Round 1 - Theoretical Discussion▲",
           "items": [
             {
               "main": "According to the article, how does the backpropagation algorithm in artificial networks contrast with human error-driven learning?",
@@ -316,7 +316,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\n\n🧠Human Synapses\n💾Artificial Nodes\n\nWhich computing unit possesses a superior biological future?"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Agree or Disagree?▲",
+          "title": "🟢 Round 2 - The Future: Agree or Disagree?▲",
           "items": [
             {
               "main": "If future research continues to support this study, how will bio-computing chips change our digital networks?",
@@ -363,7 +363,7 @@
       }
     },
     "ai-reality-delusion.html": {
-      "title": "AI: Reality or Delusion — Chatbots and distorted beliefs",
+      "title": "AI: Reality or Delusion - Chatbots and distorted beliefs",
       "lang": "en",
       "level": "Upper-Intermediate (B2)",
       "topic": "AI Psychology / Cognitive Biases",
@@ -444,11 +444,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Causative Verbs (make, let, have, get)▲",
+          "title": "⚡ Grammar Practice - Causative Verbs (make, let, have, get)▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Theoretical Discussion▲",
+          "title": "🔵 Round 1 - Theoretical Discussion▲",
           "items": [
             {
               "main": "According to the article, how can an AI chatbot systematically reinforce a user's pre-existing delusion?",
@@ -497,7 +497,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\n\n🤝Authentic Dialogue\n💬Chatbot Echo Chamber\n\nWhich force is more fundamental in shaping human cognitive sanity in a digital age?"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Agree or Disagree?▲",
+          "title": "🟢 Round 2 - The Future: Agree or Disagree?▲",
           "items": [
             {
               "main": "If future research continues to support this study, how will psychologists redesign clinical treatment structures to account for chatbot-induced delusions?",
@@ -625,11 +625,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Defining vs Non-Defining Relative Clauses▲",
+          "title": "⚡ Grammar Practice - Defining vs Non-Defining Relative Clauses▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how do animals achieve complex cooperation without possessing human speech?",
@@ -678,7 +678,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Animal Communication Models.\n\n🐜Chemical Trails (Invertebrates)\n🐒Vocal Alarm Syntax (Mammals)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this discovery, we will develop neural transducers that map syntax in non-human social groups.",
@@ -806,11 +806,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Defining vs Non-Defining Relative Clauses▲",
+          "title": "⚡ Grammar Practice - Defining vs Non-Defining Relative Clauses▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how do wild animals integrate complex vocal sounds without true grammatical syntax?",
@@ -859,7 +859,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Animal Communication Models.\n\n🧬Evolutionary Instinct\n📊Syntactic Rules"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this discovery, we will synthesize neural sensors that decode the syntax of social mammals in real-time.",
@@ -987,11 +987,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Basic Comparisons & Descriptors▲",
+          "title": "⚡ Grammar Practice - Basic Comparisons & Descriptors▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, why is laughter helpful when animals make friends?",
@@ -1040,7 +1040,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Primate Play vs Human Talk.\n\n🐒Play Tickling (Laughter)\n🗣️Grammar Syntax (Speech)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "Will we build simple tools to check animal laughter?",
@@ -1168,11 +1168,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Modal Verbs of Deduction▲",
+          "title": "⚡ Grammar Practice - Modal Verbs of Deduction▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, what evolutionary pathways explain the origin of human speech?",
@@ -1221,7 +1221,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Primate Play vs Human Talk.\n\n🐒Play Tickling (Vocalization)\n🗣️Grammar Syntax (Cognitive)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, synthetic biology will enable humans to genetically modify vocalization networks in other mammals.",
@@ -1349,11 +1349,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Gerunds as Subjects and Objects▲",
+          "title": "⚡ Grammar Practice - Gerunds as Subjects and Objects▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does the discovery of adult brain plasticity change classical medical beliefs about old age?",
@@ -1402,7 +1402,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Brain stimuli.\n\n🧘‍♀️Lifelong Habits (Routine)\n🧩Novel Cognitive Stimuli (Plasticity)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, biological guidelines will prove that adult brain plasticity is active until our final days.",
@@ -1530,11 +1530,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Gerunds as Subjects and Objects▲",
+          "title": "⚡ Grammar Practice - Gerunds as Subjects and Objects▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does the discovery of senescent neurogenesis challenge classical medical dogmas regarding cognitive decline?",
@@ -1583,7 +1583,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Physical vs Mental exercise.\n\n🏃‍♂️Hippocampus (Neurogenesis)\n🧩Synaptic Network (Dendritic)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, biological guidelines will prove that adult neurogenesis can be sustained indefinitely through daily academic habits.",
@@ -1711,7 +1711,7 @@
           ]
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, why are more children becoming overweight today than 40 years ago?",
@@ -1760,7 +1760,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Homemade Meals vs Fast Food.\n\n🥗Fresh Vegetable Salad\n🍟French Fries and Soda"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "Imagine future research proves that eating too much sugar makes children overweight even if they run 5 kilometers every day.",
@@ -1888,7 +1888,7 @@
           ]
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, why is the global rise in pediatric obesity not correlated with declining activity levels?",
@@ -1937,7 +1937,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Physical Exercise vs Dietary Caloric Ingestion.\n\n🏃Gym Physical Education Class\n🥤High-Fructose School Beverages"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, public health campaigns will stop blaming sedentary habits and instead focus entirely on regulating sugar production.",
@@ -2065,11 +2065,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Reported Speech & Softening Devices▲",
+          "title": "⚡ Grammar Practice - Reported Speech & Softening Devices▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, what is the core controversy behind the latest climate data release?",
@@ -2118,7 +2118,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Scientific Models vs Real-World Readings.\n\n🖥️Computer Climate Projections\n🌡️Raw Temperature Observations"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, artificial intelligence will build 100% accurate computer models of global warming.",
@@ -2246,11 +2246,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Reported Speech & Softening Devices▲",
+          "title": "⚡ Grammar Practice - Reported Speech & Softening Devices▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, why do climate scientists occasionally practice self-censorship when presenting extreme scenario maps?",
@@ -2299,7 +2299,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Scientific Models vs Real-World Readings.\n\n🖥️Computer Climate Projections\n🌡️Raw Temperature Observations"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, researchers who engage in self-censorship will face immediate suspension of their academic credentials.",
@@ -2427,11 +2427,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Comparative & Superlative Modifiers▲",
+          "title": "⚡ Grammar Practice - Comparative & Superlative Modifiers▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Research Analysis▲",
+          "title": "🔵 Round 1 - Empirical Research Analysis▲",
           "items": [
             {
               "main": "According to the article, how does the brain's Memory system separate real compound words from fake ones like 'shamrock'?",
@@ -2480,7 +2480,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: Real semantic compounds vs. pseudo-compounds.\n\n⚽Foot + Ball (Real Semantic Compound)\n☘️Sham + Rock (Pseudo-Compound)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research confirms that the subconscious mind stores every word in a unified Memory, we will use neural interfaces to read and understand books instantly.",
@@ -2608,11 +2608,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Comparative & Superlative Modifiers▲",
+          "title": "⚡ Grammar Practice - Comparative & Superlative Modifiers▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Research Analysis▲",
+          "title": "🔵 Round 1 - Empirical Research Analysis▲",
           "items": [
             {
               "main": "According to the article's findings, how does the measured Recall Latency change when comparing a true compound to a pseudo-compound?",
@@ -2661,7 +2661,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: Real semantic compounds vs. pseudo-compounds.\n\n⚽Foot + Ball (Real Semantic Compound)\n☘️Sham + Rock (Pseudo-Compound)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research proves that we can manipulate Recall Latency, we will use neural interfaces to read and understand books instantly.",
@@ -2708,7 +2708,7 @@
       }
     },
     "fusion-energy.html": {
-      "title": "The Future of Fusion Energy — Clean power for everyone?",
+      "title": "The Future of Fusion Energy - Clean power for everyone?",
       "lang": "en",
       "level": "Upper-Intermediate (B2)",
       "topic": "Nuclear Physics / Clean Energy",
@@ -2789,11 +2789,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Future Passive Voice▲",
+          "title": "⚡ Grammar Practice - Future Passive Voice▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does nuclear fusion achieve power generation without using highly dangerous heavy elements?",
@@ -2842,7 +2842,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Energy models.\n\n☀️Controlled Plasma Core\n🔋Lithium Battery Storage"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, commercial fusion plants will completely replace fossil fuel grids by 2060.",
@@ -2970,11 +2970,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Present Perfect Continuous▲",
+          "title": "⚡ Grammar Practice - Present Perfect Continuous▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Theoretical Discussion▲",
+          "title": "🔵 Round 1 - Theoretical Discussion▲",
           "items": [
             {
               "main": "According to the article, why might a long post-reproductive lifespan actually be an evolutionary advantage rather than a biological mistake?",
@@ -3023,7 +3023,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\n\n🧬Genes\n❤️Family Support\n\nWhich force is more fundamental in driving human evolutionary success?"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Agree or Disagree?▲",
+          "title": "🟢 Round 2 - The Future: Agree or Disagree?▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, how might textbooks rewrite our understanding of human evolutionary history?",
@@ -3151,11 +3151,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Used to vs Would▲",
+          "title": "⚡ Grammar Practice - Used to vs Would▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, why is regular contact with the extended family more vital for children's mental wellness today?",
@@ -3204,7 +3204,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Support networks.\n\n👨‍👩‍👧‍👦Traditional Nuclear Group\n🏘️Intergenerational Core"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, communities will design physical housing to merge senior homes with child care to boost extended family support.",
@@ -3332,7 +3332,7 @@
           ]
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does the gut-brain axis affect our brain's selection of long-term memories?",
@@ -3381,7 +3381,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Gut Health vs Mental Clarity.\n\n🥗Intestinal Diversity\n🧠Hippocampus Memory Recall"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, we will design personalized probiotics to help students boost their cognitive retention before exams.",
@@ -3509,11 +3509,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Hypothetical Wishes & If Only▲",
+          "title": "⚡ Grammar Practice - Hypothetical Wishes & If Only▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does a wild amphibian regrow an entire limb after an amputation?",
@@ -3562,7 +3562,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Animal play vs Human talk.\n\n🦎Somatic Blastema (Amphibians)\n🤕Scar Scaffolding (Mammals)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, humans will recover from amputation through rapid somatic regeneration.",
@@ -3690,11 +3690,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Hypothetical Wishes & If Only▲",
+          "title": "⚡ Grammar Practice - Hypothetical Wishes & If Only▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, what genes control the somatic regeneration of limbs in primitive vertebrates?",
@@ -3743,7 +3743,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Lizard vs Human healing.\n\n🦎Somatic Blastema (Amphibians)\n🤕Scar Scaffolding (Mammals)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, biological therapy will enable human somatic regeneration of complex organs.",
@@ -3790,7 +3790,7 @@
       }
     },
     "impersonation-accounts.html": {
-      "title": "Impersonation Accounts — Digital Identity Theft",
+      "title": "Impersonation Accounts - Digital Identity Theft",
       "lang": "en",
       "level": "Intermediate (B1)",
       "topic": "Cybersecurity and Digital Fraud",
@@ -3866,11 +3866,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Phrasal Verbs with 'Look'▲",
+          "title": "⚡ Grammar Practice - Phrasal Verbs with 'Look'▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Evidence Evaluation▲",
+          "title": "🔵 Round 1 - Empirical Evidence Evaluation▲",
           "items": [
             {
               "main": "According to cybersecurity research, what specific parameters characterize a highly structured and Fraudulent digital profile?",
@@ -3919,7 +3919,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: High privacy sandbox vs total network surveillance.\n\n🔒High Privacy Sandbox\n🌐Total Server Monitoring"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research continues to track polymorphic cyberattacks, all Fraudulent accounts will eventually be eliminated by advanced server-side AI detectors.",
@@ -4047,7 +4047,7 @@
           ]
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, why do millions of teenagers find the \"Backrooms\" so creepy and fascinating?",
@@ -4096,7 +4096,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Repeating Hallways vs Cozy Living Room.\n\n🚪Infinite Hallway\n🛋️Comfortable Bedroom"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "Imagine future research proves that viewing yellow hallways on screens is a creepy but safe way to cure real-world phobias.",
@@ -4224,7 +4224,7 @@
           ]
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does a liminal space bypass our logical thoughts to trigger primal spatial fears?",
@@ -4273,7 +4273,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Sterile Repeating Offices vs Untamed Wild Nature.\n\n🟨The Endless Office Labyrinth\n🌲Ancient Deep Forest"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, architects will design virtual liminal zones to help busy city workers decompress from urban sensory overload.",
@@ -4401,11 +4401,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Double Comparatives▲",
+          "title": "⚡ Grammar Practice - Double Comparatives▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Evidence Evaluation▲",
+          "title": "🔵 Round 1 - Empirical Evidence Evaluation▲",
           "items": [
             {
               "main": "According to the video logs, how does the Democratization of specialized software modify our collective creative output?",
@@ -4454,7 +4454,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: Digital abundance vs. traditional craftsmanship.\n\n📱Digital Abundance (Algorithmic)\n🏺Traditional Mastery (Manual)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research continues to track decentralized creative outputs, the complete Democratization of art will eventually lead to the disappearance of highly paid professional artists.",
@@ -4582,11 +4582,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Passive vs Active Voice in News▲",
+          "title": "⚡ Grammar Practice - Passive vs Active Voice in News▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Evidence Evaluation▲",
+          "title": "🔵 Round 1 - Empirical Evidence Evaluation▲",
           "items": [
             {
               "main": "According to the research, what specific parameters indicate that a rapid Linguistic Decay is taking place in modern communities?",
@@ -4635,7 +4635,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: High eloquence vs. monosyllabic digital communication.\n\n📜Rich Eloquence (3000+ Words)\n⚡Monosyllabic Digital (100- Words)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research continues to validate rapid Linguistic Decay metrics, spoken language will be replaced entirely by direct brain-to-brain digital signals within a century.",
@@ -4682,7 +4682,7 @@
       }
     },
     "mendelian-laws-broken.html": {
-      "title": "Broken Laws — Rethinking Genetics",
+      "title": "Broken Laws - Rethinking Genetics",
       "lang": "en",
       "level": "Advanced (C1)",
       "topic": "Genetics / Heredity",
@@ -4763,11 +4763,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Speculative Continuous Conditionals▲",
+          "title": "⚡ Grammar Practice - Speculative Continuous Conditionals▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Evidence Evaluation▲",
+          "title": "🔵 Round 1 - Empirical Evidence Evaluation▲",
           "items": [
             {
               "main": "According to the article's genomic sequences, how does meiotic drive bypass the standard Mendelian law of Inheritance?",
@@ -4816,7 +4816,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: Mendelian inheritance vs. gene drive inheritance bias.\n\n🌱Mendelian Laws (50% Chance)\n🧬Gene Drive Bias (99% Inherited)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research continues to validate meiotic drive mechanisms, we will permanently eliminate genetic disease Inheritance patterns using automated gene-swaps.",
@@ -4944,11 +4944,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Adverbs of Frequency▲",
+          "title": "⚡ Grammar Practice - Adverbs of Frequency▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Theoretical Discussion▲",
+          "title": "🔵 Round 1 - Theoretical Discussion▲",
           "items": [
             {
               "main": "According to the article, why is visiting a local Museum key to staying active and young?",
@@ -4997,7 +4997,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: Watching a blockbuster movie on a small phone screen vs visiting an old theater to see a play.\n\n📱Phone Screen (Lazy)\n🎭Live Theater (Active)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If art helps us live longer, will doctors tell us to go to a Museum instead of taking medicine?",
@@ -5125,11 +5125,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Adverbs of Degree▲",
+          "title": "⚡ Grammar Practice - Adverbs of Degree▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Theoretical Discussion▲",
+          "title": "🔵 Round 1 - Theoretical Discussion▲",
           "items": [
             {
               "main": "According to the article's clinical logs, what is the exact biological mechanism linking creative hobbies to superior Longevity?",
@@ -5178,7 +5178,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: High-intensity physical gym training vs a quiet afternoon walking through a historical sculpture gallery.\n\n🏋️Gym Workout (Active)\n🏛️Art Gallery (Reflec..."
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research proves that weekly theatergoing can double human Longevity, will health insurance companies make cultural attendance a mandatory policy requirement?",
@@ -5306,11 +5306,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Adverbs of Degree▲",
+          "title": "⚡ Grammar Practice - Adverbs of Degree▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Evidence Evaluation▲",
+          "title": "🔵 Round 1 - Empirical Evidence Evaluation▲",
           "items": [
             {
               "main": "According to the article's clinical logs, what is the exact biological mechanism linking creative hobbies to superior Longevity?",
@@ -5359,7 +5359,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: High-intensity physical gym training vs a quiet afternoon walking through a historical sculpture gallery.\n\n🏋️Gym Workout (Active)\n🏛️Art Gallery (Reflec..."
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research proves that weekly theatergoing can double human Longevity, will health insurance companies make cultural attendance a mandatory policy requirement?",
@@ -5487,11 +5487,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Verbs + Gerunds vs Infinitives▲",
+          "title": "⚡ Grammar Practice - Verbs + Gerunds vs Infinitives▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does a weekly injection of GLP-1 hormone rewire appetite circuits in the brain?",
@@ -5540,7 +5540,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Lifestyle vs Pharmaceutical weight loss.\n\n🥗Calorie Deficit & Muscle Use\n💉Hormone Suppressants (Satiety)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, a simple weekly injection will be recognized as the global standard for treating chronic metabolic disorders.",
@@ -5668,11 +5668,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Verbs + Gerunds vs Infinitives▲",
+          "title": "⚡ Grammar Practice - Verbs + Gerunds vs Infinitives▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does a synthesized agonist activate the satiety pathways of the human brain?",
@@ -5721,7 +5721,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Lifestyle vs Pharmaceutical weight loss.\n\n🥗Calorie Deficit & Muscle Use\n💉Hormone Suppressants (Satiety)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, a synthesized agonist will be added to high-calorie foods to automatically balance human caloric intake.",
@@ -5849,7 +5849,7 @@
           ]
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, why did critics claim that recycling acts as a moral distraction for consumers?",
@@ -5898,7 +5898,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Trivial Habits vs National Policies.\n\n🥤Separating Daily Trash\n🏭Carbon Emissions Penalties"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this discovery, environmental campaigns will stop treating recycling as a distraction and instead promote it as a gateway to climate activism.",
@@ -6026,11 +6026,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Relative Clauses▲",
+          "title": "⚡ Grammar Practice - Relative Clauses▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Evidence Evaluation▲",
+          "title": "🔵 Round 1 - Empirical Evidence Evaluation▲",
           "items": [
             {
               "main": "According to the article's statistical logs, why is a persistent 9:1 ratio of right-to-left Handedness stable across all human cultures?",
@@ -6079,7 +6079,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: Left hemisphere language localization vs. right hemisphere spatial dominance.\n\n🗣️Left Hemisphere (Language & Right Hand)\n🎨Right Hemisphere (Spatial & L..."
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research proves that natural Handedness can be completely swapped using simple genetic regulators, will schools ban natural hand dominance in favor of ambidexterity?",
@@ -6207,11 +6207,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Passives with Modal Verbs▲",
+          "title": "⚡ Grammar Practice - Passives with Modal Verbs▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does a complex network of neurons transmit nociceptive impulses to the brain?",
@@ -6260,7 +6260,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Direct nerve signaling vs Brain interpretation.\n\n⚡Spinal Reflex (Reaction)\n🧠Neural Cortex (Interpretation)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, advanced neural network models will predict a patient's pain limits before clinical tests.",
@@ -6388,11 +6388,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Passives with Modal Verbs▲",
+          "title": "⚡ Grammar Practice - Passives with Modal Verbs▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does a neurological study map the exact pathways of pain sensation?",
@@ -6441,7 +6441,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Direct nerve signaling vs Brain interpretation.\n\n⚡Spinal Reflex (Reaction)\n🧠Neural Cortex (Interpretation)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, advanced neurological implants will selectively turn off chronic pain loops permanently.",
@@ -6569,11 +6569,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Inversion with Negative Adverbials▲",
+          "title": "⚡ Grammar Practice - Inversion with Negative Adverbials▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Theoretical Discussion▲",
+          "title": "🔵 Round 1 - Theoretical Discussion▲",
           "items": [
             {
               "main": "According to the article, what neural evidence proves that the brain begins forming subconscious choices before conscious awareness?",
@@ -6622,7 +6622,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\n\n🧠Amygdala (Emotional)\n📊Insula (Rational)\n\nWhich brain region is more fundamental in driving successful human social relationships?"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Agree or Disagree?▲",
+          "title": "🟢 Round 2 - The Future: Agree or Disagree?▲",
           "items": [
             {
               "main": "If future research continues to support this study, how will psychologists adjust our understanding of \"free will\" and subconscious social mechanics?",
@@ -6750,11 +6750,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Past Perfect vs Past Simple▲",
+          "title": "⚡ Grammar Practice - Past Perfect vs Past Simple▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Evidence Evaluation▲",
+          "title": "🔵 Round 1 - Empirical Evidence Evaluation▲",
           "items": [
             {
               "main": "According to the research, what prehistoric environmental conditions first drove male arachnids toward active Fatherhood?",
@@ -6803,7 +6803,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: Active egg guarding vs. nest abandonment.\n\n🕷️Guarded Nest (High Survival)\n💨Abandoned Nest (Predator Loss)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research proves that Fatherhood emerged much earlier in evolutionary history than maternal care, how might schools rewrite zoology textbooks?",
@@ -6931,11 +6931,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Past Perfect vs Past Simple▲",
+          "title": "⚡ Grammar Practice - Past Perfect vs Past Simple▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Empirical Evidence Evaluation▲",
+          "title": "🔵 Round 1 - Empirical Evidence Evaluation▲",
           "items": [
             {
               "main": "According to the study's field logs, how do we characterize the environmental pressures that first favored Paternal Care?",
@@ -6984,7 +6984,7 @@
           "raw_text": "🟣 Visual Evidence Contrast▲\n\n\nVisual comparison: Active egg guarding vs. nest abandonment.\n\n🕷️Guarded Nest (High Survival)\n💨Abandoned Nest (Predator Loss)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Future Projections▲",
+          "title": "🟢 Round 2 - Future Projections▲",
           "items": [
             {
               "main": "If future research continues to support the early emergence of Paternal Care across simple organisms, how will scientists recalibrate their assumptions about gender roles in nature?",
@@ -7112,7 +7112,7 @@
           ]
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, why is midlife described as a critical biological window for protecting brain volume?",
@@ -7161,7 +7161,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Passive Video Consumption vs Active Learning.\n\n📺Watching TV Series (Passive)\n♟️Playing Complex Board Games (Active)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, public health guidelines will recommend limiting television watching in midlife to exactly 5 hours per week.",
@@ -7289,11 +7289,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Prepositions of Place▲",
+          "title": "⚡ Grammar Practice - Prepositions of Place▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how can our surrounding environment influence our daily health?",
@@ -7342,7 +7342,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: City spaces.\n\n🏙️Busy Street (Noise)\n🌳Public Park (Fresh Air)"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "In the future, will cities redesign every neighborhood to put a forest near our homes?",
@@ -7470,11 +7470,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Cause and Effect Linkers▲",
+          "title": "⚡ Grammar Practice - Cause and Effect Linkers▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, what environmental features make certain urban locations safer for senior citizens?",
@@ -7523,7 +7523,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: City spaces.\n\n🏙️High-Density Concrete Zone\n🌳Community Micro-Forest"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, urban planning will outlaw any high-rise building that does not incorporate vertical greenery.",
@@ -7651,11 +7651,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Cause and Effect Linkers▲",
+          "title": "⚡ Grammar Practice - Cause and Effect Linkers▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Understand the Discovery▲",
+          "title": "🔵 Round 1 - Understand the Discovery▲",
           "items": [
             {
               "main": "According to the article, how does rapid urbanization alter the environmental baseline of aging populations?",
@@ -7704,7 +7704,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\nVisual comparison: Spatial designs.\n\n🏙️High PM2.5 Dense Area\n🌳Zero-Emission Green Belt"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Speculative Projections▲",
+          "title": "🟢 Round 2 - The Future: Speculative Projections▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, urban planning will mandate that every urbanization project dedicate 40% of its land to micro-forests.",
@@ -7832,11 +7832,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Speculative Conditionals▲",
+          "title": "⚡ Grammar Practice - Speculative Conditionals▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Theoretical Discussion▲",
+          "title": "🔵 Round 1 - Theoretical Discussion▲",
           "items": [
             {
               "main": "According to the article, how did the thumb help human brains develop during our early evolution?",
@@ -7885,7 +7885,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\n\n🧬Genes\n🖐️Precise Manual Grip\n\nWhich force is the main driver behind the rapid expansion of hominid cognitive capacity?"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Agree or Disagree?▲",
+          "title": "🟢 Round 2 - The Future: Agree or Disagree?▲",
           "items": [
             {
               "main": "If future research continues to support this evolution study, how will schools change how they teach children coordinated physical crafts?",
@@ -8013,11 +8013,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Speculative Conditionals▲",
+          "title": "⚡ Grammar Practice - Speculative Conditionals▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Theoretical Discussion▲",
+          "title": "🔵 Round 1 - Theoretical Discussion▲",
           "items": [
             {
               "main": "According to the article, why did the development of an opposable thumb directly accelerate human brain evolutionary wiring?",
@@ -8066,7 +8066,7 @@
           "raw_text": "🟣 Let's Speak Together▲\n\n\n\n🧬Genes\n🖐️Precise Manual Grip\n\nWhich force is the main driver behind the rapid expansion of hominid cognitive capacity?"
         },
         "round_2": {
-          "title": "🟢 Round 2 — The Future: Agree or Disagree?▲",
+          "title": "🟢 Round 2 - The Future: Agree or Disagree?▲",
           "items": [
             {
               "main": "If future research continues to support this hypothesis, how might schools redesign primary physical education to prioritize coordinated manual tasking?",
@@ -8191,11 +8191,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Grammar Practice — Le conditionnel présent (les hypothèses de sécurité)▲",
+          "title": "⚡ Grammar Practice - Le conditionnel présent (les hypothèses de sécurité)▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Round 1 — Discussion générale▲",
+          "title": "🔵 Round 1 - Discussion générale▲",
           "items": [
             {
               "main": "Quels sont les indices les plus flagrants d'un profil frauduleux sur un réseau professionnel comme LinkedIn ?",
@@ -8244,7 +8244,7 @@
           "raw_text": "🟣 Parlons ensemble▲\n\n\n\n🔒Vie privée totale\n🌐Transparence totale\n\nQuelle approche vous fait vous sentir le plus en sécurité en ligne ?"
         },
         "round_2": {
-          "title": "🟢 Round 2 — Perspectives : D'accord ou Pas d'accord ?▲",
+          "title": "🟢 Round 2 - Perspectives : D'accord ou Pas d'accord ?▲",
           "items": [
             {
               "main": "Dans le futur, tous les comptes frauduleux seront instantanément détectés et supprimés par des intelligences artificielles.",
@@ -8374,11 +8374,11 @@
           ]
         },
         "grammar": {
-          "title": "⚡ Грамматика — Сложные союзы и вводные слова▲",
+          "title": "⚡ Грамматика - Сложные союзы и вводные слова▲",
           "has_interactive_game": true
         },
         "round_1": {
-          "title": "🔵 Раунд 1 — Общее обсуждение▲",
+          "title": "🔵 Раунд 1 - Общее обсуждение▲",
           "items": [
             {
               "main": "Почему высокая внушаемость является естественной биологической чертой детского возраста?",
@@ -8427,10 +8427,10 @@
           "raw_text": "🟣 Давайте говорить вместе▲\n\n\n\n👨‍👩‍👦Семейный контроль\n🌐Свобода выбора\n\nКакой подход лучше защищает психику ребенка от манипуляций в интернете?"
         },
         "round_2": {
-          "title": "🟢 Раунд 2 — Согласны ли вы?▲",
+          "title": "🟢 Раунд 2 - Согласны ли вы?▲",
           "items": [
             {
-              "main": "Высокая внушаемость детей — это главный эволюционный механизм обучения, а не недостаток ума.",
+              "main": "Высокая внушаемость детей - это главный эволюционный механизм обучения, а не недостаток ума.",
               "personal": "★ Считаете ли вы, что в детстве вы учились быстрее, просто безоговорочно доверяя взрослым?"
             },
             {
@@ -8442,7 +8442,7 @@
               "personal": "★ Помните ли вы рекламу из своего детства, которая заставила вас страстно желать какую-то игрушку?"
             },
             {
-              "main": "Каждое наше взрослое убеждение — это просто скопированный в детстве шаблон поведения.",
+              "main": "Каждое наше взрослое убеждение - это просто скопированный в детстве шаблон поведения.",
               "personal": "★ Какое из своих глубоких убеждений вы считаете по-настоящему собственным, а не навязанным?"
             },
             {

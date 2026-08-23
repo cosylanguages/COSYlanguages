@@ -43,7 +43,7 @@
             body.innerHTML = `
               <div class="score-bar">
                 <div class="sb-item"><div class="sb-val" id="ll-score">0</div><div class="sb-lbl">Chain length</div></div>
-                <div class="sb-item"><div class="sb-val" id="ll-next-letter">—</div><div class="sb-lbl">Must start with</div></div>
+                <div class="sb-item"><div class="sb-val" id="ll-next-letter"> - </div><div class="sb-lbl">Must start with</div></div>
               </div>
               <div class="game-card">
                 <div class="game-label">🔤 Word chain</div>

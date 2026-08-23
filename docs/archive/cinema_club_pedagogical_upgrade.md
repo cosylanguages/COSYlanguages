@@ -44,7 +44,7 @@ Every speaking prompt and discussion guide must climb this ladder. By doing so, 
 
 ## 2. The Unmistakable Identity: The Four-Stage Lesson Flow
 
-Every Cinema Club session follows a consistent 4-stage narrative flow, mirroring how cinephiles naturally engage with a film—as viewers, analysts, and finally creators:
+Every Cinema Club session follows a consistent 4-stage narrative flow, mirroring how cinephiles naturally engage with a film - as viewers, analysts, and finally creators:
 
 1.  **Stage 1: Experience the Film (Atmosphere & Emotions)**
     *   *Purpose:* Ground the students in the sensory world of the film.

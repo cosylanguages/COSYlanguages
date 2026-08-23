@@ -1,7 +1,7 @@
 # COSYlanguages Architecture Decision Record (ADR): Monorepo & Paid Product Separation
 
 ## Status
-**Committed / Active** — August 2026
+**Committed / Active** - August 2026
 
 ## 1. Context & Motivation
 COSYlanguages operates under a "Slow-Tech" language learning philosophy. We reject centralized databases, cloud-based user tracking, and intrusive remote locks. Instead, we champion:

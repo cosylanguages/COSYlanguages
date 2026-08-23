@@ -2700,7 +2700,7 @@
       ]
     },
     "usage_hint": "voyager en / à / avec",
-    "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous voyageons').",
+    "grammar_rule": "💡 REMEMBER: Orthographe en -ger - conserve le 'e' devant 'a' et 'o' ('nous voyageons').",
     "irregular": false
   },
   "passer": {
@@ -9306,7 +9306,7 @@
       ]
     },
     "usage_hint": "nager dans (mer/piscine) / avec",
-    "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous nageons').",
+    "grammar_rule": "💡 REMEMBER: Orthographe en -ger - conserve le 'e' devant 'a' et 'o' ('nous nageons').",
     "irregular": false
   },
   "sauter": {
@@ -13510,7 +13510,7 @@
       ]
     },
     "usage_hint": "+ infinitif direct (pouvoir faire)",
-    "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je peux aider'). Auxiliaire avoir.",
+    "grammar_rule": "💡 REMEMBER: Verbe modal - suivi directement d'un infinitif SANS préposition ('je peux aider'). Auxiliaire avoir.",
     "irregular": true
   },
   "vouloir": {
@@ -28217,7 +28217,7 @@
       ]
     },
     "usage_hint": "+ infinitif direct (devoir faire)",
-    "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je dois partir'). Participe passé 'dû' prend un accent circonflexe au masculin singulier.",
+    "grammar_rule": "💡 REMEMBER: Verbe modal - suivi directement d'un infinitif SANS préposition ('je dois partir'). Participe passé 'dû' prend un accent circonflexe au masculin singulier.",
     "irregular": true
   },
   "dormir": {
@@ -28848,7 +28848,7 @@
         "qu'il faille"
       ],
       "imperatif": [
-        "—"
+        " - "
       ],
       "participe_passe": [
         "fallu"
@@ -28860,7 +28860,7 @@
         "il faudrait"
       ],
       "impv": [
-        "—"
+        " - "
       ],
       "part": [
         "falloiant",

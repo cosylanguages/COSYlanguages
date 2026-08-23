@@ -1335,7 +1335,7 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Working beyond normal hours — used predicatively.",
+                "text": "Working beyond normal hours - used predicatively.",
                 "examples": [
                     "He has been working overtime for three months."
                 ]

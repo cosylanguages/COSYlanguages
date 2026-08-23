@@ -16,7 +16,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 1 — ABOUT ME & PERSONAL IDENTITY
+## PART 1 - ABOUT ME & PERSONAL IDENTITY
 
 ### UNIT 1: Personal Information & First Contact
 - **1.1 First Contact & Basic Greetings**
@@ -149,7 +149,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 2 — CLOTHES & PERSONAL BELONGINGS
+## PART 2 - CLOTHES & PERSONAL BELONGINGS
 
 ### UNIT 4: Everyday & Seasonal Clothing
 - **4.1 Everyday Upper & Lower Body Clothes**
@@ -196,7 +196,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 3 — HOME & EVERYDAY LIVING
+## PART 3 - HOME & EVERYDAY LIVING
 
 ### UNIT 5: Housing & Building Exterior
 - **5.1 House vs. Apartment Building**
@@ -262,7 +262,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 4 — FOOD, DRINK & GASTRONOMY
+## PART 4 - FOOD, DRINK & GASTRONOMY
 
 ### UNIT 7: Food Categories & Pantry
 - **7.1 Fruits & Berries**
@@ -354,7 +354,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 5 — DAILY ROUTINE, TIME & CALENDAR
+## PART 5 - DAILY ROUTINE, TIME & CALENDAR
 
 ### UNIT 9: Daily Routines (Contextual Progression)
 - **9.1 Morning Routine**
@@ -416,7 +416,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 6 — CITY, TRANSPORT & TRAVEL
+## PART 6 - CITY, TRANSPORT & TRAVEL
 
 ### UNIT 11: City Infrastructure & Places
 - **11.1 Shops & Shopping Places**
@@ -466,7 +466,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 7 — SCHOOL, WORK & TECHNOLOGY
+## PART 7 - SCHOOL, WORK & TECHNOLOGY
 
 ### UNIT 13: Education, Work & Digital Devices
 - **13.1 School & Classroom Objects**
@@ -505,7 +505,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 8 — NATURE, WEATHER & ANIMALS
+## PART 8 - NATURE, WEATHER & ANIMALS
 
 ### UNIT 14: Nature, Climate & Animals
 - **14.1 Natural Landscapes & Earth**
@@ -538,7 +538,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 9 — HOBBIES, SPORTS & LEISURE
+## PART 9 - HOBBIES, SPORTS & LEISURE
 
 ### UNIT 15: Hobbies, Physical Activity & Entertainment
 - **15.1 Hobbies & Leisure**
@@ -560,7 +560,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 10 — UNIFIED FOUNDATIONAL PRIMITIVES (MONOLITHIC BY DESIGN)
+## PART 10 - UNIFIED FOUNDATIONAL PRIMITIVES (MONOLITHIC BY DESIGN)
 
 ### UNIT 16: Primitive Core Boards
 - **16.1 Numbers 0–20, Tens, Hundreds & Thousands**
@@ -584,7 +584,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 1 — THE BUILDING BLOCKS OF ENGLISH
+## PART 1 - THE BUILDING BLOCKS OF ENGLISH
 
 ### UNIT 1: The English Alphabet & Mechanics
 - **1.1 Capital Letters vs. Small Letters**
@@ -641,7 +641,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 2 — NOUNS & POSSESSION
+## PART 2 - NOUNS & POSSESSION
 
 ### UNIT 4: What is a Noun?
 - Definition: A person, place, thing, or idea.
@@ -688,7 +688,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 3 — ARTICLES & DETERMINERS
+## PART 3 - ARTICLES & DETERMINERS
 
 ### UNIT 11: Indefinite Article 'a'
 - Used before countable singular nouns starting with a consonant sound.
@@ -719,7 +719,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 4 — PRONOUNS
+## PART 4 - PRONOUNS
 
 ### UNIT 16: Personal Subject Pronouns
 - Forms: *I, you, he, she, it, we, they*.
@@ -753,7 +753,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 5 — ADJECTIVES & COMPARISONS
+## PART 5 - ADJECTIVES & COMPARISONS
 
 ### UNIT 21: Adjective Order & Descriptive Categories
 - Position: Adjectives go BEFORE nouns (*a blue car*) or AFTER linking verbs (*the car is blue*).
@@ -782,7 +782,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 6 — ADVERBS
+## PART 6 - ADVERBS
 
 ### UNIT 23: Adverbs of Frequency, Time, Place, Manner & Degree
 - **Adverbs of Frequency:** *always (100%), usually (80%), often (60%), sometimes (40%), rarely (10%), never (0%)*.
@@ -795,7 +795,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 7 — QUANTIFIERS
+## PART 7 - QUANTIFIERS
 
 ### UNIT 24: Quantifiers & Determiners
 - **Some vs Any:**
@@ -814,7 +814,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 8 — PREPOSITIONS
+## PART 8 - PREPOSITIONS
 
 ### UNIT 25: Prepositions of Time, Place & Movement
 - **Prepositions of Time:**
@@ -830,7 +830,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 9 — VERB SYSTEM & MODALS
+## PART 9 - VERB SYSTEM & MODALS
 
 ### UNIT 26: Verb System & Modal Verbs
 - **Auxiliary Verbs (Be, Have, Do):**
@@ -847,7 +847,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 10 — TENSE SYSTEM
+## PART 10 - TENSE SYSTEM
 
 ### UNIT 27: Present Simple, Present Continuous, Past Simple & Future Forms
 - **27.1 Present Simple Tense**
@@ -873,7 +873,7 @@ This master specification defines the ultimate pedagogical specification for the
 
 ---
 
-## PART 11 — QUESTIONS & NEGATION
+## PART 11 - QUESTIONS & NEGATION
 
 ### UNIT 28: Question Formation & Negation System
 - **28.1 Yes/No Questions**

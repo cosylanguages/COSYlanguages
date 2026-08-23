@@ -28,7 +28,7 @@ This style guide establishes strict, non-negotiable standards for all Cinema Clu
 
 **Hard Rule:** No sentence frame, question stem, or discussion prompt may be repeated verbatim (with only nouns or film titles swapped) across two different films in any language.
 
-* **Verifiable Film References Required:** Every question in Part 1 and Part 2 must reference a concrete, verifiable aspect of the film — such as a specific character dynamic, plot turning point, directorial choice, visual motif, or script line.
+* **Verifiable Film References Required:** Every question in Part 1 and Part 2 must reference a concrete, verifiable aspect of the film - such as a specific character dynamic, plot turning point, directorial choice, visual motif, or script line.
 * **Prohibition of Slotting Templates:** Slotting a movie title or vocabulary word into pre-existing generic question frames (e.g., *"How does the opening of '[FILM]' show the idea of [WORD]?"* or *"'[CHARACTER]'s story of [WORD] is very sad...' Do you agree?"*) is strictly banned.
 
 ---
@@ -44,10 +44,10 @@ This style guide establishes strict, non-negotiable standards for all Cinema Clu
 
 ## Rule 5: Substantive Cinema Spotlight (Scene Study & Adaptation)
 
-**Hard Rule:** The "Cinema Spotlight — Scene Study & Adaptation" section (`#s-lst`) must contain real, substantive educational content comparing specific adaptation changes or visual directorial choices.
+**Hard Rule:** The "Cinema Spotlight - Scene Study & Adaptation" section (`#s-lst`) must contain real, substantive educational content comparing specific adaptation changes or visual directorial choices.
 
 * **Concrete Adaptation Points:** If the film is adapted from a book, play, or historical event, list specific plot, character, or tonal changes made by the filmmakers.
-* **Directorial & Visual Analysis:** If the film is an original screenplay, detail specific visual choices — such as camera movement, color palette, sound design, or set construction — that shape the audience's experience.
+* **Directorial & Visual Analysis:** If the film is an original screenplay, detail specific visual choices - such as camera movement, color palette, sound design, or set construction - that shape the audience's experience.
 * **Prohibition of Empty Header Containers:** Displaying empty grid boxes with only section titles (e.g., *"Original Screenplay Adaptations"* / *"Visual Directing & Setting Contrasts"*) without supporting bullet points or narrative text is strictly prohibited.
 
 ---

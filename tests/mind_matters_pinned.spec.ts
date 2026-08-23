@@ -5,7 +5,7 @@ test.describe('Mind Matters Pinned Batches Verification', () => {
     await page.goto('http://localhost:8080/apps/premium-events/clubs/mind/mind-matters.html');
 
     // 1. Verify page title
-    await expect(page).toHaveTitle(/Mind Matters 🧠 — COSYlanguages/);
+    await expect(page).toHaveTitle(/Mind Matters 🧠 - COSYlanguages/);
 
     // 2. Verify we have exactly 4 pinned batches under the pinned section
     const pinnedSection = page.locator('.pinned-challenges-section');

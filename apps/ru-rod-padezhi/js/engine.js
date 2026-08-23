@@ -271,11 +271,11 @@ class RussianGenderCasesEngine {
         if (isCorrect) {
             this.gameScore += 10; this.gameStreak += 1;
             feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Отлично! Слово <strong>${this.currentQuestion.noun}</strong> — ${gender} род.`;
+            feedback.innerHTML = `✅ Отлично! Слово <strong>${this.currentQuestion.noun}</strong> - ${gender} род.`;
         } else {
             this.gameStreak = 0;
             feedback.className = 'feedback-card wrong';
-            feedback.innerHTML = `❌ Ошибка! Слово <strong>${this.currentQuestion.noun}</strong> — ${this.currentQuestion.expectedGender} род.`;
+            feedback.innerHTML = `❌ Ошибка! Слово <strong>${this.currentQuestion.noun}</strong> - ${this.currentQuestion.expectedGender} род.`;
         }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;

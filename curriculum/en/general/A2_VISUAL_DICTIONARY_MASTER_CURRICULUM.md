@@ -14,7 +14,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 1 — PERSONAL LIFE, RELATIONSHIPS & CHARACTER
+## PART 1 - PERSONAL LIFE, RELATIONSHIPS & CHARACTER
 
 ### UNIT 1: Detailed Personal Profiles & Life History (A2.1)
 - **1.1 Life History, Upbringing & Biography**
@@ -70,7 +70,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 2 — HOUSING, NEIGHBOURHOOD & LIVING CONDITIONS
+## PART 2 - HOUSING, NEIGHBOURHOOD & LIVING CONDITIONS
 
 ### UNIT 3: Renting, Buying & Housing Features (A2.1)
 - **3.1 Property Listings, Rental Terms & Moving**
@@ -122,7 +122,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 3 — DAILY LIFE, WORK & CAREER
+## PART 3 - DAILY LIFE, WORK & CAREER
 
 ### UNIT 5: Workplace Communication & Professions (A2.1)
 - **5.1 Professional Tasks, Meetings & Workplace Tools**
@@ -174,7 +174,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 4 — HEALTH, FITNESS & WELLBEING
+## PART 4 - HEALTH, FITNESS & WELLBEING
 
 ### UNIT 7: Medical Appointments & Symptoms (A2.1)
 - **7.1 Medical Symptoms & Injuries**
@@ -226,7 +226,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 5 — TRAVEL, HOLIDAYS & CULTURE
+## PART 5 - TRAVEL, HOLIDAYS & CULTURE
 
 ### UNIT 9: Booking Travel & Accommodation (A2.1)
 - **9.1 Hotel & Accommodation Booking**
@@ -278,7 +278,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 6 — SHOPPING, MONEY & CONSUMER LIFE
+## PART 6 - SHOPPING, MONEY & CONSUMER LIFE
 
 ### UNIT 11: Shopping Experiences & Personal Finance
 - **11.1 Clothes Shopping & Retail Experience**
@@ -329,7 +329,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 7 — DIGITAL COMMUNICATION & MEDIA
+## PART 7 - DIGITAL COMMUNICATION & MEDIA
 
 ### UNIT 12: Digital Communication, Networks & Devices
 - **12.1 Digital Communication Channels**
@@ -356,7 +356,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 8 — EDUCATION & LEARNING
+## PART 8 - EDUCATION & LEARNING
 
 ### UNIT 13: Educational Environments, Exams & Learning Strategies
 - **13.1 School, University & Adult Education**
@@ -383,7 +383,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 9 — ENTERTAINMENT & LEISURE
+## PART 9 - ENTERTAINMENT & LEISURE
 
 ### UNIT 14: Screen, Arts, Games & Cultural Venues
 - **14.1 Books, Screen & Streaming Media**
@@ -410,7 +410,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 10 — ENVIRONMENT, NATURE & WILDLIFE
+## PART 10 - ENVIRONMENT, NATURE & WILDLIFE
 
 ### UNIT 15: Weather Dynamics, Ecology & Animal Habitats
 - **15.1 Weather Patterns & Basic Climate**
@@ -437,7 +437,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 11 — SCIENCE & TECHNOLOGY
+## PART 11 - SCIENCE & TECHNOLOGY
 
 ### UNIT 16: Technology, Innovation & Internet Safety
 - **16.1 Science Fundamentals & Everyday Tech**
@@ -464,7 +464,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 12 — EXPANDED GASTRONOMY & RESTAURANT LIFE
+## PART 12 - EXPANDED GASTRONOMY & RESTAURANT LIFE
 
 ### UNIT 17: Culinary Arts, Dining Out & Recipes
 - **17.1 Cooking Methods, Kitchen Safety & Recipes**
@@ -491,7 +491,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 13 — EXPANDED TRANSPORT & DRIVING
+## PART 13 - EXPANDED TRANSPORT & DRIVING
 
 ### UNIT 18: Road Safety, Driving & Vehicle Maintenance
 - **18.1 Driving, Road Signs & Infrastructure**
@@ -518,7 +518,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 14 — EMERGENCIES & ACCIDENTS
+## PART 14 - EMERGENCIES & ACCIDENTS
 
 ### UNIT 19: Emergency Services & Crisis Response
 - **19.1 Police, Fire & Medical Emergencies**
@@ -545,7 +545,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 15 — CULTURE, SOCIETY & CELEBRATIONS
+## PART 15 - CULTURE, SOCIETY & CELEBRATIONS
 
 ### UNIT 20: Holidays, Etiquette & Celebrations
 - **20.1 National Holidays, Customs & Social Etiquette**
@@ -572,7 +572,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 16 — PERSONAL DEVELOPMENT & GOALS
+## PART 16 - PERSONAL DEVELOPMENT & GOALS
 
 ### UNIT 21: Self-Improvement, Habits & Time Management
 - **21.1 Goals, Success, Failure & Habits**
@@ -599,7 +599,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 17 — MASTER COLLOCATIONS DICTIONARY
+## PART 17 - MASTER COLLOCATIONS DICTIONARY
 
 ### UNIT 22: Essential A2 High-Frequency Verb Collocations
 - **22.1 Collocations with MAKE**
@@ -623,7 +623,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 18 — FUNCTIONAL ENGLISH MASTERCLASS
+## PART 18 - FUNCTIONAL ENGLISH MASTERCLASS
 
 ### UNIT 23: Situational Communication Units
 - **23.1 Small Talk & Social Opening Sentences**
@@ -650,7 +650,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 19 — ENCYCLOPEDIC A2 VOCABULARY REFERENCE TABLES
+## PART 19 - ENCYCLOPEDIC A2 VOCABULARY REFERENCE TABLES
 
 ### UNIT 24: Master A2 Reference Frequency Lexicon
 - **24.1 Top 500 Most Common A2 Verbs (Cataloged by frequency and category)**
@@ -669,7 +669,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 1 — TENSES & ASPECT IN DEPTH (A2.1 & A2.2)
+## PART 1 - TENSES & ASPECT IN DEPTH (A2.1 & A2.2)
 
 ### UNIT 1: Past Simple vs. Past Continuous
 - **Formula & Mechanics:**
@@ -721,7 +721,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 2 — MODALS & EXPRESSING OBLIGATION / PERMISSION
+## PART 2 - MODALS & EXPRESSING OBLIGATION / PERMISSION
 
 ### UNIT 4: Obligation & Necessity (Have to / Must / Don't have to / Mustn't)
 - **Rules & Structural Mechanics:**
@@ -756,7 +756,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 3 — CONDITIONALS & COMPARISONS
+## PART 3 - CONDITIONALS & COMPARISONS
 
 ### UNIT 7: Zero & First Conditionals
 - **Zero Conditional (General truths, scientific facts, habits):**
@@ -797,7 +797,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 4 — CLAUSES, CONNECTORS & REPORTED SPEECH
+## PART 4 - CLAUSES, CONNECTORS & REPORTED SPEECH
 
 ### UNIT 10: Defining Relative Clauses (Who, Which, That, Where, Whose)
 - **Relative Pronouns:**
@@ -836,7 +836,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 5 — PASSIVE VOICE (A2 PRODUCTION & RECOGNITION)
+## PART 5 - PASSIVE VOICE (A2 PRODUCTION & RECOGNITION)
 
 ### UNIT 13: Passive Voice System
 - **Formula:** `Subject + BE (in appropriate tense) + Past Participle (V3)`
@@ -857,7 +857,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 6 — GERUNDS, INFINITIVES & VERB PATTERNS
+## PART 6 - GERUNDS, INFINITIVES & VERB PATTERNS
 
 ### UNIT 14: Verb Patterns & Gerund vs. Infinitive System
 - **Verbs Followed by Infinitive (`Verb + to + Base Verb`):**
@@ -888,7 +888,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 7 — QUESTION TAGS
+## PART 7 - QUESTION TAGS
 
 ### UNIT 15: Question Tag System & Intonation
 - **Forming Rules:** Affirmative statement ➔ Negative tag; Negative statement ➔ Affirmative tag.
@@ -906,7 +906,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 8 — INTENSIFIERS, AGREEMENT & ADDITIONS
+## PART 8 - INTENSIFIERS, AGREEMENT & ADDITIONS
 
 ### UNIT 16: So & Such / Either & Neither / Too, Also & As Well
 - **So vs. Such:**
@@ -927,7 +927,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 9 — HABITS & PAST STATES
+## PART 9 - HABITS & PAST STATES
 
 ### UNIT 17: Used to & Be Used to
 - **Used to + Base Verb (Past Habits & States):**
@@ -945,7 +945,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 10 — TENSE ASPECT RECOGNITION
+## PART 10 - TENSE ASPECT RECOGNITION
 
 ### UNIT 18: Present Perfect vs. Present Perfect Continuous (A2 Recognition)
 - **Present Perfect Simple (`have/has + V3`):**
@@ -960,7 +960,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 11 — INDIRECT QUESTIONS & DESIRES
+## PART 11 - INDIRECT QUESTIONS & DESIRES
 
 ### UNIT 19: Indirect Polite Questions & Basic Wish
 - **Indirect Questions (Polite Word Order - No Inversion!):**
@@ -979,7 +979,7 @@ This master specification defines the encyclopedic curriculum for the COSYlangua
 
 ---
 
-## PART 12 — THEMATIC PHRASAL VERBS MASTERCLASS (120+ ESSENTIAL A2 PHRASAL VERBS)
+## PART 12 - THEMATIC PHRASAL VERBS MASTERCLASS (120+ ESSENTIAL A2 PHRASAL VERBS)
 
 ### UNIT 20: Phrasal Verbs Categorized by Life Themes
 - **20.1 Travel & Transportation Phrasal Verbs**

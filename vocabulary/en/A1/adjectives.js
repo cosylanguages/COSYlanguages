@@ -54,7 +54,7 @@
             {
                 "text": "Of less than average height or length.",
                 "examples": [
-                    "He has a short commute — ten minutes by bike."
+                    "He has a short commute - ten minutes by bike."
                 ]
             }
         ],
@@ -244,7 +244,7 @@
             {
                 "text": "Having a low temperature; not warm.",
                 "examples": [
-                    "I need a coat — it is very cold outside."
+                    "I need a coat - it is very cold outside."
                 ]
             }
         ],
@@ -655,7 +655,7 @@
             {
                 "text": "Needing or wanting to drink.",
                 "examples": [
-                    "I am thirsty — can I have some water?"
+                    "I am thirsty - can I have some water?"
                 ]
             }
         ],
@@ -2114,7 +2114,7 @@
             {
                 "text": "Needing food.",
                 "examples": [
-                    "I am hungry — it is already two o'clock."
+                    "I am hungry - it is already two o'clock."
                 ]
             }
         ],

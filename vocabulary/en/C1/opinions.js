@@ -50,7 +50,7 @@
     },
     {
         "id": "en_advanced_psychological_concepts_c1_other_happiness_is_a_choice_circumst",
-        "t": "Happiness is a choice — circumstances are just excuses.",
+        "t": "Happiness is a choice - circumstances are just excuses.",
         "tag": "Philosophy",
         "h": [
             "Do you think happiness is within everyone's control?",
@@ -63,11 +63,11 @@
         "level": "advanced",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Happiness is a choice — circumstances are just excuses.",
+        "word": "Happiness is a choice - circumstances are just excuses.",
         "form": "other",
         "definitions": [
             {
-                "text": "Happiness is a choice — circumstances are just excuses.",
+                "text": "Happiness is a choice - circumstances are just excuses.",
                 "examples": []
             }
         ]
@@ -368,7 +368,7 @@
             "Can you think of a case where public outcry was justified?",
             "Is there a difference between accountability and punishment?",
             "Who decides what is unforgivable?",
-            "Does cancellation work — does it actually change behaviour?",
+            "Does cancellation work - does it actually change behaviour?",
             "Is there something irredeemably problematic about it, or is it just imperfect?"
         ],
         "lang": "en",

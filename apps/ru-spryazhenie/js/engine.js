@@ -96,7 +96,7 @@ class RussianConjugationEngine {
         document.getElementById('verb-result-container').style.display = 'block';
         document.getElementById('verb-infinitive').textContent = verb;
         document.getElementById('verb-group-badge').textContent = data.group;
-        document.getElementById('verb-aspect-badge').textContent = `Пара: ${data.pair || '—'}`;
+        document.getElementById('verb-aspect-badge').textContent = `Пара: ${data.pair || ' - '}`;
 
         let levelBadge = document.getElementById('verb-cefr-badge');
         if (!levelBadge) {

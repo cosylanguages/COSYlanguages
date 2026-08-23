@@ -1,6 +1,6 @@
 # Practice Exercises Audit & Duolingo Parity Strategy
 
-This document provides a thorough audit of the COSYlanguages practice exercise architecture, benchmark analysis against Duolingo's core learning and gamification mechanics, and a strategic roadmap to achieve equal—or superior—pedagogical efficacy and user retention.
+This document provides a thorough audit of the COSYlanguages practice exercise architecture, benchmark analysis against Duolingo's core learning and gamification mechanics, and a strategic roadmap to achieve equal - or superior - pedagogical efficacy and user retention.
 
 ---
 

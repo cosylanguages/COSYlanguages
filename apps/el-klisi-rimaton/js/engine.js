@@ -96,7 +96,7 @@ class GreekConjugationEngine {
         document.getElementById('verb-result-container').style.display = 'block';
         document.getElementById('verb-infinitive').textContent = verb;
         document.getElementById('verb-group-badge').textContent = data.group;
-        document.getElementById('verb-voice-badge').textContent = data.voice || '—';
+        document.getElementById('verb-voice-badge').textContent = data.voice || ' - ';
 
         let levelBadge = document.getElementById('verb-cefr-badge');
         if (!levelBadge) {

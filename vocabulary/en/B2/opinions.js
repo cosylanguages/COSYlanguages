@@ -56,7 +56,7 @@
             "What are you most nostalgic about?",
             "Do you think the past was really better?",
             "Is nostalgia comforting or does it hold you back?",
-            "Can nostalgia be dangerous — personally or politically?",
+            "Can nostalgia be dangerous - personally or politically?",
             "What does it mean that we edit our memories?"
         ],
         "lang": "en",
@@ -74,7 +74,7 @@
     },
     {
         "id": "en_upper_intermediate_people_001",
-        "t": "Most people don't really want honest feedback — they want reassurance.",
+        "t": "Most people don't really want honest feedback - they want reassurance.",
         "tag": "Human nature",
         "h": [
             "When you ask for feedback, what do you really want?",
@@ -87,11 +87,11 @@
         "level": "upper_intermediate",
         "theme": "people",
         "sub_theme": null,
-        "word": "Most people don't really want honest feedback — they want reassurance.",
+        "word": "Most people don't really want honest feedback - they want reassurance.",
         "form": "other",
         "definitions": [
             {
-                "text": "Most people don't really want honest feedback — they want reassurance.",
+                "text": "Most people don't really want honest feedback - they want reassurance.",
                 "examples": []
             }
         ]
@@ -174,7 +174,7 @@
         "tag": "Philosophy",
         "h": [
             "Can you think of a genuinely selfless act?",
-            "Does doing something good make you feel good — and does that make it selfish?",
+            "Does doing something good make you feel good - and does that make it selfish?",
             "Is this a cynical view or a realistic one?",
             "Does the motivation behind an action matter if the outcome is positive?",
             "Does believing this change how you behave?"
@@ -201,7 +201,7 @@
             "When did you expect to feel like an adult?",
             "Does everyone feel like they are pretending?",
             "Is this reassuring or terrifying?",
-            "Who is someone who seems to have it figured out — do you think they really do?"
+            "Who is someone who seems to have it figured out - do you think they really do?"
         ],
         "lang": "en",
         "level": "upper_intermediate",
@@ -266,7 +266,7 @@
     },
     {
         "id": "en_upper_intermediate_social_006",
-        "t": "Comfort zones are overrated — discomfort is where growth actually happens.",
+        "t": "Comfort zones are overrated - discomfort is where growth actually happens.",
         "tag": "Self-development",
         "h": [
             "Can you think of a time discomfort led to growth?",
@@ -279,18 +279,18 @@
         "level": "upper_intermediate",
         "theme": "social",
         "sub_theme": null,
-        "word": "Comfort zones are overrated — discomfort is where growth actually happens.",
+        "word": "Comfort zones are overrated - discomfort is where growth actually happens.",
         "form": "other",
         "definitions": [
             {
-                "text": "Comfort zones are overrated — discomfort is where growth actually happens.",
+                "text": "Comfort zones are overrated - discomfort is where growth actually happens.",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_upper_intermediate_time_001",
-        "t": "Anger is an underrated emotion — sometimes it gets things done.",
+        "t": "Anger is an underrated emotion - sometimes it gets things done.",
         "tag": "Psychology",
         "h": [
             "Do you think you express anger well?",
@@ -303,11 +303,11 @@
         "level": "upper_intermediate",
         "theme": "time",
         "sub_theme": null,
-        "word": "Anger is an underrated emotion — sometimes it gets things done.",
+        "word": "Anger is an underrated emotion - sometimes it gets things done.",
         "form": "other",
         "definitions": [
             {
-                "text": "Anger is an underrated emotion — sometimes it gets things done.",
+                "text": "Anger is an underrated emotion - sometimes it gets things done.",
                 "examples": []
             }
         ]

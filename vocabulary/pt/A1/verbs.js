@@ -1478,7 +1478,7 @@
             {
                 "text": "Preparar comida aquecendo-a.",
                 "examples": [
-                    "Ela cozinha o jantar todas as noites. Eu não cozinho — encomendo comida."
+                    "Ela cozinha o jantar todas as noites. Eu não cozinho - encomendo comida."
                 ]
             }
         ],

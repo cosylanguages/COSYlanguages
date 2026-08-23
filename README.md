@@ -8,11 +8,11 @@ https://cosylanguages.github.io/COSYlanguages/
 ## Languages
 | Code | Language | Status | Notes |
 |------|----------|--------|-------|
-| en | English | ✅ Active | — |
-| fr | French | ✅ Active | — |
-| it | Italian | ✅ Active | — |
-| ru | Russian | ✅ Active | — |
-| el | Greek | ✅ Active | — |
+| en | English | ✅ Active | - |
+| fr | French | ✅ Active | - |
+| it | Italian | ✅ Active | - |
+| ru | Russian | ✅ Active | - |
+| el | Greek | ✅ Active | - |
 | es | Spanish | 🔜 Coming soon | May have partial data |
 | de | German | 🔜 Coming soon | May have partial data |
 | pt | Portuguese | 🔜 Coming soon | May have partial data |

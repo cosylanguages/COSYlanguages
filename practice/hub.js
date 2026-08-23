@@ -288,7 +288,7 @@
         startMistakeReview() {
             const engine = window.cosyPracticeEngine;
             if (!engine || !engine.state.mistakes || engine.state.mistakes.length === 0) {
-                const msg = "No mistakes saved yet — well done! Practice new themes to test your skills. 🌟";
+                const msg = "No mistakes saved yet - well done! Practice new themes to test your skills. 🌟";
                 if (window.COSY && window.COSY.showToast) window.COSY.showToast(msg, false);
                 else alert(msg);
                 return;

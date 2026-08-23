@@ -9,19 +9,19 @@
 This master specification defines the definitive **English Encyclopedia of Mastery** for the COSYlanguages C2 English ecosystem (unifying **C2.1** and **C2.2** CEFR sub-levels). At C2, language learning evolves from grammatical accuracy into native-level stylistic choice, unconstrained rhetorical impact, near-native prosody, genre mastery, cultural/literary erudition, and domain-specific authority.
 
 The course is organized into **5 Integrated Architectural Pillars**:
-1. **Pillar I — Encyclopedic Visual Dictionary** (45 Specialized Domains across 10 Strategic Master Fields).
-2. **Pillar II — Grammar, Stylistics & Information Packaging** (Register Shifting, Sentence Cadence & Corpus Mechanics).
-3. **Pillar III — Rhetoric, Discourse & Near-Native Communication** (Persuasion, Diplomatic Tact, Irony & Near-Native Prosody).
-4. **Pillar IV — Professional & Academic Mastery** (Legal Opinions, Executive Leadership & Boardroom Negotiations).
-5. **Pillar V — Literary & Cultural Competence & Encyclopedic Reference Suite** (Shakespearean Allusions, Mythological Metaphors, Classical Loan Expressions, Synonym Networks, and Corpus Error Diagnostics).
+1. **Pillar I - Encyclopedic Visual Dictionary** (45 Specialized Domains across 10 Strategic Master Fields).
+2. **Pillar II - Grammar, Stylistics & Information Packaging** (Register Shifting, Sentence Cadence & Corpus Mechanics).
+3. **Pillar III - Rhetoric, Discourse & Near-Native Communication** (Persuasion, Diplomatic Tact, Irony & Near-Native Prosody).
+4. **Pillar IV - Professional & Academic Mastery** (Legal Opinions, Executive Leadership & Boardroom Negotiations).
+5. **Pillar V - Literary & Cultural Competence & Encyclopedic Reference Suite** (Shakespearean Allusions, Mythological Metaphors, Classical Loan Expressions, Synonym Networks, and Corpus Error Diagnostics).
 
 ---
 
-# PILLAR I — ENCYCLOPEDIC VISUAL DICTIONARY
+# PILLAR I - ENCYCLOPEDIC VISUAL DICTIONARY
 
 ---
 
-## PART 1 — ADVANCED LITERATURE, POETICS & LITERARY CRITICISM
+## PART 1 - ADVANCED LITERATURE, POETICS & LITERARY CRITICISM
 - **1.1 Literary Genres, Sub-Genres & Narrative Forms**
   - **Core Lexicon:** Epic, tragedy, comedy, satire, pastoral, gothic, dystopian, utopian, magical realism, bildungsroman, historical fiction, metafiction, flash fiction, creative nonfiction, epistolary novel.
   - **Essential Verbs:** Subvert, satirize, foreshadow, allegorize, juxtapose, deconstruct, characterize.
@@ -54,7 +54,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 2 — METAPHYSICS, EPISTEMOLOGY & PHILOSOPHICAL DISCIPLINES
+## PART 2 - METAPHYSICS, EPISTEMOLOGY & PHILOSOPHICAL DISCIPLINES
 - **2.1 Branches of Philosophical Inquiry**
   - **Core Lexicon:** Metaphysics, ontology, epistemology, logic, ethics, political philosophy, existentialism, phenomenology, stoicism, utilitarianism, pragmatism, absurdism, analytic philosophy, continental philosophy, philosophy of language, philosophy of mind, philosophy of science.
   - **Essential Verbs:** Postulate, deliberate, extrapolate, refute, transcend, conceptualize.
@@ -67,7 +67,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 3 — ENCYCLOPEDIC JURISPRUDENCE & STATUTORY DRAFTING
+## PART 3 - ENCYCLOPEDIC JURISPRUDENCE & STATUTORY DRAFTING
 - **3.1 Constitutional, Civil & Criminal Law**
   - **Core Lexicon:** Constitutional law, civil law, criminal law, international law, human rights, intellectual property, corporate law, employment law, administrative law, environmental law, tax law, contract law, legal drafting, court procedure, legal Latin, obiter dictum, ratio decidendi, habeas corpus, mens rea, actus reus.
   - **Essential Verbs:** Enact, adjudicate, codify, draft, invoke, rescind, invalidate.
@@ -80,7 +80,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 4 — MACROECONOMICS, FINANCIAL DERIVATIVES & GAME THEORY
+## PART 4 - MACROECONOMICS, FINANCIAL DERIVATIVES & GAME THEORY
 - **4.1 Economic Theories & Global Markets**
   - **Core Lexicon:** Microeconomics, macroeconomics, international finance, central banking, monetary policy, fiscal policy, investment, financial derivatives, corporate finance, accounting, behavioural economics, development economics, game theory, economic history, Nash equilibrium, collateralized debt obligation, credit default swap.
   - **Essential Verbs:** Hedge, arbitrage, leverage, speculate, default, equilibrium, regulate.
@@ -93,7 +93,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 5 — ADVANCED SCIENCE, NEUROSCIENCE & QUANTUM TECH
+## PART 5 - ADVANCED SCIENCE, NEUROSCIENCE & QUANTUM TECH
 - **5.1 Pure & Applied Sciences**
   - **Core Lexicon:** Theoretical physics, organic chemistry, molecular biology, genetics, clinical medicine, astronomy, astrophysics, climate science, neuroscience, artificial intelligence, quantum mechanics terminology, research design, quantum entanglement, superposition, CRISPR gene editing.
   - **Essential Verbs:** Entangle, sequence, synthesize, superimpose, catalyze, modulate.
@@ -106,7 +106,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 6 — CYBERNETICS, COMPUTING & DIGITAL ETHICS
+## PART 6 - CYBERNETICS, COMPUTING & DIGITAL ETHICS
 - **6.1 Advanced Computing & Artificial Intelligence**
   - **Core Lexicon:** Machine learning, deep learning, large language models (LLMs), cybersecurity, programming paradigms, cloud computing, network architecture, operating systems, data science, blockchain, virtual reality, augmented reality, quantum computing, automation, human-computer interaction (HCI), algorithmic governance.
   - **Essential Verbs:** Fine-tune, benchmark, deploy, virtualize, orchestrate, encrypt.
@@ -119,7 +119,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 7 — HISTORIOGRAPHY, HERITAGE & CIVILIZATIONS
+## PART 7 - HISTORIOGRAPHY, HERITAGE & CIVILIZATIONS
 - **7.1 Historical Eras & Historiographical Methodology**
   - **Core Lexicon:** Ancient history, Middle Ages, Renaissance, Industrial Revolution, World Wars, Cold War, modern history, history of science, history of philosophy, history of English, historiography, archival research, revisionism, primary source analysis, historical determinism.
   - **Essential Verbs:** Contextualize, archive, extrapolate, deconstruct, corroborate, periodize.
@@ -132,7 +132,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 8 — FINE ARTS, MUSICOLOGY & ARCHITECTURE
+## PART 8 - FINE ARTS, MUSICOLOGY & ARCHITECTURE
 - **8.1 Visual & Performing Arts**
   - **Core Lexicon:** Painting, sculpture, architecture, musicology, opera, theatre, cinema, photography, graphic design, fashion, contemporary art, curatorial practice, avant-garde, polyphony, atonality, chiaroscuro.
   - **Essential Verbs:** Compose, juxtapose, curate, orchestrate, exhibit, evoke.
@@ -145,7 +145,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 9 — MEDIA, BROADCASTING & PUBLIC RELATIONS
+## PART 9 - MEDIA, BROADCASTING & PUBLIC RELATIONS
 - **8.1 Journalism, Media Ethics & Propaganda**
   - **Core Lexicon:** Investigative journalism, broadcasting, publishing, advertising, political communication, public relations, media ethics, documentaries, digital media, press freedom, disinformation, manufacturing consent, fourth estate, spin doctor.
   - **Essential Verbs:** Broadcast, investigate, spin, manufacture, expose, censor.
@@ -158,7 +158,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 10 — CLINICAL PSYCHOLOGY & COGNITIVE SCIENCE
+## PART 10 - CLINICAL PSYCHOLOGY & COGNITIVE SCIENCE
 - **10.1 Psychological Frameworks & Behavioral Science**
   - **Core Lexicon:** Clinical psychology, developmental psychology, behavioural psychology, cognitive science, educational psychology, social psychology, personality theory, neuroscience, psychotherapy, cognitive biases, psychoanalysis, cognitive restructuring, neuroplasticity.
   - **Essential Verbs:** Restructure, condition, internalize, diagnose, analyze, remediate.
@@ -171,11 +171,11 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-# PILLAR II — GRAMMAR, STYLISTIC CHOICE & INFORMATION PACKAGING
+# PILLAR II - GRAMMAR, STYLISTIC CHOICE & INFORMATION PACKAGING
 
 ---
 
-## PART 1 — INFORMATION STRUCTURE & RHETORICAL PACKAGING
+## PART 1 - INFORMATION STRUCTURE & RHETORICAL PACKAGING
 - **Theme/Rheme Dynamics:** Strategic placement of known vs new information to achieve near-native prose flow and unconstrained readability.
 - **End-Weight & End-Focus:** Arranging complex, heavy clauses at sentence termination for maximum rhetorical impact.
   - *Example:* "Underpinning the entire economic recovery plan was **an uncompromising commitment to international regulatory compliance**."
@@ -185,7 +185,7 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 2 — REGISTER SHIFTING MASTERCLASS
+## PART 2 - REGISTER SHIFTING MASTERCLASS
 - **Multi-Register Transformations:** Seamlessly translating identical semantic content across **6 Registers**:
   1. *Conversational / Informal:* "We need to fix this problem fast or we'll lose money."
   2. *Corporate Business:* "Prompt resolution of this operational bottleneck is essential to safeguard profitability."
@@ -196,49 +196,49 @@ The course is organized into **5 Integrated Architectural Pillars**:
 
 ---
 
-## PART 3 — STYLISTICS, SENTENCE CADENCE & CORPUS MECHANICS
+## PART 3 - STYLISTICS, SENTENCE CADENCE & CORPUS MECHANICS
 - **Sentence Cadence & Rhythm:** Alternating short staccato sentences with periodic and balanced sentences to control reading pace.
 - **Corpus-Grounded Grammar:** Masterclass in authentic, highly natural C2 structures drawn from international corpora.
 - **Dialect & Regional Variety Awareness:** Recognizing vocabulary, grammar, and usage distinctions across British, American, Australian, Irish, Canadian, Indian, and South African English.
 
 ---
 
-# PILLAR III — RHETORIC, DISCOURSE & NEAR-NATIVE COMMUNICATION
+# PILLAR III - RHETORIC, DISCOURSE & NEAR-NATIVE COMMUNICATION
 
 ---
 
-## PART 1 — HIGH-LEVEL RHETORIC, PERSUASION & DIPLOMACY
+## PART 1 - HIGH-LEVEL RHETORIC, PERSUASION & DIPLOMACY
 - **Rhetorical Mastery:** Classical persuasion (ethos, pathos, logos), political speechwriting, scientific presentation, and conference addresses.
 - **Diplomatic Tact & Subtlety:** Expressing dissent, negotiating concessions, and resolving conflicts without causing offence.
 - **Irony, Satire & Humor:** Mastering dry humor, double entendre, sardonic commentary, and cultural wit.
 
 ---
 
-## PART 2 — NEAR-NATIVE PROSODY & PUBLIC SPEAKING
+## PART 2 - NEAR-NATIVE PROSODY & PUBLIC SPEAKING
 - **Prosodic Control:** Pitch modulation, emotional intonation, contrastive stress, and voice projection for keynotes and public addresses.
 
 ---
 
-# PILLAR IV — PROFESSIONAL & ACADEMIC MASTERY
+# PILLAR IV - PROFESSIONAL & ACADEMIC MASTERY
 
 ---
 
-## PART 1 — EXECUTIVE LEADERSHIP & ACADEMIC PUBLISHING
+## PART 1 - EXECUTIVE LEADERSHIP & ACADEMIC PUBLISHING
 - **Academic Writing:** Research papers, grant proposals, conference abstracts, literature reviews, white papers, and policy reports.
 - **Professional & Executive Leadership:** Boardroom meetings, crisis communication, media interviews, legal opinions, and high-stakes international negotiations.
 
 ---
 
-# PILLAR V — LITERARY & CULTURAL COMPETENCE & REFERENCE SUITE
+# PILLAR V - LITERARY & CULTURAL COMPETENCE & REFERENCE SUITE
 
 ---
 
-## PART 1 — CULTURAL ALLUSIONS, SHAKESPEARE & CLASSICAL ALLUSIONS
+## PART 1 - CULTURAL ALLUSIONS, SHAKESPEARE & CLASSICAL ALLUSIONS
 - **Historical & Cultural References:** Origins of idioms, Biblical allusions, Shakespearean expressions (*hoist with his own petard, the green-eyed monster, the pound of flesh, sound and fury*), and Greek/Roman mythological metaphors (*Achilles' heel, Pandora's box, Trojan horse, Pyrrhic victory*).
 
 ---
 
-## PART 2 — ENCYCLOPEDIC C2 MASTER REFERENCE SUITE
+## PART 2 - ENCYCLOPEDIC C2 MASTER REFERENCE SUITE
 1. **4,000–5,000 Advanced C2 Lexical Items (Domain-categorized)**
 2. **2,000+ Native-Level Collocations with Register Notes**
 3. **1,000+ C2 Idioms (Labelled as Common, Formal, Literary, or Regional)**

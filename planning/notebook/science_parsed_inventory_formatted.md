@@ -52,7 +52,7 @@ Huma...
   - Round 2 questions count: 10
 
 ### `ai-reality-delusion.html`
-- **Title:** AI: Reality or Delusion — Chatbots and distorted beliefs
+- **Title:** AI: Reality or Delusion - Chatbots and distorted beliefs
 - **Level:** Upper-Intermediate (B2)
 - **Topic/Theme:** AI Psychology / Cognitive Biases
 - **Date:** 09 May 2026
@@ -368,7 +368,7 @@ Higher sen...
   - Round 2 questions count: 10
 
 ### `fusion-energy.html`
-- **Title:** The Future of Fusion Energy — Clean power for everyone?
+- **Title:** The Future of Fusion Energy - Clean power for everyone?
 - **Level:** Upper-Intermediate (B2)
 - **Topic/Theme:** Nuclear Physics / Clean Energy
 - **Date:** 15 August 2025
@@ -517,7 +517,7 @@ Induced signa...
   - Round 2 questions count: 10
 
 ### `impersonation-accounts.html`
-- **Title:** Impersonation Accounts — Digital Identity Theft
+- **Title:** Impersonation Accounts - Digital Identity Theft
 - **Level:** Intermediate (B1)
 - **Topic/Theme:** Cybersecurity and Digital Fraud
 - **Date:** 30 November 2025
@@ -634,7 +634,7 @@ Speech varie...
   - Round 2 questions count: 10
 
 ### `mendelian-laws-broken.html`
-- **Title:** Broken Laws — Rethinking Genetics
+- **Title:** Broken Laws - Rethinking Genetics
 - **Level:** Advanced (C1)
 - **Topic/Theme:** Genetics / Heredity
 - **Date:** 30 May 2026

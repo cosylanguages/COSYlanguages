@@ -1251,7 +1251,7 @@
     "antonyms": [
       "gamba"
     ],
-    "grammar_rule": "💡 RICORDA: Maschile al singolare ('il braccio'), ma appartiene a un piccolo gruppo di nomi (come 'dito' -> 'le dita') che diventano femminili al plurale — non è una regola generale per le parti del corpo (es. 'il piede' -> 'i piedi' resta maschile).",
+    "grammar_rule": "💡 RICORDA: Maschile al singolare ('il braccio'), ma appartiene a un piccolo gruppo di nomi (come 'dito' -> 'le dita') che diventano femminili al plurale - non è una regola generale per le parti del corpo (es. 'il piede' -> 'i piedi' resta maschile).",
     "article": "il",
     "plural": "braccia",
     "irregular": true
@@ -1487,7 +1487,7 @@
     "article": "il",
     "plural": "dita",
     "irregular": true,
-    "grammar_rule": "💡 RICORDA: Maschile al singolare ('il dito'), ma diventa femminile al plurale ('le dita') — stesso fenomeno di 'il braccio' -> 'le braccia'."
+    "grammar_rule": "💡 RICORDA: Maschile al singolare ('il dito'), ma diventa femminile al plurale ('le dita') - stesso fenomeno di 'il braccio' -> 'le braccia'."
   },
   "dolore": {
     "gender": "Maschile",
@@ -1914,7 +1914,7 @@
     "antonyms": [
       "pane"
     ],
-    "grammar_rule": "💡 RICORDA: Sostantivo maschile al singolare ('l'uovo'), ma appartiene al gruppo di nomi di origine neutra latina che al plurale diventano femminili ('le uova') — come 'il braccio' -> 'le braccia'.",
+    "grammar_rule": "💡 RICORDA: Sostantivo maschile al singolare ('l'uovo'), ma appartiene al gruppo di nomi di origine neutra latina che al plurale diventano femminili ('le uova') - come 'il braccio' -> 'le braccia'.",
     "article": "l'",
     "plural": "uova",
     "irregular": true
@@ -2708,7 +2708,7 @@
     ],
     "article": "la",
     "plural": "domeniche",
-    "grammar_rule": "💡 REMEMBER: Nome femminile — forma il plurale regolare in '-che' ('le domeniche').",
+    "grammar_rule": "💡 REMEMBER: Nome femminile - forma il plurale regolare in '-che' ('le domeniche').",
     "irregular": false
   },
   "piatto": {

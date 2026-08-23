@@ -805,7 +805,7 @@
         "subtext": "economic output, Gross Domestic Product",
         "definitions": [
             {
-                "text": "Gross Domestic Product — the total value of goods and services produced in a country.",
+                "text": "Gross Domestic Product - the total value of goods and services produced in a country.",
                 "examples": [
                     "GDP growth slowed significantly last quarter."
                 ]

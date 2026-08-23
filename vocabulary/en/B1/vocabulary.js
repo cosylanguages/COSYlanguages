@@ -2023,7 +2023,7 @@
             {
                 "text": "Activities done deliberately to maintain physical or mental health.",
                 "examples": [
-                    "Self-care is not a luxury — it is a necessity."
+                    "Self-care is not a luxury - it is a necessity."
                 ]
             }
         ],

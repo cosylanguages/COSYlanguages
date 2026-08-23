@@ -75,11 +75,11 @@ def fix_standalone(rel_path, song_info):
     # We want exact replacement of Stage 4 round-body content
     new_disc_body = (
         f'        <div class="round-1" style="margin-bottom: 2rem;">\n'
-        f'          <h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n'
+        f'          <h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 - Lyric Analysis &amp; Discussion</h3>\n'
         f'{r1_html}\n'
         f'        </div>\n'
         f'        <div class="round-2" style="margin-top: 2rem;">\n'
-        f'          <h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n'
+        f'          <h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 - Broad Themes &amp; Philosophy Debate</h3>\n'
         f'{r2_html}\n'
         f'        </div>'
     )

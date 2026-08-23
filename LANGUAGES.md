@@ -16,6 +16,6 @@
 | ba | Bashkir | Башҡортса | 🔜 Soon | check repo | check repo | check repo |
 | br | Breton | Brezhoneg | 🔜 Soon | check repo | check repo | check repo |
 
-> **Note:** "check repo" means data may already exist for that language — audit each folder before assuming it is empty.
+> **Note:** "check repo" means data may already exist for that language - audit each folder before assuming it is empty.
 > A language being "coming soon" on the public site does NOT mean there is no data for it internally.
 > James decides when a language goes from 🔜 to ✅.

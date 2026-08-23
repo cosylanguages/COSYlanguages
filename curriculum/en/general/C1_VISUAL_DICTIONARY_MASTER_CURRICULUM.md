@@ -9,18 +9,18 @@
 This master specification defines the ultimate encyclopedic advanced curriculum for the COSYlanguages C1 English ecosystem (unifying **C1.1** and **C1.2** CEFR sub-levels). At C1, learners move beyond standard grammatical correctness into high-level stylistic control, lexical precision, register fluidity, discourse cohesion, rhetorical impact, and academic/professional literacy.
 
 The course is organized into **4 Integrated Architectural Pillars**:
-1. **Pillar I — Visual Dictionary & Lexical Knowledge Map** (35 Encyclopedic Parts across 14 Strategic Advanced Domains).
-2. **Pillar II — Grammar Knowledge Tree** (Syntactic Sophistication, Hedging, Information Packaging & Cohesion).
-3. **Pillar III — Discourse, Writing & Public Speaking Masterclass** (Academic Genres, Workplace Rhetoric & Connected Speech).
-4. **Pillar IV — Academic & Professional Reference Suite** (16 Encyclopedic Reference Tables including AWL, NAWL, Latin/French Loan Expressions, Corpus Error Diagnostics, and Register Style Guides).
+1. **Pillar I - Visual Dictionary & Lexical Knowledge Map** (35 Encyclopedic Parts across 14 Strategic Advanced Domains).
+2. **Pillar II - Grammar Knowledge Tree** (Syntactic Sophistication, Hedging, Information Packaging & Cohesion).
+3. **Pillar III - Discourse, Writing & Public Speaking Masterclass** (Academic Genres, Workplace Rhetoric & Connected Speech).
+4. **Pillar IV - Academic & Professional Reference Suite** (16 Encyclopedic Reference Tables including AWL, NAWL, Latin/French Loan Expressions, Corpus Error Diagnostics, and Register Style Guides).
 
 ---
 
-# PILLAR I — VISUAL DICTIONARY & LEXICAL KNOWLEDGE MAP
+# PILLAR I - VISUAL DICTIONARY & LEXICAL KNOWLEDGE MAP
 
 ---
 
-## PART 1 — ADVANCED ACADEMIC DISCOURSE & RESEARCH
+## PART 1 - ADVANCED ACADEMIC DISCOURSE & RESEARCH
 - **1.1 Academic Genres & Research Publications**
   - **Core Lexicon:** Research article, systematic review, meta-analysis, case study, white paper, policy brief, technical report, position paper, dissertation, abstract, monograph, editorial, peer review.
   - **Essential Verbs:** Synthesize, assert, postulate, corroborate, substantiate, refute, extrapolate, articulate, scrutinize.
@@ -53,7 +53,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 2 — JURISPRUDENCE, LITIGATION & CONSTITUTIONAL LAW
+## PART 2 - JURISPRUDENCE, LITIGATION & CONSTITUTIONAL LAW
 - **2.1 Criminal Law & Judicial Proceedings**
   - **Core Lexicon:** Felony, misdemeanour, indictment, prosecution, defence, plea bargain, probation, parole, sentence, appeal, verdict, affidavit, testimony, subpoena.
   - **Essential Verbs:** Indict, testify, prosecute, convict, acquit, cross-examine, subpoena, overturn.
@@ -86,7 +86,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 3 — ECONOMICS, FINANCIAL MARKETS & FISCAL POLICY
+## PART 3 - ECONOMICS, FINANCIAL MARKETS & FISCAL POLICY
 - **3.1 Microeconomics, Macroeconomics & Behavioural Economics**
   - **Core Lexicon:** Microeconomics, macroeconomics, behavioural economics, supply and demand, fiscal policy, monetary policy, market equilibrium, price elasticity, nudge theory, systemic risk.
   - **Essential Verbs:** Regulate, fluctuate, stimulate, intervene, stabilize, nudge, equilibrium.
@@ -109,7 +109,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 4 — CORPORATE GOVERNANCE & BUSINESS MANAGEMENT
+## PART 4 - CORPORATE GOVERNANCE & BUSINESS MANAGEMENT
 - **4.1 Executive Leadership, Operations & HR**
   - **Core Lexicon:** Corporate governance, executive leadership, operations management, human resources, talent acquisition, performance appraisal, change management, organizational culture.
   - **Essential Verbs:** Spearhead, restructure, optimize, appraise, cultivate, delegate, audit.
@@ -132,7 +132,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 5 — MEDICINE, PUBLIC HEALTH & BIOETHICS
+## PART 5 - MEDICINE, PUBLIC HEALTH & BIOETHICS
 - **5.1 Diagnostics, Clinical Trials & Specialties**
   - **Core Lexicon:** Medical specialty, diagnostic tool, clinical trial, epidemiology, public health, pharmacology, bioethics, surgical procedure, pathogen, efficacy, palliative care.
   - **Essential Verbs:** Diagnose, administer, evaluate, isolate, immunize, alleviate.
@@ -145,7 +145,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 6 — NATURAL SCIENCES, NEUROSCIENCE & CLIMATE SCIENCE
+## PART 6 - NATURAL SCIENCES, NEUROSCIENCE & CLIMATE SCIENCE
 - **6.1 Physics, Chemistry, Biology & Genetics**
   - **Core Lexicon:** Quantum mechanics, molecular biology, genetics, evolutionary theory, neuroscience, climate science, cognitive neural pathway, genome mapping, thermodynamic law.
   - **Essential Verbs:** Sequence, synthesize, map, evolve, oscillate, stimulate, model.
@@ -158,7 +158,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 7 — ADVANCED TECHNOLOGY, AI & CYBERNETICS
+## PART 7 - ADVANCED TECHNOLOGY, AI & CYBERNETICS
 - **7.1 Artificial Intelligence, Machine Learning & Robotics**
   - **Core Lexicon:** Deep learning, neural network, cybernetics, computer vision, natural language processing, robotics, automation, generative AI, algorithm optimization.
   - **Essential Verbs:** Train, deploy, optimize, automate, generate, process, fine-tune.
@@ -181,7 +181,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 8 — MEDIA, JOURNALISM & PUBLIC DISCOURSE
+## PART 8 - MEDIA, JOURNALISM & PUBLIC DISCOURSE
 - **8.1 Investigative Journalism & Press Freedom**
   - **Core Lexicon:** Investigative journalism, broadcasting, press freedom, media manipulation, public relations, whistleblower, information censorship, freedom of information, editorial independence.
   - **Essential Verbs:** Expose, scrutinize, censor, broadcast, leak, redact, investigate.
@@ -194,7 +194,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 9 — PHILOSOPHY, ETHICS & EPISTEMOLOGY
+## PART 9 - PHILOSOPHY, ETHICS & EPISTEMOLOGY
 - **9.1 Morality, Existentialism & Epistemology**
   - **Core Lexicon:** Epistemology, metaphysics, ethics, morality, free will, determinism, existentialism, logic, critical thinking, phenomenology, normative ethics.
   - **Essential Verbs:** Postulate, deliberate, deduce, refute, rationalize, contemplate.
@@ -207,7 +207,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 10 — PSYCHOLOGY, COGNITION & BEHAVIOR
+## PART 10 - PSYCHOLOGY, COGNITION & BEHAVIOR
 - **10.1 Cognitive Biases, Mental Disorders & Therapy**
   - **Core Lexicon:** Cognitive bias, psychological disorder, psychotherapy, neurosis, behavioral psychology, motivation, memory consolidation, confirmation bias, cognitive dissonance.
   - **Essential Verbs:** Internalize, condition, cognitive, rationalize, alleviate, consolidate.
@@ -220,7 +220,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 11 — HIGHER EDUCATION, PEDAGOGY & ACADEMICS
+## PART 11 - HIGHER EDUCATION, PEDAGOGY & ACADEMICS
 - **11.1 Academic Literacy, Assessment & Pedagogy**
   - **Core Lexicon:** Pedagogy, curriculum development, formative assessment, higher education, academic literacy, research grant, tenure, scholastic achievement.
   - **Essential Verbs:** Assess, innovate, cultivate, evaluate, publish, tenure.
@@ -233,7 +233,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 12 — CULTURE, HERITAGE & FINE ARTS
+## PART 12 - CULTURE, HERITAGE & FINE ARTS
 - **12.1 Aesthetics, Literature & Architectural Heritage**
   - **Core Lexicon:** Aesthetics, literary theory, architectural design, opera, fine art, cultural heritage, museum curation, restoration, iconography.
   - **Essential Verbs:** Curate, restore, critique, preserve, exhibit, embody.
@@ -246,7 +246,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 13 — INTERNATIONAL RELATIONS & DIPLOMACY
+## PART 13 - INTERNATIONAL RELATIONS & DIPLOMACY
 - **13.1 Geopolitics, Soft Power & Peacekeeping**
   - **Core Lexicon:** Diplomacy, geopolitics, soft power, multilateral alliance, international sanctions, peacekeeping mission, territorial integrity, sovereignty, hegemony.
   - **Essential Verbs:** Exercise, impose, ratify, mediate, maintain, broker.
@@ -259,7 +259,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 14 — ENVIRONMENT, ECOLOGY & CIRCULAR ECONOMY
+## PART 14 - ENVIRONMENT, ECOLOGY & CIRCULAR ECONOMY
 - **14.1 Climate Adaptation, Biodiversity & Green Tech**
   - **Core Lexicon:** Circular economy, carbon market, biodiversity loss, climate adaptation, green technology, ocean conservation, ecological footprint, zero emissions.
   - **Essential Verbs:** Adapt, mitigate, conserve, offset, restore, decouple.
@@ -272,11 +272,11 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-# PILLAR II — GRAMMAR KNOWLEDGE TREE
+# PILLAR II - GRAMMAR KNOWLEDGE TREE
 
 ---
 
-## PART 1 — ADVANCED HEDGING, NUANCE & MODALITY
+## PART 1 - ADVANCED HEDGING, NUANCE & MODALITY
 
 ### UNIT 1: Advanced Hedging & Academic Stance Devices
 - **Hedging Devices & Nuance Control:**
@@ -299,7 +299,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 2 — INFORMATION PACKAGING, COHESION & SENTENCE VARIETY
+## PART 2 - INFORMATION PACKAGING, COHESION & SENTENCE VARIETY
 
 ### UNIT 3: Theme, Rheme & Information Packaging
 - **Theme/Rheme Alignment:** Placing known information in the Theme position (sentence start) and new/important information in the Rheme position (sentence end) to optimize readability and discourse flow.
@@ -320,15 +320,15 @@ The course is organized into **4 Integrated Architectural Pillars**:
   - *To invest without research is risky; to research without investing is futile.*
 
 ### UNIT 6: Advanced Punctuation Mechanics
-- Stylistic control using semicolons (`;`), colons (`:`), em dashes (`—`), and parentheses to modulate reading cadence in formal prose.
+- Stylistic control using semicolons (`;`), colons (`:`), em dashes (` - `), and parentheses to modulate reading cadence in formal prose.
 
 ---
 
-# PILLAR III — DISCOURSE, WRITING & PUBLIC SPEAKING MASTERCLASS
+# PILLAR III - DISCOURSE, WRITING & PUBLIC SPEAKING MASTERCLASS
 
 ---
 
-## PART 1 — ACADEMIC & PROFESSIONAL WRITING (10 GENRES)
+## PART 1 - ACADEMIC & PROFESSIONAL WRITING (10 GENRES)
 1. **Argumentative & Discursive Academic Essays**
 2. **Research Paper Summaries & Abstracts**
 3. **Critical Reviews of Literature**
@@ -342,13 +342,13 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 2 — PROFESSIONAL WORKPLACE & PUBLIC SPEAKING
+## PART 2 - PROFESSIONAL WORKPLACE & PUBLIC SPEAKING
 - **Public Speaking Rhetoric:** Hooking audiences, storytelling, rhetorical devices (anaphora, rule of three, antithesis), handling Q&A under high pressure.
 - **Connected Speech & Intonation:** Contrastive stress, thought group chunking, pitch range modulation for executive presentations.
 
 ---
 
-# PILLAR IV — ACADEMIC & PROFESSIONAL REFERENCE SUITE
+# PILLAR IV - ACADEMIC & PROFESSIONAL REFERENCE SUITE
 
 ---
 

@@ -17,7 +17,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 1 — PERSONALITY, PSYCHOLOGY & EMOTIONS
+## PART 1 - PERSONALITY, PSYCHOLOGY & EMOTIONS
 
 ### UNIT 1: Character Nuances, Temperament & Self-Identity (B1.1)
 - **Core Nouns:** Identity, ambition, empathy, self-confidence, insecurity, temperament, charisma, reliability, integrity, attitude, perspective, self-esteem, flaw, virtue.
@@ -59,7 +59,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 2 — WORK, CAREER & BUSINESS COMMUNICATION
+## PART 2 - WORK, CAREER & BUSINESS COMMUNICATION
 
 ### UNIT 3: Employment, Applications & Recruitment (B1.1)
 - **Core Nouns:** Cover letter, CV/resume, portfolio, reference, background check, candidate, recruiter, hiring manager, vacancy, remuneration, probation period, incentive.
@@ -101,7 +101,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 3 — MEDIA, DIGITAL LIFE & CYBERSECURITY
+## PART 3 - MEDIA, DIGITAL LIFE & CYBERSECURITY
 
 ### UNIT 5: News Consumption, Media Bias & Fake News (B1.1)
 - **Core Nouns:** Article, headline, source, media bias, objectivity, broadcast, reporting, journalist, editor, censorship, fake news, fact-checking, propaganda.
@@ -143,7 +143,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 4 — ECOLOGY, CLIMATE & SUSTAINABILITY
+## PART 4 - ECOLOGY, CLIMATE & SUSTAINABILITY
 
 ### UNIT 7: Environmental Issues & Green Action (B1.2)
 - **Core Nouns:** Climate change, global warming, renewable energy, carbon footprint, pollution, deforestation, sustainability, recycling, biodiversity, conservation, ecosystem.
@@ -166,7 +166,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 5 — HEALTH, MEDICINE & LIFESTYLE
+## PART 5 - HEALTH, MEDICINE & LIFESTYLE
 
 ### UNIT 8: Physical Health, Illness & Medical Care
 - **Core Nouns:** Symptoms, diagnosis, infection, prescription, painkillers, emergency ward, health insurance, consultation, GP, specialist, recovery, side effects.
@@ -208,7 +208,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 6 — TRAVEL, IMMIGRATION & GLOBAL MOBILITY
+## PART 6 - TRAVEL, IMMIGRATION & GLOBAL MOBILITY
 
 ### UNIT 10: Travel Infrastructure, Visas & Mobility
 - **Core Nouns:** Customs clearance, immigration control, passport control, visa application, travel insurance, lost luggage claim, boarding gate, itinerary, backpacking, destination.
@@ -231,7 +231,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 7 — EDUCATION, ACADEMIC INTEGRITY & RESEARCH
+## PART 7 - EDUCATION, ACADEMIC INTEGRITY & RESEARCH
 
 ### UNIT 11: Higher Education, Academic Integrity & Research
 - **Core Nouns:** Campus, lecture hall, seminar, dissertation, academic honesty, plagiarism, peer review, citation, research methodology, study grant, diploma, hypothesis.
@@ -254,7 +254,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 8 — SOCIETY, CIVICS & HUMAN RIGHTS
+## PART 8 - SOCIETY, CIVICS & HUMAN RIGHTS
 
 ### UNIT 12: Community Dynamics, Diversity & Civic Rights
 - **Core Nouns:** Citizenship, diversity, equality, public service, NGO, charity, volunteering, human rights, civic duty, integration, discrimination, advocacy.
@@ -277,7 +277,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 9 — MONEY, PERSONAL FINANCE & CONSUMER RIGHTS
+## PART 9 - MONEY, PERSONAL FINANCE & CONSUMER RIGHTS
 
 ### UNIT 13: Personal Budgeting, Banking & Scams
 - **Core Nouns:** Income, salary, expenditure, savings account, interest rate, budget, loan, mortgage, utility bill, subscription, consumer rights, phishing scam.
@@ -300,7 +300,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 10 — SCIENCE, INNOVATION & FUTURE TECH
+## PART 10 - SCIENCE, INNOVATION & FUTURE TECH
 
 ### UNIT 14: Scientific Discoveries, AI & Robotics
 - **Core Nouns:** Breakthrough, innovation, genetics, robotics, automation, space exploration, renewable grid, laboratory, scientific experiment, hypothesis, artificial intelligence.
@@ -323,7 +323,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 11 — HOUSING, HOMEOWNERSHIP & DIY
+## PART 11 - HOUSING, HOMEOWNERSHIP & DIY
 
 ### UNIT 15: Housing Transactions, DIY & Utilities
 - **Core Vocabulary & Dimensions:** Real estate, mortgage application, tenant agreement, maintenance fee, renovation, DIY project, plumber, electrician, utility bill, interior design.
@@ -337,7 +337,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 12 — PROFESSIONAL GASTRONOMY & CULINARY ARTS
+## PART 12 - PROFESSIONAL GASTRONOMY & CULINARY ARTS
 
 ### UNIT 16: Culinary Techniques, Food Safety & Dining Etiquette
 - **Core Vocabulary & Dimensions:** Gastronomy, culinary technique, food safety, kitchen hygiene, recipe, table manners, food waste, dietary requirement, sommelier, catering.
@@ -351,7 +351,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 13 — LAW, CRIME & JUDICIAL SYSTEM
+## PART 13 - LAW, CRIME & JUDICIAL SYSTEM
 
 ### UNIT 17: Legal Frameworks, Courts & Civil Rights
 - **Core Vocabulary & Dimensions:** Legal system, court, judge, lawyer, witness, evidence, contract, legally binding clause, liability, crime prevention, verdict, defense attorney.
@@ -365,7 +365,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 14 — ENVIRONMENT, DISASTERS & CONSERVATION
+## PART 14 - ENVIRONMENT, DISASTERS & CONSERVATION
 
 ### UNIT 18: Ecosystems, Wildlife & Emergency Disasters
 - **Core Vocabulary & Dimensions:** National reserve, endangered species, habitat destruction, natural disaster, earthquake, flood, drought, hurricane, relief effort, evacuation order.
@@ -379,7 +379,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 15 — ADVANCED COMPUTING, CYBERSECURITY & AI
+## PART 15 - ADVANCED COMPUTING, CYBERSECURITY & AI
 
 ### UNIT 19: Digital Architecture, Cloud Computing & AI
 - **Core Vocabulary & Dimensions:** Cyber security, data breach, cloud storage, programming language, artificial intelligence, machine learning, user interface, software update, network infrastructure.
@@ -393,7 +393,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 16 — ARTS, CULTURE & PERFORMING ARTS
+## PART 16 - ARTS, CULTURE & PERFORMING ARTS
 
 ### UNIT 20: Aesthetics, Exhibitions & Cultural Heritage
 - **Core Vocabulary & Dimensions:** Aesthetics, art gallery, exhibition, architectural heritage, symphony, theatrical play, literature, choreography, film critique, cultural festival.
@@ -407,7 +407,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 17 — PHILOSOPHY, VALUES & MORAL ETHICS
+## PART 17 - PHILOSOPHY, VALUES & MORAL ETHICS
 
 ### UNIT 21: Ethics, Moral Dilemmas & Personal Purpose
 - **Core Vocabulary & Dimensions:** Morality, ethics, philosophy, belief system, free will, justice, responsibility, purpose in life, dilemma, integrity.
@@ -421,7 +421,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 18 — CURRENT AFFAIRS & GLOBAL ECONOMY
+## PART 18 - CURRENT AFFAIRS & GLOBAL ECONOMY
 
 ### UNIT 22: Geopolitics, Economic Trends & News Analysis
 - **Core Vocabulary & Dimensions:** Inflation, economic recession, trade agreement, election campaign, international relations, public policy, news coverage, socio-economic trend.
@@ -435,7 +435,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 19 — BUSINESS ENGLISH, LEADERSHIP & NEGOTIATION
+## PART 19 - BUSINESS ENGLISH, LEADERSHIP & NEGOTIATION
 
 ### UNIT 23: Corporate Strategy, Management & Negotiations
 - **Core Vocabulary & Dimensions:** Stakeholder, corporate strategy, executive leadership, negotiation, trade-off, agenda, minutes of meeting, performance indicator (KPI), networking.
@@ -449,7 +449,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 20 — LIFE SKILLS, DECISION MAKING & CRITICAL THINKING
+## PART 20 - LIFE SKILLS, DECISION MAKING & CRITICAL THINKING
 
 ### UNIT 24: Problem Solving, Critical Thinking & Goal Setting
 - **Core Vocabulary & Dimensions:** Problem solving, critical thinking, decision making, time management, action plan, priorities, risk factor, long-term vision, self-reflection.
@@ -467,7 +467,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 1 — TENSES & ASPECT IN DEPTH (B1.1 & B1.2)
+## PART 1 - TENSES & ASPECT IN DEPTH (B1.1 & B1.2)
 
 ### UNIT 1: Present Perfect Continuous vs. Present Perfect Simple
 - **Formula & Structural Mechanics:**
@@ -503,7 +503,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 2 — PASSIVES, CAUSATIVES & IMPERSONAL STRUCTURES
+## PART 2 - PASSIVES, CAUSATIVES & IMPERSONAL STRUCTURES
 
 ### UNIT 4: Passive Voice Across Tenses
 - **Formula Matrix:** `Subject + BE (tense) + Past Participle (V3) (+ BY agent)`
@@ -526,7 +526,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 3 — CONDITIONALS, WISH & MODALS OF DEDUCTION
+## PART 3 - CONDITIONALS, WISH & MODALS OF DEDUCTION
 
 ### UNIT 6: Second & Third Conditionals + Mixed Conditionals Recognition
 - **Second Conditional (Unreal Present):** `IF + Past Simple, WOULD + Base Verb` (*If I had time, I would travel.*).
@@ -559,7 +559,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 4 — CLAUSES, RELATIVES & CLEFT STRUCTURES
+## PART 4 - CLAUSES, RELATIVES & CLEFT STRUCTURES
 
 ### UNIT 9: Relative Clauses (Defining, Non-defining, Whose & Reduced Relatives)
 - **Defining Relative Clauses:** Essential information without commas (*The engineer who designed the bridge won an award.*).
@@ -582,7 +582,7 @@ Every unit is organized with rigorous architectural depth across **14 Lexical Di
 
 ---
 
-## PART 5 — DISCOURSE CONNECTORS & LINKING DEVICES MASTERCLASS
+## PART 5 - DISCOURSE CONNECTORS & LINKING DEVICES MASTERCLASS
 
 ### UNIT 11: Masterclass in Discourse Connectors
 - **Addition:** *Furthermore, moreover, in addition, besides, also*.

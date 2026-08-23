@@ -1,6 +1,6 @@
 # data/index/
 
-This folder holds cross-reference index files — one per active language.
+This folder holds cross-reference index files - one per active language.
 Each file is named `[lang]_index.json` (e.g. `el_index.json`, `ru_index.json`).
 
 ## What a cross-reference index is
@@ -38,7 +38,7 @@ the platform looks it up in the index, and can show both:
 ```
 
 ## How to maintain it
-Index files are NOT generated automatically — they must be updated manually
+Index files are NOT generated automatically - they must be updated manually
 when new vocabulary or grammar entries are added in Stage 12 content sessions.
 When adding a new word in Stage 12, Jules must also add or update its entry
 in the relevant `data/index/[lang]_index.json`.

@@ -559,7 +559,7 @@
             const s = this.state;
 
             if (recentList) {
-                if (!s.history || s.history.length === 0) recentList.innerHTML = '<div class="info-card-empty">No sessions yet — start practising!</div>';
+                if (!s.history || s.history.length === 0) recentList.innerHTML = '<div class="info-card-empty">No sessions yet - start practising!</div>';
                 else recentList.innerHTML = s.history.map(session => `
                     <div class="recent-item">
                         <div class="ri-dot" style="background:var(--teal);"></div>
@@ -568,7 +568,7 @@
                     </div>`).join('');
             }
             if (mistakeList) {
-                if (!s.mistakes || s.mistakes.length === 0) mistakeList.innerHTML = '<div class="info-card-empty">No mistakes saved yet — well done!</div>';
+                if (!s.mistakes || s.mistakes.length === 0) mistakeList.innerHTML = '<div class="info-card-empty">No mistakes saved yet - well done!</div>';
                 else mistakeList.innerHTML = s.mistakes.slice(-5).reverse().map(m => `
                     <div class="mistake-item">
                         <div class="mi-word">${m.word}</div>

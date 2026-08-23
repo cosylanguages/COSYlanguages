@@ -18,7 +18,7 @@ These topics should be populated first in Stage 12, for en, fr, it, ru, el:
 | topic_clothes.json | Clothing | Low |
 | topic_animals.json | Animals | Low |
 
-> All topic names and content must be in the target language — not English.
+> All topic names and content must be in the target language - not English.
 > This list is the reference only. The actual JSON files use target-language topic names.
 
 ## Status tracking

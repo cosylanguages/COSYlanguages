@@ -549,7 +549,7 @@ const data = [
         "form": "verb",
         "definitions": [
             {
-                "text": "To give something — time, money or ideas — to a shared purpose.",
+                "text": "To give something - time, money or ideas - to a shared purpose.",
                 "examples": [
                     "She contributes valuable experience to every project."
                 ]

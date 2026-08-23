@@ -137,7 +137,7 @@ section{padding:3.5rem 0;}
 .mc-link{font-size:.76rem;font-weight:800;color:var(--sage);}
 .media-card:hover .mc-link{text-decoration:underline;}
 
-/* Daily life — country tabs */
+/* Daily life - country tabs */
 .country-tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.4rem;}
 .ctab{background:var(--cream-dark);border:1.5px solid var(--border);border-radius:999px;
   padding:.35rem .9rem;font-size:.78rem;font-weight:800;color:var(--muted);

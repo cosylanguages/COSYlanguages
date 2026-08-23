@@ -65,7 +65,7 @@
     {
         "t": "Wie du zur Arbeit oder Schule kommst",
         "h": [
-            "Wie reist du — Bus, Auto, Fahrrad?",
+            "Wie reist du - Bus, Auto, Fahrrad?",
             "Wie lange dauert es?",
             "Genießt du die Fahrt?",
             "Ist es teuer?",
@@ -81,7 +81,7 @@
             {
                 "text": "Wie du zur Arbeit oder Schule kommst",
                 "examples": [
-                    "Wie reist du — Bus, Auto, Fahrrad?",
+                    "Wie reist du - Bus, Auto, Fahrrad?",
                     "Wie lange dauert es?",
                     "Genießt du die Fahrt?",
                     "Ist es teuer?",

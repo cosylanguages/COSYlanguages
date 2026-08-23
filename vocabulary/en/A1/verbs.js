@@ -1634,7 +1634,7 @@ const data = [
             {
                 "text": "To prepare food by heating it.",
                 "examples": [
-                    "She cooks dinner every evening. I do not cook — I order food."
+                    "She cooks dinner every evening. I do not cook - I order food."
                 ]
             }
         ],

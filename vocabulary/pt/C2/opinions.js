@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "t": "O eu não é algo que descobrimos — é algo que inventamos continuamente.",
+        "t": "O eu não é algo que descobrimos - é algo que inventamos continuamente.",
         "h": [
             "Esta ideia parece-lhe libertadora ou desestabilizadora?",
             "O que significariam as suas escolhas se a identidade fosse construída?",
@@ -9,7 +9,7 @@
             "O eu que apresenta aos outros molda o eu em que se torna?",
             "O que acontece à identidade numa experiência de perda radical?"
         ],
-        "word": "O eu não é algo que descobrimos — é algo que inventamos continuamente.",
+        "word": "O eu não é algo que descobrimos - é algo que inventamos continuamente.",
         "lang": "pt",
         "level": "proficiency",
         "theme": "psychology",
@@ -17,14 +17,14 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "O eu não é algo que descobrimos — é algo que inventamos continuamente.",
+                "text": "O eu não é algo que descobrimos - é algo que inventamos continuamente.",
                 "examples": []
             }
         ],
         "id": "pt_proficiency_psychology_001"
     },
     {
-        "t": "A compaixão que exige que uma história seja contada de forma simples não é compaixão real — é sentimentalismo.",
+        "t": "A compaixão que exige que uma história seja contada de forma simples não é compaixão real - é sentimentalismo.",
         "h": [
             "Diferença entre compaixão genuína e reação emocional?",
             "Caso onde uma história simplificada distorceu a realidade?",
@@ -32,7 +32,7 @@
             "A simplificação é necessária para a empatia?",
             "Custo de reduzir o sofrimento a uma narrativa digerível?"
         ],
-        "word": "A compaixão que exige que uma história seja contada de forma simples não é compaixão real — é sentimentalismo.",
+        "word": "A compaixão que exige que uma história seja contada de forma simples não é compaixão real - é sentimentalismo.",
         "lang": "pt",
         "level": "proficiency",
         "theme": "psychology",
@@ -40,7 +40,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "A compaixão que exige que uma história seja contada de forma simples não é compaixão real — é sentimentalismo.",
+                "text": "A compaixão que exige que uma história seja contada de forma simples não é compaixão real - é sentimentalismo.",
                 "examples": []
             }
         ],
@@ -70,7 +70,7 @@
         "id": "pt_proficiency_social_022"
     },
     {
-        "t": "A linguagem não descreve a realidade — ela constrói-a.",
+        "t": "A linguagem não descreve a realidade - ela constrói-a.",
         "h": [
             "Aprender outra língua deu-lhe acesso a novos pensamentos?",
             "Sente coisas que nenhuma língua consegue nomear?",
@@ -78,7 +78,7 @@
             "É possível um conceito sem uma palavra?",
             "Pode uma ideia ser plenamente traduzida?"
         ],
-        "word": "A linguagem não descreve a realidade — ela constrói-a.",
+        "word": "A linguagem não descreve a realidade - ela constrói-a.",
         "lang": "pt",
         "level": "proficiency",
         "theme": "language",
@@ -86,7 +86,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "A linguagem não descreve a realidade — ela constrói-a.",
+                "text": "A linguagem não descreve a realidade - ela constrói-a.",
                 "examples": []
             }
         ],
@@ -185,7 +185,7 @@
         "id": "pt_proficiency_psychology_004"
     },
     {
-        "t": "A internet não nos tornou mais informados — tornou-nos mais seguros dos nossos erros.",
+        "t": "A internet não nos tornou mais informados - tornou-nos mais seguros dos nossos erros.",
         "h": [
             "Crença moldada por algoritmos?",
             "Problema da internet ou da natureza humana?",
@@ -193,7 +193,7 @@
             "A experiência ainda faz sentido?",
             "Confiança na sua capacidade de avaliar a info?"
         ],
-        "word": "A internet não nos tornou mais informados — tornou-nos mais seguros dos nossos erros.",
+        "word": "A internet não nos tornou mais informados - tornou-nos mais seguros dos nossos erros.",
         "lang": "pt",
         "level": "proficiency",
         "theme": "technology",
@@ -201,7 +201,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "A internet não nos tornou mais informados — tornou-nos mais seguros dos nossos erros.",
+                "text": "A internet não nos tornou mais informados - tornou-nos mais seguros dos nossos erros.",
                 "examples": []
             }
         ],
@@ -212,7 +212,7 @@
         "h": [
             "Arte que fez ambos simultaneamente?",
             "Hierarquia de valores ou esnobismo?",
-            "A que recorre na dor — dificuldade ou consolação?",
+            "A que recorre na dor - dificuldade ou consolação?",
             "A arte perturbadora muda o comportamento?",
             "Propósito da arte: desafio, reflexo ou transcendência?"
         ],
@@ -277,7 +277,7 @@
         "id": "pt_proficiency_psychology_005"
     },
     {
-        "t": "A memória não é um registo do que aconteceu — é uma história que continuamos a reescrever.",
+        "t": "A memória não é um registo do que aconteceu - é uma história que continuamos a reescrever.",
         "h": [
             "Recordação contradita por uma testemunha?",
             "Editamos as memórias pela nossa imagem?",
@@ -285,7 +285,7 @@
             "Recordação reescrita mais real que o evento?",
             "Fiabilidade da sua memória mais vívida?"
         ],
-        "word": "A memória não é um registo do que aconteceu — é uma história que continuamos a reescrever.",
+        "word": "A memória não é um registo do que aconteceu - é uma história que continuamos a reescrever.",
         "lang": "pt",
         "level": "proficiency",
         "theme": "psychology",
@@ -293,14 +293,14 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "A memória não é um registo do que aconteceu — é uma história que continuamos a reescrever.",
+                "text": "A memória não é um registo do que aconteceu - é uma história que continuamos a reescrever.",
                 "examples": []
             }
         ],
         "id": "pt_proficiency_psychology_006"
     },
     {
-        "t": "Não há consumo ético sob o capitalismo tardio — e isso é uma razão para agir, não para desistir.",
+        "t": "Não há consumo ético sob o capitalismo tardio - e isso é uma razão para agir, não para desistir.",
         "h": [
             "As escolhas individuais contam?",
             "A responsabilidade pessoal é uma manobra política?",
@@ -308,7 +308,7 @@
             "Viver eticamente num sistema não ético?",
             "A consciência muda o seu comportamento?"
         ],
-        "word": "Não há consumo ético sob o capitalismo tardio — e isso é uma razão para agir, não para desistir.",
+        "word": "Não há consumo ético sob o capitalismo tardio - e isso é uma razão para agir, não para desistir.",
         "lang": "pt",
         "level": "proficiency",
         "theme": "psychology",
@@ -316,14 +316,14 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Não há consumo ético sob o capitalismo tardio — e isso é uma razão para agir, não para desistir.",
+                "text": "Não há consumo ético sob o capitalismo tardio - e isso é uma razão para agir, não para desistir.",
                 "examples": []
             }
         ],
         "id": "pt_proficiency_psychology_007"
     },
     {
-        "t": "A vida examinada vale a pena — mas examiná-la demasiado de perto pode torná-la invivível.",
+        "t": "A vida examinada vale a pena - mas examiná-la demasiado de perto pode torná-la invivível.",
         "h": [
             "Quanta autorreflexão é excessiva?",
             "A introspeção como evitação?",
@@ -331,7 +331,7 @@
             "Viver bem sem autoexame?",
             "Custo e ganho da sua reflexão?"
         ],
-        "word": "A vida examinada vale a pena — mas examiná-la demasiado de perto pode torná-la invivível.",
+        "word": "A vida examinada vale a pena - mas examiná-la demasiado de perto pode torná-la invivível.",
         "lang": "pt",
         "level": "proficiency",
         "theme": "psychology",
@@ -339,7 +339,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "A vida examinada vale a pena — mas examiná-la demasiado de perto pode torná-la invivível.",
+                "text": "A vida examinada vale a pena - mas examiná-la demasiado de perto pode torná-la invivível.",
                 "examples": []
             }
         ],

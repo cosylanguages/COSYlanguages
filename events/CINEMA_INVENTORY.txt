@@ -9,7 +9,7 @@ Audited Problems Key:
 Problem 1: Vocabulary definitions using fixed filler ("The core thematic concept/main theme of [WORD] as explored and highlighted in '[FILM]'").
 Problem 2: "Authentic Film Quotes & Slang" section using ordinary non-slang words with a filler description ("An authentic slang term... to establish context").
 Problem 3: Part 1 and Part 2 discussion questions built from fixed sentence-frame templates reused verbatim across different films.
-Problem 4: "Cinema Spotlight — Scene Study & Adaptation" section being empty (just two header titles, no content).
+Problem 4: "Cinema Spotlight - Scene Study & Adaptation" section being empty (just two header titles, no content).
 Problem 5: Broken or placeholder resource links (generic YouTube search URLs instead of direct trailer links).
 Problem 6: Vocabulary/theme mismatches where a listed word doesn't fit the film's actual content.
 

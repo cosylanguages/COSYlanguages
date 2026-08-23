@@ -450,7 +450,7 @@
             {
                 "text": "Incapaz de ser alterado; fijo y permanente.",
                 "examples": [
-                    "El lenguaje no es inmutable — evoluciona constantemente."
+                    "El lenguaje no es inmutable - evoluciona constantemente."
                 ]
             }
         ],

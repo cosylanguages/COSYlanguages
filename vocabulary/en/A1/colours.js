@@ -103,7 +103,7 @@
             {
                 "text": "Of less than average height or length.",
                 "examples": [
-                    "He has a short commute — ten minutes by bike."
+                    "He has a short commute - ten minutes by bike."
                 ]
             }
         ],

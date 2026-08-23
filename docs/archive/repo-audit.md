@@ -20,7 +20,7 @@ The repository currently has 15 open pull requests. We have fetched and analyzed
 | **#761** | Investigate Karaoke Club Generator | 2026-07-30T11:54:10Z | **clean** | (a) **Safe to merge as-is**. A safe, clean review and report on generator bugs without side-effects. |
 | **#754** | Fix Wonder Club Session Templates & Structure Alignment | 2026-07-30T08:37:25Z | **conflicting** | (b) **Needs conflict resolution**. Aligns Wonder templates but has simple structural conflicts on indexes. |
 | **#753** | Overhaul 100 Questions Game with Student & Family Decks | 2026-07-30T08:28:37Z | **conflicting** | (c) **Stale/abandoned**. Fully superseded by the multi-deck Netflix upgrade already on `main`. Recommend closing. |
-| **#749** | Speaking Club Templates Compliance Audit | 2026-07-29T23:52:25Z | **conflicting** | (d) **Unclear — needs a human decision**. Large, complex template alignment PR that overlaps heavily with recent standalone session updates. |
+| **#749** | Speaking Club Templates Compliance Audit | 2026-07-29T23:52:25Z | **conflicting** | (d) **Unclear - needs a human decision**. Large, complex template alignment PR that overlaps heavily with recent standalone session updates. |
 
 ---
 

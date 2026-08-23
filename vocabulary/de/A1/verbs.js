@@ -1454,7 +1454,7 @@
             {
                 "text": "Essen durch Erhitzen zubereiten.",
                 "examples": [
-                    "Sie kocht jeden Abend das Abendessen. Ich koche nicht — ich bestelle Essen."
+                    "Sie kocht jeden Abend das Abendessen. Ich koche nicht - ich bestelle Essen."
                 ]
             }
         ],

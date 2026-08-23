@@ -12,7 +12,7 @@ An exhaustive analysis of the **406 active session files** across all nine Speak
 *   **Discussion Prompts:** Phrasing complexity, syntactical reading burden, and level-adapted abstractions.
 *   **Task Authenticity:** Realism of speaking expectations for learners at each specific stage.
 
-Overall, the repository displays a **highly sophisticated, pedagogically robust design** with **97.1% CEFR alignment compliance**. Most files (394 out of 406) perfectly match their target audiences. However, **12 sessions** have been identified as displaying significant CEFR misalignment—primarily on the **lower spectrum (A1/A2 levels)**—due to auto-enrichment scripts over-injecting complex literary vocabulary or generating excessively wordy questions that present severe reading barriers to beginning speakers.
+Overall, the repository displays a **highly sophisticated, pedagogically robust design** with **97.1% CEFR alignment compliance**. Most files (394 out of 406) perfectly match their target audiences. However, **12 sessions** have been identified as displaying significant CEFR misalignment - primarily on the **lower spectrum (A1/A2 levels)** - due to auto-enrichment scripts over-injecting complex literary vocabulary or generating excessively wordy questions that present severe reading barriers to beginning speakers.
 
 ---
 

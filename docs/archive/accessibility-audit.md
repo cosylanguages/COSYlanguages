@@ -705,7 +705,7 @@ Fix any of the following:
 - **Page**: `practice/index.html`
 - **Description**: Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
 - **Selector**: `#recent-list > .info-card-empty`
-- **HTML**: `<div class="info-card-empty">No sessions yet — start practising!</div>`
+- **HTML**: `<div class="info-card-empty">No sessions yet - start practising!</div>`
 - **Failure Summary**:
 ```
 Fix any of the following:
@@ -716,7 +716,7 @@ Fix any of the following:
 - **Page**: `practice/index.html`
 - **Description**: Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
 - **Selector**: `#mistake-list > .info-card-empty`
-- **HTML**: `<div class="info-card-empty">No mistakes saved yet — well done!</div>`
+- **HTML**: `<div class="info-card-empty">No mistakes saved yet - well done!</div>`
 - **Failure Summary**:
 ```
 Fix any of the following:
@@ -892,7 +892,7 @@ Fix any of the following:
 - **Page**: `practice/index.html`
 - **Description**: Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
 - **Selector**: `.footer-bottom`
-- **HTML**: `<div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div>`
+- **HTML**: `<div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages - All rights reserved</div>`
 - **Failure Summary**:
 ```
 Fix any of the following:

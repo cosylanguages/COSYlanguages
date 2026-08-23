@@ -117,7 +117,7 @@ def get_mple_data():
     s1_lf_html = """<div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
 <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Γλωσσική εστίαση: Η Υποτακτική με το 'να' σε υποθετικές και εναντιωματικές εκφράσεις</h3>
 <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Στο τραγούδι 'Τον ίδιο το Θεό', η υποτακτική με το μόριο 'να' χρησιμοποιείται με υποθετική/εναντιωματική σημασία (<em>"Τον ίδιο το Θεό να είχα απέναντί μου..."</em>), εκφράζοντας την απόλυτη αποφασιστικότητα και το πάθος.</p>
-<strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Ας κάνουμε εξάσκηση — Τρία Παραδείγματα:</strong>
+<strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Ας κάνουμε εξάσκηση - Τρία Παραδείγματα:</strong>
 <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
 <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Ακόμα κι αν είχα όλο τον κόσμο στα χέρια μου, να ξέρεις πως πάλι εσένα θα διάλεγα.</li>
 <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Να μου ζητούσε να τα παρατήσω όλα, θα το έκανα χωρίς δεύτερη σκέψη.</li>
@@ -257,7 +257,7 @@ def get_mple_data():
     s2_lf_html = """<div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
 <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Γλωσσική εστίαση: Η χρήση της Υποτακτικής με το 'μην' μετά από ρήματα φόβου</h3>
 <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Στο τραγούδι 'Φοβάμαι', το ρήμα 'φοβάμαι' συνδέεται με την υποτακτική και το αρνητικό μόριο 'μην' (<em>"Φοβάμαι, μην ακούς τι λέω..."</em>) για να δηλώσει την ανησυχία ή την επιθυμία να αποτραπεί κάτι.</p>
-<strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Ας κάνουμε εξάσκηση — Τρία Παραδείγματα:</strong>
+<strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Ας κάνουμε εξάσκηση - Τρία Παραδείγματα:</strong>
 <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
 <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Φοβάμαι μην παρεξηγήσεις τα λόγια μου, γι' αυτό προτιμώ να σιωπήσω.</li>
 <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Αγωνιώ μην τυχόν χάσουμε αυτή τη σπουδαία ευκαιρία.</li>
@@ -348,10 +348,10 @@ def remediate_mple():
             v_grid.replace_with(BeautifulSoup(f'<div class="vocab-grid-10">\n{data["s1"]["vocab"]}\n</div>', "html.parser"))
         r1_div = opt0.find("div", class_="round-1")
         if r1_div:
-            r1_div.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n{data["s1"]["r1"]}\n</div>', "html.parser"))
+            r1_div.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 - Lyric Analysis &amp; Discussion</h3>\n{data["s1"]["r1"]}\n</div>', "html.parser"))
         r2_div = opt0.find("div", class_="round-2")
         if r2_div:
-            r2_div.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n{data["s1"]["r2"]}\n</div>', "html.parser"))
+            r2_div.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 - Broad Themes &amp; Philosophy Debate</h3>\n{data["s1"]["r2"]}\n</div>', "html.parser"))
         lf_block = opt0.find("div", id=lambda x: x and "lang-focus" in x)
         if lf_block:
             body = lf_block.find("div", class_="round-body")
@@ -384,10 +384,10 @@ def remediate_mple():
             lyrics_p.replace_with(BeautifulSoup(data["s2"]["listening"], "html.parser"))
         r1_div1 = opt1.find("div", class_="round-1")
         if r1_div1:
-            r1_div1.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n{data["s2"]["r1"]}\n</div>', "html.parser"))
+            r1_div1.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 - Lyric Analysis &amp; Discussion</h3>\n{data["s2"]["r1"]}\n</div>', "html.parser"))
         r2_div1 = opt1.find("div", class_="round-2")
         if r2_div1:
-            r2_div1.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n{data["s2"]["r2"]}\n</div>', "html.parser"))
+            r2_div1.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 - Broad Themes &amp; Philosophy Debate</h3>\n{data["s2"]["r2"]}\n</div>', "html.parser"))
         lf_block1 = opt1.find("div", id=lambda x: x and "lang-focus" in x)
         if lf_block1:
             body = lf_block1.find("div", class_="round-body")
@@ -423,10 +423,10 @@ def remediate_mple():
         v_grid_s1.replace_with(BeautifulSoup(f'<div class="vocab-grid-10">\n{data["s1"]["vocab"]}\n</div>', "html.parser"))
     r1_s1 = s1_soup.find("div", class_="round-1")
     if r1_s1:
-        r1_s1.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n{data["s1"]["r1"]}\n</div>', "html.parser"))
+        r1_s1.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 - Lyric Analysis &amp; Discussion</h3>\n{data["s1"]["r1"]}\n</div>', "html.parser"))
     r2_s1 = s1_soup.find("div", class_="round-2")
     if r2_s1:
-        r2_s1.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n{data["s1"]["r2"]}\n</div>', "html.parser"))
+        r2_s1.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 - Broad Themes &amp; Philosophy Debate</h3>\n{data["s1"]["r2"]}\n</div>', "html.parser"))
     lf_s1 = s1_soup.find("div", id="lang-focus")
     if lf_s1:
         body = lf_s1.find("div", class_="round-body")
@@ -465,10 +465,10 @@ def remediate_mple():
         lyrics_p_s2.replace_with(BeautifulSoup(data["s2"]["listening"], "html.parser"))
     r1_s2 = s2_soup.find("div", class_="round-1")
     if r1_s2:
-        r1_s2.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>\n{data["s2"]["r1"]}\n</div>', "html.parser"))
+        r1_s2.replace_with(BeautifulSoup(f'<div class="round-1" style="margin-bottom: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 - Lyric Analysis &amp; Discussion</h3>\n{data["s2"]["r1"]}\n</div>', "html.parser"))
     r2_s2 = s2_soup.find("div", class_="round-2")
     if r2_s2:
-        r2_s2.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>\n{data["s2"]["r2"]}\n</div>', "html.parser"))
+        r2_s2.replace_with(BeautifulSoup(f'<div class="round-2" style="margin-top: 2rem;">\n<h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 - Broad Themes &amp; Philosophy Debate</h3>\n{data["s2"]["r2"]}\n</div>', "html.parser"))
     lf_s2 = s2_soup.find("div", id="lang-focus")
     if lf_s2:
         body = lf_s2.find("div", class_="round-body")

@@ -179,7 +179,7 @@
             {
                 "text": "A folding frame covered in cloth used to protect you from rain.",
                 "examples": [
-                    "Take an umbrella — it is raining."
+                    "Take an umbrella - it is raining."
                 ]
             }
         ],
@@ -447,7 +447,7 @@
             {
                 "text": "Having a low temperature; not warm.",
                 "examples": [
-                    "I need a coat — it is very cold outside."
+                    "I need a coat - it is very cold outside."
                 ]
             }
         ],

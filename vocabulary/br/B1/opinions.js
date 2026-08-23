@@ -299,14 +299,14 @@
     },
     {
         "id": "br_intermediate_social_030",
-        "word": "Ar silans ouzh taol n'eo ket un dra direnkus — sioul eo.",
+        "word": "Ar silans ouzh taol n'eo ket un dra direnkus - sioul eo.",
         "lang": "br",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [
             {
-                "text": "Ar silans ouzh taol n'eo ket un dra direnkus — sioul eo.",
+                "text": "Ar silans ouzh taol n'eo ket un dra direnkus - sioul eo.",
                 "examples": [
                     "Ha komz a rit kalz e-kerzh ar pred?",
                     "Hag-eñ eo ar silans un dra direnkus evidoc'h?",
@@ -319,7 +319,7 @@
         "transcription": "-",
         "emoji": "❓",
         "_legacy": {
-            "t": "Ar silans ouzh taol n'eo ket un dra direnkus — sioul eo.",
+            "t": "Ar silans ouzh taol n'eo ket un dra direnkus - sioul eo.",
             "tag": "Buhez sokial",
             "h": [
                 "Ha komz a rit kalz e-kerzh ar pred?",

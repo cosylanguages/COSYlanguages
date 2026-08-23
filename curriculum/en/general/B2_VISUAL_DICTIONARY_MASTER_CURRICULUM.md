@@ -9,18 +9,18 @@
 This master specification defines the encyclopedic upper-intermediate curriculum for the COSYlanguages B2 English ecosystem (unifying **B2.1** and **B2.2** CEFR sub-levels). At B2, learners transition from functional communication to operational fluency, persuasive rhetoric, academic discourse, corporate strategy, complex analytical writing, and domain-specific lexicon.
 
 The course is organized into **4 Integrated Architectural Pillars**:
-1. **Pillar I — Visual Dictionary & Lexical Knowledge Map** (30 Major Parts across 15 Strategic Domains).
-2. **Pillar II — Grammar Knowledge Tree** (Advanced Syntactic Mechanics, Nuance & Discourse Control).
-3. **Pillar III — Communication & Discourse Skills** (B2 Writing, Rhetorical Speaking & Connected Speech Masterclasses).
-4. **Pillar IV — Academic & Professional Reference Suite** (17 Encyclopedic Reference Tables including AWL, Corpus Error Diagnostics, Latin Expressions, and Register Style Guides).
+1. **Pillar I - Visual Dictionary & Lexical Knowledge Map** (30 Major Parts across 15 Strategic Domains).
+2. **Pillar II - Grammar Knowledge Tree** (Advanced Syntactic Mechanics, Nuance & Discourse Control).
+3. **Pillar III - Communication & Discourse Skills** (B2 Writing, Rhetorical Speaking & Connected Speech Masterclasses).
+4. **Pillar IV - Academic & Professional Reference Suite** (17 Encyclopedic Reference Tables including AWL, Corpus Error Diagnostics, Latin Expressions, and Register Style Guides).
 
 ---
 
-# PILLAR I — VISUAL DICTIONARY & LEXICAL KNOWLEDGE MAP
+# PILLAR I - VISUAL DICTIONARY & LEXICAL KNOWLEDGE MAP
 
 ---
 
-## PART 1 — SOCIETY, GOVERNMENT & PUBLIC LIFE
+## PART 1 - SOCIETY, GOVERNMENT & PUBLIC LIFE
 - **1.1 Branches of Government & Public Administration**
   - **Core Nouns:** Parliament, congress, senate, cabinet, prime minister, president, ministry, department, civil servant, public administration, bureaucracy, governance, policy maker, legislation, decree, amendment, constitution.
   - **Essential Verbs:** Enact, govern, administer, legislate, veto, appoint, oversee, regulate, ratify, implement, reform.
@@ -45,7 +45,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 2 — LAW, JUSTICE & CIVIL RIGHTS
+## PART 2 - LAW, JUSTICE & CIVIL RIGHTS
 - **2.1 Legal Systems, Crime & Judicial Procedure**
   - **Core Nouns:** Legal system, jurisdiction, prosecution, defense, verdict, sentence, penalty, criminal law, civil law, liability, jurisprudence, defendant, plaintiff, attorney, jury.
   - **Essential Verbs:** Prosecute, defend, convict, acquit, sentence, appeal, testify, sue, violate, enforce.
@@ -69,7 +69,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 3 — ECONOMICS, TRADE & FINANCE
+## PART 3 - ECONOMICS, TRADE & FINANCE
 - **3.1 Macroeconomics, Inflation & Market Dynamics**
   - **Core Nouns:** Microeconomics, macroeconomics, inflation, deflation, Gross Domestic Product (GDP), recession, economic growth, labor market, supply and demand, productivity, monetary policy, central bank.
   - **Essential Verbs:** Fluctuate, stabilize, inflate, stagnate, boost, curb, devalue, stimulate.
@@ -92,7 +92,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 4 — BUSINESS STRATEGY, MANAGEMENT & LEADERSHIP
+## PART 4 - BUSINESS STRATEGY, MANAGEMENT & LEADERSHIP
 - **4.1 Corporate Leadership & Entrepreneurship**
   - **Core Nouns:** Executive leadership, strategic vision, entrepreneurship, innovation, startup, venture capital, stakeholder, risk management, corporate culture, merger, acquisition.
   - **Essential Verbs:** Spearhead, innovate, execute, manage, acquire, merge, pitch, diversify.
@@ -115,7 +115,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 5 — SCIENCE, RESEARCH & EMPIRICAL METHODOLOGY
+## PART 5 - SCIENCE, RESEARCH & EMPIRICAL METHODOLOGY
 - **5.1 Natural Sciences & Laboratory Inquiry**
   - **Core Nouns:** Physics, chemistry, biology, medicine, astronomy, astrophysics, laboratory, empirical data, hypothesis, control group, trial, methodology, peer review.
   - **Essential Verbs:** Conduct, hypothesize, verify, replicate, observe, analyze, publish.
@@ -138,7 +138,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 6 — TECHNOLOGY, AI & CYBERNETICS
+## PART 6 - TECHNOLOGY, AI & CYBERNETICS
 - **6.1 Artificial Intelligence & Machine Learning**
   - **Core Nouns:** Artificial Intelligence (AI), Machine Learning (ML), neural network, algorithm, data mining, automation, robotics, natural language processing, predictive model.
   - **Essential Verbs:** Automate, train, program, process, mine, optimize, simulate.
@@ -161,7 +161,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 7 — MEDIA, JOURNALISM & PUBLIC DISCOURSE
+## PART 7 - MEDIA, JOURNALISM & PUBLIC DISCOURSE
 - **7.1 Investigative Journalism & Broadcast Media**
   - **Core Nouns:** Journalism, news coverage, broadcast, podcast, press release, freedom of speech, media censorship, public relations, whistleblower, source.
   - **Essential Verbs:** Broadcast, investigate, expose, censor, report, leak, publish.
@@ -184,7 +184,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 8 — PSYCHOLOGY, COGNITION & BEHAVIOR
+## PART 8 - PSYCHOLOGY, COGNITION & BEHAVIOR
 - **8.1 Mental Health & Cognitive Processes**
   - **Core Nouns:** Psychology, cognition, cognitive bias, mental health, emotional intelligence, subconscious, habit formation, motivation, neurosis, resilience, therapy.
   - **Essential Verbs:** Perceive, process, internalize, cope, adapt, motivate.
@@ -197,7 +197,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 9 — PHILOSOPHY, ETHICS & MORAL LOGIC
+## PART 9 - PHILOSOPHY, ETHICS & MORAL LOGIC
 - **9.1 Morality, Justice & Epistemology**
   - **Core Nouns:** Ethics, morality, utilitarianism, deontology, free will, justice, truth, existentialism, moral dilemma, framework, principle.
   - **Essential Verbs:** Deliberate, justify, uphold, question, reason, deduce.
@@ -210,7 +210,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 10 — CULTURE, ARTS & HERITAGE
+## PART 10 - CULTURE, ARTS & HERITAGE
 - **10.1 Fine Arts, Architecture & Performing Arts**
   - **Core Nouns:** Architecture, painting, sculpture, symphony, opera, photography, choreography, cultural heritage, exhibition, landmark, aesthetics.
   - **Essential Verbs:** Exhibit, compose, sculpt, design, choreograph, preserve.
@@ -223,7 +223,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 11 — HIGHER EDUCATION & ACADEMIC INQUIRY
+## PART 11 - HIGHER EDUCATION & ACADEMIC INQUIRY
 - **11.1 University Life, Research & Academic Integrity**
   - **Core Nouns:** Dissertation, thesis, academic integrity, peer review, citation, scholarship, university lecture, symposium, methodology, faculty.
   - **Essential Verbs:** Defend, publish, cite, evaluate, lecture, research.
@@ -236,7 +236,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 12 — ENVIRONMENT, SUSTAINABILITY & CIRCULAR ECONOMY
+## PART 12 - ENVIRONMENT, SUSTAINABILITY & CIRCULAR ECONOMY
 - **12.1 Ecosystems, Conservation & Environmental Law**
   - **Core Nouns:** Circular economy, carbon market, biodiversity, urban sustainability, water management, environmental law, conservation, zero emissions, climate change.
   - **Essential Verbs:** Conserve, reduce, mitigate, preserve, recycle, penalize.
@@ -249,7 +249,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 13 — INTERNATIONAL RELATIONS & GEOPOLITICS
+## PART 13 - INTERNATIONAL RELATIONS & GEOPOLITICS
 - **13.1 Diplomacy, Treaties & Global Alliances**
   - **Core Nouns:** Diplomacy, multilateral treaty, peacekeeping, international sanctions, globalization, bilateral agreement, humanitarian aid, ambassador, summit.
   - **Essential Verbs:** Negotiate, ratify, impose, mediate, execute, alliance.
@@ -262,7 +262,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 14 — HEALTHCARE SYSTEMS & PREVENTIVE MEDICINE
+## PART 14 - HEALTHCARE SYSTEMS & PREVENTIVE MEDICINE
 - **14.1 Public Health, Bioethics & Medical Tech**
   - **Core Nouns:** Healthcare system, public health, vaccination campaign, medical ethics, epidemiology, preventive medicine, clinical trial, universal coverage, bioethics.
   - **Essential Verbs:** Vaccinate, prevent, treat, audit, administer, regulate.
@@ -275,7 +275,7 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 15 — DAILY PROFESSIONAL LIFE & WORKPLACE DYNAMICS
+## PART 15 - DAILY PROFESSIONAL LIFE & WORKPLACE DYNAMICS
 - **15.1 Corporate Communication, Remote Work & Performance**
   - **Core Nouns:** Performance review, hybrid work model, remote work, time management, negotiation strategy, team dynamic, leadership style, work-life balance, productivity.
   - **Essential Verbs:** Conduct, evaluate, balance, negotiate, adapt, collaborate.
@@ -288,11 +288,11 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-# PILLAR II — GRAMMAR KNOWLEDGE TREE
+# PILLAR II - GRAMMAR KNOWLEDGE TREE
 
 ---
 
-## PART 1 — ADVANCED SYNTAX & MODAL MECHANICS
+## PART 1 - ADVANCED SYNTAX & MODAL MECHANICS
 
 ### UNIT 1: Advanced Modal Nuance & Deduction
 - **Modal Deduction & Speculation in Past & Present:**
@@ -370,11 +370,11 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-# PILLAR III — COMMUNICATION & DISCOURSE SKILLS
+# PILLAR III - COMMUNICATION & DISCOURSE SKILLS
 
 ---
 
-## PART 1 — B2 WRITING MASTERCLASS (12 TEXT TYPES)
+## PART 1 - B2 WRITING MASTERCLASS (12 TEXT TYPES)
 1. **Formal Opinion Essays (For/Against & Discursive)**
 2. **Business Proposals & Project Plans**
 3. **Formal Reports & Executive Summaries**
@@ -390,21 +390,21 @@ The course is organized into **4 Integrated Architectural Pillars**:
 
 ---
 
-## PART 2 — B2 SPEAKING & RHETORIC MASTERCLASS
+## PART 2 - B2 SPEAKING & RHETORIC MASTERCLASS
 - **Presentation Skills:** Hooking the audience, structuring arguments, using visual aids, handling Q&A under pressure.
 - **Debate & Persuasion:** Constructing arguments, presenting rebuttals, interrupting politely, conceding points without losing ground.
 - **Negotiation & Conflict Resolution:** Finding common ground, proposing compromises, handling objections, closing deals.
 
 ---
 
-## PART 3 — B2 PUBLIC SPEAKING PRONUNCIATION & CONNECTED SPEECH
+## PART 3 - B2 PUBLIC SPEAKING PRONUNCIATION & CONNECTED SPEECH
 - Word stress shifts in derivative words (*'photograph ➔ pho'tography ➔ photo'graphic*).
 - Contrastive stress for emphasis (*I didn't say we should SELL the division; I said we should SHELVE it*).
 - Thought groups, chunking, and public speaking intonation patterns.
 
 ---
 
-# PILLAR IV — ACADEMIC & PROFESSIONAL REFERENCE SUITE
+# PILLAR IV - ACADEMIC & PROFESSIONAL REFERENCE SUITE
 
 ---
 

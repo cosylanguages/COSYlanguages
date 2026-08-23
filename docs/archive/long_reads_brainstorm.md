@@ -64,7 +64,7 @@ Focuses on the monetization of our cognitive capacity and the subtle UX architec
 
 *   **Mini-Chapter Breakdown & Discussion Targets:**
     *   *The Tricks of the Trade (Ch 3):* Exploring gamification mechanics such as "Streaks" (Snapchat), infinite scroll, read receipts, and pull-to-refresh pull-tabs.
-    *   *Why Social Media Sucks (Ch 4):* Investigating the commercial exchange—how free apps trade our focus to advertisers. We debate the psychological toll of "likes" as synthesized social validation and the rise of social comparison anxiety.
+    *   *Why Social Media Sucks (Ch 4):* Investigating the commercial exchange - how free apps trade our focus to advertisers. We debate the psychological toll of "likes" as synthesized social validation and the rise of social comparison anxiety.
 *   **Thematic Focus:** UX design, corporate attention extraction, and the socio-emotional effects of hyper-connectivity.
 *   **Target Grammar:** **Gerunds as Subjects and Objects** (perfect for formulating axioms such as *"Trading attention for validation leads to psychological fatigue"*).
 *   **Core Vocabulary:** *Attention*, *Validation*, *Exploit*, *Multitask*, *Monetize*, *Distraction*, *Anxiety*, *Flee*, *Friction*, *Phantom*.
@@ -92,7 +92,7 @@ The culmination of the book: translating neurological awareness into a real, str
         *   *Days 12–14:* Cultivating mindful gaps, preparing replacement offline activities, and using a real alarm clock.
     *   **Week 3: Reclaiming Your Brain (Days 15 to 21)**
         *   *Days 15–18:* Practicing the STOP technique (Stop, Take a breath, Observe, Proceed) and re-training attention through analog reading or solitary nature walks.
-        *   *Days 19–21:* The Trial Separation—preparing for and executing a full 24-to-48-hour digital fast, followed by structured reflection.
+        *   *Days 19–21:* The Trial Separation - preparing for and executing a full 24-to-48-hour digital fast, followed by structured reflection.
     *   **Week 4: Your New Relationship (Days 22 to 30)**
         *   *Days 22–26:* Organizing the physical home screen (dividing apps into: Mindless, Tool, and Essential folders), setting digital curfews, and batching email processing.
         *   *Days 27–30:* Building social circles with analog hobbies, establishing maintenance plans, and celebrating reclaimed attention.

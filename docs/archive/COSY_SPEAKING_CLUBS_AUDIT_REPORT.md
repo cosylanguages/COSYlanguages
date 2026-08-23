@@ -4,7 +4,7 @@ This document contains the complete and exhaustive read-only quality audit acros
 
 ## Summary Table - Step 3
 
-| Club | Session | Linked correctly (club page + index)? | Placeholder leaks? | Topic-specific content? | Teacher's notes OK? | Duration/level consistent? | Sensitive topic — tone OK? | Notes |
+| Club | Session | Linked correctly (club page + index)? | Placeholder leaks? | Topic-specific content? | Teacher's notes OK? | Duration/level consistent? | Sensitive topic - tone OK? | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | keeping-up-with-science | ai-and-the-brain-intermediate.html | No (Overview page only) | None | Yes (Handcrafted) | Yes (Authentic) | Yes | N/A | Topic: Synaptic vs Artificial Node Learning. level: Intermediate (B1). Q: "According to the article, how does a biologicalsynapsepass s..." |
 | keeping-up-with-science | ai-and-the-brain-upper-intermediate.html | No (Overview page only) | None | Yes (Handcrafted) | Yes (Authentic) | Yes | N/A | Topic: Synaptic vs Artificial Node Learning. level: Upper-Intermediate (B2). Q: "According to the article, how does thebackpropagationalgorit..." |

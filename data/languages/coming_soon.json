@@ -45,6 +45,6 @@
     "code": "br", "name": "Breton", "native": "Brezhoneg", "flag": "🏴",
     "status": "coming_soon", "has_cases": false,
     "has_data": true,
-    "note": "Breton has consonant mutations — unique morphological feature. Check for existing br/ data."
+    "note": "Breton has consonant mutations - unique morphological feature. Check for existing br/ data."
   }
 ]

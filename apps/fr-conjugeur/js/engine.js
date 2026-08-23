@@ -1,5 +1,5 @@
 /**
- * COSYlanguages Standalone App — French Conjugation Engine (fr-conjugeur)
+ * COSYlanguages Standalone App - French Conjugation Engine (fr-conjugeur)
  * Includes pattern recognition ending markup and interactive Practice Game mode.
  */
 

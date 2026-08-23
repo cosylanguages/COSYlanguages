@@ -105,7 +105,7 @@
     "antonyms": [
       "feu"
     ],
-    "grammar_rule": "💡 REMEMBER: Nom féminin ('l'eau') — pluriel irrégulier en '-x' ('les eaux').",
+    "grammar_rule": "💡 REMEMBER: Nom féminin ('l'eau') - pluriel irrégulier en '-x' ('les eaux').",
     "article": "l'",
     "plural": "eaux",
     "irregular": false
@@ -854,7 +854,7 @@
     "antonyms": [
       "repos"
     ],
-    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les travaux').",
+    "grammar_rule": "💡 REMEMBER: Nom masculin - pluriel en '-aux' ('les travaux').",
     "article": "le",
     "plural": "travaux",
     "irregular": true
@@ -1262,7 +1262,7 @@
     "antonyms": [
       "végétal"
     ],
-    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les animaux').",
+    "grammar_rule": "💡 REMEMBER: Nom masculin - pluriel en '-aux' ('les animaux').",
     "article": "l'",
     "plural": "animaux",
     "irregular": false
@@ -2302,7 +2302,7 @@
     ],
     "article": "l'",
     "plural": "après-midi",
-    "grammar_rule": "💡 REMEMBER: Genre invariable — accepté au masculin et au féminin ('un/une après-midi'), et invariable au pluriel ('des après-midi').",
+    "grammar_rule": "💡 REMEMBER: Genre invariable - accepté au masculin et au féminin ('un/une après-midi'), et invariable au pluriel ('des après-midi').",
     "irregular": true
   },
   "œuvre": {
@@ -2517,7 +2517,7 @@
     ],
     "article": "le",
     "plural": "grands-pères",
-    "grammar_rule": "💡 REMEMBER: Nom composé masculin — pluriel régulier où chaque élément s'accorde ('les grands-pères').",
+    "grammar_rule": "💡 REMEMBER: Nom composé masculin - pluriel régulier où chaque élément s'accorde ('les grands-pères').",
     "irregular": true
   },
   "grand-mère": {
@@ -2529,7 +2529,7 @@
     ],
     "article": "la",
     "plural": "grands-mères",
-    "grammar_rule": "💡 REMEMBER: Nom composé féminin — 'grand' prend un 's' au pluriel ('les grands-mères').",
+    "grammar_rule": "💡 REMEMBER: Nom composé féminin - 'grand' prend un 's' au pluriel ('les grands-mères').",
     "irregular": true
   },
   "lundi": {
@@ -2883,7 +2883,7 @@
     ],
     "article": "l'",
     "plural": "hôpitaux",
-    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-aux' ('les hôpitaux').",
+    "grammar_rule": "💡 REMEMBER: Nom masculin - pluriel irrégulier en '-aux' ('les hôpitaux').",
     "irregular": false
   },
   "pharmacie": {
@@ -3033,7 +3033,7 @@
     ],
     "article": "la",
     "plural": "hontes",
-    "grammar_rule": "💡 REMEMBER: \"h\" aspiré — pas d'élision (\"la honte\", pas \"l'honte\").",
+    "grammar_rule": "💡 REMEMBER: \"h\" aspiré - pas d'élision (\"la honte\", pas \"l'honte\").",
     "irregular": false
   },
   "fierté": {
@@ -3342,7 +3342,7 @@
     "level": "A2",
     "definition": "Publication quotidienne imprimée ou en ligne d'actualités.",
     "antonyms": [],
-    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-aux' ('les journaux').",
+    "grammar_rule": "💡 REMEMBER: Nom masculin - pluriel irrégulier en '-aux' ('les journaux').",
     "article": "le",
     "plural": "journaux",
     "irregular": false
@@ -3537,7 +3537,7 @@
     "level": "B1",
     "definition": "Ensemble d'interconnexions informatiques ou sociales.",
     "antonyms": [],
-    "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-x' ('les réseaux').",
+    "grammar_rule": "💡 REMEMBER: Nom masculin - pluriel irrégulier en '-x' ('les réseaux').",
     "article": "le",
     "plural": "réseaux",
     "irregular": false

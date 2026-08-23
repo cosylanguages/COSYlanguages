@@ -1,6 +1,6 @@
 # Brainstorming & Pedagogical Enhancement Roadmap: "The Greatest Quotes"
 
-This document serves as a comprehensive strategy and development blueprint for elevating COSYlanguages' speaking-centric club—**The Greatest Quotes**—into a highly educational, immersive, and cohesive language-learning experience.
+This document serves as a comprehensive strategy and development blueprint for elevating COSYlanguages' speaking-centric club - **The Greatest Quotes** - into a highly educational, immersive, and cohesive language-learning experience.
 
 It synthesizes the critical evaluation of the *Françoise Dolto "Difficult Children"* session, turning those insights into concrete platform-wide pedagogical standards and structural improvements.
 
@@ -14,7 +14,7 @@ In **The Greatest Quotes** club, the selected quote must not merely serve as an 
 Historically, sessions tended to drift. A session might begin with a poignant quote about parenting (e.g., Françoise Dolto) or education, but quickly dissolve into abstract academic psychology (e.g., *Subconscious*, *Persona*, *Suppression*) or disconnected futuristic tropes (e.g., *AI replacing artist authenticity*).
 
 ### The Solution: Cohesive Storytelling
-Every single component of the lesson—vocabulary, interactive grammar, warm-up, Round 1 discussion, Round 2 future projections, collaborative games, and the closing circle—must stay actively connected to the core theme of the quote.
+Every single component of the lesson - vocabulary, interactive grammar, warm-up, Round 1 discussion, Round 2 future projections, collaborative games, and the closing circle - must stay actively connected to the core theme of the quote.
 
 ---
 
@@ -78,7 +78,7 @@ Round 1 questions must move away from highly abstract philosophical concepts tow
 
 ## 🟢 Round 2: Speculating on the Quote's Future
 
-Round 2 is a signature strength of COSYlanguages speaking clubs—imagining the future. However, the speculative future *must remain anchored to the core theme of the quote*, rather than drifting into generic sci-fi or AI tropes.
+Round 2 is a signature strength of COSYlanguages speaking clubs - imagining the future. However, the speculative future *must remain anchored to the core theme of the quote*, rather than drifting into generic sci-fi or AI tropes.
 
 ### The Transition
 If the quote is about **Françoise Dolto's difficult children**, Round 2 must project the future of *parenting, childhood, education, and obedience*, not technological digitization.

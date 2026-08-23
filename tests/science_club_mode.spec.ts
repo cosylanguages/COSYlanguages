@@ -124,12 +124,12 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
     await expect(u6).toBeVisible();
 
     // Check customized titles
-    await expect(u1.locator('.round-header')).toContainText('Unit 1 — Enter the Topic');
-    await expect(u2.locator('.round-header')).toContainText('Unit 2 — Understand the Findings');
-    await expect(u3.locator('.round-header')).toContainText('Unit 3 — Explore the Science');
-    await expect(u4.locator('.round-header')).toContainText('Unit 4 — Evidence + Evaluation');
-    await expect(u5.locator('.round-header')).toContainText('Unit 5 — Why Does It Matter?');
-    await expect(u6.locator('.round-header')).toContainText('Unit 6 — Future Projections');
+    await expect(u1.locator('.round-header')).toContainText('Unit 1 - Enter the Topic');
+    await expect(u2.locator('.round-header')).toContainText('Unit 2 - Understand the Findings');
+    await expect(u3.locator('.round-header')).toContainText('Unit 3 - Explore the Science');
+    await expect(u4.locator('.round-header')).toContainText('Unit 4 - Evidence + Evaluation');
+    await expect(u5.locator('.round-header')).toContainText('Unit 5 - Why Does It Matter?');
+    await expect(u6.locator('.round-header')).toContainText('Unit 6 - Future Projections');
 
     // Check if vocabulary is recycled under Unit 1
     const vocabGrid = u1.locator('.vocab-grid-10');
@@ -151,8 +151,8 @@ test.describe('Keeping Up with Science - Phase 2 Mode & Passcode Verification', 
     }
 
     // Verify first and last step headers
-    await expect(page.locator('#p-step1 .round-header')).toContainText('Step 1 — Lead-In / Warm-Up');
-    await expect(page.locator('#p-step10 .round-header')).toContainText('Step 10 — Independent Final Production');
+    await expect(page.locator('#p-step1 .round-header')).toContainText('Step 1 - Lead-In / Warm-Up');
+    await expect(page.locator('#p-step10 .round-header')).toContainText('Step 10 - Independent Final Production');
 
     // Verify presence of teacher manual guidance chips inside steps
     const teacherNotes = page.locator('#p-step1 .teacher-manual-chip');

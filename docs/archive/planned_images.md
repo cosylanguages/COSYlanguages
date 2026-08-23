@@ -34,6 +34,6 @@ images/
 Flags needed for coming-soon languages (create or source before publishing them):
 | Language | Code | Flag needed |
 |----------|------|-------------|
-| Tatar | tt | No standard national flag — use text "ТТ" or region flag |
-| Bashkir | ba | No standard national flag — use text "БА" or region flag |
-| Breton | br | No standard national flag — use Breton cultural flag or text "BR" |
+| Tatar | tt | No standard national flag - use text "ТТ" or region flag |
+| Bashkir | ba | No standard national flag - use text "БА" or region flag |
+| Breton | br | No standard national flag - use Breton cultural flag or text "BR" |

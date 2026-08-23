@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════
-   COSYlanguages — Mobile-first CSS additions
+   COSYlanguages - Mobile-first CSS additions
    Apply to practice.html and events.html
    ═══════════════════════════════════════════ */
 
@@ -124,12 +124,12 @@
 }
 
 /* ══════════════════════════════════
-   PRACTICE PAGE — mobile redesign
+   PRACTICE PAGE - mobile redesign
    ══════════════════════════════════ */
 
 @media (max-width: 768px) {
 
-  /* Language selector — large circular flags */
+  /* Language selector - large circular flags */
   .lang-selector-mobile {
     display: flex;
     gap: 12px;
@@ -182,7 +182,7 @@
     transform: scale(0.92);
   }
 
-  /* Category buttons — full width pills */
+  /* Category buttons - full width pills */
   .category-pills-mobile {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -219,7 +219,7 @@
   .cat-pill.active-vocab { border-color: var(--sage); background: var(--sage-pale); color: var(--sage-dark); }
   .cat-pill.active-grammar { border-color: var(--sage-dark); background: var(--sage-mist); color: var(--sage-deep); }
 
-  /* Speaking — always most prominent */
+  /* Speaking - always most prominent */
   .cat-pill.active-speaking,
   .cat-pill.speaking-pill {
     border-color: var(--honey);
@@ -233,7 +233,7 @@
     background: var(--honey-pale);
   }
 
-  /* Level / Theme — bottom sheet trigger buttons */
+  /* Level / Theme - bottom sheet trigger buttons */
   .filter-row-mobile {
     display: flex;
     gap: 8px;
@@ -269,7 +269,7 @@
     color: var(--sage-dark);
   }
 
-  /* Start button — large, full-width, thumb-friendly */
+  /* Start button - large, full-width, thumb-friendly */
   .start-btn-mobile {
     display: flex;
     gap: 10px;
@@ -349,7 +349,7 @@
     line-height: 1.5;
   }
 
-  /* Answer buttons — full width, large */
+  /* Answer buttons - full width, large */
   .answers-mobile {
     padding: 0 16px;
     display: flex;
@@ -449,7 +449,7 @@
   }
   .btn-check-mobile:active { transform: scale(0.97); }
 
-  /* Next button — fixed bottom */
+  /* Next button - fixed bottom */
   .btn-next-mobile {
     position: fixed;
     bottom: calc(64px + var(--safe-bottom) + 12px);
@@ -472,7 +472,7 @@
   .btn-next-mobile.visible { display: block; }
   .btn-next-mobile:active { transform: scale(0.97); }
 
-  /* Progress bar — top of session */
+  /* Progress bar - top of session */
   .session-progress-mobile {
     height: 6px;
     background: var(--sage-pale);
@@ -488,7 +488,7 @@
     transition: width .3s ease;
   }
 
-  /* Points + streak counter — compact top bar */
+  /* Points + streak counter - compact top bar */
   .session-stats-mobile {
     display: flex;
     align-items: center;
@@ -500,7 +500,7 @@
     color: var(--sage-dark);
   }
 
-  /* Session summary — celebratory */
+  /* Session summary - celebratory */
   .summary-mobile {
     padding: 32px 24px 24px;
     text-align: center;
@@ -597,12 +597,12 @@
 }
 
 /* ══════════════════════════════════
-   GAMES PAGE — mobile redesign
+   GAMES PAGE - mobile redesign
    ══════════════════════════════════ */
 
 @media (max-width: 768px) {
 
-  /* Game cards — 2-column grid */
+  /* Game cards - 2-column grid */
   .games-grid {
     grid-template-columns: 1fr 1fr !important;
     gap: 10px !important;
@@ -615,7 +615,7 @@
 
   .gc-icon { font-size: 2rem !important; }
   .gc-title { font-size: .88rem !important; }
-  .gc-desc { display: none; } /* hide description on mobile — too much text */
+  .gc-desc { display: none; } /* hide description on mobile - too much text */
 
   .gc-play-btn {
     width: 100% !important;
@@ -739,7 +739,7 @@
 
   /* ── Game-specific mobile layouts ── */
 
-  /* Action Hero — huge timer, massive buttons */
+  /* Action Hero - huge timer, massive buttons */
   .action-hero-mobile {
     display: flex;
     flex-direction: column;
@@ -808,7 +808,7 @@
   }
   .ah-btn-incorrect:active { transform: scale(0.94); background: #a32d2d; color: #fff; }
 
-  /* Fluency Flow — large spin button */
+  /* Fluency Flow - large spin button */
   .fluency-flow-mobile {
     padding: 24px 20px;
     text-align: center;
@@ -882,7 +882,7 @@
     box-shadow: 0 4px 16px rgba(107,143,113,.3);
   }
 
-  /* Opinion Arena — full screen */
+  /* Opinion Arena - full screen */
   .opinion-arena-mobile {
     padding: 20px 16px;
     display: flex;
@@ -1154,7 +1154,7 @@ body.theme-dark .mobile-nav {
    ══════════════════════════════════ */
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* Bottom nav hidden on tablet — show condensed top nav */
+  /* Bottom nav hidden on tablet - show condensed top nav */
   .mobile-nav { display: none; }
 
   /* Practice: 2-column layout for answers */

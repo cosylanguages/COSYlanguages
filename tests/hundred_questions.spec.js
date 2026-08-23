@@ -5,7 +5,7 @@ test('100 Questions standalone game flow verification', async ({ page }) => {
     await page.goto('http://localhost:8080/games/hundred_questions/index.html');
 
     // 1. Verify Setup screen loads
-    await expect(page).toHaveTitle(/100 Questions — COSYlanguages/);
+    await expect(page).toHaveTitle(/100 Questions - COSYlanguages/);
     await expect(page.locator('.setup-screen h2')).toHaveText('100 Questions');
 
     // Verify default options

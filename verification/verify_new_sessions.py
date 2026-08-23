@@ -15,7 +15,7 @@ def run_cuj(page):
     page.wait_for_timeout(1000)
 
     # Click on some elements, let's toggle a round or something
-    page.get_by_text("🟠 Warm-up — Celebrating Autonomy").click()
+    page.get_by_text("🟠 Warm-up - Celebrating Autonomy").click()
     page.wait_for_timeout(500)
 
     page.screenshot(path="/home/jules/verification/screenshots/single_working_women_session.png")

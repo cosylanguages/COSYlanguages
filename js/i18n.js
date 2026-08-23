@@ -137,7 +137,7 @@
               <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
             </div>
           </div>
-          <div class="footer-bottom" data-i18n="footer.allRightsReserved">© 2026 COSYlanguages — All rights reserved</div>
+          <div class="footer-bottom" data-i18n="footer.allRightsReserved">© 2026 COSYlanguages - All rights reserved</div>
         `;
     }
 

@@ -1,12 +1,12 @@
 {
-  "language": "xx",
-  "category": "verbs",
-  "layer": "morphology",
+  "language": "xx", // ISO code: en | fr | it | ru | el | es | de | pt | hy | ka | tt | ba | br
+  "category": "verbs", // verbs | nouns | adjectives | etc.
+  "layer": "morphology", // morphology | syntax | phonology | particles
   "groups": [
     {
       "id": "group_unique_id",
       "label": "Grammar Group Label",
-      "level": "starter",
+      "level": "starter", // starter | elementary | intermediate | upper_intermediate | advanced | proficiency
       "definition": "Explanation of the concept in the target language at the appropriate level.",
       "emoji": "✨",
       "rules": [
@@ -25,7 +25,7 @@
         "Exception or irregular form."
       ],
       "word_ids": [
-        "xx_level_theme_001"
+        "xx_level_theme_001" // Reference to vocabulary IDs
       ],
       "practice_links": [
         "grammar/xx/layer/lesson-slug.html"

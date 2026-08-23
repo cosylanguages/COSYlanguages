@@ -1,5 +1,5 @@
 /**
- * COSYlanguages — Session Directory Vanilla JS Component
+ * COSYlanguages - Session Directory Vanilla JS Component
  * Standalone, dependency-free static directory component.
  */
 
@@ -441,7 +441,7 @@
             <span class="sd-empty-icon">🔎</span>
             <h3 class="sd-empty-title">No matching sessions found</h3>
             <p class="sd-empty-msg">
-              No sessions match those filters — try clearing the level or switching languages.
+              No sessions match those filters - try clearing the level or switching languages.
             </p>
             <button type="button" id="sd-clear-filters" class="sd-empty-clear-btn">
               Clear All Filters

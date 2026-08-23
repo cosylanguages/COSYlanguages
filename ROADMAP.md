@@ -1,4 +1,4 @@
-# COSYlanguages — Consolidated Master Roadmap & Strategy
+# COSYlanguages - Consolidated Master Roadmap & Strategy
 
 This document consolidates future roadmap initiatives, platform specifications, and strategic proposals for COSYlanguages.
 

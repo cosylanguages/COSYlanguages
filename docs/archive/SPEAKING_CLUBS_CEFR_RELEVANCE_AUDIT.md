@@ -1,4 +1,4 @@
-# COSYlanguages — CEFR LEVEL AND RELEVANCE AUDIT REPORT (SPEAKING CLUBS)
+# COSYlanguages - CEFR LEVEL AND RELEVANCE AUDIT REPORT (SPEAKING CLUBS)
 
 Below is the comprehensive audit of the **8 live-event Speaking Clubs** in the repository. As instructed, cinema and karaoke events have been avoided, and this is a **read-only audit** with no files edited.
 
@@ -308,7 +308,7 @@ These target vocabulary terms are paired with definitions but do not feature the
 
 ## 6. OVERALL VERDICT PER EVENT FORMAT
 
-### Format: Speaking Clubs — Verdict: **GENERALLY SOLID (WITH TARGETED INCONSISTENCIES)**
+### Format: Speaking Clubs - Verdict: **GENERALLY SOLID (WITH TARGETED INCONSISTENCIES)**
 The CEFR-level alignment across Speaking Clubs is highly impressive. The 204 sessions parsed display excellent topical relevance, creative roleplay dynamics (particularly in **If You Were** and **My Life With & Without**), and level-calibrated sentence syntax.
 
 The main areas of weakness are:

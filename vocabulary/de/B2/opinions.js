@@ -69,7 +69,7 @@
                         "Worauf sind Sie am meisten nostalgisch?",
                         "Glauben Sie, dass die Vergangenheit wirklich besser war?",
                         "Ist Nostalgie tröstlich oder hält sie einen zurück?",
-                        "Kann Nostalgie gefährlich sein — persönlich oder politisch?",
+                        "Kann Nostalgie gefährlich sein - persönlich oder politisch?",
                         "Was bedeutet es, dass wir unsere Erinnerungen bearbeiten?"
                 ],
                 "lang": "de",
@@ -85,7 +85,7 @@
                                         "Worauf sind Sie am meisten nostalgisch?",
                                         "Glauben Sie, dass die Vergangenheit wirklich besser war?",
                                         "Ist Nostalgie tröstlich oder hält sie einen zurück?",
-                                        "Kann Nostalgie gefährlich sein — persönlich oder politisch?",
+                                        "Kann Nostalgie gefährlich sein - persönlich oder politisch?",
                                         "Was bedeutet es, dass wir unsere Erinnerungen bearbeiten?"
                                 ]
                         }
@@ -94,7 +94,7 @@
                 "id": "de_upper_intermediate_psychology_001"
         },
     {
-                "t": "Die meisten Menschen wollen kein ehrliches Feedback — sie wollen Bestätigung.",
+                "t": "Die meisten Menschen wollen kein ehrliches Feedback - sie wollen Bestätigung.",
                 "tag": "Menschliche Natur",
                 "h": [
                         "Wenn Sie um Feedback bitten, was wollen Sie wirklich?",
@@ -107,11 +107,11 @@
                 "level": "upper_intermediate",
                 "theme": "psychology",
                 "sub_theme": null,
-                "word": "Die meisten Menschen wollen kein ehrliches Feedback — sie wollen Bestätigung.",
+                "word": "Die meisten Menschen wollen kein ehrliches Feedback - sie wollen Bestätigung.",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Die meisten Menschen wollen kein ehrliches Feedback — sie wollen Bestätigung.",
+                                "text": "Die meisten Menschen wollen kein ehrliches Feedback - sie wollen Bestätigung.",
                                 "examples": [
                                         "Wenn Sie um Feedback bitten, was wollen Sie wirklich?",
                                         "Haben Sie jemals Feedback erhalten, das schwer zu hören, aber wertvoll war?",
@@ -222,7 +222,7 @@
                 "tag": "Philosophie",
                 "h": [
                         "Fällt Ihnen eine wirklich selbstlose Tat ein?",
-                        "Fühlt es sich gut an, etwas Gutes zu tun — und macht es das egoistisch?",
+                        "Fühlt es sich gut an, etwas Gutes zu tun - und macht es das egoistisch?",
                         "Ist das eine zynische oder eine realistische Sichtweise?",
                         "Spielt die Motivation hinter einer Handlung eine Rolle, wenn das Ergebnis positiv ist?",
                         "Ändert der Glaube daran Ihr Verhalten?"
@@ -238,7 +238,7 @@
                                 "text": "Es gibt kein wirklich uneigennütziges Verhalten.",
                                 "examples": [
                                         "Fällt Ihnen eine wirklich selbstlose Tat ein?",
-                                        "Fühlt es sich gut an, etwas Gutes zu tun — und macht es das egoistisch?",
+                                        "Fühlt es sich gut an, etwas Gutes zu tun - und macht es das egoistisch?",
                                         "Ist das eine zynische oder eine realistische Sichtweise?",
                                         "Spielt die Motivation hinter einer Handlung eine Rolle, wenn das Ergebnis positiv ist?",
                                         "Ändert der Glaube daran Ihr Verhalten?"
@@ -256,7 +256,7 @@
                         "Wann haben Sie erwartet, sich wie ein Erwachsener zu fühlen?",
                         "Haben alle das Gefühl, nur so zu tun?",
                         "Ist das beruhigend oder erschreckend?",
-                        "Wer ist jemand, der es im Griff zu haben scheint — glauben Sie, dass er das wirklich tut?"
+                        "Wer ist jemand, der es im Griff zu haben scheint - glauben Sie, dass er das wirklich tut?"
                 ],
                 "lang": "de",
                 "level": "upper_intermediate",
@@ -272,7 +272,7 @@
                                         "Wann haben Sie erwartet, sich wie ein Erwachsener zu fühlen?",
                                         "Haben alle das Gefühl, nur so zu tun?",
                                         "Ist das beruhigend oder erschreckend?",
-                                        "Wer ist jemand, der es im Griff zu haben scheint — glauben Sie, dass er das wirklich tut?"
+                                        "Wer ist jemand, der es im Griff zu haben scheint - glauben Sie, dass er das wirklich tut?"
                                 ]
                         }
                 ],
@@ -342,7 +342,7 @@
                 "id": "de_upper_intermediate_people_002"
         },
     {
-                "t": "Komfortzonen werden überbewertet — Wachstum findet eigentlich in der Unbequemlichkeit statt.",
+                "t": "Komfortzonen werden überbewertet - Wachstum findet eigentlich in der Unbequemlichkeit statt.",
                 "tag": "Selbstentwicklung",
                 "h": [
                         "Fällt Ihnen eine Zeit ein, in der Unbehagen zu Wachstum führte?",
@@ -355,11 +355,11 @@
                 "level": "upper_intermediate",
                 "theme": "psychology",
                 "sub_theme": null,
-                "word": "Komfortzonen werden überbewertet — Wachstum findet eigentlich in der Unbequemlichkeit statt.",
+                "word": "Komfortzonen werden überbewertet - Wachstum findet eigentlich in der Unbequemlichkeit statt.",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Komfortzonen werden überbewertet — Wachstum findet eigentlich in der Unbequemlichkeit statt.",
+                                "text": "Komfortzonen werden überbewertet - Wachstum findet eigentlich in der Unbequemlichkeit statt.",
                                 "examples": [
                                         "Fällt Ihnen eine Zeit ein, in der Unbehagen zu Wachstum führte?",
                                         "Ist es immer notwendig, sich unbehaglich zu fühlen, um sich zu entwickeln?",
@@ -373,7 +373,7 @@
                 "id": "de_upper_intermediate_psychology_004"
         },
     {
-                "t": "Wut ist eine unterschätzte Emotion — manchmal bewirkt sie etwas.",
+                "t": "Wut ist eine unterschätzte Emotion - manchmal bewirkt sie etwas.",
                 "tag": "Psychologie",
                 "h": [
                         "Glauben Sie, dass Sie Wut gut ausdrücken können?",
@@ -386,11 +386,11 @@
                 "level": "upper_intermediate",
                 "theme": "psychology",
                 "sub_theme": null,
-                "word": "Wut ist eine unterschätzte Emotion — manchmal bewirkt sie etwas.",
+                "word": "Wut ist eine unterschätzte Emotion - manchmal bewirkt sie etwas.",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Wut ist eine unterschätzte Emotion — manchmal bewirkt sie etwas.",
+                                "text": "Wut ist eine unterschätzte Emotion - manchmal bewirkt sie etwas.",
                                 "examples": [
                                         "Glauben Sie, dass Sie Wut gut ausdrücken können?",
                                         "Fällt Ihnen eine Zeit ein, in der Wut produktiv war?",

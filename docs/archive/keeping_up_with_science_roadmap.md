@@ -1,4 +1,4 @@
-# Keeping Up with Science — Unified Pedagogical Roadmap
+# Keeping Up with Science - Unified Pedagogical Roadmap
 
 This document outlines the standard developmental roadmap and pedagogical philosophy for all **Keeping Up with Science** speaking club sessions. It serves as a blueprint for creating, auditing, and upgrading any science-based discussion session in English, French, Russian, or other languages.
 
@@ -19,14 +19,14 @@ Our main goals are:
 
 To maintain a consistent, recognizable brand, every session page must strictly adhere to the following 4-part framework:
 
-### Part A: understand the Discovery (Round 1 — Theoretical Discussion)
+### Part A: understand the Discovery (Round 1 - Theoretical Discussion)
 - **Focus:** Comprehension, analysis, and evaluation of the core article/scientific paper.
 - **Rules:**
   - Every question must explicitly prompt the student to refer to the research (e.g., *"According to the article...", "What evidence presented in the study..."*).
   - Vocabulary terms must be systematically integrated into the questions using `<strong>` tags.
   - Avoid general or generic conversational prompts; ensure students are evaluating the science itself.
 
-### Part B: Project the Discovery (Round 2 — The Future: Agree or Disagree?)
+### Part B: Project the Discovery (Round 2 - The Future: Agree or Disagree?)
 - **Focus:** Speculative and progressive consequences of the discovery continuing to develop.
 - **Rules:**
   - Every prompt/question **must grow directly from the scientific discovery** or technological development.

@@ -23,11 +23,11 @@
 Clubs use various round activities. Use the following structures inside `.round-body`:
 
 - **Questions:** Standard list of discussion points.
-- **Agree/Disagree:** `[STATEMENT] — Do you agree or disagree?`
-- **True/False:** `[FACT/MYTH] — Is this true or false in your experience?`
-- **Real/Unreal:** `[SCENARIO] — Is this a real possibility or just science fiction?`
-- **Believe it / Ain't believe it:** `[UNBELIEVABLE FACT] — Do you believe it?`
-- **Possible/Impossible:** `[GOAL/TASK] — Is this possible today or impossible?`
+- **Agree/Disagree:** `[STATEMENT] - Do you agree or disagree?`
+- **True/False:** `[FACT/MYTH] - Is this true or false in your experience?`
+- **Real/Unreal:** `[SCENARIO] - Is this a real possibility or just science fiction?`
+- **Believe it / Ain't believe it:** `[UNBELIEVABLE FACT] - Do you believe it?`
+- **Possible/Impossible:** `[GOAL/TASK] - Is this possible today or impossible?`
 - **Role Play:** `Speaker A: [ROLE], Speaker B: [ROLE]. Scenario: [SITUATION].`
 - **Finish the Idea:** `[SENTENCE STARTER] ... (complete with your own ideas).`
 
@@ -80,7 +80,7 @@ Place inside `.history-body` of a club card.
       <!-- 2. ROUND 1 -->
       <div class="round-block" id="[SESSION_ID]-r1">
         <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('[SESSION_ID]-r1')">
-          <span>🔵 Round 1 — [TYPE]</span><span class="round-toggle">▼</span>
+          <span>🔵 Round 1 - [TYPE]</span><span class="round-toggle">▼</span>
         </div>
         <div class="round-body">
           <!-- Template varies by type (Agree/Disagree, Questions, etc.) -->
@@ -110,7 +110,7 @@ Place inside `.history-body` of a club card.
       <!-- 4. ROUND 2 -->
       <div class="round-block" id="[SESSION_ID]-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="toggleRound('[SESSION_ID]-r2')">
-          <span>🟢 Round 2 — Deep Dive</span><span class="round-toggle">▼</span>
+          <span>🟢 Round 2 - Deep Dive</span><span class="round-toggle">▼</span>
         </div>
         <div class="round-body">
           <div class="round-item">

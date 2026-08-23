@@ -10,7 +10,7 @@ window.curriculumData.ru_a1 = [
       pronunciation: [
         {
           point: "Русский алфавит (Кириллица)",
-          explain: "В русском алфавите 33 буквы. Некоторые звучат как в английском, другие — нет.",
+          explain: "В русском алфавите 33 буквы. Некоторые звучат как в английском, другие - нет.",
           alphabet: [
             {l:'А', ipa:'/a/'}, {l:'Б', ipa:'/b/'}, {l:'В', ipa:'/v/'}, {l:'Г', ipa:'/ɡ/'}, {l:'Д', ipa:'/d/'},
             {l:'Е', ipa:'/je/'}, {l:'Ё', ipa:'/jo/'}, {l:'Ж', ipa:'/ʐ/'}, {l:'З', ipa:'/z/'}, {l:'И', ipa:'/i/'},
@@ -38,7 +38,7 @@ window.curriculumData.ru_a1 = [
             { pattern: "Молоко", ipa: "/məlɐˈko/", word: "молоко" },
             { pattern: "Россия", ipa: "/rɐˈsʲijə/", word: "Россия" }
           ],
-          tip: "Слушайте ударение — это меняет звук 'О'!",
+          tip: "Слушайте ударение - это меняет звук 'О'!",
           extension: "Это явление называется 'аканье'. Оно делает русскую речь более мягкой и мелодичной. Ударный слог всегда долгий и четкий.",
           visual: "🅾️➡️🅰️"
         }
@@ -73,7 +73,7 @@ window.curriculumData.ru_a1 = [
             { w1: "брат", p1: "/brat/", w2: "брать", p2: "/bratʲ/" },
             { w1: "угол", p1: "/ˈuɡəl/", w2: "уголь", p2: "/ˈuɡəlʲ/" }
           ],
-          extension: "Разница между твердыми и мягкими согласными очень важна! Например, 'мат' — это нехорошее слово, а 'мать' — это мама.",
+          extension: "Разница между твердыми и мягкими согласными очень важна! Например, 'мат' - это нехорошее слово, а 'мать' - это мама.",
           visual: "🧊☁️"
         }
       ],
@@ -114,7 +114,7 @@ window.curriculumData.ru_a1 = [
       grammar:'Алфавит + Личные местоимения + Нулевая связка',
       pronunciation: [
         {
-          point: "The Cyrillic Alphabet — Vowels",
+          point: "The Cyrillic Alphabet - Vowels",
           explain: "Russian has 10 vowels, which can be hard or soft.",
           examples: [
             { pattern: "А", ipa: "/a/", word: "мама" },
@@ -211,7 +211,7 @@ window.curriculumData.ru_a1 = [
       cando:'Может совершать простые покупки',
       hw:'Выучить числа до 100' },
     { code:'RU-06', num:6, title:'Завтрак, обед и ужин',
-      grammar:'Винительный падеж (начало) — объекты',
+      grammar:'Винительный падеж (начало) - объекты',
       vocab: ['чай','кофе','вода','хлеб','сыр','борщ'],
       verbs:['есть','пить','хотеть'],
       adj:['вкусный','холодный','горячий'],
@@ -243,7 +243,7 @@ window.curriculumData.ru_a1 = [
       listening:'Интервью о соцсетях',
       reading:'Пост в блоге',
       writing:'Описание своего цифрового дня',
-      task:'Обсуждение: интернет — это хорошо?',
+      task:'Обсуждение: интернет - это хорошо?',
       cando:'Может говорить о своих цифровых привычках',
       hw:'Перевести 5 предложений о технологиях' },
     { code:'RU-09', num:9, title:'Что вы делаете в субботу?',
@@ -258,7 +258,7 @@ window.curriculumData.ru_a1 = [
       task:'Найти единомышленника по интересам',
       cando:'Может говорить о своем досуге',
       hw:'Написать 5 фраз о своих вкусах' },
-    { code:'RU-10', num:10, title:'Ревизия 1 — Моя жизнь',
+    { code:'RU-10', num:10, title:'Ревизия 1 - Моя жизнь',
       grammar:'Итоги: Настоящее время, род и притяжательные',
       vocab: ['Вся лексика Модуля 1'],
       verbs:['Быть','Работать','Жить','Читать'],
@@ -291,7 +291,7 @@ window.curriculumData.ru_a1 = [
     { code:'RU-17', num:7, title:'Интересная история', grammar:'Рассказ о событии', lessons_count:1 },
     { code:'RU-18', num:8, title:'Мои старые привычки', grammar:'Регулярные действия в прошлом', lessons_count:1 },
     { code:'RU-19', num:9, title:'Он сказал, что...', grammar:'Косвенная речь (просто)', lessons_count:1 },
-    { code:'RU-20', num:10, title:'Ревизия 2 — Прошлое', grammar:'Итоги по прошедшему времени', lessons_count:1 },
+    { code:'RU-20', num:10, title:'Ревизия 2 - Прошлое', grammar:'Итоги по прошедшему времени', lessons_count:1 },
   ]
 },
 {
@@ -313,7 +313,7 @@ window.curriculumData.ru_a1 = [
     { code:'RU-27', num:7, title:'Мои обещания', grammar:'Намерения', lessons_count:1 },
     { code:'RU-28', num:8, title:'Встреча в офисе', grammar:'Назначение времени', lessons_count:1 },
     { code:'RU-29', num:9, title:'Если будет солнце...', grammar:'Условные предложения', lessons_count:1 },
-    { code:'RU-30', num:10, title:'Ревизия 3 — Будущее', grammar:'Итоги по будущему времени', lessons_count:1 },
+    { code:'RU-30', num:10, title:'Ревизия 3 - Будущее', grammar:'Итоги по будущему времени', lessons_count:1 },
   ]
 },
 {
@@ -335,7 +335,7 @@ window.curriculumData.ru_a1 = [
     { code:'RU-37', num:7, title:'В гостях', grammar:'Этикет', lessons_count:1 },
     { code:'RU-38', num:8, title:'Экология', grammar:'Природа', lessons_count:1 },
     { code:'RU-39', num:9, title:'Мои друзья', grammar:'Описание характера', lessons_count:1 },
-    { code:'RU-40', num:10, title:'Ревизия 4 — Мнения', grammar:'Итоги по темам дискуссий', lessons_count:1 },
+    { code:'RU-40', num:10, title:'Ревизия 4 - Мнения', grammar:'Итоги по темам дискуссий', lessons_count:1 },
   ]
 },
 {

@@ -1,4 +1,4 @@
-# COSYlanguages Events Repository — Comprehensive Quality Audit Report
+# COSYlanguages Events Repository - Comprehensive Quality Audit Report
 
 **Prepared by:** Jules, Senior Software Engineer
 **Date:** September 2026
@@ -90,7 +90,7 @@ This document outlines our findings, strengths, weaknesses, prioritized remediat
     *   **The Content Silo Problem:** Once a user enters an individual session page, they are trapped in a navigation silo. There are no "Next Topic" or "Previous Topic" links. The only escape is hitting "← Back to Club", which forces them back to the main list.
     *   **Mobile Bottom Nav Exclusion:** Crucially, the mobile bottom navigation bar (`window.updateMobileNav()` in `js/core/ui.js`) is hardcoded to completely omit **Events (🎉)** and **Notebook (📓)**, severely harming discoverability for mobile web visitors.
 *   **Suggestions for Improvement:**
-    *   Inject responsive, sibling-relative navigation rows (`.session-nav-row`) at the bottom of all 400+ session pages to enable fluid "session-hopping". (We note that a Python automation builder `add_relative_navigation_to_sessions.py` was recently developed to achieve this—it must be maintained and run after any new session generation).
+    *   Inject responsive, sibling-relative navigation rows (`.session-nav-row`) at the bottom of all 400+ session pages to enable fluid "session-hopping". (We note that a Python automation builder `add_relative_navigation_to_sessions.py` was recently developed to achieve this - it must be maintained and run after any new session generation).
     *   Refactor `js/core/ui.js` to replace the redundant "Languages" anchor on mobile with a direct, high-visibility link to **Events (🎉)** and add **Notebook (📓)** to the mobile off-canvas drawer.
 
 ### 8. Internal Consistency
@@ -175,6 +175,6 @@ To systematically resolve the identified weaknesses, we have classified the issu
 
 ## 4. Conclusion
 
-The COSYlanguages Events Repository is a stellar example of modern, open-access pedagogical design. Its pedagogical foundations—such as the double-round discussion architecture, active vocabulary embedding, and native grammar integration—provide an exceptionally solid learning environment.
+The COSYlanguages Events Repository is a stellar example of modern, open-access pedagogical design. Its pedagogical foundations - such as the double-round discussion architecture, active vocabulary embedding, and native grammar integration - provide an exceptionally solid learning environment.
 
 By addressing the prioritized navigation gaps, leveling down A2 elementary sessions, and correcting minor structural deviations, we will establish an incredibly smooth, perfectly consistent, and highly engaging user experience across both mobile and desktop viewports, cementing COSYlanguages' position as an elite, high-quality public educational platform.

@@ -2,7 +2,7 @@
 
 This document serves as the master strategic blueprint and brainstorming roadmap for integrating context-specific grammar topics across COSYlanguages' active speaking clubs, events, and practice platforms.
 
-By systematically aligning grammatical acquisition with authentic multimedia sources—screenplays in the **Cinema Club**, repetitive lyrics in the **Karaoke Club**, and contextual speech tasks in **Practice Hub Videos & Articles**—we enforce our core pedagogical commitment to **100% monolingual target-language acquisition without translation fallbacks**.
+By systematically aligning grammatical acquisition with authentic multimedia sources - screenplays in the **Cinema Club**, repetitive lyrics in the **Karaoke Club**, and contextual speech tasks in **Practice Hub Videos & Articles** - we enforce our core pedagogical commitment to **100% monolingual target-language acquisition without translation fallbacks**.
 
 ---
 

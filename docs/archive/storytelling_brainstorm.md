@@ -1,4 +1,4 @@
-# COSYlanguages "Storytelling" (Story Weaver) — Game Design & Curriculum Blueprint
+# COSYlanguages "Storytelling" (Story Weaver) - Game Design & Curriculum Blueprint
 
 This document serves as the official high-fidelity design proposal, architectural blueprint, and complete educational curriculum database for the brand-new immersive, creative storytelling game: **Storytelling (Story Weaver) 📖**.
 
@@ -443,15 +443,15 @@ To support students during gameplay, the UI includes a **"Linking Words Help Dra
 ### 🔗 Level A1: Basic Connections
 *Useful for basic conjunctions, listing, and direct reason.*
 
-*   **and** — *Usage:* Adds information.
+*   **and** - *Usage:* Adds information.
     *   *E.g.:* "He got up **and** opened the door."
-*   **but** — *Usage:* Introduces contrast.
+*   **but** - *Usage:* Introduces contrast.
     *   *E.g.:* "She was tired, **but** she continued reading."
-*   **because** — *Usage:* States a reason.
+*   **because** - *Usage:* States a reason.
     *   *E.g.:* "They stopped **because** it was raining."
-*   **or** — *Usage:* Gives choices.
+*   **or** - *Usage:* Gives choices.
     *   *E.g.:* "Should we turn left **or** right?"
-*   **then** — *Usage:* Marks chronological sequence.
+*   **then** - *Usage:* Marks chronological sequence.
     *   *E.g.:* "First, she ate dinner, **then** she fell asleep."
 
 ---
@@ -459,15 +459,15 @@ To support students during gameplay, the UI includes a **"Linking Words Help Dra
 ### 🔗 Level A2: Chronology & Basic Contrast
 *Enables chronological storytelling and simple transitions.*
 
-*   **after that** — *Usage:* Moves to the next event in a timeline.
+*   **after that** - *Usage:* Moves to the next event in a timeline.
     *   *E.g.:* "They reached the river; **after that**, they set up camp."
-*   **also** — *Usage:* Adds another positive point.
+*   **also** - *Usage:* Adds another positive point.
     *   *E.g.:* "The book was exciting, and it was **also** quite short."
-*   **while** — *Usage:* Shows simultaneous actions.
+*   **while** - *Usage:* Shows simultaneous actions.
     *   *E.g.:* "He played music **while** she was cooking."
-*   **firstly / secondly** — *Usage:* Enumerates sequential points.
+*   **firstly / secondly** - *Usage:* Enumerates sequential points.
     *   *E.g.:* "**Firstly**, we need wood; **secondly**, we need a match."
-*   **so** — *Usage:* Expresses result.
+*   **so** - *Usage:* Expresses result.
     *   *E.g.:* "The bridge was broken, **so** they had to swim."
 
 ---
@@ -475,15 +475,15 @@ To support students during gameplay, the UI includes a **"Linking Words Help Dra
 ### 🔗 Level B1: Logical Cause, Effect & Concession
 *Introduces professional and formal structures of concession and argument structuring.*
 
-*   **although** — *Usage:* Concedes a point before introducing the main clause.
+*   **although** - *Usage:* Concedes a point before introducing the main clause.
     *   *E.g.:* "**Although** the sun was shining, the wind was freezing."
-*   **however** — *Usage:* Smoothly transitions to a counter-argument.
+*   **however** - *Usage:* Smoothly transitions to a counter-argument.
     *   *E.g.:* "The plan was perfect; **however**, they lacked resources."
-*   **therefore** — *Usage:* Draws a strong logical consequence.
+*   **therefore** - *Usage:* Draws a strong logical consequence.
     *   *E.g.:* "He had lost his sword; **therefore**, he had to retreat."
-*   **since** — *Usage:* Expresses cause (similar to 'because' but more formal).
+*   **since** - *Usage:* Expresses cause (similar to 'because' but more formal).
     *   *E.g.:* "**Since** you are here, help me open this door."
-*   **besides** — *Usage:* Adds an extra, highly persuasive argument.
+*   **besides** - *Usage:* Adds an extra, highly persuasive argument.
     *   *E.g.:* "It is too late; **besides**, we don't know the way."
 
 ---
@@ -491,15 +491,15 @@ To support students during gameplay, the UI includes a **"Linking Words Help Dra
 ### 🔗 Level B2: Nuanced Comparison & Refinement
 *Supports advanced structuring, emphasis, and conditional transitions.*
 
-*   **furthermore** — *Usage:* Adds major supplementary evidence.
+*   **furthermore** - *Usage:* Adds major supplementary evidence.
     *   *E.g.:* "The forest is dark; **furthermore**, it is filled with traps."
-*   **on the other hand** — *Usage:* Presents a contrasting perspective or alternative.
+*   **on the other hand** - *Usage:* Presents a contrasting perspective or alternative.
     *   *E.g.:* "The mountain path is fast; **on the other hand**, it is dangerous."
-*   **unless** — *Usage:* Expresses negative condition.
+*   **unless** - *Usage:* Expresses negative condition.
     *   *E.g.:* "We will fail **unless** we work together."
-*   **as long as** — *Usage:* Establishes a strict condition for success.
+*   **as long as** - *Usage:* Establishes a strict condition for success.
     *   *E.g.:* "You can borrow the map **as long as** you return it tomorrow."
-*   **consequently** — *Usage:* Expresses formal outcome of a situation.
+*   **consequently** - *Usage:* Expresses formal outcome of a situation.
     *   *E.g.:* "The castle gate was unlocked; **consequently**, they walked in."
 
 ---
@@ -507,15 +507,15 @@ To support students during gameplay, the UI includes a **"Linking Words Help Dra
 ### 🔗 Level C1: Advanced Rhetoric & Concession
 *Enables seamless prose, subtle contradictions, and formal academic flow.*
 
-*   **nevertheless** — *Usage:* Stands in strong defiance of preceding obstacles.
+*   **nevertheless** - *Usage:* Stands in strong defiance of preceding obstacles.
     *   *E.g.:* "The odds were hopeless; **nevertheless**, they fought on."
-*   **whereas** — *Usage:* Highlights precise, balanced comparison between two subjects.
+*   **whereas** - *Usage:* Highlights precise, balanced comparison between two subjects.
     *   *E.g.:* "He preferred raw action, **whereas** she favored cautious dialogue."
-*   **despite / in spite of** — *Usage:* Followed directly by a noun phrase or gerund for concession.
+*   **despite / in spite of** - *Usage:* Followed directly by a noun phrase or gerund for concession.
     *   *E.g.:* "**Despite** having no weapons, she walked boldly toward the guard."
-*   **nonetheless** — *Usage:* Defies previous negative conditions (extremely elegant).
+*   **nonetheless** - *Usage:* Defies previous negative conditions (extremely elegant).
     *   *E.g.:* "It was risky; **nonetheless**, the reward was too great to ignore."
-*   **consequently** / **accordingly** — *Usage:* Aligns actions in exact conformity with a premise.
+*   **consequently** / **accordingly** - *Usage:* Aligns actions in exact conformity with a premise.
     *   *E.g.:* "The king demanded silence; **accordingly**, everyone stopped whispering."
 
 ---
@@ -523,13 +523,13 @@ To support students during gameplay, the UI includes a **"Linking Words Help Dra
 ### 🔗 Level C2: Absolute Literary & Precise Mastery
 *Provides the ultimate syntactic polish for fluid, native-level master storytelling.*
 
-*   **albeit** — *Usage:* Concedes a single descriptive modifier (means "although it be").
+*   **albeit** - *Usage:* Concedes a single descriptive modifier (means "although it be").
     *   *E.g.:* "He agreed to lead them, **albeit** with deep reluctance."
-*   **notwithstanding** — *Usage:* Means "despite" but can be placed before or *after* the noun.
+*   **notwithstanding** - *Usage:* Means "despite" but can be placed before or *after* the noun.
     *   *E.g.:* "Their mutual suspicion **notwithstanding**, they formed a tight alliance."
-*   **much as** — *Usage:* Strong concessive verbal prefix (means "although I want to very much").
+*   **much as** - *Usage:* Strong concessive verbal prefix (means "although I want to very much").
     *   *E.g.:* "**Much as** she wanted to believe him, suspicion held her back."
-*   **by the same token** — *Usage:* Introduces a closely related, equally true point.
+*   **by the same token** - *Usage:* Introduces a closely related, equally true point.
     *   *E.g.:* "Trust must be earned; **by the same token**, respect is mutual."
-*   **be that as it may** — *Usage:* Dismisses previous arguments completely to make a final point.
+*   **be that as it may** - *Usage:* Dismisses previous arguments completely to make a final point.
     *   *E.g.:* "It may be a trap. **Be that as it may**, we have no other choice."

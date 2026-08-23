@@ -1,7 +1,7 @@
 # Coming soon courses
 
 Course types listed here are planned but not yet published.
-The data or curriculum may already partially exist in `curriculum/` —
+The data or curriculum may already partially exist in `curriculum/` -
 these courses are simply not yet linked from the main courses hub.
 
 When a course is ready to publish:

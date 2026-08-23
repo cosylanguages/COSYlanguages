@@ -21,7 +21,7 @@ Many language apps suffer from the **"Duolingo Illusion of Competence"**: learne
 ## 2. 6 Pillars of Pedagogical Efficacy & Deep Retention
 
 ### Pillar 1: Active Output Production & Forced Retrieval
-* **The Retrieval Practice Principle:** Passive recognition (picking a choice out of 4 options) builds weak neural pathways. Real acquisition requires **active retrieval**—drawing vocabulary and grammar structures directly out of long-term memory.
+* **The Retrieval Practice Principle:** Passive recognition (picking a choice out of 4 options) builds weak neural pathways. Real acquisition requires **active retrieval** - drawing vocabulary and grammar structures directly out of long-term memory.
 * **COSY Implementation:**
   1. **Progressive Task Scaffolding:** Each item moves from *Recognition* (`mc` / `tf`) → *Structural Construction* (`sc` / `cloze`) → *Active Recall Entry* (`type`) → *Spoken Production* (`conv`).
   2. **Speech-to-Text & Oral Echoing:** Prompting learners to pronounce every completed sentence out loud, analyzing speech input for rhythm, stress, and pronunciation match.
@@ -33,7 +33,7 @@ Many language apps suffer from the **"Duolingo Illusion of Competence"**: learne
   2. **Cross-Ecosystem Context Synergy:** Practice items directly cite sentences from Cinema Club films (*The Devil Wears Prada*, *Gone Girl*), Karaoke Club lyrics (*Kate Bush*, *Crazy Ex-Girlfriend*), or 'I Couldn't Help But Wonder' scenario prompts.
 
 ### Pillar 3: Adaptive Diagnostic Feedback & Remediation Loops
-* **The Error-Driven Learning Principle:** Mistakes are the most valuable learning moments—*if* the learner understands *why* they made the mistake and how to correct it immediately.
+* **The Error-Driven Learning Principle:** Mistakes are the most valuable learning moments - *if* the learner understands *why* they made the mistake and how to correct it immediately.
 * **COSY Implementation:**
   1. **Grammar Rule Chips in Feedback:** When an error occurs on tense or case declension, display a 1-line rule chip (e.g., "*In Russian, prepositions 'в/на' with motion require the Accusative case*").
   2. **Interleaved Weak Spot Traps:** Automatically queue common mistake traps back into the session queue 3 questions later to verify immediate correction.

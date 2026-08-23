@@ -59,7 +59,7 @@
             {
                 "text": "De taille ou de longueur inférieure à la moyenne.",
                 "examples": [
-                    "Il a un trajet court — dix minutes à vélo."
+                    "Il a un trajet court - dix minutes à vélo."
                 ]
             }
         ],
@@ -2033,7 +2033,7 @@
             {
                 "text": "Ayant besoin de nourriture.",
                 "examples": [
-                    "J'ai faim — il est déjà deux heures."
+                    "J'ai faim - il est déjà deux heures."
                 ]
             }
         ],

@@ -6,7 +6,7 @@ window.curriculumData.pt_a1 = [
   lessons_count:5,
   lessons:[
     { code:'PT-001', num:1, title:'Olá & Bem-vindos',
-      grammar:'Verbo "ser" (presente) — formas afirmativas',
+      grammar:'Verbo "ser" (presente) - formas afirmativas',
       pronunciation: [
         {
           point: "O Alfabeto Português",

@@ -8,7 +8,7 @@ This style guide establishes strict, non-negotiable standards for all Karaoke Cl
 
 **Hard Rule:** No sentence frame, question stem, or example sentence may be reused across two different songs in any language anywhere in the Karaoke Club catalog.
 
-* **Concrete Lyric References Required:** Every discussion question in Stage 4 (Round 1 & Round 2) must reference a specific, verifiable element from the song's actual lyrics — such as a named character, specific location, concrete image, plot event, or direct quote.
+* **Concrete Lyric References Required:** Every discussion question in Stage 4 (Round 1 & Round 2) must reference a specific, verifiable element from the song's actual lyrics - such as a named character, specific location, concrete image, plot event, or direct quote.
 * **Prohibition of Generic Title Slotting:** Inserting a song title or topic word into a pre-existing generic question frame (e.g. *"How does [Song Title] change how we think about [Word]?"*) is strictly prohibited.
 * **Distinct Language Iterations:** Parallel localized versions of the same song must be translated faithfully while maintaining complete specificity to that song's lyrical narrative.
 
@@ -100,7 +100,7 @@ This style guide establishes strict, non-negotiable standards for all Karaoke Cl
   * **Vocabulary Link:** Corrections should address common collocations, preposition choices, or false friends associated with the song's key lyrics.
   * **Localization:** Corrections must match the language of the session (English corrections for English songs, French for French songs, Russian for Russian songs, etc.).
 
-### Example Song-Specific Teacher's Note (for *Kate Bush — Army Dreamers*)
+### Example Song-Specific Teacher's Note (for *Kate Bush - Army Dreamers*)
 
 ```html
 <div class="mistake-block open" id="s-mistakes">

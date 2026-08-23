@@ -10,12 +10,12 @@ The "If You Were" club leverages speculative hypothesis and radical empathy. It 
 
 To prevent conversational drift and encourage advanced linguistic expression, the "If You Were" club operates on a two-stage psychological framework:
 
-### 🎭 Round 1 — Empathic Immersive Identification (The Perspective Shift)
+### 🎭 Round 1 - Empathic Immersive Identification (The Perspective Shift)
 *   **The Shift:** Instead of debating external topics (e.g., "Do teachers get paid enough?"), students speak from the first-person perspective ($I$ am the teacher, $I$ am unable to hear).
 *   **The Strategy:** Every prompt in Round 1 forces immediate cognitive adjustment. It asks how the student manages daily tasks, relationships, and internal thoughts under the new condition.
 *   **Vocabulary Integration:** Target vocabulary words (exactly 10) are naturally embedded in the main questions as native parts of the prompts, omitting instructional cues like "use the word."
 
-### 🔮 Round 2 — Speculative Systemic Design (The Adaptation Formula)
+### 🔮 Round 2 - Speculative Systemic Design (The Adaptation Formula)
 *   **The Shift:** We move away from the personal and look at society. How must human environments, technologies, and social rules adapt to this perspective?
 *   **The Strategy:** Every Round 2 statement is a future-focused or systemic hypothesis. If this condition were the norm, or if we restructured our world around it, what would it look like?
 *   **The Speculative Syntactic Anchor:** Each session is paired with a highly functional grammar point (e.g., *Second Conditional* for hypothetical scenarios, *Subjunctive Mood* for expressing desires/necessity, or *Mixed Conditionals* for linking past changes to present states) woven directly into both rounds.
@@ -46,16 +46,16 @@ To prevent conversational drift and encourage advanced linguistic expression, th
     *   *Left (The Acoustic Noise):* A world defined by alarms, spoken interruptions, and background hums.
     *   *Right (The Kinetic Symphony):* A world defined by facial nuances, hand expressions, vibration-sensing, and deep spatial alertness.
 *   **Target Vocabulary (10 Words):**
-    1.  *Vibrant* — Full of energy, life, or color.
-    2.  *Nuance* — A subtle difference in shade of meaning, expression, or sound.
-    3.  *Attune* — Make receptive or aware.
-    4.  *Isolation* — The state of being alone or separate.
-    5.  *Insightful* — Showing a clear and deep understanding.
-    6.  *Perceive* — Become aware or conscious of something through the senses.
-    7.  *Barrier* — An obstacle that prevents movement or access.
-    8.  *Friction* — Discord or conflict arising from a clash of perspectives.
-    9.  *Kinetic* — Relating to or resulting from motion (e.g., sign language/gestures).
-    10. *Vibration* — Rapid back-and-forth movement felt physically.
+    1.  *Vibrant* - Full of energy, life, or color.
+    2.  *Nuance* - A subtle difference in shade of meaning, expression, or sound.
+    3.  *Attune* - Make receptive or aware.
+    4.  *Isolation* - The state of being alone or separate.
+    5.  *Insightful* - Showing a clear and deep understanding.
+    6.  *Perceive* - Become aware or conscious of something through the senses.
+    7.  *Barrier* - An obstacle that prevents movement or access.
+    8.  *Friction* - Discord or conflict arising from a clash of perspectives.
+    9.  *Kinetic* - Relating to or resulting from motion (e.g., sign language/gestures).
+    10. *Vibration* - Rapid back-and-forth movement felt physically.
 
 #### 🔵 Round 1 Questions (The Silent Self)
 1.  How would you navigate your morning routine if you had to **perceive** your alarms through physical **vibration** rather than sound?
@@ -111,16 +111,16 @@ To prevent conversational drift and encourage advanced linguistic expression, th
     *   *Left (The Screen Gaze):* Constant blue-light exposure, judgments based on appearances, and visual overload.
     *   *Right (The Echo Mapping):* Footsteps echoing off walls, the texture of handrails, temperature shifts on the skin, and the shape of a voice.
 *   **Target Vocabulary (10 Words):**
-    1.  *Acoustic* — Relating to sound or the sense of hearing.
-    2.  *Tactile* — Of or connected with the sense of touch.
-    3.  *Navigate* — Plan and direct the route or course of a path.
-    4.  *Orientation* — The function of placing oneself in relation to one's surroundings.
-    5.  *Vulnerable* — Susceptible to physical or emotional harm.
-    6.  *Symphony* — An elaborate musical composition or a harmonious combination of sounds.
-    7.  *Compassion* — Sympathetic pity and concern for the sufferings or misfortunes of others.
-    8.  *Intimacy* — Close familiarity or friendship; closeness.
-    9.  *Superficial* — Existing or occurring at or on the surface; shallow.
-    10. *Sensation* — A physical feeling or perception resulting from something that happens to or comes into contact with the body.
+    1.  *Acoustic* - Relating to sound or the sense of hearing.
+    2.  *Tactile* - Of or connected with the sense of touch.
+    3.  *Navigate* - Plan and direct the route or course of a path.
+    4.  *Orientation* - The function of placing oneself in relation to one's surroundings.
+    5.  *Vulnerable* - Susceptible to physical or emotional harm.
+    6.  *Symphony* - An elaborate musical composition or a harmonious combination of sounds.
+    7.  *Compassion* - Sympathetic pity and concern for the sufferings or misfortunes of others.
+    8.  *Intimacy* - Close familiarity or friendship; closeness.
+    9.  *Superficial* - Existing or occurring at or on the surface; shallow.
+    10. *Sensation* - A physical feeling or perception resulting from something that happens to or comes into contact with the body.
 
 #### 🔵 Round 1 Questions (The Darkness of Truth)
 1.  How would you **navigate** your city if you had to rely entirely on an **acoustic** map of echoes and footsteps?
@@ -176,16 +176,16 @@ To prevent conversational drift and encourage advanced linguistic expression, th
     *   *Left (The Lecturer):* One-way information delivery, enforcing passive obedience, and grading standardized tests.
     *   *Right (The Fire-Starter):* Sparking critical debates, managing fragile student egos, protecting curiosity, and carrying systemic exhaustion.
 *   **Target Vocabulary (10 Words):**
-    1.  *Inspire* — Fill someone with the urge or ability to do or feel something.
-    2.  *Authority* — The power or right to give orders, make decisions, and enforce obedience.
-    3.  *Curiosity* — A strong desire to know or learn something.
-    4.  *Patience* — The capacity to accept or tolerate delay, trouble, or suffering without getting angry.
-    5.  *Chaos* — Complete disorder and confusion.
-    6.  *Empower* — Make someone stronger and more confident, especially in controlling their life.
-    7.  *Boundary* — A line that marks the limits of an area; a social or professional limit.
-    8.  *Fulfill* — Bring to completion or reality; satisfy a desire or need.
-    9.  *Exhausting* — Making one feel very tired; draining.
-    10. *Rebellion* — An act of violent or open resistance to an established ruler or rule.
+    1.  *Inspire* - Fill someone with the urge or ability to do or feel something.
+    2.  *Authority* - The power or right to give orders, make decisions, and enforce obedience.
+    3.  *Curiosity* - A strong desire to know or learn something.
+    4.  *Patience* - The capacity to accept or tolerate delay, trouble, or suffering without getting angry.
+    5.  *Chaos* - Complete disorder and confusion.
+    6.  *Empower* - Make someone stronger and more confident, especially in controlling their life.
+    7.  *Boundary* - A line that marks the limits of an area; a social or professional limit.
+    8.  *Fulfill* - Bring to completion or reality; satisfy a desire or need.
+    9.  *Exhausting* - Making one feel very tired; draining.
+    10. *Rebellion* - An act of violent or open resistance to an established ruler or rule.
 
 #### 🔵 Round 1 Questions (The Burden of the Blackboard)
 1.  How would you design your very first day of school to **inspire** your students rather than intimidate them?
@@ -241,16 +241,16 @@ To prevent conversational drift and encourage advanced linguistic expression, th
     *   *Left (The Adult Grind):* Spreadsheets, mortgage calculations, scheduled social dates, and constant forward planning.
     *   *Right (The Tiny Horizon):* Searching for bugs in the grass, building forts out of cushions, and feeling like an afternoon lasts an entire week.
 *   **Target Vocabulary (10 Words):**
-    1.  *Carefree* — Free from anxiety or responsibility.
-    2.  *Imaginative* — Having or showing creativity or inventiveness.
-    3.  *Innocent* — Free from moral wrong; simple and trusting.
-    4.  *Reclaim* — Retrieve or recover something that was lost.
-    5.  *Wander* — Walk or move in a leisurely, casual, or aimless way.
-    6.  *Spontaneous* — Performed or occurring as a result of a sudden impulse, without premeditation.
-    7.  *Trivial* — Of little value or importance.
-    8.  *Naïve* — Showing a lack of experience, wisdom, or judgment; trusting.
-    9.  *Unburdened* — Free from a heavy load or worry.
-    10. *Fascinated* — Extremely interested or attracted by something.
+    1.  *Carefree* - Free from anxiety or responsibility.
+    2.  *Imaginative* - Having or showing creativity or inventiveness.
+    3.  *Innocent* - Free from moral wrong; simple and trusting.
+    4.  *Reclaim* - Retrieve or recover something that was lost.
+    5.  *Wander* - Walk or move in a leisurely, casual, or aimless way.
+    6.  *Spontaneous* - Performed or occurring as a result of a sudden impulse, without premeditation.
+    7.  *Trivial* - Of little value or importance.
+    8.  *Naïve* - Showing a lack of experience, wisdom, or judgment; trusting.
+    9.  *Unburdened* - Free from a heavy load or worry.
+    10. *Fascinated* - Extremely interested or attracted by something.
 
 #### 🔵 Round 1 Questions (The Return to Sandbox)
 1.  What is the very first game or playground activity you would play if you became a **carefree** seven-year-old tomorrow?
@@ -306,16 +306,16 @@ To prevent conversational drift and encourage advanced linguistic expression, th
     *   *Left (The Inherited Echo):* Repeating the emotional reactions of your parents, passing down silent anxieties, and self-criticism.
     *   *Right (The Gentle Guide):* Stepping back to look at your past self with adult wisdom, offering validation, correcting bad habits, and holding space for grief.
 *   **Target Vocabulary (10 Words):**
-    1.  *Nurture* — Care for and encourage the growth or development of.
-    2.  *Validation* — Recognition or affirmation that a person or their feelings are valid or worthwhile.
-    3.  *Compassionate* — Feeling or showing sympathy and concern for others.
-    4.  *Discipline* — The practice of training people to obey rules or a code of behavior.
-    5.  *Generational* — Relating to all the people born and living at about the same time.
-    6.  *Forgiveness* — The action or process of forgiving or being forgiven.
-    7.  *Trauma* — A deeply distressing or disturbing experience.
-    8.  *Resilience* — The capacity to recover quickly from difficulties; toughness.
-    9.  *Unconditional* — Not subject to any conditions.
-    10. *Vulnerability* — The quality of being open to injury, criticism, or emotional exposure.
+    1.  *Nurture* - Care for and encourage the growth or development of.
+    2.  *Validation* - Recognition or affirmation that a person or their feelings are valid or worthwhile.
+    3.  *Compassionate* - Feeling or showing sympathy and concern for others.
+    4.  *Discipline* - The practice of training people to obey rules or a code of behavior.
+    5.  *Generational* - Relating to all the people born and living at about the same time.
+    6.  *Forgiveness* - The action or process of forgiving or being forgiven.
+    7.  *Trauma* - A deeply distressing or disturbing experience.
+    8.  *Resilience* - The capacity to recover quickly from difficulties; toughness.
+    9.  *Unconditional* - Not subject to any conditions.
+    10. *Vulnerability* - The quality of being open to injury, criticism, or emotional exposure.
 
 #### 🔵 Round 1 Questions (The Mirror of Care)
 1.  If you could travel back in time to meet your teenage self, what specific words of **validation** would you offer them first?

@@ -779,7 +779,7 @@
         this.innerHTML = `
           <div class="mind-session-info-box" style="background:var(--cream-dark); border:1px solid var(--border); border-radius:14px; padding:1.5rem; margin-bottom:2rem; box-sizing:border-box;">
             <div class="info-box-header" style="font-family:'Playfair Display', serif; font-size:1.1rem; font-weight:700; color:#993556; margin-bottom:1rem; border-bottom:1px dashed var(--border); padding-bottom:0.5rem; text-transform:uppercase; letter-spacing:0.05em;">
-              🧠 Mind Matters — Session Information Card
+              🧠 Mind Matters - Session Information Card
             </div>
             <div class="mind-profile-grid">
               <div class="mind-profile-item"><strong>Psychological Topic</strong><span>${topic}</span></div>
@@ -3498,7 +3498,7 @@
                     goDeeperEl.id = "go-deeper";
                     goDeeperEl.style.cssText = "margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border);";
 
-                    let goDeeperTitle = isFrench ? "🔍 Pour aller plus loin — Sessions Thématiques Liées" : (isRussian ? "🔍 Исследуйте глубже — Связанные тематические сессии" : "🔍 Go Deeper — Thematically Related Sessions");
+                    let goDeeperTitle = isFrench ? "🔍 Pour aller plus loin - Sessions Thématiques Liées" : (isRussian ? "🔍 Исследуйте глубже - Связанные тематические сессии" : "🔍 Go Deeper - Thematically Related Sessions");
 
                     // Determine related sessions
                     const recs = [];
@@ -3712,10 +3712,10 @@
                         const thinkingHtml = thinkingBody ? thinkingBody.innerHTML : "";
 
                         // Define localized titles
-                        let u1Title = isFrench ? "Unit 1 — Entrer dans le sujet 🚀" : (isRussian ? "Раздел 1 — Введение в тему 🚀" : "Unit 1 — Enter the Topic 🚀");
+                        let u1Title = isFrench ? "Unit 1 - Entrer dans le sujet 🚀" : (isRussian ? "Раздел 1 - Введение в тему 🚀" : "Unit 1 - Enter the Topic 🚀");
                         let u1Desc = isFrench ? "Échauffement et activation du vocabulaire de la session." : (isRussian ? "Разминка и активация ключевого словаря сессии." : "Activate your background knowledge and study the 10 specimen vocabulary units.");
 
-                        let u2Title = isFrench ? "Unit 2 — Comprendre les résultats 📊" : (isRussian ? "Раздел 2 — Понимание результатов 📊" : "Unit 2 — Understand the Findings 📊");
+                        let u2Title = isFrench ? "Unit 2 - Comprendre les résultats 📊" : (isRussian ? "Раздел 2 - Понимание результатов 📊" : "Unit 2 - Understand the Findings 📊");
                         let u2Desc = isFrench ? "Discutez des découvertes scientifiques réelles rapportées dans l'article." : (isRussian ? "Обсудите реальные научные открытия, описанные в исследовании." : "Analyze the actual scientific discoveries and empirical findings reported in the paper.");
                         let u2QuestionsHtml = '<ul class="round-questions">';
                         r1Parsed.slice(0, 5).forEach(q => {
@@ -3723,7 +3723,7 @@
                         });
                         u2QuestionsHtml += '</ul>';
 
-                        let u3Title = isFrench ? "Unit 3 — Explorer la science 🔬" : (isRussian ? "Раздел 3 — Научные гипотезы 🔬" : "Unit 3 — Explore the Science 🔬");
+                        let u3Title = isFrench ? "Unit 3 - Explorer la science 🔬" : (isRussian ? "Раздел 3 - Научные гипотезы 🔬" : "Unit 3 - Explore the Science 🔬");
                         let u3Desc = isFrench ? "Analysez les explications possibles, les mécanismes et les théories concurrentes." : (isRussian ? "Исследуйте возможные объяснения, механизмы и альтернативные теории." : "Move from what happened to why it happened. Debate mechanisms, causes, and theories.");
                         let u3QuestionsHtml = '<ul class="round-questions">';
                         r1Parsed.slice(5, 10).forEach(q => {
@@ -3731,7 +3731,7 @@
                         });
                         u3QuestionsHtml += '</ul>';
 
-                        let u4Title = isFrench ? "Unit 4 — Preuves & Évaluation 🔍" : (isRussian ? "Раздел 4 — Доказательства и оценка 🔍" : "Unit 4 — Evidence + Evaluation 🔍");
+                        let u4Title = isFrench ? "Unit 4 - Preuves & Évaluation 🔍" : (isRussian ? "Раздел 4 - Доказательства и оценка 🔍" : "Unit 4 - Evidence + Evaluation 🔍");
                         let u4Desc = isFrench ? "Réfléchissez à la fiabilité des preuves, aux limites de l'étude et à la corrélation vs causalité." : (isRussian ? "Оцените достоверность доказательств, ограничения исследования и причинно-следственные связи." : "Analyze research limitations, sample sizes, and distinguish correlation from causation.");
                         let u4QuestionsHtml = thinkingHtml ? `<div style="background: rgba(15, 110, 86, 0.04); padding: 1rem; border-radius: 8px; border-left: 4px solid #0F6E56; margin-bottom: 1.5rem;">${thinkingHtml}</div>` : '';
                         u4QuestionsHtml += '<ul class="round-questions">';
@@ -3740,7 +3740,7 @@
                         });
                         u4QuestionsHtml += '</ul>';
 
-                        let u5Title = isFrench ? "Unit 5 — Pourquoi cela compte-t-il ? 🌍" : (isRussian ? "Раздел 5 — Практическое значение 🌍" : "Unit 5 — Why Does It Matter? 🌍");
+                        let u5Title = isFrench ? "Unit 5 - Pourquoi cela compte-t-il ? 🌍" : (isRussian ? "Раздел 5 - Практическое значение 🌍" : "Unit 5 - Why Does It Matter? 🌍");
                         let u5Desc = isFrench ? "Explorez l'impact de cette découverte sur notre vie quotidienne, nos choix et notre société." : (isRussian ? "Обсудите влияние этого открытия на повседневную жизнь, личный выбор и общество." : "Discuss how this discovery impacts daily life, public policy, technology, and your personal choices.");
                         let u5QuestionsHtml = '<ul class="round-questions">';
                         // Collect interesting personal questions from Round 1 and Round 2
@@ -3752,7 +3752,7 @@
                         });
                         u5QuestionsHtml += '</ul>';
 
-                        let u6Title = isFrench ? "Unit 6 — Perspectives futures 🔮" : (isRussian ? "Раздел 6 — Будущие перспективы 🔮" : "Unit 6 — Future Projections 🔮");
+                        let u6Title = isFrench ? "Unit 6 - Perspectives futures 🔮" : (isRussian ? "Раздел 6 - Будущие перспективы 🔮" : "Unit 6 - Future Projections 🔮");
                         let u6Desc = isFrench ? "Projetez-vous dans l'avenir : développements technologiques, conséquences inattendues et scénarios 'Et si...'." : (isRussian ? "Загляните в будущее: новые исследования, потенциальные последствия и сценарии 'Что если...'." : "Speculate on future discoveries, consequences, and discuss bold 'What if...?' scenarios.");
                         let u6QuestionsHtml = '<ul class="round-questions">';
                         r2Parsed.slice(4, 10).forEach(q => {
@@ -3895,67 +3895,67 @@
 
                         // Define localized titles
                         let stepsTitles = isFrench ? {
-                            s1: "Étape 1 — Échauffement et introduction 🗣️",
+                            s1: "Étape 1 - Échauffement et introduction 🗣️",
                             s1Desc: "Connectez le sujet aux connaissances, suppositions ou expériences existantes de l'élève.",
-                            s2: "Étape 2 — Pratique active du vocabulaire 📖",
+                            s2: "Étape 2 - Pratique active du vocabulaire 📖",
                             s2Desc: "Analysez et appropriez-vous les 10 mots clés essentiels directement extraits de l'étude scientifique.",
-                            s3: "Étape 3 — Contenu scientifique peer-reviewed 📊",
+                            s3: "Étape 3 - Contenu scientifique peer-reviewed 📊",
                             s3Desc: "Examinez l'abstrait d'étude scientifique ou les données sources.",
-                            s4: "Étape 4 — Validation de la compréhension 🧠",
+                            s4: "Étape 4 - Validation de la compréhension 🧠",
                             s4Desc: "Guidez l'élève à travers ce qui s'est passé, les découvertes et ce qui reste incertain.",
-                            s5: "Étape 5 — Interprétation analytique et discussion 🔬",
+                            s5: "Étape 5 - Interprétation analytique et discussion 🔬",
                             s5Desc: "Débattez des mécanismes, des causes et des interprétations alternatives.",
-                            s6: "Étape 6 — Point linguistique ciblé ⚡",
+                            s6: "Étape 6 - Point linguistique ciblé ⚡",
                             s6Desc: "Révisez le focus grammatical et structurel calibré pour ce niveau.",
-                            s7: "Étape 7 — Esprit critique et évaluation des preuves 🔍",
+                            s7: "Étape 7 - Esprit critique et évaluation des preuves 🔍",
                             s7Desc: "Évaluez la fiabilité, la taille de l'échantillon, et la corrélation vs causalité.",
-                            s8: "Étape 8 — Application concrète dans le monde réel 🌍",
+                            s8: "Étape 8 - Application concrète dans le monde réel 🌍",
                             s8Desc: "Connectez la science à la vie quotidienne de l'élève et aux choix sociétaux.",
-                            s9: "Étape 9 — Spéculations et projections futures 🔮",
+                            s9: "Étape 9 - Spéculations et projections futures 🔮",
                             s9Desc: "Scénarios hypothétiques et projections futures dans la science et la technologie.",
-                            s10: "Étape 10 — Production finale autonome 🎤",
+                            s10: "Étape 10 - Production finale autonome 🎤",
                             s10Desc: "Donnez une mini-présentation de 1 minute ou défendez une position sur le sujet."
                         } : (isRussian ? {
-                            s1: "Шаг 1 — Разминка и введение в тему 🗣️",
+                            s1: "Шаг 1 - Разминка и введение в тему 🗣️",
                             s1Desc: "Свяжите тему с существующими знаниями, предположениями или личным опытом ученика.",
-                            s2: "Шаг 2 — Активная отработка словаря 📖",
+                            s2: "Шаг 2 - Активная отработка словаря 📖",
                             s2Desc: "Разберите 10 ключевых научных терминов, извлеченных из исследования.",
-                            s3: "Шаг 3 — Рецензируемый научный источник 📊",
+                            s3: "Шаг 3 - Рецензируемый научный источник 📊",
                             s3Desc: "Изучите краткое резюме научного отчета или данные первоисточника.",
-                            s4: "Шаг 4 — Концептуальная проверка понимания 🧠",
+                            s4: "Шаг 4 - Концептуальная проверка понимания 🧠",
                             s4Desc: "Разберите, что именно произошло, что обнаружили ученые и что остается неясным.",
-                            s5: "Шаг 5 — Аналитическая интерпретация и дискуссия 🔬",
+                            s5: "Шаг 5 - Аналитическая интерпретация и дискуссия 🔬",
                             s5Desc: "Обсудите механизмы, причины и альтернативные научные трактовки.",
-                            s6: "Шаг 6 — Специализированный языковой фокус ⚡",
+                            s6: "Шаг 6 - Специализированный языковой фокус ⚡",
                             s6Desc: "Разберите грамматические структуры и речевые обороты.",
-                            s7: "Шаг 7 — Критическое мышление и оценка доказательств 🔍",
+                            s7: "Шаг 7 - Критическое мышление и оценка доказательств 🔍",
                             s7Desc: "Оцените достоверность доказательств, ограничения и корреляцию против причинности.",
-                            s8: "Шаг 8 — Практическое применение в реальном мире 🌍",
+                            s8: "Шаг 8 - Практическое применение в реальном мире 🌍",
                             s8Desc: "Свяжите науку с повседневной жизнью ученика и социальными решениями.",
-                            s9: "Шаг 9 — Гипотезы и будущие предположения 🔮",
+                            s9: "Шаг 9 - Гипотезы и будущие предположения 🔮",
                             s9Desc: "Спрогнозируйте будущие исследования, технологическое развитие и последствия.",
-                            s10: "Шаг 10 — Самостоятельная финальная презентация 🎤",
+                            s10: "Шаг 10 - Самостоятельная финальная презентация 🎤",
                             s10Desc: "Проведите минутную мини-презентацию или обоснуйте позицию по теме."
                         } : {
-                            s1: "Step 1 — Lead-In / Warm-Up 🗣️",
+                            s1: "Step 1 - Lead-In / Warm-Up 🗣️",
                             s1Desc: "Connect the topic to the student's existing knowledge, assumptions, or experience.",
-                            s2: "Step 2 — Active Vocabulary Drill 📖",
+                            s2: "Step 2 - Active Vocabulary Drill 📖",
                             s2Desc: "Examine and personalize the 10 highly useful scientific vocabulary items parsed from the specimen.",
-                            s3: "Step 3 — Peer-Reviewed Science Input 📊",
+                            s3: "Step 3 - Peer-Reviewed Science Input 📊",
                             s3Desc: "Review the actual scientific paper's digest abstract and stimulus.",
-                            s4: "Step 4 — Conceptual Understanding Check 🧠",
+                            s4: "Step 4 - Conceptual Understanding Check 🧠",
                             s4Desc: "Guide the learner through what happened, what researchers discovered, and what remains uncertain.",
-                            s5: "Step 5 — Analytical Interpretation & Discussion 🔬",
+                            s5: "Step 5 - Analytical Interpretation & Discussion 🔬",
                             s5Desc: "Move beyond comprehension. Debate mechanisms, explanations, and alternative interpretations.",
-                            s6: "Step 6 — Targeted Language Focus ⚡",
+                            s6: "Step 6 - Targeted Language Focus ⚡",
                             s6Desc: "Practice the specialized grammar or lexical patterns calibrated for this lesson.",
-                            s7: "Step 7 — Critical Thinking & Evidence Evaluation 🔍",
+                            s7: "Step 7 - Critical Thinking & Evidence Evaluation 🔍",
                             s7Desc: "Evaluate evidence reliability, study limitations, assumptions, and correlation vs causation.",
-                            s8: "Step 8 — Real-World Application 🌍",
+                            s8: "Step 8 - Real-World Application 🌍",
                             s8Desc: "Connect the scientific discovery to the student's personal choices and society.",
-                            s9: "Step 9 — Future Speculations & Predictions 🔮",
+                            s9: "Step 9 - Future Speculations & Predictions 🔮",
                             s9Desc: "Contrast established scientific fact from speculation. Formulate bold predictions.",
-                            s10: "Step 10 — Independent Final Production 🎤",
+                            s10: "Step 10 - Independent Final Production 🎤",
                             s10Desc: "Deliver a 1-minute mini-presentation explaining the findings to a non-specialist or defending a position."
                         });
 

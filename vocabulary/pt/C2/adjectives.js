@@ -435,7 +435,7 @@
             {
                 "text": "Não capaz de ser alterado; fixo e permanente.",
                 "examples": [
-                    "A linguagem não é imutável — ela evolui constantemente."
+                    "A linguagem não é imutável - ela evolui constantemente."
                 ]
             }
         ],

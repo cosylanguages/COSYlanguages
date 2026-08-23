@@ -4,7 +4,7 @@
  * App bootstrap, global state management, and user role detection (Free visitor).
  */
 /**
- * cosy-mode.js — THE ENGINE
+ * cosy-mode.js - THE ENGINE
  * ─────────────────────────────────────────────────────────────────────────────
  * COSYlanguages shared mode system.
  * Visitor mode only.
@@ -709,7 +709,7 @@ window.COSY = {
     exportDict() {
         const lines = Object.entries(dictionary).map(([w,d]) => {
             const def = typeof d === 'string' ? d : (d.definition || '');
-            return `${w} — ${def}`;
+            return `${w} - ${def}`;
         }).join('\n');
         const blob = new Blob(['MY COSY DICTIONARY\n\n' + lines], {type:'text/plain'});
         const a = document.createElement('a');

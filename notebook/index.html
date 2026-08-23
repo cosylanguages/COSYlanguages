@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate-key="vocab_notebook_title">My Vocabulary — COSYlanguages</title>
+    <title data-translate-key="vocab_notebook_title">My Vocabulary - COSYlanguages</title>
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
     <meta name="theme-color" content="#FAF7F2">
@@ -389,7 +389,7 @@
                 <a href="mailto:cosylanguages@gmail.com">Email ✉️</a>
             </div>
         </div>
-        <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div>
+        <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages - All rights reserved</div>
     </footer>
 
     <script src="../js/data/languages.js"></script>
@@ -643,7 +643,7 @@
 
             if (mistakes.length === 0) {
                 const t = (key, def) => (window.t ? window.t(key) : def);
-                list.innerHTML = `<div class="info-card-empty">${t('mistakes_empty', 'No mistakes saved yet — well done!')}</div>`;
+                list.innerHTML = `<div class="info-card-empty">${t('mistakes_empty', 'No mistakes saved yet - well done!')}</div>`;
                 return;
             }
 
@@ -668,7 +668,7 @@
             if (recentList) {
                 const history = practiceState.history || [];
                 const t = (key, def) => (window.t ? window.t(key) : def);
-                if (history.length === 0) recentList.innerHTML = `<div class="info-card-empty">${t('recent_empty', 'No sessions yet — start practising!')}</div>`;
+                if (history.length === 0) recentList.innerHTML = `<div class="info-card-empty">${t('recent_empty', 'No sessions yet - start practising!')}</div>`;
                 else recentList.innerHTML = history.map(session => `
                     <div class="recent-item">
                         <div class="ri-dot" style="background:var(--teal);"></div>

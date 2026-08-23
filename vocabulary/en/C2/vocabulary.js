@@ -569,7 +569,7 @@
             {
                 "text": "The quality of being possible but not certain; dependent on circumstances.",
                 "examples": [
-                    "History is full of contingency — it could always have gone otherwise."
+                    "History is full of contingency - it could always have gone otherwise."
                 ]
             }
         ],
@@ -694,7 +694,7 @@
             {
                 "text": "The unconscious suppression of thoughts or desires too painful to acknowledge.",
                 "examples": [
-                    "Repression does not eliminate conflict — it delays it."
+                    "Repression does not eliminate conflict - it delays it."
                 ]
             }
         ],

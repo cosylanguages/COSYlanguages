@@ -46,7 +46,7 @@ Every question can show a hint on request.
 ## Feedback
 - Correct: show ✅ + the correct form highlighted
 - Wrong: show ❌ + the correct answer revealed
-- No red/green colour alone — always pair colour with icon (accessibility)
+- No red/green colour alone - always pair colour with icon (accessibility)
 - Feedback is shown for 1.5 seconds before advancing to next question
 
 ## Progress storage (localStorage)

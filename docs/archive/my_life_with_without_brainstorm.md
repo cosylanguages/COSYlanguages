@@ -10,12 +10,12 @@ By analyzing existing materials and incorporating advanced pedagogical principle
 
 Standard speaking clubs often suffer from "conversational drift," where students recycle comfortable language to express generic opinions. To elevate **My Life With & Without**, we establish a strict two-part speculative simulation format:
 
-### 🔵 Round 1 — Personal Depth & The Argument for Necessity
+### 🔵 Round 1 - Personal Depth & The Argument for Necessity
 *   **The Shift:** Instead of asking simple questions about the benefits or advantages of an element ($X$), we force students to defend its **necessity**.
 *   **The Strategy:** Every prompt in Round 1 establishes contrast by questioning whether one can function, stay healthy, or find happiness without $X$. This ensures the "With vs. Without" comparison is active from the very first minute.
 *   **Vocabulary Integration:** Target vocabulary words (exactly 10) are naturally embedded in the main questions as native parts of the prompts, omitting instructional cues like "use the word."
 
-### 🟢 Round 2 — Speculative Analysis & The Adaptation Formula
+### 🟢 Round 2 - Speculative Analysis & The Adaptation Formula
 *   **The Shift:** We move away from general economic, political, or futuristic debates. Instead, we focus strictly on **human adaptation** in a world where $X$ is completely absent.
 *   **The Strategy:** Every Round 2 section is guided by a central question: *"If this disappeared from human life, what would replace it?"*
 *   **The Speculative Adaptation Formula:** Instead of asking if a world without $X$ would be bad, we ask:
@@ -32,7 +32,7 @@ To make the format instantly recognizable and premium, we standardize several si
 *   The `.life-ledger-box` contains a side-by-side comparison of **Presence (With)** and **Absence (Without)**.
 *   The **Syntactic Anchor** highlights a specific, level-appropriate grammatical structure (e.g., `unless` for B1 necessity, `used to` for past routines, `second conditional` for speculative hypotheses) that is directly and naturally woven into the discussion questions of both rounds.
 
-### 🟣 "Let's Speak Together" — Stark Split-Perspective Metaphors
+### 🟣 "Let's Speak Together" - Stark Split-Perspective Metaphors
 We replace standard comparisons with active "With vs. Without" or "Rested vs. Endless Work" choices, using high-impact visual emoji tags:
 *   *Old:* Wandering Traveler ✈️ vs. Cozy Staycationer 🛌 (Both represent "With Holidays")
 *   *New:* 🌴 The Rested Life vs. 📅 The Endless Workweek

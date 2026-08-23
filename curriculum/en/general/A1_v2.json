@@ -6,7 +6,7 @@
     {
       "unit": 1,
       "emoji": "👋",
-      "title": "Hello — Greetings, names & alphabet",
+      "title": "Hello - Greetings, names & alphabet",
       "tags": [
         "to be (I/you)",
         "names",
@@ -30,15 +30,15 @@
             "good night",
             "Nice to meet you"
           ],
-          "teacher_notes": "desc: \"Hello, hi, goodbye, bye, good morning/afternoon/evening/night. My name is… / I'm… Nice to meet you. The English alphabet — spelling names aloud. Numbers 1–10.\""
+          "teacher_notes": "desc: \"Hello, hi, goodbye, bye, good morning/afternoon/evening/night. My name is… / I'm… Nice to meet you. The English alphabet - spelling names aloud. Numbers 1–10.\""
         },
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "To be — I am, you are (positive & negative)",
+          "title": "To be - I am, you are (positive & negative)",
           "recycled": null,
           "grammar": [
-            "To be — I am, you are",
+            "To be - I am, you are",
             "Apostrophe for contractions"
           ],
           "teacher_notes": "desc: \"I am / I'm · You are / You're · I am not / You are not. Questions: Are you…? Yes, I am / No, I'm not.\""
@@ -69,7 +69,7 @@
     {
       "unit": 2,
       "emoji": "🌍",
-      "title": "Where are you from? — Countries & nationalities",
+      "title": "Where are you from? - Countries & nationalities",
       "tags": [
         "to be (he/she/it)",
         "countries",
@@ -102,10 +102,10 @@
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "To be — he/she/it is · They are · Questions",
+          "title": "To be - he/she/it is · They are · Questions",
           "recycled": "I am / You are from Unit 1.",
           "grammar": [
-            "To be — he/she/it/they",
+            "To be - he/she/it/they",
             "Questions: Where is he from?"
           ],
           "teacher_notes": "desc: \"He is / She is / It is + contractions. They are. Where is he from? Where are you from?\""
@@ -136,7 +136,7 @@
     {
       "unit": 3,
       "emoji": "👨‍👩‍👧",
-      "title": "My family — People & relationships",
+      "title": "My family - People & relationships",
       "tags": [
         "possessive adjectives",
         "family vocabulary",
@@ -170,7 +170,7 @@
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Possessive adjectives — my, your, his, her, our, their",
+          "title": "Possessive adjectives - my, your, his, her, our, their",
           "recycled": "All to be forms (Units 1–2) appear in model sentences.",
           "grammar": [
             "Possessive adjectives",
@@ -204,7 +204,7 @@
     {
       "unit": 4,
       "emoji": "🏠",
-      "title": "My home — Rooms, furniture & location",
+      "title": "My home - Rooms, furniture & location",
       "tags": [
         "there is / there are",
         "prepositions of place",
@@ -241,7 +241,7 @@
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "There is / there are — positive, negative, questions",
+          "title": "There is / there are - positive, negative, questions",
           "recycled": "Numbers (Units 1–3) for counting furniture. To be (Units 1–2). Adjectives (Unit 3).",
           "grammar": [
             "There is / there are",
@@ -275,7 +275,7 @@
     {
       "unit": 5,
       "emoji": "☀️",
-      "title": "My day — Daily routine & time",
+      "title": "My day - Daily routine & time",
       "tags": [
         "present simple (I)",
         "time expressions",
@@ -305,7 +305,7 @@
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Present simple — I / you / we / they (affirmative, negative, questions)",
+          "title": "Present simple - I / you / we / they (affirmative, negative, questions)",
           "recycled": "To be (Units 1–2) contrasted with present simple for habits. Time vocabulary.",
           "grammar": [
             "Present simple",
@@ -339,7 +339,7 @@
     {
       "unit": 6,
       "emoji": "🍕",
-      "title": "Food & drink — Eating, shopping & preferences",
+      "title": "Food & drink - Eating, shopping & preferences",
       "tags": [
         "present simple (he/she)",
         "countable/uncountable",
@@ -373,7 +373,7 @@
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Present simple — he/she/it: the third person -s rule",
+          "title": "Present simple - he/she/it: the third person -s rule",
           "recycled": "Present simple I/you/they (Unit 5) now extended to 3rd person. Family members (Unit 3).",
           "grammar": [
             "Present simple: 3rd person singular",
@@ -407,7 +407,7 @@
     {
       "unit": 7,
       "emoji": "💼",
-      "title": "Work & study — Jobs, places & abilities",
+      "title": "Work & study - Jobs, places & abilities",
       "tags": [
         "can/can't",
         "jobs vocabulary",
@@ -440,7 +440,7 @@
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Can / can't — ability and possibility",
+          "title": "Can / can't - ability and possibility",
           "recycled": "Languages (Unit 2), Family (Unit 3), Food (Unit 6), Routine (Unit 5).",
           "grammar": [
             "Can / can't for ability"
@@ -473,7 +473,7 @@
     {
       "unit": 8,
       "emoji": "🌆",
-      "title": "My city — Places, transport & directions",
+      "title": "My city - Places, transport & directions",
       "tags": [
         "imperatives",
         "prepositions of place",
@@ -541,7 +541,7 @@
     {
       "unit": 9,
       "emoji": "🎨",
-      "title": "Free time — Hobbies, sports & opinions",
+      "title": "Free time - Hobbies, sports & opinions",
       "tags": [
         "present continuous",
         "like/enjoy + -ing",
@@ -572,7 +572,7 @@
         {
           "lesson": 2,
           "type": "grammar",
-          "title": "Present continuous — am/is/are + -ing",
+          "title": "Present continuous - am/is/are + -ing",
           "recycled": "To be (Units 1–2) as auxiliary. Hobbies vocab. Family (Unit 3). Home (Unit 4).",
           "grammar": [
             "Present continuous",
@@ -606,7 +606,7 @@
     {
       "unit": 10,
       "emoji": "📅",
-      "title": "Past & plans — Revision, future & telling your story",
+      "title": "Past & plans - Revision, future & telling your story",
       "tags": [
         "was/were",
         "going to",
@@ -645,7 +645,7 @@
         {
           "lesson": 3,
           "type": "spoken",
-          "title": "Telling your story — past, present and future",
+          "title": "Telling your story - past, present and future",
           "recycled": "↻ FULL A1 REVISION. Greetings, to be, possessives, there is/are, present simple, can, imperatives, present continuous, was/were, going to.",
           "teacher_notes": "desc: \"Students give a mini-autobiography. Teacher asks questions across all time frames.\""
         },
@@ -660,7 +660,7 @@
           "lesson": 5,
           "type": "exam",
           "title": "A1 Final Exam",
-          "recycled": "Complete A1 syllabus — all 10 units, all grammar, all domains, four skills.",
+          "recycled": "Complete A1 syllabus - all 10 units, all grammar, all domains, four skills.",
           "teacher_notes": "desc: \"LISTENING: life story. READING: profile text. WRITING: 15-sentence profile. SPEAKING: 10-minute free conversation.\""
         }
       ]

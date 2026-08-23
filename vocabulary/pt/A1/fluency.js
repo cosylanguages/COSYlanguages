@@ -211,7 +211,7 @@
     {
         "t": "Seu trabalho ou escola",
         "h": [
-            "O que você faz — trabalha ou estuda?",
+            "O que você faz - trabalha ou estuda?",
             "O que você gosta nisso?",
             "A que horas você começa?",
             "Com quem você trabalha ou estuda?",

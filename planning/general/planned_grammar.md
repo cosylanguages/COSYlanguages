@@ -1,9 +1,9 @@
 # Grammar content gaps per language
 
 ## Status key
-- ✅ Done — file exists and has real content
-- 🔲 Empty — file created in Stage 3 but not yet populated
-- ❌ Missing — file not yet created
+- ✅ Done - file exists and has real content
+- 🔲 Empty - file created in Stage 3 but not yet populated
+- ❌ Missing - file not yet created
 
 ## English (en)
 | Layer | File | Status | Notes |

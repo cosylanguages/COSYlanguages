@@ -46,7 +46,7 @@
     },
     {
         "id": "fr_advanced_social_phrase_le_bonheur_est_un_choix_les_ci",
-        "word": "Le bonheur est un choix — les circonstances ne sont que des excuses.",
+        "word": "Le bonheur est un choix - les circonstances ne sont que des excuses.",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -54,7 +54,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le bonheur est un choix — les circonstances ne sont que des excuses.",
+                "text": "Le bonheur est un choix - les circonstances ne sont que des excuses.",
                 "examples": []
             }
         ],
@@ -348,7 +348,7 @@
             "Pensez-vous qu'un tollé public soit parfois justifié ?",
             "Y a-t-il une différence entre responsabilité et punition ?",
             "Qui décide de ce qui est impardonnable ?",
-            "La dénonciation fonctionne-t-elle — change-t-elle les comportements ?",
+            "La dénonciation fonctionne-t-elle - change-t-elle les comportements ?",
             "Est-ce irrémédiablement problématique ou juste imparfait ?"
         ]
     },
