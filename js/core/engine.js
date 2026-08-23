@@ -817,12 +817,16 @@ window.COSY = {
         const levelLow = level.toLowerCase();
         const langLow = lang.toLowerCase();
 
-        const v2Path = `${prefix}curriculum/${lang}/general/${levelUp}_v2.json`;
         const standardPath = `${prefix}curriculum/${lang}/general/${levelUp}.json`;
+        const v2Path = `${prefix}curriculum/${lang}/general/${levelUp}_v2.json`;
         const legacyPath = `${prefix}js/data/curriculum/${langLow}_${levelLow}.js`;
 
-        // 1. Load legacy script (contains richer data like pronunciation)
+        const knownLegacyScripts = ['en_a1', 'fr_b1'];
+        const legacyKey = `${langLow}_${levelLow}`;
+
+        // 1. Load legacy script if it's known to exist
         const legacyLoad = new Promise((resolve) => {
+            if (!knownLegacyScripts.includes(legacyKey)) return resolve();
             if (document.querySelector(`script[src*="${legacyPath}"]`)) return resolve();
             const script = document.createElement('script');
             script.src = legacyPath;
@@ -831,15 +835,14 @@ window.COSY = {
             document.head.appendChild(script);
         });
 
-        // 2. Load v2 JSON (modern curriculum structure) or fallback to standard .json
-        const v2Load = fetch(v2Path)
-            .then(res => res.ok ? res.json() : fetch(standardPath).then(r => r.ok ? r.json() : null))
-            .then(v2Data => {
-                if (v2Data && v2Data.units) {
-                    const units = v2Data.units;
+        // 2. Load standard JSON curriculum or fallback to v2 JSON
+        const jsonLoad = fetch(standardPath)
+            .then(res => res.ok ? res.json() : fetch(v2Path).then(r => r.ok ? r.json() : null))
+            .then(data => {
+                if (data && data.units) {
+                    const units = data.units;
                     window.curriculumData = window.curriculumData || {};
                     const key = `${langLow}_${levelLow}`;
-                    // Prefer legacy data if already loaded (usually more task-specific info)
                     if (!window.curriculumData[key]) {
                         window.curriculumData[key] = units;
                     }
@@ -850,7 +853,7 @@ window.COSY = {
             })
             .catch(() => null);
 
-        await Promise.all([legacyLoad, v2Load]);
+        await Promise.all([legacyLoad, jsonLoad]);
 
         const key = `${langLow}_${levelLow}`;
         return (window.curriculumData && window.curriculumData[key]) || [];
