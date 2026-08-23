@@ -95,9 +95,8 @@
                     html += `<div class="pe-card-transcription">${q.item.transcription}</div>`;
                 }
 
-                if (window.gameUtils && window.gameUtils.speak) {
-                    html += `<button class="btn-outline pe-card-speak-btn" onclick="window.gameUtils.speak('${q.item.word || q.item.text}', '${lang}')">🔊 Listen</button>`;
-                }
+                const wordToSpeak = (q.item.word || q.item.text || q.ans || '').replace(/'/g, "\\'");
+                html += `<button class="btn-outline pe-card-speak-btn" onclick="window.cosyPracticeEngine.speakText('${wordToSpeak}', '${lang}')">🔊 Listen <span class="keycap-badge">S</span></button>`;
                 html += `</div>`;
             }
 
@@ -229,8 +228,9 @@
         renderLS(q, session, lang) {
             // Listen and select usually provides audio and then MC options (IPA or words)
             let finalOpts = q.opts || [];
+            const textToSpeak = (q.item?.word || q.ans || '').replace(/'/g, "\\'");
             return `<div style="text-align:center; margin-bottom: 1.5rem;">
-                <button class="btn-outline" onclick="window.gameUtils.speak('${q.item?.word || q.ans}', '${lang}')">🔊 Play Audio <span class="keycap-badge">S</span></button>
+                <button class="btn-outline" onclick="window.cosyPracticeEngine.speakText('${textToSpeak}', '${lang}')">🔊 Play Audio <span class="keycap-badge">S</span></button>
             </div>
             <div class="mc-options">` + finalOpts.map((o, i) =>
                 `<button class="mc-opt" id="mc-opt-${i}" onclick="checkMC(${i})"><span class="keycap-badge">${i + 1}</span> ${o}</button>`).join('') + `</div>`;

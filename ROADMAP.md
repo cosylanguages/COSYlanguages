@@ -17,6 +17,7 @@ This document consolidates future roadmap initiatives, platform specifications, 
   * Dynamic, color-coded grammar tables (Subject, Verb, Object, Endings) adhering to `GRAMMAR_STANDARD.md`.
   * Contextual word bank chips and structured rule formulation exercises.
   * Practice exercise evolution & Duolingo parity roadmap detailed in `planning/DUOLINGO_PRACTICE_PARITY_BRAINSTORM.md` (visual learning path, SM-2 SRS engine, sentence cloze tasks, daily XP goals, streak freeze, speech recognition).
+  * Deep Pedagogical Efficacy & Retention Framework detailed in `planning/PEDAGOGICAL_EFFICACY_AND_RETENTION_BRAINSTORM.md` (active retrieval, collocation webs, diagnostic rule feedback, interleaved learning, and speaking club bridges).
 * **Analog & Offline-First Strategy:**
   * Printable Zine generators, printable vocabulary cards, and offline boardgame kits for classroom & group events.
   * Enhanced PWA offline caching and cross-device syncing via local client storage.

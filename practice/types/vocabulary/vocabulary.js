@@ -320,8 +320,13 @@
             qs = pool.map(item => {
                 const isVocabOrGrammar = (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary');
                 if (isVocabOrGrammar) {
-                    let types = ['mc', 'tf', 'type', 'sc', 'ls', 'mp', 'cloze'];
+                    let types = ['mc', 'tf', 'type', 'sc', 'ls', 'mp', 'cloze', 'dictation'];
                     let type = types[Math.floor(Math.random() * types.length)];
+                    if (type === 'dictation') {
+                        const examplesArr = (item.examples && item.examples.length > 0) ? item.examples : (item.definitions?.[0]?.examples || []);
+                        const hasEx = examplesArr.length > 0 && examplesArr[0]?.text;
+                        if (!hasEx) type = 'ls';
+                    }
 
                     // Guard against missing examples for scramble & cloze questions
                     const hasExamples = Array.isArray(item.examples)
@@ -486,7 +491,8 @@
                         level: item.level,
                         theme: item.theme,
                         sub_theme: item.sub_theme || null,
-                        translation: item.translation || item.word
+                        translation: item.translation || item.word,
+                        ruleHint: item.usage_hint || item.collocation || (item.preposition ? `Collocation / Preposition: ${item.word} ${item.preposition}` : null)
                     };
                 } else if (cat === 'Speaking' || cat === 'speaking') {
                     return { form: 'conv', q: item.topic || item.text || item.q, level: item.level, theme: item.theme };
