@@ -486,7 +486,8 @@
                         level: item.level,
                         theme: item.theme,
                         sub_theme: item.sub_theme || null,
-                        translation: item.translation || item.word
+                        translation: item.translation || item.word,
+                        ruleHint: item.usage_hint || item.collocation || (item.preposition ? `Collocation / Preposition: ${item.word} ${item.preposition}` : null)
                     };
                 } else if (cat === 'Speaking' || cat === 'speaking') {
                     return { form: 'conv', q: item.topic || item.text || item.q, level: item.level, theme: item.theme };

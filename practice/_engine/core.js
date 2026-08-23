@@ -932,6 +932,32 @@
 
             const accuracyPct = Math.round((sess.correctCount / Math.max(1, sess.sessionQueue.length)) * 100);
             if (document.getElementById('final-accuracy')) document.getElementById('final-accuracy').textContent = `${accuracyPct}%`;
+
+            // Update Speaking Club Bridge Card dynamically based on theme
+            const bridgeTitleEl = document.getElementById('bridge-card-title');
+            const bridgeDescEl = document.getElementById('bridge-card-desc');
+            const bridgeLinkEl = document.getElementById('bridge-card-link');
+
+            if (bridgeTitleEl && bridgeLinkEl) {
+                const themeKey = (sess.theme || '').toLowerCase();
+                if (themeKey.includes('mind') || themeKey.includes('psychology')) {
+                    bridgeTitleEl.textContent = "Take this to 'Mind Matters' Speaking Club 🧠";
+                    if (bridgeDescEl) bridgeDescEl.textContent = "Discuss psychology, human behavior, and emotions with C1/C2 peers!";
+                    bridgeLinkEl.href = "../apps/premium-events/clubs/mind/mind-matters.html";
+                } else if (themeKey.includes('society') || themeKey.includes('politics') || themeKey.includes('debate')) {
+                    bridgeTitleEl.textContent = "Take this to 'Debatable & Relatable' Club 🗣️";
+                    if (bridgeDescEl) bridgeDescEl.textContent = "Debate modern societal issues and perspectives in live small groups!";
+                    bridgeLinkEl.href = "../apps/premium-events/clubs/debate/debatable-relatable.html";
+                } else if (themeKey.includes('science') || themeKey.includes('tech')) {
+                    bridgeTitleEl.textContent = "Take this to 'Keeping Up with Science' Club 🔬";
+                    if (bridgeDescEl) bridgeDescEl.textContent = "Explore breakthrough discoveries and tech trends in live discussions!";
+                    bridgeLinkEl.href = "../apps/premium-events/clubs/kus/keeping-up-with-science.html";
+                } else {
+                    bridgeTitleEl.textContent = "Join a Live COSY Speaking Club Event 🎉";
+                    if (bridgeDescEl) bridgeDescEl.textContent = "Practice your new vocabulary in live C1/C2 conversations!";
+                    bridgeLinkEl.href = "../events/index.html";
+                }
+            }
         },
 
         endSession() {
@@ -1319,7 +1345,11 @@
                 fb.innerHTML = '❌ Incorrect.';
             }
             const correctOpt = q.opts ? q.opts[ans] : '';
-            const desc = correctOpt ? `Correct answer: ${correctOpt}` : '';
+            let desc = correctOpt ? `Correct answer: ${correctOpt}` : '';
+            const ruleHint = q.ruleHint || q.item?.ruleHint || q.item?.usage_hint || q.item?.grammar_note;
+            if (ruleHint) {
+                desc += `<br><span style="display:inline-block; margin-top:4px; font-weight:600; color:var(--coral);">💡 Rule: ${ruleHint}</span>`;
+            }
             showBottomFeedback(false, 'Incorrect', desc);
         }
     };
@@ -1361,7 +1391,12 @@
                 fb.className = 'pe-feedback show bad';
                 fb.innerHTML = '❌ Incorrect.';
             }
-            showBottomFeedback(false, 'Incorrect', `Correct answer: ${q.ans ? 'True' : 'False'}`);
+            let desc = `Correct answer: ${q.ans ? 'True' : 'False'}`;
+            const ruleHint = q.ruleHint || q.item?.ruleHint || q.item?.usage_hint || q.item?.grammar_note;
+            if (ruleHint) {
+                desc += `<br><span style="display:inline-block; margin-top:4px; font-weight:600; color:var(--coral);">💡 Rule: ${ruleHint}</span>`;
+            }
+            showBottomFeedback(false, 'Incorrect', desc);
         }
     };
 
