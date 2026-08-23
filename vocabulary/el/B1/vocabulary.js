@@ -1238,7 +1238,25 @@
         "definitions": [],
         "transcription": "-",
         "emoji": "❓"
-    }
+    },
+    {
+        "id": "el_b1_tech_01",
+        "word": "τεχνητή νοημοσύνη",
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "technology",
+        "form": "noun",
+        "definitions": [
+                {
+                        "text": "Τομέας της πληροφορικής που ασχολείται με τη δημιουργία έξυπνων μηχανών.",
+                        "examples": [
+                                "Η τεχνητή νοημοσύνη μετασχηματίζει τη σύγχρονη τεχνολογία."
+                        ]
+                }
+        ],
+        "transcription": "-",
+        "emoji": "🤖"
+},
 ];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

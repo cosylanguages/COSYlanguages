@@ -1267,7 +1267,25 @@
         "definitions": [],
         "transcription": "-",
         "emoji": "❓"
-    }
+    },
+    {
+        "id": "ru_b1_tech_01",
+        "word": "искусственный интеллект",
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "technology",
+        "form": "noun",
+        "definitions": [
+                {
+                        "text": "Область компьютерных наук, занимающаяся созданием интеллектуальных машин.",
+                        "examples": [
+                                "Искусственный интеллект меняет современные технологии."
+                        ]
+                }
+        ],
+        "transcription": "-",
+        "emoji": "🤖"
+},
 ];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

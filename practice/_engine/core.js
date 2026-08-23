@@ -1254,9 +1254,11 @@
 
     window.cosyDrawTTSWaveform = function(durationMs) {
         const canvas = document.getElementById('speaking-waveform');
+        const wrapBox = document.getElementById('waveform-wrap-box');
         if (!canvas) return;
-        const ctx = canvas.getContext('2d');
+        if (wrapBox) wrapBox.style.display = 'flex';
         canvas.style.display = 'block';
+        const ctx = canvas.getContext('2d');
         let t = 0;
         let isPlaying = true;
         let frameId = null;
@@ -1289,6 +1291,7 @@
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
                 canvas.style.display = 'none';
             }
+            if (wrapBox) wrapBox.style.display = 'none';
         }, durationMs || 2500);
     };
 

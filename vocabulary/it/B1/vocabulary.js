@@ -1298,7 +1298,25 @@
         "definitions": [],
         "transcription": "-",
         "emoji": "❓"
-    }
+    },
+    {
+        "id": "it_b1_tech_01",
+        "word": "intelligenza artificiale",
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "technology",
+        "form": "noun",
+        "definitions": [
+                {
+                        "text": "Insieme di teorie e tecniche per la creazione di macchine intelligenti.",
+                        "examples": [
+                                "L'intelligenza artificiale trasforma la tecnologia moderna."
+                        ]
+                }
+        ],
+        "transcription": "-",
+        "emoji": "🤖"
+},
 ];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
