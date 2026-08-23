@@ -222,7 +222,19 @@
 
   <!-- Quick Start Section -->
   <section id="quickstart-section">
-    <h2 class="sec-title">Quick Start <span>Jump right in</span></h2>
+    <h2 class="sec-title">Quick Start <span>Jump right in &amp; manage flashcards</span></h2>
+    <div style="margin-bottom: 1.5rem; display: flex; gap: 12px; align-items: center; background: var(--cream-dark); border: 1.5px dashed var(--border); padding: 1rem 1.5rem; border-radius: var(--r-md);">
+      <span style="font-size: 1.2rem;">📥</span>
+      <div style="flex: 1;">
+        <strong style="font-size: 0.95rem; color: var(--ink);">Anki &amp; CSV Deck Management:</strong>
+        <p style="font-size: 0.8rem; color: var(--ink-muted); margin: 2px 0 0 0;">Export your practice memory bank to Anki or import custom CSV vocabulary files directly into your SRS queue.</p>
+      </div>
+      <button onclick="cosyPracticeEngine.exportAnkiCSV()" class="btn-outline" style="font-size: 0.8rem; padding: 6px 14px;">Export Anki Deck (.csv)</button>
+      <label class="btn-outline" style="font-size: 0.8rem; padding: 6px 14px; cursor: pointer; margin: 0;">
+        Import CSV Deck 📤
+        <input type="file" id="anki-csv-import-input" accept=".csv,.txt" style="display: none;" onchange="window.cosyPractice.importAnkiCSV(event)">
+      </label>
+    </div>
     <div class="quickstart-grid">
       <div class="qs-card" style="--qs-color: var(--blue);" onclick="window.cosyPractice.quickStart('en', 'vocab', 'all', 'all')" role="button" tabindex="0" data-i18n-aria-label="aria.languagePracticeTile">
         <div class="qs-icon">🇬🇧</div>
@@ -382,6 +394,7 @@
     </div>
 
     <div style="display: flex; gap: 10px; margin-top: 1.5rem;">
+      <button onclick="cosyPracticeEngine.exportAnkiCSV()" class="btn-outline" style="flex: 1;">Export Anki Deck 📥</button>
       <button onclick="cosyPractice.startMistakeReview()" class="btn-outline" style="flex: 1;">Review Weak Spots ✏️</button>
       <button onclick="cosyPractice.endSession()" class="btn-primary" style="flex: 1;" data-translate-key="back_to_menu">Back to Menu 🏠</button>
     </div>

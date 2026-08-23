@@ -1298,6 +1298,39 @@
         return items.filter(i => i.lang?.toLowerCase() === lang.toLowerCase() && i.nextReview <= now);
     };
 
+    engine.exportAnkiCSV = function() {
+        const srsMap = getSRSMap();
+        const items = Object.values(srsMap);
+
+        let csvContent = "#separator:Comma\n#html:true\n#tags column:3\nFront,Back,Tags\n";
+
+        if (items.length === 0) {
+            // Include sample row if no SRS history
+            csvContent += '"Bonjour","Hello","COSYlanguages French FR"\n';
+            csvContent += '"Ciao","Hello","COSYlanguages Italian IT"\n';
+        } else {
+            items.forEach(i => {
+                const front = (i.word || '').replace(/"/g, '""');
+                const back = (i.item?.translation || i.item?.definitions?.[0]?.text || i.item?.definition || '').replace(/"/g, '""');
+                const tag = `COSYlanguages ${(i.lang || 'multi').toUpperCase()} ${i.theme || 'Vocab'}`;
+                csvContent += `"${front}","${back}","${tag}"\n`;
+            });
+        }
+
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.setAttribute('href', url);
+        link.setAttribute('download', `COSYlanguages_Anki_Deck_${new Date().toISOString().split('T')[0]}.csv`);
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        if (window.COSY && window.COSY.showToast) {
+            window.COSY.showToast('Anki CSV Deck exported successfully! 📥', false);
+        }
+    };
+
     engine.speakText = function(text, lang) {
         if (!text) return;
         if (window.gameUtils && typeof window.gameUtils.speak === 'function') {

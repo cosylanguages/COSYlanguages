@@ -331,6 +331,60 @@
             window.beginSession(targetLang, 'SRS Review', 'mixed', 'all', false, qs.slice(0, 10));
         },
 
+        importAnkiCSV(event) {
+            const file = event.target.files?.[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                const text = e.target?.result;
+                if (!text) return;
+
+                const lines = text.split('\n').filter(l => l.trim() && !l.startsWith('#'));
+                let importedCount = 0;
+                const engine = window.cosyPracticeEngine;
+
+                lines.forEach(line => {
+                    const parts = line.split(',').map(p => p.trim().replace(/^"|"$/g, ''));
+                    if (parts.length >= 2 && parts[0] && parts[1]) {
+                        const word = parts[0];
+                        const translation = parts[1];
+                        const item = {
+                            word,
+                            translation,
+                            level: 'all',
+                            theme: 'imported'
+                        };
+                        if (engine && engine.getSRSMap) {
+                            const map = engine.getSRSMap();
+                            const itemKey = `${selectedLang}:${word.toLowerCase()}`;
+                            map[itemKey] = {
+                                key: itemKey,
+                                word: word,
+                                lang: selectedLang,
+                                level: 'all',
+                                theme: 'imported',
+                                interval: 1,
+                                repetition: 0,
+                                easeFactor: 2.5,
+                                nextReview: Date.now(),
+                                item: item
+                            };
+                            try {
+                                localStorage.setItem('cosy_srs_data', JSON.stringify(map));
+                            } catch (err) {}
+                            importedCount++;
+                        }
+                    }
+                });
+
+                const msg = `Successfully imported ${importedCount} flashcards into your ${selectedLang.toUpperCase()} SRS queue! 🎉`;
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast(msg, false);
+                else alert(msg);
+            };
+            reader.readAsText(file);
+        },
+
         // Session Navigation delegate to core engine
         nextQ: () => {
             if (window.nextQuestion) window.nextQuestion();
