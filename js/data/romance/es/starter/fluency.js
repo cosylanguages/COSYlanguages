@@ -1,4 +1,5 @@
 (function() {
+    const lang = "es";
     const data = [
     {
         "t": "Tu familia",
@@ -210,7 +211,7 @@
     {
         "t": "Tu trabajo o escuela",
         "h": [
-            "¿Qué haces — trabajar o estudiar?",
+            "¿Qué haces: trabajar o estudiar?",
             "¿Qué te gusta de ello?",
             "¿A qué hora empiezas?",
             "¿Con quién trabajas o estudias?",
@@ -461,7 +462,6 @@
         "id": "es_starter_places_002"
     }
 ];
-    const lang = "es";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];

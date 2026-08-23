@@ -1,4 +1,5 @@
 (function() {
+    const lang = "de";
     const pronouns = ["ich", "du", "er", "sie", "es", "wir", "ihr", "sie"];
     const data = [
         {
@@ -410,7 +411,6 @@
                 "id": "de_starter_language_007"
         }
     ];
-    const lang = "de";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

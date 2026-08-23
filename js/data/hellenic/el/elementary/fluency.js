@@ -1,444 +1,484 @@
 (function() {
     const data = [
     {
-        "id": "el_elementary_social_001",
-        "word": "Διακοπές που θυμάσαι",
-        "lang": "el",
-        "level": "elementary",
-        "theme": "booking_planning_a_trip",
-        "sub_theme": null,
-        "form": "phrase",
-        "definitions": [
-            {
-                "text": "Διακοπές που θυμάσαι",
-                "examples": []
-            }
-        ],
+        "t": "Διακοπές που θυμάσαι",
         "h": [
             "Πού πήγες;",
             "Με ποιον πήγες;",
             "Τι έκανες εκεί;",
             "Πώς ήταν ο καιρός;",
             "Ποια ήταν η καλύτερη στιγμή;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_002",
-        "word": "Το αγαπημένο σου εστιατόριο ή καφετέρια",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "restaurants_ordering",
-        "sub_theme": null,
+        "theme": "travel",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Το αγαπημένο σου εστιατόριο ή καφετέρια",
-                "examples": []
+                "examples": [],
+                "text": "Διακοπές που θυμάσαι"
             }
         ],
+        "id": "el_elementary_travel_028",
+        "word": "Διακοπές που θυμάσαι"
+    },
+    {
+        "t": "Το αγαπημένο σου εστιατόριο ή καφετέρια",
         "h": [
             "Πού βρίσκεται;",
             "Τι φαγητό σερβίρουν;",
             "Γιατί σου αρέσει;",
             "Με ποιον πηγαίνεις;",
             "Πότε ήταν η τελευταία φορά που πήγες;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_003",
-        "word": "Πώς πηγαίνεις στη δουλειά ή στο σχολείο",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "transport_travel",
-        "sub_theme": null,
+        "theme": "food_drink",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Πώς πηγαίνεις στη δουλειά ή στο σχολείο",
-                "examples": []
+                "examples": [],
+                "text": "Το αγαπημένο σου εστιατόριο ή καφετέρια"
             }
         ],
+        "id": "el_elementary_food_drink_033",
+        "word": "Το αγαπημένο σου εστιατόριο ή καφετέρια"
+    },
+    {
+        "t": "Πώς πηγαίνεις στη δουλειά ή στο σχολείο",
         "h": [
-            "Πώς μετακινείσαι — λεωφορείο, αυτοκίνητο, ποδήλατο;",
+            "Πώς μετακινείσαι: λεωφορείο, αυτοκίνητο, ποδήλατο;",
             "Πόση ώρα παίρνει;",
             "Σου αρέσει η διαδρομή;",
             "Είναι ακριβή;",
             "Τι κάνεις στη διαδρομή;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_004",
-        "word": "Τι κάνεις για να χαλαρώσεις",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null,
+        "theme": "travel",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Τι κάνεις για να χαλαρώσεις",
-                "examples": []
+                "examples": [],
+                "text": "Πώς πηγαίνεις στη δουλειά ή στο σχολείο"
             }
         ],
+        "id": "el_elementary_travel_029",
+        "word": "Πώς πηγαίνεις στη δουλειά ή στο σχολείο"
+    },
+    {
+        "t": "Τι κάνεις για να χαλαρώσεις",
         "h": [
             "Τι σε βοηθάει να χαλαρώσεις;",
             "Προτιμάς να είσαι μόνος ή με κόσμο;",
             "Πόσο συχνά χαλαρώνεις πραγματικά;",
             "Έχεις ένα αγαπημένο μέρος για χαλάρωση;",
             "Είναι εύκολο να χαλαρώσεις ή σου φαίνεται δύσκολο;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_005",
-        "word": "Μια ταινία που είδες πρόσφατα",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Μια ταινία που είδες πρόσφατα",
-                "examples": []
+                "examples": [],
+                "text": "Τι κάνεις για να χαλαρώσεις"
             }
         ],
+        "id": "el_elementary_describing_009",
+        "word": "Τι κάνεις για να χαλαρώσεις"
+    },
+    {
+        "t": "Μια ταινία που είδες πρόσφατα",
         "h": [
             "Πώς λεγόταν η ταινία;",
             "Περί τίνος επρόκειτο;",
             "Σου άρεσε;",
             "Ποιος έπαιζε σε αυτήν;",
             "Θα την πρότεινες;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_006",
-        "word": "Το ιδανικό σου Σαββατοκύριακο",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Το ιδανικό σου Σαββατοκύριακο",
-                "examples": []
+                "examples": [],
+                "text": "Μια ταινία που είδες πρόσφατα"
             }
         ],
+        "id": "el_elementary_describing_010",
+        "word": "Μια ταινία που είδες πρόσφατα"
+    },
+    {
+        "t": "Το ιδανικό σου Σαββατοκύριακο",
         "h": [
             "Τι θα έκανες το βράδυ της Παρασκευής;",
             "Θα έβγαινες έξω ή θα έμενες μέσα;",
             "Θα ταξίδευες κάπου;",
             "Με ποιον θα περνούσες χρόνο;",
             "Τι θα έτρωγες;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_007",
-        "word": "Ένα άτομο που θαυμάζεις",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "personality_character",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Ένα άτομο που θαυμάζεις",
-                "examples": []
+                "examples": [],
+                "text": "Το ιδανικό σου Σαββατοκύριακο"
             }
         ],
+        "id": "el_elementary_describing_011",
+        "word": "Το ιδανικό σου Σαββατοκύριακο"
+    },
+    {
+        "t": "Ένα άτομο που θαυμάζεις",
         "h": [
             "Ποιο είναι αυτό το άτομο;",
             "Τι κάνει;",
             "Γιατί το θαυμάζεις;",
             "Το έχεις συναντήσει;",
             "Τι μπορείς να μάθεις από αυτό;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_008",
-        "word": "Ο προορισμός των ονείρων σου για διακοπές",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "booking_planning_a_trip",
-        "sub_theme": null,
+        "theme": "people",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Ο προορισμός των ονείρων σου για διακοπές",
-                "examples": []
+                "examples": [],
+                "text": "Ένα άτομο που θαυμάζεις"
             }
         ],
+        "id": "el_elementary_people_028",
+        "word": "Ένα άτομο που θαυμάζεις"
+    },
+    {
+        "t": "Ο προορισμός των ονείρων σου για διακοπές",
         "h": [
             "Πού θα πήγαινες;",
             "Γιατί σε αυτό το μέρος;",
             "Με ποιον θα πήγαινες;",
             "Τι θα έκανες εκεί;",
             "Πόσο καιρό θα έμενες;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_009",
-        "word": "Η σχέση σου με το τηλέφωνό σου",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "internet_social_media",
-        "sub_theme": null,
+        "theme": "travel",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Η σχέση σου με το τηλέφωνό σου",
-                "examples": []
+                "examples": [],
+                "text": "Ο προορισμός των ονείρων σου για διακοπές"
             }
         ],
+        "id": "el_elementary_travel_030",
+        "word": "Ο προορισμός των ονείρων σου για διακοπές"
+    },
+    {
+        "t": "Η σχέση σου με το τηλέφωνό σου",
         "h": [
             "Πόσες ώρες την ημέρα χρησιμοποιείς το τηλέφωνό σου;",
             "Για τι το χρησιμοποιείς περισσότερο;",
             "Θα μπορούσες να ζήσεις χωρίς αυτό για μια εβδομάδα;",
             "Σε βοηθάει ή σε αποσπά;",
             "Το ελέγχεις μόλις ξυπνήσεις το πρωί;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_010",
-        "word": "Κάτι αστείο που σου συνέβη",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "social_emotions",
-        "sub_theme": null,
+        "theme": "technology",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Κάτι αστείο που σου συνέβη",
-                "examples": []
+                "examples": [],
+                "text": "Η σχέση σου με το τηλέφωνό σου"
             }
         ],
+        "id": "el_elementary_technology_008",
+        "word": "Η σχέση σου με το τηλέφωνό σου"
+    },
+    {
+        "t": "Κάτι αστείο που σου συνέβη",
         "h": [
             "Πότε συνέβη αυτό;",
             "Πού ήσουν;",
             "Με ποιον ήσουν;",
             "Τι ακριβώς συνέβη;",
             "Γελάς ακόμα με αυτό τώρα;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_011",
-        "word": "Τα χόμπι σου",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "interests_hobbies",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Τα χόμπι σου",
-                "examples": []
+                "examples": [],
+                "text": "Κάτι αστείο που σου συνέβη"
             }
         ],
+        "id": "el_elementary_describing_012",
+        "word": "Κάτι αστείο που σου συνέβη"
+    },
+    {
+        "t": "Τα χόμπι σου",
         "h": [
             "Τι κάνεις στον ελεύθερο χρόνο σου;",
             "Πότε ξεκίνησες αυτό το χόμπι;",
             "Το κάνεις μόνος ή με άλλους;",
             "Είναι ακριβό;",
             "Τι αγαπάς σε αυτό;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_012",
-        "word": "Ο καιρός εκεί που μένεις",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "weather_climate",
-        "sub_theme": null,
+        "theme": "social",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Ο καιρός εκεί που μένεις",
-                "examples": []
+                "examples": [],
+                "text": "Τα χόμπι σου"
             }
         ],
+        "id": "el_elementary_social_023",
+        "word": "Τα χόμπι σου"
+    },
+    {
+        "t": "Ο καιρός εκεί που μένεις",
         "h": [
             "Πώς είναι συνήθως ο καιρός;",
             "Ποιο είναι το αγαπημένο σου είδος καιρού;",
             "Επηρεάζει ο καιρός τη διάθεσή σου;",
             "Ποιος είναι ο χειρότερος καιρός που θυμάσαι;",
             "Τι κάνεις τις βροχερές μέρες;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_013",
-        "word": "Γενέθλια που θυμάσαι",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "customs_traditions",
-        "sub_theme": null,
+        "theme": "nature",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Γενέθλια που θυμάσαι",
-                "examples": []
+                "examples": [],
+                "text": "Ο καιρός εκεί που μένεις"
             }
         ],
+        "id": "el_elementary_nature_001",
+        "word": "Ο καιρός εκεί που μένεις"
+    },
+    {
+        "t": "Γενέθλια που θυμάσαι",
         "h": [
             "Ποιανού γενέθλια ήταν;",
             "Πού έγινε η γιορτή;",
             "Τι κάνατε;",
             "Υπήρξε κάποια έκπληξη;",
             "Τι τα έκανε ξεχωριστά;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_014",
-        "word": "Πράγματα που αγαπάς εκεί που μένεις",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "neighbourhood_local",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Πράγματα που αγαπάς εκεί που μένεις",
-                "examples": []
+                "examples": [],
+                "text": "Γενέθλια που θυμάσαι"
             }
         ],
+        "id": "el_elementary_describing_013",
+        "word": "Γενέθλια που θυμάσαι"
+    },
+    {
+        "t": "Πράγματα που αγαπάς εκεί που μένεις",
         "h": [
             "Ποιο είναι το αγαπημένο σου πράγμα στην πόλη σου;",
             "Είναι καλό μέρος για οικογένειες;",
             "Τι μπορείς να κάνεις εκεί;",
             "Τι θα άλλαζες;",
             "Θα το πρότεινες σε έναν φίλο;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_015",
-        "word": "Μια τυπική Κυριακή",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "daily_work_routines",
-        "sub_theme": null,
+        "theme": "social",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Μια τυπική Κυριακή",
-                "examples": []
+                "examples": [],
+                "text": "Πράγματα που αγαπάς εκεί που μένεις"
             }
         ],
+        "id": "el_elementary_places_026",
+        "word": "Πράγματα που αγαπάς εκεί που μένεις"
+    },
+    {
+        "t": "Μια τυπική Κυριακή",
         "h": [
             "Τι ώρα ξυπνάς την Κυριακή;",
             "Έχεις κάποια ρουτίνα;",
             "Μαγειρεύεις ένα μεγάλο γεύμα;",
             "Ξεκουράζεσαι ή μένεις απασχολημένος;",
             "Είναι η Κυριακή η αγαπημένη σου μέρα;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_016",
-        "word": "Φαγητό από τη χώρα σου",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "customs_traditions",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Φαγητό από τη χώρα σου",
-                "examples": []
+                "examples": [],
+                "text": "Μια τυπική Κυριακή"
             }
         ],
+        "id": "el_elementary_describing_014",
+        "word": "Μια τυπική Κυριακή"
+    },
+    {
+        "t": "Φαγητό από τη χώρα σου",
         "h": [
             "Ποιο είναι ένα παραδοσιακό πιάτο;",
             "Το μαγειρεύεις στο σπίτι;",
             "Πότε το τρώνε οι άνθρωποι;",
             "Είναι δύσκολο να φτιαχτεί;",
             "Θα το πρότεινες σε έναν ξένο;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_017",
-        "word": "Κάτι που αγόρασες πρόσφατα",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "shopping_consumerism",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Κάτι που αγόρασες πρόσφατα",
-                "examples": []
+                "examples": [],
+                "text": "Φαγητό από τη χώρα σου"
             }
         ],
+        "id": "el_elementary_describing_015",
+        "word": "Φαγητό από τη χώρα σου"
+    },
+    {
+        "t": "Κάτι που αγόρασες πρόσφατα",
         "h": [
             "Τι αγόρασες;",
             "Πού το αγόρασες;",
             "Ήταν ακριβό;",
             "Το χρειαζόσουν ή απλώς το ήθελες;",
             "Είσαι ευχαριστημένος με την αγορά;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_018",
-        "word": "Η αγαπημένη σου εφαρμογή",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "internet_social_media",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Η αγαπημένη σου εφαρμογή",
-                "examples": []
+                "examples": [],
+                "text": "Κάτι που αγόρασες πρόσφατα"
             }
         ],
+        "id": "el_elementary_describing_016",
+        "word": "Κάτι που αγόρασες πρόσφατα"
+    },
+    {
+        "t": "Η αγαπημένη σου εφαρμογή",
         "h": [
             "Ποια εφαρμογή χρησιμοποιείς περισσότερο;",
             "Για τι τη χρησιμοποιείς;",
             "Πότε άρχισες να τη χρησιμοποιείς;",
             "Θα την πρότεινες;",
             "Θα μπορούσες να ζήσεις χωρίς αυτήν;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_019",
-        "word": "Μια παιδική ανάμνηση",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "social_emotions",
-        "sub_theme": null,
+        "theme": "technology",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Μια παιδική ανάμνηση",
-                "examples": []
+                "examples": [],
+                "text": "Η αγαπημένη σου εφαρμογή"
             }
         ],
+        "id": "el_elementary_technology_009",
+        "word": "Η αγαπημένη σου εφαρμογή"
+    },
+    {
+        "t": "Μια παιδική ανάμνηση",
         "h": [
             "Πόσο χρονών ήσουν;",
             "Πού ήσουν;",
             "Με ποιον ήσουν;",
             "Τι συνέβη;",
             "Γιατί το θυμάσαι;"
-        ]
-    },
-    {
-        "id": "el_elementary_social_020",
-        "word": "Τι έφαγες χθες",
-        "lang": "el",
+        ],
         "level": "elementary",
-        "theme": "diet_nutrition",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "el",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Τι έφαγες χθες",
-                "examples": []
+                "examples": [],
+                "text": "Μια παιδική ανάμνηση"
             }
         ],
+        "id": "el_elementary_describing_017",
+        "word": "Μια παιδική ανάμνηση"
+    },
+    {
+        "t": "Τι έφαγες χθες",
         "h": [
             "Τι έφαγες για πρωινό;",
             "Τι έφαγες για μεσημεριανό;",
             "Μαγείρεψες ή έφαγες έξω;",
             "Ήταν μια τυπική μέρα διατροφής;",
             "Ποιο ήταν το καλύτερο πράγμα που έφαγες;"
-        ]
+        ],
+        "level": "elementary",
+        "theme": "food_drink",
+        "lang": "el",
+        "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
+        "definitions": [
+            {
+                "examples": [],
+                "text": "Τι έφαγες χθες"
+            }
+        ],
+        "id": "el_elementary_food_drink_034",
+        "word": "Τι έφαγες χθες"
     }
 ];
     const lang = "el";

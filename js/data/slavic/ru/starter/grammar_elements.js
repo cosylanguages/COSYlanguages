@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_time_008",
@@ -16,7 +17,8 @@
             }
         ],
         "emoji": "🔁",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_004",
@@ -34,7 +36,6 @@
             }
         ],
         "emoji": "👫",
-        "oppositeEmoji": "🧍",
         "transcription": "/ˈvmʲestʲi/",
         "subtext": "",
         "antonyms": [
@@ -57,7 +58,8 @@
             }
         ],
         "emoji": "☀️",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_010",
@@ -79,7 +81,6 @@
         "transcription": "/sʲiˈvodnʲə/"
     }
 ];
-    const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

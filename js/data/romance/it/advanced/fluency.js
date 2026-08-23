@@ -119,7 +119,7 @@
     {
         "t": "Se le persone cambiano fondamentalmente o si rivelano solo lentamente",
         "h": [
-            "Riesci a pensare a qualcuno che sia cambiato veramente — o semplicemente non lo conoscevi abbastanza bene prima?",
+            "Riesci a pensare a qualcuno che sia cambiato veramente: o semplicemente non lo conoscevi abbastanza bene prima?",
             "Cosa serve perché una persona cambi davvero?",
             "Pensi di essere cambiato o di essere rimasto essenzialmente te stesso?",
             "Cosa dice delle relazioni se le persone non cambiano davvero?",
@@ -130,7 +130,7 @@
             {
                 "text": "Se le persone cambiano fondamentalmente o si rivelano solo lentamente",
                 "examples": [
-                    "Riesci a pensare a qualcuno che sia cambiato veramente — o semplicemente non lo conoscevi abbastanza bene prima?",
+                    "Riesci a pensare a qualcuno che sia cambiato veramente: o semplicemente non lo conoscevi abbastanza bene prima?",
                     "Cosa serve perché una persona cambi davvero?",
                     "Pensi di essere cambiato o di essere rimasto essenzialmente te stesso?",
                     "Cosa dice delle relazioni se le persone non cambiano davvero?",
@@ -465,7 +465,7 @@
         "id": "it_advanced_social_phrase_la_differenza_tra_essere_soli_"
     },
     {
-        "t": "Cosa significa vivere bene — e se ci sei vicino",
+        "t": "Cosa significa vivere bene: e se ci sei vicino",
         "h": [
             "Come definisci una vita vissuta bene?",
             "La vita di chi guardi e pensi: ci siamo quasi?",
@@ -473,10 +473,10 @@
             "Ci pensi spesso o la vita quotidiana ti distoglie?",
             "Vivere bene è qualcosa che pianifichi o qualcosa che accade per caso?"
         ],
-        "word": "Cosa significa vivere bene — e se ci sei vicino",
+        "word": "Cosa significa vivere bene: e se ci sei vicino",
         "definitions": [
             {
-                "text": "Cosa significa vivere bene — e se ci sei vicino",
+                "text": "Cosa significa vivere bene: e se ci sei vicino",
                 "examples": [
                     "Come definisci una vita vissuta bene?",
                     "La vita di chi guardi e pensi: ci siamo quasi?",
@@ -525,7 +525,7 @@
     {
         "t": "Le istituzioni e se ci servono",
         "h": [
-            "Pensa a un'istituzione — sanità, istruzione, governo — e valutala onestamente.",
+            "Pensa a un'istituzione: sanità, istruzione, governo: e valutala onestamente.",
             "A che punto un'istituzione smette di servire il suo scopo?",
             "Ti sei mai sentito tradito da un'istituzione su cui facevi affidamento?",
             "La riforma è possibile o le istituzioni devono essere completamente sostituite?",
@@ -536,7 +536,7 @@
             {
                 "text": "Le istituzioni e se ci servono",
                 "examples": [
-                    "Pensa a un'istituzione — sanità, istruzione, governo — e valutala onestamente.",
+                    "Pensa a un'istituzione: sanità, istruzione, governo: e valutala onestamente.",
                     "A che punto un'istituzione smette di servire il suo scopo?",
                     "Ti sei mai sentito tradito da un'istituzione su cui facevi affidamento?",
                     "La riforma è possibile o le istituzioni devono essere completamente sostituite?",
@@ -615,7 +615,7 @@
             "Quali segnali cerchi?",
             "Il tuo istinto si è mai sbagliato del tutto?",
             "Pensi di essere troppo fiducioso, non abbastanza fiducioso o ben calibrato?",
-            "La fiducia viene data o guadagnata — e questa distinzione ha importanza?",
+            "La fiducia viene data o guadagnata: e questa distinzione ha importanza?",
             "Cosa rompe la fiducia irrevocabilmente per te?"
         ],
         "word": "Come capisci quando fidarti di qualcuno",
@@ -626,7 +626,7 @@
                     "Quali segnali cerchi?",
                     "Il tuo istinto si è mai sbagliato del tutto?",
                     "Pensi di essere troppo fiducioso, non abbastanza fiducioso o ben calibrato?",
-                    "La fiducia viene data o guadagnata — e questa distinzione ha importanza?",
+                    "La fiducia viene data o guadagnata: e questa distinzione ha importanza?",
                     "Cosa rompe la fiducia irrevocabilmente per te?"
                 ]
             }

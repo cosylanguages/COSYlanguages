@@ -299,14 +299,14 @@
     },
     {
         "id": "de_intermediate_social_021",
-        "word": "Schweigen am Esstisch ist nicht unangenehm — es ist friedlich.",
+        "word": "Schweigen am Esstisch ist nicht unangenehm: es ist friedlich.",
         "lang": "de",
         "level": "intermediate",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Schweigen am Esstisch ist nicht unangenehm — es ist friedlich.",
+                "text": "Schweigen am Esstisch ist nicht unangenehm: es ist friedlich.",
                 "examples": [
                     "Sprichst du viel bei den Mahlzeiten?",
                     "Ist Schweigen für dich unangenehm?",
@@ -319,7 +319,7 @@
         "transcription": "-",
         "emoji": "💬",
         "_legacy": {
-            "t": "Schweigen am Esstisch ist nicht unangenehm — es ist friedlich.",
+            "t": "Schweigen am Esstisch ist nicht unangenehm: es ist friedlich.",
             "tag": "Soziales Leben",
             "h": [
                 "Sprichst du viel bei den Mahlzeiten?",

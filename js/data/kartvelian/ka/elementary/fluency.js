@@ -1,444 +1,484 @@
 (function() {
     const data = [
     {
-        "id": "ka_elementary_social_001",
-        "word": "არდადეგები, რომლებიც გახსოვთ",
-        "lang": "ka",
-        "level": "elementary",
-        "theme": "booking_planning_a_trip",
-        "sub_theme": null,
-        "form": "phrase",
-        "definitions": [
-            {
-                "text": "არდადეგები, რომლებიც გახსოვთ",
-                "examples": []
-            }
-        ],
+        "t": "არდადეგები, რომლებიც გახსოვთ",
         "h": [
             "სად წახვედით?",
             "ვისთან ერთად წახვედით?",
             "რას აკეთებდით იქ?",
             "როგორი ამინდი იყო?",
             "რომელი იყო საუკეთესო მომენტი?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_002",
-        "word": "თქვენი საყვარელი რესტორანი ან კაფე",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "restaurants_ordering",
-        "sub_theme": null,
+        "theme": "travel",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "თქვენი საყვარელი რესტორანი ან კაფე",
-                "examples": []
+                "examples": [],
+                "text": "არდადეგები, რომლებიც გახსოვთ"
             }
         ],
+        "id": "ka_elementary_travel_001",
+        "word": "არდადეგები, რომლებიც გახსოვთ"
+    },
+    {
+        "t": "თქვენი საყვარელი რესტორანი ან კაფე",
         "h": [
             "სად მდებარეობს?",
             "რა საჭმელს სთავაზობენ სტუმრებს?",
             "რატომ მოგწონთ?",
             "ვისთან ერთად დადიხართ იქ?",
             "ბოლოს როდის იყავით?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_003",
-        "word": "როგორ მიდიხართ სამსახურში ან სკოლაში",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "transport_travel",
-        "sub_theme": null,
+        "theme": "food_drink",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "როგორ მიდიხართ სამსახურში ან სკოლაში",
-                "examples": []
+                "examples": [],
+                "text": "თქვენი საყვარელი რესტორანი ან კაფე"
             }
         ],
+        "id": "ka_elementary_food_drink_001",
+        "word": "თქვენი საყვარელი რესტორანი ან კაფე"
+    },
+    {
+        "t": "როგორ მიდიხართ სამსახურში ან სკოლაში",
         "h": [
-            "რით მგზავრობთ — ავტობუსით, მანქანით თუ ველოსიპედით?",
+            "რით მგზავრობთ: ავტობუსით, მანქანით თუ ველოსიპედით?",
             "რამდენი ხანი სჭირდება მგზავრობას?",
             "გსიამოვნებთ მგზავრობა?",
             "ძვირია მგზავრობა?",
             "რას აკეთებთ გზაში?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_004",
-        "word": "რას აკეთებთ დასასვენებლად",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null,
+        "theme": "travel",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "რას აკეთებთ დასასვენებლად",
-                "examples": []
+                "examples": [],
+                "text": "როგორ მიდიხართ სამსახურში ან სკოლაში"
             }
         ],
+        "id": "ka_elementary_travel_002",
+        "word": "როგორ მიდიხართ სამსახურში ან სკოლაში"
+    },
+    {
+        "t": "რას აკეთებთ დასასვენებლად",
         "h": [
             "რა გეხმარებათ დასვენებაში?",
             "მარტო ყოფნას ამჯობინებთ თუ ხალხთან ერთად?",
             "რამდენად ხშირად ისვენებთ ნამდვილად?",
             "გაქვთ საყვარელი ადგილი დასასვენებლად?",
             "ადვილია თქვენთვის დასვენება თუ გიჭირთ?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_005",
-        "word": "ფილმი, რომელიც ახლახან ნახეთ",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "ფილმი, რომელიც ახლახან ნახეთ",
-                "examples": []
+                "examples": [],
+                "text": "რას აკეთებთ დასასვენებლად"
             }
         ],
+        "id": "ka_elementary_describing_001",
+        "word": "რას აკეთებთ დასასვენებლად"
+    },
+    {
+        "t": "ფილმი, რომელიც ახლახან ნახეთ",
         "h": [
             "რა ერქვა ფილმს?",
             "რაზე იყო ფილმი?",
             "მოგეწონათ?",
             "ვინ თამაშობდა მასში?",
             "გაუწევდით რეკომენდაციას სხვას?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_006",
-        "word": "თქვენი იდეალური შაბათ-კვირა",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "თქვენი იდეალური შაბათ-კვირა",
-                "examples": []
+                "examples": [],
+                "text": "ფილმი, რომელიც ახლახან ნახეთ"
             }
         ],
+        "id": "ka_elementary_describing_002",
+        "word": "ფილმი, რომელიც ახლახან ნახეთ"
+    },
+    {
+        "t": "თქვენი იდეალური შაბათ-კვირა",
         "h": [
             "რას გააკეთებდით პარასკევს საღამოს?",
             "გარეთ გავიდოდით თუ სახლში დარჩებოდით?",
             "სადმე ხომ არ იმოგზაურებდით?",
             "ვისთან ერთად გაატარებდით დროს?",
             "რას შეჭამდით?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_007",
-        "word": "ადამიანი, რომლითაც აღფრთოვანებული ხართ",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "personality_character",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "ადამიანი, რომლითაც აღფრთოვანებული ხართ",
-                "examples": []
+                "examples": [],
+                "text": "თქვენი იდეალური შაბათ-კვირა"
             }
         ],
+        "id": "ka_elementary_describing_003",
+        "word": "თქვენი იდეალური შაბათ-კვირა"
+    },
+    {
+        "t": "ადამიანი, რომლითაც აღფრთოვანებული ხართ",
         "h": [
             "ვინ არის ეს ადამიანი?",
             "რას აკეთებს ის?",
             "რატომ მოგწონთ ის?",
             "შეხვედრიხართ მას?",
             "რისი სწავლა შეგიძლიათ მისგან?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_008",
-        "word": "თქვენი საოცნებო დასასვენებელი ადგილი",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "booking_planning_a_trip",
-        "sub_theme": null,
+        "theme": "people",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "თქვენი საოცნებო დასასვენებელი ადგილი",
-                "examples": []
+                "examples": [],
+                "text": "ადამიანი, რომლითაც აღფრთოვანებული ხართ"
             }
         ],
+        "id": "ka_elementary_people_001",
+        "word": "ადამიანი, რომლითაც აღფრთოვანებული ხართ"
+    },
+    {
+        "t": "თქვენი საოცნებო დასასვენებელი ადგილი",
         "h": [
             "სად წახვიდოდით?",
             "რატომ ეს ადგილი?",
             "ვისთან ერთად წახვიდოდით?",
             "რას გააკეთებდით იქ?",
             "რამდენი ხნით დარჩებოდით?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_009",
-        "word": "თქვენი დამოკიდებულება ტელეფონთან",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "internet_social_media",
-        "sub_theme": null,
+        "theme": "travel",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "თქვენი დამოკიდებულება ტელეფონთან",
-                "examples": []
+                "examples": [],
+                "text": "თქვენი საოცნებო დასასვენებელი ადგილი"
             }
         ],
+        "id": "ka_elementary_travel_003",
+        "word": "თქვენი საოცნებო დასასვენებელი ადგილი"
+    },
+    {
+        "t": "თქვენი დამოკიდებულება ტელეფონთან",
         "h": [
             "დღეში რამდენ საათს იყენებთ ტელეფონს?",
             "რისთვის იყენებთ მას ყველაზე ხშირად?",
             "შეძლებდით თუ არა მის გარეშე ერთ კვირას?",
             "გეხმარებათ ის თუ ყურადღებას გიფანტავთ?",
             "დილით გაღვიძებისთანავე მას ამოწმებთ?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_010",
-        "word": "რაღაც სასაცილო, რაც გადაგხდათ",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "social_emotions",
-        "sub_theme": null,
+        "theme": "technology",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "რაღაც სასაცილო, რაც გადაგხდათ",
-                "examples": []
+                "examples": [],
+                "text": "თქვენი დამოკიდებულება ტელეფონთან"
             }
         ],
+        "id": "ka_elementary_technology_001",
+        "word": "თქვენი დამოკიდებულება ტელეფონთან"
+    },
+    {
+        "t": "რაღაც სასაცილო, რაც გადაგხდათ",
         "h": [
             "როდის მოხდა ეს?",
             "სად იყავით?",
             "ვისთან ერთად იყავით?",
             "ზუსტად რა მოხდა?",
             "ახლაც გეცინებათ ამაზე?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_011",
-        "word": "თქვენი ჰობი",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "interests_hobbies",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "თქვენი ჰობი",
-                "examples": []
+                "examples": [],
+                "text": "რაღაც სასაცილო, რაც გადაგხდათ"
             }
         ],
+        "id": "ka_elementary_describing_004",
+        "word": "რაღაც სასაცილო, რაც გადაგხდათ"
+    },
+    {
+        "t": "თქვენი ჰობი",
         "h": [
             "რას აკეთებთ თავისუფალ დროს?",
             "როდის დაიწყეთ ეს ჰობი?",
             "მარტო აკეთებთ ამას თუ სხვებთან ერთად?",
             "ძვირია ეს ჰობი?",
             "რა გიყვართ მასში?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_012",
-        "word": "ამინდი იქ, სად ცხოვრობთ",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "weather_climate",
-        "sub_theme": null,
+        "theme": "social",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "ამინდი იქ, სად ცხოვრობთ",
-                "examples": []
+                "examples": [],
+                "text": "თქვენი ჰობი"
             }
         ],
+        "id": "ka_elementary_social_001",
+        "word": "თქვენი ჰობი"
+    },
+    {
+        "t": "ამინდი იქ, სად ცხოვრობთ",
         "h": [
             "როგორი ამინდია ხოლმე ჩვეულებრივ?",
             "როგორი ამინდი გიყვართ ყველაზე მეტად?",
             "მოქმედებს თუ არა ამინდი თქვენს განწყობაზე?",
             "რომელი იყო ყველაზე ცუდი ამინდი, რაც გახსოვთ?",
             "რას აკეთებთ წვიმიან დღეებში?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_013",
-        "word": "დაბადების დღე, რომელიც გახსოვთ",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "customs_traditions",
-        "sub_theme": null,
+        "theme": "nature",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "დაბადების დღე, რომელიც გახსოვთ",
-                "examples": []
+                "examples": [],
+                "text": "ამინდი იქ, სად ცხოვრობთ"
             }
         ],
+        "id": "ka_elementary_nature_001",
+        "word": "ამინდი იქ, სად ცხოვრობთ"
+    },
+    {
+        "t": "დაბადების დღე, რომელიც გახსოვთ",
         "h": [
             "ვისი დაბადების დღე იყო?",
             "სად გაიმართა აღნიშვნა?",
             "რას აკეთებდით?",
             "იყო თუ არა რაიმე სიურპრიზი?",
             "რამ გახადა ეს დღე განსაკუთრებული?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_014",
-        "word": "რაც გიყვართ იქ, სად ცხოვრობთ",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "neighbourhood_local",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "რაც გიყვართ იქ, სად ცხოვრობთ",
-                "examples": []
+                "examples": [],
+                "text": "დაბადების დღე, რომელიც გახსოვთ"
             }
         ],
+        "id": "ka_elementary_describing_005",
+        "word": "დაბადების დღე, რომელიც გახსოვთ"
+    },
+    {
+        "t": "რაც გიყვართ იქ, სად ცხოვრობთ",
         "h": [
             "რა გიყვართ ყველაზე მეტად თქვენს ქალაქში?",
             "არის თუ არა ეს კარგი ადგილი ოჯახებისთვის?",
             "რა არის იქ გასაკეთებელი?",
             "რას შეცვლიდით?",
             "გაუწევდით რეკომენდაციას მეგობარს?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_015",
-        "word": "ტიპური კვირა დღე",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "daily_work_routines",
-        "sub_theme": null,
+        "theme": "places",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "ტიპური კვირა დღე",
-                "examples": []
+                "examples": [],
+                "text": "რაც გიყვართ იქ, სად ცხოვრობთ"
             }
         ],
+        "id": "ka_elementary_places_001",
+        "word": "რაც გიყვართ იქ, სად ცხოვრობთ"
+    },
+    {
+        "t": "ტიპური კვირა დღე",
         "h": [
             "რომელ საათზე იღვიძებთ კვირას?",
             "გაქვთ რაიმე რუტინა?",
             "ამზადებთ თუ არა დიდ სადილს?",
             "ისვენებთ თუ დაკავებული ხართ?",
             "არის თუ არა კვირა თქვენი საყვარელი დღე?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_016",
-        "word": "საჭმელი თქვენი ქვეყნიდან",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "customs_traditions",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "საჭმელი თქვენი ქვეყნიდან",
-                "examples": []
+                "examples": [],
+                "text": "ტიპური კვირა დღე"
             }
         ],
+        "id": "ka_elementary_describing_006",
+        "word": "ტიპური კვირა დღე"
+    },
+    {
+        "t": "საჭმელი თქვენი ქვეყნიდან",
         "h": [
             "რა არის ტრადიციული კერძი?",
             "ამზადებთ მას სახლში?",
             "როდის ჭამენ მას ადამიანები?",
             "ძნელი მოსამზადებელია?",
             "გაუწევდით რეკომენდაციას უცხოელს?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_017",
-        "word": "რაღაც, რაც ახლახან იყიდეთ",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "shopping_consumerism",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "რაღაც, რაც ახლახან იყიდეთ",
-                "examples": []
+                "examples": [],
+                "text": "საჭმელი თქვენი ქვეყნიდან"
             }
         ],
+        "id": "ka_elementary_describing_007",
+        "word": "საჭმელი თქვენი ქვეყნიდან"
+    },
+    {
+        "t": "რაღაც, რაც ახლახან იყიდეთ",
         "h": [
             "რა იყიდეთ?",
             "სად იყიდეთ?",
             "ძვირი იყო?",
             "გჭირდებოდათ თუ უბრალოდ გინდოდათ?",
             "კმაყოფილი ხართ შენაძენით?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_018",
-        "word": "თქვენი საყვარელი აპლიკაცია",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "internet_social_media",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "თქვენი საყვარელი აპლიკაცია",
-                "examples": []
+                "examples": [],
+                "text": "რაღაც, რაც ახლახან იყიდეთ"
             }
         ],
+        "id": "ka_elementary_describing_008",
+        "word": "რაღაც, რაც ახლახან იყიდეთ"
+    },
+    {
+        "t": "თქვენი საყვარელი აპლიკაცია",
         "h": [
             "რომელ აპლიკაციას იყენებთ ყველაზე ხშირად?",
             "რისთვის იყენებთ მას?",
             "როდის დაიწყეთ მისი გამოყენება?",
             "გაუწევდით რეკომენდაციას?",
             "შეძლებდით მის გარეშე ცხოვრებას?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_019",
-        "word": "ბავშვობის მოგონება",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "social_emotions",
-        "sub_theme": null,
+        "theme": "technology",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "ბავშვობის მოგონება",
-                "examples": []
+                "examples": [],
+                "text": "თქვენი საყვარელი აპლიკაცია"
             }
         ],
+        "id": "ka_elementary_technology_002",
+        "word": "თქვენი საყვარელი აპლიკაცია"
+    },
+    {
+        "t": "ბავშვობის მოგონება",
         "h": [
             "რამდენი წლის იყავით?",
             "სად იყავით?",
             "ვისთან ერთად იყავით?",
             "რა მოხდა?",
             "რატომ გახსოვთ ის?"
-        ]
-    },
-    {
-        "id": "ka_elementary_social_020",
-        "word": "რა ჭამეთ გუშინ",
-        "lang": "ka",
+        ],
         "level": "elementary",
-        "theme": "diet_nutrition",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "ka",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "რა ჭამეთ გუშინ",
-                "examples": []
+                "examples": [],
+                "text": "ბავშვობის მოგონება"
             }
         ],
+        "id": "ka_elementary_describing_009",
+        "word": "ბავშვობის მოგონება"
+    },
+    {
+        "t": "რა ჭამეთ გუშინ",
         "h": [
             "რა მიირთვით საუზმეზე?",
             "რა მიირთვით სადილზე?",
             "თქვენ მოამზადეთ თუ გარეთ მიირთვით?",
             "იყო თუ არა ეს კვების მხრივ ტიპური დღე?",
             "რა იყო საუკეთესო რამ, რაც შეჭამეთ?"
-        ]
+        ],
+        "level": "elementary",
+        "theme": "food_drink",
+        "lang": "ka",
+        "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
+        "definitions": [
+            {
+                "examples": [],
+                "text": "რა ჭამეთ გუშინ"
+            }
+        ],
+        "id": "ka_elementary_food_drink_002",
+        "word": "რა ჭამეთ გუშინ"
     }
 ];
     const lang = "ka";

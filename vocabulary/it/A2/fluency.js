@@ -65,7 +65,7 @@
     {
         "t": "Come vai al lavoro o a scuola",
         "h": [
-            "Come viaggi — autobus, macchina, bici?",
+            "Come viaggi: autobus, macchina, bici?",
             "Quanto tempo ci vuole?",
             "Ti piace il viaggio?",
             "È costoso?",
@@ -78,7 +78,7 @@
             {
                 "text": "Come vai al lavoro o a scuola",
                 "examples": [
-                    "Come viaggi — autobus, macchina, bici?",
+                    "Come viaggi: autobus, macchina, bici?",
                     "Quanto tempo ci vuole?",
                     "Ti piace il viaggio?",
                     "È costoso?",

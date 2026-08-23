@@ -1,6 +1,6 @@
 (function() {
-    const data = [];
     const lang = "en";
+    const data = [];
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["quotes"]) window.speakingData[lang]["quotes"] = [];

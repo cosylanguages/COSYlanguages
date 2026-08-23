@@ -17,7 +17,7 @@ window.lessonsData["en"]["2"] = {
         {
             "word": "man",
             "emoji": "👨",
-            "opposite": "woman",
+            "antonyms": ["woman"],
             "oppositeEmoji": "👩",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -25,7 +25,7 @@ window.lessonsData["en"]["2"] = {
         {
             "word": "woman",
             "emoji": "👩",
-            "opposite": "man",
+            "antonyms": ["man"],
             "oppositeEmoji": "👨",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -33,7 +33,7 @@ window.lessonsData["en"]["2"] = {
         {
             "word": "boy",
             "emoji": "👦",
-            "opposite": "girl",
+            "antonyms": ["girl"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -41,7 +41,7 @@ window.lessonsData["en"]["2"] = {
         {
             "word": "girl",
             "emoji": "👧",
-            "opposite": "boy",
+            "antonyms": ["boy"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -49,7 +49,7 @@ window.lessonsData["en"]["2"] = {
         {
             "word": "teacher",
             "emoji": "🧑‍🏫",
-            "opposite": "student",
+            "antonyms": ["student"],
             "oppositeEmoji": "🧑‍🎓",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -57,7 +57,7 @@ window.lessonsData["en"]["2"] = {
         {
             "word": "student",
             "emoji": "🧑‍🎓",
-            "opposite": "teacher",
+            "antonyms": ["teacher"],
             "oppositeEmoji": "🧑‍🏫",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -200,7 +200,7 @@ window.lessonsData["fr"]["2"] = {
         {
             "word": "l'homme",
             "emoji": "👨",
-            "opposite": "la femme",
+            "antonyms": ["la femme"],
             "oppositeEmoji": "👩",
             "category": "vocabulary",
             "article": "l'",
@@ -210,7 +210,7 @@ window.lessonsData["fr"]["2"] = {
         {
             "word": "la femme",
             "emoji": "👩",
-            "opposite": "l'homme",
+            "antonyms": ["l'homme"],
             "oppositeEmoji": "👨",
             "category": "vocabulary",
             "article": "la",
@@ -220,7 +220,7 @@ window.lessonsData["fr"]["2"] = {
         {
             "word": "le garçon",
             "emoji": "👦",
-            "opposite": "la fille",
+            "antonyms": ["la fille"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "article": "le",
@@ -230,7 +230,7 @@ window.lessonsData["fr"]["2"] = {
         {
             "word": "la fille",
             "emoji": "👧",
-            "opposite": "le garçon",
+            "antonyms": ["le garçon"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "article": "la",
@@ -379,7 +379,7 @@ window.lessonsData["it"]["2"] = {
         {
             "word": "l'uomo",
             "emoji": "👨",
-            "opposite": "la donna",
+            "antonyms": ["la donna"],
             "oppositeEmoji": "👩",
             "category": "vocabulary",
             "article": "l'",
@@ -389,7 +389,7 @@ window.lessonsData["it"]["2"] = {
         {
             "word": "la donna",
             "emoji": "👩",
-            "opposite": "l'uomo",
+            "antonyms": ["l'uomo"],
             "oppositeEmoji": "👨",
             "category": "vocabulary",
             "article": "la",
@@ -399,7 +399,7 @@ window.lessonsData["it"]["2"] = {
         {
             "word": "il ragazzo",
             "emoji": "👦",
-            "opposite": "la ragazza",
+            "antonyms": ["la ragazza"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "article": "il",
@@ -409,7 +409,7 @@ window.lessonsData["it"]["2"] = {
         {
             "word": "la ragazza",
             "emoji": "👧",
-            "opposite": "il ragazzo",
+            "antonyms": ["il ragazzo"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "article": "la",
@@ -558,7 +558,7 @@ window.lessonsData["ru"]["2"] = {
         {
             "word": "мужчина",
             "emoji": "👨",
-            "opposite": "женщина",
+            "antonyms": ["женщина"],
             "oppositeEmoji": "👩",
             "category": "vocabulary",
             "gender": "он",
@@ -568,7 +568,7 @@ window.lessonsData["ru"]["2"] = {
         {
             "word": "женщина",
             "emoji": "👩",
-            "opposite": "мужчина",
+            "antonyms": ["мужчина"],
             "oppositeEmoji": "👨",
             "category": "vocabulary",
             "gender": "она",
@@ -578,7 +578,7 @@ window.lessonsData["ru"]["2"] = {
         {
             "word": "мальчик",
             "emoji": "👦",
-            "opposite": "девочка",
+            "antonyms": ["девочка"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "gender": "он",
@@ -588,7 +588,7 @@ window.lessonsData["ru"]["2"] = {
         {
             "word": "девочка",
             "emoji": "👧",
-            "opposite": "мальчик",
+            "antonyms": ["мальчик"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "gender": "она",
@@ -737,7 +737,7 @@ window.lessonsData["el"]["2"] = {
         {
             "word": "ο άνδρας",
             "emoji": "👨",
-            "opposite": "η γυναίκα",
+            "antonyms": ["η γυναίκα"],
             "oppositeEmoji": "👩",
             "category": "vocabulary",
             "article": "ο",
@@ -747,7 +747,7 @@ window.lessonsData["el"]["2"] = {
         {
             "word": "η γυναίκα",
             "emoji": "👩",
-            "opposite": "ο άνδρας",
+            "antonyms": ["ο άνδρας"],
             "oppositeEmoji": "👨",
             "category": "vocabulary",
             "article": "η",
@@ -757,7 +757,7 @@ window.lessonsData["el"]["2"] = {
         {
             "word": "το αγόρι",
             "emoji": "👦",
-            "opposite": "το κορίτσι",
+            "antonyms": ["το κορίτσι"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "article": "το",
@@ -767,7 +767,7 @@ window.lessonsData["el"]["2"] = {
         {
             "word": "το κορίτσι",
             "emoji": "👧",
-            "opposite": "το αγόρι",
+            "antonyms": ["το αγόρι"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "article": "το",

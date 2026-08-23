@@ -1,6 +1,6 @@
 (function() {
     const data = [
-        {
+    {
                 "t": "Zerstören soziale Medien unsere sozialen Kompetenzen?",
                 "tag": "Technologie",
                 "h": [
@@ -31,7 +31,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_technology_001"
         },
-        {
+    {
                 "t": "Sollte der öffentliche Nahverkehr kostenlos sein?",
                 "tag": "Gesellschaft",
                 "h": [
@@ -62,14 +62,14 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_023"
         },
-        {
+    {
                 "t": "Nostalgie ist meist nur eine Lüge, die wir uns selbst erzählen.",
                 "tag": "Psychologie",
                 "h": [
                         "Worauf sind Sie am meisten nostalgisch?",
                         "Glauben Sie, dass die Vergangenheit wirklich besser war?",
                         "Ist Nostalgie tröstlich oder hält sie einen zurück?",
-                        "Kann Nostalgie gefährlich sein — persönlich oder politisch?",
+                        "Kann Nostalgie gefährlich sein: persönlich oder politisch?",
                         "Was bedeutet es, dass wir unsere Erinnerungen bearbeiten?"
                 ],
                 "lang": "de",
@@ -85,7 +85,7 @@
                                         "Worauf sind Sie am meisten nostalgisch?",
                                         "Glauben Sie, dass die Vergangenheit wirklich besser war?",
                                         "Ist Nostalgie tröstlich oder hält sie einen zurück?",
-                                        "Kann Nostalgie gefährlich sein — persönlich oder politisch?",
+                                        "Kann Nostalgie gefährlich sein: persönlich oder politisch?",
                                         "Was bedeutet es, dass wir unsere Erinnerungen bearbeiten?"
                                 ]
                         }
@@ -93,8 +93,8 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_001"
         },
-        {
-                "t": "Die meisten Menschen wollen kein ehrliches Feedback — sie wollen Bestätigung.",
+    {
+                "t": "Die meisten Menschen wollen kein ehrliches Feedback: sie wollen Bestätigung.",
                 "tag": "Menschliche Natur",
                 "h": [
                         "Wenn Sie um Feedback bitten, was wollen Sie wirklich?",
@@ -107,11 +107,11 @@
                 "level": "upper_intermediate",
                 "theme": "psychology",
                 "sub_theme": null,
-                "word": "Die meisten Menschen wollen kein ehrliches Feedback — sie wollen Bestätigung.",
+                "word": "Die meisten Menschen wollen kein ehrliches Feedback: sie wollen Bestätigung.",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Die meisten Menschen wollen kein ehrliches Feedback — sie wollen Bestätigung.",
+                                "text": "Die meisten Menschen wollen kein ehrliches Feedback: sie wollen Bestätigung.",
                                 "examples": [
                                         "Wenn Sie um Feedback bitten, was wollen Sie wirklich?",
                                         "Haben Sie jemals Feedback erhalten, das schwer zu hören, aber wertvoll war?",
@@ -124,7 +124,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_002"
         },
-        {
+    {
                 "t": "Es ist möglich, süchtig danach zu sein, beschäftigt zu sein.",
                 "tag": "Modernes Leben",
                 "h": [
@@ -155,7 +155,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_024"
         },
-        {
+    {
                 "t": "Ruhm sieht wie eine Strafe aus, nicht wie eine Belohnung.",
                 "tag": "Gesellschaft",
                 "h": [
@@ -186,7 +186,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_025"
         },
-        {
+    {
                 "t": "Das Schulsystem erstickt die Kreativität mehr, als es sie fördert.",
                 "tag": "Bildung",
                 "h": [
@@ -217,12 +217,12 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_school_001"
         },
-        {
+    {
                 "t": "Es gibt kein wirklich uneigennütziges Verhalten.",
                 "tag": "Philosophie",
                 "h": [
                         "Fällt Ihnen eine wirklich selbstlose Tat ein?",
-                        "Fühlt es sich gut an, etwas Gutes zu tun — und macht es das egoistisch?",
+                        "Fühlt es sich gut an, etwas Gutes zu tun: und macht es das egoistisch?",
                         "Ist das eine zynische oder eine realistische Sichtweise?",
                         "Spielt die Motivation hinter einer Handlung eine Rolle, wenn das Ergebnis positiv ist?",
                         "Ändert der Glaube daran Ihr Verhalten?"
@@ -238,7 +238,7 @@
                                 "text": "Es gibt kein wirklich uneigennütziges Verhalten.",
                                 "examples": [
                                         "Fällt Ihnen eine wirklich selbstlose Tat ein?",
-                                        "Fühlt es sich gut an, etwas Gutes zu tun — und macht es das egoistisch?",
+                                        "Fühlt es sich gut an, etwas Gutes zu tun: und macht es das egoistisch?",
                                         "Ist das eine zynische oder eine realistische Sichtweise?",
                                         "Spielt die Motivation hinter einer Handlung eine Rolle, wenn das Ergebnis positiv ist?",
                                         "Ändert der Glaube daran Ihr Verhalten?"
@@ -248,7 +248,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_art_culture_001"
         },
-        {
+    {
                 "t": "Die meisten Erwachsenen improvisieren nur.",
                 "tag": "Menschliche Natur",
                 "h": [
@@ -256,7 +256,7 @@
                         "Wann haben Sie erwartet, sich wie ein Erwachsener zu fühlen?",
                         "Haben alle das Gefühl, nur so zu tun?",
                         "Ist das beruhigend oder erschreckend?",
-                        "Wer ist jemand, der es im Griff zu haben scheint — glauben Sie, dass er das wirklich tut?"
+                        "Wer ist jemand, der es im Griff zu haben scheint: glauben Sie, dass er das wirklich tut?"
                 ],
                 "lang": "de",
                 "level": "upper_intermediate",
@@ -272,14 +272,14 @@
                                         "Wann haben Sie erwartet, sich wie ein Erwachsener zu fühlen?",
                                         "Haben alle das Gefühl, nur so zu tun?",
                                         "Ist das beruhigend oder erschreckend?",
-                                        "Wer ist jemand, der es im Griff zu haben scheint — glauben Sie, dass er das wirklich tut?"
+                                        "Wer ist jemand, der es im Griff zu haben scheint: glauben Sie, dass er das wirklich tut?"
                                 ]
                         }
                 ],
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_003"
         },
-        {
+    {
                 "t": "Die interessantesten Menschen sind immer ein wenig schwierig.",
                 "tag": "Persönlichkeit",
                 "h": [
@@ -310,7 +310,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_people_001"
         },
-        {
+    {
                 "t": "Wir verzeihen Menschen, die wir lieben, Dinge, die wir Fremden nie verzeihen würden.",
                 "tag": "Beziehungen",
                 "h": [
@@ -341,8 +341,8 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_people_002"
         },
-        {
-                "t": "Komfortzonen werden überbewertet — Wachstum findet eigentlich in der Unbequemlichkeit statt.",
+    {
+                "t": "Komfortzonen werden überbewertet: Wachstum findet eigentlich in der Unbequemlichkeit statt.",
                 "tag": "Selbstentwicklung",
                 "h": [
                         "Fällt Ihnen eine Zeit ein, in der Unbehagen zu Wachstum führte?",
@@ -355,11 +355,11 @@
                 "level": "upper_intermediate",
                 "theme": "psychology",
                 "sub_theme": null,
-                "word": "Komfortzonen werden überbewertet — Wachstum findet eigentlich in der Unbequemlichkeit statt.",
+                "word": "Komfortzonen werden überbewertet: Wachstum findet eigentlich in der Unbequemlichkeit statt.",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Komfortzonen werden überbewertet — Wachstum findet eigentlich in der Unbequemlichkeit statt.",
+                                "text": "Komfortzonen werden überbewertet: Wachstum findet eigentlich in der Unbequemlichkeit statt.",
                                 "examples": [
                                         "Fällt Ihnen eine Zeit ein, in der Unbehagen zu Wachstum führte?",
                                         "Ist es immer notwendig, sich unbehaglich zu fühlen, um sich zu entwickeln?",
@@ -372,8 +372,8 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_004"
         },
-        {
-                "t": "Wut ist eine unterschätzte Emotion — manchmal bewirkt sie etwas.",
+    {
+                "t": "Wut ist eine unterschätzte Emotion: manchmal bewirkt sie etwas.",
                 "tag": "Psychologie",
                 "h": [
                         "Glauben Sie, dass Sie Wut gut ausdrücken können?",
@@ -386,11 +386,11 @@
                 "level": "upper_intermediate",
                 "theme": "psychology",
                 "sub_theme": null,
-                "word": "Wut ist eine unterschätzte Emotion — manchmal bewirkt sie etwas.",
+                "word": "Wut ist eine unterschätzte Emotion: manchmal bewirkt sie etwas.",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Wut ist eine unterschätzte Emotion — manchmal bewirkt sie etwas.",
+                                "text": "Wut ist eine unterschätzte Emotion: manchmal bewirkt sie etwas.",
                                 "examples": [
                                         "Glauben Sie, dass Sie Wut gut ausdrücken können?",
                                         "Fällt Ihnen eine Zeit ein, in der Wut produktiv war?",
@@ -403,7 +403,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_005"
         },
-        {
+    {
                 "t": "Haustiere haben für viele Menschen die Gemeinschaft ersetzt.",
                 "tag": "Gesellschaft",
                 "h": [
@@ -434,7 +434,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_026"
         },
-        {
+    {
                 "t": "Alleine zu reisen ist der einzige Weg, sich selbst wirklich zu entdecken.",
                 "tag": "Reisen",
                 "h": [
@@ -465,7 +465,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_travel_001"
         },
-        {
+    {
                 "t": "Eine Zeit, in der man von vorne anfangen musste, ist nie ganz verschwendet.",
                 "tag": "Resilienz",
                 "h": [
@@ -496,7 +496,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_006"
         },
-        {
+    {
                 "t": "Die Besessenheit von Produktivität ist nur Kapitalismus im Gewand der Selbstverbesserung.",
                 "tag": "Modernes Leben",
                 "h": [
@@ -527,7 +527,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_027"
         }
-];
+    ];
     const lang = "de";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

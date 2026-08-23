@@ -6,21 +6,21 @@ window.lessonsData["en"]["1"] = {
         {
             "word": "Hello",
             "emoji": "👋",
-            "opposite": "Goodbye",
+            "antonyms": ["Goodbye"],
             "oppositeEmoji": "🖐️",
             "category": "vocabulary"
         },
         {
             "word": "Yes",
             "emoji": "✅",
-            "opposite": "No",
+            "antonyms": ["No"],
             "oppositeEmoji": "❌",
             "category": "vocabulary"
         },
         {
             "word": "Thank you",
             "emoji": "🙏",
-            "opposite": "You're welcome",
+            "antonyms": ["You're welcome"],
             "oppositeEmoji": "💁‍♂️",
             "category": "vocabulary"
         },
@@ -34,14 +34,14 @@ window.lessonsData["en"]["1"] = {
         {
             "word": "Alright",
             "emoji": "👍",
-            "opposite": "Ok",
+            "antonyms": ["Ok"],
             "oppositeEmoji": "👌",
             "category": "vocabulary"
         },
         {
             "word": "Sorry",
             "emoji": "🙇‍♂️",
-            "opposite": ":(",
+            "antonyms": [":("],
             "oppositeEmoji": "☹️",
             "category": "vocabulary"
         },
@@ -191,21 +191,21 @@ window.lessonsData["fr"]["1"] = {
         {
             "word": "Bonjour",
             "emoji": "👋",
-            "opposite": "Au revoir",
+            "antonyms": ["Au revoir"],
             "oppositeEmoji": "🖐️",
             "category": "vocabulary"
         },
         {
             "word": "Oui",
             "emoji": "✅",
-            "opposite": "Non",
+            "antonyms": ["Non"],
             "oppositeEmoji": "❌",
             "category": "vocabulary"
         },
         {
             "word": "Merci",
             "emoji": "🙏",
-            "opposite": "De rien",
+            "antonyms": ["De rien"],
             "oppositeEmoji": "💁‍♂️",
             "category": "vocabulary"
         },
@@ -219,14 +219,14 @@ window.lessonsData["fr"]["1"] = {
         {
             "word": "D'accord",
             "emoji": "👍",
-            "opposite": "Ok",
+            "antonyms": ["Ok"],
             "oppositeEmoji": "👌",
             "category": "vocabulary"
         },
         {
             "word": "Désolé",
             "emoji": "🙇‍♂️",
-            "opposite": ":(",
+            "antonyms": [":("],
             "oppositeEmoji": "☹️",
             "category": "vocabulary"
         },
@@ -371,21 +371,21 @@ window.lessonsData["it"]["1"] = {
         {
             "word": "Buongiorno",
             "emoji": "👋",
-            "opposite": "Arrivederci",
+            "antonyms": ["Arrivederci"],
             "oppositeEmoji": "🖐️",
             "category": "vocabulary"
         },
         {
             "word": "Sì",
             "emoji": "✅",
-            "opposite": "No",
+            "antonyms": ["No"],
             "oppositeEmoji": "❌",
             "category": "vocabulary"
         },
         {
             "word": "Grazie",
             "emoji": "🙏",
-            "opposite": "Prego",
+            "antonyms": ["Prego"],
             "oppositeEmoji": "💁‍♂️",
             "category": "vocabulary"
         },
@@ -399,14 +399,14 @@ window.lessonsData["it"]["1"] = {
         {
             "word": "Va bene",
             "emoji": "👍",
-            "opposite": "Ok",
+            "antonyms": ["Ok"],
             "oppositeEmoji": "👌",
             "category": "vocabulary"
         },
         {
             "word": "Scusi",
             "emoji": "🙇‍♂️",
-            "opposite": ":(",
+            "antonyms": [":("],
             "oppositeEmoji": "☹️",
             "category": "vocabulary"
         },
@@ -551,21 +551,21 @@ window.lessonsData["ru"]["1"] = {
         {
             "word": "Добрый день",
             "emoji": "👋",
-            "opposite": "До свидания",
+            "antonyms": ["До свидания"],
             "oppositeEmoji": "🖐️",
             "category": "vocabulary"
         },
         {
             "word": "Да",
             "emoji": "✅",
-            "opposite": "Нет",
+            "antonyms": ["Нет"],
             "oppositeEmoji": "❌",
             "category": "vocabulary"
         },
         {
             "word": "Спасибо",
             "emoji": "🙏",
-            "opposite": "Пожалуйста",
+            "antonyms": ["Пожалуйста"],
             "oppositeEmoji": "💁‍♂️",
             "category": "vocabulary"
         },
@@ -579,14 +579,14 @@ window.lessonsData["ru"]["1"] = {
         {
             "word": "Хорошо",
             "emoji": "👍",
-            "opposite": "Ок",
+            "antonyms": ["Ок"],
             "oppositeEmoji": "👌",
             "category": "vocabulary"
         },
         {
             "word": "Извините",
             "emoji": "🙇‍♂️",
-            "opposite": ":(",
+            "antonyms": [":("],
             "oppositeEmoji": "☹️",
             "category": "vocabulary"
         },
@@ -736,21 +736,21 @@ window.lessonsData["el"]["1"] = {
         {
             "word": "Καλημέρα",
             "emoji": "👋",
-            "opposite": "Αντίο",
+            "antonyms": ["Αντίο"],
             "oppositeEmoji": "🖐️",
             "category": "vocabulary"
         },
         {
             "word": "Ναι",
             "emoji": "✅",
-            "opposite": "Όχι",
+            "antonyms": ["Όχι"],
             "oppositeEmoji": "❌",
             "category": "vocabulary"
         },
         {
             "word": "Ευχαριστώ",
             "emoji": "🙏",
-            "opposite": "Παρακαλώ",
+            "antonyms": ["Παρακαλώ"],
             "oppositeEmoji": "💁‍♂️",
             "category": "vocabulary"
         },
@@ -764,14 +764,14 @@ window.lessonsData["el"]["1"] = {
         {
             "word": "Εντάξει",
             "emoji": "👍",
-            "opposite": "Οκ",
+            "antonyms": ["Οκ"],
             "oppositeEmoji": "👌",
             "category": "vocabulary"
         },
         {
             "word": "Συγγνώμη",
             "emoji": "🙇‍♂️",
-            "opposite": ":(",
+            "antonyms": [":("],
             "oppositeEmoji": "☹️",
             "category": "vocabulary"
         },

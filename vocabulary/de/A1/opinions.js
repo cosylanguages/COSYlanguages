@@ -379,7 +379,7 @@
                 "h": [
                         "Kannst du schwimmen?",
                         "Magst du Wasser?",
-                        "Wo schwimmst du — im Pool oder im Meer?",
+                        "Wo schwimmst du: im Pool oder im Meer?",
                         "Welchen Sport magst du?",
                         "Ist Sport wichtig für dich?"
                 ],
@@ -395,7 +395,7 @@
                                 "examples": [
                                         "Kannst du schwimmen?",
                                         "Magst du Wasser?",
-                                        "Wo schwimmst du — im Pool oder im Meer?",
+                                        "Wo schwimmst du: im Pool oder im Meer?",
                                         "Welchen Sport magst du?",
                                         "Ist Sport wichtig für dich?"
                                 ]

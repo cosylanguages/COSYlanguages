@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "en_proficiency_psychology_001",
-        "t": "The self is not something we discover — it is something we continuously invent.",
+        "t": "The self is not something we discover: it is something we continuously invent.",
         "tag": "Identity & philosophy",
         "h": [
             "Does this idea feel liberating or destabilising to you?",
@@ -15,18 +15,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "The self is not something we discover — it is something we continuously invent.",
+        "word": "The self is not something we discover: it is something we continuously invent.",
         "form": "other",
         "definitions": [
             {
-                "text": "The self is not something we discover — it is something we continuously invent.",
+                "text": "The self is not something we discover: it is something we continuously invent.",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_time_001",
-        "t": "Compassion that requires a story to be told simply is not really compassion — it is sentimentality.",
+        "t": "Compassion that requires a story to be told simply is not really compassion: it is sentimentality.",
         "tag": "Ethics",
         "h": [
             "Is there a difference between genuine compassion and emotional reaction to a compelling narrative?",
@@ -39,11 +39,11 @@
         "level": "proficiency",
         "theme": "time",
         "sub_theme": null,
-        "word": "Compassion that requires a story to be told simply is not really compassion — it is sentimentality.",
+        "word": "Compassion that requires a story to be told simply is not really compassion: it is sentimentality.",
         "form": "other",
         "definitions": [
             {
-                "text": "Compassion that requires a story to be told simply is not really compassion — it is sentimentality.",
+                "text": "Compassion that requires a story to be told simply is not really compassion: it is sentimentality.",
                 "examples": []
             }
         ]
@@ -74,24 +74,24 @@
     },
     {
         "id": "en_proficiency_language_001",
-        "t": "Language does not describe reality — it constructs it.",
+        "t": "Language does not describe reality: it constructs it.",
         "tag": "Linguistics & philosophy",
         "h": [
             "Has learning another language given you access to thoughts you couldn't quite form in your first?",
             "Is there something you feel that no language you know can name?",
             "Does the language you think in affect how you experience your emotions?",
             "Is it possible to have a concept without a word for it?",
-            "What does this mean for translation — can any idea be fully carried across languages?"
+            "What does this mean for translation: can any idea be fully carried across languages?"
         ],
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
         "sub_theme": null,
-        "word": "Language does not describe reality — it constructs it.",
+        "word": "Language does not describe reality: it constructs it.",
         "form": "other",
         "definitions": [
             {
-                "text": "Language does not describe reality — it constructs it.",
+                "text": "Language does not describe reality: it constructs it.",
                 "examples": []
             }
         ]
@@ -177,7 +177,7 @@
             "What would moral responsibility look like in a world without free will?",
             "Does neuroscience settle this question or just reframe it?",
             "Is the belief in free will itself a product of deterministic processes?",
-            "What does your intuition say — and do you trust it on this question?"
+            "What does your intuition say: and do you trust it on this question?"
         ],
         "lang": "en",
         "level": "proficiency",
@@ -194,7 +194,7 @@
     },
     {
         "id": "en_proficiency_technology_001",
-        "t": "The internet has not made us more informed — it has made us more confidently wrong.",
+        "t": "The internet has not made us more informed: it has made us more confidently wrong.",
         "tag": "Technology & epistemology",
         "h": [
             "Can you think of a belief you held strongly that turned out to be shaped by algorithmically curated information?",
@@ -207,11 +207,11 @@
         "level": "proficiency",
         "theme": "technology",
         "sub_theme": null,
-        "word": "The internet has not made us more informed — it has made us more confidently wrong.",
+        "word": "The internet has not made us more informed: it has made us more confidently wrong.",
         "form": "other",
         "definitions": [
             {
-                "text": "The internet has not made us more informed — it has made us more confidently wrong.",
+                "text": "The internet has not made us more informed: it has made us more confidently wrong.",
                 "examples": []
             }
         ]
@@ -223,7 +223,7 @@
         "h": [
             "Can you think of art that did both simultaneously?",
             "Is there a hierarchy of artistic value, or is that snobbery?",
-            "What do you actually reach for when you are in pain — difficulty or consolation?",
+            "What do you actually reach for when you are in pain: difficulty or consolation?",
             "Does disturbing art change behaviour or just feeling?",
             "Is the purpose of art to challenge, to reflect, or to transcend?"
         ],
@@ -290,12 +290,12 @@
     },
     {
         "id": "en_proficiency_psychology_004",
-        "t": "Memory is not a record of what happened — it is a story we keep rewriting.",
+        "t": "Memory is not a record of what happened: it is a story we keep rewriting.",
         "tag": "Psychology",
         "h": [
             "Has a memory of yours ever been contradicted by someone who was there?",
             "Do you think we edit our memories to protect a particular image of ourselves?",
-            "What does this mean for personal identity — are you the person you remember being?",
+            "What does this mean for personal identity: are you the person you remember being?",
             "Can a rewritten memory be more true than the original event?",
             "What is the most vivid memory you have, and how reliable do you think it actually is?"
         ],
@@ -303,18 +303,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "Memory is not a record of what happened — it is a story we keep rewriting.",
+        "word": "Memory is not a record of what happened: it is a story we keep rewriting.",
         "form": "other",
         "definitions": [
             {
-                "text": "Memory is not a record of what happened — it is a story we keep rewriting.",
+                "text": "Memory is not a record of what happened: it is a story we keep rewriting.",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_psychology_005",
-        "t": "There is no ethical consumption under late capitalism — and that is a reason to act, not to give up.",
+        "t": "There is no ethical consumption under late capitalism: and that is a reason to act, not to give up.",
         "tag": "Ethics",
         "h": [
             "Do you think individual consumer choices matter?",
@@ -327,18 +327,18 @@
         "level": "proficiency",
         "theme": "psychology",
         "sub_theme": null,
-        "word": "There is no ethical consumption under late capitalism — and that is a reason to act, not to give up.",
+        "word": "There is no ethical consumption under late capitalism: and that is a reason to act, not to give up.",
         "form": "other",
         "definitions": [
             {
-                "text": "There is no ethical consumption under late capitalism — and that is a reason to act, not to give up.",
+                "text": "There is no ethical consumption under late capitalism: and that is a reason to act, not to give up.",
                 "examples": []
             }
         ]
     },
     {
         "id": "en_proficiency_social_004",
-        "t": "The examined life is worth living — but examining it too closely might make it unliveable.",
+        "t": "The examined life is worth living: but examining it too closely might make it unliveable.",
         "tag": "Philosophy",
         "h": [
             "How much self-reflection is too much?",
@@ -351,11 +351,11 @@
         "level": "proficiency",
         "theme": "social",
         "sub_theme": null,
-        "word": "The examined life is worth living — but examining it too closely might make it unliveable.",
+        "word": "The examined life is worth living: but examining it too closely might make it unliveable.",
         "form": "other",
         "definitions": [
             {
-                "text": "The examined life is worth living — but examining it too closely might make it unliveable.",
+                "text": "The examined life is worth living: but examining it too closely might make it unliveable.",
                 "examples": []
             }
         ]

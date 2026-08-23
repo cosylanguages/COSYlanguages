@@ -1,0 +1,30 @@
+// TODO: verify level classification
+(function() {
+    const lang = "fr";
+    const data = [
+    {
+        "word": "ratatouille",
+        "level": "starter",
+        "theme": "food_drink",
+        "article": "la",
+        "form": "noun",
+        "transcription": "ʁa.ta.tuj",
+        "plural": "ratatouilles",
+        "definitions": [
+            {
+                "text": "Un plat provençal composé de légumes cuits.",
+                "examples": [
+                    "On met des aubergines dans la ratatouille.",
+                    "La ratatouille est un plat sain."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_food_drink_001"
+    }
+];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();

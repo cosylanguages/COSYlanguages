@@ -38,7 +38,7 @@
         "lang": "br", t: "Ur mare en deus cheñchet an doare ma welit ac'hanoc'h hoc'h-unan", h: ["Petra a zo degouezhet?","Hag-eñ e oach o c'hortoz e vefe kement a efedoù warnoc'h?","Hag-eñ eo bet cheñchet ho puhez a-daol-trumm pe tamm-ha-tamm?","Hag-eñ eo gwelloc'h ho 'c'hwi' goude ar mare-se?","Hag-eñ e rannfec'h kement-mañ gant un den nesañ?"] },
     {
         "id": "br_upper_intermediate_language_013",
-        "lang": "br", t: "Un dra bennak a oc'h lorc'h ennoch gantañ e-unan", h: ["Petra eo?","Perak e-unan — perak ket uhel?","Pegement a amzer eo bet ret?","Hag-eñ e oar an dud nesañ diwar-benn kement-mañ?","Petra a lavar kement-mañ diwar-benn ho talvoudoù?"] },
+        "lang": "br", t: "Un dra bennak a oc'h lorc'h ennoch gantañ e-unan", h: ["Petra eo?","Perak e-unan: perak ket uhel?","Pegement a amzer eo bet ret?","Hag-eñ e oar an dud nesañ diwar-benn kement-mañ?","Petra a lavar kement-mañ diwar-benn ho talvoudoù?"] },
     {
         "id": "br_upper_intermediate_language_014",
         "lang": "br", t: "Ho teorienn bersonel diwar-benn perak eo an dud evel m'int", h: ["An natur eo, an deskadurezh, pe un dra bennak all?","Hag-eñ e soñj deoc'h e c'hell an dud cheñch penn-da-benn?","Hag un den en deus ho souezhet penn-da-benn un deiz bennak?","Hag-eñ e soñjit e komprenit mat an dud?","Petra eo ar fazi brasañ a ra an dud an eil gant egile?"] },
@@ -56,7 +56,7 @@
         "lang": "br", t: "An hiraezh (nostalgia) hag ar pezh a ra deoc'h", h: ["Diwar-benn petra ho peus hiraezh?","Hag-eñ e ro nerzh deoc'h an hiraezh pe hag-eñ e ra droug deoc'h?","Hag-eñ e oa gwelloc'h an amzer-dremenet e gwirionez pe hag-eñ e oa disheñvel hepken?","Hag-eñ e vir an hiraezh ouzhoc'h da vont war-raok?","Peseurt c'hwezh, son pe blaz a laka un eñvor da zont en-dro?"] },
     {
         "id": "br_upper_intermediate_language_019",
-        "lang": "br", t: "Ar vrud — ur c'hastiz pe ur gopr?", h: ["Hag-eñ ho pije c'hoant da vezañ brudet?","Peseurt seurt brud ho pije?","Petra a gollfec'h?","Hag-eñ e soñj deoc'h eo eürus an darn vrasañ eus an dud vrudet?","Peseurt disheñvelder a zo etre ar vrud hag an doujañs?"] },
+        "lang": "br", t: "Ar vrud: ur c'hastiz pe ur gopr?", h: ["Hag-eñ ho pije c'hoant da vezañ brudet?","Peseurt seurt brud ho pije?","Petra a gollfec'h?","Hag-eñ e soñj deoc'h eo eürus an darn vrasañ eus an dud vrudet?","Peseurt disheñvelder a zo etre ar vrud hag an doujañs?"] },
     {
         "id": "br_upper_intermediate_language_020",
         "lang": "br", t: "Ar pezh a laka ac'hanoc'h da vezañ lakaet skuizh hag ar pezh a laka ac'hanoc'h da vezañ entanet", h: ["Diwar-benn peseurt danvez pe obererezh e c'hellfec'h komz e-pad eurvezhioù?","Petra eo an dra na c'hellit ket gouzañv tamm ebet?","Hag-eñ e lavar ar pezh a blij deoc'h un dra bennak diwar-benn ho micher pe ho puez?","Hag un dra bennak a lakae ac'hanoc'h da vezañ skuizh a-raok a zo deuet da vezañ dedennus bremañ?","Petra eo an dra a gavit entanet hag a souezh an dud all?"] },

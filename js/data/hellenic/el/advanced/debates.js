@@ -396,7 +396,7 @@
         "sideA": "Θεραπευτής",
         "sideB": "Κομμωτής",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "ideasA": [
             "Ιδέα για Α 1",
             "Ιδέα για Α 2"

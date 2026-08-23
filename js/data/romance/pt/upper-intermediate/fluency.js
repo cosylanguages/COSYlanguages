@@ -280,7 +280,7 @@
         "t": "Algo de que se orgulha silenciosamente",
         "h": [
             "O que é?",
-            "Porquê silenciosamente — porque não em voz alta?",
+            "Porquê silenciosamente: porque não em voz alta?",
             "Quanto tempo demorou?",
             "As pessoas próximas sabem disso?",
             "O que é que isso diz sobre os seus valores?"
@@ -415,7 +415,7 @@
         "id": "pt_upper_intermediate_social_018"
     },
     {
-        "t": "Fama — castigo ou recompensa?",
+        "t": "Fama: castigo ou recompensa?",
         "h": [
             "Gostaria de ser famoso?",
             "Que tipo de fama teria?",
@@ -423,7 +423,7 @@
             "Acha que a maioria das pessoas famosas é feliz?",
             "Qual é a diferença entre fama e respeito?"
         ],
-        "word": "Fama — castigo ou recompensa?",
+        "word": "Fama: castigo ou recompensa?",
         "lang": "pt",
         "level": "upper_intermediate",
         "theme": "social",
@@ -431,7 +431,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Fama — castigo ou recompensa?",
+                "text": "Fama: castigo ou recompensa?",
                 "examples": []
             }
         ],
@@ -506,7 +506,7 @@
         ],
         "id": "pt_upper_intermediate_social_022"
     }
-];
+    ];
     const lang = "pt";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

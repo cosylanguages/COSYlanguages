@@ -1,444 +1,484 @@
 (function() {
     const data = [
     {
-        "id": "tt_elementary_social_001",
-        "word": "Сез хәтерләгән яллар",
-        "lang": "tt",
-        "level": "elementary",
-        "theme": "booking_planning_a_trip",
-        "sub_theme": null,
-        "form": "phrase",
-        "definitions": [
-            {
-                "text": "Сез хәтерләгән яллар",
-                "examples": []
-            }
-        ],
+        "t": "Сез хәтерләгән яллар",
         "h": [
             "Сез кайда булдыгыз?",
             "Сез кем белән бардыгыз?",
             "Сез анда нәрсә эшләдегез?",
             "Һава торышы нинди иде?",
             "Иң яхшы мизгел нинди иде?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_002",
-        "word": "Сезнең яраткан рестораныгыз яисә кафегыз",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "restaurants_ordering",
-        "sub_theme": null,
+        "theme": "travel",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сезнең яраткан рестораныгыз яисә кафегыз",
-                "examples": []
+                "examples": [],
+                "text": "Сез хәтерләгән яллар"
             }
         ],
+        "id": "tt_elementary_travel_001",
+        "word": "Сез хәтерләгән яллар"
+    },
+    {
+        "t": "Сезнең яраткан рестораныгыз яисә кафегыз",
         "h": [
             "Ул кайда урнашкан?",
             "Анда нинди ризыклар бирелә?",
             "Ни өчен ул сезгә ошый?",
             "Сез анда кем белән барасыз?",
             "Соңгы тапкыр анда кайчан булдыгыз?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_003",
-        "word": "Сез эшкә яисә укырга ничек барасыз",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "transport_travel",
-        "sub_theme": null,
+        "theme": "food_drink",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сез эшкә яисә укырга ничек барасыз",
-                "examples": []
+                "examples": [],
+                "text": "Сезнең яраткан рестораныгыз яисә кафегыз"
             }
         ],
+        "id": "tt_elementary_food_drink_001",
+        "word": "Сезнең яраткан рестораныгыз яисә кафегыз"
+    },
+    {
+        "t": "Сез эшкә яисә укырга ничек барасыз",
         "h": [
-            "Сез ничек барасыз — автобус, машина яисә велосипед беләнме?",
+            "Сез ничек барасыз: автобус, машина яисә велосипед беләнме?",
             "Бу күпме вакыт ала?",
             "Сезгә юл ошыймы?",
             "Бу кыйбатмы?",
             "Юлда нәрсә эшлисез?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_004",
-        "word": "Ял итү өчен нәрсә эшлисез",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null,
+        "theme": "travel",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Ял итү өчен нәрсә эшлисез",
-                "examples": []
+                "examples": [],
+                "text": "Сез эшкә яисә укырга ничек барасыз"
             }
         ],
+        "id": "tt_elementary_travel_002",
+        "word": "Сез эшкә яисә укырга ничек барасыз"
+    },
+    {
+        "t": "Ял итү өчен нәрсә эшлисез",
         "h": [
             "Ял итәргә сезгә нәрсә ярдәм итә?",
             "Сез ялгыз булырга яратасызмы яисә кешеләр беләнме?",
             "Сез никадәр еш чынлап ял итәсез?",
             "Ял итү өчен сезнең яраткан урыныгыз бармы?",
             "Ял итү җиңелме яисә сезгә бу авырмы?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_005",
-        "word": "Күптән түгел караган фильм",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Күптән түгел караган фильм",
-                "examples": []
+                "examples": [],
+                "text": "Ял итү өчен нәрсә эшлисез"
             }
         ],
+        "id": "tt_elementary_describing_001",
+        "word": "Ял итү өчен нәрсә эшлисез"
+    },
+    {
+        "t": "Күптән түгел караган фильм",
         "h": [
             "Фильм ничек атала иде?",
             "Ул нәрсә турында иде?",
             "Сезгә ул ошадымы?",
             "Анда кем уйнады?",
             "Сез аны киңәш итәр идегезме?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_006",
-        "word": "Сезнең идеаль ял көннәрегез",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сезнең идеаль ял көннәрегез",
-                "examples": []
+                "examples": [],
+                "text": "Күптән түгел караган фильм"
             }
         ],
+        "id": "tt_elementary_describing_002",
+        "word": "Күптән түгел караган фильм"
+    },
+    {
+        "t": "Сезнең идеаль ял көннәрегез",
         "h": [
             "Җомга кичендә нәрсә эшләр идегез?",
             "Сез урамга чыгар идегезме яисә өйдә калыр идегезме?",
             "Сез берәр кайда сәяхәт итәр идегезме?",
             "Сез кем белән вакыт үткәрер идегез?",
             "Сез нәрсә ашар идегез?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_007",
-        "word": "Сез сокланган кеше",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "personality_character",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сез сокланган кеше",
-                "examples": []
+                "examples": [],
+                "text": "Сезнең идеаль ял көннәрегез"
             }
         ],
+        "id": "tt_elementary_describing_003",
+        "word": "Сезнең идеаль ял көннәрегез"
+    },
+    {
+        "t": "Сез сокланган кеше",
         "h": [
             "Бу кеше кем?",
             "Ул нәрсә белән шөгыльләнә?",
             "Ни өчен сез аңа сокланасыз?",
             "Сез аны очраттыгызмы?",
             "Сез аннан нәрсәгә өйрәнә аласыз?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_008",
-        "word": "Сезнең хыялдагы сәяхәт урыныгыз",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "booking_planning_a_trip",
-        "sub_theme": null,
+        "theme": "people",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сезнең хыялдагы сәяхәт урыныгыз",
-                "examples": []
+                "examples": [],
+                "text": "Сез сокланган кеше"
             }
         ],
+        "id": "tt_elementary_people_001",
+        "word": "Сез сокланган кеше"
+    },
+    {
+        "t": "Сезнең хыялдагы сәяхәт урыныгыз",
         "h": [
             "Сез кайда барыр идегез?",
             "Ни өчен нәкъ менә бу урын?",
             "Сез кем белән барыр идегез?",
             "Сез анда нәрсә эшләр идегез?",
             "Сез анда күпме калыр идегез?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_009",
-        "word": "Сезнең телефон белән мөнәсәбәтегез",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "internet_social_media",
-        "sub_theme": null,
+        "theme": "travel",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сезнең телефон белән мөнәсәбәтегез",
-                "examples": []
+                "examples": [],
+                "text": "Сезнең хыялдагы сәяхәт урыныгыз"
             }
         ],
+        "id": "tt_elementary_travel_003",
+        "word": "Сезнең хыялдагы сәяхәт урыныгыз"
+    },
+    {
+        "t": "Сезнең телефон белән мөнәсәбәтегез",
         "h": [
             "Көненә ничә сәгать телефон кулланасыз?",
             "Сез аны күбрәк нәрсә өчен кулланасыз?",
             "Сез ансыз бер атна яши алыр идегезме?",
             "Ул сезгә ярдәм итәме яисә игътибарыгызны читкә юнәлтәме?",
             "Сез иртән торгач та аны тикшерәсезме?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_010",
-        "word": "Сезнең белән булган кызыклы хәл",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "social_emotions",
-        "sub_theme": null,
+        "theme": "technology",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сезнең белән булган кызыклы хәл",
-                "examples": []
+                "examples": [],
+                "text": "Сезнең телефон белән мөнәсәбәтегез"
             }
         ],
+        "id": "tt_elementary_technology_001",
+        "word": "Сезнең телефон белән мөнәсәбәтегез"
+    },
+    {
+        "t": "Сезнең белән булган кызыклы хәл",
         "h": [
             "Бу кайчан булды?",
             "Сез кайда идегез?",
             "Сез кем белән идегез?",
             "Нәкъ нәрсә булды?",
             "Сез хәзер дә моңа көләсезме?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_011",
-        "word": "Сезнең хоббиларыгыз",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "interests_hobbies",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сезнең хоббиларыгыз",
-                "examples": []
+                "examples": [],
+                "text": "Сезнең белән булган кызыклы хәл"
             }
         ],
+        "id": "tt_elementary_describing_004",
+        "word": "Сезнең белән булган кызыклы хәл"
+    },
+    {
+        "t": "Сезнең хоббиларыгыз",
         "h": [
             "Буш вакытыгызда нәрсә эшлисез?",
             "Сез бу хобби белән кайчан шөгыльләнә башладыгыз?",
             "Сез аны ялгыз эшлисезме яисә башкалар беләнме?",
             "Бу кыйбатмы?",
             "Сез анда нәрсәне яратасыз?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_012",
-        "word": "Сез яшәгән урындагы һава торышы",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "weather_climate",
-        "sub_theme": null,
+        "theme": "social",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сез яшәгән урындагы һава торышы",
-                "examples": []
+                "examples": [],
+                "text": "Сезнең хоббиларыгыз"
             }
         ],
+        "id": "tt_elementary_social_001",
+        "word": "Сезнең хоббиларыгыз"
+    },
+    {
+        "t": "Сез яшәгән урындагы һава торышы",
         "h": [
             "Һава торышы гадәттә нинди?",
             "Сез нинди һава торышын яратасыз?",
             "Һава торышы сезнең кәефегезгә йогынты ясыймы?",
             "Сез хәтерләгән иң начар һава торышы нинди иде?",
             "Яңгырлы көннәрдә нәрсә эшлисез?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_013",
-        "word": "Сез хәтерләгән туган көн",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "customs_traditions",
-        "sub_theme": null,
+        "theme": "nature",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сез хәтерләгән туган көн",
-                "examples": []
+                "examples": [],
+                "text": "Сез яшәгән урындагы һава торышы"
             }
         ],
+        "id": "tt_elementary_nature_001",
+        "word": "Сез яшәгән урындагы һава торышы"
+    },
+    {
+        "t": "Сез хәтерләгән туган көн",
         "h": [
             "Бу кемнең туган көне иде?",
             "Туган көн кайда үтте?",
             "Сез нәрсә эшләдегез?",
             "Сюрприз булдымы?",
             "Аны нәрсә үзенчәлекле итте?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_014",
-        "word": "Яшәгән урыныгызда сез яраткан әйберләр",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "neighbourhood_local",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Яшәгән урыныгызда сез яраткан әйберләр",
-                "examples": []
+                "examples": [],
+                "text": "Сез хәтерләгән туган көн"
             }
         ],
+        "id": "tt_elementary_describing_005",
+        "word": "Сез хәтерләгән туган көн"
+    },
+    {
+        "t": "Яшәгән урыныгызда сез яраткан әйберләр",
         "h": [
             "Шәһәрегездә сезнең иң яраткан әйберегез нинди?",
             "Бу гаиләләр өчен яхшы урынмы?",
             "Анда нәрсә эшләргә була?",
             "Сез нәрсә үзгәртер идегез?",
             "Сез аны дустыгызга киңәш итәр идегезме?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_015",
-        "word": "Гадәти якшәмбе",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "daily_work_routines",
-        "sub_theme": null,
+        "theme": "places",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Гадәти якшәмбе",
-                "examples": []
+                "examples": [],
+                "text": "Яшәгән урыныгызда сез яраткан әйберләр"
             }
         ],
+        "id": "tt_elementary_places_001",
+        "word": "Яшәгән урыныгызда сез яраткан әйберләр"
+    },
+    {
+        "t": "Гадәти якшәмбе",
         "h": [
             "Якшәмбе көнне сәгать ничәдә уянасыз?",
             "Сезнең көндәлек тәртибегез бармы?",
             "Сез зур аш пешерәсезме?",
             "Сез ял итәсезме яисә эш белән мәшгульсезме?",
             "Якшәмбе сезнең яраткан көнегезме?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_016",
-        "word": "Илегезнең ризыклары",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "customs_traditions",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Илегезнең ризыклары",
-                "examples": []
+                "examples": [],
+                "text": "Гадәти якшәмбе"
             }
         ],
+        "id": "tt_elementary_describing_006",
+        "word": "Гадәти якшәмбе"
+    },
+    {
+        "t": "Илегезнең ризыклары",
         "h": [
             "Милли ризык нинди?",
             "Сез аны өйдә пешерәсезме?",
             "Кешеләр аны кайчан ашый?",
             "Аны пешерү авырмы?",
             "Сез аны чит ил кешесенә киңәш итәр идегезме?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_017",
-        "word": "Күптән түгел сатып алынган әйбер",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "shopping_consumerism",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Күптән түгел сатып алынган әйбер",
-                "examples": []
+                "examples": [],
+                "text": "Илегезнең ризыклары"
             }
         ],
+        "id": "tt_elementary_describing_007",
+        "word": "Илегезнең ризыклары"
+    },
+    {
+        "t": "Күптән түгел сатып алынган әйбер",
         "h": [
             "Сез нәрсә сатып алдыгыз?",
             "Аны кайда сатып алдыгыз?",
             "Бу кыйбат идеме?",
             "Ул сезгә кирәк идеме яисә сез аны теләдегез генәме?",
             "Сез сатып алуга канәгатьме?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_018",
-        "word": "Сезнең яраткан кушымтагыз",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "internet_social_media",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Сезнең яраткан кушымтагыз",
-                "examples": []
+                "examples": [],
+                "text": "Күптән түгел сатып алынган әйбер"
             }
         ],
+        "id": "tt_elementary_describing_008",
+        "word": "Күптән түгел сатып алынган әйбер"
+    },
+    {
+        "t": "Сезнең яраткан кушымтагыз",
         "h": [
             "Сез нинди кушымтаны күбрәк кулланасыз?",
             "Сез аны нәрсә өчен кулланасыз?",
             "Сез аны кайчан куллана башладыгыз?",
             "Сез аны киңәш итәр идегезме?",
             "Сез ансыз яши алыр идегезме?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_019",
-        "word": "Балачак истәлеге",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "social_emotions",
-        "sub_theme": null,
+        "theme": "technology",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Балачак истәлеге",
-                "examples": []
+                "examples": [],
+                "text": "Сезнең яраткан кушымтагыз"
             }
         ],
+        "id": "tt_elementary_technology_002",
+        "word": "Сезнең яраткан кушымтагыз"
+    },
+    {
+        "t": "Балачак истәлеге",
         "h": [
             "Сезгә ничә яшь иде?",
             "Сез кайда идегез?",
             "Сез кем белән идегез?",
             "Нәрсә булды?",
             "Ни өчен сез аны хәтерлисез?"
-        ]
-    },
-    {
-        "id": "tt_elementary_social_020",
-        "word": "Кичә нәрсә ашадыгыз",
-        "lang": "tt",
+        ],
         "level": "elementary",
-        "theme": "diet_nutrition",
-        "sub_theme": null,
+        "theme": "describing",
+        "lang": "tt",
         "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
         "definitions": [
             {
-                "text": "Кичә нәрсә ашадыгыз",
-                "examples": []
+                "examples": [],
+                "text": "Балачак истәлеге"
             }
         ],
+        "id": "tt_elementary_describing_009",
+        "word": "Балачак истәлеге"
+    },
+    {
+        "t": "Кичә нәрсә ашадыгыз",
         "h": [
             "Иртәнге ашка нәрсә ашадыгыз?",
             "Төшке ашка нәрсә ашадыгыз?",
             "Сез үзегез пешердегезме яисә читтә ашадыгызмы?",
             "Бу ашау ягыннан гадәти көн идеме?",
             "Сез ашаган иң яхшы нәрсә нинди иде?"
-        ]
+        ],
+        "level": "elementary",
+        "theme": "food_drink",
+        "lang": "tt",
+        "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
+        "definitions": [
+            {
+                "examples": [],
+                "text": "Кичә нәрсә ашадыгыз"
+            }
+        ],
+        "id": "tt_elementary_food_drink_002",
+        "word": "Кичә нәрсә ашадыгыз"
     }
 ];
     const lang = "tt";

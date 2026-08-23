@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "id": "fr_starter_language_008",
@@ -16,7 +17,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/in.png",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -39,7 +39,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/on.png",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -794,7 +793,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/in front of.png",
         "emoji": "🚪",
         "transcription": "dəvɑ̃"
     },
@@ -815,7 +813,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/behind.png",
         "emoji": "🚪",
         "transcription": "dɛʁjɛʁ"
     },
@@ -840,7 +837,6 @@
         "transcription": "ɑ̃"
     }
 ];
-    const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

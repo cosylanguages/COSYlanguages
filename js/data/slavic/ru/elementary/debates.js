@@ -5,8 +5,7 @@
         "word": "Высокая зарплата или короткий путь до работы: что важнее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -14,6 +13,7 @@
                 "examples": []
             }
         ],
+        "topic": "Высокая зарплата или короткий путь до работы: что важнее?",
         "sideA": "Высокая зарплата",
         "sideB": "Короткий путь",
         "ideasA": [
@@ -23,15 +23,16 @@
         "ideasB": [
             "Снизить стресс от поездок",
             "Больше времени на личную жизнь"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_002",
         "word": "Частая смена работы или преданность одной компании: что лучше для карьеры?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -39,6 +40,7 @@
                 "examples": []
             }
         ],
+        "topic": "Частая смена работы или преданность одной компании: что лучше для карьеры?",
         "sideA": "Частая смена",
         "sideB": "Одна компания",
         "ideasA": [
@@ -48,15 +50,16 @@
         "ideasB": [
             "Построить долгосрочное доверие",
             "Возможности внутреннего роста"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_003",
         "word": "Работа сверхурочно или уход вовремя каждый день: какая привычка лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -64,6 +67,7 @@
                 "examples": []
             }
         ],
+        "topic": "Работа сверхурочно или уход вовремя каждый день: какая привычка лучше?",
         "sideA": "Сверхурочно",
         "sideB": "Вовремя",
         "ideasA": [
@@ -73,15 +77,16 @@
         "ideasB": [
             "Предотвратить выгорание",
             "Здоровый баланс работы и жизни"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_004",
         "word": "Строгий босс или мягкий босс: с кем лучше работать?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -89,6 +94,7 @@
                 "examples": []
             }
         ],
+        "topic": "Строгий босс или мягкий босс: с кем лучше работать?",
         "sideA": "Строгий",
         "sideB": "Мягкий",
         "ideasA": [
@@ -98,15 +104,16 @@
         "ideasB": [
             "Стимулирует творческое мышление",
             "Меньше давления в коллективе"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_005",
         "word": "Работа в большой компании или в маленькой: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -114,6 +121,7 @@
                 "examples": []
             }
         ],
+        "topic": "Работа в большой компании или в маленькой: что лучше?",
         "sideA": "Большая",
         "sideB": "Маленькая",
         "ideasA": [
@@ -123,15 +131,16 @@
         "ideasB": [
             "Дружеская атмосфера",
             "Разнообразные обязанности"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_006",
         "word": "Получить повышение или получить больше свободного времени: что бы вы выбрали?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -139,6 +148,7 @@
                 "examples": []
             }
         ],
+        "topic": "Получить повышение или получить больше свободного времени: что бы вы выбрали?",
         "sideA": "Повышение",
         "sideB": "Свободное время",
         "ideasA": [
@@ -148,15 +158,16 @@
         "ideasB": [
             "Больше времени на семью",
             "Развивать личные хобби"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_001",
         "word": "Покупка дома или аренда на всю жизнь: какое финансовое решение умнее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -164,6 +175,7 @@
                 "examples": []
             }
         ],
+        "topic": "Покупка дома или аренда на всю жизнь: какое финансовое решение умнее?",
         "sideA": "Покупка",
         "sideB": "Аренда",
         "ideasA": [
@@ -173,7 +185,9 @@
         "ideasB": [
             "Легче переехать в другой район",
             "Нет забот о ремонте здания"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_001",
@@ -181,7 +195,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -189,6 +202,7 @@
                 "examples": []
             }
         ],
+        "topic": "Жизнь в центре города или в пригороде: что лучше?",
         "sideA": "Центр города",
         "sideB": "Пригород",
         "ideasA": [
@@ -198,15 +212,16 @@
         "ideasB": [
             "Тихая и безопасная среда",
             "Больше места для семьи"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_002",
         "word": "Тратить деньги на впечатления или на вещи: что делает вас счастливее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -214,6 +229,7 @@
                 "examples": []
             }
         ],
+        "topic": "Тратить деньги на впечатления или на вещи: что делает вас счастливее?",
         "sideA": "Впечатления",
         "sideB": "Вещи",
         "ideasA": [
@@ -223,7 +239,9 @@
         "ideasB": [
             "Практическая польза каждый день",
             "Долговечная ценность вещи"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_001",
@@ -231,7 +249,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -239,6 +256,7 @@
                 "examples": []
             }
         ],
+        "topic": "Готовить каждый день или готовить на неделю вперед: что практичнее?",
         "sideA": "Каждый день",
         "sideB": "На неделю",
         "ideasA": [
@@ -248,15 +266,16 @@
         "ideasB": [
             "Значительная экономия времени",
             "Лучшая организация на кухне"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_003",
         "word": "Нанять клинера или делать уборку самому: какой выбор лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -264,6 +283,7 @@
                 "examples": []
             }
         ],
+        "topic": "Нанять клинера или делать уборку самому: какой выбор лучше?",
         "sideA": "Клинер",
         "sideB": "Самому",
         "ideasA": [
@@ -273,7 +293,9 @@
         "ideasB": [
             "Экономия семейного бюджета",
             "Полный личный контроль"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_001",
@@ -281,7 +303,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -289,6 +310,7 @@
                 "examples": []
             }
         ],
+        "topic": "Жить с партнером или жить одному: что лучше для взрослых людей?",
         "sideA": "С партнером",
         "sideB": "Одному",
         "ideasA": [
@@ -298,7 +320,9 @@
         "ideasB": [
             "Полная независимость",
             "Тишина и покой дома"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_002",
@@ -306,7 +330,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -314,6 +337,7 @@
                 "examples": []
             }
         ],
+        "topic": "Рожать детей рано или позже в жизни: что лучше?",
         "sideA": "Рано",
         "sideB": "Позже",
         "ideasA": [
@@ -323,7 +347,9 @@
         "ideasB": [
             "Финансовая стабильность",
             "Больше жизненного опыта"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_003",
@@ -331,7 +357,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -339,6 +364,7 @@
                 "examples": []
             }
         ],
+        "topic": "Близкие отношения с семьей или независимость от нее: что важнее во взрослом возрасте?",
         "sideA": "Близкие отношения",
         "sideB": "Независимость",
         "ideasA": [
@@ -348,7 +374,9 @@
         "ideasB": [
             "Личная свобода",
             "Самостоятельные решения"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_004",
@@ -356,7 +384,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -364,6 +391,7 @@
                 "examples": []
             }
         ],
+        "topic": "Знакомство с новыми людьми или сохранение старых друзей: что ценнее?",
         "sideA": "Новые люди",
         "sideB": "Старые друзья",
         "ideasA": [
@@ -373,15 +401,16 @@
         "ideasB": [
             "Общая история жизни",
             "Высокий уровень доверия"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_007",
         "word": "Общение с коллегами после работы или поход прямо домой: что лучше для рабочих отношений?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -389,6 +418,7 @@
                 "examples": []
             }
         ],
+        "topic": "Общение с коллегами после работы или поход прямо домой: что лучше для рабочих отношений?",
         "sideA": "Общение",
         "sideB": "Домой",
         "ideasA": [
@@ -398,15 +428,16 @@
         "ideasB": [
             "Восстановить силы",
             "Время с семьей"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_001",
         "word": "Ходить в спортзал или тренироваться на улице: что лучше для взрослых?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -414,6 +445,7 @@
                 "examples": []
             }
         ],
+        "topic": "Ходить в спортзал или тренироваться на улице: что лучше для взрослых?",
         "sideA": "Спортзал",
         "sideB": "Улица",
         "ideasA": [
@@ -423,15 +455,16 @@
         "ideasB": [
             "Свежий воздух",
             "Нет платы за абонемент"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_002",
         "word": "Строгая диета или умеренность во всем: что здоровее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -439,6 +472,7 @@
                 "examples": []
             }
         ],
+        "topic": "Строгая диета или умеренность во всем: что здоровее?",
         "sideA": "Строгая диета",
         "sideB": "Умеренность",
         "ideasA": [
@@ -448,15 +482,16 @@
         "ideasB": [
             "Долгий устойчивый баланс",
             "Наслаждаться разной едой"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_003",
         "word": "Идти к врачу сразу или ждать, пока само пройдет: что мудрее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -464,6 +499,7 @@
                 "examples": []
             }
         ],
+        "topic": "Идти к врачу сразу или ждать, пока само пройдет: что мудрее?",
         "sideA": "Сразу",
         "sideB": "Ждать",
         "ideasA": [
@@ -473,15 +509,16 @@
         "ideasB": [
             "Дать организму восстановиться",
             "Избежать лишних лекарств"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_004",
         "word": "Спать по восемь часов или шесть, но заниматься спортом: что лучше для энергии?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -489,6 +526,7 @@
                 "examples": []
             }
         ],
+        "topic": "Спать по восемь часов или шесть, но заниматься спортом: что лучше для энергии?",
         "sideA": "8 часов",
         "sideB": "6 часов + спорт",
         "ideasA": [
@@ -498,15 +536,16 @@
         "ideasB": [
             "Хорошая физическая форма",
             "Активный тонус тела"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_005",
         "word": "Снимать стресс спортом или релаксацией: что работает лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -514,6 +553,7 @@
                 "examples": []
             }
         ],
+        "topic": "Снимать стресс спортом или релаксацией: что работает лучше?",
         "sideA": "Спорт",
         "sideB": "Релаксация",
         "ideasA": [
@@ -523,7 +563,9 @@
         "ideasB": [
             "Душевный покой",
             "Успокоить ум"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_technology_001",
@@ -531,7 +573,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -539,6 +580,7 @@
                 "examples": []
             }
         ],
+        "topic": "Смартфоны или живое общение: чем мы пользуемся больше, и проблема ли это?",
         "sideA": "Смартфоны",
         "sideB": "Общение",
         "ideasA": [
@@ -548,7 +590,9 @@
         "ideasB": [
             "Настоящие эмоции",
             "Лучшая концентрация"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_technology_002",
@@ -556,7 +600,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -564,6 +607,7 @@
                 "examples": []
             }
         ],
+        "topic": "Онлайн-банкинг или поход в банк: что лучше?",
         "sideA": "Онлайн",
         "sideB": "Поход в банк",
         "ideasA": [
@@ -573,15 +617,16 @@
         "ideasB": [
             "Личный совет эксперта",
             "Физическая безопасность"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_008",
         "word": "Работа с бумагой или работа в цифровом виде: что эффективнее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -589,6 +634,7 @@
                 "examples": []
             }
         ],
+        "topic": "Работа с бумагой или работа в цифровом виде: что эффективнее?",
         "sideA": "Бумага",
         "sideB": "Цифра",
         "ideasA": [
@@ -598,15 +644,16 @@
         "ideasB": [
             "Удобное хранение",
             "Быстрый поиск информации"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_009",
         "word": "Соцсети для нетворкинга или личные встречи: что полезнее для карьеры?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -614,6 +661,7 @@
                 "examples": []
             }
         ],
+        "topic": "Соцсети для нетворкинга или личные встречи: что полезнее для карьеры?",
         "sideA": "Соцсети",
         "sideB": "Личные встречи",
         "ideasA": [
@@ -623,7 +671,9 @@
         "ideasB": [
             "Больше доверия",
             "Личное впечатление"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_002",
@@ -631,7 +681,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -639,6 +688,7 @@
                 "examples": []
             }
         ],
+        "topic": "Пакетный тур или самостоятельное путешествие: что лучше для взрослых?",
         "sideA": "Пакетный тур",
         "sideB": "Самостоятельно",
         "ideasA": [
@@ -648,7 +698,9 @@
         "ideasB": [
             "Настоящее приключение",
             "Уникальный опыт"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_003",
@@ -656,7 +708,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -664,6 +715,7 @@
                 "examples": []
             }
         ],
+        "topic": "Поездка в город или отдых на пляже: как лучше расслабиться?",
         "sideA": "Город",
         "sideB": "Пляж",
         "ideasA": [
@@ -673,7 +725,9 @@
         "ideasB": [
             "Морской бриз",
             "Полное расслабление"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_004",
@@ -681,7 +735,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -689,6 +742,7 @@
                 "examples": []
             }
         ],
+        "topic": "Один длинный отпуск в году или несколько коротких: что лучше?",
         "sideA": "Один длинный",
         "sideB": "Несколько коротких",
         "ideasA": [
@@ -698,7 +752,9 @@
         "ideasB": [
             "Регулярные перерывы",
             "Больше новых мест"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_005",
@@ -706,7 +762,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -714,6 +769,7 @@
                 "examples": []
             }
         ],
+        "topic": "Путешествие парой или в одиночку: что приносит больше удовольствия?",
         "sideA": "Парой",
         "sideB": "В одиночку",
         "ideasA": [
@@ -723,7 +779,9 @@
         "ideasB": [
             "Полная свобода выбора",
             "Больше общения с местными"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_005",
@@ -731,7 +789,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -739,6 +796,7 @@
                 "examples": []
             }
         ],
+        "topic": "Рассказывать партнеру о каждой мелочи или держать все в себе: что здоровее?",
         "sideA": "Все рассказывать",
         "sideB": "Держать в себе",
         "ideasA": [
@@ -748,15 +806,16 @@
         "ideasB": [
             "Избежать лишних драм",
             "Внутренний покой"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_004",
         "word": "Проверять телефон первым делом утром или после завтрака: какая привычка лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -764,6 +823,7 @@
                 "examples": []
             }
         ],
+        "topic": "Проверять телефон первым делом утром или после завтрака: какая привычка лучше?",
         "sideA": "Сразу",
         "sideB": "После завтрака",
         "ideasA": [
@@ -773,7 +833,9 @@
         "ideasB": [
             "Спокойное начало дня",
             "Осознанный завтрак"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_006",
@@ -781,7 +843,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -789,6 +850,7 @@
                 "examples": []
             }
         ],
+        "topic": "Знать имена соседей или не знать их: что сейчас считается нормой для взрослого?",
         "sideA": "Знать имена",
         "sideB": "Не знать",
         "ideasA": [
@@ -798,15 +860,16 @@
         "ideasB": [
             "Полная приватность",
             "Избежать сплетен"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_005",
         "word": "Поход за продуктами со списком или без него: у кого жизнь лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -814,6 +877,7 @@
                 "examples": []
             }
         ],
+        "topic": "Поход за продуктами со списком или без него: у кого жизнь лучше?",
         "sideA": "Со списком",
         "sideB": "Без списка",
         "ideasA": [
@@ -823,15 +887,16 @@
         "ideasB": [
             "Спонтанный выбор",
             "Творчество на кухне"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_010",
         "word": "Сказать боссу, что заболел, или идти на работу больным: какой выбор смелее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -839,6 +904,7 @@
                 "examples": []
             }
         ],
+        "topic": "Сказать боссу, что заболел, или идти на работу больным: какой выбор смелее?",
         "sideA": "Сказать боссу",
         "sideB": "Идти больным",
         "ideasA": [
@@ -848,15 +914,16 @@
         "ideasB": [
             "Показать преданность делу",
             "Сдать работу в срок"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_011",
         "word": "Полный рабочий день или частичная занятость: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -864,6 +931,7 @@
                 "examples": []
             }
         ],
+        "topic": "Полный рабочий день или частичная занятость: что лучше?",
         "sideA": "Полный день",
         "sideB": "Частичная",
         "ideasA": [
@@ -873,15 +941,16 @@
         "ideasB": [
             "Баланс жизни",
             "Время на учебу"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_012",
         "word": "Работа в офисе или работа из дома: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -889,6 +958,7 @@
                 "examples": []
             }
         ],
+        "topic": "Работа в офисе или работа из дома: что лучше?",
         "sideA": "Офис",
         "sideB": "Дом",
         "ideasA": [
@@ -898,15 +968,16 @@
         "ideasB": [
             "Нет дороги до работы",
             "Гибкий график"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_013",
         "word": "Работа, которую вы любите, или работа, которая хорошо оплачивается: что важнее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -914,6 +985,7 @@
                 "examples": []
             }
         ],
+        "topic": "Работа, которую вы любите, или работа, которая хорошо оплачивается: что важнее?",
         "sideA": "Любимая работа",
         "sideB": "Хорошая оплата",
         "ideasA": [
@@ -923,15 +995,16 @@
         "ideasB": [
             "Финансовая свобода",
             "Высокое качество жизни"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_014",
         "word": "Работа с другими людьми или работа в одиночку: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -939,6 +1012,7 @@
                 "examples": []
             }
         ],
+        "topic": "Работа с другими людьми или работа в одиночку: что лучше?",
         "sideA": "С людьми",
         "sideB": "В одиночку",
         "ideasA": [
@@ -948,15 +1022,16 @@
         "ideasB": [
             "Тихая концентрация",
             "Независимый стиль"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_015",
         "word": "Короткий путь на работу или длинный: что более приемлемо?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -964,6 +1039,7 @@
                 "examples": []
             }
         ],
+        "topic": "Короткий путь на работу или длинный: что более приемлемо?",
         "sideA": "Короткий",
         "sideB": "Длинный",
         "ideasA": [
@@ -973,7 +1049,9 @@
         "ideasB": [
             "Дешевле жилье",
             "Время на подкасты"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_007",
@@ -981,7 +1059,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -989,6 +1066,7 @@
                 "examples": []
             }
         ],
+        "topic": "Жить одному или жить с партнером: что лучше?",
         "sideA": "Одному",
         "sideB": "С партнером",
         "ideasA": [
@@ -998,7 +1076,9 @@
         "ideasB": [
             "Общий быт",
             "Поддержка в проблемах"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_006",
@@ -1006,7 +1086,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1014,6 +1093,7 @@
                 "examples": []
             }
         ],
+        "topic": "Большой город или маленький городок: где лучше жить взрослому человеку?",
         "sideA": "Большой город",
         "sideB": "Маленький городок",
         "ideasA": [
@@ -1023,7 +1103,9 @@
         "ideasB": [
             "Ниже расходы",
             "Чистый воздух"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_002",
@@ -1031,7 +1113,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1039,6 +1120,7 @@
                 "examples": []
             }
         ],
+        "topic": "Готовить дома или есть вне дома: что лучше для повседневной жизни?",
         "sideA": "Дома",
         "sideB": "Вне дома",
         "ideasA": [
@@ -1048,7 +1130,9 @@
         "ideasB": [
             "Не надо убирать кухню",
             "Профессиональная кухня"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_008",
@@ -1056,7 +1140,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1064,6 +1147,7 @@
                 "examples": []
             }
         ],
+        "topic": "Иметь детей или не иметь: какая жизнь лучше?",
         "sideA": "С детьми",
         "sideB": "Без детей",
         "ideasA": [
@@ -1073,15 +1157,16 @@
         "ideasB": [
             "Свобода путешествий",
             "Фокус на карьере"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_006",
         "word": "Снимать квартиру или покупать дом: что лучше для молодых людей?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1089,6 +1174,7 @@
                 "examples": []
             }
         ],
+        "topic": "Снимать квартиру или покупать дом: что лучше для молодых людей?",
         "sideA": "Снимать",
         "sideB": "Покупать",
         "ideasA": [
@@ -1098,15 +1184,16 @@
         "ideasB": [
             "Свой капитал",
             "Место для сада"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_006",
         "word": "Физкультура каждый день или отдых: что лучше для здоровья?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -1114,6 +1201,7 @@
                 "examples": []
             }
         ],
+        "topic": "Физкультура каждый день или отдых: что лучше для здоровья?",
         "sideA": "Упражнения",
         "sideB": "Отдых",
         "ideasA": [
@@ -1123,15 +1211,16 @@
         "ideasB": [
             "Восстановление мышц",
             "Ментальное здоровье"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_007",
         "word": "Идти к врачу или ждать: что лучше, когда вы чувствуете себя больным?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -1139,6 +1228,7 @@
                 "examples": []
             }
         ],
+        "topic": "Идти к врачу или ждать: что лучше, когда вы чувствуете себя больным?",
         "sideA": "Врач",
         "sideB": "Ждать",
         "ideasA": [
@@ -1148,15 +1238,16 @@
         "ideasB": [
             "Избежать очередей",
             "Естественное исцеление"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_008",
         "word": "Спать по восемь часов или меньше: что более реально для взрослых?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -1164,6 +1255,7 @@
                 "examples": []
             }
         ],
+        "topic": "Спать по восемь часов или меньше: что более реально для взрослых?",
         "sideA": "8 часов",
         "sideB": "Меньше",
         "ideasA": [
@@ -1173,15 +1265,16 @@
         "ideasB": [
             "Реальность работы",
             "Время на хобби"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_009",
         "word": "Ходить на работу пешком или ездить на машине: что лучше для здоровья?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -1189,6 +1282,7 @@
                 "examples": []
             }
         ],
+        "topic": "Ходить на работу пешком или ездить на машине: что лучше для здоровья?",
         "sideA": "Пешком",
         "sideB": "Машина",
         "ideasA": [
@@ -1198,15 +1292,16 @@
         "ideasB": [
             "Защита от погоды",
             "Экономия сил"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_007",
         "word": "Онлайн-покупки или покупки в магазине: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1214,6 +1309,7 @@
                 "examples": []
             }
         ],
+        "topic": "Онлайн-покупки или покупки в магазине: что лучше?",
         "sideA": "Онлайн",
         "sideB": "Магазин",
         "ideasA": [
@@ -1223,15 +1319,16 @@
         "ideasB": [
             "Примерить вещи",
             "Поддержать местный бизнес"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_016",
         "word": "Копить на будущее или наслаждаться деньгами сейчас: что мудрее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1239,6 +1336,7 @@
                 "examples": []
             }
         ],
+        "topic": "Копить на будущее или наслаждаться деньгами сейчас: что мудрее?",
         "sideA": "Копить",
         "sideB": "Наслаждаться сейчас",
         "ideasA": [
@@ -1248,15 +1346,16 @@
         "ideasB": [
             "Счастье сегодня",
             "Полнота жизни"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_008",
         "word": "Дорогие вещи или дешевые: что выгоднее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1264,6 +1363,7 @@
                 "examples": []
             }
         ],
+        "topic": "Дорогие вещи или дешевые: что выгоднее?",
         "sideA": "Дорогие",
         "sideB": "Дешевые",
         "ideasA": [
@@ -1273,15 +1373,16 @@
         "ideasB": [
             "Низкий риск",
             "Экономия денег"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_009",
         "word": "Покупка нового или покупка подержанного: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1289,6 +1390,7 @@
                 "examples": []
             }
         ],
+        "topic": "Покупка нового или покупка подержанного: что лучше?",
         "sideA": "Новое",
         "sideB": "Подержанное",
         "ideasA": [
@@ -1298,7 +1400,9 @@
         "ideasB": [
             "Экологичный выбор",
             "Низкие цены"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_001",
@@ -1306,7 +1410,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1314,6 +1417,7 @@
                 "examples": []
             }
         ],
+        "topic": "Смотреть телевизор дома или гулять: какой вечер лучше?",
         "sideA": "ТВ",
         "sideB": "Гулять",
         "ideasA": [
@@ -1323,7 +1427,9 @@
         "ideasB": [
             "Социальный контакт",
             "Атмосфера"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_007",
@@ -1331,7 +1437,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1339,6 +1444,7 @@
                 "examples": []
             }
         ],
+        "topic": "Отпуск с семьей или отпуск с друзьями: что лучше?",
         "sideA": "С семьей",
         "sideB": "С друзьями",
         "ideasA": [
@@ -1348,7 +1454,9 @@
         "ideasB": [
             "Общие хобби",
             "Больше энергии"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_008",
@@ -1356,7 +1464,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1364,6 +1471,7 @@
                 "examples": []
             }
         ],
+        "topic": "Оставаться в своей стране или путешествовать за границу: какой отдых лучше?",
         "sideA": "Своя страна",
         "sideB": "За границу",
         "ideasA": [
@@ -1373,7 +1481,9 @@
         "ideasB": [
             "Другие культуры",
             "Практика языков"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_002",
@@ -1381,7 +1491,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1389,6 +1498,7 @@
                 "examples": []
             }
         ],
+        "topic": "Спорт или чтение: какое хобби лучше для взрослых?",
         "sideA": "Спорт",
         "sideB": "Чтение",
         "ideasA": [
@@ -1398,7 +1508,9 @@
         "ideasB": [
             "Интеллект",
             "Глубокое расслабление"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_009",
@@ -1406,7 +1518,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1414,6 +1525,7 @@
                 "examples": []
             }
         ],
+        "topic": "Часто видеться с друзьями или проводить время в одиночестве: что важнее?",
         "sideA": "Друзья",
         "sideB": "Одиночество",
         "ideasA": [
@@ -1423,15 +1535,16 @@
         "ideasB": [
             "Самопознание",
             "Душевный покой"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_017",
         "word": "Отвечать на электронные письма сразу или оставлять их на потом: что более профессионально?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1439,6 +1552,7 @@
                 "examples": []
             }
         ],
+        "topic": "Отвечать на электронные письма сразу или оставлять их на потом: что более профессионально?",
         "sideA": "Сразу",
         "sideB": "Потом",
         "ideasA": [
@@ -1448,15 +1562,16 @@
         "ideasB": [
             "Обдуманный ответ",
             "Концентрация"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_010",
         "word": "Мыть посуду сразу или оставить до завтра: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1464,6 +1579,7 @@
                 "examples": []
             }
         ],
+        "topic": "Мыть посуду сразу или оставить до завтра: что лучше?",
         "sideA": "Сразу",
         "sideB": "До завтра",
         "ideasA": [
@@ -1473,15 +1589,16 @@
         "ideasB": [
             "Вечерний отдых",
             "Время с семьей"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_018",
         "word": "Всегда приходить заранее или всегда опаздывать на пять минут: что хуже на работе?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1489,6 +1606,7 @@
                 "examples": []
             }
         ],
+        "topic": "Всегда приходить заранее или всегда опаздывать на пять минут: что хуже на работе?",
         "sideA": "Заранее",
         "sideB": "Опоздание",
         "ideasA": [
@@ -1498,15 +1616,16 @@
         "ideasB": [
             "Непрофессионально",
             "Пропускать начало"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_019",
         "word": "Очень организованный стол или беспорядок на столе: какой человек более продуктивен?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1514,6 +1633,7 @@
                 "examples": []
             }
         ],
+        "topic": "Очень организованный стол или беспорядок на столе: какой человек более продуктивен?",
         "sideA": "Организованный",
         "sideB": "Беспорядок",
         "ideasA": [
@@ -1523,15 +1643,16 @@
         "ideasB": [
             "Творческий хаос",
             "Быстрый доступ"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_011",
         "word": "Разговоры о работе за ужином или никаких разговоров о работе: какое правило лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1539,6 +1660,7 @@
                 "examples": []
             }
         ],
+        "topic": "Разговоры о работе за ужином или никаких разговоров о работе: какое правило лучше?",
         "sideA": "О работе",
         "sideB": "Без работы",
         "ideasA": [
@@ -1548,7 +1670,9 @@
         "ideasB": [
             "Отключиться",
             "Качественный отдых"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_010",
@@ -1556,7 +1680,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1564,6 +1687,7 @@
                 "examples": []
             }
         ],
+        "topic": "Жить с семьей против одного: что лучше?",
         "sideA": "С семьей",
         "sideB": "Один",
         "ideasA": [
@@ -1573,7 +1697,9 @@
         "ideasB": [
             "Независимость",
             "Приватность"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_011",
@@ -1581,7 +1707,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1589,6 +1714,7 @@
                 "examples": []
             }
         ],
+        "topic": "Иметь брата против сестры: что лучше?",
         "sideA": "Брат",
         "sideB": "Сестра",
         "ideasA": [
@@ -1598,7 +1724,9 @@
         "ideasB": [
             "Глубокие беседы",
             "Общие секреты"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_012",
@@ -1606,7 +1734,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1614,6 +1741,7 @@
                 "examples": []
             }
         ],
+        "topic": "Большая против маленькой семьи: какая лучше?",
         "sideA": "Большая",
         "sideB": "Маленькая",
         "ideasA": [
@@ -1623,7 +1751,9 @@
         "ideasB": [
             "Тихая жизнь",
             "Тесная связь"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_013",
@@ -1631,7 +1761,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1639,6 +1768,7 @@
                 "examples": []
             }
         ],
+        "topic": "Старший против младшего ребенка: что лучше?",
         "sideA": "Старший",
         "sideB": "Младший",
         "ideasA": [
@@ -1648,15 +1778,16 @@
         "ideasB": [
             "Больше внимания",
             "Свободные правила"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_020",
         "word": "Утренняя против дневной школы: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1664,6 +1795,7 @@
                 "examples": []
             }
         ],
+        "topic": "Утренняя против дневной школы: что лучше?",
         "sideA": "Утро",
         "sideB": "День",
         "ideasA": [
@@ -1673,15 +1805,16 @@
         "ideasB": [
             "Сон допоздна",
             "Спокойное утро"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_021",
         "word": "Чтение против математики: что веселее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1689,6 +1822,7 @@
                 "examples": []
             }
         ],
+        "topic": "Чтение против математики: что веселее?",
         "sideA": "Чтение",
         "sideB": "Математика",
         "ideasA": [
@@ -1698,15 +1832,16 @@
         "ideasB": [
             "Логика",
             "Решение задач"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_022",
         "word": "Школа против обучения дома: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1714,6 +1849,7 @@
                 "examples": []
             }
         ],
+        "topic": "Школа против обучения дома: что лучше?",
         "sideA": "Школа",
         "sideB": "Дом",
         "ideasA": [
@@ -1723,15 +1859,16 @@
         "ideasB": [
             "Комфорт",
             "Гибкий график"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_023",
         "word": "Домашка против ее отсутствия: что больше помогает?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1739,6 +1876,7 @@
                 "examples": []
             }
         ],
+        "topic": "Домашка против ее отсутствия: что больше помогает?",
         "sideA": "Домашка",
         "sideB": "Нет",
         "ideasA": [
@@ -1748,15 +1886,16 @@
         "ideasB": [
             "Свободное время",
             "Отдых для ума"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_024",
         "word": "Один против работы в паре: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1764,6 +1903,7 @@
                 "examples": []
             }
         ],
+        "topic": "Один против работы в паре: что лучше?",
         "sideA": "Один",
         "sideB": "Пара",
         "ideasA": [
@@ -1773,15 +1913,16 @@
         "ideasB": [
             "Обмен знаниями",
             "Совместный труд"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_025",
         "word": "Бумага против компьютера: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -1789,6 +1930,7 @@
                 "examples": []
             }
         ],
+        "topic": "Бумага против компьютера: что лучше?",
         "sideA": "Бумага",
         "sideB": "Компьютер",
         "ideasA": [
@@ -1798,7 +1940,9 @@
         "ideasB": [
             "Скорость",
             "Цифровой поиск"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_003",
@@ -1806,7 +1950,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1814,6 +1957,7 @@
                 "examples": []
             }
         ],
+        "topic": "Завтрак против ужина: какой прием пищи важнее?",
         "sideA": "Завтрак",
         "sideB": "Ужин",
         "ideasA": [
@@ -1823,7 +1967,9 @@
         "ideasB": [
             "Сбор семьи",
             "Главная трапеза"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_004",
@@ -1831,7 +1977,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1839,6 +1984,7 @@
                 "examples": []
             }
         ],
+        "topic": "Горячая против холодной еды: что лучше?",
         "sideA": "Горячая",
         "sideB": "Холодная",
         "ideasA": [
@@ -1848,7 +1994,9 @@
         "ideasB": [
             "Свежесть летом",
             "Выбор салатов"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_005",
@@ -1856,7 +2004,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1864,6 +2011,7 @@
                 "examples": []
             }
         ],
+        "topic": "Дом против ресторана: что лучше?",
         "sideA": "Дом",
         "sideB": "Ресторан",
         "ideasA": [
@@ -1873,7 +2021,9 @@
         "ideasB": [
             "Профи-повара",
             "Без уборки"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_006",
@@ -1881,7 +2031,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1889,6 +2038,7 @@
                 "examples": []
             }
         ],
+        "topic": "Сладкое против соленого: что лучше?",
         "sideA": "Сладкое",
         "sideB": "Соленое",
         "ideasA": [
@@ -1898,7 +2048,9 @@
         "ideasB": [
             "Питательность",
             "Долгая сытость"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_007",
@@ -1906,7 +2058,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1914,6 +2065,7 @@
                 "examples": []
             }
         ],
+        "topic": "Готовить против покупать еду: что приятнее?",
         "sideA": "Готовить",
         "sideB": "Покупать",
         "ideasA": [
@@ -1923,15 +2075,16 @@
         "ideasB": [
             "Удобство",
             "Экономия времени"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_012",
         "word": "Рано против поздно вставать: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1939,6 +2092,7 @@
                 "examples": []
             }
         ],
+        "topic": "Рано против поздно вставать: что лучше?",
         "sideA": "Рано",
         "sideB": "Поздно",
         "ideasA": [
@@ -1948,15 +2102,16 @@
         "ideasB": [
             "Полный отдых",
             "Вечерняя энергия"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_013",
         "word": "Утро против вечера: какое время суток приятнее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1964,6 +2119,7 @@
                 "examples": []
             }
         ],
+        "topic": "Утро против вечера: какое время суток приятнее?",
         "sideA": "Утро",
         "sideB": "Вечер",
         "ideasA": [
@@ -1973,15 +2129,16 @@
         "ideasB": [
             "Общение",
             "Полный релакс"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_014",
         "word": "Будни против выходных: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1989,6 +2146,7 @@
                 "examples": []
             }
         ],
+        "topic": "Будни против выходных: что лучше?",
         "sideA": "Будни",
         "sideB": "Выходные",
         "ideasA": [
@@ -1998,15 +2156,16 @@
         "ideasB": [
             "Личная свобода",
             "Время на хобби"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_environment_001",
         "word": "Лето против зимы: какое время года лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "environment",
-        "sub_theme": null,
+        "theme": "nature",
         "form": "phrase",
         "definitions": [
             {
@@ -2014,6 +2173,7 @@
                 "examples": []
             }
         ],
+        "topic": "Лето против зимы: какое время года лучше?",
         "sideA": "Лето",
         "sideB": "Зима",
         "ideasA": [
@@ -2023,15 +2183,16 @@
         "ideasB": [
             "Снег",
             "Уютная атмосфера"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_015",
         "word": "Рано против поздно ложиться: что здоровее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2039,6 +2200,7 @@
                 "examples": []
             }
         ],
+        "topic": "Рано против поздно ложиться: что здоровее?",
         "sideA": "Рано",
         "sideB": "Поздно",
         "ideasA": [
@@ -2048,15 +2210,16 @@
         "ideasB": [
             "Креатив вечером",
             "Кино и книги"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_016",
         "word": "Дом против квартиры: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2064,6 +2227,7 @@
                 "examples": []
             }
         ],
+        "topic": "Дом против квартиры: что лучше?",
         "sideA": "Дом",
         "sideB": "Квартира",
         "ideasA": [
@@ -2073,7 +2237,9 @@
         "ideasB": [
             "Легкая уборка",
             "Центр города"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_009",
@@ -2081,7 +2247,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2089,6 +2254,7 @@
                 "examples": []
             }
         ],
+        "topic": "Город против деревни: где лучше жить?",
         "sideA": "Город",
         "sideB": "Деревня",
         "ideasA": [
@@ -2098,15 +2264,16 @@
         "ideasB": [
             "Чистый воздух",
             "Тихая природа"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_017",
         "word": "Спальня против гостиной: какая комната вам больше нравится?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2114,6 +2281,7 @@
                 "examples": []
             }
         ],
+        "topic": "Спальня против гостиной: какая комната вам больше нравится?",
         "sideA": "Спальня",
         "sideB": "Гостиная",
         "ideasA": [
@@ -2123,7 +2291,9 @@
         "ideasB": [
             "Семейное место",
             "Большой ТВ"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_003",
@@ -2131,7 +2301,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2139,6 +2308,7 @@
                 "examples": []
             }
         ],
+        "topic": "Игры дома против улицы: какие веселее?",
         "sideA": "Дома",
         "sideB": "Улица",
         "ideasA": [
@@ -2148,7 +2318,9 @@
         "ideasB": [
             "Активность",
             "Польза солнца"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_004",
@@ -2156,7 +2328,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2164,6 +2335,7 @@
                 "examples": []
             }
         ],
+        "topic": "ТВ против книги: что лучше?",
         "sideA": "ТВ",
         "sideB": "Книга",
         "ideasA": [
@@ -2173,7 +2345,9 @@
         "ideasB": [
             "Воображение",
             "Рост знаний"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_005",
@@ -2181,7 +2355,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2189,6 +2362,7 @@
                 "examples": []
             }
         ],
+        "topic": "Спорт против видеоигр: что веселее?",
         "sideA": "Спорт",
         "sideB": "Видеоигры",
         "ideasA": [
@@ -2198,7 +2372,9 @@
         "ideasB": [
             "Стратегия",
             "Цифровые миры"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_006",
@@ -2206,7 +2382,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2214,6 +2389,7 @@
                 "examples": []
             }
         ],
+        "topic": "Рисование против пения: какое хобби лучше?",
         "sideA": "Рисование",
         "sideB": "Пение",
         "ideasA": [
@@ -2223,7 +2399,9 @@
         "ideasB": [
             "Эмоции",
             "Музыкальность"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_007",
@@ -2231,7 +2409,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2239,6 +2416,7 @@
                 "examples": []
             }
         ],
+        "topic": "Играть одному против друзей: что веселее?",
         "sideA": "Один",
         "sideB": "Друзья",
         "ideasA": [
@@ -2248,7 +2426,9 @@
         "ideasB": [
             "Общий смех",
             "Коллектив"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_008",
@@ -2256,7 +2436,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2264,6 +2443,7 @@
                 "examples": []
             }
         ],
+        "topic": "Плавание против бега: что лучше?",
         "sideA": "Плавание",
         "sideB": "Бег",
         "ideasA": [
@@ -2273,7 +2453,9 @@
         "ideasB": [
             "Легко начать",
             "Красивые виды"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_009",
@@ -2281,7 +2463,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2289,6 +2470,7 @@
                 "examples": []
             }
         ],
+        "topic": "Музыка против спорта: какое хобби лучше?",
         "sideA": "Музыка",
         "sideB": "Спорт",
         "ideasA": [
@@ -2298,7 +2480,9 @@
         "ideasB": [
             "Форма",
             "Командный успех"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_animals_001",
@@ -2306,7 +2490,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "animals",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2314,6 +2497,7 @@
                 "examples": []
             }
         ],
+        "topic": "Домашние против диких животных: кто интереснее?",
         "sideA": "Домашние",
         "sideB": "Дикие",
         "ideasA": [
@@ -2323,15 +2507,16 @@
         "ideasB": [
             "Экзотика",
             "Тайны природы"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_environment_002",
         "word": "Дождь против солнца: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "environment",
-        "sub_theme": null,
+        "theme": "nature",
         "form": "phrase",
         "definitions": [
             {
@@ -2339,6 +2524,7 @@
                 "examples": []
             }
         ],
+        "topic": "Дождь против солнца: что лучше?",
         "sideA": "Дождь",
         "sideB": "Солнце",
         "ideasA": [
@@ -2348,7 +2534,9 @@
         "ideasB": [
             "Пляжная погода",
             "Витамин Д"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_010",
@@ -2356,7 +2544,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2364,6 +2551,7 @@
                 "examples": []
             }
         ],
+        "topic": "Море против гор: что лучше для отпуска?",
         "sideA": "Море",
         "sideB": "Горы",
         "ideasA": [
@@ -2373,15 +2561,16 @@
         "ideasB": [
             "Чистый воздух",
             "Горные виды"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_environment_003",
         "word": "Цветы против деревьев: что красивее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "environment",
-        "sub_theme": null,
+        "theme": "nature",
         "form": "phrase",
         "definitions": [
             {
@@ -2389,6 +2578,7 @@
                 "examples": []
             }
         ],
+        "topic": "Цветы против деревьев: что красивее?",
         "sideA": "Цветы",
         "sideB": "Деревья",
         "ideasA": [
@@ -2398,7 +2588,9 @@
         "ideasB": [
             "Величие",
             "Кислород"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_011",
@@ -2406,7 +2598,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2414,6 +2605,7 @@
                 "examples": []
             }
         ],
+        "topic": "Машина против автобуса: что лучше?",
         "sideA": "Машина",
         "sideB": "Автобус",
         "ideasA": [
@@ -2423,7 +2615,9 @@
         "ideasB": [
             "Дешевле",
             "Экологичность"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_012",
@@ -2431,7 +2625,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2439,6 +2632,7 @@
                 "examples": []
             }
         ],
+        "topic": "Пешком против велосипеда: как лучше передвигаться?",
         "sideA": "Пешком",
         "sideB": "Велосипед",
         "ideasA": [
@@ -2448,7 +2642,9 @@
         "ideasB": [
             "Скорость",
             "Дистанция"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_013",
@@ -2456,7 +2652,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2464,6 +2659,7 @@
                 "examples": []
             }
         ],
+        "topic": "Короткий против долгого отпуска: что лучше?",
         "sideA": "Короткий",
         "sideB": "Долгий",
         "ideasA": [
@@ -2473,7 +2669,9 @@
         "ideasB": [
             "Перезагрузка",
             "Погружение"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_014",
@@ -2481,7 +2679,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2489,6 +2686,7 @@
                 "examples": []
             }
         ],
+        "topic": "Один против поездки с семьей: что веселее?",
         "sideA": "Один",
         "sideB": "Семья",
         "ideasA": [
@@ -2498,15 +2696,16 @@
         "ideasB": [
             "Общая радость",
             "Поддержка"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_018",
         "word": "Онлайн-шопинг против покупок в магазине",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2514,6 +2713,7 @@
                 "examples": []
             }
         ],
+        "topic": "Онлайн-шопинг против покупок в магазине",
         "sideA": "Онлайн",
         "sideB": "Лично",
         "ideasA": [
@@ -2523,7 +2723,9 @@
         "ideasB": [
             "Примерка",
             "Радость сразу"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_010",
@@ -2531,7 +2733,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2539,6 +2740,7 @@
                 "examples": []
             }
         ],
+        "topic": "Бумажные книги против электронных",
         "sideA": "Бумажные",
         "sideB": "Электронные",
         "ideasA": [
@@ -2548,15 +2750,16 @@
         "ideasB": [
             "Компактность",
             "Место"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_026",
         "word": "Учиться утром или учиться вечером: когда лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -2564,6 +2767,7 @@
                 "examples": []
             }
         ],
+        "topic": "Учиться утром или учиться вечером: когда лучше?",
         "sideA": "Утром",
         "sideB": "Вечером",
         "ideasA": [
@@ -2573,15 +2777,16 @@
         "ideasB": [
             "Тишина ночи",
             "Повторение за день"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_027",
         "word": "Строгие учителя или добрые учителя: кто больше помогает ученикам?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -2589,6 +2794,7 @@
                 "examples": []
             }
         ],
+        "topic": "Строгие учителя или добрые учителя: кто больше помогает ученикам?",
         "sideA": "Строгие",
         "sideB": "Добрые",
         "ideasA": [
@@ -2598,15 +2804,16 @@
         "ideasB": [
             "Мотивация",
             "Диалог"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_028",
         "word": "Учиться по учебнику или учиться по видео: что эффективнее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -2614,6 +2821,7 @@
                 "examples": []
             }
         ],
+        "topic": "Учиться по учебнику или учиться по видео: что эффективнее?",
         "sideA": "Учебник",
         "sideB": "Видео",
         "ideasA": [
@@ -2623,15 +2831,16 @@
         "ideasB": [
             "Визуал",
             "Динамика"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_029",
         "word": "Короткие уроки или длинные уроки: какие помогают учиться лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -2639,6 +2848,7 @@
                 "examples": []
             }
         ],
+        "topic": "Короткие уроки или длинные уроки: какие помогают учиться лучше?",
         "sideA": "Короткие",
         "sideB": "Длинные",
         "ideasA": [
@@ -2648,15 +2858,16 @@
         "ideasB": [
             "Глубина",
             "Детали"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_030",
         "word": "Групповые проекты или индивидуальные задания: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -2664,6 +2875,7 @@
                 "examples": []
             }
         ],
+        "topic": "Групповые проекты или индивидуальные задания: что лучше?",
         "sideA": "Группа",
         "sideB": "Индивидуально",
         "ideasA": [
@@ -2673,15 +2885,16 @@
         "ideasB": [
             "Опора на себя",
             "Личный фокус"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_031",
         "word": "Школьная форма или повседневная одежда в школе: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -2689,6 +2902,7 @@
                 "examples": []
             }
         ],
+        "topic": "Школьная форма или повседневная одежда в школе: что лучше?",
         "sideA": "Форма",
         "sideB": "Повседневная",
         "ideasA": [
@@ -2698,7 +2912,9 @@
         "ideasB": [
             "Самовыражение",
             "Комфорт"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_008",
@@ -2706,7 +2922,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2714,6 +2929,7 @@
                 "examples": []
             }
         ],
+        "topic": "Домашняя еда или фастфуд: что лучше?",
         "sideA": "Домашняя",
         "sideB": "Фастфуд",
         "ideasA": [
@@ -2723,7 +2939,9 @@
         "ideasB": [
             "Сервис",
             "Удобство"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_009",
@@ -2731,7 +2949,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2739,6 +2956,7 @@
                 "examples": []
             }
         ],
+        "topic": "Три больших приема пищи или много маленьких перекусов: что здоровее?",
         "sideA": "Три раза",
         "sideB": "Перекусы",
         "ideasA": [
@@ -2748,7 +2966,9 @@
         "ideasB": [
             "Энергия",
             "Метаболизм"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_010",
@@ -2756,7 +2976,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2764,6 +2983,7 @@
                 "examples": []
             }
         ],
+        "topic": "Вегетарианская еда или мясо: какая диета лучше?",
         "sideA": "Вегетарианская",
         "sideB": "Мясо",
         "ideasA": [
@@ -2773,7 +2993,9 @@
         "ideasB": [
             "Белок",
             "Традиции"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_011",
@@ -2781,7 +3003,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2789,6 +3010,7 @@
                 "examples": []
             }
         ],
+        "topic": "Пить чай или пить кофе: что лучше?",
         "sideA": "Чай",
         "sideB": "Кофе",
         "ideasA": [
@@ -2798,7 +3020,9 @@
         "ideasB": [
             "Энергия",
             "Общение"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_012",
@@ -2806,7 +3030,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2814,6 +3037,7 @@
                 "examples": []
             }
         ],
+        "topic": "Есть в одиночестве или есть с другими: что лучше?",
         "sideA": "Один",
         "sideB": "С другими",
         "ideasA": [
@@ -2823,7 +3047,9 @@
         "ideasB": [
             "Связь",
             "Общая радость"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_011",
@@ -2831,7 +3057,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2839,6 +3064,7 @@
                 "examples": []
             }
         ],
+        "topic": "Заниматься командным спортом или индивидуальным: что лучше?",
         "sideA": "Командный",
         "sideB": "Индивидуальный",
         "ideasA": [
@@ -2848,7 +3074,9 @@
         "ideasB": [
             "Цели",
             "Опора на себя"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_012",
@@ -2856,7 +3084,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2864,6 +3091,7 @@
                 "examples": []
             }
         ],
+        "topic": "Проводить свободное время дома или на улице: что лучше?",
         "sideA": "Дома",
         "sideB": "На улице",
         "ideasA": [
@@ -2873,7 +3101,9 @@
         "ideasB": [
             "Природа",
             "Движение"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_013",
@@ -2881,7 +3111,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2889,6 +3118,7 @@
                 "examples": []
             }
         ],
+        "topic": "Кино или театр: куда лучше сходить вечером?",
         "sideA": "Кино",
         "sideB": "Театр",
         "ideasA": [
@@ -2898,7 +3128,9 @@
         "ideasB": [
             "Актеры",
             "Традиции"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_014",
@@ -2906,7 +3138,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2914,6 +3145,7 @@
                 "examples": []
             }
         ],
+        "topic": "Слушать музыку или играть на инструменте: что приятнее?",
         "sideA": "Слушать",
         "sideB": "Играть",
         "ideasA": [
@@ -2923,7 +3155,9 @@
         "ideasB": [
             "Навыки",
             "Творчество"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_015",
@@ -2931,7 +3165,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2939,6 +3172,7 @@
                 "examples": []
             }
         ],
+        "topic": "Видеоигры или настольные игры: что веселее?",
         "sideA": "Видеоигры",
         "sideB": "Настольные",
         "ideasA": [
@@ -2948,7 +3182,9 @@
         "ideasB": [
             "Личное общение",
             "Тактильность"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_016",
@@ -2956,7 +3192,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2964,6 +3199,7 @@
                 "examples": []
             }
         ],
+        "topic": "Ходить по магазинам или оставаться дома: как лучше провести выходные?",
         "sideA": "Магазины",
         "sideB": "Дома",
         "ideasA": [
@@ -2973,7 +3209,9 @@
         "ideasB": [
             "Релакс",
             "Восстановление"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_technology_003",
@@ -2981,7 +3219,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2989,6 +3226,7 @@
                 "examples": []
             }
         ],
+        "topic": "Мобильный телефон или компьютер: что полезнее в повседневной жизни?",
         "sideA": "Телефон",
         "sideB": "Компьютер",
         "ideasA": [
@@ -2998,7 +3236,9 @@
         "ideasB": [
             "Экран",
             "Мощность"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_technology_004",
@@ -3006,7 +3246,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3014,6 +3253,7 @@
                 "examples": []
             }
         ],
+        "topic": "Отправить сообщение или позвонить по телефону: что лучше?",
         "sideA": "Сообщение",
         "sideB": "Звонок",
         "ideasA": [
@@ -3023,7 +3263,9 @@
         "ideasB": [
             "Голос",
             "Скорость решения"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_017",
@@ -3031,7 +3273,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3039,6 +3280,7 @@
                 "examples": []
             }
         ],
+        "topic": "Электронная книга или бумажная: что лучше читать?",
         "sideA": "Э-книга",
         "sideB": "Бумажная",
         "ideasA": [
@@ -3048,7 +3290,9 @@
         "ideasB": [
             "Классика",
             "Нет батареек"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_technology_005",
@@ -3056,7 +3300,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3064,6 +3307,7 @@
                 "examples": []
             }
         ],
+        "topic": "Фотографировать на телефон или на камеру: что дает лучший результат?",
         "sideA": "Телефон",
         "sideB": "Камера",
         "ideasA": [
@@ -3073,7 +3317,9 @@
         "ideasB": [
             "Оптика",
             "Профи-контроль"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_015",
@@ -3081,7 +3327,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3089,6 +3334,7 @@
                 "examples": []
             }
         ],
+        "topic": "Отпуск на пляже или отпуск в горах: что лучше?",
         "sideA": "Пляж",
         "sideB": "Горы",
         "ideasA": [
@@ -3098,7 +3344,9 @@
         "ideasB": [
             "Здоровье",
             "Виды"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_016",
@@ -3106,7 +3354,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3114,6 +3361,7 @@
                 "examples": []
             }
         ],
+        "topic": "Путешествовать на поезде или на самолете: что лучше?",
         "sideA": "Поезд",
         "sideB": "Самолет",
         "ideasA": [
@@ -3123,7 +3371,9 @@
         "ideasB": [
             "Скорость",
             "Дистанции"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_017",
@@ -3131,7 +3381,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3139,6 +3388,7 @@
                 "examples": []
             }
         ],
+        "topic": "Посетить знаменитый город или маленькую деревню: что интереснее?",
         "sideA": "Город",
         "sideB": "Деревня",
         "ideasA": [
@@ -3148,7 +3398,9 @@
         "ideasB": [
             "Традиции",
             "Тишина"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_018",
@@ -3156,7 +3408,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3164,6 +3415,7 @@
                 "examples": []
             }
         ],
+        "topic": "Остановиться в отеле или в местной семье: что лучше?",
         "sideA": "Отель",
         "sideB": "В семье",
         "ideasA": [
@@ -3173,7 +3425,9 @@
         "ideasB": [
             "Обмен",
             "Язык"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_019",
@@ -3181,7 +3435,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3189,6 +3442,7 @@
                 "examples": []
             }
         ],
+        "topic": "Путешествовать за границу или изучать свою страну: что более стоящее?",
         "sideA": "За границу",
         "sideB": "Своя страна",
         "ideasA": [
@@ -3198,7 +3452,9 @@
         "ideasB": [
             "Жемчужины",
             "Простой план"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_014",
@@ -3206,7 +3462,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3214,6 +3469,7 @@
                 "examples": []
             }
         ],
+        "topic": "Иметь много друзей или несколько близких друзей: что лучше?",
         "sideA": "Много друзей",
         "sideB": "Близкие друзья",
         "ideasA": [
@@ -3223,7 +3479,9 @@
         "ideasB": [
             "Лояльность",
             "Доверие"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_015",
@@ -3231,7 +3489,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3239,6 +3496,7 @@
                 "examples": []
             }
         ],
+        "topic": "Встречаться с друзьями лично или общаться онлайн: что приносит больше удовольствия?",
         "sideA": "Лично",
         "sideB": "Онлайн",
         "ideasA": [
@@ -3248,7 +3506,9 @@
         "ideasB": [
             "Эффективность",
             "Связь"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_016",
@@ -3256,7 +3516,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3264,6 +3523,7 @@
                 "examples": []
             }
         ],
+        "topic": "Жить с родителями или в студенческой квартире: что лучше для молодежи?",
         "sideA": "С родителями",
         "sideB": "Студ. квартира",
         "ideasA": [
@@ -3273,7 +3533,9 @@
         "ideasB": [
             "Жизнь",
             "Опора на себя"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_017",
@@ -3281,7 +3543,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3289,6 +3550,7 @@
                 "examples": []
             }
         ],
+        "topic": "Праздновать день рождения дома или куда-то сходить: что приятнее?",
         "sideA": "Дома",
         "sideB": "Вне дома",
         "ideasA": [
@@ -3298,15 +3560,16 @@
         "ideasB": [
             "Без уборки",
             "Кухня"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_032",
         "word": "Копить деньги или тратить их: что мудрее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -3314,6 +3577,7 @@
                 "examples": []
             }
         ],
+        "topic": "Копить деньги или тратить их: что мудрее?",
         "sideA": "Копить",
         "sideB": "Тратить",
         "ideasA": [
@@ -3323,15 +3587,16 @@
         "ideasB": [
             "Радость",
             "Экономика"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_033",
         "word": "Работать неполный рабочий день во время учебы или сосредоточиться только на школе: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -3339,6 +3604,7 @@
                 "examples": []
             }
         ],
+        "topic": "Работать неполный рабочий день во время учебы или сосредоточиться только на школе: что лучше?",
         "sideA": "Подработка",
         "sideB": "Только учеба",
         "ideasA": [
@@ -3348,15 +3614,16 @@
         "ideasB": [
             "Успехи",
             "Спокойствие"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_034",
         "word": "Зарабатывать много денег или иметь свободное время: что важнее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -3364,6 +3631,7 @@
                 "examples": []
             }
         ],
+        "topic": "Зарабатывать много денег или иметь свободное время: что важнее?",
         "sideA": "Деньги",
         "sideB": "Свободное время",
         "ideasA": [
@@ -3373,7 +3641,9 @@
         "ideasB": [
             "Здоровье",
             "Семья"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_018",
@@ -3381,7 +3651,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3389,6 +3658,7 @@
                 "examples": []
             }
         ],
+        "topic": "Жить с бабушкой и дедушкой против жизни без них: что приятнее?",
         "sideA": "С бабушкой и дедушкой",
         "sideB": "Без них",
         "ideasA": [
@@ -3398,7 +3668,9 @@
         "ideasB": [
             "Интимность",
             "Тишина"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_013",
@@ -3406,7 +3678,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3414,6 +3685,7 @@
                 "examples": []
             }
         ],
+        "topic": "Мамина еда против папиной: что лучше?",
         "sideA": "Мамина",
         "sideB": "Папина",
         "ideasA": [
@@ -3423,15 +3695,16 @@
         "ideasB": [
             "Рецепты",
             "Уикенд"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_035",
         "word": "Математика против рисования: какой предмет веселее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -3439,6 +3712,7 @@
                 "examples": []
             }
         ],
+        "topic": "Математика против рисования: какой предмет веселее?",
         "sideA": "Математика",
         "sideB": "Рисование",
         "ideasA": [
@@ -3448,15 +3722,16 @@
         "ideasB": [
             "Творчество",
             "Чувства"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_036",
         "word": "Писать на бумаге против печати на планшете: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -3464,6 +3739,7 @@
                 "examples": []
             }
         ],
+        "topic": "Писать на бумаге против печати на планшете: что лучше?",
         "sideA": "Бумага",
         "sideB": "Планшет",
         "ideasA": [
@@ -3473,7 +3749,9 @@
         "ideasB": [
             "Место",
             "Автоисправление"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_014",
@@ -3481,7 +3759,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3489,6 +3766,7 @@
                 "examples": []
             }
         ],
+        "topic": "Пицца против пасты: что вкуснее?",
         "sideA": "Пицца",
         "sideB": "Паста",
         "ideasA": [
@@ -3498,7 +3776,9 @@
         "ideasB": [
             "Формы",
             "Соусы"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_015",
@@ -3506,7 +3786,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3514,6 +3793,7 @@
                 "examples": []
             }
         ],
+        "topic": "Мороженое против торта: какой десерт лучше?",
         "sideA": "Мороженое",
         "sideB": "Торт",
         "ideasA": [
@@ -3523,15 +3803,16 @@
         "ideasB": [
             "Уют",
             "Праздник"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_environment_004",
         "word": "Короткие дни против длинных: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "environment",
-        "sub_theme": null,
+        "theme": "nature",
         "form": "phrase",
         "definitions": [
             {
@@ -3539,6 +3820,7 @@
                 "examples": []
             }
         ],
+        "topic": "Короткие дни против длинных: что лучше?",
         "sideA": "Короткие дни",
         "sideB": "Длинные",
         "ideasA": [
@@ -3548,7 +3830,9 @@
         "ideasB": [
             "Витамин Д",
             "Улица"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_020",
@@ -3556,7 +3840,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3564,6 +3847,7 @@
                 "examples": []
             }
         ],
+        "topic": "День в парке против дня на пляже: что лучше?",
         "sideA": "Парк",
         "sideB": "Пляж",
         "ideasA": [
@@ -3573,7 +3857,9 @@
         "ideasB": [
             "Бриз",
             "Волны"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_021",
@@ -3581,7 +3867,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3589,6 +3874,7 @@
                 "examples": []
             }
         ],
+        "topic": "Самолет против поезда: что веселее?",
         "sideA": "Самолет",
         "sideB": "Поезд",
         "ideasA": [
@@ -3598,15 +3884,16 @@
         "ideasB": [
             "Виды",
             "Прогулки"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_019",
         "word": "Душ утром против душа вечером: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -3614,6 +3901,7 @@
                 "examples": []
             }
         ],
+        "topic": "Душ утром против душа вечером: что лучше?",
         "sideA": "Утром",
         "sideB": "Вечером",
         "ideasA": [
@@ -3623,7 +3911,9 @@
         "ideasB": [
             "Релакс",
             "Чистота"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_animals_002",
@@ -3631,7 +3921,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "animals",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3639,6 +3928,7 @@
                 "examples": []
             }
         ],
+        "topic": "Кошки, сбрасывающие вещи со столов, против собак, грызущих обувь: какой питомец больше раздражает?",
         "sideA": "Кошки",
         "sideB": "Собаки",
         "ideasA": [
@@ -3648,7 +3938,9 @@
         "ideasB": [
             "Ущерб",
             "Ремонт"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_016",
@@ -3656,7 +3948,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3664,6 +3955,7 @@
                 "examples": []
             }
         ],
+        "topic": "Есть пиццу вилкой против того, чтобы есть ее руками: как правильно?",
         "sideA": "Вилкой",
         "sideB": "Руками",
         "ideasA": [
@@ -3673,15 +3965,16 @@
         "ideasB": [
             "Кайф",
             "Стиль"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_020",
         "word": "Спать в носках против того, чтобы спать без носков: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -3689,6 +3982,7 @@
                 "examples": []
             }
         ],
+        "topic": "Спать в носках против того, чтобы спать без носков: что лучше?",
         "sideA": "В носках",
         "sideB": "Без носков",
         "ideasA": [
@@ -3698,7 +3992,9 @@
         "ideasB": [
             "Прохлада",
             "Кожа"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_018",
@@ -3706,7 +4002,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3714,6 +4009,7 @@
                 "examples": []
             }
         ],
+        "topic": "Замок из песка против снеговика: что веселее строить?",
         "sideA": "Замок из песка",
         "sideB": "Снеговик",
         "ideasA": [
@@ -3723,15 +4019,16 @@
         "ideasB": [
             "Зима",
             "Группа"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_037",
         "word": "Много экзаменов против очень малого количества: что справедливее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -3739,6 +4036,7 @@
                 "examples": []
             }
         ],
+        "topic": "Много экзаменов против очень малого количества: что справедливее?",
         "sideA": "Много экзаменов",
         "sideB": "Мало экзаменов",
         "ideasA": [
@@ -3748,15 +4046,16 @@
         "ideasB": [
             "Проекты",
             "Меньше стресса"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_038",
         "word": "Начало школы в 7 лет против начала в 5 лет: что лучше для детей?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -3764,6 +4063,7 @@
                 "examples": []
             }
         ],
+        "topic": "Начало школы в 7 лет против начала в 5 лет: что лучше для детей?",
         "sideA": "В 7 лет",
         "sideB": "В 5 лет",
         "ideasA": [
@@ -3773,15 +4073,16 @@
         "ideasB": [
             "Грамотность",
             "Структура"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_010",
         "word": "Есть медленно против того, чтобы есть быстро: что лучше для вас?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -3789,6 +4090,7 @@
                 "examples": []
             }
         ],
+        "topic": "Есть медленно против того, чтобы есть быстро: что лучше для вас?",
         "sideA": "Медленно",
         "sideB": "Быстро",
         "ideasA": [
@@ -3798,7 +4100,9 @@
         "ideasB": [
             "Время",
             "Темп"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_017",
@@ -3806,7 +4110,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3814,6 +4117,7 @@
                 "examples": []
             }
         ],
+        "topic": "Готовить дома против заказа еды онлайн: что лучше?",
         "sideA": "Готовить дома",
         "sideB": "Заказывать онлайн",
         "ideasA": [
@@ -3823,7 +4127,9 @@
         "ideasB": [
             "Легкость",
             "Без усилий"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_social_019",
@@ -3831,7 +4137,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3839,6 +4144,7 @@
                 "examples": []
             }
         ],
+        "topic": "Готовка еды против выпечки: что веселее как хобби?",
         "sideA": "Готовка",
         "sideB": "Выпечка",
         "ideasA": [
@@ -3848,15 +4154,16 @@
         "ideasB": [
             "Точность",
             "Награда"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_body_011",
         "word": "Ходить в спортзал против тренировок на улице: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "body",
-        "sub_theme": null,
+        "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
@@ -3864,6 +4171,7 @@
                 "examples": []
             }
         ],
+        "topic": "Ходить в спортзал против тренировок на улице: что лучше?",
         "sideA": "Спортзал",
         "sideB": "Улица",
         "ideasA": [
@@ -3873,7 +4181,9 @@
         "ideasB": [
             "Воздух",
             "Рельеф"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_technology_006",
@@ -3881,7 +4191,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3889,6 +4198,7 @@
                 "examples": []
             }
         ],
+        "topic": "Фото в телефоне против распечатанных фото: что лучше?",
         "sideA": "В телефоне",
         "sideB": "Распечатанные",
         "ideasA": [
@@ -3898,7 +4208,9 @@
         "ideasB": [
             "История",
             "Декор"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_technology_007",
@@ -3906,7 +4218,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3914,6 +4225,7 @@
                 "examples": []
             }
         ],
+        "topic": "Смарт-ТВ против компьютерного монитора: на чем лучше смотреть фильмы?",
         "sideA": "Смарт-ТВ",
         "sideB": "Компьютер",
         "ideasA": [
@@ -3923,7 +4235,9 @@
         "ideasB": [
             "Личное",
             "Вблизи"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_travel_022",
@@ -3931,7 +4245,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3939,6 +4252,7 @@
                 "examples": []
             }
         ],
+        "topic": "Жаркая страна против холодной страны: где лучше отдыхать?",
         "sideA": "Жаркая",
         "sideB": "Холодная",
         "ideasA": [
@@ -3948,7 +4262,9 @@
         "ideasB": [
             "Лыжи",
             "Сияние"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_people_019",
@@ -3956,7 +4272,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3964,6 +4279,7 @@
                 "examples": []
             }
         ],
+        "topic": "Дарить подарки против того, чтобы их получать: что лучше?",
         "sideA": "Дарить",
         "sideB": "Получать",
         "ideasA": [
@@ -3973,15 +4289,16 @@
         "ideasB": [
             "Сюрприз",
             "Признание"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_work_039",
         "word": "Работа в помещении против работы на улице: что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "jobs",
         "form": "phrase",
         "definitions": [
             {
@@ -3989,6 +4306,7 @@
                 "examples": []
             }
         ],
+        "topic": "Работа в помещении против работы на улице: что лучше?",
         "sideA": "В помещении",
         "sideB": "На улице",
         "ideasA": [
@@ -3998,7 +4316,9 @@
         "ideasB": [
             "Здоровье",
             "Виды"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_018",
@@ -4006,7 +4326,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -4014,6 +4333,7 @@
                 "examples": []
             }
         ],
+        "topic": "Ананас в пицце против отсутствия ананаса: как правильно?",
         "sideA": "Ананас",
         "sideB": "Без ананаса",
         "ideasA": [
@@ -4023,7 +4343,9 @@
         "ideasB": [
             "Традиции",
             "Вкус"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_food_drink_019",
@@ -4031,7 +4353,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -4039,6 +4360,7 @@
                 "examples": []
             }
         ],
+        "topic": "Наливать сначала молоко против того, чтобы наливать сначала чай: как лучше?",
         "sideA": "Сначала молоко",
         "sideB": "Сначала чай",
         "ideasA": [
@@ -4048,15 +4370,16 @@
         "ideasB": [
             "Заварка",
             "Вкус"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_021",
         "word": "Понедельник против пятницы: какой день на самом деле хуже?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -4064,6 +4387,7 @@
                 "examples": []
             }
         ],
+        "topic": "Понедельник против пятницы: какой день на самом деле хуже?",
         "sideA": "Понедельник",
         "sideB": "Пятница",
         "ideasA": [
@@ -4073,15 +4397,16 @@
         "ideasB": [
             "Ожидание",
             "Усталость"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_places_022",
         "word": "Проснуться за пять минут до будильника против сна до самого будильника: что больше раздражает?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -4089,6 +4414,7 @@
                 "examples": []
             }
         ],
+        "topic": "Проснуться за пять минут до будильника против сна до самого будильника: что больше раздражает?",
         "sideA": "До будильника",
         "sideB": "До конца",
         "ideasA": [
@@ -4098,7 +4424,9 @@
         "ideasB": [
             "Шок",
             "Нет времени"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_animals_003",
@@ -4106,7 +4434,6 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "animals",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -4114,6 +4441,7 @@
                 "examples": []
             }
         ],
+        "topic": "Кошки против собак: кто из них на самом деле хозяин в доме?",
         "sideA": "Кошки",
         "sideB": "Собаки",
         "ideasA": [
@@ -4123,15 +4451,16 @@
         "ideasB": [
             "Энергия",
             "Верность"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "ru_elementary_environment_005",
         "word": "Когда слишком жарко против того, когда слишком холодно: что хуже?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "environment",
-        "sub_theme": null,
+        "theme": "nature",
         "form": "phrase",
         "definitions": [
             {
@@ -4139,6 +4468,7 @@
                 "examples": []
             }
         ],
+        "topic": "Когда слишком жарко против того, когда слишком холодно: что хуже?",
         "sideA": "Слишком жарко",
         "sideB": "Слишком холодно",
         "ideasA": [
@@ -4148,7 +4478,9 @@
         "ideasB": [
             "Дрожь",
             "Одежда"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "ru";

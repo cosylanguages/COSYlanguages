@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "id": "fr_starter_animals_008",
@@ -281,7 +282,7 @@
         "h": [
             "Sais-tu nager ?",
             "Aimes-tu l'eau ?",
-            "Où nages-tu — à la piscine ou à la mer ?",
+            "Où nages-tu: à la piscine ou à la mer ?",
             "Quel sport aimes-tu ?",
             "Le sport est-il important pour toi ?"
         ]
@@ -331,7 +332,6 @@
         ]
     }
 ];
-    const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];

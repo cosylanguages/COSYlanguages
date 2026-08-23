@@ -53,7 +53,7 @@
     {
         "t": "Como você vai para o trabalho ou escola",
         "h": [
-            "Como você viaja — ônibus, carro, bicicleta?",
+            "Como você viaja: ônibus, carro, bicicleta?",
             "Quanto tempo leva?",
             "Você gosta do trajeto?",
             "É caro?",

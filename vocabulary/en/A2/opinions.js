@@ -57,7 +57,7 @@
         "t": "People are nicer in small towns.",
         "tag": "Society",
         "h": [
-            "Where do you live — town or city?",
+            "Where do you live: town or city?",
             "Are your neighbours friendly?",
             "Do people talk to strangers where you live?",
             "Have you ever lived in a different type of place?",
@@ -240,7 +240,7 @@
         "tag": "Food",
         "h": [
             "How often do you cook at home?",
-            "What is easier — cooking or going to a restaurant?",
+            "What is easier: cooking or going to a restaurant?",
             "Is eating out expensive where you live?",
             "What is your favourite restaurant?",
             "What is your best home-cooked meal?"

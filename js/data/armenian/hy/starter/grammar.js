@@ -1,4 +1,5 @@
 (function() {
+    const lang = "hy";
     const pronouns = ["ես", "դու", "նա", "մենք", "դուք", "նրանք"];
     const data = [
         {
@@ -34,7 +35,6 @@
             }
         }
     ]
-    const lang = "hy";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

@@ -2,11 +2,19 @@
     const data = [
     {
         "id": "en_elementary_travel_001",
-        "word": "A holiday you remember",
+        "t": "A holiday you remember",
+        "h": [
+            "Where did you go?",
+            "Who did you go with?",
+            "What did you do there?",
+            "What was the weather like?",
+            "What was the best moment?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "A holiday you remember",
         "form": "other",
         "definitions": [
             {
@@ -14,21 +22,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Where did you go?",
-            "Who did you go with?",
-            "What did you do there?",
-            "What was the weather like?",
-            "What was the best moment?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_food_drink_001",
-        "word": "Your favourite restaurant or café",
+        "t": "Your favourite restaurant or café",
+        "h": [
+            "Where is it?",
+            "What food do they serve?",
+            "Why do you like it?",
+            "Who do you go with?",
+            "When was the last time you went?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
         "sub_theme": null,
+        "word": "Your favourite restaurant or café",
         "form": "other",
         "definitions": [
             {
@@ -36,21 +47,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Where is it?",
-            "What food do they serve?",
-            "Why do you like it?",
-            "Who do you go with?",
-            "When was the last time you went?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_travel_002",
-        "word": "How you get to work or school",
+        "t": "How you get to work or school",
+        "h": [
+            "How do you travel: bus, car, bike?",
+            "How long does it take?",
+            "Do you enjoy the journey?",
+            "Is it expensive?",
+            "What do you do on the way?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "How you get to work or school",
         "form": "other",
         "definitions": [
             {
@@ -58,21 +72,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "How do you travel — bus, car, bike?",
-            "How long does it take?",
-            "Do you enjoy the journey?",
-            "Is it expensive?",
-            "What do you do on the way?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_001",
-        "word": "What you do to relax",
+        "t": "What you do to relax",
+        "h": [
+            "What helps you relax?",
+            "Do you prefer to be alone or with people?",
+            "How often do you relax properly?",
+            "Do you have a favourite place to relax?",
+            "Is it easy to relax or do you find it difficult?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "What you do to relax",
         "form": "other",
         "definitions": [
             {
@@ -80,21 +97,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What helps you relax?",
-            "Do you prefer to be alone or with people?",
-            "How often do you relax properly?",
-            "Do you have a favourite place to relax?",
-            "Is it easy to relax or do you find it difficult?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_002",
-        "word": "A film you watched recently",
+        "t": "A film you watched recently",
+        "h": [
+            "What was the film called?",
+            "What was it about?",
+            "Did you enjoy it?",
+            "Who was in it?",
+            "Would you recommend it?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "A film you watched recently",
         "form": "other",
         "definitions": [
             {
@@ -102,21 +122,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What was the film called?",
-            "What was it about?",
-            "Did you enjoy it?",
-            "Who was in it?",
-            "Would you recommend it?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_003",
-        "word": "Your ideal weekend",
+        "t": "Your ideal weekend",
+        "h": [
+            "What would you do on Friday evening?",
+            "Would you go out or stay in?",
+            "Would you travel somewhere?",
+            "Who would you spend time with?",
+            "What would you eat?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Your ideal weekend",
         "form": "other",
         "definitions": [
             {
@@ -124,21 +147,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What would you do on Friday evening?",
-            "Would you go out or stay in?",
-            "Would you travel somewhere?",
-            "Who would you spend time with?",
-            "What would you eat?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_people_001",
-        "word": "A person you admire",
+        "t": "A person you admire",
+        "h": [
+            "Who is this person?",
+            "What do they do?",
+            "Why do you admire them?",
+            "Have you met them?",
+            "What can you learn from them?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
         "sub_theme": null,
+        "word": "A person you admire",
         "form": "other",
         "definitions": [
             {
@@ -146,21 +172,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Who is this person?",
-            "What do they do?",
-            "Why do you admire them?",
-            "Have you met them?",
-            "What can you learn from them?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_travel_003",
-        "word": "Your dream holiday destination",
+        "t": "Your dream holiday destination",
+        "h": [
+            "Where would you go?",
+            "Why this place?",
+            "Who would you go with?",
+            "What would you do there?",
+            "How long would you stay?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Your dream holiday destination",
         "form": "other",
         "definitions": [
             {
@@ -168,21 +197,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Where would you go?",
-            "Why this place?",
-            "Who would you go with?",
-            "What would you do there?",
-            "How long would you stay?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_004",
-        "word": "Your relationship with your phone",
+        "t": "Your relationship with your phone",
+        "h": [
+            "How many hours a day do you use your phone?",
+            "What do you use it for the most?",
+            "Could you live without it for a week?",
+            "Does it help or distract you?",
+            "Do you check it first thing in the morning?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Your relationship with your phone",
         "form": "other",
         "definitions": [
             {
@@ -190,21 +222,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "How many hours a day do you use your phone?",
-            "What do you use it for the most?",
-            "Could you live without it for a week?",
-            "Does it help or distract you?",
-            "Do you check it first thing in the morning?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_emotions_001",
-        "word": "Something funny that happened to you",
+        "t": "Something funny that happened to you",
+        "h": [
+            "When did this happen?",
+            "Where were you?",
+            "Who were you with?",
+            "What exactly happened?",
+            "Do you still laugh about it now?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
         "sub_theme": null,
+        "word": "Something funny that happened to you",
         "form": "other",
         "definitions": [
             {
@@ -212,21 +247,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "When did this happen?",
-            "Where were you?",
-            "Who were you with?",
-            "What exactly happened?",
-            "Do you still laugh about it now?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_005",
-        "word": "Your hobbies",
+        "t": "Your hobbies",
+        "h": [
+            "What do you do in your free time?",
+            "When did you start this hobby?",
+            "Do you do it alone or with others?",
+            "Is it expensive?",
+            "What do you love about it?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Your hobbies",
         "form": "other",
         "definitions": [
             {
@@ -234,21 +272,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What do you do in your free time?",
-            "When did you start this hobby?",
-            "Do you do it alone or with others?",
-            "Is it expensive?",
-            "What do you love about it?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_nature_001",
-        "word": "The weather where you live",
+        "t": "The weather where you live",
+        "h": [
+            "What is the weather usually like?",
+            "What is your favourite kind of weather?",
+            "Does the weather affect your mood?",
+            "What is the worst weather you remember?",
+            "What do you do on rainy days?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "nature",
         "sub_theme": null,
+        "word": "The weather where you live",
         "form": "other",
         "definitions": [
             {
@@ -256,21 +297,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What is the weather usually like?",
-            "What is your favourite kind of weather?",
-            "Does the weather affect your mood?",
-            "What is the worst weather you remember?",
-            "What do you do on rainy days?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_006",
-        "word": "A birthday you remember",
+        "t": "A birthday you remember",
+        "h": [
+            "Whose birthday was it?",
+            "Where was the celebration?",
+            "What did you do?",
+            "Was there a surprise?",
+            "What made it special?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "A birthday you remember",
         "form": "other",
         "definitions": [
             {
@@ -278,21 +322,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Whose birthday was it?",
-            "Where was the celebration?",
-            "What did you do?",
-            "Was there a surprise?",
-            "What made it special?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_places_001",
-        "word": "Things you love about where you live",
+        "t": "Things you love about where you live",
+        "h": [
+            "What is your favourite thing about your town or city?",
+            "Is it a good place for families?",
+            "What is there to do?",
+            "What would you change?",
+            "Would you recommend it to a friend?"
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "social",
         "sub_theme": null,
+        "word": "Things you love about where you live",
         "form": "other",
         "definitions": [
             {
@@ -300,21 +347,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What is your favourite thing about your town or city?",
-            "Is it a good place for families?",
-            "What is there to do?",
-            "What would you change?",
-            "Would you recommend it to a friend?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_work_001",
-        "word": "A typical Sunday",
+        "t": "A typical Sunday",
+        "h": [
+            "What time do you wake up on Sunday?",
+            "Do you have a routine?",
+            "Do you cook a big meal?",
+            "Do you rest or stay busy?",
+            "Is Sunday your favourite day?"
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "A typical Sunday",
         "form": "other",
         "definitions": [
             {
@@ -322,21 +372,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What time do you wake up on Sunday?",
-            "Do you have a routine?",
-            "Do you cook a big meal?",
-            "Do you rest or stay busy?",
-            "Is Sunday your favourite day?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_007",
-        "word": "Food from your country",
+        "t": "Food from your country",
+        "h": [
+            "What is a traditional dish?",
+            "Do you cook it at home?",
+            "When do people eat it?",
+            "Is it difficult to make?",
+            "Would you recommend it to a foreigner?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Food from your country",
         "form": "other",
         "definitions": [
             {
@@ -344,21 +397,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What is a traditional dish?",
-            "Do you cook it at home?",
-            "When do people eat it?",
-            "Is it difficult to make?",
-            "Would you recommend it to a foreigner?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_shopping_001",
-        "word": "Something you bought recently",
+        "t": "Something you bought recently",
+        "h": [
+            "What did you buy?",
+            "Where did you buy it?",
+            "Was it expensive?",
+            "Did you need it or just want it?",
+            "Are you happy with the purchase?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "shopping",
         "sub_theme": null,
+        "word": "Something you bought recently",
         "form": "other",
         "definitions": [
             {
@@ -366,21 +422,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What did you buy?",
-            "Where did you buy it?",
-            "Was it expensive?",
-            "Did you need it or just want it?",
-            "Are you happy with the purchase?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_008",
-        "word": "Your favourite app",
+        "t": "Your favourite app",
+        "h": [
+            "What app do you use the most?",
+            "What do you use it for?",
+            "When did you start using it?",
+            "Would you recommend it?",
+            "Could you live without it?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Your favourite app",
         "form": "other",
         "definitions": [
             {
@@ -388,21 +447,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What app do you use the most?",
-            "What do you use it for?",
-            "When did you start using it?",
-            "Would you recommend it?",
-            "Could you live without it?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_emotions_002",
-        "word": "A childhood memory",
+        "t": "A childhood memory",
+        "h": [
+            "How old were you?",
+            "Where were you?",
+            "Who were you with?",
+            "What happened?",
+            "Why do you remember it?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
         "sub_theme": null,
+        "word": "A childhood memory",
         "form": "other",
         "definitions": [
             {
@@ -410,21 +472,24 @@
                 "examples": []
             }
         ],
-        "h": [
-            "How old were you?",
-            "Where were you?",
-            "Who were you with?",
-            "What happened?",
-            "Why do you remember it?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_food_drink_002",
-        "word": "What you ate yesterday",
+        "t": "What you ate yesterday",
+        "h": [
+            "What did you have for breakfast?",
+            "What did you eat for lunch?",
+            "Did you cook or eat out?",
+            "Was it a typical day of eating?",
+            "What was the best thing you ate?"
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
         "sub_theme": null,
+        "word": "What you ate yesterday",
         "form": "other",
         "definitions": [
             {
@@ -432,13 +497,8 @@
                 "examples": []
             }
         ],
-        "h": [
-            "What did you have for breakfast?",
-            "What did you eat for lunch?",
-            "Did you cook or eat out?",
-            "Was it a typical day of eating?",
-            "What was the best thing you ate?"
-        ]
+        "transcription": "",
+        "emoji": "❓"
     }
 ];
     const lang = "en";

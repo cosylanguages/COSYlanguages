@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_describing_001",
@@ -127,6 +128,8 @@
                 ]
             }
         },
+        "transcription": "",
+        "emoji": "✨",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "byti"
@@ -194,7 +197,9 @@
                     "они имеют"
                 ]
             }
-        }
+        },
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_003",
@@ -291,6 +296,8 @@
                 ]
             }
         },
+        "transcription": "",
+        "emoji": "✨",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "orbota"
@@ -423,6 +430,8 @@
                 ]
             }
         },
+        "transcription": "",
+        "emoji": "✨",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "dělati"
@@ -554,7 +563,9 @@
                     "будут они идти"
                 ]
             }
-        }
+        },
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_006",
@@ -619,6 +630,8 @@
                 ]
             }
         },
+        "transcription": "",
+        "emoji": "✨",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "ěsti"
@@ -751,10 +764,14 @@
                 ]
             }
         },
+        "transcription": "",
+        "emoji": "✨",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "govoriti"
         }
     }
 ];
+    window.grammarData = window.grammarData || {};
+    window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

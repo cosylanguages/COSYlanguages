@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_people_002",
@@ -213,7 +214,7 @@
         ],
         "t": "Ваша работа или учеба",
         "h": [
-            "Чем вы занимаетесь — работаете или учитесь?",
+            "Чем вы занимаетесь: работаете или учитесь?",
             "Что вам в этом нравится?",
             "Во сколько вы начинаете?",
             "С кем вы работаете или учитесь?",
@@ -441,7 +442,6 @@
         ]
     }
 ];
-    const lang = "ru";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];

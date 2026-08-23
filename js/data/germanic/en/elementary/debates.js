@@ -2,18 +2,7 @@
     const data = [
     {
         "id": "en_elementary_work_001",
-        "word": "A high salary vs a short commute: which matters more in a job?",
-        "lang": "en",
-        "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
-        "form": "other",
-        "definitions": [
-            {
-                "text": "A high salary vs a short commute: which matters more in a job?",
-                "examples": []
-            }
-        ],
+        "topic": "A high salary vs a short commute: which matters more in a job?",
         "sideA": "High salary",
         "sideB": "Short commute",
         "ideasA": [
@@ -23,22 +12,25 @@
         "ideasB": [
             "Reduce daily travel stress",
             "More time for personal life"
-        ]
-    },
-    {
-        "id": "en_elementary_work_002",
-        "word": "Changing jobs often vs staying in the same company: which is better for your career?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "A high salary vs a short commute: which matters more in a job?",
         "form": "other",
         "definitions": [
             {
-                "text": "Changing jobs often vs staying in the same company: which is better for your career?",
+                "text": "A high salary vs a short commute: which matters more in a job?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_002",
+        "topic": "Changing jobs often vs staying in the same company: which is better for your career?",
         "sideA": "Changing jobs",
         "sideB": "Staying",
         "ideasA": [
@@ -48,22 +40,25 @@
         "ideasB": [
             "Build long-term professional trust",
             "Opportunities for internal promotion"
-        ]
-    },
-    {
-        "id": "en_elementary_work_003",
-        "word": "Working overtime vs leaving on time every day: which is the better habit?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Changing jobs often vs staying in the same company: which is better for your career?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working overtime vs leaving on time every day: which is the better habit?",
+                "text": "Changing jobs often vs staying in the same company: which is better for your career?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_003",
+        "topic": "Working overtime vs leaving on time every day: which is the better habit?",
         "sideA": "Overtime",
         "sideB": "On time",
         "ideasA": [
@@ -73,22 +68,25 @@
         "ideasB": [
             "Prevent professional burnout",
             "Maintain a healthy work-life balance"
-        ]
-    },
-    {
-        "id": "en_elementary_work_004",
-        "word": "A boss who is strict vs a boss who is relaxed: which is better to work for?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Working overtime vs leaving on time every day: which is the better habit?",
         "form": "other",
         "definitions": [
             {
-                "text": "A boss who is strict vs a boss who is relaxed: which is better to work for?",
+                "text": "Working overtime vs leaving on time every day: which is the better habit?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_004",
+        "topic": "A boss who is strict vs a boss who is relaxed: which is better to work for?",
         "sideA": "Strict boss",
         "sideB": "Relaxed boss",
         "ideasA": [
@@ -98,22 +96,25 @@
         "ideasB": [
             "Encourages creative thinking",
             "Lower levels of workplace pressure"
-        ]
-    },
-    {
-        "id": "en_elementary_work_005",
-        "word": "Working in a big company vs a small company: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "A boss who is strict vs a boss who is relaxed: which is better to work for?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working in a big company vs a small company: which is better?",
+                "text": "A boss who is strict vs a boss who is relaxed: which is better to work for?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_005",
+        "topic": "Working in a big company vs a small company: which is better?",
         "sideA": "Big company",
         "sideB": "Small company",
         "ideasA": [
@@ -123,22 +124,25 @@
         "ideasB": [
             "Friendly and close atmosphere",
             "More varied responsibilities"
-        ]
-    },
-    {
-        "id": "en_elementary_work_006",
-        "word": "Getting a promotion vs getting more free time: which would you choose?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Working in a big company vs a small company: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Getting a promotion vs getting more free time: which would you choose?",
+                "text": "Working in a big company vs a small company: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_006",
+        "topic": "Getting a promotion vs getting more free time: which would you choose?",
         "sideA": "Promotion",
         "sideB": "Free time",
         "ideasA": [
@@ -148,22 +152,25 @@
         "ideasB": [
             "Focus on family activities",
             "Develop personal hobbies"
-        ]
-    },
-    {
-        "id": "en_elementary_places_001",
-        "word": "Buying a house vs renting for life: which is the smarter financial decision?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Getting a promotion vs getting more free time: which would you choose?",
         "form": "other",
         "definitions": [
             {
-                "text": "Buying a house vs renting for life: which is the smarter financial decision?",
+                "text": "Getting a promotion vs getting more free time: which would you choose?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_001",
+        "topic": "Buying a house vs renting for life: which is the smarter financial decision?",
         "sideA": "Buying",
         "sideB": "Renting",
         "ideasA": [
@@ -173,22 +180,25 @@
         "ideasB": [
             "Greater flexibility to move",
             "No responsibility for repairs"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_001",
-        "word": "Living in the city centre vs living in the suburbs: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Buying a house vs renting for life: which is the smarter financial decision?",
         "form": "other",
         "definitions": [
             {
-                "text": "Living in the city centre vs living in the suburbs: which is better?",
+                "text": "Buying a house vs renting for life: which is the smarter financial decision?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_001",
+        "topic": "Living in the city centre vs living in the suburbs: which is better?",
         "sideA": "City centre",
         "sideB": "Suburbs",
         "ideasA": [
@@ -198,22 +208,25 @@
         "ideasB": [
             "Quieter and safer environment",
             "More space for families"
-        ]
-    },
-    {
-        "id": "en_elementary_places_002",
-        "word": "Spending money on experiences vs on things: which makes you happier?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "travel",
         "sub_theme": null,
+        "word": "Living in the city centre vs living in the suburbs: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Spending money on experiences vs on things: which makes you happier?",
+                "text": "Living in the city centre vs living in the suburbs: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_002",
+        "topic": "Spending money on experiences vs on things: which makes you happier?",
         "sideA": "Experiences",
         "sideB": "Things",
         "ideasA": [
@@ -223,22 +236,25 @@
         "ideasB": [
             "Practical daily use",
             "Long-lasting physical value"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_001",
-        "word": "Cooking every day vs meal prepping once a week: which is more practical?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "food_drink",
-        "sub_theme": "cooking",
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Spending money on experiences vs on things: which makes you happier?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cooking every day vs meal prepping once a week: which is more practical?",
+                "text": "Spending money on experiences vs on things: which makes you happier?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_001",
+        "topic": "Cooking every day vs meal prepping once a week: which is more practical?",
         "sideA": "Daily cooking",
         "sideB": "Meal prepping",
         "ideasA": [
@@ -248,22 +264,25 @@
         "ideasB": [
             "Save significant time",
             "Better kitchen organization"
-        ]
-    },
-    {
-        "id": "en_elementary_places_003",
-        "word": "Having a cleaner vs doing your own housework: which is a better choice?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "food_drink",
+        "sub_theme": "cooking",
+        "word": "Cooking every day vs meal prepping once a week: which is more practical?",
         "form": "other",
         "definitions": [
             {
-                "text": "Having a cleaner vs doing your own housework: which is a better choice?",
+                "text": "Cooking every day vs meal prepping once a week: which is more practical?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_003",
+        "topic": "Having a cleaner vs doing your own housework: which is a better choice?",
         "sideA": "Cleaner",
         "sideB": "Do it yourself",
         "ideasA": [
@@ -273,22 +292,25 @@
         "ideasB": [
             "Save household money",
             "Maintain total control"
-        ]
-    },
-    {
-        "id": "en_elementary_people_001",
-        "word": "Living with a partner vs living alone: which is better for adults?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
-        "sub_theme": "relationships",
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Having a cleaner vs doing your own housework: which is a better choice?",
         "form": "other",
         "definitions": [
             {
-                "text": "Living with a partner vs living alone: which is better for adults?",
+                "text": "Having a cleaner vs doing your own housework: which is a better choice?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_001",
+        "topic": "Living with a partner vs living alone: which is better for adults?",
         "sideA": "With partner",
         "sideB": "Alone",
         "ideasA": [
@@ -298,22 +320,25 @@
         "ideasB": [
             "Total personal independence",
             "Peace and quiet"
-        ]
-    },
-    {
-        "id": "en_elementary_people_002",
-        "word": "Having children early vs having children later in life: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "relationships",
+        "word": "Living with a partner vs living alone: which is better for adults?",
         "form": "other",
         "definitions": [
             {
-                "text": "Having children early vs having children later in life: which is better?",
+                "text": "Living with a partner vs living alone: which is better for adults?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_002",
+        "topic": "Having children early vs having children later in life: which is better?",
         "sideA": "Early",
         "sideB": "Later",
         "ideasA": [
@@ -323,22 +348,25 @@
         "ideasB": [
             "Better financial stability",
             "More life experience to share"
-        ]
-    },
-    {
-        "id": "en_elementary_people_003",
-        "word": "Close family relationships vs independence from family: which is more important as an adult?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": "family",
+        "sub_theme": null,
+        "word": "Having children early vs having children later in life: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Close family relationships vs independence from family: which is more important as an adult?",
+                "text": "Having children early vs having children later in life: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_003",
+        "topic": "Close family relationships vs independence from family: which is more important as an adult?",
         "sideA": "Close relationships",
         "sideB": "Independence",
         "ideasA": [
@@ -348,22 +376,25 @@
         "ideasB": [
             "Personal freedom",
             "Make independent decisions"
-        ]
-    },
-    {
-        "id": "en_elementary_people_004",
-        "word": "Meeting new people vs keeping old friendships: which is more valuable?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": "relationships",
+        "sub_theme": "family",
+        "word": "Close family relationships vs independence from family: which is more important as an adult?",
         "form": "other",
         "definitions": [
             {
-                "text": "Meeting new people vs keeping old friendships: which is more valuable?",
+                "text": "Close family relationships vs independence from family: which is more important as an adult?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_004",
+        "topic": "Meeting new people vs keeping old friendships: which is more valuable?",
         "sideA": "New people",
         "sideB": "Old friends",
         "ideasA": [
@@ -373,22 +404,25 @@
         "ideasB": [
             "Shared personal history",
             "Higher level of trust"
-        ]
-    },
-    {
-        "id": "en_elementary_work_007",
-        "word": "Socialising after work vs going straight home: which is better for work relationships?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "people",
+        "sub_theme": "relationships",
+        "word": "Meeting new people vs keeping old friendships: which is more valuable?",
         "form": "other",
         "definitions": [
             {
-                "text": "Socialising after work vs going straight home: which is better for work relationships?",
+                "text": "Meeting new people vs keeping old friendships: which is more valuable?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_007",
+        "topic": "Socialising after work vs going straight home: which is better for work relationships?",
         "sideA": "Socialising",
         "sideB": "Going home",
         "ideasA": [
@@ -398,22 +432,25 @@
         "ideasB": [
             "Recover mental energy",
             "Quality time with family"
-        ]
-    },
-    {
-        "id": "en_elementary_body_001",
-        "word": "Going to the gym vs exercising outdoors: which is better for adults?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Socialising after work vs going straight home: which is better for work relationships?",
         "form": "other",
         "definitions": [
             {
-                "text": "Going to the gym vs exercising outdoors: which is better for adults?",
+                "text": "Socialising after work vs going straight home: which is better for work relationships?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_001",
+        "topic": "Going to the gym vs exercising outdoors: which is better for adults?",
         "sideA": "Gym",
         "sideB": "Outdoors",
         "ideasA": [
@@ -423,22 +460,25 @@
         "ideasB": [
             "Enjoy fresh air",
             "No monthly membership fees"
-        ]
-    },
-    {
-        "id": "en_elementary_body_002",
-        "word": "Strict diet vs eating everything in moderation: which is healthier?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Going to the gym vs exercising outdoors: which is better for adults?",
         "form": "other",
         "definitions": [
             {
-                "text": "Strict diet vs eating everything in moderation: which is healthier?",
+                "text": "Going to the gym vs exercising outdoors: which is better for adults?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_002",
+        "topic": "Strict diet vs eating everything in moderation: which is healthier?",
         "sideA": "Strict diet",
         "sideB": "Moderation",
         "ideasA": [
@@ -448,22 +488,25 @@
         "ideasB": [
             "Sustainable long-term balance",
             "Enjoy different types of food"
-        ]
-    },
-    {
-        "id": "en_elementary_body_003",
-        "word": "Seeing a doctor early vs waiting to see if you get better: which is wiser?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Strict diet vs eating everything in moderation: which is healthier?",
         "form": "other",
         "definitions": [
             {
-                "text": "Seeing a doctor early vs waiting to see if you get better: which is wiser?",
+                "text": "Strict diet vs eating everything in moderation: which is healthier?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_003",
+        "topic": "Seeing a doctor early vs waiting to see if you get better: which is wiser?",
         "sideA": "Early",
         "sideB": "Waiting",
         "ideasA": [
@@ -473,22 +516,25 @@
         "ideasB": [
             "Allow natural recovery",
             "Avoid unnecessary medicine"
-        ]
-    },
-    {
-        "id": "en_elementary_body_004",
-        "word": "Sleeping eight hours vs sleeping six but exercising: which is better for energy?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Seeing a doctor early vs waiting to see if you get better: which is wiser?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sleeping eight hours vs sleeping six but exercising: which is better for energy?",
+                "text": "Seeing a doctor early vs waiting to see if you get better: which is wiser?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_004",
+        "topic": "Sleeping eight hours vs sleeping six but exercising: which is better for energy?",
         "sideA": "8 hours",
         "sideB": "6 hours + exercise",
         "ideasA": [
@@ -498,22 +544,25 @@
         "ideasB": [
             "Higher physical fitness",
             "Keep the body active"
-        ]
-    },
-    {
-        "id": "en_elementary_body_005",
-        "word": "Reducing stress through sport vs through relaxation: which works better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Sleeping eight hours vs sleeping six but exercising: which is better for energy?",
         "form": "other",
         "definitions": [
             {
-                "text": "Reducing stress through sport vs through relaxation: which works better?",
+                "text": "Sleeping eight hours vs sleeping six but exercising: which is better for energy?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_005",
+        "topic": "Reducing stress through sport vs through relaxation: which works better?",
         "sideA": "Sport",
         "sideB": "Relaxation",
         "ideasA": [
@@ -523,22 +572,25 @@
         "ideasB": [
             "Mental peace",
             "Calm the mind"
-        ]
-    },
-    {
-        "id": "en_elementary_technology_001",
-        "word": "Smartphones vs face-to-face conversation: which do we use more, and is that a problem?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "technology",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Reducing stress through sport vs through relaxation: which works better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Smartphones vs face-to-face conversation: which do we use more, and is that a problem?",
+                "text": "Reducing stress through sport vs through relaxation: which works better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_technology_001",
+        "topic": "Smartphones vs face-to-face conversation: which do we use more, and is that a problem?",
         "sideA": "Smartphones",
         "sideB": "Face-to-face",
         "ideasA": [
@@ -548,22 +600,25 @@
         "ideasB": [
             "Express real emotions",
             "Better personal focus"
-        ]
-    },
-    {
-        "id": "en_elementary_technology_002",
-        "word": "Online banking vs going to the bank: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "technology",
         "sub_theme": null,
+        "word": "Smartphones vs face-to-face conversation: which do we use more, and is that a problem?",
         "form": "other",
         "definitions": [
             {
-                "text": "Online banking vs going to the bank: which is better?",
+                "text": "Smartphones vs face-to-face conversation: which do we use more, and is that a problem?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_technology_002",
+        "topic": "Online banking vs going to the bank: which is better?",
         "sideA": "Online",
         "sideB": "Going to bank",
         "ideasA": [
@@ -573,22 +628,25 @@
         "ideasB": [
             "Personal expert advice",
             "Physical security"
-        ]
-    },
-    {
-        "id": "en_elementary_work_008",
-        "word": "Working with paper vs working digitally: which is more efficient?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "technology",
         "sub_theme": null,
+        "word": "Online banking vs going to the bank: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working with paper vs working digitally: which is more efficient?",
+                "text": "Online banking vs going to the bank: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_008",
+        "topic": "Working with paper vs working digitally: which is more efficient?",
         "sideA": "Paper",
         "sideB": "Digital",
         "ideasA": [
@@ -598,22 +656,25 @@
         "ideasB": [
             "Efficient digital storage",
             "Faster information search"
-        ]
-    },
-    {
-        "id": "en_elementary_work_009",
-        "word": "Social media for networking vs meeting people in person: which is more useful professionally?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Working with paper vs working digitally: which is more efficient?",
         "form": "other",
         "definitions": [
             {
-                "text": "Social media for networking vs meeting people in person: which is more useful professionally?",
+                "text": "Working with paper vs working digitally: which is more efficient?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_009",
+        "topic": "Social media for networking vs meeting people in person: which is more useful professionally?",
         "sideA": "Social media",
         "sideB": "In person",
         "ideasA": [
@@ -623,22 +684,25 @@
         "ideasB": [
             "Build stronger trust",
             "Make a personal impact"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_002",
-        "word": "Package holiday vs independent travel: which is better for adults?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Social media for networking vs meeting people in person: which is more useful professionally?",
         "form": "other",
         "definitions": [
             {
-                "text": "Package holiday vs independent travel: which is better for adults?",
+                "text": "Social media for networking vs meeting people in person: which is more useful professionally?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_002",
+        "topic": "Package holiday vs independent travel: which is better for adults?",
         "sideA": "Package",
         "sideB": "Independent",
         "ideasA": [
@@ -648,22 +712,25 @@
         "ideasB": [
             "Authentic adventure",
             "Unique local experiences"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_003",
-        "word": "City break vs beach holiday: which is a better way to relax?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Package holiday vs independent travel: which is better for adults?",
         "form": "other",
         "definitions": [
             {
-                "text": "City break vs beach holiday: which is a better way to relax?",
+                "text": "Package holiday vs independent travel: which is better for adults?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_003",
+        "topic": "City break vs beach holiday: which is a better way to relax?",
         "sideA": "City break",
         "sideB": "Beach holiday",
         "ideasA": [
@@ -673,22 +740,25 @@
         "ideasB": [
             "Relaxing ocean breeze",
             "Complete physical relaxation"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_004",
-        "word": "One long holiday a year vs several short breaks: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "City break vs beach holiday: which is a better way to relax?",
         "form": "other",
         "definitions": [
             {
-                "text": "One long holiday a year vs several short breaks: which is better?",
+                "text": "City break vs beach holiday: which is a better way to relax?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_004",
+        "topic": "One long holiday a year vs several short breaks: which is better?",
         "sideA": "One long",
         "sideB": "Several short",
         "ideasA": [
@@ -698,22 +768,25 @@
         "ideasB": [
             "Regular breaks from work",
             "Visit more destinations"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_005",
-        "word": "Travelling as a couple vs travelling alone: which is more enjoyable?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "One long holiday a year vs several short breaks: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Travelling as a couple vs travelling alone: which is more enjoyable?",
+                "text": "One long holiday a year vs several short breaks: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_005",
+        "topic": "Travelling as a couple vs travelling alone: which is more enjoyable?",
         "sideA": "As a couple",
         "sideB": "Alone",
         "ideasA": [
@@ -723,22 +796,25 @@
         "ideasB": [
             "Complete personal choice",
             "Meet more local people"
-        ]
-    },
-    {
-        "id": "en_elementary_people_005",
-        "word": "Telling your partner about every small problem vs keeping things to yourself: which is healthier?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
-        "sub_theme": "relationships",
+        "theme": "travel",
+        "sub_theme": null,
+        "word": "Travelling as a couple vs travelling alone: which is more enjoyable?",
         "form": "other",
         "definitions": [
             {
-                "text": "Telling your partner about every small problem vs keeping things to yourself: which is healthier?",
+                "text": "Travelling as a couple vs travelling alone: which is more enjoyable?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_005",
+        "topic": "Telling your partner about every small problem vs keeping things to yourself: which is healthier?",
         "sideA": "Telling all",
         "sideB": "Keeping to self",
         "ideasA": [
@@ -748,22 +824,25 @@
         "ideasB": [
             "Avoid unnecessary drama",
             "Internal mental peace"
-        ]
-    },
-    {
-        "id": "en_elementary_places_004",
-        "word": "Checking your phone first thing in the morning vs waiting until after breakfast: which is a better habit?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "people",
+        "sub_theme": "relationships",
+        "word": "Telling your partner about every small problem vs keeping things to yourself: which is healthier?",
         "form": "other",
         "definitions": [
             {
-                "text": "Checking your phone first thing in the morning vs waiting until after breakfast: which is a better habit?",
+                "text": "Telling your partner about every small problem vs keeping things to yourself: which is healthier?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_004",
+        "topic": "Checking your phone first thing in the morning vs waiting until after breakfast: which is a better habit?",
         "sideA": "First thing",
         "sideB": "After breakfast",
         "ideasA": [
@@ -773,22 +852,25 @@
         "ideasB": [
             "Quiet start to the day",
             "Practice mindful eating"
-        ]
-    },
-    {
-        "id": "en_elementary_people_006",
-        "word": "Knowing your neighbours' names vs not knowing them: which is the more normal adult experience today?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Checking your phone first thing in the morning vs waiting until after breakfast: which is a better habit?",
         "form": "other",
         "definitions": [
             {
-                "text": "Knowing your neighbours' names vs not knowing them: which is the more normal adult experience today?",
+                "text": "Checking your phone first thing in the morning vs waiting until after breakfast: which is a better habit?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_006",
+        "topic": "Knowing your neighbours' names vs not knowing them: which is the more normal adult experience today?",
         "sideA": "Knowing names",
         "sideB": "Not knowing",
         "ideasA": [
@@ -798,22 +880,25 @@
         "ideasB": [
             "Maintain total privacy",
             "Avoid local gossip"
-        ]
-    },
-    {
-        "id": "en_elementary_places_005",
-        "word": "Grocery shopping with a list vs without a list: which type of person has a better life?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "people",
         "sub_theme": null,
+        "word": "Knowing your neighbours' names vs not knowing them: which is the more normal adult experience today?",
         "form": "other",
         "definitions": [
             {
-                "text": "Grocery shopping with a list vs without a list: which type of person has a better life?",
+                "text": "Knowing your neighbours' names vs not knowing them: which is the more normal adult experience today?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_005",
+        "topic": "Grocery shopping with a list vs without a list: which type of person has a better life?",
         "sideA": "With list",
         "sideB": "Without list",
         "ideasA": [
@@ -823,22 +908,25 @@
         "ideasB": [
             "Spontaneous choices",
             "Creative cooking ideas"
-        ]
-    },
-    {
-        "id": "en_elementary_work_010",
-        "word": "Telling your boss you are sick vs going to work sick: which is the braver choice?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Grocery shopping with a list vs without a list: which type of person has a better life?",
         "form": "other",
         "definitions": [
             {
-                "text": "Telling your boss you are sick vs going to work sick: which is the braver choice?",
+                "text": "Grocery shopping with a list vs without a list: which type of person has a better life?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_010",
+        "topic": "Telling your boss you are sick vs going to work sick: which is the braver choice?",
         "sideA": "Telling boss",
         "sideB": "Going sick",
         "ideasA": [
@@ -848,22 +936,25 @@
         "ideasB": [
             "Show work commitment",
             "Finish important deadlines"
-        ]
-    },
-    {
-        "id": "en_elementary_work_011",
-        "word": "Working full-time vs working part-time: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Telling your boss you are sick vs going to work sick: which is the braver choice?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working full-time vs working part-time: which is better?",
+                "text": "Telling your boss you are sick vs going to work sick: which is the braver choice?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_011",
+        "topic": "Working full-time vs working part-time: which is better?",
         "sideA": "Full-time",
         "sideB": "Part-time",
         "ideasA": [
@@ -873,22 +964,25 @@
         "ideasB": [
             "Better life balance",
             "More time for study"
-        ]
-    },
-    {
-        "id": "en_elementary_work_012",
-        "word": "Working in an office vs working from home: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Working full-time vs working part-time: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working in an office vs working from home: which is better?",
+                "text": "Working full-time vs working part-time: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_012",
+        "topic": "Working in an office vs working from home: which is better?",
         "sideA": "Office",
         "sideB": "Home",
         "ideasA": [
@@ -898,22 +992,25 @@
         "ideasB": [
             "No time commuting",
             "Flexible working hours"
-        ]
-    },
-    {
-        "id": "en_elementary_work_013",
-        "word": "A job you love vs a job that pays well: which is more important?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Working in an office vs working from home: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "A job you love vs a job that pays well: which is more important?",
+                "text": "Working in an office vs working from home: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_013",
+        "topic": "A job you love vs a job that pays well: which is more important?",
         "sideA": "Job you love",
         "sideB": "Pays well",
         "ideasA": [
@@ -923,22 +1020,25 @@
         "ideasB": [
             "Greater financial freedom",
             "Higher quality of life"
-        ]
-    },
-    {
-        "id": "en_elementary_work_014",
-        "word": "Working with other people vs working alone: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "A job you love vs a job that pays well: which is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working with other people vs working alone: which is better?",
+                "text": "A job you love vs a job that pays well: which is more important?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_014",
+        "topic": "Working with other people vs working alone: which is better?",
         "sideA": "With people",
         "sideB": "Alone",
         "ideasA": [
@@ -948,22 +1048,25 @@
         "ideasB": [
             "Quiet mental focus",
             "Independent work style"
-        ]
-    },
-    {
-        "id": "en_elementary_work_015",
-        "word": "A short commute vs a long commute: which is more acceptable?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Working with other people vs working alone: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "A short commute vs a long commute: which is more acceptable?",
+                "text": "Working with other people vs working alone: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_015",
+        "topic": "A short commute vs a long commute: which is more acceptable?",
         "sideA": "Short",
         "sideB": "Long",
         "ideasA": [
@@ -973,22 +1076,25 @@
         "ideasB": [
             "Cheaper suburban housing",
             "Time for podcasts"
-        ]
-    },
-    {
-        "id": "en_elementary_people_007",
-        "word": "Living alone vs living with a partner: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
-        "sub_theme": "relationships",
+        "theme": "jobs",
+        "sub_theme": null,
+        "word": "A short commute vs a long commute: which is more acceptable?",
         "form": "other",
         "definitions": [
             {
-                "text": "Living alone vs living with a partner: which is better?",
+                "text": "A short commute vs a long commute: which is more acceptable?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_007",
+        "topic": "Living alone vs living with a partner: which is better?",
         "sideA": "Alone",
         "sideB": "Partner",
         "ideasA": [
@@ -998,22 +1104,25 @@
         "ideasB": [
             "Shared daily life",
             "Support during problems"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_006",
-        "word": "Big city vs small town: which is a better place to live as an adult?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
-        "sub_theme": null,
+        "theme": "people",
+        "sub_theme": "relationships",
+        "word": "Living alone vs living with a partner: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Big city vs small town: which is a better place to live as an adult?",
+                "text": "Living alone vs living with a partner: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_006",
+        "topic": "Big city vs small town: which is a better place to live as an adult?",
         "sideA": "Big city",
         "sideB": "Small town",
         "ideasA": [
@@ -1023,22 +1132,25 @@
         "ideasB": [
             "Lower living costs",
             "Clean and fresh air"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_002",
-        "word": "Cooking at home vs eating out: which is better for daily life?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "food_drink",
-        "sub_theme": "cooking",
+        "theme": "travel",
+        "sub_theme": null,
+        "word": "Big city vs small town: which is a better place to live as an adult?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cooking at home vs eating out: which is better for daily life?",
+                "text": "Big city vs small town: which is a better place to live as an adult?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_002",
+        "topic": "Cooking at home vs eating out: which is better for daily life?",
         "sideA": "At home",
         "sideB": "Eating out",
         "ideasA": [
@@ -1048,22 +1160,25 @@
         "ideasB": [
             "No kitchen cleaning",
             "Try professional food"
-        ]
-    },
-    {
-        "id": "en_elementary_people_008",
-        "word": "Having children vs not having children: which life is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
-        "sub_theme": null,
+        "theme": "food_drink",
+        "sub_theme": "cooking",
+        "word": "Cooking at home vs eating out: which is better for daily life?",
         "form": "other",
         "definitions": [
             {
-                "text": "Having children vs not having children: which life is better?",
+                "text": "Cooking at home vs eating out: which is better for daily life?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_008",
+        "topic": "Having children vs not having children: which life is better?",
         "sideA": "Children",
         "sideB": "No children",
         "ideasA": [
@@ -1073,22 +1188,25 @@
         "ideasB": [
             "Total freedom of travel",
             "Intense career focus"
-        ]
-    },
-    {
-        "id": "en_elementary_places_006",
-        "word": "Renting a flat vs buying a house: which is better for young adults?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "people",
         "sub_theme": null,
+        "word": "Having children vs not having children: which life is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Renting a flat vs buying a house: which is better for young adults?",
+                "text": "Having children vs not having children: which life is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_006",
+        "topic": "Renting a flat vs buying a house: which is better for young adults?",
         "sideA": "Renting",
         "sideB": "Buying",
         "ideasA": [
@@ -1098,22 +1216,25 @@
         "ideasB": [
             "Build property equity",
             "Space for a garden"
-        ]
-    },
-    {
-        "id": "en_elementary_body_006",
-        "word": "Exercise every day vs rest: which is better for your health?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Renting a flat vs buying a house: which is better for young adults?",
         "form": "other",
         "definitions": [
             {
-                "text": "Exercise every day vs rest: which is better for your health?",
+                "text": "Renting a flat vs buying a house: which is better for young adults?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_006",
+        "topic": "Exercise every day vs rest: which is better for your health?",
         "sideA": "Exercise",
         "sideB": "Rest",
         "ideasA": [
@@ -1123,22 +1244,25 @@
         "ideasB": [
             "Essential muscle recovery",
             "Support mental health"
-        ]
-    },
-    {
-        "id": "en_elementary_body_007",
-        "word": "Going to the doctor vs waiting: which is better when you feel ill?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Exercise every day vs rest: which is better for your health?",
         "form": "other",
         "definitions": [
             {
-                "text": "Going to the doctor vs waiting: which is better when you feel ill?",
+                "text": "Exercise every day vs rest: which is better for your health?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_007",
+        "topic": "Going to the doctor vs waiting: which is better when you feel ill?",
         "sideA": "Doctor",
         "sideB": "Waiting",
         "ideasA": [
@@ -1148,22 +1272,25 @@
         "ideasB": [
             "Avoid busy clinics",
             "Support natural healing"
-        ]
-    },
-    {
-        "id": "en_elementary_body_008",
-        "word": "Sleeping eight hours vs sleeping less: which is more realistic for adults?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Going to the doctor vs waiting: which is better when you feel ill?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sleeping eight hours vs sleeping less: which is more realistic for adults?",
+                "text": "Going to the doctor vs waiting: which is better when you feel ill?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_008",
+        "topic": "Sleeping eight hours vs sleeping less: which is more realistic for adults?",
         "sideA": "8 hours",
         "sideB": "Less",
         "ideasA": [
@@ -1173,22 +1300,25 @@
         "ideasB": [
             "Face work-life reality",
             "Time for evening hobbies"
-        ]
-    },
-    {
-        "id": "en_elementary_body_009",
-        "word": "Walking to work vs taking the car: which is better for your health?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Sleeping eight hours vs sleeping less: which is more realistic for adults?",
         "form": "other",
         "definitions": [
             {
-                "text": "Walking to work vs taking the car: which is better for your health?",
+                "text": "Sleeping eight hours vs sleeping less: which is more realistic for adults?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_009",
+        "topic": "Walking to work vs taking the car: which is better for your health?",
         "sideA": "Walking",
         "sideB": "Car",
         "ideasA": [
@@ -1198,22 +1328,25 @@
         "ideasB": [
             "Protection from weather",
             "Save physical energy"
-        ]
-    },
-    {
-        "id": "en_elementary_places_007",
-        "word": "Online shopping vs shopping in a store: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Walking to work vs taking the car: which is better for your health?",
         "form": "other",
         "definitions": [
             {
-                "text": "Online shopping vs shopping in a store: which is better?",
+                "text": "Walking to work vs taking the car: which is better for your health?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_007",
+        "topic": "Online shopping vs shopping in a store: which is better?",
         "sideA": "Online",
         "sideB": "Store",
         "ideasA": [
@@ -1223,22 +1356,25 @@
         "ideasB": [
             "Try on clothes",
             "Support local business"
-        ]
-    },
-    {
-        "id": "en_elementary_work_016",
-        "word": "Saving for the future vs enjoying money now: which is wiser?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Online shopping vs shopping in a store: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Saving for the future vs enjoying money now: which is wiser?",
+                "text": "Online shopping vs shopping in a store: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_016",
+        "topic": "Saving for the future vs enjoying money now: which is wiser?",
         "sideA": "Saving",
         "sideB": "Enjoying now",
         "ideasA": [
@@ -1248,22 +1384,25 @@
         "ideasB": [
             "Increase mental happiness",
             "Experience life fully"
-        ]
-    },
-    {
-        "id": "en_elementary_places_008",
-        "word": "Expensive things vs cheap things: which is better value?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Saving for the future vs enjoying money now: which is wiser?",
         "form": "other",
         "definitions": [
             {
-                "text": "Expensive things vs cheap things: which is better value?",
+                "text": "Saving for the future vs enjoying money now: which is wiser?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_008",
+        "topic": "Expensive things vs cheap things: which is better value?",
         "sideA": "Expensive",
         "sideB": "Cheap",
         "ideasA": [
@@ -1273,22 +1412,25 @@
         "ideasB": [
             "Low financial risk",
             "Save more money"
-        ]
-    },
-    {
-        "id": "en_elementary_places_009",
-        "word": "Buying new vs buying second-hand: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "places",
         "sub_theme": null,
+        "word": "Expensive things vs cheap things: which is better value?",
         "form": "other",
         "definitions": [
             {
-                "text": "Buying new vs buying second-hand: which is better?",
+                "text": "Expensive things vs cheap things: which is better value?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_009",
+        "topic": "Buying new vs buying second-hand: which is better?",
         "sideA": "New",
         "sideB": "Second-hand",
         "ideasA": [
@@ -1298,22 +1440,25 @@
         "ideasB": [
             "Eco-friendly choice",
             "Very low prices"
-        ]
-    },
-    {
-        "id": "en_elementary_social_001",
-        "word": "Watching TV at home vs going out: which is a better evening?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "social",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Buying new vs buying second-hand: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Watching TV at home vs going out: which is a better evening?",
+                "text": "Buying new vs buying second-hand: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_001",
+        "topic": "Watching TV at home vs going out: which is a better evening?",
         "sideA": "TV",
         "sideB": "Going out",
         "ideasA": [
@@ -1323,22 +1468,25 @@
         "ideasB": [
             "Social contact",
             "Vibrant atmosphere"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_007",
-        "word": "Holidays with family vs holidays with friends: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
+        "theme": "social",
         "sub_theme": null,
+        "word": "Watching TV at home vs going out: which is a better evening?",
         "form": "other",
         "definitions": [
             {
-                "text": "Holidays with family vs holidays with friends: which is better?",
+                "text": "Watching TV at home vs going out: which is a better evening?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_007",
+        "topic": "Holidays with family vs holidays with friends: which is better?",
         "sideA": "Family",
         "sideB": "Friends",
         "ideasA": [
@@ -1348,22 +1496,25 @@
         "ideasB": [
             "Share similar hobbies",
             "Dynamic energy levels"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_008",
-        "word": "Staying in your country vs travelling abroad: which is a better holiday?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Holidays with family vs holidays with friends: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Staying in your country vs travelling abroad: which is a better holiday?",
+                "text": "Holidays with family vs holidays with friends: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_008",
+        "topic": "Staying in your country vs travelling abroad: which is a better holiday?",
         "sideA": "Your country",
         "sideB": "Abroad",
         "ideasA": [
@@ -1373,22 +1524,25 @@
         "ideasB": [
             "Learn foreign cultures",
             "Practice new languages"
-        ]
-    },
-    {
-        "id": "en_elementary_social_002",
-        "word": "Sport vs reading: which is a better hobby for adults?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "social",
+        "theme": "travel",
         "sub_theme": null,
+        "word": "Staying in your country vs travelling abroad: which is a better holiday?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sport vs reading: which is a better hobby for adults?",
+                "text": "Staying in your country vs travelling abroad: which is a better holiday?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_002",
+        "topic": "Sport vs reading: which is a better hobby for adults?",
         "sideA": "Sport",
         "sideB": "Reading",
         "ideasA": [
@@ -1398,22 +1552,25 @@
         "ideasB": [
             "Stimulate mental growth",
             "Deep mental relaxation"
-        ]
-    },
-    {
-        "id": "en_elementary_people_009",
-        "word": "Seeing friends often vs having time alone: which is more important?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
-        "sub_theme": "relationships",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Sport vs reading: which is a better hobby for adults?",
         "form": "other",
         "definitions": [
             {
-                "text": "Seeing friends often vs having time alone: which is more important?",
+                "text": "Sport vs reading: which is a better hobby for adults?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_009",
+        "topic": "Seeing friends often vs having time alone: which is more important?",
         "sideA": "Friends",
         "sideB": "Alone",
         "ideasA": [
@@ -1423,22 +1580,25 @@
         "ideasB": [
             "Space for self-reflection",
             "Total mental peace"
-        ]
-    },
-    {
-        "id": "en_elementary_work_017",
-        "word": "Replying to emails immediately vs leaving them for later: which is more professional?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "people",
+        "sub_theme": "relationships",
+        "word": "Seeing friends often vs having time alone: which is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "Replying to emails immediately vs leaving them for later: which is more professional?",
+                "text": "Seeing friends often vs having time alone: which is more important?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_017",
+        "topic": "Replying to emails immediately vs leaving them for later: which is more professional?",
         "sideA": "Immediately",
         "sideB": "Later",
         "ideasA": [
@@ -1448,22 +1608,25 @@
         "ideasB": [
             "Prepare thoughtful replies",
             "Maintain deep focus"
-        ]
-    },
-    {
-        "id": "en_elementary_places_010",
-        "word": "Doing the dishes immediately vs leaving them until tomorrow: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Replying to emails immediately vs leaving them for later: which is more professional?",
         "form": "other",
         "definitions": [
             {
-                "text": "Doing the dishes immediately vs leaving them until tomorrow: which is better?",
+                "text": "Replying to emails immediately vs leaving them for later: which is more professional?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_010",
+        "topic": "Doing the dishes immediately vs leaving them until tomorrow: which is better?",
         "sideA": "Immediately",
         "sideB": "Tomorrow",
         "ideasA": [
@@ -1473,22 +1636,25 @@
         "ideasB": [
             "Enjoy evening rest",
             "Spend time with family"
-        ]
-    },
-    {
-        "id": "en_elementary_work_018",
-        "word": "Being always early vs always five minutes late: which is worse at work?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Doing the dishes immediately vs leaving them until tomorrow: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Being always early vs always five minutes late: which is worse at work?",
+                "text": "Doing the dishes immediately vs leaving them until tomorrow: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_018",
+        "topic": "Being always early vs always five minutes late: which is worse at work?",
         "sideA": "Early",
         "sideB": "Late",
         "ideasA": [
@@ -1498,22 +1664,25 @@
         "ideasB": [
             "Appears unprofessional",
             "Missing meeting starts"
-        ]
-    },
-    {
-        "id": "en_elementary_work_019",
-        "word": "Having a very organised desk vs a messy desk: which person is more productive?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Being always early vs always five minutes late: which is worse at work?",
         "form": "other",
         "definitions": [
             {
-                "text": "Having a very organised desk vs a messy desk: which person is more productive?",
+                "text": "Being always early vs always five minutes late: which is worse at work?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_019",
+        "topic": "Having a very organised desk vs a messy desk: which person is more productive?",
         "sideA": "Organised",
         "sideB": "Messy",
         "ideasA": [
@@ -1523,22 +1692,25 @@
         "ideasB": [
             "Encourages creative chaos",
             "Fast access to tools"
-        ]
-    },
-    {
-        "id": "en_elementary_places_011",
-        "word": "Talking about work at dinner vs no work talk at dinner: which rule is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Having a very organised desk vs a messy desk: which person is more productive?",
         "form": "other",
         "definitions": [
             {
-                "text": "Talking about work at dinner vs no work talk at dinner: which rule is better?",
+                "text": "Having a very organised desk vs a messy desk: which person is more productive?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_011",
+        "topic": "Talking about work at dinner vs no work talk at dinner: which rule is better?",
         "sideA": "Work talk",
         "sideB": "No work talk",
         "ideasA": [
@@ -1548,22 +1720,25 @@
         "ideasB": [
             "Disconnect fully",
             "Quality relaxation time"
-        ]
-    },
-    {
-        "id": "en_elementary_people_010",
-        "word": "Living with family vs Alone: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
-        "sub_theme": "family",
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Talking about work at dinner vs no work talk at dinner: which rule is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Living with family vs Alone: which is better?",
+                "text": "Talking about work at dinner vs no work talk at dinner: which rule is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_010",
+        "topic": "Living with family vs Alone: which is better?",
         "sideA": "With family",
         "sideB": "Alone",
         "ideasA": [
@@ -1573,22 +1748,25 @@
         "ideasB": [
             "Total independence",
             "Absolute privacy"
-        ]
-    },
-    {
-        "id": "en_elementary_people_011",
-        "word": "Having a brother vs Sister: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
         "sub_theme": "family",
+        "word": "Living with family vs Alone: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Having a brother vs Sister: which is better?",
+                "text": "Living with family vs Alone: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_011",
+        "topic": "Having a brother vs Sister: which is better?",
         "sideA": "Brother",
         "sideB": "Sister",
         "ideasA": [
@@ -1598,22 +1776,25 @@
         "ideasB": [
             "Have deep talks",
             "Sharing secrets"
-        ]
-    },
-    {
-        "id": "en_elementary_people_012",
-        "word": "Big vs Small family: which is nicer?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
         "sub_theme": "family",
+        "word": "Having a brother vs Sister: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Big vs Small family: which is nicer?",
+                "text": "Having a brother vs Sister: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_012",
+        "topic": "Big vs Small family: which is nicer?",
         "sideA": "Big family",
         "sideB": "Small family",
         "ideasA": [
@@ -1623,22 +1804,25 @@
         "ideasB": [
             "Quiet daily life",
             "Closer emotional bonds"
-        ]
-    },
-    {
-        "id": "en_elementary_people_013",
-        "word": "Oldest vs Youngest child: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
+        "word": "Big vs Small family: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Oldest vs Youngest child: which is better?",
+                "text": "Big vs Small family: which is nicer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_013",
+        "topic": "Oldest vs Youngest child: which is better?",
         "sideA": "Oldest",
         "sideB": "Youngest",
         "ideasA": [
@@ -1648,22 +1832,25 @@
         "ideasB": [
             "Receive extra attention",
             "More relaxed rules"
-        ]
-    },
-    {
-        "id": "en_elementary_work_020",
-        "word": "Morning vs Afternoon school: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "people",
         "sub_theme": null,
+        "word": "Oldest vs Youngest child: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Morning vs Afternoon school: which is better?",
+                "text": "Oldest vs Youngest child: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_020",
+        "topic": "Morning vs Afternoon school: which is better?",
         "sideA": "Morning",
         "sideB": "Afternoon",
         "ideasA": [
@@ -1673,22 +1860,25 @@
         "ideasB": [
             "Able to sleep late",
             "Quiet start to the day"
-        ]
-    },
-    {
-        "id": "en_elementary_work_021",
-        "word": "Reading vs Maths: which is more fun?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Morning vs Afternoon school: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Reading vs Maths: which is more fun?",
+                "text": "Morning vs Afternoon school: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_021",
+        "topic": "Reading vs Maths: which is more fun?",
         "sideA": "Reading",
         "sideB": "Maths",
         "ideasA": [
@@ -1698,22 +1888,25 @@
         "ideasB": [
             "Complex problem solving",
             "Logical thinking"
-        ]
-    },
-    {
-        "id": "en_elementary_work_022",
-        "word": "School vs Home learning: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Reading vs Maths: which is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "School vs Home learning: which is better?",
+                "text": "Reading vs Maths: which is more fun?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_022",
+        "topic": "School vs Home learning: which is better?",
         "sideA": "School",
         "sideB": "Home",
         "ideasA": [
@@ -1723,22 +1916,25 @@
         "ideasB": [
             "Comfortable setup",
             "Flexible learning hours"
-        ]
-    },
-    {
-        "id": "en_elementary_work_023",
-        "word": "Homework vs No homework: which helps more?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "School vs Home learning: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Homework vs No homework: which helps more?",
+                "text": "School vs Home learning: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_023",
+        "topic": "Homework vs No homework: which helps more?",
         "sideA": "Homework",
         "sideB": "None",
         "ideasA": [
@@ -1748,22 +1944,25 @@
         "ideasB": [
             "More free time",
             "Mental rest period"
-        ]
-    },
-    {
-        "id": "en_elementary_work_024",
-        "word": "Alone vs Partner work: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Homework vs No homework: which helps more?",
         "form": "other",
         "definitions": [
             {
-                "text": "Alone vs Partner work: which is better?",
+                "text": "Homework vs No homework: which helps more?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_024",
+        "topic": "Alone vs Partner work: which is better?",
         "sideA": "Alone",
         "sideB": "Partner",
         "ideasA": [
@@ -1773,22 +1972,25 @@
         "ideasB": [
             "Share knowledge",
             "Collaborative fun"
-        ]
-    },
-    {
-        "id": "en_elementary_work_025",
-        "word": "Paper vs Computer: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Alone vs Partner work: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Paper vs Computer: which is better?",
+                "text": "Alone vs Partner work: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_025",
+        "topic": "Paper vs Computer: which is better?",
         "sideA": "Paper",
         "sideB": "Computer",
         "ideasA": [
@@ -1798,22 +2000,25 @@
         "ideasB": [
             "Speed of typing",
             "Digital search tools"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_003",
-        "word": "Breakfast vs Dinner: which meal is more important?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "food_drink",
-        "sub_theme": "meals",
+        "theme": "jobs",
+        "sub_theme": null,
+        "word": "Paper vs Computer: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Breakfast vs Dinner: which meal is more important?",
+                "text": "Paper vs Computer: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_003",
+        "topic": "Breakfast vs Dinner: which meal is more important?",
         "sideA": "Breakfast",
         "sideB": "Dinner",
         "ideasA": [
@@ -1823,22 +2028,25 @@
         "ideasB": [
             "Family gathering time",
             "Main daily meal"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_004",
-        "word": "Hot vs Cold food: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
+        "sub_theme": "meals",
+        "word": "Breakfast vs Dinner: which meal is more important?",
         "form": "other",
         "definitions": [
             {
-                "text": "Hot vs Cold food: which is better?",
+                "text": "Breakfast vs Dinner: which meal is more important?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_004",
+        "topic": "Hot vs Cold food: which is better?",
         "sideA": "Hot",
         "sideB": "Cold",
         "ideasA": [
@@ -1848,22 +2056,25 @@
         "ideasB": [
             "Fresh for summer",
             "Salad variety"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_005",
-        "word": "Home vs Restaurant: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
         "sub_theme": null,
+        "word": "Hot vs Cold food: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Home vs Restaurant: which is better?",
+                "text": "Hot vs Cold food: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_005",
+        "topic": "Home vs Restaurant: which is better?",
         "sideA": "Home",
         "sideB": "Restaurant",
         "ideasA": [
@@ -1873,22 +2084,25 @@
         "ideasB": [
             "Professional chefs",
             "Zero cleaning"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_006",
-        "word": "Sweet vs Savoury: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
         "sub_theme": null,
+        "word": "Home vs Restaurant: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sweet vs Savoury: which is better?",
+                "text": "Home vs Restaurant: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_006",
+        "topic": "Sweet vs Savoury: which is better?",
         "sideA": "Sweet",
         "sideB": "Savoury",
         "ideasA": [
@@ -1898,22 +2112,25 @@
         "ideasB": [
             "High nutritional value",
             "Feel fuller longer"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_007",
-        "word": "Cooking vs Buying food: which is nicer?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": "cooking",
+        "sub_theme": null,
+        "word": "Sweet vs Savoury: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cooking vs Buying food: which is nicer?",
+                "text": "Sweet vs Savoury: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_007",
+        "topic": "Cooking vs Buying food: which is nicer?",
         "sideA": "Cooking",
         "sideB": "Buying",
         "ideasA": [
@@ -1923,22 +2140,25 @@
         "ideasB": [
             "Total convenience",
             "Saves time"
-        ]
-    },
-    {
-        "id": "en_elementary_places_012",
-        "word": "Early vs Late waking: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "food_drink",
+        "sub_theme": "cooking",
+        "word": "Cooking vs Buying food: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Early vs Late waking: which is better?",
+                "text": "Cooking vs Buying food: which is nicer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_012",
+        "topic": "Early vs Late waking: which is better?",
         "sideA": "Early",
         "sideB": "Late",
         "ideasA": [
@@ -1948,22 +2168,25 @@
         "ideasB": [
             "Full physical rest",
             "High night energy"
-        ]
-    },
-    {
-        "id": "en_elementary_places_013",
-        "word": "Morning vs Evening: which part of the day is nicer?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "places",
         "sub_theme": null,
+        "word": "Early vs Late waking: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Morning vs Evening: which part of the day is nicer?",
+                "text": "Early vs Late waking: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_013",
+        "topic": "Morning vs Evening: which part of the day is nicer?",
         "sideA": "Morning",
         "sideB": "Evening",
         "ideasA": [
@@ -1973,22 +2196,25 @@
         "ideasB": [
             "Social time",
             "Complete relaxation"
-        ]
-    },
-    {
-        "id": "en_elementary_places_014",
-        "word": "Weekdays vs Weekends: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "places",
         "sub_theme": null,
+        "word": "Morning vs Evening: which part of the day is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Weekdays vs Weekends: which is better?",
+                "text": "Morning vs Evening: which part of the day is nicer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_014",
+        "topic": "Weekdays vs Weekends: which is better?",
         "sideA": "Weekdays",
         "sideB": "Weekends",
         "ideasA": [
@@ -1998,22 +2224,25 @@
         "ideasB": [
             "Total personal freedom",
             "Time for hobbies"
-        ]
-    },
-    {
-        "id": "en_elementary_environment_001",
-        "word": "Summer vs Winter: which season is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Weekdays vs Weekends: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Summer vs Winter: which season is better?",
+                "text": "Weekdays vs Weekends: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_environment_001",
+        "topic": "Summer vs Winter: which season is better?",
         "sideA": "Summer",
         "sideB": "Winter",
         "ideasA": [
@@ -2023,22 +2252,25 @@
         "ideasB": [
             "Snow activities",
             "Cozy atmosphere"
-        ]
-    },
-    {
-        "id": "en_elementary_places_015",
-        "word": "Early vs Late bed: which is healthier?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "nature",
         "sub_theme": null,
+        "word": "Summer vs Winter: which season is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Early vs Late bed: which is healthier?",
+                "text": "Summer vs Winter: which season is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_015",
+        "topic": "Early vs Late bed: which is healthier?",
         "sideA": "Early",
         "sideB": "Late",
         "ideasA": [
@@ -2048,22 +2280,25 @@
         "ideasB": [
             "Evening creativity",
             "Time for movies"
-        ]
-    },
-    {
-        "id": "en_elementary_places_016",
-        "word": "House vs Flat: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "places",
         "sub_theme": null,
+        "word": "Early vs Late bed: which is healthier?",
         "form": "other",
         "definitions": [
             {
-                "text": "House vs Flat: which is better?",
+                "text": "Early vs Late bed: which is healthier?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_016",
+        "topic": "House vs Flat: which is better?",
         "sideA": "House",
         "sideB": "Flat",
         "ideasA": [
@@ -2073,22 +2308,25 @@
         "ideasB": [
             "Easy cleaning",
             "Central location"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_009",
-        "word": "City vs Countryside: which is a better place to live?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
+        "theme": "places",
         "sub_theme": null,
+        "word": "House vs Flat: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "City vs Countryside: which is a better place to live?",
+                "text": "House vs Flat: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_009",
+        "topic": "City vs Countryside: which is a better place to live?",
         "sideA": "City",
         "sideB": "Countryside",
         "ideasA": [
@@ -2098,22 +2336,25 @@
         "ideasB": [
             "Fresh clean air",
             "Quiet nature"
-        ]
-    },
-    {
-        "id": "en_elementary_places_017",
-        "word": "Bedroom vs Living room: which room do you prefer?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "travel",
         "sub_theme": null,
+        "word": "City vs Countryside: which is a better place to live?",
         "form": "other",
         "definitions": [
             {
-                "text": "Bedroom vs Living room: which room do you prefer?",
+                "text": "City vs Countryside: which is a better place to live?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_017",
+        "topic": "Bedroom vs Living room: which room do you prefer?",
         "sideA": "Bedroom",
         "sideB": "Living room",
         "ideasA": [
@@ -2123,22 +2364,25 @@
         "ideasB": [
             "Family space",
             "Large screen TV"
-        ]
-    },
-    {
-        "id": "en_elementary_social_003",
-        "word": "Indoor vs Outdoor games: which are more fun?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "social",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Bedroom vs Living room: which room do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Indoor vs Outdoor games: which are more fun?",
+                "text": "Bedroom vs Living room: which room do you prefer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_003",
+        "topic": "Indoor vs Outdoor games: which are more fun?",
         "sideA": "Indoor",
         "sideB": "Outdoor",
         "ideasA": [
@@ -2148,22 +2392,25 @@
         "ideasB": [
             "Active movement",
             "Sunlight benefits"
-        ]
-    },
-    {
-        "id": "en_elementary_social_004",
-        "word": "Watching TV vs Book: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Indoor vs Outdoor games: which are more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Watching TV vs Book: which is better?",
+                "text": "Indoor vs Outdoor games: which are more fun?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_004",
+        "topic": "Watching TV vs Book: which is better?",
         "sideA": "TV",
         "sideB": "Book",
         "ideasA": [
@@ -2173,22 +2420,25 @@
         "ideasB": [
             "Deep imagination",
             "Vocabulary growth"
-        ]
-    },
-    {
-        "id": "en_elementary_social_005",
-        "word": "Sport vs Video game: which is more fun?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Watching TV vs Book: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sport vs Video game: which is more fun?",
+                "text": "Watching TV vs Book: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_005",
+        "topic": "Sport vs Video game: which is more fun?",
         "sideA": "Sport",
         "sideB": "Video game",
         "ideasA": [
@@ -2198,22 +2448,25 @@
         "ideasB": [
             "Strategic skills",
             "Digital worlds"
-        ]
-    },
-    {
-        "id": "en_elementary_social_006",
-        "word": "Drawing vs Singing: which hobby is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Sport vs Video game: which is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Drawing vs Singing: which hobby is better?",
+                "text": "Sport vs Video game: which is more fun?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_006",
+        "topic": "Drawing vs Singing: which hobby is better?",
         "sideA": "Drawing",
         "sideB": "Singing",
         "ideasA": [
@@ -2223,22 +2476,25 @@
         "ideasB": [
             "Emotional release",
             "Musical expression"
-        ]
-    },
-    {
-        "id": "en_elementary_social_007",
-        "word": "Playing alone vs Friends: which is more fun?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Drawing vs Singing: which hobby is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Playing alone vs Friends: which is more fun?",
+                "text": "Drawing vs Singing: which hobby is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_007",
+        "topic": "Playing alone vs Friends: which is more fun?",
         "sideA": "Alone",
         "sideB": "Friends",
         "ideasA": [
@@ -2248,22 +2504,25 @@
         "ideasB": [
             "Shared laughter",
             "Collaborative play"
-        ]
-    },
-    {
-        "id": "en_elementary_social_008",
-        "word": "Swimming vs Running: which sport do you prefer?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Playing alone vs Friends: which is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Swimming vs Running: which sport do you prefer?",
+                "text": "Playing alone vs Friends: which is more fun?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_008",
+        "topic": "Swimming vs Running: which sport do you prefer?",
         "sideA": "Swimming",
         "sideB": "Running",
         "ideasA": [
@@ -2273,22 +2532,25 @@
         "ideasB": [
             "Easy to start",
             "Outdoor views"
-        ]
-    },
-    {
-        "id": "en_elementary_social_009",
-        "word": "Music vs Sport: which is a better hobby?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Swimming vs Running: which sport do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Music vs Sport: which is a better hobby?",
+                "text": "Swimming vs Running: which sport do you prefer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_009",
+        "topic": "Music vs Sport: which is a better hobby?",
         "sideA": "Music",
         "sideB": "Sport",
         "ideasA": [
@@ -2298,22 +2560,25 @@
         "ideasB": [
             "Physical fitness",
             "Team success"
-        ]
-    },
-    {
-        "id": "en_elementary_animals_001",
-        "word": "Farm vs Wild animals: which are more interesting?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "animals",
+        "theme": "social",
         "sub_theme": null,
+        "word": "Music vs Sport: which is a better hobby?",
         "form": "other",
         "definitions": [
             {
-                "text": "Farm vs Wild animals: which are more interesting?",
+                "text": "Music vs Sport: which is a better hobby?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_animals_001",
+        "topic": "Farm vs Wild animals: which are more interesting?",
         "sideA": "Farm",
         "sideB": "Wild",
         "ideasA": [
@@ -2323,22 +2588,25 @@
         "ideasB": [
             "Exotic biomes",
             "Natural mystery"
-        ]
-    },
-    {
-        "id": "en_elementary_environment_002",
-        "word": "Rain vs Sunshine: which weather do you prefer?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "animals",
         "sub_theme": null,
+        "word": "Farm vs Wild animals: which are more interesting?",
         "form": "other",
         "definitions": [
             {
-                "text": "Rain vs Sunshine: which weather do you prefer?",
+                "text": "Farm vs Wild animals: which are more interesting?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_environment_002",
+        "topic": "Rain vs Sunshine: which weather do you prefer?",
         "sideA": "Rain",
         "sideB": "Sunshine",
         "ideasA": [
@@ -2348,22 +2616,25 @@
         "ideasB": [
             "Perfect beach weather",
             "Vitamin D"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_010",
-        "word": "Sea vs Mountains: which is better for a holiday?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
+        "theme": "nature",
         "sub_theme": null,
+        "word": "Rain vs Sunshine: which weather do you prefer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sea vs Mountains: which is better for a holiday?",
+                "text": "Rain vs Sunshine: which weather do you prefer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_010",
+        "topic": "Sea vs Mountains: which is better for a holiday?",
         "sideA": "Sea",
         "sideB": "Mountains",
         "ideasA": [
@@ -2373,22 +2644,25 @@
         "ideasB": [
             "Fresh clean air",
             "Scenic mountain views"
-        ]
-    },
-    {
-        "id": "en_elementary_environment_003",
-        "word": "Flowers vs Trees: which are more beautiful?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "travel",
         "sub_theme": null,
+        "word": "Sea vs Mountains: which is better for a holiday?",
         "form": "other",
         "definitions": [
             {
-                "text": "Flowers vs Trees: which are more beautiful?",
+                "text": "Sea vs Mountains: which is better for a holiday?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_environment_003",
+        "topic": "Flowers vs Trees: which are more beautiful?",
         "sideA": "Flowers",
         "sideB": "Trees",
         "ideasA": [
@@ -2398,22 +2672,25 @@
         "ideasB": [
             "Majestic height",
             "Provide oxygen"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_011",
-        "word": "Car vs Bus: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
+        "theme": "nature",
         "sub_theme": null,
+        "word": "Flowers vs Trees: which are more beautiful?",
         "form": "other",
         "definitions": [
             {
-                "text": "Car vs Bus: which is better?",
+                "text": "Flowers vs Trees: which are more beautiful?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_011",
+        "topic": "Car vs Bus: which is better?",
         "sideA": "Car",
         "sideB": "Bus",
         "ideasA": [
@@ -2423,22 +2700,25 @@
         "ideasB": [
             "Lower costs",
             "Environmentally friendly"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_012",
-        "word": "Walking vs Cycling: which is better to get around?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Car vs Bus: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Walking vs Cycling: which is better to get around?",
+                "text": "Car vs Bus: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_012",
+        "topic": "Walking vs Cycling: which is better to get around?",
         "sideA": "Walking",
         "sideB": "Cycling",
         "ideasA": [
@@ -2448,22 +2728,25 @@
         "ideasB": [
             "Higher speed",
             "Longer travel range"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_013",
-        "word": "Short vs Long holiday: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Walking vs Cycling: which is better to get around?",
         "form": "other",
         "definitions": [
             {
-                "text": "Short vs Long holiday: which is better?",
+                "text": "Walking vs Cycling: which is better to get around?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_013",
+        "topic": "Short vs Long holiday: which is better?",
         "sideA": "Short",
         "sideB": "Long",
         "ideasA": [
@@ -2473,22 +2756,25 @@
         "ideasB": [
             "Complete mental reset",
             "Cultural immersion"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_014",
-        "word": "Travelling alone vs Family: which is more fun?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Short vs Long holiday: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Travelling alone vs Family: which is more fun?",
+                "text": "Short vs Long holiday: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_014",
+        "topic": "Travelling alone vs Family: which is more fun?",
         "sideA": "Alone",
         "sideB": "Family",
         "ideasA": [
@@ -2498,22 +2784,25 @@
         "ideasB": [
             "Shared joy",
             "Financial support"
-        ]
-    },
-    {
-        "id": "en_elementary_places_018",
-        "word": "Online vs. In-person shopping",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "travel",
         "sub_theme": null,
+        "word": "Travelling alone vs Family: which is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Online vs. In-person shopping",
+                "text": "Travelling alone vs Family: which is more fun?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_018",
+        "topic": "Online vs. In-person shopping",
         "sideA": "Online",
         "sideB": "In-person",
         "ideasA": [
@@ -2523,22 +2812,25 @@
         "ideasB": [
             "Try on items",
             "Instant gratification"
-        ]
-    },
-    {
-        "id": "en_elementary_social_010",
-        "word": "Paper books vs. E-books",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "social",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Online vs. In-person shopping",
         "form": "other",
         "definitions": [
             {
-                "text": "Paper books vs. E-books",
+                "text": "Online vs. In-person shopping",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_010",
+        "topic": "Paper books vs. E-books",
         "sideA": "Paper",
         "sideB": "E-books",
         "ideasA": [
@@ -2548,22 +2840,25 @@
         "ideasB": [
             "Extreme portability",
             "Space saving"
-        ]
-    },
-    {
-        "id": "en_elementary_work_026",
-        "word": "Studying in the morning vs studying in the evening: when is it better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "social",
         "sub_theme": null,
+        "word": "Paper books vs. E-books",
         "form": "other",
         "definitions": [
             {
-                "text": "Studying in the morning vs studying in the evening: when is it better?",
+                "text": "Paper books vs. E-books",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_026",
+        "topic": "Studying in the morning vs studying in the evening: when is it better?",
         "sideA": "Morning",
         "sideB": "Evening",
         "ideasA": [
@@ -2573,22 +2868,25 @@
         "ideasB": [
             "Quiet night environment",
             "Review daily material"
-        ]
-    },
-    {
-        "id": "en_elementary_work_027",
-        "word": "Strict teachers vs friendly teachers: who helps students more?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Studying in the morning vs studying in the evening: when is it better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Strict teachers vs friendly teachers: who helps students more?",
+                "text": "Studying in the morning vs studying in the evening: when is it better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_027",
+        "topic": "Strict teachers vs friendly teachers: who helps students more?",
         "sideA": "Strict",
         "sideB": "Friendly",
         "ideasA": [
@@ -2598,22 +2896,25 @@
         "ideasB": [
             "Student motivation",
             "Ask open questions"
-        ]
-    },
-    {
-        "id": "en_elementary_work_028",
-        "word": "Learning with a textbook vs learning with videos: which is more effective?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Strict teachers vs friendly teachers: who helps students more?",
         "form": "other",
         "definitions": [
             {
-                "text": "Learning with a textbook vs learning with videos: which is more effective?",
+                "text": "Strict teachers vs friendly teachers: who helps students more?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_028",
+        "topic": "Learning with a textbook vs learning with videos: which is more effective?",
         "sideA": "Textbook",
         "sideB": "Videos",
         "ideasA": [
@@ -2623,22 +2924,25 @@
         "ideasB": [
             "Modern visual aids",
             "Dynamic content"
-        ]
-    },
-    {
-        "id": "en_elementary_work_029",
-        "word": "Short lessons vs long lessons: which help you learn better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Learning with a textbook vs learning with videos: which is more effective?",
         "form": "other",
         "definitions": [
             {
-                "text": "Short lessons vs long lessons: which help you learn better?",
+                "text": "Learning with a textbook vs learning with videos: which is more effective?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_029",
+        "topic": "Short lessons vs long lessons: which help you learn better?",
         "sideA": "Short",
         "sideB": "Long",
         "ideasA": [
@@ -2648,22 +2952,25 @@
         "ideasB": [
             "Deep topic immersion",
             "Detailed study time"
-        ]
-    },
-    {
-        "id": "en_elementary_work_030",
-        "word": "Group projects vs individual assignments: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Short lessons vs long lessons: which help you learn better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Group projects vs individual assignments: which is better?",
+                "text": "Short lessons vs long lessons: which help you learn better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_030",
+        "topic": "Group projects vs individual assignments: which is better?",
         "sideA": "Group",
         "sideB": "Individual",
         "ideasA": [
@@ -2673,22 +2980,25 @@
         "ideasB": [
             "Develop self-reliance",
             "Personal study focus"
-        ]
-    },
-    {
-        "id": "en_elementary_work_031",
-        "word": "School uniform vs casual clothes at school: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Group projects vs individual assignments: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "School uniform vs casual clothes at school: which is better?",
+                "text": "Group projects vs individual assignments: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_031",
+        "topic": "School uniform vs casual clothes at school: which is better?",
         "sideA": "Uniform",
         "sideB": "Casual",
         "ideasA": [
@@ -2698,22 +3008,25 @@
         "ideasB": [
             "Personal self-expression",
             "Daily comfort"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_008",
-        "word": "Home-cooked meals vs fast food: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "food_drink",
-        "sub_theme": "cooking",
+        "theme": "jobs",
+        "sub_theme": null,
+        "word": "School uniform vs casual clothes at school: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Home-cooked meals vs fast food: which is better?",
+                "text": "School uniform vs casual clothes at school: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_008",
+        "topic": "Home-cooked meals vs fast food: which is better?",
         "sideA": "Home-cooked",
         "sideB": "Fast food",
         "ideasA": [
@@ -2723,22 +3036,25 @@
         "ideasB": [
             "Instant service",
             "Great convenience"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_009",
-        "word": "Three big meals vs many small snacks: which is healthier?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": "meals",
+        "sub_theme": "cooking",
+        "word": "Home-cooked meals vs fast food: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Three big meals vs many small snacks: which is healthier?",
+                "text": "Home-cooked meals vs fast food: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_009",
+        "topic": "Three big meals vs many small snacks: which is healthier?",
         "sideA": "Big meals",
         "sideB": "Small snacks",
         "ideasA": [
@@ -2748,22 +3064,25 @@
         "ideasB": [
             "Maintain stable energy",
             "Support metabolism"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_010",
-        "word": "Vegetarian food vs meat: which diet is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
+        "sub_theme": "meals",
+        "word": "Three big meals vs many small snacks: which is healthier?",
         "form": "other",
         "definitions": [
             {
-                "text": "Vegetarian food vs meat: which diet is better?",
+                "text": "Three big meals vs many small snacks: which is healthier?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_010",
+        "topic": "Vegetarian food vs meat: which diet is better?",
         "sideA": "Vegetarian",
         "sideB": "Meat",
         "ideasA": [
@@ -2773,22 +3092,25 @@
         "ideasB": [
             "High protein levels",
             "Traditional taste"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_011",
-        "word": "Drinking tea vs drinking coffee: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": "drinks",
+        "sub_theme": null,
+        "word": "Vegetarian food vs meat: which diet is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Drinking tea vs drinking coffee: which is better?",
+                "text": "Vegetarian food vs meat: which diet is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_011",
+        "topic": "Drinking tea vs drinking coffee: which is better?",
         "sideA": "Tea",
         "sideB": "Coffee",
         "ideasA": [
@@ -2798,22 +3120,25 @@
         "ideasB": [
             "Instant energy boost",
             "Global social culture"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_012",
-        "word": "Eating alone vs eating with others: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null,
+        "sub_theme": "drinks",
+        "word": "Drinking tea vs drinking coffee: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Eating alone vs eating with others: which is better?",
+                "text": "Drinking tea vs drinking coffee: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_012",
+        "topic": "Eating alone vs eating with others: which is better?",
         "sideA": "Alone",
         "sideB": "With others",
         "ideasA": [
@@ -2823,22 +3148,25 @@
         "ideasB": [
             "Social emotional bonding",
             "Share the joy of food"
-        ]
-    },
-    {
-        "id": "en_elementary_social_011",
-        "word": "Playing a team sport vs playing an individual sport: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "social",
+        "theme": "food_drink",
         "sub_theme": null,
+        "word": "Eating alone vs eating with others: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Playing a team sport vs playing an individual sport: which is better?",
+                "text": "Eating alone vs eating with others: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_011",
+        "topic": "Playing a team sport vs playing an individual sport: which is better?",
         "sideA": "Team sport",
         "sideB": "Individual sport",
         "ideasA": [
@@ -2848,22 +3176,25 @@
         "ideasB": [
             "Personal performance goals",
             "Self-reliance"
-        ]
-    },
-    {
-        "id": "en_elementary_social_012",
-        "word": "Spending free time indoors vs outdoors: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Playing a team sport vs playing an individual sport: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Spending free time indoors vs outdoors: which is better?",
+                "text": "Playing a team sport vs playing an individual sport: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_012",
+        "topic": "Spending free time indoors vs outdoors: which is better?",
         "sideA": "Indoors",
         "sideB": "Outdoors",
         "ideasA": [
@@ -2873,22 +3204,25 @@
         "ideasB": [
             "Health in nature",
             "Active physical movement"
-        ]
-    },
-    {
-        "id": "en_elementary_social_013",
-        "word": "Cinema vs theatre: which is a better night out?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Spending free time indoors vs outdoors: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cinema vs theatre: which is a better night out?",
+                "text": "Spending free time indoors vs outdoors: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_013",
+        "topic": "Cinema vs theatre: which is a better night out?",
         "sideA": "Cinema",
         "sideB": "Theatre",
         "ideasA": [
@@ -2898,22 +3232,25 @@
         "ideasB": [
             "Live acting experience",
             "Cultural tradition"
-        ]
-    },
-    {
-        "id": "en_elementary_social_014",
-        "word": "Listening to music vs playing an instrument: which is more enjoyable?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Cinema vs theatre: which is a better night out?",
         "form": "other",
         "definitions": [
             {
-                "text": "Listening to music vs playing an instrument: which is more enjoyable?",
+                "text": "Cinema vs theatre: which is a better night out?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_014",
+        "topic": "Listening to music vs playing an instrument: which is more enjoyable?",
         "sideA": "Listening",
         "sideB": "Playing",
         "ideasA": [
@@ -2923,22 +3260,25 @@
         "ideasB": [
             "Intense skill development",
             "Creative emotional release"
-        ]
-    },
-    {
-        "id": "en_elementary_social_015",
-        "word": "Video games vs board games: which are more fun?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Listening to music vs playing an instrument: which is more enjoyable?",
         "form": "other",
         "definitions": [
             {
-                "text": "Video games vs board games: which are more fun?",
+                "text": "Listening to music vs playing an instrument: which is more enjoyable?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_015",
+        "topic": "Video games vs board games: which are more fun?",
         "sideA": "Video games",
         "sideB": "Board games",
         "ideasA": [
@@ -2948,22 +3288,25 @@
         "ideasB": [
             "Face-to-face fun",
             "Tactile game pieces"
-        ]
-    },
-    {
-        "id": "en_elementary_social_016",
-        "word": "Going shopping vs staying home: which is a better way to spend the weekend?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "social",
         "sub_theme": null,
+        "word": "Video games vs board games: which are more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Going shopping vs staying home: which is a better way to spend the weekend?",
+                "text": "Video games vs board games: which are more fun?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_016",
+        "topic": "Going shopping vs staying home: which is a better way to spend the weekend?",
         "sideA": "Shopping",
         "sideB": "Staying home",
         "ideasA": [
@@ -2973,22 +3316,25 @@
         "ideasB": [
             "Full mental relaxation",
             "Physical energy recovery"
-        ]
-    },
-    {
-        "id": "en_elementary_technology_003",
-        "word": "Mobile phone vs computer: which is more useful in daily life?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "technology",
+        "theme": "social",
         "sub_theme": null,
+        "word": "Going shopping vs staying home: which is a better way to spend the weekend?",
         "form": "other",
         "definitions": [
             {
-                "text": "Mobile phone vs computer: which is more useful in daily life?",
+                "text": "Going shopping vs staying home: which is a better way to spend the weekend?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_technology_003",
+        "topic": "Mobile phone vs computer: which is more useful in daily life?",
         "sideA": "Mobile",
         "sideB": "Computer",
         "ideasA": [
@@ -2998,22 +3344,25 @@
         "ideasB": [
             "Larger viewing screen",
             "Powerful work tools"
-        ]
-    },
-    {
-        "id": "en_elementary_technology_004",
-        "word": "Sending a message vs making a phone call: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "technology",
         "sub_theme": null,
+        "word": "Mobile phone vs computer: which is more useful in daily life?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sending a message vs making a phone call: which is better?",
+                "text": "Mobile phone vs computer: which is more useful in daily life?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_technology_004",
+        "topic": "Sending a message vs making a phone call: which is better?",
         "sideA": "Message",
         "sideB": "Call",
         "ideasA": [
@@ -3023,22 +3372,25 @@
         "ideasB": [
             "Hear vocal emotion",
             "Get direct results"
-        ]
-    },
-    {
-        "id": "en_elementary_social_017",
-        "word": "E-book vs paper book: which is better to read?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "social",
+        "theme": "technology",
         "sub_theme": null,
+        "word": "Sending a message vs making a phone call: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "E-book vs paper book: which is better to read?",
+                "text": "Sending a message vs making a phone call: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_017",
+        "topic": "E-book vs paper book: which is better to read?",
         "sideA": "E-book",
         "sideB": "Paper book",
         "ideasA": [
@@ -3048,22 +3400,25 @@
         "ideasB": [
             "Classic tactile feel",
             "No battery needed"
-        ]
-    },
-    {
-        "id": "en_elementary_technology_005",
-        "word": "Taking photos with your phone vs with a camera: which gives better results?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "technology",
+        "theme": "social",
         "sub_theme": null,
+        "word": "E-book vs paper book: which is better to read?",
         "form": "other",
         "definitions": [
             {
-                "text": "Taking photos with your phone vs with a camera: which gives better results?",
+                "text": "E-book vs paper book: which is better to read?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_technology_005",
+        "topic": "Taking photos with your phone vs with a camera: which gives better results?",
         "sideA": "Phone",
         "sideB": "Camera",
         "ideasA": [
@@ -3073,22 +3428,25 @@
         "ideasB": [
             "High optical quality",
             "Professional manual control"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_015",
-        "word": "Holiday at the beach vs holiday in the mountains: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
+        "theme": "technology",
         "sub_theme": null,
+        "word": "Taking photos with your phone vs with a camera: which gives better results?",
         "form": "other",
         "definitions": [
             {
-                "text": "Holiday at the beach vs holiday in the mountains: which is better?",
+                "text": "Taking photos with your phone vs with a camera: which gives better results?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_015",
+        "topic": "Holiday at the beach vs holiday in the mountains: which is better?",
         "sideA": "Beach",
         "sideB": "Mountains",
         "ideasA": [
@@ -3098,22 +3456,25 @@
         "ideasB": [
             "Improve hiking health",
             "Beautiful scenic views"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_016",
-        "word": "Travelling by train vs travelling by plane: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Holiday at the beach vs holiday in the mountains: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Travelling by train vs travelling by plane: which is better?",
+                "text": "Holiday at the beach vs holiday in the mountains: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_016",
+        "topic": "Travelling by train vs travelling by plane: which is better?",
         "sideA": "Train",
         "sideB": "Plane",
         "ideasA": [
@@ -3123,22 +3484,25 @@
         "ideasB": [
             "Highest travel speed",
             "Long distance travel"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_017",
-        "word": "Visiting a famous city vs visiting a small village: which is more interesting?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Travelling by train vs travelling by plane: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Visiting a famous city vs visiting a small village: which is more interesting?",
+                "text": "Travelling by train vs travelling by plane: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_017",
+        "topic": "Visiting a famous city vs visiting a small village: which is more interesting?",
         "sideA": "City",
         "sideB": "Village",
         "ideasA": [
@@ -3148,22 +3512,25 @@
         "ideasB": [
             "Local traditions",
             "Quiet village charm"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_018",
-        "word": "Staying in a hotel vs staying with a local family: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Visiting a famous city vs visiting a small village: which is more interesting?",
         "form": "other",
         "definitions": [
             {
-                "text": "Staying in a hotel vs staying with a local family: which is better?",
+                "text": "Visiting a famous city vs visiting a small village: which is more interesting?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_018",
+        "topic": "Staying in a hotel vs staying with a local family: which is better?",
         "sideA": "Hotel",
         "sideB": "Local family",
         "ideasA": [
@@ -3173,22 +3540,25 @@
         "ideasB": [
             "Deep cultural exchange",
             "Better language practice"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_019",
-        "word": "Travelling abroad vs exploring your own country: which is more worthwhile?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Staying in a hotel vs staying with a local family: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Travelling abroad vs exploring your own country: which is more worthwhile?",
+                "text": "Staying in a hotel vs staying with a local family: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_019",
+        "topic": "Travelling abroad vs exploring your own country: which is more worthwhile?",
         "sideA": "Abroad",
         "sideB": "Own country",
         "ideasA": [
@@ -3198,22 +3568,25 @@
         "ideasB": [
             "Find hidden gems",
             "Easier trip planning"
-        ]
-    },
-    {
-        "id": "en_elementary_people_014",
-        "word": "Having many friends vs having a few close friends: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
-        "sub_theme": "relationships",
+        "theme": "travel",
+        "sub_theme": null,
+        "word": "Travelling abroad vs exploring your own country: which is more worthwhile?",
         "form": "other",
         "definitions": [
             {
-                "text": "Having many friends vs having a few close friends: which is better?",
+                "text": "Travelling abroad vs exploring your own country: which is more worthwhile?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_014",
+        "topic": "Having many friends vs having a few close friends: which is better?",
         "sideA": "Many friends",
         "sideB": "Close friends",
         "ideasA": [
@@ -3223,22 +3596,25 @@
         "ideasB": [
             "Deep loyalty",
             "Strong trusting bond"
-        ]
-    },
-    {
-        "id": "en_elementary_people_015",
-        "word": "Meeting friends in person vs chatting online: which is more satisfying?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
         "sub_theme": "relationships",
+        "word": "Having many friends vs having a few close friends: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Meeting friends in person vs chatting online: which is more satisfying?",
+                "text": "Having many friends vs having a few close friends: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_015",
+        "topic": "Meeting friends in person vs chatting online: which is more satisfying?",
         "sideA": "In person",
         "sideB": "Online",
         "ideasA": [
@@ -3248,22 +3624,25 @@
         "ideasB": [
             "High time efficiency",
             "Stay easily connected"
-        ]
-    },
-    {
-        "id": "en_elementary_people_016",
-        "word": "Living with parents vs living in a student flat: which is better for young people?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": "family",
+        "sub_theme": "relationships",
+        "word": "Meeting friends in person vs chatting online: which is more satisfying?",
         "form": "other",
         "definitions": [
             {
-                "text": "Living with parents vs living in a student flat: which is better for young people?",
+                "text": "Meeting friends in person vs chatting online: which is more satisfying?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_016",
+        "topic": "Living with parents vs living in a student flat: which is better for young people?",
         "sideA": "With parents",
         "sideB": "Student flat",
         "ideasA": [
@@ -3273,22 +3652,25 @@
         "ideasB": [
             "Vibrant social life",
             "Build self-reliance"
-        ]
-    },
-    {
-        "id": "en_elementary_people_017",
-        "word": "Celebrating birthdays at home vs going out: which is nicer?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
+        "word": "Living with parents vs living in a student flat: which is better for young people?",
         "form": "other",
         "definitions": [
             {
-                "text": "Celebrating birthdays at home vs going out: which is nicer?",
+                "text": "Living with parents vs living in a student flat: which is better for young people?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_017",
+        "topic": "Celebrating birthdays at home vs going out: which is nicer?",
         "sideA": "Home",
         "sideB": "Going out",
         "ideasA": [
@@ -3298,22 +3680,25 @@
         "ideasB": [
             "No household cleaning",
             "Try professional food"
-        ]
-    },
-    {
-        "id": "en_elementary_work_032",
-        "word": "Saving money vs spending money: which is wiser?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "people",
         "sub_theme": null,
+        "word": "Celebrating birthdays at home vs going out: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Saving money vs spending money: which is wiser?",
+                "text": "Celebrating birthdays at home vs going out: which is nicer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_032",
+        "topic": "Saving money vs spending money: which is wiser?",
         "sideA": "Saving",
         "sideB": "Spending",
         "ideasA": [
@@ -3323,22 +3708,25 @@
         "ideasB": [
             "Receive instant joy",
             "Support economic health"
-        ]
-    },
-    {
-        "id": "en_elementary_work_033",
-        "word": "Working part-time while studying vs focusing only on school: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Saving money vs spending money: which is wiser?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working part-time while studying vs focusing only on school: which is better?",
+                "text": "Saving money vs spending money: which is wiser?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_033",
+        "topic": "Working part-time while studying vs focusing only on school: which is better?",
         "sideA": "Part-time",
         "sideB": "Focus school",
         "ideasA": [
@@ -3348,22 +3736,25 @@
         "ideasB": [
             "Academic excellence",
             "Lower daily stress"
-        ]
-    },
-    {
-        "id": "en_elementary_work_034",
-        "word": "Earning a lot of money vs having free time: which matters more?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Working part-time while studying vs focusing only on school: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Earning a lot of money vs having free time: which matters more?",
+                "text": "Working part-time while studying vs focusing only on school: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_034",
+        "topic": "Earning a lot of money vs having free time: which matters more?",
         "sideA": "Money",
         "sideB": "Free time",
         "ideasA": [
@@ -3373,22 +3764,25 @@
         "ideasB": [
             "Protect mental health",
             "Family and hobbies"
-        ]
-    },
-    {
-        "id": "en_elementary_people_018",
-        "word": "Living with grandparents vs not living with them: which is nicer?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
-        "sub_theme": "family",
+        "theme": "jobs",
+        "sub_theme": null,
+        "word": "Earning a lot of money vs having free time: which matters more?",
         "form": "other",
         "definitions": [
             {
-                "text": "Living with grandparents vs not living with them: which is nicer?",
+                "text": "Earning a lot of money vs having free time: which matters more?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_018",
+        "topic": "Living with grandparents vs not living with them: which is nicer?",
         "sideA": "With grandparents",
         "sideB": "Not living with them",
         "ideasA": [
@@ -3398,22 +3792,25 @@
         "ideasB": [
             "More household privacy",
             "Quiet home environment"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_013",
-        "word": "Mum's cooking vs dad's cooking: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "food_drink",
-        "sub_theme": "cooking",
+        "theme": "people",
+        "sub_theme": "family",
+        "word": "Living with grandparents vs not living with them: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Mum's cooking vs dad's cooking: which is better?",
+                "text": "Living with grandparents vs not living with them: which is nicer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_013",
+        "topic": "Mum's cooking vs dad's cooking: which is better?",
         "sideA": "Mum's",
         "sideB": "Dad's",
         "ideasA": [
@@ -3423,22 +3820,25 @@
         "ideasB": [
             "Innovative new recipes",
             "Special weekend treats"
-        ]
-    },
-    {
-        "id": "en_elementary_work_035",
-        "word": "Maths vs art: which subject is more fun?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
-        "sub_theme": null,
+        "theme": "food_drink",
+        "sub_theme": "cooking",
+        "word": "Mum's cooking vs dad's cooking: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Maths vs art: which subject is more fun?",
+                "text": "Mum's cooking vs dad's cooking: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_035",
+        "topic": "Maths vs art: which subject is more fun?",
         "sideA": "Maths",
         "sideB": "Art",
         "ideasA": [
@@ -3448,22 +3848,25 @@
         "ideasB": [
             "Creative self-expression",
             "Emotional release"
-        ]
-    },
-    {
-        "id": "en_elementary_work_036",
-        "word": "Writing on paper vs typing on a tablet: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Maths vs art: which subject is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Writing on paper vs typing on a tablet: which is better?",
+                "text": "Maths vs art: which subject is more fun?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_036",
+        "topic": "Writing on paper vs typing on a tablet: which is better?",
         "sideA": "Paper",
         "sideB": "Tablet",
         "ideasA": [
@@ -3473,22 +3876,25 @@
         "ideasB": [
             "Storage convenience",
             "Useful auto-correction"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_014",
-        "word": "Pizza vs pasta: which is nicer?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Writing on paper vs typing on a tablet: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Pizza vs pasta: which is nicer?",
+                "text": "Writing on paper vs typing on a tablet: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_014",
+        "topic": "Pizza vs pasta: which is nicer?",
         "sideA": "Pizza",
         "sideB": "Pasta",
         "ideasA": [
@@ -3498,22 +3904,25 @@
         "ideasB": [
             "Versatile pasta shapes",
             "Rich delicious sauces"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_015",
-        "word": "Ice cream vs cake: which is a better dessert?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
         "sub_theme": null,
+        "word": "Pizza vs pasta: which is nicer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Ice cream vs cake: which is a better dessert?",
+                "text": "Pizza vs pasta: which is nicer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_015",
+        "topic": "Ice cream vs cake: which is a better dessert?",
         "sideA": "Ice cream",
         "sideB": "Cake",
         "ideasA": [
@@ -3523,22 +3932,25 @@
         "ideasB": [
             "Warm dessert comfort",
             "Celebration feeling"
-        ]
-    },
-    {
-        "id": "en_elementary_environment_004",
-        "word": "Short days vs long days: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "food_drink",
         "sub_theme": null,
+        "word": "Ice cream vs cake: which is a better dessert?",
         "form": "other",
         "definitions": [
             {
-                "text": "Short days vs long days: which is better?",
+                "text": "Ice cream vs cake: which is a better dessert?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_environment_004",
+        "topic": "Short days vs long days: which is better?",
         "sideA": "Short days",
         "sideB": "Long days",
         "ideasA": [
@@ -3548,22 +3960,25 @@
         "ideasB": [
             "Receive Vitamin D",
             "More outdoor time"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_020",
-        "word": "Day at the park vs day at the beach: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
+        "theme": "nature",
         "sub_theme": null,
+        "word": "Short days vs long days: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Day at the park vs day at the beach: which is better?",
+                "text": "Short days vs long days: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_020",
+        "topic": "Day at the park vs day at the beach: which is better?",
         "sideA": "Park",
         "sideB": "Beach",
         "ideasA": [
@@ -3573,22 +3988,25 @@
         "ideasB": [
             "Relaxing ocean breeze",
             "Intense wave activities"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_021",
-        "word": "Plane vs train: which is more fun?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
         "sub_theme": null,
+        "word": "Day at the park vs day at the beach: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Plane vs train: which is more fun?",
+                "text": "Day at the park vs day at the beach: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_021",
+        "topic": "Plane vs train: which is more fun?",
         "sideA": "Plane",
         "sideB": "Train",
         "ideasA": [
@@ -3598,22 +4016,25 @@
         "ideasB": [
             "Enjoy moving scenery",
             "Space for walking"
-        ]
-    },
-    {
-        "id": "en_elementary_places_019",
-        "word": "Morning shower vs evening shower: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "travel",
         "sub_theme": null,
+        "word": "Plane vs train: which is more fun?",
         "form": "other",
         "definitions": [
             {
-                "text": "Morning shower vs evening shower: which is better?",
+                "text": "Plane vs train: which is more fun?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_019",
+        "topic": "Morning shower vs evening shower: which is better?",
         "sideA": "Morning",
         "sideB": "Evening",
         "ideasA": [
@@ -3623,22 +4044,25 @@
         "ideasB": [
             "Complete relaxation",
             "Keep sheets clean"
-        ]
-    },
-    {
-        "id": "en_elementary_animals_002",
-        "word": "Cats that knock things off tables vs dogs that chew shoes: which pet is more annoying?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "animals",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Morning shower vs evening shower: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cats that knock things off tables vs dogs that chew shoes: which pet is more annoying?",
+                "text": "Morning shower vs evening shower: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_animals_002",
+        "topic": "Cats that knock things off tables vs dogs that chew shoes: which pet is more annoying?",
         "sideA": "Cats",
         "sideB": "Dogs",
         "ideasA": [
@@ -3648,22 +4072,25 @@
         "ideasB": [
             "Property damage",
             "Costly shoe repairs"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_016",
-        "word": "Eating pizza with a fork vs eating pizza with your hands: which is correct?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "animals",
         "sub_theme": null,
+        "word": "Cats that knock things off tables vs dogs that chew shoes: which pet is more annoying?",
         "form": "other",
         "definitions": [
             {
-                "text": "Eating pizza with a fork vs eating pizza with your hands: which is correct?",
+                "text": "Cats that knock things off tables vs dogs that chew shoes: which pet is more annoying?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_016",
+        "topic": "Eating pizza with a fork vs eating pizza with your hands: which is correct?",
         "sideA": "Fork",
         "sideB": "Hands",
         "ideasA": [
@@ -3673,22 +4100,25 @@
         "ideasB": [
             "Direct food enjoyment",
             "Authentic eating style"
-        ]
-    },
-    {
-        "id": "en_elementary_places_020",
-        "word": "Sleeping with socks on vs sleeping without socks: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "food_drink",
         "sub_theme": null,
+        "word": "Eating pizza with a fork vs eating pizza with your hands: which is correct?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sleeping with socks on vs sleeping without socks: which is better?",
+                "text": "Eating pizza with a fork vs eating pizza with your hands: which is correct?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_020",
+        "topic": "Sleeping with socks on vs sleeping without socks: which is better?",
         "sideA": "Socks on",
         "sideB": "No socks",
         "ideasA": [
@@ -3698,22 +4128,25 @@
         "ideasB": [
             "Natural body cool-down",
             "Natural skin feeling"
-        ]
-    },
-    {
-        "id": "en_elementary_social_018",
-        "word": "Sandcastle vs snowman: which is more fun to build?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "social",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Sleeping with socks on vs sleeping without socks: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Sandcastle vs snowman: which is more fun to build?",
+                "text": "Sleeping with socks on vs sleeping without socks: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_018",
+        "topic": "Sandcastle vs snowman: which is more fun to build?",
         "sideA": "Sandcastle",
         "sideB": "Snowman",
         "ideasA": [
@@ -3723,22 +4156,25 @@
         "ideasB": [
             "Winter seasonal magic",
             "Collaborative social fun"
-        ]
-    },
-    {
-        "id": "en_elementary_work_037",
-        "word": "Lots of exams vs very few exams: which is fairer?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "social",
         "sub_theme": null,
+        "word": "Sandcastle vs snowman: which is more fun to build?",
         "form": "other",
         "definitions": [
             {
-                "text": "Lots of exams vs very few exams: which is fairer?",
+                "text": "Sandcastle vs snowman: which is more fun to build?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_037",
+        "topic": "Lots of exams vs very few exams: which is fairer?",
         "sideA": "Lots of exams",
         "sideB": "Very few exams",
         "ideasA": [
@@ -3748,22 +4184,25 @@
         "ideasB": [
             "Intense project focus",
             "Reduce student stress"
-        ]
-    },
-    {
-        "id": "en_elementary_work_038",
-        "word": "Starting school at 7 vs starting school at 5: which is better for children?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Lots of exams vs very few exams: which is fairer?",
         "form": "other",
         "definitions": [
             {
-                "text": "Starting school at 7 vs starting school at 5: which is better for children?",
+                "text": "Lots of exams vs very few exams: which is fairer?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_038",
+        "topic": "Starting school at 7 vs starting school at 5: which is better for children?",
         "sideA": "At 7",
         "sideB": "At 5",
         "ideasA": [
@@ -3773,22 +4212,25 @@
         "ideasB": [
             "Early daily literacy",
             "Structured start to life"
-        ]
-    },
-    {
-        "id": "en_elementary_body_010",
-        "word": "Eating slowly vs eating quickly: which is better for you?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Starting school at 7 vs starting school at 5: which is better for children?",
         "form": "other",
         "definitions": [
             {
-                "text": "Eating slowly vs eating quickly: which is better for you?",
+                "text": "Starting school at 7 vs starting school at 5: which is better for children?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_010",
+        "topic": "Eating slowly vs eating quickly: which is better for you?",
         "sideA": "Slowly",
         "sideB": "Quickly",
         "ideasA": [
@@ -3798,22 +4240,25 @@
         "ideasB": [
             "Save daily time",
             "Efficient habits"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_017",
-        "word": "Cooking at home vs ordering food online: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "food_drink",
-        "sub_theme": "cooking",
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Eating slowly vs eating quickly: which is better for you?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cooking at home vs ordering food online: which is better?",
+                "text": "Eating slowly vs eating quickly: which is better for you?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_017",
+        "topic": "Cooking at home vs ordering food online: which is better?",
         "sideA": "Cooking at home",
         "sideB": "Ordering online",
         "ideasA": [
@@ -3823,22 +4268,25 @@
         "ideasB": [
             "Extreme daily ease",
             "Zero physical effort"
-        ]
-    },
-    {
-        "id": "en_elementary_social_019",
-        "word": "Cooking vs baking: which is more fun as a hobby?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "social",
-        "sub_theme": null,
+        "theme": "food_drink",
+        "sub_theme": "cooking",
+        "word": "Cooking at home vs ordering food online: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cooking vs baking: which is more fun as a hobby?",
+                "text": "Cooking at home vs ordering food online: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_social_019",
+        "topic": "Cooking vs baking: which is more fun as a hobby?",
         "sideA": "Cooking",
         "sideB": "Baking",
         "ideasA": [
@@ -3848,22 +4296,25 @@
         "ideasB": [
             "Scientific precision",
             "Sweet rewards"
-        ]
-    },
-    {
-        "id": "en_elementary_body_011",
-        "word": "Going to the gym vs exercising outside: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "social",
         "sub_theme": null,
+        "word": "Cooking vs baking: which is more fun as a hobby?",
         "form": "other",
         "definitions": [
             {
-                "text": "Going to the gym vs exercising outside: which is better?",
+                "text": "Cooking vs baking: which is more fun as a hobby?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_body_011",
+        "topic": "Going to the gym vs exercising outside: which is better?",
         "sideA": "Gym",
         "sideB": "Outside",
         "ideasA": [
@@ -3873,22 +4324,25 @@
         "ideasB": [
             "Breathe fresh air",
             "Changing terrain"
-        ]
-    },
-    {
-        "id": "en_elementary_technology_006",
-        "word": "Photos on your phone vs printed photos: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "technology",
+        "theme": "health_medicine",
         "sub_theme": null,
+        "word": "Going to the gym vs exercising outside: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Photos on your phone vs printed photos: which is better?",
+                "text": "Going to the gym vs exercising outside: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_technology_006",
+        "topic": "Photos on your phone vs printed photos: which is better?",
         "sideA": "Phone photos",
         "sideB": "Printed photos",
         "ideasA": [
@@ -3898,22 +4352,25 @@
         "ideasB": [
             "Tactile history",
             "Physical decor value"
-        ]
-    },
-    {
-        "id": "en_elementary_technology_007",
-        "word": "Smart TV vs computer screen: which is better for watching films?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "technology",
         "sub_theme": null,
+        "word": "Photos on your phone vs printed photos: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Smart TV vs computer screen: which is better for watching films?",
+                "text": "Photos on your phone vs printed photos: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_technology_007",
+        "topic": "Smart TV vs computer screen: which is better for watching films?",
         "sideA": "Smart TV",
         "sideB": "Computer",
         "ideasA": [
@@ -3923,22 +4380,25 @@
         "ideasB": [
             "Personal privacy",
             "Close-up viewing"
-        ]
-    },
-    {
-        "id": "en_elementary_travel_022",
-        "word": "Hot country vs cold country: which is a better holiday destination?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "travel",
+        "theme": "technology",
         "sub_theme": null,
+        "word": "Smart TV vs computer screen: which is better for watching films?",
         "form": "other",
         "definitions": [
             {
-                "text": "Hot country vs cold country: which is a better holiday destination?",
+                "text": "Smart TV vs computer screen: which is better for watching films?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_travel_022",
+        "topic": "Hot country vs cold country: which is a better holiday destination?",
         "sideA": "Hot country",
         "sideB": "Cold country",
         "ideasA": [
@@ -3948,22 +4408,25 @@
         "ideasB": [
             "Skiing health benefits",
             "See northern lights"
-        ]
-    },
-    {
-        "id": "en_elementary_people_019",
-        "word": "Giving presents vs receiving presents: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "people",
+        "theme": "travel",
         "sub_theme": null,
+        "word": "Hot country vs cold country: which is a better holiday destination?",
         "form": "other",
         "definitions": [
             {
-                "text": "Giving presents vs receiving presents: which is better?",
+                "text": "Hot country vs cold country: which is a better holiday destination?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_people_019",
+        "topic": "Giving presents vs receiving presents: which is better?",
         "sideA": "Giving",
         "sideB": "Receiving",
         "ideasA": [
@@ -3973,22 +4436,25 @@
         "ideasB": [
             "Exciting surprise",
             "Feel truly appreciated"
-        ]
-    },
-    {
-        "id": "en_elementary_work_039",
-        "word": "Working indoors vs working outdoors: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "people",
         "sub_theme": null,
+        "word": "Giving presents vs receiving presents: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Working indoors vs working outdoors: which is better?",
+                "text": "Giving presents vs receiving presents: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_work_039",
+        "topic": "Working indoors vs working outdoors: which is better?",
         "sideA": "Indoors",
         "sideB": "Outdoors",
         "ideasA": [
@@ -3998,22 +4464,25 @@
         "ideasB": [
             "Improve physical health",
             "Enjoy changing views"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_018",
-        "word": "Pineapple on pizza vs no pineapple on pizza: which is correct?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "jobs",
         "sub_theme": null,
+        "word": "Working indoors vs working outdoors: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Pineapple on pizza vs no pineapple on pizza: which is correct?",
+                "text": "Working indoors vs working outdoors: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_018",
+        "topic": "Pineapple on pizza vs no pineapple on pizza: which is correct?",
         "sideA": "Pineapple",
         "sideB": "No pineapple",
         "ideasA": [
@@ -4023,22 +4492,25 @@
         "ideasB": [
             "Follow traditional rules",
             "Avoid flavour clash"
-        ]
-    },
-    {
-        "id": "en_elementary_food_drink_019",
-        "word": "Putting milk in first vs putting tea in first: which is better?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": "drinks",
+        "sub_theme": null,
+        "word": "Pineapple on pizza vs no pineapple on pizza: which is correct?",
         "form": "other",
         "definitions": [
             {
-                "text": "Putting milk in first vs putting tea in first: which is better?",
+                "text": "Pineapple on pizza vs no pineapple on pizza: which is correct?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_food_drink_019",
+        "topic": "Putting milk in first vs putting tea in first: which is better?",
         "sideA": "Milk first",
         "sideB": "Tea first",
         "ideasA": [
@@ -4048,22 +4520,25 @@
         "ideasB": [
             "Better brewing process",
             "Full intense flavour"
-        ]
-    },
-    {
-        "id": "en_elementary_places_021",
-        "word": "Monday vs Friday: which day is actually worse?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
-        "sub_theme": null,
+        "theme": "food_drink",
+        "sub_theme": "drinks",
+        "word": "Putting milk in first vs putting tea in first: which is better?",
         "form": "other",
         "definitions": [
             {
-                "text": "Monday vs Friday: which day is actually worse?",
+                "text": "Putting milk in first vs putting tea in first: which is better?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_021",
+        "topic": "Monday vs Friday: which day is actually worse?",
         "sideA": "Monday",
         "sideB": "Friday",
         "ideasA": [
@@ -4073,22 +4548,25 @@
         "ideasB": [
             "Long weekend wait",
             "Finish work fatigue"
-        ]
-    },
-    {
-        "id": "en_elementary_places_022",
-        "word": "Waking up five minutes before the alarm vs sleeping until the alarm: which is more annoying?",
+        ],
         "lang": "en",
         "level": "elementary",
         "theme": "places",
         "sub_theme": null,
+        "word": "Monday vs Friday: which day is actually worse?",
         "form": "other",
         "definitions": [
             {
-                "text": "Waking up five minutes before the alarm vs sleeping until the alarm: which is more annoying?",
+                "text": "Monday vs Friday: which day is actually worse?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_places_022",
+        "topic": "Waking up five minutes before the alarm vs sleeping until the alarm: which is more annoying?",
         "sideA": "Before alarm",
         "sideB": "Until alarm",
         "ideasA": [
@@ -4098,22 +4576,25 @@
         "ideasB": [
             "Shock factor",
             "No preparation time"
-        ]
-    },
-    {
-        "id": "en_elementary_animals_003",
-        "word": "Cats vs dogs: which animal is secretly the boss of the house?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "animals",
+        "theme": "places",
         "sub_theme": null,
+        "word": "Waking up five minutes before the alarm vs sleeping until the alarm: which is more annoying?",
         "form": "other",
         "definitions": [
             {
-                "text": "Cats vs dogs: which animal is secretly the boss of the house?",
+                "text": "Waking up five minutes before the alarm vs sleeping until the alarm: which is more annoying?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_animals_003",
+        "topic": "Cats vs dogs: which animal is secretly the boss of the house?",
         "sideA": "Cats",
         "sideB": "Dogs",
         "ideasA": [
@@ -4123,22 +4604,25 @@
         "ideasB": [
             "Physical energy",
             "Overt loyalty"
-        ]
-    },
-    {
-        "id": "en_elementary_environment_005",
-        "word": "Being too hot vs being too cold: which is worse?",
+        ],
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "animals",
         "sub_theme": null,
+        "word": "Cats vs dogs: which animal is secretly the boss of the house?",
         "form": "other",
         "definitions": [
             {
-                "text": "Being too hot vs being too cold: which is worse?",
+                "text": "Cats vs dogs: which animal is secretly the boss of the house?",
                 "examples": []
             }
         ],
+        "transcription": "",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_elementary_environment_005",
+        "topic": "Being too hot vs being too cold: which is worse?",
         "sideA": "Too hot",
         "sideB": "Too cold",
         "ideasA": [
@@ -4148,7 +4632,21 @@
         "ideasB": [
             "Shivering pain",
             "Restrictive winter gear"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "nature",
+        "sub_theme": null,
+        "word": "Being too hot vs being too cold: which is worse?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Being too hot vs being too cold: which is worse?",
+                "examples": []
+            }
+        ],
+        "transcription": "",
+        "emoji": "❓"
     }
 ];
     const lang = "en";

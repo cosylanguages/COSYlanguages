@@ -13,8 +13,12 @@
                 "examples": []
             }
         ],
-        "text": "Я мыслю, следовательно, я существую.",
-        "author": "Descartes"
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "text": "Я мыслю, следовательно, я существую.",
+            "author": "Descartes"
+        }
     },
     {
         "id": "ru_intermediate_social_032",
@@ -29,8 +33,12 @@
                 "examples": []
             }
         ],
-        "text": "Красота спасет мир.",
-        "author": "Dostoevsky"
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "text": "Красота спасет мир.",
+            "author": "Dostoevsky"
+        }
     }
 ];
     const lang = "ru";

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "es";
     const data = [
     {
         "topic": "Café vs té: ¿qué bebida de la mañana es mejor?",
@@ -873,7 +874,7 @@
             "Muy rápido"
         ],
         "lang": "es",
-        "sub_theme": "wellbeing",
+        "sub_theme": "bienbeing",
         "word": "Caminar vs correr: ¿qué es mejor?",
         "definitions": [
             {
@@ -1093,7 +1094,6 @@
         "id": "es_starter_social_008"
     }
 ];
-    const lang = "es";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

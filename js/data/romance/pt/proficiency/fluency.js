@@ -27,7 +27,7 @@
         "t": "Se o eu é algo que descobrimos ou construímos",
         "h": [
             "Existe um 'tu' fixo à espera de ser descoberto, ou és continuamente criado por escolhas e pelo contexto?",
-            "O que acontece à identidade quando o contexto muda radicalmente — doença, migração, perda?",
+            "O que acontece à identidade quando o contexto muda radicalmente: doença, migração, perda?",
             "A narrativa que tens sobre ti mesmo é uma descoberta ou uma invenção?",
             "A questão importa para a forma como vives, ou é puramente filosófica?",
             "Se o eu é construído, pelo que somos responsáveis ao construí-lo?"
@@ -53,7 +53,7 @@
             "Será a memória seletiva uma forma de desonestidade connosco próprios?",
             "Poderá o perdão exigir o esquecimento, ou será isso um erro de categoria?",
             "O que revela sobre si mesma uma sociedade que escolhe coletivamente esquecer?",
-            "Existe algo como a amnésia ética — para indivíduos ou nações?"
+            "Existe algo como a amnésia ética: para indivíduos ou nações?"
         ],
         "word": "A ética do que escolhemos esquecer",
         "lang": "pt",
@@ -99,7 +99,7 @@
             "A liberdade é sempre comprada à custa de outra pessoa?",
             "Experiencias as tuas responsabilidades como limitações ou como aquilo que dá sentido à tua liberdade?",
             "Pode uma pessoa ser genuinamente livre sem as condições materiais para exercer essa liberdade?",
-            "Do que desistirias para ser mais livre — e o que revela a tua resposta?"
+            "Do que desistirias para ser mais livre: e o que revela a tua resposta?"
         ],
         "word": "A relação entre liberdade e responsabilidade na tua própria vida",
         "lang": "pt",
@@ -122,7 +122,7 @@
             "Confias em sentimentos nostálgicos ou tratas-os com suspeita?",
             "Aquilo de que tens nostalgia é um passado real ou uma versão editada?",
             "O que a nostalgia impede e o que torna possível?",
-            "Pode uma sociedade ser nostálgica da mesma forma que um indivíduo — e com os mesmos perigos?"
+            "Pode uma sociedade ser nostálgica da mesma forma que um indivíduo: e com os mesmos perigos?"
         ],
         "word": "O que a nostalgia faz realmente quando te visita",
         "lang": "pt",
@@ -141,7 +141,7 @@
     {
         "t": "Se compreender algo sempre o diminui",
         "h": [
-            "Pensa em algo belo ou misterioso — compreendê-lo torna-o menos belo?",
+            "Pensa em algo belo ou misterioso: compreendê-lo torna-o menos belo?",
             "Existe valor em não saber, ou é apenas romantismo?",
             "Podem a explicação científica e o espanto estético coexistir, ou uma coloniza a outra?",
             "Existe algo que evitas deliberadamente compreender por medo de perder o seu poder sobre ti?",
@@ -164,7 +164,7 @@
     {
         "t": "A diferença entre os teus valores declarados e os teus valores revelados",
         "h": [
-            "O que dizem as tuas escolhas reais — não as tuas crenças declaradas — sobre o que valorizas mais?",
+            "O que dizem as tuas escolhas reais: não as tuas crenças declaradas: sobre o que valorizas mais?",
             "Existe um hiato doloroso entre os dois?",
             "Será o hiato evidência de hipocrisia ou da dificuldade genuína de viver segundo os próprios princípios?",
             "Podes fechar o hiato, ou persiste sempre alguma distância entre o ideal e o real?",
@@ -210,7 +210,7 @@
     {
         "t": "Se a grande arte deve desafiar ou consolar",
         "h": [
-            "Ao que recorres realmente quando sentes dor — à dificuldade ou ao consolo?",
+            "Ao que recorres realmente quando sentes dor: à dificuldade ou ao consolo?",
             "Existe arte que consiga fazer ambas as coisas simultaneamente?",
             "A arte de consolo é menos séria do que a arte que desafia, ou é uma distinção snobe?",
             "Qual acreditas ser a obrigação primordial da arte?",
@@ -281,7 +281,7 @@
         "h": [
             "Existe algo que sentes mas para o qual não consegues encontrar linguagem?",
             "A dificuldade reside na linguagem ou na própria coisa?",
-            "Acreditas que alguma experiência interior é genuinamente privada — inacessível até para ti mesmo?",
+            "Acreditas que alguma experiência interior é genuinamente privada: inacessível até para ti mesmo?",
             "O que significaria compreender plenamente a própria interioridade?",
             "Precisa o inefável de ser articulado para ser real?"
         ],
@@ -329,7 +329,7 @@
             "Em que consiste realmente a continuidade do eu?",
             "A pessoa que recordas ser é a mesma que fala agora?",
             "O que acontece à identidade na experiência de uma perda ou transformação radical?",
-            "Importa a questão da identidade pessoal para a forma como nos tratamos uns aos outros — legal e eticamente?"
+            "Importa a questão da identidade pessoal para a forma como nos tratamos uns aos outros: legal e eticamente?"
         ],
         "word": "Memória, identidade e o que resta quando ambas mudam",
         "lang": "pt",
@@ -348,8 +348,8 @@
     {
         "t": "Se a vida examinada sempre vale a pena ser vivida",
         "h": [
-            "Sócrates disse que a vida não examinada não vale a pena ser vivida — concordas?",
-            "Existe um custo no exame — uma espécie de paralisia ou perda de inocência?",
+            "Sócrates disse que a vida não examinada não vale a pena ser vivida: concordas?",
+            "Existe um custo no exame: uma espécie de paralisia ou perda de inocência?",
             "Pode o exame tornar-se na sua própria forma de evitamento?",
             "Existem pessoas que vivem profundamente e bem sem muito autoexame?",
             "O que pensas que o teu próprio grau de autoexame te custou e te deu?"
@@ -372,7 +372,7 @@
         "t": "A questão do que deves a estranhos",
         "h": [
             "Tens obrigações para com pessoas que nunca conhecerás?",
-            "Até onde se estendem as tuas obrigações morais — ao teu bairro, à tua nação, ao mundo?",
+            "Até onde se estendem as tuas obrigações morais: ao teu bairro, à tua nação, ao mundo?",
             "A distância física ou cultural diminui a obrigação ou é uma racionalização?",
             "Qual é a diferença entre caridade e justiça?",
             "Como vives realmente em relação a esta pergunta?"
@@ -394,7 +394,7 @@
     {
         "t": "As histórias que as civilizações contam sobre si mesmas",
         "h": [
-            "Cada sociedade tem um mito fundador — qual é o teu e quão preciso é?",
+            "Cada sociedade tem um mito fundador: qual é o teu e quão preciso é?",
             "O que é que uma nação escolhe esquecer tanto quanto aquilo que escolhe recordar?",
             "A identidade nacional é uma ficção útil ou perigosa?",
             "Pode uma sociedade ter um relato mais honesto de si mesma sem perder a coesão?",

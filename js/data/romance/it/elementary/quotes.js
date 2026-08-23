@@ -1,21 +1,23 @@
 (function() {
     const data = [
     {
-        "id": "it_elementary_people_021",
-        "word": "La vita è quello che ti succede mentre sei occupato a fare altri progetti.",
-        "lang": "it",
+        "text": "La vita è quello che ti succede mentre sei occupato a fare altri progetti.",
+        "author": "John Lennon",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
-        "form": "phrase",
         "definitions": [
             {
                 "text": "La vita è quello che ti succede mentre sei occupato a fare altri progetti.",
                 "examples": []
             }
         ],
-        "text": "La vita è quello che ti succede mentre sei occupato a fare altri progetti.",
-        "author": "John Lennon"
+        "form": "phrase",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_elementary_people_021",
+        "word": "La vita è quello che ti succede mentre sei occupato a fare altri progetti.",
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "it";

@@ -103,7 +103,7 @@
             }
         ],
         "h": [
-            "Pouvez-vous penser à quelqu'un qui a vraiment changé — ou ne le connaissiez-vous tout simplement pas assez bien avant ?",
+            "Pouvez-vous penser à quelqu'un qui a vraiment changé: ou ne le connaissiez-vous tout simplement pas assez bien avant ?",
             "Que faut-il pour qu'une personne change vraiment ?",
             "Pensez-vous avoir changé ou être resté essentiellement vous-même ?",
             "Que disent les relations si les gens ne changent pas vraiment ?",
@@ -239,7 +239,7 @@
             "Est-il inconfortable de reconnaître que la chance a joué un rôle ?",
             "La chance a-t-elle joué contre vous ?",
             "Pensez-vous que les gens surestiment le contrôle qu'ils ont ?",
-            "Quelle est l'implication éthique de la chance — affecte-t-elle ce que nous nous devons les uns aux autres ?"
+            "Quelle est l'implication éthique de la chance: affecte-t-elle ce que nous nous devons les uns aux autres ?"
         ]
     },
     {
@@ -323,7 +323,7 @@
             }
         ],
         "h": [
-            "De quoi s'agit-il — technologie, politique, tendances sociales, environnement ?",
+            "De quoi s'agit-il: technologie, politique, tendances sociales, environnement ?",
             "Cette inquiétude est-elle nouvelle ou s'est-elle construite ?",
             "Pensez-vous que d'autres la partagent ou vous sentez-vous seul face à elle ?",
             "Le fait de s'en inquiéter change-t-il votre façon de vivre ?",
@@ -349,12 +349,12 @@
             "Avez-vous déjà ressenti de la solitude au milieu d'une foule ?",
             "Pensez-vous que la vie moderne rend la solitude plus ou moins fréquente ?",
             "Peut-on se sentir seul dans une relation ?",
-            "Quel est le remède à la solitude — plus de connexion, ou quelque chose de plus profond ?"
+            "Quel est le remède à la solitude: plus de connexion, ou quelque chose de plus profond ?"
         ]
     },
     {
         "id": "fr_advanced_social_phrase_ce_que_signifie_bien_vivre_et_",
-        "word": "Ce que signifie bien vivre — et si vous en êtes proche",
+        "word": "Ce que signifie bien vivre: et si vous en êtes proche",
         "lang": "fr",
         "level": "advanced",
         "theme": "social",
@@ -362,7 +362,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Ce que signifie bien vivre — et si vous en êtes proche",
+                "text": "Ce que signifie bien vivre: et si vous en êtes proche",
                 "examples": []
             }
         ],
@@ -393,7 +393,7 @@
             "Pensez-vous que nous éditons nos souvenirs pour les adapter à un récit sur nous-mêmes ?",
             "Quel est le souvenir le plus vivant que vous ayez et à quel point pensez-vous qu'il soit fiable ?",
             "Est-ce important qu'un souvenir soit exact s'il semble vrai ?",
-            "Que dit la mémoire sur l'identité — si vos souvenirs changeaient, seriez-vous une personne différente ?"
+            "Que dit la mémoire sur l'identité: si vos souvenirs changeaient, seriez-vous une personne différente ?"
         ]
     },
     {
@@ -411,7 +411,7 @@
             }
         ],
         "h": [
-            "Pensez à une institution — santé, éducation, gouvernement — et évaluez-la honnêtement.",
+            "Pensez à une institution: santé, éducation, gouvernement: et évaluez-la honnêtement.",
             "À quel moment une institution cesse-t-elle de remplir son rôle ?",
             "Vous êtes-vous déjà senti trahi par une institution sur laquelle vous comptiez ?",
             "Une réforme est-elle possible ou les institutions doivent-elles être entièrement remplacées ?",
@@ -480,7 +480,7 @@
             "Quels signaux recherchez-vous ?",
             "Votre instinct s'est-il déjà trompé complètement ?",
             "Pensez-vous être trop confiant, pas assez, ou bien calibré ?",
-            "La confiance est-elle donnée ou gagnée — et cette distinction est-elle importante ?",
+            "La confiance est-elle donnée ou gagnée: et cette distinction est-elle importante ?",
             "Qu'est-ce qui rompt la confiance de manière irrévocable pour vous ?"
         ]
     }

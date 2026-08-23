@@ -1,9 +1,10 @@
 (function() {
+    const lang = "el";
     const data = [
     {
         "word": "σήμερα",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "adverb",
         "subtext": "",
@@ -18,12 +19,14 @@
                 ]
             }
         ],
-        "transcription": "/ˈsimera/"
+        "transcription": "/ˈsimera/",
+        "lang": "el",
+        "id": "el_starter_time_001"
     },
     {
         "word": "αύριο",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🔜",
         "form": "adverb",
         "subtext": "",
@@ -38,12 +41,14 @@
                 ]
             }
         ],
-        "transcription": "/ˈavrio/"
+        "transcription": "/ˈavrio/",
+        "lang": "el",
+        "id": "el_starter_time_002"
     },
     {
         "word": "κάθε μέρα",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun",
         "subtext": "δουλεύω κάθε μέρα",
@@ -55,12 +60,15 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_starter_time_003"
     },
     {
         "word": "αύριο",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌅",
         "form": "noun",
         "subtext": "θα σε δω αύριο",
@@ -73,10 +81,11 @@
             }
         ],
         "transcription": "/ˈavrio/",
-        "countability": "countable"
+        "countability": "countable",
+        "lang": "el",
+        "id": "el_starter_time_004"
     }
 ];
-    const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -50,7 +50,7 @@
     },
     {
         "id": "en_advanced_psychological_concepts_c1_other_happiness_is_a_choice_circumst",
-        "t": "Happiness is a choice — circumstances are just excuses.",
+        "t": "Happiness is a choice: circumstances are just excuses.",
         "tag": "Philosophy",
         "h": [
             "Do you think happiness is within everyone's control?",
@@ -61,13 +61,13 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
-        "word": "Happiness is a choice — circumstances are just excuses.",
+        "word": "Happiness is a choice: circumstances are just excuses.",
         "form": "other",
         "definitions": [
             {
-                "text": "Happiness is a choice — circumstances are just excuses.",
+                "text": "Happiness is a choice: circumstances are just excuses.",
                 "examples": []
             }
         ]
@@ -157,7 +157,7 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "word": "The most dangerous opinions are the ones that sound completely reasonable.",
         "form": "other",
@@ -205,7 +205,7 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "word": "Forgiveness is ultimately something you do for yourself, not the other person.",
         "form": "other",
@@ -349,7 +349,7 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "word": "The obsession with productivity is just capitalism dressed up as self-improvement.",
         "form": "other",
@@ -368,7 +368,7 @@
             "Can you think of a case where public outcry was justified?",
             "Is there a difference between accountability and punishment?",
             "Who decides what is unforgivable?",
-            "Does cancellation work — does it actually change behaviour?",
+            "Does cancellation work: does it actually change behaviour?",
             "Is there something irredeemably problematic about it, or is it just imperfect?"
         ],
         "lang": "en",

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ba";
     const pronouns = ["мин", "син", "ул", "беҙ", "һеҙ", "улар"];
     const data = [
         {
@@ -34,7 +35,6 @@
             }
         }
     ]
-    const lang = "ba";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

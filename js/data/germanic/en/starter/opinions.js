@@ -1,4 +1,5 @@
 (function() {
+    const lang = "en";
     const data = [
     {
         "id": "en_starter_social_001",
@@ -295,7 +296,7 @@
         "h": [
             "Can you swim?",
             "Do you like water?",
-            "Where do you swim — pool or sea?",
+            "Where do you swim: pool or sea?",
             "What sport do you like?",
             "Is sport important to you?"
         ],
@@ -361,7 +362,6 @@
         ]
     }
 ];
-    const lang = "en";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];

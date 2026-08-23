@@ -2,11 +2,13 @@
     const data = [
     {
         "id": "en_elementary_people_001",
-        "word": "Life is what happens when you're busy making other plans.",
+        "text": "Life is what happens when you're busy making other plans.",
+        "author": "John Lennon",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
         "sub_theme": null,
+        "word": "Life is what happens when you're busy making other plans.",
         "form": "other",
         "definitions": [
             {
@@ -14,8 +16,8 @@
                 "examples": []
             }
         ],
-        "text": "Life is what happens when you're busy making other plans.",
-        "author": "John Lennon"
+        "transcription": "",
+        "emoji": "❓"
     }
 ];
     const lang = "en";

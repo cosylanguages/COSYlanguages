@@ -1,4 +1,5 @@
 (function() {
+    const lang = "el";
     const data = [
     {
         "verb": "είμαι",
@@ -134,7 +135,11 @@
                     "θα είναι αυτά"
                 ]
             }
-        }
+        },
+        "lang": "el",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "el_starter_vocabulary_001"
     },
     {
         "verb": "έχω",
@@ -270,7 +275,11 @@
                     "θα έχουν αυτά"
                 ]
             }
-        }
+        },
+        "lang": "el",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "el_starter_vocabulary_002"
     },
     {
         "verb": "δουλεύω",
@@ -406,7 +415,11 @@
                     "θα δουλεύουν αυτά"
                 ]
             }
-        }
+        },
+        "lang": "el",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "el_starter_vocabulary_003"
     },
     {
         "verb": "κάνω",
@@ -542,7 +555,11 @@
                     "θα κάνουν αυτά"
                 ]
             }
-        }
+        },
+        "lang": "el",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "el_starter_vocabulary_004"
     },
     {
         "verb": "πηγαίνω",
@@ -678,7 +695,11 @@
                     "θα πάνε αυτά"
                 ]
             }
-        }
+        },
+        "lang": "el",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "el_starter_vocabulary_005"
     },
     {
         "verb": "μιλάω",
@@ -814,7 +835,11 @@
                     "θα μιλήσουν αυτά"
                 ]
             }
-        }
+        },
+        "lang": "el",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "el_starter_vocabulary_006"
     },
     {
         "verb": "τρώω",
@@ -874,10 +899,13 @@
                     "τρώνε αυτά"
                 ]
             }
-        }
+        },
+        "lang": "el",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "el_starter_vocabulary_007"
     }
-]
-    const lang = "el";
+];
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

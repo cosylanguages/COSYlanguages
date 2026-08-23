@@ -1,4 +1,5 @@
 (function() {
+    const lang = "de";
     const data = [
         {
                 "t": "Deine Familie",
@@ -273,7 +274,7 @@
         {
                 "t": "Dein Job oder deine Schule",
                 "h": [
-                        "Was machst du — arbeiten oder studieren?",
+                        "Was machst du: arbeiten oder studieren?",
                         "Was magst du daran?",
                         "Wann fängst du an?",
                         "Mit wem arbeitest oder studierst du zusammen?",
@@ -289,7 +290,7 @@
                         {
                                 "text": "Dein Job oder deine Schule",
                                 "examples": [
-                                        "Was machst du — arbeiten oder studieren?",
+                                        "Was machst du: arbeiten oder studieren?",
                                         "Was magst du daran?",
                                         "Wann fängst du an?",
                                         "Mit wem arbeitest oder studierst du zusammen?",
@@ -601,7 +602,6 @@
                 "id": "de_starter_places_002"
         }
 ];
-    const lang = "de";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];

@@ -280,7 +280,7 @@
         ],
         "h": [
             "De quoi s'agit-il ?",
-            "Pourquoi discrètement — pourquoi pas haut et fort ?",
+            "Pourquoi discrètement: pourquoi pas haut et fort ?",
             "Combien de temps cela a-t-il pris ?",
             "Vos proches sont-ils au courant ?",
             "Qu'est-ce que cela dit sur vos valeurs ?"
@@ -398,7 +398,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_095",
-        "word": "La célébrité — punition ou récompense ?",
+        "word": "La célébrité: punition ou récompense ?",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -406,7 +406,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La célébrité — punition ou récompense ?",
+                "text": "La célébrité: punition ou récompense ?",
                 "examples": []
             }
         ],
@@ -484,7 +484,7 @@
             "Y a-t-il une part de vérité malgré tout ?"
         ]
     }
-];
+    ];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

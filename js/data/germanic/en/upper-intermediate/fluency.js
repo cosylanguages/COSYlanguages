@@ -286,7 +286,7 @@
         "t": "Something you are quietly proud of",
         "h": [
             "What is it?",
-            "Why quietly — why not loudly?",
+            "Why quietly: why not loudly?",
             "How long did it take?",
             "Do the people close to you know about it?",
             "What does this say about what you value?"
@@ -421,7 +421,7 @@
     },
     {
         "id": "en_upper_intermediate_social_011",
-        "t": "Fame — punishment or reward?",
+        "t": "Fame: punishment or reward?",
         "h": [
             "Would you want to be famous?",
             "What kind of famous would you be?",
@@ -433,11 +433,11 @@
         "level": "upper_intermediate",
         "theme": "social",
         "sub_theme": null,
-        "word": "Fame — punishment or reward?",
+        "word": "Fame: punishment or reward?",
         "form": "other",
         "definitions": [
             {
-                "text": "Fame — punishment or reward?",
+                "text": "Fame: punishment or reward?",
                 "examples": []
             }
         ]
@@ -511,7 +511,7 @@
             }
         ]
     }
-];
+    ];
 
     const psychData = [
     {

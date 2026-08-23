@@ -1,4 +1,5 @@
 (function() {
+    const lang = "pt";
     const data = [
     {
         "word": "eu",
@@ -16,7 +17,8 @@
         ],
         "lang": "pt",
         "sub_theme": null,
-        "id": "pt_starter_people_003"
+        "id": "pt_starter_people_003",
+        "transcription": ""
     },
     {
         "word": "tu",
@@ -34,7 +36,8 @@
         ],
         "lang": "pt",
         "sub_theme": null,
-        "id": "pt_starter_people_004"
+        "id": "pt_starter_people_004",
+        "transcription": ""
     },
     {
         "word": "ele",
@@ -52,7 +55,8 @@
         ],
         "lang": "pt",
         "sub_theme": null,
-        "id": "pt_starter_people_005"
+        "id": "pt_starter_people_005",
+        "transcription": ""
     },
     {
         "word": "ela",
@@ -70,7 +74,8 @@
         ],
         "lang": "pt",
         "sub_theme": null,
-        "id": "pt_starter_people_006"
+        "id": "pt_starter_people_006",
+        "transcription": ""
     },
     {
         "word": "nós",
@@ -88,7 +93,8 @@
         ],
         "lang": "pt",
         "sub_theme": null,
-        "id": "pt_starter_people_007"
+        "id": "pt_starter_people_007",
+        "transcription": ""
     },
     {
         "word": "eles",
@@ -106,7 +112,8 @@
         ],
         "lang": "pt",
         "sub_theme": null,
-        "id": "pt_starter_people_008"
+        "id": "pt_starter_people_008",
+        "transcription": ""
     },
     {
         "word": "meu",
@@ -124,7 +131,8 @@
         ],
         "lang": "pt",
         "sub_theme": null,
-        "id": "pt_starter_people_009"
+        "id": "pt_starter_people_009",
+        "transcription": ""
     },
     {
         "word": "teu",
@@ -142,7 +150,8 @@
         ],
         "lang": "pt",
         "sub_theme": null,
-        "id": "pt_starter_people_010"
+        "id": "pt_starter_people_010",
+        "transcription": ""
     },
     {
         "word": "sempre",
@@ -160,7 +169,8 @@
         ],
         "lang": "pt",
         "sub_theme": "grammar_terms",
-        "id": "pt_starter_language_009"
+        "id": "pt_starter_language_009",
+        "transcription": ""
     },
     {
         "word": "nunca",
@@ -178,7 +188,8 @@
         ],
         "lang": "pt",
         "sub_theme": "grammar_terms",
-        "id": "pt_starter_language_010"
+        "id": "pt_starter_language_010",
+        "transcription": ""
     },
     {
         "word": "e",
@@ -196,7 +207,8 @@
         ],
         "lang": "pt",
         "sub_theme": "grammar_terms",
-        "id": "pt_starter_language_011"
+        "id": "pt_starter_language_011",
+        "transcription": ""
     },
     {
         "word": "mas",
@@ -214,10 +226,10 @@
         ],
         "lang": "pt",
         "sub_theme": "grammar_terms",
-        "id": "pt_starter_language_012"
+        "id": "pt_starter_language_012",
+        "transcription": ""
     }
 ];
-    const lang = "pt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

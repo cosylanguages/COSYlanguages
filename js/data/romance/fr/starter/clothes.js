@@ -1,0 +1,592 @@
+(function() {
+    const lang = "fr";
+    const data = [
+    {
+        "word": "vêtement",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "👕",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "vêtements",
+        "definitions": [
+            {
+                "text": "Ce que l'on porte.",
+                "examples": [
+                    "Un nouveau vêtement."
+                ]
+            }
+        ],
+        "transcription": "/vɛt.mɑ̃/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_001"
+    },
+    {
+        "word": "lunettes",
+        "level": "starter",
+        "theme": "accessories",
+        "article": "les",
+        "gender": "feminine",
+        "emoji": "👓",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "lunettes",
+        "definitions": [
+            {
+                "text": "Pour mieux voir.",
+                "examples": [
+                    "Porter des lunettes."
+                ]
+            }
+        ],
+        "transcription": "/ly.nɛt/",
+        "lang": "fr",
+        "id": "fr_starter_accessories_001"
+    },
+    {
+        "word": "chaussures",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "les",
+        "gender": "feminine",
+        "emoji": "👟",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "chaussures",
+        "definitions": [
+            {
+                "text": "Pour marcher.",
+                "examples": [
+                    "Mettre ses chaussures."
+                ]
+            }
+        ],
+        "transcription": "/ʃo.syʁ/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_002"
+    },
+    {
+        "word": "bottes",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "les",
+        "gender": "feminine",
+        "emoji": "🥾",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "bottes",
+        "definitions": [
+            {
+                "text": "Chaussures hautes.",
+                "examples": [
+                    "Des bottes de cuir."
+                ]
+            }
+        ],
+        "transcription": "/bɔt/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_003"
+    },
+    {
+        "word": "chaussettes",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "les",
+        "gender": "feminine",
+        "emoji": "🧦",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "chaussettes",
+        "definitions": [
+            {
+                "text": "Vêtements de pied.",
+                "examples": [
+                    "Une paire de chaussettes."
+                ]
+            }
+        ],
+        "transcription": "/ʃo.sɛt/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_004"
+    },
+    {
+        "word": "pantalon",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "👖",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "pantalons",
+        "definitions": [
+            {
+                "text": "Vêtement de jambe.",
+                "examples": [
+                    "Un pantalon bleu."
+                ]
+            }
+        ],
+        "transcription": "/pɑ̃.ta.lɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_005"
+    },
+    {
+        "word": "jean",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "👖",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "jeans",
+        "definitions": [
+            {
+                "text": "Pantalon de toile bleue.",
+                "examples": [
+                    "Porter un jean."
+                ]
+            }
+        ],
+        "transcription": "/dʒin/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_006"
+    },
+    {
+        "word": "jupe",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👗",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "jupes",
+        "definitions": [
+            {
+                "text": "Vêtement féminin court.",
+                "examples": [
+                    "Une jupe plissée."
+                ]
+            }
+        ],
+        "transcription": "/ʒyp/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_007"
+    },
+    {
+        "word": "robe",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👗",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "robes",
+        "definitions": [
+            {
+                "text": "Vêtement féminin entier.",
+                "examples": [
+                    "Une robe de soirée."
+                ]
+            }
+        ],
+        "transcription": "/ʁɔb/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_008"
+    },
+    {
+        "word": "chemise",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👔",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "chemises",
+        "definitions": [
+            {
+                "text": "Haut à boutons.",
+                "examples": [
+                    "Une chemise blanche."
+                ]
+            }
+        ],
+        "transcription": "/ʃə.miz/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "camisia"
+        },
+        "lang": "fr",
+        "id": "fr_starter_clothes_009"
+    },
+    {
+        "word": "pull",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🧶",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "pulls",
+        "definitions": [
+            {
+                "text": "Haut chaud.",
+                "examples": [
+                    "Mettre un pull."
+                ]
+            }
+        ],
+        "transcription": "/pyl/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_010"
+    },
+    {
+        "word": "manteau",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🧥",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "manteaux",
+        "definitions": [
+            {
+                "text": "Vêtement d'hiver.",
+                "examples": [
+                    "Un long manteau."
+                ]
+            }
+        ],
+        "transcription": "/mɑ̃.to/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_011"
+    },
+    {
+        "word": "veste",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧥",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "vestes",
+        "definitions": [
+            {
+                "text": "Petit manteau.",
+                "examples": [
+                    "Une veste légère."
+                ]
+            }
+        ],
+        "transcription": "/vɛst/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_012"
+    },
+    {
+        "word": "casquette",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧢",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "casquettes",
+        "definitions": [
+            {
+                "text": "Chapeau de sport.",
+                "examples": [
+                    "Mettre une casquette."
+                ]
+            }
+        ],
+        "transcription": "/kas.kɛt/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_013"
+    },
+    {
+        "word": "bonnet",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🧣",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "bonnets",
+        "definitions": [
+            {
+                "text": "Chapeau en laine.",
+                "examples": [
+                    "Un bonnet chaud."
+                ]
+            }
+        ],
+        "transcription": "/bɔ.nɛ/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_014"
+    },
+    {
+        "word": "gants",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "les",
+        "gender": "masculine",
+        "emoji": "🧤",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "gants",
+        "definitions": [
+            {
+                "text": "Pour les mains.",
+                "examples": [
+                    "Une paire de gants."
+                ]
+            }
+        ],
+        "transcription": "/ɡɑ̃/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_015"
+    },
+    {
+        "word": "ceinture",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎗️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "ceintures",
+        "definitions": [
+            {
+                "text": "Pour tenir le pantalon.",
+                "examples": [
+                    "Une ceinture en cuir."
+                ]
+            }
+        ],
+        "transcription": "/sɛ̃.tyʁ/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_016"
+    },
+    {
+        "word": "maillot de bain",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🩱",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "maillots de bain",
+        "definitions": [
+            {
+                "text": "Pour nager.",
+                "examples": [
+                    "Prendre son maillot."
+                ]
+            }
+        ],
+        "transcription": "/ma.jo də bɛ̃/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_017"
+    },
+    {
+        "word": "pyjama",
+        "level": "starter",
+        "theme": "clothes",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🛌",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "pyjamas",
+        "definitions": [
+            {
+                "text": "Pour dormir.",
+                "examples": [
+                    "Mettre son pyjama."
+                ]
+            }
+        ],
+        "transcription": "/pi.ʒa.ma/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_018"
+    },
+    {
+        "word": "chapeau",
+        "level": "starter",
+        "theme": "clothes",
+        "emoji": "🎩",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "chapeaux",
+        "definitions": [
+            {
+                "text": "Un accessoire qu'on met sur la tête.",
+                "examples": [
+                    "Je porte un chapeau quand il y a du soleil.",
+                    "Le chapeau est sur la chaise."
+                ]
+            }
+        ],
+        "transcription": "ʃapo",
+        "lang": "fr",
+        "id": "fr_starter_clothes_019"
+    },
+    {
+        "word": "t-shirt",
+        "level": "starter",
+        "theme": "clothes",
+        "emoji": "👕",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "t-shirts",
+        "definitions": [
+            {
+                "text": "Un vêtement léger pour la partie supérieure du corps.",
+                "examples": [
+                    "Je porte un t-shirt blanc.",
+                    "As-tu un t-shirt de rechange ?"
+                ]
+            }
+        ],
+        "transcription": "ti ʃœʁt",
+        "lang": "fr",
+        "id": "fr_starter_clothes_020"
+    },
+    {
+        "word": "short",
+        "level": "starter",
+        "theme": "clothes",
+        "emoji": "🩳",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "shorts",
+        "definitions": [
+            {
+                "text": "Un pantalon court qui arrive au-dessus du genou.",
+                "examples": [
+                    "Je mets un short parce qu'il fait chaud.",
+                    "Je porte un short pour jouer au football."
+                ]
+            }
+        ],
+        "transcription": "ʃɔʁt",
+        "lang": "fr",
+        "id": "fr_starter_clothes_021"
+    },
+    {
+        "word": "botte",
+        "level": "starter",
+        "theme": "clothes",
+        "emoji": "🥾",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "bottes",
+        "definitions": [
+            {
+                "text": "Un type de chaussure qui couvre aussi une partie de la jambe.",
+                "examples": [
+                    "Je mets des bottes quand il pleut.",
+                    "Elle a acheté des bottes en cuir."
+                ]
+            }
+        ],
+        "transcription": "bɔt",
+        "lang": "fr",
+        "id": "fr_starter_clothes_022"
+    },
+    {
+        "word": "écharpe",
+        "level": "starter",
+        "theme": "clothes",
+        "emoji": "🧣",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "gender": "feminine",
+        "article": "l'",
+        "plural": "écharpes",
+        "definitions": [
+            {
+                "text": "Une bande de tissu qu'on met autour du cou pour rester au chaud.",
+                "examples": [
+                    "Je mets mon écharpe parce qu'il fait froid.",
+                    "Mon écharpe est en laine."
+                ]
+            }
+        ],
+        "transcription": "eʃaʁp",
+        "lang": "fr",
+        "id": "fr_starter_clothes_023"
+    },
+    {
+        "word": "gant",
+        "level": "starter",
+        "theme": "clothes",
+        "emoji": "🧤",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "gants",
+        "definitions": [
+            {
+                "text": "Accessoires qui couvrent les mains pour les protéger du froid.",
+                "examples": [
+                    "Je porte des gants pour skier.",
+                    "Où sont mes gants ?"
+                ]
+            }
+        ],
+        "transcription": "ɡɑ̃",
+        "lang": "fr",
+        "id": "fr_starter_clothes_024"
+    }
+];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();

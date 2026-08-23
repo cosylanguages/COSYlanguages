@@ -1,4 +1,5 @@
 (function() {
+    const lang = "pt";
     const data = [
     {
         "t": "Os gatos são melhores que os cães.",
@@ -281,7 +282,7 @@
         "h": [
             "Você sabe nadar?",
             "Você gosta de água?",
-            "Onde você nada — na piscina ou no mar?",
+            "Onde você nada: na piscina ou no mar?",
             "De qual esporte você gosta?",
             "O esporte é importante para você?"
         ],
@@ -346,7 +347,6 @@
         "id": "pt_starter_food_drink_015"
     }
 ];
-    const lang = "pt";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];

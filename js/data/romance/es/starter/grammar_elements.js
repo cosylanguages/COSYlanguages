@@ -1,4 +1,5 @@
 (function() {
+    const lang = "es";
     const data = [
     {
         "word": "yo",
@@ -16,7 +17,8 @@
         ],
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_003"
+        "id": "es_starter_people_003",
+        "transcription": ""
     },
     {
         "word": "tú",
@@ -34,7 +36,8 @@
         ],
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_004"
+        "id": "es_starter_people_004",
+        "transcription": ""
     },
     {
         "word": "él",
@@ -52,7 +55,8 @@
         ],
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_005"
+        "id": "es_starter_people_005",
+        "transcription": ""
     },
     {
         "word": "ella",
@@ -70,7 +74,8 @@
         ],
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_006"
+        "id": "es_starter_people_006",
+        "transcription": ""
     },
     {
         "word": "nosotros",
@@ -88,7 +93,8 @@
         ],
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_007"
+        "id": "es_starter_people_007",
+        "transcription": ""
     },
     {
         "word": "ellos",
@@ -106,7 +112,8 @@
         ],
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_008"
+        "id": "es_starter_people_008",
+        "transcription": ""
     },
     {
         "word": "mi",
@@ -124,7 +131,8 @@
         ],
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_009"
+        "id": "es_starter_people_009",
+        "transcription": ""
     },
     {
         "word": "tu",
@@ -142,7 +150,8 @@
         ],
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_010"
+        "id": "es_starter_people_010",
+        "transcription": ""
     },
     {
         "word": "siempre",
@@ -160,7 +169,8 @@
         ],
         "lang": "es",
         "sub_theme": "periods",
-        "id": "es_starter_time_003"
+        "id": "es_starter_time_003",
+        "transcription": ""
     },
     {
         "word": "nunca",
@@ -178,7 +188,8 @@
         ],
         "lang": "es",
         "sub_theme": "periods",
-        "id": "es_starter_time_004"
+        "id": "es_starter_time_004",
+        "transcription": ""
     },
     {
         "word": "y",
@@ -196,7 +207,8 @@
         ],
         "lang": "es",
         "sub_theme": "grammar_terms",
-        "id": "es_starter_language_001"
+        "id": "es_starter_language_001",
+        "transcription": ""
     },
     {
         "word": "pero",
@@ -214,10 +226,10 @@
         ],
         "lang": "es",
         "sub_theme": "grammar_terms",
-        "id": "es_starter_language_002"
+        "id": "es_starter_language_002",
+        "transcription": ""
     }
 ];
-    const lang = "es";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "br";
     const pronouns = ["me", "te", "eñ", "hi", "ni", "c'hwi", "int"];
     const data = [
         {
@@ -34,7 +35,6 @@
             }
         }
     ]
-    const lang = "br";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

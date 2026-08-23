@@ -7,9 +7,9 @@ if (!window.lessonsData["en"]) window.lessonsData["en"] = {};
 window.lessonsData["en"]["5"] = {
     "title": "Day 5 | Earning and spending",
     "words": [
-        { "word": "spend", "emoji": "💸", "opposite": "save", "category": "vocabulary" },
-        { "word": "cheap", "emoji": "🏷️", "opposite": "expensive", "category": "vocabulary" },
-        { "word": "expensive", "emoji": "💎", "opposite": "cheap", "category": "vocabulary" },
+        { "word": "spend", "emoji": "💸", "antonyms": ["save"], "category": "vocabulary" },
+        { "word": "cheap", "emoji": "🏷️", "antonyms": ["expensive"], "category": "vocabulary" },
+        { "word": "expensive", "emoji": "💎", "antonyms": ["cheap"], "category": "vocabulary" },
         { "word": "cash", "emoji": "💵", "category": "vocabulary" },
         { "word": "card", "emoji": "💳", "category": "vocabulary" },
         { "word": "How much does it cost?", "emoji": "❓", "clozeText": "How much ______ it cost?", "answer": "does", "category": "grammar" },
@@ -24,8 +24,8 @@ window.lessonsData["fr"]["5"] = {
     "words": [
         { "word": "payer", "emoji": "💶", "category": "vocabulary" },
         { "word": "acheter", "emoji": "🛒", "category": "vocabulary" },
-        { "word": "cher", "emoji": "💎", "opposite": "bon marché", "category": "vocabulary" },
-        { "word": "bon marché", "emoji": "🏷️", "opposite": "cher", "category": "vocabulary" },
+        { "word": "cher", "emoji": "💎", "antonyms": ["bon marché"], "category": "vocabulary" },
+        { "word": "bon marché", "emoji": "🏷️", "antonyms": ["cher"], "category": "vocabulary" },
         { "word": "Combien ça coûte ?", "emoji": "❓", "clozeText": "Combien ça ______ ?", "answer": "coûte", "category": "grammar" },
         { "word": "Je paye par carte.", "emoji": "💳", "clozeText": "Je paye ______ carte.", "answer": "par", "category": "grammar" }
     ]
@@ -38,8 +38,8 @@ window.lessonsData["it"]["5"] = {
     "words": [
         { "word": "pagare", "emoji": "💶", "category": "vocabulary" },
         { "word": "comprare", "emoji": "🛒", "category": "vocabulary" },
-        { "word": "caro", "emoji": "💎", "opposite": "economico", "category": "vocabulary" },
-        { "word": "economico", "emoji": "🏷️", "opposite": "caro", "category": "vocabulary" },
+        { "word": "caro", "emoji": "💎", "antonyms": ["economico"], "category": "vocabulary" },
+        { "word": "economico", "emoji": "🏷️", "antonyms": ["caro"], "category": "vocabulary" },
         { "word": "Quanto costa?", "emoji": "❓", "clozeText": "Quanto ______?", "answer": "costa", "category": "grammar" },
         { "word": "Pago in contanti.", "emoji": "💵", "clozeText": "Pago ______ contanti.", "answer": "in", "category": "grammar" }
     ]
@@ -52,8 +52,8 @@ window.lessonsData["ru"]["5"] = {
     "words": [
         { "word": "платить", "emoji": "💶", "category": "vocabulary" },
         { "word": "купить", "emoji": "🛒", "category": "vocabulary" },
-        { "word": "дорого", "emoji": "💎", "opposite": "дешево", "category": "vocabulary" },
-        { "word": "дешево", "emoji": "🏷️", "opposite": "дорого", "category": "vocabulary" },
+        { "word": "дорого", "emoji": "💎", "antonyms": ["дешево"], "category": "vocabulary" },
+        { "word": "дешево", "emoji": "🏷️", "antonyms": ["дорого"], "category": "vocabulary" },
         { "word": "Сколько это стоит?", "emoji": "❓", "clozeText": "Сколько это ______?", "answer": "стоит", "category": "grammar" },
         { "word": "Я плачу картой.", "emoji": "💳", "clozeText": "Я плачу ______.", "answer": "картой", "category": "grammar" }
     ]
@@ -66,8 +66,8 @@ window.lessonsData["el"]["5"] = {
     "words": [
         { "word": "πληρώνω", "emoji": "💶", "category": "vocabulary" },
         { "word": "αγοράζω", "emoji": "🛒", "category": "vocabulary" },
-        { "word": "ακριβός", "emoji": "💎", "opposite": "φτηνός", "category": "vocabulary" },
-        { "word": "φτηνός", "emoji": "🏷️", "opposite": "ακριβός", "category": "vocabulary" },
+        { "word": "ακριβός", "emoji": "💎", "antonyms": ["φτηνός"], "category": "vocabulary" },
+        { "word": "φτηνός", "emoji": "🏷️", "antonyms": ["ακριβός"], "category": "vocabulary" },
         { "word": "Πόσο κάνει;", "emoji": "❓", "clozeText": "Πόσο ______;", "answer": "κάνει", "category": "grammar" },
         { "word": "Πληρώνω με κάρτα.", "emoji": "💳", "clozeText": "Πληρώνω ______ κάρτα.", "answer": "με", "category": "grammar" }
     ]

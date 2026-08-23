@@ -6,7 +6,7 @@ window.lessonsData["en"]["3"] = {
         {
             "word": "mother",
             "emoji": "👩‍👦",
-            "opposite": "father",
+            "antonyms": ["father"],
             "oppositeEmoji": "👨‍👦",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -14,7 +14,7 @@ window.lessonsData["en"]["3"] = {
         {
             "word": "father",
             "emoji": "👨‍👦",
-            "opposite": "mother",
+            "antonyms": ["mother"],
             "oppositeEmoji": "👩‍👦",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -22,7 +22,7 @@ window.lessonsData["en"]["3"] = {
         {
             "word": "sister",
             "emoji": "👩‍👧‍👧",
-            "opposite": "brother",
+            "antonyms": ["brother"],
             "oppositeEmoji": "👨‍👦‍👦",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -30,7 +30,7 @@ window.lessonsData["en"]["3"] = {
         {
             "word": "brother",
             "emoji": "👨‍👦‍👦",
-            "opposite": "sister",
+            "antonyms": ["sister"],
             "oppositeEmoji": "👩‍👧‍👧",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -38,7 +38,7 @@ window.lessonsData["en"]["3"] = {
         {
             "word": "daughter",
             "emoji": "👧",
-            "opposite": "son",
+            "antonyms": ["son"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -46,7 +46,7 @@ window.lessonsData["en"]["3"] = {
         {
             "word": "son",
             "emoji": "👦",
-            "opposite": "daughter",
+            "antonyms": ["daughter"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -54,7 +54,7 @@ window.lessonsData["en"]["3"] = {
         {
             "word": "wife",
             "emoji": "👰",
-            "opposite": "husband",
+            "antonyms": ["husband"],
             "oppositeEmoji": "🤵",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -62,7 +62,7 @@ window.lessonsData["en"]["3"] = {
         {
             "word": "husband",
             "emoji": "🤵",
-            "opposite": "wife",
+            "antonyms": ["wife"],
             "oppositeEmoji": "👰",
             "category": "vocabulary",
             "theme": "people_professions"
@@ -396,7 +396,7 @@ window.lessonsData["fr"]["3"] = {
         {
             "word": "la mère",
             "emoji": "👩‍👦",
-            "opposite": "le père",
+            "antonyms": ["le père"],
             "oppositeEmoji": "👨‍👦",
             "category": "vocabulary",
             "article": "la",
@@ -406,7 +406,7 @@ window.lessonsData["fr"]["3"] = {
         {
             "word": "le père",
             "emoji": "👨‍👦",
-            "opposite": "la mère",
+            "antonyms": ["la mère"],
             "oppositeEmoji": "👩‍👦",
             "category": "vocabulary",
             "article": "le",
@@ -416,7 +416,7 @@ window.lessonsData["fr"]["3"] = {
         {
             "word": "la sœur",
             "emoji": "👩‍👧‍👧",
-            "opposite": "le frère",
+            "antonyms": ["le frère"],
             "oppositeEmoji": "👨‍👦‍👦",
             "category": "vocabulary",
             "article": "la",
@@ -426,7 +426,7 @@ window.lessonsData["fr"]["3"] = {
         {
             "word": "le frère",
             "emoji": "👨‍👦‍👦",
-            "opposite": "la sœur",
+            "antonyms": ["la sœur"],
             "oppositeEmoji": "👩‍👧‍👧",
             "category": "vocabulary",
             "article": "le",
@@ -436,7 +436,7 @@ window.lessonsData["fr"]["3"] = {
         {
             "word": "la fille",
             "emoji": "👧",
-            "opposite": "le fils",
+            "antonyms": ["le fils"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "article": "la",
@@ -446,7 +446,7 @@ window.lessonsData["fr"]["3"] = {
         {
             "word": "le fils",
             "emoji": "👦",
-            "opposite": "la fille",
+            "antonyms": ["la fille"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "article": "le",
@@ -456,7 +456,7 @@ window.lessonsData["fr"]["3"] = {
         {
             "word": "la femme",
             "emoji": "👰",
-            "opposite": "le mari",
+            "antonyms": ["le mari"],
             "oppositeEmoji": "🤵",
             "category": "vocabulary",
             "article": "la",
@@ -466,7 +466,7 @@ window.lessonsData["fr"]["3"] = {
         {
             "word": "le mari",
             "emoji": "🤵",
-            "opposite": "la femme",
+            "antonyms": ["la femme"],
             "oppositeEmoji": "👰",
             "category": "vocabulary",
             "article": "le",
@@ -795,7 +795,7 @@ window.lessonsData["it"]["3"] = {
         {
             "word": "la madre",
             "emoji": "👩‍👦",
-            "opposite": "il padre",
+            "antonyms": ["il padre"],
             "oppositeEmoji": "👨‍👦",
             "category": "vocabulary",
             "article": "la",
@@ -805,7 +805,7 @@ window.lessonsData["it"]["3"] = {
         {
             "word": "il padre",
             "emoji": "👨‍👦",
-            "opposite": "la madre",
+            "antonyms": ["la madre"],
             "oppositeEmoji": "👩‍👦",
             "category": "vocabulary",
             "article": "il",
@@ -815,7 +815,7 @@ window.lessonsData["it"]["3"] = {
         {
             "word": "la sorella",
             "emoji": "👩‍👧‍👧",
-            "opposite": "il fratello",
+            "antonyms": ["il fratello"],
             "oppositeEmoji": "👨‍👦‍👦",
             "category": "vocabulary",
             "article": "la",
@@ -825,7 +825,7 @@ window.lessonsData["it"]["3"] = {
         {
             "word": "il fratello",
             "emoji": "👨‍👦‍👦",
-            "opposite": "la sorella",
+            "antonyms": ["la sorella"],
             "oppositeEmoji": "👩‍👧‍👧",
             "category": "vocabulary",
             "article": "il",
@@ -835,7 +835,7 @@ window.lessonsData["it"]["3"] = {
         {
             "word": "la figlia",
             "emoji": "👧",
-            "opposite": "il figlio",
+            "antonyms": ["il figlio"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "article": "la",
@@ -845,7 +845,7 @@ window.lessonsData["it"]["3"] = {
         {
             "word": "il figlio",
             "emoji": "👦",
-            "opposite": "la figlia",
+            "antonyms": ["la figlia"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "article": "il",
@@ -855,7 +855,7 @@ window.lessonsData["it"]["3"] = {
         {
             "word": "la moglie",
             "emoji": "👰",
-            "opposite": "il marito",
+            "antonyms": ["il marito"],
             "oppositeEmoji": "🤵",
             "category": "vocabulary",
             "article": "la",
@@ -865,7 +865,7 @@ window.lessonsData["it"]["3"] = {
         {
             "word": "il marito",
             "emoji": "🤵",
-            "opposite": "la moglie",
+            "antonyms": ["la moglie"],
             "oppositeEmoji": "👰",
             "category": "vocabulary",
             "article": "il",
@@ -1194,7 +1194,7 @@ window.lessonsData["ru"]["3"] = {
         {
             "word": "мать",
             "emoji": "👩‍👦",
-            "opposite": "отец",
+            "antonyms": ["отец"],
             "oppositeEmoji": "👨‍👦",
             "category": "vocabulary",
             "gender": "она",
@@ -1204,7 +1204,7 @@ window.lessonsData["ru"]["3"] = {
         {
             "word": "отец",
             "emoji": "👨‍👦",
-            "opposite": "мать",
+            "antonyms": ["мать"],
             "oppositeEmoji": "👩‍👦",
             "category": "vocabulary",
             "gender": "он",
@@ -1214,7 +1214,7 @@ window.lessonsData["ru"]["3"] = {
         {
             "word": "сестра",
             "emoji": "👩‍👧‍👧",
-            "opposite": "брат",
+            "antonyms": ["брат"],
             "oppositeEmoji": "👨‍👦‍👦",
             "category": "vocabulary",
             "gender": "она",
@@ -1224,7 +1224,7 @@ window.lessonsData["ru"]["3"] = {
         {
             "word": "брат",
             "emoji": "👨‍👦‍👦",
-            "opposite": "сестра",
+            "antonyms": ["сестра"],
             "oppositeEmoji": "👩‍👧‍👧",
             "category": "vocabulary",
             "gender": "он",
@@ -1234,7 +1234,7 @@ window.lessonsData["ru"]["3"] = {
         {
             "word": "дочь",
             "emoji": "👧",
-            "opposite": "сын",
+            "antonyms": ["сын"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "gender": "она",
@@ -1244,7 +1244,7 @@ window.lessonsData["ru"]["3"] = {
         {
             "word": "сын",
             "emoji": "👦",
-            "opposite": "дочь",
+            "antonyms": ["дочь"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "gender": "он",
@@ -1254,7 +1254,7 @@ window.lessonsData["ru"]["3"] = {
         {
             "word": "жена",
             "emoji": "👰",
-            "opposite": "муж",
+            "antonyms": ["муж"],
             "oppositeEmoji": "🤵",
             "category": "vocabulary",
             "gender": "она",
@@ -1264,7 +1264,7 @@ window.lessonsData["ru"]["3"] = {
         {
             "word": "муж",
             "emoji": "🤵",
-            "opposite": "жена",
+            "antonyms": ["жена"],
             "oppositeEmoji": "👰",
             "category": "vocabulary",
             "gender": "он",
@@ -1614,7 +1614,7 @@ window.lessonsData["el"]["3"] = {
         {
             "word": "η μητέρα",
             "emoji": "👩‍👦",
-            "opposite": "ο πατέρας",
+            "antonyms": ["ο πατέρας"],
             "oppositeEmoji": "👨‍👦",
             "category": "vocabulary",
             "article": "η",
@@ -1624,7 +1624,7 @@ window.lessonsData["el"]["3"] = {
         {
             "word": "ο πατέρας",
             "emoji": "👨‍👦",
-            "opposite": "η μητέρα",
+            "antonyms": ["η μητέρα"],
             "oppositeEmoji": "👩‍👦",
             "category": "vocabulary",
             "article": "ο",
@@ -1634,7 +1634,7 @@ window.lessonsData["el"]["3"] = {
         {
             "word": "η αδελφή",
             "emoji": "👩‍👧‍👧",
-            "opposite": "ο αδελφός",
+            "antonyms": ["ο αδελφός"],
             "oppositeEmoji": "👨‍👦‍👦",
             "category": "vocabulary",
             "article": "η",
@@ -1644,7 +1644,7 @@ window.lessonsData["el"]["3"] = {
         {
             "word": "ο αδελφός",
             "emoji": "👨‍👦‍👦",
-            "opposite": "η αδελφή",
+            "antonyms": ["η αδελφή"],
             "oppositeEmoji": "👩‍👧‍👧",
             "category": "vocabulary",
             "article": "ο",
@@ -1654,7 +1654,7 @@ window.lessonsData["el"]["3"] = {
         {
             "word": "η κόρη",
             "emoji": "👧",
-            "opposite": "ο γιος",
+            "antonyms": ["ο γιος"],
             "oppositeEmoji": "👦",
             "category": "vocabulary",
             "article": "η",
@@ -1664,7 +1664,7 @@ window.lessonsData["el"]["3"] = {
         {
             "word": "ο γιος",
             "emoji": "👦",
-            "opposite": "η κόρη",
+            "antonyms": ["η κόρη"],
             "oppositeEmoji": "👧",
             "category": "vocabulary",
             "article": "ο",
@@ -1674,7 +1674,7 @@ window.lessonsData["el"]["3"] = {
         {
             "word": "η σύζυγος",
             "emoji": "👰",
-            "opposite": "ο σύζυγος",
+            "antonyms": ["ο σύζυγος"],
             "oppositeEmoji": "🤵",
             "category": "vocabulary",
             "article": "η",
@@ -1684,7 +1684,7 @@ window.lessonsData["el"]["3"] = {
         {
             "word": "ο σύζυγος",
             "emoji": "🤵",
-            "opposite": "η σύζυγος",
+            "antonyms": ["η σύζυγος"],
             "oppositeEmoji": "👰",
             "category": "vocabulary",
             "article": "ο",

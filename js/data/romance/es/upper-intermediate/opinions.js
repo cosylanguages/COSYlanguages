@@ -391,7 +391,7 @@
         "form": "phrase",
         "id": "es_upper_intermediate_social_023"
     }
-];
+    ];
     const lang = "es";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

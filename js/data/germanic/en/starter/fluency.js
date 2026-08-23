@@ -1,4 +1,5 @@
 (function() {
+    const lang = "en";
     const data = [
     {
         "id": "en_starter_people_001",
@@ -211,7 +212,7 @@
         "id": "en_starter_jobs_001",
         "t": "Your job or school",
         "h": [
-            "What do you do — work or study?",
+            "What do you do: work or study?",
             "What do you like about it?",
             "What time do you start?",
             "Who do you work or study with?",
@@ -461,7 +462,6 @@
         ]
     }
 ];
-    const lang = "en";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];

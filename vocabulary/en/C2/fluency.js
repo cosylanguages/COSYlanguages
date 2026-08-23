@@ -28,7 +28,7 @@
         "t": "Whether the self is something we discover or construct",
         "h": [
             "Is there a fixed 'you' waiting to be uncovered, or are you continuously made by choices and context?",
-            "What happens to identity when context radically changes — illness, migration, loss?",
+            "What happens to identity when context radically changes: illness, migration, loss?",
             "Is the narrative you hold about yourself a discovery or an invention?",
             "Does the question matter for how you live, or is it purely philosophical?",
             "If the self is constructed, what are we responsible for constructing?"
@@ -54,7 +54,7 @@
             "Is selective memory a form of dishonesty with ourselves?",
             "Can forgiveness require forgetting, or is that a category error?",
             "What does a society that collectively chooses to forget reveal about itself?",
-            "Is there such a thing as ethical amnesia — for individuals or nations?"
+            "Is there such a thing as ethical amnesia: for individuals or nations?"
         ],
         "lang": "en",
         "level": "proficiency",
@@ -100,7 +100,7 @@
             "Is freedom always purchased at someone else's expense?",
             "Do you experience your responsibilities as constraints or as what gives your freedom meaning?",
             "Can a person be genuinely free without the material conditions to exercise that freedom?",
-            "What would you give up to be freer — and what does your answer reveal?"
+            "What would you give up to be freer: and what does your answer reveal?"
         ],
         "lang": "en",
         "level": "proficiency",
@@ -123,7 +123,7 @@
             "Do you trust nostalgic feelings or treat them with suspicion?",
             "Is what you are nostalgic for a real past or an edited version?",
             "What does nostalgia prevent and what does it make possible?",
-            "Can a society be nostalgic in the same way an individual can — and with the same dangers?"
+            "Can a society be nostalgic in the same way an individual can: and with the same dangers?"
         ],
         "lang": "en",
         "level": "proficiency",
@@ -142,7 +142,7 @@
         "id": "en_proficiency_social_003",
         "t": "Whether understanding something always diminishes it",
         "h": [
-            "Think of something beautiful or mysterious — does understanding it make it less so?",
+            "Think of something beautiful or mysterious: does understanding it make it less so?",
             "Is there value in not knowing, or is that just romanticism?",
             "Can scientific explanation and aesthetic wonder coexist, or does one colonise the other?",
             "Is there something you deliberately avoid understanding for fear of losing its power over you?",
@@ -165,7 +165,7 @@
         "id": "en_proficiency_technology_001",
         "t": "The difference between your claimed values and your revealed values",
         "h": [
-            "What do your actual choices — not your stated beliefs — say you value most?",
+            "What do your actual choices: not your stated beliefs: say you value most?",
             "Is there a painful gap between the two?",
             "Is the gap evidence of hypocrisy or of the genuine difficulty of living by one's principles?",
             "Can you close the gap, or does some distance between ideal and actual always persist?",
@@ -211,7 +211,7 @@
         "id": "en_proficiency_food_drink_001",
         "t": "Whether great art should challenge or console",
         "h": [
-            "What do you actually reach for when you are in pain — difficulty or comfort?",
+            "What do you actually reach for when you are in pain: difficulty or comfort?",
             "Is there art that manages to do both simultaneously?",
             "Is consoling art less serious than challenging art, or is that a snobbish distinction?",
             "What do you think the primary obligation of art is?",
@@ -282,7 +282,7 @@
         "h": [
             "Is there something you feel but cannot find language for?",
             "Is the difficulty about language or about the thing itself?",
-            "Do you think some inner experience is genuinely private — inaccessible even to yourself?",
+            "Do you think some inner experience is genuinely private: inaccessible even to yourself?",
             "What would it mean to fully understand your own interiority?",
             "Does the ineffable need to be articulated to be real?"
         ],
@@ -330,7 +330,7 @@
             "What does continuity of self actually consist in?",
             "Is the person you remember being the same person as the one speaking now?",
             "What happens to identity in the experience of radical loss or transformation?",
-            "Does the question of personal identity matter for how we treat each other — legally, ethically?"
+            "Does the question of personal identity matter for how we treat each other: legally, ethically?"
         ],
         "lang": "en",
         "level": "proficiency",
@@ -349,8 +349,8 @@
         "id": "en_proficiency_social_006",
         "t": "Whether the examined life is always worth living",
         "h": [
-            "Socrates said the unexamined life is not worth living — do you agree?",
-            "Is there a cost to examination — a kind of paralysis or loss of innocence?",
+            "Socrates said the unexamined life is not worth living: do you agree?",
+            "Is there a cost to examination: a kind of paralysis or loss of innocence?",
             "Can examination become its own form of avoidance?",
             "Are there people who live deeply and well without much self-examination?",
             "What do you think your own degree of self-examination has cost and given you?"
@@ -373,7 +373,7 @@
         "t": "The question of what you owe strangers",
         "h": [
             "Do you have obligations to people you will never meet?",
-            "How far do your moral obligations extend — to your neighbourhood, your nation, the world?",
+            "How far do your moral obligations extend: to your neighbourhood, your nation, the world?",
             "Does physical or cultural distance diminish obligation or is that a rationalisation?",
             "What is the difference between charity and justice?",
             "How do you actually live in relation to this question?"
@@ -395,7 +395,7 @@
         "id": "en_proficiency_social_008",
         "t": "The stories civilisations tell about themselves",
         "h": [
-            "Every society has a founding myth — what is yours, and how accurate is it?",
+            "Every society has a founding myth: what is yours, and how accurate is it?",
             "What does a nation choose to forget as much as what it chooses to remember?",
             "Is national identity a useful fiction or a dangerous one?",
             "Can a society hold a more honest account of itself without losing cohesion?",
