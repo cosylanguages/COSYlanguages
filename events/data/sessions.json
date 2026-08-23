@@ -2787,7 +2787,7 @@
     "title": "Angelina Wismes Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/fr/angelina-wismes-challenge/index.html",
     "level": "B1",
-    "lang": null,
+    "lang": "French",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
@@ -2795,7 +2795,7 @@
     "title": "Angèle Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/fr/angele-challenge/index.html",
     "level": "B1",
-    "lang": null,
+    "lang": "French",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
@@ -2810,8 +2810,8 @@
   {
     "title": "Arletta Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/el/arletta-challenge/index.html",
-    "level": null,
-    "lang": null,
+    "level": "B1",
+    "lang": "Greek",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
@@ -2938,8 +2938,8 @@
   {
     "title": "Esteman Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/es/esteman-challenge/index.html",
-    "level": null,
-    "lang": null,
+    "level": "B1",
+    "lang": "Spanish",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
@@ -2947,7 +2947,7 @@
     "title": "Fabienne Thibeault Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/fr/fabienne-thibeault-challenge/index.html",
     "level": "B1",
-    "lang": null,
+    "lang": "French",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
@@ -3122,8 +3122,8 @@
   {
     "title": "La Zarra Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/fr/la-zarra-challenge/index.html",
-    "level": "B2",
-    "lang": null,
+    "level": "B1",
+    "lang": "French",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
@@ -3202,8 +3202,8 @@
   {
     "title": "Massimo Ranieri Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/it/massimo-ranieri-challenge/index.html",
-    "level": null,
-    "lang": null,
+    "level": "B1",
+    "lang": "Italian",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
@@ -3211,7 +3211,7 @@
     "title": "Maëlle Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/fr/maelle-challenge/index.html",
     "level": "B1",
-    "lang": null,
+    "lang": "French",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
@@ -3234,8 +3234,8 @@
   {
     "title": "Mple Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/el/mple-challenge/index.html",
-    "level": null,
-    "lang": null,
+    "level": "B1",
+    "lang": "Greek",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
@@ -3531,7 +3531,7 @@
     "title": "Zazie Challenge",
     "href": "../apps/premium-events/nights/karaoke/sessions/karaoke-club/challenges/fr/zazie-challenge/index.html",
     "level": "B2",
-    "lang": null,
+    "lang": "French",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
   },
