@@ -248,7 +248,7 @@ def check_speaking_club_sessions():
 
                                     if v_ex:
                                         ex_text = v_ex.get_text().strip()
-                                        if not ex_text.endswith((".", "?", "!")):
+                                        if not ex_text.endswith((".", "?", "!", '"', "»", "”", "’", "'")):
                                             print(f"❌ {filepath}: Grid {grid_idx+1} Vocabulary {idx+1} example does not end with a period: '{ex_text}'")
                                             errors += 1
                     elif is_karaoke_session:
@@ -275,7 +275,7 @@ def check_speaking_club_sessions():
 
                                 if v_ex:
                                     ex_text = v_ex.get_text().strip()
-                                    if not ex_text.endswith((".", "?", "!")):
+                                    if not ex_text.endswith((".", "?", "!", '"', "»", "”", "’", "'")):
                                         print(f"❌ {filepath}: Vocabulary {idx+1} example does not end with a period/question/exclamation: '{ex_text}'")
                                         errors += 1
                     else:
@@ -301,7 +301,7 @@ def check_speaking_club_sessions():
 
                                 if v_ex:
                                     ex_text = v_ex.get_text().strip()
-                                    if not ex_text.endswith((".", "?", "!")):
+                                    if not ex_text.endswith((".", "?", "!", '"', "»", "”", "’", "'")):
                                         print(f"❌ {filepath}: Vocabulary {idx+1} example does not end with a period: '{ex_text}'")
                                         errors += 1
                                     if "Example:" in ex_text:
