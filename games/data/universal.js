@@ -47,16 +47,23 @@
         { word: 'Chocolate', options: ['Nahuatl', 'Spanish', 'Maya', 'French'], answer: 'Nahuatl', level: 'intermediate', path: 'Chocolate → Chocolate (Spanish) → Xocolātl (Nahuatl)', detail: 'Meaning "bitter water".' },
         { word: 'Lemon', options: ['Arabic', 'Old French', 'Persian', 'Hindi'], answer: 'Arabic', level: 'intermediate', path: 'Lemon → Limon (Old French) → Laymun (Arabic) → Limun (Persian)', detail: 'Ancient roots in Asia.' },
 
+        { word: 'Nostalgia', options: ['Greek', 'Latin', 'German', 'French'], answer: 'Greek', level: 'upper_intermediate', path: 'Nostalgia → Nostos + Algos (Greek)', detail: 'From "nostos" (return home) + "algos" (pain/longing).' },
+        { word: 'Tsunami', options: ['Japanese', 'Chinese', 'Polynesian', 'Korean'], answer: 'Japanese', level: 'upper_intermediate', path: 'Tsunami → Tsu + Nami (Japanese)', detail: 'From "tsu" (harbour) + "nami" (wave).' },
+
         { word: 'Juggernaut', options: ['Sanskrit', 'Hindi', 'Tamil', 'Persian'], answer: 'Sanskrit', level: 'advanced', path: 'Juggernaut → Jagannatha (Sanskrit)', detail: 'Lord of the World, a title for Krishna.' },
         { word: 'Quarantine', options: ['Italian', 'French', 'Latin', 'Spanish'], answer: 'Italian', level: 'advanced', path: 'Quarantine → Quarantina (Italian) → Quaranta (forty)', detail: 'Forty days of isolation for ships.' },
         { word: 'Assassin', options: ['Arabic', 'Persian', 'Turkish', 'French'], answer: 'Arabic', level: 'advanced', path: 'Assassin → Assassins (French) → Hashshashin (Arabic)', detail: 'Refers to a specific sect.' },
         { word: 'Clue', options: ['Greek', 'Latin', 'Old English', 'French'], answer: 'Greek', level: 'advanced', path: 'Clue → Clew (Old English) → Ariadne\'s Thread (Greek Myth)', detail: 'Originally meant a ball of thread.' },
         { word: 'Buck', options: ['American English', 'Old English', 'Germanic', 'Dutch'], answer: 'American English', level: 'advanced', path: 'Buck → Buckskin (unit of trade)', detail: 'Units of trade on the American frontier.' },
-        { word: 'Pajamas', options: ['Hindi/Urdu', 'Persian', 'Arabic', 'Turkish'], answer: 'Hindi/Urdu', level: 'advanced', path: 'Pajamas → Pay-jama (Hindi/Urdu) → Pa-jameh (Persian)', detail: 'Pā (leg) + jāmeh (garment).' }
+        { word: 'Pajamas', options: ['Hindi/Urdu', 'Persian', 'Arabic', 'Turkish'], answer: 'Hindi/Urdu', level: 'advanced', path: 'Pajamas → Pay-jama (Hindi/Urdu) → Pa-jameh (Persian)', detail: 'Pā (leg) + jāmeh (garment).' },
+
+        { word: 'Synergism', options: ['Greek', 'Latin', 'French', 'German'], answer: 'Greek', level: 'proficiency', path: 'Synergism → Synergos (Greek)', detail: 'From "syn" (together) + "ergon" (work).' },
+        { word: 'Iconoclast', options: ['Greek', 'Latin', 'Byzantine', 'French'], answer: 'Greek', level: 'proficiency', path: 'Iconoclast → Eikonoklastes (Greek)', detail: 'From "eikon" (image) + "klastes" (breaker).' }
       ],
       storychain: [
         'Secret', 'Map', 'Key', 'Storm', 'Stranger', 'Bridge', 'Letter', 'Ring', 'Mirror', 'Shadow',
-        'Clock', 'Compass', 'Gift', 'Tunnel', 'Stairs', 'Window', 'Garden', 'Forest', 'Ocean', 'Mountain'
+        'Clock', 'Compass', 'Gift', 'Tunnel', 'Stairs', 'Window', 'Garden', 'Forest', 'Ocean', 'Mountain',
+        'Labyrinth', 'Whisper', 'Eclipse', 'Sanctuary', 'Enigma', 'Tapestry', 'Horizon', 'Alchemist'
       ]
     };
 
