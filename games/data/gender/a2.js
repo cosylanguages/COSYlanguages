@@ -6,7 +6,7 @@
             emoji: "🌊",
             translations: {
                 fr: { word: "mer", article: "la", gender: "feminine" },
-                es: { word: "mar", article: "el/la", gender: "both" },
+                es: { word: "mar", article: "el", gender: "masculine" },
                 it: { word: "mare", article: "il", gender: "masculine" },
                 de: { word: "Meer", article: "das", gender: "neuter" },
                 ru: { word: "море", article: "", gender: "neuter" },

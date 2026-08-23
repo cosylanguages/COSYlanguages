@@ -375,7 +375,7 @@
                 },
                 {
                     "c": {
-                        "en": "What is your favorite secret code or inside joke between us?",
+                        "en": "What is your favorite secret code or inside joke?",
                         "ru": "Какой наш любимый секретный код или внутренняя шутка?",
                         "fr": "Quel est notre code secret ou notre blague interne préférée ?"
                     },
@@ -505,146 +505,146 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #39 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #39 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #39 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #39 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #39 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #39 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #40 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #40 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #40 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #40 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #40 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #40 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #41 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #41 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #41 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #41 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #41 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #41 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #42 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #42 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #42 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #42 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #42 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #42 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #43 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #43 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #43 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #43 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #43 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #43 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #44 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #44 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #44 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #44 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #44 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #44 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #45 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #45 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #45 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #45 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #45 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #45 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #46 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #46 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #46 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #46 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #46 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #46 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #47 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #47 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #47 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #47 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #47 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #47 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #48 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #48 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #48 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #48 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #48 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #48 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #49 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #49 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #49 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #49 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #49 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #49 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #50 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #50 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #50 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #50 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #50 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #50 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 }
             ]
@@ -659,158 +659,158 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #51 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #51 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #51 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #51 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #51 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #51 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #52 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #52 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #52 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #52 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #52 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #52 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #53 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #53 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #53 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #53 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #53 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #53 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #54 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #54 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #54 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #54 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #54 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #54 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #55 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #55 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #55 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #55 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #55 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #55 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #56 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #56 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #56 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #56 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #56 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #56 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #57 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #57 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #57 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #57 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #57 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #57 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #58 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #58 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #58 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #58 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #58 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #58 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #59 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #59 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #59 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #59 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #59 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #59 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #60 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #60 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #60 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #60 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #60 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #60 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #61 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #61 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #61 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #61 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #61 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #61 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #62 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #62 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #62 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #62 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #62 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #62 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #63 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #63 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #63 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #63 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #63 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #63 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 }
             ]
@@ -825,146 +825,146 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #64 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #64 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #64 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #64 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #64 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #64 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #65 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #65 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #65 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #65 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #65 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #65 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #66 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #66 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #66 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #66 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #66 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #66 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #67 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #67 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #67 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #67 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #67 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #67 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #68 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #68 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #68 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #68 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #68 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #68 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #69 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #69 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #69 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #69 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #69 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #69 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #70 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #70 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #70 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #70 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #70 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #70 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #71 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #71 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #71 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #71 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #71 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #71 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #72 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #72 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #72 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #72 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #72 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #72 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #73 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #73 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #73 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #73 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #73 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #73 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #74 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #74 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #74 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #74 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #74 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #74 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #75 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #75 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #75 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #75 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #75 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #75 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 }
             ]
@@ -979,158 +979,158 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #76 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #76 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #76 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #76 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #76 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #76 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #77 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #77 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #77 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #77 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #77 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #77 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #78 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #78 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #78 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #78 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #78 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #78 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #79 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #79 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #79 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #79 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #79 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #79 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #80 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #80 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #80 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #80 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #80 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #80 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #81 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #81 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #81 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #81 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #81 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #81 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #82 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #82 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #82 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #82 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #82 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #82 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #83 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #83 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #83 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #83 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #83 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #83 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #84 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #84 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #84 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #84 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #84 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #84 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #85 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #85 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #85 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #85 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #85 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #85 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #86 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #86 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #86 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #86 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #86 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #86 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #87 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #87 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #87 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #87 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #87 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #87 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #88 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #88 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #88 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #88 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #88 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #88 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 }
             ]
@@ -1145,146 +1145,146 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #89 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #89 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #89 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #89 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #89 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #89 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #90 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #90 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #90 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #90 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #90 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #90 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #91 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #91 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #91 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #91 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #91 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #91 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #92 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #92 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #92 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #92 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #92 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #92 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #93 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #93 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #93 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #93 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #93 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #93 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #94 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #94 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #94 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #94 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #94 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #94 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #95 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #95 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #95 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #95 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #95 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #95 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #96 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #96 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #96 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #96 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #96 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #96 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #97 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #97 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #97 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #97 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #97 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #97 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #98 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #98 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #98 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #98 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #98 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #98 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #99 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #99 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #99 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #99 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #99 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #99 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite family activity or memory #100 between us?",
-                        "ru": "Какое твое любимое семейное занятие или воспоминание #100 между нами?",
-                        "fr": "Quel est ton souvenir de famille ou moment préféré #100 entre nous ?"
+                        "en": "What is your favorite family activity or memory?",
+                        "ru": "Какое твое любимое семейное занятие или воспоминание между нами?",
+                        "fr": "Quel est ton souvenir de famille ou moment préféré entre nous ?"
                     },
                     "a": {
-                        "en": "What is a major life advice #100 that has guided your perspective of family life?",
-                        "ru": "Какой важный жизненный совет #100 направлял ваше отношение к семейной жизни?",
-                        "fr": "Quel conseil de vie important #100 a guidé ta vision de la vie de famille ?"
+                        "en": "What is a major life advice that has guided your perspective of family life?",
+                        "ru": "Какой важный жизненный совет направлял ваше отношение к семейной жизни?",
+                        "fr": "Quel conseil de vie important a guidé ta vision de la vie de famille ?"
                     }
                 }
             ]

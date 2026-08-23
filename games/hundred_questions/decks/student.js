@@ -505,146 +505,146 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #39?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #39?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #39 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #39 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #39 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #39 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #40?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #40?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #40 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #40 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #40 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #40 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #41?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #41?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #41 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #41 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #41 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #41 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #42?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #42?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #42 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #42 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #42 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #42 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #43?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #43?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #43 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #43 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #43 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #43 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #44?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #44?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #44 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #44 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #44 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #44 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #45?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #45?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #45 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #45 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #45 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #45 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #46?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #46?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #46 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #46 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #46 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #46 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #47?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #47?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #47 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #47 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #47 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #47 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #48?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #48?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #48 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #48 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #48 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #48 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #49?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #49?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #49 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #49 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #49 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #49 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #50?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #50?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #50 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #50 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #50 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #50 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 }
             ]
@@ -659,158 +659,158 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #51?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #51?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #51 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #51 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #51 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #51 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #52?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #52?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #52 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #52 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #52 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #52 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #53?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #53?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #53 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #53 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #53 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #53 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #54?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #54?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #54 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #54 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #54 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #54 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #55?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #55?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #55 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #55 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #55 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #55 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #56?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #56?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #56 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #56 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #56 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #56 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #57?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #57?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #57 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #57 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #57 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #57 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #58?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #58?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #58 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #58 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #58 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #58 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #59?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #59?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #59 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #59 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #59 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #59 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #60?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #60?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #60 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #60 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #60 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #60 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #61?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #61?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #61 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #61 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #61 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #61 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #62?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #62?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #62 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #62 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #62 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #62 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #63?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #63?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #63 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #63 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #63 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #63 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 }
             ]
@@ -825,146 +825,146 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #64?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #64?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #64 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #64 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #64 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #64 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #65?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #65?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #65 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #65 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #65 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #65 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #66?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #66?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #66 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #66 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #66 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #66 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #67?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #67?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #67 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #67 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #67 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #67 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #68?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #68?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #68 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #68 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #68 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #68 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #69?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #69?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #69 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #69 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #69 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #69 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #70?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #70?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #70 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #70 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #70 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #70 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #71?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #71?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #71 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #71 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #71 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #71 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #72?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #72?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #72 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #72 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #72 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #72 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #73?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #73?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #73 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #73 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #73 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #73 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #74?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #74?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #74 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #74 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #74 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #74 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #75?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #75?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #75 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #75 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #75 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #75 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 }
             ]
@@ -979,158 +979,158 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #76?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #76?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #76 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #76 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #76 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #76 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #77?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #77?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #77 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #77 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #77 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #77 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #78?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #78?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #78 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #78 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #78 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #78 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #79?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #79?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #79 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #79 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #79 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #79 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #80?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #80?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #80 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #80 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #80 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #80 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #81?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #81?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #81 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #81 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #81 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #81 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #82?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #82?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #82 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #82 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #82 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #82 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #83?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #83?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #83 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #83 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #83 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #83 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #84?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #84?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #84 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #84 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #84 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #84 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #85?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #85?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #85 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #85 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #85 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #85 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #86?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #86?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #86 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #86 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #86 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #86 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #87?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #87?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #87 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #87 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #87 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #87 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #88?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #88?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #88 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #88 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #88 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #88 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 }
             ]
@@ -1145,146 +1145,146 @@
             "questions": [
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #89?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #89?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #89 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #89 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #89 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #89 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #90?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #90?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #90 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #90 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #90 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #90 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #91?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #91?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #91 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #91 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #91 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #91 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #92?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #92?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #92 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #92 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #92 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #92 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #93?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #93?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #93 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #93 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #93 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #93 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #94?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #94?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #94 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #94 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #94 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #94 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #95?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #95?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #95 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #95 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #95 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #95 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #96?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #96?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #96 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #96 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #96 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #96 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #97?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #97?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #97 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #97 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #97 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #97 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #98?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #98?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #98 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #98 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #98 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #98 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #99?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #99?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #99 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #99 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #99 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #99 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 },
                 {
                     "c": {
-                        "en": "What is your favorite lesson activity or study game #100?",
-                        "ru": "Какая твоя любимая активность или игра на уроке #100?",
-                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré #100 ?"
+                        "en": "What is your favorite lesson activity or study game?",
+                        "ru": "Какая твоя любимая активность или игра на уроке?",
+                        "fr": "Quelle est ton activité de cours ou jeu d'étude préféré ?"
                     },
                     "a": {
-                        "en": "How does learning format #100 optimize your cognitive retention and skill application?",
-                        "ru": "Как формат обучения #100 улучшает ваше запоминание и применение навыков?",
-                        "fr": "Comment le format d'apprentissage #100 optimise-t-il ta mémorisation ?"
+                        "en": "How does learning format optimize your cognitive retention and skill application?",
+                        "ru": "Как формат обучения улучшает ваше запоминание и применение навыков?",
+                        "fr": "Comment le format d'apprentissage optimise-t-il ta mémorisation ?"
                     }
                 }
             ]

@@ -20,7 +20,7 @@
             emoji: "🎨",
             translations: {
                 fr: { word: "art", article: "l'", gender: "masculine" },
-                es: { word: "arte", article: "el/la", gender: "both" },
+                es: { word: "arte", article: "el", gender: "masculine" },
                 it: { word: "arte", article: "l'", gender: "feminine" },
                 de: { word: "Kunst", article: "die", gender: "feminine" },
                 ru: { word: "искусство", article: "", gender: "neuter" },

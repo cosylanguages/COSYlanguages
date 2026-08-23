@@ -270,242 +270,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What is a rule you always follow #21?",
-                            "ru": "Какое правило ты всегда соблюдаешь #21?",
-                            "fr": "Quelle règle suis-tu toujours #21 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #21 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #21 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #21 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #22?",
-                            "ru": "Какое правило ты всегда соблюдаешь #22?",
-                            "fr": "Quelle règle suis-tu toujours #22 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #22 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #22 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #22 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #23?",
-                            "ru": "Какое правило ты всегда соблюдаешь #23?",
-                            "fr": "Quelle règle suis-tu toujours #23 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #23 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #23 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #23 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #24?",
-                            "ru": "Какое правило ты всегда соблюдаешь #24?",
-                            "fr": "Quelle règle suis-tu toujours #24 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #24 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #24 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #24 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #25?",
-                            "ru": "Какое правило ты всегда соблюдаешь #25?",
-                            "fr": "Quelle règle suis-tu toujours #25 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #25 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #25 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #25 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #26?",
-                            "ru": "Какое правило ты всегда соблюдаешь #26?",
-                            "fr": "Quelle règle suis-tu toujours #26 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #26 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #26 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #26 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #27?",
-                            "ru": "Какое правило ты всегда соблюдаешь #27?",
-                            "fr": "Quelle règle suis-tu toujours #27 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #27 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #27 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #27 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #28?",
-                            "ru": "Какое правило ты всегда соблюдаешь #28?",
-                            "fr": "Quelle règle suis-tu toujours #28 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #28 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #28 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #28 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #29?",
-                            "ru": "Какое правило ты всегда соблюдаешь #29?",
-                            "fr": "Quelle règle suis-tu toujours #29 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #29 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #29 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #29 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #30?",
-                            "ru": "Какое правило ты всегда соблюдаешь #30?",
-                            "fr": "Quelle règle suis-tu toujours #30 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #30 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #30 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #30 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #31?",
-                            "ru": "Какое правило ты всегда соблюдаешь #31?",
-                            "fr": "Quelle règle suis-tu toujours #31 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #31 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #31 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #31 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #32?",
-                            "ru": "Какое правило ты всегда соблюдаешь #32?",
-                            "fr": "Quelle règle suis-tu toujours #32 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #32 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #32 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #32 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #33?",
-                            "ru": "Какое правило ты всегда соблюдаешь #33?",
-                            "fr": "Quelle règle suis-tu toujours #33 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #33 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #33 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #33 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #34?",
-                            "ru": "Какое правило ты всегда соблюдаешь #34?",
-                            "fr": "Quelle règle suis-tu toujours #34 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #34 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #34 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #34 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #35?",
-                            "ru": "Какое правило ты всегда соблюдаешь #35?",
-                            "fr": "Quelle règle suis-tu toujours #35 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #35 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #35 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #35 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #36?",
-                            "ru": "Какое правило ты всегда соблюдаешь #36?",
-                            "fr": "Quelle règle suis-tu toujours #36 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #36 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #36 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #36 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #37?",
-                            "ru": "Какое правило ты всегда соблюдаешь #37?",
-                            "fr": "Quelle règle suis-tu toujours #37 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #37 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #37 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #37 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #38?",
-                            "ru": "Какое правило ты всегда соблюдаешь #38?",
-                            "fr": "Quelle règle suis-tu toujours #38 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #38 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #38 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #38 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #39?",
-                            "ru": "Какое правило ты всегда соблюдаешь #39?",
-                            "fr": "Quelle règle suis-tu toujours #39 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #39 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #39 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #39 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a rule you always follow #40?",
-                            "ru": "Какое правило ты всегда соблюдаешь #40?",
-                            "fr": "Quelle règle suis-tu toujours #40 ?"
+                            "en": "What is a rule you always follow?",
+                            "ru": "Какое правило ты всегда соблюдаешь?",
+                            "fr": "Quelle règle suis-tu toujours ?"
                         },
                         "a": {
-                            "en": "What core moral value #40 are you absolutely unwilling to compromise on, even for success?",
-                            "ru": "Каким ключевым моральным принципом #40 вы абсолютно не готовы поступиться, даже ради успеха?",
-                            "fr": "Sur quelle valeur morale essentielle #40 refusez-vous absolument de faire des compromis, même pour réussir ?"
+                            "en": "What core moral value are you absolutely unwilling to compromise on, even for success?",
+                            "ru": "Каким ключевым моральным принципом вы абсолютно не готовы поступиться, даже ради успеха?",
+                            "fr": "Sur quelle valeur morale essentielle refusez-vous absolument de faire des compromis, même pour réussir ?"
                         }
                     }
                 ]
@@ -520,242 +520,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #41?",
-                            "ru": "От чего тебе становится немного грустно #41?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #41 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #41 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #41 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #41 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #42?",
-                            "ru": "От чего тебе становится немного грустно #42?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #42 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #42 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #42 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #42 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #43?",
-                            "ru": "От чего тебе становится немного грустно #43?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #43 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #43 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #43 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #43 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #44?",
-                            "ru": "От чего тебе становится немного грустно #44?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #44 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #44 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #44 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #44 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #45?",
-                            "ru": "От чего тебе становится немного грустно #45?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #45 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #45 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #45 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #45 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #46?",
-                            "ru": "От чего тебе становится немного грустно #46?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #46 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #46 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #46 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #46 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #47?",
-                            "ru": "От чего тебе становится немного грустно #47?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #47 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #47 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #47 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #47 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #48?",
-                            "ru": "От чего тебе становится немного грустно #48?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #48 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #48 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #48 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #48 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #49?",
-                            "ru": "От чего тебе становится немного грустно #49?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #49 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #49 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #49 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #49 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #50?",
-                            "ru": "От чего тебе становится немного грустно #50?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #50 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #50 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #50 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #50 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #51?",
-                            "ru": "От чего тебе становится немного грустно #51?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #51 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #51 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #51 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #51 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #52?",
-                            "ru": "От чего тебе становится немного грустно #52?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #52 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #52 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #52 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #52 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #53?",
-                            "ru": "От чего тебе становится немного грустно #53?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #53 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #53 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #53 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #53 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #54?",
-                            "ru": "От чего тебе становится немного грустно #54?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #54 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #54 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #54 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #54 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #55?",
-                            "ru": "От чего тебе становится немного грустно #55?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #55 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #55 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #55 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #55 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #56?",
-                            "ru": "От чего тебе становится немного грустно #56?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #56 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #56 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #56 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #56 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #57?",
-                            "ru": "От чего тебе становится немного грустно #57?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #57 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #57 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #57 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #57 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #58?",
-                            "ru": "От чего тебе становится немного грустно #58?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #58 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #58 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #58 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #58 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #59?",
-                            "ru": "От чего тебе становится немного грустно #59?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #59 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #59 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #59 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #59 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What makes you feel a little sad #60?",
-                            "ru": "От чего тебе становится немного грустно #60?",
-                            "fr": "Qu'est-ce qui te rend un peu triste #60 ?"
+                            "en": "What makes you feel a little sad?",
+                            "ru": "От чего тебе становится немного грустно?",
+                            "fr": "Qu'est-ce qui te rend un peu triste ?"
                         },
                         "a": {
-                            "en": "What is a hard truth #60 about your current personality that you are actively trying to ignore?",
-                            "ru": "Какую горькую правду #60 о своем характере вы сейчас активно пытаетесь игнорировать?",
-                            "fr": "Quelle vérité difficile #60 sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
+                            "en": "What is a hard truth about your current personality that you are actively trying to ignore?",
+                            "ru": "Какую горькую правду о своем характере вы сейчас активно пытаетесь игнорировать?",
+                            "fr": "Quelle vérité difficile sur votre personnalité actuelle essayez-vous activement d'ignorer ?"
                         }
                     }
                 ]
@@ -770,242 +770,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "Who is your best friend right now #61?",
-                            "ru": "Кто твой лучший друг прямо сейчас #61?",
-                            "fr": "Qui est ton meilleur ami en ce moment #61 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #61 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #61 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #61 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #62?",
-                            "ru": "Кто твой лучший друг прямо сейчас #62?",
-                            "fr": "Qui est ton meilleur ami en ce moment #62 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #62 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #62 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #62 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #63?",
-                            "ru": "Кто твой лучший друг прямо сейчас #63?",
-                            "fr": "Qui est ton meilleur ami en ce moment #63 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #63 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #63 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #63 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #64?",
-                            "ru": "Кто твой лучший друг прямо сейчас #64?",
-                            "fr": "Qui est ton meilleur ami en ce moment #64 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #64 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #64 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #64 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #65?",
-                            "ru": "Кто твой лучший друг прямо сейчас #65?",
-                            "fr": "Qui est ton meilleur ami en ce moment #65 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #65 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #65 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #65 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #66?",
-                            "ru": "Кто твой лучший друг прямо сейчас #66?",
-                            "fr": "Qui est ton meilleur ami en ce moment #66 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #66 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #66 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #66 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #67?",
-                            "ru": "Кто твой лучший друг прямо сейчас #67?",
-                            "fr": "Qui est ton meilleur ami en ce moment #67 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #67 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #67 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #67 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #68?",
-                            "ru": "Кто твой лучший друг прямо сейчас #68?",
-                            "fr": "Qui est ton meilleur ami en ce moment #68 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #68 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #68 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #68 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #69?",
-                            "ru": "Кто твой лучший друг прямо сейчас #69?",
-                            "fr": "Qui est ton meilleur ami en ce moment #69 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #69 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #69 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #69 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #70?",
-                            "ru": "Кто твой лучший друг прямо сейчас #70?",
-                            "fr": "Qui est ton meilleur ami en ce moment #70 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #70 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #70 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #70 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #71?",
-                            "ru": "Кто твой лучший друг прямо сейчас #71?",
-                            "fr": "Qui est ton meilleur ami en ce moment #71 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #71 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #71 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #71 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #72?",
-                            "ru": "Кто твой лучший друг прямо сейчас #72?",
-                            "fr": "Qui est ton meilleur ami en ce moment #72 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #72 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #72 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #72 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #73?",
-                            "ru": "Кто твой лучший друг прямо сейчас #73?",
-                            "fr": "Qui est ton meilleur ami en ce moment #73 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #73 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #73 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #73 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #74?",
-                            "ru": "Кто твой лучший друг прямо сейчас #74?",
-                            "fr": "Qui est ton meilleur ami en ce moment #74 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #74 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #74 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #74 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #75?",
-                            "ru": "Кто твой лучший друг прямо сейчас #75?",
-                            "fr": "Qui est ton meilleur ami en ce moment #75 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #75 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #75 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #75 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #76?",
-                            "ru": "Кто твой лучший друг прямо сейчас #76?",
-                            "fr": "Qui est ton meilleur ami en ce moment #76 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #76 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #76 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #76 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #77?",
-                            "ru": "Кто твой лучший друг прямо сейчас #77?",
-                            "fr": "Qui est ton meilleur ami en ce moment #77 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #77 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #77 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #77 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #78?",
-                            "ru": "Кто твой лучший друг прямо сейчас #78?",
-                            "fr": "Qui est ton meilleur ami en ce moment #78 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #78 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #78 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #78 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #79?",
-                            "ru": "Кто твой лучший друг прямо сейчас #79?",
-                            "fr": "Qui est ton meilleur ami en ce moment #79 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #79 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #79 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #79 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who is your best friend right now #80?",
-                            "ru": "Кто твой лучший друг прямо сейчас #80?",
-                            "fr": "Qui est ton meilleur ami en ce moment #80 ?"
+                            "en": "Who is your best friend right now?",
+                            "ru": "Кто твой лучший друг прямо сейчас?",
+                            "fr": "Qui est ton meilleur ami en ce moment ?"
                         },
                         "a": {
-                            "en": "Which relationship #80 in your life requires the most work, and is it genuinely worth the effort?",
-                            "ru": "Какие отношения #80 в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
-                            "fr": "Quelle relation #80 dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
+                            "en": "Which relationship in your life requires the most work, and is it genuinely worth the effort?",
+                            "ru": "Какие отношения в вашей жизни требуют наибольшей работы и стоят ли они этих усилий на самом деле?",
+                            "fr": "Quelle relation dans votre vie demande le plus d'efforts, et en vaut-elle vraiment la peine ?"
                         }
                     }
                 ]
@@ -1020,242 +1020,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What do you want to learn to do #81?",
-                            "ru": "Чему ты хочешь научиться #81?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #81 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #81 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #81 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #81 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #82?",
-                            "ru": "Чему ты хочешь научиться #82?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #82 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #82 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #82 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #82 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #83?",
-                            "ru": "Чему ты хочешь научиться #83?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #83 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #83 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #83 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #83 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #84?",
-                            "ru": "Чему ты хочешь научиться #84?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #84 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #84 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #84 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #84 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #85?",
-                            "ru": "Чему ты хочешь научиться #85?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #85 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #85 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #85 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #85 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #86?",
-                            "ru": "Чему ты хочешь научиться #86?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #86 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #86 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #86 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #86 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #87?",
-                            "ru": "Чему ты хочешь научиться #87?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #87 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #87 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #87 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #87 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #88?",
-                            "ru": "Чему ты хочешь научиться #88?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #88 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #88 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #88 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #88 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #89?",
-                            "ru": "Чему ты хочешь научиться #89?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #89 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #89 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #89 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #89 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #90?",
-                            "ru": "Чему ты хочешь научиться #90?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #90 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #90 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #90 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #90 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #91?",
-                            "ru": "Чему ты хочешь научиться #91?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #91 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #91 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #91 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #91 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #92?",
-                            "ru": "Чему ты хочешь научиться #92?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #92 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #92 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #92 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #92 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #93?",
-                            "ru": "Чему ты хочешь научиться #93?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #93 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #93 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #93 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #93 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #94?",
-                            "ru": "Чему ты хочешь научиться #94?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #94 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #94 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #94 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #94 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #95?",
-                            "ru": "Чему ты хочешь научиться #95?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #95 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #95 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #95 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #95 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #96?",
-                            "ru": "Чему ты хочешь научиться #96?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #96 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #96 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #96 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #96 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #97?",
-                            "ru": "Чему ты хочешь научиться #97?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #97 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #97 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #97 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #97 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #98?",
-                            "ru": "Чему ты хочешь научиться #98?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #98 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #98 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #98 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #98 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #99?",
-                            "ru": "Чему ты хочешь научиться #99?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #99 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #99 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #99 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #99 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What do you want to learn to do #100?",
-                            "ru": "Чему ты хочешь научиться #100?",
-                            "fr": "Qu'aimerais-tu apprendre à faire #100 ?"
+                            "en": "What do you want to learn to do?",
+                            "ru": "Чему ты хочешь научиться?",
+                            "fr": "Qu'aimerais-tu apprendre à faire ?"
                         },
                         "a": {
-                            "en": "In what area #100 of your life are you currently experiencing the most profound sense of self-actualization?",
-                            "ru": "В какой сфере #100 вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
-                            "fr": "Dans quel domaine #100 de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
+                            "en": "In what area of your life are you currently experiencing the most profound sense of self-actualization?",
+                            "ru": "В какой сфере вашей жизни вы сейчас испытываете самое глубокое чувство самореализации?",
+                            "fr": "Dans quel domaine de votre vie éprouvez-vous actuellement le sentiment de réalisation de soi le plus profond ?"
                         }
                     }
                 ]
@@ -1524,242 +1524,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What was a path you took #21?",
-                            "ru": "Какой путь ты выбрал #21?",
-                            "fr": "Quel chemin as-tu pris #21 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #21 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #21 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #21 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #22?",
-                            "ru": "Какой путь ты выбрал #22?",
-                            "fr": "Quel chemin as-tu pris #22 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #22 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #22 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #22 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #23?",
-                            "ru": "Какой путь ты выбрал #23?",
-                            "fr": "Quel chemin as-tu pris #23 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #23 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #23 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #23 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #24?",
-                            "ru": "Какой путь ты выбрал #24?",
-                            "fr": "Quel chemin as-tu pris #24 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #24 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #24 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #24 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #25?",
-                            "ru": "Какой путь ты выбрал #25?",
-                            "fr": "Quel chemin as-tu pris #25 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #25 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #25 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #25 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #26?",
-                            "ru": "Какой путь ты выбрал #26?",
-                            "fr": "Quel chemin as-tu pris #26 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #26 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #26 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #26 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #27?",
-                            "ru": "Какой путь ты выбрал #27?",
-                            "fr": "Quel chemin as-tu pris #27 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #27 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #27 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #27 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #28?",
-                            "ru": "Какой путь ты выбрал #28?",
-                            "fr": "Quel chemin as-tu pris #28 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #28 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #28 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #28 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #29?",
-                            "ru": "Какой путь ты выбрал #29?",
-                            "fr": "Quel chemin as-tu pris #29 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #29 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #29 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #29 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #30?",
-                            "ru": "Какой путь ты выбрал #30?",
-                            "fr": "Quel chemin as-tu pris #30 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #30 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #30 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #30 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #31?",
-                            "ru": "Какой путь ты выбрал #31?",
-                            "fr": "Quel chemin as-tu pris #31 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #31 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #31 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #31 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #32?",
-                            "ru": "Какой путь ты выбрал #32?",
-                            "fr": "Quel chemin as-tu pris #32 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #32 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #32 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #32 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #33?",
-                            "ru": "Какой путь ты выбрал #33?",
-                            "fr": "Quel chemin as-tu pris #33 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #33 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #33 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #33 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #34?",
-                            "ru": "Какой путь ты выбрал #34?",
-                            "fr": "Quel chemin as-tu pris #34 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #34 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #34 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #34 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #35?",
-                            "ru": "Какой путь ты выбрал #35?",
-                            "fr": "Quel chemin as-tu pris #35 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #35 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #35 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #35 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #36?",
-                            "ru": "Какой путь ты выбрал #36?",
-                            "fr": "Quel chemin as-tu pris #36 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #36 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #36 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #36 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #37?",
-                            "ru": "Какой путь ты выбрал #37?",
-                            "fr": "Quel chemin as-tu pris #37 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #37 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #37 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #37 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #38?",
-                            "ru": "Какой путь ты выбрал #38?",
-                            "fr": "Quel chemin as-tu pris #38 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #38 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #38 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #38 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #39?",
-                            "ru": "Какой путь ты выбрал #39?",
-                            "fr": "Quel chemin as-tu pris #39 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #39 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #39 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #39 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a path you took #40?",
-                            "ru": "Какой путь ты выбрал #40?",
-                            "fr": "Quel chemin as-tu pris #40 ?"
+                            "en": "What was a path you took?",
+                            "ru": "Какой путь ты выбрал?",
+                            "fr": "Quel chemin as-tu pris ?"
                         },
                         "a": {
-                            "en": "What major crossroad #40 in your past completely redirected the trajectory of your life?",
-                            "ru": "Какой важный перекресток #40 в вашем прошлом полностью изменил траекторию вашей жизни?",
-                            "fr": "Quel carrefour majeur #40 de votre passé a complètement réorienté la trajectoire de votre vie ?"
+                            "en": "What major crossroad in your past completely redirected the trajectory of your life?",
+                            "ru": "Какой важный перекресток в вашем прошлом полностью изменил траекторию вашей жизни?",
+                            "fr": "Quel carrefour majeur de votre passé a complètement réorienté la trajectoire de votre vie ?"
                         }
                     }
                 ]
@@ -1774,242 +1774,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What did you want to change #41?",
-                            "ru": "Что ты хотел изменить #41?",
-                            "fr": "Qu'aurais-tu voulu changer #41 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #41 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #41 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #41 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #42?",
-                            "ru": "Что ты хотел изменить #42?",
-                            "fr": "Qu'aurais-tu voulu changer #42 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #42 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #42 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #42 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #43?",
-                            "ru": "Что ты хотел изменить #43?",
-                            "fr": "Qu'aurais-tu voulu changer #43 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #43 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #43 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #43 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #44?",
-                            "ru": "Что ты хотел изменить #44?",
-                            "fr": "Qu'aurais-tu voulu changer #44 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #44 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #44 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #44 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #45?",
-                            "ru": "Что ты хотел изменить #45?",
-                            "fr": "Qu'aurais-tu voulu changer #45 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #45 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #45 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #45 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #46?",
-                            "ru": "Что ты хотел изменить #46?",
-                            "fr": "Qu'aurais-tu voulu changer #46 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #46 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #46 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #46 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #47?",
-                            "ru": "Что ты хотел изменить #47?",
-                            "fr": "Qu'aurais-tu voulu changer #47 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #47 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #47 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #47 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #48?",
-                            "ru": "Что ты хотел изменить #48?",
-                            "fr": "Qu'aurais-tu voulu changer #48 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #48 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #48 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #48 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #49?",
-                            "ru": "Что ты хотел изменить #49?",
-                            "fr": "Qu'aurais-tu voulu changer #49 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #49 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #49 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #49 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #50?",
-                            "ru": "Что ты хотел изменить #50?",
-                            "fr": "Qu'aurais-tu voulu changer #50 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #50 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #50 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #50 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #51?",
-                            "ru": "Что ты хотел изменить #51?",
-                            "fr": "Qu'aurais-tu voulu changer #51 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #51 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #51 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #51 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #52?",
-                            "ru": "Что ты хотел изменить #52?",
-                            "fr": "Qu'aurais-tu voulu changer #52 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #52 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #52 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #52 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #53?",
-                            "ru": "Что ты хотел изменить #53?",
-                            "fr": "Qu'aurais-tu voulu changer #53 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #53 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #53 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #53 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #54?",
-                            "ru": "Что ты хотел изменить #54?",
-                            "fr": "Qu'aurais-tu voulu changer #54 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #54 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #54 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #54 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #55?",
-                            "ru": "Что ты хотел изменить #55?",
-                            "fr": "Qu'aurais-tu voulu changer #55 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #55 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #55 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #55 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #56?",
-                            "ru": "Что ты хотел изменить #56?",
-                            "fr": "Qu'aurais-tu voulu changer #56 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #56 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #56 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #56 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #57?",
-                            "ru": "Что ты хотел изменить #57?",
-                            "fr": "Qu'aurais-tu voulu changer #57 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #57 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #57 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #57 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #58?",
-                            "ru": "Что ты хотел изменить #58?",
-                            "fr": "Qu'aurais-tu voulu changer #58 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #58 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #58 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #58 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #59?",
-                            "ru": "Что ты хотел изменить #59?",
-                            "fr": "Qu'aurais-tu voulu changer #59 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #59 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #59 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #59 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What did you want to change #60?",
-                            "ru": "Что ты хотел изменить #60?",
-                            "fr": "Qu'aurais-tu voulu changer #60 ?"
+                            "en": "What did you want to change?",
+                            "ru": "Что ты хотел изменить?",
+                            "fr": "Qu'aurais-tu voulu changer ?"
                         },
                         "a": {
-                            "en": "What major regret #60 do you need to actively forgive your past self for to finally move forward?",
-                            "ru": "За какое серьезное сожаление #60 вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
-                            "fr": "Pour quel regret majeur #60 devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
+                            "en": "What major regret do you need to actively forgive your past self for to finally move forward?",
+                            "ru": "За какое серьезное сожаление вам нужно искренне простить себя в прошлом, чтобы наконец двигаться дальше?",
+                            "fr": "Pour quel regret majeur devez-vous pardonner à votre moi passé afin d'avancer enfin ?"
                         }
                     }
                 ]
@@ -2024,242 +2024,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What was a big lesson #61?",
-                            "ru": "Каким был большой урок #61?",
-                            "fr": "Quelle a été ta grande leçon #61 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #61 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #61 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #61 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #62?",
-                            "ru": "Каким был большой урок #62?",
-                            "fr": "Quelle a été ta grande leçon #62 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #62 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #62 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #62 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #63?",
-                            "ru": "Каким был большой урок #63?",
-                            "fr": "Quelle a été ta grande leçon #63 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #63 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #63 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #63 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #64?",
-                            "ru": "Каким был большой урок #64?",
-                            "fr": "Quelle a été ta grande leçon #64 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #64 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #64 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #64 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #65?",
-                            "ru": "Каким был большой урок #65?",
-                            "fr": "Quelle a été ta grande leçon #65 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #65 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #65 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #65 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #66?",
-                            "ru": "Каким был большой урок #66?",
-                            "fr": "Quelle a été ta grande leçon #66 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #66 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #66 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #66 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #67?",
-                            "ru": "Каким был большой урок #67?",
-                            "fr": "Quelle a été ta grande leçon #67 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #67 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #67 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #67 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #68?",
-                            "ru": "Каким был большой урок #68?",
-                            "fr": "Quelle a été ta grande leçon #68 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #68 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #68 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #68 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #69?",
-                            "ru": "Каким был большой урок #69?",
-                            "fr": "Quelle a été ta grande leçon #69 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #69 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #69 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #69 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #70?",
-                            "ru": "Каким был большой урок #70?",
-                            "fr": "Quelle a été ta grande leçon #70 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #70 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #70 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #70 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #71?",
-                            "ru": "Каким был большой урок #71?",
-                            "fr": "Quelle a été ta grande leçon #71 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #71 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #71 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #71 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #72?",
-                            "ru": "Каким был большой урок #72?",
-                            "fr": "Quelle a été ta grande leçon #72 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #72 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #72 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #72 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #73?",
-                            "ru": "Каким был большой урок #73?",
-                            "fr": "Quelle a été ta grande leçon #73 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #73 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #73 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #73 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #74?",
-                            "ru": "Каким был большой урок #74?",
-                            "fr": "Quelle a été ta grande leçon #74 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #74 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #74 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #74 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #75?",
-                            "ru": "Каким был большой урок #75?",
-                            "fr": "Quelle a été ta grande leçon #75 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #75 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #75 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #75 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #76?",
-                            "ru": "Каким был большой урок #76?",
-                            "fr": "Quelle a été ta grande leçon #76 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #76 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #76 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #76 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #77?",
-                            "ru": "Каким был большой урок #77?",
-                            "fr": "Quelle a été ta grande leçon #77 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #77 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #77 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #77 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #78?",
-                            "ru": "Каким был большой урок #78?",
-                            "fr": "Quelle a été ta grande leçon #78 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #78 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #78 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #78 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #79?",
-                            "ru": "Каким был большой урок #79?",
-                            "fr": "Quelle a été ta grande leçon #79 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #79 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #79 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #79 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What was a big lesson #80?",
-                            "ru": "Каким был большой урок #80?",
-                            "fr": "Quelle a été ta grande leçon #80 ?"
+                            "en": "What was a big lesson?",
+                            "ru": "Каким был большой урок?",
+                            "fr": "Quelle a été ta grande leçon ?"
                         },
                         "a": {
-                            "en": "What brutal turning point #80 shattered your ego but ultimately made you a significantly wiser human?",
-                            "ru": "Какой жестокий поворотный момент #80 разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
-                            "fr": "Quel tournant brutal #80 a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
+                            "en": "What brutal turning point shattered your ego but ultimately made you a significantly wiser human?",
+                            "ru": "Какой жестокий поворотный момент разрушил ваше эго, но в итоге сделал вас значительно мудрее?",
+                            "fr": "Quel tournant brutal a brisé votre ego mais vous a finalement rendu beaucoup plus sage ?"
                         }
                     }
                 ]
@@ -2274,242 +2274,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What are you thankful for #81?",
-                            "ru": "За что ты благодарен #81?",
-                            "fr": "De quoi es-tu reconnaissant #81 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #81 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #81 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #81 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #82?",
-                            "ru": "За что ты благодарен #82?",
-                            "fr": "De quoi es-tu reconnaissant #82 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #82 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #82 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #82 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #83?",
-                            "ru": "За что ты благодарен #83?",
-                            "fr": "De quoi es-tu reconnaissant #83 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #83 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #83 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #83 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #84?",
-                            "ru": "За что ты благодарен #84?",
-                            "fr": "De quoi es-tu reconnaissant #84 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #84 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #84 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #84 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #85?",
-                            "ru": "За что ты благодарен #85?",
-                            "fr": "De quoi es-tu reconnaissant #85 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #85 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #85 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #85 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #86?",
-                            "ru": "За что ты благодарен #86?",
-                            "fr": "De quoi es-tu reconnaissant #86 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #86 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #86 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #86 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #87?",
-                            "ru": "За что ты благодарен #87?",
-                            "fr": "De quoi es-tu reconnaissant #87 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #87 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #87 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #87 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #88?",
-                            "ru": "За что ты благодарен #88?",
-                            "fr": "De quoi es-tu reconnaissant #88 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #88 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #88 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #88 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #89?",
-                            "ru": "За что ты благодарен #89?",
-                            "fr": "De quoi es-tu reconnaissant #89 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #89 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #89 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #89 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #90?",
-                            "ru": "За что ты благодарен #90?",
-                            "fr": "De quoi es-tu reconnaissant #90 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #90 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #90 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #90 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #91?",
-                            "ru": "За что ты благодарен #91?",
-                            "fr": "De quoi es-tu reconnaissant #91 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #91 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #91 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #91 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #92?",
-                            "ru": "За что ты благодарен #92?",
-                            "fr": "De quoi es-tu reconnaissant #92 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #92 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #92 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #92 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #93?",
-                            "ru": "За что ты благодарен #93?",
-                            "fr": "De quoi es-tu reconnaissant #93 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #93 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #93 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #93 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #94?",
-                            "ru": "За что ты благодарен #94?",
-                            "fr": "De quoi es-tu reconnaissant #94 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #94 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #94 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #94 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #95?",
-                            "ru": "За что ты благодарен #95?",
-                            "fr": "De quoi es-tu reconnaissant #95 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #95 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #95 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #95 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #96?",
-                            "ru": "За что ты благодарен #96?",
-                            "fr": "De quoi es-tu reconnaissant #96 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #96 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #96 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #96 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #97?",
-                            "ru": "За что ты благодарен #97?",
-                            "fr": "De quoi es-tu reconnaissant #97 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #97 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #97 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #97 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #98?",
-                            "ru": "За что ты благодарен #98?",
-                            "fr": "De quoi es-tu reconnaissant #98 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #98 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #98 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #98 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #99?",
-                            "ru": "За что ты благодарен #99?",
-                            "fr": "De quoi es-tu reconnaissant #99 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #99 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #99 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #99 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What are you thankful for #100?",
-                            "ru": "За что ты благодарен #100?",
-                            "fr": "De quoi es-tu reconnaissant #100 ?"
+                            "en": "What are you thankful for?",
+                            "ru": "За что ты благодарен?",
+                            "fr": "De quoi es-tu reconnaissant ?"
                         },
                         "a": {
-                            "en": "What is a lost piece #100 of your past self that you are actively trying to reclaim or reintegrate today?",
-                            "ru": "Какую утраченную часть #100 своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
-                            "fr": "Quelle partie perdue #100 de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
+                            "en": "What is a lost piece of your past self that you are actively trying to reclaim or reintegrate today?",
+                            "ru": "Какую утраченную часть своего прежнего 'я' вы сейчас активно пытаетесь вернуть или интегрировать заново?",
+                            "fr": "Quelle partie perdue de votre moi passé essayez-vous activement de récupérer ou réintégrer aujourd'hui ?"
                         }
                     }
                 ]
@@ -2778,242 +2778,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #21?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #21?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #21 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #21 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #21 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #21 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #22?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #22?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #22 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #22 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #22 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #22 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #23?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #23?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #23 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #23 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #23 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #23 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #24?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #24?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #24 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #24 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #24 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #24 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #25?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #25?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #25 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #25 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #25 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #25 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #26?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #26?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #26 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #26 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #26 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #26 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #27?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #27?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #27 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #27 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #27 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #27 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #28?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #28?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #28 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #28 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #28 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #28 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #29?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #29?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #29 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #29 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #29 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #29 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #30?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #30?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #30 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #30 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #30 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #30 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #31?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #31?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #31 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #31 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #31 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #31 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #32?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #32?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #32 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #32 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #32 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #32 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #33?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #33?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #33 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #33 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #33 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #33 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #34?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #34?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #34 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #34 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #34 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #34 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #35?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #35?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #35 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #35 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #35 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #35 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #36?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #36?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #36 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #36 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #36 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #36 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #37?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #37?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #37 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #37 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #37 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #37 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #38?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #38?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #38 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #38 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #38 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #38 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #39?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #39?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #39 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #39 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #39 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #39 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a brave step you want to take #40?",
-                            "ru": "Какую смелую попытку ты хочешь сделать #40?",
-                            "fr": "Quelle étape courageuse veux-tu franchir #40 ?"
+                            "en": "What is a brave step you want to take?",
+                            "ru": "Какую смелую попытку ты хочешь сделать?",
+                            "fr": "Quelle étape courageuse veux-tu franchir ?"
                         },
                         "a": {
-                            "en": "What calculated risk #40 must your future self execute to break out of comfortable mediocrity?",
-                            "ru": "Какой просчитанный риск #40 должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
-                            "fr": "Quel risque calculé #40 votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
+                            "en": "What calculated risk must your future self execute to break out of comfortable mediocrity?",
+                            "ru": "Какой просчитанный риск должно предпринять ваше будущее 'я', чтобы вырваться из зоны комфортной посредственности?",
+                            "fr": "Quel risque calculé votre moi futur doit-il prendre pour sortir d'une médiocrité confortable ?"
                         }
                     }
                 ]
@@ -3028,242 +3028,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "Who do you want to be like #41?",
-                            "ru": "На кого ты хочешь быть похож #41?",
-                            "fr": "À qui aimerais-tu ressembler #41 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #41 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #41 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #41 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #42?",
-                            "ru": "На кого ты хочешь быть похож #42?",
-                            "fr": "À qui aimerais-tu ressembler #42 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #42 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #42 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #42 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #43?",
-                            "ru": "На кого ты хочешь быть похож #43?",
-                            "fr": "À qui aimerais-tu ressembler #43 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #43 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #43 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #43 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #44?",
-                            "ru": "На кого ты хочешь быть похож #44?",
-                            "fr": "À qui aimerais-tu ressembler #44 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #44 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #44 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #44 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #45?",
-                            "ru": "На кого ты хочешь быть похож #45?",
-                            "fr": "À qui aimerais-tu ressembler #45 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #45 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #45 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #45 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #46?",
-                            "ru": "На кого ты хочешь быть похож #46?",
-                            "fr": "À qui aimerais-tu ressembler #46 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #46 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #46 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #46 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #47?",
-                            "ru": "На кого ты хочешь быть похож #47?",
-                            "fr": "À qui aimerais-tu ressembler #47 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #47 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #47 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #47 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #48?",
-                            "ru": "На кого ты хочешь быть похож #48?",
-                            "fr": "À qui aimerais-tu ressembler #48 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #48 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #48 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #48 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #49?",
-                            "ru": "На кого ты хочешь быть похож #49?",
-                            "fr": "À qui aimerais-tu ressembler #49 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #49 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #49 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #49 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #50?",
-                            "ru": "На кого ты хочешь быть похож #50?",
-                            "fr": "À qui aimerais-tu ressembler #50 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #50 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #50 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #50 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #51?",
-                            "ru": "На кого ты хочешь быть похож #51?",
-                            "fr": "À qui aimerais-tu ressembler #51 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #51 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #51 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #51 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #52?",
-                            "ru": "На кого ты хочешь быть похож #52?",
-                            "fr": "À qui aimerais-tu ressembler #52 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #52 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #52 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #52 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #53?",
-                            "ru": "На кого ты хочешь быть похож #53?",
-                            "fr": "À qui aimerais-tu ressembler #53 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #53 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #53 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #53 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #54?",
-                            "ru": "На кого ты хочешь быть похож #54?",
-                            "fr": "À qui aimerais-tu ressembler #54 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #54 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #54 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #54 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #55?",
-                            "ru": "На кого ты хочешь быть похож #55?",
-                            "fr": "À qui aimerais-tu ressembler #55 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #55 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #55 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #55 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #56?",
-                            "ru": "На кого ты хочешь быть похож #56?",
-                            "fr": "À qui aimerais-tu ressembler #56 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #56 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #56 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #56 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #57?",
-                            "ru": "На кого ты хочешь быть похож #57?",
-                            "fr": "À qui aimerais-tu ressembler #57 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #57 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #57 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #57 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #58?",
-                            "ru": "На кого ты хочешь быть похож #58?",
-                            "fr": "À qui aimerais-tu ressembler #58 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #58 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #58 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #58 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #59?",
-                            "ru": "На кого ты хочешь быть похож #59?",
-                            "fr": "À qui aimerais-tu ressembler #59 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #59 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #59 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #59 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "Who do you want to be like #60?",
-                            "ru": "На кого ты хочешь быть похож #60?",
-                            "fr": "À qui aimerais-tu ressembler #60 ?"
+                            "en": "Who do you want to be like?",
+                            "ru": "На кого ты хочешь быть похож?",
+                            "fr": "À qui aimerais-tu ressembler ?"
                         },
                         "a": {
-                            "en": "What personality trait #60 are you hoping your future self will have successfully cultivated or eliminated?",
-                            "ru": " какую черту характера #60 вы надеетесь выработать или изжить в своем будущем 'я'?",
-                            "fr": "Quel trait de caractère #60 espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
+                            "en": "What personality trait are you hoping your future self will have successfully cultivated or eliminated?",
+                            "ru": " какую черту характера вы надеетесь выработать или изжить в своем будущем 'я'?",
+                            "fr": "Quel trait de caractère espérez-vous que votre moi futur aura cultivé ou éliminé avec succès ?"
                         }
                     }
                 ]
@@ -3278,242 +3278,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What is your dream advice #61?",
-                            "ru": "Каков твой лучший совет в мечтах #61?",
-                            "fr": "Quel serait ton conseil de rêve #61 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #61 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #61 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #61 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #62?",
-                            "ru": "Каков твой лучший совет в мечтах #62?",
-                            "fr": "Quel serait ton conseil de rêve #62 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #62 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #62 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #62 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #63?",
-                            "ru": "Каков твой лучший совет в мечтах #63?",
-                            "fr": "Quel serait ton conseil de rêve #63 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #63 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #63 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #63 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #64?",
-                            "ru": "Каков твой лучший совет в мечтах #64?",
-                            "fr": "Quel serait ton conseil de rêve #64 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #64 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #64 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #64 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #65?",
-                            "ru": "Каков твой лучший совет в мечтах #65?",
-                            "fr": "Quel serait ton conseil de rêve #65 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #65 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #65 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #65 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #66?",
-                            "ru": "Каков твой лучший совет в мечтах #66?",
-                            "fr": "Quel serait ton conseil de rêve #66 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #66 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #66 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #66 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #67?",
-                            "ru": "Каков твой лучший совет в мечтах #67?",
-                            "fr": "Quel serait ton conseil de rêve #67 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #67 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #67 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #67 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #68?",
-                            "ru": "Каков твой лучший совет в мечтах #68?",
-                            "fr": "Quel serait ton conseil de rêve #68 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #68 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #68 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #68 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #69?",
-                            "ru": "Каков твой лучший совет в мечтах #69?",
-                            "fr": "Quel serait ton conseil de rêve #69 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #69 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #69 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #69 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #70?",
-                            "ru": "Каков твой лучший совет в мечтах #70?",
-                            "fr": "Quel serait ton conseil de rêve #70 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #70 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #70 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #70 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #71?",
-                            "ru": "Каков твой лучший совет в мечтах #71?",
-                            "fr": "Quel serait ton conseil de rêve #71 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #71 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #71 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #71 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #72?",
-                            "ru": "Каков твой лучший совет в мечтах #72?",
-                            "fr": "Quel serait ton conseil de rêve #72 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #72 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #72 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #72 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #73?",
-                            "ru": "Каков твой лучший совет в мечтах #73?",
-                            "fr": "Quel serait ton conseil de rêve #73 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #73 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #73 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #73 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #74?",
-                            "ru": "Каков твой лучший совет в мечтах #74?",
-                            "fr": "Quel serait ton conseil de rêve #74 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #74 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #74 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #74 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #75?",
-                            "ru": "Каков твой лучший совет в мечтах #75?",
-                            "fr": "Quel serait ton conseil de rêve #75 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #75 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #75 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #75 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #76?",
-                            "ru": "Каков твой лучший совет в мечтах #76?",
-                            "fr": "Quel serait ton conseil de rêve #76 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #76 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #76 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #76 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #77?",
-                            "ru": "Каков твой лучший совет в мечтах #77?",
-                            "fr": "Quel serait ton conseil de rêve #77 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #77 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #77 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #77 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #78?",
-                            "ru": "Каков твой лучший совет в мечтах #78?",
-                            "fr": "Quel serait ton conseil de rêve #78 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #78 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #78 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #78 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #79?",
-                            "ru": "Каков твой лучший совет в мечтах #79?",
-                            "fr": "Quel serait ton conseil de rêve #79 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #79 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #79 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #79 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is your dream advice #80?",
-                            "ru": "Каков твой лучший совет в мечтах #80?",
-                            "fr": "Quel serait ton conseil de rêve #80 ?"
+                            "en": "What is your dream advice?",
+                            "ru": "Каков твой лучший совет в мечтах?",
+                            "fr": "Quel serait ton conseil de rêve ?"
                         },
                         "a": {
-                            "en": "What core wisdom or piece of advice #80 do you hope your fully actualized self would tell you right now?",
-                            "ru": "Какую мудрость или совет #80 вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
-                            "fr": "Quelle sagesse ou conseil essentiel #80 espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
+                            "en": "What core wisdom or piece of advice do you hope your fully actualized self would tell you right now?",
+                            "ru": "Какую мудрость или совет вы надеетесь услышать от своего полностью реализовавшегося 'я' прямо сейчас?",
+                            "fr": "Quelle sagesse ou conseil essentiel espérez-vous que votre moi pleinement accompli vous donnerait aujourd'hui ?"
                         }
                     }
                 ]
@@ -3528,242 +3528,242 @@
                 "questions": [
                     {
                         "c": {
-                            "en": "What is a wild dream #81?",
-                            "ru": "Какая твоя самая дикая мечта #81?",
-                            "fr": "Quel est ton rêve le plus fou #81 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #81 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #81 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #81 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #82?",
-                            "ru": "Какая твоя самая дикая мечта #82?",
-                            "fr": "Quel est ton rêve le plus fou #82 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #82 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #82 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #82 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #83?",
-                            "ru": "Какая твоя самая дикая мечта #83?",
-                            "fr": "Quel est ton rêve le plus fou #83 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #83 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #83 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #83 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #84?",
-                            "ru": "Какая твоя самая дикая мечта #84?",
-                            "fr": "Quel est ton rêve le plus fou #84 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #84 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #84 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #84 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #85?",
-                            "ru": "Какая твоя самая дикая мечта #85?",
-                            "fr": "Quel est ton rêve le plus fou #85 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #85 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #85 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #85 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #86?",
-                            "ru": "Какая твоя самая дикая мечта #86?",
-                            "fr": "Quel est ton rêve le plus fou #86 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #86 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #86 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #86 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #87?",
-                            "ru": "Какая твоя самая дикая мечта #87?",
-                            "fr": "Quel est ton rêve le plus fou #87 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #87 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #87 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #87 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #88?",
-                            "ru": "Какая твоя самая дикая мечта #88?",
-                            "fr": "Quel est ton rêve le plus fou #88 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #88 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #88 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #88 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #89?",
-                            "ru": "Какая твоя самая дикая мечта #89?",
-                            "fr": "Quel est ton rêve le plus fou #89 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #89 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #89 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #89 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #90?",
-                            "ru": "Какая твоя самая дикая мечта #90?",
-                            "fr": "Quel est ton rêve le plus fou #90 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #90 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #90 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #90 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #91?",
-                            "ru": "Какая твоя самая дикая мечта #91?",
-                            "fr": "Quel est ton rêve le plus fou #91 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #91 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #91 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #91 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #92?",
-                            "ru": "Какая твоя самая дикая мечта #92?",
-                            "fr": "Quel est ton rêve le plus fou #92 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #92 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #92 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #92 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #93?",
-                            "ru": "Какая твоя самая дикая мечта #93?",
-                            "fr": "Quel est ton rêve le plus fou #93 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #93 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #93 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #93 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #94?",
-                            "ru": "Какая твоя самая дикая мечта #94?",
-                            "fr": "Quel est ton rêve le plus fou #94 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #94 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #94 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #94 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #95?",
-                            "ru": "Какая твоя самая дикая мечта #95?",
-                            "fr": "Quel est ton rêve le plus fou #95 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #95 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #95 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #95 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #96?",
-                            "ru": "Какая твоя самая дикая мечта #96?",
-                            "fr": "Quel est ton rêve le plus fou #96 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #96 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #96 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #96 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #97?",
-                            "ru": "Какая твоя самая дикая мечта #97?",
-                            "fr": "Quel est ton rêve le plus fou #97 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #97 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #97 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #97 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #98?",
-                            "ru": "Какая твоя самая дикая мечта #98?",
-                            "fr": "Quel est ton rêve le plus fou #98 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #98 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #98 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #98 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #99?",
-                            "ru": "Какая твоя самая дикая мечта #99?",
-                            "fr": "Quel est ton rêve le plus fou #99 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #99 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #99 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #99 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     },
                     {
                         "c": {
-                            "en": "What is a wild dream #100?",
-                            "ru": "Какая твоя самая дикая мечта #100?",
-                            "fr": "Quel est ton rêve le plus fou #100 ?"
+                            "en": "What is a wild dream?",
+                            "ru": "Какая твоя самая дикая мечта?",
+                            "fr": "Quel est ton rêve le plus fou ?"
                         },
                         "a": {
-                            "en": "If fear and financial constraints were completely eliminated, what wild destiny #100 would you choose?",
-                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу #100 вы бы выбрали?",
-                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou #100 choisiriez-vous ?"
+                            "en": "If fear and financial constraints were completely eliminated, what wild destiny would you choose?",
+                            "ru": "Если бы страх и финансовые ограничения были полностью устранены, какую безумную судьбу вы бы выбрали?",
+                            "fr": "Si la peur et les contraintes financières étaient éliminées, quel destin fou choisiriez-vous ?"
                         }
                     }
                 ]

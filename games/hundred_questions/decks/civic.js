@@ -1362,9 +1362,9 @@
                     }
                 },
                 {
-                    "en": "Name a significant landmark, historical monument or natural marvel #13 in {country_name}.",
-                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #13 в {country_name}.",
-                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #13 en {country_name}.",
+                    "en": "Name a significant landmark, historical monument or natural marvel in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle en {country_name}.",
                     "options": {
                         "us": {
                             "en": [
@@ -1474,9 +1474,9 @@
                     }
                 },
                 {
-                    "en": "Name a significant landmark, historical monument or natural marvel #14 in {country_name}.",
-                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #14 в {country_name}.",
-                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #14 en {country_name}.",
+                    "en": "Name a significant landmark, historical monument or natural marvel in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle en {country_name}.",
                     "options": {
                         "us": {
                             "en": [
@@ -1586,9 +1586,9 @@
                     }
                 },
                 {
-                    "en": "Name a significant landmark, historical monument or natural marvel #15 in {country_name}.",
-                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #15 в {country_name}.",
-                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #15 en {country_name}.",
+                    "en": "Name a significant landmark, historical monument or natural marvel in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle en {country_name}.",
                     "options": {
                         "us": {
                             "en": [
@@ -1698,9 +1698,9 @@
                     }
                 },
                 {
-                    "en": "Name a significant landmark, historical monument or natural marvel #16 in {country_name}.",
-                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #16 в {country_name}.",
-                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #16 en {country_name}.",
+                    "en": "Name a significant landmark, historical monument or natural marvel in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle en {country_name}.",
                     "options": {
                         "us": {
                             "en": [
@@ -1810,9 +1810,9 @@
                     }
                 },
                 {
-                    "en": "Name a significant landmark, historical monument or natural marvel #17 in {country_name}.",
-                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #17 в {country_name}.",
-                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #17 en {country_name}.",
+                    "en": "Name a significant landmark, historical monument or natural marvel in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle en {country_name}.",
                     "options": {
                         "us": {
                             "en": [
@@ -1922,9 +1922,9 @@
                     }
                 },
                 {
-                    "en": "Name a significant landmark, historical monument or natural marvel #18 in {country_name}.",
-                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #18 в {country_name}.",
-                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #18 en {country_name}.",
+                    "en": "Name a significant landmark, historical monument or natural marvel in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle en {country_name}.",
                     "options": {
                         "us": {
                             "en": [
@@ -2034,9 +2034,9 @@
                     }
                 },
                 {
-                    "en": "Name a significant landmark, historical monument or natural marvel #19 in {country_name}.",
-                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #19 в {country_name}.",
-                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #19 en {country_name}.",
+                    "en": "Name a significant landmark, historical monument or natural marvel in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle en {country_name}.",
                     "options": {
                         "us": {
                             "en": [
@@ -2146,9 +2146,9 @@
                     }
                 },
                 {
-                    "en": "Name a significant landmark, historical monument or natural marvel #20 in {country_name}.",
-                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы #20 в {country_name}.",
-                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle #20 en {country_name}.",
+                    "en": "Name a significant landmark, historical monument or natural marvel in {country_name}.",
+                    "ru": "Назовите известную достопримечательность, исторический памятник или чудо природы в {country_name}.",
+                    "fr": "Nommez un monument important, un monument historique ou une merveille naturelle en {country_name}.",
                     "options": {
                         "us": {
                             "en": [
@@ -2268,9 +2268,9 @@
             "range": "21–40",
             "questions": [
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #21 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #21 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #21 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -2380,9 +2380,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #22 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #22 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #22 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -2492,9 +2492,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #23 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #23 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #23 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -2604,9 +2604,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #24 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #24 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #24 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -2716,9 +2716,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #25 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #25 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #25 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -2828,9 +2828,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #26 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #26 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #26 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -2940,9 +2940,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #27 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #27 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #27 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -3052,9 +3052,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #28 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #28 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #28 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -3164,9 +3164,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #29 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #29 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #29 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -3276,9 +3276,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #30 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #30 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #30 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -3388,9 +3388,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #31 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #31 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #31 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -3500,9 +3500,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #32 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #32 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #32 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -3612,9 +3612,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #33 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #33 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #33 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -3724,9 +3724,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #34 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #34 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #34 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -3836,9 +3836,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #35 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #35 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #35 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -3948,9 +3948,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #36 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #36 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #36 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -4060,9 +4060,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #37 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #37 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #37 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -4172,9 +4172,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #38 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #38 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #38 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -4284,9 +4284,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #39 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #39 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #39 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -4396,9 +4396,9 @@
                     }
                 },
                 {
-                    "en": "What represents a core principle regarding human rights and democracy #40 in {country_name}?",
-                    "ru": "Что представляет собой основной принцип прав человека и демократии #40 в {country_name}?",
-                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie #40 en {country_name} ?",
+                    "en": "What represents a core principle regarding human rights and democracy in {country_name}?",
+                    "ru": "Что представляет собой основной принцип прав человека и демократии в {country_name}?",
+                    "fr": "Qu'est-ce qui représente un principe fondamental des droits de l'homme et de la démocratie en {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -4518,9 +4518,9 @@
             "range": "41–60",
             "questions": [
                 {
-                    "en": "What is a highly significant historical milestone or struggle #41 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #41 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #41 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -4630,9 +4630,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #42 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #42 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #42 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -4742,9 +4742,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #43 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #43 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #43 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -4854,9 +4854,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #44 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #44 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #44 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -4966,9 +4966,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #45 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #45 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #45 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -5078,9 +5078,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #46 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #46 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #46 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -5190,9 +5190,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #47 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #47 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #47 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -5302,9 +5302,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #48 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #48 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #48 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -5414,9 +5414,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #49 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #49 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #49 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -5526,9 +5526,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #50 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #50 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #50 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -5638,9 +5638,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #51 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #51 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #51 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -5750,9 +5750,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #52 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #52 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #52 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -5862,9 +5862,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #53 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #53 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #53 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -5974,9 +5974,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #54 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #54 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #54 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -6086,9 +6086,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #55 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #55 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #55 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -6198,9 +6198,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #56 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #56 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #56 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -6310,9 +6310,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #57 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #57 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #57 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -6422,9 +6422,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #58 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #58 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #58 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -6534,9 +6534,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #59 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #59 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #59 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -6646,9 +6646,9 @@
                     }
                 },
                 {
-                    "en": "What is a highly significant historical milestone or struggle #60 in {country_name}'s past?",
-                    "ru": "Что является важной исторической вехой или событием #60 в прошлом {country_name}?",
-                    "fr": "Quel est un jalon historique ou une lutte très importante #60 dans le passé de {country_name} ?",
+                    "en": "What is a highly significant historical milestone or struggle in {country_name}'s past?",
+                    "ru": "Что является важной исторической вехой или событием в прошлом {country_name}?",
+                    "fr": "Quel est un jalon historique ou une lutte très importante dans le passé de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -6768,9 +6768,9 @@
             "range": "61–80",
             "questions": [
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #61 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #61 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #61 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -6880,9 +6880,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #62 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #62 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #62 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -6992,9 +6992,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #63 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #63 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #63 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -7104,9 +7104,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #64 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #64 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #64 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -7216,9 +7216,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #65 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #65 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #65 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -7328,9 +7328,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #66 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #66 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #66 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -7440,9 +7440,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #67 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #67 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #67 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -7552,9 +7552,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #68 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #68 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #68 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -7664,9 +7664,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #69 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #69 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #69 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -7776,9 +7776,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #70 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #70 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #70 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -7888,9 +7888,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #71 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #71 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #71 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -8000,9 +8000,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #72 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #72 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #72 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -8112,9 +8112,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #73 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #73 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #73 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -8224,9 +8224,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #74 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #74 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #74 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -8336,9 +8336,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #75 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #75 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #75 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -8448,9 +8448,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #76 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #76 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #76 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -8560,9 +8560,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #77 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #77 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #77 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -8672,9 +8672,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #78 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #78 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #78 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -8784,9 +8784,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #79 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #79 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #79 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -8896,9 +8896,9 @@
                     }
                 },
                 {
-                    "en": "How are legislative powers or public offices managed and checked in the administration #80 of {country_name}?",
-                    "ru": "Как распределяются законодательные полномочия или государственные органы власти #80 в {country_name}?",
-                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration #80 de {country_name} ?",
+                    "en": "How are legislative powers or public offices managed and checked in the administration of {country_name}?",
+                    "ru": "Как распределяются законодательные полномочия или государственные органы власти в {country_name}?",
+                    "fr": "Comment les pouvoirs législatifs ou les fonctions publiques sont-ils gérés et contrôlés dans l'administration de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -9018,9 +9018,9 @@
             "range": "81–100",
             "questions": [
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #81 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #81 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #81 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -9130,9 +9130,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #82 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #82 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #82 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -9242,9 +9242,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #83 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #83 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #83 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -9354,9 +9354,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #84 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #84 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #84 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -9466,9 +9466,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #85 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #85 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #85 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -9578,9 +9578,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #86 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #86 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #86 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -9690,9 +9690,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #87 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #87 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #87 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -9802,9 +9802,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #88 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #88 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #88 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -9914,9 +9914,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #89 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #89 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #89 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -10026,9 +10026,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #90 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #90 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #90 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -10138,9 +10138,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #91 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #91 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #91 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -10250,9 +10250,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #92 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #92 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #92 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -10362,9 +10362,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #93 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #93 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #93 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -10474,9 +10474,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #94 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #94 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #94 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -10586,9 +10586,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #95 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #95 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #95 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -10698,9 +10698,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #96 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #96 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #96 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -10810,9 +10810,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #97 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #97 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #97 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -10922,9 +10922,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #98 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #98 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #98 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -11034,9 +11034,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #99 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #99 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #99 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
@@ -11146,9 +11146,9 @@
                     }
                 },
                 {
-                    "en": "What is a vital civic responsibility, legal right, or social duty #100 for citizens of {country_name}?",
-                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг #100 для граждан {country_name}?",
-                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social #100 pour les citoyens de {country_name} ?",
+                    "en": "What is a vital civic responsibility, legal right, or social duty for citizens of {country_name}?",
+                    "ru": "Какова важнейшая гражданская ответственность, законное право или общественный долг для граждан {country_name}?",
+                    "fr": "Quel est un devoir civique essentiel, un droit légal ou un devoir social pour les citoyens de {country_name} ?",
                     "options": {
                         "us": {
                             "en": [
