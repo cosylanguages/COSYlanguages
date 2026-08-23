@@ -86,6 +86,7 @@ window.getLangCode = function(val) {
 window.levelIdToShort = function(val) {
     if (!val) return 'A1';
     const v = val.toLowerCase().trim();
+    if (v === 'all') return 'all';
     const match = window.COSY_LEVELS.find(l =>
         l.id === v ||
         l.id === v.replace('-', '_') ||
@@ -102,6 +103,7 @@ window.levelIdToShort = function(val) {
 window.levelShortToId = function(val) {
     if (!val) return 'starter';
     const v = val.toLowerCase().trim();
+    if (v === 'all') return 'all';
     const match = window.COSY_LEVELS.find(l =>
         l.id === v ||
         l.id === v.replace('-', '_') ||

@@ -631,25 +631,40 @@
             action: {}, identity: [], wordlinker: [], etymology: [], storychain: []
         };
 
-        // 1. Load basic game data from window.gameData (hardcoded pools)
-        const sources = [window.gameData?.['universal'], window.gameData?.[lang]].filter(Boolean);
+        // 1. Load basic game data from window.gameData (hardcoded pools with fallback)
+        const sources = [
+            window.gameData?.['universal'],
+            window.gameData?.[lang],
+            lang !== 'en' ? window.gameData?.['en'] : null
+        ].filter(Boolean);
 
         sources.forEach(ld => {
             ['fluency', 'opinions', 'battle', 'critic', 'identity', 'wordlinker', 'etymology', 'storychain'].forEach(k => {
                 const pool = ld[k] || ld[k.replace(/s$/, '')]; // Handle singular/plural
-                if (Array.isArray(pool)) {
+                if (Array.isArray(pool) && pool.length > 0) {
                     let filteredPool = [];
-                    // Only use data that matches the selected level
+                    // Only use data that matches the selected level (fallback to entire pool if level filter returns empty)
                     if (level !== 'all') {
                         filteredPool = JSON.parse(JSON.stringify(pool)).filter(item => {
-                            if (!item.level) return true; // Keep "universal" items (strings or objects without level)
+                            if (!item.level) return true; // Keep "universal" items
                             return window.getLevelCode(item.level) === level;
                         });
+                        if (filteredPool.length === 0) {
+                            filteredPool = JSON.parse(JSON.stringify(pool));
+                        }
                     } else {
                         filteredPool = JSON.parse(JSON.stringify(pool));
                     }
                     if (filteredPool.length > 0) {
-                        data[k] = [...(data[k] || []), ...filteredPool];
+                        // Deduplicate items
+                        const existingStr = new Set((data[k] || []).map(x => JSON.stringify(x)));
+                        filteredPool.forEach(item => {
+                            const str = JSON.stringify(item);
+                            if (!existingStr.has(str)) {
+                                existingStr.add(str);
+                                data[k].push(item);
+                            }
+                        });
                     }
                 }
             });

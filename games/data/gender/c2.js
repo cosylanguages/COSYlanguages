@@ -91,7 +91,7 @@
             translations: {
                 fr: { word: "néant", article: "le", gender: "masculine" },
                 es: { word: "nada", article: "la", gender: "feminine" },
-                it: { word: "nulla", article: "la/il", gender: "both" },
+                it: { word: "nulla", article: "il", gender: "masculine" },
                 de: { word: "Nichts", article: "das", gender: "neuter" },
                 ru: { word: "ничто", article: "", gender: "neuter" },
                 el: { word: "μηδέν", article: "το", gender: "neuter" },
