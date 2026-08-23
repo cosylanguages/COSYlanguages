@@ -1272,7 +1272,25 @@
         "definitions": [],
         "transcription": "-",
         "emoji": "❓"
-    }
+    },
+    {
+        "id": "fr_b1_tech_01",
+        "word": "intelligence artificielle",
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "technology",
+        "form": "noun",
+        "definitions": [
+                {
+                        "text": "Ensemble de théories et de techniques mises en œuvre en vue de réaliser des machines capables de simuler l'intelligence.",
+                        "examples": [
+                                "L'intelligence artificielle transforme la technologie moderne."
+                        ]
+                }
+        ],
+        "transcription": "-",
+        "emoji": "🤖"
+},
 ];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
