@@ -1,0 +1,27 @@
+{
+  "language": "fr",
+  "course_type": "general",
+  "level": "B1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unité 1 : Nuancer sa pensée et exprimer des opinions",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Le subjonctif présent — Nécessité et volonté",
+          "grammar": ["Il faut que + subjonctif", "Je veux que + subjonctif"],
+          "vocabulary": ["Il est nécessaire", "Souhaiter", "Exiger", "Important", "Essentiel"],
+          "teacher_notes": "code: \"FR-B1-001\"\npronunciation: [{\"point\":\"La nasalisation\",\"explain\":\"Distinguer clairement les voyelles nasales [ɑ̃], [ɔ̃], [ɛ̃].\",\"examples\":[{\"pattern\":\"un bon vin blanc\",\"ipa\":\"/œ̃ bɔ̃ vɛ̃ blɑ̃/\",\"word\":\"vin\"}],\"visual\":\"🎵\"}]\ncando: \"Peut exprimer la nécessité et des volontés nuancées\""
+        },
+        {
+          "lesson": 2,
+          "title": "L'expression de la cause et de la conséquence",
+          "grammar": ["Parce que vs Grâce à / À cause de", "Donc / C'est pourquoi"],
+          "vocabulary": ["Raison", "Impact", "Résultat", "Facteur", "Origine"],
+          "teacher_notes": "code: \"FR-B1-002\"\ncando: \"Peut structurer un raisonnement logique simple\""
+        }
+      ]
+    }
+  ]
+}
