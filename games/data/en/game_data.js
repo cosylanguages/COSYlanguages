@@ -52,8 +52,8 @@
         elementary: ['Kitchen', 'Garden', 'Train', 'Doctor', 'Teacher', 'Music', 'Birthday', 'Swimming', 'Holiday', 'Shopping'],
         intermediate: ['Museum', 'Interview', 'Architect', 'Journalist', 'Parliament', 'Orchestra', 'Marathon', 'Exhibition'],
         upper_intermediate: ['Philanthropy', 'Ambassador', 'Hypothesis', 'Entrepreneur', 'Archaeology', 'Telescope', 'Symposium'],
-        advanced: [],
-        proficiency: []
+        advanced: ['Paradigm', 'Juxtaposition', 'Anachronism', 'Quinquennial', 'Sesquipedalian', 'Verisimilitude', 'Magnanimous', 'Vicissitude'],
+        proficiency: ['Ubiquitous', 'Ephemeral', 'Pugnacious', 'Perspicacious', 'Sycophant', 'Surreptitious', 'Equanimity', 'Ineffable']
       },
       identity: [
         { person: 'A firefighter', clue: 'They wear a helmet and fight with water.', level: 'elementary' },
