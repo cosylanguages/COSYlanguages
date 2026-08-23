@@ -1,502 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Grammar Reference — COSYlanguages</title>
-    <!-- Data Dependencies -->
-    <script src="../js/data/curriculum_data.js"></script>
-    <script src="../js/data/grammar_config.js"></script>
-    <script src="../js/core/morphology.js"></script>
-    <script src="../js/core/linguistics.js"></script>
-    <script src="../js/core/i18n.js"></script>
-    <script src="../js/core/engine.js"></script>
-<link rel="icon" href="../images/logos/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COSYlanguages English Grammar Manual (A0–A1) &middot; COSYlanguages</title>
+<meta name="description" content="Interactive edition of the COSYlanguages A0-A1 English grammar manual: 42 topics with diagrams, self-checks and quizzes.">
+<link rel="stylesheet" href="assets/style.css">
 
-<link rel="stylesheet" href="../css/tokens.css">
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/portal.css">
 </head>
 <body>
-
-<nav id="cosy-nav"></nav>
-
-<div class="page-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-  <div>
-    <h1>Grammar Reference 📐</h1>
-    <a id="btn-go-print" href="../print-grammar.html?lang=en&level=starter&type=verbs" class="btn btn-secondary" style="margin-top: 0.5rem; display: inline-flex; font-size: 0.85rem; padding: 0.4rem 1.2rem; align-items: center; gap: 0.4rem; font-weight: bold; border-radius: 20px;">🖨️ Printable Version</a>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">cl</span>
+      <span class="brand-name">COSY<em>languages</em> · Grammar A0&ndash;A1</span>
+    </a>
+    <nav class="topbar-nav">
+      <a class="" href="part-1.html">Part 1</a><a class="" href="part-2.html">Part 2</a><a class="" href="part-3.html">Part 3</a><a class="" href="part-4.html">Part 4</a>
+      <a class="" href="appendix.html">Appendix</a>
+    </nav>
   </div>
-  <div style="background: var(--cream-dark, #F2EBDC); border: 1.5px solid var(--border, #D3C2A5); padding: 0.5rem 1rem; border-radius: 12px; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; margin-top: 0.5rem;">
-    <strong>📲 Standalone Reference Apps:</strong>
-    <a href="../apps/fr-conjugeur/" style="color: var(--sage-dark, #1b4332); font-weight: bold;">🇫🇷 FR Conjugeur</a> ·
-    <a href="../apps/fr-genre/" style="color: var(--sage-dark, #1b4332); font-weight: bold;">🇫🇷 FR Genre</a> ·
-    <a href="../apps/it-coniugatore/" style="color: var(--sage-dark, #1b4332); font-weight: bold;">🇮🇹 IT Coniugatore</a> ·
-    <a href="../apps/it-genere/" style="color: var(--sage-dark, #1b4332); font-weight: bold;">🇮🇹 IT Genere</a> ·
-    <a href="../apps/ru-spryazhenie/" style="color: var(--sage-dark, #1b4332); font-weight: bold;">🇷🇺 RU Спряжение</a> ·
-    <a href="../apps/ru-rod-padezhi/" style="color: var(--sage-dark, #1b4332); font-weight: bold;">🇷🇺 RU Род</a> ·
-    <a href="../apps/el-klisi-rimaton/" style="color: var(--sage-dark, #1b4332); font-weight: bold;">🇬🇷 EL Κλίση</a> ·
-    <a href="../apps/el-genos-ptoseis/" style="color: var(--sage-dark, #1b4332); font-weight: bold;">🇬🇷 EL Γένος</a>
-  </div>
-  <!-- Client-side Search Box -->
-  <div style="flex: 1; min-width: 200px; max-width: 320px; margin: 0 1rem;">
-    <input type="text" id="grammar-search-input" placeholder="🔍 Search grammar, verbs or tenses..." style="padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid var(--border); background: var(--cream, #FAF7F2); font-size: 0.85rem; width: 100%; box-sizing: border-box;">
-  </div>
-  <div class="lang-tabs" id="ref-lang-tabs">
-    <button class="lang-tab" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
-    <button class="lang-tab" data-lang="fr" onclick="setLang('fr')">🇫🇷 FR</button>
-    <button class="lang-tab" data-lang="it" onclick="setLang('it')">🇮🇹 IT</button>
-    <button class="lang-tab" data-lang="ru" onclick="setLang('ru')">🇷🇺 RU</button>
-    <button class="lang-tab" data-lang="el" onclick="setLang('el')">🇬🇷 EL</button>
-    <button class="lang-tab" data-lang="es" onclick="setLang('es')">🇪🇸 ES</button>
-    <button class="lang-tab" data-lang="de" onclick="setLang('de')">🇩🇪 DE</button>
-    <button class="lang-tab" data-lang="pt" onclick="setLang('pt')">🇵🇹 PT</button>
-    <button class="lang-tab" data-lang="hy" onclick="setLang('hy')">🇦🇲 HY</button>
-    <button class="lang-tab" data-lang="ka" onclick="setLang('ka')">🇬🇪 KA</button>
-    <button class="lang-tab" data-lang="tt" onclick="setLang('tt')">🇷🇺 TT</button>
-    <button class="lang-tab" data-lang="ba" onclick="setLang('ba')">🇷🇺 BA</button>
-    <button class="lang-tab" data-lang="br" onclick="setLang('br')">🇫🇷 BR</button>
-  </div>
-</div>
-
-<div class="layout">
-<nav class="sidebar" id="sidebar"></nav>
-<main class="main" id="main-content"></main>
-</div>
-
-<script src="../js/data/languages.js"></script>
-<script>
-const FAMILIES = {
-    "en": "germanic/en",
-    "fr": "romance/fr",
-    "it": "romance/it",
-    "ru": "slavic/ru",
-    "el": "hellenic/el",
-    "es": "romance/es",
-    "de": "germanic/de",
-    "pt": "romance/pt",
-    "hy": "armenian/hy",
-    "ka": "kartvelian/ka",
-    "tt": "turkic/tt",
-    "ba": "turkic/ba",
-    "br": "celtic/br"
-};
-
-async function loadGrammarData(lang) {
-  const family = FAMILIES[lang];
-  if (!family) return;
-  const levels = ["starter", "elementary", "intermediate", "upper_intermediate", "advanced", "proficiency"];
-  const levelToDir = { "starter": "A1", "elementary": "A2", "intermediate": "B1", "upper_intermediate": "B2", "advanced": "C1", "proficiency": "C2" };
-  const promises = levels.map(lv => {
-    return new Promise((resolve) => {
-      const s = document.createElement("script");
-      const dir = levelToDir[lv];
-      // Prioritize vocabulary directory for all levels
-      s.src = `../vocabulary/${lang}/${dir}/verbs.js`;
-      s.onload = () => resolve();
-      s.onerror = () => {
-          // Fallback to js/data if vocabulary/ fails
-          const s2 = document.createElement("script");
-          s2.src = `../js/data/${family}/${lv}/verbs.js`;
-          s2.onload = () => resolve();
-          s2.onerror = () => resolve();
-          document.head.appendChild(s2);
-      };
-      document.head.appendChild(s);
-    });
-  });
-  await Promise.all(promises);
-}
-
-async function loadNounData(lang) {
-  const family = FAMILIES[lang];
-  if (!family) return;
-  const levels = ["starter", "elementary", "intermediate", "upper_intermediate", "advanced", "proficiency"];
-  const levelToDir = { "starter": "A1", "elementary": "A2", "intermediate": "B1", "upper_intermediate": "B2", "advanced": "C1", "proficiency": "C2" };
-  const files = ["vocabulary.js", "adjectives.js"];
-  const promises = [];
-
-  levels.forEach(lv => {
-    files.forEach(f => {
-      promises.push(new Promise((resolve) => {
-        const s = document.createElement("script");
-        const dir = levelToDir[lv];
-        // Prioritize vocabulary directory for all levels
-        s.src = `../vocabulary/${lang}/${dir}/${f}`;
-        s.onload = () => resolve();
-        s.onerror = () => {
-            const s2 = document.createElement("script");
-            s2.src = `../js/data/${family}/${lv}/${f}`;
-            s2.onload = () => resolve();
-            s2.onerror = () => resolve();
-            document.head.appendChild(s2);
-        };
-        document.head.appendChild(s);
-      }));
-    });
-  });
-  await Promise.all(promises);
-}
-
-const TENSE_LABELS = {
-    'present_simple': { en: 'Present Simple', fr: 'Présent', it: 'Presente', ru: 'Настоящее время', es: 'Presente', de: 'Präsens', el: 'Ενεστώτας', ka: 'აწმყო' },
-    'past_simple': { en: 'Past Simple', fr: 'Passé Simple', it: 'Passato Remoto', ru: 'Прошедшее время', es: 'Pretérito Indefinido', de: 'Präteritum', el: 'Αόριστος', ka: 'წყვეტილი' },
-    'imperfect': { en: 'Imperfect', fr: 'Imparfait', it: 'Imperfetto', es: 'Pretérito Imperfecto', el: 'Παρατατικός', ka: 'უსრული' },
-    'future_simple': { en: 'Future Simple', fr: 'Futur Simple', it: 'Futuro Semplice', ru: 'Будущее время', es: 'Futuro Próximo', de: 'Futur I', el: 'Μέλλοντας', ka: 'მომავალი' },
-    'conditional_present': { en: 'Conditional', fr: 'Conditionnel Présent', it: 'Condizionale Presente', es: 'Condicional', pt: 'Condicional' },
-    'subjunctive_present': { en: 'Subjunctive', fr: 'Subjonctif Présent', it: 'Congiuntivo Presente', es: 'Subjuntivo', pt: 'Subjuntivo' },
-    'passe_compose': { fr: 'Passé Composé' },
-    'passato_prossimo': { it: 'Passato Prossimo' },
-    'pret_perfecto': { es: 'Pretérito Perfecto' },
-    'perfekt': { de: 'Perfekt' },
-    'conditional': { ru: 'Условное наклонение', br: 'Doare-divizout' },
-    'future_indefinite': { tt: 'Киләчәк заман', ba: 'Киләсәк заман' },
-    'subjunctive_2': { de: 'Konjunktiv II' },
-    'present_continuous': { en: 'Present Continuous' }
-};
-
-function getTenseLabel(tense, lang) {
-    if (TENSE_LABELS[tense] && TENSE_LABELS[tense][lang]) return TENSE_LABELS[tense][lang];
-    if (TENSE_LABELS[tense] && TENSE_LABELS[tense]['en']) return TENSE_LABELS[tense]['en'];
-    return tense.replace(/_/g, ' ');
-}
-
-async function setLang(lang) {
-  await loadGrammarData(lang);
-  await loadNounData(lang);
-  window.lang = lang;
-  document.querySelectorAll('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
-
-  const printBtn = document.getElementById('btn-go-print');
-  if (printBtn) {
-      printBtn.href = `../print-grammar.html?lang=${lang}&level=starter&type=verbs`;
-  }
-
-  const loadedVerbs = window.verbsData?.[lang] || [];
-  const vocabVerbs = (window.vocabularyData?.[lang] || []).filter(v => v && v.word && v.form === 'verb');
-  const verbs = [...loadedVerbs, ...vocabVerbs];
-
-  const nouns = (window.vocabularyData?.[lang] || []).filter(v => v && v.word && v.form === 'noun');
-  const adjectives = (window.vocabularyData?.[lang] || []).filter(v => v && v.word && v.form === 'adjective');
-
-  const vLevels = {};
-  verbs.forEach(v => { if (!v || !v.word) return;
-    const lv = v.level || 'starter';
-    if (!vLevels[lv]) vLevels[lv] = [];
-    vLevels[lv].push(v);
-  });
-
-  const nLevels = {};
-  nouns.forEach(n => {
-    const lv = n.level || 'starter';
-    if (!nLevels[lv]) nLevels[lv] = [];
-    nLevels[lv].push(n);
-  });
-
-  const adjLevels = {};
-  adjectives.forEach(a => {
-      const lv = a.level || 'starter';
-      if (!adjLevels[lv]) adjLevels[lv] = [];
-      adjLevels[lv].push(a);
-  });
-
-  let sidebarHtml = "";
-  const levelOrder = ["starter", "elementary", "intermediate", "upper_intermediate", "advanced", "proficiency"];
-
-  levelOrder.forEach(lv => {
-      if (vLevels[lv]) {
-          sidebarHtml += `
-            <div class="sidebar-section">
-              <div class="sidebar-label">Verbs: ${lv.toUpperCase()}</div>
-              ${vLevels[lv].map(v => `<a class="sidebar-item" href="#verb-${(v.word || "").replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.word}</a>`).join('')}
-            </div>`;
-      }
-  });
-  levelOrder.forEach(lv => {
-      if (nLevels[lv]) {
-          sidebarHtml += `
-            <div class="sidebar-section">
-              <div class="sidebar-label">Nouns: ${lv.toUpperCase()}</div>
-              ${nLevels[lv].map(n => `<a class="sidebar-item" href="#noun-${(n.word || "").replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${n.word}</a>`).join('')}
-            </div>`;
-      }
-  });
-  levelOrder.forEach(lv => {
-      if (adjLevels[lv]) {
-          sidebarHtml += `
-            <div class="sidebar-section">
-              <div class="sidebar-label">Adjectives: ${lv.toUpperCase()}</div>
-              ${adjLevels[lv].map(a => `<a class="sidebar-item" href="#adj-${(a.word || "").replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${a.word}</a>`).join('')}
-            </div>`;
-      }
-  });
-  document.getElementById('sidebar').innerHTML = sidebarHtml;
-
-  let contentHtml = `<div class="section-title">Grammar Reference — ${lang.toUpperCase()}</div>`;
-
-  contentHtml += `<h3>Verbs</h3>`;
-  levelOrder.forEach(lv => {
-      if (vLevels[lv]) {
-          contentHtml += `
-            <div class="level-badge">${lv}</div>
-            <div class="cards-grid">${vLevels[lv].map(v => {
-                try { return renderVerbCard(v); } catch(e) { console.error(e); return ""; }
-            }).join('')}</div>`;
-      }
-  });
-
-  if (Object.keys(nLevels).length > 0) {
-      contentHtml += `<hr style="margin: 3rem 0; border: 2px solid var(--black);">`;
-      contentHtml += `<h3>Nouns & Articles</h3>`;
-      levelOrder.forEach(lv => {
-          if (nLevels[lv]) {
-              contentHtml += `
-                <div class="level-badge">${lv}</div>
-                <div class="cards-grid">${nLevels[lv].map(n => {
-                    try { return renderNounCard(n); } catch(e) { console.error(e); return ""; }
-                }).join('')}</div>`;
-          }
-      });
-  }
-
-  if (Object.keys(adjLevels).length > 0) {
-      contentHtml += `<hr style="margin: 3rem 0; border: 2px solid var(--black);">`;
-      contentHtml += `<h3>Adjectives</h3>`;
-      levelOrder.forEach(lv => {
-          if (adjLevels[lv]) {
-              contentHtml += `
-                <div class="level-badge">${lv}</div>
-                <div class="cards-grid">${adjLevels[lv].map(a => {
-                    try { return renderAdjectiveCard(a); } catch(e) { console.error(e); return ""; }
-                }).join('')}</div>`;
-          }
-      });
-  }
-
-  document.getElementById('main-content').innerHTML = contentHtml;
-  filterGrammarContent();
-}
-
-function filterGrammarContent() {
-  const searchInput = document.getElementById('grammar-search-input');
-  if (!searchInput) return;
-
-  const query = searchInput.value.trim().toLowerCase();
-  const sidebarItems = document.querySelectorAll('.sidebar-item');
-  const cards = document.querySelectorAll('.card');
-
-  // 1. Filter Cards
-  cards.forEach(card => {
-    const text = card.textContent.toLowerCase();
-    if (!query || text.includes(query)) {
-      card.style.display = '';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-
-  // 2. Hide/Show empty card grids and level-badges
-  const cardGrids = document.querySelectorAll('.cards-grid');
-  cardGrids.forEach(grid => {
-    const gridCards = Array.from(grid.querySelectorAll('.card'));
-    const hasVisibleCard = gridCards.some(c => c.style.display !== 'none');
-    if (hasVisibleCard) {
-      grid.style.display = '';
-      let prevBadge = grid.previousElementSibling;
-      while (prevBadge && !prevBadge.classList.contains('level-badge')) {
-        prevBadge = prevBadge.previousElementSibling;
-      }
-      if (prevBadge) prevBadge.style.display = '';
-    } else {
-      grid.style.display = 'none';
-      let prevBadge = grid.previousElementSibling;
-      while (prevBadge && !prevBadge.classList.contains('level-badge')) {
-        prevBadge = prevBadge.previousElementSibling;
-      }
-      if (prevBadge) prevBadge.style.display = 'none';
-    }
-  });
-
-  // 3. Filter Sidebar Items
-  sidebarItems.forEach(item => {
-    const text = item.textContent.toLowerCase();
-    if (!query || text.includes(query)) {
-      item.style.display = '';
-    } else {
-      item.style.display = 'none';
-    }
-  });
-
-  // 4. Hide empty sidebar sections
-  const sidebarSections = document.querySelectorAll('.sidebar-section');
-  sidebarSections.forEach(section => {
-    const items = Array.from(section.querySelectorAll('.sidebar-item'));
-    const hasVisibleItem = items.some(i => i.style.display !== 'none');
-    if (hasVisibleItem) {
-      section.style.display = '';
-    } else {
-      section.style.display = 'none';
-    }
-  });
-}
-
-function renderAdjectiveCard(a) {
-  const config = GRAMMAR_CONFIG[window.lang]?.adjectives;
-  if (!config) return "";
-
-  const genders = GRAMMAR_CONFIG[window.lang]?.nouns?.genders || ['masculine', 'feminine'];
-  const numbers = ['singular', 'plural'];
-  const cases = GRAMMAR_CONFIG[window.lang]?.nouns?.cases || ['nominative'];
-
-  let tables = "";
-  numbers.forEach(num => {
-      tables += `
-        <div class="tense-container" style="margin-bottom: 1rem;">
-          <div class="tense-header">${num.toUpperCase()}</div>
-          <table class="gtable">
-            <tr><th class="row-label">Case</th>${genders.map(g => `<th>${g.slice(0,3)}</th>`).join('')}</tr>
-            ${cases.map(c => {
-                return `<tr>
-                  <td class="row-label">${c}</td>
-                  ${genders.map(g => `<td><span class="key-verb">${Linguistics.inflectAdjective(window.lang, a, g, num, c)}</span></td>`).join('')}
-                </tr>`;
-            }).join('')}
-          </table>
-        </div>`;
-  });
-
-  // Comparison
-  const degrees = ['comparative', 'superlative'];
-  const compTable = `
-    <div class="tense-container" style="grid-column: 1 / -1; margin-top: 1rem;">
-      <div class="tense-header">COMPARISON</div>
-      <table class="gtable">
-        ${degrees.map(d => {
-            const form = Linguistics.getAdjectiveComparison(window.lang, a, d);
-            return `<tr><td class="row-label">${d}</td><td><span class="key-neg">${form}</span></td></tr>`;
-        }).join('')}
-      </table>
-    </div>`;
-
-  if (!a.non_comparable && a.theme !== 'colors') {
-      tables += compTable;
-  }
-
-  return `<div class="card" id="adj-${(a.word || "").replace(/\s+/g, '-')}">
-    <div class="card-title" style="background: var(--orange);">${a.word.toUpperCase()}</div>
-    <div class="card-meta">
-        <span class="meta-badge">${Linguistics.getAdjectivePosition(window.lang, a)}</span>
-        ${a.theme ? `<span class="meta-badge">${a.theme}</span>` : ""}
+</header><section class="hero">
+  <div class="container">
+    <span class="hero-kicker">COSYlanguages &middot; Level A0&ndash;A1</span>
+    <h1>English Grammar,<br>built one block at a time.</h1>
+    <p class="lead">An interactive companion to the COSYlanguages Grammar Manual &mdash; 42 topics, each with
+    visuals, click-to-reveal mistakes, self-check lists and a quick quiz.</p>
+    <div class="hero-builder">
+      <div class="instruction">&#9998; TRY IT &mdash; TAP ONE WORD FROM EACH ROW TO BUILD A SENTENCE</div>
+      <div id="sentence-builder">
+        <div class="pool">
+          <button data-role="subject" data-word="She" style="background:#3562e0;">She</button>
+          <button data-role="subject" data-word="They" style="background:#3562e0;">They</button>
+          <button data-role="subject" data-word="We" style="background:#3562e0;">We</button>
+        </div>
+        <div class="pool">
+          <button data-role="verb" data-word="reads" style="background:#1c8f56;">reads</button>
+          <button data-role="verb" data-word="play" style="background:#1c8f56;">play</button>
+          <button data-role="verb" data-word="like" style="background:#1c8f56;">like</button>
+        </div>
+        <div class="pool">
+          <button data-role="object" data-word="books" style="background:#c9740a;">books</button>
+          <button data-role="object" data-word="football" style="background:#c9740a;">football</button>
+          <button data-role="object" data-word="pizza" style="background:#c9740a;">pizza</button>
+        </div>
+        <div class="slot-row">
+          <div class="slot" data-role="subject">subject</div>
+          <div class="slot" data-role="verb">verb</div>
+          <div class="slot" data-role="object">object</div>
+        </div>
+        <div class="sentence-out">&nbsp;</div>
+      </div>
     </div>
-    <div class="tense-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">${tables}</div>
-  </div>`;
-}
-
-function renderNounCard(n) {
-  const config = GRAMMAR_CONFIG[window.lang]?.nouns;
-  if (!config) return "";
-
-  const cases = config.cases || ['nominative'];
-  const numbers = config.numbers || ['singular', 'plural'];
-  const artTypes = config.article_types || ['definite', 'indefinite'];
-
-  let tables = "";
-  numbers.forEach(num => {
-      tables += `
-        <div class="tense-container" style="margin-bottom: 1rem;">
-          <div class="tense-header">${num.toUpperCase()}</div>
-          <table class="gtable">
-            <tr><th class="row-label">Case</th><th>Article</th><th>Noun</th></tr>
-            ${cases.map(c => {
-                const inflected = Linguistics.inflectNoun(window.lang, n, num, c);
-                const arts = artTypes.map(at => Linguistics.getArticle(window.lang, n, at, c, num)).filter(a => a).join(' / ');
-                return `
-                  <tr>
-                    <td class="row-label">${c}</td>
-                    <td><span class="key-neg">${arts || "-"}</span></td>
-                    <td><span class="key-verb">${inflected}</span></td>
-                  </tr>`;
-            }).join('')}
-          </table>
-        </div>`;
-  });
-
-  // Possessive Suffixes (Turkic)
-  if (config.possession) {
-      const persons = ['1s', '2s', '3s'];
-      tables += `
-        <div class="tense-container" style="grid-column: 1 / -1; margin-top: 1rem;">
-          <div class="tense-header">POSSESSION (SINGULAR)</div>
-          <table class="gtable">
-            <tr>${persons.map(p => `<th>${p}</th>`).join('')}</tr>
-            <tr>
-              ${persons.map(p => `<td><span class="key-verb">${Linguistics.applyPossession(window.lang, n, p, 'singular')}</span></td>`).join('')}
-            </tr>
-          </table>
-        </div>`;
-  }
-
-  return `<div class="card" id="noun-${(n.word || "").replace(/\s+/g, '-')}">
-    <div class="card-title" style="background: var(--teal-dk);">${n.word.toUpperCase()}</div>
-    <div class="card-meta">
-        <span class="meta-badge">${n.gender || "neutral"}</span>
-        ${n.countability ? `<span class="meta-badge">${n.countability}</span>` : ""}
+  </div>
+</section><main class="container"><div class="page-head" style="padding-top:44px;">
+      <span class="eyebrow">Choose a part</span>
+      <h1 style="font-size:28px;">Four parts, 42 topics</h1>
+      <p class="subtitle">Follow the manual in order, or jump straight to what you need.</p>
     </div>
-    <div class="tense-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">${tables}</div>
-  </div>`;
-}
-
-function renderVerbCard(v) {
-  const config = GRAMMAR_CONFIG[window.lang];
-  if (!config) return "";
-  const tenses = Object.keys(config.verbs.regular_rules).concat(Object.keys(config.verbs.compound_tenses || {}));
-
-  const tables = tenses.map(t => {
-    const conj = Linguistics.conjugate(window.lang, v, t);
-    if (!conj) return "";
-    return `
-      <div class="tense-container">
-        <div class="tense-header">${getTenseLabel(t, window.lang)}</div>
-        <table class="gtable">
-          ${config.pronouns.map((p, i) => `
-            <tr>
-              <td class="row-label">${p}</td>
-              <td><span class="key-verb">${conj.positive[i] || "-"}</span></td>
-              <td><span class="key-neg">${conj.negative[i] || "-"}</span></td>
-            </tr>
-          `).join('')}
-        </table>
-      </div>`;
-  }).join('');
-
-  return `<div class="card" id="verb-${(v.word || "").replace(/\s+/g, '-')}">
-    <div class="card-title">${v.word.toUpperCase()}</div>
-    <div class="card-meta">
-        <span class="meta-badge">${v.classification}</span>
-        <span class="meta-badge group">Group: ${v.group}</span>
-        ${v.auxiliary ? `<span class="meta-badge aux">Aux: ${v.auxiliary}</span>` : ""}
-    </div>
-    <div class="tense-grid">${tables}</div>
-  </div>`;
-}
-
-function setActiveLink(el) {
-  document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
-  el.classList.add('active');
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  setLang(urlParams.get('lang') || 'fr');
-
-  const searchInput = document.getElementById('grammar-search-input');
-  if (searchInput) {
-    searchInput.addEventListener('input', filterGrammarContent);
-  }
-});
-</script>
-<script src="../js/core/ui.js"></script>
+    <div class="parts-grid"><a class="part-card" href="part-1.html">
+          <div class="stripe" style="background:#3562e0;"></div>
+          <span class="pnum">Part 1</span>
+          <h2>Nouns & Pronouns</h2>
+          <p>Almost everything here is either building a basic sentence, saying what exists, naming things precisely, or sh&hellip;</p>
+          <span class="topics-count">10 topics</span>
+        </a><a class="part-card" href="part-2.html">
+          <div class="stripe" style="background:#1c9483;"></div>
+          <span class="pnum">Part 2</span>
+          <h2>Verbs & Tenses</h2>
+          <p>English verbs move through time in a predictable order: what's true now, what's happening right now, what alre&hellip;</p>
+          <span class="topics-count">14 topics</span>
+        </a><a class="part-card" href="part-3.html">
+          <div class="stripe" style="background:#c9740a;"></div>
+          <span class="pnum">Part 3</span>
+          <h2>Describing Things</h2>
+          <p>Three simple ideas: adjectives can grow (bigger, biggest), some words make description stronger or softer, and&hellip;</p>
+          <span class="topics-count">10 topics</span>
+        </a><a class="part-card" href="part-4.html">
+          <div class="stripe" style="background:#7c4fd6;"></div>
+          <span class="pnum">Part 4</span>
+          <h2>Connecting Words</h2>
+          <p>These are the small words that hold everything else together &mdash; where things are, when they happen, how i&hellip;</p>
+          <span class="topics-count">6 topics</span>
+        </a><a class="part-card" href="appendix.html">
+      <div class="stripe" style="background:#a3195b;"></div>
+      <span class="pnum">Appendix</span>
+      <h2>Reference &amp; Culture</h2>
+      <p>Irregular verb flashcards, plus UK/US/CA/AU differences at a glance.</p>
+      <span class="topics-count">2 topics</span>
+    </a></div></main><footer class="site">
+  <div class="container">
+    <div>COSYlanguages &middot; English Grammar Manual, Level A0&ndash;A1 &middot; interactive web edition</div>
+    <div><a href="https://cosylanguages.github.io/COSYlanguages/index.html">&larr; Back to cosylanguages.github.io</a></div>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
 </body>
 </html>
