@@ -266,7 +266,7 @@
     },
     {
         "id": "en_intermediate_social_003",
-        "t": "Silence at the dinner table is not awkward — it is peaceful.",
+        "t": "Silence at the dinner table is not awkward : it is peaceful.",
         "tag": "Social life",
         "h": [
             "Do you talk a lot at mealtimes?",
@@ -279,11 +279,11 @@
         "level": "intermediate",
         "theme": "social",
         "sub_theme": null,
-        "word": "Silence at the dinner table is not awkward — it is peaceful.",
+        "word": "Silence at the dinner table is not awkward : it is peaceful.",
         "form": "other",
         "definitions": [
             {
-                "text": "Silence at the dinner table is not awkward — it is peaceful.",
+                "text": "Silence at the dinner table is not awkward : it is peaceful.",
                 "examples": []
             }
         ]

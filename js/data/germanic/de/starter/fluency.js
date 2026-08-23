@@ -273,7 +273,7 @@
         {
                 "t": "Dein Job oder deine Schule",
                 "h": [
-                        "Was machst du — arbeiten oder studieren?",
+                        "Was machst du : arbeiten oder studieren?",
                         "Was magst du daran?",
                         "Wann fängst du an?",
                         "Mit wem arbeitest oder studierst du zusammen?",
@@ -289,7 +289,7 @@
                         {
                                 "text": "Dein Job oder deine Schule",
                                 "examples": [
-                                        "Was machst du — arbeiten oder studieren?",
+                                        "Was machst du : arbeiten oder studieren?",
                                         "Was magst du daran?",
                                         "Wann fängst du an?",
                                         "Mit wem arbeitest oder studierst du zusammen?",

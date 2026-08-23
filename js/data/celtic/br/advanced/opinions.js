@@ -31,7 +31,7 @@
         "id": "br_advanced_misc_misc_ar_leve_diazez_hollvedel_eo_an"
     },
     {
-        "t": "Un dibab eo al levenez — an amveziadoù n'int nemet digarez.",
+        "t": "Un dibab eo al levenez : an amveziadoù n'int nemet digarez.",
         "tag": "Filozofiezh",
         "h": [
             "Hag-eñ e soñj deoc'h emañ al levenez dindan beli pep hini ?",
@@ -232,7 +232,7 @@
             "Hag-eñ e c'hallit soñjal en ur stad ma oa reizh ar c'hriadenn foran ?",
             "Hag un diforc'h a zo etre ar giriegezh hag ar c'hastiz ?",
             "Piv a zibab ar pezh a zo dibardonus ?",
-            "Hag-eñ e labour ar 'c'hancel culture' — hag-eñ e cheñch an emzalc'h e gwirionez ?",
+            "Hag-eñ e labour ar 'c'hancel culture' : hag-eñ e cheñch an emzalc'h e gwirionez ?",
             "Hag un dra bennak a zo fall da vat en dra-se, pe hag-eñ eo ur mank hepken ?"
         ],
         "lang": "br",

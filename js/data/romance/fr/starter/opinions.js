@@ -281,7 +281,7 @@
         "h": [
             "Sais-tu nager ?",
             "Aimes-tu l'eau ?",
-            "Où nages-tu — à la piscine ou à la mer ?",
+            "Où nages-tu : à la piscine ou à la mer ?",
             "Quel sport aimes-tu ?",
             "Le sport est-il important pour toi ?"
         ]

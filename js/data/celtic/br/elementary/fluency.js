@@ -59,7 +59,7 @@
             }
         ],
         "h": [
-            "Penaos e veajit — karr-boutin, karr, marc'h-houarn ?",
+            "Penaos e veajit : karr-boutin, karr, marc'h-houarn ?",
             "Pegement a amzer a gemer ?",
             "Ha plijout a ra ar veaj deoc'h ?",
             "Hag-eñ eo ker ?",

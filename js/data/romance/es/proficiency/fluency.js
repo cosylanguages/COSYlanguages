@@ -164,7 +164,7 @@
     {
         "t": "La diferencia entre tus valores declarados y tus valores revelados",
         "h": [
-            "¿Qué dicen tus elecciones reales —no tus creencias declaradas— que valoras más?",
+            "¿Qué dicen tus elecciones reales : no tus creencias declaradas : que valoras más?",
             "¿Hay una brecha dolorosa entre ambas?",
             "¿Es la brecha evidencia de hipocresía o de la dificultad genuina de vivir según los principios de uno?",
             "¿Puedes cerrar la brecha, o siempre persiste cierta distancia entre lo ideal y lo real?",

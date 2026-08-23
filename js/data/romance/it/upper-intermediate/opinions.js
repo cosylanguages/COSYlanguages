@@ -91,7 +91,7 @@
             "id": "it_upper_intermediate_social_025"
         },
         {
-            "t": "La maggior parte delle persone non vuole davvero un feedback onesto — vuole rassicurazione.",
+            "t": "La maggior parte delle persone non vuole davvero un feedback onesto : vuole rassicurazione.",
             "tag": "Natura umana",
             "h": [
                 "Quando chiedi un feedback, cosa vuoi davvero?",
@@ -100,10 +100,10 @@
                 "Riesci a pensare a un contesto in cui la rassicurazione è effettivamente la cosa giusta?",
                 "Qual è la differenza tra gentilezza e disonestà?"
             ],
-            "word": "La maggior parte delle persone non vuole davvero un feedback onesto — vuole rassicurazione.",
+            "word": "La maggior parte delle persone non vuole davvero un feedback onesto : vuole rassicurazione.",
             "definitions": [
                 {
-                    "text": "La maggior parte delle persone non vuole davvero un feedback onesto — vuole rassicurazione.",
+                    "text": "La maggior parte delle persone non vuole davvero un feedback onesto : vuole rassicurazione.",
                     "examples": [
                         "Quando chiedi un feedback, cosa vuoi davvero?",
                         "Hai mai ricevuto un feedback difficile da sentire ma prezioso?",
@@ -215,7 +215,7 @@
             "tag": "Filosofia",
             "h": [
                 "Riesci a pensare a un atto genuinamente altruista?",
-                "Fare qualcosa di buono ti fa sentire bene — e questo lo rende egoista?",
+                "Fare qualcosa di buono ti fa sentire bene : e questo lo rende egoista?",
                 "Si tratta di una visione cinica o realistica?",
                 "La motivazione dietro un'azione conta se il risultato è positivo?",
                 "Credere a questo cambia il tuo modo di comportarti?"
@@ -226,7 +226,7 @@
                     "text": "Non esiste un comportamento veramente altruista.",
                     "examples": [
                         "Riesci a pensare a un atto genuinamente altruista?",
-                        "Fare qualcosa di buono ti fa sentire bene — e questo lo rende egoista?",
+                        "Fare qualcosa di buono ti fa sentire bene : e questo lo rende egoista?",
                         "Si tratta di una visione cinica o realistica?",
                         "La motivazione dietro un'azione conta se il risultato è positivo?",
                         "Credere a questo cambia il tuo modo di comportarti?"
@@ -248,7 +248,7 @@
                 "Quando ti aspettavi di sentirti un adulto?",
                 "Tutti hanno l'impressione di fingere?",
                 "Questo è rassicurante o terrificante?",
-                "Chi è qualcuno che sembra aver capito tutto — pensi che sia davvero così?"
+                "Chi è qualcuno che sembra aver capito tutto : pensi che sia davvero così?"
             ],
             "word": "La maggior parte degli adulti sta solo improvvisando.",
             "definitions": [
@@ -259,7 +259,7 @@
                         "Quando ti aspettavi di sentirti un adulto?",
                         "Tutti hanno l'impressione di fingere?",
                         "Questo è rassicurante o terrificante?",
-                        "Chi è qualcuno che sembra aver capito tutto — pensi che sia davvero così?"
+                        "Chi è qualcuno che sembra aver capito tutto : pensi che sia davvero così?"
                     ]
                 }
             ],
@@ -331,7 +331,7 @@
             "id": "it_upper_intermediate_social_033"
         },
         {
-            "t": "Le zone di comfort sono sopravvalutate — il disagio è dove avviene effettivamente la crescita.",
+            "t": "Le zone di comfort sono sopravvalutate : il disagio è dove avviene effettivamente la crescita.",
             "tag": "Sviluppo personale",
             "h": [
                 "Riesci a pensare a un momento in cui il disagio ha portato alla crescita?",
@@ -340,10 +340,10 @@
                 "Cerchi attivamente il disagio?",
                 "Cos'è qualcosa che si trova appena fuori dalla tua zona di comfort in questo momento?"
             ],
-            "word": "Le zone di comfort sono sopravvalutate — il disagio è dove avviene effettivamente la crescita.",
+            "word": "Le zone di comfort sono sopravvalutate : il disagio è dove avviene effettivamente la crescita.",
             "definitions": [
                 {
-                    "text": "Le zone di comfort sono sopravvalutate — il disagio è dove avviene effettivamente la crescita.",
+                    "text": "Le zone di comfort sono sopravvalutate : il disagio è dove avviene effettivamente la crescita.",
                     "examples": [
                         "Riesci a pensare a un momento in cui il disagio ha portato alla crescita?",
                         "È sempre necessario essere a disagio per svilupparsi?",
@@ -361,7 +361,7 @@
             "id": "it_upper_intermediate_social_034"
         },
         {
-            "t": "La rabbia è un'emozione sottovalutata — a volte permette di ottenere risultati.",
+            "t": "La rabbia è un'emozione sottovalutata : a volte permette di ottenere risultati.",
             "tag": "Psicologia",
             "h": [
                 "Pensi di esprimere bene la rabbia?",
@@ -370,10 +370,10 @@
                 "Alcune persone sono troppo veloci a reprimere la propria rabbia?",
                 "Cosa fai quando sei arrabbiato?"
             ],
-            "word": "La rabbia è un'emozione sottovalutata — a volte permette di ottenere risultati.",
+            "word": "La rabbia è un'emozione sottovalutata : a volte permette di ottenere risultati.",
             "definitions": [
                 {
-                    "text": "La rabbia è un'emozione sottovalutata — a volte permette di ottenere risultati.",
+                    "text": "La rabbia è un'emozione sottovalutata : a volte permette di ottenere risultati.",
                     "examples": [
                         "Pensi di esprimere bene la rabbia?",
                         "Riesci a pensare a un momento in cui la rabbia è stata produttiva?",

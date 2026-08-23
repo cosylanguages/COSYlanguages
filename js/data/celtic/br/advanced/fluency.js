@@ -31,7 +31,7 @@
     {
         "t": "Hag an dud a cheñch penn-da-benn pe hag-eñ en em ziskouezont tamm-ha-tamm hepken",
         "h": [
-            "Hag-eñ e c'hallit soñjal en un den en deus cheñchet evit gwir — pe hag-eñ n'anavezec'h ket anezhañ a-walc'h a-raok?",
+            "Hag-eñ e c'hallit soñjal en un den en deus cheñchet evit gwir : pe hag-eñ n'anavezec'h ket anezhañ a-walc'h a-raok?",
             "Petra zo ezhomm evit ma cheñchfe un den evit gwir?",
             "Hag-eñ e soñjit oc'h bet cheñchet pe hag-eñ oc'h chomet an hevelep den e gwirionez?",
             "Petra a lavar kement-se diwar-benn al liammoù ma ne cheñch ket an dud evit gwir?",
@@ -119,7 +119,7 @@
             "Hag-eñ eo displijus anzav he deus c'hoariet ar chañs ur roll?",
             "Hag-eñ he deus c'hoariet ar chañs a-enep deoc'h?",
             "Hag-eñ e soñjit e vez dreististimet gant an dud ar galloud o deus war an traoù?",
-            "Petra eo heuliad etikel ar chañs — hag-eñ e cheñch ar pezh a dleet an eil d'egile?"
+            "Petra eo heuliad etikel ar chañs : hag-eñ e cheñch ar pezh a dleet an eil d'egile?"
         ],
         "lang": "br",
         "level": "advanced",
@@ -171,7 +171,7 @@
     {
         "t": "Un dra bennak er vuhez vodern a laka ac'hanoc'h da vezañ nec'het evit gwir",
         "h": [
-            "Petra eo — an teknologiezhioù, ar politikerezh, an emdroadurioù sokial, an endro?",
+            "Petra eo : an teknologiezhioù, ar politikerezh, an emdroadurioù sokial, an endro?",
             "Hag an nec'hamant-se a zo nevez pe hag-eñ eo bet o sevel tamm-ha-tamm?",
             "Hag-eñ e soñjit e vez rannet gant tud all pe hag-eñ en em santit hoc'h-unan gant kement-se?",
             "Hag-eñ e cheñch ho mod da vevañ dre ma'z oc'h nec'het gant kement-se?",
@@ -189,7 +189,7 @@
             "Hag-eñ ho peus santet an digenez e-kreiz ur foulad tud?",
             "Hag-eñ e soñjit e laka ar vuhez vodern an digenez da vezañ stankoc'h pe raloc'h?",
             "Hag-eñ e c'haller bezañ digenvez en ur relasion?",
-            "Petra eo al louzoù a-enep an digenez — muioc'h a liammoù, pe un dra bennak donoc'h?"
+            "Petra eo al louzoù a-enep an digenez : muioc'h a liammoù, pe un dra bennak donoc'h?"
         ],
         "lang": "br",
         "level": "advanced",
@@ -197,7 +197,7 @@
         "id": "br_advanced_misc_misc_an_diforch_etre_beza_e-unan_ha"
     },
     {
-        "t": "Petra a dalvez bevañ mat — hag-eñ oc'h tost d'an dra-se",
+        "t": "Petra a dalvez bevañ mat : hag-eñ oc'h tost d'an dra-se",
         "h": [
             "Penaos e termenit ur vuhez renet mat?",
             "Buhez piv e sellit outi en ur soñjal: 'tost eo d'an dra-se'?",
@@ -217,7 +217,7 @@
             "Hag-eñ e soñjit e kempennomp hor memorioù evit ma glotfont gant un danevell diwar hor penn?",
             "Petra eo ar memor sklaerañ ho peus ha pegen fizius e soñjit eo?",
             "Hag-eñ eo pouezus e vije resis ur memor ma seblant bezañ gwir?",
-            "Petra a lavar ar memor diwar-benn an identelezh — ma cheñchfe ho memorioù, hag-eñ e vijec'h un den disheñvel?"
+            "Petra a lavar ar memor diwar-benn an identelezh : ma cheñchfe ho memorioù, hag-eñ e vijec'h un den disheñvel?"
         ],
         "lang": "br",
         "level": "advanced",
@@ -227,7 +227,7 @@
     {
         "t": "An aozadurioù hag-eñ e talvezont deomp",
         "h": [
-            "Soñjit en un aozadur — yec'hed, deskadurezh, gouarnamant — ha priziit anezhañ a-zevri.",
+            "Soñjit en un aozadur : yec'hed, deskadurezh, gouarnamant : ha priziit anezhañ a-zevri.",
             "Pegoulz e paouez un aozadur da gas e gefridi da benn?",
             "Hag-eñ oc'h bet dilaosket gant un aozadur ho poa fiziañs ennañ?",
             "Hag-eñ eo posubl kemmañ an traoù pe hag-eñ e rank an aozadurioù bezañ kemmet penn-da-benn?",
@@ -272,7 +272,7 @@
             "Peseurt sinoù e sellit outo?",
             "Hag-eñ eo bet ho nien a-dreuz penn-da-benn biskoazh?",
             "Hag-eñ e soñjit oc'h re fizius, ket a-walc'h, pe hag-eñ eo reizh ho fiziañs?",
-            "Hag-eñ e vez roet ar fiziañs pe gounezet — ha hag-eñ eo pouezus an diforc'h-se?",
+            "Hag-eñ e vez roet ar fiziañs pe gounezet : ha hag-eñ eo pouezus an diforc'h-se?",
             "Petra a dorr ar fiziañs da viken herveoc'h?"
         ],
         "lang": "br",

@@ -390,7 +390,7 @@ var CURRICULUM = {
               explain: "These linking phrases are what make spoken French sound structured and natural. They are the backbone of any well-argued opinion.",
               rule: "D'abord… · Ensuite… · De plus… · En revanche… · En fin de compte…",
               examples: [{ t: "D'abord, je pense que…", e: "First of all, I think that…" }, { t: "En revanche, il faut admettre que…", e: "On the other hand, we must admit that…" }, { t: "En fin de compte, cela dépend de…", e: "Ultimately, it depends on…" }, { t: "Certes, mais…", e: "Granted, but…" }],
-              tip: "💡 Certes, mais… is a powerful B1/B2 move — it acknowledges the other view before countering it.",
+              tip: "💡 Certes, mais… is a powerful B1/B2 move : it acknowledges the other view before countering it.",
               practiceTheme: "Opinions",
             },
           ],

@@ -65,7 +65,7 @@
                 "La memoria selettiva è una forma di disonestà verso noi stessi?",
                 "Il perdono può richiedere l'oblio, o è un errore categoriale?",
                 "Cosa rivela di sé una società che sceglie collettivamente di dimenticare?",
-                "Esiste un'amnesia etica — per gli individui o per le nazioni?"
+                "Esiste un'amnesia etica : per gli individui o per le nazioni?"
             ],
             "word": "L'etica di ciò che scegliamo di dimenticare",
             "definitions": [
@@ -76,7 +76,7 @@
                         "La memoria selettiva è una forma di disonestà verso noi stessi?",
                         "Il perdono può richiedere l'oblio, o è un errore categoriale?",
                         "Cosa rivela di sé una società che sceglie collettivamente di dimenticare?",
-                        "Esiste un'amnesia etica — per gli individui o per le nazioni?"
+                        "Esiste un'amnesia etica : per gli individui o per le nazioni?"
                     ]
                 }
             ],
@@ -123,7 +123,7 @@
                 "La libertà è sempre acquistata a spese di qualcun altro?",
                 "Sperimenti le tue responsabilità come vincoli o come ciò che dà significato alla tua libertà?",
                 "Una persona può essere genuinamente libera senza le condizioni materiali per esercitare tale libertà?",
-                "Cosa sacrificheresti per essere più libero — e cosa rivela la tua risposta?"
+                "Cosa sacrificheresti per essere più libero : e cosa rivela la tua risposta?"
             ],
             "word": "Il rapporto tra libertà e responsabilità nella propria vita",
             "definitions": [
@@ -134,7 +134,7 @@
                         "La libertà è sempre acquistata a spese di qualcun altro?",
                         "Sperimenti le tue responsabilità come vincoli o come ciò che dà significato alla tua libertà?",
                         "Una persona può essere genuinamente libera senza le condizioni materiali per esercitare tale libertà?",
-                        "Cosa sacrificheresti per essere più libero — e cosa rivela la tua risposta?"
+                        "Cosa sacrificheresti per essere più libero : e cosa rivela la tua risposta?"
                     ]
                 }
             ],
@@ -152,7 +152,7 @@
                 "Ti fidi dei sentimenti nostalgici o li tratti con sospetto?",
                 "Ciò di cui hai nostalgia è un passato reale o una versione modificata?",
                 "Cosa impedisce la nostalgia e cosa rende possibile?",
-                "Una società può essere nostalgica allo stesso modo di un individuo — e con gli stessi pericoli?"
+                "Una società può essere nostalgica allo stesso modo di un individuo : e con gli stessi pericoli?"
             ],
             "word": "Cosa fa davvero la nostalgia quando ci viene a trovare",
             "definitions": [
@@ -163,7 +163,7 @@
                         "Ti fidi dei sentimenti nostalgici o li tratti con sospetto?",
                         "Ciò di cui hai nostalgia è un passato reale o una versione modificata?",
                         "Cosa impedisce la nostalgia e cosa rende possibile?",
-                        "Una società può essere nostalgica allo stesso modo di un individuo — e con gli stessi pericoli?"
+                        "Una società può essere nostalgica allo stesso modo di un individuo : e con gli stessi pericoli?"
                     ]
                 }
             ],
@@ -353,7 +353,7 @@
             "h": [
                 "C'è qualcosa che senti ma per cui non riesci a trovare un linguaggio?",
                 "La difficoltà riguarda il linguaggio o la cosa in sé?",
-                "Pensi che qualche esperienza interiore sia genuinamente privata — inaccessibile persino a te stesso?",
+                "Pensi che qualche esperienza interiore sia genuinamente privata : inaccessibile persino a te stesso?",
                 "Cosa significherebbe comprendere appieno la propria interiorità?",
                 "L'ineffabile deve essere articolato per essere reale?"
             ],
@@ -364,7 +364,7 @@
                     "examples": [
                         "C'è qualcosa che senti ma per cui non riesci a trovare un linguaggio?",
                         "La difficoltà riguarda il linguaggio o la cosa in sé?",
-                        "Pensi che qualche esperienza interiore sia genuinamente privata — inaccessibile persino a te stesso?",
+                        "Pensi che qualche esperienza interiore sia genuinamente privata : inaccessibile persino a te stesso?",
                         "Cosa significherebbe comprendere appieno la propria interiorità?",
                         "L'ineffabile deve essere articolato per essere reale?"
                     ]
@@ -413,7 +413,7 @@
                 "In cosa consiste effettivamente la continuità del sé?",
                 "La persona che ricordi di essere è la stessa persona che parla ora?",
                 "Cosa succede all'identità nell'esperienza di una perdita o trasformazione radicale?",
-                "La questione dell'identità personale ha importanza per come ci trattiamo a vicenda — legalmente, eticamente?"
+                "La questione dell'identità personale ha importanza per come ci trattiamo a vicenda : legalmente, eticamente?"
             ],
             "word": "Memoria, identità e ciò che rimane quando entrambe mutano",
             "definitions": [
@@ -424,7 +424,7 @@
                         "In cosa consiste effettivamente la continuità del sé?",
                         "La persona che ricordi di essere è la stessa persona che parla ora?",
                         "Cosa succede all'identità nell'esperienza di una perdita o trasformazione radicale?",
-                        "La questione dell'identità personale ha importanza per come ci trattiamo a vicenda — legalmente, eticamente?"
+                        "La questione dell'identità personale ha importanza per come ci trattiamo a vicenda : legalmente, eticamente?"
                     ]
                 }
             ],

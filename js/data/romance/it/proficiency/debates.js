@@ -1099,7 +1099,7 @@
             "level": "proficiency",
             "theme": "language",
             "ideasA": [
-                "Lo status morale richiede la capacità di 'senzienza'—l'esperienza soggettiva e qualitativa del dolore e del piacere—che è unicamente biologica.",
+                "Lo status morale richiede la capacità di 'senzienza' : l'esperienza soggettiva e qualitativa del dolore e del piacere : che è unicamente biologica.",
                 "Un'IA generale, per quanto sofisticata, è in definitiva un insieme di algoritmi privi della 'vita interiore' che giustifica la preoccupazione morale."
             ],
             "ideasB": [
