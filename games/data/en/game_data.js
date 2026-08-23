@@ -33,6 +33,8 @@
         { text: 'Cooking at home is always better than eating out.', level: 'intermediate' },
         { text: 'Children should learn a musical instrument.', level: 'intermediate' },
         { text: 'The world would be better with one universal language.', level: 'intermediate' },
+        { text: 'Universal basic income is necessary for future economies.', level: 'upper_intermediate' },
+        { text: 'Artistic creativity cannot be replicated by synthetic algorithms.', level: 'advanced' }
       ],
       battle: [
         ['Mountains 🏔️', 'Beach 🏖️'],
@@ -66,6 +68,8 @@
         { person: 'A surgeon', clue: 'They operate on people inside a hospital.', level: 'upper_intermediate' },
         { person: 'A diplomat', clue: 'They work between governments of different countries.', level: 'advanced' },
         { person: 'A marine biologist', clue: 'They study life in the ocean.', level: 'advanced' },
+        { person: 'A data scientist', clue: 'They analyze complex statistics and algorithms to find hidden patterns.', level: 'upper_intermediate' },
+        { person: 'An acoustic engineer', clue: 'They design spaces to control sound propagation and eliminate noise.', level: 'advanced' }
       ],
       wordlinker: [
         { words: ['Apple', 'Orange', 'Banana', 'Carrot'], odd: 'Carrot', link: 'Fruits', oddReason: 'Carrot is a vegetable' },
