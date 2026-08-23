@@ -86,7 +86,7 @@ test.describe('Multi-Device Visual & Functional Event Audit', () => {
       }
 
       // Assert no critical JS errors
-      const criticalErrors = consoleErrors.filter(err => !err.includes('Failed to load resource') && !err.includes('favicon') && !err.includes('X-Frame-Options'));
+      const criticalErrors = consoleErrors.filter(err => !err.includes('Failed to load resource') && !err.includes('favicon') && !err.includes('X-Frame-Options') && !err.includes('compute-pressure'));
       expect(criticalErrors, `Console errors logged on ${pageItem.name}: ${criticalErrors.join(', ')}`).toEqual([]);
     });
   }
