@@ -1252,10 +1252,51 @@
         draw();
     };
 
+    window.cosyDrawTTSWaveform = function(durationMs) {
+        const canvas = document.getElementById('speaking-waveform');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+        canvas.style.display = 'block';
+        let t = 0;
+        let isPlaying = true;
+        let frameId = null;
+
+        function draw() {
+            if (!isPlaying) return;
+            frameId = requestAnimationFrame(draw);
+
+            ctx.fillStyle = '#FFFEFB';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = '#2D7D6F';
+            ctx.beginPath();
+
+            for (let x = 0; x < canvas.width; x++) {
+                const y = (canvas.height / 2) + Math.sin(x * 0.05 + t) * 15 * Math.sin(x * 0.01 + t * 0.5);
+                if (x === 0) ctx.moveTo(x, y);
+                else ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+            t += 0.1;
+        }
+        draw();
+
+        setTimeout(() => {
+            isPlaying = false;
+            if (frameId) cancelAnimationFrame(frameId);
+            if (canvas) {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                canvas.style.display = 'none';
+            }
+        }, durationMs || 2500);
+    };
+
     window.cosyDrawLiveWaveformSimulated = function() {
         const canvas = document.getElementById('speaking-waveform');
         if (!canvas) return;
         const ctx = canvas.getContext('2d');
+        canvas.style.display = 'block';
         let t = 0;
 
         function draw() {
@@ -1300,6 +1341,12 @@
 
     engine.speakText = function(text, lang) {
         if (!text) return;
+
+        // Trigger visual speech waveform animation if canvas element is rendered
+        if (window.cosyDrawTTSWaveform) {
+            window.cosyDrawTTSWaveform(2500);
+        }
+
         if (window.gameUtils && typeof window.gameUtils.speak === 'function') {
             window.gameUtils.speak(text, lang || engine.session?.lang || 'en');
             return;

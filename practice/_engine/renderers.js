@@ -226,11 +226,13 @@
         },
 
         renderLS(q, session, lang) {
-            // Listen and select usually provides audio and then MC options (IPA or words)
             let finalOpts = q.opts || [];
             const textToSpeak = (q.item?.word || q.ans || '').replace(/'/g, "\\'");
             return `<div style="text-align:center; margin-bottom: 1.5rem;">
                 <button class="btn-outline" onclick="window.cosyPracticeEngine.speakText('${textToSpeak}', '${lang}')">🔊 Play Audio <span class="keycap-badge">S</span></button>
+                <div class="waveform-wrap" style="margin-top: 1rem; display: flex; justify-content: center;">
+                    <canvas id="speaking-waveform" class="waveform-canvas" width="320" height="60" style="display:none; border-radius: 8px; background: var(--warm-white); border: 1px solid var(--border);"></canvas>
+                </div>
             </div>
             <div class="mc-options">` + finalOpts.map((o, i) =>
                 `<button class="mc-opt" id="mc-opt-${i}" onclick="checkMC(${i})"><span class="keycap-badge">${i + 1}</span> ${o}</button>`).join('') + `</div>`;
