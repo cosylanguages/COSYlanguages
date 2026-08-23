@@ -219,6 +219,7 @@
     const KEY_TOTAL_PTS = 'cosy_total_points';
     const KEY_STREAK = 'practice_streak';
     const KEY_LAST_DATE = 'last_practice_date';
+    const KEY_SRS = 'cosy_srs_data';
 
     function loadState() {
         try {
@@ -228,6 +229,68 @@
             s.lastDate = localStorage.getItem(KEY_LAST_DATE) || '';
             return s;
         } catch { return { totalPts: 0, streak: 0, lastDate: '' }; }
+    }
+
+    function getSRSMap() {
+        try {
+            return JSON.parse(localStorage.getItem(KEY_SRS) || '{}');
+        } catch { return {}; }
+    }
+
+    function saveSRSMap(map) {
+        try {
+            localStorage.setItem(KEY_SRS, JSON.stringify(map));
+        } catch (e) {
+            console.error("Failed to save SRS data", e);
+        }
+    }
+
+    function updateItemSRS(item, isCorrect, langKey) {
+        if (!item || !item.word) return;
+        const l = langKey || 'en';
+        const itemKey = `${l.toLowerCase()}:${item.word.toLowerCase()}`;
+        const map = getSRSMap();
+        const existing = map[itemKey] || {
+            key: itemKey,
+            word: item.word,
+            lang: l,
+            level: item.level || 'all',
+            theme: item.theme || 'all',
+            interval: 0,
+            repetition: 0,
+            easeFactor: 2.5,
+            nextReview: Date.now()
+        };
+
+        const grade = isCorrect ? 5 : 1;
+        let rep = existing.repetition;
+        let interval = existing.interval;
+        let ef = existing.easeFactor;
+
+        if (grade >= 3) {
+            if (rep === 0) interval = 1;
+            else if (rep === 1) interval = 6;
+            else interval = Math.round(interval * ef);
+            rep++;
+        } else {
+            rep = 0;
+            interval = 1;
+        }
+
+        ef = ef + (0.1 - (5 - grade) * (0.08 + (5 - grade) * 0.02));
+        if (ef < 1.3) ef = 1.3;
+
+        map[itemKey] = {
+            ...existing,
+            item,
+            repetition: rep,
+            interval: interval,
+            easeFactor: parseFloat(ef.toFixed(2)),
+            lastReviewed: Date.now(),
+            nextReview: Date.now() + (interval * 86400000)
+        };
+
+        saveSRSMap(map);
     }
 
     function saveState(s) {
@@ -477,6 +540,12 @@
             if (document.getElementById('total-correct')) document.getElementById('total-correct').textContent = s.todayCorrect;
             if (document.getElementById('total-sessions')) document.getElementById('total-sessions').textContent = s.sessions;
 
+            const dailyXP = (s.todayCorrect || 0) * 10;
+            const dailyXPValEl = document.getElementById('daily-xp-val');
+            if (dailyXPValEl) {
+                dailyXPValEl.textContent = `${dailyXP} / 50 XP`;
+            }
+
             const arc = document.getElementById('streak-arc');
             if (arc) {
                 const pct = Math.min(s.streak / 30, 1);
@@ -548,8 +617,11 @@
             showFloatingScoreEffect(floatingText, true);
 
             const q = this.session.sessionQueue[this.session.currentIndex];
-            if (q && q.item && window.COSY?.addToDict) {
-                window.COSY.addToDict(q.item);
+            if (q && q.item) {
+                updateItemSRS(q.item, true, this.session.lang);
+                if (window.COSY?.addToDict) {
+                    window.COSY.addToDict(q.item);
+                }
             }
         },
 
@@ -594,6 +666,7 @@
             }
 
             if (!q || !q.item) return;
+            updateItemSRS(q.item, false, this.session?.lang || 'en');
             const s = this.state;
             const exists = s.mistakes.some(m => m.word === q.item.word && m.lang === (this.session?.lang || 'multi'));
             if (!exists) {
@@ -856,6 +929,9 @@
             if (document.getElementById('final-score')) document.getElementById('final-score').textContent = sess.sessionPoints;
             if (document.getElementById('final-total-score')) document.getElementById('final-total-score').textContent = s.totalPts;
             if (document.getElementById('final-streak')) document.getElementById('final-streak').textContent = s.streak;
+
+            const accuracyPct = Math.round((sess.correctCount / Math.max(1, sess.sessionQueue.length)) * 100);
+            if (document.getElementById('final-accuracy')) document.getElementById('final-accuracy').textContent = `${accuracyPct}%`;
         },
 
         endSession() {
@@ -1183,6 +1259,17 @@
         window.cosyCleanupAudio();
         engine.awardPoints(15); // Bonus score for completing a speaking recording!
         showBottomFeedback(true, 'Submission Successful! 🚀', '+15 PTS Perfect accent and speech rhythm matched.', 1500);
+    };
+
+    engine.getSRSMap = getSRSMap;
+    engine.getSRSDueItems = function(lang) {
+        const map = getSRSMap();
+        const now = Date.now();
+        const items = Object.values(map);
+        if (!lang || lang === 'multi' || lang === 'all') {
+            return items.filter(i => i.nextReview <= now);
+        }
+        return items.filter(i => i.lang?.toLowerCase() === lang.toLowerCase() && i.nextReview <= now);
     };
 
     // Expose engine

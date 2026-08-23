@@ -73,7 +73,8 @@
             sc: '🧩 Scramble',
             op: '≠ Antonym',
             np: '👥 Plural',
-            mp: '🔗 Match'
+            mp: '🔗 Match',
+            cloze: '🧩 Sentence Cloze'
         };
         return m[t] || t;
     }
@@ -114,6 +115,8 @@
                 html += this.renderLS(q, session, lang);
             } else if (form === 'mp') {
                 html += this.renderMP(q, session, lang);
+            } else if (form === 'cloze') {
+                html += this.renderCloze(q, session, lang);
             }
 
             return html;
@@ -228,6 +231,15 @@
             let finalOpts = q.opts || [];
             return `<div style="text-align:center; margin-bottom: 1.5rem;">
                 <button class="btn-outline" onclick="window.gameUtils.speak('${q.item?.word || q.ans}', '${lang}')">🔊 Play Audio <span class="keycap-badge">S</span></button>
+            </div>
+            <div class="mc-options">` + finalOpts.map((o, i) =>
+                `<button class="mc-opt" id="mc-opt-${i}" onclick="checkMC(${i})"><span class="keycap-badge">${i + 1}</span> ${o}</button>`).join('') + `</div>`;
+        },
+
+        renderCloze(q, session, lang) {
+            const finalOpts = q.opts || [q.item?.word || 'Word', 'Distractor1', 'Distractor2'];
+            return `<div style="text-align:center; font-size: 1.2rem; margin-bottom: 1.5rem; font-family: 'Fraunces', serif;">
+                <span id="cloze-sentence-display">${q.sentence || q.q || '...'}</span>
             </div>
             <div class="mc-options">` + finalOpts.map((o, i) =>
                 `<button class="mc-opt" id="mc-opt-${i}" onclick="checkMC(${i})"><span class="keycap-badge">${i + 1}</span> ${o}</button>`).join('') + `</div>`;

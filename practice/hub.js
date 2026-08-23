@@ -300,6 +300,33 @@
             window.beginSession('multi', 'Review', 'mixed', 'all', false, qs.slice(0, 10));
         },
 
+        startSRSReview(lang) {
+            const engine = window.cosyPracticeEngine;
+            if (!engine || !engine.getSRSDueItems) return alert("SRS engine unavailable.");
+            const targetLang = lang || selectedLang || 'en';
+            const dueSRS = engine.getSRSDueItems(targetLang);
+
+            if (!dueSRS || dueSRS.length === 0) {
+                const msg = "No SRS items due for review right now! Practice new themes to build your memory bank. 🧠";
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast(msg, false);
+                else alert(msg);
+                return;
+            }
+
+            const qs = dueSRS.map(srs => {
+                const item = srs.item || { word: srs.word, level: srs.level, theme: srs.theme };
+                return {
+                    type: 'mc',
+                    q: `🧠 SRS Memory Review: "${srs.word}" = ?`,
+                    item: item,
+                    ans: 0,
+                    opts: [srs.word, 'Option B', 'Option C', 'Option D']
+                };
+            });
+
+            window.beginSession(targetLang, 'SRS Review', 'mixed', 'all', false, qs.slice(0, 10));
+        },
+
         // Session Navigation delegate to core engine
         nextQ: () => {
             if (window.nextQuestion) window.nextQuestion();

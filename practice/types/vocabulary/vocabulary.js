@@ -320,14 +320,14 @@
             qs = pool.map(item => {
                 const isVocabOrGrammar = (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary');
                 if (isVocabOrGrammar) {
-                    let types = ['mc', 'tf', 'type', 'sc', 'ls', 'mp'];
+                    let types = ['mc', 'tf', 'type', 'sc', 'ls', 'mp', 'cloze'];
                     let type = types[Math.floor(Math.random() * types.length)];
 
-                    // FIX 3 — Guard against missing examples for scramble questions
+                    // Guard against missing examples for scramble & cloze questions
                     const hasExamples = Array.isArray(item.examples)
                         && item.examples.length > 0
                         && item.examples[0]?.text;
-                    if (!hasExamples && type === 'sc') type = 'type';
+                    if (!hasExamples && (type === 'sc' || type === 'cloze')) type = 'mc';
 
                     if (type === 'type' && !item.word) type = 'mc';
 
@@ -438,6 +438,31 @@
                         } else {
                             qText = `🧩 (${item.word})`;
                             ans = ex.text;
+                        }
+                    } else if (type === 'cloze') {
+                        // Fully monolingual Sentence Cloze
+                        const examplesArr = (item.examples && item.examples.length > 0) ? item.examples : (item.definitions?.[0]?.examples || []);
+                        const ex = examplesArr[Math.floor(Math.random() * examplesArr.length)];
+                        if (!ex?.text || !item.word) {
+                            type = 'mc';
+                            const mcQ = buildMCQuestion(item, pool);
+                            qText = mcQ.q;
+                            ans = mcQ.ans;
+                            opts = mcQ.opts;
+                        } else {
+                            const regex = new RegExp(item.word, 'gi');
+                            const sentenceWithBlank = ex.text.replace(regex, '[ ___ ]');
+                            qText = `Fill in the blank: ${sentenceWithBlank}`;
+
+                            const distractors = pool
+                                .filter(p => p.id !== item.id && p.word)
+                                .sort(() => Math.random() - 0.5)
+                                .map(p => p.word)
+                                .slice(0, 2);
+                            while (distractors.length < 2) distractors.push('---');
+
+                            opts = [item.word, ...distractors].sort(() => Math.random() - 0.5);
+                            ans = opts.indexOf(item.word);
                         }
                     }
 

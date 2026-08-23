@@ -87,6 +87,13 @@
         <div class="ds-lbl">Sessions</div>
       </div>
     </div>
+    <div class="dash-stat" style="border-left: 3px solid var(--teal);">
+      <div class="ds-icon">🎯</div>
+      <div>
+        <div id="daily-xp-val" class="ds-val">0 / 50 XP</div>
+        <div class="ds-lbl">Daily Target</div>
+      </div>
+    </div>
     <span id="total-pts" style="display:none">0</span>
   </div>
 
@@ -242,6 +249,11 @@
         <div class="qs-name">Review Mistakes</div>
         <div class="qs-sub">Target weak spots</div>
       </div>
+      <div class="qs-card" style="--qs-color: var(--teal);" onclick="window.cosyPractice.startSRSReview()" role="button" tabindex="0">
+        <div class="qs-icon">🧠</div>
+        <div class="qs-name">SRS Memory Review</div>
+        <div class="qs-sub">Spaced Repetition</div>
+      </div>
       <a href="../apps/fr-conjugeur/" class="qs-card" style="--qs-color: var(--sage); text-decoration: none;">
         <div class="qs-icon">🇫🇷</div>
         <div class="qs-name">FR Conjugeur</div>
@@ -347,6 +359,11 @@
         <span class="stat-emoji">✨</span>
       </div>
       <div class="stat-item">
+        <p>Accuracy Rate:</p>
+        <span id="final-accuracy" class="stat-value">100%</span>
+        <span class="stat-emoji">🎯</span>
+      </div>
+      <div class="stat-item">
         <p data-translate-key="total_score_label">Total Points:</p>
         <span id="final-total-score" class="stat-value">0</span>
         <span class="stat-emoji">🌟</span>
@@ -357,7 +374,10 @@
         <span class="stat-emoji">🔥</span>
       </div>
     </div>
-    <button onclick="cosyPractice.endSession()" class="btn-primary" style="width: 100%; margin-top: 2rem;" data-translate-key="back_to_menu">Back to Menu 🏠</button>
+    <div style="display: flex; gap: 10px; margin-top: 1.5rem;">
+      <button onclick="cosyPractice.startMistakeReview()" class="btn-outline" style="flex: 1;">Review Weak Spots ✏️</button>
+      <button onclick="cosyPractice.endSession()" class="btn-primary" style="flex: 1;" data-translate-key="back_to_menu">Back to Menu 🏠</button>
+    </div>
   </div>
 </div>
 
